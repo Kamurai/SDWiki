@@ -9,6 +9,11 @@ public class Custom extends Main.Custom{
         String vDefault = "./Content/Content_Index.xhtml";
         String vResult = "";
         
+        
+        //Determine card type
+        //Load Card type template as content page
+        //
+        
         if(vPage <= 0){
             vResult += vDefault;
         }else if(vPage == 1){

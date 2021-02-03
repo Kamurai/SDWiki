@@ -1,0 +1,79 @@
+package SDE;
+
+import java.util.ArrayList;
+
+public class Monster extends ExploreCharacter {
+    private String  rank;
+    private String  bits;
+    private int     skulls;
+    
+    public Monster(){
+        super();
+        this.rank   = "";
+        this.bits   = "";
+        this.skulls = -1;
+    }
+    
+    public Monster(
+        int                 cardIndex,
+        String              name,
+        String              pictureFront,
+        String              pictureBack,
+        String              link,
+        String              cardType,
+        String              productSet,
+        String              module,
+        String              mode,
+        String              flavor,
+        String              affinity,
+        String              modelSize,
+        String              creatureType,
+        int                 movement,
+        int                 actions,
+        String              strength,
+        String              armor,
+        String              will,
+        String              dexterity,
+        int                 health,
+        int                 potions,
+        ArrayList<Defense>  defenses,
+        ArrayList<Offense>  offenses,
+        ArrayList<Keyword>  keywords,
+        ArrayList<Ability>  abilities,
+        String              rank,
+        String              bits,
+        int                 skulls
+    ){
+        super(
+            cardIndex,
+            name,
+            pictureFront,
+            pictureBack,
+            link,
+            cardType,
+            productSet,
+            module,
+            mode,
+            flavor,
+            affinity,
+            modelSize,
+            creatureType,
+            movement,
+            actions,
+            strength,
+            armor,
+            will,
+            dexterity,
+            health,
+            potions,
+            defenses,
+            offenses,
+            keywords,
+            abilities
+        );
+        this.rank       = rank;
+        this.bits       = bits;
+        this.skulls     = skulls;
+    }
+    
+}
