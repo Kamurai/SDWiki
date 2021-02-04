@@ -71,5 +71,21 @@ public class Pet extends ExploreCharacter {
         this.cost   = cost;
         this.range  = range;
     }
+
+    public int getCost() {
+        return cost;
+    }
+
+    public void setCost(int cost) {
+        this.cost = cost;
+    }
+
+    public int getRange() {
+        return range;
+    }
+
+    public void setRange(int range) {
+        this.range = range;
+    }
     
 }

@@ -75,5 +75,29 @@ public class Monster extends ExploreCharacter {
         this.bits       = bits;
         this.skulls     = skulls;
     }
+
+    public String getRank() {
+        return rank;
+    }
+
+    public void setRank(String rank) {
+        this.rank = rank;
+    }
+
+    public String getBits() {
+        return bits;
+    }
+
+    public void setBits(String bits) {
+        this.bits = bits;
+    }
+
+    public int getSkulls() {
+        return skulls;
+    }
+
+    public void setSkulls(int skulls) {
+        this.skulls = skulls;
+    }
     
 }

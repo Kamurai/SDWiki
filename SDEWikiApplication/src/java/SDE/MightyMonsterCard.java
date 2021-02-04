@@ -46,5 +46,29 @@ public class MightyMonsterCard extends UtilityCard {
         this.bonus      = bonus;
         this.condition  = condition;
     }
+
+    public String getTargets() {
+        return targets;
+    }
+
+    public void setTargets(String targets) {
+        this.targets = targets;
+    }
+
+    public String getBonus() {
+        return bonus;
+    }
+
+    public void setBonus(String bonus) {
+        this.bonus = bonus;
+    }
+
+    public String getCondition() {
+        return condition;
+    }
+
+    public void setCondition(String condition) {
+        this.condition = condition;
+    }
     
 }

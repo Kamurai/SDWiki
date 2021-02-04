@@ -3,7 +3,7 @@ package SDE;
 import java.awt.List;
 import java.util.ArrayList;
 
-public class ExploreCharacter extends Character{
+public class ExploreCharacter extends Character implements KeywordInterface, AbilityInterface {
     
     private String              modelSize;
     private String              creatureType;
@@ -183,14 +183,6 @@ public class ExploreCharacter extends Character{
         this.potions = potions;
     }
     
-    
-    
-    
-    
-    
-    
-    
-
     public ArrayList<Defense> getDefenses() {
         return defenses;
     }
@@ -231,7 +223,6 @@ public class ExploreCharacter extends Character{
         if(!defense.isWithin(defenses)){
             defenses.add(defense);
         }
-        
     }
     
     public void addOffense(String attribute, int range){
@@ -262,5 +253,5 @@ public class ExploreCharacter extends Character{
         if(!ability.isWithin(abilities)){
             abilities.add(ability);
         }
-    }    
+    }
 }

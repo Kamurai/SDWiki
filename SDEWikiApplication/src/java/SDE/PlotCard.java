@@ -41,5 +41,22 @@ public class PlotCard extends UtilityCard {
         this.powerUp    = powerUp;
         this.plot       = plot;
     }
+
+    public String getPowerUp() {
+        return powerUp;
+    }
+
+    public void setPowerUp(String powerUp) {
+        this.powerUp = powerUp;
+    }
+
+    public String getPlot() {
+        return plot;
+    }
+
+    public void setPlot(String plot) {
+        this.plot = plot;
+    }
+    
     
 }

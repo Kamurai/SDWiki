@@ -52,15 +52,18 @@ create table BossSpawnAssignments (BossSpawnAssignmentIndex bigint IDENTITY(0,1)
 
 create table Utilities (UtilityIndex bigint IDENTITY(0,1) PRIMARY KEY, CardIndex bigint not null, UtilityDescription varchar(1000) not null);
 
-create table Explores (UtilityIndex bigint IDENTITY(0,1) PRIMARY KEY, ExploreIndex bigint not null);
+--drop table Explores, Challenges, Plots, MightyMonsters
+
+
+create table Explores (ExploreIndex bigint IDENTITY(0,1) PRIMARY KEY, CardIndex bigint not null);
 create table ExploreCreeps (ExploreCreepIndex bigint IDENTITY(0,1) PRIMARY KEY, ExploreIndex bigint not null, CreepNumber varchar(50) not null);
 create table ExploreTraps (ExploreTrapIndex bigint IDENTITY(0,1) PRIMARY KEY, ExploreIndex bigint not null, TrapDefense int not null, TrapLayout varchar(10) not null);
 create table ExploreAssignments (ExploreAssignmentIndex bigint IDENTITY(0,1) PRIMARY KEY, ExploreIndex bigint not null, CharacterIndex bigint not null);
 
-create table Challenges (ChallengeIndex bigint IDENTITY(0,1) PRIMARY KEY, UtilityIndex bigint not null, Trap varchar(50) not null, Challenge varchar(50) not null);
+create table Challenges (ChallengeIndex bigint IDENTITY(0,1) PRIMARY KEY, CardIndex bigint not null, Trap varchar(50) not null, Challenge varchar(50) not null);
 create table ChallengeAssignments (ChallengeAssignmentIndex bigint IDENTITY(0,1) PRIMARY KEY, ChallengeIndex bigint not null, CharacterIndex bigint not null);
-create table Plots (PlotIndex bigint IDENTITY(0,1) PRIMARY KEY, UtilityIndex bigint not null, PowerUp varchar(50) not null, Plot varchar(50) not null);
-create table MightyMonsters (MightyMonsterIndex bigint IDENTITY(0,1) PRIMARY KEY, UtilityIndex bigint not null, Targets varchar(50) not null, Bonus varchar(50) not null, Condition varchar(50) not null);
+create table Plots (PlotIndex bigint IDENTITY(0,1) PRIMARY KEY, CardIndex bigint not null, PowerUp varchar(50) not null, Plot varchar(50) not null);
+create table MightyMonsters (MightyMonsterIndex bigint IDENTITY(0,1) PRIMARY KEY, CardIndex bigint not null, Targets varchar(50) not null, Bonus varchar(50) not null, Condition varchar(50) not null);
 
 
 

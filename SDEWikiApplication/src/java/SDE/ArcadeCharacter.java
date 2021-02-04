@@ -4,15 +4,15 @@ import java.awt.List;
 import java.util.ArrayList;
 
 public class ArcadeCharacter extends Character{
-    private StatLine solo;
-    private StatLine gang;
-    private ArrayList<GangMember> gangMembers;
+    private StatLine                soloStatLine;
+    private StatLine                gangStatLine;
+    private ArrayList<GangMember>   gangMembers;
     
     public ArcadeCharacter(){
         super();
-        solo        = new StatLine();
-        gang        = new StatLine();
-        gangMembers = new ArrayList<GangMember>();
+        soloStatLine    = new StatLine();
+        gangStatLine    = new StatLine();
+        gangMembers     = new ArrayList<GangMember>();
     }
     
     public ArcadeCharacter(
@@ -45,8 +45,32 @@ public class ArcadeCharacter extends Character{
             affinity
         );
         
-        this.solo           = solo;
-        this.gang           = gang;
+        this.soloStatLine   = solo;
+        this.gangStatLine   = gang;
         this.gangMembers    = gangMembers;
     }
+
+    public StatLine getSoloStatLine() {
+        return soloStatLine;
+    }
+
+    public void setSoloStatLine(StatLine soloStatLine) {
+        this.soloStatLine = soloStatLine;
+    }
+
+    public StatLine getGang() {
+        return gangStatLine;
+    }
+
+    public void setGang(StatLine gangStatLine) {
+        this.gangStatLine = gangStatLine;
+    }
+
+    public ArrayList<GangMember> getGangMembers() {
+        return gangMembers;
+    }
+
+    public void setGangMembers(ArrayList<GangMember> gangMembers) {
+        this.gangMembers = gangMembers;
+    }    
 }
