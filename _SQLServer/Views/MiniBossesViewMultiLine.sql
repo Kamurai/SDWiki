@@ -4,10 +4,10 @@ create view MiniBossesViewMultiLine as
 select a.CardIndex, a.Name as CardName, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor, --Cards
 ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions, --ExploreCharacter
 AffinityType, --Affinity
-g.Name as KeywordName, KeywordDescription, --Keywords
-i.Name as AbilityName, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, --Abilities
-k.Attribute as Offense, --Offense
-m.Attribute as Defense--Defense
+g.KeywordIndex, g.Name as KeywordName, KeywordDescription, --Keywords
+i.AbilityIndex, i.Name as AbilityName, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, --Abilities
+k.AttributeIndex as OffenseIndex, k.Attribute as Offense, j.OffenseRange, --Offense
+m.AttributeIndex as DefenseIndex, m.Attribute as Defense --Defense
 from Cards a
 join Characters b on a.CardIndex=b.CardIndex
 join ExploreCharacters c on b.CharacterIndex=c.CharacterIndex

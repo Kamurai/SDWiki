@@ -4,10 +4,10 @@ create view PetsViewMultiLine as
 select a.CardIndex, a.Name as CardName, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor, --Cards
 ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions, --ExploreCharacter
 AffinityType, --Affinity
-g.Name as KeywordName, KeywordDescription, --Keywords
-i.Name as AbilityName, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, --Abilities
-k.Attribute as Offense, --Offenses
-m.Attribute as Defense, --Defenses
+g.KeywordIndex, g.Name as KeywordName, KeywordDescription, --Keywords
+i.AbilityIndex, i.Name as AbilityName, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, --Abilities
+k.AttributeIndex as OffenseIndex, k.Attribute as Offense, j.OffenseRange, --Offenses
+m.AttributeIndex as DefenseIndex, m.Attribute as Defense, --Defenses
 RangeLimit --Pets
 from Cards a
 join Characters b on a.CardIndex=b.CardIndex

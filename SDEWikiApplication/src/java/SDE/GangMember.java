@@ -12,8 +12,6 @@ public class GangMember implements KeywordInterface, AbilityInterface {
     private int     armor;
     private String  modelSize;
     
-    private ArrayList<Defense>  defenses;
-    private ArrayList<Offense>  offenses;
     private ArrayList<Keyword>  keywords;
     private ArrayList<Ability>  abilities;
     
@@ -28,8 +26,6 @@ public class GangMember implements KeywordInterface, AbilityInterface {
         this.armor          = -1;
         this.modelSize      = "";
     
-        this.defenses       = new ArrayList<Defense>();
-        this.offenses       = new ArrayList<Offense>();
         this.keywords       = new ArrayList<Keyword>();
         this.abilities      = new ArrayList<Ability>();
     }
@@ -44,8 +40,6 @@ public class GangMember implements KeywordInterface, AbilityInterface {
         int     armor,
         String  modelSize,
     
-        ArrayList<Defense>  defenses,
-        ArrayList<Offense>  offenses,
         ArrayList<Keyword>  keywords,
         ArrayList<Ability>  abilities
     ){
@@ -58,22 +52,74 @@ public class GangMember implements KeywordInterface, AbilityInterface {
         this.armor          = armor;
         this.modelSize      = modelSize;
                 
-        this.defenses       = defenses;
-        this.offenses       = offenses;
         this.keywords       = keywords;
         this.abilities      = abilities;
     }
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public int getOrder() {
+        return order;
+    }
+
+    public void setOrder(int order) {
+        this.order = order;
+    }
+
+    public String getCreatureType() {
+        return creatureType;
+    }
+
+    public void setCreatureType(String creatureType) {
+        this.creatureType = creatureType;
+    }
+
+    public String getRank() {
+        return rank;
+    }
+
+    public void setRank(String rank) {
+        this.rank = rank;
+    }
+
+    public int getMovement() {
+        return movement;
+    }
+
+    public void setMovement(int movement) {
+        this.movement = movement;
+    }
+
+    public int getHealth() {
+        return health;
+    }
+
+    public void setHealth(int health) {
+        this.health = health;
+    }
+
+    public int getArmor() {
+        return armor;
+    }
+
+    public void setArmor(int armor) {
+        this.armor = armor;
+    }
+
+    public String getModelSize() {
+        return modelSize;
+    }
+
+    public void setModelSize(String modelSize) {
+        this.modelSize = modelSize;
+    }
+
     public ArrayList<Keyword> getKeywords() {
         return keywords;
     }
@@ -108,5 +154,102 @@ public class GangMember implements KeywordInterface, AbilityInterface {
         if(!ability.isWithin(abilities)){
             abilities.add(ability);
         }
+    }
+    
+    public int compareTo(GangMember other){
+        int result = -2;
+        
+        if(
+            this.getName().compareTo(other.getName()) == 0 && 
+            this.getOrder() == other.getOrder() && 
+            this.getCreatureType().compareTo(other.getCreatureType()) == 0 && 
+            this.getRank().compareTo(other.getRank()) == 0 && 
+            this.getMovement() == other.getMovement() && 
+            this.getHealth() == other.getHealth() && 
+            this.getArmor() == other.getArmor() && 
+            this.getModelSize().compareTo(other.getModelSize()) == 0 && 
+            compareKeywords(other.getKeywords()) &&
+            compareAbilities(other.getAbilities())
+        ){
+            result = 0;
+        }else if(
+            this.getName().compareTo(other.getName()) < 0 || 
+            this.getOrder() < other.getOrder() || 
+            this.getCreatureType().compareTo(other.getCreatureType()) < 0 || 
+            this.getRank().compareTo(other.getRank()) < 0 || 
+            this.getMovement() < other.getMovement() || 
+            this.getHealth() < other.getHealth() || 
+            this.getArmor() < other.getArmor() || 
+            this.getModelSize().compareTo(other.getModelSize()) < 0 || 
+            !compareKeywords(other.getKeywords()) ||
+            !compareAbilities(other.getAbilities())
+        ){
+            result = -1;
+        }else if(
+            this.getName().compareTo(other.getName()) > 0 || 
+            this.getOrder() > other.getOrder() || 
+            this.getCreatureType().compareTo(other.getCreatureType()) > 0 || 
+            this.getRank().compareTo(other.getRank()) > 0 || 
+            this.getMovement() > other.getMovement() || 
+            this.getHealth() > other.getHealth() || 
+            this.getArmor() > other.getArmor() || 
+            this.getModelSize().compareTo(other.getModelSize()) > 0 || 
+            !compareKeywords(other.getKeywords()) ||
+            !compareAbilities(other.getAbilities())
+        ){
+            result = 1;
+        }
+                
+        return result;
+    }
+    
+    
+    public boolean isWithin(ArrayList<GangMember> list){
+        boolean result = false;
+                
+        for(int x = 0; x < list.size(); x++){
+            if(this.compareTo(list.get(x)) == 0){
+                result = false;
+                break;
+            }else{
+                result = true;
+            }
+        }
+                
+        return result;
+    }
+    
+    public boolean compareKeywords(ArrayList<Keyword> other){
+        boolean result = false;
+        
+        if(other != null && this.keywords.size() == other.size()){
+            for(int x = 0; x < other.size(); x++){
+                if(this.keywords.get(x).compareTo(other.get(x)) != 0){
+                    result = false;
+                    break;
+                }else{
+                    result = true;
+                }
+            }
+        }
+        
+        return result;
+    }
+    
+    public boolean compareAbilities(ArrayList<Ability> other){
+        boolean result = false;
+        
+        if(other != null && this.abilities.size() == other.size()){
+            for(int x = 0; x < other.size(); x++){
+                if(this.abilities.get(x).compareTo(other.get(x)) != 0){
+                    result = false;
+                    break;
+                }else{
+                    result = true;
+                }
+            }
+        }
+        
+        return result;
     }
 }

@@ -1,58 +1,34 @@
 package Main;
 
-public class Universal
-{
-    public Universal()
-    {
-
-    }
+public class Universal{
     
-    public String getWebMaster()
-    {
-        String Result = "";
-        
-        Result += "Website managed by Kamurai.";
-        
-        return Result;
+    private String site     = "http://htkb.dyndns.org:8080/";
+    private String app      = "SDWiki/";
+    private String appPath  = site+app;
+    
+    public Universal(){}
+
+    public String getSite() {
+        return site;
     }
 
-    public String getPath(int level)
-    {
-        if(level <= 0)
-        {
-            return "./";
-        }
-        else if(level == 1)
-        {
-            return "../";
-        }
-        else if(level == 2)
-        {
-            return "../../";
-        }
-        else if(level == 3)
-        {
-            return "../../../";
-        }
-        else if(level == 4)
-        {
-            return "../../../../";
-        }
-        else if(level == 5)
-        {
-            return "../../../../../";
-        }
-        else if(level == 6)
-        {
-            return "../../../../../../";
-        }
-        else if(level == 7)
-        {
-            return "../../../../../../../";
-        }
-        else
-        {
-            return "./";
-        }
-    }    
+    public void setSite(String site) {
+        this.site = site;
+    }
+
+    public String getApp() {
+        return app;
+    }
+
+    public void setApp(String app) {
+        this.app = app;
+    }
+
+    public String getAppPath() {
+        return appPath;
+    }
+
+    public void setAppPath(String appPath) {
+        this.appPath = appPath;
+    }
 }

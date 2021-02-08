@@ -1,11 +1,11 @@
---drop view ArcadeWarbandsViewMultiLine
+--drop view ArcadeMonstersViewMultiLine
 --Arcade Warbands
-create view ArcadeWarbandsViewMultiLine as 
+create view ArcadeMonstersViewMultiLine as 
 select a.CardIndex, a.Name as CardName, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor, --Cards
 AffinityType, --Affinity
 f.StatAction as SoloActions, f.StatStrength as SoloStrength, f.StatRange as SoloRange, --Solo Stat lines
 g.StatAction as GangActions, g.StatStrength as GangStrength, g.StatRange as GangRange, --Gang Stat lines
-h.GangMemberIndex, MemberOrder, h.Name as GangMemberName, h.CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, --GangMembers
+h.GangMemberIndex, MemberOrder, h.Name as GangMemberName, h.CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor,--GangMembers
 j.KeywordIndex, j.Name as KeywordName, KeywordDescription, --Keywords
 l.AbilityIndex, l.Name as AbilityName, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, --Abilities
 m.ModelSize --ExploreCharacter
@@ -22,5 +22,5 @@ join Keywords j on i.KeywordIndex=j.KeywordIndex
 join AbilityAssignments k on h.GangMemberIndex=k.GangMemberIndex
 join Abilities l on k.AbilityIndex=l.AbilityIndex
 join ExploreCharacters m on h.ExploreCharacterIndex = m.ExploreCharacterIndex
-where a.CardType = 'Arcade Gang' or a.CardType = 'Arcade Solo' or a.CardType = 'Arcade Spawn' 
+where a.CardType = 'Arcade Gang' or a.CardType = 'Arcade Solo' or a.CardType = 'Arcade Spawn' or a.CardType = 'Arcade Mini Boss' or a.CardType = 'Arcade Creep' or a.CardType = 'Arcade Boss' or a.CardType = 'Arcade Booty'
 ;

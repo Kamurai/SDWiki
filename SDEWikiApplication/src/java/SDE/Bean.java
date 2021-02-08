@@ -5,73 +5,130 @@
 
 package SDE;
 
-import Main.*;
 import javax.faces.bean.ManagedBean;
 import javax.faces.bean.RequestScoped;
 import javax.faces.bean.SessionScoped;
 import javax.faces.bean.ViewScoped;
+import Main.Universal;
 
 @ManagedBean(name="SDEBean")
 @RequestScoped
-public class Bean{
-    int vLevel;
-    int vPage;
+public class Bean extends Main.Bean{
+    private Database.SDE.SDEDAOOne oneDAO;
+    private Database.SDE.SDEDAOAll allDAO;
+    private Database.SDE.SDEDAONavigation navDAO;
+    private Card card;
     
-    Custom    vCustom;
-    Universal vUniversal;
-
     public Bean(){
-        vLevel = 0;
-        vPage = 0;
+        this.uni        = new Universal();
+        this.oneDAO     = new Database.SDE.SDEDAOOne();
+        this.allDAO     = new Database.SDE.SDEDAOAll();
+        this.navDAO     = new Database.SDE.SDEDAONavigation();
+        this.card       = new Card();
+    }
+    
+    public String setHeroPage(String link){
+        this.card = oneDAO.pullOneHero(link);
         
-        vCustom = new Custom();
-        vUniversal = new Universal();
+        return uni.getAppPath()+"SDE/Layout.xhtml";
     }
-
-   public void setVLevel(int vLevel)
-    {
-        this.vLevel = vLevel;
+    
+    public String setPetPage(String link){
+        this.card = oneDAO.pullOnePet(link);
+        
+        return uni.getAppPath()+"SDE/Layout.xhtml";
     }
-
-    public void setVPage(int vPage)
-    {
-        this.vPage = vPage;
+    
+    public String setBossSpawnPage(String link){
+        this.card = oneDAO.pullOneBossSpawnCard(link);
+        
+        return uni.getAppPath()+"SDE/Layout.xhtml";
     }
-
-    public int getVPage()
-    {
-        return vPage;
+    
+    public String setBossPage(String link){
+        this.card = oneDAO.pullOneBoss(link);
+        
+        return uni.getAppPath()+"SDE/Layout.xhtml";
     }
-
-    public String getPath()
-    {
-        return vUniversal.getPath(vLevel);
+    
+    public String setElitePage(String link){
+        this.card = oneDAO.pullOneElite(link);
+        
+        return uni.getAppPath()+"SDE/Layout.xhtml";
     }
-
-    public String getStylePath()
-    {
-        return vUniversal.getPath(vLevel-1);
+    
+    public String setMinionPage(String link){
+        this.card = oneDAO.pullOneMinion(link);
+        
+        return uni.getAppPath()+"SDE/Layout.xhtml";
     }
-
-    public String getContent()
-    {
-        return vCustom.getContent(getVPage());
+    
+    public String setSpawnPage(String link){
+        this.card = oneDAO.pullOneSpawn(link);
+        
+        return uni.getAppPath()+"SDE/Layout.xhtml";
     }
-
-    public String getVersions()
-    {
-        return vCustom.getVersions(getVPage());
+    
+    public String setLootPage(String link){
+        this.card = oneDAO.pullOneLoot(link);
+        
+        return uni.getAppPath()+"SDE/Layout.xhtml";
     }
-
-    public String WebMaster()
-    {
-        return vUniversal.getWebMaster();
+    
+    public String setTreasurePage(String link){
+        this.card = oneDAO.pullOneTreasure(link);
+        
+        return uni.getAppPath()+"SDE/Layout.xhtml";
     }
-
-    public String setLayout(int vLevel, int vPage){
-        setVLevel(vLevel);
-        setVPage(vPage);
-
-        return getPath()+"SDE/Layout.xhtml";
+    
+    public String setUtilityCardPage(String link){
+        this.card = oneDAO.pullOneUtilityCard(link);
+        
+        return uni.getAppPath()+"SDE/Layout.xhtml";
+    }
+    
+    
+    
+    //setWarbandPage
+    
+    //setKeywordPage
+    
+    //setAbilityPage
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    public String getContent(){
+        String result = uni.getAppPath()+"SDE/_Content/";
+        
+        if(this.card.getCardType().compareTo("Hero") == 0){
+            result += "Content_Hero.xhtml";
+        }else if(this.card.getCardType().compareTo("Hero") == 0){
+            result += "Content_Ability.xhtml";
+        }else if(this.card.getCardType().compareTo("Hero") == 0){
+            result += "Content_Affinity.xhtml";
+        }else if(this.card.getCardType().compareTo("Hero") == 0){
+            result += "Content_BossSpawn.xhtml";
+        }else if(this.card.getCardType().compareTo("Hero") == 0){
+            result += "Content_Monster.xhtml";
+        }else if(this.card.getCardType().compareTo("Hero") == 0){
+            result += "Content_Keyword.xhtml";
+        }else if(this.card.getCardType().compareTo("Hero") == 0){
+            result += "Content_Equipment.xhtml";
+        }else if(this.card.getCardType().compareTo("Hero") == 0){
+            result += "Content_Utility.xhtml";
+        }else{
+            result += "Content_Card.xhtml";
+        }
+        
+        return result;
     }
 }

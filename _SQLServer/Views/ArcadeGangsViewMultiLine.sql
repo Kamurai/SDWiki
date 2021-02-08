@@ -5,9 +5,9 @@ select a.CardIndex, a.Name as CardName, PictureFront, PictureBack, Link, CardTyp
 AffinityType, --Affinity
 f.StatAction as SoloActions, f.StatStrength as SoloStrength, f.StatRange as SoloRange, --Solo Stat lines
 g.StatAction as GangActions, g.StatStrength as GangStrength, g.StatRange as GangRange, --Gang Stat lines
-MemberOrder, h.Name as GangMemberName, h.CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor,--GangMembers
-j.Name as KeywordName, KeywordDescription, --Keywords
-l.Name as AbilityName, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, --Abilities
+h.GangMemberIndex, MemberOrder, h.Name as GangMemberName, h.CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor,--GangMembers
+j.KeywordIndex, j.Name as KeywordName, KeywordDescription, --Keywords
+l.AbilityIndex, l.Name as AbilityName, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, --Abilities
 m.ModelSize --ExploreCharacter
 from Cards a
 join Characters b on a.CardIndex=b.CardIndex

@@ -121,7 +121,7 @@ public class Ability {
             this.getName().compareTo(other.getName()) == -1 || 
             this.getResource().compareTo(other.getResource()) == -1 ||
             this.getType().compareTo(other.getType()) == -1 ||
-            this.getCost() == other.getCost() ||
+            this.getCost() < other.getCost() ||
             this.getAttribute().compareTo(other.getAttribute()) == -1 || 
             this.getRange() < other.getRange() ||
             this.getDescription().compareTo(other.getDescription()) == -1
@@ -155,7 +155,5 @@ public class Ability {
         }
                 
         return result;
-    }
-    
-    
+    }    
 }

@@ -27,8 +27,8 @@ public class ArcadeCharacter extends Character{
         String                  mode,
         String                  flavor,
         String                  affinity,
-        StatLine                solo,
-        StatLine                gang,
+        StatLine                soloStatLine,
+        StatLine                gangStatLine,
         ArrayList<GangMember>   gangMembers
     ){
         super(
@@ -45,8 +45,8 @@ public class ArcadeCharacter extends Character{
             affinity
         );
         
-        this.soloStatLine   = solo;
-        this.gangStatLine   = gang;
+        this.soloStatLine   = soloStatLine;
+        this.gangStatLine   = gangStatLine;
         this.gangMembers    = gangMembers;
     }
 
@@ -54,15 +54,23 @@ public class ArcadeCharacter extends Character{
         return soloStatLine;
     }
 
+    public void setSoloStatLine(int soloAction, int soloStrength, int soloRange) {
+        setSoloStatLine(new StatLine(soloAction, soloStrength, soloRange));
+    }
+
     public void setSoloStatLine(StatLine soloStatLine) {
         this.soloStatLine = soloStatLine;
     }
 
-    public StatLine getGang() {
+    public StatLine getGangStatLine() {
         return gangStatLine;
     }
 
-    public void setGang(StatLine gangStatLine) {
+    public void setGangStatLine(int gangAction, int gangStrength, int gangRange) {
+        setGangStatLine(new StatLine(gangAction, gangStrength, gangRange));
+    }
+
+    public void setGangStatLine(StatLine gangStatLine) {
         this.gangStatLine = gangStatLine;
     }
 
@@ -72,5 +80,15 @@ public class ArcadeCharacter extends Character{
 
     public void setGangMembers(ArrayList<GangMember> gangMembers) {
         this.gangMembers = gangMembers;
-    }    
+    }
+    
+    public void addGangMember(String name, int order, String creatureType, String rank, int movement, int health, int armor, String modelSize, ArrayList<Keyword> keywords, ArrayList<Ability> abilities){
+        addGangMember(new GangMember(name, order, creatureType, rank, movement, health, armor, modelSize, keywords, abilities));
+    }
+    
+    public void addGangMember(GangMember gangMember){
+        if(!gangMember.isWithin(gangMembers)){
+            gangMembers.add(gangMember);
+        }
+    }
 }

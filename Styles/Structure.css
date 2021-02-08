@@ -1,0 +1,567 @@
+root { 
+    display: block;
+}
+
+/* Elements */
+body{
+	width: 100%;
+	max-width: 100%;
+	height: 100%;
+	padding: 0px;
+	margin: 0px;
+	
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 100%;
+	line-height: 25px;
+	
+	color: #aaaaaa;
+    background-color: #aaaaaa;
+}
+
+a:hover {
+	font-family: Verdana, Geneva, sans-serif;
+	color: #00aa00;
+}
+
+navlink{
+    font-weight: bold;
+    border: transparent;
+	width: auto;
+	max-width: auto;
+	padding: 2px;
+	text-align: left;
+
+}
+
+navlink a:hover{
+    color: #00aa00;
+}
+
+object{
+	width: 100%;
+	/*height: auto !important;*/
+	overflow: hidden;
+	
+	border: 0px solid #FE0101;
+    vertical-align: top;
+}
+
+iframe{
+	width: 100%;
+	min-height: 100%;
+	height: 100%;
+	max-height: 100%;
+	overflow: hidden;
+	
+	border: 0px solid #FE0101;
+    vertical-align: top;
+}
+
+/* Classes */
+.navBar{
+    font-weight: bold;
+    border: transparent;
+	width: auto;
+	max-width: auto;
+	padding: 10px;
+	text-align: left;
+    font-size: 100%;
+}
+
+.navBar a:hover{
+    color: #00aa00;
+}
+
+.navBarUl{
+    list-style: none;
+}
+
+.navBarUl > li{
+    display: inline;
+}
+
+.navlinkA{
+    font-weight: bold;
+    border: transparent;
+	width: auto;
+	max-width: auto;
+	padding: 2px;
+	text-align: left;
+    font-size: 100%;
+}
+
+.navlinkA a:hover{
+    color: #00aa00;
+}
+
+.navlinkB{
+    font-weight: bold;
+    border: transparent;
+	width: auto;
+	max-width: auto;
+	padding: 2px;
+	text-align: left;
+    font-size: 90%;
+    margin: 5%;
+}
+
+.navlinkB a:hover{
+    color: #00aa00;
+}
+
+.navlinkC{
+    font-weight: bold;
+    border: transparent;
+	width: auto;
+	max-width: auto;
+	padding: 2px;
+	text-align: left;
+    font-size: 80%;
+    margin: 10%;
+}
+
+.navlinkC a:hover{
+    color: #00aa00;
+}
+
+.navlinkD{
+    font-weight: bold;
+    border: transparent;
+	width: auto;
+	max-width: auto;
+	padding: 2px;
+	text-align: left;
+    font-size: 70%;
+    margin: 15%;
+}
+
+.navlinkD a:hover{
+    color: #00aa00;
+}
+
+.navigationUl{
+    list-style: none;
+}
+
+.headerColorBlack{
+	color: #000000;
+}
+
+.classSectionHeader{ /*Decommisioned*/
+	height: 15%;
+	max-height: 15%;
+}
+
+.classSectionContent{ /*Decommisioned*/
+	height: 85%;
+	max-height: 85%;
+}
+
+.versionsUl{
+    list-style: none;
+}
+
+/* IDs */
+#idGeneralLayout{
+    width: 100%;
+	max-width: 100%;
+	height: 100%;
+	max-height: 100%;
+	
+	background-color: #000000;
+    border: 0px solid #FE0101;
+    vertical-align: top;
+}
+
+#idInnerLayout{ /*Decommission*/
+    width: 100%;
+	max-width: 100%;
+	min-height: auto !important;
+	max-height: 100%;
+	
+	background-color: #000000;
+    border: 0px solid #FE0101;
+    vertical-align: top;
+}
+
+#idTableMain{ /*decomission*/
+    width: 100%;
+	max-width: 100%;
+	height: 100%;
+	max-height: 100%;
+	background-color: #000000;
+    border: 0px solid #FE0101;
+    vertical-align: top;
+	
+}
+
+#idHeaderRow{
+	width: 100%;
+	max-width: 100%;
+	height: 44%;
+	max-height: 44%;
+	border: 0px solid #FE0101;
+    vertical-align: top;
+}
+
+#idOuterLogo{
+    width: 100%;
+	max-width: 100%;
+	height: 420px;
+	max-height: 420px;
+	
+	border: 0px solid #FE0101;
+    vertical-align: top;
+}
+
+#idInnerLogo{
+    width: 100%;
+	max-width: 100%;
+	height: 420px;
+	max-height: 420px;
+	
+	background-color: #000000;
+    border: 0px solid #FE0101;
+    vertical-align: top;
+}
+
+#idLogo{
+    width: 100%;
+	max-width: 100%;
+	height: 50%;
+	max-height: 50%;
+	
+	border: 0px solid #FE0101;
+    vertical-align: top;
+}
+
+#idNavigationRow{
+	width: 100%;
+	max-width: 100%;
+	height: 3%;
+	max-height: 3%;
+	border: 0px solid #FE0101;
+    vertical-align: top;
+}
+
+#idOuterNavigationBar{
+	width: 100%;
+	max-width: 100%;
+	height: 32px;
+	max-height: 32px;
+	border: 0px solid #FE0101;
+    vertical-align: top;
+}
+
+#idInnerNavigationBar{
+	width: 100%;
+	max-width: 100%;
+	height: 32px;
+	max-height: 32px;
+	
+	background-color: #000000;
+    border: 0px solid #FE0101;
+    vertical-align: top;
+}
+
+#idNavigationBar{ /*Decommisioned*/
+	width: 100%;
+	max-width: 100%;
+	height: 3%;
+	max-height: 3%;
+	border: 0px solid #FE0101;
+    vertical-align: top;
+}
+
+#idCenterRow{
+	width: 100%;
+	max-width: 100%;
+	height: 40%;
+	max-height: 40%;
+	border: 0px solid #FE0101;
+    vertical-align: top;
+}
+
+#idCenterRowLeft{
+	width: 15%;
+	max-width: 15%;
+	height: 100%;
+	max-height: 100%;
+	
+	padding: 0px;
+    border: 0px solid #FE0101;
+    vertical-align: top;
+	
+	display: inline-block;
+}
+
+#idOuterNavigationHeader{
+	width: 100%;
+	max-width: 100%;
+	height: 25px;
+	max-height: 25px;
+	
+	padding: 0px;
+    border: 0px solid #FE0101;
+    vertical-align: top;
+}
+
+#idInnerNavigationHeader{
+	width: 100%;
+	max-width: 100%;
+	height: 25px;
+	max-height: 25px;
+	
+	padding: 0px;
+    
+	background-color: #000000;
+    border: 0px solid #FE0101;
+    vertical-align: top;
+}
+
+#idNavigationHeader{
+	width: 100%;
+	max-width: 100%;
+	height: 10%;
+	padding: 0px;
+    border: 0px solid #FE0101;
+    vertical-align: top;
+}
+
+#idOuterNavigation{
+	width: 100%;
+	max-width: 100%;
+	height: 575px;
+	max-height: 575px;
+	
+	padding: 0px;
+    
+	border: 0px solid #FE0101;
+    vertical-align: top;
+}
+
+#idInnerNavigation{
+	width: 100%;
+	max-width: 100%;
+	height: 575px;
+	max-height: 575px;
+	
+	padding: 0px;
+    
+	background-color: #000000;
+    border: 0px solid #FE0101;
+    vertical-align: top;
+}
+
+#idNavigation{
+	width: 100%;
+	max-width: 100%;
+	height: 90%;
+	max-height: 100%;
+	
+	padding: 0px;
+    border: 0px solid #FE0101;
+    vertical-align: top;
+}
+
+#idCenterRowMain{
+	width: 69%;
+	max-width: 69%;
+	height: 100%;
+	
+	margin: 0px;
+	padding: 0px;
+    
+	border: 0px solid #FE0101;
+    vertical-align:text-top;
+	/*vertical-align: top;*/
+	
+	overflow: visible;
+	display: inline-block;
+}
+
+#idOuterCenterContent{
+    width: 100%;
+	max-width: 100%;
+	height: 1025px;
+	max-height: 1025px;
+	
+	border: 0px solid #FE0101;
+    vertical-align: top;
+}
+
+#idInnerCenterContent{
+    width: 100%;
+	max-width: 100%;
+	height: 1025px;
+	max-height: 1025px;
+	
+	background-color: #000000;
+    border: 0px solid #FE0101;
+    vertical-align: top;
+}
+
+#idInnerContent{
+    width: 100%;
+	max-width: 100%;
+	height: 1000px;
+	max-height: 1000px;
+	
+	border: 0px solid #FE0101;
+    vertical-align: top;
+}
+
+#idCenterContent{
+    width: 100%;
+	max-width: 100%;
+	height: 100%;
+	max-height: 100%;
+	
+	border: 0px solid #FE0101;
+    vertical-align: top;
+}
+
+#idContent{ /*Decommission*/
+    width: 100%;
+	max-width: 100%;
+	height: 100%;
+	max-height: 100%;
+	
+	border: 0px solid #FE0101;
+    vertical-align: top;
+}
+
+#idCenterRowRight{
+	width: 15%;
+	max-width: 15%;
+	height: 100%;
+	padding: 0px;
+    border: 0px solid #FE0101;
+    vertical-align: top;
+	
+	display: inline-block;
+}
+
+#idOuterInformationHeader{
+	width: 100%;
+	max-width: 100%;
+	height: 100px;
+	max-height: 100px;
+	
+	padding: 0px;
+    border: 0px solid #FE0101;
+    vertical-align: top;
+}
+
+#idInnerInformationHeader{
+	width: 100%;
+	max-width: 100%;
+	height: 100px;
+	max-height: 100px;
+	
+	padding: 0px;
+    
+	background-color: #000000;
+    border: 0px solid #FE0101;
+    vertical-align: top;
+}
+
+#idOuterInformationContent{
+	width: 100%;
+	max-width: 100%;
+	height: 500px;
+	max-height: 500px;
+	
+	padding: 0px;
+	
+	border: 0px solid #FE0101;
+    vertical-align: top;
+}
+
+#idInnerInformationContent{
+	width: 100%;
+	max-width: 100%;
+	height: 500px;
+	max-height: 500px;
+	
+	padding: 0px;
+	
+	background-color: #000000;
+    border: 0px solid #FE0101;
+    vertical-align: top;
+}
+
+#idInformationContent{
+	width: 100%;
+	max-width: 100%;
+	height: 100%;
+	padding: 0px;
+    border: 0px solid #FE0101;
+    vertical-align: top;
+}
+
+#idVersions{ /*Decommission*/
+	width: 100%;
+	max-width: 100%;
+	height: 100%;
+	padding: 0px;
+    border: 0px solid #FE0101;
+    vertical-align: top;
+}
+
+#idFooterRow{
+	width: 100%;
+	max-width: 100%;
+	height: 10%;
+	max-height: 10%;
+	
+	border: 0px solid #FE0101;
+    vertical-align: top;
+}
+
+#idFooter{ /*Decommission*/
+	width: 100%;
+	max-width: 100%;
+	height: 100%;
+	max-height: 100%;
+		
+	border: 0px solid #FE0101;
+    vertical-align: top;
+    text-align: center;
+}
+
+#idFooterMain{
+	width: 100%;
+	max-width: 100%;
+	height: 100%;
+	max-height: 100%;
+		
+	border: 0px solid #FE0101;
+    vertical-align: top;
+    text-align: center;
+}
+
+#idFooterContent{
+	width: 100%;
+	max-width: 100%;
+	height: 90%;
+	max-height: 90%;
+		
+	border: 0px solid #FE0101;
+    vertical-align: top;
+    text-align: center;
+}
+
+#idFooterManagement{
+	width: 100%;
+	max-width: 100%;
+	height: 10%;
+	max-height: 10%;
+		
+    border: 0px solid #FE0101;
+    vertical-align: top;
+    text-align: left;
+    font-size: 7pt;
+}
+
+

@@ -1,0 +1,153 @@
+
+/* Elements */
+a {
+	font-family: Verdana, Geneva, sans-serif;
+	color: #0000ff;
+}
+
+h1 {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 175%;
+	color: #0000ff;    
+}
+
+h2 {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 150%;
+	color: #0000ff;
+    text-align: center;
+    text-decoration: underline;
+	
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;	
+}
+
+h3 {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 130%;
+	color: #0000ff;
+	text-align: center;
+}
+
+h4 {
+    width: 100%;
+	max-width: 100%;
+	
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 120%;
+	color: #bbbbbb;
+	text-align: center;
+	
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	
+    background-color: #0000ff;
+    vertical-align: top;
+}
+
+h5{
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 80%;
+	color: #0000ff;
+	text-align: left;
+	padding-left: 15px;
+}
+
+h6{
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 70%;
+	color: #0000ff;
+	text-align: left;
+	padding-left: 20px;
+}
+
+navlink a{
+    padding: 0px;
+	text-decoration: underline;
+	display: block;
+	color: #0000ff;
+	border: transparent;
+	margin: 0px;
+}
+
+/* Classes */
+.navBar a{
+    padding: 0px;
+	text-decoration: underline;
+	display: block;
+	color: #0000ff;
+	border: transparent;
+	margin: 0px;
+}
+
+.navlinkA a{
+    padding: 0px;
+	text-decoration: underline;
+	display: block;
+	color: #0000ff;
+	border: transparent;
+	margin: 0px;
+}
+
+.navlinkB a{
+    padding: 0px;
+	text-decoration: underline;
+	display: block;
+	color: #0000ff;
+	border: transparent;
+	margin: 0px;
+}
+
+.navlinkC a{
+    padding: 0px;
+	text-decoration: underline;
+	display: block;
+	color: #0000ff;
+	border: transparent;
+	margin: 0
+}
+
+.navlinkD a{
+    padding: 0px;
+	text-decoration: underline;
+	display: block;
+	color: #0000ff;
+	border: transparent;
+	margin: 0px;
+}
+
+.inline{
+    display: inline-block;
+}
+
+/* IDs */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

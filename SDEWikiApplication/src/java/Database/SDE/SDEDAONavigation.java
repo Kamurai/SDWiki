@@ -15,7 +15,7 @@ public class SDEDAONavigation extends DAO{
     }
     
     //Pull Navigation for Heroes
-    public ArrayList<SDE.NavPair> callablePullNavigationForHeroes(){
+    public ArrayList<SDE.NavPair> pullNavigationForHeroes(){
         CallableStatement stmt = null;
         ResultSet rs;
         ArrayList<SDE.NavPair> result = new ArrayList<SDE.NavPair>();
@@ -45,7 +45,7 @@ public class SDEDAONavigation extends DAO{
     }
     
     //Pull Navigation for Pets
-     public ArrayList<SDE.NavPair> callablePullNavigationForPets(){
+     public ArrayList<SDE.NavPair> pullNavigationForPets(){
         CallableStatement stmt = null;
         ResultSet rs;
         ArrayList<SDE.NavPair> result = new ArrayList<SDE.NavPair>();
@@ -75,7 +75,7 @@ public class SDEDAONavigation extends DAO{
     }
      
     //Pull Navigation for Booty
-    public ArrayList<SDE.NavPair> callablePullNavigationForBooty(){
+    public ArrayList<SDE.NavPair> pullNavigationForBooty(){
         CallableStatement stmt = null;
         ResultSet rs;
         ArrayList<SDE.NavPair> result = new ArrayList<SDE.NavPair>();
@@ -105,7 +105,7 @@ public class SDEDAONavigation extends DAO{
     }
     
     //Pull Navigation for Creeps
-    public ArrayList<SDE.NavPair> callablePullNavigationForCreeps(){
+    public ArrayList<SDE.NavPair> pullNavigationForCreeps(){
         CallableStatement stmt = null;
         ResultSet rs;
         ArrayList<SDE.NavPair> result = new ArrayList<SDE.NavPair>();
@@ -135,7 +135,7 @@ public class SDEDAONavigation extends DAO{
     }
       
     //Pull Navigation for Elites
-    public ArrayList<SDE.NavPair> callablePullNavigationForElites(){
+    public ArrayList<SDE.NavPair> pullNavigationForElites(){
         CallableStatement stmt = null;
         ResultSet rs;
         ArrayList<SDE.NavPair> result = new ArrayList<SDE.NavPair>();
@@ -165,7 +165,7 @@ public class SDEDAONavigation extends DAO{
     }
     
     //Pull Navigation for Mini Bosses
-    public ArrayList<SDE.NavPair> callablePullNavigationForMiniBosses(){
+    public ArrayList<SDE.NavPair> pullNavigationForMiniBosses(){
         CallableStatement stmt = null;
         ResultSet rs;
         ArrayList<SDE.NavPair> result = new ArrayList<SDE.NavPair>();
@@ -195,7 +195,7 @@ public class SDEDAONavigation extends DAO{
     }
     
     //Pull Navigation for Bosses
-    public ArrayList<SDE.NavPair> callablePullNavigationForBosses(){
+    public ArrayList<SDE.NavPair> pullNavigationForBosses(){
         CallableStatement stmt = null;
         ResultSet rs;
         ArrayList<SDE.NavPair> result = new ArrayList<SDE.NavPair>();
@@ -225,7 +225,7 @@ public class SDEDAONavigation extends DAO{
     }
     
     //Pull Navigation for Minions
-    public ArrayList<SDE.NavPair> callablePullNavigationForMinions(){
+    public ArrayList<SDE.NavPair> pullNavigationForMinions(){
         CallableStatement stmt = null;
         ResultSet rs;
         ArrayList<SDE.NavPair> result = new ArrayList<SDE.NavPair>();
@@ -255,7 +255,7 @@ public class SDEDAONavigation extends DAO{
     }
 
     //Pull Navigation for Spawns
-    public ArrayList<SDE.NavPair> callablePullNavigationForSpawns(){
+    public ArrayList<SDE.NavPair> pullNavigationForSpawns(){
         CallableStatement stmt = null;
         ResultSet rs;
         ArrayList<SDE.NavPair> result = new ArrayList<SDE.NavPair>();
@@ -285,7 +285,7 @@ public class SDEDAONavigation extends DAO{
     }
     
     //Pull Navigation for Warbands
-    public ArrayList<SDE.NavPair> callablePullNavigationForWarbands(){
+    public ArrayList<SDE.NavPair> pullNavigationForWarbands(){
         CallableStatement stmt = null;
         ResultSet rs;
         ArrayList<SDE.NavPair> result = new ArrayList<SDE.NavPair>();
@@ -315,7 +315,7 @@ public class SDEDAONavigation extends DAO{
     }
     
     //Pull Navigation for Monsters
-    public ArrayList<SDE.NavPair> callablePullNavigationForMonsters(){
+    public ArrayList<SDE.NavPair> pullNavigationForMonsters(){
         CallableStatement stmt = null;
         ResultSet rs;
         ArrayList<SDE.NavPair> result = new ArrayList<SDE.NavPair>();
@@ -345,7 +345,7 @@ public class SDEDAONavigation extends DAO{
     }    
     
     //Pull Navigation for Arcade Booty
-    public ArrayList<SDE.NavPair> callablePullNavigationForArcadeBooty(){
+    public ArrayList<SDE.NavPair> pullNavigationForArcadeBooty(){
         CallableStatement stmt = null;
         ResultSet rs;
         ArrayList<SDE.NavPair> result = new ArrayList<SDE.NavPair>();
@@ -375,7 +375,7 @@ public class SDEDAONavigation extends DAO{
     }
     
     //Pull Navigation for Arcade Bosses
-    public ArrayList<SDE.NavPair> callablePullNavigationForArcadeBosses(){
+    public ArrayList<SDE.NavPair> pullNavigationForArcadeBosses(){
         CallableStatement stmt = null;
         ResultSet rs;
         ArrayList<SDE.NavPair> result = new ArrayList<SDE.NavPair>();
@@ -405,7 +405,7 @@ public class SDEDAONavigation extends DAO{
     }
     
     //Pull Navigation for Arcade Creeps
-    public ArrayList<SDE.NavPair> callablePullNavigationForArcadeCreeps(){
+    public ArrayList<SDE.NavPair> pullNavigationForArcadeCreeps(){
         CallableStatement stmt = null;
         ResultSet rs;
         ArrayList<SDE.NavPair> result = new ArrayList<SDE.NavPair>();
@@ -435,7 +435,7 @@ public class SDEDAONavigation extends DAO{
     }
     
     //Pull Navigation for Arcade Gangs
-    public ArrayList<SDE.NavPair> callablePullNavigationForArcadeGangs(){
+    public ArrayList<SDE.NavPair> pullNavigationForArcadeGangs(){
         CallableStatement stmt = null;
         ResultSet rs;
         ArrayList<SDE.NavPair> result = new ArrayList<SDE.NavPair>();
@@ -465,7 +465,7 @@ public class SDEDAONavigation extends DAO{
     }
     
     //Pull Navigation for Arcade Mini Bosses
-    public ArrayList<SDE.NavPair> callablePullNavigationForArcadeMiniBosses(){
+    public ArrayList<SDE.NavPair> pullNavigationForArcadeMiniBosses(){
         CallableStatement stmt = null;
         ResultSet rs;
         ArrayList<SDE.NavPair> result = new ArrayList<SDE.NavPair>();
@@ -495,7 +495,7 @@ public class SDEDAONavigation extends DAO{
     }
     
     //Pull Navigation for Arcade Solos
-    public ArrayList<SDE.NavPair> callablePullNavigationForArcadeSolos(){
+    public ArrayList<SDE.NavPair> pullNavigationForArcadeSolos(){
         CallableStatement stmt = null;
         ResultSet rs;
         ArrayList<SDE.NavPair> result = new ArrayList<SDE.NavPair>();
@@ -525,7 +525,7 @@ public class SDEDAONavigation extends DAO{
     }
     
     //Pull Navigation for Equipment
-    public ArrayList<SDE.NavPair> callablePullNavigationForEquipment(){
+    public ArrayList<SDE.NavPair> pullNavigationForEquipment(){
         CallableStatement stmt = null;
         ResultSet rs;
         ArrayList<SDE.NavPair> result = new ArrayList<SDE.NavPair>();
@@ -555,7 +555,7 @@ public class SDEDAONavigation extends DAO{
     }
     
     //Pull Navigation for Loot
-    public ArrayList<SDE.NavPair> callablePullNavigationForLoot(){
+    public ArrayList<SDE.NavPair> pullNavigationForLoot(){
         CallableStatement stmt = null;
         ResultSet rs;
         ArrayList<SDE.NavPair> result = new ArrayList<SDE.NavPair>();
@@ -585,7 +585,7 @@ public class SDEDAONavigation extends DAO{
     }
     
     //Pull Navigation for Treasure
-    public ArrayList<SDE.NavPair> callablePullNavigationForTreasure(){
+    public ArrayList<SDE.NavPair> pullNavigationForTreasure(){
         CallableStatement stmt = null;
         ResultSet rs;
         ArrayList<SDE.NavPair> result = new ArrayList<SDE.NavPair>();
@@ -615,7 +615,7 @@ public class SDEDAONavigation extends DAO{
     }
     
     //Pull Navigation for Relic
-    public ArrayList<SDE.NavPair> callablePullNavigationForRelic(){
+    public ArrayList<SDE.NavPair> pullNavigationForRelic(){
         CallableStatement stmt = null;
         ResultSet rs;
         ArrayList<SDE.NavPair> result = new ArrayList<SDE.NavPair>();
@@ -645,7 +645,7 @@ public class SDEDAONavigation extends DAO{
     }
     
     //Pull Navigation for Boss Spawns
-    public ArrayList<SDE.NavPair> callablePullNavigationForBossSpawns(){
+    public ArrayList<SDE.NavPair> pullNavigationForBossSpawns(){
         CallableStatement stmt = null;
         ResultSet rs;
         ArrayList<SDE.NavPair> result = new ArrayList<SDE.NavPair>();
@@ -675,7 +675,7 @@ public class SDEDAONavigation extends DAO{
     }
     
     //Pull Navigation for Utility Cards
-    public ArrayList<SDE.NavPair> callablePullNavigationForUtilities(){
+    public ArrayList<SDE.NavPair> pullNavigationForUtilities(){
         CallableStatement stmt = null;
         ResultSet rs;
         ArrayList<SDE.NavPair> result = new ArrayList<SDE.NavPair>();
@@ -705,7 +705,7 @@ public class SDEDAONavigation extends DAO{
     }
     
     //Pull Navigation for Terrain Cards
-    public ArrayList<SDE.NavPair> callablePullNavigationForTerrainCards(){
+    public ArrayList<SDE.NavPair> pullNavigationForTerrainCards(){
         CallableStatement stmt = null;
         ResultSet rs;
         ArrayList<SDE.NavPair> result = new ArrayList<SDE.NavPair>();
@@ -735,7 +735,7 @@ public class SDEDAONavigation extends DAO{
     }
     
     //Pull Navigation for Arcade Plot Cards
-    public ArrayList<SDE.NavPair> callablePullNavigationForArcadePlotCards(){
+    public ArrayList<SDE.NavPair> pullNavigationForArcadePlotCards(){
         CallableStatement stmt = null;
         ResultSet rs;
         ArrayList<SDE.NavPair> result = new ArrayList<SDE.NavPair>();
@@ -765,7 +765,7 @@ public class SDEDAONavigation extends DAO{
     }
     
     //Pull Navigation for Explore Cards
-    public ArrayList<SDE.NavPair> callablePullNavigationForExploreCards(){
+    public ArrayList<SDE.NavPair> pullNavigationForExploreCards(){
         CallableStatement stmt = null;
         ResultSet rs;
         ArrayList<SDE.NavPair> result = new ArrayList<SDE.NavPair>();
@@ -795,7 +795,7 @@ public class SDEDAONavigation extends DAO{
     }
     
     //Pull Navigation for Explore Plot Cards
-    public ArrayList<SDE.NavPair> callablePullNavigationForExplorePlotCards(){
+    public ArrayList<SDE.NavPair> pullNavigationForExplorePlotCards(){
         CallableStatement stmt = null;
         ResultSet rs;
         ArrayList<SDE.NavPair> result = new ArrayList<SDE.NavPair>();
@@ -825,7 +825,7 @@ public class SDEDAONavigation extends DAO{
     }
 
     //Pull Navigation for Challenge Cards
-    public ArrayList<SDE.NavPair> callablePullNavigationForChallengeCards(){
+    public ArrayList<SDE.NavPair> pullNavigationForChallengeCards(){
         CallableStatement stmt = null;
         ResultSet rs;
         ArrayList<SDE.NavPair> result = new ArrayList<SDE.NavPair>();
@@ -855,7 +855,7 @@ public class SDEDAONavigation extends DAO{
     }
 
     //Pull Navigation for Boss Challenge Cards
-    public ArrayList<SDE.NavPair> callablePullNavigationForBossChallengeCards(){
+    public ArrayList<SDE.NavPair> pullNavigationForBossChallengeCards(){
         CallableStatement stmt = null;
         ResultSet rs;
         ArrayList<SDE.NavPair> result = new ArrayList<SDE.NavPair>();
@@ -885,7 +885,7 @@ public class SDEDAONavigation extends DAO{
     }
 
     //Pull Navigation for Mighty Monster Cards
-    public ArrayList<SDE.NavPair> callablePullNavigationForMightyMonsterCards(){
+    public ArrayList<SDE.NavPair> pullNavigationForMightyMonsterCards(){
         CallableStatement stmt = null;
         ResultSet rs;
         ArrayList<SDE.NavPair> result = new ArrayList<SDE.NavPair>();

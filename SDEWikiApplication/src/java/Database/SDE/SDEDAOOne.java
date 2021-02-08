@@ -15,35 +15,39 @@ public class SDEDAOOne extends DAO{
     }
     
     //Pull One Hero
-    public SDE.ExploreCharacter callablePullOneHero(String link){
+    public SDE.ExploreCharacter pullOneHero(String link){
         CallableStatement stmt;
         ResultSet rs;
         SDE.ExploreCharacter result = new SDE.ExploreCharacter();
         
-        boolean firstPass = true;
-        int     previousCardIndex = -1;
-        String  tempKeywordName;
-        String  tempKeywordDescription;
-        String  tempAbilityName;
-        String  tempAbilityResource;
-        String  tempAbilityType;
-        int     tempAbilityCost;
-        String  tempAbilityAttribute;
-        int     tempAbilityRange;
-        String  tempAbilityDescription;
-        String  tempOffenseAttribute;
-        int     tempOffenseRange;
-        String  tempDefenseAttribute;
+        int     previousCardIndex       = -1;
+        int     previousKeywordIndex    = -1;
+        int     previousAbilityIndex    = -1;
+        int     previousOffenseIndex    = -1;
+        int     previousDefenseIndex    = -1;
+        
+        boolean newCard                 = false;
+        boolean newKeyword              = false;
+        boolean newAbility              = false;
+        boolean newOffense              = false;
+        boolean newDefense              = false;
         
         try{
             openConnection();
             
             stmt = getConnect().prepareCall("{call SDWikiPullOneHero(?)}");
+            stmt.setString(1, link);
             rs = stmt.executeQuery();
             
             while(rs.next()){
-                //run only on first pass
-                if(firstPass){
+                newCard         = (rs.getInt("CardIndex")       != previousCardIndex);
+                newKeyword      = (rs.getInt("KeywordIndex")    != previousKeywordIndex);
+                newAbility      = (rs.getInt("AbilityIndex")    != previousAbilityIndex);
+                newOffense      = (rs.getInt("OffenseIndex")    != previousOffenseIndex);
+                newDefense      = (rs.getInt("DefenseIndex")    != previousDefenseIndex);
+                
+                //run only on new card
+                if(newCard){
                     result.setCardIndex(rs.getInt("CardIndex"));
                     result.setName(rs.getString("CardName"));
                     result.setPictureFront(rs.getString("PictureFront"));
@@ -67,43 +71,51 @@ public class SDEDAOOne extends DAO{
                     result.setAffinity(rs.getString("AffinityType"));
                 }
                 
-                //if on the first pass or current pass is for the same card as previous pass
-                if(firstPass || result.getCardIndex() == previousCardIndex){
-                    tempKeywordName = rs.getString("KeywordName");
-                    tempKeywordDescription = rs.getString("KeywordDescription");
-                    result.addKeyword(tempKeywordName,tempKeywordDescription);
-
-                    tempAbilityName = rs.getString("AbilityName");
-                    tempAbilityResource = rs.getString("AbilityResource");
-                    tempAbilityType = rs.getString("AbilityType");
-                    tempAbilityCost = rs.getInt("AbilityCost");
-                    tempAbilityAttribute = rs.getString("AbilityAttribute");
-                    tempAbilityRange = rs.getInt("AbilityRange");
-                    tempAbilityDescription = rs.getString("AbilityDescription");
-
-                    result.addAbility(
-                        tempAbilityName,
-                        tempAbilityResource,
-                        tempAbilityType,
-                        tempAbilityCost,
-                        tempAbilityAttribute,
-                        tempAbilityRange,
-                        tempAbilityDescription
+                //if on new keyword
+                if(newKeyword){
+                    //add new keyword to last gang member
+                    result.addKeyword(
+                            rs.getString("KeywordName"),
+                            rs.getString("KeywordDescription")
                     );
+                    
+                    previousKeywordIndex = rs.getInt("KeywordIndex");
+                }
+                
+                //if on new ability
+                if(newAbility){
+                    //add new ability to last gang member
+                    result.addAbility(
+                        rs.getString("AbilityName"),
+                        rs.getString("AbilityResource"),
+                        rs.getString("AbilityType"),
+                        rs.getInt("AbilityCost"),
+                        rs.getString("AbilityAttribute"),
+                        rs.getInt("AbilityRange"),
+                        rs.getString("AbilityDescription")
+                    );
+                
+                    previousAbilityIndex = rs.getInt("AbilityIndex");
+                }
 
-                    tempOffenseAttribute = rs.getString("Offense");
-                    tempOffenseRange = rs.getInt("OffenseRange");
-                    result.addOffense(new SDE.Offense(tempOffenseAttribute,tempOffenseRange));
-
-                    tempDefenseAttribute = rs.getString("Defense");
-                    result.addDefense(new SDE.Defense(tempDefenseAttribute));
+                //if new offense
+                if(newOffense){
+                    result.addOffense(new SDE.Offense(rs.getString("Offense"), rs.getInt("OffenseRange")));
+                
+                    previousOffenseIndex = rs.getInt("OffenseIndex");
+                }
+                    
+                //if new defense
+                if(newDefense){
+                    result.addDefense(new SDE.Defense(rs.getString("Defense")));
+                
+                    previousDefenseIndex = rs.getInt("DefenseIndex");
                 }
                 
                 //Previous card index
                 previousCardIndex = rs.getInt("CardIndex");
             }
-        }
-        catch(Exception e){
+        }catch(Exception e){
             e.printStackTrace();
         }finally{
             closeConnection();
@@ -114,35 +126,39 @@ public class SDEDAOOne extends DAO{
     }
     
     //Pull One Pet
-    public SDE.Pet callablePullOnePet(String link){
+    public SDE.Pet pullOnePet(String link){
         CallableStatement stmt;
         ResultSet rs;
         SDE.Pet result = new SDE.Pet();
         
-        boolean firstPass = true;
-        int     previousCardIndex = -1;
-        String  tempKeywordName;
-        String  tempKeywordDescription;
-        String  tempAbilityName;
-        String  tempAbilityResource;
-        String  tempAbilityType;
-        int     tempAbilityCost;
-        String  tempAbilityAttribute;
-        int     tempAbilityRange;
-        String  tempAbilityDescription;
-        String  tempOffenseAttribute;
-        int     tempOffenseRange;
-        String  tempDefenseAttribute;
+        int     previousCardIndex       = -1;
+        int     previousKeywordIndex    = -1;
+        int     previousAbilityIndex    = -1;
+        int     previousOffenseIndex    = -1;
+        int     previousDefenseIndex    = -1;
+        
+        boolean newCard                 = false;
+        boolean newKeyword              = false;
+        boolean newAbility              = false;
+        boolean newOffense              = false;
+        boolean newDefense              = false;
         
         try{
             openConnection();
             
             stmt = getConnect().prepareCall("{call SDWikiPullOnePet(?)}");
+            stmt.setString(1, link);
             rs = stmt.executeQuery();
             
             while(rs.next()){
-                //run only on first pass
-                if(firstPass){
+                newCard         = (rs.getInt("CardIndex")       != previousCardIndex);
+                newKeyword      = (rs.getInt("KeywordIndex")    != previousKeywordIndex);
+                newAbility      = (rs.getInt("AbilityIndex")    != previousAbilityIndex);
+                newOffense      = (rs.getInt("OffenseIndex")    != previousOffenseIndex);
+                newDefense      = (rs.getInt("DefenseIndex")    != previousDefenseIndex);
+                
+                //run only on new card
+                if(newCard){
                     result.setCardIndex(rs.getInt("CardIndex"));
                     result.setName(rs.getString("CardName"));
                     result.setPictureFront(rs.getString("PictureFront"));
@@ -169,127 +185,138 @@ public class SDEDAOOne extends DAO{
                     result.setRange(rs.getInt("RangeLimit"));
                 }
                 
-                //if on the first pass or current pass is for the same card as previous pass
-                if(firstPass || result.getCardIndex() == previousCardIndex){
-                    tempKeywordName = rs.getString("KeywordName");
-                    tempKeywordDescription = rs.getString("KeywordDescription");
-                    result.addKeyword(tempKeywordName,tempKeywordDescription);
-
-                    tempAbilityName = rs.getString("AbilityName");
-                    tempAbilityResource = rs.getString("AbilityResource");
-                    tempAbilityType = rs.getString("AbilityType");
-                    tempAbilityCost = rs.getInt("AbilityCost");
-                    tempAbilityAttribute = rs.getString("AbilityAttribute");
-                    tempAbilityRange = rs.getInt("AbilityRange");
-                    tempAbilityDescription = rs.getString("AbilityDescription");
-
-                    result.addAbility(
-                        tempAbilityName,
-                        tempAbilityResource,
-                        tempAbilityType,
-                        tempAbilityCost,
-                        tempAbilityAttribute,
-                        tempAbilityRange,
-                        tempAbilityDescription
+                //if on new keyword
+                if(newKeyword){
+                    //add new keyword to last gang member
+                    result.addKeyword(
+                            rs.getString("KeywordName"),
+                            rs.getString("KeywordDescription")
                     );
+                    
+                    previousKeywordIndex = rs.getInt("KeywordIndex");
+                }
+                
+                //if on new ability
+                if(newAbility){
+                    //add new ability to last gang member
+                    result.addAbility(
+                        rs.getString("AbilityName"),
+                        rs.getString("AbilityResource"),
+                        rs.getString("AbilityType"),
+                        rs.getInt("AbilityCost"),
+                        rs.getString("AbilityAttribute"),
+                        rs.getInt("AbilityRange"),
+                        rs.getString("AbilityDescription")
+                    );
+                
+                    previousAbilityIndex = rs.getInt("AbilityIndex");
+                }
 
-                    tempOffenseAttribute = rs.getString("Offense");
-                    tempOffenseRange = rs.getInt("OffenseRange");
-                    result.addOffense(new SDE.Offense(tempOffenseAttribute,tempOffenseRange));
-
-                    tempDefenseAttribute = rs.getString("Defense");
-                    result.addDefense(new SDE.Defense(tempDefenseAttribute));
+                //if new offense
+                if(newOffense){
+                    result.addOffense(new SDE.Offense(rs.getString("Offense"), rs.getInt("OffenseRange")));
+                
+                    previousOffenseIndex = rs.getInt("OffenseIndex");
+                }
+                    
+                //if new defense
+                if(newDefense){
+                    result.addDefense(new SDE.Defense(rs.getString("Defense")));
+                
+                    previousDefenseIndex = rs.getInt("DefenseIndex");
                 }
                 
                 //Previous card index
                 previousCardIndex = rs.getInt("CardIndex");
             }
-        }
-        catch(Exception e){
+        }catch(Exception e){
             e.printStackTrace();
         }finally{
             closeConnection();
         }
-        
-        
+                
         return result;
     }
     
     //Pull One Booty
-    public SDE.Monster callablePullOneBooty(String link){
-        return callablePullOneMonster(link, "{call SDWikiPullOneBooty(?)}");
+    public SDE.Monster pullOneBooty(String link){
+        return pullOneMonster(link, "{call SDWikiPullOneBooty(?)}");
     }
     
     //Pull One Creep
-    public SDE.Monster callablePullOneCreep(String link){
-        return callablePullOneMonster(link, "{call SDWikiPullOneCreep(?)}");
+    public SDE.Monster pullOneCreep(String link){
+        return pullOneMonster(link, "{call SDWikiPullOneCreep(?)}");
     }
     
     //Pull One Elite
-    public SDE.Monster callablePullOneElite(String link){
-        return callablePullOneMonster(link, "{call SDWikiPullOneElite(?)}");
+    public SDE.Monster pullOneElite(String link){
+        return pullOneMonster(link, "{call SDWikiPullOneElite(?)}");
     }
     
     //Pull One Mini Boss
-    public SDE.Monster callablePullOneMiniBoss(String link){
-        return callablePullOneMonster(link, "{call SDWikiPullOneMiniBoss(?)}");
+    public SDE.Monster pullOneMiniBoss(String link){
+        return pullOneMonster(link, "{call SDWikiPullOneMiniBoss(?)}");
     }
     
     //Pull One Boss
-    public SDE.Monster callablePullOneBoss(String link){
-        return callablePullOneMonster(link, "{call SDWikiPullOneBoss(?)}");
+    public SDE.Monster pullOneBoss(String link){
+        return pullOneMonster(link, "{call SDWikiPullOneBoss(?)}");
     }
     
     //Pull One Minion
-    public SDE.Monster callablePullOneMinion(String link){
-        return callablePullOneMonster(link, "{call SDWikiPullOneMinion(?)}");
+    public SDE.Monster pullOneMinion(String link){
+        return pullOneMonster(link, "{call SDWikiPullOneMinion(?)}");
     }
     
     //Pull One Spawn
-    public SDE.Monster callablePullOneSpawn(String link){
-        return callablePullOneMonster(link, "{call SDWikiPullOneSpawn(?)}");
+    public SDE.Monster pullOneSpawn(String link){
+        return pullOneMonster(link, "{call SDWikiPullOneSpawn(?)}");
     }
     
     //Pull One Warband
-    public SDE.Monster callablePullOneWarband(String link){
-        return callablePullOneMonster(link, "{call SDWikiPullOneWarband(?)}");
+    public SDE.Monster pullOneWarband(String link){
+        return pullOneMonster(link, "{call SDWikiPullOneWarband(?)}");
     }
     
     //Pull One Monster
-    public SDE.Monster callablePullOneMonster(String link){
-        return callablePullOneMonster(link, "{call SDWikiPullOneMonster(?)}");
+    public SDE.Monster pullOneMonster(String link){
+        return pullOneMonster(link, "{call SDWikiPullOneMonster(?)}");
     }
     
     //Pull One Monster
-    public SDE.Monster callablePullOneMonster(String link, String callableStatement){
+    public SDE.Monster pullOneMonster(String link, String callableStatement){
         CallableStatement stmt;
         ResultSet rs;
         SDE.Monster result = new SDE.Monster();
         
-        boolean firstPass = true;
-        int     previousCardIndex = -1;
-        String  tempKeywordName;
-        String  tempKeywordDescription;
-        String  tempAbilityName;
-        String  tempAbilityResource;
-        String  tempAbilityType;
-        int     tempAbilityCost;
-        String  tempAbilityAttribute;
-        int     tempAbilityRange;
-        String  tempAbilityDescription;
-        String  tempOffenseAttribute;
-        int     tempOffenseRange;
-        String  tempDefenseAttribute;
+        int     previousCardIndex       = -1;
+        int     previousKeywordIndex    = -1;
+        int     previousAbilityIndex    = -1;
+        int     previousOffenseIndex    = -1;
+        int     previousDefenseIndex    = -1;
+        
+        boolean newCard                 = false;
+        boolean newKeyword              = false;
+        boolean newAbility              = false;
+        boolean newOffense              = false;
+        boolean newDefense              = false;
         
         try{
             openConnection();
             
             stmt = getConnect().prepareCall(callableStatement);
+            stmt.setString(1, link);
             rs = stmt.executeQuery();
             
             while(rs.next()){
-                //run only on first pass
-                if(firstPass){
+                newCard         = (rs.getInt("CardIndex")       != previousCardIndex);
+                newKeyword      = (rs.getInt("KeywordIndex")    != previousKeywordIndex);
+                newAbility      = (rs.getInt("AbilityIndex")    != previousAbilityIndex);
+                newOffense      = (rs.getInt("OffenseIndex")    != previousOffenseIndex);
+                newDefense      = (rs.getInt("DefenseIndex")    != previousDefenseIndex);
+                
+                //run only on new card
+                if(newCard){
                     result.setCardIndex(rs.getInt("CardIndex"));
                     result.setName(rs.getString("CardName"));
                     result.setPictureFront(rs.getString("PictureFront"));
@@ -317,132 +344,138 @@ public class SDEDAOOne extends DAO{
                     result.setSkulls(rs.getInt("Skulls"));
                 }
                 
-                //if on the first pass or current pass is for the same card as previous pass
-                if(firstPass || result.getCardIndex() == previousCardIndex){
-                    tempKeywordName = rs.getString("KeywordName");
-                    tempKeywordDescription = rs.getString("KeywordDescription");
-                    result.addKeyword(tempKeywordName,tempKeywordDescription);
-
-                    tempAbilityName = rs.getString("AbilityName");
-                    tempAbilityResource = rs.getString("AbilityResource");
-                    tempAbilityType = rs.getString("AbilityType");
-                    tempAbilityCost = rs.getInt("AbilityCost");
-                    tempAbilityAttribute = rs.getString("AbilityAttribute");
-                    tempAbilityRange = rs.getInt("AbilityRange");
-                    tempAbilityDescription = rs.getString("AbilityDescription");
-
-                    result.addAbility(
-                        tempAbilityName,
-                        tempAbilityResource,
-                        tempAbilityType,
-                        tempAbilityCost,
-                        tempAbilityAttribute,
-                        tempAbilityRange,
-                        tempAbilityDescription
+                //if on new keyword
+                if(newKeyword){
+                    //add new keyword to last gang member
+                    result.addKeyword(
+                            rs.getString("KeywordName"),
+                            rs.getString("KeywordDescription")
                     );
+                    
+                    previousKeywordIndex = rs.getInt("KeywordIndex");
+                }
+                
+                //if on new ability
+                if(newAbility){
+                    //add new ability to last gang member
+                    result.addAbility(
+                        rs.getString("AbilityName"),
+                        rs.getString("AbilityResource"),
+                        rs.getString("AbilityType"),
+                        rs.getInt("AbilityCost"),
+                        rs.getString("AbilityAttribute"),
+                        rs.getInt("AbilityRange"),
+                        rs.getString("AbilityDescription")
+                    );
+                
+                    previousAbilityIndex = rs.getInt("AbilityIndex");
+                }
 
-                    tempOffenseAttribute = rs.getString("Offense");
-                    tempOffenseRange = rs.getInt("OffenseRange");
-                    result.addOffense(new SDE.Offense(tempOffenseAttribute,tempOffenseRange));
-
-                    tempDefenseAttribute = rs.getString("Defense");
-                    result.addDefense(new SDE.Defense(tempDefenseAttribute));
+                //if new offense
+                if(newOffense){
+                    result.addOffense(new SDE.Offense(rs.getString("Offense"), rs.getInt("OffenseRange")));
+                
+                    previousOffenseIndex = rs.getInt("OffenseIndex");
+                }
+                    
+                //if new defense
+                if(newDefense){
+                    result.addDefense(new SDE.Defense(rs.getString("Defense")));
+                
+                    previousDefenseIndex = rs.getInt("DefenseIndex");
                 }
                 
                 //Previous card index
                 previousCardIndex = rs.getInt("CardIndex");
             }
-        }
-        catch(Exception e){
+        }catch(Exception e){
             e.printStackTrace();
         }finally{
             closeConnection();
         }
-        
-        
+                
         return result;
     }
     
-    
-    
-    
-    
-    
-    
     //Pull One Arcade Booty
-    public SDE.ArcadeCharacter callablePullOneArcadeBooty(String link){
-        return callablePullOneArcadeMonster(link, "{call SDWikiPullOneArcadeBooty(?)}");
+    public SDE.ArcadeCharacter pullOneArcadeBooty(String link){
+        return pullOneArcadeMonster(link, "{call SDWikiPullOneArcadeBooty(?)}");
     }
     
     //Pull One Arcade Creep
-    public SDE.ArcadeCharacter callablePullOneArcadeCreep(String link){
-        return callablePullOneArcadeMonster(link, "{call SDWikiPullOneArcadeCreep(?)}");
-    }
-    
-    //Pull One Arcade Gang
-    public SDE.ArcadeCharacter callablePullOneArcadeGang(String link){
-        return callablePullOneArcadeMonster(link, "{call SDWikiPullOneArcadeGang(?)}");
+    public SDE.ArcadeCharacter pullOneArcadeCreep(String link){
+        return pullOneArcadeMonster(link, "{call SDWikiPullOneArcadeCreep(?)}");
     }
     
     //Pull One Arcade Mini Boss
-    public SDE.ArcadeCharacter callablePullOneArcadeMiniBoss(String link){
-        return callablePullOneArcadeMonster(link, "{call SDWikiPullOneArcadeMiniBoss(?)}");
+    public SDE.ArcadeCharacter pullOneArcadeMiniBoss(String link){
+        return pullOneArcadeMonster(link, "{call SDWikiPullOneArcadeMiniBoss(?)}");
     }
     
     //Pull One Arcade Boss
-    public SDE.ArcadeCharacter callablePullOneArcadeBoss(String link){
-        return callablePullOneArcadeMonster(link, "{call SDWikiPullOneArcadeBoss(?)}");
+    public SDE.ArcadeCharacter pullOneArcadeBoss(String link){
+        return pullOneArcadeMonster(link, "{call SDWikiPullOneArcadeBoss(?)}");
     }
     
     //Pull One Arcade Solo
-    public SDE.ArcadeCharacter callablePullOneArcadeSolo(String link){
-        return callablePullOneArcadeMonster(link, "{call SDWikiPullOneArcadeSolo(?)}");
+    public SDE.ArcadeCharacter pullOneArcadeSolo(String link){
+        return pullOneArcadeMonster(link, "{call SDWikiPullOneArcadeSolo(?)}");
     }
     
     //Pull One Arcade Spawn
-    public SDE.ArcadeCharacter callablePullOneArcadeSpawn(String link){
-        return callablePullOneArcadeMonster(link, "{call SDWikiPullOneArcadeSpawn(?)}");
+    public SDE.ArcadeCharacter pullOneArcadeSpawn(String link){
+        return pullOneArcadeMonster(link, "{call SDWikiPullOneArcadeSpawn(?)}");
+    }
+    
+    //Pull One Arcade Gang
+    public SDE.ArcadeCharacter pullOneArcadeGang(String link){
+        return pullOneArcadeMonster(link, "{call SDWikiPullOneArcadeGang(?)}");
     }
     
     //Pull One Arcade Warband
-    public SDE.ArcadeCharacter callablePullOneArcadeWarband(String link){
-        return callablePullOneArcadeMonster(link, "{call SDWikiPullOneArcadeWarband(?)}");
+    public SDE.ArcadeCharacter pullOneArcadeWarband(String link){
+        return pullOneArcadeMonster(link, "{call SDWikiPullOneArcadeWarband(?)}");
     }
     
     //Pull One Arcade Monster
-    public SDE.ArcadeCharacter callablePullOneArcadeMonster(String link){
-        return callablePullOneArcadeMonster(link, "{call SDWikiPullOneArcadeMonster(?)}");
+    public SDE.ArcadeCharacter pullOneArcadeMonster(String link){
+        return pullOneArcadeMonster(link, "{call SDWikiPullOneArcadeMonster(?)}");
     }
     
-    public SDE.ArcadeCharacter callablePullOneArcadeMonster(String link, String callableStatement){
+    public SDE.ArcadeCharacter pullOneArcadeMonster(String link, String callableStatement){
         CallableStatement stmt;
         ResultSet rs;
         SDE.ArcadeCharacter result = new SDE.ArcadeCharacter();
         
-        boolean firstPass = true;
-        int     previousCardIndex = -1;
-        String  tempKeywordName;
-        String  tempKeywordDescription;
-        String  tempAbilityName;
-        String  tempAbilityResource;
-        String  tempAbilityType;
-        int     tempAbilityCost;
-        String  tempAbilityAttribute;
-        int     tempAbilityRange;
-        String  tempAbilityDescription;
-        String  tempOffenseAttribute;
-        int     tempOffenseRange;
-        String  tempDefenseAttribute;
+        int     previousCardIndex       = -1;
+        int     previousGangMemberIndex = -1;
+        int     previousMemberOrder     = -1;
+        int     previousKeywordIndex    = -1;
+        int     previousAbilityIndex    = -1;
+        
+        boolean newCard                 = false;
+        boolean newGangMember           = false;
+        boolean newMemberOrder          = false;
+        boolean newKeyword              = false;
+        boolean newAbility              = false;
         
         try{
             openConnection();
             
             stmt = getConnect().prepareCall(callableStatement);
+            stmt.setString(1, link);
             rs = stmt.executeQuery();
             
             while(rs.next()){
-                //run only on first pass
-                if(firstPass){
+                newCard         = (rs.getInt("CardIndex")       != previousCardIndex);
+                newGangMember   = (rs.getInt("GangMemberIndex") != previousGangMemberIndex);
+                newMemberOrder  = (rs.getInt("MemberOrder")     != previousMemberOrder);
+                newKeyword      = (rs.getInt("KeywordIndex")    != previousKeywordIndex);
+                newAbility      = (rs.getInt("AbilityIndex")    != previousAbilityIndex);
+                
+                //if on a new card
+                if(newCard){
+                    //asign primary information on the cards
                     result.setCardIndex(rs.getInt("CardIndex"));
                     result.setName(rs.getString("CardName"));
                     result.setPictureFront(rs.getString("PictureFront"));
@@ -454,121 +487,128 @@ public class SDEDAOOne extends DAO{
                     result.setMode(rs.getString("Mode"));
                     result.setFlavor(rs.getString("Flavor"));
                     
-                    result.setModelSize(rs.getString("ModelSize"));
-                    result.setCreatureType(rs.getString("CreatureType"));
-                    result.setMovement(rs.getInt("Movement"));
-                    result.setActions(rs.getInt("Actions"));
-                    result.setStrength(rs.getString("Strength"));
-                    result.setArmor(rs.getString("Armor"));
-                    result.setWill(rs.getString("Will"));
-                    result.setDexterity(rs.getString("Dexterity"));
-                    result.setHealth(rs.getInt("Health"));
-                    result.setPotions(rs.getInt("Potions"));
                     result.setAffinity(rs.getString("AffinityType"));
                     
-                    result.setRank(rs.getString("RankType"));
-                    result.setBits(rs.getString("Bits"));
-                    result.setSkulls(rs.getInt("Skulls"));
-                }
-                
-                //if on the first pass or current pass is for the same card as previous pass
-                if(firstPass || result.getCardIndex() == previousCardIndex){
-                    tempKeywordName = rs.getString("KeywordName");
-                    tempKeywordDescription = rs.getString("KeywordDescription");
-                    result.addKeyword(tempKeywordName,tempKeywordDescription);
-
-                    tempAbilityName = rs.getString("AbilityName");
-                    tempAbilityResource = rs.getString("AbilityResource");
-                    tempAbilityType = rs.getString("AbilityType");
-                    tempAbilityCost = rs.getInt("AbilityCost");
-                    tempAbilityAttribute = rs.getString("AbilityAttribute");
-                    tempAbilityRange = rs.getInt("AbilityRange");
-                    tempAbilityDescription = rs.getString("AbilityDescription");
-
-                    result.addAbility(
-                        tempAbilityName,
-                        tempAbilityResource,
-                        tempAbilityType,
-                        tempAbilityCost,
-                        tempAbilityAttribute,
-                        tempAbilityRange,
-                        tempAbilityDescription
+                    result.setSoloStatLine(
+                            rs.getInt("SoloActions"),
+                            rs.getInt("SoloStrength"),
+                            rs.getInt("SoloRange")
                     );
-
-                    tempOffenseAttribute = rs.getString("Offense");
-                    tempOffenseRange = rs.getInt("OffenseRange");
-                    result.addOffense(new SDE.Offense(tempOffenseAttribute,tempOffenseRange));
-
-                    tempDefenseAttribute = rs.getString("Defense");
-                    result.addDefense(new SDE.Defense(tempDefenseAttribute));
+                    
+                    result.setGangStatLine(
+                            rs.getInt("GangActions"),
+                            rs.getInt("GangStrength"),
+                            rs.getInt("GangRange")
+                    );
                 }
                 
+                //if on new gang member
+                    //diferent gang member or a new order
+                if(newGangMember || newMemberOrder){
+                    result.addGangMember(
+                        rs.getString("GangMemberName"),
+                        rs.getInt("MemberOrder"),
+                        rs.getString("CreatureType"),
+                        rs.getString("RankType"),
+                        rs.getInt("MemberMovement"),
+                        rs.getInt("MemberHealth"),
+                        rs.getInt("MemberArmor"),
+                        rs.getString("ModelSize"),
+                        new ArrayList<SDE.Keyword>(),
+                        new ArrayList<SDE.Ability>()
+                    );
+                    
+                    previousGangMemberIndex = rs.getInt("GangMemberIndex");
+                    previousMemberOrder     = rs.getInt("MemberOrder");
+                }
+                
+                //if on new keyword
+                if(newKeyword || newGangMember){
+                    //add new keyword to last gang member
+                    result.getGangMembers().get(result.getGangMembers().size()-1).addKeyword(
+                            rs.getString("KeywordName"),
+                            rs.getString("KeywordDescription")
+                    );
+                    
+                    previousKeywordIndex = rs.getInt("KeywordIndex");
+                }
+                
+                //if on new ability
+                if(newAbility || newGangMember){
+                    //add new ability to last gang member
+                    result.getGangMembers().get(result.getGangMembers().size()-1).addAbility(
+                        rs.getString("AbilityName"),
+                        rs.getString("AbilityResource"),
+                        rs.getString("AbilityType"),
+                        rs.getInt("AbilityCost"),
+                        rs.getString("AbilityAttribute"),
+                        rs.getInt("AbilityRange"),
+                        rs.getString("AbilityDescription")
+                    );
+                
+                    previousAbilityIndex = rs.getInt("AbilityIndex");
+                }
+                    
                 //Previous card index
                 previousCardIndex = rs.getInt("CardIndex");
             }
-        }
-        catch(Exception e){
+        }catch(Exception e){
             e.printStackTrace();
         }finally{
             closeConnection();
         }
         
-        
         return result;
     }
-    
-    
-    
-    
-    
-    
+        
     //Pull One Loot
-    public SDE.Equipment callablePullOneLoot(String link){
-        return callablePullOneEquipment(link, "{call SDWikiPullOneLoot(?)}");
+    public SDE.Equipment pullOneLoot(String link){
+        return pullOneEquipment(link, "{call SDWikiPullOneLoot(?)}");
     }
     
     //Pull One Treasure
-    public SDE.Equipment callablePullOneTreasure(String link){
-        return callablePullOneEquipment(link, "{call SDWikiPullOneTreasure(?)}");
+    public SDE.Equipment pullOneTreasure(String link){
+        return pullOneEquipment(link, "{call SDWikiPullOneTreasure(?)}");
     }
     
     //Pull One Relic
-    public SDE.Equipment callablePullOneRelic(String link){
-        return callablePullOneEquipment(link, "{call SDWikiPullOneRelic(?)}");
+    public SDE.Equipment pullOneRelic(String link){
+        return pullOneEquipment(link, "{call SDWikiPullOneRelic(?)}");
     }
     
     //Pull One Equipment
-    public SDE.Equipment callablePullOneEquipment(String link){
-        return callablePullOneEquipment(link, "{call SDWikiPullOneEquipment(?)}");
+    public SDE.Equipment pullOneEquipment(String link){
+        return pullOneEquipment(link, "{call SDWikiPullOneEquipment(?)}");
     }
     
     //Pull One Equipment
-    public SDE.Equipment callablePullOneEquipment(String link, String callableStatement){
+    public SDE.Equipment pullOneEquipment(String link, String callableStatement){
         CallableStatement stmt;
         ResultSet rs;
         SDE.Equipment result = new SDE.Equipment();
         
-        boolean firstPass = true;
-        int     previousCardIndex = -1;
-        String  tempKeywordName;
-        String  tempKeywordDescription;
-        String  tempAbilityName;
-        String  tempAbilityResource;
-        String  tempAbilityType;
-        int     tempAbilityCost;
-        String  tempAbilityAttribute;
-        int     tempAbilityRange;
-        String  tempAbilityDescription;
+        int     previousCardIndex       = -1;
+        int     previousKeywordIndex    = -1;
+        int     previousAbilityIndex    = -1;
+        
+        boolean newCard                 = false;
+        boolean newKeyword              = false;
+        boolean newAbility              = false;
         
         try{
             openConnection();
             
             stmt = getConnect().prepareCall(callableStatement);
+            stmt.setString(1, link);
             rs = stmt.executeQuery();
             
             while(rs.next()){
+                newCard         = (rs.getInt("CardIndex")       != previousCardIndex);
+                newKeyword      = (rs.getInt("KeywordIndex")    != previousKeywordIndex);
+                newAbility      = (rs.getInt("AbilityIndex")    != previousAbilityIndex);
+                
                 //run only on first pass
-                if(firstPass){
+                if(newCard){
                     result.setCardIndex(rs.getInt("CardIndex"));
                     result.setName(rs.getString("CardName"));
                     result.setPictureFront(rs.getString("PictureFront"));
@@ -586,31 +626,33 @@ public class SDEDAOOne extends DAO{
                     result.setCharacterLink(rs.getString("CharacterLink"));
                 }
                 
-                //if on the first pass or current pass is for the same card as previous pass
-                if(firstPass || result.getCardIndex() == previousCardIndex){
-                    tempKeywordName = rs.getString("KeywordName");
-                    tempKeywordDescription = rs.getString("KeywordDescription");
-                    result.addKeyword(tempKeywordName,tempKeywordDescription);
-
-                    tempAbilityName = rs.getString("AbilityName");
-                    tempAbilityResource = rs.getString("AbilityResource");
-                    tempAbilityType = rs.getString("AbilityType");
-                    tempAbilityCost = rs.getInt("AbilityCost");
-                    tempAbilityAttribute = rs.getString("AbilityAttribute");
-                    tempAbilityRange = rs.getInt("AbilityRange");
-                    tempAbilityDescription = rs.getString("AbilityDescription");
-
-                    result.addAbility(
-                        tempAbilityName,
-                        tempAbilityResource,
-                        tempAbilityType,
-                        tempAbilityCost,
-                        tempAbilityAttribute,
-                        tempAbilityRange,
-                        tempAbilityDescription
+               //if on new keyword
+                if(newKeyword){
+                    //add new keyword to last gang member
+                    result.addKeyword(
+                            rs.getString("KeywordName"),
+                            rs.getString("KeywordDescription")
                     );
+                    
+                    previousKeywordIndex = rs.getInt("KeywordIndex");
                 }
                 
+                //if on new ability
+                if(newAbility){
+                    //add new ability to last gang member
+                    result.addAbility(
+                        rs.getString("AbilityName"),
+                        rs.getString("AbilityResource"),
+                        rs.getString("AbilityType"),
+                        rs.getInt("AbilityCost"),
+                        rs.getString("AbilityAttribute"),
+                        rs.getInt("AbilityRange"),
+                        rs.getString("AbilityDescription")
+                    );
+                
+                    previousAbilityIndex = rs.getInt("AbilityIndex");
+                }
+                    
                 //Previous card index
                 previousCardIndex = rs.getInt("CardIndex");
             }
@@ -625,7 +667,7 @@ public class SDEDAOOne extends DAO{
     }
     
     //Pull One Boss Spawn
-    public SDE.BossSpawn callablePullOneBossSpawnCard(String link){
+    public SDE.BossSpawn pullOneBossSpawnCard(String link){
         CallableStatement stmt;
         ResultSet rs;
         SDE.BossSpawn result = new SDE.BossSpawn();
@@ -634,6 +676,7 @@ public class SDEDAOOne extends DAO{
             openConnection();
             
             stmt = getConnect().prepareCall("{call SDWikiPullOneBossSpawn(?)}");
+            stmt.setString(1, link);
             rs = stmt.executeQuery();
             
             while(rs.next()){
@@ -666,17 +709,17 @@ public class SDEDAOOne extends DAO{
     }
     
     //Pull Arcade Plot Card
-    public SDE.UtilityCard callablePullOneArcadePlotCard(String link){
-        return callablePullOnePlot(link, "{call SDWikiPullOneArcadePlotCard(?)}");
+    public SDE.PlotCard pullOneArcadePlotCard(String link){
+        return pullOnePlot(link, "{call SDWikiPullOneArcadePlotCard(?)}");
     }
     
     //Pull One Explore Plot Card
-    public SDE.UtilityCard callablePullOneExplorePlotCard(String link){
-        return callablePullOnePlot(link, "{call SDWikiPullOneExplorePlotCard(?)}");
+    public SDE.PlotCard pullOneExplorePlotCard(String link){
+        return pullOnePlot(link, "{call SDWikiPullOneExplorePlotCard(?)}");
     }
     
     //Pull One Plot Card
-    public SDE.PlotCard callablePullOnePlot(String link, String callableStatement){
+    public SDE.PlotCard pullOnePlot(String link, String callableStatement){
         CallableStatement stmt;
         ResultSet rs;
         SDE.PlotCard result = new SDE.PlotCard();
@@ -685,6 +728,7 @@ public class SDEDAOOne extends DAO{
             openConnection();
             
             stmt = getConnect().prepareCall(callableStatement);
+            stmt.setString(1, link);
             rs = stmt.executeQuery();
             
             while(rs.next()){
@@ -714,7 +758,7 @@ public class SDEDAOOne extends DAO{
     }
     
     //Pull One Explore Card
-    public SDE.ExploreCard callablePullOneExploreCard(String link){
+    public SDE.ExploreCard pullOneExploreCard(String link){
         CallableStatement stmt;
         ResultSet rs;
         SDE.ExploreCard result = new SDE.ExploreCard();
@@ -723,6 +767,7 @@ public class SDEDAOOne extends DAO{
             openConnection();
             
             stmt = getConnect().prepareCall("{call SDWikiPullOneExploreCard(?)}");
+            stmt.setString(1, link);
             rs = stmt.executeQuery();
             
             while(rs.next()){
@@ -758,7 +803,7 @@ public class SDEDAOOne extends DAO{
     }
     
     //Pull One Challenge Card
-    public SDE.ChallengeCard callablePullOneChallengeCard(String link){
+    public SDE.ChallengeCard pullOneChallengeCard(String link){
         CallableStatement stmt;
         ResultSet rs;
         SDE.ChallengeCard result = new SDE.ChallengeCard();
@@ -767,6 +812,7 @@ public class SDEDAOOne extends DAO{
             openConnection();
             
             stmt = getConnect().prepareCall("{call SDWikiPullOneChallenge(?)}");
+            stmt.setString(1, link);
             rs = stmt.executeQuery();
             
             while(rs.next()){
@@ -791,13 +837,12 @@ public class SDEDAOOne extends DAO{
         }finally{
             closeConnection();
         }
-        
-        
+                
         return result;
     }
     
     //Pull One Boss Challenge Card
-    public SDE.ChallengeCard callablePullOneBossChallengeCard(String link){
+    public SDE.ChallengeCard pullOneBossChallengeCard(String link){
         CallableStatement stmt;
         ResultSet rs;
         SDE.ChallengeCard result = new SDE.ChallengeCard();
@@ -806,6 +851,7 @@ public class SDEDAOOne extends DAO{
             openConnection();
             
             stmt = getConnect().prepareCall("{call SDWikiPullOneBossChallenge(?)}");
+            stmt.setString(1, link);
             rs = stmt.executeQuery();
             
             while(rs.next()){
@@ -832,20 +878,12 @@ public class SDEDAOOne extends DAO{
         }finally{
             closeConnection();
         }
-        
-        
+                
         return result;
     }
     
-    
-    
-    
-    
-    
-    
-
     //Pull One Mighty Monster Card
-    public SDE.MightyMonsterCard callablePullOneMightyMonsterCard(String link){
+    public SDE.MightyMonsterCard pullOneMightyMonsterCard(String link){
         CallableStatement stmt;
         ResultSet rs;
         SDE.MightyMonsterCard result = new SDE.MightyMonsterCard();
@@ -854,6 +892,7 @@ public class SDEDAOOne extends DAO{
             openConnection();
             
             stmt = getConnect().prepareCall("{call SDWikiPullOneMightyMonster(?)}");
+            stmt.setString(1, link);
             rs = stmt.executeQuery();
             
             while(rs.next()){
@@ -885,17 +924,17 @@ public class SDEDAOOne extends DAO{
     }
     
     //Pull One Terrain Card
-    public SDE.UtilityCard callablePullOneTerrain(String link){
-        return callablePullOneUtilityCard(link, "{call SDWikiPullOneTerrain(?)}");
+    public SDE.UtilityCard pullOneTerrainCard(String link){
+        return pullOneUtilityCard(link, "{call SDWikiPullOneTerrainCard(?)}");
     }
     
     //Pull One Utility Card
-    public SDE.UtilityCard callablePullOneUtility(String link){
-        return callablePullOneUtilityCard(link, "{call SDWikiPullOneUtility(?)}");
+    public SDE.UtilityCard pullOneUtilityCard(String link){
+        return pullOneUtilityCard(link, "{call SDWikiPullOneUtilityCard(?)}");
     }
     
     //Pull One Utility Card
-    public SDE.UtilityCard callablePullOneUtilityCard(String link, String callableStatement){
+    public SDE.UtilityCard pullOneUtilityCard(String link, String callableStatement){
         CallableStatement stmt;
         ResultSet rs;
         SDE.UtilityCard result = new SDE.UtilityCard();
@@ -904,6 +943,7 @@ public class SDEDAOOne extends DAO{
             openConnection();
             
             stmt = getConnect().prepareCall(callableStatement);
+            stmt.setString(1, link);
             rs = stmt.executeQuery();
             
             while(rs.next()){
@@ -927,8 +967,7 @@ public class SDEDAOOne extends DAO{
         }finally{
             closeConnection();
         }
-        
-        
+                
         return result;
     }
 }
