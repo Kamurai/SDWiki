@@ -15,7 +15,7 @@
         </h2>
         <div id="idCenterContent">
             <div>
-                <div><!-- Front of Card --></div><div><!-- Back of Card --></div>
+                <div class="inline"><!-- Front of Card --></div><div class="inline"><!-- Back of Card --></div>
             </div>
             
             <!-- replace with table -->
@@ -32,25 +32,25 @@
             </div>
             
             <div>
-                 <div><!-- Movement --></div><div><!-- Actions --></div>
+                 <div class="inline"><!-- Movement --></div><div class="inline"><!-- Actions --></div>
             </div>
             
             <div>
-                <div>
+                <div class="inline">
                     <div>Offense</div>
                     <div><!-- Strength Offense --></div>
                     <div><!-- Armor Offense --></div>
                     <div><!-- Will Offense --></div>
                     <div><!-- Dexterity Offense --></div>
                 </div>
-                <div>
+                <div class="inline">
                     <div>Attributes</div>
                     <div><!-- Strength --></div>
                     <div><!-- Armor --></div>
                     <div><!-- Will --></div>
                     <div><!-- Dexterity --></div>
                 </div>
-                <div>
+                <div class="inline">
                     <div>Defense</div>
                     <div><!-- Strength Defenses --></div>
                     <div><!-- Armor Defenses --></div>
@@ -60,28 +60,28 @@
             </div>
             
             <div>
-                <div><!-- Affinity --></div><div><!-- Health --></div><div><!-- Potions: only show if not zero for non-Heroes --></div>
+                <div class="inline"><!-- Affinity --></div><div class="inline"><!-- Health --></div><div class="inline"><!-- Potions: only show if not zero for non-Heroes --></div>
             </div>
-                        
+            
             <!-- List of Keywords -->
             <ui:repeat var="x" value="#{SDEBean.getCard().getKeywords()}" size="#{SDEBean.getCard().getKeywords().size()}" varStatus="myVarStatus" >
                 <div class="xRow">
-                    <span class="xRowSpanNumber"><h:outputText      class="xRowNumber"  value="#{x.getName()}" /></span>
-                    <span class="xRowSpanGender"><h:outputText      class="xRowGender"  value="#{x.getDescription()}" /></span>
+                    <div class="inline, xRowSpanNumber"><h:outputText      class="xRowNumber"  value="#{x.getName()}" /></div>
+                    <div class="inline, xRowSpanGender"><h:outputText      class="xRowGender"  value="#{x.getDescription()}" /></div>
                 </div>
             </ui:repeat>
             
             <!-- List of Abilities -->
             <ui:repeat var="x" value="#{SDEBean.getCard().getAbilities()}" size="#{SDEBean.getCard().getAbilities().size()}" varStatus="myVarStatus" >
                 <div class="xRow">
-                    <span class="xRowSpanGender"><h:outputText      class="xRowGender"  value="#{x.getCost()}" /></span>
-                    <span class="xRowSpanName"><h:outputText        class="xRowName"    value="#{x.getResource()}" /></span>
-                    <span class="xRowSpanPicture"><h:graphicImage   class="xRowPicture" value="#{x.getType()}" /></span>
-                    <span class="xRowSpanNumber"><h:outputText      class="xRowNumber"  value="#{x.getName()}" /></span>
+                    <div class="inline, xRowSpanGender"><h:outputText      class="xRowGender"  value="#{x.getCost()}" /></div>
+                    <div class="inline, xRowSpanName"><h:outputText        class="xRowName"    value="#{x.getResource()}" /></div>
+                    <div class="inline, xRowSpanPicture"><h:graphicImage   class="xRowPicture" value="#{x.getType()}" /></div>
+                    <div class="inline, xRowSpanNumber"><h:outputText      class="xRowNumber"  value="#{x.getName()}" /></div>
                     
-                    <span class="xRowSpanGender"><h:outputText      class="xRowGender"  value="#{x.getAttribute()}" /></span>
-                    <span class="xRowSpanGender"><h:outputText      class="xRowGender"  value="#{x.getRange()}" /></span>
-                    <span class="xRowSpanGender"><h:outputText      class="xRowGender"  value="#{x.getDescription()}" /></span>
+                    <div class="inline, xRowSpanGender"><h:outputText      class="xRowGender"  value="#{x.getAttribute()}" /></div>
+                    <div class="inline, xRowSpanGender"><h:outputText      class="xRowGender"  value="#{x.getRange()}" /></div>
+                    <div class="inline, xRowSpanGender"><h:outputText      class="xRowGender"  value="#{x.getDescription()}" /></div>
                 </div>
             </ui:repeat>
         </div>
