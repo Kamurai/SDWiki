@@ -1,20 +1,6 @@
 
 
 
-insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription) VALUES ('Silver Star', 'Action', 'Offense', 2, 1, -1, 'Cross 3');
-insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription) VALUES ('Silver Lance', 'Action', 'Offense', 2, 1, 1, '+1R Strength, Pounce');
-insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription) VALUES ('Quicksilver Elixir', 'Potion', 'Emergency', 1, -1, -1, 'Augment, Reroll any number of dice from the last defense roll made.');
-insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription) VALUES ('Happy Cat', 'Action', 'Support', 1, -1, -1, 'Wave 3, Pull 2.');
-insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription) VALUES ('Rampant Growth', 'Action', 'Support', 1, -1, -1, 'Augment, Aura 3, all Kodama and Kinoko gain +1B Strength.');
-insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription) VALUES ('Wine Tasting', 'Action', 'Support', 2, '', 'Augment, Wave 3, Heal 2.');
-insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription) VALUES ('Seek The Leader', 'Action', 'Offense', 1, 'Dexterity', 6, '+1R dexterity, Massive Damage.  Discard this treasure after taking this action.');
-insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription) VALUES ('Rampant Growth', 'Action', 'Support', 0, '', 'Augment, Lil'' Sprouts gain +1ST strength.');
-insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription) VALUES ('Sticky', 'Action', 'Support', 0, -1, -1, 'Models may not move for the remainder of this activation or their next activation, then remove the template from play.');
-
-
-
-
-
 
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Silver Chevalier', 'https://i.imgur.com/N2x4H1v.png', 'https://i.imgur.com/PIASvkf.png', 'http://htkb.dyndns.org:8080/SDWiki/SDE/2.0/Cards/Heroes/Silver_Chevalier.xhtml', 'Hero', 'Forgotten King', 'Emerald Valley Warband', 'Default', 'A proud knightly order, Silver Chevaliers take to the field in gleaming plate wrought with delicate filigree.  Bold pennants snap sharply in the wind at the tip of their long, gleaming lances.  The battle cry that accompanies their charge fills monsters with dread.  Indeed, many monsters have panicked and fled rather than face the Silver Chevaliers in battle.<br>Silver Chevaliers prefer to battle atop powerful destriers, unfortunately, their mounts typically prove a hindrance within the tight confines of a dungeon.  Nonetheless, they are as adept with their lances on foot as in the saddle, a fact many monsters have discovered - painfully.');
 insert into Characters (CardIndex) VALUES (0);

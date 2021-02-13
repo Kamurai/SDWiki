@@ -457,14 +457,3 @@ insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Yoink!'
 insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Yoink!', '[Explore:] When a model with Yoink! achieves a critical success, its target must discard one equipped loot card at random, if able.', '2.0');
 insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('You''re Alone', 'A model with You''re Alone gains +2b to offensive actions that are targeting a model that has no other models friendly to it within two squares.', '2.0');
 insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Volatile', 'When a model with Volatile is destroyed, before removing the model, resolve the following action: 0sw, Wave 1, +2R STR.', '2.0');
-
-
-
-
-
-
-
-
-
-
-
