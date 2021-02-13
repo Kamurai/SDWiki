@@ -47,12 +47,12 @@ public class Bean
 
     public String getPath()
     {
-        return vUniversal.getPath(vLevel);
+        return "stub"; //vUniversal.getPath(vLevel);
     }
 
     public String getStylePath()
     {
-        return vUniversal.getPath(vLevel-1);
+        return "stub"; //vUniversal.getPath(vLevel-1);
     }
 
     public String getContent()
@@ -67,7 +67,7 @@ public class Bean
 
     public String WebMaster()
     {
-        return vUniversal.getWebMaster();
+        return "stub"; //vUniversal.getWebMaster();
     }
 
     public String setLayout(int vLevel, int vPage)
