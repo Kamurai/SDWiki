@@ -1,13 +1,18 @@
 
 
 
-
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Silver Chevalier', 'https://i.imgur.com/N2x4H1v.png', 'https://i.imgur.com/PIASvkf.png', 'http://htkb.dyndns.org:8080/SDWiki/SDE/2.0/Cards/Heroes/Silver_Chevalier.xhtml', 'Hero', 'Forgotten King', 'Emerald Valley Warband', 'Default', 'A proud knightly order, Silver Chevaliers take to the field in gleaming plate wrought with delicate filigree.  Bold pennants snap sharply in the wind at the tip of their long, gleaming lances.  The battle cry that accompanies their charge fills monsters with dread.  Indeed, many monsters have panicked and fled rather than face the Silver Chevaliers in battle.<br>Silver Chevaliers prefer to battle atop powerful destriers, unfortunately, their mounts typically prove a hindrance within the tight confines of a dungeon.  Nonetheless, they are as adept with their lances on foot as in the saddle, a fact many monsters have discovered - painfully.');
+--Hero Example
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Silver Chevalier', 
+'https://i.imgur.com/N2x4H1v.png', 
+'https://i.imgur.com/PIASvkf.png', 
+'http://htkb.dyndns.org:8080/SDWiki/SDE/2.0/Cards/Heroes/Silver_Chevalier.xhtml', 
+'Hero', 'Forgotten King', 'Emerald Valley Warband', 'Default', 
+'A proud knightly order, Silver Chevaliers take to the field in gleaming plate wrought with delicate filigree.  Bold pennants snap sharply in the wind at the tip of their long, gleaming lances.  The battle cry that accompanies their charge fills monsters with dread.  Indeed, many monsters have panicked and fled rather than face the Silver Chevaliers in battle.<br>Silver Chevaliers prefer to battle atop powerful destriers, unfortunately, their mounts typically prove a hindrance within the tight confines of a dungeon.  Nonetheless, they are as adept with their lances on foot as in the saddle, a fact many monsters have discovered - painfully.');
 insert into Characters (CardIndex) VALUES (0);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (0, 1);
-insert into AbilityAssignments (CharacterIndex, AbilityIndex) VALUES (0, 0);
-insert into AbilityAssignments (CharacterIndex, AbilityIndex) VALUES (0, 1);
-insert into AbilityAssignments (CharacterIndex, AbilityIndex) VALUES (0, 2);
+insert into AbilityAssignments (CharacterIndex, AbilityIndex) VALUES (0, 0); --Silver Star
+insert into AbilityAssignments (CharacterIndex, AbilityIndex) VALUES (0, 1); --Silver Lance
+insert into AbilityAssignments (CharacterIndex, AbilityIndex) VALUES (0, 2); --Quicksilver Elixir
 insert into ExploreCharacters (CharacterIndex, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (0, 'Small', 'Human', 6, 3, '2B, 1R', '3B', '3B', '2B', 5, 1);
 insert into OffenseAssignments (CharacterIndex, AttributeIndex, OffenseRange) VALUES (0,1,2);
 insert into DefenseAssignments (CharacterIndex, AttributeIndex) VALUES (0,2);
