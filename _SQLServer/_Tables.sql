@@ -16,7 +16,7 @@ create table Keywords (KeywordIndex bigint IDENTITY(0,1) PRIMARY KEY, Name varch
 
 create table KeywordAssignments (KeywordAssignmentIndex bigint IDENTITY(0,1) PRIMARY KEY, KeywordIndex bigint not null, ExploreCharacterIndex bigint not null, GangMemberIndex bigint not null, EquipmentIndex bigint not null);
 
-create table Abilities (AbilityIndex bigint IDENTITY(0,1) PRIMARY KEY, Name varchar(50) not null, AbilityResource varchar(10) not null, AbilityType varchar(10) not null, AbilityCost int not null, AbilityAttribute bigint not null, AbilityRange int not null, AbilityDescription varchar(1000) not null);
+create table Abilities (AbilityIndex bigint IDENTITY(0,1) PRIMARY KEY, Name varchar(50) not null, AbilityResource varchar(10) not null, AbilityType varchar(10) not null, AbilityCost int not null, AbilityAttribute bigint not null, AbilityRange int not null, AbilityDescription varchar(1000) not null, KeywordVersion varchar(20) not null);
 
 create table AbilityAssignments (AbilityAssignmentIndex bigint IDENTITY(0,1) PRIMARY KEY, AbilityIndex bigint not null, ExploreCharacterIndex bigint not null, GangMemberIndex bigint not null, EquipmentIndex bigint not null, EventTrapIndex bigint not null);
 
