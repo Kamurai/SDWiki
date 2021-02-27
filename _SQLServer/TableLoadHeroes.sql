@@ -30,7 +30,7 @@ insert into AbilityAssignments (CharacterIndex, AbilityIndex) VALUES (0, 0); --B
 insert into AbilityAssignments (CharacterIndex, AbilityIndex) VALUES (0, 0); --Pirate Snatch
 insert into AbilityAssignments (CharacterIndex, AbilityIndex) VALUES (0, 1); --Skully
 insert into ExploreCharacters (CharacterIndex, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (0, 'Small', 'Human Hero', 6, 3, '1B1R', '3B', '1B1R', '2B', 5, 1);
-insert into OffenseAssignments (CharacterIndex, AttributeIndex, OffenseRange) VALUES (0,0,6);
+insert into OffenseAssignments (CharacterIndex, AttributeIndex, OffenseRange) VALUES (0,0,1);
 insert into DefenseAssignments (CharacterIndex, AttributeIndex) VALUES (0,2);
 
 
@@ -47,7 +47,7 @@ insert into AbilityAssignments (CharacterIndex, AbilityIndex) VALUES (0, 0); --V
 insert into AbilityAssignments (CharacterIndex, AbilityIndex) VALUES (0, 0); --Soothing Soda
 insert into AbilityAssignments (CharacterIndex, AbilityIndex) VALUES (0, 1); --Sugar Rush
 insert into ExploreCharacters (CharacterIndex, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (0, 'Small', 'Human Hero', 6, 3, '2B', '3B', '2B', '1B1R', 5, 3);
-insert into OffenseAssignments (CharacterIndex, AttributeIndex, OffenseRange) VALUES (0,0,6);--! To look at later
+insert into OffenseAssignments (CharacterIndex, AttributeIndex, OffenseRange) VALUES (0,0,1);--! To look at later
 insert into DefenseAssignments (CharacterIndex, AttributeIndex) VALUES (0,2);--! To look at later
 
 
@@ -64,7 +64,8 @@ insert into AbilityAssignments (CharacterIndex, AbilityIndex) VALUES (0, 0); --A
 insert into AbilityAssignments (CharacterIndex, AbilityIndex) VALUES (0, 0); --Heart Seeker
 insert into AbilityAssignments (CharacterIndex, AbilityIndex) VALUES (0, 1); --Halo Extract
 insert into ExploreCharacters (CharacterIndex, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (0, 'Small', 'Celestial Hero', 7, 3, '2B', '3B', '1B1R', '2R', 5, 1);
-insert into OffenseAssignments (CharacterIndex, AttributeIndex, OffenseRange) VALUES (0,4,2);--! To look at later
+insert into OffenseAssignments (CharacterIndex, AttributeIndex, OffenseRange) VALUES (0,4,6);--! To look at later
+insert into OffenseAssignments (CharacterIndex, AttributeIndex, OffenseRange) VALUES (0,0,1);--! To look at later
 insert into DefenseAssignments (CharacterIndex, AttributeIndex) VALUES (0,2);--! To look at later
 
 
@@ -80,7 +81,7 @@ insert into KeywordAssignments (CharacterIndex, KeywordIndex) VALUES (1, 0); --!
 insert into AbilityAssignments (CharacterIndex, AbilityIndex) VALUES (0, 0); --Rage
 insert into AbilityAssignments (CharacterIndex, AbilityIndex) VALUES (0, 0); --Fury's Blood
 insert into ExploreCharacters (CharacterIndex, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (0, 'Small', 'Human Hero', 6, 3, '2R', '3B', '2B', '2B', 5, 1);
-insert into OffenseAssignments (CharacterIndex, AttributeIndex, OffenseRange) VALUES (0,0,0);--! To look at later
+insert into OffenseAssignments (CharacterIndex, AttributeIndex, OffenseRange) VALUES (0,0,1);--! To look at later
 insert into DefenseAssignments (CharacterIndex, AttributeIndex) VALUES (0,2);--! To look at later
 
 
@@ -98,7 +99,8 @@ insert into AbilityAssignments (CharacterIndex, AbilityIndex) VALUES (0, 0); --C
 insert into AbilityAssignments (CharacterIndex, AbilityIndex) VALUES (0, 1); --Scratch
 insert into AbilityAssignments (CharacterIndex, AbilityIndex) VALUES (0, 1); --Catnip
 insert into ExploreCharacters (CharacterIndex, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (0, 'Small', 'Freyjan Hero', 6, 3, '3B', '3B', '1B1R', '1B1R', 5, 2);
-insert into OffenseAssignments (CharacterIndex, AttributeIndex, OffenseRange) VALUES (0,3,1);--! To look at later
+insert into OffenseAssignments (CharacterIndex, AttributeIndex, OffenseRange) VALUES (0,0,1);--! To look at later
+insert into OffenseAssignments (CharacterIndex, AttributeIndex, OffenseRange) VALUES (0,3,8);--! To look at later
 insert into DefenseAssignments (CharacterIndex, AttributeIndex) VALUES (0,2);--! To look at later
 
 
@@ -116,7 +118,7 @@ insert into AbilityAssignments (CharacterIndex, AbilityIndex) VALUES (0, 0); --B
 insert into AbilityAssignments (CharacterIndex, AbilityIndex) VALUES (0, 1); --Shapeshift
 insert into AbilityAssignments (CharacterIndex, AbilityIndex) VALUES (0, 1); --Nourishing Berries
 insert into ExploreCharacters (CharacterIndex, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (0, 'Small', 'Half-Elf Hero', 7, 3, '3B', '1B1R', '1B1R', '2B', 5, 1);
-insert into OffenseAssignments (CharacterIndex, AttributeIndex, OffenseRange) VALUES (0,0,0);--! To look at later
+insert into OffenseAssignments (CharacterIndex, AttributeIndex, OffenseRange) VALUES (0,0,1);--! To look at later
 insert into DefenseAssignments (CharacterIndex, AttributeIndex) VALUES (0,2);--! To look at later
 
 
@@ -152,6 +154,7 @@ insert into AbilityAssignments (CharacterIndex, AbilityIndex) VALUES (0, 0); --M
 insert into AbilityAssignments (CharacterIndex, AbilityIndex) VALUES (0, 1); --White Mage Potion
 insert into AbilityAssignments (CharacterIndex, AbilityIndex) VALUES (0, 1); --Fire Water
 insert into ExploreCharacters (CharacterIndex, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (0, 'Small', 'Human Hero', 6, 3, '2B', '3B', '2R', '1B1R', 5, 2);
+insert into OffenseAssignments (CharacterIndex, AttributeIndex, OffenseRange) VALUES (0,0,1);--! To look at later
 insert into OffenseAssignments (CharacterIndex, AttributeIndex, OffenseRange) VALUES (0,3,8);--! To look at later
 insert into DefenseAssignments (CharacterIndex, AttributeIndex) VALUES (0,2);--! To look at later
 
@@ -169,6 +172,7 @@ insert into AbilityAssignments (CharacterIndex, AbilityIndex) VALUES (0, 0); --H
 insert into AbilityAssignments (CharacterIndex, AbilityIndex) VALUES (0, 0); --Sparkle Burst
 insert into AbilityAssignments (CharacterIndex, AbilityIndex) VALUES (0, 1); --Pixie Dust
 insert into ExploreCharacters (CharacterIndex, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (0, 'Small', 'Elf Hero', 7, 3, '1B1R', '3B', '2B', '2R', 5, 1);
+insert into OffenseAssignments (CharacterIndex, AttributeIndex, OffenseRange) VALUES (0,0,1);--! To look at later
 insert into OffenseAssignments (CharacterIndex, AttributeIndex, OffenseRange) VALUES (0,4,8);--! To look at later
 insert into DefenseAssignments (CharacterIndex, AttributeIndex) VALUES (0,2);--! To look at later
 
@@ -204,7 +208,8 @@ insert into AbilityAssignments (CharacterIndex, AbilityIndex) VALUES (0, 0); --H
 insert into AbilityAssignments (CharacterIndex, AbilityIndex) VALUES (0, 1); --Broken Bones
 insert into AbilityAssignments (CharacterIndex, AbilityIndex) VALUES (0, 1); --Wizard Wings
 insert into ExploreCharacters (CharacterIndex, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (0, 'Small', 'Human Hero', 6, 3, '2B', '3B', '1B1R', '1B1R', 5, 1);
-insert into OffenseAssignments (CharacterIndex, AttributeIndex, OffenseRange) VALUES (0,3,1);--! To look at later
+insert into OffenseAssignments (CharacterIndex, AttributeIndex, OffenseRange) VALUES (0,0,1);--! To look at later
+insert into OffenseAssignments (CharacterIndex, AttributeIndex, OffenseRange) VALUES (0,3,8);--! To look at later
 insert into DefenseAssignments (CharacterIndex, AttributeIndex) VALUES (0,2);--! To look at later
 
 
@@ -220,6 +225,7 @@ insert into KeywordAssignments (CharacterIndex, KeywordIndex) VALUES (1, 0); --!
 insert into AbilityAssignments (CharacterIndex, AbilityIndex) VALUES (0, 0); --Sticky Tongue
 insert into ExploreCharacters (CharacterIndex, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (0, 'Small', 'Shapeshift', 5, 3, '1B', '0', '2B', '3B', 5, 1);--? Should this be small or large - I remember you saying there were only 2 large creatures - this would be 3 ?
 insert into OffenseAssignments (CharacterIndex, AttributeIndex, OffenseRange) VALUES (0,0,1);--! To look at later
+insert into DefenseAssignments (CharacterIndex, AttributeIndex) VALUES (0,4);--! To look at later
 insert into DefenseAssignments (CharacterIndex, AttributeIndex) VALUES (0,4);--! To look at later
 
 
@@ -238,6 +244,7 @@ insert into AbilityAssignments (CharacterIndex, AbilityIndex) VALUES (0, 0); --C
 insert into ExploreCharacters (CharacterIndex, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (0, 'Small', 'Freyjan Hero', 7, 3, '3B', '3B', '2B', '2R', 5, 1);
 insert into OffenseAssignments (CharacterIndex, AttributeIndex, OffenseRange) VALUES (0,0,1);--! To look at later
 insert into DefenseAssignments (CharacterIndex, AttributeIndex) VALUES (0,4);--! To look at later
+insert into DefenseAssignments (CharacterIndex, AttributeIndex) VALUES (0,4);--! To look at later
 
 
 --One Shot
@@ -253,7 +260,7 @@ insert into AbilityAssignments (CharacterIndex, AbilityIndex) VALUES (0, 0); --D
 insert into AbilityAssignments (CharacterIndex, AbilityIndex) VALUES (0, 0); --Focused Shot
 insert into AbilityAssignments (CharacterIndex, AbilityIndex) VALUES (0, 0); --Fritz
 insert into ExploreCharacters (CharacterIndex, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (0, 'Small', 'Human Hero', 6, 3, '2R', '3B', '2B', '2B', 5, 1);
-insert into OffenseAssignments (CharacterIndex, AttributeIndex, OffenseRange) VALUES (0,0,1);--! To look at later
+insert into OffenseAssignments (CharacterIndex, AttributeIndex, OffenseRange) VALUES (0,0,8);--! To look at later
 insert into DefenseAssignments (CharacterIndex, AttributeIndex) VALUES (0,2);--! To look at later
 
 
@@ -272,6 +279,7 @@ insert into AbilityAssignments (CharacterIndex, AbilityIndex) VALUES (0, 0); --M
 insert into ExploreCharacters (CharacterIndex, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (0, 'Small', 'Human Hero', 8, 3, '1B1R', '2B', '2B', '2R', 5, 1);
 insert into OffenseAssignments (CharacterIndex, AttributeIndex, OffenseRange) VALUES (0,0,1);--! To look at later
 insert into DefenseAssignments (CharacterIndex, AttributeIndex) VALUES (0,4);--! To look at later
+insert into DefenseAssignments (CharacterIndex, AttributeIndex) VALUES (0,4);--! To look at later
 
 
 --Princess Ruby
@@ -288,8 +296,9 @@ insert into AbilityAssignments (CharacterIndex, AbilityIndex) VALUES (0, 0); --M
 insert into AbilityAssignments (CharacterIndex, AbilityIndex) VALUES (0, 0); --Maiden's Kiss
 insert into AbilityAssignments (CharacterIndex, AbilityIndex) VALUES (0, 0); --Happily Ever After
 insert into ExploreCharacters (CharacterIndex, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (0, 'Small', 'Human Hero', 6, 3, '2B', '3B', '3B', '2B1R', 5, 1);
-insert into OffenseAssignments (CharacterIndex, AttributeIndex, OffenseRange) VALUES (0,3,1);--! To look at later
-insert into DefenseAssignments (CharacterIndex, AttributeIndex) VALUES (0,4);--! To look at later
+insert into OffenseAssignments (CharacterIndex, AttributeIndex, OffenseRange) VALUES (0,0,1);--! To look at later
+insert into OffenseAssignments (CharacterIndex, AttributeIndex, OffenseRange) VALUES (0,3,6);--! To look at later
+insert into DefenseAssignments (CharacterIndex, AttributeIndex) VALUES (0,1);--! To look at later
 
 
 --Riftling Rogue
@@ -307,6 +316,7 @@ insert into AbilityAssignments (CharacterIndex, AbilityIndex) VALUES (0, 0); --D
 insert into ExploreCharacters (CharacterIndex, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (0, 'Small', 'Demonkin Hero', 7, 3, '3B', '2B', '1B1R', '2R', 5, 1);
 insert into OffenseAssignments (CharacterIndex, AttributeIndex, OffenseRange) VALUES (0,0,1);--! To look at later
 insert into DefenseAssignments (CharacterIndex, AttributeIndex) VALUES (0,4);--! To look at later
+insert into DefenseAssignments (CharacterIndex, AttributeIndex) VALUES (0,1);--! To look at later
 
 
 --Royal Paladin
@@ -374,7 +384,7 @@ insert into AbilityAssignments (CharacterIndex, AbilityIndex) VALUES (0, 0); --P
 insert into AbilityAssignments (CharacterIndex, AbilityIndex) VALUES (0, 0); --Star Shine
 insert into AbilityAssignments (CharacterIndex, AbilityIndex) VALUES (0, 0); --Burning Bloom
 insert into ExploreCharacters (CharacterIndex, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (0, 'Small', 'Dwarf Hero', 6, 3, '2B1R', '1B1R', '2B', '2B', 6, 1);
-insert into OffenseAssignments (CharacterIndex, AttributeIndex, OffenseRange) VALUES (0,0,1);--! To look at later
+insert into OffenseAssignments (CharacterIndex, AttributeIndex, OffenseRange) VALUES (0,0,2);--! To look at later
 insert into DefenseAssignments (CharacterIndex, AttributeIndex) VALUES (0,2);--! To look at later
 
 
@@ -409,7 +419,7 @@ insert into AbilityAssignments (CharacterIndex, AbilityIndex) VALUES (0, 0); --S
 insert into AbilityAssignments (CharacterIndex, AbilityIndex) VALUES (0, 0); --Holy Water
 insert into AbilityAssignments (CharacterIndex, AbilityIndex) VALUES (0, 0); --Holy Oil
 insert into ExploreCharacters (CharacterIndex, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (0, 'Small', 'Human Hero', 6, 3, '1B1R', '3B', '1B1R', '2R', 5, 2);
-insert into OffenseAssignments (CharacterIndex, AttributeIndex, OffenseRange) VALUES (0,0,1);--! To look at later - has Reach
+insert into OffenseAssignments (CharacterIndex, AttributeIndex, OffenseRange) VALUES (0,0,2);--! To look at later - has Reach
 insert into DefenseAssignments (CharacterIndex, AttributeIndex) VALUES (0,2);--! To look at later
 
 

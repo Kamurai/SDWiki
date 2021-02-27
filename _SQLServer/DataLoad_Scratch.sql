@@ -29,7 +29,7 @@ insert into OffenseAssignments (CharacterIndex, AttributeIndex, OffenseRange) VA
 insert into DefenseAssignments (CharacterIndex, AttributeIndex) VALUES (1,2);
 insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (1, 2, 3);
 
---Warbands 2.0 Explore
+--Monster 2.0 Explore
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Sprout', 'https://i.imgur.com/6LcQUR6.png', 'https://i.imgur.com/C577EmH.png', 'http://htkb.dyndns.org:8080/SDWiki/SDE/Cards/2.0/Explore/Warbands/Old_Growth_Hollow/Sprout.xhtml', 'Monster', '2.0', 'Kickstarter', 'Explore', 'Sprouts are blessings of the Deeproot Tree.  Each spring the Deeproot Tree breathes life into countelss sprouts.  Some travel the surface, others take to the wind upon whirling propellers of leaves, while others burrow deep within the earth.  They spread throughout Crystalia bringing the promise of renewed life throughout the land.<br>When a Sprout concludes its journey it takes root, becoming a tree, shrub, sweeping carpet of wildflowers, or any other variety of bright greenery.  In such a manner does the Deeproot Tree spread its influence throughout Crystalia.  Since the rise of the Dark Consul, Sprouts are captured by servants of the wicked creatures who call the Consul master.  Employing black magics they pollute the seeds, corrupting not only the plant the Sprout was meant to become, but all the kodama who rely on its healthy growth for shelter and sustenance.');
 insert into Characters (CardIndex) VALUES (2);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (2, 1);
@@ -65,7 +65,7 @@ insert into Equipment_Assignments (CharacterIndex) VALUES (43); --Kappa
 
 --Boss Spawns
 insert into BossSpawns (Spawn, Effect, TimeoutEffect) VALUES (43, 'Ghost Town: Spawn one Ghost for every destroyed mini-boss, Skull Token on the dungeon, and spent Princess Coin.', '', 'Poxes: All Heroes suffer one random status effect.  (Close your eyes and pick a token.)');
-insert into BossSpawn_Assignments (CharacterIndex) VALUES (0, 43); --Beatrix the Wich Queen
+insert into BossSpawn_Assignments (CharacterIndex) VALUES (0, 43); --Beatrix the Witch Queen
 
 --FK
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Soul Spike', 'https://i.imgur.com/Zc4B17w.png', 'https://i.imgur.com/fQDg67i.png', 'http://htkb.dyndns.org:8080/SDWiki/SDE/FK/Cards/Utility/Event/Boss/Soul_Spike.xhtml', 'Boss Event', 'FK', 'Von Drakk Manor', 'Default', 'Is it supposed to glow like that?');
