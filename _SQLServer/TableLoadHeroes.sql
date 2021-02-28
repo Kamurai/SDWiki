@@ -1,4 +1,7 @@
 --1.0
+--Heroes
+
+
 --Angry Bear
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Angry Bear', 
 'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Hero_Angry_Bear_1.0.png', 
@@ -225,7 +228,7 @@ insert into KeywordAssignments (CharacterIndex, KeywordIndex) VALUES (1, 0); --!
 insert into AbilityAssignments (CharacterIndex, AbilityIndex) VALUES (0, 0); --Sticky Tongue
 insert into ExploreCharacters (CharacterIndex, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (0, 'Small', 'Shapeshift', 5, 3, '1B', '0', '2B', '3B', 5, 1);--? Should this be small or large - I remember you saying there were only 2 large creatures - this would be 3 ?
 insert into OffenseAssignments (CharacterIndex, AttributeIndex, OffenseRange) VALUES (0,0,1);--! To look at later
-insert into DefenseAssignments (CharacterIndex, AttributeIndex) VALUES (0,4);--! To look at later
+insert into DefenseAssignments (CharacterIndex, AttributeIndex) VALUES (0,2);--! To look at later
 insert into DefenseAssignments (CharacterIndex, AttributeIndex) VALUES (0,4);--! To look at later
 
 
@@ -243,7 +246,7 @@ insert into AbilityAssignments (CharacterIndex, AbilityIndex) VALUES (0, 0); --P
 insert into AbilityAssignments (CharacterIndex, AbilityIndex) VALUES (0, 0); --Catnip Bomb
 insert into ExploreCharacters (CharacterIndex, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (0, 'Small', 'Freyjan Hero', 7, 3, '3B', '3B', '2B', '2R', 5, 1);
 insert into OffenseAssignments (CharacterIndex, AttributeIndex, OffenseRange) VALUES (0,0,1);--! To look at later
-insert into DefenseAssignments (CharacterIndex, AttributeIndex) VALUES (0,4);--! To look at later
+insert into DefenseAssignments (CharacterIndex, AttributeIndex) VALUES (0,2);--! To look at later
 insert into DefenseAssignments (CharacterIndex, AttributeIndex) VALUES (0,4);--! To look at later
 
 
@@ -278,7 +281,7 @@ insert into AbilityAssignments (CharacterIndex, AbilityIndex) VALUES (0, 0); --P
 insert into AbilityAssignments (CharacterIndex, AbilityIndex) VALUES (0, 0); --Mr. Tomn
 insert into ExploreCharacters (CharacterIndex, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (0, 'Small', 'Human Hero', 8, 3, '1B1R', '2B', '2B', '2R', 5, 1);
 insert into OffenseAssignments (CharacterIndex, AttributeIndex, OffenseRange) VALUES (0,0,1);--! To look at later
-insert into DefenseAssignments (CharacterIndex, AttributeIndex) VALUES (0,4);--! To look at later
+insert into DefenseAssignments (CharacterIndex, AttributeIndex) VALUES (0,2);--! To look at later
 insert into DefenseAssignments (CharacterIndex, AttributeIndex) VALUES (0,4);--! To look at later
 
 
@@ -315,8 +318,8 @@ insert into AbilityAssignments (CharacterIndex, AbilityIndex) VALUES (0, 0); --B
 insert into AbilityAssignments (CharacterIndex, AbilityIndex) VALUES (0, 0); --Dimensional Draught
 insert into ExploreCharacters (CharacterIndex, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (0, 'Small', 'Demonkin Hero', 7, 3, '3B', '2B', '1B1R', '2R', 5, 1);
 insert into OffenseAssignments (CharacterIndex, AttributeIndex, OffenseRange) VALUES (0,0,1);--! To look at later
+insert into DefenseAssignments (CharacterIndex, AttributeIndex) VALUES (0,2);--! To look at later
 insert into DefenseAssignments (CharacterIndex, AttributeIndex) VALUES (0,4);--! To look at later
-insert into DefenseAssignments (CharacterIndex, AttributeIndex) VALUES (0,1);--! To look at later
 
 
 --Royal Paladin
