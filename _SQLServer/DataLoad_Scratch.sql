@@ -17,6 +17,7 @@ insert into ExploreCharacters (CharacterIndex, ModelSize, CreatureType, Movement
 insert into OffenseAssignments (CharacterIndex, AttributeIndex, OffenseRange) VALUES (0,1,2);
 insert into DefenseAssignments (CharacterIndex, AttributeIndex) VALUES (0,2);
 
+--Pets 2.0
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Admiral Fuzzybottom', 'https://i.imgur.com/7PQIkLS.png', 'https://i.imgur.com/tzZHplb.png', 'http://htkb.dyndns.org:8080/SDWiki/SDE/2.0/Cards/Pets/Admiral_Fuzzybottom.xhtml', 'Pet', '2.0', 'Kickstarter', 'Default', 'Admiral Fuzzybottom was never the brightest cat, but he was always one of the happiest.  Oneday he followed a human, hoping to get some pets.  On the way he saw a kobold and rubbed up against the kobold''s legs, accidentally tripping him.  This seemed to please the human.  Then he playfully pounced on a drake, distracting it from roasting the human.  Admiral Fuzzybottom is always a pleasant, loving cat to everyone he sees.');
 insert into Characters (CardIndex) VALUES (1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1, 4);
@@ -28,6 +29,7 @@ insert into OffenseAssignments (CharacterIndex, AttributeIndex, OffenseRange) VA
 insert into DefenseAssignments (CharacterIndex, AttributeIndex) VALUES (1,2);
 insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (1, 2, 3);
 
+--Monster 2.0 Explore
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Sprout', 'https://i.imgur.com/6LcQUR6.png', 'https://i.imgur.com/C577EmH.png', 'http://htkb.dyndns.org:8080/SDWiki/SDE/Cards/2.0/Explore/Warbands/Old_Growth_Hollow/Sprout.xhtml', 'Monster', '2.0', 'Kickstarter', 'Explore', 'Sprouts are blessings of the Deeproot Tree.  Each spring the Deeproot Tree breathes life into countelss sprouts.  Some travel the surface, others take to the wind upon whirling propellers of leaves, while others burrow deep within the earth.  They spread throughout Crystalia bringing the promise of renewed life throughout the land.<br>When a Sprout concludes its journey it takes root, becoming a tree, shrub, sweeping carpet of wildflowers, or any other variety of bright greenery.  In such a manner does the Deeproot Tree spread its influence throughout Crystalia.  Since the rise of the Dark Consul, Sprouts are captured by servants of the wicked creatures who call the Consul master.  Employing black magics they pollute the seeds, corrupting not only the plant the Sprout was meant to become, but all the kodama who rely on its healthy growth for shelter and sustenance.');
 insert into Characters (CardIndex) VALUES (2);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (2, 1);
@@ -39,6 +41,7 @@ insert into OffenseAssignments (CharacterIndex, AttributeIndex, OffenseRange) VA
 insert into DefenseAssignments (CharacterIndex, AttributeIndex) VALUES (2,2);
 insert into Monsters (ExploreCharacterIndex, Bits, Skulls) VALUES (2, 'Elite', 16, 3);
 
+--Warbands 2.0 Arcade
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Sprout', 'https://i.imgur.com/6LcQUR6.png', 'https://i.imgur.com/C577EmH.png', 'http://htkb.dyndns.org:8080/SDWiki/SDE/Cards/2.0/Arcade/Warbands/Old_Growth_Hollow/Sprout.xhtml', 'Monster', '2.0', 'Kickstarter', 'Explore', 'Sprouts are blessings of the Deeproot Tree.  Each spring the Deeproot Tree breathes life into countelss sprouts.  Some travel the surface, others take to the wind upon whirling propellers of leaves, while others burrow deep within the earth.  They spread throughout Crystalia bringing the promise of renewed life throughout the land.<br>When a Sprout concludes its journey it takes root, becoming a tree, shrub, sweeping carpet of wildflowers, or any other variety of bright greenery.  In such a manner does the Deeproot Tree spread its influence throughout Crystalia.  Since the rise of the Dark Consul, Sprouts are captured by servants of the wicked creatures who call the Consul master.  Employing black magics they pollute the seeds, corrupting not only the plant the Sprout was meant to become, but all the kodama who rely on its healthy growth for shelter and sustenance.');
 insert into Characters (CardIndex) VALUES (2);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (2, 1);
@@ -52,6 +55,7 @@ insert into GangKeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (0, 3)
 insert into GangKeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (0, 5);
 insert into GangKeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (1, 4);
 
+--Treasure
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Arcadian Wine', 'https://i.imgur.com/U1uabdT.png', 'https://i.imgur.com/SVjTsay.png', 'http://htkb.dyndns.org:8080/SDWiki/SDE/Cards/Treasure/Generic/Arcadian_Wine.xhtml', 'Generic Treasure', '2.0', 'Kickstarter?', 'Default', '');
 insert into Equipment (Position, Effect) VALUES ('Top', '+1R DEX');
 
@@ -59,8 +63,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Equipment (Position, Effect) VALUES ('Right', '+1G DEX');
 insert into Equipment_Assignments (CharacterIndex) VALUES (43); --Kappa
 
+--Boss Spawns
 insert into BossSpawns (Spawn, Effect, TimeoutEffect) VALUES (43, 'Ghost Town: Spawn one Ghost for every destroyed mini-boss, Skull Token on the dungeon, and spent Princess Coin.', '', 'Poxes: All Heroes suffer one random status effect.  (Close your eyes and pick a token.)');
-insert into BossSpawn_Assignments (CharacterIndex) VALUES (0, 43); --Beatrix the Wich Queen
+insert into BossSpawn_Assignments (CharacterIndex) VALUES (0, 43); --Beatrix the Witch Queen
 
 --FK
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Soul Spike', 'https://i.imgur.com/Zc4B17w.png', 'https://i.imgur.com/fQDg67i.png', 'http://htkb.dyndns.org:8080/SDWiki/SDE/FK/Cards/Utility/Event/Boss/Soul_Spike.xhtml', 'Boss Event', 'FK', 'Von Drakk Manor', 'Default', 'Is it supposed to glow like that?');
@@ -83,7 +88,7 @@ insert into Challenge_Assignments (ChallengeIndex, CharacterIndex) VALUES (0, 43
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('The Challenge of Flame', 'https://i.imgur.com/tUdjanT.png', 'https://i.imgur.com/KpPuHiq.png', 'http://htkb.dyndns.org:8080/SDWiki/SDE/Arcade/2.0/Cards/Utility/Challenge/The_Challenge_Of_Flame.xhtml', 'Arcade Plot', '2.0', 'Kickstarter', 'Arcade', 'The halls and chambers of the Midnight Tower have been riddled with traps over the years.  Step on the wrong tile, and you may find yourself dodging jets of lame until you can get to the lever to turn them off.');
 insert into Plots (UtilityIndex, PowerUp, Plot) VALUES (43, 'Place a crystal token adjacent to two dungeon exits in the last tile.  A Hero may remove one of these tokens by taking an Interact action while sharing a square with the token.  Once all of these tokens are removed from play, discard this card.', 'At the start of every Consul Turn, every Hero suffers fire.'); --The Challenge of Flame
 
-
+--Utility 2.0
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('MMB1', 'https://i.imgur.com/eYfc0Z3.png', 'https://i.imgur.com/yHrmgXU.png', 'http://htkb.dyndns.org:8080/SDWiki/SDE/2.0/Cards/Utility/Might_Monster_Chart/MMB1.xhtml', 'Mighty Monster Bonus', '2.0', 'Kickstarter', 'Default', '');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (43, ''); --MMB1
 insert into MightyMonsters (UtilityIndex, Targets, Bonus, Condition) VALUES (0, 'All monsters, except the dungeon boss, gain the following bonus:', '+1st to armor', 'If the monsters gain the above bonus from the Mighty Monster Chart, place this card in front of the Consul player as a reminder.');

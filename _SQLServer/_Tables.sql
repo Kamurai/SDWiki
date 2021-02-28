@@ -16,17 +16,17 @@ create table Keywords (KeywordIndex bigint IDENTITY(0,1) PRIMARY KEY, Name varch
 
 create table KeywordAssignments (KeywordAssignmentIndex bigint IDENTITY(0,1) PRIMARY KEY, KeywordIndex bigint not null, ExploreCharacterIndex bigint not null, GangMemberIndex bigint not null, EquipmentIndex bigint not null);
 
-create table Abilities (AbilityIndex bigint IDENTITY(0,1) PRIMARY KEY, Name varchar(50) not null, AbilityResource varchar(10) not null, AbilityType varchar(10) not null, AbilityCost int not null, AbilityAttribute bigint not null, AbilityRange int not null, AbilityDescription varchar(1000) not null);
+create table Abilities (AbilityIndex bigint IDENTITY(0,1) PRIMARY KEY, Name varchar(50) not null, AbilityResource varchar(10) not null, AbilityType varchar(10) not null, AbilityCost int not null, AbilityAttribute bigint not null, AbilityRange int not null, AbilityDescription varchar(1000) not null, AbilityVersion varchar(20) not null);
 
 create table AbilityAssignments (AbilityAssignmentIndex bigint IDENTITY(0,1) PRIMARY KEY, AbilityIndex bigint not null, ExploreCharacterIndex bigint not null, GangMemberIndex bigint not null, EquipmentIndex bigint not null, EventTrapIndex bigint not null);
 
 create table ExploreCharacters (ExploreCharacterIndex bigint IDENTITY(0,1) PRIMARY KEY, CharacterIndex bigint not null, ModelSize varchar(50) not null, CreatureType varchar(50) not null, Movement int not null, Actions int not null, Strength varchar(50) not null, Armor varchar(50) not null, Will varchar(50) not null, Dexterity varchar(50) not null, Health int not null, Potions int not null);
 create table Attributes (AttributeIndex bigint IDENTITY(0,1) PRIMARY KEY, Attribute varchar(50) not null);
-insert into Attributes (Attribute) VALUES ('Attack');
-insert into Attributes (Attribute) VALUES ('Strength');
-insert into Attributes (Attribute) VALUES ('Armor');
-insert into Attributes (Attribute) VALUES ('Will');
-insert into Attributes (Attribute) VALUES ('Dexterity');
+insert into Attributes (Attribute) VALUES ('Attack'); --0
+insert into Attributes (Attribute) VALUES ('Strength'); --1
+insert into Attributes (Attribute) VALUES ('Armor'); --2
+insert into Attributes (Attribute) VALUES ('Will'); --3
+insert into Attributes (Attribute) VALUES ('Dexterity'); --4
 
 create table OffenseAssignments (OffenseAssignmentIndex bigint IDENTITY(0,1) PRIMARY KEY, ExploreCharacterIndex bigint not null, AttributeIndex bigint not null, OffenseRange int not null);
 create table DefenseAssignments (DefenseAssignmentIndex bigint IDENTITY(0,1) PRIMARY KEY, ExploreCharacterIndex bigint not null, AttributeIndex bigint not null);
