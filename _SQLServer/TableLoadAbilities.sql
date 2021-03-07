@@ -1,4 +1,5 @@
 --1.0
+--Heroes
 --Angry Bear
 insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Bear Charge', 'Action', 'Offense', 2, 0, 1, '+1R Attack, Knockdown', '1.0');
 insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Bear Hug', 'Action', 'Offense', 2, 0, 1, 'Immobile, Weak', '1.0');
@@ -155,36 +156,85 @@ insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityA
 insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Portcullis Potion', 'Potion', 'Support', 1, -1, -1, 'Place a Hero Effect Token next to any doorway.  The next monster to move through that doorway suffers an attack equal to the Exemplar''s current attack.  Then remove the token.', '1.0');
 
 
+--1.0
+--Bosses
 
 
+--Nocturne
+insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Terrifying Screech', 'Action', 'Offense', 2, 0, -1, 'Wave 3, Stun', '1.0'); --? Check the values
+insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Shapeshift', 'Action', 'Support', 1, -1, -1, 'Von Drakk', '1.0'); --? Check the values
 
 
+--Roxor
+insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Magma', 'Action', 'Support', 1, 0, -1, 'Augment, Backlash', '1.0'); --? Check the values
+insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Riddle of Steel', 'Action', 'Offense', 2, -1, 6, 'Range 6, Weak', '1.0'); --? Check the values
+insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Volcano', 'Action', 'Offense', 2, 0, -1, 'Wave 3', '1.0'); --? Check the values
 
 
+--Starfire
+insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Dragon Breath', 'Action', 'Offense', 2, -1, 5, 'Spray 5, Fire', '1.0'); --? Check the values
+insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Tail Sweep', 'Action', 'Offense', 2, 0, 2, 'Sweep 2, Knockdown', '1.0'); --? Check the values
 
 
+--Von Drakk
+insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Shapeshift', 'Action', 'Support', 1, -1, 0, 'Nocturne', '1.0'); --? Check the values
+insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Ghastly Vigor', 'Action', 'Support', 1, 0, 0, 'Augment, Aura 3, All Undead gain +1B Attack', '1.0'); --? Check the values
+insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Tide of Bones', 'Action', 'Support', 2, -1, 0, 'Wave 2, Raise', '1.0'); --? Check the values
 
 
+--1.0
+--Miniboss
 
 
+--Captain R
+insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Flintlock', 'Action', 'Offense', 1, -1, 0, 'Missle 6, +1R DEX', '1.0'); --? Check the values
+insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Deep One Attack', 'Action', 'Offense', 2, 0, 0, 'Magic, Cross 5, +1R WILL', '1.0'); --? Check the values
+insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('X Marks the Spot', 'Action', 'Support', 2, -1, 0, 'Draw and equip 1 Loot card', '1.0'); --? Check the values
+ look at later
 
 
+--Death Spectre
+insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Lifesap', 'Action', 'Offense', 1, -1, 1, 'Range 1.  Do not make an attack roll.  Target model takes one wound.  Death immediately heals one wound.', '1.0'); --? Check the values
+insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Ghost Form', 'Action', 'Support', 2, 0, 0, 'Teleport', '1.0'); --? Check the values
 
 
+--Herald of Vulcanis
+insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Javelin', 'Action', 'Offense', 1, -1, 6, 'Missle 6, Fire.', '1.0'); --? Check the values
+insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Shield Bash', 'Action', 'Offense', 2, 0, 0, '+1 Star Attack, Massive Damage', '1.0'); --? Check the values
 
 
+--Kaelly the Nether Strider
+insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Corrosive Striked', 'Action', 'Offense', 1, -1, 6, 'Missle 6, Fire.', '1.0'); --? Check the values
+insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Dark Aura', 'Action', 'Offense', 2, 0, 0, '+1 Star Attack, Massive Damage', '1.0'); --? Check the values
 
 
+--Kasaro To
+insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Crippling Smash', 'Action', 'Offense', 1, -1, 0, '+1G Attack, Massive Damage', '1.0'); --? Check the values
+insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Serpent Coil', 'Action', 'Offense', 2, 0, 0, 'Immobile, Weak', '1.0'); --? Check the values
+insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Zealotry', 'Action', 'Support', 1, -1, 0, 'Augment, Aura 2, +1B Attack', '1.0'); --? Check the values
+insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Snare', 'Action', 'Support', 1, 0, 0, 'Pull 5', '1.0'); --? Check the values
 
 
+--Rex
+insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Rex Smash', 'Action', 'Offense', 3, -1, 0, '+1G Attack, Massive Damage', '1.0'); --? Check the values
+insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Rex Cuddle', 'Action', 'Offense', 2, 0, 0, 'Immobile, Weak', '1.0'); --? Check the values
+insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Thwomp', 'Action', 'Offense', 1, -1, 0, 'Push 5', '1.0'); --? Check the values
 
 
+--Rock Gut
+insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Feast', 'Action', 'Offense', 2, 0, 0, '+1R Attack.  If Rock Gut inflicts a wound this attack he may immediately remove a wound counter.', '1.0'); --? Check the values
+insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Burning Bile', 'Action', 'Offense', 2, 0, 0, 'Lance 6', '1.0'); --? Check the values
 
 
+--Ser Snapjaw
+insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Burning Blade', 'Action', 'Offense', 2, 0, 0, 'Sweep 3, +1R Attack', '1.0'); --? Check the values
+insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Hightower', 'Action', 'Support', 1, 0, 0, 'Augment, Aura 2, +1Star ARM, Immune: Knockdown', '1.0'); --? Check the values
+insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Rally Cry', 'Action', 'Support', 2, 0, 0, 'Augment, Wave 5, Pull 4', '1.0'); --? Check the values
 
 
-
-
+--Succubus Vandella
+insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Alluring', 'Action', 'Offense', 2, 0, 0, '+1R WILL, If successful Vandella immediately heals one wound.', '1.0'); --? Check the values
+insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Come Hither', 'Action', 'Support', 2, 0, 0, 'Wave 3, Compel 3', '1.0'); --? Check the values
 
 
 --2.0 or FK
