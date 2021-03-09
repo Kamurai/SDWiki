@@ -66,22 +66,21 @@
             <!-- List of Keywords -->
             <ui:repeat var="x" value="#{SDEBean.getCard().getKeywords()}" size="#{SDEBean.getCard().getKeywords().size()}" varStatus="myVarStatus" >
                 <div class="xRow">
-                    <div class="inline, xRowSpanNumber"><h:outputText      class="xRowNumber"  value="#{x.getName()}" /></div>
-                    <div class="inline, xRowSpanGender"><h:outputText      class="xRowGender"  value="#{x.getDescription()}" /></div>
+                    <div class="inline"><!-- Keyword -->#{x.getName()}</div><div class="inline"><!-- Definition -->#{x.getDescription()}</div>
                 </div>
             </ui:repeat>
             
             <!-- List of Abilities -->
             <ui:repeat var="x" value="#{SDEBean.getCard().getAbilities()}" size="#{SDEBean.getCard().getAbilities().size()}" varStatus="myVarStatus" >
                 <div class="xRow">
-                    <div class="inline, xRowSpanGender"><h:outputText      class="xRowGender"  value="#{x.getCost()}" /></div>
-                    <div class="inline, xRowSpanName"><h:outputText        class="xRowName"    value="#{x.getResource()}" /></div>
-                    <div class="inline, xRowSpanPicture"><h:graphicImage   class="xRowPicture" value="#{x.getType()}" /></div>
-                    <div class="inline, xRowSpanNumber"><h:outputText      class="xRowNumber"  value="#{x.getName()}" /></div>
+                    <div class="inline"><!-- Ability Cost -->#{x.getCost()}</div>
+                    <div class="inline"><!-- Ability Resource -->#{x.getResource()}</div>
+                    <div class="inline"><!-- Ability Type -->#{x.getType()}</div>
                     
-                    <div class="inline, xRowSpanGender"><h:outputText      class="xRowGender"  value="#{x.getAttribute()}" /></div>
-                    <div class="inline, xRowSpanGender"><h:outputText      class="xRowGender"  value="#{x.getRange()}" /></div>
-                    <div class="inline, xRowSpanGender"><h:outputText      class="xRowGender"  value="#{x.getDescription()}" /></div>
+                    <div class="inline"><!-- Ability Attribute -->#{x.getAttribute()}</div>
+                    <div class="inline"><!-- Ability Range -->#{x.getRange()}</div>
+                    
+                    <div class="inline"><!-- Ability Description -->#{x.getDescription()}</div>
                 </div>
             </ui:repeat>
         </div>

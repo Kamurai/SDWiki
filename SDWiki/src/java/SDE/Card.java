@@ -1,15 +1,10 @@
 package SDE;
 
-/**
- *
- * @author Kamurai
- */
-public class Card {
+public class Card extends Component{
     private int     cardIndex;
     private String  name;
     private String  pictureFront;
     private String  pictureBack;
-    private String  link;
     private String  cardType;
     private String  productSet;
     private String  module;
@@ -17,16 +12,16 @@ public class Card {
     private String  flavor;
     
     public Card(){
+        super();
         this.cardIndex      = -1;
         this.name           = "";
         this.pictureFront   = "";
         this.pictureBack    = "";
-        this.link           = "";
         this.cardType       = "";
         this.productSet     = "";
         this.module         = "";
-        this. mode          = "";
-        this.flavor         = "";
+        this.mode           = "";
+        this.flavor         = "";        
     }
     
     public Card(
@@ -34,18 +29,18 @@ public class Card {
         String  name,
         String  pictureFront,
         String  pictureBack,
-        String  link,
         String  cardType,
         String  productSet,
         String  module,
         String  mode,
-        String  flavor
+        String  flavor,
+        String  link
     ){
+        super(link);
         this.cardIndex      = cardIndex;
         this.name           = name;
         this.pictureFront   = pictureFront;
         this.pictureBack    = pictureBack;
-        this.link           = link;
         this.cardType       = cardType;
         this.productSet     = productSet;
         this.module         = module;
@@ -84,15 +79,7 @@ public class Card {
     public void setPictureBack(String pictureBack) {
         this.pictureBack = pictureBack;
     }
-
-    public String getLink() {
-        return link;
-    }
-
-    public void setLink(String link) {
-        this.link = link;
-    }
-
+    
     public String getCardType() {
         return cardType;
     }

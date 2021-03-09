@@ -7,8 +7,6 @@ package SDE;
 
 import javax.faces.bean.ManagedBean;
 import javax.faces.bean.RequestScoped;
-import javax.faces.bean.SessionScoped;
-import javax.faces.bean.ViewScoped;
 import Main.Universal;
 
 @ManagedBean(name="SDEBean")
@@ -17,21 +15,41 @@ public class Bean extends Main.Bean{
     private Database.SDE.SDEDAOOne oneDAO;
     private Database.SDE.SDEDAOAll allDAO;
     private Database.SDE.SDEDAONavigation navDAO;
+    
+    private Board board;
     private Card card;
+    private Dice dice;
+    private Definition definition;
     
     public Bean(){
         this.uni        = new Universal();
         this.oneDAO     = new Database.SDE.SDEDAOOne();
         this.allDAO     = new Database.SDE.SDEDAOAll();
         this.navDAO     = new Database.SDE.SDEDAONavigation();
+        
+        this.board      = new Board();
         this.card       = new Card();
+        this.dice       = new Dice();
+        this.definition = new Definition();
     }
     
     public String setHeroPage(String link){
-        this.card = oneDAO.pullOneHero(link);
+        String path = uni.getAppPath()+link;
         
-        return uni.getAppPath()+"SDE/Layout.xhtml";
+        this.card = oneDAO.pullOneHero(path);
+        
+        return uni.getAppPath()+"SDE/Content/Hero.xhtml";
     }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     
     public String setPetPage(String link){
         this.card = oneDAO.pullOnePet(link);
@@ -106,29 +124,5 @@ public class Bean extends Main.Bean{
     
     
     
-    public String getContent(){
-        String result = uni.getAppPath()+"SDE/_Content/";
-        
-        if(this.card.getCardType().compareTo("Hero") == 0){
-            result += "Content_Hero.xhtml";
-        }else if(this.card.getCardType().compareTo("Hero") == 0){
-            result += "Content_Ability.xhtml";
-        }else if(this.card.getCardType().compareTo("Hero") == 0){
-            result += "Content_Affinity.xhtml";
-        }else if(this.card.getCardType().compareTo("Hero") == 0){
-            result += "Content_BossSpawn.xhtml";
-        }else if(this.card.getCardType().compareTo("Hero") == 0){
-            result += "Content_Monster.xhtml";
-        }else if(this.card.getCardType().compareTo("Hero") == 0){
-            result += "Content_Keyword.xhtml";
-        }else if(this.card.getCardType().compareTo("Hero") == 0){
-            result += "Content_Equipment.xhtml";
-        }else if(this.card.getCardType().compareTo("Hero") == 0){
-            result += "Content_Utility.xhtml";
-        }else{
-            result += "Content_Card.xhtml";
-        }
-        
-        return result;
-    }
+   
 }
