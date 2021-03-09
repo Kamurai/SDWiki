@@ -58,6 +58,7 @@ public class SDEDAOOne extends DAO{
                     result.setModule(rs.getString("Module"));
                     result.setMode(rs.getString("Mode"));
                     result.setFlavor(rs.getString("Flavor"));
+                    result.setGender(rs.getString("Gender"));
                     result.setModelSize(rs.getString("ModelSize"));
                     result.setCreatureType(rs.getString("CreatureType"));
                     result.setMovement(rs.getInt("Movement"));
@@ -513,6 +514,7 @@ public class SDEDAOOne extends DAO{
                         rs.getInt("MemberMovement"),
                         rs.getInt("MemberHealth"),
                         rs.getInt("MemberArmor"),
+                        rs.getString("Gender"),
                         rs.getString("ModelSize"),
                         new ArrayList<SDE.Keyword>(),
                         new ArrayList<SDE.Ability>()
@@ -692,9 +694,9 @@ public class SDEDAOOne extends DAO{
                 result.setMode(rs.getString("Mode"));
                 result.setFlavor(rs.getString("Flavor"));
 
-                result.setSpawn(rs.getString("Spawn"));
-                result.setEffect(rs.getString("Effect"));
-                result.setTimeout(rs.getString("TimeoutEffect"));
+                result.setDungeonEffect(rs.getString("Spawn"));
+                result.setBossSpawnEffect(rs.getString("Effect"));
+                result.setTimeoutEffect(rs.getString("TimeoutEffect"));
                 result.setCharacterName(rs.getString("CharacterName"));
                 result.setCharacterLink(rs.getString("CharacterLink"));
             }

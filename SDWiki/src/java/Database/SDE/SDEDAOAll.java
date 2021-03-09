@@ -66,6 +66,7 @@ public class SDEDAOAll extends DAO{
                     temp.setModule(rs.getString("Module"));
                     temp.setMode(rs.getString("Mode"));
                     temp.setFlavor(rs.getString("Flavor"));
+                    temp.setGender(rs.getString("Gender"));
                     temp.setModelSize(rs.getString("ModelSize"));
                     temp.setCreatureType(rs.getString("CreatureType"));
                     temp.setMovement(rs.getInt("Movement"));
@@ -184,6 +185,7 @@ public class SDEDAOAll extends DAO{
                     temp.setModule(rs.getString("Module"));
                     temp.setMode(rs.getString("Mode"));
                     temp.setFlavor(rs.getString("Flavor"));
+                    temp.setGender(rs.getString("Gender"));
                     temp.setModelSize(rs.getString("ModelSize"));
                     temp.setCreatureType(rs.getString("CreatureType"));
                     temp.setMovement(rs.getInt("Movement"));
@@ -350,6 +352,7 @@ public class SDEDAOAll extends DAO{
                     temp.setModule(rs.getString("Module"));
                     temp.setMode(rs.getString("Mode"));
                     temp.setFlavor(rs.getString("Flavor"));
+                    temp.setGender(rs.getString("Gender"));
                     temp.setModelSize(rs.getString("ModelSize"));
                     temp.setCreatureType(rs.getString("CreatureType"));
                     temp.setMovement(rs.getInt("Movement"));
@@ -544,6 +547,7 @@ public class SDEDAOAll extends DAO{
                         rs.getInt("MemberMovement"),
                         rs.getInt("MemberHealth"),
                         rs.getInt("MemberArmor"),
+                        rs.getString("Gender"),
                         rs.getString("ModelSize"),
                         new ArrayList<SDE.Keyword>(),
                         new ArrayList<SDE.Ability>()
@@ -745,9 +749,9 @@ public class SDEDAOAll extends DAO{
                     temp.setMode(rs.getString("Mode"));
                     temp.setFlavor(rs.getString("Flavor"));
                     
-                    temp.setSpawn(rs.getString("Spawn"));
-                    temp.setEffect(rs.getString("Effect"));
-                    temp.setTimeout(rs.getString("TimeoutEffect"));
+                    temp.setDungeonEffect(rs.getString("Spawn"));
+                    temp.setBossSpawnEffect(rs.getString("Effect"));
+                    temp.setTimeoutEffect(rs.getString("TimeoutEffect"));
                     temp.setCharacterName(rs.getString("CharacterName"));
                     temp.setCharacterLink(rs.getString("CharacterLink"));
                 }

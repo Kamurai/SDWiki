@@ -82,8 +82,8 @@ public class ArcadeCharacter extends Character{
         this.gangMembers = gangMembers;
     }
     
-    public void addGangMember(String name, int order, String creatureType, String rank, int movement, int health, int armor, String modelSize, ArrayList<Keyword> keywords, ArrayList<Ability> abilities){
-        addGangMember(new GangMember(name, order, creatureType, rank, movement, health, armor, modelSize, keywords, abilities));
+    public void addGangMember(String name, int order, String creatureType, String rank, int movement, int health, int armor, String gender, String modelSize, ArrayList<Keyword> keywords, ArrayList<Ability> abilities){
+        addGangMember(new GangMember(name, order, creatureType, rank, movement, health, armor, gender, modelSize, keywords, abilities));
     }
     
     public void addGangMember(GangMember gangMember){

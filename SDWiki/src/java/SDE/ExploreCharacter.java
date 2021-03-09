@@ -5,6 +5,7 @@ import java.util.ArrayList;
 
 public class ExploreCharacter extends Character implements KeywordInterface, AbilityInterface {
     
+    private String              gender;
     private String              modelSize;
     private String              creatureType;
     private int                 movement;
@@ -22,6 +23,7 @@ public class ExploreCharacter extends Character implements KeywordInterface, Abi
     
     public ExploreCharacter(){
         super();
+        this.gender         = "";
         this.modelSize      = "";
         this.creatureType   = "";
         this.movement       = -1;
@@ -51,6 +53,7 @@ public class ExploreCharacter extends Character implements KeywordInterface, Abi
         String              mode,
         String              flavor,
         String              affinity,
+        String              gender,
         String              modelSize,
         String              creatureType,
         int                 movement,
@@ -79,6 +82,7 @@ public class ExploreCharacter extends Character implements KeywordInterface, Abi
             flavor,
             affinity
         );
+        this.gender         = gender;
         this.modelSize      = modelSize;
         this.creatureType   = creatureType;
         this.movement       = movement;
@@ -95,6 +99,22 @@ public class ExploreCharacter extends Character implements KeywordInterface, Abi
         this.abilities      = abilities;
     }
     
+    public String getGender(){
+        if( this.gender == null){
+            this.gender = Gender.genders.get(0);
+        }
+        
+        return gender;
+    }
+    
+    public void setGender(String gender){
+        if(Gender.genders.contains(gender)){
+            this.gender = gender;
+        }else{
+            this.gender = "Error";
+        }
+    }
+
     public String getModelSize(){
         if( this.modelSize == null){
             this.modelSize = ModelSize.sizes.get(0);

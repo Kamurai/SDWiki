@@ -10,6 +10,7 @@ public class GangMember implements KeywordInterface, AbilityInterface {
     private int     movement;
     private int     health;
     private int     armor;
+    private String  gender;
     private String  modelSize;
     
     private ArrayList<Keyword>  keywords;
@@ -24,8 +25,9 @@ public class GangMember implements KeywordInterface, AbilityInterface {
         this.movement       = -1;
         this.health         = -1;
         this.armor          = -1;
+        this.gender         = "";
         this.modelSize      = "";
-    
+        
         this.keywords       = new ArrayList<Keyword>();
         this.abilities      = new ArrayList<Ability>();
     }
@@ -38,6 +40,7 @@ public class GangMember implements KeywordInterface, AbilityInterface {
         int     movement,
         int     health,
         int     armor,
+        String  gender,
         String  modelSize,
     
         ArrayList<Keyword>  keywords,
@@ -50,6 +53,7 @@ public class GangMember implements KeywordInterface, AbilityInterface {
         this.movement       = movement;
         this.health         = health;
         this.armor          = armor;
+        this.gender      = gender;
         this.modelSize      = modelSize;
                 
         this.keywords       = keywords;
@@ -112,12 +116,36 @@ public class GangMember implements KeywordInterface, AbilityInterface {
         this.armor = armor;
     }
 
-    public String getModelSize() {
-        return modelSize;
+    public String getGender(){
+        if( this.gender == null){
+            this.gender = Gender.genders.get(0);
+        }
+        
+        return gender;
+    }
+    
+    public void setGender(String gender){
+        if(Gender.genders.contains(gender)){
+            this.gender = gender;
+        }else{
+            this.gender = "Error";
+        }
     }
 
-    public void setModelSize(String modelSize) {
-        this.modelSize = modelSize;
+    public String getModelSize(){
+        if( this.modelSize == null){
+            this.modelSize = ModelSize.sizes.get(0);
+        }
+        
+        return modelSize;
+    }
+    
+    public void setModelSize(String size){
+        if(ModelSize.sizes.contains(size)){
+            this.modelSize = size;
+        }else{
+            this.modelSize = "Error";
+        }
     }
 
     public ArrayList<Keyword> getKeywords() {
