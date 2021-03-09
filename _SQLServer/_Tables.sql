@@ -14,13 +14,13 @@ insert into Affinities (AffinityType) VALUES ('Sapphire');
 create table AffinityAssignments (AffinityAssignmentIndex bigint IDENTITY(0,1) PRIMARY KEY, AffinityIndex bigint not null, CharacterIndex bigint not null);
 create table Keywords (KeywordIndex bigint IDENTITY(0,1) PRIMARY KEY, Name varchar(50) not null, KeywordDescription varchar(1000) not null, KeywordVersion varchar(20) not null);
 
-create table KeywordAssignments (KeywordAssignmentIndex bigint IDENTITY(0,1) PRIMARY KEY, KeywordIndex bigint not null, ExploreCharacterIndex bigint not null, GangMemberIndex bigint not null, EquipmentIndex bigint not null);
+create table KeywordAssignments (KeywordAssignmentIndex bigint IDENTITY(0,1) PRIMARY KEY, KeywordIndex bigint not null, ExploreCharacterIndex bigint not null, GangMemberIndex bigint not null, EquipmentIndex bigint not null, BossSpawnIndex bigint not null);
 
 create table Abilities (AbilityIndex bigint IDENTITY(0,1) PRIMARY KEY, Name varchar(50) not null, AbilityResource varchar(10) not null, AbilityType varchar(10) not null, AbilityCost int not null, AbilityAttribute bigint not null, AbilityRange int not null, AbilityDescription varchar(1000) not null, AbilityVersion varchar(20) not null);
 
-create table AbilityAssignments (AbilityAssignmentIndex bigint IDENTITY(0,1) PRIMARY KEY, AbilityIndex bigint not null, ExploreCharacterIndex bigint not null, GangMemberIndex bigint not null, EquipmentIndex bigint not null, EventTrapIndex bigint not null);
+create table AbilityAssignments (AbilityAssignmentIndex bigint IDENTITY(0,1) PRIMARY KEY, AbilityIndex bigint not null, ExploreCharacterIndex bigint not null, GangMemberIndex bigint not null, EquipmentIndex bigint not null, EventTrapIndex bigint not null, BossSpawnIndex bigint not null);
 
-create table ExploreCharacters (ExploreCharacterIndex bigint IDENTITY(0,1) PRIMARY KEY, CharacterIndex bigint not null, ModelSize varchar(50) not null, CreatureType varchar(50) not null, Movement int not null, Actions int not null, Strength varchar(50) not null, Armor varchar(50) not null, Will varchar(50) not null, Dexterity varchar(50) not null, Health int not null, Potions int not null);
+create table ExploreCharacters (ExploreCharacterIndex bigint IDENTITY(0,1) PRIMARY KEY, CharacterIndex bigint not null, Gender varchar(50) not null, ModelSize varchar(50) not null, CreatureType varchar(50) not null, Movement int not null, Actions int not null, Strength varchar(50) not null, Armor varchar(50) not null, Will varchar(50) not null, Dexterity varchar(50) not null, Health int not null, Potions int not null);
 create table Attributes (AttributeIndex bigint IDENTITY(0,1) PRIMARY KEY, Attribute varchar(50) not null);
 insert into Attributes (Attribute) VALUES ('Attack'); --0
 insert into Attributes (Attribute) VALUES ('Strength'); --1
@@ -32,16 +32,16 @@ create table OffenseAssignments (OffenseAssignmentIndex bigint IDENTITY(0,1) PRI
 create table DefenseAssignments (DefenseAssignmentIndex bigint IDENTITY(0,1) PRIMARY KEY, ExploreCharacterIndex bigint not null, AttributeIndex bigint not null);
 
 create table Pets (PetIndex bigint IDENTITY(0,1) PRIMARY KEY, ExploreCharacterIndex bigint not null, Cost int not null, RangeLimit int not null);
-create table Monsters (MonsterIndex bigint IDENTITY(0,1) PRIMARY KEY, ExploreCharacterIndex bigint not null, RankType varchar(50) not null, Bits varchar(50) not null, Skulls int not null);
+create table Monsters (MonsterIndex bigint IDENTITY(0,1) PRIMARY KEY, ExploreCharacterIndex bigint not null, Bits varchar(50) not null, Skulls int not null);
 
 create table ArcadeCharacters (ArcadeCharacterIndex bigint IDENTITY(0,1) PRIMARY KEY, CharacterIndex bigint not null, SoloStatLineIndex bigint not null, GangStatLineIndex bigint not null);
 create table StatLines (StatLineIndex bigint IDENTITY(0,1) PRIMARY KEY, StatAction int not null, StatStrength int not null, StatRange int not null);
-create table GangMembers (GangMemberIndex bigint IDENTITY(0,1) PRIMARY KEY, ArcadeCharacterIndex bigint not null, MemberOrder int not null, Name varchar(10) not null, CreatureType varchar(30) not null, RankType varchar(30) not null, MemberMovement int not null, MemberHealth int not null, MemberArmor int not null, ExploreCharacterIndex bigint not null);
+create table GangMembers (GangMemberIndex bigint IDENTITY(0,1) PRIMARY KEY, ArcadeCharacterIndex bigint not null, MemberOrder int not null, Name varchar(10) not null, CreatureType varchar(30) not null, MemberMovement int not null, MemberHealth int not null, MemberArmor int not null, ExploreCharacterIndex bigint not null);
 
 create table Equipment (EquipmentIndex bigint IDENTITY(0,1) PRIMARY KEY, CardIndex bigint not null, Position varchar(50) not null, Effect varchar(50) not null);
 create table EquipmentAssignments (EquipmentAssignmentIndex bigint IDENTITY(0,1) PRIMARY KEY, EquipmentIndex bigint, CharacterIndex bigint not null);
 
-create table BossSpawns (BossSpawnIndex bigint IDENTITY(0,1) PRIMARY KEY, CardIndex bigint not null, Spawn varchar(50) not null, Effect varchar(50) not null, TimeoutEffect varchar(50) not null);
+create table BossSpawns (BossSpawnIndex bigint IDENTITY(0,1) PRIMARY KEY, CardIndex bigint not null, DungeonEffect varchar(100) not null, BossSpawnEffect varchar(100) not null, TimeoutEffect varchar(100) not null, DifficultyRating varchar(100) not null);
 create table BossSpawnAssignments (BossSpawnAssignmentIndex bigint IDENTITY(0,1) PRIMARY KEY, BossSpawnIndex bigint, CharacterIndex bigint not null);
 
 create table Utilities (UtilityIndex bigint IDENTITY(0,1) PRIMARY KEY, CardIndex bigint not null, UtilityDescription varchar(1000) not null);
