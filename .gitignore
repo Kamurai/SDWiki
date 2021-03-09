@@ -6,3 +6,4 @@
 /SDEWiki/dist/
 /SDWiki/nbproject/private/
 SDWiki/nbproject/private/private.properties
+*.properties
