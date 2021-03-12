@@ -1,7 +1,5 @@
 --1.0
 --Loot (Used Treasure from DataLoad_Scratch file)
-
-
 --Berserker's Helm
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Berserker''s Helm',
 'http://htkb.info/SDE/1.0/Cards/Loot/Card_Loot_Berserkers_Helm_1.0.png', 
@@ -10,8 +8,6 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Loot', '1.0', '1.0 Core Set', 'Default',
 'ANGRY!');
 insert into Equipment (Position, Effect) VALUES ('Top', '+1B Attack'); --? Not sure that this should be "Equipment" and the values need to be checked - everything about this line needs to be checked - could not find anything about Loot in the _Tables.sql and _DataLoad_Scratch.sql files --
-
-
 --Blazing Blade
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Blazing Blade',
 'http://htkb.info/SDE/1.0/Cards/Loot/Card_Loot_Blazing_Blade_1.0.png', 
@@ -189,9 +185,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Loot/Rune_Of_Haste.xhtml', 
 'Loot', '1.0', '1.0 Core Set', 'Default',
 'I''m the best around.');
-insert into Equipment (Position, Effect) VALUES ('Top', '+1Star'); --? Not sure that this should be "Equipment" and the values need to be checked - everything about this line needs to be checked - could not find anything about Loot in the _Tables.sql and _DataLoad_Scratch.sql files --
-
-
+insert into Equipment (Position, Effect) VALUES ('Top', '+1AC'); 
 --Rune of Health
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Rune of Health',
 'http://htkb.info/SDE/1.0/Cards/Loot/Card_Loot_Rune_Of_Health_1.0.png', 
@@ -199,7 +193,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Loot/Rune_Of_Health.xhtml', 
 'Loot', '1.0', '1.0 Core Set', 'Default',
 'Nothing is going to keep me down.');
-insert into Equipment (Position, Effect) VALUES ('Top', '+1R Health'); --? Not sure that this should be "Equipment" and the values need to be checked - everything about this line needs to be checked - could not find anything about Loot in the _Tables.sql and _DataLoad_Scratch.sql files --
+insert into Equipment (Position, Effect) VALUES ('Top', '+1He'); 
 
 
 --Rune of Meditation
