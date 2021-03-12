@@ -15,7 +15,7 @@ insert into AbilityAssignments (CharacterIndex, AbilityIndex) VALUES (2, 4); --!
 insert into ExploreCharacters (CharacterIndex, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (2, 'Samll', 'Undead', 6, 3, '1B 2R', '2B 1R', '1B 1R', '1B 1R', 5, 0); --? Check values
 insert into OffenseAssignments (CharacterIndex, AttributeIndex, OffenseRange) VALUES (2,1,1); --! To look at later
 insert into DefenseAssignments (CharacterIndex, AttributeIndex) VALUES (2,2); --! To look at later
-insert into Monsters (ExploreCharacterIndex, Bits, Skulls) VALUES (2, 'Elite', '16 bit', 4); --! To look at later
+insert into Monsters (ExploreCharacterIndex, Bits, Skulls) VALUES (2, 'Miniboss', '16 bit', 4); --! To look at later
 --Death Spectre
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Death Spectre',
 'http://htkb.info/SDE/1.0/Cards/Miniboss/Card_Miniboss_Death_Spectre_1.0.png', 
@@ -30,7 +30,7 @@ insert into AbilityAssignments (CharacterIndex, AbilityIndex) VALUES (2, 4); --!
 insert into ExploreCharacters (CharacterIndex, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (2, 'Small', 'Undead', 1, 3, '1B', '2R', '2R', '2B', 4, 0); --? Check values
 insert into OffenseAssignments (CharacterIndex, AttributeIndex, OffenseRange) VALUES (2,1,1); --! To look at later
 insert into DefenseAssignments (CharacterIndex, AttributeIndex) VALUES (2,2); --! To look at later
-insert into Monsters (ExploreCharacterIndex, Bits, Skulls) VALUES (2, 'Elite', '16 bit', 4); --! To look at later
+insert into Monsters (ExploreCharacterIndex, Bits, Skulls) VALUES (2, 'Miniboss', '16 bit', 4); --! To look at later
 --Herald of Vulcanis
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Herald of Vulcanis',
 'http://htkb.info/SDE/1.0/Cards/Miniboss/Card_Miniboss_Herald_of_Vulcanis_1.0.png', 
@@ -45,7 +45,7 @@ insert into AbilityAssignments (CharacterIndex, AbilityIndex) VALUES (2, 4); --!
 insert into ExploreCharacters (CharacterIndex, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (2, 'Small', 'Dark Celestian', 6, 3, '1ST 2R', '2R', '2B', '1R 1B', 5, 0); --? Check values
 insert into OffenseAssignments (CharacterIndex, AttributeIndex, OffenseRange) VALUES (2,1,1); --! To look at later
 insert into DefenseAssignments (CharacterIndex, AttributeIndex) VALUES (2,2); --! To look at later
-insert into Monsters (ExploreCharacterIndex, Bits, Skulls) VALUES (2, 'Elite', '16 bit', 4); --! To look at later
+insert into Monsters (ExploreCharacterIndex, Bits, Skulls) VALUES (2, 'Miniboss', '16 bit', 4); --! To look at later
 --Kaelly the Nether Strider
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Kaelly the Nether Strider',
 'http://htkb.info/SDE/1.0/Cards/Miniboss/Card_Miniboss_Kaelly_The_Nether_Strider_1.0.png', 
@@ -61,7 +61,7 @@ insert into ExploreCharacters (CharacterIndex, ModelSize, CreatureType, Movement
 insert into OffenseAssignments (CharacterIndex, AttributeIndex, OffenseRange) VALUES (2,1,1); --! To look at later
 insert into DefenseAssignments (CharacterIndex, AttributeIndex) VALUES (2,2); --! To look at later
 insert into DefenseAssignments (CharacterIndex, AttributeIndex) VALUES (2,4); --! To look at later
-insert into Monsters (ExploreCharacterIndex, Bits, Skulls) VALUES (2, 'Elite', '16 bit', 4); --! To look at later
+insert into Monsters (ExploreCharacterIndex, Bits, Skulls) VALUES (2, 'Miniboss', '16 bit', 4); --! To look at later
 --Kasaro To
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Kasaro To',
 'http://htkb.info/SDE/1.0/Cards/Miniboss/Card_Miniboss_Kasaro_To_1.0.png', 
@@ -79,7 +79,7 @@ insert into ExploreCharacters (CharacterIndex, ModelSize, CreatureType, Movement
 insert into OffenseAssignments (CharacterIndex, AttributeIndex, OffenseRange) VALUES (2,1,1); --! To look at later
 insert into DefenseAssignments (CharacterIndex, AttributeIndex) VALUES (2,2); --! To look at later
 insert into DefenseAssignments (CharacterIndex, AttributeIndex) VALUES (2,4); --! To look at later
-insert into Monsters (ExploreCharacterIndex, Bits, Skulls) VALUES (2, 'Elite', '16 bit', 4); --! To look at later
+insert into Monsters (ExploreCharacterIndex, Bits, Skulls) VALUES (2, 'Miniboss', '16 bit', 4); --! To look at later
 --Rex
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Rex',
 'http://htkb.info/SDE/1.0/Cards/Miniboss/Card_Miniboss_Rex_1.0.png', 
@@ -96,7 +96,7 @@ insert into ExploreCharacters (CharacterIndex, ModelSize, CreatureType, Movement
 insert into OffenseAssignments (CharacterIndex, AttributeIndex, OffenseRange) VALUES (2,1,1); --! To look at later
 insert into DefenseAssignments (CharacterIndex, AttributeIndex) VALUES (2,2); --! To look at later
 insert into DefenseAssignments (CharacterIndex, AttributeIndex) VALUES (2,4); --! To look at later
-insert into Monsters (ExploreCharacterIndex, Bits, Skulls) VALUES (2, 'Elite', '16 bit', 4); --! To look at later
+insert into Monsters (ExploreCharacterIndex, Bits, Skulls) VALUES (2, 'Miniboss', '16 bit', 4); --! To look at later
 --Rock Gut
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Rock Gut',
 'http://htkb.info/SDE/1.0/Cards/Miniboss/Card_Miniboss_Rock Gut_1.0.png', 
@@ -112,7 +112,7 @@ insert into ExploreCharacters (CharacterIndex, ModelSize, CreatureType, Movement
 insert into OffenseAssignments (CharacterIndex, AttributeIndex, OffenseRange) VALUES (2,1,1); --! To look at later
 insert into DefenseAssignments (CharacterIndex, AttributeIndex) VALUES (2,2); --! To look at later
 insert into DefenseAssignments (CharacterIndex, AttributeIndex) VALUES (2,4); --! To look at later
-insert into Monsters (ExploreCharacterIndex, Bits, Skulls) VALUES (2, 'Elite', '16 bit', 4); --! To look at later
+insert into Monsters (ExploreCharacterIndex, Bits, Skulls) VALUES (2, 'Miniboss', '16 bit', 4); --! To look at later
 --Ser Snapjaw
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Ser Snapjaw',
 'http://htkb.info/SDE/1.0/Cards/Miniboss/Card_Miniboss_Ser_Snapjaw_1.0.png', 
@@ -129,7 +129,7 @@ insert into ExploreCharacters (CharacterIndex, ModelSize, CreatureType, Movement
 insert into OffenseAssignments (CharacterIndex, AttributeIndex, OffenseRange) VALUES (2,1,1); --! To look at later
 insert into DefenseAssignments (CharacterIndex, AttributeIndex) VALUES (2,2); --! To look at later
 insert into DefenseAssignments (CharacterIndex, AttributeIndex) VALUES (2,4); --! To look at later
-insert into Monsters (ExploreCharacterIndex, Bits, Skulls) VALUES (2, 'Elite', '16 bit', 4); --! To look at later
+insert into Monsters (ExploreCharacterIndex, Bits, Skulls) VALUES (2, 'Miniboss', '16 bit', 4); --! To look at later
 --Succubus Vandella
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Succubus Vandella',
 'http://htkb.info/SDE/1.0/Cards/Miniboss/Card_Miniboss_Succubus_Vandella_1.0.png', 
@@ -145,4 +145,4 @@ insert into ExploreCharacters (CharacterIndex, ModelSize, CreatureType, Movement
 insert into OffenseAssignments (CharacterIndex, AttributeIndex, OffenseRange) VALUES (2,1,1); --! To look at later
 insert into DefenseAssignments (CharacterIndex, AttributeIndex) VALUES (2,2); --! To look at later
 insert into DefenseAssignments (CharacterIndex, AttributeIndex) VALUES (2,4); --! To look at later
-insert into Monsters (ExploreCharacterIndex, Bits, Skulls) VALUES (2, 'Elite', '16 bit', 3); --! To look at later
+insert into Monsters (ExploreCharacterIndex, Bits, Skulls) VALUES (2, 'Miniboss', '16 bit', 3); --! To look at later
