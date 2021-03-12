@@ -203,6 +203,7 @@ public class ExploreCharacter extends Character implements KeywordInterface, Abi
         this.potions = potions;
     }
     
+    //Potential Defense Interface
     public ArrayList<Defense> getDefenses() {
         return defenses;
     }
@@ -211,30 +212,6 @@ public class ExploreCharacter extends Character implements KeywordInterface, Abi
         this.defenses = defenses;
     }
 
-    public ArrayList<Offense> getOffenses() {
-        return offenses;
-    }
-
-    public void setOffenses(ArrayList<Offense> offenses) {
-        this.offenses = offenses;
-    }
-
-    public ArrayList<Keyword> getKeywords() {
-        return keywords;
-    }
-
-    public void setKeywords(ArrayList<Keyword> keywords) {
-        this.keywords = keywords;
-    }
-
-    public ArrayList<Ability> getAbilities() {
-        return abilities;
-    }
-
-    public void setAbilities(ArrayList<Ability> abilities) {
-        this.abilities = abilities;
-    }
-    
     public void addDefense(String attribute){
         addDefense(new Defense(attribute));
     }
@@ -245,6 +222,41 @@ public class ExploreCharacter extends Character implements KeywordInterface, Abi
         }
     }
     
+    public boolean containsDefense(String attribute){
+        boolean result = false;
+        
+        for(int x=0; x < defenses.size(); x++){
+            if(attribute.compareTo(defenses.get(x).getAttribute())==0){
+                result = true;
+                break;
+            }
+        }
+        
+        return result;
+    }
+    
+    public String getDefense(String attribute){
+        String result = "";
+        
+        for(int x=0; x < defenses.size(); x++){
+            if(attribute.compareTo(defenses.get(x).getAttribute())==0){
+                result = defenses.get(x).getAttribute();
+                break;
+            }
+        }
+        
+        return result;
+    }
+    
+    //Potential Offense Interface
+    public ArrayList<Offense> getOffenses() {
+        return offenses;
+    }
+
+    public void setOffenses(ArrayList<Offense> offenses) {
+        this.offenses = offenses;
+    }
+
     public void addOffense(String attribute, int range){
         addOffense(new Offense(attribute, range));
     }
@@ -255,6 +267,41 @@ public class ExploreCharacter extends Character implements KeywordInterface, Abi
        }
     }
     
+    public boolean containsOffense(String attribute){
+        boolean result = false;
+        
+        for(int x=0; x < offenses.size(); x++){
+            if(attribute.compareTo(offenses.get(x).getAttribute())==0){
+                result = true;
+                break;
+            }
+        }
+        
+        return result;
+    }
+    
+    public String getOffense(String attribute){
+        String result = "";
+        
+        for(int x=0; x < offenses.size(); x++){
+            if(attribute.compareTo(offenses.get(x).getAttribute())==0){
+                result = defenses.get(x).getAttribute();
+                break;
+            }
+        }
+        
+        return result;
+    }
+    
+    //Keyword Interface
+    public ArrayList<Keyword> getKeywords() {
+        return keywords;
+    }
+
+    public void setKeywords(ArrayList<Keyword> keywords) {
+        this.keywords = keywords;
+    }
+
     public void addKeyword(String keyword, String description){
         addKeyword(new Keyword(keyword, description));
     }
@@ -263,6 +310,15 @@ public class ExploreCharacter extends Character implements KeywordInterface, Abi
         if(!keyword.isWithin(keywords)){
             keywords.add(keyword);
        }
+    }
+        
+    //Ability Interface
+    public ArrayList<Ability> getAbilities() {
+        return abilities;
+    }
+
+    public void setAbilities(ArrayList<Ability> abilities) {
+        this.abilities = abilities;
     }
     
     public void addAbility(String name, String resource, String type, int cost, String attribute, int range, String description){
