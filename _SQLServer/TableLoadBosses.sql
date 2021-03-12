@@ -14,7 +14,7 @@ insert into AbilityAssignments (CharacterIndex, AbilityIndex) VALUES (2, 4); --!
 insert into ExploreCharacters (CharacterIndex, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (2, 'Large', 'Shapeshift', 8, 4, '2ST 2B 2R', '2B 2R', '3R', '2R', 6, 0); --? Check values
 insert into OffenseAssignments (CharacterIndex, AttributeIndex, OffenseRange) VALUES (2,1,1); --! To look at later
 insert into DefenseAssignments (CharacterIndex, AttributeIndex) VALUES (2,2); --! To look at later
-insert into Monsters (ExploreCharacterIndex, Bits, Skulls) VALUES (2, 'Elite', '8 bit', 4); --! To look at later
+insert into Monsters (ExploreCharacterIndex, Bits, Skulls) VALUES (2, 'Boss', '8 bit', 4); --! To look at later
 --Roxor
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Roxor',
 'http://htkb.info/SDE/1.0/Cards/Bosses/Card_Boss_Roxor_1.0.png', 
@@ -30,7 +30,7 @@ insert into AbilityAssignments (CharacterIndex, AbilityIndex) VALUES (2, 4); --!
 insert into ExploreCharacters (CharacterIndex, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (2, 'Large', 'Elemental', 5, 4, '1ST 2R', '2ST 2R', '1R 2B', '3B', 10, 0); --? Check values
 insert into OffenseAssignments (CharacterIndex, AttributeIndex, OffenseRange) VALUES (2,1,1); --! To look at later
 insert into DefenseAssignments (CharacterIndex, AttributeIndex) VALUES (2,2); --! To look at later
-insert into Monsters (ExploreCharacterIndex, Bits, Skulls) VALUES (2, 'Elite', 'Super', 4); --! To look at later
+insert into Monsters (ExploreCharacterIndex, Bits, Skulls) VALUES (2, 'Boss', 'Super', 4); --! To look at later
 --Starfire
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Starfire',
 'http://htkb.info/SDE/1.0/Cards/Bosses/Card_Boss_Starfire_1.0.png', 
@@ -45,7 +45,7 @@ insert into AbilityAssignments (CharacterIndex, AbilityIndex) VALUES (2, 4); --!
 insert into ExploreCharacters (CharacterIndex, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (2, 'Large', 'Dragon', 6, 4, '1ST 2R 1G', '1B 1R 1G', '2R', '2R', 8, 0); --? Check values
 insert into OffenseAssignments (CharacterIndex, AttributeIndex, OffenseRange) VALUES (2,1,1); --! To look at later
 insert into DefenseAssignments (CharacterIndex, AttributeIndex) VALUES (2,2); --! To look at later
-insert into Monsters (ExploreCharacterIndex, Bits, Skulls) VALUES (2, 'Elite', 'Super', 4); --! To look at later
+insert into Monsters (ExploreCharacterIndex, Bits, Skulls) VALUES (2, 'Boss', 'Super', 4); --! To look at later
 --Von Drakk
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Von Drakk',
 'http://htkb.info/SDE/1.0/Cards/Bosses/Card_Boss_Von_Drakk_1.0.png', 
@@ -62,4 +62,4 @@ insert into ExploreCharacters (CharacterIndex, ModelSize, CreatureType, Movement
 insert into OffenseAssignments (CharacterIndex, AttributeIndex, OffenseRange) VALUES (2,1,1); --! To look at later
 insert into DefenseAssignments (CharacterIndex, AttributeIndex) VALUES (2,2); --! To look at later
 insert into DefenseAssignments (CharacterIndex, AttributeIndex) VALUES (2,4); --! To look at later
-insert into Monsters (ExploreCharacterIndex, Bits, Skulls) VALUES (2, 'Elite', 'Super', 4); --! To look at later
+insert into Monsters (ExploreCharacterIndex, Bits, Skulls) VALUES (2, 'Boss', 'Super', 4); --! To look at later
