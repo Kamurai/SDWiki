@@ -5,7 +5,7 @@
 --Roxor
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Roxor', 
 'http://htkb.info/SDE/1.0/Cards/Boss_Spawn/Card_Boss_Spawn_Roxor_1.0.png', 
-'http://htkb.info/SDE/1.0/Cards/Boss_Spawn/Card_Boss_Spawn_Roxor_1.0_back.png',--? No back to the card? 
+'http://htkb.info/SDE/1.0/Cards/Boss_Spawn/Card_Boss_Spawn_Roxor_1.0.png',
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Boss_Spawn/Card_Boss_Spawn_Roxor.xhtml', 
 'Hero', '1.0', '1.0 Core Set', 'Default',   
 '');--? What goes in the description 
@@ -16,7 +16,7 @@ insert into BossSpawn_Assignments (CharacterIndex) VALUES (0, 43); --? Not sure 
 --Starfire
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Starfire', 
 'http://htkb.info/SDE/1.0/Cards/Boss_Spawn/Card_Boss_Spawn_Starfire_1.0.png', 
-'http://htkb.info/SDE/1.0/Cards/Boss_Spawn/Card_Boss_Spawn_Starfire_1.0_back.png',--? No back to the card? 
+'http://htkb.info/SDE/1.0/Cards/Boss_Spawn/Card_Boss_Spawn_Starfire_1.0.png',
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Boss_Spawn/Card_Boss_Spawn_Starfire.xhtml', 
 'Hero', '1.0', '1.0 Core Set', 'Default',   
 '');--? What goes in the description 
@@ -27,7 +27,7 @@ insert into BossSpawn_Assignments (CharacterIndex) VALUES (0, 43); --? Not sure 
 --Von Drakk
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Von Drakk', 
 'http://htkb.info/SDE/1.0/Cards/Boss_Spawn/Card_Boss_Spawn_Von_Drakk_1.0.png', 
-'http://htkb.info/SDE/1.0/Cards/Boss_Spawn/Card_Boss_Spawn_Von_Drakk_1.0_back.png',--? No back to the card? 
+'http://htkb.info/SDE/1.0/Cards/Boss_Spawn/Card_Boss_Spawn_Von_Drakk_1.0.png',
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Boss_Spawn/Card_Boss_Spawn_Von_Drakk.xhtml', 
 'Hero', '1.0', '1.0 Core Set', 'Default',   
 '');--? What goes in the description 
