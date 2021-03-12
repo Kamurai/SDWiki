@@ -5,237 +5,201 @@ insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityA
 insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Bear Hug', 'Action', 'Offense', 2, 0, 1, 'Immobile, Weak', '1.0');
 insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Shapeshift', 'Action', 'Support', 1, -1, -1, 'Deeproot Druid', '1.0');
 insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Nourishing Berries', 'Potion', 'Support', 1, -1, -1, 'All Heroes gain Healer', '1.0');
-
-
 --Calico Kate
 insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Bomb''s Away', 'Action', 'Offense', 2, 0, 6, 'Range 6, Burst 1, Knockdown, Dangerous', '1.0');
 insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Pirate Snatch', 'Action', 'Offense', 2, 0, 1, '+1R Attack, If Pirate Snatch inflicts a wound advance the Loot-O-Meter one additional space', '1.0');
 insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Skully', 'Potion', 'Offense', 1, 0, -1, 'R Wave 2, +1R Attack, Dangerous', '1.0');
-
-
 --Candy & Cola
 insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Vending Machine', 'Action', 'Support', 1, -1, 6, 'Augment, Range 6. Remove a single potion counter from Candy''s card and place it on target Hero''s card.', '1.0');
 insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Soothing Soda', 'Potion', 'Support', 1, -1, -1, 'Immune: Status Effects.', '1.0');
 insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Sugar Rush', 'Potion', 'Support', 3, 1, -1, '+2ac', '1.0');
-
-
 --Celestial Herald
 insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Arrow Storm', 'Action', 'Offense', 2, 4, -1, 'DEX vs ARM, Spray 4', '1.0');
 insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Heart Seeker', 'Action', 'Offense', 2, 4, 8, 'Missle 8, +1R DEX, Hookshot', '1.0');
 insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Halo Extract', 'Potion', 'Support', 1, -1, -1, 'Aura 1, +1ST ARM', '1.0');
-
-
 --Claw Tribe Barbarian
 insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Rage', 'Action', 'Offense', 3, -1, -1, 'After every square you move this turn immediately make one melee attack.  You may not make a Berserk attack on a turn you Rage.  Barbarian''s ARM is reduced to 2B until her next activation.', '1.0');
 insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Fury''s Blood', 'Potion', 'Support', 0, -1, -1, '+1B ARM, Backlash', '1.0');
-
-
 --Codifier Kisa
 insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Black Cat', 'Action', 'Offense', 2, -1, -1, 'Wave 1, Fragile', '1.0');
 insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Cat & Mouse', 'Action', 'Support', 1, 3, 6, 'Range 6, WILL vs WILL, Compel 3', '1.0');
 insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Scratch', 'Potion', 'Offense', 1, -1, -1, 'Bac Wave 2, Slow', '1.0');
 insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Catnip', 'Potion', 'Support', 0, -1, -1, 'Place 1 Potion counter on any Hero''s card.', '1.0');
-
-
 --Deeproot Druid
 insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Stranglethorn', 'Action', 'Offense', 2, -1, 6, 'Magic 6, Burst 1, Slow', '1.0');
 insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Briar Armor', 'Action', 'Support', 1, -1, -1, 'Backlash', '1.0');
 insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Shapeshift', 'Action', 'Support', 1, -1, -1, 'Angry Bear', '1.0');
 insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Nourishing Berries', 'Potion', 'Support', 0, -1, -1, 'All Heroes gain Healer', '1.0');
-
-
 --Deeproot Scout
 insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Boomerang', 'Action', 'Support', 1, -1, 6, 'Range 6, Hookshot. Place target Treasure Chest in an empty square adjacent to Deeproot Scout', '1.0');
 insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Bow', 'Action', 'Offense', 1, 4, 8, 'Missile 8', '1.0');
 insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Acorn Grenade', 'Action', 'Offense', 2, 0, 6, 'Range 6, Burst 1, Knockdown, Dangerous', '1.0');
 insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Sprite Syrup', 'Potion', 'Support', 0, -1, -1, '+1ac', '1.0');
-
-
 --Ember Mage
 insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Fire Wave', 'Action', 'Offense', 2, -1, -1, 'Wave 1', '1.0');
 insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Magma Strike', 'Action', 'Offense', 2, 3, 8, '+3B WILL', '1.0');
 insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('White Mage Potion', 'Potion', 'Support', 1, -1, -1, 'Augment, Wave 5, Heal 1', '1.0');
 insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Fire Water', 'Potion', 'Support', 1, -1, -1, '+1B Attack, Fire', '1.0');
-
-
 --Glimmerdusk Ranger
 insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Herbalist', 'Action', 'Support', 1, -1, -1, 'Augment, Range 6, Remedy', '1.0');
 insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Sparkle Burst', 'Action', 'Offense', 2, -1, -1, 'Burst 1', '1.0');
 insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Pixie Dust', 'Potion', 'Support', 1, -1, -1, '+1B DEX, Stealth', '1.0');
-
-
 --Hearthsworn Fighter
 insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Dwarven Curse', 'Action', 'Support', 2, 0, -1, 'Wave 3, Pull 3, Attack vs WILL', '1.0');
 insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Cleave', 'Action', 'Offense', 1, -1, -1, 'Sweep 1, Dangerous', '1.0');
 insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Hero''s Balm', 'Potion', 'Support', 1, -1, -1, 'The current attack is applied to the Hero affected by Hero''s Balm as though they were the target of the attack instead.', '1.0');
-
-
 --Hexcast Sorceress
 insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Frozen Feet', 'Action', 'Offense', 1, 3, -1, '+1B WILL, Cold', '1.0');
 insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Hobbled Hands', 'Action', 'Offense', 1, 3, -1, '+1B WILL< Weak', '1.0');
 insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Broken Bones', 'Action', 'Offense', 1, 3, -1, '+1B WILL, Fragile', '1.0');
 insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Wizard Wings', 'Potion', 'Support', 1, -1, -1, '+1B WILL, Fly', '1.0');
-
-
 --Miserable Toad
 insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Sticky Tongue', 'Action', 'Offense', 1, 4, 2, 'Missile 2, vs DEX.  If successful, Miserable Toad gains either one heart or one potion, in addition to any that are rolled.', '1.0');
-
-
 --Nyan-Nyan
 insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Teeth & Fur', 'Action', 'Offense', 2, 0, 5, '+1R Attack, Knockdown, Pounce', '1.0');
 insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Purr', 'Action', 'Support', 1, -1, -1, 'Wave 1, Compel 2', '1.0');
 insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Catnip Bomb', 'Potion', 'Support', 1, 0, 6, 'Bac Range 6, Burst 2, Pacify', '1.0');
-
-
 --One Shot
 insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Daystar', 'Action', 'Offense', 2, 0, -1, 'Lance 8, Push 2', '1.0');
 insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Focused Shot', 'Action', 'Offense', 2, 0, 8, '+3R Attack', '1.0');
 insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Fritz', 'Potion', 'Support', 1, -1, -1, '+1B Attack, Knockdown', '1.0');
-
-
 --Princess Malya
 insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Energy Blast', 'Action', 'Offense', 2, 4, 8, 'Missile 8, Burst 1', '1.0');
 insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Purification', 'Action', 'Support', 1, -1, 2, 'Augment, Range 2, Heal 1', '1.0');
 insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Mr. Tomn', 'Potion', 'Support', 1, -1, -1, 'Augment, Aura 3, +1B ARM', '1.0');
-
-
 --Princess Ruby
 insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Maiden''s Favor', 'Action', 'Support', 1, -1, 6, 'Augment, Range 6, +1B Attack', '1.0');
 insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Maiden''s Token', 'Action', 'Support', 1, -1, 6, 'Augment, Range 6, +1B WILL', '1.0');
 insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Maiden''s Kiss', 'Action', 'Support', 1, -1, 2, 'Augment, Range 2, Heal 1', '1.0');
 insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Happily Ever After', 'Potion', 'Support', 1, -1, -1, 'Discard a single drawn loot or relic card and immediately draw another.', '1.0');
-
-
 --Riftling Rogue
 insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Bamf!', 'Action', 'Support', 1, -1, -1, 'Wave 2, Smoke', '1.0');
 insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Backstab', 'Action', 'Offense', 3, 0, 1, 'Massive Damage, +1G Attack', '1.0');
 insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Dimensional Draught', 'Potion', 'Support', 1, -1, -1, 'Hero affected by Dimensional Draught may immediately Teleport.', '1.0');
-
-
 --Royal Paladin
 insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Iron Halo', 'Action', 'Support', 1, -1, -1, 'Augment, Aura 3, +1B ARM', '1.0');
 insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Smite', 'Action', 'Offense', 2, 0, 1, '+1R Attack, Knockdown, Fire', '1.0');
 insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Elixir', 'Potion', 'Support', 1, -1, -1, 'Heal 3, Remedy', '1.0');
-
-
 --Sebastian Cross
 insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Shattered Sword', 'Action', 'Offense', 3, 0, 1, '+1G Attack, Massive Damage', '1.0');
 insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Spearhead', 'Action', 'Support', 1, 0, -1, 'Wave 3, Push 3, Attack vs WILL', '1.0');
 insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Rook', 'Potion', 'Support', 1, -1, -1, 'Hero drinking Rook potion may immediately Teleport.', '1.0');
-
-
 --Sister Of Light
 insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Hammer of Judgement', 'Action', 'Offense', 1, 0, -1, 'Cross 1, Push 1', '1.0');
 insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Purification', 'Action', 'Support', 1, -1, -1, 'Augment, Cross, Heal 1, Remedy', '1.0');
 insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Elixir of Light', 'Potion', 'Support', 1, -1, -1, 'All melee attacks made by the affected Hero gain "Cross 1, Holy, Fire".', '1.0');
-
-
 --Star Guild Sapper
 insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Astral Hammer', 'Action', 'Offense', 2, 0, 2, 'Cross 2, Knockdown', '1.0');
 insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('POW!', 'Action', 'Offense', 2, 0, 2, '+1R Attack, Massive Damage', '1.0');
 insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Star Shine', 'Action', 'Support', 1, -1, -1, 'Augment, Immune: Status Effects', '1.0');
 insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Burning Bloom', 'Potion', 'Support', 1, -1, -1, 'All non special attacks made by the affected Heor gain "Range 8, Fire".', '1.0');
-
-
 --Von Wilder
 insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Shag Fest', 'Action', 'Offense', 1, 0, 1, 'Sweep 1, +1R Attack, Dangerous, Lycanthropy', '1.0');
 insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Shapeshift', 'Action', 'Support', 1, -1, -1, 'Von Wilding', '1.0');
-
-
 --Von Wilding
 insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Whip Master', 'Action', 'Offense', 2, 0, 2, '+1 Attack, Pacify', '1.0');
 insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Crack the Whip', 'Action', 'Support', 1, -1, -1, 'Compel 2', '1.0');
 insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Shapeshift', 'Action', 'Support', 1, -1, -1, 'Von Wilder', '1.0');
 insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Holy Water', 'Potion', 'Offense', 1, -1, 4, 'Bac Range 4, Burst 1, models hit suffer Vulnerable: Holy', '1.0');
 insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Holy Oil', 'Potion', 'Offense', 1, -1, 4, 'Rac Range 4, Burst 1, Holy, Fire', '1.0');
-
-
 --Wyrm Claw Exemplar
 insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Burning Blade', 'Action', 'Offense', 2, 0, -1, 'Sweep 1, +1R Attack, Fire', '1.0');
 insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Hightower', 'Action', 'Support', 2, -1, -1, 'Augment, Aura 3, +1ST ARM, Immune: Knockdown', '1.0');
 insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Portcullis Potion', 'Potion', 'Support', 1, -1, -1, 'Place a Hero Effect Token next to any doorway.  The next monster to move through that doorway suffers an attack equal to the Exemplar''s current attack.  Then remove the token.', '1.0');
 
-
 --1.0
 --Bosses
-
-
 --Nocturne
 insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Terrifying Screech', 'Action', 'Offense', 2, 0, -1, 'Wave 3, Stun', '1.0'); --? Check the values
 insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Shapeshift', 'Action', 'Support', 1, -1, -1, 'Von Drakk', '1.0'); --? Check the values
-
-
 --Roxor
-insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Magma', 'Action', 'Support', 1, 0, -1, 'Augment, Backlash', '1.0'); --? Check the values
-insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Riddle of Steel', 'Action', 'Offense', 2, -1, 6, 'Range 6, Weak', '1.0'); --? Check the values
+insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Magma', 'Action', 'Support', 1, -1, -1, 'Augment, Backlash', '1.0'); --? Check the values
+insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Riddle of Steel', 'Action', 'Offense', 2, 0, 6, 'Range 6, Weak', '1.0'); --? Check the values
 insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Volcano', 'Action', 'Offense', 2, 0, -1, 'Wave 3', '1.0'); --? Check the values
-
-
 --Starfire
-insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Dragon Breath', 'Action', 'Offense', 2, -1, 5, 'Spray 5, Fire', '1.0'); --? Check the values
-insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Tail Sweep', 'Action', 'Offense', 2, 0, 2, 'Sweep 2, Knockdown', '1.0'); --? Check the values
-
-
+insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Dragon Breath', 'Action', 'Offense', 2, 0, -1, 'Spray 5, Fire', '1.0'); --? Check the values
+insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Tail Sweep', 'Action', 'Offense', 2, 0, -1, 'Sweep 2, Knockdown', '1.0'); --? Check the values
 --Von Drakk
 insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Shapeshift', 'Action', 'Support', 1, -1, 0, 'Nocturne', '1.0'); --? Check the values
-insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Ghastly Vigor', 'Action', 'Support', 1, 0, 0, 'Augment, Aura 3, All Undead gain +1B Attack', '1.0'); --? Check the values
-insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Tide of Bones', 'Action', 'Support', 2, -1, 0, 'Wave 2, Raise', '1.0'); --? Check the values
-
+insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Ghastly Vigor', 'Action', 'Support', 1, -1, -1, 'Augment, Aura 3, All Undead gain +1B Attack', '1.0'); --? Check the values
+insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Tide of Bones', 'Action', 'Support', 2, -1, -1, 'Wave 2, Raise', '1.0'); --? Check the values
 
 --1.0
 --Miniboss
-
-
 --Captain R
-insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Flintlock', 'Action', 'Offense', 1, -1, 0, 'Missle 6, +1R DEX', '1.0'); --? Check the values
-insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Deep One Attack', 'Action', 'Offense', 2, 0, 0, 'Magic, Cross 5, +1R WILL', '1.0'); --? Check the values
+insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Flintlock', 'Action', 'Offense', 1, 4, 6, 'Missle 6, +1R DEX', '1.0'); --? Check the values
+insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Deep One Attack', 'Action', 'Offense', 2, 3, -1, 'Magic, Cross 5, +1R WILL', '1.0'); --? Check the values
 insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('X Marks the Spot', 'Action', 'Support', 2, -1, 0, 'Draw and equip 1 Loot card', '1.0'); --? Check the values
  look at later
-
-
 --Death Spectre
 insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Lifesap', 'Action', 'Offense', 1, -1, 1, 'Range 1.  Do not make an attack roll.  Target model takes one wound.  Death immediately heals one wound.', '1.0'); --? Check the values
-insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Ghost Form', 'Action', 'Support', 2, 0, 0, 'Teleport', '1.0'); --? Check the values
-
-
+insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Ghost Form', 'Action', 'Support', 1, -1, 0, 'Teleport', '1.0'); --? Check the values
 --Herald of Vulcanis
-insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Javelin', 'Action', 'Offense', 1, -1, 6, 'Missle 6, Fire.', '1.0'); --? Check the values
-insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Shield Bash', 'Action', 'Offense', 2, 0, 0, '+1 Star Attack, Massive Damage', '1.0'); --? Check the values
-
-
+insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Javelin', 'Action', 'Offense', 1, 4, 6, 'Missle 6, Fire.', '1.0'); --? Check the values
+insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Shield Bash', 'Action', 'Offense', 2, 0, 1, '+1 Star Attack, Massive Damage', '1.0'); --? Check the values
 --Kaelly the Nether Strider
-insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Corrosive Striked', 'Action', 'Offense', 1, -1, 6, 'Missle 6, Fire.', '1.0'); --? Check the values
-insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Dark Aura', 'Action', 'Offense', 2, 0, 0, '+1 Star Attack, Massive Damage', '1.0'); --? Check the values
-
-
+insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Corrosive Striked', 'Action', 'Offense', 2, 1, 8, 'Missle 6, Fire.', '1.0'); --? Check the values
+insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Dark Aura', 'Action', 'Support', 1, -1, -1, '+1 Star Attack, Massive Damage', '1.0'); --? Check the values
 --Kasaro To
-insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Crippling Smash', 'Action', 'Offense', 1, -1, 0, '+1G Attack, Massive Damage', '1.0'); --? Check the values
-insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Serpent Coil', 'Action', 'Offense', 2, 0, 0, 'Immobile, Weak', '1.0'); --? Check the values
-insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Zealotry', 'Action', 'Support', 1, -1, 0, 'Augment, Aura 2, +1B Attack', '1.0'); --? Check the values
-insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Snare', 'Action', 'Support', 1, 0, 0, 'Pull 5', '1.0'); --? Check the values
-
-
+insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Crippling Smash', 'Action', 'Offense', 1, 0, 1, '+1G Attack, Massive Damage', '1.0'); --? Check the values
+insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Serpent Coil', 'Action', 'Offense', 2, 0, 1, 'Immobile, Weak', '1.0'); --? Check the values
+insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Zealotry', 'Action', 'Support', 1, -1, -1, 'Augment, Aura 2, +1B Attack', '1.0'); --? Check the values
+insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Snare', 'Action', 'Support', 1, -1, -1, 'Pull 5', '1.0'); --? Check the values
 --Rex
-insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Rex Smash', 'Action', 'Offense', 3, -1, 0, '+1G Attack, Massive Damage', '1.0'); --? Check the values
-insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Rex Cuddle', 'Action', 'Offense', 2, 0, 0, 'Immobile, Weak', '1.0'); --? Check the values
-insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Thwomp', 'Action', 'Offense', 1, -1, 0, 'Push 5', '1.0'); --? Check the values
-
-
+insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Rex Smash', 'Action', 'Offense', 3, 0, 2, '+1G Attack, Massive Damage', '1.0'); --? Check the values
+insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Rex Cuddle', 'Action', 'Offense', 2, 0, 2, 'Immobile, Weak', '1.0'); --? Check the values
+insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Thwomp', 'Action', 'Offense', 1, 0, 2, 'Push 5', '1.0'); --? Check the values
 --Rock Gut
-insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Feast', 'Action', 'Offense', 2, 0, 0, '+1R Attack.  If Rock Gut inflicts a wound this attack he may immediately remove a wound counter.', '1.0'); --? Check the values
-insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Burning Bile', 'Action', 'Offense', 2, 0, 0, 'Lance 6', '1.0'); --? Check the values
-
-
+insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Feast', 'Action', 'Offense', 2, 0, 1, '+1R Attack.  If Rock Gut inflicts a wound this attack he may immediately remove a wound counter.', '1.0'); --? Check the values
+insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Burning Bile', 'Action', 'Offense', 2, 0, -1, 'Lance 6', '1.0'); --? Check the values
 --Ser Snapjaw
-insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Burning Blade', 'Action', 'Offense', 2, 0, 0, 'Sweep 3, +1R Attack', '1.0'); --? Check the values
-insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Hightower', 'Action', 'Support', 1, 0, 0, 'Augment, Aura 2, +1Star ARM, Immune: Knockdown', '1.0'); --? Check the values
-insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Rally Cry', 'Action', 'Support', 2, 0, 0, 'Augment, Wave 5, Pull 4', '1.0'); --? Check the values
-
-
+insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Burning Blade', 'Action', 'Offense', 2, 0, 1, 'Sweep 3, +1R Attack', '1.0'); --? Check the values
+insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Hightower', 'Action', 'Support', 1, -1, -1, 'Augment, Aura 2, +1Star ARM, Immune: Knockdown', '1.0'); --? Check the values
+insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Rally Cry', 'Action', 'Support', 2, -1, -1, 'Augment, Wave 5, Pull 4', '1.0'); --? Check the values
 --Succubus Vandella
-insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Alluring', 'Action', 'Offense', 2, 0, 0, '+1R WILL, If successful Vandella immediately heals one wound.', '1.0'); --? Check the values
-insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Come Hither', 'Action', 'Support', 2, 0, 0, 'Wave 3, Compel 3', '1.0'); --? Check the values
+insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Alluring', 'Action', 'Offense', 2, 3, 4, '+1R WILL, If successful Vandella immediately heals one wound.', '1.0'); --? Check the values
+insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Come Hither', 'Action', 'Support', 2,-1, -1, 'Wave 3, Compel 3', '1.0'); --? Check the values
 
+--1.0 Treasure
+--1.0 Treasure Generic
+--Fireflow Brew
+insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Molotov', 'Action', 'Offense', 2, 0, -1, '+1G ATT, Lance 6, One Use Only - Discard Fireflow Brew after using Molotov', '1.0'); --? Check the values
+--Guttering Candle
+insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Flicker', 'Action', 'Support', 1, 0, -1, 'Teleport (A model with Teleport may move to any empty square within ten squares and line of sight of their current square.)', '1.0'); --? Check the values
+--Priest's Vestments
+insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Soothe', 'Action', 'Support', 1, 0, 6, 'Augment, Range 6, Heal 1 (A model affected by Heal may remove a number of wound counters or a number of status effect counters equal to the value of X.)', '1.0'); --? Check the values
+
+--1.0 Treasure Specific
+--Assassin's Crossbow
+insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Pain', 'Action', 'Offense', 1, 0, 8, 'Missile 8, Poison', '1.0'); --? Check the values
+--Burning Horn
+insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Dragon''s Breath', 'Action', 'Offense', 2, 0, -1, 'Spray 5, Fire, Dangerous', '1.0'); --? Check the values
+--Cat's Paw
+insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Sneak Attack!', 'Action', 'Offense', 2, 0, -1, '+1R Attack, Knockdown, Pounce (Before making an attack roll, immediately Fly up to 5 squares.  The model must end this movement adjacent to an enemy model.)', '1.0'); --? Check the values
+--Dragon Bow
+insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Solar Flare', 'Action', 'Offense', 2, 0, 8, 'Missile 8, Burst 1', '1.0'); --? Check the values
+--Dragon Lance
+insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Coup de Grace', 'Action', 'Offense', 3, 0, -1, 'When Coup de Grace inflicts a wound it instead inflicts one wound for every star rolled by the attacker.  After the attack is resolved remove Dragon Lance from play regardless if damage was inflicted.', '1.0'); --? Check the values
+--Fire Gel Goo
+insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Splash', 'Action', 'Offense', 2, 0, -1, 'Magic 6, Burst 1, Fire', '1.0'); --? Check the values
+--Mournful Vial
+insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Just a Drop', 'Action', 'Support', 1, 0, 0, 'Augment, Immune: Status Effects', '1.0'); --? Check the values - There is no Immune: Status Effects for 1.0 under the TableLoadKeywords table - should there be one?
+--Petrified Dragon Heart
+insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Healer', '', '', 0, 0, 0, 'When a model with Healer rolls a Heart on an attack roll they gain two Hearts instead of one if they successfully inflict a wound.', '1.0'); --? Check the values
+--Possessed Cloak
+insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Confuse', 'Action', 'Support', 2, 0, -1, 'Wave 2, Compel 1, Dangerous', '1.0'); --? Check the values
+--Rumble and Rock
+insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Tremor Strike', 'Action', 'Offense', 2, 0, -1, 'Wave 1', '1.0'); --? Check the values
+--Temptress Perfume
+insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Wink', 'Action', 'Offense', 2, 0, -1, 'Magic 4, Weak, Pacify', '1.0'); --? Check the values
+--Vulcanis' Maul
+insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Backblast', 'Action', 'Offense', 1, 0, -1, 'Wave 1, Push 2, Dangerous', '1.0'); --? Check the values
+--Withered Ring
+insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Second Chance', 'Action', 'Support', 1, 0, -1, 'Resurrect one destroyed Hero.  One use only - Discard Withered Ring after using Second Change.', '1.0'); --? Check the values
+--Wobbling Stalactite
+insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Wibble', 'Action', 'Offense', 1, 0, 8, 'Missle 8, Stun', '1.0'); --? Check the values
+--Wyrm Scale
+insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Fire Storm', 'Action', 'Support', 1, 0, -1, 'Wave 2, Fire, Dangerous', '1.0'); --? Check the values
 
 --2.0 or FK
 insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription) VALUES ('Silver Star', 'Action', 'Offense', 2, 1, -1, 'Cross 3');
@@ -248,3 +212,4 @@ insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityA
 insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription) VALUES ('Rampant Growth', 'Action', 'Support', 0, '', 'Augment, Lil'' Sprouts gain +1ST strength.');
 insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription) VALUES ('Sticky', 'Action', 'Support', 0, -1, -1, 'Models may not move for the remainder of this activation or their next activation, then remove the template from play.');
 
+1
