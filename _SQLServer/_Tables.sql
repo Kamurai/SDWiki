@@ -32,11 +32,11 @@ create table OffenseAssignments (OffenseAssignmentIndex bigint IDENTITY(0,1) PRI
 create table DefenseAssignments (DefenseAssignmentIndex bigint IDENTITY(0,1) PRIMARY KEY, ExploreCharacterIndex bigint not null, AttributeIndex bigint not null);
 
 create table Pets (PetIndex bigint IDENTITY(0,1) PRIMARY KEY, ExploreCharacterIndex bigint not null, Cost int not null, RangeLimit int not null);
-create table Monsters (MonsterIndex bigint IDENTITY(0,1) PRIMARY KEY, ExploreCharacterIndex bigint not null, Bits varchar(50) not null, Skulls int not null);
+create table Monsters (MonsterIndex bigint IDENTITY(0,1) PRIMARY KEY, ExploreCharacterIndex bigint not null, RankType varchar(50) not null, Bits varchar(50) not null, Skulls int not null);
 
 create table ArcadeCharacters (ArcadeCharacterIndex bigint IDENTITY(0,1) PRIMARY KEY, CharacterIndex bigint not null, SoloStatLineIndex bigint not null, GangStatLineIndex bigint not null);
 create table StatLines (StatLineIndex bigint IDENTITY(0,1) PRIMARY KEY, StatAction int not null, StatStrength int not null, StatRange int not null);
-create table GangMembers (GangMemberIndex bigint IDENTITY(0,1) PRIMARY KEY, ArcadeCharacterIndex bigint not null, MemberOrder int not null, Name varchar(10) not null, CreatureType varchar(30) not null, MemberMovement int not null, MemberHealth int not null, MemberArmor int not null, ExploreCharacterIndex bigint not null);
+create table GangMembers (GangMemberIndex bigint IDENTITY(0,1) PRIMARY KEY, ArcadeCharacterIndex bigint not null, MemberOrder int not null, Name varchar(10) not null, CreatureType varchar(30) not null, RankType varchar(50) not null, MemberMovement int not null, MemberHealth int not null, MemberArmor int not null, ExploreCharacterIndex bigint not null);
 
 create table Equipment (EquipmentIndex bigint IDENTITY(0,1) PRIMARY KEY, CardIndex bigint not null, Position varchar(50) not null, Effect varchar(50) not null);
 create table EquipmentAssignments (EquipmentAssignmentIndex bigint IDENTITY(0,1) PRIMARY KEY, EquipmentIndex bigint, CharacterIndex bigint not null);
