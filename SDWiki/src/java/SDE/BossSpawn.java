@@ -1,56 +1,56 @@
 package SDE;
 
 public class BossSpawn extends Card implements CharacterInterface{
-    private String spawn;
-    private String effect;
-    private String timeout;
+    private String dungeonEffect;
+    private String bossSpawnEffect;
+    private String timeoutEffect;
     private String characterName;
     private String characterLink;
     
     public BossSpawn(){
-        this.spawn      = "";
-        this.effect     = "";
-        this.timeout    = "";
-        characterName   = "";
-        characterLink   = "";
+        this.dungeonEffect      = "";
+        this.bossSpawnEffect    = "";
+        this.timeoutEffect      = "";
+        characterName           = "";
+        characterLink           = "";
     }
     
     public BossSpawn(
-        String spawn,
-        String effect,
-        String timeout,
+        String dungeonEffect,
+        String bossSpawnEffect,
+        String timeoutEffect,
         String characterName,
         String characterLink
     ){
-        this.spawn          = spawn;
-        this.effect         = effect;
-        this.timeout        = timeout;
-        this.characterName  = characterName;
-        this.characterLink  = characterLink;
+        this.dungeonEffect      = dungeonEffect;
+        this.bossSpawnEffect    = bossSpawnEffect;
+        this.timeoutEffect      = timeoutEffect;
+        this.characterName      = characterName;
+        this.characterLink      = characterLink;
     }
 
-    public String getSpawn() {
-        return spawn;
+    public String getDungeonEffect() {
+        return dungeonEffect;
     }
 
-    public void setSpawn(String spawn) {
-        this.spawn = spawn;
+    public void setDungeonEffect(String spawn) {
+        this.dungeonEffect = spawn;
     }
 
-    public String getEffect() {
-        return effect;
+    public String getBossSpawnEffect() {
+        return bossSpawnEffect;
     }
 
-    public void setEffect(String effect) {
-        this.effect = effect;
+    public void setBossSpawnEffect(String effect) {
+        this.bossSpawnEffect = effect;
     }
 
-    public String getTimeout() {
-        return timeout;
+    public String getTimeoutEffect() {
+        return timeoutEffect;
     }
 
-    public void setTimeout(String timeout) {
-        this.timeout = timeout;
+    public void setTimeoutEffect(String timeout) {
+        this.timeoutEffect = timeout;
     }
 
     public String getCharacterName() {

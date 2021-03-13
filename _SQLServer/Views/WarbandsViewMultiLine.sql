@@ -2,7 +2,7 @@
 --Warbands
 create view WarbandsViewMultiLine as 
 select a.CardIndex, a.Name as CardName, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor, --Cards
-ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions, --ExploreCharacter
+Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions, --ExploreCharacter
 AffinityType, --Affinity
 g.KeywordIndex, g.Name as KeywordName, KeywordDescription, --Keywords
 i.AbilityIndex, i.Name as AbilityName, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, --Abilities

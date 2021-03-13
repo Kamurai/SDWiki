@@ -8,7 +8,7 @@ g.StatAction as GangActions, g.StatStrength as GangStrength, g.StatRange as Gang
 h.GangMemberIndex, MemberOrder, h.Name as GangMemberName, h.CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, --GangMembers
 j.KeywordIndex, j.Name as KeywordName, KeywordDescription, --Keywords
 l.AbilityIndex, l.Name as AbilityName, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, --Abilities
-m.ModelSize --ExploreCharacter
+m.Gender, m.ModelSize --ExploreCharacter
 from Cards a
 join Characters b on a.CardIndex=b.CardIndex
 join AffinityAssignments c on b.CharacterIndex=c.CharacterIndex

@@ -2,7 +2,7 @@
 --Pets (without keywords, abilities, offenses, and defenses)
 create view PetsViewSingleLine as 
 select a.CardIndex, a.Name as CardName, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor, --Cards
-ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions, --ExploreCharacter
+Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions, --ExploreCharacter
 AffinityType, --Affinity
 RangeLimit --Pets
 from Cards a

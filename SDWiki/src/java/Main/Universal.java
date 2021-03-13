@@ -2,7 +2,7 @@ package Main;
 
 public class Universal{
     
-    private String site     = "http://htkb.dyndns.org:8080/";
+    private String site     = "http://htkb.online/";
     private String app      = "SDWiki/";
     private String appPath  = site+app;
     
