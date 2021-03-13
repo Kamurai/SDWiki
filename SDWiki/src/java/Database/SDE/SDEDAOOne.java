@@ -15,7 +15,7 @@ public class SDEDAOOne extends DAO{
     }
     
     //Pull One Hero
-    public SDE.ExploreCharacter pullOneHero(String link){
+    public SDE.ExploreCharacter pullOneExploreCharacter(String link){
         CallableStatement stmt;
         ResultSet rs;
         SDE.ExploreCharacter result = new SDE.ExploreCharacter();

@@ -24,7 +24,7 @@ public class ExploreCharacterBean extends CardBean{
     public String setExploreCharacterPage(String link){
         String path = uni.getAppPath()+link;
         
-        this.exploreCharacter = oneDAO.pullOneHero(path);
+        this.exploreCharacter = oneDAO.pullOneExploreCharacter(path);
         
         return uni.getAppPath()+"SDE/Content/ExploreCharacter.xhtml";
     }
