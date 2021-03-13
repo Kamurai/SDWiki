@@ -336,10 +336,6 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'I think not.');
 insert into Equipment (Position, Effect) VALUES ('Left', '+1B WILL');
 insert into KeywordAssignments (KeywordIndex, EquipmentIndex) VALUES (2, 3); --Immune: Bind
-
-
-
-
 --1.0  --Treasure Generic(Used Treasure from DataLoad_Scratch file)
 --Bejeweled Shield
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Bejeweled Shield',
@@ -485,6 +481,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '1.0', '1.0 Core Set', 'Default',
 'I always get my prey.');
 insert into Equipment (Position, Effect) VALUES ('Top', '+1G DEX');
+insert into EquipmentAssignments (KeywordIndex, EquipmentIndex) VALUES (2, 3); --Kaelly
 --Bat Winged Key
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Bat Winged Key!',
 'http://htkb.info/SDE/1.0/Cards/Treasure/Specific/Card_Treasure_Bat_Winged_Key_1.0.png', 
@@ -495,6 +492,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Equipment (Position, Effect) VALUES ('Top', '+1R DEX, A model witth Luck may gain a Potion instead of a Heart when rolled on the dice and vice versa.  In addition, when opening a treasure chest they may draw two cards, from the treasure deck and equip one, discarding the other.');
 insert into KeywordAssignments (KeywordIndex, EquipmentIndex) VALUES (2, 3); --Luck
 insert into KeywordAssignments (KeywordIndex, EquipmentIndex) VALUES (2, 3); --Fly
+insert into EquipmentAssignments (KeywordIndex, EquipmentIndex) VALUES (2, 3); --Von Drakk
 --Bewitched Wand
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Bewitched Wand',
 'http://htkb.info/SDE/1.0/Cards/Treasure/Specific/Card_Treasure_Bewitched_Wand_1.0.png', 
@@ -505,6 +503,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Equipment (Position, Effect) VALUES ('Top', '+1G WILL');
 insert into KeywordAssignments (KeywordIndex, EquipmentIndex) VALUES (2, 3); --Cold
 insert into KeywordAssignments (KeywordIndex, EquipmentIndex) VALUES (2, 3); --Vulnerable: Fire
+insert into EquipmentAssignments (KeywordIndex, EquipmentIndex) VALUES (2, 3); --Von Drakk
 --Black Spot
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Black Spot',
 'http://htkb.info/SDE/1.0/Cards/Treasure/Specific/Card_Treasure_Black_Spot_1.0.png', 
@@ -513,6 +512,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '1.0', '1.0 Core Set', 'Default',
 'Ye be far too reckless fer me liking.');
 insert into Equipment (Position, Effect) VALUES ('Top', '+1G Attack, When drawn a Hero must equip Black Spot.  Anytime this model makes a defense roll discard the highest result rolled.');
+insert into EquipmentAssignments (KeywordIndex, EquipmentIndex) VALUES (2, 3); --Captain R
 --Burning Horn
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Burning Horn',
 'http://htkb.info/SDE/1.0/Cards/Treasure/Specific/Card_Treasure_Burning_Horn_1.0.png', 
@@ -521,6 +521,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '1.0', '1.0 Core Set', 'Default',
 'You''re blowing on the wrong end.');
 insert into Equipment (Position, Effect) VALUES ('Top', '+1G Attack, 2R Dragon''s Breath:  Spray 5, Fire, Dangerous');
+insert into EquipmentAssignments (KeywordIndex, EquipmentIndex) VALUES (2, 3); --Starfire
 --Cat's Paw
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Cat''s Paw',
 'http://htkb.info/SDE/1.0/Cards/Treasure/Specific/Card_Treasure_Cats_Paw_1.0.png', 
@@ -529,6 +530,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '1.0', '1.0 Core Set', 'Default',
 'Bad kitty!');
 insert into Equipment (Position, Effect) VALUES ('Top', '+1R DEX');
+insert into EquipmentAssignments (KeywordIndex, EquipmentIndex) VALUES (2, 3); --Chaos Kitty
 --Cursed Talisman
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Cursed Talisman',
 'http://htkb.info/SDE/1.0/Cards/Treasure/Specific/Card_Treasure_Cursed_Talisman_1.0.png', 
@@ -537,6 +539,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '1.0', '1.0 Core Set', 'Default',
 'You will pay for my protection.');
 insert into Equipment (Position, Effect) VALUES ('Top', '+1G Armor, Cursed Talisman must be immediately equipped when drawn and cannot be discarded.  Anytime this model makes a roll using its Attack attribute discard the highest result rolled.');
+insert into EquipmentAssignments (KeywordIndex, EquipmentIndex) VALUES (2, 3); --Von Drakk
 --Dragon Bow
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Dragon Bow',
 'http://htkb.info/SDE/1.0/Cards/Treasure/Specific/Card_Treasure_Dragon_Bow_1.0.png', 
@@ -545,6 +548,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '1.0', '1.0 Core Set', 'Default',
 'Get down!');
 insert into Equipment (Position, Effect) VALUES ('Top', '+1G DEX');
+insert into EquipmentAssignments (KeywordIndex, EquipmentIndex) VALUES (2, 3); --Starfire
 --Dragon Lance
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Dragon Lance',
 'http://htkb.info/SDE/1.0/Cards/Treasure/Specific/Card_Treasure_Dragon_Lance_1.0.png', 
@@ -553,6 +557,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '1.0', '1.0 Core Set', 'Default',
 'Goddess, let my aim be true.');
 insert into Equipment (Position, Effect) VALUES ('Top', '');
+insert into EquipmentAssignments (KeywordIndex, EquipmentIndex) VALUES (2, 3); --Starfire
 --Exemplar Shield
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Exemplar Shield',
 'http://htkb.info/SDE/1.0/Cards/Treasure/Specific/Card_Treasure_Exemplar_Shield_1.0.png', 
@@ -562,6 +567,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Glory to the Burning Star!');
 insert into Equipment (Position, Effect) VALUES ('Top', '+1R Attack, +2Star Armor');
 insert into KeywordAssignments (KeywordIndex, EquipmentIndex) VALUES (2, 3); --Immune: Knockdown
+insert into EquipmentAssignments (KeywordIndex, EquipmentIndex) VALUES (2, 3); --Ser Snapjaw
 --Fire Gel Goo
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Fire Gel Goo',
 'http://htkb.info/SDE/1.0/Cards/Treasure/Specific/Card_Treasure_Fire_Gel_Goo_1.0.png', 
@@ -571,6 +577,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Oh gross!');
 insert into Equipment (Position, Effect) VALUES ('Top', '+1G WILL');
 insert into KeywordAssignments (KeywordIndex, EquipmentIndex) VALUES (2, 3); --Immune: Fire
+insert into EquipmentAssignments (KeywordIndex, EquipmentIndex) VALUES (2, 3); --Roxor
 --Fool's Gold
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Fool''s Gold',
 'http://htkb.info/SDE/1.0/Cards/Treasure/Specific/Treasure_Fools_Gold_1.0.png', 
@@ -578,6 +585,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Treasure/Specific/Fools_Gold.xhtml', 
 'Treasure', '1.0', '1.0 Core Set', 'Default',
 'Better lucky than smart, I always say.');
+insert into EquipmentAssignments (KeywordIndex, EquipmentIndex) VALUES (2, 3); --Roxor
 --Gem of Greed
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Gem of Greed',
 'http://htkb.info/SDE/1.0/Cards/Treasure/Specific/Card_Treasure_Gem_Of_Greed_1.0.png', 
@@ -586,6 +594,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '1.0', '1.0 Core Set', 'Default',
 'Mine, it''s all mine!');
 insert into Equipment (Position, Effect) VALUES ('Top', 'A Hero with the Gem of Greed may equip two loot cards to every equipment slot except relics.');
+insert into EquipmentAssignments (KeywordIndex, EquipmentIndex) VALUES (2, 3); --Starfire
 --Grimy Grim Granite Greaves
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Grimy Grim Granite Greaves',
 'http://htkb.info/SDE/1.0/Cards/Treasure/Specific/Card_Treasure_Grimy_Grim_Granite_Greaves_1.0.png', 
@@ -598,6 +607,7 @@ insert into Equipment (Position, Effect) VALUES ('Top', 'At then end of each of 
 insert into KeywordAssignments (KeywordIndex, EquipmentIndex) VALUES (2, 3); --Immune: Knockdown
 insert into KeywordAssignments (KeywordIndex, EquipmentIndex) VALUES (2, 3); --Immune: Slow
 insert into KeywordAssignments (KeywordIndex, EquipmentIndex) VALUES (2, 3); --Immune: Immobile
+insert into EquipmentAssignments (KeywordIndex, EquipmentIndex) VALUES (2, 3); --Roxor
 --Mournful Vial
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Mournful Vial',
 'http://htkb.info/SDE/1.0/Cards/Treasure/Specific/Card_Treasure_Mournful_Vial_1.0.png', 
@@ -607,6 +617,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Mmmm, raspberry!');
 insert into Equipment (Position, Effect) VALUES ('Top', '+1R WILL');
 insert into KeywordAssignments (KeywordIndex, EquipmentIndex) VALUES (2, 3); --Healer
+insert into EquipmentAssignments (KeywordIndex, EquipmentIndex) VALUES (2, 3); --Von Drakk
 --Petrified Dragon Heart
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Petrified Dragon Heart',
 'http://htkb.info/SDE/1.0/Cards/Treasure/Specific/Card_Treasure_Petrified_Dragon_Heart_1.0.png', 
@@ -616,6 +627,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Let my vitality become your own.');
 insert into Equipment (Position, Effect) VALUES ('Top', '+2 Heart');
 insert into KeywordAssignments (KeywordIndex, EquipmentIndex) VALUES (2, 3); --Healer
+insert into EquipmentAssignments (KeywordIndex, EquipmentIndex) VALUES (2, 3); --Starfire
 --Possessed Cloak
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Possessed Cloak',
 'http://htkb.info/SDE/1.0/Cards/Treasure/Specific/Card_Treasure_Possessed_Cloak_1.0.png', 
@@ -624,6 +636,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '1.0', '1.0 Core Set', 'Default',
 '...who are you?');
 insert into Equipment (Position, Effect) VALUES ('Top', '+1B Attack');
+insert into EquipmentAssignments (KeywordIndex, EquipmentIndex) VALUES (2, 3); --Von Drakk
 --Roxor's Bane
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Roxor''s Bane',
 'http://htkb.info/SDE/1.0/Cards/Treasure/Specific/Card_Treasure_Roxors_Bane_1.0.png', 
@@ -633,6 +646,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Lets get frosty!');
 insert into Equipment (Position, Effect) VALUES ('Top', '+1R Attack, +1R Armor');
 insert into KeywordAssignments (KeywordIndex, EquipmentIndex) VALUES (2, 3); --Cold
+insert into EquipmentAssignments (KeywordIndex, EquipmentIndex) VALUES (2, 3); --Roxor
 --Rumble and Ruckus
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Rumble and Ruckus',
 'http://htkb.info/SDE/1.0/Cards/Treasure/Specific/Card_Treasure_Rumble_And_Ruckus_1.0.png', 
@@ -642,6 +656,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Few can stand when Rumble and Ruckus shake the ground.');
 insert into Equipment (Position, Effect) VALUES ('Top', '+1R Attack');
 insert into KeywordAssignments (KeywordIndex, EquipmentIndex) VALUES (2, 3); --Knockdown
+insert into EquipmentAssignments (KeywordIndex, EquipmentIndex) VALUES (2, 3); --Roxor
 --Temptress Perfume
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Temptress Perfume',
 'http://htkb.info/SDE/1.0/Cards/Treasure/Specific/Card_Treasure_Temptress_Perfume_1.0.png', 
@@ -651,6 +666,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'A heady aroma.');
 insert into Equipment (Position, Effect) VALUES ('Top', '+1R WILL');
 insert into KeywordAssignments (KeywordIndex, EquipmentIndex) VALUES (2, 3); --Immune: Pacify
+insert into EquipmentAssignments (KeywordIndex, EquipmentIndex) VALUES (2, 3); --Succubus Vandella
 --Vulcanis' Maul
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Vulcanis'' Maul',
 'http://htkb.info/SDE/1.0/Cards/Treasure/Specific/Card_Treasure_Vulcanis_Maul_1.0.png', 
@@ -660,6 +676,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'It is said even the toys Vulcanis made for his sons have the power to move mountains.');
 insert into Equipment (Position, Effect) VALUES ('Top', '+1R Attack');
 insert into KeywordAssignments (KeywordIndex, EquipmentIndex) VALUES (2, 3); --Fire
+insert into EquipmentAssignments (KeywordIndex, EquipmentIndex) VALUES (2, 3); --Herald of Vulcanis
 --Withered Ring
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Withering Ring',
 'http://htkb.info/SDE/1.0/Cards/Treasure/Specific/Card_Treasure_Withering_Ring_1.0.png', 
@@ -668,6 +685,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '1.0', '1.0 Core Set', 'Default',
 'Second chances are seldom earned.');
 insert into Equipment (Position, Effect) VALUES ('Top', '+1R WILL');
+insert into EquipmentAssignments (KeywordIndex, EquipmentIndex) VALUES (2, 3); --Von Drakk
 --Wobbling Stalactite
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Wobbling Stalactite',
 'http://htkb.info/SDE/1.0/Cards/Treasure/Specific/Card_Treasure_Wobbling_Stalactite_1.0.png', 
@@ -676,6 +694,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '1.0', '1.0 Core Set', 'Default',
 'Wibble-Wobble, Wibble-Wobble, Watch Out!');
 insert into Equipment (Position, Effect) VALUES ('Top', '+1G DEX');
+insert into EquipmentAssignments (KeywordIndex, EquipmentIndex) VALUES (2, 3); --Roxor
 --Wyrm Scale
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Wyrm Scale',
 'http://htkb.info/SDE/1.0/Cards/Treasure/Specific/Card_Treasure_Wyrm_Scale_1.0.png', 
@@ -684,3 +703,4 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '1.0', '1.0 Core Set', 'Default',
 'Woooosh!');
 insert into Equipment (Position, Effect) VALUES ('Top', '+1G Armor');
+insert into EquipmentAssignments (KeywordIndex, EquipmentIndex) VALUES (2, 3); --Starfire
