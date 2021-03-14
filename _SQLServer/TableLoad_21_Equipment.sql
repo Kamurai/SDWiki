@@ -577,7 +577,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Loot', '1.0', '1.0 Core Set', 'Default',
 'Your strength is now mine.');
 insert into Equipment (Position, Effect) VALUES ('Left', '+1B Attack');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (63, 156); --Weak
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (63, 167); --Weak
 --Serpent Plate --Index 64
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Serpent Plate',
 'http://htkb.info/SDE/1.0/Cards/Loot/Card_Loot_Serpent_Plate_1.0.png', 
