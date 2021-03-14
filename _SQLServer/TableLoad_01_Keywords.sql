@@ -151,10 +151,48 @@
 /*Virulent					--Index 149*/ 	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Virulent', 'Add +1b to this model''s offense rolls if its target is suffering from Poison.', '1.0'); 
 /*Vulnerable				--Index 150*/ 	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Vulnerable', 'If a model with vulnerable X is targeted by the ability listed as X, it immediately takes one wound in addition to any other effects of the ability.', '1.0'); 
 /*Vulnerable				--Index 151*/ 	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Vulnerable', 'Status Effect. If a model with Vulnerable X is targeted\r\nby the ability listed as X, it must discard the highest result rolled of any\r\ndefense roll it makes against that ability.', '1.0'); 
-/*Wave						--Index 152*/ 	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Wave', 'A Wave effect is centered on the user''s square and hits the user and every model within X squares of the user. Waves replace the ranged effect of an ability but do not replace any other aspect of the ability.', '1.0'); 
-/*Wave						--Index 153*/ 	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Wave', 'A Wave effect is centered\r\non the user’s square and\r\nhits the user and every\r\nmodel within X squares of\r\nthe user. Waves replace the\r\ndistance portion (X) of a\r\ndistance effect, but do not\r\nreplace any other aspect of\r\nthe ability.', '1.0');
-/*Wave						--Index 154*/ 	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Wave', 'A Wave effect is centered on the user’s base and every square within X squares of the user.', '1.0');
-/*Weak						--Index 156*/ 	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Weak', 'A model or effect with Weak places a Weak counter on any model it damages. A model suffering Weak discards the highest result rolled anytime it makes a roll using its ATT attribute.', '1.0');
+/*Vulnerable: Bind			--Index 152*/ 	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Vulnerable: Bind', 'A model with Vulnerable: Bind targeted by Bind must discard the highest result rolled of any defense roll it makes against an ability with Bind.', '1.0');
+/*Vulnerable: Choke			--Index 153*/ 	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Vulnerable: Choke', 'A model with Vulnerable: Choke targeted by Choke must discard the highest result rolled of any defense roll it makes against an ability with Choke.', '1.0');
+/*Vulnerable: Cold			--Index 154*/ 	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Vulnerable: Cold', 'A model with Vulnerable: Cold targeted by Cold must discard the highest result rolled of any defense roll it makes against an ability with Cold.', '1.0');
+/*Vulnerable: Fire			--Index 155*/ 	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Vulnerable: Fire', 'A model with Vulnerable: Fire targeted by Fire must discard the highest result rolled of any defense roll it makes against an ability with Fire.', '1.0');
+/*Vulnerable: Fragile		--Index 156*/ 	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Vulnerable: Fragile', 'A model with Vulnerable: Fragile targeted by Fragile must discard the highest result rolled of any defense roll it makes against an ability with Fragile.', '1.0');
+/*Vulnerable: Immobile		--Index 157*/ 	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Vulnerable: Immobile', 'A model with Vulnerable: Immobile targeted by Immobile must discard the highest result rolled of any defense roll it makes against an ability with Immobile.', '1.0');
+/*Vulnerable: Knockdown 	--Index 158*/ 	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Vulnerable: Knockdown', 'A model with Vulnerable: Knockdown targeted by Knockdown must discard the highest result rolled of any defense roll it makes against an ability with Knockdown.', '1.0');
+/*Vulnerable: Pacify		--Index 159*/ 	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Vulnerable: Pacify', 'A model with Vulnerable: Pacify targeted by Pacify must discard the highest result rolled of any defense roll it makes against an ability with Pacify.', '1.0');
+/*Vulnerable: Poison		--Index 160*/ 	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Vulnerable: Poison', 'A model with Vulnerable: Poison targeted by Poison must discard the highest result rolled of any defense roll it makes against an ability with Poison.', '1.0');
+/*Vulnerable: Slow			--Index 161*/ 	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Vulnerable: Slow', 'A model with Vulnerable: Slow targeted by Slow must discard the highest result rolled of any defense roll it makes against an ability with Slow.', '1.0');
+/*Vulnerable: Stun			--Index 162*/ 	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Vulnerable: Stun', 'A model with Vulnerable: Stun targeted by Stun must discard the highest result rolled of any defense roll it makes against an ability with Stun.', '1.0');
+/*Vulnerable: Weak			--Index 163*/ 	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Vulnerable: Weak', 'A model with Vulnerable: Weak targeted by Weak must discard the highest result rolled of any defense roll it makes against an ability with Weak.', '1.0');
+/*Wave						--Index 164*/ 	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Wave', 'A Wave effect is centered on the user''s square and hits the user and every model within X squares of the user. Waves replace the ranged effect of an ability but do not replace any other aspect of the ability.', '1.0'); 
+/*Wave						--Index 165*/ 	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Wave', 'A Wave effect is centered\r\non the user’s square and\r\nhits the user and every\r\nmodel within X squares of\r\nthe user. Waves replace the\r\ndistance portion (X) of a\r\ndistance effect, but do not\r\nreplace any other aspect of\r\nthe ability.', '1.0');
+/*Wave						--Index 166*/ 	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Wave', 'A Wave effect is centered on the user’s base and every square within X squares of the user.', '1.0');
+/*Weak						--Index 167*/ 	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Weak', 'A model or effect with Weak places a Weak counter on any model it damages. A model suffering Weak discards the highest result rolled anytime it makes a roll using its ATT attribute.', '1.0');
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 --FK
 /*9 Lives					--Index 121*/ 	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('9 Lives', 'One Use Only. When a model with 9 lives is destroyed, immediately roll 1r. Remove one wound token for each star rolled If no stars are rolled the model is destroyed as normal.', 'FK');
 /*Alchemy					--Index 122*/ 	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Alchemy', 'When a model with Alchemy rolls a heart they may choose to gain a potion instead.', 'FK');
