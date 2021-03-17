@@ -14,7 +14,7 @@ join ExploreTraps e on c.ExploreIndex=e.ExploreIndex
 join ExploreAssignments f on c.ExploreIndex=d.ExploreIndex
 join Characters g on f.CharacterIndex=g.CharacterIndex
 join Cards h on g.CardIndex=h.CardIndex
-join AbilityAssignments i on c.ExploreIndex=i.EventTrapIndex
+join AbilityAssignments i on c.ExploreIndex=i.ExploreTrapIndex
 join Abilities j on i.AbilityIndex=j.AbilityIndex
 where a.CardType = 'Explore'
 ;
