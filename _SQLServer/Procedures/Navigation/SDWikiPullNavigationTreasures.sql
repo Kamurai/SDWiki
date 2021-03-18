@@ -4,5 +4,7 @@ create PROCEDURE SDWikiPullNavigationTreasures
 AS
 BEGIN
 	select CardName, Link
-	from TreasuresView;
+	from TreasuresView
+	Order By ProductSet desc, CardName asc
+	;
 END

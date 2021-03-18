@@ -4,5 +4,7 @@ create PROCEDURE SDWikiPullAllMonsters
 AS
 BEGIN
 	select * 
-	from MonstersViewMultiLine;
+	from MonstersViewMultiLine
+	Order By ProductSet desc, CardName asc
+	;
 END

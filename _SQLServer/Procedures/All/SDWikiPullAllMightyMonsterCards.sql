@@ -4,5 +4,7 @@ create PROCEDURE SDWikiPullAllMightyMonsterCards
 AS
 BEGIN
 	select * 
-	from MightyMonsterView;
+	from MightyMonsterView
+	Order By ProductSet desc, CardName asc
+	;
 END

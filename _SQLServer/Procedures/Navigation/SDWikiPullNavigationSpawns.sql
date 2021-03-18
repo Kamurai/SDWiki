@@ -4,5 +4,7 @@ create PROCEDURE SDWikiPullNavigationSpawns
 AS
 BEGIN
 	select CardName, Link
-	from SpawnsViewMultiLine;
+	from SpawnsViewMultiLine
+	Order By ProductSet desc, CardName asc
+	;
 END

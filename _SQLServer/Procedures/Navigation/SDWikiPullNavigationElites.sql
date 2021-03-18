@@ -4,5 +4,7 @@ create PROCEDURE SDWikiPullNavigationElites
 AS
 BEGIN
 	select CardName, Link
-	from ElitesViewMultiLine;
+	from ElitesViewMultiLine
+	Order By ProductSet desc, CardName asc
+	;
 END

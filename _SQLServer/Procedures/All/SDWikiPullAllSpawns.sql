@@ -4,5 +4,7 @@ create PROCEDURE SDWikiPullAllSpawns
 AS
 BEGIN
 	select * 
-	from SpawnsViewMultiLine;
+	from SpawnsViewMultiLine
+	Order By ProductSet desc, CardName asc
+	;
 END

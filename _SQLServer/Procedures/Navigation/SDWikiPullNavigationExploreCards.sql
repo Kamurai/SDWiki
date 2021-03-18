@@ -4,5 +4,7 @@ create PROCEDURE SDWikiPullNavigationExploreCards
 AS
 BEGIN
 	select CardName, Link
-	from ExploresView;
+	from ExploresView
+	Order By ProductSet desc, CardName asc
+	;
 END

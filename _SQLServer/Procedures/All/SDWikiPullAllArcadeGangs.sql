@@ -4,5 +4,7 @@ create PROCEDURE SDWikiPullAllArcadeGangs
 AS
 BEGIN
 	select * 
-	from ArcadeGangsViewMultiLine;
+	from ArcadeGangsViewMultiLine
+	Order By ProductSet desc, CardName asc
+	;
 END

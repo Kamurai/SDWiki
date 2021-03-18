@@ -4,5 +4,7 @@ create PROCEDURE SDWikiPullNavigationMiniBosses
 AS
 BEGIN
 	select CardName, Link
-	from MiniBossesViewMultiLine;
+	from MiniBossesViewMultiLine
+	Order By ProductSet desc, CardName asc
+	;
 END

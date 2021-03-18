@@ -4,5 +4,7 @@ create PROCEDURE SDWikiPullNavigationLoot
 AS
 BEGIN
 	select CardName, Link
-	from LootView;
+	from LootView
+	Order By ProductSet desc, CardName asc
+	;
 END

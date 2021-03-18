@@ -4,5 +4,7 @@ create PROCEDURE SDWikiPullNavigationBooty
 AS
 BEGIN
 	select CardName, Link
-	from BootyViewMultiLine;
+	from BootyViewMultiLine
+	Order By ProductSet desc, CardName asc
+	;
 END

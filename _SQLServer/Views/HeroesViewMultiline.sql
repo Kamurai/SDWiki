@@ -11,15 +11,15 @@ m.AttributeIndex as DefenseIndex, m.Attribute as Defense --Defense
 from Cards as a
 join Characters b on a.CardIndex=b.CardIndex
 join ExploreCharacters c on b.CharacterIndex=c.CharacterIndex
-join AffinityAssignments d on b.CharacterIndex=d.CharacterIndex
-join Affinities e on e.AffinityIndex=d.AffinityIndex
-join KeywordAssignments f on c.ExploreCharacterIndex=f.ExploreCharacterIndex
-join Keywords g on f.KeywordIndex=g.KeywordIndex
-join AbilityAssignments h on c.ExploreCharacterIndex=h.ExploreCharacterIndex
-join Abilities i on h.AbilityIndex=i.AbilityIndex
-join OffenseAssignments j on c.ExploreCharacterIndex=j.ExploreCharacterIndex
-join Attributes k on j.AttributeIndex=k.AttributeIndex
-join DefenseAssignments l on c.ExploreCharacterIndex=l.ExploreCharacterIndex
-join Attributes m on l.AttributeIndex=m.AttributeIndex
+full join AffinityAssignments d on b.CharacterIndex=d.CharacterIndex
+full join Affinities e on e.AffinityIndex=d.AffinityIndex
+full join KeywordAssignments f on c.ExploreCharacterIndex=f.ExploreCharacterIndex
+full join Keywords g on f.KeywordIndex=g.KeywordIndex
+full join AbilityAssignments h on c.ExploreCharacterIndex=h.ExploreCharacterIndex
+full join Abilities i on h.AbilityIndex=i.AbilityIndex
+full join OffenseAssignments j on c.ExploreCharacterIndex=j.ExploreCharacterIndex
+full join Attributes k on j.AttributeIndex=k.AttributeIndex
+full join DefenseAssignments l on c.ExploreCharacterIndex=l.ExploreCharacterIndex
+full join Attributes m on l.AttributeIndex=m.AttributeIndex
 where a.CardType = 'Hero'
 ;

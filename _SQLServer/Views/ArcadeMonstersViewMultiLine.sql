@@ -22,5 +22,5 @@ join Keywords j on i.KeywordIndex=j.KeywordIndex
 join AbilityAssignments k on h.GangMemberIndex=k.GangMemberIndex
 join Abilities l on k.AbilityIndex=l.AbilityIndex
 join ExploreCharacters m on h.ExploreCharacterIndex = m.ExploreCharacterIndex
-where a.CardType = 'Arcade Gang' or a.CardType = 'Arcade Solo' or a.CardType = 'Arcade Spawn' or a.CardType = 'Arcade Mini Boss' or a.CardType = 'Arcade Creep' or a.CardType = 'Arcade Boss' or a.CardType = 'Arcade Booty'
+where a.CardType = 'Arcade Gang' or a.CardType = 'Arcade Solo' or a.CardType = 'Arcade Spawning Point' or a.CardType = 'Arcade Mini Boss' or a.CardType = 'Arcade Creep' or a.CardType = 'Arcade Boss' or a.CardType = 'Arcade Booty'
 ;

@@ -4,5 +4,7 @@ create PROCEDURE SDWikiPullAllChallengeCards
 AS
 BEGIN
 	select * 
-	from ChallengesView;
+	from ChallengesView
+	Order By ProductSet desc, CardName asc
+	;
 END

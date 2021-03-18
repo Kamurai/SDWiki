@@ -22,5 +22,5 @@ join Keywords j on i.KeywordIndex=j.KeywordIndex
 join AbilityAssignments k on h.GangMemberIndex=k.GangMemberIndex
 join Abilities l on k.AbilityIndex=l.AbilityIndex
 join ExploreCharacters m on h.ExploreCharacterIndex = m.ExploreCharacterIndex
-where a.CardType = 'Arcade Spawn'
+where a.CardType = 'Arcade Spawning Point'
 ;

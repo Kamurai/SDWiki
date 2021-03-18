@@ -4,5 +4,7 @@ create PROCEDURE SDWikiPullAllArcadeBooty
 AS
 BEGIN
 	select * 
-	from ArcadeBootyViewMultiLine;
+	from ArcadeBootyViewMultiLine
+	Order By ProductSet desc, CardName asc
+	;
 END

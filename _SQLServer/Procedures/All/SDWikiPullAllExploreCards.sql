@@ -4,5 +4,7 @@ create PROCEDURE SDWikiPullAllExploreCards
 AS
 BEGIN
 	select * 
-	from ExploresView;
+	from ExploresView
+	Order By ProductSet desc, CardName asc
+	;
 END

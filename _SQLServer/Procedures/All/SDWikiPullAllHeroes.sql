@@ -4,5 +4,7 @@ create PROCEDURE SDWikiPullAllHeroes
 AS
 BEGIN
 	select * 
-	from HeroesViewMultiLine;
+	from HeroesViewMultiLine
+	Order By ProductSet desc, CardName asc
+	;
 END

@@ -6,8 +6,8 @@ c.Trap, c.Challenge, --Challenges
 f.Name as CharacterName, f.Link as CharacterLink--Cards
 from Cards a
 join Challenges c on a.CardIndex=c.CardIndex
-join ChallengeAssignments d on c.ChallengeIndex=d.ChallengeIndex
-join Characters e on e.CharacterIndex=d.CharacterIndex
-join Cards f on e.CardIndex=f.CardIndex
+full join ChallengeAssignments d on c.ChallengeIndex=d.ChallengeIndex
+full join Characters e on e.CharacterIndex=d.CharacterIndex
+full join Cards f on e.CardIndex=f.CardIndex
 where a.CardType = 'Boss Challenge'
 ;
