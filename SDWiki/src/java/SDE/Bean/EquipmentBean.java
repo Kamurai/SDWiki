@@ -12,16 +12,16 @@ public class EquipmentBean extends CardBean{
     
     public EquipmentBean(){
         super();
-        this.uni                = new Universal();
+        this.uni         = new Universal();
         
         this.equipment   = new Equipment();        
     }
 
-    public Equipment getExploreCharacter() {
+    public Equipment getEquipment() {
         return equipment;
     }
 
-    public String setHeroPage(String link){
+    public String setEquipment(String link){
         String path = uni.getAppPath()+link;
         
         this.equipment = oneDAO.pullOneEquipment(path);

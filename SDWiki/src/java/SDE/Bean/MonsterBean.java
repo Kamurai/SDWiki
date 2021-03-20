@@ -12,16 +12,16 @@ public class MonsterBean extends CardBean{
     
     public MonsterBean(){
         super();
-        this.uni                = new Universal();
+        this.uni       = new Universal();
         
         this.monster   = new Monster();        
     }
 
-    public Monster getExploreCharacter() {
+    public Monster getMonster() {
         return monster;
     }
 
-    public String setHeroPage(String link){
+    public String setMonsterPage(String link){
         String path = uni.getAppPath()+link;
         
         this.monster = oneDAO.pullOneMonster(path);

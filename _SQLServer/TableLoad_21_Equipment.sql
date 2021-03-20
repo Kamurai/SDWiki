@@ -219,9 +219,9 @@ insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (22, 126); 
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (22, 36); --Roxor
 --Fireflow Brew --EquipmentIndex 23 --CardIndex 95
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Fireflow Brew',
-'http://htkb.info/SDE/1.0/Cards/Treasure/Generic/Card_Loot_Cowards_Boots_1.0.png', 
+'http://htkb.info/SDE/1.0/Cards/Treasure/Generic/Card_Treasure_Fireflow_Brew_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Treasure/Generic/Card_Treasure_Back_1.0.png',
-'http://htkb.online/SDWiki/SDE/1.0/Cards/Treasure/Generic/Cowards_Boots.xhtml', 
+'http://htkb.online/SDWiki/SDE/1.0/Cards/Treasure/Generic/Fireflow_Brew.xhtml', 
 'Treasure', '1.0', '1.0 Core Set', 'Default',
 'Shake it up and point away from face.');
 insert into Equipment (CardIndex, Position, Effect) VALUES (95, 'Top', '2R Molotov: +1G Attack, Lance 6, One Use Only - Discard Fireflow Brew after using Molotov.');
@@ -341,7 +341,7 @@ insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (35, 54); -
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Mournful Vial',
 'http://htkb.info/SDE/1.0/Cards/Treasure/Specific/Card_Treasure_Mournful_Vial_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Treasure/Specific/Card_Treasure_Back_1.0.png',
-'http://htkb.online/SDWiki/SDE/1.0/Cards/Treasure/Specific/Treasure_Mournful_Vial.xhtml', 
+'http://htkb.online/SDWiki/SDE/1.0/Cards/Treasure/Specific/Mournful_Vial.xhtml', 
 'Treasure', '1.0', '1.0 Core Set', 'Default',
 'Mmmm, raspberry!');
 insert into Equipment (CardIndex, Position, Effect) VALUES (108, 'Top', '+1R WILL');
@@ -563,7 +563,7 @@ insert into Equipment (CardIndex, Position, Effect) VALUES (133, 'Top', '+1G Att
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Runic Charm',
 'http://htkb.info/SDE/1.0/Cards/Treasure/Generic/Card_Treasure_Runic_Cloak_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Treasure/Generic/Card_Treasure_Back_1.0.png',
-'http://htkb.online/SDWiki/SDE/1.0/Cards/Treasure/Generic/Treasure_Runic_Cloak.xhtml', 
+'http://htkb.online/SDWiki/SDE/1.0/Cards/Treasure/Generic/Runic_Cloak.xhtml', 
 'Treasure', '1.0', '1.0 Core Set', 'Default',
 'No magic shall unbind these wards.');
 insert into Equipment (CardIndex, Position, Effect) VALUES (134, 'Top', '+1R Armor');
