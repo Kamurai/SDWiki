@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:c="http://java.sun.com/jsp/jstl/core"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets">
+    <h:head />
+    <h:body>
+         <title>
+            #{SDEExploreCharacterBean.getExploreCharacter().getName()}
+        </title>
+        <h2>
+            #{SDEExploreCharacterBean.getExploreCharacter().getName()}
+        </h2>
+        <div id="idCenterContent">
+            <div>
+                <div class="inline"><!-- Front of Card -->#{SDEExploreCharacterBean.getExploreCharacter().getPictureFront()}</div><div class="inline"><!-- Back of Card -->#{SDEExploreCharacterBean.getExploreCharacter().getPictureBack()}</div>
+            </div>
+            
+            <!-- replace with table -->
+            <div>
+                <div>
+                    <div class="inline"><!-- Card Type: Hero -->#{SDEExploreCharacterBean.getExploreCharacter().getCardType()}</div><div class="inline"><!-- Product Set / Version -->#{SDEExploreCharacterBean.getExploreCharacter().getProductSet()}</div>
+                </div>
+                <div>
+                    <div class="inline"><!-- Creature Type -->#{SDEExploreCharacterBean.getExploreCharacter().getCreatureType()}</div><div class="inline"><!-- Product Module -->#{SDEExploreCharacterBean.getExploreCharacter().getModule()}</div>
+                </div>
+                <div>
+                    <div class="inline"><!-- Model Size -->#{SDEExploreCharacterBean.getExploreCharacter().getModelSize()}</div><div class="inline"><!-- Play Mode -->#{SDEExploreCharacterBean.getExploreCharacter().getMode()}</div><div class="inline"><!-- Gender -->#{SDEExploreCharacterBean.getExploreCharacter().getGender()}</div>
+                </div>
+            </div>
+            
+            <div>
+                 <div class="inline"><!-- Movement -->#{SDEExploreCharacterBean.getExploreCharacter().getMovement()}</div><div class="inline"><!-- Actions -->#{SDEExploreCharacterBean.getExploreCharacter().getActions()}</div>
+            </div>
+            
+            <div>
+                <div class="inline">
+                    <div>Offense</div>
+                    <div><!-- Strength Offense -->#{ ( SDEExploreCharacterBean.getExploreCharacter().containsOffense("Strength") ) + SDEExploreCharacterBean.getExploreCharacter().getOffense("Strength").getRange()}</div>
+                    <div><!-- Armor Offense -->#{ ( SDEExploreCharacterBean.getExploreCharacter().containsOffense("Armor") ) + SDEExploreCharacterBean.getExploreCharacter().getOffense("Armor").getRange()}</div>
+                    <div><!-- Will Offense -->#{ ( SDEExploreCharacterBean.getExploreCharacter().containsOffense("Will") ) + SDEExploreCharacterBean.getExploreCharacter().getOffense("Will").getRange()}</div>
+                    <div><!-- Dexterity Offense -->#{ ( SDEExploreCharacterBean.getExploreCharacter().containsOffense("Dexterity") ) + SDEExploreCharacterBean.getExploreCharacter().getOffense("Dexterity").getRange()}</div>
+                </div>
+                <div class="inline">
+                    <div>Attributes</div>
+                    <div><!-- Strength -->#{SDEExploreCharacterBean.getExploreCharacter().getStrength()}</div>
+                    <div><!-- Armor -->#{SDEExploreCharacterBean.getExploreCharacter().getArmor()}</div>
+                    <div><!-- Will -->#{SDEExploreCharacterBean.getExploreCharacter().getWill()}</div>
+                    <div><!-- Dexterity -->#{SDEExploreCharacterBean.getExploreCharacter().getDexterity()}</div>
+                </div>
+                <div class="inline">
+                    <div>Defense</div>
+                    <div><!-- Strength Defenses -->#{( SDEExploreCharacterBean.getExploreCharacter().containsDefense("Strength") )}</div>
+                    <div><!-- Armor Defenses -->#{( SDEExploreCharacterBean.getExploreCharacter().containsDefense("Armor") )}</div>
+                    <div><!-- Will Defenses -->#{( SDEExploreCharacterBean.getExploreCharacter().containsDefense("Will") )}</div>
+                    <div><!-- Dexterity Defenses -->#{( SDEExploreCharacterBean.getExploreCharacter().containsDefense("Dexterity") )}</div>
+                </div>
+            </div>
+            
+            <div>
+                <div class="inline"><!-- Affinity -->#{SDEExploreCharacterBean.getExploreCharacter().getAffinity()}</div><div class="inline"><!-- Health -->#{SDEExploreCharacterBean.getExploreCharacter().getHealth()}</div><div class="inline"><!-- Potions: only show if not zero for non-Heroes -->#{SDEExploreCharacterBean.getExploreCharacter().getPotions()}</div>
+            </div>
+            
+            <!-- List of Keywords -->
+            <ui:repeat var="x" value="#{SDEExploreCharacterBean.getExploreCharacter().getKeywords()}" size="#{SDEExploreCharacterBean.getExploreCharacter().getKeywords().size()}" varStatus="myVarStatus" >
+                <div class="xRow">
+                    <div class="inline"><!-- Keyword -->#{x.getName()}</div><div class="inline"><!-- Definition -->#{x.getDescription()}</div>
+                </div>
+            </ui:repeat>
+            
+            <!-- List of Abilities -->
+            <ui:repeat var="x" value="#{SDEExploreCharacterBean.getExploreCharacter().getAbilities()}" size="#{SDEExploreCharacterBean.getExploreCharacter().getAbilities().size()}" varStatus="myVarStatus" >
+                <div class="xRow">
+                    <div class="inline"><!-- Ability Cost -->#{x.getCost()}</div>
+                    <div class="inline"><!-- Ability Resource -->#{x.getResource()}</div>
+                    <div class="inline"><!-- Ability Type -->#{x.getType()}</div>
+                    
+                    <div class="inline"><!-- Ability Attribute -->#{x.getAttribute()}</div>
+                    <div class="inline"><!-- Ability Range -->#{x.getRange()}</div>
+                    
+                    <div class="inline"><!-- Ability Description -->#{x.getDescription()}</div>
+                </div>
+            </ui:repeat>
+        </div>
+    </h:body>
+</html>
+
