@@ -17,11 +17,11 @@ public class UtilityBean extends CardBean{
         this.utilityCard   = new UtilityCard();        
     }
 
-    public UtilityCard getExploreCharacter() {
+    public UtilityCard getUtilityCard() {
         return utilityCard;
     }
 
-    public String setHeroPage(String link){
+    public String setUtilityCard(String link){
         String path = uni.getAppPath()+link;
         
         this.utilityCard = oneDAO.pullOneUtilityCard(path);

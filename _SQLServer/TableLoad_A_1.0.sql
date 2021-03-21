@@ -856,7 +856,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (31,
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Rock Gut',
 'http://htkb.info/SDE/1.0/Cards/Minibosses/Card_Miniboss_Rock Gut_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Minibosses/Card_Miniboss_Rock Gut_1.0_back.png', 
-'http://htkb.online/SDWiki/SDE/1.0/Cards/Minibosses/Rock Gut.xhtml', 
+'http://htkb.online/SDWiki/SDE/1.0/Cards/Minibosses/Rock_Gut.xhtml', 
 'Miniboss', '1.0', '1.0 Core Set', 'Explore',
 'Rock Gut loves rock.  Rock Gut would marry rock if he could.  Sometimes Rock Gut talks to rock.  He finds rock very understanding and a good listener.  Mainly Rock Gut eats rock, digesting it in his fiery belly.  Unfortunately, to Rock Gut everything is "rock".  Even if you''re really a squirming Hero.');
 insert into Characters (CardIndex) VALUES (32);
@@ -913,7 +913,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (34,
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Nocturne',
 'http://htkb.info/SDE/1.0/Cards/Bosses/Card_Boss_Nocturne_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Bosses/Card_Boss_Nocturne_1.0_back.png', 
-'http://htkb.online/SDWiki/SDE/1.0/Cards/Bosses/Nocture.xhtml', 
+'http://htkb.online/SDWiki/SDE/1.0/Cards/Bosses/Nocturne.xhtml', 
 'Boss', '1.0', '1.0 Core Set', 'Explore',
 'Those who meet the gaze of Von Drakk say it is like staring into the soul of the beast.  None realize how correct they are.  When in the full throes of bloodlust Von Drakk is overtaken by a hideous transformation; his new form ideally suited to bringing carnage and ruin to his foes.');
 insert into Characters (CardIndex) VALUES (35);
@@ -1443,27 +1443,27 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (68,
 --Boss Spawns
 --Roxor --BossSpawnIndex 0  --CardIndex 69
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Roxor', 
-'http://htkb.info/SDE/1.0/Cards/Boss_Spawn/Card_Boss_Spawn_Roxor_1.0.png', 
-'http://htkb.info/SDE/1.0/Cards/Boss_Spawn/Card_Boss_Spawn_Roxor_1.0.png',
-'http://htkb.online/SDWiki/SDE/1.0/Cards/Boss_Spawn/Card_Boss_Spawn_Roxor.xhtml', 
+'http://htkb.info/SDE/1.0/Cards/Boss_Spawns/Card_Boss_Spawn_Roxor_1.0.png', 
+'http://htkb.info/SDE/1.0/Cards/Boss_Spawns/Card_Boss_Spawn_Roxor_1.0.png',
+'http://htkb.online/SDWiki/SDE/1.0/Cards/Boss_Spawns/Roxor.xhtml', 
 'Boss Spawn', '1.0', '1.0 Core Set', 'Default',   
 '');
 insert into BossSpawns (CardIndex, DungeonEffect, BossSpawnEffect, TimeoutEffect, DifficultyRating) VALUES (69, 'Jagged Earth: All squares adjacent to spawning points are considered Difficult Terrain for Heroes.  Precious Metals:  Once per round Heroes may discard two unequipped loot cards and immediately draw another.', 'Molton Core:  Roxor enters play in Rock Form.  At the beginning of every activation choose one form for Roxor to assume.  Roxor gains the form''s gonuses until the beginning of his next activation:  Rock Form:  +1G Armor, Immune:  Status Effects, Fire Form:  +1G Attack, Fire, Tremors:  When Roxor enters paly place a Slow counter on every Boss Spawn.', 'Earthquake: Place a Knockdown counter on every Boss Spawn.  Summon: 1 Blaze Beetle, 2 Ember Hounds, 3 Burning Gels', '');
 insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (0, 36); 
 --Starfire --BossSpawnIndex 1  --CardIndex 70
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Starfire', 
-'http://htkb.info/SDE/1.0/Cards/Boss_Spawn/Card_Boss_Spawn_Starfire_1.0.png', 
-'http://htkb.info/SDE/1.0/Cards/Boss_Spawn/Card_Boss_Spawn_Starfire_1.0.png',
-'http://htkb.online/SDWiki/SDE/1.0/Cards/Boss_Spawn/Card_Boss_Spawn_Starfire.xhtml', 
+'http://htkb.info/SDE/1.0/Cards/Boss_Spawns/Card_Boss_Spawn_Starfire_1.0.png', 
+'http://htkb.info/SDE/1.0/Cards/Boss_Spawns/Card_Boss_Spawn_Starfire_1.0.png',
+'http://htkb.online/SDWiki/SDE/1.0/Cards/Boss_Spawns/Starfire.xhtml', 
 'Boss Spawn', '1.0', '1.0 Core Set', 'Default',   
 '');
 insert into BossSpawns (CardIndex, DungeonEffect, BossSpawnEffect, TimeoutEffect, DifficultyRating) VALUES (70, 'Born of Fire:  Heroes that move into a square adjacent to any spawning point on the dungeon map immediately suffer fire.  The Red Stuff:  All Heroes gain the following potion type:  Dragon''s Blood:  Take one wound.  1R Attack, Fire', 'Inferno:  When Starfire enters play place a Fire counter on every Boss Spawn.  Burning Blades:  All minions and denizens gain the Fire ability as though it were printed on their stat card.', 'Fiery Escape:  All models in a quare adjacent to Starfire suffer Fire.  Summon: 2 Wyrmlings, 2 Whelps, 2 Hatchlings', '');
 insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (1, 37); 
 --Von Drakk --BossSpawnIndex 2  --CardIndex 71
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Von Drakk', 
-'http://htkb.info/SDE/1.0/Cards/Boss_Spawn/Card_Boss_Spawn_Von_Drakk_1.0.png', 
-'http://htkb.info/SDE/1.0/Cards/Boss_Spawn/Card_Boss_Spawn_Von_Drakk_1.0.png',
-'http://htkb.online/SDWiki/SDE/1.0/Cards/Boss_Spawn/Card_Boss_Spawn_Von_Drakk.xhtml', 
+'http://htkb.info/SDE/1.0/Cards/Boss_Spawns/Card_Boss_Spawn_Von_Drakk_1.0.png', 
+'http://htkb.info/SDE/1.0/Cards/Boss_Spawns/Card_Boss_Spawn_Von_Drakk_1.0.png',
+'http://htkb.online/SDWiki/SDE/1.0/Cards/Boss_Spawns/Von_Drakk.xhtml', 
 'Boss Spawn', '1.0', '1.0 Core Set', 'Default',   
 '');
 insert into BossSpawns (CardIndex, DungeonEffect, BossSpawnEffect, TimeoutEffect, DifficultyRating) VALUES (71, 'Shadows and Fog:  All ranged attacks and effects targeting spawning points reduce their range by 2.  Hidden Lever:  When a spawning point is destroyed, the Heroes must rotate the tile 90 degrees in a direction of their choosing.', 'Halloween:  When Von Drakk enters play, replace all Bone Pile counters in the dungeon with Rattle-Bones as though they have been targeted by the Raise ability.  You may only Raise as many Rattle-Bones as you have models available, regardless of the number of Bone Pile counters in the dungeon.', 'Von Drakk (or Nocturne) only triggers a Timeout Effect the first time he is reduced to half of his wounds.  Transfixing Gaze:  All Heroes within 3 squares of Von Drakk suffer Stun.  Summon: 2 Dread Knights, 2 Dust Mages, 4 Boneheads', '');
@@ -1689,9 +1689,9 @@ insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (22, 126); 
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (22, 36); --Roxor
 --Fireflow Brew --EquipmentIndex 23 --CardIndex 95
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Fireflow Brew',
-'http://htkb.info/SDE/1.0/Cards/Treasure/Generic/Card_Loot_Cowards_Boots_1.0.png', 
+'http://htkb.info/SDE/1.0/Cards/Treasure/Generic/Card_Treasure_Fireflow_Brew_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Treasure/Generic/Card_Treasure_Back_1.0.png',
-'http://htkb.online/SDWiki/SDE/1.0/Cards/Treasure/Generic/Cowards_Boots.xhtml', 
+'http://htkb.online/SDWiki/SDE/1.0/Cards/Treasure/Generic/Fireflow_Brew.xhtml', 
 'Treasure', '1.0', '1.0 Core Set', 'Default',
 'Shake it up and point away from face.');
 insert into Equipment (CardIndex, Position, Effect) VALUES (95, 'Top', '2R Molotov: +1G Attack, Lance 6, One Use Only - Discard Fireflow Brew after using Molotov.');
@@ -1811,7 +1811,7 @@ insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (35, 54); -
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Mournful Vial',
 'http://htkb.info/SDE/1.0/Cards/Treasure/Specific/Card_Treasure_Mournful_Vial_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Treasure/Specific/Card_Treasure_Back_1.0.png',
-'http://htkb.online/SDWiki/SDE/1.0/Cards/Treasure/Specific/Treasure_Mournful_Vial.xhtml', 
+'http://htkb.online/SDWiki/SDE/1.0/Cards/Treasure/Specific/Mournful_Vial.xhtml', 
 'Treasure', '1.0', '1.0 Core Set', 'Default',
 'Mmmm, raspberry!');
 insert into Equipment (CardIndex, Position, Effect) VALUES (108, 'Top', '+1R WILL');
@@ -2033,7 +2033,7 @@ insert into Equipment (CardIndex, Position, Effect) VALUES (133, 'Top', '+1G Att
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Runic Charm',
 'http://htkb.info/SDE/1.0/Cards/Treasure/Generic/Card_Treasure_Runic_Cloak_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Treasure/Generic/Card_Treasure_Back_1.0.png',
-'http://htkb.online/SDWiki/SDE/1.0/Cards/Treasure/Generic/Treasure_Runic_Cloak.xhtml', 
+'http://htkb.online/SDWiki/SDE/1.0/Cards/Treasure/Generic/Runic_Cloak.xhtml', 
 'Treasure', '1.0', '1.0 Core Set', 'Default',
 'No magic shall unbind these wards.');
 insert into Equipment (CardIndex, Position, Effect) VALUES (134, 'Top', '+1R Armor');
@@ -2194,7 +2194,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 VALUES ('Difficult Terrain',
 'http://htkb.info/SDE/1.0/Cards/Utility/Card_Utility_Terrain_Difficult_Terrain_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Utility/Card_Utility_Terrain_1.0_back.png', 
-'http://htkb.online/SDWiki/SDE/1.0/Cards/Utility/Card_Utility_Terrain_Difficult_Terrain.xhtml', 
+'http://htkb.online/SDWiki/SDE/1.0/Cards/Utility/Difficult_Terrain.xhtml', 
 'Utility', '1.0', '1.0 Core Set', 'Default', '');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (43, 'Each square of difficult terrain a model enters costs two points of Speed.  If a model does not have enough Speed remaining to move into a square with difficult terrain it may not do so.'); --? Not sure what to put here
 --Lava
@@ -2202,7 +2202,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 VALUES ('Lava',
 'http://htkb.info/SDE/1.0/Cards/Utility/Card_Utility_Terrain_Lava_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Utility/Card_Utility_Terrain_1.0_back.png', 
-'http://htkb.online/SDWiki/SDE/1.0/Cards/Utility/Card_Utility_Terrain_Lava.xhtml', 
+'http://htkb.online/SDWiki/SDE/1.0/Cards/Utility/Lava.xhtml', 
 'Utility', '1.0', '1.0 Core Set', 'Default', '');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (43, 'A model entering a Lava square suffers Fire.'); 
 --Rules Addendum and Errata
@@ -2210,7 +2210,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 VALUES ('Rules Addendum and Errata',
 'http://htkb.info/SDE/1.0/Cards/Utility/Card_Utility_Addendums_Errata_Rules_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Utility/Card_Utility_Terrain_1.0_back.png', 
-'http://htkb.online/SDWiki/SDE/1.0/Cards/Utility/Card_Utility_Addendums_Errata_Rules.xhtml', 
+'http://htkb.online/SDWiki/SDE/1.0/Cards/Utility/Addendums_Errata_Rules.xhtml', 
 'Utility', '1.0', '1.0 Core Set', 'Default', '');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (43, 'Offensive Potions:<br>Offensive Potions: are indicated by a green potion icon.<br><br>An Offensive Potion provides a model with a single use special action blue or special attack red.  These effects follow all normal rules for resolving special actions and attacks, including being able to target enemies and requiring attack and defense rolls (if the potion provides special attack).  They require no action points to use and are instead used by spending a potion token in the same manner as a normal potion, but may only be used during a model''s activation.<br><br>Vulnerable: X<br>Status Effect:  A model suffering Vulnerable X must discard the highest result rolled anytime it makes a defense roll against an attack or action which includes or uses the ability listed as X.'); 
 

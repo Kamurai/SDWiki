@@ -104,7 +104,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (31,
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Rock Gut',
 'http://htkb.info/SDE/1.0/Cards/Minibosses/Card_Miniboss_Rock Gut_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Minibosses/Card_Miniboss_Rock Gut_1.0_back.png', 
-'http://htkb.online/SDWiki/SDE/1.0/Cards/Minibosses/Rock Gut.xhtml', 
+'http://htkb.online/SDWiki/SDE/1.0/Cards/Minibosses/Rock_Gut.xhtml', 
 'Miniboss', '1.0', '1.0 Core Set', 'Explore',
 'Rock Gut loves rock.  Rock Gut would marry rock if he could.  Sometimes Rock Gut talks to rock.  He finds rock very understanding and a good listener.  Mainly Rock Gut eats rock, digesting it in his fiery belly.  Unfortunately, to Rock Gut everything is "rock".  Even if you''re really a squirming Hero.');
 insert into Characters (CardIndex) VALUES (32);
