@@ -280,12 +280,12 @@ public class ExploreCharacter extends Character implements KeywordInterface, Abi
         return result;
     }
     
-    public String getOffense(String attribute){
-        String result = "";
+    public Offense getOffense(String attribute){
+        Offense result = new Offense();
         
         for(int x=0; x < offenses.size(); x++){
             if(attribute.compareTo(offenses.get(x).getAttribute())==0){
-                result = defenses.get(x).getAttribute();
+                result = offenses.get(x);
                 break;
             }
         }

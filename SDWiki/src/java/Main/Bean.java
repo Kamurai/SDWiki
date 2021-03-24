@@ -22,4 +22,10 @@ public class Bean{
     public String setLayout(){
         return uni.getAppPath()+"Layout.xhtml";
     }
+    
+    public String getWebMaster(){
+        String Result = "";
+        Result += "Website managed by Kamurai.";
+        return Result;
+    }
 }
