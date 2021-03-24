@@ -3,12 +3,13 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/House/Programming/Netbeans/SDWiki/SDWiki/web/SDE/1.0/Cards/Heroes/Layout.xhtml</file>
-            <file>file:/C:/House/Programming/Netbeans/SDWiki/SDWiki/src/java/Main/Bean.java</file>
+            <file>file:/C:/House/Programming/Netbeans/SDWiki/SDWiki/src/java/Database/DbInfo.java</file>
             <file>file:/C:/House/Programming/Netbeans/SDWiki/SDWiki/web/SDE/Content/ExploreCharacter.xhtml</file>
             <file>file:/C:/House/Programming/Netbeans/SDWiki/SDWiki/src/java/Database/SDE/SDEDAOOne.java</file>
+            <file>file:/C:/House/Programming/Netbeans/SDWiki/SDWiki/src/java/SDE/Bean/Bean.java</file>
             <file>file:/C:/House/Programming/Netbeans/SDWiki/SDWiki/src/java/SDE/Bean/ExploreCharacterBean.java</file>
-            <file>file:/C:/House/Programming/Netbeans/SDWiki/SDWiki/nbproject/build-impl.xml</file>
+            <file>file:/C:/House/Programming/Netbeans/SDWiki/SDWiki/src/java/Main/Universal.java</file>
+            <file>file:/C:/House/Programming/Netbeans/SDWiki/SDWiki/src/java/SDE/ExploreCharacter.java</file>
             <file>file:/C:/House/Programming/Netbeans/SDWiki/SDWiki/web/SDE/1.0/Cards/Heroes/Angry_Bear.xhtml</file>
         </group>
     </open-files>

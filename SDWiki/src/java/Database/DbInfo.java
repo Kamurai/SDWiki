@@ -30,7 +30,11 @@ public class DbInfo
     
     public DbInfo(){
         driver      = "com.microsoft.sqlserver.jdbc.SQLServerDriver";
+<<<<<<< Updated upstream
         url         = "jdbc:sqlserver://htkb.online\\MSSQLSERVER";
+=======
+        url         = "jdbc:sqlserver://htkb.online";
+>>>>>>> Stashed changes
         dbName      = ";DatabaseName=SDWiki";
         dbUsername  = "SA";
         dbPassword  = "Yellow23!";
