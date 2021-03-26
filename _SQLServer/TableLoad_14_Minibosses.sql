@@ -1,7 +1,7 @@
 --1.0
 --Mini Boss (used Monster 2.0 Explore)
 --Captain R --Index 26
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Captain R',
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Captain R',
 'http://htkb.info/SDE/1.0/Cards/Minibosses/Card_Miniboss_Captain_R_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Minibosses/Card_Miniboss_Captain_R_1.0_back.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Minibosses/Captain_R.xhtml', 
@@ -17,7 +17,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (26, 2); --Armor
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (26, 'Miniboss', '16 bit', 4);
 --Death Spectre --Index 27
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Death Spectre',
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Death Spectre',
 'http://htkb.info/SDE/1.0/Cards/Minibosses/Card_Miniboss_Death_Spectre_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Minibosses/Card_Miniboss_Death_Spectre_1.0_back.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Minibosses/Death_Spectre.xhtml', 
@@ -31,7 +31,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (27, 2); --Armor
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (27, 'Miniboss', '16 bit', 4);
 --Herald of Vulcanis --Index 28
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Herald of Vulcanis',
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Herald of Vulcanis',
 'http://htkb.info/SDE/1.0/Cards/Minibosses/Card_Miniboss_Herald_of_Vulcanis_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Minibosses/Card_Miniboss_Herald_of_Vulcanis_1.0_back.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Minibosses/Herald_of_Vulcanis.xhtml', 
@@ -46,7 +46,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (28, 2); --Armor
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (28, 'Miniboss', '16 bit', 4);
 --Kaelly the Nether Strider --Index 29
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Kaelly the Nether Strider',
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Kaelly the Nether Strider',
 'http://htkb.info/SDE/1.0/Cards/Minibosses/Card_Miniboss_Kaelly_The_Nether_Strider_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Minibosses/Card_Miniboss_Kaelly_The_Nether_Strider_1.0_back.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Minibosses/Kaelly_The_Nether_Strider.xhtml', 
@@ -66,7 +66,7 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (2
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (29, 4); --Dodge
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (29, 'Miniboss', '16 bit', 4);
 --Kasaro To --Index 30
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Kasaro To',
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Kasaro To',
 'http://htkb.info/SDE/1.0/Cards/Minibosses/Card_Miniboss_Kasaro_To_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Minibosses/Card_Miniboss_Kasaro_To_1.0_back.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Minibosses/Kasaro_To.xhtml', 
@@ -84,7 +84,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (30, 2); --Armor
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (30, 'Miniboss', '16 bit', 4);
 --Rex --Index 31
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Rex',
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Rex',
 'http://htkb.info/SDE/1.0/Cards/Minibosses/Card_Miniboss_Rex_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Minibosses/Card_Miniboss_Rex_1.0_back.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Minibosses/Rex.xhtml', 
@@ -101,7 +101,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (31, 2); --Armor
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (31, 'Miniboss', '16 bit', 4);
 --Rock Gut --Index 32
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Rock Gut',
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Rock Gut',
 'http://htkb.info/SDE/1.0/Cards/Minibosses/Card_Miniboss_Rock Gut_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Minibosses/Card_Miniboss_Rock Gut_1.0_back.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Minibosses/Rock_Gut.xhtml', 
@@ -119,7 +119,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (32, 2); --Armor
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (32, 'Miniboss', '16 bit', 4);
 --Ser Snapjaw --Index 33
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Ser Snapjaw',
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ser Snapjaw',
 'http://htkb.info/SDE/1.0/Cards/Minibosses/Card_Miniboss_Ser_Snapjaw_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Minibosses/Card_Miniboss_Ser_Snapjaw_1.0_back.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Minibosses/Ser_Snapjaw.xhtml', 
@@ -137,7 +137,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (33, 2); --Armor
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (33, 'Miniboss', '16 bit', 4);
 --Succubus Vandella --Index 34
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Succubus Vandella',
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Succubus Vandella',
 'http://htkb.info/SDE/1.0/Cards/Minibosses/Card_Miniboss_Succubus_Vandella_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Minibosses/Card_Miniboss_Succubus_Vandella_1.0_back.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Minibosses/Succubus_Vandella.xhtml', 

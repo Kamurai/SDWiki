@@ -5,8 +5,10 @@ select a.CardIndex, a.Name as CardName, PictureFront, PictureBack, Link, CardTyp
 Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions, --ExploreCharacter
 AffinityType, --Affinity
 g.KeywordIndex, g.Name as KeywordName, KeywordDescription, --Keywords
-i.AbilityIndex, i.Name as AbilityName, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, --Abilities
-k.AttributeIndex as OffenseIndex, k.Attribute as Offense, j.OffenseRange, --Offenses
+i.AbilityIndex, i.Name as AbilityName, AbilityResource, AbilityType, AbilityCost, --Abilities
+v.Attribute as AbilityAttribute, --Attributes
+AbilityAttribute, AbilityRange, AbilityDescription, --Abilities
+ k.AttributeIndex as OffenseIndex, k.Attribute as Offense, j.OffenseRange, --Offenses
 m.AttributeIndex as DefenseIndex, m.Attribute as Defense, --Defenses
 RangeLimit --Pets
 from Cards a
@@ -18,6 +20,7 @@ full join KeywordAssignments f on c.ExploreCharacterIndex=f.ExploreCharacterInde
 full join Keywords g on f.KeywordIndex=g.KeywordIndex
 full join AbilityAssignments h on c.ExploreCharacterIndex=h.ExploreCharacterIndex
 full join Abilities i on h.AbilityIndex=i.AbilityIndex
+full join Attributes v on i.AttributeIndex=v.AttributeIndex
 full join OffenseAssignments j on c.ExploreCharacterIndex=j.ExploreCharacterIndex
 full join Attributes k on j.AttributeIndex=k.AttributeIndex
 full join DefenseAssignments l on c.ExploreCharacterIndex=l.ExploreCharacterIndex
