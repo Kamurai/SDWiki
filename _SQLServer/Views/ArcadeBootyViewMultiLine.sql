@@ -1,17 +1,15 @@
 --drop view ArcadeBootyViewMultiLine
 --Arcade Booty
 create view ArcadeBootyViewMultiLine as 
-select a.CardIndex, a.Name as CardName, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor, --Cards
+select a.CardIndex, a.Name as CardName, PictureFront, PictureBack, Link, CardType, ProductSet, a.ProductModule, a.PlayMode, Flavor, --Cards
 AffinityType, --Affinity
 f.StatAction as SoloActions, f.StatStrength as SoloStrength, f.StatRange as SoloRange, --Solo Stat lines
 g.StatAction as GangActions, g.StatStrength as GangStrength, g.StatRange as GangRange, --Gang Stat lines
 h.GangMemberIndex, MemberOrder, h.Name as GangMemberName, h.CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor,--GangMembers
 j.KeywordIndex, j.Name as KeywordName, KeywordDescription, --Keywords
-
 l.AbilityIndex, l.Name as AbilityName, AbilityResource, AbilityType, AbilityCost, --Abilities
 v.Attribute as AbilityAttribute, --Attributes
-AbilityAttribute, AbilityRange, AbilityDescription, --Abilities
-
+AbilityRange, AbilityDescription, --Abilities
 m.Gender, m.ModelSize --ExploreCharacter
 from Cards a
 join Characters b on a.CardIndex=b.CardIndex

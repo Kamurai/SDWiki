@@ -18,7 +18,7 @@ create table Keywords (KeywordIndex bigint IDENTITY(0,1) PRIMARY KEY, KeywordVer
 
 create table KeywordAssignments (KeywordAssignmentIndex bigint IDENTITY(0,1) PRIMARY KEY, KeywordIndex bigint not null, ExploreCharacterIndex bigint, GangMemberIndex bigint, EquipmentIndex bigint, BossSpawnIndex bigint);
 
-create table Abilities (AbilityIndex bigint IDENTITY(0,1) PRIMARY KEY, Name varchar(50) not null, AbilityResource varchar(10) not null, AbilityType varchar(10) not null, AbilityCost int not null, AttributeIndex bigint not null, AbilityRange int not null, AbilityDescription varchar(1000) not null, AbilityVersion varchar(20) not null);
+create table Abilities (AbilityIndex bigint IDENTITY(0,1) PRIMARY KEY, AbilityVersion varchar(20) not null, PlayMode varchar(20) not null, Name varchar(50) not null, AbilityResource varchar(10) not null, AbilityType varchar(10) not null, AbilityCost int not null, AttributeIndex bigint not null, AbilityRange int not null, AbilityDescription varchar(1000) not null);
 
 create table AbilityAssignments (AbilityAssignmentIndex bigint IDENTITY(0,1) PRIMARY KEY, AbilityIndex bigint not null, ExploreCharacterIndex bigint, GangMemberIndex bigint, EquipmentIndex bigint, ExploreTrapIndex bigint, BossSpawnIndex bigint);
 

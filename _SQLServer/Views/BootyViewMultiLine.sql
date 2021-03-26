@@ -1,13 +1,13 @@
 --drop view BootyViewMultiLine
 --Booty
 create view BootyViewMultiLine as 
-select a.CardIndex, a.Name as CardName, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor, --Cards
+select a.CardIndex, a.Name as CardName, PictureFront, PictureBack, Link, CardType, ProductSet, a.ProductModule, a.PlayMode, Flavor, --Cards
 Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions, --ExploreCharacter
 AffinityType, --Affinity
 g.KeywordIndex, g.Name as KeywordName, KeywordDescription, --Keywords
 i.AbilityIndex, i.Name as AbilityName, AbilityResource, AbilityType, AbilityCost, --Abilities
 v.Attribute as AbilityAttribute, --Attributes
-AbilityAttribute, AbilityRange, AbilityDescription, --Abilities
+AbilityRange, AbilityDescription, --Abilities
 k.AttributeIndex as OffenseIndex, k.Attribute as Offense, j.OffenseRange, --Offenses
 m.AttributeIndex as DefenseIndex, m.Attribute as Defense --Defenses
 from Cards a

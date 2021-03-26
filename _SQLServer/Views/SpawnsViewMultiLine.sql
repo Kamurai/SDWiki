@@ -1,7 +1,7 @@
 --drop view SpawnsViewMultiLine
 --Spawns
 create view SpawnsViewMultiLine as 
-select a.CardIndex, a.Name as CardName, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor, --Cards
+select a.CardIndex, a.Name as CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, a.PlayMode, Flavor, --Cards
 Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions, --ExploreCharacter
 AffinityType, --Affinity
 g.KeywordIndex, g.Name as KeywordName, KeywordDescription, --Keywords

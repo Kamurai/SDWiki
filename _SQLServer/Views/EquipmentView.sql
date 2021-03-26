@@ -1,7 +1,7 @@
 --drop view EquipmentView
 --Equipment
 create view EquipmentView as 
-select a.CardIndex, a.Name as CardName, a.PictureFront, a.PictureBack, a.Link, a.CardType, a.ProductSet, a.Module, a.Mode, a.Flavor, --Cards
+select a.CardIndex, a.Name as CardName, a.PictureFront, a.PictureBack, a.Link, a.CardType, a.ProductSet, a.ProductModule, a.PlayMode, a.Flavor, --Cards
 Position, Effect, --Equipment
 e.Name as CharacterName, e.Link as CharacterLink--Character
 from Cards a
