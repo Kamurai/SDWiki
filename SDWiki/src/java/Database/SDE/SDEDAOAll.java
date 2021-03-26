@@ -62,7 +62,7 @@ public class SDEDAOAll extends DAO{
                     temp.setPictureBack(rs.getString("PictureBack"));
                     temp.setLink(rs.getString("Link"));
                     temp.setCardType(rs.getString("CardType"));
-                    temp.setProductSet(rs.getString("ProductSet"));
+                    temp.setVersion(rs.getString("ProductSet"));
                     temp.setModule(rs.getString("Module"));
                     temp.setMode(rs.getString("Mode"));
                     temp.setFlavor(rs.getString("Flavor"));
@@ -181,7 +181,7 @@ public class SDEDAOAll extends DAO{
                     temp.setPictureBack(rs.getString("PictureBack"));
                     temp.setLink(rs.getString("Link"));
                     temp.setCardType(rs.getString("CardType"));
-                    temp.setProductSet(rs.getString("ProductSet"));
+                    temp.setVersion(rs.getString("ProductSet"));
                     temp.setModule(rs.getString("Module"));
                     temp.setMode(rs.getString("Mode"));
                     temp.setFlavor(rs.getString("Flavor"));
@@ -348,7 +348,7 @@ public class SDEDAOAll extends DAO{
                     temp.setPictureBack(rs.getString("PictureBack"));
                     temp.setLink(rs.getString("Link"));
                     temp.setCardType(rs.getString("CardType"));
-                    temp.setProductSet(rs.getString("ProductSet"));
+                    temp.setVersion(rs.getString("ProductSet"));
                     temp.setModule(rs.getString("Module"));
                     temp.setMode(rs.getString("Mode"));
                     temp.setFlavor(rs.getString("Flavor"));
@@ -516,7 +516,7 @@ public class SDEDAOAll extends DAO{
                     temp.setPictureBack(rs.getString("PictureBack"));
                     temp.setLink(rs.getString("Link"));
                     temp.setCardType(rs.getString("CardType"));
-                    temp.setProductSet(rs.getString("ProductSet"));
+                    temp.setVersion(rs.getString("ProductSet"));
                     temp.setModule(rs.getString("Module"));
                     temp.setMode(rs.getString("Mode"));
                     temp.setFlavor(rs.getString("Flavor"));
@@ -658,7 +658,7 @@ public class SDEDAOAll extends DAO{
                     temp.setPictureBack(rs.getString("PictureBack"));
                     temp.setLink(rs.getString("Link"));
                     temp.setCardType(rs.getString("CardType"));
-                    temp.setProductSet(rs.getString("ProductSet"));
+                    temp.setVersion(rs.getString("ProductSet"));
                     temp.setModule(rs.getString("Module"));
                     temp.setMode(rs.getString("Mode"));
                     temp.setFlavor(rs.getString("Flavor"));
@@ -744,7 +744,7 @@ public class SDEDAOAll extends DAO{
                     temp.setPictureBack(rs.getString("PictureBack"));
                     temp.setLink(rs.getString("Link"));
                     temp.setCardType(rs.getString("CardType"));
-                    temp.setProductSet(rs.getString("ProductSet"));
+                    temp.setVersion(rs.getString("ProductSet"));
                     temp.setModule(rs.getString("Module"));
                     temp.setMode(rs.getString("Mode"));
                     temp.setFlavor(rs.getString("Flavor"));
@@ -814,7 +814,7 @@ public class SDEDAOAll extends DAO{
                     temp.setPictureBack(rs.getString("PictureBack"));
                     temp.setLink(rs.getString("Link"));
                     temp.setCardType(rs.getString("CardType"));
-                    temp.setProductSet(rs.getString("ProductSet"));
+                    temp.setVersion(rs.getString("ProductSet"));
                     temp.setModule(rs.getString("Module"));
                     temp.setMode(rs.getString("Mode"));
                     temp.setFlavor(rs.getString("Flavor"));
@@ -871,7 +871,7 @@ public class SDEDAOAll extends DAO{
                     temp.setPictureBack(rs.getString("PictureBack"));
                     temp.setLink(rs.getString("Link"));
                     temp.setCardType(rs.getString("CardType"));
-                    temp.setProductSet(rs.getString("ProductSet"));
+                    temp.setVersion(rs.getString("ProductSet"));
                     temp.setModule(rs.getString("Module"));
                     temp.setMode(rs.getString("Mode"));
                     temp.setFlavor(rs.getString("Flavor"));
@@ -934,7 +934,7 @@ public class SDEDAOAll extends DAO{
                     temp.setPictureBack(rs.getString("PictureBack"));
                     temp.setLink(rs.getString("Link"));
                     temp.setCardType(rs.getString("CardType"));
-                    temp.setProductSet(rs.getString("ProductSet"));
+                    temp.setVersion(rs.getString("ProductSet"));
                     temp.setModule(rs.getString("Module"));
                     temp.setMode(rs.getString("Mode"));
                     temp.setFlavor(rs.getString("Flavor"));
@@ -991,7 +991,7 @@ public class SDEDAOAll extends DAO{
                     temp.setPictureBack(rs.getString("PictureBack"));
                     temp.setLink(rs.getString("Link"));
                     temp.setCardType(rs.getString("CardType"));
-                    temp.setProductSet(rs.getString("ProductSet"));
+                    temp.setVersion(rs.getString("ProductSet"));
                     temp.setModule(rs.getString("Module"));
                     temp.setMode(rs.getString("Mode"));
                     temp.setFlavor(rs.getString("Flavor"));
@@ -1050,7 +1050,7 @@ public class SDEDAOAll extends DAO{
                     temp.setPictureBack(rs.getString("PictureBack"));
                     temp.setLink(rs.getString("Link"));
                     temp.setCardType(rs.getString("CardType"));
-                    temp.setProductSet(rs.getString("ProductSet"));
+                    temp.setVersion(rs.getString("ProductSet"));
                     temp.setModule(rs.getString("Module"));
                     temp.setMode(rs.getString("Mode"));
                     temp.setFlavor(rs.getString("Flavor"));
@@ -1118,7 +1118,7 @@ public class SDEDAOAll extends DAO{
                     temp.setPictureBack(rs.getString("PictureBack"));
                     temp.setLink(rs.getString("Link"));
                     temp.setCardType(rs.getString("CardType"));
-                    temp.setProductSet(rs.getString("ProductSet"));
+                    temp.setVersion(rs.getString("ProductSet"));
                     temp.setModule(rs.getString("Module"));
                     temp.setMode(rs.getString("Mode"));
                     temp.setFlavor(rs.getString("Flavor"));

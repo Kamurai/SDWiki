@@ -6,7 +6,7 @@ public class Card extends Component{
     private String  pictureFront;
     private String  pictureBack;
     private String  cardType;
-    private String  productSet;
+    private String  version;
     private String  module;
     private String  mode;
     private String  flavor;
@@ -18,7 +18,7 @@ public class Card extends Component{
         this.pictureFront   = "";
         this.pictureBack    = "";
         this.cardType       = "";
-        this.productSet     = "";
+        this.version     = "";
         this.module         = "";
         this.mode           = "";
         this.flavor         = "";        
@@ -30,7 +30,7 @@ public class Card extends Component{
         String  pictureFront,
         String  pictureBack,
         String  cardType,
-        String  productSet,
+        String  version,
         String  module,
         String  mode,
         String  flavor,
@@ -42,7 +42,7 @@ public class Card extends Component{
         this.pictureFront   = pictureFront;
         this.pictureBack    = pictureBack;
         this.cardType       = cardType;
-        this.productSet     = productSet;
+        this.version        = version;
         this.module         = module;
         this.mode           = mode;
         this.flavor         = flavor;
@@ -88,12 +88,12 @@ public class Card extends Component{
         this.cardType = cardType;
     }
 
-    public String getProductSet() {
-        return productSet;
+    public String getVersion() {
+        return version;
     }
 
-    public void setProductSet(String productSet) {
-        this.productSet = productSet;
+    public void setVersion(String version) {
+        this.version = version;
     }
 
     public String getModule() {

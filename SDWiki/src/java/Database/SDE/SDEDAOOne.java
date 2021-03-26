@@ -54,9 +54,9 @@ public class SDEDAOOne extends DAO{
                     result.setPictureBack(rs.getString("PictureBack"));
                     result.setLink(rs.getString("Link"));
                     result.setCardType(rs.getString("CardType"));
-                    result.setProductSet(rs.getString("ProductSet"));
-                    result.setModule(rs.getString("Module"));
-                    result.setMode(rs.getString("Mode"));
+                    result.setVersion(rs.getString("ProductSet"));
+                    result.setModule(rs.getString("ProductModule"));
+                    result.setMode(rs.getString("PlayMode"));
                     result.setFlavor(rs.getString("Flavor"));
                     result.setGender(rs.getString("Gender"));
                     result.setModelSize(rs.getString("ModelSize"));
@@ -166,7 +166,7 @@ public class SDEDAOOne extends DAO{
                     result.setPictureBack(rs.getString("PictureBack"));
                     result.setLink(rs.getString("Link"));
                     result.setCardType(rs.getString("CardType"));
-                    result.setProductSet(rs.getString("ProductSet"));
+                    result.setVersion(rs.getString("ProductSet"));
                     result.setModule(rs.getString("Module"));
                     result.setMode(rs.getString("Mode"));
                     result.setFlavor(rs.getString("Flavor"));
@@ -324,7 +324,7 @@ public class SDEDAOOne extends DAO{
                     result.setPictureBack(rs.getString("PictureBack"));
                     result.setLink(rs.getString("Link"));
                     result.setCardType(rs.getString("CardType"));
-                    result.setProductSet(rs.getString("ProductSet"));
+                    result.setVersion(rs.getString("ProductSet"));
                     result.setModule(rs.getString("Module"));
                     result.setMode(rs.getString("Mode"));
                     result.setFlavor(rs.getString("Flavor"));
@@ -483,7 +483,7 @@ public class SDEDAOOne extends DAO{
                     result.setPictureBack(rs.getString("PictureBack"));
                     result.setLink(rs.getString("Link"));
                     result.setCardType(rs.getString("CardType"));
-                    result.setProductSet(rs.getString("ProductSet"));
+                    result.setVersion(rs.getString("ProductSet"));
                     result.setModule(rs.getString("Module"));
                     result.setMode(rs.getString("Mode"));
                     result.setFlavor(rs.getString("Flavor"));
@@ -617,7 +617,7 @@ public class SDEDAOOne extends DAO{
                     result.setPictureBack(rs.getString("PictureBack"));
                     result.setLink(rs.getString("Link"));
                     result.setCardType(rs.getString("CardType"));
-                    result.setProductSet(rs.getString("ProductSet"));
+                    result.setVersion(rs.getString("ProductSet"));
                     result.setModule(rs.getString("Module"));
                     result.setMode(rs.getString("Mode"));
                     result.setFlavor(rs.getString("Flavor"));
@@ -689,7 +689,7 @@ public class SDEDAOOne extends DAO{
                 result.setPictureBack(rs.getString("PictureBack"));
                 result.setLink(rs.getString("Link"));
                 result.setCardType(rs.getString("CardType"));
-                result.setProductSet(rs.getString("ProductSet"));
+                result.setVersion(rs.getString("ProductSet"));
                 result.setModule(rs.getString("Module"));
                 result.setMode(rs.getString("Mode"));
                 result.setFlavor(rs.getString("Flavor"));
@@ -741,7 +741,7 @@ public class SDEDAOOne extends DAO{
                 result.setPictureBack(rs.getString("PictureBack"));
                 result.setLink(rs.getString("Link"));
                 result.setCardType(rs.getString("CardType"));
-                result.setProductSet(rs.getString("ProductSet"));
+                result.setVersion(rs.getString("ProductSet"));
                 result.setModule(rs.getString("Module"));
                 result.setMode(rs.getString("Mode"));
                 result.setFlavor(rs.getString("Flavor"));
@@ -780,7 +780,7 @@ public class SDEDAOOne extends DAO{
                 result.setPictureBack(rs.getString("PictureBack"));
                 result.setLink(rs.getString("Link"));
                 result.setCardType(rs.getString("CardType"));
-                result.setProductSet(rs.getString("ProductSet"));
+                result.setVersion(rs.getString("ProductSet"));
                 result.setModule(rs.getString("Module"));
                 result.setMode(rs.getString("Mode"));
                 result.setFlavor(rs.getString("Flavor"));
@@ -825,7 +825,7 @@ public class SDEDAOOne extends DAO{
                 result.setPictureBack(rs.getString("PictureBack"));
                 result.setLink(rs.getString("Link"));
                 result.setCardType(rs.getString("CardType"));
-                result.setProductSet(rs.getString("ProductSet"));
+                result.setVersion(rs.getString("ProductSet"));
                 result.setModule(rs.getString("Module"));
                 result.setMode(rs.getString("Mode"));
                 result.setFlavor(rs.getString("Flavor"));
@@ -864,7 +864,7 @@ public class SDEDAOOne extends DAO{
                 result.setPictureBack(rs.getString("PictureBack"));
                 result.setLink(rs.getString("Link"));
                 result.setCardType(rs.getString("CardType"));
-                result.setProductSet(rs.getString("ProductSet"));
+                result.setVersion(rs.getString("ProductSet"));
                 result.setModule(rs.getString("Module"));
                 result.setMode(rs.getString("Mode"));
                 result.setFlavor(rs.getString("Flavor"));
@@ -905,7 +905,7 @@ public class SDEDAOOne extends DAO{
                 result.setPictureBack(rs.getString("PictureBack"));
                 result.setLink(rs.getString("Link"));
                 result.setCardType(rs.getString("CardType"));
-                result.setProductSet(rs.getString("ProductSet"));
+                result.setVersion(rs.getString("ProductSet"));
                 result.setModule(rs.getString("Module"));
                 result.setMode(rs.getString("Mode"));
                 result.setFlavor(rs.getString("Flavor"));
@@ -956,7 +956,7 @@ public class SDEDAOOne extends DAO{
                 result.setPictureBack(rs.getString("PictureBack"));
                 result.setLink(rs.getString("Link"));
                 result.setCardType(rs.getString("CardType"));
-                result.setProductSet(rs.getString("ProductSet"));
+                result.setVersion(rs.getString("ProductSet"));
                 result.setModule(rs.getString("Module"));
                 result.setMode(rs.getString("Mode"));
                 result.setFlavor(rs.getString("Flavor"));
