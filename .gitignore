@@ -10,3 +10,4 @@ SDWiki/nbproject/private/private.properties
 /SDWiki/dist/
 /SDWiki/build/
 SDWiki/nbproject/private/private.properties
+*.properties
