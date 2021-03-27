@@ -748,8 +748,8 @@ insert into Characters (CardIndex) VALUES (25);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (25, 5); --Backlash
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (25, 134); --Sturdy
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (25, 13); --Boo!
-insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (25, 'Either', 'Small', 'Kodama', 3, 1, '2R', '2R', '1B', '1B', 2, 0);
-insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (25, 1, 1);
+insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (25, 'Either', 'Small', 'Trap', 3, 1, '2R', '2R', '1B', '1B', 2, 0);
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (25, 0, 1);
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (25, 2);
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (25, 'Trap', '16 Bit', 1);
 --Mini Boss
