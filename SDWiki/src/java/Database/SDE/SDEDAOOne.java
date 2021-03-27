@@ -325,8 +325,8 @@ public class SDEDAOOne extends DAO{
                     result.setLink(rs.getString("Link"));
                     result.setCardType(rs.getString("CardType"));
                     result.setVersion(rs.getString("ProductSet"));
-                    result.setModule(rs.getString("Module"));
-                    result.setMode(rs.getString("Mode"));
+                    result.setModule(rs.getString("ProductModule"));
+                    result.setMode(rs.getString("PlayMode"));
                     result.setFlavor(rs.getString("Flavor"));
                     result.setModelSize(rs.getString("ModelSize"));
                     result.setCreatureType(rs.getString("CreatureType"));
