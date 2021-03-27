@@ -15,5 +15,13 @@ public class NavPair {
     ){
         this.name = name;
         this.link = link;
-    }    
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public String getLink() {
+        return link;
+    } 
 }
