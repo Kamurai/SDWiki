@@ -167,8 +167,8 @@ public class SDEDAOOne extends DAO{
                     result.setLink(rs.getString("Link"));
                     result.setCardType(rs.getString("CardType"));
                     result.setVersion(rs.getString("ProductSet"));
-                    result.setModule(rs.getString("Module"));
-                    result.setMode(rs.getString("Mode"));
+                    result.setModule(rs.getString("ProductModule"));
+                    result.setMode(rs.getString("PlayMode"));
                     result.setFlavor(rs.getString("Flavor"));
                     result.setModelSize(rs.getString("ModelSize"));
                     result.setCreatureType(rs.getString("CreatureType"));
@@ -484,8 +484,8 @@ public class SDEDAOOne extends DAO{
                     result.setLink(rs.getString("Link"));
                     result.setCardType(rs.getString("CardType"));
                     result.setVersion(rs.getString("ProductSet"));
-                    result.setModule(rs.getString("Module"));
-                    result.setMode(rs.getString("Mode"));
+                    result.setModule(rs.getString("ProductModule"));
+                    result.setMode(rs.getString("PlayMode"));
                     result.setFlavor(rs.getString("Flavor"));
                     
                     result.setAffinity(rs.getString("AffinityType"));
@@ -618,8 +618,8 @@ public class SDEDAOOne extends DAO{
                     result.setLink(rs.getString("Link"));
                     result.setCardType(rs.getString("CardType"));
                     result.setVersion(rs.getString("ProductSet"));
-                    result.setModule(rs.getString("Module"));
-                    result.setMode(rs.getString("Mode"));
+                    result.setModule(rs.getString("ProductModule"));
+                    result.setMode(rs.getString("PlayMode"));
                     result.setFlavor(rs.getString("Flavor"));
                     
                     result.setPosition(rs.getString("Position"));
@@ -690,8 +690,8 @@ public class SDEDAOOne extends DAO{
                 result.setLink(rs.getString("Link"));
                 result.setCardType(rs.getString("CardType"));
                 result.setVersion(rs.getString("ProductSet"));
-                result.setModule(rs.getString("Module"));
-                result.setMode(rs.getString("Mode"));
+                result.setModule(rs.getString("ProductModule"));
+                result.setMode(rs.getString("PlayMode"));
                 result.setFlavor(rs.getString("Flavor"));
 
                 result.setDungeonEffect(rs.getString("Spawn"));
@@ -742,8 +742,8 @@ public class SDEDAOOne extends DAO{
                 result.setLink(rs.getString("Link"));
                 result.setCardType(rs.getString("CardType"));
                 result.setVersion(rs.getString("ProductSet"));
-                result.setModule(rs.getString("Module"));
-                result.setMode(rs.getString("Mode"));
+                result.setModule(rs.getString("ProductModule"));
+                result.setMode(rs.getString("PlayMode"));
                 result.setFlavor(rs.getString("Flavor"));
 
                 result.setPowerUp(rs.getString("PowerUp"));
@@ -781,8 +781,8 @@ public class SDEDAOOne extends DAO{
                 result.setLink(rs.getString("Link"));
                 result.setCardType(rs.getString("CardType"));
                 result.setVersion(rs.getString("ProductSet"));
-                result.setModule(rs.getString("Module"));
-                result.setMode(rs.getString("Mode"));
+                result.setModule(rs.getString("ProductModule"));
+                result.setMode(rs.getString("PlayMode"));
                 result.setFlavor(rs.getString("Flavor"));
 
                 result.setDescription(rs.getString("UtilityDescription"));
@@ -826,8 +826,8 @@ public class SDEDAOOne extends DAO{
                 result.setLink(rs.getString("Link"));
                 result.setCardType(rs.getString("CardType"));
                 result.setVersion(rs.getString("ProductSet"));
-                result.setModule(rs.getString("Module"));
-                result.setMode(rs.getString("Mode"));
+                result.setModule(rs.getString("ProductModule"));
+                result.setMode(rs.getString("PlayMode"));
                 result.setFlavor(rs.getString("Flavor"));
 
                 result.setTrap(rs.getString("Trap"));
@@ -865,8 +865,8 @@ public class SDEDAOOne extends DAO{
                 result.setLink(rs.getString("Link"));
                 result.setCardType(rs.getString("CardType"));
                 result.setVersion(rs.getString("ProductSet"));
-                result.setModule(rs.getString("Module"));
-                result.setMode(rs.getString("Mode"));
+                result.setModule(rs.getString("ProductModule"));
+                result.setMode(rs.getString("PlayMode"));
                 result.setFlavor(rs.getString("Flavor"));
 
                 result.setTrap(rs.getString("Trap"));
@@ -906,8 +906,8 @@ public class SDEDAOOne extends DAO{
                 result.setLink(rs.getString("Link"));
                 result.setCardType(rs.getString("CardType"));
                 result.setVersion(rs.getString("ProductSet"));
-                result.setModule(rs.getString("Module"));
-                result.setMode(rs.getString("Mode"));
+                result.setModule(rs.getString("ProductModule"));
+                result.setMode(rs.getString("PlayMode"));
                 result.setFlavor(rs.getString("Flavor"));
 
                 result.setTargets(rs.getString("Targets"));
@@ -957,8 +957,8 @@ public class SDEDAOOne extends DAO{
                 result.setLink(rs.getString("Link"));
                 result.setCardType(rs.getString("CardType"));
                 result.setVersion(rs.getString("ProductSet"));
-                result.setModule(rs.getString("Module"));
-                result.setMode(rs.getString("Mode"));
+                result.setModule(rs.getString("ProductModule"));
+                result.setMode(rs.getString("PlayMode"));
                 result.setFlavor(rs.getString("Flavor"));
 
                 result.setDescription(rs.getString("UtilityDescription"));
