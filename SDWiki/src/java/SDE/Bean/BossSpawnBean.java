@@ -21,11 +21,11 @@ public class BossSpawnBean extends CardBean{
         return bossSpawn;
     }
 
-    public String setHeroPage(String link){
+    public String setDisplayPage(String link){
         String path = uni.getAppPath()+link;
         
-        this.bossSpawn = oneDAO.pullOneBossSpawnCard(path);
+        this.bossSpawn  = oneDAO.pullOneBossSpawnCard(path);
         
-        return uni.getAppPath()+"SDE/Content/BossSpawn.xhtml";
+        return "./Layout.xhtml";
     }
 }

@@ -21,11 +21,11 @@ public class MonsterBean extends CardBean{
         return monster;
     }
 
-    public String setMonsterPage(String link){
+    public String setDisplayPage(String link){
         String path = uni.getAppPath()+link;
         
-        this.monster = oneDAO.pullOneMonster(path);
+        this.monster        = oneDAO.pullOneMonster(path);
         
-        return uni.getAppPath()+"SDE/Content/Monster.xhtml";
+        return "./Layout.xhtml";
     }
 }

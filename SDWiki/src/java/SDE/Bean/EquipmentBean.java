@@ -21,11 +21,11 @@ public class EquipmentBean extends CardBean{
         return equipment;
     }
 
-    public String setEquipment(String link){
+    public String setDisplayPage(String link){
         String path = uni.getAppPath()+link;
         
-        this.equipment = oneDAO.pullOneEquipment(path);
+        this.equipment   = oneDAO.pullOneEquipment(path);
         
-        return uni.getAppPath()+"SDE/Content/Equipment.xhtml";
+        return "./Layout.xhtml";
     }
 }
