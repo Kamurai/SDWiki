@@ -3,7 +3,7 @@
 create PROCEDURE SDWikiPullNavigationRelics
 AS
 BEGIN
-	select CardName, Link
+	select distinct CardName, ProductSet, Link, PictureFront
 	from RelicsView
 	Order By ProductSet desc, CardName asc
 	;
