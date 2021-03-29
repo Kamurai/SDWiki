@@ -125,7 +125,7 @@ public class SDEDAONavigation extends DAO{
     }
     
     //Pull Navigation for Mini Bosses
-    public ArrayList<SDE.NavItem> pullNavigationForMiniBosses(){
+    public ArrayList<SDE.NavItem> pullNavigationForMinibosses(){
         CallableStatement stmt = null;
         ResultSet rs;
         ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
@@ -345,7 +345,7 @@ public class SDEDAONavigation extends DAO{
     }
     
     //Pull Navigation for Arcade Mini Bosses
-    public ArrayList<SDE.NavItem> pullNavigationForArcadeMiniBosses(){
+    public ArrayList<SDE.NavItem> pullNavigationForArcadeMinibosses(){
         CallableStatement stmt = null;
         ResultSet rs;
         ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
@@ -455,7 +455,7 @@ public class SDEDAONavigation extends DAO{
     }
     
     //Pull Navigation for Relic
-    public ArrayList<SDE.NavItem> pullNavigationForRelic(){
+    public ArrayList<SDE.NavItem> pullNavigationForRelics(){
         CallableStatement stmt = null;
         ResultSet rs;
         ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
