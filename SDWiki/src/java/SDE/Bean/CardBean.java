@@ -2,32 +2,33 @@ package SDE.Bean;
 
 import javax.faces.bean.ManagedBean;
 import javax.faces.bean.RequestScoped;
-import Main.Universal;
-import SDE.Board;
-import SDE.Card;
-import SDE.Definition;
-import SDE.Dice;
 import SDE.ExploreCharacter;
+import SDE.NavItem;
 import java.util.ArrayList;
 import java.util.List;
 
 @ManagedBean(name="SDECardBean")
 @RequestScoped
 public class CardBean extends Bean{
-    private List<ExploreCharacter> cardList;
+    private List<NavItem> cardList;
     
     public CardBean(){
         super();
-        this.cardList = new ArrayList<ExploreCharacter>();
+        this.cardList = new ArrayList<NavItem>();
     }
 
-    public List<ExploreCharacter> getCardList() {
+    public List<NavItem> getCardList() {
         return cardList;
     }
     
-    public String setHeroPage(String link){
-        this.cardList = allDAO.pullAllHeroes();
+    public String setDisplayPage(String type){
         
-        return uni.getAppPath()+"SDE/Content/CardList.xhtml";
+        if(type.compareTo("Heroes") == 0){
+            this.cardList  = navDAO.pullNavigationForHeroes();
+        }
+        
+        
+        
+        return "./Layout.xhtml";
     }
 }
