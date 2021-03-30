@@ -11,14 +11,33 @@ import javax.faces.bean.RequestScoped;
 @ManagedBean(name="MainBean")
 @RequestScoped
 public class Bean{
-    protected Universal uni;
+    protected   Universal   uni;
+    private     String      page;
     
     public Bean(){
         uni = new Universal();
     }
 
-    public String setLayout(){
-        return uni.getAppPath()+"Layout.xhtml";
+    public String setLayout(String page){
+        this.page = page;
+        
+        return "./Layout.xhtml";
+    }
+    
+    public String getContent(){
+        String result = "";
+        
+        if(page.compareTo("Index") == 0){
+            result = "./Content/Index.xhtml";
+        }else if(page.compareTo("AboutUs") == 0){
+            result = "./Content/AboutUs.xhtml";
+        }
+        
+        return result;
+    }
+
+    public String getPage() {
+        return page;
     }
     
     public String getWebMaster(){

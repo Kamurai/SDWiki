@@ -507,7 +507,7 @@ public class SDEDAONavigation extends DAO{
         try{
             openConnection();
             
-            stmt = getConnect().prepareCall("{call SDWikiPullNavigationUtilities}");
+            stmt = getConnect().prepareCall("{call SDWikiPullNavigationUtilityCards}");
             rs = stmt.executeQuery();
             
             result = pullNavigationForCards(rs);
