@@ -3,7 +3,7 @@
 create PROCEDURE SDWikiPullNavigationExplorePlots
 AS
 BEGIN
-	select CardName, Link
+	select distinct CardName, ProductSet, Link, PictureFront
 	from ExplorePlotsView
 	Order By ProductSet desc, CardName asc
 	;
