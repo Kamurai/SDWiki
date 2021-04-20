@@ -1,331 +1,332 @@
---1.0
+--1.0 
 --Keywords
-/*9 Lives 					--Index 0*/ 	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('9 Lives', 'When a model with 9 Lives takes their last wound, immediately roll +1r . Remove one wound for every star rolled. If no stars are rolled the model is destroyed.', '1.0');
-/*Alchemy 					--Index 1*/ 	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Alchemy', 'Turn any hearts rolled into potions.', '1.0');
-/*Area Effects 				--Index 2*/ 	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Area Effects', 'Some abilities can hit multiple models all at the same time.\r\nThese are called, area effects. Area effects have a special set of\r\nrules to govern how they function:\r\n* First determine which models are in the squares that will be\r\naffected by the area effect. This will vary depending on the\r\ntype of area effect being used.\r\n• Burst X requires that you select a single model, in line of sight\r\nto the model using the effect, as the action’s target. The area\r\neffect is centered on that target.\r\n• Cross X, Wave X, and Aura X are centered on the user. In this\r\ncase the user is considered the target but it is not affected by\r\nits own area effect unless the effect states otherwise (such as\r\nin the case of Augment).\r\n•Lance X, Spray X, and Sweep X require that you choose one\r\nsquare that is adjacent (but not diagonal) to the model using\r\nthe effect. Then determine the remaining squares affected\r\nfrom the initial square chosen, using the area effect’s rules\r\nand diagrams as a guide. Unlike other effects the initial square\r\nchosen may be empty.\r\n• If the area effect is part of an attack, make a single attack roll\r\nand apply it to every model affected. Each model affected\r\nmakes their own defense roll, comparing their result to the\r\nattack roll separately.\r\n• All models affects by an area effect are considered to be hit\r\nsimultaneously.\r\n• Friendly models, including the user, are not affected by area\r\neffects unless the area effect specifies otherwise (such as in\r\nthe case of Augment).\r\n• Area effects do not affect squares that the user cannot draw\r\nline of sight to unless the area effect specifies otherwise.\r\n• Some area effects cover a different area if the model using\r\nthem is on a large base. When this is the case, use the example\r\ndiagram as a guide.\r\n• If a model is affected by two area effects simultaneously the\r\neffects are cumaltive as long as the abilities are different --\r\neven if their effects are the same.\r\n• Some area effects replace the distance portion of a model’s\r\nspecial ability ie Magic X, Missile X, or Range X. In this case\r\nignore the ‘X’ portion of the ability that allows them to target\r\ndistant models and replace it with the area effect. The model\r\nmay still use the attribute specified by that ability when\r\nmaking an attack roll.', '1.0');
-/*Augment 					--Index 3*/ 	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Augment', 'Abilities with Augment may only target or affect friendly models that are hit, including the user.', '1.0');
-/*Aura 						--Index 4*/ 	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Aura', 'An Aura effect follows the same rules as Wave X with one important difference -- Auras remain in play, centered on and moving with the user, until the beginning of their next activation.', '1.0');
-/*Backlash 					--Index 5*/ 	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Backlash', 'If a model with Backlash exceeds an attack roll with their defense roll the attacker takes one wound. Wounds caused by Backlash do not advance the Power Gauge.', '1.0');
-/*Bane 						--Index 6*/ 	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Bane', 'A model suffering Bane discards the highest result rolled anytime it makes an offense roll.', '1.0');
-/*Berserk 					--Index 7*/ 	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Berserk', 'During its activation a model with Berserk may make a single a single Melee Attack costing no action points.', '1.0');
-/*Bind 						--Index 8*/ 	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Bind', 'A model or effect with bind places a bind counter on any model it damages. A model suffering bind may not use any of its Special Actions.', '1.0');
-/*Black Ice 				--Index 9*/ 	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Black Ice', 'Enemy models that end an activation within 2 squares of this model are moved two squares directly away from the model with Black Ice.', '1.0');
-/*Blessing 					--Index 10*/	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Blessing', 'A tile effect with Blessing bestows a positive effect, specified on the tile effect''s card, to models within the tile. Blessings only effect Hero, elite and minion models.', '1.0');
-/*Blood Drinker 			--Index 11*/ 	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Blood Drinker', 'When a model with Blood Dinker rolls a heart they gain one heart in exactly the same manor as a Hero.', '1.0');
-/*Bone Pile 				--Index 12*/ 	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Bone Pile', 'When this model is destroyed leave a Bone Pile counter in the same square it occupied. This counter is ignored for purposes of movement and line of sight. A model may spend two points of speed to stomp on a Bone Pile counter in their square to remove it from play.', '1.0');
-/*Boo!						--Index 13*/	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Boo!', 'You may not spawn Boo Booty.  Boo Booty may only enter play when the Boo Booty relic card is drawn from the Treasure Deck.', '1.0');
-/*Boo Booty 				--Index 14*/ 	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Boo Booty', 'Boo Booty cannot by spawned, instead they enter play when their treasure card is drawn.', '1.0');
-/*Born of Fire				--Index 15*/	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Born of Fire', 'Heroes that move into a square adjacent to any spawning point on the dungeon map immediately suffer Fire.', '1.0');
-/*Burning Blades			--Index 16*/	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Burning Blades', 'All minions and denizens gain the Fire ability as though it were printed on their stat card.', '1.0');
-/*Burrow 					--Index 17*/ 	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Burrow', 'Instead of moving normally this model may choose to Burrow. Remove all status effect counters. Place the model with Burrow in any empty square within six squares of its current square.', '1.0');
-/*Burst 					--Index 18*/ 	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Burst', 'A Burst effect occurs as part of a ranged attack or ability. When a target is hit by a ranged effect with Burst X,the effect hits the target and every model within X squares of the target.', '1.0'); 
-/*Burst 					--Index 19*/ 	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Burst', 'Determine a Burst effect’s target as normal using the model’s\r\ninherent distance ability ( Magic X, Range X, Missile X) or the\r\none listed in the area effect action. After the target has been\r\nselected it and every model within X squares of the target and\r\nin the target’s line of sight are hit by the effect.\r\nIf a large model is targeted by a Burst effect choose one square\r\noccupied by its base as the square targeted and determine who\r\nis hit from it as normal.', '1.0'); 
-/*Choke 					--Index 20*/ 	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Choke', 'A model or effect with choke places a choke counter on any model it damages. A model suffering Choke may not use or benefit from the effect of Potions.', '1.0'); 
-/*Choke 					--Index 21*/ 	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Choke', 'A model or effect with Choke places a Choke counter\r\non any model it damages. A model suffering Choke\r\nmay not drink potions.', '1.01'); 
-/*Cola 						--Index 22*/ 	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Cola', 'Once per activation roll 1b. For every star rolled place a potion counter on Candy’s card.', '1.0');
-/*Cold 						--Index 23*/ 	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Cold', 'A model or effect with Cold places a Cold counter on any model it damages. A model suffering Cold discards the highest result rolled anytime it makes a roll using its DEX attribute.', '1.0');
-/*Cross 					--Index 24*/ 	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Cross', 'A Cross effect is centered on the user’s square and hits the user\r\nand every model within X squares of the user, but does not affect\r\nany diagonal squares. Crosses replace the distance portion (X) of a\r\ndistance effect, but do not replace any other aspect of the ability.', '1.0');
-/*Cursed					--Index 25*/ 	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Cursed', '[Equipment with Cursed] must be immediately equipped when drawn and cannote be discarded.', '1.0');
-/*Dangerous					--Index 26*/ 	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Dangerous', 'Abilities with Dangerous damage both enemy and friendly models that are hit.', '1.0'); 
-/*Difficult Terrain			--Index 27*/ 	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Difficult Terrain', 'Each square of difficult terrain a model enters costs two points of speed. If a model does not have enough speed remaining to move into a square with difficult terrain it may not do so.', '1.0'); 
-/*Distance Effects 			--Index 28*/ 	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Distance Effects', 'The abilities Magic X, Missile X, and Range X are called distance\r\neffects. A model with a distance effect may target another\r\nmodel up to X squares away with any of its actions. If a distance\r\neffect is part of an attack it will specify an attribute you must\r\nuse when making your attack roll.\r\nA model with a distance effect listed in its special abilities may\r\nuse the listed distance effect in combination with any actions it\r\nmakes, unless specified otherwise. For example: If a model has\r\na distance effect listed on their card (e.g. Missile) and an action\r\nlisted on their card uses a different distance effect (e.g. Magic),\r\nthen “Magic” (i.e. WILL) would be used for that action instead\r\nof “Missile” (i.e. DEX).', '1.0');
-/*Dodge						--Index 29*/ 	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Dodge', 'A model with Dodge may use their Dex when making defense rolls unless they are suffering from Knockdown, Immobile, Slow.', '1.0');
-/*Each Egg Clutch comes with--Index 30*/	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Each Egg Clutch comes with', '1 Egg Clutch (Spawning Point)<br>2 Hatchlings<br>2 Whelps<br>2 Wyrmlings', '1.0');
-/*Fiery Escape				--Index 31*/	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Fiery Escape', 'All models in a square adjacent to Starfire suffer Fire.', '1.0');
-/*Fire						--Index 32*/ 	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Fire', 'A model or effect with Fire places a Fire counter on any model it damages. A model suffering Fire takes one wound at the beginning of its activation every round until the Fire counter is removed. Wounds caused by Fire do not advance the Power Gauge.', '1.0');
-/*Fire Aura					--Index 33*/ 	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Fire Aura', 'Monsters with Citrine affinity that are within 2 squares of Lava Whirl gain Fire.', '1.0');
-/*Fixed Form				--Index 34*/ 	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Fixed Form', 'Once shapeshifted into X form it may not shapeshift back to its original form.', '1.0'); 
-/*Fixed Form				--Index 35*/ 	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Fixed Form', 'A shapeshift with Fixed Form may not shapeshift into its original form during its upkeep.', '1.0'); 
-/*Fly						--Index 36*/ 	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Fly', 'A model with Fly may ignore and move through squares containing enemy models, difficult terrain, and tile effects.', '1.0');
-/*Forced Shift				--Index 37*/ 	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Forced Shift', 'Instead of being destroyed as normal it instead automatically Shapeshifts into its X Form.', '1.0');
-/*Fragile					--Index 38*/ 	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Fragile', 'A model or effect with Fragile places a Fragile counter on any model it damages. A model suffering fragile discards the highest result rolled anytime it makes a roll using its ARM attribute.', '1.0');
-/*Halloween					--Index 39*/	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Halloween', 'When Von Drakk enters play, replace all Bone Pile counters in the dungeon with Rattle-Bones as though they have been targeted by the Raise ability.  You may only Raise as many Rattle-Bones as you have models available, regardless of the number of Bone Pile counters in the dungeon.', '1.0');
-/*Heal						--Index 40*/ 	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Heal', 'A model affected by Heal may remove a number of wound counters or a number of status effect counters equal to the value of X.', '1.0');
-/*Healer					--Index 41*/ 	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Healer', 'When a model with Healer rolls a Heart on an attack roll they gain two Hearts instead of one if they successfully inflict a wound.', '1.0');
-/*Hidden Lever				--Index 42*/	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Hidden Lever', 'When a spawning point is destroyed, the Heroes must rotate the tile 90 degrees in a direction of their choosing.', '1.0');
-/*Holy						--Index 43*/ 	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Holy', 'A model with Holy may reroll a single dice when making an attack roll versus undead or demons.', '1.0');
-/*Hookshot					--Index 44*/ 	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Hookshot', 'A Hookshot is a special type of ranged ability that allows the user to target a model it does not have line of sight to.', '1.0'); 
-/*Hookshot					--Index 45*/ 	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Hookshot', 'Hookshot may be used in combination with any distance\r\neffect. Hookshot allows the user to target a model it does not have line\r\nof sight to.\r\n', '1.0'); 
-/*Host						--Index 46*/ 	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Host', 'When a model with HOST is spawned you may immediately place an additional model with Host in an empty, adjacent square. You may activate two models with Host for every skull value. Each model must fully complete its activation before the second is activated.', '1.0');
-/*Hubris					--Index 47*/ 	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Hubris', 'Basic Melee Attack action against a Hero that is equipped with one or more pieces of equipment, and grants +1b STR per piece of equipment on the Hero.', '1.0');
-/*Immobile					--Index 48*/ 	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Immobile', 'A model or effect with Immobile places a Immobile counter on any model it damages. A model suffering Immobile may not move during its turn.', '1.0'); 
-/*Immobile					--Index 49*/ 	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Immobile', 'A model or ability with Immobile places an Immobile\r\ncounter on any model it damages. A model suffering\r\nImmobile may not move during its turn. If a model\r\nsuffering from Immobile takes damage from any\r\nsource (even one that normally causes Immobile), it\r\ngains Immune: Immobile until the beginning of it’s\r\nnext activation.', '1.0'); 
-/*Immune					--Index 50*/ 	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Immune', 'A model with immune ignores and imediately removes all counter or affects of the abilty listed as X.', '1.0');
-/*Immune: Bind				--Index 51*/ 	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Immune: Bind', 'A model with Immune: Bind ignores and immediately removes all counters and/or the affects of Bind.', '1.0');
-/*Immune: Choke				--Index 52*/ 	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Immune: Choke', 'A model with Immune: Choke ignores and immediately removes all counters and/or the affects of Choke.', '1.0');
-/*Immune: Cold				--Index 53*/ 	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Immune: Cold', 'A model with Immune: Cold ignores and immediately removes all counters and/or the affects of Cold.', '1.0');
-/*Immune: Fire				--Index 54*/ 	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Immune: Fire', 'A model with Immune: Fire ignores and immediately removes all counters and/or the affects of Fire.', '1.0');
-/*Immune: Fragile			--Index 55*/ 	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Immune: Fragile', 'A model with Immune: Fragile ignores and immediately removes all counters and/or the affects of Fragile.', '1.0');
-/*Immune: Immobile			--Index 56*/ 	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Immune: Immobile', 'A model with Immune: Immobile ignores and immediately removes all counters and/or the affects of Immobile.', '1.0');
-/*Immune: Knockdown 		--Index 57*/ 	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Immune: Knockdown', 'A model with Immune: Knockdown ignores and immediately removes all counters and/or the affects of Knockdown.', '1.0');
-/*Immune: Pacify			--Index 58*/ 	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Immune: Pacify', 'A model with Immune: Pacify ignores and immediately removes all counters and/or the affects of Pacify.', '1.0');
-/*Immune: Poison			--Index 59*/ 	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Immune: Poison', 'A model with Immune: Poison ignores and immediately removes all counters and/or the affects of Poison.', '1.0');
-/*Immune: Slow				--Index 60*/ 	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Immune: Slow', 'A model with Immune: Slow ignores and immediately removes all counters and/or the affects of Slow.', '1.0');
-/*Immune: Status Effects	--Index 61*/ 	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Immune: Status Effects', 'A model that is Immune: Status Effects can never suffer the negative effects of status effects.  If a model that is suffering a status effect gains Immune: Status Effects remove all status effect tokens immediately.', '1.0'); 
-/*Immune: Stun				--Index 62*/ 	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Immune: Stun', 'A model with Immune: Stun ignores and immediately removes all counters and/or the affects of Stun.', '1.0');
-/*Immune: Weak				--Index 63*/ 	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Immune: Weak', 'A model with Immune: Weak ignores and immediately removes all counters and/or the affects of Weak.', '1.0');
-/*Inferno					--Index 64*/	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Inferno', 'When Starfire enters play place a Fire counter on every Hero.', '1.0');
-/*Insignificant				--Index 65*/ 	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Insignificant', 'When a model inflicts a wound in melee against a model with insignificant, that model may immediately make a free melee attack. Inflicting a wound on an insignificant model does not advance the Power Gauge.', '1.0');
-/*Jagged Earth				--Index 66*/	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Jagged Earth', 'All squares adjacent to spawning points are considered Difficult Terrain for Heroes.', '1.0');
-/*Knockdown					--Index 67*/ 	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Knockdown', 'A model suffering Knockdown may not move or perform any other action until it spends all of its action points OR all of its movement points to remove the Knockdown counter.', '1.0'); 
-/*Knockdown					--Index 68*/ 	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Knockdown', 'A model suffering Knockdown may not move or perform any other action until it spends 1 action point or all of its movement points to remove the Knockdown token.', '1.0'); 
-/*Kobold Warrens comes with --Index 69*/	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Kobold Warrens comes with', '2 Kobold Warrens (Spawning Points)<br>1 Dragon Priest<br>2 Ironscales<br>2 Flingers<br>3 Knuckleheads<br>3 Gougers', '1.0');
-/*Lance						--Index 70*/ 	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Lance', 'A Lance effect draws a straight line directly away from the user''s square along a distance of X. Every model along this line is hit. Lance effects may not be used along diagonals.', '1.0'); 
-/*Lance						--Index 71*/ 	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Lance', 'A Lance effect draws a straight line directly away from the user’s\r\nsquare along a distance of X. Every model along this line is hit. Lance\r\neffects may not be used along diagonals and replace the distance\r\nportion (X) of a distance effect, but do not replace any other aspect\r\nof the ability.', '1.0'); 
-/*Lava						--Index 72*/ 	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Lava', 'A model entering a Lava square suffers Fire. Difficult Terrain.', '1.0');
-/*Lava Whirl comes with		--Index 73*/	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Lava Whirl comes with', '1 Lava Whirl (Spawning Point)<br>1 Blaze Beetle<br>2 Ember Hounds<br>3 Burning Gels<br>6 Fire Gels', '1.0');
-/*Line of Sight				--Index 74*/ 	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Line of Sight', 'Models require line of sight to target a model with their actions\r\nand abilities. Models are considered to have line of sight to any\r\nsquares they are adjacent to. A model has Line of Sight when it can\r\ndraw a straight line from any point of its square to any point on\r\nthe intended targets square. This line cannot contact walls. (This\r\nincludes where walls meet squares on a corner. See line of sight\r\ndiagram below). Models and counters do not block line of sight.', '1.0');
-/*Little Splurt				--Index 75*/	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Little Splurt', 'Fire Gels cannot be spawned.  Instead they enter play as a result of the Burning Gel''s Splurt ability.<br>Fire Gels are Insignificant.', '1.0');
-/*Luck						--Index 76*/ 	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Luck', 'A model with Luck may gain a Potion instead of a Heart when rolled on the dice and vice versa. In addition when opening a treasure chest they may draw two cards from the treasure deck and equip one, discarding the other.', '1.0');
-/*Lycanthropy				--Index 77*/ 	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Lycanthropy', 'Wounded models that are not removed from play gain +1 red att and suffer Vulnerable Magic.', '1.0');
-/*Magic						--Index 78*/ 	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Magic', 'This ability allows a the model to attack an enemy up to X squares away. In addition a model making a Magic attack must use their WILL attribute when attacking. A model may use any of its ability or special actions using Magic X, unless specified otherwise.', '1.0'); 
-/*Magic						--Index 79*/ 	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Magic', 'A model with Magic X may target a model up to X squares\r\naway. If a model is making an attack using Magic X they must use their\r\nWILL attribute when making their attack roll, unless specified otherwise.', '1.0'); 
-/*Massive Damaage			--Index 80*/ 	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Massive Damage', 'When an attack with Massive Damage inflicts a wound it instead inflicts two wounds.', '1.0');
-/*Missile					--Index 81*/ 	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Missile', 'This ability allows the model to attack an enemy up to X squares away, as long as the model is not adjacent to an enemy model. In addition, a model making a Missile attack must use their DEX attribute when attacking. A model may use any of its abilities or special actions using missile X, unless specified otherwise.', '1.0'); 
-/*Missile					--Index 82*/ 	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Missile', 'A model with Missile X may target a model up to X squares\r\naway. If a model is making an attack using Missile X they must use their\r\nDEX attribute when making their attack roll, unless specified otherwise.', '1.0'); 
-/*Mob						--Index 83*/ 	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Mob', 'Add +1b ATT to this model''s melee attack for every other model with Mob in melee with the target, up to +3b ATT.', '1.0');
-/*Molten Core				--Index 84*/	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Molten Core', 'Roxor enters play in Rock Form.  At the beginning of every activation choose one form for Roxor to assume.  Roxor gains the form''s bonuses until the beginning of his next activation.', '1.0');
-/*Nice List					--Index 85*/ 	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Nice List', 'At the beginning of the game, shuffle all Hero cards except Kringle and draw one card.  The Hero drawn gains +1b on offensive rolls for the entire game.', '1.0');
-/*Offensive Potion			--Index 86*/ 	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Offensive Potion', 'Offensive Potions are indicated by a (Green Potion icon).\n\nAn Offensive Potion provides a model with a single use special action (Blue Action Icon) or special attack (Red Action Icon). These effects follow all normal rules for resolving special actions and attacks, including being able to target enemies and requiring attack and defense rolls (is the potion provides a special attack). They require no action points to use and are instead used by spending a potion token in the same manner as a normal potion, but may only be used during a models activation.', '1.0');
-/*Pacify					--Index 87*/ 	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Pacify', 'A model or effect with Pacify places a Pacify counter on any model it damages. A model suffering Pacify may not use any special Attacks.', '1.0');
-/*Pile-On					--Index 88*/ 	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Pile-On', '+1r ATT if target is suffering Knockdown.', '1.0');
-/*Pirate Hoard				--Index 89*/ 	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Pirate Hoard', 'This model may equip Loot and Treasure cards. When spawned, draw one Treasure card and equip it on this model. When defeated, Heroes gain all Loot and Treasure cards this model has equipped.', '1.0');
-/*Poison					--Index 90*/ 	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Poison', 'A model or effect with Poison places a Poison counter on any model it damages. A model suffering Poison loses one action point its activation.', '1.0'); 
-/*Potion					--Index 91*/ 	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Potion', 'When a model with Potion X enters play place a number of bonus potion counters on their card equal to X. The model may spend these counters in the same manner as normal potion counters, but once they have been spent they can not be regained by dice rolls.', '1.0'); 
-/*Pounce					--Index 92*/ 	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Pounce', 'Choose an enemy model anywhere within 5 squares, and line of sight. Place the model with Pounce adjacent to this target, then roll to attack as normal.', '1.0');
-/*Precious Metals			--Index 93*/	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Precious Metals', 'Once per round Heroes may discard two unequipped loot cards and immediately draw another.', '1.0');
-/*Privateer					--Index 94*/ 	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Privateer', 'If a Hero with Privateer destroys one or more enemies during its activation, the party draws one additional loot during power-up.', '1.0');
-/*Pull						--Index 95*/ 	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Pull', 'A model targeted by Pull may be moved a number of squares up to the value of X toward the attacker. A model moved by pull must end its move closer to the attacker than it began.', '1.0'); 
-/*Pull						--Index 96*/ 	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Pull', 'A model targeted by Pull may be moved a number of squares up\r\nto the value of X towards the attacker. A model moved by Pull\r\nmust, after each square moved, be closer to the attacker than it\r\nbegan. Once the two models are adjacent, the target model may\r\nthen be moved the remainder of X squares so to be still adjacent\r\nto the attacker.', '1.0'); 
-/*Pumpkin Patch				--Index 97*/	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Pumpkin Patch comes with', '1 Pumpkin Patch (Spawning Point)<br>1 Crypt Spider<br>2 Curse Coven Witches<br>6 Skullbats', '1.0');
-/*Push						--Index 98*/ 	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Push', 'A model targeted by Push may be moved a number of squares up to the value of X away from the attacker. A model moved by Push must end its move farther away from the attacker than it began.', '1.0'); 
-/*Push						--Index 99*/ 	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Push', 'A model targeted by Push may be moved a number of squares up\r\nto the value of X away from the attacker. A model moved by Push\r\nmust, after each square moved, be further away from the attacker\r\nthan it began.', '1.0'); 
-/*Push						--Index 100*/ 	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Push', 'A model targeted by Push may be moved a number of squares up to the value of X away from the model using Push. Each square moved must increase the distance between the two models. If the target model cannot be moved further away, such as from contact with a wall, the model immediately stops.', '1.0'); 
-/*Raise						--Index 101*/ 	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Raise', 'Replace target Bone Pile counter with a model with the Risen ability. The counter is then removed from play. If a model is in the same square as target counter Raise has no effect.', '1.0');
-/*Range						--Index 102*/ 	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Range', 'This ability allows the model to attack an enemy up to X squares away.', '1.0'); 
-/*Range						--Index 103*/ 	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Range', 'A model with Range X may target a model up to X squares\r\naway. If a model is making an attack using Range X they must use their\r\nATT attribute when making their attack roll, unless specified otherwise.', '1.0'); 
-/*Reach						--Index 104*/	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Reach', 'This ability allows the model to target an enemy with a melee attack up to X squares away. A model may use any of its abilities or special actions using Reach X, unless specified otherwise.', '1.0'); 
-/*Regenerate				--Index 105*/ 	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Regenerate', 'Roll 1b dice for every wound token on the models card and remove one token for each star rolled.', '1.0');
-/*Remedy					--Index 106*/ 	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Remedy', 'A model affected by Remedy may immediately remove all status Effect counters.', '1.0'); 
-/*Remedy					--Index 107*/ 	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Remedy', 'A model affected by Remedy removes all status effect tokens.', '1.0'); 
-/*Resurrect					--Index 108*/ 	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Resurrect', 'Choose a model that has been destroyed. Roll 1b dice for every heart on its stat card. Remove one wound counter for every star rolled. After the roll, If the target model has more hearts than wound counters, return it to play adjacent to the start marker. The model retains any equipment and potions that it had when it was destroyed.', '1.0');
-/*Risen						--Index 109*/ 	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Risen', 'Models with the Risen ability may not be spawned. They may only enter play as a result of the Raise ability.', '1.0');
-/*Rock Pile comes with		--Index 110*/	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Rock Pile comes with', '2 Rock Piles (Spawning Points)<br>1 Crusher<br>2 Bombardiers<br>2 Rollers<br>6 Slowpokes', '1.0');
-/*Sentinel					--Index 111*/ 	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Sentinel', 'Models that are adjacent to a Sentinel structure add +1st to all defense rolls.', '1.0');
-/*Shadows & Fog				--Index 112*/	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Shadows & Fog', 'All ranged attacks and effects targeting spawn points reduce their range by 2.', '1.0');
-/*Shallow Grave comes with	--Index 113*/	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Shallow Grave comes with', '2 Shallow Graves (Spawning Points)<br>1 Dust Coven Necromancer<br>2 Dread Knights<br>2 Dust Mages<br>6 Boneheads<br>6 Rattle-Bones', '1.0');
-/*Shapeshift				--Index 114*/ 	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Shapeshift', 'Shapeshift basic action to transform into the X whenever it chooses.', '1.0');
-/*Sidestep					--Index 115*/ 	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Sidestep', 'Move 1 square anytime the model successfully makes a defense roll.', '1.0');
-/*Slow						--Index 116*/ 	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Slow', 'A model or effect with Slow places a Slow counter on any model it damages. A model suffering Slow halves its speed (Rounding Up) during its activation.', '1.0'); 
-/*Slow						--Index 117*/ 	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Slow', 'A model suffering Slow halves its Movement, rounding up.', '1.0'); 
-/*Small						--Index 118*/ 	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Small', 'Small models may only be targeted by melee attacks.', '1.0');
-/*Smoke						--Index 119*/ 	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Smoke', 'Squares affected by Smoke block line of sight. Models within a square affected by Smoke are considered to have Stealth.', '1.0'); 
-/*Smoke						--Index 120*/ 	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Smoke', 'Models affected by Smoke gain Stealth.', '1.0');
-/*Smooches					--Index 122*/ 	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Smooches', 'This model may Shapeshift back to is original form if a friendly model moves into an adjacent square and spends 1 Action Point to give it a kiss.', '1.0');
-/*Splurt					--Index 123*/	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Splurt', 'When Burning Gel is destroyed, before removing the model, place two Fire Gels into play in any adjacent empty squares.', '1.0');
-/*Spray						--Index 124*/ 	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Spray', 'A spray effect hits multiple models in a \"V\" pattern up to X squares away.', '1.0'); 
-/*Spray						--Index 125*/ 	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Spray', 'A Spray effect hits multiple models in a \"V\" pattern up to X\r\nsquares away. Spray effects may not be used along diagonals\r\nand distance portion (X) of a distance effect, but do not replace\r\nany other aspect of the ability.', '1.0'); 
-/*Squirrely					--Index 126*/ 	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Squirrely', 'When a model with Squirrely makes a defense roll, it may choose one of its dice and reroll it.', '1.0');
-/*Static Charge				--Index 127*/ 	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Static Charge', 'Static Charge grants +1b dice to both STR and ARM for every wound token on card.', '1.0');
-/*Status Effects			--Index 128*/ 	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Status Effects', 'Some attacks or abilities in the game will cause the models hit to\r\nsuffer status effects if they successfully deal damage to a model.\r\nWhen a model suffers a status effect, place the appropriate\r\ncounter on their card. A model with a status effect counter suffers\r\nits effects at all times until the counter is removed.\r\nSometimes a special action will cause a status effect. Since\r\nspecial actions do not typically deal damage, instead any model\r\nhit by the special action suffers the status effect listed. Note that,\r\nunlike a special attack, a special action must specifically say that\r\nit causes a status effect.\r\nWhen a model gains a heart, they may choose to remove a status\r\neffect counter from their card instead of removing a wound counter.\r\nTypically, a model may only have one status effect counter of\r\neach type on their card at once, but may have multiple status\r\neffect counters.', '1.0');
-/*Steal						--Index 129*/ 	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Steal', 'When a model with Steal inflicts a wound, it may discard one random card from the party’s backpack.', '1.0');
-/*Stealth					--Index 130*/ 	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Stealth', 'When a model with Stealth is targeted by a ranged affect they may immediately make a DEX roll. Subtract the number of stars rolled from the attacker''s range. If the roll causes the attacker to be out of range the attack is considered to have failed.', '1.0');
-/*Stocked					--Index 131*/ 	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Stocked', 'A model with Stocked begins the game with its maximum number of potions.', '1.0');
-/*Structure					--Index 132*/ 	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Structure', 'Models cannot draw line of sight across or move through structures.', '1.0');
-/*Stun						--Index 133*/ 	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Stun', 'A model or effect with Stun places a Stun counter on any model it damages. A model suffering Stun discards the highest result rolled anytime it makes a roll using its WILL attribute.', '1.0');
-/*Sturdy					--Index 134*/ 	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Sturdy', 'A model with Sturdy may only be damaged by melee attacks. Wounds caused by Backlash do not advance the Power Gauge.', '1.0'); 
-/*Sturdy					--Index 135*/ 	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Sturdy', 'A model with Sturdy may only be damaged by melee attacks.', '1.0'); 
-/*Surefoot					--Index 136*/ 	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Surefoot', 'Each square of difficult terrain a made with Surefoot enters costs one speed instead of two.', '1.0');
-/*Sweep						--Index 137*/ 	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Sweep', 'A Sweep effect hits every model within X squares of a single side of the users square, along a straight line.', '1.0'); 
-/*Sweep						--Index 138*/ 	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Sweep', 'A Sweep effect hits every model within X squares of a single\r\nside of the user’s square, along a straight line. Sweep effects\r\nmay not be used along diagonals and replace the distance\r\nportion (X) of a distance effect, but do not replace any other\r\naspect of the ability.', '1.0'); 
-/*Tail Sweep				--Index 139*/ 	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Tail Sweep', 'During his activation King Starfire may make a single attack, costing no action points with the following profile: Sweep 2, Knockdown, Tail Sweep does not cause Fire.', '1.0');
-/*Teleport					--Index 140*/ 	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Teleport', 'A model that Teleports may move to any empty square within ten squares and line of sight of their current square.', '1.0');
-/*The First Stone			--Index 141*/ 	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('The First Stone', 'A model with The First Stone gains +1b to all offensive rolls for each wound it is suffering, to a maximum of +3b.', '1.0');
-/*The Red Stuff				--Index 142*/	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('The Red Stuff', 'All Heroes gain the following potion type:<br>Dragon''s Blood: Take one wound. +1R ATT, Fire', '1.0');
-/*Tough						--Index 143*/ 	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Tough', 'At the beginning of their activation a model with tough may remove a single wound counter before status Effects are resolved.', '1.0');
-/*Transfixing Gaze			--Index 144*/	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Transfixing Gaze', 'All Heroes within 3 squares of Von Drakk suffer Stun.', '1.0');
-/*Tremors					--Index 145*/	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Tremors', 'When Roxor enters play place a Slow counter on every Hero.', '1.0');
-/*Trophies					--Index 146*/ 	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Trophies', 'A model with Trophies gains +1st ARM for each Ghostflame in play. Once per turn, if there are four or more Ghostflames adjacent to a model with Trophies, the model may immediately equip one Relic Item.', '1.0');
-/*Turtle					--Index 147*/ 	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Turtle', 'When activated replace this model with a Shell, The Shell is considered the same model as the one it replaced for all purposes. The model gains +1 ARM and Immune: Status Effects. A Shell may not move, attack, or use special actions.\r\n\r\nWhen a model with Turtle is require to make a defense roll it may immediately activate Turtle for free before making the roll.\r\n\r\nIf Turtle is active at the beginning of this model''s activation replace the Shell with its original model. The model may then act normally during its turn which may include reactivating Turtle.', '1.0');
-/*Virulent					--Index 148*/ 	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Virulent', 'Adds +1b dice to any offense roll they make if their target is suffering Poison.', '1.0'); 
-/*Virulent					--Index 149*/ 	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Virulent', 'Add +1b to this model''s offense rolls if its target is suffering from Poison.', '1.0'); 
-/*Vulnerable				--Index 150*/ 	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Vulnerable', 'If a model with vulnerable X is targeted by the ability listed as X, it immediately takes one wound in addition to any other effects of the ability.', '1.0'); 
-/*Vulnerable				--Index 151*/ 	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Vulnerable', 'Status Effect. If a model with Vulnerable X is targeted\r\nby the ability listed as X, it must discard the highest result rolled of any\r\ndefense roll it makes against that ability.', '1.0'); 
-/*Vulnerable: Bind			--Index 152*/ 	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Vulnerable: Bind', 'A model with Vulnerable: Bind targeted by Bind must discard the highest result rolled of any defense roll it makes against an ability with Bind.', '1.0');
-/*Vulnerable: Choke			--Index 153*/ 	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Vulnerable: Choke', 'A model with Vulnerable: Choke targeted by Choke must discard the highest result rolled of any defense roll it makes against an ability with Choke.', '1.0');
-/*Vulnerable: Cold			--Index 154*/ 	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Vulnerable: Cold', 'A model with Vulnerable: Cold targeted by Cold must discard the highest result rolled of any defense roll it makes against an ability with Cold.', '1.0');
-/*Vulnerable: Fire			--Index 155*/ 	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Vulnerable: Fire', 'A model with Vulnerable: Fire targeted by Fire must discard the highest result rolled of any defense roll it makes against an ability with Fire.', '1.0');
-/*Vulnerable: Fragile		--Index 156*/ 	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Vulnerable: Fragile', 'A model with Vulnerable: Fragile targeted by Fragile must discard the highest result rolled of any defense roll it makes against an ability with Fragile.', '1.0');
-/*Vulnerable: Immobile		--Index 157*/ 	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Vulnerable: Immobile', 'A model with Vulnerable: Immobile targeted by Immobile must discard the highest result rolled of any defense roll it makes against an ability with Immobile.', '1.0');
-/*Vulnerable: Knockdown 	--Index 158*/ 	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Vulnerable: Knockdown', 'A model with Vulnerable: Knockdown targeted by Knockdown must discard the highest result rolled of any defense roll it makes against an ability with Knockdown.', '1.0');
-/*Vulnerable: Pacify		--Index 159*/ 	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Vulnerable: Pacify', 'A model with Vulnerable: Pacify targeted by Pacify must discard the highest result rolled of any defense roll it makes against an ability with Pacify.', '1.0');
-/*Vulnerable: Poison		--Index 160*/ 	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Vulnerable: Poison', 'A model with Vulnerable: Poison targeted by Poison must discard the highest result rolled of any defense roll it makes against an ability with Poison.', '1.0');
-/*Vulnerable: Slow			--Index 161*/ 	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Vulnerable: Slow', 'A model with Vulnerable: Slow targeted by Slow must discard the highest result rolled of any defense roll it makes against an ability with Slow.', '1.0');
-/*Vulnerable: Stun			--Index 162*/ 	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Vulnerable: Stun', 'A model with Vulnerable: Stun targeted by Stun must discard the highest result rolled of any defense roll it makes against an ability with Stun.', '1.0');
-/*Vulnerable: Weak			--Index 163*/ 	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Vulnerable: Weak', 'A model with Vulnerable: Weak targeted by Weak must discard the highest result rolled of any defense roll it makes against an ability with Weak.', '1.0');
-/*Wave						--Index 164*/ 	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Wave', 'A Wave effect is centered on the user''s square and hits the user and every model within X squares of the user. Waves replace the ranged effect of an ability but do not replace any other aspect of the ability.', '1.0'); 
-/*Wave						--Index 165*/ 	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Wave', 'A Wave effect is centered\r\non the user’s square and\r\nhits the user and every\r\nmodel within X squares of\r\nthe user. Waves replace the\r\ndistance portion (X) of a\r\ndistance effect, but do not\r\nreplace any other aspect of\r\nthe ability.', '1.0');
-/*Wave						--Index 166*/ 	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Wave', 'A Wave effect is centered on the user’s base and every square within X squares of the user.', '1.0');
-/*Weak						--Index 167*/ 	insert into Keywords (Name, KeywordDescription, KeywordVersion) VALUES ('Weak', 'A model or effect with Weak places a Weak counter on any model it damages. A model suffering Weak discards the highest result rolled anytime it makes a roll using its ATT attribute.', '1.0');
+--Keywords
+/*9 Lives 								--Index 0*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', '9 Lives', 'When a model with 9 Lives takes their last wound, immediately roll +1r . Remove one wound for every star rolled. If no stars are rolled the model is destroyed.');
+/*Alchemy 							--Index 1*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Alchemy', 'Turn any hearts rolled into potions.');
+/*Area Effects 						--Index 2*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Area Effects', 'Some abilities can hit multiple models all at the same time.\r\nThese are called, area effects. Area effects have a special set of\r\nrules to govern how they function:\r\n* First determine which models are in the squares that will be\r\naffected by the area effect. This will vary depending on the\r\ntype of area effect being used.\r\n• Burst X requires that you select a single model, in line of sight\r\nto the model using the effect, as the action’s target. The area\r\neffect is centered on that target.\r\n• Cross X, Wave X, and Aura X are centered on the user. In this\r\ncase the user is considered the target but it is not affected by\r\nits own area effect unless the effect states otherwise (such as\r\nin the case of Augment).\r\n•Lance X, Spray X, and Sweep X require that you choose one\r\nsquare that is adjacent (but not diagonal) to the model using\r\nthe effect. Then determine the remaining squares affected\r\nfrom the initial square chosen, using the area effect’s rules\r\nand diagrams as a guide. Unlike other effects the initial square\r\nchosen may be empty.\r\n• If the area effect is part of an attack, make a single attack roll\r\nand apply it to every model affected. Each model affected\r\nmakes their own defense roll, comparing their result to the\r\nattack roll separately.\r\n• All models affects by an area effect are considered to be hit\r\nsimultaneously.\r\n• Friendly models, including the user, are not affected by area\r\neffects unless the area effect specifies otherwise (such as in\r\nthe case of Augment).\r\n• Area effects do not affect squares that the user cannot draw\r\nline of sight to unless the area effect specifies otherwise.\r\n• Some area effects cover a different area if the model using\r\nthem is on a large base. When this is the case, use the example\r\ndiagram as a guide.\r\n• If a model is affected by two area effects simultaneously the\r\neffects are cumaltive as long as the abilities are different --\r\neven if their effects are the same.\r\n• Some area effects replace the distance portion of a model’s\r\nspecial ability ie Magic X, Missile X, or Range X. In this case\r\nignore the ‘X’ portion of the ability that allows them to target\r\ndistant models and replace it with the area effect. The model\r\nmay still use the attribute specified by that ability when\r\nmaking an attack roll.');
+/*Augment 							--Index 3*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Augment', 'Abilities with Augment may only target or affect friendly models that are hit, including the user.');
+/*Aura 									--Index 4*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Aura', 'An Aura effect follows the same rules as Wave X with one important difference -- Auras remain in play, centered on and moving with the user, until the beginning of their next activation.');
+/*Backlash 							--Index 5*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Backlash', 'If a model with Backlash exceeds an attack roll with their defense roll the attacker takes one wound. Wounds caused by Backlash do not advance the Power Gauge.');
+/*Bane 									--Index 6*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Bane', 'A model suffering Bane discards the highest result rolled anytime it makes an offense roll.');
+/*Berserk 								--Index 7*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Berserk', 'During its activation a model with Berserk may make a single a single Melee Attack costing no action points.');
+/*Bind 									--Index 8*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Bind', 'A model or effect with bind places a bind counter on any model it damages. A model suffering bind may not use any of its Special Actions.');
+/*Black Ice 							--Index 9*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Black Ice', 'Enemy models that end an activation within 2 squares of this model are moved two squares directly away from the model with Black Ice.');
+/*Blessing 							--Index 10*/		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Blessing', 'A tile effect with Blessing bestows a positive effect, specified on the tile effect''s card, to models within the tile. Blessings only effect Hero, elite and minion models.');
+/*Blood Drinker 					--Index 11*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Blood Drinker', 'When a model with Blood Dinker rolls a heart they gain one heart in exactly the same manor as a Hero.');
+/*Bone Pile 							--Index 12*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Bone Pile', 'When this model is destroyed leave a Bone Pile counter in the same square it occupied. This counter is ignored for purposes of movement and line of sight. A model may spend two points of speed to stomp on a Bone Pile counter in their square to remove it from play.');
+/*Boo!									--Index 13*/		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Boo!', 'You may not spawn Boo Booty.  Boo Booty may only enter play when the Boo Booty relic card is drawn from the Treasure Deck.');
+/*Boo Booty 							--Index 14*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Boo Booty', 'Boo Booty cannot by spawned, instead they enter play when their treasure card is drawn.');
+/*Born of Fire						--Index 15*/		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Born of Fire', 'Heroes that move into a square adjacent to any spawning point on the dungeon map immediately suffer Fire.');
+/*Burning Blades					--Index 16*/		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Burning Blades', 'All minions and denizens gain the Fire ability as though it were printed on their stat card.');
+/*Burrow 								--Index 17*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Burrow', 'Instead of moving normally this model may choose to Burrow. Remove all status effect counters. Place the model with Burrow in any empty square within six squares of its current square.');
+/*Burst 								--Index 18*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Burst', 'A Burst effect occurs as part of a ranged attack or ability. When a target is hit by a ranged effect with Burst X,the effect hits the target and every model within X squares of the target.'); 
+/*Burst 								--Index 19*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Burst', 'Determine a Burst effect’s target as normal using the model’s\r\ninherent distance ability ( Magic X, Range X, Missile X) or the\r\none listed in the area effect action. After the target has been\r\nselected it and every model within X squares of the target and\r\nin the target’s line of sight are hit by the effect.\r\nIf a large model is targeted by a Burst effect choose one square\r\noccupied by its base as the square targeted and determine who\r\nis hit from it as normal.'); 
+/*Choke 								--Index 20*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Choke', 'A model or effect with choke places a choke counter on any model it damages. A model suffering Choke may not use or benefit from the effect of Potions.'); 
+/*Choke 								--Index 21*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Choke', 'A model or effect with Choke places a Choke counter\r\non any model it damages. A model suffering Choke\r\nmay not drink potions.'); 
+/*Cola 									--Index 22*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Cola', 'Once per activation roll 1b. For every star rolled place a potion counter on Candy’s card.');
+/*Cold 									--Index 23*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Cold', 'A model or effect with Cold places a Cold counter on any model it damages. A model suffering Cold discards the highest result rolled anytime it makes a roll using its DEX attribute.');
+/*Cross 								--Index 24*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Cross', 'A Cross effect is centered on the user’s square and hits the user\r\nand every model within X squares of the user, but does not affect\r\nany diagonal squares. Crosses replace the distance portion (X) of a\r\ndistance effect, but do not replace any other aspect of the ability.');
+/*Cursed								--Index 25*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Cursed', '[Equipment with Cursed] must be immediately equipped when drawn and cannote be discarded.');
+/*Dangerous							--Index 26*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Dangerous', 'Abilities with Dangerous damage both enemy and friendly models that are hit.'); 
+/*Difficult Terrain					--Index 27*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Difficult Terrain', 'Each square of difficult terrain a model enters costs two points of speed. If a model does not have enough speed remaining to move into a square with difficult terrain it may not do so.'); 
+/*Distance Effects 					--Index 28*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Distance Effects', 'The abilities Magic X, Missile X, and Range X are called distance\r\neffects. A model with a distance effect may target another\r\nmodel up to X squares away with any of its actions. If a distance\r\neffect is part of an attack it will specify an attribute you must\r\nuse when making your attack roll.\r\nA model with a distance effect listed in its special abilities may\r\nuse the listed distance effect in combination with any actions it\r\nmakes, unless specified otherwise. For example: If a model has\r\na distance effect listed on their card (e.g. Missile) and an action\r\nlisted on their card uses a different distance effect (e.g. Magic),\r\nthen “Magic” (i.e. WILL) would be used for that action instead\r\nof “Missile” (i.e. DEX).');
+/*Dodge								--Index 29*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Dodge', 'A model with Dodge may use their Dex when making defense rolls unless they are suffering from Knockdown, Immobile, Slow.');
+/*Each Egg Clutch comes with	--Index 30*/		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Each Egg Clutch comes with', '1 Egg Clutch (Spawning Point)<br>2 Hatchlings<br>2 Whelps<br>2 Wyrmlings');
+/*Fiery Escape						--Index 31*/		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Fiery Escape', 'All models in a square adjacent to Starfire suffer Fire.');
+/*Fire									--Index 32*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Fire', 'A model or effect with Fire places a Fire counter on any model it damages. A model suffering Fire takes one wound at the beginning of its activation every round until the Fire counter is removed. Wounds caused by Fire do not advance the Power Gauge.');
+/*Fire Aura							--Index 33*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Fire Aura', 'Monsters with Citrine affinity that are within 2 squares of Lava Whirl gain Fire.');
+/*Fixed Form							--Index 34*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Fixed Form', 'Once shapeshifted into X form it may not shapeshift back to its original form.'); 
+/*Fixed Form							--Index 35*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Fixed Form', 'A shapeshift with Fixed Form may not shapeshift into its original form during its upkeep.'); 
+/*Fly										--Index 36*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Fly', 'A model with Fly may ignore and move through squares containing enemy models, difficult terrain, and tile effects.');
+/*Forced Shift						--Index 37*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Forced Shift', 'Instead of being destroyed as normal it instead automatically Shapeshifts into its X Form.');
+/*Fragile								--Index 38*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Fragile', 'A model or effect with Fragile places a Fragile counter on any model it damages. A model suffering fragile discards the highest result rolled anytime it makes a roll using its ARM attribute.');
+/*Halloween							--Index 39*/		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Halloween', 'When Von Drakk enters play, replace all Bone Pile counters in the dungeon with Rattle-Bones as though they have been targeted by the Raise ability.  You may only Raise as many Rattle-Bones as you have models available, regardless of the number of Bone Pile counters in the dungeon.');
+/*Heal									--Index 40*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Heal', 'A model affected by Heal may remove a number of wound counters or a number of status effect counters equal to the value of X.');
+/*Healer								--Index 41*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Healer', 'When a model with Healer rolls a Heart on an attack roll they gain two Hearts instead of one if they successfully inflict a wound.');
+/*Hidden Lever						--Index 42*/		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Hidden Lever', 'When a spawning point is destroyed, the Heroes must rotate the tile 90 degrees in a direction of their choosing.');
+/*Holy									--Index 43*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Holy', 'A model with Holy may reroll a single dice when making an attack roll versus undead or demons.');
+/*Hookshot							--Index 44*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Hookshot', 'A Hookshot is a special type of ranged ability that allows the user to target a model it does not have line of sight to.'); 
+/*Hookshot							--Index 45*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Hookshot', 'Hookshot may be used in combination with any distance\r\neffect. Hookshot allows the user to target a model it does not have line\r\nof sight to.\r\n'); 
+/*Host									--Index 46*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Host', 'When a model with HOST is spawned you may immediately place an additional model with Host in an empty, adjacent square. You may activate two models with Host for every skull value. Each model must fully complete its activation before the second is activated.');
+/*Hubris								--Index 47*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Hubris', 'Basic Melee Attack action against a Hero that is equipped with one or more pieces of equipment, and grants +1b STR per piece of equipment on the Hero.');
+/*Immobile							--Index 48*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Immobile', 'A model or effect with Immobile places a Immobile counter on any model it damages. A model suffering Immobile may not move during its turn.'); 
+/*Immobile							--Index 49*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Immobile', 'A model or ability with Immobile places an Immobile\r\ncounter on any model it damages. A model suffering\r\nImmobile may not move during its turn. If a model\r\nsuffering from Immobile takes damage from any\r\nsource (even one that normally causes Immobile), it\r\ngains Immune: Immobile until the beginning of it’s\r\nnext activation.'); 
+/*Immune								--Index 50*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Immune', 'A model with immune ignores and imediately removes all counter or affects of the abilty listed as X.');
+/*Immune: Bind					--Index 51*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Immune: Bind', 'A model with Immune: Bind ignores and immediately removes all counters and/or the affects of Bind.');
+/*Immune: Choke					--Index 52*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Immune: Choke', 'A model with Immune: Choke ignores and immediately removes all counters and/or the affects of Choke.');
+/*Immune: Cold					--Index 53*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Immune: Cold', 'A model with Immune: Cold ignores and immediately removes all counters and/or the affects of Cold.');
+/*Immune: Fire						--Index 54*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Immune: Fire', 'A model with Immune: Fire ignores and immediately removes all counters and/or the affects of Fire.');
+/*Immune: Fragile					--Index 55*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Immune: Fragile', 'A model with Immune: Fragile ignores and immediately removes all counters and/or the affects of Fragile.');
+/*Immune: Immobile				--Index 56*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Immune: Immobile', 'A model with Immune: Immobile ignores and immediately removes all counters and/or the affects of Immobile.');
+/*Immune: Knockdown 			--Index 57*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Immune: Knockdown', 'A model with Immune: Knockdown ignores and immediately removes all counters and/or the affects of Knockdown.');
+/*Immune: Pacify					--Index 58*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Immune: Pacify', 'A model with Immune: Pacify ignores and immediately removes all counters and/or the affects of Pacify.');
+/*Immune: Poison					--Index 59*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Immune: Poison', 'A model with Immune: Poison ignores and immediately removes all counters and/or the affects of Poison.');
+/*Immune: Slow					--Index 60*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Immune: Slow', 'A model with Immune: Slow ignores and immediately removes all counters and/or the affects of Slow.');
+/*Immune: Status Effects		--Index 61*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Immune: Status Effects', 'A model that is Immune: Status Effects can never suffer the negative effects of status effects.  If a model that is suffering a status effect gains Immune: Status Effects remove all status effect tokens immediately.'); 
+/*Immune: Stun					--Index 62*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Immune: Stun', 'A model with Immune: Stun ignores and immediately removes all counters and/or the affects of Stun.');
+/*Immune: Weak					--Index 63*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Immune: Weak', 'A model with Immune: Weak ignores and immediately removes all counters and/or the affects of Weak.');
+/*Inferno								--Index 64*/		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Inferno', 'When Starfire enters play place a Fire counter on every Hero.');
+/*Insignificant						--Index 65*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Insignificant', 'When a model inflicts a wound in melee against a model with insignificant, that model may immediately make a free melee attack. Inflicting a wound on an insignificant model does not advance the Power Gauge.');
+/*Jagged Earth						--Index 66*/		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Jagged Earth', 'All squares adjacent to spawning points are considered Difficult Terrain for Heroes.');
+/*Knockdown							--Index 67*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Knockdown', 'A model suffering Knockdown may not move or perform any other action until it spends all of its action points OR all of its movement points to remove the Knockdown counter.'); 
+/*Knockdown							--Index 68*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Knockdown', 'A model suffering Knockdown may not move or perform any other action until it spends 1 action point or all of its movement points to remove the Knockdown token.'); 
+/*Kobold Warrens comes with --Index 69*/		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Kobold Warrens comes with', '2 Kobold Warrens (Spawning Points)<br>1 Dragon Priest<br>2 Ironscales<br>2 Flingers<br>3 Knuckleheads<br>3 Gougers');
+/*Lance									--Index 70*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Lance', 'A Lance effect draws a straight line directly away from the user''s square along a distance of X. Every model along this line is hit. Lance effects may not be used along diagonals.'); 
+/*Lance									--Index 71*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Lance', 'A Lance effect draws a straight line directly away from the user’s\r\nsquare along a distance of X. Every model along this line is hit. Lance\r\neffects may not be used along diagonals and replace the distance\r\nportion (X) of a distance effect, but do not replace any other aspect\r\nof the ability.'); 
+/*Lava									--Index 72*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Lava', 'A model entering a Lava square suffers Fire. Difficult Terrain.');
+/*Lava Whirl comes with		--Index 73*/		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Lava Whirl comes with', '1 Lava Whirl (Spawning Point)<br>1 Blaze Beetle<br>2 Ember Hounds<br>3 Burning Gels<br>6 Fire Gels');
+/*Line of Sight						--Index 74*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Line of Sight', 'Models require line of sight to target a model with their actions\r\nand abilities. Models are considered to have line of sight to any\r\nsquares they are adjacent to. A model has Line of Sight when it can\r\ndraw a straight line from any point of its square to any point on\r\nthe intended targets square. This line cannot contact walls. (This\r\nincludes where walls meet squares on a corner. See line of sight\r\ndiagram below). Models and counters do not block line of sight.');
+/*Little Splurt						--Index 75*/		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Little Splurt', 'Fire Gels cannot be spawned.  Instead they enter play as a result of the Burning Gel''s Splurt ability.<br>Fire Gels are Insignificant.');
+/*Luck									--Index 76*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Luck', 'A model with Luck may gain a Potion instead of a Heart when rolled on the dice and vice versa. In addition when opening a treasure chest they may draw two cards from the treasure deck and equip one, discarding the other.');
+/*Lycanthropy						--Index 77*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Lycanthropy', 'Wounded models that are not removed from play gain +1 red att and suffer Vulnerable Magic.');
+/*Magic									--Index 78*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Magic', 'This ability allows a the model to attack an enemy up to X squares away. In addition a model making a Magic attack must use their WILL attribute when attacking. A model may use any of its ability or special actions using Magic X, unless specified otherwise.'); 
+/*Magic									--Index 79*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Magic', 'A model with Magic X may target a model up to X squares\r\naway. If a model is making an attack using Magic X they must use their\r\nWILL attribute when making their attack roll, unless specified otherwise.'); 
+/*Massive Damaage				--Index 80*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Massive Damage', 'When an attack with Massive Damage inflicts a wound it instead inflicts two wounds.');
+/*Missile								--Index 81*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Missile', 'This ability allows the model to attack an enemy up to X squares away, as long as the model is not adjacent to an enemy model. In addition, a model making a Missile attack must use their DEX attribute when attacking. A model may use any of its abilities or special actions using missile X, unless specified otherwise.'); 
+/*Missile								--Index 82*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Missile', 'A model with Missile X may target a model up to X squares\r\naway. If a model is making an attack using Missile X they must use their\r\nDEX attribute when making their attack roll, unless specified otherwise.'); 
+/*Mob									--Index 83*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Mob', 'Add +1b ATT to this model''s melee attack for every other model with Mob in melee with the target, up to +3b ATT.');
+/*Molten Core						--Index 84*/		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Molten Core', 'Roxor enters play in Rock Form.  At the beginning of every activation choose one form for Roxor to assume.  Roxor gains the form''s bonuses until the beginning of his next activation.');
+/*Nice List								--Index 85*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Nice List', 'At the beginning of the game, shuffle all Hero cards except Kringle and draw one card.  The Hero drawn gains +1b on offensive rolls for the entire game.');
+/*Offensive Potion					--Index 86*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Offensive Potion', 'Offensive Potions are indicated by a (Green Potion icon).\n\nAn Offensive Potion provides a model with a single use special action (Blue Action Icon) or special attack (Red Action Icon). These effects follow all normal rules for resolving special actions and attacks, including being able to target enemies and requiring attack and defense rolls (is the potion provides a special attack). They require no action points to use and are instead used by spending a potion token in the same manner as a normal potion, but may only be used during a models activation.');
+/*Pacify									--Index 87*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Pacify', 'A model or effect with Pacify places a Pacify counter on any model it damages. A model suffering Pacify may not use any special Attacks.');
+/*Pile-On								--Index 88*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Pile-On', '+1r ATT if target is suffering Knockdown.');
+/*Pirate Hoard						--Index 89*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Pirate Hoard', 'This model may equip Loot and Treasure cards. When spawned, draw one Treasure card and equip it on this model. When defeated, Heroes gain all Loot and Treasure cards this model has equipped.');
+/*Poison								--Index 90*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Poison', 'A model or effect with Poison places a Poison counter on any model it damages. A model suffering Poison loses one action point its activation.'); 
+/*Potion								--Index 91*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Potion', 'When a model with Potion X enters play place a number of bonus potion counters on their card equal to X. The model may spend these counters in the same manner as normal potion counters, but once they have been spent they can not be regained by dice rolls.'); 
+/*Pounce								--Index 92*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Pounce', 'Choose an enemy model anywhere within 5 squares, and line of sight. Place the model with Pounce adjacent to this target, then roll to attack as normal.');
+/*Precious Metals					--Index 93*/		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Precious Metals', 'Once per round Heroes may discard two unequipped loot cards and immediately draw another.');
+/*Privateer							--Index 94*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Privateer', 'If a Hero with Privateer destroys one or more enemies during its activation, the party draws one additional loot during power-up.');
+/*Pull									--Index 95*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Pull', 'A model targeted by Pull may be moved a number of squares up to the value of X toward the attacker. A model moved by pull must end its move closer to the attacker than it began.'); 
+/*Pull									--Index 96*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Pull', 'A model targeted by Pull may be moved a number of squares up\r\nto the value of X towards the attacker. A model moved by Pull\r\nmust, after each square moved, be closer to the attacker than it\r\nbegan. Once the two models are adjacent, the target model may\r\nthen be moved the remainder of X squares so to be still adjacent\r\nto the attacker.'); 
+/*Pumpkin Patch					--Index 97*/		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Pumpkin Patch comes with', '1 Pumpkin Patch (Spawning Point)<br>1 Crypt Spider<br>2 Curse Coven Witches<br>6 Skullbats');
+/*Push									--Index 98*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Push', 'A model targeted by Push may be moved a number of squares up to the value of X away from the attacker. A model moved by Push must end its move farther away from the attacker than it began.'); 
+/*Push									--Index 99*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Push', 'A model targeted by Push may be moved a number of squares up\r\nto the value of X away from the attacker. A model moved by Push\r\nmust, after each square moved, be further away from the attacker\r\nthan it began.'); 
+/*Push									--Index 100*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Push', 'A model targeted by Push may be moved a number of squares up to the value of X away from the model using Push. Each square moved must increase the distance between the two models. If the target model cannot be moved further away, such as from contact with a wall, the model immediately stops.'); 
+/*Raise									--Index 101*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Raise', 'Replace target Bone Pile counter with a model with the Risen ability. The counter is then removed from play. If a model is in the same square as target counter Raise has no effect.');
+/*Range								--Index 102*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Range', 'This ability allows the model to attack an enemy up to X squares away.'); 
+/*Range								--Index 103*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Range', 'A model with Range X may target a model up to X squares\r\naway. If a model is making an attack using Range X they must use their\r\nATT attribute when making their attack roll, unless specified otherwise.'); 
+/*Reach								--Index 104*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Reach', 'This ability allows the model to target an enemy with a melee attack up to X squares away. A model may use any of its abilities or special actions using Reach X, unless specified otherwise.'); 
+/*Regenerate						--Index 105*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Regenerate', 'Roll 1b dice for every wound token on the models card and remove one token for each star rolled.');
+/*Remedy								--Index 106*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Remedy', 'A model affected by Remedy may immediately remove all status Effect counters.'); 
+/*Remedy								--Index 107*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Remedy', 'A model affected by Remedy removes all status effect tokens.'); 
+/*Resurrect							--Index 108*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Resurrect', 'Choose a model that has been destroyed. Roll 1b dice for every heart on its stat card. Remove one wound counter for every star rolled. After the roll, If the target model has more hearts than wound counters, return it to play adjacent to the start marker. The model retains any equipment and potions that it had when it was destroyed.');
+/*Risen									--Index 109*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Risen', 'Models with the Risen ability may not be spawned. They may only enter play as a result of the Raise ability.');
+/*Rock Pile comes with			--Index 110*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Rock Pile comes with', '2 Rock Piles (Spawning Points)<br>1 Crusher<br>2 Bombardiers<br>2 Rollers<br>6 Slowpokes');
+/*Sentinel								--Index 111*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Sentinel', 'Models that are adjacent to a Sentinel structure add +1st to all defense rolls.');
+/*Shadows & Fog					--Index 112*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Shadows & Fog', 'All ranged attacks and effects targeting spawn points reduce their range by 2.');
+/*Shallow Grave comes with	--Index 113*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Shallow Grave comes with', '2 Shallow Graves (Spawning Points)<br>1 Dust Coven Necromancer<br>2 Dread Knights<br>2 Dust Mages<br>6 Boneheads<br>6 Rattle-Bones');
+/*Shapeshift							--Index 114*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Shapeshift', 'Shapeshift basic action to transform into the X whenever it chooses.');
+/*Sidestep								--Index 115*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Sidestep', 'Move 1 square anytime the model successfully makes a defense roll.');
+/*Slow									--Index 116*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Slow', 'A model or effect with Slow places a Slow counter on any model it damages. A model suffering Slow halves its speed (Rounding Up) during its activation.'); 
+/*Slow									--Index 117*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Slow', 'A model suffering Slow halves its Movement, rounding up.'); 
+/*Small									--Index 118*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Small', 'Small models may only be targeted by melee attacks.');
+/*Smoke								--Index 119*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Smoke', 'Squares affected by Smoke block line of sight. Models within a square affected by Smoke are considered to have Stealth.'); 
+/*Smoke								--Index 120*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Smoke', 'Models affected by Smoke gain Stealth.');
+/*Smooches							--Index 122*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Smooches', 'This model may Shapeshift back to is original form if a friendly model moves into an adjacent square and spends 1 Action Point to give it a kiss.');
+/*Splurt								--Index 123*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Splurt', 'When Burning Gel is destroyed, before removing the model, place two Fire Gels into play in any adjacent empty squares.');
+/*Spray									--Index 124*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Spray', 'A spray effect hits multiple models in a \"V\" pattern up to X squares away.'); 
+/*Spray									--Index 125*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Spray', 'A Spray effect hits multiple models in a \"V\" pattern up to X\r\nsquares away. Spray effects may not be used along diagonals\r\nand distance portion (X) of a distance effect, but do not replace\r\nany other aspect of the ability.'); 
+/*Squirrely							--Index 126*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Squirrely', 'When a model with Squirrely makes a defense roll, it may choose one of its dice and reroll it.');
+/*Static Charge						--Index 127*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Static Charge', 'Static Charge grants +1b dice to both STR and ARM for every wound token on card.');
+/*Status Effects						--Index 128*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Status Effects', 'Some attacks or abilities in the game will cause the models hit to\r\nsuffer status effects if they successfully deal damage to a model.\r\nWhen a model suffers a status effect, place the appropriate\r\ncounter on their card. A model with a status effect counter suffers\r\nits effects at all times until the counter is removed.\r\nSometimes a special action will cause a status effect. Since\r\nspecial actions do not typically deal damage, instead any model\r\nhit by the special action suffers the status effect listed. Note that,\r\nunlike a special attack, a special action must specifically say that\r\nit causes a status effect.\r\nWhen a model gains a heart, they may choose to remove a status\r\neffect counter from their card instead of removing a wound counter.\r\nTypically, a model may only have one status effect counter of\r\neach type on their card at once, but may have multiple status\r\neffect counters.');
+/*Steal									--Index 129*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Steal', 'When a model with Steal inflicts a wound, it may discard one random card from the party’s backpack.');
+/*Stealth								--Index 130*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Stealth', 'When a model with Stealth is targeted by a ranged affect they may immediately make a DEX roll. Subtract the number of stars rolled from the attacker''s range. If the roll causes the attacker to be out of range the attack is considered to have failed.');
+/*Stocked								--Index 131*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Stocked', 'A model with Stocked begins the game with its maximum number of potions.');
+/*Structure							--Index 132*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Structure', 'Models cannot draw line of sight across or move through structures.');
+/*Stun									--Index 133*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Stun', 'A model or effect with Stun places a Stun counter on any model it damages. A model suffering Stun discards the highest result rolled anytime it makes a roll using its WILL attribute.');
+/*Sturdy								--Index 134*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Sturdy', 'A model with Sturdy may only be damaged by melee attacks. Wounds caused by Backlash do not advance the Power Gauge.'); 
+/*Sturdy								--Index 135*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Sturdy', 'A model with Sturdy may only be damaged by melee attacks.'); 
+/*Surefoot								--Index 136*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Surefoot', 'Each square of difficult terrain a made with Surefoot enters costs one speed instead of two.');
+/*Sweep								--Index 137*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Sweep', 'A Sweep effect hits every model within X squares of a single side of the users square, along a straight line.'); 
+/*Sweep								--Index 138*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Sweep', 'A Sweep effect hits every model within X squares of a single\r\nside of the user’s square, along a straight line. Sweep effects\r\nmay not be used along diagonals and replace the distance\r\nportion (X) of a distance effect, but do not replace any other\r\naspect of the ability.'); 
+/*Tail Sweep							--Index 139*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Tail Sweep', 'During his activation King Starfire may make a single attack, costing no action points with the following profile: Sweep 2, Knockdown, Tail Sweep does not cause Fire.');
+/*Teleport								--Index 140*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Teleport', 'A model that Teleports may move to any empty square within ten squares and line of sight of their current square.');
+/*The First Stone					--Index 141*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'The First Stone', 'A model with The First Stone gains +1b to all offensive rolls for each wound it is suffering, to a maximum of +3b.');
+/*The Red Stuff						--Index 142*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'The Red Stuff', 'All Heroes gain the following potion type:<br>Dragon''s Blood: Take one wound. +1R ATT, Fire');
+/*Tough								--Index 143*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Tough', 'At the beginning of their activation a model with tough may remove a single wound counter before status Effects are resolved.');
+/*Transfixing Gaze					--Index 144*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Transfixing Gaze', 'All Heroes within 3 squares of Von Drakk suffer Stun.');
+/*Tremors								--Index 145*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Tremors', 'When Roxor enters play place a Slow counter on every Hero.');
+/*Trophies								--Index 146*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Trophies', 'A model with Trophies gains +1st ARM for each Ghostflame in play. Once per turn, if there are four or more Ghostflames adjacent to a model with Trophies, the model may immediately equip one Relic Item.');
+/*Turtle								--Index 147*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Turtle', 'When activated replace this model with a Shell, The Shell is considered the same model as the one it replaced for all purposes. The model gains +1 ARM and Immune: Status Effects. A Shell may not move, attack, or use special actions.\r\n\r\nWhen a model with Turtle is require to make a defense roll it may immediately activate Turtle for free before making the roll.\r\n\r\nIf Turtle is active at the beginning of this model''s activation replace the Shell with its original model. The model may then act normally during its turn which may include reactivating Turtle.');
+/*Virulent								--Index 148*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Virulent', 'Adds +1b dice to any offense roll they make if their target is suffering Poison.'); 
+/*Virulent								--Index 149*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Virulent', 'Add +1b to this model''s offense rolls if its target is suffering from Poison.'); 
+/*Vulnerable							--Index 150*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Vulnerable', 'If a model with vulnerable X is targeted by the ability listed as X, it immediately takes one wound in addition to any other effects of the ability.'); 
+/*Vulnerable							--Index 151*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Vulnerable', 'Status Effect. If a model with Vulnerable X is targeted\r\nby the ability listed as X, it must discard the highest result rolled of any\r\ndefense roll it makes against that ability.'); 
+/*Vulnerable: Bind					--Index 152*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Vulnerable: Bind', 'A model with Vulnerable: Bind targeted by Bind must discard the highest result rolled of any defense roll it makes against an ability with Bind.');
+/*Vulnerable: Choke				--Index 153*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Vulnerable: Choke', 'A model with Vulnerable: Choke targeted by Choke must discard the highest result rolled of any defense roll it makes against an ability with Choke.');
+/*Vulnerable: Cold					--Index 154*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Vulnerable: Cold', 'A model with Vulnerable: Cold targeted by Cold must discard the highest result rolled of any defense roll it makes against an ability with Cold.');
+/*Vulnerable: Fire					--Index 155*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Vulnerable: Fire', 'A model with Vulnerable: Fire targeted by Fire must discard the highest result rolled of any defense roll it makes against an ability with Fire.');
+/*Vulnerable: Fragile				--Index 156*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Vulnerable: Fragile', 'A model with Vulnerable: Fragile targeted by Fragile must discard the highest result rolled of any defense roll it makes against an ability with Fragile.');
+/*Vulnerable: Immobile			--Index 157*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Vulnerable: Immobile', 'A model with Vulnerable: Immobile targeted by Immobile must discard the highest result rolled of any defense roll it makes against an ability with Immobile.');
+/*Vulnerable: Knockdown 		--Index 158*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Vulnerable: Knockdown', 'A model with Vulnerable: Knockdown targeted by Knockdown must discard the highest result rolled of any defense roll it makes against an ability with Knockdown.');
+/*Vulnerable: Pacify				--Index 159*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Vulnerable: Pacify', 'A model with Vulnerable: Pacify targeted by Pacify must discard the highest result rolled of any defense roll it makes against an ability with Pacify.');
+/*Vulnerable: Poison				--Index 160*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Vulnerable: Poison', 'A model with Vulnerable: Poison targeted by Poison must discard the highest result rolled of any defense roll it makes against an ability with Poison.');
+/*Vulnerable: Slow				--Index 161*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Vulnerable: Slow', 'A model with Vulnerable: Slow targeted by Slow must discard the highest result rolled of any defense roll it makes against an ability with Slow.');
+/*Vulnerable: Stun				--Index 162*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Vulnerable: Stun', 'A model with Vulnerable: Stun targeted by Stun must discard the highest result rolled of any defense roll it makes against an ability with Stun.');
+/*Vulnerable: Weak				--Index 163*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Vulnerable: Weak', 'A model with Vulnerable: Weak targeted by Weak must discard the highest result rolled of any defense roll it makes against an ability with Weak.');
+/*Wave									--Index 164*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Wave', 'A Wave effect is centered on the user''s square and hits the user and every model within X squares of the user. Waves replace the ranged effect of an ability but do not replace any other aspect of the ability.'); 
+/*Wave									--Index 165*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Wave', 'A Wave effect is centered\r\non the user’s square and\r\nhits the user and every\r\nmodel within X squares of\r\nthe user. Waves replace the\r\ndistance portion (X) of a\r\ndistance effect, but do not\r\nreplace any other aspect of\r\nthe ability.');
+/*Wave									--Index 166*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Wave', 'A Wave effect is centered on the user’s base and every square within X squares of the user.');
+/*Weak									--Index 167*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Weak', 'A model or effect with Weak places a Weak counter on any model it damages. A model suffering Weak discards the highest result rolled anytime it makes a roll using its ATT attribute.');
 --Abilities
-/*Acorn Grenade 		--Index 0*/ 		insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Acorn Grenade', 'Action', 'Offense', 2, 0, 6, 'Range 6, Burst 1, Knockdown, Dangerous', '1.0');
-/*Alluring				--Index 1*/			insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Alluring', 'Action', 'Offense', 2, 3, 4, '+1R WILL, If successful Vandella immediately heals one wound.', '1.0');
-/*Arrow Storm			--Index 2*/ 		insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Arrow Storm', 'Action', 'Offense', 2, 4, -1, 'DEX vs ARM, Spray 4', '1.0');
-/*Ash Cloud				--Index 3*/			insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Ash Cloud', 'Action', 'Support', 1, -1, -1, 'Aura 1, Choke', '1.0');
-/*Astral Hammer 		--Index 4*/ 		insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Astral Hammer', 'Action', 'Offense', 2, 0, 2, 'Cross 2, Knockdown', '1.0');
-/*Backblast				--Index 5*/			insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Backblast', 'Action', 'Offense', 1, 0, -1, 'Wave 1, Push 2, Dangerous', '1.0');
-/*Backstab 				--Index 6*/ 		insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Backstab', 'Action', 'Offense', 3, 0, 1, 'Massive Damage, +1G Attack', '1.0');
-/*Bamf! 				--Index 7*/ 		insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Bamf!', 'Action', 'Support', 1, -1, -1, 'Wave 2, Smoke', '1.0');
-/*Bear Charge 			--Index 8*/ 		insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Bear Charge', 'Action', 'Offense', 2, 0, 1, '+1R Attack, Knockdown', '1.0');
-/*Bear Hug 				--Index 9*/ 		insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Bear Hug', 'Action', 'Offense', 2, 0, 1, 'Immobile, Weak', '1.0');
-/*Black Cat				--Index 10*/ 		insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Black Cat', 'Action', 'Offense', 2, -1, -1, 'Wave 1, Fragile', '1.0');
-/*Bomb's Away 			--Index 11*/ 		insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Bomb''s Away', 'Action', 'Offense', 2, 0, 6, 'Range 6, Burst 1, Knockdown, Dangerous', '1.0');
-/*Boomerang 			--Index 12*/ 		insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Boomerang', 'Action', 'Support', 1, -1, 6, 'Range 6, Hookshot. Place target Treasure Chest in an empty square adjacent to Deeproot Scout', '1.0');
-/*Bow 					--Index 13*/ 		insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Bow', 'Action', 'Offense', 1, 4, 8, 'Missile 8', '1.0');
-/*Briar Armor			--Index 14*/ 		insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Briar Armor', 'Action', 'Support', 1, -1, -1, 'Backlash', '1.0');
-/*Broken Bones 			--Index 15*/ 		insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Broken Bones', 'Action', 'Offense', 1, 3, -1, '+1B WILL, Fragile', '1.0');
-/*Burning Bile			--Index 16*/		insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Burning Bile', 'Action', 'Offense', 2, 0, -1, 'Lance 6', '1.0');
-/*Burning Blade 		--Index 17*/ 		insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Burning Blade', 'Action', 'Offense', 2, 0, -1, 'Sweep 1, +1R Attack, Fire', '1.0'); --Hero Wyrm Claw Exemplar
-/*Burning Blade 		--Index 18*/ 		insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Burning Blade', 'Action', 'Offense', 2, 0, -1, 'Sweep 3, +1R Attack', '1.0'); --Mini-Boss Ser Snapjaw
-/*Burning Bloom 		--Index 19*/ 		insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Burning Bloom', 'Potion', 'Support', 1, -1, -1, 'All non special attacks made by the affected Heor gain "Range 8, Fire".', '1.0');
-/*Burning Chitin		--Index 20*/		insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Burning Chitin', 'Action', 'Support', 1, -1, -1, '+1R ARM, Backlash', '1.0'); 
-/*Cat & Mouse			--Index 21*/ 		insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Cat & Mouse', 'Action', 'Support', 1, 3, 6, 'Range 6, WILL vs WILL, Compel 3', '1.0');
-/*Catnip 				--Index 22*/ 		insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Catnip', 'Potion', 'Support', 0, -1, -1, 'Place 1 Potion counter on any Hero''s card.', '1.0');
-/*Catnip Bomb 			--Index 23*/ 		insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Catnip Bomb', 'Potion', 'Support', 1, 0, 6, 'Bac Range 6, Burst 2, Pacify', '1.0');
-/*Cleave 				--Index 24*/ 		insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Cleave', 'Action', 'Offense', 1, -1, -1, 'Sweep 1, Dangerous', '1.0');
-/*Come Hither			--Index 25*/		insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Come Hither', 'Action', 'Support', 2,-1, -1, 'Wave 3, Compel 3', '1.0');
-/*Confuse				--Index 26*/		insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Confuse', 'Action', 'Support', 2, -1, -1, 'Wave 2, Compel 1, Dangerous', '1.0');
-/*Corrosive Striked		--Index 27*/		insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Corrosive Striked', 'Action', 'Offense', 2, 4, 8, 'Missle 6, Fire.', '1.0');
-/*Coup de Grace			--Index 28*/		insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Coup de Grace', 'Action', 'Offense', 3, 0, 1, 'When Coup de Grace inflicts a wound it instead inflicts one wound for every star rolled by the attacker.  After the attack is resolved remove Dragon Lance from play regardless if damage was inflicted.', '1.0');
-/*Crack the Whip 		--Index 29*/ 		insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Crack the Whip', 'Action', 'Support', 1, -1, -1, 'Compel 2', '1.0');
-/*Crippling Smash		--Index 30*/		insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Crippling Smash', 'Action', 'Offense', 1, 0, 1, '+1G Attack, Massive Damage', '1.0');
-/*Cursed Blade 			--Index 31*/	 	insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Cursed Blade', 'Action', 'Offense', 2, 0, 1, '+1R Attack, Fragile', '1.0'); 
-/*Dark Aura				--Index 32*/		insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Dark Aura', 'Action', 'Support', 1, -1, -1, '+1 Star Attack, Massive Damage', '1.0');
-/*Daystar 				--Index 33*/ 		insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Daystar', 'Action', 'Offense', 2, 0, -1, 'Lance 8, Push 2', '1.0');
-/*Deep One Attack		--Index 34*/		insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Deep One Attack', 'Action', 'Offense', 2, 3, -1, 'Magic, Cross 5, +1R WILL', '1.0');
-/*Dimensional Draught 	--Index 35*/ 		insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Dimensional Draught', 'Potion', 'Support', 1, -1, -1, 'Hero affected by Dimensional Draught may immediately Teleport.', '1.0');
-/*Dive Bomb				--Index 36*/		insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Dive Bomb', 'Action', 'Offense', 2, 0, 1, 'Pacify', '1.0'); 
-/*Dragon Breath			--Index 37*/		insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Dragon Breath', 'Action', 'Offense', 2, 0, -1, 'Spray 5, Fire', '1.0');
-/*Dragon's Breath		--Index 38*/		insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Dragon''s Breath', 'Action', 'Offense', 2, 0, -1, 'Spray 5, Fire, Dangerous', '1.0');
-/*Dragon Rage			--Index 39*/		insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Dragon Rage', 'Action', 'Support', 1, -1, -1, 'Augment, Aura 3, All Kobolds gain +1B Attack', '1.0'); 
-/*Dwarven Curse 		--Index 40*/ 		insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Dwarven Curse', 'Action', 'Support', 2, 0, -1, 'Wave 3, Pull 3, Attack vs WILL', '1.0');
-/*Elixir 				--Index 41*/ 		insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Elixir', 'Potion', 'Support', 1, -1, -1, 'Heal 3, Remedy', '1.0');
-/*Elixir of Light 		--Index 42*/ 		insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Elixir of Light', 'Potion', 'Support', 1, -1, -1, 'All melee attacks made by the affected Hero gain "Cross 1, Holy, Fire".', '1.0');
-/*Energy Blast 			--Index 43*/ 		insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Energy Blast', 'Action', 'Offense', 2, 4, 8, 'Missile 8, Burst 1', '1.0');
-/*Enervating Bite		--Index 44*/		insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Enervating Bite', 'Action', 'Offense', 2, 0, 1, '+1R Attack, Poison', '1.0'); 
-/*Feast					--Index 45*/		insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Feast', 'Action', 'Offense', 2, 0, 1, '+1R Attack.  If Rock Gut inflicts a wound this attack he may immediately remove a wound counter.', '1.0');
-/*Fire Storm			--Index 46*/		insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Fire Storm', 'Action', 'Support', 1, 0, -1, 'Wave 2, Fire, Dangerous', '1.0');
-/*Fire Water 			--Index 47*/ 		insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Fire Water', 'Potion', 'Support', 1, -1, -1, '+1B Attack, Fire', '1.0');
-/*Fire Wave 			--Index 48*/ 		insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Fire Wave', 'Action', 'Offense', 2, -1, -1, 'Wave 1', '1.0');
-/*Flicker				--Index 49*/		insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Flicker', 'Action', 'Support', 1, -1, 0, 'Teleport (A model with Teleport may move to any empty square within ten squares and line of sight of their current square.)', '1.0');
-/*Flintlock				--Index 50*/		insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Flintlock', 'Action', 'Offense', 1, 4, 6, 'Missle 6, +1R DEX', '1.0');
-/*Focused Shot 			--Index 51*/ 		insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Focused Shot', 'Action', 'Offense', 2, 0, 8, '+3R Attack', '1.0');
-/*Fritz 				--Index 52*/ 		insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Fritz', 'Potion', 'Support', 1, -1, -1, '+1B Attack, Knockdown', '1.0');
-/*Frozen Feet 			--Index 53*/ 		insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Frozen Feet', 'Action', 'Offense', 1, 3, -1, '+1B WILL, Cold', '1.0');
-/*Furnace Vent			--Index 54*/		insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Furnace Vent', 'Action', 'Offense', 3, -1, -1, 'Cross 3, Fire', '1.0'); 
-/*Fury's Blood			--Index 55*/ 		insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Fury''s Blood', 'Potion', 'Support', 0, -1, -1, '+1B ARM, Backlash', '1.0');
-/*Ghastly Vigor			--Index 56*/		insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Ghastly Vigor', 'Action', 'Support', 1, -1, -1, 'Augment, Aura 3, All Undead gain +1B Attack', '1.0');
-/*Ghost Form			--Index 57*/		insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Ghost Form', 'Action', 'Support', 1, -1, 0, 'Teleport', '1.0');
-/*Halo Extract 			--Index 58*/ 		insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Halo Extract', 'Potion', 'Support', 1, -1, -1, 'Aura 1, +1ST ARM', '1.0');
-/*Hammer of Judgement 	--Index 59*/ 		insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Hammer of Judgement', 'Action', 'Offense', 1, 0, -1, 'Cross 1, Push 1', '1.0');
-/*Happily Ever After 	--Index 60*/ 		insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Happily Ever After', 'Potion', 'Support', 1, -1, -1, 'Discard a single drawn loot or relic card and immediately draw another.', '1.0');
-/*Healer				--Index 61*/		insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Healer', '', '', 0, 0, 0, 'When a model with Healer rolls a Heart on an attack roll they gain two Hearts instead of one if they successfully inflict a wound.', '1.0');
-/*Heart Seeker			--Index 62*/ 		insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Heart Seeker', 'Action', 'Offense', 2, 4, 8, 'Missle 8, +1R DEX, Hookshot', '1.0');
-/*Herbalist 			--Index 63*/ 		insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Herbalist', 'Action', 'Support', 1, -1, -1, 'Augment, Range 6, Remedy', '1.0');
-/*Hero's Balm 			--Index 64*/ 		insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Hero''s Balm', 'Potion', 'Support', 1, -1, -1, 'The current attack is applied to the Hero affected by Hero''s Balm as though they were the target of the attack instead.', '1.0');
-/*Hightower 			--Index 65*/ 		insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Hightower', 'Action', 'Support', 2, -1, -1, 'Augment, Aura 3, +1ST ARM, Immune: Knockdown', '1.0');
-/*Hobbled Hands 		--Index 66*/ 		insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Hobbled Hands', 'Action', 'Offense', 1, 3, -1, '+1B WILL< Weak', '1.0');
-/*Holy Oil 				--Index 67*/ 		insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Holy Oil', 'Potion', 'Offense', 1, -1, 4, 'Rac Range 4, Burst 1, Holy, Fire', '1.0');
-/*Holy Water 			--Index 68*/ 		insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Holy Water', 'Potion', 'Offense', 1, -1, 4, 'Bac Range 4, Burst 1, models hit suffer Vulnerable: Holy', '1.0');
-/*Hot Pot				--Index 69*/		insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Hot Pot', 'Action', 'Offense', 1, 4, 6, '+1B DEX, Fire', '1.0'); 
-/*Iron Halo 			--Index 70*/ 		insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Iron Halo', 'Action', 'Support', 1, -1, -1, 'Augment, Aura 3, +1B ARM', '1.0');
-/*Javelin				--Index 71*/		insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Javelin', 'Action', 'Offense', 1, 4, 6, 'Missle 6, Fire.', '1.0');
-/*Just a Drop			--Index 72*/		insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Just a Drop', 'Action', 'Support', 1, -1, 0, 'Augment, Immune: Status Effects', '1.0');
-/*Juxtapose				--Index 73*/		insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Juxtapose', 'Action', 'Support', 1, 3, 4, 'WILL vs WILL.  Target model suffers Vulnerable: Magic.  Skullbat is destroyed (even if the action was unsuccessful).', '1.0'); 
-/*Lifesap				--Index 74*/		insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Lifesap', 'Action', 'Offense', 1, -1, 1, 'Range 1.  Do not make an attack roll.  Target model takes one wound.  Death immediately heals one wound.', '1.0');
-/*Magma					--Index 75*/		insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Magma', 'Action', 'Support', 1, -1, -1, 'Augment, Backlash', '1.0');
-/*Magma Strike 			--Index 76*/ 		insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Magma Strike', 'Action', 'Offense', 2, 3, 8, '+3B WILL', '1.0');
-/*Maiden's Favor 		--Index 77*/ 		insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Maiden''s Favor', 'Action', 'Support', 1, -1, 6, 'Augment, Range 6, +1B Attack', '1.0');
-/*Maiden's Kiss 		--Index 78*/ 		insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Maiden''s Kiss', 'Action', 'Support', 1, -1, 2, 'Augment, Range 2, Heal 1', '1.0');
-/*Maiden's Token 		--Index 79*/ 		insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Maiden''s Token', 'Action', 'Support', 1, -1, 6, 'Augment, Range 6, +1B WILL', '1.0');
-/*Mend Bones 			--Index 80*/ 		insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Mend Bones', 'Action', 'Support', 1, -1, 6, 'Range 6, Raise', '1.0'); 
-/*Molotov				--Index 81*/		insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Molotov', 'Action', 'Offense', 2, 0, -1, '+1G ATT, Lance 6, One Use Only - Discard Fireflow Brew after using Molotov', '1.0');
-/*Mr. Tomn 				--Index 82*/ 		insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Mr. Tomn', 'Potion', 'Support', 1, -1, -1, 'Augment, Aura 3, +1B ARM', '1.0');
-/*Nourishing Berries	--Index 83*/ 		insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Nourishing Berries', 'Potion', 'Support', 1, -1, -1, 'All Heroes gain Healer', '1.0');
-/*Pain					--Index 84*/		insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Pain', 'Action', 'Offense', 1, 4, 8, 'Missile 8, Poison', '1.0');
-/*Pirate Snatch 		--Index 85*/ 		insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Pirate Snatch', 'Action', 'Offense', 2, 0, 1, '+1R Attack, If Pirate Snatch inflicts a wound advance the Loot-O-Meter one additional space', '1.0');
-/*Pixie Dust 			--Index 86*/ 		insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Pixie Dust', 'Potion', 'Support', 1, -1, -1, '+1B DEX, Stealth', '1.0');
-/*Portcullis Potion 	--Index 87*/ 		insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Portcullis Potion', 'Potion', 'Support', 1, -1, -1, 'Place a Hero Effect Token next to any doorway.  The next monster to move through that doorway suffers an attack equal to the Exemplar''s current attack.  Then remove the token.', '1.0');
-/*POW! 					--Index 88*/ 		insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('POW!', 'Action', 'Offense', 2, 0, 2, '+1R Attack, Massive Damage', '1.0');
-/*Purification 			--Index 89*/ 		insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Purification', 'Action', 'Support', 1, -1, 2, 'Augment, Range 2, Heal 1', '1.0'); --Hero Princess Malya
-/*Purification 			--Index 90*/ 		insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Purification', 'Action', 'Support', 1, -1, -1, 'Augment, Cross 2, Heal 1, Remedy', '1.0'); --Hero Sister of Light
-/*Purr 					--Index 91*/ 		insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Purr', 'Action', 'Support', 1, -1, -1, 'Wave 1, Compel 2', '1.0');
-/*Rage 					--Index 92*/ 		insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Rage', 'Action', 'Offense', 3, -1, -1, 'After every square you move this turn immediately make one melee attack.  You may not make a Berserk attack on a turn you Rage.  Barbarian''s ARM is reduced to 2B until her next activation.', '1.0');
-/*Rally Cry				--Index 93*/		insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Rally Cry', 'Action', 'Support', 2, -1, -1, 'Augment, Wave 5, Pull 4', '1.0');
-/*Renewed Vigor			--Index 94*/ 		insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Renewed Vigor', 'Action', 'Support', 2, -1, -1, 'Augment, Wave 2, Compel 3', '1.0'); 
-/*Rex Cuddle			--Index 95*/		insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Rex Cuddle', 'Action', 'Offense', 2, 0, 2, 'Immobile, Weak', '1.0');
-/*Rex Smash				--Index 96*/		insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Rex Smash', 'Action', 'Offense', 3, 0, 2, '+1G Attack, Massive Damage', '1.0');
-/*Riddle of Steel		--Index 97*/		insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Riddle of Steel', 'Action', 'Offense', 2, 0, 6, 'Range 6, Weak', '1.0');
-/*Rook 					--Index 98*/ 		insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Rook', 'Potion', 'Support', 1, -1, -1, 'Hero drinking Rook potion may immediately Teleport.', '1.0');
-/*Scratch 				--Index 99*/ 		insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Scratch', 'Potion', 'Offense', 1, -1, -1, 'Bac Wave 2, Slow', '1.0');
-/*Second Chance			--Index 100*/		insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Second Chance', 'Action', 'Support', 1, -1, -1, 'Resurrect one destroyed Hero.  One use only - Discard Withered Ring after using Second Change.', '1.0');
-/*Serpent Coil			--Index 101*/		insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Serpent Coil', 'Action', 'Offense', 2, 0, 1, 'Immobile, Weak', '1.0');
-/*Shadow Breath			--Index 102*/		insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Shadow Breath', 'Action', 'Support', 2, -1, -1, 'Augment, Aura 5, All Kobolds gain Stealth', '1.0'); 
-/*Shag Fest 			--Index 103*/ 		insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Shag Fest', 'Action', 'Offense', 1, 0, 1, 'Sweep 1, +1R Attack, Dangerous, Lycanthropy', '1.0');
-/*Shapeshift			--Index 104*/ 		insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Shapeshift', 'Action', 'Support', 1, -1, 0, 'Angry Bear', '1.0');
-/*Shapeshift 			--Index 105*/ 		insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Shapeshift', 'Action', 'Support', 1, -1, 0, 'Deeproot Druid', '1.0');
-/*Shapeshift			--Index 106*/		insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Shapeshift', 'Action', 'Support', 1, -1, 0, 'Nocturne', '1.0');
-/*Shapeshift			--Index 107*/		insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Shapeshift', 'Action', 'Support', 1, -1, 0, 'Von Drakk', '1.0');
-/*Shapeshift 			--Index 108*/ 		insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Shapeshift', 'Action', 'Support', 1, -1, 0, 'Von Wilder', '1.0');
-/*Shapeshift 			--Index 109*/ 		insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Shapeshift', 'Action', 'Support', 1, -1, 0, 'Von Wilding', '1.0');
-/*Shattered Sword 		--Index 110*/ 		insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Shattered Sword', 'Action', 'Offense', 3, 0, 1, '+1G Attack, Massive Damage', '1.0');
-/*Shell Shock			--Index 111*/		insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Shell Shock', 'Action', 'Support', 1, -1, 10, 'Augment, Range 10, Burst 2.  All Rocktops in the area of effect may immediately activate Turtle.', '1.0'); 
-/*Shield Bash			--Index 112*/		insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Shield Bash', 'Action', 'Offense', 2, 0, 1, '+1 Star Attack, Massive Damage', '1.0');
-/*Shieldwall			--Index 113*/		insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Shieldwall', 'Action', 'Support', 1, -1, 0, 'Augment, Aura 1, +1B ARM', '1.0'); 
-/*Shocking Bolt			--Index 114*/		insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Shocking Bolt', 'Action', 'Offense', 2, 3, 6, '+1R WILL, Knockdown, Stun', '1.0'); 
-/*Silk Spinner			--Index 115*/		insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Silk Spinner', 'Action', 'Support', 1, -1, -1, 'Spray 3, Slow, Dangerous', '1.0'); 
-/*Skully 				--Index 116*/ 		insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Skully', 'Potion', 'Offense', 1, -1, 1, 'R Wave 2, +1R Attack, Dangerous', '1.0');
-/*Smite 				--Index 117*/ 		insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Smite', 'Action', 'Offense', 2, 0, 1, '+1R Attack, Knockdown, Fire', '1.0');
-/*Smoke Pot				--Index 118*/		insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Smoke Pot', 'Action', 'Support', 1, 0, -1, 'Burst 1, Smoke', '1.0'); 
-/*Snare					--Index 118*/		insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Snare', 'Action', 'Support', 1, -1, -1, 'Pull 5', '1.0');
-/*Sneak Attack!			--Index 120*/		insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Sneak Attack!', 'Action', 'Offense', 2, 0, 5, '+1R Attack, Knockdown, Pounce (Before making an attack roll, immediately Fly up to 5 squares.  The model must end this movement adjacent to an enemy model.)', '1.0');
-/*Solar Flare			--Index 121*/		insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Solar Flare', 'Action', 'Offense', 2, 0, 8, 'Missile 8, Burst 1', '1.0');
-/*Soothe				--Index 122*/		insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Soothe', 'Action', 'Support', 1, -1, 6, 'Augment, Range 6, Heal 1 (A model affected by Heal may remove a number of wound counters or a number of status effect counters equal to the value of X.)', '1.0');
-/*Soothing Soda			--Index 123*/ 		insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Soothing Soda', 'Potion', 'Support', 1, -1, -1, 'Immune: Status Effects.', '1.0');
-/*Sparkle Burst 		--Index 124*/ 		insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Sparkle Burst', 'Action', 'Offense', 2, -1, -1, 'Burst 1', '1.0');
-/*Spearhead 			--Index 125*/ 		insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Spearhead', 'Action', 'Support', 1, 0, -1, 'Wave 3, Push 3, Attack vs WILL', '1.0');
-/*Splash				--Index 126*/		insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Splash', 'Action', 'Offense', 2, 3, 6, 'Magic 6, Burst 1, Fire', '1.0'); --Treasure Fire Gel Goo
-/*Splash				--Index 127*/		insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Splash', 'Action', 'Offense', 2, 0, 6, 'Range 6, Burst 1, +1R Attack', '1.0'); --Warband Burning Gel 
-/*Sprite Syrup 			--Index 128*/ 		insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Sprite Syrup', 'Potion', 'Support', 0, -1, -1, '+1ac', '1.0');
-/*Star Shine 			--Index 129*/ 		insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Star Shine', 'Action', 'Support', 1, -1, -1, 'Augment, Immune: Status Effects', '1.0');
-/*Sticky Tongue 		--Index 130*/ 		insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Sticky Tongue', 'Action', 'Offense', 1, 4, 2, 'Missile 2, vs DEX.  If successful, Miserable Toad gains either one heart or one potion, in addition to any that are rolled.', '1.0');
-/*Stranglethorn			--Index 131*/ 		insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Stranglethorn', 'Action', 'Offense', 2, -1, 6, 'Magic 6, Burst 1, Slow', '1.0');
-/*Sugar Rush			--Index 132*/ 		insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Sugar Rush', 'Potion', 'Support', 3, 1, -1, '+2ac', '1.0');
-/*Swarm					--Index 133*/		insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Swarm', 'Action', 'Offense', 1, 0, 1, '+1R Attack if target is suffering Knockdown', '1.0'); 
-/*Tail Sweep			--Index 134*/		insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Tail Sweep', 'Action', 'Offense', 2, 0, -1, 'Sweep 2, Knockdown', '1.0');
-/*Teeth & Fur 			--Index 135*/ 		insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Teeth & Fur', 'Action', 'Offense', 2, 0, 5, '+1R Attack, Knockdown, Pounce', '1.0');
-/*Terrifying Screech	--Index 136*/		insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Terrifying Screech', 'Action', 'Offense', 2, 0, -1, 'Wave 3, Stun', '1.0');
-/*Thick Shell			--Index 137*/		insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Thick Shell', 'Action', 'Support', 1, -1, 0, 'Augment, Immune: Status Effects', '1.0'); 
-/*Thwack!				--Index 138*/		insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Thwack!', 'Action', 'Support', 1, -1, 1, 'Push target Shell up to six squares.  If the Shell moves into a square adjacent to a Hero its movement immediately stops.  The Roller then makes an attack roll against the Hero with 1B for every square the Shell moved.  This roll does not use the Roller''s Attack attribute.', '1.0'); 
-/*Thwomp				--Index 139*/		insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Thwomp', 'Action', 'Offense', 1, -1, 1, 'Push 5', '1.0');
-/*Tide of Bones			--Index 140*/		insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Tide of Bones', 'Action', 'Support', 2, -1, -1, 'Wave 2, Raise', '1.0');
-/*Transmogrify			--Index 141*/		insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Transmogrify', 'Potion', 'Offense', 1, -1, 1, 'B Shapeshift target model in melee with Witch into Miserable Toad.  Remove Witch''s potion counter.', '1.0'); 
-/*Tremor Strike			--Index 142*/		insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Tremor Strike', 'Action', 'Offense', 2, 0, -1, 'Wave 1', '1.0');
-/*Turtle Cannon			--Index 143*/		insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Turtle Cannon', 'Action', 'Offense', 1, 0, 10, 'Range 10, Burst 2, +1B Attack', '1.0'); 
-/*Turtle Power			--Index 144*/		insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Turtle Power', 'Action', 'Support', 1, -1, 0, 'Immediately activate Turtle.', '1.0'); 
-/*Turtle Tremor			--Index 145*/		insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Turtle Tremor', 'Action', 'Offense', 2, 0, -1, 'Wave 3, +1B Attack for every Shell in the area of effect.', '1.0'); 
-/*Vending Machine		--Index 146*/ 		insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Vending Machine', 'Action', 'Support', 1, -1, 6, 'Augment, Range 6. Remove a single potion counter from Candy''s card and place it on target Hero''s card.', '1.0');
-/*Volcano				--Index 147*/		insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Volcano', 'Action', 'Offense', 2, 0, -1, 'Wave 3', '1.0'); 
-/*Whip Master 			--Index 148*/ 		insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Whip Master', 'Action', 'Offense', 2, 4, 2, '+1 Attack, Pacify', '1.0');
-/*White Mage Potion 	--Index 149*/ 		insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('White Mage Potion', 'Potion', 'Support', 1, -1, -1, 'Augment, Wave 5, Heal 1', '1.0');
-/*Wibble				--Index 150*/		insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Wibble', 'Action', 'Offense', 1, 4, 8, 'Missle 8, Stun', '1.0');
-/*Wink					--Index 151*/		insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Wink', 'Action', 'Offense', 2, 3, 4, 'Magic 4, Weak, Pacify', '1.0');
-/*Wizard Wings 			--Index 152*/ 		insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Wizard Wings', 'Potion', 'Support', 1, -1, -1, '+1B WILL, Fly', '1.0');
-/*X Marks the Spot		--Index 153*/		insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('X Marks the Spot', 'Action', 'Support', 2, -1, 0, 'Draw and equip 1 Loot card', '1.0');
-/*Zealotry				--Index 154*/		insert into Abilities (Name, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, AbilityVersion) VALUES ('Zealotry', 'Action', 'Support', 1, -1, -1, 'Augment, Aura 2, +1B Attack', '1.0');
+/*Acorn Grenade 				--Index 0*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0', 'Default', 'Acorn Grenade', 'Action', 'Offense', 2, 0, 6, 'Range 6, Burst 1, Knockdown, Dangerous');
+/*Alluring							--Index 1*/		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0', 'Default', 'Alluring', 'Action', 'Offense', 2, 3, 4, '+1R WILL, If successful Vandella immediately heals one wound.');
+/*Arrow Storm					--Index 2*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0', 'Default', 'Arrow Storm', 'Action', 'Offense', 2, 4, -1, 'DEX vs ARM, Spray 4');
+/*Ash Cloud						--Index 3*/		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0', 'Default', 'Ash Cloud', 'Action', 'Support', 1, -1, -1, 'Aura 1, Choke');
+/*Astral Hammer 				--Index 4*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0', 'Default', 'Astral Hammer', 'Action', 'Offense', 2, 0, 2, 'Cross 2, Knockdown');
+/*Backblast						--Index 5*/		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0', 'Default', 'Backblast', 'Action', 'Offense', 1, 0, -1, 'Wave 1, Push 2, Dangerous');
+/*Backstab 						--Index 6*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0', 'Default', 'Backstab', 'Action', 'Offense', 3, 0, 1, 'Massive Damage, +1G Attack');
+/*Bamf! 							--Index 7*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0', 'Default', 'Bamf!', 'Action', 'Support', 1, -1, -1, 'Wave 2, Smoke');
+/*Bear Charge 					--Index 8*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0', 'Default', 'Bear Charge', 'Action', 'Offense', 2, 0, 1, '+1R Attack, Knockdown');
+/*Bear Hug 						--Index 9*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0', 'Default', 'Bear Hug', 'Action', 'Offense', 2, 0, 1, 'Immobile, Weak');
+/*Black Cat						--Index 10*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0', 'Default', 'Black Cat', 'Action', 'Offense', 2, -1, -1, 'Wave 1, Fragile');
+/*Bomb's Away 					--Index 11*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0', 'Default', 'Bomb''s Away', 'Action', 'Offense', 2, 0, 6, 'Range 6, Burst 1, Knockdown, Dangerous');
+/*Boomerang 					--Index 12*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0', 'Default', 'Boomerang', 'Action', 'Support', 1, -1, 6, 'Range 6, Hookshot. Place target Treasure Chest in an empty square adjacent to Deeproot Scout');
+/*Bow 								--Index 13*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0', 'Default', 'Bow', 'Action', 'Offense', 1, 4, 8, 'Missile 8');
+/*Briar Armor					--Index 14*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0', 'Default', 'Briar Armor', 'Action', 'Support', 1, -1, -1, 'Backlash');
+/*Broken Bones 				--Index 15*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0', 'Default', 'Broken Bones', 'Action', 'Offense', 1, 3, -1, '+1B WILL, Fragile');
+/*Burning Bile					--Index 16*/		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0', 'Default', 'Burning Bile', 'Action', 'Offense', 2, 0, -1, 'Lance 6');
+/*Burning Blade 				--Index 17*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0', 'Default', 'Burning Blade', 'Action', 'Offense', 2, 0, -1, 'Sweep 1, +1R Attack, Fire'); --Hero Wyrm Claw Exemplar
+/*Burning Blade 				--Index 18*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0', 'Default', 'Burning Blade', 'Action', 'Offense', 2, 0, -1, 'Sweep 3, +1R Attack'); --Mini-Boss Ser Snapjaw
+/*Burning Bloom 				--Index 19*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0', 'Default', 'Burning Bloom', 'Potion', 'Support', 1, -1, -1, 'All non special attacks made by the affected Heor gain "Range 8, Fire".');
+/*Burning Chitin				--Index 20*/		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0', 'Default', 'Burning Chitin', 'Action', 'Support', 1, -1, -1, '+1R ARM, Backlash'); 
+/*Cat & Mouse					--Index 21*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0', 'Default', 'Cat & Mouse', 'Action', 'Support', 1, 3, 6, 'Range 6, WILL vs WILL, Compel 3');
+/*Catnip 							--Index 22*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0', 'Default', 'Catnip', 'Potion', 'Support', 0, -1, -1, 'Place 1 Potion counter on any Hero''s card.');
+/*Catnip Bomb 					--Index 23*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0', 'Default', 'Catnip Bomb', 'Potion', 'Support', 1, 0, 6, 'Bac Range 6, Burst 2, Pacify');
+/*Cleave 							--Index 24*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0', 'Default', 'Cleave', 'Action', 'Offense', 1, -1, -1, 'Sweep 1, Dangerous');
+/*Come Hither					--Index 25*/		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0', 'Default', 'Come Hither', 'Action', 'Support', 2,-1, -1, 'Wave 3, Compel 3');
+/*Confuse							--Index 26*/		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0', 'Default', 'Confuse', 'Action', 'Support', 2, -1, -1, 'Wave 2, Compel 1, Dangerous');
+/*Corrosive Striked			--Index 27*/		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0', 'Default', 'Corrosive Striked', 'Action', 'Offense', 2, 4, 8, 'Missle 6, Fire.');
+/*Coup de Grace				--Index 28*/		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0', 'Default', 'Coup de Grace', 'Action', 'Offense', 3, 0, 1, 'When Coup de Grace inflicts a wound it instead inflicts one wound for every star rolled by the attacker.  After the attack is resolved remove Dragon Lance from play regardless if damage was inflicted.');
+/*Crack the Whip 				--Index 29*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0', 'Default', 'Crack the Whip', 'Action', 'Support', 1, -1, -1, 'Compel 2');
+/*Crippling Smash				--Index 30*/		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0', 'Default', 'Crippling Smash', 'Action', 'Offense', 1, 0, 1, '+1G Attack, Massive Damage');
+/*Cursed Blade 					--Index 31*/	 	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0', 'Default', 'Cursed Blade', 'Action', 'Offense', 2, 0, 1, '+1R Attack, Fragile'); 
+/*Dark Aura						--Index 32*/		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0', 'Default', 'Dark Aura', 'Action', 'Support', 1, -1, -1, '+1 Star Attack, Massive Damage');
+/*Daystar 							--Index 33*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0', 'Default', 'Daystar', 'Action', 'Offense', 2, 0, -1, 'Lance 8, Push 2');
+/*Deep One Attack				--Index 34*/		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0', 'Default', 'Deep One Attack', 'Action', 'Offense', 2, 3, -1, 'Magic, Cross 5, +1R WILL');
+/*Dimensional Draught 		--Index 35*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0', 'Default', 'Dimensional Draught', 'Potion', 'Support', 1, -1, -1, 'Hero affected by Dimensional Draught may immediately Teleport.');
+/*Dive Bomb						--Index 36*/		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0', 'Default', 'Dive Bomb', 'Action', 'Offense', 2, 0, 1, 'Pacify'); 
+/*Dragon Breath				--Index 37*/		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0', 'Default', 'Dragon Breath', 'Action', 'Offense', 2, 0, -1, 'Spray 5, Fire');
+/*Dragon's Breath				--Index 38*/		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0', 'Default', 'Dragon''s Breath', 'Action', 'Offense', 2, 0, -1, 'Spray 5, Fire, Dangerous');
+/*Dragon Rage					--Index 39*/		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0', 'Default', 'Dragon Rage', 'Action', 'Support', 1, -1, -1, 'Augment, Aura 3, All Kobolds gain +1B Attack'); 
+/*Dwarven Curse 				--Index 40*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0', 'Default', 'Dwarven Curse', 'Action', 'Support', 2, 0, -1, 'Wave 3, Pull 3, Attack vs WILL');
+/*Elixir 								--Index 41*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0', 'Default', 'Elixir', 'Potion', 'Support', 1, -1, -1, 'Heal 3, Remedy');
+/*Elixir of Light 					--Index 42*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0', 'Default', 'Elixir of Light', 'Potion', 'Support', 1, -1, -1, 'All melee attacks made by the affected Hero gain "Cross 1, Holy, Fire".');
+/*Energy Blast 					--Index 43*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0', 'Default', 'Energy Blast', 'Action', 'Offense', 2, 4, 8, 'Missile 8, Burst 1');
+/*Enervating Bite				--Index 44*/		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0', 'Default', 'Enervating Bite', 'Action', 'Offense', 2, 0, 1, '+1R Attack, Poison'); 
+/*Feast								--Index 45*/		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0', 'Default', 'Feast', 'Action', 'Offense', 2, 0, 1, '+1R Attack.  If Rock Gut inflicts a wound this attack he may immediately remove a wound counter.');
+/*Fire Storm						--Index 46*/		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0', 'Default', 'Fire Storm', 'Action', 'Support', 1, 0, -1, 'Wave 2, Fire, Dangerous');
+/*Fire Water 						--Index 47*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0', 'Default', 'Fire Water', 'Potion', 'Support', 1, -1, -1, '+1B Attack, Fire');
+/*Fire Wave 						--Index 48*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0', 'Default', 'Fire Wave', 'Action', 'Offense', 2, -1, -1, 'Wave 1');
+/*Flicker							--Index 49*/		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0', 'Default', 'Flicker', 'Action', 'Support', 1, -1, 0, 'Teleport (A model with Teleport may move to any empty square within ten squares and line of sight of their current square.)');
+/*Flintlock							--Index 50*/		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0', 'Default', 'Flintlock', 'Action', 'Offense', 1, 4, 6, 'Missle 6, +1R DEX');
+/*Focused Shot 					--Index 51*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0', 'Default', 'Focused Shot', 'Action', 'Offense', 2, 0, 8, '+3R Attack');
+/*Fritz 								--Index 52*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0', 'Default', 'Fritz', 'Potion', 'Support', 1, -1, -1, '+1B Attack, Knockdown');
+/*Frozen Feet 					--Index 53*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0', 'Default', 'Frozen Feet', 'Action', 'Offense', 1, 3, -1, '+1B WILL, Cold');
+/*Furnace Vent					--Index 54*/		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0', 'Default', 'Furnace Vent', 'Action', 'Offense', 3, -1, -1, 'Cross 3, Fire'); 
+/*Fury's Blood					--Index 55*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0', 'Default', 'Fury''s Blood', 'Potion', 'Support', 0, -1, -1, '+1B ARM, Backlash');
+/*Ghastly Vigor					--Index 56*/		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0', 'Default', 'Ghastly Vigor', 'Action', 'Support', 1, -1, -1, 'Augment, Aura 3, All Undead gain +1B Attack');
+/*Ghost Form					--Index 57*/		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0', 'Default', 'Ghost Form', 'Action', 'Support', 1, -1, 0, 'Teleport');
+/*Halo Extract 					--Index 58*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0', 'Default', 'Halo Extract', 'Potion', 'Support', 1, -1, -1, 'Aura 1, +1ST ARM');
+/*Hammer of Judgement	--Index 59*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0', 'Default', 'Hammer of Judgement', 'Action', 'Offense', 1, 0, -1, 'Cross 1, Push 1');
+/*Happily Ever After 			--Index 60*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0', 'Default', 'Happily Ever After', 'Potion', 'Support', 1, -1, -1, 'Discard a single drawn loot or relic card and immediately draw another.');
+/*Healer							--Index 61*/		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0', 'Default', 'Healer', '', '', 0, 0, 0, 'When a model with Healer rolls a Heart on an attack roll they gain two Hearts instead of one if they successfully inflict a wound.');
+/*Heart Seeker					--Index 62*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0', 'Default', 'Heart Seeker', 'Action', 'Offense', 2, 4, 8, 'Missle 8, +1R DEX, Hookshot');
+/*Herbalist 						--Index 63*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0', 'Default', 'Herbalist', 'Action', 'Support', 1, -1, -1, 'Augment, Range 6, Remedy');
+/*Hero's Balm 					--Index 64*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0', 'Default', 'Hero''s Balm', 'Potion', 'Support', 1, -1, -1, 'The current attack is applied to the Hero affected by Hero''s Balm as though they were the target of the attack instead.');
+/*Hightower 						--Index 65*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0', 'Default', 'Hightower', 'Action', 'Support', 2, -1, -1, 'Augment, Aura 3, +1ST ARM, Immune: Knockdown');
+/*Hobbled Hands 				--Index 66*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0', 'Default', 'Hobbled Hands', 'Action', 'Offense', 1, 3, -1, '+1B WILL< Weak');
+/*Holy Oil 							--Index 67*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0', 'Default', 'Holy Oil', 'Potion', 'Offense', 1, -1, 4, 'Rac Range 4, Burst 1, Holy, Fire');
+/*Holy Water 					--Index 68*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0', 'Default', 'Holy Water', 'Potion', 'Offense', 1, -1, 4, 'Bac Range 4, Burst 1, models hit suffer Vulnerable: Holy');
+/*Hot Pot							--Index 69*/		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0', 'Default', 'Hot Pot', 'Action', 'Offense', 1, 4, 6, '+1B DEX, Fire'); 
+/*Iron Halo 						--Index 70*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0', 'Default', 'Iron Halo', 'Action', 'Support', 1, -1, -1, 'Augment, Aura 3, +1B ARM');
+/*Javelin							--Index 71*/		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0', 'Default', 'Javelin', 'Action', 'Offense', 1, 4, 6, 'Missle 6, Fire.');
+/*Just a Drop						--Index 72*/		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0', 'Default', 'Just a Drop', 'Action', 'Support', 1, -1, 0, 'Augment, Immune: Status Effects');
+/*Juxtapose						--Index 73*/		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0', 'Default', 'Juxtapose', 'Action', 'Support', 1, 3, 4, 'WILL vs WILL.  Target model suffers Vulnerable: Magic.  Skullbat is destroyed (even if the action was unsuccessful).'); 
+/*Lifesap							--Index 74*/		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0', 'Default', 'Lifesap', 'Action', 'Offense', 1, -1, 1, 'Range 1.  Do not make an attack roll.  Target model takes one wound.  Death immediately heals one wound.');
+/*Magma							--Index 75*/		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0', 'Default', 'Magma', 'Action', 'Support', 1, -1, -1, 'Augment, Backlash');
+/*Magma Strike 				--Index 76*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0', 'Default', 'Magma Strike', 'Action', 'Offense', 2, 3, 8, '+3B WILL');
+/*Maiden's Favor 				--Index 77*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0', 'Default', 'Maiden''s Favor', 'Action', 'Support', 1, -1, 6, 'Augment, Range 6, +1B Attack');
+/*Maiden's Kiss 					--Index 78*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0', 'Default', 'Maiden''s Kiss', 'Action', 'Support', 1, -1, 2, 'Augment, Range 2, Heal 1');
+/*Maiden's Token 				--Index 79*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0', 'Default', 'Maiden''s Token', 'Action', 'Support', 1, -1, 6, 'Augment, Range 6, +1B WILL');
+/*Mend Bones 					--Index 80*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0', 'Default', 'Mend Bones', 'Action', 'Support', 1, -1, 6, 'Range 6, Raise'); 
+/*Molotov							--Index 81*/		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0', 'Default', 'Molotov', 'Action', 'Offense', 2, 0, -1, '+1G ATT, Lance 6, One Use Only - Discard Fireflow Brew after using Molotov');
+/*Mr. Tomn 						--Index 82*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0', 'Default', 'Mr. Tomn', 'Potion', 'Support', 1, -1, -1, 'Augment, Aura 3, +1B ARM');
+/*Nourishing Berries			--Index 83*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0', 'Default', 'Nourishing Berries', 'Potion', 'Support', 1, -1, -1, 'All Heroes gain Healer');
+/*Pain								--Index 84*/		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0', 'Default', 'Pain', 'Action', 'Offense', 1, 4, 8, 'Missile 8, Poison');
+/*Pirate Snatch 					--Index 85*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0', 'Default', 'Pirate Snatch', 'Action', 'Offense', 2, 0, 1, '+1R Attack, If Pirate Snatch inflicts a wound advance the Loot-O-Meter one additional space');
+/*Pixie Dust 						--Index 86*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0', 'Default', 'Pixie Dust', 'Potion', 'Support', 1, -1, -1, '+1B DEX, Stealth');
+/*Portcullis Potion 				--Index 87*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0', 'Default', 'Portcullis Potion', 'Potion', 'Support', 1, -1, -1, 'Place a Hero Effect Token next to any doorway.  The next monster to move through that doorway suffers an attack equal to the Exemplar''s current attack.  Then remove the token.');
+/*POW! 							--Index 88*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0', 'Default', 'POW!', 'Action', 'Offense', 2, 0, 2, '+1R Attack, Massive Damage');
+/*Purification 					--Index 89*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0', 'Default', 'Purification', 'Action', 'Support', 1, -1, 2, 'Augment, Range 2, Heal 1'); --Hero Princess Malya
+/*Purification 					--Index 90*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0', 'Default', 'Purification', 'Action', 'Support', 1, -1, -1, 'Augment, Cross 2, Heal 1, Remedy'); --Hero Sister of Light
+/*Purr 								--Index 91*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0', 'Default', 'Purr', 'Action', 'Support', 1, -1, -1, 'Wave 1, Compel 2');
+/*Rage 								--Index 92*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0', 'Default', 'Rage', 'Action', 'Offense', 3, -1, -1, 'After every square you move this turn immediately make one melee attack.  You may not make a Berserk attack on a turn you Rage.  Barbarian''s ARM is reduced to 2B until her next activation.');
+/*Rally Cry						--Index 93*/		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0', 'Default', 'Rally Cry', 'Action', 'Support', 2, -1, -1, 'Augment, Wave 5, Pull 4');
+/*Renewed Vigor				--Index 94*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0', 'Default', 'Renewed Vigor', 'Action', 'Support', 2, -1, -1, 'Augment, Wave 2, Compel 3'); 
+/*Rex Cuddle						--Index 95*/		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0', 'Default', 'Rex Cuddle', 'Action', 'Offense', 2, 0, 2, 'Immobile, Weak');
+/*Rex Smash						--Index 96*/		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0', 'Default', 'Rex Smash', 'Action', 'Offense', 3, 0, 2, '+1G Attack, Massive Damage');
+/*Riddle of Steel				--Index 97*/		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0', 'Default', 'Riddle of Steel', 'Action', 'Offense', 2, 0, 6, 'Range 6, Weak');
+/*Rook 								--Index 98*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0', 'Default', 'Rook', 'Potion', 'Support', 1, -1, -1, 'Hero drinking Rook potion may immediately Teleport.');
+/*Scratch 							--Index 99*/		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0', 'Default', 'Scratch', 'Potion', 'Offense', 1, -1, -1, 'Bac Wave 2, Slow');
+/*Second Chance				--Index 100*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0', 'Default', 'Second Chance', 'Action', 'Support', 1, -1, -1, 'Resurrect one destroyed Hero.  One use only - Discard Withered Ring after using Second Change.');
+/*Serpent Coil					--Index 101*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0', 'Default', 'Serpent Coil', 'Action', 'Offense', 2, 0, 1, 'Immobile, Weak');
+/*Shadow Breath				--Index 102*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0', 'Default', 'Shadow Breath', 'Action', 'Support', 2, -1, -1, 'Augment, Aura 5, All Kobolds gain Stealth'); 
+/*Shag Fest 						--Index 103*/ 	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0', 'Default', 'Shag Fest', 'Action', 'Offense', 1, 0, 1, 'Sweep 1, +1R Attack, Dangerous, Lycanthropy');
+/*Shapeshift						--Index 104*/ 	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0', 'Default', 'Shapeshift', 'Action', 'Support', 1, -1, 0, 'Angry Bear');
+/*Shapeshift 						--Index 105*/ 	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0', 'Default', 'Shapeshift', 'Action', 'Support', 1, -1, 0, 'Deeproot Druid');
+/*Shapeshift						--Index 106*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0', 'Default', 'Shapeshift', 'Action', 'Support', 1, -1, 0, 'Nocturne');
+/*Shapeshift						--Index 107*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0', 'Default', 'Shapeshift', 'Action', 'Support', 1, -1, 0, 'Von Drakk');
+/*Shapeshift 						--Index 108*/ 	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0', 'Default', 'Shapeshift', 'Action', 'Support', 1, -1, 0, 'Von Wilder');
+/*Shapeshift 						--Index 109*/ 	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0', 'Default', 'Shapeshift', 'Action', 'Support', 1, -1, 0, 'Von Wilding');
+/*Shattered Sword 			--Index 110*/ 	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0', 'Default', 'Shattered Sword', 'Action', 'Offense', 3, 0, 1, '+1G Attack, Massive Damage');
+/*Shell Shock					--Index 111*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0', 'Default', 'Shell Shock', 'Action', 'Support', 1, -1, 10, 'Augment, Range 10, Burst 2.  All Rocktops in the area of effect may immediately activate Turtle.'); 
+/*Shield Bash					--Index 112*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0', 'Default', 'Shield Bash', 'Action', 'Offense', 2, 0, 1, '+1 Star Attack, Massive Damage');
+/*Shieldwall						--Index 113*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0', 'Default', 'Shieldwall', 'Action', 'Support', 1, -1, 0, 'Augment, Aura 1, +1B ARM'); 
+/*Shocking Bolt					--Index 114*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0', 'Default', 'Shocking Bolt', 'Action', 'Offense', 2, 3, 6, '+1R WILL, Knockdown, Stun'); 
+/*Silk Spinner					--Index 115*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0', 'Default', 'Silk Spinner', 'Action', 'Support', 1, -1, -1, 'Spray 3, Slow, Dangerous'); 
+/*Skully 							--Index 116*/ 	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0', 'Default', 'Skully', 'Potion', 'Offense', 1, -1, 1, 'R Wave 2, +1R Attack, Dangerous');
+/*Smite 							--Index 117*/ 	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0', 'Default', 'Smite', 'Action', 'Offense', 2, 0, 1, '+1R Attack, Knockdown, Fire');
+/*Smoke Pot						--Index 118*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0', 'Default', 'Smoke Pot', 'Action', 'Support', 1, 0, -1, 'Burst 1, Smoke'); 
+/*Snare							--Index 118*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0', 'Default', 'Snare', 'Action', 'Support', 1, -1, -1, 'Pull 5');
+/*Sneak Attack!					--Index 120*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0', 'Default', 'Sneak Attack!', 'Action', 'Offense', 2, 0, 5, '+1R Attack, Knockdown, Pounce (Before making an attack roll, immediately Fly up to 5 squares.  The model must end this movement adjacent to an enemy model.)');
+/*Solar Flare						--Index 121*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0', 'Default', 'Solar Flare', 'Action', 'Offense', 2, 0, 8, 'Missile 8, Burst 1');
+/*Soothe							--Index 122*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0', 'Default', 'Soothe', 'Action', 'Support', 1, -1, 6, 'Augment, Range 6, Heal 1 (A model affected by Heal may remove a number of wound counters or a number of status effect counters equal to the value of X.)');
+/*Soothing Soda				--Index 123*/ 	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0', 'Default', 'Soothing Soda', 'Potion', 'Support', 1, -1, -1, 'Immune: Status Effects.');
+/*Sparkle Burst 				--Index 124*/ 	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0', 'Default', 'Sparkle Burst', 'Action', 'Offense', 2, -1, -1, 'Burst 1');
+/*Spearhead 						--Index 125*/ 	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0', 'Default', 'Spearhead', 'Action', 'Support', 1, 0, -1, 'Wave 3, Push 3, Attack vs WILL');
+/*Splash							--Index 126*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0', 'Default', 'Splash', 'Action', 'Offense', 2, 3, 6, 'Magic 6, Burst 1, Fire'); --Treasure Fire Gel Goo
+/*Splash							--Index 127*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0', 'Default', 'Splash', 'Action', 'Offense', 2, 0, 6, 'Range 6, Burst 1, +1R Attack'); --Warband Burning Gel 
+/*Sprite Syrup 					--Index 128*/ 	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0', 'Default', 'Sprite Syrup', 'Potion', 'Support', 0, -1, -1, '+1ac');
+/*Star Shine 						--Index 129*/ 	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0', 'Default', 'Star Shine', 'Action', 'Support', 1, -1, -1, 'Augment, Immune: Status Effects');
+/*Sticky Tongue 				--Index 130*/ 	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0', 'Default', 'Sticky Tongue', 'Action', 'Offense', 1, 4, 2, 'Missile 2, vs DEX.  If successful, Miserable Toad gains either one heart or one potion, in addition to any that are rolled.');
+/*Stranglethorn					--Index 131*/ 	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0', 'Default', 'Stranglethorn', 'Action', 'Offense', 2, -1, 6, 'Magic 6, Burst 1, Slow');
+/*Sugar Rush					--Index 132*/ 	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0', 'Default', 'Sugar Rush', 'Potion', 'Support', 3, 1, -1, '+2ac');
+/*Swarm							--Index 133*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0', 'Default', 'Swarm', 'Action', 'Offense', 1, 0, 1, '+1R Attack if target is suffering Knockdown'); 
+/*Tail Sweep						--Index 134*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0', 'Default', 'Tail Sweep', 'Action', 'Offense', 2, 0, -1, 'Sweep 2, Knockdown');
+/*Teeth & Fur 					--Index 135*/ 	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0', 'Default', 'Teeth & Fur', 'Action', 'Offense', 2, 0, 5, '+1R Attack, Knockdown, Pounce');
+/*Terrifying Screech			--Index 136*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0', 'Default', 'Terrifying Screech', 'Action', 'Offense', 2, 0, -1, 'Wave 3, Stun');
+/*Thick Shell						--Index 137*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0', 'Default', 'Thick Shell', 'Action', 'Support', 1, -1, 0, 'Augment, Immune: Status Effects'); 
+/*Thwack!							--Index 138*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0', 'Default', 'Thwack!', 'Action', 'Support', 1, -1, 1, 'Push target Shell up to six squares.  If the Shell moves into a square adjacent to a Hero its movement immediately stops.  The Roller then makes an attack roll against the Hero with 1B for every square the Shell moved.  This roll does not use the Roller''s Attack attribute.'); 
+/*Thwomp							--Index 139*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0', 'Default', 'Thwomp', 'Action', 'Offense', 1, -1, 1, 'Push 5');
+/*Tide of Bones					--Index 140*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0', 'Default', 'Tide of Bones', 'Action', 'Support', 2, -1, -1, 'Wave 2, Raise');
+/*Transmogrify					--Index 141*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0', 'Default', 'Transmogrify', 'Potion', 'Offense', 1, -1, 1, 'B Shapeshift target model in melee with Witch into Miserable Toad.  Remove Witch''s potion counter.'); 
+/*Tremor Strike					--Index 142*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0', 'Default', 'Tremor Strike', 'Action', 'Offense', 2, 0, -1, 'Wave 1');
+/*Turtle Cannon				--Index 143*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0', 'Default', 'Turtle Cannon', 'Action', 'Offense', 1, 0, 10, 'Range 10, Burst 2, +1B Attack'); 
+/*Turtle Power					--Index 144*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0', 'Default', 'Turtle Power', 'Action', 'Support', 1, -1, 0, 'Immediately activate Turtle.'); 
+/*Turtle Tremor					--Index 145*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0', 'Default', 'Turtle Tremor', 'Action', 'Offense', 2, 0, -1, 'Wave 3, +1B Attack for every Shell in the area of effect.'); 
+/*Vending Machine			--Index 146*/ 	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0', 'Default', 'Vending Machine', 'Action', 'Support', 1, -1, 6, 'Augment, Range 6. Remove a single potion counter from Candy''s card and place it on target Hero''s card.');
+/*Volcano							--Index 147*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0', 'Default', 'Volcano', 'Action', 'Offense', 2, 0, -1, 'Wave 3'); 
+/*Whip Master 					--Index 148*/ 	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0', 'Default', 'Whip Master', 'Action', 'Offense', 2, 4, 2, '+1 Attack, Pacify');
+/*White Mage Potion 			--Index 149*/ 	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0', 'Default', 'White Mage Potion', 'Potion', 'Support', 1, -1, -1, 'Augment, Wave 5, Heal 1');
+/*Wibble							--Index 150*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0', 'Default', 'Wibble', 'Action', 'Offense', 1, 4, 8, 'Missle 8, Stun');
+/*Wink								--Index 151*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0', 'Default', 'Wink', 'Action', 'Offense', 2, 3, 4, 'Magic 4, Weak, Pacify');
+/*Wizard Wings 				--Index 152*/ 	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0', 'Default', 'Wizard Wings', 'Potion', 'Support', 1, -1, -1, '+1B WILL, Fly');
+/*X Marks the Spot			--Index 153*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0', 'Default', 'X Marks the Spot', 'Action', 'Support', 2, -1, 0, 'Draw and equip 1 Loot card');
+/*Zealotry							--Index 154*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0', 'Default', 'Zealotry', 'Action', 'Support', 1, -1, -1, 'Augment, Aura 2, +1B Attack');
 --Heroes
 --Angry Bear --Index 0
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Angry Bear', 
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Angry Bear', 
 'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Hero_Angry_Bear_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Hero_Angry_Bear_1.0_back.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Heroes/Angry_Bear.xhtml', 
@@ -342,7 +343,7 @@ insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, 
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (0, 0, 1); --Attack
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (0, 2); --Armor
 --Calico Kate --Index 1
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Calico Kate', 
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Calico Kate', 
 'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Hero_Calico_Kate_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Hero_Calico_Kate_1.0_back.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Heroes/Calico_Kate.xhtml', 
@@ -356,7 +357,7 @@ insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, 
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (1, 0, 1); --Attack
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (1, 2); --Armor
 --Candy & Cola --Index 2
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Candy & Cola', 
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Candy & Cola', 
 'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Hero_Candy_And_Cola_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Hero_Candy_And_Cola_1.0_back.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Heroes/Candy_And_Cola.xhtml', 
@@ -372,7 +373,7 @@ insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, 
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (2, 0, 1); --Attack
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (2, 2); --Armor
 --Celestial Herald --Index 3
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Celestial Herald', 
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Celestial Herald', 
 'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Hero_Celestial_Herald_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Hero_Celestial_Herald_1.0_back.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Heroes/Celestial_Herald.xhtml', 
@@ -390,7 +391,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (3, 4, 6); --Dexterity
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (3, 2); --Armor
 --Claw Tribe Barbarian --Index 4
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Claw Tribe Barbarian', 
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Claw Tribe Barbarian', 
 'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Hero_Claw_Tribe_Barbarian_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Hero_Claw_Tribe_Barbarian_1.0_back.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Heroes/Claw_Tribe_Barbarian.xhtml', 
@@ -405,7 +406,7 @@ insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, 
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (4, 0, 1); --Attack
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (4, 2); --Armor
 --Codifier Kisa --Index 5
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Codifier Kisa', 
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Codifier Kisa', 
 'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Hero_Codifier_Kisa_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Hero_Codifier_Kisa_1.0_back.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Heroes/Codifier_Kisa.xhtml', 
@@ -424,7 +425,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (5, 3, 8); --Will
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (5, 2); --Armor
 --Deeproot Druid --Index 6
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Deeproot Druid', 
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Deeproot Druid', 
 'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Hero_Deeproot_Druid_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Hero_Deeproot_Druid_1.0_back.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Heroes/Deeproot_Druid.xhtml', 
@@ -441,7 +442,7 @@ insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, 
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (6, 0, 1); --Attack
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (6, 2); --Armor
 --Deeproot Scout --Index 7
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Deeproot Scout', 
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Deeproot Scout', 
 'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Hero_Deeproot_Scout_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Hero_Deeproot_Scout_1.0_back.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Heroes/Deeproot_Scout.xhtml', 
@@ -456,7 +457,7 @@ insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, 
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (7, 0, 1); --Attack
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (7, 2); --Armor
 --Ember Mage --Index 8
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Ember Mage', 
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ember Mage', 
 'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Hero_Ember_Mage_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Hero_Ember_Mage_1.0_back.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Heroes/Ember_Mage.xhtml', 
@@ -474,7 +475,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (8, 3, 8); --Will
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (8, 2); --Armor
 --Glimmerdusk Ranger --Index 9
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Glimmerdusk Ranger', 
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Glimmerdusk Ranger', 
 'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Hero_Glimmerdusk_Ranger_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Hero_Glimmerdusk_Ranger_1.0_back.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Heroes/Glimmerdusk_Ranger.xhtml', 
@@ -490,7 +491,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (9, 4, 8); --Dexterity
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (9, 2); --Armor
 --Hearthsworn Fighter --Index 10
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Hearthsworn Fighter', 
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Hearthsworn Fighter', 
 'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Hero_Hearthsworn_Fighter_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Hero_Hearthsworn_Fighter_1.0_back.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Heroes/Hearthsworn_Fighter.xhtml', 
@@ -506,7 +507,7 @@ insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, 
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (10, 0, 1); --Attack
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (10, 2);--Armor
 --Hexcast Sorceress --Index 11
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Hexcast Sorceress', 
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Hexcast Sorceress', 
 'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Hero_Hexcast_Sorceress_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Hero_Hexcast_Sorceress_1.0_back.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Heroes/Hexcast_Sorceress.xhtml', 
@@ -523,7 +524,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (11, 3, 8); --Will
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (11, 2); --Armor
 --Miserable Toad --Index 12
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Miserable Toad', 
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Miserable Toad', 
 'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Hero_Miserable_Toad_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Hero_Miserable_Toad_1.0_back.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Heroes/Miserable_Toad.xhtml', 
@@ -539,7 +540,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (12, 2); --Armor
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (12, 4); --Dextrity
 --Nyan-Nyan --Index 13
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Nyan-Nyan', 
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Nyan-Nyan', 
 'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Hero_Nyan_Nyan_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Hero_Nyan_Nyan_1.0_back.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Heroes/Nyan_Nyan.xhtml', 
@@ -557,7 +558,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (13, 2); --Armor
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (13, 4); --Dexterity
 --One Shot --Index 14
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('One Shot', 
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('One Shot', 
 'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Hero_One_Shot_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Hero_One_Shot_1.0_back.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Heroes/One_Shot.xhtml', 
@@ -572,7 +573,7 @@ insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, 
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (14, 0, 8); --Attack
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (14, 2); --Armor
 --Princess Malya --Index 15
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Princess Malya', 
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Princess Malya', 
 'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Hero_Princess_Malya_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Hero_Princess_Malya_1.0_back.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Heroes/Princess_Malya.xhtml', 
@@ -588,7 +589,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (15, 2); --Armor
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (15, 4); --Dexterity
 --Princess Ruby --Index 16
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Princess Ruby', 
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Princess Ruby', 
 'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Hero_Princess_Ruby_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Hero_Princess_Ruby_1.0_back.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Heroes/Princess_Ruby.xhtml', 
@@ -607,7 +608,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (16, 2); --Armor
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (16, 4); --Dexterity
 --Riftling Rogue --Index 17
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Riftling Rogue', 
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Riftling Rogue', 
 'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Hero_Riftling_Rogue_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Hero_Riftling_Rogue_1.0_back.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Heroes/Riftling_Rogue.xhtml', 
@@ -625,7 +626,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (17, 2); --Armor
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (17, 4); --Dexterity
 --Royal Paladin --Index 18
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Royal Paladin', 
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Royal Paladin', 
 'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Hero_Royal_Paladin_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Hero_Royal_Paladin_1.0_back.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Heroes/Royal_Paladin.xhtml', 
@@ -641,7 +642,7 @@ insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, 
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (18, 0, 1); --Attack
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (18, 2); --Armor
 --Sebastian Cross --Index 19
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Sebastian Cross', 
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Sebastian Cross', 
 'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Hero_Sebastian_Cross_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Hero_Sebastian_Cross_1.0_back.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Heroes/Sebastian_Cross.xhtml', 
@@ -657,7 +658,7 @@ insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, 
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (19, 0, 1); --Attack
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (19, 2); --Armor
 --Sister Of Light --Index 20
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Sister Of Light', 
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Sister Of Light', 
 'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Hero_Sister_Of_Light_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Hero_Sister_Of_Light_1.0_back.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Heroes/Sister_Of_Light.xhtml', 
@@ -672,7 +673,7 @@ insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, 
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (20, 0, 1); --Attack
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (20, 2); --Armor
 --Star Guild Sapper --Index 21
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Star Guild Sapper', 
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Star Guild Sapper', 
 'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Hero_Star_Guild_Sapper_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Hero_Star_Guild_Sapper_1.0_back.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Heroes/Star_Guild_Sapper.xhtml', 
@@ -689,7 +690,7 @@ insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, 
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (21, 0, 2); --Attack
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (21, 2); --Armor
 --Von Wilder --Index 22
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Von Wilder', 
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Von Wilder', 
 'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Hero_Von_Wilder_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Hero_Von_Wilder_1.0_back.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Heroes/Von_Wilder.xhtml', 
@@ -704,7 +705,7 @@ insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, 
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (22, 0, 1); --Attack
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (22, 2); --Armor
 --Von Wilding --Index 23
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Von Wilding', 
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Von Wilding', 
 'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Hero_Von_Wilding_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Hero_Von_Wilding_1.0_back.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Heroes/Von_Wilding.xhtml', 
@@ -721,7 +722,7 @@ insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, 
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (23, 0, 2); --Attack
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (23, 2); --Armor
 --Wyrm Claw Exemplar --Index 24
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Wyrm Claw Exemplar', 
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Wyrm Claw Exemplar', 
 'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Hero_Wyrm_Claw_Exemplar_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Hero_Wyrm_Claw_Exemplar_1.0_back.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Heroes/Wyrm_Claw_Exemplar.xhtml', 
@@ -737,7 +738,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (24, 2); --Armor
 --Booty
 --Boo Boody --Index 25
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Boo Booty',
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Boo Booty',
 'http://htkb.info/SDE/1.0/Cards/Booty/Card_Boo_Booty_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Booty/Card_Boo_Booty_1.0_back.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Booty/Boo_Booty.xhtml', 
@@ -747,13 +748,13 @@ insert into Characters (CardIndex) VALUES (25);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (25, 5); --Backlash
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (25, 134); --Sturdy
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (25, 13); --Boo!
-insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (25, 'Either', 'Small', 'Kodama', 3, 1, '2R', '2R', '1B', '1B', 2, 0);
-insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (25, 1, 1);
+insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (25, 'Either', 'Small', 'Trap', 3, 1, '2R', '2R', '1B', '1B', 2, 0);
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (25, 0, 1);
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (25, 2);
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (25, 'Trap', '16 Bit', 1);
 --Mini Boss
 --Captain R --Index 26
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Captain R',
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Captain R',
 'http://htkb.info/SDE/1.0/Cards/Minibosses/Card_Miniboss_Captain_R_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Minibosses/Card_Miniboss_Captain_R_1.0_back.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Minibosses/Captain_R.xhtml', 
@@ -769,7 +770,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (26, 2); --Armor
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (26, 'Miniboss', '16 bit', 4);
 --Death Spectre --Index 27
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Death Spectre',
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Death Spectre',
 'http://htkb.info/SDE/1.0/Cards/Minibosses/Card_Miniboss_Death_Spectre_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Minibosses/Card_Miniboss_Death_Spectre_1.0_back.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Minibosses/Death_Spectre.xhtml', 
@@ -783,7 +784,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (27, 2); --Armor
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (27, 'Miniboss', '16 bit', 4);
 --Herald of Vulcanis --Index 28
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Herald of Vulcanis',
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Herald of Vulcanis',
 'http://htkb.info/SDE/1.0/Cards/Minibosses/Card_Miniboss_Herald_of_Vulcanis_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Minibosses/Card_Miniboss_Herald_of_Vulcanis_1.0_back.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Minibosses/Herald_of_Vulcanis.xhtml', 
@@ -798,7 +799,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (28, 2); --Armor
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (28, 'Miniboss', '16 bit', 4);
 --Kaelly the Nether Strider --Index 29
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Kaelly the Nether Strider',
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Kaelly the Nether Strider',
 'http://htkb.info/SDE/1.0/Cards/Minibosses/Card_Miniboss_Kaelly_The_Nether_Strider_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Minibosses/Card_Miniboss_Kaelly_The_Nether_Strider_1.0_back.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Minibosses/Kaelly_The_Nether_Strider.xhtml', 
@@ -818,7 +819,7 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (2
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (29, 4); --Dodge
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (29, 'Miniboss', '16 bit', 4);
 --Kasaro To --Index 30
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Kasaro To',
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Kasaro To',
 'http://htkb.info/SDE/1.0/Cards/Minibosses/Card_Miniboss_Kasaro_To_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Minibosses/Card_Miniboss_Kasaro_To_1.0_back.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Minibosses/Kasaro_To.xhtml', 
@@ -836,7 +837,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (30, 2); --Armor
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (30, 'Miniboss', '16 bit', 4);
 --Rex --Index 31
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Rex',
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Rex',
 'http://htkb.info/SDE/1.0/Cards/Minibosses/Card_Miniboss_Rex_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Minibosses/Card_Miniboss_Rex_1.0_back.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Minibosses/Rex.xhtml', 
@@ -853,7 +854,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (31, 2); --Armor
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (31, 'Miniboss', '16 bit', 4);
 --Rock Gut --Index 32
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Rock Gut',
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Rock Gut',
 'http://htkb.info/SDE/1.0/Cards/Minibosses/Card_Miniboss_Rock Gut_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Minibosses/Card_Miniboss_Rock Gut_1.0_back.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Minibosses/Rock_Gut.xhtml', 
@@ -871,7 +872,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (32, 2); --Armor
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (32, 'Miniboss', '16 bit', 4);
 --Ser Snapjaw --Index 33
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Ser Snapjaw',
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ser Snapjaw',
 'http://htkb.info/SDE/1.0/Cards/Minibosses/Card_Miniboss_Ser_Snapjaw_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Minibosses/Card_Miniboss_Ser_Snapjaw_1.0_back.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Minibosses/Ser_Snapjaw.xhtml', 
@@ -889,7 +890,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (33, 2); --Armor
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (33, 'Miniboss', '16 bit', 4);
 --Succubus Vandella --Index 34
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Succubus Vandella',
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Succubus Vandella',
 'http://htkb.info/SDE/1.0/Cards/Minibosses/Card_Miniboss_Succubus_Vandella_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Minibosses/Card_Miniboss_Succubus_Vandella_1.0_back.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Minibosses/Succubus_Vandella.xhtml', 
@@ -910,7 +911,7 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (3
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (34, 'Miniboss', '16 bit', 3);
 --Bosses
 --Nocturne --Index 35
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Nocturne',
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Nocturne',
 'http://htkb.info/SDE/1.0/Cards/Bosses/Card_Boss_Nocturne_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Bosses/Card_Boss_Nocturne_1.0_back.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Bosses/Nocturne.xhtml', 
@@ -927,7 +928,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (35, 2); --Armor
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (35, 'Boss', '8 bit', 4);
 --Roxor --Index 36
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Roxor',
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Roxor',
 'http://htkb.info/SDE/1.0/Cards/Bosses/Card_Boss_Roxor_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Bosses/Card_Boss_Roxor_1.0_back.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Bosses/Roxor.xhtml', 
@@ -946,7 +947,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (36, 2); --Armor
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (36, 'Boss', 'Super', 4);
 --Starfire --Index 37
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Starfire',
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Starfire',
 'http://htkb.info/SDE/1.0/Cards/Bosses/Card_Boss_Starfire_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Bosses/Card_Boss_Starfire_1.0_back.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Bosses/Starfire.xhtml', 
@@ -963,7 +964,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (37, 2); --Armor
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (37, 'Boss', 'Super', 4);
 --Von Drakk --Index 38
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Von Drakk',
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Von Drakk',
 'http://htkb.info/SDE/1.0/Cards/Bosses/Card_Boss_Von_Drakk_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Bosses/Card_Boss_Von_Drakk_1.0_back.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Bosses/Von_Drakk.xhtml', 
@@ -982,7 +983,7 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (3
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (38, 'Boss', 'Super', 4);
 --Warband Monsters
 --Egg Clutch --Index 39
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Egg Clutch',
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Egg Clutch',
 'http://htkb.info/SDE/1.0/Cards/Warbands/Egg_Clutch/Card_Warband_Egg_Clutch_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Warbands/Egg_Clutch/Card_Warband_Egg_Clutch_1.0_back.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Warbands/Egg_Clutch/Egg_Clutch.xhtml', 
@@ -995,7 +996,7 @@ insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, 
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (39, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (39, 'Spawning Point', 'Start', 0); 
 --Hatchlings --Index 40
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Hatchlings',
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Hatchlings',
 'http://htkb.info/SDE/1.0/Cards/Warbands/Egg_Clutch/Card_Warband_Egg_Clutch_Hatchlings_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Warbands/Egg_Clutch/Card_Warband_Egg_Clutch_Hatchlings_1.0_back.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Warbands/Egg_Clutch/Hatchlings.xhtml', 
@@ -1008,7 +1009,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (40, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (40, 'Denizen', '8 Bit', 1); 
 --Whelp --Index 41
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Whelp',
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Whelp',
 'http://htkb.info/SDE/1.0/Cards/Warbands/Egg_Clutch/Card_Warband_Egg_Clutch_Whelp_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Warbands/Egg_Clutch/Card_Warband_Egg_Clutch_Whelp_1.0_back.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Warbands/Egg_Clutch/Whelp.xhtml', 
@@ -1021,7 +1022,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (41, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (41, 'Denizen', '8 Bit', 1); 
 --Wyrmling --Index 42
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Wyrmling',
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Wyrmling',
 'http://htkb.info/SDE/1.0/Cards/Warbands/Egg_Clutch/Card_Warband_Egg_Clutch_Wyrmling_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Warbands/Egg_Clutch/Card_Warband_Egg_Clutch_Wyrmling_1.0_back.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Warbands/Egg_Clutch/Wyrmling.xhtml', 
@@ -1038,7 +1039,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (42, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (42, 'Denizen', '8 Bit', 2); 
 --Kobold Warrens --Index 43
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Kobold Warrens',
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Kobold Warrens',
 'http://htkb.info/SDE/1.0/Cards/Warbands/Kobold_Warrens/Card_Warband_Kobold_Warrens_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Warbands/Kobold_Warrens/Card_Warband_Kobold_Warrens_1.0_back.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Warbands/Kobold_Warrens/Kobold_Warrens.xhtml', 
@@ -1051,7 +1052,7 @@ insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, 
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (43, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (43, 'Spawning Point', 'Start', 0); 
 --Dragon Priest --Index 44
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Dragon Priest',
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Dragon Priest',
 'http://htkb.info/SDE/1.0/Cards/Warbands/Kobold_Warrens/Card_Warband_Kobold_Warrens_Dragon_Priest_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Warbands/Kobold_Warrens/Card_Warband_Kobold_Warrens_Dragon_Priest_1.0_back.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Warbands/Kobold_Warrens/Dragon_Priest.xhtml', 
@@ -1068,7 +1069,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (44, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (44, 'Minion', '8 Bit', 3); 
 --Flinger --Index 45
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Flinger',
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Flinger',
 'http://htkb.info/SDE/1.0/Cards/Warbands/Kobold_Warrens/Card_Warband_Kobold_Warrens_Flinger_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Warbands/Kobold_Warrens/Card_Warband_Kobold_Warrens_Flinger_1.0_back.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Warbands/Kobold_Warrens/Flinger.xhtml', 
@@ -1085,7 +1086,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (45, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (45, 'Minion', '8 Bit', 1); 
 --Gouger --Index 46
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Gouger',
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Gouger',
 'http://htkb.info/SDE/1.0/Cards/Warbands/Kobold_Warrens/Card_Warband_Kobold_Warrens_Gouger_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Warbands/Kobold_Warrens/Card_Warband_Kobold_Warrens_Gouger_1.0_back.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Warbands/Kobold_Warrens/Gouger.xhtml', 
@@ -1099,7 +1100,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (46, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (46, 'Minion', '8 Bit', 1); 
 --Ironscale --Index 47
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Ironscale',
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ironscale',
 'http://htkb.info/SDE/1.0/Cards/Warbands/Kobold_Warrens/Card_Warband_Kobold_Warrens_Ironscale_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Warbands/Kobold_Warrens/Card_Warband_Kobold_Warrens_Ironscale_1.0_back.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Warbands/Kobold_Warrens/Ironscale.xhtml', 
@@ -1113,7 +1114,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (47, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (47, 'Minion', '8 Bit', 2); 
 --Knucklehead --Index 48
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Knucklehead',
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Knucklehead',
 'http://htkb.info/SDE/1.0/Cards/Warbands/Kobold_Warrens/Card_Warband_Kobold_Warrens_Knucklehead_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Warbands/Kobold_Warrens/Card_Warband_Kobold_Warrens_Knucklehead_1.0_back.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Warbands/Kobold_Warrens/Knucklehead.xhtml', 
@@ -1126,7 +1127,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (48, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (48, 'Minion', '8 Bit', 1); 
 --Lava Whirl --Index 49
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Lava Whirl',
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Lava Whirl',
 'http://htkb.info/SDE/1.0/Cards/Warbands/Lava_Whirl/Card_Warband_Lava_Whirl_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Warbands/Lava_Whirl/Card_Warband_Lava_Whirl_1.0_back.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Warbands/Lava_Whirl/Lava_Whirl.xhtml', 
@@ -1143,7 +1144,7 @@ insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, 
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (49, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (49, 'Spawning Point', 'Start', 0);
 --Blaze Beetle --Index 50
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Blaze Beetle',
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Blaze Beetle',
 'http://htkb.info/SDE/1.0/Cards/Warbands/Lava_Whirl/Card_Warband_Lava_Whirl_Blaze_Beetle_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Warbands/Lava_Whirl/Card_Warband_Lava_Whirl_Blaze_Beetle_1.0_back.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Warbands/Lava_Whirl/Blaze_Beetle.xhtml', 
@@ -1159,7 +1160,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (50, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (50, 'Denizen', '8 Bit', 3); 
 --Burning Gel --Index 51
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Burning Gel',
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Burning Gel',
 'http://htkb.info/SDE/1.0/Cards/Warbands/Lava_Whirl/Card_Warband_Lava_Whirl_Burning_Gel_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Warbands/Lava_Whirl/Card_Warband_Lava_Whirl_Burning_Gel_1.0_back.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Warbands/Lava_Whirl/Burning_Gel.xhtml', 
@@ -1176,7 +1177,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (51, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (51, 'Denizen', '8 Bit', 2); 
 --Ember Hound --Index 52
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Ember Hound',
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ember Hound',
 'http://htkb.info/SDE/1.0/Cards/Warbands/Lava_Whirl/Card_Warband_Lava_Whirl_Ember_Hound_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Warbands/Lava_Whirl/Card_Warband_Lava_Whirl_Ember_Hound_1.0_back.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Warbands/Lava_Whirl/Ember_Hound.xhtml', 
@@ -1191,7 +1192,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (52, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (52, 'Denizen', '8 Bit', 1); 
 --Fire Gel --Index 53
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Fire Gel',
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Fire Gel',
 'http://htkb.info/SDE/1.0/Cards/Warbands/Lava_Whirl/Card_Warband_Lava_Whirl_Fire_Gel_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Warbands/Lava_Whirl/Card_Warband_Lava_Whirl_Fire_Gel_1.0_back.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Warbands/Lava_Whirl/Fire_Gel.xhtml', 
@@ -1208,7 +1209,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (53, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (53, 'Denizen', '8 Bit', 1); 
 --Pumpkin Patch --Index 54
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Pumpkin Patch',
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Pumpkin Patch',
 'http://htkb.info/SDE/1.0/Cards/Warbands/Pumpkin_Patch/Card_Warband_Pumpkin_Patch_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Warbands/Pumpkin_Patch/Card_Warband_Pumpkin_Patch_1.0_back.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Warbands/Pumpkin_Patch/Pumpkin_Patch.xhtml', 
@@ -1222,7 +1223,7 @@ insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, 
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (54, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (54, 'Spawning Point', 'Start', 0); 
 --Crypt Spider --Index 55
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Crypt Spider',
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Crypt Spider',
 'http://htkb.info/SDE/1.0/Cards/Warbands/Pumpkin_Patch/Card_Warband_Pumpkin_Patch_Crypt_Spider_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Warbands/Pumpkin_Patch/Card_Warband_Pumpkin_Patch_Crypt_Spider_1.0_back.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Warbands/Pumpkin_Patch/Crypt_Spider.xhtml', 
@@ -1237,7 +1238,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (55, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (55, 'Denizen', '8 Bit', 3); 
 --Curse Coven Witch --Index 56
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Curse Coven Witch',
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Curse Coven Witch',
 'http://htkb.info/SDE/1.0/Cards/Warbands/Pumpkin_Patch/Card_Warband_Pumpkin_Patch_Curse_Coven_Witch_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Warbands/Pumpkin_Patch/Card_Warband_Pumpkin_Patch_Curse_Coven_Witch_1.0_back.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Warbands/Pumpkin_Patch/Curse_Coven_Witch.xhtml', 
@@ -1255,7 +1256,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (56, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (56, 'Denizen', '8 Bit', 2); 
 --Skullbat --Index 57
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Skullbat',
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Skullbat',
 'http://htkb.info/SDE/1.0/Cards/Warbands/Pumpkin_Patch/Card_Warband_Pumpkin_Patch_Skullbat_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Warbands/Pumpkin_Patch/Card_Warband_Pumpkin_Patch_Skullbat_1.0_back.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Warbands/Pumpkin_Patch/Skullbat.xhtml', 
@@ -1273,7 +1274,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (57, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (57, 'Denizen', '8 Bit', 1); 
 --Rock Pile --Index 58
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Rock Pile',
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Rock Pile',
 'http://htkb.info/SDE/1.0/Cards/Warbands/Rock_Pile/Card_Warband_Rock_Pile_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Warbands/Rock_Pile/Card_Warband_Rock_Pile_1.0_back.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Warbands/Rock_Pile/Rock_Pile.xhtml', 
@@ -1289,7 +1290,7 @@ insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, 
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (58, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (58, 'Spawning Point', 'Start', 0);
 --Bombardier --Index 59
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Bombardier',
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Bombardier',
 'http://htkb.info/SDE/1.0/Cards/Warbands/Rock_Pile/Card_Warband_Rock_Pile_Bombardier_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Warbands/Rock_Pile/Card_Warband_Rock_Pile_Bombardier_1.0_back.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Warbands/Rock_Pile/Bombardier.xhtml', 
@@ -1305,7 +1306,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (59, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (59, 'Minion', '8 Bit', 1); 
 --Crusher --Index 60
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Crusher',
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Crusher',
 'http://htkb.info/SDE/1.0/Cards/Warbands/Rock_Pile/Card_Warband_Rock_Pile_Crusher_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Warbands/Rock_Pile/Card_Warband_Rock_Pile_Crusher_1.0_back.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Warbands/Rock_Pile/Crusher.xhtml', 
@@ -1319,7 +1320,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (60, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (60, 'Minion', '8 Bit', 3); 
 --Roller --Index 61
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Roller',
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Roller',
 'http://htkb.info/SDE/1.0/Cards/Warbands/Rock_Pile/Card_Warband_Rock_Pile_Roller_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Warbands/Rock_Pile/Card_Warband_Rock_Pile_Roller_1.0_back.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Warbands/Rock_Pile/Roller.xhtml', 
@@ -1334,7 +1335,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (61, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (61, 'Minion', '8 Bit', 2); 
 --Slowpoke --Index 62
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Slowpoke',
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Slowpoke',
 'http://htkb.info/SDE/1.0/Cards/Warbands/Rock_Pile/Card_Warband_Rock_Pile_Slowpoke_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Warbands/Rock_Pile/Card_Warband_Rock_Pile_Slowpoke_1.0_back.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Warbands/Rock_Pile/Slowpoke.xhtml', 
@@ -1348,7 +1349,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (62, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (62, 'Minion', '8 Bit', 1); 
 --Shallow Grave --Index 63
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Shallow Grave',
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Shallow Grave',
 'http://htkb.info/SDE/1.0/Cards/Warbands/Shallow_Grave/Card_Warband_Shallow_Grave_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Warbands/Shallow_Grave/Card_Warband_Shallow_Grave_1.0_back.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Warbands/Shallow_Grave/Shallow_Grave.xhtml', 
@@ -1364,7 +1365,7 @@ insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, 
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (63, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (63, 'Spawning Point', 'Start', 0);
 --Bone Head --Index 64
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Bone Head',
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Bone Head',
 'http://htkb.info/SDE/1.0/Cards/Warbands/Shallow_Grave/Card_Warband_Shallow_Grave_Bone_Head_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Warbands/Shallow_Grave/Card_Warband_Shallow_Grave_Bone_Head_1.0_back.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Warbands/Shallow_Grave/Bone_Head.xhtml', 
@@ -1377,7 +1378,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (64, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (64, 'Minion', '8 Bit', 1); 
 --Dread Knight --Index 65
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Dread Knight',
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Dread Knight',
 'http://htkb.info/SDE/1.0/Cards/Warbands/Shallow_Grave/Card_Warband_Shallow_Grave_Dread_Knight_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Warbands/Shallow_Grave/Card_Warband_Shallow_Grave_Dread_Knight_1.0_back.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Warbands/Shallow_Grave/Dread_Knight.xhtml', 
@@ -1392,7 +1393,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (65, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (65, 'Minion', '8 Bit', 2); 
 --Dust Coven Necromancer --Index 66
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Dust Coven Necromancer',
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Dust Coven Necromancer',
 'http://htkb.info/SDE/1.0/Cards/Warbands/Shallow_Grave/Card_Warband_Shallow_Grave_Dust_Coven_Necromancer_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Warbands/Shallow_Grave/Card_Warband_Shallow_Grave_Dust_Coven_Necromancer_1.0_back.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Warbands/Shallow_Grave/Dust_Coven_Necromancer.xhtml', 
@@ -1409,7 +1410,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (66, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (66, 'Minion', '8 Bit', 3);
 --Dust Mage --Index 67
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Dust Mage',
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Dust Mage',
 'http://htkb.info/SDE/1.0/Cards/Warbands/Shallow_Grave/Card_Warband_Shallow_Grave_Dust_Mage_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Warbands/Shallow_Grave/Card_Warband_Shallow_Grave_Dust_Mage_1.0_back.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Warbands/Shallow_Grave/Dust_Mage.xhtml', 
@@ -1426,7 +1427,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (67, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (67, 'Minion', '8 Bit', 1); 
 --Rattle Bone --Index 68
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Rattle Bone',
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Rattle Bone',
 'http://htkb.info/SDE/1.0/Cards/Warbands/Shallow_Grave/Card_Warband_Shallow_Grave_Rattle_Bone_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Warbands/Shallow_Grave/Card_Warband_Shallow_Grave_Rattle_Bone_1.0_back.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Warbands/Shallow_Grave/Rattle_Bone.xhtml', 
@@ -1442,7 +1443,7 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (6
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (68, 'Minion', '8 Bit', 1); 
 --Boss Spawns
 --Roxor --BossSpawnIndex 0  --CardIndex 69
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Roxor', 
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Roxor', 
 'http://htkb.info/SDE/1.0/Cards/Boss_Spawns/Card_Boss_Spawn_Roxor_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Boss_Spawns/Card_Boss_Spawn_Roxor_1.0.png',
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Boss_Spawns/Roxor.xhtml', 
@@ -1451,7 +1452,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into BossSpawns (CardIndex, DungeonEffect, BossSpawnEffect, TimeoutEffect, DifficultyRating) VALUES (69, 'Jagged Earth: All squares adjacent to spawning points are considered Difficult Terrain for Heroes.  Precious Metals:  Once per round Heroes may discard two unequipped loot cards and immediately draw another.', 'Molton Core:  Roxor enters play in Rock Form.  At the beginning of every activation choose one form for Roxor to assume.  Roxor gains the form''s gonuses until the beginning of his next activation:  Rock Form:  +1G Armor, Immune:  Status Effects, Fire Form:  +1G Attack, Fire, Tremors:  When Roxor enters paly place a Slow counter on every Boss Spawn.', 'Earthquake: Place a Knockdown counter on every Boss Spawn.  Summon: 1 Blaze Beetle, 2 Ember Hounds, 3 Burning Gels', '');
 insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (0, 36); 
 --Starfire --BossSpawnIndex 1  --CardIndex 70
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Starfire', 
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Starfire', 
 'http://htkb.info/SDE/1.0/Cards/Boss_Spawns/Card_Boss_Spawn_Starfire_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Boss_Spawns/Card_Boss_Spawn_Starfire_1.0.png',
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Boss_Spawns/Starfire.xhtml', 
@@ -1460,7 +1461,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into BossSpawns (CardIndex, DungeonEffect, BossSpawnEffect, TimeoutEffect, DifficultyRating) VALUES (70, 'Born of Fire:  Heroes that move into a square adjacent to any spawning point on the dungeon map immediately suffer fire.  The Red Stuff:  All Heroes gain the following potion type:  Dragon''s Blood:  Take one wound.  1R Attack, Fire', 'Inferno:  When Starfire enters play place a Fire counter on every Boss Spawn.  Burning Blades:  All minions and denizens gain the Fire ability as though it were printed on their stat card.', 'Fiery Escape:  All models in a quare adjacent to Starfire suffer Fire.  Summon: 2 Wyrmlings, 2 Whelps, 2 Hatchlings', '');
 insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (1, 37); 
 --Von Drakk --BossSpawnIndex 2  --CardIndex 71
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Von Drakk', 
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Von Drakk', 
 'http://htkb.info/SDE/1.0/Cards/Boss_Spawns/Card_Boss_Spawn_Von_Drakk_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Boss_Spawns/Card_Boss_Spawn_Von_Drakk_1.0.png',
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Boss_Spawns/Von_Drakk.xhtml', 
@@ -1470,7 +1471,7 @@ insert into BossSpawns (CardIndex, DungeonEffect, BossSpawnEffect, TimeoutEffect
 insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (2, 3); 
 --Equipment
 --Assassin's Crossbow --EquipmentIndex 0 --CardIndex 72
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Assassin''s Crossbow',
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Assassin''s Crossbow',
 'http://htkb.info/SDE/1.0/Cards/Treasure/Specific/Card_Treasure_Assassins_Crossbow_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Treasure/Specific/Card_Treasure_Back_1.0.png',
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Treasure/Specific/Assassins_Crossbow.xhtml', 
@@ -1480,7 +1481,7 @@ insert into Equipment (CardIndex, Position, Effect) VALUES (72, 'Top', '+1G DEX'
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (0, 84); --Pain
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (0, 29); --Kaelly
 --Bat Winged Key --EquipmentIndex 1 --CardIndex 73
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Bat Winged Key!',
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Bat Winged Key!',
 'http://htkb.info/SDE/1.0/Cards/Treasure/Specific/Card_Treasure_Bat_Winged_Key_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Treasure/Specific/Card_Treasure_Back_1.0.png',
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Treasure/Specific/Bat_Winged_Key.xhtml', 
@@ -1491,7 +1492,7 @@ insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (1, 76); --
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (1, 36); --Fly
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (1, 38); --Von Drakk
 --Bejeweled Shield --EquipmentIndex 2 --CardIndex 74
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Bejeweled Shield',
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Bejeweled Shield',
 'http://htkb.info/SDE/1.0/Cards/Treasure/Generic/Card_Treasure_Bejeweled_Shield_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Treasure/Generic/Card_Treasure_Back_1.0.png',
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Treasure/Generic/Bejeweled_Shield.xhtml', 
@@ -1500,7 +1501,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Equipment (CardIndex, Position, Effect) VALUES (74, 'Top', '+1R Armor');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (2, 5); --Backlash
 --Berserker's Helm --EquipmentIndex 3 --CardIndex 75
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Berserker''s Helm',
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Berserker''s Helm',
 'http://htkb.info/SDE/1.0/Cards/Loot/Card_Loot_Berserkers_Helm_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Loot_Back_1.0.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Loot/Berserkers_Helm.xhtml', 
@@ -1509,7 +1510,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Equipment (CardIndex, Position, Effect) VALUES (75, 'Right', '+1B Attack');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (3, 58); --Immune: Pacify
 --Bewitched Wand --EquipmentIndex 4 --CardIndex 76
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Bewitched Wand',
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Bewitched Wand',
 'http://htkb.info/SDE/1.0/Cards/Treasure/Specific/Card_Treasure_Bewitched_Wand_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Treasure/Specific/Card_Treasure_Back_1.0.png',
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Treasure/Specific/Bewitched_Wand.xhtml', 
@@ -1520,7 +1521,7 @@ insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (4, 23); --
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (4, 151); --Vulnerable: Fire
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (4, 38); --Von Drakk
 --Black Spot --EquipmentIndex 5 --CardIndex 77
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Black Spot',
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Black Spot',
 'http://htkb.info/SDE/1.0/Cards/Treasure/Specific/Card_Treasure_Black_Spot_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Treasure/Specific/Card_Treasure_Back_1.0.png',
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Treasure/Specific/Black_Spot.xhtml', 
@@ -1529,7 +1530,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Equipment (CardIndex, Position, Effect) VALUES (77, 'Top', '+1G Attack, When drawn a Hero must equip Black Spot.  Anytime this model makes a defense roll discard the highest result rolled.');
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (5, 26); --Captain R
 --Blazing Blade --EquipmentIndex 6 --CardIndex 78
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Blazing Blade',
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Blazing Blade',
 'http://htkb.info/SDE/1.0/Cards/Loot/Card_Loot_Blazing_Blade_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Loot_Back_1.0.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Loot/Blazing_Blade.xhtml', 
@@ -1538,7 +1539,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Equipment (CardIndex, Position, Effect) VALUES (78, 'Left', '+1B Attack');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (6, 32); --Fire
 --Boo Booty! --EquipmentIndex 7 --CardIndex 79
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Boo Booty!',
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Boo Booty!',
 'http://htkb.info/SDE/1.0/Cards/Treasure/Generic/Card_Treasure_Boo_Booty_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Treasure/Generic/Card_Treasure_Back_1.0.png',
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Treasure/Generic/Boo_Booty.xhtml', 
@@ -1546,7 +1547,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 '');
 insert into Equipment (CardIndex, Position, Effect) VALUES (79, 'None', 'Replace the opened treasure chest model with a Boo Booty model.  The Consul may activate the Boo Booty as normal during his turn.  When the Boo Booty is destroyed the Heroes may draw a relic card from the Treasure Deck.');
 --Burning Horn --EquipmentIndex 8 --CardIndex 80
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Burning Horn',
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Burning Horn',
 'http://htkb.info/SDE/1.0/Cards/Treasure/Specific/Card_Treasure_Burning_Horn_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Treasure/Specific/Card_Treasure_Back_1.0.png',
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Treasure/Specific/Burning_Horn.xhtml', 
@@ -1556,7 +1557,7 @@ insert into Equipment (CardIndex, Position, Effect) VALUES (80, 'Top', '+1G');
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (8, 37); --Starfire
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (8, 38); --Dragon's Breath
 --Caltrop Dagger --EquipmentIndex 9 --CardIndex 81
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Caltrop Dagger',
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Caltrop Dagger',
 'http://htkb.info/SDE/1.0/Cards/Loot/Card_Loot_Caltrop_Dagger_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Loot_Back_1.0.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Loot/Caltrop_Dagger.xhtml', 
@@ -1565,7 +1566,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Equipment (CardIndex, Position, Effect) VALUES (81, 'Left', '+1B DEX');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (9, 49); --Immobile
 --Cat's Paw --EquipmentIndex 10 --CardIndex 82
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Cat''s Paw',
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Cat''s Paw',
 'http://htkb.info/SDE/1.0/Cards/Treasure/Specific/Card_Treasure_Cats_Paw_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Treasure/Specific/Card_Treasure_Back_1.0.png',
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Treasure/Specific/Cats_Paw.xhtml', 
@@ -1575,7 +1576,7 @@ insert into Equipment (CardIndex, Position, Effect) VALUES (82, 'Top', '+1R DEX'
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (10, 13); --Nyan Nyan (Not Chaos Kitty)
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (10, 120); --Sneak Attack!
 --Cloak of Shadows --EquipmentIndex 11 --CardIndex 83
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Cloak of Shadows',
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Cloak of Shadows',
 'http://htkb.info/SDE/1.0/Cards/Treasure/Generic/Card_Treasure_Cloak_Of_Shadows_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Treasure/Generic/Card_Treasure_Back_1.0.png',
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Treasure/Generic/Cloak_Of_Shadows.xhtml', 
@@ -1584,7 +1585,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Equipment (CardIndex, Position, Effect) VALUES (83, 'Top', '+1R DEX');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (11, 130); --Stealth
 --Corpse Hand --EquipmentIndex 12 --CardIndex 84
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Corpse Hand',
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Corpse Hand',
 'http://htkb.info/SDE/1.0/Cards/Loot/Card_Loot_Corpse_Hand_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Loot_Back_1.0.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Loot/Corpse_Hand.xhtml', 
@@ -1593,7 +1594,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Equipment (CardIndex, Position, Effect) VALUES (84, 'Bottom', '+1B Attack');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (12, 21); --Choke
 --Coward's Boots --EquipmentIndex 13 --CardIndex 85
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Coward''s Boots',
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Coward''s Boots',
 'http://htkb.info/SDE/1.0/Cards/Loot/Card_Loot_Cowards_Boots_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Loot_Back_1.0.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Loot/Cowards_Boots.xhtml', 
@@ -1602,7 +1603,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Equipment (CardIndex, Position, Effect) VALUES (85, 'Right', '+1B DEX');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (13, 49); --Immune: Immobile
 --Cursed Talisman --EquipmentIndex 14 --CardIndex 86
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Cursed Talisman',
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Cursed Talisman',
 'http://htkb.info/SDE/1.0/Cards/Treasure/Specific/Card_Treasure_Cursed_Talisman_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Treasure/Specific/Card_Treasure_Back_1.0.png',
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Treasure/Specific/Cursed_Talisman.xhtml', 
@@ -1611,7 +1612,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Equipment (CardIndex, Position, Effect) VALUES (86, 'Top', '+1G Armor, Cursed Talisman must be immediately equipped when drawn and cannot be discarded.  Anytime this model makes a roll using its Attack attribute discard the highest result rolled.');
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (14, 38); --Von Drakk
 --Diamond Shield --EquipmentIndex 15 --CardIndex 87
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Diamond Shield',
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Diamond Shield',
 'http://htkb.info/SDE/1.0/Cards/Loot/Card_Loot_Diamond_Shield_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Loot_Back_1.0.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Loot/Diamond_Shield.xhtml', 
@@ -1620,7 +1621,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Equipment (CardIndex, Position, Effect) VALUES (87, 'Right', '+1B Attack');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (15, 38); --Immune: Fragile
 --Dragon Bow --EquipmentIndex 16 --CardIndex 88
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Dragon Bow',
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Dragon Bow',
 'http://htkb.info/SDE/1.0/Cards/Treasure/Specific/Card_Treasure_Dragon_Bow_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Treasure/Specific/Card_Treasure_Back_1.0.png',
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Treasure/Specific/Dragon_Bow.xhtml', 
@@ -1630,7 +1631,7 @@ insert into Equipment (CardIndex, Position, Effect) VALUES (88, 'Top', '+1G DEX'
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (16, 37); --Starfire
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (16, 121); --Solar Flare
 --Dragon Lance --EquipmentIndex 17 --CardIndex 89
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Dragon Lance',
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Dragon Lance',
 'http://htkb.info/SDE/1.0/Cards/Treasure/Specific/Card_Treasure_Dragon_Lance_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Treasure/Specific/Card_Treasure_Back_1.0.png',
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Treasure/Specific/Dragon_Lance.xhtml', 
@@ -1640,7 +1641,7 @@ insert into Equipment (CardIndex, Position, Effect) VALUES (89, 'Top', '');
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (17, 37); --Starfire
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (17, 28); --Coup de Grace
 --Dragon Scale Cloak --EquipmentIndex 18 --CardIndex 90
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Dragon Scale Cloak',
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Dragon Scale Cloak',
 'http://htkb.info/SDE/1.0/Cards/Treasure/Generic/Card_Treasure_Dragon_Scale_Cloak_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Treasure/Generic/Card_Treasure_Back_1.0.png',
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Treasure/Generic/Dragon_Scale_Cloak.xhtml', 
@@ -1649,7 +1650,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Equipment (CardIndex, Position, Effect) VALUES (90, 'Top', '+1G Armor');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (18, 54); --Immune: Fire
 --Drunken Dwarf Plate --EquipmentIndex 19 --CardIndex 91
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Drunken Dwarf Plate',
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Drunken Dwarf Plate',
 'http://htkb.info/SDE/1.0/Cards/Loot/Card_Loot_Drunken_Dwarf_Plate_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Loot_Back_1.0.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Loot/Drunken_Dwarf_Plate.xhtml', 
@@ -1658,7 +1659,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Equipment (CardIndex, Position, Effect) VALUES (91, 'Right', '+1B Armor');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (19, 57); --Immune: Knockdown
 --Elfin Boots --EquipmentIndex 20 --CardIndex 92
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Elfin Boots',
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Elfin Boots',
 'http://htkb.info/SDE/1.0/Cards/Loot/Card_Loot_Elfin_Boots_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Loot_Back_1.0.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Loot/Elfin_Boots.xhtml', 
@@ -1667,7 +1668,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Equipment (CardIndex, Position, Effect) VALUES (92, 'Right', '+1B DEX');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (20, 60); --Immune: Slow
 --Exemplar Shield --EquipmentIndex 21 --CardIndex 93
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Exemplar Shield',
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Exemplar Shield',
 'http://htkb.info/SDE/1.0/Cards/Treasure/Specific/Card_Treasure_Exemplar_Shield_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Treasure/Specific/Card_Treasure_Back_1.0.png',
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Treasure/Specific/Exemplar_Shield.xhtml', 
@@ -1677,7 +1678,7 @@ insert into Equipment (CardIndex, Position, Effect) VALUES (93, 'Top', '+1R Atta
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (21, 57); --Immune: Knockdown
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (21, 33); --Ser Snapjaw
 --Fire Gel Goo --EquipmentIndex 22 --CardIndex 94
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Fire Gel Goo',
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Fire Gel Goo',
 'http://htkb.info/SDE/1.0/Cards/Treasure/Specific/Card_Treasure_Fire_Gel_Goo_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Treasure/Specific/Card_Treasure_Back_1.0.png',
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Treasure/Specific/Fire_Gel_Goo.xhtml', 
@@ -1688,7 +1689,7 @@ insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (22, 54); -
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (22, 126); --Fire Gel Goo
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (22, 36); --Roxor
 --Fireflow Brew --EquipmentIndex 23 --CardIndex 95
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Fireflow Brew',
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Fireflow Brew',
 'http://htkb.info/SDE/1.0/Cards/Treasure/Generic/Card_Treasure_Fireflow_Brew_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Treasure/Generic/Card_Treasure_Back_1.0.png',
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Treasure/Generic/Fireflow_Brew.xhtml', 
@@ -1698,7 +1699,7 @@ insert into Equipment (CardIndex, Position, Effect) VALUES (95, 'Top', '2R Molot
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (23, 32); --Fire
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (23, 81); --Molotov
 --Fool's Gold --EquipmentIndex 24 --CardIndex 96
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Fool''s Gold',
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Fool''s Gold',
 'http://htkb.info/SDE/1.0/Cards/Treasure/Specific/Treasure_Fools_Gold_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Treasure/Specific/Card_Treasure_Back_1.0.png',
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Treasure/Specific/Fools_Gold.xhtml', 
@@ -1707,7 +1708,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Equipment (CardIndex, Position, Effect) VALUES (96, 'Top', 'At the end of each of this model''s activations draw one loot card.  Anytime this model makes a roll using its WILL attribute discard the highest result rolled.');
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (24, 36); --Roxor
 --Frozen Falchion --EquipmentIndex 25 --CardIndex 97
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Frozen Falchion',
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Frozen Falchion',
 'http://htkb.info/SDE/1.0/Cards/Loot/Card_Loot_Frozen_Falchion_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Loot_Back_1.0.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Loot/Frozen_Falchion.xhtml', 
@@ -1716,7 +1717,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Equipment (CardIndex, Position, Effect) VALUES (97, 'Left', '+1B Attack');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (25, 23); --Cold
 --Fur-Lined Gauntlets --EquipmentIndex 26 --CardIndex 98
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Fur-Lined Gauntlets',
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Fur-Lined Gauntlets',
 'http://htkb.info/SDE/1.0/Cards/Loot/Card_Loot_Fur_Lined_Gauntlets_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Loot_Back_1.0.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Loot/Fur_Lined_Gauntlets.xhtml', 
@@ -1725,7 +1726,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Equipment (CardIndex, Position, Effect) VALUES (98, 'Right', '+1B Attack');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (26, 53); --Immune: Cold
 --Gem of Greed --EquipmentIndex 27 --CardIndex 99
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Gem of Greed',
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Gem of Greed',
 'http://htkb.info/SDE/1.0/Cards/Treasure/Specific/Card_Treasure_Gem_Of_Greed_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Treasure/Specific/Card_Treasure_Back_1.0.png',
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Treasure/Specific/Gem_Of_Greed.xhtml', 
@@ -1734,7 +1735,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Equipment (CardIndex, Position, Effect) VALUES (99, 'Top', 'A Hero with the Gem of Greed may equip two loot cards to every equipment slot except relics.');
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (27, 37); --Starfire
 --Glass Hammer --EquipmentIndex 28 --CardIndex 100
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Glass Hammer',
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Glass Hammer',
 'http://htkb.info/SDE/1.0/Cards/Loot/Card_Loot_Glass_Hammer_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Loot_Back_1.0.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Loot/Glass_Hammer.xhtml', 
@@ -1743,7 +1744,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Equipment (CardIndex, Position, Effect) VALUES (100, 'Left', '+1B Armor');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (28, 38); --Fragile
 --Grimy Grim Granite Greaves --EquipmentIndex 29 --CardIndex 101
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Grimy Grim Granite Greaves',
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Grimy Grim Granite Greaves',
 'http://htkb.info/SDE/1.0/Cards/Treasure/Specific/Card_Treasure_Grimy_Grim_Granite_Greaves_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Treasure/Specific/Card_Treasure_Back_1.0.png',
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Treasure/Specific/Grimy_Grim_Granite_Greaves.xhtml', 
@@ -1755,7 +1756,7 @@ insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (29, 60); -
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (29, 56); --Immune: Immobile
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (29, 36); --Roxor
 --Guttering Candle --EquipmentIndex 30 --CardIndex 102
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Guttering Candle',
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Guttering Candle',
 'http://htkb.info/SDE/1.0/Cards/Treasure/Generic/Card_Treasure_Guttering_Candle_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Treasure/Generic/Card_Treasure_Back_1.0.png',
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Treasure/Generic/Guttering_Candle.xhtml', 
@@ -1764,7 +1765,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Equipment (CardIndex, Position, Effect) VALUES (102, 'Top', '+1R WILL');
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (30, 49); --Flicker
 --Hero's Regalia --EquipmentIndex 31 --CardIndex 103
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Hero''s Regalia',
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Hero''s Regalia',
 'http://htkb.info/SDE/1.0/Cards/Treasure/Generic/Card_Treasure_Heros_Regalia_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Treasure/Generic/Card_Treasure_Back_1.0.png',
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Treasure/Generic/Heros_Regalia.xhtml', 
@@ -1772,7 +1773,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Clothing makes the hero.');
 insert into Equipment (CardIndex, Position, Effect) VALUES (103, 'Top', '+1R Attack, +1R Armor');
 --Horned Mace --EquipmentIndex 32 --CardIndex 104
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Horned Mace',
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Horned Mace',
 'http://htkb.info/SDE/1.0/Cards/Loot/Card_Loot_Horned_Mace_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Loot_Back_1.0.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Loot/Horned_Mace.xhtml', 
@@ -1781,7 +1782,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Equipment (CardIndex, Position, Effect) VALUES (104, 'Left', '+1B Armor');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (32, 68); --Knockdown
 --Intimidating Axe --EquipmentIndex 33 --CardIndex 105
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Intimidating Axe',
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Intimidating Axe',
 'http://htkb.info/SDE/1.0/Cards/Loot/Card_Loot_Intimidating_Axe_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Loot_Back_1.0.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Loot/Intimidating_Axe.xhtml', 
@@ -1790,7 +1791,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Equipment (CardIndex, Position, Effect) VALUES (105, 'Left', '+1B Attack');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (33, 87); --Pacify
 --Miner's Helm --EquipmentIndex 34 --CardIndex 106
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Miner''s Helm',
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Miner''s Helm',
 'http://htkb.info/SDE/1.0/Cards/Treasure/Generic/Card_Treasure_Miners_Helm_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Treasure/Generic/Card_Treasure_Back_1.0.png',
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Treasure/Generic/Miners_Helm.xhtml', 
@@ -1799,7 +1800,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Equipment (CardIndex, Position, Effect) VALUES (106, 'Top', '+1R Armor');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (34, 62); --Immune: Stun
 --Molten Shield --EquipmentIndex 35 --CardIndex 107
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Molten Shield',
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Molten Shield',
 'http://htkb.info/SDE/1.0/Cards/Loot/Card_Loot_Molten_Shield_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Loot_Back_1.0.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Loot/Molten_Shield.xhtml', 
@@ -1808,7 +1809,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Equipment (CardIndex, Position, Effect) VALUES (107, 'Right', '+1B Attack');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (35, 54); --Immune: Fire
 --Mournful Vial --EquipmentIndex 36 --CardIndex 108
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Mournful Vial',
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Mournful Vial',
 'http://htkb.info/SDE/1.0/Cards/Treasure/Specific/Card_Treasure_Mournful_Vial_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Treasure/Specific/Card_Treasure_Back_1.0.png',
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Treasure/Specific/Mournful_Vial.xhtml', 
@@ -1819,7 +1820,7 @@ insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (36, 41); -
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (36, 72); --Just a Drop
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (36, 38); --Von Drakk
 --Pegasus Feather --EquipmentIndex 37 --CardIndex 109
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Pegasus Feather',
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Pegasus Feather',
 'http://htkb.info/SDE/1.0/Cards/Treasure/Generic/Card_Treasure_Pegasus_Feather_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Treasure/Generic/Card_Treasure_Back_1.0.png',
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Treasure/Generic/Pegasus_Feather.xhtml', 
@@ -1828,7 +1829,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Equipment (CardIndex, Position, Effect) VALUES (109, 'Top', '+1R DEX');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (37, 36); --Fly
 --Petrified Dragon Heart --EquipmentIndex 38 --CardIndex 110
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Petrified Dragon Heart',
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Petrified Dragon Heart',
 'http://htkb.info/SDE/1.0/Cards/Treasure/Specific/Card_Treasure_Petrified_Dragon_Heart_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Treasure/Specific/Card_Treasure_Back_1.0.png',
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Treasure/Specific/Petrified_Dragon_Heart.xhtml', 
@@ -1838,7 +1839,7 @@ insert into Equipment (CardIndex, Position, Effect) VALUES (110, 'Top', '+2 Hear
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (38, 41); --Healer
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (38, 37); --Starfire
 --Priest's Vestments --EquipmentIndex 39 --CardIndex 111
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Priest''s Vestments',
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Priest''s Vestments',
 'http://htkb.info/SDE/1.0/Cards/Treasure/Generic/Card_Treasure_Priests_Vestments_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Treasure/Generic/Card_Treasure_Back_1.0.png',
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Treasure/Generic/Priests_Vestments.xhtml', 
@@ -1847,7 +1848,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Equipment (CardIndex, Position, Effect) VALUES (111, 'Top', '+1R WILL');
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (39, 122); --Soothe
 --Possessed Cloak --EquipmentIndex 40 --CardIndex 112
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Possessed Cloak',
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Possessed Cloak',
 'http://htkb.info/SDE/1.0/Cards/Treasure/Specific/Card_Treasure_Possessed_Cloak_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Treasure/Specific/Card_Treasure_Back_1.0.png',
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Treasure/Specific/Possessed_Cloak.xhtml', 
@@ -1857,7 +1858,7 @@ insert into Equipment (CardIndex, Position, Effect) VALUES (112, 'Top', '+1B Att
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (40, 26); --Confuse
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (40, 38); --Von Drakk
 --Resurrection Charm --EquipmentIndex 41 --CardIndex 113
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Resurrection Charm',
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Resurrection Charm',
 'http://htkb.info/SDE/1.0/Cards/Loot/Card_Loot_Resurrection_Charm_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Loot_Back_1.0.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Loot/Resurrection_Charm.xhtml', 
@@ -1865,7 +1866,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'It lives!');
 insert into Equipment (CardIndex, Position, Effect) VALUES (113, 'Bottom', 'At the beginning of the round Resurrect one model and then remove this card from play.  If the Consul draws this card shuffle it back into the Loot Deck and draw again.');
 --Roxor's Bane --EquipmentIndex 42 --CardIndex 114
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Roxor''s Bane',
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Roxor''s Bane',
 'http://htkb.info/SDE/1.0/Cards/Treasure/Specific/Card_Treasure_Roxors_Bane_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Treasure/Specific/Card_Treasure_Back_1.0.png',
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Treasure/Specific/Roxors_Bane.xhtml', 
@@ -1875,7 +1876,7 @@ insert into Equipment (CardIndex, Position, Effect) VALUES (114, 'Top', '+1R Att
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (42, 23); --Cold
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (42, 36); --Roxor
 --Rumble & Ruckus --EquipmentIndex 43 --CardIndex 115
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Rumble & Ruckus',
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Rumble & Ruckus',
 'http://htkb.info/SDE/1.0/Cards/Treasure/Specific/Card_Treasure_Rumble_And_Ruckus_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Treasure/Specific/Card_Treasure_Back_1.0.png',
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Treasure/Specific/Rumble_And_Ruckus.xhtml', 
@@ -1885,104 +1886,104 @@ insert into Equipment (CardIndex, Position, Effect) VALUES (115, 'Top', '+1R Att
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (43, 68); --Knockdown
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (43, 142); --Tremor Strike
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (43, 36); --Roxor
---Rune of the Archmage --EquipmentIndex 44 --CardIndex 116
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Rune of the Archmage',
-'http://htkb.info/SDE/1.0/Cards/Treasure/Generic/Card_Treasure_Rune_Of_The_Archmage_1.0.png', 
-'http://htkb.info/SDE/1.0/Cards/Treasure/Generic/Card_Treasure_Back_1.0.png',
-'http://htkb.online/SDWiki/SDE/1.0/Cards/Treasure/Generic/Rune_Of_The_Archmage.xhtml', 
-'Treasure', '1.0', '1.0 Core Set', 'Default',
-'The world is mine to command.');
-insert into Equipment (CardIndex, Position, Effect) VALUES (116, 'Top', '+1G WILL');
---Rune of Better Defense --EquipmentIndex 45 --CardIndex 117
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Rune of Better Defense',
+--Rune of Better Defense --EquipmentIndex 44 --CardIndex 116
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Rune of Better Defense',
 'http://htkb.info/SDE/1.0/Cards/Loot/Card_Loot_Rune_Of_Better_Defense_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Loot_Back_1.0.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Loot/Rune_Of_Better_Defense.xhtml', 
 'Loot', '1.0', '1.0 Core Set', 'Default',
 'Nothing protects like Better Defense.');
-insert into Equipment (CardIndex, Position, Effect) VALUES (117, 'Right', '+1R Armor');
---Rune of Defense --EquipmentIndex 46 --CardIndex 118
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Rune of Defense',
+insert into Equipment (CardIndex, Position, Effect) VALUES (116, 'Right', '+1R Armor');
+--Rune of Defense --EquipmentIndex 45 --CardIndex 117
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Rune of Defense',
 'http://htkb.info/SDE/1.0/Cards/Loot/Card_Loot_Rune_Of_Defense_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Loot_Back_1.0.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Loot/Rune_Of_Defense.xhtml', 
 'Loot', '1.0', '1.0 Core Set', 'Default',
 'Stop hitting me!');
-insert into Equipment (CardIndex, Position, Effect) VALUES (118, 'Right', '+1B Armor');
---Rune of Focus --EquipmentIndex 47 --CardIndex 119
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Rune of Focus',
+insert into Equipment (CardIndex, Position, Effect) VALUES (117, 'Right', '+1B Armor');
+--Rune of Focus --EquipmentIndex 46 --CardIndex 118
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Rune of Focus',
 'http://htkb.info/SDE/1.0/Cards/Loot/Card_Loot_Rune_Of_Focus_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Loot_Back_1.0.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Loot/Rune_Of_Focus.xhtml', 
 'Loot', '1.0', '1.0 Core Set', 'Default',
 'I think I can.  I think I can.');
-insert into Equipment (CardIndex, Position, Effect) VALUES (119, 'Bottom', '+1B WILL');
---Rune of Haste --EquipmentIndex 48 --CardIndex 120
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Rune of Haste',
+insert into Equipment (CardIndex, Position, Effect) VALUES (118, 'Bottom', '+1B WILL');
+--Rune of Haste --EquipmentIndex 47 --CardIndex 119
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Rune of Haste',
 'http://htkb.info/SDE/1.0/Cards/Loot/Card_Loot_Rune_Of_Haste_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Loot_Back_1.0.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Loot/Rune_Of_Haste.xhtml', 
 'Loot', '1.0', '1.0 Core Set', 'Default',
 'I''m the best around.');
-insert into Equipment (CardIndex, Position, Effect) VALUES (120, 'Bottom', '+1AC'); 
---Rune of Health --EquipmentIndex 49 --CardIndex 121
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Rune of Health',
+insert into Equipment (CardIndex, Position, Effect) VALUES (119, 'Bottom', '+1AC'); 
+--Rune of Health --EquipmentIndex 48 --CardIndex 120
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Rune of Health',
 'http://htkb.info/SDE/1.0/Cards/Loot/Card_Loot_Rune_Of_Health_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Loot_Back_1.0.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Loot/Rune_Of_Health.xhtml', 
 'Loot', '1.0', '1.0 Core Set', 'Default',
 'Nothing is going to keep me down.');
-insert into Equipment (CardIndex, Position, Effect) VALUES (121, 'Bottom', '+1He'); 
---Rune of Meditation --EquipmentIndex 50 --CardIndex 122
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Rune of Meditation',
+insert into Equipment (CardIndex, Position, Effect) VALUES (120, 'Bottom', '+1He'); 
+--Rune of Meditation --EquipmentIndex 49 --CardIndex 121
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Rune of Meditation',
 'http://htkb.info/SDE/1.0/Cards/Loot/Card_Loot_Rune_Of_Meditation_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Loot_Back_1.0.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Loot/Rune_Of_Meditation.xhtml', 
 'Loot', '1.0', '1.0 Core Set', 'Default',
 'I think therefore I am.');
-insert into Equipment (CardIndex, Position, Effect) VALUES (122, 'Bottom', '+1R WILL');
---Rune of Mithril --EquipmentIndex 51 --CardIndex 123
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Rune of Mithril',
+insert into Equipment (CardIndex, Position, Effect) VALUES (121, 'Bottom', '+1R WILL');
+--Rune of Mithril --EquipmentIndex 50 --CardIndex 122
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Rune of Mithril',
 'http://htkb.info/SDE/1.0/Cards/Treasure/Generic/Card_Treasure_Rune_Of_Mithril_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Treasure/Generic/Card_Treasure_Back_1.0.png',
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Treasure/Generic/Rune_Of_Mithril.xhtml', 
 'Treasure', '1.0', '1.0 Core Set', 'Default',
 'There is no mere metal.');
-insert into Equipment (CardIndex, Position, Effect) VALUES (123, 'Top', '+1G Armor');
---Rune of Quicksilver --EquipmentIndex 52 --CardIndex 124
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Rune of Quicksilver',
+insert into Equipment (CardIndex, Position, Effect) VALUES (122, 'Top', '+1G Armor');
+--Rune of Quicksilver --EquipmentIndex 51 --CardIndex 123
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Rune of Quicksilver',
 'http://htkb.info/SDE/1.0/Cards/Treasure/Generic/Treasure_Rune_Of_Quicksilver_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Treasure/Generic/Card_Treasure_Back_1.0.png',
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Treasure/Generic/Rune_Of_Quicksilver.xhtml', 
 'Treasure', '1.0', '1.0 Core Set', 'Default',
 'Dodge, Dip, Duck, Dive');
-insert into Equipment (CardIndex, Position, Effect) VALUES (124, 'Top', '+1G DEX');
---Rune of Rage --EquipmentIndex 53 --CardIndex 125
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Rune of Rage',
+insert into Equipment (CardIndex, Position, Effect) VALUES (123, 'Top', '+1G DEX');
+--Rune of Rage --EquipmentIndex 52 --CardIndex 124
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Rune of Rage',
 'http://htkb.info/SDE/1.0/Cards/Loot/Card_Loot_Rune_Of_Rage_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Loot_Back_1.0.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Loot/Rune_Of_Rage.xhtml', 
 'Loot', '1.0', '1.0 Core Set', 'Default',
 'RAAAAARGH!');
-insert into Equipment (CardIndex, Position, Effect) VALUES (125, 'Left', '+1Star Attack');
---Rune of Strength --EquipmentIndex 54 --CardIndex 126
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Rune of Strength',
+insert into Equipment (CardIndex, Position, Effect) VALUES (124, 'Left', '+1Star Attack');
+--Rune of Strength --EquipmentIndex 53 --CardIndex 125
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Rune of Strength',
 'http://htkb.info/SDE/1.0/Cards/Loot/Card_Loot_Rune_Of_Strength_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Loot_Back_1.0.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Loot/Rune_Of_Strength.xhtml', 
 'Loot', '1.0', '1.0 Core Set', 'Default',
 'Might makes right.');
-insert into Equipment (CardIndex, Position, Effect) VALUES (126, 'Left', '+1B Attack');
---Rune of Super Defense --EquipmentIndex 55 --CardIndex 127
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Rune of Super Defense',
+insert into Equipment (CardIndex, Position, Effect) VALUES (125, 'Left', '+1B Attack');
+--Rune of Super Defense --EquipmentIndex 54 --CardIndex 126
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Rune of Super Defense',
 'http://htkb.info/SDE/1.0/Cards/Loot/Card_Loot_Rune_Of_Super_Defense_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Loot_Back_1.0.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Loot/Rune_Of_Super_Defense.xhtml', 
 'Loot', '1.0', '1.0 Core Set', 'Default',
 'When I need armor I get Super!');
-insert into Equipment (CardIndex, Position, Effect) VALUES (127, 'Right', '+1Star Armor');
+insert into Equipment (CardIndex, Position, Effect) VALUES (126, 'Right', '+1Star Armor');
+--Rune of the Archmage --EquipmentIndex 55 --CardIndex 127
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Rune of the Archmage',
+'http://htkb.info/SDE/1.0/Cards/Treasure/Generic/Card_Treasure_Rune_Of_The_Archmage_1.0.png', 
+'http://htkb.info/SDE/1.0/Cards/Treasure/Generic/Card_Treasure_Back_1.0.png',
+'http://htkb.online/SDWiki/SDE/1.0/Cards/Treasure/Generic/Rune_Of_The_Archmage.xhtml', 
+'Treasure', '1.0', '1.0 Core Set', 'Default',
+'The world is mine to command.');
+insert into Equipment (CardIndex, Position, Effect) VALUES (127, 'Top', '+1G WILL');
 --Rune of the Lynx --EquipmentIndex 56 --CardIndex 128
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Rune of the Lynx',
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Rune of the Lynx',
 'http://htkb.info/SDE/1.0/Cards/Loot/Card_Loot_Rune_Of_The_Lynx_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Loot_Back_1.0.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Loot/Rune_Of_The_Lynx.xhtml', 
@@ -1990,7 +1991,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Quick and sure.');
 insert into Equipment (CardIndex, Position, Effect) VALUES (128, 'Bottom', '+1Star DEX');
 --Rune of the Ogre --EquipmentIndex 57 --CardIndex 129
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Rune of the Ogre',
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Rune of the Ogre',
 'http://htkb.info/SDE/1.0/Cards/Loot/Card_Loot_Rune_Of_The_Ogre_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Loot_Back_1.0.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Loot/Rune_Of_The_Ogre.xhtml', 
@@ -1998,7 +1999,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Bigger and uglier.');
 insert into Equipment (CardIndex, Position, Effect) VALUES (129, 'Left', '+1R Attack');
 --Rune of the Panther --EquipmentIndex 58 --CardIndex 130
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Rune of the Panther',
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Rune of the Panther',
 'http://htkb.info/SDE/1.0/Cards/Loot/Card_Loot_Rune_Of_The_Panther_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Loot_Back_1.0.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Loot/Rune_Of_The_Panther.xhtml', 
@@ -2006,7 +2007,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Silence and grace.');
 insert into Equipment (CardIndex, Position, Effect) VALUES (130, 'Bottom', '+1R DEX');
 --Rune of the Sage --EquipmentIndex 59 --CardIndex 131
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Rune of the Sage',
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Rune of the Sage',
 'http://htkb.info/SDE/1.0/Cards/Loot/Card_Loot_Rune_Of_The_Sage_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Loot_Back_1.0.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Loot/Rune_Of_The_Sage.xhtml', 
@@ -2014,7 +2015,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'There is no spoon.');
 insert into Equipment (CardIndex, Position, Effect) VALUES (131, 'Bottom', '+1Star WILL');
 --Rune of the Stray --EquipmentIndex 60 --CardIndex 132
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Rune of the Stray',
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Rune of the Stray',
 'http://htkb.info/SDE/1.0/Cards/Loot/Card_Loot_Rune_Of_The_Stray_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Loot_Back_1.0.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Loot/Rune_Of_The_Stray.xhtml', 
@@ -2022,7 +2023,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Nice kitty.');
 insert into Equipment (CardIndex, Position, Effect) VALUES (132, 'Bottom', '+1B DEX');
 --Rune of the Titans --EquipmentIndex 61 --CardIndex 133
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Rune of the Titans',
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Rune of the Titans',
 'http://htkb.info/SDE/1.0/Cards/Treasure/Generic/Card_Treasure_Rune_Of_The_Titans_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Treasure/Generic/Card_Treasure_Back_1.0.png',
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Treasure/Generic/Rune_Of_The_Titans.xhtml', 
@@ -2030,7 +2031,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'None shall stand before us.');
 insert into Equipment (CardIndex, Position, Effect) VALUES (133, 'Top', '+1G Attack');
 --Runic Cloak --EquipmentIndex 62 --CardIndex 134
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Runic Charm',
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Runic Charm',
 'http://htkb.info/SDE/1.0/Cards/Treasure/Generic/Card_Treasure_Runic_Cloak_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Treasure/Generic/Card_Treasure_Back_1.0.png',
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Treasure/Generic/Runic_Cloak.xhtml', 
@@ -2039,7 +2040,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Equipment (CardIndex, Position, Effect) VALUES (134, 'Top', '+1R Armor');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (62, 61); --Immune: Status Effects
 --Sapper's Axe --EquipmentIndex 63 --CardIndex 135
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Sapper''s Axe',
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Sapper''s Axe',
 'http://htkb.info/SDE/1.0/Cards/Loot/Card_Loot_Sappers_Axe_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Loot_Back_1.0.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Loot/Sappers_Axe.xhtml', 
@@ -2048,7 +2049,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Equipment (CardIndex, Position, Effect) VALUES (135, 'Left', '+1B Attack');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (63, 167); --Weak
 --Serpent Plate --EquipmentIndex 64 --CardIndex 136
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Serpent Plate',
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Serpent Plate',
 'http://htkb.info/SDE/1.0/Cards/Loot/Card_Loot_Serpent_Plate_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Loot_Back_1.0.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Loot/Serpent_Plate.xhtml', 
@@ -2057,7 +2058,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Equipment (CardIndex, Position, Effect) VALUES (136, 'Right', '+1B Armor');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (64, 59); --Immune: Poison
 --Serpent Sword --EquipmentIndex 65 --CardIndex 137
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Serpent Sword',
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Serpent Sword',
 'http://htkb.info/SDE/1.0/Cards/Loot/Card_Loot_Serpent_Sword_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Loot_Back_1.0.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Loot/Serpent_Sword.xhtml', 
@@ -2066,7 +2067,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Equipment (CardIndex, Position, Effect) VALUES (137, 'Left', '+1B Attack');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (65, 90); --Poison
 --Silver Torq --EquipmentIndex 66 --CardIndex 138
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Silver Torq',
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Silver Torq',
 'http://htkb.info/SDE/1.0/Cards/Loot/Card_Loot_Silver_Torq_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Loot_Back_1.0.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Loot/Silver_Torq.xhtml', 
@@ -2075,7 +2076,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Equipment (CardIndex, Position, Effect) VALUES (138, 'Bottom', '+1B Armor');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (66, 52); --Immune: Choke
 --Sneaky Stilletto --EquipmentIndex 67 --CardIndex 139
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Sneaky Stilletto',
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Sneaky Stilletto',
 'http://htkb.info/SDE/1.0/Cards/Loot/Card_Loot_Sneaky_Stilletto_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Loot_Back_1.0.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Loot/Sneaky_Stilletto.xhtml', 
@@ -2084,7 +2085,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Equipment (CardIndex, Position, Effect) VALUES (139, 'Left', '+1B DEX');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (67, 117); --Slow
 --Sorcerer's Cowl --EquipmentIndex 68 --CardIndex 140
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Sorcerer''s Cowl',
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Sorcerer''s Cowl',
 'http://htkb.info/SDE/1.0/Cards/Loot/Card_Loot_Sorcerers_Cowl_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Loot_Back_1.0.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Loot/Sorcerers_Cowl.xhtml', 
@@ -2093,7 +2094,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Equipment (CardIndex, Position, Effect) VALUES (140, 'Right', '+1B WILL');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (68, 62); --Immune: Stun
 --Sorcerer's Stave --EquipmentIndex 69 --CardIndex 141
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Sorcerer''s Stave',
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Sorcerer''s Stave',
 'http://htkb.info/SDE/1.0/Cards/Loot/Card_Loot_Sorcerers_Stave_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Loot_Back_1.0.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Loot/Sorcerers_Stave.xhtml', 
@@ -2102,7 +2103,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Equipment (CardIndex, Position, Effect) VALUES (141, 'Left', '+1B WILL');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (69, 133); --Stun
 --Spiked Gauntlets --EquipmentIndex 70 --CardIndex 142
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Spiked Gauntlets',
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Spiked Gauntlets',
 'http://htkb.info/SDE/1.0/Cards/Loot/Card_Loot_Spiked_Gauntlets_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Loot_Back_1.0.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Loot/Spiked_Gauntlets.xhtml', 
@@ -2111,7 +2112,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Equipment (CardIndex, Position, Effect) VALUES (142, 'Right', '+1B Attack');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (70, 63); --Immune: Weak
 --Sword of Alacrity --EquipmentIndex 71 --CardIndex 143
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Sword of Alacrity',
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Sword of Alacrity',
 'http://htkb.info/SDE/1.0/Cards/Treasure/Generic/Card_Treasure_Sword_Of_Alacrity_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Treasure/Generic/Card_Treasure_Back_1.0.png',
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Treasure/Generic/Sword_Of_Alacrity.xhtml', 
@@ -2119,7 +2120,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Parry, Parry, Thrust, Thrust!');
 insert into Equipment (CardIndex, Position, Effect) VALUES (143, 'Top', '+1R Attack, +1Star');
 --Temptress Perfume --EquipmentIndex 72 --CardIndex 144
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Temptress Perfume',
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Temptress Perfume',
 'http://htkb.info/SDE/1.0/Cards/Treasure/Specific/Card_Treasure_Temptress_Perfume_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Treasure/Specific/Card_Treasure_Back_1.0.png',
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Treasure/Specific/Temptress_Perfume.xhtml', 
@@ -2130,7 +2131,7 @@ insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (72, 58); -
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (72, 151); --Wink
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (72, 34); --Succubus Vandella
 --Vulcanis' Maul --EquipmentIndex 73 --CardIndex 145
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Vulcanis'' Maul',
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Vulcanis'' Maul',
 'http://htkb.info/SDE/1.0/Cards/Treasure/Specific/Card_Treasure_Vulcanis_Maul_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Treasure/Specific/Card_Treasure_Back_1.0.png',
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Treasure/Specific/Vulcanis_Maul.xhtml', 
@@ -2141,7 +2142,7 @@ insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (73, 3); --
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (73, 5); --Backblast
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (73, 28); --Herald of Vulcanis
 --Withered Ring --EquipmentIndex 74 --CardIndex 146
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Withering Ring',
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Withering Ring',
 'http://htkb.info/SDE/1.0/Cards/Treasure/Specific/Card_Treasure_Withering_Ring_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Treasure/Specific/Card_Treasure_Back_1.0.png',
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Treasure/Specific/Withering_Ring.xhtml', 
@@ -2150,7 +2151,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Equipment (CardIndex, Position, Effect) VALUES (146, 'Top', '+1R WILL');
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (74, 38); --Von Drakk
 --Wizarding Wand --EquipmentIndex 75 --CardIndex 147
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Wizarding Wand',
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Wizarding Wand',
 'http://htkb.info/SDE/1.0/Cards/Loot/Card_Loot_Wizarding_Wand_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Loot_Back_1.0.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Loot/Wizarding_Wand.xhtml', 
@@ -2160,7 +2161,7 @@ insert into Equipment (CardIndex, Position, Effect) VALUES (147, 'Left', '+1B WI
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (75, 8); --Bind
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (75, 100); --Second Chance
 --Wizard's Robes --EquipmentIndex 76 --CardIndex 148
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Wizard''s Robes',
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Wizard''s Robes',
 'http://htkb.info/SDE/1.0/Cards/Loot/Card_Loot_Wizards_Robes_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Loot_Back_1.0.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Loot/Wizards_Robes.xhtml', 
@@ -2169,7 +2170,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Equipment (CardIndex, Position, Effect) VALUES (148, 'Left', '+1B WILL');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (76, 3); --Immune: Bind
 --Wobbling Stalactite --EquipmentIndex 77 --CardIndex 149
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Wobbling Stalactite',
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Wobbling Stalactite',
 'http://htkb.info/SDE/1.0/Cards/Treasure/Specific/Card_Treasure_Wobbling_Stalactite_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Treasure/Specific/Card_Treasure_Back_1.0.png',
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Treasure/Specific/Wobbling_Stalactite.xhtml', 
@@ -2179,7 +2180,7 @@ insert into Equipment (CardIndex, Position, Effect) VALUES (149, 'Top', '+1G DEX
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (77, 150); --Wibble
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (77, 36); --Roxor
 --Wyrm Scale --EquipmentIndex 78 --CardIndex 150
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor) VALUES ('Wyrm Scale',
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Wyrm Scale',
 'http://htkb.info/SDE/1.0/Cards/Treasure/Specific/Card_Treasure_Wyrm_Scale_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Treasure/Specific/Card_Treasure_Back_1.0.png',
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Treasure/Specific/Wyrm_Scale.xhtml', 
@@ -2190,29 +2191,29 @@ insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (78, 46); -
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (78, 37); --Starfire
 --Utility
 --Difficult Terrain
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor)
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
 VALUES ('Difficult Terrain',
 'http://htkb.info/SDE/1.0/Cards/Utility/Card_Utility_Terrain_Difficult_Terrain_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Utility/Card_Utility_Terrain_1.0_back.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Utility/Difficult_Terrain.xhtml', 
-'Utility', '1.0', '1.0 Core Set', 'Default', '');
-insert into Utilities (CardIndex, UtilityDescription) VALUES (43, 'Each square of difficult terrain a model enters costs two points of Speed.  If a model does not have enough Speed remaining to move into a square with difficult terrain it may not do so.'); --? Not sure what to put here
+'Terrain', '1.0', '1.0 Core Set', 'Default', '');
+insert into Utilities (CardIndex, UtilityDescription) VALUES (151, 'Each square of difficult terrain a model enters costs two points of Speed.  If a model does not have enough Speed remaining to move into a square with difficult terrain it may not do so.'); --? Not sure what to put here
 --Lava
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor)
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
 VALUES ('Lava',
 'http://htkb.info/SDE/1.0/Cards/Utility/Card_Utility_Terrain_Lava_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Utility/Card_Utility_Terrain_1.0_back.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Utility/Lava.xhtml', 
-'Utility', '1.0', '1.0 Core Set', 'Default', '');
-insert into Utilities (CardIndex, UtilityDescription) VALUES (43, 'A model entering a Lava square suffers Fire.'); 
+'Terrain', '1.0', '1.0 Core Set', 'Default', '');
+insert into Utilities (CardIndex, UtilityDescription) VALUES (152, 'A model entering a Lava square suffers Fire.'); 
 --Rules Addendum and Errata
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor)
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
 VALUES ('Rules Addendum and Errata',
 'http://htkb.info/SDE/1.0/Cards/Utility/Card_Utility_Addendums_Errata_Rules_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Utility/Card_Utility_Terrain_1.0_back.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Utility/Addendums_Errata_Rules.xhtml', 
 'Utility', '1.0', '1.0 Core Set', 'Default', '');
-insert into Utilities (CardIndex, UtilityDescription) VALUES (43, 'Offensive Potions:<br>Offensive Potions: are indicated by a green potion icon.<br><br>An Offensive Potion provides a model with a single use special action blue or special attack red.  These effects follow all normal rules for resolving special actions and attacks, including being able to target enemies and requiring attack and defense rolls (if the potion provides special attack).  They require no action points to use and are instead used by spending a potion token in the same manner as a normal potion, but may only be used during a model''s activation.<br><br>Vulnerable: X<br>Status Effect:  A model suffering Vulnerable X must discard the highest result rolled anytime it makes a defense roll against an attack or action which includes or uses the ability listed as X.'); 
+insert into Utilities (CardIndex, UtilityDescription) VALUES (153, 'Offensive Potions:<br>Offensive Potions: are indicated by a green potion icon.<br><br>An Offensive Potion provides a model with a single use special action blue or special attack red.  These effects follow all normal rules for resolving special actions and attacks, including being able to target enemies and requiring attack and defense rolls (if the potion provides special attack).  They require no action points to use and are instead used by spending a potion token in the same manner as a normal potion, but may only be used during a model''s activation.<br><br>Vulnerable: X<br>Status Effect:  A model suffering Vulnerable X must discard the highest result rolled anytime it makes a defense roll against an attack or action which includes or uses the ability listed as X.'); 
 
 
 

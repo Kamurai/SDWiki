@@ -3,7 +3,7 @@
 create PROCEDURE SDWikiPullNavigationArcadeBooty
 AS
 BEGIN
-	select CardName, Link
+	select distinct CardName, ProductSet, Link, PictureFront
 	from ArcadeBootyViewMultiLine
 	Order By ProductSet desc, CardName asc
 	;

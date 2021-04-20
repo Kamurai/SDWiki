@@ -4,21 +4,21 @@
 --drop table KeywordAssignments, AbilityAssignments, OffenseAssignments, DefenseAssignments
 --drop table Cards, Characters, Affinities, AffinityAssignments, KeywordAssignments, AbilityAssignments, ExploreCharacters, Attributes, OffenseAssignments, DefenseAssignments, Pets, Monsters, ArcadeCharacters, StatLines, GangMembers, Equipment, EquipmentAssignments, BossSpawns, BossSpawnAssignments, Utilities, Explores, ExploreTraps, ExploreCreeps, ExploreAssignments, Challenges, ChallengeAssignments, Plots, MightyMonsters;
 
-create table Cards (CardIndex bigint IDENTITY(0,1) PRIMARY KEY, Name varchar(50) not null, PictureFront varchar(125) not null, PictureBack varchar(125) not null, Link varchar(125) not null, CardType varchar(20) not null, ProductSet varchar(20) not null, Module varchar(20) not null, Mode varchar(10) not null, Flavor varchar(1250));
+create table Cards (CardIndex bigint IDENTITY(0,1) PRIMARY KEY, Name varchar(50) not null, PictureFront varchar(125) not null, PictureBack varchar(125) not null, Link varchar(125) not null, CardType varchar(20) not null, ProductSet varchar(20) not null, ProductModule varchar(20) not null, PlayMode varchar(10) not null, Flavor varchar(1250));
 create table Characters (CardIndex bigint not null, CharacterIndex bigint IDENTITY(0,1) PRIMARY KEY);
 create table Affinities (AffinityIndex bigint IDENTITY(0,1) PRIMARY KEY, AffinityType varchar(50) not null);
-insert into Affinities (AffinityType) VALUES ('Amethyst');
-insert into Affinities (AffinityType) VALUES ('Citrine');
-insert into Affinities (AffinityType) VALUES ('Emerald');
-insert into Affinities (AffinityType) VALUES ('Ruby');
-insert into Affinities (AffinityType) VALUES ('Sapphire');
+insert into Affinities (AffinityType) VALUES ('Amethyst'); --0
+insert into Affinities (AffinityType) VALUES ('Citrine'); --1
+insert into Affinities (AffinityType) VALUES ('Emerald'); --2
+insert into Affinities (AffinityType) VALUES ('Ruby'); --3
+insert into Affinities (AffinityType) VALUES ('Sapphire'); --4
 
 create table AffinityAssignments (AffinityAssignmentIndex bigint IDENTITY(0,1) PRIMARY KEY, AffinityIndex bigint not null, CharacterIndex bigint not null);
-create table Keywords (KeywordIndex bigint IDENTITY(0,1) PRIMARY KEY, Name varchar(50) not null, KeywordDescription varchar(2500) not null, KeywordVersion varchar(20) not null);
+create table Keywords (KeywordIndex bigint IDENTITY(0,1) PRIMARY KEY, KeywordVersion varchar(20) not null, PlayMode varchar(20) not null, Name varchar(50) not null, KeywordDescription varchar(2500) not null);
 
 create table KeywordAssignments (KeywordAssignmentIndex bigint IDENTITY(0,1) PRIMARY KEY, KeywordIndex bigint not null, ExploreCharacterIndex bigint, GangMemberIndex bigint, EquipmentIndex bigint, BossSpawnIndex bigint);
 
-create table Abilities (AbilityIndex bigint IDENTITY(0,1) PRIMARY KEY, Name varchar(50) not null, AbilityResource varchar(10) not null, AbilityType varchar(10) not null, AbilityCost int not null, AbilityAttribute bigint not null, AbilityRange int not null, AbilityDescription varchar(1000) not null, AbilityVersion varchar(20) not null);
+create table Abilities (AbilityIndex bigint IDENTITY(0,1) PRIMARY KEY, AbilityVersion varchar(20) not null, PlayMode varchar(20) not null, Name varchar(50) not null, AbilityResource varchar(10) not null, AbilityType varchar(10) not null, AbilityCost int not null, AttributeIndex bigint not null, AbilityRange int not null, AbilityDescription varchar(1000) not null);
 
 create table AbilityAssignments (AbilityAssignmentIndex bigint IDENTITY(0,1) PRIMARY KEY, AbilityIndex bigint not null, ExploreCharacterIndex bigint, GangMemberIndex bigint, EquipmentIndex bigint, ExploreTrapIndex bigint, BossSpawnIndex bigint);
 

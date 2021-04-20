@@ -1,11 +1,13 @@
 --drop view SpawnsViewMultiLine
 --Spawns
 create view SpawnsViewMultiLine as 
-select a.CardIndex, a.Name as CardName, PictureFront, PictureBack, Link, CardType, ProductSet, Module, Mode, Flavor, --Cards
+select a.CardIndex, a.Name as CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, a.PlayMode, Flavor, --Cards
 Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions, --ExploreCharacter
 AffinityType, --Affinity
 g.KeywordIndex, g.Name as KeywordName, KeywordDescription, --Keywords
-i.AbilityIndex, i.Name as AbilityName, AbilityResource, AbilityType, AbilityCost, AbilityAttribute, AbilityRange, AbilityDescription, --Abilities
+i.AbilityIndex, i.Name as AbilityName, AbilityResource, AbilityType, AbilityCost, --Abilities
+v.Attribute as AbilityAttribute, --Attributes
+AbilityRange, AbilityDescription, --Abilities
 k.AttributeIndex as OffenseIndex, k.Attribute as Offense, j.OffenseRange, --Offense
 m.AttributeIndex as DefenseIndex, m.Attribute as Defense, --Defense
 n.RankType, n.Bits, n.Skulls --Monster
@@ -18,9 +20,11 @@ full join KeywordAssignments f on c.ExploreCharacterIndex=f.ExploreCharacterInde
 full join Keywords g on f.KeywordIndex=g.KeywordIndex
 full join AbilityAssignments h on c.ExploreCharacterIndex=h.ExploreCharacterIndex
 full join Abilities i on h.AbilityIndex=i.AbilityIndex
+full join Attributes v on i.AttributeIndex=v.AttributeIndex
 full join OffenseAssignments j on c.ExploreCharacterIndex=j.ExploreCharacterIndex
 full join Attributes k on j.AttributeIndex=k.AttributeIndex
 full join DefenseAssignments l on c.ExploreCharacterIndex=l.ExploreCharacterIndex
 full join Attributes m on l.AttributeIndex=m.AttributeIndex
 full join Monsters n on c.ExploreCharacterIndex=n.ExploreCharacterIndex
 where a.CardType = 'Spawning Point'
+;

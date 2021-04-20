@@ -3,7 +3,7 @@
 create PROCEDURE SDWikiPullNavigationElites
 AS
 BEGIN
-	select CardName, Link
+	select distinct CardName, ProductSet, Link, PictureFront
 	from ElitesViewMultiLine
 	Order By ProductSet desc, CardName asc
 	;

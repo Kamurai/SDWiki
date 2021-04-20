@@ -21,11 +21,11 @@ public class UtilityBean extends CardBean{
         return utilityCard;
     }
 
-    public String setUtilityCard(String link){
+    public String setDisplayPage(String link){
         String path = uni.getAppPath()+link;
         
-        this.utilityCard = oneDAO.pullOneUtilityCard(path);
+        this.utilityCard  = oneDAO.pullOneUtilityCard(path);
         
-        return uni.getAppPath()+"SDE/Content/UtilityCard.xhtml";
+        return "./Layout.xhtml";
     }
 }

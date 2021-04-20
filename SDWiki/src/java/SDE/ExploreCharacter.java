@@ -48,7 +48,7 @@ public class ExploreCharacter extends Character implements KeywordInterface, Abi
         String              pictureBack,
         String              link,
         String              cardType,
-        String              productSet,
+        String              version,
         String              module,
         String              mode,
         String              flavor,
@@ -76,7 +76,7 @@ public class ExploreCharacter extends Character implements KeywordInterface, Abi
             pictureBack,
             link,
             cardType,
-            productSet,
+            version,
             module,
             mode,
             flavor,
@@ -235,12 +235,12 @@ public class ExploreCharacter extends Character implements KeywordInterface, Abi
         return result;
     }
     
-    public String getDefense(String attribute){
-        String result = "";
+    public Defense getDefense(String attribute){
+        Defense result = new Defense();
         
         for(int x=0; x < defenses.size(); x++){
             if(attribute.compareTo(defenses.get(x).getAttribute())==0){
-                result = defenses.get(x).getAttribute();
+                result = defenses.get(x);
                 break;
             }
         }
@@ -280,12 +280,12 @@ public class ExploreCharacter extends Character implements KeywordInterface, Abi
         return result;
     }
     
-    public String getOffense(String attribute){
-        String result = "";
+    public Offense getOffense(String attribute){
+        Offense result = new Offense();
         
         for(int x=0; x < offenses.size(); x++){
             if(attribute.compareTo(offenses.get(x).getAttribute())==0){
-                result = defenses.get(x).getAttribute();
+                result = offenses.get(x);
                 break;
             }
         }

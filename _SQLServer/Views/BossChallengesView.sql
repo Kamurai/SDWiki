@@ -1,7 +1,7 @@
 --drop view BossChallengesView
 --Boss Challenges
 create view BossChallengesView as 
-select a.CardIndex, a.Name as CardName, a.PictureFront, a.PictureBack, a.Link, a.CardType, a.ProductSet, a.Module, a.Mode, a.Flavor, --Cards
+select a.CardIndex, a.Name as CardName, a.PictureFront, a.PictureBack, a.Link, a.CardType, a.ProductSet, a.ProductModule, a.PlayMode, a.Flavor, --Cards
 c.Trap, c.Challenge, --Challenges
 f.Name as CharacterName, f.Link as CharacterLink--Cards
 from Cards a

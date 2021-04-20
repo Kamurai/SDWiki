@@ -1,0 +1,2 @@
+--FK Pets
+--Pets --ExploreCharacterIndex 69+ --CardIndex 154+

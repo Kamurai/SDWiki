@@ -3,7 +3,7 @@
 create PROCEDURE SDWikiPullNavigationUtilityCards
 AS
 BEGIN
-	select CardName, Link
+	select distinct CardName, ProductSet, Link, PictureFront
 	from UtilitiesView
 	Order By ProductSet desc, CardName asc
 	;
