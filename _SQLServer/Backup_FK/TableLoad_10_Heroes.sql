@@ -550,10 +550,29 @@ insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (94,
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (94, 240); --Confetti Sprinkle
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (94, 176); --Baked Goods
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (94, 1, 2); --Strength
-insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (94, 1, 8); --Will
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (94, 3, 8); --Will
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (94, 4); --Dexterity
 
-
+--Kunoichi Candy --CardIndex 181	--CharacterIndex 95	--ExploreCharacterIndex 95
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+'Kunoichi Candy', 
+'http://htkb.info/SDE/FK/Cards/Heroes/Card_Hero_Kunoichi_Candy_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Heroes/Card_Hero_Kunoichi_Candy_FK_back.png', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Heroes/Kunoichi_Candy.xhtml', 
+'Hero', 'FK', 'FK Core Set', 'Default', 
+'The adorable students of House Unicorn prefer to avoid combat whenever they are able.  on the rare occassion an adventuring party can coax a House Unicorn student to join them, they are gifted with a unique and powerful ally.  Staying at a safe distance from the fray, the House Unicorn student provides magical confections that delight the tastebuds and entice their party to unparalleled acts of heroism!');
+insert into Characters (CardIndex) VALUES (181);
+insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
+95, 'Feminine', 'Small', 'Human', 6, 3, '2B', '2B', '2R', '2R', 5, 1);
+insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (95, 4); --Ruby
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (95, 624); --Sidestep
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (95, 465); --Pachi-Pachi-Pachi
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (95, 278); --Distracting Costume
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (95, 454); --Ninja Pop
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (95, 1, 2); --Strength
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (95, 3, 6); --Will
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (95, 2); --Armor
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (95, 4); --Dexterity
 
 
 
