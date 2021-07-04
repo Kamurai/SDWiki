@@ -125,7 +125,7 @@ public class SDEDAONavigation extends DAO{
     }
     
     //Pull Navigation for Mini Bosses
-    public ArrayList<SDE.NavItem> pullNavigationForMinibosses(){
+    public ArrayList<SDE.NavItem> pullNavigationForMiniBosses(){
         CallableStatement stmt = null;
         ResultSet rs;
         ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
