@@ -13,3 +13,8 @@ SDWiki/nbproject/private/private.properties
 *.properties
 *.properties
 *.properties
+SDWiki/nbproject/project.xml
+SDWiki/nbproject/project.properties
+SDWiki/nbproject/genfiles.properties
+SDWiki/nbproject/build-impl.xml
+SDWiki/dist/SDWiki.war
