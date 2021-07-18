@@ -607,7 +607,7 @@ public class SDEDAOOne extends DAO{
             rs = stmt.executeQuery();
             
             while(rs.next()){
-                newCard         = (rs.getInt("CardIndex")       != previousCardIndex);
+                newCard         = ((rs.getInt("CardIndex")       != previousCardIndex));
                 newKeyword      = (rs.getInt("KeywordIndex")    != previousKeywordIndex);
                 newAbility      = (rs.getInt("AbilityIndex")    != previousAbilityIndex);
                 
@@ -632,28 +632,43 @@ public class SDEDAOOne extends DAO{
                 
                //if on new keyword
                 if(newKeyword){
-                    //add new keyword to last gang member
-                    result.addKeyword(
-                            rs.getString("KeywordName"),
-                            rs.getString("KeywordDescription")
-                    );
-                    
+                    //if keyword is valid
+                    if(
+                        rs.getString("KeywordName") != null &&
+                        rs.getString("KeywordDescription") != null)
+                    {
+                        //add new keyword to last gang member
+                        result.addKeyword(
+                                rs.getString("KeywordName"),
+                                rs.getString("KeywordDescription")
+                        );
+                    }
                     previousKeywordIndex = rs.getInt("KeywordIndex");
                 }
                 
                 //if on new ability
                 if(newAbility){
-                    //add new ability to last gang member
-                    result.addAbility(
-                        rs.getString("AbilityName"),
-                        rs.getString("AbilityResource"),
-                        rs.getString("AbilityType"),
-                        rs.getInt("AbilityCost"),
-                        rs.getString("AbilityAttribute"),
-                        rs.getInt("AbilityRange"),
-                        rs.getString("AbilityDescription")
-                    );
-                
+                    //if keyword is valid
+                    if(
+                        rs.getString("AbilityName") != null &&
+                        rs.getString("AbilityResource") != null &&
+                        rs.getString("AbilityType") != null &&
+                        rs.getString("AbilityCost") != null &&
+                        rs.getString("AbilityAttribute") != null &&
+                        rs.getString("AbilityRange") != null &&
+                        rs.getString("AbilityDescription") != null)
+                    {
+                        //add new ability to last gang member
+                        result.addAbility(
+                            rs.getString("AbilityName"),
+                            rs.getString("AbilityResource"),
+                            rs.getString("AbilityType"),
+                            rs.getInt("AbilityCost"),
+                            rs.getString("AbilityAttribute"),
+                            rs.getInt("AbilityRange"),
+                            rs.getString("AbilityDescription")
+                        );
+                    }
                     previousAbilityIndex = rs.getInt("AbilityIndex");
                 }
                     

@@ -15,13 +15,13 @@
         </h2>
         <div id="idCenterContent">
             <div>
-                <div class="inline">
+                <div class="cardPictureContainer">
                     <!-- Front of Card -->
-                    <img src="#{SDEEquipmentBean.getEquipment().getPictureFront()}"/>
+                    <img class="cardPicture" src="#{SDEEquipmentBean.getEquipment().getPictureFront()}"/>
                 </div>
-                <div class="inline">
+                <div class="cardPictureContainer">
                     <!-- Back of Card -->
-                    <img src="#{SDEEquipmentBean.getEquipment().getPictureBack()}"/>
+                    <img class="cardPicture" src="#{SDEEquipmentBean.getEquipment().getPictureBack()}"/>
                 </div>
             </div>
             
@@ -51,60 +51,40 @@
             
             <!-- List of Keywords -->
             <ui:repeat var="x" value="#{SDEEquipmentBean.getEquipment().getKeywords()}" size="#{SDEEquipmentBean.getEquipment().getKeywords().size()}" varStatus="myVarStatus" >
-                <div class="xRow">
-                    <div class="inline"><!-- Keyword -->#{x.getName()}</div>
-                    <tab/>
-                    <div class="inline"><!-- Definition -->#{x.getDescription()}</div>
-                </div>
+                <ui:fragment rendered="#{x.validateKeyword()}">
+                    <div class="xRow">
+                        <div class="inline"><!-- Keyword -->#{x.getName()}</div>
+                        <div class="inline"><!-- Definition -->#{x.getDescription()}</div>
+                    </div>
+                </ui:fragment>
             </ui:repeat>
             
             <!-- List of Abilities -->
-            <ui:repeat var="x" value="#{SDEEquipmentBean.getEquipment().getAbilities()}" size="#{SDEEquipmentBean.getEquipment().getAbilities().size()}" varStatus="myVarStatus" >
-                <div class="xRow">
-                    <div class="inline"><!-- Ability Name -->#{x.getName()}: </div>                     
-                    <div class="inline"><!-- Ability Cost -->#{x.getCost()}</div>                     
-                    <div class="inline"><!-- Ability Resource -->#{x.getResource()}</div>                     
-                    <div class="inline"><!-- Ability Type -->#{x.getType()}:</div>
-                    <tab/>
-                    
-                    <div class="inline">
-                        <c:choose>
-                            <c:when test="#{x.getAttribute().compareTo('0') == 0 }">
-                                Attack
-                            </c:when>
-                            <c:when test="#{x.getAttribute().compareTo('1') == 0 }">
-                                Strength
-                            </c:when>
-                            <c:when test="#{x.getAttribute().compareTo('2') == 0 }">
-                                Armor
-                            </c:when>
-                            <c:when test="#{x.getAttribute().compareTo('3') == 0 }">
-                                Will
-                            </c:when>
-                            <c:when test="#{x.getAttribute().compareTo('4') == 0 }">
-                                Dexterity
-                            </c:when>
-                            <c:otherwise>
-                                Error
-                            </c:otherwise>
-                        </c:choose>
-                    </div>
-                    
-                    <div class="inline">
-                        <c:choose>
-                            <c:when test="#{x.getRange() > 0 }">
-                                #{x.getRange()}
-                            </c:when>
-                            <c:when test="#{x.getRange() == 0 }">
+            <ui:repeat var="y" value="#{SDEEquipmentBean.getEquipment().getAbilities()}" size="#{SDEEquipmentBean.getEquipment().getAbilities().size()}" varStatus="myVarStatus" >
+                <ui:fragment rendered="#{y.validateAbility()}">
+                    <div class="yRow">
+                        <div class="inline"><!-- Ability Name -->#{y.getName()}: </div>                     
+                        <div class="inline"><!-- Ability Cost -->#{y.getCost()}</div>                     
+                        <div class="inline"><!-- Ability Resource -->#{y.getResource()}</div>                     
+                        <div class="inline"><!-- Ability Type -->#{y.getType()}:</div>
+                        <tab/>
+
+                        <div class="inline">
+                            #{y.getAttribute()}
+                        </div>
+
+                        <div class="inline">
+                            <ui:fragment rendered="#{y.getRange() > 0 }">
+                                #{y.getRange()}
+                            </ui:fragment>
+                            <ui:fragment rendered="#{y.getRange() == 0 }">
                                 Self
-                            </c:when>
-                            <c:otherwise>                                    
-                            </c:otherwise>
-                        </c:choose>
+                            </ui:fragment>
+                        </div>
+                        
+                        <div class="inline"><!-- Ability Description -->#{y.getDescription()}</div>
                     </div>
-                    
-                    <div class="inline"><!-- Ability Description -->#{x.getDescription()}</div>
-                </div>
+                </ui:fragment>
             </ui:repeat>
             <div>
                 Flavor Text: #{SDEEquipmentBean.getEquipment().getFlavor()}

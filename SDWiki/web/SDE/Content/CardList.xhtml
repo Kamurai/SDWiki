@@ -16,10 +16,10 @@
         <div id="idCenterContent">
             <!-- List of Abilities -->
             <ui:repeat var="x" value="#{SDECardBean.getCardList()}" size="#{SDECardBean.getCardList().size()}" varStatus="myVarStatus" >
-                <div class="inline">
+                <div class="galleryPictureContainer">
                     <a href="#{x.getLink()}">
                         <div>
-                            <img src="#{x.getPicture()}"/>
+                            <img class="galleryPicture" src="#{x.getPicture()}"/>
                         </div>
                         <div>
                             #{x.getName()} #{x.getVersion()}
