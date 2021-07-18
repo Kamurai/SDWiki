@@ -15,13 +15,13 @@
         </h2>
         <div id="idCenterContent">
             <div>
-                <div class="inline">
+                <div class="cardPictureContainer">
                     <!-- Front of Card -->
-                    <img src="#{SDEExploreCharacterBean.getExploreCharacter().getPictureFront()}"/>
+                    <img class="cardPicture" src="#{SDEExploreCharacterBean.getExploreCharacter().getPictureFront()}"/>
                 </div>
-                <div class="inline">
+                <div class="cardPictureContainer">
                     <!-- Back of Card -->
-                    <img src="#{SDEExploreCharacterBean.getExploreCharacter().getPictureBack()}"/>
+                    <img class="cardPicture" src="#{SDEExploreCharacterBean.getExploreCharacter().getPictureBack()}"/>
                 </div>
             </div>
             
@@ -195,26 +195,7 @@
                     <tab/>
                     
                     <div class="inline">
-                        <c:choose>
-                            <c:when test="#{x.getAttribute().compareTo('0') == 0 }">
-                                Attack
-                            </c:when>
-                            <c:when test="#{x.getAttribute().compareTo('1') == 0 }">
-                                Strength
-                            </c:when>
-                            <c:when test="#{x.getAttribute().compareTo('2') == 0 }">
-                                Armor
-                            </c:when>
-                            <c:when test="#{x.getAttribute().compareTo('3') == 0 }">
-                                Will
-                            </c:when>
-                            <c:when test="#{x.getAttribute().compareTo('4') == 0 }">
-                                Dexterity
-                            </c:when>
-                            <c:otherwise>
-                                Error
-                            </c:otherwise>
-                        </c:choose>
+                        #{x.getAttribute()}
                     </div>
                     
                     <div class="inline">

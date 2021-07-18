@@ -65,5 +65,20 @@ public class Keyword {
         return result;
     }
     
-    
+    public boolean validateKeyword(){
+        boolean result = false;
+        
+        if(
+            (this.name != null) &&
+            (this.name.length() > 0) &&
+            (this.description != null) &&
+            (this.description.length() > 0)
+        ){
+            result = true;
+        }else{
+            result = false;
+        }
+        
+        return true;
+    }
 }

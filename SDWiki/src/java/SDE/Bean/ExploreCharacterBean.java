@@ -12,32 +12,44 @@ import java.util.List;
 @RequestScoped
 public class ExploreCharacterBean extends CardBean{
     private ExploreCharacter exploreCharacter;
-    private List<SDE.NavItem> exploreCharacters;
+    private List<SDE.NavItem> exploreCharacterList;
     
     public ExploreCharacterBean(){
         super();
-        this.uni                = new Universal();
+        this.uni                    = new Universal();
         
-        this.exploreCharacter   = new ExploreCharacter();     
-        this.exploreCharacters  = new ArrayList<SDE.NavItem>();
+        this.exploreCharacter       = new ExploreCharacter();     
+        this.exploreCharacterList   = new ArrayList<SDE.NavItem>();
     }
 
     public ExploreCharacter getExploreCharacter() {
         return exploreCharacter;
     }
     
+    @Override
     public String setDisplayPage(String link){
         String path = uni.getAppPath()+link;
         
         if(path.compareTo("") != 0){
             this.exploreCharacter   = oneDAO.pullOneExploreCharacter(path);
         }
-        this.exploreCharacters  = navDAO.pullNavigationForHeroes();
+        this.exploreCharacterList  = navDAO.pullNavigationForHeroes();
         
         return "./Layout.xhtml";
     }
 
-    public List<SDE.NavItem> getExploreCharacters() {
-        return exploreCharacters;
+    public String setDisplayPage(String link, String version){
+        String path = uni.getAppPath()+link;
+        
+        if(path.compareTo("") != 0){
+            this.exploreCharacter   = oneDAO.pullOneExploreCharacter(path);
+        }
+        this.exploreCharacterList  = navDAO.pullNavigationForHeroes(version);
+        
+        return "./Layout.xhtml";
+    }
+
+    public List<SDE.NavItem> getExploreCharacterList() {
+        return exploreCharacterList;
     }
 }
