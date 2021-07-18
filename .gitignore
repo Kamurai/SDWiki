@@ -18,3 +18,7 @@ SDWiki/nbproject/project.properties
 SDWiki/nbproject/genfiles.properties
 SDWiki/nbproject/build-impl.xml
 SDWiki/dist/SDWiki.war
+*.class
+*.war
+*.xml
+*.properties
