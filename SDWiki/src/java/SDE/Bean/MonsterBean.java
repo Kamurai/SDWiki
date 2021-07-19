@@ -15,10 +15,10 @@ public class MonsterBean extends CardBean{
    
     public MonsterBean(){
         super();
-        this.uni       = new Universal();
+        this.uni            = new Universal();
         
-        this.monster   = new Monster();        
-        this.monsterList   = new ArrayList<SDE.NavItem>();
+        this.monster        = new Monster();        
+        this.monsterList    = new ArrayList<SDE.NavItem>();
     }
 
     public Monster getMonster() {
@@ -28,23 +28,29 @@ public class MonsterBean extends CardBean{
     @Override
     public String setDisplayPage(String link){
         String path = uni.getAppPath()+link;
+        String result = "./Layout.xhtml";
         
         if(path.compareTo("") != 0){
             this.monster        = oneDAO.pullOneMonster(path);
         }
         
-        return "./Layout.xhtml";
-    }
-
-    public String setDisplayPage(String link, String version){
-        String path = uni.getAppPath()+link;
-        
-        if(path.compareTo("") != 0){
-            this.monster   = oneDAO.pullOneMonster(path);
+        if(this.monster.getCardType().compareTo("Warband") == 0){
+            this.monsterList  = navDAO.pullNavigationForWarbands(this.monster.getVersion());
+        }else if(this.monster.getCardType().compareTo("Boss") == 0){
+            this.monsterList  = navDAO.pullNavigationForBosses(this.monster.getVersion());
+        }else if(this.monster.getCardType().compareTo("MiniBoss") == 0){
+            this.monsterList  = navDAO.pullNavigationForMiniBosses(this.monster.getVersion());
+        }else if(this.monster.getCardType().compareTo("Creep") == 0){
+            this.monsterList  = navDAO.pullNavigationForCreeps(this.monster.getVersion());
+        }else{
+            this.monsterList  = navDAO.pullNavigationForMonsters(this.monster.getVersion());
         }
-        this.monsterList  = navDAO.pullNavigationForMonsters(version);
         
-        return "./Layout.xhtml";
+        if(this.monster.getCardType().compareTo("Warband") == 0){
+            result = "../Layout.xhtml";
+        }
+        
+        return result;
     }
 
     public List<SDE.NavItem> getMonsterList() {

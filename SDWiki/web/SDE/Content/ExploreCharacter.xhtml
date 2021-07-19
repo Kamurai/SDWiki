@@ -178,44 +178,48 @@
             </div>
             <!-- List of Keywords -->
             <ui:repeat var="x" value="#{SDEExploreCharacterBean.getExploreCharacter().getKeywords()}" size="#{SDEExploreCharacterBean.getExploreCharacter().getKeywords().size()}" varStatus="myVarStatus" >
-                <div class="xRow">
-                    <div class="inline"><!-- Keyword -->#{x.getName()}</div>
-                    <tab/>
-                    <div class="inline"><!-- Definition -->#{x.getDescription()}</div>
-                </div>
+                <ui:fragment rendered="#{x.validateKeyword()}">
+                    <div class="xRow">
+                        <div class="inline"><!-- Keyword -->#{x.getName()}</div>
+                        <tab/>
+                        <div class="inline"><!-- Definition -->#{x.getDescription()}</div>
+                    </div>
+                </ui:fragment>
             </ui:repeat>
             
             <!-- List of Abilities -->
             <ui:repeat var="x" value="#{SDEExploreCharacterBean.getExploreCharacter().getAbilities()}" size="#{SDEExploreCharacterBean.getExploreCharacter().getAbilities().size()}" varStatus="myVarStatus" >
-                <div class="xRow">
-                    <div class="inline"><!-- Ability Name -->#{x.getName()}: </div>                     
-                    <div class="inline"><!-- Ability Cost -->#{x.getCost()}</div>                     
-                    <div class="inline"><!-- Ability Resource -->#{x.getResource()}</div>                     
-                    <div class="inline"><!-- Ability Type -->#{x.getType()}:</div>
-                    <tab/>
-                    
-                    <div class="inline">
-                        #{x.getAttribute()}
+                <ui:fragment rendered="#{y.validateAbility()}">
+                    <div class="xRow">
+                        <div class="inline"><!-- Ability Name -->#{x.getName()}: </div>                     
+                        <div class="inline"><!-- Ability Cost -->#{x.getCost()}</div>                     
+                        <div class="inline"><!-- Ability Resource -->#{x.getResource()}</div>                     
+                        <div class="inline"><!-- Ability Type -->#{x.getType()}:</div>
+                        <tab/>
+
+                        <div class="inline">
+                            #{x.getAttribute()}
+                        </div>
+
+                        <div class="inline">
+                            <c:choose>
+                                <c:when test="#{x.getRange() > 0 }">
+                                    #{x.getRange()}
+                                </c:when>
+                                <c:when test="#{x.getRange() == 0 }">
+                                    Self
+                                </c:when>
+                                <c:otherwise>                                    
+                                </c:otherwise>
+                            </c:choose>
+                        </div>
+
+
+
+
+                        <div class="inline"><!-- Ability Description -->#{x.getDescription()}</div>
                     </div>
-                    
-                    <div class="inline">
-                        <c:choose>
-                            <c:when test="#{x.getRange() > 0 }">
-                                #{x.getRange()}
-                            </c:when>
-                            <c:when test="#{x.getRange() == 0 }">
-                                Self
-                            </c:when>
-                            <c:otherwise>                                    
-                            </c:otherwise>
-                        </c:choose>
-                    </div>
-                    
-                    
-                    
-                    
-                    <div class="inline"><!-- Ability Description -->#{x.getDescription()}</div>
-                </div>
+                </ui:fragment>
             </ui:repeat>
             <div>
                 Flavor Text: #{SDEExploreCharacterBean.getExploreCharacter().getFlavor()}

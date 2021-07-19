@@ -26,4 +26,4 @@ full join Attributes k on j.AttributeIndex=k.AttributeIndex
 full join DefenseAssignments l on c.ExploreCharacterIndex=l.ExploreCharacterIndex
 full join Attributes m on l.AttributeIndex=m.AttributeIndex
 full join Monsters n on c.ExploreCharacterIndex=n.ExploreCharacterIndex
-where a.CardType = 'Spawning Point' or a.CardType = 'Minion' or a.CardType = 'Elite' or a.CardType = 'Mini Boss' or a.CardType = 'Boss' or a.CardType = 'Booty' or a.CardType = 'Creep'
+where a.CardType = 'Spawning Point' or a.CardType = 'Minion' or a.CardType = 'Elite' or a.CardType = 'Mini Boss' or a.CardType = 'Boss' or a.CardType = 'Booty' or a.CardType = 'Creep' or a.CardType = 'Warband'

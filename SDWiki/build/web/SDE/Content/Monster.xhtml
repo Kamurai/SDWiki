@@ -15,13 +15,13 @@
         </h2>
         <div id="idCenterContent">
             <div>
-                <div class="inline">
+                <div class="cardPictureContainer">
                     <!-- Front of Card -->
-                    <img src="#{SDEMonsterBean.getMonster().getPictureFront()}"/>
+                    <img class="cardPicture" src="#{SDEMonsterBean.getMonster().getPictureFront()}"/>
                 </div>
-                <div class="inline">
+                <div  class="cardPictureContainer">
                     <!-- Back of Card -->
-                    <img src="#{SDEMonsterBean.getMonster().getPictureBack()}"/>
+                    <img class="cardPicture" src="#{SDEMonsterBean.getMonster().getPictureBack()}"/>
                 </div>
             </div>
             
@@ -188,63 +188,67 @@
             
             <!-- List of Keywords -->
             <ui:repeat var="x" value="#{SDEMonsterBean.getMonster().getKeywords()}" size="#{SDEMonsterBean.getMonster().getKeywords().size()}" varStatus="myVarStatus" >
-                <div class="xRow">
-                    <div class="inline"><!-- Keyword -->#{x.getName()}</div>
-                    <tab/>
-                    <div class="inline"><!-- Definition -->#{x.getDescription()}</div>
-                </div>
+                <ui:fragment rendered="#{x.validateKeyword()}">
+                    <div class="xRow">
+                        <div class="inline"><!-- Keyword -->#{x.getName()}</div>
+                        <tab/>
+                        <div class="inline"><!-- Definition -->#{x.getDescription()}</div>
+                    </div>
+                </ui:fragment>
             </ui:repeat>
             
             <!-- List of Abilities -->
             <ui:repeat var="x" value="#{SDEMonsterBean.getMonster().getAbilities()}" size="#{SDEMonsterBean.getMonster().getAbilities().size()}" varStatus="myVarStatus" >
-                <div class="xRow">
-                    <div class="inline"><!-- Ability Name -->#{x.getName()}: </div>                     
-                    <div class="inline"><!-- Ability Cost -->#{x.getCost()}</div>                     
-                    <div class="inline"><!-- Ability Resource -->#{x.getResource()}</div>                     
-                    <div class="inline"><!-- Ability Type -->#{x.getType()}:</div>
-                    <tab/>
-                    
-                    <div class="inline">
-                        <c:choose>
-                            <c:when test="#{x.getAttribute().compareTo('0') == 0 }">
-                                Attack
-                            </c:when>
-                            <c:when test="#{x.getAttribute().compareTo('1') == 0 }">
-                                Strength
-                            </c:when>
-                            <c:when test="#{x.getAttribute().compareTo('2') == 0 }">
-                                Armor
-                            </c:when>
-                            <c:when test="#{x.getAttribute().compareTo('3') == 0 }">
-                                Will
-                            </c:when>
-                            <c:when test="#{x.getAttribute().compareTo('4') == 0 }">
-                                Dexterity
-                            </c:when>
-                            <c:otherwise>
-                                Error
-                            </c:otherwise>
-                        </c:choose>
+                <ui:fragment rendered="#{y.validateAbility()}">
+                    <div class="xRow">
+                        <div class="inline"><!-- Ability Name -->#{x.getName()}: </div>                     
+                        <div class="inline"><!-- Ability Cost -->#{x.getCost()}</div>                     
+                        <div class="inline"><!-- Ability Resource -->#{x.getResource()}</div>                     
+                        <div class="inline"><!-- Ability Type -->#{x.getType()}:</div>
+                        <tab/>
+
+                        <div class="inline">
+                            <c:choose>
+                                <c:when test="#{x.getAttribute().compareTo('0') == 0 }">
+                                    Attack
+                                </c:when>
+                                <c:when test="#{x.getAttribute().compareTo('1') == 0 }">
+                                    Strength
+                                </c:when>
+                                <c:when test="#{x.getAttribute().compareTo('2') == 0 }">
+                                    Armor
+                                </c:when>
+                                <c:when test="#{x.getAttribute().compareTo('3') == 0 }">
+                                    Will
+                                </c:when>
+                                <c:when test="#{x.getAttribute().compareTo('4') == 0 }">
+                                    Dexterity
+                                </c:when>
+                                <c:otherwise>
+                                    Error
+                                </c:otherwise>
+                            </c:choose>
+                        </div>
+
+                        <div class="inline">
+                            <c:choose>
+                                <c:when test="#{x.getRange() > 0 }">
+                                    #{x.getRange()}
+                                </c:when>
+                                <c:when test="#{x.getRange() == 0 }">
+                                    Self
+                                </c:when>
+                                <c:otherwise>                                    
+                                </c:otherwise>
+                            </c:choose>
+                        </div>
+
+
+
+
+                        <div class="inline"><!-- Ability Description -->#{x.getDescription()}</div>
                     </div>
-                    
-                    <div class="inline">
-                        <c:choose>
-                            <c:when test="#{x.getRange() > 0 }">
-                                #{x.getRange()}
-                            </c:when>
-                            <c:when test="#{x.getRange() == 0 }">
-                                Self
-                            </c:when>
-                            <c:otherwise>                                    
-                            </c:otherwise>
-                        </c:choose>
-                    </div>
-                    
-                    
-                    
-                    
-                    <div class="inline"><!-- Ability Description -->#{x.getDescription()}</div>
-                </div>
+                </ui:fragment>
             </ui:repeat>
             <div>
                 Flavor Text: #{SDEMonsterBean.getMonster().getFlavor()}

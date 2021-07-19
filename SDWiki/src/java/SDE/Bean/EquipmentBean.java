@@ -33,91 +33,18 @@ public class EquipmentBean extends CardBean{
             this.equipment   = oneDAO.pullOneEquipment(path);
         }
         
-        setNewEquipmentList();
-        
-        return "./Layout.xhtml";
-    }
-
-    public String setDisplayPage(String link, String version){
-        String path = uni.getAppPath()+link;
-        
-        if(path.compareTo("") != 0){
-            this.equipment   = oneDAO.pullOneEquipment(path);
+        if(this.equipment.getCardType().compareTo("Loot") == 0){
+            this.equipmentList  = navDAO.pullNavigationForLoot(this.equipment.getVersion());
+        }else if(this.equipment.getCardType().compareTo("Treasure") == 0){
+            this.equipmentList  = navDAO.pullNavigationForTreasure(this.equipment.getVersion());
+        }else{
+            this.equipmentList  = navDAO.pullNavigationForEquipment(this.equipment.getVersion());
         }
-        
-        setNewEquipmentList(version);
-        
-        
-        return "./Layout.xhtml";
-    }
-
-    public String setDisplayPage(String link, String version, String type){
-        String path = uni.getAppPath()+link;
-        
-        if(path.compareTo("") != 0){
-            this.equipment   = oneDAO.pullOneEquipment(path);
-        }
-        
-        setNewEquipmentList(version, type);
         
         return "./Layout.xhtml";
     }
 
     public List<SDE.NavItem> getEquipmentList() {
-        return this.equipmentList;
-    }
-    
-    private void setNewEquipmentList(){
-        this.equipmentList = navDAO.pullNavigationForEquipment();
-    }
-    
-    public List<SDE.NavItem> getNewEquipmentList() {
-        setNewEquipmentList();
-        
-        return this.equipmentList;
-    }
-    
-    private void setNewEquipmentList(String version){
-        if(version.compareTo("") == 0 || version.compareTo("All") == 0){
-            this.equipmentList  = navDAO.pullNavigationForEquipment();
-        }else{
-            this.equipmentList  = navDAO.pullNavigationForEquipment(version);
-        }
-    }
-    
-    public List<SDE.NavItem> getNewEquipmentList(String version) {
-        setNewEquipmentList(version);
-        
-        return this.equipmentList;
-    }
-    
-    private void setNewEquipmentList(String version, String type){
-        if(version.compareTo("") == 0 || version.compareTo("All") == 0){
-            if(type.compareTo("Loot") == 0){
-                this.equipmentList  = navDAO.pullNavigationForLoot();
-            }else if(type.compareTo("Treasure") == 0){
-                this.equipmentList  = navDAO.pullNavigationForTreasure();
-            }else if(type.compareTo("Relic") == 0){
-                this.equipmentList  = navDAO.pullNavigationForRelics();
-            }else{
-                this.equipmentList  = navDAO.pullNavigationForEquipment();
-            }
-        }else{
-            if(type.compareTo("Loot") == 0){
-                this.equipmentList  = navDAO.pullNavigationForLoot(version);
-            }else if(type.compareTo("Treasure") == 0){
-                this.equipmentList  = navDAO.pullNavigationForTreasure(version);
-            }else if(type.compareTo("Relic") == 0){
-                this.equipmentList  = navDAO.pullNavigationForRelics(version);
-            }else{
-                this.equipmentList  = navDAO.pullNavigationForEquipment(version);
-            }
-        }
-    }
-    
-    public List<SDE.NavItem> getNewEquipmentList(String version, String type) {
-        setNewEquipmentList(version, type);
-        
         return this.equipmentList;
     }
 }

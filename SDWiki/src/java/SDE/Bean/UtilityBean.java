@@ -48,7 +48,7 @@ public class UtilityBean extends CardBean{
         return "./Layout.xhtml";
     }
 
-    public List<SDE.NavItem> getExploreCharacterList() {
+    public List<SDE.NavItem> getUtilityCardList() {
         return utilityCardList;
     }
 }

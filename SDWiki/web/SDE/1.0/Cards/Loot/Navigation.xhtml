@@ -21,7 +21,7 @@
             <li><a class="navlinkB" href="../../../2.0/Loot.xhtml">2.0</a></li>
             <li><a class="navlinkB" href="../../../FK/Loot.xhtml">FK</a></li>
             <li><a class="navlinkB" href="../../Loot.xhtml">1.0</a></li>
-            <ui:repeat var="x" value="#{SDEEquipmentBean.getNewEquipmentList('1.0', 'Loot')}" size="#{SDEEquipmentBean.getEquipmentList().size()}" varStatus="myVarStatus" >
+            <ui:repeat var="x" value="#{SDEEquipmentBean.getEquipmentList()}" size="#{SDEEquipmentBean.getEquipmentList().size()}" varStatus="myVarStatus" >
                 <li>
                     <a class="navlinkC" href="#{x.getLink()}">#{x.getName()}</a>
                 </li>
@@ -32,6 +32,8 @@
             <li><a class="navlinkA" href="../../../Treasure.xhtml">Treasure</a></li>
             <!-- Navigation Page: Utility Cards-->
             <li><a class="navlinkA" href="../../../Utility_Cards.xhtml">Utility Cards</a></li>
+            <!-- Navigation Page: Warbands-->
+            <li><a class="navlinkA" href="../../../Warbands.xhtml">Warbands</a></li>
         </ul>
     </h:body>
 </html>

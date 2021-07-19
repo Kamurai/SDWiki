@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:c="http://java.sun.com/jsp/jstl/core"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets">
+    <h:head />
+    <h:body>
+        <ul class="navigationUl">
+            <!-- Navigation Page: Booty-->
+            <li><a class="navlinkA" href="../../../Booty.xhtml">Booty</a></li>
+            <!-- Navigation Page: Boss Spawn-->
+            <li><a class="navlinkA" href="../../../Boss_Spawns.xhtml">Boss Spawns</a></li>
+            <!-- Navigation Page: Bosses-->
+            <li><a class="navlinkA" href="../../../Bosses.xhtml">Bosses</a></li>
+            <!-- Navigation Page: Heroes-->
+            <li><a class="navlinkA" href="../../../Heroes.xhtml">Heroes</a></li>
+            <!-- Navigation Page: Loot-->
+            <li><a class="navlinkA" href="../../../Loot.xhtml">Loot</a></li>
+            <!-- Navigation Page: Minibosses-->
+            <li><a class="navlinkA" href="../../../MiniBosses.xhtml">MiniBosses</a></li>
+            <!-- Navigation Page: Treasure-->
+            <li><a class="navlinkA" href="../../../Treasure.xhtml">Treasure</a></li>
+            <!-- Navigation Page: Utility Cards-->
+            <li><a class="navlinkA" href="../../../Utility_Cards.xhtml">Utility Cards</a></li>
+            <!-- Navigation Page: Warbands-->
+            <li><a class="navlinkA" href="../../../Warbands.xhtml">Warbands</a></li>
+                <ui:repeat var="x" value="#{SDEMonsterBean.getMonsterList()}" size="#{SDEMonsterBean.getMonsterList().size()}" varStatus="myVarStatus" >
+                <li>
+                    <a class="navlinkB" href="#{x.getLink()}">#{x.getName()}</a>
+                </li>
+                </ui:repeat>            
+        </ul>
+    </h:body>
+</html>
+
