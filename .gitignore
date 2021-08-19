@@ -22,3 +22,5 @@ SDWiki/dist/SDWiki.war
 *.war
 *.xml
 *.properties
+*.properties
+*.xml
