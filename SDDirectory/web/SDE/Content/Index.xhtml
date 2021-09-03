@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets">
+    <h:head />
+    <h:body>
+         <title>
+            Super Dungeon Explore Directory
+        </title>
+        <h2>
+            Super Dungeon Explore Directory
+        </h2>
+        <div>
+            <!-- #{SDEBean.setStarted(true)} -->
+             
+            <ui:repeat var="y" value="#{SDEBean.getLinkList()}" size="#{SDEBean.getLinkList().size()}" varStatus="myVarStatus" >
+                <div>
+                    <a href="#{y}">#{y}</a>
+                </div>
+            </ui:repeat>
+        </div>
+    </h:body>
+</html>
+

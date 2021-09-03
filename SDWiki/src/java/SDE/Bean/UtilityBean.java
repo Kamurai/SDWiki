@@ -32,18 +32,7 @@ public class UtilityBean extends CardBean{
         if(path.compareTo("") != 0){
             this.utilityCard  = oneDAO.pullOneUtilityCard(path);
         }
-        this.utilityCardList  = navDAO.pullNavigationForUtilities();
-        
-        return "./Layout.xhtml";
-    }
-
-    public String setDisplayPage(String link, String version){
-        String path = uni.getAppPath()+link;
-        
-        if(path.compareTo("") != 0){
-            this.utilityCard   = oneDAO.pullOneUtilityCard(path);
-        }
-        this.utilityCardList  = navDAO.pullNavigationForHeroes(version);
+        this.utilityCardList  = navDAO.pullNavigationForUtilities(utilityCard.getVersion());
         
         return "./Layout.xhtml";
     }

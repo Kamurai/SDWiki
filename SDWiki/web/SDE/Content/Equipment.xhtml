@@ -63,9 +63,9 @@
             <ui:repeat var="y" value="#{SDEEquipmentBean.getEquipment().getAbilities()}" size="#{SDEEquipmentBean.getEquipment().getAbilities().size()}" varStatus="myVarStatus" >
                 <ui:fragment rendered="#{y.validateAbility()}">
                     <div class="yRow">
-                        <div class="inline"><!-- Ability Name -->#{y.getName()}: </div>                     
-                        <div class="inline"><!-- Ability Cost -->#{y.getCost()}</div>                     
-                        <div class="inline"><!-- Ability Resource -->#{y.getResource()}</div>                     
+                        <div class="inline"><!-- Ability Name -->#{y.getName()}: </div>
+                        <div class="inline"><!-- Ability Cost -->#{y.getCost()}</div>
+                        <div class="inline"><!-- Ability Resource -->#{y.getResource()}</div>
                         <div class="inline"><!-- Ability Type -->#{y.getType()}:</div>
                         <tab/>
 
