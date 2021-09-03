@@ -8,29 +8,101 @@
     <h:head />
     <h:body>
         <ul class="navigationUl">
-            <!-- Navigation Page: Booty-->
-            <li><a class="navlinkA" href="../../../Booty.xhtml">Booty</a></li>
-            <!-- Navigation Page: Boss Spawn-->
-            <li><a class="navlinkA" href="../../../Boss_Spawns.xhtml">Boss Spawns</a></li>
-            <!-- Navigation Page: Bosses-->
-            <li><a class="navlinkA" href="../../../Bosses.xhtml">Bosses</a></li>
-            <!-- Navigation Page: Heroes-->
-            <li><a class="navlinkA" href="../../../Heroes.xhtml">Heroes</a></li>
-            <ui:repeat var="x" value="#{SDEExploreCharacterBean.getExploreCharacters()}" size="#{SDEExploreCharacterBean.getExploreCharacters().size()}" varStatus="myVarStatus" >
+            <li>
+                <div>
+                    <a class="navlinkA" href="/SDWiki/SDE/Booty.xhtml">Booty</a>
+                </div>
+                <div>
+                    <div class="navTriColumn"><a class="navlinkC" href="/SDWiki/SDE/1.0/Booty.xhtml">1.0</a></div>
+                    <div class="navTriColumn"><a class="navlinkC" href="/SDWiki/SDE/FK/Booty.xhtml">FK</a></div>
+                    <div class="navTriColumn"><a class="navlinkC" href="/SDWiki/SDE/2.0/Booty.xhtml">2.0</a></div>
+                </div>
+            </li>
+            <li>
+                <div>
+                    <a class="navlinkA" href="/SDWiki/SDE/Boss_Spawns.xhtml">Boss Spawns</a>
+                </div>
+                <div>
+                    <div class="navTriColumn"><a class="navlinkC" href="/SDWiki/SDE/1.0/Boss_Spawns.xhtml">1.0</a></div>
+                    <div class="navTriColumn"><a class="navlinkC" href="/SDWiki/SDE/FK/Boss_Spawns.xhtml">FK</a></div>
+                    <div class="navTriColumn"><a class="navlinkC" href="/SDWiki/SDE/2.0/Boss_Spawns.xhtml">2.0</a></div>
+                </div>
+            </li>
+            <li>
+                <div>
+                    <a class="navlinkA" href="/SDWiki/SDE/Bosses.xhtml">Bosses</a>
+                </div>
+                <div>
+                    <div class="navTriColumn"><a class="navlinkC" href="/SDWiki/SDE/1.0/Bosses.xhtml">1.0</a></div>
+                    <div class="navTriColumn"><a class="navlinkC" href="/SDWiki/SDE/FK/Bosses.xhtml">FK</a></div>
+                    <div class="navTriColumn"><a class="navlinkC" href="/SDWiki/SDE/2.0/Bosses.xhtml">2.0</a></div>
+                </div>
+            </li>
+            <ui:repeat var="x" value="#{SDEMonsterBean.getMonsterList()}" size="#{SDEMonsterBean.getMonsterList().size()}" varStatus="myVarStatus" >
                 <li>
                     <a class="navlinkB" href="#{x.getLink()}">#{x.getName()}</a>
                 </li>
-            </ui:repeat>            
-            <!-- Navigation Page: Loot-->
-            <li><a class="navlinkA" href="../../../Loot.xhtml">Loot</a></li>
-            <!-- Navigation Page: Minibosses-->
-            <li><a class="navlinkA" href="../../../MiniBosses.xhtml">MiniBosses</a></li>
-            <!-- Navigation Page: Treasure-->
-            <li><a class="navlinkA" href="../../../Treasure.xhtml">Treasure</a></li>
-            <!-- Navigation Page: Utility Cards-->
-            <li><a class="navlinkA" href="../../../Utility_Cards.xhtml">Utility Cards</a></li>
-            <!-- Navigation Page: Warbands-->
-            <li><a class="navlinkA" href="../../../Warbands.xhtml">Warbands</a></li>
+            </ui:repeat>
+            <li>
+                <div>
+                    <a class="navlinkA" href="/SDWiki/SDE/Heroes.xhtml">Heroes</a>
+                </div>
+                <div>
+                   <div class="navTriColumn"><a class="navlinkC" href="/SDWiki/SDE/1.0/Heroes.xhtml">1.0</a></div>
+                   <div class="navTriColumn"><a class="navlinkC" href="/SDWiki/SDE/FK/Heroes.xhtml">FK</a></div>
+                   <div class="navTriColumn"><a class="navlinkC" href="/SDWiki/SDE/2.0/Heroes.xhtml">2.0</a></div>
+                </div>
+            </li>
+            <li>
+                <div>
+                    <a class="navlinkA" href="/SDWiki/SDE/Loot.xhtml">Loot</a>
+                </div>
+                <div>
+                    <div class="navTriColumn"><a class="navlinkC" href="/SDWiki/SDE/1.0/Loot.xhtml">1.0</a></div>
+                    <div class="navTriColumn"><a class="navlinkC" href="/SDWiki/SDE/FK/Loot.xhtml">FK</a></div>
+                    <div class="navTriColumn"><a class="navlinkC" href="/SDWiki/SDE/2.0/Loot.xhtml">2.0</a></div>
+                </div>
+            </li>
+            <li>
+                <div>
+                    <a class="navlinkA" href="/SDWiki/SDE/MiniBosses.xhtml">MiniBosses</a>
+                </div>
+                <div>
+                    <div class="navTriColumn"><a class="navlinkC" href="/SDWiki/SDE/1.0/MiniBosses.xhtml">1.0</a></div>
+                    <div class="navTriColumn"><a class="navlinkC" href="/SDWiki/SDE/FK/MiniBosses.xhtml">FK</a></div>
+                    <div class="navTriColumn"><a class="navlinkC" href="/SDWiki/SDE/2.0/MiniBosses.xhtml">2.0</a></div>
+                </div>
+            </li>
+            <li>
+                <div>
+                    <a class="navlinkA" href="/SDWiki/SDE/Treasure.xhtml">Treasure</a>
+                </div>
+                <div>
+                    <div class="navTriColumn"><a class="navlinkC" href="/SDWiki/SDE/1.0/Treasure.xhtml">1.0</a></div>
+                    <div class="navTriColumn"><a class="navlinkC" href="/SDWiki/SDE/FK/Treasure.xhtml">FK</a></div>
+                    <div class="navTriColumn"><a class="navlinkC" href="/SDWiki/SDE/2.0/Treasure.xhtml">2.0</a></div>
+                </div>
+            </li>
+            <li>
+                <div>
+                    <a class="navlinkA" href="/SDWiki/SDE/Utility_Cards.xhtml">Utility Cards</a>
+                </div>
+                <div>
+                    <div class="navTriColumn"><a class="navlinkC" href="/SDWiki/SDE/1.0/Utility_Cards.xhtml">1.0</a></div>
+                    <div class="navTriColumn"><a class="navlinkC" href="/SDWiki/SDE/FK/Utility_Cards.xhtml">FK</a></div>
+                    <div class="navTriColumn"><a class="navlinkC" href="/SDWiki/SDE/2.0/Utility_Cards.xhtml">2.0</a></div>
+                </div>
+            </li>
+            <li>
+                <div>
+                    <a class="navlinkA" href="/SDWiki/SDE/Warbands.xhtml">Warbands</a>
+                </div>
+                <div>
+                    <div class="navTriColumn"><a class="navlinkC" href="/SDWiki/SDE/1.0/Warbands.xhtml">1.0</a></div>
+                    <div class="navTriColumn"><a class="navlinkC" href="/SDWiki/SDE/FK/Warbands.xhtml">FK</a></div>
+                    <div class="navTriColumn"><a class="navlinkC" href="/SDWiki/SDE/2.0/Warbands.xhtml">2.0</a></div>
+                </div>
+            </li>
         </ul>
     </h:body>
 </html>

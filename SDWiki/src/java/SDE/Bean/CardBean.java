@@ -146,9 +146,9 @@ public class CardBean extends Bean{
             this.title      = "Bosses";
             this.header     = "Bosses";
             this.cardList   = navDAO.pullNavigationForBosses(version);
-        }else if(type.compareTo("Minibosses") == 0){
-            this.title      = "Minibosses";
-            this.header     = "Minibosses";
+        }else if(type.compareTo("MiniBosses") == 0){
+            this.title      = "MiniBosses";
+            this.header     = "MiniBosses";
             this.cardList   = navDAO.pullNavigationForMiniBosses(version);
         }else if(type.compareTo("Booty") == 0){
             this.title      = "Booty";

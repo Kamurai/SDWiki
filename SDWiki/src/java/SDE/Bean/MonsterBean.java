@@ -42,6 +42,8 @@ public class MonsterBean extends CardBean{
             this.monsterList  = navDAO.pullNavigationForMiniBosses(this.monster.getVersion());
         }else if(this.monster.getCardType().compareTo("Creep") == 0){
             this.monsterList  = navDAO.pullNavigationForCreeps(this.monster.getVersion());
+        }else if(this.monster.getCardType().compareTo("Booty") == 0){
+            this.monsterList  = navDAO.pullNavigationForBooty(this.monster.getVersion());
         }else{
             this.monsterList  = navDAO.pullNavigationForMonsters(this.monster.getVersion());
         }

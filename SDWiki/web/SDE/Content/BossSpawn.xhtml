@@ -8,20 +8,20 @@
     <h:head />
     <h:body>
          <title>
-            #{SDEExploreCharacterBean.getExploreCharacter().getName()}
+            #{SDEBossSpawnBean.getBossSpawn().getName()}
         </title>
         <h2>
-            #{SDEExploreCharacterBean.getExploreCharacter().getName()}
+            #{SDEBossSpawnBean.getBossSpawn().getName()}
         </h2>
         <div id="idCenterContent">
             <div>
                 <div class="cardPictureContainer">
                     <!-- Front of Card -->
-                    <img class="cardPicture" src="#{SDEExploreCharacterBean.getExploreCharacter().getPictureFront()}"/>
+                    <img class="cardPicture" src="#{SDEBossSpawnBean.getBossSpawn().getPictureFront()}"/>
                 </div>
                 <div class="cardPictureContainer">
                     <!-- Back of Card -->
-                    <img class="cardPicture" src="#{SDEExploreCharacterBean.getExploreCharacter().getPictureBack()}"/>
+                    <img class="cardPicture" src="#{SDEBossSpawnBean.getBossSpawn().getPictureBack()}"/>
                 </div>
             </div>
             
@@ -29,216 +29,57 @@
             <div>
                 <div>
                     <div class="inline">
-                        Card Type: #{SDEExploreCharacterBean.getExploreCharacter().getCardType()}
+                        Card Type: #{SDEBossSpawnBean.getBossSpawn().getCardType()}
                     </div>
                     <div class="inline">
-                        Version: #{SDEExploreCharacterBean.getExploreCharacter().getVersion()}
+                        Version: #{SDEBossSpawnBean.getBossSpawn().getVersion()}
                     </div>
                 </div>
                 <div>
                     <div class="inline">
-                        Creature Type: #{SDEExploreCharacterBean.getExploreCharacter().getCreatureType()}
-                    </div>
-                    <div class="inline">
-                        Product Module: #{SDEExploreCharacterBean.getExploreCharacter().getModule()}
+                        Product Module: #{SDEBossSpawnBean.getBossSpawn().getModule()}
                     </div>
                 </div>
+            </div>
+            <div>
+                Dungeon Effects:
                 <div>
-                    <div class="inline">
-                        Model Size: #{SDEExploreCharacterBean.getExploreCharacter().getModelSize()}
-                    </div>
-                    <div class="inline">
-                        Play Mode: #{SDEExploreCharacterBean.getExploreCharacter().getMode()}
-                    </div>
-                    <div class="inline">
-                        Gender: #{SDEExploreCharacterBean.getExploreCharacter().getGender()}
-                    </div>
+                    #{SDEBossSpawnBean.getBossSpawn().getDungeonEffect()}
                 </div>
+            </div>
+
+            <div>
+                Boss Fight Effects:
+                <div>
+                    #{SDEBossSpawnBean.getBossSpawn().getBossSpawnEffect()}
+                </div>
+            </div>
+
+            
+            <div>
+                Timeout Effect:
+                <div>
+                    #{SDEBossSpawnBean.getBossSpawn().getTimeoutEffect()}
+                </div>
+            </div>
+
+            <div>
+                Related Character: 
+                <a href="#{SDEBossSpawnBean.getBossSpawn().getCharacterLink()}">
+                    #{SDEBossSpawnBean.getBossSpawn().getCharacterName()}
+                </a>
             </div>
             
             <div>
-                 <div class="inline">
-                     Movement: #{SDEExploreCharacterBean.getExploreCharacter().getMovement()}
-                 </div>
-                <div class="inline">
-                    Actions: #{SDEExploreCharacterBean.getExploreCharacter().getActions()}
-                </div>
-            </div>
-            <div>
-                <div class="inline">
-                    <div>Attributes</div>
-                    <c:choose>
-                        <c:when test="#{ ( SDEExploreCharacterBean.getExploreCharacter().getVersion() == '1.0' )}">
-                            <div>Attack: </div>
-                        </c:when>
-                        <c:otherwise>
-                            <div>Strength: </div>
-                        </c:otherwise>
-                    </c:choose>
-                    <div>Armor: </div>
-                    <div>Will: </div>
-                    <div>Dexterity: </div>
-                </div>
-                <div class="inline">
-                    <div>Offense</div>
-                    <c:choose>
-                        <c:when test="#{ ( SDEExploreCharacterBean.getExploreCharacter().getVersion() == '1.0' )}">
-                            <div><!-- Attack Offense -->#{ ( SDEExploreCharacterBean.getExploreCharacter().containsOffense("Attack") )}</div>
-                        </c:when>
-                        <c:otherwise>
-                            <div><!-- Strength Offense -->#{ ( SDEExploreCharacterBean.getExploreCharacter().containsOffense("Strength") )}</div>
-                        </c:otherwise>
-                    </c:choose>
-                    <div><!-- Armor Offense -->#{ ( SDEExploreCharacterBean.getExploreCharacter().containsOffense("Armor") )}</div>
-                    <div><!-- Will Offense -->#{ ( SDEExploreCharacterBean.getExploreCharacter().containsOffense("Will") )}</div>
-                    <div><!-- Dexterity Offense -->#{ ( SDEExploreCharacterBean.getExploreCharacter().containsOffense("Dexterity") )}</div>
-                </div>
-                <div class="inline">
-                    <div>Range</div>
-                    <div>
-                        <c:choose>
-                            <c:when test="#{ ( SDEExploreCharacterBean.getExploreCharacter().getVersion() == '1.0' )}">
-                                <c:if test ="#{  SDEExploreCharacterBean.getExploreCharacter().containsOffense('Attack') == true }">
-                                    <c:if test ="#{ ( (SDEExploreCharacterBean.getExploreCharacter().getOffense('Attack').getRange()) >= 0) }">
-                                        <!-- Attack Offense -->#{ ( SDEExploreCharacterBean.getExploreCharacter().getOffense('Attack').getRange() )}
-                                    </c:if>
-                                </c:if>
-                            </c:when>
-                            <c:otherwise>
-                                 <c:if test ="#{SDEExploreCharacterBean.getExploreCharacter().getOffense('Strength').getRange() >= 0}">
-                                    <!-- Strength Offense -->#{ ( SDEExploreCharacterBean.getExploreCharacter().getOffense('Strength').getRange() )}
-                                </c:if>
-                            </c:otherwise>
-                        </c:choose>
-                    </div>
-                    <div>
-                        <c:choose>
-                            <c:when test ="#{ ( SDEExploreCharacterBean.getExploreCharacter().getOffense('Armor').getRange() >= 0)}">
-                                <!-- Armor Offense -->#{ ( SDEExploreCharacterBean.getExploreCharacter().getOffense('Armor').getRange() )}
-                            </c:when>
-                            <c:otherwise>
-                                0
-                            </c:otherwise>
-                        </c:choose>                        
-                    </div>
-                    <div>
-                        <c:choose>
-                            <c:when test ="#{ ( SDEExploreCharacterBean.getExploreCharacter().getOffense('Will').getRange() >= 0)}">
-                                <!-- Will Offense -->#{ ( SDEExploreCharacterBean.getExploreCharacter().getOffense('Will').getRange() )}
-                            </c:when>
-                            <c:otherwise>
-                                0
-                            </c:otherwise>
-                        </c:choose>
-                    </div>
-                    <div>
-                        <c:choose>
-                            <c:when test ="#{ ( SDEExploreCharacterBean.getExploreCharacter().getOffense('Dexterity').getRange() >= 0)}">
-                                <!-- Dexterity Offense -->#{ ( SDEExploreCharacterBean.getExploreCharacter().getOffense('Dexterity').getRange() )}
-                            </c:when>
-                            <c:otherwise>
-                                0
-                            </c:otherwise>
-                        </c:choose>
-                    </div>
-                </div>
-                <div class="inline">
-                    <div>Attributes</div>
-                    <div><!-- Strength -->#{SDEExploreCharacterBean.getExploreCharacter().getStrength()}</div>
-                    <div><!-- Armor -->#{SDEExploreCharacterBean.getExploreCharacter().getArmor()}</div>
-                    <div><!-- Will -->#{SDEExploreCharacterBean.getExploreCharacter().getWill()}</div>
-                    <div><!-- Dexterity -->#{SDEExploreCharacterBean.getExploreCharacter().getDexterity()}</div>
-                </div>
-                <div class="inline">
-                    <div>Defense</div>
-                    <c:choose>
-                        <c:when test="#{ ( SDEExploreCharacterBean.getExploreCharacter().getVersion() == '1.0' )}">
-                            <div><!-- Attack Defense -->#{ ( SDEExploreCharacterBean.getExploreCharacter().containsDefense('Attack') )}</div>
-                        </c:when>
-                        <c:otherwise>
-                            <div><!-- Strength Defense -->#{ ( SDEExploreCharacterBean.getExploreCharacter().containsDefense('Strength') )}</div>
-                        </c:otherwise>
-                    </c:choose>
-                    <div><!-- Armor Defense -->#{( SDEExploreCharacterBean.getExploreCharacter().containsDefense('Armor') )}</div>
-                    <div><!-- Will Defense -->#{( SDEExploreCharacterBean.getExploreCharacter().containsDefense('Will') )}</div>
-                    <div><!-- Dexterity Defense -->#{( SDEExploreCharacterBean.getExploreCharacter().containsDefense('Dexterity') )}</div>
-                </div>
+                Summon List: TBD
             </div>
             
-            <div>
-                <div class="inline">
-                    Affinity: #{SDEExploreCharacterBean.getExploreCharacter().getAffinity()}
+            <c:if test="#{ SDEBossSpawnBean.getBossSpawn().validateFlavor() }">
+                <div>
+                    Flavor Text: #{SDEBossSpawnBean.getBossSpawn().getFlavor()}
                 </div>
-                <div class="inline">
-                    Health: #{SDEExploreCharacterBean.getExploreCharacter().getHealth()}
-                </div>
-                <div class="inline">
-                    Potions: #{SDEExploreCharacterBean.getExploreCharacter().getPotions()}
-                </div>
-            </div>
-            <!-- List of Keywords -->
-            <ui:repeat var="x" value="#{SDEExploreCharacterBean.getExploreCharacter().getKeywords()}" size="#{SDEExploreCharacterBean.getExploreCharacter().getKeywords().size()}" varStatus="myVarStatus" >
-                <div class="xRow">
-                    <div class="inline"><!-- Keyword -->#{x.getName()}</div>
-                    <tab/>
-                    <div class="inline"><!-- Definition -->#{x.getDescription()}</div>
-                </div>
-            </ui:repeat>
+            </c:if>
             
-            <!-- List of Abilities -->
-            <ui:repeat var="x" value="#{SDEExploreCharacterBean.getExploreCharacter().getAbilities()}" size="#{SDEExploreCharacterBean.getExploreCharacter().getAbilities().size()}" varStatus="myVarStatus" >
-                <div class="xRow">
-                    <div class="inline"><!-- Ability Name -->#{x.getName()}: </div>                     
-                    <div class="inline"><!-- Ability Cost -->#{x.getCost()}</div>                     
-                    <div class="inline"><!-- Ability Resource -->#{x.getResource()}</div>                     
-                    <div class="inline"><!-- Ability Type -->#{x.getType()}:</div>
-                    <tab/>
-                    
-                    <div class="inline">
-                        <c:choose>
-                            <c:when test="#{x.getAttribute().compareTo('0') == 0 }">
-                                Attack
-                            </c:when>
-                            <c:when test="#{x.getAttribute().compareTo('1') == 0 }">
-                                Strength
-                            </c:when>
-                            <c:when test="#{x.getAttribute().compareTo('2') == 0 }">
-                                Armor
-                            </c:when>
-                            <c:when test="#{x.getAttribute().compareTo('3') == 0 }">
-                                Will
-                            </c:when>
-                            <c:when test="#{x.getAttribute().compareTo('4') == 0 }">
-                                Dexterity
-                            </c:when>
-                            <c:otherwise>
-                                Error
-                            </c:otherwise>
-                        </c:choose>
-                    </div>
-                    
-                    <div class="inline">
-                        <c:choose>
-                            <c:when test="#{x.getRange() > 0 }">
-                                #{x.getRange()}
-                            </c:when>
-                            <c:when test="#{x.getRange() == 0 }">
-                                Self
-                            </c:when>
-                            <c:otherwise>                                    
-                            </c:otherwise>
-                        </c:choose>
-                    </div>
-                    
-                    
-                    
-                    
-                    <div class="inline"><!-- Ability Description -->#{x.getDescription()}</div>
-                </div>
-            </ui:repeat>
-            <div>
-                Flavor Text: #{SDEExploreCharacterBean.getExploreCharacter().getFlavor()}
-            </div>
         </div>
     </h:body>
 </html>

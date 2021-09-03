@@ -711,8 +711,8 @@ public class SDEDAOOne extends DAO{
                 result.setMode(rs.getString("PlayMode"));
                 result.setFlavor(rs.getString("Flavor"));
 
-                result.setDungeonEffect(rs.getString("Spawn"));
-                result.setBossSpawnEffect(rs.getString("Effect"));
+                result.setDungeonEffect(rs.getString("DungeonEffect"));
+                result.setBossSpawnEffect(rs.getString("BossSpawnEffect"));
                 result.setTimeoutEffect(rs.getString("TimeoutEffect"));
                 result.setCharacterName(rs.getString("CharacterName"));
                 result.setCharacterLink(rs.getString("CharacterLink"));

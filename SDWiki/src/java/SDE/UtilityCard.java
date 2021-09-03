@@ -44,5 +44,13 @@ public class UtilityCard extends Card{
         this.description = description;
     }
     
-    
+    public boolean validateFlavor(){
+        boolean result = false;
+        
+        if(getFlavor().compareTo("") != 0){
+            result = true;
+        }
+        
+        return result;
+    }
 }

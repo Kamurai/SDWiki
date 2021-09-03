@@ -21,7 +21,7 @@ public class BossSpawnBean extends CardBean{
         this.bossSpawnList   = new ArrayList<SDE.NavItem>();
     }
 
-    public BossSpawn getExploreCharacter() {
+    public BossSpawn getBossSpawn() {
         return bossSpawn;
     }
 
