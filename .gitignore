@@ -22,3 +22,8 @@ SDWiki/dist/SDWiki.war
 *.war
 *.xml
 *.properties
+/SDDirectory/nbproject/private/
+/SDDirectory/build/
+*.properties
+*.properties
+*.xml
