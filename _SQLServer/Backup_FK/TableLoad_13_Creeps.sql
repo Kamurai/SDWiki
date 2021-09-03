@@ -16,7 +16,7 @@ insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, 
 VALUES (137, 'Neither', 'Small', 'Slime', 5, 1, '2B', '0ST', '1B', '1B', 1, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (137, 1, 1);
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (137, 2);
-insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (137, 'Creep', '8 Bit', 1);
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (137, '', '8 Bit', 1);
 
 --Emerald Slime --CardIndex 223	--CharacterIndex 138	--ExploreCharacterIndex 138
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Emerald Slime',
@@ -34,7 +34,7 @@ insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, 
 VALUES (138, 'Neither', 'Small', 'Slime', 5, 1, '2B', '0ST', '1B', '1B', 1, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (138, 1, 1);
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (138, 2);
-insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (138, 'Creep', '8 Bit', 1);
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (138, '', '8 Bit', 1);
 
 --Ghost --CardIndex 224	--CharacterIndex 139	--ExploreCharacterIndex 139
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ghost',
@@ -52,7 +52,7 @@ insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, 
 VALUES (139, 'Either', 'Small', 'Undead Ghost', 5, 1, '0ST', '0ST', '2B', '3B', 1, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (139, 1, 1);
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (139, 2);
-insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (139, 'Creep', '8 Bit', 1);
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (139, '', '8 Bit', 1);
 
 --Giri --CardIndex 225	--CharacterIndex 140	--ExploreCharacterIndex 140
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Giri',
@@ -70,7 +70,7 @@ insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, 
 VALUES (140, 'Either', 'Small', 'Faerie', 5, 1, '2B', '0ST', '3B', '2B', 1, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (140, 1, 2);
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (140, 2);
-insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (140, 'Creep', '8 Bit', 1);
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (140, '', '8 Bit', 1);
 
 --Rabid Squirrel --CardIndex 226	--CharacterIndex 141	--ExploreCharacterIndex 141
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Rabid Squirrel',
@@ -88,7 +88,7 @@ insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, 
 VALUES (141, 'Either', 'Small', 'Chimera', 7, 1, '1B', '0ST', '1B', '2R', 1, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (141, 1, 1);
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (141, 2);
-insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (141, 'Creep', '8 Bit', 1);
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (141, '', '8 Bit', 1);
 
 --Rattlebone --CardIndex 227	--CharacterIndex 142	--ExploreCharacterIndex 142
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Rattlebone',
@@ -105,7 +105,7 @@ insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, 
 VALUES (142, 'Either', 'Small', 'Undead Skeleton', 6, 1, '2B', '0ST', '1B', '1B', 1, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (142, 1, 1);
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (142, 2);
-insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (142, 'Creep', '8 Bit', 1);
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (142, '', '8 Bit', 1);
 
 --Ruby Slime --CardIndex 228	--CharacterIndex 143	--ExploreCharacterIndex 143
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ruby Slime',
@@ -124,7 +124,7 @@ insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, 
 VALUES (143, 'Neither', 'Small', 'Slime', 5, 1, '2B', '0ST', '1B', '1B', 1, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (143, 1, 1);
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (143, 2);
-insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (143, 'Creep', '8 Bit', 1);
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (143, '', '8 Bit', 1);
 
 --Sapphire Slime --CardIndex 229	--CharacterIndex 144	--ExploreCharacterIndex 144
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Sapphire Slime',
@@ -142,4 +142,4 @@ insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, 
 VALUES (144, 'Neither', 'Small', 'Slime', 5, 1, '2B', '0ST', '1B', '1B', 1, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (144, 1, 1);
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (144, 2);
-insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (144, 'Creep', '8 Bit', 1);
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (144, '', '8 Bit', 1);
