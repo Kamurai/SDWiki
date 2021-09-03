@@ -5,7 +5,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 VALUES ('Difficult Terrain',
 'http://htkb.info/SDE/1.0/Cards/Utility/Card_Utility_Terrain_Difficult_Terrain_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Utility/Card_Utility_Terrain_1.0_back.png', 
-'http://htkb.online/SDWiki/SDE/1.0/Cards/Utility/Difficult_Terrain.xhtml', 
+'http://htkb.online/SDWiki/SDE/1.0/Cards/Utilit/Difficult_Terrain.xhtml', 
 'Terrain', '1.0', '1.0 Core Set', 'Default', '');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (151, 'Each square of difficult terrain a model enters costs two points of Speed.  If a model does not have enough Speed remaining to move into a square with difficult terrain it may not do so.'); --? Not sure what to put here
 --Lava
