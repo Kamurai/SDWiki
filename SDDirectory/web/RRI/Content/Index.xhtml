@@ -13,7 +13,9 @@
         </h2>
         <div>
             <!-- #{RRIBean.setStarted(true)} -->
-            
+            <div>
+                <a href="../Index.xhtml" >Return to Top Level</a>
+            </div>
             <ui:repeat var="y" value="#{RRIBean.getLinkList()}" size="#{RRIBean.getLinkList().size()}" varStatus="myVarStatus" >
                 <div>
                     <a href="#{y}">#{y}</a>

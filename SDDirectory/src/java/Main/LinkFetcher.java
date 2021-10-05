@@ -157,6 +157,7 @@ public class LinkFetcher{
         if(
            extension.compareTo(".png") == 0 || 
            extension.compareTo(".jpg") == 0 || 
+           extension.compareTo(".txt") == 0 || 
            extension.compareTo(".pdf") == 0 
         ){
             result = true;
