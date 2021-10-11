@@ -10,8 +10,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (154);
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 69, 'Either', 'Large', 'Shapeshift', 6, 3, '2B1R', '2R', '1B1R', '2B', 5, 1);
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (69, 1); --Citrine
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (69, 3); --Ruby
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (69, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (69, 3); --Ruby
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (69, 473); --Berserk
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (69, 555); --Immune: Poison
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (69, 615); --Shapeshift: Deeproot druid
@@ -31,7 +31,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (155);
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 70, 'Either', 'Large', 'Chimera', 6, 3, '2B1R', '2R', '1B', '2B', 5, 1);
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (70, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (70, 1); --Citrine
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (70, 473); --Berserk
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (70, 613); --Sweeping Mace
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (70, 296); --Earthshaker
@@ -50,7 +50,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (156);
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 71, 'Feminine', 'Small', 'Human', 6, 3, '2R', '3B', '2B', '1B1R', 5, 2);
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (71, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (71, 1); --Citrine
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (71, 457); --Alchemy
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (71, 584); --Pet: Never-Lost Cola
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (71, 571); --Soda Detector
@@ -71,7 +71,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (157);
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 72, 'Feminine', 'Small', 'Human', 6, 3, '2R', '3B', '1B1R', '2B', 5, 1);
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (72, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (72, 1); --Citrine
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (72, 570); --Luck
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (72, 191); --Bomb's Away
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (72, 478); --Pirate Snatch
@@ -90,8 +90,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (158);
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 73, 'Feminine', 'Small', 'Celestian', 7, 3, '2B', '1B', '2R', '3B', 5, 1);
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (73, 2); --Emerald
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (73, 3); --Ruby
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (73, 2); --Emerald
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (73, 3); --Ruby
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (73, 554); --Immune: Knockdown
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (73, 518); --Fly
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (73, 282); --Divine Arrow
@@ -112,7 +112,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (159);
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 74, 'Feminine', 'Small', 'Human', 6, 3, '2R', '3B', '2B', '2B', 5, 1);
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (74, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (74, 1); --Citrine
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (74, 474); --Berserk
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (74, 648); --Tough
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (74, 512); --Rage
@@ -131,7 +131,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (160);
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 75, 'Feminine', 'Small', 'Freyjan', 6, 3, '1B', '3B', '2R', '3B', 5, 2);
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (75, 3); --Ruby
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (75, 3); --Ruby
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (75, 456); --9 Lives
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (75, 641); --Surefoot
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (75, 222); --Cat & Mouse
@@ -153,8 +153,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (161);
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 76, 'Masculine', 'Small', 'Undead Pirate', 6, 3, '3B', '3B', '1B1R', '1B1R', 5, 1);
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (76, 1); --Citrine
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (76, 3); --Ruby
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (76, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (76, 3); --Ruby
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (76, 456); --Immune: Bane
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (76, 641); --Immune: Poison
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (76, 328); --Flintlock
@@ -175,7 +175,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (162);
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 77, 'Masculine', 'Small', 'Dark Celestian', 7, 3, '2B1R', '2R', '1B1R', '1B1R', 5, 1);
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (77, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (77, 1); --Citrine
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (77, 551); --Immune: Fire
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (77, 554); --Immune: Knockdown
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (77, 324); --Flaming Javelin
@@ -195,8 +195,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (163);
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 78, 'Masculine', 'Small', 'Half-Elf', 7, 3, '3B', '1B1R', '3B', '1B1R', 5, 1);
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (78, 1); --Citrine
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (78, 3); --Ruby
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (78, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (78, 3); --Ruby
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (78, 589); --Poison
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (78, 555); --Immune: Poison
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (78, 614); --Shapeshift: Angry Bear
@@ -218,8 +218,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (164);
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 79, 'Masculine', 'Small', 'Elf', 7, 3, '3B', '1B1R', '3B', '1B1R', 5, 2);
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (79, 1); --Citrine
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (79, 2); --Emerald
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (79, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (79, 2); --Emerald
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (79, 155); --Acorn Bomb
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (79, 190); --Boomerang
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (79, 195); --Bottled Faerie
@@ -239,7 +239,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (165);
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 80, 'Either', 'Large', 'Treant Kodama', 6, 3, '1B1R', '1ST2R', '3B', '1B', 6, 1);
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (80, 4); --Sapphire
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (80, 4); --Sapphire
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (80, 648); --Tough
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (80, 463); --Overgrowth
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (80, 656); --Uproot
@@ -258,8 +258,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (166);
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 81, 'Either', 'Large', 'Elf', 6, 3, '1B1R', '1ST2R', '3B', '1B', 6, 1);
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (81, 1); --Citrine
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (81, 2); --Emerald
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (81, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (81, 2); --Emerald
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (81, 641); --Surefoot
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (81, 367); --Harass
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (81, 683); --Wolf Spirit
@@ -280,7 +280,7 @@ For some however, the sorrow of their loss was too much to bear.  Bitter tears t
 insert into Characters (CardIndex) VALUES (167);
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 82, 'Either', 'Small', 'Elf', 6, 3, '3B', '2B1R', '3B', '3B', 5, 1);
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (82, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (82, 1); --Citrine
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (82, 551); --Immune: Fire
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (82, 501); --Dragon Spite
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (82, 372); --Head Chopper
@@ -300,8 +300,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (168);
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 83, 'Either', 'Small', 'Human', 6, 3, '2B', '3B', '2R', '1B1R', 5, 2);
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (83, 1); --Citrine
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (83, 3); --Ruby
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (83, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (83, 3); --Ruby
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (83, 512); --Fire
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (83, 320); --Fire Wave
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (83, 428); --Magma Strike
@@ -322,7 +322,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (169);
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 83, 'Either', 'Small', 'Elf', 7, 3, '2B', '3B', '2R', '3B', 5, 3);
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (83, 3); --Ruby
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (83, 3); --Ruby
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (83, 457); --Alchemy
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (83, 591); --Potion Master
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (83, 307); --Experimental Concoction
@@ -343,7 +343,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (170);
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 84, 'Either', 'Small', 'Elf', 7, 3, '1B1R', '3B', '2B', '2B1R', 5, 1);
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (84, 2); --Emerald
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (84, 2); --Emerald
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (84, 641); --Surefoot
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (84, 580); --Sparkle Burst
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (84, 377); --Herbalist
@@ -363,8 +363,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (171);
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 85, 'Either', 'Small', 'Dwarf', 6, 3, '2B1R', '2R', '2B', '2B', 6, 1);
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (85, 1); --Citrine
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (85, 4); --Sapphire
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (85, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (85, 4); --Sapphire
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (85, 554); --Immune: Knockdown
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (85, 555); --Immune: Poison
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (85, 235); --Cleave
@@ -384,7 +384,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (172);
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 86, 'Either', 'Small', 'Human', 6, 3, '2B', '3B', '2B1R', '1B1R', 5, 1);
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (86, 3); --Ruby
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (86, 3); --Ruby
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (86, 345); --Frozen Feet
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (86, 385); --Hobbled Hands
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (86, 210); --Broken Bones
@@ -404,7 +404,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (173);
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 87, 'Either', 'Small', 'Human', 6, 3, '2B', '3B', '2R', '2R', 5, 1);
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (87, 2); --Emerald
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (87, 2); --Emerald
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (87, 503); --Elemental Affinity
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (87, 245); --Crane
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (87, 594); --Squid
@@ -424,7 +424,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (174);
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 88, 'Either', 'Small', 'Human', 7, 3, '2R', '3B', '3B', '3B', 5, 1);
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (88, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (88, 1); --Citrine
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (88, 503); --Elemental Affinity
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (88, 637); --Tiger
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (88, 459); --Ogre
@@ -443,7 +443,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (175);
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 89, 'Either', 'Small', 'Human', 6, 3, '2B', '3B', '2B1R', '3B', 5, 1);
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (89, 4); --Ruby
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (89, 4); --Ruby
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (89, 503); --Elemental Affinity
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (89, 445); --Monkey
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (89, 337); --Fox
@@ -463,7 +463,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (176);
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 90, 'Either', 'Small', 'Human', 6, 3, '2B', '3B', '2B1R', '3B', 5, 1);
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (90, 4); --Ruby
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (90, 4); --Ruby
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (90, 503); --Elemental Affinity
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (90, 445); --Monkey
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (90, 337); --Fox
@@ -483,7 +483,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (177);
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 91, 'Feminine', 'Small', 'Human', 6, 3, '2B', '3B', '2B1R', '3B', 5, 1);
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (91, 4); --Ruby
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (91, 4); --Ruby
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (91, 639); --Student
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (91, 604); --Stygian Pact
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (91, 362); --Gribbly Tentattack
@@ -504,7 +504,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (178);
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 92, 'Feminine', 'Small', 'Human', 6, 3, '3B', '2R', '2B', '3B', 5, 1);
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (92, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (92, 1); --Citrine
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (92, 641); --Surefoot
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (92, 497); --Punch, punch, punch!
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (92, 317); --Finisher, The
@@ -523,7 +523,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (179);
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 93, 'Feminine', 'Small', 'Human', 6, 3, '3B', '2R', '2B', '3B', 5, 1);
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (93, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (93, 1); --Citrine
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (93, 639); --Student
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (93, 563); --Siren's Call
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (93, 519); --Restrict Pursuit
@@ -543,7 +543,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (180);
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 94, 'Feminine', 'Small', 'Human', 6, 3, '2B', '1B', '3B', '3B', 5, 2);
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (94, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (94, 1); --Citrine
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (94, 639); --Student
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (94, 240); --Confectionary Clairvoyance
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (94, 228); --Chocolate Confession
@@ -564,7 +564,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (181);
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 95, 'Feminine', 'Small', 'Human', 6, 3, '2B', '2B', '2R', '2R', 5, 1);
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (95, 4); --Ruby
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (95, 4); --Ruby
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (95, 624); --Sidestep
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (95, 466); --Pachi-Pachi-Pachi
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (95, 279); --Distracting Costume
@@ -585,7 +585,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (182);
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 96, 'Either', 'Small', 'Shapeshift', 5, 3, '1B', '0ST', '2B', '3B', 5, 1);
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (96, 2); --Emerald
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (96, 2); --Emerald
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (96, 516); --Fixed Form
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (96, 626); --Small
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (96, 627); --Smooches
@@ -605,8 +605,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (183);
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 97, 'Either', 'Small', 'Troll', 6, 3, '1B1R', '2R', '3B', '2B', 5, 2);
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (97, 4); --Ruby
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (97, 5); --Sapphire
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (97, 4); --Ruby
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (97, 5); --Sapphire
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (97, 648); --Tough
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (97, 462); --Outcast Pyre
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (97, 160); --Ancestral Will
@@ -627,7 +627,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (184);
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 98, 'Feminine', 'Small', 'Nether Elf', 6, 3, '1B1R', '3B', '3B', '2R', 5, 1);
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (98, 2); --Emerald
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (98, 2); --Emerald
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (98, 589); --Poison
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (98, 641); --Surefoot
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (98, 637); --Stealth
@@ -648,7 +648,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (185);
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 99, 'Masculine', 'Small', 'Kitsune', 7, 3, '3B', '2B', '1B1R', '2B1R', 4, 2);
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (99, 2); --Emerald
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (99, 2); --Emerald
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (99, 624); --Sidestep
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (99, 626); --Small
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (99, 332); --Flying Fur
@@ -670,7 +670,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (186);
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 100, 'Masculine', 'Small', 'Kitsune', 7, 3, '3B', '2B', '1B1R', '2B1R', 4, 2);
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (100, 2); --Emerald
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (100, 2); --Emerald
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (100, 624); --Sidestep
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (100, 626); --Small
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (100, 332); --Flying Fur
@@ -692,7 +692,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (187);
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 101, 'Feminine', 'Small', 'Freyjan', 7, 3, '3B', '2B', '1B1R', '2R', 5, 1);
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (101, 2); --Emerald
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (101, 2); --Emerald
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (101, 456); --9 Lives
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (101, 623); --Teeth & Fur
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (101, 500); --Purrrrr
@@ -712,7 +712,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (188);
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 102, 'Feminine', 'Small', 'Human', 6, 3, '2B', '3B', '2B', '2R', 5, 1);
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (102, 2); --Emerald
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (102, 2); --Emerald
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (102, 259); --Daystar
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (102, 334); --Focused Shot
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (102, 338); --Fritz
@@ -731,7 +731,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (189);
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 103, 'Feminine', 'Small', 'Demon', 7, 3, '1B1R', '1B', '2R', '2R', 5, 1);
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (103, 3); --Ruby
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (103, 3); --Ruby
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (103, 518); --Fly
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (103, 203); --Breathtaking Kiss
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (103, 237); --Come Hither
@@ -752,7 +752,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (190);
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 103, 'Feminine', 'Small', 'Human', 6, 3, '2B', '3B', '1B1R', '2B1R', 5, 1);
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (103, 2); --Emerald
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (103, 2); --Emerald
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (103, 538); --Scope
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (103, 605); --Subduing Shot
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (103, 395); --Hunter's Rations
@@ -771,7 +771,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (191);
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 104, 'Feminine', 'Small', 'Human', 6, 3, '2B', '3B', '1B1R', '2B1R', 5, 1);
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (104, 2); --Emerald
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (104, 2); --Emerald
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (104, 601); --Stinging Shot
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (104, 539); --Scope
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (104, 396); --Hunter's Rations
@@ -790,7 +790,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (192);
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 105, 'Feminine', 'Small', 'Human', 8, 3, '3B', '2B', '2B', '2R', 5, 1);
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (105, 2); --Emerald
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (105, 2); --Emerald
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (105, 304); --Energy Blast
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (105, 581); --Spark of Life
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (105, 447); --Mr. Tomn
@@ -809,7 +809,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (193);
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 106, 'Feminine', 'Small', 'Human', 6, 3, '2B', '2B', '3B', '2B1R', 5, 1);
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (106, 2); --Emerald
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (106, 2); --Emerald
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (106, 518); --Healer
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (106, 518); --Sidestep
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (106, 429); --Maiden's Favor
@@ -831,8 +831,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (194);
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 107, 'Either', 'Small', 'Human', 6, 3, '2R', '2B1R', '2B', '2B', 5, 1);
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (107, 1); --Citrine
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (107, 4); --Sapphire
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (107, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (107, 4); --Sapphire
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (107, 439); --Mighty Throw
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (107, 586); --Spinning Axe
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (107, 432); --Massive Sword
@@ -851,8 +851,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (194);
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 107, 'Either', 'Small', 'Human', 6, 3, '2R', '2B1R', '2B', '2B', 5, 1);
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (107, 1); --Citrine
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (107, 4); --Sapphire
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (107, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (107, 4); --Sapphire
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (107, 440); --Mighty Throw
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (107, 433); --Massive Sword
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (107, 427); --Magic Armor
@@ -870,7 +870,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (195);
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 108, 'Feminine', 'Small', 'Demon', 7, 3, '3B', '2B', '1B1R', '2R', 5, 1);
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (108, 2); --Emerald
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (108, 2); --Emerald
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (108, 570); --Luck
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (108, 637); --Stealth
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (108, 173); --Backstab
@@ -890,8 +890,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (196);
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 109, 'Masculine', 'Small', 'Human', 6, 3, '2R', '2B1R', '3B', '2B', 5, 1);
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (109, 2); --Citrine
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (109, 4); --Sapphire
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (109, 2); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (109, 4); --Sapphire
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (109, 545); --Holy
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (109, 565); --Smite
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (109, 406); --Iron Halo
@@ -910,8 +910,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (197);
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 110, 'Masculine', 'Small', 'Human', 6, 3, '3B', '3B', '1B1R', '2B', 5, 1);
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (110, 2); --Citrine
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (110, 4); --Sapphire
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (110, 2); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (110, 4); --Sapphire
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (110, 648); --Tough
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (110, 247); --Crossbow
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (110, 166); --Arrest Warrant
@@ -931,8 +931,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (198);
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 111, 'Neither', 'Small', 'Human', 6, 3, '2B1R', '2B', '2R', '1B', 5, 1);
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (111, 2); --Citrine
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (111, 3); --Ruby
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (111, 2); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (111, 3); --Ruby
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (111, 515); --Fixable
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (111, 517); --Flammable
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (111, 370); --Harvest Scythe
@@ -953,7 +953,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (199);
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 112, 'Masculine', 'Small', 'Human', 5, 3, '3B', '2B1R', '3B', '2B', 6, 1);
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (112, 4); --Sapphire
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (112, 4); --Sapphire
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (112, 545); --Holy
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (112, 554); --Immune: Knockdown
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (112, 549); --Shattered Sword
@@ -973,7 +973,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (200);
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 113, 'Feminine', 'Small', 'Human', 6, 3, '2B1R', '3B', '3B', '2B', 5, 1);
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (113, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (113, 1); --Citrine
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (113, 562); --Silver Star
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (113, 561); --Silver Lance
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (113, 511); --Quicksilver Elixir
@@ -991,8 +991,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (201);
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 114, 'Feminine', 'Small', 'Human', 6, 3, '2R', '3B', '2R', '2B', 5, 2);
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (114, 3); --Ruby
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (114, 4); --Sapphire
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (114, 3); --Ruby
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (114, 4); --Sapphire
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (114, 538); --Healer
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (114, 545); --Holy
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (114, 411); --Judgement
@@ -1012,7 +1012,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (201);
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 115, 'Feminine', 'Small', 'Human', 6, 3, '2B', '3B', '2R', '1B1R', 5, 3);
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (115, 3); --Ruby
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (115, 3); --Ruby
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (115, 487); --Cola
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (115, 570); --Luck
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (115, 658); --Vending Machine
@@ -1033,7 +1033,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (202);
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 116, 'Masculine', 'Small', 'Dwarf', 6, 3, '2B1R', '3B', '3B', '2B', 6, 1);
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (116, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (116, 1); --Citrine
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (116, 554); --Immune: Knockdown
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (116, 171); --Astral Hammer
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (116, 491); --POW!
@@ -1053,7 +1053,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (203);
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 117, 'Feminine', 'Small', 'Human', 6, 3, '3B', '2R', '2B', '3B', 5, 2);
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (117, 4); --Sapphire
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (117, 4); --Sapphire
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (117, 648); --Tough
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (117, 526); --Rolling Pin
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (117, 346); --Frying Pan
@@ -1072,7 +1072,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (204);
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 118, 'Feminine', 'Small', 'Freyjan', 6, 3, '3B', '2R', '2B', '3B', 5, 2);
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (118, 3); --Ruby
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (118, 3); --Ruby
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (118, 456); --9 Lives
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (118, 498); --Puddle Jump
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (118, 517); --Refreshing Rain
@@ -1094,7 +1094,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (205);
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 119, 'Feminine', 'Large', 'Centaur', 8, 3, '2B1R', '3B', '3B', '2B', 5, 1);
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (119, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (119, 1); --Citrine
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (119, 641); --Surefoot
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (119, 420); --Lightning Charge
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (119, 638); --Trample
@@ -1113,7 +1113,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (206);
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 120, 'Feminine', 'Small', 'Human', 6, 3, '1B1R', '2B', '3B', '3B', 5, 1);
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (120, 2); --Emerald
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (120, 2); --Emerald
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (120, 510); --Feint
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (120, 477); --Piercing Blade
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (120, 359); --Gloom Shatter
@@ -1133,8 +1133,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (207);
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 121, 'Either', 'Large', 'Shapeshift', 8, 3, '2B1R', '1B1R', '2B', '3B', 5, 2);
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (121, 1); --Citrine
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (121, 2); --Emerald
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (121, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (121, 2); --Emerald
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (121, 648); --Tough
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (121, 621); --Shapeshift: Von Wildling
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (121, 548); --Shag Fest
@@ -1153,8 +1153,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (207);
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 122, 'Either', 'Small', 'Human', 6, 3, '2R', '3B', '3B', '3B', 5, 2);
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (122, 1); --Citrine
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (122, 2); --Emerald
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (122, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (122, 2); --Emerald
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (122, 592); --Potion Master
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (122, 620); --Shapeshift: Von Wilder
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (122, 578); --Soul Whip
@@ -1175,8 +1175,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (208);
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 123, 'Masculine', 'Small', 'Elf', 7, 3, '1R1B', '2B', '3B', '2R', 5, 1);
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (123, 1); --Citrine
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (123, 2); --Emerald
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (123, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (123, 2); --Emerald
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (123, 510); --Feint
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (123, 410); --Jaunty Tune
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (123, 424); --Lullaby
@@ -1195,7 +1195,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (209);
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 124, 'Either', 'Small', 'Kobold', 7, 3, '3B', '2B1R', '1B1R', '1B1R', 5, 1);
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (124, 4); --Sapphire
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (124, 4); --Sapphire
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (124, 554); --Immune: Knockdown
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (124, 218); --Burning Blade
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (124, 382); --Hightower
@@ -1214,7 +1214,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (210);
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 125, 'Either', 'Small', 'Kobold', 8, 3, '2B1R', '2R', '1B1R', '1B1R', 6, 1);
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (125, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (125, 1); --Citrine
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (125, 641); --Surefoot
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (125, 461); --Onslaught
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (125, 229); --Chomp!  Crunch!
@@ -1233,7 +1233,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (211);
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 126, 'Either', 'Small', 'Kobold', 8, 3, '2B1R', '2R', '1B1R', '1B1R', 6, 1);
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (126, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (126, 1); --Citrine
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (126, 641); --Surefoot
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (126, 461); --Onslaught
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (126, 229); --Chomp!  Crunch!

@@ -11,7 +11,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (334);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
 VALUES (248, 122, -1);
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (248, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (248, 1); --Citrine
 --GangMemberIndex 1
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex);
 VALUES (1, 0, 'Booty Biter', 'Boo Booty', 'Elite', 5, 2, 3, 127);
@@ -27,7 +27,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (335);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
 VALUES (249, 232, -1);
-insert into AffinityAssignments (ArcadeCharacterIndex, AffinityIndex) VALUES (249, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (249, 1); --Citrine
 --GangMemberIndex 2
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex);
 VALUES (2, 0, 'Bouncing Booty', 'Boo Booty', 'Elite', 8, 2, 2, 128);
@@ -43,7 +43,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (336);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
 VALUES (250, 132, -1);
-insert into AffinityAssignments (ArcadeCharacterIndex, AffinityIndex) VALUES (3, 3); --Ruby
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (3, 3); --Ruby
 --GangMemberIndex 3
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex);
 VALUES (3, 0, 'Booty Grinder', 'Boo Booty', 'Elite', 5, 2, 2, 129);

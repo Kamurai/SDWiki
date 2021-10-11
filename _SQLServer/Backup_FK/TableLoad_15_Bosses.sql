@@ -10,7 +10,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Boss', 'FK', 'FK Core Set', 'Explore',
 'I have such a delicious potion for you to try.  It may string a little going down....');
 insert into Characters (CardIndex) VALUES (255);
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (170, 3); --Ruby
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (170, 3); --Ruby
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (170, 557); --Immune: Status Effects
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (170, 518); --Fly
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (170, 524); --Ghostmancer
@@ -35,8 +35,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Boss', 'FK', 'FK Core Set', 'Explore',
 'The Forgotten King rebelled against the King of Crystalia when he was denied the princess''s hand in marriage.  Cursed to the Lordship Ruins for all time, his love for the princess has turned to bitter hatred towards all the people of Crystalia.');
 insert into Characters (CardIndex) VALUES (256);
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (171, 1); --Citrine
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (171, 3); --Ruby
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (171, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (171, 3); --Ruby
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (171, 555); --Immune: Poison
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (171, 547); --Hubris
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (171, 641); --Surefoot
@@ -59,8 +59,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Boss', 'FK', 'FK Core Set', 'Explore',
 '');
 insert into Characters (CardIndex) VALUES (257);
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (172, 1); --Citrine
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (172, 3); --Ruby
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (172, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (172, 3); --Ruby
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (172, 554); --Immune: Knockdown
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (172, 550); --Immune: Bane
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (172, 580); --Mob
@@ -85,7 +85,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Boss', 'FK', 'FK Core Set', 'Explore',
 '');
 insert into Characters (CardIndex) VALUES (258);
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (173, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (173, 1); --Citrine
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (173, 512); --Fire
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (173, 551); --Immune: Fire
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (173, 644); --Tail Sweep
@@ -108,7 +108,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Boss', 'FK', 'FK Core Set', 'Explore',
 'Those who meet the gaze of Von Drakk say it is like peering into the soul of a beast.  None realize how correct they are.  When in the full throes of bloodlust Von Drakk is overtaken by a hideous transformation; his new form ideally suited to bringing carnage and ruin to his foes.');
 insert into Characters (CardIndex) VALUES (259);
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (174, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (174, 1); --Citrine
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (174, 473); --Berserk
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (174, 475); --Blood Drinker
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (174, 518); --Fly
@@ -129,7 +129,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Boss', 'FK', 'FK Core Set', 'Explore',
 'Battling the Lord of the Fire Flows is like challenging a ragining volcano itself.  Roxor is a temperamental lord and when driven to anger assumes the form of a raging pyre of white hot flame.  In this form Roxor is unapproachable even by his most loyal of lieutenants.  Roaring with primordial rage he stalks through the stone halls of his domain, bathing the dungeon in flame and fury.');
 insert into Characters (CardIndex) VALUES (260);
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (175, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (175, 1); --Citrine
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (175, 512); --Fire
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (175, 551); --Immune: Fire
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (175, 618); --Shapeshift: Rockin' Roxor
@@ -150,7 +150,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Boss', 'FK', 'FK Core Set', 'Explore',
 'Lord of the Fire Flows, Roxor, seeks to creat a molten paradise for his elemental brethren.  Harboring no empathy for the "soft" races he readily allies himself with the Dark Consul so long as  their goals coverge.');
 insert into Characters (CardIndex) VALUES (261);
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (176, 4); --Sapphire
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (176, 4); --Sapphire
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (176, 557); --Immune: Status Effects
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (176, 617); --Shapeshift: Ragin' Roxor
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (176, 441); --Minion Toss
@@ -170,7 +170,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Boss', 'FK', 'FK Core Set', 'Explore',
 '');
 insert into Characters (CardIndex) VALUES (262);
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (177, 4); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (177, 4); --Citrine
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (177, 557); --Immune: Fire
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (177, 617); --Hoard
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (177, 617); --Tail Sweep
@@ -191,8 +191,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Boss', 'FK', 'FK Core Set', 'Explore',
 'Von Drakk has despoiled his homeland like an eternal plague.  Once teeming with life the moorlands are now a haven for witches'' covens, foul swamp creatures, and the unquiet dead.  Von Drakk cares not, so long as his manor retains its splendor and his dark appetites remain sated.');
 insert into Characters (CardIndex) VALUES (263);
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (178, 2); --Emerald
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (178, 3); --Ruby
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (178, 2); --Emerald
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (178, 3); --Ruby
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (178, 475); --Blood Drinker
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (178, 616); --Shapeshift: Nocturne
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (178, 164); --Army of Bone

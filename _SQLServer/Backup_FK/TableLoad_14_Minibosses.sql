@@ -9,7 +9,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'MiniBoss', 'FK', 'FK Core Set', 'Explore',
 'When human, Boris was a large and gentle lad.  During The Forgotten King''s rebellion Boris lept at the chance to prove himself to his noble lord, only to quickly turn timid and fearful when faced with the reality of war.');
 insert into Characters (CardIndex) VALUES (230);
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (144, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (144, 1); --Citrine
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (145, 473); --Berserk
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (145, 554); --Immune: Knockdown
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (145, 587); --Pile-On
@@ -29,7 +29,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'MiniBoss', 'FK', 'FK Core Set', 'Explore',
 'When human, Boris was a large and gentle lad.  During The Forgotten King''s rebellion Boris lept at the chance to prove himself to his noble lord, only to quickly turn timid and fearful when faced with the reality of war.');
 insert into Characters (CardIndex) VALUES (231);
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (146, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (146, 1); --Citrine
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (146, 473); --Berserk
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (146, 554); --Immune: Knockdown
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (146, 587); --Pile-On
@@ -49,8 +49,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'MiniBoss', 'FK', 'FK Core Set', 'Explore',
 'ARRRRR!  Tha Drowned Isles be a constant headache fer sailors an'' ships of tha Clockwork Cove.  Tha dreaded land mass be swarmin'' wit cutthroats an'' scaliwags ta spare, an'' none be as successful as tha black hearted Cap''n R.  They say ''ees plied tha seas fer a hundred years an'' sent just as many ships to tha deep.  Riches will flow fer tha Hero who finally gets tha best of ''im, because he who gets that Cap''n gets ''is gold.');
 insert into Characters (CardIndex) VALUES (232);
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (147, 1); --Citrine
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (147, 3); --Ruby
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (147, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (147, 3); --Ruby
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (147, 544); --Hoard
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (147, 329); --Flintlock
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (147, 415); --Kraken
@@ -69,7 +69,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'MiniBoss', 'FK', 'FK Core Set', 'Explore',
 '');
 insert into Characters (CardIndex) VALUES (233);
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (148, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (148, 1); --Citrine
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (148, 456); --9 Lives
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (148, 473); --Berserk
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (148, 623); --Teeth & Fur
@@ -90,7 +90,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'MiniBoss', 'FK', 'FK Core Set', 'Explore',
 'Death comes to us all, but within the shrouded mists and fog of Glauerdoom Moor death is all too common.  Death Spectres are perversions of the spirits of death who guide the deceased to their final resting place.  Driven by a need to cause death beyond that prescribed by nature, Death Spectres are vile reapers that thrive on suffering.');
 insert into Characters (CardIndex) VALUES (234);
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (149, 3); --Ruby
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (149, 3); --Ruby
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (149, 554); --Immune: Knockdown
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (149, 522); --Ghost
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (149, 418); --Lifesap
@@ -110,7 +110,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'MiniBoss', 'FK', 'FK Core Set', 'Explore',
 'The Harvest Festival is upon the fair citizens of Crystalia, and the Fae Alchemist has eaten too many toadstools.  Now, turned to vile villainy, she must be stopped before crafting her cruel concoctions!');
 insert into Characters (CardIndex) VALUES (235);
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (150, 3); --Ruby
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (150, 3); --Ruby
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (150, 457); --Alchemy
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (150, 592); --Potion Master
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (150, 661); --Vile Concoction
@@ -131,7 +131,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'MiniBoss', 'FK', 'FK Core Set', 'Explore',
 'The Emerald Dragon, Glimmerwing, is reclusive by even dragon standards.  Sharing kinship with the faerie of the Fae Wood, she wraps her Emerald Valley in concealing glamors and deceptive illusions to keep over-enthusiastic Heroes from discovering her sanctuary.');
 insert into Characters (CardIndex) VALUES (236);
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (151, 3); --Ruby
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (151, 3); --Ruby
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (151, 550); --Immune: Bane
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (151, 552); --Immune: Hex
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (151, 518); --Fly
@@ -153,7 +153,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'MiniBoss', 'FK', 'FK Core Set', 'Explore',
 'Part zombie, part construct, Gruesome George is the particularly fiendish invention of a gnome Shamble Priest pushed past the edge of sanity.  Fueled by both necromantic energy and arcane electricity, George grows stronger as the battle intensifies, gaining strength from his own motion and the damage inflicted upon him.');
 insert into Characters (CardIndex) VALUES (237);
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (152, 4); --Sapphire
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (152, 4); --Sapphire
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (152, 557); --Immune: Status Effects
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (152, 580); --Mob
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (152, 635); --Static Charge
@@ -175,8 +175,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'MiniBoss', 'FK', 'FK Core Set', 'Explore',
 'Lord Vulcanis was cast from the marble halls of Celestia due to his fiery temper and bellicose nature.  Since his fall he has focused his considerable might on destroying the Celestians'' realm.  Filled with fury at his continued failure, he has sent his Heralds across Crystalia to rally the dark races to his banner and subjugate those who would oppose him.');
 insert into Characters (CardIndex) VALUES (238);
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (153, 1); --Citrine
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (153, 4); --Sapphire
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (153, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (153, 4); --Sapphire
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (153, 551); --Immune: Fire
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (153, 325); --Flaming Javelin
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (153, 550); --Shield Bash
@@ -196,7 +196,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'MiniBoss', 'FK', 'FK Core Set', 'Explore',
 '');
 insert into Characters (CardIndex) VALUES (239);
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (154, 4); --Sapphire
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (154, 4); --Sapphire
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (154, 492); --Crystal Heart
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (154, 551); --Shield Wall
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (154, 616); --Sword Toss
@@ -215,8 +215,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'MiniBoss', 'FK', 'FK Core Set', 'Explore',
 'Old Jack was the first Scarecrow given life by over-eager farmers a century ago.  Unfortunately, the farmers'' crude hedge magic was easily corrupted by the Dark Consul.  Now Jack is a scourge upon the very villages and farms he was created to protect.');
 insert into Characters (CardIndex) VALUES (240);
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (155, 1); --Citrine
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (155, 3); --Ruby
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (155, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (155, 3); --Ruby
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (155, 517); --Flammable
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (155, 370); --Harvest Scythe
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (155, 213); --Bumper Crop
@@ -236,7 +236,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'MiniBoss', 'FK', 'FK Core Set', 'Explore',
 'Corrupted by the Dark Consul''s malevolent influence, the Nther Striders are his favored instruments of terror.  Wrapped in swirling darkness they are expert assassins, claiming the lives of generals, kings, and Heroes alike.');
 insert into Characters (CardIndex) VALUES (241);
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (156, 2); --Emerald
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (156, 2); --Emerald
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (156, 589); --Poison
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (156, 641); --Surefoot
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (156, 637); --Stealth
@@ -258,8 +258,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'MiniBoss', 'FK', 'FK Core Set', 'Explore',
 'Kasaro To has no love for heroics.  Lord Nozuki has corrupted the Super Dungeon Explore code, allowing his most favored servant to invade the Dark Consul''s dungeons.  Kasaro To is prepared to wreak carnage and destruction upon the hapless Heroes of Crystalia.');
 insert into Characters (CardIndex) VALUES (242);
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (157, 1); --Citrine
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (157, 4); --Sapphire
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (157, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (157, 4); --Sapphire
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (157, 648); --Tough
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (157, 535); --Serpent Coil
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (157, 685); --Zealotry
@@ -279,7 +279,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'MiniBoss', 'FK', 'FK Core Set', 'Explore',
 'The ninja clans care little for the wars between the Goddess''s children and the Dark Realm.  So long as there is profit and a suitable test of skill, the clans are willing to accept any job.  Not fond of fighting Heroes, Candy never strikes a killing blow.  Instead she treats her battles with Heroes as a challenge to further both her, and her adversaries'', expertise.');
 insert into Characters (CardIndex) VALUES (243);
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (158, 3); --Ruby
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (158, 3); --Ruby
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (158, 624); --Sidestep
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (158, 637); --Stealth
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (158, 466); --Pachi-Pachi-Pachi
@@ -301,7 +301,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'MiniBoss', 'FK', 'FK Core Set', 'Explore',
 'Cola fights Heroes with his face a mask of stoic determination.  It is no secret the kitsune holds delicious Soda Pop Potions in the highest esteem.  Perhaps his zeal in fighting Heroes stems from potion envy, since he is not allowed to have any when working for the less savory elements of Crystalia.');
 insert into Characters (CardIndex) VALUES (244);
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (159, 2); --Emerald
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (159, 2); --Emerald
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (159, 624); --Sidestep
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (159, 626); --Small
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (159, 332); --Flying Fur
@@ -323,8 +323,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'MiniBoss', 'FK', 'FK Core Set', 'Explore',
 'It is said that man and Oni first met as enemies, but soon developed a grudging respect; the Oni for their size and strength, and men for their technology and tenacity.  Many Oni, however fickle, will join a team to honor agreements, to demonstrate their strength, or just for the fun of it.  They may not be the most stealthy, but their effect on the enemy is remarkable.');
 insert into Characters (CardIndex) VALUES (245);
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (160, 1); --Citrine
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (160, 3); --Ruby
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (160, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (160, 3); --Ruby
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (160, 503); --Elemental Affinity
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (160, 274); --Disaster
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (160, 270); --Devour
@@ -343,7 +343,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'MiniBoss', 'FK', 'FK Core Set', 'Explore',
 'Rex has collected more than a few new friends since going to work in the Consul''s dungeons.  Most are unwary adventurers not quite quick enough to get out of the reach of his enthusiastic hugs.');
 insert into Characters (CardIndex) VALUES (246);
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (161, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (161, 1); --Citrine
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (161, 580); --Mob
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (161, 627); --Thwomp
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (161, 520); --Rex Cuddle
@@ -362,7 +362,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'MiniBoss', 'FK', 'FK Core Set', 'Explore',
 'Rock Gut loves rock.  Rock Gut would marry rock if he could.  Sometime Rock Gut talks to rock.  He finds rock very understanding and a good listener.  Mainly Rock Gut eats rock, digesting it in his fiery belly.  Unfortunately, to Rock Gut, everything is "rock".  Even if you''re really a squirming Hero.');
 insert into Characters (CardIndex) VALUES (247);
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (162, 4); --Sapphire
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (162, 4); --Sapphire
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (162, 512); --Fire
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (162, 551); --Immune: Fire
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (162, 648); --Tough
@@ -382,8 +382,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'MiniBoss', 'FK', 'FK Core Set', 'Explore',
 'Internally warring for domination of the vessel to which they are bound; fae within a Salt golem lash out with the primal forces of the nature, their magics reflecting the Fae Houses to which they are aligned.');
 insert into Characters (CardIndex) VALUES (248);
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (163, 1); --Citrine
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (163, 4); --Sapphire
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (163, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (163, 4); --Sapphire
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (163, 557); --Immune: Status Effects
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (163, 518); --Fly
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (163, 608); --Summer
@@ -403,7 +403,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'MiniBoss', 'FK', 'FK Core Set', 'Explore',
 'Ser Sharpclaw has distinguished himself among lesser kobolds for his savagery in battle.  Atop his Wayrmfang Drake, Ravage, he inspires all those around him to new levels of barbarity.  Many Heroes have fallen because they have been ill prepared to face the snarling, biting, stabbing mass of rabid kobolds that Ser Sharpclaw leads into battle.');
 insert into Characters (CardIndex) VALUES (249);
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (164, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (164, 1); --Citrine
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (164, 641); --Surefoot
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (164, 609); --Savage
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (164, 461); --Onslaught
@@ -422,7 +422,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'MiniBoss', 'FK', 'FK Core Set', 'Explore',
 'Ser Snapjaw was the greatest Wyrm Claw Templar in an age.  So daring and grand were his exploits that he was granted special permission to found the Exemplars within the Wyrm Claw Templar Order.  Legendary among lesser kobolds they rally to Ser Snapjaw with zeal, his cunning leadership allowing them to fight with discipline that matches the mightiest armies.');
 insert into Characters (CardIndex) VALUES (250);
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (165, 4); --Sapphire
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (165, 4); --Sapphire
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (165, 554); --Immune: Knockdown
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (165, 580); --Mob
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (165, 185); --Blazing Blade
@@ -442,8 +442,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'MiniBoss', 'FK', 'FK Core Set', 'Explore',
 'What happens when a good soda goes bad?  Tricked into imbibing a cursed Shadow Soda the Dark Consul cpatured a shard of Candy''s essence and supn it into living shadow.  Now the wicked, nether shadow doppelganger terrorizes Crystalia, sowing discord and confusion wherever she goes.');
 insert into Characters (CardIndex) VALUES (251);
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (166, 1); --Citrine
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (166, 2); --Emerald
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (166, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (166, 2); --Emerald
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (166, 557); --Immune: Status Effects
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (166, 495); --Dark Radiance
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (166, 256); --Dark Howling
@@ -463,7 +463,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'MiniBoss', 'FK', 'FK Core Set', 'Explore',
 'The Midnight Tower''s shadow stretches across the whole of Crystalia and is a bleak reminder of the Dark Consul''s strength and power.  Vandella represents a more subtle aspect of the Consul''s power, the power to corrupt and beguile.  She delights in tormenting her prey and sowing chaos within even the most steadfast Hero''s heart.');
 insert into Characters (CardIndex) VALUES (252);
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (167, 3); --Ruby
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (167, 3); --Ruby
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (167, 518); --Fly
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (167, 156); --Alluring
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (167, 204); --Breathtaking Kiss
@@ -484,7 +484,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'MiniBoss', 'FK', 'FK Core Set', 'Explore',
 'Young by treant standards Trent was always a bad seed.  Rooted in the faery-haunted Mistmourn Coast, he was always cranky and inclined to distrust.  Even so, Trent was slow to anger as the mischievous fae lurking in the mists would tease and taunt him.<br>After several centuries the young treant could stand it no longer, uprooting and wreaking vengeance upon the playful fae.  Once his fury was unleashed it was as long-lived as the Fae Wood itself.  In the end, it was remarkably');
 insert into Characters (CardIndex) VALUES (253);
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (168, 4); --Sapphire
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (168, 4); --Sapphire
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (168, 555); --Immune: Poison
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (168, 648); --Tough
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (168, 651); --Virulent
@@ -506,7 +506,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'MiniBoss', 'FK', 'FK Core Set', 'Explore',
 'Young by treant standards Trent was always a bad seed.  Rooted in the faery-haunted Mistmourn Coast, he was always cranky and inclined to distrust.  Even so, Trent was slow to anger as the mischievous fae lurking in the mists would tease and taunt him.<br>After several centuries the young treant could stand it no longer, uprooting and wreaking vengeance upon the playful fae.  Once his fury was unleashed it was as long-lived as the Fae Wood itself.  In the end, it was remarkably');
 insert into Characters (CardIndex) VALUES (253);
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (169, 4); --Sapphire
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (169, 4); --Sapphire
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (169, 555); --Immune: Poison
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (169, 648); --Tough
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (169, 651); --Virulent

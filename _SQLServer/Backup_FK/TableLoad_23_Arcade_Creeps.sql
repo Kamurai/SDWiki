@@ -10,7 +10,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (336);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
 VALUES (251, 111, -1);
-insert into AffinityAssignments (ArcadeCharacterIndex, AffinityIndex) VALUES (251, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (251, 1); --Citrine
 --GangMemberIndex 4
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex);
 VALUES (4, 0, 'Citrine Slime', 'Slime', 'Creep', 5, 1, 0, 137);
@@ -28,7 +28,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (337);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
 VALUES (252, 111, -1);
-insert into AffinityAssignments (ArcadeCharacterIndex, AffinityIndex) VALUES (252, 2); --Emerald
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (252, 2); --Emerald
 --GangMemberIndex 5
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex);
 VALUES (5, 0, 'Emerald Slime', 'Slime', 'Creep', 5, 1, 0, 138);
@@ -46,7 +46,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (338);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
 VALUES (253, 111, -1);
-insert into AffinityAssignments (ArcadeCharacterIndex, AffinityIndex) VALUES (253, 3); --Ruby
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (253, 3); --Ruby
 --GangMemberIndex 6
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex);
 VALUES (6, 0, 'Ghost', 'Undead Ghost', 'Creep', 8, 1, 0, 139);
@@ -63,7 +63,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (339);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
 VALUES (254, 111, -1);
-insert into AffinityAssignments (ArcadeCharacterIndex, AffinityIndex) VALUES (254, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (254, 1); --Citrine
 --GangMemberIndex 7
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex);
 VALUES (7, 0, 'Giri', 'Faerie', 'Creep', 5, 1, 0, 140);
@@ -80,7 +80,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (340);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
 VALUES (254, 111, -1);
-insert into AffinityAssignments (ArcadeCharacterIndex, AffinityIndex) VALUES (254, 2); --Emerald
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (254, 2); --Emerald
 --GangMemberIndex 8
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex);
 VALUES (8, 0, 'Rabid Squirrel', 'Chimera', 'Creep', 6, 1, 0, 141);
@@ -98,7 +98,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (341);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
 VALUES (252, 111, -1);
-insert into AffinityAssignments (ArcadeCharacterIndex, AffinityIndex) VALUES (252, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (252, 1); --Citrine
 --GangMemberIndex 9
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex);
 VALUES (9, 0, 'Rattlebone', 'Undead Skeleton', 'Creep', 5, 1, 0, 142);
@@ -115,7 +115,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (342);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
 VALUES (256, 111, -1);
-insert into AffinityAssignments (ArcadeCharacterIndex, AffinityIndex) VALUES (256, 4); --Sapphire
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (256, 4); --Sapphire
 --GangMemberIndex 10
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex);
 VALUES (10, 0, 'Ruby Slime', 'Slime', 'Creep', 5, 1, 0, 143);
@@ -133,7 +133,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (343);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
 VALUES (257, 111, -1);
-insert into AffinityAssignments (ArcadeCharacterIndex, AffinityIndex) VALUES (257, 4); --Sapphire
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (257, 4); --Sapphire
 --GangMemberIndex 11
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex);
 VALUES (11, 0, 'Sapphire Slime', 'Slime', 'Creep', 5, 1, 0, 144);

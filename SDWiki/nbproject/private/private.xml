@@ -3,32 +3,13 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/House/Programming/Netbeans/SDWiki/SDWiki/web/SDE/1.0/Cards/Heroes/Navigation.xhtml</file>
-            <file>file:/C:/House/Programming/Netbeans/SDWiki/SDWiki/src/java/Database/DbInfo.java</file>
-            <file>file:/C:/House/Programming/Netbeans/SDWiki/SDWiki/src/java/SDE/Bean/PetBean.java</file>
-            <file>file:/C:/House/Programming/Netbeans/SDWiki/SDWiki/src/java/Main/Universal.java</file>
-            <file>file:/C:/House/Programming/Netbeans/SDWiki/SDWiki/web/SDE/Heroes.xhtml</file>
-            <file>file:/C:/House/Programming/Netbeans/SDWiki/SDWiki/web/SDE/1.0/Cards/Boss_Spawn/Navigation.xhtml</file>
-            <file>file:/C:/House/Programming/Netbeans/SDWiki/SDWiki/src/java/Database/SDE/SDEDAONavigation.java</file>
-            <file>file:/C:/House/Programming/Netbeans/SDWiki/SDWiki/src/java/SDE/Bean/BossSpawnBean.java</file>
-            <file>file:/C:/House/Programming/Netbeans/SDWiki/SDWiki/web/SDE/1.0/Cards/Booty/Navigation.xhtml</file>
-            <file>file:/C:/House/Programming/Netbeans/SDWiki/SDWiki/src/java/Database/DAO.java</file>
-            <file>file:/C:/House/Programming/Netbeans/SDWiki/SDWiki/web/SDE/Layout.xhtml</file>
-            <file>file:/C:/House/Programming/Netbeans/SDWiki/SDWiki/web/SDE/Loot.xhtml</file>
-            <file>file:/C:/House/Programming/Netbeans/SDWiki/SDWiki/src/java/SDE/Equipment.java</file>
-            <file>file:/C:/House/Programming/Netbeans/SDWiki/SDWiki/web/SDE/Content/CardList.xhtml</file>
-            <file>file:/C:/House/Programming/Netbeans/SDWiki/SDWiki/web/SDE/Navigation.xhtml</file>
-            <file>file:/C:/House/Programming/Netbeans/SDWiki/SDWiki/web/SDE/1.0/Cards/MiniBosses/Navigation.xhtml</file>
-            <file>file:/C:/House/Programming/Netbeans/SDWiki/SDWiki/web/SDE/1.0/Cards/Loot/Berserkers_Helm.xhtml</file>
-            <file>file:/C:/House/Programming/Netbeans/SDWiki/SDWiki/src/java/SDE/Bean/MonsterBean.java</file>
-            <file>file:/C:/House/Programming/Netbeans/SDWiki/SDWiki/src/java/SDE/Bean/UtilityBean.java</file>
-            <file>file:/C:/House/Programming/Netbeans/SDWiki/SDWiki/web/SDE/1.0/Cards/MiniBosses/Layout.xhtml</file>
-            <file>file:/C:/House/Programming/Netbeans/SDWiki/SDWiki/web/SDE/Content/Monster.xhtml</file>
             <file>file:/C:/House/Programming/Netbeans/SDWiki/SDWiki/src/java/SDE/Bean/EquipmentBean.java</file>
             <file>file:/C:/House/Programming/Netbeans/SDWiki/SDWiki/src/java/Database/SDE/SDEDAOOne.java</file>
-            <file>file:/C:/House/Programming/Netbeans/SDWiki/SDWiki/web/SDE/1.0/Cards/Loot/Navigation.xhtml</file>
-            <file>file:/C:/House/Programming/Netbeans/SDWiki/SDWiki/web/SDE/1.0/Cards/Loot/Layout.xhtml</file>
+            <file>file:/C:/House/Programming/Netbeans/SDWiki/SDWiki/web/SDE/1.0/Cards/Loot/Berserkers_Helm.xhtml</file>
+            <file>file:/C:/House/Programming/Netbeans/SDWiki/SDWiki/web/SDE/Loot.xhtml</file>
+            <file>file:/C:/House/Programming/Netbeans/SDWiki/SDWiki/web/SDE/Treasure.xhtml</file>
             <file>file:/C:/House/Programming/Netbeans/SDWiki/SDWiki/src/java/SDE/Bean/CardBean.java</file>
+            <file>file:/C:/House/Programming/Netbeans/SDWiki/SDWiki/src/java/Database/SDE/SDEDAONavigation.java</file>
             <file>file:/C:/House/Programming/Netbeans/SDWiki/SDWiki/web/SDE/Content/Equipment.xhtml</file>
         </group>
     </open-files>

@@ -7,7 +7,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Booty', 'FK', 'FK Core Set', 'Default', 
 'Boo booty are the unfortunate creation of gnomish tinkering, paired with dwarven greed.  Originally intended to guard the treasure vaults of the Hearthsworn Dwarves, the spirit of the Dark Consul filled the constructs with a malevolent intellect.  Turning upon their former masters, boo booty rabildly guard their treasure from all who would seek to claim it.');
 insert into Characters (CardIndex) VALUES (212);
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (127, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (127, 1); --Citrine
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (127, 465); --Backlash
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (127, 656); --Boo Booty
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
@@ -24,7 +24,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Booty', 'FK', 'FK Core Set', 'Default', 
 'While the original function of boo booty are to guard their treasure, Booty Grinders have the unfortunate tendency to devour it instead.  Once a Booty Grinder has caught the scent of shining steel, lustrous gold, or sparkling gems it will doggedly pursue any who carry them like a ravenous hound.');
 insert into Characters (CardIndex) VALUES (213);
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (128, 3); --Ruby
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (128, 3); --Ruby
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (128, 656); --Boo Booty
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (128, 363); --Grind It
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
@@ -41,7 +41,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Booty', 'FK', 'FK Core Set', 'Default', 
 'While the original function of boo booty are to guard their treasure, Booty Grinders have the unfortunate tendency to devour it instead.  Once a Booty Grinder has caught the scent of shining steel, lustrous gold, or sparkling gems it will doggedly pursue any who carry them like a ravenous hound.');
 insert into Characters (CardIndex) VALUES (213);
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (128, 2); --Emerald
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (128, 2); --Emerald
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (128, 656); --Boo Booty
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (128, 198); --Bounce It
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 

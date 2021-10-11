@@ -10,7 +10,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (368);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
 VALUES (282, 356, -1);
-insert into AffinityAssignments (ArcadeCharacterIndex, AffinityIndex) VALUES (282, 3); --Ruby
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (282, 3); --Ruby
 --GangMemberIndex 36
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex);
 VALUES (36, 0, 'Beatrix the Witch Queen', 'Witch', 'Boss', 8, 10, 4, 170);
@@ -32,8 +32,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (369);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
 VALUES (283, 336, -1);
-insert into AffinityAssignments (ArcadeCharacterIndex, AffinityIndex) VALUES (283, 1); --Citrine
-insert into AffinityAssignments (ArcadeCharacterIndex, AffinityIndex) VALUES (283, 3); --Ruby
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (283, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (283, 3); --Ruby
 --GangMemberIndex 37
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex);
 VALUES (37, 0, 'The Forgotten King', 'Chimera', 'Boss', 8, 10, 4, 171);
@@ -53,8 +53,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (370);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
 VALUES (284, 463, -1);
-insert into AffinityAssignments (ArcadeCharacterIndex, AffinityIndex) VALUES (284, 1); --Citrine
-insert into AffinityAssignments (ArcadeCharacterIndex, AffinityIndex) VALUES (284, 3); --Ruby
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (284, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (284, 3); --Ruby
 --GangMemberIndex 38
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex);
 VALUES (38, 0, 'Goro', 'Faerie', 'Boss', 8, 12, 3, 172);
@@ -75,7 +75,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (371);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
 VALUES (285, 484, -1);
-insert into AffinityAssignments (ArcadeCharacterIndex, AffinityIndex) VALUES (285, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (285, 1); --Citrine
 --GangMemberIndex 39
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex);
 VALUES (39, 0, 'King Starfire', 'Treant Kodama', 'Boss', 6, 8, 3, 173);
@@ -96,7 +96,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (372);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
 VALUES (286, 374, -1);
-insert into AffinityAssignments (ArcadeCharacterIndex, AffinityIndex) VALUES (286, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (286, 1); --Citrine
 --GangMemberIndex 40
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex);
 VALUES (40, 0, 'Nocturne', 'Shapeshift', 'Boss', 8, 8, 4, 174);
@@ -116,7 +116,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (373);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
 VALUES (287, 473, -1);
-insert into AffinityAssignments (ArcadeCharacterIndex, AffinityIndex) VALUES (287, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (287, 1); --Citrine
 --GangMemberIndex 41
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex);
 VALUES (41, 0, 'Ragin'' Roxor (v1)', 'Shapeshift', 'Boss', 8, 10, 3, 175);
@@ -136,7 +136,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (374);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
 VALUES (288, 473, -1);
-insert into AffinityAssignments (ArcadeCharacterIndex, AffinityIndex) VALUES (288, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (288, 1); --Citrine
 --GangMemberIndex 42
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex);
 VALUES (42, 0, 'Ragin'' Roxor (v2)', 'Shapeshift', 'Boss', 6, 10, 4, 175);
@@ -156,7 +156,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (375);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
 VALUES (289, 346, -1);
-insert into AffinityAssignments (ArcadeCharacterIndex, AffinityIndex) VALUES (289, 4); --Sapphire
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (289, 4); --Sapphire
 --GangMemberIndex 43
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex);
 VALUES (43, 0, 'Rockin'' Roxor (v1)', 'Elemental', 'Boss', 6, 10, 5, 176);
@@ -176,7 +176,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (376);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
 VALUES (290, 455, -1);
-insert into AffinityAssignments (ArcadeCharacterIndex, AffinityIndex) VALUES (290, 4); --Sapphire
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (290, 4); --Sapphire
 --GangMemberIndex 44
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex);
 VALUES (44, 0, 'Rockin'' Roxor (v2)', 'Elemental', 'Boss', 6, 10, 6, 176);
@@ -196,7 +196,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (377);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
 VALUES (291, 363, -1);
-insert into AffinityAssignments (ArcadeCharacterIndex, AffinityIndex) VALUES (291, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (291, 1); --Citrine
 --GangMemberIndex 45
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex);
 VALUES (45, 0, 'Starfire', 'Dragon', 'Boss', 8, 10, 4, 177);
@@ -215,8 +215,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (378);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
 VALUES (292, 344, -1);
-insert into AffinityAssignments (ArcadeCharacterIndex, AffinityIndex) VALUES (292, 2); --Emerald
-insert into AffinityAssignments (ArcadeCharacterIndex, AffinityIndex) VALUES (292, 3); --Ruby
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (292, 2); --Emerald
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (292, 3); --Ruby
 --GangMemberIndex 46
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex);
 VALUES (46, 0, 'Von Drakk', 'Undead Vampire', 'Boss', 8, 8, 3, 178);

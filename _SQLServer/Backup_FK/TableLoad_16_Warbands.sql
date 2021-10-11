@@ -10,7 +10,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', 'FK', 'FK Core Set', 'Explore',
 'Once the Bramble Knights were great Heores of Crystalia.  The statues erected in their honor were timeless memorials to the brave warriors who defended the kingdom and Fae Wood with their lives.<br>When the Forgotten King sought to challenge the rightful rule of Crystalia, the Bramble Knights sworn to him marched under his banner.  Bitter civil war raged througout the realm.  Only when the elves of the Fae Wood joined the fight were the Forgotten King''s forces finally stopped.<br>As punishment for their treachery the once gallant Bramble Knights shared the Forgotten King''s fate.  Cursed by their own treasonous lord they were transformed into chimera.  No longer human, nor beast, they became monsters and were banished to the Lordship Ruins.<br>Centuries later they still dwell within its crumbled halls, nurturing old hates, and plotting their reemergence under the Dark Consul''s banner.');
 insert into Characters (CardIndex) VALUES (264);
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (179, 2); --Emerald
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (179, 2); --Emerald
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (179, 557); --Immune: Status Effects
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (179, 478); --Bramble Growth
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (179, 660); --Spawning Pool
@@ -28,7 +28,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', 'FK', 'FK Core Set', 'Explore',
 'Billmen were not full-fledged Bramble Knights, but were instead part of the Forgotten King''s guard.  Nonetheless, they were held in high esteem for their courage and skill at arms.  Exemplary service within the Billmen made elevation to the rank of Bramble Knight all but assured.<br>During The Forgotten King''s uprising Billmen made up the primary bulk of his forces.  Most of these stalwart warriors marched to battle not knowing of their master''s treason.  They dutifully fought in the war believing their cause was just and in service to the Goddess.<br>For this reason the Billmen are often seen as the most tragic of figures, unwittingly serving a dark master and doomed to share his fate.');
 insert into Characters (CardIndex) VALUES (265);
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (180, 2); --Emerald
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (180, 2); --Emerald
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (180, 625); --Slow
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (180, 'Either', 'Small', 'Chimera', 6, 1, '3B', '1ST', '2B', '1B 1R', 1, 0);
@@ -45,7 +45,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', 'FK', 'FK Core Set', 'Explore',
 'Mounted on battle-hardened Squawks, Frog Knights attempt to hold true to their former chivalrous past.  With great leaps they manuever through the battle to engage a worthy foe in single combat.  Win or lose, such a duel is their highest honor.');
 insert into Characters (CardIndex) VALUES (266);
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (181, 2); --Emerald
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (181, 2); --Emerald
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (181, 641); --Surefoot
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (181, 339); --Frogger
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (181, 612); --Supremely Skilled Shrieking Squawk Strike
@@ -64,7 +64,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', 'FK', 'FK Core Set', 'Explore',
 'The Executioners are infamous foes to all the people of Crystalia.  Even before the curse that turned The Forgotten King and his followers into bestial chimera, the Bramble Knight Executioners were terrifying figures.  With powerful sweeps of their axes, they performed their grim duty with unsettling satisfaction.  Now, they employ their axes with unabandoned cruelty and cleave through Heroes with wicked delight.');
 insert into Characters (CardIndex) VALUES (267);
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (182, 2); --Emerald
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (182, 2); --Emerald
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (182, 571); --Massive Damage
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (182, 'Either', 'Large', 'Chimera', 6, 2, '3B 1R', '1B 1R', '1B', '3B', 3, 0);
@@ -82,7 +82,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', 'FK', 'FK Core Set', 'Explore',
 'While the Cult of the Burning Star has its origins in the worship of the Ruby Dragon Starfire, similar cults have spread throughout Crystalia and encompass the worship of all the dragons.  Established by Dragon Priests to enforce order, while venerating the dragon which they serve, Claw Shrines are important locations within any kobold warren.<br>At the shrine, revered drake hatchlings are bonded with worthy kobolds to form vicious draconic packs that patrol the kobold''s territory.  Ironscales who have proved themselves in battle are elevated to the rank of Templar--provided they can survive the ordeal of breaking a deadly Wyrmfang Raptor to be their mount.  Most terrifying of all are the sinister Black Claw Assassins.  Anointed by the Dragon Priests as the divine retirbution of the dragon, they bring their masters wrath, and swift death, to all who would betray the cult.');
 insert into Characters (CardIndex) VALUES (268);
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (183, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (183, 1); --Citrine
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (183, 557); --Immune: Status Effects
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (183, 478); --Dragon Blessing
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (183, 662); --Spawning Pool
@@ -100,7 +100,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', 'FK', 'FK Core Set', 'Explore',
 'Not being the mightiest of warriors, kobolds are often forced to rely on sheer numbers to bring down their foes.  Lurking within the seething mobs of kobolds, the villainous Black Claw Assassins wait patiently for the opportune moment to strike.');
 insert into Characters (CardIndex) VALUES (269);
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (184, 2); --Emerald
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (184, 2); --Emerald
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (184, 580); --Mob
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (184, 637); --Stealth
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (184, 468); --Backstabber
@@ -120,7 +120,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', 'FK', 'FK Core Set', 'Explore',
 'There are few positions within kobold society that are more desired than that of Claw Trainer.  Blessed with rare empathy and draconic insight, these exceptional koboldsare gifted with the opportunity to raise newly hatched drakes.  Over many years of training, Claw Trainer and Drake Hounds form deadly packs capable of hunting down any intruder in their master''s realm.');
 insert into Characters (CardIndex) VALUES (270);
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (185, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (185, 1); --Citrine
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (185, 580); --Mob
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (185, 469); --Packmaster
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (185, 446); --Monster Tamer
@@ -139,7 +139,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', 'FK', 'FK Core Set', 'Explore',
 '');
 insert into Characters (CardIndex) VALUES (271);
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (186, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (186, 1); --Citrine
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (186, 564); --Knockdown
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (186, 586); --Pile-On
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (186, 187); --Blood Scent
@@ -159,7 +159,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', 'FK', 'FK Core Set', 'Explore',
 'Wherever a dragon makes its lair its draconic kin, drakes, are sure to be found.  Territorial and savage these lesser beasts submit entirely to the will of the dragon.  In exchange for the dragon''s protection the drakes serve as the dragon''s eys, ears, and faithful guards.<br>When hunting a dragon, Heroes inevitably have to make their way through hordes of drakes that throw themselves in the path of the Heroes.  Larger drakes attempt to drag their foes to the ground so smaller hatchlings can swarm over their helpless prey.  Above, elder wyrmlings swoop and dart, spitting fire at the invaders.');
 insert into Characters (CardIndex) VALUES (272);
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (187, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (187, 1); --Citrine
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (187, 557); --Immune: Status Effects
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (187, 535); --Hatchery
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (187, 664); --Spawning Pool
@@ -177,7 +177,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', 'FK', 'FK Core Set', 'Explore',
 'Even the smallest of drakes can be a serious threat in numbers.  Quick-footed, sharp-toothed, and very hungry, Hatchlings swarm over anything at their height and have made more than one quickl meal of a wounded Hero.');
 insert into Characters (CardIndex) VALUES (273);
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (188, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (188, 1); --Citrine
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (188, 586); --Pile-On
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (188, 'Either', 'Small', 'Drake', 6, 2, '3B', '0ST', '2B', '3B', 2, 0);
@@ -194,7 +194,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', 'FK', 'FK Core Set', 'Explore',
 'Still too young to grow wings, Whelps must settle for chasing down their prey to make a meal.  This quickly weeds out the weakest of the clutch and ensures that only the strongest will survive.');
 insert into Characters (CardIndex) VALUES (274);
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (189, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (189, 1); --Citrine
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (189, 564); --Knockdown
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (189, 586); --Pile-On
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
@@ -212,7 +212,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', 'FK', 'FK Core Set', 'Explore',
 'Wyrmlings have so far managed to not be eaten by kin or kobold and are nearing maturity.  They wheel around the caverns and their mountain hunting grounds on newly sprouted wings, feeding on foolish trespassers.');
 insert into Characters (CardIndex) VALUES (275);
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (190, 2); --Emerald
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (190, 2); --Emerald
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (190, 518); --Fly
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (190, 586); --Pile-On
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (190, 322); --Flame Burst
@@ -233,7 +233,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', 'FK', 'FK Core Set', 'Explore',
 '');
 insert into Characters (CardIndex) VALUES (276);
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (191, 3); --Ruby
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (191, 3); --Ruby
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (191, 557); --Immune: Status Effects
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (191, 503); --Elemental Affinity
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (191, 543); --Hidden
@@ -253,7 +253,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', 'FK', 'FK Core Set', 'Explore',
 'Aspring leaders and skilled fighters within the clan are called upon to lead their own team of ninjas as chunin.  This is an incredible honor, and the trials to come will not only test a chunin''s leadership and skills, but their spirit as well.');
 insert into Characters (CardIndex) VALUES (277);
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (192, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (192, 1); --Citrine
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (192, 637); --Stealth
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (192, 322); --Precision Strike
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (192, 281); --Elemental Master
@@ -272,7 +272,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', 'FK', 'FK Core Set', 'Explore',
 'Kaiken are the backbone of the clans.  To be a kaiken is not to be relegated to a basic or role.  Training to become a kaiken starts from birth and is ingrained through hardship, conditioning, and trials that normal people could not withstand.  Kaiken are masters of the art of stealth, the sword, and the shuriken.  As their experience grows, they learn to tap elemental magic, unlocking potent abilities to rival even the great Heroes.');
 insert into Characters (CardIndex) VALUES (278);
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (193, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (193, 1); --Citrine
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (193, 637); --Stealth
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (193, 174); --Back Strike
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
@@ -291,7 +291,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', 'FK', 'FK Core Set', 'Explore',
 'Kunoichi are specialized female fighters and scouts for the clans.  Though deadly and widely trained in the ninja arts, the kunoichi put particular emphasis on speed and agility.  In battle, kunoichi focus on key mission objectives such as scouting targets and carrying vital missives.');
 insert into Characters (CardIndex) VALUES (279);
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (194, 2); --Emerald
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (194, 2); --Emerald
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (194, 637); --Stealth
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (194, 674); --Wind in the Forest
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
@@ -310,7 +310,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', 'FK', 'FK Core Set', 'Explore',
 'All clans possess the mystics known as madoushi.  In some clans, they are revered as sages, alchemists and healers.  Other clans regard them as witches, and tolerate them with barely concealed mistrust and fear.  Whether they are revered or reviled, all madoushi are able to harness the powers native to the lands of their clan.  With training, study, and mediataion, a madoushi learns to draw from the lines of Ki that race through the landscape, summoning the very elements to do their bidding.');
 insert into Characters (CardIndex) VALUES (280);
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (195, 3); --Ruby
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (195, 3); --Ruby
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (195, 637); --Stealth
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (195, 482); --Poisoned Weapons
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (195, 677); --Wind Walk
@@ -330,7 +330,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', 'FK', 'FK Core Set', 'Explore',
 'Yajiri specialize in attacking from afar.  Their black shafted arrows are renowned for striking with deadly accuracy.  While the bow is utilized throughout all the clans, many have developed their own unique forms of ranged warfare.  The Kitsune''s blowguns eliminate sentries with only the sound of a silent rush of wind to mark their use; while the thunder of the Tora''s rifle sows confusion among the enemy ranks, even as it wreaks terrible devastation.  No matter the form it takes, a yajiri''s value to their clan cannot be underestimated.');
 insert into Characters (CardIndex) VALUES (281);
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (196, 2); --Emerald
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (196, 2); --Emerald
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (196, 637); --Stealth
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (196, 652); --Wind of Blades
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
@@ -349,7 +349,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', 'FK', 'FK Core Set', 'Explore',
 'Like kodama, kinoko are spirits of the forest.  When uncorrupted by the Dark Consul they are servants of the Deeproot Tree.  Fun loving and given to a pleasant disposition, natural kinoko enjoy nothing more than bouncing through the forest, making absurd squishing noises and burbling happily to birds and forest spirits.<br>Under the Dark Consul''s influence they become territorial and grumpy, shredding great clouds of spores that send Heroes into an enchanted slumber.  once snoozing soundly, the kinoko bounce the sleeping Heroes off cliffs, into spider holes, or monsters'' waiting jaws.');
 insert into Characters (CardIndex) VALUES (282);
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (197, 2); --Emerald
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (197, 2); --Emerald
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (197, 557); --Immune: Status Effects
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (197, 630); --Soporific Cloud
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (197, 668); --Spawning Pool
@@ -367,7 +367,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', 'FK', 'FK Core Set', 'Explore',
 '"Rawr!  Rawr!  Raaawr!"  The call of an enraged Kinoshroom is not very terrifying.  In truth, even when working for the Dark Consul, Kinoshroom are poor at being bad guys.  Nonetheless, when swayed to villainy, Kinoshroom are tenacious and frustrating, their spongy exterior repelling blades and throwing Heroes backwards.');
 insert into Characters (CardIndex) VALUES (283);
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (198, 2); --Emerald
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (198, 2); --Emerald
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (198, 629); --Soporific
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (198, 634); --Spongy
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (198, 198); --Bounce
@@ -386,7 +386,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', 'FK', 'FK Core Set', 'Explore',
 'As a Kinoshroom grows it becomes a venerable Okoshroom.  Okoshroom leave behind the bounciness of youth and trade it for the whirling spin of wisdom-- wisdom is the Okoshroom''s assertion.  The spinning is the primary thing.  Just keep spinning.  Just keep spinning.  Spinning.  Spinning.  Spinning...');
 insert into Characters (CardIndex) VALUES (284);
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (199, 2); --Emerald
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (199, 2); --Emerald
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (199, 629); --Soporific
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (199, 634); --Spongy
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (199, 669); --Whirling Shitake
@@ -406,7 +406,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', 'FK', 'FK Core Set', 'Explore',
 'Kinoko befriend the roaming packs of pigs that populate the Fae Wood.  These loyal companions help tend the truffle gardens whre Kinoko grow, in exchange for a healthy serving of delicious slop.  When the truffle gardens are threatened, Truffle Pigs prove to be fierce defenders of the young Kinoko, charging into danger with ear shattering squeals to protect their young wards.');
 insert into Characters (CardIndex) VALUES (285);
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (200, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (200, 1); --Citrine
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (200, 652); --Tusker
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (200, 347); --Funky Fungus Sniffer
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
@@ -424,7 +424,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', 'FK', 'FK Core Set', 'Explore',
 'While skeletons of the long dead are the most common undead terror to stalk the Glauerdoom Moor, the freshly deceased are also frequently disturbed from their eternal slumber to become zombies.  Any will that a zombie may still retain its extinguished by the crushing madness of the Shamble Priest''s desires.<br>Nursing old grudges, or merely indulging in insane fantasy, Shamble Priests drive shuffling herds of zombies into townships, wreaking terror and carnage.  When homes are overrun they become new focal points of necromantic energy that the Shamble Priests use to spawn still more zombies and grow their horde.');
 insert into Characters (CardIndex) VALUES (286);
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (201, 4); --Sapphire
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (201, 4); --Sapphire
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (201, 557); --Immune: Status Effects
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (201, 530); --Grabby Hands
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (201, 670); --Spawning Pool
@@ -442,7 +442,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', 'FK', 'FK Core Set', 'Explore',
 'Prowlers are raised from the crueler criminal element of Crystalia''s deceased.  Allowed to maintain a modicum of their former selves, Prowlers nonetheless share a deep link with those attuned to necromantic energy.  Consuming the life energy of those they attack, Prowlers siphon the energy to nearby practitioners of the dark arts.');
 insert into Characters (CardIndex) VALUES (287);
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (202, 2); --Emerald
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (202, 2); --Emerald
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (202, 528); --Grabby
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (202, 580); --Mob
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (202, 637); --Stealth
@@ -462,7 +462,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', 'FK', 'FK Core Set', 'Explore',
 'It is unknown if a Pudge is an intentional creation or merely a byproduct of zombies naturally decaying and bloating--yuck.  Regardless of the cause of their revolting existence, Heroes are advised to give them a wide berth in case they pop--seriously?--yes, seriously.  Double yuck.');
 insert into Characters (CardIndex) VALUES (288);
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (203, 4); --Sapphire
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (203, 4); --Sapphire
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (203, 528); --Grabby
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (203, 532); --Gross
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (203, 580); --Mob
@@ -482,7 +482,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', 'FK', 'FK Core Set', 'Explore',
 'By any conventional definition Shamble Priests are stark raving lunatics.  Driven by a uniquely malicious nature, they breathe unnatural life into the freshly deceased.  Leading hordes of zombies, they wander Crystalia preying upon small villages and hamlets, taking nothing but the bodies of the victims--new recruits fro their host.');
 insert into Characters (CardIndex) VALUES (289);
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (204, 3); --Ruby
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (204, 3); --Ruby
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (204, 475); --Pin Cushion
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (204, 665); --Wakey-Wakey
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (204, 200); --Brain Food
@@ -502,7 +502,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', 'FK', 'FK Core Set', 'Explore',
 'Once the wetlands of the Glauerdoom Moor were vibrant with life, now they are little more than festering swamps.<br>Lurching through the diseased waters, Swampies are nothing but mindless corpses propelled forward by the will of a Shamble Priest.  Possessing deceptive strength, they cling to Heroes with rotting claws, as yellowed teeth search for the perfect place to take a juicy bite.');
 insert into Characters (CardIndex) VALUES (290);
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (205, 4); --Sapphire
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (205, 4); --Sapphire
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (205, 528); --Grabby
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (205, 580); --Mob
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
@@ -520,7 +520,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', 'FK', 'FK Core Set', 'Explore',
 'Kobolds were the first monsters from the Dark Realm to invade Crystalia, and remain the most numerous.  In the centuries that have passed since the banishment of the Dark Consul, kobolds have only increased in numbers.  Supremely adaptable and remarkably relentless in their drive to expand, there is no corner of Crystalia untouched by their menace.<br>Fortunately, they are also clannish and given to feuding amongst themselves when left to their own devices.  Whenever possible, Heroes root out clans of kobolds before they unite behind a larger and craftier monster to boss them around.  Otherwise, kobolds become an almost unstoppable scourge.');
 insert into Characters (CardIndex) VALUES (291);
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (206, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (206, 1); --Citrine
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (206, 518); --Immune: Status Effects
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (206, 586); --Mob Mentality
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (206, 672); --Spawning Pool
@@ -538,7 +538,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', 'FK', 'FK Core Set', 'Explore',
 'While the Cult of the Burning Star, which venerates Starfire, is the most well known there are cults of kobolds dedicated to the worship of all the dragons of Crystalia.  Dragon Priests are granted arcane powers by their close communion with the dragons.  Once bestowed these gifts, the priests never hesitate to use their favor to bully and intimidate the lesser kobolds into fighting for them.');
 insert into Characters (CardIndex) VALUES (292);
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (207, 3); --Ruby
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (207, 3); --Ruby
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (207, 580); --Mob
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (207, 292); --Dragon Rage
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (207, 546); --Shadow Breath
@@ -558,7 +558,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', 'FK', 'FK Core Set', 'Explore',
 'Many young kobolds emerge from their warrens having learned how to hunt bats and other denizens with nothing more than a strip of drakegut and a pouch fulll of stones.  Deadly accurate, they launch small clay pots of flaming lamp oil or inky smoke bombs to conceal their movement.');
 insert into Characters (CardIndex) VALUES (293);
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (208, 2); --Emerald
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (208, 2); --Emerald
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (208, 580); --Mob
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (208, 392); --Hot Pot
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (208, 567); --Smoke Pot
@@ -578,7 +578,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', 'FK', 'FK Core Set', 'Explore',
 'Kobolds are not big on courage as lone fighters.  Their snarling growls are meager and their weapons blunt and rusted.  The Gouger''s long spears can effectively add weight to their kin''s attacks by stabbing at the desperately flailing Heroes.');
 insert into Characters (CardIndex) VALUES (294);
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (209, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (209, 1); --Citrine
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (209, 580); --Mob
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (209, 'Either', 'Small', 'Kobold', 7, 1, '3B', '0ST', '2B', '1B1R', 1, 0);
@@ -595,8 +595,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', 'FK', 'FK Core Set', 'Explore',
 'The strongest and largest of their kind, the Ironscales are draped in heavy armor and fight from behind immovable heavy shields.  Advancing with a rattling stomp, their kin swarm from behind their wall of protection to attack anyone foolish enough to stick around.');
 insert into Characters (CardIndex) VALUES (295);
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (210, 1); --Citrine
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (210, 4); --Amethyst
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (210, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (210, 4); --Amethyst
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (210, 580); --Mob
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (210, 537); --Scalewall
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
@@ -614,7 +614,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', 'FK', 'FK Core Set', 'Explore',
 'The Knuckleheads'' strength lies in large, deadly, mobs of its kin throwing themselves headlong into smaller bands of Heroes.  They use their small shields and iron helmets to take blows, while frantically stabbing anything in reach with their crude weapons.');
 insert into Characters (CardIndex) VALUES (296);
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (211, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (211, 1); --Citrine
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (211, 580); --Mob
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (211, 'Either', 'Small', 'Kobold', 7, 1, '3B', '1ST', '2B', '1B1R', 1, 0);
@@ -631,7 +631,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', 'FK', 'FK Core Set', 'Explore',
 '');
 insert into Characters (CardIndex) VALUES (297);
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (212, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (212, 1); --Citrine
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (212, 557); --Immune: Status Effects
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (212, 513); --Fire Aura
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (212, 674); --Spawning Pool
@@ -649,7 +649,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', 'FK', 'FK Core Set', 'Explore',
 'Subsisting entirely on the molten rock of the Fire Flows, the Blaze Beetle is at home swimming through its magnificent lava rivers.  Blaze Beetles possess a remarkable sense of cruel cunning, burrowing beneath groups of Heroes to erupt from solid stone, bathing them in a shower of fire and rock.');
 insert into Characters (CardIndex) VALUES (298);
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (213, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (213, 1); --Citrine
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (213, 551); --Immune: Fire
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (213, 481); --Burrow
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (213, 349); --Furnace Vent
@@ -669,7 +669,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', 'FK', 'FK Core Set', 'Explore',
 'Born of fire, Burning Gels prefer to lurk in any fire they can find, hoping to ambush passersby.  If no fire presents itself they are all too happy to start one themselves.  More living fire than flesh-and-blood creature, the only  way to actually extinguish a Burning Gel is to stomp it into too many pieces for it to cause any more mischief.');
 insert into Characters (CardIndex) VALUES (299);
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (214, 3); --Ruby
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (214, 3); --Ruby
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (214, 512); --Fire
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (214, 551); --Immune: Fire
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (214, 632); --Splurt
@@ -690,7 +690,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', 'FK', 'FK Core Set', 'Explore',
 'Concealed in a cloak of ash, the Ember Hound stalks travelers whose campfires burn too brightly at night.');
 insert into Characters (CardIndex) VALUES (300);
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (215, 2); --Emerald
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (215, 2); --Emerald
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (215, 551); --Immune: Fire
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (215, 637); --Stealth
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (215, 556); --Sickening Smoke
@@ -710,7 +710,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', 'FK', 'FK Core Set', 'Explore',
 'Fire Gels may be half the size of Burning Gels, but they''re twice as angry.  They derive wicked pleasure from catching an unwary Hero off guard, lighting their bootlaces on fire and singeing their hair with malicious glee.');
 insert into Characters (CardIndex) VALUES (301);
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (216, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (216, 1); --Citrine
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (216, 512); --Fire
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (216, 551); --Immune: Fire
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (216, 559); --Insignificant
@@ -731,7 +731,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', 'FK', 'FK Core Set', 'Explore',
 'The elves of the Fae Wood and the wise Deeproot Tree have long been friends and guardians of Crystalia.  Their timeless stewardship of the land made them ideal caretakers for the exiled Forgotten King and his court.<br>Yet the rise of the Dark Consul has sapped their ageless strength as they are beset on all sides, and the Forgotten King has become a cancer that corrupts from within.  As the Consul''s power rises, so too doees the Forgotten King''s and he has use his magic to sicken and bewitch the forest spirits within the Lordship Ruins.<br>Tswisted by the Forgotten King''s hatred, these corrupt kodama have lent their strength to the Dark Consul.  Now the elves find themselves under attack in their own woods.');
 insert into Characters (CardIndex) VALUES (302);
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (217, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (217, 1); --Citrine
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (217, 557); --Immune: Status Effects
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (217, 590); --Poison Aura
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (217, 676); --Spawning Pool
@@ -749,7 +749,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', 'FK', 'FK Core Set', 'Explore',
 'Uncorrupted, a Sprout grows to become a mighty plant or tree within the Fae Wood, providing food and shelter to the denizens of the forest.  Under the Dark Consul''s influence they instead become ravenous creatures of flailing vines, snapping jaws, and insatiable hunger.');
 insert into Characters (CardIndex) VALUES (303);
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (218, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (218, 1); --Citrine
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (218, 589); --Poison
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (218, 555); --Immune: Poison
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (218, 508); --Feed Me
@@ -771,7 +771,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', 'FK', 'FK Core Set', 'Explore',
 'Constantly busy and cheerful, Mooks are guardians and caretakers of the forest.  Filled with an insatiable curiousity, their naturally mischevious nature has been twisted to cruel pranks with deadly intentions.');
 insert into Characters (CardIndex) VALUES (304);
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (219, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (219, 1); --Citrine
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (219, 589); --Poison
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (219, 555); --Immune: Poison
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (219, 651); --Virulent
@@ -790,7 +790,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', 'FK', 'FK Core Set', 'Explore',
 'Sprouts are blessings of the Deeproot Tree.  Each spring the Deeproot Tree breathes life into countless sprouts.  Some travel the surface, others take ot the wind upon whirling propellers of leaves, while others burrow deep within the earth.  They spread throughout Crystalia bringing the promise of renewed life throughout the land.<br>When a Sprout concludes its journey it takes root, becoming a tree, shrub, sweeping carpet of wildflowers, or any other variety of bright greenery.  In such a manner does the Deeproot Tree spread its influence throughout Crystalia.<br>Since the rise of the Dark Consul, Sprouts are captured by servants of the wicked creatures who call the Consul master.  Employing black magics they pollute the seeds, corrupting not only the plant the Sprout was meant to become, but all the kodama who rely on its healthy growth for shelter and sustenance.');
 insert into Characters (CardIndex) VALUES (305);
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (220, 2); --Sapphire
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (220, 2); --Sapphire
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (220, 519); --Forced Shift
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (220, 619); --Shapeshift: King Sprout
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (220, 515); --Rampant Growth
@@ -809,8 +809,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', 'FK', 'FK Core Set', 'Explore',
 'Turnipheads are the least swayed by the Dark Consul''s influence.  It has always been their purpose to heal sick and dying plants.  It makes no difference to them if the plant is under the Consul''s thrall or not.');
 insert into Characters (CardIndex) VALUES (306);
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (221, 1); --Citrine
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (221, 2); --Emerald
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (221, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (221, 2); --Emerald
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (221, 555); --Immune: Poison
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (221, 651); --Virulent
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (221, 407); --It's Medicinal
@@ -830,7 +830,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', 'FK', 'FK Core Set', 'Explore',
 'Catching a glimpse of a Wisp is considered good fortune.  Normally these shy and elusive kodama lead lost travelers safety and shelter.  Under the Dark Consul''s influence their guidance becomes malicious, leading unsuspecting Heroes into ambushes and fields of thorns.');
 insert into Characters (CardIndex) VALUES (307);
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (222, 3); --Ruby
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (222, 3); --Ruby
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (219, 555); --Immune: Poison
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (219, 651); --Virulent
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (222, 322); --Pollen Dream
@@ -849,7 +849,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', 'FK', 'FK Core Set', 'Explore',
 'Long ago the inhabitants of the Glauerdoom Moor used pumpkins to carve jack-o-lanterns to trick the restless spirits of the moor to pass by their homes at night.  In time the spirits grew wise to this deception and decided to play a trick of their own.  Now pumpkin patches are spooky, haunted, places where the creatures that go bump in the night lurk, waiting for their prey.<br>Beneath the dark boughs of the Witches'' Weald pumpkins grow wild and the orange globes pulse with strange energies as the witch covens practice their own special brand of dark magic--poisons, necromancy, enchantment, curses, no subject is taboo.  The covensfind great favor with both the Dark Consul and Baron Von Drakk.  Both often have need of the witches'' unique abiliites when dealing with self righteous Heroes who seek to thwart them.');
 insert into Characters (CardIndex) VALUES (308);
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (223, 3); --Ruby
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (223, 3); --Ruby
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (223, 557); --Immune: Status Effects
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (223, 526); --Gloom Aura
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (223, 678); --Spawning Pool
@@ -868,8 +868,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', 'FK', 'FK Core Set', 'Explore',
 'Spiders are favored guardians of the many crypts and barrows in the Glauerdoom.  They have no interest in the dead, nor their treasures.  Cruel, cunning, and immeasurably patient they wait in elaborately spun webs.  They know the lure of treasure and plunder is irresistible to the living.  Soon enough foolish Heroes will come and then it will feast.');
 insert into Characters (CardIndex) VALUES (309);
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (224, 1); --Citrine
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (224, 2); --Emerald
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (224, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (224, 2); --Emerald
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (224, 589); --Poison
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (224, 641); --Surefoot
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (224, 305); --Enervating Bite
@@ -889,7 +889,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', 'FK', 'FK Core Set', 'Explore',
 'The Curse Coven is a favorite of witches far and wide.  Indeed, most witches have dabbled in curses.  It is easy to find great pleasure in curdling toddlers'' milk, giving a fussy aunt the farts, or just turning someone into a good old-fashioned miserable toad.');
 insert into Characters (CardIndex) VALUES (310);
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (225, 3); --Ruby
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (225, 3); --Ruby
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (225, 518); --Fly
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (225, 554); --Shocking Bolt
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (225, 639); --Transmogrify
@@ -909,7 +909,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', 'FK', 'FK Core Set', 'Explore',
 '');
 insert into Characters (CardIndex) VALUES (311);
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (226, 3); --Ruby
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (226, 3); --Ruby
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (226, 518); --Fly
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (226, 559); --Insignificant
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (226, 283); --Doom
@@ -929,7 +929,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', 'FK', 'FK Core Set', 'Explore',
 'Rocktops can be found throughout Crystalia, wherever the earth is rocky and barren.  Due to their natural predilection to tunnel, Rocktops are superb miners.<br>Like many of the Consul''s minions, Rocktop society is ruled by strength and size.  At the top of the hierarchy stands the migty Crusher.  Dimwitted and brutish, Crushers spend most of their waking hours smashign rock to increase the size of the tunnel systems they claim as theirs.<br>In contrast, ');
 insert into Characters (CardIndex) VALUES (312);
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (227, 4); --Sapphire
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (227, 4); --Sapphire
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (227, 557); --Immune: Status Effects
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (227, 606); --Rock Aura
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (227, 680); --Spawning Pool
@@ -947,7 +947,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', 'FK', 'FK Core Set', 'Explore',
 'Delighting in explosions, Bombardiers happily fire their cannons into the midst of any combat, hitting friend and foe alike.  Because of this, Bombardiers do not have many friends, not even other Rocktops, who quickly tuck themselves safely into their shells whenever a Bombardier is around.');
 insert into Characters (CardIndex) VALUES (313);
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (228, 4); --Sapphire
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (228, 4); --Sapphire
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (228, 554); --Immune: Knockdown
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (228, 556); --Immune: Slow
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (228, 623); --Shell
@@ -968,7 +968,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', 'FK', 'FK Core Set', 'Explore',
 'Crushers are the premier miners in Crystalia.  Their ability to grind through rock and soil make even the proudest dwarf blush.  The constant pounding and pulverizing takes a toll on their attitude however, leaving them belligerent and unwelcoming when hapless Heroes wander into their homes.');
 insert into Characters (CardIndex) VALUES (314);
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (229, 4); --Sapphire
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (229, 4); --Sapphire
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (229, 557); --Immune: Status Effects
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (229, 632); --Thwack
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (229, 649); --Turtle Tremor
@@ -987,7 +987,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', 'FK', 'FK Core Set', 'Explore',
 'Crushers are the premier miners in Crystalia.  Their ability to grind through rock and soil make even the proudest dwarf blush.  The constant pounding and pulverizing takes a toll on their attitude however, leaving them belligerent and unwelcoming when hapless Heroes wander into their homes.');
 insert into Characters (CardIndex) VALUES (315);
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (230, 4); --Sapphire
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (230, 4); --Sapphire
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (230, 557); --Immune: Status Effects
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (230, 659); --Bulldozer
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (227, 632); --Thwack
@@ -1008,7 +1008,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', 'FK', 'FK Core Set', 'Explore',
 'Rollers love a good bit of sport.  Stomping through the tunnels they happily line Slowpokes up for a game of Nineshells, chortling merrily as an expert shot sends shells rebounding and ricocheting throughout the mines.');
 insert into Characters (CardIndex) VALUES (316);
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (231, 4); --Sapphire
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (231, 4); --Sapphire
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (226, 554); --Immune: Knockdown
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (226, 556); --Immune: Slow
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (226, 623); --Shell
@@ -1028,7 +1028,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', 'FK', 'FK Core Set', 'Explore',
 'Slowpokes are slow because they are perpetually dizzy.  They''re always getting banged on the head by tunneling Crushers, smashed together by cavorting Rollers, and cowering under the exploding fire of Bombardiers.  Being the smallest of the Rocktops is hard work.  Something having their caves invaded by Heroes seems like a nice vacation.');
 insert into Characters (CardIndex) VALUES (316);
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (229, 4); --Sapphire
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (229, 4); --Sapphire
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (226, 554); --Immune: Knockdown
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (226, 556); --Immune: Slow
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (226, 623); --Shell
@@ -1047,7 +1047,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', 'FK', 'FK Core Set', 'Explore',
 'Slowpokes are slow because they are perpetually dizzy.  They''re always getting banged on the head by tunneling Crushers, smashed together by cavorting Rollers, and cowering under the exploding fire of Bombardiers.  Being the smallest of the Rocktops is hard work.  Something having their caves invaded by Heroes seems like a nice vacation.');
 insert into Characters (CardIndex) VALUES (318);
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (229, 4); --Sapphire
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (229, 4); --Sapphire
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (226, 554); --Immune: Knockdown
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (226, 556); --Immune: Slow
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (226, 481); --Burrow
@@ -1067,7 +1067,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', 'FK', 'FK Core Set', 'Explore',
 'Here lies Mr. Poke.  May his shell be more useful in death than his claws were in life.');
 insert into Characters (CardIndex) VALUES (319);
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (234, 2); --Emerald
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (234, 2); --Emerald
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (234, 557); --Immune: Status Effects
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (234, 'Either', 'Small', 'Rocktop', 0, 0, '', '1ST', '', '', 2, 0);
@@ -1083,7 +1083,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', 'FK', 'FK Core Set', 'Explore',
 'Here lies Mr. Poke.  May his shell be more useful in death than his claws were in life.');
 insert into Characters (CardIndex) VALUES (320);
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (235, 2); --Emerald
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (235, 2); --Emerald
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (235, 557); --Immune: Status Effects
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (235, 559); --Insignificant
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
@@ -1100,7 +1100,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', 'FK', 'FK Core Set', 'Explore',
 'The Mistmourn Coast is a dangerous place even for the natural inhabitants of the Fae Woods.  Outsiders fear the troll tribes of the Mistmourn, but those familiar with this perpetually shrouded wood know that the fae creatures are the true danger.<br>Magical and otherworldy, what motivates these creatures is unknown.  Shamans bind them to pillars of salt to stay their wrath or do the shaman''s bidding.  Yet these magics have a dark consequence.  When the spells of binding are broken the magics of the formerly bound fae are trapped with the shattered salt pillar.  Their essence infuses new life within the Salt and they are reborn as elemental golems.  Driven only by blind instinct these Salt golems lash out at any who are near.');
 insert into Characters (CardIndex) VALUES (321);
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (236, 3); --Ruby
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (236, 3); --Ruby
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (236, 557); --Immune: Status Effects
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (236, 638); --Stealth Aura
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (236, 682); --Spawning Pool
@@ -1118,7 +1118,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', 'FK', 'FK Core Set', 'Explore',
 'Disorienting their prey with echoing howls that seem to come from all directions, Mist Hounds lure lost travelers into predatory ambushes.  Once its prey has been isolated the Mist Hound will harry it relentlessly, never allowing it to rest or stop, until it finally succumbs to the hound''s jaws.');
 insert into Characters (CardIndex) VALUES (322);
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (237, 3); --Ruby
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (237, 3); --Ruby
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (237, 596); --Predator
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (237, 624); --Sidestep
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (237, 641); --Surefoot
@@ -1139,7 +1139,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', 'FK', 'FK Core Set', 'Explore',
 'Old wives tales say that whenever a tear is shed a Sorrow is born.  Glowing softly in the mists, Sorrows float silently, moving to a gentle lullaby only they can hear.  However, when they sense grief their languid motion becomes a frenzy.  Darting and diving they swirl around the source of grief, ghostly faery fire lancing into the victim, intensifying their woe--birthing new Sorrows.  The frenzy only stopping when the victim sheds their last tear.');
 insert into Characters (CardIndex) VALUES (323);
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (238, 3); --Ruby
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (238, 3); --Ruby
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (238, 518); --Fly
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (238, 667); --Weep
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
@@ -1157,7 +1157,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', 'FK', 'FK Core Set', 'Explore',
 'The Glauerdoom Moor is a grim and foreboding place by any measure.  Its fetid fens and marshes remain perpetually shrouded beneath a grey fog.  Its great cities have long since faded, their glory reduced to crumbling ruins and sinking towers.  The landscape is dotted by vast mausoleums and endless crypts built to house the ever dwindling populations'' dead.<br>Tragically the dead do not rest long.  The amethyst power of necromancy infuses the land and the dead sleep uneasily.  Their slumber is but a bried respite.  Soon their master bids them to rise and take their place in his macabre host.');
 insert into Characters (CardIndex) VALUES (324);
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (239, 3); --Ruby
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (239, 3); --Ruby
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (239, 557); --Immune: Status Effects
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (239, 471); --Bane Aura
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (239, 684); --Spawning Pool
@@ -1175,7 +1175,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', 'FK', 'FK Core Set', 'Explore',
 'Bone Heads make up the builk of Von Drakk and the Dark Consul''s undead legions.  Drawn from the countless dead who have fought both for or against the Dark Consul, Bone Heads are clad in the rusty and battered armor they wore in life.  Driven by dark necromantic magic, they are easily raised back insto service even after being destroyed.');
 insert into Characters (CardIndex) VALUES (325);
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (240, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (240, 1); --Citrine
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (240, 477); --Bone Pile
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (240, 'Either', 'Small', 'Undead Skeleton', 6, 1, '3B', '1ST', '2B', '1B', 1, 0);
@@ -1192,7 +1192,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', 'FK', 'FK Core Set', 'Explore',
 'In life Dread Knights were vaunted warriors, serving their lieges with steadfast devotion.  Their skill at arms continues even into death, and they remain highly prized as some of the Dark Consul''s deadliest minions.');
 insert into Characters (CardIndex) VALUES (326);
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (238, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (238, 1); --Citrine
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (238, 477); --Bone Pile
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (241, 249); --Cursed Blade
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
@@ -1210,7 +1210,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', 'FK', 'FK Core Set', 'Explore',
 'Dust Coven Necromancers can often be seen lurking among the many crypts and mausoleums dotting the land, cackling madly as they go about their grim work.  So inevitable is the reanimation of the dead in the moorlands that many wealthy families employ their own necromancers.  Ensuring that if their ancestors are to be counted among the waking dead, at least they will reamin in service to their kith and kin.');
 insert into Characters (CardIndex) VALUES (327);
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (242, 3); --Ruby
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (242, 3); --Ruby
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (242, 322); --Tide of Bones
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (242, 281); --Renewed Vigor
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (242, 281); --Ghastly Vigor
@@ -1231,7 +1231,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', 'FK', 'FK Core Set', 'Explore',
 'The death of a Dust Coven Necromancer does not mean an end to them entirely.  The dark magic of necromancy clings to their bones like bitter frost.  They are reborn as the sinister Dust Mages, cursed to be bound to another necromancer''s eveil desires.');
 insert into Characters (CardIndex) VALUES (328);
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (243, 3); --Ruby
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (243, 3); --Ruby
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (243, 477); --Bone Pile
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (243, 586); --Pile-On
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (243, 192); --Bone Cold
@@ -1252,7 +1252,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', 'FK', 'FK Core Set', 'Explore',
 'Not even the elves choose to make the Mistmourn Coast their home.  Indeed, only the Glimmerdusk Rangers frequent these lands that are perpetually locked in mist and steeped in fae magic.  It is no surprise then that many creatures of the Dark Realm sought sanctuary within the concealing shadows of the coast.<br>Most were driven mad with fright, as the fae creatures preyed on their minds with capricious tricks and dealy pranks.  Trolls, however, remained remarkably unaffected--perhaps shielded by their naturally dim intellect.  In time they became tolerated by the fae creatures if not welcomed.<br>The thin veil between worlds along the Mistmourn eventually brought the trolls into communion with their fallen ancestors.  Guided by their ancestors'' past experiences the trolls grew more cunning, some even attaining a level of brutal intelligence.');
 insert into Characters (CardIndex) VALUES (329);
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (244, 4); --Sapphire
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (244, 4); --Sapphire
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (244, 557); --Immune: Status Effects
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (244, 597); --Primal Aura
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (244, 686); --Spawning Pool
@@ -1270,7 +1270,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', 'FK', 'FK Core Set', 'Explore',
 'The troll tribes of the Mistmourn Coast are deeply spiritual, revering their ancestors as once living gods.  Ghostfire Warriors gain their name from the large quantities of Ghostfire Berries they consume.  The Ghostfire Berries thin the veil between the physical world and the spirit world, allowing the trolls to commune with their ancestors before battle.  However, the berries are toxic even to the tremendous physical constitution of the trolls.  During battle, Ghostfire Warriors vomit up the Ghosfire Berries in blazing pyres, consuming their foes in green faerie fire.');
 insert into Characters (CardIndex) VALUES (330);
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (245, 4); --Sapphire
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (245, 4); --Sapphire
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (245, 648); --Tough
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (245, 355); --Ghostfire
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
@@ -1288,8 +1288,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', 'FK', 'FK Core Set', 'Explore',
 'Mistmourn Chieftains are selected not for their wisdom, or for their battle ability, but for their willingess to be possessed by the spirits of their ancient ancestors.  In such a manner a Mistmourn tribe will be led by a single fierce troll ancestor for decades.  The long years of experience slowly shapes the crude troll mind of the ancestor into a proficient and even brilliant leader.');
 insert into Characters (CardIndex) VALUES (331);
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (246, 1); --Citrine
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (246, 4); --Sapphire
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (246, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (246, 4); --Sapphire
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (246, 648); --Tough
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (246, 161); --Ancestral Wrath
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (246, 281); --Spirit Wind
@@ -1309,7 +1309,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', 'FK', 'FK Core Set', 'Explore',
 'For some trolls the Ghostfire Berry is not a poison, but has an altogether different effect, granting the troll the ability to walk between the physical and the spiritual worlds.  In time these Spirit Walkers learn how to pull others through these doorways with them, allowing the tribe to ambush their quarry undetected by mortal senses.');
 insert into Characters (CardIndex) VALUES (332);
-insert into AffinityAssignments (ExploreCharacterIndex, AffinityIndex) VALUES (247, 2); --Emerald
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (247, 2); --Emerald
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (247, 518); --Fly
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (247, 586); --Pile-On
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (247, 322); --Flame Burst
