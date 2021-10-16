@@ -1,7 +1,7 @@
 --FK
 --Warband Monsters
 --Bramble Knight
---Bramble Knight --CardIndex 264 --ExploreCharacterIndex 179 --CardIndex 179
+--Bramble Knight --CardIndex 264 --CharacterIndex 179 --ExploreCharacterIndex 179
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 'Bramble Knight',
 'http://htkb.info/SDE/FK/Cards/Warbands/Bramble_Knight/Card_Warband_Bramble_Knight_FK.png', 
@@ -19,7 +19,7 @@ VALUES (179, 'Neither', 'Small', 'Spawning Point', 0, 0, '', '1ST', '', '', 3, 0
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (179, 2); --Armor
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (179, '', 'Start', 0);
 
---Billmen --CardIndex 265 --ExploreCharacterIndex 180 --CardIndex 180
+--Billmen --CardIndex 265 --CharacterIndex 180 --ExploreCharacterIndex 180
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 'Billmen',
 'http://htkb.info/SDE/FK/Cards/Warbands/Bramble_Knight/Card_Warband_Billmen_FK.png', 
@@ -36,7 +36,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (180, 2); --Armor
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (180, 'Minion', '8 Bit', 4);
 
---Frog Knight --CardIndex 266 --ExploreCharacterIndex 181 --CardIndex 181
+--Frog Knight --CardIndex 266 --CharacterIndex 181 --ExploreCharacterIndex 181
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 'Frog Knight',
 'http://htkb.info/SDE/FK/Cards/Warbands/Bramble_Knight/Card_Warband_Frog_Knight_FK.png', 
@@ -55,7 +55,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (181, 2); --Armor
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (181, 'Minion', '8 Bit', 2);
 
---Grobbit Executioner --CardIndex 267 --ExploreCharacterIndex 182 --CardIndex 182
+--Grobbit Executioner --CardIndex 267 --CharacterIndex 182 --ExploreCharacterIndex 182
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 'Grobbit Executioner',
 'http://htkb.info/SDE/FK/Cards/Warbands/Bramble_Knight/Card_Warband_Grobbit_Executioner_FK.png', 
@@ -73,7 +73,7 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (1
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (182, 'Minion', '16 Bit', 3);
 
 --Claw Shrine
---Claw Shrine --CardIndex 268 --ExploreCharacterIndex 183 --CardIndex 183
+--Claw Shrine --CardIndex 268 --CharacterIndex 183 --ExploreCharacterIndex 183
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 'Claw Shrine',
 'http://htkb.info/SDE/FK/Cards/Warbands/Claw_Shrine/Card_Warband_Claw_Shrine_FK.png', 
@@ -91,7 +91,7 @@ VALUES (183, 'Neither', 'Small', 'Spawning Point', 0, 0, '', '1ST', '', '', 4, 0
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (183, 2); --Armor
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (183, '', 'Start', 0);
 
---Black Claw Assassin --CardIndex 269 --ExploreCharacterIndex 184 --CardIndex 184
+--Black Claw Assassin --CardIndex 269 --CharacterIndex 184 --ExploreCharacterIndex 184
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 'Black Claw Assassin',
 'http://htkb.info/SDE/FK/Cards/Warbands/Claw_Shrine/Card_Warband_Black_Claw_Assassin_FK.png', 
@@ -111,7 +111,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (184, 2); --Armor
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (184, 'Elite', '16 Bit', 2);
 
---Claw Trainer --CardIndex 270 --ExploreCharacterIndex 185 --CardIndex 185
+--Claw Trainer --CardIndex 270 --CharacterIndex 185 --ExploreCharacterIndex 185
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 'Claw Trainer',
 'http://htkb.info/SDE/FK/Cards/Warbands/Claw_Shrine/Card_Warband_Claw_Trainer_FK.png', 
@@ -130,7 +130,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (185, 2); --Armor
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (185, 'Elite', '8 Bit', 1);
 
---Drake Hound --CardIndex 271 --ExploreCharacterIndex 186 --CardIndex 186
+--Drake Hound --CardIndex 271 --CharacterIndex 186 --ExploreCharacterIndex 186
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 'Drake Hound',
 'http://htkb.info/SDE/FK/Cards/Warbands/Claw_Shrine/Card_Warband_Drake_Hound_FK.png', 
@@ -150,7 +150,7 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (1
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (186, 'Minion', '8 Bit', 1);
 
 --Egg Clutch
---Egg Clutch --CardIndex 272 --ExploreCharacterIndex 187 --CardIndex 187
+--Egg Clutch --CardIndex 272 --CharacterIndex 187 --ExploreCharacterIndex 187
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 'Egg Clutch',
 'http://htkb.info/SDE/FK/Cards/Warbands/Egg_Clutch/Card_Warband_Egg_Clutch_FK.png', 
@@ -168,7 +168,7 @@ VALUES (187, 'Neither', 'Small', 'Spawning Point', 0, 0, '', '1ST', '', '', 3, 0
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (187, 2); --Armor
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (187, '', 'Start', 0);
 
---Hatchlings --CardIndex 273 --ExploreCharacterIndex 188 --CardIndex 188
+--Hatchlings --CardIndex 273 --CharacterIndex 188 --ExploreCharacterIndex 188
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 'Hatchlings',
 'http://htkb.info/SDE/FK/Cards/Warbands/Egg_Clutch/Card_Warband_Egg_Clutch_Hatchlings_FK.png', 
@@ -185,7 +185,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (188, 2); --Armor
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (188, 'Minion', '8 Bit', 1);
 
---Whelp --CardIndex 274 --ExploreCharacterIndex 189 --CardIndex 189
+--Whelp --CardIndex 274 --CharacterIndex 189 --ExploreCharacterIndex 189
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 'Whelp',
 'http://htkb.info/SDE/FK/Cards/Warbands/Egg_Clutch/Card_Warband_Egg_Clutch_Whelp_FK.png', 
@@ -203,7 +203,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (189, 2); --Armor
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (189, 'Minion', '8 Bit', 1);
 
---Wyrmling --CardIndex 275 --ExploreCharacterIndex 190 --CardIndex 190
+--Wyrmling --CardIndex 275 --CharacterIndex 190 --ExploreCharacterIndex 190
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 'Wyrmling',
 'http://htkb.info/SDE/FK/Cards/Warbands/Egg_Clutch/Card_Warband_Egg_Clutch_Wyrmling_FK.png', 
@@ -224,7 +224,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (190, 2); --Armor
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (190, 'Minion', '8 Bit', 1);
 
---Elemental Shrine --CardIndex 276 --ExploreCharacterIndex 191 --CardIndex 191
+--Elemental Shrine --CardIndex 276 --CharacterIndex 191 --ExploreCharacterIndex 191
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 'Elemental Shrine',
 'http://htkb.info/SDE/FK/Cards/Warbands/Elemental_Shrine/Card_Warband_Elemental_Shrine_FK.png', 
@@ -244,7 +244,7 @@ VALUES (191, 'Neither', 'Small', 'Spawning Point', 0, 0, '', '1ST', '', '', 4, 0
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (191, 2); --Armor
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (191, '', 'Start', 0);
 
---Chunin --CardIndex 277 --ExploreCharacterIndex 192 --CardIndex 192
+--Chunin --CardIndex 277 --CharacterIndex 192 --ExploreCharacterIndex 192
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 'Chunin',
 'http://htkb.info/SDE/FK/Cards/Warbands/Elemental_Shrine/Card_Warband_Elemental_Shrine_Chunin_FK.png', 
@@ -263,7 +263,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (192, 2); --Armor
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (192, 'Elite', '16 Bit', 2);
 
---Kaiken --CardIndex 278 --ExploreCharacterIndex 193 --CardIndex 193
+--Kaiken --CardIndex 278 --CharacterIndex 193 --ExploreCharacterIndex 193
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 'Kaiken',
 'http://htkb.info/SDE/FK/Cards/Warbands/Elemental_Shrine/Card_Warband_Elemental_Shrine_Kaiken_FK.png', 
@@ -282,7 +282,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (193, 2); --Armor
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (193, 'Minion', '8 Bit', 1);
 
---Kunoichi --CardIndex 279 --ExploreCharacterIndex 194 --CardIndex 194
+--Kunoichi --CardIndex 279 --CharacterIndex 194 --ExploreCharacterIndex 194
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 'Kunoichi',
 'http://htkb.info/SDE/FK/Cards/Warbands/Elemental_Shrine/Card_Warband_Elemental_Shrine_Kunoichi_FK.png', 
@@ -301,7 +301,7 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (1
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (194, 4); --Dexterity
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (194, 'Minion', '8 Bit', 1);
 
---Madoushi --CardIndex 280 --ExploreCharacterIndex 195 --CardIndex 195
+--Madoushi --CardIndex 280 --CharacterIndex 195 --ExploreCharacterIndex 195
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 'Madoushi',
 'http://htkb.info/SDE/FK/Cards/Warbands/Elemental_Shrine/Card_Warband_Elemental_Shrine_Madoushi_FK.png', 
@@ -321,7 +321,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (195, 2); --Armor
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (195, 'Minion', '8 Bit', 2);
 
---Yajiri --CardIndex 281 --ExploreCharacterIndex 196 --CardIndex 196
+--Yajiri --CardIndex 281 --CharacterIndex 196 --ExploreCharacterIndex 196
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 'Yajiri',
 'http://htkb.info/SDE/FK/Cards/Warbands/Elemental_Shrine/Card_Warband_Elemental_Shrine_Yajiri_FK.png', 
@@ -340,7 +340,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (196, 2); --Armor
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (196, 'Minion', '8 Bit', 1);
 
---Fungal Growth --CardIndex 282 --ExploreCharacterIndex 197 --CardIndex 197
+--Fungal Growth --CardIndex 282 --CharacterIndex 197 --ExploreCharacterIndex 197
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 'Fungal Growth',
 'http://htkb.info/SDE/FK/Cards/Warbands/Fungal_Growth/Card_Warband_Fungal_Growth_FK.png', 
@@ -358,7 +358,7 @@ VALUES (197, 'Neither', 'Small', 'Spawning Point', 0, 0, '', '1ST', '', '', 3, 0
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (197, 2); --Armor
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (197, '', 'Start', 0);
 
---Kinoshroom --CardIndex 283 --ExploreCharacterIndex 198 --CardIndex 198
+--Kinoshroom --CardIndex 283 --CharacterIndex 198 --ExploreCharacterIndex 198
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 'Kinoshroom',
 'http://htkb.info/SDE/FK/Cards/Warbands/Fungal_Growth/Card_Warband_Fungal_Growth_Kinoshroom_FK.png', 
@@ -377,7 +377,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (198, 2); --Armor
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (198, 'Minion', '8 Bit', 1);
 
---Okoshroom --CardIndex 284 --ExploreCharacterIndex 199 --CardIndex 199
+--Okoshroom --CardIndex 284 --CharacterIndex 199 --ExploreCharacterIndex 199
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 'Okoshroom',
 'http://htkb.info/SDE/FK/Cards/Warbands/Fungal_Growth/Card_Warband_Fungal_Growth_Okoshroom_FK.png', 
@@ -397,7 +397,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (199, 2); --Armor
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (199, 'Elite', '16 Bit', 2);
 
---Truffle Pig --CardIndex 285 --ExploreCharacterIndex 200 --CardIndex 200
+--Truffle Pig --CardIndex 285 --CharacterIndex 200 --ExploreCharacterIndex 200
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 'Truffle Pig',
 'http://htkb.info/SDE/FK/Cards/Warbands/Fungal_Growth/Card_Warband_Fungal_Growth_Truffle_Pig_FK.png', 
@@ -415,7 +415,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (200, 2); --Armor
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (200, 'Elite', '8 Bit', 2);
 
---Grabby House --CardIndex 286 --ExploreCharacterIndex 201 --CardIndex 201
+--Grabby House --CardIndex 286 --CharacterIndex 201 --ExploreCharacterIndex 201
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 'Grabby House',
 'http://htkb.info/SDE/FK/Cards/Warbands/Grabby_House/Card_Warband_Grabby_House_FK.png', 
@@ -433,7 +433,7 @@ VALUES (201, 'Neither', 'Small', 'Spawning Point', 0, 0, '', '1ST', '', '', 4, 0
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (201, 2); --Armor
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (201, '', 'Start', 0);
 
---Prowler --CardIndex 287 --ExploreCharacterIndex 202 --CardIndex 202
+--Prowler --CardIndex 287 --CharacterIndex 202 --ExploreCharacterIndex 202
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 'Prowler',
 'http://htkb.info/SDE/FK/Cards/Warbands/Grabby_House/Card_Warband_Grabby_House_Prowler_FK.png', 
@@ -453,7 +453,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (202, 2); --Armor
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (202, 'Minion', '8 Bit', 1);
 
---Pudge --CardIndex 288 --ExploreCharacterIndex 203 --CardIndex 203
+--Pudge --CardIndex 288 --CharacterIndex 203 --ExploreCharacterIndex 203
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 'Pudge',
 'http://htkb.info/SDE/FK/Cards/Warbands/Grabby_House/Card_Warband_Grabby_House_Pudge_FK.png', 
@@ -473,7 +473,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (203, 2); --Armor
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (203, 'Minion', '16 Bit', 2);
 
---Shamble Priest --CardIndex 289 --ExploreCharacterIndex 204 --CardIndex 204
+--Shamble Priest --CardIndex 289 --CharacterIndex 204 --ExploreCharacterIndex 204
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 'Shamble Priest',
 'http://htkb.info/SDE/FK/Cards/Warbands/Grabby_House/Card_Warband_Grabby_House_Shamble_Priest_FK.png', 
@@ -493,7 +493,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (204, 2); --Armor
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (204, 'Elite', '16 Bit', 2);
 
---Swampie --CardIndex 290 --ExploreCharacterIndex 205 --CardIndex 205
+--Swampie --CardIndex 290 --CharacterIndex 205 --ExploreCharacterIndex 205
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 'Swampie',
 'http://htkb.info/SDE/FK/Cards/Warbands/Grabby_House/Card_Warband_Grabby_House_Swampie_FK.png', 
@@ -511,7 +511,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (205, 2); --Armor
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (205, 'Minion', '8 Bit', 1);
 
---Kobold Warrens --CardIndex 291 --ExploreCharacterIndex 206 --CardIndex 206
+--Kobold Warrens --CardIndex 291 --CharacterIndex 206 --ExploreCharacterIndex 206
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 'Kobold Warrens',
 'http://htkb.info/SDE/FK/Cards/Warbands/Kobold_Warrens/Card_Warband_Kobold_Warrens_FK.png', 
@@ -529,7 +529,7 @@ VALUES (206, 'Neither', 'Small', 'Spawning Point', 0, 0, '', '1ST', '', '', 4, 0
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (206, 2); --Armor
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (206, '', 'Start', 0);
 
---Dragon Priest --CardIndex 292 --ExploreCharacterIndex 207 --CardIndex 207
+--Dragon Priest --CardIndex 292 --CharacterIndex 207 --ExploreCharacterIndex 207
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 'Dragon Priest',
 'http://htkb.info/SDE/FK/Cards/Warbands/Kobold_Warrens/Card_Warband_Kobold_Warrens_Dragon_Priest_FK.png', 
@@ -549,7 +549,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (207, 2); --Armor
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (207, 'Elite', '16 Bit', 2);
 
---Flinger --CardIndex 293 --ExploreCharacterIndex 208 --CardIndex 208
+--Flinger --CardIndex 293 --CharacterIndex 208 --ExploreCharacterIndex 208
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 'Flinger',
 'http://htkb.info/SDE/FK/Cards/Warbands/Kobold_Warrens/Card_Warband_Kobold_Warrens_Flinger_FK.png', 
@@ -569,7 +569,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (208, 2); --Armor
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (208, 'Elite', '8 Bit', 1);
 
---Gouger --CardIndex 294 --ExploreCharacterIndex 209 --CardIndex 209
+--Gouger --CardIndex 294 --CharacterIndex 209 --ExploreCharacterIndex 209
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 'Gouger',
 'http://htkb.info/SDE/FK/Cards/Warbands/Kobold_Warrens/Card_Warband_Kobold_Warrens_Gouger_FK.png', 
@@ -586,7 +586,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (209, 2); --Armor
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (209, 'Minion', '8 Bit', 1);
 
---Ironscale --CardIndex 295 --ExploreCharacterIndex 210 --CardIndex 210
+--Ironscale --CardIndex 295 --CharacterIndex 210 --ExploreCharacterIndex 210
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 'Ironscale',
 'http://htkb.info/SDE/FK/Cards/Warbands/Kobold_Warrens/Card_Warband_Kobold_Warrens_Ironscale_FK.png', 
@@ -605,7 +605,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (210, 2); --Armor
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (210, 'Elite', '8 Bit', 2);
 
---Knucklehead --CardIndex 296 --ExploreCharacterIndex 211 --CardIndex 211
+--Knucklehead --CardIndex 296 --CharacterIndex 211 --ExploreCharacterIndex 211
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 'Knucklehead',
 'http://htkb.info/SDE/FK/Cards/Warbands/Kobold_Warrens/Card_Warband_Kobold_Warrens_Knucklehead_FK.png', 
@@ -622,7 +622,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (211, 2); --Armor
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (211, 'Minion', '8 Bit', 1);
 
---Lava Whirl --CardIndex 297 --ExploreCharacterIndex 212 --CardIndex 212
+--Lava Whirl --CardIndex 297 --CharacterIndex 212 --ExploreCharacterIndex 212
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 'Lava Whirl',
 'http://htkb.info/SDE/FK/Cards/Warbands/Lava_Whirl/Card_Warband_Lava_Whirl_FK.png', 
@@ -640,7 +640,7 @@ VALUES (212, 'Neither', 'Small', 'Spawning Point', 0, 0, '', '1ST', '', '', 3, 0
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (212, 2); --Armor
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (212, '', 'Start', 0);
 
---Blaze Beetle --CardIndex 298 --ExploreCharacterIndex 213 --CardIndex 213
+--Blaze Beetle --CardIndex 298 --CharacterIndex 213 --ExploreCharacterIndex 213
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 'Blaze Beetle',
 'http://htkb.info/SDE/FK/Cards/Warbands/Lava_Whirl/Card_Warband_Lava_Whirl_Blaze_Beetle_FK.png', 
@@ -660,7 +660,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (213, 2); --Armor
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (213, 'Elite', '16 Bit', 2);
 
---Burning Gel --CardIndex 299 --ExploreCharacterIndex 214 --CardIndex 214
+--Burning Gel --CardIndex 299 --CharacterIndex 214 --ExploreCharacterIndex 214
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 'Burning Gel',
 'http://htkb.info/SDE/FK/Cards/Warbands/Lava_Whirl/Card_Warband_Lava_Whirl_Burning_Gel_FK.png', 
@@ -681,7 +681,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (214, 2); --Armor
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (214, 'Minion', '8 Bit', 2);
 
---Ember Hound --CardIndex 300 --ExploreCharacterIndex 215 --CardIndex 215
+--Ember Hound --CardIndex 300 --CharacterIndex 215 --ExploreCharacterIndex 215
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 'Ember Hound',
 'http://htkb.info/SDE/FK/Cards/Warbands/Lava_Whirl/Card_Warband_Lava_Whirl_Ember_Hound_FK.png', 
@@ -701,7 +701,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (215, 2); --Armor
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (215, 'Elite', '8 Bit', 1);
 
---Fire Gel --CardIndex 301 --ExploreCharacterIndex 216 --CardIndex 216
+--Fire Gel --CardIndex 301 --CharacterIndex 216 --ExploreCharacterIndex 216
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 'Fire Gel',
 'http://htkb.info/SDE/FK/Cards/Warbands/Lava_Whirl/Card_Warband_Lava_Whirl_Fire_Gel_FK.png', 
@@ -722,7 +722,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (216, 2); --Armor
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (216, 'Minion', '8 Bit', 1);
 
---Old Growth Hollow --CardIndex 302 --ExploreCharacterIndex 217 --CardIndex 217
+--Old Growth Hollow --CardIndex 302 --CharacterIndex 217 --ExploreCharacterIndex 217
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 'Old Growth Hollow',
 'http://htkb.info/SDE/FK/Cards/Warbands/Old_Growth_Hollow/Card_Warband_Old_Growth_Hollow_FK.png', 
@@ -740,7 +740,7 @@ VALUES (217, 'Neither', 'Small', 'Spawning Point', 0, 0, '', '1ST', '', '', 4, 0
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (217, 2); --Armor
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (217, '', 'Start', 0);
 
---King Sprout --CardIndex 303 --ExploreCharacterIndex 218 --CardIndex 218
+--King Sprout --CardIndex 303 --CharacterIndex 218 --ExploreCharacterIndex 218
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 'King Sprout',
 'http://htkb.info/SDE/FK/Cards/Warbands/Old_Growth_Hollow/Card_Warband_Old_Growth_Hollow_King_Sprout_FK.png', 
@@ -762,7 +762,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (218, 2); --Armor
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (218, 'Shapeshift', '16 Bit', 3);
 
---Mook --CardIndex 304 --ExploreCharacterIndex 219 --CardIndex 219
+--Mook --CardIndex 304 --CharacterIndex 219 --ExploreCharacterIndex 219
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 'Mook',
 'http://htkb.info/SDE/FK/Cards/Warbands/Old_Growth_Hollow/Card_Warband_Old_Growth_Hollow_Mook_FK.png', 
@@ -781,7 +781,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (219, 2); --Armor
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (219, 'Minion', '8 Bit', 1);
 
---Sprout --CardIndex 305 --ExploreCharacterIndex 220 --CardIndex 220
+--Sprout --CardIndex 305 --CharacterIndex 220 --ExploreCharacterIndex 220
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 'Sprout',
 'http://htkb.info/SDE/FK/Cards/Warbands/Old_Growth_Hollow/Card_Warband_Old_Growth_Hollow_Sprout_FK.png', 
@@ -800,7 +800,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (220, 2); --Armor
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (220, 'Minion', '8 Bit', 1);
 
---Turniphead --CardIndex 306 --ExploreCharacterIndex 221 --CardIndex 221
+--Turniphead --CardIndex 306 --CharacterIndex 221 --ExploreCharacterIndex 221
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 'Turniphead',
 'http://htkb.info/SDE/FK/Cards/Warbands/Old_Growth_Hollow/Card_Warband_Old_Growth_Hollow_Turniphead_FK.png', 
@@ -821,7 +821,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (221, 2); --Armor
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (221, 'Elite', '8 Bit', 1);
 
---Wisp --CardIndex 307 --ExploreCharacterIndex 222 --CardIndex 222
+--Wisp --CardIndex 307 --CharacterIndex 222 --ExploreCharacterIndex 222
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 'Wisp',
 'http://htkb.info/SDE/FK/Cards/Warbands/Old_Growth_Hollow/Card_Warband_Old_Growth_Hollow_Wisp_FK.png', 
@@ -840,7 +840,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (222, 2); --Armor
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (222, 'Elite', '8 Bit', 2);
 
---Pumpkin Patch --CardIndex 308 --ExploreCharacterIndex 223 --CardIndex 223
+--Pumpkin Patch --CardIndex 308 --CharacterIndex 223 --ExploreCharacterIndex 223
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 'Pumpkin Patch',
 'http://htkb.info/SDE/FK/Cards/Warbands/Pumpkin_Patch/Card_Warband_Pumpkin_Patch_FK.png', 
@@ -859,7 +859,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (223, 2); --Armor
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (223, '', 'Start', 0);
 
---Crypt Spider --CardIndex 309 --ExploreCharacterIndex 224 --CardIndex 224
+--Crypt Spider --CardIndex 309 --CharacterIndex 224 --ExploreCharacterIndex 224
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 'Crypt Spider',
 'http://htkb.info/SDE/FK/Cards/Warbands/Pumpkin_Patch/Card_Warband_Pumpkin_Patch_Crypt_Spider_FK.png', 
@@ -880,7 +880,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (224, 2); --Armor
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (224, 'Elite', '16 Bit', 2);
 
---Curse Coven Witch --CardIndex 310 --ExploreCharacterIndex 225 --CardIndex 225
+--Curse Coven Witch --CardIndex 310 --CharacterIndex 225 --ExploreCharacterIndex 225
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 'Curse Coven Witch',
 'http://htkb.info/SDE/FK/Cards/Warbands/Pumpkin_Patch/Card_Warband_Pumpkin_Patch_Curse_Coven_Witch_FK.png', 
@@ -900,7 +900,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (225, 2); --Armor
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (225, 'Elite', '8 Bit', 1);
 
---Skullbat --CardIndex 311 --ExploreCharacterIndex 226 --CardIndex 226
+--Skullbat --CardIndex 311 --CharacterIndex 226 --ExploreCharacterIndex 226
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 'Skullbat',
 'http://htkb.info/SDE/FK/Cards/Warbands/Pumpkin_Patch/Card_Warband_Pumpkin_Patch_Skullbat_FK.png', 
@@ -920,7 +920,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (226, 2); --Armor
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (226, 'Minion', '8 Bit', 1);
 
---Rock Pile --CardIndex 312 --ExploreCharacterIndex 227 --CardIndex 227
+--Rock Pile --CardIndex 312 --CharacterIndex 227 --ExploreCharacterIndex 227
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 'Rock Pile',
 'http://htkb.info/SDE/FK/Cards/Warbands/Rock_Pile/Card_Warband_Rock_Pile_FK.png', 
@@ -938,7 +938,7 @@ VALUES (227, 'Neither', 'Small', 'Spawning Point', 0, 0, '', '1ST', '', '', 4, 0
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (227, 2); --Armor
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (227, '', 'Start', 0);
 
---Bombardier --CardIndex 313 --ExploreCharacterIndex 228 --CardIndex 228
+--Bombardier --CardIndex 313 --CharacterIndex 228 --ExploreCharacterIndex 228
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 'Bombardier',
 'http://htkb.info/SDE/FK/Cards/Warbands/Rock_Pile/Card_Warband_Rock_Pile_Bombardier_FK.png', 
@@ -959,7 +959,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (228, 2); --Armor
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (228, 'Elite', '8 Bit', 1);
 
---Crusher v1 --CardIndex 314 --ExploreCharacterIndex 229 --CardIndex 229
+--Crusher v1 --CardIndex 314 --CharacterIndex 229 --ExploreCharacterIndex 229
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 'Crusher v1',
 'http://htkb.info/SDE/FK/Cards/Warbands/Rock_Pile/Card_Warband_Rock_Pile_Crusher_v1_FK.png', 
@@ -978,7 +978,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (229, 2); --Armor
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (229, 'Elite', '16 Bit', 2);
 
---Crusher v2 --CardIndex 315 --ExploreCharacterIndex 230 --CardIndex 230
+--Crusher v2 --CardIndex 315 --CharacterIndex 230 --ExploreCharacterIndex 230
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 'Crusher v2',
 'http://htkb.info/SDE/FK/Cards/Warbands/Rock_Pile/Card_Warband_Rock_Pile_Wyrmling_FK.png', 
@@ -999,7 +999,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (230, 2); --Armor
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (230, 'Elite', '16 Bit', 2);
 
---Roller --CardIndex 316 --ExploreCharacterIndex 231 --CardIndex 231
+--Roller --CardIndex 316 --CharacterIndex 231 --ExploreCharacterIndex 231
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 'Roller',
 'http://htkb.info/SDE/FK/Cards/Warbands/Rock_Pile/Card_Warband_Rock_Pile_Roller_FK.png', 
@@ -1019,7 +1019,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (231, 2); --Armor
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (231, 'Elite', '8 Bit', 2);
 
---Slowpoke v1 --CardIndex 317 --ExploreCharacterIndex 232 --CardIndex 232
+--Slowpoke v1 --CardIndex 317 --CharacterIndex 232 --ExploreCharacterIndex 232
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 'Slowpoke v1',
 'http://htkb.info/SDE/FK/Cards/Warbands/Rock_Pile/Card_Warband_Rock_Pile_Slowpoke_v1_FK.png', 
@@ -1038,7 +1038,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (232, 2); --Armor
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (232, 'Minion', '8 Bit', 1);
 
---Slowpoke v2 --CardIndex 318 --ExploreCharacterIndex 233 --CardIndex 233
+--Slowpoke v2 --CardIndex 318 --CharacterIndex 233 --ExploreCharacterIndex 233
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 'Slowpoke v2',
 'http://htkb.info/SDE/FK/Cards/Warbands/Rock_Pile/Card_Warband_Rock_Pile_Slowpoke_v2_FK.png', 
@@ -1058,7 +1058,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (233, 2); --Armor
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (233, 'Minion', '8 Bit', 1);
 
---Turtle Shell v1 --CardIndex 319 --ExploreCharacterIndex 234 --CardIndex 234
+--Turtle Shell v1 --CardIndex 319 --CharacterIndex 234 --ExploreCharacterIndex 234
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 'Turtle Shell v1',
 'http://htkb.info/SDE/FK/Cards/Warbands/Rock_Pile/Card_Warband_Rock_Pile_Turtle_Shell_v1_FK.png', 
@@ -1074,7 +1074,7 @@ VALUES (234, 'Either', 'Small', 'Rocktop', 0, 0, '', '1ST', '', '', 2, 0);
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (234, 2); --Armor
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (234, 'Minion', '8 Bit', 0);
 
---Turtle Shell v2 --CardIndex 320 --ExploreCharacterIndex 235 --CardIndex 235
+--Turtle Shell v2 --CardIndex 320 --CharacterIndex 235 --ExploreCharacterIndex 235
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 'Turtle Shell v2',
 'http://htkb.info/SDE/FK/Cards/Warbands/Rock_Pile/Card_Warband_Rock_Pile_Turtle_Shell_v2_FK.png', 
@@ -1091,7 +1091,7 @@ VALUES (235, 'Either', 'Small', 'Rocktop', 0, 0, '', '1ST', '', '', 2, 0);
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (235, 2); --Armor
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (235, 'Minion', '8 Bit', 0);
 
---Salt Pillar --CardIndex 321 --ExploreCharacterIndex 236 --CardIndex 236
+--Salt Pillar --CardIndex 321 --CharacterIndex 236 --ExploreCharacterIndex 236
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 'Salt Pillar',
 'http://htkb.info/SDE/FK/Cards/Warbands/Salt_Pillar/Card_Warband_Salt_Pillar_FK.png', 
@@ -1109,7 +1109,7 @@ VALUES (236, 'Neither', 'Small', 'Spawning Point', 0, 0, '', '1ST', '', '', 3, 0
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (236, 2); --Armor
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (236, '', 'Start', 0);
 
---Mist Hound --CardIndex 322 --ExploreCharacterIndex 237 --CardIndex 237
+--Mist Hound --CardIndex 322 --CharacterIndex 237 --ExploreCharacterIndex 237
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 'Mist Hound',
 'http://htkb.info/SDE/FK/Cards/Warbands/Salt_Pillar/Card_Warband_Salt_Pillar_Mist_Hound_FK.png', 
@@ -1130,7 +1130,7 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (2
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (237, 4); --Dexterity
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (237, 'Elite', '16 Bit', 2);
 
---Sorrow --CardIndex 323 --ExploreCharacterIndex 238 --CardIndex 238
+--Sorrow --CardIndex 323 --CharacterIndex 238 --ExploreCharacterIndex 238
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 'Sorrow',
 'http://htkb.info/SDE/FK/Cards/Warbands/Salt_Pillar/Card_Warband_Salt_Pillar_Sorrow_FK.png', 
@@ -1148,7 +1148,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (238, 2); --Armor
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (238, 'Elite', '8 Bit', 1);
 
---Shallow Grave --CardIndex 324 --ExploreCharacterIndex 239 --CardIndex 239
+--Shallow Grave --CardIndex 324 --CharacterIndex 239 --ExploreCharacterIndex 239
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 'Shallow Grave',
 'http://htkb.info/SDE/FK/Cards/Warbands/Shallow_Grave/Card_Warband_Shallow_Grave_FK.png', 
@@ -1166,7 +1166,7 @@ VALUES (239, 'Neither', 'Small', 'Spawning Point', 0, 0, '', '1ST', '', '', 4, 0
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (239, 2); --Armor
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (239, '', 'Start', 0);
 
---Bone Head --CardIndex 325 --ExploreCharacterIndex 240 --CardIndex 240
+--Bone Head --CardIndex 325 --CharacterIndex 240 --ExploreCharacterIndex 240
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 'Bone Head',
 'http://htkb.info/SDE/FK/Cards/Warbands/Shallow_Grave/Card_Warband_Shallow_Grave_Bone_Head_FK.png', 
@@ -1183,7 +1183,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (240, 2); --Armor
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (240, 'Minion', '8 Bit', 1);
 
---Dread Knight --CardIndex 326 --ExploreCharacterIndex 241 --CardIndex 241
+--Dread Knight --CardIndex 326 --CharacterIndex 241 --ExploreCharacterIndex 241
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 'Dread Knight',
 'http://htkb.info/SDE/FK/Cards/Warbands/Shallow_Grave/Card_Warband_Shallow_Grave_Dread_Knight_FK.png', 
@@ -1201,7 +1201,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (241, 2); --Armor
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (241, 'Elite', '8 Bit', 1);
 
---Dust Coven Necromancer --CardIndex 327 --ExploreCharacterIndex 242 --CardIndex 242
+--Dust Coven Necromancer --CardIndex 327 --CharacterIndex 242 --ExploreCharacterIndex 242
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 'Dust Coven Necromancer',
 'http://htkb.info/SDE/FK/Cards/Warbands/Shallow_Grave/Card_Warband_Shallow_Grave_Dust_Coven_Necromancer_FK.png', 
@@ -1222,7 +1222,7 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (2
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (242, 3); --Magic
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (242, 'Elite', '16 Bit', 2);
 
---Dust Mage --CardIndex 328 --ExploreCharacterIndex 243 --CardIndex 243
+--Dust Mage --CardIndex 328 --CharacterIndex 243 --ExploreCharacterIndex 243
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 'Dust Mage',
 'http://htkb.info/SDE/FK/Cards/Warbands/Shallow_Grave/Card_Warband_Shallow_Grave_Dust_Mage_FK.png', 
@@ -1243,7 +1243,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (243, 2); --Armor
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (243, 'Elite', '8 Bit', 1);
 
---Tribal Stone --CardIndex 329 --ExploreCharacterIndex 244 --CardIndex 244
+--Tribal Stone --CardIndex 329 --CharacterIndex 244 --ExploreCharacterIndex 244
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 'Tribal Stone',
 'http://htkb.info/SDE/FK/Cards/Warbands/Tribal_Stone/Card_Warband_Tribal_Stone_FK.png', 
@@ -1261,7 +1261,7 @@ VALUES (244, 'Neither', 'Small', 'Spawning Point', 0, 0, '', '1ST', '', '', 3, 0
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (244, 2); --Armor
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (244, '', 'Start', 0);
 
---Ghostfire Warrior --CardIndex 330 --ExploreCharacterIndex 245 --CardIndex 245
+--Ghostfire Warrior --CardIndex 330 --CharacterIndex 245 --ExploreCharacterIndex 245
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 'Ghostfire Warrior',
 'http://htkb.info/SDE/FK/Cards/Warbands/Tribal_Stone/Card_Warband_Tribal_Stone_Ghostfire_Warrior_FK.png', 
@@ -1279,7 +1279,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (245, 2); --Armor
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (245, 'Minion', '8 Bit', 2);
 
---Mistmourn Chieftain --CardIndex 331 --ExploreCharacterIndex 246 --CardIndex 246
+--Mistmourn Chieftain --CardIndex 331 --CharacterIndex 246 --ExploreCharacterIndex 246
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 'Mistmourn Chiefttain',
 'http://htkb.info/SDE/FK/Cards/Warbands/Tribal_Stone/Card_Warband_Tribal_Stone_Mistmourn_Chiefttain_FK.png', 
@@ -1300,7 +1300,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (246, 2); --Armor
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (246, 'Elite', '16 Bit', 2);
 
---Spirit Walker --CardIndex 332 --ExploreCharacterIndex 247 --CardIndex 247
+--Spirit Walker --CardIndex 332 --CharacterIndex 247 --ExploreCharacterIndex 247
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 'Spirit Walker',
 'http://htkb.info/SDE/FK/Cards/Warbands/Tribal_Stone/Card_Warband_Tribal_Stone_Spirit_Walker_FK.png', 
