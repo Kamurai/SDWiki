@@ -4,5 +4,7 @@ create PROCEDURE SDWikiPullAllLoot
 AS
 BEGIN
 	select * 
-	from LootView;
+	from LootView
+	Order By ProductSet desc, CardName asc
+	;
 END

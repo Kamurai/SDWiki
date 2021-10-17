@@ -3,6 +3,8 @@
 create PROCEDURE SDWikiPullNavigationTerrainCards
 AS
 BEGIN
-	select CardName, Link
-	from TerrainView;
+	select distinct CardName, ProductSet, Link, PictureFront
+	from TerrainView
+	Order By ProductSet desc, CardName asc
+	;
 END

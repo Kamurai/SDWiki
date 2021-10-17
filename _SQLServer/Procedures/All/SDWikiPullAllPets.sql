@@ -4,5 +4,7 @@ create PROCEDURE SDWikiPullAllPets
 AS
 BEGIN
 	select * 
-	from PetsViewMultiLine;
+	from PetsViewMultiLine
+	Order By ProductSet desc, CardName asc
+	;
 END

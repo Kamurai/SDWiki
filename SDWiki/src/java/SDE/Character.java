@@ -20,7 +20,7 @@ public class Character extends Card{
         String pictureBack,
         String link,
         String cardType,
-        String productSet,
+        String version,
         String module,
         String mode,
         String flavor,
@@ -33,7 +33,7 @@ public class Character extends Card{
             pictureBack,
             link,
             cardType,
-            productSet,
+            version,
             module,
             mode,
             flavor

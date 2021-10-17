@@ -4,5 +4,7 @@ create PROCEDURE SDWikiPullAllRelics
 AS
 BEGIN
 	select * 
-	from RelicsView;
+	from RelicsView
+	Order By ProductSet desc, CardName asc
+	;
 END

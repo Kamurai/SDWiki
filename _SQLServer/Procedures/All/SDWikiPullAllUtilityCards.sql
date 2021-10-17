@@ -4,5 +4,7 @@ create PROCEDURE SDWikiPullAllUtilityCards
 AS
 BEGIN
 	select * 
-	from UtilityView;
+	from UtilityView
+	Order By ProductSet desc, CardName asc
+	;
 END

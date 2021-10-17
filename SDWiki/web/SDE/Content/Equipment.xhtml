@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:c="http://java.sun.com/jsp/jstl/core"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets">
+    <h:head />
+    <h:body>
+         <title>
+            #{SDEEquipmentBean.getEquipment().getName()}
+        </title>
+        <h2>
+            #{SDEEquipmentBean.getEquipment().getName()}
+        </h2>
+        <div id="idCenterContent">
+            <div>
+                <div class="cardPictureContainer">
+                    <!-- Front of Card -->
+                    <img class="cardPicture" src="#{SDEEquipmentBean.getEquipment().getPictureFront()}"/>
+                </div>
+                <div class="cardPictureContainer">
+                    <!-- Back of Card -->
+                    <img class="cardPicture" src="#{SDEEquipmentBean.getEquipment().getPictureBack()}"/>
+                </div>
+            </div>
+            
+            <!-- replace with table -->
+            <div>
+                <div>
+                    <div class="inline">
+                        Card Type: #{SDEEquipmentBean.getEquipment().getCardType()}
+                    </div>
+                    <div class="inline">
+                        Version: #{SDEEquipmentBean.getEquipment().getVersion()}
+                    </div>
+                </div>
+                <div>
+                    <div class="inline">
+                        Position: #{SDEEquipmentBean.getEquipment().getPosition()}
+                    </div>
+                    <div class="inline">
+                        Product Module: #{SDEEquipmentBean.getEquipment().getModule()}
+                    </div>
+                </div>
+            </div>
+            
+            <div>
+                Effect: #{SDEEquipmentBean.getEquipment().getEffect()}
+            </div>
+            
+            <!-- List of Keywords -->
+            <ui:repeat var="x" value="#{SDEEquipmentBean.getEquipment().getKeywords()}" size="#{SDEEquipmentBean.getEquipment().getKeywords().size()}" varStatus="myVarStatus" >
+                <ui:fragment rendered="#{x.validateKeyword()}">
+                    <div class="xRow">
+                        <div class="inline"><!-- Keyword -->#{x.getName()}</div>
+                        <div class="inline"><!-- Definition -->#{x.getDescription()}</div>
+                    </div>
+                </ui:fragment>
+            </ui:repeat>
+            
+            <!-- List of Abilities -->
+            <ui:repeat var="y" value="#{SDEEquipmentBean.getEquipment().getAbilities()}" size="#{SDEEquipmentBean.getEquipment().getAbilities().size()}" varStatus="myVarStatus" >
+                <ui:fragment rendered="#{y.validateAbility()}">
+                    <div class="yRow">
+                        <div class="inline"><!-- Ability Name -->#{y.getName()}: </div>
+                        <div class="inline"><!-- Ability Cost -->#{y.getCost()}</div>
+                        <div class="inline"><!-- Ability Resource -->#{y.getResource()}</div>
+                        <div class="inline"><!-- Ability Type -->#{y.getType()}:</div>
+                        <tab/>
+
+                        <div class="inline">
+                            #{y.getAttribute()}
+                        </div>
+
+                        <div class="inline">
+                            <ui:fragment rendered="#{y.getRange() > 0 }">
+                                #{y.getRange()}
+                            </ui:fragment>
+                            <ui:fragment rendered="#{y.getRange() == 0 }">
+                                Self
+                            </ui:fragment>
+                        </div>
+                        
+                        <div class="inline"><!-- Ability Description -->#{y.getDescription()}</div>
+                    </div>
+                </ui:fragment>
+            </ui:repeat>
+            <div>
+                Flavor Text: #{SDEEquipmentBean.getEquipment().getFlavor()}
+            </div>
+        </div>
+    </h:body>
+</html>
+

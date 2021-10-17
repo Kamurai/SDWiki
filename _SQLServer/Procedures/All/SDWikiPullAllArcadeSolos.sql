@@ -4,5 +4,7 @@ create PROCEDURE SDWikiPullAllArcadeSolos
 AS
 BEGIN
 	select * 
-	from ArcadeSolosViewMultiLine;
+	from ArcadeSolosViewMultiLine
+	Order By ProductSet desc, CardName asc
+	;
 END

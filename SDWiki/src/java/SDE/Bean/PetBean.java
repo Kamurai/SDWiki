@@ -21,11 +21,11 @@ public class PetBean extends CardBean{
         return pet;
     }
 
-    public String setHeroPage(String link){
+    public String setDisplayPage(String link){
         String path = uni.getAppPath()+link;
         
-        this.pet = oneDAO.pullOnePet(path);
+        this.pet        = oneDAO.pullOnePet(path);
         
-        return uni.getAppPath()+"SDE/Content/Pet.xhtml";
+        return "./Layout.xhtml";
     }
 }

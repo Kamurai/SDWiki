@@ -4,5 +4,7 @@ create PROCEDURE SDWikiPullAllCreeps
 AS
 BEGIN
 	select * 
-	from CreepsViewMultiLine;
+	from CreepsViewMultiLine
+	Order By ProductSet desc, CardName asc
+	;
 END

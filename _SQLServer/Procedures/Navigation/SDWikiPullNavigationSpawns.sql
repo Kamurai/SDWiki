@@ -3,6 +3,8 @@
 create PROCEDURE SDWikiPullNavigationSpawns
 AS
 BEGIN
-	select CardName, Link
-	from SpawnsViewMultiLine;
+	select distinct CardName, ProductSet, Link, PictureFront
+	from SpawnsViewMultiLine
+	Order By ProductSet desc, CardName asc
+	;
 END

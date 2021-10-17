@@ -3,6 +3,8 @@
 create PROCEDURE SDWikiPullNavigationHeroes
 AS
 BEGIN
-	select CardName, Link
-	from HeroesViewMultiLine;
+	select distinct CardName, ProductSet, Link, PictureFront
+	from HeroesViewMultiLine
+	Order By ProductSet desc, CardName asc
+	;
 END

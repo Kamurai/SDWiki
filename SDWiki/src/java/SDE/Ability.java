@@ -147,13 +147,44 @@ public class Ability {
                 
         for(int x = 0; x < list.size(); x++){
             if(this.compareTo(list.get(x)) == 0){
-                result = false;
+                result = true;
                 break;
             }else{
-                result = true;
+                result = false;
             }
         }
                 
         return result;
-    }    
+    }
+    
+    public boolean validateAbility(){
+        boolean result = false;
+        
+        if(
+            (this.name != null) &&
+            (this.name.length() > 0) &&
+            
+            (this.cost >= 0) &&
+
+            (this.resource.length() > 0) &&
+            (this.resource != null) &&
+
+            (this.type.length() > 0) &&
+            (this.type != null) &&
+
+            (this.attribute.length() > 0) &&
+            (this.attribute != null) &&
+
+            (this.range >= 0) &&
+                    
+            (this.description != null) &&
+            (this.description.length() > 0)
+        ){
+            result = true;
+        }else{
+            result = false;
+        }
+        
+        return result;
+    }
 }

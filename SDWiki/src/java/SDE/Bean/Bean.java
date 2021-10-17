@@ -19,11 +19,13 @@ public class Bean extends Main.Bean{
     protected Database.SDE.SDEDAONavigation navDAO;
     
     private Board board;
-    private List<Card> boardList;
+    private List<Card>  boardList;
     private Dice dice;
-    private List<Card> diceList;
-    private Definition definition;
-    private List<Card> definitionList;
+    private List<Card>  diceList;
+    private Definition  definition;
+    private List<Card>  definitionList;
+    
+    private String      page;
     
     public Bean(){
         this.uni                = new Universal();
@@ -36,7 +38,9 @@ public class Bean extends Main.Bean{
         this.dice               = new Dice();
         this.diceList           = new ArrayList<Card>();
         this.definition         = new Definition();
-        this.definitionList     = new ArrayList<Card>();        
+        this.definitionList     = new ArrayList<Card>();
+        
+        this.page               = "";
     }
 
     public Board getBoard() {
@@ -49,5 +53,21 @@ public class Bean extends Main.Bean{
 
     public Definition getDefinition() {
         return definition;
+    }
+    
+    public String setLayout(String page){
+        this.page = page;
+        
+        return "./Layout.xhtml";
+    }
+    
+    public String getContent(){
+        String result = "";
+        
+        if(page.compareTo("Index") == 0){
+            result = "./Content/Index.xhtml";
+        }
+        
+        return result;
     }
 }

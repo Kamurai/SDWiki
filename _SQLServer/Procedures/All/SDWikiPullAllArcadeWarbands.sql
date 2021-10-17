@@ -4,5 +4,7 @@ create PROCEDURE SDWikiPullAllArcadeWarbands
 AS
 BEGIN
 	select * 
-	from ArcadeWarbandsViewMultiLine;
+	from ArcadeWarbandsViewMultiLine
+	Order By ProductSet desc, CardName asc
+	;
 END

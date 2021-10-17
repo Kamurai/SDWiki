@@ -15,12 +15,10 @@ public class SDEDAONavigation extends DAO{
     }
     
     //Pull Navigation for Heroes
-    public ArrayList<SDE.NavPair> pullNavigationForHeroes(){
+    public ArrayList<SDE.NavItem> pullNavigationForHeroes(){
         CallableStatement stmt = null;
         ResultSet rs;
-        ArrayList<SDE.NavPair> result = new ArrayList<SDE.NavPair>();
-        String  tempCardName;
-        String  tempLink;
+        ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
         
         try{
             openConnection();
@@ -28,14 +26,30 @@ public class SDEDAONavigation extends DAO{
             stmt = getConnect().prepareCall("{call SDWikiPullNavigationHeroes}");
             rs = stmt.executeQuery();
             
-            while(rs.next()){
-                tempCardName    = rs.getString("CardName");
-                tempLink        = rs.getString("Link");
-                
-                result.add(new SDE.NavPair(tempCardName, tempLink));
-            }
+            result = pullNavigationForCards(rs);
+        }catch(Exception e){
+            e.printStackTrace();
+        }finally{
+            closeConnection();
         }
-        catch(Exception e){
+        
+        return result;
+    }
+    
+    public ArrayList<SDE.NavItem> pullNavigationForHeroes(String version){
+        CallableStatement stmt = null;
+        ResultSet rs;
+        ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
+        
+        try{
+            openConnection();
+            
+            stmt = getConnect().prepareCall("{call SDWikiPullNavigationHeroesByProductSet(?)}");
+            stmt.setString(1, version);
+            rs = stmt.executeQuery();
+            
+            result = pullNavigationForCards(rs);
+        }catch(Exception e){
             e.printStackTrace();
         }finally{
             closeConnection();
@@ -45,12 +59,10 @@ public class SDEDAONavigation extends DAO{
     }
     
     //Pull Navigation for Pets
-     public ArrayList<SDE.NavPair> pullNavigationForPets(){
+    public ArrayList<SDE.NavItem> pullNavigationForPets(){
         CallableStatement stmt = null;
         ResultSet rs;
-        ArrayList<SDE.NavPair> result = new ArrayList<SDE.NavPair>();
-        String  tempCardName;
-        String  tempLink;
+        ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
         
         try{
             openConnection();
@@ -58,14 +70,30 @@ public class SDEDAONavigation extends DAO{
             stmt = getConnect().prepareCall("{call SDWikiPullNavigationPets}");
             rs = stmt.executeQuery();
             
-            while(rs.next()){
-                tempCardName    = rs.getString("CardName");
-                tempLink        = rs.getString("Link");
-                
-                result.add(new SDE.NavPair(tempCardName, tempLink));
-            }
+            result = pullNavigationForCards(rs);
+        }catch(Exception e){
+            e.printStackTrace();
+        }finally{
+            closeConnection();
         }
-        catch(Exception e){
+        
+        return result;
+    }
+     
+    public ArrayList<SDE.NavItem> pullNavigationForPets(String version){
+        CallableStatement stmt = null;
+        ResultSet rs;
+        ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
+        
+        try{
+            openConnection();
+            
+            stmt = getConnect().prepareCall("{call SDWikiPullNavigationPetsByProductSet(?)}");
+            stmt.setString(1, version);
+            rs = stmt.executeQuery();
+            
+            result = pullNavigationForCards(rs);
+        }catch(Exception e){
             e.printStackTrace();
         }finally{
             closeConnection();
@@ -75,12 +103,10 @@ public class SDEDAONavigation extends DAO{
     }
      
     //Pull Navigation for Booty
-    public ArrayList<SDE.NavPair> pullNavigationForBooty(){
+    public ArrayList<SDE.NavItem> pullNavigationForBooty(){
         CallableStatement stmt = null;
         ResultSet rs;
-        ArrayList<SDE.NavPair> result = new ArrayList<SDE.NavPair>();
-        String  tempCardName;
-        String  tempLink;
+        ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
         
         try{
             openConnection();
@@ -88,14 +114,30 @@ public class SDEDAONavigation extends DAO{
             stmt = getConnect().prepareCall("{call SDWikiPullNavigationBooty}");
             rs = stmt.executeQuery();
             
-            while(rs.next()){
-                tempCardName    = rs.getString("CardName");
-                tempLink        = rs.getString("Link");
-                
-                result.add(new SDE.NavPair(tempCardName, tempLink));
-            }
+            result = pullNavigationForCards(rs);
+        }catch(Exception e){
+            e.printStackTrace();
+        }finally{
+            closeConnection();
         }
-        catch(Exception e){
+        
+        return result;
+    }
+    
+    public ArrayList<SDE.NavItem> pullNavigationForBooty(String version){
+        CallableStatement stmt = null;
+        ResultSet rs;
+        ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
+        
+        try{
+            openConnection();
+            
+            stmt = getConnect().prepareCall("{call SDWikiPullNavigationBootyByProductSet(?)}");
+            stmt.setString(1, version);
+            rs = stmt.executeQuery();
+            
+            result = pullNavigationForCards(rs);
+        }catch(Exception e){
             e.printStackTrace();
         }finally{
             closeConnection();
@@ -105,12 +147,10 @@ public class SDEDAONavigation extends DAO{
     }
     
     //Pull Navigation for Creeps
-    public ArrayList<SDE.NavPair> pullNavigationForCreeps(){
+    public ArrayList<SDE.NavItem> pullNavigationForCreeps(){
         CallableStatement stmt = null;
         ResultSet rs;
-        ArrayList<SDE.NavPair> result = new ArrayList<SDE.NavPair>();
-        String  tempCardName;
-        String  tempLink;
+        ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
         
         try{
             openConnection();
@@ -118,14 +158,30 @@ public class SDEDAONavigation extends DAO{
             stmt = getConnect().prepareCall("{call SDWikiPullNavigationCreeps}");
             rs = stmt.executeQuery();
             
-            while(rs.next()){
-                tempCardName    = rs.getString("CardName");
-                tempLink        = rs.getString("Link");
-                
-                result.add(new SDE.NavPair(tempCardName, tempLink));
-            }
+            result = pullNavigationForCards(rs);
+        }catch(Exception e){
+            e.printStackTrace();
+        }finally{
+            closeConnection();
         }
-        catch(Exception e){
+        
+        return result;
+    }
+      
+    public ArrayList<SDE.NavItem> pullNavigationForCreeps(String version){
+        CallableStatement stmt = null;
+        ResultSet rs;
+        ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
+        
+        try{
+            openConnection();
+            
+            stmt = getConnect().prepareCall("{call SDWikiPullNavigationCreepsByProductSet(?)}");
+            stmt.setString(1, version);
+            rs = stmt.executeQuery();
+            
+            result = pullNavigationForCards(rs);
+        }catch(Exception e){
             e.printStackTrace();
         }finally{
             closeConnection();
@@ -135,12 +191,10 @@ public class SDEDAONavigation extends DAO{
     }
       
     //Pull Navigation for Elites
-    public ArrayList<SDE.NavPair> pullNavigationForElites(){
+    public ArrayList<SDE.NavItem> pullNavigationForElites(){
         CallableStatement stmt = null;
         ResultSet rs;
-        ArrayList<SDE.NavPair> result = new ArrayList<SDE.NavPair>();
-        String  tempCardName;
-        String  tempLink;
+        ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
         
         try{
             openConnection();
@@ -148,14 +202,30 @@ public class SDEDAONavigation extends DAO{
             stmt = getConnect().prepareCall("{call SDWikiPullNavigationElites}");
             rs = stmt.executeQuery();
             
-            while(rs.next()){
-                tempCardName    = rs.getString("CardName");
-                tempLink        = rs.getString("Link");
-                
-                result.add(new SDE.NavPair(tempCardName, tempLink));
-            }
+            result = pullNavigationForCards(rs);
+        }catch(Exception e){
+            e.printStackTrace();
+        }finally{
+            closeConnection();
         }
-        catch(Exception e){
+        
+        return result;
+    }
+    
+    public ArrayList<SDE.NavItem> pullNavigationForElites(String version){
+        CallableStatement stmt = null;
+        ResultSet rs;
+        ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
+        
+        try{
+            openConnection();
+            
+            stmt = getConnect().prepareCall("{call SDWikiPullNavigationElitesByProductSet(?)}");
+            stmt.setString(1, version);
+            rs = stmt.executeQuery();
+            
+            result = pullNavigationForCards(rs);
+        }catch(Exception e){
             e.printStackTrace();
         }finally{
             closeConnection();
@@ -165,12 +235,10 @@ public class SDEDAONavigation extends DAO{
     }
     
     //Pull Navigation for Mini Bosses
-    public ArrayList<SDE.NavPair> pullNavigationForMiniBosses(){
+    public ArrayList<SDE.NavItem> pullNavigationForMiniBosses(){
         CallableStatement stmt = null;
         ResultSet rs;
-        ArrayList<SDE.NavPair> result = new ArrayList<SDE.NavPair>();
-        String  tempCardName;
-        String  tempLink;
+        ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
         
         try{
             openConnection();
@@ -178,14 +246,30 @@ public class SDEDAONavigation extends DAO{
             stmt = getConnect().prepareCall("{call SDWikiPullNavigationMiniBosses}");
             rs = stmt.executeQuery();
             
-            while(rs.next()){
-                tempCardName    = rs.getString("CardName");
-                tempLink        = rs.getString("Link");
-                
-                result.add(new SDE.NavPair(tempCardName, tempLink));
-            }
+            result = pullNavigationForCards(rs);
+        }catch(Exception e){
+            e.printStackTrace();
+        }finally{
+            closeConnection();
         }
-        catch(Exception e){
+        
+        return result;
+    }
+    
+    public ArrayList<SDE.NavItem> pullNavigationForMiniBosses(String version){
+        CallableStatement stmt = null;
+        ResultSet rs;
+        ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
+        
+        try{
+            openConnection();
+            
+            stmt = getConnect().prepareCall("{call SDWikiPullNavigationMiniBossesByProductSet(?)}");
+            stmt.setString(1, version);
+            rs = stmt.executeQuery();
+            
+            result = pullNavigationForCards(rs);
+        }catch(Exception e){
             e.printStackTrace();
         }finally{
             closeConnection();
@@ -195,12 +279,10 @@ public class SDEDAONavigation extends DAO{
     }
     
     //Pull Navigation for Bosses
-    public ArrayList<SDE.NavPair> pullNavigationForBosses(){
+    public ArrayList<SDE.NavItem> pullNavigationForBosses(){
         CallableStatement stmt = null;
         ResultSet rs;
-        ArrayList<SDE.NavPair> result = new ArrayList<SDE.NavPair>();
-        String  tempCardName;
-        String  tempLink;
+        ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
         
         try{
             openConnection();
@@ -208,14 +290,30 @@ public class SDEDAONavigation extends DAO{
             stmt = getConnect().prepareCall("{call SDWikiPullNavigationBosses}");
             rs = stmt.executeQuery();
             
-            while(rs.next()){
-                tempCardName    = rs.getString("CardName");
-                tempLink        = rs.getString("Link");
-                
-                result.add(new SDE.NavPair(tempCardName, tempLink));
-            }
+            result = pullNavigationForCards(rs);
+        }catch(Exception e){
+            e.printStackTrace();
+        }finally{
+            closeConnection();
         }
-        catch(Exception e){
+        
+        return result;
+    }
+    
+    public ArrayList<SDE.NavItem> pullNavigationForBosses(String version){
+        CallableStatement stmt = null;
+        ResultSet rs;
+        ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
+        
+        try{
+            openConnection();
+            
+            stmt = getConnect().prepareCall("{call SDWikiPullNavigationBossesByProductSet(?)}");
+            stmt.setString(1, version);
+            rs = stmt.executeQuery();
+            
+            result = pullNavigationForCards(rs);
+        }catch(Exception e){
             e.printStackTrace();
         }finally{
             closeConnection();
@@ -225,12 +323,10 @@ public class SDEDAONavigation extends DAO{
     }
     
     //Pull Navigation for Minions
-    public ArrayList<SDE.NavPair> pullNavigationForMinions(){
+    public ArrayList<SDE.NavItem> pullNavigationForMinions(){
         CallableStatement stmt = null;
         ResultSet rs;
-        ArrayList<SDE.NavPair> result = new ArrayList<SDE.NavPair>();
-        String  tempCardName;
-        String  tempLink;
+        ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
         
         try{
             openConnection();
@@ -238,14 +334,30 @@ public class SDEDAONavigation extends DAO{
             stmt = getConnect().prepareCall("{call SDWikiPullNavigationMinions}");
             rs = stmt.executeQuery();
             
-            while(rs.next()){
-                tempCardName    = rs.getString("CardName");
-                tempLink        = rs.getString("Link");
-                
-                result.add(new SDE.NavPair(tempCardName, tempLink));
-            }
+            result = pullNavigationForCards(rs);
+        }catch(Exception e){
+            e.printStackTrace();
+        }finally{
+            closeConnection();
         }
-        catch(Exception e){
+        
+        return result;
+    }
+
+    public ArrayList<SDE.NavItem> pullNavigationForMinions(String version){
+        CallableStatement stmt = null;
+        ResultSet rs;
+        ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
+        
+        try{
+            openConnection();
+            
+            stmt = getConnect().prepareCall("{call SDWikiPullNavigationMinionsByProductSet(?)}");
+            stmt.setString(1, version);
+            rs = stmt.executeQuery();
+            
+            result = pullNavigationForCards(rs);
+        }catch(Exception e){
             e.printStackTrace();
         }finally{
             closeConnection();
@@ -255,12 +367,10 @@ public class SDEDAONavigation extends DAO{
     }
 
     //Pull Navigation for Spawns
-    public ArrayList<SDE.NavPair> pullNavigationForSpawns(){
+    public ArrayList<SDE.NavItem> pullNavigationForSpawns(){
         CallableStatement stmt = null;
         ResultSet rs;
-        ArrayList<SDE.NavPair> result = new ArrayList<SDE.NavPair>();
-        String  tempCardName;
-        String  tempLink;
+        ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
         
         try{
             openConnection();
@@ -268,14 +378,30 @@ public class SDEDAONavigation extends DAO{
             stmt = getConnect().prepareCall("{call SDWikiPullNavigationSpawns}");
             rs = stmt.executeQuery();
             
-            while(rs.next()){
-                tempCardName    = rs.getString("CardName");
-                tempLink        = rs.getString("Link");
-                
-                result.add(new SDE.NavPair(tempCardName, tempLink));
-            }
+            result = pullNavigationForCards(rs);
+        }catch(Exception e){
+            e.printStackTrace();
+        }finally{
+            closeConnection();
         }
-        catch(Exception e){
+        
+        return result;
+    }
+    
+    public ArrayList<SDE.NavItem> pullNavigationForSpawns(String version){
+        CallableStatement stmt = null;
+        ResultSet rs;
+        ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
+        
+        try{
+            openConnection();
+            
+            stmt = getConnect().prepareCall("{call SDWikiPullNavigationSpawnsByProductSet(?)}");
+            stmt.setString(1, version);
+            rs = stmt.executeQuery();
+            
+            result = pullNavigationForCards(rs);
+        }catch(Exception e){
             e.printStackTrace();
         }finally{
             closeConnection();
@@ -285,12 +411,10 @@ public class SDEDAONavigation extends DAO{
     }
     
     //Pull Navigation for Warbands
-    public ArrayList<SDE.NavPair> pullNavigationForWarbands(){
+    public ArrayList<SDE.NavItem> pullNavigationForWarbands(){
         CallableStatement stmt = null;
         ResultSet rs;
-        ArrayList<SDE.NavPair> result = new ArrayList<SDE.NavPair>();
-        String  tempCardName;
-        String  tempLink;
+        ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
         
         try{
             openConnection();
@@ -298,14 +422,30 @@ public class SDEDAONavigation extends DAO{
             stmt = getConnect().prepareCall("{call SDWikiPullNavigationWarbands}");
             rs = stmt.executeQuery();
             
-            while(rs.next()){
-                tempCardName    = rs.getString("CardName");
-                tempLink        = rs.getString("Link");
-                
-                result.add(new SDE.NavPair(tempCardName, tempLink));
-            }
+            result = pullNavigationForCards(rs);
+        }catch(Exception e){
+            e.printStackTrace();
+        }finally{
+            closeConnection();
         }
-        catch(Exception e){
+        
+        return result;
+    }
+    
+    public ArrayList<SDE.NavItem> pullNavigationForWarbands(String version){
+        CallableStatement stmt = null;
+        ResultSet rs;
+        ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
+        
+        try{
+            openConnection();
+            
+            stmt = getConnect().prepareCall("{call SDWikiPullNavigationWarbandsByProductSet(?)}");
+            stmt.setString(1, version);
+            rs = stmt.executeQuery();
+            
+            result = pullNavigationForCards(rs);
+        }catch(Exception e){
             e.printStackTrace();
         }finally{
             closeConnection();
@@ -315,12 +455,10 @@ public class SDEDAONavigation extends DAO{
     }
     
     //Pull Navigation for Monsters
-    public ArrayList<SDE.NavPair> pullNavigationForMonsters(){
+    public ArrayList<SDE.NavItem> pullNavigationForMonsters(){
         CallableStatement stmt = null;
         ResultSet rs;
-        ArrayList<SDE.NavPair> result = new ArrayList<SDE.NavPair>();
-        String  tempCardName;
-        String  tempLink;
+        ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
         
         try{
             openConnection();
@@ -328,14 +466,30 @@ public class SDEDAONavigation extends DAO{
             stmt = getConnect().prepareCall("{call SDWikiPullNavigationMonsters}");
             rs = stmt.executeQuery();
             
-            while(rs.next()){
-                tempCardName    = rs.getString("CardName");
-                tempLink        = rs.getString("Link");
-                
-                result.add(new SDE.NavPair(tempCardName, tempLink));
-            }
+            result = pullNavigationForCards(rs);
+        }catch(Exception e){
+            e.printStackTrace();
+        }finally{
+            closeConnection();
         }
-        catch(Exception e){
+        
+        return result;
+    }    
+    
+    public ArrayList<SDE.NavItem> pullNavigationForMonsters(String version){
+        CallableStatement stmt = null;
+        ResultSet rs;
+        ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
+        
+        try{
+            openConnection();
+            
+            stmt = getConnect().prepareCall("{call SDWikiPullNavigationMonstersByProductSet(?)}");
+            stmt.setString(1, version);
+            rs = stmt.executeQuery();
+            
+            result = pullNavigationForCards(rs);
+        }catch(Exception e){
             e.printStackTrace();
         }finally{
             closeConnection();
@@ -345,12 +499,10 @@ public class SDEDAONavigation extends DAO{
     }    
     
     //Pull Navigation for Arcade Booty
-    public ArrayList<SDE.NavPair> pullNavigationForArcadeBooty(){
+    public ArrayList<SDE.NavItem> pullNavigationForArcadeBooty(){
         CallableStatement stmt = null;
         ResultSet rs;
-        ArrayList<SDE.NavPair> result = new ArrayList<SDE.NavPair>();
-        String  tempCardName;
-        String  tempLink;
+        ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
         
         try{
             openConnection();
@@ -358,14 +510,30 @@ public class SDEDAONavigation extends DAO{
             stmt = getConnect().prepareCall("{call SDWikiPullNavigationArcadeBooty}");
             rs = stmt.executeQuery();
             
-            while(rs.next()){
-                tempCardName    = rs.getString("CardName");
-                tempLink        = rs.getString("Link");
-                
-                result.add(new SDE.NavPair(tempCardName, tempLink));
-            }
+            result = pullNavigationForCards(rs);
+        }catch(Exception e){
+            e.printStackTrace();
+        }finally{
+            closeConnection();
         }
-        catch(Exception e){
+        
+        return result;
+    }
+    
+    public ArrayList<SDE.NavItem> pullNavigationForArcadeBooty(String version){
+        CallableStatement stmt = null;
+        ResultSet rs;
+        ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
+        
+        try{
+            openConnection();
+            
+            stmt = getConnect().prepareCall("{call SDWikiPullNavigationArcadeBootyByProductSet(?)}");
+            stmt.setString(1, version);
+            rs = stmt.executeQuery();
+            
+            result = pullNavigationForCards(rs);
+        }catch(Exception e){
             e.printStackTrace();
         }finally{
             closeConnection();
@@ -375,12 +543,10 @@ public class SDEDAONavigation extends DAO{
     }
     
     //Pull Navigation for Arcade Bosses
-    public ArrayList<SDE.NavPair> pullNavigationForArcadeBosses(){
+    public ArrayList<SDE.NavItem> pullNavigationForArcadeBosses(){
         CallableStatement stmt = null;
         ResultSet rs;
-        ArrayList<SDE.NavPair> result = new ArrayList<SDE.NavPair>();
-        String  tempCardName;
-        String  tempLink;
+        ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
         
         try{
             openConnection();
@@ -388,14 +554,30 @@ public class SDEDAONavigation extends DAO{
             stmt = getConnect().prepareCall("{call SDWikiPullNavigationArcadeBosses}");
             rs = stmt.executeQuery();
             
-            while(rs.next()){
-                tempCardName    = rs.getString("CardName");
-                tempLink        = rs.getString("Link");
-                
-                result.add(new SDE.NavPair(tempCardName, tempLink));
-            }
+            result = pullNavigationForCards(rs);
+        }catch(Exception e){
+            e.printStackTrace();
+        }finally{
+            closeConnection();
         }
-        catch(Exception e){
+        
+        return result;
+    }
+    
+    public ArrayList<SDE.NavItem> pullNavigationForArcadeBosses(String version){
+        CallableStatement stmt = null;
+        ResultSet rs;
+        ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
+        
+        try{
+            openConnection();
+            
+            stmt = getConnect().prepareCall("{call SDWikiPullNavigationArcadeBossesByProductSet(?)}");
+            stmt.setString(1, version);
+            rs = stmt.executeQuery();
+            
+            result = pullNavigationForCards(rs);
+        }catch(Exception e){
             e.printStackTrace();
         }finally{
             closeConnection();
@@ -405,12 +587,10 @@ public class SDEDAONavigation extends DAO{
     }
     
     //Pull Navigation for Arcade Creeps
-    public ArrayList<SDE.NavPair> pullNavigationForArcadeCreeps(){
+    public ArrayList<SDE.NavItem> pullNavigationForArcadeCreeps(){
         CallableStatement stmt = null;
         ResultSet rs;
-        ArrayList<SDE.NavPair> result = new ArrayList<SDE.NavPair>();
-        String  tempCardName;
-        String  tempLink;
+        ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
         
         try{
             openConnection();
@@ -418,14 +598,30 @@ public class SDEDAONavigation extends DAO{
             stmt = getConnect().prepareCall("{call SDWikiPullNavigationArcadeCreeps}");
             rs = stmt.executeQuery();
             
-            while(rs.next()){
-                tempCardName    = rs.getString("CardName");
-                tempLink        = rs.getString("Link");
-                
-                result.add(new SDE.NavPair(tempCardName, tempLink));
-            }
+            result = pullNavigationForCards(rs);
+        }catch(Exception e){
+            e.printStackTrace();
+        }finally{
+            closeConnection();
         }
-        catch(Exception e){
+        
+        return result;
+    }
+    
+    public ArrayList<SDE.NavItem> pullNavigationForArcadeCreeps(String version){
+        CallableStatement stmt = null;
+        ResultSet rs;
+        ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
+        
+        try{
+            openConnection();
+            
+            stmt = getConnect().prepareCall("{call SDWikiPullNavigationArcadeCreepsByProductSet(?)}");
+            stmt.setString(1, version);
+            rs = stmt.executeQuery();
+            
+            result = pullNavigationForCards(rs);
+        }catch(Exception e){
             e.printStackTrace();
         }finally{
             closeConnection();
@@ -435,12 +631,10 @@ public class SDEDAONavigation extends DAO{
     }
     
     //Pull Navigation for Arcade Gangs
-    public ArrayList<SDE.NavPair> pullNavigationForArcadeGangs(){
+    public ArrayList<SDE.NavItem> pullNavigationForArcadeGangs(){
         CallableStatement stmt = null;
         ResultSet rs;
-        ArrayList<SDE.NavPair> result = new ArrayList<SDE.NavPair>();
-        String  tempCardName;
-        String  tempLink;
+        ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
         
         try{
             openConnection();
@@ -448,14 +642,30 @@ public class SDEDAONavigation extends DAO{
             stmt = getConnect().prepareCall("{call SDWikiPullNavigationArcadeGangs}");
             rs = stmt.executeQuery();
             
-            while(rs.next()){
-                tempCardName    = rs.getString("CardName");
-                tempLink        = rs.getString("Link");
-                
-                result.add(new SDE.NavPair(tempCardName, tempLink));
-            }
+            result = pullNavigationForCards(rs);
+        }catch(Exception e){
+            e.printStackTrace();
+        }finally{
+            closeConnection();
         }
-        catch(Exception e){
+        
+        return result;
+    }
+    
+    public ArrayList<SDE.NavItem> pullNavigationForArcadeGangs(String version){
+        CallableStatement stmt = null;
+        ResultSet rs;
+        ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
+        
+        try{
+            openConnection();
+            
+            stmt = getConnect().prepareCall("{call SDWikiPullNavigationArcadeGangsByProductSet(?)}");
+            stmt.setString(1, version);
+            rs = stmt.executeQuery();
+            
+            result = pullNavigationForCards(rs);
+        }catch(Exception e){
             e.printStackTrace();
         }finally{
             closeConnection();
@@ -465,12 +675,10 @@ public class SDEDAONavigation extends DAO{
     }
     
     //Pull Navigation for Arcade Mini Bosses
-    public ArrayList<SDE.NavPair> pullNavigationForArcadeMiniBosses(){
+    public ArrayList<SDE.NavItem> pullNavigationForArcadeMinibosses(){
         CallableStatement stmt = null;
         ResultSet rs;
-        ArrayList<SDE.NavPair> result = new ArrayList<SDE.NavPair>();
-        String  tempCardName;
-        String  tempLink;
+        ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
         
         try{
             openConnection();
@@ -478,14 +686,30 @@ public class SDEDAONavigation extends DAO{
             stmt = getConnect().prepareCall("{call SDWikiPullNavigationArcadeMiniBosses}");
             rs = stmt.executeQuery();
             
-            while(rs.next()){
-                tempCardName    = rs.getString("CardName");
-                tempLink        = rs.getString("Link");
-                
-                result.add(new SDE.NavPair(tempCardName, tempLink));
-            }
+            result = pullNavigationForCards(rs);
+        }catch(Exception e){
+            e.printStackTrace();
+        }finally{
+            closeConnection();
         }
-        catch(Exception e){
+        
+        return result;
+    }
+    
+    public ArrayList<SDE.NavItem> pullNavigationForArcadeMinibosses(String version){
+        CallableStatement stmt = null;
+        ResultSet rs;
+        ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
+        
+        try{
+            openConnection();
+            
+            stmt = getConnect().prepareCall("{call SDWikiPullNavigationArcadeMiniBossesByProductSet(?)}");
+            stmt.setString(1, version);
+            rs = stmt.executeQuery();
+            
+            result = pullNavigationForCards(rs);
+        }catch(Exception e){
             e.printStackTrace();
         }finally{
             closeConnection();
@@ -495,12 +719,10 @@ public class SDEDAONavigation extends DAO{
     }
     
     //Pull Navigation for Arcade Solos
-    public ArrayList<SDE.NavPair> pullNavigationForArcadeSolos(){
+    public ArrayList<SDE.NavItem> pullNavigationForArcadeSolos(){
         CallableStatement stmt = null;
         ResultSet rs;
-        ArrayList<SDE.NavPair> result = new ArrayList<SDE.NavPair>();
-        String  tempCardName;
-        String  tempLink;
+        ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
         
         try{
             openConnection();
@@ -508,14 +730,30 @@ public class SDEDAONavigation extends DAO{
             stmt = getConnect().prepareCall("{call SDWikiPullNavigationArcadeSolos}");
             rs = stmt.executeQuery();
             
-            while(rs.next()){
-                tempCardName    = rs.getString("CardName");
-                tempLink        = rs.getString("Link");
-                
-                result.add(new SDE.NavPair(tempCardName, tempLink));
-            }
+            result = pullNavigationForCards(rs);
+        }catch(Exception e){
+            e.printStackTrace();
+        }finally{
+            closeConnection();
         }
-        catch(Exception e){
+        
+        return result;
+    }
+    
+    public ArrayList<SDE.NavItem> pullNavigationForArcadeSolos(String version){
+        CallableStatement stmt = null;
+        ResultSet rs;
+        ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
+        
+        try{
+            openConnection();
+            
+            stmt = getConnect().prepareCall("{call SDWikiPullNavigationArcadeSolosByProductSet(?)}");
+            stmt.setString(1, version);
+            rs = stmt.executeQuery();
+            
+            result = pullNavigationForCards(rs);
+        }catch(Exception e){
             e.printStackTrace();
         }finally{
             closeConnection();
@@ -525,12 +763,10 @@ public class SDEDAONavigation extends DAO{
     }
     
     //Pull Navigation for Equipment
-    public ArrayList<SDE.NavPair> pullNavigationForEquipment(){
+    public ArrayList<SDE.NavItem> pullNavigationForEquipment(){
         CallableStatement stmt = null;
         ResultSet rs;
-        ArrayList<SDE.NavPair> result = new ArrayList<SDE.NavPair>();
-        String  tempCardName;
-        String  tempLink;
+        ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
         
         try{
             openConnection();
@@ -538,14 +774,30 @@ public class SDEDAONavigation extends DAO{
             stmt = getConnect().prepareCall("{call SDWikiPullNavigationEquipment}");
             rs = stmt.executeQuery();
             
-            while(rs.next()){
-                tempCardName    = rs.getString("CardName");
-                tempLink        = rs.getString("Link");
-                
-                result.add(new SDE.NavPair(tempCardName, tempLink));
-            }
+            result = pullNavigationForCards(rs);
+        }catch(Exception e){
+            e.printStackTrace();
+        }finally{
+            closeConnection();
         }
-        catch(Exception e){
+        
+        return result;
+    }
+    
+    public ArrayList<SDE.NavItem> pullNavigationForEquipment(String version){
+        CallableStatement stmt = null;
+        ResultSet rs;
+        ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
+        
+        try{
+            openConnection();
+            
+            stmt = getConnect().prepareCall("{call SDWikiPullNavigationEquipmentByProductSet(?)}");
+            stmt.setString(1, version);
+            rs = stmt.executeQuery();
+            
+            result = pullNavigationForCards(rs);
+        }catch(Exception e){
             e.printStackTrace();
         }finally{
             closeConnection();
@@ -555,12 +807,10 @@ public class SDEDAONavigation extends DAO{
     }
     
     //Pull Navigation for Loot
-    public ArrayList<SDE.NavPair> pullNavigationForLoot(){
+    public ArrayList<SDE.NavItem> pullNavigationForLoot(){
         CallableStatement stmt = null;
         ResultSet rs;
-        ArrayList<SDE.NavPair> result = new ArrayList<SDE.NavPair>();
-        String  tempCardName;
-        String  tempLink;
+        ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
         
         try{
             openConnection();
@@ -568,14 +818,30 @@ public class SDEDAONavigation extends DAO{
             stmt = getConnect().prepareCall("{call SDWikiPullNavigationLoot}");
             rs = stmt.executeQuery();
             
-            while(rs.next()){
-                tempCardName    = rs.getString("CardName");
-                tempLink        = rs.getString("Link");
-                
-                result.add(new SDE.NavPair(tempCardName, tempLink));
-            }
+            result = pullNavigationForCards(rs);
+        }catch(Exception e){
+            e.printStackTrace();
+        }finally{
+            closeConnection();
         }
-        catch(Exception e){
+        
+        return result;
+    }
+    
+    public ArrayList<SDE.NavItem> pullNavigationForLoot(String version){
+        CallableStatement stmt = null;
+        ResultSet rs;
+        ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
+        
+        try{
+            openConnection();
+            
+            stmt = getConnect().prepareCall("{call SDWikiPullNavigationLootByProductSet(?)}");
+            stmt.setString(1, version);
+            rs = stmt.executeQuery();
+            
+            result = pullNavigationForCards(rs);
+        }catch(Exception e){
             e.printStackTrace();
         }finally{
             closeConnection();
@@ -585,12 +851,10 @@ public class SDEDAONavigation extends DAO{
     }
     
     //Pull Navigation for Treasure
-    public ArrayList<SDE.NavPair> pullNavigationForTreasure(){
+    public ArrayList<SDE.NavItem> pullNavigationForTreasure(){
         CallableStatement stmt = null;
         ResultSet rs;
-        ArrayList<SDE.NavPair> result = new ArrayList<SDE.NavPair>();
-        String  tempCardName;
-        String  tempLink;
+        ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
         
         try{
             openConnection();
@@ -598,14 +862,30 @@ public class SDEDAONavigation extends DAO{
             stmt = getConnect().prepareCall("{call SDWikiPullNavigationTreasure}");
             rs = stmt.executeQuery();
             
-            while(rs.next()){
-                tempCardName    = rs.getString("CardName");
-                tempLink        = rs.getString("Link");
-                
-                result.add(new SDE.NavPair(tempCardName, tempLink));
-            }
+            result = pullNavigationForCards(rs);
+        }catch(Exception e){
+            e.printStackTrace();
+        }finally{
+            closeConnection();
         }
-        catch(Exception e){
+        
+        return result;
+    }
+    
+    public ArrayList<SDE.NavItem> pullNavigationForTreasure(String version){
+        CallableStatement stmt = null;
+        ResultSet rs;
+        ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
+        
+        try{
+            openConnection();
+            
+            stmt = getConnect().prepareCall("{call SDWikiPullNavigationTreasureByProductSet(?)}");
+            stmt.setString(1, version);
+            rs = stmt.executeQuery();
+            
+            result = pullNavigationForCards(rs);
+        }catch(Exception e){
             e.printStackTrace();
         }finally{
             closeConnection();
@@ -615,12 +895,10 @@ public class SDEDAONavigation extends DAO{
     }
     
     //Pull Navigation for Relic
-    public ArrayList<SDE.NavPair> pullNavigationForRelic(){
+    public ArrayList<SDE.NavItem> pullNavigationForRelics(){
         CallableStatement stmt = null;
         ResultSet rs;
-        ArrayList<SDE.NavPair> result = new ArrayList<SDE.NavPair>();
-        String  tempCardName;
-        String  tempLink;
+        ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
         
         try{
             openConnection();
@@ -628,14 +906,30 @@ public class SDEDAONavigation extends DAO{
             stmt = getConnect().prepareCall("{call SDWikiPullNavigationRelic}");
             rs = stmt.executeQuery();
             
-            while(rs.next()){
-                tempCardName    = rs.getString("CardName");
-                tempLink        = rs.getString("Link");
-                
-                result.add(new SDE.NavPair(tempCardName, tempLink));
-            }
+            result = pullNavigationForCards(rs);
+        }catch(Exception e){
+            e.printStackTrace();
+        }finally{
+            closeConnection();
         }
-        catch(Exception e){
+        
+        return result;
+    }
+    
+    public ArrayList<SDE.NavItem> pullNavigationForRelics(String version){
+        CallableStatement stmt = null;
+        ResultSet rs;
+        ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
+        
+        try{
+            openConnection();
+            
+            stmt = getConnect().prepareCall("{call SDWikiPullNavigationRelicByProductSet(?)}");
+            stmt.setString(1, version);
+            rs = stmt.executeQuery();
+            
+            result = pullNavigationForCards(rs);
+        }catch(Exception e){
             e.printStackTrace();
         }finally{
             closeConnection();
@@ -645,12 +939,10 @@ public class SDEDAONavigation extends DAO{
     }
     
     //Pull Navigation for Boss Spawns
-    public ArrayList<SDE.NavPair> pullNavigationForBossSpawns(){
+    public ArrayList<SDE.NavItem> pullNavigationForBossSpawns(){
         CallableStatement stmt = null;
         ResultSet rs;
-        ArrayList<SDE.NavPair> result = new ArrayList<SDE.NavPair>();
-        String  tempCardName;
-        String  tempLink;
+        ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
         
         try{
             openConnection();
@@ -658,14 +950,30 @@ public class SDEDAONavigation extends DAO{
             stmt = getConnect().prepareCall("{call SDWikiPullNavigationBossSpawns}");
             rs = stmt.executeQuery();
             
-            while(rs.next()){
-                tempCardName    = rs.getString("CardName");
-                tempLink        = rs.getString("Link");
-                
-                result.add(new SDE.NavPair(tempCardName, tempLink));
-            }
+            result = pullNavigationForCards(rs);
+        }catch(Exception e){
+            e.printStackTrace();
+        }finally{
+            closeConnection();
         }
-        catch(Exception e){
+        
+        return result;
+    }
+    
+    public ArrayList<SDE.NavItem> pullNavigationForBossSpawns(String version){
+        CallableStatement stmt = null;
+        ResultSet rs;
+        ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
+        
+        try{
+            openConnection();
+            
+            stmt = getConnect().prepareCall("{call SDWikiPullNavigationBossSpawnsByProductSet(?)}");
+            stmt.setString(1, version);
+            rs = stmt.executeQuery();
+            
+            result = pullNavigationForCards(rs);
+        }catch(Exception e){
             e.printStackTrace();
         }finally{
             closeConnection();
@@ -675,27 +983,41 @@ public class SDEDAONavigation extends DAO{
     }
     
     //Pull Navigation for Utility Cards
-    public ArrayList<SDE.NavPair> pullNavigationForUtilities(){
+    public ArrayList<SDE.NavItem> pullNavigationForUtilities(){
         CallableStatement stmt = null;
         ResultSet rs;
-        ArrayList<SDE.NavPair> result = new ArrayList<SDE.NavPair>();
-        String  tempCardName;
-        String  tempLink;
+        ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
         
         try{
             openConnection();
             
-            stmt = getConnect().prepareCall("{call SDWikiPullNavigationUtilities}");
+            stmt = getConnect().prepareCall("{call SDWikiPullNavigationUtilityCards}");
             rs = stmt.executeQuery();
             
-            while(rs.next()){
-                tempCardName    = rs.getString("CardName");
-                tempLink        = rs.getString("Link");
-                
-                result.add(new SDE.NavPair(tempCardName, tempLink));
-            }
+            result = pullNavigationForCards(rs);
+        }catch(Exception e){
+            e.printStackTrace();
+        }finally{
+            closeConnection();
         }
-        catch(Exception e){
+        
+        return result;
+    }
+    
+    public ArrayList<SDE.NavItem> pullNavigationForUtilities(String version){
+        CallableStatement stmt = null;
+        ResultSet rs;
+        ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
+        
+        try{
+            openConnection();
+            
+            stmt = getConnect().prepareCall("{call SDWikiPullNavigationUtilityCardsByProductSet(?)}");
+            stmt.setString(1, version);
+             rs = stmt.executeQuery();
+            
+            result = pullNavigationForCards(rs);
+        }catch(Exception e){
             e.printStackTrace();
         }finally{
             closeConnection();
@@ -705,27 +1027,41 @@ public class SDEDAONavigation extends DAO{
     }
     
     //Pull Navigation for Terrain Cards
-    public ArrayList<SDE.NavPair> pullNavigationForTerrainCards(){
+    public ArrayList<SDE.NavItem> pullNavigationForTerrainCards(){
         CallableStatement stmt = null;
         ResultSet rs;
-        ArrayList<SDE.NavPair> result = new ArrayList<SDE.NavPair>();
-        String  tempCardName;
-        String  tempLink;
-        
+        ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
+                
         try{
             openConnection();
             
             stmt = getConnect().prepareCall("{call SDWikiPullNavigationTerrainCards}");
             rs = stmt.executeQuery();
             
-            while(rs.next()){
-                tempCardName    = rs.getString("CardName");
-                tempLink        = rs.getString("Link");
-                
-                result.add(new SDE.NavPair(tempCardName, tempLink));
-            }
+            result = pullNavigationForCards(rs);
+        }catch(Exception e){
+            e.printStackTrace();
+        }finally{
+            closeConnection();
         }
-        catch(Exception e){
+        
+        return result;
+    }
+    
+    public ArrayList<SDE.NavItem> pullNavigationForTerrainCards(String version){
+        CallableStatement stmt = null;
+        ResultSet rs;
+        ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
+                
+        try{
+            openConnection();
+            
+            stmt = getConnect().prepareCall("{call SDWikiPullNavigationTerrainCardsByProductSet(?)}");
+            stmt.setString(1, version);
+            rs = stmt.executeQuery();
+            
+            result = pullNavigationForCards(rs);
+        }catch(Exception e){
             e.printStackTrace();
         }finally{
             closeConnection();
@@ -735,12 +1071,10 @@ public class SDEDAONavigation extends DAO{
     }
     
     //Pull Navigation for Arcade Plot Cards
-    public ArrayList<SDE.NavPair> pullNavigationForArcadePlotCards(){
+    public ArrayList<SDE.NavItem> pullNavigationForArcadePlotCards(){
         CallableStatement stmt = null;
         ResultSet rs;
-        ArrayList<SDE.NavPair> result = new ArrayList<SDE.NavPair>();
-        String  tempCardName;
-        String  tempLink;
+        ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
         
         try{
             openConnection();
@@ -748,14 +1082,30 @@ public class SDEDAONavigation extends DAO{
             stmt = getConnect().prepareCall("{call SDWikiPullNavigationArcadePlotCards}");
             rs = stmt.executeQuery();
             
-            while(rs.next()){
-                tempCardName    = rs.getString("CardName");
-                tempLink        = rs.getString("Link");
-                
-                result.add(new SDE.NavPair(tempCardName, tempLink));
-            }
+            result = pullNavigationForCards(rs);
+        }catch(Exception e){
+            e.printStackTrace();
+        }finally{
+            closeConnection();
         }
-        catch(Exception e){
+        
+        return result;
+    }
+    
+    public ArrayList<SDE.NavItem> pullNavigationForArcadePlotCards(String version){
+        CallableStatement stmt = null;
+        ResultSet rs;
+        ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
+        
+        try{
+            openConnection();
+            
+            stmt = getConnect().prepareCall("{call SDWikiPullNavigationArcadePlotCardsByProductSet(?)}");
+            stmt.setString(1, version);
+            rs = stmt.executeQuery();
+            
+            result = pullNavigationForCards(rs);
+        }catch(Exception e){
             e.printStackTrace();
         }finally{
             closeConnection();
@@ -765,12 +1115,10 @@ public class SDEDAONavigation extends DAO{
     }
     
     //Pull Navigation for Explore Cards
-    public ArrayList<SDE.NavPair> pullNavigationForExploreCards(){
+    public ArrayList<SDE.NavItem> pullNavigationForExploreCards(){
         CallableStatement stmt = null;
         ResultSet rs;
-        ArrayList<SDE.NavPair> result = new ArrayList<SDE.NavPair>();
-        String  tempCardName;
-        String  tempLink;
+        ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
         
         try{
             openConnection();
@@ -778,14 +1126,30 @@ public class SDEDAONavigation extends DAO{
             stmt = getConnect().prepareCall("{call SDWikiPullNavigationExploreCards}");
             rs = stmt.executeQuery();
             
-            while(rs.next()){
-                tempCardName    = rs.getString("CardName");
-                tempLink        = rs.getString("Link");
-                
-                result.add(new SDE.NavPair(tempCardName, tempLink));
-            }
+            result = pullNavigationForCards(rs);
+        }catch(Exception e){
+            e.printStackTrace();
+        }finally{
+            closeConnection();
         }
-        catch(Exception e){
+        
+        return result;
+    }
+    
+    public ArrayList<SDE.NavItem> pullNavigationForExploreCards(String version){
+        CallableStatement stmt = null;
+        ResultSet rs;
+        ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
+        
+        try{
+            openConnection();
+            
+            stmt = getConnect().prepareCall("{call SDWikiPullNavigationExploreCardsByProductSet(?)}");
+            stmt.setString(1, version);
+            rs = stmt.executeQuery();
+            
+            result = pullNavigationForCards(rs);
+        }catch(Exception e){
             e.printStackTrace();
         }finally{
             closeConnection();
@@ -795,12 +1159,10 @@ public class SDEDAONavigation extends DAO{
     }
     
     //Pull Navigation for Explore Plot Cards
-    public ArrayList<SDE.NavPair> pullNavigationForExplorePlotCards(){
+    public ArrayList<SDE.NavItem> pullNavigationForExplorePlotCards(){
         CallableStatement stmt = null;
         ResultSet rs;
-        ArrayList<SDE.NavPair> result = new ArrayList<SDE.NavPair>();
-        String  tempCardName;
-        String  tempLink;
+        ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
         
         try{
             openConnection();
@@ -808,14 +1170,30 @@ public class SDEDAONavigation extends DAO{
             stmt = getConnect().prepareCall("{call SDWikiPullNavigationExplorePlotCards}");
             rs = stmt.executeQuery();
             
-            while(rs.next()){
-                tempCardName    = rs.getString("CardName");
-                tempLink        = rs.getString("Link");
-                
-                result.add(new SDE.NavPair(tempCardName, tempLink));
-            }
+            result = pullNavigationForCards(rs);
+        }catch(Exception e){
+            e.printStackTrace();
+        }finally{
+            closeConnection();
         }
-        catch(Exception e){
+        
+        return result;
+    }
+
+    public ArrayList<SDE.NavItem> pullNavigationForExplorePlotCards(String version){
+        CallableStatement stmt = null;
+        ResultSet rs;
+        ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
+        
+        try{
+            openConnection();
+            
+            stmt = getConnect().prepareCall("{call SDWikiPullNavigationExplorePlotCardsByProductSet(?)}");
+            stmt.setString(1, version);
+            rs = stmt.executeQuery();
+            
+            result = pullNavigationForCards(rs);
+        }catch(Exception e){
             e.printStackTrace();
         }finally{
             closeConnection();
@@ -825,12 +1203,10 @@ public class SDEDAONavigation extends DAO{
     }
 
     //Pull Navigation for Challenge Cards
-    public ArrayList<SDE.NavPair> pullNavigationForChallengeCards(){
+    public ArrayList<SDE.NavItem> pullNavigationForChallengeCards(){
         CallableStatement stmt = null;
         ResultSet rs;
-        ArrayList<SDE.NavPair> result = new ArrayList<SDE.NavPair>();
-        String  tempCardName;
-        String  tempLink;
+        ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
         
         try{
             openConnection();
@@ -838,14 +1214,30 @@ public class SDEDAONavigation extends DAO{
             stmt = getConnect().prepareCall("{call SDWikiPullNavigationChallengeCards}");
             rs = stmt.executeQuery();
             
-            while(rs.next()){
-                tempCardName    = rs.getString("CardName");
-                tempLink        = rs.getString("Link");
-                
-                result.add(new SDE.NavPair(tempCardName, tempLink));
-            }
+            result = pullNavigationForCards(rs);
+        }catch(Exception e){
+            e.printStackTrace();
+        }finally{
+            closeConnection();
         }
-        catch(Exception e){
+        
+        return result;
+    }
+
+    public ArrayList<SDE.NavItem> pullNavigationForChallengeCards(String version){
+        CallableStatement stmt = null;
+        ResultSet rs;
+        ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
+        
+        try{
+            openConnection();
+            
+            stmt = getConnect().prepareCall("{call SDWikiPullNavigationChallengeCardsByProductSet(?)}");
+            stmt.setString(1, version);
+            rs = stmt.executeQuery();
+            
+            result = pullNavigationForCards(rs);
+        }catch(Exception e){
             e.printStackTrace();
         }finally{
             closeConnection();
@@ -855,12 +1247,10 @@ public class SDEDAONavigation extends DAO{
     }
 
     //Pull Navigation for Boss Challenge Cards
-    public ArrayList<SDE.NavPair> pullNavigationForBossChallengeCards(){
+    public ArrayList<SDE.NavItem> pullNavigationForBossChallengeCards(){
         CallableStatement stmt = null;
         ResultSet rs;
-        ArrayList<SDE.NavPair> result = new ArrayList<SDE.NavPair>();
-        String  tempCardName;
-        String  tempLink;
+        ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
         
         try{
             openConnection();
@@ -868,14 +1258,30 @@ public class SDEDAONavigation extends DAO{
             stmt = getConnect().prepareCall("{call SDWikiPullNavigationBossChallengeCards}");
             rs = stmt.executeQuery();
             
-            while(rs.next()){
-                tempCardName    = rs.getString("CardName");
-                tempLink        = rs.getString("Link");
-                
-                result.add(new SDE.NavPair(tempCardName, tempLink));
-            }
+            result = pullNavigationForCards(rs);
+        }catch(Exception e){
+            e.printStackTrace();
+        }finally{
+            closeConnection();
         }
-        catch(Exception e){
+        
+        return result;
+    }
+
+    public ArrayList<SDE.NavItem> pullNavigationForBossChallengeCards(String version){
+        CallableStatement stmt = null;
+        ResultSet rs;
+        ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
+        
+        try{
+            openConnection();
+            
+            stmt = getConnect().prepareCall("{call SDWikiPullNavigationBossChallengeCardsByProductSet(?)}");
+            stmt.setString(1, version);
+            rs = stmt.executeQuery();
+            
+            result = pullNavigationForCards(rs);
+        }catch(Exception e){
             e.printStackTrace();
         }finally{
             closeConnection();
@@ -885,12 +1291,10 @@ public class SDEDAONavigation extends DAO{
     }
 
     //Pull Navigation for Mighty Monster Cards
-    public ArrayList<SDE.NavPair> pullNavigationForMightyMonsterCards(){
+    public ArrayList<SDE.NavItem> pullNavigationForMightyMonsterCards(){
         CallableStatement stmt = null;
         ResultSet rs;
-        ArrayList<SDE.NavPair> result = new ArrayList<SDE.NavPair>();
-        String  tempCardName;
-        String  tempLink;
+        ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
         
         try{
             openConnection();
@@ -898,14 +1302,8 @@ public class SDEDAONavigation extends DAO{
             stmt = getConnect().prepareCall("{call SDWikiPullNavigationMightyMonsterCards}");
             rs = stmt.executeQuery();
             
-            while(rs.next()){
-                tempCardName    = rs.getString("CardName");
-                tempLink        = rs.getString("Link");
-                
-                result.add(new SDE.NavPair(tempCardName, tempLink));
-            }
-        }
-        catch(Exception e){
+            result = pullNavigationForCards(rs);
+        }catch(Exception e){
             e.printStackTrace();
         }finally{
             closeConnection();
@@ -913,4 +1311,51 @@ public class SDEDAONavigation extends DAO{
         
         return result;
     }
+    
+    public ArrayList<SDE.NavItem> pullNavigationForMightyMonsterCards(String version){
+        CallableStatement stmt = null;
+        ResultSet rs;
+        ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
+        
+        try{
+            openConnection();
+            
+            stmt = getConnect().prepareCall("{call SDWikiPullNavigationMightyMonsterCardsByProductSet(?)}");
+            stmt.setString(1, version);
+            rs = stmt.executeQuery();
+            
+            result = pullNavigationForCards(rs);
+        }catch(Exception e){
+            e.printStackTrace();
+        }finally{
+            closeConnection();
+        }
+        
+        return result;
+    }
+    
+    private ArrayList<SDE.NavItem> pullNavigationForCards(ResultSet rs){
+        ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
+        String  tempCardName;
+        String  tempVersion;
+        String  tempLink;
+        String  tempPicture;
+            
+        try{
+            while(rs.next()){
+                tempCardName    = rs.getString("CardName");
+                tempVersion     = rs.getString("ProductSet");
+                tempLink        = rs.getString("Link");
+                tempPicture     = rs.getString("PictureFront");
+                
+                result.add(new SDE.NavItem(tempCardName, tempVersion, tempLink, tempPicture));
+            }
+        }catch(Exception e){
+            e.printStackTrace();
+        }finally{
+            closeConnection();
+        }
+        
+        return result;
+    }    
 }

@@ -3,6 +3,8 @@
 create PROCEDURE SDWikiPullNavigationArcadeGangs
 AS
 BEGIN
-	select CardName, Link
-	from ArcadeGangsViewMultiLine;
+	select distinct CardName, ProductSet, Link, PictureFront
+	from ArcadeGangsViewMultiLine
+	Order By ProductSet desc, CardName asc
+	;
 END

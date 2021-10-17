@@ -3,6 +3,8 @@
 create PROCEDURE SDWikiPullNavigationBosses
 AS
 BEGIN
-	select CardName, Link
-	from BossesViewMultiLine;
+	select distinct CardName, ProductSet, Link, PictureFront
+	from BossesViewMultiLine
+	Order By ProductSet desc, CardName asc
+	;
 END

@@ -4,5 +4,7 @@ create PROCEDURE SDWikiPullAllTreasures
 AS
 BEGIN
 	select * 
-	from TreasuresView;
+	from TreasuresView
+	Order By ProductSet desc, CardName asc
+	;
 END

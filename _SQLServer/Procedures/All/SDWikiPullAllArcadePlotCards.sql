@@ -4,5 +4,7 @@ create PROCEDURE SDWikiPullAllArcadePlotCards
 AS
 BEGIN
 	select * 
-	from ArcadePlotsView;
+	from ArcadePlotsView
+	Order By ProductSet desc, CardName asc
+	;
 END

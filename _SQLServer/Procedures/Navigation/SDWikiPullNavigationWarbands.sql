@@ -3,6 +3,8 @@
 create PROCEDURE SDWikiPullNavigationWarbands
 AS
 BEGIN
-	select CardName, Link
-	from WarbandsViewMultiLine;
+	select distinct CardName, ProductSet, Link, PictureFront
+	from WarbandsViewMultiLine
+	Order By ProductSet desc, CardName asc
+	;
 END

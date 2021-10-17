@@ -3,6 +3,8 @@
 create PROCEDURE SDWikiPullNavigationArcadeCreeps
 AS
 BEGIN
-	select CardName, Link
-	from ArcadeCreepsViewMultiLine;
+	select distinct CardName, ProductSet, Link, PictureFront
+	from ArcadeCreepsViewMultiLine
+	Order By ProductSet desc, CardName asc
+	;
 END

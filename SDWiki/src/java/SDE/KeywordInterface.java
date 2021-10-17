@@ -10,5 +10,5 @@ public interface KeywordInterface {
 
     public void addKeyword(String keyword, String description);
     
-    public void addKeyword(Keyword keyword);    
+    public void addKeyword(Keyword keyword);
 }

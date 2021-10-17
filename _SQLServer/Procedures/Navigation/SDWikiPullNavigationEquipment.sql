@@ -3,6 +3,8 @@
 create PROCEDURE SDWikiPullNavigationEquipment
 AS
 BEGIN
-	select CardName, Link
-	from EquipmentView;
+	select distinct CardName, ProductSet, Link, PictureFront
+	from EquipmentView
+	Order By ProductSet desc, CardName asc
+	;
 END

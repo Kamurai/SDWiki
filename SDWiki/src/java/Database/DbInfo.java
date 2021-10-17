@@ -29,10 +29,10 @@ public class DbInfo
     }
     
     public DbInfo(){
-        driver      = "com.microsoft.sqlserver.jdbc.SQLServerDriver";
-        url         = "jdbc:sqlserver://localhost\\SQLSERVER";
+        driver      = "com.microsoft.jdbc.sqlserver.SQLServerDriver";
+        url         = "jdbc:sqlserver://localhost";
         dbName      = ";DatabaseName=SDWiki";
-        dbUsername  = "SA";
+        dbUsername  = "sa";
         dbPassword  = "yellow23";
     }
 }

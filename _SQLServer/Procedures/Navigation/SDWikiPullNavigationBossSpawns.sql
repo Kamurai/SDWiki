@@ -3,6 +3,8 @@
 create PROCEDURE SDWikiPullNavigationBossSpawns
 AS
 BEGIN
-	select CardName, Link
-	from BossSpawnView;
+	select distinct CardName, ProductSet, Link, PictureFront
+	from BossSpawnView
+	Order By ProductSet desc, CardName asc
+	;
 END

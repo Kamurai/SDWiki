@@ -75,52 +75,64 @@ public class Equipment extends Card implements KeywordInterface, AbilityInterfac
         this.effect = effect;
     }
 
+    @Override
     public String getCharacterName() {
         return characterName;
     }
 
+    @Override
     public void setCharacterName(String characterName) {
         this.characterName = characterName;
     }
 
+    @Override
     public String getCharacterLink() {
         return characterLink;
     }
 
+    @Override
     public void setCharacterLink(String characterLink) {
         this.characterLink = characterLink;
     }
 
+    @Override
     public ArrayList<Keyword> getKeywords() {
         return keywords;
     }
 
+    @Override
     public void setKeywords(ArrayList<Keyword> keywords) {
         this.keywords = keywords;
     }
 
+    @Override
     public ArrayList<Ability> getAbilities() {
         return abilities;
     }
 
+    @Override
     public void setAbilities(ArrayList<Ability> abilities) {
         this.abilities = abilities;
     }
     
+    @Override
     public void addKeyword(String keyword, String description){
         addKeyword(new Keyword(keyword, description));
     }
     
+    @Override
     public void addKeyword(Keyword keyword){
         if(!keyword.isWithin(keywords)){
             keywords.add(keyword);
        }
     }
     
+    @Override
     public void addAbility(String name, String resource, String type, int cost, String attribute, int range, String description){
         addAbility(new Ability(name, resource, type, cost, attribute, range, description));
     }
     
+    @Override
     public void addAbility(Ability ability){
         if(!ability.isWithin(abilities)){
             abilities.add(ability);

@@ -3,6 +3,8 @@
 create PROCEDURE SDWikiPullNavigationArcadeMiniBosses
 AS
 BEGIN
-	select CardName, Link
-	from ArcadeMiniBossesViewMultiLine;
+	select distinct CardName, ProductSet, Link, PictureFront
+	from ArcadeMiniBossesViewMultiLine
+	Order By ProductSet desc, CardName asc
+	;
 END

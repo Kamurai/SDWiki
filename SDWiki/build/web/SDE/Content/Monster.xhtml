@@ -1,0 +1,259 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:c="http://java.sun.com/jsp/jstl/core"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets">
+    <h:head />
+    <h:body>
+         <title>
+            #{SDEMonsterBean.getMonster().getName()}
+        </title>
+        <h2>
+            #{SDEMonsterBean.getMonster().getName()}
+        </h2>
+        <div id="idCenterContent">
+            <div>
+                <div class="cardPictureContainer">
+                    <!-- Front of Card -->
+                    <img class="cardPicture" src="#{SDEMonsterBean.getMonster().getPictureFront()}"/>
+                </div>
+                <div  class="cardPictureContainer">
+                    <!-- Back of Card -->
+                    <img class="cardPicture" src="#{SDEMonsterBean.getMonster().getPictureBack()}"/>
+                </div>
+            </div>
+            
+            <!-- replace with table -->
+            <div>
+                <div>
+                    <div class="inline">
+                        Card Type: #{SDEMonsterBean.getMonster().getCardType()}
+                    </div>
+                    <div class="inline">
+                        Version: #{SDEMonsterBean.getMonster().getVersion()}
+                    </div>
+                </div>
+                <div>
+                    <div class="inline">
+                        Creature Type: #{SDEMonsterBean.getMonster().getCreatureType()}
+                    </div>
+                    <div class="inline">
+                        Product Module: #{SDEMonsterBean.getMonster().getModule()}
+                    </div>
+                </div>
+                <div>
+                    <div class="inline">
+                        Model Size: #{SDEMonsterBean.getMonster().getModelSize()}
+                    </div>
+                    <div class="inline">
+                        Play Mode: #{SDEMonsterBean.getMonster().getMode()}
+                    </div>
+                    <div class="inline">
+                        Gender: #{SDEMonsterBean.getMonster().getGender()}
+                    </div>
+                </div>
+            </div>
+            
+            <div>
+                 <div class="inline">
+                     Movement: #{SDEMonsterBean.getMonster().getMovement()}
+                 </div>
+                <div class="inline">
+                    Actions: #{SDEMonsterBean.getMonster().getActions()}
+                </div>
+            </div>
+            <div>
+                <div class="inline">
+                    <div>Attributes</div>
+                    <c:choose>
+                        <c:when test="#{ ( SDEMonsterBean.getMonster().getVersion() == '1.0' )}">
+                            <div>Attack: </div>
+                        </c:when>
+                        <c:otherwise>
+                            <div>Strength: </div>
+                        </c:otherwise>
+                    </c:choose>
+                    <div>Armor: </div>
+                    <div>Will: </div>
+                    <div>Dexterity: </div>
+                </div>
+                <div class="inline">
+                    <div>Offense</div>
+                    <c:choose>
+                        <c:when test="#{ ( SDEMonsterBean.getMonster().getVersion() == '1.0' )}">
+                            <div><!-- Attack Offense -->#{ ( SDEMonsterBean.getMonster().containsOffense("Attack") )}</div>
+                        </c:when>
+                        <c:otherwise>
+                            <div><!-- Strength Offense -->#{ ( SDEMonsterBean.getMonster().containsOffense("Strength") )}</div>
+                        </c:otherwise>
+                    </c:choose>
+                    <div><!-- Armor Offense -->#{ ( SDEMonsterBean.getMonster().containsOffense("Armor") )}</div>
+                    <div><!-- Will Offense -->#{ ( SDEMonsterBean.getMonster().containsOffense("Will") )}</div>
+                    <div><!-- Dexterity Offense -->#{ ( SDEMonsterBean.getMonster().containsOffense("Dexterity") )}</div>
+                </div>
+                <div class="inline">
+                    <div>Range</div>
+                    <div>
+                        <c:choose>
+                            <c:when test="#{ ( SDEMonsterBean.getMonster().getVersion() == '1.0' )}">
+                                <c:if test ="#{  SDEMonsterBean.getMonster().containsOffense('Attack') == true }">
+                                    <c:if test ="#{ ( (SDEMonsterBean.getMonster().getOffense('Attack').getRange()) >= 0) }">
+                                        <!-- Attack Offense -->#{ ( SDEMonsterBean.getMonster().getOffense('Attack').getRange() )}
+                                    </c:if>
+                                </c:if>
+                            </c:when>
+                            <c:otherwise>
+                                 <c:if test ="#{SDEMonsterBean.getMonster().getOffense('Strength').getRange() >= 0}">
+                                    <!-- Strength Offense -->#{ ( SDEMonsterBean.getMonster().getOffense('Strength').getRange() )}
+                                </c:if>
+                            </c:otherwise>
+                        </c:choose>
+                    </div>
+                    <div>
+                        <c:choose>
+                            <c:when test ="#{ ( SDEMonsterBean.getMonster().getOffense('Armor').getRange() >= 0)}">
+                                <!-- Armor Offense -->#{ ( SDEMonsterBean.getMonster().getOffense('Armor').getRange() )}
+                            </c:when>
+                            <c:otherwise>
+                                0
+                            </c:otherwise>
+                        </c:choose>                        
+                    </div>
+                    <div>
+                        <c:choose>
+                            <c:when test ="#{ ( SDEMonsterBean.getMonster().getOffense('Will').getRange() >= 0)}">
+                                <!-- Will Offense -->#{ ( SDEMonsterBean.getMonster().getOffense('Will').getRange() )}
+                            </c:when>
+                            <c:otherwise>
+                                0
+                            </c:otherwise>
+                        </c:choose>
+                    </div>
+                    <div>
+                        <c:choose>
+                            <c:when test ="#{ ( SDEMonsterBean.getMonster().getOffense('Dexterity').getRange() >= 0)}">
+                                <!-- Dexterity Offense -->#{ ( SDEMonsterBean.getMonster().getOffense('Dexterity').getRange() )}
+                            </c:when>
+                            <c:otherwise>
+                                0
+                            </c:otherwise>
+                        </c:choose>
+                    </div>
+                </div>
+                <div class="inline">
+                    <div>Attributes</div>
+                    <div><!-- Strength -->#{SDEMonsterBean.getMonster().getStrength()}</div>
+                    <div><!-- Armor -->#{SDEMonsterBean.getMonster().getArmor()}</div>
+                    <div><!-- Will -->#{SDEMonsterBean.getMonster().getWill()}</div>
+                    <div><!-- Dexterity -->#{SDEMonsterBean.getMonster().getDexterity()}</div>
+                </div>
+                <div class="inline">
+                    <div>Defense</div>
+                    <c:choose>
+                        <c:when test="#{ ( SDEMonsterBean.getMonster().getVersion() == '1.0' )}">
+                            <div><!-- Attack Defense -->#{ ( SDEMonsterBean.getMonster().containsDefense('Attack') )}</div>
+                        </c:when>
+                        <c:otherwise>
+                            <div><!-- Strength Defense -->#{ ( SDEMonsterBean.getMonster().containsDefense('Strength') )}</div>
+                        </c:otherwise>
+                    </c:choose>
+                    <div><!-- Armor Defense -->#{( SDEMonsterBean.getMonster().containsDefense('Armor') )}</div>
+                    <div><!-- Will Defense -->#{( SDEMonsterBean.getMonster().containsDefense('Will') )}</div>
+                    <div><!-- Dexterity Defense -->#{( SDEMonsterBean.getMonster().containsDefense('Dexterity') )}</div>
+                </div>
+            </div>
+            
+            <div>
+                <div class="inline">
+                    Affinity: #{SDEMonsterBean.getMonster().getAffinity()}
+                </div>
+                <div class="inline">
+                    Health: #{SDEMonsterBean.getMonster().getHealth()}
+                </div>
+                <div class="inline">
+                    Potions: #{SDEMonsterBean.getMonster().getPotions()}
+                </div>
+            </div>
+            
+            <div>
+                <div class="inline">
+                    Affinity: #{SDEMonsterBean.getMonster().getSkulls()}
+                </div>
+                <div class="inline">
+                    Health: #{SDEMonsterBean.getMonster().getBits()}
+                </div>
+            </div>
+            
+            <!-- List of Keywords -->
+            <ui:repeat var="x" value="#{SDEMonsterBean.getMonster().getKeywords()}" size="#{SDEMonsterBean.getMonster().getKeywords().size()}" varStatus="myVarStatus" >
+                <ui:fragment rendered="#{x.validateKeyword()}">
+                    <div class="xRow">
+                        <div class="inline"><!-- Keyword -->#{x.getName()}</div>
+                        <tab/>
+                        <div class="inline"><!-- Definition -->#{x.getDescription()}</div>
+                    </div>
+                </ui:fragment>
+            </ui:repeat>
+            
+            <!-- List of Abilities -->
+            <ui:repeat var="x" value="#{SDEMonsterBean.getMonster().getAbilities()}" size="#{SDEMonsterBean.getMonster().getAbilities().size()}" varStatus="myVarStatus" >
+                <ui:fragment rendered="#{y.validateAbility()}">
+                    <div class="xRow">
+                        <div class="inline"><!-- Ability Name -->#{x.getName()}: </div>                     
+                        <div class="inline"><!-- Ability Cost -->#{x.getCost()}</div>                     
+                        <div class="inline"><!-- Ability Resource -->#{x.getResource()}</div>                     
+                        <div class="inline"><!-- Ability Type -->#{x.getType()}:</div>
+                        <tab/>
+
+                        <div class="inline">
+                            <c:choose>
+                                <c:when test="#{x.getAttribute().compareTo('0') == 0 }">
+                                    Attack
+                                </c:when>
+                                <c:when test="#{x.getAttribute().compareTo('1') == 0 }">
+                                    Strength
+                                </c:when>
+                                <c:when test="#{x.getAttribute().compareTo('2') == 0 }">
+                                    Armor
+                                </c:when>
+                                <c:when test="#{x.getAttribute().compareTo('3') == 0 }">
+                                    Will
+                                </c:when>
+                                <c:when test="#{x.getAttribute().compareTo('4') == 0 }">
+                                    Dexterity
+                                </c:when>
+                                <c:otherwise>
+                                    Error
+                                </c:otherwise>
+                            </c:choose>
+                        </div>
+
+                        <div class="inline">
+                            <c:choose>
+                                <c:when test="#{x.getRange() > 0 }">
+                                    #{x.getRange()}
+                                </c:when>
+                                <c:when test="#{x.getRange() == 0 }">
+                                    Self
+                                </c:when>
+                                <c:otherwise>                                    
+                                </c:otherwise>
+                            </c:choose>
+                        </div>
+
+
+
+
+                        <div class="inline"><!-- Ability Description -->#{x.getDescription()}</div>
+                    </div>
+                </ui:fragment>
+            </ui:repeat>
+            <div>
+                Flavor Text: #{SDEMonsterBean.getMonster().getFlavor()}
+            </div>
+        </div>
+    </h:body>
+</html>
+

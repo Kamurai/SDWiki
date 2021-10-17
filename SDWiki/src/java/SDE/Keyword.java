@@ -55,15 +55,30 @@ public class Keyword {
                 
         for(int x = 0; x < list.size(); x++){
             if(this.compareTo(list.get(x)) == 0){
-                result = false;
+                result = true;
                 break;
             }else{
-                result = true;
+                result = false;
             }
         }
                 
         return result;
     }
     
-    
+    public boolean validateKeyword(){
+        boolean result = false;
+        
+        if(
+            (this.name != null) &&
+            (this.name.length() > 0) &&
+            (this.description != null) &&
+            (this.description.length() > 0)
+        ){
+            result = true;
+        }else{
+            result = false;
+        }
+        
+        return true;
+    }
 }

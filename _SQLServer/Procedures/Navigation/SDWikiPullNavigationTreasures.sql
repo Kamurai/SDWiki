@@ -1,8 +1,10 @@
---drop PROCEDURE SDWikiPullNavigationTreasures;
+--drop PROCEDURE SDWikiPullNavigationTreasure;
 
-create PROCEDURE SDWikiPullNavigationTreasures
+create PROCEDURE SDWikiPullNavigationTreasure
 AS
 BEGIN
-	select CardName, Link
-	from TreasuresView;
+	select distinct CardName, ProductSet, Link, PictureFront
+	from TreasuresView
+	Order By ProductSet desc, CardName asc
+	;
 END

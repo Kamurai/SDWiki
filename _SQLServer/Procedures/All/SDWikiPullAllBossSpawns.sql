@@ -4,5 +4,7 @@ create PROCEDURE SDWikiPullAllBossSpawns
 AS
 BEGIN
 	select * 
-	from BossSpawnView;
+	from BossSpawnView
+	Order By ProductSet desc, CardName asc
+	;
 END

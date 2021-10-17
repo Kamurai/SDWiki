@@ -3,6 +3,8 @@
 create PROCEDURE SDWikiPullNavigationChallengeCards
 AS
 BEGIN
-	select CardName, Link
-	from ChallengesView;
+	select distinct CardName, ProductSet, Link, PictureFront
+	from ChallengesView
+	Order By ProductSet desc, CardName asc
+	;
 END

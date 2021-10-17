@@ -3,6 +3,8 @@
 create PROCEDURE SDWikiPullNavigationMightyMonsterCards
 AS
 BEGIN
-	select CardName, Link
-	from MightyMonsterView;
+	select distinct CardName, ProductSet, Link, PictureFront
+	from MightyMonsterView
+	Order By ProductSet desc, CardName asc
+	;
 END

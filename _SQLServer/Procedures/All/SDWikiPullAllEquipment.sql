@@ -4,5 +4,7 @@ create PROCEDURE SDWikiPullAllEquipment
 AS
 BEGIN
 	select * 
-	from EquipmentView;
+	from EquipmentView
+	Order By ProductSet desc, CardName asc
+	;
 END

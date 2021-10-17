@@ -3,6 +3,8 @@
 create PROCEDURE SDWikiPullNavigationMinions
 AS
 BEGIN
-	select CardName, Link
-	from MinionsViewMultiLine;
+	select distinct CardName, ProductSet, Link, PictureFront
+	from MinionsViewMultiLine
+	Order By ProductSet desc, CardName asc
+	;
 END

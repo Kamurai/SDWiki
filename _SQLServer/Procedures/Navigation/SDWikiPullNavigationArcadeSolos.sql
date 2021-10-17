@@ -3,6 +3,8 @@
 create PROCEDURE SDWikiPullNavigationArcadeSolos
 AS
 BEGIN
-	select CardName, Link
-	from ArcadeSolosViewMultiLine;
+	select distinct CardName, ProductSet, Link, PictureFront
+	from ArcadeSolosViewMultiLine
+	Order By ProductSet desc, CardName asc
+	;
 END
