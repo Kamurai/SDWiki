@@ -5,7 +5,7 @@
 --drop table Cards, Characters, Affinities, AffinityAssignments, KeywordAssignments, AbilityAssignments, ExploreCharacters, Attributes, OffenseAssignments, DefenseAssignments, Pets, Monsters, ArcadeCharacters, StatLines, GangMembers, Equipment, EquipmentAssignments, BossSpawns, BossSpawnAssignments, Utilities, Explores, ExploreTraps, ExploreCreeps, ExploreAssignments, Challenges, ChallengeAssignments, Plots, MightyMonsters;
 
 create table Cards (CardIndex bigint IDENTITY(0,1) PRIMARY KEY, Name varchar(50) not null, PictureFront varchar(125) not null, PictureBack varchar(125) not null, Link varchar(125) not null, CardType varchar(20) not null, ProductSet varchar(20) not null, ProductModule varchar(20) not null, PlayMode varchar(10) not null, Flavor varchar(1250));
-create table Characters (CardIndex bigint not null, CharacterIndex bigint IDENTITY(0,1) PRIMARY KEY);
+create table Characters (CharacterIndex bigint IDENTITY(0,1) PRIMARY KEY, CardIndex bigint not null);
 create table Affinities (AffinityIndex bigint IDENTITY(0,1) PRIMARY KEY, AffinityType varchar(50) not null);
 insert into Affinities (AffinityType) VALUES ('Amethyst'); --0
 insert into Affinities (AffinityType) VALUES ('Citrine'); --1
