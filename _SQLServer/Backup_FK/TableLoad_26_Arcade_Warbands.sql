@@ -423,7 +423,7 @@ VALUES (313, 0, -1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (313, 1); --Citrine
 --GangMemberIndex 79
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex);
-VALUES (65, 0, 'Kobold Warrens', 'Paired Spawning Point', '', 0, 3, 1, 206);
+VALUES (65, 0, 'Kobold Warrens', 'Paired Spawning Point', '', 0, 4, 1, 206);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (79, 557); --Immune: Status Effects
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (79, 581); --Mob Mentality
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (79, 673); --Spawning Pool
@@ -526,12 +526,11 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (88, 557);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (88, 513); --Fire Aura
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (88, 675); --Spawning Pool
 
---Blaze Beetle
 --Blaze Beetle --CardIndex 400 --CharacterIndex 318	--ArcadeCharacterIndex 70
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Blaze Beetle',
-'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Kobold_Warrens/Card_Arcade_Warband_Kobold_Warrens_Blaze_Beetle_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Kobold_Warrens/Card_Arcade_Warband_Kobold_Warrens_Blaze_Beetle_FK_back.png', 
-'http://htkb.online/SDWiki/SDE/FK/Cards/Arcade/Warbands/Kobold_Warrens/Blaze_Beetle.xhtml', 
+'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Lava_Whirl/Card_Arcade_Warband_Lava_Whirl_Blaze_Beetle_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Lava_Whirl/Card_Arcade_Warband_Lava_Whirl_Blaze_Beetle_FK_back.png', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Arcade/Warbands/Lava_Whirl/Blaze_Beetle.xhtml', 
 'Warband', 'FK', 'FK Core Set', 'Default', 
 'Subsisting entirely on the molten rock of the Fire Flows, the Blaze Beetle is at home swimming through its magnificent lava rivers.  Blaze Beetles possess a remarkable sense of cruel cunning, burrowing beneath groups of Heroes to erupt from solid stone, bathing them in a shower of fire and rock.');
 insert into Characters (CardIndex) VALUES (400);
@@ -547,17 +546,16 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (86, 466);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (86, 481); --Burrow
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (86, 350); --Furnace Vent
 
---Burning Pack
---Blaze Beetle --CardIndex 401 --CharacterIndex 319	--ArcadeCharacterIndex 71
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Blaze Beetle',
-'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Kobold_Warrens/Card_Arcade_Warband_Kobold_Warrens_Blaze_Beetle_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Kobold_Warrens/Card_Arcade_Warband_Kobold_Warrens_Blaze_Beetle_FK_back.png', 
-'http://htkb.online/SDWiki/SDE/FK/Cards/Arcade/Warbands/Kobold_Warrens/Blaze_Beetle.xhtml', 
+--Burning Pack --CardIndex 401 --CharacterIndex 319	--ArcadeCharacterIndex 71
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Burning Pack',
+'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Lava_Whirl/Card_Arcade_Warband_Lava_Whirl_Blaze_Beetle_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Lava_Whirl/Card_Arcade_Warband_Lava_Whirl_Blaze_Beetle_FK_back.png', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Arcade/Warbands/Lava_Whirl/Blaze_Beetle.xhtml', 
 'Warband', 'FK', 'FK Core Set', 'Default', 
 'Prowling through the fiery landscape of the Fire Flows, packs of Ember Hounds conceal their movement in billowing clouds of choking ash.  Preying on Rocktops and fire elementals alike, Ember Hounds are patient and ruthless hunters.');
 insert into Characters (CardIndex) VALUES (401);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (319, 253, -1);
+VALUES (319, 132, 133);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (319, 1); --Citrine
 --GangMemberIndex 90
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex);
@@ -568,23 +566,22 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (90, 637);
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (90, 557); --Sickening Smoke
 --GangMemberIndex 91
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex);
-VALUES (71, 0, 'Ember Hound', 'Elemental Wolf', 'Elite', 8, 2, 2, 216);
+VALUES (71, 1, 'Ember Hound', 'Elemental Wolf', 'Elite', 8, 2, 2, 216);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (91, 512); --Fire
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (91, 551); --Immune: Fire
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (91, 637); --Stealth
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (91, 558); --Sickening Smoke
 
---Flaming Slime
---Blaze Beetle --CardIndex 402 --CharacterIndex 320	--ArcadeCharacterIndex 72
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Blaze Beetle',
-'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Kobold_Warrens/Card_Arcade_Warband_Kobold_Warrens_Blaze_Beetle_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Kobold_Warrens/Card_Arcade_Warband_Kobold_Warrens_Blaze_Beetle_FK_back.png', 
-'http://htkb.online/SDWiki/SDE/FK/Cards/Arcade/Warbands/Kobold_Warrens/Blaze_Beetle.xhtml', 
+--Flaming Slime --CardIndex 402 --CharacterIndex 320	--ArcadeCharacterIndex 72
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Flaming Slime',
+'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Lava_Whirl/Card_Arcade_Warband_Lava_Whirl_Flaming_Slime_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Lava_Whirl/Card_Arcade_Warband_Lava_Whirl_Flaming_Slime_FK_back.png', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Arcade/Warbands/Lava_Whirl/Flaming_Slime.xhtml', 
 'Warband', 'FK', 'FK Core Set', 'Default', 
-'');
+'Many believe Fire Slimes possess greater intelligence than their common kin.  If this is the case, it is an intelligence given over entirely to pettiness and spite.  Delighting in lighting anything and everything ablaze, Fire Slimes torch entire regions of Crystalia if not doused quickly.');
 insert into Characters (CardIndex) VALUES (402);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (320, 253, -1);
+VALUES (320, 134, 144);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (320, 3); --Ruby
 --GangMemberIndex 92
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex);
@@ -595,7 +592,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (92, 632);
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (92, 591); --Splort
 --GangMemberIndex 93
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex);
-VALUES (72, 0, 'Fire Gel', 'Elemental Slime', 'Minion', 5, 1, 0, 217);
+VALUES (72, 1, 'Fire Gel', 'Elemental Slime', 'Minion', 5, 1, 0, 217);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (93, 512); --Fire
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (93, 551); --Immune: Fire
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (93, 568); --Little Splurt
@@ -604,94 +601,509 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (93, 592);
 
 
 --Old Growth Hollow
+--Old Growth Hollow --CardIndex 403	--CharacterIndex 321	--ArcadeCharacterIndex 73
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Old Growth Hollow',
+'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Old_Growth_Hollow/Card_Arcade_Warband_Old_Growth_Hollow_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Old_Growth_Hollow/Card_Arcade_Warband_Old_Growth_Hollow_FK_back.png', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Arcade/Warbands/Old_Growth_Hollow/Old_Growth_Hollow.xhtml', 
+'Warband', 'FK', 'FK Core Set', 'Default', 
+'The elves of the Fae Wood and the wise Deeproot Tree have long been friends and guardians of Crystalia.  Their timeless stewardship of the land made them ideal caretakers for the exiled Forgotten King and his court.<br>Yet the rise of the Dark Consul has sapped their ageless strength as they are beset on all sides, and the Forgotten King has become a cancer that corrupts from within.  As the Consul''s power rises, so too doees the Forgotten King''s and he has use his magic to sicken and bewitch the forest spirits within the Lordship Ruins.<br>Tswisted by the Forgotten King''s hatred, these corrupt kodama have lent their strength to the Dark Consul.  Now the elves find themselves under attack in their own woods.');
+insert into Characters (CardIndex) VALUES (403);
+insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
+VALUES (321, 0, -1);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (321, 1); --Citrine
+--GangMemberIndex 94
+insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex);
+VALUES (73, 0, 'Old Growth Hollow', 'Paired Spawning Point', '', 0, 4, 1, 218);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (94, 557); --Immune: Status Effects
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (94, 590); --Poison Aura
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (94, 677); --Spawning Pool
 
---Herbalists
+--Herbalists --CardIndex 404 --CharacterIndex 322	--ArcadeCharacterIndex 74
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Herbalists',
+'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Old_Growth_Hollow/Card_Arcade_Warband_Old_Growth_Hollow_Herbalists_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Old_Growth_Hollow/Card_Arcade_Warband_Old_Growth_Hollow_Herbalists_FK_back.png', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Arcade/Warbands/Old_Growth_Hollow/Herbalists.xhtml', 
+'Warband', 'FK', 'FK Core Set', 'Default', 
+'Not given to violence, Turnipheads prefer to tend their gardens of herbs, weeds, and tender sprouts.');
+insert into Characters (CardIndex) VALUES (404);
+insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
+VALUES (322, 134, 136);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (322, 3); --Ruby
+--GangMemberIndex 95
+insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex);
+VALUES (74, 0, 'Turniphead', 'Kodama', 'Elite', 5, 1, 1, 222);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (95, 651); --Virulent
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (95, 408); --It's Medicinal
+--GangMemberIndex 96
+insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex);
+VALUES (74, 0, 'Turniphead', 'Kodama', 'Elite', 5, 1, 1, 222);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (96, 651); --Virulent
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (95, 409); --It's Medicinal
 
---Hungry Sprouts
+--Hungry Sprouts --CardIndex 405 --CharacterIndex 323	--ArcadeCharacterIndex 75
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Hungry Sprouts',
+'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Old_Growth_Hollow/Card_Arcade_Warband_Old_Growth_Hollow_Hungry_Sprouts_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Old_Growth_Hollow/Card_Arcade_Warband_Old_Growth_Hollow_Hungry_Sprouts_FK_back.png', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Arcade/Warbands/Old_Growth_Hollow/Hungry_Sprouts.xhtml', 
+'Warband', 'FK', 'FK Core Set', 'Default', 
+'Twisted by the Dark Consul, King Sprouts are little more than thrashing masses of thorned vines and snapping jaws.  Consuming anything and everything that is within reach, their Mook handlers are careful  to not stray within the King Sprout''s sight, lest they be the next thing to be devoured.');
+insert into Characters (CardIndex) VALUES (405);
+insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
+VALUES (323, 146, 266);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (323, 1); --Citrine
+--GangMemberIndex 97
+insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex);
+VALUES (75, 0, 'King Sprout', 'Shapeshift', 'Elite', 3, 6, 2, 219);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (97, 688); --Feed Me
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (97, 516); --Fixed Form
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (97, 598); --Pull 5
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (97, 529); --Rootdown
+--GangMemberIndex 98
+insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex);
+VALUES (75, 1, 'Mook', 'Kodama', 'Minion', 5, 1, 1, 220);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (98, 651); --Poison
 
---Lil Sprouts
+--Lil' Sprouts --CardIndex 406 --CharacterIndex 324	--ArcadeCharacterIndex 76
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Lil'' Sprouts',
+'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Old_Growth_Hollow/Card_Arcade_Warband_Old_Growth_Hollow_Lil_Sprouts_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Old_Growth_Hollow/Card_Arcade_Warband_Old_Growth_Hollow_Lil_Sprouts_FK_back.png', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Arcade/Warbands/Old_Growth_Hollow/Lil_Sprouts.xhtml', 
+'Warband', 'FK', 'FK Core Set', 'Default', 
+'Charging forward with reckless abandon, Lil'' Sprouts attempt to get as close to invading Heroes as possible so that when the change grips them and they transform into the revenous King Sprout it may consume as many as possible.');
+insert into Characters (CardIndex) VALUES (406);
+insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
+VALUES (324, 146, 266);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (324, 1); --Citrine
+--GangMemberIndex 99
+insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex);
+VALUES (76, 0, 'Sprout', 'Kodama', 'Elite', 5, 2, 3, 221);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (99, 519); --Forced Shift
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (99, 619); --Shapeshift: King Sprout
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (99, 651); --Virulent
+--GangMemberIndex 100
+insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex);
+VALUES (76, 1, 'Mook', 'Kodama', 'Minion', 5, 1, 1, 220);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (100, 589); --Poison
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (100, 516); --Rampant Growth
 
---Will O Wisps
+--Will-O-Wisps --CardIndex 407 --CharacterIndex 325	--ArcadeCharacterIndex 77
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Will-O-Wisps',
+'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Old_Growth_Hollow/Card_Arcade_Warband_Old_Growth_Hollow_Lil_Sprouts_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Old_Growth_Hollow/Card_Arcade_Warband_Old_Growth_Hollow_Lil_Sprouts_FK_back.png', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Arcade/Warbands/Old_Growth_Hollow/Lil_Sprouts.xhtml', 
+'Warband', 'FK', 'FK Core Set', 'Default', 
+'Reclusive and demure, Wisps are often seen as a sign of good fortune.  When threatened, Wisps prefer to enchant their assailants, slowing their movement and bewitching their senses.  The Wisp then silently slips into the forest to safety.');
+insert into Characters (CardIndex) VALUES (407);
+insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
+VALUES (325, 134, 136);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (325, 3); --Ruby
+--GangMemberIndex 101
+insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex);
+VALUES (77, 0, 'Sprout', 'Kodama', 'Elite', 5, 2, 1, 223);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (101, 651); --Virulent
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (101, 487); --Pollen Dream
+--GangMemberIndex 102
+insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex);
+VALUES (77, 1, 'Mook', 'Kodama', 'Elite', 5, 2, 1, 223);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (102, 589); --Poison
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (102, 488); --Pollen Dream
 
 
 --Pumpkin Patch
+--Pumpkin Patch --CardIndex 408	--CharacterIndex 322	--ArcadeCharacterIndex 78
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Pumpkin Patch',
+'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Pumpkin_Patch/Card_Arcade_Warband_Pumpkin_Patch_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Pumpkin_Patch/Card_Arcade_Warband_Pumpkin_Patch_FK_back.png', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Arcade/Warbands/Pumpkin_Patch/Pumpkin_Patch.xhtml', 
+'Warband', 'FK', 'FK Core Set', 'Default', 
+'Long ago the inhabitants of the Glauerdoom Moor used pumpkins to carve jack-o-lanterns to trick the restless spirits of the moor to pass by their homes at night.  In time the spirits grew wise to this deception and decided to play a trick of their own.  Now pumpkin patches are spooky, haunted, places where the creatures that go bump in the night lurk, waiting for their prey.<br>Beneath the dark boughs of the Witches'' Weald pumpkins grow wild and the orange globes pulse with strange energies as the witch covens practice their own special brand of dark magic--poisons, necromancy, enchantment, curses, no subject is taboo.  The covensfind great favor with both the Dark Consul and Baron Von Drakk.  Both often have need of the witches'' unique abiliites when dealing with self righteous Heroes who seek to thwart them.');
+insert into Characters (CardIndex) VALUES (408);
+insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
+VALUES (322, 0, -1);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (322, 3); --Ruby
+--GangMemberIndex 103
+insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex);
+VALUES (78, 0, 'Pumpkin Patch', 'Spawning Point', '', 0, 3, 1, 224);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (103, 557); --Immune: Status Effects
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (103, 526); --Gloom Aura
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (103, 679); --Spawning Pool
 
---Crypt Spider
+--Crypt Spider --CardIndex 407 --CharacterIndex 325	--ArcadeCharacterIndex 77
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Crypt Spider',
+'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Pumpkin_Patch/Card_Arcade_Warband_Pumpkin_Patch_Crypt_Spider_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Pumpkin_Patch/Card_Arcade_Warband_Pumpkin_Patch_Crypt_Spider_FK_back.png', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Arcade/Warbands/Pumpkin_Patch/Crypt_Spider.xhtml', 
+'Warband', 'FK', 'FK Core Set', 'Default', 
+'Spiders are favored guardians of the many crypts and barrows in the Glauerdoom.  They have no interest in the dead nor in the their treasures.  Cruel, cunning, and immeasurably patient they wait in elaborately spun webs.  They know the lure of trasure and plunder is irrestistable to the living.  Soon enough foolish Heroes will come and then it will feast.');
+insert into Characters (CardIndex) VALUES (407);
+insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
+VALUES (325, 253, -1);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (325, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (325, 2); --Emerald
+--GangMemberIndex 101
+insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex);
+VALUES (77, 0, 'Crypt Spider', 'Spider', 'Elite', 6, 4, 2, 223);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (101, 589); --Poison
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (101, 641); --Surefoot
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (101, 306); --Enervating Bite
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (101, 560); --Silk Spinner
 
---Curse Coven
+--Curse Coven --CardIndex 408 --CharacterIndex 326	--ArcadeCharacterIndex 79
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Curse Coven',
+'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Pumpkin_Patch/Card_Arcade_Warband_Pumpkin_Patch_Curse_Coven_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Pumpkin_Patch/Card_Arcade_Warband_Pumpkin_Patch_Curse_Coven_FK_back.png', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Arcade/Warbands/Pumpkin_Patch/Curse_Coven.xhtml', 
+'Warband', 'FK', 'FK Core Set', 'Default', 
+'Fledgling witches are given several skull which they use as a focus to practice the many and varied hexes, curses, and enchantments that will become their trade.  Once the witch is fully initiated into the coven, the skulls are enchanted with spells of flight and intellect so that they might join the witch in unleashing afflictions upon those who cross them.');
+insert into Characters (CardIndex) VALUES (408);
+insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
+VALUES (326, 124, 354);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (326, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (326, 3); --Ruby
+--GangMemberIndex 102
+insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex);
+VALUES (79, 0, 'Curse Coven Witch', 'Witch', 'Elite', 8, 2, 0, 226);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (102, 518); --Fly
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (102, 640); --Transmogrify
+--GangMemberIndex 103
+insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex);
+VALUES (79, 1, 'Skullbat', 'Undead Bat', 'Minion', 6, 1, 0, 227);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (103, 518); --Poison
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (103, 284); --Doom
 
 
 --Rock Pile
+--Rock Pile --CardIndex 409	--CharacterIndex 327	--ArcadeCharacterIndex 80
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Rock Pile',
+'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Rock_Pile/Card_Arcade_Warband_Rock_Pile_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Rock_Pile/Card_Arcade_Warband_Rock_Pile_FK_back.png', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Arcade/Warbands/Rock_Pile/Rock_Pile.xhtml', 
+'Warband', 'FK', 'FK Core Set', 'Default', 
+'Rocktops can be found throughout Crystalia, wherever the earth is rocky and barren.  Due to their natural predilection to tunnel, Rocktops are superb miners.<br>Like many of the Consul''s minions, Rocktop society is ruled by strength and size.  At the top of the hierarchy stands the migty Crusher.  Dimwitted and brutish, Crushers spend most of their waking hours smashign rock to increase the size of the tunnel systems they claim as theirs.<br>In contrast, Rollers and Bombardiers are surprisingly jovial creatures.  Relishing in mischief and mayhem they delight in the noise and spectacle as rocks, Heroes, or anything weaker than them are smashed, smushed, crushed, crunched, or exploded.<br>Below them all are the hapless Slowpokes.  Simple creatures who if they had a say in it, would be perfectly content moving rocks from one side of a cave to another and back again.');
+insert into Characters (CardIndex) VALUES (408);
+insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
+VALUES (322, 0, -1);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (322, 4); --Sapphire
+--GangMemberIndex 104
+insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex);
+VALUES (80, 0, 'Rock Pile', 'Paired Spawning Point', '', 0, 3, 1, 228);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (104, 557); --Immune: Status Effects
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (104, 606); --Rock Aura
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (104, 681); --Spawning Pool
 
---Bully Foremen
+--Bully Foremen --CardIndex 410	--CharacterIndex 328	--ArcadeCharacterIndex 81
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Bully Foremen',
+'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Rock_Pile/Card_Arcade_Warband_Rock_Pile_Bully_Foremen_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Rock_Pile/Card_Arcade_Warband_Rock_Pile_Bully_Foremen_FK_back.png', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Arcade/Warbands/Rock_Pile/Bully_Foremen.xhtml', 
+'Warband', 'FK', 'FK Core Set', 'Default', 
+'Rocktops love to crush, chomp, and burrow through rock.  Unfortunately, Rollers have discovered that same delight in tormenting their lesser kin.  Forming into chortling and bickering gangs, the Rollers roam the caverns searching for rocktops to bully.  Indeed, the only respite from the bullying comes from the arrival of invading Heroes who provide the Rollers with new targets to tease.');
+insert into Characters (CardIndex) VALUES (410);
+insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
+VALUES (328, 134, 144);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (328, 4); --Sapphire
+--GangMemberIndex 105
+insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex);
+VALUES (81, 0, 'Roller', 'Rocktop', 'Elite', 5, 2, 2, 232);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (105, 554); --Immune: Knockdown
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (105, 556); --Immune: Slow
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (105, 633); --Thwack
+--GangMemberIndex 106
+insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex);
+VALUES (81, 1, 'Roller', 'Rocktop', 'Elite', 5, 2, 2, 232);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (105, 554); --Immune: Knockdown
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (105, 556); --Immune: Slow
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (106, 634); --Thwack
 
---Rockers v1
+--Rockers v1 --CardIndex 411	--CharacterIndex 329	--ArcadeCharacterIndex 82
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Rockers v1',
+'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Rock_Pile/Card_Arcade_Warband_Rock_Pile_Rockers_v1_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Rock_Pile/Card_Arcade_Warband_Rock_Pile_Rockers_v1_FK_back.png', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Arcade/Warbands/Rock_Pile/Rockers_v1.xhtml', 
+'Warband', 'FK', 'FK Core Set', 'Default', 
+'Slowpokes often gather around the massive Crushers, seeking some measure of protection from the bullying Rollers.  Crushers pay the Slowpokes little regard, for they are far too busy happily crushing rock and expanding their cavern to notice the pleas of their smaller kin.');
+insert into Characters (CardIndex) VALUES (411);
+insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
+VALUES (329, 142, 373);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (329, 4); --Sapphire
+--GangMemberIndex 107
+insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex);
+VALUES (82, 0, 'Crusher', 'Rocktop', 'Elite', 5, 6, 2, 232);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (105, 557); --Immune: Status Effects
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (105, 650); --Turtle Tremor
+--GangMemberIndex 108
+insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex);
+VALUES (82, 1, 'Slowpoke', 'Rocktop', 'Minion', 5, 1, 1, 232);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (105, 554); --Immune: Knockdown
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (105, 556); --Immune: Slow
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (106, 651); --Turtle Tremor
 
---Rockers v2
+--Rockers v2 --CardIndex 412	--CharacterIndex 330	--ArcadeCharacterIndex 83
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Rockers v2',
+'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Rock_Pile/Card_Arcade_Warband_Rock_Pile_Rockers_v2_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Rock_Pile/Card_Arcade_Warband_Rock_Pile_Rockers_v2_FK_back.png', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Arcade/Warbands/Rock_Pile/Rockers_v2.xhtml', 
+'Warband', 'FK', 'FK Core Set', 'Default', 
+'Slowpokes often gather around the massive Crushers, seeking some measure of protection from the bullying Rollers.  Crushers pay the Slowpokes little regard, for they are far too busy happily crushing rock and expanding their cavern to notice the pleas of their smaller kin.');
+insert into Characters (CardIndex) VALUES (412);
+insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
+VALUES (330, 142, 263);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (330, 4); --Sapphire
+--GangMemberIndex 109
+insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex);
+VALUES (83, 0, 'Crusher', 'Rocktop', 'Elite', 5, 6, 3, 232);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (105, 557); --Immune: Status Effects
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (105, 650); --Turtle Tremor
+--GangMemberIndex 110
+insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex);
+VALUES (83, 1, 'Slowpoke', 'Rocktop', 'Minion', 5, 1, 1, 232);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (105, 554); --Immune: Knockdown
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (105, 556); --Immune: Slow
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (105, 481); --Burrow
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (106, 651); --Turtle Tremor
 
---Shell Battery
+--Shell Battery --CardIndex 413	--CharacterIndex 331	--ArcadeCharacterIndex 84
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Shell Battery',
+'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Rock_Pile/Card_Arcade_Warband_Rock_Pile_Rockers_v2_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Rock_Pile/Card_Arcade_Warband_Rock_Pile_Rockers_v2_FK_back.png', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Arcade/Warbands/Rock_Pile/Rockers_v2.xhtml', 
+'Warband', 'FK', 'FK Core Set', 'Default', 
+'Once, a clan of rocktop befriended a gnomish engineer whose trade was weapons of war.  Impressed by the the stout and sturdy nature of the Rocktops, the engineer sought to turn the somewhat dimwitted monsters into the ultimate siege army in service of Crystalia.  Unfortunately, the rocktops proved to be disinterested in following orders and the gnomish engineer fell victim to a gang of Rollers.<br><br>However, a small group of Rocktops took a shine to the bombard cannons the gnome had devised.  Keeping the small armory a secret from their rocktop kin, these newly formed Bombardiers began lending their services in long ranged demolitions to any who could afford their steep fees of precious stones and ore.');
+insert into Characters (CardIndex) VALUES (412);
+insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
+VALUES (330, 138, 148);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (330, 4); --Sapphire
+--GangMemberIndex 109
+insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex);
+VALUES (83, 0, 'Bombardier', 'Rocktop', 'Elite', 4, 2, 2, 229);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (105, 554); --Immune: Knockdown
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (105, 556); --Immune: Slow
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (105, 647); --Turtle Cannon
+--GangMemberIndex 110
+insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex);
+VALUES (83, 1, 'Bombardier', 'Rocktop', 'Elite', 4, 2, 2, 229);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (105, 554); --Immune: Knockdown
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (105, 556); --Immune: Slow
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (106, 648); --Turtle Cannon
 
 
 --Salt Pillar
+--Salt Pillar	--CardIndex 414	--CharacterIndex 331	--ArcadeCharacterIndex 85
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Salt Pillar',
+'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Salt_Pillar/Card_Arcade_Warband_Salt_Pillar_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Salt_Pillar/Card_Arcade_Warband_Salt_Pillar_FK_back.png', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Arcade/Warbands/Salt_Pillar/Salt_Pillar.xhtml', 
+'Warband', 'FK', 'FK Core Set', 'Default', 
+'The Mistmourn Coast is a dangerous place even for the natural inhabitants of the Fae Woods.  Outsiders fear the troll tribes of the Mistmourn, but those familiar with this perpetually shrouded wood know that the fae creatures are the true danger.<br>Magical and otherworldy, what motivates these creatures is unknown.  Shamans bind them to pillars of salt to stay their wrath or do the shaman''s bidding.  Yet these magics have a dark consequence.  When the spells of binding are broken the magics of the formerly bound fae are trapped with the shattered salt pillar.  Their essence infuses new life within the Salt and they are reborn as elemental golems.  Driven only by blind instinct these Salt golems lash out at any who are near.');
+insert into Characters (CardIndex) VALUES (414);
+insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
+VALUES (331, 0, -1);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (331, 3); --Ruby
+--GangMemberIndex 111
+insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex);
+VALUES (85, 0, 'Salt Pillar', 'Spawning Point', '', 0, 3, 1, 237);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (111, 557); --Immune: Status Effects
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (111, 638); --Stealth Aura
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (111, 683); --Spawning Pool
 
---Despair Shroud
+--Despair Shroud --CardIndex 415	--CharacterIndex 332	--ArcadeCharacterIndex 86
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Despair Shroud',
+'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Salt_Pillar/Card_Arcade_Warband_Salt_Pillar_Despair_Shroud_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Salt_Pillar/Card_Arcade_Warband_Salt_Pillar_Despair_Shroud_FK_back.png', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Arcade/Warbands/Salt_Pillar/Despair_Shroud.xhtml', 
+'Warband', 'FK', 'FK Core Set', 'Default', 
+'Dry your eyes.<br>Let not one tear fall.<br>Lest Sorrows take you.<br>Then consume us all.');
+insert into Characters (CardIndex) VALUES (415);
+insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
+VALUES (332, 133, 135);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (332, 3); --Ruby
+--GangMemberIndex 112
+insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex);
+VALUES (86, 0, 'Sorrow', 'Faerie', 'Elite', 5, 1, 0, 239);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (112, 518); --Fly
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (112, 668); --Weep
+--GangMemberIndex 113
+insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex);
+VALUES (86, 1, 'Sorrow', 'Faerie', 'Elite', 5, 1, 0, 239);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (113, 518); --Fly
 
---Predators
+--Predators --CardIndex 416	--CharacterIndex 333	--ArcadeCharacterIndex 87
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Predators',
+'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Salt_Pillar/Card_Arcade_Warband_Salt_Pillar_Predators_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Salt_Pillar/Card_Arcade_Warband_Salt_Pillar_Predators_FK_back.png', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Arcade/Warbands/Salt_Pillar/Predators.xhtml', 
+'Warband', 'FK', 'FK Core Set', 'Default', 
+'Mist Hounds are voracious predators.  Once they have selected their prey, they will track it relentlessly over miles until it grows weak with exhaustion.  When they strike, their jaws are like steel traps, savaging anything that attempts to break free.');
+insert into Characters (CardIndex) VALUES (416);
+insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
+VALUES (333, 131, 151);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (333, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (333, 3); --Ruby
+--GangMemberIndex 114
+insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex);
+VALUES (87, 0, 'Mist Hound', 'Faerie', 'Elite', 8, 3, 1, 238);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (114, 596); --Predator
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (114, 641); --Surefoot
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (114, 422); --Lost
+--GangMemberIndex 115
+insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex);
+VALUES (87, 1, 'Mist Hound', 'Faerie', 'Elite', 8, 3, 1, 238);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (115, 596); --Predator
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (114, 641); --Surefoot
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (115, 423); --Lost
 
 
 --Shallow Grave
+--Shallow Grave	--CardIndex 417	--CharacterIndex 334	--ArcadeCharacterIndex 88
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Shallow Grave',
+'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Shallow_Grave/Card_Arcade_Warband_Shallow_Grave_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Shallow_Grave/Card_Arcade_Warband_Shallow_Grave_FK_back.png', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Arcade/Warbands/Shallow_Grave/Shallow_Grave.xhtml', 
+'Warband', 'FK', 'FK Core Set', 'Default', 
+'The Glauerdoom Moor is a grim and foreboding place by any measure.  Its fetid fens and marshes remain perpetually shrouded beneath a grey fog.  Its great cities have long since faded, their glory reduced to crumbling ruins and sinking towers.  The landscape is dotted by vast mausoleums and endless crypts built to house the ever dwindling populations'' dead.<br>Tragically the dead do not rest long.  The amethyst power of necromancy infuses the land and the dead sleep uneasily.  Their slumber is but a bried respite.  Soon their master bids them to rise and take their place in his macabre host.');
+insert into Characters (CardIndex) VALUES (417);
+insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
+VALUES (334, 0, -1);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (334, 3); --Ruby
+--GangMemberIndex 116
+insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex);
+VALUES (88, 0, 'Shallow Grave', 'Spawning Point', '', 0, 3, 1, 240);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (116, 557); --Immune: Status Effects
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (116, 471); --Bane Aura
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (116, 685); --Spawning Pool
 
---Dust Acolytes
+--Dust Acolytes	--CardIndex 418	--CharacterIndex 335	--ArcadeCharacterIndex 89
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Dust Acolytes',
+'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Shallow_Grave/Card_Arcade_Warband_Shallow_Grave_Dust_Acolytes_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Shallow_Grave/Card_Arcade_Warband_Shallow_Grave_Dust_Acolytes_FK_back.png', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Arcade/Warbands/Shallow_Grave/Dust_Acolytes.xhtml', 
+'Warband', 'FK', 'FK Core Set', 'Default', 
+'Within the Dust Coven, struggles for power between its necromancers is a common occurrence.  Unfortunately, even when these struggles turn deadly, the power of the Dark Consul is undiminished, for the victor inevitably raises the slain necromancers to serve him in death.');
+insert into Characters (CardIndex) VALUES (418);
+insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
+VALUES (335, 134, 144);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (335, 3); --Ruby
+--GangMemberIndex 117
+insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex);
+VALUES (89, 0, 'Dust Mage', 'Undead Skeleton', 'Elite', 5, 1, 1, 244);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (117, 477); --Bone Pile
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (117, 636); --Tide of Bones
+--GangMemberIndex 118
+insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex);
+VALUES (89, 1, 'Dust Mage', 'Undead Skeleton', 'Elite', 5, 1, 0, 244);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (118, 477); --Bone Pile
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (118, 193); --Bone Cold
 
---Dust Coven
+--Dust Coven	--CardIndex 419	--CharacterIndex 336	--ArcadeCharacterIndex 90
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Dust Coven',
+'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Shallow_Grave/Card_Arcade_Warband_Shallow_Grave_Dust_Coven_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Shallow_Grave/Card_Arcade_Warband_Shallow_Grave_Dust_Coven_FK_back.png', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Arcade/Warbands/Shallow_Grave/Dust_Coven.xhtml', 
+'Warband', 'FK', 'FK Core Set', 'Default', 
+'The curse of undeath hangs heavy over the Glauerdoom Moor.  Drawn to the necromantic magics, the witches of the Dust Coven congregrate here in greater numbers than anywhere else in Crystalia.  Raising vast armies in service to the Dark Consul, Heroes are faced with an adversary that continues to fight beyond death itself.');
+insert into Characters (CardIndex) VALUES (419);
+insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
+VALUES (336, 133, 363);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (336, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (336, 3); --Ruby
+--GangMemberIndex 117
+insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex);
+VALUES (90, 0, 'Dust Coven Necromancer', 'Witch', 'Elite', 5, 3, 2, 243);
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (117, 636); --Tide of Bones
+--GangMemberIndex 118
+insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex);
+VALUES (90, 1, 'Bone Head', 'Undead Skeleton', 'Minion', 5, 1, 1, 241);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (118, 477); --Bone Pile
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (118, 354); --Ghastly Vigor
 
---House of Ash
+--House of Ash	--CardIndex 420	--CharacterIndex 337	--ArcadeCharacterIndex 91
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Dust Coven',
+'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Shallow_Grave/Card_Arcade_Warband_Shallow_Grave_Dust_Coven_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Shallow_Grave/Card_Arcade_Warband_Shallow_Grave_Dust_Coven_FK_back.png', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Arcade/Warbands/Shallow_Grave/Dust_Coven.xhtml', 
+'Warband', 'FK', 'FK Core Set', 'Default', 
+'The knightly House of Ash gave themselves willingly to the service of the Dark Consul.  Wholly consumed by the need for battle, they are allowed to retain a measure of their intellect into undeath.');
+insert into Characters (CardIndex) VALUES (420);
+insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
+VALUES (337, 132, 143);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (337, 1); --Citrine
+--GangMemberIndex 117
+insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex);
+VALUES (91, 0, 'Dust Coven Necromancer', 'Undead Skeleton', 'Elite', 5, 2, 2, 242);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (117, 477); --Bone Pile
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (117, 250); --Cursed Blade
+--GangMemberIndex 118
+insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex);
+VALUES (91, 1, 'Bone Head', 'Undead Skeleton', 'Elite', 5, 2, 2, 242);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (118, 477); --Bone Pile
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (118, 251); --Cursed Blade
 
 
 --Tribal Stone
+--Tribal Stone	--CardIndex 421	--CharacterIndex 338	--ArcadeCharacterIndex 92
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Tribal Stone',
+'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Tribal_Stone/Card_Arcade_Warband_Tribal_Stone_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Tribal_Stone/Card_Arcade_Warband_Tribal_Stone_FK_back.png', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Arcade/Warbands/Tribal_Stone/Tribal_Stone.xhtml', 
+'Warband', 'FK', 'FK Core Set', 'Default', 
+'Not even the elves choose to make the Mistmourn Coast their home.  Indeed, only the Glimmerdusk Rangers frequent these lands that are perpetually locked in mist and steeped in fae magic.  It is no surprise then that many creatures of the Dark Realm sought sanctuary within the concealing shadows of the coast.<br>Most were driven mad with fright, as the fae creatures preyed on their minds with capricious tricks and dealy pranks.  Trolls, however, remained remarkably unaffected--perhaps shielded by their naturally dim intellect.  In time they became tolerated by the fae creatures if not welcomed.<br>The thin veil between worlds along the Mistmourn eventually brought the trolls into communion with their fallen ancestors.  Guided by their ancestors'' past experiences the trolls grew more cunning, some even attaining a level of brutal intelligence.');
+insert into Characters (CardIndex) VALUES (421);
+insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
+VALUES (338, 0, -1);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (338, 4); --Sapphire
+--GangMemberIndex 119
+insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex);
+VALUES (92, 0, 'Tribal Stone', 'Spawning Point', '', 0, 3, 1, 245);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (119, 557); --Immune: Status Effects
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (119, 597); --Primal Aura
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (119, 687); --Spawning Pool
 
---Ghostfire Tribe
+--Ghostfire Tribe	--CardIndex 422	--CharacterIndex 339	--ArcadeCharacterIndex 93
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ghostfire Tribe',
+'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Shallow_Grave/Card_Arcade_Warband_Shallow_Grave_Dust_Coven_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Shallow_Grave/Card_Arcade_Warband_Shallow_Grave_Dust_Coven_FK_back.png', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Arcade/Warbands/Shallow_Grave/Dust_Coven.xhtml', 
+'Warband', 'FK', 'FK Core Set', 'Default', 
+'Stalking the Mistmourn Coast, the Ghostfire Tribes are surprisingly cunning adversaries.  Guided by their ancient troll ancestors, they possess tactical acumen hindered only by their fury once battlelust is upon them.');
+insert into Characters (CardIndex) VALUES (422);
+insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
+VALUES (339, 143, 263);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (339, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (339, 4); --Sapphire
+--GangMemberIndex 120
+insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex);
+VALUES (93, 0, 'Mistmourn Chieftain', 'Troll', 'Elite', 5, 3, 2, 242);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (120, 648); --Tough
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (120, 159); --Ancestral Fury
+--GangMemberIndex 121
+insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex);
+VALUES (93, 1, 'Ghostfire Warrior', 'Troll', 'Minion', 6, 2, 1, 242);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (121, 648); --Tough
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (121, 356); --Ghostfire
 
---Spirit Born
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+--Spirit Born	--CardIndex 423	--CharacterIndex 340	--ArcadeCharacterIndex 94
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Spirit Born',
+'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Shallow_Grave/Card_Arcade_Warband_Shallow_Grave_Dust_Coven_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Shallow_Grave/Card_Arcade_Warband_Shallow_Grave_Dust_Coven_FK_back.png', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Arcade/Warbands/Shallow_Grave/Dust_Coven.xhtml', 
+'Warband', 'FK', 'FK Core Set', 'Default', 
+'');
+insert into Characters (CardIndex) VALUES (423);
+insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
+VALUES (340, 143, 263);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (340, 2); --Emerald
+--GangMemberIndex 120
+insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex);
+VALUES (94, 0, 'Spirit Walker', 'Troll', 'Elite', 5, 2, 1, 248);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (120, 648); --Tough
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (120, 637); --Stealth
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (120, 641); --Surefoot
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (120, 588); --Spirit Walk
+--GangMemberIndex 121
+insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex);
+VALUES (94, 1, 'Spirit Walker', 'Troll', 'Elite', 5, 2, 1, 248);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (121, 648); --Tough
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (120, 637); --Stealth
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (120, 641); --Surefoot
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (121, 378); --Herbology
