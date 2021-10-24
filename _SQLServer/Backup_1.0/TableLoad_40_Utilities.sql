@@ -1,5 +1,5 @@
 --1.0
---Utility (Used Utility 2.0 from TableLoad_Scratch file)
+--Utility
 --Difficult Terrain
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
 VALUES ('Difficult Terrain',
