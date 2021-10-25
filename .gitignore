@@ -2,6 +2,7 @@
 *.war
 *.xml
 *.properties
+SDWiki/nbproject/private/private.properties
 /SDWiki/nbproject/private/
 /SDWiki/nbproject/
 /SDWiki/build/
