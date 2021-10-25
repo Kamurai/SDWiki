@@ -237,3 +237,5 @@
 /*Spawning Pool				--Index 687*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Arcade', 'Spawning Pool', '1x Tribal Stone (Spawning Pool)<br>1x Mistmourn Chieftain<br>2x Spirit Walker<br>2x Ghostfire Warrior<br><br>Cards:<br>Ghostfire Tribe Gang<br>Spirit Born Gang');
 
 /*Feed Me					--Index 688*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Arcade', 'Feed Me', 'During upkeep, if a model with Feed Me is suffering any wounds, destroy one minion within two squares of the model and remove one wound token.');
+
+/*Cursed								--Index 689*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Cursed', 'Anytime this model makes a defense roll discard the highest result rolled.');
