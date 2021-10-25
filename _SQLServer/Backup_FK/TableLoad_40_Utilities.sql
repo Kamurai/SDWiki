@@ -1,5 +1,5 @@
 --FK Utilities
---Rules Addendum and Errata --Card Index 333
+--Rules Addendum and Errata --Card Index (x+214)
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
 VALUES ('Rules Addendum and Errata',
 'http://htkb.info/SDE/1.0/Cards/Utility/Card_Utility_Addendums_Errata_Rules_1.0.png', 

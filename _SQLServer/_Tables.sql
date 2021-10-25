@@ -51,8 +51,8 @@ create table Utilities (UtilityIndex bigint IDENTITY(0,1) PRIMARY KEY, CardIndex
 --drop table Explores, Challenges, Plots, MightyMonsters
 
 create table Explores (ExploreIndex bigint IDENTITY(0,1) PRIMARY KEY, UtilityIndex bigint not null);
-create table ExploreCreeps (ExploreCreepIndex bigint IDENTITY(0,1) PRIMARY KEY, ExploreIndex bigint not null, CreepNumber varchar(50) not null);
-create table ExploreTraps (ExploreTrapIndex bigint IDENTITY(0,1) PRIMARY KEY, ExploreIndex bigint not null, TrapDefense int not null, TrapLayout varchar(10) not null);
+create table ExploreCreeps (ExploreCreepIndex bigint IDENTITY(0,1) PRIMARY KEY, ExploreIndex bigint not null, CreepNumber int not null);
+create table ExploreTraps (ExploreTrapIndex bigint IDENTITY(0,1) PRIMARY KEY, ExploreIndex bigint not null, TrapDefense varchar(50) not null, TrapLayout varchar(10) not null);
 create table ExploreAssignments (ExploreAssignmentIndex bigint IDENTITY(0,1) PRIMARY KEY, ExploreIndex bigint not null, CharacterIndex bigint not null);
 
 create table Challenges (ChallengeIndex bigint IDENTITY(0,1) PRIMARY KEY, CardIndex bigint not null, Trap varchar(50) not null, Challenge varchar(50) not null);
