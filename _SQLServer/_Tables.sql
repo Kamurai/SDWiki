@@ -16,7 +16,7 @@ insert into Affinities (AffinityType) VALUES ('Sapphire'); --4
 create table AffinityAssignments (AffinityAssignmentIndex bigint IDENTITY(0,1) PRIMARY KEY, AffinityIndex bigint not null, CharacterIndex bigint not null);
 create table Keywords (KeywordIndex bigint IDENTITY(0,1) PRIMARY KEY, KeywordVersion varchar(20) not null, PlayMode varchar(20) not null, Name varchar(50) not null, KeywordDescription varchar(2500) not null);
 
-create table KeywordAssignments (KeywordAssignmentIndex bigint IDENTITY(0,1) PRIMARY KEY, KeywordIndex bigint not null, ExploreCharacterIndex bigint, GangMemberIndex bigint, EquipmentIndex bigint, BossSpawnIndex bigint);
+create table KeywordAssignments (KeywordAssignmentIndex bigint IDENTITY(0,1) PRIMARY KEY, KeywordIndex bigint not null, ExploreCharacterIndex bigint, GangMemberIndex bigint, EquipmentIndex bigint, BossSpawnIndex bigint, UtilityIndex bigint);
 
 create table Abilities (AbilityIndex bigint IDENTITY(0,1) PRIMARY KEY, AbilityVersion varchar(20) not null, PlayMode varchar(20) not null, Name varchar(50) not null, AbilityResource varchar(10) not null, AbilityType varchar(10) not null, AbilityCost int not null, AttributeIndex bigint not null, AbilityRange int not null, AbilityDescription varchar(1000) not null);
 

@@ -238,4 +238,6 @@
 
 /*Feed Me					--Index 688*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Arcade', 'Feed Me', 'During upkeep, if a model with Feed Me is suffering any wounds, destroy one minion within two squares of the model and remove one wound token.');
 
-/*Cursed								--Index 689*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Cursed', 'Anytime this model makes a defense roll discard the highest result rolled.');
+/*Cursed					--Index 689*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Cursed', 'Anytime this model makes a defense roll discard the highest result rolled.');
+
+/*Lava						--Index 690*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Lava', 'A model which enters oen or more Lava squares suffers FIRE at the end of the current activation.');
