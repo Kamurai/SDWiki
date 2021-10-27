@@ -5,5 +5,5 @@ select a.CardIndex, a.Name as CardName, a.PictureFront, a.PictureBack, a.Link, a
 b.UtilityDescription --Utility
 from Cards a
 join Utilities b on a.CardIndex=b.CardIndex
-where a.CardType = 'Utility' or a.CardType = 'Terrain'
+where a.CardType = 'Utility'
 ;
