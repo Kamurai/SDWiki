@@ -1,5 +1,4 @@
 --FK --Warband Gangs
-
 --Bramble Knight
 --Bramble Knight --CardIndex 379	--CharacterIndex 295	--ArcadeCharacterIndex 47
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Bramble Knight',

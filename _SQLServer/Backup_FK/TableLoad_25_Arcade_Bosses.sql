@@ -1,5 +1,4 @@
 --FK Bosses
-
 --Beatrix the Witch Queen --CardIndex 368	--CharacterIndex 284	--ArcadeCharacterIndex 36
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Beatrix the Witch Queen',
 'http://htkb.info/SDE/FK/Cards/Arcade/Bosses/Card_Beatrix_the_Witch_Queen_FK.png', 

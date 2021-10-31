@@ -1,7 +1,5 @@
 --FK Arcade Booty
---Boody Biter
-
- --CardIndex 334	--CharacterIndex 249	--ArcadeCharacterIndex 1
+--Boody Biter	--CardIndex 334	--CharacterIndex 249	--ArcadeCharacterIndex 1
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Booty Biter',
 'http://htkb.info/SDE/FK/Cards/Arcade/Booty/Card_Booty_Biter_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Booty/Card_Booty_Biter_FK_back.png', 

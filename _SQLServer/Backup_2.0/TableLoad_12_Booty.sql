@@ -1,6 +1,5 @@
---Table Load 4
---1.0 Booty
---Boo Boody --Index 25
+--2.0 Booty
+--Boo Boody --CardIndex cXXX	--CharacterIndex chXXX	--ExploreCharacterIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Boo Booty',
 'http://htkb.info/SDE/1.0/Cards/Booty/Card_Boo_Booty_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Booty/Card_Boo_Booty_1.0_back.png', 
@@ -15,3 +14,4 @@ insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, 
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (25, 0, 1);
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (25, 2);
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (25, 'Trap', '16 Bit', 1);
+

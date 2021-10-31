@@ -1,6 +1,4 @@
---FK MiniBoss
-
-
+--FK MiniBosses
 --Bashful Boris --CardIndex 344	--CharacterIndex 260	--ArcadeCharacterIndex 12
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Bashful Boris',
 'http://htkb.info/SDE/FK/Cards/Arcade/MiniBosses/Card_Bashful_Boris_FK.png', 
