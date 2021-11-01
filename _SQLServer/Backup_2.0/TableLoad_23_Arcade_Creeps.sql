@@ -1,10 +1,10 @@
 --2.0 Arcade Creeps
 --Citrine Slime	--CardIndex cXXX	--CharacterIndex chXXX	--ArcadeCharacterIndex arXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Citrine Slime',
-'http://htkb.info/SDE/FK/Cards/Arcade/Creeps/Card_Citrine_Slime_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Arcade/Creeps/Card_Citrine_Slime_FK_back.png', 
-'http://htkb.online/SDWiki/SDE/FK/Cards/Arcade/Creeps/Citrine_Slime.xhtml', 
-'Creep', 'FK', 'FK Core Set', 'Default', 
+'http://htkb.info/SDE/2.0/Cards/Arcade/Creeps/Card_Citrine_Slime_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Arcade/Creeps/Card_Citrine_Slime_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Creeps/Citrine_Slime.xhtml', 
+'Creep', '2.0', '2.0 Core Set', 'Default', 
 'Citrine Slimes are not very good conversationalists.  They are, however, exceptional at oozing and stinking of sulfur--mainly the stinking part.  One splash or casual ooze-to-skin contact will doom a Hero to smelling bad for the rest of their days.  While this is fine if you are Citrine Slime yourself, it is rarely appropriate for polite company.');
 insert into Characters (CardIndex) VALUES (336);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 

@@ -1,10 +1,10 @@
 --2.0 Pets
 --Admiral Fuzzybottom --CardIndex cXXX	--CharacterIndex chXXX	--ExploreCharacterIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Admiral Fuzzybottom',
-'http://htkb.info/SDE/FK/Cards/Pets/Card_Pet_Admiral_Fuzzybottom_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Pets/Card_Pet_Admiral_Fuzzybottom_FK_back.png', 
-'http://htkb.online/SDWiki/SDE/FK/Cards/Pets/Admiral_Fuzzybottom.xhtml', 
-'Pet', 'FK', 'FK Core Set', 'Default', 
+'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Admiral_Fuzzybottom_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Admiral_Fuzzybottom_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Pets/Admiral_Fuzzybottom.xhtml', 
+'Pet', '2.0', '2.0 Core Set', 'Default', 
 'Who''s a good kitty?');
 insert into Characters (CardIndex) VALUES (214);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (127, 626); --Small

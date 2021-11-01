@@ -1,10 +1,10 @@
 --2.0 Bosses
 --Bashful Boris	--CardIndex cXXX	--CharacterIndex chXXX	--ArcadeCharacterIndex arXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Beatrix the Witch Queen',
-'http://htkb.info/SDE/FK/Cards/Arcade/Bosses/Card_Beatrix_the_Witch_Queen_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Arcade/Bosses/Card_Beatrix_the_Witch_Queen_FK_back.png', 
-'http://htkb.online/SDWiki/SDE/FK/Cards/Arcade/Bosses/Beatrix_the_Witch_Queen.xhtml', 
-'Boss', 'FK', 'FK Core Set', 'Default', 
+'http://htkb.info/SDE/2.0/Cards/Arcade/Bosses/Card_Beatrix_the_Witch_Queen_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Arcade/Bosses/Card_Beatrix_the_Witch_Queen_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Bosses/Beatrix_the_Witch_Queen.xhtml', 
+'Boss', '2.0', '2.0 Core Set', 'Default', 
 'I have such a delicious potion for you to try.  It may string a little going down....');
 insert into Characters (CardIndex) VALUES (368);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 

@@ -1,10 +1,10 @@
 --2.0 Heroes
 --Angry Bear --CardIndex cXXX	--CharacterIndex chXXX	--ExploreCharacterIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Angry Bear', 
-'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Hero_Angry_Bear_1.0.png', 
-'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Hero_Angry_Bear_1.0_back.png', 
-'http://htkb.online/SDWiki/SDE/1.0/Cards/Heroes/Angry_Bear.xhtml', 
-'Hero', '1.0', '1.0 Core Set', 'Default', 
+'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Angry_Bear_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Angry_Bear_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Angry_Bear.xhtml', 
+'Hero', '2.0', '2.0 Core Set', 'Default', 
 'Some skilled Druids can take the form of a raging Totem Ursos - a mighty bearlike creature filled with nature''s wrath for the enemies of the Deeproot Tree.');
 insert into Characters (CardIndex) VALUES (0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (0, 59); --Immune: Poison

@@ -1,10 +1,10 @@
 --2.0 Boss Spawns
 --Beatrix The Witch Queen     --CardIndex cXXX   --BossSpawnIndex bsXXX  
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Beatrix the Witch Queen', 
-'http://htkb.info/SDE/FK/Cards/Boss_Spawns/Card_Boss_Spawn_Beatrix_Witch_Queen_The_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Boss_Spawns/Card_Boss_Spawn_Beatrix_Witch_Queen_The_FK.png',
-'http://htkb.online/SDWiki/SDE/FK/Cards/Boss_Spawns/Beatrix_Witch_Queen_The.xhtml', 
-'Boss Spawn', 'FK', 'FK Core Set', 'Default',   
+'http://htkb.info/SDE/2.0/Cards/Boss_Spawns/Card_Boss_Spawn_Beatrix_Witch_Queen_The_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Boss_Spawns/Card_Boss_Spawn_Beatrix_Witch_Queen_The_2.0.png',
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Boss_Spawns/Beatrix_Witch_Queen_The.xhtml', 
+'Boss Spawn', '2.0', '2.0 Core Set', 'Default',   
 '');
 insert into BossSpawns (CardIndex, DungeonEffect, BossSpawnEffect, TimeoutEffect, DifficultyRating) 
 VALUES (426, '',

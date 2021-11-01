@@ -1,10 +1,10 @@
 --2.0 MiniBosses
 --Bashful Boris	--CardIndex cXXX	--CharacterIndex chXXX	--ArcadeCharacterIndex arXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Bashful Boris',
-'http://htkb.info/SDE/FK/Cards/Arcade/MiniBosses/Card_Bashful_Boris_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Arcade/MiniBosses/Card_Bashful_Boris_FK_back.png', 
-'http://htkb.online/SDWiki/SDE/FK/Cards/Arcade/MiniBosses/Bashful_Boris.xhtml', 
-'MiniBoss', 'FK', 'FK Core Set', 'Default', 
+'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Bashful_Boris_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Bashful_Boris_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/MiniBosses/Bashful_Boris.xhtml', 
+'MiniBoss', '2.0', '2.0 Core Set', 'Default', 
 'When human, Boris was a large and gentle lad.  During The Forgotten King''s rebellion Boris lept at the chance to prove himself to his noble lord, only to quickly turn timid and fearful when faced with the reality of war.<br>When the curse possessed him it unlocked a dark reflection of his soul, gripping his mind in a berserk madness.  Now, Boris is a terror to all the Heroes of Crystalia.  Raging and frothing at the mouth as he fights, heedless of those lesser minions who might be in his way.');
 insert into Characters (CardIndex) VALUES (344);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 

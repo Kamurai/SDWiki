@@ -1,10 +1,10 @@
 --2.0 MiniBoss
 --Captain R --CardIndex cXXX	--CharacterIndex chXXX	--ExploreCharacterIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Captain R',
-'http://htkb.info/SDE/1.0/Cards/Minibosses/Card_Miniboss_Captain_R_1.0.png', 
-'http://htkb.info/SDE/1.0/Cards/Minibosses/Card_Miniboss_Captain_R_1.0_back.png', 
-'http://htkb.online/SDWiki/SDE/1.0/Cards/Minibosses/Captain_R.xhtml', 
-'Miniboss', '1.0', '1.0 Core Set', 'Explore',
+'http://htkb.info/SDE/2.0/Cards/Minibosses/Card_Miniboss_Captain_R_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Minibosses/Card_Miniboss_Captain_R_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Minibosses/Captain_R.xhtml', 
+'Miniboss', '2.0', '2.0 Core Set', 'Explore',
 'ARRRRR, Tha Drowned Isles be a constant headache fer sailors an'' ships of tha Clockwork Cove.  Tha dreaded land mass be swarmin'' wit cutthroats an'' scaliwags ta spare an'' none be as successful as tha courageous, Cap''n R.  They say ''ees plied tha seas fer a hundred years an'' sent just as many ships to tha deep.  Riches will flow fer tha Hero who finally gets tha best of ''im because he who gets tha Cap''n gets ''is gold.');
 insert into Characters (CardIndex) VALUES (26);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (26, 89); --Pirate Hoard
