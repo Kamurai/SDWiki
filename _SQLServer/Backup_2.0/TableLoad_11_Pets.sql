@@ -5,13 +5,14 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Admiral_Fuzzybottom_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Pets/Admiral_Fuzzybottom.xhtml', 
 'Pet', '2.0', '2.0 Core Set', 'Default', 
-'Who''s a good kitty?');
-insert into Characters (CardIndex) VALUES (214);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (127, 626); --Small
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (127, 572); --Master Gains Happy Cat
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (127, 366); --Happy Cat
+'Admiral Fuzzybottom was never the brightest cat, but he was always one of the happiest.  One day he followed a human, hoping to get some pets.  On the way he saw a kobold and rubbed up against the kobold''s legs, accidentally tripping him.  This seemed to please the human.  Then he playfully pounced on a drake, distracting it from roasting the human.  Admiral Fuzzybottom is always a pleasant, loving cat to everyone he sees.');
+insert into Characters (CardIndex) VALUES (cXXX);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 4); --Sapphire
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (127, 'Either', 'Small', 'Wonder', 7, 1, '3B', '2ST', '', '', 0, 0);
-insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (127, 1, 1);
-insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (127, 2);
-insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (127, '', -1);
+VALUES (chXXX, 'Either', 'Small', '', 7, 1, '3B', '2ST', '1ST', '3ST', 2, 0);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Small
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Master Gains Happy Cat
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Happy Cat
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 1, 1); --Strength
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (eXXX, 2); --Armor
+insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (eXXX, 2, 3);

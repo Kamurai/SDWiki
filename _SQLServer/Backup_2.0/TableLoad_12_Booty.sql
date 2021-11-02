@@ -12,8 +12,8 @@ insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, 
 VALUES (cXXX, 'Neither', 'Small', 'Boo Booty', 6, 1, '2R', '3B', '2B', '3B', 2, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (cXXX, kXXX); --Backlash
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (cXXX, kXXX); --Boo Booty
-insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (cXXX, 1, 1);
-insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (cXXX, 2);
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (cXXX, 1, 1); --Strength
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (cXXX, 2); --Armor
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (cXXX, 'Boo Booty', '8 Bit', 1);
 
 --Boo Boody --CardIndex cXXX	--CharacterIndex chXXX	--ExploreCharacterIndex eXXX
@@ -29,6 +29,6 @@ insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, 
 VALUES (cXXX, 'Neither', 'Small', 'Boo Booty', 6, 1, '2R', '3B', '2B', '3B', 2, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (cXXX, kXXX); --Backlash
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (cXXX, kXXX); --Boo Booty
-insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (cXXX, 1, 1);
-insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (cXXX, 2);
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (cXXX, 1, 1); --Strength
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (cXXX, 2); --Armor
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (cXXX, 'Boo Booty', '8 Bit', 1);
