@@ -60,9 +60,6 @@ create table ChallengeAssignments (ChallengeAssignmentIndex bigint IDENTITY(0,1)
 create table Plots (PlotIndex bigint IDENTITY(0,1) PRIMARY KEY, CardIndex bigint not null, PowerUp varchar(50) not null, Plot varchar(50) not null);
 create table MightyMonsters (MightyMonsterIndex bigint IDENTITY(0,1) PRIMARY KEY, CardIndex bigint not null, Targets varchar(50) not null, Bonus varchar(50) not null, Condition varchar(50) not null);
 
-create table ConsulPowerUps (ConsulPowerUpIndex bigint IDENTITY(0,1) PRIMARY KEY, CardIndex bigint not null, PowerUp varchar(50) not null);
-
-
 
 
 

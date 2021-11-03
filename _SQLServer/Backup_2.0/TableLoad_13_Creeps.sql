@@ -4,8 +4,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/2.0/Cards/Creeps/Card_Creep_Chochin-Obake_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Creeps/Card_Creep_Chochin-Obake_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Creeps/Chochin_Obake.xhtml', 
+'When spirits seek to break the veil between life and death it is the Chochin-Obake who light their way.  The more powerful of these ghostly apparitions pull the Chochin-Obake through with them so that the ghostly minions can illuminate the souls of the living.');
 'Creep', '2.0', '2.0 Core Set', 'Default', 
-'Citrine Slimes are not very good conversationalists.  They are, however, exceptional at oozing and stinking of sulfur--mainly the stinking part.  One splash or casual ooze-to-skin contact will doom a Hero to smelling bad for the rest of their days.  While this is fine if you are Citrine Slime yourself, it is rarely appropriate for polite company.');
 insert into Characters (CardIndex) VALUES (cXXX);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 0); --Amethyst
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 

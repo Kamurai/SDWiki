@@ -1,15 +1,15 @@
 --2.0 Boss Spawns
 --Beatrix The Witch Queen     --CardIndex cXXX   --BossSpawnIndex bsXXX  
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Beatrix the Witch Queen', 
-'http://htkb.info/SDE/2.0/Cards/Boss_Spawns/Card_Boss_Spawn_Beatrix_Witch_Queen_The_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Boss_Spawns/Card_Boss_Spawn_Beatrix_Witch_Queen_The_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Boss_Spawns/Beatrix_Witch_Queen_The.xhtml', 
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Bomechan', 
+'http://htkb.info/SDE/2.0/Cards/Boss_Spawns/Card_Boss_Spawn_Bomechan_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Boss_Spawns/Card_Boss_Spawn_Bomechan_2.0_back.png',
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Boss_Spawns/Bomechan.xhtml', 
 'Boss Spawn', '2.0', '2.0 Core Set', 'Default',   
-'');
+'Clan Ijin values strength above all else, and Bomechan is a true daughter of clan Ijin.  She loves a challenge and she seeks to place herself on the Moon Throne, because she sees this as the greatest challenge of all.  When she is not plotting her ascension to the Moon Throne, Bomechan leads Ijin vessels in pirate riads all along the coasts near Devil Island.  Her crew follow her without question, knowing her to be the strongest and therefore most suited to lead.  She is always seen at the very front of the boarding actions, the very first to enter combat, and the very first to claim the spoils of victory.  Bomechan is the pirate queen of the Ijin, and she delights in any challenge from those who would seek to end her reign of piracy and bloodshed.');
 insert into BossSpawns (CardIndex, DungeonEffect, BossSpawnEffect, TimeoutEffect, DifficultyRating) 
-VALUES (426, '',
-'Ghost Town:  Spawn one Ghost for every destroyed mini-boss, Skull Token on the dungeon, and spent Princess Coin.', 
-'Poxes:  All Heroes suffer one random status effect.  (Close your eyes and pick a token.)',
+VALUES (cXXX, '',
+'Spawn one Ijin Oni adjacent to Bomechan.', 
+'Spawn one Ijin Oni anywhere in the dungeon.',
 '');
-insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (3, 171); 
-
+insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (bsXXX, chXXX); 
+insert into KeywordAssignments (BossSpawnIndex, KeywordIndex) VALUES (bsXXX, kXXX); --For The Pirate Queen!

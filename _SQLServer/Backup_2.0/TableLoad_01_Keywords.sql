@@ -50,6 +50,9 @@
 
 
 /*Flaming							--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Flaming', 'When a model with Flaming ends its activation, all adjacent enemies suffer Fire.');
+
+/*For The Pirate Queen!				--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'For The Pirate Queen!', 'Ijin Oni gain Frenzy for the remainder of the game.  (A model with Frenzy gains +1R on offensive rolls against any model that is suffering a wound.)');
+
 /*Forge Master						--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Forge Master', 'This dungeon boss may equip up to two Relic Items per slot.');
 /*Formless							--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Formless', 'At the beginning of this model''s activation it may increase one attribute by +1b.  This bonus lasts until it is activated again.');
 /*Fortify							--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Fortify', 'A model with Fortify gains +1B ARM for each enemy adjacent to them, to a maximum of +3B ARM.');
@@ -163,7 +166,8 @@
 /*Properly Punished					--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Properly Punished', 'When this model is destroyed, it Shapeshifts to its original form.');
 /*Protector							--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Protector', 'Enemy monsters that have LoS to this Hero may not target other Heroes which are adjacent to this Hero with offensive actions.');
 /*Quick Strike						--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Quick Strike', 'After a model with Quick Strike destroys an enemy, its controller rolls 1g.  On a roll of Heart+Potion, the model may immediately make a basic offensive action without spending an action point.');
-/*Rampage							--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Rampage', 'A model with Rampage gains +1B whie making offensive actions for each spawning point that was destroyed this game.');
+/*Rampage							--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Explore', 'Rampage', 'A model with Rampage gains +1B whie making offensive actions for each spawning point that was destroyed this game.');
+/*Rampage							--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Arcade', 'Rampage', 'A model with Rampage gains +1ST whie making offensive actions for each spawning point that was destroyed this game.');
 /*Ravage							--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Ravage', 'When a model with Ravage inflicts damage on a single target with an offensive action, it may choose to suffer one damage to inflict an additional damage to the target.');
 /*Read The Wind						--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Read The Wind', 'A model with Read The Wind may roll 1g when the party clears all activation tokens.  Keep this die on the Hero''s card and discard it next time activation tokens are cleared.  After dice are rolled by any Hero for any reason, this model may discard the die to add it to the roll.');
 /*Refuge							--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Refuge', 'Models with Refuge may not suffer wounds while Waystone Creeps are in play.<br>(They may still suffer other effects such as Push and Status Effects.)');
@@ -199,7 +203,7 @@
 /*Spawn Kill						--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Spawn Kill', 'When an enemy model spawns within range, this model may immediately make a melee attack against it.');
 
 /*Spawning Pool						--Index kXXX*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Explore', 'Spawning Pool', '1x Arcadian Spider Nest (Spawning Point)<br>1x Duskweaver Acolyte<br>3x Leaping Spider<br>3x Trapdoor Spider');
-/*Spawning Pool						--Index kXXX*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Arcade', 'Spawning Pool', '1x Arcadian Spider Nest (Spawning Point)<br>1x Duskweaver Acolyte<br>3x Leaping Spider<br>3x Trapdoor Spider<br><br>Cards:<br>Ghostfire Tribe Gang<br>Spirit Born Gang');
+/*Spawning Pool						--Index kXXX*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Arcade', 'Spawning Pool', '1x Arcadian Spider Nest (Spawning Point)<br>1x Duskweaver Acolyte<br>3x Leaping Spider<br>3x Trapdoor Spider<br><br>Cards:<br>Inescapable Swarm<br>Terrifying Leapers');
 
 
 /*Spiteful Whispers					--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Spiteful Whispers', '[Explore:] Heroes suffer -1ST WILL for each model with Spiteful Whispers adjacent to them.');

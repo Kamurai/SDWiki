@@ -1,40 +1,63 @@
 --2.0 --Warband Gangs
---Bramble Knight
---Bramble Knight	--CardIndex cXXX	--CharacterIndex chXXX	--ArcadeCharacterIndex arXXX
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Bramble Knight',
-'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Bramble_Knight/Card_Arcade_Bramble_Knight_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Bramble_Knight/Card_Arcade_Bramble_Knight_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Bramble_Knight/Bramble_Knight.xhtml', 
-'Warband', '2.0', '2.0 Core Set', 'Default', 
-'Once the Bramble Knights were great Heores of Crystalia.  The statues erected in their honor were timeless memorials to the brave warriors who defended the kingdom and Fae Wood with their lives.<br>When the Forgotten King sought to challenge the rightful rule of Crystalia, the Bramble Knights sworn to him marched under his banner.  Bitter civil war raged througout the realm.  Only when the elves of the Fae Wood joined the fight were the Forgotten King''s forces finally stopped.<br>As punishment for their treachery the once gallant Bramble Knights shared the Forgotten King''s fate.  Cursed by their own treasonous lord they were transformed into chimera.  No longer human, nor beast, they became monsters and were banished to the Lordship Ruins.<br>Centuries later they still dwell within its crumbled halls, nurturing old hates, and plotting their reemergence under the Dark Consul''s banner.');
-insert into Characters (CardIndex) VALUES (379);
+--Arcadian Spider Nest
+--Arcadian Spider Nest --CardIndex cXXX --CharacterIndex chXXX --ArcadeCharacterIndex arXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Arcadian Spider Nest',
+'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Arcadian_Spider_Nest/Card_Arcade_Warband_Arcadian_Spider_Nest_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Arcadian_Spider_Nest/Card_Arcade_Warband_Arcadian_Spider_Nest_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Arcadian_Spider_Nest/Arcadian_Spider_Nest.xhtml', 
+'Arcade Gang', '2.0', '2.0 Core Set', 'Default', 
+'In the dry and barren lands of Arcadia spiders have been forced to adapt to protect themselves from the harsh climate, as well as their methods when hunting for food.  Lacking natural terrain in which to build webs, Trapdoor Spiders build covered burrows near sources of water, bursting from the ground when prey grows near.  Others, such as the Leaping Spider, rely on pure speed.  Able to outpace even even horses, these speedy spiders are terrifying predators of the dunes.');
+insert into Characters (CardIndex) VALUES (cXXX);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (295, 0, -1);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (295, 2); --Emerald
---GangMemberIndex 47
+VALUES (chXXX, 0, -1);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 2); --Emerald
+--GangMemberIndex gXXX
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex);
-VALUES (47, 0, 'Bramble Knight', 'Spawning Point', '', 0, 4, 1, 179);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (47, 557); --Immune: Status Effects
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (47, 478); --Bramble Growth
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (47, 661); --Spawning Pool
+VALUES (arXXX, 0, 'Arcadian Spider Nest', 'Spawning Point', '', 0, 3, 1, eXXX);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, kXXX); --Immune: Status Effects
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, kXXX); --Webs
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, kXXX); --Spawning Pool
 
---Executioners	--CardIndex cXXX	--CharacterIndex chXXX	--ArcadeCharacterIndex arXXX
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Bramble Knight',
-'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Bramble_Knight/Card_Arcade_Warband_Bramble_Knight_Executioners_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Bramble_Knight/Card_Arcade_Warband_Bramble_Knight_Executioners_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Bramble_Knight/Executioners.xhtml', 
+--Inescapable Swarm	--CardIndex cXXX	--CharacterIndex chXXX	--ArcadeCharacterIndex arXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Inescapable Swarm',
+'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Arcadian_Spider_Nest/Card_Arcade_Warband_Arcadian_Spider_Nest_Inescapable_Swarm_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Arcadian_Spider_Nest/Card_Arcade_Warband_Arcadian_Spider_Nest_Inescapable_Swarm_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Arcadian_Spider_Nest/Inescapable_Swarm.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Default', 
-'Squards of Executioners were dispatched to carry out The Forgotten King''s "justice" against any who would not rally to his cause against the First King.  Ruthless in their methods, the Executioners became a feared sight that haunt the long memories of Crystalians even now.');
-insert into Characters (CardIndex) VALUES (380);
+'Duskweavers are an ancient branch of Arcadian Spider Speakers who see spiders as not only fierce creatures to be used in battle, but as pure expressions of the Dark Consul'' malevolent will and intent.  Duskweaver Acolytes are charged with tending to the Dark Consul''s sacred spiders, and proselytizing the unbeliever to their cause.  Of course, there are those who deny the purity and sanctity of the Dark Consul''s chosen.  For those who cannot be swayed, a Duskweaver Acolyte is never far from a nest of Trapdoor Spiders, charged with keeping their temple safe, and free of those who do not see the true way.');
+insert into Characters (CardIndex) VALUES (cXXX);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (296, 142, 154);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (296, 1); --Citrine
---GangMemberIndex 48
+VALUES (chXXX, 241, 362);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 2); --Emerald
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 3); --Ruby
+--GangMemberIndex gXXX
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex);
-VALUES (48, 0, 'Grobbit Executioner', 'Chimera', 'Elite', 5, 3, 2, 182);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (48, 571); --Massive Damaage
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (48, 266); --Death Sentence
---GangMemberIndex 49
+VALUES (arXXX, 0, 'Duskweaver Acolyte', 'Nether Elf Witch', 'Elite', 8, 3, 2, eXXX);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, kXXX); --Poison
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, kXXX); --Immune: Poison
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (gXXX, abXXX); --Scuttling Swarm
+--GangMemberIndex gXXX
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex);
-VALUES (48, 1, 'Billmen', 'Chimera', 'Minion', 5, 1, 1, 180);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (49, 625); --Slow
+VALUES (arXXX, 1, 'Trapdoor Spider', 'Spider', 'Minion', 8, 1, 1, eXXX);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, kXXX); --Immune: Poison
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (gXXX, abXXX); --Wait In Shadow
+
+--Terrifying Leapers	--CardIndex cXXX	--CharacterIndex chXXX	--ArcadeCharacterIndex arXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Terrifying Leapers',
+'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Arcadian_Spider_Nest/Card_Arcade_Warband_Arcadian_Spider_Nest_Terrifying_Leapers_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Arcadian_Spider_Nest/Card_Arcade_Warband_Arcadian_Spider_Nest_Terrifying_Leapers_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Arcadian_Spider_Nest/Terrifying_Leapers.xhtml', 
+'Warband', '2.0', '2.0 Core Set', 'Default', 
+'Marked in black and sunset orange, Leaping Spiders appear as a blur of fire streaking across the dessert as they hunt.  When they pounce, their black bodies obscure the sun and their legs go wide, catching the sun''s corona like a fiery demon of death.');
+insert into Characters (CardIndex) VALUES (cXXX);
+insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
+VALUES (chXXX, 124, 134);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 2); --Emerald
+--GangMemberIndex gXXX
+insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex);
+VALUES (arXXX, 0, 'Leaping Spider', 'Spider', 'Elite', 12, 1, 1, eXXX);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, kXXX); --Immune: Poison
+--GangMemberIndex gXXX
+insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex);
+VALUES (arXXX, 1, 'Leaping Spider', 'Spider', 'Elite', 12, 1, 1, eXXX);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, kXXX); --Immune: Poison
