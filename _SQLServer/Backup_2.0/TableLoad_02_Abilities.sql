@@ -3,7 +3,7 @@
 
 /*Ambush Predator													--Index kXXX*/ 	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Default', 'Ambush Predator', 'Action', 'Offense', 1, 1, 5, '1SW, Pounce');
 
-/*Cocoon															--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Exlore', 'Cocoon', 'Action', 'Support', 2, 4, 3, '3RANGE, DEX vs DEX, IMMOBILE');
+/*Cocoon															--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Explore', 'Cocoon', 'Action', 'Support', 2, 4, 3, '3RANGE, DEX vs DEX, IMMOBILE');
 /*Cocoon															--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Cocoon', 'Action', 'Support', 0, 1, -1, 'Wave 4, IMMOBILE');
 
 /*Cold Fury															--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Default', 'Cold Fury', 'Action', 'Support', 1, -1, 0, 'AUGMENT, +1R STR');
