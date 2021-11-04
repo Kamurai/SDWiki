@@ -42,6 +42,7 @@ create table GangMembers (GangMemberIndex bigint IDENTITY(0,1) PRIMARY KEY, Arca
 
 create table Equipment (EquipmentIndex bigint IDENTITY(0,1) PRIMARY KEY, CardIndex bigint not null, Position varchar(50) not null, Effect varchar(300) not null);
 create table EquipmentAssignments (EquipmentAssignmentIndex bigint IDENTITY(0,1) PRIMARY KEY, EquipmentIndex bigint, CharacterIndex bigint not null);
+create table Mounts (MountIndex bigint IDENTITY(0,1) PRIMARY KEY, EquipmentIndex bigint not null, Health int not null);
 
 create table BossSpawns (BossSpawnIndex bigint IDENTITY(0,1) PRIMARY KEY, CardIndex bigint not null, DungeonEffect varchar(375) not null, BossSpawnEffect varchar(375) not null, TimeoutEffect varchar(375) not null, DifficultyRating varchar(100) not null);
 create table BossSpawnAssignments (BossSpawnAssignmentIndex bigint IDENTITY(0,1) PRIMARY KEY, BossSpawnIndex bigint, CharacterIndex bigint not null);
