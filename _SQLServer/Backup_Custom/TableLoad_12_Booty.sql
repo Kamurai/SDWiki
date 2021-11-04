@@ -1,10 +1,10 @@
---2.0 Booty
+--Custom Booty
 --Boo Boody --CardIndex cXXX	--CharacterIndex chXXX	--ExploreCharacterIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Boo Booty',
-'http://htkb.info/SDE/2.0/Cards/Booty/Card_Boo_Booty_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Booty/Card_Boo_Booty_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Booty/Boo_Booty.xhtml', 
-'Booty', '2.0', '2.0 Core Set', 'Explore',   
+'http://htkb.info/SDE/Custom/Cards/Booty/Card_Boo_Booty_Custom.png', 
+'http://htkb.info/SDE/Custom/Cards/Booty/Card_Boo_Booty_Custom_back.png', 
+'http://htkb.online/SDWiki/SDE/Custom/Cards/Booty/Boo_Booty.xhtml', 
+'Booty', 'Custom', 'Custom Core Set', 'Explore',   
 'Boo booty are the unfortunate creation of gnomish tinkering paired with dwarven greed.  Orginally intended to guard the treasure vaults of the Hearthsworn Dwarves, the spirit of the Dark Consul filled the constructs with a malevolent intellect.  Turning upon their former masters, boo booty rabidly guard their treasure from all who would seek to drain it.');
 insert into Characters (CardIndex) VALUES (cXXX);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1); --Citrine
@@ -18,10 +18,10 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (cXX
 
 --Boo Boody --CardIndex cXXX	--CharacterIndex chXXX	--ExploreCharacterIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Boo Booty',
-'http://htkb.info/SDE/2.0/Cards/Booty/Card_Boo_Booty_2.0_DI.png', 
-'http://htkb.info/SDE/2.0/Cards/Booty/Card_Boo_Booty_2.0_DI_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Booty/Boo_Booty_DI.xhtml', 
-'Booty', '2.0 Devil''s Island', '2.0 Devil''s Island', 'Explore',   
+'http://htkb.info/SDE/Custom/Cards/Booty/Card_Boo_Booty_Custom_DI.png', 
+'http://htkb.info/SDE/Custom/Cards/Booty/Card_Boo_Booty_Custom_DI_back.png', 
+'http://htkb.online/SDWiki/SDE/Custom/Cards/Booty/Boo_Booty_DI.xhtml', 
+'Booty', 'Custom Devil''s Island', 'Custom Devil''s Island', 'Explore',   
 'Boo booty are the unfortunate creation of gnomish tinkering paired with dwarven greed.  Orginally intended to guard the treasure vaults of the Hearthsworn Dwarves, the spirit of the Dark Consul filled the constructs with a malevolent intellect.  Turning upon their former masters, boo booty rabidly guard their treasure from all who would seek to drain it.');
 insert into Characters (CardIndex) VALUES (cXXX);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1); --Citrine

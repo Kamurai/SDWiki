@@ -1,11 +1,11 @@
---2.0 --Warband Monsters
+--Custom --Warband Monsters
 --Arcadian Spider Nest
 --Arcadian Spider Nest --CardIndex cXXX --CharacterIndex chXXX --ExploreCharacterIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Arcadian Spider Nest',
-'http://htkb.info/SDE/2.0/Cards/Warbands/Arcadian_Spider_Nest/Card_Warband_Egg_Clutch_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Arcadian_Spider_Nest/Card_Warband_Egg_Clutch_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Arcadian_Spider_Nest/Arcadian_Spider_Nest.xhtml', 
-'Warband', '2.0', '2.0 Core Set', 'Explore',
+'http://htkb.info/SDE/Custom/Cards/Warbands/Arcadian_Spider_Nest/Card_Warband_Egg_Clutch_Custom.png', 
+'http://htkb.info/SDE/Custom/Cards/Warbands/Arcadian_Spider_Nest/Card_Warband_Egg_Clutch_Custom_back.png', 
+'http://htkb.online/SDWiki/SDE/Custom/Cards/Warbands/Arcadian_Spider_Nest/Arcadian_Spider_Nest.xhtml', 
+'Warband', 'Custom', 'Custom Core Set', 'Explore',
 'In the dry and barren lands of Arcadia spiders have been forced to adapt to protect themselves from the harsh climate, as well as their methods when hunting for food.  Lacking natural terrain in which to build webs, Trapdoor Spiders build covered burrows near sources of water, bursting from the ground when prey grows near.  Others, such as the Leaping Spider, rely on pure speed.  Able to outpace even even horses, these speedy spiders are terrifying predators of the dunes.');
 insert into Characters (CardIndex) VALUES (cXXX); 
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 2); --Emerald
@@ -19,10 +19,10 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (eXX
 
 --Duskweaver Acolyte --CardIndex cXXX --CharacterIndex chXXX --ExploreCharacterIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Duskweaver Acolyte',
-'http://htkb.info/SDE/2.0/Cards/Warbands/Arcadian_Spider_Nest/Card_Warband_Arcadian_Spider_Nest_Duskweaver_Acolyte_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Arcadian_Spider_Nest/Card_Warband_Arcadian_Spider_Nest_Duskweaver_Acolyte_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Arcadian_Spider_Nest/Duskweaver_Acolyte.xhtml', 
-'Warband', '2.0', '2.0 Core Set', 'Explore',
+'http://htkb.info/SDE/Custom/Cards/Warbands/Arcadian_Spider_Nest/Card_Warband_Arcadian_Spider_Nest_Duskweaver_Acolyte_Custom.png', 
+'http://htkb.info/SDE/Custom/Cards/Warbands/Arcadian_Spider_Nest/Card_Warband_Arcadian_Spider_Nest_Duskweaver_Acolyte_Custom_back.png', 
+'http://htkb.online/SDWiki/SDE/Custom/Cards/Warbands/Arcadian_Spider_Nest/Duskweaver_Acolyte.xhtml', 
+'Warband', 'Custom', 'Custom Core Set', 'Explore',
 'Duskweavers are an ancient branch of Arcadian Spider Speakers who see spiders as not only monstrous minions to be used as expendable chaff, but as pure expressions of the Dark Consul''s malevolent will and intent.  Duskweaver Acolytes are charged with tending to the Dark Consul''s sacred spiders, and proselytizing the unbeliever to their cause.');
 insert into Characters (CardIndex) VALUES (cXXX);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 2); --Emerald
@@ -42,10 +42,10 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (eXX
 
 --Leaping Spider --CardIndex cXXX --CharacterIndex chXXX --ExploreCharacterIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Leaping Spider',
-'http://htkb.info/SDE/2.0/Cards/Warbands/Arcadian_Spider_Nest/Card_Warband_Arcadian_Spider_Nest_Leaping_Spider_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Arcadian_Spider_Nest/Card_Warband_Arcadian_Spider_Nest_Leaping_Spider_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Arcadian_Spider_Nest/Leaping_Spider.xhtml', 
-'Warband', '2.0', '2.0 Core Set', 'Explore',
+'http://htkb.info/SDE/Custom/Cards/Warbands/Arcadian_Spider_Nest/Card_Warband_Arcadian_Spider_Nest_Leaping_Spider_Custom.png', 
+'http://htkb.info/SDE/Custom/Cards/Warbands/Arcadian_Spider_Nest/Card_Warband_Arcadian_Spider_Nest_Leaping_Spider_Custom_back.png', 
+'http://htkb.online/SDWiki/SDE/Custom/Cards/Warbands/Arcadian_Spider_Nest/Leaping_Spider.xhtml', 
+'Warband', 'Custom', 'Custom Core Set', 'Explore',
 'Marked in black and sunset orange, Leaping Spiders appear as a blur of fire streaking across the dessert as they hunt.  When they pounce, their black bodies obscure the sun and their legs go wide, catching the sun''s corona like a fiery demon of death.');
 insert into Characters (CardIndex) VALUES (41); 
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 2); --Emerald
@@ -61,10 +61,10 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (eXX
 
 --Trapdoor Spider --CardIndex cXXX --CharacterIndex chXXX --ExploreCharacterIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Trapdoor Spider',
-'http://htkb.info/SDE/2.0/Cards/Warbands/Arcadian_Spider_Nest/Card_Warband_Arcadian_Spider_Nest_Trapdoor_Spider_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Arcadian_Spider_Nest/Card_Warband_Arcadian_Spider_Nest_Trapdoor_Spider_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Arcadian_Spider_Nest/Trapdoor_Spider.xhtml', 
-'Warband', '2.0', '2.0 Core Set', 'Explore',
+'http://htkb.info/SDE/Custom/Cards/Warbands/Arcadian_Spider_Nest/Card_Warband_Arcadian_Spider_Nest_Trapdoor_Spider_Custom.png', 
+'http://htkb.info/SDE/Custom/Cards/Warbands/Arcadian_Spider_Nest/Card_Warband_Arcadian_Spider_Nest_Trapdoor_Spider_Custom_back.png', 
+'http://htkb.online/SDWiki/SDE/Custom/Cards/Warbands/Arcadian_Spider_Nest/Trapdoor_Spider.xhtml', 
+'Warband', 'Custom', 'Custom Core Set', 'Explore',
 'Lurking just underfoot, Trapdoor Spiders build vast tunnel networks beneath the dunes.  Covered in thick purple hairs that allow it to sense the barest tremor or shift in the sand for miles around, the spider will race through its tunnels towards a disturbance.  Once it has located its prey, the spider springs from one of dozens of carefully conceal trapdoors, quickly subduing and dragging its dinner into its labyrinth.');
 insert into Characters (CardIndex) VALUES (cXXX); 
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 2); --Emerald

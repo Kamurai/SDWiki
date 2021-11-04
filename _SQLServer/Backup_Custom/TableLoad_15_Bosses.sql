@@ -1,10 +1,10 @@
---2.0 Bosses
+--Custom Bosses
 --Bomechan --CardIndex cXXX --CharacterIndex chXXX --ExploreCharacterIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Bomechan',
-'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Bomechan_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Bomechan_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Bosses/Bomechan.xhtml', 
-'Boss', '2.0 Devil''s Island', '2.0 Devil''s Island', 'Explore',
+'http://htkb.info/SDE/Custom/Cards/Bosses/Card_Boss_Bomechan_Custom.png', 
+'http://htkb.info/SDE/Custom/Cards/Bosses/Card_Boss_Bomechan_Custom_back.png', 
+'http://htkb.online/SDWiki/SDE/Custom/Cards/Bosses/Bomechan.xhtml', 
+'Boss', 'Custom Devil''s Island', 'Custom Devil''s Island', 'Explore',
 'Bomechan is a striking beauty of clan Ijin, but the pair of iron-spiked tetsubo and her hearty laughter as she swings them are her most arresting features.  She loves a challenge and seeks to place herself on the Moon Throne, because she sees this as the greatest challenge of all.');
 insert into Characters (CardIndex) VALUES (cXXX);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 0); --Amethyst

@@ -1,10 +1,10 @@
---2.0 MiniBoss
+--Custom MiniBoss
 --Arachne --CardIndex cXXX	--CharacterIndex chXXX	--ExploreCharacterIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Arachne',
-'http://htkb.info/SDE/2.0/Cards/Minibosses/Card_Miniboss_Arachne_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Minibosses/Card_Miniboss_Arachne_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Minibosses/Arachne.xhtml', 
-'Miniboss', '2.0', '2.0 Core Set', 'Explore',
+'http://htkb.info/SDE/Custom/Cards/Minibosses/Card_Miniboss_Arachne_Custom.png', 
+'http://htkb.info/SDE/Custom/Cards/Minibosses/Card_Miniboss_Arachne_Custom_back.png', 
+'http://htkb.online/SDWiki/SDE/Custom/Cards/Minibosses/Arachne.xhtml', 
+'Miniboss', 'Custom', 'Custom Core Set', 'Explore',
 '');
 insert into Characters (CardIndex) VALUES (cXXX);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 2); --Emerald

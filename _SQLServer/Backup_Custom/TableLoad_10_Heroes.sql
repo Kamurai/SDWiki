@@ -1,10 +1,10 @@
---2.0 Heroes
+--Custom Heroes
 --Abominable Snowman --CardIndex cXXX	--CharacterIndex chXXX	--ExploreCharacterIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Abominable Snowman', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Abominable_Snowman_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Abominable_Snowman_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Abominable_Snowman.xhtml', 
-'Hero', '2.0', '2.0 Core Set', 'Default', 
+'http://htkb.info/SDE/Custom/Cards/Heroes/Card_Hero_Abominable_Snowman_Custom.png', 
+'http://htkb.info/SDE/Custom/Cards/Heroes/Card_Hero_Abominable_Snowman_Custom_back.png', 
+'http://htkb.online/SDWiki/SDE/Custom/Cards/Heroes/Abominable_Snowman.xhtml', 
+'Hero', 'Custom', 'Custom Core Set', 'Default', 
 '');
 insert into Characters (CardIndex) VALUES (cXXX);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 3); --Ruby
