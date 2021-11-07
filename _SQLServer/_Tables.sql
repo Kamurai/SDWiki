@@ -3,7 +3,7 @@
 --drop table KeywordAssignments
 --drop table KeywordAssignments, AbilityAssignments, OffenseAssignments, DefenseAssignments
 --drop table Cards, Characters, Affinities, AffinityAssignments, KeywordAssignments, AbilityAssignments, ExploreCharacters, Attributes, OffenseAssignments, DefenseAssignments, Pets, Monsters, ArcadeCharacters, StatLines, GangMembers, Equipment, EquipmentAssignments, BossSpawns, BossSpawnAssignments, Utilities, Explores, ExploreTraps, ExploreCreeps, ExploreAssignments, Challenges, ChallengeAssignments, Plots, MightyMonsters;
-
+--drop table Mechs;
 create table Cards (CardIndex bigint IDENTITY(0,1) PRIMARY KEY, Name varchar(50) not null, PictureFront varchar(125) not null, PictureBack varchar(125) not null, Link varchar(125) not null, CardType varchar(20) not null, ProductSet varchar(20) not null, ProductModule varchar(20) not null, PlayMode varchar(10) not null, Flavor varchar(1250));
 create table Characters (CharacterIndex bigint IDENTITY(0,1) PRIMARY KEY, CardIndex bigint not null);
 create table Affinities (AffinityIndex bigint IDENTITY(0,1) PRIMARY KEY, AffinityType varchar(50) not null);
@@ -42,7 +42,7 @@ create table GangMembers (GangMemberIndex bigint IDENTITY(0,1) PRIMARY KEY, Arca
 
 create table Equipment (EquipmentIndex bigint IDENTITY(0,1) PRIMARY KEY, CardIndex bigint not null, Position varchar(50) not null, Effect varchar(300) not null);
 create table EquipmentAssignments (EquipmentAssignmentIndex bigint IDENTITY(0,1) PRIMARY KEY, EquipmentIndex bigint, CharacterIndex bigint not null);
-create table Mounts (MountIndex bigint IDENTITY(0,1) PRIMARY KEY, EquipmentIndex bigint not null, Health int not null);
+create table Mechs (MechIndex bigint IDENTITY(0,1) PRIMARY KEY, EquipmentIndex bigint not null, Health int not null);
 
 create table BossSpawns (BossSpawnIndex bigint IDENTITY(0,1) PRIMARY KEY, CardIndex bigint not null, DungeonEffect varchar(375) not null, BossSpawnEffect varchar(375) not null, TimeoutEffect varchar(375) not null, DifficultyRating varchar(100) not null);
 create table BossSpawnAssignments (BossSpawnAssignmentIndex bigint IDENTITY(0,1) PRIMARY KEY, BossSpawnIndex bigint, CharacterIndex bigint not null);

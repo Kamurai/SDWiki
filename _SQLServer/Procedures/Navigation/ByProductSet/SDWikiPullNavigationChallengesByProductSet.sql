@@ -1,7 +1,7 @@
 --drop PROCEDURE SDWikiPullNavigationChallengeCardsByProductSet;
 
 create PROCEDURE SDWikiPullNavigationChallengeCardsByProductSet(
-	@strVersion varChar(3)
+	@strVersion varChar(6)
 )
 AS
 BEGIN
