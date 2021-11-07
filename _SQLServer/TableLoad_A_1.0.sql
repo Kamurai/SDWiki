@@ -1944,7 +1944,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Equipment (CardIndex, Position, Effect) VALUES (122, 'Top', '+1G Armor');
 --Rune of Quicksilver --EquipmentIndex 51 --CardIndex 123
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Rune of Quicksilver',
-'http://htkb.info/SDE/1.0/Cards/Treasure/Generic/Treasure_Rune_Of_Quicksilver_1.0.png', 
+'http://htkb.info/SDE/1.0/Cards/Treasure/Generic/Card_Treasure_Rune_Of_Quicksilver_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Treasure/Generic/Card_Treasure_Back_1.0.png',
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Treasure/Generic/Rune_Of_Quicksilver.xhtml', 
 'Treasure', '1.0', '1.0 Core Set', 'Default',

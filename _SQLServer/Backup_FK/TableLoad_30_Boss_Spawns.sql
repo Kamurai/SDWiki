@@ -13,7 +13,6 @@ VALUES (426, '',
 '');
 insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (3, 171); 
 
-
 --The Forgotten King --CardIndex 427   --BossSpawnIndex 4  
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('The Forgotten King', 
 'http://htkb.info/SDE/FK/Cards/Boss_Spawns/Card_Boss_Spawn_Forgotten_King_The_FK.png', 
@@ -27,7 +26,6 @@ VALUES (427, '',
 'Last Stand:  Forgotten King, elite, and minion monsters gain Immune: Status Effects.',
 '');
 insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (4, 172); 
-
 
 --Goro     --CardIndex 428   --BossSpawnIndex 5  
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Goro', 
@@ -43,7 +41,6 @@ VALUES (428, '',
 '');
 insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (5, 173); 
 
-
 --King Starfire     --CardIndex 429   --BossSpawnIndex 6  
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('King Starfire', 
 'http://htkb.info/SDE/FK/Cards/Boss_Spawns/Card_Boss_Spawn_King_Starfire_FK.png', 
@@ -57,7 +54,6 @@ VALUES (429, '',
 'Baptized by Fire:  King Starfire may remove one wound token for every Hero suffering FIRE.',
 '');
 insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (6, 174); 
-
 
 --Roxor  --CardIndex 430   --BossSpawnIndex 7  
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Roxor', 
@@ -74,7 +70,6 @@ insert into BossSpawns (CardIndex, DungeonEffect, BossSpawnEffect, TimeoutEffect
 insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (7, 176); 
 insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (7, 177); 
 
-
 --Starfire     --CardIndex 431   --BossSpawnIndex 8  
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Starfire', 
 'http://htkb.info/SDE/FK/Cards/Boss_Spawns/Card_Boss_Spawn_Starfire_FK.png', 
@@ -88,7 +83,6 @@ insert into BossSpawns (CardIndex, DungeonEffect, BossSpawnEffect, TimeoutEffect
 'Fire Storm:  All Heroes suffer FIRE.',
 '');
 insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (8, 178); 
-
 
 --Von Drakk     --CardIndex 432   --BossSpawnIndex 9  
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Von Drakk', 

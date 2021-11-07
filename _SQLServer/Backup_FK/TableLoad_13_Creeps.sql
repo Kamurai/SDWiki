@@ -1,5 +1,4 @@
 --FK Creeps
---Creeps
 --Citrine Slime --CardIndex 222	--CharacterIndex 138	--ExploreCharacterIndex 138
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Citrine Slime',
 'http://htkb.info/SDE/FK/Cards/Creeps/Card_Creep_Citrine_Slime_FK.png', 

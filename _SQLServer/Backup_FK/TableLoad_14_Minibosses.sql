@@ -1,6 +1,4 @@
---FK
---MiniBoss
-
+--FK MiniBoss
 --Bashful Boris (Beta) --CardIndex 230	--CharacterIndex 146	--ExploreCharacterIndex 146
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Bashful Boris (Beta)',
 'http://htkb.info/SDE/FK/Cards/MiniBosses/Card_MiniBoss_Bashful_Boris_Beta_FK.png', 

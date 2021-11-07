@@ -1,5 +1,5 @@
 --FK Pets
---Pets --Admiral Fuzzybottom --CardIndex 214	--CharacterIndex 127	--ExploreCharacterIndex 127
+--Admiral Fuzzybottom --CardIndex 214	--CharacterIndex 127	--ExploreCharacterIndex 127
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Admiral Fuzzybottom',
 'http://htkb.info/SDE/FK/Cards/Pets/Card_Pet_Admiral_Fuzzybottom_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Pets/Card_Pet_Admiral_Fuzzybottom_FK_back.png', 
