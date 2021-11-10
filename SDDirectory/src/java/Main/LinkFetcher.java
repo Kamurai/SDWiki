@@ -37,6 +37,7 @@ public class LinkFetcher{
         if(filesList != null){
             for(File file : filesList) {
                 String potential = file.getAbsolutePath();
+                potential = potential.replace('\\', '/');
 
                 if(verifyFileExtension(potential)){
                     potential = stripAndBuildLink(potential);
@@ -75,6 +76,7 @@ public class LinkFetcher{
         if(filesList != null){
             for(File file : filesList) {
                 String potential = file.getAbsolutePath();
+                potential = potential.replace('\\', '/');
 
                 if(verifyFileExtension(potential)){
                     potential = stripAndBuildLink(prefix, potential);

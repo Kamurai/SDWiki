@@ -1,7 +1,7 @@
 --drop PROCEDURE SDWikiPullNavigationArcadeBossesByProductSet;
 
 create PROCEDURE SDWikiPullNavigationArcadeBossesByProductSet(
-	@strVersion varChar(3)
+	@strVersion varChar(6)
 )
 AS
 BEGIN

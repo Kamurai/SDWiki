@@ -1,7 +1,7 @@
 --drop PROCEDURE SDWikiPullNavigationHeroesByProductSet;
 
 create PROCEDURE SDWikiPullNavigationHeroesByProductSet(
-	@strVersion varChar(3)
+	@strVersion varChar(6)
 )
 AS
 BEGIN
