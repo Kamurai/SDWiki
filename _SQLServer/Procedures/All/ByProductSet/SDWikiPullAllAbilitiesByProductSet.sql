@@ -8,5 +8,6 @@ BEGIN
 	select * 
 	from AbilitiesView
 	where AbilitiesView.AbilityVersion = @strVersion
+	ORDER BY AbilityName
 	;
 END

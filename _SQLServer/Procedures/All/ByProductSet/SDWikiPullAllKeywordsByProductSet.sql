@@ -8,5 +8,6 @@ BEGIN
 	select * 
 	from KeywordsView
 	where KeywordsView.KeywordVersion = @strVersion
+	ORDER BY KeywordName
 	;
 END
