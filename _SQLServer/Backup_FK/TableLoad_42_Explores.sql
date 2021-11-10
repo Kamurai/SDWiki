@@ -508,17 +508,415 @@ insert into ExploreCreeps (ExploreIndex, CreepNumber) VALUES (eXXX, 1);
 insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (eXXX, chXXX);--Goro
 
 
---Berry Patch	--CardIndex cXXX	--UtilityIndex uXXX	--ExploreIndex eXXX	--ExploreCreepIndex	--ExploreTrapIndex
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Berry Patch',
-'http://htkb.info/SDE/FK/Cards/Utility/Explore/Specific/Goro/Card_Explore_Berry_Patch_FK.png', 
+--1-Up	--CardIndex cXXX	--UtilityIndex uXXX	--ExploreIndex eXXX	--ExploreCreepIndex	--ExploreTrapIndex
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('1-Up',
+'http://htkb.info/SDE/FK/Cards/Utility/Explore/Specific/Roxor/Card_Explore_1_Up_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
-'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Explore/Berry_Patch.xhtml', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Explore/1_Up.xhtml', 
 'Warband', 'FK', 'FK Core Set', 'Default', 
-'Don''t eat those.');
+'Save this for later.');
+insert into Utilities (CardIndex, UtilityDescription) VALUES (cXXX, 'Add one Princess Coin to the party''s backpack.');
+insert into Explores (UtilityIndex) VALUES (uXXX);
+insert into ExploreCreeps (ExploreIndex, CreepNumber) VALUES (eXXX, 2);
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (eXXX, chXXX);--Roxor
+
+
+--Dusty Cartridge	--CardIndex cXXX	--UtilityIndex uXXX	--ExploreIndex eXXX	--ExploreCreepIndex	--ExploreTrapIndex
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Dusty Cartridge',
+'http://htkb.info/SDE/FK/Cards/Utility/Explore/Specific/Roxor/Card_Explore_Dusty_Cartridge_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Explore/Dusty_Cartridge.xhtml', 
+'Warband', 'FK', 'FK Core Set', 'Default', 
+'Blow on it.');
+insert into Utilities (CardIndex, UtilityDescription) VALUES (cXXX, 'Choose one Hero.  All monsters within 3 squares suffer KNOCKDOWN.');
+insert into Explores (UtilityIndex) VALUES (uXXX);
+insert into ExploreCreeps (ExploreIndex, CreepNumber) VALUES (eXXX, 1);
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (eXXX, chXXX);--Roxor
+
+
+--Fire Flowers	--CardIndex cXXX	--UtilityIndex uXXX	--ExploreIndex eXXX	--ExploreCreepIndex	--ExploreTrapIndex
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Fire Flowers',
+'http://htkb.info/SDE/FK/Cards/Utility/Explore/Specific/Roxor/Card_Explore_Fire_Flowers_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Explore/Fire_Flowers.xhtml', 
+'Warband', 'FK', 'FK Core Set', 'Default', 
+'Danger.  Do not sniff the flowers.');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (cXXX, '1ST, 2x2');
 insert into Explores (UtilityIndex) VALUES (uXXX);
 insert into ExploreCreeps (ExploreIndex, CreepNumber) VALUES (eXXX, 0);
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (eXXX, 341);--Frost Berries
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (eXXX, 391);--Hot, Hot, Hot!
+
+
+--Funny Costumes	--CardIndex cXXX	--UtilityIndex uXXX	--ExploreIndex eXXX	--ExploreCreepIndex	--ExploreTrapIndex
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Funny Costumes',
+'http://htkb.info/SDE/FK/Cards/Utility/Explore/Specific/Roxor/Card_Explore_Funny_Costumes_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Explore/Funny_Costumes.xhtml', 
+'Warband', 'FK', 'FK Core Set', 'Default', 
+'You look adorable.');
+insert into Utilities (CardIndex, UtilityDescription) VALUES (cXXX, 'When a Hero enters this tile they may draw one treasure card.  They may use the treasure card exactly as if it were equipped.  Discard the card after leaving the tile.');
+insert into Explores (UtilityIndex) VALUES (uXXX);
+insert into ExploreCreeps (ExploreIndex, CreepNumber) VALUES (eXXX, 3);
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (eXXX, chXXX);--Roxor
+
+
+--Heroic Princess	--CardIndex cXXX	--UtilityIndex uXXX	--ExploreIndex eXXX	--ExploreCreepIndex	--ExploreTrapIndex
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Heroic Princess',
+'http://htkb.info/SDE/FK/Cards/Utility/Explore/Specific/Roxor/Card_Explore_Heroic_Princess_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Explore/Heroic_Princess.xhtml', 
+'Warband', 'FK', 'FK Core Set', 'Default', 
+'Well done princess!');
+insert into Utilities (CardIndex, UtilityDescription) VALUES (cXXX, 'After destroying this tile''s mini-boss add one Princess Coin to the party''s backpack.');
+insert into Explores (UtilityIndex) VALUES (uXXX);
+insert into ExploreCreeps (ExploreIndex, CreepNumber) VALUES (eXXX, 1);
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (eXXX, chXXX);--Roxor
+
+
+--Pixelated	--CardIndex cXXX	--UtilityIndex uXXX	--ExploreIndex eXXX	--ExploreCreepIndex	--ExploreTrapIndex
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Pixelated',
+'http://htkb.info/SDE/FK/Cards/Utility/Explore/Specific/Roxor/Card_Explore_Pixelated_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Explore/Pixelated.xhtml', 
+'Warband', 'FK', 'FK Core Set', 'Default', 
+'Go straight, please.');
+insert into Utilities (CardIndex, UtilityDescription) VALUES (cXXX, 'Heroes cannot move diagonally.');
+insert into Explores (UtilityIndex) VALUES (uXXX);
+insert into ExploreCreeps (ExploreIndex, CreepNumber) VALUES (eXXX, 2);
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (eXXX, chXXX);--Roxor
+
+
+--POW!	--CardIndex cXXX	--UtilityIndex uXXX	--ExploreIndex eXXX	--ExploreCreepIndex	--ExploreTrapIndex
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('POW!',
+'http://htkb.info/SDE/FK/Cards/Utility/Explore/Specific/Roxor/Card_Explore_Pow_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Explore/Pow.xhtml', 
+'Warband', 'FK', 'FK Core Set', 'Default', 
+'Right in the kisser!');
+insert into Utilities (CardIndex, UtilityDescription) VALUES (cXXX, '3ST. 2x2');
+insert into Explores (UtilityIndex) VALUES (uXXX);
+insert into ExploreCreeps (ExploreIndex, CreepNumber) VALUES (eXXX, 2);
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (eXXX, 654);--Twomp!
+
+
+--Stone Wall	--CardIndex cXXX	--UtilityIndex uXXX	--ExploreIndex eXXX	--ExploreCreepIndex	--ExploreTrapIndex
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Stone Wall',
+'http://htkb.info/SDE/FK/Cards/Utility/Explore/Specific/Roxor/Card_Explore_Stone_Wall_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Explore/Stone_Wall.xhtml', 
+'Warband', 'FK', 'FK Core Set', 'Default', 
+'It''s solid rock.');
+insert into Utilities (CardIndex, UtilityDescription) VALUES (cXXX, '5ST, 1x4, Models may not move or draw line of sight through Stone Wall template.  When Stone Wall is triggered its effect continues until disarmed.');
+insert into Explores (UtilityIndex) VALUES (uXXX);
+insert into ExploreCreeps (ExploreIndex, CreepNumber) VALUES (eXXX, 0);
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (eXXX, chXXX);--Roxor
+
+
+--Burglar's Ring	--CardIndex cXXX	--UtilityIndex uXXX	--ExploreIndex eXXX	--ExploreCreepIndex	--ExploreTrapIndex
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Burglar''s Ring',
+'http://htkb.info/SDE/FK/Cards/Utility/Explore/Specific/Starfire/Card_Explore_Burglars_Ring_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Explore/Burglars_Ring.xhtml', 
+'Warband', 'FK', 'FK Core Set', 'Default', 
+'Can''t see me.');
+insert into Utilities (CardIndex, UtilityDescription) VALUES (cXXX, 'Choose one Hero.  An enemy model may only target that Hero if it is within 1 square of the model.');
+insert into Explores (UtilityIndex) VALUES (uXXX);
+insert into ExploreCreeps (ExploreIndex, CreepNumber) VALUES (eXXX, 3);
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (eXXX, chXXX);--Starfire
+
+
+--Dragon Pot	--CardIndex cXXX	--UtilityIndex uXXX	--ExploreIndex eXXX	--ExploreCreepIndex	--ExploreTrapIndex
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Dragon Pot',
+'http://htkb.info/SDE/FK/Cards/Utility/Explore/Specific/Starfire/Card_Explore_Dragon_Pot_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Explore/Dragon_Pot.xhtml', 
+'Warband', 'FK', 'FK Core Set', 'Default', 
+'Smells of sulfur.');
+insert into Utilities (CardIndex, UtilityDescription) VALUES (cXXX, '2ST, 2x2');
+insert into Explores (UtilityIndex) VALUES (uXXX);
+insert into ExploreCreeps (ExploreIndex, CreepNumber) VALUES (eXXX, 0);
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (eXXX, 189);--Boom
+
+
+--Dwarven Ale	--CardIndex cXXX	--UtilityIndex uXXX	--ExploreIndex eXXX	--ExploreCreepIndex	--ExploreTrapIndex
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Dwarven Ale',
+'http://htkb.info/SDE/FK/Cards/Utility/Explore/Specific/Starfire/Card_Explore_Dwarven_Ale_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Explore/Dwarven_Ale.xhtml', 
+'Warband', 'FK', 'FK Core Set', 'Default', 
+'That''s a good brew!');
+insert into Utilities (CardIndex, UtilityDescription) VALUES (cXXX, 'When the spawning point is destroyed, all Heroes remove all wound tokens, and then suffer POISON.');
+insert into Explores (UtilityIndex) VALUES (uXXX);
+insert into ExploreCreeps (ExploreIndex, CreepNumber) VALUES (eXXX, 3);
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (eXXX, chXXX);--Starfire
+
+
+--Kidnapped Villager	--CardIndex cXXX	--UtilityIndex uXXX	--ExploreIndex eXXX	--ExploreCreepIndex	--ExploreTrapIndex
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Kidnapped Villager',
+'http://htkb.info/SDE/FK/Cards/Utility/Explore/Specific/Starfire/Card_Explore_Kidnapped_Villager_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Explore/Kidnapped_Villager.xhtml', 
+'Warband', 'FK', 'FK Core Set', 'Default', 
+'You deserve a reward!');
+insert into Utilities (CardIndex, UtilityDescription) VALUES (cXXX, 'When the mini-boss is destroyed, draw one additional treasure card.');
+insert into Explores (UtilityIndex) VALUES (uXXX);
+insert into ExploreCreeps (ExploreIndex, CreepNumber) VALUES (eXXX, 2);
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (eXXX, chXXX);--Starfire
+
+
+--Molten Steel	--CardIndex cXXX	--UtilityIndex uXXX	--ExploreIndex eXXX	--ExploreCreepIndex	--ExploreTrapIndex
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Molten Steel',
+'http://htkb.info/SDE/FK/Cards/Utility/Explore/Specific/Starfire/Card_Explore_Molten_Steel_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Explore/Molten_Steel.xhtml', 
+'Warband', 'FK', 'FK Core Set', 'Default', 
+'My sword is bendy.');
+insert into Utilities (CardIndex, UtilityDescription) VALUES (cXXX, '2ST, 1x4');
+insert into Explores (UtilityIndex) VALUES (uXXX);
+insert into ExploreCreeps (ExploreIndex, CreepNumber) VALUES (eXXX, 0);
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (eXXX, 437);--Melty Weapons
+
+
+--Mountain of Gold	--CardIndex cXXX	--UtilityIndex uXXX	--ExploreIndex eXXX	--ExploreCreepIndex	--ExploreTrapIndex
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Mountain of Gold',
+'http://htkb.info/SDE/FK/Cards/Utility/Explore/Specific/Starfire/Card_Explore_Mountain_of_Gold_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Explore/Mountain_of_Gold.xhtml', 
+'Warband', 'FK', 'FK Core Set', 'Default', 
+'So tall.');
+insert into Utilities (CardIndex, UtilityDescription) VALUES (cXXX, 'Until the spawning point is destroyed all models halve their movement, rounding up.  This effect does not stack with SLOW.');
+insert into Explores (UtilityIndex) VALUES (uXXX);
+insert into ExploreCreeps (ExploreIndex, CreepNumber) VALUES (eXXX, 2);
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (eXXX, chXXX);--Starfire
+
+
+--New Player	--CardIndex cXXX	--UtilityIndex uXXX	--ExploreIndex eXXX	--ExploreCreepIndex	--ExploreTrapIndex
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('New Player',
+'http://htkb.info/SDE/FK/Cards/Utility/Explore/Specific/Starfire/Card_Explore_New_Player_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Explore/New_Player.xhtml', 
+'Warband', 'FK', 'FK Core Set', 'Default', 
+'Anyone know who this is?');
+insert into Utilities (CardIndex, UtilityDescription) VALUES (cXXX, 'Choose one Hero that is not being played and place it in the tile.  It may be activated once during any Hero''s Turn.  Then remove it from play.');
+insert into Explores (UtilityIndex) VALUES (uXXX);
+insert into ExploreCreeps (ExploreIndex, CreepNumber) VALUES (eXXX, 1);
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (eXXX, chXXX);--Starfire
+
+
+--Sacrificial Altar	--CardIndex cXXX	--UtilityIndex uXXX	--ExploreIndex eXXX	--ExploreCreepIndex	--ExploreTrapIndex
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Sacrificial Altar',
+'http://htkb.info/SDE/FK/Cards/Utility/Explore/Specific/Starfire/Card_Explore_Sacrificial_Altar_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Explore/Sacrificial_Altar.xhtml', 
+'Warband', 'FK', 'FK Core Set', 'Default', 
+'Give to the Dragon.');
+insert into Utilities (CardIndex, UtilityDescription) VALUES (cXXX, 'Choose one Hero.  An enemy model may only target that Hero if it is within 1 square of the model.');
+insert into Explores (UtilityIndex) VALUES (uXXX);
+insert into ExploreCreeps (ExploreIndex, CreepNumber) VALUES (eXXX, 0);
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (eXXX, 458);--Offering
+
+
+--Abandoned Mine Shaft	--CardIndex cXXX	--UtilityIndex uXXX	--ExploreIndex eXXX	--ExploreCreepIndex	--ExploreTrapIndex
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Abandoned Mine Shaft',
+'http://htkb.info/SDE/FK/Cards/Utility/Explore/Specific/Testudo_Tower/Card_Explore_Abandoned_Mine_Shaft_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Explore/Abandoned_Mine_Shaft.xhtml', 
+'Warband', 'FK', 'FK Core Set', 'Default', 
+'Ahhhhhh!!!');
+insert into Utilities (CardIndex, UtilityDescription) VALUES (cXXX, '2ST, 2x2, Place affected Heroes adjacent to the start marker.  Place affected monsters adjacent to the nearest spawning point.');
+insert into Explores (UtilityIndex) VALUES (uXXX);
+insert into ExploreCreeps (ExploreIndex, CreepNumber) VALUES (eXXX, 0);
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (eXXX, chXXX);--Testudo Tower
+
+
+--Bomb Flower	--CardIndex cXXX	--UtilityIndex uXXX	--ExploreIndex eXXX	--ExploreCreepIndex	--ExploreTrapIndex
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Bomb Flower',
+'http://htkb.info/SDE/FK/Cards/Utility/Explore/Specific/Testudo_Tower/Card_Explore_Bomb_Flower_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Explore/Bomb_Flower.xhtml', 
+'Warband', 'FK', 'FK Core Set', 'Default', 
+'Careful where you throw that!');
+insert into Utilities (CardIndex, UtilityDescription) VALUES (cXXX, 'Discard during a Hero''s activation to perform the action:');
+insert into Explores (UtilityIndex) VALUES (uXXX);
+insert into ExploreCreeps (ExploreIndex, CreepNumber) VALUES (eXXX, 3);
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (eXXX, 308);--Explode
+
+
+--Bumper Shells	--CardIndex cXXX	--UtilityIndex uXXX	--ExploreIndex eXXX	--ExploreCreepIndex	--ExploreTrapIndex
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Bumper Shells',
+'http://htkb.info/SDE/FK/Cards/Utility/Explore/Specific/Testudo_Tower/Card_Explore_Bumper_Shells_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Explore/Bumper_Shells.xhtml', 
+'Warband', 'FK', 'FK Core Set', 'Default', 
+'If I can just get the right angle...');
+insert into Utilities (CardIndex, UtilityDescription) VALUES (cXXX, '1ST, 2x2, When a model is affected by Bumper Shells, its player may move the model 3 squares using the rules for push.');
+insert into Explores (UtilityIndex) VALUES (uXXX);
+insert into ExploreCreeps (ExploreIndex, CreepNumber) VALUES (eXXX, 0);
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (eXXX, chXXX);--Testudo Tower
+
+
+--Handy Tunnel	--CardIndex cXXX	--UtilityIndex uXXX	--ExploreIndex eXXX	--ExploreCreepIndex	--ExploreTrapIndex
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Handy Tunnel',
+'http://htkb.info/SDE/FK/Cards/Utility/Explore/Specific/Testudo_Tower/Card_Explore_Handy_Tunnel_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Explore/Handy_Tunnel.xhtml', 
+'Warband', 'FK', 'FK Core Set', 'Default', 
+'I think it''s safe.');
+insert into Utilities (CardIndex, UtilityDescription) VALUES (cXXX, 'Discard during a Hero''s upkeep.  The Hero may move through walls, and treats difficult terrain and structure squares as open squares until the end of its activation.');
+insert into Explores (UtilityIndex) VALUES (uXXX);
+insert into ExploreCreeps (ExploreIndex, CreepNumber) VALUES (eXXX, 1);
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (eXXX, chXXX);--Testudo Tower
+
+
+--Shell Up	--CardIndex cXXX	--UtilityIndex uXXX	--ExploreIndex eXXX	--ExploreCreepIndex	--ExploreTrapIndex
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Shell Up',
+'http://htkb.info/SDE/FK/Cards/Utility/Explore/Specific/Testudo_Tower/Card_Explore_Shell_Up_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Explore/Shell_Up.xhtml', 
+'Warband', 'FK', 'FK Core Set', 'Default', 
+'Turtle power!');
+insert into Utilities (CardIndex, UtilityDescription) VALUES (cXXX, 'Discard before making a defense roll to add +1R to the roll.');
+insert into Explores (UtilityIndex) VALUES (uXXX);
+insert into ExploreCreeps (ExploreIndex, CreepNumber) VALUES (eXXX, 1);
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (eXXX, chXXX);--Testudo Tower
+
+
+--Testudo Formation	--CardIndex cXXX	--UtilityIndex uXXX	--ExploreIndex eXXX	--ExploreCreepIndex	--ExploreTrapIndex
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Testudo Formation',
+'http://htkb.info/SDE/FK/Cards/Utility/Explore/Specific/Testudo_Tower/Card_Explore_Testudo_Formation_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Explore/Testudo_Formation.xhtml', 
+'Warband', 'FK', 'FK Core Set', 'Default', 
+'Form on me.');
+insert into Utilities (CardIndex, UtilityDescription) VALUES (cXXX, 'Discard during a Hero''s upkeep.  Remove all status effect tokens from the Hero, and all adjacent Heroes.');
+insert into Explores (UtilityIndex) VALUES (uXXX);
+insert into ExploreCreeps (ExploreIndex, CreepNumber) VALUES (eXXX, 2);
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (eXXX, chXXX);--Testudo Tower
+
+
+--Bone Rot	--CardIndex cXXX	--UtilityIndex uXXX	--ExploreIndex eXXX	--ExploreCreepIndex	--ExploreTrapIndex
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Bone Rot',
+'http://htkb.info/SDE/FK/Cards/Utility/Explore/Specific/Von_Drakk/Card_Explore_Bone_Rot_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Explore/Bone_Rot.xhtml', 
+'Warband', 'FK', 'FK Core Set', 'Default', 
+'I don''t feel good.');
+insert into Utilities (CardIndex, UtilityDescription) VALUES (cXXX, '2ST, 2x2');
+insert into Explores (UtilityIndex) VALUES (uXXX);
+insert into ExploreCreeps (ExploreIndex, CreepNumber) VALUES (eXXX, 0);
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (eXXX, 209);--Brittle Bone
+
+
+--Cackling Laughter	--CardIndex cXXX	--UtilityIndex uXXX	--ExploreIndex eXXX	--ExploreCreepIndex	--ExploreTrapIndex
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Cackling Laughter',
+'http://htkb.info/SDE/FK/Cards/Utility/Explore/Specific/Von_Drakk/Card_Explore_Cackling_Laughter_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Explore/Cackling_Laughter.xhtml', 
+'Warband', 'FK', 'FK Core Set', 'Default', 
+'That''s just creepy.');
+insert into Utilities (CardIndex, UtilityDescription) VALUES (cXXX, 'Players who cackle maniacally when making offense rolls may add +1B to the roll.');
+insert into Explores (UtilityIndex) VALUES (uXXX);
+insert into ExploreCreeps (ExploreIndex, CreepNumber) VALUES (eXXX, 2);
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (eXXX, chXXX);--Von Drakk
+
+
+--Ghost Well	--CardIndex cXXX	--UtilityIndex uXXX	--ExploreIndex eXXX	--ExploreCreepIndex	--ExploreTrapIndex
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ghost Well',
+'http://htkb.info/SDE/FK/Cards/Utility/Explore/Specific/Von_Drakk/Card_Explore_Ghost_Well_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Explore/Ghost_Well.xhtml', 
+'Warband', 'FK', 'FK Core Set', 'Default', 
+'I''m see-through!');
+insert into Utilities (CardIndex, UtilityDescription) VALUES (cXXX, 'All models ignore walls and structures for purposes of line of sight and movement.');
+insert into Explores (UtilityIndex) VALUES (uXXX);
+insert into ExploreCreeps (ExploreIndex, CreepNumber) VALUES (eXXX, 2);
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (eXXX, chXXX);--Von Drakk
+
+
+--Bone Rot	--CardIndex cXXX	--UtilityIndex uXXX	--ExploreIndex eXXX	--ExploreCreepIndex	--ExploreTrapIndex
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Bone Rot',
+'http://htkb.info/SDE/FK/Cards/Utility/Explore/Specific/Von_Drakk/Card_Explore_Bone_Rot_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Explore/Bone_Rot.xhtml', 
+'Warband', 'FK', 'FK Core Set', 'Default', 
+'I don''t feel good.');
+insert into Utilities (CardIndex, UtilityDescription) VALUES (cXXX, '2ST, 2x2');
+insert into Explores (UtilityIndex) VALUES (uXXX);
+insert into ExploreCreeps (ExploreIndex, CreepNumber) VALUES (eXXX, 0);
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (eXXX, 209);--Brittle Bone
+
+
+--Hidden Lever	--CardIndex cXXX	--UtilityIndex uXXX	--ExploreIndex eXXX	--ExploreCreepIndex	--ExploreTrapIndex
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Hidden Lever',
+'http://htkb.info/SDE/FK/Cards/Utility/Explore/Specific/Von_Drakk/Card_Explore_Hidden_Lever_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Explore/Hidden_Lever.xhtml', 
+'Warband', 'FK', 'FK Core Set', 'Default', 
+'What do you think this does?');
+insert into Utilities (CardIndex, UtilityDescription) VALUES (cXXX, 'Rotate the tile 90 degrees clockwise.');
+insert into Explores (UtilityIndex) VALUES (uXXX);
+insert into ExploreCreeps (ExploreIndex, CreepNumber) VALUES (eXXX, 0);
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (eXXX, chXXX);--Von Drakk
+
+
+--Secret Passsage	--CardIndex cXXX	--UtilityIndex uXXX	--ExploreIndex eXXX	--ExploreCreepIndex	--ExploreTrapIndex
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Secret Passage',
+'http://htkb.info/SDE/FK/Cards/Utility/Explore/Specific/Von_Drakk/Card_Explore_Secret_Passage_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Explore/Secret_Passage.xhtml', 
+'Warband', 'FK', 'FK Core Set', 'Default', 
+'It''s dark - you go first.');
+insert into Utilities (CardIndex, UtilityDescription) VALUES (cXXX, 'Heroes place one token in a square on this tile and one in any other tile.  These squares count as Secret Passage Tile Effects for the rest of game.');
+insert into Explores (UtilityIndex) VALUES (uXXX);
+insert into ExploreCreeps (ExploreIndex, CreepNumber) VALUES (eXXX, 3);
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (eXXX, chXXX);--Von Drakk
+
+
+--Sore Thumbs	--CardIndex cXXX	--UtilityIndex uXXX	--ExploreIndex eXXX	--ExploreCreepIndex	--ExploreTrapIndex
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Sore Thumbs',
+'http://htkb.info/SDE/FK/Cards/Utility/Explore/Specific/Von_Drakk/Card_Explore_Sore_Thumbs_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Explore/Sore_Thumbs.xhtml', 
+'Warband', 'FK', 'FK Core Set', 'Default', 
+'Take a break.');
+insert into Utilities (CardIndex, UtilityDescription) VALUES (cXXX, 'No models may use unique actions.');
+insert into Explores (UtilityIndex) VALUES (uXXX);
+insert into ExploreCreeps (ExploreIndex, CreepNumber) VALUES (eXXX, 1);
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (eXXX, chXXX);--Von Drakk
+
+
+--Soul Spike	--CardIndex cXXX	--UtilityIndex uXXX	--ExploreIndex eXXX	--ExploreCreepIndex	--ExploreTrapIndex
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Soul Spike',
+'http://htkb.info/SDE/FK/Cards/Utility/Explore/Specific/Von_Drakk/Card_Explore_Soul_Spike_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Explore/Soul_Spike.xhtml', 
+'Warband', 'FK', 'FK Core Set', 'Default', 
+'Is it supposed to glow like that?');
+insert into Utilities (CardIndex, UtilityDescription) VALUES (cXXX, 'Spawning Point gains Backlash.  (If a model with Backlash exceeds an offense roll with their defense roll the attacker takes one wound.)');
+insert into Explores (UtilityIndex) VALUES (uXXX);
+insert into ExploreCreeps (ExploreIndex, CreepNumber) VALUES (eXXX, 3);
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (eXXX, chXXX);--Von Drakk
+
+
+--Webs	--CardIndex cXXX	--UtilityIndex uXXX	--ExploreIndex eXXX	--ExploreCreepIndex	--ExploreTrapIndex
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Webs',
+'http://htkb.info/SDE/FK/Cards/Utility/Explore/Specific/Von_Drakk/Card_Explore_Webs_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Explore/Webs.xhtml', 
+'Warband', 'FK', 'FK Core Set', 'Default', 
+'I can''t get them off.');
+insert into Utilities (CardIndex, UtilityDescription) VALUES (cXXX, '1ST, 2x2');
+insert into Explores (UtilityIndex) VALUES (uXXX);
+insert into ExploreCreeps (ExploreIndex, CreepNumber) VALUES (eXXX, 0);
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (eXXX, 597);--Sticky
+
+
+
+
+
+
+
+
 
 
 
