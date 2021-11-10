@@ -1,7 +1,7 @@
 --drop PROCEDURE SDWikiPullNavigationMinionsByProductSet;
 
 create PROCEDURE SDWikiPullNavigationMinionsByProductSet(
-	@strVersion varChar(3)
+	@strVersion varChar(6)
 )
 AS
 BEGIN

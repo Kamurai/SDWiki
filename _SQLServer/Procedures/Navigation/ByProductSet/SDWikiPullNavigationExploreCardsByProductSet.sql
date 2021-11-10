@@ -1,7 +1,7 @@
 --drop PROCEDURE SDWikiPullNavigationExploreCardsByProductSet;
 
 create PROCEDURE SDWikiPullNavigationExploreCardsByProductSet(
-	@strVersion varChar(3)
+	@strVersion varChar(6)
 )
 AS
 BEGIN

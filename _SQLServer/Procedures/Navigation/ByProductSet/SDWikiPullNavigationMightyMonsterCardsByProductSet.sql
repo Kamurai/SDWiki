@@ -1,7 +1,7 @@
 --drop PROCEDURE SDWikiPullNavigationMightyMonsterCardsByProductSet;
 
 create PROCEDURE SDWikiPullNavigationMightyMonsterCardsByProductSet(
-	@strVersion varChar(3)
+	@strVersion varChar(6)
 )
 AS
 BEGIN
