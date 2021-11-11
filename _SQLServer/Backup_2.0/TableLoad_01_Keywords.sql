@@ -108,6 +108,7 @@
 
 /*Ghostmancer						--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Ghostmancer', 'Whenever a model with Ghostmancer inflicts a wound, place a Ghost model adjacent to the wounded model.');
 
+/*Grabby							--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Grabby', 'A model that is adjacent to an enemy model with Grabby may not move.');
 
 /*Grave Spawn						--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Grave Spawn', 'This Pet may not be brought into play with the Summon Pet action. Instead, if this Pet was selected by a Hero, the Hero may suffer one damage to spawn one Pet Ghost adjacent to any other Hero before that Hero is destroyed.');
 /*Grave Visions						--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Grave Visions', 'When this model is destroyed, place three red dice on this treasure. This model may discard 1R from the Crimson Watcher when it makes any roll to add 1R to the roll.');
@@ -126,6 +127,7 @@
 
 
 
+/*Immune: Fire						--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Immune: Fire', 'A model with Immune: Fire ignores and immediately removes all counters and/or the affects of Fire.');
 /*Immune: Ice						--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Immune: Ice', 'A model with Immune: Ice ignores and immediately removes all counters and/or the affects of Ice.');
 /*Immune: Immobile					--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Immune: Immobile', 'A model with Immune: Immobile ignores and immediately removes all counters and/or the affects of Immobile.');
 
@@ -139,6 +141,12 @@
 /*Infested							--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Infested', '[Arcade:] When a Spawning Point model with Infested is destroyed, spawn up to four Dirty Rats from it before removing it.  These Dirty Rats form a Rat King Elite Gang.');
 /*Infested							--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Infested', '[Explore:] When a model with Infested is destroyed, spawn up to 4 Skull Points worth of monsters with the Vermin ability within 3 squares of it before removing it.');
 /*Insight							--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Insight', 'When a model with Insight is targeted by an offensive action, it may force the attacker to reroll one die of its choice from the offense roll, before making a defense roll.<br>(Arcade: A monster targeting a model with Insight reduces its STR by 1.)');
+
+/*Insignificant						--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Insignificant', 'If a Hero is on the same dungeon tile as a monster with Insignificant, the monster may be activated in addition to any other monsters that are activated during the Consul Turn.  A model may not draw loot card for destroying a model with Insginificant.');
+
+/*Invader							--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Invader', 'When a model with Invader moves adjacent to a Hero immediately remove the model from play and place it on the Hero''s card.  The Invader model may not voluntarily leave the Hero.  The Hero suffers the effects caused by the Invader as long as the Invader model remains on their card.<br><br>Only the affected Hero may target or destroy Invader models on their card.  The Invader is always considered in range.  The Invader cannot be affected by area effects.');
+
+
 /*The Journey						--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'The Journey', 'Dungeon bosses whose entire base is on the same tile as one or more models with The Journey gain one of the following, depending on which tile this model is on:<br>First Tile: Massive Damage<br>Second Tile: +2R DEX<br>Third Tile: +2R WILL.');
 /*Keep The Sake Flowing				--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Keep The Sake Flowing', 'A model with Keep The Sake Flowing may drink two potions per turn (both Hero and Consul), so long as the potions are different.  During the party''s power-up, if the model has no potion tokens, it suffers one wound.');
 /*Killamari							--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Killamari', 'When a model with Killamari is destroyed by another model, place a tentacles token on the model that destroyed it, for the remainder of the game.  When calculating wrath, count this token as one wrath.');
@@ -206,10 +214,15 @@
 /*Oni Guards						--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Oni Guards', 'When Bomechan is the Dungeon Boss, add one Ijin Oni to the Spawning Pool for the duration of the game.');
 /*Oracle							--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Oracle', 'When this model wins an offense roll, if it rolled no potions or hearts, it may choose to count as having rolled one potion or one heart.');
 /*Overly Prepared					--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Overly Prepared', 'At the start of the game draw six treasure cards (any Boo Booties or non-treasures drawn are shuffled back into the deck and a new card is drawn).  Place these cards in a place the party may easily reach them.  Whenever a member of the party is affected by Equip Gadget, they may chooose and equip one of these treasures.  At the beginning of that Hero''s next activation, they msut place the treasure equipped in this way in the discard pile.');
+
 /*Pack Strength						--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Pack Strength', 'When another friendly monster within three squares and LoS Heals one or more wounds, a model with Pack Strength may Heal 1.');
 /*Pain is Scary						--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Pain is Scary', 'This Pet''s master gains Brutal Strike on its basic Missile Attack if it has one, and if it began its activation within two squares of this Pet.');
+
+/*Parade of Death					--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Parade of Death', 'Whenever a model with Parade of Death receives the Move command, it moves towards the closest dungeon exit that is not already being targeted by another model with Parade of Death, rather than a Hero (each model will move towards a different exit).  A model with Parade of Death may leave the dungeon in this manner by moving off of the dungeon exit.  If it does, it is destroyed and the Party must discard one Princess Coin (the Party may lose the game in this way if it has no Princess Coins).');
+
+
 /*Parry								--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Parry', 'After a model with Parry suffers damage due to a critical success, it may immediately make a basic melee attack against the model that caused the critical, if able.<br>(Arcade: After a model with Parry suffers damage, it may discard one wrath token.)');
-/*Past Life							--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Past Life', 'All monsters within 2 squares of a model with Past Life gain +1st STR.');
+/*Past Life							--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Past Life', 'All monsters within 2 squares of a model with Past Life gain +1ST STR.');
 /*Pest Control						--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Pest Control', 'This model may target Invader models on a Hero''s card using its basic attacks so long as the affected Hero is in range of the attack.');
 
 /*Poison							--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Poison', 'A model suffering Poison reduces its total number of action points by 1, to a minimum of 1.');
@@ -217,7 +230,9 @@
 
 
 
-/*POP								--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'POP', 'When a model with POP is destroyed, all adjacent enemies suffer one damage, and all friendly Creeps in Line of Sight may immediately move four squares.');
+/*POP								--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Explore', 'POP', 'When a model with POP is destroyed, all adjacent enemies suffer one damage, and all friendly Creeps in Line of Sight may immediately move four squares.');
+/*POP								--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Arcade', 'POP', 'When a model with POP is destroyed, all adjacent enemies suffer one damage, and all friendly Creeps in Line of Sight perform the Move command.');
+
 /*Predator							--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Predator', 'When an enemy model moves out of a square that is adjacent to a model with Predator, the model with Predator may immediately make a basic offenseive action against that model.');
 /*Prismatic Armory					--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Prismatic Armory', 'A Hero with Prismatic Armory may equip up to two pieces of equipment to each slot, instead of one.');
 /*Proficient						--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Proficient', 'Models with Proficient may take the basic Interact or Open Chest action without spending action points, once per turn.');
@@ -260,8 +275,10 @@
 /*Share a Sip						--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Share a Sip', 'If another hero activates after this hero during the same turn, that hero gains +3 Movement Points during that activation.');
 /*Shatter							--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Shatter', 'A model with Shatter gains +1B STR if its target is suffering Ice.');
 /*Sidekick							--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Sidekick', 'While this Pet’s Master is within 8 squares, this Pet may use the basic Interact action to target tokens as if it were a Hero. When a token would be placed on this Pet’s card due to an Interact, place it on this Pet’s Master’s card instead.');
-/*Skittish							--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Skittish', 'When a monster with Skittish receives a Move commands, it moves away from the closest Hero as far as it is able.');
+/*Skittish							--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Arcade', 'Skittish', 'When a monster with Skittish receives a Move command, it moves away from the closest Hero as far as it is able.');
 /*Slayer							--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Slayer', 'A model with Slayer may reroll a single die when making offensive actions which target dragon, kobold, or drake models.');
+
+/*Slow								--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Slow', 'A model suffering Slow halves its movement points, rounding up.');
 
 /*Small								--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Small', 'An enemy ');
 
@@ -276,7 +293,7 @@
 
 
 /*Spiteful Whispers					--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Explore', 'Spiteful Whispers', 'Heroes suffer -1ST WILL for each model with Spiteful Whispers adjacent to them.');
-/*Spiteful Whispers					--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Arcade', 	'Spiteful Whispers', 'A model with a Spiteful Cherub on its card sufers -1st WILL to all WILL rolls.  The Hero must also roll 1G at the end of every Consul turn and apply one of the below status effects, depending on the roll:<br>0st: Bane<br>1st: Hex<br>2st: Ice<br>3st: Poison<br>4st: Immobile');
+/*Spiteful Whispers					--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Arcade', 	'Spiteful Whispers', 'A model with a Spiteful Cherub on its card sufers -1st WILL to all WILL rolls.  The Hero must also roll 1G at the end of every Consul turn and apply one of the below status effects, depending on the roll:<br>0ST: Bane<br>1ST: Hex<br>2ST: Ice<br>3ST: Poison<br>4ST: Immobile');
 /*Splinters							--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Splinters', 'When a model with Splinters achieves a Critical Success, it suffers one damage.');
 /*Spooky Spooky!					--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Spooky Spooky!', 'At the end of this model’s activation, it may cause target adjacent Hero to Push: 3.');
 /*Spread The Love					--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Arcade', 	'Spread The Love', 'After a monster with Spread The Love performs a Fight command that dealt one or more wounds, roll 1G for each Hero that suffered at least one wound and apply one of the following status effects depending on the roll:<br>0ST: Bane<br>1ST: Hex<br>2ST: Ice<br>3ST: Poison<br>4ST: Immobile');
@@ -323,8 +340,8 @@
 /*Yoink!							--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Yoink!', '[Explore:] When a model with Yoink! achieves a critical success, its target must discard one equipped loot card at random, if able.');
 /*You're Alone						--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'You''re Alone', 'A model with You''re Alone gains +2b to offensive actions that are targeting a model that has no other models friendly to it within two squares.');
 
-/*Volatile							--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Volatile', 'When a model with Volatile is destroyed, before removing the model, resolve the following action: 0sw, Wave 1, +2R STR.')
-/*Volatile							--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Volatile', 'When a model with Volatile is destroyed, before removing the model, resolve the following action: 0sw, Wave 1, +2R STR.')
+/*Volatile							--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Volatile', 'When a model with Volatile is destroyed, before removing the model, resolve the following action: 0AC 0SW, Wave 1, +2R STR.')
+/*Volatile							--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Volatile', 'When a model with Volatile is destroyed, before removing the model, resolve the following action: 0AC 0SW, Wave 1, +2R STR.')
 /*You've Been Naughty				--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'You''ve Been Naughty', 'After an enemy model rolls a critical success against a model with You''ve Been Naughty, the enemy model Shapeshifts into a Naughtie (regardless of the number of wounds dealt by the critical).  The controller of the model that is shapeshifting selects one Naughtie shapeshift card that is not already being used by a Hero.  If all Naughtie shapeshift cards are in play, this ability has no effect.  Heroes on Kringle''s Nice List may not be shapeshifted in this way.');
 
 

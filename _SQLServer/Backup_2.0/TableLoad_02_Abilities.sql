@@ -29,10 +29,13 @@
 /*Cursed Vision														--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Cursed Vision', 'Action', 'Support', 0, -1, -1, 'Wave 3, BANE, IMMOBILE');
 
 /*Death Drain														--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Death Drain', 'Action', 'Offense', 0, 1, -1, 'Wave 3.  Elrik The Lich King Heals 1 for each wound inflicted by Death Drain.');
+/*Deathmark															--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Deathmark', 'Action', 'Offense', 0, 1, 8, 'BANE');
 
 /*Deeproot Rage														--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Deeproot Rage', 'Action', 'Offense', 0, 1, -1, 'Wave 4, POISON');
 
 /*Demonic Possession												--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Demonic Possession', 'Action', 'Support', 0, -1, -1, 'All Heroes select one of their own basic attack actions and then perform the selected action against themselves.');
+
+/*Despair															--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Despair', 'Action', 'Support', 0, -1, -1, 'AUGEMENT, Aura 8, +1ST STR.');
 
 /*Devouring Horror													--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Devouring Horror', 'Action', 'Offense', 0, 1, 6, 'If this inflicts a wound, discard a random equipment from the target (shuffle them and draw one randomly without looking).');
 
@@ -62,7 +65,11 @@
 
 /*Inferno															--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Inferno', 'Action', 'Offense', 0, 1, -1, 'Lance 6, FIRE');
 
+/*In Your Pockets													--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'In Your Pockets', 'Action', 'Support', 0, -1, -1, 'All adjacent Heroes discard a random equipment card.');
+
 /*Into The Bag														--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Into The Bag', 'Action', 'Offense', 0, 1, 4, 'IMMOBILE, HEX');
+
+/*Kaboom															--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Kaboom', 'Action', 'Offense', 0, -1, 1, 'If the Demolitions Expert is adjacent to a Hero, Volatile is triggered.');
 
 /*Lovestruck														--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Lovestruck', 'Action', 'Support', 0, -1, -1, 'Spawn one Spiteful Cherub adjacent to Araphel.');
 
@@ -73,6 +80,8 @@
 /*Master															--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Master', 'Action', 'Support', 0, -1, -1, 'All other monsters perform the Attack command.');
 
 /*My Champion														--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'My Champion', 'Action', 'Support', 0, -1, -1, 'If Daemonus is not in play, spawn Daemonus adjacent to the Hero with the least wrath.');
+
+/*Nether Fire														--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Nether Fire', 'Action', 'Support', 0, 1, -1, 'Wave 1, BANE, FIRE');
 
 /*Pipe Puff															--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Pipe Puff', 'Action', 'Offense', 0, 1, -1, 'SW, Lance 6');
 
@@ -100,6 +109,8 @@
 /*Siphon Life														--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Explore', 'Siphon Life', 'Action', 'Offense', 2, 3, 1, '1MA, If this attack inflicts wounds, a friendly dungeon boss or mini-boss may heal an equal number of wounds.  This Chochin-Obake is then removed from play.');
 /*Siphon Life														--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Siphon Life', 'Action', 'Offense', 0, 1, 3, '+2ST STR, If this attack inflicts wounds, a friendly dungeon boss may heal an equal number of wounds.  This Chochin-Obake is then removed from play.');
 
+/*Slimy Hug															--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Slimy Hug', 'Action', 'Offense', 0, 1, 1, 'RANGE1, STR vs. DEX, SLOW');
+
 /*Smoke Bomb														--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Explore', 'Smoke Bomb', 'Action', 'Support', 1, -1, -1, 'AUGMENT, Aura 2, Stealth');
 /*Smoke Bomb														--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Smoke Bomb', 'Action', 'Support', 0, -1, -1, 'AUGMENT, Aura 4, Stealth');
 
@@ -110,6 +121,8 @@
 /*Stay Out Of This, Fool											--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Stay Out Of This, Fool', 'Action', 'Support', 0, -1, -1, 'The Hero with the least wrath suffers Push 6.');
 
 /*Stinging Wind														--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Stinging Wind', 'Action', 'Offense', 0, 1, -1, 'Wave 4, ICE');
+
+/*Stoke the Bellows													--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Stoke the Bellows', 'Action', 'Support', 0, -1, -1, 'All Heroes suffering FIRE suffer 1 wound.');
 
 /*Sudden Strike														--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Explore', 'Sudden Strike', 'Action', 'Offense', 1, 1, 5, '1SW, Pounce, KNOCKDOWN');
 
