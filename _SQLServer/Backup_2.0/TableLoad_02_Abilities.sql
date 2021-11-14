@@ -42,6 +42,7 @@
 
 
 
+/*Cloud of Straw													--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Cloud of Straw', 'Action', 'Offense', 0, 1, -1, 'Wave 1, HEX');
 /*Cloud of Straw													--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Cloud of Straw', 'Action', 'Offense', 0, 1, -1, 'Wave 3, HEX');
 
 /*Cobra Strike														--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Cobra Strike', 'Action', 'Offense', 0, 1, 3, '+2ST STR, Massive Damage');
@@ -61,6 +62,7 @@
 
 /*Cross Slash														--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Cross Slash', 'Action', 'Offense', 0, 1, -1, 'Wave 4');
 
+/*Crow Pie															--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Crow Pie', 'Action', 'Offense', 0, 1, 2, 'Bane');
 
 /*Crystaline Web													--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Crystaline Web', 'Action', 'Offense', 0, 1, -1, 'Wave 1, SLOW');
 
@@ -139,6 +141,7 @@
 
 /*Freezer															--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Explore', 'Freezer', 'Action', 'Offense', 2, 3, -1, 'MA, Lance 3, IMMOBILE');
 
+/*Frozen Detonation													--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Frozen Detonation', 'Action', 'Offense', 0, 1, 3, 'Burst 1, ICE');
 /*Frozen Heart														--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Frozen Heart', 'Action', 'Offense', 0, 1, 3, 'ICE');
 
 /*Get Out!															--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Get Out!', 'Action', 'Offense', 0, 1, -1, 'Wave 2, Push 3');
@@ -227,6 +230,8 @@
 /*Poison Blast														--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Explore', 'Poison Blast', 'Action', 'Offense', 2, 1, -1, 'SW, Lance 6');
 
 /*Power Nap															--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Power Nap', 'Action', 'Offense', 0, -1, 0, 'AUGMENT, Heal 1');
+
+/*Pumpkin Toss														--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Pumpkin Toss', 'Action', 'Offense', 0, 1, 4, '+1ST STR, BANE');
 
 /*Raging Ocean, The													--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Raging Ocean, The', 'Action', 'Offense', 0, 1, 4, 'Massive Damage');
 

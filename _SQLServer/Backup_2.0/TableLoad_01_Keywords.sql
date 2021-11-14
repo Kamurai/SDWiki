@@ -108,6 +108,10 @@
 
 
 /*Flaming							--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Flaming', 	'When a model with Flaming ends its activation, all adjacent enemies suffer Fire.');
+
+/*Flammable							--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Flammable', '');
+
+
 /*Fly								--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Fly', 		'A model with Fly treats difficult terrain, chasm, and structure squares as open squares.  All non-blessing tile effects in those squares are ignored.  Structure squares do not block line of sight to or from models with Fly.');
 
 /*For The Pirate Queen!				--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'For The Pirate Queen!', 'Ijin Oni gain Frenzy for the remainder of the game.  (A model with Frenzy gains +1R on offensive rolls against any model that is suffering a wound.)');
@@ -129,7 +133,8 @@
 /*Frenzy							--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Arcade', 	'Frenzy', 'A monster or gang with Frenzy gains +1ST STR against any model that is suffering a wound.');
 /*Fueled by Fire					--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Fueled by Fire', 'A model with Fueled by Fire adds 1R to all offensive rolls for each model suffering Fire.');
 /*Fungal Fury						--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Fungal Fury', 'Enemy models that end a Push within three squares and LoS of one or more models with Fungal Fury suffer one wound.');
-/*Fury								--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Fury', 'A model with Fury gains 1B to all offense rolls for each wound it is currently suffering.');
+/*Fury								--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Explore', 'Fury', 'A model with Fury gains 1B to all offense rolls for each wound it is currently suffering.');
+/*Fury								--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Arcade', 'Fury', 'A model with Fury gains +1ST STR for each wound it is currently suffering.');
 
 /*Ghost								--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Ghost', 'A model with Ghost ignores walls for the purpose of line of sight and movement.');
 
@@ -390,6 +395,9 @@
 
 /*Spawning Pool						--Index kXXX*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Explore', 'Spawning Pool', '1x Cursed Barrow (Spawning Point)<br>1x Black Hand<br>4x Draugr');
 /*Spawning Pool						--Index kXXX*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Arcade', 	'Spawning Pool', '1x Cursed Barrow (Spawning Point)<br>1x Black Hand<br>4x Draugr<br><br>Cards:<br>1x Order of the Black Hand<br>1x Drauger Berserker');
+
+/*Spawning Pool						--Index kXXX*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Explore', 'Spawning Pool', '1x Cursed Barrow (Spawning Point)<br>1x Black Hand<br>5x Draugr');
+/*Spawning Pool						--Index kXXX*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Arcade', 	'Spawning Pool', '1x Cursed Barrow (Spawning Point)<br>1x Black Hand<br>5x Draugr<br><br>Cards:<br>1x Order of the Black Hand<br>1x Drauger Berserker');
 
 /*Spawning Pool						--Index kXXX*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Explore', 'Spawning Pool', '2x Cursed Hollow (Spawning Point)<br>1x Bad Seed<br>1x Wrath Sprout (Shapeshift)<br>2x Gloom Wisp<br>2x Spoiled Turnip<br>6x Rotten Cabbage');
 /*Spawning Pool						--Index kXXX*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Arcade', 	'Spawning Pool', '2x Cursed Hollow (Spawning Point)<br>1x Bad Seed<br>1x Wrath Sprout (Shapeshift)<br>2x Gloom Wisp<br>2x Spoiled Turnip<br>6x Rotten Cabbage<br><br>Cards:<br>1x Rotten Seeds<br>1x Vengeful Compost<br>1x Gloom Wisps<br>1x Spoiled Turnips');
