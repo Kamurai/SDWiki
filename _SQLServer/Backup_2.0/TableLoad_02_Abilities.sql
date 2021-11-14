@@ -21,12 +21,15 @@
 /*Blessings of Hyphae												--Index kXXX*/ 	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Blessings of Hyphae', 'Action', 'Support', 0, 1, 6, 'STR vs DEX.  Shapeshift target Hero into a Heroic Kinoshroom.');
 
 /*Blind Obedience													--Index kXXX*/ 	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Blind Obedience', 'Action', 'Offense', 0, 1, 6, 'AUGMENT.  If this attack inflicts a wound, the target must immediately make one basic attack action for each status effect on it targeting the closest other Hero.');
+/*Blood Frenzy														--Index kXXX*/ 	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Blood Frenzy', 'Action', 'Support', 0, -1, -1, 'AUGMENT, all other Ijin gangs on this tile gain Massive Damage to all of their attaccks this turn.');
 
 /*Blutarch Handcannon												--Index kXXX*/ 	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Blutarch Handcannon', 'Action', 'Offense', 0, 4, 6, '+2ST STR');
 
 /*Booming Bombards													--Index kXXX*/ 	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Booming Bombards', 'Action', 'Offense', 0, 1, -1, 'Wave 3, +2ST STR');
 
 /*Breakthrough														--Index kXXX*/ 	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Breakthrough', 'Action', 'Offense', 0, 1, -1, 'Lance 6, Charge');
+
+/*Call The Kraken													--Index kXXX*/ 	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Call The Kraken', 'Action', 'Support', 0, -1, -1, 'This action gains +2ST STR and Massive Damage against a model with any tentacle tokens.');
 
 /*Chaos Fur'splosion												--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Chaos Fur''splosion', 'Action', 'Offense', 0, 1, -1, 'Wave 3');
 
@@ -51,6 +54,9 @@
 /*Command of Kitsune												--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Command of Kitsune', 'Action', 'Support', 0, -1, 3, 'AUGMENT, RANGE3, the closest other solo or gang performs the attack command.');
 
 
+/*Crashing Waves													--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Crashing Waves', 'Action', 'Offense', 0, -1, -1, 'AUGMENT.  Place this model and all bonded minions within 2 squares of the hero with the least wrath.');
+
+
 /*Crippling Miasma													--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Crippling Miasma', 'Action', 'Offense', 0, 1, -1, 'Wave 4, BANE');
 
 /*Cross Slash														--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Cross Slash', 'Action', 'Offense', 0, 1, -1, 'Wave 4');
@@ -70,7 +76,13 @@
 
 
 /*Cursed Vision														--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Cursed Vision', 'Action', 'Support', 0, -1, -1, 'Wave 3, BANE, IMMOBILE');
+/*Cursed Vision														--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Cursed Vision', 'Action', 'Support', 0, 1, -1, 'STR vs. WILL, Wave 3, HEX');
 
+
+/*Cyclone															--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Cyclone', 'Action', 'Offense', 0, 1, -1, 'Lance 6');
+
+
+/*Dancing Blade														--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Dancing Blade', 'Action', 'Offense', 0, 1, -1, 'Wave 2');
 /*Death Curse														--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Death Curse', 'Action', 'Offense', 0, 1, 8, '+2ST STR, BANE');
 
 
@@ -100,6 +112,8 @@
 /*Double Slash														--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Double Slash', 'Action', 'Offense', 0, 1, 2, 'Massive Damage');
 
 /*Easy Mark															--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Easy Mark', 'Action', 'Support', 0, 1, 6, 'RANGE6, IMMOBILE');
+/*Endless Curiosity													--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Endless Curiosity', 'Action', 'Support', 0, -1, -1, 'Roll 1R.  All monsters with Shiny Bauble gain an additional bonus from Shiny Bauble, depending on the number of stars rolled, until the end of the next Hero turn.');
+/*Extra Trip Wire													--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Extra Trip Wire', 'Action', 'Support', 0, -1, -1, 'If the top card of the Challenge Discard has a trap effect, immediately apply that trap effect.');
 
 /*Feed, My Children													--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Feed, My Children', 'Action', 'Support', 0, -1, -1, 'All other monsters perform the Fight command.');
 
@@ -108,6 +122,7 @@
 /*Ferocious Bloom													--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Ferocious Bloom', 'Action', 'Support', 0, -1, -1, 'The closest spawning point spawns the first gang listed on its card that is available in the spawning pool.');
 
 /*Final Day															--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Final Day', 'Action', 'Offense', 0, 1, 3, '+3ST STR, Massive Damage.');
+/*Final Day															--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Final Day', 'Action', 'Offense', 0, 1, 3, 'Massive Damage');
 
 /*Flying Fur														--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Flying Fur', 'Action', 'Support', 0, -1, -1, 'Surge');
 /*Fluff The Frilly Pillows											--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Fluff The Frilly Pillows', 'Action', 'Support', 0, -1, -1, 'All Spawning Points in play heal all wounds.');
@@ -139,6 +154,10 @@
 /*Happy Cat															--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Explore', 'Happy Cat', 'Action', 'Support', 1, -1, -1, 'Wave 3, Pull 2');
 
 /*Headbutt															--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Headbutt', 'Action', 'Offense', 0, 1, 3, '+2ST STR, KNOCKDOWN');
+
+/*Heavenly Toss														--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Heavenly Toss', 'Action', 'Support', 0, -1, -1, 'If a Tanchyo Kaiken is in play and there is at least one Hero within three squares of this model, place the closest Hero to this model adjacent to the Tanchyo Kaiken.');
+
+
 /*Horned Charge														--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Horned Charge', 'Action', 'Offense', 0, 1, -1, 'Lance 6, Charge');
 
 /*Hidden Lever														--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Hidden Lever', 'Action', 'Support', 0, -1, -1, 'Look at the top card of the Challenge Deck.  If it has a Trap effect that does not cause monsters to perform a command, immediately resolve it and then discard it.  Otherwise discard it with no effect.');
@@ -155,12 +174,18 @@
 /*Into The Bag														--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Into The Bag', 'Action', 'Offense', 0, 1, 4, 'IMMOBILE, HEX');
 /*Into The Reeds													--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Into The Reeds', 'Action', 'Offense', 0, 1, 4, 'AUGMENT.  Place this model adjacent to the farthest SPAWNPOINT square.');
 
+/*Jigoku's Arrow													--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Jigoku''s Arrow', 'Action', 'Offense', 0, 1, 8, 'Massive Damage');
+
+
 /*Kaboom															--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Kaboom', 'Action', 'Offense', 0, 1, 1, 'If the Demolitions Expert is adjacent to a Hero, Volatile is triggered.');
 
 /*Kappa's Curse, The												--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Kappa''s Curse, The', 'Action', 'Offense', 0, 1, 2, '+2ST STR, IMMOBILE');
 
 /*Killshot															--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Killshot', 'Action', 'Offense', 0, 4, 6, 'Massive Damage');
 
+/*Last Breath, The													--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Last Breath, The', 'Action', 'Support', 0, -1, -1, 'Aura 10.  Dragged To The Depths causes an additional wound.');
+
+/*Let Them Come														--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Let Them Come', 'Action', 'Offense', 0, 1, -1, 'Wave 2');
 /*Lifesap															--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Lifesap', 'Action', 'Offense', 0, 1, -1, 'Wave 3, For every wound inflicted by Lifesap, remove one wound token from Shinigami.');
 
 /*Lord of the Labyrinth												--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Lord of the Labyrinth', 'Action', 'Support', 0, -1, -1, 'Randomly select a dungeon tile and rotate it 180 degrees.');
@@ -173,7 +198,15 @@
 
 /*Massive Ninja Star To The Face									--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Massive Ninja Star To The Face', 'Action', 'Offense', 0, 1, 4, 'Masive Damage');
 /*Master															--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Master', 'Action', 'Support', 0, -1, -1, 'All other monsters perform the Attack command.');
+
+/*Monkey's Paw														--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Monkey''s Paw', 'Action', 'Offense', 0, 1, 3, 'BANE');
+
+
 /*Mountain Flute													--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Mountain Flute', 'Action', 'Support', 0, 1, 6, 'RANGE6, STR vs WILL, Push 6, SLOW');
+
+/*Mountain Disapproves, The											--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Mountain Disapproves, The', 'Action', 'Offense', 0, 1, 6, 'HEX');
+/*Mountain Sees, The												--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Mountain Sees, The', 'Action', 'Offense', 0, 1, -1, 'Wave 3, ICE');
+
 
 /*My Champion														--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'My Champion', 'Action', 'Support', 0, -1, -1, 'If Daemonus is not in play, spawn Daemonus adjacent to the Hero with the least wrath.');
 
@@ -186,6 +219,8 @@
 /*New Territory														--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'New Territory', 'Action', 'Support', 0, -1, -1, 'AUGMENT, The tile this model is on counts as the third tile for the purposes of the Territorial ability on monsters.');
 
 /*Obedience															--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Obedience', 'Action', 'Support', 0, -1, -1, 'AUGMENT.  The closest other gang in play performs a Move command.');
+/*Overwhelming Assault												--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Overwhelming Assault', 'Action', 'Offense', 0, 1, 2, 'Massive Damage');
+
 
 /*Pipe Puff															--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Pipe Puff', 'Action', 'Offense', 0, 1, -1, 'SW, Lance 6');
 
@@ -227,6 +262,7 @@
 
 
 /*Silk Noose														--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Silk Noose', 'Action', 'Offense', 0, 1, 8, 'Pull 6.  This offensive action targets the Hero with the least wrath in range and LOS.');
+/*Silent Knife, A													--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Silent Knife, A', 'Action', 'Offense', 0, 1, 2, 'Massive Damage.  If the target has no other friendly models within two squares, gain +2ST STR.');
 
 /*Siphon Life														--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Explore', 'Siphon Life', 'Action', 'Offense', 2, 3, 1, '1MA, If this attack inflicts wounds, a friendly dungeon boss or mini-boss may heal an equal number of wounds.  This Chochin-Obake is then removed from play.');
 /*Siphon Life														--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Siphon Life', 'Action', 'Offense', 0, 1, 3, '+2ST STR, If this attack inflicts wounds, a friendly dungeon boss may heal an equal number of wounds.  This Chochin-Obake is then removed from play.');
@@ -245,6 +281,8 @@
 
 /*Spin Webs															--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Spin Webs', 'Action', 'Offense', 0, 1, -1, 'Wave 1.  This offensive action gains Massive Damage against models suffering POISON.');
 
+/*Spinning Tetsubo													--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Spinning Tetsubo', 'Action', 'Offense', 0, 1, -1, 'Wave 3');
+
 /*Stay Out Of This, Fool											--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Stay Out Of This, Fool', 'Action', 'Support', 0, -1, -1, 'The Hero with the least wrath suffers Push 6.');
 
 /*Stinging Wind														--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Stinging Wind', 'Action', 'Offense', 0, 1, -1, 'Wave 4, ICE');
@@ -256,6 +294,7 @@
 
 /*Strength In Decay													--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Strength In Decay', 'Action', 'Support', 0, -1, 1, 'AUGMENT, Death Lord');
 
+/*Strike The Heart													--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Strike The Heart', 'Action', 'Offense', 0, 1, 2, 'Massive Damage');
 /*Strike From Shadow												--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Strike From Shadow', 'Action', 'Offense', 0, 1, 6, 'BANE');
 
 
@@ -293,6 +332,8 @@
 /*White-Out Elixir													--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Explore', 'White-Out Elixir', 'Potion', 'Emergency', 2, 3, -1, 'MA, Lance 3, IMMOBILE');
 /*Wild Swing														--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Wild Swing', 'Action', 'Emergency', 0, 1, -1, 'Wave 2');
 
+/*Yamazaru's Tail													--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Yamazaru''s Tail', 'Action', 'Offense', 0, 1, -1, 'Wave 3, KNOCKDOWN');
+/*You Can't Run														--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'You Can''t Run', 'Action', 'Offense', 0, 1, 6, 'IMMOBILE');
 
 
 

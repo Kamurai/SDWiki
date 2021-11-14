@@ -85,6 +85,9 @@
 /*Divine Guidance					--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Divine Guidance', 'When a challenge card with a Trap effect is drawn, this model may discard this treasure to prevent the Trap effect from happening.');
 /*Do It For Me						--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Arcade', 	'Do It For Me', 'When a Hero within six squares of a model with Do It For Me activates, the Hero must roll its WILL.  On a roll of 0 stars, the Hero must take its first three moves to move as close to the closest other Hero as possible and then use its first action to target that Hero with a basic attack action.  The rest of the activation is taken normally.');
 /*Do It For Me						--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Explore', 'Do It For Me', 'When a Hero within four squares of a model with Do It For Me activates, the Hero must roll its WILL.  On a roll of 0 stars, the Consul controls the Hero''s first action and first three moves of the activation.  The remainder of the activation is taken normally.');
+
+/*Dragged To The Depths				--Index kXXX*/
+
 /*Dread								--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Dread', 'A model with Dread gains +1st to all offense rolls if it is currently benefitting from Stealth.');
 
 /*Excessive Armor					--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Excessive Armor', 'When this boss spawns, starting with the last tile and working backwards, place on crystal token adjacent to each SPAWNPOINT square.  Repeat this until there are a number of crystal tokens equal to the number of Heros.  A Hero may place an adjacent crystal token onto its card by taking an Interact action.  Heroes without a crystal token may not cause the dungeon boss to suffer wounds with offensive actions.');
@@ -279,6 +282,7 @@
 
 /*Predator Aura						--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Arcade', 	'Predator Aura', 'Monsters with RUBYAFFINITY that are within two squares of a model with Predatory Aura gain Predator.');
 
+/*Priority							--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Arcade', 'Priority', 'Solo monsters with Priority must act before solo monsters without priority in every phase.');
 
 /*Prismatic Armory					--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Prismatic Armory', 'A Hero with Prismatic Armory may equip up to two pieces of equipment to each slot, instead of one.');
 /*Proficient						--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Proficient', 'Models with Proficient may take the basic Interact or Open Chest action without spending action points, once per turn.');
@@ -293,6 +297,9 @@
 /*Rampage							--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Explore', 'Rampage', 'A model with Rampage gains +1B whie making offensive actions for each spawning point that was destroyed this game.');
 /*Rampage							--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Arcade', 'Rampage', 'A model with Rampage gains +1ST whie making offensive actions for each spawning point that was destroyed this game.');
 /*Ravage							--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Ravage', 'When a model with Ravage inflicts damage on a single target with an offensive action, it may choose to suffer one damage to inflict an additional damage to the target.');
+/*Reach								--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Arcade', 'Reach', 'RANGE2 if a model with Reach is in the gang.');
+
+
 /*Read The Wind						--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Read The Wind', 'A model with Read The Wind may roll 1g when the party clears all activation tokens.  Keep this die on the Hero''s card and discard it next time activation tokens are cleared.  After dice are rolled by any Hero for any reason, this model may discard the die to add it to the roll.');
 
 /*Reclamation						--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Reclamation', 'When this dungeon boss spawns, place all spawning points that were destroyed this game back on their SPAWNPOINT squares.  Move any models occupying those squares to adjacent squares.  This dungeon boss does not heal due to spawning points in play, and Heroes do not draw loot for destroying these spawning points.  Then spawn six Yowlings within three squares of this dungeon boss.');
@@ -305,6 +312,7 @@
 /*Retreat							--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Retreat', 'After completing an action with Retreat, using the rules for Push, the model''s player moves the model with Retreat five squares away from its target or the square which the target occupied.');
 /*Retreat							--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Arcade',	'Retreat', 'After completing an action with Retreat, using the rules for Push, the model moves five squares away from its target or the square which the target occupied.');
 
+/*Retribution						--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Arcade',	'Retribution', 'When a minion model with Retribution is destroyed, the gang''s elitel immediately performs the attack command.');
 
 
 /*Run Down							--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Run Down', 'Once per activation, a model with Run Down may move onto the same square as an enemy model. The enemy model suffers Compel 2 and one wound.');
@@ -359,9 +367,11 @@
 /*Spawning Pool						--Index kXXX*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Explore', 'Spawning Pool', '1x Bandit Knight (Spawning Point)<br>1x Grobbit Barbarian<br>2x Marauder Squawk<br>4x Billmen Bandit');
 /*Spawning Pool						--Index kXXX*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Arcade', 	'Spawning Pool', '1x Bandit Knight (Spawning Point)<br>1x Grobbit Barbarian<br>2x Marauder Squawk<br>4x Billmen Bandit<br><br>Cards:<br>Barbaric Bandits<br>The Marauding Doom');
 
+/*Spawning Pool						--Index kXXX*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Explore', 'Spawning Pool', '1x Ijin Madoushi (Spawning Point)<br>1x Ijin Yajiri<br>2x Ijin Kaiken<br>2x Ijin Kunoichi<br>1x Ijin Oni');
+/*Spawning Pool						--Index kXXX*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Arcade', 	'Spawning Pool', '1x Ijin Madoushi (Spawning Point)<br>1x Ijin Yajiri<br>2x Ijin Kaiken<br>2x Ijin Kunoichi<br>1x Ijin Oni<br><br>Cards:<br>1x A Crush of Ijin<br>1x Ijin Hunting party');
+
 /*Spawning Pool						--Index kXXX*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Explore', 'Spawning Pool', '1x Ika Madoushi (Spawning Point)<br>2x Ika Kaiken<br>1x Ika Yajiri<br>1x Ika Oni<br>1x Ika Kunoichi');
 /*Spawning Pool						--Index kXXX*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Arcade', 	'Spawning Pool', '1x Ika Madoushi (Spawning Point)<br>2x Ika Kaiken<br>1x Ika Yajiri<br>1x Ika Oni<br>1x Ika Kunoichi<br><br>Cards:<br>1x The Kraken''s Jaws<br>1x Ika Oni');
-
 
 /*Spawning Pool						--Index kXXX*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Explore', 'Spawning Pool', '2x Kitsune Madoushi (paired Spawning Point)<br>3x Kitsune Kaiken<br>3x Kitsune Yajiri<br>2x Kitsune Oni<br>2x Kitsune Kunoichi');
 /*Spawning Pool						--Index kXXX*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Arcade', 	'Spawning Pool', '2x Kitsune Madoushi (paired Spawning Point)<br>3x Kitsune Kaiken<br>3x Kitsune Yajiri<br>2x Kitsune Oni<br>2x Kitsune Kunoichi<br><br>Cards:<br>1x Kitsune Shuriken Storm<br>1x Claws of Kitsune');
