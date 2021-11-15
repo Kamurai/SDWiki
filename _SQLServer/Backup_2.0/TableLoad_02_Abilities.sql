@@ -15,6 +15,7 @@
 /*Azogar															--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Azogar', 'Action', 'Offense', 0, 1, -1, 'Wave 2');
 
 /*Bag of Crows														--Index kXXX*/ 	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Bag of Crows', 'Action', 'Support', 0, -1, -1, 'If there are less than 4 Underdead Crows in play, Spawn Underdead Crows within 4 squares of this model until there are 4 in play.');
+/*Bane of Death														--Index kXXX*/ 	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Bane of Death', 'Action', 'Support', 0, -1, -1, 'AUGMENT, Aura 2, All Undead gain BANE.');
 
 /*Berserker Saga													--Index kXXX*/ 	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Berserker Saga', 'Action', 'Support', 0, -1, -1, 'AUGMENT, if there is not a Draugr Berserker in play, destroy the closest friendly Draugr.  If a Draugr is destroyed in this way, the Consul spawns a Draugr Berserker within three squares of the Hero with the most wrath.');
 
@@ -28,6 +29,8 @@
 /*Booming Bombards													--Index kXXX*/ 	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Booming Bombards', 'Action', 'Offense', 0, 1, -1, 'Wave 3, +2ST STR');
 
 /*Breakthrough														--Index kXXX*/ 	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Breakthrough', 'Action', 'Offense', 0, 1, -1, 'Lance 6, Charge');
+
+/*Burning Sensation													--Index kXXX*/ 	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Burning Sensation', 'Action', 'Offense', 0, 1, 6, 'Burst 1, FIRE');
 
 /*Call The Kraken													--Index kXXX*/ 	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Call The Kraken', 'Action', 'Support', 0, -1, -1, 'This action gains +2ST STR and Massive Damage against a model with any tentacle tokens.');
 
@@ -75,6 +78,7 @@
 
 /*Curse of Gold, The												--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Curse of Gold, The', 'Action', 'Offense', 0, 1, 6, 'If the target has two equipped items suffers BANE, if it has more than two equipped items it suffers BANE and FIRE.');
 
+/*Cursed Cleaver													--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Cursed Cleaver', 'Action', 'Offense', 0, 1, -1, 'Lance 4, BANE, HEX');
 
 
 /*Cursed Vision														--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Cursed Vision', 'Action', 'Support', 0, -1, -1, 'Wave 3, BANE, IMMOBILE');
@@ -115,6 +119,10 @@
 
 /*Easy Mark															--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Easy Mark', 'Action', 'Support', 0, 1, 6, 'RANGE6, IMMOBILE');
 /*Endless Curiosity													--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Endless Curiosity', 'Action', 'Support', 0, -1, -1, 'Roll 1R.  All monsters with Shiny Bauble gain an additional bonus from Shiny Bauble, depending on the number of stars rolled, until the end of the next Hero turn.');
+
+/*Eruption															--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Eruption', 'Action', 'Support', 0, 1, -1, 'Wave 4, Push 3');
+
+
 /*Extra Trip Wire													--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Extra Trip Wire', 'Action', 'Support', 0, -1, -1, 'If the top card of the Challenge Discard has a trap effect, immediately apply that trap effect.');
 
 /*Feed, My Children													--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Feed, My Children', 'Action', 'Support', 0, -1, -1, 'All other monsters perform the Fight command.');
@@ -125,6 +133,10 @@
 
 /*Final Day															--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Final Day', 'Action', 'Offense', 0, 1, 3, '+3ST STR, Massive Damage.');
 /*Final Day															--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Final Day', 'Action', 'Offense', 0, 1, 3, 'Massive Damage');
+
+/*Fire Field														--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Fire Field', 'Action', 'Support', 0, -1, -1, 'AUGMENT, Aura 2, Models in the area gain FIRE.');
+
+/*Flame Burst														--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Flame Burst', 'Action', 'Offense', 0, 1, 3, 'Burst 1, FIRE');
 
 /*Flying Fur														--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Flying Fur', 'Action', 'Support', 0, -1, -1, 'Surge');
 /*Fluff The Frilly Pillows											--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Fluff The Frilly Pillows', 'Action', 'Support', 0, -1, -1, 'All Spawning Points in play heal all wounds.');
@@ -140,17 +152,20 @@
 /*Fragmentation Shell												--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Fragmentation Shell', 'Action', 'Offense', 0, 1, -1, 'Burst 2, KNOCKDOWN');
 
 /*Freezer															--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Explore', 'Freezer', 'Action', 'Offense', 2, 3, -1, 'MA, Lance 3, IMMOBILE');
+/*Frogger															--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Frogger', 'Action', 'Offense', 0, 1, 5, 'Pounce');
 
 /*Frozen Detonation													--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Frozen Detonation', 'Action', 'Offense', 0, 1, 3, 'Burst 1, ICE');
 /*Frozen Heart														--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Frozen Heart', 'Action', 'Offense', 0, 1, 3, 'ICE');
 
 /*Get Out!															--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Get Out!', 'Action', 'Offense', 0, 1, -1, 'Wave 2, Push 3');
 
+/*Ghastly Vigor														--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Ghastly Vigor', 'Action', 'Support', 0, -1, -1, 'AUGMENT, Aura 3, All Undead gain +1ST STR');
 /*Ghoul Blade														--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Ghoul Blade', 'Action', 'Offense', 0, 1, -1, 'SW, Wave 3, BANE, HEX');
 
 /*Go For The Eyes!													--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Go For The Eyes!', 'Action', 'Support', 0, -1, -1, 'All Spiteful Cherubs perform the Move command.');
 
 /*Grabbing Stick													--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Grabbing Stick', 'Action', 'Offense', 0, 1, 4, 'Pull 4');
+/*Grasping Vines													--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Grasping Vines', 'Action', 'Offense', 0, 1, 3, 'Pull 3');
 
 /*Hail of Fire														--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Hail of fire', 'Action', 'Offense', 0, 1, 6, '6SW, The STR of this attack is equal to the number of Undead Legionaires bonded to this elite.');
 
@@ -233,6 +248,7 @@
 
 /*Pumpkin Toss														--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Pumpkin Toss', 'Action', 'Offense', 0, 1, 4, '+1ST STR, BANE');
 
+/*Raging Flame														--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Raging Flame', 'Action', 'Support', 0, -1, -1, 'DANGEROUS, Wave 2, Models in the area that are currently suffering FIRE suffer one wound.');
 /*Raging Ocean, The													--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Raging Ocean, The', 'Action', 'Offense', 0, 1, 4, 'Massive Damage');
 
 /*Rampagin Fists													--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Rampagin Fists', 'Action', 'Offense', 0, 1, -1, 'Wave 1, +1ST STR');
@@ -241,6 +257,7 @@
 /*Raven Feather														--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Raven Feather', 'Action', 'Support', 0, -1, -1, 'AUGMENT, Aura 6, Fly.');
 
 /*Rear Up															--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Rear Up', 'Action', 'Offense', 0, 1, -1, 'Wave 4, KNOCKDOWN');
+/*Renewed Vigor														--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Renewed Vigor', 'Action', 'Support', 0, -1, -1, 'AUGMENT, Wave 2, Compel 2');
 /*Reposition														--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Reposition', 'Action', 'Offense', 0, 1, 6, 'Retreat');
 
 /*Rex Smash															--Index kXXX*/ 	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Rex Smash', 'Action', 'Offense', 0, 1, 3, '+1ST STR, Massive Damage');

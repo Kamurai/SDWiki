@@ -80,6 +80,10 @@
 
 /*Defender							--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Defender', 'Models without Defender that are adjacent to a friendly model with Defender cannot be targeted by offensive actions.');
 /*Defenseless						--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Defenseless', 'When a model with Defenseless is wounded, a friendly adjacent model may choose to be wounded instead.');
+
+/*Despair							--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Despair', 'Enemy models within two squares of a model with Despair reduce the result of all defense rolls by 1ST.');
+
+
 /*Dibs								--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Explore', 'Dibs', 'When a Hero on this tile discards a loot card due to the Yoink! ability, a model with Dibs may choose to equip the discarded loot as if it were a Hero.  Equipped loot is discarded when this model is destroyed.');
 /*Dibs								--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Arcade', 	'Dibs', 'When a Hero on this tile discards a loot card due to Yoink!, place a crystal token on this model.  This model gains +1ST STR for each crystal token on it.');
 /*Divine Guidance					--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Divine Guidance', 'When a challenge card with a Trap effect is drawn, this model may discard this treasure to prevent the Trap effect from happening.');
@@ -99,12 +103,17 @@
 /*Experimental Calculations			--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Experimental Calculations', 'Nikolai Ten draws two treasure cards.  Choose one card and shuffle the other back into the deck.  Nikolai Ten gains the effects listed on the chosen card until the beginning of the next activation, then discards the card.  Only Nikolai Ten may use Experimental Calculations.');
 /*Extra Sparkly						--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Extra Sparkly', 'When a model with Extra Sparkly ends its activation, it may gain two wrath.');
 /*Favors of the Goddess				--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Favors of the Goddess', 'Princess Coins on this model''s card grant it +1R to defensive rolls instead of +1st.');
+
+/*Feed Me							--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Arcade', 'During upkeep, if a monster with Feed Me is suffering any wounds, destroy one minion within two squares of the model and remove one would token.');
+
+
 /*Fertilizer						--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Fertilizer', 'This model immediately shapeshifts back into its original form if a friendly model in an adjacent square takes the Interact action and discards two loot from the Backpack.');
 
 /*Fire								--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Fire', 'A model suffering Fire suffers one wound during its upkeep.');
 /*Fire Aura							--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Fire Aura', 'Monsters with CITRINEAFFINITY that are within two squares of a model with Fire Aura gain FIRE.');
 
-/*Fixed Form						--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Fixed Form', 'A shapeshift with Fixed Form may not shapeshift into its original form during its upkeep.');
+/*Fixed Form						--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Explore', 'Fixed Form', 'A shapeshift with Fixed Form may not shapeshift into its original form during its upkeep.');
+/*Fixed Form						--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Arcade', 'Fixed Form', 'A shapeshift with Fixed Form may not shapeshift into its original form during a unique command.');
 
 
 /*Flaming							--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Flaming', 	'When a model with Flaming ends its activation, all adjacent enemies suffer Fire.');
@@ -116,6 +125,7 @@
 
 /*For The Pirate Queen!				--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'For The Pirate Queen!', 'Ijin Oni gain Frenzy for the remainder of the game.  (A model with Frenzy gains +1R on offensive rolls against any model that is suffering a wound.)');
 
+/*Forced Shift						--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Forced Shift', 'When a model with Forced Shift is destroyed, instead of being removed from play it immediately Shapeshifts.');
 /*Forest Blessings					--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Forest Blessings', 'All other monsters on the same tile as a model with Forest Blessings gain +1ST STR.');
 
 
@@ -189,7 +199,7 @@
 /*The Journey						--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'The Journey', 'Dungeon bosses whose entire base is on the same tile as one or more models with The Journey gain one of the following, depending on which tile this model is on:<br>First Tile: Massive Damage<br>Second Tile: +2R DEX<br>Third Tile: +2R WILL.');
 /*Keep The Sake Flowing				--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Keep The Sake Flowing', 'A model with Keep The Sake Flowing may drink two potions per turn (both Hero and Consul), so long as the potions are different.  During the party''s power-up, if the model has no potion tokens, it suffers one wound.');
 /*Killamari							--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Killamari', 'When a model with Killamari is destroyed by another model, place a tentacles token on the model that destroyed it, for the remainder of the game (you can use a crystal token to represent the tentacles token).  When calculating wrath, count this token as one wrath.');
-/*Kindling							--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Kindling', 'A model adjacent to a model with Kindling cannot remove Fire status effect tokens at the end of its activation.');
+/*Kindling							--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Kindling', 'A model adjacent to a model with Kindling cannot remove FIRE status effect tokens at the end of its activation.');
 
 
 
@@ -340,6 +350,11 @@
 /*Shame!							--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Shame!', 'After a model with Shame is destroyed, the model that destroyed it suffers Compel 6.');
 
 /*Shapeshift: Naughtie				--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Shapeshift: Naughtie', 'The model may Shapeshift into the model listed.  Shapeshift rules are detailed in the rulebook.');
+
+
+/*Shapeshift: King Sprout			--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Shapeshift: King Sprout', 'The model may Shapeshift into the model listed.  Shapeshift rules are detailed in the rulebook.');
+/*Shapeshift: Volcanic Sprout		--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Shapeshift: Volcanic Sprout', 'The model may Shapeshift into the model listed.  Shapeshift rules are detailed in the rulebook.');
+/*Shapeshift: Wrath Sprout			--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Shapeshift: Wrath Sprout', 'The model may Shapeshift into the model listed.  Shapeshift rules are detailed in the rulebook.');
 
 
 /*Share a Sip						--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Share a Sip', 'If another hero activates after this hero during the same turn, that hero gains +3 Movement Points during that activation.');
@@ -521,7 +536,6 @@
 /*Unstable Design					--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Unstable Design', 'When a model with Unstable Design suffers a critical, it immediately takes its Vent Steam action.  If the model with Unstable Design would be destroyed by the critical, it takes Vent Steam before being removed.');
 /*Vent Steam						--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Vent Steam', 'Dangerous, 0Sw, +1B STR, Wave 1.');
 /*Vermin							--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Vermin', 'This model may be spawned by the Infested ability.');
-/*Volatile							--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Volatile', 'When a model with Volatile is destroyed, before removing the model, resolve the following action: 0AC 0SW, Wave 1, +2R STR.')
 /*Volatile							--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Volatile', 'When a model with Volatile is destroyed, before removing the model, resolve the following action: 0AC 0SW, Wave 1, +2R STR.')
 /*Watch Out!						--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Watch Out!', 'When a Boo Booty spawns on the same tile as this model, the Boo Booty suffers two wounds.');
 
