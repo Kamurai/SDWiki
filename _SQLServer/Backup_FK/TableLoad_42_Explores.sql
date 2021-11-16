@@ -1,7 +1,7 @@
 --FK Explore Cards
 
 
---Armory	--CardIndex 646	--UtilityIndex uXXX	--ExploreIndex eXXX	--ExploreCreepIndex	--ExploreTrapIndex
+--Armory	--CardIndex 661	--UtilityIndex 18	--ExploreIndex 0	--ExploreCreepIndex	0
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Armory',
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Generic/Card_Explore_Armory_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
@@ -219,7 +219,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Utilities (CardIndex, UtilityDescription) VALUES (663, 'Place card in the backpack.  The party may discard this card at any time to remove one status effect token from every friendly model.');
 insert into Explores (UtilityIndex) VALUES (uXXX);
 insert into ExploreCreeps (ExploreIndex, CreepNumber) VALUES (eXXX, 0);
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (eXXX, chXXX);--Beatrix the Witch Queen
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (eXXX, 171);--Beatrix the Witch Queen
 
 
 --Broken Harpsichord	--CardIndex 664	--UtilityIndex uXXX	--ExploreIndex eXXX	--ExploreCreepIndex	--ExploreTrapIndex

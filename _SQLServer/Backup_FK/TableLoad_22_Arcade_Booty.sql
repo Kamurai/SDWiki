@@ -11,7 +11,7 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (249, 1);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
 VALUES (249, 142, -1);
 --GangMemberIndex 1
-insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex);
+insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (1, 0, 'Booty Biter', 'Boo Booty', 'Elite', 5, 2, 3, 135);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (1, 466); --Backlash
 
@@ -27,7 +27,7 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (250, 1);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
 VALUES (250, 252, -1);
 --GangMemberIndex 2
-insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex);
+insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (2, 0, 'Bouncing Booty', 'Boo Booty', 'Elite', 8, 2, 2, 136);
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (2, 197); --Bounce
 
@@ -43,6 +43,6 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (251, 3);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
 VALUES (251, 152, -1);
 --GangMemberIndex 3
-insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex);
+insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (3, 0, 'Booty Grinder', 'Boo Booty', 'Elite', 5, 2, 2, 137);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (3, 531); --Grind
