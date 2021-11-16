@@ -10045,8 +10045,167 @@ insert into Equipment (CardIndex, Position, Effect) VALUES (645, 'Right', '+1G A
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (292, 473); --Berzerk
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (292, 648); --Tough
 
+--FK Utility Cards
+--Terrain
+--Brambles --CardIndex 646 --UtilityIndex 3 --TerrainIndex 2
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
+VALUES ('Brambles',
+'http://htkb.info/SDE/FK/Cards/Utility/Terrain/Card_Terrain_Brambles_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Utility/Terrain/Card_Terrain_Back_FK.png', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Brambles.xhtml', 
+'Terrain', 'FK', 'FK Core Set', 'Default', '');
+insert into Utilities (CardIndex, UtilityDescription) VALUES (646, ''); 
+insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (3, 589); --Poison
+insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (3, 498); --Difficult Terrain
 
+--Champion --CardIndex 647 --UtilityIndex 4 --TerrainIndex 3
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
+VALUES ('Champion',
+'http://htkb.info/SDE/FK/Cards/Utility/Terrain/Card_Terrain_Champion_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Utility/Terrain/Card_Terrain_Back_FK.png', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Champion.xhtml', 
+'Terrain', 'FK', 'FK Core Set', 'Default', '');
+insert into Utilities (CardIndex, UtilityDescription) VALUES (647, ''); 
+insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (4, 484); --Champion
+insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (4, 691); --Blessing
+insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (4, 692); --Structure
 
+--Chasm --CardIndex 648 --UtilityIndex 5 --TerrainIndex 4
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
+VALUES ('Chasm',
+'http://htkb.info/SDE/FK/Cards/Utility/Terrain/Card_Terrain_Chasm_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Utility/Terrain/Card_Terrain_Back_FK.png', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Chasm.xhtml', 
+'Terrain', 'FK', 'FK Core Set', 'Default', '');
+insert into Utilities (CardIndex, UtilityDescription) VALUES (648, ''); 
+insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (5, 485); --Chasm
+
+--Difficult Terrain --CardIndex 649 --UtilityIndex 6 --TerrainIndex 5
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
+VALUES ('Difficult Terrain',
+'http://htkb.info/SDE/FK/Cards/Utility/Terrain/Card_Terrain_Difficult_Terrain_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Utility/Terrain/Card_Terrain_Back_FK.png', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Difficult_Terrain.xhtml', 
+'Terrain', 'FK', 'FK Core Set', 'Default', '');
+insert into Utilities (CardIndex, UtilityDescription) VALUES (649, ''); 
+insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (6, 485); --Difficult Terrain
+
+--Fresh Grave --CardIndex 650 --UtilityIndex 7 --TerrainIndex 6
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
+VALUES ('Fresh Grave',
+'http://htkb.info/SDE/FK/Cards/Utility/Terrain/Card_Terrain_Fresh_Grave_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Utility/Terrain/Card_Terrain_Back_FK.png', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Fresh_Grave.xhtml', 
+'Terrain', 'FK', 'FK Core Set', 'Default', '');
+insert into Utilities (CardIndex, UtilityDescription) VALUES (650, ''); 
+insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (7, 520); --Fresh Grave
+
+--Goddess --CardIndex 651 --UtilityIndex 8 --TerrainIndex 7
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
+VALUES ('Goddess',
+'http://htkb.info/SDE/FK/Cards/Utility/Terrain/Card_Terrain_Goddess_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Utility/Terrain/Card_Terrain_Back_FK.png', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Goddess.xhtml', 
+'Terrain', 'FK', 'FK Core Set', 'Default', '');
+insert into Utilities (CardIndex, UtilityDescription) VALUES (651, ''); 
+insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (8, 484); --Goddess
+insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (8, 691); --Blessing
+insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (8, 692); --Structure
+
+--Secret Passage --CardIndex 652 --UtilityIndex 9 --TerrainIndex 8
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
+VALUES ('Secret Passage',
+'http://htkb.info/SDE/FK/Cards/Utility/Terrain/Card_Terrain_Secret_Passage_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Utility/Terrain/Card_Terrain_Back_FK.png', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Secret_Passage.xhtml', 
+'Terrain', 'FK', 'FK Core Set', 'Default', '');
+insert into Utilities (CardIndex, UtilityDescription) VALUES (652, ''); 
+insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (9, 611); --Secret Passage
+
+--Sentinel --CardIndex 653 --UtilityIndex 10 --TerrainIndex 9
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
+VALUES ('Sentinel',
+'http://htkb.info/SDE/FK/Cards/Utility/Terrain/Card_Terrain_Sentinel_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Utility/Terrain/Card_Terrain_Back_FK.png', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Sentinel.xhtml', 
+'Terrain', 'FK', 'FK Core Set', 'Default', '');
+insert into Utilities (CardIndex, UtilityDescription) VALUES (653, ''); 
+insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (10, 484); --Sentinel
+insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (10, 691); --Blessing
+insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (10, 692); --Structure
+
+--Spawn Location --CardIndex 654 --UtilityIndex 11 --TerrainIndex 10
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
+VALUES ('Spawn Location',
+'http://htkb.info/SDE/FK/Cards/Utility/Terrain/Card_Terrain_Spawn_Location_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Utility/Terrain/Card_Terrain_Back_FK.png', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Spawn_Location.xhtml', 
+'Terrain', 'FK', 'FK Core Set', 'Default', '');
+insert into Utilities (CardIndex, UtilityDescription) VALUES (654, ''); 
+insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (11, 631); --Spawn Location
+
+--Structure --CardIndex 655 --UtilityIndex 12 --TerrainIndex 11
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
+VALUES ('Structure',
+'http://htkb.info/SDE/FK/Cards/Utility/Terrain/Card_Terrain_Structure_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Utility/Terrain/Card_Terrain_Back_FK.png', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Structure.xhtml', 
+'Terrain', 'FK', 'FK Core Set', 'Default', '');
+insert into Utilities (CardIndex, UtilityDescription) VALUES (655, ''); 
+insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (12, 692); --Structure
+
+--FK Utility Cards
+
+--Backpack	--CardIndex 656 --UtilityIndex 13
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
+VALUES ('Backpack',
+'http://htkb.info/SDE/FK/Cards/Utility/Card_Terrain_Backpack_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Utility/Card_Terrain_Backpack_FK.png', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Backpack.xhtml', 
+'Terrain', 'FK', 'FK Core Set', 'Default', '');
+insert into Utilities (CardIndex, UtilityDescription) VALUES (656, '');
+
+--Classic Might Monster Chart	--CardIndex 657 --UtilityIndex 14
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
+VALUES ('Classic Might Monster Chart',
+'http://htkb.info/SDE/FK/Cards/Utility/Card_Utility_Classic_Mode_Mighty_Monster_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Utility/Card_Utility_Classic_Mode_Mighty_Monster_FK.png', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Classic_Mighty_Monster_Chart.xhtml', 
+'Terrain', 'FK', 'FK Core Set', 'Default', '');
+insert into Utilities (CardIndex, UtilityDescription) VALUES (657, '');
+
+--Elemental Affinity	--CardIndex 658 --UtilityIndex 15
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
+VALUES ('Classic Might Monster Chart',
+'http://htkb.info/SDE/FK/Cards/Utility/Card_Utility_Elemental_Affinity_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Utility/Card_Utility_Elemental_Affinity_FK_back.png', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Elemental_Affinity_Chart.xhtml', 
+'Terrain', 'FK', 'FK Core Set', 'Default', '');
+insert into Utilities (CardIndex, UtilityDescription) VALUES (658, '');
+insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (15, 511); --Feint
+insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (15, 512); --Fire
+insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (15, 518); --Fly
+insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (15, 557); --Immune: Status Effects
+insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (15, 596); --Predator
+insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (15, 625); --Slow
+
+--Arcade Might Monster Chart	--CardIndex 659 --UtilityIndex 16
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
+VALUES ('Arcade Might Monster Chart',
+'http://htkb.info/SDE/FK/Cards/Arcade/Utility/Card_Utility_Arcade_Mode_Might_Monster_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Arcade/Utility/Card_Utility_Arcade_Mode_Might_Monster_FK.png', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Arcade_Mighty_Monster_Chart.xhtml', 
+'Terrain', 'FK', 'FK Core Set', 'Default', '');
+insert into Utilities (CardIndex, UtilityDescription) VALUES (659, '');
+
+--Elemental Affinity	--CardIndex 660 --UtilityIndex 17
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
+VALUES ('Arcade Wrath Chart',
+'http://htkb.info/SDE/FK/Cards/Arcade/Utility/Card_Utility_Arcade_Mode_Wrath_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Arcade/Utility/Card_Utility_Arcade_Mode_Wrath_FK.png', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Arcade_Wrath_Chart.xhtml', 
+'Terrain', 'FK', 'FK Core Set', 'Default', '');
+insert into Utilities (CardIndex, UtilityDescription) VALUES (660, '');
 
 
 
