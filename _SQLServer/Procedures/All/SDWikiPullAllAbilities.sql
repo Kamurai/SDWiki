@@ -5,5 +5,6 @@ AS
 BEGIN
 	select * 
 	from AbilitiesView
+	ORDER BY AbilityName
 	;
 END

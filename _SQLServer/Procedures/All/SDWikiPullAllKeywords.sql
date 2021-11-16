@@ -5,5 +5,6 @@ AS
 BEGIN
 	select * 
 	from KeywordsView
+	ORDER BY KeywordName
 	;
 END
