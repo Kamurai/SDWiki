@@ -26,6 +26,8 @@
 
 /*Bane								--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Bane', 'A model suffering Bane discards the highest result rolled anytime it makes a defense roll.');
 
+/*Berserk							--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Berserk', 'During its activation, a model with Berserk may make a single Melee Attack costing no action points.');
+
 /*Black Ice							--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Black Ice', 'Enemy models which end an activation within two squares of this model are moved two squares directly away from the model with Black Ice.');
 /*Black Parade						--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Black Parade', 'When a model with Black Parade enters play, the Consul spawns two Curse Ravens adjacent to the spawning point icon in the third tile and two adjacent to the spawning point icon in the second tile (four Curse Ravens total).');
 
@@ -37,8 +39,12 @@
 
 
 /*Bob-omb							--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Bob-omb', 'If another Hero activates after this Hero, during the same turn, that Hero gains +1R to the first offense roll it makes that activation.');
+
+/*Bouncing Betty					--Index kXXX*/
+
 /*Bound								--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Bound', 'When a monster with Bound is destroyed, a SUPER on the same tile may instead choose to suffer one wound and prevent the monster from being destroyed.');
 /*Brutal Strike						--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Brutal Strike', 'When this model wins an offense roll, add three stars to its total.');
+/*Brutal Strike						--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Brutal Strike', 'When this model wins an offense roll, add +3ST to its total.');
 /*Brutality Aura					--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Brutality Aura', 'All models, friendly or enemy, within 2 squares gain +1st STR.');
 /*Brutality Aura					--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Brutality Aura', 'All models, friendly or enemy, within two squares of a model with Brutality Aura gain +1ST STR.');
 /*Bulldozer							--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Bulldozer', 'A model with Bulldozer may move through enemy models, and treats difficult terrain and structure squares as open squares. All non-blessing tile effects in those squares are ignored.');
@@ -90,7 +96,7 @@
 /*Do It For Me						--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Arcade', 	'Do It For Me', 'When a Hero within six squares of a model with Do It For Me activates, the Hero must roll its WILL.  On a roll of 0 stars, the Hero must take its first three moves to move as close to the closest other Hero as possible and then use its first action to target that Hero with a basic attack action.  The rest of the activation is taken normally.');
 /*Do It For Me						--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Explore', 'Do It For Me', 'When a Hero within four squares of a model with Do It For Me activates, the Hero must roll its WILL.  On a roll of 0 stars, the Consul controls the Hero''s first action and first three moves of the activation.  The remainder of the activation is taken normally.');
 
-/*Dragged To The Depths				--Index kXXX*/
+/*Dragged To The Depths				--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Explore', 'Dragged To The Depths', 'When a model with Dragged To The Depths is destroyed, the model that destroyed it must roll 1R.  If no stars are rolled, it suffers one wound.');
 
 /*Dread								--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Dread', 'A model with Dread gains +1st to all offense rolls if it is currently benefitting from Stealth.');
 
@@ -102,10 +108,14 @@
 
 /*Experimental Calculations			--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Experimental Calculations', 'Nikolai Ten draws two treasure cards.  Choose one card and shuffle the other back into the deck.  Nikolai Ten gains the effects listed on the chosen card until the beginning of the next activation, then discards the card.  Only Nikolai Ten may use Experimental Calculations.');
 /*Extra Sparkly						--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Extra Sparkly', 'When a model with Extra Sparkly ends its activation, it may gain two wrath.');
+
+/*Eye is Open, The					--Index kXXX*/
+
 /*Favors of the Goddess				--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Favors of the Goddess', 'Princess Coins on this model''s card grant it +1R to defensive rolls instead of +1st.');
 
 /*Feed Me							--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Arcade', 'During upkeep, if a monster with Feed Me is suffering any wounds, destroy one minion within two squares of the model and remove one would token.');
 
+/*Feint								--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Feint', 'When a model with Feint makes an offensive action they may choose one dice from their target''s defense roll and force them to reroll the result.  (Arcade: Decrease ARM of target model by +1ST.');
 
 /*Fertilizer						--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Fertilizer', 'This model immediately shapeshifts back into its original form if a friendly model in an adjacent square takes the Interact action and discards two loot from the Backpack.');
 
@@ -145,6 +155,8 @@
 /*Fungal Fury						--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Fungal Fury', 'Enemy models that end a Push within three squares and LoS of one or more models with Fungal Fury suffer one wound.');
 /*Fury								--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Explore', 'Fury', 'A model with Fury gains 1B to all offense rolls for each wound it is currently suffering.');
 /*Fury								--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Arcade', 'Fury', 'A model with Fury gains +1ST STR for each wound it is currently suffering.');
+
+/*Gatekeeper						--Index kXXX*/
 
 /*Ghost								--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Ghost', 'A model with Ghost ignores walls for the purpose of line of sight and movement.');
 
@@ -187,6 +199,7 @@
 /*Impale							--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Explore', 'Impale', 'When a model with Impale achieves a critical success, spawn a Nether Imp within three squares of it.');
 /*Impale							--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Arcade', 	'Impale', 'When a model with Impale destroys a Hero, spawn two Nether Imp adjacent to the Hero before removing it.');
 /*Improved Critical					--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Improved Critical', 'This model''s Critical hits inflict an additional wound.');
+/*Improved Critical					--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Improved Critical', 'This model''s critical successes inflict an additional wound.');
 /*Infested							--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Arcade', 'Infested', 'When a Spawning Point model with Infested is destroyed, spawn up to four Dirty Rats from it before removing it.  These Dirty Rats form a Rat King Elite Gang.');
 /*Infested							--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Explore', 'Infested', 'When a model with Infested is destroyed, spawn up to 4 Skull Points worth of monsters with the Vermin ability within 3 squares of it before removing it.');
 /*Insight							--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Insight', 'When a model with Insight is targeted by an offensive action, it may force the attacker to reroll one die of its choice from the offense roll, before making a defense roll.<br>(Arcade: A monster targeting a model with Insight reduces its STR by 1.)');
@@ -278,6 +291,8 @@
 
 /*Pile-On							--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Arcade', 'Pile-On', 'A model with Pile-on gains +1ST STR if its target is suffering Knockdown.');
 
+/*Pinata of Death					--Index kXXX*/
+
 /*Piracy							--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Arcade', 'Piracy', 'When a monster with Piracy attacks a Hero and the Hero rolls zero stars for defense, the Hero must discard one equipped loot card at random, if able.');
 
 
@@ -312,6 +327,7 @@
 /*Rampage							--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Explore', 'Rampage', 'A model with Rampage gains +1B whie making offensive actions for each spawning point that was destroyed this game.');
 /*Rampage							--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Arcade', 'Rampage', 'A model with Rampage gains +1ST whie making offensive actions for each spawning point that was destroyed this game.');
 /*Ravage							--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Ravage', 'When a model with Ravage inflicts damage on a single target with an offensive action, it may choose to suffer one damage to inflict an additional damage to the target.');
+/*Ravage							--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Ravage', 'When a model with Ravage inflicts wounds on a single target with an offensive action, it may choose to suffer one wound to inflict an additional wound to the target.  A model with only one wound remaining may not use this ability.');
 /*Reach								--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Arcade', 'Reach', 'RANGE2 if a model with Reach is in the gang.');
 
 
@@ -320,6 +336,8 @@
 /*Reclamation						--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Reclamation', 'When this dungeon boss spawns, place all spawning points that were destroyed this game back on their SPAWNPOINT squares.  Move any models occupying those squares to adjacent squares.  This dungeon boss does not heal due to spawning points in play, and Heroes do not draw loot for destroying these spawning points.  Then spawn six Yowlings within three squares of this dungeon boss.');
 
 /*Refuge							--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Refuge', 'Models with Refuge may not suffer wounds while Waystone Creeps are in play (they may still suffer other effects such as Push and Status Effects.)');
+
+/*Reposition						--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Arcade', 'Reposition', 'When a model with Reposition receives the move command, if it is already within range of the target Hero, it will move directly away from the Hero until it is as far from the Hero as it can be while still being within range and line of sight (up to its movement value).');
 
 /*Resolve							--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Resolve', 'Models with Resolve are immune to Control Effects.');
 /*Resolve Aura						--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Resolve Aura', 'Monsters with SAPPHIREAFFINITY that are within two squares of a model with Resolve Aura are immune to control effects.');
@@ -359,7 +377,8 @@
 
 /*Share a Sip						--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Share a Sip', 'If another hero activates after this hero during the same turn, that hero gains +3 Movement Points during that activation.');
 /*Shatter							--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Shatter', 'A model with Shatter gains +1B STR if its target is suffering Ice.');
-/*Shiny Bauble						--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Shiny Bauble', 'When a plot card is drawn, roll 1R.  All monsters with Shiny Bauble gain a permanent bonus, depending on the roll:<br><br>No Stars: +1ST ARM<br>One Star: +1ST STR<br>Two or more stars: +1AC');
+/*Shiny Bauble						--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Explore', 'Shiny Bauble', 'When a boss sighting space is reached on the mighty monster chart, the Consul draws the top card of the loot deck and places it next to the mighty monster chart (discard loot that increases the number of potions that may be carried and redraw).  For the remainder of the game, all monsters with Shiny Bauble gain all bonuses from loot drawn in this way as if they had it equipped.  (Arena: This ability is triggered the first time you spawn a mini-boss.)');
+/*Shiny Bauble						--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Arcade', 'Shiny Bauble', 'When a plot card is drawn, roll 1R.  All monsters with Shiny Bauble gain a permanent bonus, depending on the roll:<br><br>No Stars: +1ST ARM<br>One Star: +1ST STR<br>Two or more stars: +1AC');
 
 
 /*Sidekick							--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Sidekick', 'While this Pet’s Master is within 8 squares, this Pet may use the basic Interact action to target tokens as if it were a Hero. When a token would be placed on this Pet’s card due to an Interact, place it on this Pet’s Master’s card instead.');
@@ -398,6 +417,9 @@
 
 /*Spawning Pool						--Index kXXX*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Explore', 'Spawning Pool', '1x Tanchyo Madoushi (Spawning Point)<br>1x Tanchyo Kaiken<br>1x Tanchyo Oni<br>1x Tanchyo Kunoichi<br>2x Tanchyo Yajiri');
 /*Spawning Pool						--Index kXXX*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Arcade', 	'Spawning Pool', '1x Tanchyo Madoushi (Spawning Point)<br>1x Tanchyo Kaiken<br>1x Tanchyo Oni<br>1x Tanchyo Kunoichi<br>2x Tanchyo Yajiri<br><br>Cards:<br>1x Arrows and Blades<br>1x Tanchyo Kaiken<br>1x Tanchyo Oni');
+
+/*Spawning Pool						--Index kXXX*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Explore', 'Spawning Pool', '1x Tora Madoushi (Spawning Point)<br>2x Tora Kaiken<br>1x Tora Yajiri<br>1x Tora Oni<br>1x Tora Kunoichi');
+/*Spawning Pool						--Index kXXX*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Arcade', 	'Spawning Pool', '1x Tora Madoushi (Spawning Point)<br>2x Tora Kaiken<br>1x Tora Yajiri<br>1x Tora Oni<br>1x Tora Kunoichi<br><br>Cards:<br>1x Tirumphant Tora<br>1x Gunpowder Gala');
 
 /*Spawning Pool						--Index kXXX*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Explore', 'Spawning Pool', '1x Yamazaru Madoushi (Spawning Point)<br>2x Yamazaru Kaiken<br>1x Yamazaru Yajiri<br>1x Yamazaru Oni<br>1x Yamazaru Kunoichi');
 /*Spawning Pool						--Index kXXX*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Arcade', 	'Spawning Pool', '1x Yamazaru Madoushi (Spawning Point)<br>2x Yamazaru Kaiken<br>1x Yamazaru Yajiri<br>1x Yamazaru Oni<br>1x Yamazaru Kunoichi<br><br>Cards:<br>1x Monkey Mischief<br>1x Yamazaru Oni<br>1x Yamazaru Yajiri');
@@ -452,6 +474,9 @@
 
 /*Spawning Pool						--Index kXXX*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Explore', 'Spawning Pool', '1x Sand Spire (Spawning Point)<br>1x Silk Knife<br>2x Desert Blackblade<br>3x Dune Hunter');
 /*Spawning Pool						--Index kXXX*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Arcade', 	'Spawning Pool', '1x Sand Spire (Spawning Point)<br>1x Silk Knife<br>2x Desert Blackblade<br>3x Dune Hunter<br><br>Cards:<br>1x Desert Raiders<br>1x Dune Hunter');
+
+/*Spawning Pool						--Index kXXX*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Explore', 'Spawning Pool', '1x Scrap Tower (Spawning Point)<br>1x Grim Oculus<br>1x Gate Crasher<br>4x Dunces<br>12x Kabomb');
+/*Spawning Pool						--Index kXXX*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Arcade', 	'Spawning Pool', '1x Scrap Tower (Spawning Point)<br>1x Grim Oculus<br>1x Gate Crasher<br>4x Dunces<br>12x Kabomb');
 
 /*Spawning Pool						--Index kXXX*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Explore', 'Spawning Pool', '1x Sewer Pipe (Spawning Point)<br>1x Moffet<br>2x Fetch<br>4x Guttersnipe');
 /*Spawning Pool						--Index kXXX*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Arcade', 	'Spawning Pool', '1x Sewer Pipe (Spawning Point)<br>1x Moffet<br>2x Fetch<br>4x Guttersnipe<br><br>Cards:<br>1x Sovereign Sewers<br>1x Goblin Fetches');
@@ -517,7 +542,10 @@
 /*Tag Team							--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Tag Team', 'This Pet may activate immediately before its Master instead of immediately after it. After this Pet’s Master misses with a basic attack, this Pet may make a basic attack against the same target, if able.');
 /*Territorial						--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Territorial', 'A model with Territorial gains +1ST to offense rolls while on the first tile, +2ST while on the second, +3ST while on the third, and +4ST while on the fourth.<br>(Area: A model with Territorial gains +2ST to offensive rolls while on the same tile as a friendly spawning point.)');
 
+/*Thwomp							--Index kXXX*/
+
 /*Tough								--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Tough', 'During its upkeep, a model with Tough removes a single wound token.');
+/*Toughened Scars					--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Toughened Scars', 'This Hero gains +1HE for each Princess Coin on it, in addtion to any other benefit.  (Arcade:  When this model is brought into play using a Princess Coin, place the Princess Coin on its card in order to benefit from this ability.)');
 
 /*Toss Me							--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Toss Me', 'If this model is targeted by an action with Throw, after resolving the results of the action, destroy this model. Volatile is triggered by Toss Me.');
 /*Treeform							--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Treeform', 'At the start of this model’s activation it may choose to forego all actions and movement to Heal 2. If it does, until the start of its next activation, it gains +1R ARM and all friendly models within Aura 2 gain +1R STR.');
@@ -536,12 +564,14 @@
 /*Unstable Design					--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Unstable Design', 'When a model with Unstable Design suffers a critical, it immediately takes its Vent Steam action.  If the model with Unstable Design would be destroyed by the critical, it takes Vent Steam before being removed.');
 /*Vent Steam						--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Vent Steam', 'Dangerous, 0Sw, +1B STR, Wave 1.');
 /*Vermin							--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Vermin', 'This model may be spawned by the Infested ability.');
+/*Volatile							--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Volatile', 'When a model with Volatile is destroyed, before removing the model, resolve the following action: 2AC 0SW, +2R STR, Wave 1')
 /*Volatile							--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Volatile', 'When a model with Volatile is destroyed, before removing the model, resolve the following action: 0AC 0SW, Wave 1, +2R STR.')
 /*Watch Out!						--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Watch Out!', 'When a Boo Booty spawns on the same tile as this model, the Boo Booty suffers two wounds.');
 
 /*Webs								--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Webs', 'All squares within two squares of a model with Webs are difficult terrain.');
 
 /*Wind of Blades					--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Wind of Blades', 'A model with Wind of Blades may spend all of its movement points to make a single Missile Attack basic offensive action.');
+
 /*Yip's Wrath						--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Yip''s Wrath', 'During its activation, a model with Yip''s Wrath may make the following offensive action a single time for free:  0ac: 4mi, knockdown.');
 /*Yoink!							--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Yoink!', '[Arcade:] When a monster with Yoink! attacks a Hero and the Hero rolls stars for defense, the Hero must discard one equipped loot card at random, if able.');
 /*Yoink!							--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Yoink!', '[Explore:] When a model with Yoink! achieves a critical success, its target must discard one equipped loot card at random, if able.');
