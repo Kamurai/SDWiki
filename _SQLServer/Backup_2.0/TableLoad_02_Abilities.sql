@@ -6,6 +6,9 @@
 
 /*Apprentice														--Index kXXX*/ 	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Apprentice', 'Action', 'Support', 0, -1, -1, 'Spawn two Forge Gnomes adjacent to this model.');
 
+/*Araphel's Blessing												--Index kXXX*/ 	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Araphel''s Blessing', 'Action', 'Offense', 0, 1, 3, 'BANE');
+
+
 /*Arise																--Index kXXX*/ 	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Arise', 'Action', 'Support', 0, -1, -1, 'Spawn a Kodead adjacent to this model.');
 
 /*Army of Bone														--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Army of Bone', 'Action', 'Support', 0, -1, -1, 'Wave 3, Raise');
@@ -19,6 +22,7 @@
 
 /*Beastial Healing													--Index kXXX*/ 	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Default', 'Beastial Healing', 'Action', 'Support', 1, 3, 0, 'AUGMENT, Roll this Hero''s WILL and Heal 1 for each star rolled.');
 
+/*Belzarach															--Index kXXX*/ 	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Belzarach', 'Action', 'Offense', 0, 1, 6, '6MI');
 /*Berserker Saga													--Index kXXX*/ 	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Berserker Saga', 'Action', 'Support', 0, -1, -1, 'AUGMENT, if there is not a Draugr Berserker in play, destroy the closest friendly Draugr.  If a Draugr is destroyed in this way, the Consul spawns a Draugr Berserker within three squares of the Hero with the most wrath.');
 
 /*Blessings of Hyphae												--Index kXXX*/ 	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Blessings of Hyphae', 'Action', 'Support', 0, 1, 6, 'STR vs DEX.  Shapeshift target Hero into a Heroic Kinoshroom.');
@@ -47,6 +51,7 @@
 
 /*Choking Spores													--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Choking Spores', 'Action', 'Offense', 0, 1, -1, 'Wave 1, SLOW');
 
+/*Clockwork Gatling													--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Clockwork Gatling', 'Action', 'Offense', 0, 1, -1, 'Wave 3');
 
 
 /*Cloud of Straw													--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Cloud of Straw', 'Action', 'Offense', 0, 1, -1, 'Wave 1, HEX');
@@ -125,11 +130,17 @@
 
 /*Double Slash														--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Double Slash', 'Action', 'Offense', 0, 1, 2, 'Massive Damage');
 
+/*Dragon Rage														--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Dragon Rage', 'Action', 'Support', 0, -1, 0, 'AUGMENT, +1ST STR');
+
 /*Easy Mark															--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Easy Mark', 'Action', 'Support', 0, 1, 6, 'RANGE6, IMMOBILE');
 
 /*Endless Curiosity													--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Explore', 'Endless Curiosity', 'Action', 'Support', 0, -1, -1, 'Discard the top card of the treasure deck.  If it is not a treasure, discard until one is reached.  Until the end of the next Hero turn, all monsters with Shiny Bauble gain the benefits of the treasure as if they had it equipped.');
 /*Endless Curiosity													--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Endless Curiosity', 'Action', 'Support', 0, -1, -1, 'Roll 1R.  All monsters with Shiny Bauble gain an additional bonus from Shiny Bauble, depending on the number of stars rolled, until the end of the next Hero turn.');
 
+/*Enervating Bolt													--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Enervating Bolt', 'Action', 'Offense', 0, 1, 8, 'ICE');
+
+
+/*Ensnare															--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Ensnare', 'Action', 'Support', 0, -1, 6, 'RANGE6, IMMOBILE');
 /*Eruption															--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Eruption', 'Action', 'Support', 0, 1, -1, 'Wave 4, Push 3');
 
 
@@ -151,6 +162,7 @@
 
 /*Fire Field														--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Fire Field', 'Action', 'Support', 0, -1, -1, 'AUGMENT, Aura 2, Models in the area gain FIRE.');
 
+/*Flame Burst														--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Flame Burst', 'Action', 'Offense', 0, 1, 3, 'Burst 1, BANE');
 /*Flame Burst														--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Flame Burst', 'Action', 'Offense', 0, 1, 3, 'Burst 1, FIRE');
 
 /*Flying Fur														--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Flying Fur', 'Action', 'Support', 0, -1, -1, 'Surge');
@@ -201,6 +213,8 @@
 
 /*Hidden Lever														--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Hidden Lever', 'Action', 'Support', 0, -1, -1, 'Look at the top card of the Challenge Deck.  If it has a Trap effect that does not cause monsters to perform a command, immediately resolve it and then discard it.  Otherwise discard it with no effect.');
 
+/*Hot Pot															--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Hot Pot', 'Action', 'Offense', 0, 1, 4, '+1ST STR, FIRE');
+
 /*Howl																--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Howl', 'Action', 'Support', 0, -1, -1, 'Aura 5.  All other Elites gain +1MV.');
 /*Howl																--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Howl', 'Action', 'Support', 0, -1, -1, 'The closest friendly gang with the Rampage ability immediately performs the Fight command.');
 
@@ -226,6 +240,7 @@
 /*Killshot															--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Killshot', 'Action', 'Offense', 0, 4, 6, 'Massive Damage');
 
 /*Kneel Insects!													--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Explore', 'Kneel Insects!', 'Action', 'Offense', 2, 1, 3, '3SW, +1R STR, KNOCKDOWN');
+/*Knuckle Smash														--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Knuckle Smash', 'Action', 'Offense', 0, 1, 2, '+1ST STR, SLOW');
 
 /*Last Breath, The													--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Last Breath, The', 'Action', 'Support', 0, -1, -1, 'Aura 10.  Dragged To The Depths causes an additional wound.');
 
@@ -266,6 +281,7 @@
 
 /*Naughty Kitty														--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Naughty Kitty', 'Action', 'Support', 0, 1, -1, 'Wave 3, POISON');
 
+/*Neck Smash														--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Neck Smash', 'Action', 'Offense', 0, 1, 2, 'Massive Damage');
 /*Necrosis															--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Necrosis', 'Action', 'Support', 0, -1, -1, 'Spawn one Necromutant from the spawning pool, adjacent to Ezoghoul.');
 
 /*Nether Fire														--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Nether Fire', 'Action', 'Support', 0, 1, -1, 'Wave 1, BANE, FIRE');
@@ -273,9 +289,13 @@
 /*New Territory														--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'New Territory', 'Action', 'Support', 0, -1, -1, 'AUGMENT, The tile this model is on counts as the third tile for the purposes of the Territorial ability on monsters.');
 
 /*Obedience															--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Obedience', 'Action', 'Support', 0, -1, -1, 'AUGMENT.  The closest other gang in play performs a Move command.');
+/*Obscene Shouts													--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Obscene Shouts', 'Action', 'Offense', 0, 1, 4, '4RANGE, STR vs. WILL SLOW');
+
 /*Overwhelming Assault												--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Overwhelming Assault', 'Action', 'Offense', 0, 1, 2, 'Massive Damage');
 
+/*Overdose															--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Overdose', 'Action', 'Offense', 0, 1, 3, 'This offensive action inflicts one additional wound for each status effect on the target.');
 
+/*Personalized Concoction											--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Personalized Concoction', 'Action', 'Offense', 0, 1, 3, 'HEX, POISON');
 /*Pipe Puff															--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Pipe Puff', 'Action', 'Offense', 0, 1, -1, 'SW, Lance 6');
 
 /*Poison Blast														--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Explore', 'Poison Blast', 'Action', 'Offense', 2, 1, -1, 'SW, Lance 6');
@@ -314,13 +334,22 @@
 
 /*Say Hello To My Littler Friend!									--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Explore', 'Say Hello To My Littler Friend!', 'Action', 'Support', 1, -1, 3, 'Spawn one KaBomb within three squares, this KaBomb may not be spawned in the same square as a Hero.');
 
+/*Scuttling Menace													--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Scuttling Menace', 'Action', 'Support', -1, -1, 2, 'Spawn one Big Claw within 2 squares of this elite.');
+
+
 /*Scuttling Swarm													--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Explore', 'Scuttling Swarm', 'Action', 'Support', 1, -1, -1, 'Spawn one spider from the spawning pool, worth 1 skull point, adjacent to Duskweaver Acolyte.');
+/*Scuttling Swarm													--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Scuttling Swarm', 'Action', 'Support', 0, -1, -1, 'Spawn one Crawler within 2 squares of this elite.');
 /*Scuttling Swarm													--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Scuttling Swarm', 'Action', 'Support', 0, -1, -1, 'Spawn one Trapdoor Spider within 2 squares of this elite.');
+
+/*Shadow Breath														--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Shadow Breath', 'Action', 'Support', 0, -1, -1, 'AUGMENT, Aura 5, Stealth');
+/*Shadow Breath														--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Shadow Breath', 'Action', 'Support', 0, -1, -1, 'Aura 1, Heroes consider the squares in the area to block line of sight.  Heroes may still move into these squares.');
+
 
 /*Shell Shock														--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Shell Shock', 'Action', 'Offense', 0, 1, -1, 'Lance 10, KNOCKDOWN.  After resolving damage, place Testudo Tower adjacent to the Hero closest to Testudo Tower which was affected by Shell Shock.  Testudo Tower does not move if it cannot fit entirely within squares affected by Shell Shock.');
 /*Shell Spin														--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Shell Spin', 'Action', 'Offense', 0, 1, -1, 'Wave 2');
 
 /*Shield Breaker													--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Shield Breaker', 'Action', 'Offense', 0, 1, 3, 'BANE');
+/*Shield Wall														--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Shield Wall', 'Action', 'Support', 0, -1, -1, 'AUGMENT, Aura 2, +1ST ARM');
 
 /*Show of Strength													--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Explore', 'Show of Strength', 'Action', 'Support', 1, 1, -1, 'Wave 2, STR vs WILL, Compel 1');
 /*Show of Strength													--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Show of Strength', 'Action', 'Support', 0, 1, -1, 'Wave 1, STR vs WILL, Push 1');
@@ -342,6 +371,9 @@
 
 /*Snowball															--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Snowball', 'Action', 'Offense', 0, 1, 4, '+1ST STR, ICE');
 
+/*Snare																--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Snare', 'Action', 'Offense', 0, 1, 8, 'Pull 3');
+
+/*Sneaky Rat														--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Sneaky Rat', 'Action', 'Offense', 0, 1, 3, 'Any Heroes that fail a defense roll against this attack reduce the stars they rolled to 0 for the purposes of the Yoink ability.');
 
 /*Soul Shard														--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Soul Shard', 'Action', 'Support', 0, -1, 3, 'RANGE3, Animate Soul.  This action is not taken if a crystal token placed by this action is in play.');
 /*Soul Drain														--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Soul Drain', 'Action', 'Offense', 0, 1, 6, 'If this deals a wound, this Spawning Point follows the Reinforce command.');
@@ -354,6 +386,10 @@
 
 /*Spinning Tetsubo													--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Explore', 'Spinning Tetsubo', 'Action', 'Offense', 2, 4, -1, '0MI, Wave 3');
 /*Spinning Tetsubo													--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Spinning Tetsubo', 'Action', 'Offense', 0, 1, -1, 'Wave 3');
+
+/*Squirrely Shot													--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Squirrely Shot', 'Action', 'Offense', 0, 1, 4, '+1ST STR, BANE');
+
+/*Squad Tactics														--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Squad Tactics', 'Action', 'Support', 0, -1, -1, 'The Sergeant-at-Arms gains Feint until the end of the next Consul Turn.');
 
 /*Stay Out Of This, Fool											--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Stay Out Of This, Fool', 'Action', 'Support', 0, -1, -1, 'The Hero with the least wrath suffers Push 6.');
 
@@ -415,6 +451,7 @@
 /*Way of The Blade, The												--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Explore', 'Way of The Blade, The', 'Action', 'Offense', 2, 1, 2, '2SW, +1G STR');
 
 /*Weaken the Prey													--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Weaken the Prey', 'Action', 'Offense', 0, 1, 2, ' +1ST STR, BANE');
+/*Weaken the Prey													--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Weaken the Prey', 'Action', 'Offense', 0, 1, 2, ' +2ST STR, BANE');
 
 /*White-Out Elixir													--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Explore', 'White-Out Elixir', 'Potion', 'Emergency', 2, 3, -1, 'MA, Lance 3, IMMOBILE');
 /*Why Was I Built To Feel Loneliness?								--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Explore', 'Why Was I Built To Feel Loneliness?', 'Action', 'Support', 1, -1, -1, 'Roll 1G and spawn a number of Kabombs equal to the number of stars rolled within two squares of this model (they must be placed in unoccuppied squares).  Then destroy this model.');

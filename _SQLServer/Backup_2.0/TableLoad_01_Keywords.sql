@@ -12,6 +12,9 @@
 
 
 /*Another Round						--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Another Round', 'During upkeep roll 1b.  For every start rolled Deodric gains one potion.');
+
+
+
 /*Arc								--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Arc', 'After resolving an action with Arc, choose another model within two squares of the last model targeted and which has not already been targeted.  Resolve the action again, rolling one less dice of the player''s choice against the new target.  Continue choosing new targets in this manner until Arc fails to inflict a wound, no dice remain, or there is no new target in range.');
 /*Area Effects						--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Area Effects', 'Some actions can hit multiple models all at the same time. These actions are called area effects. To use an area effect, first determine which models are in squares that will be affected. Squares that the user cannot draw line of sight to are not affected. All models that are within the area are considered to be affected simultaneously.\r\n\r\nWith the exception of Burst X, area effects replace the range of an action. If the area effect action requires an offense roll the model using the action makes a single roll. Every model within the area is allowed to make a defense roll. Friendly models, including the user, are not affected by area effects unless they are Augment or Dangerous actions. If a model is affected by two area effects simultaneously the effects are cumulative as long as the actions’ names are different, even if their effects are the same.');
 /*Artillery							--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Artillery', 'An action with Artillery may target any square within range, even if no model occupies the square.');
@@ -76,7 +79,7 @@
 /*Dark Radiance						--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Dark Radiance', 'All offense rolls and defense rolls made against a model with Dark Radiance reduce the result by 1ST.');
 /*Dark Reflection					--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Dark Reflection', 'Boss sightings always affect the tile this Hero is on, in addition to any tiles listed by the Mighty Monster Chart.<br>(Arcade: During Consul Power-Up, look at the top card of the challenge deck. If it has a Trap effect, resolve it immediately, then discard it with no further effect.)');
 /*Deadly Defense					--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Deadly Defense', 'This model may score critical successes on defense rolls. If it does, the attacker suffers a wound.');
-/*Death Curse						--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Arcade', 	'Death Curse', 'When one or more models in this gang ends a move adjacent to a Hero, the party must select one model in the gang with Death Curse.  The selected model is destroyed and the party rolls 1G.  Apply one of the below status effects to the adjacent Hero depending on the roll:<br>0st:  Bane<br>1st:  Hex<br>2st: Ice<br>3st: Poison<br>4st:  Immobile');
+/*Death Curse						--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Arcade', 	'Death Curse', 'When one or more models in this gang ends a move adjacent to a Hero, the party must select one model in the gang with Death Curse.  The selected model is destroyed and the party rolls 1G.  Apply one of the below status effects to the adjacent Hero depending on the roll:<br>0ST:  Bane<br>1ST:  Hex<br>2ST: Ice<br>3ST: Poison<br>4ST:  Immobile');
 /*Death Curse						--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Explore', 'Death Curse', 'When a model with Death Curse is destroyed, roll 1G and place the corresponding status effect token on the square the model had occupied.  If a Hero enters the square with the status effect token, remove the token and the Hero gains the status effect at the end of the current activation:<br>0st:  Bane<br>1st:  Hex<br>2st: Ice<br>3st: Poison<br>4st:  Immobile');
 /*Death Lord						--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Explore', 'Death Lord', 'All Undead models within four squares of a model with Death Lord gain +1B to all offense rolls.');
 /*Death Lord						--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Arcade', 	'Death Lord', 'All other Undead models in play gain +2ST.');
@@ -118,6 +121,7 @@
 /*Feed Me							--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Arcade', 'During upkeep, if a monster with Feed Me is suffering any wounds, destroy one minion within two squares of the model and remove one would token.');
 
 /*Feint								--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Feint', 'When a model with Feint makes an offensive action they may choose one dice from their target''s defense roll and force them to reroll the result.  (Arcade: Decrease ARM of target model by +1ST.');
+/*Feint								--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Arcade', 'Feint', 'When a model with Feint makes an offensive action decrease the ARM of target model by 1ST.');
 
 /*Fertilizer						--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Fertilizer', 'This model immediately shapeshifts back into its original form if a friendly model in an adjacent square takes the Interact action and discards two loot from the Backpack.');
 
@@ -134,6 +138,9 @@
 
 
 /*Fly								--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Fly', 		'A model with Fly treats difficult terrain, chasm, and structure squares as open squares.  All non-blessing tile effects in those squares are ignored.  Structure squares do not block line of sight to or from models with Fly.');
+
+/*Fodder							--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Arcade', 'Fodder', 'When an Elite within 2 squares, that has no bonded minions, suffers a wound, apply the wound to this model instead as if it were one of the Elite''s bonded minions.');
+
 
 /*For The Pirate Queen!				--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'For The Pirate Queen!', 'Ijin Oni gain Frenzy for the remainder of the game.  (A model with Frenzy gains +1R on offensive rolls against any model that is suffering a wound.)');
 
@@ -177,6 +184,7 @@
 /*Hex								--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Hex',			'A model suffering Hex discards the highest result rolled anytime it makes an offense roll.');
 /*Hex Aura							--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Hex Aura',		'Monsters with RUBYAFFINITY that are within two squares of a model with Hex Aura gain Hex.');
 
+/*Hubris							--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Arcade',	'Hubris',		'A model with Hubris gains +1ST STR for every equipment card equipped on its target.');
 /*Hubris							--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Arcade',	'Hubris',		'When making a Melee Attack, a model with Hubris gains +1ST STR for every equipment card equipped on its target.');
 
 /*Hunger							--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Hunger',		'When a model with Hunger rolls a Heart, no other model may benefit from its effect unless the model with Hunger is not suffering any wounds.');
@@ -207,8 +215,8 @@
 /*Impale							--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Arcade', 	'Impale', 'When a model with Impale destroys a Hero, spawn two Nether Imp adjacent to the Hero before removing it.');
 /*Improved Critical					--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Improved Critical', 'This model''s Critical hits inflict an additional wound.');
 /*Improved Critical					--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Improved Critical', 'This model''s critical successes inflict an additional wound.');
-/*Infested							--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Arcade', 'Infested', 'When a Spawning Point model with Infested is destroyed, spawn up to four Dirty Rats from it before removing it.  These Dirty Rats form a Rat King Elite Gang.');
 /*Infested							--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Explore', 'Infested', 'When a model with Infested is destroyed, spawn up to 4 Skull Points worth of monsters with the Vermin ability within 3 squares of it before removing it.');
+/*Infested							--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Arcade', 'Infested', 'When a Spawning Point model with Infested is destroyed, spawn up to four Dirty Rats from it before removing it.  These Dirty Rats form a Rat King Elite Gang.');
 /*Insight							--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Insight', 'When a model with Insight is targeted by an offensive action, it may force the attacker to reroll one die of its choice from the offense roll, before making a defense roll.<br>(Arcade: A monster targeting a model with Insight reduces its STR by 1.)');
 
 /*Insignificant						--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Insignificant', 'If a Hero is on the same dungeon tile as a monster with Insignificant, the monster may be activated in addition to any other monsters that are activated during the Consul Turn.  A model may not draw loot card for destroying a model with Insginificant.');
@@ -269,6 +277,7 @@
 
 /*Meager							--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Meager', 'Heroes do not benefit from rolls of hearts or potions when attacking a model with Meager.');
 /*Mighty							--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Mighty', 'A model with Mighty double the bonuses granted by the chart.');
+/*Mighty							--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Mighty', 'This monster doubles all bonuses gained from the Mighty Monster Chart.');
 /*Military Acumen					--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Military Acumen', 'When a model with Military Acumen is in the dungeon, a friendly Hero may remove Princess Coins from its card to gain +1ac for each coin removed from the game until the end of its activation.');
 /*Moon's Blessing					--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Moon''s Blessing', 'A Hero with Moon''s Blessing gains bonuses from the mighty monster chart as if it were an 8-Bit monster.');
 
@@ -506,19 +515,6 @@
 /*Spawning Pool						--Index kXXX*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Explore', 'Spawning Pool', '1x Shadow Tower (Spawning Point)<br>1x Tower Stalker<br>2x Tower Blackblade<br>3x Tower Arbalist');
 /*Spawning Pool						--Index kXXX*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Arcade', 	'Spawning Pool', '1x Shadow Tower (Spawning Point)<br>1x Tower Stalker<br>2x Tower Blackblade<br>3x Tower Arbalist<br><br>Cards:<br>1x Shadow Guard<br>1x Tower Arbalist');
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*Spawning Pool						--Index kXXX*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Explore', 'Spawning Pool', '2x Shadow Warrens (Spawning Point)<br>1x Shadow Priest<br>2x Shadowscales<br>2x Dark Lobber<br>3x Dimwit<br>3x Skewer');
 /*Spawning Pool						--Index kXXX*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Arcade', 	'Spawning Pool', '2x Shadow Warrens (Spawning Point)<br>1x Shadow Priest<br>2x Shadowscales<br>2x Dark Lobber<br>3x Dimwit<br>3x Skewer<br><br>Cards:<br>1x Cult of the Dark<br>1x Shadow Brigade<br>1x Squirrely Slingers');
 
@@ -549,6 +545,8 @@
 
 /*Spread The Love					--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Arcade', 	'Spread The Love', 'After a monster with Spread The Love performs a Fight command that dealt one or more wounds, roll 1G for each Hero that suffered at least one wound and apply one of the following status effects depending on the roll:<br>0ST: Bane<br>1ST: Hex<br>2ST: Ice<br>3ST: Poison<br>4ST: Immobile');
 /*Spread The Love					--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Explore', 'Spread The Love', 'When a model with Spread The Love makes a successful offensive action, it may choose and apply one status effect on the target for each potion rolled.  These status effects are applied after fully resolving the action.');
+
+/*Steady							--Index kXXX*/ 	
 
 /*Steal								--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Steal', 'When a model with Steal inflicts a wound, it may discard one random card from the party''s backpack.');
 /*Stealth							--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Stealth', 'Actions targeting a model with Stealth reduce their Range by 3, to a minimum of 1.');
@@ -593,10 +591,14 @@
 /*Webs								--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Webs', 'All squares within two squares of a model with Webs are difficult terrain.');
 
 /*Wind of Blades					--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Wind of Blades', 'A model with Wind of Blades may spend all of its movement points to make a single Missile Attack basic offensive action.');
+/*Wind of Blades					--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Arcade', 'Wind of Blades', 'If a model with Wind of Blades didn''t move in the turn before attacking, it (or its gang) gains +1ST STR for the remainder of the turn.');
 
 /*Yip's Wrath						--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Yip''s Wrath', 'During its activation, a model with Yip''s Wrath may make the following offensive action a single time for free:  0ac: 4mi, knockdown.');
-/*Yoink!							--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Yoink!', '[Arcade:] When a monster with Yoink! attacks a Hero and the Hero rolls stars for defense, the Hero must discard one equipped loot card at random, if able.');
-/*Yoink!							--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Yoink!', '[Explore:] When a model with Yoink! achieves a critical success, its target must discard one equipped loot card at random, if able.');
+/*Yoink!							--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Explore', 'Yoink!', 'When a model with Yoink! achieves a critical success, its target must discard one equipped loot card at random, if able.');
+/*Yoink!							--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Arcade', 'Yoink!', 'When a monster with Yoink! attacks a Hero and the Hero rolls stars for defense, the Hero must discard one equipped loot card at random, if able.');
+
+/*Yoink								--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Arcade', 'Yoink', 'When a monster with Yoink attacks a Hero and the Hero rolls zero stars for defense, the Hero must discard one equipped loot card at random, if able.');
+
 /*You're Alone						--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Explore', 'You''re Alone', 'A model with You''re Alone gains +2B to offensive actions that are targeting a model that has no other models friendly to it within two squares.');
 /*You're Alone						--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Arcade', 	'You''re Alone', 'A model with You''re Alone gains +2ST STR when targeting a model that has no other models friendly to it within two squares.');
 
