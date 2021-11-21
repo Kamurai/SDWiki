@@ -27,6 +27,9 @@
 
 /*Backstabber						--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Backstabber', 'When a model with Backstabber suffers a wound, place the wound token on a friendly minion model wihtin three squares instead.');
 
+/*Bag of Crows						--Index kXXX*/
+
+
 /*Bane								--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Bane', 'A model suffering Bane discards the highest result rolled anytime it makes a defense roll.');
 
 /*Berserk							--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Berserk', 'During its activation, a model with Berserk may make a single Melee Attack costing no action points.');
@@ -35,6 +38,7 @@
 /*Black Parade						--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Black Parade', 'When a model with Black Parade enters play, the Consul spawns two Curse Ravens adjacent to the spawning point icon in the third tile and two adjacent to the spawning point icon in the second tile (four Curse Ravens total).');
 
 /*Bleed								--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Bleed', 			'When making an offensive roll, a model with Bleed counts any Heart rolled as both one star and one heart.');
+/*Blood Drinker						--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Explore', 'Blood Drinker',	'When a model with Blood Drinker inflicts a wound, it may remove one wound or status token from its card for every heart rolled.');
 /*Blood Drinker						--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Arcade', 	'Blood Drinker',	'If a monster with Blood Drinker inflicts at least one wound during a Fight command, remove one wound token from its card.');
 
 /*Bluff								--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Bluff', 'Models with Bluff gain +1ST to offensive actions taken during another model''s activation.');
@@ -42,6 +46,7 @@
 
 
 /*Bob-omb							--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Bob-omb', 'If another Hero activates after this Hero, during the same turn, that Hero gains +1R to the first offense roll it makes that activation.');
+/*Boo Booty							--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Boo Booty', 'Boo Booty cannot be spawned, instead they enter play when their treasure card is drawn.');
 
 /*Bouncing Betty					--Index kXXX*/
 
@@ -58,6 +63,8 @@
 
 
 /*Challenge							--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Explore', 'Challenge', 'When a boss with Challenge spawns, the Party must choose one Hero as their Champion. No model except the Champion may deal damage to the boss, though the boss may suffer other effects (such as Push or status effects) caused by other models. The boss gains +1R to all offensive actions it takes that target the Champion. If the Champion is destroyed, the Party must select another Hero to become the Champion.');
+/*Challenge							--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Explore', 'Challenge', 'When a boss with Challenge spawns, the party must choose one Hero as their Champion. No model except the Champion may deal wounds to the boss with actions, though the boss may suffer other effects (such as Push or status effects) caused by other models. If the Champion is destroyed, the Party must select another Hero to become the Champion.');
+
 /*Challenge							--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Arcade', 	'Challenge', 'A model with Challenge may not suffer wounds from actions, unless the action was taken by the Hero with the most wrath (it still suffers effects such as Push and status effects normally).');
 
 /*Charge							--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Arcade', 	'Charge', 'When a model with Charge uses a Lance are effect, after resolving all other effects of the Lance, place the model in an unoccupied square that was affected by the Lance, and which is as close as possible to the Hero with the most wrath.');
@@ -81,6 +88,11 @@
 /*Deadly Defense					--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Deadly Defense', 'This model may score critical successes on defense rolls. If it does, the attacker suffers a wound.');
 /*Death Curse						--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Arcade', 	'Death Curse', 'When one or more models in this gang ends a move adjacent to a Hero, the party must select one model in the gang with Death Curse.  The selected model is destroyed and the party rolls 1G.  Apply one of the below status effects to the adjacent Hero depending on the roll:<br>0ST:  Bane<br>1ST:  Hex<br>2ST: Ice<br>3ST: Poison<br>4ST:  Immobile');
 /*Death Curse						--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Explore', 'Death Curse', 'When a model with Death Curse is destroyed, roll 1G and place the corresponding status effect token on the square the model had occupied.  If a Hero enters the square with the status effect token, remove the token and the Hero gains the status effect at the end of the current activation:<br>0st:  Bane<br>1st:  Hex<br>2st: Ice<br>3st: Poison<br>4st:  Immobile');
+
+/*Death Lord						--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Explore', 'Death Lord', 'While a model with Death Lord is in play, all Undead monsters without the Death Lord ability gain +1 to all rolls.');
+
+/*Death Lord						--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Explore', 'Death Lord', 'While a model with Death Lord is in play, all Undead monsters without the Death Lord ability gain +1G to all offensive rolls.  When a model with Death Lord activates, spawn one Kodead withint two squares of it.');
+
 /*Death Lord						--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Explore', 'Death Lord', 'All Undead models within four squares of a model with Death Lord gain +1B to all offense rolls.');
 /*Death Lord						--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Arcade', 	'Death Lord', 'All other Undead models in play gain +2ST.');
 
@@ -123,6 +135,7 @@
 /*Feint								--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Feint', 'When a model with Feint makes an offensive action they may choose one dice from their target''s defense roll and force them to reroll the result.  (Arcade: Decrease ARM of target model by +1ST.');
 /*Feint								--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Arcade', 'Feint', 'When a model with Feint makes an offensive action decrease the ARM of target model by 1ST.');
 
+/*Ferocious Hoot					--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Ferocious Hoot', 'At the end of this model''s activation, spawn two Yowlings within four squares of this model, up to a maximum of six Yowlings in play.');
 /*Fertilizer						--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Fertilizer', 'This model immediately shapeshifts back into its original form if a friendly model in an adjacent square takes the Interact action and discards two loot from the Backpack.');
 
 /*Fire								--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Fire', 'A model suffering Fire suffers one wound during its upkeep.');
@@ -168,6 +181,7 @@
 /*Gatekeeper						--Index kXXX*/
 
 /*Ghost								--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Ghost', 'A model with Ghost ignores walls for the purpose of line of sight and movement.');
+/*Ghost								--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Ghost', 'A model with Ghost ignores walls and structures for the purpose of line of sight and movement.');
 
 
 /*Ghost Charge						--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Ghost Charge', 'When this treasure is equipped place 4R on it. Whenever this model makes a roll, it may remove any number of dice from this treasure and add them to the roll. Once the dice have been used they are removed from this card permanently.');
@@ -212,7 +226,7 @@
 /*Immune: Status Effects			--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Immune: Status Effects', 'A model that is Immune: Status Effects can never suffer the negative effects of status effects.  If a model that is suffering a status effect gains Immune: Status Effects remove all status effect tokens immediately.');
 
 /*Impale							--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Explore', 'Impale', 'When a model with Impale achieves a critical success, spawn a Nether Imp within three squares of it.');
-/*Impale							--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Arcade', 	'Impale', 'When a model with Impale destroys a Hero, spawn two Nether Imp adjacent to the Hero before removing it.');
+/*Impale							--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Impale', 'When a model with Impale destroys a Hero, spawn two Nether Imp adjacent to the Hero before removing it.');
 /*Improved Critical					--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Improved Critical', 'This model''s Critical hits inflict an additional wound.');
 /*Improved Critical					--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Improved Critical', 'This model''s critical successes inflict an additional wound.');
 /*Infested							--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Explore', 'Infested', 'When a model with Infested is destroyed, spawn up to 4 Skull Points worth of monsters with the Vermin ability within 3 squares of it before removing it.');
@@ -245,6 +259,8 @@
 /*Liver of Steel					--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Liver of Steel', 'This Hero may not take potion actions.');
 /*Mamma Knows						--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Mamma Knows', 'Mother Noctua gains +1G STR while targeting this model with offensive actions.');
 /*Mamma's Mad						--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Mamma''s Mad', 'After a model with Mamma''s Mad is destroyed, all friendly dungeon bosses in play immediately take the first unique action listed on their card.');
+/*Mamma's Mad						--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Explore', 'Mamma''s Mad', 'After one or more Yowlings is destroyed by an action, a model with Mamma''s Mad may immediately take the Deeproot Rage action without spending any actions points.');
+
 /*Mark								--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Mark', 'Place a crystal token on the target.  Friendly models attacking the target gain +1b to their offense rolls.  Only one friendly Mark token may be in play at one time and it may not be removed until the target is destroyed or Mark is used again.');
 
 /*Mark The Path						--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Mark The Path', 'When the dungeon boss spawns, spawn six Waystone Creeps; two in the first tile, two in the second tile, and two in the third tile.  In each tile one Waystone must be spawned within two squares of the SPAWNPOINT and the other must be spawned within two squares of any open doorway.');
@@ -310,6 +326,8 @@
 /*Past Life							--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Past Life', 'All monsters within 2 squares of a model with Past Life gain +1ST STR.');
 /*Pest Control						--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Pest Control', 'This model may target Invader models on a Hero''s card using its basic attacks so long as the affected Hero is in range of the attack.');
 
+/*Pig Feed							--Index kXXX*/
+
 /*Pile-On							--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Arcade', 'Pile-On', 'A model with Pile-on gains +1ST STR if its target is suffering Knockdown.');
 
 /*Pinata of Death					--Index kXXX*/
@@ -370,6 +388,7 @@
 
 /*Retribution						--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Arcade',	'Retribution', 'When a minion model with Retribution is destroyed, the gang''s elitel immediately performs the attack command.');
 
+/*Riches							--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default',	'Riches', 'When this boss spawns, it equips one additional relic item.');
 
 /*Run Down							--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Run Down', 'Once per activation, a model with Run Down may move onto the same square as an enemy model. The enemy model suffers Compel 2 and one wound.');
 /*Saboteur							--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Saboteur', 'Models with Saboteur may achieve Critical Successes against Spawning Points.');
@@ -543,8 +562,8 @@
 /*Spongy							--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Spongy', 		'When a model with Spongy is targeted by an action, after the action has been resolved, move the model that targeted it one square using the rules for Push.  Resolve Spongy even if the model with Spongy was destroyed.');
 
 
-/*Spread The Love					--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Arcade', 	'Spread The Love', 'After a monster with Spread The Love performs a Fight command that dealt one or more wounds, roll 1G for each Hero that suffered at least one wound and apply one of the following status effects depending on the roll:<br>0ST: Bane<br>1ST: Hex<br>2ST: Ice<br>3ST: Poison<br>4ST: Immobile');
 /*Spread The Love					--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Explore', 'Spread The Love', 'When a model with Spread The Love makes a successful offensive action, it may choose and apply one status effect on the target for each potion rolled.  These status effects are applied after fully resolving the action.');
+/*Spread The Love					--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Arcade', 	'Spread The Love', 'After a monster with Spread The Love performs a Fight command that dealt one or more wounds, roll 1G for each Hero that suffered at least one wound and apply one of the following status effects depending on the roll:<br>0ST: Bane<br>1ST: Hex<br>2ST: Ice<br>3ST: Poison<br>4ST: Immobile');
 
 /*Steady							--Index kXXX*/ 	
 
@@ -560,6 +579,9 @@
 /*Super Annoying					--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Super Annoying', 'Heroes that begin their activation adjacent to this model gain 1 additional Movement during the activation.');
 /*Surefoot							--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Surefoot', 'A model with Surefoot treats difficult terrain squares as open squares.  All non-blessing tile effects in those squares are ignored.');
 /*Tag Team							--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Tag Team', 'This Pet may activate immediately before its Master instead of immediately after it. After this Pet’s Master misses with a basic attack, this Pet may make a basic attack against the same target, if able.');
+
+/*Tail Sweep						--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Tail Sweep', 'During its activation, a model with Tail Sweep may make the following offensive action a single time for free:<br>0AC 0SW, Sweep 2, KNOCKDOWN');
+
 /*Territorial						--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Territorial', 'A model with Territorial gains +1ST to offense rolls while on the first tile, +2ST while on the second, +3ST while on the third, and +4ST while on the fourth.<br>(Area: A model with Territorial gains +2ST to offensive rolls while on the same tile as a friendly spawning point.)');
 
 /*Thwomp							--Index kXXX*/
@@ -573,6 +595,7 @@
 /*Troopa Shield						--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Troopa Shield', 'When a friendly model within two squares and Line of Sight is targeted with an attack, this model may suffer one wound.  If it does, the friendly model gains +1G ARM for the duration of the attack.');
 
 /*Trophies							--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Trophies', 'When a model with Trophies spawns, spawn six Ghostflames; two within three squares of each SPAWNPOINT.  A model with Trophies gains +1ST ARM for each Ghostflame in play.');
+/*Trophies							--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Explore', 'Trophies', 'A model with Trophies gains +1ST ARM for each Ghostflame in play.  Once per turn, if there are four or more Ghostflames adjacent to a model with Trophies, the model may immediately equip one Relic Item.');
 
 
 
@@ -586,7 +609,13 @@
 /*Vermin							--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Vermin', 'This model may be spawned by the Infested ability.');
 /*Volatile							--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Volatile', 'When a model with Volatile is destroyed, before removing the model, resolve the following action: 2AC 0SW, +2R STR, Wave 1')
 /*Volatile							--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Volatile', 'When a model with Volatile is destroyed, before removing the model, resolve the following action: 0AC 0SW, Wave 1, +2R STR.')
+
+/*Warcry							--Index kXXX*/
+
+
 /*Watch Out!						--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Watch Out!', 'When a Boo Booty spawns on the same tile as this model, the Boo Booty suffers two wounds.');
+
+/*Way Keeper						--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Way Keeper', 'Friendly Waystone Creeps gain +1G ARM while on the same tile as a model with Way Keeper.');
 
 /*Webs								--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Webs', 'All squares within two squares of a model with Webs are difficult terrain.');
 
@@ -603,6 +632,7 @@
 /*You're Alone						--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Arcade', 	'You''re Alone', 'A model with You''re Alone gains +2ST STR when targeting a model that has no other models friendly to it within two squares.');
 
 /*You've Been Naughty				--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'You''ve Been Naughty', 'After an enemy model rolls a critical success against a model with You''ve Been Naughty, the enemy model Shapeshifts into a Naughtie (regardless of the number of wounds dealt by the critical).  The controller of the model that is shapeshifting selects one Naughtie shapeshift card that is not already being used by a Hero.  If all Naughtie shapeshift cards are in play, this ability has no effect.  Heroes on Kringle''s Nice List may not be shapeshifted in this way.');
+/*You've Been Naughty				--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Explore', 'You''ve Been Naughty', 'After an enemy model rolls a critical success against a model with You''ve Been Naughty, the enemy model Shapeshifts into a Naughtie (regardless of the number of wounds dealt by the critical).  The Consul selects one Naughtie shapeshift card that is not already being used by a Hero.  If all Naughtie shapeshift cards are in play, this ability has no effect.  Heroes on Kringle''s Nice List may not be shapeshifted in this way.');
 
 
 
