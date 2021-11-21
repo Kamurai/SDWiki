@@ -100,6 +100,8 @@
 
 /*Dread								--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Dread', 'A model with Dread gains +1st to all offense rolls if it is currently benefitting from Stealth.');
 
+/*Eat Crow							--Index kXXX*/
+
 /*Excessive Armor					--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Excessive Armor', 'When this boss spawns, starting with the last tile and working backwards, place on crystal token adjacent to each SPAWNPOINT square.  Repeat this until there are a number of crystal tokens equal to the number of Heros.  A Hero may place an adjacent crystal token onto its card by taking an Interact action.  Heroes without a crystal token may not cause the dungeon boss to suffer wounds with offensive actions.');
 
 /*Eternal Flame						--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Eternal Flame', 'Enemy models within 2 squares and LOS of a model with Eternal Flame do not remove the Fire status effect at the end of their activation.');
@@ -179,6 +181,11 @@
 
 /*Hunger							--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Hunger',		'When a model with Hunger rolls a Heart, no other model may benefit from its effect unless the model with Hunger is not suffering any wounds.');
 /*Hunter							--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Hunter', 'A model with Hunter may reroll a single die when making offensive actions which target spider, gnoll, or orc models.');
+
+
+/*Hunter's Mark						--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Hunter''s Mark', 'Place a crystal token on the closest enemy model.  Friendly models attacking the model with the crystal token gain +1ST STR.  Only one frinedly Mark token may be in play at one time and it may not be removed until the target is destroyed or Mark is used again.');
+
+
 /*I Know Nothing					--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'I Know Nothing', 'A model with this ability may not use the Open Chest action.');
 /*Ice								--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Ice',			'A model suffering Ice may not use unique actions.');
 
@@ -239,22 +246,27 @@
 
 
 /*Mastery							--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Mastery', 'Once per activation, this model may use a unique action listed on the card of an adjacent friendly model.');
+
+
+/*Master Gains: Bane				--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Master Gains: Bane (X)', 'The model controlling this model gains the keyword "Bane" when they are within X spaces of one another.');
+/*Master Gains: Berserk				--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Master Gains: Berserk (X)', 'The model controlling this model gains the keyword "Berserk" when they are within X spaces of one another.');
+/*Master Gains: Fire				--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Master Gains: Fire (X)', 'The model controlling this model gains the keyword "Fire" when they are within X spaces of one another.');
 /*Master Gains: Happy Cat			--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Master Gains: Happy Cat', 'The model controlling this model gains the ability "Happy Cat" when they are within X spaces of one another.');
-/*Master Gains: Potion Master		--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Master Gains: Potion Master (X)', 'The model controlling this model gains the keyword "Potion Master" when they are within X spaces of one another.');
-/*Master Gains: Slow				--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Master Gains: Slow (X)', 'The model controlling this model gains the ability "Slow" when they are within X spaces of one another.');
+/*Master Gains: Immobile			--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Master Gains: Immobile (X)', 'The model controlling this model gains the keyword "Immobile" when they are within X spaces of one another.');
 /*Master Gains: Kindling			--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Master Gains: Kindling (X)', 'The model controlling this model gains the keyword "Kindling" when they are within X spaces of one another.');
 /*Master Gains: Knockdown			--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Master Gains: Knockdown (X)', 'The model controlling this model gains the keyword "Knockdown" when they are within X spaces of one another.');
-/*Master Gains: Oracle				--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Master Gains: Oracle (X)', 'The model controlling this model gains the keyword "Oracle" when they are within X spaces of one another.');
-/*Master Gains: Soprano				--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Master Gains: Soprano (X)', 'The model controlling this model gains the ability "Soprano" when they are within X spaces of one another.');
-/*Master Gains: Poison				--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Master Gains: Poison (X)', 'The model controlling this model gains the keyword "Poison" when they are within X spaces of one another.');
-/*Master Gains: Predator			--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Master Gains: Predator (X)', 'The model controlling this model gains the keyword "Predator" when they are within X spaces of one another.');
-/*Master Gains: Fire				--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Master Gains: Fire (X)', 'The model controlling this model gains the keyword "Fire" when they are within X spaces of one another.');
-/*Master Gains: Berserk				--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Master Gains: Berserk (X)', 'The model controlling this model gains the keyword "Berserk" when they are within X spaces of one another.');
 /*Master Gains: Luck				--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Master Gains: Luck (X)', 'The model controlling this model gains the keyword "Luck" when they are within X spaces of one another.');
+/*Master Gains: Oracle				--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Master Gains: Oracle (X)', 'The model controlling this model gains the keyword "Oracle" when they are within X spaces of one another.');
+/*Master Gains: Poison				--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Master Gains: Poison (X)', 'The model controlling this model gains the keyword "Poison" when they are within X spaces of one another.');
+/*Master Gains: Potion Master		--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Master Gains: Potion Master (X)', 'The model controlling this model gains the keyword "Potion Master" when they are within X spaces of one another.');
+/*Master Gains: Predator			--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Master Gains: Predator (X)', 'The model controlling this model gains the keyword "Predator" when they are within X spaces of one another.');
 /*Master Gains: Proficeint			--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Master Gains: Proficeint (X)', 'The model controlling this model gains the keyword "Proficeint" when they are within X spaces of one another.');
+/*Master Gains: Rage				--Index kXXX*/
+/*Master Gains: Slow				--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Master Gains: Slow (X)', 'The model controlling this model gains the ability "Slow" when they are within X spaces of one another.');
+/*Master Gains: Soprano				--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Master Gains: Soprano (X)', 'The model controlling this model gains the ability "Soprano" when they are within X spaces of one another.');
 /*Master Gains: Winds of Blades		--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Master Gains: Winds of Blades (X)', 'The model controlling this model gains the ability "Wind of Blades" when they are within X spaces of one another.');
-/*Master Gains: Immobile			--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Master Gains: Immobile (X)', 'The model controlling this model gains the keyword "Immobile" when they are within X spaces of one another.');
-/*Master Gains: Bane				--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Master Gains: Bane (X)', 'The model controlling this model gains the keyword "Bane" when they are within X spaces of one another.');
+
+
 /*Meager							--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Meager', 'Heroes do not benefit from rolls of hearts or potions when attacking a model with Meager.');
 /*Mighty							--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Mighty', 'A model with Mighty double the bonuses granted by the chart.');
 /*Military Acumen					--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Military Acumen', 'When a model with Military Acumen is in the dungeon, a friendly Hero may remove Princess Coins from its card to gain +1ac for each coin removed from the game until the end of its activation.');
@@ -321,6 +333,8 @@
 /*Quick Hatch						--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Quick Hatch', 'After Egg Clutch performs a Spawn command, all monsters it just spawned immediately perform a Move command.');
 /*Quick Strike						--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Quick Strike', 'After a model with Quick Strike destroys an enemy, its controller rolls 1g.  On a roll of Heart+Potion, the model may immediately make a basic offensive action without spending an action point.');
 
+/*Rage								--Index kXXX*/
+
 /*Raise								--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Raise', 'Replace target Bone Pile token with a model with the Bone Pile ability.  If a model is in the same square as the Bone Pile token, Raise has no effect.');
 
 
@@ -354,9 +368,16 @@
 /*Salty								--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Explore', 'Salty', 'A model with Salty gains +1R STR for each tentacles token on the target.');
 
 /*Scavenger							--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Scavenger', 'If a monster with Scavenger discards equipment from a Hero, place the equipment next to the monster.  The monster gains +1ST STR for each equipment discarded in this way.');
+
+/*Scent								--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Scent', 'Models with Scent ignore Stealth');
+
+
 /*Scuttle							--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Scuttle', 'The party draws one less loot for destroying a model with Scuttle.');
 
 /*Secluded							--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Secluded', 'When this Pet is summoned using the Summon Pet action, it may be placed on any open space in the dungeon.');
+
+/*Seeping Growth					--Index kXXX*/
+
 /*Selfless							--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Selfless', 'Once per turn, when an adjacent friendly model suffers a wound, this model may suffer it, instead.');
 /*Sense Weakness					--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Arcade', 	'Sense Weakness', 'A model with Sense Weakness gains +2ST while targeting a Hero with one or more status effects with an offensive action.  While selecting the target of a Command, a model with Sense Weakness counts status effect tokens as Wrath tokens.');
 /*Sense Weakness					--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Explore', 'Sense Weakness', 'A model with Sense Weakness gains +1G to offensive actions targeting a model with one or more status effects.');
@@ -389,6 +410,7 @@
 
 /*Small								--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Small', 'An enemy ');
 
+/*Smashing Pumpkins					--Index kXXX*/
 
 /*Smokebomb							--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Smokebomb', 'When the dungeon boss spawns, spawn all monsters with Smokebomb that were previously destroyed this game, before resolving the Boss Fight card; these monsters may spawn on any open square in the dungeon.');
 /*Solo Spawn						--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Solo Spawn', 'This solo is also a spawning point with the spawning pool listed below.  It follows commands as if it were a solo, and spawns as if it were a spawning point.  When this solo receives the move command, it moves directly away from the closest Hero.');

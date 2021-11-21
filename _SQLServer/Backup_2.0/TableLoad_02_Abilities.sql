@@ -31,6 +31,7 @@
 /*Booming Bombards													--Index kXXX*/ 	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Booming Bombards', 'Action', 'Offense', 0, 1, -1, 'Wave 3, +2ST STR');
 
 /*Breakthrough														--Index kXXX*/ 	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Breakthrough', 'Action', 'Offense', 0, 1, -1, 'Lance 6, Charge');
+/*Bring Down														--Index kXXX*/ 	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Bring Down', 'Action', 'Offense', 0, 1, 4, 'KNOCKDOWN');
 
 /*Burning Sensation													--Index kXXX*/ 	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Burning Sensation', 'Action', 'Offense', 0, 1, 6, 'Burst 1, FIRE');
 
@@ -89,6 +90,8 @@
 /*Cursed Vision														--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Cursed Vision', 'Action', 'Support', 0, -1, -1, 'Wave 3, BANE, IMMOBILE');
 /*Cursed Vision														--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Cursed Vision', 'Action', 'Support', 0, 1, -1, 'STR vs. WILL, Wave 3, HEX');
 
+/*Cutting Winds, The												--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Cutting Winds, The', 'Action', 'Offense', 0, 1, -1, 'Sweep 2, ICE');
+
 
 /*Cyclone															--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Cyclone', 'Action', 'Offense', 0, 1, -1, 'Lance 6');
 
@@ -143,6 +146,8 @@
 
 /*Final Day															--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Final Day', 'Action', 'Offense', 0, 1, 3, '+3ST STR, Massive Damage.');
 /*Final Day															--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Final Day', 'Action', 'Offense', 0, 1, 3, 'Massive Damage');
+
+/*Finish It															--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Finish It', 'Action', 'Support', 0, -1, 0, 'AUGMENT, Frenzy');
 
 /*Fire Field														--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Fire Field', 'Action', 'Support', 0, -1, -1, 'AUGMENT, Aura 2, Models in the area gain FIRE.');
 
@@ -199,6 +204,9 @@
 /*Howl																--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Howl', 'Action', 'Support', 0, -1, -1, 'Aura 5.  All other Elites gain +1MV.');
 /*Howl																--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Howl', 'Action', 'Support', 0, -1, -1, 'The closest friendly gang with the Rampage ability immediately performs the Fight command.');
 
+/*Ice Shards														--Index kXXX*/ 	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Ice Shards', 'Action', 'Offense', 0, 1, 2, 'ICE');
+/*Ice Rage															--Index kXXX*/ 	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Ice Rage', 'Action', 'Support', 0, -1, -1, 'AURA 2, ICE');
+
 /*Indiscriminate Destruction										--Index kXXX*/ 	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Indiscriminate Destruction', 'Action', 'Offense', 0, 1, -1, 'Wave 2, +1ST STR');
 
 /*Inferno															--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Inferno', 'Action', 'Offense', 0, 1, -1, 'Lance 6, FIRE');
@@ -226,6 +234,8 @@
 /*Let Them Come														--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Let Them Come', 'Action', 'Offense', 0, 1, -1, 'Wave 2');
 /*Lifesap															--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Lifesap', 'Action', 'Offense', 0, 1, -1, 'Wave 3, For every wound inflicted by Lifesap, remove one wound token from Shinigami.');
 
+/*Light the Sails													--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Light the Sails', 'Action', 'Offense', 0, 1, 8, 'FIRE');
+
 /*Lord of the Labyrinth												--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Lord of the Labyrinth', 'Action', 'Support', 0, -1, -1, 'Randomly select a dungeon tile and rotate it 180 degrees.');
 
 /*Lovestruck														--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Lovestruck', 'Action', 'Support', 0, -1, -1, 'Spawn one Spiteful Cherub adjacent to Araphel.');
@@ -233,6 +243,8 @@
 /*Maddening Maze													--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Maddening Maze', 'Action', 'Offense', 0, 1, -1, 'Wave 3, HEX');
 
 /*Make Mischief														--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Make Mischief', 'Action', 'Support', 0, -1, -1, 'The closest Naughtie immediately moves three spaces towards the closest other Hero and makes a basic offensive action against it, if able.');
+
+/*Mark																--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Mark', 'Action', 'Support', 0, -1, 10, 'RANGE10, Hunter''s Mark');
 
 /*Massive Ninja Star To The Face									--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Massive Ninja Star To The Face', 'Action', 'Offense', 0, 1, 4, 'Masive Damage');
 /*Master															--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Master', 'Action', 'Support', 0, -1, -1, 'All other monsters perform the Attack command.');
@@ -328,6 +340,9 @@
 /*Smoke Bomb														--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Explore', 'Smoke Bomb', 'Action', 'Support', 1, -1, -1, 'AUGMENT, Aura 2, Stealth');
 /*Smoke Bomb														--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Smoke Bomb', 'Action', 'Support', 0, -1, -1, 'AUGMENT, Aura 4, Stealth');
 
+/*Snowball															--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Snowball', 'Action', 'Offense', 0, 1, 4, '+1ST STR, ICE');
+
+
 /*Soul Shard														--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Soul Shard', 'Action', 'Support', 0, -1, 3, 'RANGE3, Animate Soul.  This action is not taken if a crystal token placed by this action is in play.');
 /*Soul Drain														--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Soul Drain', 'Action', 'Offense', 0, 1, 6, 'If this deals a wound, this Spawning Point follows the Reinforce command.');
 
@@ -399,6 +414,7 @@
 
 /*Way of The Blade, The												--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Explore', 'Way of The Blade, The', 'Action', 'Offense', 2, 1, 2, '2SW, +1G STR');
 
+/*Weaken the Prey													--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Weaken the Prey', 'Action', 'Offense', 0, 1, 2, ' +1ST STR, BANE');
 
 /*White-Out Elixir													--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Explore', 'White-Out Elixir', 'Potion', 'Emergency', 2, 3, -1, 'MA, Lance 3, IMMOBILE');
 /*Why Was I Built To Feel Loneliness?								--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Explore', 'Why Was I Built To Feel Loneliness?', 'Action', 'Support', 1, -1, -1, 'Roll 1G and spawn a number of Kabombs equal to the number of stars rolled within two squares of this model (they must be placed in unoccuppied squares).  Then destroy this model.');
