@@ -197,6 +197,9 @@
 /*Fire Eater														--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Explore', 'Fire Eater', 'Action', 'Support', 1, -1, -1, 'Remove any number of Fire tokens from models in the area, friendly or enemy, Lord Vulcanis may remove an equal number of wound tokens.');
 /*Fire Field														--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Fire Field', 'Action', 'Support', 0, -1, -1, 'AUGMENT, Aura 2, Models in the area gain FIRE.');
 
+/*Firing Pin														--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Explore', 'Firing Pin', 'Action', 'Offense', 1, 4, 6, '6MI, Massive Damage.  This model must discard a crystal shell token from the square it is occupying in order to take this action.');
+
+
 /*Flame Burst														--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Flame Burst', 'Action', 'Offense', 0, 1, 3, 'Burst 1, BANE');
 /*Flame Burst														--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Flame Burst', 'Action', 'Offense', 0, 1, 3, 'Burst 1, FIRE');
 
