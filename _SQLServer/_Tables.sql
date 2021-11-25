@@ -1,10 +1,10 @@
---drop table Cards, Characters, Affinities, AffinityAssignments, Keywords, KeywordAssignments, Abilities, AbilityAssignments, ExploreCharacters, Attributes, OffenseAssignments, DefenseAssignments, Pets, Monsters, ArcadeCharacters, StatLines, GangMembers, Equipment, EquipmentAssignments, BossSpawns, BossSpawnAssignments, Utilities, Explores, ExploreTraps, ExploreCreeps, ExploreAssignments, Challenges, ChallengeAssignments, Plots, MightyMonsters;
+--drop table Cards, Characters, Affinities, AffinityAssignments, Keywords, KeywordAssignments, Abilities, AbilityAssignments, ExploreCharacters, Attributes, OffenseAssignments, DefenseAssignments, Pets, Monsters, ArcadeCharacters, StatLines, GangMembers, Equipment, EquipmentAssignments, Mechs, BossSpawns, BossSpawnAssignments, Utilities, Explores, ExploreTraps, ExploreCreeps, ExploreAssignments, Challenges, ChallengeAssignments, Plots, MightyMonsters;
 --drop table Keywords
 --drop table KeywordAssignments
 --drop table KeywordAssignments, AbilityAssignments, OffenseAssignments, DefenseAssignments
 --drop table Cards, Characters, Affinities, AffinityAssignments, KeywordAssignments, AbilityAssignments, ExploreCharacters, Attributes, OffenseAssignments, DefenseAssignments, Pets, Monsters, ArcadeCharacters, StatLines, GangMembers, Equipment, EquipmentAssignments, BossSpawns, BossSpawnAssignments, Utilities, Explores, ExploreTraps, ExploreCreeps, ExploreAssignments, Challenges, ChallengeAssignments, Plots, MightyMonsters;
 --drop table Mechs;
-create table Cards (CardIndex bigint IDENTITY(0,1) PRIMARY KEY, Name varchar(50) not null, PictureFront varchar(125) not null, PictureBack varchar(125) not null, Link varchar(125) not null, CardType varchar(20) not null, ProductSet varchar(20) not null, ProductModule varchar(20) not null, PlayMode varchar(10) not null, Flavor varchar(1250));
+create table Cards (CardIndex bigint IDENTITY(0,1) PRIMARY KEY, Name varchar(50) not null, PictureFront varchar(150) not null, PictureBack varchar(150) not null, Link varchar(125) not null, CardType varchar(20) not null, ProductSet varchar(20) not null, ProductModule varchar(20) not null, PlayMode varchar(10) not null, Flavor varchar(1250));
 create table Characters (CharacterIndex bigint IDENTITY(0,1) PRIMARY KEY, CardIndex bigint not null);
 create table Affinities (AffinityIndex bigint IDENTITY(0,1) PRIMARY KEY, AffinityType varchar(50) not null);
 insert into Affinities (AffinityType) VALUES ('Amethyst'); --0
@@ -38,7 +38,7 @@ create table Monsters (MonsterIndex bigint IDENTITY(0,1) PRIMARY KEY, ExploreCha
 
 create table ArcadeCharacters (ArcadeCharacterIndex bigint IDENTITY(0,1) PRIMARY KEY, CharacterIndex bigint not null, SoloStatLineIndex bigint not null, GangStatLineIndex bigint not null);
 create table StatLines (StatLineIndex bigint IDENTITY(0,1) PRIMARY KEY, StatAction int not null, StatStrength int not null, StatRange int not null);
-create table GangMembers (GangMemberIndex bigint IDENTITY(0,1) PRIMARY KEY, ArcadeCharacterIndex bigint not null, MemberOrder int not null, Name varchar(10) not null, 	CreatureType varchar(30) not null, 	RankType varchar(50) not null, MemberMovement int not null, MemberHealth int not null, MemberArmor int not null, ExploreCharacterIndex bigint not null);
+create table GangMembers (GangMemberIndex bigint IDENTITY(0,1) PRIMARY KEY, ArcadeCharacterIndex bigint not null, MemberOrder int not null, Name varchar(50) not null, 	CreatureType varchar(30) not null, 	RankType varchar(50) not null, MemberMovement int not null, MemberHealth int not null, MemberArmor int not null, ExploreCharacterIndex bigint not null);
 
 create table Equipment (EquipmentIndex bigint IDENTITY(0,1) PRIMARY KEY, CardIndex bigint not null, Position varchar(50) not null, Effect varchar(300) not null);
 create table EquipmentAssignments (EquipmentAssignmentIndex bigint IDENTITY(0,1) PRIMARY KEY, EquipmentIndex bigint, CharacterIndex bigint not null);

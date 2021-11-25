@@ -35,7 +35,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Utilities (CardIndex, UtilityDescription) VALUES (663, '');
 insert into Explores (UtilityIndex) VALUES (20);
 insert into ExploreTraps (ExploreIndex, TrapDefense, TrapLayout) VALUES (2, '2ST', '2x2');
-insert into AbilityAssignments VALUES (2, 231); --Choke
+insert into AbilityAssignments (ExploreTrapIndex,AbilityIndex) VALUES (2, 231); --Choke
 
 
 --Creep Factory	--CardIndex 664	--UtilityIndex 21	--ExploreIndex 3	--ExploreCreepIndex	--ExploreTrapIndex
@@ -60,7 +60,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Utilities (CardIndex, UtilityDescription) VALUES (665, '');
 insert into Explores (UtilityIndex) VALUES (22);
 insert into ExploreTraps (ExploreIndex, TrapDefense, TrapLayout) VALUES (4, '2ST', '2x2');
-insert into AbilityAssignments VALUES (4, 673); --Wiggly
+insert into AbilityAssignments (ExploreTrapIndex, AbilityIndex) VALUES (4, 673); --Wiggly
 
 
 --Jammed Coin Slot	--CardIndex 666	--UtilityIndex 23	--ExploreIndex 5	--ExploreCreepIndex	--ExploreTrapIndex
@@ -157,7 +157,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Utilities (CardIndex, UtilityDescription) VALUES (673, '');
 insert into Explores (UtilityIndex) VALUES (30);
 insert into ExploreTraps (ExploreIndex, TrapDefense, TrapLayout) VALUES (12, '1ST', '2x2');
-insert into AbilityAssignments VALUES (12, 448); --My Foot!
+insert into AbilityAssignments (ExploreTrapIndex,AbilityIndex) VALUES (12, 448); --My Foot!
 
 
 --Traveling Merchant	--CardIndex 674	--UtilityIndex 31	--ExploreIndex 13	--ExploreCreepIndex	--ExploreTrapIndex
@@ -206,7 +206,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Utilities (CardIndex, UtilityDescription) VALUES (677, '');
 insert into Explores (UtilityIndex) VALUES (34);
 insert into ExploreTraps (ExploreIndex, TrapDefense, TrapLayout) VALUES (16, '2ST', '1x4');
-insert into AbilityAssignments VALUES (16, 398); --I'm Burning!
+insert into AbilityAssignments (ExploreTrapIndex,AbilityIndex) VALUES (16, 398); --I'm Burning!
 
 
 --Antidote	--CardIndex 678	--UtilityIndex 35	--ExploreIndex 17	--ExploreCreepIndex	--ExploreTrapIndex
@@ -244,8 +244,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Don''t drink that!');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (680, '3ST, 2x2');
 insert into Explores (UtilityIndex) VALUES (37);
-insert into ExploreCreeps (ExploreIndex, CreepNumber) VALUES (19, chXXX);
+insert into ExploreCreeps (ExploreIndex, CreepNumber) VALUES (19, 0);
 insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (19, 484);--Poisonous Brew
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (19, 171);--Beatrix the Witch Queen
 
 
 --Glitched Doorway	--CardIndex 681	--UtilityIndex 38	--ExploreIndex 20	--ExploreCreepIndex	--ExploreTrapIndex
@@ -519,7 +520,7 @@ insert into Utilities (CardIndex, UtilityDescription) VALUES (701, 'Add one Prin
 insert into Explores (UtilityIndex) VALUES (58);
 insert into ExploreCreeps (ExploreIndex, CreepNumber) VALUES (40, 2);
 insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (40, 260);--Roxor
-
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (40, 261);--Roxor
 
 --Dusty Cartridge	--CardIndex 702	--UtilityIndex 59	--ExploreIndex 41	--ExploreCreepIndex	--ExploreTrapIndex
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Dusty Cartridge',
@@ -532,7 +533,7 @@ insert into Utilities (CardIndex, UtilityDescription) VALUES (702, 'Choose one H
 insert into Explores (UtilityIndex) VALUES (59);
 insert into ExploreCreeps (ExploreIndex, CreepNumber) VALUES (41, 1);
 insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (41, 260);--Roxor
-
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (41, 261);--Roxor
 
 --Fire Flowers	--CardIndex 703	--UtilityIndex 60	--ExploreIndex 42	--ExploreCreepIndex	--ExploreTrapIndex
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Fire Flowers',
@@ -544,8 +545,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Utilities (CardIndex, UtilityDescription) VALUES (703, '1ST, 2x2');
 insert into Explores (UtilityIndex) VALUES (60);
 insert into ExploreCreeps (ExploreIndex, CreepNumber) VALUES (42, 0);
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (42, 391);--Hot, Hot, Hot!
-
+insert into AbilityAssignments (ExploreTrapIndex, AbilityIndex) VALUES (42, 391);--Hot, Hot, Hot!
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (42, 260);--Roxor
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (42, 261);--Roxor
 
 --Funny Costumes	--CardIndex 704	--UtilityIndex 61	--ExploreIndex 43	--ExploreCreepIndex	--ExploreTrapIndex
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Funny Costumes',
@@ -558,7 +560,7 @@ insert into Utilities (CardIndex, UtilityDescription) VALUES (704, 'When a Hero 
 insert into Explores (UtilityIndex) VALUES (61);
 insert into ExploreCreeps (ExploreIndex, CreepNumber) VALUES (43, 3);
 insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (43, 260);--Roxor
-
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (43, 261);--Roxor
 
 --Heroic Princess	--CardIndex 705	--UtilityIndex 62	--ExploreIndex 44	--ExploreCreepIndex	--ExploreTrapIndex
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Heroic Princess',
@@ -571,7 +573,7 @@ insert into Utilities (CardIndex, UtilityDescription) VALUES (705, 'After destro
 insert into Explores (UtilityIndex) VALUES (62);
 insert into ExploreCreeps (ExploreIndex, CreepNumber) VALUES (44, 1);
 insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (44, 260);--Roxor
-
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (44, 261);--Roxor
 
 --Pixelated	--CardIndex 706	--UtilityIndex 63	--ExploreIndex 45	--ExploreCreepIndex	--ExploreTrapIndex
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Pixelated',
@@ -584,7 +586,7 @@ insert into Utilities (CardIndex, UtilityDescription) VALUES (706, 'Heroes canno
 insert into Explores (UtilityIndex) VALUES (63);
 insert into ExploreCreeps (ExploreIndex, CreepNumber) VALUES (45, 2);
 insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (45, 260);--Roxor
-
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (45, 261);--Roxor
 
 --POW!	--CardIndex 707	--UtilityIndex 64	--ExploreIndex 46	--ExploreCreepIndex	--ExploreTrapIndex
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('POW!',
@@ -597,7 +599,8 @@ insert into Utilities (CardIndex, UtilityDescription) VALUES (707, '3ST. 2x2');
 insert into Explores (UtilityIndex) VALUES (64);
 insert into ExploreCreeps (ExploreIndex, CreepNumber) VALUES (46, 2);
 insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (46, 654);--Twomp!
-
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (46, 260);--Roxor
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (46, 261);--Roxor
 
 --Stone Wall	--CardIndex 708	--UtilityIndex 65	--ExploreIndex 47	--ExploreCreepIndex	--ExploreTrapIndex
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Stone Wall',
@@ -610,7 +613,7 @@ insert into Utilities (CardIndex, UtilityDescription) VALUES (708, '5ST, 1x4, Mo
 insert into Explores (UtilityIndex) VALUES (65);
 insert into ExploreCreeps (ExploreIndex, CreepNumber) VALUES (47, 0);
 insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (47, 260);--Roxor
-
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (47, 261);--Roxor
 
 --Burglar's Ring	--CardIndex 709	--UtilityIndex 66	--ExploreIndex 48	--ExploreCreepIndex	--ExploreTrapIndex
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Burglar''s Ring',
@@ -726,7 +729,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Utilities (CardIndex, UtilityDescription) VALUES (717, '2ST, 2x2, Place affected Heroes adjacent to the start marker.  Place affected monsters adjacent to the nearest spawning point.');
 insert into Explores (UtilityIndex) VALUES (74);
 insert into ExploreCreeps (ExploreIndex, CreepNumber) VALUES (56, 0);
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (56, chXXX);--Testudo Tower
+--insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (56, chXXX);--Testudo Tower
 
 
 --Bomb Flower	--CardIndex 718	--UtilityIndex 75	--ExploreIndex 57	--ExploreCreepIndex	--ExploreTrapIndex
@@ -752,7 +755,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Utilities (CardIndex, UtilityDescription) VALUES (719, '1ST, 2x2, When a model is affected by Bumper Shells, its player may move the model 3 squares using the rules for push.');
 insert into Explores (UtilityIndex) VALUES (76);
 insert into ExploreCreeps (ExploreIndex, CreepNumber) VALUES (58, 0);
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (58, chXXX);--Testudo Tower
+--insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (58, chXXX);--Testudo Tower
 
 
 --Handy Tunnel	--CardIndex 720	--UtilityIndex 77	--ExploreIndex 59	--ExploreCreepIndex	--ExploreTrapIndex
@@ -765,7 +768,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Utilities (CardIndex, UtilityDescription) VALUES (720, 'Discard during a Hero''s upkeep.  The Hero may move through walls, and treats difficult terrain and structure squares as open squares until the end of its activation.');
 insert into Explores (UtilityIndex) VALUES (77);
 insert into ExploreCreeps (ExploreIndex, CreepNumber) VALUES (59, 1);
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (59, chXXX);--Testudo Tower
+--insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (59, chXXX);--Testudo Tower
 
 
 --Shell Up	--CardIndex 721	--UtilityIndex 78	--ExploreIndex 60	--ExploreCreepIndex	--ExploreTrapIndex
@@ -778,7 +781,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Utilities (CardIndex, UtilityDescription) VALUES (721, 'Discard before making a defense roll to add +1R to the roll.');
 insert into Explores (UtilityIndex) VALUES (78);
 insert into ExploreCreeps (ExploreIndex, CreepNumber) VALUES (60, 1);
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (60, chXXX);--Testudo Tower
+--insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (60, chXXX);--Testudo Tower
 
 
 --Testudo Formation	--CardIndex 722	--UtilityIndex 79	--ExploreIndex 61	--ExploreCreepIndex	--ExploreTrapIndex
@@ -791,7 +794,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Utilities (CardIndex, UtilityDescription) VALUES (722, 'Discard during a Hero''s upkeep.  Remove all status effect tokens from the Hero, and all adjacent Heroes.');
 insert into Explores (UtilityIndex) VALUES (79);
 insert into ExploreCreeps (ExploreIndex, CreepNumber) VALUES (61, 2);
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (61, chXXX);--Testudo Tower
+--insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (61, chXXX);--Testudo Tower
 
 
 --Bone Rot	--CardIndex 723	--UtilityIndex 80	--ExploreIndex 62	--ExploreCreepIndex	--ExploreTrapIndex
@@ -833,80 +836,67 @@ insert into ExploreCreeps (ExploreIndex, CreepNumber) VALUES (64, 2);
 insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (64, 263);--Von Drakk
 
 
---Bone Rot	--CardIndex 726	--UtilityIndex 83	--ExploreIndex 65	--ExploreCreepIndex	--ExploreTrapIndex
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Bone Rot',
-'http://htkb.info/SDE/FK/Cards/Utility/Explore/Specific/Von_Drakk/Card_Explore_Bone_Rot_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
-'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Explore/Bone_Rot.xhtml', 
-'Warband', 'FK', 'FK Core Set', 'Default', 
-'I don''t feel good.');
-insert into Utilities (CardIndex, UtilityDescription) VALUES (726, '2ST, 2x2');
-insert into Explores (UtilityIndex) VALUES (83);
-insert into ExploreCreeps (ExploreIndex, CreepNumber) VALUES (65, 0);
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (65, 209);--Brittle Bone
-
-
---Hidden Lever	--CardIndex 727	--UtilityIndex 84	--ExploreIndex 66	--ExploreCreepIndex	--ExploreTrapIndex
+--Hidden Lever	--CardIndex 726	--UtilityIndex 83	--ExploreIndex 65	--ExploreCreepIndex	--ExploreTrapIndex
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Hidden Lever',
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Specific/Von_Drakk/Card_Explore_Hidden_Lever_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Explore/Hidden_Lever.xhtml', 
 'Warband', 'FK', 'FK Core Set', 'Default', 
 'What do you think this does?');
-insert into Utilities (CardIndex, UtilityDescription) VALUES (727, 'Rotate the tile 90 degrees clockwise.');
-insert into Explores (UtilityIndex) VALUES (84);
-insert into ExploreCreeps (ExploreIndex, CreepNumber) VALUES (66, 0);
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (66, 263);--Von Drakk
+insert into Utilities (CardIndex, UtilityDescription) VALUES (726, 'Rotate the tile 90 degrees clockwise.');
+insert into Explores (UtilityIndex) VALUES (83);
+insert into ExploreCreeps (ExploreIndex, CreepNumber) VALUES (65, 0);
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (65, 263);--Von Drakk
 
 
---Secret Passsage	--CardIndex 728	--UtilityIndex 85	--ExploreIndex 67	--ExploreCreepIndex	--ExploreTrapIndex
+--Secret Passsage	--CardIndex 727	--UtilityIndex 84	--ExploreIndex 66	--ExploreCreepIndex	--ExploreTrapIndex
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Secret Passage',
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Specific/Von_Drakk/Card_Explore_Secret_Passage_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Explore/Secret_Passage.xhtml', 
 'Warband', 'FK', 'FK Core Set', 'Default', 
 'It''s dark - you go first.');
-insert into Utilities (CardIndex, UtilityDescription) VALUES (728, 'Heroes place one token in a square on this tile and one in any other tile.  These squares count as Secret Passage Tile Effects for the rest of game.');
-insert into Explores (UtilityIndex) VALUES (85);
-insert into ExploreCreeps (ExploreIndex, CreepNumber) VALUES (67, 3);
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (67, 263);--Von Drakk
+insert into Utilities (CardIndex, UtilityDescription) VALUES (727, 'Heroes place one token in a square on this tile and one in any other tile.  These squares count as Secret Passage Tile Effects for the rest of game.');
+insert into Explores (UtilityIndex) VALUES (84);
+insert into ExploreCreeps (ExploreIndex, CreepNumber) VALUES (66, 3);
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (66, 263);--Von Drakk
 
 
---Sore Thumbs	--CardIndex 729	--UtilityIndex 86	--ExploreIndex 68	--ExploreCreepIndex	--ExploreTrapIndex
+--Sore Thumbs	--CardIndex 728	--UtilityIndex 85	--ExploreIndex 67	--ExploreCreepIndex	--ExploreTrapIndex
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Sore Thumbs',
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Specific/Von_Drakk/Card_Explore_Sore_Thumbs_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Explore/Sore_Thumbs.xhtml', 
 'Warband', 'FK', 'FK Core Set', 'Default', 
 'Take a break.');
-insert into Utilities (CardIndex, UtilityDescription) VALUES (729, 'No models may use unique actions.');
-insert into Explores (UtilityIndex) VALUES (86);
-insert into ExploreCreeps (ExploreIndex, CreepNumber) VALUES (68, 1);
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (68, 263);--Von Drakk
+insert into Utilities (CardIndex, UtilityDescription) VALUES (728, 'No models may use unique actions.');
+insert into Explores (UtilityIndex) VALUES (85);
+insert into ExploreCreeps (ExploreIndex, CreepNumber) VALUES (67, 1);
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (67, 263);--Von Drakk
 
 
---Soul Spike	--CardIndex 730	--UtilityIndex 87	--ExploreIndex 69	--ExploreCreepIndex	--ExploreTrapIndex
+--Soul Spike	--CardIndex 729	--UtilityIndex 86	--ExploreIndex 68	--ExploreCreepIndex	--ExploreTrapIndex
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Soul Spike',
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Specific/Von_Drakk/Card_Explore_Soul_Spike_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Explore/Soul_Spike.xhtml', 
 'Warband', 'FK', 'FK Core Set', 'Default', 
 'Is it supposed to glow like that?');
-insert into Utilities (CardIndex, UtilityDescription) VALUES (730, 'Spawning Point gains Backlash.  (If a model with Backlash exceeds an offense roll with their defense roll the attacker takes one wound.)');
-insert into Explores (UtilityIndex) VALUES (87);
-insert into ExploreCreeps (ExploreIndex, CreepNumber) VALUES (69, 3);
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (69, 263);--Von Drakk
+insert into Utilities (CardIndex, UtilityDescription) VALUES (729, 'Spawning Point gains Backlash.  (If a model with Backlash exceeds an offense roll with their defense roll the attacker takes one wound.)');
+insert into Explores (UtilityIndex) VALUES (86);
+insert into ExploreCreeps (ExploreIndex, CreepNumber) VALUES (68, 3);
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (68, 263);--Von Drakk
 
 
---Webs	--CardIndex 731	--UtilityIndex 88	--ExploreIndex 70	--ExploreCreepIndex	--ExploreTrapIndex
+--Webs	--CardIndex 730	--UtilityIndex 87	--ExploreIndex 68	--ExploreCreepIndex	--ExploreTrapIndex
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Webs',
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Specific/Von_Drakk/Card_Explore_Webs_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Explore/Webs.xhtml', 
 'Warband', 'FK', 'FK Core Set', 'Default', 
 'I can''t get them off.');
-insert into Utilities (CardIndex, UtilityDescription) VALUES (731, '1ST, 2x2');
-insert into Explores (UtilityIndex) VALUES (88);
-insert into ExploreCreeps (ExploreIndex, CreepNumber) VALUES (70, 0);
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (70, 597);--Sticky
+insert into Utilities (CardIndex, UtilityDescription) VALUES (730, '1ST, 2x2');
+insert into Explores (UtilityIndex) VALUES (87);
+insert into ExploreCreeps (ExploreIndex, CreepNumber) VALUES (69, 0);
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (69, 597);--Sticky
 
