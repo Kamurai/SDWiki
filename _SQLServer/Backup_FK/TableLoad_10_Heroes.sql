@@ -988,7 +988,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Heroes/Sister_of_Light.xhtml', 
 'Hero', 'FK', 'FK Core Set', 'Default', 
 'Chapter Houses for the Order of Light can be found throughout Crystalia.  From their hallowed halls paladins, priests, and slayers are trained to bring light to the dark corners of Crystalia.  Sisters of Light are drawn from the order''s orphans who have lost their loved ones to the creatures of the night.  Their unique experiences give them not only the strength to seek vengeance but the empathy to assist others in need.');
-insert into Characters (CardIndex) VALUES (201);
+insert into Characters (CardIndex) VALUES (202);
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 115, 'Feminine', 'Small', 'Human', 6, 3, '2R', '3B', '2R', '2B', 5, 2);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (115, 3); --Ruby
@@ -1001,7 +1001,7 @@ insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (115
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (115, 1, 1); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (115, 2); --Armor
 
---Soda Master Candy --CardIndex 201	--CharacterIndex 115	--ExploreCharacterIndex 115
+--Soda Master Candy --CardIndex 203	--CharacterIndex 116	--ExploreCharacterIndex 116
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 'Soda Master Candy', 
 'http://htkb.info/SDE/FK/Cards/Heroes/Card_Hero_Soda_Master_Candy_FK.png', 
@@ -1009,20 +1009,20 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Heroes/Soda_Master_Candy.xhtml', 
 'Hero', 'FK', 'FK Core Set', 'Default', 
 'Traveling far and wide, Candy and Coal search out new recipes to craft their delicious soda pop potions.  Carefully selecting the finest ingredients, they craft their bubbling brew.  After a batch is made, Cola tastes the new concoction, his tail twitching with excitement.  Candy monitors his reaction studiously as he drinks the soda down.  If his fur stands up on end and all three tails straighten with euphoria they have a winner!  The precious elixir is bottled and saved for use in the adventures to come.  Well, after a bottle or three are consumed immediately--just to double check.');
-insert into Characters (CardIndex) VALUES (201);
+insert into Characters (CardIndex) VALUES (203);
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
-115, 'Feminine', 'Small', 'Human', 6, 3, '2B', '3B', '2R', '1B1R', 5, 3);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (115, 3); --Ruby
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (115, 487); --Cola
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (115, 570); --Luck
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (115, 658); --Vending Machine
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (115, 574); --Soothing Soda
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (115, 607); --Sugar Rush
-insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (115, 1, 1); --Strength
-insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (115, 3, 6); --Will
-insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (115, 2); --Armor
+116, 'Feminine', 'Small', 'Human', 6, 3, '2B', '3B', '2R', '1B1R', 5, 3);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (116, 3); --Ruby
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (116, 487); --Cola
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (116, 570); --Luck
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (116, 658); --Vending Machine
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (116, 574); --Soothing Soda
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (116, 607); --Sugar Rush
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (116, 1, 1); --Strength
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (116, 3, 6); --Will
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (116, 2); --Armor
 
---Star Guild Sapper --CardIndex 202	--CharacterIndex 116	--ExploreCharacterIndex 116
+--Star Guild Sapper --CardIndex 204	--CharacterIndex 117	--ExploreCharacterIndex 117
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 'Star Guild Sapper', 
 'http://htkb.info/SDE/FK/Cards/Heroes/Card_Hero_Star_Guild_Sapper_FK.png', 
@@ -1030,19 +1030,19 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Heroes/Star_Guild_Sapper.xhtml', 
 'Hero', 'FK', 'FK Core Set', 'Default', 
 'Whever the mountains touch the sky you can be sure to find dwarves of the Star Guild.  There, at the roof of the world they dig great sunken ampitheaters open to the twinkling night sky.  With patience only a dwarf can muster, they wait for the very stars to fall from the heavens.  When such an event occurs, no force on Crystalia can prevent them from retrieving the precious celestial metals for use in their forges.');
-insert into Characters (CardIndex) VALUES (202);
+insert into Characters (CardIndex) VALUES (204);
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
-116, 'Masculine', 'Small', 'Dwarf', 6, 3, '2B1R', '3B', '3B', '2B', 6, 1);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (116, 1); --Citrine
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (116, 554); --Immune: Knockdown
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (116, 171); --Astral Hammer
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (116, 491); --POW!
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (116, 595); --Star Shine
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (116, 219); --Burning Bloom
-insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (116, 1, 2); --Strength
-insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (116, 2); --Armor
+117, 'Masculine', 'Small', 'Dwarf', 6, 3, '2B1R', '3B', '3B', '2B', 6, 1);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (117, 1); --Citrine
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (117, 554); --Immune: Knockdown
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (117, 171); --Astral Hammer
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (117, 491); --POW!
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (117, 595); --Star Shine
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (117, 219); --Burning Bloom
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (117, 1, 2); --Strength
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (117, 2); --Armor
 
---Survivor Marie Claude --CardIndex 203	--CharacterIndex 117	--ExploreCharacterIndex 117
+--Survivor Marie Claude --CardIndex 205	--CharacterIndex 118	--ExploreCharacterIndex 118
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 'Survivor Marie Claude', 
 'http://htkb.info/SDE/FK/Cards/Heroes/Card_Hero_Survivor_Marie_Claude_FK.png', 
@@ -1050,18 +1050,18 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Heroes/Survivor_Marie_Claude.xhtml', 
 'Hero', 'FK', 'FK Core Set', 'Default', 
 'Marie''s Grog and Gruel Inn is a welcome respite to the weary and frightened citizens of the Glauerdoom Moor.  Inside, multiple hearths blaze brightly and a broad assortment of axes line the walls, in easy reach for every patron should the restless dead seek to gain entrance.  Over the rumble of talk and laughter, minstrels'' songs keep the gloom at bay.  While Marie''s home brewed grog and hearty rabbit stew warms their bellies.');
-insert into Characters (CardIndex) VALUES (203);
+insert into Characters (CardIndex) VALUES (205);
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
-117, 'Feminine', 'Small', 'Human', 6, 3, '3B', '2R', '2B', '3B', 5, 2);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (117, 4); --Sapphire
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (117, 648); --Tough
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (117, 526); --Rolling Pin
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (117, 346); --Frying Pan
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (117, 376); --Hearty Grog
-insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (117, 1, 1); --Strength
-insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (117, 2); --Armor
+118, 'Feminine', 'Small', 'Human', 6, 3, '3B', '2R', '2B', '3B', 5, 2);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (118, 4); --Sapphire
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (118, 648); --Tough
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (118, 526); --Rolling Pin
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (118, 346); --Frying Pan
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (118, 376); --Hearty Grog
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (118, 1, 1); --Strength
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (118, 2); --Armor
 
---Tabbybrook Mage --CardIndex 204	--CharacterIndex 118	--ExploreCharacterIndex 118
+--Tabbybrook Mage --CardIndex 206	--CharacterIndex 119	--ExploreCharacterIndex 119
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 'Tabbybrook Mage', 
 'http://htkb.info/SDE/FK/Cards/Heroes/Card_Hero_Tabbybrook_Mage_FK.png', 
@@ -1069,21 +1069,21 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Heroes/Tabbybrook_Mage.xhtml', 
 'Hero', 'FK', 'FK Core Set', 'Default', 
 'Marie''s Grog and Gruel Inn is a welcome respite to the weary and frightened citizens of the Glauerdoom Moor.  Inside, multiple hearths blaze brightly and a broad assortment of axes line the walls, in easy reach for every patron should the restless dead seek to gain entrance.  Over the rumble of talk and laughter, minstrels'' songs keep the gloom at bay.  While Marie''s home brewed grog and hearty rabbit stew warms their bellies.');
-insert into Characters (CardIndex) VALUES (204);
+insert into Characters (CardIndex) VALUES (206);
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
-118, 'Feminine', 'Small', 'Freyjan', 6, 3, '3B', '2R', '2B', '3B', 5, 2);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (118, 3); --Ruby
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (118, 456); --9 Lives
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (118, 498); --Puddle Jump
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (118, 517); --Refreshing Rain
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (118, 662); --Volcanic Spring
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (118, 167); --Arctic Spring
-insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (118, 1, 1); --Strength
-insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (118, 3, 8); --Will
-insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (118, 2); --Armor
-insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (118, 4); --Dexterity
+119, 'Feminine', 'Small', 'Freyjan', 6, 3, '3B', '2R', '2B', '3B', 5, 2);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (119, 3); --Ruby
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (119, 456); --9 Lives
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (119, 498); --Puddle Jump
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (119, 517); --Refreshing Rain
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (119, 662); --Volcanic Spring
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (119, 167); --Arctic Spring
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (119, 1, 1); --Strength
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (119, 3, 8); --Will
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (119, 2); --Armor
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (119, 4); --Dexterity
 
---Thundervale Huntress --CardIndex 205	--CharacterIndex 119	--ExploreCharacterIndex 119
+--Thundervale Huntress --CardIndex 207	--CharacterIndex 120	--ExploreCharacterIndex 120
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 'Thundervale Huntress', 
 'http://htkb.info/SDE/FK/Cards/Heroes/Card_Hero_Thundervale_Huntress_FK.png', 
@@ -1091,18 +1091,18 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Heroes/Thundervale_Huntress.xhtml', 
 'Hero', 'FK', 'FK Core Set', 'Default', 
 'Thundervale Centaurs are a proud and fearless people.  The broad valley of the Thundervale echoes with the sound of their hooves and raucous laughter.  Their love of life is matched only by their fury at those who would dare despoil the Fae Wood.');
-insert into Characters (CardIndex) VALUES (205);
+insert into Characters (CardIndex) VALUES (207);
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
-119, 'Feminine', 'Large', 'Centaur', 8, 3, '2B1R', '3B', '3B', '2B', 5, 1);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (119, 1); --Citrine
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (119, 641); --Surefoot
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (119, 420); --Lightning Charge
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (119, 638); --Trample
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (119, 278); --Distilled Stampede
-insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (119, 1, 2); --Strength
-insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (119, 2); --Armor
+120, 'Feminine', 'Large', 'Centaur', 8, 3, '2B1R', '3B', '3B', '2B', 5, 1);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (120, 1); --Citrine
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (120, 641); --Surefoot
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (120, 420); --Lightning Charge
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (120, 638); --Trample
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (120, 278); --Distilled Stampede
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (120, 1, 2); --Strength
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (120, 2); --Armor
 
---Twilight Knight --CardIndex 206	--CharacterIndex 120	--ExploreCharacterIndex 120
+--Twilight Knight --CardIndex 208	--CharacterIndex 121	--ExploreCharacterIndex 121
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 'Twilight Knight', 
 'http://htkb.info/SDE/FK/Cards/Heroes/Card_Hero_Twilight_Knight_FK.png', 
@@ -1110,19 +1110,19 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Heroes/Twilight_Knight.xhtml', 
 'Hero', 'FK', 'FK Core Set', 'Default', 
 'None know from where the Twilight Knight originate.  Some whisper that they come from the Dark Realm itself, and that they are the last and only Heroes from that benighted realm.  For their part, Twilight Knights reveal nothing.  Appearing only when situations are at their most dire, they drive back the shadows only to disappear as sliently and mysteriously as they arrived.');
-insert into Characters (CardIndex) VALUES (206);
+insert into Characters (CardIndex) VALUES (208);
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
-120, 'Feminine', 'Small', 'Human', 6, 3, '1B1R', '2B', '3B', '3B', 5, 1);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (120, 2); --Emerald
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (120, 510); --Feint
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (120, 477); --Piercing Blade
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (120, 359); --Gloom Shatter
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (120, 417); --Lamplight
-insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (120, 1, 1); --Strength
-insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (120, 2); --Armor
-insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (120, 4); --Dexterity
+121, 'Feminine', 'Small', 'Human', 6, 3, '1B1R', '2B', '3B', '3B', 5, 1);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (121, 2); --Emerald
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (121, 510); --Feint
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (121, 477); --Piercing Blade
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (121, 359); --Gloom Shatter
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (121, 417); --Lamplight
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (121, 1, 1); --Strength
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (121, 2); --Armor
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (121, 4); --Dexterity
 
---Von Wilder --CardIndex 207	--CharacterIndex 121	--ExploreCharacterIndex 121
+--Von Wilder --CardIndex 209	--CharacterIndex 122	--ExploreCharacterIndex 122
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 'Von Wilder', 
 'http://htkb.info/SDE/FK/Cards/Heroes/Card_Hero_Von_Wilder_FK.png', 
@@ -1130,19 +1130,19 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Heroes/Von_Wilder.xhtml', 
 'Hero', 'FK', 'FK Core Set', 'Default', 
 'Through rigid study and discipline the Von Wildlings seek to tame their inner beast.  Though not entirely successful, they have become very adept at aiming their wilder side in the right direction.');
-insert into Characters (CardIndex) VALUES (207);
+insert into Characters (CardIndex) VALUES (209);
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
-121, 'Either', 'Large', 'Shapeshift', 8, 3, '2B1R', '1B1R', '2B', '3B', 5, 2);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (121, 1); --Citrine
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (121, 2); --Emerald
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (121, 648); --Tough
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (121, 621); --Shapeshift: Von Wildling
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (121, 548); --Shag Fest
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (121, 425); --Lycanthropy
-insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (121, 1, 2); --Strength
-insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (121, 2); --Armor
+122, 'Either', 'Large', 'Shapeshift', 8, 3, '2B1R', '1B1R', '2B', '3B', 5, 2);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (122, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (122, 2); --Emerald
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (122, 648); --Tough
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (122, 621); --Shapeshift: Von Wildling
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (122, 548); --Shag Fest
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (122, 425); --Lycanthropy
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (122, 1, 2); --Strength
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (122, 2); --Armor
 
---Von Wildling --CardIndex 207	--CharacterIndex 122	--ExploreCharacterIndex 122
+--Von Wildling --CardIndex 210	--CharacterIndex 123	--ExploreCharacterIndex 123
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 'Von Wildling', 
 'http://htkb.info/SDE/FK/Cards/Heroes/Card_Hero_Von_Wildling_FK.png', 
@@ -1150,21 +1150,21 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Heroes/Von_Wildling.xhtml', 
 'Hero', 'FK', 'FK Core Set', 'Default', 
 'Through rigid study and discipline the Von Wildlings seek to tame their inner beast.  Though not entirely successful, they have become very adept at aiming their wilder side in the right direction.');
-insert into Characters (CardIndex) VALUES (207);
+insert into Characters (CardIndex) VALUES (210);
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
-122, 'Either', 'Small', 'Human', 6, 3, '2R', '3B', '3B', '3B', 5, 2);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (122, 1); --Citrine
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (122, 2); --Emerald
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (122, 592); --Potion Master
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (122, 620); --Shapeshift: Von Wilder
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (122, 578); --Soul Whip
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (122, 244); --Crack the Whip
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (122, 388); --Holy Water
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (122, 387); --Holy Oil
-insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (122, 1, 2); --Strength
-insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (122, 2); --Armor
+123, 'Either', 'Small', 'Human', 6, 3, '2R', '3B', '3B', '3B', 5, 2);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (123, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (123, 2); --Emerald
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (123, 592); --Potion Master
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (123, 620); --Shapeshift: Von Wilder
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (123, 578); --Soul Whip
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (123, 244); --Crack the Whip
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (123, 388); --Holy Water
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (123, 387); --Holy Oil
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (123, 1, 2); --Strength
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (123, 2); --Armor
 
---Wandering Minstrel --CardIndex 208	--CharacterIndex 123	--ExploreCharacterIndex 123
+--Wandering Minstrel --CardIndex 211	--CharacterIndex 124	--ExploreCharacterIndex 124
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 'Wandering Minstrel', 
 'http://htkb.info/SDE/FK/Cards/Heroes/Card_Hero_Wandering_Minstrel_FK.png', 
@@ -1172,19 +1172,19 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Heroes/Wandering_Minstrel.xhtml', 
 'Hero', 'FK', 'FK Core Set', 'Default', 
 'The Lunar Elves, like all elves, are steeped in a tradition of music that glorifies the Goddess''s song.  Before the Dragon Call the summits of the Dragonback Peaks would echo with their enchanting voice and melody.  Now the noble Lunar Elf poets and singers are little more than wandering minstrels, seeking to scrape out a meager living on the donations  of those fortunate enough to hear their song.');
-insert into Characters (CardIndex) VALUES (208);
+insert into Characters (CardIndex) VALUES (211);
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
-123, 'Masculine', 'Small', 'Elf', 7, 3, '1R1B', '2B', '3B', '2R', 5, 1);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (123, 1); --Citrine
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (123, 2); --Emerald
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (123, 510); --Feint
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (123, 410); --Jaunty Tune
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (123, 424); --Lullaby
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (123, 492); --Powdered Power Chord
-insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (123, 1, 1); --Strength
-insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (123, 2); --Armor
+124, 'Masculine', 'Small', 'Elf', 7, 3, '1R1B', '2B', '3B', '2R', 5, 1);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (124, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (124, 2); --Emerald
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (124, 510); --Feint
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (124, 410); --Jaunty Tune
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (124, 424); --Lullaby
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (124, 492); --Powdered Power Chord
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (124, 1, 1); --Strength
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (124, 2); --Armor
 
---Wyrm Claw Exemplar --CardIndex 209	--CharacterIndex 124	--ExploreCharacterIndex 124
+--Wyrm Claw Exemplar --CardIndex 212	--CharacterIndex 125	--ExploreCharacterIndex 125
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 'Wyrm Claw Exemplar', 
 'http://htkb.info/SDE/FK/Cards/Heroes/Card_Hero_Wyrm_Claw_Exemplar_FK.png', 
@@ -1192,18 +1192,18 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Heroes/Wyrm_Claw_Exemplar.xhtml', 
 'Hero', 'FK', 'FK Core Set', 'Default', 
 'Wyrm Claw Exemplars are rigid adherents to the Cult of the Burning Star.  Where it serves the interest of thier master, Exemplars range far from their lairs to recover artifacts of great value.  They will even grudgingly work alongside other Heroes--as long as they don''t look too closely under the Exemplar''s huge helmet.');
-insert into Characters (CardIndex) VALUES (209);
+insert into Characters (CardIndex) VALUES (212);
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
-124, 'Either', 'Small', 'Kobold', 7, 3, '3B', '2B1R', '1B1R', '1B1R', 5, 1);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (124, 4); --Sapphire
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (124, 554); --Immune: Knockdown
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (124, 218); --Burning Blade
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (124, 382); --Hightower
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (124, 490); --Portcullis Potion
-insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (124, 1, 1); --Strength
-insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (124, 2); --Armor
+125, 'Either', 'Small', 'Kobold', 7, 3, '3B', '2B1R', '1B1R', '1B1R', 5, 1);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (125, 4); --Sapphire
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (125, 554); --Immune: Knockdown
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (125, 218); --Burning Blade
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (125, 382); --Hightower
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (125, 490); --Portcullis Potion
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (125, 1, 1); --Strength
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (125, 2); --Armor
 
---Wyrm Claw Templar (Beta) --CardIndex 210	--CharacterIndex 125	--ExploreCharacterIndex 125
+--Wyrm Claw Templar (Beta) --CardIndex 213	--CharacterIndex 126	--ExploreCharacterIndex 126
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 'Wyrm Claw Templar (Beta)', 
 'http://htkb.info/SDE/FK/Cards/Heroes/Card_Hero_Wyrm_Claw_Templar_Beta_FK.png', 
@@ -1211,18 +1211,18 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Heroes/Wyrm_Claw_Templar_Beta.xhtml', 
 'Hero', 'FK', 'FK Core Set', 'Default', 
 'Wyrm Claw Templars are routinely spawned to join Exemplar''s on their quests in service of the Cult of the Burning Star.  Utterly devoted to their cause, these powerful kobolds will lay down their lives without hesitation to see their Lord''s work done.  Should the Templar''s Exemplar die wihtout accomplishing their quest, the Templar is banished from the cult in shame; often becoming  a sell sword of dire repute.');
-insert into Characters (CardIndex) VALUES (210);
+insert into Characters (CardIndex) VALUES (213);
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
-125, 'Either', 'Small', 'Kobold', 8, 3, '2B1R', '2R', '1B1R', '1B1R', 6, 1);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (125, 1); --Citrine
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (125, 641); --Surefoot
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (125, 461); --Onslaught
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (125, 229); --Chomp!  Crunch!
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (125, 287); --Dragon Dung Confetti
-insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (125, 1, 3); --Strength
-insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (125, 2); --Armor
+126, 'Either', 'Small', 'Kobold', 8, 3, '2B1R', '2R', '1B1R', '1B1R', 6, 1);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (126, 1); --Citrine
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (126, 641); --Surefoot
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (126, 461); --Onslaught
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (126, 229); --Chomp!  Crunch!
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (126, 287); --Dragon Dung Confetti
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (126, 1, 3); --Strength
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (126, 2); --Armor
 
---Wyrm Claw Templar --CardIndex 211	--CharacterIndex 126	--ExploreCharacterIndex 126
+--Wyrm Claw Templar --CardIndex 214	--CharacterIndex 127	--ExploreCharacterIndex 127
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 'Wyrm Claw Templar', 
 'http://htkb.info/SDE/FK/Cards/Heroes/Card_Hero_Wyrm_Claw_Templar_FK.png', 
@@ -1230,16 +1230,16 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Heroes/Wyrm_Claw_Templar.xhtml', 
 'Hero', 'FK', 'FK Core Set', 'Default', 
 'Wyrm Claw Templars are routinely spawned to join Exemplar''s on their quests in service of the Cult of the Burning Star.  Utterly devoted to their cause, these powerful kobolds will lay down their lives without hesitation to see their Lord''s work done.  Should the Templar''s Exemplar die wihtout accomplishing their quest, the Templar is banished from the cult in shame; often becoming  a sell sword of dire repute.');
-insert into Characters (CardIndex) VALUES (211);
+insert into Characters (CardIndex) VALUES (214);
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
-126, 'Either', 'Small', 'Kobold', 8, 3, '2B1R', '2R', '1B1R', '1B1R', 6, 1);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (126, 1); --Citrine
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (126, 641); --Surefoot
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (126, 461); --Onslaught
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (126, 229); --Chomp!  Crunch!
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (126, 288); --Dragon Dung Confetti
-insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (126, 1, 3); --Strength
-insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (126, 2); --Armor
+127, 'Either', 'Small', 'Kobold', 8, 3, '2B1R', '2R', '1B1R', '1B1R', 6, 1);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (127, 1); --Citrine
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (127, 641); --Surefoot
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (127, 461); --Onslaught
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (127, 229); --Chomp!  Crunch!
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (127, 288); --Dragon Dung Confetti
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (127, 1, 3); --Strength
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (127, 2); --Armor
 
 
 
