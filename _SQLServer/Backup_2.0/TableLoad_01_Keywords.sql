@@ -183,7 +183,7 @@
 
 /*Favors of the Goddess				--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Favors of the Goddess', 'Princess Coins on this model''s card grant it +1R to defensive rolls instead of +1st.');
 
-/*Feed Me							--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Arcade', 'During upkeep, if a monster with Feed Me is suffering any wounds, destroy one minion within two squares of the model and remove one would token.');
+/*Feed Me							--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Arcade', 'Feed Me', 'During upkeep, if a monster with Feed Me is suffering any wounds, destroy one minion within two squares of the model and remove one would token.');
 
 /*Feint								--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Feint', 'When a model with Feint makes an offensive action they may choose one dice from their target''s defense roll and force them to reroll the result.  (Arcade: Decrease ARM of target model by +1ST.');
 /*Feint								--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Arcade', 'Feint', 'When a model with Feint makes an offensive action decrease the ARM of target model by 1ST.');
