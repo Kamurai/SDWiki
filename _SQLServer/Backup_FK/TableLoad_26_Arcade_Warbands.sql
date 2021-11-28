@@ -5,7 +5,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Bramble_Knight/Card_Arcade_Bramble_Knight_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Bramble_Knight/Card_Arcade_Bramble_Knight_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Arcade/Warbands/Bramble_Knight/Bramble_Knight.xhtml', 
-'Warband', 'FK', 'FK Core Set', 'Default', 
+'Warband', 'FK', 'FK Core Set', 'Arcade', 
 'Once the Bramble Knights were great Heores of Crystalia.  The statues erected in their honor were timeless memorials to the brave warriors who defended the kingdom and Fae Wood with their lives.<br>When the Forgotten King sought to challenge the rightful rule of Crystalia, the Bramble Knights sworn to him marched under his banner.  Bitter civil war raged througout the realm.  Only when the elves of the Fae Wood joined the fight were the Forgotten King''s forces finally stopped.<br>As punishment for their treachery the once gallant Bramble Knights shared the Forgotten King''s fate.  Cursed by their own treasonous lord they were transformed into chimera.  No longer human, nor beast, they became monsters and were banished to the Lordship Ruins.<br>Centuries later they still dwell within its crumbled halls, nurturing old hates, and plotting their reemergence under the Dark Consul''s banner.');
 insert into Characters (CardIndex) VALUES (379);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
@@ -23,7 +23,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Bramble_Knight/Card_Arcade_Warband_Bramble_Knight_Executioners_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Bramble_Knight/Card_Arcade_Warband_Bramble_Knight_Executioners_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Arcade/Warbands/Bramble_Knight/Executioners.xhtml', 
-'Warband', 'FK', 'FK Core Set', 'Default', 
+'Warband', 'FK', 'FK Core Set', 'Arcade', 
 'Squards of Executioners were dispatched to carry out The Forgotten King''s "justice" against any who would not rally to his cause against the First King.  Ruthless in their methods, the Executioners became a feared sight that haunt the long memories of Crystalians even now.');
 insert into Characters (CardIndex) VALUES (380);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
@@ -44,7 +44,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Bramble_Knight/Card_Arcade_Warband_Bramble_Knight_House_of_Frog_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Bramble_Knight/Card_Arcade_Warband_Bramble_Knight_House_of_Frog_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Arcade/Warbands/Bramble_Knight/House_of_Frog.xhtml', 
-'Warband', 'FK', 'FK Core Set', 'Default', 
+'Warband', 'FK', 'FK Core Set', 'Arcade', 
 'Formed after the curse wrought upon them by The Forgotten King, the House of Frog seeks to maintain the ancient codes of chivalric combat that once inspired the Bramble Knight order.');
 insert into Characters (CardIndex) VALUES (381);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
@@ -68,7 +68,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Claw_Shrine/Card_Arcade_Warband_Claw_Shrine_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Claw_Shrine/Card_Arcade_Warband_Claw_Shrine_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Arcade/Warbands/Claw_Shrine/Claw_Shrine.xhtml', 
-'Warband', 'FK', 'FK Core Set', 'Default', 
+'Warband', 'FK', 'FK Core Set', 'Arcade', 
 'While the Cult of the Burning Star has its origins in the worship of the Ruby Dragon Starfire, similar cults have spread throughout Crystalia and encompass the worship of all the dragons.  Established by Dragon Priests to enforce order, while venerating the dragon which they serve, Claw Shrines are imortant locations within any kobold warren.  At the shrine, revered drake hatchlings are bonded with worthy kobolds to form vicious draconic packs that patrol the kobolds'' territory.  Ironscales who have proved themselves in battle are elevated to the rank of Templar--provided they can survive the ordeal of breaking a deadly Wyrmfang Raptor to be their mount.  Most terrifying of all are the sinister Black Claw Assassins.  Anointed by the Dragon Priests as the divine retribution of the dragon, they bring their masters wrath, and swift death, to all who would betray the cult.');
 insert into Characters (CardIndex) VALUES (382);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
@@ -86,7 +86,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Claw_Shrine/Card_Arcade_Warband_Claw_Shrine_Black_Claws_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Claw_Shrine/Card_Arcade_Warband_Claw_Shrine_Black_Claws_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Arcade/Warbands/Claw_Shrine/Black_Claws.xhtml', 
-'Warband', 'FK', 'FK Core Set', 'Default', 
+'Warband', 'FK', 'FK Core Set', 'Arcade', 
 'When an adversary proves too strong for even the endless horde, Dragon Priests dispatch the sinister Black Claws to eliminate their foe.  Coating their blades in a deadly concoction of fangberry juice and drake belly tar, the Black Claws strike from the shadowy corners of the dungeon.');
 insert into Characters (CardIndex) VALUES (383);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
@@ -109,7 +109,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Claw_Shrine/Card_Arcade_Warband_Claw_Shrine_Blood_Trackers_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Claw_Shrine/Card_Arcade_Warband_Claw_Shrine_Blood_Trackers_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Arcade/Warbands/Claw_Shrine/Blood_Trackers.xhtml', 
-'Warband', 'FK', 'FK Core Set', 'Default', 
+'Warband', 'FK', 'FK Core Set', 'Arcade', 
 'Venturing across barren mountainscapes and through deep forgotten tunnels, Claw Trainers search for clutches of drake eggs.  Once found, they return the eggs to the clan, but not before keeping the largest eggs for themselves.  Upon the drakes hatching the trainers gift the hatchlings to their favored kin.');
 insert into Characters (CardIndex) VALUES (384);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
@@ -132,7 +132,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Egg_Clutch/Card_Arcade_Warband_Egg_Clutch_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Egg_Clutch/Card_Arcade_Warband_Egg_Clutch_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Arcade/Warbands/Egg_Clutch/Egg_Clutch.xhtml', 
-'Warband', 'FK', 'FK Core Set', 'Default', 
+'Warband', 'FK', 'FK Core Set', 'Arcade', 
 'Wherever a dragon makes its lair its draconic kin, drakes, are sure to be found.  Territorial and savage these lesser beasts submit entirely to the will of the dragon.  In exchange for the dragon''s protection the drakes serve as the dragon''s eys, ears, and faithful guards.<br>When hunting a dragon, Heroes inevitably have to make their way through hordes of drakes that throw themselves in the path of the Heroes.  Larger drakes attempt to drag their foes to the ground so smaller hatchlings can swarm over their helpless prey.  Above, elder wyrmlings swoop and dart, spitting fire at the invaders.');
 insert into Characters (CardIndex) VALUES (385);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
@@ -151,7 +151,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Egg_Clutch/Card_Arcade_Warband_Egg_Clutch_Dragonborn_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Egg_Clutch/Card_Arcade_Warband_Egg_Clutch_Dragonborn_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Arcade/Warbands/Egg_Clutch/Dragonborn.xhtml', 
-'Warband', 'FK', 'FK Core Set', 'Default', 
+'Warband', 'FK', 'FK Core Set', 'Arcade', 
 '');
 insert into Characters (CardIndex) VALUES (386);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
@@ -179,7 +179,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Elemental_Shrine/Card_Arcade_Warband_Elemental_Shrine_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Elemental_Shrine/Card_Arcade_Warband_Elemental_Shrine_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Arcade/Warbands/Elemental_Shrine/Elemental_Shrine.xhtml', 
-'Warband', 'FK', 'FK Core Set', 'Default', 
+'Warband', 'FK', 'FK Core Set', 'Arcade', 
 '');
 insert into Characters (CardIndex) VALUES (385);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
@@ -199,7 +199,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Elemental_Shrine/Card_Arcade_Warband_Elemental_Shrine_Mystic_Team_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Elemental_Shrine/Card_Arcade_Warband_Elemental_Shrine_Mystic_Team_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Arcade/Warbands/Elemental_Shrine/Mystic_Team.xhtml', 
-'Warband', 'FK', 'FK Core Set', 'Default', 
+'Warband', 'FK', 'FK Core Set', 'Arcade', 
 '');
 insert into Characters (CardIndex) VALUES (388);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
@@ -228,7 +228,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Elemental_Shrine/Card_Arcade_Warband_Elemental_Shrine_Scout_Team_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Elemental_Shrine/Card_Arcade_Warband_Elemental_Shrine_Scout_Team_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Arcade/Warbands/Elemental_Shrine/Scout_Team.xhtml', 
-'Warband', 'FK', 'FK Core Set', 'Default', 
+'Warband', 'FK', 'FK Core Set', 'Arcade', 
 '');
 insert into Characters (CardIndex) VALUES (389);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
@@ -251,7 +251,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Elemental_Shrine/Card_Arcade_Warband_Elemental_Shrine_Strike_Team_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Elemental_Shrine/Card_Arcade_Warband_Elemental_Shrine_Strike_Team_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Arcade/Warbands/Elemental_Shrine/Strike_Team.xhtml', 
-'Warband', 'FK', 'FK Core Set', 'Default', 
+'Warband', 'FK', 'FK Core Set', 'Arcade', 
 '');
 insert into Characters (CardIndex) VALUES (390);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
@@ -282,7 +282,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Fungal_Growth/Card_Arcade_Warband_Fungal_Growth_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Fungal_Growth/Card_Arcade_Warband_Fungal_Growth_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Arcade/Warbands/Fungal_Growth/Fungal_Growth.xhtml', 
-'Warband', 'FK', 'FK Core Set', 'Default', 
+'Warband', 'FK', 'FK Core Set', 'Arcade', 
 'Like kodama, kinoko are spirits of the forest.  When uncorrupted by the Dark Consul they are servants of the Deeproot Tree.  Fun loving and given to a pleasant disposition, natural kinoko enjoy nothing more than bouncing through the forest, making absurd squishing noises and burbling happily to birds and forest spirits.<br>Under the Dark Consul''s influence they become territorial and grumpy, shredding great clouds of spores that send Heroes into an enchanted slumber.  once snoozing soundly, the kinoko bounce the sleeping Heroes off cliffs, into spider holes, or monsters'' waiting jaws.');
 insert into Characters (CardIndex) VALUES (391);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
@@ -301,7 +301,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Fungal_Growth/Card_Arcade_Warband_Fungal_Growth_Fungus_Brigade_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Fungal_Growth/Card_Arcade_Warband_Fungal_Growth_Fungus_Brigade_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Arcade/Warbands/Fungal_Growth/Fungus_Brigade.xhtml', 
-'Warband', 'FK', 'FK Core Set', 'Default', 
+'Warband', 'FK', 'FK Core Set', 'Arcade', 
 'Kinoko are naturally curious and playful creatures--though not particularly complex.  Most kinoko are happy to bounce through the forest whistling and singing.  They are especially fond of spinning in circles until dizzy, whereupon they collapse in a fit of giggles.');
 insert into Characters (CardIndex) VALUES (390);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
@@ -325,7 +325,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Fungal_Growth/Card_Arcade_Warband_Fungal_Growth_Pig_Patrol_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Fungal_Growth/Card_Arcade_Warband_Fungal_Growth_Pig_Patrol_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Arcade/Warbands/Fungal_Growth/Pig_Patrol.xhtml', 
-'Warband', 'FK', 'FK Core Set', 'Default', 
+'Warband', 'FK', 'FK Core Set', 'Arcade', 
 'Packs of Truffle Pigs patrol the edges of Kinoko territory, guarding the playful forest spirits from harm.  When invaders are found great squeals of anger echo through the forest as the Truffle Pigs charge.');
 insert into Characters (CardIndex) VALUES (391);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
@@ -348,7 +348,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Grabby_House/Card_Arcade_Warband_Grabby_House_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Grabby_House/Card_Arcade_Warband_Grabby_House_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Arcade/Warbands/Grabby_House/Grabby_House.xhtml', 
-'Warband', 'FK', 'FK Core Set', 'Default', 
+'Warband', 'FK', 'FK Core Set', 'Arcade', 
 'While skeletons of the long dead are the most common undead terror to stalk the Glauerdoom Moor, the freshly deceased are also frequently disturbed from their eternal slumber to become zombies.  Any will that a zombie may still retain its extinguished by the crushing madness of the Shamble Priest''s desires.<br>Nursing old grudges, or merely indulging in insane fantasy, Shamble Priests drive shuffling herds of zombies into townships, wreaking terror and carnage.  When homes are overrun they become new focal points of necromantic energy that the Shamble Priests use to spawn still more zombies and grow their horde.');
 insert into Characters (CardIndex) VALUES (392);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
@@ -367,7 +367,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Grabby_House/Card_Arcade_Warband_Grabby_House_Grave_Robbers_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Grabby_House/Card_Arcade_Warband_Grabby_House_Grave_Robbers_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Arcade/Warbands/Grabby_House/Grave_Robbers.xhtml', 
-'Warband', 'FK', 'FK Core Set', 'Default', 
+'Warband', 'FK', 'FK Core Set', 'Arcade', 
 'You''ll do nicely--once you''re dead.');
 insert into Characters (CardIndex) VALUES (393);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
@@ -390,7 +390,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Grabby_House/Card_Arcade_Warband_Grabby_House_Grave_Robbers_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Grabby_House/Card_Arcade_Warband_Grabby_House_Grave_Robbers_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Arcade/Warbands/Grabby_House/Rotters.xhtml', 
-'Warband', 'FK', 'FK Core Set', 'Default', 
+'Warband', 'FK', 'FK Core Set', 'Arcade', 
 'Possessing no intellect other than the instinctive need to feed, zombies shamble through the swamps beneath the stilt towns.  Too dumb to find entrance into the towering shacks, they lurch and moan, making a terrible racket.');
 insert into Characters (CardIndex) VALUES (394);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
@@ -414,7 +414,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Kobold_Warrens/Card_Arcade_Warband_Kobold_Warrens_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Kobold_Warrens/Card_Arcade_Warband_Kobold_Warrens_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Arcade/Warbands/Kobold_Warrens/Kobold_Warrens.xhtml', 
-'Warband', 'FK', 'FK Core Set', 'Default', 
+'Warband', 'FK', 'FK Core Set', 'Arcade', 
 'Kobolds were the first monsters from the Dark Realm to invade Crystalia, and remain the most numerous.  In the centuries that have passed since the banishment of the Dark Consul, kobolds have only increased in numbers.  Supremely adaptable and remarkably relentless in their drive to expand, there is no corner of Crystalia untouched by their menace.<br>Fortunately, they are also clannish and given to feuding amongst themselves when left to their own devices.  Whenever possible, Heroes root out clans of kobolds before they unite behind a larger and craftier monster to boss them around.  Otherwise, kobolds become an almost unstoppable scourge.');
 insert into Characters (CardIndex) VALUES (395);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
@@ -433,7 +433,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Kobold_Warrens/Card_Arcade_Warband_Kobold_Warrens_Dragon_Devotees_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Kobold_Warrens/Card_Arcade_Warband_Kobold_Warrens_Dragon_Devotees_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Arcade/Warbands/Kobold_Warrens/Dragon_Devotees.xhtml', 
-'Warband', 'FK', 'FK Core Set', 'Default', 
+'Warband', 'FK', 'FK Core Set', 'Arcade', 
 'When lead by a Dragon Priest, kobolds are given over to savage zealotry.  Throwing themselves into combat heedless of their losses they seek only to impress their priest and the dragon whom they serve.');
 insert into Characters (CardIndex) VALUES (396);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
@@ -460,7 +460,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Kobold_Warrens/Card_Arcade_Warband_Kobold_Warrens_Scale_Wall_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Kobold_Warrens/Card_Arcade_Warband_Kobold_Warrens_Scale_Wall_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Arcade/Warbands/Kobold_Warrens/Scale_Wall.xhtml', 
-'Warband', 'FK', 'FK Core Set', 'Default', 
+'Warband', 'FK', 'FK Core Set', 'Arcade', 
 'Those kobolds who prove themselves truly capable in a fight are strapped into heavy Ironscale armor and are ordered to lead the charge.  Around them, lesser kobolds fall in line seeking what safety they can from behind the Ironscale''s armored bulk.');
 insert into Characters (CardIndex) VALUES (397);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
@@ -486,7 +486,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Kobold_Warrens/Card_Arcade_Warband_Kobold_Warrens_Scale_Wall_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Kobold_Warrens/Card_Arcade_Warband_Kobold_Warrens_Scale_Wall_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Arcade/Warbands/Kobold_Warrens/Scale_Wall.xhtml', 
-'Warband', 'FK', 'FK Core Set', 'Default', 
+'Warband', 'FK', 'FK Core Set', 'Arcade', 
 'Shifty and untrustworthy, even by kobold standards, Flingers linger on the edge of a combat waiting for the opportune moment to sling their stones at the enemy.  When extra carnage is needed they fling pots of flaming oil and drake tar into the battle, heedless of whom the flame might consume.');
 insert into Characters (CardIndex) VALUES (398);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
@@ -512,7 +512,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Lava_Whirl/Card_Arcade_Warband_Lava_Whirl_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Lava_Whirl/Card_Arcade_Warband_Lava_Whirl_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Arcade/Warbands/Lava_Whirl/Lava_Whirl.xhtml', 
-'Warband', 'FK', 'FK Core Set', 'Default', 
+'Warband', 'FK', 'FK Core Set', 'Arcade', 
 'Deep within the Dragonback Peaks beats the Molten Heart, the first source of fire on Crystalia.  From its magma chambers endless rivers of lava bubble and boil to the surface, cascading down the mountainsides forming the Fire Flows.<br>The Fire Flows are surprisingly rich in life considering the harsh environment.  Packs of Ember Hounds stalk its shores, dragging down the weak to be consumed in clouds of poisonous ash.  Massive insects, their carapaces glowing like steel from a forge, drink deep of the molten rock.  Elemental slimes are born by the thousands as volcanic eruptions ravage the landscape.<br>Ruling over it all is the Molten Lord, Roxor.  Ancient as the mountains themselves, Roxor guards the Molten Heart and seeks to extend his fiery influence until all of Crystalia is consumed in flame.');
 insert into Characters (CardIndex) VALUES (399);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
@@ -530,7 +530,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Lava_Whirl/Card_Arcade_Warband_Lava_Whirl_Blaze_Beetle_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Lava_Whirl/Card_Arcade_Warband_Lava_Whirl_Blaze_Beetle_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Arcade/Warbands/Lava_Whirl/Blaze_Beetle.xhtml', 
-'Warband', 'FK', 'FK Core Set', 'Default', 
+'Warband', 'FK', 'FK Core Set', 'Arcade', 
 'Subsisting entirely on the molten rock of the Fire Flows, the Blaze Beetle is at home swimming through its magnificent lava rivers.  Blaze Beetles possess a remarkable sense of cruel cunning, burrowing beneath groups of Heroes to erupt from solid stone, bathing them in a shower of fire and rock.');
 insert into Characters (CardIndex) VALUES (400);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
@@ -550,7 +550,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Lava_Whirl/Card_Arcade_Warband_Lava_Whirl_Blaze_Beetle_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Lava_Whirl/Card_Arcade_Warband_Lava_Whirl_Blaze_Beetle_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Arcade/Warbands/Lava_Whirl/Blaze_Beetle.xhtml', 
-'Warband', 'FK', 'FK Core Set', 'Default', 
+'Warband', 'FK', 'FK Core Set', 'Arcade', 
 'Prowling through the fiery landscape of the Fire Flows, packs of Ember Hounds conceal their movement in billowing clouds of choking ash.  Preying on Rocktops and fire elementals alike, Ember Hounds are patient and ruthless hunters.');
 insert into Characters (CardIndex) VALUES (401);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
@@ -576,7 +576,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Lava_Whirl/Card_Arcade_Warband_Lava_Whirl_Flaming_Slime_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Lava_Whirl/Card_Arcade_Warband_Lava_Whirl_Flaming_Slime_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Arcade/Warbands/Lava_Whirl/Flaming_Slime.xhtml', 
-'Warband', 'FK', 'FK Core Set', 'Default', 
+'Warband', 'FK', 'FK Core Set', 'Arcade', 
 'Many believe Fire Slimes possess greater intelligence than their common kin.  If this is the case, it is an intelligence given over entirely to pettiness and spite.  Delighting in lighting anything and everything ablaze, Fire Slimes torch entire regions of Crystalia if not doused quickly.');
 insert into Characters (CardIndex) VALUES (402);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
@@ -605,7 +605,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Old_Growth_Hollow/Card_Arcade_Warband_Old_Growth_Hollow_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Old_Growth_Hollow/Card_Arcade_Warband_Old_Growth_Hollow_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Arcade/Warbands/Old_Growth_Hollow/Old_Growth_Hollow.xhtml', 
-'Warband', 'FK', 'FK Core Set', 'Default', 
+'Warband', 'FK', 'FK Core Set', 'Arcade', 
 'The elves of the Fae Wood and the wise Deeproot Tree have long been friends and guardians of Crystalia.  Their timeless stewardship of the land made them ideal caretakers for the exiled Forgotten King and his court.<br>Yet the rise of the Dark Consul has sapped their ageless strength as they are beset on all sides, and the Forgotten King has become a cancer that corrupts from within.  As the Consul''s power rises, so too doees the Forgotten King''s and he has use his magic to sicken and bewitch the forest spirits within the Lordship Ruins.<br>Tswisted by the Forgotten King''s hatred, these corrupt kodama have lent their strength to the Dark Consul.  Now the elves find themselves under attack in their own woods.');
 insert into Characters (CardIndex) VALUES (403);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
@@ -623,7 +623,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Old_Growth_Hollow/Card_Arcade_Warband_Old_Growth_Hollow_Herbalists_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Old_Growth_Hollow/Card_Arcade_Warband_Old_Growth_Hollow_Herbalists_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Arcade/Warbands/Old_Growth_Hollow/Herbalists.xhtml', 
-'Warband', 'FK', 'FK Core Set', 'Default', 
+'Warband', 'FK', 'FK Core Set', 'Arcade', 
 'Not given to violence, Turnipheads prefer to tend their gardens of herbs, weeds, and tender sprouts.');
 insert into Characters (CardIndex) VALUES (404);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
@@ -645,7 +645,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Old_Growth_Hollow/Card_Arcade_Warband_Old_Growth_Hollow_Hungry_Sprouts_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Old_Growth_Hollow/Card_Arcade_Warband_Old_Growth_Hollow_Hungry_Sprouts_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Arcade/Warbands/Old_Growth_Hollow/Hungry_Sprouts.xhtml', 
-'Warband', 'FK', 'FK Core Set', 'Default', 
+'Warband', 'FK', 'FK Core Set', 'Arcade', 
 'Twisted by the Dark Consul, King Sprouts are little more than thrashing masses of thorned vines and snapping jaws.  Consuming anything and everything that is within reach, their Mook handlers are careful  to not stray within the King Sprout''s sight, lest they be the next thing to be devoured.');
 insert into Characters (CardIndex) VALUES (405);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
@@ -668,7 +668,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Old_Growth_Hollow/Card_Arcade_Warband_Old_Growth_Hollow_Lil_Sprouts_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Old_Growth_Hollow/Card_Arcade_Warband_Old_Growth_Hollow_Lil_Sprouts_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Arcade/Warbands/Old_Growth_Hollow/Lil_Sprouts.xhtml', 
-'Warband', 'FK', 'FK Core Set', 'Default', 
+'Warband', 'FK', 'FK Core Set', 'Arcade', 
 'Charging forward with reckless abandon, Lil'' Sprouts attempt to get as close to invading Heroes as possible so that when the change grips them and they transform into the revenous King Sprout it may consume as many as possible.');
 insert into Characters (CardIndex) VALUES (406);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
@@ -691,7 +691,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Old_Growth_Hollow/Card_Arcade_Warband_Old_Growth_Hollow_Lil_Sprouts_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Old_Growth_Hollow/Card_Arcade_Warband_Old_Growth_Hollow_Lil_Sprouts_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Arcade/Warbands/Old_Growth_Hollow/Lil_Sprouts.xhtml', 
-'Warband', 'FK', 'FK Core Set', 'Default', 
+'Warband', 'FK', 'FK Core Set', 'Arcade', 
 'Reclusive and demure, Wisps are often seen as a sign of good fortune.  When threatened, Wisps prefer to enchant their assailants, slowing their movement and bewitching their senses.  The Wisp then silently slips into the forest to safety.');
 insert into Characters (CardIndex) VALUES (407);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
@@ -715,7 +715,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Pumpkin_Patch/Card_Arcade_Warband_Pumpkin_Patch_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Pumpkin_Patch/Card_Arcade_Warband_Pumpkin_Patch_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Arcade/Warbands/Pumpkin_Patch/Pumpkin_Patch.xhtml', 
-'Warband', 'FK', 'FK Core Set', 'Default', 
+'Warband', 'FK', 'FK Core Set', 'Arcade', 
 'Long ago the inhabitants of the Glauerdoom Moor used pumpkins to carve jack-o-lanterns to trick the restless spirits of the moor to pass by their homes at night.  In time the spirits grew wise to this deception and decided to play a trick of their own.  Now pumpkin patches are spooky, haunted, places where the creatures that go bump in the night lurk, waiting for their prey.<br>Beneath the dark boughs of the Witches'' Weald pumpkins grow wild and the orange globes pulse with strange energies as the witch covens practice their own special brand of dark magic--poisons, necromancy, enchantment, curses, no subject is taboo.  The covensfind great favor with both the Dark Consul and Baron Von Drakk.  Both often have need of the witches'' unique abiliites when dealing with self righteous Heroes who seek to thwart them.');
 insert into Characters (CardIndex) VALUES (408);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
@@ -733,7 +733,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Pumpkin_Patch/Card_Arcade_Warband_Pumpkin_Patch_Crypt_Spider_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Pumpkin_Patch/Card_Arcade_Warband_Pumpkin_Patch_Crypt_Spider_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Arcade/Warbands/Pumpkin_Patch/Crypt_Spider.xhtml', 
-'Warband', 'FK', 'FK Core Set', 'Default', 
+'Warband', 'FK', 'FK Core Set', 'Arcade', 
 'Spiders are favored guardians of the many crypts and barrows in the Glauerdoom.  They have no interest in the dead nor in the their treasures.  Cruel, cunning, and immeasurably patient they wait in elaborately spun webs.  They know the lure of trasure and plunder is irrestistable to the living.  Soon enough foolish Heroes will come and then it will feast.');
 insert into Characters (CardIndex) VALUES (407);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
@@ -753,7 +753,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Pumpkin_Patch/Card_Arcade_Warband_Pumpkin_Patch_Curse_Coven_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Pumpkin_Patch/Card_Arcade_Warband_Pumpkin_Patch_Curse_Coven_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Arcade/Warbands/Pumpkin_Patch/Curse_Coven.xhtml', 
-'Warband', 'FK', 'FK Core Set', 'Default', 
+'Warband', 'FK', 'FK Core Set', 'Arcade', 
 'Fledgling witches are given several skull which they use as a focus to practice the many and varied hexes, curses, and enchantments that will become their trade.  Once the witch is fully initiated into the coven, the skulls are enchanted with spells of flight and intellect so that they might join the witch in unleashing afflictions upon those who cross them.');
 insert into Characters (CardIndex) VALUES (408);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
@@ -778,7 +778,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Rock_Pile/Card_Arcade_Warband_Rock_Pile_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Rock_Pile/Card_Arcade_Warband_Rock_Pile_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Arcade/Warbands/Rock_Pile/Rock_Pile.xhtml', 
-'Warband', 'FK', 'FK Core Set', 'Default', 
+'Warband', 'FK', 'FK Core Set', 'Arcade', 
 'Rocktops can be found throughout Crystalia, wherever the earth is rocky and barren.  Due to their natural predilection to tunnel, Rocktops are superb miners.<br>Like many of the Consul''s minions, Rocktop society is ruled by strength and size.  At the top of the hierarchy stands the migty Crusher.  Dimwitted and brutish, Crushers spend most of their waking hours smashign rock to increase the size of the tunnel systems they claim as theirs.<br>In contrast, Rollers and Bombardiers are surprisingly jovial creatures.  Relishing in mischief and mayhem they delight in the noise and spectacle as rocks, Heroes, or anything weaker than them are smashed, smushed, crushed, crunched, or exploded.<br>Below them all are the hapless Slowpokes.  Simple creatures who if they had a say in it, would be perfectly content moving rocks from one side of a cave to another and back again.');
 insert into Characters (CardIndex) VALUES (408);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
@@ -796,7 +796,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Rock_Pile/Card_Arcade_Warband_Rock_Pile_Bully_Foremen_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Rock_Pile/Card_Arcade_Warband_Rock_Pile_Bully_Foremen_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Arcade/Warbands/Rock_Pile/Bully_Foremen.xhtml', 
-'Warband', 'FK', 'FK Core Set', 'Default', 
+'Warband', 'FK', 'FK Core Set', 'Arcade', 
 'Rocktops love to crush, chomp, and burrow through rock.  Unfortunately, Rollers have discovered that same delight in tormenting their lesser kin.  Forming into chortling and bickering gangs, the Rollers roam the caverns searching for rocktops to bully.  Indeed, the only respite from the bullying comes from the arrival of invading Heroes who provide the Rollers with new targets to tease.');
 insert into Characters (CardIndex) VALUES (410);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
@@ -820,7 +820,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Rock_Pile/Card_Arcade_Warband_Rock_Pile_Rockers_v1_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Rock_Pile/Card_Arcade_Warband_Rock_Pile_Rockers_v1_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Arcade/Warbands/Rock_Pile/Rockers_v1.xhtml', 
-'Warband', 'FK', 'FK Core Set', 'Default', 
+'Warband', 'FK', 'FK Core Set', 'Arcade', 
 'Slowpokes often gather around the massive Crushers, seeking some measure of protection from the bullying Rollers.  Crushers pay the Slowpokes little regard, for they are far too busy happily crushing rock and expanding their cavern to notice the pleas of their smaller kin.');
 insert into Characters (CardIndex) VALUES (411);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
@@ -843,7 +843,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Rock_Pile/Card_Arcade_Warband_Rock_Pile_Rockers_v2_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Rock_Pile/Card_Arcade_Warband_Rock_Pile_Rockers_v2_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Arcade/Warbands/Rock_Pile/Rockers_v2.xhtml', 
-'Warband', 'FK', 'FK Core Set', 'Default', 
+'Warband', 'FK', 'FK Core Set', 'Arcade', 
 'Slowpokes often gather around the massive Crushers, seeking some measure of protection from the bullying Rollers.  Crushers pay the Slowpokes little regard, for they are far too busy happily crushing rock and expanding their cavern to notice the pleas of their smaller kin.');
 insert into Characters (CardIndex) VALUES (412);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
@@ -867,7 +867,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Rock_Pile/Card_Arcade_Warband_Rock_Pile_Rockers_v2_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Rock_Pile/Card_Arcade_Warband_Rock_Pile_Rockers_v2_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Arcade/Warbands/Rock_Pile/Rockers_v2.xhtml', 
-'Warband', 'FK', 'FK Core Set', 'Default', 
+'Warband', 'FK', 'FK Core Set', 'Arcade', 
 'Once, a clan of rocktop befriended a gnomish engineer whose trade was weapons of war.  Impressed by the the stout and sturdy nature of the Rocktops, the engineer sought to turn the somewhat dimwitted monsters into the ultimate siege army in service of Crystalia.  Unfortunately, the rocktops proved to be disinterested in following orders and the gnomish engineer fell victim to a gang of Rollers.<br><br>However, a small group of Rocktops took a shine to the bombard cannons the gnome had devised.  Keeping the small armory a secret from their rocktop kin, these newly formed Bombardiers began lending their services in long ranged demolitions to any who could afford their steep fees of precious stones and ore.');
 insert into Characters (CardIndex) VALUES (412);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
@@ -893,7 +893,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Salt_Pillar/Card_Arcade_Warband_Salt_Pillar_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Salt_Pillar/Card_Arcade_Warband_Salt_Pillar_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Arcade/Warbands/Salt_Pillar/Salt_Pillar.xhtml', 
-'Warband', 'FK', 'FK Core Set', 'Default', 
+'Warband', 'FK', 'FK Core Set', 'Arcade', 
 'The Mistmourn Coast is a dangerous place even for the natural inhabitants of the Fae Woods.  Outsiders fear the troll tribes of the Mistmourn, but those familiar with this perpetually shrouded wood know that the fae creatures are the true danger.<br>Magical and otherworldy, what motivates these creatures is unknown.  Shamans bind them to pillars of salt to stay their wrath or do the shaman''s bidding.  Yet these magics have a dark consequence.  When the spells of binding are broken the magics of the formerly bound fae are trapped with the shattered salt pillar.  Their essence infuses new life within the Salt and they are reborn as elemental golems.  Driven only by blind instinct these Salt golems lash out at any who are near.');
 insert into Characters (CardIndex) VALUES (414);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
@@ -911,7 +911,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Salt_Pillar/Card_Arcade_Warband_Salt_Pillar_Despair_Shroud_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Salt_Pillar/Card_Arcade_Warband_Salt_Pillar_Despair_Shroud_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Arcade/Warbands/Salt_Pillar/Despair_Shroud.xhtml', 
-'Warband', 'FK', 'FK Core Set', 'Default', 
+'Warband', 'FK', 'FK Core Set', 'Arcade', 
 'Dry your eyes.<br>Let not one tear fall.<br>Lest Sorrows take you.<br>Then consume us all.');
 insert into Characters (CardIndex) VALUES (415);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
@@ -932,7 +932,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Salt_Pillar/Card_Arcade_Warband_Salt_Pillar_Predators_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Salt_Pillar/Card_Arcade_Warband_Salt_Pillar_Predators_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Arcade/Warbands/Salt_Pillar/Predators.xhtml', 
-'Warband', 'FK', 'FK Core Set', 'Default', 
+'Warband', 'FK', 'FK Core Set', 'Arcade', 
 'Mist Hounds are voracious predators.  Once they have selected their prey, they will track it relentlessly over miles until it grows weak with exhaustion.  When they strike, their jaws are like steel traps, savaging anything that attempts to break free.');
 insert into Characters (CardIndex) VALUES (416);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
@@ -959,7 +959,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Shallow_Grave/Card_Arcade_Warband_Shallow_Grave_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Shallow_Grave/Card_Arcade_Warband_Shallow_Grave_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Arcade/Warbands/Shallow_Grave/Shallow_Grave.xhtml', 
-'Warband', 'FK', 'FK Core Set', 'Default', 
+'Warband', 'FK', 'FK Core Set', 'Arcade', 
 'The Glauerdoom Moor is a grim and foreboding place by any measure.  Its fetid fens and marshes remain perpetually shrouded beneath a grey fog.  Its great cities have long since faded, their glory reduced to crumbling ruins and sinking towers.  The landscape is dotted by vast mausoleums and endless crypts built to house the ever dwindling populations'' dead.<br>Tragically the dead do not rest long.  The amethyst power of necromancy infuses the land and the dead sleep uneasily.  Their slumber is but a bried respite.  Soon their master bids them to rise and take their place in his macabre host.');
 insert into Characters (CardIndex) VALUES (417);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
@@ -977,7 +977,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Shallow_Grave/Card_Arcade_Warband_Shallow_Grave_Dust_Acolytes_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Shallow_Grave/Card_Arcade_Warband_Shallow_Grave_Dust_Acolytes_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Arcade/Warbands/Shallow_Grave/Dust_Acolytes.xhtml', 
-'Warband', 'FK', 'FK Core Set', 'Default', 
+'Warband', 'FK', 'FK Core Set', 'Arcade', 
 'Within the Dust Coven, struggles for power between its necromancers is a common occurrence.  Unfortunately, even when these struggles turn deadly, the power of the Dark Consul is undiminished, for the victor inevitably raises the slain necromancers to serve him in death.');
 insert into Characters (CardIndex) VALUES (418);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
@@ -999,7 +999,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Shallow_Grave/Card_Arcade_Warband_Shallow_Grave_Dust_Coven_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Shallow_Grave/Card_Arcade_Warband_Shallow_Grave_Dust_Coven_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Arcade/Warbands/Shallow_Grave/Dust_Coven.xhtml', 
-'Warband', 'FK', 'FK Core Set', 'Default', 
+'Warband', 'FK', 'FK Core Set', 'Arcade', 
 'The curse of undeath hangs heavy over the Glauerdoom Moor.  Drawn to the necromantic magics, the witches of the Dust Coven congregrate here in greater numbers than anywhere else in Crystalia.  Raising vast armies in service to the Dark Consul, Heroes are faced with an adversary that continues to fight beyond death itself.');
 insert into Characters (CardIndex) VALUES (419);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
@@ -1021,7 +1021,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Shallow_Grave/Card_Arcade_Warband_Shallow_Grave_Dust_Coven_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Shallow_Grave/Card_Arcade_Warband_Shallow_Grave_Dust_Coven_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Arcade/Warbands/Shallow_Grave/Dust_Coven.xhtml', 
-'Warband', 'FK', 'FK Core Set', 'Default', 
+'Warband', 'FK', 'FK Core Set', 'Arcade', 
 'The knightly House of Ash gave themselves willingly to the service of the Dark Consul.  Wholly consumed by the need for battle, they are allowed to retain a measure of their intellect into undeath.');
 insert into Characters (CardIndex) VALUES (420);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
@@ -1045,7 +1045,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Tribal_Stone/Card_Arcade_Warband_Tribal_Stone_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Tribal_Stone/Card_Arcade_Warband_Tribal_Stone_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Arcade/Warbands/Tribal_Stone/Tribal_Stone.xhtml', 
-'Warband', 'FK', 'FK Core Set', 'Default', 
+'Warband', 'FK', 'FK Core Set', 'Arcade', 
 'Not even the elves choose to make the Mistmourn Coast their home.  Indeed, only the Glimmerdusk Rangers frequent these lands that are perpetually locked in mist and steeped in fae magic.  It is no surprise then that many creatures of the Dark Realm sought sanctuary within the concealing shadows of the coast.<br>Most were driven mad with fright, as the fae creatures preyed on their minds with capricious tricks and dealy pranks.  Trolls, however, remained remarkably unaffected--perhaps shielded by their naturally dim intellect.  In time they became tolerated by the fae creatures if not welcomed.<br>The thin veil between worlds along the Mistmourn eventually brought the trolls into communion with their fallen ancestors.  Guided by their ancestors'' past experiences the trolls grew more cunning, some even attaining a level of brutal intelligence.');
 insert into Characters (CardIndex) VALUES (421);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
@@ -1063,7 +1063,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Shallow_Grave/Card_Arcade_Warband_Shallow_Grave_Dust_Coven_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Shallow_Grave/Card_Arcade_Warband_Shallow_Grave_Dust_Coven_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Arcade/Warbands/Shallow_Grave/Dust_Coven.xhtml', 
-'Warband', 'FK', 'FK Core Set', 'Default', 
+'Warband', 'FK', 'FK Core Set', 'Arcade', 
 'Stalking the Mistmourn Coast, the Ghostfire Tribes are surprisingly cunning adversaries.  Guided by their ancient troll ancestors, they possess tactical acumen hindered only by their fury once battlelust is upon them.');
 insert into Characters (CardIndex) VALUES (422);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
@@ -1086,7 +1086,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Shallow_Grave/Card_Arcade_Warband_Shallow_Grave_Dust_Coven_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Shallow_Grave/Card_Arcade_Warband_Shallow_Grave_Dust_Coven_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Arcade/Warbands/Shallow_Grave/Dust_Coven.xhtml', 
-'Warband', 'FK', 'FK Core Set', 'Default', 
+'Warband', 'FK', 'FK Core Set', 'Arcade', 
 'Spirit Walkers live between two worlds: the mortal realm and the spirit world.  It was they who first made contact with their trollish ancestors, seeking the wisdom of those who came before.');
 insert into Characters (CardIndex) VALUES (423);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
