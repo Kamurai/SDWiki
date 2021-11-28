@@ -2,8 +2,8 @@
 --1.0 Booty
 --Boo Boody --Index 25
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Boo Booty',
-'http://htkb.info/SDE/1.0/Cards/Booty/Card_Boo_Booty_1.0.png', 
-'http://htkb.info/SDE/1.0/Cards/Booty/Card_Boo_Booty_1.0_back.png', 
+'http://htkb.info/SDE/1.0/Cards/Booty/Card_Booty_Boo_Booty_1.0.png', 
+'http://htkb.info/SDE/1.0/Cards/Booty/Card_Booty_Boo_Booty_1.0_back.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Booty/Boo_Booty.xhtml', 
 'Booty', '1.0', '1.0 Core Set', 'Explore',   
 'Fiendish constructs, the Boo Booty masquerades as a normal treasure chest.  When a greedy hero strays too near it springs to life, devouring them equipment and all.');
