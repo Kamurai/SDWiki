@@ -639,10 +639,10 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (9
 
 --Ninja Cola (v1)  --CardIndex 185	--CharacterIndex 99	--ExploreCharacterIndex 99
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
-'Ninja Cola', 
-'http://htkb.info/SDE/FK/Cards/Heroes/Card_Hero_Ninja_Cola_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Heroes/Card_Hero_Ninja_Cola_FK_back.png', 
-'http://htkb.online/SDWiki/SDE/FK/Cards/Heroes/Ninja_Cola.xhtml', 
+'Ninja Cola (v1)', 
+'http://htkb.info/SDE/FK/Cards/Heroes/Card_Hero_Ninja_Cola_v1_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Heroes/Card_Hero_Ninja_Cola_v1_FK_back.png', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Heroes/Ninja_Cola_v1.xhtml', 
 'Hero', 'FK', 'FK Core Set', 'Default', 
 'Kitsune have worked with the ninja clans of Crystalia for centuries.  Quick-witted and fleet of foot many Kitsune even join the ninja clans to learn their mystical martial arts.  Constantly craving adventure, it is no surprise that Cola lept at the opportunity to train as a ninja.  Both he and Candy proved to be able students and excelled in the shadowy discipline.');
 insert into Characters (CardIndex) VALUES (185);
@@ -661,10 +661,10 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (9
 
 --Ninja Cola (v2)  --CardIndex 186	--CharacterIndex 100	--ExploreCharacterIndex 100
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
-'Ninja Cola', 
-'http://htkb.info/SDE/FK/Cards/Heroes/Card_Hero_Ninja_Cola_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Heroes/Card_Hero_Ninja_Cola_FK_back.png', 
-'http://htkb.online/SDWiki/SDE/FK/Cards/Heroes/Ninja_Cola.xhtml', 
+'Ninja Cola (v2)', 
+'http://htkb.info/SDE/FK/Cards/Heroes/Card_Hero_Ninja_Cola_v2_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Heroes/Card_Hero_Ninja_Cola_v2_FK_back.png', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Heroes/Ninja_Cola_v2.xhtml', 
 'Hero', 'FK', 'FK Core Set', 'Default', 
 'Kitsune have worked with the ninja clans of Crystalia for centuries.  Quick-witted and fleet of foot many Kitsune even join the ninja clans to learn their mystical martial arts.  Constantly craving adventure, it is no surprise that Cola lept at the opportunity to train as a ninja.  Both he and Candy proved to be able students and excelled in the shadowy discipline.');
 insert into Characters (CardIndex) VALUES (186);
@@ -840,7 +840,7 @@ insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (107
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (107, 1, 1); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (107, 2); --Armor
 
---Questing Knight --CardIndex 194	--CharacterIndex 107	--ExploreCharacterIndex 107
+--Questing Knight --CardIndex 195	--CharacterIndex 108	--ExploreCharacterIndex 108
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 'Questing Knight', 
 'http://htkb.info/SDE/FK/Cards/Heroes/Card_Hero_Questing_Knight_FK.png', 
@@ -848,18 +848,18 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Heroes/Questing_Knight.xhtml', 
 'Hero', 'FK', 'FK Core Set', 'Default', 
 'Many think the Bramble Knights all shared in the Forgotten King''s curse.  In truth, a small number of Bramble Knights remained loyal to Crystalia and fought against their former liege.  This order of true knights has remained secret for centuries--known only as Questing Knights.  Hidden beneath thick armor and possessing a unequalled mastery of weapons, the Questing Knights will not rest until the Forgotten King and his court are put to the sword and their honor is restored.');
-insert into Characters (CardIndex) VALUES (194);
+insert into Characters (CardIndex) VALUES (195);
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
-107, 'Either', 'Small', 'Human', 6, 3, '2R', '2B1R', '2B', '2B', 5, 1);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (107, 1); --Citrine
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (107, 4); --Sapphire
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (107, 440); --Mighty Throw
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (107, 433); --Massive Sword
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (107, 427); --Magic Armor
-insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (107, 1, 2); --Strength
-insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (107, 2); --Armor
+108, 'Either', 'Small', 'Human', 6, 3, '2R', '2B1R', '2B', '2B', 5, 1);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (108, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (108, 4); --Sapphire
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (108, 440); --Mighty Throw
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (108, 433); --Massive Sword
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (108, 427); --Magic Armor
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (108, 1, 2); --Strength
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (108, 2); --Armor
 
---Riftling Rogue --CardIndex 195	--CharacterIndex 108	--ExploreCharacterIndex 108
+--Riftling Rogue --CardIndex 196	--CharacterIndex 109	--ExploreCharacterIndex 109
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 'Riftling Rogue', 
 'http://htkb.info/SDE/FK/Cards/Heroes/Card_Hero_Riftling_Rogue_FK.png', 
@@ -867,19 +867,19 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Heroes/Riftling_Rogue.xhtml', 
 'Hero', 'FK', 'FK Core Set', 'Default', 
 'Demons become Heroes to combat the Dark Consul for their own closely guarded reasons.  Masters of striking from the shadows, Riftling Guild adepts can find the chink in any armor.  More important to many though is their uncanny knack to find the most valuable treasure in any dungeon.');
-insert into Characters (CardIndex) VALUES (195);
+insert into Characters (CardIndex) VALUES (196);
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
-108, 'Feminine', 'Small', 'Demon', 7, 3, '3B', '2B', '1B1R', '2R', 5, 1);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (108, 2); --Emerald
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (108, 570); --Luck
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (108, 637); --Stealth
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (108, 173); --Backstab
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (108, 178); --Bamf!
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (108, 273); --Dimensional Draught
-insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (108, 1, 1); --Strength
-insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (108, 2); --Armor
+109, 'Feminine', 'Small', 'Demon', 7, 3, '3B', '2B', '1B1R', '2R', 5, 1);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (109, 2); --Emerald
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (109, 570); --Luck
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (109, 637); --Stealth
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (109, 173); --Backstab
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (109, 178); --Bamf!
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (109, 273); --Dimensional Draught
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (109, 1, 1); --Strength
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (109, 2); --Armor
 
---Royal Paladin --CardIndex 196	--CharacterIndex 109	--ExploreCharacterIndex 109
+--Royal Paladin --CardIndex 197	--CharacterIndex 110	--ExploreCharacterIndex 110
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 'Royal Paladin', 
 'http://htkb.info/SDE/FK/Cards/Heroes/Card_Hero_Royal_Paladin_FK.png', 
@@ -887,19 +887,19 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Heroes/Royal_Paladin.xhtml', 
 'Hero', 'FK', 'FK Core Set', 'Default', 
 'The divine paladins of the Goddess are champions against the spreading darkness.  Powerful warriors and healers.  They serve as a bright beacon of hope--a rallying cry-- of the Goddess, driving back the shadow and reclaiming Crystalia for all her children.');
-insert into Characters (CardIndex) VALUES (196);
+insert into Characters (CardIndex) VALUES (197);
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
-109, 'Masculine', 'Small', 'Human', 6, 3, '2R', '2B1R', '3B', '2B', 5, 1);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (109, 2); --Citrine
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (109, 4); --Sapphire
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (109, 545); --Holy
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (109, 565); --Smite
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (109, 406); --Iron Halo
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (109, 511); --Elixir
-insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (109, 1, 1); --Strength
-insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (109, 2); --Armor
+110, 'Masculine', 'Small', 'Human', 6, 3, '2R', '2B1R', '3B', '2B', 5, 1);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (110, 2); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (110, 4); --Sapphire
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (110, 545); --Holy
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (110, 565); --Smite
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (110, 406); --Iron Halo
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (110, 511); --Elixir
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (110, 1, 1); --Strength
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (110, 2); --Armor
 
---Royal Warden --CardIndex 197	--CharacterIndex 110	--ExploreCharacterIndex 110
+--Royal Warden --CardIndex 198	--CharacterIndex 111	--ExploreCharacterIndex 111
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 'Royal Warden', 
 'http://htkb.info/SDE/FK/Cards/Heroes/Card_Hero_Royal_Warden_FK.png', 
@@ -907,20 +907,20 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Heroes/Royal_Warden.xhtml', 
 'Hero', 'FK', 'FK Core Set', 'Default', 
 'The world of Crystalia is vast and wild.  Its citizens are spread throughout many realms, each with their own living conditions and cultures.  It is the duty of the Royal Wardens to maintain the King''s peace along the roads, trails, and wilderness that bind the kingdom together.  These rugged and hardy individuals travel the realms fighting brigands, tracking down fugitives, and collecting the King''s taxes.  Hailed as both Hero and Villain, there are few servants of the kingdom as iconic as the doughty warden.');
-insert into Characters (CardIndex) VALUES (197);
+insert into Characters (CardIndex) VALUES (198);
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
-110, 'Masculine', 'Small', 'Human', 6, 3, '3B', '3B', '1B1R', '2B', 5, 1);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (110, 2); --Citrine
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (110, 4); --Sapphire
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (110, 648); --Tough
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (110, 247); --Crossbow
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (110, 166); --Arrest Warrant
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (110, 622); --Tax Collector
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (110, 199); --Bound by Law
-insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (110, 1, 1); --Strength
-insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (110, 2); --Armor
+111, 'Masculine', 'Small', 'Human', 6, 3, '3B', '3B', '1B1R', '2B', 5, 1);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (111, 2); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (111, 4); --Sapphire
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (111, 648); --Tough
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (111, 247); --Crossbow
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (111, 166); --Arrest Warrant
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (111, 622); --Tax Collector
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (111, 199); --Bound by Law
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (111, 1, 1); --Strength
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (111, 2); --Armor
 
---Scarecrow --CardIndex 198	--CharacterIndex 111	--ExploreCharacterIndex 111
+--Scarecrow --CardIndex 199	--CharacterIndex 112	--ExploreCharacterIndex 112
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 'Scarecrow', 
 'http://htkb.info/SDE/FK/Cards/Heroes/Card_Hero_Scarecrow_FK.png', 
@@ -928,21 +928,21 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Heroes/Scarecrow.xhtml', 
 'Hero', 'FK', 'FK Core Set', 'Default', 
 'Given life by cackling hedge wizards and village crones, Scarecrows are charged with protecting both village and farm from the predation of the Dark Consul''s monsters.');
-insert into Characters (CardIndex) VALUES (198);
+insert into Characters (CardIndex) VALUES (199);
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
-111, 'Neither', 'Small', 'Human', 6, 3, '2B1R', '2B', '2R', '1B', 5, 1);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (111, 2); --Citrine
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (111, 3); --Ruby
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (111, 515); --Fixable
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (111, 517); --Flammable
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (111, 370); --Harvest Scythe
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (111, 213); --Bumper Crop
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (111, 493); --Pumpkin Bomb
-insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (111, 1, 2); --Strength
-insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (111, 2); --Armor
-insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (111, 3); --Will
+112, 'Neither', 'Small', 'Human', 6, 3, '2B1R', '2B', '2R', '1B', 5, 1);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (112, 2); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (112, 3); --Ruby
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (112, 515); --Fixable
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (112, 517); --Flammable
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (112, 370); --Harvest Scythe
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (112, 213); --Bumper Crop
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (112, 493); --Pumpkin Bomb
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (112, 1, 2); --Strength
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (112, 2); --Armor
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (112, 3); --Will
 
---Sebastian Cross --CardIndex 199	--CharacterIndex 112	--ExploreCharacterIndex 112
+--Sebastian Cross --CardIndex 200	--CharacterIndex 113	--ExploreCharacterIndex 113
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 'Sebastian Cross', 
 'http://htkb.info/SDE/FK/Cards/Heroes/Card_Hero_Sebastian_Cross_FK.png', 
@@ -950,19 +950,19 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Heroes/Sebastian_Cross.xhtml', 
 'Hero', 'FK', 'FK Core Set', 'Default', 
 'Few would suspect the dour Sebastian Cross to be an avid Super Dungeon Explore player.  Yet he is renown for his cunning tactics and exceptional party management.  A party led by Sebastian is an unstoppable juggernaut, battering through the Consul''s minions with grim determination.');
-insert into Characters (CardIndex) VALUES (199);
+insert into Characters (CardIndex) VALUES (200);
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
-112, 'Masculine', 'Small', 'Human', 5, 3, '3B', '2B1R', '3B', '2B', 6, 1);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (112, 4); --Sapphire
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (112, 545); --Holy
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (112, 554); --Immune: Knockdown
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (112, 549); --Shattered Sword
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (112, 582); --Spearhead
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (112, 527); --Rook
-insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (112, 1, 1); --Strength
-insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (112, 2); --Armor
+113, 'Masculine', 'Small', 'Human', 5, 3, '3B', '2B1R', '3B', '2B', 6, 1);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (113, 4); --Sapphire
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (113, 545); --Holy
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (113, 554); --Immune: Knockdown
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (113, 549); --Shattered Sword
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (113, 582); --Spearhead
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (113, 527); --Rook
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (113, 1, 1); --Strength
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (113, 2); --Armor
 
---Silver Chevalier --CardIndex 200	--CharacterIndex 113	--ExploreCharacterIndex 113
+--Silver Chevalier --CardIndex 201	--CharacterIndex 114	--ExploreCharacterIndex 114
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 'Silver Chevalier', 
 'http://htkb.info/SDE/FK/Cards/Heroes/Card_Hero_Silver_Chevalier_FK.png', 
@@ -970,17 +970,17 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Heroes/Silver_Chevalier.xhtml', 
 'Hero', 'FK', 'FK Core Set', 'Default', 
 'A proud knightly order, Silver Chevaliers take to the field in gleaming plate wrought with delicate filigree.  Bold pennants snap sharply in the the wind at the tip of their long, gleaming lances.  The battle cry that accompanies their charge fills monsters with dread. Indeed, many monsters have panicked and fled rather than face the Silver Chevaliers in battle.<br><br>Silver Chevaliers prefer to battle atop powerful destriers, unfortunately, their mounts typically prove a hindrance within the tight confines of a dungeon.  Nonetheless, they are as adept with their lances on foot as in the saddle, a fact many monsters have discovered--painfully.');
-insert into Characters (CardIndex) VALUES (200);
+insert into Characters (CardIndex) VALUES (201);
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
-113, 'Feminine', 'Small', 'Human', 6, 3, '2B1R', '3B', '3B', '2B', 5, 1);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (113, 1); --Citrine
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (113, 562); --Silver Star
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (113, 561); --Silver Lance
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (113, 511); --Quicksilver Elixir
-insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (113, 1, 2); --Strength
-insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (113, 2); --Armor
+114, 'Feminine', 'Small', 'Human', 6, 3, '2B1R', '3B', '3B', '2B', 5, 1);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (114, 1); --Citrine
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (114, 562); --Silver Star
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (114, 561); --Silver Lance
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (114, 511); --Quicksilver Elixir
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (114, 1, 2); --Strength
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (114, 2); --Armor
 
---Sister of Light --CardIndex 201	--CharacterIndex 114	--ExploreCharacterIndex 114
+--Sister of Light --CardIndex 202	--CharacterIndex 115	--ExploreCharacterIndex 115
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 'Sister of Light', 
 'http://htkb.info/SDE/FK/Cards/Heroes/Card_Hero_Sister_of_Light_FK.png', 
@@ -990,16 +990,16 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Chapter Houses for the Order of Light can be found throughout Crystalia.  From their hallowed halls paladins, priests, and slayers are trained to bring light to the dark corners of Crystalia.  Sisters of Light are drawn from the order''s orphans who have lost their loved ones to the creatures of the night.  Their unique experiences give them not only the strength to seek vengeance but the empathy to assist others in need.');
 insert into Characters (CardIndex) VALUES (201);
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
-114, 'Feminine', 'Small', 'Human', 6, 3, '2R', '3B', '2R', '2B', 5, 2);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (114, 3); --Ruby
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (114, 4); --Sapphire
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (114, 538); --Healer
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (114, 545); --Holy
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (114, 411); --Judgement
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (114, 499); --Purification
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (114, 302); --Elixir of Light
-insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (114, 1, 1); --Strength
-insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (114, 2); --Armor
+115, 'Feminine', 'Small', 'Human', 6, 3, '2R', '3B', '2R', '2B', 5, 2);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (115, 3); --Ruby
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (115, 4); --Sapphire
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (115, 538); --Healer
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (115, 545); --Holy
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (115, 411); --Judgement
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (115, 499); --Purification
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (115, 302); --Elixir of Light
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (115, 1, 1); --Strength
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (115, 2); --Armor
 
 --Soda Master Candy --CardIndex 201	--CharacterIndex 115	--ExploreCharacterIndex 115
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
