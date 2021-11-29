@@ -1,5 +1,5 @@
 --FK Booty
---Boody Biter --CardIndex 223	--CharacterIndex 136	--ExploreCharacterIndex 136
+--Booty Biter --CardIndex 223	--CharacterIndex 136	--ExploreCharacterIndex 136
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Booty Biter',
 'http://htkb.info/SDE/FK/Cards/Booty/Card_Booty_Booty_Biter_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Booty/Card_Booty_Booty_Biter_FK_back.png', 
