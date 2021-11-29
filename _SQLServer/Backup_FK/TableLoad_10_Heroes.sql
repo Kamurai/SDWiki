@@ -1129,27 +1129,27 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/Cards/Heroes/Card_Hero_Von_Wilder_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Heroes/Von_Wilder.xhtml', 
 'Hero', 'FK', 'FK Core Set', 'Default', 
-'Through rigid study and discipline the Von Wildlings seek to tame their inner beast.  Though not entirely successful, they have become very adept at aiming their wilder side in the right direction.');
+'Through rigid study and discipline the Von Wildings seek to tame their inner beast.  Though not entirely successful, they have become very adept at aiming their wilder side in the right direction.');
 insert into Characters (CardIndex) VALUES (209);
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 122, 'Either', 'Large', 'Shapeshift', 8, 3, '2B1R', '1B1R', '2B', '3B', 5, 2);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (122, 1); --Citrine
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (122, 2); --Emerald
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (122, 648); --Tough
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (122, 621); --Shapeshift: Von Wildling
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (122, 621); --Shapeshift: Von Wilding
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (122, 548); --Shag Fest
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (122, 425); --Lycanthropy
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (122, 1, 2); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (122, 2); --Armor
 
---Von Wildling --CardIndex 210	--CharacterIndex 123	--ExploreCharacterIndex 123
+--Von Wilding --CardIndex 210	--CharacterIndex 123	--ExploreCharacterIndex 123
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
-'Von Wildling', 
-'http://htkb.info/SDE/FK/Cards/Heroes/Card_Hero_Von_Wildling_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Heroes/Card_Hero_Von_Wildling_FK_back.png', 
-'http://htkb.online/SDWiki/SDE/FK/Cards/Heroes/Von_Wildling.xhtml', 
+'Von Wilding', 
+'http://htkb.info/SDE/FK/Cards/Heroes/Card_Hero_Von_Wilding_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Heroes/Card_Hero_Von_Wilding_FK_back.png', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Heroes/Von_Wilding.xhtml', 
 'Hero', 'FK', 'FK Core Set', 'Default', 
-'Through rigid study and discipline the Von Wildlings seek to tame their inner beast.  Though not entirely successful, they have become very adept at aiming their wilder side in the right direction.');
+'Through rigid study and discipline the Von Wildings seek to tame their inner beast.  Though not entirely successful, they have become very adept at aiming their wilder side in the right direction.');
 insert into Characters (CardIndex) VALUES (210);
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 123, 'Either', 'Small', 'Human', 6, 3, '2R', '3B', '3B', '3B', 5, 2);

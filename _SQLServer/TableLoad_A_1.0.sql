@@ -1700,7 +1700,7 @@ insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (23, 32); -
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (23, 81); --Molotov
 --Fool's Gold --EquipmentIndex 24 --CardIndex 96
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Fool''s Gold',
-'http://htkb.info/SDE/1.0/Cards/Treasure/Specific/Treasure_Fools_Gold_1.0.png', 
+'http://htkb.info/SDE/1.0/Cards/Treasure/Specific/Card_Treasure_Fools_Gold_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Treasure/Specific/Card_Treasure_Back_1.0.png',
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Treasure/Specific/Fools_Gold.xhtml', 
 'Treasure', '1.0', '1.0 Core Set', 'Default',
@@ -2142,10 +2142,10 @@ insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (73, 3); --
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (73, 5); --Backblast
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (73, 28); --Herald of Vulcanis
 --Withered Ring --EquipmentIndex 74 --CardIndex 146
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Withering Ring',
-'http://htkb.info/SDE/1.0/Cards/Treasure/Specific/Card_Treasure_Withering_Ring_1.0.png', 
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Withered Ring',
+'http://htkb.info/SDE/1.0/Cards/Treasure/Specific/Card_Treasure_Withered_Ring_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Treasure/Specific/Card_Treasure_Back_1.0.png',
-'http://htkb.online/SDWiki/SDE/1.0/Cards/Treasure/Specific/Withering_Ring.xhtml', 
+'http://htkb.online/SDWiki/SDE/1.0/Cards/Treasure/Specific/Withered_Ring.xhtml', 
 'Treasure', '1.0', '1.0 Core Set', 'Default',
 'Second chances are seldom earned.');
 insert into Equipment (CardIndex, Position, Effect) VALUES (146, 'Top', '+1R WILL');

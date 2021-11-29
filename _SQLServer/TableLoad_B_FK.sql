@@ -2453,27 +2453,27 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/Cards/Heroes/Card_Hero_Von_Wilder_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Heroes/Von_Wilder.xhtml', 
 'Hero', 'FK', 'FK Core Set', 'Default', 
-'Through rigid study and discipline the Von Wildlings seek to tame their inner beast.  Though not entirely successful, they have become very adept at aiming their wilder side in the right direction.');
+'Through rigid study and discipline the Von Wildings seek to tame their inner beast.  Though not entirely successful, they have become very adept at aiming their wilder side in the right direction.');
 insert into Characters (CardIndex) VALUES (209);
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 122, 'Either', 'Large', 'Shapeshift', 8, 3, '2B1R', '1B1R', '2B', '3B', 5, 2);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (122, 1); --Citrine
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (122, 2); --Emerald
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (122, 648); --Tough
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (122, 621); --Shapeshift: Von Wildling
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (122, 621); --Shapeshift: Von Wilding
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (122, 548); --Shag Fest
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (122, 425); --Lycanthropy
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (122, 1, 2); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (122, 2); --Armor
 
---Von Wildling --CardIndex 210	--CharacterIndex 123	--ExploreCharacterIndex 123
+--Von Wilding --CardIndex 210	--CharacterIndex 123	--ExploreCharacterIndex 123
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
-'Von Wildling', 
-'http://htkb.info/SDE/FK/Cards/Heroes/Card_Hero_Von_Wildling_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Heroes/Card_Hero_Von_Wildling_FK_back.png', 
-'http://htkb.online/SDWiki/SDE/FK/Cards/Heroes/Von_Wildling.xhtml', 
+'Von Wilding', 
+'http://htkb.info/SDE/FK/Cards/Heroes/Card_Hero_Von_Wilding_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Heroes/Card_Hero_Von_Wilding_FK_back.png', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Heroes/Von_Wilding.xhtml', 
 'Hero', 'FK', 'FK Core Set', 'Default', 
-'Through rigid study and discipline the Von Wildlings seek to tame their inner beast.  Though not entirely successful, they have become very adept at aiming their wilder side in the right direction.');
+'Through rigid study and discipline the Von Wildings seek to tame their inner beast.  Though not entirely successful, they have become very adept at aiming their wilder side in the right direction.');
 insert into Characters (CardIndex) VALUES (210);
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 123, 'Either', 'Small', 'Human', 6, 3, '2R', '3B', '3B', '3B', 5, 2);
@@ -6951,9 +6951,9 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (121, 378)
 --FK Boss Spawns
 --Beatrix The Witch Queen     --CardIndex 432   --BossSpawnIndex 3  
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Beatrix the Witch Queen', 
-'http://htkb.info/SDE/FK/Cards/Boss_Spawns/Card_Boss_Spawn_Beatrix_Witch_Queen_The_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Boss_Spawns/Card_Boss_Spawn_Beatrix_Witch_Queen_The_FK.png',
-'http://htkb.online/SDWiki/SDE/FK/Cards/Boss_Spawns/Beatrix_Witch_Queen_The.xhtml', 
+'http://htkb.info/SDE/FK/Cards/Boss_Spawns/Card_Boss_Spawn_Beatrix_The_Witch_Queen_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Boss_Spawns/Card_Boss_Spawn_Beatrix_The_Witch_Queen_FK.png',
+'http://htkb.online/SDWiki/SDE/FK/Cards/Boss_Spawns/Beatrix_The_Witch_Queen.xhtml', 
 'Boss Spawn', 'FK', 'FK Core Set', 'Default',   
 '');
 insert into BossSpawns (CardIndex, DungeonEffect, BossSpawnEffect, TimeoutEffect, DifficultyRating) 
@@ -7108,7 +7108,7 @@ insert into Equipment (CardIndex, Position, Effect) VALUES (442, 'Bottom', '+1MO
 
 --Amethyst Crystal Shard	--CardIndex 443		--EquipmentIndex 83 
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Amethyst Crystal Shard',
-'http://htkb.info/SDE/FK/Cards/Treasure/Generic/Card_Treasure_Amethyst_Amulet_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Treasure/Generic/Card_Treasure_Amethyst_Crystal_Shard_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Treasure/Generic/Card_Treasure_Back_FK.png',
 'http://htkb.online/SDWiki/SDE/FK/Cards/Generic/Specific/Amethyst_Amulet.xhtml', 
 'Treasure', 'FK', 'FK Core Set', 'Default',
@@ -7756,11 +7756,11 @@ insert into Equipment (CardIndex, Position, Effect) VALUES (503, 'Bottom', '+1B 
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (143, 550); --Immune Bane
 
 
---Divine Vestment			--CardIndex 504		--EquipmentIndex 144 
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Divine Vestment',
-'http://htkb.info/SDE/FK/Cards/Treasure/Generic/Card_Treasure_Divine_Vestment_FK.png', 
+--Divine Vestments			--CardIndex 504		--EquipmentIndex 144 
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Divine Vestments',
+'http://htkb.info/SDE/FK/Cards/Treasure/Generic/Card_Treasure_Divine_Vestments_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Treasure/Generic/Card_Treasure_Back_FK.png',
-'http://htkb.online/SDWiki/SDE/FK/Cards/Generic/Specific/Divine_Vestment.xhtml', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Generic/Specific/Divine_Vestments.xhtml', 
 'Treasure', 'FK', 'FK Core Set', 'Default',
 'May the Goddess bring you comfort.');
 insert into Equipment (CardIndex, Position, Effect) VALUES (504, 'Right', '+1G WILL');
@@ -7865,10 +7865,10 @@ insert into Equipment (CardIndex, Position, Effect) VALUES (513, 'Top', '+1B STR
 
 
 --Elven Circlet				--CardIndex 514		--EquipmentIndex 154 
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Elvin Circlet',
-'http://htkb.info/SDE/FK/SDArena/Cards/Loot/Card_Loot_Elvin_Circlet_FK_SDArena.png', 
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Elven Circlet',
+'http://htkb.info/SDE/FK/SDArena/Cards/Loot/Card_Loot_Elven_Circlet_FK_SDArena.png', 
 'http://htkb.info/SDE/FK/SDArena/Cards/Loot/Card_Loot_Back_FK_SDArena.png', 
-'http://htkb.online/SDWiki/SDE/FK/SDArena/Cards/Loot/Elvin_Circlet.xhtml', 
+'http://htkb.online/SDWiki/SDE/FK/SDArena/Cards/Loot/Elven_Circlet.xhtml', 
 'Loot', 'FK', 'FK Core Set', 'Default',
 'Through the wood with nary a sound.');
 insert into Equipment (CardIndex, Position, Effect) VALUES (514, 'Top', '+1R DEX');
@@ -8519,88 +8519,88 @@ insert into Equipment (CardIndex, Position, Effect) VALUES (574, 'Top', '+1R DEX
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (214, 528); --Fly  
 
 
---Pet Admiral Fuzzybottom		--CardIndex 575		--EquipmentIndex 215 
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Pet Admiral Fuzzybottom',
+--Admiral Fuzzybottom		--CardIndex 575		--EquipmentIndex 215 
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Admiral Fuzzybottom',
 'http://htkb.info/SDE/FK/Cards/Treasure/Pets/Card_Treasure_Pet_Admiral_Fuzzybottom_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Treasure/Pets/Card_Treasure_Back_FK.png',
-'http://htkb.online/SDWiki/SDE/FK/Cards/Pets/Specific/Pet_Admiral_Fuzzybottom.xhtml', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Treasure/Pets/Admiral_Fuzzybottom.xhtml', 
 'Treasure', 'FK', 'FK Core Set', 'Default',
 'You''ve rescued the soft and fuzzy pet, Admiral Fuzzybottom.  No one can resist petting such an admirable kitty.');
 insert into Equipment (CardIndex, Position, Effect) VALUES (575, 'Other', ''); --
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (215, 654); --Wonder 
 
 
---Pet Colonel The				--CardIndex 576		--EquipmentIndex 216 
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Pet Colonel The',
+--Colonel The				--CardIndex 576		--EquipmentIndex 216 
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('The Colonel',
 'http://htkb.info/SDE/FK/Cards/Treasure/Pets/Card_Treasure_Pet_Colonel_The_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Treasure/Pets/Card_Treasure_Back_FK.png',
-'http://htkb.online/SDWiki/SDE/FK/Cards/Pets/Specific/Pet_Colonel_The.xhtml', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Treasure/Pets/Colonel_The.xhtml', 
 'Treasure', 'FK', 'FK Core Set', 'Default',
 'You''ve rescued the expert tactician and jolly good pet, The Colonel.  Excellent work, old chap.');
 insert into Equipment (CardIndex, Position, Effect) VALUES (576, 'Other', ''); --
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (216, 654); --Wonder  
 
 
---Pet Lord Gruff				--CardIndex 577		--EquipmentIndex 217 
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Pet Lord Gruff',
+--Lord Gruff				--CardIndex 577		--EquipmentIndex 217 
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Lord Gruff',
 'http://htkb.info/SDE/FK/Cards/Treasure/Pets/Card_Treasure_Pet_Lord_Gruff_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Treasure/Pets/Card_Treasure_Back_FK.png',
-'http://htkb.online/SDWiki/SDE/FK/Cards/Pets/Specific/Pet_Lord_Gruff.xhtml', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Treasure/Pets/Lord_Gruff.xhtml', 
 'Treasure', 'FK', 'FK Core Set', 'Default',
 'You''ve rescued the cranky and stubborn pet, Lord Gruff.  He would prefer if you had left him alone.');
 insert into Equipment (CardIndex, Position, Effect) VALUES (577, 'Other', ''); -- 
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (217, 654); --Wonder 
 
 
---Pet Madam Hilde				--CardIndex 578		--EquipmentIndex 218 
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Pet Madam Hilde',
+--Madam Hilde				--CardIndex 578		--EquipmentIndex 218 
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Madam Hilde',
 'http://htkb.info/SDE/FK/Cards/Treasure/Pets/Card_Treasure_Pet_Madam_Hilde_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Treasure/Pets/Card_Treasure_Back_FK.png',
-'http://htkb.online/SDWiki/SDE/FK/Cards/Pets/Specific/Pet_Madam_Hilde.xhtml', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Treasure/Pets/Madam_Hilde.xhtml', 
 'Treasure', 'FK', 'FK Core Set', 'Default',
 'You''ve rescued the magical singing pet, Madam Hilde.  Be sure to plug your ears!');
 insert into Equipment (CardIndex, Position, Effect) VALUES (578, 'Other', ''); --
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (218, 654); --Wonder 
 
 
---Pet Miss G Snorts				--CardIndex 579		--EquipmentIndex 219 
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Pet Miss G Snorts',
+--Miss G Snorts				--CardIndex 579		--EquipmentIndex 219 
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Miss G Snorts',
 'http://htkb.info/SDE/FK/Cards/Treasure/Pets/Card_Treasure_Pet_Miss_G_Snorts_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Treasure/Pets/Card_Treasure_Back_FK.png',
-'http://htkb.online/SDWiki/SDE/FK/Cards/Pets/Specific/Pet_Miss_G_Snorts.xhtml', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Treasure/Pets/Miss_G_Snorts.xhtml', 
 'Treasure', 'FK', 'FK Core Set', 'Default',
 'Woooosh!');
 insert into Equipment (CardIndex, Position, Effect) VALUES (579, 'Other', ''); --
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (219, 654); --Wonder 
 
 
---Pet Mr Bitey					--CardIndex 580		--EquipmentIndex 220 
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Pet Mr Bitey',
+--Mr Bitey					--CardIndex 580		--EquipmentIndex 220 
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Mr. Bitey',
 'http://htkb.info/SDE/FK/Cards/Treasure/Pets/Card_Treasure_Pet_Mr_Bitey_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Treasure/Pets/Card_Treasure_Back_FK.png',
-'http://htkb.online/SDWiki/SDE/FK/Cards/Pets/Specific/Pet_Mr_Bitey.xhtml', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Treasure/Pets/Mr_Bitey.xhtml', 
 'Treasure', 'FK', 'FK Core Set', 'Default',
 'You''ve rescued the bunny pet, Mr. Bitey!  Is that a finger he''s eating?  Yuck.');
 insert into Equipment (CardIndex, Position, Effect) VALUES (580, 'Other', ''); -- 
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (220, 654); --Wonder 
 
 
---Pet Mr Chomper				--CardIndex 581		--EquipmentIndex 221 
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Pet Mr Chomper',
-'http://htkb.info/SDE/FK/Cards/Treasure/Pets/Card_Treasure_Pet_Mr_Chomper_FK.png', 
+--Mr Chompers				--CardIndex 581		--EquipmentIndex 221 
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Mr. Chompers',
+'http://htkb.info/SDE/FK/Cards/Treasure/Pets/Card_Treasure_Pet_Mr_Chompers_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Treasure/Pets/Card_Treasure_Back_FK.png',
-'http://htkb.online/SDWiki/SDE/FK/Cards/Pets/Specific/Pet_Mr_Chomper.xhtml', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Treasure/Mr_Chomper.xhtml', 
 'Treasure', 'FK', 'FK Core Set', 'Default',
 'You''ve rescued the lovable and fiery pet, Mr. Chompers.  His favorite treat is lava rock.  Delicious!');
 insert into Equipment (CardIndex, Position, Effect) VALUES (581, 'Other', ''); -- 
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (221, 654); --Wonder 
 
 
---Pet Never-Lost Cola			--CardIndex 582		--EquipmentIndex 222 
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Pet Never-Lost Cola',
-'http://htkb.info/SDE/FK/Cards/Treasure/Pets/Card_Pet_Never_Lost_Cola_FK.png', 
+--Never-Lost Cola			--CardIndex 582		--EquipmentIndex 222 
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Never-Lost Cola',
+'http://htkb.info/SDE/FK/Cards/Treasure/Pets/Card_Treasure_Pet_Never_Lost_Cola_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Treasure/Pets/Card_Treasure_Back_FK.png',
-'http://htkb.online/SDWiki/SDE/FK/Cards/Pets/Specific/Pet_Never_Lost_Cola.xhtml', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Treasure/Never_Lost_Cola.xhtml', 
 'Treasure', 'FK', 'FK Core Set', 'Default',
 'You''ve rescued the trailblazer Never-Lost Cola.  Thanks to his trusty compass your party will never be lost again.');
 insert into Equipment (CardIndex, Position, Effect) VALUES (582, 'Other', ''); --
@@ -9195,9 +9195,9 @@ insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (277, 555);
 
 --Vitamin Supplement			--CardIndex 636		--EquipmentIndex 278 
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Vitamin Supplement',
-'http://htkb.info/SDE/FK/SDArena/Cards/Treasure/Generic/Card_Treasure_Wyrm_Scale_FK_SDArena.png', 
+'http://htkb.info/SDE/FK/SDArena/Cards/Treasure/Generic/Card_Treasure_Vitamin_Supplement_FK_SDArena.png', 
 'http://htkb.info/SDE/FK/SDArena/Cards/Treasure/Generic/Card_Treasure_Back_FK_SDArena.png',
-'http://htkb.online/SDWiki/SDE/FK/SDArena/Cards/Generic/Specific/Wyrm_Scale.xhtml', 
+'http://htkb.online/SDWiki/SDE/FK/SDArena/Cards/Generic/Specific/Vitamin_Supplement.xhtml', 
 'Treasure', 'FK', 'FK Core Set', 'Default',
 'It''s totally not candy...');
 insert into Equipment (CardIndex, Position, Effect) VALUES (636, 'Bottom', '+2MO');
