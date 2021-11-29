@@ -455,9 +455,9 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (8
 --Hidden Shrine Mystic (Beta) --CardIndex 176	--CharacterIndex 90	--ExploreCharacterIndex 90
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 'Hidden Shrine Mystic (Beta)', 
-'http://htkb.info/SDE/FK/Cards/Heroes/Card_Hero_Hidden_Shrine_Mystic_Beta_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Heroes/Card_Hero_Hidden_Shrine_Mystic_Beta_FK_back.png', 
-'http://htkb.online/SDWiki/SDE/FK/Cards/Heroes/Hidden_Shrine_Mystic_Beta.xhtml', 
+'http://htkb.info/SDE/FK/Cards/Heroes/Card_Hero_Hidden_Shrine_Mystic_beta_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Heroes/Card_Hero_Hidden_Shrine_Mystic_beta_FK_back.png', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Heroes/Hidden_Shrine_Mystic_beta.xhtml', 
 'Hero', 'FK', 'FK Core Set', 'Default', 
 '');
 insert into Characters (CardIndex) VALUES (176);
@@ -1206,9 +1206,9 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (1
 --Wyrm Claw Templar (Beta) --CardIndex 213	--CharacterIndex 126	--ExploreCharacterIndex 126
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 'Wyrm Claw Templar (Beta)', 
-'http://htkb.info/SDE/FK/Cards/Heroes/Card_Hero_Wyrm_Claw_Templar_Beta_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Heroes/Card_Hero_Wyrm_Claw_Templar_Beta_FK_back.png', 
-'http://htkb.online/SDWiki/SDE/FK/Cards/Heroes/Wyrm_Claw_Templar_Beta.xhtml', 
+'http://htkb.info/SDE/FK/Cards/Heroes/Card_Hero_Wyrm_Claw_Templar_beta_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Heroes/Card_Hero_Wyrm_Claw_Templar_beta_FK_back.png', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Heroes/Wyrm_Claw_Templar_beta.xhtml', 
 'Hero', 'FK', 'FK Core Set', 'Default', 
 'Wyrm Claw Templars are routinely spawned to join Exemplar''s on their quests in service of the Cult of the Burning Star.  Utterly devoted to their cause, these powerful kobolds will lay down their lives without hesitation to see their Lord''s work done.  Should the Templar''s Exemplar die wihtout accomplishing their quest, the Templar is banished from the cult in shame; often becoming  a sell sword of dire repute.');
 insert into Characters (CardIndex) VALUES (213);
