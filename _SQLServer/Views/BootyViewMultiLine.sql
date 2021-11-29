@@ -24,5 +24,5 @@ full join OffenseAssignments j on c.ExploreCharacterIndex=j.ExploreCharacterInde
 full join Attributes k on j.AttributeIndex=k.AttributeIndex
 full join DefenseAssignments l on c.ExploreCharacterIndex=l.ExploreCharacterIndex
 full join Attributes m on l.AttributeIndex=m.AttributeIndex
-where a.CardType = 'Booty'
+where a.CardType = 'Booty' and a.PlayMode = 'Explore'
 ;

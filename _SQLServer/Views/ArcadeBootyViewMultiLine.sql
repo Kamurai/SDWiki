@@ -26,5 +26,5 @@ full join Abilities l on k.AbilityIndex=l.AbilityIndex
 full join Attributes v on l.AttributeIndex=v.AttributeIndex
 
 join ExploreCharacters m on h.ExploreCharacterIndex = m.ExploreCharacterIndex
-where a.CardType = 'Arcade Booty'
+where a.CardType = 'Booty' and a.PlayMode = 'Arcade'
 ;
