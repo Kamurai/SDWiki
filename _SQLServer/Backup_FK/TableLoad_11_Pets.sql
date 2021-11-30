@@ -1,5 +1,5 @@
 --FK Pets
---Admiral Fuzzybottom --CardIndex 215	--CharacterIndex 128	--ExploreCharacterIndex 128
+--Admiral Fuzzybottom --CardIndex 215	--CharacterIndex 130	--ExploreCharacterIndex 130
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Admiral Fuzzybottom',
 'http://htkb.info/SDE/FK/Cards/Pets/Card_Pet_Admiral_Fuzzybottom_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Pets/Card_Pet_Admiral_Fuzzybottom_FK_back.png', 
@@ -7,14 +7,14 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Pet', 'FK', 'FK Core Set', 'Default', 
 'Who''s a good kitty?');
 insert into Characters (CardIndex) VALUES (215);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (128, 626); --Small
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (128, 572); --Master Gains Happy Cat
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (128, 366); --Happy Cat
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (130, 626); --Small
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (130, 572); --Master Gains Happy Cat
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (130, 366); --Happy Cat
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (128, 'Either', 'Small', 'Wonder', 7, 1, '3B', '2ST', '', '', 0, 0);
-insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (128, 1, 1);
-insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (128, 2);
-insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (128, '', -1);
+VALUES (130, 'Either', 'Small', 'Wonder', 7, 1, '3B', '2ST', '', '', 0, 0);
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (130, 1, 1);
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (130, 2);
+insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (130, '', -1);
 
 --The Colonel --CardIndex 216	--CharacterIndex 129	--ExploreCharacterIndex 129
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('The Colonel',
