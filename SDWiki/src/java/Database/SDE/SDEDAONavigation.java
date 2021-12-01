@@ -146,6 +146,76 @@ public class SDEDAONavigation extends DAO{
         return result;
     }
     
+    public ArrayList<SDE.NavItem> pullNavigationForBooty(String version, String playMode){
+        ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
+        
+        if(version.compareTo("All") == 0){
+            result = pullNavigationForBootyByPlayMode(playMode);
+        }else{
+            result = pullNavigationForBootyByProductSetAndPlayMode(version, playMode);
+        }
+        
+        return result;
+    }
+    
+    private ArrayList<SDE.NavItem> pullNavigationForBootyByProductSetAndPlayMode(String version, String playMode){
+        CallableStatement stmt = null;
+        ResultSet rs;
+        ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
+        
+        try{
+            openConnection();
+            
+            stmt = getConnect().prepareCall("{call SDWikiPullNavigationBootyByProductSetAndPlayMode(?,?)}");
+            stmt.setString(1, version);
+            stmt.setString(2, playMode);
+            rs = stmt.executeQuery();
+            
+            result = pullNavigationForCards(rs);
+        }catch(Exception e){
+            e.printStackTrace();
+        }finally{
+            closeConnection();
+        }
+        
+        
+        return result;
+    }
+    
+    private ArrayList<SDE.NavItem> pullNavigationForBootyByPlayMode(String playMode){
+        CallableStatement stmt = null;
+        ResultSet rs;
+        ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
+        
+        try{
+            openConnection();
+            
+            stmt = getConnect().prepareCall("{call SDWikiPullNavigationBootyByPlayMode(?)}");
+            stmt.setString(1, playMode);
+            rs = stmt.executeQuery();
+            
+            result = pullNavigationForCards(rs);
+        }catch(Exception e){
+            e.printStackTrace();
+        }finally{
+            closeConnection();
+        }
+        
+        
+        return result;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     //Pull Navigation for Creeps
     public ArrayList<SDE.NavItem> pullNavigationForCreeps(){
         CallableStatement stmt = null;
@@ -178,6 +248,29 @@ public class SDEDAONavigation extends DAO{
             
             stmt = getConnect().prepareCall("{call SDWikiPullNavigationCreepsByProductSet(?)}");
             stmt.setString(1, version);
+            rs = stmt.executeQuery();
+            
+            result = pullNavigationForCards(rs);
+        }catch(Exception e){
+            e.printStackTrace();
+        }finally{
+            closeConnection();
+        }
+        
+        return result;
+    }
+      
+    public ArrayList<SDE.NavItem> pullNavigationForCreeps(String version, String playMode){
+        CallableStatement stmt = null;
+        ResultSet rs;
+        ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
+        
+        try{
+            openConnection();
+            
+            stmt = getConnect().prepareCall("{call SDWikiPullNavigationCreepsByProductSet(?,?)}");
+            stmt.setString(1, version);
+            stmt.setString(2, playMode);
             rs = stmt.executeQuery();
             
             result = pullNavigationForCards(rs);
@@ -234,6 +327,29 @@ public class SDEDAONavigation extends DAO{
         return result;
     }
     
+    public ArrayList<SDE.NavItem> pullNavigationForElites(String version, String playMode){
+        CallableStatement stmt = null;
+        ResultSet rs;
+        ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
+        
+        try{
+            openConnection();
+            
+            stmt = getConnect().prepareCall("{call SDWikiPullNavigationElitesByProductSet(?,?)}");
+            stmt.setString(1, version);
+            stmt.setString(2, playMode);
+            rs = stmt.executeQuery();
+            
+            result = pullNavigationForCards(rs);
+        }catch(Exception e){
+            e.printStackTrace();
+        }finally{
+            closeConnection();
+        }
+        
+        return result;
+    }
+    
     //Pull Navigation for Mini Bosses
     public ArrayList<SDE.NavItem> pullNavigationForMiniBosses(){
         CallableStatement stmt = null;
@@ -266,6 +382,29 @@ public class SDEDAONavigation extends DAO{
             
             stmt = getConnect().prepareCall("{call SDWikiPullNavigationMiniBossesByProductSet(?)}");
             stmt.setString(1, version);
+            rs = stmt.executeQuery();
+            
+            result = pullNavigationForCards(rs);
+        }catch(Exception e){
+            e.printStackTrace();
+        }finally{
+            closeConnection();
+        }
+        
+        return result;
+    }
+    
+    public ArrayList<SDE.NavItem> pullNavigationForMiniBosses(String version, String playMode){
+        CallableStatement stmt = null;
+        ResultSet rs;
+        ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
+        
+        try{
+            openConnection();
+            
+            stmt = getConnect().prepareCall("{call SDWikiPullNavigationMiniBossesByProductSet(?,?)}");
+            stmt.setString(1, version);
+            stmt.setString(2, playMode);
             rs = stmt.executeQuery();
             
             result = pullNavigationForCards(rs);
@@ -322,6 +461,29 @@ public class SDEDAONavigation extends DAO{
         return result;
     }
     
+    public ArrayList<SDE.NavItem> pullNavigationForBosses(String version, String playMode){
+        CallableStatement stmt = null;
+        ResultSet rs;
+        ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
+        
+        try{
+            openConnection();
+            
+            stmt = getConnect().prepareCall("{call SDWikiPullNavigationBossesByProductSet(?,?)}");
+            stmt.setString(1, version);
+            stmt.setString(2, playMode);
+            rs = stmt.executeQuery();
+            
+            result = pullNavigationForCards(rs);
+        }catch(Exception e){
+            e.printStackTrace();
+        }finally{
+            closeConnection();
+        }
+        
+        return result;
+    }
+    
     //Pull Navigation for Minions
     public ArrayList<SDE.NavItem> pullNavigationForMinions(){
         CallableStatement stmt = null;
@@ -354,6 +516,29 @@ public class SDEDAONavigation extends DAO{
             
             stmt = getConnect().prepareCall("{call SDWikiPullNavigationMinionsByProductSet(?)}");
             stmt.setString(1, version);
+            rs = stmt.executeQuery();
+            
+            result = pullNavigationForCards(rs);
+        }catch(Exception e){
+            e.printStackTrace();
+        }finally{
+            closeConnection();
+        }
+        
+        return result;
+    }
+
+    public ArrayList<SDE.NavItem> pullNavigationForMinions(String version, String playMode){
+        CallableStatement stmt = null;
+        ResultSet rs;
+        ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
+        
+        try{
+            openConnection();
+            
+            stmt = getConnect().prepareCall("{call SDWikiPullNavigationMinionsByProductSet(?,?)}");
+            stmt.setString(1, version);
+            stmt.setString(2, playMode);
             rs = stmt.executeQuery();
             
             result = pullNavigationForCards(rs);
@@ -410,6 +595,29 @@ public class SDEDAONavigation extends DAO{
         return result;
     }
     
+    public ArrayList<SDE.NavItem> pullNavigationForSpawns(String version, String playMode){
+        CallableStatement stmt = null;
+        ResultSet rs;
+        ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
+        
+        try{
+            openConnection();
+            
+            stmt = getConnect().prepareCall("{call SDWikiPullNavigationSpawnsByProductSet(?,?)}");
+            stmt.setString(1, version);
+            stmt.setString(2, playMode);
+            rs = stmt.executeQuery();
+            
+            result = pullNavigationForCards(rs);
+        }catch(Exception e){
+            e.printStackTrace();
+        }finally{
+            closeConnection();
+        }
+        
+        return result;
+    }
+    
     //Pull Navigation for Warbands
     public ArrayList<SDE.NavItem> pullNavigationForWarbands(){
         CallableStatement stmt = null;
@@ -442,6 +650,29 @@ public class SDEDAONavigation extends DAO{
             
             stmt = getConnect().prepareCall("{call SDWikiPullNavigationWarbandsByProductSet(?)}");
             stmt.setString(1, version);
+            rs = stmt.executeQuery();
+            
+            result = pullNavigationForCards(rs);
+        }catch(Exception e){
+            e.printStackTrace();
+        }finally{
+            closeConnection();
+        }
+        
+        return result;
+    }
+    
+    public ArrayList<SDE.NavItem> pullNavigationForWarbands(String version, String playMode){
+        CallableStatement stmt = null;
+        ResultSet rs;
+        ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
+        
+        try{
+            openConnection();
+            
+            stmt = getConnect().prepareCall("{call SDWikiPullNavigationWarbandsByProductSet(?,?)}");
+            stmt.setString(1, version);
+            stmt.setString(2, playMode);
             rs = stmt.executeQuery();
             
             result = pullNavigationForCards(rs);
@@ -498,8 +729,7 @@ public class SDEDAONavigation extends DAO{
         return result;
     }    
     
-    //Pull Navigation for Arcade Booty
-    public ArrayList<SDE.NavItem> pullNavigationForArcadeBooty(){
+    public ArrayList<SDE.NavItem> pullNavigationForMonsters(String version, String playMode){
         CallableStatement stmt = null;
         ResultSet rs;
         ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
@@ -507,29 +737,9 @@ public class SDEDAONavigation extends DAO{
         try{
             openConnection();
             
-            stmt = getConnect().prepareCall("{call SDWikiPullNavigationArcadeBooty}");
-            rs = stmt.executeQuery();
-            
-            result = pullNavigationForCards(rs);
-        }catch(Exception e){
-            e.printStackTrace();
-        }finally{
-            closeConnection();
-        }
-        
-        return result;
-    }
-    
-    public ArrayList<SDE.NavItem> pullNavigationForArcadeBooty(String version){
-        CallableStatement stmt = null;
-        ResultSet rs;
-        ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
-        
-        try{
-            openConnection();
-            
-            stmt = getConnect().prepareCall("{call SDWikiPullNavigationArcadeBootyByProductSet(?)}");
+            stmt = getConnect().prepareCall("{call SDWikiPullNavigationMonstersByProductSet(?,?)}");
             stmt.setString(1, version);
+            stmt.setString(2, playMode);
             rs = stmt.executeQuery();
             
             result = pullNavigationForCards(rs);
@@ -540,227 +750,271 @@ public class SDEDAONavigation extends DAO{
         }
         
         return result;
-    }
+    }    
     
-    //Pull Navigation for Arcade Bosses
-    public ArrayList<SDE.NavItem> pullNavigationForArcadeBosses(){
-        CallableStatement stmt = null;
-        ResultSet rs;
-        ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
-        
-        try{
-            openConnection();
-            
-            stmt = getConnect().prepareCall("{call SDWikiPullNavigationArcadeBosses}");
-            rs = stmt.executeQuery();
-            
-            result = pullNavigationForCards(rs);
-        }catch(Exception e){
-            e.printStackTrace();
-        }finally{
-            closeConnection();
-        }
-        
-        return result;
-    }
-    
-    public ArrayList<SDE.NavItem> pullNavigationForArcadeBosses(String version){
-        CallableStatement stmt = null;
-        ResultSet rs;
-        ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
-        
-        try{
-            openConnection();
-            
-            stmt = getConnect().prepareCall("{call SDWikiPullNavigationArcadeBossesByProductSet(?)}");
-            stmt.setString(1, version);
-            rs = stmt.executeQuery();
-            
-            result = pullNavigationForCards(rs);
-        }catch(Exception e){
-            e.printStackTrace();
-        }finally{
-            closeConnection();
-        }
-        
-        return result;
-    }
-    
-    //Pull Navigation for Arcade Creeps
-    public ArrayList<SDE.NavItem> pullNavigationForArcadeCreeps(){
-        CallableStatement stmt = null;
-        ResultSet rs;
-        ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
-        
-        try{
-            openConnection();
-            
-            stmt = getConnect().prepareCall("{call SDWikiPullNavigationArcadeCreeps}");
-            rs = stmt.executeQuery();
-            
-            result = pullNavigationForCards(rs);
-        }catch(Exception e){
-            e.printStackTrace();
-        }finally{
-            closeConnection();
-        }
-        
-        return result;
-    }
-    
-    public ArrayList<SDE.NavItem> pullNavigationForArcadeCreeps(String version){
-        CallableStatement stmt = null;
-        ResultSet rs;
-        ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
-        
-        try{
-            openConnection();
-            
-            stmt = getConnect().prepareCall("{call SDWikiPullNavigationArcadeCreepsByProductSet(?)}");
-            stmt.setString(1, version);
-            rs = stmt.executeQuery();
-            
-            result = pullNavigationForCards(rs);
-        }catch(Exception e){
-            e.printStackTrace();
-        }finally{
-            closeConnection();
-        }
-        
-        return result;
-    }
-    
-    //Pull Navigation for Arcade Gangs
-    public ArrayList<SDE.NavItem> pullNavigationForArcadeGangs(){
-        CallableStatement stmt = null;
-        ResultSet rs;
-        ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
-        
-        try{
-            openConnection();
-            
-            stmt = getConnect().prepareCall("{call SDWikiPullNavigationArcadeGangs}");
-            rs = stmt.executeQuery();
-            
-            result = pullNavigationForCards(rs);
-        }catch(Exception e){
-            e.printStackTrace();
-        }finally{
-            closeConnection();
-        }
-        
-        return result;
-    }
-    
-    public ArrayList<SDE.NavItem> pullNavigationForArcadeGangs(String version){
-        CallableStatement stmt = null;
-        ResultSet rs;
-        ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
-        
-        try{
-            openConnection();
-            
-            stmt = getConnect().prepareCall("{call SDWikiPullNavigationArcadeGangsByProductSet(?)}");
-            stmt.setString(1, version);
-            rs = stmt.executeQuery();
-            
-            result = pullNavigationForCards(rs);
-        }catch(Exception e){
-            e.printStackTrace();
-        }finally{
-            closeConnection();
-        }
-        
-        return result;
-    }
-    
-    //Pull Navigation for Arcade Mini Bosses
-    public ArrayList<SDE.NavItem> pullNavigationForArcadeMinibosses(){
-        CallableStatement stmt = null;
-        ResultSet rs;
-        ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
-        
-        try{
-            openConnection();
-            
-            stmt = getConnect().prepareCall("{call SDWikiPullNavigationArcadeMiniBosses}");
-            rs = stmt.executeQuery();
-            
-            result = pullNavigationForCards(rs);
-        }catch(Exception e){
-            e.printStackTrace();
-        }finally{
-            closeConnection();
-        }
-        
-        return result;
-    }
-    
-    public ArrayList<SDE.NavItem> pullNavigationForArcadeMinibosses(String version){
-        CallableStatement stmt = null;
-        ResultSet rs;
-        ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
-        
-        try{
-            openConnection();
-            
-            stmt = getConnect().prepareCall("{call SDWikiPullNavigationArcadeMiniBossesByProductSet(?)}");
-            stmt.setString(1, version);
-            rs = stmt.executeQuery();
-            
-            result = pullNavigationForCards(rs);
-        }catch(Exception e){
-            e.printStackTrace();
-        }finally{
-            closeConnection();
-        }
-        
-        return result;
-    }
-    
-    //Pull Navigation for Arcade Solos
-    public ArrayList<SDE.NavItem> pullNavigationForArcadeSolos(){
-        CallableStatement stmt = null;
-        ResultSet rs;
-        ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
-        
-        try{
-            openConnection();
-            
-            stmt = getConnect().prepareCall("{call SDWikiPullNavigationArcadeSolos}");
-            rs = stmt.executeQuery();
-            
-            result = pullNavigationForCards(rs);
-        }catch(Exception e){
-            e.printStackTrace();
-        }finally{
-            closeConnection();
-        }
-        
-        return result;
-    }
-    
-    public ArrayList<SDE.NavItem> pullNavigationForArcadeSolos(String version){
-        CallableStatement stmt = null;
-        ResultSet rs;
-        ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
-        
-        try{
-            openConnection();
-            
-            stmt = getConnect().prepareCall("{call SDWikiPullNavigationArcadeSolosByProductSet(?)}");
-            stmt.setString(1, version);
-            rs = stmt.executeQuery();
-            
-            result = pullNavigationForCards(rs);
-        }catch(Exception e){
-            e.printStackTrace();
-        }finally{
-            closeConnection();
-        }
-        
-        return result;
-    }
+//    //Pull Navigation for Arcade Booty
+//    public ArrayList<SDE.NavItem> pullNavigationForArcadeBooty(){
+//        CallableStatement stmt = null;
+//        ResultSet rs;
+//        ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
+//        
+//        try{
+//            openConnection();
+//            
+//            stmt = getConnect().prepareCall("{call SDWikiPullNavigationArcadeBooty}");
+//            rs = stmt.executeQuery();
+//            
+//            result = pullNavigationForCards(rs);
+//        }catch(Exception e){
+//            e.printStackTrace();
+//        }finally{
+//            closeConnection();
+//        }
+//        
+//        return result;
+//    }
+//    
+//    public ArrayList<SDE.NavItem> pullNavigationForArcadeBooty(String version){
+//        CallableStatement stmt = null;
+//        ResultSet rs;
+//        ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
+//        
+//        try{
+//            openConnection();
+//            
+//            stmt = getConnect().prepareCall("{call SDWikiPullNavigationArcadeBootyByProductSet(?)}");
+//            stmt.setString(1, version);
+//            rs = stmt.executeQuery();
+//            
+//            result = pullNavigationForCards(rs);
+//        }catch(Exception e){
+//            e.printStackTrace();
+//        }finally{
+//            closeConnection();
+//        }
+//        
+//        return result;
+//    }
+//    
+//    //Pull Navigation for Arcade Bosses
+//    public ArrayList<SDE.NavItem> pullNavigationForArcadeBosses(){
+//        CallableStatement stmt = null;
+//        ResultSet rs;
+//        ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
+//        
+//        try{
+//            openConnection();
+//            
+//            stmt = getConnect().prepareCall("{call SDWikiPullNavigationArcadeBosses}");
+//            rs = stmt.executeQuery();
+//            
+//            result = pullNavigationForCards(rs);
+//        }catch(Exception e){
+//            e.printStackTrace();
+//        }finally{
+//            closeConnection();
+//        }
+//        
+//        return result;
+//    }
+//    
+//    public ArrayList<SDE.NavItem> pullNavigationForArcadeBosses(String version){
+//        CallableStatement stmt = null;
+//        ResultSet rs;
+//        ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
+//        
+//        try{
+//            openConnection();
+//            
+//            stmt = getConnect().prepareCall("{call SDWikiPullNavigationArcadeBossesByProductSet(?)}");
+//            stmt.setString(1, version);
+//            rs = stmt.executeQuery();
+//            
+//            result = pullNavigationForCards(rs);
+//        }catch(Exception e){
+//            e.printStackTrace();
+//        }finally{
+//            closeConnection();
+//        }
+//        
+//        return result;
+//    }
+//    
+//    //Pull Navigation for Arcade Creeps
+//    public ArrayList<SDE.NavItem> pullNavigationForArcadeCreeps(){
+//        CallableStatement stmt = null;
+//        ResultSet rs;
+//        ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
+//        
+//        try{
+//            openConnection();
+//            
+//            stmt = getConnect().prepareCall("{call SDWikiPullNavigationArcadeCreeps}");
+//            rs = stmt.executeQuery();
+//            
+//            result = pullNavigationForCards(rs);
+//        }catch(Exception e){
+//            e.printStackTrace();
+//        }finally{
+//            closeConnection();
+//        }
+//        
+//        return result;
+//    }
+//    
+//    public ArrayList<SDE.NavItem> pullNavigationForArcadeCreeps(String version){
+//        CallableStatement stmt = null;
+//        ResultSet rs;
+//        ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
+//        
+//        try{
+//            openConnection();
+//            
+//            stmt = getConnect().prepareCall("{call SDWikiPullNavigationArcadeCreepsByProductSet(?)}");
+//            stmt.setString(1, version);
+//            rs = stmt.executeQuery();
+//            
+//            result = pullNavigationForCards(rs);
+//        }catch(Exception e){
+//            e.printStackTrace();
+//        }finally{
+//            closeConnection();
+//        }
+//        
+//        return result;
+//    }
+//    
+//    //Pull Navigation for Arcade Gangs
+//    public ArrayList<SDE.NavItem> pullNavigationForArcadeGangs(){
+//        CallableStatement stmt = null;
+//        ResultSet rs;
+//        ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
+//        
+//        try{
+//            openConnection();
+//            
+//            stmt = getConnect().prepareCall("{call SDWikiPullNavigationArcadeGangs}");
+//            rs = stmt.executeQuery();
+//            
+//            result = pullNavigationForCards(rs);
+//        }catch(Exception e){
+//            e.printStackTrace();
+//        }finally{
+//            closeConnection();
+//        }
+//        
+//        return result;
+//    }
+//    
+//    public ArrayList<SDE.NavItem> pullNavigationForArcadeGangs(String version){
+//        CallableStatement stmt = null;
+//        ResultSet rs;
+//        ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
+//        
+//        try{
+//            openConnection();
+//            
+//            stmt = getConnect().prepareCall("{call SDWikiPullNavigationArcadeGangsByProductSet(?)}");
+//            stmt.setString(1, version);
+//            rs = stmt.executeQuery();
+//            
+//            result = pullNavigationForCards(rs);
+//        }catch(Exception e){
+//            e.printStackTrace();
+//        }finally{
+//            closeConnection();
+//        }
+//        
+//        return result;
+//    }
+//    
+//    //Pull Navigation for Arcade Mini Bosses
+//    public ArrayList<SDE.NavItem> pullNavigationForArcadeMinibosses(){
+//        CallableStatement stmt = null;
+//        ResultSet rs;
+//        ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
+//        
+//        try{
+//            openConnection();
+//            
+//            stmt = getConnect().prepareCall("{call SDWikiPullNavigationArcadeMiniBosses}");
+//            rs = stmt.executeQuery();
+//            
+//            result = pullNavigationForCards(rs);
+//        }catch(Exception e){
+//            e.printStackTrace();
+//        }finally{
+//            closeConnection();
+//        }
+//        
+//        return result;
+//    }
+//    
+//    public ArrayList<SDE.NavItem> pullNavigationForArcadeMinibosses(String version){
+//        CallableStatement stmt = null;
+//        ResultSet rs;
+//        ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
+//        
+//        try{
+//            openConnection();
+//            
+//            stmt = getConnect().prepareCall("{call SDWikiPullNavigationArcadeMiniBossesByProductSet(?)}");
+//            stmt.setString(1, version);
+//            rs = stmt.executeQuery();
+//            
+//            result = pullNavigationForCards(rs);
+//        }catch(Exception e){
+//            e.printStackTrace();
+//        }finally{
+//            closeConnection();
+//        }
+//        
+//        return result;
+//    }
+//    
+//    //Pull Navigation for Arcade Solos
+//    public ArrayList<SDE.NavItem> pullNavigationForArcadeSolos(){
+//        CallableStatement stmt = null;
+//        ResultSet rs;
+//        ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
+//        
+//        try{
+//            openConnection();
+//            
+//            stmt = getConnect().prepareCall("{call SDWikiPullNavigationArcadeSolos}");
+//            rs = stmt.executeQuery();
+//            
+//            result = pullNavigationForCards(rs);
+//        }catch(Exception e){
+//            e.printStackTrace();
+//        }finally{
+//            closeConnection();
+//        }
+//        
+//        return result;
+//    }
+//    
+//    public ArrayList<SDE.NavItem> pullNavigationForArcadeSolos(String version){
+//        CallableStatement stmt = null;
+//        ResultSet rs;
+//        ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
+//        
+//        try{
+//            openConnection();
+//            
+//            stmt = getConnect().prepareCall("{call SDWikiPullNavigationArcadeSolosByProductSet(?)}");
+//            stmt.setString(1, version);
+//            rs = stmt.executeQuery();
+//            
+//            result = pullNavigationForCards(rs);
+//        }catch(Exception e){
+//            e.printStackTrace();
+//        }finally{
+//            closeConnection();
+//        }
+//        
+//        return result;
+//    }
     
     //Pull Navigation for Equipment
     public ArrayList<SDE.NavItem> pullNavigationForEquipment(){

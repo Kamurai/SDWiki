@@ -3,11 +3,8 @@
 create PROCEDURE SDWikiPullNavigationBooty
 AS
 BEGIN
-	select distinct CardName, ProductSet, PlayMode, Link, PictureFront
-	from BootyViewMultiLine
-	UNION
-	select distinct CardName, ProductSet, PlayMode, Link, PictureFront
-	from ArcadeBootyViewMultiLine	
-	Order By ProductSet desc, PlayMode desc, CardName asc
+	select Name as CardName, ProductSet, PlayMode, Link, PictureFront
+	from DualBootyView
+	Order By Name asc
 	;
 END

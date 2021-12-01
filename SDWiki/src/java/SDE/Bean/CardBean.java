@@ -63,30 +63,6 @@ public class CardBean extends Bean{
             this.title      = "Warbands";
             this.header     = "Warbands";
             this.cardList   = navDAO.pullNavigationForWarbands();
-        }else if(type.compareTo("Arcade_Booty") == 0){
-            this.title      = "Arcade_Booty";
-            this.header     = "Arcade_Booty";
-            this.cardList   = navDAO.pullNavigationForArcadeBooty();
-        }else if(type.compareTo("Arcade_Bosses") == 0){
-            this.title      = "Arcade_Bosses";
-            this.header     = "Arcade_Bosses";
-            this.cardList   = navDAO.pullNavigationForArcadeBooty();
-        }else if(type.compareTo("Arcade_Creeps") == 0){
-            this.title      = "Arcade_Creeps";
-            this.header     = "Arcade_Creeps";
-            this.cardList   = navDAO.pullNavigationForArcadeBooty();
-        }else if(type.compareTo("Arcade_MiniBosses") == 0){
-            this.title      = "Arcade_MiniBosses";
-            this.header     = "Arcade_MiniBosses";
-            this.cardList   = navDAO.pullNavigationForArcadeMinibosses();
-        }else if(type.compareTo("Arcade_Solos") == 0){
-            this.title      = "Arcade_Solos";
-            this.header     = "Arcade_Solos";
-            this.cardList   = navDAO.pullNavigationForArcadeSolos();
-        }else if(type.compareTo("Arcade_Gangs") == 0){
-            this.title      = "Arcade_Gangs";
-            this.header     = "Arcade_Gangs";
-            this.cardList   = navDAO.pullNavigationForArcadeGangs();
         }else if(type.compareTo("Loot") == 0){
             this.title      = "Loot";
             this.header     = "Loot";
@@ -166,30 +142,6 @@ public class CardBean extends Bean{
             this.title      = "Warbands";
             this.header     = "Warbands";
             this.cardList   = navDAO.pullNavigationForWarbands(version);
-        }else if(type.compareTo("Arcade_Booty") == 0){
-            this.title      = "Arcade_Booty";
-            this.header     = "Arcade_Booty";
-            this.cardList   = navDAO.pullNavigationForArcadeBooty(version);
-        }else if(type.compareTo("Arcade_Bosses") == 0){
-            this.title      = "Arcade_Bosses";
-            this.header     = "Arcade_Bosses";
-            this.cardList   = navDAO.pullNavigationForArcadeBooty(version);
-        }else if(type.compareTo("Arcade_Creeps") == 0){
-            this.title      = "Arcade_Creeps";
-            this.header     = "Arcade_Creeps";
-            this.cardList   = navDAO.pullNavigationForArcadeBooty(version);
-        }else if(type.compareTo("Arcade_Minibosses") == 0){
-            this.title      = "Arcade_Minibosses";
-            this.header     = "Arcade_Minibosses";
-            this.cardList   = navDAO.pullNavigationForArcadeMinibosses(version);
-        }else if(type.compareTo("Arcade_Solos") == 0){
-            this.title      = "Arcade_Solos";
-            this.header     = "Arcade_Solos";
-            this.cardList   = navDAO.pullNavigationForArcadeSolos(version);
-        }else if(type.compareTo("Arcade_Gangs") == 0){
-            this.title      = "Arcade_Gangs";
-            this.header     = "Arcade_Gangs";
-            this.cardList   = navDAO.pullNavigationForArcadeGangs(version);
         }else if(type.compareTo("Loot") == 0){
             this.title      = "Loot";
             this.header     = "Loot";
@@ -234,6 +186,180 @@ public class CardBean extends Bean{
             this.title      = "Mighty_Monster_Cards";
             this.header     = "Mighty_Monster_Cards";
             this.cardList   = navDAO.pullNavigationForMightyMonsterCards(version);
+        }
+        
+        return "./Layout.xhtml";
+    }
+    
+    public String setDisplayPage(String type, String version, String playMode){
+        
+        if(type.compareTo("Heroes") == 0){
+            this.title      = "Heroes";
+            this.header     = "Heroes";
+            if(version.compareTo("FK") == 0 || version.compareTo("2.0") == 0 || version.compareTo("1.0") == 0){
+                this.cardList   = navDAO.pullNavigationForHeroes(version);
+            }else{
+                this.cardList   = navDAO.pullNavigationForHeroes();
+            }
+        }else if(type.compareTo("Bosses") == 0){
+            this.title      = "Bosses";
+            this.header     = "Bosses";
+            if(version.compareTo("FK") == 0 || version.compareTo("2.0") == 0){
+                this.cardList   = navDAO.pullNavigationForBosses(version, playMode);
+            }else if(version.compareTo("1.0") == 0){
+                this.cardList   = navDAO.pullNavigationForBosses(version);
+            }else{
+                this.cardList   = navDAO.pullNavigationForBosses();
+            }
+        }else if(type.compareTo("MiniBosses") == 0){
+            this.title      = "MiniBosses";
+            this.header     = "MiniBosses";
+            if(version.compareTo("FK") == 0 || version.compareTo("2.0") == 0){
+                this.cardList   = navDAO.pullNavigationForMiniBosses(version, playMode);
+            }else if(version.compareTo("1.0") == 0){
+                this.cardList   = navDAO.pullNavigationForMiniBosses(version);
+            }else{
+                this.cardList   = navDAO.pullNavigationForMiniBosses();
+            }
+        }else if(type.compareTo("Booty") == 0){
+            this.title      = "Booty";
+            this.header     = "Booty";
+            if(version.compareTo("FK") == 0 || version.compareTo("2.0") == 0){
+                this.cardList   = navDAO.pullNavigationForBooty(version, playMode);
+            }else if(version.compareTo("1.0") == 0){
+                this.cardList   = navDAO.pullNavigationForBooty(version);
+            }else if(version.compareTo("All") == 0){
+                this.cardList   = navDAO.pullNavigationForBooty(version, playMode);
+            }else{
+                this.cardList   = navDAO.pullNavigationForBooty();
+            }
+        }else if(type.compareTo("Pets") == 0){
+            this.title      = "Pets";
+            this.header     = "Pets";
+            if(version.compareTo("FK") == 0 || version.compareTo("2.0") == 0 || version.compareTo("1.0") == 0){
+                this.cardList   = navDAO.pullNavigationForPets(version);
+            }else{
+                this.cardList   = navDAO.pullNavigationForPets();
+            }
+        }else if(type.compareTo("Creeps") == 0){
+            this.title      = "Creeps";
+            this.header     = "Creeps";
+            if(version.compareTo("FK") == 0 || version.compareTo("2.0") == 0){
+                this.cardList   = navDAO.pullNavigationForCreeps(version, playMode);
+            }else if(version.compareTo("1.0") == 0){
+                this.cardList   = navDAO.pullNavigationForCreeps(version);
+            }else{
+                this.cardList   = navDAO.pullNavigationForCreeps();
+            }
+        }else if(type.compareTo("Warbands") == 0){
+            this.title      = "Warbands";
+            this.header     = "Warbands";
+            if(version.compareTo("FK") == 0 || version.compareTo("2.0") == 0){
+                this.cardList   = navDAO.pullNavigationForWarbands(version, playMode);
+            }else if(version.compareTo("1.0") == 0){
+                this.cardList   = navDAO.pullNavigationForWarbands(version);
+            }else{
+                this.cardList   = navDAO.pullNavigationForWarbands();
+            }
+        }else if(type.compareTo("Loot") == 0){
+            this.title      = "Loot";
+            this.header     = "Loot";
+            if(version.compareTo("FK") == 0 || version.compareTo("2.0") == 0 || version.compareTo("1.0") == 0){
+                this.cardList   = navDAO.pullNavigationForLoot(version);
+            }else{
+                this.cardList   = navDAO.pullNavigationForLoot();
+            }
+            
+        }else if(type.compareTo("Treasure") == 0){
+            this.title      = "Treasure";
+            this.header     = "Treasure";
+            if(version.compareTo("FK") == 0 || version.compareTo("2.0") == 0 || version.compareTo("1.0") == 0){
+                this.cardList   = navDAO.pullNavigationForTreasure(version);
+            }else{
+                this.cardList   = navDAO.pullNavigationForTreasure();
+            }
+            
+        }else if(type.compareTo("Relics") == 0){
+            this.title      = "Relics";
+            this.header     = "Relics";
+            if(version.compareTo("FK") == 0 || version.compareTo("2.0") == 0 || version.compareTo("1.0") == 0){
+                this.cardList   = navDAO.pullNavigationForRelics(version);
+            }else{
+                this.cardList   = navDAO.pullNavigationForRelics();
+            }
+            
+        }else if(type.compareTo("Boss_Spawns") == 0){
+            this.title      = "Boss_Spawns";
+            this.header     = "Boss_Spawns";
+            if(version.compareTo("FK") == 0 || version.compareTo("2.0") == 0 || version.compareTo("1.0") == 0){
+                this.cardList   = navDAO.pullNavigationForBossSpawns(version);
+            }else{
+                this.cardList   = navDAO.pullNavigationForBossSpawns();
+            }
+            
+        }else if(type.compareTo("Utility_Cards") == 0){
+            this.title      = "Utility_Cards";
+            this.header     = "Utility_Cards";
+            if(version.compareTo("FK") == 0 || version.compareTo("2.0") == 0 || version.compareTo("1.0") == 0){
+                this.cardList   = navDAO.pullNavigationForUtilities(version);
+            }else{
+                this.cardList   = navDAO.pullNavigationForUtilities();
+            }
+            
+        }else if(type.compareTo("Terrain_Cards") == 0){
+            this.title      = "Terrain_Cards";
+            this.header     = "Terrain_Cards";
+            if(version.compareTo("FK") == 0 || version.compareTo("2.0") == 0 || version.compareTo("1.0") == 0){
+                this.cardList   = navDAO.pullNavigationForTerrainCards(version);
+            }else{
+                this.cardList   = navDAO.pullNavigationForTerrainCards();
+            }
+            
+        }else if(type.compareTo("Arcade_Plot_Cards") == 0){
+            this.title      = "Arcade_Plot_Cards";
+            this.header     = "Arcade_Plot_Cards";
+            if(version.compareTo("FK") == 0 || version.compareTo("2.0") == 0 || version.compareTo("1.0") == 0){
+                this.cardList   = navDAO.pullNavigationForArcadePlotCards(version);
+            }else{
+                this.cardList   = navDAO.pullNavigationForArcadePlotCards();
+            }
+            
+        }else if(type.compareTo("Explore_Cards") == 0){
+            this.title      = "Explore_Cards";
+            this.header     = "Explore_Cards";
+            if(version.compareTo("FK") == 0 || version.compareTo("2.0") == 0 || version.compareTo("1.0") == 0){
+                this.cardList   = navDAO.pullNavigationForExploreCards(version);
+            }else{
+                this.cardList   = navDAO.pullNavigationForExploreCards();
+            }
+            
+        }else if(type.compareTo("Explore_Plot_Cards") == 0){
+            this.title      = "Explore_Plot_Cards";
+            this.header     = "Explore_Plot_Cards";
+            if(version.compareTo("FK") == 0 || version.compareTo("2.0") == 0 || version.compareTo("1.0") == 0){
+                this.cardList   = navDAO.pullNavigationForExplorePlotCards(version);
+            }else{
+                this.cardList   = navDAO.pullNavigationForExplorePlotCards();
+            }
+            
+        }else if(type.compareTo("Challenge_Cards") == 0){
+            this.title      = "Challenge_Cards";
+            this.header     = "Challenge_Cards";
+            if(version.compareTo("FK") == 0 || version.compareTo("2.0") == 0 || version.compareTo("1.0") == 0){
+                this.cardList   = navDAO.pullNavigationForChallengeCards(version);
+            }else{
+                this.cardList   = navDAO.pullNavigationForChallengeCards();
+            }
+            
+        }else if(type.compareTo("Mighty_Monster_Cards") == 0){
+            this.title      = "Mighty_Monster_Cards";
+            this.header     = "Mighty_Monster_Cards";
+            if(version.compareTo("FK") == 0 || version.compareTo("2.0") == 0 || version.compareTo("1.0") == 0){
+                this.cardList   = navDAO.pullNavigationForMightyMonsterCards(version);
+            }else{
+                this.cardList   = navDAO.pullNavigationForMightyMonsterCards();
+            }
+            
         }
         
         return "./Layout.xhtml";
