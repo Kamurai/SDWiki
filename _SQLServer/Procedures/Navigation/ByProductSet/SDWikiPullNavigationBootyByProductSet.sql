@@ -5,7 +5,7 @@ create PROCEDURE SDWikiPullNavigationBootyByProductSet(
 )
 AS
 BEGIN
-	select Name as CardName, ProductSet, Link, PictureFront
+	select CardName, ProductSet, Link, PictureFront
 	from DualBootyView
 	where ProductSet = @strVersion
 	Order By CardName asc

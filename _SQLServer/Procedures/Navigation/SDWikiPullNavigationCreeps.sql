@@ -1,6 +1,6 @@
---drop PROCEDURE SDWikiPullNavigationBooty;
+--drop PROCEDURE SDWikiPullNavigationCreeps;
 
-create PROCEDURE SDWikiPullNavigationBooty
+create PROCEDURE SDWikiPullNavigationCreeps
 AS
 BEGIN
 	select CardName, ProductSet, PlayMode, Link, PictureFront

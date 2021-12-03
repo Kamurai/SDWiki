@@ -1,12 +1,12 @@
---drop PROCEDURE SDWikiPullNavigationBootyByPlayMode;
+--drop PROCEDURE SDWikiPullNavigationBossesByPlayMode;
 
-create PROCEDURE SDWikiPullNavigationBootyByPlayMode(
+create PROCEDURE SDWikiPullNavigationBossesByPlayMode(
 	@strMode varChar(7)
 )
 AS
 BEGIN
 	select CardName, ProductSet, Link, PictureFront
-	from DualBootyView
+	from DualBossesView
 	where PlayMode = @strMode
 	Order By CardName asc
 	;
