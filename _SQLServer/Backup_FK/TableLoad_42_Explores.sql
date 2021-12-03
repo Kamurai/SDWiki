@@ -4,7 +4,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Generic/Card_Explore_Armory_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Explore/Armory.xhtml', 
-'Warband', 'FK', 'FK Core Set', 'Default', 
+'Explore Card', 'FK', 'FK Core Set', 'Default', 
 '');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (667, 'After the spawning point is destroyed, you may draw one loot card per Hero.');
 insert into Explores (UtilityIndex) VALUES (18);
@@ -16,7 +16,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Generic/Card_Explore_Blue_Button_Stuck_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Explore/Blue_Button_Stuck.xhtml', 
-'Warband', 'FK', 'FK Core Set', 'Default', 
+'Explore Card', 'FK', 'FK Core Set', 'Default', 
 'I need a new controller.');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (668, 'Models may not use unique support actions.');
 insert into Explores (UtilityIndex) VALUES (19);
@@ -28,7 +28,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Generic/Card_Explore_Choking_Cloud_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Explore/Choking_Cloud.xhtml', 
-'Warband', 'FK', 'FK Core Set', 'Default', 
+'Explore Card', 'FK', 'FK Core Set', 'Default', 
 '');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (669, '');
 insert into Explores (UtilityIndex) VALUES (20);
@@ -41,7 +41,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Generic/Card_Explore_Creep_Factory_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Explore/Creep_Factory.xhtml', 
-'Warband', 'FK', 'FK Core Set', 'Default', 
+'Explore Card', 'FK', 'FK Core Set', 'Default', 
 'Ooooh, they''re so cute - ouch!  It bit me!');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (670, '');
 insert into Explores (UtilityIndex) VALUES (21);
@@ -53,7 +53,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Generic/Card_Explore_Grasping_Tentacles_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Explore/Grasping_Tentacles_Cloud.xhtml', 
-'Warband', 'FK', 'FK Core Set', 'Default', 
+'Explore Card', 'FK', 'FK Core Set', 'Default', 
 '');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (671, '');
 insert into Explores (UtilityIndex) VALUES (22);
@@ -66,7 +66,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Generic/Card_Explore_Jammed_Coin_Slot_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Explore/Jammed_Coin_Slot.xhtml', 
-'Warband', 'FK', 'FK Core Set', 'Default', 
+'Explore Card', 'FK', 'FK Core Set', 'Default', 
 'Please don''t die.');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (672, 'While any Hero is in this tile Princess Coins may not be used.');
 insert into Explores (UtilityIndex) VALUES (23);
@@ -78,7 +78,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Generic/Card_Explore_Locked_Doors_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Explore/Locked_Doors.xhtml', 
-'Warband', 'FK', 'FK Core Set', 'Default', 
+'Explore Card', 'FK', 'FK Core Set', 'Default', 
 '');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (674, 'Heroes who enter this tile may not leave it until the party spends 1 dungeon key to unlock the doors.');
 insert into Explores (UtilityIndex) VALUES (24);
@@ -90,7 +90,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Generic/Card_Explore_Pathing_Error_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Explore/Pathing_Error.xhtml', 
-'Warband', 'FK', 'FK Core Set', 'Default', 
+'Explore Card', 'FK', 'FK Core Set', 'Default', 
 '');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (674, 'All models may move through walls. Line of sight is blocked as normal.');
 insert into Explores (UtilityIndex) VALUES (25);
@@ -102,7 +102,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Generic/Card_Explore_Potion_Stash_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Explore/Potion_Stash.xhtml', 
-'Warband', 'FK', 'FK Core Set', 'Default', 
+'Explore Card', 'FK', 'FK Core Set', 'Default', 
 '');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (675, 'Place 4 potion tokens in the corner squares adjacent to the spawning point. Heroes may use the Pick Up basic action to add them to their card.');
 insert into Explores (UtilityIndex) VALUES (26);
@@ -114,7 +114,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Generic/Card_Explore_Red_Button_Stuck_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Explore/Red_Button_Stuck.xhtml', 
-'Warband', 'FK', 'FK Core Set', 'Default', 
+'Explore Card', 'FK', 'FK Core Set', 'Default', 
 'Oh no, not during the Boss Fight!');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (676, 'Models may not use unique offensive actions.');
 insert into Explores (UtilityIndex) VALUES (27);
@@ -126,7 +126,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Generic/Card_Explore_Save_Point_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Explore/Save_Point.xhtml', 
-'Warband', 'FK', 'FK Core Set', 'Default', 
+'Explore Card', 'FK', 'FK Core Set', 'Default', 
 '');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (677, 'After the spawning point is destroyed Heroes may remove all status effects.');
 insert into Explores (UtilityIndex) VALUES (28);
@@ -138,7 +138,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Generic/Card_Explore_Secret_Code_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Explore/Secret_Code.xhtml', 
-'Warband', 'FK', 'FK Core Set', 'Default', 
+'Explore Card', 'FK', 'FK Core Set', 'Default', 
 '');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (678, 'Add one Princess Coin to the party''s backpack.');
 insert into Explores (UtilityIndex) VALUES (29);
@@ -150,7 +150,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Generic/Card_Explore_Spiked_Floor_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Explore/Spiked_Floor.xhtml', 
-'Warband', 'FK', 'FK Core Set', 'Default', 
+'Explore Card', 'FK', 'FK Core Set', 'Default', 
 'That''s gotta hurt.');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (679, '');
 insert into Explores (UtilityIndex) VALUES (30);
@@ -163,7 +163,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Generic/Card_Explore_Traveling_Merchant_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Explore/Traveling_Merchant.xhtml', 
-'Warband', 'FK', 'FK Core Set', 'Default', 
+'Explore Card', 'FK', 'FK Core Set', 'Default', 
 '');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (680, 'The Heroes may discard up to three pieces of loot, then draw the same number of loot cards.');
 insert into Explores (UtilityIndex) VALUES (31);
@@ -175,7 +175,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Generic/Card_Explore_Treasure_Vault_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Explore/Treasure_Vault.xhtml', 
-'Warband', 'FK', 'FK Core Set', 'Default', 
+'Explore Card', 'FK', 'FK Core Set', 'Default', 
 'Jackpot!');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (681, 'After the mini-boss is spawned and destroyed, instead of drawing a single treasure card, the party may draw one per Hero.');
 insert into Explores (UtilityIndex) VALUES (32);
@@ -187,7 +187,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Generic/Card_Explore_Turbo_Button_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Explore/Turbo_Button.xhtml', 
-'Warband', 'FK', 'FK Core Set', 'Default', 
+'Explore Card', 'FK', 'FK Core Set', 'Default', 
 '');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (682, 'While in this tile a Hero gains +1AC and +1MO.');
 insert into Explores (UtilityIndex) VALUES (33);
@@ -199,7 +199,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Generic/Card_Explore_Wall_of_Fire_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Explore/Wall_of_Fire.xhtml', 
-'Warband', 'FK', 'FK Core Set', 'Default', 
+'Explore Card', 'FK', 'FK Core Set', 'Default', 
 '');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (683, '');
 insert into Explores (UtilityIndex) VALUES (34);
@@ -212,7 +212,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Specific/Beatrix_the_Witch_Queen/Card_Explore_Antidote_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Explore/Antidote.xhtml', 
-'Warband', 'FK', 'FK Core Set', 'Default', 
+'Explore Card', 'FK', 'FK Core Set', 'Default', 
 'Blue ones are good right?');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (684, 'Place card in the backpack.  The party may discard this card at any time to remove one status effect token from every friendly model.');
 insert into Explores (UtilityIndex) VALUES (35);
@@ -226,7 +226,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Specific/Beatrix_the_Witch_Queen/Card_Explore_Broken-Harpsichord_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Explore/Broken_Harpsichord.xhtml', 
-'Warband', 'FK', 'FK Core Set', 'Default', 
+'Explore Card', 'FK', 'FK Core Set', 'Default', 
 'The music is really creepy.');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (685, 'All Heroes suffer slow.');
 insert into Explores (UtilityIndex) VALUES (36);
@@ -240,7 +240,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Specific/Beatrix_the_Witch_Queen/Card_Explore_Bubbling_Cauldron_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Explore/Bubbling_Cauldron.xhtml', 
-'Warband', 'FK', 'FK Core Set', 'Default', 
+'Explore Card', 'FK', 'FK Core Set', 'Default', 
 'Don''t drink that!');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (686, '3ST, 2x2');
 insert into Explores (UtilityIndex) VALUES (37);
@@ -255,7 +255,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Specific/Beatrix_the_Witch_Queen/Card_Explore_Glitched_Doorway_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Explore/Glitched_Doorway.xhtml', 
-'Warband', 'FK', 'FK Core Set', 'Default', 
+'Explore Card', 'FK', 'FK Core Set', 'Default', 
 'I don''t think this wall is real.');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (687, 'Models may move through walls on this tile''s edge.  Line of sight is blocked as normal.');
 insert into Explores (UtilityIndex) VALUES (38);
@@ -269,7 +269,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Specific/Beatrix_the_Witch_Queen/Card_Explore_Grave_robbers_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Explore/Grave_Robbers.xhtml', 
-'Warband', 'FK', 'FK Core Set', 'Default', 
+'Explore Card', 'FK', 'FK Core Set', 'Default', 
 'Should we be doing this?');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (688, 'A Hero may draw up to four loot cards during their turn.');
 insert into Explores (UtilityIndex) VALUES (39);
@@ -283,7 +283,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Specific/Beatrix_the_Witch_Queen/Card_Explore_Pumpkin_Mines_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Explore/Pumpkin_Mines.xhtml', 
-'Warband', 'FK', 'FK Core Set', 'Default', 
+'Explore Card', 'FK', 'FK Core Set', 'Default', 
 'Watch your step.');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (689, '1St, 2x2');
 insert into Explores (UtilityIndex) VALUES (40);
@@ -298,7 +298,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Specific/Beatrix_the_Witch_Queen/Card_Explore_Pumpkin_Pie_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Explore/Pumpkin_Pie.xhtml', 
-'Warband', 'FK', 'FK Core Set', 'Default', 
+'Explore Card', 'FK', 'FK Core Set', 'Default', 
 'Best gnome invention ever!');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (690, 'Place card in the backpack.  The party may discard this card at any time to remove one wound token from every friendly model.');
 insert into Explores (UtilityIndex) VALUES (41);
@@ -312,7 +312,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Specific/Forgotten_King_The/Card_Explore_Bramble_Wall_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Explore/Bramble_Wall.xhtml', 
-'Warband', 'FK', 'FK Core Set', 'Default', 
+'Explore Card', 'FK', 'FK Core Set', 'Default', 
 'Do you see a way around?');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (691, '2ST, 1x4');
 insert into Explores (UtilityIndex) VALUES (42);
@@ -327,7 +327,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Specific/Forgotten_King_The/Card_Explore_Corrupted_Tree_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Explore/Corrupted_Tree.xhtml', 
-'Warband', 'FK', 'FK Core Set', 'Default', 
+'Explore Card', 'FK', 'FK Core Set', 'Default', 
 'I think that tree just moved.');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (692, '3ST, 2x2');
 insert into Explores (UtilityIndex) VALUES (43);
@@ -342,7 +342,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Specific/Forgotten_King_The/Card_Explore_Dancing_Light_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Explore/Dancing_Light.xhtml', 
-'Warband', 'FK', 'FK Core Set', 'Default', 
+'Explore Card', 'FK', 'FK Core Set', 'Default', 
 '');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (693, '0ST, 2x2, Heroes must always end their activation closer to a Dancing Light template than they began.  If a Hero ends their activation adjacent to a Dancingt Light template remove the template from play.');
 insert into Explores (UtilityIndex) VALUES (44);
@@ -356,7 +356,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Specific/Forgotten_King_The/Card_Explore_Faerie_Pool_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Explore/Faerie_Pool.xhtml', 
-'Warband', 'FK', 'FK Core Set', 'Default', 
+'Explore Card', 'FK', 'FK Core Set', 'Default', 
 'You caught a faerie!');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (694, 'After the spawning point is destroyed all Heroes remove one wound token.');
 insert into Explores (UtilityIndex) VALUES (45);
@@ -370,7 +370,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Specific/Forgotten_King_The/Card_Explore_Friendly_Chimera_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Explore/Friendly_Chimera.xhtml', 
-'Warband', 'FK', 'FK Core Set', 'Default', 
+'Explore Card', 'FK', 'FK Core Set', 'Default', 
 'They''re so adorable!');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (695, 'Hero players choose, spawn, and control all creep models on this tile, instead of the Consul.  Creeps may be activated during the Hero Turn in addition to any other models.');
 insert into Explores (UtilityIndex) VALUES (46);
@@ -384,7 +384,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Specific/Forgotten_King_The/Card_Explore_Gypsy_Princess_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Explore/Gypsy_Princess.xhtml', 
-'Warband', 'FK', 'FK Core Set', 'Default', 
+'Explore Card', 'FK', 'FK Core Set', 'Default', 
 'Why hello there.');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (696, 'Human, Freyjan, and Demon Heroes add +1ST to all offense rolls.');
 insert into Explores (UtilityIndex) VALUES (47);
@@ -398,7 +398,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Specific/Forgotten_King_The/Card_Explore_Lost_Unicorn_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Explore/Lost_Unicorn.xhtml', 
-'Warband', 'FK', 'FK Core Set', 'Default', 
+'Explore Card', 'FK', 'FK Core Set', 'Default', 
 'So I like unicorns...');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (697, 'Elf, Celestian, Dwarf, and Gnome Heroes add +1ST to all defense rolls.');
 insert into Explores (UtilityIndex) VALUES (48);
@@ -412,7 +412,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Specific/Forgotten_King_The/Card_Explore_Mistmourn_Fog_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Explore/Mistmourn_Fog.xhtml', 
-'Warband', 'FK', 'FK Core Set', 'Default', 
+'Explore Card', 'FK', 'FK Core Set', 'Default', 
 'Can any of you see anything?');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (698, 'All ranges are reduced by 3 to a minimum of 1.');
 insert into Explores (UtilityIndex) VALUES (49);
@@ -426,7 +426,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Specific/Goro/Card_Explore_Berry_Patch_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Explore/Berry_Patch.xhtml', 
-'Warband', 'FK', 'FK Core Set', 'Default', 
+'Explore Card', 'FK', 'FK Core Set', 'Default', 
 'Don''t eat those.');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (699, '1ST, 2x2');
 insert into Explores (UtilityIndex) VALUES (50);
@@ -441,7 +441,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Specific/Goro/Card_Explore_Campfire_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Explore/Campfire.xhtml', 
-'Warband', 'FK', 'FK Core Set', 'Default', 
+'Explore Card', 'FK', 'FK Core Set', 'Default', 
 'They''re scared of the flame.');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (700, 'Heroes gain the ability FIRE.');
 insert into Explores (UtilityIndex) VALUES (51);
@@ -455,7 +455,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Specific/Goro/Card_Explore_Dirty_Bison_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Explore/Dirty_Bison.xhtml', 
-'Warband', 'FK', 'FK Core Set', 'Default', 
+'Explore Card', 'FK', 'FK Core Set', 'Default', 
 'After a nice bath, you found a pet!');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (701, 'Add one pet, of the Heroes'' choice, to the backpack.  If its card is in the treasure deck remove it and reshuffle the deck.');
 insert into Explores (UtilityIndex) VALUES (52);
@@ -469,7 +469,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Specific/Goro/Card_Explore_Downpour_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Explore/Downpour.xhtml', 
-'Warband', 'FK', 'FK Core Set', 'Default', 
+'Explore Card', 'FK', 'FK Core Set', 'Default', 
 'Hurry and we won''t get wet!');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (702, 'All models gain IMMUNE: FIRE and +2MO.');
 insert into Explores (UtilityIndex) VALUES (53);
@@ -483,7 +483,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Specific/Goro/Card_Explore_Faery_Queen_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Explore/Faery_Queen.xhtml', 
-'Warband', 'FK', 'FK Core Set', 'Default', 
+'Explore Card', 'FK', 'FK Core Set', 'Default', 
 'Ah-hah-hah-ha!');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (703, 'All Heroes roll 1B for every wound token on their model.  Remove one wound token for every star rolled.');
 insert into Explores (UtilityIndex) VALUES (54);
@@ -497,7 +497,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Specific/Goro/Card_Explore_Giant_Centipede_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Explore/Giant_Centipede.xhtml', 
-'Warband', 'FK', 'FK Core Set', 'Default', 
+'Explore Card', 'FK', 'FK Core Set', 'Default', 
 '');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (704, '4ST, 1x4');
 insert into Explores (UtilityIndex) VALUES (55);
@@ -512,7 +512,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Specific/Goro/Card_Explore_Howling_Wind_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Explore/Howling_Wind.xhtml', 
-'Warband', 'FK', 'FK Core Set', 'Default', 
+'Explore Card', 'FK', 'FK Core Set', 'Default', 
 'I can''t hear you!');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (705, 'Players controlling Heroes in this tile may not speak to other players while their model remains in the tile.');
 insert into Explores (UtilityIndex) VALUES (56);
@@ -526,7 +526,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Specific/Goro/Card_Explore_Respec_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Explore/Respec.xhtml', 
-'Warband', 'FK', 'FK Core Set', 'Default', 
+'Explore Card', 'FK', 'FK Core Set', 'Default', 
 'Lets try this again.');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (706, 'Remove all equipment from all Heroes and discard it.  Heroes may immediately equip any equipment from the loot or treasure discard piles.');
 insert into Explores (UtilityIndex) VALUES (57);
@@ -540,7 +540,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Specific/Roxor/Card_Explore_1_Up_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Explore/1_Up.xhtml', 
-'Warband', 'FK', 'FK Core Set', 'Default', 
+'Explore Card', 'FK', 'FK Core Set', 'Default', 
 'Save this for later.');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (707, 'Add one Princess Coin to the party''s backpack.');
 insert into Explores (UtilityIndex) VALUES (58);
@@ -557,7 +557,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Specific/Roxor/Card_Explore_Dusty_Cartridge_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Explore/Dusty_Cartridge.xhtml', 
-'Warband', 'FK', 'FK Core Set', 'Default', 
+'Explore Card', 'FK', 'FK Core Set', 'Default', 
 'Blow on it.');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (708, 'Choose one Hero.  All monsters within 3 squares suffer KNOCKDOWN.');
 insert into Explores (UtilityIndex) VALUES (59);
@@ -574,7 +574,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Specific/Roxor/Card_Explore_Fire_Flowers_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Explore/Fire_Flowers.xhtml', 
-'Warband', 'FK', 'FK Core Set', 'Default', 
+'Explore Card', 'FK', 'FK Core Set', 'Default', 
 'Danger.  Do not sniff the flowers.');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (709, '1ST, 2x2');
 insert into Explores (UtilityIndex) VALUES (60);
@@ -592,7 +592,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Specific/Roxor/Card_Explore_Funny_Costumes_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Explore/Funny_Costumes.xhtml', 
-'Warband', 'FK', 'FK Core Set', 'Default', 
+'Explore Card', 'FK', 'FK Core Set', 'Default', 
 'You look adorable.');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (710, 'When a Hero enters this tile they may draw one treasure card.  They may use the treasure card exactly as if it were equipped.  Discard the card after leaving the tile.');
 insert into Explores (UtilityIndex) VALUES (61);
@@ -609,7 +609,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Specific/Roxor/Card_Explore_Heroic_Princess_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Explore/Heroic_Princess.xhtml', 
-'Warband', 'FK', 'FK Core Set', 'Default', 
+'Explore Card', 'FK', 'FK Core Set', 'Default', 
 'Well done princess!');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (711, 'After destroying this tile''s mini-boss add one Princess Coin to the party''s backpack.');
 insert into Explores (UtilityIndex) VALUES (62);
@@ -626,7 +626,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Specific/Roxor/Card_Explore_Pixelated_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Explore/Pixelated.xhtml', 
-'Warband', 'FK', 'FK Core Set', 'Default', 
+'Explore Card', 'FK', 'FK Core Set', 'Default', 
 'Go straight, please.');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (712, 'Heroes cannot move diagonally.');
 insert into Explores (UtilityIndex) VALUES (63);
@@ -643,7 +643,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Specific/Roxor/Card_Explore_Pow_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Explore/Pow.xhtml', 
-'Warband', 'FK', 'FK Core Set', 'Default', 
+'Explore Card', 'FK', 'FK Core Set', 'Default', 
 'Right in the kisser!');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (713, '3ST. 2x2');
 insert into Explores (UtilityIndex) VALUES (64);
@@ -661,7 +661,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Specific/Roxor/Card_Explore_Stone_Wall_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Explore/Stone_Wall.xhtml', 
-'Warband', 'FK', 'FK Core Set', 'Default', 
+'Explore Card', 'FK', 'FK Core Set', 'Default', 
 'It''s solid rock.');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (714, '5ST, 1x4, Models may not move or draw line of sight through Stone Wall template.  When Stone Wall is triggered its effect continues until disarmed.');
 insert into Explores (UtilityIndex) VALUES (65);
@@ -678,7 +678,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Specific/Starfire/Card_Explore_Burglars_Ring_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Explore/Burglars_Ring.xhtml', 
-'Warband', 'FK', 'FK Core Set', 'Default', 
+'Explore Card', 'FK', 'FK Core Set', 'Default', 
 'Can''t see me.');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (715, 'Choose one Hero.  An enemy model may only target that Hero if it is within 1 square of the model.');
 insert into Explores (UtilityIndex) VALUES (66);
@@ -694,7 +694,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Specific/Starfire/Card_Explore_Dragon_Pot_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Explore/Dragon_Pot.xhtml', 
-'Warband', 'FK', 'FK Core Set', 'Default', 
+'Explore Card', 'FK', 'FK Core Set', 'Default', 
 'Smells of sulfur.');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (716, '2ST, 2x2');
 insert into Explores (UtilityIndex) VALUES (67);
@@ -711,7 +711,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Specific/Starfire/Card_Explore_Dwarven_Ale_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Explore/Dwarven_Ale.xhtml', 
-'Warband', 'FK', 'FK Core Set', 'Default', 
+'Explore Card', 'FK', 'FK Core Set', 'Default', 
 'That''s a good brew!');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (717, 'When the spawning point is destroyed, all Heroes remove all wound tokens, and then suffer POISON.');
 insert into Explores (UtilityIndex) VALUES (68);
@@ -727,7 +727,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Specific/Starfire/Card_Explore_Kidnapped_Villager_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Explore/Kidnapped_Villager.xhtml', 
-'Warband', 'FK', 'FK Core Set', 'Default', 
+'Explore Card', 'FK', 'FK Core Set', 'Default', 
 'You deserve a reward!');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (718, 'When the mini-boss is destroyed, draw one additional treasure card.');
 insert into Explores (UtilityIndex) VALUES (69);
@@ -743,7 +743,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Specific/Starfire/Card_Explore_Molten_Steel_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Explore/Molten_Steel.xhtml', 
-'Warband', 'FK', 'FK Core Set', 'Default', 
+'Explore Card', 'FK', 'FK Core Set', 'Default', 
 'My sword is bendy.');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (719, '2ST, 1x4');
 insert into Explores (UtilityIndex) VALUES (70);
@@ -760,7 +760,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Specific/Starfire/Card_Explore_Mountain_of_Gold_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Explore/Mountain_of_Gold.xhtml', 
-'Warband', 'FK', 'FK Core Set', 'Default', 
+'Explore Card', 'FK', 'FK Core Set', 'Default', 
 'So tall.');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (720, 'Until the spawning point is destroyed all models halve their movement, rounding up.  This effect does not stack with SLOW.');
 insert into Explores (UtilityIndex) VALUES (71);
@@ -776,7 +776,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Specific/Starfire/Card_Explore_New_Player_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Explore/New_Player.xhtml', 
-'Warband', 'FK', 'FK Core Set', 'Default', 
+'Explore Card', 'FK', 'FK Core Set', 'Default', 
 'Anyone know who this is?');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (721, 'Choose one Hero that is not being played and place it in the tile.  It may be activated once during any Hero''s Turn.  Then remove it from play.');
 insert into Explores (UtilityIndex) VALUES (72);
@@ -792,7 +792,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Specific/Starfire/Card_Explore_Sacrificial_Altar_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Explore/Sacrificial_Altar.xhtml', 
-'Warband', 'FK', 'FK Core Set', 'Default', 
+'Explore Card', 'FK', 'FK Core Set', 'Default', 
 'Give to the Dragon.');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (722, 'Choose one Hero.  An enemy model may only target that Hero if it is within 1 square of the model.');
 insert into Explores (UtilityIndex) VALUES (73);
@@ -809,7 +809,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Specific/Testudo_Tower/Card_Explore_Abandoned_Mine_Shaft_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Explore/Abandoned_Mine_Shaft.xhtml', 
-'Warband', 'FK', 'FK Core Set', 'Default', 
+'Explore Card', 'FK', 'FK Core Set', 'Default', 
 'Ahhhhhh!!!');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (723, '2ST, 2x2, Place affected Heroes adjacent to the start marker.  Place affected monsters adjacent to the nearest spawning point.');
 insert into Explores (UtilityIndex) VALUES (74);
@@ -823,7 +823,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Specific/Testudo_Tower/Card_Explore_Bomb_Flower_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Explore/Bomb_Flower.xhtml', 
-'Warband', 'FK', 'FK Core Set', 'Default', 
+'Explore Card', 'FK', 'FK Core Set', 'Default', 
 'Careful where you throw that!');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (724, 'Discard during a Hero''s activation to perform the action:');
 insert into Explores (UtilityIndex) VALUES (75);
@@ -838,7 +838,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Specific/Testudo_Tower/Card_Explore_Bumper_Shells_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Explore/Bumper_Shells.xhtml', 
-'Warband', 'FK', 'FK Core Set', 'Default', 
+'Explore Card', 'FK', 'FK Core Set', 'Default', 
 'If I can just get the right angle...');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (725, '1ST, 2x2, When a model is affected by Bumper Shells, its player may move the model 3 squares using the rules for push.');
 insert into Explores (UtilityIndex) VALUES (76);
@@ -852,7 +852,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Specific/Testudo_Tower/Card_Explore_Handy_Tunnel_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Explore/Handy_Tunnel.xhtml', 
-'Warband', 'FK', 'FK Core Set', 'Default', 
+'Explore Card', 'FK', 'FK Core Set', 'Default', 
 'I think it''s safe.');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (720, 'Discard during a Hero''s upkeep.  The Hero may move through walls, and treats difficult terrain and structure squares as open squares until the end of its activation.');
 insert into Explores (UtilityIndex) VALUES (77);
@@ -866,7 +866,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Specific/Testudo_Tower/Card_Explore_Shell_Up_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Explore/Shell_Up.xhtml', 
-'Warband', 'FK', 'FK Core Set', 'Default', 
+'Explore Card', 'FK', 'FK Core Set', 'Default', 
 'Turtle power!');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (727, 'Discard before making a defense roll to add +1R to the roll.');
 insert into Explores (UtilityIndex) VALUES (78);
@@ -880,7 +880,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Specific/Testudo_Tower/Card_Explore_Testudo_Formation_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Explore/Testudo_Formation.xhtml', 
-'Warband', 'FK', 'FK Core Set', 'Default', 
+'Explore Card', 'FK', 'FK Core Set', 'Default', 
 'Form on me.');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (728, 'Discard during a Hero''s upkeep.  Remove all status effect tokens from the Hero, and all adjacent Heroes.');
 insert into Explores (UtilityIndex) VALUES (79);
@@ -894,7 +894,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Specific/Von_Drakk/Card_Explore_Bone_Rot_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Explore/Bone_Rot.xhtml', 
-'Warband', 'FK', 'FK Core Set', 'Default', 
+'Explore Card', 'FK', 'FK Core Set', 'Default', 
 'I don''t feel good.');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (729, '2ST, 2x2');
 insert into Explores (UtilityIndex) VALUES (80);
@@ -911,7 +911,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Specific/Von_Drakk/Card_Explore_Cackling_Laughter_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Explore/Cackling_Laughter.xhtml', 
-'Warband', 'FK', 'FK Core Set', 'Default', 
+'Explore Card', 'FK', 'FK Core Set', 'Default', 
 'That''s just creepy.');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (730, 'Players who cackle maniacally when making offense rolls may add +1B to the roll.');
 insert into Explores (UtilityIndex) VALUES (81);
@@ -927,7 +927,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Specific/Von_Drakk/Card_Explore_Ghost_Well_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Explore/Ghost_Well.xhtml', 
-'Warband', 'FK', 'FK Core Set', 'Default', 
+'Explore Card', 'FK', 'FK Core Set', 'Default', 
 'I''m see-through!');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (731, 'All models ignore walls and structures for purposes of line of sight and movement.');
 insert into Explores (UtilityIndex) VALUES (82);
@@ -943,7 +943,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Specific/Von_Drakk/Card_Explore_Hidden_Lever_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Explore/Hidden_Lever.xhtml', 
-'Warband', 'FK', 'FK Core Set', 'Default', 
+'Explore Card', 'FK', 'FK Core Set', 'Default', 
 'What do you think this does?');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (732, 'Rotate the tile 90 degrees clockwise.');
 insert into Explores (UtilityIndex) VALUES (83);
@@ -959,7 +959,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Specific/Von_Drakk/Card_Explore_Secret_Passage_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Explore/Secret_Passage.xhtml', 
-'Warband', 'FK', 'FK Core Set', 'Default', 
+'Explore Card', 'FK', 'FK Core Set', 'Default', 
 'It''s dark - you go first.');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (733, 'Heroes place one token in a square on this tile and one in any other tile.  These squares count as Secret Passage Tile Effects for the rest of game.');
 insert into Explores (UtilityIndex) VALUES (84);
@@ -975,7 +975,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Specific/Von_Drakk/Card_Explore_Sore_Thumbs_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Explore/Sore_Thumbs.xhtml', 
-'Warband', 'FK', 'FK Core Set', 'Default', 
+'Explore Card', 'FK', 'FK Core Set', 'Default', 
 'Take a break.');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (734, 'No models may use unique actions.');
 insert into Explores (UtilityIndex) VALUES (85);
@@ -991,7 +991,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Specific/Von_Drakk/Card_Explore_Soul_Spike_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Explore/Soul_Spike.xhtml', 
-'Warband', 'FK', 'FK Core Set', 'Default', 
+'Explore Card', 'FK', 'FK Core Set', 'Default', 
 'Is it supposed to glow like that?');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (735, 'Spawning Point gains Backlash.  (If a model with Backlash exceeds an offense roll with their defense roll the attacker takes one wound.)');
 insert into Explores (UtilityIndex) VALUES (86);
@@ -1007,7 +1007,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Specific/Von_Drakk/Card_Explore_Webs_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Explore/Webs.xhtml', 
-'Warband', 'FK', 'FK Core Set', 'Default', 
+'Explore Card', 'FK', 'FK Core Set', 'Default', 
 'I can''t get them off.');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (736, '1ST, 2x2');
 insert into Explores (UtilityIndex) VALUES (87);

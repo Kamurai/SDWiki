@@ -1,9 +1,9 @@
 --FK MiniBoss
 --Bashful Boris (Beta) --CardIndex 234	--CharacterIndex 147	--ExploreCharacterIndex 147
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Bashful Boris (Beta)',
-'http://htkb.info/SDE/FK/Cards/MiniBosses/Card_MiniBoss_Bashful_Boris_Beta_FK.png', 
-'http://htkb.info/SDE/FK/Cards/MiniBosses/Card_MiniBoss_Bashful_Boris_Beta_FK_back.png', 
-'http://htkb.online/SDWiki/SDE/FK/Cards/MiniBosses/Bashful_Boris_Beta.xhtml', 
+'http://htkb.info/SDE/FK/Cards/MiniBosses/Card_MiniBoss_Bashful_Boris_beta_FK.png', 
+'http://htkb.info/SDE/FK/Cards/MiniBosses/Card_MiniBoss_Bashful_Boris_beta_FK_back.png', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/MiniBosses/Bashful_Boris_beta.xhtml', 
 'MiniBoss', 'FK', 'FK Core Set', 'Explore',
 'When human, Boris was a large and gentle lad.  During The Forgotten King''s rebellion Boris lept at the chance to prove himself to his noble lord, only to quickly turn timid and fearful when faced with the reality of war.');
 insert into Characters (CardIndex) VALUES (234);
@@ -476,9 +476,9 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (169
 
 --Trent (Beta) --CardIndex 257 --CharacterIndex 170 --ExploreCharacterIndex 170
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Trent (Beta)',
-'http://htkb.info/SDE/FK/Cards/MiniBosses/Card_MiniBoss_Trent_Beta_FK.png', 
-'http://htkb.info/SDE/FK/Cards/MiniBosses/Card_MiniBoss_Trent_Beta_FK_back.png', 
-'http://htkb.online/SDWiki/SDE/FK/Cards/MiniBosses/Trent_Beta.xhtml', 
+'http://htkb.info/SDE/FK/Cards/MiniBosses/Card_MiniBoss_Trent_beta_FK.png', 
+'http://htkb.info/SDE/FK/Cards/MiniBosses/Card_MiniBoss_Trent_beta_FK_back.png', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/MiniBosses/Trent_beta.xhtml', 
 'MiniBoss', 'FK', 'FK Core Set', 'Explore',
 'Young by treant standards Trent was always a bad seed.  Rooted in the faery-haunted Mistmourn Coast, he was always cranky and inclined to distrust.  Even so, Trent was slow to anger as the mischievous fae lurking in the mists would tease and taunt him.<br>After several centuries the young treant could stand it no longer, uprooting and wreaking vengeance upon the playful fae.  Once his fury was unleashed it was as long-lived as the Fae Wood itself.  In the end, it was remarkably');
 insert into Characters (CardIndex) VALUES (257);
