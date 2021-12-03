@@ -124,7 +124,7 @@ public class SDEDAONavigation extends DAO{
         return result;
     }
     
-    public ArrayList<SDE.NavItem> pullNavigationForBooty(String version){
+    public ArrayList<SDE.NavItem> pullNavigationForBootyByProductSet(String version){
         CallableStatement stmt = null;
         ResultSet rs;
         ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
@@ -146,7 +146,7 @@ public class SDEDAONavigation extends DAO{
         return result;
     }
     
-    public ArrayList<SDE.NavItem> pullNavigationForBooty(String version, String playMode){
+    public ArrayList<SDE.NavItem> pullNavigationForBootyAllOrByProductSet(String version, String playMode){
         ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
         
         if(version.compareTo("All") == 0){
@@ -178,7 +178,6 @@ public class SDEDAONavigation extends DAO{
             closeConnection();
         }
         
-        
         return result;
     }
     
@@ -201,20 +200,8 @@ public class SDEDAONavigation extends DAO{
             closeConnection();
         }
         
-        
         return result;
     }
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
     
     //Pull Navigation for Creeps
     public ArrayList<SDE.NavItem> pullNavigationForCreeps(){
@@ -238,7 +225,7 @@ public class SDEDAONavigation extends DAO{
         return result;
     }
       
-    public ArrayList<SDE.NavItem> pullNavigationForCreeps(String version){
+    public ArrayList<SDE.NavItem> pullNavigationForCreepsbyProductSet(String version){
         CallableStatement stmt = null;
         ResultSet rs;
         ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
@@ -260,7 +247,19 @@ public class SDEDAONavigation extends DAO{
         return result;
     }
       
-    public ArrayList<SDE.NavItem> pullNavigationForCreeps(String version, String playMode){
+    public ArrayList<SDE.NavItem> pullNavigationForCreepsAllOrByProductSet(String version, String playMode){
+        ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
+        
+        if(version.compareTo("All") == 0){
+            result = pullNavigationForCreepsByPlayMode(playMode);
+        }else{
+            result = pullNavigationForCreepsByProductSetAndPlayMode(version, playMode);
+        }
+        
+        return result;
+    }
+    
+    private ArrayList<SDE.NavItem> pullNavigationForCreepsByProductSetAndPlayMode(String version, String playMode){
         CallableStatement stmt = null;
         ResultSet rs;
         ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
@@ -268,9 +267,31 @@ public class SDEDAONavigation extends DAO{
         try{
             openConnection();
             
-            stmt = getConnect().prepareCall("{call SDWikiPullNavigationCreepsByProductSet(?,?)}");
+            stmt = getConnect().prepareCall("{call SDWikiPullNavigationCreepsByProductSetAndPlayMode(?,?)}");
             stmt.setString(1, version);
             stmt.setString(2, playMode);
+            rs = stmt.executeQuery();
+            
+            result = pullNavigationForCards(rs);
+        }catch(Exception e){
+            e.printStackTrace();
+        }finally{
+            closeConnection();
+        }
+        
+        return result;
+    }
+    
+    private ArrayList<SDE.NavItem> pullNavigationForCreepsByPlayMode(String playMode){
+        CallableStatement stmt = null;
+        ResultSet rs;
+        ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
+        
+        try{
+            openConnection();
+            
+            stmt = getConnect().prepareCall("{call SDWikiPullNavigationCreepsByPlayMode(?)}");
+            stmt.setString(1, playMode);
             rs = stmt.executeQuery();
             
             result = pullNavigationForCards(rs);
@@ -350,7 +371,7 @@ public class SDEDAONavigation extends DAO{
         return result;
     }
     
-    //Pull Navigation for Mini Bosses
+    //Pull Navigation for MiniBosses
     public ArrayList<SDE.NavItem> pullNavigationForMiniBosses(){
         CallableStatement stmt = null;
         ResultSet rs;
@@ -372,7 +393,7 @@ public class SDEDAONavigation extends DAO{
         return result;
     }
     
-    public ArrayList<SDE.NavItem> pullNavigationForMiniBosses(String version){
+    public ArrayList<SDE.NavItem> pullNavigationForMiniBossesByProductSet(String version){
         CallableStatement stmt = null;
         ResultSet rs;
         ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
@@ -394,7 +415,19 @@ public class SDEDAONavigation extends DAO{
         return result;
     }
     
-    public ArrayList<SDE.NavItem> pullNavigationForMiniBosses(String version, String playMode){
+    public ArrayList<SDE.NavItem> pullNavigationForMiniBossesAllOrByProductSet(String version, String playMode){
+        ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
+        
+        if(version.compareTo("All") == 0){
+            result = pullNavigationForMiniBossesByPlayMode(playMode);
+        }else{
+            result = pullNavigationForMiniBossesByProductSetAndPlayMode(version, playMode);
+        }
+        
+        return result;
+    }
+    
+    private ArrayList<SDE.NavItem> pullNavigationForMiniBossesByProductSetAndPlayMode(String version, String playMode){
         CallableStatement stmt = null;
         ResultSet rs;
         ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
@@ -402,9 +435,31 @@ public class SDEDAONavigation extends DAO{
         try{
             openConnection();
             
-            stmt = getConnect().prepareCall("{call SDWikiPullNavigationMiniBossesByProductSet(?,?)}");
+            stmt = getConnect().prepareCall("{call SDWikiPullNavigationMiniBossesByProductSetAndPlayMode(?,?)}");
             stmt.setString(1, version);
             stmt.setString(2, playMode);
+            rs = stmt.executeQuery();
+            
+            result = pullNavigationForCards(rs);
+        }catch(Exception e){
+            e.printStackTrace();
+        }finally{
+            closeConnection();
+        }
+        
+        return result;
+    }
+    
+    private ArrayList<SDE.NavItem> pullNavigationForMiniBossesByPlayMode(String playMode){
+        CallableStatement stmt = null;
+        ResultSet rs;
+        ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
+        
+        try{
+            openConnection();
+            
+            stmt = getConnect().prepareCall("{call SDWikiPullNavigationMiniBossesByPlayMode(?)}");
+            stmt.setString(1, playMode);
             rs = stmt.executeQuery();
             
             result = pullNavigationForCards(rs);
@@ -439,7 +494,7 @@ public class SDEDAONavigation extends DAO{
         return result;
     }
     
-    public ArrayList<SDE.NavItem> pullNavigationForBosses(String version){
+    public ArrayList<SDE.NavItem> pullNavigationForBossesByProductSet(String version){
         CallableStatement stmt = null;
         ResultSet rs;
         ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
@@ -461,7 +516,19 @@ public class SDEDAONavigation extends DAO{
         return result;
     }
     
-    public ArrayList<SDE.NavItem> pullNavigationForBosses(String version, String playMode){
+    public ArrayList<SDE.NavItem> pullNavigationForBossesAllOrByProductSet(String version, String playMode){
+        ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
+        
+        if(version.compareTo("All") == 0){
+            result = pullNavigationForBossesByPlayMode(playMode);
+        }else{
+            result = pullNavigationForBossesByProductSetAndPlayMode(version, playMode);
+        }
+        
+        return result;
+    }
+    
+    private ArrayList<SDE.NavItem> pullNavigationForBossesByProductSetAndPlayMode(String version, String playMode){
         CallableStatement stmt = null;
         ResultSet rs;
         ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
@@ -469,7 +536,7 @@ public class SDEDAONavigation extends DAO{
         try{
             openConnection();
             
-            stmt = getConnect().prepareCall("{call SDWikiPullNavigationBossesByProductSet(?,?)}");
+            stmt = getConnect().prepareCall("{call SDWikiPullNavigationBossesByProductSetAndPlayMode(?,?)}");
             stmt.setString(1, version);
             stmt.setString(2, playMode);
             rs = stmt.executeQuery();
@@ -480,6 +547,29 @@ public class SDEDAONavigation extends DAO{
         }finally{
             closeConnection();
         }
+        
+        return result;
+    }
+    
+    private ArrayList<SDE.NavItem> pullNavigationForBossesByPlayMode(String playMode){
+        CallableStatement stmt = null;
+        ResultSet rs;
+        ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
+        
+        try{
+            openConnection();
+            
+            stmt = getConnect().prepareCall("{call SDWikiPullNavigationBossesByPlayMode(?)}");
+            stmt.setString(1, playMode);
+            rs = stmt.executeQuery();
+            
+            result = pullNavigationForCards(rs);
+        }catch(Exception e){
+            e.printStackTrace();
+        }finally{
+            closeConnection();
+        }
+        
         
         return result;
     }
@@ -640,7 +730,7 @@ public class SDEDAONavigation extends DAO{
         return result;
     }
     
-    public ArrayList<SDE.NavItem> pullNavigationForWarbands(String version){
+    public ArrayList<SDE.NavItem> pullNavigationForWarbandsByProductSet(String version){
         CallableStatement stmt = null;
         ResultSet rs;
         ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
@@ -662,7 +752,19 @@ public class SDEDAONavigation extends DAO{
         return result;
     }
     
-    public ArrayList<SDE.NavItem> pullNavigationForWarbands(String version, String playMode){
+    public ArrayList<SDE.NavItem> pullNavigationForWarbandsAllOrByProductSet(String version, String playMode){
+        ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
+        
+        if(version.compareTo("All") == 0){
+            result = pullNavigationForWarbandsByPlayMode(playMode);
+        }else{
+            result = pullNavigationForWarbandsByProductSetAndPlayMode(version, playMode);
+        }
+        
+        return result;
+    }
+    
+    private ArrayList<SDE.NavItem> pullNavigationForWarbandsByProductSetAndPlayMode(String version, String playMode){
         CallableStatement stmt = null;
         ResultSet rs;
         ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
@@ -670,9 +772,31 @@ public class SDEDAONavigation extends DAO{
         try{
             openConnection();
             
-            stmt = getConnect().prepareCall("{call SDWikiPullNavigationWarbandsByProductSet(?,?)}");
+            stmt = getConnect().prepareCall("{call SDWikiPullNavigationWarbandsByProductSetAndPlayMode(?,?)}");
             stmt.setString(1, version);
             stmt.setString(2, playMode);
+            rs = stmt.executeQuery();
+            
+            result = pullNavigationForCards(rs);
+        }catch(Exception e){
+            e.printStackTrace();
+        }finally{
+            closeConnection();
+        }
+        
+        return result;
+    }
+    
+    private ArrayList<SDE.NavItem> pullNavigationForWarbandsByPlayMode(String playMode){
+        CallableStatement stmt = null;
+        ResultSet rs;
+        ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
+        
+        try{
+            openConnection();
+            
+            stmt = getConnect().prepareCall("{call SDWikiPullNavigationWarbandsByPlayMode(?)}");
+            stmt.setString(1, playMode);
             rs = stmt.executeQuery();
             
             result = pullNavigationForCards(rs);

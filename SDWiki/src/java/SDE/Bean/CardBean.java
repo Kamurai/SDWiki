@@ -121,15 +121,15 @@ public class CardBean extends Bean{
         }else if(type.compareTo("Bosses") == 0){
             this.title      = "Bosses";
             this.header     = "Bosses";
-            this.cardList   = navDAO.pullNavigationForBosses(version);
+            this.cardList   = navDAO.pullNavigationForBossesByProductSet(version);
         }else if(type.compareTo("MiniBosses") == 0){
             this.title      = "MiniBosses";
             this.header     = "MiniBosses";
-            this.cardList   = navDAO.pullNavigationForMiniBosses(version);
+            this.cardList   = navDAO.pullNavigationForMiniBossesByProductSet(version);
         }else if(type.compareTo("Booty") == 0){
             this.title      = "Booty";
             this.header     = "Booty";
-            this.cardList   = navDAO.pullNavigationForBooty(version);
+            this.cardList   = navDAO.pullNavigationForBootyByProductSet(version);
         }else if(type.compareTo("Pets") == 0){
             this.title      = "Pets";
             this.header     = "Pets";
@@ -137,11 +137,11 @@ public class CardBean extends Bean{
         }else if(type.compareTo("Creeps") == 0){
             this.title      = "Creeps";
             this.header     = "Creeps";
-            this.cardList   = navDAO.pullNavigationForCreeps(version);
+            this.cardList   = navDAO.pullNavigationForCreepsbyProductSet(version);
         }else if(type.compareTo("Warbands") == 0){
             this.title      = "Warbands";
             this.header     = "Warbands";
-            this.cardList   = navDAO.pullNavigationForWarbands(version);
+            this.cardList   = navDAO.pullNavigationForWarbandsByProductSet(version);
         }else if(type.compareTo("Loot") == 0){
             this.title      = "Loot";
             this.header     = "Loot";
@@ -204,32 +204,30 @@ public class CardBean extends Bean{
         }else if(type.compareTo("Bosses") == 0){
             this.title      = "Bosses";
             this.header     = "Bosses";
-            if(version.compareTo("FK") == 0 || version.compareTo("2.0") == 0){
-                this.cardList   = navDAO.pullNavigationForBosses(version, playMode);
-            }else if(version.compareTo("1.0") == 0){
-                this.cardList   = navDAO.pullNavigationForBosses(version);
+            if(version.compareTo("1.0") == 0){
+                this.cardList   = navDAO.pullNavigationForBossesByProductSet(version);
+            }else if(version.compareTo("All") == 0 || version.compareTo("FK") == 0 || version.compareTo("2.0") == 0){
+                this.cardList   = navDAO.pullNavigationForBossesAllOrByProductSet(version, playMode);
             }else{
                 this.cardList   = navDAO.pullNavigationForBosses();
             }
         }else if(type.compareTo("MiniBosses") == 0){
             this.title      = "MiniBosses";
             this.header     = "MiniBosses";
-            if(version.compareTo("FK") == 0 || version.compareTo("2.0") == 0){
-                this.cardList   = navDAO.pullNavigationForMiniBosses(version, playMode);
-            }else if(version.compareTo("1.0") == 0){
-                this.cardList   = navDAO.pullNavigationForMiniBosses(version);
+            if(version.compareTo("1.0") == 0){
+                this.cardList   = navDAO.pullNavigationForMiniBossesByProductSet(version);
+            }else if(version.compareTo("All") == 0 || version.compareTo("FK") == 0 || version.compareTo("2.0") == 0){
+                this.cardList   = navDAO.pullNavigationForMiniBossesAllOrByProductSet(version, playMode);
             }else{
                 this.cardList   = navDAO.pullNavigationForMiniBosses();
             }
         }else if(type.compareTo("Booty") == 0){
             this.title      = "Booty";
             this.header     = "Booty";
-            if(version.compareTo("FK") == 0 || version.compareTo("2.0") == 0){
-                this.cardList   = navDAO.pullNavigationForBooty(version, playMode);
-            }else if(version.compareTo("1.0") == 0){
-                this.cardList   = navDAO.pullNavigationForBooty(version);
-            }else if(version.compareTo("All") == 0){
-                this.cardList   = navDAO.pullNavigationForBooty(version, playMode);
+            if(version.compareTo("1.0") == 0){
+                this.cardList   = navDAO.pullNavigationForBootyByProductSet(version);
+            }else if(version.compareTo("All") == 0 || version.compareTo("FK") == 0 || version.compareTo("2.0") == 0){
+                this.cardList   = navDAO.pullNavigationForBootyAllOrByProductSet(version, playMode);
             }else{
                 this.cardList   = navDAO.pullNavigationForBooty();
             }
@@ -244,20 +242,20 @@ public class CardBean extends Bean{
         }else if(type.compareTo("Creeps") == 0){
             this.title      = "Creeps";
             this.header     = "Creeps";
-            if(version.compareTo("FK") == 0 || version.compareTo("2.0") == 0){
-                this.cardList   = navDAO.pullNavigationForCreeps(version, playMode);
-            }else if(version.compareTo("1.0") == 0){
-                this.cardList   = navDAO.pullNavigationForCreeps(version);
+            if(version.compareTo("1.0") == 0){
+                this.cardList   = navDAO.pullNavigationForCreepsbyProductSet(version);
+            }else if(version.compareTo("All") == 0 || version.compareTo("FK") == 0 || version.compareTo("2.0") == 0){
+                this.cardList   = navDAO.pullNavigationForCreepsAllOrByProductSet(version, playMode);
             }else{
                 this.cardList   = navDAO.pullNavigationForCreeps();
             }
         }else if(type.compareTo("Warbands") == 0){
             this.title      = "Warbands";
             this.header     = "Warbands";
-            if(version.compareTo("FK") == 0 || version.compareTo("2.0") == 0){
-                this.cardList   = navDAO.pullNavigationForWarbands(version, playMode);
-            }else if(version.compareTo("1.0") == 0){
-                this.cardList   = navDAO.pullNavigationForWarbands(version);
+            if(version.compareTo("1.0") == 0){
+                this.cardList   = navDAO.pullNavigationForWarbandsByProductSet(version);
+            }else if(version.compareTo("All") == 0 || version.compareTo("FK") == 0 || version.compareTo("2.0") == 0){
+                this.cardList   = navDAO.pullNavigationForWarbandsAllOrByProductSet(version, playMode);
             }else{
                 this.cardList   = navDAO.pullNavigationForWarbands();
             }
