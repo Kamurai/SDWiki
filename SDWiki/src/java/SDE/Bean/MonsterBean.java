@@ -35,15 +35,15 @@ public class MonsterBean extends CardBean{
         }
         
         if(this.monster.getCardType().compareTo("Warband") == 0){
-            this.monsterList  = navDAO.pullNavigationForWarbands(this.monster.getVersion());
+            this.monsterList  = navDAO.pullNavigationForWarbandsByProductSet(this.monster.getVersion());
         }else if(this.monster.getCardType().compareTo("Boss") == 0){
-            this.monsterList  = navDAO.pullNavigationForBosses(this.monster.getVersion());
+            this.monsterList  = navDAO.pullNavigationForBossesByProductSet(this.monster.getVersion());
         }else if(this.monster.getCardType().compareTo("MiniBoss") == 0){
-            this.monsterList  = navDAO.pullNavigationForMiniBosses(this.monster.getVersion());
+            this.monsterList  = navDAO.pullNavigationForMiniBossesByProductSet(this.monster.getVersion());
         }else if(this.monster.getCardType().compareTo("Creep") == 0){
-            this.monsterList  = navDAO.pullNavigationForCreeps(this.monster.getVersion());
+            this.monsterList  = navDAO.pullNavigationForCreepsbyProductSet(this.monster.getVersion());
         }else if(this.monster.getCardType().compareTo("Booty") == 0){
-            this.monsterList  = navDAO.pullNavigationForBooty(this.monster.getVersion());
+            this.monsterList  = navDAO.pullNavigationForBootyByProductSet(this.monster.getVersion());
         }else{
             this.monsterList  = navDAO.pullNavigationForMonsters(this.monster.getVersion());
         }

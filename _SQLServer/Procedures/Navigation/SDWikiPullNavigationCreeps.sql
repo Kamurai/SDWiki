@@ -3,8 +3,8 @@
 create PROCEDURE SDWikiPullNavigationCreeps
 AS
 BEGIN
-	select distinct CardName, ProductSet, Link, PictureFront
-	from CreepsViewMultiLine
-	Order By ProductSet desc, CardName asc
+	select CardName, ProductSet, PlayMode, Link, PictureFront
+	from DualBootyView
+	Order By CardName asc
 	;
 END

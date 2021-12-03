@@ -3,8 +3,8 @@
 create PROCEDURE SDWikiPullNavigationMiniBosses
 AS
 BEGIN
-	select distinct CardName, ProductSet, Link, PictureFront
-	from MiniBossesViewMultiLine
-	Order By ProductSet desc, CardName asc
+	select CardName, ProductSet, PlayMode, Link, PictureFront
+	from DualMiniBossesView
+	Order By CardName asc
 	;
 END
