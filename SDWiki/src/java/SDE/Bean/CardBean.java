@@ -117,7 +117,7 @@ public class CardBean extends Bean{
         if(type.compareTo("Heroes") == 0){
             this.title      = "Heroes";
             this.header     = "Heroes";
-            this.cardList   = navDAO.pullNavigationForHeroes(version);
+            this.cardList   = navDAO.pullNavigationForHeroesByProductSet(version);
         }else if(type.compareTo("Bosses") == 0){
             this.title      = "Bosses";
             this.header     = "Bosses";
@@ -196,8 +196,8 @@ public class CardBean extends Bean{
         if(type.compareTo("Heroes") == 0){
             this.title      = "Heroes";
             this.header     = "Heroes";
-            if(version.compareTo("FK") == 0 || version.compareTo("2.0") == 0 || version.compareTo("1.0") == 0){
-                this.cardList   = navDAO.pullNavigationForHeroes(version);
+            if(version.compareTo("FK") == 0 || version.compareTo("FK SDArena") == 0 || version.compareTo("2.0") == 0 || version.compareTo("1.0") == 0){
+                this.cardList   = navDAO.pullNavigationForHeroesByProductSet(version);
             }else{
                 this.cardList   = navDAO.pullNavigationForHeroes();
             }
@@ -262,7 +262,7 @@ public class CardBean extends Bean{
         }else if(type.compareTo("Loot") == 0){
             this.title      = "Loot";
             this.header     = "Loot";
-            if(version.compareTo("FK") == 0 || version.compareTo("2.0") == 0 || version.compareTo("1.0") == 0){
+            if(version.compareTo("FK") == 0 || version.compareTo("FK SDArena") == 0 || version.compareTo("2.0") == 0 || version.compareTo("1.0") == 0){
                 this.cardList   = navDAO.pullNavigationForLoot(version);
             }else{
                 this.cardList   = navDAO.pullNavigationForLoot();
@@ -271,7 +271,7 @@ public class CardBean extends Bean{
         }else if(type.compareTo("Treasure") == 0){
             this.title      = "Treasure";
             this.header     = "Treasure";
-            if(version.compareTo("FK") == 0 || version.compareTo("2.0") == 0 || version.compareTo("1.0") == 0){
+            if(version.compareTo("FK") == 0 || version.compareTo("FK SDArena") == 0 || version.compareTo("2.0") == 0 || version.compareTo("1.0") == 0){
                 this.cardList   = navDAO.pullNavigationForTreasure(version);
             }else{
                 this.cardList   = navDAO.pullNavigationForTreasure();
