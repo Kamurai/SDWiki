@@ -36,7 +36,7 @@ public class SDEDAONavigation extends DAO{
         return result;
     }
     
-    public ArrayList<SDE.NavItem> pullNavigationForHeroes(String version){
+    public ArrayList<SDE.NavItem> pullNavigationForHeroesByProductSet(String version){
         CallableStatement stmt = null;
         ResultSet rs;
         ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
