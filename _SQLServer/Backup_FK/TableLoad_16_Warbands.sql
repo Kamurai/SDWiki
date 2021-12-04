@@ -21,8 +21,8 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (181
 --Billmen --CardIndex 269 --CharacterIndex 182 --ExploreCharacterIndex 182
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 'Billmen',
-'http://htkb.info/SDE/FK/Cards/Warbands/Bramble_Knight/Card_Warband_Billmen_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Warbands/Bramble_Knight/Card_Warband_Billmen_FK_back.png', 
+'http://htkb.info/SDE/FK/Cards/Warbands/Bramble_Knight/Card_Warband_Bramble_Knight_Billmen_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Warbands/Bramble_Knight/Card_Warband_Bramble_Knight_Billmen_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Warbands/Bramble_Knight/Billmen.xhtml', 
 'Warband', 'FK', 'FK Core Set', 'Explore',
 'Billmen were not full-fledged Bramble Knights, but were instead part of the Forgotten King''s guard.  Nonetheless, they were held in high esteem for their courage and skill at arms.  Exemplary service within the Billmen made elevation to the rank of Bramble Knight all but assured.<br>During The Forgotten King''s uprising Billmen made up the primary bulk of his forces.  Most of these stalwart warriors marched to battle not knowing of their master''s treason.  They dutifully fought in the war believing their cause was just and in service to the Goddess.<br>For this reason the Billmen are often seen as the most tragic of figures, unwittingly serving a dark master and doomed to share his fate.');
@@ -38,8 +38,8 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (182
 --Frog Knight --CardIndex 270 --CharacterIndex 183 --ExploreCharacterIndex 183
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 'Frog Knight',
-'http://htkb.info/SDE/FK/Cards/Warbands/Bramble_Knight/Card_Warband_Frog_Knight_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Warbands/Bramble_Knight/Card_Warband_Frog_Knight_FK_back.png', 
+'http://htkb.info/SDE/FK/Cards/Warbands/Bramble_Knight/Card_Warband_Bramble_Knight_Frog_Knight_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Warbands/Bramble_Knight/Card_Warband_Bramble_Knight_Frog_Knight_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Warbands/Bramble_Knight/Frog_Knight.xhtml', 
 'Warband', 'FK', 'FK Core Set', 'Explore',
 'Mounted on battle-hardened Squawks, Frog Knights attempt to hold true to their former chivalrous past.  With great leaps they manuever through the battle to engage a worthy foe in single combat.  Win or lose, such a duel is their highest honor.');
@@ -57,8 +57,8 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (183
 --Grobbit Executioner --CardIndex 271 --CharacterIndex 184 --ExploreCharacterIndex 184
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 'Grobbit Executioner',
-'http://htkb.info/SDE/FK/Cards/Warbands/Bramble_Knight/Card_Warband_Grobbit_Executioner_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Warbands/Bramble_Knight/Card_Warband_Grobbit_Executioner_FK_back.png', 
+'http://htkb.info/SDE/FK/Cards/Warbands/Bramble_Knight/Card_Warband_Bramble_Knight_Grobbit_Executioner_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Warbands/Bramble_Knight/Card_Warband_Bramble_Knight_Grobbit_Executioner_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Warbands/Bramble_Knight/Grobbit_Executioner.xhtml', 
 'Warband', 'FK', 'FK Core Set', 'Explore',
 'The Executioners are infamous foes to all the people of Crystalia.  Even before the curse that turned The Forgotten King and his followers into bestial chimera, the Bramble Knight Executioners were terrifying figures.  With powerful sweeps of their axes, they performed their grim duty with unsettling satisfaction.  Now, they employ their axes with unabandoned cruelty and cleave through Heroes with wicked delight.');
@@ -93,8 +93,8 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (185
 --Black Claw Assassin --CardIndex 273 --CharacterIndex 186 --ExploreCharacterIndex 186
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 'Black Claw Assassin',
-'http://htkb.info/SDE/FK/Cards/Warbands/Claw_Shrine/Card_Warband_Black_Claw_Assassin_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Warbands/Claw_Shrine/Card_Warband_Black_Claw_Assassin_FK_back.png', 
+'http://htkb.info/SDE/FK/Cards/Warbands/Claw_Shrine/Card_Warband_Claw_Shrine_Black_Claw_Assassin_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Warbands/Claw_Shrine/Card_Warband_Claw_Shrine_Black_Claw_Assassin_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Warbands/Claw_Shrine/Black_Claw_Assassin.xhtml', 
 'Warband', 'FK', 'FK Core Set', 'Explore',
 'Not being the mightiest of warriors, kobolds are often forced to rely on sheer numbers to bring down their foes.  Lurking within the seething mobs of kobolds, the villainous Black Claw Assassins wait patiently for the opportune moment to strike.');
@@ -113,8 +113,8 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (186
 --Claw Trainer --CardIndex 274 --CharacterIndex 187 --ExploreCharacterIndex 187
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 'Claw Trainer',
-'http://htkb.info/SDE/FK/Cards/Warbands/Claw_Shrine/Card_Warband_Claw_Trainer_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Warbands/Claw_Shrine/Card_Warband_Claw_Trainer_FK_back.png', 
+'http://htkb.info/SDE/FK/Cards/Warbands/Claw_Shrine/Card_Warband_Claw_Shrine_Claw_Trainer_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Warbands/Claw_Shrine/Card_Warband_Claw_Shrine_Claw_Trainer_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Warbands/Claw_Shrine/Claw_Trainer.xhtml', 
 'Warband', 'FK', 'FK Core Set', 'Explore',
 'There are few positions within kobold society that are more desired than that of Claw Trainer.  Blessed with rare empathy and draconic insight, these exceptional koboldsare gifted with the opportunity to raise newly hatched drakes.  Over many years of training, Claw Trainer and Drake Hounds form deadly packs capable of hunting down any intruder in their master''s realm.');
@@ -132,8 +132,8 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (187
 --Drake Hound --CardIndex 275 --CharacterIndex 188 --ExploreCharacterIndex 188
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 'Drake Hound',
-'http://htkb.info/SDE/FK/Cards/Warbands/Claw_Shrine/Card_Warband_Drake_Hound_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Warbands/Claw_Shrine/Card_Warband_Drake_Hound_FK_back.png', 
+'http://htkb.info/SDE/FK/Cards/Warbands/Claw_Shrine/Card_Warband_Claw_Shrine_Drake_Hound_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Warbands/Claw_Shrine/Card_Warband_Claw_Shrine_Drake_Hound_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Warbands/Claw_Shrine/Drake_Hound.xhtml', 
 'Warband', 'FK', 'FK Core Set', 'Explore',
 '');
@@ -980,7 +980,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (231
 --Crusher v2 --CardIndex 319 --CharacterIndex 232 --ExploreCharacterIndex 232
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 'Crusher v2',
-'http://htkb.info/SDE/FK/Cards/Warbands/Rock_Pile/Card_Warband_Rock_Pile_Wyrmling_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Warbands/Rock_Pile/Card_Warband_Rock_Pile_Crusher_v2_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Warbands/Rock_Pile/Card_Warband_Rock_Pile_Crusher_v2_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Warbands/Rock_Pile/Rock_Pile_Crusher_v2.xhtml', 
 'Warband', 'FK', 'FK Core Set', 'Explore',
@@ -1281,9 +1281,9 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (247
 --Mistmourn Chieftain --CardIndex 335 --CharacterIndex 248 --ExploreCharacterIndex 248
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 'Mistmourn Chiefttain',
-'http://htkb.info/SDE/FK/Cards/Warbands/Tribal_Stone/Card_Warband_Tribal_Stone_Mistmourn_Chiefttain_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Warbands/Tribal_Stone/Card_Warband_Tribal_Stone_Mistmourn_Chiefttain_FK_back.png', 
-'http://htkb.online/SDWiki/SDE/FK/Cards/Warbands/Tribal_Stone/Tribal_Stone_Mistmourn_Chiefttain.xhtml', 
+'http://htkb.info/SDE/FK/Cards/Warbands/Tribal_Stone/Card_Warband_Tribal_Stone_Mistmourn_Chieftain_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Warbands/Tribal_Stone/Card_Warband_Tribal_Stone_Mistmourn_Chieftain_FK_back.png', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Warbands/Tribal_Stone/Tribal_Stone_Mistmourn_Chieftain.xhtml', 
 'Warband', 'FK', 'FK Core Set', 'Explore',
 'Mistmourn Chieftains are selected not for their wisdom, or for their battle ability, but for their willingess to be possessed by the spirits of their ancient ancestors.  In such a manner a Mistmourn tribe will be led by a single fierce troll ancestor for decades.  The long years of experience slowly shapes the crude troll mind of the ancestor into a proficient and even brilliant leader.');
 insert into Characters (CardIndex) VALUES (335);

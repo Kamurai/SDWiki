@@ -2,9 +2,9 @@
 --Beatrix the Witch Queen --CardIndex 259 --CharacterIndex 172 --ExploreCharacterIndex 172
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 'Beatrix the Witch Queen',
-'http://htkb.info/SDE/FK/Cards/Bosses/Card_Boss_Beatrix_The_Witch_Queen_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Bosses/Card_Boss_Beatrix_The_Witch_Queen_FK_back.png', 
-'http://htkb.online/SDWiki/SDE/FK/Cards/Bosses/Beatrix_The_Witch_Queen.xhtml', 
+'http://htkb.info/SDE/FK/Cards/Bosses/Card_Boss_Beatrix_the_Witch_Queen_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Bosses/Card_Boss_Beatrix_the_Witch_Queen_FK_back.png', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Bosses/Beatrix_the_Witch_Queen.xhtml', 
 'Boss', 'FK', 'FK Core Set', 'Explore',
 'I have such a delicious potion for you to try.  It may string a little going down....');
 insert into Characters (CardIndex) VALUES (259);
