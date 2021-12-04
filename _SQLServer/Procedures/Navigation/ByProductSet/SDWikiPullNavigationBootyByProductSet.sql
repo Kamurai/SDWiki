@@ -1,13 +1,13 @@
 --drop PROCEDURE SDWikiPullNavigationBootyByProductSet;
 
 create PROCEDURE SDWikiPullNavigationBootyByProductSet(
-	@strVersion varChar(3)
+	@strVersion varChar(10)
 )
 AS
 BEGIN
-	select CardName, ProductSet, Link, PictureFront
+	select CardName, ProductSet, PlayMode, Link, PictureFront
 	from DualBootyView
 	where ProductSet = @strVersion
-	Order By CardName asc
+	Order By ProductSet desc, PlayMode desc, CardName asc
 	;
 END
