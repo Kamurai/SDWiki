@@ -7770,7 +7770,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/SDArena/Cards/Loot/Card_Loot_Acolyte_Robe_FK_SDArena.png', 
 'http://htkb.info/SDE/FK/SDArena/Cards/Loot/Card_Loot_Back_FK_SDArena.png', 
 'http://htkb.online/SDWiki/SDE/FK/SDArena/Cards/Loot/Acolyte_Robe.xhtml', 
-'Loot', 'FK Arena', 'FK SDArena', 'Default',
+'Loot', 'FK SDArena', 'FK SDArena Core Set', 'Default',
 'klaatu verata nikto');
 insert into Equipment (CardIndex, Position, Effect) VALUES (439, 'Top', '+1ST');
 
@@ -7804,7 +7804,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/SDArena/Cards/Loot/Card_Loot_Amethyst_Amulet_FK_SDArena.png', 
 'http://htkb.info/SDE/FK/SDArena/Cards/Loot/Card_Loot_Back_FK_SDArena.png', 
 'http://htkb.online/SDWiki/SDE/FK/SDArena/Cards/Loot/Amethyst_Amulet.xhtml', 
-'Loot', 'FK Arena', 'FK SDArena', 'Default',
+'Loot', 'FK SDArena', 'FK SDArena Core Set', 'Default',
 'The power of the Dark Realm is tempting.');
 insert into Equipment (CardIndex, Position, Effect) VALUES (442, 'Bottom', '+1MO');
 
@@ -7825,7 +7825,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/SDArena/Cards/Treasure/Generic/Card_Treasure_Amethyst_Longarm_FK_SDArena.png', 
 'http://htkb.info/SDE/FK/SDArena/Cards/Treasure/Generic/Card_Treasure_Back_FK_SDArena.png',
 'http://htkb.online/SDWiki/SDE/FK/SDArena/Cards/Generic/Specific/Amethyst_Longarm.xhtml', 
-'Treasure', 'FK Arena', 'FK SDArena', 'Default',
+'Treasure', 'FK SDArena', 'FK SDArena Core Set', 'Default',
 'Perfect sights.');
 insert into Equipment (CardIndex, Position, Effect) VALUES (444, 'Right', '+1R DEX');
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (84, 700); --Bane Bullet
@@ -7846,7 +7846,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/SDArena/Cards/Treasure/Generic/Card_Treasure_Arcadian_Dervish_FK_SDArena.png', 
 'http://htkb.info/SDE/FK/SDArena/Cards/Treasure/Generic/Card_Treasure_Back_FK_SDArena.png',
 'http://htkb.online/SDWiki/SDE/FK/SDArena/Cards/Generic/Specific/Arcadian_Dervish.xhtml', 
-'Treasure', 'FK Arena', 'FK SDArena', 'Default',
+'Treasure', 'FK SDArena', 'FK SDArena Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, Position, Effect) VALUES (446, 'Left', '+1G ARM');
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (86, 701); --Wind Dance
@@ -7868,7 +7868,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/SDArena/Cards/Loot/Card_Loot_Arcanist_Armor_FK_SDArena.png', 
 'http://htkb.info/SDE/FK/SDArena/Cards/Loot/Card_Loot_Back_FK_SDArena.png', 
 'http://htkb.online/SDWiki/SDE/FK/SDArena/Cards/Loot/Arcanist_Armor.xhtml', 
-'Loot', 'FK Arena', 'FK SDArena', 'Default',
+'Loot', 'FK SDArena', 'FK SDArena Core Set', 'Default',
 'Favored by warrior-mages throughout the realms.');
 insert into Equipment (CardIndex, Position, Effect) VALUES (448, 'Left', '+1R WILL');
 
@@ -7878,7 +7878,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/SDArena/Cards/Loot/Card_Loot_Arcanist_Bracers_FK_SDArena.png', 
 'http://htkb.info/SDE/FK/SDArena/Cards/Loot/Card_Loot_Back_FK_SDArena.png', 
 'http://htkb.online/SDWiki/SDE/FK/SDArena/Cards/Loot/Arcanist_Bracers.xhtml', 
-'Loot', 'FK Arena', 'FK SDArena', 'Default',
+'Loot', 'FK SDArena', 'FK SDArena Core Set', 'Default',
 'Focus and channel your will.');
 insert into Equipment (CardIndex, Position, Effect) VALUES (449, 'Bottom', '+1B WILL');
 
@@ -7888,7 +7888,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/SDArena/Cards/Treasure/Generic/Card_Treasure_Arena_Champion_Belt_FK_SDArena.png', 
 'http://htkb.info/SDE/FK/SDArena/Cards/Treasure/Generic/Card_Treasure_Back_FK_SDArena.png',
 'http://htkb.online/SDWiki/SDE/FK/SDArena/Cards/Generic/Specific/Arena_Champion_Belt.xhtml', 
-'Treasure', 'FK Arena', 'FK SDArena', 'Default',
+'Treasure', 'FK SDArena', 'FK SDArena Core Set', 'Default',
 'Annnnnd. Broken.');
 insert into Equipment (CardIndex, Position, Effect) VALUES (450, 'Bottom', '+2AC');
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (90, 46); --Fire Storm
@@ -7899,7 +7899,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/SDArena/Cards/Loot/Card_Loot_Arena_Plate_FK_SDArena.png', 
 'http://htkb.info/SDE/FK/SDArena/Cards/Loot/Card_Loot_Back_FK_SDArena.png', 
 'http://htkb.online/SDWiki/SDE/FK/SDArena/Cards/Loot/Arena_Plate.xhtml', 
-'Loot', 'FK Arena', 'FK SDArena', 'Default',
+'Loot', 'FK SDArena', 'FK SDArena Core Set', 'Default',
 'Only veterans are worthy.');
 insert into Equipment (CardIndex, Position, Effect) VALUES (451, 'Right', '+1R ARM');
 
@@ -7941,7 +7941,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/SDArena/Cards/Treasure/Generic/Card_Treasure_Bejeweled_Torque_FK_SDArena.png', 
 'http://htkb.info/SDE/FK/SDArena/Cards/Treasure/Generic/Card_Treasure_Back_FK_SDArena.png',
 'http://htkb.online/SDWiki/SDE/FK/SDArena/Cards/Generic/Specific/Bejeweled_Torque.xhtml', 
-'Treasure', 'FK Arena', 'FK SDArena', 'Default',
+'Treasure', 'FK SDArena', 'FK SDArena Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, Position, Effect) VALUES (455, 'Bottom', '+3B WILL');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (95, 457); --Alchemy
@@ -7974,7 +7974,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/SDArena/Cards/Loot/Card_Loot_Binary_Defense_FK_SDArena.png', 
 'http://htkb.info/SDE/FK/SDArena/Cards/Loot/Card_Loot_Back_FK_SDArena.png', 
 'http://htkb.online/SDWiki/SDE/FK/SDArena/Cards/Loot/Binary_Defense.xhtml', 
-'Loot', 'FK Arena', 'FK SDArena', 'Default',
+'Loot', 'FK SDArena', 'FK SDArena Core Set', 'Default',
 '011001000110010101100110011001010110111001110011011001010000110100001010');
 insert into Equipment (CardIndex, Position, Effect) VALUES (458, 'Top', '+1ST ARM');
 
@@ -7984,7 +7984,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/SDArena/Cards/Loot/Card_Loot_Binary_Offense_FK_SDArena.png', 
 'http://htkb.info/SDE/FK/SDArena/Cards/Loot/Card_Loot_Back_FK_SDArena.png', 
 'http://htkb.online/SDWiki/SDE/FK/SDArena/Cards/Loot/Binary_Offense.xhtml', 
-'Loot', 'FK Arena', 'FK SDArena', 'Default',
+'Loot', 'FK SDArena', 'FK SDArena Core Set', 'Default',
 '011001000110010101100110011001010110111001110011011001010000110100001010');
 insert into Equipment (CardIndex, Position, Effect) VALUES (459, 'Top', '+1ST STR');
 
@@ -7994,7 +7994,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/SDArena/Cards/Treasure/Generic/Card_Treasure_Binding_Contract_FK_SDArena.png', 
 'http://htkb.info/SDE/FK/SDArena/Cards/Treasure/Generic/Card_Treasure_Back_FK_SDArena.png',
 'http://htkb.online/SDWiki/SDE/FK/SDArena/Cards/Generic/Specific/Binding_Contract.xhtml', 
-'Treasure', 'FK Arena', 'FK SDArena', 'Default',
+'Treasure', 'FK SDArena', 'FK SDArena Core Set', 'Default',
 'It says right here, you are not allowed to do that.');
 insert into Equipment (CardIndex, Position, Effect) VALUES (460, 'Bottom', '');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (100, 495); --Dark Radiance
@@ -8028,7 +8028,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/SDArena/Cards/Treasure/Generic/Card_Treasure_Blackblade_Halberd_FK_SDArena.png', 
 'http://htkb.info/SDE/FK/SDArena/Cards/Treasure/Generic/Card_Treasure_Back_FK_SDArena.png',
 'http://htkb.online/SDWiki/SDE/FK/SDArena/Cards/Generic/Specific/Blackblade_Halberd.xhtml', 
-'Treasure', 'FK Arena', 'FK SDArena', 'Default',
+'Treasure', 'FK SDArena', 'FK SDArena Core Set', 'Default',
 'Like a scythe through chaff.');
 insert into Equipment (CardIndex, Position, Effect) VALUES (463, 'Right', '+1G STR');
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (103, 702); --No Mercy
@@ -8138,7 +8138,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/SDArena/Cards/Loot/Card_Loot_Brawlers_Knife_FK_SDArena.png', 
 'http://htkb.info/SDE/FK/SDArena/Cards/Loot/Card_Loot_Back_FK_SDArena.png', 
 'http://htkb.online/SDWiki/SDE/FK/SDArena/Cards/Loot/Brawlers_Knife.xhtml', 
-'Loot', 'FK Arena', 'FK SDArena', 'Default',
+'Loot', 'FK SDArena', 'FK SDArena Core Set', 'Default',
 'So, ya fancy yerself a fighter?');
 insert into Equipment (CardIndex, Position, Effect) VALUES (473, 'Left', '+1B ARM');
 
@@ -8192,7 +8192,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/SDArena/Cards/Loot/Card_Loot_Celestian_Hammer_FK_SDArena.png', 
 'http://htkb.info/SDE/FK/SDArena/Cards/Loot/Card_Loot_Back_FK_SDArena.png', 
 'http://htkb.online/SDWiki/SDE/FK/SDArena/Cards/Loot/Celestian_Hammer.xhtml', 
-'Loot', 'FK Arena', 'FK SDArena', 'Default',
+'Loot', 'FK SDArena', 'FK SDArena Core Set', 'Default',
 'Rivals the dwarves.  Just don''t tell the dwarves.');
 insert into Equipment (CardIndex, Position, Effect) VALUES (478, 'Left', '+1R STR');
 
@@ -8202,7 +8202,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/SDArena/Cards/Treasure/Generic/Card_Treasure_Chain_Gauntlets_FK_SDArena.png', 
 'http://htkb.info/SDE/FK/SDArena/Cards/Treasure/Generic/Card_Treasure_Back_FK_SDArena.png',
 'http://htkb.online/SDWiki/SDE/FK/SDArena/Cards/Generic/Specific/Chain_Gauntlets.xhtml', 
-'Treasure', 'FK Arena', 'FK SDArena', 'Default',
+'Treasure', 'FK SDArena', 'FK SDArena Core Set', 'Default',
 'Grapple this!');
 insert into Equipment (CardIndex, Position, Effect) VALUES (479, 'Top', '+1G STR');
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (119, 703); --Living Chains
@@ -8223,7 +8223,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/SDArena/Cards/Treasure/Generic/Card_Treasure_Challengers_Moxy_FK_SDArena.png', 
 'http://htkb.info/SDE/FK/SDArena/Cards/Treasure/Generic/Card_Treasure_Back_FK_SDArena.png',
 'http://htkb.online/SDWiki/SDE/FK/SDArena/Cards/Generic/Specific/Challengers_Moxy.xhtml', 
-'Treasure', 'FK Arena', 'FK SDArena', 'Default',
+'Treasure', 'FK SDArena', 'FK SDArena Core Set', 'Default',
 'I have to try!');
 insert into Equipment (CardIndex, Position, Effect) VALUES (481, 'Right', '+2R ARM');
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (121, 704); --Last Shot
@@ -8234,7 +8234,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/SDArena/Cards/Treasure/Generic/Card_Treasure_Champion_Plate_FK_SDArena.png', 
 'http://htkb.info/SDE/FK/SDArena/Cards/Treasure/Generic/Card_Treasure_Back_FK_SDArena.png',
 'http://htkb.online/SDWiki/SDE/FK/SDArena/Cards/Generic/Specific/Champion_Plate.xhtml', 
-'Treasure', 'FK Arena', 'FK SDArena', 'Default',
+'Treasure', 'FK SDArena', 'FK SDArena Core Set', 'Default',
 'Glory will be mine.');
 insert into Equipment (CardIndex, Position, Effect) VALUES (482, 'Right', '+1G ARM');
 
@@ -8244,7 +8244,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/SDArena/Cards/Treasure/Generic/Card_Treasure_Changeling_Cloak_FK_SDArena.png', 
 'http://htkb.info/SDE/FK/SDArena/Cards/Treasure/Generic/Card_Treasure_Back_FK_SDArena.png',
 'http://htkb.online/SDWiki/SDE/FK/SDArena/Cards/Generic/Specific/Changeling_Cloak.xhtml', 
-'Treasure', 'FK Arena', 'FK SDArena', 'Default',
+'Treasure', 'FK SDArena', 'FK SDArena Core Set', 'Default',
 'Power has a price.');
 insert into Equipment (CardIndex, Position, Effect) VALUES (483, 'Top', '+1R ARM');
 
@@ -8276,7 +8276,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/SDArena/Cards/Loot/Card_Loot_Citrine_Ring_FK_SDArena.png', 
 'http://htkb.info/SDE/FK/SDArena/Cards/Loot/Card_Loot_Back_FK_SDArena.png', 
 'http://htkb.online/SDWiki/SDE/FK/SDArena/Cards/Loot/Citrine_Ring.xhtml', 
-'Loot', 'FK Arena', 'FK SDArena', 'Default',
+'Loot', 'FK SDArena', 'FK SDArena Core Set', 'Default',
 'Strong!');
 insert into Equipment (CardIndex, Position, Effect) VALUES (486, 'Top', '+1B STR');
 
@@ -8286,7 +8286,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/SDArena/Cards/Treasure/Generic/Card_Treasure_Cloak_of_Brambles_FK_SDArena.png', 
 'http://htkb.info/SDE/FK/SDArena/Cards/Treasure/Generic/Card_Treasure_Back_FK_SDArena.png',
 'http://htkb.online/SDWiki/SDE/FK/SDArena/Cards/Generic/Specific/Cloak_of_Brambles.xhtml', 
-'Treasure', 'FK Arena', 'FK SDArena', 'Default',
+'Treasure', 'FK SDArena', 'FK SDArena Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, Position, Effect) VALUES (487, 'Top', '+1ST DEX');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (127, 466); --Backlash
@@ -8308,7 +8308,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/SDArena/Cards/Loot/Card_Loot_Clockwork_Rifle_FK_SDArena.png', 
 'http://htkb.info/SDE/FK/SDArena/Cards/Loot/Card_Loot_Back_FK_SDArena.png', 
 'http://htkb.online/SDWiki/SDE/FK/SDArena/Cards/Loot/Clockwork_Rifle.xhtml', 
-'Loot', 'FK Arena', 'FK SDArena', 'Default',
+'Loot', 'FK SDArena', 'FK SDArena Core Set', 'Default',
 'Always trust a gnome.');
 insert into Equipment (CardIndex, Position, Effect) VALUES (489, 'Right', '+1R DEX');
 
@@ -8318,7 +8318,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/SDArena/Cards/Treasure/Generic/Card_Treasure_Coven_Cloak_FK_SDArena.png', 
 'http://htkb.info/SDE/FK/SDArena/Cards/Treasure/Generic/Card_Treasure_Back_FK_SDArena.png',
 'http://htkb.online/SDWiki/SDE/FK/SDArena/Cards/Generic/Specific/Coven_Cloak.xhtml', 
-'Treasure', 'FK Arena', 'FK SDArena', 'Default',
+'Treasure', 'FK SDArena', 'FK SDArena Core Set', 'Default',
 'The Dark Realm''s power is not to be feared.');
 insert into Equipment (CardIndex, Position, Effect) VALUES (490, 'Top', '+1G WILL');
 
@@ -8328,7 +8328,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/SDArena/Cards/Treasure/Generic/Card_Treasure_Cowards_Ring_FK_SDArena.png', 
 'http://htkb.info/SDE/FK/SDArena/Cards/Treasure/Generic/Card_Treasure_Back_FK_SDArena.png',
 'http://htkb.online/SDWiki/SDE/FK/SDArena/Cards/Generic/Specific/Cowards_Ring.xhtml', 
-'Treasure', 'FK Arena', 'FK SDArena', 'Default',
+'Treasure', 'FK SDArena', 'FK SDArena Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, Position, Effect) VALUES (491, 'Bottom', '+2MO');
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (131, 624); --Sidestep
@@ -8360,7 +8360,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/SDArena/Cards/Treasure/Generic/Card_Treasure_Dagger_of_Ill_Intent_FK_SDArena.png', 
 'http://htkb.info/SDE/FK/SDArena/Cards/Treasure/Generic/Card_Treasure_Back_FK_SDArena.png',
 'http://htkb.online/SDWiki/SDE/FK/SDArena/Cards/Generic/Specific/Dagger_of_Ill_Intent.xhtml', 
-'Treasure', 'FK Arena', 'FK SDArena', 'Default',
+'Treasure', 'FK SDArena', 'FK SDArena Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, Position, Effect) VALUES (494, 'Left', '+2B WILL');
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (134, 705); --Sacrifice
@@ -8371,7 +8371,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/SDArena/Cards/Loot/Card_Loot_Dark_Scimitar_FK_SDArena.png', 
 'http://htkb.info/SDE/FK/SDArena/Cards/Loot/Card_Loot_Back_FK_SDArena.png', 
 'http://htkb.online/SDWiki/SDE/FK/SDArena/Cards/Loot/Dark_Scimitar.xhtml', 
-'Loot', 'FK Arena', 'FK SDArena', 'Default',
+'Loot', 'FK SDArena', 'FK SDArena Core Set', 'Default',
 'It may be nether-forged, but the evil costs extra.');
 insert into Equipment (CardIndex, Position, Effect) VALUES (495, 'Left', '+1ST STR');
 
@@ -8412,7 +8412,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/SDArena/Cards/Treasure/Generic/Card_Treasure_Deeproot_Robe_FK_SDArena.png', 
 'http://htkb.info/SDE/FK/SDArena/Cards/Treasure/Generic/Card_Treasure_Back_FK_SDArena.png',
 'http://htkb.online/SDWiki/SDE/FK/SDArena/Cards/Generic/Specific/Deeproot_Robe.xhtml', 
-'Treasure', 'FK Arena', 'FK SDArena', 'Default',
+'Treasure', 'FK SDArena', 'FK SDArena Core Set', 'Default',
 'The wisdom of the Deeproot Tree is beyond measure.');
 insert into Equipment (CardIndex, Position, Effect) VALUES (499, 'Right', '+1G WILL');
 
@@ -8422,7 +8422,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/SDArena/Cards/Treasure/Generic/Card_Treasure_Diamond_Brawler_FK_SDArena.png', 
 'http://htkb.info/SDE/FK/SDArena/Cards/Treasure/Generic/Card_Treasure_Back_FK_SDArena.png',
 'http://htkb.online/SDWiki/SDE/FK/SDArena/Cards/Generic/Specific/Diamond_Brawler.xhtml', 
-'Treasure', 'FK Arena', 'FK SDArena', 'Default',
+'Treasure', 'FK SDArena', 'FK SDArena Core Set', 'Default',
 'Who wants some!?');
 insert into Equipment (CardIndex, Position, Effect) VALUES (500, 'Left', '+1R ARM');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (140, 473); --Beserk
@@ -8475,7 +8475,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/SDArena/Cards/Treasure/Generic/Card_Treasure_Double_Cross_Doublet_FK_SDArena.png', 
 'http://htkb.info/SDE/FK/SDArena/Cards/Treasure/Generic/Card_Treasure_Back_FK_SDArena.png',
 'http://htkb.online/SDWiki/SDE/FK/SDArena/Cards/Generic/Specific/Double_Cross_Doublet.xhtml', 
-'Treasure', 'FK Arena', 'FK SDArena', 'Default',
+'Treasure', 'FK SDArena', 'FK SDArena Core Set', 'Default',
 'Stay close...for safety.');
 insert into Equipment (CardIndex, Position, Effect) VALUES (505, 'Right', '+1R ARM');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (145, 468); --Backstabber
@@ -8572,7 +8572,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/SDArena/Cards/Loot/Card_Loot_Elven_Circlet_FK_SDArena.png', 
 'http://htkb.info/SDE/FK/SDArena/Cards/Loot/Card_Loot_Back_FK_SDArena.png', 
 'http://htkb.online/SDWiki/SDE/FK/SDArena/Cards/Loot/Elven_Circlet.xhtml', 
-'Loot', 'FK Arena', 'FK SDArena', 'Default',
+'Loot', 'FK SDArena', 'FK SDArena Core Set', 'Default',
 'Through the wood with nary a sound.');
 insert into Equipment (CardIndex, Position, Effect) VALUES (514, 'Top', '+1R DEX');
 
@@ -8625,7 +8625,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/SDArena/Cards/Loot/Card_Loot_Emerald_Ring_FK_SDArena.png', 
 'http://htkb.info/SDE/FK/SDArena/Cards/Loot/Card_Loot_Back_FK_SDArena.png', 
 'http://htkb.online/SDWiki/SDE/FK/SDArena/Cards/Loot/Emerald_Ring.xhtml', 
-'Loot', 'FK Arena', 'FK SDArena', 'Default',
+'Loot', 'FK SDArena', 'FK SDArena Core Set', 'Default',
 'Quick!');
 insert into Equipment (CardIndex, Position, Effect) VALUES (519, 'Top', '+1B DEX');
 
@@ -8657,7 +8657,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/SDArena/Cards/Treasure/Generic/Card_Treasure_Fallen_Fury_FK_SDArena.png', 
 'http://htkb.info/SDE/FK/SDArena/Cards/Treasure/Generic/Card_Treasure_Back_FK_SDArena.png',
 'http://htkb.online/SDWiki/SDE/FK/SDArena/Cards/Generic/Specific/Fallen_Fury.xhtml', 
-'Treasure', 'FK Arena', 'FK SDArena', 'Default',
+'Treasure', 'FK SDArena', 'FK SDArena Core Set', 'Default',
 'I feel the rage of the Dark Celestians.');
 insert into Equipment (CardIndex, Position, Effect) VALUES (516, 'Left', '');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (162, 521); --Fury
@@ -8678,7 +8678,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/SDArena/Cards/Loot/Card_Loot_Feathered_Cloak_FK_SDArena.png', 
 'http://htkb.info/SDE/FK/SDArena/Cards/Loot/Card_Loot_Back_FK_SDArena.png', 
 'http://htkb.online/SDWiki/SDE/FK/SDArena/Cards/Loot/Feathered_Cloak.xhtml', 
-'Loot', 'FK Arena', 'FK SDArena', 'Default',
+'Loot', 'FK SDArena', 'FK SDArena Core Set', 'Default',
 'A shaman of style and sophistication.');
 insert into Equipment (CardIndex, Position, Effect) VALUES (524, 'Top', '+1R WILL');
 
@@ -8688,7 +8688,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/SDArena/Cards/Treasure/Generic/Card_Treasure_Fennek_Charm_FK_SDArena.png', 
 'http://htkb.info/SDE/FK/SDArena/Cards/Treasure/Generic/Card_Treasure_Back_FK_SDArena.png',
 'http://htkb.online/SDWiki/SDE/FK/SDArena/Cards/Generic/Specific/Fennek_Charm.xhtml', 
-'Treasure', 'FK Arena', 'FK SDArena', 'Default',
+'Treasure', 'FK SDArena', 'FK SDArena Core Set', 'Default',
 'Quick like a bunny.');
 insert into Equipment (CardIndex, Position, Effect) VALUES (525, 'Bottom', '+1G DEX');
 
@@ -8698,7 +8698,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/SDArena/Cards/Treasure/Generic/Card_Treasure_Fennek_War_Crown_FK_SDArena.png', 
 'http://htkb.info/SDE/FK/SDArena/Cards/Treasure/Generic/Card_Treasure_Back_FK_SDArena.png',
 'http://htkb.online/SDWiki/SDE/FK/SDArena/Cards/Generic/Specific/Fennek_War_Crown.xhtml', 
-'Treasure', 'FK Arena', 'FK SDArena', 'Default',
+'Treasure', 'FK SDArena', 'FK SDArena Core Set', 'Default',
 'It is a proud and noble warren.');
 insert into Equipment (CardIndex, Position, Effect) VALUES (526, 'Top', '+1R DEX +1AC');
 
@@ -8730,7 +8730,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/SDArena/Cards/Treasure/Generic/Card_Treasure_First_Order_Regalia_FK_SDArena.png', 
 'http://htkb.info/SDE/FK/SDArena/Cards/Treasure/Generic/Card_Treasure_Back_FK_SDArena.png',
 'http://htkb.online/SDWiki/SDE/FK/SDArena/Cards/Generic/Specific/First_Order_Regalia.xhtml', 
-'Treasure', 'FK Arena', 'FK SDArena', 'Default',
+'Treasure', 'FK SDArena', 'FK SDArena Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, Position, Effect) VALUES (529, 'Top', '+1R WILL');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (169, 691); --Insight
@@ -8751,7 +8751,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/SDArena/Cards/Treasure/Generic/Card_Treasure_Flameburst_FK_SDArena.png', 
 'http://htkb.info/SDE/FK/SDArena/Cards/Treasure/Generic/Card_Treasure_Back_FK_SDArena.png',
 'http://htkb.online/SDWiki/SDE/FK/SDArena/Cards/Generic/Specific/Flameburst.xhtml', 
-'Treasure', 'FK Arena', 'FK SDArena', 'Default',
+'Treasure', 'FK SDArena', 'FK SDArena Core Set', 'Default',
 'Fire it up!');
 insert into Equipment (CardIndex, Position, Effect) VALUES (531, 'Right', '+1R DEX');
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (171 , 706); --Flameburst Bolt
@@ -8773,7 +8773,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/SDArena/Cards/Loot/Card_Loot_Freyjan_War_Paws_FK_SDArena.png', 
 'http://htkb.info/SDE/FK/SDArena/Cards/Loot/Card_Loot_Back_FK_SDArena.png', 
 'http://htkb.online/SDWiki/SDE/FK/SDArena/Cards/Loot/Freyjan_War_Paws.xhtml', 
-'Loot', 'FK Arena', 'FK SDArena', 'Default',
+'Loot', 'FK SDArena', 'FK SDArena Core Set', 'Default',
 'Kitty''s got claws!');
 insert into Equipment (CardIndex, Position, Effect) VALUES (533, 'Top', '+1R STR');
 
@@ -8783,7 +8783,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/SDArena/Cards/Treasure/Generic/Card_Treasure_Frostbyte_Blade_FK_SDArena.png', 
 'http://htkb.info/SDE/FK/SDArena/Cards/Treasure/Generic/Card_Treasure_Back_FK_SDArena.png',
 'http://htkb.online/SDWiki/SDE/FK/SDArena/Cards/Generic/Specific/Frostbyte_Blade.xhtml', 
-'Treasure', 'FK Arena', 'FK SDArena', 'Default',
+'Treasure', 'FK SDArena', 'FK SDArena Core Set', 'Default',
 'I''m gonna name it, "Popsicle!"');
 insert into Equipment (CardIndex, Position, Effect) VALUES (534, 'Left', '+1R STR');
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (174, 707); --Icicle
@@ -8817,7 +8817,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/SDArena/Cards/Loot/Card_Loot_Gnarled_Staff_FK_SDArena.png', 
 'http://htkb.info/SDE/FK/SDArena/Cards/Loot/Card_Loot_Back_FK_SDArena.png', 
 'http://htkb.online/SDWiki/SDE/FK/SDArena/Cards/Loot/Gnarled_Staff.xhtml', 
-'Loot', 'FK Arena', 'FK SDArena', 'Default',
+'Loot', 'FK SDArena', 'FK SDArena Core Set', 'Default',
 'Straight from the Fae Wood.');
 insert into Equipment (CardIndex, Position, Effect) VALUES (537, 'Left', '+1B WILL');
 
@@ -8827,7 +8827,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/SDArena/Cards/Treasure/Generic/Card_Treasure_Grand_Orc_Armbands_FK_SDArena.png', 
 'http://htkb.info/SDE/FK/SDArena/Cards/Treasure/Generic/Card_Treasure_Back_FK_SDArena.png',
 'http://htkb.online/SDWiki/SDE/FK/SDArena/Cards/Generic/Specific/Grand_Orc_Armbands.xhtml', 
-'Treasure', 'FK Arena', 'FK SDArena', 'Default',
+'Treasure', 'FK SDArena', 'FK SDArena Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, Position, Effect) VALUES (538, 'Bottom', '+3B STR');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (178, 692); --Hunger
@@ -8860,7 +8860,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/SDArena/Cards/Loot/Card_Loot_Guards_Spear_FK_SDArena.png', 
 'http://htkb.info/SDE/FK/SDArena/Cards/Loot/Card_Loot_Back_FK_SDArena.png', 
 'http://htkb.online/SDWiki/SDE/FK/SDArena/Cards/Loot/Guards_Spear.xhtml', 
-'Loot', 'FK Arena', 'FK SDArena', 'Default',
+'Loot', 'FK SDArena', 'FK SDArena Core Set', 'Default',
 'Got it legal, I did!');
 insert into Equipment (CardIndex, Position, Effect) VALUES (541   , 'Right', '+1B STR');
 
@@ -8881,7 +8881,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/SDArena/Cards/Treasure/Generic/Card_Treasure_Hammer_Brooch_FK_SDArena.png', 
 'http://htkb.info/SDE/FK/SDArena/Cards/Treasure/Generic/Card_Treasure_Back_FK_SDArena.png',
 'http://htkb.online/SDWiki/SDE/FK/SDArena/Cards/Generic/Specific/Hammer_Brooch.xhtml', 
-'Treasure', 'FK Arena', 'FK SDArena', 'Default',
+'Treasure', 'FK SDArena', 'FK SDArena Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, Position, Effect) VALUES (543, 'Top', '+1R STR');
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (183, 693); --Bulldozer
@@ -8903,7 +8903,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/SDArena/Cards/Loot/Card_Loot_Hawk_Bow_FK_SDArena.png', 
 'http://htkb.info/SDE/FK/SDArena/Cards/Loot/Card_Loot_Back_FK_SDArena.png', 
 'http://htkb.online/SDWiki/SDE/FK/SDArena/Cards/Loot/Hawk_Bow.xhtml', 
-'Loot', 'FK Arena', 'FK SDArena', 'Default',
+'Loot', 'FK SDArena', 'FK SDArena Core Set', 'Default',
 'The feathers actually obscure my sight!');
 insert into Equipment (CardIndex, Position, Effect) VALUES (545, 'Left', '+1R DEX');
 
@@ -8913,7 +8913,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/SDArena/Cards/Loot/Card_Loot_Heart_Blade_Pendant_FK_SDArena.png', 
 'http://htkb.info/SDE/FK/SDArena/Cards/Loot/Card_Loot_Back_FK_SDArena.png', 
 'http://htkb.online/SDWiki/SDE/FK/SDArena/Cards/Loot/Heart_Blade_Pendant.xhtml', 
-'Loot', 'FK Arena', 'FK SDArena', 'Default',
+'Loot', 'FK SDArena', 'FK SDArena Core Set', 'Default',
 'Also doubles as a backup dagger.');
 insert into Equipment (CardIndex, Position, Effect) VALUES (546, 'Bottom', '+1HE');
 
@@ -8933,7 +8933,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/SDArena/Cards/Treasure/Generic/Card_Treasure_Heroic_Spear_FK_SDArena.png', 
 'http://htkb.info/SDE/FK/SDArena/Cards/Treasure/Generic/Card_Treasure_Back_FK_SDArena.png',
 'http://htkb.online/SDWiki/SDE/FK/SDArena/Cards/Generic/Specific/Heroic_Spear.xhtml', 
-'Treasure', 'FK Arena', 'FK SDArena', 'Default',
+'Treasure', 'FK SDArena', 'FK SDArena Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, Position, Effect) VALUES (548, 'Right', '+1R STR');
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (188, 708); --Heroic Advance
@@ -8967,7 +8967,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/SDArena/Cards/Loot/Card_Loot_Honed_Blade_FK_SDArena.png', 
 'http://htkb.info/SDE/FK/SDArena/Cards/Loot/Card_Loot_Back_FK_SDArena.png', 
 'http://htkb.online/SDWiki/SDE/FK/SDArena/Cards/Loot/Honed_Blade.xhtml', 
-'Loot', 'FK Arena', 'FK SDArena', 'Default',
+'Loot', 'FK SDArena', 'FK SDArena Core Set', 'Default',
 'A fine blade.');
 insert into Equipment (CardIndex, Position, Effect) VALUES (551, 'Left', '+1B STR');
 
@@ -8977,7 +8977,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/SDArena/Cards/Treasure/Generic/Card_Treasure_Icebreaker_FK_SDArena.png', 
 'http://htkb.info/SDE/FK/SDArena/Cards/Treasure/Generic/Card_Treasure_Back_FK_SDArena.png',
 'http://htkb.online/SDWiki/SDE/FK/SDArena/Cards/Generic/Specific/Icebreaker.xhtml', 
-'Treasure', 'FK Arena', 'FK SDArena', 'Default',
+'Treasure', 'FK SDArena', 'FK SDArena Core Set', 'Default',
 'The Frostbyte burns!');
 insert into Equipment (CardIndex, Position, Effect) VALUES (552, 'Left', '+1G WILL');
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (192, 709); --Ice Chipper
@@ -9022,7 +9022,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/SDArena/Cards/Treasure/Generic/Card_Treasure_Kitty_Cat_Charm_FK_SDArena.png', 
 'http://htkb.info/SDE/FK/SDArena/Cards/Treasure/Generic/Card_Treasure_Back_FK_SDArena.png',
 'http://htkb.online/SDWiki/SDE/FK/SDArena/Cards/Generic/Specific/Kitty_Cat_Charm.xhtml', 
-'Treasure', 'FK Arena', 'FK SDArena', 'Default',
+'Treasure', 'FK SDArena', 'FK SDArena Core Set', 'Default',
 'Lucky Kitty!');
 insert into Equipment (CardIndex, Position, Effect) VALUES (556, 'Top', '+2R DEX');
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (196, 710); --Hex Blast
@@ -9044,7 +9044,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/SDArena/Cards/Loot/Card_Loot_Leather_Jerkin_FK_SDArena.png', 
 'http://htkb.info/SDE/FK/SDArena/Cards/Loot/Card_Loot_Back_FK_SDArena.png', 
 'http://htkb.online/SDWiki/SDE/FK/SDArena/Cards/Loot/Leather_Jerkin.xhtml', 
-'Loot', 'FK Arena', 'FK SDArena', 'Default',
+'Loot', 'FK SDArena', 'FK SDArena Core Set', 'Default',
 'Steel? Ha, you''re lucky you get this!');
 insert into Equipment (CardIndex, Position, Effect) VALUES (558, 'Right', '+1B ARM');
 
@@ -9076,7 +9076,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/SDArena/Cards/Loot/Card_Loot_Lucky_Gold_Piece_FK_SDArena.png', 
 'http://htkb.info/SDE/FK/SDArena/Cards/Loot/Card_Loot_Back_FK_SDArena.png', 
 'http://htkb.online/SDWiki/SDE/FK/SDArena/Cards/Loot/Lucky_Gold_Piece.xhtml', 
-'Loot', 'FK Arena', 'FK SDArena', 'Default',
+'Loot', 'FK SDArena', 'FK SDArena Core Set', 'Default',
 'Always flips my way.');
 insert into Equipment (CardIndex, Position, Effect) VALUES (561, 'Top', '+1ST DEX');
 
@@ -9109,7 +9109,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/SDArena/Cards/Loot/Card_Loot_Masterwork_Bow_FK_SDArena.png', 
 'http://htkb.info/SDE/FK/SDArena/Cards/Loot/Card_Loot_Back_FK_SDArena.png', 
 'http://htkb.online/SDWiki/SDE/FK/SDArena/Cards/Loot/Masterwork_Bow.xhtml', 
-'Loot', 'FK Arena', 'FK SDArena', 'Default',
+'Loot', 'FK SDArena', 'FK SDArena Core Set', 'Default',
 'The balance is perfect.');
 insert into Equipment (CardIndex, Position, Effect) VALUES (564, 'Left', '+1B DEX');
 
@@ -9119,7 +9119,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/SDArena/Cards/Loot/Card_Loot_Masterwork_Crossbow_FK_SDArena.png', 
 'http://htkb.info/SDE/FK/SDArena/Cards/Loot/Card_Loot_Back_FK_SDArena.png', 
 'http://htkb.online/SDWiki/SDE/FK/SDArena/Cards/Loot/Masterwork_Crossbow.xhtml', 
-'Loot', 'FK Arena', 'FK SDArena', 'Default',
+'Loot', 'FK SDArena', 'FK SDArena Core Set', 'Default',
 'Perfect punctures every time.');
 insert into Equipment (CardIndex, Position, Effect) VALUES (565, 'Right', '+1ST DEX');
 
@@ -9129,7 +9129,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/SDArena/Cards/Treasure/Generic/Card_Treasure_Merciful_The_FK_SDArena.png', 
 'http://htkb.info/SDE/FK/SDArena/Cards/Treasure/Generic/Card_Treasure_Back_FK_SDArena.png',
 'http://htkb.online/SDWiki/SDE/FK/SDArena/Cards/Generic/Specific/Merciful_The.xhtml', 
-'Treasure', 'FK Arena', 'FK SDArena', 'Default',
+'Treasure', 'FK SDArena', 'FK SDArena Core Set', 'Default',
 'I''ll make it quick.  There will be some pain...');
 insert into Equipment (CardIndex, Position, Effect) VALUES (566, 'Left', '+1G STR');
 
@@ -9161,7 +9161,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/SDArena/Cards/Treasure/Generic/Card_Treasure_Moon_Bow_FK_SDArena.png', 
 'http://htkb.info/SDE/FK/SDArena/Cards/Treasure/Generic/Card_Treasure_Back_FK_SDArena.png',
 'http://htkb.online/SDWiki/SDE/FK/SDArena/Cards/Generic/Specific/Moon_Bow.xhtml', 
-'Treasure', 'FK Arena', 'FK SDArena', 'Default',
+'Treasure', 'FK SDArena', 'FK SDArena Core Set', 'Default',
 'I''m a natural.');
 insert into Equipment (CardIndex, Position, Effect) VALUES (569, 'Left', '+1G DEX');
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (209, 711); --Moon Shot
@@ -9184,7 +9184,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/SDArena/Cards/Loot/Card_Loot_Mysterious_Travelers_Cloak_FK_SDArena.png', 
 'http://htkb.info/SDE/FK/SDArena/Cards/Loot/Card_Loot_Back_FK_SDArena.png', 
 'http://htkb.online/SDWiki/SDE/FK/SDArena/Cards/Loot/Mysterious_Travelers_Cloak.xhtml', 
-'Loot', 'FK Arena', 'FK SDArena', 'Default',
+'Loot', 'FK SDArena', 'FK SDArena Core Set', 'Default',
 'Ho there, stranger!');
 insert into Equipment (CardIndex, Position, Effect) VALUES (571, 'Top', '+1R ARM');
 
@@ -9326,7 +9326,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/SDArena/Cards/Treasure/Generic/Card_Treasure_Phoenix_Call_FK_SDArena.png', 
 'http://htkb.info/SDE/FK/SDArena/Cards/Treasure/Generic/Card_Treasure_Back_FK_SDArena.png',
 'http://htkb.online/SDWiki/SDE/FK/SDArena/Cards/Generic/Specific/Phoenix_Call.xhtml', 
-'Treasure', 'FK Arena', 'FK SDArena', 'Default',
+'Treasure', 'FK SDArena', 'FK SDArena Core Set', 'Default',
 'Let the flame revive and purify.');
 insert into Equipment (CardIndex, Position, Effect) VALUES (584, 'Left', '+2B DEX');
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (224, 712); --Reborn
@@ -9338,7 +9338,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/SDArena/Cards/Loot/Card_Loot_Pickpocket_Gloves_FK_SDArena.png', 
 'http://htkb.info/SDE/FK/SDArena/Cards/Loot/Card_Loot_Back_FK_SDArena.png', 
 'http://htkb.online/SDWiki/SDE/FK/SDArena/Cards/Loot/Pickpocket_Gloves.xhtml', 
-'Loot', 'FK Arena', 'FK SDArena', 'Default',
+'Loot', 'FK SDArena', 'FK SDArena Core Set', 'Default',
 'I''ll take that...');
 insert into Equipment (CardIndex, Position, Effect) VALUES (585, 'Bottom', '+1B DEX');
 
@@ -9370,7 +9370,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/SDArena/Cards/Loot/Card_Loot_Platemail_Bikini_FK_SDArena.png', 
 'http://htkb.info/SDE/FK/SDArena/Cards/Loot/Card_Loot_Back_FK_SDArena.png', 
 'http://htkb.online/SDWiki/SDE/FK/SDArena/Cards/Loot/Platemail_Bikini.xhtml', 
-'Loot', 'FK Arena', 'FK SDArena', 'Default',
+'Loot', 'FK SDArena', 'FK SDArena Core Set', 'Default',
 'I wear this under my real armor, right?');
 insert into Equipment (CardIndex, Position, Effect) VALUES (588, 'Top', '+1B ARM');
 
@@ -9380,7 +9380,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/SDArena/Cards/Loot/Card_Loot_Poor_Mans_Heart_FK_SDArena.png', 
 'http://htkb.info/SDE/FK/SDArena/Cards/Loot/Card_Loot_Back_FK_SDArena.png', 
 'http://htkb.online/SDWiki/SDE/FK/SDArena/Cards/Loot/Poor_Mans_Heart.xhtml', 
-'Loot', 'FK Arena', 'FK SDArena', 'Default',
+'Loot', 'FK SDArena', 'FK SDArena Core Set', 'Default',
 'It''s all I could afford.');
 insert into Equipment (CardIndex, Position, Effect) VALUES (589, 'Bottom', '');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (229, 557); --Immune: Status Effects
@@ -9425,7 +9425,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/SDArena/Cards/Loot/Card_Loot_Potion_Bandolier_FK_SDArena.png', 
 'http://htkb.info/SDE/FK/SDArena/Cards/Loot/Card_Loot_Back_FK_SDArena.png', 
 'http://htkb.online/SDWiki/SDE/FK/SDArena/Cards/Loot/Potion_Bandolier.xhtml', 
-'Loot', 'FK Arena', 'FK SDArena', 'Default',
+'Loot', 'FK SDArena', 'FK SDArena Core Set', 'Default',
 'They taste so good.');
 insert into Equipment (CardIndex, Position, Effect) VALUES (593, 'Bottom', '+1 Potion');
 
@@ -9446,7 +9446,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/SDArena/Cards/Treasure/Generic/Card_Treasure_Pure_Heart_Pendant_FK_SDArena.png', 
 'http://htkb.info/SDE/FK/SDArena/Cards/Treasure/Generic/Card_Treasure_Back_FK_SDArena.png',
 'http://htkb.online/SDWiki/SDE/FK/SDArena/Cards/Generic/Specific/Pure_Heart_Pendant.xhtml', 
-'Treasure', 'FK Arena', 'FK SDArena', 'Default',
+'Treasure', 'FK SDArena', 'FK SDArena Core Set', 'Default',
 'The power of heart!');
 insert into Equipment (CardIndex, Position, Effect) VALUES (595, 'Bottom', '+1HE +2MO');
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (235, 554); --Immune: Knockdown
@@ -9492,7 +9492,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/SDArena/Cards/Treasure/Generic/Card_Treasure_Rift_Blade_FK_SDArena.png', 
 'http://htkb.info/SDE/FK/SDArena/Cards/Treasure/Generic/Card_Treasure_Back_FK_SDArena.png',
 'http://htkb.online/SDWiki/SDE/FK/SDArena/Cards/Generic/Specific/Rift_Blade.xhtml', 
-'Treasure', 'FK Arena', 'FK SDArena', 'Default',
+'Treasure', 'FK SDArena', 'FK SDArena Core Set', 'Default',
 'The Nether Rifts feed upon misery.');
 insert into Equipment (CardIndex, Position, Effect) VALUES (599, 'Left', '+2B STR');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (239, 694); --Bleed
@@ -9534,7 +9534,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/SDArena/Cards/Treasure/Generic/Card_Treasure_Royal_Cloak_FK_SDArena.png', 
 'http://htkb.info/SDE/FK/SDArena/Cards/Treasure/Generic/Card_Treasure_Back_FK_SDArena.png',
 'http://htkb.online/SDWiki/SDE/FK/SDArena/Cards/Generic/Specific/Royal_Cloak.xhtml', 
-'Treasure', 'FK Arena', 'FK SDArena', 'Default',
+'Treasure', 'FK SDArena', 'FK SDArena Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, Position, Effect) VALUES (603, 'Top', '+1B STR');
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (243, 713); --Together Now
@@ -9556,7 +9556,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/SDArena/Cards/Treasure/Generic/Card_Treasure_Ruby_Rocket_FK_SDArena.png', 
 'http://htkb.info/SDE/FK/SDArena/Cards/Treasure/Generic/Card_Treasure_Back_FK_SDArena.png',
 'http://htkb.online/SDWiki/SDE/FK/SDArena/Cards/Generic/Specific/Ruby_Rocket.xhtml', 
-'Treasure', 'FK Arena', 'FK SDArena', 'Default',
+'Treasure', 'FK SDArena', 'FK SDArena Core Set', 'Default',
 'That''s some kick!');
 insert into Equipment (CardIndex, Position, Effect) VALUES (605, 'Right', '+1G DEX');
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (245, 714); --Step Back
@@ -9589,7 +9589,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/SDArena/Cards/Loot/Card_Loot_Sacrificial_Dagger_FK_SDArena.png', 
 'http://htkb.info/SDE/FK/SDArena/Cards/Loot/Card_Loot_Back_FK_SDArena.png', 
 'http://htkb.online/SDWiki/SDE/FK/SDArena/Cards/Loot/Sacrificial_Dagger.xhtml', 
-'Loot', 'FK Arena', 'FK SDArena', 'Default',
+'Loot', 'FK SDArena', 'FK SDArena Core Set', 'Default',
 'I think that''s against the law.');
 insert into Equipment (CardIndex, Position, Effect) VALUES (608, 'Left', '+1R WILL');
 
@@ -9632,7 +9632,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/SDArena/Cards/Loot/Card_Loot_Shadow_Wings_FK_SDArena.png', 
 'http://htkb.info/SDE/FK/SDArena/Cards/Loot/Card_Loot_Back_FK_SDArena.png', 
 'http://htkb.online/SDWiki/SDE/FK/SDArena/Cards/Loot/Shadow_Wings.xhtml', 
-'Loot', 'FK Arena', 'FK SDArena', 'Default',
+'Loot', 'FK SDArena', 'FK SDArena Core Set', 'Default',
 'Oh, I move so fast now!');
 insert into Equipment (CardIndex, Position, Effect) VALUES (612, 'Bottom', '+2MO');
 
@@ -9642,7 +9642,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/SDArena/Cards/Treasure/Generic/Card_Treasure_Shield_Ring_FK_SDArena.png', 
 'http://htkb.info/SDE/FK/SDArena/Cards/Treasure/Generic/Card_Treasure_Back_FK_SDArena.png',
 'http://htkb.online/SDWiki/SDE/FK/SDArena/Cards/Generic/Specific/Shield_Ring.xhtml', 
-'Treasure', 'FK Arena', 'FK SDArena', 'Default',
+'Treasure', 'FK SDArena', 'FK SDArena Core Set', 'Default',
 'Like a shield, but lighter.');
 insert into Equipment (CardIndex, Position, Effect) VALUES (613, 'Top', '+2R ARM');
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (253, 715); --Force Ram
@@ -9686,7 +9686,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/SDArena/Cards/Loot/Card_Loot_Single_Shot_FK_SDArena.png', 
 'http://htkb.info/SDE/FK/SDArena/Cards/Loot/Card_Loot_Back_FK_SDArena.png', 
 'http://htkb.online/SDWiki/SDE/FK/SDArena/Cards/Loot/Single_Shot.xhtml', 
-'Loot', 'FK Arena', 'FK SDArena', 'Default',
+'Loot', 'FK SDArena', 'FK SDArena Core Set', 'Default',
 'Never trust a gnome.');
 insert into Equipment (CardIndex, Position, Effect) VALUES (617, 'Right', '+1B DEX');
 
@@ -9696,7 +9696,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/SDArena/Cards/Loot/Card_Loot_Soldiers_Halberd_FK_SDArena.png', 
 'http://htkb.info/SDE/FK/SDArena/Cards/Loot/Card_Loot_Back_FK_SDArena.png', 
 'http://htkb.online/SDWiki/SDE/FK/SDArena/Cards/Loot/Soldiers_Halberd.xhtml', 
-'Loot', 'FK Arena', 'FK SDArena', 'Default',
+'Loot', 'FK SDArena', 'FK SDArena Core Set', 'Default',
 'The crown guard itself doesn''t have finer.');
 insert into Equipment (CardIndex, Position, Effect) VALUES (618, 'Right', '+1R STR');
 
@@ -9706,7 +9706,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/SDArena/Cards/Loot/Card_Loot_Sorcerous_Hood_FK_SDArena.png', 
 'http://htkb.info/SDE/FK/SDArena/Cards/Loot/Card_Loot_Back_FK_SDArena.png', 
 'http://htkb.online/SDWiki/SDE/FK/SDArena/Cards/Loot/Sorcerous_Hood.xhtml', 
-'Loot', 'FK Arena', 'FK SDArena', 'Default',
+'Loot', 'FK SDArena', 'FK SDArena Core Set', 'Default',
 'I was expecting....I don''t know....more.');
 insert into Equipment (CardIndex, Position, Effect) VALUES (619, 'Top', '+1B WILL');
 
@@ -9716,7 +9716,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/SDArena/Cards/Treasure/Generic/Card_Treasure_Soulblaze_Armor_FK_SDArena.png', 
 'http://htkb.info/SDE/FK/SDArena/Cards/Treasure/Generic/Card_Treasure_Back_FK_SDArena.png',
 'http://htkb.online/SDWiki/SDE/FK/SDArena/Cards/Generic/Specific/Soulblaze_Armor.xhtml', 
-'Treasure', 'FK Arena', 'FK SDArena', 'Default',
+'Treasure', 'FK SDArena', 'FK SDArena Core Set', 'Default',
 'I have strength you cannot begin to comprehend.');
 insert into Equipment (CardIndex, Position, Effect) VALUES (620, 'Right', '+1R WILL');
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (261, 716); --Soul Wave
@@ -9727,7 +9727,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/SDArena/Cards/Treasure/Generic/Card_Treasure_Soulblaze_Bracers_FK_SDArena.png', 
 'http://htkb.info/SDE/FK/SDArena/Cards/Treasure/Generic/Card_Treasure_Back_FK_SDArena.png',
 'http://htkb.online/SDWiki/SDE/FK/SDArena/Cards/Generic/Specific/Soulblase_Bracers.xhtml', 
-'Treasure', 'FK Arena', 'FK SDArena', 'Default',
+'Treasure', 'FK SDArena', 'FK SDArena Core Set', 'Default',
 'I burn bright and true!');
 insert into Equipment (CardIndex, Position, Effect) VALUES (621, 'Bottom', '+1R WILL');
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (262, 717); --Soul Lance
@@ -9759,7 +9759,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/SDArena/Cards/Treasure/Generic/Card_Treasure_Staff_of_Spring_FK_SDArena.png', 
 'http://htkb.info/SDE/FK/SDArena/Cards/Treasure/Generic/Card_Treasure_Back_FK_SDArena.png',
 'http://htkb.online/SDWiki/SDE/FK/SDArena/Cards/Generic/Specific/Staff_of_Spring.xhtml', 
-'Treasure', 'FK Arena', 'FK SDArena', 'Default',
+'Treasure', 'FK SDArena', 'FK SDArena Core Set', 'Default',
 'Let life bloom!');
 insert into Equipment (CardIndex, Position, Effect) VALUES (624, 'Left', '+1R WILL');
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (265, 718); --Rejuvenate
@@ -9835,7 +9835,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/SDArena/Cards/Loot/Card_Loot_Training_Robe_FK_SDArena.png', 
 'http://htkb.info/SDE/FK/SDArena/Cards/Loot/Card_Loot_Back_FK_SDArena.png', 
 'http://htkb.online/SDWiki/SDE/FK/SDArena/Cards/Loot/Training_Robe.xhtml', 
-'Loot', 'FK Arena', 'FK SDArena', 'Default',
+'Loot', 'FK SDArena', 'FK SDArena Core Set', 'Default',
 'So you want to be a wizard?');
 insert into Equipment (CardIndex, Position, Effect) VALUES (630, 'Right', '+1B WILL');
 
@@ -9856,7 +9856,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/SDArena/Cards/Treasure/Generic/Card_Treasure_Unbreakable_FK_SDArena.png', 
 'http://htkb.info/SDE/FK/SDArena/Cards/Treasure/Generic/Card_Treasure_Back_FK_SDArena.png',
 'http://htkb.online/SDWiki/SDE/FK/SDArena/Cards/Generic/Specific/Unbreakable.xhtml', 
-'Treasure', 'FK Arena', 'FK SDArena', 'Default',
+'Treasure', 'FK SDArena', 'FK SDArena Core Set', 'Default',
 'Come on, hit me!');
 insert into Equipment (CardIndex, Position, Effect) VALUES (632, 'Right', '+3B ARM');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (274, 695); --Sturdy
@@ -9889,7 +9889,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/SDArena/Cards/Treasure/Generic/Card_Treasure_Viper_Chain_FK_SDArena.png', 
 'http://htkb.info/SDE/FK/SDArena/Cards/Treasure/Generic/Card_Treasure_Back_FK_SDArena.png',
 'http://htkb.online/SDWiki/SDE/FK/SDArena/Cards/Generic/Specific/Viper_Chain.xhtml', 
-'Treasure', 'FK Arena', 'FK SDArena', 'Default',
+'Treasure', 'FK SDArena', 'FK SDArena Core Set', 'Default',
 'One drop could kill.');
 insert into Equipment (CardIndex, Position, Effect) VALUES (635, 'Bottom', '+1 Potion');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (277, 588); --Poison
@@ -9901,7 +9901,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/SDArena/Cards/Treasure/Generic/Card_Treasure_Vitamin_Supplement_FK_SDArena.png', 
 'http://htkb.info/SDE/FK/SDArena/Cards/Treasure/Generic/Card_Treasure_Back_FK_SDArena.png',
 'http://htkb.online/SDWiki/SDE/FK/SDArena/Cards/Generic/Specific/Vitamin_Supplement.xhtml', 
-'Treasure', 'FK Arena', 'FK SDArena', 'Default',
+'Treasure', 'FK SDArena', 'FK SDArena Core Set', 'Default',
 'It''s totally not candy...');
 insert into Equipment (CardIndex, Position, Effect) VALUES (636, 'Bottom', '+2MO');
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (278, 719); --Take This
@@ -10172,10 +10172,10 @@ insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (12, 692); --
 --Backpack	--CardIndex 662 --UtilityIndex 13
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
 VALUES ('Backpack',
-'http://htkb.info/SDE/FK/Cards/Utility/Card_Terrain_Backpack_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Utility/Card_Terrain_Backpack_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Utility/Card_Utility_Backpack_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Utility/Card_Utility_Backpack_FK.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Backpack.xhtml', 
-'Terrain', 'FK', 'FK Core Set', 'Default', '');
+'Utility', 'FK', 'FK Core Set', 'Default', '');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (662, '');
 
 --Classic Might Monster Chart	--CardIndex 663 --UtilityIndex 14
@@ -10184,7 +10184,7 @@ VALUES ('Classic Might Monster Chart',
 'http://htkb.info/SDE/FK/Cards/Utility/Card_Utility_Classic_Mode_Mighty_Monster_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Utility/Card_Utility_Classic_Mode_Mighty_Monster_FK.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Classic_Mighty_Monster_Chart.xhtml', 
-'Terrain', 'FK', 'FK Core Set', 'Default', '');
+'Utility', 'FK', 'FK Core Set', 'Default', '');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (663, '');
 
 --Elemental Affinity	--CardIndex 664 --UtilityIndex 15
@@ -10202,22 +10202,22 @@ insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (15, 557); --
 insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (15, 596); --Predator
 insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (15, 625); --Slow
 
---Arcade Might Monster Chart	--CardIndex 665 --UtilityIndex 16
+--Arcade Mighty Monster Chart	--CardIndex 665 --UtilityIndex 16
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
 VALUES ('Arcade Might Monster Chart',
-'http://htkb.info/SDE/FK/Cards/Arcade/Utility/Card_Utility_Arcade_Mode_Might_Monster_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Arcade/Utility/Card_Utility_Arcade_Mode_Might_Monster_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Arcade/Utility/Card_Utility_Arcade_Mode_Mighty_Monster_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Arcade/Utility/Card_Utility_Arcade_Mode_Mighty_Monster_FK.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Arcade_Mighty_Monster_Chart.xhtml', 
-'Terrain', 'FK', 'FK Core Set', 'Default', '');
+'Utility', 'FK', 'FK Core Set', 'Arcade', '');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (665, '');
 
---Elemental Affinity	--CardIndex 666 --UtilityIndex 17
+--Arcade Wrath Chart	--CardIndex 666 --UtilityIndex 17
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
 VALUES ('Arcade Wrath Chart',
 'http://htkb.info/SDE/FK/Cards/Arcade/Utility/Card_Utility_Arcade_Mode_Wrath_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Utility/Card_Utility_Arcade_Mode_Wrath_FK.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Arcade_Wrath_Chart.xhtml', 
-'Terrain', 'FK', 'FK Core Set', 'Default', '');
+'Utility', 'FK', 'FK Core Set', 'Arcade', '');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (666, '');
 
 --FK Explore Cards
@@ -11241,6 +11241,26 @@ insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 176);	
 insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 289);	--Nocturne: Arcade
 
 
+--FK SD Arena Hero
+--Arena Champion --CardIndex 737	--CharacterIndex 347	--ExploreCharacterIndex 252
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+'Arena Champion', 
+'http://htkb.info/SDE/FK/SDArena/Cards/Heroes/Card_Hero_Angry_Bear_FK.png', 
+'http://htkb.info/SDE/FK/SDArena/Cards/Heroes/Card_Hero_Angry_Bear_FK_back.png', 
+'http://htkb.online/SDWiki/SDE/FK/SDArena/Cards/Heroes/Arena Champion.xhtml', 
+'Hero', 'FK SDArena', 'FK SDArena Core Set', 'Default', 
+'The fennek are a reclusive race.  To see one participate in the Arena is shocking.  To see one rise to become Arena Champion is almost unfathomable.  Yet there are rumors that the fennek secretly run the Arena, searching for Heroes worthy of defending the far-flung roots of the Deeproot Tree.  Indeed, those rare few Heroes who ahve defeated the reigning Arena Champion have all gone on to achieve legendary deeds in serivce of the Deeproot.  Perhaps there is truth to the rumors after all?');
+insert into Characters (CardIndex) VALUES (737);
+insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
+347, 'Feminine', 'Small', 'Fennek', 6, 3, '2B1R', '2R', '2B', '3B', 5, 1);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (347, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (347, 2); --Emerald
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (252, 720); --Destruction
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (252, 721); --Queen of the Hill
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (252, 722); --Captain Capture
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (252, 723); --Cure Cordial
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (252, 1, 2); --Strength
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (252, 2); --Armor
 
 
 
