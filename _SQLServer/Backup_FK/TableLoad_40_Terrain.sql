@@ -5,7 +5,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 VALUES ('Brambles',
 'http://htkb.info/SDE/FK/Cards/Utility/Terrain/Card_Terrain_Brambles_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Utility/Terrain/Card_Terrain_Back_FK.png', 
-'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Brambles.xhtml', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Terrain_Cards/Brambles.xhtml', 
 'Terrain', 'FK', 'FK Core Set', 'Default', '');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (652, ''); 
 insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (3, 589); --Poison
@@ -16,7 +16,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 VALUES ('Champion',
 'http://htkb.info/SDE/FK/Cards/Utility/Terrain/Card_Terrain_Champion_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Utility/Terrain/Card_Terrain_Back_FK.png', 
-'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Champion.xhtml', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Terrain_Cards/Champion.xhtml', 
 'Terrain', 'FK', 'FK Core Set', 'Default', '');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (653, ''); 
 insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (4, 484); --Champion
@@ -28,7 +28,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 VALUES ('Chasm',
 'http://htkb.info/SDE/FK/Cards/Utility/Terrain/Card_Terrain_Chasm_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Utility/Terrain/Card_Terrain_Back_FK.png', 
-'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Chasm.xhtml', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Terrain_Cards/Chasm.xhtml', 
 'Terrain', 'FK', 'FK Core Set', 'Default', '');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (654, ''); 
 insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (5, 485); --Chasm
@@ -38,7 +38,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 VALUES ('Difficult Terrain',
 'http://htkb.info/SDE/FK/Cards/Utility/Terrain/Card_Terrain_Difficult_Terrain_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Utility/Terrain/Card_Terrain_Back_FK.png', 
-'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Difficult_Terrain.xhtml', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Terrain_Cards/Difficult_Terrain.xhtml', 
 'Terrain', 'FK', 'FK Core Set', 'Default', '');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (655, ''); 
 insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (6, 485); --Difficult Terrain
@@ -48,7 +48,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 VALUES ('Fresh Grave',
 'http://htkb.info/SDE/FK/Cards/Utility/Terrain/Card_Terrain_Fresh_Grave_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Utility/Terrain/Card_Terrain_Back_FK.png', 
-'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Fresh_Grave.xhtml', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Terrain_Cards/Fresh_Grave.xhtml', 
 'Terrain', 'FK', 'FK Core Set', 'Default', '');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (656, ''); 
 insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (7, 520); --Fresh Grave
@@ -58,7 +58,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 VALUES ('Goddess',
 'http://htkb.info/SDE/FK/Cards/Utility/Terrain/Card_Terrain_Goddess_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Utility/Terrain/Card_Terrain_Back_FK.png', 
-'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Goddess.xhtml', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Terrain_Cards/Goddess.xhtml', 
 'Terrain', 'FK', 'FK Core Set', 'Default', '');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (657, ''); 
 insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (8, 484); --Goddess
@@ -70,7 +70,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 VALUES ('Secret Passage',
 'http://htkb.info/SDE/FK/Cards/Utility/Terrain/Card_Terrain_Secret_Passage_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Utility/Terrain/Card_Terrain_Back_FK.png', 
-'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Secret_Passage.xhtml', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Terrain_Cards/Secret_Passage.xhtml', 
 'Terrain', 'FK', 'FK Core Set', 'Default', '');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (658, ''); 
 insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (9, 611); --Secret Passage
@@ -80,7 +80,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 VALUES ('Sentinel',
 'http://htkb.info/SDE/FK/Cards/Utility/Terrain/Card_Terrain_Sentinel_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Utility/Terrain/Card_Terrain_Back_FK.png', 
-'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Sentinel.xhtml', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Terrain_Cards/Sentinel.xhtml', 
 'Terrain', 'FK', 'FK Core Set', 'Default', '');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (659, ''); 
 insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (10, 484); --Sentinel
@@ -92,7 +92,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 VALUES ('Spawn Location',
 'http://htkb.info/SDE/FK/Cards/Utility/Terrain/Card_Terrain_Spawn_Location_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Utility/Terrain/Card_Terrain_Back_FK.png', 
-'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Spawn_Location.xhtml', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Terrain_Cards/Spawn_Location.xhtml', 
 'Terrain', 'FK', 'FK Core Set', 'Default', '');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (660, ''); 
 insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (11, 631); --Spawn Location
@@ -102,7 +102,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 VALUES ('Structure',
 'http://htkb.info/SDE/FK/Cards/Utility/Terrain/Card_Terrain_Structure_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Utility/Terrain/Card_Terrain_Back_FK.png', 
-'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Structure.xhtml', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Terrain_Cards/Structure.xhtml', 
 'Terrain', 'FK', 'FK Core Set', 'Default', '');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (661, ''); 
 insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (12, 692); --Structure

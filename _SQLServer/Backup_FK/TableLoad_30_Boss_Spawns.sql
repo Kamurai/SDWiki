@@ -15,7 +15,7 @@ insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (3, 172
 insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (3, 285); --Beatrix the Witch Queen: Arcade
 
 --The Forgotten King --CardIndex 433   --BossSpawnIndex 4  
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('The Forgotten King', 
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Forgotten King, The', 
 'http://htkb.info/SDE/FK/Cards/Boss_Spawns/Card_Boss_Spawn_Forgotten_King_The_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Boss_Spawns/Card_Boss_Spawn_Forgotten_King_The_FK.png',
 'http://htkb.online/SDWiki/SDE/FK/Cards/Boss_Spawns/Forgotten_King_The.xhtml', 
