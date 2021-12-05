@@ -2201,6 +2201,10 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (137
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (137, 577); --Master Gains Berserk
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (137, 531); --Rotten Carrot
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+VALUES (137, 'Masculine', 'Small', 'Wonder', 6, 2, '2R', '2ST', '', '', 0, 0);
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (137, 1, 1);
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (137, 2);
+insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (137, '', -1);
 --FK Booty
 --Booty Biter --CardIndex 223	--CharacterIndex 138	--ExploreCharacterIndex 138
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Booty Biter',
