@@ -1,7 +1,8 @@
 --drop view MountsViewMultiLine
 --Mounts (with keywords, abilities, offenses, and defenses)
 create view MountsViewMultiLine as
-select a.CardIndex, a.Name as CardName, PictureFront, PictureBack, Link, CardType, ProductSet, a.ProductModule, a.PlayMode, Flavor, --Cards
+select a.CardIndex, b.CharacterIndex, c.ExploreCharacterIndex, --Indexes
+a.Name as CardName, PictureFront, PictureBack, Link, CardType, ProductSet, a.ProductModule, a.PlayMode, Flavor, --Cards
 Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions, --ExploreCharacter
 AffinityType, --Affinity
 g.KeywordIndex, g.Name as KeywordName, g.KeywordDescription, --Keywords
