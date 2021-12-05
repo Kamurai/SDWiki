@@ -6,6 +6,6 @@ create PROCEDURE SDWikiPullOneBooty(
 AS
 BEGIN
 	select * 
-	from BootyViewMultiLine
+	from ExploreBootyViewMultiLine
 	where Link = @intCardLink;
 END

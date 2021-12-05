@@ -6,6 +6,6 @@ create PROCEDURE SDWikiPullOneCreep(
 AS
 BEGIN
 	select * 
-	from CreepsViewMultiLine
+	from ExploreCreepsViewMultiLine
 	where Link = @intCardLink;
 END

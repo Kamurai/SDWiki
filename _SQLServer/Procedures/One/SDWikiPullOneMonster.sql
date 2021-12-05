@@ -6,6 +6,6 @@ create PROCEDURE SDWikiPullOneMonster(
 AS
 BEGIN
 	select * 
-	from MonstersViewMultiLine
+	from ExploreMonstersViewMultiLine
 	where Link = @intCardLink;
 END

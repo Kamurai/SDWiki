@@ -6,6 +6,6 @@ create PROCEDURE SDWikiPullOneWarband(
 AS
 BEGIN
 	select * 
-	from WarbandsViewMultiLine
+	from ExploreWarbandsViewMultiLine
 	where Link = @intCardLink;
 END

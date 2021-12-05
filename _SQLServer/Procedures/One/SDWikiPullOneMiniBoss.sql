@@ -6,6 +6,6 @@ create PROCEDURE SDWikiPullOneMiniBoss(
 AS
 BEGIN
 	select * 
-	from MiniBossesViewMultiLine
+	from ExploreMiniBossesViewMultiLine
 	where Link = @intCardLink;
 END
