@@ -50,4 +50,8 @@ public class BossSpawnBean extends CardBean{
     public List<SDE.NavItem> getBossSpawnList() {
         return bossSpawnList;
     }
+    
+    public List<SDE.NavItem> getCharacterList() {
+        return bossSpawn.getCharacterList();
+    }
 }

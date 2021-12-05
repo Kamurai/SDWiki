@@ -1,5 +1,8 @@
 package SDE;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class BossSpawn extends Card implements CharacterInterface{
     private String dungeonEffect;
     private String bossSpawnEffect;
@@ -7,12 +10,15 @@ public class BossSpawn extends Card implements CharacterInterface{
     private String characterName;
     private String characterLink;
     
+    private List<NavItem> characterList;
+    
     public BossSpawn(){
         this.dungeonEffect      = "";
         this.bossSpawnEffect    = "";
         this.timeoutEffect      = "";
-        characterName           = "";
-        characterLink           = "";
+        this.characterName      = "";
+        this.characterLink      = "";
+        this.characterList      = new ArrayList();
     }
     
     public BossSpawn(
@@ -20,13 +26,15 @@ public class BossSpawn extends Card implements CharacterInterface{
         String bossSpawnEffect,
         String timeoutEffect,
         String characterName,
-        String characterLink
+        String characterLink,
+        List<NavItem> characterList
     ){
         this.dungeonEffect      = dungeonEffect;
         this.bossSpawnEffect    = bossSpawnEffect;
         this.timeoutEffect      = timeoutEffect;
         this.characterName      = characterName;
         this.characterLink      = characterLink;
+        this.characterList      = characterList;
     }
 
     public String getDungeonEffect() {
@@ -78,4 +86,17 @@ public class BossSpawn extends Card implements CharacterInterface{
         
         return result;
     }
+
+    public List<NavItem> getCharacterList() {
+        return characterList;
+    }
+
+    public void setCharacterList(List<NavItem> characterList) {
+        this.characterList = characterList;
+    }
+    
+    public void addCharacter(String name, String version, String link, String picture){
+        characterList.add(new NavItem(name, version, link, picture));
+    }
+    
 }
