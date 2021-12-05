@@ -1,8 +1,8 @@
 --FK Arcade Creeps
 --Citrine Slime --CardIndex 340	--CharacterIndex 253	--ArcadeCharacterIndex 4
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Citrine Slime',
-'http://htkb.info/SDE/FK/Cards/Arcade/Creeps/Card_Citrine_Slime_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Arcade/Creeps/Card_Citrine_Slime_FK_back.png', 
+'http://htkb.info/SDE/FK/Cards/Arcade/Creeps/Card_Arcade_Creep_Citrine_Slime_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Arcade/Creeps/Card_Arcade_Creep_Citrine_Slime_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Arcade/Creeps/Citrine_Slime.xhtml', 
 'Creep', 'FK', 'FK Core Set', 'Arcade', 
 'Citrine Slimes are not very good conversationalists.  They are, however, exceptional at oozing and stinking of sulfur--mainly the stinking part.  One splash or casual ooze-to-skin contact will doom a Hero to smelling bad for the rest of their days.  While this is fine if you are Citrine Slime yourself, it is rarely appropriate for polite company.');
@@ -19,8 +19,8 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (4, 486); 
 
 --Emerald Slime --CardIndex 341	--CharacterIndex 254	--ArcadeCharacterIndex 5
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Emerald Slime',
-'http://htkb.info/SDE/FK/Cards/Arcade/Creeps/Card_Emerald_Slime_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Arcade/Creeps/Card_Emerald_Slime_FK_back.png', 
+'http://htkb.info/SDE/FK/Cards/Arcade/Creeps/Card_Arcade_Creep_Emerald_Slime_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Arcade/Creeps/Card_Arcade_Creep_Emerald_Slime_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Arcade/Creeps/Emerald_Slime.xhtml', 
 'Creep', 'FK', 'FK Core Set', 'Arcade', 
 'Remarkably congenial, Emerald Slimes are giggling chatterboxes.  Regaling Heroes with grand tales of "glorp-glug-splurrr-slorp," "blurb-grupple-glog-blarr," and the classic, "bloob-blub-blablablup."  Granted, these are direct translations, so no Hero actually knows what they are saying, but they seem friendly enough.');
@@ -37,8 +37,8 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (5, 504); 
 
 --Ghost --CardIndex 342	--CharacterIndex 255	--ArcadeCharacterIndex 6
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ghost',
-'http://htkb.info/SDE/FK/Cards/Arcade/Creeps/Card_Ghost_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Arcade/Creeps/Card_Ghost_FK_back.png', 
+'http://htkb.info/SDE/FK/Cards/Arcade/Creeps/Card_Arcade_Creep_Ghost_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Arcade/Creeps/Card_Arcade_Creep_Ghost_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Arcade/Creeps/Ghost.xhtml', 
 'Creep', 'FK', 'FK Core Set', 'Arcade', 
 'Boo!  Boooooo! BOOOOOOO!');
@@ -54,8 +54,8 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (6, 561); 
 
 --Giri --CardIndex 343	--CharacterIndex 256	--ArcadeCharacterIndex 7
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Giri',
-'http://htkb.info/SDE/FK/Cards/Arcade/Creeps/Card_Giri_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Arcade/Creeps/Card_Giri_FK_back.png', 
+'http://htkb.info/SDE/FK/Cards/Arcade/Creeps/Card_Arcade_Creep_Giri_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Arcade/Creeps/Card_Arcade_Creep_Giri_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Arcade/Creeps/Giri.xhtml', 
 'Creep', 'FK', 'FK Core Set', 'Arcade', 
 'Giri are capricious faeries, even when not under the influence of the Dark Consul.  Lovers of cultivated crops, Giri travel throughout Crystalia in large swarms, seeking farmsteads with delicious greens to devour.  Farmers who make offerings to the Giri are blessed with a bumper crop.  Those who do not see their fields consumed as though struck by a plague of locusts.');
@@ -71,8 +71,8 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (7, 452); 
 
 --Rabid Squirrel --CardIndex 344	--CharacterIndex 257	--ArcadeCharacterIndex 8
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Rabid Squirrel',
-'http://htkb.info/SDE/FK/Cards/Arcade/Creeps/Card_Rabid_Squirrel_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Arcade/Creeps/Card_Rabid_Squirrel_FK_back.png', 
+'http://htkb.info/SDE/FK/Cards/Arcade/Creeps/Card_Arcade_Creep_Rabid_Squirrel_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Arcade/Creeps/Card_Arcade_Creep_Rabid_Squirrel_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Arcade/Creeps/Rabid_Squirrel.xhtml', 
 'Creep', 'FK', 'FK Core Set', 'Arcade', 
 'Driven mad by their curse, Rabid Squirrels attack in packs, swarming over unsuspecting Heroes, biting and chittering with insane glee.');
@@ -89,8 +89,8 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (8, 400); 
 
 --Rattlebone --CardIndex 345	--CharacterIndex 258	--ArcadeCharacterIndex 9
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Rattlebone',
-'http://htkb.info/SDE/FK/Cards/Arcade/Creeps/Card_Rattlebone_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Arcade/Creeps/Card_Rattlebone_FK_back.png', 
+'http://htkb.info/SDE/FK/Cards/Arcade/Creeps/Card_Arcade_Creep_Rattlebone_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Arcade/Creeps/Card_Arcade_Creep_Rattlebone_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Arcade/Creeps/Rattlebone.xhtml', 
 'Creep', 'FK', 'FK Core Set', 'Arcade', 
 'Rattlebones are the plague of the moorlands and the favorite party trick of up-and-coming necromancers.  Easy to raise, easy to destroy, easy to raise again.  They are an unceasing nuisance to even the most powerful of Heroes.');
@@ -105,10 +105,10 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (9, 528); 
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (9, 559); --Insignificant
 
 --Ruby Slime --CardIndex 346	--CharacterIndex 259	--ArcadeCharacterIndex 10
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Sapphire Slime',
-'http://htkb.info/SDE/FK/Cards/Arcade/Creeps/Card_Sapphire_Slime_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Arcade/Creeps/Card_Sapphire_Slime_FK_back.png', 
-'http://htkb.online/SDWiki/SDE/FK/Cards/Arcade/Creeps/Sapphire_Slime.xhtml', 
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ruby Slime',
+'http://htkb.info/SDE/FK/Cards/Arcade/Creeps/Card_Arcade_Creep_Ruby_Slime_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Arcade/Creeps/Card_Arcade_Creep_Ruby_Slime_FK_back.png', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Arcade/Creeps/Ruby_Slime.xhtml', 
 'Creep', 'FK', 'FK Core Set', 'Arcade', 
 'Far more cranky than they have any right to be, Ruby Slime are incessant complainers.  Given to long, obnoxious bouts of melodramatic sighing and irritated grumbling, many get along very will with dwarves.  Such alliances rarely last long.  Invevitably the Ruby Slime will decide the dwarf owes him some shiny trinket and demand it with a rude and indignant gooing--which is enough to ruin any friendship.');
 insert into Characters (CardIndex) VALUES (346);
@@ -124,8 +124,8 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (10, 608);
 
 --Sapphire Slime --CardIndex 347	--CharacterIndex 260	--ArcadeCharacterIndex 11
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Sapphire Slime',
-'http://htkb.info/SDE/FK/Cards/Arcade/Creeps/Card_Sapphire_Slime_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Arcade/Creeps/Card_Sapphire_Slime_FK_back.png', 
+'http://htkb.info/SDE/FK/Cards/Arcade/Creeps/Card_Arcade_Creep_Sapphire_Slime_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Arcade/Creeps/Card_Arcade_Creep_Sapphire_Slime_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Arcade/Creeps/Sapphire_Slime.xhtml', 
 'Creep', 'FK', 'FK Core Set', 'Arcade', 
 'Something is not quite right with Sapphire Slimes.  Even for a slime they are somewhat peculiar and odd.  Given to drooling and then slurping it up noisily, many Heroes find themselves uncomfortable around Sapphire Slimes.  Accordingly, they are not invited to many dinner parties.');

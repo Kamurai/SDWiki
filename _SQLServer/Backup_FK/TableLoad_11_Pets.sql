@@ -18,9 +18,9 @@ insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (130, '', -1);
 
 --The Colonel --CardIndex 216	--CharacterIndex 129	--ExploreCharacterIndex 129
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('The Colonel',
-'http://htkb.info/SDE/FK/Cards/Pets/Card_Pet_The_Colonel_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Pets/Card_Pet_The_Colonel_FK_back.png', 
-'http://htkb.online/SDWiki/SDE/FK/Cards/Pets/The_Colonel.xhtml', 
+'http://htkb.info/SDE/FK/Cards/Pets/Card_Pet_Colonel_The_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Pets/Card_Pet_Colonel_The_FK_back.png', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Pets/Colonel_The.xhtml', 
 'Pet', 'FK', 'FK Core Set', 'Default', 
 'I didn''t get a harumph out of that guy.');
 insert into Characters (CardIndex) VALUES (216);

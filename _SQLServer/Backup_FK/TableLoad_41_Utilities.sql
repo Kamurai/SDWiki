@@ -42,7 +42,7 @@ VALUES ('Arcade Might Monster Chart',
 'Utility', 'FK', 'FK Core Set', 'Arcade', '');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (665, '');
 
---Elemental Affinity	--CardIndex 666 --UtilityIndex 17
+--Arcade Wrath Chart	--CardIndex 666 --UtilityIndex 17
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
 VALUES ('Arcade Wrath Chart',
 'http://htkb.info/SDE/FK/Cards/Arcade/Utility/Card_Utility_Arcade_Mode_Wrath_FK.png', 
