@@ -223,7 +223,7 @@ insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (17, 285);	
 
 --Broken Harpsichord	--CardIndex 685	--UtilityIndex 36	--ExploreIndex 18	--ExploreCreepIndex	--ExploreTrapIndex
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Broken Harpsichord',
-'http://htkb.info/SDE/FK/Cards/Utility/Explore/Specific/Beatrix_the_Witch_Queen/Card_Explore_Broken-Harpsichord_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Utility/Explore/Specific/Beatrix_the_Witch_Queen/Card_Explore_Broken_Harpsichord_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Explore/Broken_Harpsichord.xhtml', 
 'Explore Card', 'FK', 'FK Core Set', 'Default', 
@@ -266,7 +266,7 @@ insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (20, 285);	
 
 --Grave Robbers	--CardIndex 688	--UtilityIndex 39	--ExploreIndex 21	--ExploreCreepIndex	--ExploreTrapIndex
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Grave Robbers',
-'http://htkb.info/SDE/FK/Cards/Utility/Explore/Specific/Beatrix_the_Witch_Queen/Card_Explore_Grave_robbers_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Utility/Explore/Specific/Beatrix_the_Witch_Queen/Card_Explore_Grave_Robbers_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Explore/Grave_Robbers.xhtml', 
 'Explore Card', 'FK', 'FK Core Set', 'Default', 

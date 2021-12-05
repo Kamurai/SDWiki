@@ -1,13 +1,13 @@
 --drop PROCEDURE SDWikiPullNavigationWarbandsByProductSet;
 
 create PROCEDURE SDWikiPullNavigationWarbandsByProductSet(
-	@strVersion varChar(3)
+	@strVersion varChar(10)
 )
 AS
 BEGIN
-	select distinct CardName, ProductSet, Link, PictureFront
+	select distinct CardName, ProductSet, PlayMode, Link, PictureFront
 	from DualWarbandsView
 	where ProductSet = @strVersion
-	Order By CardName asc
+	Order By ProductSet desc, PlayMode desc, CardName asc
 	;
 END

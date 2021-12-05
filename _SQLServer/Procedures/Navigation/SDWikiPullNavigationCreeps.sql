@@ -4,7 +4,7 @@ create PROCEDURE SDWikiPullNavigationCreeps
 AS
 BEGIN
 	select CardName, ProductSet, PlayMode, Link, PictureFront
-	from DualBootyView
-	Order By CardName asc
+	from DualCreepsView
+	Order By ProductSet desc, PlayMode desc, CardName asc
 	;
 END

@@ -44,7 +44,7 @@ public class ExploreCharacterBean extends CardBean{
         if(path.compareTo("") != 0){
             this.exploreCharacter   = oneDAO.pullOneExploreCharacter(path);
         }
-        this.exploreCharacterList  = navDAO.pullNavigationForHeroes(version);
+        this.exploreCharacterList  = navDAO.pullNavigationForHeroesByProductSet(version);
         
         return "./Layout.xhtml";
     }

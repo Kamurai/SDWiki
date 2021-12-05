@@ -1,6 +1,6 @@
---drop view ExploresView
+--drop view ExploreCardsView
 --Explore Cards
-create view ExploresView as 
+create view ExploreCardsView as 
 select a.CardIndex, a.Name as CardName, a.PictureFront, a.PictureBack, a.Link, a.CardType, a.ProductSet, a.ProductModule, a.PlayMode, a.Flavor, --Cards
 d.CreepNumber, --Creep Cards
 e.TrapDefense, e.TrapLayout, --Trap Cards
@@ -19,5 +19,5 @@ full join Cards h on g.CardIndex=h.CardIndex
 full join AbilityAssignments i on c.ExploreIndex=i.ExploreTrapIndex
 full join Abilities j on i.AbilityIndex=j.AbilityIndex
 full join Attributes v on j.AttributeIndex=v.AttributeIndex
-where a.CardType = 'Explore'
+where a.CardType = 'Explore Card'
 ;
