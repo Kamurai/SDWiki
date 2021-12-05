@@ -11,7 +11,7 @@ v.Attribute as AbilityAttribute, --Attributes
 AbilityRange, AbilityDescription, --Abilities
 k.AttributeIndex as OffenseIndex, k.Attribute as Offense, j.OffenseRange, --Offenses
 m.AttributeIndex as DefenseIndex, m.Attribute as Defense, --Defenses
-RangeLimit --Pets
+n.RangeLimit, n.Cost --Pets
 from Cards a
 join Characters b on a.CardIndex=b.CardIndex
 join ExploreCharacters c on b.CharacterIndex=c.CharacterIndex
