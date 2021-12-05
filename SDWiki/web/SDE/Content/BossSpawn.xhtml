@@ -64,10 +64,21 @@
             </div>
 
             <div>
-                Related Character: 
-                <a href="#{SDEBossSpawnBean.getBossSpawn().getCharacterLink()}">
-                    #{SDEBossSpawnBean.getBossSpawn().getCharacterName()}
-                </a>
+                Related Character(s):<br/>
+                
+                <ui:repeat var="x" value="#{SDEBossSpawnBean.getCharacterList()}" size="#{SDEBossSpawnBean.getCharacterList().size()}" varStatus="myVarStatus" >
+                    <div class="relatedCharacterBlock">
+                        <a href="#{x.getLink()}">
+                            <div>
+                                <img class="galleryPicture" src="#{x.getPicture()}"/>
+                            </div>
+                            #{x.getName()}
+                        </a>
+                    </div>
+                    
+                
+                </ui:repeat>
+                
             </div>
             
             <div>

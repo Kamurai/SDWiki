@@ -233,10 +233,14 @@ public class SDEDAOOne extends DAO{
             }
         }catch(Exception e){
             e.printStackTrace();
+            
+            System.out.print(e.getMessage());
         }finally{
             closeConnection();
         }
                 
+        System.out.print(result.getName());
+        
         return result;
     }
     
@@ -691,6 +695,12 @@ public class SDEDAOOne extends DAO{
         ResultSet rs;
         SDE.BossSpawn result = new SDE.BossSpawn();
         
+        int     previousCardIndex       = -1;
+        int     previousCharacterIndex  = -1;
+        
+        boolean newCard                 = false;
+        boolean newCharacter            = false;
+        
         try{
             openConnection();
             
@@ -699,26 +709,43 @@ public class SDEDAOOne extends DAO{
             rs = stmt.executeQuery();
             
             while(rs.next()){
-                //run only on first pass
-                result.setCardIndex(rs.getInt("CardIndex"));
-                result.setName(rs.getString("CardName"));
-                result.setPictureFront(rs.getString("PictureFront"));
-                result.setPictureBack(rs.getString("PictureBack"));
-                result.setLink(rs.getString("Link"));
-                result.setCardType(rs.getString("CardType"));
-                result.setVersion(rs.getString("ProductSet"));
-                result.setModule(rs.getString("ProductModule"));
-                result.setMode(rs.getString("PlayMode"));
-                result.setFlavor(rs.getString("Flavor"));
+                newCard         = (rs.getInt("CardIndex")       != previousCardIndex);
+                newCharacter    = (rs.getInt("CharacterIndex")  != previousCharacterIndex);
+                
+                if(newCard){
+                    //run only on first pass
+                    result.setCardIndex(rs.getInt("CardIndex"));
+                    result.setName(rs.getString("CardName"));
+                    result.setPictureFront(rs.getString("PictureFront"));
+                    result.setPictureBack(rs.getString("PictureBack"));
+                    result.setLink(rs.getString("Link"));
+                    result.setCardType(rs.getString("CardType"));
+                    result.setVersion(rs.getString("ProductSet"));
+                    result.setModule(rs.getString("ProductModule"));
+                    result.setMode(rs.getString("PlayMode"));
+                    result.setFlavor(rs.getString("Flavor"));
 
-                result.setDungeonEffect(rs.getString("DungeonEffect"));
-                result.setBossSpawnEffect(rs.getString("BossSpawnEffect"));
-                result.setTimeoutEffect(rs.getString("TimeoutEffect"));
-                result.setCharacterName(rs.getString("CharacterName"));
-                result.setCharacterLink(rs.getString("CharacterLink"));
+                    result.setDungeonEffect(rs.getString("DungeonEffect"));
+                    result.setBossSpawnEffect(rs.getString("BossSpawnEffect"));
+                    result.setTimeoutEffect(rs.getString("TimeoutEffect"));
+                }
+                
+                //if on new related character
+                if(newCharacter){
+                    result.addCharacter(
+                            rs.getString("CharacterName"),
+                            rs.getString("CharacterVersion"),
+                            rs.getString("CharacterLink"),
+                            rs.getString("CharacterPicture")
+                    );
+                    
+                    previousCharacterIndex = rs.getInt("CharacterIndex");
+                }
+                
+                //Previous card index
+                previousCardIndex = rs.getInt("CardIndex");
             }
-        }
-        catch(Exception e){
+        }catch(Exception e){
             e.printStackTrace();
         }finally{
             closeConnection();
@@ -943,17 +970,80 @@ public class SDEDAOOne extends DAO{
     }
     
     //Pull One Terrain Card
-    public SDE.UtilityCard pullOneTerrainCard(String link){
-        return pullOneUtilityCard(link, "{call SDWikiPullOneTerrainCard(?)}");
+    public SDE.TerrainCard pullOneTerrainCard(String link){
+        
+        System.out.print(link);
+        System.out.print("pullOneTerrainCard 1");
+        
+        CallableStatement stmt;
+        ResultSet rs;
+        SDE.TerrainCard result = new SDE.TerrainCard();
+        
+        int     previousCardIndex       = -1;
+        int     previousKeywordIndex    = -1;
+        
+        boolean newCard                 = false;
+        boolean newKeyword              = false;
+        
+        System.out.print("pullOneTerrainCard 2");
+        
+        try{
+            openConnection();
+            
+            stmt = getConnect().prepareCall("{call SDWikiPullOneTerrainCard(?)}");
+            stmt.setString(1, link);
+            rs = stmt.executeQuery();
+            
+            while(rs.next()){
+                newCard         = (rs.getInt("CardIndex")       != previousCardIndex);
+                newKeyword      = (rs.getInt("KeywordIndex")    != previousKeywordIndex);
+                
+                //run only on new card
+                if(newCard){
+                    result.setCardIndex(rs.getInt("CardIndex"));
+                    result.setName(rs.getString("CardName"));
+                    result.setPictureFront(rs.getString("PictureFront"));
+                    result.setPictureBack(rs.getString("PictureBack"));
+                    result.setLink(rs.getString("Link"));
+                    result.setCardType(rs.getString("CardType"));
+                    result.setVersion(rs.getString("ProductSet"));
+                    result.setModule(rs.getString("ProductModule"));
+                    result.setMode(rs.getString("PlayMode"));
+                    result.setFlavor(rs.getString("Flavor"));
+
+                    result.setDescription(rs.getString("UtilityDescription"));
+                }
+                
+                //if on new keyword
+//                if(newKeyword){
+//                    //add new keyword to last gang member
+//                    result.addKeyword(
+//                            rs.getString("KeywordName"),
+//                            rs.getString("KeywordDescription")
+//                    );
+//                    
+//                    previousKeywordIndex = rs.getInt("KeywordIndex");
+//                }
+                
+                //Previous card index
+                previousCardIndex = rs.getInt("CardIndex");
+            }
+            
+            System.out.print("pullOneTerrainCard 3");
+       
+        }catch(Exception e){
+            System.out.print("Taco!: " +e.getMessage());
+            e.printStackTrace();
+        }finally{
+            closeConnection();
+        }
+        
+        System.out.print("Burrito: "+result.getName());
+        return result;
     }
     
     //Pull One Utility Card
     public SDE.UtilityCard pullOneUtilityCard(String link){
-        return pullOneUtilityCard(link, "{call SDWikiPullOneUtilityCard(?)}");
-    }
-    
-    //Pull One Utility Card
-    public SDE.UtilityCard pullOneUtilityCard(String link, String callableStatement){
         CallableStatement stmt;
         ResultSet rs;
         SDE.UtilityCard result = new SDE.UtilityCard();
@@ -961,7 +1051,7 @@ public class SDEDAOOne extends DAO{
         try{
             openConnection();
             
-            stmt = getConnect().prepareCall(callableStatement);
+            stmt = getConnect().prepareCall("{call SDWikiPullOneUtilityCard(?)}");
             stmt.setString(1, link);
             rs = stmt.executeQuery();
             
