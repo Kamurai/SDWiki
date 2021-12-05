@@ -1,5 +1,5 @@
+--Table Load 1
 --1.0 
---Keywords
 --Keywords
 /*9 Lives 								--Index 0*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', '9 Lives', 'When a model with 9 Lives takes their last wound, immediately roll +1r . Remove one wound for every star rolled. If no stars are rolled the model is destroyed.');
 /*Alchemy 							--Index 1*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Alchemy', 'Turn any hearts rolled into potions.');
@@ -36,7 +36,7 @@
 /*Fire									--Index 32*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Fire', 'A model or effect with Fire places a Fire counter on any model it damages. A model suffering Fire takes one wound at the beginning of its activation every round until the Fire counter is removed. Wounds caused by Fire do not advance the Power Gauge.');
 /*Fire Aura							--Index 33*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Fire Aura', 'Monsters with Citrine affinity that are within 2 squares of Lava Whirl gain Fire.');
 /*Fixed Form							--Index 34*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Fixed Form', 'Once shapeshifted into X form it may not shapeshift back to its original form.'); 
-/*Fixed Form							--Index 35*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Fixed Form', 'A shapeshift with Fixed Form may not shapeshift into its original form during its upkeep.'); 
+/*											--Index 35*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('', '', '', ''); 
 /*Fly										--Index 36*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Fly', 'A model with Fly may ignore and move through squares containing enemy models, difficult terrain, and tile effects.');
 /*Forced Shift						--Index 37*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Forced Shift', 'Instead of being destroyed as normal it instead automatically Shapeshifts into its X Form.');
 /*Fragile								--Index 38*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Fragile', 'A model or effect with Fragile places a Fragile counter on any model it damages. A model suffering fragile discards the highest result rolled anytime it makes a roll using its ARM attribute.');
@@ -168,6 +168,8 @@
 /*Wave									--Index 165*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Wave', 'A Wave effect is centered<br>on the user’s square and<br>hits the user and every<br>model within X squares of<br>the user. Waves replace the<br>distance portion (X) of a<br>distance effect, but do not<br>replace any other aspect of<br>the ability.');
 /*Wave									--Index 166*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Wave', 'A Wave effect is centered on the user’s base and every square within X squares of the user.');
 /*Weak									--Index 167*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Weak', 'A model or effect with Weak places a Weak counter on any model it damages. A model suffering Weak discards the highest result rolled anytime it makes a roll using its ATT attribute.');
+--Table Load 2
+--1.0
 --Abilities
 /*Acorn Grenade 				--Index 0*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0', 'Default', 'Acorn Grenade', 'Action', 'Offense', 2, 0, 6, 'Range 6, Burst 1, Knockdown, Dangerous');
 /*Alluring							--Index 1*/		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0', 'Default', 'Alluring', 'Action', 'Offense', 2, 3, 4, '+1R WILL, If successful Vandella immediately heals one wound.');
@@ -324,7 +326,8 @@
 /*Wizard Wings 				--Index 152*/ 	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0', 'Default', 'Wizard Wings', 'Potion', 'Support', 1, -1, -1, '+1B WILL, Fly');
 /*X Marks the Spot			--Index 153*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0', 'Default', 'X Marks the Spot', 'Action', 'Support', 2, -1, 0, 'Draw and equip 1 Loot card');
 /*Zealotry							--Index 154*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0', 'Default', 'Zealotry', 'Action', 'Support', 1, -1, -1, 'Augment, Aura 2, +1B Attack');
---Heroes
+--Table Load 1
+--1.0 Heroes
 --Angry Bear --Index 0
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Angry Bear', 
 'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Hero_Angry_Bear_1.0.png', 
@@ -736,7 +739,56 @@ insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (24,
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (24, 'Either', 'Small', 'Kobold Hero', 7, 3, '2B1R', '2R', '1B1R', '1B1R', 5, 1);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (24, 0, 1); --Attack
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (24, 2); --Armor
---Booty
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--Table Load 4
+--1.0 Booty
 --Boo Boody --Index 25
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Boo Booty',
 'http://htkb.info/SDE/1.0/Cards/Booty/Card_Booty_Boo_Booty_1.0.png', 
@@ -751,8 +803,8 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (25,
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (25, 'Either', 'Small', 'Trap', 3, 1, '2R', '2R', '1B', '1B', 2, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (25, 0, 1);
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (25, 2);
-insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (25, 'Trap', '16 Bit', 1);
---Mini Boss
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (25, 'Trap', '16 Bit', 1);--1.0
+--Mini Boss (used Monster 2.0 Explore)
 --Captain R --Index 26
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Captain R',
 'http://htkb.info/SDE/1.0/Cards/MiniBosses/Card_MiniBoss_Captain_R_1.0.png', 
@@ -765,7 +817,8 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (26,
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (26, 50); --Flintlock
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (26, 34); --Deep One Attack
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (26, 153); --X Marks the Spot
-insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (2, 'Masculine', 'Small', 'Undead', 6, 3, '1B 2R', '2B 1R', '1B 1R', '1B 1R', 5, 0);
+insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+VALUES (26, 'Masculine', 'Small', 'Undead', 6, 3, '1B 2R', '2B 1R', '1B 1R', '1B 1R', 5, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (26, 0, 1); --Attack
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (26, 2); --Armor
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (26, 'MiniBoss', '16 bit', 4);
@@ -779,7 +832,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (27);
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (27, 74); --Lifesap
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (27, 57); --Ghost Form
-insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (27, 'Either', 'Large', 'Undead', 1, 3, '1B', '2R', '2R', '2B', 4, 0);
+insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+VALUES (27, 'Either', 'Large', 'Undead', 1, 3, '1B', '2R', '2R', '2B', 4, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (27, 0, 1); --Attack
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (27, 2); --Armor
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (27, 'MiniBoss', '16 bit', 4);
@@ -794,7 +848,8 @@ insert into Characters (CardIndex) VALUES (28);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (28, 54); --Immune: Fire
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (28, 71); --Javelin
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (28, 112); --Shield Bash
-insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (28, 'Masculine', 'Small', 'Dark Celestian', 6, 3, '1ST 2R', '2R', '2B', '1R 1B', 5, 0);
+insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+VALUES (28, 'Masculine', 'Small', 'Dark Celestian', 6, 3, '1ST 2R', '2R', '2B', '1R 1B', 5, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (28, 0, 1); --Attack
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (28, 2); --Armor
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (28, 'MiniBoss', '16 bit', 4);
@@ -812,7 +867,8 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (29,
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (29, 130); --Stealth
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (29, 27); --Corrosive Striked
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (29, 32); --Dark Aura
-insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (29, 'Feminine', 'Small', 'Nether Elf', 7, 3, '1B 1R', '3B', '3B', '3R', 5, 0);
+insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+VALUES (29, 'Feminine', 'Small', 'Nether Elf', 7, 3, '1B 1R', '3B', '3B', '3R', 5, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (29, 0, 1); --Attack
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (29, 4, 8); --Dexterity
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (29, 2); --Armor
@@ -832,7 +888,8 @@ insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (30,
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (30, 101); --Serpent Coil
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (30, 154); --Zealotry
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (30, 119); --Snare
-insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (30, 'Masculine', 'Large', 'Ogre', 6, 3, '1ST 3R', '2R', '3B', '2B', 5, 0);
+insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+VALUES (30, 'Masculine', 'Large', 'Ogre', 6, 3, '1ST 3R', '2R', '3B', '2B', 5, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (30, 0, 1); --Attack
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (30, 2); --Armor
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (30, 'MiniBoss', '16 bit', 4);
@@ -849,7 +906,8 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (31,
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (31, 96); --Rex Smash
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (31, 95); --Rex Cuddle
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (31, 139); --Thwomp
-insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (31, 'Masculine', 'Large', 'Kobold Ogre', 5, 3, '2B 2R', '2R', '2B', '2B', 5, 0);
+insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+VALUES (31, 'Masculine', 'Large', 'Kobold Ogre', 5, 3, '2B 2R', '2R', '2B', '2B', 5, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (31, 0, 2); --Attack
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (31, 2); --Armor
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (31, 'MiniBoss', '16 bit', 4);
@@ -867,7 +925,8 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (32,
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (32, 151); --Vulnerable: Cold
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (32, 45); --Feast
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (32, 17); --Burning Bile
-insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (32, 'Masculine', 'Large', 'Troll', 6, 3, '3B 1R', '1ST 1R', '1B', '2B', 4, 0);
+insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+VALUES (32, 'Masculine', 'Large', 'Troll', 6, 3, '3B 1R', '1ST 1R', '1B', '2B', 4, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (32, 0, 1); --Attack
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (32, 2); --Armor
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (32, 'MiniBoss', '16 bit', 4);
@@ -885,7 +944,8 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (33,
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (33, 19); --Burning Blade
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (33, 65); --Hightower
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (33, 93); --Rally Cry
-insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (33, 'Masculine', 'Small', 'Kobold', 7, 3, '2B 1R', '2R', '1B 1R', '1B 1R', 5, 0);
+insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+VALUES (33, 'Masculine', 'Small', 'Kobold', 7, 3, '2B 1R', '2R', '1B 1R', '1B 1R', 5, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (33, 0, 1); --Attack
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (33, 2); --Armor
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (33, 'MiniBoss', '16 bit', 4);
@@ -903,13 +963,14 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (34,
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (34, 87); --Pacify
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (34, 1); --Alluring
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (34, 25); --Come Hither
-insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (34, 'Feminine', 'Small', 'Demon', 7, 4, '1B 1R', '2B', '3B 1R', '3R', 4, 0);
+insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+VALUES (34, 'Feminine', 'Small', 'Demon', 7, 4, '1B 1R', '2B', '3B 1R', '3R', 4, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (34, 0, 1); --Will
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (34, 3, 4); --Will
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (34, 2); --Armor
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (34, 4); --Dexterity
-insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (34, 'MiniBoss', '16 bit', 3);
---Bosses
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (34, 'MiniBoss', '16 bit', 3);--1.0
+--Bosses (used Monster 2.0 Explore)
 --Nocturne --Index 35
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Nocturne',
 'http://htkb.info/SDE/1.0/Cards/Bosses/Card_Boss_Nocturne_1.0.png', 
@@ -981,6 +1042,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (38, 2); --Armor
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (38, 4); --Dexterity
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (38, 'Boss', 'Super', 4);
+--1.0
 --Warband Monsters
 --Egg Clutch --Index 39
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Egg Clutch',
@@ -1441,6 +1503,7 @@ insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, 
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (68, 0, 1); --Attack
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (68, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (68, 'Minion', '8 Bit', 1); 
+--1.0
 --Boss Spawns
 --Roxor --BossSpawnIndex 0  --CardIndex 69
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Roxor', 
@@ -1468,12 +1531,11 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Boss Spawn', '1.0', '1.0 Core Set', 'Default',   
 '');
 insert into BossSpawns (CardIndex, DungeonEffect, BossSpawnEffect, TimeoutEffect, DifficultyRating) VALUES (71, 'Shadows and Fog:  All ranged attacks and effects targeting spawning points reduce their range by 2.  Hidden Lever:  When a spawning point is destroyed, the Heroes must rotate the tile 90 degrees in a direction of their choosing.', 'Halloween:  When Von Drakk enters play, replace all Bone Pile counters in the dungeon with Rattle-Bones as though they have been targeted by the Raise ability.  You may only Raise as many Rattle-Bones as you have models available, regardless of the number of Bone Pile counters in the dungeon.', 'Von Drakk (or Nocturne) only triggers a Timeout Effect the first time he is reduced to half of his wounds.  Transfixing Gaze:  All Heroes within 3 squares of Von Drakk suffer Stun.  Summon: 2 Dread Knights, 2 Dust Mages, 4 Boneheads', '');
-insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (2, 3); 
---Equipment
+insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (2, 3); --1.0 Equipment
 --Assassin's Crossbow --EquipmentIndex 0 --CardIndex 72
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Assassin''s Crossbow',
 'http://htkb.info/SDE/1.0/Cards/Treasure/Specific/Card_Treasure_Assassins_Crossbow_1.0.png', 
-'http://htkb.info/SDE/1.0/Cards/Treasure/Specific/Card_Treasure_Back_1.0.png',
+'http://htkb.info/SDE/1.0/Cards/Treasure/Card_Treasure_Back_1.0.png',
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Treasure/Specific/Assassins_Crossbow.xhtml', 
 'Treasure', '1.0', '1.0 Core Set', 'Default',
 'I always get my prey.');
@@ -1483,7 +1545,7 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (0, 29)
 --Bat Winged Key --EquipmentIndex 1 --CardIndex 73
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Bat Winged Key!',
 'http://htkb.info/SDE/1.0/Cards/Treasure/Specific/Card_Treasure_Bat_Winged_Key_1.0.png', 
-'http://htkb.info/SDE/1.0/Cards/Treasure/Specific/Card_Treasure_Back_1.0.png',
+'http://htkb.info/SDE/1.0/Cards/Treasure/Card_Treasure_Back_1.0.png',
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Treasure/Specific/Bat_Winged_Key.xhtml', 
 'Treasure', '1.0', '1.0 Core Set', 'Default',
 'Flap, Flap, Flap, Flap, Flap, Flap, Flap');
@@ -1494,7 +1556,7 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (1, 38)
 --Bejeweled Shield --EquipmentIndex 2 --CardIndex 74
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Bejeweled Shield',
 'http://htkb.info/SDE/1.0/Cards/Treasure/Generic/Card_Treasure_Bejeweled_Shield_1.0.png', 
-'http://htkb.info/SDE/1.0/Cards/Treasure/Generic/Card_Treasure_Back_1.0.png',
+'http://htkb.info/SDE/1.0/Cards/Treasure/Card_Treasure_Back_1.0.png',
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Treasure/Generic/Bejeweled_Shield.xhtml', 
 'Treasure', '1.0', '1.0 Core Set', 'Default',
 'It burns us!');
@@ -1503,7 +1565,7 @@ insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (2, 5); --B
 --Berserker's Helm --EquipmentIndex 3 --CardIndex 75
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Berserker''s Helm',
 'http://htkb.info/SDE/1.0/Cards/Loot/Card_Loot_Berserkers_Helm_1.0.png', 
-'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Loot_Back_1.0.png', 
+'http://htkb.info/SDE/1.0/Cards/Loot/Card_Loot_Back_1.0.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Loot/Berserkers_Helm.xhtml', 
 'Loot', '1.0', '1.0 Core Set', 'Default',
 'ANGRY!');
@@ -1512,7 +1574,7 @@ insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (3, 58); --
 --Bewitched Wand --EquipmentIndex 4 --CardIndex 76
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Bewitched Wand',
 'http://htkb.info/SDE/1.0/Cards/Treasure/Specific/Card_Treasure_Bewitched_Wand_1.0.png', 
-'http://htkb.info/SDE/1.0/Cards/Treasure/Specific/Card_Treasure_Back_1.0.png',
+'http://htkb.info/SDE/1.0/Cards/Treasure/Card_Treasure_Back_1.0.png',
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Treasure/Specific/Bewitched_Wand.xhtml', 
 'Treasure', '1.0', '1.0 Core Set', 'Default',
 'Chilled to the bone.');
@@ -1523,7 +1585,7 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (4, 38)
 --Black Spot --EquipmentIndex 5 --CardIndex 77
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Black Spot',
 'http://htkb.info/SDE/1.0/Cards/Treasure/Specific/Card_Treasure_Black_Spot_1.0.png', 
-'http://htkb.info/SDE/1.0/Cards/Treasure/Specific/Card_Treasure_Back_1.0.png',
+'http://htkb.info/SDE/1.0/Cards/Treasure/Card_Treasure_Back_1.0.png',
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Treasure/Specific/Black_Spot.xhtml', 
 'Treasure', '1.0', '1.0 Core Set', 'Default',
 'Ye be far too reckless fer me liking.');
@@ -1532,7 +1594,7 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (5, 26)
 --Blazing Blade --EquipmentIndex 6 --CardIndex 78
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Blazing Blade',
 'http://htkb.info/SDE/1.0/Cards/Loot/Card_Loot_Blazing_Blade_1.0.png', 
-'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Loot_Back_1.0.png', 
+'http://htkb.info/SDE/1.0/Cards/Loot/Card_Loot_Back_1.0.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Loot/Blazing_Blade.xhtml', 
 'Loot', '1.0', '1.0 Core Set', 'Default',
 'Hot!  Hot!  Hot!');
@@ -1541,7 +1603,7 @@ insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (6, 32); --
 --Boo Booty! --EquipmentIndex 7 --CardIndex 79
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Boo Booty!',
 'http://htkb.info/SDE/1.0/Cards/Treasure/Generic/Card_Treasure_Boo_Booty_1.0.png', 
-'http://htkb.info/SDE/1.0/Cards/Treasure/Generic/Card_Treasure_Back_1.0.png',
+'http://htkb.info/SDE/1.0/Cards/Treasure/Card_Treasure_Back_1.0.png',
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Treasure/Generic/Boo_Booty.xhtml', 
 'Treasure', '1.0', '1.0 Core Set', 'Default',
 '');
@@ -1549,7 +1611,7 @@ insert into Equipment (CardIndex, Position, Effect) VALUES (79, 'None', 'Replace
 --Burning Horn --EquipmentIndex 8 --CardIndex 80
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Burning Horn',
 'http://htkb.info/SDE/1.0/Cards/Treasure/Specific/Card_Treasure_Burning_Horn_1.0.png', 
-'http://htkb.info/SDE/1.0/Cards/Treasure/Specific/Card_Treasure_Back_1.0.png',
+'http://htkb.info/SDE/1.0/Cards/Treasure/Card_Treasure_Back_1.0.png',
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Treasure/Specific/Burning_Horn.xhtml', 
 'Treasure', '1.0', '1.0 Core Set', 'Default',
 'You''re blowing on the wrong end.');
@@ -1559,7 +1621,7 @@ insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (8, 38); --
 --Caltrop Dagger --EquipmentIndex 9 --CardIndex 81
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Caltrop Dagger',
 'http://htkb.info/SDE/1.0/Cards/Loot/Card_Loot_Caltrop_Dagger_1.0.png', 
-'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Loot_Back_1.0.png', 
+'http://htkb.info/SDE/1.0/Cards/Loot/Card_Loot_Back_1.0.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Loot/Caltrop_Dagger.xhtml', 
 'Loot', '1.0', '1.0 Core Set', 'Default',
 'Ouch!');
@@ -1568,7 +1630,7 @@ insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (9, 49); --
 --Cat's Paw --EquipmentIndex 10 --CardIndex 82
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Cat''s Paw',
 'http://htkb.info/SDE/1.0/Cards/Treasure/Specific/Card_Treasure_Cats_Paw_1.0.png', 
-'http://htkb.info/SDE/1.0/Cards/Treasure/Specific/Card_Treasure_Back_1.0.png',
+'http://htkb.info/SDE/1.0/Cards/Treasure/Card_Treasure_Back_1.0.png',
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Treasure/Specific/Cats_Paw.xhtml', 
 'Treasure', '1.0', '1.0 Core Set', 'Default',
 'Bad kitty!');
@@ -1578,16 +1640,16 @@ insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (10, 120); 
 --Cloak of Shadows --EquipmentIndex 11 --CardIndex 83
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Cloak of Shadows',
 'http://htkb.info/SDE/1.0/Cards/Treasure/Generic/Card_Treasure_Cloak_Of_Shadows_1.0.png', 
-'http://htkb.info/SDE/1.0/Cards/Treasure/Generic/Card_Treasure_Back_1.0.png',
+'http://htkb.info/SDE/1.0/Cards/Treasure/Card_Treasure_Back_1.0.png',
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Treasure/Generic/Cloak_Of_Shadows.xhtml', 
-'Loot', '1.0', '1.0 Core Set', 'Default',
+'Treasure', '1.0', '1.0 Core Set', 'Default',
 'Uh, did you see something just move?');
 insert into Equipment (CardIndex, Position, Effect) VALUES (83, 'Top', '+1R DEX');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (11, 130); --Stealth
 --Corpse Hand --EquipmentIndex 12 --CardIndex 84
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Corpse Hand',
 'http://htkb.info/SDE/1.0/Cards/Loot/Card_Loot_Corpse_Hand_1.0.png', 
-'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Loot_Back_1.0.png', 
+'http://htkb.info/SDE/1.0/Cards/Loot/Card_Loot_Back_1.0.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Loot/Corpse_Hand.xhtml', 
 'Loot', '1.0', '1.0 Core Set', 'Default',
 'Ahh... Ahh... rouragraallal... arougraaluraaa');
@@ -1596,7 +1658,7 @@ insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (12, 21); -
 --Coward's Boots --EquipmentIndex 13 --CardIndex 85
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Coward''s Boots',
 'http://htkb.info/SDE/1.0/Cards/Loot/Card_Loot_Cowards_Boots_1.0.png', 
-'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Loot_Back_1.0.png', 
+'http://htkb.info/SDE/1.0/Cards/Loot/Card_Loot_Back_1.0.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Loot/Cowards_Boots.xhtml', 
 'Loot', '1.0', '1.0 Core Set', 'Default',
 'Those who run away, live to fight another day.');
@@ -1605,7 +1667,7 @@ insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (13, 49); -
 --Cursed Talisman --EquipmentIndex 14 --CardIndex 86
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Cursed Talisman',
 'http://htkb.info/SDE/1.0/Cards/Treasure/Specific/Card_Treasure_Cursed_Talisman_1.0.png', 
-'http://htkb.info/SDE/1.0/Cards/Treasure/Specific/Card_Treasure_Back_1.0.png',
+'http://htkb.info/SDE/1.0/Cards/Treasure/Card_Treasure_Back_1.0.png',
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Treasure/Specific/Cursed_Talisman.xhtml', 
 'Treasure', '1.0', '1.0 Core Set', 'Default',
 'You will pay for my protection.');
@@ -1614,7 +1676,7 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (14, 38
 --Diamond Shield --EquipmentIndex 15 --CardIndex 87
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Diamond Shield',
 'http://htkb.info/SDE/1.0/Cards/Loot/Card_Loot_Diamond_Shield_1.0.png', 
-'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Loot_Back_1.0.png', 
+'http://htkb.info/SDE/1.0/Cards/Loot/Card_Loot_Back_1.0.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Loot/Diamond_Shield.xhtml', 
 'Loot', '1.0', '1.0 Core Set', 'Default',
 'Nothing harder.');
@@ -1623,7 +1685,7 @@ insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (15, 38); -
 --Dragon Bow --EquipmentIndex 16 --CardIndex 88
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Dragon Bow',
 'http://htkb.info/SDE/1.0/Cards/Treasure/Specific/Card_Treasure_Dragon_Bow_1.0.png', 
-'http://htkb.info/SDE/1.0/Cards/Treasure/Specific/Card_Treasure_Back_1.0.png',
+'http://htkb.info/SDE/1.0/Cards/Treasure/Card_Treasure_Back_1.0.png',
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Treasure/Specific/Dragon_Bow.xhtml', 
 'Treasure', '1.0', '1.0 Core Set', 'Default',
 'Get down!');
@@ -1633,7 +1695,7 @@ insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (16, 121); 
 --Dragon Lance --EquipmentIndex 17 --CardIndex 89
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Dragon Lance',
 'http://htkb.info/SDE/1.0/Cards/Treasure/Specific/Card_Treasure_Dragon_Lance_1.0.png', 
-'http://htkb.info/SDE/1.0/Cards/Treasure/Specific/Card_Treasure_Back_1.0.png',
+'http://htkb.info/SDE/1.0/Cards/Treasure/Card_Treasure_Back_1.0.png',
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Treasure/Specific/Dragon_Lance.xhtml', 
 'Treasure', '1.0', '1.0 Core Set', 'Default',
 'Goddess, let my aim be true.');
@@ -1643,7 +1705,7 @@ insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (17, 28); -
 --Dragon Scale Cloak --EquipmentIndex 18 --CardIndex 90
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Dragon Scale Cloak',
 'http://htkb.info/SDE/1.0/Cards/Treasure/Generic/Card_Treasure_Dragon_Scale_Cloak_1.0.png', 
-'http://htkb.info/SDE/1.0/Cards/Treasure/Generic/Card_Treasure_Back_1.0.png',
+'http://htkb.info/SDE/1.0/Cards/Treasure/Card_Treasure_Back_1.0.png',
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Treasure/Generic/Dragon_Scale_Cloak.xhtml', 
 'Treasure', '1.0', '1.0 Core Set', 'Default',
 'oooh, it shimmers when I walk.');
@@ -1652,7 +1714,7 @@ insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (18, 54); -
 --Drunken Dwarf Plate --EquipmentIndex 19 --CardIndex 91
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Drunken Dwarf Plate',
 'http://htkb.info/SDE/1.0/Cards/Loot/Card_Loot_Drunken_Dwarf_Plate_1.0.png', 
-'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Loot_Back_1.0.png', 
+'http://htkb.info/SDE/1.0/Cards/Loot/Card_Loot_Back_1.0.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Loot/Drunken_Dwarf_Plate.xhtml', 
 'Loot', '1.0', '1.0 Core Set', 'Default',
 'Dwarf tested, dwarf approved.');
@@ -1661,7 +1723,7 @@ insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (19, 57); -
 --Elfin Boots --EquipmentIndex 20 --CardIndex 92
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Elfin Boots',
 'http://htkb.info/SDE/1.0/Cards/Loot/Card_Loot_Elfin_Boots_1.0.png', 
-'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Loot_Back_1.0.png', 
+'http://htkb.info/SDE/1.0/Cards/Loot/Card_Loot_Back_1.0.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Loot/Elfin_Boots.xhtml', 
 'Loot', '1.0', '1.0 Core Set', 'Default',
 'Nothing slows me down when I wear my dancin'' shoes!');
@@ -1670,7 +1732,7 @@ insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (20, 60); -
 --Exemplar Shield --EquipmentIndex 21 --CardIndex 93
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Exemplar Shield',
 'http://htkb.info/SDE/1.0/Cards/Treasure/Specific/Card_Treasure_Exemplar_Shield_1.0.png', 
-'http://htkb.info/SDE/1.0/Cards/Treasure/Specific/Card_Treasure_Back_1.0.png',
+'http://htkb.info/SDE/1.0/Cards/Treasure/Card_Treasure_Back_1.0.png',
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Treasure/Specific/Exemplar_Shield.xhtml', 
 'Treasure', '1.0', '1.0 Core Set', 'Default',
 'Glory to the Burning Star!');
@@ -1680,7 +1742,7 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (21, 33
 --Fire Gel Goo --EquipmentIndex 22 --CardIndex 94
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Fire Gel Goo',
 'http://htkb.info/SDE/1.0/Cards/Treasure/Specific/Card_Treasure_Fire_Gel_Goo_1.0.png', 
-'http://htkb.info/SDE/1.0/Cards/Treasure/Specific/Card_Treasure_Back_1.0.png',
+'http://htkb.info/SDE/1.0/Cards/Treasure/Card_Treasure_Back_1.0.png',
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Treasure/Specific/Fire_Gel_Goo.xhtml', 
 'Treasure', '1.0', '1.0 Core Set', 'Default',
 'Oh gross!');
@@ -1691,7 +1753,7 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (22, 36
 --Fireflow Brew --EquipmentIndex 23 --CardIndex 95
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Fireflow Brew',
 'http://htkb.info/SDE/1.0/Cards/Treasure/Generic/Card_Treasure_Fireflow_Brew_1.0.png', 
-'http://htkb.info/SDE/1.0/Cards/Treasure/Generic/Card_Treasure_Back_1.0.png',
+'http://htkb.info/SDE/1.0/Cards/Treasure/Card_Treasure_Back_1.0.png',
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Treasure/Generic/Fireflow_Brew.xhtml', 
 'Treasure', '1.0', '1.0 Core Set', 'Default',
 'Shake it up and point away from face.');
@@ -1701,7 +1763,7 @@ insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (23, 81); -
 --Fool's Gold --EquipmentIndex 24 --CardIndex 96
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Fool''s Gold',
 'http://htkb.info/SDE/1.0/Cards/Treasure/Specific/Card_Treasure_Fools_Gold_1.0.png', 
-'http://htkb.info/SDE/1.0/Cards/Treasure/Specific/Card_Treasure_Back_1.0.png',
+'http://htkb.info/SDE/1.0/Cards/Treasure/Card_Treasure_Back_1.0.png',
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Treasure/Specific/Fools_Gold.xhtml', 
 'Treasure', '1.0', '1.0 Core Set', 'Default',
 'Better lucky than smart, I always say.');
@@ -1710,7 +1772,7 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (24, 36
 --Frozen Falchion --EquipmentIndex 25 --CardIndex 97
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Frozen Falchion',
 'http://htkb.info/SDE/1.0/Cards/Loot/Card_Loot_Frozen_Falchion_1.0.png', 
-'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Loot_Back_1.0.png', 
+'http://htkb.info/SDE/1.0/Cards/Loot/Card_Loot_Back_1.0.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Loot/Frozen_Falchion.xhtml', 
 'Loot', '1.0', '1.0 Core Set', 'Default',
 'Hypothermia, guaranteed!');
@@ -1719,7 +1781,7 @@ insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (25, 23); -
 --Fur-Lined Gauntlets --EquipmentIndex 26 --CardIndex 98
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Fur-Lined Gauntlets',
 'http://htkb.info/SDE/1.0/Cards/Loot/Card_Loot_Fur_Lined_Gauntlets_1.0.png', 
-'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Loot_Back_1.0.png', 
+'http://htkb.info/SDE/1.0/Cards/Loot/Card_Loot_Back_1.0.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Loot/Fur_Lined_Gauntlets.xhtml', 
 'Loot', '1.0', '1.0 Core Set', 'Default',
 'Mmmmm soft, luxurious, and warm.');
@@ -1728,7 +1790,7 @@ insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (26, 53); -
 --Gem of Greed --EquipmentIndex 27 --CardIndex 99
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Gem of Greed',
 'http://htkb.info/SDE/1.0/Cards/Treasure/Specific/Card_Treasure_Gem_Of_Greed_1.0.png', 
-'http://htkb.info/SDE/1.0/Cards/Treasure/Specific/Card_Treasure_Back_1.0.png',
+'http://htkb.info/SDE/1.0/Cards/Treasure/Card_Treasure_Back_1.0.png',
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Treasure/Specific/Gem_Of_Greed.xhtml', 
 'Treasure', '1.0', '1.0 Core Set', 'Default',
 'Mine, it''s all mine!');
@@ -1737,7 +1799,7 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (27, 37
 --Glass Hammer --EquipmentIndex 28 --CardIndex 100
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Glass Hammer',
 'http://htkb.info/SDE/1.0/Cards/Loot/Card_Loot_Glass_Hammer_1.0.png', 
-'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Loot_Back_1.0.png', 
+'http://htkb.info/SDE/1.0/Cards/Loot/Card_Loot_Back_1.0.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Loot/Glass_Hammer.xhtml', 
 'Loot', '1.0', '1.0 Core Set', 'Default',
 'I think I broke it boss.');
@@ -1746,7 +1808,7 @@ insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (28, 38); -
 --Grimy Grim Granite Greaves --EquipmentIndex 29 --CardIndex 101
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Grimy Grim Granite Greaves',
 'http://htkb.info/SDE/1.0/Cards/Treasure/Specific/Card_Treasure_Grimy_Grim_Granite_Greaves_1.0.png', 
-'http://htkb.info/SDE/1.0/Cards/Treasure/Specific/Card_Treasure_Back_1.0.png',
+'http://htkb.info/SDE/1.0/Cards/Treasure/Card_Treasure_Back_1.0.png',
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Treasure/Specific/Grimy_Grim_Granite_Greaves.xhtml', 
 'Treasure', '1.0', '1.0 Core Set', 'Default',
 'Three times strong!');
@@ -1758,7 +1820,7 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (29, 36
 --Guttering Candle --EquipmentIndex 30 --CardIndex 102
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Guttering Candle',
 'http://htkb.info/SDE/1.0/Cards/Treasure/Generic/Card_Treasure_Guttering_Candle_1.0.png', 
-'http://htkb.info/SDE/1.0/Cards/Treasure/Generic/Card_Treasure_Back_1.0.png',
+'http://htkb.info/SDE/1.0/Cards/Treasure/Card_Treasure_Back_1.0.png',
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Treasure/Generic/Guttering_Candle.xhtml', 
 'Treasure', '1.0', '1.0 Core Set', 'Default',
 'Behind you!');
@@ -1767,7 +1829,7 @@ insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (30, 49); -
 --Hero's Regalia --EquipmentIndex 31 --CardIndex 103
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Hero''s Regalia',
 'http://htkb.info/SDE/1.0/Cards/Treasure/Generic/Card_Treasure_Heros_Regalia_1.0.png', 
-'http://htkb.info/SDE/1.0/Cards/Treasure/Generic/Card_Treasure_Back_1.0.png',
+'http://htkb.info/SDE/1.0/Cards/Treasure/Card_Treasure_Back_1.0.png',
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Treasure/Generic/Heros_Regalia.xhtml', 
 'Treasure', '1.0', '1.0 Core Set', 'Default',
 'Clothing makes the hero.');
@@ -1775,7 +1837,7 @@ insert into Equipment (CardIndex, Position, Effect) VALUES (103, 'Top', '+1R Att
 --Horned Mace --EquipmentIndex 32 --CardIndex 104
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Horned Mace',
 'http://htkb.info/SDE/1.0/Cards/Loot/Card_Loot_Horned_Mace_1.0.png', 
-'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Loot_Back_1.0.png', 
+'http://htkb.info/SDE/1.0/Cards/Loot/Card_Loot_Back_1.0.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Loot/Horned_Mace.xhtml', 
 'Loot', '1.0', '1.0 Core Set', 'Default',
 'Like being hit by a charging bull.');
@@ -1784,7 +1846,7 @@ insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (32, 68); -
 --Intimidating Axe --EquipmentIndex 33 --CardIndex 105
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Intimidating Axe',
 'http://htkb.info/SDE/1.0/Cards/Loot/Card_Loot_Intimidating_Axe_1.0.png', 
-'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Loot_Back_1.0.png', 
+'http://htkb.info/SDE/1.0/Cards/Loot/Card_Loot_Back_1.0.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Loot/Intimidating_Axe.xhtml', 
 'Loot', '1.0', '1.0 Core Set', 'Default',
 'I wouldn''t do that if I were you.');
@@ -1793,7 +1855,7 @@ insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (33, 87); -
 --Miner's Helm --EquipmentIndex 34 --CardIndex 106
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Miner''s Helm',
 'http://htkb.info/SDE/1.0/Cards/Treasure/Generic/Card_Treasure_Miners_Helm_1.0.png', 
-'http://htkb.info/SDE/1.0/Cards/Treasure/Generic/Card_Treasure_Back_1.0.png',
+'http://htkb.info/SDE/1.0/Cards/Treasure/Card_Treasure_Back_1.0.png',
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Treasure/Generic/Miners_Helm.xhtml', 
 'Treasure', '1.0', '1.0 Core Set', 'Default',
 'It''s dark in here.');
@@ -1802,7 +1864,7 @@ insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (34, 62); -
 --Molten Shield --EquipmentIndex 35 --CardIndex 107
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Molten Shield',
 'http://htkb.info/SDE/1.0/Cards/Loot/Card_Loot_Molten_Shield_1.0.png', 
-'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Loot_Back_1.0.png', 
+'http://htkb.info/SDE/1.0/Cards/Loot/Card_Loot_Back_1.0.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Loot/Molten_Shield.xhtml', 
 'Loot', '1.0', '1.0 Core Set', 'Default',
 'It''s really hot, so I don''t have to be.');
@@ -1811,7 +1873,7 @@ insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (35, 54); -
 --Mournful Vial --EquipmentIndex 36 --CardIndex 108
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Mournful Vial',
 'http://htkb.info/SDE/1.0/Cards/Treasure/Specific/Card_Treasure_Mournful_Vial_1.0.png', 
-'http://htkb.info/SDE/1.0/Cards/Treasure/Specific/Card_Treasure_Back_1.0.png',
+'http://htkb.info/SDE/1.0/Cards/Treasure/Card_Treasure_Back_1.0.png',
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Treasure/Specific/Mournful_Vial.xhtml', 
 'Treasure', '1.0', '1.0 Core Set', 'Default',
 'Mmmm, raspberry!');
@@ -1822,7 +1884,7 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (36, 38
 --Pegasus Feather --EquipmentIndex 37 --CardIndex 109
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Pegasus Feather',
 'http://htkb.info/SDE/1.0/Cards/Treasure/Generic/Card_Treasure_Pegasus_Feather_1.0.png', 
-'http://htkb.info/SDE/1.0/Cards/Treasure/Generic/Card_Treasure_Back_1.0.png',
+'http://htkb.info/SDE/1.0/Cards/Treasure/Card_Treasure_Back_1.0.png',
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Treasure/Generic/Pegasus_Feather.xhtml', 
 'Treasure', '1.0', '1.0 Core Set', 'Default',
 'I can fly!');
@@ -1831,7 +1893,7 @@ insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (37, 36); -
 --Petrified Dragon Heart --EquipmentIndex 38 --CardIndex 110
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Petrified Dragon Heart',
 'http://htkb.info/SDE/1.0/Cards/Treasure/Specific/Card_Treasure_Petrified_Dragon_Heart_1.0.png', 
-'http://htkb.info/SDE/1.0/Cards/Treasure/Specific/Card_Treasure_Back_1.0.png',
+'http://htkb.info/SDE/1.0/Cards/Treasure/Card_Treasure_Back_1.0.png',
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Treasure/Specific/Petrified_Dragon_Heart.xhtml', 
 'Treasure', '1.0', '1.0 Core Set', 'Default',
 'Let my vitality become your own.');
@@ -1841,7 +1903,7 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (38, 37
 --Priest's Vestments --EquipmentIndex 39 --CardIndex 111
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Priest''s Vestments',
 'http://htkb.info/SDE/1.0/Cards/Treasure/Generic/Card_Treasure_Priests_Vestments_1.0.png', 
-'http://htkb.info/SDE/1.0/Cards/Treasure/Generic/Card_Treasure_Back_1.0.png',
+'http://htkb.info/SDE/1.0/Cards/Treasure/Card_Treasure_Back_1.0.png',
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Treasure/Generic/Priests_Vestments.xhtml', 
 'Treasure', '1.0', '1.0 Core Set', 'Default',
 'Rub some dirt on it.');
@@ -1850,7 +1912,7 @@ insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (39, 122); 
 --Possessed Cloak --EquipmentIndex 40 --CardIndex 112
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Possessed Cloak',
 'http://htkb.info/SDE/1.0/Cards/Treasure/Specific/Card_Treasure_Possessed_Cloak_1.0.png', 
-'http://htkb.info/SDE/1.0/Cards/Treasure/Specific/Card_Treasure_Back_1.0.png',
+'http://htkb.info/SDE/1.0/Cards/Treasure/Card_Treasure_Back_1.0.png',
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Treasure/Specific/Possessed_Cloak.xhtml', 
 'Treasure', '1.0', '1.0 Core Set', 'Default',
 '...who are you?');
@@ -1860,7 +1922,7 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (40, 38
 --Resurrection Charm --EquipmentIndex 41 --CardIndex 113
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Resurrection Charm',
 'http://htkb.info/SDE/1.0/Cards/Loot/Card_Loot_Resurrection_Charm_1.0.png', 
-'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Loot_Back_1.0.png', 
+'http://htkb.info/SDE/1.0/Cards/Loot/Card_Loot_Back_1.0.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Loot/Resurrection_Charm.xhtml', 
 'Loot', '1.0', '1.0 Core Set', 'Default',
 'It lives!');
@@ -1868,7 +1930,7 @@ insert into Equipment (CardIndex, Position, Effect) VALUES (113, 'Bottom', 'At t
 --Roxor's Bane --EquipmentIndex 42 --CardIndex 114
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Roxor''s Bane',
 'http://htkb.info/SDE/1.0/Cards/Treasure/Specific/Card_Treasure_Roxors_Bane_1.0.png', 
-'http://htkb.info/SDE/1.0/Cards/Treasure/Specific/Card_Treasure_Back_1.0.png',
+'http://htkb.info/SDE/1.0/Cards/Treasure/Card_Treasure_Back_1.0.png',
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Treasure/Specific/Roxors_Bane.xhtml', 
 'Treasure', '1.0', '1.0 Core Set', 'Default',
 'Lets get frosty!');
@@ -1878,7 +1940,7 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (42, 36
 --Rumble & Ruckus --EquipmentIndex 43 --CardIndex 115
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Rumble & Ruckus',
 'http://htkb.info/SDE/1.0/Cards/Treasure/Specific/Card_Treasure_Rumble_And_Ruckus_1.0.png', 
-'http://htkb.info/SDE/1.0/Cards/Treasure/Specific/Card_Treasure_Back_1.0.png',
+'http://htkb.info/SDE/1.0/Cards/Treasure/Card_Treasure_Back_1.0.png',
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Treasure/Specific/Rumble_And_Ruckus.xhtml', 
 'Treasure', '1.0', '1.0 Core Set', 'Default',
 'Few can stand when Rumble and Ruckus shake the ground.');
@@ -1889,7 +1951,7 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (43, 36
 --Rune of Better Defense --EquipmentIndex 44 --CardIndex 116
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Rune of Better Defense',
 'http://htkb.info/SDE/1.0/Cards/Loot/Card_Loot_Rune_Of_Better_Defense_1.0.png', 
-'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Loot_Back_1.0.png', 
+'http://htkb.info/SDE/1.0/Cards/Loot/Card_Loot_Back_1.0.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Loot/Rune_Of_Better_Defense.xhtml', 
 'Loot', '1.0', '1.0 Core Set', 'Default',
 'Nothing protects like Better Defense.');
@@ -1897,7 +1959,7 @@ insert into Equipment (CardIndex, Position, Effect) VALUES (116, 'Right', '+1R A
 --Rune of Defense --EquipmentIndex 45 --CardIndex 117
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Rune of Defense',
 'http://htkb.info/SDE/1.0/Cards/Loot/Card_Loot_Rune_Of_Defense_1.0.png', 
-'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Loot_Back_1.0.png', 
+'http://htkb.info/SDE/1.0/Cards/Loot/Card_Loot_Back_1.0.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Loot/Rune_Of_Defense.xhtml', 
 'Loot', '1.0', '1.0 Core Set', 'Default',
 'Stop hitting me!');
@@ -1905,7 +1967,7 @@ insert into Equipment (CardIndex, Position, Effect) VALUES (117, 'Right', '+1B A
 --Rune of Focus --EquipmentIndex 46 --CardIndex 118
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Rune of Focus',
 'http://htkb.info/SDE/1.0/Cards/Loot/Card_Loot_Rune_Of_Focus_1.0.png', 
-'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Loot_Back_1.0.png', 
+'http://htkb.info/SDE/1.0/Cards/Loot/Card_Loot_Back_1.0.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Loot/Rune_Of_Focus.xhtml', 
 'Loot', '1.0', '1.0 Core Set', 'Default',
 'I think I can.  I think I can.');
@@ -1913,7 +1975,7 @@ insert into Equipment (CardIndex, Position, Effect) VALUES (118, 'Bottom', '+1B 
 --Rune of Haste --EquipmentIndex 47 --CardIndex 119
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Rune of Haste',
 'http://htkb.info/SDE/1.0/Cards/Loot/Card_Loot_Rune_Of_Haste_1.0.png', 
-'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Loot_Back_1.0.png', 
+'http://htkb.info/SDE/1.0/Cards/Loot/Card_Loot_Back_1.0.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Loot/Rune_Of_Haste.xhtml', 
 'Loot', '1.0', '1.0 Core Set', 'Default',
 'I''m the best around.');
@@ -1921,7 +1983,7 @@ insert into Equipment (CardIndex, Position, Effect) VALUES (119, 'Bottom', '+1AC
 --Rune of Health --EquipmentIndex 48 --CardIndex 120
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Rune of Health',
 'http://htkb.info/SDE/1.0/Cards/Loot/Card_Loot_Rune_Of_Health_1.0.png', 
-'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Loot_Back_1.0.png', 
+'http://htkb.info/SDE/1.0/Cards/Loot/Card_Loot_Back_1.0.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Loot/Rune_Of_Health.xhtml', 
 'Loot', '1.0', '1.0 Core Set', 'Default',
 'Nothing is going to keep me down.');
@@ -1929,7 +1991,7 @@ insert into Equipment (CardIndex, Position, Effect) VALUES (120, 'Bottom', '+1He
 --Rune of Meditation --EquipmentIndex 49 --CardIndex 121
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Rune of Meditation',
 'http://htkb.info/SDE/1.0/Cards/Loot/Card_Loot_Rune_Of_Meditation_1.0.png', 
-'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Loot_Back_1.0.png', 
+'http://htkb.info/SDE/1.0/Cards/Loot/Card_Loot_Back_1.0.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Loot/Rune_Of_Meditation.xhtml', 
 'Loot', '1.0', '1.0 Core Set', 'Default',
 'I think therefore I am.');
@@ -1937,7 +1999,7 @@ insert into Equipment (CardIndex, Position, Effect) VALUES (121, 'Bottom', '+1R 
 --Rune of Mithril --EquipmentIndex 50 --CardIndex 122
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Rune of Mithril',
 'http://htkb.info/SDE/1.0/Cards/Treasure/Generic/Card_Treasure_Rune_Of_Mithril_1.0.png', 
-'http://htkb.info/SDE/1.0/Cards/Treasure/Generic/Card_Treasure_Back_1.0.png',
+'http://htkb.info/SDE/1.0/Cards/Treasure/Card_Treasure_Back_1.0.png',
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Treasure/Generic/Rune_Of_Mithril.xhtml', 
 'Treasure', '1.0', '1.0 Core Set', 'Default',
 'There is no mere metal.');
@@ -1945,7 +2007,7 @@ insert into Equipment (CardIndex, Position, Effect) VALUES (122, 'Top', '+1G Arm
 --Rune of Quicksilver --EquipmentIndex 51 --CardIndex 123
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Rune of Quicksilver',
 'http://htkb.info/SDE/1.0/Cards/Treasure/Generic/Card_Treasure_Rune_Of_Quicksilver_1.0.png', 
-'http://htkb.info/SDE/1.0/Cards/Treasure/Generic/Card_Treasure_Back_1.0.png',
+'http://htkb.info/SDE/1.0/Cards/Treasure/Card_Treasure_Back_1.0.png',
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Treasure/Generic/Rune_Of_Quicksilver.xhtml', 
 'Treasure', '1.0', '1.0 Core Set', 'Default',
 'Dodge, Dip, Duck, Dive');
@@ -1953,7 +2015,7 @@ insert into Equipment (CardIndex, Position, Effect) VALUES (123, 'Top', '+1G DEX
 --Rune of Rage --EquipmentIndex 52 --CardIndex 124
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Rune of Rage',
 'http://htkb.info/SDE/1.0/Cards/Loot/Card_Loot_Rune_Of_Rage_1.0.png', 
-'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Loot_Back_1.0.png', 
+'http://htkb.info/SDE/1.0/Cards/Loot/Card_Loot_Back_1.0.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Loot/Rune_Of_Rage.xhtml', 
 'Loot', '1.0', '1.0 Core Set', 'Default',
 'RAAAAARGH!');
@@ -1961,7 +2023,7 @@ insert into Equipment (CardIndex, Position, Effect) VALUES (124, 'Left', '+1Star
 --Rune of Strength --EquipmentIndex 53 --CardIndex 125
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Rune of Strength',
 'http://htkb.info/SDE/1.0/Cards/Loot/Card_Loot_Rune_Of_Strength_1.0.png', 
-'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Loot_Back_1.0.png', 
+'http://htkb.info/SDE/1.0/Cards/Loot/Card_Loot_Back_1.0.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Loot/Rune_Of_Strength.xhtml', 
 'Loot', '1.0', '1.0 Core Set', 'Default',
 'Might makes right.');
@@ -1969,7 +2031,7 @@ insert into Equipment (CardIndex, Position, Effect) VALUES (125, 'Left', '+1B At
 --Rune of Super Defense --EquipmentIndex 54 --CardIndex 126
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Rune of Super Defense',
 'http://htkb.info/SDE/1.0/Cards/Loot/Card_Loot_Rune_Of_Super_Defense_1.0.png', 
-'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Loot_Back_1.0.png', 
+'http://htkb.info/SDE/1.0/Cards/Loot/Card_Loot_Back_1.0.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Loot/Rune_Of_Super_Defense.xhtml', 
 'Loot', '1.0', '1.0 Core Set', 'Default',
 'When I need armor I get Super!');
@@ -1977,7 +2039,7 @@ insert into Equipment (CardIndex, Position, Effect) VALUES (126, 'Right', '+1Sta
 --Rune of the Archmage --EquipmentIndex 55 --CardIndex 127
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Rune of the Archmage',
 'http://htkb.info/SDE/1.0/Cards/Treasure/Generic/Card_Treasure_Rune_Of_The_Archmage_1.0.png', 
-'http://htkb.info/SDE/1.0/Cards/Treasure/Generic/Card_Treasure_Back_1.0.png',
+'http://htkb.info/SDE/1.0/Cards/Treasure/Card_Treasure_Back_1.0.png',
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Treasure/Generic/Rune_Of_The_Archmage.xhtml', 
 'Treasure', '1.0', '1.0 Core Set', 'Default',
 'The world is mine to command.');
@@ -1985,7 +2047,7 @@ insert into Equipment (CardIndex, Position, Effect) VALUES (127, 'Top', '+1G WIL
 --Rune of the Lynx --EquipmentIndex 56 --CardIndex 128
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Rune of the Lynx',
 'http://htkb.info/SDE/1.0/Cards/Loot/Card_Loot_Rune_Of_The_Lynx_1.0.png', 
-'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Loot_Back_1.0.png', 
+'http://htkb.info/SDE/1.0/Cards/Loot/Card_Loot_Back_1.0.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Loot/Rune_Of_The_Lynx.xhtml', 
 'Loot', '1.0', '1.0 Core Set', 'Default',
 'Quick and sure.');
@@ -1993,7 +2055,7 @@ insert into Equipment (CardIndex, Position, Effect) VALUES (128, 'Bottom', '+1St
 --Rune of the Ogre --EquipmentIndex 57 --CardIndex 129
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Rune of the Ogre',
 'http://htkb.info/SDE/1.0/Cards/Loot/Card_Loot_Rune_Of_The_Ogre_1.0.png', 
-'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Loot_Back_1.0.png', 
+'http://htkb.info/SDE/1.0/Cards/Loot/Card_Loot_Back_1.0.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Loot/Rune_Of_The_Ogre.xhtml', 
 'Loot', '1.0', '1.0 Core Set', 'Default',
 'Bigger and uglier.');
@@ -2001,7 +2063,7 @@ insert into Equipment (CardIndex, Position, Effect) VALUES (129, 'Left', '+1R At
 --Rune of the Panther --EquipmentIndex 58 --CardIndex 130
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Rune of the Panther',
 'http://htkb.info/SDE/1.0/Cards/Loot/Card_Loot_Rune_Of_The_Panther_1.0.png', 
-'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Loot_Back_1.0.png', 
+'http://htkb.info/SDE/1.0/Cards/Loot/Card_Loot_Back_1.0.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Loot/Rune_Of_The_Panther.xhtml', 
 'Loot', '1.0', '1.0 Core Set', 'Default',
 'Silence and grace.');
@@ -2009,7 +2071,7 @@ insert into Equipment (CardIndex, Position, Effect) VALUES (130, 'Bottom', '+1R 
 --Rune of the Sage --EquipmentIndex 59 --CardIndex 131
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Rune of the Sage',
 'http://htkb.info/SDE/1.0/Cards/Loot/Card_Loot_Rune_Of_The_Sage_1.0.png', 
-'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Loot_Back_1.0.png', 
+'http://htkb.info/SDE/1.0/Cards/Loot/Card_Loot_Back_1.0.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Loot/Rune_Of_The_Sage.xhtml', 
 'Loot', '1.0', '1.0 Core Set', 'Default',
 'There is no spoon.');
@@ -2017,7 +2079,7 @@ insert into Equipment (CardIndex, Position, Effect) VALUES (131, 'Bottom', '+1St
 --Rune of the Stray --EquipmentIndex 60 --CardIndex 132
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Rune of the Stray',
 'http://htkb.info/SDE/1.0/Cards/Loot/Card_Loot_Rune_Of_The_Stray_1.0.png', 
-'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Loot_Back_1.0.png', 
+'http://htkb.info/SDE/1.0/Cards/Loot/Card_Loot_Back_1.0.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Loot/Rune_Of_The_Stray.xhtml', 
 'Loot', '1.0', '1.0 Core Set', 'Default',
 'Nice kitty.');
@@ -2025,7 +2087,7 @@ insert into Equipment (CardIndex, Position, Effect) VALUES (132, 'Bottom', '+1B 
 --Rune of the Titans --EquipmentIndex 61 --CardIndex 133
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Rune of the Titans',
 'http://htkb.info/SDE/1.0/Cards/Treasure/Generic/Card_Treasure_Rune_Of_The_Titans_1.0.png', 
-'http://htkb.info/SDE/1.0/Cards/Treasure/Generic/Card_Treasure_Back_1.0.png',
+'http://htkb.info/SDE/1.0/Cards/Treasure/Card_Treasure_Back_1.0.png',
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Treasure/Generic/Rune_Of_The_Titans.xhtml', 
 'Treasure', '1.0', '1.0 Core Set', 'Default',
 'None shall stand before us.');
@@ -2033,7 +2095,7 @@ insert into Equipment (CardIndex, Position, Effect) VALUES (133, 'Top', '+1G Att
 --Runic Cloak --EquipmentIndex 62 --CardIndex 134
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Runic Charm',
 'http://htkb.info/SDE/1.0/Cards/Treasure/Generic/Card_Treasure_Runic_Cloak_1.0.png', 
-'http://htkb.info/SDE/1.0/Cards/Treasure/Generic/Card_Treasure_Back_1.0.png',
+'http://htkb.info/SDE/1.0/Cards/Treasure/Card_Treasure_Back_1.0.png',
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Treasure/Generic/Runic_Cloak.xhtml', 
 'Treasure', '1.0', '1.0 Core Set', 'Default',
 'No magic shall unbind these wards.');
@@ -2042,7 +2104,7 @@ insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (62, 61); -
 --Sapper's Axe --EquipmentIndex 63 --CardIndex 135
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Sapper''s Axe',
 'http://htkb.info/SDE/1.0/Cards/Loot/Card_Loot_Sappers_Axe_1.0.png', 
-'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Loot_Back_1.0.png', 
+'http://htkb.info/SDE/1.0/Cards/Loot/Card_Loot_Back_1.0.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Loot/Sappers_Axe.xhtml', 
 'Loot', '1.0', '1.0 Core Set', 'Default',
 'Your strength is now mine.');
@@ -2051,7 +2113,7 @@ insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (63, 167); 
 --Serpent Plate --EquipmentIndex 64 --CardIndex 136
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Serpent Plate',
 'http://htkb.info/SDE/1.0/Cards/Loot/Card_Loot_Serpent_Plate_1.0.png', 
-'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Loot_Back_1.0.png', 
+'http://htkb.info/SDE/1.0/Cards/Loot/Card_Loot_Back_1.0.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Loot/Serpent_Plate.xhtml', 
 'Loot', '1.0', '1.0 Core Set', 'Default',
 'Fear not the coiled serpent.');
@@ -2060,7 +2122,7 @@ insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (64, 59); -
 --Serpent Sword --EquipmentIndex 65 --CardIndex 137
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Serpent Sword',
 'http://htkb.info/SDE/1.0/Cards/Loot/Card_Loot_Serpent_Sword_1.0.png', 
-'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Loot_Back_1.0.png', 
+'http://htkb.info/SDE/1.0/Cards/Loot/Card_Loot_Back_1.0.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Loot/Serpent_Sword.xhtml', 
 'Loot', '1.0', '1.0 Core Set', 'Default',
 'The favored weapon of the unsavory.');
@@ -2069,7 +2131,7 @@ insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (65, 90); -
 --Silver Torq --EquipmentIndex 66 --CardIndex 138
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Silver Torq',
 'http://htkb.info/SDE/1.0/Cards/Loot/Card_Loot_Silver_Torq_1.0.png', 
-'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Loot_Back_1.0.png', 
+'http://htkb.info/SDE/1.0/Cards/Loot/Card_Loot_Back_1.0.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Loot/Silver_Torq.xhtml', 
 'Loot', '1.0', '1.0 Core Set', 'Default',
 'This round is on me.');
@@ -2078,7 +2140,7 @@ insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (66, 52); -
 --Sneaky Stilletto --EquipmentIndex 67 --CardIndex 139
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Sneaky Stilletto',
 'http://htkb.info/SDE/1.0/Cards/Loot/Card_Loot_Sneaky_Stilletto_1.0.png', 
-'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Loot_Back_1.0.png', 
+'http://htkb.info/SDE/1.0/Cards/Loot/Card_Loot_Back_1.0.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Loot/Sneaky_Stilletto.xhtml', 
 'Loot', '1.0', '1.0 Core Set', 'Default',
 'If we move really, really, slowly maybe they won''t see us.');
@@ -2087,7 +2149,7 @@ insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (67, 117); 
 --Sorcerer's Cowl --EquipmentIndex 68 --CardIndex 140
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Sorcerer''s Cowl',
 'http://htkb.info/SDE/1.0/Cards/Loot/Card_Loot_Sorcerers_Cowl_1.0.png', 
-'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Loot_Back_1.0.png', 
+'http://htkb.info/SDE/1.0/Cards/Loot/Card_Loot_Back_1.0.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Loot/Sorcerers_Cowl.xhtml', 
 'Loot', '1.0', '1.0 Core Set', 'Default',
 'Lead-lined for maximum lightning protection.');
@@ -2096,7 +2158,7 @@ insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (68, 62); -
 --Sorcerer's Stave --EquipmentIndex 69 --CardIndex 141
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Sorcerer''s Stave',
 'http://htkb.info/SDE/1.0/Cards/Loot/Card_Loot_Sorcerers_Stave_1.0.png', 
-'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Loot_Back_1.0.png', 
+'http://htkb.info/SDE/1.0/Cards/Loot/Card_Loot_Back_1.0.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Loot/Sorcerers_Stave.xhtml', 
 'Loot', '1.0', '1.0 Core Set', 'Default',
 'Zzzot!');
@@ -2105,7 +2167,7 @@ insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (69, 133); 
 --Spiked Gauntlets --EquipmentIndex 70 --CardIndex 142
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Spiked Gauntlets',
 'http://htkb.info/SDE/1.0/Cards/Loot/Card_Loot_Spiked_Gauntlets_1.0.png', 
-'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Loot_Back_1.0.png', 
+'http://htkb.info/SDE/1.0/Cards/Loot/Card_Loot_Back_1.0.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Loot/Spiked_Gauntlets.xhtml', 
 'Loot', '1.0', '1.0 Core Set', 'Default',
 'They make me punch harder and longer!');
@@ -2114,7 +2176,7 @@ insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (70, 63); -
 --Sword of Alacrity --EquipmentIndex 71 --CardIndex 143
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Sword of Alacrity',
 'http://htkb.info/SDE/1.0/Cards/Treasure/Generic/Card_Treasure_Sword_Of_Alacrity_1.0.png', 
-'http://htkb.info/SDE/1.0/Cards/Treasure/Generic/Card_Treasure_Back_1.0.png',
+'http://htkb.info/SDE/1.0/Cards/Treasure/Card_Treasure_Back_1.0.png',
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Treasure/Generic/Sword_Of_Alacrity.xhtml', 
 'Treasure', '1.0', '1.0 Core Set', 'Default',
 'Parry, Parry, Thrust, Thrust!');
@@ -2122,7 +2184,7 @@ insert into Equipment (CardIndex, Position, Effect) VALUES (143, 'Top', '+1R Att
 --Temptress Perfume --EquipmentIndex 72 --CardIndex 144
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Temptress Perfume',
 'http://htkb.info/SDE/1.0/Cards/Treasure/Specific/Card_Treasure_Temptress_Perfume_1.0.png', 
-'http://htkb.info/SDE/1.0/Cards/Treasure/Specific/Card_Treasure_Back_1.0.png',
+'http://htkb.info/SDE/1.0/Cards/Treasure/Card_Treasure_Back_1.0.png',
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Treasure/Specific/Temptress_Perfume.xhtml', 
 'Treasure', '1.0', '1.0 Core Set', 'Default',
 'A heady aroma.');
@@ -2133,7 +2195,7 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (72, 34
 --Vulcanis' Maul --EquipmentIndex 73 --CardIndex 145
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Vulcanis'' Maul',
 'http://htkb.info/SDE/1.0/Cards/Treasure/Specific/Card_Treasure_Vulcanis_Maul_1.0.png', 
-'http://htkb.info/SDE/1.0/Cards/Treasure/Specific/Card_Treasure_Back_1.0.png',
+'http://htkb.info/SDE/1.0/Cards/Treasure/Card_Treasure_Back_1.0.png',
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Treasure/Specific/Vulcanis_Maul.xhtml', 
 'Treasure', '1.0', '1.0 Core Set', 'Default',
 'It is said even the toys Vulcanis made for his sons have the power to move mountains.');
@@ -2144,7 +2206,7 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (73, 28
 --Withered Ring --EquipmentIndex 74 --CardIndex 146
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Withered Ring',
 'http://htkb.info/SDE/1.0/Cards/Treasure/Specific/Card_Treasure_Withered_Ring_1.0.png', 
-'http://htkb.info/SDE/1.0/Cards/Treasure/Specific/Card_Treasure_Back_1.0.png',
+'http://htkb.info/SDE/1.0/Cards/Treasure/Card_Treasure_Back_1.0.png',
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Treasure/Specific/Withered_Ring.xhtml', 
 'Treasure', '1.0', '1.0 Core Set', 'Default',
 'Second chances are seldom earned.');
@@ -2153,7 +2215,7 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (74, 38
 --Wizarding Wand --EquipmentIndex 75 --CardIndex 147
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Wizarding Wand',
 'http://htkb.info/SDE/1.0/Cards/Loot/Card_Loot_Wizarding_Wand_1.0.png', 
-'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Loot_Back_1.0.png', 
+'http://htkb.info/SDE/1.0/Cards/Loot/Card_Loot_Back_1.0.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Loot/Wizarding_Wand.xhtml', 
 'Loot', '1.0', '1.0 Core Set', 'Default',
 'I would prefer if you didn''t do that.');
@@ -2163,7 +2225,7 @@ insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (75, 100); 
 --Wizard's Robes --EquipmentIndex 76 --CardIndex 148
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Wizard''s Robes',
 'http://htkb.info/SDE/1.0/Cards/Loot/Card_Loot_Wizards_Robes_1.0.png', 
-'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Loot_Back_1.0.png', 
+'http://htkb.info/SDE/1.0/Cards/Loot/Card_Loot_Back_1.0.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Loot/Wizards_Robes.xhtml', 
 'Loot', '1.0', '1.0 Core Set', 'Default',
 'I think not.');
@@ -2172,7 +2234,7 @@ insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (76, 3); --
 --Wobbling Stalactite --EquipmentIndex 77 --CardIndex 149
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Wobbling Stalactite',
 'http://htkb.info/SDE/1.0/Cards/Treasure/Specific/Card_Treasure_Wobbling_Stalactite_1.0.png', 
-'http://htkb.info/SDE/1.0/Cards/Treasure/Specific/Card_Treasure_Back_1.0.png',
+'http://htkb.info/SDE/1.0/Cards/Treasure/Card_Treasure_Back_1.0.png',
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Treasure/Specific/Wobbling_Stalactite.xhtml', 
 'Treasure', '1.0', '1.0 Core Set', 'Default',
 'Wibble-Wobble, Wibble-Wobble, Watch Out!');
@@ -2182,23 +2244,24 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (77, 36
 --Wyrm Scale --EquipmentIndex 78 --CardIndex 150
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Wyrm Scale',
 'http://htkb.info/SDE/1.0/Cards/Treasure/Specific/Card_Treasure_Wyrm_Scale_1.0.png', 
-'http://htkb.info/SDE/1.0/Cards/Treasure/Specific/Card_Treasure_Back_1.0.png',
+'http://htkb.info/SDE/1.0/Cards/Treasure/Card_Treasure_Back_1.0.png',
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Treasure/Specific/Wyrm_Scale.xhtml', 
 'Treasure', '1.0', '1.0 Core Set', 'Default',
 'Woooosh!');
 insert into Equipment (CardIndex, Position, Effect) VALUES (150, 'Top', '+1G Armor');
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (78, 46); --Fire Storm
-insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (78, 37); --Starfire
---Utility
---Difficult Terrain
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (78, 37); --Starfire--1.0 Terrain Cards
+--Difficult Terrain --CardIndex 151	--UtilityIndex 1	--TerrainIndex 1
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
 VALUES ('Difficult Terrain',
 'http://htkb.info/SDE/1.0/Cards/Utility/Card_Utility_Terrain_Difficult_Terrain_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Utility/Card_Utility_Terrain_1.0_back.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Utility/Difficult_Terrain.xhtml', 
 'Terrain', '1.0', '1.0 Core Set', 'Default', '');
-insert into Utilities (CardIndex, UtilityDescription) VALUES (151, 'Each square of difficult terrain a model enters costs two points of Speed.  If a model does not have enough Speed remaining to move into a square with difficult terrain it may not do so.'); --? Not sure what to put here
---Lava
+insert into Utilities (CardIndex, UtilityDescription) VALUES (151, '');
+insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (1, 498); --Difficult Terrain
+
+--Lava --CardIndex 152	--UtilityIndex 2	--TerrainIndex 2
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
 VALUES ('Lava',
 'http://htkb.info/SDE/1.0/Cards/Utility/Card_Utility_Terrain_Lava_1.0.png', 
@@ -2206,6 +2269,7 @@ VALUES ('Lava',
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Utility/Lava.xhtml', 
 'Terrain', '1.0', '1.0 Core Set', 'Default', '');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (152, 'A model entering a Lava square suffers Fire.'); 
+insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (2, 498); --Fire--1.0 Utility Cards
 --Rules Addendum and Errata
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
 VALUES ('Rules Addendum and Errata',
@@ -2214,18 +2278,3 @@ VALUES ('Rules Addendum and Errata',
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Utility/Addendums_Errata_Rules.xhtml', 
 'Utility', '1.0', '1.0 Core Set', 'Default', '');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (153, 'Offensive Potions:<br>Offensive Potions: are indicated by a green potion icon.<br><br>An Offensive Potion provides a model with a single use special action blue or special attack red.  These effects follow all normal rules for resolving special actions and attacks, including being able to target enemies and requiring attack and defense rolls (if the potion provides special attack).  They require no action points to use and are instead used by spending a potion token in the same manner as a normal potion, but may only be used during a model''s activation.<br><br>Vulnerable: X<br>Status Effect:  A model suffering Vulnerable X must discard the highest result rolled anytime it makes a defense roll against an attack or action which includes or uses the ability listed as X.'); 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
