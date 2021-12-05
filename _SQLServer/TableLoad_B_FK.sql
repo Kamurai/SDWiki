@@ -2078,23 +2078,23 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (130, 2);
 insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (130, '', -1);
 
---The Colonel --CardIndex 216	--CharacterIndex 129	--ExploreCharacterIndex 129
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('The Colonel',
+--The Colonel --CardIndex 216	--CharacterIndex 131	--ExploreCharacterIndex 131
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Colonel, The',
 'http://htkb.info/SDE/FK/Cards/Pets/Card_Pet_Colonel_The_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Pets/Card_Pet_Colonel_The_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Pets/Colonel_The.xhtml', 
 'Pet', 'FK', 'FK Core Set', 'Default', 
 'I didn''t get a harumph out of that guy.');
 insert into Characters (CardIndex) VALUES (216);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (129, 626); --Small
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (129, 618); --Tactical Strike
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (131, 626); --Small
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (131, 618); --Tactical Strike
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (129, 'Either', 'Small', 'Wonder', 6, 1, '2R', '3B', '', '', 0, 0);
-insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (129, 1, 1);
-insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (129, 2);
-insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (129, '', -1);
+VALUES (131, 'Either', 'Small', 'Wonder', 6, 1, '2R', '3B', '', '', 0, 0);
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (131, 1, 1);
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (131, 2);
+insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (131, '', -1);
 
---Lord Gruff --CardIndex 217	--CharacterIndex 130	--ExploreCharacterIndex 130
+--Lord Gruff --CardIndex 217	--CharacterIndex 132	--ExploreCharacterIndex 132
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Lord Gruff',
 'http://htkb.info/SDE/FK/Cards/Pets/Card_Pet_Lord_Gruff_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Pets/Card_Pet_Lord_Gruff_FK_back.png', 
@@ -2102,16 +2102,16 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Pet', 'FK', 'FK Core Set', 'Default', 
 'Harumph.');
 insert into Characters (CardIndex) VALUES (217);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (130, 626); --Small
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (130, 573); --Master Gains Knockdown
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (130, 364); --Grump
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (132, 626); --Small
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (132, 573); --Master Gains Knockdown
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (132, 364); --Grump
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (130, 'Masculine', 'Small', 'Wonder', 6, 1, '3B', '3ST', '', '', 0, 0);
-insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (130, 1, 1);
-insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (130, 2);
-insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (130, '', -1);
+VALUES (132, 'Masculine', 'Small', 'Wonder', 6, 1, '3B', '3ST', '', '', 0, 0);
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (132, 1, 1);
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (132, 2);
+insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (132, '', -1);
 
---Madam Hilde --CardIndex 218	--CharacterIndex 131	--ExploreCharacterIndex 131
+--Madam Hilde --CardIndex 218	--CharacterIndex 133	--ExploreCharacterIndex 133
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Madam Hilde',
 'http://htkb.info/SDE/FK/Cards/Pets/Card_Pet_Madam_Hilde_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Pets/Card_Pet_Madam_Hilde_FK_back.png', 
@@ -2119,16 +2119,16 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Pet', 'FK', 'FK Core Set', 'Default', 
 'My ears!');
 insert into Characters (CardIndex) VALUES (218);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (131, 626); --Small
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (131, 574); --Master Gains Soprano
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (131, 575); --Soprano
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (133, 626); --Small
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (133, 574); --Master Gains Soprano
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (133, 575); --Soprano
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (131, 'Feminine', 'Small', 'Wonder', 6, 1, '1B1R', '3ST', '', '', 0, 0);
-insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (131, 1, 1);
-insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (131, 2);
-insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (131, '', -1);
+VALUES (133, 'Feminine', 'Small', 'Wonder', 6, 1, '1B1R', '3ST', '', '', 0, 0);
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (133, 1, 1);
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (133, 2);
+insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (133, '', -1);
 
---Miss G. Snorts --CardIndex 219	--CharacterIndex 132	--ExploreCharacterIndex 132
+--Miss G. Snorts --CardIndex 219	--CharacterIndex 134	--ExploreCharacterIndex 134
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Miss G. Snorts',
 'http://htkb.info/SDE/FK/Cards/Pets/Card_Pet_Miss_G_Snorts_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Pets/Card_Pet_Miss_G_Snorts_FK_back.png', 
@@ -2136,33 +2136,33 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Pet', 'FK', 'FK Core Set', 'Default', 
 'Stinktashtic!');
 insert into Characters (CardIndex) VALUES (219);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (132, 626); --Small
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (132, 575); --Master Gains Poison
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (132, 599); --Stink Beard Bark
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (134, 626); --Small
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (134, 575); --Master Gains Poison
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (134, 599); --Stink Beard Bark
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (132, 'Feminine', 'Small', 'Wonder', 6, 1, '3B', '2ST', '', '', 0, 0);
-insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (132, 1, 1);
-insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (132, 2);
-insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (132, '', -1);
+VALUES (134, 'Feminine', 'Small', 'Wonder', 6, 1, '3B', '2ST', '', '', 0, 0);
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (134, 1, 1);
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (134, 2);
+insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (134, '', -1);
 
---Mr. Chompers --CardIndex 220	--CharacterIndex 133	--ExploreCharacterIndex 133
+--Mr. Chompers --CardIndex 220	--CharacterIndex 135	--ExploreCharacterIndex 135
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Mr. Chompers',
 'http://htkb.info/SDE/FK/Cards/Pets/Card_Pet_Mr_Chompers_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Pets/Card_Pet_Mr_Chompers_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Pets/Mr_Chompers.xhtml', 
 'Pet', 'FK', 'FK Core Set', 'Default', 
 'Poof.');
-insert into Characters (CardIndex) VALUES (219);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (133, 626); --Small
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (133, 576); --Master Gains Fire
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (133, 489); --Poof
+insert into Characters (CardIndex) VALUES (220);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (135, 626); --Small
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (135, 576); --Master Gains Fire
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (135, 489); --Poof
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (133, 'Masculine', 'Small', 'Wonder', 6, 1, '2R', '2ST', '', '', 0, 0);
-insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (133, 1, 1);
-insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (133, 2);
-insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (133, '', -1);
+VALUES (135, 'Masculine', 'Small', 'Wonder', 6, 1, '2R', '2ST', '', '', 0, 0);
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (135, 1, 1);
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (135, 2);
+insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (135, '', -1);
 
---Mr. Bitey --CardIndex 221	--CharacterIndex 134	--ExploreCharacterIndex 134
+--Mr. Bitey --CardIndex 221	--CharacterIndex 136	--ExploreCharacterIndex 136
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Mr. Bitey',
 'http://htkb.info/SDE/FK/Cards/Pets/Card_Pet_Mr_Bitey_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Pets/Card_Pet_Mr_Bitey_FK_back.png', 
@@ -2170,16 +2170,16 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Pet', 'FK', 'FK Core Set', 'Default', 
 'Ouch!  He bit me!');
 insert into Characters (CardIndex) VALUES (221);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (134, 626); --Small
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (134, 577); --Master Gains Berserk
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (134, 531); --Rotten Carrot
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (136, 626); --Small
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (136, 577); --Master Gains Berserk
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (136, 531); --Rotten Carrot
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (134, 'Masculine', 'Small', 'Wonder', 6, 2, '2R', '2ST', '', '', 0, 0);
-insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (134, 1, 1);
-insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (134, 2);
-insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (134, '', -1);
+VALUES (136, 'Masculine', 'Small', 'Wonder', 6, 2, '2R', '2ST', '', '', 0, 0);
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (136, 1, 1);
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (136, 2);
+insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (136, '', -1);
 
---Never-Lost Cola --CardIndex 222	--CharacterIndex 135	--ExploreCharacterIndex 135
+--Never-Lost Cola --CardIndex 222	--CharacterIndex 137	--ExploreCharacterIndex 137
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Never-Lost Cola',
 'http://htkb.info/SDE/FK/Cards/Pets/Card_Pet_Never_Lost_Cola_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Pets/Card_Pet_Never_Lost_Cola_FK_back.png', 
@@ -2187,17 +2187,17 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Pet', 'FK', 'FK Core Set', 'Default', 
 'I''m positive it''s that way.');
 insert into Characters (CardIndex) VALUES (222);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (135, 626); --Small
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (135, 577); --Master Gains Berserk
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (135, 531); --Rotten Carrot
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (137, 626); --Small
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (137, 577); --Master Gains Berserk
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (137, 531); --Rotten Carrot
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (135, 'Masculine', 'Small', 'Wonder', 6, 2, '2R', '2ST', '', '', 0, 0);
-insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (135, 1, 1);
-insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (135, 2);
-insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (135, '', -1);
+VALUES (137, 'Masculine', 'Small', 'Wonder', 6, 2, '2R', '2ST', '', '', 0, 0);
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (137, 1, 1);
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (137, 2);
+insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (137, '', -1);
 
 --FK Booty
---Booty Biter --CardIndex 223	--CharacterIndex 136	--ExploreCharacterIndex 136
+--Booty Biter --CardIndex 223	--CharacterIndex 138	--ExploreCharacterIndex 138
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Booty Biter',
 'http://htkb.info/SDE/FK/Cards/Booty/Card_Booty_Booty_Biter_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Booty/Card_Booty_Booty_Biter_FK_back.png', 
@@ -2205,16 +2205,16 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Booty', 'FK', 'FK Core Set', 'Explore', 
 'Boo booty are the unfortunate creation of gnomish tinkering, paired with dwarven greed.  Originally intended to guard the treasure vaults of the Hearthsworn Dwarves, the spirit of the Dark Consul filled the constructs with a malevolent intellect.  Turning upon their former masters, boo booty rabildly guard their treasure from all who would seek to claim it.');
 insert into Characters (CardIndex) VALUES (223);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (136, 1); --Citrine
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (136, 465); --Backlash
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (136, 656); --Boo Booty
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (138, 1); --Citrine
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (138, 465); --Backlash
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (138, 656); --Boo Booty
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (136, 'Neither', 'Small', 'Boo Booty', 6, 1, '2R', '3B', '2B', '3B', 2, 0);
-insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (136, 1, 1);
-insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (136, 2);
-insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (136, 'Boo Booty', '8 Bit', 1);
+VALUES (138, 'Neither', 'Small', 'Boo Booty', 6, 1, '2R', '3B', '2B', '3B', 2, 0);
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (138, 1, 1);
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (138, 2);
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (138, 'Boo Booty', '8 Bit', 1);
 
---Booty Grinder --CardIndex 224	--CharacterIndex 137	--ExploreCharacterIndex 137
+--Booty Grinder --CardIndex 224	--CharacterIndex 139	--ExploreCharacterIndex 139
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Booty Grinder',
 'http://htkb.info/SDE/FK/Cards/Booty/Card_Booty_Booty_Grinder_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Booty/Card_Booty_Booty_Grinder_FK_back.png', 
@@ -2222,16 +2222,16 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Booty', 'FK', 'FK Core Set', 'Explore', 
 'While the original function of boo booty are to guard their treasure, Booty Grinders have the unfortunate tendency to devour it instead.  Once a Booty Grinder has caught the scent of shining steel, lustrous gold, or sparkling gems it will doggedly pursue any who carry them like a ravenous hound.');
 insert into Characters (CardIndex) VALUES (224);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (137, 3); --Ruby
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (137, 656); --Boo Booty
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (137, 363); --Grind It
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (139, 3); --Ruby
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (139, 656); --Boo Booty
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (139, 363); --Grind It
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (137, 'Neither', 'Small', 'Boo Booty', 6, 1, '3B', '1ST', '3B', '1B', 2, 0);
-insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (137, 1, 1);
-insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (137, 2);
-insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (137, 'Boo Booty', '8 Bit', 1);
+VALUES (139, 'Neither', 'Small', 'Boo Booty', 6, 1, '3B', '1ST', '3B', '1B', 2, 0);
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (139, 1, 1);
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (139, 2);
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (139, 'Boo Booty', '8 Bit', 1);
 
---Bouncing Booty --CardIndex 225	--CharacterIndex 138	--ExploreCharacterIndex 138
+--Bouncing Booty --CardIndex 225	--CharacterIndex 140	--ExploreCharacterIndex 140
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Bouncing Booty',
 'http://htkb.info/SDE/FK/Cards/Booty/Card_Booty_Bouncing_Booty_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Booty/Card_Booty_Bouncing_Booty_FK_back.png', 
@@ -2239,17 +2239,17 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Booty', 'FK', 'FK Core Set', 'Explore', 
 'While the original function of boo booty are to guard their treasure, Booty Grinders have the unfortunate tendency to devour it instead.  Once a Booty Grinder has caught the scent of shining steel, lustrous gold, or sparkling gems it will doggedly pursue any who carry them like a ravenous hound.');
 insert into Characters (CardIndex) VALUES (225);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (138, 2); --Emerald
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (138, 656); --Boo Booty
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (138, 198); --Bounce It
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (140, 2); --Emerald
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (140, 656); --Boo Booty
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (140, 198); --Bounce It
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (138, 'Neither', 'Small', 'Boo Booty', 6, 2, '3B', '0ST', '1B', '2R', 2, 0);
-insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (138, 1, 1);
-insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (138, 2);
-insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (138, 'Boo Booty', '8 Bit', 1);
+VALUES (140, 'Neither', 'Small', 'Boo Booty', 6, 2, '3B', '0ST', '1B', '2R', 2, 0);
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (140, 1, 1);
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (140, 2);
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (140, 'Boo Booty', '8 Bit', 1);
 
 --FK Creeps
---Citrine Slime --CardIndex 226	--CharacterIndex 139	--ExploreCharacterIndex 139
+--Citrine Slime --CardIndex 226	--CharacterIndex 141	--ExploreCharacterIndex 141
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Citrine Slime',
 'http://htkb.info/SDE/FK/Cards/Creeps/Card_Creep_Citrine_Slime_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Creeps/Card_Creep_Citrine_Slime_FK_back.png', 
@@ -2257,17 +2257,17 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Creep', 'FK', 'FK Core Set', 'Explore', 
 'Citrine Slimes are not very good conversationalists.  They are, however, exceptional at oozing and stinking of sulfur--mainly the stinking part.  One splash or casual ooze-to-skin contact will doom a Hero to smelling bad for the rest of their days.  While this is fine if you are Citrine Slime yourself, it is rarely appropriate for polite company.');
 insert into Characters (CardIndex) VALUES (226);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (139, 1); --Citrine
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (139, 559); --Insignificant
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (139, 626); --Small
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (139, 234); --Citrine Goop
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (141, 1); --Citrine
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (141, 559); --Insignificant
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (141, 626); --Small
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (141, 234); --Citrine Goop
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (139, 'Neither', 'Small', 'Slime', 5, 1, '2B', '0ST', '1B', '1B', 1, 0);
-insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (139, 1, 1);
-insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (139, 2);
-insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (139, '', '8 Bit', 1);
+VALUES (141, 'Neither', 'Small', 'Slime', 5, 1, '2B', '0ST', '1B', '1B', 1, 0);
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (141, 1, 1);
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (141, 2);
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (141, '', '8 Bit', 1);
 
---Emerald Slime --CardIndex 227	--CharacterIndex 140	--ExploreCharacterIndex 140
+--Emerald Slime --CardIndex 227	--CharacterIndex 142	--ExploreCharacterIndex 142
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Emerald Slime',
 'http://htkb.info/SDE/FK/Cards/Creeps/Card_Creep_Emerald_Slime_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Creeps/Card_Creep_Emerald_Slime_FK_back.png', 
@@ -2275,17 +2275,17 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Creep', 'FK', 'FK Core Set', 'Explore', 
 'Remarkably congenial, Emerald Slimes are giggling chatterboxes.  Regaling Heroes with grand tales of "glorp--glug--splurr--slorp," "blurb--grupple--glog--blarr," and the classic, "bloob--blub--blablablup."  Granted, there are direct translations, so no Hero actually knows what they are saying, but they seem friendly enough.');
 insert into Characters (CardIndex) VALUES (227);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (140, 2); --Emerald
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (140, 559); --Insignificant
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (140, 626); --Small
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (140, 303); --Emerald Glop
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (142, 2); --Emerald
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (142, 559); --Insignificant
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (142, 626); --Small
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (142, 303); --Emerald Glop
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (140, 'Neither', 'Small', 'Slime', 5, 1, '2B', '0ST', '1B', '1B', 1, 0);
-insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (140, 1, 1);
-insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (140, 2);
-insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (140, '', '8 Bit', 1);
+VALUES (142, 'Neither', 'Small', 'Slime', 5, 1, '2B', '0ST', '1B', '1B', 1, 0);
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (142, 1, 1);
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (142, 2);
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (142, '', '8 Bit', 1);
 
---Ghost --CardIndex 228	--CharacterIndex 141	--ExploreCharacterIndex 141
+--Ghost --CardIndex 228	--CharacterIndex 143	--ExploreCharacterIndex 143
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ghost',
 'http://htkb.info/SDE/FK/Cards/Creeps/Card_Creep_Ghost_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Creeps/Card_Creep_Ghost_FK_back.png', 
@@ -2293,15 +2293,15 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Creep', 'FK', 'FK Core Set', 'Explore', 
 'Boo!  Boooooo!  BOOOOOOO!');
 insert into Characters (CardIndex) VALUES (228);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (141, 4); --Ruby
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (141, 522); --Ghost
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (141, 612); --Shallow Grave
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (141, 309); --Extra Scared
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (143, 4); --Ruby
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (143, 522); --Ghost
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (143, 612); --Shallow Grave
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (143, 309); --Extra Scared
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (141, 'Either', 'Small', 'Undead Ghost', 5, 1, '0ST', '0ST', '2B', '3B', 1, 0);
-insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (141, 1, 1);
-insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (141, 2);
-insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (141, '', '8 Bit', 1);
+VALUES (143, 'Either', 'Small', 'Undead Ghost', 5, 1, '0ST', '0ST', '2B', '3B', 1, 0);
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (143, 1, 1);
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (143, 2);
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (143, '', '8 Bit', 1);
 
 --Giri --CardIndex 229	--CharacterIndex 142	--ExploreCharacterIndex 142
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Giri',
@@ -2392,6 +2392,7 @@ VALUES (146, 'Neither', 'Small', 'Slime', 5, 1, '2B', '0ST', '1B', '1B', 1, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (146, 1, 1);
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (146, 2);
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (146, '', '8 Bit', 1);
+
 
 --FK MiniBoss
 --Bashful Boris (Beta) --CardIndex 234	--CharacterIndex 147	--ExploreCharacterIndex 147

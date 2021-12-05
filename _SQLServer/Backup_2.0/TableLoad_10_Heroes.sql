@@ -860,6 +860,245 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (eXXX, 2); --Armor
 
 
+--Deeproot Druid --CardIndex cXXX	--CharacterIndex chXXX	--ExploreCharacterIndex eXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Deeproot Druid', 
+'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Deeproot_Druid_feminine_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Deeproot_Druid_feminine_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Deeproot_Druid_feminine.xhtml', 
+'Hero', '2.0', '2.0 Core Set', 'Default', 
+'');
+insert into Characters (CardIndex) VALUES (cXXX);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 3); --RubyCitrine
+insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+VALUES (chXXX, 'Female', 'Small', 'Half-Elf', 7, 3, '3B', '1B 1R', '3B', '1B 1R', 5, 1);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Poison
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Immune: Poison
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Shapeshift: Mad Cat
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Stranglethorn
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Briar Armor
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Nourishing Berries
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 1, 1); --Strength
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 3, 6); --Will
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (eXXX, 2); --Armor
+
+
+--Deeproot Druid --CardIndex cXXX	--CharacterIndex chXXX	--ExploreCharacterIndex eXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Deeproot Druid', 
+'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Deeproot_Druid_masculine_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Deeproot_Druid_masculine_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Deeproot_Druid_masculine.xhtml', 
+'Hero', '2.0', '2.0 Core Set', 'Default', 
+'');
+insert into Characters (CardIndex) VALUES (cXXX);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 3); --RubyCitrine
+insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+VALUES (chXXX, 'Male', 'Small', 'Half-Elf', 7, 3, '3B', '1B 1R', '3B', '1B 1R', 5, 1);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Poison
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Immune: Poison
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Shapeshift: Angry Bear
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Stranglethorn
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Briar Armor
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Nourishing Berries
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 1, 1); --Strength
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 3, 6); --Will
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (eXXX, 2); --Armor
+
+
+--Deodric The Drunk --CardIndex cXXX	--CharacterIndex chXXX	--ExploreCharacterIndex eXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Deodric The Drunk', 
+'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Deodric_the_Drunk_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Deodric_the_Drunk_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Deodric_the_Drunk.xhtml', 
+'Hero', '2.0', '2.0 Core Set', 'Default', 
+'');
+insert into Characters (CardIndex) VALUES (cXXX);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 3); --Ruby
+insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+VALUES (chXXX, 'Male', 'Small', 'Dwarf', 6, 3, '2B', '3B', '2R', '1B 1R', 5, 3);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Another Round
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Luck
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --One For My Friend
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Nothing To It
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --A Drink For the Ages
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 1, 1); --Strength
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 3, 6); --Will
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (eXXX, 2); --Armor
+
+
+--Duskweaver --CardIndex cXXX	--CharacterIndex chXXX	--ExploreCharacterIndex eXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Duskweaver', 
+'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Duskweaver_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Duskweaver_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Duskweaver.xhtml', 
+'Hero', '2.0', '2.0 Core Set', 'Default', 
+'');
+insert into Characters (CardIndex) VALUES (cXXX);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 3); --RubyCitrine
+insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+VALUES (chXXX, 'Female', 'Small', 'Nether Elf Spider', 8, 3, '2B 1R', '2R', '3B', '3B', 5, 1);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Poison
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Immune: Poison
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Surefoot
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Poison Blast
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Cocoon
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Spider's Grace
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 1, 2); --Strength
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (eXXX, 2); --Armor
+
+
+--D'Shaun --CardIndex cXXX	--CharacterIndex chXXX	--ExploreCharacterIndex eXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('D''Shaun', 
+'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_D_Shaun_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_D_Shaun_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/D_Shaun.xhtml', 
+'Hero', '2.0', '2.0 Core Set', 'Default', 
+'');
+insert into Characters (CardIndex) VALUES (cXXX);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 3); --RubyCitrine
+insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+VALUES (chXXX, 'Male', 'Small', 'Human Pirate', 6, 3, '3B', '3B', '1B 1R', '1B 1R', 5, 1);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Immune: Bane
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Immune: Poison
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Flintlock
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Kraken
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Treasure Map
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 1, 1); --Strength
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (eXXX, 2); --Armor
+
+
+--Edward Murdoch --CardIndex cXXX	--CharacterIndex chXXX	--ExploreCharacterIndex eXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Edward Murdoch', 
+'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Edward_Murdoch_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Edward_Murdoch_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Edward_Murdoch.xhtml', 
+'Hero', '2.0', '2.0 Core Set', 'Default', 
+'');
+insert into Characters (CardIndex) VALUES (cXXX);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 3); --CitrineEmerald
+insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+VALUES (chXXX, 'Male', 'Small', 'Human', 6, 3, '2B', '2R', '2B', '3B', 5, 1);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Sturdy
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Perfect Shot
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Attack My Target
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Master Tactician
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Dry Gin
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 1, 1); --Strength
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 4, 8); --Dex
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (eXXX, 2); --Armor
+
+
+--El Falcon --CardIndex cXXX	--CharacterIndex chXXX	--ExploreCharacterIndex eXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('El Falcon', 
+'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_El_Falcon_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_El_Falcon_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/El_Falcon.xhtml', 
+'Hero', '2.0', '2.0 Core Set', 'Default', 
+'');
+insert into Characters (CardIndex) VALUES (cXXX);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 3); --EmeraldRuby
+insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+VALUES (chXXX, 'Male', 'Small', 'Celestian', 7, 3, '2B', '1B', '2R', '3B', 5, 1);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Immune: Knockdown
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Fly
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Divine Arrow
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Heart Seeker
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Halo Extract
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 4, 6); --Dex
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (eXXX, 2); --Armor
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUEA (eXXX, 3); --Will
+
+
+--Ember Mage --CardIndex cXXX	--CharacterIndex chXXX	--ExploreCharacterIndex eXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ember Mage', 
+'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Ember_Mage_feminine_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Ember_Mage_feminine_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Ember_Mage_feminine.xhtml', 
+'Hero', '2.0', '2.0 Core Set', 'Default', 
+'');
+insert into Characters (CardIndex) VALUES (cXXX);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 3); --RubyCitrine
+insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+VALUES (chXXX, 'Female', 'Small', 'Human', 6, 3, '2B', '3B', '2R', '1B 1R', 5, 2);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Fire
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Fire Wave
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Magma Strike
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --White Mage
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Fire Water
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 1, 1); --Strength
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 3, 8); --Will
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (eXXX, 2); --Armor
+
+
+--Ember Mage --CardIndex cXXX	--CharacterIndex chXXX	--ExploreCharacterIndex eXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ember Mage', 
+'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Ember_Mage_masculine_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Ember_Mage_masculine_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Ember_Mage_masculine.xhtml', 
+'Hero', '2.0', '2.0 Core Set', 'Default', 
+'');
+insert into Characters (CardIndex) VALUES (cXXX);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 3); --RubyCitrine
+insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+VALUES (chXXX, 'Male', 'Small', 'Human', 6, 3, '2B', '3B', '2R', '1B 1R', 5, 2);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Fire
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Fire Wave
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Magma Strike
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --White Mage
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Fire Water
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 1, 1); --Strength
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 3, 8); --Will
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (eXXX, 2); --Armor
+
+
+--Faris --CardIndex cXXX	--CharacterIndex chXXX	--ExploreCharacterIndex eXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Faris', 
+'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Faris_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Faris_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Faris.xhtml', 
+'Hero', '2.0', '2.0 Core Set', 'Default', 
+'');
+insert into Characters (CardIndex) VALUES (cXXX);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 3); --Emerald
+insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+VALUES (chXXX, 'Male', 'Small', 'Human', 6, 3, '2B', '3B', '1B 1R', '2B 1R', 5, 1);
+
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Stinging Shot
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Scope
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Hunter's Rations
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 1, 1); --Strength
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 4, 8); --Dex
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (eXXX, 2); --Armor
+
+
+--Fed-Up Farmer --CardIndex cXXX	--CharacterIndex chXXX	--ExploreCharacterIndex eXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Fed-Up Farmer', 
+'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Fed_Up_Farmer_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Fed_Up_Farmer_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Fed_Up_Farmer.xhtml', 
+'Hero', '2.0', '2.0 Core Set', 'Default', 
+'');
+insert into Characters (CardIndex) VALUES (cXXX);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 3); --Citrine
+insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+VALUES (chXXX, 'Either', 'Large', 'Shapeshift', 6, 3, '2B 1R', '3B', '3B', '2B', 6, 1);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --9 Lives
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Get Off My Land
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Don't Need Yer Fancy City Gizmos
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --The Land Provides
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 1, 3); --Strength
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (eXXX, 2); --Armor
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
