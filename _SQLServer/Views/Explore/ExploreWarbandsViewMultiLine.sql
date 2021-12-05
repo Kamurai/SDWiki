@@ -1,7 +1,8 @@
 --drop view ExploreWarbandsViewMultiLine
 --Warbands
 create view ExploreWarbandsViewMultiLine as 
-select a.CardIndex, a.Name as CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, a.PlayMode, Flavor, --Cards
+select a.CardIndex, b.CharacterIndex, c.ExploreCharacterIndex, --Indexes
+a.Name as CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, a.PlayMode, Flavor, --Cards
 Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions, --ExploreCharacter
 AffinityType, --Affinity
 g.KeywordIndex, g.Name as KeywordName, KeywordDescription, --Keywords
