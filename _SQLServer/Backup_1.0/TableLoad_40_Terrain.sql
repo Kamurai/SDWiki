@@ -18,3 +18,4 @@ VALUES ('Lava',
 'Terrain', '1.0', '1.0 Core Set', 'Default', '');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (152, 'A model entering a Lava square suffers Fire.'); 
 insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (1, 697); --Lava
+insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (1, 498); --Difficult Terrain

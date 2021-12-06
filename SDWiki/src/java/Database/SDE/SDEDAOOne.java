@@ -1015,15 +1015,15 @@ public class SDEDAOOne extends DAO{
                 }
                 
                 //if on new keyword
-//                if(newKeyword){
-//                    //add new keyword to last gang member
-//                    result.addKeyword(
-//                            rs.getString("KeywordName"),
-//                            rs.getString("KeywordDescription")
-//                    );
-//                    
-//                    previousKeywordIndex = rs.getInt("KeywordIndex");
-//                }
+                if(newKeyword){
+                    //add new keyword to last gang member
+                    result.addKeyword(
+                            rs.getString("KeywordName"),
+                            rs.getString("KeywordDescription")
+                    );
+                    
+                    previousKeywordIndex = rs.getInt("KeywordIndex");
+                }
                 
                 //Previous card index
                 previousCardIndex = rs.getInt("CardIndex");
