@@ -53,7 +53,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (143, 2);
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (143, '', '8 Bit', 1);
 
---Giri --CardIndex 229	--CharacterIndex 142	--ExploreCharacterIndex 142
+--Giri --CardIndex 229	--CharacterIndex 144	--ExploreCharacterIndex 144
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Giri',
 'http://htkb.info/SDE/FK/Cards/Creeps/Card_Creep_Giri_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Creeps/Card_Creep_Giri_FK_back.png', 
@@ -61,35 +61,35 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Creep', 'FK', 'FK Core Set', 'Explore', 
 'Giri are capricious faeries, even when not under the influence of the Dark Consul.  Lovers of cultivated crops, Giri travel throughout Crystalia in large swarms, seeking farmsteads with delicious greens to devour.  Farmers who make offerings to the Giri are blessed with a bumper crop.  Those who do not see their fields consumed as though struck by a plague of locusts.');
 insert into Characters (CardIndex) VALUES (229);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (142, 1); --Citrine
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (142, 559); --Insignificant
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (142, 580); --Mob
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (142, 451); --New Crop
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (144, 1); --Citrine
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (144, 559); --Insignificant
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (144, 580); --Mob
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (144, 451); --New Crop
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (142, 'Either', 'Small', 'Faerie', 5, 1, '2B', '0ST', '3B', '2B', 1, 0);
-insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (142, 1, 2);
-insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (142, 2);
-insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (142, '', '8 Bit', 1);
+VALUES (144, 'Either', 'Small', 'Faerie', 5, 1, '2B', '0ST', '3B', '2B', 1, 0);
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (144, 1, 2);
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (144, 2);
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (144, '', '8 Bit', 1);
 
---Rabid Squirrel --CardIndex 230	--CharacterIndex 143	--ExploreCharacterIndex 143
+--Rabid Squirrel --CardIndex 230	--CharacterIndex 145	--ExploreCharacterIndex 145
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Rabid Squirrel',
 'http://htkb.info/SDE/FK/Cards/Creeps/Card_Creep_Rabid_Squirrel_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Creeps/Card_Creep_Rabid_Squirrel_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Creeps/Rabid_Squirrel.xhtml', 
 'Creep', 'FK', 'FK Core Set', 'Explore', 
 'Driven mad by their curse, Rabid Squirrels attack in packs, swarming over unsuspecting Heroes, biting and chittering with insane glee.');
-insert into Characters (CardIndex) VALUES (226);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (143, 1); --Citrine
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (143, 559); --Insignificant
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (143, 626); --Small
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (143, 451); --In Your Pants
+insert into Characters (CardIndex) VALUES (230);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (145, 1); --Citrine
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (145, 559); --Insignificant
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (145, 626); --Small
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (145, 451); --In Your Pants
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (143, 'Either', 'Small', 'Chimera', 7, 1, '1B', '0ST', '1B', '2R', 1, 0);
-insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (143, 1, 1);
-insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (143, 2);
-insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (143, '', '8 Bit', 1);
+VALUES (145, 'Either', 'Small', 'Chimera', 7, 1, '1B', '0ST', '1B', '2R', 1, 0);
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (145, 1, 1);
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (145, 2);
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (145, '', '8 Bit', 1);
 
---Rattlebone --CardIndex 231	--CharacterIndex 144	--ExploreCharacterIndex 144
+--Rattlebone --CardIndex 231	--CharacterIndex 146	--ExploreCharacterIndex 146
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Rattlebone',
 'http://htkb.info/SDE/FK/Cards/Creeps/Card_Creep_Rattlebone_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Creeps/Card_Creep_Rattlebone_FK_back.png', 
@@ -97,16 +97,16 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Creep', 'FK', 'FK Core Set', 'Explore', 
 'Rattlebones are the plague of the moorlands and the favorite party trick of up--and--coming necromancers.  Easy to raise, easy to destroy, easy to raise again.  They are an unceasing nuisance to even the most powerful to Heroes.');
 insert into Characters (CardIndex) VALUES (231);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (144, 1); --Citrine
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (144, 559); --Insignificant
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (144, 580); --Mob
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (146, 1); --Citrine
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (146, 559); --Insignificant
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (146, 580); --Mob
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (144, 'Either', 'Small', 'Undead Skeleton', 6, 1, '2B', '0ST', '1B', '1B', 1, 0);
-insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (144, 1, 1);
-insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (144, 2);
-insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (144, '', '8 Bit', 1);
+VALUES (146, 'Either', 'Small', 'Undead Skeleton', 6, 1, '2B', '0ST', '1B', '1B', 1, 0);
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (146, 1, 1);
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (146, 2);
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (146, '', '8 Bit', 1);
 
---Ruby Slime --CardIndex 232	--CharacterIndex 145	--ExploreCharacterIndex 145
+--Ruby Slime --CardIndex 232	--CharacterIndex 147	--ExploreCharacterIndex 147
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ruby Slime',
 'http://htkb.info/SDE/FK/Cards/Creeps/Card_Creep_Ruby_Slime_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Creeps/Card_Creep_Ruby_Slime_FK_back.png', 
@@ -114,31 +114,30 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Creep', 'FK', 'FK Core Set', 'Explore', 
 'Far more cranky than they have any right to be, Ruby Slime are incessant complainers.  Given to long, obnoxious bouts of melodramatic sighing and irritated grumbling, many get along very well with dwarves.  Such alliances rarely last long.  Inevitably the Ruby Slime will decide the dwarf owes him some shiny trinket and demand it with a rude and indignant gooing--which is enough to ruin any friendship.');
 insert into Characters (CardIndex) VALUES (232);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (145, 2); --Ruby
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (145, 559); --Insignificant
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (145, 559); --Invader
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (145, 626); --Ruby Goo
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (145, 303); --Ruby Goo
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (147, 2); --Ruby
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (147, 559); --Insignificant
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (147, 626); --Small
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (147, 303); --Ruby Goo
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (145, 'Neither', 'Small', 'Slime', 5, 1, '2B', '0ST', '1B', '1B', 1, 0);
-insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (145, 1, 1);
-insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (145, 2);
-insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (145, '', '8 Bit', 1);
+VALUES (147, 'Neither', 'Small', 'Slime', 5, 1, '2B', '0ST', '1B', '1B', 1, 0);
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (147, 1, 1);
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (147, 2);
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (147, '', '8 Bit', 1);
 
---Sapphire Slime --CardIndex 233	--CharacterIndex 146	--ExploreCharacterIndex 146
+--Sapphire Slime --CardIndex 233	--CharacterIndex 148	--ExploreCharacterIndex 148
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Sapphire Slime',
 'http://htkb.info/SDE/FK/Cards/Creeps/Card_Creep_Sapphire_Slime_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Creeps/Card_Creep_Sapphire_Slime_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Creeps/Sapphire_Slime.xhtml', 
 'Creep', 'FK', 'FK Core Set', 'Explore', 
 'Something is not quite right with Sapphire Slimes.  Even for a slime they are somewhat peculiar and odd.  Given to drooling and then slurping it up noisily, many Heroes find themselves uncomfortable around Sapphire Slimes.  Accordingly, they are not invited to many dinner parties.');
-insert into Characters (CardIndex) VALUES (229);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (146, 4); --Sapphire
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (146, 559); --Insignificant
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (146, 626); --Small
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (146, 534); --Sapphire Gloop
+insert into Characters (CardIndex) VALUES (233);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (148, 4); --Sapphire
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (148, 559); --Insignificant
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (148, 626); --Small
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (148, 534); --Sapphire Gloop
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (146, 'Neither', 'Small', 'Slime', 5, 1, '2B', '0ST', '1B', '1B', 1, 0);
-insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (146, 1, 1);
-insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (146, 2);
-insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (146, '', '8 Bit', 1);
+VALUES (148, 'Neither', 'Small', 'Slime', 5, 1, '2B', '0ST', '1B', '1B', 1, 0);
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (148, 1, 1);
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (148, 2);
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (148, '', '8 Bit', 1);
