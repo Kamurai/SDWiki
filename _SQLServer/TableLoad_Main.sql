@@ -2350,7 +2350,8 @@ VALUES ('Lava',
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Terrain_Cards/Lava.xhtml', 
 'Terrain', '1.0', '1.0 Core Set', 'Default', '');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (152, 'A model entering a Lava square suffers Fire.'); 
-insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (1, 697); --Lava--1.0 Utility Cards
+insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (1, 697); --Lava
+insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (1, 498); --Difficult Terrain--1.0 Utility Cards
 --Rules Addendum and Errata
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
 VALUES ('Rules Addendum and Errata',
@@ -5300,7 +5301,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/FK/Cards/MiniBosses/Trent.xhtml', 
 'MiniBoss', 'FK', 'FK Core Set', 'Explore',
 'Young by treant standards Trent was always a bad seed.  Rooted in the faery-haunted Mistmourn Coast, he was always cranky and inclined to distrust.  Even so, Trent was slow to anger as the mischievous fae lurking in the mists would tease and taunt him.<br>After several centuries the young treant could stand it no longer, uprooting and wreaking vengeance upon the playful fae.  Once his fury was unleashed it was as long-lived as the Fae Wood itself.  In the end, it was remarkably');
-insert into Characters (CardIndex) VALUES (253);
+insert into Characters (CardIndex) VALUES (258);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (173, 4); --Sapphire
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (173, 555); --Immune: Poison
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (173, 648); --Tough
@@ -8073,7 +8074,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (251
 
 
 --FK Arcade Booty
---Boody Biter	--CardIndex 337	--CharacterIndex 252	--ArcadeCharacterIndex 1
+--Boody Biter	--CardIndex 337	--CharacterIndex 252	--ArcadeCharacterIndex 0
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Booty Biter',
 'http://htkb.info/SDE/FK/Cards/Arcade/Booty/Card_Arcade_Booty_Booty_Biter_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Booty/Card_Arcade_Booty_Booty_Biter_FK_back.png', 
@@ -8086,10 +8087,10 @@ insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineInd
 VALUES (252, 142, -1);
 --GangMemberIndex 1
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (1, 0, 'Booty Biter', 'Boo Booty', 'Elite', 5, 2, 3, 135);
+VALUES (0, 0, 'Booty Biter', 'Boo Booty', 'Elite', 5, 2, 3, 135);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (1, 466); --Backlash
 
---Bouncing Booty --CardIndex 338	--CharacterIndex 253	--ArcadeCharacterIndex 2
+--Bouncing Booty --CardIndex 338	--CharacterIndex 253	--ArcadeCharacterIndex 1
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Bouncing Booty',
 'http://htkb.info/SDE/FK/Cards/Arcade/Booty/Card_Arcade_Booty_Bouncing_Booty_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Booty/Card_Arcade_Booty_Bouncing_Booty_FK_back.png', 
@@ -8102,10 +8103,10 @@ insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineInd
 VALUES (253, 252, -1);
 --GangMemberIndex 2
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (2, 0, 'Bouncing Booty', 'Boo Booty', 'Elite', 8, 2, 2, 136);
+VALUES (1, 0, 'Bouncing Booty', 'Boo Booty', 'Elite', 8, 2, 2, 136);
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (2, 197); --Bounce
 
---Booty Grinder --CardIndex 339	--CharacterIndex 254	--ArcadeCharacterIndex 3
+--Booty Grinder --CardIndex 339	--CharacterIndex 254	--ArcadeCharacterIndex 2
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Booty Grinder',
 'http://htkb.info/SDE/FK/Cards/Arcade/Booty/Card_Arcade_Booty_Booty_Grinder_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Booty/Card_Arcade_Booty_Booty_Grinder_FK_back.png', 
@@ -8118,10 +8119,10 @@ insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineInd
 VALUES (254, 152, -1);
 --GangMemberIndex 3
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (3, 0, 'Booty Grinder', 'Boo Booty', 'Elite', 5, 2, 2, 137);
+VALUES (2, 0, 'Booty Grinder', 'Boo Booty', 'Elite', 5, 2, 2, 137);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (3, 531); --Grind
 --FK Arcade Creeps
---Citrine Slime --CardIndex 340	--CharacterIndex 255	--ArcadeCharacterIndex 4
+--Citrine Slime --CardIndex 340	--CharacterIndex 255	--ArcadeCharacterIndex 3
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Citrine Slime',
 'http://htkb.info/SDE/FK/Cards/Arcade/Creeps/Card_Arcade_Creep_Citrine_Slime_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Creeps/Card_Arcade_Creep_Citrine_Slime_FK_back.png', 
@@ -8134,12 +8135,12 @@ VALUES (255, 111, -1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (255, 1); --Citrine
 --GangMemberIndex 4
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (4, 0, 'Citrine Slime', 'Slime', 'Creep', 5, 1, 0, 138);
+VALUES (3, 0, 'Citrine Slime', 'Slime', 'Creep', 5, 1, 0, 138);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (4, 559); --Insignificant
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (4, 561); --Invader
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (4, 486); --Citrine Goop
 
---Emerald Slime --CardIndex 341	--CharacterIndex 256	--ArcadeCharacterIndex 5
+--Emerald Slime --CardIndex 341	--CharacterIndex 256	--ArcadeCharacterIndex 4
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Emerald Slime',
 'http://htkb.info/SDE/FK/Cards/Arcade/Creeps/Card_Arcade_Creep_Emerald_Slime_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Creeps/Card_Arcade_Creep_Emerald_Slime_FK_back.png', 
@@ -8152,12 +8153,12 @@ VALUES (256, 111, -1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (256, 2); --Emerald
 --GangMemberIndex 5
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (5, 0, 'Emerald Slime', 'Slime', 'Creep', 5, 1, 0, 139);
+VALUES (4, 0, 'Emerald Slime', 'Slime', 'Creep', 5, 1, 0, 139);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (5, 559); --Insignificant
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (5, 561); --Invader
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (5, 504); --Emerald Glop
 
---Ghost --CardIndex 342	--CharacterIndex 257	--ArcadeCharacterIndex 6
+--Ghost --CardIndex 342	--CharacterIndex 257	--ArcadeCharacterIndex 5
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ghost',
 'http://htkb.info/SDE/FK/Cards/Arcade/Creeps/Card_Arcade_Creep_Ghost_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Creeps/Card_Arcade_Creep_Ghost_FK_back.png', 
@@ -8170,11 +8171,11 @@ VALUES (257, 111, -1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (257, 3); --Ruby
 --GangMemberIndex 6
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (6, 0, 'Ghost', 'Undead Ghost', 'Creep', 8, 1, 0, 140);
+VALUES (5, 0, 'Ghost', 'Undead Ghost', 'Creep', 8, 1, 0, 140);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (6, 506); --Extra Scared
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (6, 561); --Invader
 
---Giri --CardIndex 343	--CharacterIndex 258	--ArcadeCharacterIndex 7
+--Giri --CardIndex 343	--CharacterIndex 258	--ArcadeCharacterIndex 6
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Giri',
 'http://htkb.info/SDE/FK/Cards/Arcade/Creeps/Card_Arcade_Creep_Giri_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Creeps/Card_Arcade_Creep_Giri_FK_back.png', 
@@ -8187,29 +8188,29 @@ VALUES (258, 133, -1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (258, 1); --Citrine
 --GangMemberIndex 7
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (7, 0, 'Giri', 'Faerie', 'Creep', 5, 1, 0, 141);
+VALUES (6, 0, 'Giri', 'Faerie', 'Creep', 5, 1, 0, 141);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (7, 559); --Insignificant
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (7, 452); --New Crop
 
---Rabid Squirrel --CardIndex 344	--CharacterIndex 259	--ArcadeCharacterIndex 8
+--Rabid Squirrel --CardIndex 344	--CharacterIndex 259	--ArcadeCharacterIndex 7
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Rabid Squirrel',
 'http://htkb.info/SDE/FK/Cards/Arcade/Creeps/Card_Arcade_Creep_Rabid_Squirrel_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Creeps/Card_Arcade_Creep_Rabid_Squirrel_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Arcade/Creeps/Rabid_Squirrel.xhtml', 
 'Creep', 'FK', 'FK Core Set', 'Arcade', 
 'Driven mad by their curse, Rabid Squirrels attack in packs, swarming over unsuspecting Heroes, biting and chittering with insane glee.');
-insert into Characters (CardIndex) VALUES (340);
+insert into Characters (CardIndex) VALUES (344);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
 VALUES (259, 111, -1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (259, 2); --Emerald
 --GangMemberIndex 8
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (8, 0, 'Rabid Squirrel', 'Chimera', 'Creep', 6, 1, 0, 142);
+VALUES (7, 0, 'Rabid Squirrel', 'Chimera', 'Creep', 6, 1, 0, 142);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (8, 559); --Insignificant
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (8, 561); --Invader
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (8, 400); --In Your Pants
 
---Rattlebone --CardIndex 345	--CharacterIndex 260	--ArcadeCharacterIndex 9
+--Rattlebone --CardIndex 345	--CharacterIndex 260	--ArcadeCharacterIndex 8
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Rattlebone',
 'http://htkb.info/SDE/FK/Cards/Arcade/Creeps/Card_Arcade_Creep_Rattlebone_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Creeps/Card_Arcade_Creep_Rattlebone_FK_back.png', 
@@ -8222,11 +8223,11 @@ VALUES (260, 131, -1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (260, 1); --Citrine
 --GangMemberIndex 9
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (9, 0, 'Rattlebone', 'Undead Skeleton', 'Creep', 5, 1, 0, 143);
+VALUES (8, 0, 'Rattlebone', 'Undead Skeleton', 'Creep', 5, 1, 0, 143);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (9, 528); --Grabby
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (9, 559); --Insignificant
 
---Ruby Slime --CardIndex 346	--CharacterIndex 261	--ArcadeCharacterIndex 10
+--Ruby Slime --CardIndex 346	--CharacterIndex 261	--ArcadeCharacterIndex 9
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ruby Slime',
 'http://htkb.info/SDE/FK/Cards/Arcade/Creeps/Card_Arcade_Creep_Ruby_Slime_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Creeps/Card_Arcade_Creep_Ruby_Slime_FK_back.png', 
@@ -8239,12 +8240,12 @@ VALUES (261, 111, -1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (261, 4); --Sapphire
 --GangMemberIndex 10
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (10, 0, 'Ruby Slime', 'Slime', 'Creep', 5, 1, 0, 144);
+VALUES (9, 0, 'Ruby Slime', 'Slime', 'Creep', 5, 1, 0, 144);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (10, 559); --Insignificant
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (10, 561); --Invader
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (10, 608); --Ruby Goo
 
---Sapphire Slime --CardIndex 347	--CharacterIndex 262	--ArcadeCharacterIndex 11
+--Sapphire Slime --CardIndex 347	--CharacterIndex 262	--ArcadeCharacterIndex 10
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Sapphire Slime',
 'http://htkb.info/SDE/FK/Cards/Arcade/Creeps/Card_Arcade_Creep_Sapphire_Slime_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Creeps/Card_Arcade_Creep_Sapphire_Slime_FK_back.png', 
@@ -8257,7 +8258,7 @@ VALUES (262, 111, -1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (262, 4); --Sapphire
 --GangMemberIndex 11
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (11, 0, 'Sapphire Slime', 'Slime', 'Creep', 5, 1, 0, 145);
+VALUES (10, 0, 'Sapphire Slime', 'Slime', 'Creep', 5, 1, 0, 145);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (11, 559); --Insignificant
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (11, 561); --Invader
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (11, 608); --Sapphire Gloop
@@ -8267,7 +8268,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (11, 608);
 
 
 --FK MiniBosses
---Bashful Boris --CardIndex 348	--CharacterIndex 263	--ArcadeCharacterIndex 12
+--Bashful Boris --CardIndex 348	--CharacterIndex 263	--ArcadeCharacterIndex 11
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Bashful Boris',
 'http://htkb.info/SDE/FK/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Bashful_Boris_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Bashful_Boris_FK_back.png', 
@@ -8278,15 +8279,15 @@ insert into Characters (CardIndex) VALUES (348);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
 VALUES (263, 373, -1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (263, 1); --Citrine
---GangMemberIndex 12
+--GangMemberIndex 11
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (12, 0, 'Bashful Boris', 'Chimera', 'MiniBoss', 6, 8, 2, 146);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (12, 554); --Immune: Knockdown
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (12, 587); --Pile-On
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (12, 615); --Sweeping Mace
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (12, 297); --Earthshaker
+VALUES (11, 0, 'Bashful Boris', 'Chimera', 'MiniBoss', 6, 8, 2, 146);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (11, 554); --Immune: Knockdown
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (11, 587); --Pile-On
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (11, 615); --Sweeping Mace
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (11, 297); --Earthshaker
 
---Captain R --CardIndex 349	--CharacterIndex 264	--ArcadeCharacterIndex 13
+--Captain R --CardIndex 349	--CharacterIndex 264	--ArcadeCharacterIndex 12
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Captain R',
 'http://htkb.info/SDE/FK/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Captain_R_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Captain_R_FK_back.png', 
@@ -8298,14 +8299,14 @@ insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineInd
 VALUES (264, 253, -1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (264, 1); --Citrine
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (264, 3); --Ruby
---GangMemberIndex 13
+--GangMemberIndex 12
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (13, 0, 'Captain R', 'Undead Skeleton Pirate', 'MiniBoss', 6, 6, 4, 147);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (13, 648); --Tough
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (13, 330); --Flintlock
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (13, 416); --Kraken
+VALUES (12, 0, 'Captain R', 'Undead Skeleton Pirate', 'MiniBoss', 6, 6, 4, 147);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (12, 648); --Tough
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (12, 330); --Flintlock
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (12, 416); --Kraken
 
---Chaos Kitty --CardIndex 350	--CharacterIndex 265	--ArcadeCharacterIndex 14
+--Chaos Kitty --CardIndex 350	--CharacterIndex 265	--ArcadeCharacterIndex 13
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Chaos Kitty',
 'http://htkb.info/SDE/FK/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Chaos_Kitty_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Chaos_Kitty_FK_back.png', 
@@ -8316,16 +8317,16 @@ insert into Characters (CardIndex) VALUES (350);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
 VALUES (265, 363, -1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (265, 1); --Citrine
---GangMemberIndex 14
+--GangMemberIndex 13
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (14, 0, 'Chaos Kitty', 'Freyjan', 'MiniBoss', 7, 6, 3, 148);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (14, 554); --Immune: Knockdown
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (14, 456); --9 Lives
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (14, 333); --Flying Fur
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (14, 227); --Chaos Fuzz
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (14, 176); --Bad Kitty
+VALUES (13, 0, 'Chaos Kitty', 'Freyjan', 'MiniBoss', 7, 6, 3, 148);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (13, 554); --Immune: Knockdown
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (13, 456); --9 Lives
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (13, 333); --Flying Fur
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (13, 227); --Chaos Fuzz
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (13, 176); --Bad Kitty
 
---Death Spectre --CardIndex 351	--CharacterIndex 266	--ArcadeCharacterIndex 15
+--Death Spectre --CardIndex 351	--CharacterIndex 266	--ArcadeCharacterIndex 14
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Death Spectre',
 'http://htkb.info/SDE/FK/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Death_Spectre_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Death_Spectre_FK_back.png', 
@@ -8336,15 +8337,15 @@ insert into Characters (CardIndex) VALUES (351);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
 VALUES (266, 153, -1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (266, 3); --Ruby
---GangMemberIndex 15
+--GangMemberIndex 14
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (15, 0, 'Death Spectre', 'Undead', 'MiniBoss', 10, 6, 3, 149);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (15, 557); --Immune: Status Effects
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (15, 522); --Ghost
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (15, 577); --Soul Scythe
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (15, 419); --Lifesap
+VALUES (14, 0, 'Death Spectre', 'Undead', 'MiniBoss', 10, 6, 3, 149);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (14, 557); --Immune: Status Effects
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (14, 522); --Ghost
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (14, 577); --Soul Scythe
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (14, 419); --Lifesap
 
---Deranged Alchemist --CardIndex 352	--CharacterIndex 267	--ArcadeCharacterIndex 16
+--Deranged Alchemist --CardIndex 352	--CharacterIndex 267	--ArcadeCharacterIndex 15
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Deranged Alchemist',
 'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Deranged_Alchemist_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Deranged_Alchemist_2.0_back.png', 
@@ -8355,16 +8356,16 @@ insert into Characters (CardIndex) VALUES (352);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
 VALUES (267, 346, -1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (267, 3); --Ruby
---GangMemberIndex 16
+--GangMemberIndex 15
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (16, 0, 'Deranged Alchemist', 'Elf', 'MiniBoss', 7, 7, 3, 150);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (16, 557); --Immune: Status Effects
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (16, 589); --Poison
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (16, 689); --Vile Concoction
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (16, 690); --Kobold's Tears
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (16, 691); --Coagulated Mixture
+VALUES (15, 0, 'Deranged Alchemist', 'Elf', 'MiniBoss', 7, 7, 3, 150);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (15, 557); --Immune: Status Effects
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (15, 589); --Poison
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (15, 689); --Vile Concoction
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (15, 690); --Kobold's Tears
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (15, 691); --Coagulated Mixture
 
---Glimmerwing --CardIndex 353	--CharacterIndex 268	--ArcadeCharacterIndex 17
+--Glimmerwing --CardIndex 353	--CharacterIndex 268	--ArcadeCharacterIndex 16
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Glimmerwing',
 'http://htkb.info/SDE/FK/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Glimmerwing_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Glimmerwing_FK_back.png', 
@@ -8375,16 +8376,16 @@ insert into Characters (CardIndex) VALUES (353);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
 VALUES (268, 266, -1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (268, 3); --Ruby
---GangMemberIndex 17
+--GangMemberIndex 16
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (17, 0, 'Glimmerwing', 'Faerie Dragon', 'MiniBoss', 8, 6, 4, 151);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (17, 550); --Immune: Bane
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (17, 552); --Immune: Hex
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (17, 518); --Fly
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (17, 202); --Breath of Dream
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (17, 312); --Fae Curse
+VALUES (16, 0, 'Glimmerwing', 'Faerie Dragon', 'MiniBoss', 8, 6, 4, 151);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (16, 550); --Immune: Bane
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (16, 552); --Immune: Hex
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (16, 518); --Fly
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (16, 202); --Breath of Dream
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (16, 312); --Fae Curse
 
---Gruesome George --CardIndex 354	--CharacterIndex 269	--ArcadeCharacterIndex 18
+--Gruesome George --CardIndex 354	--CharacterIndex 269	--ArcadeCharacterIndex 17
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Gruesome George',
 'http://htkb.info/SDE/FK/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Gruesome_George_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Gruesome_George_FK_back.png', 
@@ -8395,16 +8396,16 @@ insert into Characters (CardIndex) VALUES (354);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
 VALUES (269, 253, -1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (269, 4); --Sapphire
---GangMemberIndex 18
+--GangMemberIndex 17
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (18, 0, 'Gruesome George', 'Undead Zombie', 'MiniBoss', 6, 6, 1, 152);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (18, 557); --Immune: Status Effects
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (18, 635); --Static Charge
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (18, 648); --Tough
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (18, 208); --Brilliant
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (18, 299); --Electric Jolt
+VALUES (17, 0, 'Gruesome George', 'Undead Zombie', 'MiniBoss', 6, 6, 1, 152);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (17, 557); --Immune: Status Effects
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (17, 635); --Static Charge
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (17, 648); --Tough
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (17, 208); --Brilliant
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (17, 299); --Electric Jolt
 
---Herald of Vulcanis --CardIndex 355	--CharacterIndex 270	--ArcadeCharacterIndex 19
+--Herald of Vulcanis --CardIndex 355	--CharacterIndex 270	--ArcadeCharacterIndex 18
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Herald of Vulcanis',
 'http://htkb.info/SDE/FK/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Herald_of_Vulcanis_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Herald_of_Vulcanis_FK_back.png', 
@@ -8416,14 +8417,14 @@ insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineInd
 VALUES (270, 264, -1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (270, 1); --Citrine
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (270, 4); --Sapphire
---GangMemberIndex 19
+--GangMemberIndex 18
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (19, 0, 'Herald of Vulcanis', 'Faerie Dragon', 'MiniBoss', 8, 6, 4, 153);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (19, 551); --Immune: Fire
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (19, 326); --Flaming Javelin
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (19, 473); --Phalanx
+VALUES (18, 0, 'Herald of Vulcanis', 'Faerie Dragon', 'MiniBoss', 8, 6, 4, 153);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (18, 551); --Immune: Fire
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (18, 326); --Flaming Javelin
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (18, 473); --Phalanx
 
---Iron Golem --CardIndex 356	--CharacterIndex 271	--ArcadeCharacterIndex 20
+--Iron Golem --CardIndex 356	--CharacterIndex 271	--ArcadeCharacterIndex 19
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Iron Golem',
 'http://htkb.info/SDE/FK/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Iron_Golem_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Iron_Golem_FK_back.png', 
@@ -8434,16 +8435,16 @@ insert into Characters (CardIndex) VALUES (356);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
 VALUES (271, 373, -1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (271, 4); --Sapphire
---GangMemberIndex 20
+--GangMemberIndex 19
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (20, 0, 'Iron Golem', 'Faerie Dragon', 'MiniBoss', 8, 6, 4, 154);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (20, 564); --Knockdown
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (20, 554); --Immune: Knockdown
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (20, 587); --Pile-On
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (20, 552); --Shield Wall
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (20, 617); --Sword Toss
+VALUES (19, 0, 'Iron Golem', 'Faerie Dragon', 'MiniBoss', 8, 6, 4, 154);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (19, 564); --Knockdown
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (19, 554); --Immune: Knockdown
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (19, 587); --Pile-On
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (19, 552); --Shield Wall
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (19, 617); --Sword Toss
 
---Jack Scarecrow --CardIndex 357	--CharacterIndex 272	--ArcadeCharacterIndex 21
+--Jack Scarecrow --CardIndex 357	--CharacterIndex 272	--ArcadeCharacterIndex 20
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Jack Scarecrow',
 'http://htkb.info/SDE/FK/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Jack_Scarecrow_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Jack_Scarecrow_FK_back.png', 
@@ -8455,14 +8456,14 @@ insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineInd
 VALUES (272, 373, -1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (272, 1); --Citrine
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (272, 3); --Ruby
---GangMemberIndex 21
+--GangMemberIndex 20
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (21, 0, 'Jack Scarecrow', 'Construct', 'MiniBoss', 6, 6, 4, 155);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (21, 517); --Flammable
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (21, 371); --Harvest Scythe
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (21, 214); --Bumper Crop
+VALUES (20, 0, 'Jack Scarecrow', 'Construct', 'MiniBoss', 6, 6, 4, 155);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (20, 517); --Flammable
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (20, 371); --Harvest Scythe
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (20, 214); --Bumper Crop
 
---Kaelly the Nether Strider --CardIndex 358	--CharacterIndex 273	--ArcadeCharacterIndex 22
+--Kaelly the Nether Strider --CardIndex 358	--CharacterIndex 273	--ArcadeCharacterIndex 21
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Kaelly the Nether Strider',
 'http://htkb.info/SDE/FK/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Kaelly_the_Nether_Strider_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Kaelly_the_Nether_Strider_FK_back.png', 
@@ -8473,16 +8474,16 @@ insert into Characters (CardIndex) VALUES (358);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
 VALUES (273, 366, -1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (273, 2); --Emerald
---GangMemberIndex 22
+--GangMemberIndex 21
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (22, 0, 'Kaelly the Nether Strider', 'Nether Elf', 'MiniBoss', 7, 6, 3, 156);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (22, 589); --Poison
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (22, 641); --Surefoot
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (22, 637); --Stealth
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (22, 255); --Dark Aura
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (22, 381); --Hex Bolt
+VALUES (21, 0, 'Kaelly the Nether Strider', 'Nether Elf', 'MiniBoss', 7, 6, 3, 156);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (21, 589); --Poison
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (21, 641); --Surefoot
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (21, 637); --Stealth
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (21, 255); --Dark Aura
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (21, 381); --Hex Bolt
 
---Kasaro To --CardIndex 359	--CharacterIndex 274	--ArcadeCharacterIndex 23
+--Kasaro To --CardIndex 359	--CharacterIndex 274	--ArcadeCharacterIndex 22
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Kasaro To',
 'http://htkb.info/SDE/FK/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Kasaro_To_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Kasaro_To_FK_back.png', 
@@ -8494,14 +8495,14 @@ insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineInd
 VALUES (274, 374, -1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (274, 1); --Citrine
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (274, 4); --Sapphire
---GangMemberIndex 23
+--GangMemberIndex 22
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (23, 0, 'Kasaro To', 'Oni', 'MiniBoss', 6, 7, 3, 157);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (23, 648); --Tough
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (23, 686); --Zealotry
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (23, 536); --Serpent Coil
+VALUES (22, 0, 'Kasaro To', 'Oni', 'MiniBoss', 6, 7, 3, 157);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (22, 648); --Tough
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (22, 686); --Zealotry
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (22, 536); --Serpent Coil
 
---Kunoichi Candy --CardIndex 360	--CharacterIndex 275	--ArcadeCharacterIndex 24
+--Kunoichi Candy --CardIndex 360	--CharacterIndex 275	--ArcadeCharacterIndex 23
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Kunoichi Candy',
 'http://htkb.info/SDE/FK/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Kunoichi_Candy_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Kunoichi_Candy_FK_back.png', 
@@ -8512,14 +8513,14 @@ insert into Characters (CardIndex) VALUES (360);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
 VALUES (275, 256, -1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (275, 3); --Ruby
---GangMemberIndex 24
+--GangMemberIndex 23
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (24, 0, 'Kunoichi Candy', 'Human', 'MiniBoss', 6, 6, 3, 158);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (24, 637); --Stealth
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (24, 454); --Ninja Assassin
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (24, 280); --Distracting Costume
+VALUES (23, 0, 'Kunoichi Candy', 'Human', 'MiniBoss', 6, 6, 3, 158);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (23, 637); --Stealth
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (23, 454); --Ninja Assassin
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (23, 280); --Distracting Costume
 
---Ninja Cola --CardIndex 361	--CharacterIndex 276	--ArcadeCharacterIndex 25
+--Ninja Cola --CardIndex 361	--CharacterIndex 276	--ArcadeCharacterIndex 24
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ninja Cola',
 'http://htkb.info/SDE/FK/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Ninja_Cola_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Ninja_Cola_FK_back.png', 
@@ -8530,14 +8531,14 @@ insert into Characters (CardIndex) VALUES (361);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
 VALUES (276, 246, -1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (276, 2); --Emerald
---GangMemberIndex 25
+--GangMemberIndex 24
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (25, 0, 'Ninja Cola', 'Kitsune', 'MiniBoss', 7, 5, 5, 159);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (25, 626); --Small
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (25, 611); --Super Shuriken
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (25, 344); --Frosty Soda Bomb
+VALUES (24, 0, 'Ninja Cola', 'Kitsune', 'MiniBoss', 7, 5, 5, 159);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (24, 626); --Small
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (24, 611); --Super Shuriken
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (24, 344); --Frosty Soda Bomb
 
---Oni --CardIndex 362	--CharacterIndex 277	--ArcadeCharacterIndex 26
+--Oni --CardIndex 362	--CharacterIndex 277	--ArcadeCharacterIndex 25
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Oni',
 'http://htkb.info/SDE/FK/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Oni_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Oni_FK_back.png', 
@@ -8549,14 +8550,14 @@ insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineInd
 VALUES (277, 373, -1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (277, 1); --Citrine
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (277, 3); --Ruby
---GangMemberIndex 26
+--GangMemberIndex 25
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (26, 0, 'Oni', 'Oni', 'MiniBoss', 6, 8, 3, 160);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (26, 503); --Elemental Affinity
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (26, 272); --Devour
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (26, 275); --Disaster
+VALUES (25, 0, 'Oni', 'Oni', 'MiniBoss', 6, 8, 3, 160);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (25, 503); --Elemental Affinity
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (25, 272); --Devour
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (25, 275); --Disaster
 
---Rex --CardIndex 363	--CharacterIndex 278	--ArcadeCharacterIndex 27
+--Rex --CardIndex 363	--CharacterIndex 278	--ArcadeCharacterIndex 26
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Rex',
 'http://htkb.info/SDE/FK/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Rex_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Rex_FK_back.png', 
@@ -8567,13 +8568,13 @@ insert into Characters (CardIndex) VALUES (363);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
 VALUES (278, 264, -1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (278, 1); --Citrine
---GangMemberIndex 27
+--GangMemberIndex 26
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (27, 0, 'Rex', 'Kobold Ogre', 'MiniBoss', 5, 8, 2, 161);
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (27, 523); --Rex Smash
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (27, 521); --Rex Cuddle
+VALUES (26, 0, 'Rex', 'Kobold Ogre', 'MiniBoss', 5, 8, 2, 161);
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (26, 523); --Rex Smash
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (26, 521); --Rex Cuddle
 
---Rock Gut v1 --CardIndex 364	--CharacterIndex 279	--ArcadeCharacterIndex 28
+--Rock Gut v1 --CardIndex 364	--CharacterIndex 279	--ArcadeCharacterIndex 27
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Rock Gut (v1)',
 'http://htkb.info/SDE/FK/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Rock_Gut_v1_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Rock_Gut_v1_FK_back.png', 
@@ -8584,17 +8585,17 @@ insert into Characters (CardIndex) VALUES (364);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
 VALUES (279, 263, -1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (279, 4); --Sapphire
---GangMemberIndex 28
+--GangMemberIndex 27
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (28, 0, 'Rock Gut (v1)', 'Troll', 'MiniBoss', 6, 6, 3, 162);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (28, 512); --Fire
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (28, 551); --Immune: Fire
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (28, 508); --Feed Me
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (28, 648); --Tough
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (28, 316); --Feast
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (28, 216); --Burning Bile
+VALUES (27, 0, 'Rock Gut (v1)', 'Troll', 'MiniBoss', 6, 6, 3, 162);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (27, 512); --Fire
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (27, 551); --Immune: Fire
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (27, 508); --Feed Me
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (27, 648); --Tough
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (27, 316); --Feast
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (27, 216); --Burning Bile
 
---Rock Gut v2 --CardIndex 365	--CharacterIndex 280	--ArcadeCharacterIndex 29
+--Rock Gut v2 --CardIndex 365	--CharacterIndex 280	--ArcadeCharacterIndex 28
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Rock Gut (v2)',
 'http://htkb.info/SDE/FK/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Rock_Gut_v2_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Rock_Gut_v2_FK_back.png', 
@@ -8605,9 +8606,9 @@ insert into Characters (CardIndex) VALUES (365);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
 VALUES (280, 363, -1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (280, 4); --Sapphire
---GangMemberIndex 29
+--GangMemberIndex 28
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (29, 0, 'Rock Gut (v2)', 'Troll', 'MiniBoss', 6, 7, 3, 162);
+VALUES (28, 0, 'Rock Gut (v2)', 'Troll', 'MiniBoss', 6, 7, 3, 162);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (28, 512); --Fire
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (28, 551); --Immune: Fire
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (28, 508); --Feed Me
@@ -8615,7 +8616,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (28, 648);
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (28, 316); --Feast
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (28, 216); --Burning Bile
 
---Salt --CardIndex 366	--CharacterIndex 281	--ArcadeCharacterIndex 30
+--Salt --CardIndex 366	--CharacterIndex 281	--ArcadeCharacterIndex 29
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Salt',
 'http://htkb.info/SDE/FK/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Salt_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Salt_FK_back.png', 
@@ -8627,15 +8628,15 @@ insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineInd
 VALUES (281, 263, -1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (281, 1); --Citrine
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (281, 4); --Sapphire
---GangMemberIndex 30
+--GangMemberIndex 29
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (30, 0, 'Salt', 'Faerie', 'MiniBoss', 6, 7, 4, 163);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (30, 557); --Immune: Status Effects
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (30, 518); --Fly
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (30, 310); --Extreme Weather
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (30, 233); --Circle of Salt
+VALUES (29, 0, 'Salt', 'Faerie', 'MiniBoss', 6, 7, 4, 163);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (29, 557); --Immune: Status Effects
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (29, 518); --Fly
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (29, 310); --Extreme Weather
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (29, 233); --Circle of Salt
 
---Ser Sharpclaw --CardIndex 367	--CharacterIndex 282	--ArcadeCharacterIndex 31
+--Ser Sharpclaw --CardIndex 367	--CharacterIndex 282	--ArcadeCharacterIndex 30
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ser Sharpclaw',
 'http://htkb.info/SDE/FK/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Ser_Sharpclaw_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Ser_Sharpclaw_FK_back.png', 
@@ -8646,14 +8647,14 @@ insert into Characters (CardIndex) VALUES (367);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
 VALUES (282, 373, -1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (282, 1); --Citrine
---GangMemberIndex 31
+--GangMemberIndex 30
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (31, 0, 'Ser Sharpclaw', 'Kobold', 'MiniBoss', 8, 7, 3, 164);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (31, 550); --Surefoot
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (31, 686); --Zealotry
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (31, 230); --Chomp!  Crunch!
+VALUES (30, 0, 'Ser Sharpclaw', 'Kobold', 'MiniBoss', 8, 7, 3, 164);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (30, 550); --Surefoot
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (30, 686); --Zealotry
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (30, 230); --Chomp!  Crunch!
 
---Ser Snapjaw --CardIndex 368	--CharacterIndex 283	--ArcadeCharacterIndex 32
+--Ser Snapjaw --CardIndex 368	--CharacterIndex 283	--ArcadeCharacterIndex 31
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ser Snapjaw',
 'http://htkb.info/SDE/FK/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Ser_Snapjaw_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Ser_Snapjaw_FK_back.png', 
@@ -8664,14 +8665,14 @@ insert into Characters (CardIndex) VALUES (368);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
 VALUES (283, 253, -1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (283, 4); --Sapphire
---GangMemberIndex 32
+--GangMemberIndex 31
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (32, 0, 'Ser Snapjaw', 'Kobold', 'MiniBoss', 7, 6, 3, 165);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (32, 554); --Immune: Knockdown
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (32, 384); --Hightower
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (32, 186); --Blazing Blade
+VALUES (31, 0, 'Ser Snapjaw', 'Kobold', 'MiniBoss', 7, 6, 3, 165);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (31, 554); --Immune: Knockdown
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (31, 384); --Hightower
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (31, 186); --Blazing Blade
 
---Shadow-Mode Candy --CardIndex 369	--CharacterIndex 284	--ArcadeCharacterIndex 33
+--Shadow-Mode Candy --CardIndex 369	--CharacterIndex 284	--ArcadeCharacterIndex 32
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Shadow-Mode Candy',
 'http://htkb.info/SDE/FK/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Shadow_Mode_Candy_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Shadow_Mode_Candy_FK_back.png', 
@@ -8683,15 +8684,15 @@ insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineInd
 VALUES (284, 369, -1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (284, 1); --Citrine
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (284, 2); --Emerald
---GangMemberIndex 33
+--GangMemberIndex 32
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (33, 0, 'Shadow-Mode Candy', 'Nether Shadow', 'MiniBoss', 6, 6, 2, 166);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (33, 557); --Immune: Status Effects
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (33, 495); --Dark Radiance
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (33, 545); --Shadow
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (33, 257); --Dark Howling
+VALUES (32, 0, 'Shadow-Mode Candy', 'Nether Shadow', 'MiniBoss', 6, 6, 2, 166);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (32, 557); --Immune: Status Effects
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (32, 495); --Dark Radiance
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (32, 545); --Shadow
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (32, 257); --Dark Howling
 
---Succubus Vandella --CardIndex 370	--CharacterIndex 285	--ArcadeCharacterIndex 34
+--Succubus Vandella --CardIndex 370	--CharacterIndex 285	--ArcadeCharacterIndex 33
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Succubus Vandella',
 'http://htkb.info/SDE/FK/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Succubus_Vandella_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Succubus_Vandella_FK_back.png', 
@@ -8702,14 +8703,14 @@ insert into Characters (CardIndex) VALUES (370);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
 VALUES (285, 254, -1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (285, 3); --Ruby
---GangMemberIndex 34
+--GangMemberIndex 33
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (34, 0, 'Succubus Vandella', 'Demon', 'MiniBoss', 7, 6, 4, 167);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (34, 518); --Fly
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (34, 205); --Breathtaking Kiss
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (34, 239); --Come Hither
+VALUES (33, 0, 'Succubus Vandella', 'Demon', 'MiniBoss', 7, 6, 4, 167);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (33, 518); --Fly
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (33, 205); --Breathtaking Kiss
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (33, 239); --Come Hither
 
---Trent --CardIndex 371	--CharacterIndex 286	--ArcadeCharacterIndex 35
+--Trent --CardIndex 371	--CharacterIndex 286	--ArcadeCharacterIndex 34
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Trent',
 'http://htkb.info/SDE/FK/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Trent_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Trent_FK_back.png', 
@@ -8720,13 +8721,13 @@ insert into Characters (CardIndex) VALUES (371);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
 VALUES (286, 263, -1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (286, 4); --Sapphire
---GangMemberIndex 35
+--GangMemberIndex 34
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (35, 0, 'Trent', 'Treant Kodama', 'MiniBoss', 6, 8, 3, 169);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (35, 550); --Immune: Poison
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (35, 552); --Virulent
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (35, 202); --Decay
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (35, 312); --Overgrowth
+VALUES (34, 0, 'Trent', 'Treant Kodama', 'MiniBoss', 6, 8, 3, 169);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (34, 550); --Immune: Poison
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (34, 552); --Virulent
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (34, 202); --Decay
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (34, 312); --Overgrowth
 
 
 
@@ -8773,7 +8774,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (35, 312);
 
 
 --FK Bosses
---Beatrix the Witch Queen --CardIndex 372	--CharacterIndex 285	--ArcadeCharacterIndex 36
+--Beatrix the Witch Queen --CardIndex 372	--CharacterIndex 287	--ArcadeCharacterIndex 35
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Beatrix the Witch Queen',
 'http://htkb.info/SDE/FK/Cards/Arcade/Bosses/Card_Arcade_Boss_Beatrix_the_Witch_Queen_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Bosses/Card_Arcade_Boss_Beatrix_the_Witch_Queen_FK_back.png', 
@@ -8782,20 +8783,20 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'I have such a delicious potion for you to try.  It may string a little going down....');
 insert into Characters (CardIndex) VALUES (372);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (285, 376, -1);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (285, 3); --Ruby
---GangMemberIndex 36
+VALUES (287, 376, -1);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (287, 3); --Ruby
+--GangMemberIndex 35
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (36, 0, 'Beatrix the Witch Queen', 'Witch', 'Boss', 8, 10, 4, 170);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (36, 557); --Immune: Status Effects
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (36, 518); --Fly
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (36, 524); --Ghostmancer
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (36, 563); --Kitty Claws
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (36, 212); --Bubble & Boil
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (36, 253); --Curses
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (36, 495); --Pumpkin Charge
+VALUES (35, 0, 'Beatrix the Witch Queen', 'Witch', 'Boss', 8, 10, 4, 170);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (35, 557); --Immune: Status Effects
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (35, 518); --Fly
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (35, 524); --Ghostmancer
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (35, 563); --Kitty Claws
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (35, 212); --Bubble & Boil
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (35, 253); --Curses
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (35, 495); --Pumpkin Charge
 
---The Forgotten King --CardIndex 373	--CharacterIndex 286	--ArcadeCharacterIndex 37
+--The Forgotten King --CardIndex 373	--CharacterIndex 288	--ArcadeCharacterIndex 36
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Forgotten King, The',
 'http://htkb.info/SDE/FK/Cards/Arcade/Bosses/Card_Arcade_Boss_Forgotten_King_The_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Bosses/Card_Arcade_Boss_Forgotten_King_The_FK_back.png', 
@@ -8804,19 +8805,19 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'The Forgotten King rebelled against the King of Crystalia when he was denied the princess''s hand in marriage.  Cursed to the Lordship Ruins for all time, his love for the princess has turned to bitter hatred towards all the people of Crystalia.');
 insert into Characters (CardIndex) VALUES (373);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (286, 356, -1);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (286, 1); --Citrine
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (286, 3); --Ruby
---GangMemberIndex 37
+VALUES (288, 356, -1);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (288, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (288, 3); --Ruby
+--GangMemberIndex 36
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (37, 0, 'The Forgotten King', 'Chimera', 'Boss', 8, 10, 4, 171);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (37, 550); --Immune: Poison
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (37, 547); --Hubris
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (37, 641); --Surefoot
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (37, 603); --Stranglethorn
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (37, 504); --Primal Roar
+VALUES (36, 0, 'The Forgotten King', 'Chimera', 'Boss', 8, 10, 4, 171);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (36, 550); --Immune: Poison
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (36, 547); --Hubris
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (36, 641); --Surefoot
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (36, 603); --Stranglethorn
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (36, 504); --Primal Roar
 
---Goro --CardIndex 374	--CharacterIndex 287	--ArcadeCharacterIndex 38
+--Goro --CardIndex 374	--CharacterIndex 289	--ArcadeCharacterIndex 37
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Goro',
 'http://htkb.info/SDE/FK/Cards/Arcade/Bosses/Card_Arcade_Boss_Goro_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Bosses/Card_Arcade_Boss_Goro_FK_back.png', 
@@ -8825,20 +8826,20 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'The forest spirit Goro has always been a mercurial and fickle creature.  Even in times of peace Goro has relished challenging mortals with puzzles, tricks, and cunning traps.  That these tests and pranks occasionally turn deadly is of no concern to Goro.  Whispered to be nearly as old as the Deeproot Tree itself, it is likely that Goro does not even truly comprehend mortality.');
 insert into Characters (CardIndex) VALUES (374);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (287, 483, -1);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (287, 1); --Citrine
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (287, 3); --Ruby
---GangMemberIndex 38
+VALUES (289, 483, -1);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (289, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (289, 3); --Ruby
+--GangMemberIndex 37
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (38, 0, 'Goro', 'Faerie', 'Boss', 8, 12, 3, 172);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (38, 557); --Immune: Knockdown
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (38, 550); --Immune: Bane
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (38, 508); --Feed Me
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (38, 518); --Fly
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (38, 271); --Devour
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (38, 436); --Meddlesome Giri
+VALUES (37, 0, 'Goro', 'Faerie', 'Boss', 8, 12, 3, 172);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (37, 557); --Immune: Knockdown
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (37, 550); --Immune: Bane
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (37, 508); --Feed Me
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (37, 518); --Fly
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (37, 271); --Devour
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (37, 436); --Meddlesome Giri
 
---King Starfire --CardIndex 375	--CharacterIndex 288	--ArcadeCharacterIndex 39
+--King Starfire --CardIndex 375	--CharacterIndex 290	--ArcadeCharacterIndex 38
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('King Starfire',
 'http://htkb.info/SDE/FK/Cards/Arcade/Bosses/Card_Arcade_Boss_King_Starfire_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Bosses/Card_Arcade_Boss_King_Starfire_FK_back.png', 
@@ -8847,19 +8848,19 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 '');
 insert into Characters (CardIndex) VALUES (375);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (288, 504, -1);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (288, 1); --Citrine
---GangMemberIndex 39
+VALUES (290, 504, -1);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (290, 1); --Citrine
+--GangMemberIndex 38
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (39, 0, 'King Starfire', 'Treant Kodama', 'Boss', 6, 8, 3, 173);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (39, 512); --Fire
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (39, 551); --Immune: Fire
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (39, 518); --Fly
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (39, 620); --Tail Sweep
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (39, 403); --Inferno
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (39, 291); --Dragon Horn
+VALUES (38, 0, 'King Starfire', 'Treant Kodama', 'Boss', 6, 8, 3, 173);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (38, 512); --Fire
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (38, 551); --Immune: Fire
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (38, 518); --Fly
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (38, 620); --Tail Sweep
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (38, 403); --Inferno
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (38, 291); --Dragon Horn
 
---Nocturne --CardIndex 376	--CharacterIndex 289	--ArcadeCharacterIndex 40
+--Nocturne --CardIndex 376	--CharacterIndex 291	--ArcadeCharacterIndex 39
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Nocturne',
 'http://htkb.info/SDE/FK/Cards/Arcade/Bosses/Card_Arcade_Boss_Nocturne_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Bosses/Card_Arcade_Boss_Nocturne_FK_back.png', 
@@ -8868,18 +8869,18 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Those who meet the gaze of Von Drakk say it is like peering into the soul of a beast.  None realize how correct they are.  When in the full throes of bloodlust Von Drakk is overtaken by a hideous transformation; his new form ideally suited to bringing carnage and ruin to his foes.');
 insert into Characters (CardIndex) VALUES (376);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (289, 394, -1);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (289, 1); --Citrine
---GangMemberIndex 40
+VALUES (291, 394, -1);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (291, 1); --Citrine
+--GangMemberIndex 39
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (40, 0, 'Nocturne', 'Shapeshift', 'Boss', 8, 8, 4, 174);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (40, 475); --Blood Drinker
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (40, 518); --Fly
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (40, 622); --Shapeshift: Von Drakk
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (40, 315); --Feast
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (40, 261); --Dead Cold
+VALUES (39, 0, 'Nocturne', 'Shapeshift', 'Boss', 8, 8, 4, 174);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (39, 475); --Blood Drinker
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (39, 518); --Fly
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (39, 622); --Shapeshift: Von Drakk
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (39, 315); --Feast
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (39, 261); --Dead Cold
 
---Ragin' Roxor v1 --CardIndex 377	--CharacterIndex 290	--ArcadeCharacterIndex 41
+--Ragin' Roxor v1 --CardIndex 377	--CharacterIndex 292	--ArcadeCharacterIndex 40
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ragin'' Roxor (v1)',
 'http://htkb.info/SDE/FK/Cards/Arcade/Bosses/Card_Arcade_Boss_Ragin_Roxor_v1_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Bosses/Card_Arcade_Boss_Ragin_Roxor_v1_FK_back.png', 
@@ -8888,18 +8889,18 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Battling the Lord of the Fire Flows is like challenging a ragining volcano itself.  Roxor is a temperamental lord and when driven to anger assumes the form of a raging pyre of white hot flame.  In this form Roxor is unapproachable even by his most loyal of lieutenants.  Roaring with primordial rage he stalks through the stone halls of his domain, bathing the dungeon in flame and fury.');
 insert into Characters (CardIndex) VALUES (377);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (290, 493, -1);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (290, 1); --Citrine
---GangMemberIndex 41
+VALUES (292, 493, -1);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (292, 1); --Citrine
+--GangMemberIndex 40
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (41, 0, 'Ragin'' Roxor (v1)', 'Shapeshift', 'Boss', 8, 10, 3, 175);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (41, 512); --Fire
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (41, 551); --Immune: Fire
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (41, 618); --Shapeshift: Rockin' Roxor
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (41, 664); --Volcano
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (41, 444); --Molten Steel
+VALUES (40, 0, 'Ragin'' Roxor (v1)', 'Shapeshift', 'Boss', 8, 10, 3, 175);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (40, 512); --Fire
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (40, 551); --Immune: Fire
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (40, 618); --Shapeshift: Rockin' Roxor
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (40, 664); --Volcano
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (40, 444); --Molten Steel
 
---Ragin' Roxor v2 --CardIndex 378	--CharacterIndex 291	--ArcadeCharacterIndex 42
+--Ragin' Roxor v2 --CardIndex 378	--CharacterIndex 293	--ArcadeCharacterIndex 41
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ragin'' Roxor (v2)',
 'http://htkb.info/SDE/FK/Cards/Arcade/Bosses/Card_Arcade_Boss_Ragin_Roxor_v2_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Bosses/Card_Arcade_Boss_Ragin_Roxor_v2_FK_back.png', 
@@ -8908,18 +8909,18 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Battling the Lord of the Fire Flows is like challenging a ragining volcano itself.  Roxor is a temperamental lord and when driven to anger assumes the form of a raging pyre of white hot flame.  In this form Roxor is unapproachable even by his most loyal of lieutenants.  Roaring with primordial rage he stalks through the stone halls of his domain, bathing the dungeon in flame and fury.');
 insert into Characters (CardIndex) VALUES (378);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (291, 493, -1);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (291, 1); --Citrine
+VALUES (293, 493, -1);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (293, 1); --Citrine
 --GangMemberIndex 42
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (42, 0, 'Ragin'' Roxor (v2)', 'Shapeshift', 'Boss', 6, 10, 4, 175);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (42, 512); --Fire
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (42, 551); --Immune: Fire
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (42, 618); --Shapeshift: Rockin' Roxor
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (42, 664); --Volcano
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (42, 444); --Molten Steel
+VALUES (41, 0, 'Ragin'' Roxor (v2)', 'Shapeshift', 'Boss', 6, 10, 4, 175);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (41, 512); --Fire
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (41, 551); --Immune: Fire
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (41, 618); --Shapeshift: Rockin' Roxor
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (41, 664); --Volcano
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (41, 444); --Molten Steel
 
---Rockin' Roxor v1 --CardIndex 379	--CharacterIndex 292	--ArcadeCharacterIndex 43
+--Rockin' Roxor v1 --CardIndex 379	--CharacterIndex 294	--ArcadeCharacterIndex 42
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Rockin'' Roxor (v1)',
 'http://htkb.info/SDE/FK/Cards/Arcade/Bosses/Card_Arcade_Boss_Rockin_Roxor_v1_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Bosses/Card_Arcade_Boss_Rockin_Roxor_v1_FK_back.png', 
@@ -8928,18 +8929,18 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Lord of the Fire Flows, Roxor, seeks to creat a molten paradise for his elemental brethren.  Harboring no empathy for the "soft" races he readily allies himself with the Dark Consul so long as  their goals coverge.');
 insert into Characters (CardIndex) VALUES (379);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (292, 366, -1);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (292, 4); --Sapphire
---GangMemberIndex 43
+VALUES (294, 366, -1);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (294, 4); --Sapphire
+--GangMemberIndex 42
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (43, 0, 'Rockin'' Roxor (v1)', 'Elemental', 'Boss', 6, 10, 5, 176);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (43, 557); --Immune: Status Effects
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (43, 481); --Burrow
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (43, 617); --Shapeshift: Ragin' Roxor
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (43, 225); --Cave In
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (43, 643); --Tremors
+VALUES (42, 0, 'Rockin'' Roxor (v1)', 'Elemental', 'Boss', 6, 10, 5, 176);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (42, 557); --Immune: Status Effects
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (42, 481); --Burrow
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (42, 617); --Shapeshift: Ragin' Roxor
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (42, 225); --Cave In
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (42, 643); --Tremors
 
---Rockin' Roxor v2 --CardIndex 380	--CharacterIndex 293	--ArcadeCharacterIndex 44
+--Rockin' Roxor v2 --CardIndex 380	--CharacterIndex 295	--ArcadeCharacterIndex 43
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Rockin'' Roxor (v2)',
 'http://htkb.info/SDE/FK/Cards/Arcade/Bosses/Card_Arcade_Boss_Rockin_Roxor_v2_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Bosses/Card_Arcade_Boss_Rockin_Roxor_v2_FK_back.png', 
@@ -8948,18 +8949,18 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Lord of the Fire Flows, Roxor, seeks to creat a molten paradise for his elemental brethren.  Harboring no empathy for the "soft" races he readily allies himself with the Dark Consul so long as  their goals coverge.');
 insert into Characters (CardIndex) VALUES (380);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (293, 475, -1);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (293, 4); --Sapphire
---GangMemberIndex 44
+VALUES (295, 475, -1);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (295, 4); --Sapphire
+--GangMemberIndex 43
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (44, 0, 'Rockin'' Roxor (v2)', 'Elemental', 'Boss', 6, 10, 6, 176);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (44, 557); --Immune: Status Effects
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (44, 481); --Burrow
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (44, 617); --Shapeshift: Ragin' Roxor
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (44, 225); --Cave In
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (44, 643); --Tremors
+VALUES (43, 0, 'Rockin'' Roxor (v2)', 'Elemental', 'Boss', 6, 10, 6, 176);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (43, 557); --Immune: Status Effects
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (43, 481); --Burrow
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (43, 617); --Shapeshift: Ragin' Roxor
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (43, 225); --Cave In
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (43, 643); --Tremors
 
---Starfire --CardIndex 381	--CharacterIndex 294	--ArcadeCharacterIndex 45
+--Starfire --CardIndex 381	--CharacterIndex 296	--ArcadeCharacterIndex 44
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Starfire',
 'http://htkb.info/SDE/FK/Cards/Arcade/Bosses/Card_Arcade_Boss_Starfire_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Bosses/Card_Arcade_Boss_Starfire_FK_back.png', 
@@ -8968,36 +8969,36 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'While dragons are not uncommon in Crystalia, none inspire the terror of Starfire.  From his volcanic mountain within the Dragonback Peaks he brings fire and destruction across the length and breadth of the realm.  Vast herds are consumed by his appetites and entire treasuries are claimed by his greed.');
 insert into Characters (CardIndex) VALUES (381);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (294, 383, -1);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (294, 1); --Citrine
---GangMemberIndex 45
+VALUES (296, 383, -1);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (296, 1); --Citrine
+--GangMemberIndex 44
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (45, 0, 'Starfire', 'Dragon', 'Boss', 8, 10, 4, 177);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (45, 551); --Immune: Fire
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (45, 518); --Fly
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (45, 403); --Inferno
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (45, 620); --Tail Sweep
+VALUES (44, 0, 'Starfire', 'Dragon', 'Boss', 8, 10, 4, 177);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (44, 551); --Immune: Fire
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (44, 518); --Fly
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (44, 403); --Inferno
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (44, 620); --Tail Sweep
 
---Von Drakk --CardIndex 382	--CharacterIndex 295	--ArcadeCharacterIndex 46
+--Von Drakk --CardIndex 382	--CharacterIndex 297	--ArcadeCharacterIndex 45
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Von Drakk',
 'http://htkb.info/SDE/FK/Cards/Arcade/Bosses/Card_Arcade_Boss_Von_Drakk_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Bosses/Card_Arcade_Boss_Von_Drakk_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Arcade/Bosses/Von_Drakk.xhtml', 
 'Boss', 'FK', 'FK Core Set', 'Arcade', 
 'Von Drakk has despoiled his homeland like an eternal plague.  Once teeming with life the moorlands are now a haven for witches'' covens, foul swamp creatures, and the unquiet dead.  Von Drakk cares not, so long as his manor retains its splendor and his dark appetites remain sated.');
-insert into Characters (CardIndex) VALUES (378);
+insert into Characters (CardIndex) VALUES (382);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (295, 364, -1);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (295, 2); --Emerald
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (295, 3); --Ruby
---GangMemberIndex 46
+VALUES (297, 364, -1);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (297, 2); --Emerald
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (297, 3); --Ruby
+--GangMemberIndex 45
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (46, 0, 'Von Drakk', 'Undead Vampire', 'Boss', 8, 8, 3, 178);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (46, 475); --Blood Drinker
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (46, 616); --Shapeshift: Nocturne
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (46, 353); --Ghastly Vigor
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (46, 165); --Army of Bone
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (46, 397); --Hypnotic Gaze
+VALUES (45, 0, 'Von Drakk', 'Undead Vampire', 'Boss', 8, 8, 3, 178);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (45, 475); --Blood Drinker
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (45, 616); --Shapeshift: Nocturne
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (45, 353); --Ghastly Vigor
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (45, 165); --Army of Bone
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (45, 397); --Hypnotic Gaze
 --FK --Warband Gangs
 --Bramble Knight
 --Bramble Knight --CardIndex 383	--CharacterIndex 296	--ArcadeCharacterIndex 47

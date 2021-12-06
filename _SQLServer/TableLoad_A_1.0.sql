@@ -2269,7 +2269,8 @@ VALUES ('Lava',
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Terrain_Cards/Lava.xhtml', 
 'Terrain', '1.0', '1.0 Core Set', 'Default', '');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (152, 'A model entering a Lava square suffers Fire.'); 
-insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (1, 697); --Lava--1.0 Utility Cards
+insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (1, 697); --Lava
+insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (1, 498); --Difficult Terrain--1.0 Utility Cards
 --Rules Addendum and Errata
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
 VALUES ('Rules Addendum and Errata',
