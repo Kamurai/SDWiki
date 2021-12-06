@@ -1,5 +1,5 @@
 --FK Arcade Booty
---Boody Biter	--CardIndex 337	--CharacterIndex 252	--ArcadeCharacterIndex 1
+--Boody Biter	--CardIndex 337	--CharacterIndex 252	--ArcadeCharacterIndex 0
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Booty Biter',
 'http://htkb.info/SDE/FK/Cards/Arcade/Booty/Card_Arcade_Booty_Booty_Biter_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Booty/Card_Arcade_Booty_Booty_Biter_FK_back.png', 
@@ -12,10 +12,10 @@ insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineInd
 VALUES (252, 142, -1);
 --GangMemberIndex 1
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (1, 0, 'Booty Biter', 'Boo Booty', 'Elite', 5, 2, 3, 135);
+VALUES (0, 0, 'Booty Biter', 'Boo Booty', 'Elite', 5, 2, 3, 135);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (1, 466); --Backlash
 
---Bouncing Booty --CardIndex 338	--CharacterIndex 253	--ArcadeCharacterIndex 2
+--Bouncing Booty --CardIndex 338	--CharacterIndex 253	--ArcadeCharacterIndex 1
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Bouncing Booty',
 'http://htkb.info/SDE/FK/Cards/Arcade/Booty/Card_Arcade_Booty_Bouncing_Booty_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Booty/Card_Arcade_Booty_Bouncing_Booty_FK_back.png', 
@@ -28,10 +28,10 @@ insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineInd
 VALUES (253, 252, -1);
 --GangMemberIndex 2
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (2, 0, 'Bouncing Booty', 'Boo Booty', 'Elite', 8, 2, 2, 136);
+VALUES (1, 0, 'Bouncing Booty', 'Boo Booty', 'Elite', 8, 2, 2, 136);
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (2, 197); --Bounce
 
---Booty Grinder --CardIndex 339	--CharacterIndex 254	--ArcadeCharacterIndex 3
+--Booty Grinder --CardIndex 339	--CharacterIndex 254	--ArcadeCharacterIndex 2
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Booty Grinder',
 'http://htkb.info/SDE/FK/Cards/Arcade/Booty/Card_Arcade_Booty_Booty_Grinder_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Booty/Card_Arcade_Booty_Booty_Grinder_FK_back.png', 
@@ -44,5 +44,5 @@ insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineInd
 VALUES (254, 152, -1);
 --GangMemberIndex 3
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (3, 0, 'Booty Grinder', 'Boo Booty', 'Elite', 5, 2, 2, 137);
+VALUES (2, 0, 'Booty Grinder', 'Boo Booty', 'Elite', 5, 2, 2, 137);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (3, 531); --Grind

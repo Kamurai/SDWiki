@@ -503,7 +503,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/FK/Cards/MiniBosses/Trent.xhtml', 
 'MiniBoss', 'FK', 'FK Core Set', 'Explore',
 'Young by treant standards Trent was always a bad seed.  Rooted in the faery-haunted Mistmourn Coast, he was always cranky and inclined to distrust.  Even so, Trent was slow to anger as the mischievous fae lurking in the mists would tease and taunt him.<br>After several centuries the young treant could stand it no longer, uprooting and wreaking vengeance upon the playful fae.  Once his fury was unleashed it was as long-lived as the Fae Wood itself.  In the end, it was remarkably');
-insert into Characters (CardIndex) VALUES (253);
+insert into Characters (CardIndex) VALUES (258);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (173, 4); --Sapphire
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (173, 555); --Immune: Poison
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (173, 648); --Tough
