@@ -2260,6 +2260,37 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (140
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 --FK Creeps
 --Citrine Slime --CardIndex 226	--CharacterIndex 141	--ExploreCharacterIndex 141
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Citrine Slime',
@@ -2403,8 +2434,6 @@ VALUES (148, 'Neither', 'Small', 'Slime', 5, 1, '2B', '0ST', '1B', '1B', 1, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (148, 1, 1);
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (148, 2);
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (148, '', '8 Bit', 1);
-
-
 --FK MiniBoss
 --Bashful Boris (Beta) --CardIndex 234	--CharacterIndex 149	--ExploreCharacterIndex 149
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Bashful Boris (Beta)',
@@ -2910,7 +2939,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/FK/Cards/MiniBosses/Trent.xhtml', 
 'MiniBoss', 'FK', 'FK Core Set', 'Explore',
 'Young by treant standards Trent was always a bad seed.  Rooted in the faery-haunted Mistmourn Coast, he was always cranky and inclined to distrust.  Even so, Trent was slow to anger as the mischievous fae lurking in the mists would tease and taunt him.<br>After several centuries the young treant could stand it no longer, uprooting and wreaking vengeance upon the playful fae.  Once his fury was unleashed it was as long-lived as the Fae Wood itself.  In the end, it was remarkably');
-insert into Characters (CardIndex) VALUES (258);
+insert into Characters (CardIndex) VALUES (253);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (173, 4); --Sapphire
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (173, 555); --Immune: Poison
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (173, 648); --Tough
@@ -2922,9 +2951,7 @@ insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, 
 VALUES (173, 'Neither', 'Large', 'Treant Kodama', 6, 3, '1ST 2R', '1ST 2R', '2R', '1B', 6, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (173, 1, 2); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (173, 2); --Armor
-insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (173, '', 'Super', 4);
-
---FK Bosses
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (173, '', 'Super', 4);--FK Bosses
 --Beatrix the Witch Queen --CardIndex 259 --CharacterIndex 174 --ExploreCharacterIndex 174
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 'Beatrix the Witch Queen',
@@ -3127,10 +3154,7 @@ insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, 
 VALUES (182, 'Masculine', 'Small', 'Undead Vampire', 8, 4, '2ST 4B', '2B', '1ST 2R', '3R', 6, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (182, 1, 2); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (182, 2); --Armor
-insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (182, '', 'Super', 4);
-
-
---FK --Warband Monsters
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (182, '', 'Super', 4);--FK --Warband Monsters
 --Bramble Knight
 --Bramble Knight --CardIndex 268 --CharacterIndex 183 --ExploreCharacterIndex 183
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
@@ -4451,8 +4475,6 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (251, 2); --Armor
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (251, 'Minion', '8 Bit', 1);
 
-
-
 --FK Arcade Statlines
 
 /*StatLineIndex   0*/		insert into StatLines (StatAction, StatStrength, StatRange) VALUES ( 0,  0,  0);
@@ -5680,6 +5702,9 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (251
 
 
 
+
+
+
 --FK Arcade Booty
 --Boody Biter	--CardIndex 337	--CharacterIndex 252	--ArcadeCharacterIndex 1
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Booty Biter',
@@ -5728,7 +5753,6 @@ VALUES (254, 152, -1);
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (3, 0, 'Booty Grinder', 'Boo Booty', 'Elite', 5, 2, 2, 137);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (3, 531); --Grind
-
 --FK Arcade Creeps
 --Citrine Slime --CardIndex 340	--CharacterIndex 255	--ArcadeCharacterIndex 4
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Citrine Slime',
@@ -5870,6 +5894,7 @@ VALUES (11, 0, 'Sapphire Slime', 'Slime', 'Creep', 5, 1, 0, 145);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (11, 559); --Insignificant
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (11, 561); --Invader
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (11, 608); --Sapphire Gloop
+
 
 
 
@@ -6380,57 +6405,11 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (35, 312);
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 --FK Bosses
 --Beatrix the Witch Queen --CardIndex 372	--CharacterIndex 285	--ArcadeCharacterIndex 36
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Beatrix the Witch Queen',
-'http://htkb.info/SDE/FK/Cards/Arcade/Bosses/Card_Arcade_Beatrix_the_Witch_Queen_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Arcade/Bosses/Card_Arcade_Beatrix_the_Witch_Queen_FK_back.png', 
+'http://htkb.info/SDE/FK/Cards/Arcade/Bosses/Card_Arcade_Boss_Beatrix_the_Witch_Queen_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Arcade/Bosses/Card_Arcade_Boss_Beatrix_the_Witch_Queen_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Arcade/Bosses/Beatrix_the_Witch_Queen.xhtml', 
 'Boss', 'FK', 'FK Core Set', 'Arcade', 
 'I have such a delicious potion for you to try.  It may string a little going down....');
@@ -6450,9 +6429,9 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (36, 253);
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (36, 495); --Pumpkin Charge
 
 --The Forgotten King --CardIndex 373	--CharacterIndex 286	--ArcadeCharacterIndex 37
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('The Forgotten King',
-'http://htkb.info/SDE/FK/Cards/Arcade/Bosses/Card_Arcade_Forgotten_King_The_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Arcade/Bosses/Card_Arcade_Forgotten_King_The_FK_back.png', 
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Forgotten King, The',
+'http://htkb.info/SDE/FK/Cards/Arcade/Bosses/Card_Arcade_Boss_Forgotten_King_The_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Arcade/Bosses/Card_Arcade_Boss_Forgotten_King_The_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Arcade/Bosses/Forgotten_King_The.xhtml', 
 'Boss', 'FK', 'FK Core Set', 'Arcade', 
 'The Forgotten King rebelled against the King of Crystalia when he was denied the princess''s hand in marriage.  Cursed to the Lordship Ruins for all time, his love for the princess has turned to bitter hatred towards all the people of Crystalia.');
@@ -6472,8 +6451,8 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (37, 504);
 
 --Goro --CardIndex 374	--CharacterIndex 287	--ArcadeCharacterIndex 38
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Goro',
-'http://htkb.info/SDE/FK/Cards/Arcade/Bosses/Card_Arcade_Goro_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Arcade/Bosses/Card_Arcade_Goro_FK_back.png', 
+'http://htkb.info/SDE/FK/Cards/Arcade/Bosses/Card_Arcade_Boss_Goro_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Arcade/Bosses/Card_Arcade_Boss_Goro_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Arcade/Bosses/Goro.xhtml', 
 'Boss', 'FK', 'FK Core Set', 'Arcade', 
 'The forest spirit Goro has always been a mercurial and fickle creature.  Even in times of peace Goro has relished challenging mortals with puzzles, tricks, and cunning traps.  That these tests and pranks occasionally turn deadly is of no concern to Goro.  Whispered to be nearly as old as the Deeproot Tree itself, it is likely that Goro does not even truly comprehend mortality.');
@@ -6494,8 +6473,8 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (38, 436);
 
 --King Starfire --CardIndex 375	--CharacterIndex 288	--ArcadeCharacterIndex 39
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('King Starfire',
-'http://htkb.info/SDE/FK/Cards/Arcade/Bosses/Card_Arcade_King_Starfire_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Arcade/Bosses/Card_Arcade_King_Starfire_FK_back.png', 
+'http://htkb.info/SDE/FK/Cards/Arcade/Bosses/Card_Arcade_Boss_King_Starfire_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Arcade/Bosses/Card_Arcade_Boss_King_Starfire_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Arcade/Bosses/King_Starfire.xhtml', 
 'Boss', 'FK', 'FK Core Set', 'Arcade', 
 '');
@@ -6515,8 +6494,8 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (39, 291);
 
 --Nocturne --CardIndex 376	--CharacterIndex 289	--ArcadeCharacterIndex 40
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Nocturne',
-'http://htkb.info/SDE/FK/Cards/Arcade/Bosses/Card_Arcade_Nocturne_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Arcade/Bosses/Card_Arcade_Nocturne_FK_back.png', 
+'http://htkb.info/SDE/FK/Cards/Arcade/Bosses/Card_Arcade_Boss_Nocturne_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Arcade/Bosses/Card_Arcade_Boss_Nocturne_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Arcade/Bosses/Nocturne.xhtml', 
 'Boss', 'FK', 'FK Core Set', 'Arcade', 
 'Those who meet the gaze of Von Drakk say it is like peering into the soul of a beast.  None realize how correct they are.  When in the full throes of bloodlust Von Drakk is overtaken by a hideous transformation; his new form ideally suited to bringing carnage and ruin to his foes.');
@@ -6535,8 +6514,8 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (40, 261);
 
 --Ragin' Roxor v1 --CardIndex 377	--CharacterIndex 290	--ArcadeCharacterIndex 41
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ragin'' Roxor (v1)',
-'http://htkb.info/SDE/FK/Cards/Arcade/Bosses/Card_Arcade_Ragin_Roxor_v1_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Arcade/Bosses/Card_Arcade_Ragin_Roxor_v1_FK_back.png', 
+'http://htkb.info/SDE/FK/Cards/Arcade/Bosses/Card_Arcade_Boss_Ragin_Roxor_v1_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Arcade/Bosses/Card_Arcade_Boss_Ragin_Roxor_v1_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Arcade/Bosses/Ragin_Roxor_v1.xhtml', 
 'Boss', 'FK', 'FK Core Set', 'Arcade', 
 'Battling the Lord of the Fire Flows is like challenging a ragining volcano itself.  Roxor is a temperamental lord and when driven to anger assumes the form of a raging pyre of white hot flame.  In this form Roxor is unapproachable even by his most loyal of lieutenants.  Roaring with primordial rage he stalks through the stone halls of his domain, bathing the dungeon in flame and fury.');
@@ -6555,8 +6534,8 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (41, 444);
 
 --Ragin' Roxor v2 --CardIndex 378	--CharacterIndex 291	--ArcadeCharacterIndex 42
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ragin'' Roxor (v2)',
-'http://htkb.info/SDE/FK/Cards/Arcade/Bosses/Card_Arcade_Ragin_Roxor_v2_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Arcade/Bosses/Card_Arcade_Ragin_Roxor_v2_FK_back.png', 
+'http://htkb.info/SDE/FK/Cards/Arcade/Bosses/Card_Arcade_Boss_Ragin_Roxor_v2_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Arcade/Bosses/Card_Arcade_Boss_Ragin_Roxor_v2_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Arcade/Bosses/Ragin_Roxor_v2.xhtml', 
 'Boss', 'FK', 'FK Core Set', 'Arcade', 
 'Battling the Lord of the Fire Flows is like challenging a ragining volcano itself.  Roxor is a temperamental lord and when driven to anger assumes the form of a raging pyre of white hot flame.  In this form Roxor is unapproachable even by his most loyal of lieutenants.  Roaring with primordial rage he stalks through the stone halls of his domain, bathing the dungeon in flame and fury.');
@@ -6575,8 +6554,8 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (42, 444);
 
 --Rockin' Roxor v1 --CardIndex 379	--CharacterIndex 292	--ArcadeCharacterIndex 43
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Rockin'' Roxor (v1)',
-'http://htkb.info/SDE/FK/Cards/Arcade/Bosses/Card_Arcade_Rockin_Roxor_v1_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Arcade/Bosses/Card_Arcade_Rockin_Roxor_v1_FK_back.png', 
+'http://htkb.info/SDE/FK/Cards/Arcade/Bosses/Card_Arcade_Boss_Rockin_Roxor_v1_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Arcade/Bosses/Card_Arcade_Boss_Rockin_Roxor_v1_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Arcade/Bosses/Rockin_Roxor_v1.xhtml', 
 'Boss', 'FK', 'FK Core Set', 'Arcade', 
 'Lord of the Fire Flows, Roxor, seeks to creat a molten paradise for his elemental brethren.  Harboring no empathy for the "soft" races he readily allies himself with the Dark Consul so long as  their goals coverge.');
@@ -6595,8 +6574,8 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (43, 643);
 
 --Rockin' Roxor v2 --CardIndex 380	--CharacterIndex 293	--ArcadeCharacterIndex 44
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Rockin'' Roxor (v2)',
-'http://htkb.info/SDE/FK/Cards/Arcade/Bosses/Card_Arcade_Rockin_Roxor_v2_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Arcade/Bosses/Card_Arcade_Rockin_Roxor_v2_FK_back.png', 
+'http://htkb.info/SDE/FK/Cards/Arcade/Bosses/Card_Arcade_Boss_Rockin_Roxor_v2_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Arcade/Bosses/Card_Arcade_Boss_Rockin_Roxor_v2_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Arcade/Bosses/Rockin_Roxor_v2.xhtml', 
 'Boss', 'FK', 'FK Core Set', 'Arcade', 
 'Lord of the Fire Flows, Roxor, seeks to creat a molten paradise for his elemental brethren.  Harboring no empathy for the "soft" races he readily allies himself with the Dark Consul so long as  their goals coverge.');
@@ -6615,8 +6594,8 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (44, 643);
 
 --Starfire --CardIndex 381	--CharacterIndex 294	--ArcadeCharacterIndex 45
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Starfire',
-'http://htkb.info/SDE/FK/Cards/Arcade/Bosses/Card_Arcade_Starfire_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Arcade/Bosses/Card_Arcade_Starfire_FK_back.png', 
+'http://htkb.info/SDE/FK/Cards/Arcade/Bosses/Card_Arcade_Boss_Starfire_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Arcade/Bosses/Card_Arcade_Boss_Starfire_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Arcade/Bosses/Starfire.xhtml', 
 'Boss', 'FK', 'FK Core Set', 'Arcade', 
 'While dragons are not uncommon in Crystalia, none inspire the terror of Starfire.  From his volcanic mountain within the Dragonback Peaks he brings fire and destruction across the length and breadth of the realm.  Vast herds are consumed by his appetites and entire treasuries are claimed by his greed.');
@@ -6634,8 +6613,8 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (45, 620);
 
 --Von Drakk --CardIndex 382	--CharacterIndex 295	--ArcadeCharacterIndex 46
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Von Drakk',
-'http://htkb.info/SDE/FK/Cards/Arcade/Bosses/Card_Arcade_Von_Drakk_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Arcade/Bosses/Card_Arcade_Von_Drakk_FK_back.png', 
+'http://htkb.info/SDE/FK/Cards/Arcade/Bosses/Card_Arcade_Boss_Von_Drakk_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Arcade/Bosses/Card_Arcade_Boss_Von_Drakk_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Arcade/Bosses/Von_Drakk.xhtml', 
 'Boss', 'FK', 'FK Core Set', 'Arcade', 
 'Von Drakk has despoiled his homeland like an eternal plague.  Once teeming with life the moorlands are now a haven for witches'' covens, foul swamp creatures, and the unquiet dead.  Von Drakk cares not, so long as his manor retains its splendor and his dark appetites remain sated.');
@@ -7777,7 +7756,7 @@ insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (3, 172
 insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (3, 285); --Beatrix the Witch Queen: Arcade
 
 --The Forgotten King --CardIndex 433   --BossSpawnIndex 4  
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('The Forgotten King', 
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Forgotten King, The', 
 'http://htkb.info/SDE/FK/Cards/Boss_Spawns/Card_Boss_Spawn_Forgotten_King_The_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Boss_Spawns/Card_Boss_Spawn_Forgotten_King_The_FK.png',
 'http://htkb.online/SDWiki/SDE/FK/Cards/Boss_Spawns/Forgotten_King_The.xhtml', 
@@ -10170,7 +10149,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 VALUES ('Brambles',
 'http://htkb.info/SDE/FK/Cards/Utility/Terrain/Card_Terrain_Brambles_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Utility/Terrain/Card_Terrain_Back_FK.png', 
-'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Brambles.xhtml', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Terrain_Cards/Brambles.xhtml', 
 'Terrain', 'FK', 'FK Core Set', 'Default', '');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (652, ''); 
 insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (3, 589); --Poison
@@ -10181,7 +10160,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 VALUES ('Champion',
 'http://htkb.info/SDE/FK/Cards/Utility/Terrain/Card_Terrain_Champion_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Utility/Terrain/Card_Terrain_Back_FK.png', 
-'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Champion.xhtml', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Terrain_Cards/Champion.xhtml', 
 'Terrain', 'FK', 'FK Core Set', 'Default', '');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (653, ''); 
 insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (4, 484); --Champion
@@ -10193,7 +10172,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 VALUES ('Chasm',
 'http://htkb.info/SDE/FK/Cards/Utility/Terrain/Card_Terrain_Chasm_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Utility/Terrain/Card_Terrain_Back_FK.png', 
-'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Chasm.xhtml', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Terrain_Cards/Chasm.xhtml', 
 'Terrain', 'FK', 'FK Core Set', 'Default', '');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (654, ''); 
 insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (5, 485); --Chasm
@@ -10203,7 +10182,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 VALUES ('Difficult Terrain',
 'http://htkb.info/SDE/FK/Cards/Utility/Terrain/Card_Terrain_Difficult_Terrain_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Utility/Terrain/Card_Terrain_Back_FK.png', 
-'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Difficult_Terrain.xhtml', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Terrain_Cards/Difficult_Terrain.xhtml', 
 'Terrain', 'FK', 'FK Core Set', 'Default', '');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (655, ''); 
 insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (6, 485); --Difficult Terrain
@@ -10213,7 +10192,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 VALUES ('Fresh Grave',
 'http://htkb.info/SDE/FK/Cards/Utility/Terrain/Card_Terrain_Fresh_Grave_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Utility/Terrain/Card_Terrain_Back_FK.png', 
-'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Fresh_Grave.xhtml', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Terrain_Cards/Fresh_Grave.xhtml', 
 'Terrain', 'FK', 'FK Core Set', 'Default', '');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (656, ''); 
 insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (7, 520); --Fresh Grave
@@ -10223,7 +10202,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 VALUES ('Goddess',
 'http://htkb.info/SDE/FK/Cards/Utility/Terrain/Card_Terrain_Goddess_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Utility/Terrain/Card_Terrain_Back_FK.png', 
-'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Goddess.xhtml', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Terrain_Cards/Goddess.xhtml', 
 'Terrain', 'FK', 'FK Core Set', 'Default', '');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (657, ''); 
 insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (8, 484); --Goddess
@@ -10235,7 +10214,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 VALUES ('Secret Passage',
 'http://htkb.info/SDE/FK/Cards/Utility/Terrain/Card_Terrain_Secret_Passage_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Utility/Terrain/Card_Terrain_Back_FK.png', 
-'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Secret_Passage.xhtml', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Terrain_Cards/Secret_Passage.xhtml', 
 'Terrain', 'FK', 'FK Core Set', 'Default', '');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (658, ''); 
 insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (9, 611); --Secret Passage
@@ -10245,7 +10224,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 VALUES ('Sentinel',
 'http://htkb.info/SDE/FK/Cards/Utility/Terrain/Card_Terrain_Sentinel_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Utility/Terrain/Card_Terrain_Back_FK.png', 
-'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Sentinel.xhtml', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Terrain_Cards/Sentinel.xhtml', 
 'Terrain', 'FK', 'FK Core Set', 'Default', '');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (659, ''); 
 insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (10, 484); --Sentinel
@@ -10257,7 +10236,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 VALUES ('Spawn Location',
 'http://htkb.info/SDE/FK/Cards/Utility/Terrain/Card_Terrain_Spawn_Location_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Utility/Terrain/Card_Terrain_Back_FK.png', 
-'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Spawn_Location.xhtml', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Terrain_Cards/Spawn_Location.xhtml', 
 'Terrain', 'FK', 'FK Core Set', 'Default', '');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (660, ''); 
 insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (11, 631); --Spawn Location
@@ -10267,7 +10246,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 VALUES ('Structure',
 'http://htkb.info/SDE/FK/Cards/Utility/Terrain/Card_Terrain_Structure_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Utility/Terrain/Card_Terrain_Back_FK.png', 
-'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Structure.xhtml', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Terrain_Cards/Structure.xhtml', 
 'Terrain', 'FK', 'FK Core Set', 'Default', '');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (661, ''); 
 insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (12, 692); --Structure
@@ -10278,25 +10257,25 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 VALUES ('Backpack',
 'http://htkb.info/SDE/FK/Cards/Utility/Card_Utility_Backpack_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Utility/Card_Utility_Backpack_FK.png', 
-'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Backpack.xhtml', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Utility_Cards/Backpack.xhtml', 
 'Utility', 'FK', 'FK Core Set', 'Default', '');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (662, '');
 
---Classic Might Monster Chart	--CardIndex 663 --UtilityIndex 14
+--Classic Mighty Monster Chart	--CardIndex 663 --UtilityIndex 14
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
 VALUES ('Classic Might Monster Chart',
 'http://htkb.info/SDE/FK/Cards/Utility/Card_Utility_Classic_Mode_Mighty_Monster_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Utility/Card_Utility_Classic_Mode_Mighty_Monster_FK.png', 
-'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Classic_Mighty_Monster_Chart.xhtml', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Utility_Cards/Classic_Mighty_Monster_Chart.xhtml', 
 'Utility', 'FK', 'FK Core Set', 'Default', '');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (663, '');
 
 --Elemental Affinity	--CardIndex 664 --UtilityIndex 15
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
-VALUES ('Classic Might Monster Chart',
+VALUES ('Elemental Affinity Chart',
 'http://htkb.info/SDE/FK/Cards/Utility/Card_Utility_Elemental_Affinity_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Utility/Card_Utility_Elemental_Affinity_FK_back.png', 
-'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Elemental_Affinity_Chart.xhtml', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Utility_Cards/Elemental_Affinity_Chart.xhtml', 
 'Utility', 'FK', 'FK Core Set', 'Default', '');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (664, '');
 insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (15, 511); --Feint
@@ -10311,7 +10290,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 VALUES ('Arcade Might Monster Chart',
 'http://htkb.info/SDE/FK/Cards/Arcade/Utility/Card_Utility_Arcade_Mode_Mighty_Monster_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Utility/Card_Utility_Arcade_Mode_Mighty_Monster_FK.png', 
-'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Arcade_Mighty_Monster_Chart.xhtml', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Utility_Cards/Arcade_Mighty_Monster_Chart.xhtml', 
 'Utility', 'FK', 'FK Core Set', 'Arcade', '');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (665, '');
 
@@ -10320,7 +10299,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 VALUES ('Arcade Wrath Chart',
 'http://htkb.info/SDE/FK/Cards/Arcade/Utility/Card_Utility_Arcade_Mode_Wrath_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Utility/Card_Utility_Arcade_Mode_Wrath_FK.png', 
-'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Arcade_Wrath_Chart.xhtml', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Utility_Cards/Arcade_Wrath_Chart.xhtml', 
 'Utility', 'FK', 'FK Core Set', 'Arcade', '');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (666, '');--FK Explore Cards
 --Armory	--CardIndex 667	--UtilityIndex 18	--ExploreIndex 0	--ExploreCreepIndex	0
