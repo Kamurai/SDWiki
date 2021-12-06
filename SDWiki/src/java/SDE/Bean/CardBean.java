@@ -161,7 +161,7 @@ public class CardBean extends Bean{
         }else if(type.compareTo("Utility_Cards") == 0){
             this.title      = "Utility_Cards";
             this.header     = "Utility_Cards";
-            this.cardList  = navDAO.pullNavigationForUtilities(version);
+            this.cardList  = navDAO.pullNavigationForUtilitiesByProductSet(version);
         }else if(type.compareTo("Terrain_Cards") == 0){
             this.title      = "Terrain_Cards";
             this.header     = "Terrain_Cards";
@@ -259,6 +259,16 @@ public class CardBean extends Bean{
             }else{
                 this.cardList   = navDAO.pullNavigationForWarbands();
             }
+        }else if(type.compareTo("Utility_Cards") == 0){
+            this.title      = "Utility_Cards";
+            this.header     = "Utility_Cards";
+            if(version.compareTo("1.0") == 0){
+                this.cardList   = navDAO.pullNavigationForUtilitiesByProductSet(version);
+            }else if(version.compareTo("All") == 0 || version.compareTo("FK") == 0 || version.compareTo("2.0") == 0){
+                this.cardList   = navDAO.pullNavigationForUtilitiesAllOrByProductSetAndPlayMode(version, playMode);
+            }else{
+                this.cardList   = navDAO.pullNavigationForUtilities();
+            }
         }else if(type.compareTo("Loot") == 0){
             this.title      = "Loot";
             this.header     = "Loot";
@@ -293,15 +303,6 @@ public class CardBean extends Bean{
                 this.cardList   = navDAO.pullNavigationForBossSpawns(version);
             }else{
                 this.cardList   = navDAO.pullNavigationForBossSpawns();
-            }
-            
-        }else if(type.compareTo("Utility_Cards") == 0){
-            this.title      = "Utility_Cards";
-            this.header     = "Utility_Cards";
-            if(version.compareTo("FK") == 0 || version.compareTo("2.0") == 0 || version.compareTo("1.0") == 0){
-                this.cardList   = navDAO.pullNavigationForUtilities(version);
-            }else{
-                this.cardList   = navDAO.pullNavigationForUtilities();
             }
             
         }else if(type.compareTo("Terrain_Cards") == 0){

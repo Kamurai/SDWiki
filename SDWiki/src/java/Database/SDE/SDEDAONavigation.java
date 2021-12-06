@@ -1382,7 +1382,7 @@ public class SDEDAONavigation extends DAO{
         return result;
     }
     
-    public ArrayList<SDE.NavItem> pullNavigationForUtilities(String version){
+    public ArrayList<SDE.NavItem> pullNavigationForUtilitiesByProductSet(String version){
         CallableStatement stmt = null;
         ResultSet rs;
         ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
@@ -1403,6 +1403,76 @@ public class SDEDAONavigation extends DAO{
         
         return result;
     }
+    
+    public ArrayList<SDE.NavItem> pullNavigationForUtilitiesAllOrByProductSetAndPlayMode(String version, String playMode){
+        ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
+        
+        if(version.compareTo("All") == 0){
+            result = pullNavigationForUtilitiesByPlayMode(playMode);
+        }else{
+            result = pullNavigationForUtilitiesByProductSetAndPlayMode(version, playMode);
+        }
+        
+        return result;
+    }
+    
+    private ArrayList<SDE.NavItem> pullNavigationForUtilitiesByProductSetAndPlayMode(String version, String playMode){
+        CallableStatement stmt = null;
+        ResultSet rs;
+        ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
+        
+        try{
+            openConnection();
+            
+            stmt = getConnect().prepareCall("{call SDWikiPullNavigationUtilityCardsByProductSetAndPlayMode(?,?)}");
+            stmt.setString(1, version);
+            stmt.setString(2, playMode);
+            rs = stmt.executeQuery();
+            
+            result = pullNavigationForCards(rs);
+        }catch(Exception e){
+            e.printStackTrace();
+        }finally{
+            closeConnection();
+        }
+        
+        return result;
+    }
+    
+    private ArrayList<SDE.NavItem> pullNavigationForUtilitiesByPlayMode(String playMode){
+        CallableStatement stmt = null;
+        ResultSet rs;
+        ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
+        
+        try{
+            openConnection();
+            
+            stmt = getConnect().prepareCall("{call SDWikiPullNavigationUtilityCardsByPlayMode(?)}");
+            stmt.setString(1, playMode);
+            rs = stmt.executeQuery();
+            
+            result = pullNavigationForCards(rs);
+        }catch(Exception e){
+            e.printStackTrace();
+        }finally{
+            closeConnection();
+        }
+        
+        
+        return result;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     
     //Pull Navigation for Terrain Cards
     public ArrayList<SDE.NavItem> pullNavigationForTerrainCards(){

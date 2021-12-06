@@ -15,7 +15,7 @@ VALUES ('Classic Might Monster Chart',
 'http://htkb.info/SDE/FK/Cards/Utility/Card_Utility_Classic_Mode_Mighty_Monster_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Utility/Card_Utility_Classic_Mode_Mighty_Monster_FK.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Utility_Cards/Classic_Mighty_Monster_Chart.xhtml', 
-'Utility', 'FK', 'FK Core Set', 'Default', '');
+'Utility', 'FK', 'FK Core Set', 'Explore', '');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (663, '');
 
 --Elemental Affinity	--CardIndex 664 --UtilityIndex 15

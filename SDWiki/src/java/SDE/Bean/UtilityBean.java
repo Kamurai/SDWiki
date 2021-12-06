@@ -32,7 +32,7 @@ public class UtilityBean extends CardBean{
         if(path.compareTo("") != 0){
             this.utilityCard  = oneDAO.pullOneUtilityCard(path);
         }
-        this.utilityCardList  = navDAO.pullNavigationForUtilities(utilityCard.getVersion());
+        this.utilityCardList  = navDAO.pullNavigationForUtilitiesByProductSet(utilityCard.getVersion());
         
         return "./Layout.xhtml";
     }
