@@ -63,6 +63,10 @@
 
 
 /*Bob-omb							--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Bob-omb', 'If another Hero activates after this Hero, during the same turn, that Hero gains +1R to the first offense roll it makes that activation.');
+
+/*Bonded Creep						--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Bonded Creep', 'This Creep may not be used unless the listed Dungeon Boss is selected for this game.');
+
+
 /*Boo Booty							--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Boo Booty', 'Boo Booty cannot be spawned, instead they enter play when their treasure card is drawn.');
 
 /*Bouncing Betty					--Index kXXX*/
