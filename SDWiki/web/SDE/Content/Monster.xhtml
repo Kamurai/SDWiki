@@ -40,6 +40,9 @@
                         Creature Type: #{SDEMonsterBean.getMonster().getCreatureType()}
                     </div>
                     <div class="inline">
+                        Rank: #{SDEMonsterBean.getMonster().getRank()}
+                    </div>
+                    <div class="inline">
                         Product Module: #{SDEMonsterBean.getMonster().getModule()}
                     </div>
                 </div>
@@ -55,7 +58,6 @@
                     </div>
                 </div>
             </div>
-            
             <div>
                  <div class="inline">
                      Movement: #{SDEMonsterBean.getMonster().getMovement()}
@@ -179,10 +181,10 @@
             
             <div>
                 <div class="inline">
-                    Affinity: #{SDEMonsterBean.getMonster().getSkulls()}
+                    Skulls: #{SDEMonsterBean.getMonster().getSkulls()}
                 </div>
                 <div class="inline">
-                    Health: #{SDEMonsterBean.getMonster().getBits()}
+                    Bits: #{SDEMonsterBean.getMonster().getBits()}
                 </div>
             </div>
             
@@ -199,7 +201,7 @@
             
             <!-- List of Abilities -->
             <ui:repeat var="x" value="#{SDEMonsterBean.getMonster().getAbilities()}" size="#{SDEMonsterBean.getMonster().getAbilities().size()}" varStatus="myVarStatus" >
-                <ui:fragment rendered="#{y.validateAbility()}">
+                <ui:fragment rendered="#{x.validateAbility()}">
                     <div class="xRow">
                         <div class="inline"><!-- Ability Name -->#{x.getName()}: </div>                     
                         <div class="inline"><!-- Ability Cost -->#{x.getCost()}</div>                     
