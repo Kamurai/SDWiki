@@ -3,7 +3,7 @@
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Bashful Boris (Beta)',
 'http://htkb.info/SDE/FK/Cards/MiniBosses/Card_MiniBoss_Bashful_Boris_beta_FK.png', 
 'http://htkb.info/SDE/FK/Cards/MiniBosses/Card_MiniBoss_Bashful_Boris_beta_FK_back.png', 
-'http://htkb.online/SDWiki/SDE/FK/Cards/MiniBosses/Bashful_Boris_beta.xhtml', 
+'http://htkb.online/SDWiki/SDE/FK/Explore/CardsMiniBosses/Bashful_Boris_beta.xhtml', 
 'MiniBoss', 'FK', 'FK Core Set', 'Explore',
 'When human, Boris was a large and gentle lad.  During The Forgotten King''s rebellion Boris lept at the chance to prove himself to his noble lord, only to quickly turn timid and fearful when faced with the reality of war.');
 insert into Characters (CardIndex) VALUES (234);
@@ -23,7 +23,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (149
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Bashful Boris',
 'http://htkb.info/SDE/FK/Cards/MiniBosses/Card_MiniBoss_Bashful_Boris_FK.png', 
 'http://htkb.info/SDE/FK/Cards/MiniBosses/Card_MiniBoss_Bashful_Boris_FK_back.png', 
-'http://htkb.online/SDWiki/SDE/FK/Cards/MiniBosses/Bashful_Boris.xhtml', 
+'http://htkb.online/SDWiki/SDE/FK/Explore/CardsMiniBosses/Bashful_Boris.xhtml', 
 'MiniBoss', 'FK', 'FK Core Set', 'Explore',
 'When human, Boris was a large and gentle lad.  During The Forgotten King''s rebellion Boris lept at the chance to prove himself to his noble lord, only to quickly turn timid and fearful when faced with the reality of war.');
 insert into Characters (CardIndex) VALUES (235);
@@ -43,7 +43,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (150
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Captain R',
 'http://htkb.info/SDE/FK/Cards/MiniBosses/Card_MiniBoss_Captain_R_FK.png', 
 'http://htkb.info/SDE/FK/Cards/MiniBosses/Card_MiniBoss_Captain_R_FK_back.png', 
-'http://htkb.online/SDWiki/SDE/FK/Cards/MiniBosses/Captain_R.xhtml', 
+'http://htkb.online/SDWiki/SDE/FK/Explore/CardsMiniBosses/Captain_R.xhtml', 
 'MiniBoss', 'FK', 'FK Core Set', 'Explore',
 'ARRRRR!  Tha Drowned Isles be a constant headache fer sailors an'' ships of tha Clockwork Cove.  Tha dreaded land mass be swarmin'' wit cutthroats an'' scaliwags ta spare, an'' none be as successful as tha black hearted Cap''n R.  They say ''ees plied tha seas fer a hundred years an'' sent just as many ships to tha deep.  Riches will flow fer tha Hero who finally gets tha best of ''im, because he who gets that Cap''n gets ''is gold.');
 insert into Characters (CardIndex) VALUES (236);
@@ -63,7 +63,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (151
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Chaos Kitty',
 'http://htkb.info/SDE/FK/Cards/MiniBosses/Card_MiniBoss_Chaos_Kitty_FK.png', 
 'http://htkb.info/SDE/FK/Cards/MiniBosses/Card_MiniBoss_Chaos_Kitty_FK_back.png', 
-'http://htkb.online/SDWiki/SDE/FK/Cards/MiniBosses/Chaos_Kitty.xhtml', 
+'http://htkb.online/SDWiki/SDE/FK/Explore/CardsMiniBosses/Chaos_Kitty.xhtml', 
 'MiniBoss', 'FK', 'FK Core Set', 'Explore',
 '');
 insert into Characters (CardIndex) VALUES (237);
@@ -84,7 +84,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (152
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Death Spectre',
 'http://htkb.info/SDE/FK/Cards/MiniBosses/Card_MiniBoss_Death_Spectre_FK.png', 
 'http://htkb.info/SDE/FK/Cards/MiniBosses/Card_MiniBoss_Death_Spectre_FK_back.png', 
-'http://htkb.online/SDWiki/SDE/FK/Cards/MiniBosses/Death_Spectre.xhtml', 
+'http://htkb.online/SDWiki/SDE/FK/Explore/CardsMiniBosses/Death_Spectre.xhtml', 
 'MiniBoss', 'FK', 'FK Core Set', 'Explore',
 'Death comes to us all, but within the shrouded mists and fog of Glauerdoom Moor death is all too common.  Death Spectres are perversions of the spirits of death who guide the deceased to their final resting place.  Driven by a need to cause death beyond that prescribed by nature, Death Spectres are vile reapers that thrive on suffering.');
 insert into Characters (CardIndex) VALUES (238);
@@ -104,7 +104,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (153
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Deranged Alchemist',
 'http://htkb.info/SDE/FK/Cards/MiniBosses/Card_MiniBoss_Deranged_Alchemist_FK.png', 
 'http://htkb.info/SDE/FK/Cards/MiniBosses/Card_MiniBoss_Deranged_Alchemist_FK_back.png', 
-'http://htkb.online/SDWiki/SDE/FK/Cards/MiniBosses/Deranged_Alchemist.xhtml', 
+'http://htkb.online/SDWiki/SDE/FK/Explore/CardsMiniBosses/Deranged_Alchemist.xhtml', 
 'MiniBoss', 'FK', 'FK Core Set', 'Explore',
 'The Harvest Festival is upon the fair citizens of Crystalia, and the Fae Alchemist has eaten too many toadstools.  Now, turned to vile villainy, she must be stopped before crafting her cruel concoctions!');
 insert into Characters (CardIndex) VALUES (239);
@@ -125,7 +125,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (154
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Glimmerwing',
 'http://htkb.info/SDE/FK/Cards/MiniBosses/Card_MiniBoss_Glimmerwing_FK.png', 
 'http://htkb.info/SDE/FK/Cards/MiniBosses/Card_MiniBoss_Glimmerwing_FK_back.png', 
-'http://htkb.online/SDWiki/SDE/FK/Cards/MiniBosses/Glimmerwing.xhtml', 
+'http://htkb.online/SDWiki/SDE/FK/Explore/CardsMiniBosses/Glimmerwing.xhtml', 
 'MiniBoss', 'FK', 'FK Core Set', 'Explore',
 'The Emerald Dragon, Glimmerwing, is reclusive by even dragon standards.  Sharing kinship with the faerie of the Fae Wood, she wraps her Emerald Valley in concealing glamors and deceptive illusions to keep over-enthusiastic Heroes from discovering her sanctuary.');
 insert into Characters (CardIndex) VALUES (240);
@@ -147,7 +147,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (155
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Gruesome George',
 'http://htkb.info/SDE/FK/Cards/MiniBosses/Card_MiniBoss_Gruesome_George_FK.png', 
 'http://htkb.info/SDE/FK/Cards/MiniBosses/Card_MiniBoss_Gruesome_George_FK_back.png', 
-'http://htkb.online/SDWiki/SDE/FK/Cards/MiniBosses/Gruesome_George.xhtml', 
+'http://htkb.online/SDWiki/SDE/FK/Explore/CardsMiniBosses/Gruesome_George.xhtml', 
 'MiniBoss', 'FK', 'FK Core Set', 'Explore',
 'Part zombie, part construct, Gruesome George is the particularly fiendish invention of a gnome Shamble Priest pushed past the edge of sanity.  Fueled by both necromantic energy and arcane electricity, George grows stronger as the battle intensifies, gaining strength from his own motion and the damage inflicted upon him.');
 insert into Characters (CardIndex) VALUES (241);
@@ -169,7 +169,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (156
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Herald of Vulcanis',
 'http://htkb.info/SDE/FK/Cards/MiniBosses/Card_MiniBoss_Herald_of_Vulcanis_FK.png', 
 'http://htkb.info/SDE/FK/Cards/MiniBosses/Card_MiniBoss_Herald_of_Vulcanis_FK_back.png', 
-'http://htkb.online/SDWiki/SDE/FK/Cards/MiniBosses/Herald_of_Vulcanis.xhtml', 
+'http://htkb.online/SDWiki/SDE/FK/Explore/CardsMiniBosses/Herald_of_Vulcanis.xhtml', 
 'MiniBoss', 'FK', 'FK Core Set', 'Explore',
 'Lord Vulcanis was cast from the marble halls of Celestia due to his fiery temper and bellicose nature.  Since his fall he has focused his considerable might on destroying the Celestians'' realm.  Filled with fury at his continued failure, he has sent his Heralds across Crystalia to rally the dark races to his banner and subjugate those who would oppose him.');
 insert into Characters (CardIndex) VALUES (242);
@@ -190,7 +190,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (157
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Iron Golem',
 'http://htkb.info/SDE/FK/Cards/MiniBosses/Card_MiniBoss_Iron_Golem_FK.png', 
 'http://htkb.info/SDE/FK/Cards/MiniBosses/Card_MiniBoss_Iron_Golem_FK_back.png', 
-'http://htkb.online/SDWiki/SDE/FK/Cards/MiniBosses/Iron_Golem.xhtml', 
+'http://htkb.online/SDWiki/SDE/FK/Explore/CardsMiniBosses/Iron_Golem.xhtml', 
 'MiniBoss', 'FK', 'FK Core Set', 'Explore',
 '');
 insert into Characters (CardIndex) VALUES (243);
@@ -209,7 +209,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (158
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Jack Scarecrow',
 'http://htkb.info/SDE/FK/Cards/MiniBosses/Card_MiniBoss_Jack_Scarecrow_FK.png', 
 'http://htkb.info/SDE/FK/Cards/MiniBosses/Card_MiniBoss_Jack_Scarecrow_FK_back.png', 
-'http://htkb.online/SDWiki/SDE/FK/Cards/MiniBosses/Jack_Scarecrow.xhtml', 
+'http://htkb.online/SDWiki/SDE/FK/Explore/CardsMiniBosses/Jack_Scarecrow.xhtml', 
 'MiniBoss', 'FK', 'FK Core Set', 'Explore',
 'Old Jack was the first Scarecrow given life by over-eager farmers a century ago.  Unfortunately, the farmers'' crude hedge magic was easily corrupted by the Dark Consul.  Now Jack is a scourge upon the very villages and farms he was created to protect.');
 insert into Characters (CardIndex) VALUES (244);
@@ -230,7 +230,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (159
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Kaelly the Nether Strider',
 'http://htkb.info/SDE/FK/Cards/MiniBosses/Card_MiniBoss_Kaelly_The_Nether_Strider_FK.png', 
 'http://htkb.info/SDE/FK/Cards/MiniBosses/Card_MiniBoss_Kaelly_The_Nether_Strider_FK_back.png', 
-'http://htkb.online/SDWiki/SDE/FK/Cards/MiniBosses/Kaelly_The_Nether_Strider.xhtml', 
+'http://htkb.online/SDWiki/SDE/FK/Explore/CardsMiniBosses/Kaelly_The_Nether_Strider.xhtml', 
 'MiniBoss', 'FK', 'FK Core Set', 'Explore',
 'Corrupted by the Dark Consul''s malevolent influence, the Nther Striders are his favored instruments of terror.  Wrapped in swirling darkness they are expert assassins, claiming the lives of generals, kings, and Heroes alike.');
 insert into Characters (CardIndex) VALUES (245);
@@ -252,7 +252,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (160
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Kasaro To',
 'http://htkb.info/SDE/FK/Cards/MiniBosses/Card_MiniBoss_Kasaro_To_FK.png', 
 'http://htkb.info/SDE/FK/Cards/MiniBosses/Card_MiniBoss_Kasaro_To_FK_back.png', 
-'http://htkb.online/SDWiki/SDE/FK/Cards/MiniBosses/Kasaro_To.xhtml', 
+'http://htkb.online/SDWiki/SDE/FK/Explore/CardsMiniBosses/Kasaro_To.xhtml', 
 'MiniBoss', 'FK', 'FK Core Set', 'Explore',
 'Kasaro To has no love for heroics.  Lord Nozuki has corrupted the Super Dungeon Explore code, allowing his most favored servant to invade the Dark Consul''s dungeons.  Kasaro To is prepared to wreak carnage and destruction upon the hapless Heroes of Crystalia.');
 insert into Characters (CardIndex) VALUES (246);
@@ -273,7 +273,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (161
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Kunoichi Candy',
 'http://htkb.info/SDE/FK/Cards/MiniBosses/Card_MiniBoss_Kunoichi_Candy_FK.png', 
 'http://htkb.info/SDE/FK/Cards/MiniBosses/Card_MiniBoss_Kunoichi_Candy_FK_back.png', 
-'http://htkb.online/SDWiki/SDE/FK/Cards/MiniBosses/Kunoichi_Candy.xhtml', 
+'http://htkb.online/SDWiki/SDE/FK/Explore/CardsMiniBosses/Kunoichi_Candy.xhtml', 
 'MiniBoss', 'FK', 'FK Core Set', 'Explore',
 'The ninja clans care little for the wars between the Goddess''s children and the Dark Realm.  So long as there is profit and a suitable test of skill, the clans are willing to accept any job.  Not fond of fighting Heroes, Candy never strikes a killing blow.  Instead she treats her battles with Heroes as a challenge to further both her, and her adversaries'', expertise.');
 insert into Characters (CardIndex) VALUES (247);
@@ -295,7 +295,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (162
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ninja Cola',
 'http://htkb.info/SDE/FK/Cards/MiniBosses/Card_MiniBoss_Ninja_Cola_FK.png', 
 'http://htkb.info/SDE/FK/Cards/MiniBosses/Card_MiniBoss_Ninja_Cola_FK_back.png', 
-'http://htkb.online/SDWiki/SDE/FK/Cards/MiniBosses/Ninja_Cola.xhtml', 
+'http://htkb.online/SDWiki/SDE/FK/Explore/CardsMiniBosses/Ninja_Cola.xhtml', 
 'MiniBoss', 'FK', 'FK Core Set', 'Explore',
 'Cola fights Heroes with his face a mask of stoic determination.  It is no secret the kitsune holds delicious Soda Pop Potions in the highest esteem.  Perhaps his zeal in fighting Heroes stems from potion envy, since he is not allowed to have any when working for the less savory elements of Crystalia.');
 insert into Characters (CardIndex) VALUES (248);
@@ -317,7 +317,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (163
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Oni',
 'http://htkb.info/SDE/FK/Cards/MiniBosses/Card_MiniBoss_Oni_FK.png', 
 'http://htkb.info/SDE/FK/Cards/MiniBosses/Card_MiniBoss_Oni_FK_back.png', 
-'http://htkb.online/SDWiki/SDE/FK/Cards/MiniBosses/Oni.xhtml', 
+'http://htkb.online/SDWiki/SDE/FK/Explore/CardsMiniBosses/Oni.xhtml', 
 'MiniBoss', 'FK', 'FK Core Set', 'Explore',
 'It is said that man and Oni first met as enemies, but soon developed a grudging respect; the Oni for their size and strength, and men for their technology and tenacity.  Many Oni, however fickle, will join a team to honor agreements, to demonstrate their strength, or just for the fun of it.  They may not be the most stealthy, but their effect on the enemy is remarkable.');
 insert into Characters (CardIndex) VALUES (249);
@@ -337,7 +337,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (164
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Rex',
 'http://htkb.info/SDE/FK/Cards/MiniBosses/Card_MiniBoss_Rex_FK.png', 
 'http://htkb.info/SDE/FK/Cards/MiniBosses/Card_MiniBoss_Rex_FK_back.png', 
-'http://htkb.online/SDWiki/SDE/FK/Cards/MiniBosses/Rex.xhtml', 
+'http://htkb.online/SDWiki/SDE/FK/Explore/CardsMiniBosses/Rex.xhtml', 
 'MiniBoss', 'FK', 'FK Core Set', 'Explore',
 'Rex has collected more than a few new friends since going to work in the Consul''s dungeons.  Most are unwary adventurers not quite quick enough to get out of the reach of his enthusiastic hugs.');
 insert into Characters (CardIndex) VALUES (250);
@@ -356,7 +356,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (165
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Rock Gut',
 'http://htkb.info/SDE/FK/Cards/MiniBosses/Card_MiniBoss_Rock_Gut_FK.png', 
 'http://htkb.info/SDE/FK/Cards/MiniBosses/Card_MiniBoss_Rock_Gut_FK_back.png', 
-'http://htkb.online/SDWiki/SDE/FK/Cards/MiniBosses/Rock_Gut.xhtml', 
+'http://htkb.online/SDWiki/SDE/FK/Explore/CardsMiniBosses/Rock_Gut.xhtml', 
 'MiniBoss', 'FK', 'FK Core Set', 'Explore',
 'Rock Gut loves rock.  Rock Gut would marry rock if he could.  Sometime Rock Gut talks to rock.  He finds rock very understanding and a good listener.  Mainly Rock Gut eats rock, digesting it in his fiery belly.  Unfortunately, to Rock Gut, everything is "rock".  Even if you''re really a squirming Hero.');
 insert into Characters (CardIndex) VALUES (251);
@@ -376,7 +376,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (166
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Salt',
 'http://htkb.info/SDE/FK/Cards/MiniBosses/Card_MiniBoss_Salt_FK.png', 
 'http://htkb.info/SDE/FK/Cards/MiniBosses/Card_MiniBoss_Salt_FK_back.png', 
-'http://htkb.online/SDWiki/SDE/FK/Cards/MiniBosses/Salt.xhtml', 
+'http://htkb.online/SDWiki/SDE/FK/Explore/CardsMiniBosses/Salt.xhtml', 
 'MiniBoss', 'FK', 'FK Core Set', 'Explore',
 'Internally warring for domination of the vessel to which they are bound; fae within a Salt golem lash out with the primal forces of the nature, their magics reflecting the Fae Houses to which they are aligned.');
 insert into Characters (CardIndex) VALUES (252);
@@ -397,7 +397,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (167
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ser Sharpclaw',
 'http://htkb.info/SDE/FK/Cards/MiniBosses/Card_MiniBoss_Ser_Sharpclaw_FK.png', 
 'http://htkb.info/SDE/FK/Cards/MiniBosses/Card_MiniBoss_Ser_Sharpclaw_FK_back.png', 
-'http://htkb.online/SDWiki/SDE/FK/Cards/MiniBosses/Ser_Sharpclaw.xhtml', 
+'http://htkb.online/SDWiki/SDE/FK/Explore/CardsMiniBosses/Ser_Sharpclaw.xhtml', 
 'MiniBoss', 'FK', 'FK Core Set', 'Explore',
 'Ser Sharpclaw has distinguished himself among lesser kobolds for his savagery in battle.  Atop his Wayrmfang Drake, Ravage, he inspires all those around him to new levels of barbarity.  Many Heroes have fallen because they have been ill prepared to face the snarling, biting, stabbing mass of rabid kobolds that Ser Sharpclaw leads into battle.');
 insert into Characters (CardIndex) VALUES (253);
@@ -416,7 +416,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (168
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ser Snapjaw',
 'http://htkb.info/SDE/FK/Cards/MiniBosses/Card_MiniBoss_Ser_Snapjaw_FK.png', 
 'http://htkb.info/SDE/FK/Cards/MiniBosses/Card_MiniBoss_Ser_Snapjaw_FK_back.png', 
-'http://htkb.online/SDWiki/SDE/FK/Cards/MiniBosses/Ser_Snapjaw.xhtml', 
+'http://htkb.online/SDWiki/SDE/FK/Explore/CardsMiniBosses/Ser_Snapjaw.xhtml', 
 'MiniBoss', 'FK', 'FK Core Set', 'Explore',
 'Ser Snapjaw was the greatest Wyrm Claw Templar in an age.  So daring and grand were his exploits that he was granted special permission to found the Exemplars within the Wyrm Claw Templar Order.  Legendary among lesser kobolds they rally to Ser Snapjaw with zeal, his cunning leadership allowing them to fight with discipline that matches the mightiest armies.');
 insert into Characters (CardIndex) VALUES (254);
@@ -436,7 +436,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (169
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Shadow-Mode Candy',
 'http://htkb.info/SDE/FK/Cards/MiniBosses/Card_MiniBoss_Shadow_Mode_Candy_FK.png', 
 'http://htkb.info/SDE/FK/Cards/MiniBosses/Card_MiniBoss_Shadow_Mode_Candy_FK_back.png', 
-'http://htkb.online/SDWiki/SDE/FK/Cards/MiniBosses/Shadow_Mode_Candy.xhtml', 
+'http://htkb.online/SDWiki/SDE/FK/Explore/CardsMiniBosses/Shadow_Mode_Candy.xhtml', 
 'MiniBoss', 'FK', 'FK Core Set', 'Explore',
 'What happens when a good soda goes bad?  Tricked into imbibing a cursed Shadow Soda the Dark Consul cpatured a shard of Candy''s essence and supn it into living shadow.  Now the wicked, nether shadow doppelganger terrorizes Crystalia, sowing discord and confusion wherever she goes.');
 insert into Characters (CardIndex) VALUES (255);
@@ -457,7 +457,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (170
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Succubus Vandella',
 'http://htkb.info/SDE/FK/Cards/MiniBosses/Card_MiniBoss_Succubus_Vandella_FK.png', 
 'http://htkb.info/SDE/FK/Cards/MiniBosses/Card_MiniBoss_Succubus_Vandella_FK_back.png', 
-'http://htkb.online/SDWiki/SDE/FK/Cards/MiniBosses/Succubus_Vandella.xhtml', 
+'http://htkb.online/SDWiki/SDE/FK/Explore/CardsMiniBosses/Succubus_Vandella.xhtml', 
 'MiniBoss', 'FK', 'FK Core Set', 'Explore',
 'The Midnight Tower''s shadow stretches across the whole of Crystalia and is a bleak reminder of the Dark Consul''s strength and power.  Vandella represents a more subtle aspect of the Consul''s power, the power to corrupt and beguile.  She delights in tormenting her prey and sowing chaos within even the most steadfast Hero''s heart.');
 insert into Characters (CardIndex) VALUES (256);
@@ -478,7 +478,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (171
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Trent (Beta)',
 'http://htkb.info/SDE/FK/Cards/MiniBosses/Card_MiniBoss_Trent_beta_FK.png', 
 'http://htkb.info/SDE/FK/Cards/MiniBosses/Card_MiniBoss_Trent_beta_FK_back.png', 
-'http://htkb.online/SDWiki/SDE/FK/Cards/MiniBosses/Trent_beta.xhtml', 
+'http://htkb.online/SDWiki/SDE/FK/Explore/CardsMiniBosses/Trent_beta.xhtml', 
 'MiniBoss', 'FK', 'FK Core Set', 'Explore',
 'Young by treant standards Trent was always a bad seed.  Rooted in the faery-haunted Mistmourn Coast, he was always cranky and inclined to distrust.  Even so, Trent was slow to anger as the mischievous fae lurking in the mists would tease and taunt him.<br>After several centuries the young treant could stand it no longer, uprooting and wreaking vengeance upon the playful fae.  Once his fury was unleashed it was as long-lived as the Fae Wood itself.  In the end, it was remarkably');
 insert into Characters (CardIndex) VALUES (257);
@@ -500,7 +500,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (172
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Trent',
 'http://htkb.info/SDE/FK/Cards/MiniBosses/Card_MiniBoss_Trent_FK.png', 
 'http://htkb.info/SDE/FK/Cards/MiniBosses/Card_MiniBoss_Trent_FK_back.png', 
-'http://htkb.online/SDWiki/SDE/FK/Cards/MiniBosses/Trent.xhtml', 
+'http://htkb.online/SDWiki/SDE/FK/Explore/CardsMiniBosses/Trent.xhtml', 
 'MiniBoss', 'FK', 'FK Core Set', 'Explore',
 'Young by treant standards Trent was always a bad seed.  Rooted in the faery-haunted Mistmourn Coast, he was always cranky and inclined to distrust.  Even so, Trent was slow to anger as the mischievous fae lurking in the mists would tease and taunt him.<br>After several centuries the young treant could stand it no longer, uprooting and wreaking vengeance upon the playful fae.  Once his fury was unleashed it was as long-lived as the Fae Wood itself.  In the end, it was remarkably');
 insert into Characters (CardIndex) VALUES (258);
