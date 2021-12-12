@@ -34,19 +34,19 @@ public class MonsterBean extends CardBean{
             this.monster        = oneDAO.pullOneMonster(path);
         }
         
-        if(this.monster.getCardType().compareTo("Warband") == 0){
-            this.monsterList  = navDAO.pullNavigationForWarbandsByProductSet(this.monster.getVersion());
-        }else if(this.monster.getCardType().compareTo("Boss") == 0){
-            this.monsterList  = navDAO.pullNavigationForBossesByProductSet(this.monster.getVersion());
-        }else if(this.monster.getCardType().compareTo("MiniBoss") == 0){
-            this.monsterList  = navDAO.pullNavigationForMiniBossesByProductSet(this.monster.getVersion());
-        }else if(this.monster.getCardType().compareTo("Creep") == 0){
-            this.monsterList  = navDAO.pullNavigationForCreepsbyProductSet(this.monster.getVersion());
-        }else if(this.monster.getCardType().compareTo("Booty") == 0){
-            this.monsterList  = navDAO.pullNavigationForBootyByProductSet(this.monster.getVersion());
-        }else{
-            this.monsterList  = navDAO.pullNavigationForMonsters(this.monster.getVersion());
-        }
+//        if(this.monster.getCardType().compareTo("Warband") == 0){
+//            this.monsterList  = navDAO.pullNavigationForWarbandsByProductSet(this.monster.getVersion());
+//        }else if(this.monster.getCardType().compareTo("Boss") == 0){
+//            this.monsterList  = navDAO.pullNavigationForBossesByProductSet(this.monster.getVersion());
+//        }else if(this.monster.getCardType().compareTo("MiniBoss") == 0){
+//            this.monsterList  = navDAO.pullNavigationForMiniBossesByProductSet(this.monster.getVersion());
+//        }else if(this.monster.getCardType().compareTo("Creep") == 0){
+//            this.monsterList  = navDAO.pullNavigationForCreepsbyProductSet(this.monster.getVersion());
+//        }else if(this.monster.getCardType().compareTo("Booty") == 0){
+//            this.monsterList  = navDAO.pullNavigationForBootyByProductSet(this.monster.getVersion());
+//        }else{
+//            this.monsterList  = navDAO.pullNavigationForMonsters(this.monster.getVersion());
+//        }
         
         if(this.monster.getCardType().compareTo("Warband") == 0){
             result = "../Layout.xhtml";
