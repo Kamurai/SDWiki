@@ -136,7 +136,7 @@ insert into Characters (CardIndex) VALUES (378);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
 VALUES (293, 493, -1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (293, 1); --Citrine
---GangMemberIndex 42
+--GangMemberIndex 41
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (41, 0, 'Ragin'' Roxor (v2)', 'Shapeshift', 'Boss', 6, 10, 4, 175);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (41, 512); --Fire
