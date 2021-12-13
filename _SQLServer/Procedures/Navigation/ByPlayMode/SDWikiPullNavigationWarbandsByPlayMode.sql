@@ -5,9 +5,9 @@ create PROCEDURE SDWikiPullNavigationWarbandsByPlayMode(
 )
 AS
 BEGIN
-	select CardName, ProductSet, Link, PictureFront
+	select CardName, ProductSet, PlayMode, Link, PictureFront
 	from DualWarbandsView
 	where PlayMode = @strMode
-	Order By CardName asc
+	Order By ProductSet desc, PlayMode desc, CardName asc
 	;
 END

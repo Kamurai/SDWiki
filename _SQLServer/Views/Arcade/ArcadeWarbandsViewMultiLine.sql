@@ -26,5 +26,5 @@ full join AbilityAssignments k on h.GangMemberIndex=k.GangMemberIndex
 full join Abilities l on k.AbilityIndex=l.AbilityIndex
 full join Attributes v on l.AttributeIndex=v.AttributeIndex
 join ExploreCharacters m on h.ExploreCharacterIndex = m.ExploreCharacterIndex
-where a.CardType = 'Arcade Gang' or a.CardType = 'Arcade Solo' or a.CardType = 'Arcade Spawn' 
+where a.CardType = 'Warband' 
 ;

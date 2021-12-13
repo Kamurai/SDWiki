@@ -4,7 +4,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Beatrix the Witch Queen',
 'http://htkb.info/SDE/FK/Cards/Bosses/Card_Boss_Beatrix_the_Witch_Queen_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Bosses/Card_Boss_Beatrix_the_Witch_Queen_FK_back.png', 
-'http://htkb.online/SDWiki/SDE/FK/Cards/Bosses/Beatrix_the_Witch_Queen.xhtml', 
+'http://htkb.online/SDWiki/SDE/FK/Explore/Cards/Bosses/Beatrix_the_Witch_Queen.xhtml', 
 'Boss', 'FK', 'FK Core Set', 'Explore',
 'I have such a delicious potion for you to try.  It may string a little going down....');
 insert into Characters (CardIndex) VALUES (259);
@@ -29,7 +29,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Forgotten King, The',
 'http://htkb.info/SDE/FK/Cards/Bosses/Card_Boss_Forgotten_King_The_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Bosses/Card_Boss_Forgotten_King_The_FK_back.png', 
-'http://htkb.online/SDWiki/SDE/FK/Cards/Bosses/Forgotten_King_The.xhtml', 
+'http://htkb.online/SDWiki/SDE/FK/Explore/Cards/Bosses/Forgotten_King_The.xhtml', 
 'Boss', 'FK', 'FK Core Set', 'Explore',
 'The Forgotten King rebelled against the King of Crystalia when he was denied the princess''s hand in marriage.  Cursed to the Lordship Ruins for all time, his love for the princess has turned to bitter hatred towards all the people of Crystalia.');
 insert into Characters (CardIndex) VALUES (260);
@@ -53,7 +53,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Goro',
 'http://htkb.info/SDE/FK/Cards/Bosses/Card_Boss_Goro_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Bosses/Card_Boss_Goro_FK_back.png', 
-'http://htkb.online/SDWiki/SDE/FK/Cards/Bosses/Goro.xhtml', 
+'http://htkb.online/SDWiki/SDE/FK/Explore/Cards/Bosses/Goro.xhtml', 
 'Boss', 'FK', 'FK Core Set', 'Explore',
 '');
 insert into Characters (CardIndex) VALUES (261);
@@ -79,7 +79,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'King Starfire',
 'http://htkb.info/SDE/FK/Cards/Bosses/Card_Boss_King_Starfire_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Bosses/Card_Boss_King_Starfire_FK_back.png', 
-'http://htkb.online/SDWiki/SDE/FK/Cards/Bosses/King_Starfire.xhtml', 
+'http://htkb.online/SDWiki/SDE/FK/Explore/Cards/Bosses/King_Starfire.xhtml', 
 'Boss', 'FK', 'FK Core Set', 'Explore',
 '');
 insert into Characters (CardIndex) VALUES (262);
@@ -102,7 +102,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Nocturne',
 'http://htkb.info/SDE/FK/Cards/Bosses/Card_Boss_Nocturne_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Bosses/Card_Boss_Nocturne_FK_back.png', 
-'http://htkb.online/SDWiki/SDE/FK/Cards/Bosses/Nocturne.xhtml', 
+'http://htkb.online/SDWiki/SDE/FK/Explore/Cards/Bosses/Nocturne.xhtml', 
 'Boss', 'FK', 'FK Core Set', 'Explore',
 'Those who meet the gaze of Von Drakk say it is like peering into the soul of a beast.  None realize how correct they are.  When in the full throes of bloodlust Von Drakk is overtaken by a hideous transformation; his new form ideally suited to bringing carnage and ruin to his foes.');
 insert into Characters (CardIndex) VALUES (263);
@@ -123,7 +123,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Ragin'' Roxor',
 'http://htkb.info/SDE/FK/Cards/Bosses/Card_Boss_Ragin_Roxor_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Bosses/Card_Boss_Ragin_Roxor_FK_back.png', 
-'http://htkb.online/SDWiki/SDE/FK/Cards/Bosses/Ragin_Roxor.xhtml', 
+'http://htkb.online/SDWiki/SDE/FK/Explore/Cards/Bosses/Ragin_Roxor.xhtml', 
 'Boss', 'FK', 'FK Core Set', 'Explore',
 'Battling the Lord of the Fire Flows is like challenging a ragining volcano itself.  Roxor is a temperamental lord and when driven to anger assumes the form of a raging pyre of white hot flame.  In this form Roxor is unapproachable even by his most loyal of lieutenants.  Roaring with primordial rage he stalks through the stone halls of his domain, bathing the dungeon in flame and fury.');
 insert into Characters (CardIndex) VALUES (264);
@@ -144,7 +144,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Rockin'' Roxor',
 'http://htkb.info/SDE/FK/Cards/Bosses/Card_Boss_Rockin_Roxor_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Bosses/Card_Boss_Rockin_Roxor_FK_back.png', 
-'http://htkb.online/SDWiki/SDE/FK/Cards/Bosses/Rockin_Roxor.xhtml', 
+'http://htkb.online/SDWiki/SDE/FK/Explore/Cards/Bosses/Rockin_Roxor.xhtml', 
 'Boss', 'FK', 'FK Core Set', 'Explore',
 'Lord of the Fire Flows, Roxor, seeks to creat a molten paradise for his elemental brethren.  Harboring no empathy for the "soft" races he readily allies himself with the Dark Consul so long as  their goals coverge.');
 insert into Characters (CardIndex) VALUES (265);
@@ -164,7 +164,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Starfire',
 'http://htkb.info/SDE/FK/Cards/Bosses/Card_Boss_Starfire_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Bosses/Card_Boss_Starfire_FK_back.png', 
-'http://htkb.online/SDWiki/SDE/FK/Cards/Bosses/Starfire.xhtml', 
+'http://htkb.online/SDWiki/SDE/FK/Explore/Cards/Bosses/Starfire.xhtml', 
 'Boss', 'FK', 'FK Core Set', 'Explore',
 '');
 insert into Characters (CardIndex) VALUES (266);
@@ -185,7 +185,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Von Drakk',
 'http://htkb.info/SDE/FK/Cards/Bosses/Card_Boss_Von_Drakk_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Bosses/Card_Boss_Von_Drakk_FK_back.png', 
-'http://htkb.online/SDWiki/SDE/FK/Cards/Bosses/Von_Drakk.xhtml', 
+'http://htkb.online/SDWiki/SDE/FK/Explore/Cards/Bosses/Von_Drakk.xhtml', 
 'Boss', 'FK', 'FK Core Set', 'Explore',
 'Von Drakk has despoiled his homeland like an eternal plague.  Once teeming with life the moorlands are now a haven for witches'' covens, foul swamp creatures, and the unquiet dead.  Von Drakk cares not, so long as his manor retains its splendor and his dark appetites remain sated.');
 insert into Characters (CardIndex) VALUES (267);
