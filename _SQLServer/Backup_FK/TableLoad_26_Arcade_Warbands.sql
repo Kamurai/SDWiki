@@ -994,7 +994,7 @@ VALUES (123, 1, 'Dust Mage', 'Undead Skeleton', 'Elite', 5, 1, 0, 244);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (123, 477); --Bone Pile
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (123, 193); --Bone Cold
 
---Dust Coven	--CardIndex 427	--CharacterIndex 340	--ArcadeCharacterIndex 90
+--Dust Coven	--CardIndex 427	--CharacterIndex 342	--ArcadeCharacterIndex 124, 125
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Dust Coven',
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Shallow_Grave/Card_Arcade_Warband_Shallow_Grave_Dust_Coven_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Shallow_Grave/Card_Arcade_Warband_Shallow_Grave_Dust_Coven_FK_back.png', 
@@ -1003,20 +1003,20 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'The curse of undeath hangs heavy over the Glauerdoom Moor.  Drawn to the necromantic magics, the witches of the Dust Coven congregrate here in greater numbers than anywhere else in Crystalia.  Raising vast armies in service to the Dark Consul, Heroes are faced with an adversary that continues to fight beyond death itself.');
 insert into Characters (CardIndex) VALUES (427);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (340, 133, 363);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (340, 1); --Citrine
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (340, 3); --Ruby
---GangMemberIndex 117
+VALUES (342, 133, 363);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (342, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (342, 3); --Ruby
+--GangMemberIndex 124
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (90, 0, 'Dust Coven Necromancer', 'Witch', 'Elite', 5, 3, 2, 243);
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (117, 636); --Tide of Bones
---GangMemberIndex 118
+VALUES (124, 0, 'Dust Coven Necromancer', 'Witch', 'Elite', 5, 3, 2, 243);
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (124, 636); --Tide of Bones
+--GangMemberIndex 125
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (90, 1, 'Bone Head', 'Undead Skeleton', 'Minion', 5, 1, 1, 241);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (118, 477); --Bone Pile
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (118, 354); --Ghastly Vigor
+VALUES (125, 1, 'Bone Head', 'Undead Skeleton', 'Minion', 5, 1, 1, 241);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (125, 477); --Bone Pile
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (125, 354); --Ghastly Vigor
 
---House of Ash	--CardIndex 428	--CharacterIndex 341	--ArcadeCharacterIndex 91
+--House of Ash	--CardIndex 428	--CharacterIndex 343	--ArcadeCharacterIndex 126, 127
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Dust Coven',
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Shallow_Grave/Card_Arcade_Warband_Shallow_Grave_Dust_Coven_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Shallow_Grave/Card_Arcade_Warband_Shallow_Grave_Dust_Coven_FK_back.png', 
@@ -1025,22 +1025,22 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'The knightly House of Ash gave themselves willingly to the service of the Dark Consul.  Wholly consumed by the need for battle, they are allowed to retain a measure of their intellect into undeath.');
 insert into Characters (CardIndex) VALUES (428);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (341, 132, 143);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (341, 1); --Citrine
---GangMemberIndex 117
+VALUES (343, 132, 143);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (343, 1); --Citrine
+--GangMemberIndex 126
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (91, 0, 'Dust Coven Necromancer', 'Undead Skeleton', 'Elite', 5, 2, 2, 242);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (117, 477); --Bone Pile
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (117, 250); --Cursed Blade
---GangMemberIndex 118
+VALUES (126, 0, 'Dust Coven Necromancer', 'Undead Skeleton', 'Elite', 5, 2, 2, 242);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (126, 477); --Bone Pile
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (126, 250); --Cursed Blade
+--GangMemberIndex 127
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (91, 1, 'Bone Head', 'Undead Skeleton', 'Elite', 5, 2, 2, 242);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (118, 477); --Bone Pile
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (118, 251); --Cursed Blade
+VALUES (127, 1, 'Bone Head', 'Undead Skeleton', 'Elite', 5, 2, 2, 242);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (127, 477); --Bone Pile
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (127, 251); --Cursed Blade
 
 
 --Tribal Stone
---Tribal Stone	--CardIndex 429	--CharacterIndex 342	--ArcadeCharacterIndex 92
+--Tribal Stone	--CardIndex 429	--CharacterIndex 344	--ArcadeCharacterIndex 128
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Tribal Stone',
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Tribal_Stone/Card_Arcade_Warband_Tribal_Stone_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Tribal_Stone/Card_Arcade_Warband_Tribal_Stone_FK_back.png', 
@@ -1049,16 +1049,16 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Not even the elves choose to make the Mistmourn Coast their home.  Indeed, only the Glimmerdusk Rangers frequent these lands that are perpetually locked in mist and steeped in fae magic.  It is no surprise then that many creatures of the Dark Realm sought sanctuary within the concealing shadows of the coast.<br>Most were driven mad with fright, as the fae creatures preyed on their minds with capricious tricks and dealy pranks.  Trolls, however, remained remarkably unaffected--perhaps shielded by their naturally dim intellect.  In time they became tolerated by the fae creatures if not welcomed.<br>The thin veil between worlds along the Mistmourn eventually brought the trolls into communion with their fallen ancestors.  Guided by their ancestors'' past experiences the trolls grew more cunning, some even attaining a level of brutal intelligence.');
 insert into Characters (CardIndex) VALUES (429);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (342, 0, -1);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (342, 4); --Sapphire
---GangMemberIndex 119
+VALUES (344, 0, -1);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (344, 4); --Sapphire
+--GangMemberIndex 128
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (92, 0, 'Tribal Stone', 'Spawning Point', '', 0, 3, 1, 245);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (119, 557); --Immune: Status Effects
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (119, 597); --Primal Aura
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (119, 687); --Spawning Pool
+VALUES (128, 0, 'Tribal Stone', 'Spawning Point', '', 0, 3, 1, 245);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (128, 557); --Immune: Status Effects
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (128, 597); --Primal Aura
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (128, 687); --Spawning Pool
 
---Ghostfire Tribe	--CardIndex 430	--CharacterIndex 343	--ArcadeCharacterIndex 93
+--Ghostfire Tribe	--CardIndex 430	--CharacterIndex 345	--ArcadeCharacterIndex 129, 130
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ghostfire Tribe',
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Shallow_Grave/Card_Arcade_Warband_Shallow_Grave_Dust_Coven_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Shallow_Grave/Card_Arcade_Warband_Shallow_Grave_Dust_Coven_FK_back.png', 
@@ -1067,21 +1067,21 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Stalking the Mistmourn Coast, the Ghostfire Tribes are surprisingly cunning adversaries.  Guided by their ancient troll ancestors, they possess tactical acumen hindered only by their fury once battlelust is upon them.');
 insert into Characters (CardIndex) VALUES (430);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (343, 143, 263);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (343, 1); --Citrine
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (343, 4); --Sapphire
---GangMemberIndex 120
+VALUES (345, 143, 263);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (345, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (345, 4); --Sapphire
+--GangMemberIndex 129
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (93, 0, 'Mistmourn Chieftain', 'Troll', 'Elite', 5, 3, 2, 242);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (120, 648); --Tough
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (120, 159); --Ancestral Fury
---GangMemberIndex 121
+VALUES (129, 0, 'Mistmourn Chieftain', 'Troll', 'Elite', 5, 3, 2, 242);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (129, 648); --Tough
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (129, 159); --Ancestral Fury
+--GangMemberIndex 130
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (93, 1, 'Ghostfire Warrior', 'Troll', 'Minion', 6, 2, 1, 242);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (121, 648); --Tough
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (121, 356); --Ghostfire
+VALUES (130, 1, 'Ghostfire Warrior', 'Troll', 'Minion', 6, 2, 1, 242);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (130, 648); --Tough
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (130, 356); --Ghostfire
 
---Spirit Born	--CardIndex 431	--CharacterIndex 344	--ArcadeCharacterIndex 94
+--Spirit Born	--CardIndex 431	--CharacterIndex 346	--ArcadeCharacterIndex 131, 132
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Spirit Born',
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Shallow_Grave/Card_Arcade_Warband_Shallow_Grave_Dust_Coven_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Shallow_Grave/Card_Arcade_Warband_Shallow_Grave_Dust_Coven_FK_back.png', 
@@ -1090,19 +1090,19 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Spirit Walkers live between two worlds: the mortal realm and the spirit world.  It was they who first made contact with their trollish ancestors, seeking the wisdom of those who came before.');
 insert into Characters (CardIndex) VALUES (431);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (344, 143, 263);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (344, 2); --Emerald
---GangMemberIndex 120
+VALUES (346, 143, 263);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (346, 2); --Emerald
+--GangMemberIndex 131
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (94, 0, 'Spirit Walker', 'Troll', 'Elite', 5, 2, 1, 248);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (120, 648); --Tough
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (120, 637); --Stealth
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (120, 641); --Surefoot
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (120, 588); --Spirit Walk
---GangMemberIndex 121
+VALUES (131, 0, 'Spirit Walker', 'Troll', 'Elite', 5, 2, 1, 248);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (131, 648); --Tough
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (131, 637); --Stealth
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (131, 641); --Surefoot
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (131, 588); --Spirit Walk
+--GangMemberIndex 132
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (94, 1, 'Spirit Walker', 'Troll', 'Elite', 5, 2, 1, 248);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (121, 648); --Tough
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (120, 637); --Stealth
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (120, 641); --Surefoot
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (121, 378); --Herbology
+VALUES (132, 1, 'Spirit Walker', 'Troll', 'Elite', 5, 2, 1, 248);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (132, 648); --Tough
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (132, 637); --Stealth
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (132, 641); --Surefoot
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (132, 378); --Herbology
