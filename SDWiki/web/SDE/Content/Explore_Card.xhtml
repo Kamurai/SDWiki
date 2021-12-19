@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:c="http://java.sun.com/jsp/jstl/core"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets">
+    <h:head />
+    <h:body>
+         <title>
+            #{SDEExploreCardBean.getExploreCard().getName()}
+        </title>
+        <h2>
+            #{SDEExploreCardBean.getExploreCard().getName()}
+        </h2>
+        <div id="idCenterContent">
+            <div>
+                <div class="cardPictureContainer">
+                    <!-- Front of Card -->
+                    <img class="cardPicture" src="#{SDEExploreCardBean.getExploreCard().getPictureFront()}"/>
+                </div>
+                <div class="cardPictureContainer">
+                    <!-- Back of Card -->
+                    <img class="cardPicture" src="#{SDEExploreCardBean.getExploreCard().getPictureBack()}"/>
+                </div>
+            </div>
+            
+            <!-- replace with table -->
+            <div>
+                <div>
+                    <div class="inline">
+                        Card Type: #{SDEExploreCardBean.getExploreCard().getCardType()}
+                    </div>
+                    <div class="inline">
+                        Version: #{SDEExploreCardBean.getExploreCard().getVersion()}
+                    </div>
+                </div>
+                <div>
+                    <div class="inline">
+                        Product Module: #{SDEExploreCardBean.getExploreCard().getModule()}
+                    </div>
+                </div>
+            </div>
+            
+            
+            
+            
+            
+            
+            
+            <div>
+                Card Effect: #{SDEExploreCardBean.getExploreCard().getDescription()}
+            </div>
+            
+            
+            
+            
+            
+            <ui:fragment rendered="#{SDEExploreCardBean.getBossSpawn().validateCharacterList()}">
+                Related Character(s):<br/>
+                <ui:repeat var="x" value="#{SDEExploreCardBean.getCharacterList()}" size="#{SDEExploreCardBean.getCharacterList().size()}" varStatus="myVarStatus" >
+                    <div class="relatedCharacterBlock">
+                        <a href="#{x.getLink()}">
+                            <div>
+                                <img class="galleryPicture" src="#{x.getPicture()}"/>
+                            </div>
+                            #{x.getName()}
+                        </a>
+                    </div>
+                </ui:repeat>
+            </ui:fragment>
+            
+            
+            
+            <c:if test="#{ SDEExploreCardBean.getExploreCard().validateFlavor() }">
+                <div>
+                    Flavor Text: #{SDEExploreCardBean.getExploreCard().getFlavor()}
+                </div>
+            </c:if>
+        </div>
+    </h:body>
+</html>
+
