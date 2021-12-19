@@ -228,9 +228,9 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (159
 
 --Kaelly the Nether Strider --CardIndex 245	--CharacterIndex 160	--ExploreCharacterIndex 160
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Kaelly the Nether Strider',
-'http://htkb.info/SDE/FK/Cards/MiniBosses/Card_MiniBoss_Kaelly_The_Nether_Strider_FK.png', 
-'http://htkb.info/SDE/FK/Cards/MiniBosses/Card_MiniBoss_Kaelly_The_Nether_Strider_FK_back.png', 
-'http://htkb.online/SDWiki/SDE/FK/Explore/Cards/MiniBosses/Kaelly_The_Nether_Strider.xhtml', 
+'http://htkb.info/SDE/FK/Cards/MiniBosses/Card_MiniBoss_Kaelly_the_Nether_Strider_FK.png', 
+'http://htkb.info/SDE/FK/Cards/MiniBosses/Card_MiniBoss_Kaelly_the_Nether_Strider_FK_back.png', 
+'http://htkb.online/SDWiki/SDE/FK/Explore/Cards/MiniBosses/Kaelly_the_Nether_Strider.xhtml', 
 'MiniBoss', 'FK', 'FK Core Set', 'Explore',
 'Corrupted by the Dark Consul''s malevolent influence, the Nther Striders are his favored instruments of terror.  Wrapped in swirling darkness they are expert assassins, claiming the lives of generals, kings, and Heroes alike.');
 insert into Characters (CardIndex) VALUES (245);
