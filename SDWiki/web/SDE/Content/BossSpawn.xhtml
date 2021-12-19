@@ -47,25 +47,20 @@
                     #{SDEBossSpawnBean.getBossSpawn().getDungeonEffect()}
                 </div>
             </div>
-
             <div>
                 Boss Fight Effects:
                 <div>
                     #{SDEBossSpawnBean.getBossSpawn().getBossSpawnEffect()}
                 </div>
             </div>
-
-            
             <div>
                 Timeout Effect:
                 <div>
                     #{SDEBossSpawnBean.getBossSpawn().getTimeoutEffect()}
                 </div>
             </div>
-
-            <div>
+            <ui:fragment rendered="#{SDEBossSpawnBean.getBossSpawn().validateCharacterList()}">
                 Related Character(s):<br/>
-                
                 <ui:repeat var="x" value="#{SDEBossSpawnBean.getCharacterList()}" size="#{SDEBossSpawnBean.getCharacterList().size()}" varStatus="myVarStatus" >
                     <div class="relatedCharacterBlock">
                         <a href="#{x.getLink()}">
@@ -75,22 +70,16 @@
                             #{x.getName()}
                         </a>
                     </div>
-                    
-                
                 </ui:repeat>
-                
-            </div>
-            
+            </ui:fragment>
             <div>
                 Summon List: TBD
             </div>
-            
             <c:if test="#{ SDEBossSpawnBean.getBossSpawn().validateFlavor() }">
                 <div>
                     Flavor Text: #{SDEBossSpawnBean.getBossSpawn().getFlavor()}
                 </div>
             </c:if>
-            
         </div>
     </h:body>
 </html>
