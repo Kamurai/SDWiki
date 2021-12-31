@@ -82,173 +82,173 @@ create table MightyMonsters (MightyMonsterIndex bigint IDENTITY(0,1) PRIMARY KEY
 --Table Load 1
 --1.0 
 --Keywords
-/*9 Lives 								--Index 0*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', '9 Lives', 'When a model with 9 Lives takes their last wound, immediately roll +1r . Remove one wound for every star rolled. If no stars are rolled the model is destroyed.');
-/*Alchemy 							--Index 1*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Alchemy', 'Turn any hearts rolled into potions.');
-/*Area Effects 						--Index 2*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Area Effects', 'Some abilities can hit multiple models all at the same time.<br>These are called, area effects. Area effects have a special set of<br>rules to govern how they function:<br>* First determine which models are in the squares that will be<br>affected by the area effect. This will vary depending on the<br>type of area effect being used.<br>• Burst X requires that you select a single model, in line of sight<br>to the model using the effect, as the action’s target. The area<br>effect is centered on that target.<br>• Cross X, Wave X, and Aura X are centered on the user. In this<br>case the user is considered the target but it is not affected by<br>its own area effect unless the effect states otherwise (such as<br>in the case of Augment).<br>•Lance X, Spray X, and Sweep X require that you choose one<br>square that is adjacent (but not diagonal) to the model using<br>the effect. Then determine the remaining squares affected<br>from the initial square chosen, using the area effect’s rules<br>and diagrams as a guide. Unlike other effects the initial square<br>chosen may be empty.<br>• If the area effect is part of an attack, make a single attack roll<br>and apply it to every model affected. Each model affected<br>makes their own defense roll, comparing their result to the<br>attack roll separately.<br>• All models affects by an area effect are considered to be hit<br>simultaneously.<br>• Friendly models, including the user, are not affected by area<br>effects unless the area effect specifies otherwise (such as in<br>the case of Augment).<br>• Area effects do not affect squares that the user cannot draw<br>line of sight to unless the area effect specifies otherwise.<br>• Some area effects cover a different area if the model using<br>them is on a large base. When this is the case, use the example<br>diagram as a guide.<br>• If a model is affected by two area effects simultaneously the<br>effects are cumaltive as long as the abilities are different --<br>even if their effects are the same.<br>• Some area effects replace the distance portion of a model’s<br>special ability ie Magic X, Missile X, or Range X. In this case<br>ignore the ‘X’ portion of the ability that allows them to target<br>distant models and replace it with the area effect. The model<br>may still use the attribute specified by that ability when<br>making an attack roll.');
-/*Augment 							--Index 3*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Augment', 'Abilities with Augment may only target or affect friendly models that are hit, including the user.');
-/*Aura 									--Index 4*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Aura', 'An Aura effect follows the same rules as Wave X with one important difference -- Auras remain in play, centered on and moving with the user, until the beginning of their next activation.');
-/*Backlash 							--Index 5*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Backlash', 'If a model with Backlash exceeds an attack roll with their defense roll the attacker takes one wound. Wounds caused by Backlash do not advance the Power Gauge.');
-/*Bane 									--Index 6*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Bane', 'A model suffering Bane discards the highest result rolled anytime it makes an offense roll.');
-/*Berserk 								--Index 7*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Berserk', 'During its activation a model with Berserk may make a single a single Melee Attack costing no action points.');
-/*Bind 									--Index 8*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Bind', 'A model or effect with bind places a bind counter on any model it damages. A model suffering bind may not use any of its Special Actions.');
-/*Black Ice 							--Index 9*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Black Ice', 'Enemy models that end an activation within 2 squares of this model are moved two squares directly away from the model with Black Ice.');
+/*9 Lives 							--Index   0*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', '9 Lives', 'When a model with 9 Lives takes their last wound, immediately roll +1r . Remove one wound for every star rolled. If no stars are rolled the model is destroyed.');
+/*Alchemy 							--Index   1*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Alchemy', 'Turn any hearts rolled into potions.');
+/*Area Effects 						--Index   2*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Area Effects', 'Some abilities can hit multiple models all at the same time.<br>These are called, area effects. Area effects have a special set of<br>rules to govern how they function:<br>* First determine which models are in the squares that will be<br>affected by the area effect. This will vary depending on the<br>type of area effect being used.<br>• Burst X requires that you select a single model, in line of sight<br>to the model using the effect, as the action’s target. The area<br>effect is centered on that target.<br>• Cross X, Wave X, and Aura X are centered on the user. In this<br>case the user is considered the target but it is not affected by<br>its own area effect unless the effect states otherwise (such as<br>in the case of Augment).<br>•Lance X, Spray X, and Sweep X require that you choose one<br>square that is adjacent (but not diagonal) to the model using<br>the effect. Then determine the remaining squares affected<br>from the initial square chosen, using the area effect’s rules<br>and diagrams as a guide. Unlike other effects the initial square<br>chosen may be empty.<br>• If the area effect is part of an attack, make a single attack roll<br>and apply it to every model affected. Each model affected<br>makes their own defense roll, comparing their result to the<br>attack roll separately.<br>• All models affects by an area effect are considered to be hit<br>simultaneously.<br>• Friendly models, including the user, are not affected by area<br>effects unless the area effect specifies otherwise (such as in<br>the case of Augment).<br>• Area effects do not affect squares that the user cannot draw<br>line of sight to unless the area effect specifies otherwise.<br>• Some area effects cover a different area if the model using<br>them is on a large base. When this is the case, use the example<br>diagram as a guide.<br>• If a model is affected by two area effects simultaneously the<br>effects are cumaltive as long as the abilities are different --<br>even if their effects are the same.<br>• Some area effects replace the distance portion of a model’s<br>special ability ie Magic X, Missile X, or Range X. In this case<br>ignore the ‘X’ portion of the ability that allows them to target<br>distant models and replace it with the area effect. The model<br>may still use the attribute specified by that ability when<br>making an attack roll.');
+/*Augment 							--Index   3*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Augment', 'Abilities with Augment may only target or affect friendly models that are hit, including the user.');
+/*Aura 								--Index   4*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Aura', 'An Aura effect follows the same rules as Wave X with one important difference -- Auras remain in play, centered on and moving with the user, until the beginning of their next activation.');
+/*Backlash 							--Index   5*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Backlash', 'If a model with Backlash exceeds an attack roll with their defense roll the attacker takes one wound. Wounds caused by Backlash do not advance the Power Gauge.');
+/*Bane 								--Index   6*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Bane', 'A model suffering Bane discards the highest result rolled anytime it makes an offense roll.');
+/*Berserk 							--Index   7*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Berserk', 'During its activation a model with Berserk may make a single a single Melee Attack costing no action points.');
+/*Bind 								--Index   8*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Bind', 'A model or effect with bind places a bind counter on any model it damages. A model suffering bind may not use any of its Special Actions.');
+/*Black Ice 						--Index   9*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Black Ice', 'Enemy models that end an activation within 2 squares of this model are moved two squares directly away from the model with Black Ice.');
 /*Blessing 							--Index 10*/		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Blessing', 'A tile effect with Blessing bestows a positive effect, specified on the tile effect''s card, to models within the tile. Blessings only effect Hero, elite and minion models.');
-/*Blood Drinker 					--Index 11*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Blood Drinker', 'When a model with Blood Dinker rolls a heart they gain one heart in exactly the same manor as a Hero.');
-/*Bone Pile 							--Index 12*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Bone Pile', 'When this model is destroyed leave a Bone Pile counter in the same square it occupied. This counter is ignored for purposes of movement and line of sight. A model may spend two points of speed to stomp on a Bone Pile counter in their square to remove it from play.');
-/*Boo!									--Index 13*/		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Boo!', 'You may not spawn Boo Booty.  Boo Booty may only enter play when the Boo Booty relic card is drawn from the Treasure Deck.');
-/*Boo Booty 							--Index 14*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Boo Booty', 'Boo Booty cannot by spawned, instead they enter play when their treasure card is drawn.');
+/*Blood Drinker 					--Index  11*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Blood Drinker', 'When a model with Blood Dinker rolls a heart they gain one heart in exactly the same manor as a Hero.');
+/*Bone Pile 						--Index  12*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Bone Pile', 'When this model is destroyed leave a Bone Pile counter in the same square it occupied. This counter is ignored for purposes of movement and line of sight. A model may spend two points of speed to stomp on a Bone Pile counter in their square to remove it from play.');
+/*Boo!								--Index 13*/		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Boo!', 'You may not spawn Boo Booty.  Boo Booty may only enter play when the Boo Booty relic card is drawn from the Treasure Deck.');
+/*Boo Booty 						--Index  14*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Boo Booty', 'Boo Booty cannot by spawned, instead they enter play when their treasure card is drawn.');
 /*Born of Fire						--Index 15*/		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Born of Fire', 'Heroes that move into a square adjacent to any spawning point on the dungeon map immediately suffer Fire.');
 /*Burning Blades					--Index 16*/		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Burning Blades', 'All minions and denizens gain the Fire ability as though it were printed on their stat card.');
-/*Burrow 								--Index 17*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Burrow', 'Instead of moving normally this model may choose to Burrow. Remove all status effect counters. Place the model with Burrow in any empty square within six squares of its current square.');
-/*Burst 								--Index 18*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Burst', 'A Burst effect occurs as part of a ranged attack or ability. When a target is hit by a ranged effect with Burst X,the effect hits the target and every model within X squares of the target.'); 
-/*Burst 								--Index 19*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Burst', 'Determine a Burst effect’s target as normal using the model’s<br>inherent distance ability ( Magic X, Range X, Missile X) or the<br>one listed in the area effect action. After the target has been<br>selected it and every model within X squares of the target and<br>in the target’s line of sight are hit by the effect.<br>If a large model is targeted by a Burst effect choose one square<br>occupied by its base as the square targeted and determine who<br>is hit from it as normal.'); 
-/*Choke 								--Index 20*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Choke', 'A model or effect with choke places a choke counter on any model it damages. A model suffering Choke may not use or benefit from the effect of Potions.'); 
-/*Choke 								--Index 21*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Choke', 'A model or effect with Choke places a Choke counter<br>on any model it damages. A model suffering Choke<br>may not drink potions.'); 
-/*Cola 									--Index 22*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Cola', 'Once per activation roll 1b. For every star rolled place a potion counter on Candy’s card.');
-/*Cold 									--Index 23*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Cold', 'A model or effect with Cold places a Cold counter on any model it damages. A model suffering Cold discards the highest result rolled anytime it makes a roll using its DEX attribute.');
-/*Cross 								--Index 24*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Cross', 'A Cross effect is centered on the user’s square and hits the user<br>and every model within X squares of the user, but does not affect<br>any diagonal squares. Crosses replace the distance portion (X) of a<br>distance effect, but do not replace any other aspect of the ability.');
-/*Cursed								--Index 25*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Cursed', '[Equipment with Cursed] must be immediately equipped when drawn and cannote be discarded.');
-/*Dangerous							--Index 26*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Dangerous', 'Abilities with Dangerous damage both enemy and friendly models that are hit.'); 
-/*Difficult Terrain					--Index 27*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Difficult Terrain', 'Each square of difficult terrain a model enters costs two points of speed. If a model does not have enough speed remaining to move into a square with difficult terrain it may not do so.'); 
-/*Distance Effects 					--Index 28*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Distance Effects', 'The abilities Magic X, Missile X, and Range X are called distance<br>effects. A model with a distance effect may target another<br>model up to X squares away with any of its actions. If a distance<br>effect is part of an attack it will specify an attribute you must<br>use when making your attack roll.<br>A model with a distance effect listed in its special abilities may<br>use the listed distance effect in combination with any actions it<br>makes, unless specified otherwise. For example: If a model has<br>a distance effect listed on their card (e.g. Missile) and an action<br>listed on their card uses a different distance effect (e.g. Magic),<br>then “Magic” (i.e. WILL) would be used for that action instead<br>of “Missile” (i.e. DEX).');
-/*Dodge								--Index 29*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Dodge', 'A model with Dodge may use their Dex when making defense rolls unless they are suffering from Knockdown, Immobile, Slow.');
-/*Each Egg Clutch comes with	--Index 30*/		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Each Egg Clutch comes with', '1 Egg Clutch (Spawning Point)<br>2 Hatchlings<br>2 Whelps<br>2 Wyrmlings');
+/*Burrow 							--Index  17*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Burrow', 'Instead of moving normally this model may choose to Burrow. Remove all status effect counters. Place the model with Burrow in any empty square within six squares of its current square.');
+/*Burst 							--Index  18*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Burst', 'A Burst effect occurs as part of a ranged attack or ability. When a target is hit by a ranged effect with Burst X,the effect hits the target and every model within X squares of the target.'); 
+/*Burst 							--Index  19*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Burst', 'Determine a Burst effect’s target as normal using the model’s<br>inherent distance ability ( Magic X, Range X, Missile X) or the<br>one listed in the area effect action. After the target has been<br>selected it and every model within X squares of the target and<br>in the target’s line of sight are hit by the effect.<br>If a large model is targeted by a Burst effect choose one square<br>occupied by its base as the square targeted and determine who<br>is hit from it as normal.'); 
+/*Choke 							--Index  20*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Choke', 'A model or effect with choke places a choke counter on any model it damages. A model suffering Choke may not use or benefit from the effect of Potions.'); 
+/*Choke 							--Index  21*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Choke', 'A model or effect with Choke places a Choke counter<br>on any model it damages. A model suffering Choke<br>may not drink potions.'); 
+/*Cola 								--Index  22*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Cola', 'Once per activation roll 1b. For every star rolled place a potion counter on Candy’s card.');
+/*Cold 								--Index  23*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Cold', 'A model or effect with Cold places a Cold counter on any model it damages. A model suffering Cold discards the highest result rolled anytime it makes a roll using its DEX attribute.');
+/*Cross 							--Index  24*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Cross', 'A Cross effect is centered on the user’s square and hits the user<br>and every model within X squares of the user, but does not affect<br>any diagonal squares. Crosses replace the distance portion (X) of a<br>distance effect, but do not replace any other aspect of the ability.');
+/*Cursed							--Index  25*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Cursed', '[Equipment with Cursed] must be immediately equipped when drawn and cannote be discarded.');
+/*Dangerous							--Index  26*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Dangerous', 'Abilities with Dangerous damage both enemy and friendly models that are hit.'); 
+/*Difficult Terrain					--Index  27*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Difficult Terrain', 'Each square of difficult terrain a model enters costs two points of speed. If a model does not have enough speed remaining to move into a square with difficult terrain it may not do so.'); 
+/*Distance Effects 					--Index  28*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Distance Effects', 'The abilities Magic X, Missile X, and Range X are called distance<br>effects. A model with a distance effect may target another<br>model up to X squares away with any of its actions. If a distance<br>effect is part of an attack it will specify an attribute you must<br>use when making your attack roll.<br>A model with a distance effect listed in its special abilities may<br>use the listed distance effect in combination with any actions it<br>makes, unless specified otherwise. For example: If a model has<br>a distance effect listed on their card (e.g. Missile) and an action<br>listed on their card uses a different distance effect (e.g. Magic),<br>then “Magic” (i.e. WILL) would be used for that action instead<br>of “Missile” (i.e. DEX).');
+/*Dodge								--Index  29*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Dodge', 'A model with Dodge may use their Dex when making defense rolls unless they are suffering from Knockdown, Immobile, Slow.');
+/*Each Egg Clutch comes with		--Index 30*/		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Each Egg Clutch comes with', '1 Egg Clutch (Spawning Point)<br>2 Hatchlings<br>2 Whelps<br>2 Wyrmlings');
 /*Fiery Escape						--Index 31*/		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Fiery Escape', 'All models in a square adjacent to Starfire suffer Fire.');
-/*Fire									--Index 32*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Fire', 'A model or effect with Fire places a Fire counter on any model it damages. A model suffering Fire takes one wound at the beginning of its activation every round until the Fire counter is removed. Wounds caused by Fire do not advance the Power Gauge.');
-/*Fire Aura							--Index 33*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Fire Aura', 'Monsters with Citrine affinity that are within 2 squares of Lava Whirl gain Fire.');
-/*Fixed Form							--Index 34*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Fixed Form', 'Once shapeshifted into X form it may not shapeshift back to its original form.'); 
-/*											--Index 35*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('', '', '', ''); 
-/*Fly										--Index 36*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Fly', 'A model with Fly may ignore and move through squares containing enemy models, difficult terrain, and tile effects.');
-/*Forced Shift						--Index 37*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Forced Shift', 'Instead of being destroyed as normal it instead automatically Shapeshifts into its X Form.');
-/*Fragile								--Index 38*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Fragile', 'A model or effect with Fragile places a Fragile counter on any model it damages. A model suffering fragile discards the highest result rolled anytime it makes a roll using its ARM attribute.');
+/*Fire								--Index  32*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Fire', 'A model or effect with Fire places a Fire counter on any model it damages. A model suffering Fire takes one wound at the beginning of its activation every round until the Fire counter is removed. Wounds caused by Fire do not advance the Power Gauge.');
+/*Fire Aura							--Index  33*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Fire Aura', 'Monsters with Citrine affinity that are within 2 squares of Lava Whirl gain Fire.');
+/*Fixed Form						--Index  34*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Fixed Form', 'Once shapeshifted into X form it may not shapeshift back to its original form.'); 
+/*									--Index  35*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('', '', '', ''); 
+/*Fly								--Index  36*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Fly', 'A model with Fly may ignore and move through squares containing enemy models, difficult terrain, and tile effects.');
+/*Forced Shift						--Index  37*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Forced Shift', 'Instead of being destroyed as normal it instead automatically Shapeshifts into its X Form.');
+/*Fragile							--Index  38*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Fragile', 'A model or effect with Fragile places a Fragile counter on any model it damages. A model suffering fragile discards the highest result rolled anytime it makes a roll using its ARM attribute.');
 /*Halloween							--Index 39*/		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Halloween', 'When Von Drakk enters play, replace all Bone Pile counters in the dungeon with Rattle-Bones as though they have been targeted by the Raise ability.  You may only Raise as many Rattle-Bones as you have models available, regardless of the number of Bone Pile counters in the dungeon.');
-/*Heal									--Index 40*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Heal', 'A model affected by Heal may remove a number of wound counters or a number of status effect counters equal to the value of X.');
-/*Healer								--Index 41*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Healer', 'When a model with Healer rolls a Heart on an attack roll they gain two Hearts instead of one if they successfully inflict a wound.');
+/*Heal								--Index  40*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Heal', 'A model affected by Heal may remove a number of wound counters or a number of status effect counters equal to the value of X.');
+/*Healer							--Index  41*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Healer', 'When a model with Healer rolls a Heart on an attack roll they gain two Hearts instead of one if they successfully inflict a wound.');
 /*Hidden Lever						--Index 42*/		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Hidden Lever', 'When a spawning point is destroyed, the Heroes must rotate the tile 90 degrees in a direction of their choosing.');
-/*Holy									--Index 43*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Holy', 'A model with Holy may reroll a single dice when making an attack roll versus undead or demons.');
-/*Hookshot							--Index 44*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Hookshot', 'A Hookshot is a special type of ranged ability that allows the user to target a model it does not have line of sight to.'); 
-/*Hookshot							--Index 45*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Hookshot', 'Hookshot may be used in combination with any distance<br>effect. Hookshot allows the user to target a model it does not have line<br>of sight to.<br>'); 
-/*Host									--Index 46*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Host', 'When a model with HOST is spawned you may immediately place an additional model with Host in an empty, adjacent square. You may activate two models with Host for every skull value. Each model must fully complete its activation before the second is activated.');
-/*Hubris								--Index 47*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Hubris', 'Basic Melee Attack action against a Hero that is equipped with one or more pieces of equipment, and grants +1b STR per piece of equipment on the Hero.');
-/*Immobile							--Index 48*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Immobile', 'A model or effect with Immobile places a Immobile counter on any model it damages. A model suffering Immobile may not move during its turn.'); 
-/*Immobile							--Index 49*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Immobile', 'A model or ability with Immobile places an Immobile<br>counter on any model it damages. A model suffering<br>Immobile may not move during its turn. If a model<br>suffering from Immobile takes damage from any<br>source (even one that normally causes Immobile), it<br>gains Immune: Immobile until the beginning of it’s<br>next activation.'); 
-/*Immune								--Index 50*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Immune', 'A model with immune ignores and imediately removes all counter or affects of the abilty listed as X.');
-/*Immune: Bind					--Index 51*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Immune: Bind', 'A model with Immune: Bind ignores and immediately removes all counters and/or the affects of Bind.');
-/*Immune: Choke					--Index 52*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Immune: Choke', 'A model with Immune: Choke ignores and immediately removes all counters and/or the affects of Choke.');
-/*Immune: Cold					--Index 53*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Immune: Cold', 'A model with Immune: Cold ignores and immediately removes all counters and/or the affects of Cold.');
-/*Immune: Fire						--Index 54*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Immune: Fire', 'A model with Immune: Fire ignores and immediately removes all counters and/or the affects of Fire.');
-/*Immune: Fragile					--Index 55*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Immune: Fragile', 'A model with Immune: Fragile ignores and immediately removes all counters and/or the affects of Fragile.');
-/*Immune: Immobile				--Index 56*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Immune: Immobile', 'A model with Immune: Immobile ignores and immediately removes all counters and/or the affects of Immobile.');
-/*Immune: Knockdown 			--Index 57*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Immune: Knockdown', 'A model with Immune: Knockdown ignores and immediately removes all counters and/or the affects of Knockdown.');
-/*Immune: Pacify					--Index 58*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Immune: Pacify', 'A model with Immune: Pacify ignores and immediately removes all counters and/or the affects of Pacify.');
-/*Immune: Poison					--Index 59*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Immune: Poison', 'A model with Immune: Poison ignores and immediately removes all counters and/or the affects of Poison.');
-/*Immune: Slow					--Index 60*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Immune: Slow', 'A model with Immune: Slow ignores and immediately removes all counters and/or the affects of Slow.');
-/*Immune: Status Effects		--Index 61*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Immune: Status Effects', 'A model that is Immune: Status Effects can never suffer the negative effects of status effects.  If a model that is suffering a status effect gains Immune: Status Effects remove all status effect tokens immediately.'); 
-/*Immune: Stun					--Index 62*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Immune: Stun', 'A model with Immune: Stun ignores and immediately removes all counters and/or the affects of Stun.');
-/*Immune: Weak					--Index 63*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Immune: Weak', 'A model with Immune: Weak ignores and immediately removes all counters and/or the affects of Weak.');
-/*Inferno								--Index 64*/		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Inferno', 'When Starfire enters play place a Fire counter on every Hero.');
-/*Insignificant						--Index 65*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Insignificant', 'When a model inflicts a wound in melee against a model with insignificant, that model may immediately make a free melee attack. Inflicting a wound on an insignificant model does not advance the Power Gauge.');
+/*Holy								--Index  43*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Holy', 'A model with Holy may reroll a single dice when making an attack roll versus undead or demons.');
+/*Hookshot							--Index  44*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Hookshot', 'A Hookshot is a special type of ranged ability that allows the user to target a model it does not have line of sight to.'); 
+/*Hookshot							--Index  45*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Hookshot', 'Hookshot may be used in combination with any distance<br>effect. Hookshot allows the user to target a model it does not have line<br>of sight to.<br>'); 
+/*Host								--Index  46*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Host', 'When a model with HOST is spawned you may immediately place an additional model with Host in an empty, adjacent square. You may activate two models with Host for every skull value. Each model must fully complete its activation before the second is activated.');
+/*Hubris							--Index  47*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Hubris', 'Basic Melee Attack action against a Hero that is equipped with one or more pieces of equipment, and grants +1b STR per piece of equipment on the Hero.');
+/*Immobile							--Index  48*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Immobile', 'A model or effect with Immobile places a Immobile counter on any model it damages. A model suffering Immobile may not move during its turn.'); 
+/*Immobile							--Index  49*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Immobile', 'A model or ability with Immobile places an Immobile<br>counter on any model it damages. A model suffering<br>Immobile may not move during its turn. If a model<br>suffering from Immobile takes damage from any<br>source (even one that normally causes Immobile), it<br>gains Immune: Immobile until the beginning of it’s<br>next activation.'); 
+/*Immune							--Index  50*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Immune', 'A model with immune ignores and imediately removes all counter or affects of the abilty listed as X.');
+/*Immune: Bind						--Index  51*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Immune: Bind', 'A model with Immune: Bind ignores and immediately removes all counters and/or the affects of Bind.');
+/*Immune: Choke						--Index  52*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Immune: Choke', 'A model with Immune: Choke ignores and immediately removes all counters and/or the affects of Choke.');
+/*Immune: Cold						--Index  53*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Immune: Cold', 'A model with Immune: Cold ignores and immediately removes all counters and/or the affects of Cold.');
+/*Immune: Fire						--Index  54*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Immune: Fire', 'A model with Immune: Fire ignores and immediately removes all counters and/or the affects of Fire.');
+/*Immune: Fragile					--Index  55*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Immune: Fragile', 'A model with Immune: Fragile ignores and immediately removes all counters and/or the affects of Fragile.');
+/*Immune: Immobile					--Index  56*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Immune: Immobile', 'A model with Immune: Immobile ignores and immediately removes all counters and/or the affects of Immobile.');
+/*Immune: Knockdown 				--Index  57*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Immune: Knockdown', 'A model with Immune: Knockdown ignores and immediately removes all counters and/or the affects of Knockdown.');
+/*Immune: Pacify					--Index  58*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Immune: Pacify', 'A model with Immune: Pacify ignores and immediately removes all counters and/or the affects of Pacify.');
+/*Immune: Poison					--Index  59*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Immune: Poison', 'A model with Immune: Poison ignores and immediately removes all counters and/or the affects of Poison.');
+/*Immune: Slow						--Index  60*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Immune: Slow', 'A model with Immune: Slow ignores and immediately removes all counters and/or the affects of Slow.');
+/*Immune: Status Effects			--Index  61*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Immune: Status Effects', 'A model that is Immune: Status Effects can never suffer the negative effects of status effects.  If a model that is suffering a status effect gains Immune: Status Effects remove all status effect tokens immediately.'); 
+/*Immune: Stun						--Index  62*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Immune: Stun', 'A model with Immune: Stun ignores and immediately removes all counters and/or the affects of Stun.');
+/*Immune: Weak						--Index  63*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Immune: Weak', 'A model with Immune: Weak ignores and immediately removes all counters and/or the affects of Weak.');
+/*Inferno							--Index 64*/		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Inferno', 'When Starfire enters play place a Fire counter on every Hero.');
+/*Insignificant						--Index  65*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Insignificant', 'When a model inflicts a wound in melee against a model with insignificant, that model may immediately make a free melee attack. Inflicting a wound on an insignificant model does not advance the Power Gauge.');
 /*Jagged Earth						--Index 66*/		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Jagged Earth', 'All squares adjacent to spawning points are considered Difficult Terrain for Heroes.');
-/*Knockdown							--Index 67*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Knockdown', 'A model suffering Knockdown may not move or perform any other action until it spends all of its action points OR all of its movement points to remove the Knockdown counter.'); 
-/*Knockdown							--Index 68*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Knockdown', 'A model suffering Knockdown may not move or perform any other action until it spends 1 action point or all of its movement points to remove the Knockdown token.'); 
-/*Kobold Warrens comes with --Index 69*/		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Kobold Warrens comes with', '2 Kobold Warrens (Spawning Points)<br>1 Dragon Priest<br>2 Ironscales<br>2 Flingers<br>3 Knuckleheads<br>3 Gougers');
-/*Lance									--Index 70*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Lance', 'A Lance effect draws a straight line directly away from the user''s square along a distance of X. Every model along this line is hit. Lance effects may not be used along diagonals.'); 
-/*Lance									--Index 71*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Lance', 'A Lance effect draws a straight line directly away from the user’s<br>square along a distance of X. Every model along this line is hit. Lance<br>effects may not be used along diagonals and replace the distance<br>portion (X) of a distance effect, but do not replace any other aspect<br>of the ability.'); 
-/*Lava									--Index 72*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Lava', 'A model entering a Lava square suffers Fire. Difficult Terrain.');
-/*Lava Whirl comes with		--Index 73*/		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Lava Whirl comes with', '1 Lava Whirl (Spawning Point)<br>1 Blaze Beetle<br>2 Ember Hounds<br>3 Burning Gels<br>6 Fire Gels');
-/*Line of Sight						--Index 74*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Line of Sight', 'Models require line of sight to target a model with their actions<br>and abilities. Models are considered to have line of sight to any<br>squares they are adjacent to. A model has Line of Sight when it can<br>draw a straight line from any point of its square to any point on<br>the intended targets square. This line cannot contact walls. (This<br>includes where walls meet squares on a corner. See line of sight<br>diagram below). Models and counters do not block line of sight.');
+/*Knockdown							--Index  67*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Knockdown', 'A model suffering Knockdown may not move or perform any other action until it spends all of its action points OR all of its movement points to remove the Knockdown counter.'); 
+/*Knockdown							--Index  68*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Knockdown', 'A model suffering Knockdown may not move or perform any other action until it spends 1 action point or all of its movement points to remove the Knockdown token.'); 
+/*Kobold Warrens comes with 		--Index 69*/		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Kobold Warrens comes with', '2 Kobold Warrens (Spawning Points)<br>1 Dragon Priest<br>2 Ironscales<br>2 Flingers<br>3 Knuckleheads<br>3 Gougers');
+/*Lance								--Index  70*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Lance', 'A Lance effect draws a straight line directly away from the user''s square along a distance of X. Every model along this line is hit. Lance effects may not be used along diagonals.'); 
+/*Lance								--Index  71*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Lance', 'A Lance effect draws a straight line directly away from the user’s<br>square along a distance of X. Every model along this line is hit. Lance<br>effects may not be used along diagonals and replace the distance<br>portion (X) of a distance effect, but do not replace any other aspect<br>of the ability.'); 
+/*Lava								--Index  72*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Lava', 'A model entering a Lava square suffers Fire. Difficult Terrain.');
+/*Lava Whirl comes with				--Index 73*/		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Lava Whirl comes with', '1 Lava Whirl (Spawning Point)<br>1 Blaze Beetle<br>2 Ember Hounds<br>3 Burning Gels<br>6 Fire Gels');
+/*Line of Sight						--Index  74*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Line of Sight', 'Models require line of sight to target a model with their actions<br>and abilities. Models are considered to have line of sight to any<br>squares they are adjacent to. A model has Line of Sight when it can<br>draw a straight line from any point of its square to any point on<br>the intended targets square. This line cannot contact walls. (This<br>includes where walls meet squares on a corner. See line of sight<br>diagram below). Models and counters do not block line of sight.');
 /*Little Splurt						--Index 75*/		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Little Splurt', 'Fire Gels cannot be spawned.  Instead they enter play as a result of the Burning Gel''s Splurt ability.<br>Fire Gels are Insignificant.');
-/*Luck									--Index 76*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Luck', 'A model with Luck may gain a Potion instead of a Heart when rolled on the dice and vice versa. In addition when opening a treasure chest they may draw two cards from the treasure deck and equip one, discarding the other.');
-/*Lycanthropy						--Index 77*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Lycanthropy', 'Wounded models that are not removed from play gain +1 red att and suffer Vulnerable Magic.');
-/*Magic									--Index 78*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Magic', 'This ability allows a the model to attack an enemy up to X squares away. In addition a model making a Magic attack must use their WILL attribute when attacking. A model may use any of its ability or special actions using Magic X, unless specified otherwise.'); 
-/*Magic									--Index 79*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Magic', 'A model with Magic X may target a model up to X squares<br>away. If a model is making an attack using Magic X they must use their<br>WILL attribute when making their attack roll, unless specified otherwise.'); 
-/*Massive Damaage				--Index 80*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Massive Damage', 'When an attack with Massive Damage inflicts a wound it instead inflicts two wounds.');
-/*Missile								--Index 81*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Missile', 'This ability allows the model to attack an enemy up to X squares away, as long as the model is not adjacent to an enemy model. In addition, a model making a Missile attack must use their DEX attribute when attacking. A model may use any of its abilities or special actions using missile X, unless specified otherwise.'); 
-/*Missile								--Index 82*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Missile', 'A model with Missile X may target a model up to X squares<br>away. If a model is making an attack using Missile X they must use their<br>DEX attribute when making their attack roll, unless specified otherwise.'); 
-/*Mob									--Index 83*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Mob', 'Add +1b ATT to this model''s melee attack for every other model with Mob in melee with the target, up to +3b ATT.');
+/*Luck								--Index  76*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Luck', 'A model with Luck may gain a Potion instead of a Heart when rolled on the dice and vice versa. In addition when opening a treasure chest they may draw two cards from the treasure deck and equip one, discarding the other.');
+/*Lycanthropy						--Index  77*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Lycanthropy', 'Wounded models that are not removed from play gain +1 red att and suffer Vulnerable Magic.');
+/*Magic								--Index  78*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Magic', 'This ability allows a the model to attack an enemy up to X squares away. In addition a model making a Magic attack must use their WILL attribute when attacking. A model may use any of its ability or special actions using Magic X, unless specified otherwise.'); 
+/*Magic								--Index  79*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Magic', 'A model with Magic X may target a model up to X squares<br>away. If a model is making an attack using Magic X they must use their<br>WILL attribute when making their attack roll, unless specified otherwise.'); 
+/*Massive Damaage					--Index  80*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Massive Damage', 'When an attack with Massive Damage inflicts a wound it instead inflicts two wounds.');
+/*Missile							--Index  81*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Missile', 'This ability allows the model to attack an enemy up to X squares away, as long as the model is not adjacent to an enemy model. In addition, a model making a Missile attack must use their DEX attribute when attacking. A model may use any of its abilities or special actions using missile X, unless specified otherwise.'); 
+/*Missile							--Index  82*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Missile', 'A model with Missile X may target a model up to X squares<br>away. If a model is making an attack using Missile X they must use their<br>DEX attribute when making their attack roll, unless specified otherwise.'); 
+/*Mob								--Index  83*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Mob', 'Add +1b ATT to this model''s melee attack for every other model with Mob in melee with the target, up to +3b ATT.');
 /*Molten Core						--Index 84*/		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Molten Core', 'Roxor enters play in Rock Form.  At the beginning of every activation choose one form for Roxor to assume.  Roxor gains the form''s bonuses until the beginning of his next activation.');
-/*Nice List								--Index 85*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Nice List', 'At the beginning of the game, shuffle all Hero cards except Kringle and draw one card.  The Hero drawn gains +1b on offensive rolls for the entire game.');
-/*Offensive Potion					--Index 86*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Offensive Potion', 'Offensive Potions are indicated by a (Green Potion icon).\n\nAn Offensive Potion provides a model with a single use special action (Blue Action Icon) or special attack (Red Action Icon). These effects follow all normal rules for resolving special actions and attacks, including being able to target enemies and requiring attack and defense rolls (is the potion provides a special attack). They require no action points to use and are instead used by spending a potion token in the same manner as a normal potion, but may only be used during a models activation.');
-/*Pacify									--Index 87*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Pacify', 'A model or effect with Pacify places a Pacify counter on any model it damages. A model suffering Pacify may not use any special Attacks.');
-/*Pile-On								--Index 88*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Pile-On', '+1r ATT if target is suffering Knockdown.');
-/*Pirate Hoard						--Index 89*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Pirate Hoard', 'This model may equip Loot and Treasure cards. When spawned, draw one Treasure card and equip it on this model. When defeated, Heroes gain all Loot and Treasure cards this model has equipped.');
-/*Poison								--Index 90*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Poison', 'A model or effect with Poison places a Poison counter on any model it damages. A model suffering Poison loses one action point its activation.'); 
-/*Potion								--Index 91*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Potion', 'When a model with Potion X enters play place a number of bonus potion counters on their card equal to X. The model may spend these counters in the same manner as normal potion counters, but once they have been spent they can not be regained by dice rolls.'); 
-/*Pounce								--Index 92*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Pounce', 'Choose an enemy model anywhere within 5 squares, and line of sight. Place the model with Pounce adjacent to this target, then roll to attack as normal.');
+/*Nice List							--Index  85*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Nice List', 'At the beginning of the game, shuffle all Hero cards except Kringle and draw one card.  The Hero drawn gains +1b on offensive rolls for the entire game.');
+/*Offensive Potion					--Index  86*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Offensive Potion', 'Offensive Potions are indicated by a (Green Potion icon).\n\nAn Offensive Potion provides a model with a single use special action (Blue Action Icon) or special attack (Red Action Icon). These effects follow all normal rules for resolving special actions and attacks, including being able to target enemies and requiring attack and defense rolls (is the potion provides a special attack). They require no action points to use and are instead used by spending a potion token in the same manner as a normal potion, but may only be used during a models activation.');
+/*Pacify							--Index  87*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Pacify', 'A model or effect with Pacify places a Pacify counter on any model it damages. A model suffering Pacify may not use any special Attacks.');
+/*Pile-On							--Index  88*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Pile-On', '+1r ATT if target is suffering Knockdown.');
+/*Pirate Hoard						--Index  89*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Pirate Hoard', 'This model may equip Loot and Treasure cards. When spawned, draw one Treasure card and equip it on this model. When defeated, Heroes gain all Loot and Treasure cards this model has equipped.');
+/*Poison							--Index  90*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Poison', 'A model or effect with Poison places a Poison counter on any model it damages. A model suffering Poison loses one action point its activation.'); 
+/*Potion							--Index  91*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Potion', 'When a model with Potion X enters play place a number of bonus potion counters on their card equal to X. The model may spend these counters in the same manner as normal potion counters, but once they have been spent they can not be regained by dice rolls.'); 
+/*Pounce							--Index  92*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Pounce', 'Choose an enemy model anywhere within 5 squares, and line of sight. Place the model with Pounce adjacent to this target, then roll to attack as normal.');
 /*Precious Metals					--Index 93*/		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Precious Metals', 'Once per round Heroes may discard two unequipped loot cards and immediately draw another.');
-/*Privateer							--Index 94*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Privateer', 'If a Hero with Privateer destroys one or more enemies during its activation, the party draws one additional loot during power-up.');
-/*Pull									--Index 95*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Pull', 'A model targeted by Pull may be moved a number of squares up to the value of X toward the attacker. A model moved by pull must end its move closer to the attacker than it began.'); 
-/*Pull									--Index 96*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Pull', 'A model targeted by Pull may be moved a number of squares up<br>to the value of X towards the attacker. A model moved by Pull<br>must, after each square moved, be closer to the attacker than it<br>began. Once the two models are adjacent, the target model may<br>then be moved the remainder of X squares so to be still adjacent<br>to the attacker.'); 
-/*Pumpkin Patch					--Index 97*/		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Pumpkin Patch comes with', '1 Pumpkin Patch (Spawning Point)<br>1 Crypt Spider<br>2 Curse Coven Witches<br>6 Skullbats');
-/*Push									--Index 98*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Push', 'A model targeted by Push may be moved a number of squares up to the value of X away from the attacker. A model moved by Push must end its move farther away from the attacker than it began.'); 
-/*Push									--Index 99*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Push', 'A model targeted by Push may be moved a number of squares up<br>to the value of X away from the attacker. A model moved by Push<br>must, after each square moved, be further away from the attacker<br>than it began.'); 
-/*Push									--Index 100*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Push', 'A model targeted by Push may be moved a number of squares up to the value of X away from the model using Push. Each square moved must increase the distance between the two models. If the target model cannot be moved further away, such as from contact with a wall, the model immediately stops.'); 
-/*Raise									--Index 101*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Raise', 'Replace target Bone Pile counter with a model with the Risen ability. The counter is then removed from play. If a model is in the same square as target counter Raise has no effect.');
+/*Privateer							--Index  94*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Privateer', 'If a Hero with Privateer destroys one or more enemies during its activation, the party draws one additional loot during power-up.');
+/*Pull								--Index  95*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Pull', 'A model targeted by Pull may be moved a number of squares up to the value of X toward the attacker. A model moved by pull must end its move closer to the attacker than it began.'); 
+/*Pull								--Index  96*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Pull', 'A model targeted by Pull may be moved a number of squares up<br>to the value of X towards the attacker. A model moved by Pull<br>must, after each square moved, be closer to the attacker than it<br>began. Once the two models are adjacent, the target model may<br>then be moved the remainder of X squares so to be still adjacent<br>to the attacker.'); 
+/*Pumpkin Patch						--Index 97*/		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Pumpkin Patch comes with', '1 Pumpkin Patch (Spawning Point)<br>1 Crypt Spider<br>2 Curse Coven Witches<br>6 Skullbats');
+/*Push								--Index  98*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Push', 'A model targeted by Push may be moved a number of squares up to the value of X away from the attacker. A model moved by Push must end its move farther away from the attacker than it began.'); 
+/*Push								--Index  99*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Push', 'A model targeted by Push may be moved a number of squares up<br>to the value of X away from the attacker. A model moved by Push<br>must, after each square moved, be further away from the attacker<br>than it began.'); 
+/*Push								--Index 100*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Push', 'A model targeted by Push may be moved a number of squares up to the value of X away from the model using Push. Each square moved must increase the distance between the two models. If the target model cannot be moved further away, such as from contact with a wall, the model immediately stops.'); 
+/*Raise								--Index 101*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Raise', 'Replace target Bone Pile counter with a model with the Risen ability. The counter is then removed from play. If a model is in the same square as target counter Raise has no effect.');
 /*Range								--Index 102*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Range', 'This ability allows the model to attack an enemy up to X squares away.'); 
 /*Range								--Index 103*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Range', 'A model with Range X may target a model up to X squares<br>away. If a model is making an attack using Range X they must use their<br>ATT attribute when making their attack roll, unless specified otherwise.'); 
 /*Reach								--Index 104*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Reach', 'This ability allows the model to target an enemy with a melee attack up to X squares away. A model may use any of its abilities or special actions using Reach X, unless specified otherwise.'); 
 /*Regenerate						--Index 105*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Regenerate', 'Roll 1b dice for every wound token on the models card and remove one token for each star rolled.');
-/*Remedy								--Index 106*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Remedy', 'A model affected by Remedy may immediately remove all status Effect counters.'); 
-/*Remedy								--Index 107*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Remedy', 'A model affected by Remedy removes all status effect tokens.'); 
+/*Remedy							--Index 106*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Remedy', 'A model affected by Remedy may immediately remove all status Effect counters.'); 
+/*Remedy							--Index 107*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Remedy', 'A model affected by Remedy removes all status effect tokens.'); 
 /*Resurrect							--Index 108*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Resurrect', 'Choose a model that has been destroyed. Roll 1b dice for every heart on its stat card. Remove one wound counter for every star rolled. After the roll, If the target model has more hearts than wound counters, return it to play adjacent to the start marker. The model retains any equipment and potions that it had when it was destroyed.');
-/*Risen									--Index 109*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Risen', 'Models with the Risen ability may not be spawned. They may only enter play as a result of the Raise ability.');
-/*Rock Pile comes with			--Index 110*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Rock Pile comes with', '2 Rock Piles (Spawning Points)<br>1 Crusher<br>2 Bombardiers<br>2 Rollers<br>6 Slowpokes');
-/*Sentinel								--Index 111*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Sentinel', 'Models that are adjacent to a Sentinel structure add +1st to all defense rolls.');
-/*Shadows & Fog					--Index 112*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Shadows & Fog', 'All ranged attacks and effects targeting spawn points reduce their range by 2.');
-/*Shallow Grave comes with	--Index 113*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Shallow Grave comes with', '2 Shallow Graves (Spawning Points)<br>1 Dust Coven Necromancer<br>2 Dread Knights<br>2 Dust Mages<br>6 Boneheads<br>6 Rattle-Bones');
-/*Shapeshift							--Index 114*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Shapeshift', 'Shapeshift basic action to transform into the X whenever it chooses.');
-/*Sidestep								--Index 115*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Sidestep', 'Move 1 square anytime the model successfully makes a defense roll.');
-/*Slow									--Index 116*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Slow', 'A model or effect with Slow places a Slow counter on any model it damages. A model suffering Slow halves its speed (Rounding Up) during its activation.'); 
-/*Slow									--Index 117*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Slow', 'A model suffering Slow halves its Movement, rounding up.'); 
-/*Small									--Index 118*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Small', 'Small models may only be targeted by melee attacks.');
+/*Risen								--Index 109*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Risen', 'Models with the Risen ability may not be spawned. They may only enter play as a result of the Raise ability.');
+/*Rock Pile comes with				--Index 110*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Rock Pile comes with', '2 Rock Piles (Spawning Points)<br>1 Crusher<br>2 Bombardiers<br>2 Rollers<br>6 Slowpokes');
+/*Sentinel							--Index 111*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Sentinel', 'Models that are adjacent to a Sentinel structure add +1st to all defense rolls.');
+/*Shadows & Fog						--Index 112*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Shadows & Fog', 'All ranged attacks and effects targeting spawn points reduce their range by 2.');
+/*Shallow Grave comes with			--Index 113*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Shallow Grave comes with', '2 Shallow Graves (Spawning Points)<br>1 Dust Coven Necromancer<br>2 Dread Knights<br>2 Dust Mages<br>6 Boneheads<br>6 Rattle-Bones');
+/*Shapeshift						--Index 114*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Shapeshift', 'Shapeshift basic action to transform into the X whenever it chooses.');
+/*Sidestep							--Index 115*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Sidestep', 'Move 1 square anytime the model successfully makes a defense roll.');
+/*Slow								--Index 116*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Slow', 'A model or effect with Slow places a Slow counter on any model it damages. A model suffering Slow halves its speed (Rounding Up) during its activation.'); 
+/*Slow								--Index 117*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Slow', 'A model suffering Slow halves its Movement, rounding up.'); 
+/*Small								--Index 118*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Small', 'Small models may only be targeted by melee attacks.');
 /*Smoke								--Index 119*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Smoke', 'Squares affected by Smoke block line of sight. Models within a square affected by Smoke are considered to have Stealth.'); 
 /*Smoke								--Index 120*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Smoke', 'Models affected by Smoke gain Stealth.');
-/*Smooches							--Index 122*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Smooches', 'This model may Shapeshift back to is original form if a friendly model moves into an adjacent square and spends 1 Action Point to give it a kiss.');
-/*Splurt								--Index 123*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Splurt', 'When Burning Gel is destroyed, before removing the model, place two Fire Gels into play in any adjacent empty squares.');
-/*Spray									--Index 124*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Spray', 'A spray effect hits multiple models in a \"V\" pattern up to X squares away.'); 
-/*Spray									--Index 125*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Spray', 'A Spray effect hits multiple models in a \"V\" pattern up to X<br>squares away. Spray effects may not be used along diagonals<br>and distance portion (X) of a distance effect, but do not replace<br>any other aspect of the ability.'); 
-/*Squirrely							--Index 126*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Squirrely', 'When a model with Squirrely makes a defense roll, it may choose one of its dice and reroll it.');
-/*Static Charge						--Index 127*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Static Charge', 'Static Charge grants +1b dice to both STR and ARM for every wound token on card.');
-/*Status Effects						--Index 128*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Status Effects', 'Some attacks or abilities in the game will cause the models hit to<br>suffer status effects if they successfully deal damage to a model.<br>When a model suffers a status effect, place the appropriate<br>counter on their card. A model with a status effect counter suffers<br>its effects at all times until the counter is removed.<br>Sometimes a special action will cause a status effect. Since<br>special actions do not typically deal damage, instead any model<br>hit by the special action suffers the status effect listed. Note that,<br>unlike a special attack, a special action must specifically say that<br>it causes a status effect.<br>When a model gains a heart, they may choose to remove a status<br>effect counter from their card instead of removing a wound counter.<br>Typically, a model may only have one status effect counter of<br>each type on their card at once, but may have multiple status<br>effect counters.');
-/*Steal									--Index 129*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Steal', 'When a model with Steal inflicts a wound, it may discard one random card from the party’s backpack.');
-/*Stealth								--Index 130*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Stealth', 'When a model with Stealth is targeted by a ranged affect they may immediately make a DEX roll. Subtract the number of stars rolled from the attacker''s range. If the roll causes the attacker to be out of range the attack is considered to have failed.');
-/*Stocked								--Index 131*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Stocked', 'A model with Stocked begins the game with its maximum number of potions.');
-/*Structure							--Index 132*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Structure', 'Models cannot draw line of sight across or move through structures.');
-/*Stun									--Index 133*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Stun', 'A model or effect with Stun places a Stun counter on any model it damages. A model suffering Stun discards the highest result rolled anytime it makes a roll using its WILL attribute.');
-/*Sturdy								--Index 134*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Sturdy', 'A model with Sturdy may only be damaged by melee attacks. Wounds caused by Backlash do not advance the Power Gauge.'); 
-/*Sturdy								--Index 135*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Sturdy', 'A model with Sturdy may only be damaged by melee attacks.'); 
-/*Surefoot								--Index 136*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Surefoot', 'Each square of difficult terrain a made with Surefoot enters costs one speed instead of two.');
-/*Sweep								--Index 137*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Sweep', 'A Sweep effect hits every model within X squares of a single side of the users square, along a straight line.'); 
-/*Sweep								--Index 138*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Sweep', 'A Sweep effect hits every model within X squares of a single<br>side of the user’s square, along a straight line. Sweep effects<br>may not be used along diagonals and replace the distance<br>portion (X) of a distance effect, but do not replace any other<br>aspect of the ability.'); 
-/*Tail Sweep							--Index 139*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Tail Sweep', 'During his activation King Starfire may make a single attack, costing no action points with the following profile: Sweep 2, Knockdown, Tail Sweep does not cause Fire.');
-/*Teleport								--Index 140*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Teleport', 'A model that Teleports may move to any empty square within ten squares and line of sight of their current square.');
-/*The First Stone					--Index 141*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'The First Stone', 'A model with The First Stone gains +1b to all offensive rolls for each wound it is suffering, to a maximum of +3b.');
-/*The Red Stuff						--Index 142*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'The Red Stuff', 'All Heroes gain the following potion type:<br>Dragon''s Blood: Take one wound. +1R ATT, Fire');
-/*Tough								--Index 143*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Tough', 'At the beginning of their activation a model with tough may remove a single wound counter before status Effects are resolved.');
-/*Transfixing Gaze					--Index 144*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Transfixing Gaze', 'All Heroes within 3 squares of Von Drakk suffer Stun.');
-/*Tremors								--Index 145*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Tremors', 'When Roxor enters play place a Slow counter on every Hero.');
-/*Trophies								--Index 146*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Trophies', 'A model with Trophies gains +1st ARM for each Ghostflame in play. Once per turn, if there are four or more Ghostflames adjacent to a model with Trophies, the model may immediately equip one Relic Item.');
-/*Turtle								--Index 147*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Turtle', 'When activated replace this model with a Shell, The Shell is considered the same model as the one it replaced for all purposes. The model gains +1 ARM and Immune: Status Effects. A Shell may not move, attack, or use special actions.<br><br>When a model with Turtle is require to make a defense roll it may immediately activate Turtle for free before making the roll.<br><br>If Turtle is active at the beginning of this model''s activation replace the Shell with its original model. The model may then act normally during its turn which may include reactivating Turtle.');
-/*Virulent								--Index 148*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Virulent', 'Adds +1b dice to any offense roll they make if their target is suffering Poison.'); 
-/*Virulent								--Index 149*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Virulent', 'Add +1b to this model''s offense rolls if its target is suffering from Poison.'); 
-/*Vulnerable							--Index 150*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Vulnerable', 'If a model with vulnerable X is targeted by the ability listed as X, it immediately takes one wound in addition to any other effects of the ability.'); 
-/*Vulnerable							--Index 151*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Vulnerable', 'Status Effect. If a model with Vulnerable X is targeted<br>by the ability listed as X, it must discard the highest result rolled of any<br>defense roll it makes against that ability.'); 
-/*Vulnerable: Bind					--Index 152*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Vulnerable: Bind', 'A model with Vulnerable: Bind targeted by Bind must discard the highest result rolled of any defense roll it makes against an ability with Bind.');
-/*Vulnerable: Choke				--Index 153*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Vulnerable: Choke', 'A model with Vulnerable: Choke targeted by Choke must discard the highest result rolled of any defense roll it makes against an ability with Choke.');
-/*Vulnerable: Cold					--Index 154*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Vulnerable: Cold', 'A model with Vulnerable: Cold targeted by Cold must discard the highest result rolled of any defense roll it makes against an ability with Cold.');
-/*Vulnerable: Fire					--Index 155*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Vulnerable: Fire', 'A model with Vulnerable: Fire targeted by Fire must discard the highest result rolled of any defense roll it makes against an ability with Fire.');
-/*Vulnerable: Fragile				--Index 156*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Vulnerable: Fragile', 'A model with Vulnerable: Fragile targeted by Fragile must discard the highest result rolled of any defense roll it makes against an ability with Fragile.');
-/*Vulnerable: Immobile			--Index 157*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Vulnerable: Immobile', 'A model with Vulnerable: Immobile targeted by Immobile must discard the highest result rolled of any defense roll it makes against an ability with Immobile.');
-/*Vulnerable: Knockdown 		--Index 158*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Vulnerable: Knockdown', 'A model with Vulnerable: Knockdown targeted by Knockdown must discard the highest result rolled of any defense roll it makes against an ability with Knockdown.');
-/*Vulnerable: Pacify				--Index 159*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Vulnerable: Pacify', 'A model with Vulnerable: Pacify targeted by Pacify must discard the highest result rolled of any defense roll it makes against an ability with Pacify.');
-/*Vulnerable: Poison				--Index 160*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Vulnerable: Poison', 'A model with Vulnerable: Poison targeted by Poison must discard the highest result rolled of any defense roll it makes against an ability with Poison.');
-/*Vulnerable: Slow				--Index 161*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Vulnerable: Slow', 'A model with Vulnerable: Slow targeted by Slow must discard the highest result rolled of any defense roll it makes against an ability with Slow.');
-/*Vulnerable: Stun				--Index 162*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Vulnerable: Stun', 'A model with Vulnerable: Stun targeted by Stun must discard the highest result rolled of any defense roll it makes against an ability with Stun.');
-/*Vulnerable: Weak				--Index 163*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Vulnerable: Weak', 'A model with Vulnerable: Weak targeted by Weak must discard the highest result rolled of any defense roll it makes against an ability with Weak.');
-/*Wave									--Index 164*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Wave', 'A Wave effect is centered on the user''s square and hits the user and every model within X squares of the user. Waves replace the ranged effect of an ability but do not replace any other aspect of the ability.'); 
-/*Wave									--Index 165*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Wave', 'A Wave effect is centered<br>on the user’s square and<br>hits the user and every<br>model within X squares of<br>the user. Waves replace the<br>distance portion (X) of a<br>distance effect, but do not<br>replace any other aspect of<br>the ability.');
-/*Wave									--Index 166*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Wave', 'A Wave effect is centered on the user’s base and every square within X squares of the user.');
-/*Weak									--Index 167*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Weak', 'A model or effect with Weak places a Weak counter on any model it damages. A model suffering Weak discards the highest result rolled anytime it makes a roll using its ATT attribute.');
+/*Smooches							--Index 121*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Smooches', 'This model may Shapeshift back to is original form if a friendly model moves into an adjacent square and spends 1 Action Point to give it a kiss.');
+/*Splurt								--Index 122*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Splurt', 'When Burning Gel is destroyed, before removing the model, place two Fire Gels into play in any adjacent empty squares.');
+/*Spray									--Index 123*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Spray', 'A spray effect hits multiple models in a \"V\" pattern up to X squares away.'); 
+/*Spray									--Index 124*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Spray', 'A Spray effect hits multiple models in a \"V\" pattern up to X<br>squares away. Spray effects may not be used along diagonals<br>and distance portion (X) of a distance effect, but do not replace<br>any other aspect of the ability.'); 
+/*Squirrely							--Index 125*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Squirrely', 'When a model with Squirrely makes a defense roll, it may choose one of its dice and reroll it.');
+/*Static Charge						--Index 126*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Static Charge', 'Static Charge grants +1b dice to both STR and ARM for every wound token on card.');
+/*Status Effects						--Index 127*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Status Effects', 'Some attacks or abilities in the game will cause the models hit to<br>suffer status effects if they successfully deal damage to a model.<br>When a model suffers a status effect, place the appropriate<br>counter on their card. A model with a status effect counter suffers<br>its effects at all times until the counter is removed.<br>Sometimes a special action will cause a status effect. Since<br>special actions do not typically deal damage, instead any model<br>hit by the special action suffers the status effect listed. Note that,<br>unlike a special attack, a special action must specifically say that<br>it causes a status effect.<br>When a model gains a heart, they may choose to remove a status<br>effect counter from their card instead of removing a wound counter.<br>Typically, a model may only have one status effect counter of<br>each type on their card at once, but may have multiple status<br>effect counters.');
+/*Steal									--Index 128*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Steal', 'When a model with Steal inflicts a wound, it may discard one random card from the party’s backpack.');
+/*Stealth								--Index 129*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Stealth', 'When a model with Stealth is targeted by a ranged affect they may immediately make a DEX roll. Subtract the number of stars rolled from the attacker''s range. If the roll causes the attacker to be out of range the attack is considered to have failed.');
+/*Stocked								--Index 130*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Stocked', 'A model with Stocked begins the game with its maximum number of potions.');
+/*Structure							--Index 131*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Structure', 'Models cannot draw line of sight across or move through structures.');
+/*Stun									--Index 132*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Stun', 'A model or effect with Stun places a Stun counter on any model it damages. A model suffering Stun discards the highest result rolled anytime it makes a roll using its WILL attribute.');
+/*Sturdy								--Index 133*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Sturdy', 'A model with Sturdy may only be damaged by melee attacks. Wounds caused by Backlash do not advance the Power Gauge.'); 
+/*Sturdy								--Index 134*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Sturdy', 'A model with Sturdy may only be damaged by melee attacks.'); 
+/*Surefoot								--Index 135*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Surefoot', 'Each square of difficult terrain a made with Surefoot enters costs one speed instead of two.');
+/*Sweep								--Index 136*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Sweep', 'A Sweep effect hits every model within X squares of a single side of the users square, along a straight line.'); 
+/*Sweep								--Index 137*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Sweep', 'A Sweep effect hits every model within X squares of a single<br>side of the user’s square, along a straight line. Sweep effects<br>may not be used along diagonals and replace the distance<br>portion (X) of a distance effect, but do not replace any other<br>aspect of the ability.'); 
+/*Tail Sweep							--Index 138*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Tail Sweep', 'During his activation King Starfire may make a single attack, costing no action points with the following profile: Sweep 2, Knockdown, Tail Sweep does not cause Fire.');
+/*Teleport								--Index 139*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Teleport', 'A model that Teleports may move to any empty square within ten squares and line of sight of their current square.');
+/*The First Stone					--Index 140*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'The First Stone', 'A model with The First Stone gains +1b to all offensive rolls for each wound it is suffering, to a maximum of +3b.');
+/*The Red Stuff						--Index 141*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'The Red Stuff', 'All Heroes gain the following potion type:<br>Dragon''s Blood: Take one wound. +1R ATT, Fire');
+/*Tough								--Index 142*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Tough', 'At the beginning of their activation a model with tough may remove a single wound counter before status Effects are resolved.');
+/*Transfixing Gaze					--Index 143*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Transfixing Gaze', 'All Heroes within 3 squares of Von Drakk suffer Stun.');
+/*Tremors								--Index 144*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Tremors', 'When Roxor enters play place a Slow counter on every Hero.');
+/*Trophies								--Index 145*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Trophies', 'A model with Trophies gains +1st ARM for each Ghostflame in play. Once per turn, if there are four or more Ghostflames adjacent to a model with Trophies, the model may immediately equip one Relic Item.');
+/*Turtle								--Index 146*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Turtle', 'When activated replace this model with a Shell, The Shell is considered the same model as the one it replaced for all purposes. The model gains +1 ARM and Immune: Status Effects. A Shell may not move, attack, or use special actions.<br><br>When a model with Turtle is require to make a defense roll it may immediately activate Turtle for free before making the roll.<br><br>If Turtle is active at the beginning of this model''s activation replace the Shell with its original model. The model may then act normally during its turn which may include reactivating Turtle.');
+/*Virulent								--Index 147*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Virulent', 'Adds +1b dice to any offense roll they make if their target is suffering Poison.'); 
+/*Virulent								--Index 148*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Virulent', 'Add +1b to this model''s offense rolls if its target is suffering from Poison.'); 
+/*Vulnerable							--Index 149*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Vulnerable', 'If a model with vulnerable X is targeted by the ability listed as X, it immediately takes one wound in addition to any other effects of the ability.'); 
+/*Vulnerable							--Index 150*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Vulnerable', 'Status Effect. If a model with Vulnerable X is targeted<br>by the ability listed as X, it must discard the highest result rolled of any<br>defense roll it makes against that ability.'); 
+/*Vulnerable: Bind					--Index 151*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Vulnerable: Bind', 'A model with Vulnerable: Bind targeted by Bind must discard the highest result rolled of any defense roll it makes against an ability with Bind.');
+/*Vulnerable: Choke					--Index 152*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Vulnerable: Choke', 'A model with Vulnerable: Choke targeted by Choke must discard the highest result rolled of any defense roll it makes against an ability with Choke.');
+/*Vulnerable: Cold					--Index 153*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Vulnerable: Cold', 'A model with Vulnerable: Cold targeted by Cold must discard the highest result rolled of any defense roll it makes against an ability with Cold.');
+/*Vulnerable: Fire					--Index 154*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Vulnerable: Fire', 'A model with Vulnerable: Fire targeted by Fire must discard the highest result rolled of any defense roll it makes against an ability with Fire.');
+/*Vulnerable: Fragile				--Index 155*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Vulnerable: Fragile', 'A model with Vulnerable: Fragile targeted by Fragile must discard the highest result rolled of any defense roll it makes against an ability with Fragile.');
+/*Vulnerable: Immobile				--Index 156*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Vulnerable: Immobile', 'A model with Vulnerable: Immobile targeted by Immobile must discard the highest result rolled of any defense roll it makes against an ability with Immobile.');
+/*Vulnerable: Knockdown 			--Index 157*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Vulnerable: Knockdown', 'A model with Vulnerable: Knockdown targeted by Knockdown must discard the highest result rolled of any defense roll it makes against an ability with Knockdown.');
+/*Vulnerable: Pacify				--Index 158*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Vulnerable: Pacify', 'A model with Vulnerable: Pacify targeted by Pacify must discard the highest result rolled of any defense roll it makes against an ability with Pacify.');
+/*Vulnerable: Poison				--Index 159*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Vulnerable: Poison', 'A model with Vulnerable: Poison targeted by Poison must discard the highest result rolled of any defense roll it makes against an ability with Poison.');
+/*Vulnerable: Slow					--Index 160*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Vulnerable: Slow', 'A model with Vulnerable: Slow targeted by Slow must discard the highest result rolled of any defense roll it makes against an ability with Slow.');
+/*Vulnerable: Stun					--Index 161*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Vulnerable: Stun', 'A model with Vulnerable: Stun targeted by Stun must discard the highest result rolled of any defense roll it makes against an ability with Stun.');
+/*Vulnerable: Weak					--Index 162*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Vulnerable: Weak', 'A model with Vulnerable: Weak targeted by Weak must discard the highest result rolled of any defense roll it makes against an ability with Weak.');
+/*Wave								--Index 163*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Wave', 'A Wave effect is centered on the user''s square and hits the user and every model within X squares of the user. Waves replace the ranged effect of an ability but do not replace any other aspect of the ability.'); 
+/*Wave									--Index 164*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Wave', 'A Wave effect is centered<br>on the user’s square and<br>hits the user and every<br>model within X squares of<br>the user. Waves replace the<br>distance portion (X) of a<br>distance effect, but do not<br>replace any other aspect of<br>the ability.');
+/*Wave									--Index 165*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Wave', 'A Wave effect is centered on the user’s base and every square within X squares of the user.');
+/*Weak									--Index 166*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Weak', 'A model or effect with Weak places a Weak counter on any model it damages. A model suffering Weak discards the highest result rolled anytime it makes a roll using its ATT attribute.');
 --Table Load 2
 --1.0
 --Abilities
@@ -371,7 +371,7 @@ create table MightyMonsters (MightyMonsterIndex bigint IDENTITY(0,1) PRIMARY KEY
 /*Skully 							--Index 116*/ 	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0', 'Default', 'Skully', 'Potion', 'Offense', 1, -1, 1, 'R Wave 2, +1R Attack, Dangerous');
 /*Smite 							--Index 117*/ 	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0', 'Default', 'Smite', 'Action', 'Offense', 2, 0, 1, '+1R Attack, Knockdown, Fire');
 /*Smoke Pot						--Index 118*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0', 'Default', 'Smoke Pot', 'Action', 'Support', 1, 0, -1, 'Burst 1, Smoke'); 
-/*Snare							--Index 118*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0', 'Default', 'Snare', 'Action', 'Support', 1, -1, -1, 'Pull 5');
+/*Snare							--Index 119*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0', 'Default', 'Snare', 'Action', 'Support', 1, -1, -1, 'Pull 5');
 /*Sneak Attack!					--Index 120*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0', 'Default', 'Sneak Attack!', 'Action', 'Offense', 2, 0, 5, '+1R Attack, Knockdown, Pounce (Before making an attack roll, immediately Fly up to 5 squares.  The model must end this movement adjacent to an enemy model.)');
 /*Solar Flare						--Index 121*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0', 'Default', 'Solar Flare', 'Action', 'Offense', 2, 0, 8, 'Missile 8, Burst 1');
 /*Soothe							--Index 122*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0', 'Default', 'Soothe', 'Action', 'Support', 1, -1, 6, 'Augment, Range 6, Heal 1 (A model affected by Heal may remove a number of wound counters or a number of status effect counters equal to the value of X.)');
@@ -483,7 +483,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Born of fire and hardship, barbarians come from the edges of the Dragonback Peaks.  The hard lives they can scrape out of the rough earth and fiery landscape is meager at best, it is no wonder that many take to wandering.');
 insert into Characters (CardIndex) VALUES (4);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (4, 7); --Berserk
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (4, 143); --Tough
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (4, 142); --Tough
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (4, 92); --Rage
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (4, 55); --Fury's Blood
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (4, 'Feminine', 'Small', 'Human Hero', 6, 3, '2R', '3B', '2B', '2B', 5, 1);
@@ -499,7 +499,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (5);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (5, 76); --Luck
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (5, 79); --Magic 8
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (5, 136); --Surefoot
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (5, 135); --Surefoot
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (5, 10); --Black Cat
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (5, 21); --Cat & Mouse
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (5, 99); --Scratch
@@ -617,7 +617,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (12);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (12, 29); --Dodge
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (12, 118); --Small
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (12, 122); --Smooches
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (12, 121); --Smooches
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (12, 130); --Sticky Tongue
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (12, 'Either', 'Small', 'Shapeshift', 5, 3, '1B', '0', '2B', '3B', 5, 1);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (12, 0, 1); --Attack
@@ -701,7 +701,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (17);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (17, 29); --Dodge
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (17, 76); --Luck
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (17, 130); --Stealth
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (17, 129); --Stealth
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (17, 7); --Bamf!
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (17, 6); --Backstab
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (17, 35); --Dimensional Draught
@@ -781,8 +781,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Hero', '1.0', '1.0 Core Set', 'Default',   
 'Through rigid study and discipline the Von Wildings seek to tasme their inner beast.  Though not entirely successful, they have become very adept at "Aiming" their Wilder side in the right direction.');
 insert into Characters (CardIndex) VALUES (22);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (22, 143); --Tough
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (22, 151); --Vulnerable: Magic
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (22, 142); --Tough
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (22, 412); --Vulnerable: Magic  
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (22, 103); --Shag Fest
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (22, 108); --Shapeshift
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (22, 'Masculine', 'Large', 'Shapeshift', 6, 3, '2B1R', '1B1R', '2B', '2B', 6, 1);
@@ -879,7 +879,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Fiendish constructs, the Boo Booty masquerades as a normal treasure chest.  When a greedy hero strays too near it springs to life, devouring them equipment and all.');
 insert into Characters (CardIndex) VALUES (25);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (25, 5); --Backlash
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (25, 134); --Sturdy
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (25, 133); --Sturdy
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (25, 13); --Boo!
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (25, 'Either', 'Small', 'Trap', 3, 1, '2R', '2R', '1B', '1B', 2, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (25, 0, 1);
@@ -945,7 +945,7 @@ insert into Characters (CardIndex) VALUES (29);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (29, 82); --Missile 8
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (29, 29); --Dodge
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (29, 90); --Poison
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (29, 130); --Stealth
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (29, 129); --Stealth
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (29, 27); --Corrosive Striked
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (29, 32); --Dark Aura
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
@@ -964,7 +964,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Kasaro To has no love for heroics.  Lord Nozuki has corrupted the Super Dungeon Explore code, allowing his most favored servant to invade the Consul''s dungeons.  Kasaro To is prepared to wreak carnage and destruction upon the happless heroes of Crystalia.');
 insert into Characters (CardIndex) VALUES (30);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (30, 7); --Berserk
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (30, 143); --Tough
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (30, 142); --Tough
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (30, 30); --Crippling Smash
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (30, 101); --Serpent Coil
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (30, 154); --Zealotry
@@ -1000,12 +1000,12 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'MiniBoss', '1.0', '1.0 Core Set', 'Explore',
 'Rock Gut loves rock.  Rock Gut would marry rock if he could.  Sometimes Rock Gut talks to rock.  He finds rock very understanding and a good listener.  Mainly Rock Gut eats rock, digesting it in his fiery belly.  Unfortunately, to Rock Gut everything is "rock".  Even if you''re really a squirming Hero.');
 insert into Characters (CardIndex) VALUES (32);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (32, 143); --Tough
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (32, 142); --Tough
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (32, 32); --Fire
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (32, 54); --Immune: Fire
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (32, 151); --Vulnerable: Cold
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (32, 153); --Vulnerable: Cold
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (32, 45); --Feast
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (32, 17); --Burning Bile
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (32, 16); --Burning Bile
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (32, 'Masculine', 'Large', 'Troll', 6, 3, '3B 1R', '1ST 1R', '1B', '2B', 4, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (32, 0, 1); --Attack
@@ -1022,7 +1022,7 @@ insert into Characters (CardIndex) VALUES (33);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (33, 57); --Immune: Knockdown
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (33, 32); --Fire
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (33, 83); --Mob
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (33, 19); --Burning Blade
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (33, 18); --Burning Blade
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (33, 65); --Hightower
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (33, 93); --Rally Cry
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
@@ -1064,7 +1064,7 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (35,
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (35, 11); --Blood Drinker
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (35, 36); --Fly
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (35, 136); --Terrifying Screech
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (35, 107); --Shapeshift
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (35, 106); --Shapeshift
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (35, 'Masculine', 'Large', 'Shapeshift', 8, 4, '2ST 2B 2R', '2B 2R', '3R', '2R', 6, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (35, 0, 1); --Attack
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (35, 2); --Armor
@@ -1099,7 +1099,7 @@ insert into Characters (CardIndex) VALUES (37);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (37, 36); --Fly
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (37, 54); --Immune: Fire
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (37, 57); --Immune: Knockdown
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (37, 38); --Dragon Breath
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (37, 37); --Dragon Breath
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (37, 134); --Tail Sweep
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (37, 'Masculine', 'Large', 'Dragon', 6, 4, '1ST 2R 1G', '1B 1R 1G', '2R', '2R', 8, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (37, 0, 1); --Attack
@@ -1115,7 +1115,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (38);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (38, 11); --Blood Drinker
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (38, 29); --Dodge
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (38, 106); --Shapeshift
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (38, 107); --Shapeshift
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (38, 56); --Ghastly Vigor
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (38, 140); --Tide of Bones
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (38, 'Masculine', 'Small', 'Undead Vampire', 8, 4, '2ST 4B', '2R', '1ST 2R', '3R', 6, 0);
@@ -1222,7 +1222,7 @@ insert into Characters (CardIndex) VALUES (45);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (45, 82); --Missile 6
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (45, 83); --Mob
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (45, 69); --Hot Pot
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (45, 116); --Smoke Pot
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (45, 118); --Smoke Pot
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (45, 'Either', 'Small', 'Kobold', 7, 1, '2B', '0st', '2B', '1B 1R', 1, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (45, 0, 1); --Attack
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (45, 4, 6); --Dexterity
@@ -1312,8 +1312,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (51); 
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (51, 32); --Fire
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (51, 54); --Immune: Fire
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (51, 151); --Vulnerable: Cold
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (51, 123); --Splurt
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (51, 153); --Vulnerable: Cold
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (51, 122); --Splurt
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (51, 127); --Splash
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (51, 'Either', 'Large', 'Gel', 6, 2, '3B', '0st', '2B', '1B 1R', 1, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (51, 0, 1); --Attack
@@ -1328,7 +1328,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Concealed in a cloak of ash, the Ember Hound stalks travelers whose campfires burn too brightly at night.');
 insert into Characters (CardIndex) VALUES (52); 
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (52, 54); --Immune: Fire
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (52, 130); --Stealth
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (52, 129); --Stealth
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (52, 3); --Ash Cloud
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (52, 'Either', 'Small', 'Elemental', 8, 1, '1R 1B', '1st', '2B', '1R 1B', 1, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (52, 0, 1); --Attack
@@ -1344,7 +1344,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (53); 
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (53, 32); --Fire
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (53, 54); --Immune: Fire
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (53, 151); --Vulnerable: Cold
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (53, 153); --Vulnerable: Cold
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (53, 75); --Little Splurt
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (53, 65); --Insignificant
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (53, 'Either', 'Small', 'Gel', 6, 1, '3B', '0st', '3B', '2B', 1, 0);
@@ -1373,7 +1373,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '1.0', 'Von Drakk Manor', 'Explore',
 'Spiders are favored guardians of the many crypts and barrows in the Glauerdoom.  They have no interest in the dead nor in their treasures.  Cruel, cunning, and immeasurably patient they wait in elaborately spun webs.  They know the lure of treasure and plunder is irresistable to the living.  Soon enough foolish Heroes will come and then it will feast.');
 insert into Characters (CardIndex) VALUES (55); 
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (55, 136); --Surefoot
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (55, 135); --Surefoot
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (55, 44); --Enervating Bite
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (55, 115); --Silk Spinner
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (55, 'Either', 'Large', 'Spider', 6, 3, '2R', '3B', '2B', '1B 1R', 3, 0);
@@ -1440,7 +1440,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '1.0', 'Caverns of Roxor', 'Explore',
 'Delighting in explosions, Bombardiers happily fire their cannons into the midst of any combat, hitting friend and foe alike.  Because of this, bombardiers do not have many friends, not even other Rocktops, who quickly tuck themselves safely into their shells at the first booming report of the Bombardier''s cannon.');
 insert into Characters (CardIndex) VALUES (59); 
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (59, 147); --Turtle
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (59, 146); --Turtle
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (59, 144); --Turtle Power
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (59, 111); --Shell Shock
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (59, 143); --Turtle Cannon
@@ -1470,7 +1470,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '1.0', 'Caverns of Roxor', 'Explore',
 'Rollers love a good bit of sport.  Stomping through the tunnels they happilly line Slowpokes up for a game of Nineshells, chortling merrily as an expert shot sends shells rebounding and ricocheting throughout the mines.');
 insert into Characters (CardIndex) VALUES (61); 
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (61, 147); --Turtle
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (61, 146); --Turtle
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (61, 138); --Thwack!
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (61, 144); --Turtle Power
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (61, 'Either', 'Small', 'Rocktop', 5, 2, '1B 1R', '1st', '3B', '2B', 2, 0);
@@ -1485,7 +1485,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '1.0', 'Caverns of Roxor', 'Explore',
 '');
 insert into Characters (CardIndex) VALUES (62); 
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (62, 147); --Turtle
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (62, 146); --Turtle
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (62, 144); --Turtle Power
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (62, 'Either', 'Small', 'Rocktop', 5, 1, '3B', '0st', '3B', '2B', 1, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (62, 0, 1); --Attack
@@ -1661,7 +1661,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Chilled to the bone.');
 insert into Equipment (CardIndex, Position, Effect) VALUES (76, 'Top', '+1G WILL');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (4, 23); --Cold
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (4, 151); --Vulnerable: Fire
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (4, 154); --Vulnerable: Fire
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (4, 38); --Von Drakk
 --Black Spot --EquipmentIndex 5 --CardIndex 77
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Black Spot',
@@ -1726,7 +1726,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '1.0', '1.0 Core Set', 'Default',
 'Uh, did you see something just move?');
 insert into Equipment (CardIndex, Position, Effect) VALUES (83, 'Top', '+1R DEX');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (11, 130); --Stealth
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (11, 129); --Stealth
 --Corpse Hand --EquipmentIndex 12 --CardIndex 84
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Corpse Hand',
 'http://htkb.info/SDE/1.0/Cards/Loot/Card_Loot_Corpse_Hand_1.0.png', 
@@ -1829,7 +1829,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Oh gross!');
 insert into Equipment (CardIndex, Position, Effect) VALUES (94, 'Top', '+1G WILL');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (22, 54); --Immune: Fire
-insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (22, 126); --Fire Gel Goo
+insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (22, 126); --Splash
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (22, 36); --Roxor
 --Fireflow Brew --EquipmentIndex 23 --CardIndex 95
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Fireflow Brew',
@@ -2190,7 +2190,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Loot', '1.0', '1.0 Core Set', 'Default',
 'Your strength is now mine.');
 insert into Equipment (CardIndex, Position, Effect) VALUES (135, 'Left', '+1B Attack');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (63, 167); --Weak
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (63, 166); --Weak
 --Serpent Plate --EquipmentIndex 64 --CardIndex 136
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Serpent Plate',
 'http://htkb.info/SDE/1.0/Cards/Loot/Card_Loot_Serpent_Plate_1.0.png', 
@@ -2340,7 +2340,7 @@ VALUES ('Difficult Terrain',
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Terrain_Cards/Difficult_Terrain.xhtml', 
 'Terrain', '1.0', '1.0 Core Set', 'Default', '');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (151, '');
-insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (0, 498); --Difficult Terrain
+insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (0, 27); --Difficult Terrain
 
 --Lava --CardIndex 152	--UtilityIndex 1	--TerrainIndex 1
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
@@ -2350,8 +2350,8 @@ VALUES ('Lava',
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Terrain_Cards/Lava.xhtml', 
 'Terrain', '1.0', '1.0 Core Set', 'Default', '');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (152, 'A model entering a Lava square suffers Fire.'); 
-insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (1, 697); --Lava
-insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (1, 498); --Difficult Terrain--1.0 Utility Cards
+insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (1, 72); --Lava
+insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (1, 27); --Difficult Terrain--1.0 Utility Cards
 --Rules Addendum and Errata
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
 VALUES ('Rules Addendum and Errata',
@@ -2362,259 +2362,262 @@ VALUES ('Rules Addendum and Errata',
 insert into Utilities (CardIndex, UtilityDescription) VALUES (153, 'Offensive Potions:<br>Offensive Potions: are indicated by a green potion icon.<br><br>An Offensive Potion provides a model with a single use special action blue or special attack red.  These effects follow all normal rules for resolving special actions and attacks, including being able to target enemies and requiring attack and defense rolls (if the potion provides special attack).  They require no action points to use and are instead used by spending a potion token in the same manner as a normal potion, but may only be used during a model''s activation.<br><br>Vulnerable: X<br>Status Effect:  A model suffering Vulnerable X must discard the highest result rolled anytime it makes a defense roll against an attack or action which includes or uses the ability listed as X.'); 
 --Table Load 1
 --FK
-/*9 Lives						--Index 456*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', '9 Lives', 'One Use Only. When a model with 9 lives is destroyed, immediately roll 1r. Remove one wound token for each star rolled If no stars are rolled the model is destroyed as normal.');
-/*Alchemy						--Index 457*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Alchemy', 'When a model with Alchemy rolls a heart they may choose to gain a potion instead.');
-/*All-Seeing					--Index 458*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'All-Seeing', 'This Pet’s Master gains Hookshot on its basic Magic attack if it has one, so long as it begins its activation within 2 squares of this Pet.');
-/*Ambush						--Index 459*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Ambush', 'When this model spawns or enters play using a Princess Coin, it may be placed on any open square in the dungeon.');
-/*Angry Walrus					--Index 460*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Angry Walrus', 'At the end of the Consul''s power-up phase, the Consul rolls 1B. If no stars are rolled, nothing happens.  If any stars are rolled, the Consul may move the model with Angry Walrus up to one square for each star rolled and then make a basic melee offensive action against any other member of the party in range.  Arcade: the Hero''s controller rolls and must move towards and attack the closest other friendly model if stars are rolled.');
-/*Animate Soul					--Index 461*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Animate Soul', 'Place a crystal token on target Hero. When the Hero is destroyed, if the model that placed the crystal is not in play, remove the crystal token to spawn the model that placed the crystal adjacent to the Hero. The model spawned in this way suffers three wounds after being placed.');
-/*Area							--Index 462*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Area', 'When an area is drawn place the appropriate template anywhere within the tile.\r\n\r\nTrap templates may not be placed across walls, structures, or chasms. They may be placed in the same square as a friendly or enemy models.');
-/*Aura							--Index 463*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Aura', 'An Aura effect is centered on the user’s base and every square within X squares of the user. Auras remain in play, centered on and moving with the user, until their next upkeep.');
-/*Back Strike					--Index 464*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Back Strike', '+1ST STR if the gang''s target did not activate during the previous Hero Turn.');
-/*Backlash						--Index 465*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Backlash', 'If a model with Backlash exceeds an offense roll with their defense roll the attacker takes one wound.');
-/*Backlash						--Index 466*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Backlash', 'When a model with Backlash is targeted by an offensive action and wins the defense roll, the model making the Offense roll suffers one wound. A model may not draw a loot card for destroying a model due to Backlash.",');
-/*Backstabber					--Index 467*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Backstabber', 'Whenever the Model suffers a wound can place it on a friendly model adjacent instead.');
-/*Backstabber					--Index 468*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Backstabber', 'When a model with Backstabber suffers a wound, they may place the wound token on an adjacent friendly model instead.');
-/*Bane							--Index 469*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Explore', 'Bane', 'A model suffering Bane discards the highest result rolled anytime it makes a defense roll.');
-/*Bane							--Index 470*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Arcade', 'Bane', 'A monster suffering Bane reduces its ARM by 1st.)');
-/*Bane Aura						--Index 471*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Bane Aura', 'Monsters with Ruby affinity that are within 2 squares of Shallow Grave gain Bane.');
-/*Baptized by Fire				--Index 472*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Baptized by Fire', 'King Starfire may remove one wound token fro every Hero suffering FIRE.');
-/*Berserk						--Index 473*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Berserk', 'During its activation a model with Berserk may make a single Melee Attack costing no action points.');
-/*Blessed Strike				--Index 474*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Blessed Strike', 'A model with Blessed Strike gains +1st to all offense rolls it makes for each spent Princess Coin on its card.');
-/*Blood Drinker					--Index 475*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Blood Drinker', 'When a model with Blood Drinker inflicts a wound they may remove one wound or one status effect for every wound rolled.');
-/*Bone Collector				--Index 476*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Bone Collector', 'A model with Bone Collector may use Hearts it rolls during successful offensive actions on Pets as well as Heroes.');
-/*Bone Pile						--Index 477*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Bone Pile', 'When a model with Bone Pile is destroyed replace it with a Bone Pile Token. If all Bone Piles are already on the dungeon map move the Bone Pile furthest from the Heroes to the new square. Enemy models may spend 2 movement points to remove an adjacent Bone Pile from play.');
-/*Bramble Growth				--Index 478*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Bramble Growth', 'Heroes that do not have Emerald affinity count squares within 2 squares of Bramble Knight as difficult terrain.');
-/*Bruiser						--Index 479*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Arcade', 'Bruiser', '+1st STR if a model with Bruiser is in the gang.');
-/*Burrow						--Index 480*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Burrow', 'A model with Burrow ignores structures and walls when moving.');
-/*Burrow						--Index 481*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Burrow', 'A model with Burrow may move through walls, and treats difficult terrain and structure squares as open squares. All non-blessing tile effects in squares are ignored.');
-/*Burst							--Index 482*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Burst', 'Determine a Burst effect’s target as normal using the action’s Range. After the target has been selected, it and every model within X squares of the target are affected. Squares that the target cannot draw line of sight to are not affected. If a large based model is targeted by a Burst area effect choose one square occupied by its base as the square targeted and determine the area effect as normal.');
-/*Burning Blades				--Index 483*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Burning Blades', 'A Hero with a Citrine Slime on its card may not benefit from Citrine equipment.');
-/*Champion						--Index 484*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Champion', 'Models that are adjacent to a Champion structure add +1st to all offense rolls.');
-/*Chasm							--Index 485*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Chasm', 'Models cannot move through chasms. Models can draw line of sight through chasms.');
-/*Citrine Goop					--Index 486*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Arcade', 'Citrine Goop', 'All elite and minon monsters gain the ability FIRE.');
-/*Cola							--Index 487*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Cola', 'During upkeep roll 1b. For every star rolled Candy gains one potion.');
-/*Compel						--Index 488*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Compel', 'A model targeted by Compel may be moved a number of squares up to the value of X in any direction.');
-/*Control Effects				--Index 489*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Control Effects', 'Control Effects allow one model to move another model. A model that is moved as a result of a control effect does not count as having been activated and may still activate and move as normal during their own turn. A model may never be moved in a manner that would not be legal for them to move on their own. Difficult terrain and other tile effects are treated as normal.');
-/*Corpse Stench					--Index 490*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Corpse Stench', 'When a model with Corpse Stench suffers damage, all adjacent enemy models suffer Slow.');
-/*Cross							--Index 491*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Cross', 'A Cross effect is centered on the user’s base and every square within X squares of the user, but does not affect any diagonal squares.');
-/*Crystal Heart					--Index 492*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Crystal Heart', 'When a model with Crystal Heart enters play, place one crystal token on it''s card. The model gains the abilities of the corresponding crystal until it is destroyed:<br>Amethyst - Dark Radiance: All offense rolls and defense rolls made against a model with Dark Radiance reduce the result by 1.<br>Citrine - Predator: When an enemy model moves out of a square that is adjacent to a model with Predator, the model with Predator may immediately make a Melee Attack against that model.<br>Emerald - Charge: When a model with Charge uses a Lance, the model may be placed in any unoccupied square that was affected by the Lance for free.<br>Ruby - Fire, Fueled by Fire: A model with Fueled by Fire adds 1R to all offensive rolls for each model suffering fire.<br>Sapphire - Defender: Models without Defender that are adjacent to a friendly model with Defender cannot be targeted by offensive actions.');
-/*Curse							--Index 493*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Curse', 'A model suffering Curse discards the highest result rolled anytime it makes a defense roll.');
-/*Cursed						--Index 494*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Cursed', 'Equipment with Cursed must be equipped during Power-Up if any Hero has an available slot, and cannot be removed or discarded unless the model is destroyed.');
-/*Dark Radiance					--Index 495*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Dark Radiance', 'All offense rolls and defense rolls made against a model with Dark Radiance reduce the result by 1ST.');
-/*Defender						--Index 496*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Defender', 'Models without Defender that are adjacent to a friendly model with Defender cannot be targeted by offensive actions.');
-/*Despair						--Index 497*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Despair', 'Enemy models within two squares of a model with Despair reduce the result of all defense rolls by 1st.');
-/*Difficult Terrain				--Index 498*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Difficult Terrain', 'Each square of difficult terrain a model enters costs two movement points. If a model does not have enough movement points to move into a square with difficult terrain, it may not do so.<br>If any part of a large based model enters a square of difficult terrain, the move costs two movement points. Do not count squares a large model already occupies.');
-/*Dodge							--Index 499*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Dodge', 'A model with Dodge may use their Dex when making defense rolls unless they are suffering from Knockdown, Immobile, Slow.');
-/*Dragon Blessing				--Index 500*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Dragon Blessing', 'Dragons, Drakes, and Kobolds within 2 squares of Claw Shrine gain +1st STR');
-/*Dragon Spite					--Index 501*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Dragon Spite', 'A model with Dragon Spite may reroll a single dice when making offensive actions against dragon, drake, or kobold models.');
-/*Earthquake					--Index 502*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Earthquake', 'All Heroes suffer KNOCKDOWN.');
-/*Elemental Affinity			--Index 503*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Elemental Affinity', 'For each model with Elemental Affinity choose one element from the Elemental Affinity card at the beginning of the game. That model gains the chosen element''s abilities. If the model is a spawning point, all models spawned from that point gain the chosen elements abilities. Paired spawning points must choose the same element.');
-/*Emerald Glop					--Index 504*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Arcade', 'Emerald Glop', 'A Hero with an Emerald Slime on its card may not benefit from Emerald equipment.');
-/*Experimental Concoction		--Index 505*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Experimental Concoction', 'Fae Alchemist draws two treasure cards. Choose one card and shuffle the other back into the deck. Fae Alchemist gains the effects listed on the chosen card until the beginning of her next activation, then discards the card. Note, Fae Alchemist gains this effect even if she has a treasure card equipped as normal. Only Fae Alchemist may drink Experimental Concoction.');
-/*Extra Scared					--Index 506*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Arcade', 'Extra Scared', 'A Hero with a Ghost on its card may not remove status effect tokens from its card at the end of its activation or when a heart is rolled.');
-/*Feed Me						--Index 507*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Explore', 'Feed Me', 'Eat one friendly model within melee range to heal one wound.');
-/*Feed Me						--Index 508*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Explore', 'Feed Me', 'Once per activation a model with Feed Me may remove one friendly model within melee range from play to heal one wound or remove a single a status effect.');
-/*Feint							--Index 509*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Feint', 'Force the target to reroll one of its defense dice.');
-/*Feint							--Index 510*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Explore', 'Feint', 'When a model with Feint makes an offensive action, they may choose one dice from their target''s defense roll and force them to reroll the result.');
-/*Feint							--Index 511*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Arcade', 'Feint', 'When a model with Feint makes an offensive action, decrease ARM of target model by 1ST.');
-/*Fire							--Index 512*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Fire', 'A model suffering Fire suffers one wound during its upkeep.');
-/*Fire Aura						--Index 513*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Fire Aura', 'Monsters with CITRINE affinity that are within 2 squares of Lava Whirl gain FIRE.');
-/*Fire Storm					--Index 514*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Fire Storm', 'All Heroes suffer FIRE.');
-/*Fixable						--Index 515*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Fixable', 'When a model successfully use the Bandage basic action on a model with Fixable, remove two wound tokens instead of one.');
-/*Fixed Form					--Index 516*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Fixed Form', 'A shapeshift with Fixed Form may not shapeshift into its original form during its upkeep.'); 
-/*Flammable						--Index 517*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Flammable', 'When a model with Flammable is targeted by an action that causes Fire, the Flammable model suffers Fire even if it wins the defense roll.');
-/*Fly							--Index 518*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Fly', 'A model with Fly treats difficult terrain, chasm, and structure squares as open squares. All non-blessing tile effects in those squares are ignored. Structure squares do not block line of sight to or from models with Fly.');
-/*Forced Shift					--Index 519*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Forced Shift', 'When a model with Forced Shift is destroyed, instead of being removed from play it immediately Shapeshifts.');
-/*Fresh Grave					--Index 520*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Fresh Grave', 'When creeps are spawned for this tile, also spawn one Rattlebone in each fresh grave square.');
-/*Fury							--Index 521*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Fury', 'A model with Fury gains +1B to all offense rolls for each wound it is currently suffering.');
-/*Ghost							--Index 522*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Ghost', 'A model with Ghost ignores walls for the purposes of line of sight and movement.');
-/*Ghost	 Town					--Index 523*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Ghost Town', 'Spawn one Ghost for every destroyed mini-boss, Skull Token on the dungeon, and spent Princess Coin.');
-/*Ghostmancer					--Index 524*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Ghostmancer', 'Whenever a model with Ghostmancer inflicts a wound, place a Ghost model adjacent to the wounded model.');
-/*Giri Swarm					--Index 525*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Giri Swarm', 'Spawn six Giri within two squares of Goro.');
-/*Gloom Aura					--Index 526*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Gloom Aura', 'While within 2 squares of Pumpkin Patch, Heroes that do not have Ruby affinity discard the highest rolled when making offense rolls.');
-/*Goddess						--Index 527*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Goddess', 'Models that end their activation adjacent to a Goddess structure may remove one wound token.');
-/*Grabby						--Index 528*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Grabby', 'A model that is adjacent to an enemy model with Grabby may not move.');
-/*Grabby Hands					--Index 529*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Grabby Hands', 'Grants every monster with Sapphire affinity within 2 squares the Grabby ability.');
-/*Grabby Hands					--Index 530*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Grabby Hands', 'Monsters with Sapphire affinity that are within 2 squares of Grabby House gain Grabby.');
-/*Grind							--Index 531*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Grind', 'Models wounded by a model with Grind must discard one piece of equipment of their choice.');
-/*Gross							--Index 532*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Explore', 'Gross', 'When Pudge is destroyed, before removing the model resolve the following offensive action:<br>0ac: sw, Wave 1, +1r STR.');
-/*Gross							--Index 533*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Arcade', 'Gross', 'When Pudge is destroyed, before removing the model resolve the following offensive action:<br>0ac: Wave 3.');
-/*Halloween						--Index 534*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Halloween', 'Replace all Bone Pile tokens with models with the Bone Pile ability from the spawning pool.');
-/*Hatchery						--Index 535*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Hatchery', 'When a non-Egg Clutch spawning point spawns it may place its monsters within 2 squares of Egg Clutch in addition to its own model.');
-/*Have a Heart					--Index 536*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Have a Heart', 'A model with Have a Heart benefits from hearts it rolls on failed actions, as well as successful actions.');
-/*Heal							--Index 537*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Heal', 'A model affected by Heal may remove a number of wound tokens or a number of status effect tokens equal to the value of X.');
-/*Healer						--Index 538*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Healer', 'When a model with Healer rolls a potion they may choose to gain a heart instead.');
-/*Heart Attack					--Index 539*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Heart Attack', 'When making an offense roll, a model with Heart Attack counts any hearts rolled as two hearts.');
-/*Hex							--Index 540*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Hex', 'A model suffering Hex discards the highest result rolled anytime it makes a defense roll.');
-/*Hex							--Index 541*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Explore', 'Hex', 'A model suffering Hex discards the highest result rolled anytime it makes an offense roll.');
-/*Hex							--Index 542*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Arcade', 'Hex', 'A monster suffering Hex reduces its STR by 1ST.');
-/*Hidden						--Index 543*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Hidden', 'Models Spawned from a spawning point with Hidden may be placed anywhere on the tile, instead of only within 2 squares.');
-/*Hoard							--Index 544*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Hoard', 'A model with Hoard may equip loot and treasure cards. When spawned, draw one treasure card and equip it on this model. When defeated heroes gain all equipment cards this model has equipped.');
-/*Holy							--Index 545*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Holy', 'A model with Holy may reroll a single dice when making offensive actions against undead, demons, or nether models.');
-/*Hookshot						--Index 546*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Hookshot', 'Actions with Hookshot do not require line of sight to target a model. Range must still be counted around walls and structures.');
-/*Hubris						--Index 547*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Hubris', 'When making a Melee Attack, a model with Hubris gains +1b STR for every equipment card equipped on their target.');
-/*Ice							--Index 548*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Ice', 'A model suffering Ice may not use unique actions.');
-/*Immobile						--Index 549*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Immobile', 'A model affected by Immobile my not move during their next activation.');
-/*Immune: Bane					--Index 550*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Immune: Bane', 'A model with Immune: Bane ignores and immediately removes all counters and/or the affects of Bane.');
-/*Immune: Fire					--Index 551*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Immune: Fire', 'A model with Immune: Fire ignores and immediately removes all counters and/or the affects of Fire.');
-/*Immune: Hex					--Index 552*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Immune: Hex', 'A model with Immune: Hex ignores and immediately removes all counters and/or the affects of Hex.');
-/*Immune: Ice					--Index 553*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Immune: Ice', 'A model with Immune: Ice ignores and immediately removes all counters and/or the affects of Ice.');
-/*Immune: Knockdown				--Index 554*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Immune: Knockdown', 'A model with Immune: Knockdown ignores and immediately removes all counters and/or the affects of Knockdown.');
-/*Immune: Poison				--Index 555*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Immune: Poison', 'A model with Immune: Poison ignores and immediately removes all counters and/or the affects of Poison.');
-/*Immune: Slow					--Index 556*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Immune: Slow', 'A model with Immune: Slow ignores and immediately removes all counters and/or the affects of Slow.');
-/*Immune: Status Effects		--Index 557*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Immune: Status Effects', 'A model that is Immune: Status Effects can never suffer the negative effects of status effects.  If a model that is suffering a status effect gains Immune: Status Effects remove all status effect tokens immediately.');
-/*In Your Pants					--Index 558*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Arcade', 'In Your Pants', 'A Hero with a Rabid Squirrel on its card reduces all defense rolls by +ST.');
-/*Insignificant					--Index 559*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Insignificant', 'If a Hero is on the same dungeon tile as a model with Insignificant it may be activated in addition to any other monsters that are activated during the Consul Turn. A model may not draw a loot card for destroying a model with Insignificant.');
-/*Invader						--Index 560*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Invader', 'When Invader is used the Invader model is removed from play and placed on the target Hero''s card, essentially becoming a token. While a slime model is on the Hero''s card, no model other than the Hero may target or affect the slime the Slime—not even area of effects.');
-/*Invader						--Index 561*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Invader', 'When a model uses an action with Invader remove the model from play and place it on the target Hero''s card. The Invader model may not voluntarily leave the Hero. The Hero suffers the effects of the Invader action as long as the Invader model remains on their card. Only the affected Hero may target or destroy Invader models on their card. The Invader is always considered in range. The Invader cannot be affected by area effects.');
-/*King's Riches					--Index 562*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'King''s Riches', 'Whenever The Forgotten King suffers a wound the party may draw one loot card.');
-/*Kitty Claws					--Index 563*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Kitty Claws', 'Beatrix immediately makes one Melee Attack against any model that moves into a square adjacent to Beatrix During it’s activation.');
-/*Knockdown						--Index 564*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Knockdown', 'A model suffering Knockdown may not move or perform any other action until it spends 1 action point or all of its movement points to remove the Knockdown token.<br>(Arcade: A monster suffering Knockdown may not perform commands until the next Move command. Instead of moving it must remove the Knockdown token.)');
-/*Lance							--Index 565*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Lance', 'A Lance effect draws a straight line in any direction, directly away from the user’s base along a distance of X. Every model along this line is hit. Lance effects may not be used along diagonals.');
-/*Last Stand					--Index 566*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Last Stand', 'Forgotten King, elite, and minion monsters gain IMMUNE: ALL.');
-/*Line							--Index 567*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Line', 'When a line is drawn place the appropriate template anywhere within the tile.\r\n\r\nTrap templates may not be placed across walls, structures, or chasms. They may be placed in the same square as a friendly or enemy models.');
-/*Little Splurt					--Index 568*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Little Splurt', 'Fire Gels cannot be spawned, instead they enter play as a result of the Burning Gel''s Splurt Ability.');
-/*Luck							--Index 569*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Luck', 'A model with Luck may gain a Potion instead of a Heart when rolled on the dice and vice versa.');
-/*Luck							--Index 570*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Luck', 'When a model with Luck draws treasure cards, they may draw one additional card, then choose one of the cards drawn and shuffle it back into the deck.');
-/*Massive Damage				--Index 571*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Massive Damage', 'When an offensive action with Massive Damage inflicts a wound it instead inflicts two wounds.');
-/*Master Gains Happy Cat		--Index 572*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Master Gains Happy Cat', 'The model controlling this model gains the ability "Happy Cat".');
-/*Master Gains Knockdown		--Index 573*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Master Gains Knockdown', 'The model controlling this model gains the keyword "Knockdown".');
-/*Master Gains Soprano			--Index 574*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Master Gains Soprano', 'The model controlling this model gains the ability "Soprano".');
-/*Master Gains Poison			--Index 575*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Master Gains Poison', 'The model controlling this model gains the keyword "Poison".');
-/*Master Gains Fire				--Index 576*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Master Gains Fire', 'The model controlling this model gains the keyword "Fire".');
-/*Master Gains Berserk			--Index 577*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Master Gains Berserk', 'The model controlling this model gains the keyword "Berserk".');
-/*Master Gains Luck				--Index 578*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Master Gains Luck', 'The model controlling this model gains the keyword "Luck".');
-/*Mend							--Index 579*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Arcade', 'Mend', 'A model using Mend targets the monster within range suffering the most wounds.  Remove status effect tokens and then remove would tokens until a number of tokens equal to X has been reomved or the monster has no wound tokens on it.');
-/*Mob							--Index 580*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Mob', 'When making a Melee offensive action, a model with Mob adds +1b STR to their offense roll for every additional model with Mob that is in range of their target, up to +3b STR.');
-/*Mob Mentality					--Index 581*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Mob Mentality', 'Monsters with Citrine affinity that are within 2 squares of Kobold Warrens gain Mob.');
-/*Never-Lost					--Index 582*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Never-Lost', 'When drawing explore cards, the party may draw two cards and choose one.');
-/*Pet							--Index 583*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Pet', 'A model with Pet X is the master of the pet listed as X. A model with Pet X may never be a different pet’s master. The listed pet begins the game within two squares of its master.');
-/*Pet: Never-Lost Cola			--Index 584*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Pet: Never-Lost Cola', 'A model with Pet: Never-Lost Cola is the master of Never-Lost Cola. A model with Pet: Never-Lost Cola may never be a different pet’s master. Never-Lost Cola begins the game within two squares of its master.');
-/*Pile-On						--Index 585*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Pile-On', '+1b STR if target is suffering Knockdown.');
-/*Pile-On						--Index 586*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Pile-On', 'A model with Pile-On gains +1B STR if its target is suffering Knockdown.');
-/*Pile-On						--Index 587*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Arcade', 'Pile-On', 'A model with Pile-On gains +1ST STR if its target is suffering Knockdown.');
-/*Poison						--Index 588*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Poison', 'A model suffering Poison reduces its total number of action points by one.');
-/*Poison						--Index 589*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Poison', 'A model suffering Poison reduces its total number of action points by 1, to a minimum of 1.');
-/*Poison Aura					--Index 590*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Poison Aura', 'Monsters with Citrine affinity that are within 2 squares of Old-Growth Hollow gain Poison.');
-/*Potion Master					--Index 591*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Potion Master', 'Use two potions during her activation instead of the standard one.');
-/*Potion Master					--Index 592*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Potion Master', 'A model with Potion Master may use one additional potion during their activation.');
-/*Potion Stash					--Index 593*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Potion Stash', 'A monster with Potion Stash may gain potion tokens when rolled, in the same manner as Heroes, up to the number indicated by X. The monster may spend potion tokens on abilities indicated on its card.');
-/*Poxes							--Index 594*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Poxes', 'All Heroes suffer one random status effect.  (Close your eyes and pick one.)');
-/*Pounce						--Index 595*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Pounce', 'Choose an enemy model anywhere within 5 squares, and line of sight. Place the model with pounce adjacent to this target, then make the offense roll as normal.');
-/*Predator						--Index 596*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Predator', 'When an enemy model moves out of a square that is adjacent to a model with Predator, the model with Predator may immediately make a Melee Attack against that model.');
-/*Primal Aura					--Index 597*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Primal Aura', 'Monsters with Sapphire Affinity that are within 2 squares of Tribal Stone gain +1st ARM.');
-/*Pull							--Index 598*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Pull', 'A model targeted by Pull may be moved a number of squares up to the value of X towards the model using Pull. Each square moved must decrease the distance between the two models. Once the two models are adjacent, the target model immediately stops.');
-/*Quick Hatch					--Index 599*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Arcade', 'Quick Hatch', 'After Egg Clutch performs a Spawn command, all monsters it just spawned immediately perform a Move command.');
-/*Rabid							--Index 600*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Rabid', 'When this model activates roll 1R and consult the following:  No stars: this model moves as close as it can to, and attacks, the closest friendly model. In the case two models are equally close, this model’s controller chooses.  One star: this model may activate normally.  Two or more stars: this model may activate normally and gains +1R STR.');
-/*Rage Musk						--Index 601*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Rage Musk', 'If this potion is used, the Consul roll 1r instead of 1b for Angry Walrus during the following Consul Turn.');
-/*Raise							--Index 602*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Raise', 'Replace target Bone Pile with a model with the Bone Pile ability. If a model is in the same square as the Bone Pile token, Raise has no effect.');
-/*Reach							--Index 603*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Explore', 'Reach', 'This ability allows the model to target an enemy with a melee attack up to X squares away. A model may use any of its abilities or special actions using Reach X, unless specified otherwise.');
-/*Reach							--Index 604*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Arcade', 'Reach', '+2ST RNG if a model with Reach is in the gang.');
-/*Regenerate					--Index 605*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Regenerate', 'Roll 1b for every wound token on the model using Regenerate. Remove one token for every star rolled.');
-/*Rock Aura						--Index 606*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Rock Aura', 'Monsters with Sapphire affinity that are within 2 squares of Rock Pile are Immune: Status Effects.');
-/*Ruby Goo						--Index 607*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Arcade', 'Ruby Goo', 'A Hero with an Ruby Slime on its card may not benefit from Ruby equipment.');
-/*Sapphire Gloop				--Index 608*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Arcade', 'Sapphire Gloop', 'A Hero with an Sapphire Slime on its card may not benefit from Sapphire equipment.');
-/*Savage						--Index 609*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Savage', 'All minions within 1 square of a model with Savage gain +1st STR.');
-/*Scatter						--Index 610*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Scatter', 'When a scatter is drawn place four single square templates anywhere within the tile.\r\n\r\nTrap templates may not be placed across walls, structures, or chasms. They may be placed in the same square as a friendly or enemy models.');
-/*Secret Passage				--Index 611*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Secret Passage', 'When a model enters a Secret Passage square immediately place it in any other unoccupied Secret Passage square in the dungeon.\r\n\r\nA large model must be able to be placed in the new location or Secret Passage has no effect.');
-/*Shallow Grave					--Index 612*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Shallow Grave', 'Ghosts may be spawned from Fresh Grave Tile Effects instead of Rattlebones.');
-/*Shapeshift					--Index 613*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Shapeshift', 'When the model is activated it may choose to shapeshift into its alternate form during its upkeep.  Replace their card with the specified shapeshift card.  Replace the model on the dungeon map with the new shapeshift model.');
-/*Shapeshift: Angry Bear		--Index 614*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Shapeshift: Angry Bear', 'When the model is activated it may choose to shapeshift into Angry Bear during its upkeep.  Replace the card with the Angry Bear card.  Replace the model on the dungeon map with the Angry Bear model.');
-/*Shapeshift: Deeproot Druid	--Index 615*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Shapeshift: Deeproot Druid', 'When the model is activated it may choose to shapeshift into Deeproot Druid during its upkeep.  Replace the card with the Deeproot Druid card.  Replace the model on the dungeon map with the Deeproot Druid model.');
-/*Shapeshift: Nocturne			--Index 616*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Shapeshift: Nocturne', 'When the model is activated it may choose to shapeshift into Nocturne during its upkeep.  Replace the card with the Nocturne card.  Replace the model on the dungeon map with the Nocturne model.');
-/*Shapeshift: Ragin' Roxor		--Index 617*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Shapeshift: Ragin'' Roxor', 'When the model is activated it may choose to shapeshift into Ragin'' Roxor during its upkeep.  Replace the card with the Ragin'' Roxor card.');
-/*Shapeshift: Rockin' Roxor		--Index 618*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Shapeshift: Rockin'' Roxor', 'When the model is activated it may choose to shapeshift into Rockin'' Roxor during its upkeep.  Replace the card with the Rockin'' Roxor card.');
-/*Shapeshift: King Sprout		--Index 619*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Shapeshift: King Sprout', 'When the model is activated it may choose to shapeshift into King Sprout during its upkeep.  Replace the card with the King Sprout card.  Replace the model on the dungeon map with the King Sprout model.');
-/*Shapeshift: Von Wilder		--Index 620*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Shapeshift: Von Wilder', 'When the model is activated it may choose to shapeshift into Von Wilder during its upkeep.  Replace the card with the Von Wilder card.  Replace the model on the dungeon map with the Von Wilder model.');
-/*Shapeshift: Von Wildling		--Index 621*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Shapeshift: Von Wildling', 'When the model is activated it may choose to shapeshift into Von Wildling during its upkeep.  Replace the card with the Von Wildling card.  Replace the model on the dungeon map with the Von Wildling model.');
-/*Shapeshift: Von Drakk		--Index 622*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Shapeshift: Von Drakk', 'When the model is activated it may choose to shapeshift into Von Drakk during its upkeep.  Replace the card with the Von Drakk card.  Replace the model on the dungeon map with the Von Drakk model.');
-/*Shell									--Index 623*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Shell', 'When a model with Shell is destroyed replace it with a Turtle Shell model. If all Turtle Shells are already on the dungeon map, move the Turtle Shell furthest from the Heroes to the new square.');
-/*Sidestep								--Index 624*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Sidestep', 'When a model with Sidestep wins a defense roll they may immediately move one square.');
-/*Slow									--Index 625*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Slow', 'A model suffering Slow halves its movement points, rounding up.');
-/*Small									--Index 626*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Small', 'An enemy model may only target a small model if it is within 3 squares of the model.');
-/*Smooches							--Index 627*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Smooches', 'This model immediately shapeshifts back to its original form if a friendly model moves into an adjacent square and spends 1 Action to give it a kiss.');
-/*Soporific							--Index 628*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Soporific', 'When this model is destroyed inflicts the attacking model with the status effect Slow.');
-/*Soporific							--Index 629*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Soporific', 'When a model with Soporific is destroyed, the model that destroyed it suffers Slow.');
-/*Soporific Cloud					--Index 630*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Soporific Cloud', 'When a Hero that does not have Emerald affinity moves within 2 squares of Fungal Growth they suffer Slow.');
-/*Spawn Location					--Index 631*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Spawn Location', 'When playing Arcade Mode, spawning points are placed in Spawn Location squares.');
-/*Splurt								--Index 632*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Splurt', 'When Burning Gel is destroyed, before removing the model, place two Fire Gels into play in any adjacent empty squares.');
-/*Spongy								--Index 633*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Spongy', 'Anytime a model makes an offensive action against the Kinoshroom. The model is pushed one square away.');
-/*Spongy								--Index 634*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Spongy', 'When a model with Spongy is targeted, Push the model that targeted them 1 square after the action has been resolved, even if the model with spongy was destroyed.');
-/*Static Charge						--Index 635*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Static Charge', 'A model with Static Charge gains +1b STR and +1b ARM for every wound they are currently suffering.');
-/*Stealth								--Index 636*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Stealth', 'Reduces the range of all actions made against the model by 3 to a minimum of 1.');
-/*Stealth								--Index 637*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Stealth', 'Actions targeting a model with stealth reduce their Range by 3, to a minimum of 1.');
-/*Stealth Aura						--Index 638*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Stealth Aura', 'Monsters with Ruby Affinity that are within 2 squares of Salt Pillar gain Stealth.');
-/*Student								--Index 639*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Student', 'Once per game, a model with Student may use a single unique action listed on the card of any other Hero in the dungeon.');
-/*Succumb							--Index 640*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Succumb', 'Al Heroes suffer Bane.');
-/*Surefoot								--Index 641*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Surefoot', 'A model with Surefoot treats difficult terrain squares as open squares. All non-blessing tile effects in those squares are ignored.');
-/*Surge								--Index 642*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Arcade', 'Surge', 'If a model with Surge is not in range of a Hero move it an additional 5 squares towards the Hero with the most wrath.');
-/*Sweep								--Index 643*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Sweep', 'A sweep effect hits every model within X squares of any single side of the user’s base along a straight line. Sweep effects may not be used along diagonals.');
-/*Tail Sweep							--Index 644*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Tail Sweep', 'During his activation Starfire may make the following offensive action a single time for free: Attack Melee, Sweep 2, Knockdown.');
-/*Teleport								--Index 645*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Teleport', 'Choose an empty square anywhere within 10 squares, and line of sight. Place the model affected by Teleport in this square.');
-/*Thief									--Index 646*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Thief', 'A model with Thief may reroll a single dice when using Pick Lock action.');
-/*Throw								--Index 647*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Throw', 'When using an action with Throw, choose one friendly adjacent model. Push that model a number of squares up to the value of X, as described in the rules for Push. If the model moves to a square that is adjacent to another model it immediately stops moving. Every model it stops adjacent to, friendly or enemy, suffers an offense roll of 1b per square the model moved.');
-/*Tough								--Index 648*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Tough', 'During its upkeep, a model with Tough removes a single wound token.');
-/*Toxic Blood							--Index 649*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Toxic Blood', 'A model that inflicts a wound against a model with Toxic Blood suffers Poison.');
-/*Tremors								--Index 650*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Tremors', 'All Heroes suffer SLOW.');
-/*Virulent								--Index 651*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Virulent', 'Add +1B to this model''s offense rolls if its target is suffering from Poison.');
-/*Wind of Blades					--Index 652*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Wind of Blades', 'A model with Wind of Blades may spend all of its movement points to make a single Missile Attack basic offensive action.');
-/*Wisdom								--Index 653*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Wisdom', 'A model with Wisdom gains +1ac that may only be used to take support actions.');
-/*Wonder								--Index 654*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Wonder', 'Place pet model and game card in the Backpack. One Hero may become the pet''s master during Power-Up.');
-/*Zealotry								--Index 655*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Zealotry', 'All kobolds and drakes gain +1B STR.');
-/*Boo Booty						--Index 656*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Boo Booty', 'Boo Booty cannot be spawned, instead they enter play when their treasure card is drawn.');
-/*Vulnerable: Fire				--Index 657*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Vulnerable: Fire', 'A model with Vulnerable: Fire targeted by Fire must discard the highest result rolled of any defense roll it makes against an ability with Fire.');
-/*Deranged Alchemist			--Index 658*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Explore', 'Deranged Alchemist', 'Deranged Alchemist begins the game with 3 potion tokens, may earn tokens in the same manner as Heroes, and may have up to a maximum of 3 tokens on its card.  Only Deranged Alchemist may use or benefit its potions.');/*Bulldozer					--Index 659*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Explore', 'Bulldozer', 'A model with Bulldozer may move through enemy models, and treats difficult terrain and structure squares as open squares.  All non-blessing tile effects in those squares are ignored.'); --This should be updated to the actual card text.
-/*Spawning Pool					--Index 660*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Explore', 'Spawning Pool', '1x Bramble Knight (Spawning Point)<br>1x Grobbit Executioner<br>2x Frog Knights<br>4x Billmen');
-/*Spawning Pool					--Index 661*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Arcade', 'Spawning Pool', '1x Bramble Knight (Spawning Point)<br>1x Grobbit Executioner<br>2x Frog Knights<br>4x Billmen<br><br>Cards:<br>Excutioners Gang<br>House of Frog Gang');
-/*Spawning Pool					--Index 662*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Explore', 'Spawning Pool', '2x Claw Shrine (Spawning Point)<br>2x Black Claw Assassin<br>3x Claw Trainer<br>6x Drake Hound');
-/*Spawning Pool					--Index 663*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Arcade', 'Spawning Pool', '2x Claw Shrine (Spawning Point)<br>2x Black Claw Assassin<br>3x Claw Trainer<br>6x Drake Hound<br><br>Cards:<br>Black Claws Gang<br>Blood Trackers Gang');
-/*Spawning Pool					--Index 664*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Explore', 'Spawning Pool', '1x Egg Clutch (Spawning Point)<br>2x Wyrmling<br>2x Whelp<br>2x Hatchlings');
-/*Spawning Pool					--Index 665*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Arcade', 'Spawning Pool', '1x Egg Clutch (Spawning Point)<br>2x Wyrmling<br>2x Whelp<br>2x Hatchlings<br><br>Cards:<br>Dragonborn Gang');
-/*Spawning Pool					--Index 666*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Explore', 'Spawning Pool', '2x Elemental Shrine (Spawning Point)<br>1x Chunin<br>1x Madoushi<br>2x Kunoichi<br>2x Yajiri<br>3x Kaiken');
-/*Spawning Pool					--Index 667*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Arcade', 'Spawning Pool', '2x Elemental Shrine (Spawning Point)<br>1x Chunin<br>1x Madoushi<br>2x Kunoichi<br>2x Yajiri<br>3x Kaiken<br><br>Cards:<br>Strike Tream<br>Scout Team<br>Mystic Team');
-/*Spawning Pool					--Index 668*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Explore', 'Spawning Pool', '1x Fungal Growth (Spawning Point)<br>1x Okoshroom<br>2x Truffle Pig<br>4x Kinoshroom');
-/*Spawning Pool					--Index 669*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Arcade', 'Spawning Pool', '1x Fungal Growth (Spawning Point)<br>1x Okoshroom<br>2x Truffle Pig<br>4x Kinoshroom<br><br>Cards:<br>Fungus Brigade Gang<br>Pig Patrol Gang');
-/*Spawning Pool					--Index 670*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Explore', 'Spawning Pool', '2x Grabby House (Spawning Point)<br>1x Shamble Priest<br>2x Prowler<br>2x Pudge<br>6x Swampie');
-/*Spawning Pool					--Index 671*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Arcade', 'Spawning Pool', '2x Grabby House (Spawning Point)<br>1x Shamble Priest<br>2x Prowler<br>2x Pudge<br>6x Swampie<br><br>Cards:<br>Grave Robbers Gang<br>Rotters Gang');
-/*Spawning Pool					--Index 672*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Explore', 'Spawning Pool', '2x Kobold Warrens (Spawning Point)<br>1x Dragon Priest<br>2x Ironscale<br>2x Flinger<br>3x Knucklehead<br>3x Gouger');
-/*Spawning Pool					--Index 673*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Arcade', 'Spawning Pool', '2x Kobold Warrens (Spawning Point)<br>1x Dragon Priest<br>2x Ironscale<br>2x Flinger<br>3x Knucklehead<br>3x Gouger<br><br>Cards:<br>Scale Wall Gang<br>Dragon Devotee Gang<br>Sneaks Gang');
-/*Spawning Pool					--Index 674*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Explore', 'Spawning Pool', '1x Lava Whirl (Spawning Point)<br>1x Blaze Beetle<br>2x Ember Hound<br>3x Burning Gel<br>6x Fire Gel');
-/*Spawning Pool					--Index 675*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Arcade', 'Spawning Pool', '1x Lava Whirl (Spawning Point)<br>1x Blaze Beetle<br>2x Ember Hound<br>3x Burning Gel<br>6x Fire Gel<br><br>Cards:<br>Blaze Beetle<br>Burning Pack Gang<br>Flaming Slime Gang');
-/*Spawning Pool					--Index 676*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Explore', 'Spawning Pool', '2x Old Growth Hollow (Spawning Point)<br>1x Sprout<br>1x King Sprout<br>2x Wisp<br>2x Turniphead<br>6x Mook');
-/*Spawning Pool					--Index 677*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Arcade', 'Spawning Pool', '2x Old Growth Hollow (Spawning Point)<br>1x Sprout<br>1x King Sprout<br>2x Wisp<br>2x Turniphead<br>6x Mook<br><br>Cards:<br>Lil'' Sprouts Gang<br>Hungry Sprouts Gang<br>Wll-O-Wisps Gang<br>Herbalists');
-/*Spawning Pool					--Index 678*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Explore', 'Spawning Pool', '1x Pumpkin Patch (Spawning Point)<br>1x Crypt Spider<br>2x Curse Coven Witch<br>2x Miserable Toad<br>4x Skullbat');
-/*Spawning Pool					--Index 679*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Arcade', 'Spawning Pool', '1x Pumpkin Patch (Spawning Point)<br>1x Crypt Spider<br>2x Curse Coven Witch<br>2x Miserable Toad<br>4x Skullbat<br><br>Cards:<br>Crypt Spider<br>Miserable Toad<br>Curse Coven Gang');
-/*Spawning Pool					--Index 680*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Explore', 'Spawning Pool', '2x Rock Pile (Spawning Point)<br>1x Crusher<br>2x Roller<br>2x Bombardier<br>6x Slowpoke<br>6x Turtle Shell');
-/*Spawning Pool					--Index 681*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Arcade', 'Spawning Pool', '2x Rock Pile (Spawning Point)<br>1x Crusher<br>2x Roller<br>2x Bombardier<br>6x Slowpoke<br>6x Turtle Shell<br><br>Cards:<br>Rockers Gang<br>Bully Foreman Gang<br>Shell Battery Gang');
-/*Spawning Pool					--Index 682*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Explore', 'Spawning Pool', '1x Salt Pillar (Spawning Point)<br>2x Mist Hound<br>6x Sorrow');
-/*Spawning Pool					--Index 683*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Arcade', 'Spawning Pool', '1x Salt Pillar (Spawning Point)<br>2x Mist Hound<br>6x Sorrow<br><br>Cards:<br>Predators Gang<br>Despair Shroud Gang');
-/*Spawning Pool					--Index 684*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Explore', 'Spawning Pool', '2x Shallow Grave (Spawning Point)<br>1x Dust Coven Necromancer<br>2x Dread Knight<br>2x Dust Mage<br>6x Boneheads');
-/*Spawning Pool					--Index 685*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Arcade', 'Spawning Pool', '2x Shallow Grave (Spawning Point)<br>1x Dust Coven Necromancer<br>2x Dread Knight<br>2x Dust Mage<br>6x Boneheads<br><br>Cards:<br>Dust Coven Gang<br>House of Ash Gang<br>Dust Acolytes Gang');
-/*Spawning Pool					--Index 686*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Explore', 'Spawning Pool', '1x Tribal Stone (Spawning Point)<br>1x Mistmourn Chieftain<br>2x Spirit Walker<br>2x Ghostfire Warrior');
-/*Spawning Pool					--Index 687*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Arcade', 'Spawning Pool', '1x Tribal Stone (Spawning Point)<br>1x Mistmourn Chieftain<br>2x Spirit Walker<br>2x Ghostfire Warrior<br><br>Cards:<br>Ghostfire Tribe Gang<br>Spirit Born Gang');
-/*Feed Me						--Index 688*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Arcade', 'Feed Me', 'During upkeep, if a model with Feed Me is suffering any wounds, destroy one minion within two squares of the model and remove one wound token.');
-/*Cursed					--Index 689*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Cursed', 'Anytime this model makes a defense roll discard the highest result rolled.');
-/*Cursed, Luck				--Index 690*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Cursed, Luck', 'A model with Luck may gain a Potion instead of a Heart when rolled on the dice and vice versa.  Anytime this model makes a roll reduce the result by 1 STAR.');
-/*Insight					--Index 691*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Insight', 'When a model with Insight is targeted by an offensive action, it may force the attacker to reroll one die of its choice from the offense roll, before making a defense roll. (Arcade: A monster targeting a model with Insight reduces its STR by 1.)' );
-/*Hunger					--Index 692*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Hunger', 'When a model with Hunger rolls a Heart, no other model may benefit from its effect unless the model with Hunger is not suffering any wounds.');
-/*Hammer Brooch				--Index 693*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Hammer Brooch', 'A model with Bulldozer may move through enemy models, and treats difficult terrain and structure squares as open squares.  All non-blessing tile effects in those squares are ignored.');
-/*Bleed						--Index 694*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Bleed', 'When making an offense roll, a model with Bleed counts any Hearts rolled as both one star and one heart.');
-/*Sturdy					--Index 695*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Sturdy', 'A model with Sturdy never suffers more than a single wound from a single action, such as critical hits or Massive Damage.');
-/*Cursed						--Index 696*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Cursed', 'Anytime this model makes a defense roll discard the highest result rolled.');
-/*Lava							--Index 697*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Lava', 'A model which enters oen or more Lava squares suffers FIRE at the end of the current activation.');
-/*Blessing						--Index 698*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Blessing', 'A tile effect with Blessing bestows a positive effect, specified on the tile effect''s card, to models within the tile.  Blessings only affect Hero, elite and minion models.');
-/*Structure						--Index 699*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Structure', 'Models cannot draw line of sight across or move through structures.');
-/*Sentinel						--Index 700*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Sentinel', 'Models that are adjacent to a Sentinel structure add +1ST to all defense rolls.');--FK Abilities
+/*9 Lives						--Index 167*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', '9 Lives', 'One Use Only. When a model with 9 lives is destroyed, immediately roll 1r. Remove one wound token for each star rolled If no stars are rolled the model is destroyed as normal.');
+/*Alchemy						--Index 168*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Alchemy', 'When a model with Alchemy rolls a heart they may choose to gain a potion instead.');
+/*All-Seeing					--Index 169*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'All-Seeing', 'This Pet''s Master gains Hookshot on its basic Magic attack if it has one, so long as it begins its activation within 2 squares of this Pet.');
+/*Ambush						--Index 170*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Ambush', 'When this model spawns or enters play using a Princess Coin, it may be placed on any open square in the dungeon.');
+/*Angry Walrus					--Index 171*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Angry Walrus', 'At the end of the Consul''s power-up phase, the Consul rolls 1B. If no stars are rolled, nothing happens.  If any stars are rolled, the Consul may move the model with Angry Walrus up to one square for each star rolled and then make a basic melee offensive action against any other member of the party in range.  Arcade: the Hero''s controller rolls and must move towards and attack the closest other friendly model if stars are rolled.');
+/*Animate Soul					--Index 172*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Animate Soul', 'Place a crystal token on target Hero. When the Hero is destroyed, if the model that placed the crystal is not in play, remove the crystal token to spawn the model that placed the crystal adjacent to the Hero. The model spawned in this way suffers three wounds after being placed.');
+/*Area							--Index 173*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Area', 'When an area is drawn place the appropriate template anywhere within the tile.\r\n\r\nTrap templates may not be placed across walls, structures, or chasms. They may be placed in the same square as a friendly or enemy models.');
+/*Aura							--Index 174*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Aura', 'An Aura effect is centered on the user''s base and every square within X squares of the user. Auras remain in play, centered on and moving with the user, until their next upkeep.');
+/*Back Strike					--Index 175*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Back Strike', '+1ST STR if the gang''s target did not activate during the previous Hero Turn.');
+/*Backlash						--Index 176*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Backlash', 'If a model with Backlash exceeds an offense roll with their defense roll the attacker takes one wound.');
+/*Backlash						--Index 177*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Backlash', 'When a model with Backlash is targeted by an offensive action and wins the defense roll, the model making the Offense roll suffers one wound. A model may not draw a loot card for destroying a model due to Backlash.');
+/*Backstabber					--Index 178*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Backstabber', 'Whenever the Model suffers a wound can place it on a friendly model adjacent instead.');
+/*Backstabber					--Index 179*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Backstabber', 'When a model with Backstabber suffers a wound, they may place the wound token on an adjacent friendly model instead.');
+/*Bane							--Index 180*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Explore', 'Bane', 'A model suffering Bane discards the highest result rolled anytime it makes a defense roll.');
+/*Bane							--Index 181*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Arcade', 'Bane', 'A monster suffering Bane reduces its ARM by 1st.');
+/*Bane Aura						--Index 182*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Bane Aura', 'Monsters with Ruby affinity that are within 2 squares of Shallow Grave gain Bane.');
+/*Baptized by Fire				--Index 183*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Baptized by Fire', 'King Starfire may remove one wound token fro every Hero suffering FIRE.');
+/*Berserk						--Index 184*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Berserk', 'During its activation a model with Berserk may make a single Melee Attack costing no action points.');
+/*Blessed Strike				--Index 185*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Blessed Strike', 'A model with Blessed Strike gains +1st to all offense rolls it makes for each spent Princess Coin on its card.');
+/*Blood Drinker					--Index 186*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Blood Drinker', 'When a model with Blood Drinker inflicts a wound they may remove one wound or one status effect for every wound rolled.');
+/*Bone Collector				--Index 187*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Bone Collector', 'A model with Bone Collector may use Hearts it rolls during successful offensive actions on Pets as well as Heroes.');
+/*Bone Pile						--Index 188*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Bone Pile', 'When a model with Bone Pile is destroyed replace it with a Bone Pile Token. If all Bone Piles are already on the dungeon map move the Bone Pile furthest from the Heroes to the new square. Enemy models may spend 2 movement points to remove an adjacent Bone Pile from play.');
+/*Bramble Growth				--Index 189*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Bramble Growth', 'Heroes that do not have Emerald affinity count squares within 2 squares of Bramble Knight as difficult terrain.');
+/*Bruiser						--Index 190*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Arcade', 'Bruiser', '+1st STR if a model with Bruiser is in the gang.');
+/*Burrow						--Index 191*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Burrow', 'A model with Burrow ignores structures and walls when moving.');
+/*Burrow						--Index 192*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Burrow', 'A model with Burrow may move through walls, and treats difficult terrain and structure squares as open squares. All non-blessing tile effects in squares are ignored.');
+/*Burst							--Index 193*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Burst', 'Determine a Burst effect''s target as normal using the action''s Range. After the target has been selected, it and every model within X squares of the target are affected. Squares that the target cannot draw line of sight to are not affected. If a large based model is targeted by a Burst area effect choose one square occupied by its base as the square targeted and determine the area effect as normal.');
+/*Burning Blades				--Index 194*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Burning Blades', 'A Hero with a Citrine Slime on its card may not benefit from Citrine equipment.');
+/*Champion						--Index 195*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Champion', 'Models that are adjacent to a Champion structure add +1st to all offense rolls.');
+/*Chasm							--Index 196*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Chasm', 'Models cannot move through chasms. Models can draw line of sight through chasms.');
+/*Citrine Goop					--Index 197*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Arcade', 'Citrine Goop', 'All elite and minon monsters gain the ability FIRE.');
+/*Cola							--Index 198*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Cola', 'During upkeep roll 1B. For every star rolled Candy gains one potion.');
+/*Compel						--Index 199*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Compel', 'A model targeted by Compel may be moved a number of squares up to the value of X in any direction.');
+/*Control Effects				--Index 200*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Control Effects', 'Control Effects allow one model to move another model. A model that is moved as a result of a control effect does not count as having been activated and may still activate and move as normal during their own turn. A model may never be moved in a manner that would not be legal for them to move on their own. Difficult terrain and other tile effects are treated as normal.');
+/*Corpse Stench					--Index 201*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Corpse Stench', 'When a model with Corpse Stench suffers damage, all adjacent enemy models suffer Slow.');
+/*Cross							--Index 202*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Cross', 'A Cross effect is centered on the user''s base and every square within X squares of the user, but does not affect any diagonal squares.');
+/*Crystal Heart					--Index 203*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Crystal Heart', 'When a model with Crystal Heart enters play, place one crystal token on it''s card. The model gains the abilities of the corresponding crystal until it is destroyed:<br>Amethyst - Dark Radiance: All offense rolls and defense rolls made against a model with Dark Radiance reduce the result by 1.<br>Citrine - Predator: When an enemy model moves out of a square that is adjacent to a model with Predator, the model with Predator may immediately make a Melee Attack against that model.<br>Emerald - Charge: When a model with Charge uses a Lance, the model may be placed in any unoccupied square that was affected by the Lance for free.<br>Ruby - Fire, Fueled by Fire: A model with Fueled by Fire adds 1R to all offensive rolls for each model suffering fire.<br>Sapphire - Defender: Models without Defender that are adjacent to a friendly model with Defender cannot be targeted by offensive actions.');
+/*Curse							--Index 204*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Curse', 'A model suffering Curse discards the highest result rolled anytime it makes a defense roll.');
+/*Cursed						--Index 205*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Cursed', 'Equipment with Cursed must be equipped during Power-Up if any Hero has an available slot, and cannot be removed or discarded unless the model is destroyed.');
+/*Dark Radiance					--Index 206*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Dark Radiance', 'All offense rolls and defense rolls made against a model with Dark Radiance reduce the result by 1ST.');
+/*Defender						--Index 207*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Defender', 'Models without Defender that are adjacent to a friendly model with Defender cannot be targeted by offensive actions.');
+/*Despair						--Index 208*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Despair', 'Enemy models within two squares of a model with Despair reduce the result of all defense rolls by 1ST.');
+/*Difficult Terrain				--Index 209*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Difficult Terrain', 'Each square of difficult terrain a model enters costs two movement points. If a model does not have enough movement points to move into a square with difficult terrain, it may not do so.<br>If any part of a large based model enters a square of difficult terrain, the move costs two movement points. Do not count squares a large model already occupies.');
+/*Dodge							--Index 210*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Dodge', 'A model with Dodge may use their Dex when making defense rolls unless they are suffering from Knockdown, Immobile, Slow.');
+/*Dragon Blessing				--Index 211*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Dragon Blessing', 'Dragons, Drakes, and Kobolds within 2 squares of Claw Shrine gain +1ST STR');
+/*Dragon Spite					--Index 212*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Dragon Spite', 'A model with Dragon Spite may reroll a single dice when making offensive actions against dragon, drake, or kobold models.');
+/*Earthquake					--Index 213*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Earthquake', 'All Heroes suffer KNOCKDOWN.');
+/*Elemental Affinity			--Index 214*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Elemental Affinity', 'For each model with Elemental Affinity choose one element from the Elemental Affinity card at the beginning of the game. That model gains the chosen element''s abilities. If the model is a spawning point, all models spawned from that point gain the chosen elements abilities. Paired spawning points must choose the same element.');
+/*Emerald Glop					--Index 215*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Arcade', 'Emerald Glop', 'A Hero with an Emerald Slime on its card may not benefit from Emerald equipment.');
+/*Experimental Concoction		--Index 216*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Experimental Concoction', 'Fae Alchemist draws two treasure cards. Choose one card and shuffle the other back into the deck. Fae Alchemist gains the effects listed on the chosen card until the beginning of her next activation, then discards the card. Note, Fae Alchemist gains this effect even if she has a treasure card equipped as normal. Only Fae Alchemist may drink Experimental Concoction.');
+/*Extra Scared					--Index 217*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Arcade', 'Extra Scared', 'A Hero with a Ghost on its card may not remove status effect tokens from its card at the end of its activation or when a heart is rolled.');
+/*Feed Me						--Index 218*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Explore', 'Feed Me', 'Eat one friendly model within melee range to heal one wound.');
+/*Feed Me						--Index 219*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Explore', 'Feed Me', 'Once per activation a model with Feed Me may remove one friendly model within melee range from play to heal one wound or remove a single a status effect.');
+/*Feint							--Index 220*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Feint', 'Force the target to reroll one of its defense dice.');
+/*Feint							--Index 221*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Explore', 'Feint', 'When a model with Feint makes an offensive action, they may choose one dice from their target''s defense roll and force them to reroll the result.');
+/*Feint							--Index 222*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Arcade', 'Feint', 'When a model with Feint makes an offensive action, decrease ARM of target model by 1ST.');
+/*Fire							--Index 223*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Fire', 'A model suffering Fire suffers one wound during its upkeep.');
+/*Fire Aura						--Index 224*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Fire Aura', 'Monsters with CITRINE affinity that are within 2 squares of Lava Whirl gain FIRE.');
+/*Fire Storm					--Index 225*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Fire Storm', 'All Heroes suffer FIRE.');
+/*Fixable						--Index 226*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Fixable', 'When a model successfully use the Bandage basic action on a model with Fixable, remove two wound tokens instead of one.');
+/*Fixed Form					--Index 227*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Fixed Form', 'A shapeshift with Fixed Form may not shapeshift into its original form during its upkeep.'); 
+/*Flammable						--Index 228*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Flammable', 'When a model with Flammable is targeted by an action that causes Fire, the Flammable model suffers Fire even if it wins the defense roll.');
+/*Fly							--Index 229*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Fly', 'A model with Fly treats difficult terrain, chasm, and structure squares as open squares. All non-blessing tile effects in those squares are ignored. Structure squares do not block line of sight to or from models with Fly.');
+/*Forced Shift					--Index 230*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Forced Shift', 'When a model with Forced Shift is destroyed, instead of being removed from play it immediately Shapeshifts.');
+/*Fresh Grave					--Index 231*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Fresh Grave', 'When creeps are spawned for this tile, also spawn one Rattlebone in each fresh grave square.');
+/*Fury							--Index 232*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Fury', 'A model with Fury gains +1B to all offense rolls for each wound it is currently suffering.');
+/*Ghost							--Index 233*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Ghost', 'A model with Ghost ignores walls for the purposes of line of sight and movement.');
+/*Ghost	 Town					--Index 234*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Ghost Town', 'Spawn one Ghost for every destroyed mini-boss, Skull Token on the dungeon, and spent Princess Coin.');
+/*Ghostmancer					--Index 235*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Ghostmancer', 'Whenever a model with Ghostmancer inflicts a wound, place a Ghost model adjacent to the wounded model.');
+/*Giri Swarm					--Index 236*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Giri Swarm', 'Spawn six Giri within two squares of Goro.');
+/*Gloom Aura					--Index 237*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Gloom Aura', 'While within 2 squares of Pumpkin Patch, Heroes that do not have Ruby affinity discard the highest rolled when making offense rolls.');
+/*Goddess						--Index 238*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Goddess', 'Models that end their activation adjacent to a Goddess structure may remove one wound token.');
+/*Grabby						--Index 239*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Grabby', 'A model that is adjacent to an enemy model with Grabby may not move.');
+/*Grabby Hands					--Index 240*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Grabby Hands', 'Grants every monster with Sapphire affinity within 2 squares the Grabby ability.');
+/*Grabby Hands					--Index 241*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Grabby Hands', 'Monsters with Sapphire affinity that are within 2 squares of Grabby House gain Grabby.');
+/*Grind							--Index 242*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Grind', 'Models wounded by a model with Grind must discard one piece of equipment of their choice.');
+/*Gross							--Index 243*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Explore', 'Gross', 'When Pudge is destroyed, before removing the model resolve the following offensive action:<br>0AC: SW, Wave 1, +1R STR.');
+/*Gross							--Index 244*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Arcade', 'Gross', 'When Pudge is destroyed, before removing the model resolve the following offensive action:<br>0AC: Wave 3.');
+/*Halloween						--Index 245*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Halloween', 'Replace all Bone Pile tokens with models with the Bone Pile ability from the spawning pool.');
+/*Hatchery						--Index 246*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Hatchery', 'When a non-Egg Clutch spawning point spawns it may place its monsters within 2 squares of Egg Clutch in addition to its own model.');
+/*Have a Heart					--Index 247*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Have a Heart', 'A model with Have a Heart benefits from hearts it rolls on failed actions, as well as successful actions.');
+/*Heal							--Index 248*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Heal', 'A model affected by Heal may remove a number of wound tokens or a number of status effect tokens equal to the value of X.');
+/*Healer						--Index 249*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Healer', 'When a model with Healer rolls a potion they may choose to gain a heart instead.');
+/*Heart Attack					--Index 250*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Heart Attack', 'When making an offense roll, a model with Heart Attack counts any hearts rolled as two hearts.');
+/*Hex							--Index 251*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Hex', 'A model suffering Hex discards the highest result rolled anytime it makes a defense roll.');
+/*Hex							--Index 252*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Explore', 'Hex', 'A model suffering Hex discards the highest result rolled anytime it makes an offense roll.');
+/*Hex							--Index 253*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Arcade', 'Hex', 'A monster suffering Hex reduces its STR by 1ST.');
+/*Hidden						--Index 254*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Hidden', 'Models Spawned from a spawning point with Hidden may be placed anywhere on the tile, instead of only within 2 squares.');
+/*Hoard							--Index 255*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Hoard', 'A model with Hoard may equip loot and treasure cards. When spawned, draw one treasure card and equip it on this model. When defeated heroes gain all equipment cards this model has equipped.');
+/*Holy							--Index 256*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Holy', 'A model with Holy may reroll a single dice when making offensive actions against undead, demons, or nether models.');
+/*Hookshot						--Index 257*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Hookshot', 'Actions with Hookshot do not require line of sight to target a model. Range must still be counted around walls and structures.');
+/*Hubris						--Index 258*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Hubris', 'When making a Melee Attack, a model with Hubris gains +1B STR for every equipment card equipped on their target.');
+/*Ice							--Index 259*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Ice', 'A model suffering Ice may not use unique actions.');
+/*Immobile						--Index 260*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Immobile', 'A model affected by Immobile may not move during their next activation.');
+/*Immune: Bane					--Index 261*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Immune: Bane', 'A model with Immune: Bane ignores and immediately removes all counters and/or the affects of Bane.');
+/*Immune: Fire					--Index 262*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Immune: Fire', 'A model with Immune: Fire ignores and immediately removes all counters and/or the affects of Fire.');
+/*Immune: Hex					--Index 263*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Immune: Hex', 'A model with Immune: Hex ignores and immediately removes all counters and/or the affects of Hex.');
+/*Immune: Ice					--Index 264*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Immune: Ice', 'A model with Immune: Ice ignores and immediately removes all counters and/or the affects of Ice.');
+/*Immune: Knockdown				--Index 265*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Immune: Knockdown', 'A model with Immune: Knockdown ignores and immediately removes all counters and/or the affects of Knockdown.');
+/*Immune: Poison				--Index 266*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Immune: Poison', 'A model with Immune: Poison ignores and immediately removes all counters and/or the affects of Poison.');
+/*Immune: Slow					--Index 267*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Immune: Slow', 'A model with Immune: Slow ignores and immediately removes all counters and/or the affects of Slow.');
+/*Immune: Status Effects		--Index 268*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Immune: Status Effects', 'A model that is Immune: Status Effects can never suffer the negative effects of status effects.  If a model that is suffering a status effect gains Immune: Status Effects remove all status effect tokens immediately.');
+/*In Your Pants					--Index 269*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Arcade', 'In Your Pants', 'A Hero with a Rabid Squirrel on its card reduces all defense rolls by +ST.');
+/*Insignificant					--Index 270*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Insignificant', 'If a Hero is on the same dungeon tile as a model with Insignificant it may be activated in addition to any other monsters that are activated during the Consul Turn. A model may not draw a loot card for destroying a model with Insignificant.');
+/*Invader						--Index 271*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Invader', 'When Invader is used the Invader model is removed from play and placed on the target Hero''s card, essentially becoming a token. While a slime model is on the Hero''s card, no model other than the Hero may target or affect the slime the Slime—not even area of effects.');
+/*Invader						--Index 272*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Invader', 'When a model uses an action with Invader remove the model from play and place it on the target Hero''s card. The Invader model may not voluntarily leave the Hero. The Hero suffers the effects of the Invader action as long as the Invader model remains on their card. Only the affected Hero may target or destroy Invader models on their card. The Invader is always considered in range. The Invader cannot be affected by area effects.');
+/*King's Riches					--Index 273*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'King''s Riches', 'Whenever The Forgotten King suffers a wound the party may draw one loot card.');
+/*Kitty Claws					--Index 274*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Kitty Claws', 'Beatrix immediately makes one Melee Attack against any model that moves into a square adjacent to Beatrix During it''s activation.');
+/*Knockdown						--Index 275*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Knockdown', 'A model suffering Knockdown may not move or perform any other action until it spends 1 action point or all of its movement points to remove the Knockdown token.<br>(Arcade: A monster suffering Knockdown may not perform commands until the next Move command. Instead of moving it must remove the Knockdown token.)');
+/*Lance							--Index 276*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Lance', 'A Lance effect draws a straight line in any direction, directly away from the user''s base along a distance of X. Every model along this line is hit. Lance effects may not be used along diagonals.');
+/*Last Stand					--Index 277*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Last Stand', 'Forgotten King, elite, and minion monsters gain IMMUNE: ALL.');
+/*Line							--Index 278*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Line', 'When a line is drawn place the appropriate template anywhere within the tile.\r\n\r\nTrap templates may not be placed across walls, structures, or chasms. They may be placed in the same square as a friendly or enemy models.');
+/*Little Splurt					--Index 279*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Little Splurt', 'Fire Gels cannot be spawned, instead they enter play as a result of the Burning Gel''s Splurt Ability.');
+/*Luck							--Index 280*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Luck', 'A model with Luck may gain a Potion instead of a Heart when rolled on the dice and vice versa.');
+/*Luck							--Index 281*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Luck', 'When a model with Luck draws treasure cards, they may draw one additional card, then choose one of the cards drawn and shuffle it back into the deck.');
+/*Massive Damage				--Index 282*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Massive Damage', 'When an offensive action with Massive Damage inflicts a wound it instead inflicts two wounds.');
+/*Master Gains Happy Cat		--Index 283*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Master Gains Happy Cat', 'The model controlling this model gains the ability "Happy Cat".');
+/*Master Gains Knockdown		--Index 284*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Master Gains Knockdown', 'The model controlling this model gains the keyword "Knockdown".');
+/*Master Gains Soprano			--Index 285*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Master Gains Soprano', 'The model controlling this model gains the ability "Soprano".');
+/*Master Gains Poison			--Index 286*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Master Gains Poison', 'The model controlling this model gains the keyword "Poison".');
+/*Master Gains Fire				--Index 287*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Master Gains Fire', 'The model controlling this model gains the keyword "Fire".');
+/*Master Gains Berserk			--Index 288*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Master Gains Berserk', 'The model controlling this model gains the keyword "Berserk".');
+/*Master Gains Luck				--Index 289*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Master Gains Luck', 'The model controlling this model gains the keyword "Luck".');
+/*Mend							--Index 290*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Arcade', 'Mend', 'A model using Mend targets the monster within range suffering the most wounds.  Remove status effect tokens and then remove wound tokens until a number of tokens equal to X has been reomved or the monster has no wound tokens on it.');
+/*Mob							--Index 291*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Mob', 'When making a Melee offensive action, a model with Mob adds +1B STR to their offense roll for every additional model with Mob that is in range of their target, up to +3B STR.');
+/*Mob Mentality					--Index 292*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Mob Mentality', 'Monsters with Citrine affinity that are within 2 squares of Kobold Warrens gain Mob.');
+/*Never-Lost					--Index 293*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Never-Lost', 'When drawing explore cards, the party may draw two cards and choose one.');
+/*Pet							--Index 294*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Pet', 'A model with Pet X is the master of the pet listed as X. A model with Pet X may never be a different pet''s master. The listed pet begins the game within two squares of its master.');
+/*Pet: Never-Lost Cola			--Index 295*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Pet: Never-Lost Cola', 'A model with Pet: Never-Lost Cola is the master of Never-Lost Cola. A model with Pet: Never-Lost Cola may never be a different pet''s master. Never-Lost Cola begins the game within two squares of its master.');
+/*Pile-On						--Index 296*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Pile-On', '+1B STR if target is suffering Knockdown.');
+/*Pile-On						--Index 297*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Pile-On', 'A model with Pile-On gains +1B STR if its target is suffering Knockdown.');
+/*Pile-On						--Index 298*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Arcade', 'Pile-On', 'A model with Pile-On gains +1ST STR if its target is suffering Knockdown.');
+/*Poison						--Index 299*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Poison', 'A model suffering Poison reduces its total number of action points by one.');
+/*Poison						--Index 300*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Poison', 'A model suffering Poison reduces its total number of action points by 1, to a minimum of 1.');
+/*Poison Aura					--Index 301*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Poison Aura', 'Monsters with Citrine affinity that are within 2 squares of Old-Growth Hollow gain Poison.');
+/*Potion Master					--Index 302*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Potion Master', 'Use two potions during her activation instead of the standard one.');
+/*Potion Master					--Index 303*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Potion Master', 'A model with Potion Master may use one additional potion during their activation.');
+/*Potion Stash					--Index 304*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Potion Stash', 'A monster with Potion Stash may gain potion tokens when rolled, in the same manner as Heroes, up to the number indicated by X. The monster may spend potion tokens on abilities indicated on its card.');
+/*Poxes							--Index 305*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Poxes', 'All Heroes suffer one random status effect.  (Close your eyes and pick one.)');
+/*Pounce						--Index 306*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Pounce', 'Choose an enemy model anywhere within 5 squares, and line of sight. Place the model with pounce adjacent to this target, then make the offense roll as normal.');
+/*Predator						--Index 307*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Predator', 'When an enemy model moves out of a square that is adjacent to a model with Predator, the model with Predator may immediately make a Melee Attack against that model.');
+/*Primal Aura					--Index 308*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Primal Aura', 'Monsters with Sapphire Affinity that are within 2 squares of Tribal Stone gain +1ST ARM.');
+/*Pull							--Index 309*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Pull', 'A model targeted by Pull may be moved a number of squares up to the value of X towards the model using Pull. Each square moved must decrease the distance between the two models. Once the two models are adjacent, the target model immediately stops.');
+/*Quick Hatch					--Index 310*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Arcade', 'Quick Hatch', 'After Egg Clutch performs a Spawn command, all monsters it just spawned immediately perform a Move command.');
+/*Rabid							--Index 311*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Rabid', 'When this model activates roll 1R and consult the following:  No stars: this model moves as close as it can to, and attacks, the closest friendly model. In the case two models are equally close, this model’s controller chooses.  One star: this model may activate normally.  Two or more stars: this model may activate normally and gains +1R STR.');
+/*Rage Musk						--Index 312*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Rage Musk', 'If this potion is used, the Consul roll 1r instead of 1B for Angry Walrus during the following Consul Turn.');
+/*Raise							--Index 313*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Raise', 'Replace target Bone Pile with a model with the Bone Pile ability. If a model is in the same square as the Bone Pile token, Raise has no effect.');
+/*Reach							--Index 314*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Explore', 'Reach', 'This ability allows the model to target an enemy with a melee attack up to X squares away. A model may use any of its abilities or special actions using Reach X, unless specified otherwise.');
+/*Reach							--Index 315*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Arcade', 'Reach', '+2ST RNG if a model with Reach is in the gang.');
+/*Regenerate					--Index 316*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Regenerate', 'Roll 1B for every wound token on the model using Regenerate. Remove one token for every star rolled.');
+/*Rock Aura						--Index 317*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Rock Aura', 'Monsters with Sapphire affinity that are within 2 squares of Rock Pile are Immune: Status Effects.');
+/*Ruby Goo						--Index 318*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Arcade', 'Ruby Goo', 'A Hero with an Ruby Slime on its card may not benefit from Ruby equipment.');
+/*Sapphire Gloop				--Index 319*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Arcade', 'Sapphire Gloop', 'A Hero with an Sapphire Slime on its card may not benefit from Sapphire equipment.');
+/*Savage						--Index 320*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Savage', 'All minions within 1 square of a model with Savage gain +1ST STR.');
+/*Scatter						--Index 321*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Scatter', 'When a scatter is drawn place four single square templates anywhere within the tile.\r\n\r\nTrap templates may not be placed across walls, structures, or chasms. They may be placed in the same square as a friendly or enemy models.');
+/*Secret Passage				--Index 322*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Secret Passage', 'When a model enters a Secret Passage square immediately place it in any other unoccupied Secret Passage square in the dungeon.\r\n\r\nA large model must be able to be placed in the new location or Secret Passage has no effect.');
+/*Shallow Grave					--Index 323*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Shallow Grave', 'Ghosts may be spawned from Fresh Grave Tile Effects instead of Rattlebones.');
+/*Shapeshift					--Index 324*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Shapeshift', 'When the model is activated it may choose to shapeshift into its alternate form during its upkeep.  Replace their card with the specified shapeshift card.  Replace the model on the dungeon map with the new shapeshift model.');
+/*Shapeshift: Angry Bear		--Index 325*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Shapeshift: Angry Bear', 'When the model is activated it may choose to shapeshift into Angry Bear during its upkeep.  Replace the card with the Angry Bear card.  Replace the model on the dungeon map with the Angry Bear model.');
+/*Shapeshift: Deeproot Druid	--Index 326*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Shapeshift: Deeproot Druid', 'When the model is activated it may choose to shapeshift into Deeproot Druid during its upkeep.  Replace the card with the Deeproot Druid card.  Replace the model on the dungeon map with the Deeproot Druid model.');
+/*Shapeshift: Nocturne			--Index 327*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Shapeshift: Nocturne', 'When the model is activated it may choose to shapeshift into Nocturne during its upkeep.  Replace the card with the Nocturne card.  Replace the model on the dungeon map with the Nocturne model.');
+/*Shapeshift: Ragin' Roxor		--Index 328*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Shapeshift: Ragin'' Roxor', 'When the model is activated it may choose to shapeshift into Ragin'' Roxor during its upkeep.  Replace the card with the Ragin'' Roxor card.');
+/*Shapeshift: Rockin' Roxor		--Index 329*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Shapeshift: Rockin'' Roxor', 'When the model is activated it may choose to shapeshift into Rockin'' Roxor during its upkeep.  Replace the card with the Rockin'' Roxor card.');
+/*Shapeshift: King Sprout		--Index 330*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Shapeshift: King Sprout', 'When the model is activated it may choose to shapeshift into King Sprout during its upkeep.  Replace the card with the King Sprout card.  Replace the model on the dungeon map with the King Sprout model.');
+/*Shapeshift: Von Wilder		--Index 331*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Shapeshift: Von Wilder', 'When the model is activated it may choose to shapeshift into Von Wilder during its upkeep.  Replace the card with the Von Wilder card.  Replace the model on the dungeon map with the Von Wilder model.');
+/*Shapeshift: Von Wildling		--Index 332*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Shapeshift: Von Wildling', 'When the model is activated it may choose to shapeshift into Von Wildling during its upkeep.  Replace the card with the Von Wildling card.  Replace the model on the dungeon map with the Von Wildling model.');
+/*Shapeshift: Von Drakk			--Index 333*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Shapeshift: Von Drakk', 'When the model is activated it may choose to shapeshift into Von Drakk during its upkeep.  Replace the card with the Von Drakk card.  Replace the model on the dungeon map with the Von Drakk model.');
+/*Shell							--Index 334*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Shell', 'When a model with Shell is destroyed replace it with a Turtle Shell model. If all Turtle Shells are already on the dungeon map, move the Turtle Shell furthest from the Heroes to the new square.');
+/*Sidestep						--Index 335*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Sidestep', 'When a model with Sidestep wins a defense roll they may immediately move one square.');
+/*Slow							--Index 336*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Slow', 'A model suffering Slow halves its movement points, rounding up.');
+/*Small							--Index 337*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Small', 'An enemy model may only target a small model if it is within 3 squares of the model.');
+/*Smooches						--Index 338*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Smooches', 'This model immediately shapeshifts back to its original form if a friendly model moves into an adjacent square and spends 1 Action to give it a kiss.');
+/*Soporific						--Index 339*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Soporific', 'When this model is destroyed inflicts the attacking model with the status effect Slow.');
+/*Soporific						--Index 340*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Soporific', 'When a model with Soporific is destroyed, the model that destroyed it suffers Slow.');
+/*Soporific Cloud				--Index 341*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Soporific Cloud', 'When a Hero that does not have Emerald affinity moves within 2 squares of Fungal Growth they suffer Slow.');
+/*Spawn Location				--Index 342*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Spawn Location', 'When playing Arcade Mode, spawning points are placed in Spawn Location squares.');
+/*Splurt						--Index 343*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Splurt', 'When Burning Gel is destroyed, before removing the model, place two Fire Gels into play in any adjacent empty squares.');
+/*Spongy						--Index 344*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Spongy', 'Anytime a model makes an offensive action against the Kinoshroom. The model is pushed one square away.');
+/*Spongy						--Index 345*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Spongy', 'When a model with Spongy is targeted, Push the model that targeted them 1 square after the action has been resolved, even if the model with Spongy was destroyed.');
+/*Static Charge					--Index 346*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Static Charge', 'A model with Static Charge gains +1B STR and +1B ARM for every wound they are currently suffering.');
+/*Stealth						--Index 347*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Stealth', 'Reduces the range of all actions made against the model by 3 to a minimum of 1.');
+/*Stealth						--Index 348*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Stealth', 'Actions targeting a model with stealth reduce their Range by 3, to a minimum of 1.');
+/*Stealth Aura					--Index 349*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Stealth Aura', 'Monsters with Ruby Affinity that are within 2 squares of Salt Pillar gain Stealth.');
+/*Student						--Index 350*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Student', 'Once per game, a model with Student may use a single unique action listed on the card of any other Hero in the dungeon.');
+/*Succumb						--Index 351*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Succumb', 'All Heroes suffer Bane.');
+/*Surefoot						--Index 352*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Surefoot', 'A model with Surefoot treats difficult terrain squares as open squares. All non-blessing tile effects in those squares are ignored.');
+/*Surge							--Index 353*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Arcade', 'Surge', 'If a model with Surge is not in range of a Hero move it an additional 5 squares towards the Hero with the most wrath.');
+/*Sweep							--Index 354*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Sweep', 'A sweep effect hits every model within X squares of any single side of the user''s base along a straight line. Sweep effects may not be used along diagonals.');
+/*Tail Sweep					--Index 355*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Tail Sweep', 'During his activation Starfire may make the following offensive action a single time for free: Attack Melee, Sweep 2, Knockdown.');
+/*Teleport						--Index 356*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Teleport', 'Choose an empty square anywhere within 10 squares, and line of sight. Place the model affected by Teleport in this square.');
+/*Thief							--Index 357*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Thief', 'A model with Thief may reroll a single dice when using Pick Lock action.');
+/*Throw							--Index 358*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Throw', 'When using an action with Throw, choose one friendly adjacent model. Push that model a number of squares up to the value of X, as described in the rules for Push. If the model moves to a square that is adjacent to another model it immediately stops moving. Every model it stops adjacent to, friendly or enemy, suffers an offense roll of 1B per square the model moved.');
+/*Tough							--Index 359*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Tough', 'During its upkeep, a model with Tough removes a single wound token.');
+/*Toxic Blood					--Index 360*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Toxic Blood', 'A model that inflicts a wound against a model with Toxic Blood suffers Poison.');
+/*Tremors						--Index 360*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Tremors', 'All Heroes suffer SLOW.');
+/*Virulent						--Index 362*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Virulent', 'Add +1B to this model''s offense rolls if its target is suffering from Poison.');
+/*Wind of Blades				--Index 363*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Wind of Blades', 'A model with Wind of Blades may spend all of its movement points to make a single Missile Attack basic offensive action.');
+/*Wisdom						--Index 364*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Wisdom', 'A model with Wisdom gains +1AC that may only be used to take support actions.');
+/*Wonder						--Index 365*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Wonder', 'Place pet model and game card in the Backpack. One Hero may become the pet''s master during Power-Up.');
+/*Zealotry						--Index 366*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Zealotry', 'All kobolds and drakes gain +1B STR.');
+/*Boo Booty						--Index 367*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Boo Booty', 'Boo Booty cannot be spawned, instead they enter play when their treasure card is drawn.');
+/*Vulnerable: Fire				--Index 368*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Vulnerable: Fire', 'A model with Vulnerable: Fire targeted by Fire must discard the highest result rolled of any defense roll it makes against an ability with Fire.');
+/*Deranged Alchemist			--Index 369*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Explore', 'Deranged Alchemist', 'Deranged Alchemist begins the game with 3 potion tokens, may earn tokens in the same manner as Heroes, and may have up to a maximum of 3 tokens on its card.  Only Deranged Alchemist may use or benefit its potions.');
+/*Bulldozer						--Index 370*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Explore', 'Bulldozer', 'A model with Bulldozer may move through enemy models, and treats difficult terrain and structure squares as open squares.  All non-blessing tile effects in those squares are ignored.'); 
+/*Spawning Pool					--Index 371*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Explore', 'Spawning Pool', '1x Bramble Knight (Spawning Point)<br>1x Grobbit Executioner<br>2x Frog Knights<br>4x Billmen');
+/*Spawning Pool					--Index 372*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Arcade', 'Spawning Pool', '1x Bramble Knight (Spawning Point)<br>1x Grobbit Executioner<br>2x Frog Knights<br>4x Billmen<br><br>Cards:<br>Excutioners Gang<br>House of Frog Gang');
+/*Spawning Pool					--Index 373*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Explore', 'Spawning Pool', '2x Claw Shrine (Spawning Point)<br>2x Black Claw Assassin<br>3x Claw Trainer<br>6x Drake Hound');
+/*Spawning Pool					--Index 374*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Arcade', 'Spawning Pool', '2x Claw Shrine (Spawning Point)<br>2x Black Claw Assassin<br>3x Claw Trainer<br>6x Drake Hound<br><br>Cards:<br>Black Claws Gang<br>Blood Trackers Gang');
+/*Spawning Pool					--Index 375*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Explore', 'Spawning Pool', '1x Egg Clutch (Spawning Point)<br>2x Wyrmling<br>2x Whelp<br>2x Hatchlings');
+/*Spawning Pool					--Index 376*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Arcade', 'Spawning Pool', '1x Egg Clutch (Spawning Point)<br>2x Wyrmling<br>2x Whelp<br>2x Hatchlings<br><br>Cards:<br>Dragonborn Gang');
+/*Spawning Pool					--Index 377*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Explore', 'Spawning Pool', '2x Elemental Shrine (Spawning Point)<br>1x Chunin<br>1x Madoushi<br>2x Kunoichi<br>2x Yajiri<br>3x Kaiken');
+/*Spawning Pool					--Index 378*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Arcade', 'Spawning Pool', '2x Elemental Shrine (Spawning Point)<br>1x Chunin<br>1x Madoushi<br>2x Kunoichi<br>2x Yajiri<br>3x Kaiken<br><br>Cards:<br>Strike Tream<br>Scout Team<br>Mystic Team');
+/*Spawning Pool					--Index 379*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Explore', 'Spawning Pool', '1x Fungal Growth (Spawning Point)<br>1x Okoshroom<br>2x Truffle Pig<br>4x Kinoshroom');
+/*Spawning Pool					--Index 380*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Arcade', 'Spawning Pool', '1x Fungal Growth (Spawning Point)<br>1x Okoshroom<br>2x Truffle Pig<br>4x Kinoshroom<br><br>Cards:<br>Fungus Brigade Gang<br>Pig Patrol Gang');
+/*Spawning Pool					--Index 381*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Explore', 'Spawning Pool', '2x Grabby House (Spawning Point)<br>1x Shamble Priest<br>2x Prowler<br>2x Pudge<br>6x Swampie');
+/*Spawning Pool					--Index 382*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Arcade', 'Spawning Pool', '2x Grabby House (Spawning Point)<br>1x Shamble Priest<br>2x Prowler<br>2x Pudge<br>6x Swampie<br><br>Cards:<br>Grave Robbers Gang<br>Rotters Gang');
+/*Spawning Pool					--Index 383*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Explore', 'Spawning Pool', '2x Kobold Warrens (Spawning Point)<br>1x Dragon Priest<br>2x Ironscales<br>2x Flingers<br>3x Knuckleheads<br>3x Gougers');
+/*Spawning Pool					--Index 384*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Arcade', 'Spawning Pool', '2x Kobold Warrens (Spawning Point)<br>1x Dragon Priest<br>2x Ironscales<br>2x Flingers<br>3x Knuckleheads<br>3x Gougers<br><br>Cards:<br>Scale Wall Gang<br>Dragon Devotee Gang<br>Sneaks Gang');
+/*Spawning Pool					--Index 385*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Explore', 'Spawning Pool', '1x Lava Whirl (Spawning Point)<br>1x Blaze Beetle<br>2x Ember Hound<br>3x Burning Gel<br>6x Fire Gel');
+/*Spawning Pool					--Index 386*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Arcade', 'Spawning Pool', '1x Lava Whirl (Spawning Point)<br>1x Blaze Beetle<br>2x Ember Hound<br>3x Burning Gel<br>6x Fire Gel<br><br>Cards:<br>Blaze Beetle<br>Burning Pack Gang<br>Flaming Slime Gang');
+/*Spawning Pool					--Index 387*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Explore', 'Spawning Pool', '2x Old Growth Hollow (Spawning Point)<br>1x Sprout<br>1x King Sprout<br>2x Wisp<br>2x Turniphead<br>6x Mook');
+/*Spawning Pool					--Index 388*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Arcade', 'Spawning Pool', '2x Old Growth Hollow (Spawning Point)<br>1x Sprout<br>1x King Sprout<br>2x Wisp<br>2x Turniphead<br>6x Mook<br><br>Cards:<br>Lil'' Sprouts Gang<br>Hungry Sprouts Gang<br>Wll-O-Wisps Gang<br>Herbalists Gang');
+/*Spawning Pool					--Index 389*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Explore', 'Spawning Pool', '1x Pumpkin Patch (Spawning Point)<br>1x Crypt Spider<br>2x Curse Coven Witch<br>2x Miserable Toad<br>4x Skullbat');
+/*Spawning Pool					--Index 390*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Arcade', 'Spawning Pool', '1x Pumpkin Patch (Spawning Point)<br>1x Crypt Spider<br>2x Curse Coven Witch<br>2x Miserable Toad<br>4x Skullbat<br><br>Cards:<br>Crypt Spider<br>Miserable Toad<br>Curse Coven Gang');
+/*Spawning Pool					--Index 391*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Explore', 'Spawning Pool', '2x Rock Pile (Spawning Point)<br>1x Crusher<br>2x Roller<br>2x Bombardier<br>6x Slowpoke<br>6x Turtle Shell');
+/*Spawning Pool					--Index 392*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Arcade', 'Spawning Pool', '2x Rock Pile (Spawning Point)<br>1x Crusher<br>2x Roller<br>2x Bombardier<br>6x Slowpoke<br><br>Cards:<br>Rockers Gang<br>Bully Foremen Gang<br>Shell Battery Gang');
+/*Spawning Pool					--Index 393*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Explore', 'Spawning Pool', '1x Salt Pillar (Spawning Point)<br>2x Mist Hound<br>6x Sorrow');
+/*Spawning Pool					--Index 394*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Arcade', 'Spawning Pool', '1x Salt Pillar (Spawning Point)<br>2x Mist Hound<br>6x Sorrow<br><br>Cards:<br>Predators Gang<br>Despair Shroud Gang');
+/*Spawning Pool					--Index 395*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Explore', 'Spawning Pool', '2x Shallow Grave (Spawning Point)<br>1x Dust Coven Necromancer<br>2x Dread Knight<br>2x Dust Mage<br>6x Boneheads');
+/*Spawning Pool					--Index 396*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Arcade', 'Spawning Pool', '2x Shallow Grave (Spawning Point)<br>1x Dust Coven Necromancer<br>2x Dread Knight<br>2x Dust Mage<br>6x Boneheads<br><br>Cards:<br>Dust Coven Gang<br>House of Ash Gang<br>Dust Acolytes Gang');
+/*Spawning Pool					--Index 397*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Explore', 'Spawning Pool', '1x Tribal Stone (Spawning Point)<br>1x Mistmourn Chieftain<br>2x Spirit Walker<br>2x Ghostfire Warrior');
+/*Spawning Pool					--Index 398*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Arcade', 'Spawning Pool', '1x Tribal Stone (Spawning Point)<br>1x Mistmourn Chieftain<br>2x Spirit Walker<br>2x Ghostfire Warrior<br><br>Cards:<br>Ghostfire Tribe Gang<br>Spirit Born Gang');
+/*Feed Me						--Index 399*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Arcade', 'Feed Me', 'During upkeep, if a model with Feed Me is suffering any wounds, destroy one minion within two squares of the model and remove one wound token.');
+/*Cursed						--Index 400*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Cursed', 'Anytime this model makes a defense roll discard the highest result rolled.');
+/*Cursed, Luck					--Index 401*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Cursed, Luck', 'A model with Luck may gain a Potion instead of a Heart when rolled on the dice and vice versa.  Anytime this model makes a roll reduce the result by 1 STAR.');
+/*Insight						--Index 402*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Insight', 'When a model with Insight is targeted by an offensive action, it may force the attacker to reroll one die of its choice from the offense roll, before making a defense roll. (Arcade: A monster targeting a model with Insight reduces its STR by 1.)' );
+/*Hunger						--Index 403*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Hunger', 'When a model with Hunger rolls a Heart, no other model may benefit from its effect unless the model with Hunger is not suffering any wounds.');
+/*Hammer Brooch					--Index 404*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Hammer Brooch', 'A model with Bulldozer may move through enemy models, and treats difficult terrain and structure squares as open squares.  All non-blessing tile effects in those squares are ignored.');
+/*Bleed							--Index 405*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Bleed', 'When making an offense roll, a model with Bleed counts any Hearts rolled as both one star and one heart.');
+/*Sturdy						--Index 406*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Sturdy', 'A model with Sturdy never suffers more than a single wound from a single action, such as critical hits or Massive Damage.');
+/*Cursed						--Index 407*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Cursed', 'Anytime this model makes a defense roll discard the highest result rolled.');
+/*Lava							--Index 408*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Lava', 'A model which enters oen or more Lava squares suffers FIRE at the end of the current activation.');
+/*Blessing						--Index 409*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Blessing', 'A tile effect with Blessing bestows a positive effect, specified on the tile effect''s card, to models within the tile.  Blessings only affect Hero, elite and minion models.');
+/*Structure						--Index 410*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Structure', 'Models cannot draw line of sight across or move through structures.');
+/*Sentinel						--Index 411*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Sentinel', 'Models that are adjacent to a Sentinel structure add +1ST to all defense rolls.');
+/*Vulnerable: Magic				--Index 412*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Vulnerable: Magic', '');
+/*Retreat						--Index 413*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Retreat', 'After completing an action with Retreat, using the rules for Push, the model''s player moves the model with Retreat five squares away from its target or the square which the target occupied.');--FK Abilities
 /*Acorn Bomb												--Index 155*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Acorn Bomb', 'Action', 'Offense', 2, 1, 6, 'DANGEROUS, 6SW, Burst 1, KNOCKDOWN');
-/*Alluring														--Index 156*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Alluring', 'Action', 'Offense', 1, 3, -1, 'MA, Wave 1, HEX');
+/*Alluring													--Index 156*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Alluring', 'Action', 'Offense', 1, 3, -1, 'MA, Wave 1, HEX');
 /*Alluring Perfume											--Index 157*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Alluring Perfume', 'Potion', 'Support', 1, -1, 6, 'RANGE6, Compel 6');
-/*Ambush														--Index 158*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Ambush', 'Action', 'Support', 2, -1, 4, 'RANGE4.  Place up to 3 skull points of monsters, from anywhere in the dungeon, adjacent to target Hero.');
+/*Ambush													--Index 158*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Ambush', 'Action', 'Support', 2, -1, 4, 'RANGE4.  Place up to 3 skull points of monsters, from anywhere in the dungeon, adjacent to target Hero.');
 /*Ancestral Fury											--Index 159*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Arcade', 'Ancestral Fury', 'Action', 'Offense', 0, 1, -1, 'Wave 3, BANE');
-/*Ancestral Will												--Index 160*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Ancestral Will', 'Action', 'Support', 1, -1, 6, 'RANGE6, Push 2');
+/*Ancestral Will											--Index 160*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Ancestral Will', 'Action', 'Support', 1, -1, 6, 'RANGE6, Push 2');
 /*Ancestral Wrath											--Index 161*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Ancestral Wrath', 'Action', 'Offense', 2, 1, 3, '+1R STR, BANE');
-/*Ancient's Inhalation									--Index 162*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Ancient''s Inhalation', 'Potion', 'Support', 1, -1, -1, 'AUGMENT, Dark Radiance');
-/*Army of Bones											--Index 163*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Army of Bones', 'Action', 'Support', 1, -1, -1, 'Raise');
+/*Ancient's Inhalation										--Index 162*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Ancient''s Inhalation', 'Potion', 'Support', 1, -1, -1, 'AUGMENT, Dark Radiance');
+/*Army of Bones												--Index 163*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Army of Bones', 'Action', 'Support', 1, -1, -1, 'Raise');
 /*Army of Bone												--Index 164*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Explore', 'Army of Bone', 'Action', 'Support', 1, -1, -1, 'Wave 3, Raise');
 /*Army of Bone												--Index 165*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Arcade', 'Army of Bone', 'Action', 'Support', 0, -1, -1, 'Wave 3, Raise');
 /*Arrest Warrant											--Index 166*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Arrest Warrant', 'Action', 'Offense', 1, 4, 6, '6MI, +1R DEX, Pull 6');
@@ -2622,7 +2625,7 @@ insert into Utilities (CardIndex, UtilityDescription) VALUES (153, 'Offensive Po
 /*Ash Cloud													--Index 168*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Ash Cloud', 'Action', 'Support', 1, -1, -1, 'AUGMENT, Aura 2, Stealth');
 /*Assassinate												--Index 169*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Explore', 'Assassinate', 'Action', 'Offense', 2, 1, 1, '1SW, +1R STR, If Black Claw Assassin''s bonus from Mob is +3B, Black Claw Assassin gains Massive Damage.');
 /*Assassinate												--Index 170*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Arcade', 'Assassinate', 'Action', 'Offense', 0, -1, -1, 'AUGMENT, Black Claws gains Massive Damage.');
-/*Astral Hammer											--Index 171*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Astral Hammer', 'Action', 'Offense', 2, 1, -1, 'SW, Cross 2, KNOCKDOWN');
+/*Astral Hammer												--Index 171*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Astral Hammer', 'Action', 'Offense', 2, 1, -1, 'SW, Cross 2, KNOCKDOWN');
 /*Backblast													--Index 172*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Backblast', 'Action', 'Support', 2, -1, -1, 'DANGEROUS, Wave 2, Push 2');
 /*Backstab													--Index 173*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Backstab', 'Action', 'Offense', 3, 1, 1, '1SW, +1G STR, Massive Damage');
 /*Back Strike												--Index 174*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Back Strike', 'Action', 'Offense', 1, 1, 1, '1SW, +1B STR, if the target of Back Strike did not activate during the previous Hero Turn.');
@@ -2633,33 +2636,33 @@ insert into Utilities (CardIndex, UtilityDescription) VALUES (153, 'Offensive Po
 /*Bear Charge												--Index 179*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Bear Charge', 'Action', 'Offense', 2, 1, 1, '1SW, +1R STR, KNOCKDOWN');
 /*Bear Hug													--Index 180*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Bear Hug', 'Action', 'Offense', 2, 1, 1, '1SW, HEX, IMMOBILE');
 /*Benevolence												--Index 181*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Benevolence', 'Potion', 'Support', 1, -1, -1, 'Wave 1, Remove all status effeects from every model in the area effect, friendly or enemy.');
-/*Bile Burst													--Index 182*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Bile Burst', 'Action', 'Support', 1, -1, -1, 'One Use Only.  DANGEROUS, Wave 3, BANE');
-/*Biting Gale													--Index 183*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Biting Gale', 'Action', 'Offense', 2, 1, 2, 'MA, Sweep 3, KNOCKDOWN');
+/*Bile Burst												--Index 182*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Bile Burst', 'Action', 'Support', 1, -1, -1, 'One Use Only.  DANGEROUS, Wave 3, BANE');
+/*Biting Gale												--Index 183*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Biting Gale', 'Action', 'Offense', 2, 1, 2, 'MA, Sweep 3, KNOCKDOWN');
 /*Black Cat													--Index 184*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Black Cat', 'Action', 'Offense', 2, 3, -1, 'MA, Wave 1, HEX');
 /*Blazing Blade												--Index 185*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Explore', 'Blazing Blade', 'Action', 'Offense', 2, 1, -1, 'Sweep 3, +1ST STR, FIRE');
 /*Blazing Blade												--Index 186*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Arcade', 'Blazing Blade', 'Action', 'Offense', 0, 1, -1, 'Sweep 3, +1ST STR, FIRE');
 /*Blood Scent												--Index 187*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Explore', 'Blood Scent', 'Action', 'Offense', 1, 1, 1, '+1 STR, if target model is suffering one or more wounds.');
 /*Blood Scent												--Index 188*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Arcade', 'Blood Scent', 'Action', 'Support', 0, -1, -1, 'AUGMENT, If target model is suffering one or more wounds Blood Trackers gain +1ST STR.');
-/*Boom															--Index 189*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Boom', 'Action', 'Offense', 0, 1, -1, 'Wave 1, STR 1ST');
+/*Boom														--Index 189*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Boom', 'Action', 'Offense', 0, 1, -1, 'Wave 1, STR 1ST');
 /*Boomerang													--Index 190*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Boomerang', 'Action', 'Support', 2, -1, 6, 'RANGE6, Hookshot, Place target Treasure Chest adjacent to Deeproot Scout.');
 /*Bomb's Away												--Index 191*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Bomb''s Away', 'Action', 'Offense', 2, 1, 6, 'DANGEROUS, 6SW, Burst 1, KNOCKDOWN');
 /*Bone Cold													--Index 192*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Explore', 'Bone Cold', 'Action', 'Offense', 2, 3, 6, '+1R WILL, ICE');
 /*Bone Cold													--Index 193*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Arcade', 'Bone Cold', 'Action', 'Offense', 0, 1, -1, 'ICE');
-/*Bottled Dragon Breath									--Index 194*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Bottled Dragon Breath', 'Potion', 'Offense', 1, 1, -1, 'DANGEROUS, SW, Sweep 2, FIRE');
-/*Bottled Faerie												--Index 195*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Bottled Faerie', 'Potion', 'Emergency', 1, -1, -1, 'AUGMENT, Heal 2');
-/*Bounce														--Index 196*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Explore', 'Bounce', 'Action', 'Support', 1, -1, 1, 'RANGE1, Push 1');
-/*Bounce														--Index 197*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Arcade', 'Bounce', 'Action', 'Support', 1, -1, 1, 'RANGE1, Surge');
+/*Bottled Dragon Breath										--Index 194*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Bottled Dragon Breath', 'Potion', 'Offense', 1, 1, -1, 'DANGEROUS, SW, Sweep 2, FIRE');
+/*Bottled Faerie											--Index 195*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Bottled Faerie', 'Potion', 'Emergency', 1, -1, -1, 'AUGMENT, Heal 2');
+/*Bounce													--Index 196*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Explore', 'Bounce', 'Action', 'Support', 1, -1, 1, 'RANGE1, Push 1');
+/*Bounce													--Index 197*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Arcade', 'Bounce', 'Action', 'Support', 1, -1, 1, 'RANGE1, Surge');
 /*Bounce It													--Index 198*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Bounce It', 'Action', 'Offense', 1, 1, 1, '1SW, Pounce.');
 /*Bound by Law												--Index 199*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Bound by Law', 'Potion', 'Support', 1, 1, 6, 'RANGE6, STR vs STR, Immobile');
-/*Brain Food													--Index 200*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Brain Food', 'Action', 'Support', 3, -1, -1, 'AUGMENT, Wave 3, All Zombies may make immediately make one Melee Attack.');
+/*Brain Food												--Index 200*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Brain Food', 'Action', 'Support', 3, -1, -1, 'AUGMENT, Wave 3, All Zombies may make immediately make one Melee Attack.');
 /*Breath of Dream											--Index 201*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Explore', 'Breath of Dream', 'Action', 'Offense', 2, 3, -1, 'MA, Lance 6, SLOW');
 /*Breath of Dream											--Index 202*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Arcade', 'Breath of Dream', 'Action', 'Offense', 0, 1, -1, 'Lance 8, SLOW');
-/*Breathtaking Kiss										--Index 203*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Explore', 'Breathtaking Kiss', 'Action', 'Offense', 2, 3, 1, '1MA, +1R WILL, If Breathtaking Kiss inflicts a wound Outcast Succubus may remove a single wound token.');
-/*Breathtaking Kiss										--Index 204*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Explore', 'Breathtaking Kiss', 'Action', 'Offense', 2, 3, 1, '1MA, +1R WILL, If Breathtaking Kiss inflicts a wound Succubus Vandella may remove a single wound token.');
-/*Breathtaking Kiss										--Index 205*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Arcade', 'Breathtaking Kiss', 'Action', 'Offense', 0, 1, 4, '1ST STR, If Breathtaking Kiss inflicts a wound remove a single wound token from Succubus Vandella.');
+/*Breathtaking Kiss											--Index 203*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Explore', 'Breathtaking Kiss', 'Action', 'Offense', 2, 3, 1, '1MA, +1R WILL, If Breathtaking Kiss inflicts a wound Outcast Succubus may remove a single wound token.');
+/*Breathtaking Kiss											--Index 204*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Explore', 'Breathtaking Kiss', 'Action', 'Offense', 2, 3, 1, '1MA, +1R WILL, If Breathtaking Kiss inflicts a wound Succubus Vandella may remove a single wound token.');
+/*Breathtaking Kiss											--Index 205*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Arcade', 'Breathtaking Kiss', 'Action', 'Offense', 0, 1, 4, '1ST STR, If Breathtaking Kiss inflicts a wound remove a single wound token from Succubus Vandella.');
 /*Briar Armor												--Index 206*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Briar Armor', 'Action', 'Support', 1, -1, 1, 'AUGMENT, Backlash');
-/*Brilliant														--Index 207*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Explore', 'Brilliant', 'Action', 'Offense', 1, 1, 6, '6SW, +1R STR, Gruesome George Suffers one wound.');
-/*Brilliant														--Index 208*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Arcade', 'Brilliant', 'Action', 'Offense', 0, 1, 3, '+1ST STR, Gruesome George Suffers one wound.');
+/*Brilliant													--Index 207*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Explore', 'Brilliant', 'Action', 'Offense', 1, 1, 6, '6SW, +1R STR, Gruesome George Suffers one wound.');
+/*Brilliant													--Index 208*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Arcade', 'Brilliant', 'Action', 'Offense', 0, 1, 3, '+1ST STR, Gruesome George Suffers one wound.');
 /*Brittle Bones												--Index 209*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Brittle Bones', 'Action', 'Support', 0, -1, -1, 'BANE');
 /*Broken Bones												--Index 210*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Broken Bones', 'Action', 'Offense', 1, 3, 8, '8MA, BANE');
 /*Bubble & Boil												--Index 211*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Explore', 'Bubble & Boil', 'Action', 'Offense', 1, 3, 8, 'DANGEROUS, 0MA, Burst 1, Spend up to one potion token to gain +1G WILL.');
@@ -2670,107 +2673,107 @@ insert into Utilities (CardIndex, UtilityDescription) VALUES (153, 'Offensive Po
 /*Burning Bile												--Index 216*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Arcade', 'Burning Bile', 'Action', 'Offense', 0, 1, -1, 'Lance 8');
 /*Burning Chitin											--Index 217*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Burning Chitin', 'Action', 'Support', 1, -1, -1, 'AUGMENT, Backlash');
 /*Burning Blade												--Index 218*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Burning Blade', 'Action', 'Offense', 2, 1, -1, 'SW, Sweep 1, +1R STR, FIRE');
-/*Burning Bloom											--Index 219*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Burning Bloom', 'Potion', 'Offense', 1, 1, -1, 'DANGEROUS, SW, Wave 1, FIRE');
-/*Call of the Dragon King								--Index 220*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Call of the Dragon King', 'Action', 'Support', 2, -1, -1, 'Wave 2, Compel 4');
-/*Cannon														--Index 221*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Cannon', 'Action', 'Offense', 1, 4, 10, '4MI, +2B DEX');
+/*Burning Bloom												--Index 219*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Burning Bloom', 'Potion', 'Offense', 1, 1, -1, 'DANGEROUS, SW, Wave 1, FIRE');
+/*Call of the Dragon King									--Index 220*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Call of the Dragon King', 'Action', 'Support', 2, -1, -1, 'Wave 2, Compel 4');
+/*Cannon													--Index 221*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Cannon', 'Action', 'Offense', 1, 4, 10, '4MI, +2B DEX');
 /*Cat & Mouse												--Index 222*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Cat & Mouse', 'Action', 'Offense', 1, 3, 6, '6RANGE, WILL vs WILL, Compel 3');
-/*Catnip														--Index 223*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Catnip', 'Potion', 'Support', 1, -1, -1, 'Place one potion token on any Hero''s card.');
-/*Cave In														--Index 224*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Explore', 'Cave In', 'Action', 'Offense', 2, 1, 6, 'Burst 2, KNOCKDOWN');
-/*Cave In														--Index 225*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Arcade', 'Cave In', 'Action', 'Offense', 0, 1, 6, 'Burst 3');
-/*Chaos Fuzz													--Index 226*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Explore', 'Chaos Fuzz', 'Action', 'Offense', 2, 1, -1, 'DANGEROUS, SW, Wave 2');
-/*Chaos Fuzz													--Index 227*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Arcade', 'Chaos Fuzz', 'Action', 'Offense', 0, 1, -1, 'Wave 2');
-/*Chocolate Confession									--Index 228*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Chocolate Confession', 'Action', 'Support', 1, 3, -1, 'DANGEROUS, RANGE5, WILL vs WILL.');
-/*Chomp!  Crunch!										--Index 229*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Explore', 'Chomp!  Crunch!', 'Action', 'Offense', 2, 1, 3, '3SW, +1R STR, BANE');
-/*Chomp!  Crunch!										--Index 230*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Arcade', 'Chomp!  Crunch!', 'Action', 'Offense', 0, 1, 3, '+1ST STR, BANE');
+/*Catnip													--Index 223*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Catnip', 'Potion', 'Support', 1, -1, -1, 'Place one potion token on any Hero''s card.');
+/*Cave In													--Index 224*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Explore', 'Cave In', 'Action', 'Offense', 2, 1, 6, 'Burst 2, KNOCKDOWN');
+/*Cave In													--Index 225*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Arcade', 'Cave In', 'Action', 'Offense', 0, 1, 6, 'Burst 3');
+/*Chaos Fuzz												--Index 226*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Explore', 'Chaos Fuzz', 'Action', 'Offense', 2, 1, -1, 'DANGEROUS, SW, Wave 2');
+/*Chaos Fuzz												--Index 227*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Arcade', 'Chaos Fuzz', 'Action', 'Offense', 0, 1, -1, 'Wave 2');
+/*Chocolate Confession										--Index 228*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Chocolate Confession', 'Action', 'Support', 1, 3, -1, 'DANGEROUS, RANGE5, WILL vs WILL.');
+/*Chomp!  Crunch!											--Index 229*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Explore', 'Chomp!  Crunch!', 'Action', 'Offense', 2, 1, 3, '3SW, +1R STR, BANE');
+/*Chomp!  Crunch!											--Index 230*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Arcade', 'Chomp!  Crunch!', 'Action', 'Offense', 0, 1, 3, '+1ST STR, BANE');
 /*Choke														--Index 231*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Choke', 'Action', 'Support', 0, -1, -1, 'For the remainder of this activation, and during their entire next activation, models affected by Choking Cloud may not drink potions.');
-/*Circle of Salt												--Index 232*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Explore', 'Circle of Salt', 'Action', 'Support', 2, 1, 6, 'RANGE6, STR vs WILL, IMMOBILE');
-/*Circle of Salt												--Index 233*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Arcade', 'Circle of Salt', 'Action', 'Support', 0, 1, 3, 'IMMOBILE');
+/*Circle of Salt											--Index 232*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Explore', 'Circle of Salt', 'Action', 'Support', 2, 1, 6, 'RANGE6, STR vs WILL, IMMOBILE');
+/*Circle of Salt											--Index 233*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Arcade', 'Circle of Salt', 'Action', 'Support', 0, 1, 3, 'IMMOBILE');
 /*Citrine Goop												--Index 234*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Citrine Goop', 'Action', 'Support', 1, -1, 1, '1RANGE, Invader, Hero may not benefit from Citrine equipment.');
-/*Cleave														--Index 235*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Cleave', 'Action', 'Offense', 1, 1, -1, 'DANGEROUS, SW, Sweep 1');
+/*Cleave													--Index 235*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Cleave', 'Action', 'Offense', 1, 1, -1, 'DANGEROUS, SW, Sweep 1');
 /*Coagulated Mixture										--Index 236*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Coagulated Mixture', 'Potion', 'Offense', 1, 3, 3, '3MA, Burst 1');
 /*Come Hither												--Index 237*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Explore', 'Come Hither', 'Action', 'Support', 1, 3, -1, 'Wave 2, WILL vs WILL, Compel 2');
 /*Come Hither												--Index 238*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Explore', 'Come Hither', 'Action', 'Support', 2, 3, -1, 'Wave 3, WILL vs WILL, Compel 3');
 /*Come Hither												--Index 239*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Arcade', 'Come Hither', 'Action', 'Support', 0, 1, -1, 'Wave 4, Pull 3');
-/*Confectionary Clairvoyance							--Index 240*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Confectionary Clairvoyance', 'Action', 'Support', 1, -1, -1, 'AUGMENT, Aura 2, +1B on all defense rolls.');
+/*Confectionary Clairvoyance								--Index 240*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Confectionary Clairvoyance', 'Action', 'Support', 1, -1, -1, 'AUGMENT, Aura 2, +1B on all defense rolls.');
 /*Confetti Sprinkle											--Index 241*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Confetti Sprinkle', 'Action', 'Support', 1, -1, -1, 'DANGEROUS, RANGE3, Burst 2, Models in the area suffer one random status effect.  (Close your eyes, pick a token, apply it to all affected models.)');
-/*Coolmint Kitty Bomb									--Index 242*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Coolmint Kitty Bomb', 'Potion', 'Offense', 1, 3, -1, 'DANGEROUS, MA, Wave 1, ICE');
+/*Coolmint Kitty Bomb										--Index 242*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Coolmint Kitty Bomb', 'Potion', 'Offense', 1, 3, -1, 'DANGEROUS, MA, Wave 1, ICE');
 /*Coup de Grace 											--Index 243*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Coup de Grace', 'Action', 'Offense', 1, -1, -1, 'One Use Only.  When Coup de Grace inflicts a wound it instead inflicts one wound for every star rolled by the attacker.');
 /*Crack the Whip											--Index 244*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Crack the Whip', 'Action', 'Support', 1, -1, 2, 'AUGMENT, RANGE2, Compel 2');
 /*Crane														--Index 245*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Crane', 'Action', 'Offense', 2, 4, -1, 'MI, Lance 8, Pull 3');
-/*Creep															--Index 246*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Creep', 'Action', 'Offense', 2, 3, -1, 'MA, Wave 1, Creeps within the area are destroyed.');
+/*Creep														--Index 246*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Creep', 'Action', 'Offense', 2, 3, -1, 'MA, Wave 1, Creeps within the area are destroyed.');
 /*Crossbow													--Index 247*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Crossbow', 'Action', 'Offense', 1, 4, 6, '6MI, +1B DEX');
-/*Crunch														--Index 248*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Crunch', 'Action', 'Offense', 1, 1, 2, '2SW, +1R STR, BANE');
+/*Crunch													--Index 248*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Crunch', 'Action', 'Offense', 1, 1, 2, '2SW, +1R STR, BANE');
 /*Cursed Blade												--Index 249*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Explore', 'Cursed Blade', 'Action', 'Offense', 2, 1, 1, '1SW, +1B STR, BANE, HEX');
 /*Cursed Blade												--Index 250*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Arcade', 'Cursed Blade', 'Action', 'Offense', 0, 1, -1, 'BANE, HEX');
 /*Cursed Blade												--Index 251*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Arcade', 'Cursed Blade', 'Action', 'Offense', 0, 1, -1, '+1 STR, BANE, HEX');
-/*Curses!														--Index 252*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Explore', 'Curses!', 'Action', 'Support', 2, -1, -1, 'DANGEROUS, Wave 2, Choose any one status effect.');
-/*Curses!														--Index 253*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Arcade', 'Curses', 'Action', 'Support', 0, -1, -1, 'Wave 3, Each affected model''s player chloses their eyes and picks one random status effect token.');
+/*Curses!													--Index 252*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Explore', 'Curses!', 'Action', 'Support', 2, -1, -1, 'DANGEROUS, Wave 2, Choose any one status effect.');
+/*Curses!													--Index 253*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Arcade', 'Curses', 'Action', 'Support', 0, -1, -1, 'Wave 3, Each affected model''s player chloses their eyes and picks one random status effect token.');
 /*Dark Aura													--Index 254*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Explore', 'Dark Aura', 'Action', 'Support', 2, -1, -1, 'AUGMENT, Aura 2, Stealth');
 /*Dark Aura													--Index 255*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Arcade', 'Dark Aura', 'Action', 'Support', 0, -1, -1, 'AUGMENT, Aura 2, Stealth');
 /*Dark Howling												--Index 256*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Explore', 'Dark Howling', 'Action', 'Offense', 2, 4, 6, '6MI, Burst 2, ICE');
 /*Dark Howling												--Index 257*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Arcade', 'Dark Howling', 'Action', 'Offense', 0, 1, 3, 'Wave 3, ICE');
 /*Dark Reflection											--Index 258*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Dark Reflection', 'Action', 'Support', 1, -1, 6, 'One Use Only.  RANGE6 Until its next upkeep this model may use the target model''s attributes for any roll it must make, including any bonuses either model possesses.');
-/*Daystar														--Index 259*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Daystar', 'Action', 'Offense', 2, 4, -1, 'MI, Lance 8, Push 3');
+/*Daystar													--Index 259*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Daystar', 'Action', 'Offense', 2, 4, -1, 'MI, Lance 8, Push 3');
 /*Dead Cold													--Index 260*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Explore', 'Dead Cold', 'Action', 'Offense', 2, 3, -1, 'MA, Wave 3, ICE');
 /*Dead Cold													--Index 261*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Arcade', 'Dead Cold', 'Action', 'Offense', 0, 1, -1, 'Wave 3, ICE');
 /*Decay														--Index 262*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Explore', 'Decay', 'Action', 'Offense', 2, 1, 1, 'Models wounded by Decay must discard one piece of equipment of their choice.');
 /*Decay														--Index 263*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Explore', 'Decay', 'Action', 'Offense', 2, 1, 2, '2SW, Models wounded by Decay must discard one piece of equipment of their choice.');
 /*Decay														--Index 264*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Arcade', 'Decay', 'Action', 'Offense', 0, 1, 3, 'Models wounded by Decay must discard one piece of equipment of their choice.');
-/*Deadwood Dynamite									--Index 265*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Deadwood Dynamite', 'Potion', 'Offense', 1, 1, 3, 'DANGEROUS, 3SW, Burst 1, POISON');
+/*Deadwood Dynamite											--Index 265*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Deadwood Dynamite', 'Potion', 'Offense', 1, 1, 3, 'DANGEROUS, 3SW, Burst 1, POISON');
 /*Death Sentence											--Index 266*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Death Sentence', 'Action', 'Support', 0, -1, -1, 'AUGMENT, Executioners gain +1AC');
-/*Deceive														--Index 267*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Deceive', 'Action', 'Support', 1, 3, 6, 'RANGE6, WILL vs WILL, Compel 3');
-/*Deep Mad Tentattack									--Index 268*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Deep Mad Tentattack', 'Action', 'Offense', 2, 3, -1, 'MA, Lance 6, HEX');
-/*Devour														--Index 269*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Explore', 'Devour', 'Action', 'Offense', 2, 1, 2, '+1G STR, If Devour inflicts a wound Goro may remove one wound token.');
-/*Devour														--Index 270*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Explore', 'Devour', 'Action', 'Offense', 2, 1, 2, '+1G STR, If Devour inflicts a wound Oni may remove one wound token.');
-/*Devour														--Index 271*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Arcade', 'Devour', 'Action', 'Offense', 0, 1, 3, '+1ST STR, If Devour inflicts a wound Goro may remove one wound token.');
-/*Devour														--Index 272*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Arcade', 'Devour', 'Action', 'Offense', 0, 1, 3, '+1ST STR, If Devour inflicts a wound Oni may remove one wound token.');
-/*Dimensional Draught									--Index 273*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Dimensional Draught', 'Potion', 'Support', 1, -1, -1, 'AUGMENT, Teleport');
-/*Disaster														--Index 274*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Explore', 'Disaster', 'Action', 'Offense', 3, 1, -1, 'SW, Wave 3, A model wounded by Disaster must choose one random status effect token and place it on their card.');
-/*Disaster														--Index 275*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Arcade', 'Disaster', 'Action', 'Offense', 0, 1, -1, 'Wave 3, A model wounded by Disaster must choose one random status effect token and place it on their card.');
-/*Disgusting													--Index 276*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Explore', 'Disgusting', 'Action', 'Offense', 1, 1, -1, 'SW, Lance 3, +1R STR, POISON');
-/*Disgusting													--Index 277*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Arcade', 'Disgusting', 'Action', 'Offense', 0, 1, -1, 'Lance 5, POISON');
+/*Deceive													--Index 267*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Deceive', 'Action', 'Support', 1, 3, 6, 'RANGE6, WILL vs WILL, Compel 3');
+/*Deep Mad Tentattack										--Index 268*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Deep Mad Tentattack', 'Action', 'Offense', 2, 3, -1, 'MA, Lance 6, HEX');
+/*Devour													--Index 269*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Explore', 'Devour', 'Action', 'Offense', 2, 1, 2, '+1G STR, If Devour inflicts a wound Goro may remove one wound token.');
+/*Devour													--Index 270*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Explore', 'Devour', 'Action', 'Offense', 2, 1, 2, '+1G STR, If Devour inflicts a wound Oni may remove one wound token.');
+/*Devour													--Index 271*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Arcade', 'Devour', 'Action', 'Offense', 0, 1, 3, '+1ST STR, If Devour inflicts a wound Goro may remove one wound token.');
+/*Devour													--Index 272*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Arcade', 'Devour', 'Action', 'Offense', 0, 1, 3, '+1ST STR, If Devour inflicts a wound Oni may remove one wound token.');
+/*Dimensional Draught										--Index 273*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Dimensional Draught', 'Potion', 'Support', 1, -1, -1, 'AUGMENT, Teleport');
+/*Disaster													--Index 274*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Explore', 'Disaster', 'Action', 'Offense', 3, 1, -1, 'SW, Wave 3, A model wounded by Disaster must choose one random status effect token and place it on their card.');
+/*Disaster													--Index 275*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Arcade', 'Disaster', 'Action', 'Offense', 0, 1, -1, 'Wave 3, A model wounded by Disaster must choose one random status effect token and place it on their card.');
+/*Disgusting												--Index 276*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Explore', 'Disgusting', 'Action', 'Offense', 1, 1, -1, 'SW, Lance 3, +1R STR, POISON');
+/*Disgusting												--Index 277*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Arcade', 'Disgusting', 'Action', 'Offense', 0, 1, -1, 'Lance 5, POISON');
 /*Distilled Stampede										--Index 278*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Distilled Stampede', 'Potion', 'Support', 1, -1, -1, 'All Heroes may immediately move 3 squares.');
-/*Distracting Costume									--Index 279*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Explore', 'Distracting Costume', 'Action', 'Support', 2, -1, -1, 'Wave 1, HEX');
-/*Distracting Costume									--Index 280*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Arcade', 'Distracting Costume', 'Action', 'Support', 0, -1, -1, 'Wave 1, HEX');
+/*Distracting Costume										--Index 279*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Explore', 'Distracting Costume', 'Action', 'Support', 2, -1, -1, 'Wave 1, HEX');
+/*Distracting Costume										--Index 280*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Arcade', 'Distracting Costume', 'Action', 'Support', 0, -1, -1, 'Wave 1, HEX');
 /*Dive Bomb													--Index 281*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Dive Bomb', 'Action', 'Offense', 2, 1, 1, '1SW, +1R STR, KNOCKDOWN');
 /*Divine Arrow												--Index 282*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Divine Arrow', 'Action', 'Offense', 2, 4, 1, 'MI, Lance 8');
-/*Doom															--Index 283*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Explore', 'Doom', 'Action', 'Support', 1, 3, 6, 'RANGE6, WILL vs WILL, BANE.  After resolving Doom, Skullbat is destroyed.');
-/*Doom															--Index 284*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Arcade', 'Doom', 'Action', 'Support', 0, 1, -1, 'BANE.  After resolving Doom destroy one Skullbat in the gang.');
-/*Doooom														--Index 285*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Doooom', 'Action', 'Offense', 1, 4, 8, '8MI, Hookshot');
-/*Dragon's Breathe										--Index 286*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Dragon''s Breathe', 'Action', 'Offense', 2, 1, -1, 'DANGEROUS, SW, Lance 8, FIRE');
-/*Dragon Dung Confetti									--Index 287*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Dragon Dung Confetti', 'Potion', 'Emergency', 1, 1, -1, 'SW, Wave 1, HEX');
-/*Dragon Dung Confetti									--Index 288*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Dragon Dung Confetti', 'Potion', 'Support', 1, -1, -1, 'SW, Wave 1, HEX');
+/*Doom														--Index 283*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Explore', 'Doom', 'Action', 'Support', 1, 3, 6, 'RANGE6, WILL vs WILL, BANE.  After resolving Doom, Skullbat is destroyed.');
+/*Doom														--Index 284*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Arcade', 'Doom', 'Action', 'Support', 0, 1, -1, 'BANE.  After resolving Doom destroy one Skullbat in the gang.');
+/*Doooom													--Index 285*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Doooom', 'Action', 'Offense', 1, 4, 8, '8MI, Hookshot');
+/*Dragon's Breathe											--Index 286*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Dragon''s Breathe', 'Action', 'Offense', 2, 1, -1, 'DANGEROUS, SW, Lance 8, FIRE');
+/*Dragon Dung Confetti										--Index 287*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Dragon Dung Confetti', 'Potion', 'Emergency', 1, 1, -1, 'SW, Wave 1, HEX');
+/*Dragon Dung Confetti										--Index 288*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Dragon Dung Confetti', 'Potion', 'Support', 1, -1, -1, 'SW, Wave 1, HEX');
 /*Dragon Hoard												--Index 289*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Dragon Hoard', 'Action', 'Support', 3, -1, -1, 'AUGMENT, Draw and equip 1 loot card.');
 /*Dragon Horn												--Index 290*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Explore', 'Dragon Horn', 'Action', 'Support', 1, -1, -1, 'AUGMENT, Remedy');
 /*Dragon Horn												--Index 291*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Arcade', 'Dragon Horn', 'Action', 'Support', 0, -1, -1, 'AUGMENT, Wave 2, Remedy');
 /*Dragon Rage												--Index 292*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Dragon Rage', 'Action', 'Support', 1, -1, -1, 'AUGMENT, Aura 3, All Kobolds and Drakes gain +1B STR');
-/*Dragon Slayer											--Index 293*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Dragon Slayer', 'Action', 'Offense', 3, 1, 1, 'If Dragon Slayer inflicts a wound it instead inflicts one wound for every star the offense roll exceeded the defense roll.');
-/*Dress-up Draught										--Index 294*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Dress-up Draught', 'Potion', 'Support', 1, -1, -1, 'Choose two Heroes, they may exchange one piece of equipment.');
-/*Dwarven Curse											--Index 295*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Dwarven Curse', 'Action', 'Support', 2, 1, -1, 'Wave 3, STR vs WILL, Pull 3');
+/*Dragon Slayer												--Index 293*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Dragon Slayer', 'Action', 'Offense', 3, 1, 1, 'If Dragon Slayer inflicts a wound it instead inflicts one wound for every star the offense roll exceeded the defense roll.');
+/*Dress-up Draught											--Index 294*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Dress-up Draught', 'Potion', 'Support', 1, -1, -1, 'Choose two Heroes, they may exchange one piece of equipment.');
+/*Dwarven Curse												--Index 295*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Dwarven Curse', 'Action', 'Support', 2, 1, -1, 'Wave 3, STR vs WILL, Pull 3');
 /*Earthshaker												--Index 296*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Explore', 'Earthshaker', 'Action', 'Support', 2, 1, -1, 'Sweep 2, STR vs DEX, SLOW');
 /*Earthshaker												--Index 297*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Arcade', 'Earthshaker', 'Action', 'Support', 0, 1, -1, 'Sweep 2, STR vs DEX, SLOW');
 /*Electric Jolt												--Index 298*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Explore', 'Electric Jolt', 'Action', 'Support', 1, -1, -1, 'AUGMENT, Gruesome George heals one wound.');
 /*Electric Jolt												--Index 299*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Arcade', 'Electric Jolt', 'Action', 'Support', 0, -1, -1, 'AUGMENT, Gruesome George heals one wound.');
-/*Elemental Master										--Index 300*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Elemental Master', 'Action', 'Support', 2, -1, -1, 'AUGMENT, The Chunin may choose a different Elemental Affinity.');
-/*Elixir															--Index 301*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Elixir', 'Potion', 'Emergency', 1, -1, -1, 'AUGMENT, Heal 3');
-/*Elixir of Light												--Index 302*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Elixir of Light', 'Potion', 'Support', 1, -1, -1, 'AUGMENT, +1B WILL, Remedy, Holy');
+/*Elemental Master											--Index 300*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Elemental Master', 'Action', 'Support', 2, -1, -1, 'AUGMENT, The Chunin may choose a different Elemental Affinity.');
+/*Elixir													--Index 301*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Elixir', 'Potion', 'Emergency', 1, -1, -1, 'AUGMENT, Heal 3');
+/*Elixir of Light											--Index 302*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Elixir of Light', 'Potion', 'Support', 1, -1, -1, 'AUGMENT, +1B WILL, Remedy, Holy');
 /*Emerald Glop												--Index 303*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Emerald Glop', 'Action', 'Support', 1, -1, 1, '1RANGE, Invader, Hero may not benefit from Emerald equipment.');
 /*Energy Blast												--Index 304*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Engery Blast', 'Action', 'Offense', 2, 4, 8, '8MI, Burst 1');
 /*Enervating Bite											--Index 305*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Explore', 'Enervating Bite', 'Action', 'Offense', 2, 1, 2, '2SW, +1R STR HEX');
 /*Enervating Bite											--Index 306*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Arcade', 'Enervating Bite', 'Action', 'Offense', 0, 1, 3, 'HEX');
-/*Experimental Concoction								--Index 307*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Experimental Concoction', 'Potion', 'Support', 1, -1, -1, 'Fae Alchemist draws two treasure cards.  Choose one card and shuffle the other back into the deck.  Fae Alchemist gains the effects listed on the chosen card until the beginning of her next activation, then discards the card.  Note, Fae Alchemist gains this effect even if she has a treasure card equipped as normal.  Only Fae Alchemist may drink Experimental Concoction.');
-/*Explode														--Index 308*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Explode', 'Action', 'Offense', 0, 1, -1, 'DANGEROUS, SW, Wave 2');
+/*Experimental Concoction									--Index 307*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Experimental Concoction', 'Potion', 'Support', 1, -1, -1, 'Fae Alchemist draws two treasure cards.  Choose one card and shuffle the other back into the deck.  Fae Alchemist gains the effects listed on the chosen card until the beginning of her next activation, then discards the card.  Note, Fae Alchemist gains this effect even if she has a treasure card equipped as normal.  Only Fae Alchemist may drink Experimental Concoction.');
+/*Explode													--Index 308*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Explode', 'Action', 'Offense', 0, 1, -1, 'DANGEROUS, SW, Wave 2');
 /*Extra Scared												--Index 309*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Extra Scared', 'Action', 'Support', 1, -1, 1, '1RANGE, Invader, a Hero with a Ghost on its card may not remove status effect tokens from its card at the end of its activation or when a heart is rolled.');
-/*Extreme Weather										--Index 310*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Extreme Weather', 'Action', 'Offense', 0, 1, -1, 'Wave 2, FIRE, ICE');
+/*Extreme Weather											--Index 310*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Extreme Weather', 'Action', 'Offense', 0, 1, -1, 'Wave 2, FIRE, ICE');
 /*Fae Curse													--Index 311*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Explore', 'Fae Curse', 'Action', 'Support', 1, 3, 6, 'RANGE6, WILL vs WILL, HEX, BANE');
 /*Fae Curse													--Index 312*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Arcade', 'Fae Curse', 'Action', 'Support', 1, 1, 6, 'HEX, BANE');
-/*Feast															--Index 313*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Explore', 'Feast', 'Action', 'Offense', 2, 1, 2, '2SW, +1R STR.  If Feast inflicts a wound Nocturne may remove a single wound token.');
-/*Feast															--Index 314*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Explore', 'Feast', 'Action', 'Offense', 2, 1, 2, '2SW, +1R STR.  If Feast inflicts a wound Rock Gut may remove a single wound token.');
-/*Feast															--Index 315*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Arcade', 'Feast', 'Action', 'Offense', 0, 1, -1, 'If Feast inflicts a wound Nocturne may remove a single wound token.');
-/*Feast															--Index 316*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Arcade', 'Feast', 'Action', 'Offense', 0, 1, -1, 'If Feast inflicts a wound Rock Gut may remove a single wound token.');
+/*Feast														--Index 313*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Explore', 'Feast', 'Action', 'Offense', 2, 1, 2, '2SW, +1R STR.  If Feast inflicts a wound Nocturne may remove a single wound token.');
+/*Feast														--Index 314*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Explore', 'Feast', 'Action', 'Offense', 2, 1, 2, '2SW, +1R STR.  If Feast inflicts a wound Rock Gut may remove a single wound token.');
+/*Feast														--Index 315*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Arcade', 'Feast', 'Action', 'Offense', 0, 1, -1, 'If Feast inflicts a wound Nocturne may remove a single wound token.');
+/*Feast														--Index 316*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Arcade', 'Feast', 'Action', 'Offense', 0, 1, -1, 'If Feast inflicts a wound Rock Gut may remove a single wound token.');
 /*Finisher, The												--Index 317*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Finisher, The', 'Action', 'Offense', 2, 1, 1, '1SW, +1R STR, Massive Damage');
-/*Fire Storm													--Index 318*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Fire Storm', 'Action', 'Support', 1, -1, -1, 'DANGEROUS, Wave 1, FIRE');
-/*Fire Water													--Index 319*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Fire Water', 'Potion', 'Support', 1, -1, -1, 'AUGMENT, +1B STR, FIRE');
+/*Fire Storm												--Index 318*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Fire Storm', 'Action', 'Support', 1, -1, -1, 'DANGEROUS, Wave 1, FIRE');
+/*Fire Water												--Index 319*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Fire Water', 'Potion', 'Support', 1, -1, -1, 'AUGMENT, +1B STR, FIRE');
 /*Fire Wave													--Index 320*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Fire Wave', 'Action', 'Offense', 2, 3, -1, 'MA, Wave 1');
 /*Fizzy Beverage											--Index 321*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Fizzy Beverage', 'Potion', 'Support', 1, -1, -1, 'AUGMENT, +1R DEX');
 /*Flame Burst												--Index 322*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Explore', 'Flame Burst', 'Action', 'Offense', 2, 4, 6, '6MI, Burst 1, FIRE');
@@ -2778,28 +2781,28 @@ insert into Utilities (CardIndex, UtilityDescription) VALUES (153, 'Offensive Po
 /*Flaming Javelin											--Index 324*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Explore', 'Flaming Javelin', 'Action', 'Offense', 1, 4, 6, '6MI, +1B DEX, FIRE');
 /*Flaming Javelin											--Index 325*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Explore', 'Flaming Javelin', 'Action', 'Offense', 1, 1, 6, '6SW, Burst 1, +1R DEX, FIRE');
 /*Flaming Javelin											--Index 326*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Arcade', 'Flaming Javelin', 'Action', 'Offense', 0, 1, 4, '+1ST STR, FIRE');
-/*Flicker														--Index 327*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Flicker', 'Action', 'Support', 1, -1, -1, 'AUGMENT, Teleport (Choose an empty square anywhere within 10 squares, and line of sight.  Place the model affected by Teleport in this square.)');
-/*Flintlock														--Index 328*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Explore', 'Flintlock', 'Action', 'Offense', 1, 4, 6, '6MI, +1B DEX');
-/*Flintlock														--Index 329*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Explore', 'Flintlock', 'Action', 'Offense', 1, 4, 6, '6MI, +1R DEX');
-/*Flintlock														--Index 330*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Arcade', 'Flintlock', 'Action', 'Offense', 0, 1, 3, '+2ST STR');
+/*Flicker													--Index 327*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Flicker', 'Action', 'Support', 1, -1, -1, 'AUGMENT, Teleport (Choose an empty square anywhere within 10 squares, and line of sight.  Place the model affected by Teleport in this square.)');
+/*Flintlock													--Index 328*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Explore', 'Flintlock', 'Action', 'Offense', 1, 4, 6, '6MI, +1B DEX');
+/*Flintlock													--Index 329*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Explore', 'Flintlock', 'Action', 'Offense', 1, 4, 6, '6MI, +1R DEX');
+/*Flintlock													--Index 330*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Arcade', 'Flintlock', 'Action', 'Offense', 0, 1, 3, '+2ST STR');
 /*Fly With Me												--Index 331*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Fly With Me', 'Action', 'Support', 2, -1, 6, 'AUGMENT, RANGE6, Fly');
-/*Flying Fur													--Index 332*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Explore', 'Flying Fur', 'Action', 'Offense', 1, 1, 1, '1SW, Pounce');
-/*Flying Fur													--Index 333*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Arcade', 'Flying Fur', 'Action', 'Offense', 1, 1, 3, 'Surge');
+/*Flying Fur												--Index 332*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Explore', 'Flying Fur', 'Action', 'Offense', 1, 1, 1, '1SW, Pounce');
+/*Flying Fur												--Index 333*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Arcade', 'Flying Fur', 'Action', 'Offense', 1, 1, 3, 'Surge');
 /*Focused Shot												--Index 334*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Focused Shot', 'Action', 'Offense', 2, 4, 8, '8MI, +3B DEX');
 /*Force of Will												--Index 335*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Force of Will', 'Action', 'Offense', 2, 3, 6, '6MA, Burst 1');
 /*Forestwalker												--Index 336*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Forestwalker', 'Action', 'Support', 2, -1, 0, 'Teleport');
-/*Fox															--Index 337*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Fox', 'Action', 'Support', 1, 3, 6, 'RANGE6, WILL vs WILL, Compel 3');
-/*Fritz															--Index 338*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Fritz', 'Potion', 'Support', 1, -1, -1, 'Place one potion token on any Hero''s card.');
-/*Frogger														--Index 339*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Explore', 'Frogger', 'Action', 'Offense', 1, 1, -1, 'Pounce');
-/*Frogger														--Index 340*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Arcade', 'Frogger', 'Action', 'Support', 0, -1, -1, 'Surge');
+/*Fox														--Index 337*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Fox', 'Action', 'Support', 1, 3, 6, 'RANGE6, WILL vs WILL, Compel 3');
+/*Fritz														--Index 338*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Fritz', 'Potion', 'Support', 1, -1, -1, 'Place one potion token on any Hero''s card.');
+/*Frogger													--Index 339*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Explore', 'Frogger', 'Action', 'Offense', 1, 1, -1, 'Pounce');
+/*Frogger													--Index 340*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Arcade', 'Frogger', 'Action', 'Support', 0, -1, -1, 'Surge');
 /*Frost Berries												--Index 341*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Frost Berries', 'Action', 'Support', 0, 1, -1, 'STR 2ST, ICE');
-/*Frosty Soda Bomb										--Index 342*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Explore', 'Frosty Soda Bomb', 'Potion', 'Support', 1, -1, -1, 'AUGMENT, +1B DEX, KNOCKDOWN');
-/*Frosty Soda Bomb										--Index 343*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Explore', 'Frosty Soda Bomb', 'Potion', 'Support', 2, 4, 6, 'RANGE6, Burst 2, DEX vs DEX, ICE');
-/*Frosty Soda Bomb										--Index 344*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Arcade', 'Frosty Soda Bomb', 'Potion', 'Support', 0, 1, -1, 'Burst 2, ICE');
+/*Frosty Soda Bomb											--Index 342*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Explore', 'Frosty Soda Bomb', 'Potion', 'Support', 1, -1, -1, 'AUGMENT, +1B DEX, KNOCKDOWN');
+/*Frosty Soda Bomb											--Index 343*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Explore', 'Frosty Soda Bomb', 'Potion', 'Support', 2, 4, 6, 'RANGE6, Burst 2, DEX vs DEX, ICE');
+/*Frosty Soda Bomb											--Index 344*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Arcade', 'Frosty Soda Bomb', 'Potion', 'Support', 0, 1, -1, 'Burst 2, ICE');
 /*Frozen Feet												--Index 345*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Frozen Feet', 'Action', 'Offense', 1, 3, 8, '8MA, ICE');
-/*Frying Pan													--Index 346*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Frying Pan', 'Action', 'Offense', 2, 1, 1, '1SW, +1R STR, BANE.');
-/*Funky Fungus Sniffer									--Index 347*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Explore', 'Funky Fungus Sniffer', 'Action', 'Support', 2, -1, -1, 'Spawn a Kinoshroom from the spawning pool adjacent to Truffle Pig.');
-/*Funky Fungus Sniffer									--Index 348*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Arcade', 'Funky Fungus Sniffer', 'Action', 'Support', 0, -1, -1, 'Spawn a Kinoshroom from the spawning pool adjacent to Truffle Pig.');
+/*Frying Pan												--Index 346*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Frying Pan', 'Action', 'Offense', 2, 1, 1, '1SW, +1R STR, BANE.');
+/*Funky Fungus Sniffer										--Index 347*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Explore', 'Funky Fungus Sniffer', 'Action', 'Support', 2, -1, -1, 'Spawn a Kinoshroom from the spawning pool adjacent to Truffle Pig.');
+/*Funky Fungus Sniffer										--Index 348*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Arcade', 'Funky Fungus Sniffer', 'Action', 'Support', 0, -1, -1, 'Spawn a Kinoshroom from the spawning pool adjacent to Truffle Pig.');
 /*Furnace Vent												--Index 349*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Explore', 'Furnace Vent', 'Action', 'Offense', 2, 1, -1, 'SW, Cross 3, FIRE');
 /*Furnace Vent												--Index 350*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Arcade', 'Furnace Vent', 'Action', 'Offense', 0, 1, -1, 'Cross 5, FIRE');
 /*Fury's Blood												--Index 351*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Fury''s Blood', 'Potion', 'Emergency', 1, -1, -1, 'AUGMENT, Backlash');
@@ -2810,17 +2813,17 @@ insert into Utilities (CardIndex, UtilityDescription) VALUES (153, 'Offensive Po
 /*Ghostfire													--Index 356*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Arcade', 'Ghostfire', 'Action', 'Offense', 0, 1, -1, 'Lance 6');
 /*Giri Swarm												--Index 357*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Girir Swarm', 'Action', 'Offense', 1, 3, 6, '6MA, +1R WILL for every empty square adjacent to the target.');
 /*Glimmerberry Juice										--Index 358*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Glimmerberry Juice', 'Potion', 'Emergency', 1, -1, 6, 'RANGE6, Drink immediately after an offense roll has been made.  Target enemy model must reroll all dice from thier last offense roll.');
-/*Gloom Shatter											--Index 359*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Gloom Shatter', 'Action', 'Support', 2, -1, -1, 'DANGEROUS, Aura 2, Reduce all offense rolls made in the aura by 1ST.  Twilight Knight is not affected by Gloom Shater.');
-/*Goo Splash													--Index 360*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Goo Splash', 'Action', 'Offense', 2, 3, 6, '6MA, Burst 1, FIRE');
+/*Gloom Shatter												--Index 359*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Gloom Shatter', 'Action', 'Support', 2, -1, -1, 'DANGEROUS, Aura 2, Reduce all offense rolls made in the aura by 1ST.  Twilight Knight is not affected by Gloom Shater.');
+/*Goo Splash												--Index 360*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Goo Splash', 'Action', 'Offense', 2, 3, 6, '6MA, Burst 1, FIRE');
 /*Grasping Vines											--Index 361*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Grasping Vines', 'Action', 'Offense', 1, 1, 4, '4SW, Pull 3');
 /*Gribbly Tentattack										--Index 362*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Gibbly Tentattack', 'Action', 'Offense', 2, 3, -1, 'MA, Cross 4, SLOW');
-/*Grind It														--Index 363*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Grind It', 'Action', 'Offense', 1, 1, 1, '1SW, Models wounded by Grind It must discard one piece of equipment of their choice.');
+/*Grind It													--Index 363*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Grind It', 'Action', 'Offense', 1, 1, 1, '1SW, Models wounded by Grind It must discard one piece of equipment of their choice.');
 /*Grump														--Index 364*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Grump', 'Action', 'Offense', 1, 1, 1, '1SW, KNOCKDOWN');
 /*Halo Extract												--Index 365*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Halo Extract', 'Potion', 'Emergency', 1, -1, -1, 'AUGMENT, Aura 3, +1ST ARM');
 /*Happy Cat													--Index 366*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Happy Cat', 'Action', 'Support', 1, -1, -1, 'Wave 3, Pull 2.');
-/*Harass														--Index 367*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Harass', 'Action', 'Offense', 2, 4, 4, '4MI, SLOW, KNOCKDOWN');
-/*Hard Hit														--Index 368*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Hard Hit', 'Action', 'Offense', 2, 1, 1, '1SW, +2G STR');
-/*Harvest														--Index 369*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Harvest', 'Action', 'Offense', 2, 1, -1, 'DANGEROUS, SW, Sweep 1, Heal 1 if any model is destroyed by Harvest.');
+/*Harass													--Index 367*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Harass', 'Action', 'Offense', 2, 4, 4, '4MI, SLOW, KNOCKDOWN');
+/*Hard Hit													--Index 368*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Hard Hit', 'Action', 'Offense', 2, 1, 1, '1SW, +2G STR');
+/*Harvest													--Index 369*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Harvest', 'Action', 'Offense', 2, 1, -1, 'DANGEROUS, SW, Sweep 1, Heal 1 if any model is destroyed by Harvest.');
 /*Harvest Scythe											--Index 370*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Explore', 'Harvest Scythe', 'Action', 'Offense', 2, 1, -1, 'SW, Sweep 3, SLOW');
 /*Harvest Scythe											--Index 371*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Arcade', 'Harvest Scythe', 'Action', 'Offense', 0, 1, -1, 'Sweep 3, SLOW');
 /*Head Chopper												--Index 372*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Head Chopper', 'Action', 'Offense', 2, 1, 1, '1SW, +1G STR');
@@ -2831,51 +2834,51 @@ insert into Utilities (CardIndex, UtilityDescription) VALUES (153, 'Offensive Po
 /*Herbalist													--Index 377*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Herbalist', 'Action', 'Support', 1, -1, 6, 'AUGMENT, RANGE6, Remedy');
 /*Herbology													--Index 378*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Arcade', 'Herbology', 'Action', 'Support', 0, -1, -1, 'AUGMENT, Wave 5, Remedy');
 /*Hero's Balm												--Index 379*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Hero''s Balm', 'Potion', 'Emergency', 1, -1, 6, 'AUGMENT, Remove any number of wound tokens from target Hero and place them on Hero affected by Hero''s Balm');
-/*Hex Bolt														--Index 380*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Explore', 'Hex Bolt', 'Action', 'Offense', 2, 4, 6, '6MI, +ST DEX, HEX');
-/*Hex Bolt														--Index 381*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Arcade', 'Hex Bolt', 'Action', 'Offense', 0, 1, 6, '+1ST STR, HEX');
+/*Hex Bolt													--Index 380*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Explore', 'Hex Bolt', 'Action', 'Offense', 2, 4, 6, '6MI, +ST DEX, HEX');
+/*Hex Bolt													--Index 381*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Arcade', 'Hex Bolt', 'Action', 'Offense', 0, 1, 6, '+1ST STR, HEX');
 /*Hightower													--Index 382*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Explore', 'Hightower', 'Action', 'Support', 2, -1, -1, 'AUGMENT, Aura 3, +1ST ARM, IMMUNE: KNOCKDOWN');
 /*Hightower													--Index 383*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Explore', 'Hightower', 'Action', 'Support', 1, -1, -1, 'AUGMENT, Aura 2, +1ST ARM, IMMUNE: KNOCKDOWN');
 /*Hightower													--Index 384*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Arcade', 'Hightower', 'Action', 'Support', 0, -1, -1, 'AUGMENT, Aura 2, +1ST ARM, IMMUNE: KNOCKDOWN');
-/*Hobbled Hands											--Index 385*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Hobbled Hands', 'Action', 'Offense', 1, 3, 8, '8MA, HEX');
+/*Hobbled Hands												--Index 385*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Hobbled Hands', 'Action', 'Offense', 1, 3, 8, '8MA, HEX');
 /*Hold That Pose											--Index 386*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Hold That Pose', 'Action', 'Offense', 2, 3, 6, '6MA, IMMOBILE (A model affected by Immobile may not move during their next activation.)');
-/*Holy Oil 														--Index 387*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Holy Oil', 'Potion', 'Offense', 1, 1, 6, '6SW, Burst 1, FIRE');
+/*Holy Oil 													--Index 387*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Holy Oil', 'Potion', 'Offense', 1, 1, 6, '6SW, Burst 1, FIRE');
 /*Holy Water 												--Index 388*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Holy Water', 'Potion', 'Offense', 1, -1, 6, 'RANGE6, BANE');
 /*Homunculus 												--Index 389*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Explore', 'Homunculus', 'Action', 'Offense', 1, 1, 1, '1SW, If Homunculus inflicts a wound one Witch may remove a single wound token.');
 /*Homunculus 												--Index 390*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Arcade', 'Homunculus', 'Action', 'Offense', 0, 1, -1, 'If Homunculus inflicts a wound bonded Shamble Priest removes one wound token.');
 /*Hot, Hot, Hot												--Index 391*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Hot, Hot, Hot', 'Action', 'Support', 0, -1, -1, 'FIRE');
-/*Hot Pot														--Index 392*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Explore', 'Hot Pot', 'Action', 'Offense', 1, 4, 6, '6MI, +1B DEX, FIRE');
-/*Hot Pot														--Index 393*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Arcade', 'Hot Pot', 'Action', 'Offense', 0, 1, -1, '+1ST STR, FIRE');
-/*Hot Pot														--Index 394*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Arcade', 'Hot Pot', 'Action', 'Offense', 0, 1, -1, 'Burst 2, +1ST STR, FIRE');
+/*Hot Pot													--Index 392*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Explore', 'Hot Pot', 'Action', 'Offense', 1, 4, 6, '6MI, +1B DEX, FIRE');
+/*Hot Pot													--Index 393*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Arcade', 'Hot Pot', 'Action', 'Offense', 0, 1, -1, '+1ST STR, FIRE');
+/*Hot Pot													--Index 394*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Arcade', 'Hot Pot', 'Action', 'Offense', 0, 1, -1, 'Burst 2, +1ST STR, FIRE');
 /*Hunter's Rations											--Index 395*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Hunter''s Rations', 'Potion', 'Emergency', 1, -1, -1, 'Heal 2, Surefoot');
 /*Hunter's Rations											--Index 396*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Hunter''s Rations', 'Potion', 'Support', 1, -1, -1, 'Heal 2, Surefoot');
-/*Hypnotic Gaze											--Index 397*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Hypnotic Gaze', 'Action', 'Support', 1, -1, -1, 'Sweep 4, WILL vs WILL, SLOW');
+/*Hypnotic Gaze												--Index 397*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Hypnotic Gaze', 'Action', 'Support', 1, -1, -1, 'Sweep 4, WILL vs WILL, SLOW');
 /*I'm Burning												--Index 398*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'I''m Burning', 'Action', 'Offense', 0, -1, -1, '3ST, FIRE');
-/*Icky															--Index 399*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Icky', 'Action', 'Offense', 0, 1, -1, 'STR 3ST, POISON, Heroes move the template 3 squares away from its current location.');
+/*Icky														--Index 399*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Icky', 'Action', 'Offense', 0, 1, -1, 'STR 3ST, POISON, Heroes move the template 3 squares away from its current location.');
 /*In Your Pants												--Index 400*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'In Your Pants', 'Action', 'Support', 1, -1, 1, '1RANGE, Invader, When Hero makes a defense roll reduce the result by 1ST if any Rabid Squirrels are on their card.');
-/*Inferno														--Index 401*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Explore', 'Inferno', 'Action', 'Offense', 1, 1, -1, 'SW, Lance 6, FIRE');
-/*Inferno														--Index 402*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Arcade', 'Inferno', 'Action', 'Offense', 0, 1, -1, 'Lance 6');
-/*Inferno														--Index 403*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Arcade', 'Inferno', 'Action', 'Offense', 0, 1, -1, 'Lance 6, FIRE');
-/*Invincible													--Index 404*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Invincible', 'Action', 'Support', 2, -1, -1, 'AUGMENT, Aura 3, Heroes in the area of effect may reroll one dice on defense rolls.');
+/*Inferno													--Index 401*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Explore', 'Inferno', 'Action', 'Offense', 1, 1, -1, 'SW, Lance 6, FIRE');
+/*Inferno													--Index 402*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Arcade', 'Inferno', 'Action', 'Offense', 0, 1, -1, 'Lance 6');
+/*Inferno													--Index 403*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Arcade', 'Inferno', 'Action', 'Offense', 0, 1, -1, 'Lance 6, FIRE');
+/*Invincible												--Index 404*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Invincible', 'Action', 'Support', 2, -1, -1, 'AUGMENT, Aura 3, Heroes in the area of effect may reroll one dice on defense rolls.');
 /*Introspection												--Index 405*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Introspection', 'Action', 'Support', 1, -1, -1, 'Wave 2, Pacify');
 /*Iron Halo													--Index 406*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Iron Halo', 'Action', 'Support', 1, -1, -1, 'AUGMENT, Aura 3, +1 ARM');
-/*It's Medicinal												--Index 407*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Explore', 'It''s Medicinal', 'Action', 'Support', 1, -1, -1, 'AUGMENT, RANGE2, Heal 1');
-/*It's Medicinal												--Index 408*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Arcade', 'It''s Medicinal', 'Action', 'Support', 0, -1, -1, 'AUGMENT, Mend 1');
-/*It's Medicinal												--Index 409*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Arcade', 'It''s Medicinal', 'Action', 'Support', 0, -1, -1, 'AUGMENT, Wave 6, Mend 1');
+/*It's Medicinal											--Index 407*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Explore', 'It''s Medicinal', 'Action', 'Support', 1, -1, -1, 'AUGMENT, RANGE2, Heal 1');
+/*It's Medicinal											--Index 408*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Arcade', 'It''s Medicinal', 'Action', 'Support', 0, -1, -1, 'AUGMENT, Mend 1');
+/*It's Medicinal											--Index 409*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Arcade', 'It''s Medicinal', 'Action', 'Support', 0, -1, -1, 'AUGMENT, Wave 6, Mend 1');
 /*Jaunty Tune												--Index 410*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Jaunty Tune', 'Action', 'Support', 1, -1, 0, 'AUGMENT, Aura 2, +1B on all offensive rolls.');
 /*Judgement													--Index 411*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Judgement', 'Action', 'Offense', 2, 1, 1, '1SW, Cross 4, HEX');
-/*Just a Drop													--Index 412*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Just a Drop', 'Action', 'Support', 1, -1, 1, 'AUGMENT, RANGE1, Heal 1');
+/*Just a Drop												--Index 412*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Just a Drop', 'Action', 'Support', 1, -1, 1, 'AUGMENT, RANGE1, Heal 1');
 /*Kobold's Tears											--Index 413*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Kobold''s Tears', 'Potion', 'Support', 1, -1, -1, 'AUGMENT, add +1G to the Deranged Alchemist''s next dice roll.');
-/*Kraken														--Index 414*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Explore', 'Kraken', 'Action', 'Offense', 2, 3, -1, 'MA, Cross 3, +1B WILL');
-/*Kraken														--Index 415*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Explore', 'Kraken', 'Action', 'Offense', 2, 3, -1, 'MA, Cross 5, +1R WILL');
-/*Kraken														--Index 416*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Arcade', 'Kraken', 'Action', 'Support', 0, 1, -1, 'Cross 6, Pull 5');
+/*Kraken													--Index 414*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Explore', 'Kraken', 'Action', 'Offense', 2, 3, -1, 'MA, Cross 3, +1B WILL');
+/*Kraken													--Index 415*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Explore', 'Kraken', 'Action', 'Offense', 2, 3, -1, 'MA, Cross 5, +1R WILL');
+/*Kraken													--Index 416*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Arcade', 'Kraken', 'Action', 'Support', 0, 1, -1, 'Cross 6, Pull 5');
 /*Lamplight													--Index 417*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Lamplight', 'Potion', 'Support', 1, -1, -1, 'Wave 5, Destroy all traps and creeps.');
-/*Lifesap														--Index 418*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Explore', 'Lifesap', 'Action', 'Offense', 1, 3, -1, 'DANGEROUS, MA, Wave 1, Death Spectre removes a number of wound tokens equal to the number of wounds Lifesap inflicted.');
-/*Lifesap														--Index 419*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Arcade', 'Lifesap', 'Action', 'Offense', 0, 1, -1, 'Wave 3, Death Spectre removes 1 wound token for every wound caused by Lifesap.');
-/*Lightning Charge										--Index 420*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Lightning Charge', 'Action', 'Offense', 2, 1, 2, '+1 STR, Push 3, Stun');
-/*Lost															--Index 421*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Explore', 'Lost', 'Action', 'Support', 1, -1, -1, 'Wave 2, Pull 1');
-/*Lost															--Index 422*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Arcade', 'Lost', 'Action', 'Support', 0, -1, -1, 'Wave 2, Pull 1');
-/*Lost															--Index 423*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Arcade', 'Lost', 'Action', 'Support', 0, -1, -1, 'Wave 4, Pull 3');
-/*Lullaby														--Index 424*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Lullaby', 'Action', 'Support', 2, -1, -1, 'Wave 2, SLOW');
+/*Lifesap													--Index 418*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Explore', 'Lifesap', 'Action', 'Offense', 1, 3, -1, 'DANGEROUS, MA, Wave 1, Death Spectre removes a number of wound tokens equal to the number of wounds Lifesap inflicted.');
+/*Lifesap													--Index 419*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Arcade', 'Lifesap', 'Action', 'Offense', 0, 1, -1, 'Wave 3, Death Spectre removes 1 wound token for every wound caused by Lifesap.');
+/*Lightning Charge											--Index 420*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Lightning Charge', 'Action', 'Offense', 2, 1, 2, '+1 STR, Push 3, Stun');
+/*Lost														--Index 421*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Explore', 'Lost', 'Action', 'Support', 1, -1, -1, 'Wave 2, Pull 1');
+/*Lost														--Index 422*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Arcade', 'Lost', 'Action', 'Support', 0, -1, -1, 'Wave 2, Pull 1');
+/*Lost														--Index 423*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Arcade', 'Lost', 'Action', 'Support', 0, -1, -1, 'Wave 4, Pull 3');
+/*Lullaby													--Index 424*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Lullaby', 'Action', 'Support', 2, -1, -1, 'Wave 2, SLOW');
 /*Lycanthropy												--Index 425*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Lycanthropy', 'Potion', 'Emergency', 1, -1, -1, 'AUGMENT, Regenerate');
 /*Magic Armor												--Index 426*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Magic Armor', 'Potion', 'Emergency', 1, -1, -1, '+1R ARM');
 /*Magic Armor												--Index 427*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Magic Armor', 'Potion', 'Emergency', 1, -1, -1, 'AUGMENT, +1R ARM');
@@ -2883,24 +2886,24 @@ insert into Utilities (CardIndex, UtilityDescription) VALUES (153, 'Offensive Po
 /*Maiden's Favor											--Index 429*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Maiden''s Favor', 'Action', 'Support', 1, -1, 6, 'AUGMENT, RANGE6, +1B WILL');
 /*Maiden's Kiss												--Index 430*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Maiden''s Kiss', 'Action', 'Support', 2, -1, 1, 'AUGMENT, RANGE1, Regenerate');
 /*Maiden's Token											--Index 431*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Maiden''s Token', 'Action', 'Support', 1, -1, 6, 'AUGMENT, RANGE6, +1B STR');
-/*Massive Sword											--Index 432*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Massive Sword', 'Action', 'Offense', 3, 1, 1, '+1G STR, Massive Damage');
-/*Massive Sword											--Index 433*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Massive Sword', 'Action', 'Offense', 3, 1, 1, '1SW, +1G STR, Massive Damage');
+/*Massive Sword												--Index 432*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Massive Sword', 'Action', 'Offense', 3, 1, 1, '+1G STR, Massive Damage');
+/*Massive Sword												--Index 433*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Massive Sword', 'Action', 'Offense', 3, 1, 1, '1SW, +1G STR, Massive Damage');
 /*Maybe One More											--Index 434*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Maybe One More', 'Action', 'Support', 1, -1, 1, 'AUGMENT, RANGE1, IMMUNE: ALL');
 /*Meddlesome Giri											--Index 435*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Explore', 'Meddlesome Giri', 'Action', 'Support', 2, -1, -1, 'Spawn up to 4 Giri adjacent to Goro.');
 /*Meddlesome Giri											--Index 436*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Arcade', 'Meddlesome Giri', 'Action', 'Support', 0, -1, -1, 'Spawn 4 Giri adjacent to Goro.');
-/*Melty Weapons											--Index 437*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Melty Weapons', 'Action', 'Support', 0, -1, -1, 'HEX');
+/*Melty Weapons												--Index 437*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Melty Weapons', 'Action', 'Support', 0, -1, -1, 'HEX');
 /*Mend Bones												--Index 438*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Mend Bones', 'Action', 'Support', 1, -1, 6, 'RANGE6, Raise');
 /*Mighty Throw												--Index 439*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Mighty Throw', 'Action', 'Offense', 1, 4, 4, '4MI, +1B DEX');
 /*Mighty Throw												--Index 440*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Mighty Throw', 'Action', 'Offense', 2, 1, -1, 'SW, Lance 6, +1R STR');
 /*Minion Toss												--Index 441*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Minion Toss', 'Action', 'Offense', 1, -1, 1, 'DANGEROUS, Throw 6');
-/*Mistborn														--Index 442*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Mistborn', 'Action', 'Support', 1, -1, -1, 'AUGMENT, Aura 3, All Trolls gain +1ST STR.');
+/*Mistborn													--Index 442*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Mistborn', 'Action', 'Support', 1, -1, -1, 'AUGMENT, Aura 3, All Trolls gain +1ST STR.');
 /*Molten Steel												--Index 443*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Explore', 'Molten Steel', 'Action', 'Offense', 2, 1, 6, '6SW, +1R STR, HEX');
 /*Molten Steel												--Index 444*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Arcade', 'Molten Steel', 'Action', 'Offense', 0, 1, 3, 'HEX');
-/*Monkey														--Index 445*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Monkey', 'Action', 'Offense', 2, 3, -1, 'MA, Wave 1, KNOCKDOWN');
-/*Monster Tamer											--Index 446*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Monster Tamer', 'Action', 'Support', 1, -1, 6, 'AUGMENT, RANGE6, target Minon may immediately make one basic action.');
+/*Monkey													--Index 445*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Monkey', 'Action', 'Offense', 2, 3, -1, 'MA, Wave 1, KNOCKDOWN');
+/*Monster Tamer												--Index 446*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Monster Tamer', 'Action', 'Support', 1, -1, 6, 'AUGMENT, RANGE6, target Minon may immediately make one basic action.');
 /*Mr. Tomn													--Index 447*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Mr. Tomn', 'Potion', 'Support', 1, -1, -1, 'AUGMENT, Aura 3, +1B ARM');
-/*My Foot														--Index 448*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'My Foot', 'Action', 'Offense', 1, 1, -1, 'STR 3ST, SLOW');
-/*Nether Ash													--Index 449*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Nether Ash', 'Potion', 'Emergency', 1, -1, -1, 'AUGMENT, Actions targeting a model affected by Nether Ash reduce their Range to 1.  Area effects are unaffected.');
+/*My Foot													--Index 448*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'My Foot', 'Action', 'Offense', 1, 1, -1, 'STR 3ST, SLOW');
+/*Nether Ash												--Index 449*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Nether Ash', 'Potion', 'Emergency', 1, -1, -1, 'AUGMENT, Actions targeting a model affected by Nether Ash reduce their Range to 1.  Area effects are unaffected.');
 /*Nether Soul												--Index 450*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Nether Soul', 'Action', 'Offense', 2, 1, 1, '+1B STR, If Nether Soul inflicts a wound Shaod-Mode Candy may use any hearts rolled to heal.');
 /*New Crop													--Index 451*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Explore', 'New Crop', 'Action', 'Support', 1, -1, -1, 'AUGMENT, Place 1 skull point of kinoko or kodama, from anywhere in the dungeon, adjacent to Giri.');
 /*New Crop													--Index 452*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Arcade', 'New Crop', 'Action', 'Support', 0, -1, -1, 'Place 1 Mook or Kinoshroom from the spawning pool adjacent to Giri.');
@@ -2909,49 +2912,49 @@ insert into Utilities (CardIndex, UtilityDescription) VALUES (153, 'Offensive Po
 /*Ninja Pop													--Index 455*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Ninja Pop', 'Potion', 'Support', 1, -1, -1, 'Models affected by Ninja Pop gain Fly and may move through walls.');
 /*Nom-Nom													--Index 456*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Nom-Nom', 'Action', 'Offense', 2, 1, 2, '2SW, +1G STR, If Nom-Nom does not inflict a wound, the user suffers one wound instead.');
 /*Nourishing Berries										--Index 457*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Nourishing Berries', 'Potion', 'Support', 1, -1, -1, 'AUGMENT, All Heroes gain Healer.');
-/*Offering														--Index 458*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Offering', 'Action', 'Support', 0, -1, -1, 'Hero must discard one piece of equipment.');
-/*Ogre															--Index 459*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Ogre', 'Action', 'Support', 1, -1, -1, 'Wave 1, Push 1');
+/*Offering													--Index 458*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Offering', 'Action', 'Support', 0, -1, -1, 'Hero must discard one piece of equipment.');
+/*Ogre														--Index 459*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Ogre', 'Action', 'Support', 1, -1, -1, 'Wave 1, Push 1');
 /*Onion Wind												--Index 460*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Onion Wind', 'Action', 'Offense', 1, -1, -1, 'Wave 1, Push 1');
 /*Onslaught													--Index 461*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Onslaught', 'Action', 'Offense', 2, 1, -1, 'SW, Wave 1');
 /*Outcast Pyre												--Index 462*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Outcast Pyre', 'Action', 'Offense', 2, 3, 8, '8MA, Burst 1, FIRE');
 /*Overgrowth												--Index 464*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Explore', 'Overgrowth', 'Action', 'Offense', 2, 1, -1, 'Wave 3');
 /*Overgrowth												--Index 463*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Explore', 'Overgrowth', 'Action', 'Offense', 2, 1, -1, 'Wave 1');
 /*Overgrowth												--Index 465*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Arcade', 'Overgrowth', 'Action', 'Offense', 0, 1, -1, 'Wave 3, POISON');
-/*Pachi-Pachi-Pachi										--Index 466*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Pachi-Pachi-Pachi', 'Action', 'Offense', 2, 3, -1, 'MA, Wave 1');
-/*Pachi-Pachi-Pachi										--Index 467*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Pachi-Pachi-Pachi', 'Action', 'Offense', 2, 3, -1, 'MA, Wave 2');
+/*Pachi-Pachi-Pachi											--Index 466*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Pachi-Pachi-Pachi', 'Action', 'Offense', 2, 3, -1, 'MA, Wave 1');
+/*Pachi-Pachi-Pachi											--Index 467*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Pachi-Pachi-Pachi', 'Action', 'Offense', 2, 3, -1, 'MA, Wave 2');
 /*Pack Hunter												--Index 468*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Pack Hunter', 'Action', 'Support', 2, -1, -1, 'AUGMENT, Wave 5, Compel 4');
 /*Packmaster												--Index 469*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Explore', 'Packmaster', 'Action', 'Support', 1, -1, -1, 'Aura 3, All drakes gain Mob.');
 /*Packmaster												--Index 470*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Arcade', 'Packmaster', 'Action', 'Support', 0, -1, -1, 'AUGMENT, Move one Drake Hound that is not already forming a gang up to 6 squares, so it forms a gang with Claw Trainer.');
-/*Pain															--Index 471*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Pain', 'Action', 'Offense', 1, 4, 6, '6MI, POISON');
-/*Phalanx														--Index 472*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Explore', 'Phalanx', 'Action', 'Support', 1, -1, -1, 'AUGMENT, Aura 2, +1ST ARM');
-/*Phalanx														--Index 473*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Arcade', 'Phalanx', 'Action', 'Support', 0, -1, -1, 'AUGMENT, Aura 2, +1ST ARM');
+/*Pain														--Index 471*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Pain', 'Action', 'Offense', 1, 4, 6, '6MI, POISON');
+/*Phalanx													--Index 472*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Explore', 'Phalanx', 'Action', 'Support', 1, -1, -1, 'AUGMENT, Aura 2, +1ST ARM');
+/*Phalanx													--Index 473*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Arcade', 'Phalanx', 'Action', 'Support', 0, -1, -1, 'AUGMENT, Aura 2, +1ST ARM');
 /*Phalanx Phial												--Index 474*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Phalanx Phial', 'Potion', 'Support', 1, -1, -1, 'AUGMENT, Wave 5, Pull 4.');
 /*Pin Cushion												--Index 475*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Explore', 'Pin Cushion', 'Action', 'Offense', 3, 3, 8, '8MA, +2B WILL, Hookshot, BANE, HEX');
 /*Pin Cushion												--Index 476*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Arcade', 'Pin Cushion', 'Action', 'Offense', 0, 1, -1, '+1ST STR, Hookshot, BANE, HEX');
-/*Piercing Blade												--Index 477*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Piercing Blade', 'Action', 'Offense', 1, 1, -1, 'SW, Lance 2');
+/*Piercing Blade											--Index 477*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Piercing Blade', 'Action', 'Offense', 1, 1, -1, 'SW, Lance 2');
 /*Pirate Snatch												--Index 478*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Pirate Snatch', 'Action', 'Offense', 2, 1, 1, '1SW, +1R STR, Even if this action does not destroy a model draw one loot.');
-/*Pixel Crush													--Index 479*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Pixel Crush', 'Action', 'Offense', 2, 1, -1, 'SW, Cross 4, Push 2.');
-/*Pixie Dust													--Index 480*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Pixie Dust', 'Potion', 'Support', 1, -1, -1, 'AUGMENT, +1B DEX, Stealth');
+/*Pixel Crush												--Index 479*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Pixel Crush', 'Action', 'Offense', 2, 1, -1, 'SW, Cross 4, Push 2.');
+/*Pixie Dust												--Index 480*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Pixie Dust', 'Potion', 'Support', 1, -1, -1, 'AUGMENT, +1B DEX, Stealth');
 /*Playful Wink												--Index 481*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Playful Wink', 'Action', 'Offense', 2, 3, -1, 'MA, Wave 1, ICE');
-/*Poisoned Weapons										--Index 482*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Poisoned Weapons', 'Action', 'Support', 1, -1, -1, 'AUGMENT, Aura 3, All Ninja gain POISON.');
-/*Poisoned Weapons										--Index 483*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Poisoned Weapons', 'Action', 'Support', 0, -1, -1, 'AUGMENT, Aura 3, POISON.');
+/*Poisoned Weapons											--Index 482*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Poisoned Weapons', 'Action', 'Support', 1, -1, -1, 'AUGMENT, Aura 3, All Ninja gain POISON.');
+/*Poisoned Weapons											--Index 483*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Poisoned Weapons', 'Action', 'Support', 0, -1, -1, 'AUGMENT, Aura 3, POISON.');
 /*Poisonous Brew											--Index 484*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Poisonous Brew', 'Action', 'Support', 0, 1, -1, 'POISON');
 /*Pollen Dream												--Index 485*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Explore', 'Pollen Dream', 'Action', 'Support', 1, 3, 6, 'WILL vs WILL, RANGE6, Compel 4');
 /*Pollen Dream												--Index 486*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Explore', 'Pollen Dream', 'Action', 'Support', 2, 3, 6, 'WILL vs WILL, RANGE6, Compel 4');
 /*Pollen Dream												--Index 487*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Arcade', 'Pollen Dream', 'Action', 'Support', 0, -1, -1, 'Slow');
 /*Pollen Dream												--Index 488*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Arcade', 'Pollen Dream', 'Action', 'Support', 0, -1, -1, 'Wave 5, Slow');
-/*Poof															--Index 489*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Poof', 'Action', 'Offense', 1, 1, -1, 'SW, Lance 3, FIRE');
+/*Poof														--Index 489*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Poof', 'Action', 'Offense', 1, 1, -1, 'SW, Lance 3, FIRE');
 /*Portcullis Potion											--Index 490*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Portcullis Potion', 'Potion', 'Support', 1, -1, -1, 'Place a token next to any doorway.  The next monster to move through that doorway suffers an offense roll equal to the Exemplar''s current STR.  Then remove the token.');
-/*POW!															--Index 491*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'POW!', 'Action', 'Offense', 2, 1, 2, '2SW, +1R STR, Massive Damage');
-/*Powdered Power Chord 								--Index 492*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Powdered Power Chord', 'Potion', 'Offense', 1, -1, -1, 'Wave 3, KNOCKDOWN');
-/*Pumpkin Bomb											--Index 493*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Pumpkin Bomb', 'Potion', 'Support', 1, 3, 6, 'DANGEROUS, RANGE6, Burst 1, WILL vs DEX, FIRE');
-/*Pumpkin Bomb											--Index 494*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Pumpkin Bomb', 'Action', 'Support', 1, 3, 3, 'DANGEROUS, RANGE3, Burst 1, WILL vs DEX, FIRE');
+/*POW!														--Index 491*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'POW!', 'Action', 'Offense', 2, 1, 2, '2SW, +1R STR, Massive Damage');
+/*Powdered Power Chord 										--Index 492*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Powdered Power Chord', 'Potion', 'Offense', 1, -1, -1, 'Wave 3, KNOCKDOWN');
+/*Pumpkin Bomb												--Index 493*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Pumpkin Bomb', 'Potion', 'Support', 1, 3, 6, 'DANGEROUS, RANGE6, Burst 1, WILL vs DEX, FIRE');
+/*Pumpkin Bomb												--Index 494*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Pumpkin Bomb', 'Action', 'Support', 1, 3, 3, 'DANGEROUS, RANGE3, Burst 1, WILL vs DEX, FIRE');
 /*Pumpkin Charge											--Index 495*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Arcade', 'Pumpkin Charge', 'Action', 'Offense', 0, 1, -1, 'Lance 8, +1ST STR.');
-/*Pumpkin Shrapnel										--Index 496*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Pumpkin Shrapnel', 'Action', 'Offense', 0, -1, -1, 'KNOCKDOWN');
-/*Punch, punch, punch!									--Index 497*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Punch, punch, punch!', 'Action', 'Support', 1, -1, -1, 'Perform a basic melee attack.  If it succeeds, move two spaces and make another basic melee attack against another target using one less die.  Repeat this until there are no new targets, an attack misses or there are no dice left.');
+/*Pumpkin Shrapnel											--Index 496*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Pumpkin Shrapnel', 'Action', 'Offense', 0, -1, -1, 'KNOCKDOWN');
+/*Punch, punch, punch!										--Index 497*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Punch, punch, punch!', 'Action', 'Support', 1, -1, -1, 'Perform a basic melee attack.  If it succeeds, move two spaces and make another basic melee attack against another target using one less die.  Repeat this until there are no new targets, an attack misses or there are no dice left.');
 /*Puddle Jump												--Index 498*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Puddle Jump', 'Action', 'Support', 1, -1, -1, 'Wave 1, Push 1');
-/*Purification													--Index 499*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Purification', 'Action', 'Support', 1, -1, -1, 'AUGMENT, Cross 2, Heal 1');
-/*Purrrrr														--Index 500*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Purrrrr', 'Action', 'Offense', 1, 3, -1, 'Wave 1, WILL vs WILL, Compel 2');
+/*Purification												--Index 499*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Purification', 'Action', 'Support', 1, -1, -1, 'AUGMENT, Cross 2, Heal 1');
+/*Purrrrr													--Index 500*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Purrrrr', 'Action', 'Offense', 1, 3, -1, 'Wave 1, WILL vs WILL, Compel 2');
 /*Precision Strike											--Index 501*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Explore', 'Precision Strike', 'Action', 'Offense', 2, 1, -1, 'SW, Wave 2, KNOCKDOWN');
 /*Precision Strike											--Index 502*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Arcade', 'Precision Strike', 'Action', 'Offense', 0, 1, -1, 'Wave 2, KNOCKDOWN');
 /*Primal Roar												--Index 503*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Explore', 'Primal Roar', 'Action', 'Support', 1, -1, -1, 'Wave 3, KNOCKDOWN');
@@ -2962,26 +2965,26 @@ insert into Utilities (CardIndex, UtilityDescription) VALUES (153, 'Offensive Po
 /*Princess Power											--Index 508*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Princess Power', 'Action', 'Support', 1, -1, -1, 'AUGMENT, Aura 1, +1R WILL');
 /*Princess Power											--Index 509*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Princess Power', 'Action', 'Support', 1, -1, -1, 'AUGMENT, Aura 1, +1R ARM');
 /*Pumpkin Charge											--Index 510*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Pumpkin Charge', 'Action', 'Offense', 1, 1, -1, 'DANGEROUS, 1SW, Lance 8, Charge, Spend up to one potion token to gain +1G STR.');
-/*Quicksilver Elixir											--Index 511*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Quicksilver Elixir', 'Potion', 'Emergency', 1, -1, -1, 'AUGMENT, Reroll any number of dice from the last defense roll made.');
-/*Rage															--Index 512*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Rage', 'Action', 'Support', 3, -1, -1, 'AUGMENT, After every movement point spent, immediately make one Melee Attack.  Barbarian''s ARM is reduced to 1B until her next activation, and may not be increased by equipment.  Berserk may not be used.');
-/*Rager Root													--Index 513*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Rager Root', 'Potion', 'Support', 1, -1, -1, 'AUGMENT, Immediately make a single Melee Attack costing no action points.');
+/*Quicksilver Elixir										--Index 511*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Quicksilver Elixir', 'Potion', 'Emergency', 1, -1, -1, 'AUGMENT, Reroll any number of dice from the last defense roll made.');
+/*Rage														--Index 512*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Rage', 'Action', 'Support', 3, -1, -1, 'AUGMENT, After every movement point spent, immediately make one Melee Attack.  Barbarian''s ARM is reduced to 1B until her next activation, and may not be increased by equipment.  Berserk may not be used.');
+/*Rager Root												--Index 513*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Rager Root', 'Potion', 'Support', 1, -1, -1, 'AUGMENT, Immediately make a single Melee Attack costing no action points.');
 /*Rally Cry													--Index 514*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Rally Cry', 'Action', 'Support', 2, -1, -1, 'AUGMENT, Wave 5, Pull 4');
 /*Rampant Growth											--Index 515*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Explore', 'Rampant Growth', 'Action', 'Support', 1, -1, -1, 'Augment, Aura 3, All Kodama and Kinoko gain +1B Strength.');
 /*Rampant Growth											--Index 516*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Arcade', 'Rampant Growth', 'Action', 'Support', 0, -1, -1, 'Augment, Lil'' Sprouts gain +1ST strength.');
 /*Refreshing Rain											--Index 517*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Refreshing Rain', 'Action', 'Support', 2, -1, -1, 'AUGMENT, Wave 2, Heal 2');
-/*Renewed Vigor											--Index 518*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Renewed Vigor', 'Action', 'Support', 1, -1, -1, 'AUGMENT, Wave 2, Compel 2');
+/*Renewed Vigor												--Index 518*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Renewed Vigor', 'Action', 'Support', 1, -1, -1, 'AUGMENT, Wave 2, Compel 2');
 /*Restrict Pursuit											--Index 519*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Restrict Pursuit', 'Action', 'Offense', 2, 1, -1, 'SW, Sweep 2, +1B STR, KNOCKDOWN');
-/*Rex Cuddle													--Index 520*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Explore', 'Rex Cuddle', 'Action', 'Offense', 2, 1, 1, '1SW, BANE, HEX');
-/*Rex Cuddle													--Index 521*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Arcade', 'Rex Cuddle', 'Action', 'Offense', 0, 1, 4, 'IMMOBILE, BANE');
+/*Rex Cuddle												--Index 520*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Explore', 'Rex Cuddle', 'Action', 'Offense', 2, 1, 1, '1SW, BANE, HEX');
+/*Rex Cuddle												--Index 521*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Arcade', 'Rex Cuddle', 'Action', 'Offense', 0, 1, 4, 'IMMOBILE, BANE');
 /*Rex Smash													--Index 522*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Explore', 'Rex Smash', 'Action', 'Offense', 3, 1, 3, '+1G STR, Massive Damage');
 /*Rex Smash													--Index 523*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Arcade', 'Rex Smash', 'Action', 'Offense', 0, 1, 4, '+1ST STR, Massive Damage');
-/*Ringside Canteen										--Index 524*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Ringside Canteen', 'Potion', 'Support', 1, -1, -1, 'AUGMENT, Feint, +1B STR');
-/*ROAR															--Index 525*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'ROAR', 'Action', 'Support', 2, -1, -1, 'Sweep 3, Push 3, KNOCKDOWN');
-/*Rolling Pin													--Index 526*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Rolling Pin', 'Action', 'Offense', 2, 1, -1, 'SW, Sweep 2');
-/*Rook															--Index 527*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Rook', 'Potion', 'Support', 1, -1, -1, 'AUGMENT, Teleport');
+/*Ringside Canteen											--Index 524*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Ringside Canteen', 'Potion', 'Support', 1, -1, -1, 'AUGMENT, Feint, +1B STR');
+/*ROAR														--Index 525*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'ROAR', 'Action', 'Support', 2, -1, -1, 'Sweep 3, Push 3, KNOCKDOWN');
+/*Rolling Pin												--Index 526*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Rolling Pin', 'Action', 'Offense', 2, 1, -1, 'SW, Sweep 2');
+/*Rook														--Index 527*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Rook', 'Potion', 'Support', 1, -1, -1, 'AUGMENT, Teleport');
 /*Rootdown													--Index 528*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Explore', 'Rootdown', 'Action', 'Support', 2, -1, -1, 'Wave 4, STR vs DEX, SLOW');
 /*Rootdown													--Index 529*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Arcade', 'Rootdown', 'Action', 'Offense', 0, 1, -1, 'Wave 6, SLOW');
-/*Roots of Resurrection									--Index 530*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Roots of Resurrection', 'Action', 'Support', 1, -1, -1, 'AUGMENT, Remove all wound and status tokens from a destroyed Hero and place its model adjacent tot he start marker.');
+/*Roots of Resurrection										--Index 530*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Roots of Resurrection', 'Action', 'Support', 1, -1, -1, 'AUGMENT, Remove all wound and status tokens from a destroyed Hero and place its model adjacent tot he start marker.');
 /*Rotten Carrot												--Index 531*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Rotten Carrot', 'Action', 'Offense', 2, 1, 1, '+1 STR');
 /*Ruby Goo													--Index 532*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Ruby Goo', 'Action', 'Support', 1, -1, 1, '1RANGE, Invader, Hero may not benefit from Ruby equipment.');
 /*Run Birdy													--Index 533*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Run Birdy', 'Action', 'Support', 1, 3, -1, 'Wave 2, WILL vs WILL, Push 3');
@@ -2991,153 +2994,153 @@ insert into Utilities (CardIndex, UtilityDescription) VALUES (153, 'Offensive Po
 /*Scalewall													--Index 537*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Scalewall', 'Action', 'Support', 1, -1, -1, 'AUGMENT, Aura 2, +1ST ARM');
 /*Scope														--Index 538*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Scope', 'Action', 'Support', 1, 4, 8, 'RANGE8, DEX vs DEX, FRAGILE');
 /*Scope														--Index 539*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Scope', 'Action', 'Support', 1, 4, 8, 'RANGE8, DEX vs DEX, BANE');
-/*Scratch														--Index 540*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Scratch', 'Potion', 'Support', 1, -1, -1, 'Place one potion token on any Hero''s card.');
-/*Secret Ingredient										--Index 541*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Secret Ingredient', 'Potion', 'Support', 1, -1, -1, 'Add +1G to the Hero''s next dice roll.');
+/*Scratch													--Index 540*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Scratch', 'Potion', 'Support', 1, -1, -1, 'Place one potion token on any Hero''s card.');
+/*Secret Ingredient											--Index 541*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Secret Ingredient', 'Potion', 'Support', 1, -1, -1, 'Add +1G to the Hero''s next dice roll.');
 /*Seek The Leader											--Index 542*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Seek The Leader', 'Action', 'Offense', 1, 4, 6, '+1R dexterity, Massive Damage.  Discard this treasure after taking this action.');
-/*Shadow														--Index 543*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Explore', 'Shadow', 'Action', 'Support', 1, -1, -1, 'AUGMENT, Place Shadow-Mode Candy adjacent to any monster.');
-/*Shadow														--Index 544*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Explore', 'Shadow', 'Action', 'Support', 2, -1, -1, 'AUGMENT, Place Hero adjacent to any other Hero on the dungeon map.');
-/*Shadow														--Index 545*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Arcade', 'Shadow', 'Action', 'Support', 0, -1, -1, 'Place Shadow-Mode Candy adjacent to the Hero with the most wrath.');
-/*Shadow Breath											--Index 546*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Explore', 'Shadow Breath', 'Action', 'Support', 2, -1, -1, 'AUGMENT, Aura 5, Stealth');
-/*Shadow Breath											--Index 547*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Arcade', 'Shadow Breath', 'Action', 'Support', 0, -1, -1, 'AUGMENT, Aura 5, Stealth');
+/*Shadow													--Index 543*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Explore', 'Shadow', 'Action', 'Support', 1, -1, -1, 'AUGMENT, Place Shadow-Mode Candy adjacent to any monster.');
+/*Shadow													--Index 544*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Explore', 'Shadow', 'Action', 'Support', 2, -1, -1, 'AUGMENT, Place Hero adjacent to any other Hero on the dungeon map.');
+/*Shadow													--Index 545*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Arcade', 'Shadow', 'Action', 'Support', 0, -1, -1, 'Place Shadow-Mode Candy adjacent to the Hero with the most wrath.');
+/*Shadow Breath												--Index 546*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Explore', 'Shadow Breath', 'Action', 'Support', 2, -1, -1, 'AUGMENT, Aura 5, Stealth');
+/*Shadow Breath												--Index 547*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Arcade', 'Shadow Breath', 'Action', 'Support', 0, -1, -1, 'AUGMENT, Aura 5, Stealth');
 /*Shag Fest													--Index 548*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Shag Fest', 'Action', 'Offense', 1, 1, -1, 'DANGEROUS, SW, Sweep 1');
 /*Shattered Sword											--Index 549*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Shattered Sword', 'Action', 'Offense', 3, 1, 1, '1SW, +1G STR, Massive Damage');
 /*Shield Bash												--Index 550*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Shield Bash', 'Action', 'Offense', 2, 1, 1, '1SW, +1R STR, KNOCKDOWN');
-/*Shield Wall													--Index 551*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Explore', 'Shield Wall', 'Action', 'Support', 1, -1, -1, 'AUGMENT, Aura 2, +1ST ARM');
-/*Shield Wall													--Index 552*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Arcade', 'Shield Wall', 'Action', 'Support', 0, -1, -1, 'AUGMENT, Aura 2, +1ST ARM');
-/*Shield Wall													--Index 553*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Arcade', 'Shield Wall', 'Action', 'Support', 0, -1, -1, 'AUGMENT, Scale Wall gang gains +1ST ARM');
+/*Shield Wall												--Index 551*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Explore', 'Shield Wall', 'Action', 'Support', 1, -1, -1, 'AUGMENT, Aura 2, +1ST ARM');
+/*Shield Wall												--Index 552*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Arcade', 'Shield Wall', 'Action', 'Support', 0, -1, -1, 'AUGMENT, Aura 2, +1ST ARM');
+/*Shield Wall												--Index 553*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Arcade', 'Shield Wall', 'Action', 'Support', 0, -1, -1, 'AUGMENT, Scale Wall gang gains +1ST ARM');
 /*Shocking Bolt												--Index 554*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Shocking Bolt', 'Action', 'Offense', 1, 3, 6, '6MA, +1R WILL, KNOCKDOWN');
 /*Shooting Star												--Index 555*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Shooting Star', 'Action', 'Offense', 2, 1, -1, 'SW, Pounce, KNOCKDOWN');
-/*Sickening Smoke										--Index 556*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Explore', 'Sickening Smoke', 'Action', 'Offense', 1, 1, -1, 'SW, Wave 1, POISON');
-/*Sickening Smoke										--Index 557*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Arcade', 'Sickening Smoke', 'Action', 'Support', 0, -1, -1, 'Wave 2, POISON');
-/*Sickening Smoke										--Index 558*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Arcade', 'Sickening Smoke', 'Action', 'Support', 0, -1, -1, 'Wave 3, POISON');
+/*Sickening Smoke											--Index 556*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Explore', 'Sickening Smoke', 'Action', 'Offense', 1, 1, -1, 'SW, Wave 1, POISON');
+/*Sickening Smoke											--Index 557*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Arcade', 'Sickening Smoke', 'Action', 'Support', 0, -1, -1, 'Wave 2, POISON');
+/*Sickening Smoke											--Index 558*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Arcade', 'Sickening Smoke', 'Action', 'Support', 0, -1, -1, 'Wave 3, POISON');
 /*Silk Spinner												--Index 559*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Explore', 'Silk Spinner', 'Action', 'Support', 1, -1, -1, 'DANGEROUS, Lance 4, SLOW');
 /*Silk Spinner												--Index 560*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Arcade', 'Silk Spinner', 'Action', 'Support', 0, -1, -1, 'Lance 6, SLOW');
 /*Silver Lance												--Index 561*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Silver Lance', 'Action', 'Offense', 2, 1, 1, '+1R STR, Pounce');
-/*Silver Star													--Index 562*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Silver Star', 'Action', 'Offense', 2, 1, -1, 'Cross 3');
-/*Siren's Call													--Index 563*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Siren''s Call', 'Action', 'Support', 1, -1, -1, 'Sweep 3, STR vs WILL, Pull 2');
-/*Skully														--Index 564*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Skully', 'Potion', 'Offense', 1, 1, -1, 'DANGEROUS, SW, Wave 1, +1R STR');
-/*Smite															--Index 565*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Smite', 'Action', 'Offense', 2, 1, 1, '1SW, +1R STR KNOCKDOWN, FIRE');
+/*Silver Star												--Index 562*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Silver Star', 'Action', 'Offense', 2, 1, -1, 'Cross 3');
+/*Siren's Call												--Index 563*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Siren''s Call', 'Action', 'Support', 1, -1, -1, 'Sweep 3, STR vs WILL, Pull 2');
+/*Skully													--Index 564*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Skully', 'Potion', 'Offense', 1, 1, -1, 'DANGEROUS, SW, Wave 1, +1R STR');
+/*Smite														--Index 565*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Smite', 'Action', 'Offense', 2, 1, 1, '1SW, +1R STR KNOCKDOWN, FIRE');
 /*Smoke Bomb												--Index 566*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Smoke Bomb', 'Action', 'Support', 0, -1, -1, 'AUGMENT, Aura 2, Stealth');
 /*Smoke Pot													--Index 567*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Smoke Pot', 'Action', 'Support', 1, -1, -1, 'AUGMENT, Aura 2, Stealth');
 /*Snakebit Skewer											--Index 568*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Snakebit Skewer', 'Action', 'Offense', 2, 1, -1, 'SW, Lance 8, HEX');
 /*Snare														--Index 569*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Snare', 'Action', 'Support', 1, 1, 6, 'RANGE6, STR vs WILL, Pull 5');
 /*Sneak Attack												--Index 570*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Sneak Attack', 'Action', 'Offense', 2, 1, 5, 'SW, +1R STR, KNOCKDOWN, Pounce (Choose an enemy model anywhere within 5 squares, and line of sight.  Place the model with Pounce adjacent to this target, then make the offense roll as normal.)');
 /*Soda Detector												--Index 571*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Soda Detector', 'Action', 'Offense', 2, 1, 1, '1SW, +2R STR');
-/*Solar Flare													--Index 572*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Solar Flare', 'Action', 'Offense', 2, 4, 8, '8MI, Burst 1');
-/*Soothe														--Index 573*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Soothe', 'Action', 'Support', 1, -1, 6, 'AUGMENT, RANGE6, Heal 1 (A model affected by Heal may remove a number of wound counters or a number of status effect counters equal to the value of X.)');
-/*Soothing Soda											--Index 574*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Soothing Soda', 'Potion', 'Support', 1, -1, -1, 'AUGMENT, IMMUNE: ALL');
-/*Soprano														--Index 575*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Soprano', 'Actoin', 'Support', 1, -1, 6, 'RANGE6, STR vs ARM, BANE');
+/*Solar Flare												--Index 572*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Solar Flare', 'Action', 'Offense', 2, 4, 8, '8MI, Burst 1');
+/*Soothe													--Index 573*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Soothe', 'Action', 'Support', 1, -1, 6, 'AUGMENT, RANGE6, Heal 1 (A model affected by Heal may remove a number of wound counters or a number of status effect counters equal to the value of X.)');
+/*Soothing Soda												--Index 574*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Soothing Soda', 'Potion', 'Support', 1, -1, -1, 'AUGMENT, IMMUNE: ALL');
+/*Soprano													--Index 575*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Soprano', 'Actoin', 'Support', 1, -1, 6, 'RANGE6, STR vs ARM, BANE');
 /*Soul Scythe												--Index 576*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Explore', 'Soul Scythe', 'Action', 'Offense', 2, 3, 2, 'Soul Scythe inflicts a number of wounds equal to the number of stars the offenseive roll won by.');
 /*Soul Scythe												--Index 577*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Arcade', 'Soul Scythe', 'Action', 'Offense', 0, 1, 3, 'Soul Scythe inflicts a number of wounds equal to the number of stars the offenseive roll won by.');
 /*Soul Whip													--Index 578*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Soul Whip', 'Action', 'Offense', 2, 1, 2, '2SW, +1R STR, ICE');
-/*Sour Soda Splash										--Index 579*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Sour Soda Splash', 'Potion', 'Support', 1, -1, -1, 'Wave 1, POISON');
+/*Sour Soda Splash											--Index 579*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Sour Soda Splash', 'Potion', 'Support', 1, -1, -1, 'Wave 1, POISON');
 /*Sparkle Burst												--Index 580*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Sparkle Burst', 'Action', 'Offense', 2, 4, 8, '8MI, Burst 1');
 /*Spark of Life												--Index 581*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Spark of Life', 'Action', 'Support', 1, -1, 2, 'AUGMENT, RANGE2, Heal 1');
 /*Spearhead													--Index 582*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Spearhead', 'Action', 'Support', 1, 1, -1, 'SW, Wave 3, STR vs WILL Push 3');
-/*Spectre														--Index 583*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Spectre', 'Action', 'Support', 1, -1, -1, 'AUGMENT, Teleport');
+/*Spectre													--Index 583*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Spectre', 'Action', 'Support', 1, -1, -1, 'AUGMENT, Teleport');
 /*Spin Attack												--Index 584*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Spin Attack', 'Action', 'Offense', 2, 1, -1, 'Wave 1, Push 2');
 /*Spin Wind													--Index 585*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Spin Wind', 'Action', 'Offense', 2, 1, -1, 'SW, Wave 1');
 /*Spinning Axe												--Index 586*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Spinning Axe', 'Action', 'Offense', 2, 1, -1, '+1R STR, Lance 6');
-/*Spirit Burn													--Index 587*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Spirit Burn', 'Action', 'Support', 1, -1, 6, 'RANGE6, target Hero gains Backlash and FIRE.');
-/*Spirit Walk													--Index 588*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Spirit Walk', 'Action', 'Support', 0, -1, -1, 'Surge');
+/*Spirit Burn												--Index 587*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Spirit Burn', 'Action', 'Support', 1, -1, 6, 'RANGE6, target Hero gains Backlash and FIRE.');
+/*Spirit Walk												--Index 588*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Spirit Walk', 'Action', 'Support', 0, -1, -1, 'Surge');
 /*Sprite Syrup												--Index 589*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Sprite Syrup', 'Potion', 'Support', 1, -1, -1, 'AUGMENT, +1AC');
-/*Splort														--Index 590*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Explore', 'Splort', 'Action', 'Offense', 2, 3, 6, '6MA, Burst 1, +1R WILL');
-/*Splort														--Index 591*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Arcade', 'Splort', 'Action', 'Offense', 0, 1, -1, 'Burst 1');
-/*Splort														--Index 592*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Arcade', 'Splort', 'Action', 'Offense', 0, 1, -1, 'Burst 2');
-/*Spontaneous Combustion							--Index 593*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Spontaneous Combustion', 'Action', 'Offense', 1, 1, -1, 'One Use Only.  DANGEROUS, SW, Wave 3, +1R STR, FIRE');
-/*Squid															--Index 594*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Squid', 'Action', 'Support', 1, -1, -1, 'AUGMENT, Aura 2, Stealth');
-/*Star Shine													--Index 595*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Star Shine', 'Action', 'Support', 2, -1, 6, 'AUGMENT, IMMUNE: ALL');
+/*Splort													--Index 590*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Explore', 'Splort', 'Action', 'Offense', 2, 3, 6, '6MA, Burst 1, +1R WILL');
+/*Splort													--Index 591*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Arcade', 'Splort', 'Action', 'Offense', 0, 1, -1, 'Burst 1');
+/*Splort													--Index 592*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Arcade', 'Splort', 'Action', 'Offense', 0, 1, -1, 'Burst 2');
+/*Spontaneous Combustion									--Index 593*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Spontaneous Combustion', 'Action', 'Offense', 1, 1, -1, 'One Use Only.  DANGEROUS, SW, Wave 3, +1R STR, FIRE');
+/*Squid														--Index 594*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Squid', 'Action', 'Support', 1, -1, -1, 'AUGMENT, Aura 2, Stealth');
+/*Star Shine												--Index 595*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Star Shine', 'Action', 'Support', 2, -1, 6, 'AUGMENT, IMMUNE: ALL');
 /*Static Discharge											--Index 596*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Static Discharge', 'Action', 'Offense', 2, 1, -1, 'SW, Wave 2, +1B STR');
-/*Sticky														--Index 597*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Sticky', 'Action', 'Support', 0, -1, -1, 'Models may not move for the remainder of this activation or their next activation, then remove the template from play.');
+/*Sticky													--Index 597*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Sticky', 'Action', 'Support', 0, -1, -1, 'Models may not move for the remainder of this activation or their next activation, then remove the template from play.');
 /*Sticky Tongue												--Index 598*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Sticky Tongue', 'Action', 'Offense', 1, 4, 2, '2MI, If Sticky Tongue inflicts a wound remove one wound token or gain one potion token, in addition to any that are rolled.');
-/*Stink Beard Bark										--Index 599*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Stink Beard Bark', 'Action', 'Support', 1, 1, 1, 'SW Sweep 1, POISON');
-/*Stinky														--Index 600*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Stinky', 'Action', 'Support', 2, -1, -1, 'Wave 1, POISON');
+/*Stink Beard Bark											--Index 599*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Stink Beard Bark', 'Action', 'Support', 1, 1, 1, 'SW Sweep 1, POISON');
+/*Stinky													--Index 600*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Stinky', 'Action', 'Support', 2, -1, -1, 'Wave 1, POISON');
 /*Stinging Shot												--Index 601*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Stinging Shot', 'Action', 'Offense', 2, 4, 8, '8MI, +1R DEX, ICE');
 /*Stranglethorn												--Index 602*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Explore', 'Stranglethorn', 'Action', 'Offense', 1, 3, 6, '6MA, Burst 1, Slow');
 /*Stranglethorn												--Index 603*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Arcade', 'Stranglethorn', 'Action', 'Offense', 0, 1, 6, 'Burst 1, Slow');
 /*Stygian Pact												--Index 604*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Stygian Pact', 'Action', 'Support', 0, -1, -1, 'AUGMENT, Aura 1, +1B on all offense rolls.');
-/*Subduing Shot											--Index 605*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Subduing Shot', 'Action', 'Offense', 2, 4, 8, '+1R DEX, PACIFY');
-/*Sugar Dervish											--Index 606*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Sugar Dervish', 'Action', 'Offense', 2, 1, -1, 'Wave 1, POISON');
+/*Subduing Shot												--Index 605*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Subduing Shot', 'Action', 'Offense', 2, 4, 8, '+1R DEX, PACIFY');
+/*Sugar Dervish												--Index 606*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Sugar Dervish', 'Action', 'Offense', 2, 1, -1, 'Wave 1, POISON');
 /*Sugar Rush												--Index 607*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Sugar Rush', 'Potion', 'Support', 3, -1, -1, 'AUGMENT, +2MOVEMENT');
-/*Summer														--Index 608*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Summer', 'Action', 'Offense', 1, 1, -1, 'SW, Wave 2, FIRE');
+/*Summer													--Index 608*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Summer', 'Action', 'Offense', 1, 1, -1, 'SW, Wave 2, FIRE');
 /*Super Shuriken											--Index 609*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Explore', 'Super Shuriken', 'Action', 'Offense', 2, 4, 6, '6MI, +1R DEX, Hoookshot');
 /*Super Shuriken											--Index 610*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Explore', 'Super Shuriken', 'Action', 'Offense', 2, 4, 8, '8MI, +1R DEX, Hoookshot');
 /*Super Shuriken											--Index 611*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Arcade', 'Super Shuriken', 'Action', 'Offense', 0, 1, 6, '+1ST STR, Hoookshot');
-/*Supremely Skilled Shrieking Squawk Strike	--Index 612*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Supremely Skilled Shrieking Squawk Strike', 'Action', 'Offense', 2, 1, 1, '+1R STR, Knnockdown, Feint');
-/*Sweeping Mace											--Index 613*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Explore', 'Sweeping Mace', 'Action', 'Offense', 1, 1, -1, 'DANGEROUS, SW, Sweep 2');
-/*Sweeping Mace											--Index 614*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Explore', 'Sweeping Mace', 'Action', 'Support', 1, -1, -1, 'DANGEROUS, Sweep 2, KNOCKDOWN');
-/*Sweeping Mace											--Index 615*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Arcade', 'Sweeping Mace', 'Action', 'Support', 0, -1, -1, 'Sweep 3, KNOCKDOWN');
-/*Sword Toss													--Index 616*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Explore', 'Sword Toss', 'Action', 'Offense', 2, 1, -1, 'SW, Lance 8');
-/*Sword Toss													--Index 617*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Arcade', 'Sword Toss', 'Action', 'Offense', 0, 1, -1, 'Lance 8');
+/*Supremely Skilled Shrieking Squawk Strike					--Index 612*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Supremely Skilled Shrieking Squawk Strike', 'Action', 'Offense', 2, 1, 1, '+1R STR, Knnockdown, Feint');
+/*Sweeping Mace												--Index 613*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Explore', 'Sweeping Mace', 'Action', 'Offense', 1, 1, -1, 'DANGEROUS, SW, Sweep 2');
+/*Sweeping Mace												--Index 614*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Explore', 'Sweeping Mace', 'Action', 'Support', 1, -1, -1, 'DANGEROUS, Sweep 2, KNOCKDOWN');
+/*Sweeping Mace												--Index 615*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Arcade', 'Sweeping Mace', 'Action', 'Support', 0, -1, -1, 'Sweep 3, KNOCKDOWN');
+/*Sword Toss												--Index 616*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Explore', 'Sword Toss', 'Action', 'Offense', 2, 1, -1, 'SW, Lance 8');
+/*Sword Toss												--Index 617*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Arcade', 'Sword Toss', 'Action', 'Offense', 0, 1, -1, 'Lance 8');
 /*Tactical Strike											--Index 618*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Tactical Strike', 'Action', 'Support', 1, -1, -1, 'The Colonel''s master may immediately make one basic offensive action.');
-/*Tail Sweep													--Index 619*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Explore', 'Tail Sweep', 'Action', 'Offense', 0, 1, -1, 'SW, Sweep 2, KNOCKDOWN');
-/*Tail Sweep													--Index 620*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Arcade', 'Tail Sweep', 'Action', 'Offense', 0, 1, -1, 'Sweep 2, KNOCKDOWN');
+/*Tail Sweep												--Index 619*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Explore', 'Tail Sweep', 'Action', 'Offense', 0, 1, -1, 'SW, Sweep 2, KNOCKDOWN');
+/*Tail Sweep												--Index 620*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Arcade', 'Tail Sweep', 'Action', 'Offense', 0, 1, -1, 'Sweep 2, KNOCKDOWN');
 /*Take a Hint												--Index 621*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Take a Hint', 'Action', 'Offense', 2, 1, -1, '1SW, +2B STR, BANE');
 /*Tax Collector												--Index 622*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Tax Collector', 'Action', 'Offense', 1, 1, 1, '1SW, +1R STR, Even if this action does not destroy a model draw one loot.');
 /*Teeth & Fur												--Index 623*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Teeth & Fur', 'Action', 'Offense', 2, 1, 1, '1SW, +1R STR, Pounce, KNOCKDOWN');
-/*Tempermental Toadstool								--Index 624*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Tempermental Toadstool', 'Action', 'Support', 1, -1, -1, 'AUGMENT, Backlash');
-/*Thriller														--Index 625*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Thriller', 'Action', 'Support', 1, -1, -1, 'AUGMENT, Wave 3, Compel 3');
-/*Thorns														--Index 626*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Thorns', 'Action', 'Offense', 0, 1, -1, 'STR 3ST, POISON');
-/*Thwomp														--Index 627*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Thwomp', 'Action', 'Offense', 1, 1, 3, '3SW, Push 5');
-/*Thwomp														--Index 628*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Thwomp', 'Action', 'Offense', 2, 1, 3, '3SW, +1R STR, Push 5');
+/*Tempermental Toadstool									--Index 624*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Tempermental Toadstool', 'Action', 'Support', 1, -1, -1, 'AUGMENT, Backlash');
+/*Thriller													--Index 625*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Thriller', 'Action', 'Support', 1, -1, -1, 'AUGMENT, Wave 3, Compel 3');
+/*Thorns													--Index 626*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Thorns', 'Action', 'Offense', 0, 1, -1, 'STR 3ST, POISON');
+/*Thwomp													--Index 627*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Thwomp', 'Action', 'Offense', 1, 1, 3, '3SW, Push 5');
+/*Thwomp													--Index 628*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Thwomp', 'Action', 'Offense', 2, 1, 3, '3SW, +1R STR, Push 5');
 /*Thrashing Limbs											--Index 629*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Thrashing Limbs', 'Action', 'Offense', 0, 1, -1, 'STR 4ST');
 /*Thresher													--Index 630*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Thresher', 'Action', 'Offense', 2, 1, -1, 'SW, Sweep 3');
-/*Thwack														--Index 631*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Explore', 'Thwack', 'Action', 'Offense', 1, -1, 6, 'DANGEROUS, Throw 4');
-/*Thwack														--Index 632*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Explore', 'Thwack', 'Action', 'Offense', 1, -1, 6, 'DANGEROUS, Throw 6');
-/*Thwack														--Index 633*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Arcade', 'Thwack', 'Action', 'Offense', 0, -1, -1, 'KNOCKDOWN');
-/*Thwack														--Index 634*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Arcade', 'Thwack', 'Action', 'Offense', 0, -1, -1, '+1ST STR, Burst 1, KNOCKDOWN');
+/*Thwack													--Index 631*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Explore', 'Thwack', 'Action', 'Offense', 1, -1, 6, 'DANGEROUS, Throw 4');
+/*Thwack													--Index 632*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Explore', 'Thwack', 'Action', 'Offense', 1, -1, 6, 'DANGEROUS, Throw 6');
+/*Thwack													--Index 633*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Arcade', 'Thwack', 'Action', 'Offense', 0, -1, -1, 'KNOCKDOWN');
+/*Thwack													--Index 634*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Arcade', 'Thwack', 'Action', 'Offense', 0, -1, -1, '+1ST STR, Burst 1, KNOCKDOWN');
 /*Tide of Bones												--Index 635*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Explore', 'Tide of Bones', 'Action', 'Support', 1, -1, -1, 'Wave 2, Raise');
 /*Tide of Bones												--Index 636*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Arcade', 'Tide of Bones', 'Action', 'Support', 0, -1, -1, 'Wave 3, Raise');
-/*Tiger															--Index 637*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Tiger', 'Action', 'Offense', 2, 1, 1, '1SW, +1R STR, Pounce');
-/*Trample														--Index 638*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Trample', 'Action', 'Offense', 2, 1, -1, 'Wave 1, KNOCKDOWN');
+/*Tiger														--Index 637*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Tiger', 'Action', 'Offense', 2, 1, 1, '1SW, +1R STR, Pounce');
+/*Trample													--Index 638*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Trample', 'Action', 'Offense', 2, 1, -1, 'Wave 1, KNOCKDOWN');
 /*Transmogrify												--Index 639*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Explore', 'Transmogrify', 'Action', 'Support', 2, 3, 1, 'WILL vs WILL Shapeshift target Hero model into Miserable Toad.  Transmogrify may not be used if no Miserable Toad models are available in the Spawning Pool.');
 /*Transmogrify												--Index 640*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Arcade', 'Transmogrify', 'Action', 'Support', 0, -1, -1, 'Shapeshift target Hero model into Miserable Toad.  Transmogrify may not be used if no Miserable Toad models are available in the Spawning Pool.');
 /*Treasure Map												--Index 641*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Treasure Map', 'Potion', 'Support', 1, -1, -1, 'Drink immediately after opening a treasure chest.  Draw one additional treasure card.');
-/*Tremor														--Index 642*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Tremor', 'Action', 'Offense', 2, 1, -1, 'SW, Wave 1');
-/*Tremors														--Index 643*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Arcade', 'Tremors', 'Action', 'Support', 0, 1, -1, 'Wave 6, SLOW');
-/*Troll Heart													--Index 644*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Troll Heart', 'Potion', 'Support', 1, -1, -1, 'AUGMENT, Regenerate');
+/*Tremor													--Index 642*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Tremor', 'Action', 'Offense', 2, 1, -1, 'SW, Wave 1');
+/*Tremors													--Index 643*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Arcade', 'Tremors', 'Action', 'Support', 0, 1, -1, 'Wave 6, SLOW');
+/*Troll Heart												--Index 644*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Troll Heart', 'Potion', 'Support', 1, -1, -1, 'AUGMENT, Regenerate');
 /*Turn Undead												--Index 645*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Turn Undead', 'Action', 'Support', 1, -1, -1, 'Wave 1, Push 1.  Increase to Push 3 against Undead.');
-/*Turtle Cannon											--Index 646*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Explore', 'Turtle Cannon', 'Action', 'Offense', 1, -1, -1, 'DANGEROUS, Throw 6, Burst 2.  Burst is centered on the thrown model.  After resolving Turtle Cannon the thrown model is destroyed.');
-/*Turtle Cannon											--Index 647*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Arcade', 'Turtle Cannon', 'Action', 'Offense', 0, -1, -1, 'Burst 2');
-/*Turtle Cannon											--Index 648*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Arcade', 'Turtle Cannon', 'Action', 'Offense', 0, -1, -1, '+1ST STR, Burst 3');
+/*Turtle Cannon												--Index 646*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Explore', 'Turtle Cannon', 'Action', 'Offense', 1, -1, -1, 'DANGEROUS, Throw 6, Burst 2.  Burst is centered on the thrown model.  After resolving Turtle Cannon the thrown model is destroyed.');
+/*Turtle Cannon												--Index 647*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Arcade', 'Turtle Cannon', 'Action', 'Offense', 0, -1, -1, 'Burst 2');
+/*Turtle Cannon												--Index 648*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Arcade', 'Turtle Cannon', 'Action', 'Offense', 0, -1, -1, '+1ST STR, Burst 3');
 /*Turtle Tremor												--Index 649*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Explore', 'Turtle Tremor', 'Action', 'Offense', 1, 1, -1, 'SW, Wave 3, +1B STR for every Turtle Shell within the area effect.');
 /*Turtle Tremor												--Index 650*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Arcade', 'Turtle Tremor', 'Action', 'Offense', 0, 1, -1, 'Wave 5, KNOCKDOWN');
 /*Turtle Tremor												--Index 651*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Arcade', 'Turtle Tremor', 'Action', 'Offense', 0, 1, -1, 'Wave 5, +1ST STR, KNOCKDOWN');
-/*Tusker														--Index 652*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Tusker', 'Action', 'Offense', 2, 1, 1, '1SW, +1R STR, KNOCKDOWN');
-/*Tusker Charge											--Index 653*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Tusker', 'Action', 'Offense', 0, 1, -1, '+1ST STR');
-/*Twomp!														--Index 654*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Twomp!', 'Action', 'Support', 0, -1, -1, 'KNOCKDOWN');
+/*Tusker													--Index 652*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Tusker', 'Action', 'Offense', 2, 1, 1, '1SW, +1R STR, KNOCKDOWN');
+/*Tusker Charge												--Index 653*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Tusker', 'Action', 'Offense', 0, 1, -1, '+1ST STR');
+/*Twomp!													--Index 654*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Twomp!', 'Action', 'Support', 0, -1, -1, 'KNOCKDOWN');
 /*Unnatural Life											--Index 655*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Unnatural Life', 'Action', 'Support', 1, -1, -1, 'One use only.  Regenerate (Roll 1B for every wound counter on the model using Regenerate.  Remove one counter for every star rolled.)');
-/*Uproot														--Index 656*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Uproot', 'Action', 'Support', 1, -1, 4, 'AUGMENT, RANGE4, Compel 2');
-/*Valor															--Index 657*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Valor', 'Potion', 'Support', 1, -1, -1, 'AUGMENT, +1ACTION');
-/*Vending Machine										--Index 658*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Vending Machine', 'Action', 'Support', 2, -1, 6, 'AUGMENT, RANGE6, Remove a single portion token from Candy''s card and place it on target Hero''s card.');
-/*Verdant Dream											--Index 659*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Verdant Dream', 'Action', 'Support', 2, 3, 6, 'RANGE6, WILL vs WILL, Compel 6');
+/*Uproot													--Index 656*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Uproot', 'Action', 'Support', 1, -1, 4, 'AUGMENT, RANGE4, Compel 2');
+/*Valor														--Index 657*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Valor', 'Potion', 'Support', 1, -1, -1, 'AUGMENT, +1ACTION');
+/*Vending Machine											--Index 658*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Vending Machine', 'Action', 'Support', 2, -1, 6, 'AUGMENT, RANGE6, Remove a single portion token from Candy''s card and place it on target Hero''s card.');
+/*Verdant Dream												--Index 659*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Verdant Dream', 'Action', 'Support', 2, 3, 6, 'RANGE6, WILL vs WILL, Compel 6');
 /*Verdant Maze												--Index 660*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Verdant Maze', 'Action', 'Support', 1, 3, 6, 'RANGE6, WILL vs WILL, Compel 6');
 /*Vile Concoction											--Index 661*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Vile Concoction', 'Potion', 'Support', 1, -1, -1, 'Deranged Alchemist draws two treasure cards.  Choose one card and shuffle the other back into the deck.  Dereanged Alchemist gains the effects listed on the chosen card until the beginning of her next activation, then discards the card.  Note, Deranged Alchemist gains this effect even if she has a treasure card equipped as normal.  Only Deranged Alchemist may drink Experimental Concoction.');
 /*Volcanic Spring											--Index 662*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Volcanic Spring', 'Potion', 'Offense', 1, 3, -1, 'DANGEROUS, MA, Lance 8, FIRE');
-/*Volcano														--Index 663*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Explore', 'Volcano', 'Action', 'Offense', 2, 1, -1, 'SW, Wave 3');
-/*Volcano														--Index 664*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Arcade', 'Volcano', 'Action', 'Offense', 0, 1, -1, 'Wave 3');
-/*Wakey-Wakey											--Index 665*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Wakey-Wakey', 'Action', 'Support', 1, -1, -1, 'Place one Zombie from the spawning pool adjacent to Shamble Priest.  Shamble Priest suffers one wound.');
-/*Waldmeister Syrup										--Index 666*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Waldmeister Syrup', 'Potion', 'Offense', 1, 1, -1, 'RANGE6, Compel 3');
-/*Weep															--Index 667*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Explore', 'Weep', 'Action', 'Offense', 1, 3, 2, '2MA, If Weep inflicts a wound place a Sorrow from the spawning pool adjacent to the wounded model.');
-/*Weep															--Index 668*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Arcade', 'Weep', 'Action', 'Offense', 0, 1, -1, 'If Weep inflicts a wound place a Sorrow from the spawning pool adjacent to the wounded model.');
+/*Volcano													--Index 663*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Explore', 'Volcano', 'Action', 'Offense', 2, 1, -1, 'SW, Wave 3');
+/*Volcano													--Index 664*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Arcade', 'Volcano', 'Action', 'Offense', 0, 1, -1, 'Wave 3');
+/*Wakey-Wakey												--Index 665*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Wakey-Wakey', 'Action', 'Support', 1, -1, -1, 'Place one Zombie from the spawning pool adjacent to Shamble Priest.  Shamble Priest suffers one wound.');
+/*Waldmeister Syrup											--Index 666*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Waldmeister Syrup', 'Potion', 'Offense', 1, 1, -1, 'RANGE6, Compel 3');
+/*Weep														--Index 667*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Explore', 'Weep', 'Action', 'Offense', 1, 3, 2, '2MA, If Weep inflicts a wound place a Sorrow from the spawning pool adjacent to the wounded model.');
+/*Weep														--Index 668*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Arcade', 'Weep', 'Action', 'Offense', 0, 1, -1, 'If Weep inflicts a wound place a Sorrow from the spawning pool adjacent to the wounded model.');
 /*Whirling Shitake											--Index 669*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Explore', 'Whirling Shitake', 'Action', 'Offense', 1, 1, -1, 'SW, Wave 1');
 /*Whirling Shitake											--Index 670*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Arcade', 'Whirling Shitake', 'Action', 'Offense', 0, 1, -1, 'Wave 3');
 /*White Mage												--Index 671*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'White Mage', 'Potion', 'Emergency', 1, -1, -1, 'AUGMENT, Wave 5, Heal 1');
-/*Wibble														--Index 672*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Wibble', 'Action', 'Offense', 2, 4, 8, '8MI, BANE');
-/*Wiggly														--Index 673*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Wiggly', 'Action', 'Support', 0, -1, -1, 'Grasping Tentacle squares and all adjacent squares are difficult terrain.');
+/*Wibble													--Index 672*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Wibble', 'Action', 'Offense', 2, 4, 8, '8MI, BANE');
+/*Wiggly													--Index 673*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Wiggly', 'Action', 'Support', 0, -1, -1, 'Grasping Tentacle squares and all adjacent squares are difficult terrain.');
 /*Wind in the Forest										--Index 674*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Explore', 'Wind in the Forest', 'Action', 'Offense', 1, 1, 1, '1SW, Pounce.');
 /*Wind in the Forest										--Index 675*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Arcade', 'Wind in the Forest', 'Action', 'Support', 0, -1, -1, 'Surge');
-/*Wind Spirit													--Index 676*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Wind Spirit', 'Action', 'Offense', 1, 1, 1, '1SW, Pounce.');
+/*Wind Spirit												--Index 676*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Wind Spirit', 'Action', 'Offense', 1, 1, 1, '1SW, Pounce.');
 /*Wind Walk													--Index 677*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Wind Walk', 'Action', 'Support', 2, -1, -1, 'AUGMENT, Wave 3, Move Madoushi and all ninja in the area up to 3 squares, using the rules for Fly.  Ninja moved by Wind Walk must end their move within 3 squares of the same Madoushi.');
 /*Wine Tasting												--Index 678*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Wine Tasting', 'Action', 'Support', 2, -1, -1, 'AUGMENT, Wave 3, Heal 2.');
-/*Winter														--Index 679*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Winter', 'Action', 'Offense', 1, 1, -1, 'SW, Wave 2, ICE.');
-/*Wisdom														--Index 680*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Wisdom', 'Potion', 'Emergency', 1, -1, -1, 'AUGMENT, Heal 1, Remedy');
-/*Wisdom														--Index 681*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Wisdom', 'Potion', 'Support', 1, -1, 3, 'DANGEROUS, RANGE3, Burst 2, ICE');
+/*Winter													--Index 679*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Winter', 'Action', 'Offense', 1, 1, -1, 'SW, Wave 2, ICE.');
+/*Wisdom													--Index 680*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Wisdom', 'Potion', 'Emergency', 1, -1, -1, 'AUGMENT, Heal 1, Remedy');
+/*Wisdom													--Index 681*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Wisdom', 'Potion', 'Support', 1, -1, 3, 'DANGEROUS, RANGE3, Burst 2, ICE');
 /*Wizard Wings												--Index 682*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Wizard Wings', 'Potion', 'Support', 1, -1, -1, 'AUGMENT, +1B WILL, Fly');
-/*Wolf Spirit													--Index 683*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Wolf Spirit', 'Action', 'Offense', 2, 1, 1, '1SW, +1R STR, Pounce.');
+/*Wolf Spirit												--Index 683*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Wolf Spirit', 'Action', 'Offense', 2, 1, 1, '1SW, +1R STR, Pounce.');
 /*'X' Marks the Spot										--Index 684*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', '''X'' Marks the Spot', 'Action', 'Support', 2, -1, -1, 'AUGMENT, Draw and equip 1 loot card.');
-/*Zealotry														--Index 685*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Explore', 'Zealotry', 'Action', 'Support', 1, -1, -1, 'AUGMENT, Heal 1, Remedy');
-/*Zealotry														--Index 686*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Arcade', 'Zealotry', 'Action', 'Support', 0, -1, -1, 'AUGMENT, Aura 1, +1ST STR');
+/*Zealotry													--Index 685*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Explore', 'Zealotry', 'Action', 'Support', 1, -1, -1, 'AUGMENT, Heal 1, Remedy');
+/*Zealotry													--Index 686*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Arcade', 'Zealotry', 'Action', 'Support', 0, -1, -1, 'AUGMENT, Aura 1, +1ST STR');
 
 /*Overgrowth												--Index 687*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Explore', 'Overgrowth', 'Action', 'Offense', 2, 3, -1, 'MA, Wave 3');
 /*Vile Concoction											--Index 688*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Explore', 'Vile Concoction', 'Potion', 'Support', 1, -1, -1, 'Deranged Alchemist draws two treasure cards.  Choose one card and shuffle the other back into the deck.  Dereanged Alchemist gains the effects listed on the chosen card until the beginning of her next activation, then discards the card.  Note, Deranged Alchemist gains this effect even if she has a treasure card equipped as normal.  Only Deranged Alchemist may drink Vile Concoction.');
@@ -3194,9 +3197,9 @@ insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, 
 69, 'Either', 'Large', 'Shapeshift', 6, 3, '2B1R', '2R', '1B1R', '2B', 5, 1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (69, 1); --Citrine
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (69, 3); --Ruby
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (69, 473); --Berserk
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (69, 555); --Immune: Poison
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (69, 615); --Shapeshift: Deeproot druid
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (69, 184); --Berserk
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (69, 266); --Immune: Poison
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (69, 326); --Shapeshift: Deeproot druid
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (69, 179); --Bear Charge
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (69, 180); --Bear Hug
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (69, 1, 2); --Strength
@@ -3214,7 +3217,7 @@ insert into Characters (CardIndex) VALUES (155);
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 70, 'Either', 'Large', 'Chimera', 6, 3, '2B1R', '2R', '1B', '2B', 5, 1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (70, 1); --Citrine
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (70, 473); --Berserk
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (70, 184); --Berserk
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (70, 613); --Sweeping Mace
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (70, 296); --Earthshaker
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (70, 513); --Rager Root
@@ -3233,8 +3236,8 @@ insert into Characters (CardIndex) VALUES (156);
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 71, 'Feminine', 'Small', 'Human', 6, 3, '2R', '3B', '2B', '1B1R', 5, 2);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (71, 1); --Citrine
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (71, 457); --Alchemy
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (71, 584); --Pet: Never-Lost Cola
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (71, 168); --Alchemy
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (71, 295); --Pet: Never-Lost Cola
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (71, 571); --Soda Detector
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (71, 606); --Sugar Dervish
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (71, 574); --Soothing Soda
@@ -3254,7 +3257,7 @@ insert into Characters (CardIndex) VALUES (157);
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 72, 'Feminine', 'Small', 'Human', 6, 3, '2R', '3B', '1B1R', '2B', 5, 1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (72, 1); --Citrine
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (72, 570); --Luck
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (72, 281); --Luck
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (72, 191); --Bomb's Away
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (72, 478); --Pirate Snatch
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (72, 564); --Skully
@@ -3274,8 +3277,8 @@ insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, 
 73, 'Feminine', 'Small', 'Celestian', 7, 3, '2B', '1B', '2R', '3B', 5, 1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (73, 2); --Emerald
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (73, 3); --Ruby
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (73, 554); --Immune: Knockdown
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (73, 518); --Fly
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (73, 265); --Immune: Knockdown
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (73, 229); --Fly
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (73, 282); --Divine Arrow
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (73, 375); --Heart Seeker
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (73, 365); --Halo Extract
@@ -3295,8 +3298,8 @@ insert into Characters (CardIndex) VALUES (159);
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 74, 'Feminine', 'Small', 'Human', 6, 3, '2R', '3B', '2B', '2B', 5, 1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (74, 1); --Citrine
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (74, 474); --Berserk
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (74, 648); --Tough
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (74, 184); --Berserk
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (74, 359); --Tough
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (74, 512); --Rage
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (74, 351); --Fury's Blood
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (74, 1, 1); --Strength
@@ -3314,8 +3317,8 @@ insert into Characters (CardIndex) VALUES (160);
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 75, 'Feminine', 'Small', 'Freyjan', 6, 3, '1B', '3B', '2R', '3B', 5, 2);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (75, 3); --Ruby
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (75, 456); --9 Lives
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (75, 641); --Surefoot
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (75, 167); --9 Lives
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (75, 352); --Surefoot
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (75, 222); --Cat & Mouse
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (75, 184); --Black Cat
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (75, 540); --Scratch
@@ -3337,8 +3340,8 @@ insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, 
 76, 'Masculine', 'Small', 'Undead Pirate', 6, 3, '3B', '3B', '1B1R', '1B1R', 5, 1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (76, 1); --Citrine
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (76, 3); --Ruby
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (76, 456); --Immune: Bane
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (76, 641); --Immune: Poison
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (76, 261); --Immune: Bane
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (76, 266); --Immune: Poison
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (76, 328); --Flintlock
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (76, 414); --Kraken
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (76, 641); --Treasure Map
@@ -3358,8 +3361,8 @@ insert into Characters (CardIndex) VALUES (162);
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 77, 'Masculine', 'Small', 'Dark Celestian', 7, 3, '2B1R', '2R', '1B1R', '1B1R', 5, 1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (77, 1); --Citrine
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (77, 551); --Immune: Fire
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (77, 554); --Immune: Knockdown
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (77, 262); --Immune: Fire
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (77, 265); --Immune: Knockdown
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (77, 324); --Flaming Javelin
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (77, 550); --Shield Bash
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (77, 474); --Phalanx Phial
@@ -3379,9 +3382,9 @@ insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, 
 78, 'Masculine', 'Small', 'Half-Elf', 7, 3, '3B', '1B1R', '3B', '1B1R', 5, 1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (78, 1); --Citrine
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (78, 3); --Ruby
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (78, 589); --Poison
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (78, 555); --Immune: Poison
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (78, 614); --Shapeshift: Angry Bear
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (78, 300); --Poison
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (78, 266); --Immune: Poison
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (78, 325); --Shapeshift: Angry Bear
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (78, 602); --Stranglethorn
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (78, 206); --Briar Armor
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (78, 457); --Nourishing Berries
@@ -3422,7 +3425,7 @@ insert into Characters (CardIndex) VALUES (165);
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 80, 'Either', 'Large', 'Treant Kodama', 6, 3, '1B1R', '1ST2R', '3B', '1B', 6, 1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (80, 4); --Sapphire
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (80, 648); --Tough
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (80, 359); --Tough
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (80, 463); --Overgrowth
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (80, 656); --Uproot
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (80, 265); --Deadwood Dynamite
@@ -3442,7 +3445,7 @@ insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, 
 81, 'Either', 'Large', 'Elf', 6, 3, '1B1R', '1ST2R', '3B', '1B', 6, 1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (81, 1); --Citrine
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (81, 2); --Emerald
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (81, 641); --Surefoot
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (81, 352); --Surefoot
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (81, 367); --Harass
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (81, 683); --Wolf Spirit
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (81, 358); --Glimmerberry Juice
@@ -3463,8 +3466,8 @@ insert into Characters (CardIndex) VALUES (167);
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 82, 'Either', 'Small', 'Elf', 6, 3, '3B', '2B1R', '3B', '3B', 5, 1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (82, 1); --Citrine
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (82, 551); --Immune: Fire
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (82, 501); --Dragon Spite
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (82, 262); --Immune: Fire
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (82, 212); --Dragon Spite
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (82, 372); --Head Chopper
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (82, 293); --Dragon Slayer
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (82, 194); --Bottled Dragon Breath
@@ -3484,7 +3487,7 @@ insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, 
 83, 'Either', 'Small', 'Human', 6, 3, '2B', '3B', '2R', '1B1R', 5, 2);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (83, 1); --Citrine
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (83, 3); --Ruby
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (83, 512); --Fire
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (83, 223); --Fire
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (83, 320); --Fire Wave
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (83, 428); --Magma Strike
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (83, 671); --White Mage
@@ -3505,8 +3508,8 @@ insert into Characters (CardIndex) VALUES (169);
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 84, 'Either', 'Small', 'Elf', 7, 3, '2B', '3B', '2R', '3B', 5, 3);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (84, 3); --Ruby
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (84, 457); --Alchemy
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (84, 591); --Potion Master
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (84, 168); --Alchemy
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (84, 303); --Potion Master
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (84, 307); --Experimental Concoction
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (84, 541); --Secret Ingredient
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (84, 666); --Waldmeister Syrup
@@ -3526,7 +3529,7 @@ insert into Characters (CardIndex) VALUES (170);
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 85, 'Either', 'Small', 'Elf', 7, 3, '1B1R', '3B', '2B', '2B1R', 5, 1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (85, 2); --Emerald
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (85, 641); --Surefoot
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (85, 352); --Surefoot
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (85, 580); --Sparkle Burst
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (85, 377); --Herbalist
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (85, 480); --Pixie Dust
@@ -3547,8 +3550,8 @@ insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, 
 86, 'Either', 'Small', 'Dwarf', 6, 3, '2B1R', '2R', '2B', '2B', 6, 1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (86, 1); --Citrine
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (86, 4); --Sapphire
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (86, 554); --Immune: Knockdown
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (86, 555); --Immune: Poison
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (86, 265); --Immune: Knockdown
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (86, 266); --Immune: Poison
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (86, 235); --Cleave
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (86, 295); --Dwarven Curse
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (86, 379); --Hero's Balm
@@ -3587,7 +3590,7 @@ insert into Characters (CardIndex) VALUES (173);
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 88, 'Either', 'Small', 'Human', 6, 3, '2B', '3B', '2R', '2R', 5, 1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (88, 2); --Emerald
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (88, 503); --Elemental Affinity
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (88, 214); --Elemental Affinity
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (88, 245); --Crane
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (88, 594); --Squid
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (88, 181); --Benevolence
@@ -3607,7 +3610,7 @@ insert into Characters (CardIndex) VALUES (174);
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 89, 'Either', 'Small', 'Human', 7, 3, '2R', '3B', '3B', '3B', 5, 1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (89, 1); --Citrine
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (89, 503); --Elemental Affinity
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (89, 214); --Elemental Affinity
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (89, 637); --Tiger
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (89, 459); --Ogre
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (89, 657); --Valor
@@ -3626,7 +3629,7 @@ insert into Characters (CardIndex) VALUES (175);
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 90, 'Either', 'Small', 'Human', 6, 3, '2B', '3B', '2B1R', '3B', 5, 1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (90, 4); --Ruby
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (90, 503); --Elemental Affinity
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (90, 214); --Elemental Affinity
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (90, 445); --Monkey
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (90, 337); --Fox
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (90, 680); --Wisdom
@@ -3646,7 +3649,7 @@ insert into Characters (CardIndex) VALUES (176);
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 91, 'Either', 'Small', 'Human', 6, 3, '2B', '3B', '2B1R', '3B', 5, 1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (91, 4); --Ruby
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (91, 503); --Elemental Affinity
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (91, 214); --Elemental Affinity
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (91, 445); --Monkey
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (91, 337); --Fox
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (91, 681); --Wisdom
@@ -3666,7 +3669,7 @@ insert into Characters (CardIndex) VALUES (177);
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 92, 'Feminine', 'Small', 'Human', 6, 3, '2B', '3B', '2B1R', '3B', 5, 1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (92, 4); --Ruby
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (92, 639); --Student
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (92, 350); --Student
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (92, 604); --Stygian Pact
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (92, 362); --Gribbly Tentattack
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (92, 268); --Deep Mad Tentattack
@@ -3687,7 +3690,7 @@ insert into Characters (CardIndex) VALUES (178);
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 93, 'Feminine', 'Small', 'Human', 6, 3, '3B', '2R', '2B', '3B', 5, 1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (93, 1); --Citrine
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (93, 641); --Surefoot
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (93, 352); --Surefoot
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (93, 497); --Punch, punch, punch!
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (93, 317); --Finisher, The
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (93, 524); --Ringside Canteen
@@ -3706,7 +3709,7 @@ insert into Characters (CardIndex) VALUES (179);
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 94, 'Feminine', 'Small', 'Human', 6, 3, '3B', '2R', '2B', '3B', 5, 1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (94, 1); --Citrine
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (94, 639); --Student
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (94, 350); --Student
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (94, 563); --Siren's Call
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (94, 519); --Restrict Pursuit
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (94, 621); --Take a Hint
@@ -3726,7 +3729,7 @@ insert into Characters (CardIndex) VALUES (180);
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 95, 'Feminine', 'Small', 'Human', 6, 3, '2B', '1B', '3B', '3B', 5, 2);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (95, 1); --Citrine
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (95, 639); --Student
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (95, 350); --Student
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (95, 240); --Confectionary Clairvoyance
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (95, 228); --Chocolate Confession
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (95, 241); --Confetti Sprinkle
@@ -3747,7 +3750,7 @@ insert into Characters (CardIndex) VALUES (181);
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 96, 'Feminine', 'Small', 'Human', 6, 3, '2B', '2B', '2R', '2R', 5, 1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (96, 4); --Ruby
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (96, 624); --Sidestep
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (96, 335); --Sidestep
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (96, 466); --Pachi-Pachi-Pachi
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (96, 279); --Distracting Costume
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (96, 455); --Ninja Pop
@@ -3768,9 +3771,9 @@ insert into Characters (CardIndex) VALUES (182);
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 97, 'Either', 'Small', 'Shapeshift', 5, 3, '1B', '0ST', '2B', '3B', 5, 1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (97, 2); --Emerald
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (97, 516); --Fixed Form
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (97, 626); --Small
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (97, 627); --Smooches
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (97, 227); --Fixed Form
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (97, 337); --Small
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (97, 338); --Smooches
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (97, 598); --Sticky Tongue
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (97, 4, 2); --Dexterity
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (97, 2); --Armor
@@ -3789,7 +3792,7 @@ insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, 
 98, 'Either', 'Small', 'Troll', 6, 3, '1B1R', '2R', '3B', '2B', 5, 2);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (98, 4); --Ruby
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (98, 5); --Sapphire
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (98, 648); --Tough
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (98, 359); --Tough
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (98, 462); --Outcast Pyre
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (98, 160); --Ancestral Will
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (98, 587); --Spirit Burn
@@ -3810,9 +3813,9 @@ insert into Characters (CardIndex) VALUES (184);
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 99, 'Feminine', 'Small', 'Nether Elf', 6, 3, '1B1R', '3B', '3B', '2R', 5, 1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (99, 2); --Emerald
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (99, 589); --Poison
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (99, 641); --Surefoot
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (99, 637); --Stealth
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (99, 299); --Poison
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (99, 352); --Surefoot
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (99, 348); --Stealth
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (99, 380); --Hex Bolt
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (99, 449); --Nether Ash
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (99, 1, 1); --Strength
@@ -3831,8 +3834,8 @@ insert into Characters (CardIndex) VALUES (185);
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 100, 'Masculine', 'Small', 'Kitsune', 7, 3, '3B', '2B', '1B1R', '2B1R', 4, 2);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (100, 2); --Emerald
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (100, 624); --Sidestep
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (100, 626); --Small
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (100, 335); --Sidestep
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (100, 337); --Small
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (100, 332); --Flying Fur
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (100, 609); --Super Shuriken
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (100, 321); --Fizzy Beverage
@@ -3853,8 +3856,8 @@ insert into Characters (CardIndex) VALUES (186);
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 101, 'Masculine', 'Small', 'Kitsune', 7, 3, '3B', '2B', '1B1R', '2B1R', 4, 2);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (101, 2); --Emerald
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (101, 624); --Sidestep
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (101, 626); --Small
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (101, 335); --Sidestep
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (101, 337); --Small
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (101, 332); --Flying Fur
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (101, 609); --Super Shuriken
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (101, 321); --Fizzy Beverage
@@ -3875,7 +3878,7 @@ insert into Characters (CardIndex) VALUES (187);
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 102, 'Feminine', 'Small', 'Freyjan', 7, 3, '3B', '2B', '1B1R', '2R', 5, 1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (102, 2); --Emerald
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (102, 456); --9 Lives
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (102, 167); --9 Lives
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (102, 623); --Teeth & Fur
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (102, 500); --Purrrrr
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (102, 242); --Coolmint Kitty Bomb
@@ -3914,7 +3917,7 @@ insert into Characters (CardIndex) VALUES (189);
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 104, 'Feminine', 'Small', 'Demon', 7, 3, '1B1R', '1B', '2R', '2R', 5, 1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (104, 3); --Ruby
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (104, 518); --Fly
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (104, 229); --Fly
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (104, 203); --Breathtaking Kiss
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (104, 237); --Come Hither
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (104, 157); --Alluring Perfume
@@ -3992,8 +3995,8 @@ insert into Characters (CardIndex) VALUES (193);
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 108, 'Feminine', 'Small', 'Human', 6, 3, '2B', '2B', '3B', '2B1R', 5, 1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (108, 2); --Emerald
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (108, 518); --Healer
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (108, 518); --Sidestep
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (108, 249); --Healer
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (108, 335); --Sidestep
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (108, 429); --Maiden's Favor
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (108, 431); --Maiden's Token
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (108, 430); --Maiden's Kiss
@@ -4053,8 +4056,8 @@ insert into Characters (CardIndex) VALUES (196);
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 111, 'Feminine', 'Small', 'Demon', 7, 3, '3B', '2B', '1B1R', '2R', 5, 1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (111, 2); --Emerald
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (111, 570); --Luck
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (111, 637); --Stealth
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (111, 280); --Luck
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (111, 348); --Stealth
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (111, 173); --Backstab
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (111, 178); --Bamf!
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (111, 273); --Dimensional Draught
@@ -4074,7 +4077,7 @@ insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, 
 112, 'Masculine', 'Small', 'Human', 6, 3, '2R', '2B1R', '3B', '2B', 5, 1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (112, 2); --Citrine
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (112, 4); --Sapphire
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (112, 545); --Holy
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (112, 256); --Holy
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (112, 565); --Smite
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (112, 406); --Iron Halo
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (112, 511); --Elixir
@@ -4094,7 +4097,7 @@ insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, 
 113, 'Masculine', 'Small', 'Human', 6, 3, '3B', '3B', '1B1R', '2B', 5, 1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (113, 2); --Citrine
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (113, 4); --Sapphire
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (113, 648); --Tough
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (113, 359); --Tough
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (113, 247); --Crossbow
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (113, 166); --Arrest Warrant
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (113, 622); --Tax Collector
@@ -4115,8 +4118,8 @@ insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, 
 114, 'Neither', 'Small', 'Human', 6, 3, '2B1R', '2B', '2R', '1B', 5, 1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (114, 2); --Citrine
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (114, 3); --Ruby
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (114, 515); --Fixable
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (114, 517); --Flammable
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (114, 226); --Fixable
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (114, 228); --Flammable
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (114, 370); --Harvest Scythe
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (114, 213); --Bumper Crop
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (114, 493); --Pumpkin Bomb
@@ -4136,8 +4139,8 @@ insert into Characters (CardIndex) VALUES (200);
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 115, 'Masculine', 'Small', 'Human', 5, 3, '3B', '2B1R', '3B', '2B', 6, 1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (115, 4); --Sapphire
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (115, 545); --Holy
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (115, 554); --Immune: Knockdown
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (115, 256); --Holy
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (115, 265); --Immune: Knockdown
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (115, 549); --Shattered Sword
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (115, 582); --Spearhead
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (115, 527); --Rook
@@ -4175,8 +4178,8 @@ insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, 
 117, 'Feminine', 'Small', 'Human', 6, 3, '2R', '3B', '2R', '2B', 5, 2);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (117, 3); --Ruby
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (117, 4); --Sapphire
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (117, 538); --Healer
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (117, 545); --Holy
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (117, 249); --Healer
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (117, 256); --Holy
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (117, 411); --Judgement
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (117, 499); --Purification
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (117, 302); --Elixir of Light
@@ -4195,8 +4198,8 @@ insert into Characters (CardIndex) VALUES (203);
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 118, 'Feminine', 'Small', 'Human', 6, 3, '2B', '3B', '2R', '1B1R', 5, 3);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (118, 3); --Ruby
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (118, 487); --Cola
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (118, 570); --Luck
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (118, 198); --Cola
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (118, 281); --Luck
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (118, 658); --Vending Machine
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (118, 574); --Soothing Soda
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (118, 607); --Sugar Rush
@@ -4216,7 +4219,7 @@ insert into Characters (CardIndex) VALUES (204);
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 119, 'Masculine', 'Small', 'Dwarf', 6, 3, '2B1R', '3B', '3B', '2B', 6, 1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (119, 1); --Citrine
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (119, 554); --Immune: Knockdown
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (119, 265); --Immune: Knockdown
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (119, 171); --Astral Hammer
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (119, 491); --POW!
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (119, 595); --Star Shine
@@ -4236,7 +4239,7 @@ insert into Characters (CardIndex) VALUES (205);
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 120, 'Feminine', 'Small', 'Human', 6, 3, '3B', '2R', '2B', '3B', 5, 2);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (120, 4); --Sapphire
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (120, 648); --Tough
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (120, 359); --Tough
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (120, 526); --Rolling Pin
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (120, 346); --Frying Pan
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (120, 376); --Hearty Grog
@@ -4255,7 +4258,7 @@ insert into Characters (CardIndex) VALUES (206);
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 121, 'Feminine', 'Small', 'Freyjan', 6, 3, '3B', '2R', '2B', '3B', 5, 2);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (121, 3); --Ruby
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (121, 456); --9 Lives
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (121, 167); --9 Lives
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (121, 498); --Puddle Jump
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (121, 517); --Refreshing Rain
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (121, 662); --Volcanic Spring
@@ -4277,7 +4280,7 @@ insert into Characters (CardIndex) VALUES (207);
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 122, 'Feminine', 'Large', 'Centaur', 8, 3, '2B1R', '3B', '3B', '2B', 5, 1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (122, 1); --Citrine
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (122, 641); --Surefoot
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (122, 352); --Surefoot
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (122, 420); --Lightning Charge
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (122, 638); --Trample
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (122, 278); --Distilled Stampede
@@ -4296,7 +4299,7 @@ insert into Characters (CardIndex) VALUES (208);
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 123, 'Feminine', 'Small', 'Human', 6, 3, '1B1R', '2B', '3B', '3B', 5, 1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (123, 2); --Emerald
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (123, 510); --Feint
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (123, 222); --Feint
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (123, 477); --Piercing Blade
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (123, 359); --Gloom Shatter
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (123, 417); --Lamplight
@@ -4317,8 +4320,8 @@ insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, 
 124, 'Either', 'Large', 'Shapeshift', 8, 3, '2B1R', '1B1R', '2B', '3B', 5, 2);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (124, 1); --Citrine
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (124, 2); --Emerald
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (124, 648); --Tough
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (124, 621); --Shapeshift: Von Wilding
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (124, 359); --Tough
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (124, 332); --Shapeshift: Von Wilding
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (124, 548); --Shag Fest
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (124, 425); --Lycanthropy
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (124, 1, 2); --Strength
@@ -4337,8 +4340,8 @@ insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, 
 125, 'Either', 'Small', 'Human', 6, 3, '2R', '3B', '3B', '3B', 5, 2);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (125, 1); --Citrine
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (125, 2); --Emerald
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (125, 592); --Potion Master
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (125, 620); --Shapeshift: Von Wilder
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (125, 303); --Potion Master
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (125, 331); --Shapeshift: Von Wilder
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (125, 578); --Soul Whip
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (125, 244); --Crack the Whip
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (125, 388); --Holy Water
@@ -4359,7 +4362,7 @@ insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, 
 126, 'Masculine', 'Small', 'Elf', 7, 3, '1R1B', '2B', '3B', '2R', 5, 1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (126, 1); --Citrine
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (126, 2); --Emerald
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (126, 510); --Feint
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (126, 221); --Feint
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (126, 410); --Jaunty Tune
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (126, 424); --Lullaby
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (126, 492); --Powdered Power Chord
@@ -4378,7 +4381,7 @@ insert into Characters (CardIndex) VALUES (212);
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 127, 'Either', 'Small', 'Kobold', 7, 3, '3B', '2B1R', '1B1R', '1B1R', 5, 1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (127, 4); --Sapphire
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (127, 554); --Immune: Knockdown
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (127, 265); --Immune: Knockdown
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (127, 218); --Burning Blade
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (127, 382); --Hightower
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (127, 490); --Portcullis Potion
@@ -4397,7 +4400,7 @@ insert into Characters (CardIndex) VALUES (213);
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 128, 'Either', 'Small', 'Kobold', 8, 3, '2B1R', '2R', '1B1R', '1B1R', 6, 1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (128, 1); --Citrine
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (128, 641); --Surefoot
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (128, 352); --Surefoot
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (128, 461); --Onslaught
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (128, 229); --Chomp!  Crunch!
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (128, 287); --Dragon Dung Confetti
@@ -4416,7 +4419,7 @@ insert into Characters (CardIndex) VALUES (214);
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 129, 'Either', 'Small', 'Kobold', 8, 3, '2B1R', '2R', '1B1R', '1B1R', 6, 1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (129, 1); --Citrine
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (129, 641); --Surefoot
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (129, 352); --Surefoot
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (129, 461); --Onslaught
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (129, 229); --Chomp!  Crunch!
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (129, 288); --Dragon Dung Confetti
@@ -4441,8 +4444,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Pet', 'FK', 'FK Core Set', 'Default', 
 'Who''s a good kitty?');
 insert into Characters (CardIndex) VALUES (215);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (130, 626); --Small
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (130, 572); --Master Gains Happy Cat
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (130, 337); --Small
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (130, 283); --Master Gains Happy Cat
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (130, 366); --Happy Cat
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (130, 'Either', 'Small', 'Wonder', 7, 1, '3B', '2ST', '', '', 0, 0);
@@ -4458,7 +4461,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Pet', 'FK', 'FK Core Set', 'Default', 
 'I didn''t get a harumph out of that guy.');
 insert into Characters (CardIndex) VALUES (216);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (131, 626); --Small
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (131, 337); --Small
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (131, 618); --Tactical Strike
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (131, 'Either', 'Small', 'Wonder', 6, 1, '2R', '3B', '', '', 0, 0);
@@ -4474,8 +4477,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Pet', 'FK', 'FK Core Set', 'Default', 
 'Harumph.');
 insert into Characters (CardIndex) VALUES (217);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (132, 626); --Small
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (132, 573); --Master Gains Knockdown
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (132, 337); --Small
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (132, 284); --Master Gains Knockdown
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (132, 364); --Grump
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (132, 'Masculine', 'Small', 'Wonder', 6, 1, '3B', '3ST', '', '', 0, 0);
@@ -4491,8 +4494,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Pet', 'FK', 'FK Core Set', 'Default', 
 'My ears!');
 insert into Characters (CardIndex) VALUES (218);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (133, 626); --Small
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (133, 574); --Master Gains Soprano
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (133, 337); --Small
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (133, 285); --Master Gains Soprano
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (133, 575); --Soprano
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (133, 'Feminine', 'Small', 'Wonder', 6, 1, '1B1R', '3ST', '', '', 0, 0);
@@ -4508,8 +4511,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Pet', 'FK', 'FK Core Set', 'Default', 
 'Stinktashtic!');
 insert into Characters (CardIndex) VALUES (219);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (134, 626); --Small
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (134, 575); --Master Gains Poison
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (134, 337); --Small
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (134, 286); --Master Gains Poison
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (134, 599); --Stink Beard Bark
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (134, 'Feminine', 'Small', 'Wonder', 6, 1, '3B', '2ST', '', '', 0, 0);
@@ -4525,8 +4528,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Pet', 'FK', 'FK Core Set', 'Default', 
 'Poof.');
 insert into Characters (CardIndex) VALUES (220);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (135, 626); --Small
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (135, 576); --Master Gains Fire
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (135, 337); --Small
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (135, 287); --Master Gains Fire
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (135, 489); --Poof
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (135, 'Masculine', 'Small', 'Wonder', 6, 1, '2R', '2ST', '', '', 0, 0);
@@ -4542,8 +4545,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Pet', 'FK', 'FK Core Set', 'Default', 
 'Ouch!  He bit me!');
 insert into Characters (CardIndex) VALUES (221);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (136, 626); --Small
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (136, 577); --Master Gains Berserk
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (136, 337); --Small
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (136, 288); --Master Gains Berserk
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (136, 531); --Rotten Carrot
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (136, 'Masculine', 'Small', 'Wonder', 6, 2, '2R', '2ST', '', '', 0, 0);
@@ -4559,8 +4562,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Pet', 'FK', 'FK Core Set', 'Default', 
 'I''m positive it''s that way.');
 insert into Characters (CardIndex) VALUES (222);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (137, 626); --Small
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (137, 577); --Master Gains Berserk
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (137, 337); --Small
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (137, 289); --Master Gains Luck
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (137, 531); --Rotten Carrot
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (137, 'Masculine', 'Small', 'Wonder', 6, 2, '2R', '2ST', '', '', 0, 0);
@@ -4577,8 +4580,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Boo booty are the unfortunate creation of gnomish tinkering, paired with dwarven greed.  Originally intended to guard the treasure vaults of the Hearthsworn Dwarves, the spirit of the Dark Consul filled the constructs with a malevolent intellect.  Turning upon their former masters, boo booty rabildly guard their treasure from all who would seek to claim it.');
 insert into Characters (CardIndex) VALUES (223);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (138, 1); --Citrine
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (138, 465); --Backlash
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (138, 656); --Boo Booty
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (138, 177); --Backlash
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (138, 367); --Boo Booty
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (138, 'Neither', 'Small', 'Boo Booty', 6, 1, '2R', '3B', '2B', '3B', 2, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (138, 1, 1);
@@ -4594,8 +4597,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'While the original function of boo booty are to guard their treasure, Booty Grinders have the unfortunate tendency to devour it instead.  Once a Booty Grinder has caught the scent of shining steel, lustrous gold, or sparkling gems it will doggedly pursue any who carry them like a ravenous hound.');
 insert into Characters (CardIndex) VALUES (224);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (139, 3); --Ruby
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (139, 656); --Boo Booty
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (139, 363); --Grind It
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (139, 367); --Boo Booty
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (139, 363); --Grind
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (139, 'Neither', 'Small', 'Boo Booty', 6, 1, '3B', '1ST', '3B', '1B', 2, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (139, 1, 1);
@@ -4611,7 +4614,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'While the original function of boo booty are to guard their treasure, Booty Grinders have the unfortunate tendency to devour it instead.  Once a Booty Grinder has caught the scent of shining steel, lustrous gold, or sparkling gems it will doggedly pursue any who carry them like a ravenous hound.');
 insert into Characters (CardIndex) VALUES (225);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (140, 2); --Emerald
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (140, 656); --Boo Booty
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (140, 367); --Boo Booty
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (140, 353); --Surge
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (140, 198); --Bounce It
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (140, 'Neither', 'Small', 'Boo Booty', 6, 2, '3B', '0ST', '1B', '2R', 2, 0);
@@ -4663,8 +4667,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Citrine Slimes are not very good conversationalists.  They are, however, exceptional at oozing and stinking of sulfur--mainly the stinking part.  One splash or casual ooze-to-skin contact will doom a Hero to smelling bad for the rest of their days.  While this is fine if you are Citrine Slime yourself, it is rarely appropriate for polite company.');
 insert into Characters (CardIndex) VALUES (226);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (141, 1); --Citrine
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (141, 559); --Insignificant
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (141, 626); --Small
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (141, 270); --Insignificant
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (141, 337); --Small
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (141, 234); --Citrine Goop
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (141, 'Neither', 'Small', 'Slime', 5, 1, '2B', '0ST', '1B', '1B', 1, 0);
@@ -4681,8 +4685,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Remarkably congenial, Emerald Slimes are giggling chatterboxes.  Regaling Heroes with grand tales of "glorp--glug--splurr--slorp," "blurb--grupple--glog--blarr," and the classic, "bloob--blub--blablablup."  Granted, there are direct translations, so no Hero actually knows what they are saying, but they seem friendly enough.');
 insert into Characters (CardIndex) VALUES (227);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (142, 2); --Emerald
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (142, 559); --Insignificant
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (142, 626); --Small
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (142, 270); --Insignificant
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (142, 337); --Small
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (142, 303); --Emerald Glop
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (142, 'Neither', 'Small', 'Slime', 5, 1, '2B', '0ST', '1B', '1B', 1, 0);
@@ -4699,8 +4703,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Boo!  Boooooo!  BOOOOOOO!');
 insert into Characters (CardIndex) VALUES (228);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (143, 4); --Ruby
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (143, 522); --Ghost
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (143, 612); --Shallow Grave
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (143, 233); --Ghost
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (143, 323); --Shallow Grave
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (143, 309); --Extra Scared
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (143, 'Either', 'Small', 'Undead Ghost', 5, 1, '0ST', '0ST', '2B', '3B', 1, 0);
@@ -4717,8 +4721,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Giri are capricious faeries, even when not under the influence of the Dark Consul.  Lovers of cultivated crops, Giri travel throughout Crystalia in large swarms, seeking farmsteads with delicious greens to devour.  Farmers who make offerings to the Giri are blessed with a bumper crop.  Those who do not see their fields consumed as though struck by a plague of locusts.');
 insert into Characters (CardIndex) VALUES (229);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (144, 1); --Citrine
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (144, 559); --Insignificant
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (144, 580); --Mob
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (144, 270); --Insignificant
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (144, 291); --Mob
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (144, 451); --New Crop
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (144, 'Either', 'Small', 'Faerie', 5, 1, '2B', '0ST', '3B', '2B', 1, 0);
@@ -4735,8 +4739,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Driven mad by their curse, Rabid Squirrels attack in packs, swarming over unsuspecting Heroes, biting and chittering with insane glee.');
 insert into Characters (CardIndex) VALUES (230);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (145, 1); --Citrine
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (145, 559); --Insignificant
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (145, 626); --Small
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (145, 270); --Insignificant
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (145, 337); --Small
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (145, 451); --In Your Pants
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (145, 'Either', 'Small', 'Chimera', 7, 1, '1B', '0ST', '1B', '2R', 1, 0);
@@ -4753,8 +4757,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Rattlebones are the plague of the moorlands and the favorite party trick of up--and--coming necromancers.  Easy to raise, easy to destroy, easy to raise again.  They are an unceasing nuisance to even the most powerful to Heroes.');
 insert into Characters (CardIndex) VALUES (231);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (146, 1); --Citrine
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (146, 559); --Insignificant
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (146, 580); --Mob
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (146, 270); --Insignificant
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (146, 291); --Mob
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (146, 'Either', 'Small', 'Undead Skeleton', 6, 1, '2B', '0ST', '1B', '1B', 1, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (146, 1, 1);
@@ -4770,8 +4774,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Far more cranky than they have any right to be, Ruby Slime are incessant complainers.  Given to long, obnoxious bouts of melodramatic sighing and irritated grumbling, many get along very well with dwarves.  Such alliances rarely last long.  Inevitably the Ruby Slime will decide the dwarf owes him some shiny trinket and demand it with a rude and indignant gooing--which is enough to ruin any friendship.');
 insert into Characters (CardIndex) VALUES (232);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (147, 2); --Ruby
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (147, 559); --Insignificant
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (147, 626); --Small
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (147, 270); --Insignificant
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (147, 337); --Small
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (147, 303); --Ruby Goo
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (147, 'Neither', 'Small', 'Slime', 5, 1, '2B', '0ST', '1B', '1B', 1, 0);
@@ -4788,8 +4792,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Something is not quite right with Sapphire Slimes.  Even for a slime they are somewhat peculiar and odd.  Given to drooling and then slurping it up noisily, many Heroes find themselves uncomfortable around Sapphire Slimes.  Accordingly, they are not invited to many dinner parties.');
 insert into Characters (CardIndex) VALUES (233);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (148, 4); --Sapphire
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (148, 559); --Insignificant
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (148, 626); --Small
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (148, 270); --Insignificant
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (148, 337); --Small
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (148, 534); --Sapphire Gloop
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (148, 'Neither', 'Small', 'Slime', 5, 1, '2B', '0ST', '1B', '1B', 1, 0);
@@ -4806,9 +4810,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'When human, Boris was a large and gentle lad.  During The Forgotten King''s rebellion Boris lept at the chance to prove himself to his noble lord, only to quickly turn timid and fearful when faced with the reality of war.');
 insert into Characters (CardIndex) VALUES (234);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (149, 1); --Citrine
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (149, 473); --Berserk
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (149, 554); --Immune: Knockdown
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (149, 587); --Pile-On
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (149, 184); --Berserk
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (149, 265); --Immune: Knockdown
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (149, 297); --Pile-On
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (149, 614); --Sweeping Mace
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (149, 405); --Introspection
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
@@ -4826,9 +4830,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'When human, Boris was a large and gentle lad.  During The Forgotten King''s rebellion Boris lept at the chance to prove himself to his noble lord, only to quickly turn timid and fearful when faced with the reality of war.');
 insert into Characters (CardIndex) VALUES (235);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (150, 1); --Citrine
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (150, 473); --Berserk
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (150, 554); --Immune: Knockdown
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (150, 587); --Pile-On
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (150, 184); --Berserk
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (150, 265); --Immune: Knockdown
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (150, 296); --Pile-On
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (150, 613); --Sweeping Mace
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (150, 296); --Earthshaker
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
@@ -4847,7 +4851,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (236);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (151, 1); --Citrine
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (151, 3); --Ruby
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (151, 544); --Hoard
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (151, 255); --Hoard
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (151, 329); --Flintlock
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (151, 415); --Kraken
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (151, 684); --'X' Marks the Spot
@@ -4866,8 +4870,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 '');
 insert into Characters (CardIndex) VALUES (237);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (152, 1); --Citrine
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (152, 456); --9 Lives
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (152, 473); --Berserk
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (152, 167); --9 Lives
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (152, 184); --Berserk
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (152, 623); --Teeth & Fur
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (152, 226); --Chaos Fuzz
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (152, 175); --Bad Kitty
@@ -4887,8 +4891,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Death comes to us all, but within the shrouded mists and fog of Glauerdoom Moor death is all too common.  Death Spectres are perversions of the spirits of death who guide the deceased to their final resting place.  Driven by a need to cause death beyond that prescribed by nature, Death Spectres are vile reapers that thrive on suffering.');
 insert into Characters (CardIndex) VALUES (238);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (153, 3); --Ruby
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (153, 554); --Immune: Knockdown
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (153, 522); --Ghost
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (153, 265); --Immune: Knockdown
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (153, 233); --Ghost
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (153, 418); --Lifesap
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (153, 576); --Soul Scythe
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (153, 583); --Spectre
@@ -4907,8 +4911,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'The Harvest Festival is upon the fair citizens of Crystalia, and the Fae Alchemist has eaten too many toadstools.  Now, turned to vile villainy, she must be stopped before crafting her cruel concoctions!');
 insert into Characters (CardIndex) VALUES (239);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (154, 3); --Ruby
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (154, 457); --Alchemy
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (154, 592); --Potion Master
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (154, 168); --Alchemy
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (154, 303); --Potion Master
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (154, 661); --Vile Concoction
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (154, 413); --Kobold's Tears
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (154, 236); --Coagulated Mixture
@@ -4928,9 +4932,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'The Emerald Dragon, Glimmerwing, is reclusive by even dragon standards.  Sharing kinship with the faerie of the Fae Wood, she wraps her Emerald Valley in concealing glamors and deceptive illusions to keep over-enthusiastic Heroes from discovering her sanctuary.');
 insert into Characters (CardIndex) VALUES (240);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (155, 3); --Ruby
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (155, 550); --Immune: Bane
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (155, 552); --Immune: Hex
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (155, 518); --Fly
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (155, 261); --Immune: Bane
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (155, 263); --Immune: Hex
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (155, 229); --Fly
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (155, 201); --Breath of Dream
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (155, 660); --Verdant Maze
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (155, 311); --Fae Curse
@@ -4950,10 +4954,10 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Part zombie, part construct, Gruesome George is the particularly fiendish invention of a gnome Shamble Priest pushed past the edge of sanity.  Fueled by both necromantic energy and arcane electricity, George grows stronger as the battle intensifies, gaining strength from his own motion and the damage inflicted upon him.');
 insert into Characters (CardIndex) VALUES (241);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (156, 4); --Sapphire
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (156, 557); --Immune: Status Effects
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (156, 580); --Mob
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (156, 635); --Static Charge
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (156, 648); --Tough
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (156, 268); --Immune: Status Effects
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (156, 291); --Mob
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (156, 346); --Static Charge
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (156, 359); --Tough
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (156, 596); --Static Discharge
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (156, 207); --Brilliant
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (156, 298); --Electric Jolt
@@ -4973,7 +4977,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (242);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (157, 1); --Citrine
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (157, 4); --Sapphire
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (157, 551); --Immune: Fire
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (157, 262); --Immune: Fire
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (157, 325); --Flaming Javelin
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (157, 550); --Shield Bash
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (157, 472); --Phalanx
@@ -4993,7 +4997,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 '');
 insert into Characters (CardIndex) VALUES (243);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (158, 4); --Sapphire
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (158, 492); --Crystal Heart
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (158, 203); --Crystal Heart
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (158, 551); --Shield Wall
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (158, 616); --Sword Toss
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (158, 368); --Hard Hit
@@ -5013,7 +5017,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (244);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (159, 1); --Citrine
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (159, 3); --Ruby
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (159, 517); --Flammable
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (159, 228); --Flammable
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (159, 370); --Harvest Scythe
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (159, 213); --Bumper Crop
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (159, 533); --Run Birdy
@@ -5026,16 +5030,16 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (159
 
 --Kaelly the Nether Strider --CardIndex 245	--CharacterIndex 160	--ExploreCharacterIndex 160
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Kaelly the Nether Strider',
-'http://htkb.info/SDE/FK/Cards/MiniBosses/Card_MiniBoss_Kaelly_The_Nether_Strider_FK.png', 
-'http://htkb.info/SDE/FK/Cards/MiniBosses/Card_MiniBoss_Kaelly_The_Nether_Strider_FK_back.png', 
-'http://htkb.online/SDWiki/SDE/FK/Explore/Cards/MiniBosses/Kaelly_The_Nether_Strider.xhtml', 
+'http://htkb.info/SDE/FK/Cards/MiniBosses/Card_MiniBoss_Kaelly_the_Nether_Strider_FK.png', 
+'http://htkb.info/SDE/FK/Cards/MiniBosses/Card_MiniBoss_Kaelly_the_Nether_Strider_FK_back.png', 
+'http://htkb.online/SDWiki/SDE/FK/Explore/Cards/MiniBosses/Kaelly_the_Nether_Strider.xhtml', 
 'MiniBoss', 'FK', 'FK Core Set', 'Explore',
-'Corrupted by the Dark Consul''s malevolent influence, the Nther Striders are his favored instruments of terror.  Wrapped in swirling darkness they are expert assassins, claiming the lives of generals, kings, and Heroes alike.');
+'Corrupted by the Dark Consul''s malevolent influence, the Nether Striders are his favored instruments of terror.  Wrapped in swirling darkness they are expert assassins, claiming the lives of generals, kings, and Heroes alike.');
 insert into Characters (CardIndex) VALUES (245);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (160, 2); --Emerald
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (160, 589); --Poison
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (160, 641); --Surefoot
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (160, 637); --Stealth
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (160, 300); --Poison
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (160, 352); --Surefoot
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (160, 348); --Stealth
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (160, 380); --Hex Bolt
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (160, 254); --Dark Aura
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
@@ -5056,7 +5060,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (246);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (161, 1); --Citrine
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (161, 4); --Sapphire
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (161, 648); --Tough
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (161, 359); --Tough
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (161, 535); --Serpent Coil
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (161, 685); --Zealotry
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (161, 569); --Snare
@@ -5076,8 +5080,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'The ninja clans care little for the wars between the Goddess''s children and the Dark Realm.  So long as there is profit and a suitable test of skill, the clans are willing to accept any job.  Not fond of fighting Heroes, Candy never strikes a killing blow.  Instead she treats her battles with Heroes as a challenge to further both her, and her adversaries'', expertise.');
 insert into Characters (CardIndex) VALUES (247);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (162, 3); --Ruby
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (162, 624); --Sidestep
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (162, 637); --Stealth
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (162, 335); --Sidestep
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (162, 348); --Stealth
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (162, 466); --Pachi-Pachi-Pachi
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (162, 453); --Ninja Assassin
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (162, 279); --Distracting Costume
@@ -5098,8 +5102,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Cola fights Heroes with his face a mask of stoic determination.  It is no secret the kitsune holds delicious Soda Pop Potions in the highest esteem.  Perhaps his zeal in fighting Heroes stems from potion envy, since he is not allowed to have any when working for the less savory elements of Crystalia.');
 insert into Characters (CardIndex) VALUES (248);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (163, 2); --Emerald
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (163, 624); --Sidestep
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (163, 626); --Small
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (163, 335); --Sidestep
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (163, 337); --Small
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (163, 332); --Flying Fur
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (163, 610); --Super Shuriken
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (163, 343); --Frosty Soda Bomb
@@ -5121,7 +5125,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (249);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (164, 1); --Citrine
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (164, 3); --Ruby
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (164, 503); --Elemental Affinity
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (164, 214); --Elemental Affinity
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (164, 274); --Disaster
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (164, 270); --Devour
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (164, 267); --Deceive
@@ -5140,7 +5144,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Rex has collected more than a few new friends since going to work in the Consul''s dungeons.  Most are unwary adventurers not quite quick enough to get out of the reach of his enthusiastic hugs.');
 insert into Characters (CardIndex) VALUES (250);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (165, 1); --Citrine
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (165, 580); --Mob
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (165, 291); --Mob
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (165, 627); --Thwomp
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (165, 520); --Rex Cuddle
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (165, 522); --Rex Smash
@@ -5159,9 +5163,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Rock Gut loves rock.  Rock Gut would marry rock if he could.  Sometime Rock Gut talks to rock.  He finds rock very understanding and a good listener.  Mainly Rock Gut eats rock, digesting it in his fiery belly.  Unfortunately, to Rock Gut, everything is "rock".  Even if you''re really a squirming Hero.');
 insert into Characters (CardIndex) VALUES (251);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (166, 4); --Sapphire
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (166, 512); --Fire
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (166, 551); --Immune: Fire
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (166, 648); --Tough
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (166, 223); --Fire
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (166, 262); --Immune: Fire
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (166, 359); --Tough
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (166, 215); --Burning Bile
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (166, 314); --Feast
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
@@ -5180,8 +5184,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (252);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (167, 1); --Citrine
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (167, 4); --Sapphire
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (167, 557); --Immune: Status Effects
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (167, 518); --Fly
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (167, 268); --Immune: Status Effects
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (167, 229); --Fly
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (167, 608); --Summer
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (167, 679); --Winter
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (167, 232); --Circle of Salt
@@ -5200,8 +5204,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Ser Sharpclaw has distinguished himself among lesser kobolds for his savagery in battle.  Atop his Wayrmfang Drake, Ravage, he inspires all those around him to new levels of barbarity.  Many Heroes have fallen because they have been ill prepared to face the snarling, biting, stabbing mass of rabid kobolds that Ser Sharpclaw leads into battle.');
 insert into Characters (CardIndex) VALUES (253);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (168, 1); --Citrine
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (168, 641); --Surefoot
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (168, 609); --Savage
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (168, 352); --Surefoot
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (168, 320); --Savage
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (168, 461); --Onslaught
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (168, 229); --Chomp! Crunch!
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
@@ -5219,8 +5223,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Ser Snapjaw was the greatest Wyrm Claw Templar in an age.  So daring and grand were his exploits that he was granted special permission to found the Exemplars within the Wyrm Claw Templar Order.  Legendary among lesser kobolds they rally to Ser Snapjaw with zeal, his cunning leadership allowing them to fight with discipline that matches the mightiest armies.');
 insert into Characters (CardIndex) VALUES (254);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (169, 4); --Sapphire
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (169, 554); --Immune: Knockdown
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (169, 580); --Mob
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (169, 265); --Immune: Knockdown
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (169, 291); --Mob
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (169, 185); --Blazing Blade
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (169, 383); --Hightower
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (169, 514); --Rally Cry
@@ -5240,8 +5244,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (255);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (170, 1); --Citrine
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (170, 2); --Emerald
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (170, 557); --Immune: Status Effects
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (170, 495); --Dark Radiance
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (170, 268); --Immune: Status Effects
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (170, 206); --Dark Radiance
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (170, 256); --Dark Howling
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (170, 450); --Nether Soul
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (170, 543); --Shadow
@@ -5260,7 +5264,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'The Midnight Tower''s shadow stretches across the whole of Crystalia and is a bleak reminder of the Dark Consul''s strength and power.  Vandella represents a more subtle aspect of the Consul''s power, the power to corrupt and beguile.  She delights in tormenting her prey and sowing chaos within even the most steadfast Hero''s heart.');
 insert into Characters (CardIndex) VALUES (256);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (171, 3); --Ruby
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (171, 518); --Fly
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (171, 229); --Fly
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (171, 157); --Alluring
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (171, 204); --Breathtaking Kiss
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (171, 238); --Come Hither
@@ -5281,10 +5285,10 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Young by treant standards Trent was always a bad seed.  Rooted in the faery-haunted Mistmourn Coast, he was always cranky and inclined to distrust.  Even so, Trent was slow to anger as the mischievous fae lurking in the mists would tease and taunt him.<br>After several centuries the young treant could stand it no longer, uprooting and wreaking vengeance upon the playful fae.  Once his fury was unleashed it was as long-lived as the Fae Wood itself.  In the end, it was remarkably');
 insert into Characters (CardIndex) VALUES (257);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (172, 4); --Sapphire
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (172, 555); --Immune: Poison
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (172, 648); --Tough
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (172, 651); --Virulent
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (172, 657); --Vulnerable: Fire
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (172, 266); --Immune: Poison
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (172, 359); --Tough
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (172, 362); --Virulent
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (172, 368); --Vulnerable: Fire
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (172, 262); --Decay
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (172, 464); --Overgrowth
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (172, 656); --Uproot
@@ -5303,9 +5307,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Young by treant standards Trent was always a bad seed.  Rooted in the faery-haunted Mistmourn Coast, he was always cranky and inclined to distrust.  Even so, Trent was slow to anger as the mischievous fae lurking in the mists would tease and taunt him.<br>After several centuries the young treant could stand it no longer, uprooting and wreaking vengeance upon the playful fae.  Once his fury was unleashed it was as long-lived as the Fae Wood itself.  In the end, it was remarkably');
 insert into Characters (CardIndex) VALUES (258);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (173, 4); --Sapphire
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (173, 555); --Immune: Poison
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (173, 648); --Tough
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (173, 651); --Virulent
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (173, 266); --Immune: Poison
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (173, 359); --Tough
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (173, 362); --Virulent
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (173, 263); --Decay
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (173, 687); --Overgrowth
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (173, 656); --Uproot
@@ -5324,11 +5328,11 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'I have such a delicious potion for you to try.  It may string a little going down....');
 insert into Characters (CardIndex) VALUES (259);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (174, 3); --Ruby
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (174, 557); --Immune: Status Effects
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (174, 518); --Fly
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (174, 524); --Ghostmancer
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (174, 563); --Kitty Claws
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (174, 593); --Potion Stash
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (174, 268); --Immune: Status Effects
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (174, 229); --Fly
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (174, 235); --Ghostmancer
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (174, 274); --Kitty Claws
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (174, 304); --Potion Stash
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (174, 495); --Pumpkin Charge
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (174, 211); --Bubble & Boil
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (174, 252); --Curses!
@@ -5350,9 +5354,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (260);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (175, 1); --Citrine
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (175, 3); --Ruby
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (175, 555); --Immune: Poison
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (175, 547); --Hubris
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (175, 641); --Surefoot
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (175, 266); --Immune: Poison
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (175, 258); --Hubris
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (175, 352); --Surefoot
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (175, 602); --Stranglethorn
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (175, 503); --Primal Roar
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (175, 336); --Forestwalker
@@ -5374,11 +5378,11 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (261);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (176, 1); --Citrine
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (176, 3); --Ruby
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (176, 554); --Immune: Knockdown
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (176, 550); --Immune: Bane
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (176, 580); --Mob
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (176, 507); --Feed Me
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (176, 518); --Fly
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (176, 265); --Immune: Knockdown
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (176, 261); --Immune: Bane
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (176, 291); --Mob
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (176, 219); --Feed Me
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (176, 229); --Fly
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (176, 676); --Wind Spirit
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (176, 269); --Devour
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (176, 183); --Biting Gale
@@ -5399,9 +5403,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 '');
 insert into Characters (CardIndex) VALUES (262);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (177, 1); --Citrine
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (177, 512); --Fire
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (177, 551); --Immune: Fire
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (177, 644); --Tail Sweep
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (177, 223); --Fire
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (177, 262); --Immune: Fire
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (177, 355); --Tail Sweep
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (177, 401); --Inferno
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (177, 555); --Shooting Star
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (177, 290); --Dragon Horn
@@ -5422,9 +5426,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Those who meet the gaze of Von Drakk say it is like peering into the soul of a beast.  None realize how correct they are.  When in the full throes of bloodlust Von Drakk is overtaken by a hideous transformation; his new form ideally suited to bringing carnage and ruin to his foes.');
 insert into Characters (CardIndex) VALUES (263);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (178, 1); --Citrine
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (178, 473); --Berserk
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (178, 475); --Blood Drinker
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (178, 518); --Fly
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (178, 184); --Berserk
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (178, 186); --Blood Drinker
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (178, 229); --Fly
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (178, 260); --Dead Cold
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (178, 313); --Feast
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
@@ -5443,9 +5447,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Battling the Lord of the Fire Flows is like challenging a ragining volcano itself.  Roxor is a temperamental lord and when driven to anger assumes the form of a raging pyre of white hot flame.  In this form Roxor is unapproachable even by his most loyal of lieutenants.  Roaring with primordial rage he stalks through the stone halls of his domain, bathing the dungeon in flame and fury.');
 insert into Characters (CardIndex) VALUES (264);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (179, 1); --Citrine
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (179, 512); --Fire
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (179, 551); --Immune: Fire
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (179, 618); --Shapeshift: Rockin' Roxor
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (179, 223); --Fire
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (179, 262); --Immune: Fire
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (179, 329); --Shapeshift: Rockin' Roxor
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (179, 663); --Volcano
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (179, 443); --Molten Steel
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
@@ -5464,8 +5468,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Lord of the Fire Flows, Roxor, seeks to creat a molten paradise for his elemental brethren.  Harboring no empathy for the "soft" races he readily allies himself with the Dark Consul so long as  their goals coverge.');
 insert into Characters (CardIndex) VALUES (265);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (180, 4); --Sapphire
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (180, 557); --Immune: Status Effects
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (180, 617); --Shapeshift: Ragin' Roxor
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (180, 268); --Immune: Status Effects
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (180, 328); --Shapeshift: Ragin' Roxor
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (180, 441); --Minion Toss
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (180, 224); --Cave In
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
@@ -5484,9 +5488,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 '');
 insert into Characters (CardIndex) VALUES (266);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (181, 4); --Citrine
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (181, 557); --Immune: Fire
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (181, 617); --Hoard
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (181, 617); --Tail Sweep
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (181, 262); --Immune: Fire
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (181, 255); --Hoard
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (181, 355); --Tail Sweep
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (181, 441); --Inferno
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (181, 224); --Dragon Hoard
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
@@ -5506,8 +5510,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (267);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (182, 2); --Emerald
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (182, 3); --Ruby
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (182, 475); --Blood Drinker
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (182, 616); --Shapeshift: Nocturne
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (182, 186); --Blood Drinker
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (182, 327); --Shapeshift: Nocturne
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (182, 164); --Army of Bone
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (182, 352); --Ghastly Vigor
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (182, 625); --Thriller
@@ -5528,9 +5532,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Once the Bramble Knights were great Heores of Crystalia.  The statues erected in their honor were timeless memorials to the brave warriors who defended the kingdom and Fae Wood with their lives.<br>When the Forgotten King sought to challenge the rightful rule of Crystalia, the Bramble Knights sworn to him marched under his banner.  Bitter civil war raged througout the realm.  Only when the elves of the Fae Wood joined the fight were the Forgotten King''s forces finally stopped.<br>As punishment for their treachery the once gallant Bramble Knights shared the Forgotten King''s fate.  Cursed by their own treasonous lord they were transformed into chimera.  No longer human, nor beast, they became monsters and were banished to the Lordship Ruins.<br>Centuries later they still dwell within its crumbled halls, nurturing old hates, and plotting their reemergence under the Dark Consul''s banner.');
 insert into Characters (CardIndex) VALUES (268);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (183, 2); --Emerald
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (183, 557); --Immune: Status Effects
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (183, 478); --Bramble Growth
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (183, 660); --Spawning Pool
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (183, 268); --Immune: Status Effects
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (183, 189); --Bramble Growth
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (183, 371); --Spawning Pool
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (183, 'Neither', 'Small', 'Spawning Point', 0, 0, '', '1ST', '', '', 3, 0);
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (183, 2); --Armor
@@ -5546,7 +5550,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Billmen were not full-fledged Bramble Knights, but were instead part of the Forgotten King''s guard.  Nonetheless, they were held in high esteem for their courage and skill at arms.  Exemplary service within the Billmen made elevation to the rank of Bramble Knight all but assured.<br>During The Forgotten King''s uprising Billmen made up the primary bulk of his forces.  Most of these stalwart warriors marched to battle not knowing of their master''s treason.  They dutifully fought in the war believing their cause was just and in service to the Goddess.<br>For this reason the Billmen are often seen as the most tragic of figures, unwittingly serving a dark master and doomed to share his fate.');
 insert into Characters (CardIndex) VALUES (269);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (184, 2); --Emerald
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (184, 625); --Slow
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (184, 336); --Slow
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (184, 'Either', 'Small', 'Chimera', 6, 1, '3B', '1ST', '2B', '1B 1R', 1, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (184, 1, 2); --Strength
@@ -5563,7 +5567,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Mounted on battle-hardened Squawks, Frog Knights attempt to hold true to their former chivalrous past.  With great leaps they manuever through the battle to engage a worthy foe in single combat.  Win or lose, such a duel is their highest honor.');
 insert into Characters (CardIndex) VALUES (270);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (185, 2); --Emerald
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (185, 641); --Surefoot
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (185, 352); --Surefoot
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (185, 339); --Frogger
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (185, 612); --Supremely Skilled Shrieking Squawk Strike
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
@@ -5582,7 +5586,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'The Executioners are infamous foes to all the people of Crystalia.  Even before the curse that turned The Forgotten King and his followers into bestial chimera, the Bramble Knight Executioners were terrifying figures.  With powerful sweeps of their axes, they performed their grim duty with unsettling satisfaction.  Now, they employ their axes with unabandoned cruelty and cleave through Heroes with wicked delight.');
 insert into Characters (CardIndex) VALUES (271);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (186, 2); --Emerald
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (186, 571); --Massive Damage
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (186, 282); --Massive Damage
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (186, 'Either', 'Large', 'Chimera', 6, 2, '3B 1R', '1B 1R', '1B', '3B', 3, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (186, 1, 2); --Strength
@@ -5600,9 +5604,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'While the Cult of the Burning Star has its origins in the worship of the Ruby Dragon Starfire, similar cults have spread throughout Crystalia and encompass the worship of all the dragons.  Established by Dragon Priests to enforce order, while venerating the dragon which they serve, Claw Shrines are important locations within any kobold warren.<br>At the shrine, revered drake hatchlings are bonded with worthy kobolds to form vicious draconic packs that patrol the kobold''s territory.  Ironscales who have proved themselves in battle are elevated to the rank of Templar--provided they can survive the ordeal of breaking a deadly Wyrmfang Raptor to be their mount.  Most terrifying of all are the sinister Black Claw Assassins.  Anointed by the Dragon Priests as the divine retirbution of the dragon, they bring their masters wrath, and swift death, to all who would betray the cult.');
 insert into Characters (CardIndex) VALUES (272);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (187, 1); --Citrine
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (187, 557); --Immune: Status Effects
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (187, 478); --Dragon Blessing
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (187, 662); --Spawning Pool
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (187, 268); --Immune: Status Effects
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (187, 211); --Dragon Blessing
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (187, 373); --Spawning Pool
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (187, 'Neither', 'Small', 'Spawning Point', 0, 0, '', '1ST', '', '', 4, 0);
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (187, 2); --Armor
@@ -5618,9 +5622,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Not being the mightiest of warriors, kobolds are often forced to rely on sheer numbers to bring down their foes.  Lurking within the seething mobs of kobolds, the villainous Black Claw Assassins wait patiently for the opportune moment to strike.');
 insert into Characters (CardIndex) VALUES (273);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (188, 2); --Emerald
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (188, 580); --Mob
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (188, 637); --Stealth
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (188, 468); --Backstabber
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (188, 291); --Mob
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (188, 348); --Stealth
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (188, 179); --Backstabber
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (188, 169); --Assassinate
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (188, 'Either', 'Small', 'Kobold', 7, 2, '2R', '0ST', '1B1R', '2R', 1, 0);
@@ -5638,7 +5642,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'There are few positions within kobold society that are more desired than that of Claw Trainer.  Blessed with rare empathy and draconic insight, these exceptional koboldsare gifted with the opportunity to raise newly hatched drakes.  Over many years of training, Claw Trainer and Drake Hounds form deadly packs capable of hunting down any intruder in their master''s realm.');
 insert into Characters (CardIndex) VALUES (274);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (189, 1); --Citrine
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (189, 580); --Mob
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (189, 291); --Mob
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (189, 469); --Packmaster
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (189, 446); --Monster Tamer
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
@@ -5657,8 +5661,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 '');
 insert into Characters (CardIndex) VALUES (275);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (190, 1); --Citrine
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (190, 564); --Knockdown
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (190, 586); --Pile-On
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (190, 275); --Knockdown
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (190, 296); --Pile-On
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (190, 188); --Blood Scent
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (190, 'Either', 'Small', 'Drake', 7, 1, '3B', '1ST', '2B', '3B', 1, 0);
@@ -5677,9 +5681,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Wherever a dragon makes its lair its draconic kin, drakes, are sure to be found.  Territorial and savage these lesser beasts submit entirely to the will of the dragon.  In exchange for the dragon''s protection the drakes serve as the dragon''s eys, ears, and faithful guards.<br>When hunting a dragon, Heroes inevitably have to make their way through hordes of drakes that throw themselves in the path of the Heroes.  Larger drakes attempt to drag their foes to the ground so smaller hatchlings can swarm over their helpless prey.  Above, elder wyrmlings swoop and dart, spitting fire at the invaders.');
 insert into Characters (CardIndex) VALUES (276);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (191, 1); --Citrine
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (191, 557); --Immune: Status Effects
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (191, 535); --Hatchery
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (191, 664); --Spawning Pool
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (191, 268); --Immune: Status Effects
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (191, 246); --Hatchery
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (191, 375); --Spawning Pool
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (191, 'Neither', 'Small', 'Spawning Point', 0, 0, '', '1ST', '', '', 3, 0);
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (191, 2); --Armor
@@ -5695,7 +5699,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Even the smallest of drakes can be a serious threat in numbers.  Quick-footed, sharp-toothed, and very hungry, Hatchlings swarm over anything at their height and have made more than one quickl meal of a wounded Hero.');
 insert into Characters (CardIndex) VALUES (277);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (192, 1); --Citrine
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (192, 586); --Pile-On
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (192, 296); --Pile-On
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (192, 'Either', 'Small', 'Drake', 6, 2, '3B', '0ST', '2B', '3B', 2, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (192, 1, 1); --Strength
@@ -5712,8 +5716,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Still too young to grow wings, Whelps must settle for chasing down their prey to make a meal.  This quickly weeds out the weakest of the clutch and ensures that only the strongest will survive.');
 insert into Characters (CardIndex) VALUES (278);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (193, 1); --Citrine
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (193, 564); --Knockdown
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (193, 586); --Pile-On
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (193, 275); --Knockdown
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (193, 296); --Pile-On
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (193, 'Either', 'Small', 'Drake', 6, 1, '2B1R', '1ST', '3B', '3B', 1, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (193, 1, 1); --Strength
@@ -5730,8 +5734,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Wyrmlings have so far managed to not be eaten by kin or kobold and are nearing maturity.  They wheel around the caverns and their mountain hunting grounds on newly sprouted wings, feeding on foolish trespassers.');
 insert into Characters (CardIndex) VALUES (279);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (194, 2); --Emerald
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (194, 518); --Fly
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (194, 586); --Pile-On
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (194, 229); --Fly
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (194, 296); --Pile-On
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (194, 322); --Flame Burst
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (194, 281); --Dive Bomb
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
@@ -5751,11 +5755,11 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 '');
 insert into Characters (CardIndex) VALUES (280);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (195, 3); --Ruby
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (195, 557); --Immune: Status Effects
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (195, 503); --Elemental Affinity
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (195, 543); --Hidden
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (195, 637); --Stealth
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (195, 666); --Spawning Pool
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (195, 268); --Immune: Status Effects
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (195, 214); --Elemental Affinity
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (195, 254); --Hidden
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (195, 348); --Stealth
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (195, 377); --Spawning Pool
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (195, 'Neither', 'Small', 'Spawning Point', 0, 0, '', '1ST', '', '', 4, 0);
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (195, 2); --Armor
@@ -5771,7 +5775,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Aspring leaders and skilled fighters within the clan are called upon to lead their own team of ninjas as chunin.  This is an incredible honor, and the trials to come will not only test a chunin''s leadership and skills, but their spirit as well.');
 insert into Characters (CardIndex) VALUES (281);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (196, 1); --Citrine
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (196, 637); --Stealth
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (196, 348); --Stealth
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (196, 322); --Precision Strike
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (196, 281); --Elemental Master
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
@@ -5790,7 +5794,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Kaiken are the backbone of the clans.  To be a kaiken is not to be relegated to a basic or role.  Training to become a kaiken starts from birth and is ingrained through hardship, conditioning, and trials that normal people could not withstand.  Kaiken are masters of the art of stealth, the sword, and the shuriken.  As their experience grows, they learn to tap elemental magic, unlocking potent abilities to rival even the great Heroes.');
 insert into Characters (CardIndex) VALUES (282);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (197, 1); --Citrine
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (197, 637); --Stealth
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (197, 348); --Stealth
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (197, 174); --Back Strike
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (197, 'Masculine', 'Small', 'Ninja', 6, 1, '3B', '1ST', '2B', '3B', 1, 0);
@@ -5809,7 +5813,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Kunoichi are specialized female fighters and scouts for the clans.  Though deadly and widely trained in the ninja arts, the kunoichi put particular emphasis on speed and agility.  In battle, kunoichi focus on key mission objectives such as scouting targets and carrying vital missives.');
 insert into Characters (CardIndex) VALUES (283);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (198, 2); --Emerald
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (198, 637); --Stealth
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (198, 348); --Stealth
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (198, 674); --Wind in the Forest
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (198, 'Feminine', 'Small', 'Ninja', 8, 1, '3B', '0ST', '1B1R', '2R', 1, 0);
@@ -5828,7 +5832,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'All clans possess the mystics known as madoushi.  In some clans, they are revered as sages, alchemists and healers.  Other clans regard them as witches, and tolerate them with barely concealed mistrust and fear.  Whether they are revered or reviled, all madoushi are able to harness the powers native to the lands of their clan.  With training, study, and mediataion, a madoushi learns to draw from the lines of Ki that race through the landscape, summoning the very elements to do their bidding.');
 insert into Characters (CardIndex) VALUES (284);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (199, 3); --Ruby
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (199, 637); --Stealth
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (199, 348); --Stealth
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (199, 482); --Poisoned Weapons
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (199, 677); --Wind Walk
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
@@ -5848,8 +5852,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Yajiri specialize in attacking from afar.  Their black shafted arrows are renowned for striking with deadly accuracy.  While the bow is utilized throughout all the clans, many have developed their own unique forms of ranged warfare.  The Kitsune''s blowguns eliminate sentries with only the sound of a silent rush of wind to mark their use; while the thunder of the Tora''s rifle sows confusion among the enemy ranks, even as it wreaks terrible devastation.  No matter the form it takes, a yajiri''s value to their clan cannot be underestimated.');
 insert into Characters (CardIndex) VALUES (285);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (200, 2); --Emerald
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (200, 637); --Stealth
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (200, 652); --Wind of Blades
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (200, 348); --Stealth
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (200, 363); --Wind of Blades
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (200, 'Masculine', 'Small', 'Ninja', 6, 1, '2B', '0ST', '2B', '3B', 1, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (200, 1, 1); --Strength
@@ -5867,9 +5871,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Like kodama, kinoko are spirits of the forest.  When uncorrupted by the Dark Consul they are servants of the Deeproot Tree.  Fun loving and given to a pleasant disposition, natural kinoko enjoy nothing more than bouncing through the forest, making absurd squishing noises and burbling happily to birds and forest spirits.<br>Under the Dark Consul''s influence they become territorial and grumpy, shredding great clouds of spores that send Heroes into an enchanted slumber.  once snoozing soundly, the kinoko bounce the sleeping Heroes off cliffs, into spider holes, or monsters'' waiting jaws.');
 insert into Characters (CardIndex) VALUES (286);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (201, 2); --Emerald
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (201, 557); --Immune: Status Effects
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (201, 630); --Soporific Cloud
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (201, 668); --Spawning Pool
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (201, 268); --Immune: Status Effects
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (201, 341); --Soporific Cloud
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (201, 379); --Spawning Pool
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (201, 'Neither', 'Small', 'Spawning Point', 0, 0, '', '1ST', '', '', 3, 0);
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (201, 2); --Armor
@@ -5885,8 +5889,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 '"Rawr!  Rawr!  Raaawr!"  The call of an enraged Kinoshroom is not very terrifying.  In truth, even when working for the Dark Consul, Kinoshroom are poor at being bad guys.  Nonetheless, when swayed to villainy, Kinoshroom are tenacious and frustrating, their spongy exterior repelling blades and throwing Heroes backwards.');
 insert into Characters (CardIndex) VALUES (287);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (202, 2); --Emerald
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (202, 629); --Soporific
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (202, 634); --Spongy
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (202, 340); --Soporific
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (202, 345); --Spongy
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (202, 200); --Bounce
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (202, 'Neither', 'Small', 'Kinoko', 6, 1, '3B', '0ST', '1B', '2B', 1, 0);
@@ -5904,8 +5908,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'As a Kinoshroom grows it becomes a venerable Okoshroom.  Okoshroom leave behind the bounciness of youth and trade it for the whirling spin of wisdom-- wisdom is the Okoshroom''s assertion.  The spinning is the primary thing.  Just keep spinning.  Just keep spinning.  Spinning.  Spinning.  Spinning...');
 insert into Characters (CardIndex) VALUES (288);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (203, 2); --Emerald
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (203, 629); --Soporific
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (203, 634); --Spongy
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (203, 340); --Soporific
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (203, 345); --Spongy
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (203, 669); --Whirling Shitake
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (203, 624); --Tempermental Toadstool
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
@@ -5942,9 +5946,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'While skeletons of the long dead are the most common undead terror to stalk the Glauerdoom Moor, the freshly deceased are also frequently disturbed from their eternal slumber to become zombies.  Any will that a zombie may still retain its extinguished by the crushing madness of the Shamble Priest''s desires.<br>Nursing old grudges, or merely indulging in insane fantasy, Shamble Priests drive shuffling herds of zombies into townships, wreaking terror and carnage.  When homes are overrun they become new focal points of necromantic energy that the Shamble Priests use to spawn still more zombies and grow their horde.');
 insert into Characters (CardIndex) VALUES (290);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (205, 4); --Sapphire
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (205, 557); --Immune: Status Effects
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (205, 530); --Grabby Hands
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (205, 670); --Spawning Pool
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (205, 268); --Immune: Status Effects
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (205, 241); --Grabby Hands
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (205, 381); --Spawning Pool
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (205, 'Neither', 'Small', 'Spawning Point', 0, 0, '', '1ST', '', '', 4, 0);
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (205, 2); --Armor
@@ -5960,9 +5964,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Prowlers are raised from the crueler criminal element of Crystalia''s deceased.  Allowed to maintain a modicum of their former selves, Prowlers nonetheless share a deep link with those attuned to necromantic energy.  Consuming the life energy of those they attack, Prowlers siphon the energy to nearby practitioners of the dark arts.');
 insert into Characters (CardIndex) VALUES (291);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (206, 2); --Emerald
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (206, 528); --Grabby
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (206, 580); --Mob
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (206, 637); --Stealth
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (206, 239); --Grabby
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (206, 291); --Mob
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (206, 348); --Stealth
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (206, 322); --Homunculus
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (206, 'Either', 'Small', 'Undead Zombie', 8, 2, '3B', '1ST', '1B', '3B', 1, 0);
@@ -5980,9 +5984,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'It is unknown if a Pudge is an intentional creation or merely a byproduct of zombies naturally decaying and bloating--yuck.  Regardless of the cause of their revolting existence, Heroes are advised to give them a wide berth in case they pop--seriously?--yes, seriously.  Double yuck.');
 insert into Characters (CardIndex) VALUES (292);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (207, 4); --Sapphire
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (207, 528); --Grabby
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (207, 532); --Gross
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (207, 580); --Mob
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (207, 239); --Grabby
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (207, 243); --Gross
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (207, 291); --Mob
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (207, 276); --Disgusting
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (207, 'Either', 'Small', 'Undead Zombie', 5, 1, '2B', '1ST', '1B', '1B', 2, 0);
@@ -6020,8 +6024,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Once the wetlands of the Glauerdoom Moor were vibrant with life, now they are little more than festering swamps.<br>Lurching through the diseased waters, Swampies are nothing but mindless corpses propelled forward by the will of a Shamble Priest.  Possessing deceptive strength, they cling to Heroes with rotting claws, as yellowed teeth search for the perfect place to take a juicy bite.');
 insert into Characters (CardIndex) VALUES (294);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (209, 4); --Sapphire
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (209, 528); --Grabby
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (209, 580); --Mob
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (209, 239); --Grabby
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (209, 291); --Mob
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (209, 'Either', 'Small', 'Undead Zombie', 5, 1, '2B', '1ST', '1B', '1B', 1, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (209, 1, 1); --Strength
@@ -6038,9 +6042,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Kobolds were the first monsters from the Dark Realm to invade Crystalia, and remain the most numerous.  In the centuries that have passed since the banishment of the Dark Consul, kobolds have only increased in numbers.  Supremely adaptable and remarkably relentless in their drive to expand, there is no corner of Crystalia untouched by their menace.<br>Fortunately, they are also clannish and given to feuding amongst themselves when left to their own devices.  Whenever possible, Heroes root out clans of kobolds before they unite behind a larger and craftier monster to boss them around.  Otherwise, kobolds become an almost unstoppable scourge.');
 insert into Characters (CardIndex) VALUES (295);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (210, 1); --Citrine
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (210, 518); --Immune: Status Effects
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (210, 586); --Mob Mentality
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (210, 672); --Spawning Pool
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (210, 268); --Immune: Status Effects
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (210, 292); --Mob Mentality
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (210, 383); --Spawning Pool
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (210, 'Neither', 'Small', 'Spawning Point', 0, 0, '', '1ST', '', '', 4, 0);
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (210, 2); --Armor
@@ -6056,7 +6060,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'While the Cult of the Burning Star, which venerates Starfire, is the most well known there are cults of kobolds dedicated to the worship of all the dragons of Crystalia.  Dragon Priests are granted arcane powers by their close communion with the dragons.  Once bestowed these gifts, the priests never hesitate to use their favor to bully and intimidate the lesser kobolds into fighting for them.');
 insert into Characters (CardIndex) VALUES (296);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (211, 3); --Ruby
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (211, 580); --Mob
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (211, 291); --Mob
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (211, 292); --Dragon Rage
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (211, 546); --Shadow Breath
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
@@ -6076,7 +6080,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Many young kobolds emerge from their warrens having learned how to hunt bats and other denizens with nothing more than a strip of drakegut and a pouch fulll of stones.  Deadly accurate, they launch small clay pots of flaming lamp oil or inky smoke bombs to conceal their movement.');
 insert into Characters (CardIndex) VALUES (297);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (212, 2); --Emerald
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (212, 580); --Mob
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (212, 291); --Mob
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (212, 392); --Hot Pot
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (212, 567); --Smoke Pot
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
@@ -6096,7 +6100,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Kobolds are not big on courage as lone fighters.  Their snarling growls are meager and their weapons blunt and rusted.  The Gouger''s long spears can effectively add weight to their kin''s attacks by stabbing at the desperately flailing Heroes.');
 insert into Characters (CardIndex) VALUES (298);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (213, 1); --Citrine
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (213, 580); --Mob
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (213, 291); --Mob
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (213, 'Either', 'Small', 'Kobold', 7, 1, '3B', '0ST', '2B', '1B1R', 1, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (213, 1, 2); --Strength
@@ -6114,7 +6118,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (299);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (214, 1); --Citrine
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (214, 4); --Amethyst
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (214, 580); --Mob
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (214, 291); --Mob
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (214, 537); --Scalewall
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (214, 'Either', 'Small', 'Kobold', 7, 2, '2R', '2ST', '2B', '1B1R', 1, 0);
@@ -6132,7 +6136,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'The Knuckleheads'' strength lies in large, deadly, mobs of its kin throwing themselves headlong into smaller bands of Heroes.  They use their small shields and iron helmets to take blows, while frantically stabbing anything in reach with their crude weapons.');
 insert into Characters (CardIndex) VALUES (300);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (215, 1); --Citrine
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (215, 580); --Mob
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (215, 291); --Mob
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (215, 'Either', 'Small', 'Kobold', 7, 1, '3B', '1ST', '2B', '1B1R', 1, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (215, 1, 1); --Strength
@@ -6149,9 +6153,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Deep within the Dragonback Peaks beats the Molten Heart, the first source of fire on Crystalia.  From its magma chambers endless rivers of lava bubble and boil to the surface, cascading down the mountainsides forming the Fire Flows.<br>The Fire Flows are surprisingly rich in life considering the harsh environment.  Packs of Ember Hounds stalk its shores, dragging down the weak to be consumed in clouds of poisonous ash.  Massive insects, their carapaces glowing like steel from a forge, drink deep of the molten rock.  Elemental slimes are born by the thousands as volcanic eruptions ravage the landscape.<br>Ruling over it all is the Molten Lord, Roxor.  Ancient as the mountains themselves, Roxor guards the Molten Heart and seeks to extend his fiery influence until all of Crystalia is consumed in flame.');
 insert into Characters (CardIndex) VALUES (301);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (216, 1); --Citrine
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (216, 557); --Immune: Status Effects
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (216, 513); --Fire Aura
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (216, 674); --Spawning Pool
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (216, 268); --Immune: Status Effects
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (216, 224); --Fire Aura
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (216, 385); --Spawning Pool
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (216, 'Neither', 'Small', 'Spawning Point', 0, 0, '', '1ST', '', '', 3, 0);
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (216, 2); --Armor
@@ -6167,8 +6171,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Subsisting entirely on the molten rock of the Fire Flows, the Blaze Beetle is at home swimming through its magnificent lava rivers.  Blaze Beetles possess a remarkable sense of cruel cunning, burrowing beneath groups of Heroes to erupt from solid stone, bathing them in a shower of fire and rock.');
 insert into Characters (CardIndex) VALUES (302);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (217, 1); --Citrine
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (217, 551); --Immune: Fire
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (217, 481); --Burrow
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (217, 262); --Immune: Fire
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (217, 192); --Burrow
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (217, 349); --Furnace Vent
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (217, 218); --Burning Chitin
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
@@ -6187,9 +6191,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Born of fire, Burning Gels prefer to lurk in any fire they can find, hoping to ambush passersby.  If no fire presents itself they are all too happy to start one themselves.  More living fire than flesh-and-blood creature, the only  way to actually extinguish a Burning Gel is to stomp it into too many pieces for it to cause any more mischief.');
 insert into Characters (CardIndex) VALUES (303);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (218, 3); --Ruby
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (218, 512); --Fire
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (218, 551); --Immune: Fire
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (218, 632); --Splurt
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (218, 223); --Fire
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (218, 262); --Immune: Fire
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (218, 343); --Splurt
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (218, 590); --Splort
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (218, 'Either', 'Large', 'Elemental Slime', 6, 2, '3B', '0ST', '3B', '1B1R', 1, 0);
@@ -6208,8 +6212,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Concealed in a cloak of ash, the Ember Hound stalks travelers whose campfires burn too brightly at night.');
 insert into Characters (CardIndex) VALUES (304);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (219, 2); --Emerald
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (219, 551); --Immune: Fire
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (219, 637); --Stealth
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (219, 262); --Immune: Fire
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (219, 347); --Stealth
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (219, 556); --Sickening Smoke
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (219, 168); --Ash Cloud
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
@@ -6228,11 +6232,11 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Fire Gels may be half the size of Burning Gels, but they''re twice as angry.  They derive wicked pleasure from catching an unwary Hero off guard, lighting their bootlaces on fire and singeing their hair with malicious glee.');
 insert into Characters (CardIndex) VALUES (305);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (220, 1); --Citrine
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (220, 512); --Fire
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (220, 551); --Immune: Fire
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (220, 559); --Insignificant
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (220, 568); --Little Splurt
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (220, 626); --Small
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (220, 223); --Fire
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (220, 262); --Immune: Fire
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (220, 270); --Insignificant
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (220, 279); --Little Splurt
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (220, 337); --Small
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (220, 'Either', 'Small', 'Elemental Slime', 6, 1, '3B', '0ST', '3B', '1B1R', 1, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (220, 1, 2); --Strength
@@ -6249,9 +6253,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'The elves of the Fae Wood and the wise Deeproot Tree have long been friends and guardians of Crystalia.  Their timeless stewardship of the land made them ideal caretakers for the exiled Forgotten King and his court.<br>Yet the rise of the Dark Consul has sapped their ageless strength as they are beset on all sides, and the Forgotten King has become a cancer that corrupts from within.  As the Consul''s power rises, so too doees the Forgotten King''s and he has use his magic to sicken and bewitch the forest spirits within the Lordship Ruins.<br>Tswisted by the Forgotten King''s hatred, these corrupt kodama have lent their strength to the Dark Consul.  Now the elves find themselves under attack in their own woods.');
 insert into Characters (CardIndex) VALUES (306);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (221, 1); --Citrine
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (221, 557); --Immune: Status Effects
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (221, 590); --Poison Aura
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (221, 676); --Spawning Pool
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (221, 268); --Immune: Status Effects
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (221, 301); --Poison Aura
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (221, 387); --Spawning Pool
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (221, 'Neither', 'Small', 'Spawning Point', 0, 0, '', '1ST', '', '', 4, 0);
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (221, 2); --Armor
@@ -6267,10 +6271,10 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Uncorrupted, a Sprout grows to become a mighty plant or tree within the Fae Wood, providing food and shelter to the denizens of the forest.  Under the Dark Consul''s influence they instead become ravenous creatures of flailing vines, snapping jaws, and insatiable hunger.');
 insert into Characters (CardIndex) VALUES (307);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (222, 1); --Citrine
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (222, 589); --Poison
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (222, 555); --Immune: Poison
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (222, 508); --Feed Me
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (222, 516); --Fixed Form
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (222, 299); --Poison
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (222, 266); --Immune: Poison
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (222, 219); --Feed Me
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (222, 227); --Fixed Form
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (222, 361); --Grasping Vines
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (222, 528); --Rootdown
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
@@ -6289,9 +6293,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Constantly busy and cheerful, Mooks are guardians and caretakers of the forest.  Filled with an insatiable curiousity, their naturally mischevious nature has been twisted to cruel pranks with deadly intentions.');
 insert into Characters (CardIndex) VALUES (308);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (223, 1); --Citrine
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (223, 589); --Poison
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (223, 555); --Immune: Poison
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (223, 651); --Virulent
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (223, 299); --Poison
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (223, 266); --Immune: Poison
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (223, 362); --Virulent
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (223, 'Neither', 'Small', 'Kodama', 6, 1, '3B', '1ST', '3B', '2B', 1, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (223, 1, 1); --Strength
@@ -6308,8 +6312,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Sprouts are blessings of the Deeproot Tree.  Each spring the Deeproot Tree breathes life into countless sprouts.  Some travel the surface, others take ot the wind upon whirling propellers of leaves, while others burrow deep within the earth.  They spread throughout Crystalia bringing the promise of renewed life throughout the land.<br>When a Sprout concludes its journey it takes root, becoming a tree, shrub, sweeping carpet of wildflowers, or any other variety of bright greenery.  In such a manner does the Deeproot Tree spread its influence throughout Crystalia.<br>Since the rise of the Dark Consul, Sprouts are captured by servants of the wicked creatures who call the Consul master.  Employing black magics they pollute the seeds, corrupting not only the plant the Sprout was meant to become, but all the kodama who rely on its healthy growth for shelter and sustenance.');
 insert into Characters (CardIndex) VALUES (309);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (224, 2); --Sapphire
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (224, 519); --Forced Shift
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (224, 619); --Shapeshift: King Sprout
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (224, 230); --Forced Shift
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (224, 330); --Shapeshift: King Sprout
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (224, 515); --Rampant Growth
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (224, 'Neither', 'Small', 'Kodama', 6, 1, '1B', '2R', '3B', '1B1R', 2, 0);
@@ -6328,8 +6332,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (310);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (225, 1); --Citrine
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (225, 2); --Emerald
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (225, 555); --Immune: Poison
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (225, 651); --Virulent
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (225, 266); --Immune: Poison
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (225, 362); --Virulent
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (225, 407); --It's Medicinal
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (225, 'Neither', 'Small', 'Kodama', 6, 1, '2B', '0ST', '3B', '2B1R', 1, 0);
@@ -6348,8 +6352,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Catching a glimpse of a Wisp is considered good fortune.  Normally these shy and elusive kodama lead lost travelers safety and shelter.  Under the Dark Consul''s influence their guidance becomes malicious, leading unsuspecting Heroes into ambushes and fields of thorns.');
 insert into Characters (CardIndex) VALUES (311);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (226, 3); --Ruby
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (226, 555); --Immune: Poison
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (226, 651); --Virulent
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (226, 266); --Immune: Poison
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (226, 362); --Virulent
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (226, 322); --Pollen Dream
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (226, 'Neither', 'Small', 'Kodama', 6, 2, '1B', '1ST', '2B1R', '3B', 2, 0);
@@ -6367,9 +6371,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Long ago the inhabitants of the Glauerdoom Moor used pumpkins to carve jack-o-lanterns to trick the restless spirits of the moor to pass by their homes at night.  In time the spirits grew wise to this deception and decided to play a trick of their own.  Now pumpkin patches are spooky, haunted, places where the creatures that go bump in the night lurk, waiting for their prey.<br>Beneath the dark boughs of the Witches'' Weald pumpkins grow wild and the orange globes pulse with strange energies as the witch covens practice their own special brand of dark magic--poisons, necromancy, enchantment, curses, no subject is taboo.  The covensfind great favor with both the Dark Consul and Baron Von Drakk.  Both often have need of the witches'' unique abiliites when dealing with self righteous Heroes who seek to thwart them.');
 insert into Characters (CardIndex) VALUES (312);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (227, 3); --Ruby
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (227, 557); --Immune: Status Effects
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (227, 526); --Gloom Aura
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (227, 678); --Spawning Pool
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (227, 268); --Immune: Status Effects
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (227, 237); --Gloom Aura
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (227, 389); --Spawning Pool
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (227, 'Neither', 'Small', 'Spawning Point', 0, 0, '', '1ST', '', '', 3, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (227, 1, 2); --Strength
@@ -6387,8 +6391,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (313);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (228, 1); --Citrine
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (228, 2); --Emerald
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (228, 589); --Poison
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (228, 641); --Surefoot
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (228, 299); --Poison
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (228, 352); --Surefoot
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (228, 305); --Enervating Bite
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (228, 559); --Silk Spinner
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
@@ -6407,7 +6411,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'The Curse Coven is a favorite of witches far and wide.  Indeed, most witches have dabbled in curses.  It is easy to find great pleasure in curdling toddlers'' milk, giving a fussy aunt the farts, or just turning someone into a good old-fashioned miserable toad.');
 insert into Characters (CardIndex) VALUES (314);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (229, 3); --Ruby
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (229, 518); --Fly
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (229, 229); --Fly
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (229, 554); --Shocking Bolt
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (229, 639); --Transmogrify
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
@@ -6427,8 +6431,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 '');
 insert into Characters (CardIndex) VALUES (315);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (230, 3); --Ruby
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (230, 518); --Fly
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (230, 559); --Insignificant
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (230, 229); --Fly
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (230, 270); --Insignificant
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (230, 283); --Doom
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (230, 'Either', 'Small', 'Undead Bat', 6, 1, '1B', '0ST', '1B1R', '2R', 1, 0);
@@ -6447,9 +6451,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Rocktops can be found throughout Crystalia, wherever the earth is rocky and barren.  Due to their natural predilection to tunnel, Rocktops are superb miners.<br>Like many of the Consul''s minions, Rocktop society is ruled by strength and size.  At the top of the hierarchy stands the migty Crusher.  Dimwitted and brutish, Crushers spend most of their waking hours smashign rock to increase the size of the tunnel systems they claim as theirs.<br>In contrast, Rollers and Bombardiers are surprisingly jovial creatures.  Relishing in mischief and mayhem they delight in the noise and spectacle as rocks, Heroes, or anything weaker than them are smashed, smushed, crushed, crunched, or exploded.<br>Below them all are the hapless Slowpokes.  Simple creatures who if they had a say in it, would be perfectly content moving rocks from one side of a cave to another and back again.');
 insert into Characters (CardIndex) VALUES (316);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (231, 4); --Sapphire
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (231, 557); --Immune: Status Effects
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (231, 606); --Rock Aura
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (231, 680); --Spawning Pool
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (231, 268); --Immune: Status Effects
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (231, 317); --Rock Aura
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (231, 391); --Spawning Pool
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (231, 'Neither', 'Small', 'Spawning Point', 0, 0, '', '1ST', '', '', 4, 0);
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (231, 2); --Armor
@@ -6465,9 +6469,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Delighting in explosions, Bombardiers happily fire their cannons into the midst of any combat, hitting friend and foe alike.  Because of this, Bombardiers do not have many friends, not even other Rocktops, who quickly tuck themselves safely into their shells whenever a Bombardier is around.');
 insert into Characters (CardIndex) VALUES (317);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (232, 4); --Sapphire
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (232, 554); --Immune: Knockdown
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (232, 556); --Immune: Slow
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (232, 623); --Shell
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (232, 265); --Immune: Knockdown
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (232, 267); --Immune: Slow
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (232, 334); --Shell
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (232, 222); --Cannon
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (232, 646); --Turtle Cannon
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
@@ -6486,7 +6490,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Crushers are the premier miners in Crystalia.  Their ability to grind through rock and soil make even the proudest dwarf blush.  The constant pounding and pulverizing takes a toll on their attitude however, leaving them belligerent and unwelcoming when hapless Heroes wander into their homes.');
 insert into Characters (CardIndex) VALUES (318);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (233, 4); --Sapphire
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (233, 557); --Immune: Status Effects
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (233, 268); --Immune: Status Effects
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (233, 632); --Thwack
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (233, 649); --Turtle Tremor
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
@@ -6505,8 +6509,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Crushers are the premier miners in Crystalia.  Their ability to grind through rock and soil make even the proudest dwarf blush.  The constant pounding and pulverizing takes a toll on their attitude however, leaving them belligerent and unwelcoming when hapless Heroes wander into their homes.');
 insert into Characters (CardIndex) VALUES (319);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (234, 4); --Sapphire
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (234, 557); --Immune: Status Effects
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (234, 659); --Bulldozer
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (234, 268); --Immune: Status Effects
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (234, 370); --Bulldozer
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (234, 632); --Thwack
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (234, 649); --Turtle Tremor
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (234, 675); --No Hiding
@@ -6526,9 +6530,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Rollers love a good bit of sport.  Stomping through the tunnels they happily line Slowpokes up for a game of Nineshells, chortling merrily as an expert shot sends shells rebounding and ricocheting throughout the mines.');
 insert into Characters (CardIndex) VALUES (320);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (235, 4); --Sapphire
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (235, 554); --Immune: Knockdown
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (235, 556); --Immune: Slow
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (235, 623); --Shell
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (235, 265); --Immune: Knockdown
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (235, 267); --Immune: Slow
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (235, 334); --Shell
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (235, 632); --Thwack
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (235, 'Either', 'Small', 'Rocktop', 6, 2, '2R', '1ST', '3B', '2B', 2, 0);
@@ -6546,9 +6550,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Slowpokes are slow because they are perpetually dizzy.  They''re always getting banged on the head by tunneling Crushers, smashed together by cavorting Rollers, and cowering under the exploding fire of Bombardiers.  Being the smallest of the Rocktops is hard work.  Something having their caves invaded by Heroes seems like a nice vacation.');
 insert into Characters (CardIndex) VALUES (321);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (236, 4); --Sapphire
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (236, 554); --Immune: Knockdown
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (236, 556); --Immune: Slow
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (236, 623); --Shell
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (236, 265); --Immune: Knockdown
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (236, 267); --Immune: Slow
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (236, 334); --Shell
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (236, 'Either', 'Small', 'Rocktop', 5, 1, '3B', '1ST', '3B', '1B', 1, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (236, 1, 2); --Strength
@@ -6565,10 +6569,10 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Slowpokes are slow because they are perpetually dizzy.  They''re always getting banged on the head by tunneling Crushers, smashed together by cavorting Rollers, and cowering under the exploding fire of Bombardiers.  Being the smallest of the Rocktops is hard work.  Something having their caves invaded by Heroes seems like a nice vacation.');
 insert into Characters (CardIndex) VALUES (322);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (237, 4); --Sapphire
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (237, 554); --Immune: Knockdown
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (237, 556); --Immune: Slow
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (237, 481); --Burrow
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (237, 623); --Shell
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (237, 265); --Immune: Knockdown
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (237, 267); --Immune: Slow
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (237, 191); --Burrow
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (237, 334); --Shell
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (237, 'Either', 'Small', 'Rocktop', 5, 1, '3B', '1ST', '3B', '1B', 1, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (237, 1, 2); --Strength
@@ -6585,7 +6589,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Here lies Mr. Poke.  May his shell be more useful in death than his claws were in life.');
 insert into Characters (CardIndex) VALUES (323);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (238, 2); --Emerald
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (238, 557); --Immune: Status Effects
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (238, 268); --Immune: Status Effects
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (238, 'Either', 'Small', 'Rocktop', 0, 0, '', '1ST', '', '', 2, 0);
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (238, 2); --Armor
@@ -6601,8 +6605,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Here lies Mr. Poke.  May his shell be more useful in death than his claws were in life.');
 insert into Characters (CardIndex) VALUES (324);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (239, 2); --Emerald
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (239, 557); --Immune: Status Effects
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (239, 559); --Insignificant
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (239, 268); --Immune: Status Effects
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (239, 270); --Insignificant
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (239, 'Either', 'Small', 'Rocktop', 0, 0, '', '1ST', '', '', 2, 0);
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (239, 2); --Armor
@@ -6618,9 +6622,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'The Mistmourn Coast is a dangerous place even for the natural inhabitants of the Fae Woods.  Outsiders fear the troll tribes of the Mistmourn, but those familiar with this perpetually shrouded wood know that the fae creatures are the true danger.<br>Magical and otherworldy, what motivates these creatures is unknown.  Shamans bind them to pillars of salt to stay their wrath or do the shaman''s bidding.  Yet these magics have a dark consequence.  When the spells of binding are broken the magics of the formerly bound fae are trapped with the shattered salt pillar.  Their essence infuses new life within the Salt and they are reborn as elemental golems.  Driven only by blind instinct these Salt golems lash out at any who are near.');
 insert into Characters (CardIndex) VALUES (325);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (240, 3); --Ruby
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (240, 557); --Immune: Status Effects
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (240, 638); --Stealth Aura
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (240, 682); --Spawning Pool
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (240, 268); --Immune: Status Effects
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (240, 349); --Stealth Aura
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (240, 393); --Spawning Pool
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (240, 'Neither', 'Small', 'Spawning Point', 0, 0, '', '1ST', '', '', 3, 0);
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (240, 2); --Armor
@@ -6636,9 +6640,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Disorienting their prey with echoing howls that seem to come from all directions, Mist Hounds lure lost travelers into predatory ambushes.  Once its prey has been isolated the Mist Hound will harry it relentlessly, never allowing it to rest or stop, until it finally succumbs to the hound''s jaws.');
 insert into Characters (CardIndex) VALUES (326);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (241, 3); --Ruby
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (241, 596); --Predator
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (241, 624); --Sidestep
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (241, 641); --Surefoot
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (241, 307); --Predator
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (241, 335); --Sidestep
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (241, 352); --Surefoot
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (241, 421); --Lost
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (241, 'Either', 'Small', 'Faerie Wolf', 8, 2, '2B1R', '0ST', '1B1R', '3B', 2, 0);
@@ -6657,7 +6661,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Old wives tales say that whenever a tear is shed a Sorrow is born.  Glowing softly in the mists, Sorrows float silently, moving to a gentle lullaby only they can hear.  However, when they sense grief their languid motion becomes a frenzy.  Darting and diving they swirl around the source of grief, ghostly faery fire lancing into the victim, intensifying their woe--birthing new Sorrows.  The frenzy only stopping when the victim sheds their last tear.');
 insert into Characters (CardIndex) VALUES (327);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (242, 3); --Ruby
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (242, 518); --Fly
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (242, 229); --Fly
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (242, 667); --Weep
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (242, 'Either', 'Small', 'Faerie', 6, 1, '0ST', '0ST', '2B1R', '3B', 1, 0);
@@ -6675,9 +6679,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'The Glauerdoom Moor is a grim and foreboding place by any measure.  Its fetid fens and marshes remain perpetually shrouded beneath a grey fog.  Its great cities have long since faded, their glory reduced to crumbling ruins and sinking towers.  The landscape is dotted by vast mausoleums and endless crypts built to house the ever dwindling populations'' dead.<br>Tragically the dead do not rest long.  The amethyst power of necromancy infuses the land and the dead sleep uneasily.  Their slumber is but a bried respite.  Soon their master bids them to rise and take their place in his macabre host.');
 insert into Characters (CardIndex) VALUES (328);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (243, 3); --Ruby
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (243, 557); --Immune: Status Effects
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (243, 471); --Bane Aura
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (243, 684); --Spawning Pool
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (243, 268); --Immune: Status Effects
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (243, 182); --Bane Aura
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (243, 395); --Spawning Pool
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (243, 'Neither', 'Small', 'Spawning Point', 0, 0, '', '1ST', '', '', 4, 0);
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (243, 2); --Armor
@@ -6693,7 +6697,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Bone Heads make up the builk of Von Drakk and the Dark Consul''s undead legions.  Drawn from the countless dead who have fought both for or against the Dark Consul, Bone Heads are clad in the rusty and battered armor they wore in life.  Driven by dark necromantic magic, they are easily raised back insto service even after being destroyed.');
 insert into Characters (CardIndex) VALUES (329);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (244, 1); --Citrine
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (244, 477); --Bone Pile
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (244, 188); --Bone Pile
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (244, 'Either', 'Small', 'Undead Skeleton', 6, 1, '3B', '1ST', '2B', '1B', 1, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (244, 1, 1); --Strength
@@ -6710,7 +6714,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'In life Dread Knights were vaunted warriors, serving their lieges with steadfast devotion.  Their skill at arms continues even into death, and they remain highly prized as some of the Dark Consul''s deadliest minions.');
 insert into Characters (CardIndex) VALUES (330);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (245, 1); --Citrine
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (245, 477); --Bone Pile
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (245, 188); --Bone Pile
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (245, 249); --Cursed Blade
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (245, 'Either', 'Small', 'Undead Skeleton', 6, 2, '2B1R', '1ST', '2B', '1B', 2, 0);
@@ -6749,8 +6753,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'The death of a Dust Coven Necromancer does not mean an end to them entirely.  The dark magic of necromancy clings to their bones like bitter frost.  They are reborn as the sinister Dust Mages, cursed to be bound to another necromancer''s eveil desires.');
 insert into Characters (CardIndex) VALUES (332);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (247, 3); --Ruby
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (247, 477); --Bone Pile
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (247, 586); --Pile-On
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (247, 188); --Bone Pile
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (247, 193); --Bone Cold
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (247, 438); --Mend Bones
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
@@ -6770,9 +6773,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Not even the elves choose to make the Mistmourn Coast their home.  Indeed, only the Glimmerdusk Rangers frequent these lands that are perpetually locked in mist and steeped in fae magic.  It is no surprise then that many creatures of the Dark Realm sought sanctuary within the concealing shadows of the coast.<br>Most were driven mad with fright, as the fae creatures preyed on their minds with capricious tricks and dealy pranks.  Trolls, however, remained remarkably unaffected--perhaps shielded by their naturally dim intellect.  In time they became tolerated by the fae creatures if not welcomed.<br>The thin veil between worlds along the Mistmourn eventually brought the trolls into communion with their fallen ancestors.  Guided by their ancestors'' past experiences the trolls grew more cunning, some even attaining a level of brutal intelligence.');
 insert into Characters (CardIndex) VALUES (333);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (248, 4); --Sapphire
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (248, 557); --Immune: Status Effects
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (248, 597); --Primal Aura
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (248, 686); --Spawning Pool
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (248, 268); --Immune: Status Effects
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (248, 308); --Primal Aura
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (248, 397); --Spawning Pool
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (248, 'Neither', 'Small', 'Spawning Point', 0, 0, '', '1ST', '', '', 3, 0);
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (248, 2); --Armor
@@ -6788,7 +6791,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'The troll tribes of the Mistmourn Coast are deeply spiritual, revering their ancestors as once living gods.  Ghostfire Warriors gain their name from the large quantities of Ghostfire Berries they consume.  The Ghostfire Berries thin the veil between the physical world and the spirit world, allowing the trolls to commune with their ancestors before battle.  However, the berries are toxic even to the tremendous physical constitution of the trolls.  During battle, Ghostfire Warriors vomit up the Ghosfire Berries in blazing pyres, consuming their foes in green faerie fire.');
 insert into Characters (CardIndex) VALUES (334);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (249, 4); --Sapphire
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (249, 648); --Tough
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (249, 359); --Tough
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (249, 355); --Ghostfire
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (249, 'Either', 'Large', 'Troll', 6, 2, '2B1R', '1ST', '1B', '2B', 2, 0);
@@ -6807,7 +6810,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (335);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (250, 1); --Citrine
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (250, 4); --Sapphire
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (250, 648); --Tough
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (250, 359); --Tough
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (250, 161); --Ancestral Wrath
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (250, 281); --Spirit Wind
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (250, 442); --Mistborn
@@ -6827,15 +6830,16 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'For some trolls the Ghostfire Berry is not a poison, but has an altogether different effect, granting the troll the ability to walk between the physical and the spiritual worlds.  In time these Spirit Walkers learn how to pull others through these doorways with them, allowing the tribe to ambush their quarry undetected by mortal senses.');
 insert into Characters (CardIndex) VALUES (336);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (251, 2); --Emerald
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (251, 518); --Fly
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (251, 586); --Pile-On
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (251, 322); --Flame Burst
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (251, 281); --Dive Bomb
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (251, 348); --Stealth
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (251, 352); --Surefoot
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (251, 359); --Tough
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (251, 377); --Herbalist
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (251, 158); --Ambush
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (251, 'Either', 'Small', 'Drake', 6, 2, '2B1R', '1ST', '3B', '3B', 1, 0);
-insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (251, 1, 2); --Strength
+VALUES (251, 'Either', 'Large', 'Troll', 6, 2, '3B', '0ST', '1B1R', '3B', 2, 0);
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (251, 1, 1); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (251, 2); --Armor
-insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (251, 'Minion', '8 Bit', 1);
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (251, 'Elite', '8 Bit', 2);
 
 --FK Arcade Statlines
 
@@ -8088,7 +8092,7 @@ VALUES (252, 142, -1);
 --GangMemberIndex 1
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (0, -1, 'Booty Biter', 'Boo Booty', 'Elite', 5, 2, 3, 135);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (1, 466); --Backlash
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (1, 176); --Backlash
 
 --Bouncing Booty --CardIndex 338	--CharacterIndex 253	--ArcadeCharacterIndex 1
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Bouncing Booty',
@@ -8120,7 +8124,7 @@ VALUES (254, 152, -1);
 --GangMemberIndex 3
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (2, -1, 'Booty Grinder', 'Boo Booty', 'Elite', 5, 2, 2, 137);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (3, 531); --Grind
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (3, 242); --Grind
 --FK Arcade Creeps
 --Citrine Slime --CardIndex 340	--CharacterIndex 255	--ArcadeCharacterIndex 3
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Citrine Slime',
@@ -8136,9 +8140,9 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (255, 1);
 --GangMemberIndex 4
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (3, 0, 'Citrine Slime', 'Slime', 'Creep', 5, 1, 0, 138);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (4, 559); --Insignificant
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (4, 561); --Invader
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (4, 486); --Citrine Goop
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (4, 270); --Insignificant
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (4, 272); --Invader
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (4, 197); --Citrine Goop
 
 --Emerald Slime --CardIndex 341	--CharacterIndex 256	--ArcadeCharacterIndex 4
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Emerald Slime',
@@ -8154,9 +8158,9 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (256, 2);
 --GangMemberIndex 5
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (4, 0, 'Emerald Slime', 'Slime', 'Creep', 5, 1, 0, 139);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (5, 559); --Insignificant
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (5, 561); --Invader
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (5, 504); --Emerald Glop
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (5, 270); --Insignificant
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (5, 272); --Invader
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (5, 215); --Emerald Glop
 
 --Ghost --CardIndex 342	--CharacterIndex 257	--ArcadeCharacterIndex 5
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ghost',
@@ -8172,8 +8176,8 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (257, 3);
 --GangMemberIndex 6
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (5, 0, 'Ghost', 'Undead Ghost', 'Creep', 8, 1, 0, 140);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (6, 506); --Extra Scared
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (6, 561); --Invader
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (6, 217); --Extra Scared
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (6, 272); --Invader
 
 --Giri --CardIndex 343	--CharacterIndex 258	--ArcadeCharacterIndex 6
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Giri',
@@ -8189,7 +8193,7 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (258, 1);
 --GangMemberIndex 7
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (6, 0, 'Giri', 'Faerie', 'Creep', 5, 1, 0, 141);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (7, 559); --Insignificant
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (7, 270); --Insignificant
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (7, 452); --New Crop
 
 --Rabid Squirrel --CardIndex 344	--CharacterIndex 259	--ArcadeCharacterIndex 7
@@ -8206,9 +8210,9 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (259, 2);
 --GangMemberIndex 8
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (7, 0, 'Rabid Squirrel', 'Chimera', 'Creep', 6, 1, 0, 142);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (8, 559); --Insignificant
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (8, 561); --Invader
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (8, 400); --In Your Pants
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (8, 270); --Insignificant
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (8, 272); --Invader
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (8, 269); --In Your Pants
 
 --Rattlebone --CardIndex 345	--CharacterIndex 260	--ArcadeCharacterIndex 8
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Rattlebone',
@@ -8224,8 +8228,8 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (260, 1);
 --GangMemberIndex 9
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (8, 0, 'Rattlebone', 'Undead Skeleton', 'Creep', 5, 1, 0, 143);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (9, 528); --Grabby
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (9, 559); --Insignificant
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (9, 239); --Grabby
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (9, 270); --Insignificant
 
 --Ruby Slime --CardIndex 346	--CharacterIndex 261	--ArcadeCharacterIndex 9
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ruby Slime',
@@ -8241,9 +8245,9 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (261, 4);
 --GangMemberIndex 10
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (9, 0, 'Ruby Slime', 'Slime', 'Creep', 5, 1, 0, 144);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (10, 559); --Insignificant
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (10, 561); --Invader
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (10, 608); --Ruby Goo
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (10, 270); --Insignificant
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (10, 272); --Invader
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (10, 318); --Ruby Goo
 
 --Sapphire Slime --CardIndex 347	--CharacterIndex 262	--ArcadeCharacterIndex 10
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Sapphire Slime',
@@ -8259,9 +8263,9 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (262, 4);
 --GangMemberIndex 11
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (10, 0, 'Sapphire Slime', 'Slime', 'Creep', 5, 1, 0, 145);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (11, 559); --Insignificant
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (11, 561); --Invader
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (11, 608); --Sapphire Gloop
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (11, 270); --Insignificant
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (11, 272); --Invader
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (11, 319); --Sapphire Gloop
 
 
 
@@ -8282,8 +8286,8 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (263, 1);
 --GangMemberIndex 11
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (11, 0, 'Bashful Boris', 'Chimera', 'MiniBoss', 6, 8, 2, 146);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (11, 554); --Immune: Knockdown
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (11, 587); --Pile-On
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (11, 265); --Immune: Knockdown
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (11, 298); --Pile-On
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (11, 615); --Sweeping Mace
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (11, 297); --Earthshaker
 
@@ -8302,7 +8306,7 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (264, 3);
 --GangMemberIndex 12
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (12, 0, 'Captain R', 'Undead Skeleton Pirate', 'MiniBoss', 6, 6, 4, 147);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (12, 648); --Tough
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (12, 359); --Tough
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (12, 330); --Flintlock
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (12, 416); --Kraken
 
@@ -8320,8 +8324,8 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (265, 1);
 --GangMemberIndex 13
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (13, 0, 'Chaos Kitty', 'Freyjan', 'MiniBoss', 7, 6, 3, 148);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (13, 554); --Immune: Knockdown
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (13, 456); --9 Lives
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (13, 265); --Immune: Knockdown
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (13, 167); --9 Lives
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (13, 333); --Flying Fur
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (13, 227); --Chaos Fuzz
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (13, 176); --Bad Kitty
@@ -8340,8 +8344,8 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (266, 3);
 --GangMemberIndex 14
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (14, 0, 'Death Spectre', 'Undead', 'MiniBoss', 10, 6, 3, 149);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (14, 557); --Immune: Status Effects
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (14, 522); --Ghost
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (14, 268); --Immune: Status Effects
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (14, 233); --Ghost
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (14, 577); --Soul Scythe
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (14, 419); --Lifesap
 
@@ -8359,8 +8363,8 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (267, 3);
 --GangMemberIndex 15
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (15, 0, 'Deranged Alchemist', 'Elf', 'MiniBoss', 7, 7, 3, 150);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (15, 557); --Immune: Status Effects
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (15, 589); --Poison
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (15, 268); --Immune: Status Effects
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (15, 300); --Poison
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (15, 689); --Vile Concoction
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (15, 690); --Kobold's Tears
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (15, 691); --Coagulated Mixture
@@ -8379,9 +8383,9 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (268, 3);
 --GangMemberIndex 16
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (16, 0, 'Glimmerwing', 'Faerie Dragon', 'MiniBoss', 8, 6, 4, 151);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (16, 550); --Immune: Bane
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (16, 552); --Immune: Hex
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (16, 518); --Fly
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (16, 261); --Immune: Bane
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (16, 263); --Immune: Hex
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (16, 229); --Fly
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (16, 202); --Breath of Dream
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (16, 312); --Fae Curse
 
@@ -8399,9 +8403,9 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (269, 4);
 --GangMemberIndex 17
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (17, 0, 'Gruesome George', 'Undead Zombie', 'MiniBoss', 6, 6, 1, 152);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (17, 557); --Immune: Status Effects
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (17, 635); --Static Charge
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (17, 648); --Tough
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (17, 268); --Immune: Status Effects
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (17, 346); --Static Charge
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (17, 359); --Tough
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (17, 208); --Brilliant
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (17, 299); --Electric Jolt
 
@@ -8420,7 +8424,7 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (270, 4);
 --GangMemberIndex 18
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (18, 0, 'Herald of Vulcanis', 'Faerie Dragon', 'MiniBoss', 8, 6, 4, 153);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (18, 551); --Immune: Fire
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (18, 262); --Immune: Fire
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (18, 326); --Flaming Javelin
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (18, 473); --Phalanx
 
@@ -8438,9 +8442,9 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (271, 4);
 --GangMemberIndex 19
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (19, 0, 'Iron Golem', 'Faerie Dragon', 'MiniBoss', 8, 6, 4, 154);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (19, 564); --Knockdown
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (19, 554); --Immune: Knockdown
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (19, 587); --Pile-On
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (19, 275); --Knockdown
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (19, 265); --Immune: Knockdown
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (19, 298); --Pile-On
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (19, 552); --Shield Wall
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (19, 617); --Sword Toss
 
@@ -8459,7 +8463,7 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (272, 3);
 --GangMemberIndex 20
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (20, 0, 'Jack Scarecrow', 'Construct', 'MiniBoss', 6, 6, 4, 155);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (20, 517); --Flammable
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (20, 228); --Flammable
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (20, 371); --Harvest Scythe
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (20, 214); --Bumper Crop
 
@@ -8477,9 +8481,9 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (273, 2);
 --GangMemberIndex 21
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (21, 0, 'Kaelly the Nether Strider', 'Nether Elf', 'MiniBoss', 7, 6, 3, 156);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (21, 589); --Poison
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (21, 641); --Surefoot
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (21, 637); --Stealth
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (21, 300); --Poison
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (21, 352); --Surefoot
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (21, 348); --Stealth
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (21, 255); --Dark Aura
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (21, 381); --Hex Bolt
 
@@ -8498,7 +8502,7 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (274, 4);
 --GangMemberIndex 22
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (22, 0, 'Kasaro To', 'Oni', 'MiniBoss', 6, 7, 3, 157);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (22, 648); --Tough
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (22, 359); --Tough
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (22, 686); --Zealotry
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (22, 536); --Serpent Coil
 
@@ -8516,7 +8520,7 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (275, 3);
 --GangMemberIndex 23
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (23, 0, 'Kunoichi Candy', 'Human', 'MiniBoss', 6, 6, 3, 158);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (23, 637); --Stealth
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (23, 348); --Stealth
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (23, 454); --Ninja Assassin
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (23, 280); --Distracting Costume
 
@@ -8534,7 +8538,7 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (276, 2);
 --GangMemberIndex 24
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (24, 0, 'Ninja Cola', 'Kitsune', 'MiniBoss', 7, 5, 5, 159);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (24, 626); --Small
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (24, 337); --Small
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (24, 611); --Super Shuriken
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (24, 344); --Frosty Soda Bomb
 
@@ -8553,7 +8557,7 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (277, 3);
 --GangMemberIndex 25
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (25, 0, 'Oni', 'Oni', 'MiniBoss', 6, 8, 3, 160);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (25, 503); --Elemental Affinity
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (25, 214); --Elemental Affinity
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (25, 272); --Devour
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (25, 275); --Disaster
 
@@ -8588,10 +8592,10 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (279, 4);
 --GangMemberIndex 27
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (27, 0, 'Rock Gut (v1)', 'Troll', 'MiniBoss', 6, 6, 3, 162);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (27, 512); --Fire
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (27, 551); --Immune: Fire
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (27, 508); --Feed Me
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (27, 648); --Tough
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (27, 223); --Fire
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (27, 262); --Immune: Fire
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (27, 399); --Feed Me
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (27, 359); --Tough
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (27, 316); --Feast
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (27, 216); --Burning Bile
 
@@ -8609,10 +8613,10 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (280, 4);
 --GangMemberIndex 28
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (28, 0, 'Rock Gut (v2)', 'Troll', 'MiniBoss', 6, 7, 3, 162);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (28, 512); --Fire
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (28, 551); --Immune: Fire
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (28, 508); --Feed Me
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (28, 648); --Tough
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (28, 223); --Fire
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (28, 262); --Immune: Fire
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (28, 399); --Feed Me
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (28, 359); --Tough
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (28, 316); --Feast
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (28, 216); --Burning Bile
 
@@ -8631,8 +8635,8 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (281, 4);
 --GangMemberIndex 29
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (29, 0, 'Salt', 'Faerie', 'MiniBoss', 6, 7, 4, 163);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (29, 557); --Immune: Status Effects
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (29, 518); --Fly
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (29, 268); --Immune: Status Effects
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (29, 229); --Fly
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (29, 310); --Extreme Weather
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (29, 233); --Circle of Salt
 
@@ -8650,7 +8654,7 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (282, 1);
 --GangMemberIndex 30
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (30, 0, 'Ser Sharpclaw', 'Kobold', 'MiniBoss', 8, 7, 3, 164);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (30, 550); --Surefoot
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (30, 352); --Surefoot
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (30, 686); --Zealotry
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (30, 230); --Chomp!  Crunch!
 
@@ -8668,7 +8672,7 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (283, 4);
 --GangMemberIndex 31
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (31, 0, 'Ser Snapjaw', 'Kobold', 'MiniBoss', 7, 6, 3, 165);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (31, 554); --Immune: Knockdown
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (31, 265); --Immune: Knockdown
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (31, 384); --Hightower
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (31, 186); --Blazing Blade
 
@@ -8687,8 +8691,8 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (284, 2);
 --GangMemberIndex 32
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (32, 0, 'Shadow-Mode Candy', 'Nether Shadow', 'MiniBoss', 6, 6, 2, 166);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (32, 557); --Immune: Status Effects
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (32, 495); --Dark Radiance
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (32, 268); --Immune: Status Effects
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (32, 206); --Dark Radiance
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (32, 545); --Shadow
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (32, 257); --Dark Howling
 
@@ -8706,7 +8710,7 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (285, 3);
 --GangMemberIndex 33
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (33, 0, 'Succubus Vandella', 'Demon', 'MiniBoss', 7, 6, 4, 167);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (33, 518); --Fly
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (33, 229); --Fly
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (33, 205); --Breathtaking Kiss
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (33, 239); --Come Hither
 
@@ -8724,53 +8728,10 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (286, 4);
 --GangMemberIndex 34
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (34, 0, 'Trent', 'Treant Kodama', 'MiniBoss', 6, 8, 3, 169);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (34, 550); --Immune: Poison
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (34, 552); --Virulent
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (34, 266); --Immune: Poison
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (34, 362); --Virulent
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (34, 202); --Decay
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (34, 312); --Overgrowth
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 --FK Bosses
@@ -8788,10 +8749,10 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (287, 3);
 --GangMemberIndex 35
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (35, 0, 'Beatrix the Witch Queen', 'Witch', 'Boss', 8, 10, 4, 170);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (35, 557); --Immune: Status Effects
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (35, 518); --Fly
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (35, 524); --Ghostmancer
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (35, 563); --Kitty Claws
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (35, 268); --Immune: Status Effects
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (35, 229); --Fly
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (35, 235); --Ghostmancer
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (35, 274); --Kitty Claws
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (35, 212); --Bubble & Boil
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (35, 253); --Curses
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (35, 495); --Pumpkin Charge
@@ -8811,9 +8772,9 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (288, 3);
 --GangMemberIndex 36
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (36, 0, 'The Forgotten King', 'Chimera', 'Boss', 8, 10, 4, 171);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (36, 550); --Immune: Poison
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (36, 547); --Hubris
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (36, 641); --Surefoot
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (36, 266); --Immune: Poison
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (36, 258); --Hubris
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (36, 352); --Surefoot
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (36, 603); --Stranglethorn
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (36, 504); --Primal Roar
 
@@ -8832,10 +8793,10 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (289, 3);
 --GangMemberIndex 37
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (37, 0, 'Goro', 'Faerie', 'Boss', 8, 12, 3, 172);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (37, 557); --Immune: Knockdown
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (37, 550); --Immune: Bane
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (37, 508); --Feed Me
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (37, 518); --Fly
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (37, 265); --Immune: Knockdown
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (37, 261); --Immune: Bane
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (37, 399); --Feed Me
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (37, 229); --Fly
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (37, 271); --Devour
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (37, 436); --Meddlesome Giri
 
@@ -8853,9 +8814,9 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (290, 1);
 --GangMemberIndex 38
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (38, 0, 'King Starfire', 'Treant Kodama', 'Boss', 6, 8, 3, 173);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (38, 512); --Fire
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (38, 551); --Immune: Fire
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (38, 518); --Fly
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (38, 223); --Fire
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (38, 262); --Immune: Fire
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (38, 229); --Fly
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (38, 620); --Tail Sweep
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (38, 403); --Inferno
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (38, 291); --Dragon Horn
@@ -8874,9 +8835,9 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (291, 1);
 --GangMemberIndex 39
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (39, 0, 'Nocturne', 'Shapeshift', 'Boss', 8, 8, 4, 174);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (39, 475); --Blood Drinker
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (39, 518); --Fly
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (39, 622); --Shapeshift: Von Drakk
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (39, 186); --Blood Drinker
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (39, 229); --Fly
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (39, 333); --Shapeshift: Von Drakk
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (39, 315); --Feast
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (39, 261); --Dead Cold
 
@@ -8894,9 +8855,9 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (292, 1);
 --GangMemberIndex 40
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (40, 0, 'Ragin'' Roxor (v1)', 'Shapeshift', 'Boss', 8, 10, 3, 175);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (40, 512); --Fire
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (40, 551); --Immune: Fire
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (40, 618); --Shapeshift: Rockin' Roxor
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (40, 223); --Fire
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (40, 262); --Immune: Fire
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (40, 329); --Shapeshift: Rockin' Roxor
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (40, 664); --Volcano
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (40, 444); --Molten Steel
 
@@ -8911,12 +8872,12 @@ insert into Characters (CardIndex) VALUES (378);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
 VALUES (293, 493, -1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (293, 1); --Citrine
---GangMemberIndex 42
+--GangMemberIndex 41
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (41, 0, 'Ragin'' Roxor (v2)', 'Shapeshift', 'Boss', 6, 10, 4, 175);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (41, 512); --Fire
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (41, 551); --Immune: Fire
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (41, 618); --Shapeshift: Rockin' Roxor
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (41, 223); --Fire
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (41, 262); --Immune: Fire
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (41, 329); --Shapeshift: Rockin' Roxor
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (41, 664); --Volcano
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (41, 444); --Molten Steel
 
@@ -8934,9 +8895,9 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (294, 4);
 --GangMemberIndex 42
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (42, 0, 'Rockin'' Roxor (v1)', 'Elemental', 'Boss', 6, 10, 5, 176);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (42, 557); --Immune: Status Effects
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (42, 481); --Burrow
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (42, 617); --Shapeshift: Ragin' Roxor
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (42, 268); --Immune: Status Effects
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (42, 192); --Burrow
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (42, 328); --Shapeshift: Ragin' Roxor
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (42, 225); --Cave In
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (42, 643); --Tremors
 
@@ -8954,9 +8915,9 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (295, 4);
 --GangMemberIndex 43
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (43, 0, 'Rockin'' Roxor (v2)', 'Elemental', 'Boss', 6, 10, 6, 176);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (43, 557); --Immune: Status Effects
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (43, 481); --Burrow
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (43, 617); --Shapeshift: Ragin' Roxor
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (43, 268); --Immune: Status Effects
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (43, 192); --Burrow
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (43, 328); --Shapeshift: Ragin' Roxor
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (43, 225); --Cave In
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (43, 643); --Tremors
 
@@ -8974,8 +8935,8 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (296, 1);
 --GangMemberIndex 44
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (44, 0, 'Starfire', 'Dragon', 'Boss', 8, 10, 4, 177);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (44, 551); --Immune: Fire
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (44, 518); --Fly
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (44, 262); --Immune: Fire
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (44, 229); --Fly
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (44, 403); --Inferno
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (44, 620); --Tail Sweep
 
@@ -8994,14 +8955,14 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (297, 3);
 --GangMemberIndex 45
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (45, 0, 'Von Drakk', 'Undead Vampire', 'Boss', 8, 8, 3, 178);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (45, 475); --Blood Drinker
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (45, 616); --Shapeshift: Nocturne
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (45, 186); --Blood Drinker
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (45, 327); --Shapeshift: Nocturne
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (45, 353); --Ghastly Vigor
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (45, 165); --Army of Bone
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (45, 397); --Hypnotic Gaze
 --FK --Warband Gangs
 --Bramble Knight
---Bramble Knight --CardIndex 383	--CharacterIndex 296	--ArcadeCharacterIndex 47
+--Bramble Knight --CardIndex 383	--CharacterIndex 298	--ArcadeCharacterIndex 46
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Bramble Knight',
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Bramble_Knight/Card_Arcade_Warband_Bramble_Knight_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Bramble_Knight/Card_Arcade_Warband_Bramble_Knight_FK_back.png', 
@@ -9010,16 +8971,16 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Once the Bramble Knights were great Heores of Crystalia.  The statues erected in their honor were timeless memorials to the brave warriors who defended the kingdom and Fae Wood with their lives.<br>When the Forgotten King sought to challenge the rightful rule of Crystalia, the Bramble Knights sworn to him marched under his banner.  Bitter civil war raged througout the realm.  Only when the elves of the Fae Wood joined the fight were the Forgotten King''s forces finally stopped.<br>As punishment for their treachery the once gallant Bramble Knights shared the Forgotten King''s fate.  Cursed by their own treasonous lord they were transformed into chimera.  No longer human, nor beast, they became monsters and were banished to the Lordship Ruins.<br>Centuries later they still dwell within its crumbled halls, nurturing old hates, and plotting their reemergence under the Dark Consul''s banner.');
 insert into Characters (CardIndex) VALUES (383);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (296, 0, -1);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (296, 2); --Emerald
---GangMemberIndex 47
+VALUES (298, 0, -1);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (298, 2); --Emerald
+--GangMemberIndex 46
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (47, 0, 'Bramble Knight', 'Spawning Point', '', 0, 4, 1, 179);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (47, 557); --Immune: Status Effects
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (47, 478); --Bramble Growth
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (47, 661); --Spawning Pool
+VALUES (46, 0, 'Bramble Knight', 'Spawning Point', '', 0, 4, 1, 179);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (46, 268); --Immune: Status Effects
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (46, 189); --Bramble Growth
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (46, 372); --Spawning Pool
 
---Executioners --CardIndex 384	--CharacterIndex 297	--ArcadeCharacterIndex 48
+--Executioners --CardIndex 384	--CharacterIndex 299	--ArcadeCharacterIndex 47, 48
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Bramble Knight',
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Bramble_Knight/Card_Arcade_Warband_Bramble_Knight_Executioners_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Bramble_Knight/Card_Arcade_Warband_Bramble_Knight_Executioners_FK_back.png', 
@@ -9028,19 +8989,19 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Squards of Executioners were dispatched to carry out The Forgotten King''s "justice" against any who would not rally to his cause against the First King.  Ruthless in their methods, the Executioners became a feared sight that haunt the long memories of Crystalians even now.');
 insert into Characters (CardIndex) VALUES (384);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (297, 142, 154);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (297, 1); --Citrine
+VALUES (299, 142, 154);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (299, 1); --Citrine
+--GangMemberIndex 47
+insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
+VALUES (47, 0, 'Grobbit Executioner', 'Chimera', 'Elite', 5, 3, 2, 182);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (47, 282); --Massive Damaage
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (47, 266); --Death Sentence
 --GangMemberIndex 48
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (48, 0, 'Grobbit Executioner', 'Chimera', 'Elite', 5, 3, 2, 182);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (48, 571); --Massive Damaage
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (48, 266); --Death Sentence
---GangMemberIndex 49
-insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (48, 1, 'Billmen', 'Chimera', 'Minion', 5, 1, 1, 180);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (49, 625); --Slow
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (48, 336); --Slow
 
---House of Frog --CardIndex 385	--CharacterIndex 298	--ArcadeCharacterIndex 49
+--House of Frog --CardIndex 385	--CharacterIndex 300	--ArcadeCharacterIndex 49, 50
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Bramble Knight',
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Bramble_Knight/Card_Arcade_Warband_Bramble_Knight_House_of_Frog_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Bramble_Knight/Card_Arcade_Warband_Bramble_Knight_House_of_Frog_FK_back.png', 
@@ -9049,22 +9010,22 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Formed after the curse wrought upon them by The Forgotten King, the House of Frog seeks to maintain the ancient codes of chivalric combat that once inspired the Bramble Knight order.');
 insert into Characters (CardIndex) VALUES (385);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (298, 132, 142);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (298, 2); --Emerald
---GangMemberIndex 50
+VALUES (300, 132, 142);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (300, 2); --Emerald
+--GangMemberIndex 49
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (49, 0, 'Grobbit Executioner', 'Chimera', 'Elite', 8, 2, 2, 181);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (50, 641); --Surefoot
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (50, 340); --Frogger
---GangMemberIndex 51
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (49, 352); --Surefoot
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (49, 340); --Frogger
+--GangMemberIndex 50
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (49, 1, 'Billmen', 'Chimera', 'Minion', 8, 2, 2, 181);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (51, 564); --Knockdown
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (51, 641); --Surefoot
+VALUES (50, 1, 'Billmen', 'Chimera', 'Minion', 8, 2, 2, 181);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (50, 275); --Knockdown
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (50, 352); --Surefoot
 
 
 --Claw Shrine
---Claw Shrine --CardIndex 386	--CharacterIndex 299	--ArcadeCharacterIndex 50
+--Claw Shrine --CardIndex 386	--CharacterIndex 301	--ArcadeCharacterIndex 51
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Claw Shrine',
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Claw_Shrine/Card_Arcade_Warband_Claw_Shrine_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Claw_Shrine/Card_Arcade_Warband_Claw_Shrine_FK_back.png', 
@@ -9073,16 +9034,16 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'While the Cult of the Burning Star has its origins in the worship of the Ruby Dragon Starfire, similar cults have spread throughout Crystalia and encompass the worship of all the dragons.  Established by Dragon Priests to enforce order, while venerating the dragon which they serve, Claw Shrines are imortant locations within any kobold warren.  At the shrine, revered drake hatchlings are bonded with worthy kobolds to form vicious draconic packs that patrol the kobolds'' territory.  Ironscales who have proved themselves in battle are elevated to the rank of Templar--provided they can survive the ordeal of breaking a deadly Wyrmfang Raptor to be their mount.  Most terrifying of all are the sinister Black Claw Assassins.  Anointed by the Dragon Priests as the divine retribution of the dragon, they bring their masters wrath, and swift death, to all who would betray the cult.');
 insert into Characters (CardIndex) VALUES (386);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (299, 0, -1);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (299, 2); --Emerald
---GangMemberIndex 52
+VALUES (301, 0, -1);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (301, 2); --Emerald
+--GangMemberIndex 51
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (50, 0, 'Claw Shrine', 'Spawning Point', '', 0, 4, 1, 183);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (52, 557); --Immune: Status Effects
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (52, 500); --Dragon Blessing
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (52, 663); --Spawning Pool
+VALUES (51, 0, 'Claw Shrine', 'Spawning Point', '', 0, 4, 1, 183);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (51, 268); --Immune: Status Effects
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (51, 211); --Dragon Blessing
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (51, 374); --Spawning Pool
 
---Black Claws --CardIndex 387	--CharacterIndex 300	--ArcadeCharacterIndex 51
+--Black Claws --CardIndex 387	--CharacterIndex 302	--ArcadeCharacterIndex 52, 53
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Black Claws',
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Claw_Shrine/Card_Arcade_Warband_Claw_Shrine_Black_Claws_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Claw_Shrine/Card_Arcade_Warband_Claw_Shrine_Black_Claws_FK_back.png', 
@@ -9091,21 +9052,21 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'When an adversary proves too strong for even the endless horde, Dragon Priests dispatch the sinister Black Claws to eliminate their foe.  Coating their blades in a deadly concoction of fangberry juice and drake belly tar, the Black Claws strike from the shadowy corners of the dungeon.');
 insert into Characters (CardIndex) VALUES (387);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (300, 142, 153);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (300, 2); --Emerald
+VALUES (302, 142, 153);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (302, 2); --Emerald
+--GangMemberIndex 52
+insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
+VALUES (52, 0, 'Black Claw Assassin', 'Kobold', 'Elite', 6, 2, 2, 184);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (52, 178); --Backstabber
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (52, 347); --Stealth
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (52, 170); --Assassinate
 --GangMemberIndex 53
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (51, 0, 'Black Claw Assassin', 'Kobold', 'Elite', 6, 2, 2, 184);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (53, 557); --Backstabber
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (53, 478); --Stealth
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (53, 170); --Assassinate
---GangMemberIndex 54
-insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (51, 1, 'Black Claw Assassin', 'Kobold', 'Elite', 6, 2, 2, 184);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (53, 557); --Backstabber
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (53, 478); --Stealth
+VALUES (53, 1, 'Black Claw Assassin', 'Kobold', 'Elite', 6, 2, 2, 184);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (53, 178); --Backstabber
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (53, 347); --Stealth
 
---Blood Trackers --CardIndex 388	--CharacterIndex 301	--ArcadeCharacterIndex 52
+--Blood Trackers --CardIndex 388	--CharacterIndex 303	--ArcadeCharacterIndex 54, 55
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Blood Trackers',
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Claw_Shrine/Card_Arcade_Warband_Claw_Shrine_Blood_Trackers_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Claw_Shrine/Card_Arcade_Warband_Claw_Shrine_Blood_Trackers_FK_back.png', 
@@ -9114,21 +9075,21 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Venturing across barren mountainscapes and through deep forgotten tunnels, Claw Trainers search for clutches of drake eggs.  Once found, they return the eggs to the clan, but not before keeping the largest eggs for themselves.  Upon the drakes hatching the trainers gift the hatchlings to their favored kin.');
 insert into Characters (CardIndex) VALUES (388);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (301, 133, 254);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (301, 1); --Citrine
+VALUES (303, 133, 254);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (303, 1); --Citrine
 --GangMemberIndex 54
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (52, 0, 'Claw Trainer', 'Kobold', 'Elite', 6, 1, 1, 185);
+VALUES (54, 0, 'Claw Trainer', 'Kobold', 'Elite', 6, 1, 1, 185);
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (54, 470); --Packmaster
 --GangMemberIndex 55
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (52, 1, 'Drake Hound', 'Drake', 'Minion', 6, 2, 1, 186);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (55, 564); --Knockdown
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (55, 587); --Pile-on
+VALUES (55, 1, 'Drake Hound', 'Drake', 'Minion', 6, 2, 1, 186);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (55, 275); --Knockdown
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (55, 298); --Pile-on
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (55, 188); --Blood Scent
 
 --Egg Clutch
---Egg Clutch --CardIndex 389	--CharacterIndex 302	--ArcadeCharacterIndex 53
+--Egg Clutch --CardIndex 389	--CharacterIndex 304	--ArcadeCharacterIndex 56
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Egg Clutch',
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Egg_Clutch/Card_Arcade_Warband_Egg_Clutch_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Egg_Clutch/Card_Arcade_Warband_Egg_Clutch_FK_back.png', 
@@ -9137,17 +9098,17 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Wherever a dragon makes its lair its draconic kin, drakes, are sure to be found.  Territorial and savage these lesser beasts submit entirely to the will of the dragon.  In exchange for the dragon''s protection the drakes serve as the dragon''s eys, ears, and faithful guards.<br>When hunting a dragon, Heroes inevitably have to make their way through hordes of drakes that throw themselves in the path of the Heroes.  Larger drakes attempt to drag their foes to the ground so smaller hatchlings can swarm over their helpless prey.  Above, elder wyrmlings swoop and dart, spitting fire at the invaders.');
 insert into Characters (CardIndex) VALUES (389);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (302, 0, -1);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (302, 2); --Emerald
+VALUES (304, 0, -1);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (304, 2); --Emerald
 --GangMemberIndex 56
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (53, 0, 'Egg Clutch', 'Spawning Point', '', 0, 4, 1, 187);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (56, 557); --Immune: Status Effects
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (56, 599); --Quick Hatch
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (56, 665); --Spawning Pool
+VALUES (56, 0, 'Egg Clutch', 'Spawning Point', '', 0, 4, 1, 187);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (56, 268); --Immune: Status Effects
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (56, 310); --Quick Hatch
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (56, 376); --Spawning Pool
 
 --Dragonborn
---Dragonborn --CardIndex 390	--CharacterIndex 303	--ArcadeCharacterIndex 54
+--Dragonborn --CardIndex 390	--CharacterIndex 305	--ArcadeCharacterIndex 57, 58, 59
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Dragonborn',
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Egg_Clutch/Card_Arcade_Warband_Egg_Clutch_Dragonborn_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Egg_Clutch/Card_Arcade_Warband_Egg_Clutch_Dragonborn_FK_back.png', 
@@ -9156,26 +9117,26 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 '');
 insert into Characters (CardIndex) VALUES (390);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (303, 133, 254);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (303, 1); --Citrine
+VALUES (305, 133, 254);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (305, 1); --Citrine
 --GangMemberIndex 57
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (54, 0, 'Wyrmling', 'Drake', 'Elite', 5, 2, 2, 190);
+VALUES (57, 0, 'Wyrmling', 'Drake', 'Elite', 5, 2, 2, 190);
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (57, 518); --Fly
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (57, 323); --Flame Burst
 --GangMemberIndex 58
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (54, 1, 'Whelp', 'Drake', 'Minion', 5, 1, 2, 189);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (58, 564); --Knockdown
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (58, 479); --Bruiser
+VALUES (58, 1, 'Whelp', 'Drake', 'Minion', 5, 1, 2, 189);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (58, 275); --Knockdown
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (58, 190); --Bruiser
 --GangMemberIndex 59
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (54, 2, 'Hatchlings', 'Drake', 'Minion', 5, 2, 1, 188);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (59, 587); --Pile-on
+VALUES (59, 2, 'Hatchlings', 'Drake', 'Minion', 5, 2, 1, 188);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (59, 298); --Pile-on
 
 
 --Elemental Shrine
---Elemental Shrine --CardIndex 391	--CharacterIndex 304	--ArcadeCharacterIndex 55
+--Elemental Shrine --CardIndex 391	--CharacterIndex 306	--ArcadeCharacterIndex 60
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Elemental Shrine',
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Elemental_Shrine/Card_Arcade_Warband_Elemental_Shrine_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Elemental_Shrine/Card_Arcade_Warband_Elemental_Shrine_FK_back.png', 
@@ -9184,18 +9145,18 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 '');
 insert into Characters (CardIndex) VALUES (391);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (304, 0, -1);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (304, 3); --Ruby
+VALUES (306, 0, -1);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (306, 3); --Ruby
 --GangMemberIndex 60
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (55, 0, 'Elemental Shrine', 'Paired Spawning Point', '', 0, 0, 3, 187);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (60, 557); --Immune: Status Effects
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (60, 503); --Elemental Affinity
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (60, 637); --Stealth
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (60, 667); --Spawning Pool
+VALUES (60, 0, 'Elemental Shrine', 'Paired Spawning Point', '', 0, 0, 3, 187);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (60, 268); --Immune: Status Effects
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (60, 214); --Elemental Affinity
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (60, 347); --Stealth
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (60, 378); --Spawning Pool
 
 --Mystic Team
---Mystic Team --CardIndex 392	--CharacterIndex 305	--ArcadeCharacterIndex 56
+--Mystic Team --CardIndex 392	--CharacterIndex 307	--ArcadeCharacterIndex 61, 62, 63
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Mystic Team',
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Elemental_Shrine/Card_Arcade_Warband_Elemental_Shrine_Mystic_Team_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Elemental_Shrine/Card_Arcade_Warband_Elemental_Shrine_Mystic_Team_FK_back.png', 
@@ -9204,27 +9165,27 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 '');
 insert into Characters (CardIndex) VALUES (392);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (305, 124, 354);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (305, 3); --Ruby
+VALUES (307, 124, 354);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (307, 3); --Ruby
 --GangMemberIndex 61
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (56, 0, 'Madoushi', 'Ninja', 'Elite', 6, 2, 1, 195);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (61, 637); --Stealth
+VALUES (61, 0, 'Madoushi', 'Ninja', 'Elite', 6, 2, 1, 195);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (61, 348); --Stealth
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (61, 323); --Poisoned Weapons
 --GangMemberIndex 62
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (56, 1, 'Kaiken', 'Ninja', 'Minion', 6, 1, 1, 193);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (62, 564); --Back Strike
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (62, 479); --Bruiser
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (62, 637); --Stealth
+VALUES (62, 1, 'Kaiken', 'Ninja', 'Minion', 6, 1, 1, 193);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (62, 175); --Back Strike
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (62, 190); --Bruiser
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (62, 348); --Stealth
 --GangMemberIndex 63
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (56, 2, 'Yajiri', 'Ninja', 'Minion', 6, 1, 1, 196);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (63, 604); --Reach
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (63, 637); --Stealth
+VALUES (63, 2, 'Yajiri', 'Ninja', 'Minion', 6, 1, 1, 196);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (63, 315); --Reach
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (63, 348); --Stealth
 
 --Scout Team
---Mystic Team --CardIndex 393	--CharacterIndex 306	--ArcadeCharacterIndex 57
+--Mystic Team --CardIndex 393	--CharacterIndex 308	--ArcadeCharacterIndex 64, 65
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Scout Team',
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Elemental_Shrine/Card_Arcade_Warband_Elemental_Shrine_Scout_Team_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Elemental_Shrine/Card_Arcade_Warband_Elemental_Shrine_Scout_Team_FK_back.png', 
@@ -9233,21 +9194,21 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 '');
 insert into Characters (CardIndex) VALUES (393);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (306, 122, 133);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (306, 2); --Emerald
+VALUES (308, 122, 133);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (308, 2); --Emerald
 --GangMemberIndex 64
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (57, 0, 'Kunoichi', 'Ninja', 'Elite', 8, 1, 1, 194);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (64, 637); --Stealth
+VALUES (64, 0, 'Kunoichi', 'Ninja', 'Elite', 8, 1, 1, 194);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (64, 348); --Stealth
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (64, 675); --Wind in the Forest
 --GangMemberIndex 65
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (57, 1, 'Kunoichi', 'Ninja', 'Elite', 8, 1, 1, 194);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (65, 637); --Stealth
+VALUES (65 , 1, 'Kunoichi', 'Ninja', 'Elite', 8, 1, 1, 194);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (65, 348); --Stealth
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (65, 566); --Smoke Bomb
 
 --Strike Team
---Strike Team --CardIndex 394	--CharacterIndex 307	--ArcadeCharacterIndex 58
+--Strike Team --CardIndex 394	--CharacterIndex 309	--ArcadeCharacterIndex 66, 67, 68
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Strike Team',
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Elemental_Shrine/Card_Arcade_Warband_Elemental_Shrine_Strike_Team_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Elemental_Shrine/Card_Arcade_Warband_Elemental_Shrine_Strike_Team_FK_back.png', 
@@ -9256,29 +9217,29 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 '');
 insert into Characters (CardIndex) VALUES (394);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (307, 232, 353);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (307, 1); --Citrine
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (307, 2); --Emerald
+VALUES (309, 232, 353);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (309, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (309, 2); --Emerald
 --GangMemberIndex 66
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (58, 0, 'Chunin', 'Ninja', 'Elite', 6, 3, 1, 192);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (66, 637); --Stealth
+VALUES (66, 0, 'Chunin', 'Ninja', 'Elite', 6, 3, 1, 192);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (66, 348); --Stealth
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (66, 502); --Precision Strike
 --GangMemberIndex 67
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (58, 1, 'Kaiken', 'Ninja', 'Minion', 6, 1, 1, 193);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (67, 564); --Back Strike
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (67, 479); --Bruiser
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (67, 637); --Stealth
+VALUES (67, 1, 'Kaiken', 'Ninja', 'Minion', 6, 1, 1, 193);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (67, 175); --Back Strike
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (67, 190); --Bruiser
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (67, 348); --Stealth
 --GangMemberIndex 68
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (58, 2, 'Yajiri', 'Ninja', 'Minion', 6, 1, 0, 196);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (68, 604); --Reach
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (68, 637); --Stealth Bomb
+VALUES (68, 2, 'Yajiri', 'Ninja', 'Minion', 6, 1, 0, 196);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (68, 315); --Reach
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (68, 348); --Stealth
 
 
 --Fungal Growth
---Fungal Growth --CardIndex 395	--CharacterIndex 308	--ArcadeCharacterIndex 59
+--Fungal Growth --CardIndex 395	--CharacterIndex 310	--ArcadeCharacterIndex 69
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Fungal Growth',
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Fungal_Growth/Card_Arcade_Warband_Fungal_Growth_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Fungal_Growth/Card_Arcade_Warband_Fungal_Growth_FK_back.png', 
@@ -9287,17 +9248,17 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Like kodama, kinoko are spirits of the forest.  When uncorrupted by the Dark Consul they are servants of the Deeproot Tree.  Fun loving and given to a pleasant disposition, natural kinoko enjoy nothing more than bouncing through the forest, making absurd squishing noises and burbling happily to birds and forest spirits.<br>Under the Dark Consul''s influence they become territorial and grumpy, shredding great clouds of spores that send Heroes into an enchanted slumber.  once snoozing soundly, the kinoko bounce the sleeping Heroes off cliffs, into spider holes, or monsters'' waiting jaws.');
 insert into Characters (CardIndex) VALUES (391);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (308, 0, -1);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (308, 2); --Emerald
+VALUES (310, 0, -1);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (310, 2); --Emerald
 --GangMemberIndex 69
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (59, 0, 'Fungal Growth', 'Spawning Point', '', 0, 4, 1, 197);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (69, 557); --Immune: Status Effects
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (69, 630); --Soporific Cloud
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (69, 669); --Spawning Pool
+VALUES (69, 0, 'Fungal Growth', 'Spawning Point', '', 0, 4, 1, 197);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (69, 268); --Immune: Status Effects
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (69, 341); --Soporific Cloud
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (69, 380); --Spawning Pool
 
 --Fungus Brigade
---Fungus Brigade --CardIndex 396	--CharacterIndex 309	--ArcadeCharacterIndex 60
+--Fungus Brigade --CardIndex 396	--CharacterIndex 311	--ArcadeCharacterIndex 70, 71
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Fungus Brigade',
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Fungal_Growth/Card_Arcade_Warband_Fungal_Growth_Fungus_Brigade_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Fungal_Growth/Card_Arcade_Warband_Fungal_Growth_Fungus_Brigade_FK_back.png', 
@@ -9306,22 +9267,22 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Kinoko are naturally curious and playful creatures--though not particularly complex.  Most kinoko are happy to bounce through the forest whistling and singing.  They are especially fond of spinning in circles until dizzy, whereupon they collapse in a fit of giggles.');
 insert into Characters (CardIndex) VALUES (396);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (309, 132, 353);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (309, 1); --Citrine
+VALUES (311, 132, 353);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (311, 1); --Citrine
 --GangMemberIndex 70
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (60, 0, 'Okoshroom', 'Kinoko', 'Elite', 5, 4, 2, 199);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (70, 634); --Spongy
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (70, 629); --Soporific
+VALUES (70, 0, 'Okoshroom', 'Kinoko', 'Elite', 5, 4, 2, 199);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (70, 345); --Spongy
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (70, 340); --Soporific
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (70, 670); --Whirling Shitake
 --GangMemberIndex 71
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (60, 1, 'Kinoshroom', 'Kinoko', 'Minion', 5, 1, 1, 198);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (70, 634); --Spongy
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (70, 629); --Soporific
+VALUES (71, 1, 'Kinoshroom', 'Kinoko', 'Minion', 5, 1, 1, 198);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (71, 345); --Spongy
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (71, 340); --Soporific
 
 --Pig Patrol
---Pig Patrol --CardIndex 397	--CharacterIndex 310	--ArcadeCharacterIndex 61
+--Pig Patrol --CardIndex 397	--CharacterIndex 312	--ArcadeCharacterIndex 72, 73
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Pig Patrol',
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Fungal_Growth/Card_Arcade_Warband_Fungal_Growth_Pig_Patrol_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Fungal_Growth/Card_Arcade_Warband_Fungal_Growth_Pig_Patrol_FK_back.png', 
@@ -9330,21 +9291,21 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Packs of Truffle Pigs patrol the edges of Kinoko territory, guarding the playful forest spirits from harm.  When invaders are found great squeals of anger echo through the forest as the Truffle Pigs charge.');
 insert into Characters (CardIndex) VALUES (397);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (310, 132, 353);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (310, 1); --Citrine
+VALUES (312, 132, 353);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (312, 1); --Citrine
 --GangMemberIndex 72
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (61, 0, 'Truffle Pig', 'Pig', 'Elite', 6, 2, 2, 199);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (72, 564); --Knockdown
+VALUES (72, 0, 'Truffle Pig', 'Pig', 'Elite', 6, 2, 2, 199);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (72, 275); --Knockdown
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (72, 348); --Funky Fungus Sniffer
 --GangMemberIndex 73
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (61, 1, 'Truffle Pig', 'Pig', 'Elite', 6, 2, 2, 198);
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (72, 653); --Tusker Charge
+VALUES (73, 1, 'Truffle Pig', 'Pig', 'Elite', 6, 2, 2, 198);
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (73, 653); --Tusker Charge
 
 
 --Grabby House
---Grabby House --CardIndex 398	--CharacterIndex 311	--ArcadeCharacterIndex 62
+--Grabby House --CardIndex 398	--CharacterIndex 313	--ArcadeCharacterIndex 74
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Grabby House',
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Grabby_House/Card_Arcade_Warband_Grabby_House_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Grabby_House/Card_Arcade_Warband_Grabby_House_FK_back.png', 
@@ -9353,17 +9314,17 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'While skeletons of the long dead are the most common undead terror to stalk the Glauerdoom Moor, the freshly deceased are also frequently disturbed from their eternal slumber to become zombies.  Any will that a zombie may still retain its extinguished by the crushing madness of the Shamble Priest''s desires.<br>Nursing old grudges, or merely indulging in insane fantasy, Shamble Priests drive shuffling herds of zombies into townships, wreaking terror and carnage.  When homes are overrun they become new focal points of necromantic energy that the Shamble Priests use to spawn still more zombies and grow their horde.');
 insert into Characters (CardIndex) VALUES (398);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (311, 0, -1);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (311, 4); --Sapphire
+VALUES (313, 0, -1);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (313, 4); --Sapphire
 --GangMemberIndex 74
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (62, 0, 'Grabby House', 'Paired Spawning Point', '', 0, 3, 1, 201);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (74, 557); --Immune: Status Effects
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (74, 530); --Grabby Hands
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (74, 671); --Spawning Pool
+VALUES (74, 0, 'Grabby House', 'Paired Spawning Point', '', 0, 3, 1, 201);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (74, 268); --Immune: Status Effects
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (74, 240); --Grabby Hands
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (74, 382); --Spawning Pool
 
 --Grave Robbers
---Grave Robbers --CardIndex 399	--CharacterIndex 312	--ArcadeCharacterIndex 63
+--Grave Robbers --CardIndex 399	--CharacterIndex 314	--ArcadeCharacterIndex 75, 76
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Grave Robbers',
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Grabby_House/Card_Arcade_Warband_Grabby_House_Grave_Robbers_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Grabby_House/Card_Arcade_Warband_Grabby_House_Grave_Robbers_FK_back.png', 
@@ -9372,21 +9333,21 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'You''ll do nicely--once you''re dead.');
 insert into Characters (CardIndex) VALUES (399);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (312, 132, 353);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (312, 3); --Ruby
+VALUES (314, 132, 353);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (314, 3); --Ruby
 --GangMemberIndex 75
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (63, 0, 'Shamble Priest', 'Witch', 'Elite', 5, 2, 1, 204);
+VALUES (75, 0, 'Shamble Priest', 'Witch', 'Elite', 5, 2, 1, 204);
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (75, 476); --Pin Cushion
 --GangMemberIndex 76
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (63, 1, 'Prowler', 'Undead Zombie', 'Minion', 8, 2, 1, 202);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (76, 528); --Grabby
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (76, 637); --Stealth
+VALUES (76, 1, 'Prowler', 'Undead Zombie', 'Minion', 8, 2, 1, 202);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (76, 239); --Grabby
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (76, 348); --Stealth
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (76, 390); --Homunculus
 
 --Rotters
---Rotters --CardIndex 400	--CharacterIndex 313	--ArcadeCharacterIndex 64
+--Rotters --CardIndex 400	--CharacterIndex 315	--ArcadeCharacterIndex 77, 78
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Rotters',
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Grabby_House/Card_Arcade_Warband_Grabby_House_Grave_Robbers_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Grabby_House/Card_Arcade_Warband_Grabby_House_Grave_Robbers_FK_back.png', 
@@ -9395,22 +9356,22 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Possessing no intellect other than the instinctive need to feed, zombies shamble through the swamps beneath the stilt towns.  Too dumb to find entrance into the towering shacks, they lurch and moan, making a terrible racket.');
 insert into Characters (CardIndex) VALUES (400);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (313, 132, 363);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (313, 1); --Citrine
+VALUES (315, 132, 363);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (315, 1); --Citrine
 --GangMemberIndex 77
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (64, 0, 'Pudge', 'Undead Zombie', 'Elite', 5, 4, 1, 203);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (77, 528); --Grabby
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (77, 533); --Gross
+VALUES (77, 0, 'Pudge', 'Undead Zombie', 'Elite', 5, 4, 1, 203);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (77, 239); --Grabby
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (77, 243); --Gross
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (77, 277); --Disgusting
 --GangMemberIndex 78
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (64, 1, 'Swampie', 'Undead Zombie', 'Minion', 5, 1, 1, 205);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (78, 528); --Grabby
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (78, 580); --Mob
+VALUES (78, 1, 'Swampie', 'Undead Zombie', 'Minion', 5, 1, 1, 205);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (78, 239); --Grabby
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (78, 291); --Mob
 
 --Kobold Warrens
---Kobold Warrens --CardIndex 401	--CharacterIndex 314	--ArcadeCharacterIndex 65
+--Kobold Warrens --CardIndex 401	--CharacterIndex 316	--ArcadeCharacterIndex 79
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Kobold Warrens',
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Kobold_Warrens/Card_Arcade_Warband_Kobold_Warrens_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Kobold_Warrens/Card_Arcade_Warband_Kobold_Warrens_FK_back.png', 
@@ -9419,17 +9380,17 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Kobolds were the first monsters from the Dark Realm to invade Crystalia, and remain the most numerous.  In the centuries that have passed since the banishment of the Dark Consul, kobolds have only increased in numbers.  Supremely adaptable and remarkably relentless in their drive to expand, there is no corner of Crystalia untouched by their menace.<br>Fortunately, they are also clannish and given to feuding amongst themselves when left to their own devices.  Whenever possible, Heroes root out clans of kobolds before they unite behind a larger and craftier monster to boss them around.  Otherwise, kobolds become an almost unstoppable scourge.');
 insert into Characters (CardIndex) VALUES (401);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (314, 0, -1);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (314, 1); --Citrine
+VALUES (316, 0, -1);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (316, 1); --Citrine
 --GangMemberIndex 79
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (65, 0, 'Kobold Warrens', 'Paired Spawning Point', '', 0, 4, 1, 206);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (79, 557); --Immune: Status Effects
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (79, 581); --Mob Mentality
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (79, 673); --Spawning Pool
+VALUES (79, 0, 'Kobold Warrens', 'Paired Spawning Point', '', 0, 4, 1, 206);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (79, 268); --Immune: Status Effects
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (79, 292); --Mob Mentality
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (79, 384); --Spawning Pool
 
 --Dragon Devotees
---Dragon Devotees --CardIndex 402	--CharacterIndex 315	--ArcadeCharacterIndex 66
+--Dragon Devotees --CardIndex 402	--CharacterIndex 317	--ArcadeCharacterIndex 80, 81, 82
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Dragon Devotees',
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Kobold_Warrens/Card_Arcade_Warband_Kobold_Warrens_Dragon_Devotees_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Kobold_Warrens/Card_Arcade_Warband_Kobold_Warrens_Dragon_Devotees_FK_back.png', 
@@ -9438,25 +9399,25 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'When lead by a Dragon Priest, kobolds are given over to savage zealotry.  Throwing themselves into combat heedless of their losses they seek only to impress their priest and the dragon whom they serve.');
 insert into Characters (CardIndex) VALUES (402);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (315, 123, 353);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (315, 1); --Citrine
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (315, 3); --Ruby
+VALUES (317, 123, 353);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (317, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (317, 3); --Ruby
 --GangMemberIndex 80
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (66, 0, 'Dragon Priest', 'Kobold', 'Elite', 6, 3, 2, 207);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (80, 580); --Mob
+VALUES (80, 0, 'Dragon Priest', 'Kobold', 'Elite', 6, 3, 2, 207);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (80, 291); --Mob
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (80, 547); --Shadow Breath
 --GangMemberIndex 81
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (66, 1, 'Knucklehead', 'Kobold', 'Minion', 6, 1, 1, 211);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (81, 479); --Bruiser
+VALUES (81, 1, 'Knucklehead', 'Kobold', 'Minion', 6, 1, 1, 211);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (81, 190); --Bruiser
 --GangMemberIndex 82
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (66, 2, 'Gouger', 'Kobold', 'Minion', 6, 1, 0, 209);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (82, 604); --Reach
+VALUES (82, 2, 'Gouger', 'Kobold', 'Minion', 6, 1, 0, 209);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (82, 315); --Reach
 
 --Scale Wall
---Scale Wall --CardIndex 403	--CharacterIndex 316	--ArcadeCharacterIndex 67
+--Scale Wall --CardIndex 403	--CharacterIndex 318	--ArcadeCharacterIndex 83, 84,  85
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Scale Wall',
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Kobold_Warrens/Card_Arcade_Warband_Kobold_Warrens_Scale_Wall_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Kobold_Warrens/Card_Arcade_Warband_Kobold_Warrens_Scale_Wall_FK_back.png', 
@@ -9465,50 +9426,50 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Those kobolds who prove themselves truly capable in a fight are strapped into heavy Ironscale armor and are ordered to lead the charge.  Around them, lesser kobolds fall in line seeking what safety they can from behind the Ironscale''s armored bulk.');
 insert into Characters (CardIndex) VALUES (403);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (316, 132, 253);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (316, 1); --Citrine
+VALUES (318, 132, 253);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (318, 1); --Citrine
 --GangMemberIndex 83
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (67, 0, 'Ironscale', 'Kobold', 'Elite', 6, 2, 2, 210);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (83, 580); --Mob
+VALUES (83, 0, 'Ironscale', 'Kobold', 'Elite', 6, 2, 2, 210);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (83, 291); --Mob
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (83, 553); --Shield Wall
 --GangMemberIndex 84
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (67, 1, 'Knucklehead', 'Kobold', 'Minion', 6, 1, 1, 211);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (84, 479); --Bruiser
+VALUES (84, 1, 'Knucklehead', 'Kobold', 'Minion', 6, 1, 1, 211);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (84, 190); --Bruiser
 --GangMemberIndex 85
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (67, 2, 'Gouger', 'Kobold', 'Minion', 6, 1, 0, 209);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (85, 604); --Reach
+VALUES (85, 2, 'Gouger', 'Kobold', 'Minion', 6, 1, 0, 209);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (85, 315); --Reach
 
 --Sneaks
---Sneaks --CardIndex 404 --CharacterIndex 317	--ArcadeCharacterIndex 68
+--Sneaks --CardIndex 404 --CharacterIndex 319	--ArcadeCharacterIndex 86, 87
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Sneaks',
-'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Kobold_Warrens/Card_Arcade_Warband_Kobold_Warrens_Scale_Wall_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Kobold_Warrens/Card_Arcade_Warband_Kobold_Warrens_Scale_Wall_FK_back.png', 
-'http://htkb.online/SDWiki/SDE/FK/Arcade/Cards/Warbands/Kobold_Warrens/Scale_Wall.xhtml', 
+'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Kobold_Warrens/Card_Arcade_Warband_Kobold_Warrens_Sneaks_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Kobold_Warrens/Card_Arcade_Warband_Kobold_Warrens_Sneaks_FK_back.png', 
+'http://htkb.online/SDWiki/SDE/FK/Arcade/Cards/Warbands/Kobold_Warrens/Sneaks.xhtml', 
 'Warband', 'FK', 'FK Core Set', 'Arcade', 
 'Shifty and untrustworthy, even by kobold standards, Flingers linger on the edge of a combat waiting for the opportune moment to sling their stones at the enemy.  When extra carnage is needed they fling pots of flaming oil and drake tar into the battle, heedless of whom the flame might consume.');
 insert into Characters (CardIndex) VALUES (404);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (317, 132, 253);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (317, 2); --Emerald
+VALUES (319, 132, 253);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (319, 2); --Emerald
 --GangMemberIndex 86
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (68, 0, 'Ironscale', 'Kobold', 'Elite', 6, 1, 1, 208);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (86, 580); --Mob
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (86, 637); --Stealth
+VALUES (86, 0, 'Ironscale', 'Kobold', 'Elite', 6, 1, 1, 208);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (86, 291); --Mob
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (86, 348); --Stealth
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (86, 393); --Hot Pot
 --GangMemberIndex 87
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (68, 1, 'Knucklehead', 'Kobold', 'Minion', 6, 1, 1, 208);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (86, 580); --Mob
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (86, 637); --Stealth
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (86, 394); --Hot Pot
+VALUES (87, 1, 'Knucklehead', 'Kobold', 'Minion', 6, 1, 1, 208);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (87, 291); --Mob
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (87, 348); --Stealth
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (87, 394); --Hot Pot
 
 
 --Lava Whirl
---Lava Whirl --CardIndex 405	--CharacterIndex 318	--ArcadeCharacterIndex 69
+--Lava Whirl --CardIndex 405	--CharacterIndex 320	--ArcadeCharacterIndex 88
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Lava Whirl',
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Lava_Whirl/Card_Arcade_Warband_Lava_Whirl_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Lava_Whirl/Card_Arcade_Warband_Lava_Whirl_FK_back.png', 
@@ -9517,16 +9478,16 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Deep within the Dragonback Peaks beats the Molten Heart, the first source of fire on Crystalia.  From its magma chambers endless rivers of lava bubble and boil to the surface, cascading down the mountainsides forming the Fire Flows.<br>The Fire Flows are surprisingly rich in life considering the harsh environment.  Packs of Ember Hounds stalk its shores, dragging down the weak to be consumed in clouds of poisonous ash.  Massive insects, their carapaces glowing like steel from a forge, drink deep of the molten rock.  Elemental slimes are born by the thousands as volcanic eruptions ravage the landscape.<br>Ruling over it all is the Molten Lord, Roxor.  Ancient as the mountains themselves, Roxor guards the Molten Heart and seeks to extend his fiery influence until all of Crystalia is consumed in flame.');
 insert into Characters (CardIndex) VALUES (405);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (318, 0, -1);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (318, 1); --Citrine
+VALUES (320, 0, -1);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (320, 1); --Citrine
 --GangMemberIndex 88
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (69, 0, 'Lava Whirl', 'Spawning Point', '', 0, 3, 1, 213);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (88, 557); --Immune: Status Effects
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (88, 513); --Fire Aura
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (88, 675); --Spawning Pool
+VALUES (88, 0, 'Lava Whirl', 'Spawning Point', '', 0, 3, 1, 213);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (88, 268); --Immune: Status Effects
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (88, 224); --Fire Aura
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (88, 386); --Spawning Pool
 
---Blaze Beetle --CardIndex 406 --CharacterIndex 319	--ArcadeCharacterIndex 70
+--Blaze Beetle --CardIndex 406 --CharacterIndex 321	--ArcadeCharacterIndex 89
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Blaze Beetle',
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Lava_Whirl/Card_Arcade_Warband_Lava_Whirl_Blaze_Beetle_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Lava_Whirl/Card_Arcade_Warband_Lava_Whirl_Blaze_Beetle_FK_back.png', 
@@ -9535,44 +9496,44 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Subsisting entirely on the molten rock of the Fire Flows, the Blaze Beetle is at home swimming through its magnificent lava rivers.  Blaze Beetles possess a remarkable sense of cruel cunning, burrowing beneath groups of Heroes to erupt from solid stone, bathing them in a shower of fire and rock.');
 insert into Characters (CardIndex) VALUES (406);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (319, 253, -1);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (319, 1); --Citrine
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (319, 4); --Sapphire
+VALUES (321, 253, -1);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (321, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (321, 4); --Sapphire
 --GangMemberIndex 89
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (70, 0, 'Blaze Beetle', 'Elemental Bug', 'Elite', 6, 2, 4, 214);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (86, 551); --Immune: Fire
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (86, 466); --Backlash
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (86, 481); --Burrow
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (86, 350); --Furnace Vent
+VALUES (89, 0, 'Blaze Beetle', 'Elemental Bug', 'Elite', 6, 2, 4, 214);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (89, 262); --Immune: Fire
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (89, 176); --Backlash
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (89, 192); --Burrow
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (89, 350); --Furnace Vent
 
---Burning Pack --CardIndex 407 --CharacterIndex 320	--ArcadeCharacterIndex 71
+--Burning Pack --CardIndex 407 --CharacterIndex 322	--ArcadeCharacterIndex 90, 91
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Burning Pack',
-'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Lava_Whirl/Card_Arcade_Warband_Lava_Whirl_Blaze_Beetle_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Lava_Whirl/Card_Arcade_Warband_Lava_Whirl_Blaze_Beetle_FK_back.png', 
-'http://htkb.online/SDWiki/SDE/FK/Arcade/Cards/Warbands/Lava_Whirl/Blaze_Beetle.xhtml', 
+'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Lava_Whirl/Card_Arcade_Warband_Lava_Whirl_Burning_Pack_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Lava_Whirl/Card_Arcade_Warband_Lava_Whirl_Burning_Pack_FK_back.png', 
+'http://htkb.online/SDWiki/SDE/FK/Arcade/Cards/Warbands/Lava_Whirl/Burning_Pack.xhtml', 
 'Warband', 'FK', 'FK Core Set', 'Arcade', 
 'Prowling through the fiery landscape of the Fire Flows, packs of Ember Hounds conceal their movement in billowing clouds of choking ash.  Preying on Rocktops and fire elementals alike, Ember Hounds are patient and ruthless hunters.');
 insert into Characters (CardIndex) VALUES (407);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (320, 132, 133);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (320, 1); --Citrine
+VALUES (322, 132, 133);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (322, 1); --Citrine
 --GangMemberIndex 90
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (71, 0, 'Ember Hound', 'Elemental Wolf', 'Elite', 8, 2, 2, 216);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (90, 512); --Fire
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (90, 551); --Immune: Fire
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (90, 637); --Stealth
+VALUES (90, 0, 'Ember Hound', 'Elemental Wolf', 'Elite', 8, 2, 2, 216);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (90, 223); --Fire
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (90, 262); --Immune: Fire
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (90, 348); --Stealth
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (90, 557); --Sickening Smoke
 --GangMemberIndex 91
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (71, 1, 'Ember Hound', 'Elemental Wolf', 'Elite', 8, 2, 2, 216);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (91, 512); --Fire
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (91, 551); --Immune: Fire
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (91, 637); --Stealth
+VALUES (91, 1, 'Ember Hound', 'Elemental Wolf', 'Elite', 8, 2, 2, 216);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (91, 223); --Fire
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (91, 262); --Immune: Fire
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (91, 348); --Stealth
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (91, 558); --Sickening Smoke
 
---Flaming Slime --CardIndex 408 --CharacterIndex 321	--ArcadeCharacterIndex 72
+--Flaming Slime --CardIndex 408 --CharacterIndex 323	--ArcadeCharacterIndex 92, 93
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Flaming Slime',
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Lava_Whirl/Card_Arcade_Warband_Lava_Whirl_Flaming_Slime_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Lava_Whirl/Card_Arcade_Warband_Lava_Whirl_Flaming_Slime_FK_back.png', 
@@ -9581,27 +9542,27 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Many believe Fire Slimes possess greater intelligence than their common kin.  If this is the case, it is an intelligence given over entirely to pettiness and spite.  Delighting in lighting anything and everything ablaze, Fire Slimes torch entire regions of Crystalia if not doused quickly.');
 insert into Characters (CardIndex) VALUES (408);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (321, 134, 144);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (321, 3); --Ruby
+VALUES (323, 134, 144);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (323, 3); --Ruby
 --GangMemberIndex 92
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (72, 0, 'Burning Gel', 'Elemental Slime', 'Elite', 5, 1, 1, 215);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (92, 512); --Fire
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (92, 551); --Immune: Fire
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (92, 632); --Splurt
+VALUES (92, 0, 'Burning Gel', 'Elemental Slime', 'Elite', 5, 1, 1, 215);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (92, 223); --Fire
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (92, 262); --Immune: Fire
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (92, 343); --Splurt
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (92, 591); --Splort
 --GangMemberIndex 93
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (72, 1, 'Fire Gel', 'Elemental Slime', 'Minion', 5, 1, 0, 217);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (93, 512); --Fire
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (93, 551); --Immune: Fire
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (93, 568); --Little Splurt
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (93, 626); --Small
+VALUES (93, 1, 'Fire Gel', 'Elemental Slime', 'Minion', 5, 1, 0, 217);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (93, 223); --Fire
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (93, 262); --Immune: Fire
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (93, 279); --Little Splurt
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (93, 337); --Small
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (93, 592); --Splort
 
 
 --Old Growth Hollow
---Old Growth Hollow --CardIndex 409	--CharacterIndex 322	--ArcadeCharacterIndex 73
+--Old Growth Hollow --CardIndex 409	--CharacterIndex 324	--ArcadeCharacterIndex 94
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Old Growth Hollow',
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Old_Growth_Hollow/Card_Arcade_Warband_Old_Growth_Hollow_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Old_Growth_Hollow/Card_Arcade_Warband_Old_Growth_Hollow_FK_back.png', 
@@ -9610,16 +9571,16 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'The elves of the Fae Wood and the wise Deeproot Tree have long been friends and guardians of Crystalia.  Their timeless stewardship of the land made them ideal caretakers for the exiled Forgotten King and his court.<br>Yet the rise of the Dark Consul has sapped their ageless strength as they are beset on all sides, and the Forgotten King has become a cancer that corrupts from within.  As the Consul''s power rises, so too doees the Forgotten King''s and he has use his magic to sicken and bewitch the forest spirits within the Lordship Ruins.<br>Tswisted by the Forgotten King''s hatred, these corrupt kodama have lent their strength to the Dark Consul.  Now the elves find themselves under attack in their own woods.');
 insert into Characters (CardIndex) VALUES (409);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (322, 0, -1);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (322, 1); --Citrine
+VALUES (324, 0, -1);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (324, 1); --Citrine
 --GangMemberIndex 94
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (73, 0, 'Old Growth Hollow', 'Paired Spawning Point', '', 0, 4, 1, 218);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (94, 557); --Immune: Status Effects
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (94, 590); --Poison Aura
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (94, 677); --Spawning Pool
+VALUES (94, 0, 'Old Growth Hollow', 'Paired Spawning Point', '', 0, 4, 1, 218);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (94, 268); --Immune: Status Effects
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (94, 301); --Poison Aura
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (94, 388); --Spawning Pool
 
---Herbalists --CardIndex 410 --CharacterIndex 323	--ArcadeCharacterIndex 74
+--Herbalists --CardIndex 410 --CharacterIndex 325	--ArcadeCharacterIndex 95, 96
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Herbalists',
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Old_Growth_Hollow/Card_Arcade_Warband_Old_Growth_Hollow_Herbalists_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Old_Growth_Hollow/Card_Arcade_Warband_Old_Growth_Hollow_Herbalists_FK_back.png', 
@@ -9628,20 +9589,20 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Not given to violence, Turnipheads prefer to tend their gardens of herbs, weeds, and tender sprouts.');
 insert into Characters (CardIndex) VALUES (410);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (323, 134, 136);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (323, 3); --Ruby
+VALUES (325, 134, 136);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (325, 3); --Ruby
 --GangMemberIndex 95
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (74, 0, 'Turniphead', 'Kodama', 'Elite', 5, 1, 1, 222);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (95, 651); --Virulent
+VALUES (95, 0, 'Turniphead', 'Kodama', 'Elite', 5, 1, 1, 222);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (95, 362); --Virulent
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (95, 408); --It's Medicinal
 --GangMemberIndex 96
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (74, 0, 'Turniphead', 'Kodama', 'Elite', 5, 1, 1, 222);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (96, 651); --Virulent
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (95, 409); --It's Medicinal
+VALUES (96, 0, 'Turniphead', 'Kodama', 'Elite', 5, 1, 1, 222);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (96, 362); --Virulent
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (96, 409); --It's Medicinal
 
---Hungry Sprouts --CardIndex 411 --CharacterIndex 324	--ArcadeCharacterIndex 75
+--Hungry Sprouts --CardIndex 411 --CharacterIndex 326	--ArcadeCharacterIndex 97, 98
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Hungry Sprouts',
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Old_Growth_Hollow/Card_Arcade_Warband_Old_Growth_Hollow_Hungry_Sprouts_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Old_Growth_Hollow/Card_Arcade_Warband_Old_Growth_Hollow_Hungry_Sprouts_FK_back.png', 
@@ -9650,21 +9611,21 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Twisted by the Dark Consul, King Sprouts are little more than thrashing masses of thorned vines and snapping jaws.  Consuming anything and everything that is within reach, their Mook handlers are careful  to not stray within the King Sprout''s sight, lest they be the next thing to be devoured.');
 insert into Characters (CardIndex) VALUES (411);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (324, 146, 266);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (324, 1); --Citrine
+VALUES (326, 146, 266);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (326, 1); --Citrine
 --GangMemberIndex 97
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (75, 0, 'King Sprout', 'Shapeshift', 'Elite', 3, 6, 2, 219);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (97, 688); --Feed Me
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (97, 516); --Fixed Form
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (97, 598); --Pull 5
+VALUES (97, 0, 'King Sprout', 'Shapeshift', 'Elite', 3, 6, 2, 219);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (97, 399); --Feed Me
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (97, 227); --Fixed Form
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (97, 309); --Pull 5
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (97, 529); --Rootdown
 --GangMemberIndex 98
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (75, 1, 'Mook', 'Kodama', 'Minion', 5, 1, 1, 220);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (98, 651); --Poison
+VALUES (98, 1, 'Mook', 'Kodama', 'Minion', 5, 1, 1, 220);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (98, 300); --Poison
 
---Lil' Sprouts --CardIndex 412 --CharacterIndex 325	--ArcadeCharacterIndex 76
+--Lil' Sprouts --CardIndex 412 --CharacterIndex 327	--ArcadeCharacterIndex 99, 100
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Lil'' Sprouts',
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Old_Growth_Hollow/Card_Arcade_Warband_Old_Growth_Hollow_Lil_Sprouts_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Old_Growth_Hollow/Card_Arcade_Warband_Old_Growth_Hollow_Lil_Sprouts_FK_back.png', 
@@ -9673,21 +9634,21 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Charging forward with reckless abandon, Lil'' Sprouts attempt to get as close to invading Heroes as possible so that when the change grips them and they transform into the revenous King Sprout it may consume as many as possible.');
 insert into Characters (CardIndex) VALUES (412);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (325, 146, 266);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (325, 1); --Citrine
+VALUES (327, 146, 266);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (327, 1); --Citrine
 --GangMemberIndex 99
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (76, 0, 'Sprout', 'Kodama', 'Elite', 5, 2, 3, 221);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (99, 519); --Forced Shift
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (99, 619); --Shapeshift: King Sprout
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (99, 651); --Virulent
+VALUES (99, 0, 'Sprout', 'Kodama', 'Elite', 5, 2, 3, 221);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (99, 230); --Forced Shift
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (99, 330); --Shapeshift: King Sprout
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (99, 362); --Virulent
 --GangMemberIndex 100
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (76, 1, 'Mook', 'Kodama', 'Minion', 5, 1, 1, 220);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (100, 589); --Poison
+VALUES (100, 1, 'Mook', 'Kodama', 'Minion', 5, 1, 1, 220);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (100, 300); --Poison
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (100, 516); --Rampant Growth
 
---Will-O-Wisps --CardIndex 413 --CharacterIndex 326	--ArcadeCharacterIndex 77
+--Will-O-Wisps --CardIndex 413 --CharacterIndex 328	--ArcadeCharacterIndex 101, 102
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Will-O-Wisps',
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Old_Growth_Hollow/Card_Arcade_Warband_Old_Growth_Hollow_Lil_Sprouts_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Old_Growth_Hollow/Card_Arcade_Warband_Old_Growth_Hollow_Lil_Sprouts_FK_back.png', 
@@ -9696,22 +9657,22 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Reclusive and demure, Wisps are often seen as a sign of good fortune.  When threatened, Wisps prefer to enchant their assailants, slowing their movement and bewitching their senses.  The Wisp then silently slips into the forest to safety.');
 insert into Characters (CardIndex) VALUES (413);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (326, 134, 136);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (326, 3); --Ruby
+VALUES (328, 134, 136);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (328, 3); --Ruby
 --GangMemberIndex 101
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (77, 0, 'Sprout', 'Kodama', 'Elite', 5, 2, 1, 223);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (101, 651); --Virulent
+VALUES (101, 0, 'Sprout', 'Kodama', 'Elite', 5, 2, 1, 223);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (101, 362); --Virulent
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (101, 487); --Pollen Dream
 --GangMemberIndex 102
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (77, 1, 'Mook', 'Kodama', 'Elite', 5, 2, 1, 223);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (102, 589); --Poison
+VALUES (102, 1, 'Mook', 'Kodama', 'Elite', 5, 2, 1, 223);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (102, 300); --Poison
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (102, 488); --Pollen Dream
 
 
 --Pumpkin Patch
---Pumpkin Patch --CardIndex 414	--CharacterIndex 327	--ArcadeCharacterIndex 78
+--Pumpkin Patch --CardIndex 414	--CharacterIndex 329	--ArcadeCharacterIndex 103
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Pumpkin Patch',
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Pumpkin_Patch/Card_Arcade_Warband_Pumpkin_Patch_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Pumpkin_Patch/Card_Arcade_Warband_Pumpkin_Patch_FK_back.png', 
@@ -9720,16 +9681,16 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Long ago the inhabitants of the Glauerdoom Moor used pumpkins to carve jack-o-lanterns to trick the restless spirits of the moor to pass by their homes at night.  In time the spirits grew wise to this deception and decided to play a trick of their own.  Now pumpkin patches are spooky, haunted, places where the creatures that go bump in the night lurk, waiting for their prey.<br>Beneath the dark boughs of the Witches'' Weald pumpkins grow wild and the orange globes pulse with strange energies as the witch covens practice their own special brand of dark magic--poisons, necromancy, enchantment, curses, no subject is taboo.  The covensfind great favor with both the Dark Consul and Baron Von Drakk.  Both often have need of the witches'' unique abiliites when dealing with self righteous Heroes who seek to thwart them.');
 insert into Characters (CardIndex) VALUES (414);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (327, 0, -1);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (327, 3); --Ruby
+VALUES (329, 0, -1);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (329, 3); --Ruby
 --GangMemberIndex 103
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (78, 0, 'Pumpkin Patch', 'Spawning Point', '', 0, 3, 1, 224);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (103, 557); --Immune: Status Effects
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (103, 526); --Gloom Aura
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (103, 679); --Spawning Pool
+VALUES (103, 0, 'Pumpkin Patch', 'Spawning Point', '', 0, 3, 1, 224);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (103, 268); --Immune: Status Effects
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (103, 237); --Gloom Aura
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (103, 390); --Spawning Pool
 
---Crypt Spider --CardIndex 415 --CharacterIndex 328	--ArcadeCharacterIndex 77
+--Crypt Spider --CardIndex 415 --CharacterIndex 330	--ArcadeCharacterIndex 104
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Crypt Spider',
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Pumpkin_Patch/Card_Arcade_Warband_Pumpkin_Patch_Crypt_Spider_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Pumpkin_Patch/Card_Arcade_Warband_Pumpkin_Patch_Crypt_Spider_FK_back.png', 
@@ -9738,18 +9699,18 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Spiders are favored guardians of the many crypts and barrows in the Glauerdoom.  They have no interest in the dead nor in the their treasures.  Cruel, cunning, and immeasurably patient they wait in elaborately spun webs.  They know the lure of trasure and plunder is irrestistable to the living.  Soon enough foolish Heroes will come and then it will feast.');
 insert into Characters (CardIndex) VALUES (415);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (328, 253, -1);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (328, 1); --Citrine
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (328, 2); --Emerald
---GangMemberIndex 101
+VALUES (330, 253, -1);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (330, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (330, 2); --Emerald
+--GangMemberIndex 104
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (77, 0, 'Crypt Spider', 'Spider', 'Elite', 6, 4, 2, 223);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (101, 589); --Poison
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (101, 641); --Surefoot
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (101, 306); --Enervating Bite
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (101, 560); --Silk Spinner
+VALUES (104, 0, 'Crypt Spider', 'Spider', 'Elite', 6, 4, 2, 223);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (104, 300); --Poison
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (104, 352); --Surefoot
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (104, 306); --Enervating Bite
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (104, 560); --Silk Spinner
 
---Curse Coven --CardIndex 416 --CharacterIndex 329	--ArcadeCharacterIndex 79
+--Curse Coven --CardIndex 416 --CharacterIndex 331	--ArcadeCharacterIndex 105, 106
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Curse Coven',
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Pumpkin_Patch/Card_Arcade_Warband_Pumpkin_Patch_Curse_Coven_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Pumpkin_Patch/Card_Arcade_Warband_Pumpkin_Patch_Curse_Coven_FK_back.png', 
@@ -9758,23 +9719,23 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Fledgling witches are given several skull which they use as a focus to practice the many and varied hexes, curses, and enchantments that will become their trade.  Once the witch is fully initiated into the coven, the skulls are enchanted with spells of flight and intellect so that they might join the witch in unleashing afflictions upon those who cross them.');
 insert into Characters (CardIndex) VALUES (416);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (329, 124, 354);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (329, 1); --Citrine
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (329, 3); --Ruby
---GangMemberIndex 102
+VALUES (331, 124, 354);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (331, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (331, 3); --Ruby
+--GangMemberIndex 105
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (79, 0, 'Curse Coven Witch', 'Witch', 'Elite', 8, 2, 0, 226);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (102, 518); --Fly
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (102, 640); --Transmogrify
---GangMemberIndex 103
+VALUES (105, 0, 'Curse Coven Witch', 'Witch', 'Elite', 8, 2, 0, 226);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (105, 229); --Fly
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (105, 640); --Transmogrify
+--GangMemberIndex 106
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (79, 1, 'Skullbat', 'Undead Bat', 'Minion', 6, 1, 0, 227);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (103, 518); --Poison
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (103, 284); --Doom
+VALUES (106, 1, 'Skullbat', 'Undead Bat', 'Minion', 6, 1, 0, 227);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (106, 229); --Fly
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (106, 284); --Doom
 
 
 --Rock Pile
---Rock Pile --CardIndex 417	--CharacterIndex 330	--ArcadeCharacterIndex 80
+--Rock Pile --CardIndex 417	--CharacterIndex 332	--ArcadeCharacterIndex 107
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Rock Pile',
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Rock_Pile/Card_Arcade_Warband_Rock_Pile_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Rock_Pile/Card_Arcade_Warband_Rock_Pile_FK_back.png', 
@@ -9783,16 +9744,16 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Rocktops can be found throughout Crystalia, wherever the earth is rocky and barren.  Due to their natural predilection to tunnel, Rocktops are superb miners.<br>Like many of the Consul''s minions, Rocktop society is ruled by strength and size.  At the top of the hierarchy stands the migty Crusher.  Dimwitted and brutish, Crushers spend most of their waking hours smashign rock to increase the size of the tunnel systems they claim as theirs.<br>In contrast, Rollers and Bombardiers are surprisingly jovial creatures.  Relishing in mischief and mayhem they delight in the noise and spectacle as rocks, Heroes, or anything weaker than them are smashed, smushed, crushed, crunched, or exploded.<br>Below them all are the hapless Slowpokes.  Simple creatures who if they had a say in it, would be perfectly content moving rocks from one side of a cave to another and back again.');
 insert into Characters (CardIndex) VALUES (417);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (322, 0, -1);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (322, 4); --Sapphire
---GangMemberIndex 104
+VALUES (332, 0, -1);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (332, 4); --Sapphire
+--GangMemberIndex 107
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (80, 0, 'Rock Pile', 'Paired Spawning Point', '', 0, 3, 1, 228);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (104, 557); --Immune: Status Effects
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (104, 606); --Rock Aura
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (104, 681); --Spawning Pool
+VALUES (107, 0, 'Rock Pile', 'Paired Spawning Point', '', 0, 3, 1, 228);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (107, 268); --Immune: Status Effects
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (107, 317); --Rock Aura
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (107, 392); --Spawning Pool
 
---Bully Foremen --CardIndex 418	--CharacterIndex 331	--ArcadeCharacterIndex 81
+--Bully Foremen --CardIndex 418	--CharacterIndex 333	--ArcadeCharacterIndex 108, 109
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Bully Foremen',
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Rock_Pile/Card_Arcade_Warband_Rock_Pile_Bully_Foremen_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Rock_Pile/Card_Arcade_Warband_Rock_Pile_Bully_Foremen_FK_back.png', 
@@ -9801,22 +9762,22 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Rocktops love to crush, chomp, and burrow through rock.  Unfortunately, Rollers have discovered that same delight in tormenting their lesser kin.  Forming into chortling and bickering gangs, the Rollers roam the caverns searching for rocktops to bully.  Indeed, the only respite from the bullying comes from the arrival of invading Heroes who provide the Rollers with new targets to tease.');
 insert into Characters (CardIndex) VALUES (418);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (331, 134, 144);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (331, 4); --Sapphire
---GangMemberIndex 105
+VALUES (333, 134, 144);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (333, 4); --Sapphire
+--GangMemberIndex 108
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (81, 0, 'Roller', 'Rocktop', 'Elite', 5, 2, 2, 232);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (105, 554); --Immune: Knockdown
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (105, 556); --Immune: Slow
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (105, 633); --Thwack
---GangMemberIndex 106
+VALUES (108, 0, 'Roller', 'Rocktop', 'Elite', 5, 2, 2, 232);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (108, 265); --Immune: Knockdown
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (108, 267); --Immune: Slow
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (108, 633); --Thwack
+--GangMemberIndex 109
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (81, 1, 'Roller', 'Rocktop', 'Elite', 5, 2, 2, 232);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (105, 554); --Immune: Knockdown
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (105, 556); --Immune: Slow
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (106, 634); --Thwack
+VALUES (109, 1, 'Roller', 'Rocktop', 'Elite', 5, 2, 2, 232);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (109, 265); --Immune: Knockdown
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (109, 267); --Immune: Slow
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (109, 634); --Thwack
 
---Rockers v1 --CardIndex 419	--CharacterIndex 332	--ArcadeCharacterIndex 82
+--Rockers v1 --CardIndex 419	--CharacterIndex 334	--ArcadeCharacterIndex 110, 111
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Rockers v1',
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Rock_Pile/Card_Arcade_Warband_Rock_Pile_Rockers_v1_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Rock_Pile/Card_Arcade_Warband_Rock_Pile_Rockers_v1_FK_back.png', 
@@ -9825,21 +9786,21 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Slowpokes often gather around the massive Crushers, seeking some measure of protection from the bullying Rollers.  Crushers pay the Slowpokes little regard, for they are far too busy happily crushing rock and expanding their cavern to notice the pleas of their smaller kin.');
 insert into Characters (CardIndex) VALUES (419);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (332, 142, 373);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (332, 4); --Sapphire
---GangMemberIndex 107
+VALUES (333, 142, 373);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (333, 4); --Sapphire
+--GangMemberIndex 110
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (82, 0, 'Crusher', 'Rocktop', 'Elite', 5, 6, 2, 232);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (105, 557); --Immune: Status Effects
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (105, 650); --Turtle Tremor
---GangMemberIndex 108
+VALUES (110, 0, 'Crusher', 'Rocktop', 'Elite', 5, 6, 2, 232);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (110, 268); --Immune: Status Effects
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (110, 650); --Turtle Tremor
+--GangMemberIndex 111
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (82, 1, 'Slowpoke', 'Rocktop', 'Minion', 5, 1, 1, 232);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (105, 554); --Immune: Knockdown
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (105, 556); --Immune: Slow
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (106, 651); --Turtle Tremor
+VALUES (111, 1, 'Slowpoke', 'Rocktop', 'Minion', 5, 1, 1, 232);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (111, 265); --Immune: Knockdown
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (111, 267); --Immune: Slow
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (111, 651); --Turtle Tremor
 
---Rockers v2 --CardIndex 420	--CharacterIndex 333	--ArcadeCharacterIndex 83
+--Rockers v2 --CardIndex 420	--CharacterIndex 335	--ArcadeCharacterIndex 112, 113
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Rockers v2',
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Rock_Pile/Card_Arcade_Warband_Rock_Pile_Rockers_v2_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Rock_Pile/Card_Arcade_Warband_Rock_Pile_Rockers_v2_FK_back.png', 
@@ -9848,22 +9809,22 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Slowpokes often gather around the massive Crushers, seeking some measure of protection from the bullying Rollers.  Crushers pay the Slowpokes little regard, for they are far too busy happily crushing rock and expanding their cavern to notice the pleas of their smaller kin.');
 insert into Characters (CardIndex) VALUES (420);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (333, 142, 263);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (333, 4); --Sapphire
---GangMemberIndex 109
+VALUES (335, 142, 263);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (335, 4); --Sapphire
+--GangMemberIndex 112
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (83, 0, 'Crusher', 'Rocktop', 'Elite', 5, 6, 3, 232);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (105, 557); --Immune: Status Effects
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (105, 650); --Turtle Tremor
---GangMemberIndex 110
+VALUES (112, 0, 'Crusher', 'Rocktop', 'Elite', 5, 6, 3, 232);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (112, 268); --Immune: Status Effects
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (112, 650); --Turtle Tremor
+--GangMemberIndex 113
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (83, 1, 'Slowpoke', 'Rocktop', 'Minion', 5, 1, 1, 232);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (105, 554); --Immune: Knockdown
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (105, 556); --Immune: Slow
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (105, 481); --Burrow
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (106, 651); --Turtle Tremor
+VALUES (113, 1, 'Slowpoke', 'Rocktop', 'Minion', 5, 1, 1, 232);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (113, 265); --Immune: Knockdown
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (113, 267); --Immune: Slow
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (113, 192); --Burrow
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (113, 651); --Turtle Tremor
 
---Shell Battery --CardIndex 421	--CharacterIndex 334	--ArcadeCharacterIndex 84
+--Shell Battery --CardIndex 421	--CharacterIndex 336	--ArcadeCharacterIndex 114, 115
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Shell Battery',
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Rock_Pile/Card_Arcade_Warband_Rock_Pile_Rockers_v2_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Rock_Pile/Card_Arcade_Warband_Rock_Pile_Rockers_v2_FK_back.png', 
@@ -9872,24 +9833,24 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Once, a clan of rocktop befriended a gnomish engineer whose trade was weapons of war.  Impressed by the the stout and sturdy nature of the Rocktops, the engineer sought to turn the somewhat dimwitted monsters into the ultimate siege army in service of Crystalia.  Unfortunately, the rocktops proved to be disinterested in following orders and the gnomish engineer fell victim to a gang of Rollers.<br><br>However, a small group of Rocktops took a shine to the bombard cannons the gnome had devised.  Keeping the small armory a secret from their rocktop kin, these newly formed Bombardiers began lending their services in long ranged demolitions to any who could afford their steep fees of precious stones and ore.');
 insert into Characters (CardIndex) VALUES (421);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (330, 138, 148);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (330, 4); --Sapphire
---GangMemberIndex 109
+VALUES (336, 138, 148);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (336, 4); --Sapphire
+--GangMemberIndex 114
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (83, 0, 'Bombardier', 'Rocktop', 'Elite', 4, 2, 2, 229);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (105, 554); --Immune: Knockdown
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (105, 556); --Immune: Slow
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (105, 647); --Turtle Cannon
---GangMemberIndex 110
+VALUES (114, 0, 'Bombardier', 'Rocktop', 'Elite', 4, 2, 2, 229);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (114, 265); --Immune: Knockdown
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (114, 267); --Immune: Slow
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (114, 647); --Turtle Cannon
+--GangMemberIndex 115
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (83, 1, 'Bombardier', 'Rocktop', 'Elite', 4, 2, 2, 229);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (105, 554); --Immune: Knockdown
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (105, 556); --Immune: Slow
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (106, 648); --Turtle Cannon
+VALUES (115, 1, 'Bombardier', 'Rocktop', 'Elite', 4, 2, 2, 229);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (115, 265); --Immune: Knockdown
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (115, 267); --Immune: Slow
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (115, 648); --Turtle Cannon
 
 
 --Salt Pillar
---Salt Pillar	--CardIndex 422	--CharacterIndex 335	--ArcadeCharacterIndex 85
+--Salt Pillar	--CardIndex 422	--CharacterIndex 337	--ArcadeCharacterIndex 116
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Salt Pillar',
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Salt_Pillar/Card_Arcade_Warband_Salt_Pillar_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Salt_Pillar/Card_Arcade_Warband_Salt_Pillar_FK_back.png', 
@@ -9898,16 +9859,16 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'The Mistmourn Coast is a dangerous place even for the natural inhabitants of the Fae Woods.  Outsiders fear the troll tribes of the Mistmourn, but those familiar with this perpetually shrouded wood know that the fae creatures are the true danger.<br>Magical and otherworldy, what motivates these creatures is unknown.  Shamans bind them to pillars of salt to stay their wrath or do the shaman''s bidding.  Yet these magics have a dark consequence.  When the spells of binding are broken the magics of the formerly bound fae are trapped with the shattered salt pillar.  Their essence infuses new life within the Salt and they are reborn as elemental golems.  Driven only by blind instinct these Salt golems lash out at any who are near.');
 insert into Characters (CardIndex) VALUES (422);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (335, 0, -1);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (335, 3); --Ruby
---GangMemberIndex 111
+VALUES (337, 0, -1);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (337, 3); --Ruby
+--GangMemberIndex 116
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (85, 0, 'Salt Pillar', 'Spawning Point', '', 0, 3, 1, 237);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (111, 557); --Immune: Status Effects
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (111, 638); --Stealth Aura
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (111, 683); --Spawning Pool
+VALUES (116, 0, 'Salt Pillar', 'Spawning Point', '', 0, 3, 1, 237);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (116, 268); --Immune: Status Effects
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (116, 349); --Stealth Aura
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (116, 394); --Spawning Pool
 
---Despair Shroud --CardIndex 423	--CharacterIndex 336	--ArcadeCharacterIndex 86
+--Despair Shroud --CardIndex 423	--CharacterIndex 338	--ArcadeCharacterIndex 117
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Despair Shroud',
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Salt_Pillar/Card_Arcade_Warband_Salt_Pillar_Despair_Shroud_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Salt_Pillar/Card_Arcade_Warband_Salt_Pillar_Despair_Shroud_FK_back.png', 
@@ -9916,19 +9877,19 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Dry your eyes.<br>Let not one tear fall.<br>Lest Sorrows take you.<br>Then consume us all.');
 insert into Characters (CardIndex) VALUES (423);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (336, 133, 135);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (336, 3); --Ruby
---GangMemberIndex 112
+VALUES (338, 133, 135);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (338, 3); --Ruby
+--GangMemberIndex 117
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (86, 0, 'Sorrow', 'Faerie', 'Elite', 5, 1, 0, 239);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (112, 518); --Fly
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (112, 668); --Weep
---GangMemberIndex 113
+VALUES (117, 0, 'Sorrow', 'Faerie', 'Elite', 5, 1, 0, 239);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (117, 229); --Fly
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (117, 668); --Weep
+--GangMemberIndex 118
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (86, 1, 'Sorrow', 'Faerie', 'Elite', 5, 1, 0, 239);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (113, 518); --Fly
+VALUES (118, 1, 'Sorrow', 'Faerie', 'Elite', 5, 1, 0, 239);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (118, 229); --Fly
 
---Predators --CardIndex 424	--CharacterIndex 337	--ArcadeCharacterIndex 87
+--Predators --CardIndex 424	--CharacterIndex 339	--ArcadeCharacterIndex 119, 120
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Predators',
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Salt_Pillar/Card_Arcade_Warband_Salt_Pillar_Predators_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Salt_Pillar/Card_Arcade_Warband_Salt_Pillar_Predators_FK_back.png', 
@@ -9937,25 +9898,25 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Mist Hounds are voracious predators.  Once they have selected their prey, they will track it relentlessly over miles until it grows weak with exhaustion.  When they strike, their jaws are like steel traps, savaging anything that attempts to break free.');
 insert into Characters (CardIndex) VALUES (424);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (337, 131, 151);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (337, 1); --Citrine
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (337, 3); --Ruby
---GangMemberIndex 114
+VALUES (339, 131, 151);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (339, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (339, 3); --Ruby
+--GangMemberIndex 119
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (87, 0, 'Mist Hound', 'Faerie', 'Elite', 8, 3, 1, 238);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (114, 596); --Predator
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (114, 641); --Surefoot
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (114, 422); --Lost
---GangMemberIndex 115
+VALUES (119, 0, 'Mist Hound', 'Faerie', 'Elite', 8, 3, 1, 238);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (119, 307); --Predator
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (119, 352); --Surefoot
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (119, 422); --Lost
+--GangMemberIndex 120
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (87, 1, 'Mist Hound', 'Faerie', 'Elite', 8, 3, 1, 238);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (115, 596); --Predator
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (114, 641); --Surefoot
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (115, 423); --Lost
+VALUES (120, 1, 'Mist Hound', 'Faerie', 'Elite', 8, 3, 1, 238);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (120, 307); --Predator
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (120, 352); --Surefoot
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (120, 423); --Lost
 
 
 --Shallow Grave
---Shallow Grave	--CardIndex 425	--CharacterIndex 338	--ArcadeCharacterIndex 88
+--Shallow Grave	--CardIndex 425	--CharacterIndex 340	--ArcadeCharacterIndex 121
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Shallow Grave',
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Shallow_Grave/Card_Arcade_Warband_Shallow_Grave_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Shallow_Grave/Card_Arcade_Warband_Shallow_Grave_FK_back.png', 
@@ -9964,16 +9925,16 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'The Glauerdoom Moor is a grim and foreboding place by any measure.  Its fetid fens and marshes remain perpetually shrouded beneath a grey fog.  Its great cities have long since faded, their glory reduced to crumbling ruins and sinking towers.  The landscape is dotted by vast mausoleums and endless crypts built to house the ever dwindling populations'' dead.<br>Tragically the dead do not rest long.  The amethyst power of necromancy infuses the land and the dead sleep uneasily.  Their slumber is but a bried respite.  Soon their master bids them to rise and take their place in his macabre host.');
 insert into Characters (CardIndex) VALUES (425);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (338, 0, -1);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (338, 3); --Ruby
---GangMemberIndex 116
+VALUES (340, 0, -1);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (340, 3); --Ruby
+--GangMemberIndex 121
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (88, 0, 'Shallow Grave', 'Spawning Point', '', 0, 3, 1, 240);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (116, 557); --Immune: Status Effects
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (116, 471); --Bane Aura
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (116, 685); --Spawning Pool
+VALUES (121, 0, 'Shallow Grave', 'Spawning Point', '', 0, 3, 1, 240);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (121, 268); --Immune: Status Effects
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (121, 182); --Bane Aura
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (121, 396); --Spawning Pool
 
---Dust Acolytes	--CardIndex 426	--CharacterIndex 339	--ArcadeCharacterIndex 89
+--Dust Acolytes	--CardIndex 426	--CharacterIndex 341	--ArcadeCharacterIndex 122, 123
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Dust Acolytes',
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Shallow_Grave/Card_Arcade_Warband_Shallow_Grave_Dust_Acolytes_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Shallow_Grave/Card_Arcade_Warband_Shallow_Grave_Dust_Acolytes_FK_back.png', 
@@ -9982,20 +9943,20 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Within the Dust Coven, struggles for power between its necromancers is a common occurrence.  Unfortunately, even when these struggles turn deadly, the power of the Dark Consul is undiminished, for the victor inevitably raises the slain necromancers to serve him in death.');
 insert into Characters (CardIndex) VALUES (426);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (339, 134, 144);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (339, 3); --Ruby
---GangMemberIndex 117
+VALUES (341, 134, 144);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (341, 3); --Ruby
+--GangMemberIndex 122
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (89, 0, 'Dust Mage', 'Undead Skeleton', 'Elite', 5, 1, 1, 244);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (117, 477); --Bone Pile
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (117, 636); --Tide of Bones
---GangMemberIndex 118
+VALUES (122, 0, 'Dust Mage', 'Undead Skeleton', 'Elite', 5, 1, 1, 244);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (122, 188); --Bone Pile
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (122, 636); --Tide of Bones
+--GangMemberIndex 123
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (89, 1, 'Dust Mage', 'Undead Skeleton', 'Elite', 5, 1, 0, 244);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (118, 477); --Bone Pile
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (118, 193); --Bone Cold
+VALUES (123, 1, 'Dust Mage', 'Undead Skeleton', 'Elite', 5, 1, 0, 244);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (123, 188); --Bone Pile
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (123, 193); --Bone Cold
 
---Dust Coven	--CardIndex 427	--CharacterIndex 340	--ArcadeCharacterIndex 90
+--Dust Coven	--CardIndex 427	--CharacterIndex 342	--ArcadeCharacterIndex 124, 125
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Dust Coven',
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Shallow_Grave/Card_Arcade_Warband_Shallow_Grave_Dust_Coven_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Shallow_Grave/Card_Arcade_Warband_Shallow_Grave_Dust_Coven_FK_back.png', 
@@ -10004,20 +9965,20 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'The curse of undeath hangs heavy over the Glauerdoom Moor.  Drawn to the necromantic magics, the witches of the Dust Coven congregrate here in greater numbers than anywhere else in Crystalia.  Raising vast armies in service to the Dark Consul, Heroes are faced with an adversary that continues to fight beyond death itself.');
 insert into Characters (CardIndex) VALUES (427);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (340, 133, 363);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (340, 1); --Citrine
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (340, 3); --Ruby
---GangMemberIndex 117
+VALUES (342, 133, 363);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (342, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (342, 3); --Ruby
+--GangMemberIndex 124
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (90, 0, 'Dust Coven Necromancer', 'Witch', 'Elite', 5, 3, 2, 243);
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (117, 636); --Tide of Bones
---GangMemberIndex 118
+VALUES (124, 0, 'Dust Coven Necromancer', 'Witch', 'Elite', 5, 3, 2, 243);
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (124, 636); --Tide of Bones
+--GangMemberIndex 125
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (90, 1, 'Bone Head', 'Undead Skeleton', 'Minion', 5, 1, 1, 241);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (118, 477); --Bone Pile
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (118, 354); --Ghastly Vigor
+VALUES (125, 1, 'Bone Head', 'Undead Skeleton', 'Minion', 5, 1, 1, 241);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (125, 188); --Bone Pile
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (125, 354); --Ghastly Vigor
 
---House of Ash	--CardIndex 428	--CharacterIndex 341	--ArcadeCharacterIndex 91
+--House of Ash	--CardIndex 428	--CharacterIndex 343	--ArcadeCharacterIndex 126, 127
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Dust Coven',
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Shallow_Grave/Card_Arcade_Warband_Shallow_Grave_Dust_Coven_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Shallow_Grave/Card_Arcade_Warband_Shallow_Grave_Dust_Coven_FK_back.png', 
@@ -10026,22 +9987,22 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'The knightly House of Ash gave themselves willingly to the service of the Dark Consul.  Wholly consumed by the need for battle, they are allowed to retain a measure of their intellect into undeath.');
 insert into Characters (CardIndex) VALUES (428);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (341, 132, 143);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (341, 1); --Citrine
---GangMemberIndex 117
+VALUES (343, 132, 143);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (343, 1); --Citrine
+--GangMemberIndex 126
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (91, 0, 'Dust Coven Necromancer', 'Undead Skeleton', 'Elite', 5, 2, 2, 242);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (117, 477); --Bone Pile
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (117, 250); --Cursed Blade
---GangMemberIndex 118
+VALUES (126, 0, 'Dust Coven Necromancer', 'Undead Skeleton', 'Elite', 5, 2, 2, 242);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (126, 188); --Bone Pile
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (126, 250); --Cursed Blade
+--GangMemberIndex 127
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (91, 1, 'Bone Head', 'Undead Skeleton', 'Elite', 5, 2, 2, 242);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (118, 477); --Bone Pile
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (118, 251); --Cursed Blade
+VALUES (127, 1, 'Bone Head', 'Undead Skeleton', 'Elite', 5, 2, 2, 242);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (127, 188); --Bone Pile
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (127, 251); --Cursed Blade
 
 
 --Tribal Stone
---Tribal Stone	--CardIndex 429	--CharacterIndex 342	--ArcadeCharacterIndex 92
+--Tribal Stone	--CardIndex 429	--CharacterIndex 344	--ArcadeCharacterIndex 128
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Tribal Stone',
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Tribal_Stone/Card_Arcade_Warband_Tribal_Stone_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Tribal_Stone/Card_Arcade_Warband_Tribal_Stone_FK_back.png', 
@@ -10050,16 +10011,16 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Not even the elves choose to make the Mistmourn Coast their home.  Indeed, only the Glimmerdusk Rangers frequent these lands that are perpetually locked in mist and steeped in fae magic.  It is no surprise then that many creatures of the Dark Realm sought sanctuary within the concealing shadows of the coast.<br>Most were driven mad with fright, as the fae creatures preyed on their minds with capricious tricks and dealy pranks.  Trolls, however, remained remarkably unaffected--perhaps shielded by their naturally dim intellect.  In time they became tolerated by the fae creatures if not welcomed.<br>The thin veil between worlds along the Mistmourn eventually brought the trolls into communion with their fallen ancestors.  Guided by their ancestors'' past experiences the trolls grew more cunning, some even attaining a level of brutal intelligence.');
 insert into Characters (CardIndex) VALUES (429);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (342, 0, -1);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (342, 4); --Sapphire
---GangMemberIndex 119
+VALUES (344, 0, -1);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (344, 4); --Sapphire
+--GangMemberIndex 128
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (92, 0, 'Tribal Stone', 'Spawning Point', '', 0, 3, 1, 245);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (119, 557); --Immune: Status Effects
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (119, 597); --Primal Aura
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (119, 687); --Spawning Pool
+VALUES (128, 0, 'Tribal Stone', 'Spawning Point', '', 0, 3, 1, 245);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (128, 268); --Immune: Status Effects
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (128, 308); --Primal Aura
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (128, 398); --Spawning Pool
 
---Ghostfire Tribe	--CardIndex 430	--CharacterIndex 343	--ArcadeCharacterIndex 93
+--Ghostfire Tribe	--CardIndex 430	--CharacterIndex 345	--ArcadeCharacterIndex 129, 130
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ghostfire Tribe',
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Shallow_Grave/Card_Arcade_Warband_Shallow_Grave_Dust_Coven_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Shallow_Grave/Card_Arcade_Warband_Shallow_Grave_Dust_Coven_FK_back.png', 
@@ -10068,51 +10029,51 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Stalking the Mistmourn Coast, the Ghostfire Tribes are surprisingly cunning adversaries.  Guided by their ancient troll ancestors, they possess tactical acumen hindered only by their fury once battlelust is upon them.');
 insert into Characters (CardIndex) VALUES (430);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (343, 143, 263);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (343, 1); --Citrine
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (343, 4); --Sapphire
---GangMemberIndex 120
+VALUES (345, 143, 263);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (345, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (345, 4); --Sapphire
+--GangMemberIndex 129
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (93, 0, 'Mistmourn Chieftain', 'Troll', 'Elite', 5, 3, 2, 242);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (120, 648); --Tough
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (120, 159); --Ancestral Fury
---GangMemberIndex 121
+VALUES (129, 0, 'Mistmourn Chieftain', 'Troll', 'Elite', 5, 3, 2, 242);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (129, 359); --Tough
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (129, 159); --Ancestral Fury
+--GangMemberIndex 130
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (93, 1, 'Ghostfire Warrior', 'Troll', 'Minion', 6, 2, 1, 242);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (121, 648); --Tough
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (121, 356); --Ghostfire
+VALUES (130, 1, 'Ghostfire Warrior', 'Troll', 'Minion', 6, 2, 1, 242);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (130, 359); --Tough
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (130, 356); --Ghostfire
 
---Spirit Born	--CardIndex 431	--CharacterIndex 344	--ArcadeCharacterIndex 94
+--Spirit Born	--CardIndex 431	--CharacterIndex 346	--ArcadeCharacterIndex 131, 132
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Spirit Born',
-'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Shallow_Grave/Card_Arcade_Warband_Shallow_Grave_Dust_Coven_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Shallow_Grave/Card_Arcade_Warband_Shallow_Grave_Dust_Coven_FK_back.png', 
-'http://htkb.online/SDWiki/SDE/FK/Arcade/Cards/Warbands/Shallow_Grave/Dust_Coven.xhtml', 
+'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Tribal_Stone/Card_Arcade_Warband_Tribal_Stone_Spirit_Born_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Tribal_Stone/Card_Arcade_Warband_Tribal_Stone_Spirit_Born_FK_back.png', 
+'http://htkb.online/SDWiki/SDE/FK/Arcade/Cards/Warbands/Tribal_Stone/Spirit_Born.xhtml', 
 'Warband', 'FK', 'FK Core Set', 'Arcade', 
 'Spirit Walkers live between two worlds: the mortal realm and the spirit world.  It was they who first made contact with their trollish ancestors, seeking the wisdom of those who came before.');
 insert into Characters (CardIndex) VALUES (431);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (344, 143, 263);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (344, 2); --Emerald
---GangMemberIndex 120
+VALUES (346, 143, 263);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (346, 2); --Emerald
+--GangMemberIndex 131
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (94, 0, 'Spirit Walker', 'Troll', 'Elite', 5, 2, 1, 248);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (120, 648); --Tough
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (120, 637); --Stealth
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (120, 641); --Surefoot
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (120, 588); --Spirit Walk
---GangMemberIndex 121
+VALUES (131, 0, 'Spirit Walker', 'Troll', 'Elite', 5, 2, 1, 248);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (131, 359); --Tough
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (131, 348); --Stealth
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (131, 352); --Surefoot
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (131, 588); --Spirit Walk
+--GangMemberIndex 132
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (94, 1, 'Spirit Walker', 'Troll', 'Elite', 5, 2, 1, 248);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (121, 648); --Tough
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (120, 637); --Stealth
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (120, 641); --Surefoot
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (121, 378); --Herbology
+VALUES (132, 1, 'Spirit Walker', 'Troll', 'Elite', 5, 2, 1, 248);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (132, 359); --Tough
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (132, 348); --Stealth
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (132, 352); --Surefoot
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (132, 378); --Herbology
 --FK Boss Spawns
---Beatrix The Witch Queen     --CardIndex 432   --BossSpawnIndex 3  
+--Beatrix the Witch Queen     --CardIndex 432   --BossSpawnIndex 3  
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Beatrix the Witch Queen', 
-'http://htkb.info/SDE/FK/Cards/Boss_Spawns/Card_Boss_Spawn_Beatrix_The_Witch_Queen_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Boss_Spawns/Card_Boss_Spawn_Beatrix_The_Witch_Queen_FK.png',
-'http://htkb.online/SDWiki/SDE/FK/Cards/Boss_Spawns/Beatrix_The_Witch_Queen.xhtml', 
+'http://htkb.info/SDE/FK/Cards/Boss_Spawns/Card_Boss_Spawn_Beatrix_the_Witch_Queen_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Boss_Spawns/Card_Boss_Spawn_Beatrix_the_Witch_Queen_FK.png',
+'http://htkb.online/SDWiki/SDE/FK/Cards/Boss_Spawns/Beatrix_the_Witch_Queen.xhtml', 
 'Boss Spawn', 'FK', 'FK Core Set', 'Default',   
 '');
 insert into BossSpawns (CardIndex, DungeonEffect, BossSpawnEffect, TimeoutEffect, DifficultyRating) 
@@ -10120,8 +10081,8 @@ VALUES (432, '',
 'Ghost Town:  Spawn one Ghost for every destroyed mini-boss, Skull Token on the dungeon, and spent Princess Coin.', 
 'Poxes:  All Heroes suffer one random status effect.  (Close your eyes and pick a token.)',
 '');
-insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (3, 172); --Beatrix the Witch Queen: Explore
-insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (3, 285); --Beatrix the Witch Queen: Arcade
+insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (3, 174); --Beatrix the Witch Queen: Explore
+insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (3, 287); --Beatrix the Witch Queen: Arcade
 
 --The Forgotten King --CardIndex 433   --BossSpawnIndex 4  
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Forgotten King, The', 
@@ -10135,8 +10096,8 @@ VALUES (433, '',
 'King''s Riches:  Whenever The Forgotten King suffers a wound the party may draw one loot card.', 
 'Last Stand:  Forgotten King, elite, and minion monsters gain Immune: Status Effects.',
 '');
-insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (4, 173); --The Forgotten King: Explore
-insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (4, 286); --The Forgotten King: Arcade
+insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (4, 175); --The Forgotten King: Explore
+insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (4, 288); --The Forgotten King: Arcade
 
 --Goro     --CardIndex 434   --BossSpawnIndex 5  
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Goro', 
@@ -10150,8 +10111,8 @@ VALUES (434, '',
 'Wind Spirit:  All elite and minion monsters gain the ability Fly.', 
 'Giri Swarm:  Spawn six Giri within two squares of Goro.',
 '');
-insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (5, 174); --Goro: Explore
-insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (5, 287); --Goro: Arcade
+insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (5, 176); --Goro: Explore
+insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (5, 289); --Goro: Arcade
 
 --King Starfire     --CardIndex 435   --BossSpawnIndex 6  
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('King Starfire', 
@@ -10165,8 +10126,8 @@ VALUES (435, '',
 'Zealotry:  All kobolds and drakes gain +1B STR.', 
 'Baptized by Fire:  King Starfire may remove one wound token for every Hero suffering FIRE.',
 '');
-insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (6, 175); --King Stare: Explore
-insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (6, 288); --King Stare: Arcade
+insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (6, 177); --King Stare: Explore
+insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (6, 290); --King Stare: Arcade
 
 --Roxor  --CardIndex 436   --BossSpawnIndex 7  
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Roxor', 
@@ -10180,12 +10141,12 @@ insert into BossSpawns (CardIndex, DungeonEffect, BossSpawnEffect, TimeoutEffect
 'Tremors:  All Heroes suffer Immune: SLOW.', 
 'Earthquake:  All Heroes suffer KNOCKDOWN.',
 '');
-insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (7, 177); --Ragin' Roxor: Explore
-insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (7, 178); --Rockin' Roxor: Explore
-insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (7, 290); --Ragin' Roxor v1: Arcade
-insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (7, 292); --Rockin' Roxor v1: Arcade
-insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (7, 291); --Ragin' Roxor v2: Arcade
-insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (7, 293); --Rockin' Roxor v2: Arcade
+insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (7, 179); --Ragin' Roxor: Explore
+insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (7, 180); --Rockin' Roxor: Explore
+insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (7, 292); --Ragin' Roxor v1: Arcade
+insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (7, 294); --Rockin' Roxor v1: Arcade
+insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (7, 293); --Ragin' Roxor v2: Arcade
+insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (7, 295); --Rockin' Roxor v2: Arcade
 
 --Starfire     --CardIndex 437   --BossSpawnIndex 8  
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Starfire', 
@@ -10199,8 +10160,8 @@ insert into BossSpawns (CardIndex, DungeonEffect, BossSpawnEffect, TimeoutEffect
 'Burning Blades:  All elite and minion monsters gain the ability FIRE.', 
 'Fire Storm:  All Heroes suffer FIRE.',
 '');
-insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (8, 179); --Starfire: Explore
-insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (8, 294); --Starfire: Arcade
+insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (8, 181); --Starfire: Explore
+insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (8, 296); --Starfire: Arcade
 
 --Von Drakk     --CardIndex 438   --BossSpawnIndex 9  
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Von Drakk', 
@@ -10214,10 +10175,10 @@ VALUES (438, '',
 'Halloween:  Replace all Bone Pile tokens with models with the Bone Pile ability from the spawning pool.', 
 'Succumb:  All Heroes suffer BANE.',
 '');
-insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (0, 180); --Von Drakk: Explore
-insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (0, 295); --Von Drakk: Arcade
-insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (0, 176); --Nocturne: Explore
-insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (0, 289); --Nocturne: Arcade
+insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (0, 182); --Von Drakk: Explore
+insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (0, 297); --Von Drakk: Arcade
+insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (0, 178); --Nocturne: Explore
+insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (0, 291); --Nocturne: Arcade
 --FK Equipment
 --Acolyte Robe      	 	--CardIndex 439		--EquipmentIndex 79
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Acolyte Robe',
@@ -10314,7 +10275,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Loot', 'FK', 'FK Core Set', 'Default',
 'Knowledge is power.');
 insert into Equipment (CardIndex, Position, Effect) VALUES (447, 'Right', '+1R WILL');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (87, 49); --Immobile
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (87, 260); --Immobile
 
 
 --Arcanist Armor			--CardIndex 448		--EquipmentIndex 88 
@@ -10377,7 +10338,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', 'FK', 'FK Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, Position, Effect) VALUES (453, 'Top', '+1R DEX EMERALD +1G DEX');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (93, 518); --Fly 
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (93, 229); --Fly 
 
 
 --Bejeweled Shield			--CardIndex 454		--EquipmentIndex 94 
@@ -10398,7 +10359,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', 'FK SDArena', 'FK SDArena Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, Position, Effect) VALUES (455, 'Bottom', '+3B WILL');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (95, 457); --Alchemy
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (95, 168); --Alchemy
 
 
 --Bent Nail					--CardIndex 456		--EquipmentIndex 96 
@@ -10409,7 +10370,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Loot', 'FK', 'FK Core Set', 'Default',
 'Still Sharp.');
 insert into Equipment (CardIndex, Position, Effect) VALUES (456, 'Top', '+1B STR');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (96, 552); --Immune Hex
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (96, 263); --Immune Hex
 
 
 --Bewitched Wand			--CardIndex 457		--EquipmentIndex 97 
@@ -10420,7 +10381,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', 'FK', 'FK Core Set', 'Default',
 'Chilled to the bone.');
 insert into Equipment (CardIndex, Position, Effect) VALUES (457, 'Left', '+1G WILL');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (97, 548); --Ice 
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (97, 259); --Ice 
 
 
 --Binary Defense			--CardIndex 458		--EquipmentIndex 98 
@@ -10451,7 +10412,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', 'FK SDArena', 'FK SDArena Core Set', 'Default',
 'It says right here, you are not allowed to do that.');
 insert into Equipment (CardIndex, Position, Effect) VALUES (460, 'Bottom', '');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (100, 495); --Dark Radiance
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (100, 206); --Dark Radiance
 
 
 --Black Spot				--CardIndex 461		--EquipmentIndex 101 
@@ -10462,7 +10423,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', 'FK', 'FK Core Set', 'Default',
 'Ye be far too reckless fer me liking.');
 insert into Equipment (CardIndex, Position, Effect) VALUES (461, 'Bottom', '+1G STR');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (101, 494); --Cursed 
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (101, 205); --Cursed 
 
 
 --Black Tallow Candle		--CardIndex 462		--EquipmentIndex 102 
@@ -10473,8 +10434,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', 'FK', 'FK Core Set', 'Default',
 'I can walk through walls, neat!');
 insert into Equipment (CardIndex, Position, Effect) VALUES (462, 'Bottom', '+1G DEX');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (102, 522); --Ghost 
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (102, 636); --Stealth 
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (102, 233); --Ghost 
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (102, 348); --Stealth 
 
 
 --Blackblade Halberd		--CardIndex 463		--EquipmentIndex 103 
@@ -10517,7 +10478,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', 'FK', 'FK Core Set', 'Default',
 'Watch your fingers, this Boo Booty bites!');
 insert into Equipment (CardIndex, Position, Effect) VALUES (466, 'Other', '');--
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (106,656); --Boo Booty
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (106,367); --Boo Booty
 
 
 --Booty Grinder				--CardIndex 467     --EquipmentIndex 107 
@@ -10528,7 +10489,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', 'FK', 'FK Core Set', 'Default',
 'Crunch, crunch, crunch.  Booty Grinders live to devour your gear.');
 insert into Equipment (CardIndex, Position, Effect) VALUES (467, 'Other', '');--
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (107,656); --Boo Booty
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (107,367); --Boo Booty
 
 
 --Boris's Bashful Bammer	--CardIndex 468		--EquipmentIndex 108 
@@ -10539,7 +10500,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', 'FK', 'FK Core Set', 'Default',
 'I said, "stay down!"');
 insert into Equipment (CardIndex, Position, Effect) VALUES (468, 'Left', '+1G STR');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (108, 564); --Knockdown 
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (108, 275); --Knockdown 
 
 
 --Bouncing Booty			--CardIndex 469     --EquipmentIndex 109 
@@ -10550,7 +10511,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', 'FK', 'FK Core Set', 'Default',
 'The Bouncing Booty never holds still.  You''ll have to be quick to catch it!');
 insert into Equipment (CardIndex, Position, Effect) VALUES (469, 'Other', '');--
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (109,656); --Boo Booty
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (109,367); --Boo Booty
 
 
 --Brain Souffle				--CardIndex 470		--EquipmentIndex 110 
@@ -10562,7 +10523,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 '');
 insert into Equipment (CardIndex, Position, Effect) VALUES (470, 'Top', '+1B STR');
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (110, 600); --Stinky 
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (110, 473); --Berserk  
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (110, 184); --Berserk  
 
 
 --Bramble Bracers			--CardIndex 471		--EquipmentIndex 111 
@@ -10574,7 +10535,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Struggle as you will, you won''t escape.');
 insert into Equipment (CardIndex, Position, Effect) VALUES (471, 'Right', '+1R STR +1R WILL');
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (111, 603); --Stranglethorn 
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (111, 555); --Immune: Poison 
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (111, 266); --Immune: Poison 
 
 
 --Brass Knuckles			--CardIndex 472     --EquipmentIndex 112 
@@ -10605,7 +10566,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', 'FK', 'FK Core Set', 'Default',
 'My eyes! They burn!');
 insert into Equipment (CardIndex, Position, Effect) VALUES (474, 'Top', '+1G STR');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (114, 625); --Slow 
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (114, 336); --Slow 
 
 
 --Burning Horn				--CardIndex 475		--EquipmentIndex 115 
@@ -10627,7 +10588,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Loot', 'FK', 'FK Core Set', 'Default',
 'Surprisingly warm.');
 insert into Equipment (CardIndex, Position, Effect) VALUES (476, 'Bottom', '+1B DEX');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (116, 553); --Immune Ice
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (116, 264); --Immune Ice
 
 
 --Cat's Paw					--CardIndex 477		--EquipmentIndex 117 
@@ -10711,7 +10672,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', 'FK', 'FK Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, Position, Effect) VALUES (484, 'Top', '+1G ARM');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (124, 634); --Spongy 
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (124, 345); --Spongy 
 
 
 --Citrine Crystal Shard		--CardIndex 485		--EquipmentIndex 125 
@@ -10743,7 +10704,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', 'FK SDArena', 'FK SDArena Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, Position, Effect) VALUES (487, 'Top', '+1ST DEX');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (127, 466); --Backlash
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (127, 176); --Backlash
 
 
 --Cloak of Wards			--CardIndex 488		--EquipmentIndex 128 
@@ -10806,7 +10767,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', 'FK', 'FK Core Set', 'Default',
 'I feel faint.');
 insert into Equipment (CardIndex, Position, Effect) VALUES (493, 'Bottom', '+1G ARM');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (133, 689); --Cursed 
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (133, 205); --Cursed 
 
 
 --Dagger of Ill Intent		--CardIndex 494		--EquipmentIndex 134 
@@ -10879,7 +10840,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', 'FK SDArena', 'FK SDArena Core Set', 'Default',
 'Who wants some!?');
 insert into Equipment (CardIndex, Position, Effect) VALUES (500, 'Left', '+1R ARM');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (140, 473); --Beserk
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (140, 184); --Beserk
 
 
 --Diamond Helm				--CardIndex 501		--EquipmentIndex 141 
@@ -10910,7 +10871,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Loot', 'FK', 'FK Core Set', 'Default',
 'Never underestimate a bad penny.');
 insert into Equipment (CardIndex, Position, Effect) VALUES (503, 'Bottom', '+1B ARM');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (143, 550); --Immune Bane
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (143, 261); --Immune Bane
 
 
 --Divine Vestments			--CardIndex 504		--EquipmentIndex 144 
@@ -10932,7 +10893,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', 'FK SDArena', 'FK SDArena Core Set', 'Default',
 'Stay close...for safety.');
 insert into Equipment (CardIndex, Position, Effect) VALUES (505, 'Right', '+1R ARM');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (145, 468); --Backstabber
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (145, 179); --Backstabber
 
 
 --Dragon Bow				--CardIndex 506		--EquipmentIndex 146 
@@ -10955,7 +10916,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'All will bow before me.');
 insert into Equipment (CardIndex, Position, Effect) VALUES (507, 'Bottom', '+1R STR');
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (147, 220); --Call of the Dragon King 
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (147, 557); --Immune: Status Effects 
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (147, 268); --Immune: Status Effects 
 
 
 --Dragon Lance				--CardIndex 508		--EquipmentIndex 148 
@@ -11039,7 +11000,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Loot', 'FK', 'FK Core Set', 'Default',
 'Perfect for any dungeon terrain.');
 insert into Equipment (CardIndex, Position, Effect) VALUES (515, 'Right', '+1B DEX');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (155, 641); --Surefoot
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (155, 352); --Surefoot
 
 
 --Elvish Bracelet			--CardIndex 516     --EquipmentIndex 156
@@ -11050,7 +11011,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Loot', 'FK', 'FK Core Set', 'Default',
 'I love charm bracelets!');
 insert into Equipment (CardIndex, Position, Effect) VALUES (516, 'Top', '+1B DEX');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (156, 551); --Immune Fire
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (156, 262); --Immune Fire
 
 
 --Elvish Rapier				--CardIndex 517     --EquipmentIndex 157 
@@ -11092,7 +11053,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', 'FK', 'FK Core Set', 'Default',
 'Don''t run with that!');
 insert into Equipment (CardIndex, Position, Effect) VALUES (520, 'Left', '+1R STR');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (160, 571); --Massive Damage 
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (160, 282); --Massive Damage 
 
 
 --Exemplar Shield			--CardIndex 521		--EquipmentIndex 161 
@@ -11103,7 +11064,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', 'FK', 'FK Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, Position, Effect) VALUES (521, 'Right', '+2ST ARM');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (161, 554); --Immune: Knockdown
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (161, 265); --Immune: Knockdown
 
 
 --Fallen Fury				--CardIndex 522		--EquipmentIndex 162 
@@ -11114,7 +11075,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', 'FK SDArena', 'FK SDArena Core Set', 'Default',
 'I feel the rage of the Dark Celestians.');
 insert into Equipment (CardIndex, Position, Effect) VALUES (516, 'Left', '');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (162, 521); --Fury
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (162, 232); --Fury
 
 
 --Fashionable Cape			--CardIndex 523     --EquipmentIndex 163 
@@ -11187,7 +11148,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', 'FK SDArena', 'FK SDArena Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, Position, Effect) VALUES (529, 'Top', '+1R WILL');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (169, 691); --Insight
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (169, 402); --Insight
 
 
 --Fizzy Beverage			--CardIndex 530     --EquipmentIndex 170 
@@ -11284,7 +11245,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', 'FK SDArena', 'FK SDArena Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, Position, Effect) VALUES (538, 'Bottom', '+3B STR');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (178, 692); --Hunger
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (178, 403); --Hunger
 
 
 --Granite Pendant				--CardIndex 539     --EquipmentIndex 179 
@@ -11305,8 +11266,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', 'FK', 'FK Core Set', 'Default',
 'Keep moving, it''ll be over soon.');
 insert into Equipment (CardIndex, Position, Effect) VALUES (540, 'Top', '+1R ARM SAPPHIRE +1G ARM');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (180, 564); --Knockdown
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (180, 625); --Slow
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (180, 275); --Knockdown
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (180, 336); --Slow
 
 
 --Guard's Spear					--CardIndex 541		--EquipmentIndex 181 
@@ -11413,7 +11374,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Goddess protect us.');
 insert into Equipment (CardIndex, Position, Effect) VALUES (550, 'Left', '+3B STR');
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (190, 645); --Turn Undead
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (190, 545); --Holy
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (190, 256); --Holy
 
 
 --Honed Blade					--CardIndex 551		--EquipmentIndex 191 
@@ -11435,7 +11396,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'The Frostbyte burns!');
 insert into Equipment (CardIndex, Position, Effect) VALUES (552, 'Left', '+1G WILL');
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (192, 709); --Ice Chipper
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (192, 553); --Immune: Ice
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (192, 264); --Immune: Ice
 
 
 --Itty-Bitty Wings				--CardIndex 553		--EquipmentIndex 193 
@@ -11446,7 +11407,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Loot', 'FK', 'FK Core Set', 'Default',
 'Warning: Do not attempt flight.');
 insert into Equipment (CardIndex, Position, Effect) VALUES (553, 'Bottom', '+2G');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (193, 554); --Immune Knockdown
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (193, 265); --Immune Knockdown
 
 
 --Jumbo Shuriken				--CardIndex 554		--EquipmentIndex 194 
@@ -11468,7 +11429,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', 'FK', 'FK Core Set', 'Default',
 'These tunnels go on forever.');
 insert into Equipment (CardIndex, Position, Effect) VALUES (555, 'Left', '+1G DEX');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (195, 481); --Burrow
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (195, 192); --Burrow
 
 
 --Kitty Cat Charm				--CardIndex 556		--EquipmentIndex 196 
@@ -11511,7 +11472,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Loot', 'FK', 'FK Core Set', 'Default',
 'A sour jolt!');
 insert into Equipment (CardIndex, Position, Effect) VALUES (559, 'Bottom', '+1B WILL');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (199, 555); --Immune Poison
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (199, 266); --Immune Poison
 
 
 --Lost Love Pendant				--CardIndex 560		--EquipmentIndex 200 
@@ -11543,7 +11504,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', 'FK', 'FK Core Set', 'Default',
 'Lucky!');
 insert into Equipment (CardIndex, Position, Effect) VALUES (562, 'Bottom', '+1R ARM');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (202, 570); --Luck  
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (202, 281); --Luck  
 
 
 --Lupine Totem Mask				--CardIndex 563		--EquipmentIndex 203 
@@ -11555,7 +11516,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 '');
 insert into Equipment (CardIndex, Position, Effect) VALUES (563, 'Top', '+1B STR SAPPHIRE +1G STR');
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (203, 468); --Pack Hunter
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (203, 637); --Stealth
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (203, 348); --Stealth
 
 
 --Masterwork Bow				--CardIndex 564		--EquipmentIndex 204 
@@ -11596,7 +11557,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', 'FK', 'FK Core Set', 'Default',
 'Flee shadows flee!');
 insert into Equipment (CardIndex, Position, Effect) VALUES (567, 'Top', '+2B ARM');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (207, 550); --Immune: Bane
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (207, 261); --Immune: Bane
 
 
 --Monstrous Maul				--CardIndex 568		--EquipmentIndex 208 
@@ -11652,7 +11613,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Forged in the deepest pits, the merest scratch can prove fatal.');
 insert into Equipment (CardIndex, Position, Effect) VALUES (572, 'Left', '+1G DEX');
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (78, 46); --Fire Storm
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (78, 588); --Poison 
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (78, 299); --Poison 
 
 
 --Ogre Mace						--CardIndex 573     --EquipmentIndex 213 
@@ -11673,7 +11634,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', 'FK', 'FK Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, Position, Effect) VALUES (574, 'Top', '+1R DEX +2MO');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (214, 528); --Fly  
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (214, 229); --Fly  
 
 
 --Admiral Fuzzybottom		--CardIndex 575		--EquipmentIndex 215 
@@ -11684,7 +11645,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', 'FK', 'FK Core Set', 'Default',
 'You''ve rescued the soft and fuzzy pet, Admiral Fuzzybottom.  No one can resist petting such an admirable kitty.');
 insert into Equipment (CardIndex, Position, Effect) VALUES (575, 'Other', ''); --
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (215, 654); --Wonder 
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (215, 365); --Wonder 
 
 
 --Colonel The				--CardIndex 576		--EquipmentIndex 216 
@@ -11695,7 +11656,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', 'FK', 'FK Core Set', 'Default',
 'You''ve rescued the expert tactician and jolly good pet, The Colonel.  Excellent work, old chap.');
 insert into Equipment (CardIndex, Position, Effect) VALUES (576, 'Other', ''); --
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (216, 654); --Wonder  
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (216, 365); --Wonder  
 
 
 --Lord Gruff				--CardIndex 577		--EquipmentIndex 217 
@@ -11706,7 +11667,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', 'FK', 'FK Core Set', 'Default',
 'You''ve rescued the cranky and stubborn pet, Lord Gruff.  He would prefer if you had left him alone.');
 insert into Equipment (CardIndex, Position, Effect) VALUES (577, 'Other', ''); -- 
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (217, 654); --Wonder 
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (217, 365); --Wonder 
 
 
 --Madam Hilde				--CardIndex 578		--EquipmentIndex 218 
@@ -11717,7 +11678,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', 'FK', 'FK Core Set', 'Default',
 'You''ve rescued the magical singing pet, Madam Hilde.  Be sure to plug your ears!');
 insert into Equipment (CardIndex, Position, Effect) VALUES (578, 'Other', ''); --
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (218, 654); --Wonder 
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (218, 365); --Wonder 
 
 
 --Miss G Snorts				--CardIndex 579		--EquipmentIndex 219 
@@ -11728,7 +11689,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', 'FK', 'FK Core Set', 'Default',
 'Woooosh!');
 insert into Equipment (CardIndex, Position, Effect) VALUES (579, 'Other', ''); --
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (219, 654); --Wonder 
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (219, 365); --Wonder 
 
 
 --Mr Bitey					--CardIndex 580		--EquipmentIndex 220 
@@ -11739,7 +11700,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', 'FK', 'FK Core Set', 'Default',
 'You''ve rescued the bunny pet, Mr. Bitey!  Is that a finger he''s eating?  Yuck.');
 insert into Equipment (CardIndex, Position, Effect) VALUES (580, 'Other', ''); -- 
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (220, 654); --Wonder 
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (220, 365); --Wonder 
 
 
 --Mr Chompers				--CardIndex 581		--EquipmentIndex 221 
@@ -11750,7 +11711,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', 'FK', 'FK Core Set', 'Default',
 'You''ve rescued the lovable and fiery pet, Mr. Chompers.  His favorite treat is lava rock.  Delicious!');
 insert into Equipment (CardIndex, Position, Effect) VALUES (581, 'Other', ''); -- 
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (221, 654); --Wonder 
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (221, 365); --Wonder 
 
 
 --Never-Lost Cola			--CardIndex 582		--EquipmentIndex 222 
@@ -11761,7 +11722,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', 'FK', 'FK Core Set', 'Default',
 'You''ve rescued the trailblazer Never-Lost Cola.  Thanks to his trusty compass your party will never be lost again.');
 insert into Equipment (CardIndex, Position, Effect) VALUES (582, 'Other', ''); --
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (222, 654); --Wonder 
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (222, 365); --Wonder 
 
 
 --Petrified Dragon Heart		--CardIndex 583		--EquipmentIndex 223 
@@ -11772,7 +11733,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', 'FK', 'FK Core Set', 'Default',
 'It beats still.');
 insert into Equipment (CardIndex, Position, Effect) VALUES (583, 'Bottom', '+1HE RUBY +2HE');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (223, 551); --Immune: Fire
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (223, 262); --Immune: Fire
 
 
 --Phoenix Call					--CardIndex 584		--EquipmentIndex 224 
@@ -11784,7 +11745,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Let the flame revive and purify.');
 insert into Equipment (CardIndex, Position, Effect) VALUES (584, 'Left', '+2B DEX');
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (224, 712); --Reborn
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (224, 512); --Fire
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (224, 223); --Fire
 
 
 --Pickpocket Gloves				--CardIndex 585		--EquipmentIndex 225 
@@ -11837,7 +11798,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Loot', 'FK SDArena', 'FK SDArena Core Set', 'Default',
 'It''s all I could afford.');
 insert into Equipment (CardIndex, Position, Effect) VALUES (589, 'Bottom', '');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (229, 557); --Immune: Status Effects
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (229, 268); --Immune: Status Effects
 
 
 --Posh Pajamas					--CardIndex 590		--EquipmentIndex 230 
@@ -11861,7 +11822,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 '');
 insert into Equipment (CardIndex, Position, Effect) VALUES (591, 'Right', '+1B STR');
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (231, 456); --Nom-Nom
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (231, 689); --Cursed
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (231, 205); --Cursed
 
 
 --Potion Bandolier				--CardIndex 592     --EquipmentIndex 232 
@@ -11916,7 +11877,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 '');
 insert into Equipment (CardIndex, Position, Effect) VALUES (596, 'Right', '+1R ARM EMERALD +1G ARM');
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (236, 331); --Fly With Me
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (236, 518); --Fly
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (236, 229); --Fly
 
 
 --Red Cap Hat					--CardIndex 597		--EquipmentIndex 237 
@@ -11927,7 +11888,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', 'FK', 'FK Core Set', 'Default',
 'Must fight more monsters!');
 insert into Equipment (CardIndex, Position, Effect) VALUES (597, 'Top', '+3B WILL');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (237, 521); --Fury
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (237, 232); --Fury
 
 
 --Regal Portrait				--CardIndex 598		--EquipmentIndex 238 
@@ -11949,7 +11910,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', 'FK SDArena', 'FK SDArena Core Set', 'Default',
 'The Nether Rifts feed upon misery.');
 insert into Equipment (CardIndex, Position, Effect) VALUES (599, 'Left', '+2B STR');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (239, 694); --Bleed
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (239, 405); --Bleed
 
 
 --Riftling Orb					--CardIndex 600     --EquipmentIndex 240 
@@ -12025,7 +11986,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Few can stand when Rumble & Ruckus shake the ground.');
 insert into Equipment (CardIndex, Position, Effect) VALUES (606, 'Left', '+1R STR');
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (246, 699); --Tremor Strike
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (246, 564); --Knockdown
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (246, 275); --Knockdown
 
 
 --Rusty Gauntlets				--CardIndex 607     --EquipmentIndex 247 
@@ -12111,7 +12072,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 '');
 insert into Equipment (CardIndex, Position, Effect) VALUES (614, 'Right', '+2B DEX');
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (254, 659); --Verdant Dream
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (254, 637); --Stealth
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (254, 348); --Stealth
 
 
 --Silk Gloves					--CardIndex 615     --EquipmentIndex 255 
@@ -12270,7 +12231,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Her beauty chilled my very soul.');
 insert into Equipment (CardIndex, Position, Effect) VALUES (629, 'Bottom', '+1R WILL +1G WILL');
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (270, 481); --Playful Wink
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (270, 553); --Immune: Ice
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (270, 264); --Immune: Ice
 
 
 --Toxic Tincture				--CardIndex 630		--EquipmentIndex 271 
@@ -12281,7 +12242,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', 'FK', 'FK Core Set', 'Default',
 'Did my skin just turn green?');
 insert into Equipment (CardIndex, Position, Effect) VALUES (630, 'Top', '+1R WILL +1R ARM');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (271, 649); --Toxic Blood
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (271, 360); --Toxic Blood
 
 
 --Training Robe					--CardIndex 630		--EquipmentIndex 272 
@@ -12302,7 +12263,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', 'FK', 'FK Core Set', 'Default',
 'Nothing is safe.');
 insert into Equipment (CardIndex, Position, Effect) VALUES (631, 'Bottom', '+1G DEX');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (273, 646); --Thief  
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (273, 357); --Thief  
 
 
 --Unbreakable					--CardIndex 632		--EquipmentIndex 274 
@@ -12313,7 +12274,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', 'FK SDArena', 'FK SDArena Core Set', 'Default',
 'Come on, hit me!');
 insert into Equipment (CardIndex, Position, Effect) VALUES (632, 'Right', '+3B ARM');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (274, 695); --Sturdy
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (274, 406); --Sturdy
 
 
 --Vial of Burning Bile			--CardIndex 633		--EquipmentIndex 275 
@@ -12346,8 +12307,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', 'FK SDArena', 'FK SDArena Core Set', 'Default',
 'One drop could kill.');
 insert into Equipment (CardIndex, Position, Effect) VALUES (635, 'Bottom', '+1 Potion');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (277, 588); --Poison
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (277, 555); --Immune: Poison
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (277, 299); --Poison
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (277, 266); --Immune: Poison
 
 
 --Vitamin Supplement			--CardIndex 636		--EquipmentIndex 278 
@@ -12359,7 +12320,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'It''s totally not candy...');
 insert into Equipment (CardIndex, Position, Effect) VALUES (636, 'Bottom', '+2MO');
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (278, 719); --Take This
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (278, 554); --Immune: Knockdown
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (278, 265); --Immune: Knockdown
 
 
 --Von Hulf's Sword				--CardIndex 637		--EquipmentIndex 279 
@@ -12370,7 +12331,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', 'FK', 'FK Core Set', 'Default',
 'I will defend my people!');
 insert into Equipment (CardIndex, Position, Effect) VALUES (637, 'Left', '+1G ARM');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (279, 496); --Defender  
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (279, 207); --Defender  
 
 
 --Vulcanis's Maul				--CardIndex 638		--EquipmentIndex 280 
@@ -12403,7 +12364,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Loot', 'FK', 'FK Core Set', 'Default',
 'Which hat? The pointed hat!');
 insert into Equipment (CardIndex, Position, Effect) VALUES (640, 'Bottom', '+1ST WILL');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (282, 540); --Hex
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (282, 251); --Hex
 
 
 --Witch Robes					--CardIndex 641    --EquipmentIndex 283 
@@ -12465,7 +12426,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Loot', 'FK', 'FK Core Set', 'Default',
 'Point the wand at what you want to barbeque...');
 insert into Equipment (CardIndex, Position, Effect) VALUES (647, 'Left', '+1B WILL');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (288, 512); --Fire
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (288, 223); --Fire
 
 
 --Wobbling Stalactite			--CardIndex 648		--EquipmentIndex 289 
@@ -12487,7 +12448,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', 'FK', 'FK Core Set', 'Default',
 'Is it hot in here?');
 insert into Equipment (CardIndex, Position, Effect) VALUES (649, 'Right', '+1G ARM');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (290, 554); --Immune: Knockdown
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (290, 265); --Immune: Knockdown
 
 
 --Wyrm Scale Shield				--CardIndex 650		--EquipmentIndex 291 
@@ -12509,8 +12470,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', 'FK', 'FK Core Set', 'Default',
 'RWAAAAAARRRR!');
 insert into Equipment (CardIndex, Position, Effect) VALUES (651, 'Right', '+1G ARM');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (292, 473); --Berzerk
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (292, 648); --Tough--FK Utility Cards
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (292, 184); --Berzerk
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (292, 359); --Tough--FK Utility Cards
 --Terrain
 --Brambles --CardIndex 652 --UtilityIndex 3 --TerrainIndex 2
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
@@ -12520,8 +12481,8 @@ VALUES ('Brambles',
 'http://htkb.online/SDWiki/SDE/FK/Cards/Terrain_Cards/Brambles.xhtml', 
 'Terrain', 'FK', 'FK Core Set', 'Default', '');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (652, ''); 
-insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (3, 589); --Poison
-insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (3, 498); --Difficult Terrain
+insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (3, 300); --Poison
+insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (3, 209); --Difficult Terrain
 
 --Champion --CardIndex 653 --UtilityIndex 4 --TerrainIndex 3
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
@@ -12531,9 +12492,9 @@ VALUES ('Champion',
 'http://htkb.online/SDWiki/SDE/FK/Cards/Terrain_Cards/Champion.xhtml', 
 'Terrain', 'FK', 'FK Core Set', 'Default', '');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (653, ''); 
-insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (4, 484); --Champion
-insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (4, 691); --Blessing
-insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (4, 692); --Structure
+insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (4, 195); --Champion
+insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (4, 409); --Blessing
+insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (4, 410); --Structure
 
 --Chasm --CardIndex 654 --UtilityIndex 5 --TerrainIndex 4
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
@@ -12543,7 +12504,7 @@ VALUES ('Chasm',
 'http://htkb.online/SDWiki/SDE/FK/Cards/Terrain_Cards/Chasm.xhtml', 
 'Terrain', 'FK', 'FK Core Set', 'Default', '');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (654, ''); 
-insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (5, 485); --Chasm
+insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (5, 196); --Chasm
 
 --Difficult Terrain --CardIndex 655 --UtilityIndex 6 --TerrainIndex 5
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
@@ -12553,7 +12514,7 @@ VALUES ('Difficult Terrain',
 'http://htkb.online/SDWiki/SDE/FK/Cards/Terrain_Cards/Difficult_Terrain.xhtml', 
 'Terrain', 'FK', 'FK Core Set', 'Default', '');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (655, ''); 
-insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (6, 485); --Difficult Terrain
+insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (6, 209); --Difficult Terrain
 
 --Fresh Grave --CardIndex 656 --UtilityIndex 7 --TerrainIndex 6
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
@@ -12563,7 +12524,7 @@ VALUES ('Fresh Grave',
 'http://htkb.online/SDWiki/SDE/FK/Cards/Terrain_Cards/Fresh_Grave.xhtml', 
 'Terrain', 'FK', 'FK Core Set', 'Default', '');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (656, ''); 
-insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (7, 520); --Fresh Grave
+insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (7, 231); --Fresh Grave
 
 --Goddess --CardIndex 657 --UtilityIndex 8 --TerrainIndex 7
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
@@ -12573,9 +12534,9 @@ VALUES ('Goddess',
 'http://htkb.online/SDWiki/SDE/FK/Cards/Terrain_Cards/Goddess.xhtml', 
 'Terrain', 'FK', 'FK Core Set', 'Default', '');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (657, ''); 
-insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (8, 484); --Goddess
-insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (8, 691); --Blessing
-insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (8, 692); --Structure
+insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (8, 238); --Goddess
+insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (8, 409); --Blessing
+insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (8, 410); --Structure
 
 --Secret Passage --CardIndex 658 --UtilityIndex 9 --TerrainIndex 8
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
@@ -12585,7 +12546,7 @@ VALUES ('Secret Passage',
 'http://htkb.online/SDWiki/SDE/FK/Cards/Terrain_Cards/Secret_Passage.xhtml', 
 'Terrain', 'FK', 'FK Core Set', 'Default', '');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (658, ''); 
-insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (9, 611); --Secret Passage
+insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (9, 322); --Secret Passage
 
 --Sentinel --CardIndex 659 --UtilityIndex 10 --TerrainIndex 9
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
@@ -12595,9 +12556,9 @@ VALUES ('Sentinel',
 'http://htkb.online/SDWiki/SDE/FK/Cards/Terrain_Cards/Sentinel.xhtml', 
 'Terrain', 'FK', 'FK Core Set', 'Default', '');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (659, ''); 
-insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (10, 484); --Sentinel
-insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (10, 691); --Blessing
-insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (10, 692); --Structure
+insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (10, 411); --Sentinel
+insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (10, 409); --Blessing
+insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (10, 410); --Structure
 
 --Spawn Location --CardIndex 660 --UtilityIndex 11 --TerrainIndex 10
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
@@ -12607,7 +12568,7 @@ VALUES ('Spawn Location',
 'http://htkb.online/SDWiki/SDE/FK/Cards/Terrain_Cards/Spawn_Location.xhtml', 
 'Terrain', 'FK', 'FK Core Set', 'Default', '');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (660, ''); 
-insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (11, 631); --Spawn Location
+insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (11, 342); --Spawn Location
 
 --Structure --CardIndex 661 --UtilityIndex 12 --TerrainIndex 11
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
@@ -12617,7 +12578,7 @@ VALUES ('Structure',
 'http://htkb.online/SDWiki/SDE/FK/Cards/Terrain_Cards/Structure.xhtml', 
 'Terrain', 'FK', 'FK Core Set', 'Default', '');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (661, ''); 
-insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (12, 692); --Structure
+insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (12, 410); --Structure
 --FK Utility Cards
 
 --Backpack	--CardIndex 662 --UtilityIndex 13
@@ -12646,12 +12607,12 @@ VALUES ('Elemental Affinity Chart',
 'http://htkb.online/SDWiki/SDE/FK/Cards/Utility_Cards/Elemental_Affinity_Chart.xhtml', 
 'Utility', 'FK', 'FK Core Set', 'Default', '');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (664, '');
-insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (15, 511); --Feint
-insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (15, 512); --Fire
-insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (15, 518); --Fly
-insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (15, 557); --Immune: Status Effects
-insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (15, 596); --Predator
-insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (15, 625); --Slow
+insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (15, 221); --Feint
+insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (15, 223); --Fire
+insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (15, 229); --Fly
+insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (15, 268); --Immune: Status Effects
+insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (15, 307); --Predator
+insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (15, 336); --Slow
 
 --Arcade Mighty Monster Chart	--CardIndex 665 --UtilityIndex 16
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
@@ -13703,7 +13664,11 @@ insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, 
 347, 'Feminine', 'Small', 'Fennek', 6, 3, '2B1R', '2R', '2B', '3B', 5, 1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (347, 1); --Citrine
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (347, 2); --Emerald
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (252, 720); --Destruction
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (252, 248); --Heal X
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (252, 282); --Massive Damage
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (252, 413); --Retreat	
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (252, 352); --Surefoot
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (252, 720); --Destruction	
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (252, 721); --Queen of the Hill
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (252, 722); --Captain Capture
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (252, 723); --Cure Cordial
