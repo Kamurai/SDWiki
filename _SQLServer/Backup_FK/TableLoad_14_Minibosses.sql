@@ -8,9 +8,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'When human, Boris was a large and gentle lad.  During The Forgotten King''s rebellion Boris lept at the chance to prove himself to his noble lord, only to quickly turn timid and fearful when faced with the reality of war.');
 insert into Characters (CardIndex) VALUES (234);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (149, 1); --Citrine
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (149, 473); --Berserk
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (149, 554); --Immune: Knockdown
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (149, 587); --Pile-On
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (149, 184); --Berserk
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (149, 265); --Immune: Knockdown
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (149, 297); --Pile-On
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (149, 614); --Sweeping Mace
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (149, 405); --Introspection
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
@@ -28,9 +28,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'When human, Boris was a large and gentle lad.  During The Forgotten King''s rebellion Boris lept at the chance to prove himself to his noble lord, only to quickly turn timid and fearful when faced with the reality of war.');
 insert into Characters (CardIndex) VALUES (235);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (150, 1); --Citrine
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (150, 473); --Berserk
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (150, 554); --Immune: Knockdown
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (150, 587); --Pile-On
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (150, 184); --Berserk
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (150, 265); --Immune: Knockdown
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (150, 296); --Pile-On
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (150, 613); --Sweeping Mace
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (150, 296); --Earthshaker
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
@@ -49,7 +49,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (236);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (151, 1); --Citrine
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (151, 3); --Ruby
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (151, 544); --Hoard
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (151, 255); --Hoard
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (151, 329); --Flintlock
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (151, 415); --Kraken
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (151, 684); --'X' Marks the Spot
@@ -68,8 +68,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 '');
 insert into Characters (CardIndex) VALUES (237);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (152, 1); --Citrine
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (152, 456); --9 Lives
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (152, 473); --Berserk
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (152, 167); --9 Lives
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (152, 184); --Berserk
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (152, 623); --Teeth & Fur
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (152, 226); --Chaos Fuzz
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (152, 175); --Bad Kitty
@@ -89,8 +89,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Death comes to us all, but within the shrouded mists and fog of Glauerdoom Moor death is all too common.  Death Spectres are perversions of the spirits of death who guide the deceased to their final resting place.  Driven by a need to cause death beyond that prescribed by nature, Death Spectres are vile reapers that thrive on suffering.');
 insert into Characters (CardIndex) VALUES (238);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (153, 3); --Ruby
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (153, 554); --Immune: Knockdown
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (153, 522); --Ghost
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (153, 265); --Immune: Knockdown
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (153, 233); --Ghost
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (153, 418); --Lifesap
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (153, 576); --Soul Scythe
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (153, 583); --Spectre
@@ -109,8 +109,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'The Harvest Festival is upon the fair citizens of Crystalia, and the Fae Alchemist has eaten too many toadstools.  Now, turned to vile villainy, she must be stopped before crafting her cruel concoctions!');
 insert into Characters (CardIndex) VALUES (239);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (154, 3); --Ruby
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (154, 457); --Alchemy
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (154, 592); --Potion Master
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (154, 168); --Alchemy
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (154, 303); --Potion Master
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (154, 661); --Vile Concoction
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (154, 413); --Kobold's Tears
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (154, 236); --Coagulated Mixture
@@ -130,9 +130,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'The Emerald Dragon, Glimmerwing, is reclusive by even dragon standards.  Sharing kinship with the faerie of the Fae Wood, she wraps her Emerald Valley in concealing glamors and deceptive illusions to keep over-enthusiastic Heroes from discovering her sanctuary.');
 insert into Characters (CardIndex) VALUES (240);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (155, 3); --Ruby
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (155, 550); --Immune: Bane
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (155, 552); --Immune: Hex
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (155, 518); --Fly
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (155, 261); --Immune: Bane
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (155, 263); --Immune: Hex
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (155, 229); --Fly
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (155, 201); --Breath of Dream
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (155, 660); --Verdant Maze
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (155, 311); --Fae Curse
@@ -152,10 +152,10 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Part zombie, part construct, Gruesome George is the particularly fiendish invention of a gnome Shamble Priest pushed past the edge of sanity.  Fueled by both necromantic energy and arcane electricity, George grows stronger as the battle intensifies, gaining strength from his own motion and the damage inflicted upon him.');
 insert into Characters (CardIndex) VALUES (241);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (156, 4); --Sapphire
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (156, 557); --Immune: Status Effects
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (156, 580); --Mob
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (156, 635); --Static Charge
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (156, 648); --Tough
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (156, 268); --Immune: Status Effects
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (156, 291); --Mob
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (156, 346); --Static Charge
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (156, 359); --Tough
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (156, 596); --Static Discharge
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (156, 207); --Brilliant
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (156, 298); --Electric Jolt
@@ -175,7 +175,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (242);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (157, 1); --Citrine
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (157, 4); --Sapphire
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (157, 551); --Immune: Fire
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (157, 262); --Immune: Fire
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (157, 325); --Flaming Javelin
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (157, 550); --Shield Bash
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (157, 472); --Phalanx
@@ -195,7 +195,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 '');
 insert into Characters (CardIndex) VALUES (243);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (158, 4); --Sapphire
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (158, 492); --Crystal Heart
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (158, 203); --Crystal Heart
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (158, 551); --Shield Wall
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (158, 616); --Sword Toss
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (158, 368); --Hard Hit
@@ -215,7 +215,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (244);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (159, 1); --Citrine
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (159, 3); --Ruby
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (159, 517); --Flammable
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (159, 228); --Flammable
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (159, 370); --Harvest Scythe
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (159, 213); --Bumper Crop
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (159, 533); --Run Birdy
@@ -232,12 +232,12 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/FK/Cards/MiniBosses/Card_MiniBoss_Kaelly_the_Nether_Strider_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Explore/Cards/MiniBosses/Kaelly_the_Nether_Strider.xhtml', 
 'MiniBoss', 'FK', 'FK Core Set', 'Explore',
-'Corrupted by the Dark Consul''s malevolent influence, the Nther Striders are his favored instruments of terror.  Wrapped in swirling darkness they are expert assassins, claiming the lives of generals, kings, and Heroes alike.');
+'Corrupted by the Dark Consul''s malevolent influence, the Nether Striders are his favored instruments of terror.  Wrapped in swirling darkness they are expert assassins, claiming the lives of generals, kings, and Heroes alike.');
 insert into Characters (CardIndex) VALUES (245);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (160, 2); --Emerald
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (160, 589); --Poison
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (160, 641); --Surefoot
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (160, 637); --Stealth
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (160, 300); --Poison
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (160, 352); --Surefoot
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (160, 348); --Stealth
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (160, 380); --Hex Bolt
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (160, 254); --Dark Aura
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
@@ -258,7 +258,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (246);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (161, 1); --Citrine
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (161, 4); --Sapphire
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (161, 648); --Tough
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (161, 359); --Tough
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (161, 535); --Serpent Coil
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (161, 685); --Zealotry
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (161, 569); --Snare
@@ -278,8 +278,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'The ninja clans care little for the wars between the Goddess''s children and the Dark Realm.  So long as there is profit and a suitable test of skill, the clans are willing to accept any job.  Not fond of fighting Heroes, Candy never strikes a killing blow.  Instead she treats her battles with Heroes as a challenge to further both her, and her adversaries'', expertise.');
 insert into Characters (CardIndex) VALUES (247);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (162, 3); --Ruby
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (162, 624); --Sidestep
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (162, 637); --Stealth
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (162, 335); --Sidestep
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (162, 348); --Stealth
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (162, 466); --Pachi-Pachi-Pachi
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (162, 453); --Ninja Assassin
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (162, 279); --Distracting Costume
@@ -300,8 +300,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Cola fights Heroes with his face a mask of stoic determination.  It is no secret the kitsune holds delicious Soda Pop Potions in the highest esteem.  Perhaps his zeal in fighting Heroes stems from potion envy, since he is not allowed to have any when working for the less savory elements of Crystalia.');
 insert into Characters (CardIndex) VALUES (248);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (163, 2); --Emerald
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (163, 624); --Sidestep
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (163, 626); --Small
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (163, 335); --Sidestep
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (163, 337); --Small
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (163, 332); --Flying Fur
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (163, 610); --Super Shuriken
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (163, 343); --Frosty Soda Bomb
@@ -323,7 +323,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (249);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (164, 1); --Citrine
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (164, 3); --Ruby
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (164, 503); --Elemental Affinity
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (164, 214); --Elemental Affinity
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (164, 274); --Disaster
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (164, 270); --Devour
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (164, 267); --Deceive
@@ -342,7 +342,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Rex has collected more than a few new friends since going to work in the Consul''s dungeons.  Most are unwary adventurers not quite quick enough to get out of the reach of his enthusiastic hugs.');
 insert into Characters (CardIndex) VALUES (250);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (165, 1); --Citrine
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (165, 580); --Mob
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (165, 291); --Mob
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (165, 627); --Thwomp
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (165, 520); --Rex Cuddle
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (165, 522); --Rex Smash
@@ -361,9 +361,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Rock Gut loves rock.  Rock Gut would marry rock if he could.  Sometime Rock Gut talks to rock.  He finds rock very understanding and a good listener.  Mainly Rock Gut eats rock, digesting it in his fiery belly.  Unfortunately, to Rock Gut, everything is "rock".  Even if you''re really a squirming Hero.');
 insert into Characters (CardIndex) VALUES (251);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (166, 4); --Sapphire
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (166, 512); --Fire
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (166, 551); --Immune: Fire
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (166, 648); --Tough
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (166, 223); --Fire
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (166, 262); --Immune: Fire
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (166, 359); --Tough
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (166, 215); --Burning Bile
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (166, 314); --Feast
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
@@ -382,8 +382,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (252);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (167, 1); --Citrine
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (167, 4); --Sapphire
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (167, 557); --Immune: Status Effects
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (167, 518); --Fly
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (167, 268); --Immune: Status Effects
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (167, 229); --Fly
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (167, 608); --Summer
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (167, 679); --Winter
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (167, 232); --Circle of Salt
@@ -402,8 +402,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Ser Sharpclaw has distinguished himself among lesser kobolds for his savagery in battle.  Atop his Wayrmfang Drake, Ravage, he inspires all those around him to new levels of barbarity.  Many Heroes have fallen because they have been ill prepared to face the snarling, biting, stabbing mass of rabid kobolds that Ser Sharpclaw leads into battle.');
 insert into Characters (CardIndex) VALUES (253);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (168, 1); --Citrine
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (168, 641); --Surefoot
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (168, 609); --Savage
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (168, 352); --Surefoot
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (168, 320); --Savage
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (168, 461); --Onslaught
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (168, 229); --Chomp! Crunch!
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
@@ -421,8 +421,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Ser Snapjaw was the greatest Wyrm Claw Templar in an age.  So daring and grand were his exploits that he was granted special permission to found the Exemplars within the Wyrm Claw Templar Order.  Legendary among lesser kobolds they rally to Ser Snapjaw with zeal, his cunning leadership allowing them to fight with discipline that matches the mightiest armies.');
 insert into Characters (CardIndex) VALUES (254);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (169, 4); --Sapphire
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (169, 554); --Immune: Knockdown
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (169, 580); --Mob
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (169, 265); --Immune: Knockdown
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (169, 291); --Mob
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (169, 185); --Blazing Blade
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (169, 383); --Hightower
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (169, 514); --Rally Cry
@@ -442,8 +442,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (255);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (170, 1); --Citrine
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (170, 2); --Emerald
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (170, 557); --Immune: Status Effects
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (170, 495); --Dark Radiance
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (170, 268); --Immune: Status Effects
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (170, 206); --Dark Radiance
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (170, 256); --Dark Howling
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (170, 450); --Nether Soul
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (170, 543); --Shadow
@@ -462,7 +462,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'The Midnight Tower''s shadow stretches across the whole of Crystalia and is a bleak reminder of the Dark Consul''s strength and power.  Vandella represents a more subtle aspect of the Consul''s power, the power to corrupt and beguile.  She delights in tormenting her prey and sowing chaos within even the most steadfast Hero''s heart.');
 insert into Characters (CardIndex) VALUES (256);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (171, 3); --Ruby
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (171, 518); --Fly
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (171, 229); --Fly
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (171, 157); --Alluring
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (171, 204); --Breathtaking Kiss
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (171, 238); --Come Hither
@@ -483,10 +483,10 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Young by treant standards Trent was always a bad seed.  Rooted in the faery-haunted Mistmourn Coast, he was always cranky and inclined to distrust.  Even so, Trent was slow to anger as the mischievous fae lurking in the mists would tease and taunt him.<br>After several centuries the young treant could stand it no longer, uprooting and wreaking vengeance upon the playful fae.  Once his fury was unleashed it was as long-lived as the Fae Wood itself.  In the end, it was remarkably');
 insert into Characters (CardIndex) VALUES (257);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (172, 4); --Sapphire
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (172, 555); --Immune: Poison
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (172, 648); --Tough
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (172, 651); --Virulent
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (172, 657); --Vulnerable: Fire
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (172, 266); --Immune: Poison
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (172, 359); --Tough
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (172, 362); --Virulent
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (172, 368); --Vulnerable: Fire
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (172, 262); --Decay
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (172, 464); --Overgrowth
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (172, 656); --Uproot
@@ -505,9 +505,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Young by treant standards Trent was always a bad seed.  Rooted in the faery-haunted Mistmourn Coast, he was always cranky and inclined to distrust.  Even so, Trent was slow to anger as the mischievous fae lurking in the mists would tease and taunt him.<br>After several centuries the young treant could stand it no longer, uprooting and wreaking vengeance upon the playful fae.  Once his fury was unleashed it was as long-lived as the Fae Wood itself.  In the end, it was remarkably');
 insert into Characters (CardIndex) VALUES (258);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (173, 4); --Sapphire
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (173, 555); --Immune: Poison
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (173, 648); --Tough
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (173, 651); --Virulent
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (173, 266); --Immune: Poison
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (173, 359); --Tough
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (173, 362); --Virulent
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (173, 263); --Decay
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (173, 687); --Overgrowth
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (173, 656); --Uproot

@@ -9,11 +9,11 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'I have such a delicious potion for you to try.  It may string a little going down....');
 insert into Characters (CardIndex) VALUES (259);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (174, 3); --Ruby
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (174, 557); --Immune: Status Effects
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (174, 518); --Fly
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (174, 524); --Ghostmancer
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (174, 563); --Kitty Claws
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (174, 593); --Potion Stash
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (174, 268); --Immune: Status Effects
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (174, 229); --Fly
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (174, 235); --Ghostmancer
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (174, 274); --Kitty Claws
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (174, 304); --Potion Stash
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (174, 495); --Pumpkin Charge
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (174, 211); --Bubble & Boil
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (174, 252); --Curses!
@@ -35,9 +35,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (260);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (175, 1); --Citrine
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (175, 3); --Ruby
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (175, 555); --Immune: Poison
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (175, 547); --Hubris
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (175, 641); --Surefoot
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (175, 266); --Immune: Poison
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (175, 258); --Hubris
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (175, 352); --Surefoot
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (175, 602); --Stranglethorn
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (175, 503); --Primal Roar
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (175, 336); --Forestwalker
@@ -59,11 +59,11 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (261);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (176, 1); --Citrine
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (176, 3); --Ruby
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (176, 554); --Immune: Knockdown
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (176, 550); --Immune: Bane
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (176, 580); --Mob
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (176, 507); --Feed Me
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (176, 518); --Fly
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (176, 265); --Immune: Knockdown
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (176, 261); --Immune: Bane
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (176, 291); --Mob
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (176, 219); --Feed Me
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (176, 229); --Fly
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (176, 676); --Wind Spirit
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (176, 269); --Devour
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (176, 183); --Biting Gale
@@ -84,9 +84,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 '');
 insert into Characters (CardIndex) VALUES (262);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (177, 1); --Citrine
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (177, 512); --Fire
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (177, 551); --Immune: Fire
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (177, 644); --Tail Sweep
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (177, 223); --Fire
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (177, 262); --Immune: Fire
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (177, 355); --Tail Sweep
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (177, 401); --Inferno
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (177, 555); --Shooting Star
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (177, 290); --Dragon Horn
@@ -107,9 +107,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Those who meet the gaze of Von Drakk say it is like peering into the soul of a beast.  None realize how correct they are.  When in the full throes of bloodlust Von Drakk is overtaken by a hideous transformation; his new form ideally suited to bringing carnage and ruin to his foes.');
 insert into Characters (CardIndex) VALUES (263);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (178, 1); --Citrine
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (178, 473); --Berserk
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (178, 475); --Blood Drinker
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (178, 518); --Fly
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (178, 184); --Berserk
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (178, 186); --Blood Drinker
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (178, 229); --Fly
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (178, 260); --Dead Cold
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (178, 313); --Feast
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
@@ -128,9 +128,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Battling the Lord of the Fire Flows is like challenging a ragining volcano itself.  Roxor is a temperamental lord and when driven to anger assumes the form of a raging pyre of white hot flame.  In this form Roxor is unapproachable even by his most loyal of lieutenants.  Roaring with primordial rage he stalks through the stone halls of his domain, bathing the dungeon in flame and fury.');
 insert into Characters (CardIndex) VALUES (264);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (179, 1); --Citrine
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (179, 512); --Fire
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (179, 551); --Immune: Fire
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (179, 618); --Shapeshift: Rockin' Roxor
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (179, 223); --Fire
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (179, 262); --Immune: Fire
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (179, 329); --Shapeshift: Rockin' Roxor
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (179, 663); --Volcano
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (179, 443); --Molten Steel
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
@@ -149,8 +149,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Lord of the Fire Flows, Roxor, seeks to creat a molten paradise for his elemental brethren.  Harboring no empathy for the "soft" races he readily allies himself with the Dark Consul so long as  their goals coverge.');
 insert into Characters (CardIndex) VALUES (265);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (180, 4); --Sapphire
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (180, 557); --Immune: Status Effects
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (180, 617); --Shapeshift: Ragin' Roxor
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (180, 268); --Immune: Status Effects
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (180, 328); --Shapeshift: Ragin' Roxor
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (180, 441); --Minion Toss
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (180, 224); --Cave In
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
@@ -169,9 +169,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 '');
 insert into Characters (CardIndex) VALUES (266);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (181, 4); --Citrine
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (181, 557); --Immune: Fire
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (181, 617); --Hoard
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (181, 617); --Tail Sweep
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (181, 262); --Immune: Fire
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (181, 255); --Hoard
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (181, 355); --Tail Sweep
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (181, 441); --Inferno
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (181, 224); --Dragon Hoard
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
@@ -191,8 +191,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (267);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (182, 2); --Emerald
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (182, 3); --Ruby
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (182, 475); --Blood Drinker
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (182, 616); --Shapeshift: Nocturne
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (182, 186); --Blood Drinker
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (182, 327); --Shapeshift: Nocturne
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (182, 164); --Army of Bone
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (182, 352); --Ghastly Vigor
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (182, 625); --Thriller

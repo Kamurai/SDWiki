@@ -1,5 +1,5 @@
 --FK Boss Spawns
---Beatrix The Witch Queen     --CardIndex 432   --BossSpawnIndex 3  
+--Beatrix the Witch Queen     --CardIndex 432   --BossSpawnIndex 3  
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Beatrix the Witch Queen', 
 'http://htkb.info/SDE/FK/Cards/Boss_Spawns/Card_Boss_Spawn_Beatrix_the_Witch_Queen_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Boss_Spawns/Card_Boss_Spawn_Beatrix_the_Witch_Queen_FK.png',

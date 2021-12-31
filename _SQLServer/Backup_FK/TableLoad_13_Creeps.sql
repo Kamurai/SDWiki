@@ -8,8 +8,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Citrine Slimes are not very good conversationalists.  They are, however, exceptional at oozing and stinking of sulfur--mainly the stinking part.  One splash or casual ooze-to-skin contact will doom a Hero to smelling bad for the rest of their days.  While this is fine if you are Citrine Slime yourself, it is rarely appropriate for polite company.');
 insert into Characters (CardIndex) VALUES (226);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (141, 1); --Citrine
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (141, 559); --Insignificant
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (141, 626); --Small
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (141, 270); --Insignificant
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (141, 337); --Small
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (141, 234); --Citrine Goop
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (141, 'Neither', 'Small', 'Slime', 5, 1, '2B', '0ST', '1B', '1B', 1, 0);
@@ -26,8 +26,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Remarkably congenial, Emerald Slimes are giggling chatterboxes.  Regaling Heroes with grand tales of "glorp--glug--splurr--slorp," "blurb--grupple--glog--blarr," and the classic, "bloob--blub--blablablup."  Granted, there are direct translations, so no Hero actually knows what they are saying, but they seem friendly enough.');
 insert into Characters (CardIndex) VALUES (227);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (142, 2); --Emerald
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (142, 559); --Insignificant
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (142, 626); --Small
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (142, 270); --Insignificant
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (142, 337); --Small
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (142, 303); --Emerald Glop
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (142, 'Neither', 'Small', 'Slime', 5, 1, '2B', '0ST', '1B', '1B', 1, 0);
@@ -44,8 +44,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Boo!  Boooooo!  BOOOOOOO!');
 insert into Characters (CardIndex) VALUES (228);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (143, 4); --Ruby
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (143, 522); --Ghost
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (143, 612); --Shallow Grave
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (143, 233); --Ghost
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (143, 323); --Shallow Grave
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (143, 309); --Extra Scared
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (143, 'Either', 'Small', 'Undead Ghost', 5, 1, '0ST', '0ST', '2B', '3B', 1, 0);
@@ -62,8 +62,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Giri are capricious faeries, even when not under the influence of the Dark Consul.  Lovers of cultivated crops, Giri travel throughout Crystalia in large swarms, seeking farmsteads with delicious greens to devour.  Farmers who make offerings to the Giri are blessed with a bumper crop.  Those who do not see their fields consumed as though struck by a plague of locusts.');
 insert into Characters (CardIndex) VALUES (229);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (144, 1); --Citrine
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (144, 559); --Insignificant
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (144, 580); --Mob
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (144, 270); --Insignificant
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (144, 291); --Mob
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (144, 451); --New Crop
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (144, 'Either', 'Small', 'Faerie', 5, 1, '2B', '0ST', '3B', '2B', 1, 0);
@@ -80,8 +80,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Driven mad by their curse, Rabid Squirrels attack in packs, swarming over unsuspecting Heroes, biting and chittering with insane glee.');
 insert into Characters (CardIndex) VALUES (230);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (145, 1); --Citrine
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (145, 559); --Insignificant
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (145, 626); --Small
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (145, 270); --Insignificant
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (145, 337); --Small
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (145, 451); --In Your Pants
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (145, 'Either', 'Small', 'Chimera', 7, 1, '1B', '0ST', '1B', '2R', 1, 0);
@@ -98,8 +98,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Rattlebones are the plague of the moorlands and the favorite party trick of up--and--coming necromancers.  Easy to raise, easy to destroy, easy to raise again.  They are an unceasing nuisance to even the most powerful to Heroes.');
 insert into Characters (CardIndex) VALUES (231);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (146, 1); --Citrine
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (146, 559); --Insignificant
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (146, 580); --Mob
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (146, 270); --Insignificant
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (146, 291); --Mob
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (146, 'Either', 'Small', 'Undead Skeleton', 6, 1, '2B', '0ST', '1B', '1B', 1, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (146, 1, 1);
@@ -115,8 +115,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Far more cranky than they have any right to be, Ruby Slime are incessant complainers.  Given to long, obnoxious bouts of melodramatic sighing and irritated grumbling, many get along very well with dwarves.  Such alliances rarely last long.  Inevitably the Ruby Slime will decide the dwarf owes him some shiny trinket and demand it with a rude and indignant gooing--which is enough to ruin any friendship.');
 insert into Characters (CardIndex) VALUES (232);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (147, 2); --Ruby
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (147, 559); --Insignificant
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (147, 626); --Small
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (147, 270); --Insignificant
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (147, 337); --Small
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (147, 303); --Ruby Goo
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (147, 'Neither', 'Small', 'Slime', 5, 1, '2B', '0ST', '1B', '1B', 1, 0);
@@ -133,8 +133,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Something is not quite right with Sapphire Slimes.  Even for a slime they are somewhat peculiar and odd.  Given to drooling and then slurping it up noisily, many Heroes find themselves uncomfortable around Sapphire Slimes.  Accordingly, they are not invited to many dinner parties.');
 insert into Characters (CardIndex) VALUES (233);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (148, 4); --Sapphire
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (148, 559); --Insignificant
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (148, 626); --Small
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (148, 270); --Insignificant
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (148, 337); --Small
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (148, 534); --Sapphire Gloop
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (148, 'Neither', 'Small', 'Slime', 5, 1, '2B', '0ST', '1B', '1B', 1, 0);

@@ -12,7 +12,11 @@ insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, 
 347, 'Feminine', 'Small', 'Fennek', 6, 3, '2B1R', '2R', '2B', '3B', 5, 1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (347, 1); --Citrine
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (347, 2); --Emerald
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (252, 720); --Destruction
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (252, 248); --Heal X
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (252, 282); --Massive Damage
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (252, 413); --Retreat	
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (252, 352); --Surefoot
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (252, 720); --Destruction	
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (252, 721); --Queen of the Hill
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (252, 722); --Captain Capture
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (252, 723); --Cure Cordial

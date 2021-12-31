@@ -13,7 +13,7 @@ VALUES (252, 142, -1);
 --GangMemberIndex 1
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (0, -1, 'Booty Biter', 'Boo Booty', 'Elite', 5, 2, 3, 135);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (1, 466); --Backlash
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (1, 176); --Backlash
 
 --Bouncing Booty --CardIndex 338	--CharacterIndex 253	--ArcadeCharacterIndex 1
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Bouncing Booty',
@@ -45,4 +45,4 @@ VALUES (254, 152, -1);
 --GangMemberIndex 3
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (2, -1, 'Booty Grinder', 'Boo Booty', 'Elite', 5, 2, 2, 137);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (3, 531); --Grind
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (3, 242); --Grind

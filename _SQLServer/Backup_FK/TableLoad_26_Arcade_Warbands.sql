@@ -14,9 +14,9 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (298, 2);
 --GangMemberIndex 46
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (46, 0, 'Bramble Knight', 'Spawning Point', '', 0, 4, 1, 179);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (46, 557); --Immune: Status Effects
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (46, 478); --Bramble Growth
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (46, 661); --Spawning Pool
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (46, 268); --Immune: Status Effects
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (46, 189); --Bramble Growth
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (46, 372); --Spawning Pool
 
 --Executioners --CardIndex 384	--CharacterIndex 299	--ArcadeCharacterIndex 47, 48
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Bramble Knight',
@@ -32,12 +32,12 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (299, 1);
 --GangMemberIndex 47
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (47, 0, 'Grobbit Executioner', 'Chimera', 'Elite', 5, 3, 2, 182);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (47, 571); --Massive Damaage
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (47, 282); --Massive Damaage
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (47, 266); --Death Sentence
 --GangMemberIndex 48
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (48, 1, 'Billmen', 'Chimera', 'Minion', 5, 1, 1, 180);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (48, 625); --Slow
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (48, 336); --Slow
 
 --House of Frog --CardIndex 385	--CharacterIndex 300	--ArcadeCharacterIndex 49, 50
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Bramble Knight',
@@ -53,13 +53,13 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (300, 2);
 --GangMemberIndex 49
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (49, 0, 'Grobbit Executioner', 'Chimera', 'Elite', 8, 2, 2, 181);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (49, 641); --Surefoot
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (49, 352); --Surefoot
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (49, 340); --Frogger
 --GangMemberIndex 50
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (50, 1, 'Billmen', 'Chimera', 'Minion', 8, 2, 2, 181);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (50, 564); --Knockdown
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (50, 641); --Surefoot
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (50, 275); --Knockdown
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (50, 352); --Surefoot
 
 
 --Claw Shrine
@@ -77,9 +77,9 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (301, 2);
 --GangMemberIndex 51
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (51, 0, 'Claw Shrine', 'Spawning Point', '', 0, 4, 1, 183);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (51, 557); --Immune: Status Effects
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (51, 500); --Dragon Blessing
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (51, 663); --Spawning Pool
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (51, 268); --Immune: Status Effects
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (51, 211); --Dragon Blessing
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (51, 374); --Spawning Pool
 
 --Black Claws --CardIndex 387	--CharacterIndex 302	--ArcadeCharacterIndex 52, 53
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Black Claws',
@@ -95,14 +95,14 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (302, 2);
 --GangMemberIndex 52
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (52, 0, 'Black Claw Assassin', 'Kobold', 'Elite', 6, 2, 2, 184);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (52, 557); --Backstabber
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (52, 478); --Stealth
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (52, 178); --Backstabber
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (52, 347); --Stealth
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (52, 170); --Assassinate
 --GangMemberIndex 53
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (53, 1, 'Black Claw Assassin', 'Kobold', 'Elite', 6, 2, 2, 184);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (53, 557); --Backstabber
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (53, 478); --Stealth
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (53, 178); --Backstabber
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (53, 347); --Stealth
 
 --Blood Trackers --CardIndex 388	--CharacterIndex 303	--ArcadeCharacterIndex 54, 55
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Blood Trackers',
@@ -122,8 +122,8 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (54, 470);
 --GangMemberIndex 55
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (55, 1, 'Drake Hound', 'Drake', 'Minion', 6, 2, 1, 186);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (55, 564); --Knockdown
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (55, 587); --Pile-on
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (55, 275); --Knockdown
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (55, 298); --Pile-on
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (55, 188); --Blood Scent
 
 --Egg Clutch
@@ -141,9 +141,9 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (304, 2);
 --GangMemberIndex 56
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (56, 0, 'Egg Clutch', 'Spawning Point', '', 0, 4, 1, 187);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (56, 557); --Immune: Status Effects
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (56, 599); --Quick Hatch
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (56, 665); --Spawning Pool
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (56, 268); --Immune: Status Effects
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (56, 310); --Quick Hatch
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (56, 376); --Spawning Pool
 
 --Dragonborn
 --Dragonborn --CardIndex 390	--CharacterIndex 305	--ArcadeCharacterIndex 57, 58, 59
@@ -165,12 +165,12 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (57, 323);
 --GangMemberIndex 58
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (58, 1, 'Whelp', 'Drake', 'Minion', 5, 1, 2, 189);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (58, 564); --Knockdown
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (58, 479); --Bruiser
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (58, 275); --Knockdown
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (58, 190); --Bruiser
 --GangMemberIndex 59
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (59, 2, 'Hatchlings', 'Drake', 'Minion', 5, 2, 1, 188);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (59, 587); --Pile-on
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (59, 298); --Pile-on
 
 
 --Elemental Shrine
@@ -188,10 +188,10 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (306, 3);
 --GangMemberIndex 60
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (60, 0, 'Elemental Shrine', 'Paired Spawning Point', '', 0, 0, 3, 187);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (60, 557); --Immune: Status Effects
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (60, 503); --Elemental Affinity
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (60, 637); --Stealth
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (60, 667); --Spawning Pool
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (60, 268); --Immune: Status Effects
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (60, 214); --Elemental Affinity
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (60, 347); --Stealth
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (60, 378); --Spawning Pool
 
 --Mystic Team
 --Mystic Team --CardIndex 392	--CharacterIndex 307	--ArcadeCharacterIndex 61, 62, 63
@@ -208,19 +208,19 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (307, 3);
 --GangMemberIndex 61
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (61, 0, 'Madoushi', 'Ninja', 'Elite', 6, 2, 1, 195);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (61, 637); --Stealth
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (61, 348); --Stealth
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (61, 323); --Poisoned Weapons
 --GangMemberIndex 62
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (62, 1, 'Kaiken', 'Ninja', 'Minion', 6, 1, 1, 193);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (62, 564); --Back Strike
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (62, 479); --Bruiser
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (62, 637); --Stealth
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (62, 175); --Back Strike
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (62, 190); --Bruiser
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (62, 348); --Stealth
 --GangMemberIndex 63
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (63, 2, 'Yajiri', 'Ninja', 'Minion', 6, 1, 1, 196);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (63, 604); --Reach
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (63, 637); --Stealth
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (63, 315); --Reach
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (63, 348); --Stealth
 
 --Scout Team
 --Mystic Team --CardIndex 393	--CharacterIndex 308	--ArcadeCharacterIndex 64, 65
@@ -237,12 +237,12 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (308, 2);
 --GangMemberIndex 64
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (64, 0, 'Kunoichi', 'Ninja', 'Elite', 8, 1, 1, 194);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (64, 637); --Stealth
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (64, 348); --Stealth
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (64, 675); --Wind in the Forest
 --GangMemberIndex 65
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (65 , 1, 'Kunoichi', 'Ninja', 'Elite', 8, 1, 1, 194);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (65, 637); --Stealth
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (65, 348); --Stealth
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (65, 566); --Smoke Bomb
 
 --Strike Team
@@ -261,19 +261,19 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (309, 2);
 --GangMemberIndex 66
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (66, 0, 'Chunin', 'Ninja', 'Elite', 6, 3, 1, 192);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (66, 637); --Stealth
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (66, 348); --Stealth
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (66, 502); --Precision Strike
 --GangMemberIndex 67
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (67, 1, 'Kaiken', 'Ninja', 'Minion', 6, 1, 1, 193);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (67, 564); --Back Strike
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (67, 479); --Bruiser
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (67, 637); --Stealth
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (67, 175); --Back Strike
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (67, 190); --Bruiser
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (67, 348); --Stealth
 --GangMemberIndex 68
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (68, 2, 'Yajiri', 'Ninja', 'Minion', 6, 1, 0, 196);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (68, 604); --Reach
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (68, 637); --Stealth Bomb
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (68, 315); --Reach
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (68, 348); --Stealth
 
 
 --Fungal Growth
@@ -291,9 +291,9 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (310, 2);
 --GangMemberIndex 69
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (69, 0, 'Fungal Growth', 'Spawning Point', '', 0, 4, 1, 197);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (69, 557); --Immune: Status Effects
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (69, 630); --Soporific Cloud
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (69, 669); --Spawning Pool
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (69, 268); --Immune: Status Effects
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (69, 341); --Soporific Cloud
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (69, 380); --Spawning Pool
 
 --Fungus Brigade
 --Fungus Brigade --CardIndex 396	--CharacterIndex 311	--ArcadeCharacterIndex 70, 71
@@ -310,14 +310,14 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (311, 1);
 --GangMemberIndex 70
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (70, 0, 'Okoshroom', 'Kinoko', 'Elite', 5, 4, 2, 199);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (70, 634); --Spongy
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (70, 629); --Soporific
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (70, 345); --Spongy
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (70, 340); --Soporific
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (70, 670); --Whirling Shitake
 --GangMemberIndex 71
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (71, 1, 'Kinoshroom', 'Kinoko', 'Minion', 5, 1, 1, 198);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (71, 634); --Spongy
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (71, 629); --Soporific
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (71, 345); --Spongy
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (71, 340); --Soporific
 
 --Pig Patrol
 --Pig Patrol --CardIndex 397	--CharacterIndex 312	--ArcadeCharacterIndex 72, 73
@@ -334,7 +334,7 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (312, 1);
 --GangMemberIndex 72
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (72, 0, 'Truffle Pig', 'Pig', 'Elite', 6, 2, 2, 199);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (72, 564); --Knockdown
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (72, 275); --Knockdown
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (72, 348); --Funky Fungus Sniffer
 --GangMemberIndex 73
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
@@ -357,9 +357,9 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (313, 4);
 --GangMemberIndex 74
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (74, 0, 'Grabby House', 'Paired Spawning Point', '', 0, 3, 1, 201);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (74, 557); --Immune: Status Effects
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (74, 530); --Grabby Hands
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (74, 671); --Spawning Pool
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (74, 268); --Immune: Status Effects
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (74, 240); --Grabby Hands
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (74, 382); --Spawning Pool
 
 --Grave Robbers
 --Grave Robbers --CardIndex 399	--CharacterIndex 314	--ArcadeCharacterIndex 75, 76
@@ -380,8 +380,8 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (75, 476);
 --GangMemberIndex 76
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (76, 1, 'Prowler', 'Undead Zombie', 'Minion', 8, 2, 1, 202);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (76, 528); --Grabby
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (76, 637); --Stealth
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (76, 239); --Grabby
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (76, 348); --Stealth
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (76, 390); --Homunculus
 
 --Rotters
@@ -399,14 +399,14 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (315, 1);
 --GangMemberIndex 77
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (77, 0, 'Pudge', 'Undead Zombie', 'Elite', 5, 4, 1, 203);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (77, 528); --Grabby
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (77, 533); --Gross
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (77, 239); --Grabby
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (77, 243); --Gross
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (77, 277); --Disgusting
 --GangMemberIndex 78
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (78, 1, 'Swampie', 'Undead Zombie', 'Minion', 5, 1, 1, 205);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (78, 528); --Grabby
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (78, 580); --Mob
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (78, 239); --Grabby
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (78, 291); --Mob
 
 --Kobold Warrens
 --Kobold Warrens --CardIndex 401	--CharacterIndex 316	--ArcadeCharacterIndex 79
@@ -423,9 +423,9 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (316, 1);
 --GangMemberIndex 79
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (79, 0, 'Kobold Warrens', 'Paired Spawning Point', '', 0, 4, 1, 206);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (79, 557); --Immune: Status Effects
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (79, 581); --Mob Mentality
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (79, 673); --Spawning Pool
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (79, 268); --Immune: Status Effects
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (79, 292); --Mob Mentality
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (79, 384); --Spawning Pool
 
 --Dragon Devotees
 --Dragon Devotees --CardIndex 402	--CharacterIndex 317	--ArcadeCharacterIndex 80, 81, 82
@@ -443,16 +443,16 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (317, 3);
 --GangMemberIndex 80
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (80, 0, 'Dragon Priest', 'Kobold', 'Elite', 6, 3, 2, 207);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (80, 580); --Mob
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (80, 291); --Mob
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (80, 547); --Shadow Breath
 --GangMemberIndex 81
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (81, 1, 'Knucklehead', 'Kobold', 'Minion', 6, 1, 1, 211);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (81, 479); --Bruiser
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (81, 190); --Bruiser
 --GangMemberIndex 82
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (82, 2, 'Gouger', 'Kobold', 'Minion', 6, 1, 0, 209);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (82, 604); --Reach
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (82, 315); --Reach
 
 --Scale Wall
 --Scale Wall --CardIndex 403	--CharacterIndex 318	--ArcadeCharacterIndex 83, 84,  85
@@ -469,23 +469,23 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (318, 1);
 --GangMemberIndex 83
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (83, 0, 'Ironscale', 'Kobold', 'Elite', 6, 2, 2, 210);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (83, 580); --Mob
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (83, 291); --Mob
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (83, 553); --Shield Wall
 --GangMemberIndex 84
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (84, 1, 'Knucklehead', 'Kobold', 'Minion', 6, 1, 1, 211);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (84, 479); --Bruiser
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (84, 190); --Bruiser
 --GangMemberIndex 85
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (85, 2, 'Gouger', 'Kobold', 'Minion', 6, 1, 0, 209);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (85, 604); --Reach
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (85, 315); --Reach
 
 --Sneaks
 --Sneaks --CardIndex 404 --CharacterIndex 319	--ArcadeCharacterIndex 86, 87
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Sneaks',
-'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Kobold_Warrens/Card_Arcade_Warband_Kobold_Warrens_Scale_Wall_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Kobold_Warrens/Card_Arcade_Warband_Kobold_Warrens_Scale_Wall_FK_back.png', 
-'http://htkb.online/SDWiki/SDE/FK/Arcade/Cards/Warbands/Kobold_Warrens/Scale_Wall.xhtml', 
+'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Kobold_Warrens/Card_Arcade_Warband_Kobold_Warrens_Sneaks_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Kobold_Warrens/Card_Arcade_Warband_Kobold_Warrens_Sneaks_FK_back.png', 
+'http://htkb.online/SDWiki/SDE/FK/Arcade/Cards/Warbands/Kobold_Warrens/Sneaks.xhtml', 
 'Warband', 'FK', 'FK Core Set', 'Arcade', 
 'Shifty and untrustworthy, even by kobold standards, Flingers linger on the edge of a combat waiting for the opportune moment to sling their stones at the enemy.  When extra carnage is needed they fling pots of flaming oil and drake tar into the battle, heedless of whom the flame might consume.');
 insert into Characters (CardIndex) VALUES (404);
@@ -495,14 +495,14 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (319, 2);
 --GangMemberIndex 86
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (86, 0, 'Ironscale', 'Kobold', 'Elite', 6, 1, 1, 208);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (86, 580); --Mob
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (86, 637); --Stealth
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (86, 291); --Mob
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (86, 348); --Stealth
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (86, 393); --Hot Pot
 --GangMemberIndex 87
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (87, 1, 'Knucklehead', 'Kobold', 'Minion', 6, 1, 1, 208);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (87, 580); --Mob
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (87, 637); --Stealth
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (87, 291); --Mob
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (87, 348); --Stealth
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (87, 394); --Hot Pot
 
 
@@ -521,9 +521,9 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (320, 1);
 --GangMemberIndex 88
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (88, 0, 'Lava Whirl', 'Spawning Point', '', 0, 3, 1, 213);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (88, 557); --Immune: Status Effects
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (88, 513); --Fire Aura
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (88, 675); --Spawning Pool
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (88, 268); --Immune: Status Effects
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (88, 224); --Fire Aura
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (88, 386); --Spawning Pool
 
 --Blaze Beetle --CardIndex 406 --CharacterIndex 321	--ArcadeCharacterIndex 89
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Blaze Beetle',
@@ -540,16 +540,16 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (321, 4);
 --GangMemberIndex 89
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (89, 0, 'Blaze Beetle', 'Elemental Bug', 'Elite', 6, 2, 4, 214);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (89, 551); --Immune: Fire
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (89, 466); --Backlash
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (89, 481); --Burrow
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (89, 262); --Immune: Fire
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (89, 176); --Backlash
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (89, 192); --Burrow
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (89, 350); --Furnace Vent
 
 --Burning Pack --CardIndex 407 --CharacterIndex 322	--ArcadeCharacterIndex 90, 91
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Burning Pack',
-'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Lava_Whirl/Card_Arcade_Warband_Lava_Whirl_Blaze_Beetle_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Lava_Whirl/Card_Arcade_Warband_Lava_Whirl_Blaze_Beetle_FK_back.png', 
-'http://htkb.online/SDWiki/SDE/FK/Arcade/Cards/Warbands/Lava_Whirl/Blaze_Beetle.xhtml', 
+'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Lava_Whirl/Card_Arcade_Warband_Lava_Whirl_Burning_Pack_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Lava_Whirl/Card_Arcade_Warband_Lava_Whirl_Burning_Pack_FK_back.png', 
+'http://htkb.online/SDWiki/SDE/FK/Arcade/Cards/Warbands/Lava_Whirl/Burning_Pack.xhtml', 
 'Warband', 'FK', 'FK Core Set', 'Arcade', 
 'Prowling through the fiery landscape of the Fire Flows, packs of Ember Hounds conceal their movement in billowing clouds of choking ash.  Preying on Rocktops and fire elementals alike, Ember Hounds are patient and ruthless hunters.');
 insert into Characters (CardIndex) VALUES (407);
@@ -559,16 +559,16 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (322, 1);
 --GangMemberIndex 90
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (90, 0, 'Ember Hound', 'Elemental Wolf', 'Elite', 8, 2, 2, 216);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (90, 512); --Fire
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (90, 551); --Immune: Fire
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (90, 637); --Stealth
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (90, 223); --Fire
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (90, 262); --Immune: Fire
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (90, 348); --Stealth
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (90, 557); --Sickening Smoke
 --GangMemberIndex 91
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (91, 1, 'Ember Hound', 'Elemental Wolf', 'Elite', 8, 2, 2, 216);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (91, 512); --Fire
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (91, 551); --Immune: Fire
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (91, 637); --Stealth
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (91, 223); --Fire
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (91, 262); --Immune: Fire
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (91, 348); --Stealth
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (91, 558); --Sickening Smoke
 
 --Flaming Slime --CardIndex 408 --CharacterIndex 323	--ArcadeCharacterIndex 92, 93
@@ -585,17 +585,17 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (323, 3);
 --GangMemberIndex 92
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (92, 0, 'Burning Gel', 'Elemental Slime', 'Elite', 5, 1, 1, 215);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (92, 512); --Fire
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (92, 551); --Immune: Fire
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (92, 632); --Splurt
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (92, 223); --Fire
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (92, 262); --Immune: Fire
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (92, 343); --Splurt
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (92, 591); --Splort
 --GangMemberIndex 93
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (93, 1, 'Fire Gel', 'Elemental Slime', 'Minion', 5, 1, 0, 217);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (93, 512); --Fire
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (93, 551); --Immune: Fire
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (93, 568); --Little Splurt
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (93, 626); --Small
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (93, 223); --Fire
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (93, 262); --Immune: Fire
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (93, 279); --Little Splurt
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (93, 337); --Small
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (93, 592); --Splort
 
 
@@ -614,9 +614,9 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (324, 1);
 --GangMemberIndex 94
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (94, 0, 'Old Growth Hollow', 'Paired Spawning Point', '', 0, 4, 1, 218);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (94, 557); --Immune: Status Effects
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (94, 590); --Poison Aura
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (94, 677); --Spawning Pool
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (94, 268); --Immune: Status Effects
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (94, 301); --Poison Aura
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (94, 388); --Spawning Pool
 
 --Herbalists --CardIndex 410 --CharacterIndex 325	--ArcadeCharacterIndex 95, 96
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Herbalists',
@@ -632,12 +632,12 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (325, 3);
 --GangMemberIndex 95
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (95, 0, 'Turniphead', 'Kodama', 'Elite', 5, 1, 1, 222);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (95, 651); --Virulent
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (95, 362); --Virulent
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (95, 408); --It's Medicinal
 --GangMemberIndex 96
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (96, 0, 'Turniphead', 'Kodama', 'Elite', 5, 1, 1, 222);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (96, 651); --Virulent
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (96, 362); --Virulent
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (96, 409); --It's Medicinal
 
 --Hungry Sprouts --CardIndex 411 --CharacterIndex 326	--ArcadeCharacterIndex 97, 98
@@ -654,14 +654,14 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (326, 1);
 --GangMemberIndex 97
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (97, 0, 'King Sprout', 'Shapeshift', 'Elite', 3, 6, 2, 219);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (97, 688); --Feed Me
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (97, 516); --Fixed Form
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (97, 598); --Pull 5
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (97, 399); --Feed Me
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (97, 227); --Fixed Form
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (97, 309); --Pull 5
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (97, 529); --Rootdown
 --GangMemberIndex 98
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (98, 1, 'Mook', 'Kodama', 'Minion', 5, 1, 1, 220);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (98, 651); --Poison
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (98, 300); --Poison
 
 --Lil' Sprouts --CardIndex 412 --CharacterIndex 327	--ArcadeCharacterIndex 99, 100
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Lil'' Sprouts',
@@ -677,13 +677,13 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (327, 1);
 --GangMemberIndex 99
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (99, 0, 'Sprout', 'Kodama', 'Elite', 5, 2, 3, 221);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (99, 519); --Forced Shift
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (99, 619); --Shapeshift: King Sprout
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (99, 651); --Virulent
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (99, 230); --Forced Shift
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (99, 330); --Shapeshift: King Sprout
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (99, 362); --Virulent
 --GangMemberIndex 100
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (100, 1, 'Mook', 'Kodama', 'Minion', 5, 1, 1, 220);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (100, 589); --Poison
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (100, 300); --Poison
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (100, 516); --Rampant Growth
 
 --Will-O-Wisps --CardIndex 413 --CharacterIndex 328	--ArcadeCharacterIndex 101, 102
@@ -700,12 +700,12 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (328, 3);
 --GangMemberIndex 101
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (101, 0, 'Sprout', 'Kodama', 'Elite', 5, 2, 1, 223);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (101, 651); --Virulent
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (101, 362); --Virulent
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (101, 487); --Pollen Dream
 --GangMemberIndex 102
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (102, 1, 'Mook', 'Kodama', 'Elite', 5, 2, 1, 223);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (102, 589); --Poison
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (102, 300); --Poison
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (102, 488); --Pollen Dream
 
 
@@ -724,9 +724,9 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (329, 3);
 --GangMemberIndex 103
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (103, 0, 'Pumpkin Patch', 'Spawning Point', '', 0, 3, 1, 224);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (103, 557); --Immune: Status Effects
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (103, 526); --Gloom Aura
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (103, 679); --Spawning Pool
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (103, 268); --Immune: Status Effects
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (103, 237); --Gloom Aura
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (103, 390); --Spawning Pool
 
 --Crypt Spider --CardIndex 415 --CharacterIndex 330	--ArcadeCharacterIndex 104
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Crypt Spider',
@@ -743,8 +743,8 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (330, 2);
 --GangMemberIndex 104
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (104, 0, 'Crypt Spider', 'Spider', 'Elite', 6, 4, 2, 223);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (104, 589); --Poison
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (104, 641); --Surefoot
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (104, 300); --Poison
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (104, 352); --Surefoot
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (104, 306); --Enervating Bite
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (104, 560); --Silk Spinner
 
@@ -763,12 +763,12 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (331, 3);
 --GangMemberIndex 105
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (105, 0, 'Curse Coven Witch', 'Witch', 'Elite', 8, 2, 0, 226);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (105, 518); --Fly
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (105, 229); --Fly
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (105, 640); --Transmogrify
 --GangMemberIndex 106
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (106, 1, 'Skullbat', 'Undead Bat', 'Minion', 6, 1, 0, 227);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (106, 518); --Poison
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (106, 229); --Fly
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (106, 284); --Doom
 
 
@@ -787,9 +787,9 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (332, 4);
 --GangMemberIndex 107
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (107, 0, 'Rock Pile', 'Paired Spawning Point', '', 0, 3, 1, 228);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (107, 557); --Immune: Status Effects
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (107, 606); --Rock Aura
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (107, 681); --Spawning Pool
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (107, 268); --Immune: Status Effects
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (107, 317); --Rock Aura
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (107, 392); --Spawning Pool
 
 --Bully Foremen --CardIndex 418	--CharacterIndex 333	--ArcadeCharacterIndex 108, 109
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Bully Foremen',
@@ -805,14 +805,14 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (333, 4);
 --GangMemberIndex 108
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (108, 0, 'Roller', 'Rocktop', 'Elite', 5, 2, 2, 232);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (108, 554); --Immune: Knockdown
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (108, 556); --Immune: Slow
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (108, 265); --Immune: Knockdown
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (108, 267); --Immune: Slow
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (108, 633); --Thwack
 --GangMemberIndex 109
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (109, 1, 'Roller', 'Rocktop', 'Elite', 5, 2, 2, 232);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (109, 554); --Immune: Knockdown
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (109, 556); --Immune: Slow
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (109, 265); --Immune: Knockdown
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (109, 267); --Immune: Slow
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (109, 634); --Thwack
 
 --Rockers v1 --CardIndex 419	--CharacterIndex 334	--ArcadeCharacterIndex 110, 111
@@ -829,13 +829,13 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (333, 4);
 --GangMemberIndex 110
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (110, 0, 'Crusher', 'Rocktop', 'Elite', 5, 6, 2, 232);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (110, 557); --Immune: Status Effects
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (110, 268); --Immune: Status Effects
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (110, 650); --Turtle Tremor
 --GangMemberIndex 111
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (111, 1, 'Slowpoke', 'Rocktop', 'Minion', 5, 1, 1, 232);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (111, 554); --Immune: Knockdown
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (111, 556); --Immune: Slow
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (111, 265); --Immune: Knockdown
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (111, 267); --Immune: Slow
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (111, 651); --Turtle Tremor
 
 --Rockers v2 --CardIndex 420	--CharacterIndex 335	--ArcadeCharacterIndex 112, 113
@@ -852,14 +852,14 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (335, 4);
 --GangMemberIndex 112
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (112, 0, 'Crusher', 'Rocktop', 'Elite', 5, 6, 3, 232);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (112, 557); --Immune: Status Effects
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (112, 268); --Immune: Status Effects
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (112, 650); --Turtle Tremor
 --GangMemberIndex 113
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (113, 1, 'Slowpoke', 'Rocktop', 'Minion', 5, 1, 1, 232);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (113, 554); --Immune: Knockdown
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (113, 556); --Immune: Slow
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (113, 481); --Burrow
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (113, 265); --Immune: Knockdown
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (113, 267); --Immune: Slow
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (113, 192); --Burrow
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (113, 651); --Turtle Tremor
 
 --Shell Battery --CardIndex 421	--CharacterIndex 336	--ArcadeCharacterIndex 114, 115
@@ -876,14 +876,14 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (336, 4);
 --GangMemberIndex 114
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (114, 0, 'Bombardier', 'Rocktop', 'Elite', 4, 2, 2, 229);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (114, 554); --Immune: Knockdown
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (114, 556); --Immune: Slow
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (114, 265); --Immune: Knockdown
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (114, 267); --Immune: Slow
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (114, 647); --Turtle Cannon
 --GangMemberIndex 115
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (115, 1, 'Bombardier', 'Rocktop', 'Elite', 4, 2, 2, 229);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (115, 554); --Immune: Knockdown
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (115, 556); --Immune: Slow
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (115, 265); --Immune: Knockdown
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (115, 267); --Immune: Slow
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (115, 648); --Turtle Cannon
 
 
@@ -902,9 +902,9 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (337, 3);
 --GangMemberIndex 116
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (116, 0, 'Salt Pillar', 'Spawning Point', '', 0, 3, 1, 237);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (116, 557); --Immune: Status Effects
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (116, 638); --Stealth Aura
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (116, 683); --Spawning Pool
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (116, 268); --Immune: Status Effects
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (116, 349); --Stealth Aura
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (116, 394); --Spawning Pool
 
 --Despair Shroud --CardIndex 423	--CharacterIndex 338	--ArcadeCharacterIndex 117
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Despair Shroud',
@@ -920,12 +920,12 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (338, 3);
 --GangMemberIndex 117
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (117, 0, 'Sorrow', 'Faerie', 'Elite', 5, 1, 0, 239);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (117, 518); --Fly
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (117, 229); --Fly
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (117, 668); --Weep
 --GangMemberIndex 118
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (118, 1, 'Sorrow', 'Faerie', 'Elite', 5, 1, 0, 239);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (118, 518); --Fly
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (118, 229); --Fly
 
 --Predators --CardIndex 424	--CharacterIndex 339	--ArcadeCharacterIndex 119, 120
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Predators',
@@ -942,14 +942,14 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (339, 3);
 --GangMemberIndex 119
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (119, 0, 'Mist Hound', 'Faerie', 'Elite', 8, 3, 1, 238);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (119, 596); --Predator
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (119, 641); --Surefoot
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (119, 307); --Predator
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (119, 352); --Surefoot
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (119, 422); --Lost
 --GangMemberIndex 120
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (120, 1, 'Mist Hound', 'Faerie', 'Elite', 8, 3, 1, 238);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (120, 596); --Predator
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (120, 641); --Surefoot
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (120, 307); --Predator
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (120, 352); --Surefoot
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (120, 423); --Lost
 
 
@@ -968,9 +968,9 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (340, 3);
 --GangMemberIndex 121
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (121, 0, 'Shallow Grave', 'Spawning Point', '', 0, 3, 1, 240);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (121, 557); --Immune: Status Effects
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (121, 471); --Bane Aura
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (121, 685); --Spawning Pool
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (121, 268); --Immune: Status Effects
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (121, 182); --Bane Aura
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (121, 396); --Spawning Pool
 
 --Dust Acolytes	--CardIndex 426	--CharacterIndex 341	--ArcadeCharacterIndex 122, 123
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Dust Acolytes',
@@ -986,12 +986,12 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (341, 3);
 --GangMemberIndex 122
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (122, 0, 'Dust Mage', 'Undead Skeleton', 'Elite', 5, 1, 1, 244);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (122, 477); --Bone Pile
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (122, 188); --Bone Pile
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (122, 636); --Tide of Bones
 --GangMemberIndex 123
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (123, 1, 'Dust Mage', 'Undead Skeleton', 'Elite', 5, 1, 0, 244);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (123, 477); --Bone Pile
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (123, 188); --Bone Pile
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (123, 193); --Bone Cold
 
 --Dust Coven	--CardIndex 427	--CharacterIndex 342	--ArcadeCharacterIndex 124, 125
@@ -1013,7 +1013,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (124, 636)
 --GangMemberIndex 125
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (125, 1, 'Bone Head', 'Undead Skeleton', 'Minion', 5, 1, 1, 241);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (125, 477); --Bone Pile
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (125, 188); --Bone Pile
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (125, 354); --Ghastly Vigor
 
 --House of Ash	--CardIndex 428	--CharacterIndex 343	--ArcadeCharacterIndex 126, 127
@@ -1030,12 +1030,12 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (343, 1);
 --GangMemberIndex 126
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (126, 0, 'Dust Coven Necromancer', 'Undead Skeleton', 'Elite', 5, 2, 2, 242);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (126, 477); --Bone Pile
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (126, 188); --Bone Pile
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (126, 250); --Cursed Blade
 --GangMemberIndex 127
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (127, 1, 'Bone Head', 'Undead Skeleton', 'Elite', 5, 2, 2, 242);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (127, 477); --Bone Pile
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (127, 188); --Bone Pile
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (127, 251); --Cursed Blade
 
 
@@ -1054,9 +1054,9 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (344, 4);
 --GangMemberIndex 128
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (128, 0, 'Tribal Stone', 'Spawning Point', '', 0, 3, 1, 245);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (128, 557); --Immune: Status Effects
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (128, 597); --Primal Aura
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (128, 687); --Spawning Pool
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (128, 268); --Immune: Status Effects
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (128, 308); --Primal Aura
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (128, 398); --Spawning Pool
 
 --Ghostfire Tribe	--CardIndex 430	--CharacterIndex 345	--ArcadeCharacterIndex 129, 130
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ghostfire Tribe',
@@ -1073,19 +1073,19 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (345, 4);
 --GangMemberIndex 129
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (129, 0, 'Mistmourn Chieftain', 'Troll', 'Elite', 5, 3, 2, 242);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (129, 648); --Tough
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (129, 359); --Tough
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (129, 159); --Ancestral Fury
 --GangMemberIndex 130
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (130, 1, 'Ghostfire Warrior', 'Troll', 'Minion', 6, 2, 1, 242);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (130, 648); --Tough
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (130, 359); --Tough
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (130, 356); --Ghostfire
 
 --Spirit Born	--CardIndex 431	--CharacterIndex 346	--ArcadeCharacterIndex 131, 132
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Spirit Born',
-'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Shallow_Grave/Card_Arcade_Warband_Shallow_Grave_Dust_Coven_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Shallow_Grave/Card_Arcade_Warband_Shallow_Grave_Dust_Coven_FK_back.png', 
-'http://htkb.online/SDWiki/SDE/FK/Arcade/Cards/Warbands/Shallow_Grave/Dust_Coven.xhtml', 
+'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Tribal_Stone/Card_Arcade_Warband_Tribal_Stone_Spirit_Born_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Tribal_Stone/Card_Arcade_Warband_Tribal_Stone_Spirit_Born_FK_back.png', 
+'http://htkb.online/SDWiki/SDE/FK/Arcade/Cards/Warbands/Tribal_Stone/Spirit_Born.xhtml', 
 'Warband', 'FK', 'FK Core Set', 'Arcade', 
 'Spirit Walkers live between two worlds: the mortal realm and the spirit world.  It was they who first made contact with their trollish ancestors, seeking the wisdom of those who came before.');
 insert into Characters (CardIndex) VALUES (431);
@@ -1095,14 +1095,14 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (346, 2);
 --GangMemberIndex 131
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (131, 0, 'Spirit Walker', 'Troll', 'Elite', 5, 2, 1, 248);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (131, 648); --Tough
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (131, 637); --Stealth
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (131, 641); --Surefoot
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (131, 359); --Tough
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (131, 348); --Stealth
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (131, 352); --Surefoot
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (131, 588); --Spirit Walk
 --GangMemberIndex 132
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (132, 1, 'Spirit Walker', 'Troll', 'Elite', 5, 2, 1, 248);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (132, 648); --Tough
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (132, 637); --Stealth
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (132, 641); --Surefoot
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (132, 359); --Tough
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (132, 348); --Stealth
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (132, 352); --Surefoot
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (132, 378); --Herbology

@@ -26,12 +26,12 @@ VALUES ('Elemental Affinity Chart',
 'http://htkb.online/SDWiki/SDE/FK/Cards/Utility_Cards/Elemental_Affinity_Chart.xhtml', 
 'Utility', 'FK', 'FK Core Set', 'Default', '');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (664, '');
-insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (15, 511); --Feint
-insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (15, 512); --Fire
-insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (15, 518); --Fly
-insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (15, 557); --Immune: Status Effects
-insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (15, 596); --Predator
-insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (15, 625); --Slow
+insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (15, 221); --Feint
+insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (15, 223); --Fire
+insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (15, 229); --Fly
+insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (15, 268); --Immune: Status Effects
+insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (15, 307); --Predator
+insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (15, 336); --Slow
 
 --Arcade Mighty Monster Chart	--CardIndex 665 --UtilityIndex 16
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)

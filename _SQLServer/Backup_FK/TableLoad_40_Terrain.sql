@@ -8,8 +8,8 @@ VALUES ('Brambles',
 'http://htkb.online/SDWiki/SDE/FK/Cards/Terrain_Cards/Brambles.xhtml', 
 'Terrain', 'FK', 'FK Core Set', 'Default', '');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (652, ''); 
-insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (3, 589); --Poison
-insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (3, 498); --Difficult Terrain
+insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (3, 300); --Poison
+insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (3, 209); --Difficult Terrain
 
 --Champion --CardIndex 653 --UtilityIndex 4 --TerrainIndex 3
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
@@ -19,9 +19,9 @@ VALUES ('Champion',
 'http://htkb.online/SDWiki/SDE/FK/Cards/Terrain_Cards/Champion.xhtml', 
 'Terrain', 'FK', 'FK Core Set', 'Default', '');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (653, ''); 
-insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (4, 484); --Champion
-insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (4, 691); --Blessing
-insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (4, 692); --Structure
+insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (4, 195); --Champion
+insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (4, 409); --Blessing
+insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (4, 410); --Structure
 
 --Chasm --CardIndex 654 --UtilityIndex 5 --TerrainIndex 4
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
@@ -31,7 +31,7 @@ VALUES ('Chasm',
 'http://htkb.online/SDWiki/SDE/FK/Cards/Terrain_Cards/Chasm.xhtml', 
 'Terrain', 'FK', 'FK Core Set', 'Default', '');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (654, ''); 
-insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (5, 485); --Chasm
+insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (5, 196); --Chasm
 
 --Difficult Terrain --CardIndex 655 --UtilityIndex 6 --TerrainIndex 5
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
@@ -41,7 +41,7 @@ VALUES ('Difficult Terrain',
 'http://htkb.online/SDWiki/SDE/FK/Cards/Terrain_Cards/Difficult_Terrain.xhtml', 
 'Terrain', 'FK', 'FK Core Set', 'Default', '');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (655, ''); 
-insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (6, 485); --Difficult Terrain
+insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (6, 209); --Difficult Terrain
 
 --Fresh Grave --CardIndex 656 --UtilityIndex 7 --TerrainIndex 6
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
@@ -51,7 +51,7 @@ VALUES ('Fresh Grave',
 'http://htkb.online/SDWiki/SDE/FK/Cards/Terrain_Cards/Fresh_Grave.xhtml', 
 'Terrain', 'FK', 'FK Core Set', 'Default', '');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (656, ''); 
-insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (7, 520); --Fresh Grave
+insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (7, 231); --Fresh Grave
 
 --Goddess --CardIndex 657 --UtilityIndex 8 --TerrainIndex 7
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
@@ -61,9 +61,9 @@ VALUES ('Goddess',
 'http://htkb.online/SDWiki/SDE/FK/Cards/Terrain_Cards/Goddess.xhtml', 
 'Terrain', 'FK', 'FK Core Set', 'Default', '');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (657, ''); 
-insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (8, 484); --Goddess
-insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (8, 691); --Blessing
-insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (8, 692); --Structure
+insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (8, 238); --Goddess
+insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (8, 409); --Blessing
+insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (8, 410); --Structure
 
 --Secret Passage --CardIndex 658 --UtilityIndex 9 --TerrainIndex 8
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
@@ -73,7 +73,7 @@ VALUES ('Secret Passage',
 'http://htkb.online/SDWiki/SDE/FK/Cards/Terrain_Cards/Secret_Passage.xhtml', 
 'Terrain', 'FK', 'FK Core Set', 'Default', '');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (658, ''); 
-insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (9, 611); --Secret Passage
+insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (9, 322); --Secret Passage
 
 --Sentinel --CardIndex 659 --UtilityIndex 10 --TerrainIndex 9
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
@@ -83,9 +83,9 @@ VALUES ('Sentinel',
 'http://htkb.online/SDWiki/SDE/FK/Cards/Terrain_Cards/Sentinel.xhtml', 
 'Terrain', 'FK', 'FK Core Set', 'Default', '');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (659, ''); 
-insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (10, 484); --Sentinel
-insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (10, 691); --Blessing
-insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (10, 692); --Structure
+insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (10, 411); --Sentinel
+insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (10, 409); --Blessing
+insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (10, 410); --Structure
 
 --Spawn Location --CardIndex 660 --UtilityIndex 11 --TerrainIndex 10
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
@@ -95,7 +95,7 @@ VALUES ('Spawn Location',
 'http://htkb.online/SDWiki/SDE/FK/Cards/Terrain_Cards/Spawn_Location.xhtml', 
 'Terrain', 'FK', 'FK Core Set', 'Default', '');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (660, ''); 
-insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (11, 631); --Spawn Location
+insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (11, 342); --Spawn Location
 
 --Structure --CardIndex 661 --UtilityIndex 12 --TerrainIndex 11
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
@@ -105,4 +105,4 @@ VALUES ('Structure',
 'http://htkb.online/SDWiki/SDE/FK/Cards/Terrain_Cards/Structure.xhtml', 
 'Terrain', 'FK', 'FK Core Set', 'Default', '');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (661, ''); 
-insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (12, 692); --Structure
+insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (12, 410); --Structure
