@@ -95,6 +95,14 @@ public class BossSpawn extends Card implements CharacterInterface{
         this.characterList = characterList;
     }
     
+    public boolean validateCharacter(){
+        return ((characterName != null && !characterName.isEmpty()) && (characterLink != null && !characterLink.isEmpty()));
+    }
+    
+    public boolean validateCharacterList(){
+        return (getCharacterList() != null && getCharacterList().size() > 0);
+    }
+    
     public void addCharacter(String name, String version, String link, String picture){
         characterList.add(new NavItem(name, version, link, picture));
     }

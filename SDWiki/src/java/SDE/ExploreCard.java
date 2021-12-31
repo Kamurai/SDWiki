@@ -124,4 +124,8 @@ public class ExploreCard extends UtilityCard implements AbilityInterface, Charac
             abilities.add(ability);
         }
     }
+    
+    public boolean validateCharacter(){
+        return ((characterName != null && !characterName.isEmpty()) && (characterLink != null && !characterLink.isEmpty()));
+    }
 }

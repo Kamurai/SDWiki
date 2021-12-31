@@ -60,8 +60,8 @@ public class CardBean extends Bean{
             this.header     = "Creeps";
             this.cardList   = navDAO.pullNavigationForCreeps();
         }else if(type.compareTo("Warbands") == 0){
-            this.title      = "Warbands";
-            this.header     = "Warbands";
+            this.title      = "Warband Monsters";
+            this.header     = "Warband Monsters";
             this.cardList   = navDAO.pullNavigationForWarbands();
         }else if(type.compareTo("Loot") == 0){
             this.title      = "Loot";

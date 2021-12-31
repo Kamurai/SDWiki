@@ -372,7 +372,7 @@
 /*Military Acumen					--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Military Acumen', 'When a model with Military Acumen is in the dungeon, a friendly Hero may remove Princess Coins from its card to gain +1ac for each coin removed from the game until the end of its activation.');
 /*Moon's Blessing					--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Moon''s Blessing', 'A Hero with Moon''s Blessing gains bonuses from the mighty monster chart as if it were an 8-Bit monster.');
 
-/*Mob								--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Mob', 'When making a SW offensive action, a model with Mob adds +1B STR to its offense roll for every additional model with Mob that is in range of its target, up to +3B STR.');
+/*Mob								--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Mob', 'When making a 0SW offensive action, a model with Mob adds +1B STR to its offense roll for every additional model with Mob that is in range of its target, up to +3B STR.');
 /*Mob								--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Arcade', 'Mob', 'When a gang with Mob numbers more than 3 models it gains +1ST STR.');
 
 /*Mob Mentality						--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Arcade', 'Mob Mentality', 'Monsters with CITRINEAFFINITY that are within 2 squares of Kobold Warrens gain Mob.');

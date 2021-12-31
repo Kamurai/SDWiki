@@ -8,20 +8,20 @@
     <h:head />
     <h:body>
          <title>
-            #{SDEBossSpawnBean.getBossSpawn().getName()}
+            #{SDEExploreCardBean.getExploreCard().getName()}
         </title>
         <h2>
-            #{SDEBossSpawnBean.getBossSpawn().getName()}
+            #{SDEExploreCardBean.getExploreCard().getName()}
         </h2>
         <div id="idCenterContent">
             <div>
                 <div class="cardPictureContainer">
                     <!-- Front of Card -->
-                    <img class="cardPicture" src="#{SDEBossSpawnBean.getBossSpawn().getPictureFront()}"/>
+                    <img class="cardPicture" src="#{SDEExploreCardBean.getExploreCard().getPictureFront()}"/>
                 </div>
                 <div class="cardPictureContainer">
                     <!-- Back of Card -->
-                    <img class="cardPicture" src="#{SDEBossSpawnBean.getBossSpawn().getPictureBack()}"/>
+                    <img class="cardPicture" src="#{SDEExploreCardBean.getExploreCard().getPictureBack()}"/>
                 </div>
             </div>
             
@@ -29,39 +29,36 @@
             <div>
                 <div>
                     <div class="inline">
-                        Card Type: #{SDEBossSpawnBean.getBossSpawn().getCardType()}
+                        Card Type: #{SDEExploreCardBean.getExploreCard().getCardType()}
                     </div>
                     <div class="inline">
-                        Version: #{SDEBossSpawnBean.getBossSpawn().getVersion()}
+                        Version: #{SDEExploreCardBean.getExploreCard().getVersion()}
                     </div>
                 </div>
                 <div>
                     <div class="inline">
-                        Product Module: #{SDEBossSpawnBean.getBossSpawn().getModule()}
+                        Product Module: #{SDEExploreCardBean.getExploreCard().getModule()}
                     </div>
                 </div>
             </div>
+            
+            
+            
+            
+            
+            
+            
             <div>
-                Dungeon Effects:
-                <div>
-                    #{SDEBossSpawnBean.getBossSpawn().getDungeonEffect()}
-                </div>
+                Card Effect: #{SDEExploreCardBean.getExploreCard().getDescription()}
             </div>
-            <div>
-                Boss Fight Effects:
-                <div>
-                    #{SDEBossSpawnBean.getBossSpawn().getBossSpawnEffect()}
-                </div>
-            </div>
-            <div>
-                Timeout Effect:
-                <div>
-                    #{SDEBossSpawnBean.getBossSpawn().getTimeoutEffect()}
-                </div>
-            </div>
-            <ui:fragment rendered="#{SDEBossSpawnBean.getBossSpawn().validateCharacterList()}">
+            
+            
+            
+            
+            
+            <ui:fragment rendered="#{SDEExploreCardBean.getBossSpawn().validateCharacterList()}">
                 Related Character(s):<br/>
-                <ui:repeat var="x" value="#{SDEBossSpawnBean.getCharacterList()}" size="#{SDEBossSpawnBean.getCharacterList().size()}" varStatus="myVarStatus" >
+                <ui:repeat var="x" value="#{SDEExploreCardBean.getCharacterList()}" size="#{SDEExploreCardBean.getCharacterList().size()}" varStatus="myVarStatus" >
                     <div class="relatedCharacterBlock">
                         <a href="#{x.getLink()}">
                             <div>
@@ -72,12 +69,12 @@
                     </div>
                 </ui:repeat>
             </ui:fragment>
-            <div>
-                Summon List: TBD
-            </div>
-            <c:if test="#{ SDEBossSpawnBean.getBossSpawn().validateFlavor() }">
+            
+            
+            
+            <c:if test="#{ SDEExploreCardBean.getExploreCard().validateFlavor() }">
                 <div>
-                    Flavor Text: #{SDEBossSpawnBean.getBossSpawn().getFlavor()}
+                    Flavor Text: #{SDEExploreCardBean.getExploreCard().getFlavor()}
                 </div>
             </c:if>
         </div>
