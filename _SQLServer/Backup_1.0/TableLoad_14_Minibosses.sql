@@ -59,7 +59,7 @@ insert into Characters (CardIndex) VALUES (29);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (29, 82); --Missile 8
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (29, 29); --Dodge
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (29, 90); --Poison
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (29, 130); --Stealth
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (29, 129); --Stealth
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (29, 27); --Corrosive Striked
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (29, 32); --Dark Aura
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
@@ -78,7 +78,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Kasaro To has no love for heroics.  Lord Nozuki has corrupted the Super Dungeon Explore code, allowing his most favored servant to invade the Consul''s dungeons.  Kasaro To is prepared to wreak carnage and destruction upon the happless heroes of Crystalia.');
 insert into Characters (CardIndex) VALUES (30);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (30, 7); --Berserk
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (30, 143); --Tough
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (30, 142); --Tough
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (30, 30); --Crippling Smash
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (30, 101); --Serpent Coil
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (30, 154); --Zealotry
@@ -114,12 +114,12 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'MiniBoss', '1.0', '1.0 Core Set', 'Explore',
 'Rock Gut loves rock.  Rock Gut would marry rock if he could.  Sometimes Rock Gut talks to rock.  He finds rock very understanding and a good listener.  Mainly Rock Gut eats rock, digesting it in his fiery belly.  Unfortunately, to Rock Gut everything is "rock".  Even if you''re really a squirming Hero.');
 insert into Characters (CardIndex) VALUES (32);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (32, 143); --Tough
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (32, 142); --Tough
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (32, 32); --Fire
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (32, 54); --Immune: Fire
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (32, 151); --Vulnerable: Cold
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (32, 153); --Vulnerable: Cold
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (32, 45); --Feast
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (32, 17); --Burning Bile
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (32, 16); --Burning Bile
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (32, 'Masculine', 'Large', 'Troll', 6, 3, '3B 1R', '1ST 1R', '1B', '2B', 4, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (32, 0, 1); --Attack
@@ -136,7 +136,7 @@ insert into Characters (CardIndex) VALUES (33);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (33, 57); --Immune: Knockdown
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (33, 32); --Fire
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (33, 83); --Mob
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (33, 19); --Burning Blade
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (33, 18); --Burning Blade
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (33, 65); --Hightower
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (33, 93); --Rally Cry
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 

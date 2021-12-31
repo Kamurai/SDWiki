@@ -47,7 +47,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Chilled to the bone.');
 insert into Equipment (CardIndex, Position, Effect) VALUES (76, 'Top', '+1G WILL');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (4, 23); --Cold
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (4, 151); --Vulnerable: Fire
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (4, 154); --Vulnerable: Fire
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (4, 38); --Von Drakk
 --Black Spot --EquipmentIndex 5 --CardIndex 77
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Black Spot',
@@ -112,7 +112,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '1.0', '1.0 Core Set', 'Default',
 'Uh, did you see something just move?');
 insert into Equipment (CardIndex, Position, Effect) VALUES (83, 'Top', '+1R DEX');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (11, 130); --Stealth
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (11, 129); --Stealth
 --Corpse Hand --EquipmentIndex 12 --CardIndex 84
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Corpse Hand',
 'http://htkb.info/SDE/1.0/Cards/Loot/Card_Loot_Corpse_Hand_1.0.png', 
@@ -215,7 +215,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Oh gross!');
 insert into Equipment (CardIndex, Position, Effect) VALUES (94, 'Top', '+1G WILL');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (22, 54); --Immune: Fire
-insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (22, 126); --Fire Gel Goo
+insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (22, 126); --Splash
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (22, 36); --Roxor
 --Fireflow Brew --EquipmentIndex 23 --CardIndex 95
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Fireflow Brew',
@@ -576,7 +576,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Loot', '1.0', '1.0 Core Set', 'Default',
 'Your strength is now mine.');
 insert into Equipment (CardIndex, Position, Effect) VALUES (135, 'Left', '+1B Attack');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (63, 167); --Weak
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (63, 166); --Weak
 --Serpent Plate --EquipmentIndex 64 --CardIndex 136
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Serpent Plate',
 'http://htkb.info/SDE/1.0/Cards/Loot/Card_Loot_Serpent_Plate_1.0.png', 
