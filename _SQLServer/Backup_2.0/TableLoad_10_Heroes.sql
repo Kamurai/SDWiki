@@ -10,10 +10,12 @@ insert into Characters (CardIndex) VALUES (cXXX);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (chXXX, 'Either', 'Large', 'Shapeshift', 6, 3, '2B 1R', '3B', '3B', '2B', 6, 1);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Immune: Ice
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Fixed Form
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Unpredictable
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Immobile
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Immune: Ice
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Shake It Off
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Stealth
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Unpredictable
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Cold Fury
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Freezer
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --White-Out Elixir
@@ -28,11 +30,13 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Adzuki_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Adzuki.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
-'');
+'Adzuki is a fierce warrior of the Inu clan. He is hot-headed and impulsive, but a brave fighter and loyal ally. As Momotaro passed through Inu territory on his quest to Devil Island, Adzuki challenged the traveling hero. When Momotaro proved his exceptional strength and dedication to eradicating evil, Adzuki happily joined him on his quest. An offer of free dumplings along the way just sweetened the deal.');
 insert into Characters (CardIndex) VALUES (cXXX);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (chXXX, 'Either', 'Small', 'Chimera Hero', 6, 3, '2R', '3B', '2B', '3B', 5, 1);
+VALUES (chXXX, 'Either', 'Small', 'Chimera', 6, 3, '2R', '3B', '2B', '3B', 5, 1);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Massive Damage
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Rampage
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Surefoot
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Chew to Pieces
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Mark Territory
@@ -48,11 +52,13 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Akkorokamui_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Akkorokamui.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
-'');
+'Akkorokamui is numbered among the most successful pirates ever to haunt Kagejima''s waters, and has turned over vast amounts of valuable goods and vital information to the Moon Court during his long career. He has also kept no small portion for himself.');
 insert into Characters (CardIndex) VALUES (cXXX);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 2); --Emerald
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (chXXX, 'Either', 'Small', 'Ika Hero', 6, 3, '3B', '2R', '2B', '2R', 5, 1);
+VALUES (chXXX, 'Either', 'Small', 'Ika', 6, 3, '3B', '2R', '2B', '2R', 5, 1);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Deadly Defense
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Knockdown
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Privateer
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Get Over Here!
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Whirling Iron
@@ -68,11 +74,12 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Alberdus_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Alberdus.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
-'');
+'Alberdus receives no end of teasing from his fellow fighters about how he plays the Dark Centurion in Super Dungeon. How obvious for the mighty Grecian champion to play a Grecian themed Hero!? Alberdus doesn''t care. He knows he looks waaaaaay awesome, and the other fighters are just jealous.');
 insert into Characters (CardIndex) VALUES (cXXX);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (chXXX, 'Male', 'Small', 'Dark Celestian Hero', 7, 3, '2B 1R', '2R', '1B 1R', '1B 1R', 5, 1);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Fire
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Immune: Fire
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Immune: Knockdown
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Flaming Javelin
@@ -88,14 +95,17 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Angry_Bear_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Angry_Bear.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
-'');
+'Skilled druids can assume the form of many different woodland creatures, both large and small. The form of a raging Totem Ursos--a mighty bear-like creature filled with nature''s wrath--is a particular favorite for those who must face the Dark Consul''s minions in battle.');
 insert into Characters (CardIndex) VALUES (cXXX);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 3); --Ruby
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (chXXX, 'Either', 'Large', 'Shapeshift', 6, 3, '2B 1R', '2R', '1B 1R', '2B', 5, 1);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Immune: Poison
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Berserk
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Hex
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Immobile
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Immune: Poison
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Knockdown
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Shapeshift: Deeproot Druid
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Bear Charge
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Bear Hug
@@ -109,14 +119,16 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Apprentice_Mage_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Apprentice_Mage.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
-'');
+'"Adorable? No doubt. Defenseless? That''s pushing it."');
 insert into Characters (CardIndex) VALUES (cXXX);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 4); --Sapphire
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 3); --Ruby
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 4); --Sapphire
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (chXXX, 'Either', 'Small', 'Misfit', 5, 3, '1B', '3B', '3B 2R', '2B', 3, 1);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Healer
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Defenseless
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Healer
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Immobile
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Remedy
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Small
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Stay There
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Life Force
@@ -130,7 +142,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Apprentice_Swordmage_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Apprentice_Swordmage.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
-'');
+'The Swordmages of Arcadia are an ancient tradition founded before the Dark Consul''s rise, when the realm was governed by The Council of Knowledge. Promising young apprentices began their training in early childhood, mastering the fusion of magic, swordplay, and learning. Despite the Dark Consul''s best efforts, the swordmages survived the fall of Arcadia. Though scattered, they still protect peace and knowledge thoroughout the realms.');
 insert into Characters (CardIndex) VALUES (cXXX);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 4); --Sapphire
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
@@ -151,12 +163,14 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Arashikage_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Arashikage.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
-'');
+'"I can kill him, yes, but only if you tell me what I need to know."');
 insert into Characters (CardIndex) VALUES (cXXX);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (chXXX, 'Either', 'Small', 'Human', 7, 3, '2B 1R', '3B', '2B', '2R', 5, 1);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Backstabber
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Counterstrike
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Improved Critical
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Surefoot
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Cobra Strike
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Black Arrow
@@ -171,14 +185,16 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Armored_Bear_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Armored_Bear.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
-'');
+'Making the change from being a Werecursed knight to being a Werebear has never sat well with those it possesses. The beast pushes to the fore and the rational being that is changed, pushed to the back. All that is remembered when the Were takes hold is a fleeting feeling, like after a dream, remembering only the din of battle, followed by a strong urge to brush one''s teeth.');
 insert into Characters (CardIndex) VALUES (cXXX);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 4); --Sapphire
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (chXXX, 'Either', 'Large', 'Shapeshift', 5, 3, '3R', '2B 1R', '1B', '2B', 7, 1);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Fixed Form
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Knocked To My Senses
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Deadly Defense
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Fixed Form
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Heal X
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Knocked To My Senses
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Massive Damage
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Bear Hug
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Red Meat
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Honey For My Tummy
@@ -212,12 +228,14 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Aubnar_Buttonbjorn_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Aubnar_Buttonbjorn.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
-'');
+'Heroes travel from far and wide for the privilege of purchasing a single garment tailored by the renowned Aubnar Buttonbjorn. A cunning craftsman, Aubnar weaves ancient dwarven magic into every stitch. It is said that a Hero garbed in a complete wardrobe crafted by Aubnar needs no other protection.');
 insert into Characters (CardIndex) VALUES (cXXX);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (chXXX, 'Male', 'Small', 'Dwarf', 6, 3, '2B', '2B', '3B', '2B 1R', 5, 1);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Heal X
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Healer
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Regenerate
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Sidestep
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Reinforced Stitching
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Bold Embroidery
@@ -234,17 +252,20 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Aurelia_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Aurelia.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
-'');
+'Even when playing her favorite game, Aurelia requires speed, grace, and unpredictability. These aspects are perfectly captured by Nyan-Nyan, her favorite Super Dungeon Hero.');
 insert into Characters (CardIndex) VALUES (cXXX);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 2); --Emerald
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (chXXX, 'Female', 'Small', 'Human', 7, 3, '3B', '2B', '1B 1R', '2R', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --9 Lives
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Ice
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Knockdown
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Pounce
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Teeth & Fur
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Purrrrr
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Coolmint Kitty Bomb
-insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 1, 2); --Strength
-insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 3, 5); --Will
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 1, 1); --Strength
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 4, 1); --Dex
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (eXXX, 2); --Armor
 
 
@@ -254,7 +275,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Bakusho_Mondai_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Bakusho_Mondai.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
-'');
+'Bakusho Mondai''s gregarious nature and boisterous personality made him a natural master of festivals and celebrations. For the right price, he is eager to join adventuring parties and lend his dance-kata and fireworks, exquisitely choreographed to the thumping rhythm of taiko drums.');
 insert into Characters (CardIndex) VALUES (cXXX);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 4); --Sapphire
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
@@ -274,12 +295,15 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Bang_Bang_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Bang_Bang.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
-'');
+'When Bang-Bang made a Super Dungeon character, she wanted to try something different. She played everything from mage to paladin, but it never felt right. Finally she settled on a pair of trusty flintlocks. They weren''t so different from what she used every day, but she knew how to use them. And at least she had a wide selection of costumes. Most recently she has been rocking the witch hunter look to annoy Tahariel.');
 insert into Characters (CardIndex) VALUES (cXXX);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 2); --Emerald
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (chXXX, 'Female', 'Small', 'Human', 6, 3, '3B', '3B', '2B', '2R', 5, 1);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Massive Damage
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Heal X
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Pet: Mr. Milky
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Remedy
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Wind of Blades
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Deadeye
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Covering Fire
@@ -295,11 +319,14 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Benkei_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Benkei.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
-'');
+'Devotion to duty is a hallmark of many on Kagejima. For Benkei, devotion to duty is a defining characteristic. While his martial skill serves him well, it is his utter devotion to the Moon Throne that imparts his famous strength and fearlessness. They say that the gods could not move Benkei when he takes a stand in the Princess''s name.');
 insert into Characters (CardIndex) VALUES (cXXX);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (chXXX, 'Male', 'Small', 'Human', 5, 3, '3B', '2R', '3B', '2B', 5, 1);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Brutal Strike
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Improved Critical
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Massive Damage
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Tough
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Heavenly Strike
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Blind Onslaught
@@ -322,6 +349,9 @@ insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, 
 VALUES (chXXX, 'Male', 'Small', 'Nether Elf', 6, 3, '2R', '2B 1R', '3B', '3R', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Ambush
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Backstabber
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Bane
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Pounce
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Predator
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --You're Alone
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Storm of Blades
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Strike From Shadow
@@ -337,11 +367,14 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Black_Snow_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Black_Snow.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
-'');
+'Wandering the frozen expanses of Frostbyte Reach the outcast noble, Black Snow, watches for signs of the return of the Lich King. He hopes to one day end his watch and return to a life of peace and warmth. He wonders if he will succe3ed, on this... he knows nothing.');
 insert into Characters (CardIndex) VALUES (cXXX);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (chXXX, 'Male', 'Small', 'Human', 6, 3, '2R', '3B', '2B', '3B', 5, 1);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Black Ice
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Heal X
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Ice
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --I Know Nothing
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Frostblade
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --I Have Returned
@@ -356,13 +389,14 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Blaze_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Blaze.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
-'');
+'The soul of the mage reflects the magic they are able to harness, and the shape of the power they manifest. Ember Mages are quick to anger, and wield terrible blasts of fire and brimstone. This fury is often balanced by bold and outgoing personalities that draw many to the bright glow of their charisma. Their destructive magic is highly sought after by adventuring parties willing to take the risk.');
 insert into Characters (CardIndex) VALUES (cXXX);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 3); --Ruby
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (chXXX, 'Female', 'Small', 'Human', 6, 3, '2B', '3B', '2R', '1B 1R', 5, 2);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Fire
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Heal X
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Fire Wave
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Magma Strike
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --White Mage
@@ -398,12 +432,14 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Blind_Swordsman_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Blind_Swordsman.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
-'');
+'"Why don''t you put that sword away before I am required to show you how to use it?"');
 insert into Characters (CardIndex) VALUES (cXXX);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 4); --Sapphire
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (chXXX, 'Male', 'Small', 'Human Ronin', 6, 3, '2B 1R', '3B', '2R', '3B', 5, 1);
+VALUES (chXXX, 'Male', 'Small', 'Human', 6, 3, '2B 1R', '3B', '2R', '3B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Feint
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Insight
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Oracle
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Uncanny Awareness
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Perfect Strike
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Tidal Wave
@@ -418,12 +454,13 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Blizzard_Wizzard_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Blizzard_Wizzard.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
-'');
+'Ah, it is cold today my friend. Please, come warm yourself by my fire. What fire? Why this one right here? Oh dear, it appears to have gone cold. No bother, we shall shift to ourt true forms and be nice and toasty! You cannot shift, you say? That is most unfortunate. I suppose you will freeze then. A most unpleasant turn of affairs if I do say so. -- Recollections of a frostbitten freyjan');
 insert into Characters (CardIndex) VALUES (cXXX);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (chXXX, 'Male', 'Small', 'Human', 6, 3, '1B 3B', '2R', '3B', '1B 1R', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Ice
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Knockdown
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Blizzard Burst
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Snowball Fight
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Cold Press Coffee
@@ -437,13 +474,16 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Brinebreaker_Aesir_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Bbrinebreaker_Aesir.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
-'');
+'Brinebreaker Aesir are some of the most skilled of dwarven fighters. But their skill lies not solely in their own prowess, though they have plenty, their ferocity and command exalts all the other dwarves around them to heightened feats of combat. To be elevated to Aesir a dwarf must show both martial skill and leadership.');
 insert into Characters (CardIndex) VALUES (cXXX);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 2); --Emerald
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (chXXX, 'Male', 'Small', 'Dwarf', 6, 3, '2R', '3B', '2B', '3B', 6, 1);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Immune: Knockdown
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Brutal Strike
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Immune: Ice
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Immune: Knockdown
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Improved Critical
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Knockdown
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Mallet Masher
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Storm of Blows
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Howl of Rage
@@ -458,13 +498,15 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Brinebreaker_Skathi_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Brinebreaker_Skathi.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
-'');
+'Brinebreaker Skathi are rugged explorers and scouts. To be elevated to the ranks of the Skathi is an honor many young dwarves aspire to, but few can achieve. Independent and heroic to a fault, Skathi will brave unimaginable terrors and the most inhospitable of climes in service of hearth and home.');
 insert into Characters (CardIndex) VALUES (cXXX);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (chXXX, 'Male', 'Small', 'Dwarf', 6, 3, '3B', '2R', '2B', '3B', 6, 1);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Immune: Knockdown
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Heal X
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Ice
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Immune: Ice
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Immune: Knockdown
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Surefoot
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Fjord Winds
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Hidden Path
@@ -480,12 +522,16 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Bakusho_Mondai_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Bakusho_Mondai.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
-'');
+'Burke Badhammer, was apprenticed to dwarven smiths as a boy, and learned to forge items of exquisite quality. Seeking more, he sought out and eventually earned the trust of the mysterious Enchanter. Together, the two have forged some of the most legendary magical weapons and armor in all of Crystalia.');
 insert into Characters (CardIndex) VALUES (cXXX);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (chXXX, 'Male', 'Small', 'Human', 6, 3, '2B 1R', '3B', '3B', '2B', 6, 1);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Fire
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Immune: Knockdown
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Immune: Status Effects
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Knockdown
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Massive Damage
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Hammer
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Anvil
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Masterwork
@@ -500,11 +546,12 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Byakko_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Byakko.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
-'');
+'I am not touched or blessed by the White Tiger. I am the White Tiger!');
 insert into Characters (CardIndex) VALUES (cXXX);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 2); --Emerald
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (chXXX, 'Male', 'Small', 'Tora', 6, 3, '3B', '3B', '1B 1R', '2R', 5, 1);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Heal X
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Ravaged
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Toughened Scars
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Swirling Claws
@@ -1090,19 +1137,184 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Fed_Up_Farmer_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Fed_Up_Farmer.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
-'');
+'"I don''t know nothin'' ''bout bein'' no fancy city Hero from Crystalia Castle. I may be just a simple mouse farmer, but I know this: I''m sick and tired o'' these Goddess-durned monsters traipsing all over my land! I''ve had enough! Hand me my pitchfork, sonny. It''s time to show these city-folk how it''s done..."');
 insert into Characters (CardIndex) VALUES (cXXX);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (chXXX, 'Either', 'Large', 'Shapeshift', 6, 3, '2B 1R', '3B', '3B', '2B', 6, 1);
+VALUES (chXXX, 'Either', 'Small', 'Freyjan', 7, 3, '3B', '3B', '2B', '3B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --9 Lives
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Get Off My Land
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Heal X
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Massive Damage
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Get Off My Land!
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Don't Need Yer Fancy City Gizmos
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --The Land Provides
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 1, 3); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (eXXX, 2); --Armor
 
+
+--Formless Hanzo --CardIndex cXXX	--CharacterIndex chXXX	--ExploreCharacterIndex eXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Abominable Snowman', 
+'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Formless_Hanzo_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Formless_Hanzo_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Formless_Hanzo.xhtml', 
+'Hero', '2.0', '2.0 Core Set', 'Default', 
+'"Be water, my friend."');
+insert into Characters (CardIndex) VALUES (cXXX);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 3); --Ruby
+insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+VALUES (chXXX, 'Male', 'Small', 'Human', 6, 3, '2B 1R', '3B', '3B', '2R', 5, 1);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Immune: Fire
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Formless
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Knockdown
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Pounce
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Stealth
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Leaping Yamame
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Tidal Wave
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Squid Ink
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 1, 2); --Strength
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (eXXX, 2); --Armor
+
+
+--Fortune Hunter --CardIndex cXXX	--CharacterIndex chXXX	--ExploreCharacterIndex eXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Abominable Snowman', 
+'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Fortune_Hunter_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Fortune_Hunter_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Fortune_Hunter.xhtml', 
+'Hero', '2.0', '2.0 Core Set', 'Default', 
+'The adventurers of Crystalia are all motivated by their own reasons. Some face the dangers of the Dark Consul to bring the light of the Goddess to all corners of the world, some do it to help the less fortunate, some do it for glory. And, of course, some do it for treasure. Fortune Hunters fight for the Goddess, but they have a knack for getting rich while doing so.');
+insert into Characters (CardIndex) VALUES (cXXX);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1); --Citrine
+insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+VALUES (chXXX, 'Female', 'Small', 'Dwarf', 6, 3, '2B', '3B', '3B', '2R', 6, 2);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Brutal Strike
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Immune: Knockdown
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Massive Damage
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Overly Prepared
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Extra Powder
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Treasure Map
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Overly Stuffed Pack
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Use It Now!
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 4, 6); --Dex
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (eXXX, 2); --Armor
+
+
+--Freyjan Beastmaster --CardIndex cXXX	--CharacterIndex chXXX	--ExploreCharacterIndex eXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Abominable Snowman', 
+'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Freyjan_Beastmaster_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Freyjan_Beastmaster_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Freyjan_Beastmaster.xhtml', 
+'Hero', '2.0', '2.0 Core Set', 'Default', 
+'"Get ''em, Mr. Fluffs!"');
+insert into Characters (CardIndex) VALUES (cXXX);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 3); --Emerald
+insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+VALUES (chXXX, 'Either', 'Small', 'Freyjan', 6, 3, '2B', '3B', '3B', '3B', 5, 1);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --9 Lives
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Bane
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Knockdown
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Pet X (Sabertooth Cat)
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Fish Head Slop
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Sic 'em
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Kill!
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Cat Nip
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 4, 3); --Dex
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (eXXX, 2); --Armor
+
+
+--Freyian Beastmaster Errata --CardIndex cXXX	--CharacterIndex chXXX	--ExploreCharacterIndex eXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Abominable Snowman', 
+'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Freyian_Beastmaster_Errata_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Freyian_Beastmaster_Errata_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Freyian_Beastmaster_Errata.xhtml', 
+'Hero', '2.0', '2.0 Core Set', 'Default', 
+'"Get ''em, Mr. Fluffs!"');
+insert into Characters (CardIndex) VALUES (cXXX);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 3); --Emerald
+insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+VALUES (chXXX, 'Either', 'Small', 'Freyjan', 6, 3, '2B', '3B', '3B', '3B', 5, 1);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --9 Lives
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Bane
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Knockdown
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Pet X (Sabertooth Kitty)
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Fish Head Slop
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Sic 'em
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Kill!
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Cat Nip
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 4, 3); --Dex
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (eXXX, 2); --Armor
+
+
 --???? PICK UP HERE ?????
+--Frozen Queen --CardIndex cXXX	--CharacterIndex chXXX	--ExploreCharacterIndex eXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Abominable Snowman', 
+'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Frozen_Queen_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Frozen_Queen_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Frozen_Queen.xhtml', 
+'Hero', '2.0', '2.0 Core Set', 'Default', 
+'Most believe the Frozen Queen is not truly evil despite her frequent conflicts with the Heroes of Crystalia. Indeed, the Frozen Queen has been known to assist Heroes in dire times of need. What prompts this assistance none can say.');
+insert into Characters (CardIndex) VALUES (cXXX);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 3); --Ruby
+insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+VALUES (chXXX, 'Female', 'Small', 'Human', 6, 3, '2B', '3B', '3B', '3B', 5, 1);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Ice
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Immobile
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Immune: Ice
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Immune: Status Effects
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Massive Damage
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Stealth
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Stay Away
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Frozen Heart
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Personal Flurry
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Build a Snowman
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 3, 6); --Will
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (eXXX, 2); --Armor
+
+
+--Abominable Snowman --CardIndex cXXX	--CharacterIndex chXXX	--ExploreCharacterIndex eXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Abominable Snowman', 
+'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Abominable_Snowman_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Abominable_Snowman_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Abominable_Snowman.xhtml', 
+'Hero', '2.0', '2.0 Core Set', 'Default', 
+'');
+insert into Characters (CardIndex) VALUES (cXXX);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 3); --Ruby
+insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+VALUES (chXXX, 'Either', 'Large', 'Shapeshift', 6, 3, '2B 1R', '3B', '3B', '2B', 6, 1);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Immune: Ice
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Fixed Form
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Unpredictable
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Shake It Off
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Cold Fury
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Freezer
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --White-Out Elixir
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 1, 2); --Strength
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 3, 5); --Will
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (eXXX, 2); --Armor
+
+
+--Abominable Snowman --CardIndex cXXX	--CharacterIndex chXXX	--ExploreCharacterIndex eXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Abominable Snowman', 
+'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Abominable_Snowman_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Abominable_Snowman_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Abominable_Snowman.xhtml', 
+'Hero', '2.0', '2.0 Core Set', 'Default', 
+'');
+insert into Characters (CardIndex) VALUES (cXXX);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 3); --Ruby
+insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+VALUES (chXXX, 'Either', 'Large', 'Shapeshift', 6, 3, '2B 1R', '3B', '3B', '2B', 6, 1);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Immune: Ice
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Fixed Form
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Unpredictable
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Shake It Off
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Cold Fury
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Freezer
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --White-Out Elixir
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 1, 2); --Strength
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 3, 5); --Will
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (eXXX, 2); --Armor
+
 --Abominable Snowman --CardIndex cXXX	--CharacterIndex chXXX	--ExploreCharacterIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Abominable Snowman', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Abominable_Snowman_2.0.png', 
@@ -1147,20 +1359,3 @@ insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXX
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 1, 2); --Strength
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 3, 5); --Will
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (eXXX, 2); --Armor
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
