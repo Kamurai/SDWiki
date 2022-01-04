@@ -9,11 +9,12 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'I have such a delicious potion for you to try.  It may string a little going down....');
 insert into Characters (CardIndex) VALUES (259);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (174, 3); --Ruby
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (174, 268); --Immune: Status Effects
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (174, 414); --Charge
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (174, 229); --Fly
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (174, 235); --Ghostmancer
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (174, 268); --Immune: Status Effects
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (174, 274); --Kitty Claws
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (174, 304); --Potion Stash
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (174, 304); --Potion Stash X
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (174, 495); --Pumpkin Charge
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (174, 211); --Bubble & Boil
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (174, 252); --Curses!
