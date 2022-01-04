@@ -217,8 +217,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Utilities (CardIndex, UtilityDescription) VALUES (684, 'Place card in the backpack.  The party may discard this card at any time to remove one status effect token from every friendly model.');
 insert into Explores (UtilityIndex) VALUES (35);
 insert into ExploreCreeps (ExploreIndex, CreepNumber) VALUES (17, 0);
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (17, 172);	--Beatrix the Witch Queen: Explore
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (17, 285);	--Beatrix the Witch Queen: Arcade
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (17, 174);	--Beatrix the Witch Queen: Explore
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (17, 287);	--Beatrix the Witch Queen: Arcade
 
 
 --Broken Harpsichord	--CardIndex 685	--UtilityIndex 36	--ExploreIndex 18	--ExploreCreepIndex	--ExploreTrapIndex
@@ -231,8 +231,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Utilities (CardIndex, UtilityDescription) VALUES (685, 'All Heroes suffer slow.');
 insert into Explores (UtilityIndex) VALUES (36);
 insert into ExploreCreeps (ExploreIndex, CreepNumber) VALUES (18, 4);
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (18, 172);	--Beatrix the Witch Queen: Explore
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (18, 285);	--Beatrix the Witch Queen: Arcade
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (18, 174);	--Beatrix the Witch Queen: Explore
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (18, 287);	--Beatrix the Witch Queen: Arcade
 
 
 --Bubbling Cauldron	--CardIndex 686	--UtilityIndex 37	--ExploreIndex 19	--ExploreCreepIndex	--ExploreTrapIndex
@@ -246,8 +246,8 @@ insert into Utilities (CardIndex, UtilityDescription) VALUES (686, '3ST, 2x2');
 insert into Explores (UtilityIndex) VALUES (37);
 insert into ExploreCreeps (ExploreIndex, CreepNumber) VALUES (19, 0);
 insert into AbilityAssignments (ExploreTrapIndex, AbilityIndex) VALUES (19, 484);--Poisonous Brew
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (19, 172);	--Beatrix the Witch Queen: Explore
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (19, 285);	--Beatrix the Witch Queen: Arcade
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (19, 174);	--Beatrix the Witch Queen: Explore
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (19, 287);	--Beatrix the Witch Queen: Arcade
 
 
 --Glitched Doorway	--CardIndex 687	--UtilityIndex 38	--ExploreIndex 20	--ExploreCreepIndex	--ExploreTrapIndex
@@ -260,8 +260,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Utilities (CardIndex, UtilityDescription) VALUES (687, 'Models may move through walls on this tile''s edge.  Line of sight is blocked as normal.');
 insert into Explores (UtilityIndex) VALUES (38);
 insert into ExploreCreeps (ExploreIndex, CreepNumber) VALUES (20, 1);
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (20, 172);	--Beatrix the Witch Queen: Explore
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (20, 285);	--Beatrix the Witch Queen: Arcade
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (20, 174);	--Beatrix the Witch Queen: Explore
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (20, 287);	--Beatrix the Witch Queen: Arcade
 
 
 --Grave Robbers	--CardIndex 688	--UtilityIndex 39	--ExploreIndex 21	--ExploreCreepIndex	--ExploreTrapIndex
@@ -274,8 +274,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Utilities (CardIndex, UtilityDescription) VALUES (688, 'A Hero may draw up to four loot cards during their turn.');
 insert into Explores (UtilityIndex) VALUES (39);
 insert into ExploreCreeps (ExploreIndex, CreepNumber) VALUES (21, 3);
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (21, 172);	--Beatrix the Witch Queen: Explore
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (21, 285);	--Beatrix the Witch Queen: Arcade
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (21, 174);	--Beatrix the Witch Queen: Explore
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (21, 287);	--Beatrix the Witch Queen: Arcade
 
 
 --Pumpkin Mines	--CardIndex 689	--UtilityIndex 40	--ExploreIndex 22	--ExploreCreepIndex	--ExploreTrapIndex
@@ -289,8 +289,8 @@ insert into Utilities (CardIndex, UtilityDescription) VALUES (689, '1St, 2x2');
 insert into Explores (UtilityIndex) VALUES (40);
 insert into ExploreCreeps (ExploreIndex, CreepNumber) VALUES (22, 0);
 insert into AbilityAssignments (ExploreTrapIndex, AbilityIndex) VALUES (22, 496);--Pumpkin Shrapnel
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (22, 172);	--Beatrix the Witch Queen: Explore
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (22, 285);	--Beatrix the Witch Queen: Arcade
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (22, 174);	--Beatrix the Witch Queen: Explore
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (22, 287);	--Beatrix the Witch Queen: Arcade
 
 
 --Pumpkin Pie	--CardIndex 690	--UtilityIndex 41	--ExploreIndex 23	--ExploreCreepIndex	--ExploreTrapIndex
@@ -303,8 +303,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Utilities (CardIndex, UtilityDescription) VALUES (690, 'Place card in the backpack.  The party may discard this card at any time to remove one wound token from every friendly model.');
 insert into Explores (UtilityIndex) VALUES (41);
 insert into ExploreCreeps (ExploreIndex, CreepNumber) VALUES (23, 2);
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (23, 172);	--Beatrix the Witch Queen: Explore
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (23, 285);	--Beatrix the Witch Queen: Arcade
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (23, 174);	--Beatrix the Witch Queen: Explore
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (23, 287);	--Beatrix the Witch Queen: Arcade
 
 
 --Bramble Wall	--CardIndex 691	--UtilityIndex 42	--ExploreIndex 24	--ExploreCreepIndex	--ExploreTrapIndex
@@ -318,8 +318,8 @@ insert into Utilities (CardIndex, UtilityDescription) VALUES (691, '2ST, 1x4');
 insert into Explores (UtilityIndex) VALUES (42);
 insert into ExploreCreeps (ExploreIndex, CreepNumber) VALUES (24, 0);
 insert into AbilityAssignments (ExploreTrapIndex, AbilityIndex) VALUES (24, 626);--Thorns
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (24, 173);	--The Forgotten King: Explore
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (24, 286);	--The Forgotten King: Arcade
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (24, 175);	--The Forgotten King: Explore
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (24, 288);	--The Forgotten King: Arcade
 
 
 --Corrupted Tree	--CardIndex 692	--UtilityIndex 43	--ExploreIndex 25	--ExploreCreepIndex	--ExploreTrapIndex
@@ -333,8 +333,8 @@ insert into Utilities (CardIndex, UtilityDescription) VALUES (692, '3ST, 2x2');
 insert into Explores (UtilityIndex) VALUES (43);
 insert into ExploreCreeps (ExploreIndex, CreepNumber) VALUES (25, 0);
 insert into AbilityAssignments (ExploreTrapIndex, AbilityIndex) VALUES (25, 629);--Thrashing Limbs
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (25, 173);	--The Forgotten King: Explore
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (25, 286);	--The Forgotten King: Arcade
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (25, 175);	--The Forgotten King: Explore
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (25, 288);	--The Forgotten King: Arcade
 
 
 --Dancing Light	--CardIndex 693	--UtilityIndex 44	--ExploreIndex 26	--ExploreCreepIndex	--ExploreTrapIndex
@@ -347,8 +347,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Utilities (CardIndex, UtilityDescription) VALUES (693, '0ST, 2x2, Heroes must always end their activation closer to a Dancing Light template than they began.  If a Hero ends their activation adjacent to a Dancingt Light template remove the template from play.');
 insert into Explores (UtilityIndex) VALUES (44);
 insert into ExploreCreeps (ExploreIndex, CreepNumber) VALUES (26, 0);
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (26, 173);	--The Forgotten King: Explore
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (26, 286);	--The Forgotten King: Arcade
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (26, 175);	--The Forgotten King: Explore
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (26, 288);	--The Forgotten King: Arcade
 
 
 --Faerie Pool	--CardIndex 694	--UtilityIndex 45	--ExploreIndex 27	--ExploreCreepIndex	--ExploreTrapIndex
@@ -361,8 +361,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Utilities (CardIndex, UtilityDescription) VALUES (694, 'After the spawning point is destroyed all Heroes remove one wound token.');
 insert into Explores (UtilityIndex) VALUES (45);
 insert into ExploreCreeps (ExploreIndex, CreepNumber) VALUES (27, 1);
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (27, 173);	--The Forgotten King: Explore
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (27, 286);	--The Forgotten King: Arcade
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (27, 175);	--The Forgotten King: Explore
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (27, 288);	--The Forgotten King: Arcade
 
 
 --Friendly Chimera	--CardIndex 695	--UtilityIndex 46	--ExploreIndex 28	--ExploreCreepIndex	--ExploreTrapIndex
@@ -375,8 +375,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Utilities (CardIndex, UtilityDescription) VALUES (695, 'Hero players choose, spawn, and control all creep models on this tile, instead of the Consul.  Creeps may be activated during the Hero Turn in addition to any other models.');
 insert into Explores (UtilityIndex) VALUES (46);
 insert into ExploreCreeps (ExploreIndex, CreepNumber) VALUES (28, 3);
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (28, 173);	--The Forgotten King: Explore
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (28, 286);	--The Forgotten King: Arcade
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (28, 175);	--The Forgotten King: Explore
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (28, 288);	--The Forgotten King: Arcade
 
 
 --Gypsy Princess	--CardIndex 696	--UtilityIndex 47	--ExploreIndex 29	--ExploreCreepIndex
@@ -389,8 +389,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Utilities (CardIndex, UtilityDescription) VALUES (696, 'Human, Freyjan, and Demon Heroes add +1ST to all offense rolls.');
 insert into Explores (UtilityIndex) VALUES (47);
 insert into ExploreCreeps (ExploreIndex, CreepNumber) VALUES (29, 2);
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (29, 173);	--The Forgotten King: Explore
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (29, 286);	--The Forgotten King: Arcade
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (29, 175);	--The Forgotten King: Explore
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (29, 288);	--The Forgotten King: Arcade
 
 
 --Lost Unicorn	--CardIndex 697	--UtilityIndex 48	--ExploreIndex 30	--ExploreCreepIndex	--ExploreTrapIndex
@@ -403,8 +403,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Utilities (CardIndex, UtilityDescription) VALUES (697, 'Elf, Celestian, Dwarf, and Gnome Heroes add +1ST to all defense rolls.');
 insert into Explores (UtilityIndex) VALUES (48);
 insert into ExploreCreeps (ExploreIndex, CreepNumber) VALUES (30, 1);
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (30, 173);	--The Forgotten King: Explore
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (30, 286);	--The Forgotten King: Arcade
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (30, 175);	--The Forgotten King: Explore
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (30, 288);	--The Forgotten King: Arcade
 
 
 --Mistmourn Fog	--CardIndex 698	--UtilityIndex 49	--ExploreIndex 31	--ExploreCreepIndex
@@ -417,8 +417,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Utilities (CardIndex, UtilityDescription) VALUES (698, 'All ranges are reduced by 3 to a minimum of 1.');
 insert into Explores (UtilityIndex) VALUES (49);
 insert into ExploreCreeps (ExploreIndex, CreepNumber) VALUES (31, 3);
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (31, 173);	--The Forgotten King: Explore
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (31, 286);	--The Forgotten King: Arcade
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (31, 175);	--The Forgotten King: Explore
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (31, 288);	--The Forgotten King: Arcade
 
 
 --Berry Patch	--CardIndex 699	--UtilityIndex 50	--ExploreIndex 32	--ExploreCreepIndex	--ExploreTrapIndex
@@ -432,8 +432,8 @@ insert into Utilities (CardIndex, UtilityDescription) VALUES (699, '1ST, 2x2');
 insert into Explores (UtilityIndex) VALUES (50);
 insert into ExploreCreeps (ExploreIndex, CreepNumber) VALUES (32, 0);
 insert into AbilityAssignments (ExploreTrapIndex, AbilityIndex) VALUES (32, 341);--Frost Berries
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (32, 174);	--Goro: Explore
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (32, 287);	--Goro: Arcade
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (32, 176);	--Goro: Explore
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (32, 289);	--Goro: Arcade
 
 
 --Campfire	--CardIndex 700	--UtilityIndex 51	--ExploreIndex 33	--ExploreCreepIndex	--ExploreTrapIndex
@@ -446,8 +446,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Utilities (CardIndex, UtilityDescription) VALUES (700, 'Heroes gain the ability FIRE.');
 insert into Explores (UtilityIndex) VALUES (51);
 insert into ExploreCreeps (ExploreIndex, CreepNumber) VALUES (33, 3);
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (33, 174);	--Goro: Explore
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (33, 287);	--Goro: Arcade
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (33, 176);	--Goro: Explore
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (33, 289);	--Goro: Arcade
 
 
 --Dirty Bison	--CardIndex 701	--UtilityIndex 52	--ExploreIndex 34	--ExploreCreepIndex	--ExploreTrapIndex
@@ -460,8 +460,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Utilities (CardIndex, UtilityDescription) VALUES (701, 'Add one pet, of the Heroes'' choice, to the backpack.  If its card is in the treasure deck remove it and reshuffle the deck.');
 insert into Explores (UtilityIndex) VALUES (52);
 insert into ExploreCreeps (ExploreIndex, CreepNumber) VALUES (34, 2);
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (34, 174);	--Goro: Explore
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (34, 287);	--Goro: Arcade
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (34, 176);	--Goro: Explore
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (34, 289);	--Goro: Arcade
 
 
 --Downpour	--CardIndex 702	--UtilityIndex 53	--ExploreIndex 35	--ExploreCreepIndex	--ExploreTrapIndex
@@ -474,8 +474,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Utilities (CardIndex, UtilityDescription) VALUES (702, 'All models gain IMMUNE: FIRE and +2MO.');
 insert into Explores (UtilityIndex) VALUES (53);
 insert into ExploreCreeps (ExploreIndex, CreepNumber) VALUES (35, 2);
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (35, 174);	--Goro: Explore
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (35, 287);	--Goro: Arcade
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (35, 176);	--Goro: Explore
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (35, 289);	--Goro: Arcade
 
 
 --Faery Queen	--CardIndex 703	--UtilityIndex 54	--ExploreIndex 36	--ExploreCreepIndex	--ExploreTrapIndex
@@ -488,8 +488,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Utilities (CardIndex, UtilityDescription) VALUES (703, 'All Heroes roll 1B for every wound token on their model.  Remove one wound token for every star rolled.');
 insert into Explores (UtilityIndex) VALUES (54);
 insert into ExploreCreeps (ExploreIndex, CreepNumber) VALUES (36, 0);
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (36, 174);	--Goro: Explore
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (36, 287);	--Goro: Arcade
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (36, 176);	--Goro: Explore
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (36, 289);	--Goro: Arcade
 
 
 --Giant Centipede	--CardIndex 704	--UtilityIndex 55	--ExploreIndex 37	--ExploreCreepIndex	--ExploreTrapIndex
@@ -503,8 +503,8 @@ insert into Utilities (CardIndex, UtilityDescription) VALUES (704, '4ST, 1x4');
 insert into Explores (UtilityIndex) VALUES (55);
 insert into ExploreCreeps (ExploreIndex, CreepNumber) VALUES (37, 0);
 insert into AbilityAssignments (ExploreTrapIndex, AbilityIndex) VALUES (37, 399);--Icky
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (37, 174);	--Goro: Explore
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (37, 287);	--Goro: Arcade
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (37, 176);	--Goro: Explore
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (37, 289);	--Goro: Arcade
 
 
 --Howling Wind	--CardIndex 705	--UtilityIndex 56	--ExploreIndex 38	--ExploreCreepIndex	--ExploreTrapIndex
@@ -517,8 +517,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Utilities (CardIndex, UtilityDescription) VALUES (705, 'Players controlling Heroes in this tile may not speak to other players while their model remains in the tile.');
 insert into Explores (UtilityIndex) VALUES (56);
 insert into ExploreCreeps (ExploreIndex, CreepNumber) VALUES (38, 1);
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (38, 174);	--Goro: Explore
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (38, 287);	--Goro: Arcade
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (38, 176);	--Goro: Explore
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (38, 289);	--Goro: Arcade
 
 
 --Respec	--CardIndex 706	--UtilityIndex 57	--ExploreIndex 39	--ExploreCreepIndex	--ExploreTrapIndex
@@ -531,8 +531,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Utilities (CardIndex, UtilityDescription) VALUES (706, 'Remove all equipment from all Heroes and discard it.  Heroes may immediately equip any equipment from the loot or treasure discard piles.');
 insert into Explores (UtilityIndex) VALUES (57);
 insert into ExploreCreeps (ExploreIndex, CreepNumber) VALUES (39, 1);
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (39, 174);	--Goro: Explore
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (39, 287);	--Goro: Arcade
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (39, 176);	--Goro: Explore
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (39, 289);	--Goro: Arcade
 
 
 --1-Up	--CardIndex 707	--UtilityIndex 58	--ExploreIndex 40	--ExploreCreepIndex	--ExploreTrapIndex
@@ -545,12 +545,12 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Utilities (CardIndex, UtilityDescription) VALUES (707, 'Add one Princess Coin to the party''s backpack.');
 insert into Explores (UtilityIndex) VALUES (58);
 insert into ExploreCreeps (ExploreIndex, CreepNumber) VALUES (40, 2);
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (40, 177); --Ragin' Roxor: Explore
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (40, 178); --Rockin' Roxor: Explore
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (40, 290); --Ragin' Roxor v1: Arcade
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (40, 292); --Rockin' Roxor v1: Arcade
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (40, 291); --Ragin' Roxor v2: Arcade
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (40, 293); --Rockin' Roxor v2: Arcade
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (40, 179); --Ragin' Roxor: Explore
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (40, 180); --Rockin' Roxor: Explore
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (40, 292); --Ragin' Roxor v1: Arcade
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (40, 294); --Rockin' Roxor v1: Arcade
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (40, 293); --Ragin' Roxor v2: Arcade
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (40, 295); --Rockin' Roxor v2: Arcade
 
 --Dusty Cartridge	--CardIndex 708	--UtilityIndex 59	--ExploreIndex 41	--ExploreCreepIndex	--ExploreTrapIndex
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Dusty Cartridge',
@@ -562,12 +562,12 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Utilities (CardIndex, UtilityDescription) VALUES (708, 'Choose one Hero.  All monsters within 3 squares suffer KNOCKDOWN.');
 insert into Explores (UtilityIndex) VALUES (59);
 insert into ExploreCreeps (ExploreIndex, CreepNumber) VALUES (41, 1);
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (41, 177); --Ragin' Roxor: Explore
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (41, 178); --Rockin' Roxor: Explore
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (41, 290); --Ragin' Roxor v1: Arcade
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (41, 292); --Rockin' Roxor v1: Arcade
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (41, 291); --Ragin' Roxor v2: Arcade
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (41, 293); --Rockin' Roxor v2: Arcade
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (41, 179); --Ragin' Roxor: Explore
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (41, 180); --Rockin' Roxor: Explore
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (41, 292); --Ragin' Roxor v1: Arcade
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (41, 294); --Rockin' Roxor v1: Arcade
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (41, 293); --Ragin' Roxor v2: Arcade
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (41, 295); --Rockin' Roxor v2: Arcade
 
 --Fire Flowers	--CardIndex 709	--UtilityIndex 60	--ExploreIndex 42	--ExploreCreepIndex	--ExploreTrapIndex
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Fire Flowers',
@@ -580,12 +580,12 @@ insert into Utilities (CardIndex, UtilityDescription) VALUES (709, '1ST, 2x2');
 insert into Explores (UtilityIndex) VALUES (60);
 insert into ExploreCreeps (ExploreIndex, CreepNumber) VALUES (42, 0);
 insert into AbilityAssignments (ExploreTrapIndex, AbilityIndex) VALUES (42, 391);--Hot, Hot, Hot!
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (42, 177); --Ragin' Roxor: Explore
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (42, 178); --Rockin' Roxor: Explore
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (42, 290); --Ragin' Roxor v1: Arcade
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (42, 292); --Rockin' Roxor v1: Arcade
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (42, 291); --Ragin' Roxor v2: Arcade
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (42, 293); --Rockin' Roxor v2: Arcade
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (42, 179); --Ragin' Roxor: Explore
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (42, 180); --Rockin' Roxor: Explore
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (42, 292); --Ragin' Roxor v1: Arcade
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (42, 294); --Rockin' Roxor v1: Arcade
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (42, 293); --Ragin' Roxor v2: Arcade
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (42, 295); --Rockin' Roxor v2: Arcade
 
 --Funny Costumes	--CardIndex 710	--UtilityIndex 61	--ExploreIndex 43	--ExploreCreepIndex	--ExploreTrapIndex
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Funny Costumes',
@@ -597,12 +597,12 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Utilities (CardIndex, UtilityDescription) VALUES (710, 'When a Hero enters this tile they may draw one treasure card.  They may use the treasure card exactly as if it were equipped.  Discard the card after leaving the tile.');
 insert into Explores (UtilityIndex) VALUES (61);
 insert into ExploreCreeps (ExploreIndex, CreepNumber) VALUES (43, 3);
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (43, 177); --Ragin' Roxor: Explore
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (43, 178); --Rockin' Roxor: Explore
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (43, 290); --Ragin' Roxor v1: Arcade
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (43, 292); --Rockin' Roxor v1: Arcade
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (43, 291); --Ragin' Roxor v2: Arcade
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (43, 293); --Rockin' Roxor v2: Arcade
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (43, 179); --Ragin' Roxor: Explore
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (43, 180); --Rockin' Roxor: Explore
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (43, 292); --Ragin' Roxor v1: Arcade
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (43, 294); --Rockin' Roxor v1: Arcade
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (43, 293); --Ragin' Roxor v2: Arcade
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (43, 295); --Rockin' Roxor v2: Arcade
 
 --Heroic Princess	--CardIndex 711	--UtilityIndex 62	--ExploreIndex 44	--ExploreCreepIndex	--ExploreTrapIndex
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Heroic Princess',
@@ -614,12 +614,12 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Utilities (CardIndex, UtilityDescription) VALUES (711, 'After destroying this tile''s mini-boss add one Princess Coin to the party''s backpack.');
 insert into Explores (UtilityIndex) VALUES (62);
 insert into ExploreCreeps (ExploreIndex, CreepNumber) VALUES (44, 1);
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (44, 177); --Ragin' Roxor: Explore
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (44, 178); --Rockin' Roxor: Explore
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (44, 290); --Ragin' Roxor v1: Arcade
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (44, 292); --Rockin' Roxor v1: Arcade
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (44, 291); --Ragin' Roxor v2: Arcade
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (44, 293); --Rockin' Roxor v2: Arcade
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (44, 179); --Ragin' Roxor: Explore
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (44, 180); --Rockin' Roxor: Explore
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (44, 292); --Ragin' Roxor v1: Arcade
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (44, 294); --Rockin' Roxor v1: Arcade
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (44, 293); --Ragin' Roxor v2: Arcade
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (44, 295); --Rockin' Roxor v2: Arcade
 
 --Pixelated	--CardIndex 712	--UtilityIndex 63	--ExploreIndex 45	--ExploreCreepIndex	--ExploreTrapIndex
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Pixelated',
@@ -631,12 +631,12 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Utilities (CardIndex, UtilityDescription) VALUES (712, 'Heroes cannot move diagonally.');
 insert into Explores (UtilityIndex) VALUES (63);
 insert into ExploreCreeps (ExploreIndex, CreepNumber) VALUES (45, 2);
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (45, 177); --Ragin' Roxor: Explore
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (45, 178); --Rockin' Roxor: Explore
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (45, 290); --Ragin' Roxor v1: Arcade
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (45, 292); --Rockin' Roxor v1: Arcade
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (45, 291); --Ragin' Roxor v2: Arcade
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (45, 293); --Rockin' Roxor v2: Arcade
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (45, 179); --Ragin' Roxor: Explore
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (45, 180); --Rockin' Roxor: Explore
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (45, 292); --Ragin' Roxor v1: Arcade
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (45, 294); --Rockin' Roxor v1: Arcade
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (45, 293); --Ragin' Roxor v2: Arcade
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (45, 295); --Rockin' Roxor v2: Arcade
 
 --POW!	--CardIndex 713	--UtilityIndex 64	--ExploreIndex 46	--ExploreCreepIndex	--ExploreTrapIndex
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('POW!',
@@ -649,12 +649,12 @@ insert into Utilities (CardIndex, UtilityDescription) VALUES (713, '3ST. 2x2');
 insert into Explores (UtilityIndex) VALUES (64);
 insert into ExploreCreeps (ExploreIndex, CreepNumber) VALUES (46, 2);
 insert into AbilityAssignments (ExploreTrapIndex, AbilityIndex) VALUES (46, 654);--Twomp!
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (46, 177); --Ragin' Roxor: Explore
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (46, 178); --Rockin' Roxor: Explore
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (46, 290); --Ragin' Roxor v1: Arcade
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (46, 292); --Rockin' Roxor v1: Arcade
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (46, 291); --Ragin' Roxor v2: Arcade
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (46, 293); --Rockin' Roxor v2: Arcade
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (46, 179); --Ragin' Roxor: Explore
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (46, 180); --Rockin' Roxor: Explore
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (46, 292); --Ragin' Roxor v1: Arcade
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (46, 294); --Rockin' Roxor v1: Arcade
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (46, 293); --Ragin' Roxor v2: Arcade
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (46, 295); --Rockin' Roxor v2: Arcade
 
 --Stone Wall	--CardIndex 714	--UtilityIndex 65	--ExploreIndex 47	--ExploreCreepIndex	--ExploreTrapIndex
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Stone Wall',
@@ -666,12 +666,12 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Utilities (CardIndex, UtilityDescription) VALUES (714, '5ST, 1x4, Models may not move or draw line of sight through Stone Wall template.  When Stone Wall is triggered its effect continues until disarmed.');
 insert into Explores (UtilityIndex) VALUES (65);
 insert into ExploreCreeps (ExploreIndex, CreepNumber) VALUES (47, 0);
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (47, 177); --Ragin' Roxor: Explore
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (47, 178); --Rockin' Roxor: Explore
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (47, 290); --Ragin' Roxor v1: Arcade
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (47, 292); --Rockin' Roxor v1: Arcade
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (47, 291); --Ragin' Roxor v2: Arcade
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (47, 293); --Rockin' Roxor v2: Arcade
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (47, 179); --Ragin' Roxor: Explore
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (47, 180); --Rockin' Roxor: Explore
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (47, 292); --Ragin' Roxor v1: Arcade
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (47, 294); --Rockin' Roxor v1: Arcade
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (47, 293); --Ragin' Roxor v2: Arcade
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (47, 295); --Rockin' Roxor v2: Arcade
 
 --Burglar's Ring	--CardIndex 715	--UtilityIndex 66	--ExploreIndex 48	--ExploreCreepIndex	--ExploreTrapIndex
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Burglar''s Ring',
@@ -683,10 +683,10 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Utilities (CardIndex, UtilityDescription) VALUES (715, 'Choose one Hero.  An enemy model may only target that Hero if it is within 1 square of the model.');
 insert into Explores (UtilityIndex) VALUES (66);
 insert into ExploreCreeps (ExploreIndex, CreepNumber) VALUES (48, 3);
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 179);	--Starfire: Explore
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 294);	--Starfire: Arcade
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 175);	--King Starfire: Explore
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 288);	--King Starfire: Arcade
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 181);	--Starfire: Explore
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 296);	--Starfire: Arcade
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 177);	--King Starfire: Explore
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 290);	--King Starfire: Arcade
 
 
 --Dragon Pot	--CardIndex 716	--UtilityIndex 67	--ExploreIndex 49	--ExploreCreepIndex	--ExploreTrapIndex
@@ -700,10 +700,10 @@ insert into Utilities (CardIndex, UtilityDescription) VALUES (716, '2ST, 2x2');
 insert into Explores (UtilityIndex) VALUES (67);
 insert into ExploreCreeps (ExploreIndex, CreepNumber) VALUES (49, 0);
 insert into AbilityAssignments (ExploreTrapIndex, AbilityIndex) VALUES (49, 189);--Boom
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 179);	--Starfire: Explore
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 294);	--Starfire: Arcade
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 175);	--King Starfire: Explore
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 288);	--King Starfire: Arcade
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 181);	--Starfire: Explore
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 296);	--Starfire: Arcade
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 177);	--King Starfire: Explore
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 290);	--King Starfire: Arcade
 
 
 --Dwarven Ale	--CardIndex 717	--UtilityIndex 68	--ExploreIndex 50	--ExploreCreepIndex	--ExploreTrapIndex
@@ -716,10 +716,10 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Utilities (CardIndex, UtilityDescription) VALUES (717, 'When the spawning point is destroyed, all Heroes remove all wound tokens, and then suffer POISON.');
 insert into Explores (UtilityIndex) VALUES (68);
 insert into ExploreCreeps (ExploreIndex, CreepNumber) VALUES (50, 3);
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 179);	--Starfire: Explore
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 294);	--Starfire: Arcade
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 175);	--King Starfire: Explore
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 288);	--King Starfire: Arcade
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 181);	--Starfire: Explore
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 296);	--Starfire: Arcade
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 177);	--King Starfire: Explore
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 290);	--King Starfire: Arcade
 
 
 --Kidnapped Villager	--CardIndex 718	--UtilityIndex 69	--ExploreIndex 51	--ExploreCreepIndex	--ExploreTrapIndex
@@ -732,10 +732,10 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Utilities (CardIndex, UtilityDescription) VALUES (718, 'When the mini-boss is destroyed, draw one additional treasure card.');
 insert into Explores (UtilityIndex) VALUES (69);
 insert into ExploreCreeps (ExploreIndex, CreepNumber) VALUES (51, 2);
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 179);	--Starfire: Explore
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 294);	--Starfire: Arcade
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 175);	--King Starfire: Explore
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 288);	--King Starfire: Arcade
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 181);	--Starfire: Explore
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 296);	--Starfire: Arcade
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 177);	--King Starfire: Explore
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 290);	--King Starfire: Arcade
 
 
 --Molten Steel	--CardIndex 719	--UtilityIndex 70	--ExploreIndex 52	--ExploreCreepIndex	--ExploreTrapIndex
@@ -749,10 +749,10 @@ insert into Utilities (CardIndex, UtilityDescription) VALUES (719, '2ST, 1x4');
 insert into Explores (UtilityIndex) VALUES (70);
 insert into ExploreCreeps (ExploreIndex, CreepNumber) VALUES (52, 0);
 insert into AbilityAssignments (ExploreTrapIndex, AbilityIndex) VALUES (52, 437);--Melty Weapons
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 179);	--Starfire: Explore
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 294);	--Starfire: Arcade
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 175);	--King Starfire: Explore
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 288);	--King Starfire: Arcade
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 181);	--Starfire: Explore
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 296);	--Starfire: Arcade
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 177);	--King Starfire: Explore
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 290);	--King Starfire: Arcade
 
 
 --Mountain of Gold	--CardIndex 720	--UtilityIndex 71	--ExploreIndex 53	--ExploreCreepIndex	--ExploreTrapIndex
@@ -765,10 +765,10 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Utilities (CardIndex, UtilityDescription) VALUES (720, 'Until the spawning point is destroyed all models halve their movement, rounding up.  This effect does not stack with SLOW.');
 insert into Explores (UtilityIndex) VALUES (71);
 insert into ExploreCreeps (ExploreIndex, CreepNumber) VALUES (53, 2);
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 179);	--Starfire: Explore
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 294);	--Starfire: Arcade
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 175);	--King Starfire: Explore
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 288);	--King Starfire: Arcade
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 181);	--Starfire: Explore
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 296);	--Starfire: Arcade
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 177);	--King Starfire: Explore
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 290);	--King Starfire: Arcade
 
 
 --New Player	--CardIndex 721	--UtilityIndex 72	--ExploreIndex 54	--ExploreCreepIndex	--ExploreTrapIndex
@@ -781,10 +781,10 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Utilities (CardIndex, UtilityDescription) VALUES (721, 'Choose one Hero that is not being played and place it in the tile.  It may be activated once during any Hero''s Turn.  Then remove it from play.');
 insert into Explores (UtilityIndex) VALUES (72);
 insert into ExploreCreeps (ExploreIndex, CreepNumber) VALUES (54, 1);
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 179);	--Starfire: Explore
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 294);	--Starfire: Arcade
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 175);	--King Starfire: Explore
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 288);	--King Starfire: Arcade
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 181);	--Starfire: Explore
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 296);	--Starfire: Arcade
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 177);	--King Starfire: Explore
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 290);	--King Starfire: Arcade
 
 
 --Sacrificial Altar	--CardIndex 722	--UtilityIndex 73	--ExploreIndex 55	--ExploreCreepIndex	--ExploreTrapIndex
@@ -798,10 +798,10 @@ insert into Utilities (CardIndex, UtilityDescription) VALUES (722, 'Choose one H
 insert into Explores (UtilityIndex) VALUES (73);
 insert into ExploreCreeps (ExploreIndex, CreepNumber) VALUES (55, 0);
 insert into AbilityAssignments (ExploreTrapIndex, AbilityIndex) VALUES (55, 458);	--Offering
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 179);	--Starfire: Explore
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 294);	--Starfire: Arcade
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 175);	--King Starfire: Explore
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 288);	--King Starfire: Arcade
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 181);	--Starfire: Explore
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 296);	--Starfire: Arcade
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 177);	--King Starfire: Explore
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 290);	--King Starfire: Arcade
 
 
 --Abandoned Mine Shaft	--CardIndex 723	--UtilityIndex 74	--ExploreIndex 56	--ExploreCreepIndex	--ExploreTrapIndex
@@ -900,10 +900,10 @@ insert into Utilities (CardIndex, UtilityDescription) VALUES (729, '2ST, 2x2');
 insert into Explores (UtilityIndex) VALUES (80);
 insert into ExploreCreeps (ExploreIndex, CreepNumber) VALUES (62, 0);
 insert into AbilityAssignments (ExploreTrapIndex, AbilityIndex) VALUES (62, 209);--Brittle Bone
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 180);	--Von Drakk: Explore
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 295);	--Von Drakk: Arcade
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 176);	--Nocturne: Explore
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 289);	--Nocturne: Arcade
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 182);	--Von Drakk: Explore
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 297);	--Von Drakk: Arcade
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 178);	--Nocturne: Explore
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 291);	--Nocturne: Arcade
 
 
 --Cackling Laughter	--CardIndex 730	--UtilityIndex 81	--ExploreIndex 63	--ExploreCreepIndex	--ExploreTrapIndex
@@ -916,10 +916,10 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Utilities (CardIndex, UtilityDescription) VALUES (730, 'Players who cackle maniacally when making offense rolls may add +1B to the roll.');
 insert into Explores (UtilityIndex) VALUES (81);
 insert into ExploreCreeps (ExploreIndex, CreepNumber) VALUES (63, 2);
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 180);	--Von Drakk: Explore
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 295);	--Von Drakk: Arcade
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 176);	--Nocturne: Explore
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 289);	--Nocturne: Arcade
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 182);	--Von Drakk: Explore
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 297);	--Von Drakk: Arcade
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 178);	--Nocturne: Explore
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 291);	--Nocturne: Arcade
 
 
 --Ghost Well	--CardIndex 731	--UtilityIndex 82	--ExploreIndex 64	--ExploreCreepIndex	--ExploreTrapIndex
@@ -932,10 +932,10 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Utilities (CardIndex, UtilityDescription) VALUES (731, 'All models ignore walls and structures for purposes of line of sight and movement.');
 insert into Explores (UtilityIndex) VALUES (82);
 insert into ExploreCreeps (ExploreIndex, CreepNumber) VALUES (64, 2);
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 180);	--Von Drakk: Explore
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 295);	--Von Drakk: Arcade
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 176);	--Nocturne: Explore
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 289);	--Nocturne: Arcade
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 182);	--Von Drakk: Explore
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 297);	--Von Drakk: Arcade
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 178);	--Nocturne: Explore
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 291);	--Nocturne: Arcade
 
 
 --Hidden Lever	--CardIndex 732	--UtilityIndex 83	--ExploreIndex 65	--ExploreCreepIndex	--ExploreTrapIndex
@@ -948,10 +948,10 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Utilities (CardIndex, UtilityDescription) VALUES (732, 'Rotate the tile 90 degrees clockwise.');
 insert into Explores (UtilityIndex) VALUES (83);
 insert into ExploreCreeps (ExploreIndex, CreepNumber) VALUES (65, 0);
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 180);	--Von Drakk: Explore
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 295);	--Von Drakk: Arcade
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 176);	--Nocturne: Explore
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 289);	--Nocturne: Arcade
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 182);	--Von Drakk: Explore
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 297);	--Von Drakk: Arcade
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 178);	--Nocturne: Explore
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 291);	--Nocturne: Arcade
 
 
 --Secret Passsage	--CardIndex 733	--UtilityIndex 84	--ExploreIndex 66	--ExploreCreepIndex	--ExploreTrapIndex
@@ -964,10 +964,10 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Utilities (CardIndex, UtilityDescription) VALUES (733, 'Heroes place one token in a square on this tile and one in any other tile.  These squares count as Secret Passage Tile Effects for the rest of game.');
 insert into Explores (UtilityIndex) VALUES (84);
 insert into ExploreCreeps (ExploreIndex, CreepNumber) VALUES (66, 3);
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 180);	--Von Drakk: Explore
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 295);	--Von Drakk: Arcade
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 176);	--Nocturne: Explore
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 289);	--Nocturne: Arcade
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 182);	--Von Drakk: Explore
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 297);	--Von Drakk: Arcade
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 178);	--Nocturne: Explore
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 291);	--Nocturne: Arcade
 
 
 --Sore Thumbs	--CardIndex 734	--UtilityIndex 85	--ExploreIndex 67	--ExploreCreepIndex	--ExploreTrapIndex
@@ -980,10 +980,10 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Utilities (CardIndex, UtilityDescription) VALUES (734, 'No models may use unique actions.');
 insert into Explores (UtilityIndex) VALUES (85);
 insert into ExploreCreeps (ExploreIndex, CreepNumber) VALUES (67, 1);
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 180);	--Von Drakk: Explore
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 295);	--Von Drakk: Arcade
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 176);	--Nocturne: Explore
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 289);	--Nocturne: Arcade
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 182);	--Von Drakk: Explore
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 297);	--Von Drakk: Arcade
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 178);	--Nocturne: Explore
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 291);	--Nocturne: Arcade
 
 
 --Soul Spike	--CardIndex 735	--UtilityIndex 86	--ExploreIndex 68	--ExploreCreepIndex	--ExploreTrapIndex
@@ -996,10 +996,10 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Utilities (CardIndex, UtilityDescription) VALUES (735, 'Spawning Point gains Backlash.  (If a model with Backlash exceeds an offense roll with their defense roll the attacker takes one wound.)');
 insert into Explores (UtilityIndex) VALUES (86);
 insert into ExploreCreeps (ExploreIndex, CreepNumber) VALUES (68, 3);
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 180);	--Von Drakk: Explore
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 295);	--Von Drakk: Arcade
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 176);	--Nocturne: Explore
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 289);	--Nocturne: Arcade
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 181);	--Von Drakk: Explore
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 297);	--Von Drakk: Arcade
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 178);	--Nocturne: Explore
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 291);	--Nocturne: Arcade
 
 
 --Webs	--CardIndex 736	--UtilityIndex 87	--ExploreIndex 68	--ExploreCreepIndex	--ExploreTrapIndex
@@ -1013,8 +1013,8 @@ insert into Utilities (CardIndex, UtilityDescription) VALUES (736, '1ST, 2x2');
 insert into Explores (UtilityIndex) VALUES (87);
 insert into ExploreCreeps (ExploreIndex, CreepNumber) VALUES (69, 0);
 insert into AbilityAssignments (ExploreTrapIndex, AbilityIndex) VALUES (69, 597);	--Sticky
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 180);	--Von Drakk: Explore
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 295);	--Von Drakk: Arcade
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 176);	--Nocturne: Explore
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 289);	--Nocturne: Arcade
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 181);	--Von Drakk: Explore
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 297);	--Von Drakk: Arcade
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 178);	--Nocturne: Explore
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 291);	--Nocturne: Arcade
 
