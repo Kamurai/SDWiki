@@ -6,6 +6,6 @@ create PROCEDURE SDWikiPullOneExploreCard(
 AS
 BEGIN
 	select * 
-	from ExploresView
+	from ExploreCardsView
 	where Link = @intCardLink;
 END

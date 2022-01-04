@@ -7,6 +7,7 @@ public class BossSpawn extends Card implements CharacterInterface{
     private String dungeonEffect;
     private String bossSpawnEffect;
     private String timeoutEffect;
+    
     private String characterName;
     private String characterLink;
     
@@ -106,5 +107,4 @@ public class BossSpawn extends Card implements CharacterInterface{
     public void addCharacter(String name, String version, String link, String picture){
         characterList.add(new NavItem(name, version, link, picture));
     }
-    
 }

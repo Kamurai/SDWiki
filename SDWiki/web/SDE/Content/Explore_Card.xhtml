@@ -41,22 +41,23 @@
                     </div>
                 </div>
             </div>
-            
-            
-            
-            
-            
-            
-            
+            <ui:fragment rendered="#{SDEExploreCardBean.getExploreCard().getCreepNumber() > 0}">
+                <div>
+                    Creep Number: #{SDEExploreCardBean.getExploreCard().getCreepNumber()}
+                </div>
+            </ui:fragment>
+            <ui:fragment rendered="#{SDEExploreCardBean.getExploreCard().getTrapDefense() > 0}">
+                <div>
+                    Trap Defense: #{SDEExploreCardBean.getExploreCard().getTrapDefense()}
+                </div>
+                <div>
+                    Trap Layout #{SDEExploreCardBean.getExploreCard().getTrapLayout()}
+                </div>
+            </ui:fragment>
             <div>
                 Card Effect: #{SDEExploreCardBean.getExploreCard().getDescription()}
             </div>
-            
-            
-            
-            
-            
-            <ui:fragment rendered="#{SDEExploreCardBean.getBossSpawn().validateCharacterList()}">
+            <ui:fragment rendered="#{SDEExploreCardBean.getExploreCard().validateCharacterList()}">
                 Related Character(s):<br/>
                 <ui:repeat var="x" value="#{SDEExploreCardBean.getCharacterList()}" size="#{SDEExploreCardBean.getCharacterList().size()}" varStatus="myVarStatus" >
                     <div class="relatedCharacterBlock">
@@ -69,9 +70,6 @@
                     </div>
                 </ui:repeat>
             </ui:fragment>
-            
-            
-            
             <c:if test="#{ SDEExploreCardBean.getExploreCard().validateFlavor() }">
                 <div>
                     Flavor Text: #{SDEExploreCardBean.getExploreCard().getFlavor()}

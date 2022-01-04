@@ -22,7 +22,7 @@ public class ExploreCardBean extends CardBean{
         this.exploreCardList    = new ArrayList<SDE.NavItem>();
     }
 
-    public UtilityCard getExploreCard() {
+    public ExploreCard getExploreCard() {
         return exploreCard;
     }
 
@@ -33,7 +33,7 @@ public class ExploreCardBean extends CardBean{
         if(path.compareTo("") != 0){
             this.exploreCard  = oneDAO.pullOneExploreCard(path);
         }
-        this.exploreCardList  = navDAO.pullNavigationForExploreCards(exploreCard.getVersion());
+//        this.exploreCardList  = navDAO.pullNavigationForExploreCards(exploreCard.getVersion());
         
         return "./Layout.xhtml";
     }

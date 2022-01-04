@@ -13,5 +13,5 @@ SDWiki/nbproject/private/private.properties
 /SDDirectory/dist/
 /SDLexicon/nbproject/private/
 /SDLexicon/build/
-SDWiki/build/web/WEB-INF/web.xml
-SDWiki/build/web/Layout.xhtml
+SDWiki/build/web/WEB-INF/
+SDWiki/build/web/WEB-INF/classes
