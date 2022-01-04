@@ -42,7 +42,7 @@ public class BossSpawnBean extends CardBean{
         if(path.compareTo("") != 0){
             this.bossSpawn   = oneDAO.pullOneBossSpawnCard(path);
         }
-        this.bossSpawnList  = navDAO.pullNavigationForBossSpawns(version);
+//        this.bossSpawnList  = navDAO.pullNavigationForBossSpawns(version);
         
         return "./Layout.xhtml";
     }
