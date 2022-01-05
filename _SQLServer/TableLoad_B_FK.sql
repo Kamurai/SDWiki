@@ -10483,7 +10483,7 @@ insert into AbilityAssignments (ExploreTrapIndex, AbilityIndex) VALUES (16, 398)
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Antidote',
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Specific/Beatrix_the_Witch_Queen/Card_Explore_Antidote_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
-'http://htkb.online/SDWiki/SDE/FK/Cards/Explore_Cards/Antidote.xhtml', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Explore_Cards/Beatrix_the_Witch_Queen/Antidote.xhtml', 
 'Explore Card', 'FK', 'FK Core Set', 'Default', 
 'Blue ones are good right?');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (684, 'Place card in the backpack.  The party may discard this card at any time to remove one status effect token from every friendly model.');
