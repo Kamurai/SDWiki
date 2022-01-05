@@ -12845,7 +12845,7 @@ insert into AbilityAssignments (ExploreTrapIndex, AbilityIndex) VALUES (16, 398)
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Antidote',
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Specific/Beatrix_the_Witch_Queen/Card_Explore_Antidote_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
-'http://htkb.online/SDWiki/SDE/FK/Cards/Explore_Cards/Beatrix_the_Witch_Queen/Antidote.xhtml', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Explore_Cards/Specific/Beatrix_the_Witch_Queen/Antidote.xhtml', 
 'Explore Card', 'FK', 'FK Core Set', 'Default', 
 'Blue ones are good right?');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (684, 'Place card in the backpack.  The party may discard this card at any time to remove one status effect token from every friendly model.');
@@ -12859,7 +12859,7 @@ insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (17, 287);	
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Broken Harpsichord',
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Specific/Beatrix_the_Witch_Queen/Card_Explore_Broken_Harpsichord_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
-'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Explore/Broken_Harpsichord.xhtml', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Explore_Cards/Beatrix_the_Witch_Queen/Broken_Harpsichord.xhtml', 
 'Explore Card', 'FK', 'FK Core Set', 'Default', 
 'The music is really creepy.');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (685, 'All Heroes suffer slow.');
@@ -12873,7 +12873,7 @@ insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (18, 287);	
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Bubbling Cauldron',
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Specific/Beatrix_the_Witch_Queen/Card_Explore_Bubbling_Cauldron_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
-'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Explore/Bubbling_Cauldron.xhtml', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Explore_Cards/Beatrix_the_Witch_Queen/Bubbling_Cauldron.xhtml', 
 'Explore Card', 'FK', 'FK Core Set', 'Default', 
 'Don''t drink that!');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (686, '3ST, 2x2');
@@ -12888,7 +12888,7 @@ insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (19, 287);	
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Glitched Doorway',
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Specific/Beatrix_the_Witch_Queen/Card_Explore_Glitched_Doorway_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
-'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Explore/Glitched_Doorway.xhtml', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Explore_Cards/Beatrix_the_Witch_Queen/Glitched_Doorway.xhtml', 
 'Explore Card', 'FK', 'FK Core Set', 'Default', 
 'I don''t think this wall is real.');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (687, 'Models may move through walls on this tile''s edge.  Line of sight is blocked as normal.');
@@ -12902,7 +12902,7 @@ insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (20, 287);	
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Grave Robbers',
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Specific/Beatrix_the_Witch_Queen/Card_Explore_Grave_Robbers_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
-'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Explore/Grave_Robbers.xhtml', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Explore_Cards/Beatrix_the_Witch_Queen/Grave_Robbers.xhtml', 
 'Explore Card', 'FK', 'FK Core Set', 'Default', 
 'Should we be doing this?');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (688, 'A Hero may draw up to four loot cards during their turn.');
@@ -12916,7 +12916,7 @@ insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (21, 287);	
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Pumpkin Mines',
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Specific/Beatrix_the_Witch_Queen/Card_Explore_Pumpkin_Mines_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
-'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Explore/Pumpkin_Mines.xhtml', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Explore_Cards/Beatrix_the_Witch_Queen/Pumpkin_Mines.xhtml', 
 'Explore Card', 'FK', 'FK Core Set', 'Default', 
 'Watch your step.');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (689, '1St, 2x2');
@@ -12931,7 +12931,7 @@ insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (22, 287);	
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Pumpkin Pie',
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Specific/Beatrix_the_Witch_Queen/Card_Explore_Pumpkin_Pie_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
-'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Explore/Pumpkin_Pie.xhtml', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Explore_Cards/Beatrix_the_Witch_Queen/Pumpkin_Pie.xhtml', 
 'Explore Card', 'FK', 'FK Core Set', 'Default', 
 'Best gnome invention ever!');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (690, 'Place card in the backpack.  The party may discard this card at any time to remove one wound token from every friendly model.');
@@ -12945,7 +12945,7 @@ insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (23, 287);	
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Bramble Wall',
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Specific/Forgotten_King_The/Card_Explore_Bramble_Wall_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
-'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Explore/Bramble_Wall.xhtml', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Explore_Cards/Forgotten_King_The/Bramble_Wall.xhtml', 
 'Explore Card', 'FK', 'FK Core Set', 'Default', 
 'Do you see a way around?');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (691, '2ST, 1x4');
@@ -12960,7 +12960,7 @@ insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (24, 288);	
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Corrupted Tree',
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Specific/Forgotten_King_The/Card_Explore_Corrupted_Tree_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
-'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Explore/Corrupted_Tree.xhtml', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Explore_Cards/Forgotten_King_The/Corrupted_Tree.xhtml', 
 'Explore Card', 'FK', 'FK Core Set', 'Default', 
 'I think that tree just moved.');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (692, '3ST, 2x2');
@@ -12975,7 +12975,7 @@ insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (25, 288);	
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Dancing Light',
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Specific/Forgotten_King_The/Card_Explore_Dancing_Light_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
-'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Explore/Dancing_Light.xhtml', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Explore_Cards/Forgotten_King_The/Dancing_Light.xhtml', 
 'Explore Card', 'FK', 'FK Core Set', 'Default', 
 '');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (693, '0ST, 2x2, Heroes must always end their activation closer to a Dancing Light template than they began.  If a Hero ends their activation adjacent to a Dancingt Light template remove the template from play.');
@@ -12989,7 +12989,7 @@ insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (26, 288);	
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Faerie Pool',
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Specific/Forgotten_King_The/Card_Explore_Faerie_Pool_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
-'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Explore/Faerie_Pool.xhtml', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Explore_Cards/Forgotten_King_The/Faerie_Pool.xhtml', 
 'Explore Card', 'FK', 'FK Core Set', 'Default', 
 'You caught a faerie!');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (694, 'After the spawning point is destroyed all Heroes remove one wound token.');
@@ -13003,7 +13003,7 @@ insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (27, 288);	
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Friendly Chimera',
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Specific/Forgotten_King_The/Card_Explore_Friendly_Chimera_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
-'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Explore/Friendly_Chimera.xhtml', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Explore_Cards/Forgotten_King_The/Friendly_Chimera.xhtml', 
 'Explore Card', 'FK', 'FK Core Set', 'Default', 
 'They''re so adorable!');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (695, 'Hero players choose, spawn, and control all creep models on this tile, instead of the Consul.  Creeps may be activated during the Hero Turn in addition to any other models.');
