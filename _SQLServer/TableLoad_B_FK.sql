@@ -10483,7 +10483,7 @@ insert into AbilityAssignments (ExploreTrapIndex, AbilityIndex) VALUES (16, 398)
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Antidote',
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Specific/Beatrix_the_Witch_Queen/Card_Explore_Antidote_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
-'http://htkb.online/SDWiki/SDE/FK/Cards/Explore_Cards/Specific/Beatrix_the_Witch_Queen/Antidote.xhtml', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Explore_Cards/Beatrix_the_Witch_Queen/Antidote.xhtml', 
 'Explore Card', 'FK', 'FK Core Set', 'Default', 
 'Blue ones are good right?');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (684, 'Place card in the backpack.  The party may discard this card at any time to remove one status effect token from every friendly model.');
@@ -10655,7 +10655,7 @@ insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (28, 288);	
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Gypsy Princess',
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Specific/Forgotten_King_The/Card_Explore_Gypsy_Princess_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
-'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Explore/Gypsy_Princess.xhtml', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Explore_Cards/Forgotten_King_The/Gypsy_Princess.xhtml', 
 'Explore Card', 'FK', 'FK Core Set', 'Default', 
 'Why hello there.');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (696, 'Human, Freyjan, and Demon Heroes add +1ST to all offense rolls.');
@@ -10669,7 +10669,7 @@ insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (29, 288);	
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Lost Unicorn',
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Specific/Forgotten_King_The/Card_Explore_Lost_Unicorn_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
-'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Explore/Lost_Unicorn.xhtml', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Explore_Cards/Forgotten_King_The/Lost_Unicorn.xhtml', 
 'Explore Card', 'FK', 'FK Core Set', 'Default', 
 'So I like unicorns...');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (697, 'Elf, Celestian, Dwarf, and Gnome Heroes add +1ST to all defense rolls.');
@@ -10683,7 +10683,7 @@ insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (30, 288);	
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Mistmourn Fog',
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Specific/Forgotten_King_The/Card_Explore_Mistmourn_Fog_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
-'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Explore/Mistmourn_Fog.xhtml', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Explore_Cards/Forgotten_King_The/Mistmourn_Fog.xhtml', 
 'Explore Card', 'FK', 'FK Core Set', 'Default', 
 'Can any of you see anything?');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (698, 'All ranges are reduced by 3 to a minimum of 1.');
@@ -10697,7 +10697,7 @@ insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (31, 288);	
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Berry Patch',
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Specific/Goro/Card_Explore_Berry_Patch_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
-'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Explore/Berry_Patch.xhtml', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Explore_Cards/Goro/Berry_Patch.xhtml', 
 'Explore Card', 'FK', 'FK Core Set', 'Default', 
 'Don''t eat those.');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (699, '1ST, 2x2');
@@ -10712,7 +10712,7 @@ insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (32, 289);	
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Campfire',
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Specific/Goro/Card_Explore_Campfire_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
-'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Explore/Campfire.xhtml', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Explore_Cards/Goro/Campfire.xhtml', 
 'Explore Card', 'FK', 'FK Core Set', 'Default', 
 'They''re scared of the flame.');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (700, 'Heroes gain the ability FIRE.');
@@ -10726,7 +10726,7 @@ insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (33, 289);	
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Dirty Bison',
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Specific/Goro/Card_Explore_Dirty_Bison_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
-'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Explore/Dirty_Bison.xhtml', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Explore_Cards/Goro/Dirty_Bison.xhtml', 
 'Explore Card', 'FK', 'FK Core Set', 'Default', 
 'After a nice bath, you found a pet!');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (701, 'Add one pet, of the Heroes'' choice, to the backpack.  If its card is in the treasure deck remove it and reshuffle the deck.');
@@ -10740,7 +10740,7 @@ insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (34, 289);	
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Downpour',
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Specific/Goro/Card_Explore_Downpour_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
-'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Explore/Downpour.xhtml', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Explore_Cards/Goro/Downpour.xhtml', 
 'Explore Card', 'FK', 'FK Core Set', 'Default', 
 'Hurry and we won''t get wet!');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (702, 'All models gain IMMUNE: FIRE and +2MO.');
@@ -10754,7 +10754,7 @@ insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (35, 289);	
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Faery Queen',
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Specific/Goro/Card_Explore_Faery_Queen_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
-'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Explore/Faery_Queen.xhtml', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Explore_Cards/Goro/Faery_Queen.xhtml', 
 'Explore Card', 'FK', 'FK Core Set', 'Default', 
 'Ah-hah-hah-ha!');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (703, 'All Heroes roll 1B for every wound token on their model.  Remove one wound token for every star rolled.');
@@ -10768,7 +10768,7 @@ insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (36, 289);	
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Giant Centipede',
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Specific/Goro/Card_Explore_Giant_Centipede_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
-'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Explore/Giant_Centipede.xhtml', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Explore_Cards/Goro/Giant_Centipede.xhtml', 
 'Explore Card', 'FK', 'FK Core Set', 'Default', 
 '');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (704, '4ST, 1x4');
@@ -10783,7 +10783,7 @@ insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (37, 289);	
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Howling Wind',
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Specific/Goro/Card_Explore_Howling_Wind_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
-'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Explore/Howling_Wind.xhtml', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Explore_Cards/Goro/Howling_Wind.xhtml', 
 'Explore Card', 'FK', 'FK Core Set', 'Default', 
 'I can''t hear you!');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (705, 'Players controlling Heroes in this tile may not speak to other players while their model remains in the tile.');
@@ -10797,7 +10797,7 @@ insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (38, 289);	
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Respec',
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Specific/Goro/Card_Explore_Respec_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
-'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Explore/Respec.xhtml', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Explore_Cards/Goro/Respec.xhtml', 
 'Explore Card', 'FK', 'FK Core Set', 'Default', 
 'Lets try this again.');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (706, 'Remove all equipment from all Heroes and discard it.  Heroes may immediately equip any equipment from the loot or treasure discard piles.');
@@ -10811,7 +10811,7 @@ insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (39, 289);	
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('1-Up',
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Specific/Roxor/Card_Explore_1_Up_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
-'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Explore/1_Up.xhtml', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Explore_Cards/Roxor/1_Up.xhtml', 
 'Explore Card', 'FK', 'FK Core Set', 'Default', 
 'Save this for later.');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (707, 'Add one Princess Coin to the party''s backpack.');
@@ -10828,7 +10828,7 @@ insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (40, 295); 
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Dusty Cartridge',
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Specific/Roxor/Card_Explore_Dusty_Cartridge_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
-'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Explore/Dusty_Cartridge.xhtml', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Explore_Cards/Roxor/Dusty_Cartridge.xhtml', 
 'Explore Card', 'FK', 'FK Core Set', 'Default', 
 'Blow on it.');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (708, 'Choose one Hero.  All monsters within 3 squares suffer KNOCKDOWN.');
@@ -10845,7 +10845,7 @@ insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (41, 295); 
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Fire Flowers',
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Specific/Roxor/Card_Explore_Fire_Flowers_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
-'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Explore/Fire_Flowers.xhtml', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Explore_Cards/Roxor/Fire_Flowers.xhtml', 
 'Explore Card', 'FK', 'FK Core Set', 'Default', 
 'Danger.  Do not sniff the flowers.');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (709, '1ST, 2x2');
@@ -10863,7 +10863,7 @@ insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (42, 295); 
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Funny Costumes',
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Specific/Roxor/Card_Explore_Funny_Costumes_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
-'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Explore/Funny_Costumes.xhtml', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Explore_Cards/Roxor/Funny_Costumes.xhtml', 
 'Explore Card', 'FK', 'FK Core Set', 'Default', 
 'You look adorable.');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (710, 'When a Hero enters this tile they may draw one treasure card.  They may use the treasure card exactly as if it were equipped.  Discard the card after leaving the tile.');
@@ -10880,7 +10880,7 @@ insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (43, 295); 
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Heroic Princess',
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Specific/Roxor/Card_Explore_Heroic_Princess_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
-'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Explore/Heroic_Princess.xhtml', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Explore_Cards/Roxor/Heroic_Princess.xhtml', 
 'Explore Card', 'FK', 'FK Core Set', 'Default', 
 'Well done princess!');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (711, 'After destroying this tile''s mini-boss add one Princess Coin to the party''s backpack.');
@@ -10897,7 +10897,7 @@ insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (44, 295); 
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Pixelated',
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Specific/Roxor/Card_Explore_Pixelated_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
-'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Explore/Pixelated.xhtml', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Explore_Cards/Roxor/Pixelated.xhtml', 
 'Explore Card', 'FK', 'FK Core Set', 'Default', 
 'Go straight, please.');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (712, 'Heroes cannot move diagonally.');
@@ -10914,7 +10914,7 @@ insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (45, 295); 
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('POW!',
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Specific/Roxor/Card_Explore_Pow_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
-'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Explore/Pow.xhtml', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Explore_Cards/Roxor/Pow.xhtml', 
 'Explore Card', 'FK', 'FK Core Set', 'Default', 
 'Right in the kisser!');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (713, '3ST. 2x2');
@@ -10932,7 +10932,7 @@ insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (46, 295); 
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Stone Wall',
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Specific/Roxor/Card_Explore_Stone_Wall_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
-'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Explore/Stone_Wall.xhtml', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Explore_Cards/Roxor/Stone_Wall.xhtml', 
 'Explore Card', 'FK', 'FK Core Set', 'Default', 
 'It''s solid rock.');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (714, '5ST, 1x4, Models may not move or draw line of sight through Stone Wall template.  When Stone Wall is triggered its effect continues until disarmed.');
@@ -10949,7 +10949,7 @@ insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (47, 295); 
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Burglar''s Ring',
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Specific/Starfire/Card_Explore_Burglars_Ring_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
-'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Explore/Burglars_Ring.xhtml', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Explore_Cards/Starfire/Burglars_Ring.xhtml', 
 'Explore Card', 'FK', 'FK Core Set', 'Default', 
 'Can''t see me.');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (715, 'Choose one Hero.  An enemy model may only target that Hero if it is within 1 square of the model.');
@@ -10965,7 +10965,7 @@ insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 290);	
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Dragon Pot',
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Specific/Starfire/Card_Explore_Dragon_Pot_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
-'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Explore/Dragon_Pot.xhtml', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Explore_Cards/Starfire/Dragon_Pot.xhtml', 
 'Explore Card', 'FK', 'FK Core Set', 'Default', 
 'Smells of sulfur.');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (716, '2ST, 2x2');
@@ -10982,7 +10982,7 @@ insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 290);	
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Dwarven Ale',
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Specific/Starfire/Card_Explore_Dwarven_Ale_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
-'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Explore/Dwarven_Ale.xhtml', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Explore_Cards/Starfire/Dwarven_Ale.xhtml', 
 'Explore Card', 'FK', 'FK Core Set', 'Default', 
 'That''s a good brew!');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (717, 'When the spawning point is destroyed, all Heroes remove all wound tokens, and then suffer POISON.');
@@ -10998,7 +10998,7 @@ insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 290);	
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Kidnapped Villager',
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Specific/Starfire/Card_Explore_Kidnapped_Villager_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
-'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Explore/Kidnapped_Villager.xhtml', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Explore_Cards/Starfire/Kidnapped_Villager.xhtml', 
 'Explore Card', 'FK', 'FK Core Set', 'Default', 
 'You deserve a reward!');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (718, 'When the mini-boss is destroyed, draw one additional treasure card.');
@@ -11014,7 +11014,7 @@ insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 290);	
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Molten Steel',
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Specific/Starfire/Card_Explore_Molten_Steel_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
-'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Explore/Molten_Steel.xhtml', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Explore_Cards/Starfire/Molten_Steel.xhtml', 
 'Explore Card', 'FK', 'FK Core Set', 'Default', 
 'My sword is bendy.');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (719, '2ST, 1x4');
@@ -11031,7 +11031,7 @@ insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 290);	
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Mountain of Gold',
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Specific/Starfire/Card_Explore_Mountain_of_Gold_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
-'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Explore/Mountain_of_Gold.xhtml', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Explore_Cards/Starfire/Mountain_of_Gold.xhtml', 
 'Explore Card', 'FK', 'FK Core Set', 'Default', 
 'So tall.');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (720, 'Until the spawning point is destroyed all models halve their movement, rounding up.  This effect does not stack with SLOW.');
@@ -11047,7 +11047,7 @@ insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 290);	
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('New Player',
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Specific/Starfire/Card_Explore_New_Player_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
-'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Explore/New_Player.xhtml', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Explore_Cards/Starfire/New_Player.xhtml', 
 'Explore Card', 'FK', 'FK Core Set', 'Default', 
 'Anyone know who this is?');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (721, 'Choose one Hero that is not being played and place it in the tile.  It may be activated once during any Hero''s Turn.  Then remove it from play.');
@@ -11063,7 +11063,7 @@ insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 290);	
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Sacrificial Altar',
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Specific/Starfire/Card_Explore_Sacrificial_Altar_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
-'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Explore/Sacrificial_Altar.xhtml', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Explore_Cards/Starfire/Sacrificial_Altar.xhtml', 
 'Explore Card', 'FK', 'FK Core Set', 'Default', 
 'Give to the Dragon.');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (722, 'Choose one Hero.  An enemy model may only target that Hero if it is within 1 square of the model.');
@@ -11080,7 +11080,7 @@ insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 290);	
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Abandoned Mine Shaft',
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Specific/Testudo_Tower/Card_Explore_Abandoned_Mine_Shaft_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
-'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Explore/Abandoned_Mine_Shaft.xhtml', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Explore_Cards/Testudo_Tower/Abandoned_Mine_Shaft.xhtml', 
 'Explore Card', 'FK', 'FK Core Set', 'Default', 
 'Ahhhhhh!!!');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (723, '2ST, 2x2, Place affected Heroes adjacent to the start marker.  Place affected monsters adjacent to the nearest spawning point.');
@@ -11094,7 +11094,7 @@ insert into ExploreCreeps (ExploreIndex, CreepNumber) VALUES (56, 0);
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Bomb Flower',
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Specific/Testudo_Tower/Card_Explore_Bomb_Flower_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
-'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Explore/Bomb_Flower.xhtml', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Explore_Cards/Testudo_Tower/Bomb_Flower.xhtml', 
 'Explore Card', 'FK', 'FK Core Set', 'Default', 
 'Careful where you throw that!');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (724, 'Discard during a Hero''s activation to perform the action:');
@@ -11109,7 +11109,7 @@ insert into AbilityAssignments (ExploreTrapIndex, AbilityIndex) VALUES (57, 308)
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Bumper Shells',
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Specific/Testudo_Tower/Card_Explore_Bumper_Shells_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
-'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Explore/Bumper_Shells.xhtml', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Explore_Cards/Testudo_Tower/Bumper_Shells.xhtml', 
 'Explore Card', 'FK', 'FK Core Set', 'Default', 
 'If I can just get the right angle...');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (725, '1ST, 2x2, When a model is affected by Bumper Shells, its player may move the model 3 squares using the rules for push.');
@@ -11123,7 +11123,7 @@ insert into ExploreCreeps (ExploreIndex, CreepNumber) VALUES (58, 0);
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Handy Tunnel',
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Specific/Testudo_Tower/Card_Explore_Handy_Tunnel_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
-'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Explore/Handy_Tunnel.xhtml', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Explore_Cards/Testudo_Tower/Handy_Tunnel.xhtml', 
 'Explore Card', 'FK', 'FK Core Set', 'Default', 
 'I think it''s safe.');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (720, 'Discard during a Hero''s upkeep.  The Hero may move through walls, and treats difficult terrain and structure squares as open squares until the end of its activation.');
@@ -11137,7 +11137,7 @@ insert into ExploreCreeps (ExploreIndex, CreepNumber) VALUES (59, 1);
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Shell Up',
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Specific/Testudo_Tower/Card_Explore_Shell_Up_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
-'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Explore/Shell_Up.xhtml', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Explore_Cards/Testudo_Tower/Shell_Up.xhtml', 
 'Explore Card', 'FK', 'FK Core Set', 'Default', 
 'Turtle power!');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (727, 'Discard before making a defense roll to add +1R to the roll.');
@@ -11151,7 +11151,7 @@ insert into ExploreCreeps (ExploreIndex, CreepNumber) VALUES (60, 1);
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Testudo Formation',
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Specific/Testudo_Tower/Card_Explore_Testudo_Formation_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
-'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Explore/Testudo_Formation.xhtml', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Explore_Cards/Testudo_Tower/Testudo_Formation.xhtml', 
 'Explore Card', 'FK', 'FK Core Set', 'Default', 
 'Form on me.');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (728, 'Discard during a Hero''s upkeep.  Remove all status effect tokens from the Hero, and all adjacent Heroes.');
@@ -11165,7 +11165,7 @@ insert into ExploreCreeps (ExploreIndex, CreepNumber) VALUES (61, 2);
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Bone Rot',
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Specific/Von_Drakk/Card_Explore_Bone_Rot_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
-'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Explore/Bone_Rot.xhtml', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Explore_Cards/Von_Drakk/Bone_Rot.xhtml', 
 'Explore Card', 'FK', 'FK Core Set', 'Default', 
 'I don''t feel good.');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (729, '2ST, 2x2');
@@ -11182,7 +11182,7 @@ insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 291);	
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Cackling Laughter',
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Specific/Von_Drakk/Card_Explore_Cackling_Laughter_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
-'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Explore/Cackling_Laughter.xhtml', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Explore_Cards/Von_Drakk/Cackling_Laughter.xhtml', 
 'Explore Card', 'FK', 'FK Core Set', 'Default', 
 'That''s just creepy.');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (730, 'Players who cackle maniacally when making offense rolls may add +1B to the roll.');
@@ -11198,7 +11198,7 @@ insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 291);	
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ghost Well',
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Specific/Von_Drakk/Card_Explore_Ghost_Well_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
-'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Explore/Ghost_Well.xhtml', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Explore_Cards/Von_Drakk/Ghost_Well.xhtml', 
 'Explore Card', 'FK', 'FK Core Set', 'Default', 
 'I''m see-through!');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (731, 'All models ignore walls and structures for purposes of line of sight and movement.');
@@ -11214,7 +11214,7 @@ insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 291);	
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Hidden Lever',
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Specific/Von_Drakk/Card_Explore_Hidden_Lever_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
-'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Explore/Hidden_Lever.xhtml', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Explore_Cards/Von_Drakk/Hidden_Lever.xhtml', 
 'Explore Card', 'FK', 'FK Core Set', 'Default', 
 'What do you think this does?');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (732, 'Rotate the tile 90 degrees clockwise.');
@@ -11230,7 +11230,7 @@ insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 291);	
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Secret Passage',
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Specific/Von_Drakk/Card_Explore_Secret_Passage_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
-'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Explore/Secret_Passage.xhtml', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Explore_Cards/Von_Drakk/Secret_Passage.xhtml', 
 'Explore Card', 'FK', 'FK Core Set', 'Default', 
 'It''s dark - you go first.');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (733, 'Heroes place one token in a square on this tile and one in any other tile.  These squares count as Secret Passage Tile Effects for the rest of game.');
@@ -11246,7 +11246,7 @@ insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 291);	
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Sore Thumbs',
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Specific/Von_Drakk/Card_Explore_Sore_Thumbs_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
-'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Explore/Sore_Thumbs.xhtml', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Explore_Cards/Von_Drakk/Sore_Thumbs.xhtml', 
 'Explore Card', 'FK', 'FK Core Set', 'Default', 
 'Take a break.');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (734, 'No models may use unique actions.');
@@ -11262,7 +11262,7 @@ insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 291);	
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Soul Spike',
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Specific/Von_Drakk/Card_Explore_Soul_Spike_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
-'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Explore/Soul_Spike.xhtml', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Explore_Cards/Von_Drakk/Soul_Spike.xhtml', 
 'Explore Card', 'FK', 'FK Core Set', 'Default', 
 'Is it supposed to glow like that?');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (735, 'Spawning Point gains Backlash.  (If a model with Backlash exceeds an offense roll with their defense roll the attacker takes one wound.)');
@@ -11278,7 +11278,7 @@ insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 291);	
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Webs',
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Specific/Von_Drakk/Card_Explore_Webs_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
-'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Explore/Webs.xhtml', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Explore_Cards/Von_Drakk/Webs.xhtml', 
 'Explore Card', 'FK', 'FK Core Set', 'Default', 
 'I can''t get them off.');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (736, '1ST, 2x2');
