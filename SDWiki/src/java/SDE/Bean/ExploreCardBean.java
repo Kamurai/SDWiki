@@ -32,6 +32,8 @@ public class ExploreCardBean extends CardBean{
         
         if(path.compareTo("") != 0){
             this.exploreCard  = oneDAO.pullOneExploreCard(path);
+        }else{
+            System.out.print("No Path.");
         }
 //        this.exploreCardList  = navDAO.pullNavigationForExploreCards(exploreCard.getVersion());
         
