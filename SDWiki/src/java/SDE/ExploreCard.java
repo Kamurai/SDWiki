@@ -10,10 +10,10 @@ public class ExploreCard extends UtilityCard implements AbilityInterface, Charac
     
     private String              characterName;
     private String              characterLink;
+    private List<NavItem> characterList;
     
     private ArrayList<Ability>  abilities;
     
-    private List<NavItem> characterList;
     
     public ExploreCard(){
         super();
