@@ -700,10 +700,10 @@ insert into Utilities (CardIndex, UtilityDescription) VALUES (716, '2ST, 2x2');
 insert into Explores (UtilityIndex) VALUES (67);
 insert into ExploreCreeps (ExploreIndex, CreepNumber) VALUES (49, 0);
 insert into AbilityAssignments (ExploreTrapIndex, AbilityIndex) VALUES (49, 189);--Boom
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 181);	--Starfire: Explore
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 296);	--Starfire: Arcade
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 177);	--King Starfire: Explore
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 290);	--King Starfire: Arcade
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (49, 181);	--Starfire: Explore
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (49, 296);	--Starfire: Arcade
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (49, 177);	--King Starfire: Explore
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (49, 290);	--King Starfire: Arcade
 
 
 --Dwarven Ale	--CardIndex 717	--UtilityIndex 68	--ExploreIndex 50	--ExploreCreepIndex	--ExploreTrapIndex
@@ -716,10 +716,10 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Utilities (CardIndex, UtilityDescription) VALUES (717, 'When the spawning point is destroyed, all Heroes remove all wound tokens, and then suffer POISON.');
 insert into Explores (UtilityIndex) VALUES (68);
 insert into ExploreCreeps (ExploreIndex, CreepNumber) VALUES (50, 3);
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 181);	--Starfire: Explore
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 296);	--Starfire: Arcade
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 177);	--King Starfire: Explore
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 290);	--King Starfire: Arcade
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (50, 181);	--Starfire: Explore
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (50, 296);	--Starfire: Arcade
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (50, 177);	--King Starfire: Explore
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (50, 290);	--King Starfire: Arcade
 
 
 --Kidnapped Villager	--CardIndex 718	--UtilityIndex 69	--ExploreIndex 51	--ExploreCreepIndex	--ExploreTrapIndex
@@ -732,10 +732,10 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Utilities (CardIndex, UtilityDescription) VALUES (718, 'When the mini-boss is destroyed, draw one additional treasure card.');
 insert into Explores (UtilityIndex) VALUES (69);
 insert into ExploreCreeps (ExploreIndex, CreepNumber) VALUES (51, 2);
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 181);	--Starfire: Explore
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 296);	--Starfire: Arcade
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 177);	--King Starfire: Explore
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 290);	--King Starfire: Arcade
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (51, 181);	--Starfire: Explore
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (51, 296);	--Starfire: Arcade
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (51, 177);	--King Starfire: Explore
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (51, 290);	--King Starfire: Arcade
 
 
 --Molten Steel	--CardIndex 719	--UtilityIndex 70	--ExploreIndex 52	--ExploreCreepIndex	--ExploreTrapIndex
@@ -749,10 +749,10 @@ insert into Utilities (CardIndex, UtilityDescription) VALUES (719, '2ST, 1x4');
 insert into Explores (UtilityIndex) VALUES (70);
 insert into ExploreCreeps (ExploreIndex, CreepNumber) VALUES (52, 0);
 insert into AbilityAssignments (ExploreTrapIndex, AbilityIndex) VALUES (52, 437);--Melty Weapons
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 181);	--Starfire: Explore
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 296);	--Starfire: Arcade
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 177);	--King Starfire: Explore
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 290);	--King Starfire: Arcade
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (52, 181);	--Starfire: Explore
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (52, 296);	--Starfire: Arcade
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (52, 177);	--King Starfire: Explore
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (52, 290);	--King Starfire: Arcade
 
 
 --Mountain of Gold	--CardIndex 720	--UtilityIndex 71	--ExploreIndex 53	--ExploreCreepIndex	--ExploreTrapIndex
@@ -765,10 +765,10 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Utilities (CardIndex, UtilityDescription) VALUES (720, 'Until the spawning point is destroyed all models halve their movement, rounding up.  This effect does not stack with SLOW.');
 insert into Explores (UtilityIndex) VALUES (71);
 insert into ExploreCreeps (ExploreIndex, CreepNumber) VALUES (53, 2);
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 181);	--Starfire: Explore
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 296);	--Starfire: Arcade
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 177);	--King Starfire: Explore
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 290);	--King Starfire: Arcade
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (53, 181);	--Starfire: Explore
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (53, 296);	--Starfire: Arcade
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (53, 177);	--King Starfire: Explore
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (53, 290);	--King Starfire: Arcade
 
 
 --New Player	--CardIndex 721	--UtilityIndex 72	--ExploreIndex 54	--ExploreCreepIndex	--ExploreTrapIndex
@@ -781,10 +781,10 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Utilities (CardIndex, UtilityDescription) VALUES (721, 'Choose one Hero that is not being played and place it in the tile.  It may be activated once during any Hero''s Turn.  Then remove it from play.');
 insert into Explores (UtilityIndex) VALUES (72);
 insert into ExploreCreeps (ExploreIndex, CreepNumber) VALUES (54, 1);
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 181);	--Starfire: Explore
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 296);	--Starfire: Arcade
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 177);	--King Starfire: Explore
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 290);	--King Starfire: Arcade
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (54, 181);	--Starfire: Explore
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (54, 296);	--Starfire: Arcade
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (54, 177);	--King Starfire: Explore
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (54, 290);	--King Starfire: Arcade
 
 
 --Sacrificial Altar	--CardIndex 722	--UtilityIndex 73	--ExploreIndex 55	--ExploreCreepIndex	--ExploreTrapIndex
@@ -798,10 +798,10 @@ insert into Utilities (CardIndex, UtilityDescription) VALUES (722, 'Choose one H
 insert into Explores (UtilityIndex) VALUES (73);
 insert into ExploreCreeps (ExploreIndex, CreepNumber) VALUES (55, 0);
 insert into AbilityAssignments (ExploreTrapIndex, AbilityIndex) VALUES (55, 458);	--Offering
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 181);	--Starfire: Explore
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 296);	--Starfire: Arcade
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 177);	--King Starfire: Explore
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 290);	--King Starfire: Arcade
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (55, 181);	--Starfire: Explore
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (55, 296);	--Starfire: Arcade
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (55, 177);	--King Starfire: Explore
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (55, 290);	--King Starfire: Arcade
 
 
 --Abandoned Mine Shaft	--CardIndex 723	--UtilityIndex 74	--ExploreIndex 56	--ExploreCreepIndex	--ExploreTrapIndex
@@ -829,8 +829,8 @@ insert into Utilities (CardIndex, UtilityDescription) VALUES (724, 'Discard duri
 insert into Explores (UtilityIndex) VALUES (75);
 insert into ExploreCreeps (ExploreIndex, CreepNumber) VALUES (57, 3);
 insert into AbilityAssignments (ExploreTrapIndex, AbilityIndex) VALUES (57, 308);--Explode
---insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (56, chXXX);	--Testudo Tower: Explore
---insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (56, chXXX);	--Testudo Tower: Arcade
+--insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (57, chXXX);	--Testudo Tower: Explore
+--insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (57, chXXX);	--Testudo Tower: Arcade
 
 
 --Bumper Shells	--CardIndex 725	--UtilityIndex 76	--ExploreIndex 58	--ExploreCreepIndex	--ExploreTrapIndex
@@ -843,8 +843,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Utilities (CardIndex, UtilityDescription) VALUES (725, '1ST, 2x2, When a model is affected by Bumper Shells, its player may move the model 3 squares using the rules for push.');
 insert into Explores (UtilityIndex) VALUES (76);
 insert into ExploreCreeps (ExploreIndex, CreepNumber) VALUES (58, 0);
---insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (56, chXXX);	--Testudo Tower: Explore
---insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (56, chXXX);	--Testudo Tower: Arcade
+--insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (58, chXXX);	--Testudo Tower: Explore
+--insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (58, chXXX);	--Testudo Tower: Arcade
 
 
 --Handy Tunnel	--CardIndex 726	--UtilityIndex 77	--ExploreIndex 59	--ExploreCreepIndex	--ExploreTrapIndex
@@ -857,8 +857,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Utilities (CardIndex, UtilityDescription) VALUES (720, 'Discard during a Hero''s upkeep.  The Hero may move through walls, and treats difficult terrain and structure squares as open squares until the end of its activation.');
 insert into Explores (UtilityIndex) VALUES (77);
 insert into ExploreCreeps (ExploreIndex, CreepNumber) VALUES (59, 1);
---insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (56, chXXX);	--Testudo Tower: Explore
---insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (56, chXXX);	--Testudo Tower: Arcade
+--insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (59, chXXX);	--Testudo Tower: Explore
+--insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (59, chXXX);	--Testudo Tower: Arcade
 
 
 --Shell Up	--CardIndex 727	--UtilityIndex 78	--ExploreIndex 60	--ExploreCreepIndex	--ExploreTrapIndex
@@ -871,8 +871,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Utilities (CardIndex, UtilityDescription) VALUES (727, 'Discard before making a defense roll to add +1R to the roll.');
 insert into Explores (UtilityIndex) VALUES (78);
 insert into ExploreCreeps (ExploreIndex, CreepNumber) VALUES (60, 1);
---insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (56, chXXX);	--Testudo Tower: Explore
---insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (56, chXXX);	--Testudo Tower: Arcade
+--insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (60, chXXX);	--Testudo Tower: Explore
+--insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (60, chXXX);	--Testudo Tower: Arcade
 
 
 --Testudo Formation	--CardIndex 728	--UtilityIndex 79	--ExploreIndex 61	--ExploreCreepIndex	--ExploreTrapIndex
@@ -885,8 +885,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Utilities (CardIndex, UtilityDescription) VALUES (728, 'Discard during a Hero''s upkeep.  Remove all status effect tokens from the Hero, and all adjacent Heroes.');
 insert into Explores (UtilityIndex) VALUES (79);
 insert into ExploreCreeps (ExploreIndex, CreepNumber) VALUES (61, 2);
---insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (56, chXXX);	--Testudo Tower: Explore
---insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (56, chXXX);	--Testudo Tower: Arcade
+--insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (61, chXXX);	--Testudo Tower: Explore
+--insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (61, chXXX);	--Testudo Tower: Arcade
 
 
 --Bone Rot	--CardIndex 729	--UtilityIndex 80	--ExploreIndex 62	--ExploreCreepIndex	--ExploreTrapIndex
@@ -900,10 +900,10 @@ insert into Utilities (CardIndex, UtilityDescription) VALUES (729, '2ST, 2x2');
 insert into Explores (UtilityIndex) VALUES (80);
 insert into ExploreCreeps (ExploreIndex, CreepNumber) VALUES (62, 0);
 insert into AbilityAssignments (ExploreTrapIndex, AbilityIndex) VALUES (62, 209);--Brittle Bone
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 182);	--Von Drakk: Explore
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 297);	--Von Drakk: Arcade
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 178);	--Nocturne: Explore
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 291);	--Nocturne: Arcade
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (62, 182);	--Von Drakk: Explore
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (62, 297);	--Von Drakk: Arcade
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (62, 178);	--Nocturne: Explore
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (62, 291);	--Nocturne: Arcade
 
 
 --Cackling Laughter	--CardIndex 730	--UtilityIndex 81	--ExploreIndex 63	--ExploreCreepIndex	--ExploreTrapIndex
@@ -916,10 +916,10 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Utilities (CardIndex, UtilityDescription) VALUES (730, 'Players who cackle maniacally when making offense rolls may add +1B to the roll.');
 insert into Explores (UtilityIndex) VALUES (81);
 insert into ExploreCreeps (ExploreIndex, CreepNumber) VALUES (63, 2);
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 182);	--Von Drakk: Explore
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 297);	--Von Drakk: Arcade
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 178);	--Nocturne: Explore
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 291);	--Nocturne: Arcade
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (63, 182);	--Von Drakk: Explore
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (63, 297);	--Von Drakk: Arcade
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (63, 178);	--Nocturne: Explore
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (63, 291);	--Nocturne: Arcade
 
 
 --Ghost Well	--CardIndex 731	--UtilityIndex 82	--ExploreIndex 64	--ExploreCreepIndex	--ExploreTrapIndex
@@ -932,10 +932,10 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Utilities (CardIndex, UtilityDescription) VALUES (731, 'All models ignore walls and structures for purposes of line of sight and movement.');
 insert into Explores (UtilityIndex) VALUES (82);
 insert into ExploreCreeps (ExploreIndex, CreepNumber) VALUES (64, 2);
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 182);	--Von Drakk: Explore
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 297);	--Von Drakk: Arcade
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 178);	--Nocturne: Explore
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 291);	--Nocturne: Arcade
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (64, 182);	--Von Drakk: Explore
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (64, 297);	--Von Drakk: Arcade
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (64, 178);	--Nocturne: Explore
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (64, 291);	--Nocturne: Arcade
 
 
 --Hidden Lever	--CardIndex 732	--UtilityIndex 83	--ExploreIndex 65	--ExploreCreepIndex	--ExploreTrapIndex
@@ -948,10 +948,10 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Utilities (CardIndex, UtilityDescription) VALUES (732, 'Rotate the tile 90 degrees clockwise.');
 insert into Explores (UtilityIndex) VALUES (83);
 insert into ExploreCreeps (ExploreIndex, CreepNumber) VALUES (65, 0);
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 182);	--Von Drakk: Explore
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 297);	--Von Drakk: Arcade
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 178);	--Nocturne: Explore
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 291);	--Nocturne: Arcade
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (65, 182);	--Von Drakk: Explore
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (65, 297);	--Von Drakk: Arcade
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (65, 178);	--Nocturne: Explore
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (65, 291);	--Nocturne: Arcade
 
 
 --Secret Passsage	--CardIndex 733	--UtilityIndex 84	--ExploreIndex 66	--ExploreCreepIndex	--ExploreTrapIndex
@@ -964,10 +964,10 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Utilities (CardIndex, UtilityDescription) VALUES (733, 'Heroes place one token in a square on this tile and one in any other tile.  These squares count as Secret Passage Tile Effects for the rest of game.');
 insert into Explores (UtilityIndex) VALUES (84);
 insert into ExploreCreeps (ExploreIndex, CreepNumber) VALUES (66, 3);
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 182);	--Von Drakk: Explore
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 297);	--Von Drakk: Arcade
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 178);	--Nocturne: Explore
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 291);	--Nocturne: Arcade
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (66, 182);	--Von Drakk: Explore
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (66, 297);	--Von Drakk: Arcade
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (66, 178);	--Nocturne: Explore
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (66, 291);	--Nocturne: Arcade
 
 
 --Sore Thumbs	--CardIndex 734	--UtilityIndex 85	--ExploreIndex 67	--ExploreCreepIndex	--ExploreTrapIndex
@@ -980,10 +980,10 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Utilities (CardIndex, UtilityDescription) VALUES (734, 'No models may use unique actions.');
 insert into Explores (UtilityIndex) VALUES (85);
 insert into ExploreCreeps (ExploreIndex, CreepNumber) VALUES (67, 1);
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 182);	--Von Drakk: Explore
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 297);	--Von Drakk: Arcade
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 178);	--Nocturne: Explore
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 291);	--Nocturne: Arcade
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (67, 182);	--Von Drakk: Explore
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (67, 297);	--Von Drakk: Arcade
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (67, 178);	--Nocturne: Explore
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (67, 291);	--Nocturne: Arcade
 
 
 --Soul Spike	--CardIndex 735	--UtilityIndex 86	--ExploreIndex 68	--ExploreCreepIndex	--ExploreTrapIndex
@@ -996,10 +996,10 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Utilities (CardIndex, UtilityDescription) VALUES (735, 'Spawning Point gains Backlash.  (If a model with Backlash exceeds an offense roll with their defense roll the attacker takes one wound.)');
 insert into Explores (UtilityIndex) VALUES (86);
 insert into ExploreCreeps (ExploreIndex, CreepNumber) VALUES (68, 3);
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 181);	--Von Drakk: Explore
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 297);	--Von Drakk: Arcade
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 178);	--Nocturne: Explore
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 291);	--Nocturne: Arcade
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (68, 181);	--Von Drakk: Explore
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (68, 297);	--Von Drakk: Arcade
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (68, 178);	--Nocturne: Explore
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (68, 291);	--Nocturne: Arcade
 
 
 --Webs	--CardIndex 736	--UtilityIndex 87	--ExploreIndex 68	--ExploreCreepIndex	--ExploreTrapIndex
@@ -1013,8 +1013,8 @@ insert into Utilities (CardIndex, UtilityDescription) VALUES (736, '1ST, 2x2');
 insert into Explores (UtilityIndex) VALUES (87);
 insert into ExploreCreeps (ExploreIndex, CreepNumber) VALUES (69, 0);
 insert into AbilityAssignments (ExploreTrapIndex, AbilityIndex) VALUES (69, 597);	--Sticky
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 181);	--Von Drakk: Explore
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 297);	--Von Drakk: Arcade
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 178);	--Nocturne: Explore
-insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (48, 291);	--Nocturne: Arcade
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (69, 181);	--Von Drakk: Explore
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (69, 297);	--Von Drakk: Arcade
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (69, 178);	--Nocturne: Explore
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (69, 291);	--Nocturne: Arcade
 
