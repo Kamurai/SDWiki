@@ -10324,7 +10324,6 @@ insert into ExploreCreeps (ExploreIndex, CreepNumber) VALUES (3, 6);
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Grasping Tentacles',
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Generic/Card_Explore_Grasping_Tentacles_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
-<<<<<<< HEAD
 'http://htkb.online/SDWiki/SDE/FK/Cards/Explore_Cards/Grasping_Tentacles_Cloud.xhtml', 
 'Explore Card', 'FK', 'FK Core Set', 'Default', 
 '');
