@@ -1,15 +1,18 @@
 package SDE;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class Equipment extends Card implements KeywordInterface, AbilityInterface, CharacterInterface {
     private String position;
     private String effect;
     private String characterName;
     private String characterLink;
+    private List<NavItem> characterList;
     
     private ArrayList<Keyword>  keywords;
     private ArrayList<Ability>  abilities;
+    
     
     public Equipment(){
         super();
@@ -17,8 +20,9 @@ public class Equipment extends Card implements KeywordInterface, AbilityInterfac
         this.effect         = "";
         this.characterName  = "";
         this.characterLink  = "";
-        this.keywords       = new ArrayList<Keyword>();
-        this.abilities      = new ArrayList<Ability>();
+        this.characterList  = new ArrayList();
+        this.keywords       = new ArrayList();
+        this.abilities      = new ArrayList();
     }
     
     public Equipment(
@@ -36,6 +40,7 @@ public class Equipment extends Card implements KeywordInterface, AbilityInterfac
         String effect,
         String characterName,
         String characterLink,
+        List<NavItem>       characterList,
         ArrayList<Keyword>  keywords,
         ArrayList<Ability>  abilities
     ){
@@ -55,6 +60,7 @@ public class Equipment extends Card implements KeywordInterface, AbilityInterfac
         this.effect         = effect;
         this.characterName  = characterName;
         this.characterLink  = characterLink;
+        this.characterList  = characterList;
         this.keywords       = keywords;
         this.abilities      = abilities;
     }
@@ -137,6 +143,31 @@ public class Equipment extends Card implements KeywordInterface, AbilityInterfac
         if(!ability.isWithin(abilities)){
             abilities.add(ability);
         }
+    }
+
+    @Override
+    public List<NavItem> getCharacterList() {
+        return characterList;
+    }
+
+    @Override
+    public void setCharacterList(List<NavItem> characterList) {
+        this.characterList = characterList;
+    }
+    
+    @Override
+    public boolean validateCharacter(){
+        return ((characterName != null && !characterName.isEmpty()) && (characterLink != null && !characterLink.isEmpty()));
+    }
+    
+    @Override
+    public boolean validateCharacterList(){
+        return (getCharacterList() != null && getCharacterList().size() > 0);
+    }
+    
+    @Override
+    public void addCharacter(String name, String version, String link, String picture){
+        characterList.add(new NavItem(name, version, link, picture));
     }
     
 }

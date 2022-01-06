@@ -10,10 +10,10 @@ public class ExploreCard extends UtilityCard implements AbilityInterface, Charac
     
     private String              characterName;
     private String              characterLink;
+    private List<NavItem> characterList;
     
     private ArrayList<Ability>  abilities;
     
-    private List<NavItem> characterList;
     
     public ExploreCard(){
         super();
@@ -23,7 +23,7 @@ public class ExploreCard extends UtilityCard implements AbilityInterface, Charac
         this.characterName  = "";
         this.characterLink  = "";
         this.characterList  = new ArrayList();
-        this.abilities      = new ArrayList<Ability>();
+        this.abilities      = new ArrayList();
     }
     
     public ExploreCard(
@@ -128,22 +128,27 @@ public class ExploreCard extends UtilityCard implements AbilityInterface, Charac
         }
     }
 
+    @Override
     public List<NavItem> getCharacterList() {
         return characterList;
     }
 
+    @Override
     public void setCharacterList(List<NavItem> characterList) {
         this.characterList = characterList;
     }
     
+    @Override
     public boolean validateCharacter(){
         return ((characterName != null && !characterName.isEmpty()) && (characterLink != null && !characterLink.isEmpty()));
     }
     
+    @Override
     public boolean validateCharacterList(){
         return (getCharacterList() != null && getCharacterList().size() > 0);
     }
     
+    @Override
     public void addCharacter(String name, String version, String link, String picture){
         characterList.add(new NavItem(name, version, link, picture));
     }

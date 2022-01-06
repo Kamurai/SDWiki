@@ -805,9 +805,14 @@ public class SDEDAOOne extends DAO{
     
     //Pull One Explore Card
     public SDE.ExploreCard pullOneExploreCard(String link){
+        System.out.print(link);
+        System.out.print("pullOneExploreCard 1");
+        
         CallableStatement stmt;
         ResultSet rs;
         SDE.ExploreCard result = new SDE.ExploreCard();
+        
+        System.out.print("pullOneExploreCard 2");
         
         try{
             openConnection();
@@ -835,15 +840,21 @@ public class SDEDAOOne extends DAO{
                 result.setTrapDefense(rs.getInt("TrapDefense"));
                 result.setTrapLayout(rs.getString("TrapLayout"));
                 
-                result.setCharacterName(rs.getString("CharacterName"));
-                result.setCharacterLink(rs.getString("CharacterLink"));
+//                result.setCharacterName(rs.getString("CharacterName"));
+//                result.setCharacterLink(rs.getString("CharacterLink"));
             }
-        }
-        catch(Exception e){
+            
+            System.out.print("pullOneExploreCard 3");
+            
+        }catch(Exception e){
+            System.out.print("Taco!: " +e.getMessage());
             e.printStackTrace();
         }finally{
             closeConnection();
         }
+        
+        System.out.print("Burrito: "+result.getName());
+        
                 
         return result;
     }
