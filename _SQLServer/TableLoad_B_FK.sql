@@ -10275,7 +10275,7 @@ insert into Utilities (CardIndex, UtilityDescription) VALUES (666, '');--FK Expl
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Armory',
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Generic/Card_Explore_Armory_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
-'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Explore/Armory.xhtml', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Explore_Cards/Armory.xhtml', 
 'Explore Card', 'FK', 'FK Core Set', 'Default', 
 '');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (667, 'After the spawning point is destroyed, you may draw one loot card per Hero.');
@@ -10287,7 +10287,7 @@ insert into ExploreCreeps (ExploreIndex, CreepNumber) VALUES (0, 3);
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Blue Button Stuck',
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Generic/Card_Explore_Blue_Button_Stuck_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
-'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Explore/Blue_Button_Stuck.xhtml', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Explore_Cards/Blue_Button_Stuck.xhtml', 
 'Explore Card', 'FK', 'FK Core Set', 'Default', 
 'I need a new controller.');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (668, 'Models may not use unique support actions.');
@@ -10299,7 +10299,7 @@ insert into ExploreCreeps (ExploreIndex, CreepNumber) VALUES (1, 2);
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Choking Cloud',
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Generic/Card_Explore_Choking_Cloud_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
-'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Explore/Choking_Cloud.xhtml', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Explore_Cards/Choking_Cloud.xhtml', 
 'Explore Card', 'FK', 'FK Core Set', 'Default', 
 '');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (669, '');
@@ -10312,7 +10312,7 @@ insert into AbilityAssignments (ExploreTrapIndex, AbilityIndex) VALUES (2, 231);
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Creep Factory',
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Generic/Card_Explore_Creep_Factory_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
-'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Explore/Creep_Factory.xhtml', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Explore_Cards/Creep_Factory.xhtml', 
 'Explore Card', 'FK', 'FK Core Set', 'Default', 
 'Ooooh, they''re so cute - ouch!  It bit me!');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (670, '');
@@ -10324,7 +10324,7 @@ insert into ExploreCreeps (ExploreIndex, CreepNumber) VALUES (3, 6);
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Grasping Tentacles',
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Generic/Card_Explore_Grasping_Tentacles_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
-'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Explore/Grasping_Tentacles.xhtml', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Explore_Cards/Grasping_Tentacles_Cloud.xhtml', 
 'Explore Card', 'FK', 'FK Core Set', 'Default', 
 '');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (671, '');
@@ -10337,7 +10337,7 @@ insert into AbilityAssignments (ExploreTrapIndex, AbilityIndex) VALUES (4, 673);
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Jammed Coil Slot',
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Generic/Card_Explore_Jammed_Coin_Slot_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
-'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Explore/Jammed_Coin_Slot.xhtml', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Explore_Cards/Jammed_Coin_Slot.xhtml', 
 'Explore Card', 'FK', 'FK Core Set', 'Default', 
 'Please don''t die.');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (672, 'While any Hero is in this tile Princess Coins may not be used.');
@@ -10349,7 +10349,7 @@ insert into ExploreCreeps (ExploreIndex, CreepNumber) VALUES (5, 1);
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Locked Doors',
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Generic/Card_Explore_Locked_Doors_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
-'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Explore/Locked_Doors.xhtml', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Explore_Cards/Locked_Doors.xhtml', 
 'Explore Card', 'FK', 'FK Core Set', 'Default', 
 '');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (674, 'Heroes who enter this tile may not leave it until the party spends 1 dungeon key to unlock the doors.');
@@ -10361,7 +10361,7 @@ insert into ExploreCreeps (ExploreIndex, CreepNumber) VALUES (6, 2);
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Pathing Error',
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Generic/Card_Explore_Pathing_Error_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
-'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Explore/Pathing_Error.xhtml', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Explore_Cards/Pathing_Error.xhtml', 
 'Explore Card', 'FK', 'FK Core Set', 'Default', 
 '');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (674, 'All models may move through walls. Line of sight is blocked as normal.');
@@ -10373,7 +10373,7 @@ insert into ExploreCreeps (ExploreIndex, CreepNumber) VALUES (7, 1);
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Potion Stash',
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Generic/Card_Explore_Potion_Stash_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
-'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Explore/Potion_Stash.xhtml', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Explore_Cards/Potion_Stash.xhtml', 
 'Explore Card', 'FK', 'FK Core Set', 'Default', 
 '');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (675, 'Place 4 potion tokens in the corner squares adjacent to the spawning point. Heroes may use the Pick Up basic action to add them to their card.');
@@ -10385,7 +10385,7 @@ insert into ExploreCreeps (ExploreIndex, CreepNumber) VALUES (8, 3);
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Red Button Stuck',
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Generic/Card_Explore_Red_Button_Stuck_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
-'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Explore/Red_Button_Stuck.xhtml', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Explore_Cards/Red_Button_Stuck.xhtml', 
 'Explore Card', 'FK', 'FK Core Set', 'Default', 
 'Oh no, not during the Boss Fight!');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (676, 'Models may not use unique offensive actions.');
@@ -10397,7 +10397,7 @@ insert into ExploreCreeps (ExploreIndex, CreepNumber) VALUES (9, 2);
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Save Point',
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Generic/Card_Explore_Save_Point_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
-'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Explore/Save_Point.xhtml', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Explore_Cards/Save_Point.xhtml', 
 'Explore Card', 'FK', 'FK Core Set', 'Default', 
 '');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (677, 'After the spawning point is destroyed Heroes may remove all status effects.');
@@ -10409,7 +10409,7 @@ insert into ExploreCreeps (ExploreIndex, CreepNumber) VALUES (10, 0);
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Secret Code',
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Generic/Card_Explore_Secret_Code_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
-'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Explore/Secret_Code.xhtml', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Explore_Cards/Secret_Code.xhtml', 
 'Explore Card', 'FK', 'FK Core Set', 'Default', 
 '');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (678, 'Add one Princess Coin to the party''s backpack.');
@@ -10421,7 +10421,7 @@ insert into ExploreCreeps (ExploreIndex, CreepNumber) VALUES (11, 3);
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Spiked Floor',
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Generic/Card_Explore_Spiked_Floor_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
-'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Explore/Spiked_Floor.xhtml', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Explore_Cards/Spiked_Floor.xhtml', 
 'Explore Card', 'FK', 'FK Core Set', 'Default', 
 'That''s gotta hurt.');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (679, '');
@@ -10434,7 +10434,7 @@ insert into AbilityAssignments (ExploreTrapIndex, AbilityIndex) VALUES (12, 448)
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Traveling Merchant',
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Generic/Card_Explore_Traveling_Merchant_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
-'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Explore/Traveling_Merchant.xhtml', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Explore_Cards/Traveling_Merchant.xhtml', 
 'Explore Card', 'FK', 'FK Core Set', 'Default', 
 '');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (680, 'The Heroes may discard up to three pieces of loot, then draw the same number of loot cards.');
@@ -10446,7 +10446,7 @@ insert into ExploreCreeps (ExploreIndex, CreepNumber) VALUES (13, 1);
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Treasure Vault',
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Generic/Card_Explore_Treasure_Vault_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
-'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Explore/Treasure_Vault.xhtml', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Explore_Cards/Treasure_Vault.xhtml', 
 'Explore Card', 'FK', 'FK Core Set', 'Default', 
 'Jackpot!');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (681, 'After the mini-boss is spawned and destroyed, instead of drawing a single treasure card, the party may draw one per Hero.');
@@ -10458,7 +10458,7 @@ insert into ExploreCreeps (ExploreIndex, CreepNumber) VALUES (14, 3);
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Turbo Button',
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Generic/Card_Explore_Turbo_Button_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
-'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Explore/Turbo_Button.xhtml', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Explore_Cards/Turbo_Button.xhtml', 
 'Explore Card', 'FK', 'FK Core Set', 'Default', 
 '');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (682, 'While in this tile a Hero gains +1AC and +1MO.');
@@ -10470,7 +10470,7 @@ insert into ExploreCreeps (ExploreIndex, CreepNumber) VALUES (15, 1);
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Wall of Fire',
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Generic/Card_Explore_Wall_of_Fire_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Utility/Explore/Card_Explore_FK_Back.png', 
-'http://htkb.online/SDWiki/SDE/FK/Cards/Utility/Explore/Wall_of_Fire.xhtml', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Explore_Cards/Wall_of_Fire.xhtml', 
 'Explore Card', 'FK', 'FK Core Set', 'Default', 
 '');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (683, '');
