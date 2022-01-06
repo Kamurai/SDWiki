@@ -10,10 +10,10 @@ insert into Characters (CardIndex) VALUES (337);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (252, 1); --Citrine
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
 VALUES (252, 142, -1);
---GangMemberIndex 1
+--GangMemberIndex 0
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (0, -1, 'Booty Biter', 'Boo Booty', 'Elite', 5, 2, 3, 135);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (1, 176); --Backlash
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (0, 176); --Backlash
 
 --Bouncing Booty --CardIndex 338	--CharacterIndex 253	--ArcadeCharacterIndex 1
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Bouncing Booty',
@@ -26,10 +26,10 @@ insert into Characters (CardIndex) VALUES (338);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (253, 1); --Citrine
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
 VALUES (253, 252, -1);
---GangMemberIndex 2
+--GangMemberIndex 1
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (1, -1, 'Bouncing Booty', 'Boo Booty', 'Elite', 8, 2, 2, 136);
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (2, 197); --Bounce
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (1, 197); --Bounce
 
 --Booty Grinder --CardIndex 339	--CharacterIndex 254	--ArcadeCharacterIndex 2
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Booty Grinder',
@@ -42,7 +42,7 @@ insert into Characters (CardIndex) VALUES (339);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (254, 3); --Ruby
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
 VALUES (254, 152, -1);
---GangMemberIndex 3
+--GangMemberIndex 2
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (2, -1, 'Booty Grinder', 'Boo Booty', 'Elite', 5, 2, 2, 137);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (3, 242); --Grind
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (2, 242); --Grind
