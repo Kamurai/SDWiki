@@ -26,7 +26,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (224);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (139, 3); --Ruby
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (139, 367); --Boo Booty
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (139, 363); --Grind
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (139, 363); --Grind
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (139, 'Neither', 'Small', 'Boo Booty', 6, 1, '3B', '1ST', '3B', '1B', 2, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (139, 1, 1);
