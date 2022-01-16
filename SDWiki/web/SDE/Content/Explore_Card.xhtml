@@ -73,12 +73,12 @@
                             Attribute: #{y.getAttribute()}
                         </div>
 
-                        <div class="inline">
+                        <div class="">
                             <ui:fragment rendered="#{y.getRange() > 0 }">
                                 #{y.getRange()}
                             </ui:fragment>
                             <ui:fragment rendered="#{y.getRange() == 0 }">
-                                Self
+                                Range: Self
                             </ui:fragment>
                         </div>
                         

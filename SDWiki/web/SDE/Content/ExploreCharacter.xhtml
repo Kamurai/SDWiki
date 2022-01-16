@@ -201,13 +201,13 @@
                             Attribute: #{x.getAttribute()}
                         </div>
 
-                        <div class="inline">
+                        <div class="">
                             <c:choose>
                                 <c:when test="#{x.getRange() > 0 }">
                                     #{x.getRange()}
                                 </c:when>
                                 <c:when test="#{x.getRange() == 0 }">
-                                    Self
+                                    Range: Self
                                 </c:when>
                                 <c:otherwise>                                    
                                 </c:otherwise>
