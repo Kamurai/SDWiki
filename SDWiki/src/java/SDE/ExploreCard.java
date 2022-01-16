@@ -5,12 +5,12 @@ import java.util.List;
 
 public class ExploreCard extends UtilityCard implements AbilityInterface, CharacterInterface{
     private int                 creepNumber;
-    private int                 trapDefense;
+    private String              trapDefense;
     private String              trapLayout;
     
     private String              characterName;
     private String              characterLink;
-    private List<NavItem> characterList;
+    private List<NavItem>       characterList;
     
     private ArrayList<Ability>  abilities;
     
@@ -18,7 +18,7 @@ public class ExploreCard extends UtilityCard implements AbilityInterface, Charac
     public ExploreCard(){
         super();
         this.creepNumber    = -1;
-        this.trapDefense    = -1;
+        this.trapDefense    = "";
         this.trapLayout     = "";
         this.characterName  = "";
         this.characterLink  = "";
@@ -39,7 +39,7 @@ public class ExploreCard extends UtilityCard implements AbilityInterface, Charac
         String              flavor,
         String              description,
         int                 creepNumber,
-        int                 trapDefense,
+        String              trapDefense,
         String              trapLayout,
         String              characterName,
         String              characterLink,
@@ -78,11 +78,11 @@ public class ExploreCard extends UtilityCard implements AbilityInterface, Charac
         this.creepNumber = creepNumber;
     }
 
-    public int getTrapDefense() {
+    public String getTrapDefense() {
         return trapDefense;
     }
 
-    public void setTrapDefense(int trapDefense) {
+    public void setTrapDefense(String trapDefense) {
         this.trapDefense = trapDefense;
     }
 
@@ -92,6 +92,16 @@ public class ExploreCard extends UtilityCard implements AbilityInterface, Charac
 
     public void setTrapLayout(String trapLayout) {
         this.trapLayout = trapLayout;
+    }
+    
+    public boolean validateTrapDefense(){
+        boolean result = false;
+        
+        if(this.trapDefense != null && !this.trapDefense.equals("")){
+            result = true;
+        }
+        
+        return result;
     }
     
     public String getCharacterName() {

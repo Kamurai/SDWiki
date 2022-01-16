@@ -879,7 +879,7 @@ public class SDEDAOAll extends DAO{
                     temp.setDescription(rs.getString("UtilityDescription"));
 
                     temp.setCreepNumber(rs.getInt("CreepNumber"));
-                    temp.setTrapDefense(rs.getInt("TrapDefense"));
+                    temp.setTrapDefense(rs.getString("TrapDefense"));
                     temp.setTrapLayout(rs.getString("TrapLayout"));
 
                     temp.setCharacterName(rs.getString("CharacterName"));

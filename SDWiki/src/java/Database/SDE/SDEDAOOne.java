@@ -812,6 +812,13 @@ public class SDEDAOOne extends DAO{
         ResultSet rs;
         SDE.ExploreCard result = new SDE.ExploreCard();
         
+        int     previousCardIndex       = -1;
+        int     previousAbilityIndex    = -1;
+        
+        boolean newCard                 = false;
+        boolean newAbility              = false;
+        
+        
         System.out.print("pullOneExploreCard 2");
         
         try{
@@ -822,26 +829,54 @@ public class SDEDAOOne extends DAO{
             rs = stmt.executeQuery();
             
             while(rs.next()){
-                //run only on first pass
-                result.setCardIndex(rs.getInt("CardIndex"));
-                result.setName(rs.getString("CardName"));
-                result.setPictureFront(rs.getString("PictureFront"));
-                result.setPictureBack(rs.getString("PictureBack"));
-                result.setLink(rs.getString("Link"));
-                result.setCardType(rs.getString("CardType"));
-                result.setVersion(rs.getString("ProductSet"));
-                result.setModule(rs.getString("ProductModule"));
-                result.setMode(rs.getString("PlayMode"));
-                result.setFlavor(rs.getString("Flavor"));
-
-                result.setDescription(rs.getString("UtilityDescription"));
+                newCard         = (rs.getInt("CardIndex")       != previousCardIndex);
+                newAbility      = (rs.getInt("AbilityIndex")    != previousAbilityIndex);
                 
-                result.setCreepNumber(rs.getInt("CreepNumber"));
-                result.setTrapDefense(rs.getInt("TrapDefense"));
-                result.setTrapLayout(rs.getString("TrapLayout"));
+                //run only on new card
+                if(newCard){
+                    //run only on first pass
+                    result.setCardIndex(rs.getInt("CardIndex"));
+                    result.setName(rs.getString("CardName"));
+                    result.setPictureFront(rs.getString("PictureFront"));
+                    result.setPictureBack(rs.getString("PictureBack"));
+                    result.setLink(rs.getString("Link"));
+                    result.setCardType(rs.getString("CardType"));
+                    result.setVersion(rs.getString("ProductSet"));
+                    result.setModule(rs.getString("ProductModule"));
+                    result.setMode(rs.getString("PlayMode"));
+                    result.setFlavor(rs.getString("Flavor"));
+
+                    result.setDescription(rs.getString("UtilityDescription"));
+
+                    result.setCreepNumber(rs.getInt("CreepNumber"));
+                    result.setTrapDefense(rs.getString("TrapDefense"));
+                    result.setTrapLayout(rs.getString("TrapLayout"));
                 
 //                result.setCharacterName(rs.getString("CharacterName"));
 //                result.setCharacterLink(rs.getString("CharacterLink"));
+                }
+                
+                //if on new ability
+                if(newAbility){
+
+
+                    //add new ability to last gang member
+                    result.addAbility(
+                        rs.getString("AbilityName"),
+                        rs.getString("AbilityResource"),
+                        rs.getString("AbilityType"),
+                        rs.getInt("AbilityCost"),
+                        rs.getString("AbilityAttribute"),
+                        rs.getInt("AbilityRange"),
+                        rs.getString("AbilityDescription")
+                    );
+
+                    if(result.getAbilities().size() > 0){
+                        System.out.print("Explore Ability: " + result.getAbilities().get(result.getAbilities().size()-1));
+                    }
+
+                    previousAbilityIndex = rs.getInt("AbilityIndex");
+                }
             }
             
             System.out.print("pullOneExploreCard 3");
