@@ -18,6 +18,14 @@ public class Keyword {
     
     public Keyword(
             String name,
+            String description
+    ){
+        this.name           = name;
+        this.description    = description;
+    }
+    
+    public Keyword(
+            String name,
             String description,
             String version,
             String playMode

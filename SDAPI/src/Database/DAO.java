@@ -8,7 +8,7 @@ package Database;
 import java.sql.*;
 
 public abstract class DAO {
-    private static final DbInfo dbi = new DbInfo();
+    private static DbInfo dbi = new DbInfo();
     String error;
     public String geterror(){
         return error;
@@ -21,11 +21,11 @@ public abstract class DAO {
         return connect;
     }
     
-//    public DAO(){
-//        connect = null;
-//        dbi = new DbInfo();
-//        error = "";
-//    }
+    public DAO(){
+        connect = null;
+        dbi = new DbInfo();
+        error = "";
+    }
            
     public static Connection openConnection(){
         try{

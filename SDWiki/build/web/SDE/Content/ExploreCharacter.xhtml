@@ -180,7 +180,7 @@
             <ui:repeat var="x" value="#{SDEExploreCharacterBean.getExploreCharacter().getKeywords()}" size="#{SDEExploreCharacterBean.getExploreCharacter().getKeywords().size()}" varStatus="myVarStatus" >
                 <ui:fragment rendered="#{x.validateKeyword()}">
                     <div class="xRow">
-                        <div class="inline"><!-- Keyword -->#{x.getName()}</div>
+                        <div class="underline"><!-- Keyword -->#{x.getName()}</div>
                         <tab/>
                         <div class="inline"><!-- Definition -->#{x.getDescription()}</div>
                     </div>
@@ -189,16 +189,16 @@
             
             <!-- List of Abilities -->
             <ui:repeat var="x" value="#{SDEExploreCharacterBean.getExploreCharacter().getAbilities()}" size="#{SDEExploreCharacterBean.getExploreCharacter().getAbilities().size()}" varStatus="myVarStatus" >
-                <ui:fragment rendered="#{y.validateAbility()}">
+                <ui:fragment rendered="#{x.validateAbility()}">
                     <div class="xRow">
-                        <div class="inline"><!-- Ability Name -->#{x.getName()}: </div>                     
-                        <div class="inline"><!-- Ability Cost -->#{x.getCost()}</div>                     
+                        <div class="underline"><!-- Ability Name -->#{x.getName()} </div>                     
+                        <div class="inline"><!-- Ability Cost -->Cost: #{x.getCost()}</div>                     
                         <div class="inline"><!-- Ability Resource -->#{x.getResource()}</div>                     
-                        <div class="inline"><!-- Ability Type -->#{x.getType()}:</div>
+                        <div class=""><!-- Ability Type -->Type: #{x.getType()}:</div>
                         <tab/>
 
                         <div class="inline">
-                            #{x.getAttribute()}
+                            Attribute: #{x.getAttribute()}
                         </div>
 
                         <div class="inline">

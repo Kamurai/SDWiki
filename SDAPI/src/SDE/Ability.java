@@ -10,6 +10,8 @@ public class Ability {
     private String  attribute;
     private int     range;
     private String  description;
+    private String version;
+    private String playMode;
     
     public Ability(){
         this.name           = "";
@@ -19,6 +21,8 @@ public class Ability {
         this.attribute      = "";
         this.range          = -1;
         this.description    = "";
+        this.version        = "";
+        this.playMode       = "";
     }
     
     public Ability(
@@ -38,6 +42,29 @@ public class Ability {
         this.attribute      = attribute;
         this.range          = range;
         this.description    = description;
+    }
+    
+    public Ability(
+        String  name,
+        String  resource,
+        String  type,
+        int     cost,
+        String  attribute,
+        int     range,
+        String  description,
+        String  version,
+        String  playMode
+    
+    ){
+        this.name           = name;
+        this.resource       = resource;
+        this.type           = type;
+        this.cost           = cost;
+        this.attribute      = attribute;
+        this.range          = range;
+        this.description    = description;
+        this.version        = version;
+        this.playMode       = playMode;
     }
     
     public String getAttribute(){
@@ -103,6 +130,22 @@ public class Ability {
     public void setDescription(String description) {
         this.description = description;
     }
+
+    public String getVersion() {
+        return version;
+    }
+
+    public void setVersion(String version) {
+        this.version = version;
+    }
+
+    public String getPlayMode() {
+        return playMode;
+    }
+
+    public void setPlayMode(String playMode) {
+        this.playMode = playMode;
+    }
     
     public int compareTo(Ability other){
         int result = -2;
@@ -160,25 +203,28 @@ public class Ability {
     public boolean validateAbility(){
         boolean result = false;
         
+        System.out.print(this.name);
+            
         if(
             (this.name != null &&
-            this.name.length() > 0) &&
+            !this.name.equals("")) &&
             
             (this.cost >= 0) &&
 
-            (this.resource != null &&
-            this.resource.length() > 0) &&
+//            (this.resource != null &&
+//            this.resource.length() > 0) &&
             
-            (this.type != null &&
-            this.type.length() > 0) &&
+//            (this.type != null &&
+//            this.type.length() > 0) &&
             
-            (this.attribute != null &&
-            this.attribute.length() > 0) &&
+//            (this.attribute == null ||
+//            this.attribute.length() >= 0) &&
             
-            (this.range >= 0) &&
+            (this.range >= -1) //&&
                     
-            (this.description != null &&
-            this.description.length() > 0)
+//            (this.description != null &&
+//            this.description.length() > 0)
+                
         ){
             result = true;
         }else{

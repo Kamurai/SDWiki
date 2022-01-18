@@ -1,6 +1,11 @@
 package Database.SDE;
 
 import Database.DAO;
+import static Database.DAO.closeConnection;
+import static Database.DAO.getConnect;
+import static Database.DAO.openConnection;
+import SDE.Ability;
+import SDE.Keyword;
 import java.sql.CallableStatement;
 import java.sql.Connection;
 import java.sql.ResultSet;
@@ -12,6 +17,142 @@ public class SDEDAOOne extends DAO{
     
     public SDEDAOOne(){
         super();
+    }
+    
+    //Pull All Keywords
+    public static ArrayList<Keyword> pullAllKeywords(){
+        CallableStatement stmt = null;
+        ResultSet rs;
+        ArrayList<Keyword> result = new ArrayList<Keyword>();
+        
+        try{
+            openConnection();
+            
+            stmt = getConnect().prepareCall("{call SDWikiPullAllKeywords}");
+            rs = stmt.executeQuery();
+            
+            while(rs.next()){
+                result.add(
+                    new Keyword(
+                        rs.getString("KeywordName"),
+                        rs.getString("KeywordDescription"),
+                        rs.getString("KeywordVersion"),
+                        rs.getString("PlayMode")
+                    )
+                );
+            }
+        }catch(Exception e){
+            e.printStackTrace();
+        }finally{
+            closeConnection();
+        }
+                
+        return result;
+    }
+    
+    public static ArrayList<Keyword> pullAllKeywords(String version){
+        CallableStatement stmt = null;
+        ResultSet rs;
+        ArrayList<Keyword> result = new ArrayList<Keyword>();
+        
+        try{
+            openConnection();
+            
+            stmt = getConnect().prepareCall("{call SDWikiPullAllKeywordsByProductSet(?)}");
+            stmt.setString(1, version);
+            rs = stmt.executeQuery();
+            
+            while(rs.next()){
+                result.add(
+                    new Keyword(
+                        rs.getString("KeywordName"),
+                        rs.getString("KeywordDescription"),
+                        rs.getString("KeywordVersion"),
+                        rs.getString("PlayMode")
+                    )
+                );
+            }
+        }catch(Exception e){
+            e.printStackTrace();
+        }finally{
+            closeConnection();
+        }
+                
+        return result;
+    }
+    
+    //Pull All Abilities
+    public static ArrayList<Ability> pullAllAbilities(){
+        CallableStatement stmt = null;
+        ResultSet rs;
+        ArrayList<Ability> result = new ArrayList<Ability>();
+                
+        try{
+            openConnection();
+            
+            stmt = getConnect().prepareCall("{call SDWikiPullAllAbilities}");
+            rs = stmt.executeQuery();
+            
+            while(rs.next()){
+                //add new ability
+                result.add(
+                    new Ability(
+                        rs.getString("AbilityName"),
+                        rs.getString("AbilityResource"),
+                        rs.getString("AbilityType"),
+                        rs.getInt("AbilityCost"),
+                        rs.getString("AbilityAttribute"),
+                        rs.getInt("AbilityRange"),
+                        rs.getString("AbilityDescription"),
+                        rs.getString("AbilityVersion"),
+                        rs.getString("PlayMode")
+                    )
+                );
+            }
+        }catch(Exception e){
+            e.printStackTrace();
+        }finally{
+            closeConnection();
+        }
+                
+        return result;
+    }
+    
+    public static ArrayList<Ability> pullAllAbilities(String version){
+        CallableStatement stmt = null;
+        ResultSet rs;
+        ArrayList<Ability> result = new ArrayList<Ability>();
+                
+        try{
+            openConnection();
+            
+            stmt = getConnect().prepareCall("{call SDWikiPullAllAbilitiesByProductSet(?)}");
+            stmt.setString(1, version);
+            rs = stmt.executeQuery();
+            
+            while(rs.next()){
+                //add new ability
+                result.add(
+                    new Ability(
+                        rs.getString("AbilityName"),
+                        rs.getString("AbilityResource"),
+                        rs.getString("AbilityType"),
+                        rs.getInt("AbilityCost"),
+                        rs.getString("AbilityAttribute"),
+                        rs.getInt("AbilityRange"),
+                        rs.getString("AbilityDescription"),
+                        rs.getString("AbilityVersion"),
+                        rs.getString("PlayMode")
+                    )
+                );
+            }
+        }catch(Exception e){
+            e.printStackTrace();
+        }finally{
+            closeConnection();
+        }
+                
+        return result;
     }
     
     //Pull One Hero
@@ -812,6 +953,13 @@ public class SDEDAOOne extends DAO{
         ResultSet rs;
         SDE.ExploreCard result = new SDE.ExploreCard();
         
+        int     previousCardIndex       = -1;
+        int     previousAbilityIndex    = -1;
+        
+        boolean newCard                 = false;
+        boolean newAbility              = false;
+        
+        
         System.out.print("pullOneExploreCard 2");
         
         try{
@@ -822,26 +970,54 @@ public class SDEDAOOne extends DAO{
             rs = stmt.executeQuery();
             
             while(rs.next()){
-                //run only on first pass
-                result.setCardIndex(rs.getInt("CardIndex"));
-                result.setName(rs.getString("CardName"));
-                result.setPictureFront(rs.getString("PictureFront"));
-                result.setPictureBack(rs.getString("PictureBack"));
-                result.setLink(rs.getString("Link"));
-                result.setCardType(rs.getString("CardType"));
-                result.setVersion(rs.getString("ProductSet"));
-                result.setModule(rs.getString("ProductModule"));
-                result.setMode(rs.getString("PlayMode"));
-                result.setFlavor(rs.getString("Flavor"));
-
-                result.setDescription(rs.getString("UtilityDescription"));
+                newCard         = (rs.getInt("CardIndex")       != previousCardIndex);
+                newAbility      = (rs.getInt("AbilityIndex")    != previousAbilityIndex);
                 
-                result.setCreepNumber(rs.getInt("CreepNumber"));
-                result.setTrapDefense(rs.getInt("TrapDefense"));
-                result.setTrapLayout(rs.getString("TrapLayout"));
+                //run only on new card
+                if(newCard){
+                    //run only on first pass
+                    result.setCardIndex(rs.getInt("CardIndex"));
+                    result.setName(rs.getString("CardName"));
+                    result.setPictureFront(rs.getString("PictureFront"));
+                    result.setPictureBack(rs.getString("PictureBack"));
+                    result.setLink(rs.getString("Link"));
+                    result.setCardType(rs.getString("CardType"));
+                    result.setVersion(rs.getString("ProductSet"));
+                    result.setModule(rs.getString("ProductModule"));
+                    result.setMode(rs.getString("PlayMode"));
+                    result.setFlavor(rs.getString("Flavor"));
+
+                    result.setDescription(rs.getString("UtilityDescription"));
+
+                    result.setCreepNumber(rs.getInt("CreepNumber"));
+                    result.setTrapDefense(rs.getString("TrapDefense"));
+                    result.setTrapLayout(rs.getString("TrapLayout"));
                 
 //                result.setCharacterName(rs.getString("CharacterName"));
 //                result.setCharacterLink(rs.getString("CharacterLink"));
+                }
+                
+                //if on new ability
+                if(newAbility){
+
+
+                    //add new ability to last gang member
+                    result.addAbility(
+                        rs.getString("AbilityName"),
+                        rs.getString("AbilityResource"),
+                        rs.getString("AbilityType"),
+                        rs.getInt("AbilityCost"),
+                        rs.getString("AbilityAttribute"),
+                        rs.getInt("AbilityRange"),
+                        rs.getString("AbilityDescription")
+                    );
+
+                    if(result.getAbilities().size() > 0){
+                        System.out.print("Explore Ability: " + result.getAbilities().get(result.getAbilities().size()-1));
+                    }
+
+                    previousAbilityIndex = rs.getInt("AbilityIndex");
+                }
             }
             
             System.out.print("pullOneExploreCard 3");
