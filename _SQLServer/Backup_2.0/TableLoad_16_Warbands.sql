@@ -1637,7 +1637,6 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (e
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (eXXX, 'Minion', '8 Bit', 1); 
 
 
-
 --Flame Wisp --CardIndex cXXX --CharacterIndex chXXX --ExploreCharacterIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Flame Wisp',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Fire_Flow_Hollow/Card_Warband_Fire_Flow_Hollow_Flame_Wisp_2.0.png', 
@@ -1721,7 +1720,1649 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (e
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (eXXX, 'Elite', '16 Bit', 3);
 
 
+--Forgotten Stone
+--Forgotten Stone --CardIndex cXXX --CharacterIndex chXXX --ExploreCharacterIndex eXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Forgotten Stone',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Forgotten_Stone/Card_Warband_Forgotten_Stone_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Warbands/Forgotten_Stone/Card_Warband_Forgotten_Stone_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Forgotten_Stone/Forgotten_Stone.xhtml', 
+'Warband', '2.0', '2.0 Core Set', 'Explore',
+'While the Shadow Fleets of the Midnight Queen openly sail the waters of the Scalding Sea, when they venture into the vast oceans surrounding Crystalia they must be more cautious. Here, heavily armored gnomish clockwork frigates, Brinebreaker dreadnoughts bristling with weaponry, many-masted royal galleons, and fleets of undead pirate clippers from the Drowned Isles vie for supremacy. Because of this, Shadow Fleets search out forgotten islands and coves to use as hidden bases of operation. Once secured, they mark these bases'' locations with crudely carved stones that are carefully crafted to appear ancient, forgotten, and unassuming.');
+insert into Characters (CardIndex) VALUES (cXXX); 
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 3); --Ruby
+insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+VALUES (chXXX, 'Neither', 'Large', 'Spawning Point', 0, 0, '', '1st', '', '', 3, 0);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Immune: Status Effects
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Scuttle
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Spawning Pool
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (eXXX, 2); --Armor 
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (eXXX, 'Spawning Point', 'Start', 0);
 
 
+--Blackblade Corsair --CardIndex cXXX --CharacterIndex chXXX --ExploreCharacterIndex eXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Blackblade Corsair',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Forgotten_Stone/Card_Warband_Forgotten_Stone_Blackblade_Corsair_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Warbands/Forgotten_Stone/Card_Warband_Forgotten_Stone_Blackblade_Corsair_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Forgotten_Stone/Blackblade_Corsair.xhtml', 
+'Warband', '2.0', '2.0 Core Set', 'Explore',
+'The Scalding Sea, which encircles the Nether Rifts and Midnight Tower, is fraught with peril. Inclement weather, demon incursions, and the monstrous denizens of the deep have honed the crews of the Midnight Queen''s Shadow Fleets into master sailors.');
+insert into Characters (CardIndex) VALUES (cXXX);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 3); --Ruby
+insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+VALUES (eXXX, 'Either', 'Small', 'Nether Elf Pirate', 7, 1, '2B 1R', '1ST', '3B', '3B', 1, 0);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Piracy
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Surefoot
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Discipline
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 1, 1); --Strength
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (eXXX, 2); --Armor 
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (eXXX, 'Minion', '8 Bit', 1);
+
+
+--Corsair Arbalist --CardIndex cXXX --CharacterIndex chXXX --ExploreCharacterIndex eXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Corsair Arbalist',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Forgotten_Stone/Card_Warband_Forgotten_Stone_Corsair_Arbalist_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Warbands/Forgotten_Stone/Card_Warband_Forgotten_Stone_Corsair_Arbalist_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Forgotten_Stone/Corsair_Arbalist.xhtml', 
+'Warband', '2.0', '2.0 Core Set', 'Explore',
+'A Shadow Fleet is a grim sight upon the horizon, and has been the doom for many a brave sailor. Shrouded in swirling mists and shadow, these bleak vessels begin their assaults with barrages of black-fletched crossbow bolts raking across the decks of their quarry, clearing the way for Blackblade boarders.');
+insert into Characters (CardIndex) VALUES (cXXX); 
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 3); --Ruby
+insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+VALUES (cXXX, 'Male', 'Small', 'Nether Elf Pirate', 7, 1, '2B', '1ST', '3B', '3B', 1, 0);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Fire
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Piracy
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Surefoot
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Light The Sails
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 1, 1); --Strength
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 4, 8); --Dex
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (eXXX, 2); --Armor 
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (eXXX, 'Minion', '8 Bit', 1);
+
+
+--Midnight Mutineer --CardIndex cXXX --CharacterIndex chXXX --ExploreCharacterIndex eXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Midnight Mutineer',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Forgotten_Stone/Card_Warband_Forgotten_Stone_Midnight_Mutineer_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Warbands/Forgotten_Stone/Card_Warband_Forgotten_Stone_Midnight_Mutineer_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Forgotten_Stone/Midnight_Mutineer_2.0.xhtml', 
+'Warband', '2.0', '2.0 Core Set', 'Explore',
+'Nether elves do not require honorable combat. One of their favored strategies is assassination. Cut off the head and the body will die. On the high seas the chain of command is vital, and a ship without its captain is an easy target. Midnight Mutineers are experts at infiltrating a ship''s crew and, the night before their corsair brethren attack, eliminating the ship''s captain and key personnel.');
+insert into Characters (CardIndex) VALUES (cXXX); 
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 3); --Ruby
+insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+VALUES (chXXX, 'Female', 'Small', 'Nether Elf Pirate', 8, 3, '3B 1R', '1B', '3B', '3B', 3, 0);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Bane
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Brutal Strike
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Piracy
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Surefoot
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Weaken the Prey
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Shadow
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Finish The Cur
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 1, 1); --Strength
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (eXXX, 3); --Will 
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (eXXX, 'Elite', '16 Bit', 3); 
+
+
+--Frozen Warrens
+--Frozen Warrens --CardIndex cXXX --CharacterIndex chXXX --ExploreCharacterIndex eXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Frozen Warrens',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Frozen_Warrens/Card_Warband_Frozen_Warrens_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Warbands/Frozen_Warrens/Card_Warband_Frozen_Warrens_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Frozen_Warrens/Frozen_Warrens.xhtml', 
+'Warband', '2.0', '2.0 Core Set', 'Explore',
+'The frigid climate of the Frostbyte Reach is notoriously inhospitable for the races of Crystalia. It is doubly so for the cold-blooded kobolds that choose to make the realm home. Because of their natural vulnerability the kobolds are fanatical devotees of the Cult of Frozen Spires. The Cult''s Frozen Priests maintain complex spells and rituals throughout the Reach designed to shield their kobold flock from the worst of the frozen climate.');
+insert into Characters (CardIndex) VALUES (cXXX); 
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1); --Citrine
+insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+VALUES (chXXX, 'Neither', 'Large', 'Spawning Point', 0, 0, '', '1st', '', '', 4, 0);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Black Ice
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Immune: Status Effects
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Spawning Pool
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (eXXX, 2); --Armor 
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (eXXX, 'Spawning Point', 'Start', 0);
+
+
+--Blockhead --CardIndex cXXX --CharacterIndex chXXX --ExploreCharacterIndex eXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Blockhead',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Frozen_Warrens/Card_Warband_Frozen_Warrens_Blockhead_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Warbands/Frozen_Warrens/Card_Warband_Frozen_Warrens_Blockhead_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Frozen_Warrens/Blockhead.xhtml', 
+'Warband', '2.0', '2.0 Core Set', 'Explore',
+'Blockheads, as their name implies, are not particularly bright, as the cold dulls their already dull senses. Fortunately, not much sense is needed when attacking Heroes who have been frozen solid by their more skilled kin.');
+insert into Characters (CardIndex) VALUES (cXXX);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1); --Citrine
+insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+VALUES (eXXX, 'Either', 'Small', 'Kobold', 7, 1, '3B', '1ST', '2B', '1B 1R', 1, 0);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Mob
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 1, 1); --Strength
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (eXXX, 2); --Armor 
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (eXXX, 'Minion', '8 Bit', 1);
+
+
+--Frostscale --CardIndex cXXX --CharacterIndex chXXX --ExploreCharacterIndex eXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Frostscale',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Frozen_Warrens/Card_Warband_Frozen_Warrens_Frostscale_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Warbands/Frozen_Warrens/Card_Warband_Frozen_Warrens_Frostscale_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Frozen_Warrens/Frostscale.xhtml', 
+'Warband', '2.0', '2.0 Core Set', 'Explore',
+'Frostscales are taught basic weather magicks by the Frozen Priests, to protect their lesser kin from the harsh elements of the Frostbyte Reach. In combat, these spells are turned against their enemies as sharp shards of ice that rend through armor and freeze their foes.');
+insert into Characters (CardIndex) VALUES (cXXX); 
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 4); --Sapphire
+insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+VALUES (cXXX, 'Neither', 'Small', 'Kobold', 7, 2, '2R', '2ST', '3B', '1B 1R', 1, 0);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Ice
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Mob
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Ice Shards
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 1, 1); --Strength
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (eXXX, 2); --Armor 
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (eXXX, 'Minion', '8 Bit', 2);
+
+
+--Frozen Priest --CardIndex cXXX --CharacterIndex chXXX --ExploreCharacterIndex eXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Frozen Priest',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Frozen_Warrens/Card_Warband_Frozen_Warrens_Frozen_Priest_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Warbands/Frozen_Warrens/Card_Warband_Frozen_Warrens_Frozen_Priest_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Frozen_Warrens/Frozen_Priest_2.0.xhtml', 
+'Warband', '2.0', '2.0 Core Set', 'Explore',
+'Frozen Priests serve their Lord Hoarfang as the leaders of the Cult of Frozen Spires. Cold, calculating, and ruthless, Frozen Priests are notoriously burtal and unforgiving leaders. Their mastery of ice magic is absolute, and they cruely turn it upon any who they deem deserving of Hoarfang''s ire.');
+insert into Characters (CardIndex) VALUES (cXXX); 
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 3); --Ruby
+insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+VALUES (chXXX, 'Neither', 'Small', 'Kobold', 7, 3, '2B', '1B 1R', '2R', '1B 1R', 3, 0);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Ice
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Mob
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --The Cutting Winds
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Ice Rage
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 1, 1); --Strength
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 3, 6); --Will
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (eXXX, 2); --Armor 
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (eXXX, 'Elite', '16 Bit', 2); 
+
+
+--Ice Pick --CardIndex cXXX --CharacterIndex chXXX --ExploreCharacterIndex eXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ice Pick',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Frozen_Warrens/Card_Warband_Frozen_Warrens_Ice_Pick_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Warbands/Frozen_Warrens/Card_Warband_Frozen_Warrens_Ice_Pick_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Frozen_Warrens/Ice_Pick_2.0.xhtml', 
+'Warband', '2.0', '2.0 Core Set', 'Explore',
+'Ice Picks enjoy a surprisingly high station within the Cult of Frozen Spires. Skilled hunters and trackers, Ice Picks roam far and wide through the Frostbyte Reach hunting game with their long spears and bringing it back to the warrens for the benefit of all.');
+insert into Characters (CardIndex) VALUES (cXXX); 
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1); --Citrine
+insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+VALUES (chXXX, 'Neither', 'Small', 'Kobold', 7, 1, '3B', '0ST', '2B', '1B 1R', 1, 0);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Mob
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 1, 2); --Strength
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (eXXX, 2); --Armor 
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (eXXX, 'Minion', '8 Bit', 1); 
+
+
+--Snowball Chucker --CardIndex cXXX --CharacterIndex chXXX --ExploreCharacterIndex eXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Snowball Chucker',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Frozen_Warrens/Card_Warband_Frozen_Warrens_Snowball_Chucker_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Warbands/Frozen_Warrens/Card_Warband_Frozen_Warrens_Snowball_Chucker_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Frozen_Warrens/Snowball_Chucker_2.0.xhtml', 
+'Warband', '2.0', '2.0 Core Set', 'Explore',
+'Snowball Chuckers are useless. They don''t like to hunt. They don''t like to fight. All they like to do is play in the snow, building forts, having funniest snow-dwarf contests, and rolling all the snowballs they can manage. Sometimes they play a game of Dodge the Avalanche, which sees entire kobold encapments buried in layers of ice.');
+insert into Characters (CardIndex) VALUES (cXXX); 
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 2); --Emerald
+insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+VALUES (chXXX, 'Neither', 'Small', 'Kobold', 7, 1, '2B', '0ST', '2B', '2B 1R', 1, 0);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Ice
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Mob
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Sidestep
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Frozen Pot
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Ice Rink
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 1, 1); --Strength
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 4, 6); --Dex
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (eXXX, 2); --Armor 
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (eXXX, 'Elite', '8 Bit', 1); 
+
+
+--Howler Stone
+--Howler Stone --CardIndex cXXX --CharacterIndex chXXX --ExploreCharacterIndex eXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Howler Stone',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Howler Stone/Card_Warband_Howler Stone_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Warbands/Howler Stone/Card_Warband_Howler Stone_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Howler Stone/Howler Stone.xhtml', 
+'Warband', '2.0', '2.0 Core Set', 'Explore',
+'The frigid climate of the Frostbyte Reach is notoriously inhospitable for the races of Crystalia. It is doubly so for the cold-blooded kobolds that choose to make the realm home. Because of their natural vulnerability the kobolds are fanatical devotees of the Cult of Frozen Spires. The Cult''s Frozen Priests maintain complex spells and rituals throughout the Reach designed to shield their kobold flock from the worst of the frozen climate.');
+insert into Characters (CardIndex) VALUES (cXXX); 
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1); --Citrine
+insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+VALUES (chXXX, 'Neither', 'Large', 'Spawning Point', 0, 0, '', '1st', '', '', 4, 0);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Black Ice
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Immune: Status Effects
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Spawning Pool
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (eXXX, 2); --Armor 
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (eXXX, 'Spawning Point', 'Start', 0);
+
+
+--Blockhead --CardIndex cXXX --CharacterIndex chXXX --ExploreCharacterIndex eXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Blockhead',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Frozen_Warrens/Card_Warband_Frozen_Warrens_Blockhead_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Warbands/Frozen_Warrens/Card_Warband_Frozen_Warrens_Blockhead_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Frozen_Warrens/Blockhead.xhtml', 
+'Warband', '2.0', '2.0 Core Set', 'Explore',
+'Blockheads, as their name implies, are not particularly bright, as the cold dulls their already dull senses. Fortunately, not much sense is needed when attacking Heroes who have been frozen solid by their more skilled kin.');
+insert into Characters (CardIndex) VALUES (cXXX);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1); --Citrine
+insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+VALUES (eXXX, 'Either', 'Small', 'Kobold', 7, 1, '3B', '1ST', '2B', '1B 1R', 1, 0);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Mob
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 1, 1); --Strength
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (eXXX, 2); --Armor 
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (eXXX, 'Minion', '8 Bit', 1);
+
+
+--Frostscale --CardIndex cXXX --CharacterIndex chXXX --ExploreCharacterIndex eXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Frostscale',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Frozen_Warrens/Card_Warband_Frozen_Warrens_Frostscale_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Warbands/Frozen_Warrens/Card_Warband_Frozen_Warrens_Frostscale_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Frozen_Warrens/Frostscale.xhtml', 
+'Warband', '2.0', '2.0 Core Set', 'Explore',
+'Frostscales are taught basic weather magicks by the Frozen Priests, to protect their lesser kin from the harsh elements of the Frostbyte Reach. In combat, these spells are turned against their enemies as sharp shards of ice that rend through armor and freeze their foes.');
+insert into Characters (CardIndex) VALUES (cXXX); 
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 4); --Sapphire
+insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+VALUES (cXXX, 'Neither', 'Small', 'Kobold', 7, 2, '2R', '2ST', '3B', '1B 1R', 1, 0);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Ice
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Mob
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Ice Shards
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 1, 1); --Strength
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (eXXX, 2); --Armor 
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (eXXX, 'Minion', '8 Bit', 2);
+
+
+--Frozen Priest --CardIndex cXXX --CharacterIndex chXXX --ExploreCharacterIndex eXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Frozen Priest',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Frozen_Warrens/Card_Warband_Frozen_Warrens_Frozen_Priest_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Warbands/Frozen_Warrens/Card_Warband_Frozen_Warrens_Frozen_Priest_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Frozen_Warrens/Frozen_Priest_2.0.xhtml', 
+'Warband', '2.0', '2.0 Core Set', 'Explore',
+'Frozen Priests serve their Lord Hoarfang as the leaders of the Cult of Frozen Spires. Cold, calculating, and ruthless, Frozen Priests are notoriously burtal and unforgiving leaders. Their mastery of ice magic is absolute, and they cruely turn it upon any who they deem deserving of Hoarfang''s ire.');
+insert into Characters (CardIndex) VALUES (cXXX); 
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 3); --Ruby
+insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+VALUES (chXXX, 'Neither', 'Small', 'Kobold', 7, 3, '2B', '1B 1R', '2R', '1B 1R', 3, 0);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Ice
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Mob
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --The Cutting Winds
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Ice Rage
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 1, 1); --Strength
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 3, 6); --Will
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (eXXX, 2); --Armor 
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (eXXX, 'Elite', '16 Bit', 2); 
+
+
+--Ice Pick --CardIndex cXXX --CharacterIndex chXXX --ExploreCharacterIndex eXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ice Pick',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Frozen_Warrens/Card_Warband_Frozen_Warrens_Ice_Pick_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Warbands/Frozen_Warrens/Card_Warband_Frozen_Warrens_Ice_Pick_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Frozen_Warrens/Ice_Pick_2.0.xhtml', 
+'Warband', '2.0', '2.0 Core Set', 'Explore',
+'Ice Picks enjoy a surprisingly high station within the Cult of Frozen Spires. Skilled hunters and trackers, Ice Picks roam far and wide through the Frostbyte Reach hunting game with their long spears and bringing it back to the warrens for the benefit of all.');
+insert into Characters (CardIndex) VALUES (cXXX); 
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1); --Citrine
+insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+VALUES (chXXX, 'Neither', 'Small', 'Kobold', 7, 1, '3B', '0ST', '2B', '1B 1R', 1, 0);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Mob
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 1, 2); --Strength
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (eXXX, 2); --Armor 
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (eXXX, 'Minion', '8 Bit', 1); 
+
+
+--Snowball Chucker --CardIndex cXXX --CharacterIndex chXXX --ExploreCharacterIndex eXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Snowball Chucker',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Frozen_Warrens/Card_Warband_Frozen_Warrens_Snowball_Chucker_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Warbands/Frozen_Warrens/Card_Warband_Frozen_Warrens_Snowball_Chucker_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Frozen_Warrens/Snowball_Chucker_2.0.xhtml', 
+'Warband', '2.0', '2.0 Core Set', 'Explore',
+'Snowball Chuckers are useless. They don''t like to hunt. They don''t like to fight. All they like to do is play in the snow, building forts, having funniest snow-dwarf contests, and rolling all the snowballs they can manage. Sometimes they play a game of Dodge the Avalanche, which sees entire kobold encapments buried in layers of ice.');
+insert into Characters (CardIndex) VALUES (cXXX); 
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 2); --Emerald
+insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+VALUES (chXXX, 'Neither', 'Small', 'Kobold', 7, 1, '2B', '0ST', '2B', '2B 1R', 1, 0);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Ice
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Mob
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Sidestep
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Frozen Pot
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Ice Rink
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 1, 1); --Strength
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 4, 6); --Dex
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (eXXX, 2); --Armor 
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (eXXX, 'Elite', '8 Bit', 1); 
+
+
+--Howler Stone
+--Howler Stone	--CardIndex cXXX --CharacterIndex chXXX --ExploreCharacterIndex eXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Howler Stone',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Howler_Stone/Card_Warband_Howler_Stone_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Warbands/Howler_Stone/Card_Warband_Howler_Stone_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Howler_Stone/Howler_Stone.xhtml', 
+'Warband', '2.0', '2.0 Core Set', 'Explore',
+'Gnolls are wholley creatures of the Dark Realm. Petty, cruel, and savagely cunning, massive packs of gnolls prowl throughout the Shadowlands of the Dark Realm. When the Dark Consul shattered the divide between the realms of Light and Dark, the gnolls were slow to emerge. Instead, the cunning creatures began to prey upon the weakened fiefdoms within the Dark Realm. Only as the gnolls'' power grew did they venture through the Nether Rifts into Crystalia.
+
+In Crystalia, gnolls behave much as they did within the Dark Realm. Stalking the shadows, they isolate and destroy weak prey. The inhospitable Frostbyte Reach provide perfect shelter for this mentality. Within its snowcapped peaks the gnolls find solitude and safety, where they can rest and plot their next incursion.');
+insert into Characters (CardIndex) VALUES (cXXX); 
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 2); --Emerald
+insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+VALUES (chXXX, 'Neither', 'Large', 'Spawning Point', 0, 0, '', '1st', '', '', 3, 0);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Immune: Status Effects
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Pack Mentality
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Spawning Pool
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (eXXX, 2); --Armor 
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (eXXX, 'Spawning Point', 'Start', 0);
+
+
+--Gnoll Hunter --CardIndex cXXX --CharacterIndex chXXX --ExploreCharacterIndex eXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Gnoll Hunter',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Howler_Stone/Card_Warband_Howler_Stone_Gnoll_Hunter_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Warbands/Howler_Stone/Card_Warband_Howler_Stone_Gnoll_Hunter_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Howler_Stone/Gnoll_Hunter.xhtml', 
+'Warband', '2.0', '2.0 Core Set', 'Explore',
+'Solitary by nature, Hunters range ahead of the gnoll packs scouting trails and seeking the scent of prey. When prey is found the Hunter''s isolate the weakest members, knocking them to the ground so they and their packmates can pounce!');
+insert into Characters (CardIndex) VALUES (cXXX);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 2); --Emerald
+insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+VALUES (eXXX, 'Either', 'Small', 'Gnoll', 6, 1, '3B', '0ST', '2B', '1B 1R', 1, 0);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Knockdown
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Pack Hunter
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Pile-on
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 1, 1); --Strength
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (eXXX, 2); --Armor 
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (eXXX, 'Minion', '8 Bit', 1);
+
+
+--Gnoll Pack Leader --CardIndex cXXX --CharacterIndex chXXX --ExploreCharacterIndex eXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Gnoll Pack Leader',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Howler_Stone/Card_Warband_Howler_Stone_Gnoll_Pack_Leader_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Warbands/Howler_Stone/Card_Warband_Howler_Stone_Gnoll_Pack_Leader_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Howler_Stone/Gnoll_Pack_Leader.xhtml', 
+'Warband', '2.0', '2.0 Core Set', 'Explore',
+'Gnoll pack leaders must demonstrate more than strength, they must also demonstrate intelligence and cunning. A pack leader which causes the needless destruction of its packmates will not be in power long. The greatest pack leaders rise up to lead immense warpacks that rival the might of any army.');
+insert into Characters (CardIndex) VALUES (cXXX); 
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 2); --Emerald
+insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+VALUES (cXXX, 'Neither', 'Small', 'Gnoll', 6, 3, '2B 1R', '1ST', '2B', '1B 1R', 3, 0);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Frenzy
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Knockdown
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Pack Hunter
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Pile-on
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Pack Tactics
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Finish It
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 1, 1); --Strength
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (eXXX, 2); --Armor 
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (eXXX, 'Elite', '16 Bit', 2);
+
+
+--Gnoll Ranger --CardIndex cXXX --CharacterIndex chXXX --ExploreCharacterIndex eXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Gnoll Ranger',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Howler_Stone/Card_Warband_Howler_Stone_Gnoll_Ranger_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Warbands/Howler_Stone/Card_Warband_Howler_Stone_Gnoll_Ranger_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Howler_Stone/Gnoll_Ranger_2.0.xhtml', 
+'Warband', '2.0', '2.0 Core Set', 'Explore',
+'When gnolls go to war, small packs of Rangers shadow the flanks of the main warpack. As the pack engages, the Rangers let loose clouds of arrows, strategically marking enemies that the pack should hunt down and destroy. In this way the warpack coordinates their attacks against the most vulnerable of their prey.');
+insert into Characters (CardIndex) VALUES (cXXX); 
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 2); --Emerald
+insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+VALUES (chXXX, 'Neither', 'Large', 'Gnoll', 6, 1, '1B 1R', '0ST', '2R', '3B', 1, 0);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Hunter's Mark
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Pack Hunter
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Scent
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Mark
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 1, 1); --Strength
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 4, 8); --Dex
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (eXXX, 2); --Armor 
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (eXXX, 'Minion', '8 Bit', 1); 
+
+
+--Gnoll Warrior --CardIndex cXXX --CharacterIndex chXXX --ExploreCharacterIndex eXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Gnoll Warrior',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Howler_Stone/Card_Warband_Howler_Stone_Gnoll_Warrior_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Warbands/Howler_Stone/Card_Warband_Howler_Stone_Gnoll_Warrior_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Howler_Stone/Gnoll_Warrior_2.0.xhtml', 
+'Warband', '2.0', '2.0 Core Set', 'Explore',
+'Gnoll warriors are ruthless and cunning predators. Working together, they are able to overcome even the strongest foe. Should their prey seek to flee, the warriors are as adaept at throwing their spears as stabbing with them.');
+insert into Characters (CardIndex) VALUES (cXXX); 
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 2); --Emerald
+insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+VALUES (chXXX, 'Neither', 'Large', 'Gnoll', 6, 1, '2R', '1ST', '2B', '3B', 1, 0);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Knockdown
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Pack Hunter
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Pile-on
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Scent
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Bring Down
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 1, 2); --Strength
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (eXXX, 2); --Armor 
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (eXXX, 'Minion', '8 Bit', 1); 
+
+
+--Junk Reaver Crystal
+--Junk Reaver Crystal	--CardIndex cXXX --CharacterIndex chXXX --ExploreCharacterIndex eXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Junk Reaver Crystal',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Junk_Reaver_Crystal/Card_Warband_Junk_Reaver_Crystal_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Warbands/Junk_Reaver_Crystal/Card_Warband_Junk_Reaver_Crystal_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Junk_Reaver_Crystal/Junk_Reaver_Crystal.xhtml', 
+'Warband', '2.0', '2.0 Core Set', 'Explore',
+'');--!! unavailable !!
+insert into Characters (CardIndex) VALUES (cXXX); 
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 3); --Ruby
+insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+VALUES (chXXX, 'Neither', 'Large', 'Spawning Point', 0, 0, '', '2ST', '', '', 2, 0);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Immune: Status Effects
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Spawning Pool
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (eXXX, 2); --Armor 
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (eXXX, 'Spawning Point', 'Start', 0);
+
+
+--Junker --CardIndex cXXX --CharacterIndex chXXX --ExploreCharacterIndex eXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Junker',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Junk_Reaver_Crystal/Card_Warband_Junk_Reaver_Crystal_Junker_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Warbands/Junk_Reaver_Crystal/Card_Warband_Junk_Reaver_Crystal_Junker_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Junk_Reaver_Crystal/Junker.xhtml', 
+'Warband', '2.0', '2.0 Core Set', 'Explore',
+'');--!! unavailable 1!
+insert into Characters (CardIndex) VALUES (cXXX);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 2); --Emerald --!! unavailable !!
+insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+VALUES (eXXX, 'Either', 'Small', 'Orc', 6, 1, '2B 1R', '0ST', '0ST', '2ST', 1, 0);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Improved Critical
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Reckless
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 1, 1); --Strength
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (eXXX, 2); --Armor 
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (eXXX, 'Minion', '8 Bit', 1);
+
+
+--Rusty Arrows --CardIndex cXXX --CharacterIndex chXXX --ExploreCharacterIndex eXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Rusty Arrows',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Junk_Reaver_Crystal/Card_Warband_Junk_Reaver_Crystal_Gnoll_Rusty_Arrows_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Warbands/Junk_Reaver_Crystal/Card_Warband_Junk_Reaver_Crystal_Gnoll_Rusty_Arrows_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Junk_Reaver_Crystal/Rusty_Arrows.xhtml', 
+'Warband', '2.0', '2.0 Core Set', 'Explore',
+'');--!! unavailable !!
+insert into Characters (CardIndex) VALUES (cXXX); 
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1); --Citrine--!! unavailable !!
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 4); --Sapphire--!! unavailable !!
+insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+VALUES (cXXX, 'Neither', 'Small', 'Orc', 6, 1, '3ST', '1ST', '0ST', '3B', 2, 0);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Massive Damage--!! unavailable !!
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Mob--!! unavailable !!
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --??? Still!--!! unavailable !!
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 4, 8); --Dex
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (eXXX, 2); --Armor 
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (eXXX, 'Minion', '8 Bit', 1);
+
+
+--Rust Boss --CardIndex cXXX --CharacterIndex chXXX --ExploreCharacterIndex eXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Rust Boss',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Junk_Reaver_Crystal/Card_Warband_Junk_Reaver_Crystal_Rust_Boss_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Warbands/Junk_Reaver_Crystal/Card_Warband_Junk_Reaver_Crystal_Rust_Boss_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Junk_Reaver_Crystal/Rust_Boss_2.0.xhtml', 
+'Warband', '2.0', '2.0 Core Set', 'Explore',
+'');--!! unavailable !!
+insert into Characters (CardIndex) VALUES (cXXX); 
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 3); --Ruby--!! unavailable !!
+insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+VALUES (chXXX, 'Neither', 'Large', 'Orc', 6, 3, '3R', '3B', '0ST', '2ST', 3, 0);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Brutal Strike
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Improved Critical
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Massive Damage
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Ravage
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Reckless
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --??? For Yours--!! unavailable !!
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --??? Wrath--!! unavailable !!
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 1, 2); --Strength
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (eXXX, 2); --Armor 
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (eXXX, 'Elite', '16 Bit', 3); 
+
+
+--Kobold Warrens
+--Kobold Warrens	--CardIndex cXXX --CharacterIndex chXXX --ExploreCharacterIndex eXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Kobold Warrens',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Kobold_Warrens/Card_Warband_Kobold_Warrens_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Warbands/Kobold_Warrens/Card_Warband_Kobold_Warrens_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Kobold_Warrens/Kobold_Warrens.xhtml', 
+'Warband', '2.0', '2.0 Core Set', 'Explore',
+'Kobolds were the first monsters from the Dark Realm to invade Crystalia, and remain the most numerous. In the centuries that have passed since the banishment of the Dark Consul, kobolds have only increased in numbers. Supremely adaptable and remarkably relentless in their drive to expand, there is no corner of Crystalia untouched by their menance.
+
+Fortunately, they are also clannish and given to feuding amongst themselves when left to their own devices. Whenever possible, Heroes root out clans of kobolds before they unite behind a larger and craftier monster to boss them around. Otherwise, kobolds become an almost unstoppable scourge.');
+insert into Characters (CardIndex) VALUES (cXXX); 
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1); --Citrine
+insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+VALUES (chXXX, 'Neither', 'Large', 'Spawning Point', 0, 0, '', '1st', '', '', 4, 0);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Immune: Status Effects
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Mob
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Mob Mentality
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Spawning Pool
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (eXXX, 2); --Armor 
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (eXXX, 'Spawning Point', 'Start', 0);
+
+
+--Dragon Priest --CardIndex cXXX --CharacterIndex chXXX --ExploreCharacterIndex eXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Dragon Priest',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Kobold_Warrens/Card_Warband_Kobold_Warrens_Dragon_Priest_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Warbands/Kobold_Warrens/Card_Warband_Kobold_Warrens_Dragon_Priest_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Kobold_Warrens/Dragon_Priest.xhtml', 
+'Warband', '2.0', '2.0 Core Set', 'Explore',
+'While the Cult of the Burning Star, which venerates Starfire, is the most well known there are cults of kobolds dedicated to the worship of all the dragons of Crystalia. Dragon Priests are granted arcane powers by their close communion with the dragons. Once bestowed these gifts, the priests never hesitate to use their favor to bully and intimidate the lesser kobolds into fighting for them.');
+insert into Characters (CardIndex) VALUES (cXXX);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 3); --Ruby
+insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+VALUES (eXXX, 'Either', 'Small', 'Kobold', 7, 3, '2B', '1B 1R', '2R', '1B 1R', 3, 0);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Mob
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Stealth
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Dragon Rage
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Shadow Breath
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 1, 1); --Strength
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (eXXX, 2); --Armor 
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (eXXX, 'Elite', '16 Bit', 2);
+
+
+--Flinger --CardIndex cXXX --CharacterIndex chXXX --ExploreCharacterIndex eXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Flinger',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Kobold_Warrens/Card_Warband_Kobold_Warrens_Flinger_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Warbands/Kobold_Warrens/Card_Warband_Kobold_Warrens_Flinger_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Kobold_Warrens/Flinger.xhtml', 
+'Warband', '2.0', '2.0 Core Set', 'Explore',
+'Many young kobolds emerge from their warrens having learned how to hunt bats and other denizens with nothing more than a strip of drakegut and a pouch full of stones. Deadly accurate, they launch small clay pots of flaming lamp oil or inky smoke bombs to conceal their movement.');
+insert into Characters (CardIndex) VALUES (cXXX); 
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 2); --Emerald
+insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+VALUES (cXXX, 'Neither', 'Small', 'Kobold', 7, 1, '2B', '0ST', '2B', '2B 1R', 1, 0);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Fire
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Mob
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Stealth
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Hot Pot
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Smoke Pot
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 1, 1); --Strength
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 4, 6); --Dex
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (eXXX, 2); --Armor 
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (eXXX, 'Elite', '8 Bit', 1);
+
+
+--Gouger --CardIndex cXXX --CharacterIndex chXXX --ExploreCharacterIndex eXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Gouger',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Kobold_Warrens/Card_Warband_Kobold_Warrens_Gouger_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Warbands/Kobold_Warrens/Card_Warband_Kobold_Warrens_Gouger_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Kobold_Warrens/Gouger_2.0.xhtml', 
+'Warband', '2.0', '2.0 Core Set', 'Explore',
+'Kobolds are not big on courage as lone fighters. Their snarling growls are meager and their weapons blunt and rusted. The Gougher''s long spears can effectively add weight to their kin''s attacks by stabbing at the desperately flailing Heroes.');
+insert into Characters (CardIndex) VALUES (cXXX); 
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1); --Citrine
+insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+VALUES (chXXX, 'Neither', 'Small', 'Kobold', 7, 1, '3B', '0ST', '2B', '1B 1R', 1, 0);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Mob
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 1, 2); --Strength
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (eXXX, 2); --Armor 
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (eXXX, 'Minion', '8 Bit', 1); 
+
+
+--Ironscale --CardIndex cXXX --CharacterIndex chXXX --ExploreCharacterIndex eXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ironscale',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Kobold_Warrens/Card_Warband_Kobold_Warrens_Ironscale_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Warbands/Kobold_Warrens/Card_Warband_Kobold_Warrens_Ironscale_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Kobold_Warrens/Ironscale_2.0.xhtml', 
+'Warband', '2.0', '2.0 Core Set', 'Explore',
+'The strongest and largest of their kind, the Ironscales are draped in heavy armor and fight from behind immensely heavy shields. Advancing with a rattling stomp, their kin swarm from behind their wall of protection to attack anyone foolish enough to stick around.');
+insert into Characters (CardIndex) VALUES (cXXX); 
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 4); --Sapphire
+insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+VALUES (chXXX, 'Neither', 'Small', 'Kobold', 7, 2, '2R', '2ST', '2B', '1B 1R', 1, 0);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Mob
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Scalewall
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 1, 1); --Strength
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (eXXX, 2); --Armor 
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (eXXX, 'Elite', '8 Bit', 2);
+
+
+--Knucklehead --CardIndex cXXX --CharacterIndex chXXX --ExploreCharacterIndex eXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Knucklehead',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Kobold_Warrens/Card_Warband_Kobold_Warrens_Knucklehead_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Warbands/Kobold_Warrens/Card_Warband_Kobold_Warrens_Knucklehead_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Kobold_Warrens/Knucklehead_2.0.xhtml', 
+'Warband', '2.0', '2.0 Core Set', 'Explore',
+'The Knuckleheads'' strength lies in large, deadly, mobs of its kin throwing themselves headlong into smaller bands of Heroes. They use their small shields and iron helmets to take blows, while frantically stabbing anything in reach with their crude weapons.');
+insert into Characters (CardIndex) VALUES (cXXX); 
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1); --Citrine
+insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+VALUES (chXXX, 'Neither', 'Small', 'Kobold', 7, 1, '3B', '1ST', '2B', '1B 1R', 1, 0);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Mob
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 1, 1); --Strength
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (eXXX, 2); --Armor 
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (eXXX, 'Minion', '8 Bit', 1);
+
+
+--Maleficent Idol
+--Maleficent Idol	--CardIndex cXXX --CharacterIndex chXXX --ExploreCharacterIndex eXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Maleficent Idol',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Maleficent_Idol/Card_Warband_Maleficent_Idol_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Warbands/Maleficent_Idol/Card_Warband_Maleficent_Idol_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Maleficent_Idol/Maleficent_Idol.xhtml', 
+'Warband', '2.0', '2.0 Core Set', 'Explore',
+'Usually Araphel''s dealings and worship are done in secret. Her followers move about in the shadows, applying subtle influence and spinning devious webs. However, there are places in the Dark Realm and the hidden corners of Crystalia where Araphel is worshipped openly. In these places a Maleficent Idol is erected in Araphel''s honor, carved in her likeness with the chained heart that has come to signify devotion to her.');
+insert into Characters (CardIndex) VALUES (cXXX); 
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 0); --Amethyst
+insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+VALUES (chXXX, 'Female', 'Small', 'Spawning Point', 0, 0, '', '2ST', '', '', 3, 0);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Immune: Status Effects
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Stealth
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Spawning Pool
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (eXXX, 2); --Armor 
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (eXXX, 'Spawning Point', 'Start', 0);
+
+
+--Devout of Araphel --CardIndex cXXX --CharacterIndex chXXX --ExploreCharacterIndex eXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Devout of Araphel',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Maleficent_Idol/Card_Warband_Maleficent_Idol_Devout_of_Araphel_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Warbands/Maleficent_Idol/Card_Warband_Maleficent_Idol_Devout_of_Araphel_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Maleficent_Idol/Devout_of_Araphel.xhtml', 
+'Warband', '2.0', '2.0 Core Set', 'Explore',
+'Araphel has gained significant popularity among Crystalia''s riftling population. As the Midnight Queen has risen to power and the shadow of the Dark Consul covers the realms, riftlings are increasingly viewed with suspicion and fear. This has seen them increasingly susceptible to Araphel''s whispers, which promise freedom and retribution. Many are so bitter that they allow their priests to mark them with a curse that triggers upon their death, powered by their very souls.');
+insert into Characters (CardIndex) VALUES (cXXX);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 0); --Amethyst
+insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+VALUES (eXXX, 'Either', 'Small', 'Riftling', 5, 1, '3B', '0ST', '1B', '3B', 1, 0);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Death Curse
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 1, 1); --Strength
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (eXXX, 2); --Armor 
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (eXXX, 'Minion', '8 Bit',1);
+
+
+--Maleficent Idol Errata	--CardIndex cXXX --CharacterIndex chXXX --ExploreCharacterIndex eXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Maleficent Idol Errata',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Maleficent_Idol/Card_Warband_Maleficent_Idol_Errata_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Warbands/Maleficent_Idol/Card_Warband_Maleficent_Idol_Errata_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Maleficent_Idol/Maleficent_Idol_Errata.xhtml', 
+'Warband', '2.0', '2.0 Core Set', 'Explore',
+'Usually Araphel''s dealings and worship are done in secret. Her followers move about in the shadows, applying subtle influence and spinning devious webs. However, there are places in the Dark Realm and the hidden corners of Crystalia where Araphel is worshipped openly. In these places a Maleficent Idol is erected in Araphel''s honor, carved in her likeness with the chained heart that has come to signify devotion to her.');
+insert into Characters (CardIndex) VALUES (cXXX); 
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 0); --Amethyst
+insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+VALUES (chXXX, 'Female', 'Large', 'Spawning Point', 0, 0, '', '2ST', '', '', 3, 0);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Immune: Status Effects
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Stealth
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Spawning Pool
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (eXXX, 2); --Armor 
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (eXXX, 'Spawning Point', 'Start', 0);
+
+
+--Heartbound --CardIndex cXXX --CharacterIndex chXXX --ExploreCharacterIndex eXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Heartbound',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Maleficent_Idol/Card_Warband_Maleficent_Idol_Heartbound_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Warbands/Maleficent_Idol/Card_Warband_Maleficent_Idol_Heartbound_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Maleficent_Idol/Heartbound.xhtml', 
+'Warband', '2.0', '2.0 Core Set', 'Explore',
+'Heartbound are those followers of Araphel who have taken their devotion one step further. Through an obscene ritual, the Heartbound have linked their very souls to Araphel, allowing them to channel her power.');
+insert into Characters (CardIndex) VALUES (cXXX); 
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 0); --Amethyst
+insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+VALUES (cXXX, 'Male', 'Small', 'Riftling', 5, 2, '3B', '1ST', '2B 1R', '1B', 2, 0);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Death Curse
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Massive Damage
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Blood Sacrifice
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Araphel's Blessing
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 1, 1); --Strength
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (eXXX, 2); --Armor 
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (eXXX, 'Minion', '8 Bit', 2);
+
+
+--Master of Chains --CardIndex cXXX --CharacterIndex chXXX --ExploreCharacterIndex eXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Master of Chains',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Maleficent_Idol/Card_Warband_Maleficent_Idol_Master_of_Chains_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Warbands/Maleficent_Idol/Card_Warband_Maleficent_Idol_Master_of_Chains_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Maleficent_Idol/Master_of_Chains_2.0.xhtml', 
+'Warband', '2.0', '2.0 Core Set', 'Explore',
+'Part prophet, part proselytizer, a Master of Chains offers to deliver riftlings from the oppression the suspicions of Crystalians as placed upon them. "Do not be bound by your chains, instead master them!" So skilled are these priests, that most Devoted do not realize they are exchanging oppression for subjugation.');
+insert into Characters (CardIndex) VALUES (cXXX); 
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 0); --Amethyst
+insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+VALUES (chXXX, 'Female', 'Small', 'Demon', 5, 2, '1B 1G', '1G', '2B 1R', '3B', 3, 0);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Sense Weakness
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Obscene Whispers
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Dance For Me
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 1, 3); --Strength
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (eXXX, 2); --Armor 
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (eXXX, 'Elite', '16 Bit', 2); 
+
+
+--Nether Clutch
+--Nether Clutch --CardIndex cXXX --CharacterIndex chXXX --ExploreCharacterIndex eXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Nether Clutch',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Nether_Clutch/Card_Warband_Nether_Clutch_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Warbands/Nether_Clutch/Card_Warband_Nether_Clutch_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Nether_Clutch/Nether_Clutch.xhtml', 
+'Warband', '2.0', '2.0 Core Set', 'Explore',
+'Proximity to the Dark Realm has seen the drakes of the Nether Rifts grow mighty beyond the other clutches throughout the realms of Crystalia. Their strength is linked inextricably to that of the Dark Realm, as the power of the Dark Consul ebbs and flows, so too does the might of the drakes bound to him.');
+insert into Characters (CardIndex) VALUES (cXXX); 
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1); --Citrine
+insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+VALUES (chXXX, 'Neither', 'Small', 'Spawning Point', 0, 0, '', '1ST', '', '', 3, 0);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Immune: Status Effects
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Spawning Pool
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Stealth
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (eXXX, 2); --Armor 
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (eXXX, 'Spawning Point', 'Start', 0);
+
+
+--Nether Hatchlings --CardIndex cXXX --CharacterIndex chXXX --ExploreCharacterIndex eXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Nether Hatchlings',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Nether_Clutch/Card_Warband_Nether_Clutch_Nether_Hatchlings_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Warbands/Nether_Clutch/Card_Warband_Nether_Clutch_Nether_Hatchlings_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Nether_Clutch/Nether_Hatchlings.xhtml', 
+'Warband', '2.0', '2.0 Core Set', 'Explore',
+'Particularly playful, the hatchling drakes of the Nether rifts do not understand where play ends, combat begins, or cruelty reigns. Many a demon has fallen prey to a small pack of hatchlings whose playful behavior turned to tragic end.');
+insert into Characters (CardIndex) VALUES (cXXX);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1); --Citrine
+insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+VALUES (eXXX, 'Either', 'Small', 'Drake', 6, 2, '2B', '0ST', '2B', '3B', 2, 0);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Mighty
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Pile-on
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 1, 1); --Strength
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (eXXX, 2); --Armor 
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (eXXX, 'Minion', '8 Bit', 1);
+
+
+--Nether Whelp --CardIndex cXXX --CharacterIndex chXXX --ExploreCharacterIndex eXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Nether Whelp',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Nether_Clutch/Card_Warband_Nether_Clutch_Nether_Whelp_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Warbands/Nether_Clutch/Card_Warband_Nether_Clutch_Nether_Whelp_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Nether_Clutch/Nether_Whelp.xhtml', 
+'Warband', '2.0', '2.0 Core Set', 'Explore',
+'Nether whelps tend to be solitary hunters. Staking out large territories, they mirror their dragon kin''s covetous tendencies, hoarding shiny baubles and bits of coin.');
+insert into Characters (CardIndex) VALUES (cXXX); 
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1); --Citrine
+insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+VALUES (41, 'Either', 'Large', 'Drake', 6, 1, '2B 1R', '0ST', '3B', '3B', 1, 0);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Knockdown
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Mighty
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Pile-on
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 1, 1); --Strength
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (eXXX, 2); --Armor 
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (eXXX, 'Minion', '8 Bit', 1);
+
+
+--Nether Wyrmling --CardIndex cXXX --CharacterIndex chXXX --ExploreCharacterIndex eXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Nether Wyrmling',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Nether_Clutch/Card_Warband_Nether_Clutch_Nether_Wyrmling_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Warbands/Nether_Clutch/Card_Warband_Nether_Clutch_Nether_Wyrmling_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Nether_Clutch/Nether_Wyrmling.xhtml', 
+'Warband', '2.0', '2.0 Core Set', 'Explore',
+'Nether wyrmlings serve as the vanguard and scouts of the Dark Realm''s armies. Bursting forth from the Nether Rifts in vast flocks, they flood the skies of Crystalia searching for Crystalian settlements, patrols, and unwary parties of Heroes.');
+insert into Characters (CardIndex) VALUES (cXXX); 
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 2); --Emerald
+insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+VALUES (chXXX, 'Either', 'Large', 'Drake', 6, 2, '2B 1R', '0ST', '3B', '3B', 2, 0);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Bane
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Fly
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Knockdown
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Mighty
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Pile-on
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Bane Burst
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Dive Bomb
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 1, 1); --Strength
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 4, 6); --Dex
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (eXXX, 2); --Armor 
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (eXXX, 'Elite', '8 Bit', 2); 
+
+
+--Pinching Palace
+--Pinching Palace --CardIndex cXXX --CharacterIndex chXXX --ExploreCharacterIndex eXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Pinching Palace',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Pinching_Palace/Card_Warband_Pinching_Palace_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Warbands/Pinching_Palace/Card_Warband_Pinching_Palace_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Pinching_Palace/Pinching_Palace.xhtml', 
+'Warband', '2.0', '2.0 Core Set', 'Explore',
+'A Lord of Crabs is only at home among crustaceans and other lurking denizens of the deep. They spend a great deal of time cultivating homes for their crabby friends, making sure they are protected, fed, and happy. This, in turn, makes the Lord of Crabs happy--even if only for a short while.');
+insert into Characters (CardIndex) VALUES (cXXX); 
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 4); --Sapphire
+insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+VALUES (chXXX, 'Neither', 'Small', 'Spawning Point', 0, 0, '', '2ST', '', '', 3, 0);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Backlash
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Immune: Status Effects
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Reserve
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Spawning Pool
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (eXXX, 2); --Armor 
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (eXXX, 'Spawning Point', 'Start', 0);
+
+
+--Big Claw --CardIndex cXXX --CharacterIndex chXXX --ExploreCharacterIndex eXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Big Claw',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Pinching_Palace/Card_Warband_Pinching_Palace_Big_Claw_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Warbands/Pinching_Palace/Card_Warband_Pinching_Palace_Big_Claw_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Pinching_Palace/Big_Claw.xhtml', 
+'Warband', '2.0', '2.0 Core Set', 'Explore',
+'Big Claws love to lurk in the muck and mud, happily eating anything and everything that wanders too close, including tasty Heroes. Determined (and hungry) Big Claws can be remarkably tenacious, latching onto their prey with their single enormous claw and refusing to let go. As they grow more agitated, the water and muck around them deepens, further bogging down their prey until escape is impossible.');
+insert into Characters (CardIndex) VALUES (cXXX);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 4); --Sapphire
+insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+VALUES (eXXX, 'Either', 'Small', 'Crab', 8, 1, '3B', '1ST', '1B', '3B', 1, 0);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Grabby
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Immune: Knockdown
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Surefoot
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Rising Tide
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 1, 1); --Strength
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (eXXX, 2); --Armor 
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (eXXX, 'Minion', '8 Bit', 1);
+
+
+--Carapace Crawler --CardIndex cXXX --CharacterIndex chXXX --ExploreCharacterIndex eXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Carapace Crawler',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Pinching_Palace/Card_Warband_Pinching_Palace_Carapace_Crawler_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Warbands/Pinching_Palace/Card_Warband_Pinching_Palace_Carapace_Crawler_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Pinching_Palace/Carapace_Crawler.xhtml', 
+'Warband', '2.0', '2.0 Core Set', 'Explore',
+'Carapace Crawlers grow to immense sizes extraordinarily quickly. As they grow, they molt constantly, leaving spiny shells littering the sands. These shells prove hazardous in a fight, and a canny warrior will use them to their advantage by pushing their opponents across the shells, causing them to trip and lose their balance.');
+insert into Characters (CardIndex) VALUES (cXXX); 
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 4); --Sapphire
+insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+VALUES (41, 'Either', 'Large', 'Crab', 8, 1, '2B', '0ST', '1B', '3B', 1, 0);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Grabby
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Immune: Knockdown
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Surefoot
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Empty Shell
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 1, 1); --Strength
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 4, 4); --Dex
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (eXXX, 2); --Armor 
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (eXXX, 'Minion', '8 Bit', 1);
+
+
+--Lord of the Crabs --CardIndex cXXX --CharacterIndex chXXX --ExploreCharacterIndex eXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Lord of the Crabs',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Pinching_Palace/Card_Warband_Pinching_Palace_Lord_of_the_Crabs_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Warbands/Pinching_Palace/Card_Warband_Pinching_Palace_Lord_of_the_Crabs_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Pinching_Palace/Lord_of_the_Crabs.xhtml', 
+'Warband', '2.0', '2.0 Core Set', 'Explore',
+'Strange and reclusive, Lords of the Crabs haunt the misty coastlines of Crystalia like specters. Intensely private, they live in craggy crevices where the ocean waves crash upon the diffs. Able to form a bizarre communion with crustaceans and other oceanic life, these druids only answer the call of their elvish kin when forced, or when their territory is threatened.');
+insert into Characters (CardIndex) VALUES (cXXX); 
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 3); --Ruby
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 4); --Sapphire
+insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+VALUES (chXXX, 'Female', 'Small', 'Nether Elf', 8, 3, '1B', '3B', '2R', '3B', 3, 0);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Burrow
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Immune: Knockdown
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Knockdown
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Pile-on
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Surefoot
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Twisting Sands
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Scuttling Menance
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Pick Them Clean
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 3, 6); --Will
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (eXXX, 2); --Armor 
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (eXXX, 'Elite', '8 Bit', 2); 
+
+
+--Sand Spire
+--Sand Spire --CardIndex cXXX --CharacterIndex chXXX --ExploreCharacterIndex eXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Sand Spire',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Sand_Spire/Card_Warband_Sand_Spire_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Warbands/Sand_Spire/Card_Warband_Sand_Spire_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Sand_Spire/Sand_Spire.xhtml', 
+'Warband', '2.0', '2.0 Core Set', 'Explore',
+'Arcadian nether elves are nomadic by nature and enjoy a thriving culture around horsemanship. Even among the Crystalian nobility, many say Arcadian stallions are the finest in all the realms. In contrast to many other nether elves, Arcadian nether elves have regular and mostly peaceful dealings with the various other cultures which call the dunes home. This is likely due to the harsh nature of the dunes. What meager resources it provides must be carefully cultivated and maintained, even through warfare. Despite this, Arcadian nether elves are wholly devoted to the Dark Consul and the Midnight Queen, ready to answer their call without hesitation.');
+insert into Characters (CardIndex) VALUES (cXXX); 
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 3); --Ruby
+insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+VALUES (chXXX, 'Neither', 'Small', 'Spawning Point', 0, 0, '', '1ST', '', '', 3, 0);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Immune: Status Effects
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Predator
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Predatory Aura
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Spawning Pool
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (eXXX, 2); --Armor 
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (eXXX, 'Spawning Point', 'Start', 0);
+
+
+--Desert Blade --CardIndex cXXX --CharacterIndex chXXX --ExploreCharacterIndex eXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Desert Blade',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Sand_Spire/Card_Warband_Sand_Spire_Desert_Blade_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Warbands/Sand_Spire/Card_Warband_Sand_Spire_Desert_Blade_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Sand_Spire/Desert_Blade.xhtml', 
+'Warband', '2.0', '2.0 Core Set', 'Explore',
+'A specialized caste within the Blackblades, Desert Blades have adapted their fighting style to the unique conditions of the Arcadian Dunes. Eschewing the traditional heavy plate armor common to their discipline, Desert Blades are lighter and faster opponents than their kin.');
+insert into Characters (CardIndex) VALUES (cXXX);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 3); --Ruby
+insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+VALUES (eXXX, 'Male', 'Small', 'Nether Elf', 7, 1, '2B 1R', '1ST', '3B', '3B', 1, 0);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Bluff
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Surefoot
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Discipline
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 1, 1); --Strength
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (eXXX, 2); --Armor 
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (eXXX, 'Minion', '8 Bit', 1);
+
+
+--Dune Hunter --CardIndex cXXX --CharacterIndex chXXX --ExploreCharacterIndex eXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Dune Hunter',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Sand_Spire/Card_Warband_Sand_Spire_Dune_Hunter_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Warbands/Sand_Spire/Card_Warband_Sand_Spire_Dune_Hunter_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Sand_Spire/Dune_Hunter.xhtml', 
+'Warband', '2.0', '2.0 Core Set', 'Explore',
+'True to their name, Dune Hunters are master trackers and hunters of the dunes. Skilled in survival and trapping techniques, Dune Hunters will patiently stalk Heroes for days, using subtle tricks and bluffs to guide, lure, and herd their target into ambush.');
+insert into Characters (CardIndex) VALUES (cXXX); 
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 2); --Emerald
+insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+VALUES (41, 'Male', 'Small', 'Nether Elf', 7, 1, '2B', '1ST', '3B', '3B', 1, 0);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Bluff
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Surefoot
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Snare
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 1, 1); --Strength
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 4, 8); --Dex
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (eXXX, 2); --Armor 
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (eXXX, 'Minion', '8 Bit', 1);
+
+
+--Silk Knife --CardIndex cXXX --CharacterIndex chXXX --ExploreCharacterIndex eXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Silk Knife',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Sand_Spire/Card_Warband_Sand_Spire_Silk_Knife_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Warbands/Sand_Spire/Card_Warband_Sand_Spire_Silk_Knife_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Sand_Spire/Silk_Knife.xhtml', 
+'Warband', '2.0', '2.0 Core Set', 'Explore',
+'Graceful, beautiful, silent, deadly--all words used to describe the assassins known as the Cult of Silk. Even among the nether elves none know who truly controls the Cult of Silk. Their assassins, known as Knives, have never been captured alive. Over the centuries, the Cult of Silk has been implicated in the death of Heroes, monstrous warlords, nether elves, and even the Consul''s own dungeon bosses. Indeed, even the Midnight Queen maintains only a tenuous truce with the cult and its mysterious leader.');
+insert into Characters (CardIndex) VALUES (cXXX); 
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 3); --Ruby
+insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+VALUES (chXXX, 'Female', 'Small', 'Nether Elf', 8, 3, '3B 1R', '1B', '3B', '3B', 3, 0);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Bane
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Bluff
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Predator
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Surefoot
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Weaken the Prey
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Shadow
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Hunting Party
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 1, 1); --Strength
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (eXXX, 3); --Will 
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (eXXX, 'Elite', '16 Bit', 3); 
+
+
+--Scrap Tower
+--Scrap Tower --CardIndex cXXX --CharacterIndex chXXX --ExploreCharacterIndex eXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Scrap Tower',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Scrap_Tower/Card_Warband_Scrap_Tower_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Warbands/Scrap_Tower/Card_Warband_Scrap_Tower_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Scrap_Tower/Scrap_Tower.xhtml', 
+'Warband', '2.0', '2.0 Core Set', 'Explore',
+'');--!! unavailable !!
+insert into Characters (CardIndex) VALUES (cXXX); 
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 3); --Ruby
+insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+VALUES (chXXX, 'Neither', 'Small', 'Spawning Point', 0, 0, '', '1ST', '', '', 3, 0);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Immune: Status Effects
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Penata of Death
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Spawning Pool
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (eXXX, 2); --Armor 
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (eXXX, 'Spawning Point', 'Start', 0);
+
+
+--Dunce --CardIndex cXXX --CharacterIndex chXXX --ExploreCharacterIndex eXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Dunce',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Scrap_Tower/Card_Warband_Scrap_Tower_Dunce_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Warbands/Scrap_Tower/Card_Warband_Scrap_Tower_Dunce_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Scrap_Tower/Dunce.xhtml', 
+'Warband', '2.0', '2.0 Core Set', 'Explore',
+'');--!! unavailable !!
+insert into Characters (CardIndex) VALUES (cXXX);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 3); --Ruby
+insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+VALUES (eXXX, 'Male', 'Small', 'Gnome', 4, 1, '0ST', '0ST', '3B', '3B', 1, 0);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Pinata of Death
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Say Hello To My Littler Friend!
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Chew on This!
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 4, 6); --Dex
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (eXXX, 2); --Armor 
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (eXXX, 'Minion', '8 Bit', 1);
+
+
+--Gate Crasher --CardIndex cXXX --CharacterIndex chXXX --ExploreCharacterIndex eXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Gate Crasher',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Scrap_Tower/Card_Warband_Scrap_Tower_Gate_Crasher_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Warbands/Scrap_Tower/Card_Warband_Scrap_Tower_Gate_Crasher_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Scrap_Tower/Gate_Crasher.xhtml', 
+'Warband', '2.0', '2.0 Core Set', 'Explore',
+'');--!! unavailable !!
+insert into Characters (CardIndex) VALUES (cXXX); 
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 3); --Ruby
+insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+VALUES (41, 'Neither', 'Small', 'Construct', 0, 1, '1B 1R', '1G', '0ST', '0ST', 3, 0);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Gatekeeper
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Steady
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Thwomp
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Why Was I Built To Feel Loneliness?
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 1, 1); --Strength
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (eXXX, 2); --Armor 
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (eXXX, 'Minion', '8 Bit', 1);
+
+
+--Grim Oculus --CardIndex cXXX --CharacterIndex chXXX --ExploreCharacterIndex eXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Grim Oculus',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Scrap_Tower/Card_Warband_Scrap_Tower_Grim_Oculus_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Warbands/Scrap_Tower/Card_Warband_Scrap_Tower_Grim_Oculus_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Scrap_Tower/Grim_Oculus.xhtml', 
+'Warband', '2.0', '2.0 Core Set', 'Explore',
+'');--!! unavailable !!
+insert into Characters (CardIndex) VALUES (cXXX); 
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 3); --Ruby
+insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+VALUES (chXXX, 'Neither', 'Small', 'Construct', 0, 1, '0ST', '2ST', '2B 1R', '0ST', 2, 0);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Steady
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --The Eye Is Open
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Why Was I Built To Feel Loneliness?
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 3, 8); --Will
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (eXXX, 2); --Armor 
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (eXXX, 'Minion', '16 Bit', 3); 
+
+
+--Kabomb --CardIndex cXXX --CharacterIndex chXXX --ExploreCharacterIndex eXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Kabomb',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Scrap_Tower/Card_Warband_Scrap_Tower_Kabomb_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Warbands/Scrap_Tower/Card_Warband_Scrap_Tower_Kabomb_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Scrap_Tower/Kabomb.xhtml', 
+'Warband', '2.0', '2.0 Core Set', 'Explore',
+'');--!! unavailable !!
+insert into Characters (CardIndex) VALUES (cXXX); 
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 3); --Ruby
+insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+VALUES (chXXX, 'Neither', 'Small', 'Construct', 0, 0, '1B', '0ST', '0ST', '0ST', 1, 0);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Bouncing Betty
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Insignificant
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Toss Me
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Volatile
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (eXXX, 2); --Armor 
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (eXXX, 'Creep', '8 Bit', 1); 
+
+
+--Sewer Pipe
+--Sewer Pipe --CardIndex cXXX --CharacterIndex chXXX --ExploreCharacterIndex eXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Sewer Pipe',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Sewer_Pipe/Card_Warband_Sewer_Pipe_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Warbands/Sewer_Pipe/Card_Warband_Sewer_Pipe_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Sewer_Pipe/Sewer_Pipe.xhtml', 
+'Warband', '2.0', '2.0 Core Set', 'Explore',
+'Beneath the bellowing forges, the clanking constructs, and the grinding cogs of Clockwork Cove lies the Undercove, a bastion for the forgotten and dispossessed. These lost children of the sewer band together into loose gangs of thieves and thugs all striving to survive. It is no surprise then that the Dark Consul finds the Undercove a rich recruitment ground for new agents to advance his dark designs.');
+insert into Characters (CardIndex) VALUES (cXXX); 
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1); --Citrine
+insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+VALUES (chXXX, 'Neither', 'Small', 'Spawning Point', 0, 0, '', '1ST', '', '', 3, 0);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Immune: Status Effects
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Infested
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Spawning Pool
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (eXXX, 2); --Armor 
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (eXXX, 'Spawning Point', 'Start', 0);
+
+
+--Fetch --CardIndex cXXX --CharacterIndex chXXX --ExploreCharacterIndex eXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Fetch',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Sewer_Pipe/Card_Warband_Sewer_Pipe_Fetch_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Warbands/Sewer_Pipe/Card_Warband_Sewer_Pipe_Fetch_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Sewer_Pipe/Fetch.xhtml', 
+'Warband', '2.0', '2.0 Core Set', 'Explore',
+'Fetches are brutal-minded goblins that lack the sneakiness and finesse to become good thieves. Instead, they serve as thugs and collectors within the Pauper Prince''s ranks, using their nets to ensnare their victims allowing the rest of the gang to easily see to the "retrieval" of goods.');
+insert into Characters (CardIndex) VALUES (cXXX);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1); --Citrine
+insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+VALUES (eXXX, 'Male', 'Small', 'Goblin', 7, 1, '3B', '1ST', '1B', '2R', 1, 0);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Immobile
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Mob
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Yoink!
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Ensnare
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 1, 1); --Strength
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (eXXX, 2); --Armor 
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (eXXX, 'Minion', '8 Bit', 1);
+
+
+--Guttersnipe --CardIndex cXXX --CharacterIndex chXXX --ExploreCharacterIndex eXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Guttersnipe',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Sewer_Pipe/Card_Warband_Sewer_Pipe_Guttersnipe_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Warbands/Sewer_Pipe/Card_Warband_Sewer_Pipe_Guttersnipe_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Sewer_Pipe/Guttersnipe.xhtml', 
+'Warband', '2.0', '2.0 Core Set', 'Explore',
+'Nimble and quick-fingered, Guttersnipes canvas both the Undercove and the Cove Above collecting the Prince''s Due. When simple sneakiness or diversion is not sufficient to conceal their actions, Guttersnipes will light the small braziers that hang from their belts, filling the area in clouds of smoke.');
+insert into Characters (CardIndex) VALUES (cXXX); 
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1); --Citrine
+insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+VALUES (41, 'Neither', 'Small', 'Goblin', 7, 1, '3B', '0ST', '1B', '1B 1R', 1, 0);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Mob
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Stealth
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Yoink!
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Smoke Brazier
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 1, 1); --Strength
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (eXXX, 2); --Armor 
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (eXXX, 'Minion', '8 Bit', 1);
+
+
+--Moffet --CardIndex cXXX --CharacterIndex chXXX --ExploreCharacterIndex eXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Moffet',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Sewer_Pipe/Card_Warband_Sewer_Pipe_Moffet_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Warbands/Sewer_Pipe/Card_Warband_Sewer_Pipe_Moffet_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Sewer_Pipe/Moffet.xhtml', 
+'Warband', '2.0', '2.0 Core Set', 'Explore',
+'Trusted lieutenants within the Pauper Prince''s ranks, Moffets lead gangs of thieves to collect the Prince''s Due. Moffets rise to their station through displays of cunning, deviousness, and treachery all of which are inevitably employed towards the removal of the Moffet before them.');
+insert into Characters (CardIndex) VALUES (cXXX); 
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1); --Citrine
+insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+VALUES (chXXX, 'Female', 'Small', 'Goblin', 7, 2, '2B', '3B', '3B', '2B 1R', 3, 0);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Dibs
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Sidestep
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Clockwork Gatling
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 1, 1); --Strength
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 4, 4); --Dex
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (eXXX, 2); --Armor 
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (eXXX, 'Elite', '16 Bit', 2); 
+
+
+--Shadow Tower
+--Shadow Tower --CardIndex cXXX --CharacterIndex chXXX --ExploreCharacterIndex eXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Shadow Tower',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Shadow_Tower/Card_Warband_Shadow_Tower_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Warbands/Shadow_Tower/Card_Warband_Shadow_Tower_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Shadow_Tower/Shadow_Tower.xhtml', 
+'Warband', '2.0', '2.0 Core Set', 'Explore',
+'When the Dark Realm breached the light of Crystalia, it tore a rent between the two worlds known as the Nether Rifts. Much of the land which was lost to the newly formed Nether Rifts was of the Fae Wood. As the rifts opened, entire villages and cities of deeproot elves were swallowed by the Dark Realm. Forced to survive within the cold darkness of the Dark Consul''s domain, the elves became dark reflections of what they once were. Twisted by the corrupting influence of shadow, they became vile and villainous, a scourge upon all of Crystalia.');
+insert into Characters (CardIndex) VALUES (cXXX); 
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 3); --Ruby
+insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+VALUES (chXXX, 'Neither', 'Small', 'Spawning Point', 0, 0, '', '1ST', '', '', 3, 0);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Immune: Status Effects
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Spawning Pool
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Stealth
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Stealth Aura
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (eXXX, 2); --Armor 
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (eXXX, 'Spawning Point', 'Start', 0);
+
+
+--Tower Arbalist --CardIndex cXXX --CharacterIndex chXXX --ExploreCharacterIndex eXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Tower Arbalist',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Shadow_Tower/Card_Warband_Shadow_Tower_Tower_Arbalist_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Warbands/Shadow_Tower/Card_Warband_Shadow_Tower_Tower_Arbalist_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Shadow_Tower/Tower_Arbalist.xhtml', 
+'Warband', '2.0', '2.0 Core Set', 'Explore',
+'Nether elves see little reason to sacrifice themselves needlessly in battle. Because of this, the large majority of nether elf battalions consist of ranks upon ranks of Arbalists wielding wicked crossbows. Before an enemy is able to engage the nether elves'' lines, they must withstand a withering barrage of bolts.');
+insert into Characters (CardIndex) VALUES (cXXX);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 3); --Ruby
+insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+VALUES (eXXX, 'Male', 'Small', 'Nether Elf', 7, 1, '2B', '1ST', '3B', '3B', 1, 0);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Dread
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Ice
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Surefoot
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Enervating Bolt
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 1, 1); --Strength
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 4, 8); --Dex
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (eXXX, 2); --Armor 
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (eXXX, 'Minion', '8 Bit', 1);
+
+
+--Tower Blackblade --CardIndex cXXX --CharacterIndex chXXX --ExploreCharacterIndex eXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Tower Blackblade',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Shadow_Tower/Card_Warband_Shadow_Tower_Tower_Blackblade_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Warbands/Shadow_Tower/Card_Warband_Shadow_Tower_Tower_Blackblade_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Shadow_Tower/Tower_Blackblade.xhtml', 
+'Warband', '2.0', '2.0 Core Set', 'Explore',
+'Blackblades are the standard infantry which comprise the bulk of the Midnight Queen''s forces. However, Blackblades are anything but "standard." With military careers spanning centuries, Blackblades are devoted to the art of soldiery and martial combat. Cruel and utterly without mercy, Blackblades are instruments of death and destruction.');
+insert into Characters (CardIndex) VALUES (cXXX); 
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 3); --Ruby
+insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+VALUES (41, 'Male', 'Small', 'Nether Elf', 7, 1, '2B 1R', '1ST', '3B', '3B', 1, 0);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Dread
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Surefoot
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Discipline
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 1, 1); --Strength
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (eXXX, 2); --Armor 
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (eXXX, 'Minion', '8 Bit', 1);
+
+
+--Tower Stalker --CardIndex cXXX --CharacterIndex chXXX --ExploreCharacterIndex eXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Tower Stalker',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Shadow_Tower/Card_Warband_Shadow_Tower_Tower_Stalker_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Warbands/Shadow_Tower/Card_Warband_Shadow_Tower_Tower_Stalker_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Shadow_Tower/Tower_Stalker.xhtml', 
+'Warband', '2.0', '2.0 Core Set', 'Explore',
+'Tower Stalkers seek to identify the weakest link and remove it. Relishing in sowing dread and terror, a Tower Stalker will harry and toy with an adventuring party. Striking when Heroes become isolated or vulnerable, always seeking to keep the party guessing and off balance. Under such an assault, many lose heart and abandon their quest entirely.');
+insert into Characters (CardIndex) VALUES (cXXX); 
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 3); --Ruby
+insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+VALUES (chXXX, 'Female', 'Small', 'Nether Elf', 8, 3, '3B 1R', '1B', '3B', '3B', 3, 0);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Bane
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Dread
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Stealth
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Surefoot
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Weaken the Prey
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Shadow
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Unnatural Dark
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 1, 1); --Strength
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (eXXX, 3); --Will 
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (eXXX, 'Elite', '16 Bit', 3);
+
+
+--Shadow Warrens
+--Shadow Warrens --CardIndex cXXX --CharacterIndex chXXX --ExploreCharacterIndex eXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Shadow Warrens',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Shadow_Warrens/Card_Warband_Shadow_Warrens_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Warbands/Shadow_Warrens/Card_Warband_Shadow_Warrens_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Shadow_Warrens/Shadow_Warrens.xhtml', 
+'Warband', '2.0', '2.0 Core Set', 'Explore',
+'Corsucating with the midnight energies of the Dark Realm, the kobolds of the Shadow Warrens are closely linked to the Dark Consul. Despite this, the cults of the Shadow Warrens are divided and fractious. The Cult of the First claims to be the original cult, tracing its lineage back to the Dark Consul''s first rise to power. The Cult of Shattered Night cares little for the other cults, relishing in assassination and intrigue. However, it is the Cult of the Dark that has recently drawn the most worry from the Heroes of Crystalia. Lead by the Demon Lord known only as The Destroyer, the Cult of the Dark has laid waste to every foe it has faced. It has become an endless tide of darkness consuming Crystalia bit by bit.');
+insert into Characters (CardIndex) VALUES (cXXX); 
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1); --Citrine
+insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+VALUES (chXXX, 'Neither', 'Small', 'Paired Spawning Point', 0, 0, '', '1ST', '', '', 4, 0);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Immune: Status Effects
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Spawning Pool
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Stealth
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (eXXX, 2); --Armor 
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (eXXX, 'Spawning Point', 'Start', 0);
+
+
+--Dark Lobber --CardIndex cXXX --CharacterIndex chXXX --ExploreCharacterIndex eXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Dark Lobber',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Shadow_Warrens/Card_Warband_Shadow_Warrens_Dark_Lobber_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Warbands/Shadow_Warrens/Card_Warband_Shadow_Warrens_Dark_Lobber_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Shadow_Warrens/Dark_Lobber.xhtml', 
+'Warband', '2.0', '2.0 Core Set', 'Explore',
+'The kobolds of the Nether Rifts plague the outskirts of the Fae Woods, and are a scourge upon the local wildlife. A particularly favored concoction is a stew simmered from rabid squirrels. Flung from their steaming slings, the stew inflicts strange madness and afflictions upon anyone that it touches.');
+insert into Characters (CardIndex) VALUES (cXXX);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 2); --Emerald
+insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+VALUES (eXXX, 'Neither', 'Small', 'Kobold', 7, 1, '2B', '0ST', '2B', '2B 1R', 1, 0);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Fire
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Hubris
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Squirrely
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Stealth
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Hot Pot
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Squirrel Stew
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 1, 1); --Strength
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 4, 6); --Dex
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (eXXX, 2); --Armor 
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (eXXX, 'Elite', '8 Bit', 1);
+
+
+--Dimwit --CardIndex cXXX --CharacterIndex chXXX --ExploreCharacterIndex eXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Dimwit',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Shadow_Warrens/Card_Warband_Shadow_Warrens_Dimwit_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Warbands/Shadow_Warrens/Card_Warband_Shadow_Warrens_Dimwit_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Shadow_Warrens/Dimwit.xhtml', 
+'Warband', '2.0', '2.0 Core Set', 'Explore',
+'Dimwits are covetous and greedy creatures, constantly engaging in displays of one-upsmanship and bravado. Most Dimwits are absolutely certain in their superiority and are driven into fits of insane rage when confronted by Heroes whose gear gleams brighter than their own.');
+insert into Characters (CardIndex) VALUES (cXXX); 
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1); --Citrine
+insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+VALUES (41, 'Neither', 'Small', 'Kobold', 7, 1, '3B', '1ST', '2B', '1B 1R', 1, 0);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Hubris
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Stealth
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 1, 1); --Strength
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (eXXX, 2); --Armor 
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (eXXX, 'Minion', '8 Bit', 1);
+
+
+--Shadowscale --CardIndex cXXX --CharacterIndex chXXX --ExploreCharacterIndex eXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Shadowscale',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Shadow_Warrens/Card_Warband_Shadow_Warrens_Shadowscale_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Warbands/Shadow_Warrens/Card_Warband_Shadow_Warrens_Shadowscale_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Shadow_Warrens/Shadowscale.xhtml', 
+'Warband', '2.0', '2.0 Core Set', 'Explore',
+'Shadowscales rise from the ranks of Dimwits by virtue of being bigger, stronger, and having acquired better loot than the others. Still prone to the same infighting, bickering, and jealousy of others, they occasionally deign to assist their lessers just to prove how magnanimous they truly are. However, such behavior typically leads to the collection of "protection" taxes after the battle.');
+insert into Characters (CardIndex) VALUES (cXXX); 
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 4); --Sapphire
+insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+VALUES (chXXX, 'Neither', 'Small', 'Kobold', 7, 2, '2R', '2ST', '2B', '1B 1R', 1, 0);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Hubris
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Stealth
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Scalewall
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 1, 1); --Strength
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (eXXX, 3); --Will 
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (eXXX, 'Elite', '8 Bit', 2);
+
+
+--Shadow Priest --CardIndex cXXX --CharacterIndex chXXX --ExploreCharacterIndex eXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Shadow Priest',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Shadow_Warrens/Card_Warband_Shadow_Warrens_Shadow_Priest_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Warbands/Shadow_Warrens/Card_Warband_Shadow_Warrens_Shadow_Priest_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Shadow_Warrens/Shadow_Priest.xhtml', 
+'Warband', '2.0', '2.0 Core Set', 'Explore',
+'Shadow Priests are haughty and a bit insufferable to other kobolds. The Shadow Priests proximity to the Dark Realm grant them a certain sense of smug superiority over other kobolds, whom they feel have strayed too far from the dark. This view is heightened by the Lord of their cult, The Destroyer, who sees all creatures who have left the embrace of the Dark Realm as weak and insignificant.');
+insert into Characters (CardIndex) VALUES (cXXX); 
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 3); --Ruby
+insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+VALUES (chXXX, 'Neither', 'Small', 'Kobold', 7, 3, '2B', '1B 1R', '2R', '1B 1R', 3, 0);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Hubris
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Stealth
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Dragon Rage
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Deep Dark
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 1, 1); --Strength
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 3, 6); --Will
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (eXXX, 2); --Armor 
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (eXXX, 'Elite', '16 Bit', 2);
+
+
+--Skewer --CardIndex cXXX --CharacterIndex chXXX --ExploreCharacterIndex eXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Skewer',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Shadow_Warrens/Card_Warband_Shadow_Warrens_Skewer_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Warbands/Shadow_Warrens/Card_Warband_Shadow_Warrens_Skewer_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Shadow_Warrens/Skewer.xhtml', 
+'Warband', '2.0', '2.0 Core Set', 'Explore',
+'Skewers are the rabble of the Shadow Warrens. These unfortunate kobolds have never been strong enough to hold onto the weapons and armor they manage to scavenge from the battlefield, and lack the necessary hand-eye coordination to use a sling. In ordr to get some use out of them, they are given a spear and thrust to the head of the battle.');
+insert into Characters (CardIndex) VALUES (cXXX); 
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1); --Citrine
+insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+VALUES (chXXX, 'Neither', 'Small', 'Kobold', 7, 1, '3B', '0ST', '2B', '1B 1R', 1, 0);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Hubris
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Stealth
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 1, 2); --Strength
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (eXXX, 2); --Armor 
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (eXXX, 'Minion', '8 Bit', 1);
+
+
+--Siege of the Citadel
+--Necromutant --CardIndex cXXX --CharacterIndex chXXX --ExploreCharacterIndex eXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Necromutant',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Siege_of_the_Citadel/Card_Warband_Siege_of_the_Citadel_Necromutant_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Warbands/Siege_of_the_Citadel/Card_Warband_Siege_of_the_Citadel_Necromutant_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Siege_of_the_Citadel/Necromutant.xhtml', 
+'Warband', '2.0', '2.0 Core Set', 'Explore',
+'');
+insert into Characters (CardIndex) VALUES (cXXX);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1); --Citrine
+insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+VALUES (eXXX, 'Neither', 'Large', 'Chimera', 5, 2, '3B', '1ST', '1B', '1B', 2, 0);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Mob
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Belzarach
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Undead Reinforcements
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 1, 1); --Strength
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (eXXX, 2); --Armor 
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (eXXX, 'Elite', '8 Bit', 2);
+
+
+--Nepharite Warlord --CardIndex cXXX --CharacterIndex chXXX --ExploreCharacterIndex eXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Nepharite Warlord',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Siege_of_the_Citadel/Card_Warband_Nepharite_Warlord_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Warbands/Siege_of_the_Citadel/Card_Warband_Nepharite_Warlord_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Siege_of_the_Citadel/Nepharite_Warlord.xhtml', 
+'Warband', '2.0', '2.0 Core Set', 'Explore',
+'');
+insert into Characters (CardIndex) VALUES (cXXX); 
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1); --Citrine
+insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+VALUES (chXXX, 'Neither', 'Large', 'Spawning Point', 2, 2, '2B 1R', '1ST', '2B 1R', '2B', 3, 0);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Active Spawn
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Dark Nexus
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Dark Radiance
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Spawning Pool
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Azogar
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Dimension Warp
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --True Gate
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 1, 2); --Strength
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (eXXX, 2); --Armor 
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (eXXX, 'Spawning Point', 'Start', 3);
+
+
+--Undead Legionnaire --CardIndex cXXX --CharacterIndex chXXX --ExploreCharacterIndex eXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Undead Legionnaire',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Siege_of_the_Citadel/Card_Warband_Siege_of_the_Citadel_Undead_Legionnaire_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Warbands/Siege_of_the_Citadel/Card_Warband_Siege_of_the_Citadel_Undead_Legionnaire_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Siege_of_the_Citadel/Undead_Legionnaire.xhtml', 
+'Warband', '2.0', '2.0 Core Set', 'Explore',
+'');
+insert into Characters (CardIndex) VALUES (cXXX); 
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1); --Citrine
+insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+VALUES (41, 'Neither', 'Small', 'Undead', 5, 1, '2B', '0ST', '1B', '0ST', 2, 0);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Mob
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Poison
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Kratach
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 1, 1); --Strength
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (eXXX, 2); --Armor 
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (eXXX, 'Minion', '8 Bit', 2);
+
+
+--Skull Stone
+--Skull Stone --CardIndex cXXX --CharacterIndex chXXX --ExploreCharacterIndex eXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Skull Stone',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Skull_Stone/Card_Warband_Skull_Stone_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Warbands/Skull_Stone/Card_Warband_Skull_Stone_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Skull_Stone/Skull_Stone.xhtml', 
+'Warband', '2.0', '2.0 Core Set', 'Explore',
+'A dominant race within the Dark Realm, orcs are hearty and violent by nature. Orcs congregate in huge tribes lead by the strongest or most cunning warrior among them. Under the guidance of a powerful warlord, orc tribes are scourges to the surrounding land and people. Caring little if they attack creatures of Light or Darkness, orcs care only for the thrill of the hunt and the chaos of battle.');
+insert into Characters (CardIndex) VALUES (cXXX); 
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1); --Citrine
+insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+VALUES (chXXX, 'Neither', 'Small', 'Paired Spawning Point', 0, 0, '', '1ST', '', '', 4, 0);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Brutality Aura
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Immune: Status Effects
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Spawning Pool
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (eXXX, 2); --Armor 
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (eXXX, 'Spawning Point', 'Start', 0);
+
+
+--Face Beater --CardIndex cXXX --CharacterIndex chXXX --ExploreCharacterIndex eXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Face Beater',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Skull_Stone/Card_Warband_Skull_Stone_Face_Beater_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Warbands/Skull_Stone/Card_Warband_Skull_Stone_Face_Beater_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Skull_Stone/Face_Beater.xhtml', 
+'Warband', '2.0', '2.0 Core Set', 'Explore',
+'Your face. I don''t like it. Come close little ugly face. Come''er. Don''t back away. That''s it. Stand right there. This will only take a moment.');
+insert into Characters (CardIndex) VALUES (cXXX);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1); --Citrine
+insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+VALUES (eXXX, 'Neither', 'Small', 'Orc', 6, 1, '3B', '0ST', '1B', '2B', 2, 0);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Bane
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Frenzy
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Face Beat
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 1, 1); --Strength
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 4, 6); --Dex
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (eXXX, 2); --Armor 
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (eXXX, 'Minion', '8 Bit', 1);
+
+
+--Knuckle Smasher --CardIndex cXXX --CharacterIndex chXXX --ExploreCharacterIndex eXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Knuckle Smasher',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Skull_Stone/Card_Warband_Skull_Stone_Knuckle_Smasher_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Warbands/Skull_Stone/Card_Warband_Skull_Stone_Knuckle_Smasher_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Skull_Stone/Knuckle_Smasher.xhtml', 
+'Warband', '2.0', '2.0 Core Set', 'Explore',
+'Look at my fists. They are not happy. They are so sad. Need to smash something. Need to hit something. Need to hit you. Need to hit you NOW!');
+insert into Characters (CardIndex) VALUES (cXXX); 
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1); --Citrine
+insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+VALUES (41, 'Neither', 'Small', 'Kobold', 7, 1, '3B', '1ST', '2B', '1B 1R', 1, 0);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Frenzy
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Slow
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Knuckle Smash
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Infectious Insanity
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 1, 1); --Strength
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (eXXX, 2); --Armor 
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (eXXX, 'Elite', '8 Bit', 2);
+
+
+--Neck Splitter --CardIndex cXXX --CharacterIndex chXXX --ExploreCharacterIndex eXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Neck Splitter',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Skull_Stone/Card_Warband_Skull_Stone_Neck_Splitter_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Warbands/Skull_Stone/Card_Warband_Skull_Stone_Neck_Splitter_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Skull_Stone/Neck_Splitter.xhtml', 
+'Warband', '2.0', '2.0 Core Set', 'Explore',
+'My axe is sharp. My axe is thirsty. I will swing my axe. I will swing it again. And again. And again. My axe will thirst no more.');
+insert into Characters (CardIndex) VALUES (cXXX); 
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1); --Citrine
+insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+VALUES (chXXX, 'Neither', 'Small', 'Orc', 6, 1, '3B', '0ST', '1B', '2B', 2, 0);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Frenzy
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Massive Damage
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Neck Split
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 1, 1); --Strength
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (eXXX, 3); --Will 
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (eXXX, 'Minion', '8 Bit', 1);
+
+
+--Spawn of Servitude
+--Spawn of Servitude --CardIndex cXXX --CharacterIndex chXXX --ExploreCharacterIndex eXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Spawn of Servitude',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Spawn_of_Servitude/Card_Warband_Spawn_of_Servitude_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Warbands/Spawn_of_Servitude/Card_Warband_Spawn_of_Servitude_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Spawn_of_Servitude/Spawn_of_Servitude.xhtml', 
+'Warband', '2.0', '2.0 Core Set', 'Explore',
+'Succubi serve as Araphel''s demonic agents. Their ability to beguile, charm, and bend the minds of mortals make them uniquely suited to achieving Araphel''s aims. Succubi in the service of Araphel often have a Spawn of Servitude to use as a base of operations. Mortals who serve Araphel (knowingly or not) are often lured to a Spawn of Servitude to secure their loyalty, and enjoy the comfy, frilly pillows.');
+insert into Characters (CardIndex) VALUES (cXXX); 
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1); --Citrine
+insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+VALUES (chXXX, 'Neither', 'Small', 'Paired Spawning Point', 0, 0, '', '1ST', '', '', 4, 0);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --SHAME!
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Immune: Status Effects
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Spawning Pool
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (eXXX, 2); --Armor 
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (eXXX, 'Spawning Point', 'Start', 0);
+
+
+--Head Nurse --CardIndex cXXX --CharacterIndex chXXX --ExploreCharacterIndex eXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Head Nurse',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Spawn_of_Servitude/Card_Warband_Spawn_of_Servitude_Head_Nurse_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Warbands/Spawn_of_Servitude/Card_Warband_Spawn_of_Servitude_Head_Nurse_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Spawn_of_Servitude/Head_Nurse.xhtml', 
+'Warband', '2.0', '2.0 Core Set', 'Explore',
+'Head Nurses oversee other succubi, infiltrating and corrupting the mortal realm. They pose as healers, luring in those weary adventurers seeking shelter, comfort, and aid for their wounds. All of these things are provided, and soon the patient wonders why they ever need to leave. And if the Head Nurse, who saved their life, asks a favor, who are they to deny it? Who are they to deny her anything?');
+insert into Characters (CardIndex) VALUES (cXXX);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 0); --Amethyst
+insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+VALUES (eXXX, 'Female', 'Small', 'Demon', 6, 2, '2B', '1B 1R', '1B 2R', '3B', 3, 0);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Fly
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Obscene Whispers
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Overdose
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Personalized Concoction
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 3, 3); --Will
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (eXXX, 2); --Armor 
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (eXXX, 'Elite', '16 Bit', 2);
+
+
+--Potion Mistress --CardIndex cXXX --CharacterIndex chXXX --ExploreCharacterIndex eXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Potion Mistress',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Spawn_of_Servitude/Card_Warband_Spawn_of_Servitude_Potion_Mistress_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Warbands/Spawn_of_Servitude/Card_Warband_Spawn_of_Servitude_Potion_Mistress_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Spawn_of_Servitude/Potion_Mistress.xhtml', 
+'Warband', '2.0', '2.0 Core Set', 'Explore',
+'A Potion Mistress is a succubus with a talent for brewing potions and concoctions. They often serve under a Head Nurse, providing their superior with all of their newest and most devious brews. Make no mistake, they are not simple poisoners. Many of their potions have actual healing properties, but they often have the curious side effect of making the patient more susceptible to influence.');
+insert into Characters (CardIndex) VALUES (cXXX); 
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 0); --Amethyst
+insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+VALUES (41, 'Female', 'Small', 'Demon', 6, 2, '2B', '1ST', '2R', '3B', 2, 0);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Afflict X
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Fly
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Obscene Whispers
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Obscene Shouts
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 3, 3); --Will
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (eXXX, 2); --Armor 
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (eXXX, 'Minion', '8 Bit', 2);
+
+
+--Wretch --CardIndex cXXX --CharacterIndex chXXX --ExploreCharacterIndex eXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Wretch',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Spawn_of_Servitude/Card_Warband_Spawn_of_Servitude_Wretch_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Warbands/Spawn_of_Servitude/Card_Warband_Spawn_of_Servitude_Wretch_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Spawn_of_Servitude/Wretch.xhtml', 
+'Warband', '2.0', '2.0 Core Set', 'Explore',
+'Mortals who fall to the sway of succubi are always put to maximum use. No part of the mortal is wasted. While they are healthy and vibrant, they can be used to infiltrate, plot, and spread derision. And as they grow weaker and more frail they can still serve their mistress. And when they are nothing but a wretch, a drained husk of what they once were? Well, there is always a need for cannon fodder.');
+insert into Characters (CardIndex) VALUES (cXXX); 
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 0); --Amethyst
+insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+VALUES (chXXX, 'Neither', 'Small', 'Demon', 6, 1, '3B', '0ST', '0ST', '3B', 1, 0);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Sense Weakness
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 1, 1); --Strength
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (eXXX, 2); --Armor 
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (eXXX, 'Minion', '8 Bit', 1);
+
+
+--Spider Nest
+--Spider Nest --CardIndex cXXX --CharacterIndex chXXX --ExploreCharacterIndex eXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Spider Nest',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Spider_Nest/Card_Warband_Spider_Nest_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Warbands/Spider_Nest/Card_Warband_Spider_Nest_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Spider_Nest/Spider_Nest.xhtml', 
+'Warband', '2.0', '2.0 Core Set', 'Explore',
+'Spiders have a natural affinity with darkness and shadow. Many of the fiendish varieties which call the Nether Rifts and Dark Realm home grow to remarkable sizes and can possess a startling intelluct. The nether elves strike bargains with spider nests'' Queens, and in exchange for their aid the spiders are granted their choice of hunting grounds and provided with protection from various heroic attempts at extermination.');
+insert into Characters (CardIndex) VALUES (cXXX); 
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 2); --Emerald
+insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+VALUES (chXXX, 'Neither', 'Small', 'Spawning Point', 0, 0, '', '1ST', '', '', 3, 0);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Immune: Status Effects
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Spawning Pool
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Webs
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (eXXX, 2); --Armor 
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (eXXX, 'Spawning Point', 'Start', 0);
+
+
+--Crawler --CardIndex cXXX --CharacterIndex chXXX --ExploreCharacterIndex eXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Crawler',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Spider_Nest/Card_Warband_Spider_Nest_Crawler_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Warbands/Spider_Nest/Card_Warband_Spider_Nest_Crawler_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Spider_Nest/Crawler.xhtml', 
+'Warband', '2.0', '2.0 Core Set', 'Explore',
+'The Dark Realm is home to a vast array of poisonous and deadly bugs, spiders, scuttlers, and biters. These creepy crawly denizens of the the Dark are often tamed by Nether Elf witches, who usher their crawler swarms into battle, overwhelming their foes with bites, stings, and poisons.');
+insert into Characters (CardIndex) VALUES (cXXX);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 2); --Emerald
+insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+VALUES (eXXX, 'Neither', 'Large', 'Spider', 8, 1, '3B', '1ST', '1B', '3B', 1, 0);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Immune: Poison
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Mob
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Surefoot
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Spider Web
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 1, 1); --Strength
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (eXXX, 2); --Armor 
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (eXXX, 'Minion', '8 Bit', 1);
+
+
+--Shadow Spinner --CardIndex cXXX --CharacterIndex chXXX --ExploreCharacterIndex eXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Shadow Spinner',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Spider_Nest/Card_Warband_Spider_Nest_Shadow_Spinner_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Warbands/Spider_Nest/Card_Warband_Spider_Nest_Shadow_Spinner_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Spider_Nest/Shadow_Spinner.xhtml', 
+'Warband', '2.0', '2.0 Core Set', 'Explore',
+'Shadow spinners lurk within dark spaces of the the Nether Rifts, weaving webs of pure shadow to conceal their presence and ensnare their prey.');
+insert into Characters (CardIndex) VALUES (cXXX); 
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 2); --Emerald
+insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+VALUES (41, 'Neither', 'Small', 'Spider', 8, 1, '2B', '0ST', '1B', '3B', 1, 0);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Immune: Poison
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Mob
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Stealth
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Surefoot
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Shadow Web
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 1, 1); --Strength
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 4, 4); --Dex
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (eXXX, 2); --Armor 
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (eXXX, 'Minion', '8 Bit', 1);
+
+
+--Spider Speaker --CardIndex cXXX --CharacterIndex chXXX --ExploreCharacterIndex eXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Spider Speaker',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Spider_Nest/Card_Warband_Spider_Nest_Spider_Speaker_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Warbands/Spider_Nest/Card_Warband_Spider_Nest_Spider_Speaker_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Spider_Nest/Spider_Speaker.xhtml', 
+'Warband', '2.0', '2.0 Core Set', 'Explore',
+'A revered priesthood, the Spider Speakers maintain the relationship between nether elves and the Queens of the various spider nests which populate Crystalia. Masters of poison and dark sorcery, Spider Speakers are a powerful, if not well loved, faction in nether elf society.');
+insert into Characters (CardIndex) VALUES (cXXX); 
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 2); --Emerald
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 3); --Ruby
+insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+VALUES (chXXX, 'Female', 'Small', 'Nether Elf', 8, 3, '1B', '3B', '2R', '3B', 3, 0);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Dread
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Immune: Poison
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Poison
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Surefoot
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Toxicity
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Scuttling Swarm
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Spider to the Fly
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 3, 6); --Will
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (eXXX, 2); --Armor 
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (eXXX, 'Elite', '16 Bit', 2);
 
 
