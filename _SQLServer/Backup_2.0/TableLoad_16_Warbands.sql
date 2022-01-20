@@ -2338,6 +2338,83 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (e
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (eXXX, 'Minion', '8 Bit', 1);
 
 
+--Loot Stash
+--Loot Stash --CardIndex cXXX --CharacterIndex chXXX --ExploreCharacterIndex eXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Loot Stash',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Loot_Stash/Card_Warband_Loot_Stash_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Warbands/Loot_Stash/Card_Warband_Loot_Stash_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Loot_Stash/Loot_Stash.xhtml', 
+'Warband', '2.0', '2.0 Core Set', 'Explore',
+'');  --!! unavailable !!
+insert into Characters (CardIndex) VALUES (cXXX); 
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 3); --Ruby
+insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+VALUES (chXXX, 'Neither', 'Small', 'Spawning Point', 0, 0, '', '2ST', '', '', 3, 0);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Immune: Status Effects
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Loot Mmata
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Spawning Pool
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (eXXX, abXXX); --Armor 
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (eXXX, 'Spawning Point', 'Start', 0);
+
+
+--Polished Punk --CardIndex cXXX --CharacterIndex chXXX --ExploreCharacterIndex eXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Polished Punk',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Loot_Stash/Card_Warband_Loot_Stash_Polished_Punk_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Warbands/Loot_Stash/Card_Warband_Loot_Stash_Polished_Punk_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Loot_Stash/Polished_Punk.xhtml', 
+'Warband', '2.0', '2.0 Core Set', 'Explore',
+'');  --!! unavailable !!
+insert into Characters (CardIndex) VALUES (cXXX);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1); --Citrine   --!! unavailable !!
+insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+VALUES (eXXX, 'Either', 'Small', 'Orc', 5, 1, '2R', '1ST', '0ST', '2ST', 1, 0);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Brutal Strike
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Reckless
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 1, 1); --Strength
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (eXXX, 2); --Armor 
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (eXXX, 'Minion', '8 Bit', 1);
+
+
+--Powder Ladz --CardIndex cXXX --CharacterIndex chXXX --ExploreCharacterIndex eXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Powder Ladz',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Loot_Stash/Card_Warband_Loot_Stash_Powder_Ladz_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Warbands/Loot_Stash/Card_Warband_Loot_Stash_Powder_Ladz_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Loot_Stash/Grobbit_Powder_Ladz.xhtml', 
+'Warband', '2.0', '2.0 Core Set', 'Explore',
+'');  --!! unavailable !!
+insert into Characters (CardIndex) VALUES (41); 
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1); --Citrine  --!! unavailable !!
+insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+VALUES (41, 'Either', 'Large', 'Orc', 5, 1, '1R', '0ST', '0ST', '3B', 1, 0);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --??? Strike
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Reckless
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Volatile
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --  --!! unavailable !!
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 4, 12); --Dex
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (eXXX, 2); --Armor 
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (eXXX, 'Minion', '8 Bit', 3);
+
+
+--Shiny Boss --CardIndex cXXX --CharacterIndex chXXX --ExploreCharacterIndex eXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Shiny Boss',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Loot_Stash/Card_Warband_Loot_Stash__Shiny_Boss_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Warbands/Loot_Stash/Card_Warband_Loot_Stash__Shiny_Boss_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Loot_Stash/Shiny_Boss.xhtml', 
+'Warband', '2.0', '2.0 Core Set', 'Explore',
+'');  --!! unavailable !!
+insert into Characters (CardIndex) VALUES (cXXX); 
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1); --Citrine  --!! unavailable !!
+insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+VALUES (chXXX, 'Either', 'Small', 'Chimera', 8, 2, '2B 1R', '1ST', '2B', '3B', 2, 0);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --??? Strike  --!! unavailable !!
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Reckless
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --??? For My Mantle  --!! unavailable !!
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --??? Wrath  --!! unavailable !!
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 1, 2); --Strength
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (eXXX, 2); --Armor 
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (eXXX, 'Elite', '16 Bit', 3); 
+
+
 --Maleficent Idol
 --Maleficent Idol	--CardIndex cXXX --CharacterIndex chXXX --ExploreCharacterIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Maleficent Idol',
