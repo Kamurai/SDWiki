@@ -47,3 +47,14 @@ SDWiki/nbproject/private/private.properties
 SDWiki/nbproject/private/private.xml
 SDWiki/nbproject/project.properties
 SDWiki/nbproject/project.xml
+SDWiki/build/web/SDE/Content/ExploreCharacter.xhtml
+SDWiki/build/web/Universal/NavBar.xhtml
+SDWiki/build/web/WEB-INF/classes/.netbeans_automatic_build
+SDWiki/build/web/WEB-INF/classes/.netbeans_update_resources
+SDWiki/build/web/WEB-INF/classes/SDE/Bean/CardBean.class
+SDWiki/build/web/WEB-INF/classes/SDE/BossSpawn.class
+SDWiki/build/web/WEB-INF/classes/SDE/ExploreCard.class
+SDWiki/nbproject/build-impl.xml
+SDWiki/nbproject/genfiles.properties
+SDWiki/nbproject/project.properties
+SDWiki/nbproject/project.xml
