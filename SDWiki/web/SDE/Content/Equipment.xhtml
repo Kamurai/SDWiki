@@ -48,44 +48,33 @@
             <div>
                 Effect: #{SDEEquipmentBean.getEquipment().getEffect()}
             </div>
+            <br/>
             
             <!-- List of Keywords -->
-            <ui:repeat var="x" value="#{SDEEquipmentBean.getEquipment().getKeywords()}" size="#{SDEEquipmentBean.getEquipment().getKeywords().size()}" varStatus="myVarStatus" >
-                <ui:fragment rendered="#{x.validateKeyword()}">
-                    <div class="xRow">
-                        <div class="inline"><!-- Keyword -->#{x.getName()}</div>
-                        <div class="inline"><!-- Definition -->#{x.getDescription()}</div>
-                    </div>
-                </ui:fragment>
-            </ui:repeat>
+            <ui:fragment rendered="#{SDEExploreCharacterBean.getExploreCharacter().validateKeywordList()}">
+                <div>Keywords:</div>
+                <ui:repeat var="x" value="#{SDEEquipmentBean.getEquipment().getKeywords()}" size="#{SDEEquipmentBean.getEquipment().getKeywords().size()}" varStatus="myVarStatus" >
+                    <ui:fragment rendered="#{x.validateKeyword()}">
+                        <ui:include src="/Content/Keyword.xhtml">
+                            <ui:param name="keyword" value="x"/>
+                        </ui:include>
+                    </ui:fragment>
+                </ui:repeat>
+                <br/>
+            </ui:fragment>
             
             <!-- List of Abilities -->
-            <ui:repeat var="y" value="#{SDEEquipmentBean.getEquipment().getAbilities()}" size="#{SDEEquipmentBean.getEquipment().getAbilities().size()}" varStatus="myVarStatus" >
-                <ui:fragment rendered="#{y.validateAbility()}">
-                    <div class="yRow">
-                        <div class="inline"><!-- Ability Name -->#{y.getName()}: </div>
-                        <div class="inline"><!-- Ability Cost -->#{y.getCost()}</div>
-                        <div class="inline"><!-- Ability Resource -->#{y.getResource()}</div>
-                        <div class="inline"><!-- Ability Type -->#{y.getType()}:</div>
-                        <tab/>
-
-                        <div class="inline">
-                            #{y.getAttribute()}
-                        </div>
-
-                        <div class="inline">
-                            <ui:fragment rendered="#{y.getRange() > 0 }">
-                                #{y.getRange()}
-                            </ui:fragment>
-                            <ui:fragment rendered="#{y.getRange() == 0 }">
-                                Self
-                            </ui:fragment>
-                        </div>
-                        
-                        <div class="inline"><!-- Ability Description -->#{y.getDescription()}</div>
-                    </div>
-                </ui:fragment>
-            </ui:repeat>
+            <ui:fragment rendered="#{SDEExploreCharacterBean.getExploreCharacter().validateAbilityList()}">
+                <div>Abilities:</div>
+                <ui:repeat var="y" value="#{SDEEquipmentBean.getEquipment().getAbilities()}" size="#{SDEEquipmentBean.getEquipment().getAbilities().size()}" varStatus="myVarStatus" >
+                    <ui:fragment rendered="#{y.validateAbility()}">
+                        <ui:include src="/Content/Ability.xhtml">
+                            <ui:param name="ability" value="x"/>
+                        </ui:include>
+                    </ui:fragment>
+                </ui:repeat>
+                <br/>
+            </ui:fragment>
             <div>
                 Flavor Text: #{SDEEquipmentBean.getEquipment().getFlavor()}
             </div>

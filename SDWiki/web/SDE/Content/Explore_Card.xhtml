@@ -57,39 +57,24 @@
             <div>
                 Card Effect: #{SDEExploreCardBean.getExploreCard().getDescription()}
             </div>
+            <br/>
             
             <!-- List of Abilities -->
-            <ui:repeat var="y" value="#{SDEExploreCardBean.getExploreCard().getAbilities()}" size="#{SDEExploreCardBean.getExploreCard().getAbilities().size()}" varStatus="myVarStatus" >
-                
-                <ui:fragment rendered="#{y.validateAbility()}">
-                    <div class="yRow">
-                        <div class="underline"><!-- Ability Name -->#{y.getName()}</div>
-                        <div class="inline"><!-- Ability Cost -->Cost: #{y.getCost()}</div>
-                        <div class=""><!-- Ability Resource -->#{y.getResource()}</div>
-                        <div class=""><!-- Ability Type -->Type: #{y.getType()}</div>
-                        <tab/>
-
-                        <div class="inline">
-                            Attribute: #{y.getAttribute()}
-                        </div>
-
-                        <div class="">
-                            <ui:fragment rendered="#{y.getRange() > 0 }">
-                                #{y.getRange()}
-                            </ui:fragment>
-                            <ui:fragment rendered="#{y.getRange() == 0 }">
-                                Range: Self
-                            </ui:fragment>
-                        </div>
-                        
-                        <div class="inline"><!-- Ability Description -->#{y.getDescription()}</div>
-                    </div>
-                </ui:fragment>
-            </ui:repeat>
+            <ui:fragment rendered="#{SDEExploreCardBean.getExploreCard().validateAbilityList()}">
+                <div>Abilities:</div>
+                <ui:repeat var="x" value="#{SDEExploreCardBean.getExploreCard().getAbilities()}" size="#{SDEExploreCardBean.getExploreCard().getAbilities().size()}" varStatus="myVarStatus" >
+                    <ui:fragment rendered="#{x.validateAbility()}">
+                        <ui:include src="/Content/Ability.xhtml">
+                            <ui:param name="ability" value="x"/>
+                        </ui:include>
+                    </ui:fragment>
+                </ui:repeat>
+                <br/>
+            </ui:fragment>
             
             <ui:fragment rendered="#{SDEExploreCardBean.getExploreCard().validateCharacterList()}">
                 Related Character(s):<br/>
-                <ui:repeat var="x" value="#{SDEExploreCardBean.getCharacterList()}" size="#{SDEExploreCardBean.getCharacterList().size()}" varStatus="myVarStatus" >
+                <ui:repeat var="x" value="#{SDEExploreCardBean.getExploreCard().getCharacterList()}" size="#{SDEExploreCardBean.getExploreCard().getCharacterList().size()}" varStatus="myVarStatus" >
                     <div class="relatedCharacterBlock">
                         <a href="#{x.getLink()}">
                             <div>
@@ -100,9 +85,6 @@
                     </div>
                 </ui:repeat>
             </ui:fragment>
-            
-            
-            
             
             
             
