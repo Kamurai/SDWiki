@@ -5,8 +5,9 @@ select a.CardIndex, a.Name as CardName, a.PictureFront, a.PictureBack, a.Link, a
 d.CreepNumber, --Creep Cards
 e.TrapDefense, e.TrapLayout, --Trap Cards
 b.UtilityDescription, --Utilities
-h.Name as CharacterName, h.Link as CharacterLink, --Cards
-j.Name as AbilityName, AbilityResource, AbilityType, AbilityCost, --Abilities
+g.CharacterIndex, --Characters
+h.Name as CharacterName, h.Link as CharacterLink, h.ProductSet as CharacterVersion, h.PictureFront as CharacterPicture, --Cards
+j.AbilityIndex, j.Name as AbilityName, j.AbilityResource, j.AbilityType, j.AbilityCost, --Abilities
 v.Attribute as AbilityAttribute, --Attributes
 j.AbilityRange, j.AbilityDescription --Abilities
 from Cards a
