@@ -86,6 +86,10 @@
 
 /*Burrow							--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Burrow', 'A monster with Burrow may move through walls, and treats difficult terrain and structure squares as open squares.  All non-blessing tile effects in those squares are ignored.');
 
+/*Call Of The Deep					--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Call Of The Deep', 'When a model with Call Of The Deep succeeds with an attack, it may spawn one Skull Point worth of 8-Bit monsters per heart rolled within 3 squares of it.');
+
+
+
 /*Caught Red Handed					--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Caught Red Handed', 'The Consul selects one Hero that is not on Kringle''s Nice List.  The selected Hero shapeshifts into a Naughty of the Consul''s choice.');
 /*Cave-In							--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Cave-In', 'Each Hero must choose to suffer either two wounds or Immobile.');
 
@@ -168,7 +172,7 @@
 /*Do Not Fight						--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Do Not Fight', 'All Heroes suffer HEX.');
 
 
-/*Dragged To The Depths				--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Explore', 'Dragged To The Depths', 'When a model with Dragged To The Depths is destroyed, the model that destroyed it must roll 1R.  If no stars are rolled, it suffers one wound.');
+/*Dragged To The Depths				--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Dragged To The Depths', 'When a model with Dragged To The Depths is destroyed, the model that destroyed it must roll 1R.  If no stars are rolled, it suffers one wound.');
 
 /*Dread								--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Dread', 'A model with Dread gains +1st to all offense rolls if it is currently benefitting from Stealth.');
 
@@ -206,7 +210,7 @@
 
 /*Flaming							--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Flaming', 	'When a model with Flaming ends its activation, all adjacent enemies suffer Fire.');
 
-/*Flammable							--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Flammable', '');
+/*Flammable							--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Flammable', 'When a model with Flammable is targeted by an action that causes FIRE, the Flammable model suffers FIRE even if it wins the defense roll.');
 
 
 /*Fly								--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Fly', 		'A model with Fly treats difficult terrain, chasm, and structure squares as open squares.  All non-blessing tile effects in those squares are ignored.  Structure squares do not block line of sight to or from models with Fly.');
@@ -236,6 +240,11 @@
 /*Freed In Death					--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Explore', 'Freed In Death', 'When a model with Freed In Death is destroyed, the party may choose one monster in range.  The model with Freed In Death makes a melee attack against the chosen monster before being removed.');
 /*Frenzy							--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Explore', 'Frenzy', 'A Model with Frenzy gains +1R on offensive rolls against any model that is suffering one or more wounds.');
 /*Frenzy							--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Arcade', 	'Frenzy', 'A monster or gang with Frenzy gains +1ST STR against any model that is suffering a wound.');
+
+/*Frozen Prison						--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Frozen Prison', 'While this Relic is attached to a Hero, the Hero must roll 1B before taking an action.  If no stars are rolled, the action automatically fails.  The Hero may choose to suffer one wound to reroll the die.');
+
+
+
 /*Fueled by Fire					--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Fueled by Fire', 'A model with Fueled by Fire adds 1R to all offensive rolls for each model suffering Fire.');
 /*Fungal Fury						--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Fungal Fury', 'Enemy models that end a Push within three squares and LoS of one or more models with Fungal Fury suffer one wound.');
 
@@ -332,6 +341,11 @@
 
 /*Leadership						--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Leadership', 'If another Hero activates after this Hero, during the same turn, that Hero gains +1 action during the activation. This bonus action may only be used on support actions.');
 /*Liver of Steel					--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Liver of Steel', 'This Hero may not take potion actions.');
+
+/*Luck								--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Luck', 'When a model with Luck draws treasure cards, it may draw one addtional card.  Choose one of the cards drawn and shuffle it back into the deck.');
+/*Lucky Cat							--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Lucky Cat', 'When a model with Lucky Cat rolls dice, it may choose to reroll any dice it wishes (dice may only be rerolled once).');
+
+
 /*Mamma Knows						--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Mamma Knows', 'Mother Noctua gains +1G STR while targeting this model with offensive actions.');
 /*Mamma's Mad						--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Mamma''s Mad', 'After a model with Mamma''s Mad is destroyed, all friendly dungeon bosses in play immediately take the first unique action listed on their card.');
 /*Mamma's Mad						--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Explore', 'Mamma''s Mad', 'After one or more Yowlings is destroyed by an action, a model with Mamma''s Mad may immediately take the Deeproot Rage action without spending any actions points.');
@@ -403,7 +417,8 @@
 /*Parade Marches On, The			--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Parade Marches On, The', 'Spawn two Curse Ravens adjacent to the spawning point icon on the second tile.');
 
 
-/*Parade of Death					--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Parade of Death', 'Whenever a model with Parade of Death receives the Move command, it moves towards the closest dungeon exit that is not already being targeted by another model with Parade of Death, rather than a Hero (each model will move towards a different exit).  A model with Parade of Death may leave the dungeon in this manner by moving off of the dungeon exit.  If it does, it is destroyed and the Party must discard one Princess Coin (the Party may lose the game in this way if it has no Princess Coins).');
+/*Parade of Death					--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Explore', 'Parade of Death', 'A model with Parade of Death may not use the basic Dash action.  A model with Parade of Death may use its movement to leave the dungeon by moving off of a dungeon exit.  If it leaves the dungeon in this way, it is destroyed and the Party must immediately discard one Princess Coin (the Party may lose the game in this way if it has no Princess Coins).');
+/*Parade of Death					--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Arcade', 'Parade of Death', 'Whenever a model with Parade of Death receives the Move command, it moves towards the closest dungeon exit that is not already being targeted by another model with Parade of Death, rather than a Hero (each model will move towards a different exit).  A model with Parade of Death may leave the dungeon in this manner by moving off of the dungeon exit.  If it does, it is destroyed and the Party must discard one Princess Coin (the Party may lose the game in this way if it has no Princess Coins).');
 
 
 /*Parry								--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Parry', 'After a model with Parry suffers damage due to a critical success, it may immediately make a basic melee attack against the model that caused the critical, if able.<br>(Arcade: After a model with Parry suffers damage, it may discard one wrath token.)');
@@ -545,10 +560,10 @@
 
 /*Small								--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Small', 'An enemy ');
 
-/*Smashing Pumpkins					--Index kXXX*/
+/*Smashing Pumpkins					--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Arcade', 'Smashing Pumpkins', 'If a model with Smashing Pumpkins ends a move command adjacent to one or more Heroes, destory it and any adjacent Heroes suffer Bane.');
 
 /*Smokebomb							--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Smokebomb', 'When the dungeon boss spawns, spawn all monsters with Smokebomb that were previously destroyed this game, before resolving the Boss Fight card; these monsters may spawn on any open square in the dungeon.');
-/*Solo Spawn						--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Solo Spawn', 'This solo is also a spawning point with the spawning pool listed below.  It follows commands as if it were a solo, and spawns as if it were a spawning point.  When this solo receives the move command, it moves directly away from the closest Hero.');
+/*Solo Spawn						--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Arcade', 'Solo Spawn', 'This solo is also a spawning point with the spawning pool listed below.  It follows commands as if it were a solo, and spawns as if it were a spawning point.  When this solo receives the move command, it moves directly away from the closest Hero.');
 
 /*Solo Paired Spawn					--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Solo Paired Spawn', 'This solo is also a spawning point with the spawning pool listed below.  It follows commands as if it were a solo, and spawns as if it were a spawning point.  When this solo receives the move command, it moves directly away from the closest Hero.');
 
@@ -664,6 +679,9 @@
 /*Spawning Pool						--Index kXXX*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Explore', 'Spawning Pool', '1x Watch Tower (Spawning Point)<br>1x Sergeant-at-Arms<br>2x Longbowmen<br>2x Swordsmen<br>2x Pikemen');
 /*Spawning Pool						--Index kXXX*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Arcade', 	'Spawning Pool', '1x Watch Tower (Spawning Point)<br>1x Sergeant-at-Arms<br>2x Longbowmen<br>2x Swordsmen<br>2x Pikemen<br><br>Cards:<br>1x Crown Guard Patrol<br>1x Crown Guard Longbowmen');
 
+/*Spawning Pool						--Index kXXX*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Explore', 'Spawning Pool', '1x Watch Tower (Spawning Point)<br>1x Sergeant-at-Arms<br>2x Longbowmen<br>2x Swordsmen<br>2x Pikemen');
+/*Spawning Pool						--Index kXXX*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Arcade', 	'Spawning Pool', '1x Yurei Madoushi (Spawning Point)<br>3x Yurei Kaiken<br>2x Yurei Yajiri<br>2x Kunoichi<br><br>Cards:<br>1x Ghost Ship<br>1x Spirit Archers');
+
 /*Spider''s Trap, The				--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Spider''s Trap, The', 'The dungeon boss immediately performs a full activation.');
 
 
@@ -682,7 +700,7 @@
 /*Spread The Love					--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Explore', 'Spread The Love', 'When a model with Spread The Love makes a successful offensive action, it may choose and apply one status effect on the target for each potion rolled.  These status effects are applied after fully resolving the action.');
 /*Spread The Love					--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Arcade', 	'Spread The Love', 'After a monster with Spread The Love performs a Fight command that dealt one or more wounds, roll 1G for each Hero that suffered at least one wound and apply one of the following status effects depending on the roll:<br>0ST: Bane<br>1ST: Hex<br>2ST: Ice<br>3ST: Poison<br>4ST: Immobile');
 
-/*Steady							--Index kXXX*/ 	
+/*Steady							--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Steady', 'A model with Stready may not be Pushed, Pulled, or Compelled by enemy models.');
 
 /*Steal								--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Steal', 'When a model with Steal inflicts a wound, it may discard one random card from the party''s backpack.');
 /*Stealth							--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Stealth', 'Actions targeting a model with Stealth reduce their Range by 3, to a minimum of 1.');
@@ -700,6 +718,8 @@
 /*Tail Sweep						--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Tail Sweep', 'During its activation, a model with Tail Sweep may make the following offensive action a single time for free:<br>0AC 0SW, Sweep 2, KNOCKDOWN');
 
 /*Territorial						--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Territorial', 'A model with Territorial gains +1ST to offense rolls while on the first tile, +2ST while on the second, +3ST while on the third, and +4ST while on the fourth.<br>(Area: A model with Territorial gains +2ST to offensive rolls while on the same tile as a friendly spawning point.)');
+
+/*Throw								--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Throw', 'When using an action with Throw, choose one friendly adjacent model.  Move that model a number of squares up to the value of X, using the rules for Push.  If the model moves to a square that is adjacent to another model, it immediately stops moving.  Every model it stops adjacent to, friendly or enemy, suffers an offense roll of 1B per square the model moved.');
 
 /*Thwomp							--Index kXXX*/
 
