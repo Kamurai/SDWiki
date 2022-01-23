@@ -873,12 +873,16 @@ public class SDEDAOOne extends DAO{
                 
                 //if on new related character
                 if(newCharacter){
-                    result.addCharacter(
-                            rs.getString("CharacterName"),
-                            rs.getString("CharacterVersion"),
-                            rs.getString("CharacterLink"),
-                            rs.getString("CharacterPicture")
-                    );
+                    if(
+                            rs.getInt("CharacterIndex") != 0
+                    ){
+                        result.addCharacter(
+                                rs.getString("CharacterName"),
+                                rs.getString("CharacterVersion"),
+                                rs.getString("CharacterLink"),
+                                rs.getString("CharacterPicture")
+                        );
+                    }
                     
                     previousCharacterIndex = rs.getInt("CharacterIndex");
                 }
@@ -955,9 +959,11 @@ public class SDEDAOOne extends DAO{
         
         int     previousCardIndex       = -1;
         int     previousAbilityIndex    = -1;
+        int     previousCharacterIndex  = -1;
         
         boolean newCard                 = false;
         boolean newAbility              = false;
+        boolean newCharacter            = false;
         
         
         System.out.print("pullOneExploreCard 2");
@@ -972,6 +978,7 @@ public class SDEDAOOne extends DAO{
             while(rs.next()){
                 newCard         = (rs.getInt("CardIndex")       != previousCardIndex);
                 newAbility      = (rs.getInt("AbilityIndex")    != previousAbilityIndex);
+                newCharacter    = (rs.getInt("CharacterIndex")  != previousCharacterIndex);
                 
                 //run only on new card
                 if(newCard){
@@ -996,10 +1003,10 @@ public class SDEDAOOne extends DAO{
 //                result.setCharacterName(rs.getString("CharacterName"));
 //                result.setCharacterLink(rs.getString("CharacterLink"));
                 }
-                
+                System.out.print("pullOneExploreCard 3: "+rs.getString("AbilityName"));
                 //if on new ability
                 if(newAbility){
-
+                    System.out.print("pullOneExploreCard 4");
 
                     //add new ability to last gang member
                     result.addAbility(
@@ -1018,18 +1025,45 @@ public class SDEDAOOne extends DAO{
 
                     previousAbilityIndex = rs.getInt("AbilityIndex");
                 }
+                
+                //if on new related character
+                if(newCharacter){
+                    if(
+                            rs.getInt("CharacterIndex") != 0
+                    ){
+                        result.addCharacter(
+                            rs.getString("CharacterName"),
+                            rs.getString("CharacterVersion"),
+                            rs.getString("CharacterLink"),
+                            rs.getString("CharacterPicture")
+                        );
+                        
+                    }
+                    
+                    if(result.getCharacterList().size() > 0){
+                        System.out.print("Related Character: " + result.getCharacterList().get(0).getName());
+                    }
+                    
+                    previousCharacterIndex = rs.getInt("CharacterIndex");
+                }
+                
+                //Previous card index
+                previousCardIndex = rs.getInt("CardIndex");
             }
             
-            System.out.print("pullOneExploreCard 3");
+            System.out.print("pullOneExploreCard 5");
             
         }catch(Exception e){
-            System.out.print("Taco!: " +e.getMessage());
+            System.out.print("Error: " +e.getMessage());
             e.printStackTrace();
         }finally{
             closeConnection();
         }
         
-        System.out.print("Burrito: "+result.getName());
+        System.out.print("Explore Card: "+result.getName());
+        if(result.getAbilities().size() > 0){
+            System.out.print("First Ability: " + result.getAbilities().get(0).getName());
+        }
         
                 
         return result;

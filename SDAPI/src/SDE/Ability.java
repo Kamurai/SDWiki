@@ -207,9 +207,9 @@ public class Ability {
             
         if(
             (this.name != null &&
-            !this.name.equals("")) &&
+            !this.name.equals("")) //&&
             
-            (this.cost >= 0) &&
+//            (this.cost >= 0) &&
 
 //            (this.resource != null &&
 //            this.resource.length() > 0) &&
@@ -220,7 +220,7 @@ public class Ability {
 //            (this.attribute == null ||
 //            this.attribute.length() >= 0) &&
             
-            (this.range >= -1) //&&
+//            (this.range >= -1) //&&
                     
 //            (this.description != null &&
 //            this.description.length() > 0)
