@@ -17,7 +17,7 @@
             <Header id="idHeaderRow">
                 <div id="idHeaderRowCenter">
                     <h:form>
-                        <ui:include src="/Universal/Logo.xhtml"></ui:include>
+                        <ui:include src="./Universal/Logo.xhtml"></ui:include>
                     </h:form>
                 </div>
             </Header>
@@ -40,7 +40,7 @@
                 </div>
                 <div id="idCenterRowMain">
                     <h:form>
-                       <ui:include src="#{MainBean.getContent()}"></ui:include>
+                       <ui:include src="#{NASBean.getContent()}"></ui:include>
                     </h:form>
                 </div>
                 <div id="idCenterRowRight">
