@@ -11,4 +11,6 @@ public interface AbilityInterface {
     public void addAbility(String name, String resource, String type, int cost, String attribute, int range, String description);
     
     public void addAbility(Ability ability);
+    
+    public boolean validateAbilityList();
 }

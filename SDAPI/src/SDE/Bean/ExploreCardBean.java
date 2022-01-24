@@ -37,6 +37,8 @@ public class ExploreCardBean extends CardBean{
         }
 //        this.exploreCardList  = navDAO.pullNavigationForExploreCards(exploreCard.getVersion());
         
+        System.out.print("Get Layout");
+        
         return "./Layout.xhtml";
     }
 

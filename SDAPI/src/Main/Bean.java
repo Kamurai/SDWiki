@@ -5,6 +5,7 @@
 
 package Main;
 
+import java.util.List;
 import javax.faces.bean.ManagedBean;
 import javax.faces.bean.RequestScoped;
 
@@ -13,6 +14,12 @@ import javax.faces.bean.RequestScoped;
 public class Bean{
     protected   Universal   uni;
     private     String      page;
+    protected List<String> linkList;
+    protected LinkFetcher linkFetcher = new LinkFetcher();
+    protected boolean started = false;
+    public void setStarted(boolean input){
+        this.started = input;
+    }
     
     public Bean(){
         uni = new Universal();
@@ -44,5 +51,11 @@ public class Bean{
         String Result = "";
         Result += "Website managed by Kamurai.";
         return Result;
+    }
+    
+    public List<String> getLinkList(){
+//        System.out.println("Main.Bean.getLinkList");
+        
+        return linkList;
     }
 }

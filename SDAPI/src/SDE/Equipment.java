@@ -144,6 +144,26 @@ public class Equipment extends Card implements KeywordInterface, AbilityInterfac
             abilities.add(ability);
         }
     }
+    
+    public boolean validateKeywordList(){
+        boolean result = false;
+        
+        if(keywords.size() > 0){
+            result = true;
+        }
+        
+        return result;
+    }
+    
+    public boolean validateAbilityList(){
+        boolean result = false;
+        
+        if(abilities.size() > 0){
+            result = true;
+        }
+        
+        return result;
+    }
 
     @Override
     public List<NavItem> getCharacterList() {

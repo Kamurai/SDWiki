@@ -280,4 +280,24 @@ public class GangMember implements KeywordInterface, AbilityInterface {
         
         return result;
     }
+    
+    public boolean validateKeywordList(){
+        boolean result = false;
+        
+        if(keywords.size() > 0){
+            result = true;
+        }
+        
+        return result;
+    }
+    
+    public boolean validateAbilityList(){
+        boolean result = false;
+        
+        if(abilities.size() > 0){
+            result = true;
+        }
+        
+        return result;
+    }
 }

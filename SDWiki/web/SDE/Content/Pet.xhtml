@@ -176,51 +176,32 @@
                     Potions: #{SDEPetBean.getPet().getPotions()}
                 </div>
             </div>
+            <br/>
             <!-- List of Keywords -->
-            <ui:repeat var="x" value="#{SDEPetBean.getPet().getKeywords()}" size="#{SDEPetBean.getPet().getKeywords().size()}" varStatus="myVarStatus" >
-                <ui:fragment rendered="#{x.validateKeyword()}">
-                    <div class="xRow">
-                        <div class="inline"><!-- Keyword -->#{x.getName()}</div>
-                        <tab/>
-                        <div class="inline"><!-- Definition -->#{x.getDescription()}</div>
-                    </div>
-                </ui:fragment>
-            </ui:repeat>
+            <ui:fragment rendered="#{SDEExploreCharacterBean.getExploreCharacter().validateKeywordList()}">
+                <div>Keywords:</div>
+                <ui:repeat var="x" value="#{SDEPetBean.getPet().getKeywords()}" size="#{SDEPetBean.getPet().getKeywords().size()}" varStatus="myVarStatus" >
+                    <ui:fragment rendered="#{x.validateKeyword()}">
+                        <<ui:include src="/Content/Keyword.xhtml">
+                            <ui:param name="keyword" value="x"/>
+                        </ui:include>
+                    </ui:fragment>
+                </ui:repeat>
+                <br/>
+            </ui:fragment>
             
             <!-- List of Abilities -->
-            <ui:repeat var="x" value="#{SDEPetBean.getPet().getAbilities()}" size="#{SDEPetBean.getPet().getAbilities().size()}" varStatus="myVarStatus" >
-                <ui:fragment rendered="#{y.validateAbility()}">
-                    <div class="xRow">
-                        <div class="inline"><!-- Ability Name -->#{x.getName()}: </div>                     
-                        <div class="inline"><!-- Ability Cost -->#{x.getCost()}</div>                     
-                        <div class="inline"><!-- Ability Resource -->#{x.getResource()}</div>                     
-                        <div class="inline"><!-- Ability Type -->#{x.getType()}:</div>
-                        <tab/>
-
-                        <div class="inline">
-                            #{x.getAttribute()}
-                        </div>
-
-                        <div class="inline">
-                            <c:choose>
-                                <c:when test="#{x.getRange() > 0 }">
-                                    #{x.getRange()}
-                                </c:when>
-                                <c:when test="#{x.getRange() == 0 }">
-                                    Self
-                                </c:when>
-                                <c:otherwise>                                    
-                                </c:otherwise>
-                            </c:choose>
-                        </div>
-
-
-
-
-                        <div class="inline"><!-- Ability Description -->#{x.getDescription()}</div>
-                    </div>
-                </ui:fragment>
-            </ui:repeat>
+            <ui:fragment rendered="#{SDEExploreCharacterBean.getExploreCharacter().validateAbilityList()}">
+                <div>Abilities:</div>
+                <ui:repeat var="x" value="#{SDEPetBean.getPet().getAbilities()}" size="#{SDEPetBean.getPet().getAbilities().size()}" varStatus="myVarStatus" >
+                    <ui:fragment rendered="#{y.validateAbility()}">
+                        <ui:include src="/Content/Ability.xhtml">
+                            <ui:param name="ability" value="x"/>
+                        </ui:include>
+                    </ui:fragment>
+                </ui:repeat>
+                <br/>
+            </ui:fragment>
             <div>
                 Flavor Text: #{SDEPetBean.getPet().getFlavor()}
             </div>

@@ -61,4 +61,14 @@ public class TerrainCard extends UtilityCard implements KeywordInterface{
             keywords.add(keyword);
        }
     }
+    
+    public boolean validateKeywordList(){
+        boolean result = false;
+        
+        if(keywords.size() > 0){
+            result = true;
+        }
+        
+        return result;
+    }
 }

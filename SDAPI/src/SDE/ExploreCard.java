@@ -137,6 +137,16 @@ public class ExploreCard extends UtilityCard implements AbilityInterface, Charac
             abilities.add(ability);
         }
     }
+    
+    public boolean validateAbilityList(){
+        boolean result = false;
+        
+        if(abilities.size() > 0){
+            result = true;
+        }
+        
+        return result;
+    }
 
     @Override
     public List<NavItem> getCharacterList() {

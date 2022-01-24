@@ -311,23 +311,49 @@ public class ExploreCharacter extends Character implements KeywordInterface, Abi
             keywords.add(keyword);
        }
     }
+    
+    @Override
+    public boolean validateKeywordList(){
+        boolean result = false;
+        
+        if(keywords.size() > 0){
+            result = true;
+        }
+        
+        return result;
+    }
         
     //Ability Interface
+    @Override
     public ArrayList<Ability> getAbilities() {
         return abilities;
     }
 
+    @Override
     public void setAbilities(ArrayList<Ability> abilities) {
         this.abilities = abilities;
     }
     
+    @Override
     public void addAbility(String name, String resource, String type, int cost, String attribute, int range, String description){
         addAbility(new Ability(name, resource, type, cost, attribute, range, description));
     }
     
+    @Override
     public void addAbility(Ability ability){
         if(!ability.isWithin(abilities)){
             abilities.add(ability);
         }
+    }
+    
+    @Override
+    public boolean validateAbilityList(){
+        boolean result = false;
+        
+        if(abilities.size() > 0){
+            result = true;
+        }
+        
+        return result;
     }
 }

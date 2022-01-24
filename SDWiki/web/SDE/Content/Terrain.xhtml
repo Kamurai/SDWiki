@@ -41,17 +41,20 @@
                     </div>
                 </div>
             </div>
+            <br/>
             
             <!-- List of Keywords -->
-            <ui:repeat var="x" value="#{SDETerrainBean.getTerrainCard().getKeywords()}" size="#{SDETerrainBean.getTerrainCard().getKeywords().size()}" varStatus="myVarStatus" >
-                <ui:fragment rendered="#{x.validateKeyword()}">
-                    <div class="xRow">
-                        <div class="inline"><!-- Keyword -->#{x.getName()}</div>
-                        <tab/>
-                        <div class="inline"><!-- Definition -->#{x.getDescription()}</div>
-                    </div>
-                </ui:fragment>
-            </ui:repeat>
+            <ui:fragment rendered="#{SDEExploreCharacterBean.getExploreCharacter().validateKeywordList()}">
+                <div>Keywords:</div>
+                <ui:repeat var="x" value="#{SDETerrainBean.getTerrainCard().getKeywords()}" size="#{SDETerrainBean.getTerrainCard().getKeywords().size()}" varStatus="myVarStatus" >
+                    <ui:fragment rendered="#{x.validateKeyword()}">
+                        <ui:include src="/Content/Keyword.xhtml">
+                            <ui:param name="keyword" value="x"/>
+                        </ui:include>
+                    </ui:fragment>
+                </ui:repeat>
+                <br/>
+            </ui:fragment>
             
             <div>
                 Card Effect: #{SDETerrainBean.getTerrainCard().getDescription()}
