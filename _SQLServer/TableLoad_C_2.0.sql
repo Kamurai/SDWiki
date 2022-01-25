@@ -86,6 +86,10 @@
 
 /*Burrow							--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Burrow', 'A monster with Burrow may move through walls, and treats difficult terrain and structure squares as open squares.  All non-blessing tile effects in those squares are ignored.');
 
+/*Call Of The Deep					--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Call Of The Deep', 'When a model with Call Of The Deep succeeds with an attack, it may spawn one Skull Point worth of 8-Bit monsters per heart rolled within 3 squares of it.');
+
+
+
 /*Caught Red Handed					--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Caught Red Handed', 'The Consul selects one Hero that is not on Kringle''s Nice List.  The selected Hero shapeshifts into a Naughty of the Consul''s choice.');
 /*Cave-In							--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Cave-In', 'Each Hero must choose to suffer either two wounds or Immobile.');
 
@@ -168,7 +172,7 @@
 /*Do Not Fight						--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Do Not Fight', 'All Heroes suffer HEX.');
 
 
-/*Dragged To The Depths				--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Explore', 'Dragged To The Depths', 'When a model with Dragged To The Depths is destroyed, the model that destroyed it must roll 1R.  If no stars are rolled, it suffers one wound.');
+/*Dragged To The Depths				--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Dragged To The Depths', 'When a model with Dragged To The Depths is destroyed, the model that destroyed it must roll 1R.  If no stars are rolled, it suffers one wound.');
 
 /*Dread								--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Dread', 'A model with Dread gains +1st to all offense rolls if it is currently benefitting from Stealth.');
 
@@ -206,7 +210,7 @@
 
 /*Flaming							--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Flaming', 	'When a model with Flaming ends its activation, all adjacent enemies suffer Fire.');
 
-/*Flammable							--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Flammable', '');
+/*Flammable							--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Flammable', 'When a model with Flammable is targeted by an action that causes FIRE, the Flammable model suffers FIRE even if it wins the defense roll.');
 
 
 /*Fly								--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Fly', 		'A model with Fly treats difficult terrain, chasm, and structure squares as open squares.  All non-blessing tile effects in those squares are ignored.  Structure squares do not block line of sight to or from models with Fly.');
@@ -236,6 +240,11 @@
 /*Freed In Death					--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Explore', 'Freed In Death', 'When a model with Freed In Death is destroyed, the party may choose one monster in range.  The model with Freed In Death makes a melee attack against the chosen monster before being removed.');
 /*Frenzy							--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Explore', 'Frenzy', 'A Model with Frenzy gains +1R on offensive rolls against any model that is suffering one or more wounds.');
 /*Frenzy							--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Arcade', 	'Frenzy', 'A monster or gang with Frenzy gains +1ST STR against any model that is suffering a wound.');
+
+/*Frozen Prison						--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Frozen Prison', 'While this Relic is attached to a Hero, the Hero must roll 1B before taking an action.  If no stars are rolled, the action automatically fails.  The Hero may choose to suffer one wound to reroll the die.');
+
+
+
 /*Fueled by Fire					--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Fueled by Fire', 'A model with Fueled by Fire adds 1R to all offensive rolls for each model suffering Fire.');
 /*Fungal Fury						--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Fungal Fury', 'Enemy models that end a Push within three squares and LoS of one or more models with Fungal Fury suffer one wound.');
 
@@ -332,6 +341,11 @@
 
 /*Leadership						--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Leadership', 'If another Hero activates after this Hero, during the same turn, that Hero gains +1 action during the activation. This bonus action may only be used on support actions.');
 /*Liver of Steel					--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Liver of Steel', 'This Hero may not take potion actions.');
+
+/*Luck								--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Luck', 'When a model with Luck draws treasure cards, it may draw one addtional card.  Choose one of the cards drawn and shuffle it back into the deck.');
+/*Lucky Cat							--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Lucky Cat', 'When a model with Lucky Cat rolls dice, it may choose to reroll any dice it wishes (dice may only be rerolled once).');
+
+
 /*Mamma Knows						--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Mamma Knows', 'Mother Noctua gains +1G STR while targeting this model with offensive actions.');
 /*Mamma's Mad						--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Mamma''s Mad', 'After a model with Mamma''s Mad is destroyed, all friendly dungeon bosses in play immediately take the first unique action listed on their card.');
 /*Mamma's Mad						--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Explore', 'Mamma''s Mad', 'After one or more Yowlings is destroyed by an action, a model with Mamma''s Mad may immediately take the Deeproot Rage action without spending any actions points.');
@@ -403,7 +417,8 @@
 /*Parade Marches On, The			--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Parade Marches On, The', 'Spawn two Curse Ravens adjacent to the spawning point icon on the second tile.');
 
 
-/*Parade of Death					--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Parade of Death', 'Whenever a model with Parade of Death receives the Move command, it moves towards the closest dungeon exit that is not already being targeted by another model with Parade of Death, rather than a Hero (each model will move towards a different exit).  A model with Parade of Death may leave the dungeon in this manner by moving off of the dungeon exit.  If it does, it is destroyed and the Party must discard one Princess Coin (the Party may lose the game in this way if it has no Princess Coins).');
+/*Parade of Death					--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Explore', 'Parade of Death', 'A model with Parade of Death may not use the basic Dash action.  A model with Parade of Death may use its movement to leave the dungeon by moving off of a dungeon exit.  If it leaves the dungeon in this way, it is destroyed and the Party must immediately discard one Princess Coin (the Party may lose the game in this way if it has no Princess Coins).');
+/*Parade of Death					--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Arcade', 'Parade of Death', 'Whenever a model with Parade of Death receives the Move command, it moves towards the closest dungeon exit that is not already being targeted by another model with Parade of Death, rather than a Hero (each model will move towards a different exit).  A model with Parade of Death may leave the dungeon in this manner by moving off of the dungeon exit.  If it does, it is destroyed and the Party must discard one Princess Coin (the Party may lose the game in this way if it has no Princess Coins).');
 
 
 /*Parry								--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Parry', 'After a model with Parry suffers damage due to a critical success, it may immediately make a basic melee attack against the model that caused the critical, if able.<br>(Arcade: After a model with Parry suffers damage, it may discard one wrath token.)');
@@ -545,10 +560,10 @@
 
 /*Small								--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Small', 'An enemy ');
 
-/*Smashing Pumpkins					--Index kXXX*/
+/*Smashing Pumpkins					--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Arcade', 'Smashing Pumpkins', 'If a model with Smashing Pumpkins ends a move command adjacent to one or more Heroes, destory it and any adjacent Heroes suffer Bane.');
 
 /*Smokebomb							--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Smokebomb', 'When the dungeon boss spawns, spawn all monsters with Smokebomb that were previously destroyed this game, before resolving the Boss Fight card; these monsters may spawn on any open square in the dungeon.');
-/*Solo Spawn						--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Solo Spawn', 'This solo is also a spawning point with the spawning pool listed below.  It follows commands as if it were a solo, and spawns as if it were a spawning point.  When this solo receives the move command, it moves directly away from the closest Hero.');
+/*Solo Spawn						--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Arcade', 'Solo Spawn', 'This solo is also a spawning point with the spawning pool listed below.  It follows commands as if it were a solo, and spawns as if it were a spawning point.  When this solo receives the move command, it moves directly away from the closest Hero.');
 
 /*Solo Paired Spawn					--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Solo Paired Spawn', 'This solo is also a spawning point with the spawning pool listed below.  It follows commands as if it were a solo, and spawns as if it were a spawning point.  When this solo receives the move command, it moves directly away from the closest Hero.');
 
@@ -664,6 +679,9 @@
 /*Spawning Pool						--Index kXXX*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Explore', 'Spawning Pool', '1x Watch Tower (Spawning Point)<br>1x Sergeant-at-Arms<br>2x Longbowmen<br>2x Swordsmen<br>2x Pikemen');
 /*Spawning Pool						--Index kXXX*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Arcade', 	'Spawning Pool', '1x Watch Tower (Spawning Point)<br>1x Sergeant-at-Arms<br>2x Longbowmen<br>2x Swordsmen<br>2x Pikemen<br><br>Cards:<br>1x Crown Guard Patrol<br>1x Crown Guard Longbowmen');
 
+/*Spawning Pool						--Index kXXX*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Explore', 'Spawning Pool', '1x Watch Tower (Spawning Point)<br>1x Sergeant-at-Arms<br>2x Longbowmen<br>2x Swordsmen<br>2x Pikemen');
+/*Spawning Pool						--Index kXXX*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Arcade', 	'Spawning Pool', '1x Yurei Madoushi (Spawning Point)<br>3x Yurei Kaiken<br>2x Yurei Yajiri<br>2x Kunoichi<br><br>Cards:<br>1x Ghost Ship<br>1x Spirit Archers');
+
 /*Spider''s Trap, The				--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Spider''s Trap, The', 'The dungeon boss immediately performs a full activation.');
 
 
@@ -682,7 +700,7 @@
 /*Spread The Love					--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Explore', 'Spread The Love', 'When a model with Spread The Love makes a successful offensive action, it may choose and apply one status effect on the target for each potion rolled.  These status effects are applied after fully resolving the action.');
 /*Spread The Love					--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Arcade', 	'Spread The Love', 'After a monster with Spread The Love performs a Fight command that dealt one or more wounds, roll 1G for each Hero that suffered at least one wound and apply one of the following status effects depending on the roll:<br>0ST: Bane<br>1ST: Hex<br>2ST: Ice<br>3ST: Poison<br>4ST: Immobile');
 
-/*Steady							--Index kXXX*/ 	
+/*Steady							--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Steady', 'A model with Stready may not be Pushed, Pulled, or Compelled by enemy models.');
 
 /*Steal								--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Steal', 'When a model with Steal inflicts a wound, it may discard one random card from the party''s backpack.');
 /*Stealth							--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Stealth', 'Actions targeting a model with Stealth reduce their Range by 3, to a minimum of 1.');
@@ -700,6 +718,8 @@
 /*Tail Sweep						--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Tail Sweep', 'During its activation, a model with Tail Sweep may make the following offensive action a single time for free:<br>0AC 0SW, Sweep 2, KNOCKDOWN');
 
 /*Territorial						--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Territorial', 'A model with Territorial gains +1ST to offense rolls while on the first tile, +2ST while on the second, +3ST while on the third, and +4ST while on the fourth.<br>(Area: A model with Territorial gains +2ST to offensive rolls while on the same tile as a friendly spawning point.)');
+
+/*Throw								--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Throw', 'When using an action with Throw, choose one friendly adjacent model.  Move that model a number of squares up to the value of X, using the rules for Push.  If the model moves to a square that is adjacent to another model, it immediately stops moving.  Every model it stops adjacent to, friendly or enemy, suffers an offense roll of 1B per square the model moved.');
 
 /*Thwomp							--Index kXXX*/
 
@@ -768,6 +788,8 @@
 /*Absolute Destruction												--Index kXXX*/ 	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Absolute Destruction', 'Action', 'Offense', 0, 1, -1, 'Sweep 2, +2ST STR');
 /*Ambush Predator													--Index kXXX*/ 	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Explore', 'Ambush Predator', 'Action', 'Offense', 1, 1, 5, '1SW, Pounce');
 
+/*Anchor Around Your Neck, An										--Index kXXX*/ 	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Default', 'Anchor Around Your Neck, An', 'Action', 'Support', 1, -1, -1, 'AUGMENT.  Until the end of the next Consul turn, this model''s Dragged To The Depths ability is triggered when it suffers a wound, instead of when it is destroyed.');
+
 /*Apprentice														--Index kXXX*/ 	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Apprentice', 'Action', 'Support', 0, -1, -1, 'Spawn two Forge Gnomes adjacent to this model.');
 
 /*Araphel's Blessing												--Index kXXX*/ 	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Araphel''s Blessing', 'Action', 'Offense', 0, 1, 3, 'BANE');
@@ -779,6 +801,8 @@
 
 /*Arrow Storm														--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Arrow Storm', 'Action', 'Offense', 0, 1, 6, 'RANGE6, Burst 2, +1ST STR');
 
+/*Avalanche of Blades												--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Default', 'Avalanche of Blades', 'Action', 'Offense', 2, 1, 1, '1SW, Wave 1, IMMOBILE');
+
 /*Azogar															--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Azogar', 'Action', 'Offense', 0, 1, -1, 'Wave 2');
 
 /*Bag of Crows														--Index kXXX*/ 	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Bag of Crows', 'Action', 'Support', 0, -1, -1, 'If there are less than 4 Underdead Crows in play, Spawn Underdead Crows within 4 squares of this model until there are 4 in play.');
@@ -789,11 +813,15 @@
 /*Belzarach															--Index kXXX*/ 	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Belzarach', 'Action', 'Offense', 0, 1, 6, '6MI');
 /*Berserker Saga													--Index kXXX*/ 	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Berserker Saga', 'Action', 'Support', 0, -1, -1, 'AUGMENT, if there is not a Draugr Berserker in play, destroy the closest friendly Draugr.  If a Draugr is destroyed in this way, the Consul spawns a Draugr Berserker within three squares of the Hero with the most wrath.');
 
+/*Black Roses														--Index kXXX*/ 	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Default', 'Black Roses', 'Potion', 'Support', 1, -1, -1, 'AUGMENT, Despair');
+
 /*Blessings of Hyphae												--Index kXXX*/ 	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Blessings of Hyphae', 'Action', 'Support', 0, 1, 6, 'STR vs DEX.  Shapeshift target Hero into a Heroic Kinoshroom.');
 
 /*Blind Obedience													--Index kXXX*/ 	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Explore', 'Blind Obedience', 'Action', 'Offense', 2, 3, 6, '6MA, if this attack inflicts a wound, the target spends 1AC, controlled by the Consul, for each status effect on it.');
 /*Blind Obedience													--Index kXXX*/ 	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Blind Obedience', 'Action', 'Offense', 0, 1, 6, 'AUGMENT.  If this attack inflicts a wound, the target must immediately make one basic attack action for each status effect on it targeting the closest other Hero.');
 /*Blood Frenzy														--Index kXXX*/ 	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Blood Frenzy', 'Action', 'Support', 0, -1, -1, 'AUGMENT, all other Ijin gangs on this tile gain Massive Damage to all of their attaccks this turn.');
+
+/*Blood-Red Lip Balm												--Index kXXX*/ 	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Default', 'Blood-Red Lip Balm', 'Action', 'Emergency', 0, -1, -1, 'AUGMENT, +1B ARM');
 
 /*Blutarch Handcannon												--Index kXXX*/ 	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Blutarch Handcannon', 'Action', 'Offense', 0, 4, 6, '+2ST STR');
 
@@ -830,8 +858,9 @@
 
 /*Clockwork Gatling													--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Clockwork Gatling', 'Action', 'Offense', 0, 1, -1, 'Wave 3');
 
+/*Cloud of Ash														--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Default', 'Cloud of Ash', 'Action', 'Offense', 1, -1, -1, 'AUGMENT, Aura 3, Stealth');
 
-/*Cloud of Straw													--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Explore', 'Cloud of Straw', 'Action', 'Offense', 0, 1, -1, '0MA, Wave 1, HEX');
+/*Cloud of Straw													--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Explore', 'Cloud of Straw', 'Action', 'Offense', 2, 3, -1, '0MA, Wave 1, HEX');
 
 /*Cloud of Straw													--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Cloud of Straw', 'Action', 'Offense', 0, 1, -1, 'Wave 1, HEX');
 /*Cloud of Straw													--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Cloud of Straw', 'Action', 'Offense', 0, 1, -1, 'Wave 3, HEX');
@@ -848,6 +877,7 @@
 /*Concussion Shell													--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Concussion Shell', 'Action', 'Offense', 1, -1, 10, '10MI, Massive Damage.  This model must discard a crystal shell token from a square it occupies in order to take this action.');
 
 
+/*Crashing Waves													--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Explore', 'Crashing Waves', 'Action', 'Offense', 1, 1, 1, '1SW, Pounce');
 /*Crashing Waves													--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Crashing Waves', 'Action', 'Offense', 0, -1, -1, 'AUGMENT.  Place this model and all bonded minions within 2 squares of the hero with the least wrath.');
 
 /*Creeping Growth													--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Explore', 'Creeping Growth', 'Action', 'Offense', 1, 3, -1, 'This action affects all Heroes in play.  This action may only be taken once per turn.');
@@ -857,6 +887,7 @@
 
 /*Cross Slash														--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Cross Slash', 'Action', 'Offense', 0, 1, -1, 'Wave 4');
 
+/*Crow Pie															--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Explore', 'Crow Pie', 'Action', 'Offense', 2, 3, 6, '6MA, Bane');
 /*Crow Pie															--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Crow Pie', 'Action', 'Offense', 0, 1, 2, 'Bane');
 
 /*Crystaline Web													--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Crystaline Web', 'Action', 'Offense', 0, 1, -1, 'Wave 1, SLOW');
@@ -897,6 +928,7 @@
 /*Death Pact														--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Death Pact', 'Action', 'Support', 0, -1, 3, 'Place a Death Pact token on the target.  When a model with a Death Pact token inflicts a wound it also suffers a wound.  The token is removed when Shinigami or the model is destroyed.');
 
 
+/*Deathmark															--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Explore', 'Deathmark', 'Action', 'Offense', 1, 3, 3, '3Range, WILL vs WILL, BANE');
 /*Deathmark															--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Deathmark', 'Action', 'Offense', 0, 1, 8, 'BANE');
 
 /*Deeproot Rage														--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Explore', 'Deeproot Rage', 'Action', 'Offense', 2, 3, -1, '0MA, Wave 4, POISON');
@@ -920,8 +952,15 @@
 
 /*Double Slash														--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Double Slash', 'Action', 'Offense', 0, 1, 2, 'Massive Damage');
 
+/*Dragged Down														--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Default', 'Dragged Down', 'Action', 'Offense', 2, 1, 6, '6SW, +1R STR, Massive Damage, Pull 6');
+
 /*Dragon Hoard														--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Dragon Hoard', 'Action', 'Support', 3, -1, -1, 'AUGMENT, Draw one loot card; choose to equip it in the same manner as a Hero, or discard it.');
 /*Dragon Rage														--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Dragon Rage', 'Action', 'Support', 0, -1, 0, 'AUGMENT, +1ST STR');
+
+/*Drowning Deeps, The												--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Explore', 'Drowning Deeps, The', 'Action', 'Support', 1, -1, -1, 'AUGMENT, Until the end of the next Hero turn, the Dragged To The Depths ability of all models on this tile is triggered when the model suffers a wound, instead of when it is destroyed.');
+/*Drowning Deeps, The												--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Drowning Deeps, The', 'Action', 'Support', 0, -1, -1, 'AUGMENT.  Until the end of the next Hero turn, the Dragged To The Depths ability of all models on this tile is triggered when the model suffers a wound, instead of when it is destroyed.');
+
+/*Earthen Armor														--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Default', 'Earthen Armor', 'Action', 'Support', 1, -1, 6, 'AUGMENT, RANGE6.  Place a crystal token on target Hero.  The target gain +1B ARM while it has the token.  Discard the token at the start of this model''s next activation.');
 
 /*Easy Mark															--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Explore', 'Easy Mark', 'Action', 'Support', 1, 3, 6, 'RANGE6, WILL v WILL, IMMOBILE');
 /*Easy Mark															--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Easy Mark', 'Action', 'Support', 0, 1, 6, 'RANGE6, IMMOBILE');
@@ -963,6 +1002,7 @@
 
 /*Firing Pin														--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Explore', 'Firing Pin', 'Action', 'Offense', 1, 4, 6, '6MI, Massive Damage.  This model must discard a crystal shell token from the square it is occupying in order to take this action.');
 
+/*Flaming Blade														--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Default', 'Flaming Blade', 'Action', 'Offense', 2, 1, -1, '0SW, Wave 1, FIRE');
 
 /*Flame Burst														--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Flame Burst', 'Action', 'Offense', 0, 1, 3, 'Burst 1, BANE');
 /*Flame Burst														--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Flame Burst', 'Action', 'Offense', 0, 1, 3, 'Burst 1, FIRE');
@@ -989,6 +1029,13 @@
 /*Frozen Detonation													--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Frozen Detonation', 'Action', 'Offense', 0, 1, 3, 'Burst 1, ICE');
 /*Frozen Heart														--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Frozen Heart', 'Action', 'Offense', 0, 1, 3, 'ICE');
 
+/*Furious Firebloom													--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Default', 'Furious Firebloom', 'Potion', 'Support', 1, 3, 4, 'DANGEROUS, 4MA, Burst 1');
+
+
+/*Fury of Eternity													--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Explore', 'Fury of Eternity', 'Action', 'Offense', 2, 1, 3, '3SW, +1R STR, Massive Damage, Improved Critical');
+/*Fury of Eternity													--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Fury of Eternity', 'Action', 'Offense', 0, 1, 6, 'Massive Damage');
+
+
 /*Gather, My Children												--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Explore', 'Gather, My Children', 'Action', 'Support', 1, -1, -1, 'AUGMENT, At the end of this model''s activation it spawns four Yowlings due to its Ferocious Hoot ability instead of two.  This action may only be taken once per turn.');
 
 
@@ -1014,7 +1061,11 @@
 
 /*Hail of Fire														--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Hail of fire', 'Action', 'Offense', 0, 1, 6, '6SW, The STR of this attack is equal to the number of Undead Legionaires bonded to this elite.');
 
-/*Hammer Toss														--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Explore', 'Hammer Toss', 'Action', 'Offense', 1, 1, -6, '6SW, +1G STR, Massive Damage.  To take this action, Lord Vulcanis must first discard a Relic Item.');
+/*Hammer Toss														--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Explore', 'Hammer Toss', 'Action', 'Offense', 1, 1, 6, '6SW, +1G STR, Massive Damage.  To take this action, Lord Vulcanis must first discard a Relic Item.');
+
+/*Hanzo's Might														--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Default', 'Hanzo''s Might', 'Potion', 'Emergency', 1, 1, -1, 'AUGMENT, Heal 1 for each Hero in play with "Hanzo" in their name.');
+
+
 /*Happy Cat															--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Explore', 'Happy Cat', 'Action', 'Support', 1, -1, -1, 'Wave 3, Pull 2');
 
 /*Headbutt															--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Headbutt', 'Action', 'Offense', 0, 1, 3, '+2ST STR, KNOCKDOWN');
@@ -1031,6 +1082,11 @@
 
 /*Howl																--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Howl', 'Action', 'Support', 0, -1, -1, 'Aura 5.  All other Elites gain +1MV.');
 /*Howl																--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Howl', 'Action', 'Support', 0, -1, -1, 'The closest friendly gang with the Rampage ability immediately performs the Fight command.');
+
+/*Ice Bolt															--Index kXXX*/ 	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Default', 'Ice Bolt', 'Action', 'Offense', 1, 3, 8, '8MA, ICE');
+
+/*Ice King															--Index kXXX*/ 	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Default', 'Ice King', 'Action', 'Support', 2, 3, 3, '3RANGE, WILL vs WILL Discard this Relic and attach it to target Hero.');
+
 
 /*Ice Shards														--Index kXXX*/ 	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Ice Shards', 'Action', 'Offense', 0, 1, 2, 'ICE');
 /*Ice Rage															--Index kXXX*/ 	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Ice Rage', 'Action', 'Support', 0, -1, -1, 'AURA 2, ICE');
@@ -1060,6 +1116,9 @@
 /*Kneel Insects!													--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Explore', 'Kneel Insects!', 'Action', 'Offense', 2, 1, 3, '3SW, +1R STR, KNOCKDOWN');
 /*Knuckle Smash														--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Knuckle Smash', 'Action', 'Offense', 0, 1, 2, '+1ST STR, SLOW');
 
+/*Lantern Blaze														--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Default', 'Lantern Blaze', 'Action', 'Offense', 2, 4, 4, '4MI, +1R DEX, FIRE');
+
+/*Last Breath, The													--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Explore', 'Last Breath, The', 'Action', 'Support', 1, -1, -1, 'Aura 10.  All models in range that are affected by Dragged To The Depths suffer two wounds instead of one if they fail the roll.');
 /*Last Breath, The													--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Last Breath, The', 'Action', 'Support', 0, -1, -1, 'Aura 10.  Dragged To The Depths causes an additional wound.');
 
 /*Leaping Strike													--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Explore', 'Leaping Strike', 'Action', 'Offense', 2, 1, -1, '0SW, +1R STR, Lance 6, Charge');
@@ -1114,6 +1173,8 @@
 
 /*Out Of My Way!													--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Explore', 'Out Of My Way!', 'Action', 'Offense', 2, 1, -1, '0SW, Sweep 3, KNOCKDOWN');
 
+/*Out of the Corn													--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Explore', 'Out of the Corn', 'Action', 'Support', 2, -1, -1, 'AUGMENT, All Harvest Goons in play immediately perform one basic melee attack.');
+
 /*Overwhelming Assault												--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Overwhelming Assault', 'Action', 'Offense', 0, 1, 2, 'Massive Damage');
 
 /*Overdose															--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Overdose', 'Action', 'Offense', 0, 1, 3, 'This offensive action inflicts one additional wound for each status effect on the target.');
@@ -1121,6 +1182,8 @@
 /*Pacify The Way													--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Explore', 'Pacify The Way', 'Action', 'Offense', 1, 4, 4, '4RANGE, DEX vs. DEX, on a critical discard one random equipment from the target.');
 
 /*Personalized Concoction											--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Personalized Concoction', 'Action', 'Offense', 0, 1, 3, 'HEX, POISON');
+
+/*Phoenix And Ashes													--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Default', 'Phoenix And Ashes', 'Action', 'Offense', 1, 3, 5, '5MA, If the target is destroyed, place this model in the square the target had occupied.  This action may only be taken once per turn.');
 
 /*Pipe Puff															--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Explore', 'Pipe Puff', 'Action', 'Offense', 1, 4, -1, '0MI, Lance 6, POISON');
 /*Pipe Puff															--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Pipe Puff', 'Action', 'Offense', 0, 1, -1, '0SW, Lance 6');
@@ -1170,9 +1233,9 @@
 
 /*Scent of Death													--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Explore', 'Scent of Death', 'Action', 'Offense', 1, 3, 3, '3MA, if this action inflicts a wound, spawn two Kodeads within 2 squares of the target.  This action may only be taken once per turn.');
 
+/*Sream Queen														--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Default', 'Scream Queen', 'Action', 'Offense', 2, 3, -1, '0MA, Wave 1');
 
 /*Scuttling Menace													--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Scuttling Menace', 'Action', 'Support', 0, -1, 2, 'Spawn one Big Claw within 2 squares of this elite.');
-
 
 /*Scuttling Swarm													--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Explore', 'Scuttling Swarm', 'Action', 'Support', 1, -1, -1, 'Spawn one spider from the spawning pool, worth 1 skull point, adjacent to Duskweaver Acolyte.');
 /*Scuttling Swarm													--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Scuttling Swarm', 'Action', 'Support', 0, -1, -1, 'Spawn one Crawler within 2 squares of this elite.');
@@ -1180,12 +1243,8 @@
 
 /*Seasoning															--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Explore', 'Seasoning', 'Action', 'Support', 0, -1, -1, 'AUGMENT, this model may reroll all rolls it makes due to Pig Feed this turn.');
 
-
-
-
 /*Shadow Breath														--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Shadow Breath', 'Action', 'Support', 0, -1, -1, 'AUGMENT, Aura 5, Stealth');
 /*Shadow Breath														--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Shadow Breath', 'Action', 'Support', 0, -1, -1, 'Aura 1, Heroes consider the squares in the area to block line of sight.  Heroes may still move into these squares.');
-
 
 /*Shell Shock														--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Explore', 'Shell Shock', 'Action', 'Offense', 2, 1, -1, '0SW, Lance 10, KNOCKDOWN, Charge');
 /*Shell Shock														--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Shell Shock', 'Action', 'Offense', 0, 1, -1, 'Lance 10, KNOCKDOWN.  After resolving damage, place Testudo Tower adjacent to the Hero closest to Testudo Tower which was affected by Shell Shock.  Testudo Tower does not move if it cannot fit entirely within squares affected by Shell Shock.');
@@ -1198,8 +1257,6 @@
 /*Show of Strength													--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Show of Strength', 'Action', 'Support', 0, 1, -1, 'Wave 1, STR vs WILL, Push 1');
 
 /*Sieze Prey														--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Sieze Prey', 'Action', 'Support', 0, 1, -1, 'The closest Hero (or the Hero with the most wrath if multiple Heroes are equally close) suffers Push 6.  Then place this model adjacent to the Hero that was pushed.');
-
-
 
 /*Silk Noose														--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Explore', 'Silk Noose', 'Action', 'Offense', 1, 4, 8, 'Pull 6.');
 /*Silk Noose														--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Silk Noose', 'Action', 'Offense', 0, 1, 8, 'Pull 6.  This offensive action targets the Hero with the least wrath in range and LOS.');
@@ -1220,6 +1277,8 @@
 /*Sneaky Rat														--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Sneaky Rat', 'Action', 'Offense', 0, 1, 3, 'Any Heroes that fail a defense roll against this attack reduce the stars they rolled to 0 for the purposes of the Yoink ability.');
 
 /*Soul Shard														--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Soul Shard', 'Action', 'Support', 0, -1, 3, 'RANGE3, Animate Soul.  This action is not taken if a crystal token placed by this action is in play.');
+
+/*Soul Drain														--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Explore', 'Soul Drain', 'Action', 'Offense', 1, 3, 1, 'If this action deals a wound, spawn one 8-Bit monster worth one Skull Point adjacent to the target.');
 /*Soul Drain														--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Soul Drain', 'Action', 'Offense', 0, 1, 6, 'If this deals a wound, this Spawning Point follows the Reinforce command.');
 
 /*Spider to the Fly													--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Explore', 'Spider to the Fly', 'Action', 'Support', 1, -1, 4, '4RANGE, Place up to 3 skull points of spiders from anywhere in the dungeon, adjacent to target Hero.');
@@ -1253,13 +1312,18 @@
 /*Strike The Heart													--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Strike The Heart', 'Action', 'Offense', 0, 1, 2, 'Massive Damage');
 /*Strike From Shadow												--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Strike From Shadow', 'Action', 'Offense', 0, 1, 6, 'BANE');
 
+/*Storm of Vengeance												--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Explore', 'Storm of Vengeance', 'Action', 'Support', 3, -1, -1, 'AUGMENT.  All Undead monsters in play, including this one, immediately take one basic offensive action.');
 
 /*Sudden Strike														--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Explore', 'Sudden Strike', 'Action', 'Offense', 1, 1, 5, '1SW, Pounce, KNOCKDOWN');
 /*Summon the Horde													--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Summon the Horde', 'Action', 'Support', 0, -1, -1, 'The gang with an elite closest to Gothmog Reinforces.');
 /*Summon Minions													--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Explore', 'Summon Minions', 'Action', 'Support', 2, -1, 3, 'AUGMENT.  Spawn two skull points of 8-Bit monsters within three squares of Randy, then Randy suffers two wounds.');
 /*Summon Minions													--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Summon Minions', 'Action', 'Support', 0, -1, -1, 'AUGMENT, select a gang available in the spawning pool and spawn it within three squares of Randy.');
 
+/*Sunken Tunnels													--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Default', 'Sunken Tunnels', 'Action', 'Support', 1, -1, -1, 'AUGMENT, Burrow.  This model may immediately move up to three squares.  This action may only be taken once per turn.');
+
 /*Sweeping Spear													--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Sweeping Spear', 'Action', 'Offense', 0, 1, -1, 'Wave 4');
+
+/*Sweet Tooth														--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Default', 'Sweet Tooth', 'Potion', 'Support', 2, -1, -1, 'AUGMENT, Draw 1 Loot.');
 
 /*Swirling Claws													--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Default', 'Swirling Claws', 'Action', 'Offense', 2, 4, 2, '+1R DEX, after completing this attack, this model may move up to 3 squares.');
 
@@ -1267,11 +1331,17 @@
 
 /*Tears of Anger													--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Default', 'Tears of Anger', 'Potion', 'Support', 1, -1, 0, 'AUGMENT, Discard one equipment card from the backpack in order for this Hero to make up to two basic offensive actions.');
 
+/*Tempest In A Bottle												--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Default', 'Tempest In A Bottle', 'Potion', 'Support', 1, -1, 5, 'AUGMENT, immediately move up to five squares.');
+
 
 /*A Tetsubo for Every Face											--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Explore', 'A Tetsubo for Every Face', 'Action', 'Offense', 2, 1, 3, '3SW, Burst 2');
 /*A Tetsubo for Every Face											--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'A Tetsubo for Every Face', 'Action', 'Offense', 0, 1, -1, 'Wave 4');
 
 /*Tether															--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Tether', 'Action', 'Support', 0, -1, 10, 'RANGE10, Pull 4');
+
+/*Tidal Current														--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Default', 'Tidal Current', 'Action', 'Support', 1, 3, -1, 'DANGEROUS, Wave 10, WILL vs WILL, Compel 1');
+
+/*Titillating Talents												--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Default', 'Titillating Talents', 'Action', 'Offense', 2, 3, 6, '6MA, +1R WILL, Pull 6');
 
 /*This is Junk														--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Explore', 'This is Junk', 'Action', 'Offense', 1, 1, 6, '6SW, Massive Damage, Discard one equipped Loot to take this action.');
 
@@ -1285,9 +1355,16 @@
 /*Travel The Way													--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Explore', 'Travel The Way', 'Action', 'Support', 1, -1, 0, 'AUGMENT, place this model to any Waystone in play.');
 /*Travel The Way													--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Travel The Way', 'Action', 'Support', 0, -1, 0, 'Place this model within 3 squares of the Waystone with the lowest Health on the tile with the greatest number of Heroes.');
 
+/*Treat																--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Default', 'Treat', 'Action', 'Support', 1, -1, 6, 'AUGMENT, 6RANGE, Move other target Hero up to 6 squares.  This action may only be taken once per turn.');
+
+/*Trick																--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Default', 'Trick', 'Action', 'Offense', 2, 4, 4, '4MI, Burst');
+
 /*Turtle Tosser														--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Explore', 'Turtle Tosser', 'Action', 'Offense', 1, 1, 1, 'DANGEROUS, Throw 6, KNOCKDOWN');
 
 /*Undertow															--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Undertow', 'Action', 'Support', 0, -1, -1, 'All Heroes with at least one tentacles token must choose to suffer either IMMOBILE, or two wounds.');
+
+/*Undertow															--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Explore', 'Undertow', 'Action', 'Offense', 2, 1, 3, '3SW, Pull 3, Massive Damage, IMMOBILE');
+/*Undertow															--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Undertow', 'Action', 'Offense', 0, 1, 3, 'Massive Damage, IMMOBILE');
 
 /*Unfortunate Accident												--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Explore', 'Unfortunate Accident', 'Action', 'Support', 1, 3, 8, '8RANGE, WILL vs WILL, Target model makes a single basic attack of Onryo''s choice against itself.');
 /*Unfortunate Accident												--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Unfortunate Accident', 'Action', 'Support', 0, -1, -1, 'Target model makes a single basic attack using its highest attribute (including treasure) aginst itself.');
