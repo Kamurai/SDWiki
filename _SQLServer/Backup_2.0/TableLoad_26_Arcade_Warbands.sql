@@ -2118,9 +2118,493 @@ VALUES (arXXX, 1, 'Guttersnipe', 'Bonded Goblin', 'Minion', 7, 1, 0, eXXX);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, kXXX); --Yoink!
 
 
+--Shadow Tower
+--Shadow Tower --CardIndex cXXX --CharacterIndex chXXX --ArcadeCharacterIndex arXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Shadow Tower',
+'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Shadow_Tower/Card_Arcade_Warband_Shadow_Tower_Shadow_Tower_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Shadow_Tower/Card_Arcade_Warband_Shadow_Tower_Shadow_Tower_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Shadow_Tower/Shadow_Tower.xhtml', 
+'Arcade Gang', '2.0', '2.0 Core Set', 'Default', 
+'When the Dark Realm breached the light of Crystalia, it tore a rent between the two worlds known as the Nether Rifts. Much of the land which was lost to the newly formed Nether Rifts was of the Fae Wood. As the rifts opened, entire villages and cities of deeproot elves were swallowed by the Dark Realm. Forced to survive within the cold darkness of the Dark Consul''s domain, the elves became dark reflections of what they once were. Twisted by the corrupting influence of shadow, they became vile and villainous, a scourge upon all of Crystalia.'); 
+insert into Characters (CardIndex) VALUES (cXXX);
+insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
+VALUES (chXXX, 0, -1);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 3); --Ruby
+--GangMemberIndex gXXX
+insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex);
+VALUES (arXXX, 0, 'Shadow Tower', 'Spawning Point', '', 0, 3, 1, eXXX);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, kXXX); --Immune: Status Effects
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, kXXX); --Spawning Pool
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, kXXX); --Stealth Aura
+
+--Shadow Guard 	--CardIndex cXXX	--CharacterIndex chXXX	--ArcadeCharacterIndex arXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Shadow Guard',
+'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Shadow_Tower/Card_Arcade_Warband_Shadow_Tower_Shadow_Guard_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Shadow_Tower/Card_Arcade_Warband_Shadow_Tower_Shadow_Guard_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Shadow_Tower/Shadow_Guard.xhtml', 
+'Warband', '2.0', '2.0 Core Set', 'Default', 
+'Tower Stalkers seek to identify the weakest link and remove it. Relishing in sowing dread and terror, a Tower Stalker will harry and toy with an adventuring party, striking when heroes become isolated or vulnerable. Tower Stalkers are often accompanied by Blackblades, the Midnight Queen''s infantry. While the heroes deal with the Blackblades, they rarely see the Stalker coming.');  
+insert into Characters (CardIndex) VALUES (cXXX);
+insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
+VALUES (chXXX, 241, 362);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 3); --Ruby
+--GangMemberIndex gXXX
+insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex);
+VALUES (arXXX, 0, 'Tower Stalker', 'Nether Elf', 'Elite', 8, 3, 2, eXXX); 
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, kXXX); --Bane
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (gXXX, abXXX); --Weaken the Prey
+--GangMemberIndex gXXX
+insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex);
+VALUES (arXXX, 1, 'Tower Blackblade', 'Nether Elf', 'Minion', 8, 1, 1, eXXX); 
+
+--Tower Arbalist 	--CardIndex cXXX	--CharacterIndex chXXX	--ArcadeCharacterIndex arXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Tower Arbalist',
+'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Shadow_Tower/Card_Arcade_Warband_Shadow_Tower_Tower_Arbalist_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Shadow_Tower/Card_Arcade_Warband_Shadow_Tower_Tower_Arbalist_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Shadow_Tower/Tower_Arbalist.xhtml', 
+'Warband', '2.0', '2.0 Core Set', 'Default', 
+'Nether elves see little reason to sacrifice themselves needlessly in battle. Because of this, the large majority of nether elf battalions consist of ranks upon ranks of Arbalists wielding wicked crossbows. Before an enemy is able to engage the nether elves'' lines, they must withstand a withering barrage of bolts.');
+insert into Characters (CardIndex) VALUES (cXXX);
+insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
+VALUES (chXXX, 241, 362);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 3); --Ruby
+--GangMemberIndex gXXX
+insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex);
+VALUES (arXXX, 0, 'Tower Arbalist', 'Nether Elf', 'Elite', 7, 1, 1, eXXX); 
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, kXXX); --Ice
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (gXXX, abXXX); --Enervating Bolt
+
+--Tower Marksmen 	--CardIndex cXXX	--CharacterIndex chXXX	--ArcadeCharacterIndex arXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Tower Marksmen',
+'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Shadow_Tower/Card_Arcade_Warband_Shadow_Tower_Tower_Marksmen_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Shadow_Tower/Card_Arcade_Warband_Shadow_Tower_Tower_Marksmen_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Shadow_Tower/Tower_Marksmen.xhtml', 
+'Warband', '2.0', '2.0 Core Set', 'Default', 
+'xxxx');
+insert into Characters (CardIndex) VALUES (cXXX);
+insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
+VALUES (chXXX, 241, 362);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 3); --Ruby
+--GangMemberIndex gXXX
+insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex);
+VALUES (arXXX, 0, 'Tower Marksmen', 'Nether Elf', 'Elite', 7, 1, 1, eXXX); 
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, kXXX); --Ice
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (gXXX, abXXX); --Enervating Bolt
+--GangMemberIndex gXXX
+insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex);
+VALUES (arXXX, 1, 'Tower Marksmen', 'Nether Elf', 'Elite', 7, 1, 1, eXXX); 
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, kXXX); --Ice
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (gXXX, abXXX); --Enervating Bolt
+--GangMemberIndex gXXX
+insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex);
+VALUES (arXXX, 2, 'Tower Marksmen', 'Nether Elf', 'Elite', 7, 1, 1, eXXX); 
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, kXXX); --Ice
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (gXXX, abXXX); --Enervating Bolt
 
 
+--Shadow Warren
+--Shadow Warren --CardIndex cXXX --CharacterIndex chXXX --ArcadeCharacterIndex arXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Shadow Warren',
+'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Shadow_Warren/Card_Arcade_Warband_Shadow_Warren_Shadow_Warren_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Shadow_Warren/Card_Arcade_Warband_Shadow_Warren_Shadow_Warren_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Shadow_Warren/Shadow_Warren.xhtml', 
+'Arcade Gang', '2.0', '2.0 Core Set', 'Default', 
+'Corsucating with the midnight energies of the Dark Realm, the kobolds of the Shadow Warrens are closely linked to the Dark Consul. Despite this, the cults of the Shadow Warrens are divided and fractious. The Cult of the Dark claims to be the original cult, tracing its lineage back to the Dark Consul''s first rise to power. The Cult of Shattered Night cares little for the other cults, relishing in assassination and intrigue. However, it is the Cult of the Dark that has recently drawn the most worry from the Heroes of Crystalia. Lead by the Demon Lord known only as The Destroyer, the Cult of the Dark has laid a waste to every foe it has faced. It has become an endless tide of darkness consuming Crystalia bit by bit.'); 
+insert into Characters (CardIndex) VALUES (cXXX);
+insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
+VALUES (chXXX, 0, -1);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1); --Citrine
+--GangMemberIndex gXXX
+insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex);
+VALUES (arXXX, 0, 'Shadow Warren', 'Paired Spawning Point', '', 0, 3, 1, eXXX);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, kXXX); --Immune: Status Effects
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, kXXX); --Spawning Pool
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, kXXX); --Stealth
+
+--Cult of the Dark 	--CardIndex cXXX	--CharacterIndex chXXX	--ArcadeCharacterIndex arXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Cult of the Dark',
+'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Shadow_Warren/Card_Arcade_Warband_Shadow_Warren_Cult_of_the_Dark_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Shadow_Warren/Card_Arcade_Warband_Shadow_Warren_Cult_of_the_Dark_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Shadow_Warren/Cult_of_the_Dark.xhtml', 
+'Warband', '2.0', '2.0 Core Set', 'Default', 
+'The kobolds in the Cult of the Dark are lorded over by The Destroyer, a demon from the depths of the Nether Rifts. The Shadow Priests who lead the cult are haughty and arrogant, thinking themselves better than other kobolds who have strayed from the strength of the Dark Realm. These priests often drive Skewers, weaker kobolds who have to resort to spears, before them as cannon fodder.');  
+insert into Characters (CardIndex) VALUES (cXXX);
+insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
+VALUES (chXXX, 241, 362);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 3); --Ruby
+--GangMemberIndex gXXX
+insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex);
+VALUES (arXXX, 0, 'Shadow Priest', 'Kobold', 'Elite', 6, 3, 2, eXXX); 
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, kXXX); --Hubris
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, kXXX); --Stealth
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (gXXX, abXXX); --Shadow Breath
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (gXXX, abXXX); --Dragon Rage
+--GangMemberIndex gXXX
+insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex);
+VALUES (arXXX, 1, 'Skewer', 'Kobold', 'Minion', 7, 1, 1, eXXX); 
+
+--Shadow Brigade 	--CardIndex cXXX	--CharacterIndex chXXX	--ArcadeCharacterIndex arXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Shadow Brigade',
+'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Shadow_Warren/Card_Arcade_Warband_Shadow_Warren_Shadow_Brigade_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Shadow_Warren/Card_Arcade_Warband_Shadow_Warren_Shadow_Brigade_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Shadow_Warren/Shadow_Brigade.xhtml', 
+'Warband', '2.0', '2.0 Core Set', 'Default', 
+'When the Dark Realm breached the light of Crystalia, it tore a rent between the two worlds known as the Nether Rifts. Much of the land which was lost to the newly formed Nether Rifts was of the Fae Wood. As the rifts opened, entire villages and cities of deeproot elves were swallowed by the Dark Realm. Forced to survive within the cold darkness of the Dark Consul''s domain, the elves became dark reflections of what they once were. Twisted by the corrupting influence of shadow, they became vile and villainous, a scourge upon all of Crystalia.');
+insert into Characters (CardIndex) VALUES (cXXX);
+insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
+VALUES (chXXX, 241, 362);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 4); --Sapphire
+--GangMemberIndex gXXX
+insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex);
+VALUES (arXXX, 0, 'Shadowscale', 'Kobold', 'Elite', 6, 1, 2, eXXX); 
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, kXXX); --Hubris
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, kXXX); --Stealth
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (gXXX, abXXX); --Shield Wall
+--GangMemberIndex gXXX
+insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex);
+VALUES (arXXX, 1, 'Dimwit', 'Bonded Kobold', 'Minion', 6, 1, 1, eXXX); 
+
+--Squirrely Slingers 	--CardIndex cXXX	--CharacterIndex chXXX	--ArcadeCharacterIndex arXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Squirrely Slingers',
+'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Shadow_Warren/Card_Arcade_Warband_Shadow_Warren_Squirrely_Slingers_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Shadow_Warren/Card_Arcade_Warband_Shadow_Warren_Squirrely_Slingers_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Shadow_Warren/Squirrely_Slingers.xhtml', 
+'Warband', '2.0', '2.0 Core Set', 'Default', 
+'The kobolds of the Nether Rifts plague the outskirts of the Fae Woods, and are a scourge upon the local wildlife. A particularly favored concoction is a stew simmered from rabid squirrels. Flung from their steaming slings, the stew inflicts strange madness and afflictions upon anyone that it touches.');
+insert into Characters (CardIndex) VALUES (cXXX);
+insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
+VALUES (chXXX, 241, 362);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 4); --Sapphire
+--GangMemberIndex gXXX
+insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex);
+VALUES (arXXX, 0, 'Dark Lobber', 'Kobold', 'Elite', 6, 1, 1, eXXX); 
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, kXXX); --Bane
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, kXXX); --Hubris
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, kXXX); --Stealth
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (gXXX, abXXX); --Squirrely Shot
+--GangMemberIndex gXXX
+insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex);
+VALUES (arXXX, 1, 'Dark Lobber', 'Bonded Kobold', 'Elite', 6, 1, 1, eXXX); 
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, kXXX); --Bane
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, kXXX); --Hubris
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, kXXX); --Stealth
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (gXXX, abXXX); --Squirrely Shott
 
 
+--Siege of the Citadel
+--Dark Legion Horde --CardIndex cXXX --CharacterIndex chXXX --ArcadeCharacterIndex arXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Dark Legion Horde',
+'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Siege_of_the_Citadel/Card_Arcade_Warband_Siege_of_the Citadel_Dark_Legion_Horde_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Siege_of_the_Citadel/Card_Arcade_Warband_Siege_of_the_Citadel_Dark_Legion_ Horde_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Siege_of_the_Citadel/Dark_Legion_Horde.xhtml', 
+'Arcade Gang', '2.0', '2.0 Core Set', 'Default', 
+''); 
+insert into Characters (CardIndex) VALUES (cXXX);
+insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
+VALUES (chXXX, 0, -1);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1); --Citrine
+--GangMemberIndex gXXX
+insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex);
+VALUES (arXXX, 0, 'Nepharite Warlord', 'Dark Legion', 'Elite', 3, 2, 2, eXXX);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, kXXX); --Dark Legion Spawn
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, kXXX); --Spawning Pool
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (gXXX, abXXX); --Azogar
+--GangMemberIndex gXXX
+insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex);
+VALUES (arXXX, 1, 'Undead Legionnaire', 'Bonded Dark Legion', '', 2, 1, 0, eXXX);
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (gXXX, abXXX); --Hail of Fire
+
+--Necromutant 	--CardIndex cXXX	--CharacterIndex chXXX	--ArcadeCharacterIndex arXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Necromutant',
+'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Shadow_Warren/Card_Arcade_Warband_Shadow_Warren_Necromutant_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Shadow_Warren/Card_Arcade_Warband_Shadow_Warren_Necromutant_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Shadow_Warren/Necromutant.xhtml', 
+'Warband', '2.0', '2.0 Core Set', 'Default', 
+'');  
+insert into Characters (CardIndex) VALUES (cXXX);
+insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
+VALUES (chXXX, 241, 362);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1); --Citrine
+--GangMemberIndex gXXX
+insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex);
+VALUES (arXXX, 0, 'Necromutant', 'Dark Legion', 'Chimera', 5, 1, 1, eXXX); 
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (gXXX, abXXX); --Belzarach
 
 
+--Skull Stone
+--Skull Stone --CardIndex cXXX --CharacterIndex chXXX --ArcadeCharacterIndex arXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Skull Stone',
+'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Skull_Stone/Card_Arcade_Warband_Skull_Stone_Skull_Stone_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Skull_Stone/Card_Arcade_Warband_Skull_Stone_Skull_Stone_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Skull_Stone/Skull_Stone.xhtml', 
+'Arcade Gang', '2.0', '2.0 Core Set', 'Default', 
+'A dominant race within the Dark Realm, orcs are hearty and violent by nature. Orcs congregate in huge tribes lead by the strongest or most cunning warrior among them. Under the guidance of a powerful warlord, orc tribes are scourges to the surrounding land and people. Caring little if they attack creatures of Light or Darkness, orcs care only for the thrill of the hunt and the chaos of battle.'); 
+insert into Characters (CardIndex) VALUES (cXXX);
+insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
+VALUES (chXXX, 0, -1);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1); --Citrine
+--GangMemberIndex gXXX
+insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex);
+VALUES (arXXX, 0, 'Skull Stone', 'Spawning Point', '', 0, 3, 1, eXXX);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, kXXX); --Brutality Aura
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, kXXX); --Immune: Status Effects
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, kXXX); --Spawning Pool
+
+--Smasher Mob 	--CardIndex cXXX	--CharacterIndex chXXX	--ArcadeCharacterIndex arXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Smasher Mob',
+'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Skull_Stone/Card_Arcade_Warband_Skull_Stone_Smasher_Mob_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Skull_Stone/Card_Arcade_Warband_Skull_Stone_Smasher_Mob_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Skull_Stone/Smasher_Mob.xhtml', 
+'Warband', '2.0', '2.0 Core Set', 'Default', 
+'Orcs are brutish and violent, but they are not without intelligence. Their high cunning is most often made manifest in their strategies of war, where they gang up to best advantage in order to fell their enemy.');  
+insert into Characters (CardIndex) VALUES (cXXX);
+insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
+VALUES (chXXX, 241, 362);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1); --Citrine
+--GangMemberIndex gXXX
+insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex);
+VALUES (arXXX, 0, 'Knuckle Smasher', 'Orc', 'Elite', 8, 2, 0, eXXX); 
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, kXXX); --Frenzy
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, kXXX); --Slow
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (gXXX, abXXX); --Knuckle Smash
+--GangMemberIndex gXXX
+insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex);
+VALUES (arXXX, 1, 'Face Beater', 'Bonded Orc', 'Minion', 6, 2, 0, eXXX);
+
+--Splitter Mob 	--CardIndex cXXX	--CharacterIndex chXXX	--ArcadeCharacterIndex arXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Splitter Mob',
+'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Skull_Stone/Card_Arcade_Warband_Skull_Stone_Splitter_Mob_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Skull_Stone/Card_Arcade_Warband_Skull_Stone_Splitter_Mob_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Skull_Stone/Splitter_Mob.xhtml', 
+'Warband', '2.0', '2.0 Core Set', 'Default', 
+'Splitter Mobs specialize in finding the biggest, nastiest, toughest foe they can find and chopping them down to size. For the orcs this provides a double benefit, a significant threat is eliminated and the blow to their enemy''s morale can be devastating, leading to a route of the opposing force.');  
+insert into Characters (CardIndex) VALUES (cXXX);
+insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
+VALUES (chXXX, 241, 362);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1); --Citrine
+--GangMemberIndex gXXX
+insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex);
+VALUES (arXXX, 0, 'Neck Splitter', 'Orc', 'Elite', 6, 2, 0, eXXX); 
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, kXXX); --Frenzy
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, kXXX); --Massive Damage
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (gXXX, abXXX); --Neck Smash
+--GangMemberIndex gXXX
+insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex);
+VALUES (arXXX, 1, 'Neck Splitter', 'Orc', 'Elite', 6, 2, 0, eXXX); 
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, kXXX); --Frenzy
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, kXXX); --Massive Damage
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (gXXX, abXXX); --Neck Smash
+
+
+--Spawn of Servitude
+--Spawn of Servitude --CardIndex cXXX --CharacterIndex chXXX --ArcadeCharacterIndex arXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Spawn of Servitude',
+'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Spawn_of_Servitude/Card_Arcade_Warband_Spawn_of_Servitude_Spawn_of_Servitude_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Spawn_of_Servitude/Card_Arcade_Warband_Spawn_of_Servitude_Spawn_of_Servitude_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Spawn_of_Servitude/Spawn_of_Servitude.xhtml', 
+'Arcade Gang', '2.0', '2.0 Core Set', 'Default', 
+'Succubi serve as Araphel''s demonic agents. Their ability to beguile, charm, and bend the minds of mortals make them uniquely suited to achieving Araphel''s aims. Succubi in the service of Araphel often have a Spawn of Servitude to use as a base of operations. Mortals who serve Araphel (knowingly or not) are often lured to a Spawn of Servitude to secure their loyalty, and enjoy the comfy, frilly pillows.'); 
+insert into Characters (CardIndex) VALUES (cXXX);
+insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
+VALUES (chXXX, 0, -1);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1); --Citrine
+--GangMemberIndex gXXX
+insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex);
+VALUES (arXXX, 0, 'Spawn of Servitude', 'Spawning Point', '', 0, 3, 1, eXXX);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, kXXX); --Immune: Status Effects
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, kXXX); --SHAME!
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, kXXX); --Spawning Pool
+
+
+--Night Shift, The 	--CardIndex cXXX	--CharacterIndex chXXX	--ArcadeCharacterIndex arXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Night Shift, The',
+'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Spawn_of_Servitude/Card_Arcade_Warband_Spawn_of_Servitude_Night_Shift_The_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Spawn_of_Servitude/Card_Arcade_Warband_Spawn_of_Servitude_Night_Shift_The_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Spawn_of_Servitude/Night_Shift_The.xhtml', 
+'Warband', '2.0', '2.0 Core Set', 'Default', 
+'Head Nurses oversee other succubi, infiltrating and corrupting the mortal realm. They pose as healers, luring in those weary adventurers seeking shelter, comfort, and aid for their wounds.');  
+insert into Characters (CardIndex) VALUES (cXXX);
+insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
+VALUES (chXXX, 241, 362);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 0); --Amethyst
+--GangMemberIndex gXXX
+insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex);
+VALUES (arXXX, 0, 'Head Nurse', 'Demon', 'Elite', 6, 2, 1, eXXX); 
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, kXXX); --Fly
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, kXXX); --Hex
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, kXXX); --Poison
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (gXXX, abXXX); --Overdoes
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (gXXX, abXXX); --Personalized Concoction
+--GangMemberIndex gXXX
+insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex);
+VALUES (arXXX, 1, 'Wretch', 'Bonded Demon', 'Minion', 6, 1, 0, eXXX);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, kXXX); --Sense Weakness
+
+--Ratchet of Nurses, A 	--CardIndex cXXX	--CharacterIndex chXXX	--ArcadeCharacterIndex arXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ratchet of Nurses, A',
+'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Spawn_of_Servitude/Card_Arcade_Warband_Spawn_of_Servitude_Ratchet_of_Nurses_A_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Spawn_of_Servitude/Card_Arcade_Warband_Spawn_of_Servitude_Ratchet_of_Nurses_Ab_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Spawn_of_Servitude/Ratchet_of_Nurses_A.xhtml', 
+'Warband', '2.0', '2.0 Core Set', 'Default', 
+'A Potion Mistress is a succubus with a talent for brewing potions and concoctions. They often serve under a Head Nurse, providing their superior with all of their newest and most devious brews. Make no mistake, they are not simple poisoners. Many of their potions have actual healing properties, but they often have the curious side effect of making the patient more susceptible to influence.');  
+insert into Characters (CardIndex) VALUES (cXXX);
+insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
+VALUES (chXXX, 241, 362);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 0); --Amethyst
+--GangMemberIndex gXXX
+insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex);
+VALUES (arXXX, 0, 'Potion Mistress', 'Demon', 'Elite', 6, 2, 1, eXXX); 
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, kXXX); --Fly
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, kXXX); --Slow
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (gXXX, abXXX); --Obedience
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (gXXX, abXXX); --Obscene Shouts
+--GangMemberIndex gXXX
+insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex);
+VALUES (arXXX, 1, 'Potion Mistress', 'Demon', 'Elite', 6, 2, 1, eXXX); 
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, kXXX); --Fly
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, kXXX); --Slow
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (gXXX, abXXX); --Obedience
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (gXXX, abXXX); --Obscene Shouts
+
+
+--Spider Nest
+--Spider Nest --CardIndex cXXX --CharacterIndex chXXX --ArcadeCharacterIndex arXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Spider Nest',
+'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Spider_Nest/Card_Arcade_Warband_Spider_Nest_Spider_Nest_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Spider_Nest/Card_Arcade_Warband_Spider_Nest_Spider_Nest_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Spider_Nest/Spider_Nest.xhtml', 
+'Arcade Gang', '2.0', '2.0 Core Set', 'Default', 
+'Spiders have a natural affinity with darkness and shadow. Many of the fiendish varieties which call the Nether Rifts and Dark Realm home grow to remarkable sizes and can possess a startling intellect. The nether elves strike bargains with spider nests'' Queens, and in exchange for their aid the spiders are granted their choice of hunting grounds and provided with protection from various heroic attempts at extermination.'); 
+insert into Characters (CardIndex) VALUES (cXXX);
+insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
+VALUES (chXXX, 0, -1);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 2); --Emerald
+--GangMemberIndex gXXX
+insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex);
+VALUES (arXXX, 0, 'Spider Nest', 'Spawning Point', '', 0, 3, 1, eXXX);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, kXXX); --Immune: Status Effects
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, kXXX); --Spawning Pool
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, kXXX); --Webs
+
+--Crawler_Cluster 	--CardIndex cXXX	--CharacterIndex chXXX	--ArcadeCharacterIndex arXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Crawler Cluster',
+'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Spider_Nest/Card_Arcade_Warband_Spider_Nest_Crawler_Cluster_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Spider_Nest/Card_Arcade_Warband_Spider_Nest_Crawler_Cluster_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Spider_Nest/Crawler_Cluster.xhtml', 
+'Warband', '2.0', '2.0 Core Set', 'Default', 
+'A revered priesthood, the Spider Speakers maintain the relationship between nether elves and the Queens of the various spider nests which populate Crystalia. Masters of poison and dark sorcery, Spider Speakers are a powerful, if not well loved, faction in nether elf society. Often accompanying them into battle are any number of venomous spiders, leaping and biting at the Spider Speaker''s command.');  
+insert into Characters (CardIndex) VALUES (cXXX);
+insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
+VALUES (chXXX, 241, 362);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 2); --Emerald
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 3); --Ruby
+--GangMemberIndex gXXX
+insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex);
+VALUES (arXXX, 0, 'Spider Speaker', 'Nether Elf', 'Elite', 8, 3, 2, eXXX); 
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, kXXX); --Immune: Poison
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, kXXX); --Mob
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, kXXX); --Poison
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (gXXX, abXXX); --Scuttling Swarm 
+--GangMemberIndex gXXX
+insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex);
+VALUES (arXXX, 1, 'Crawler', 'Spider', 'Minion', 8, 1, 1, eXXX);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, kXXX); --Immune: Poison
+
+--Spinner Spindle	--CardIndex cXXX	--CharacterIndex chXXX	--ArcadeCharacterIndex arXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Spinner Spindle',
+'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Spider_Nest/Card_Arcade_Warband_Spider_Nest_Spinner_Spindle_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Spider_Nest/Card_Arcade_Warband_Spider_Nest_Spinner_Spindle_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Spider_Nest/Spinner_Spindle.xhtml', 
+'Warband', '2.0', '2.0 Core Set', 'Default', 
+'Shadow spinners lurk within dark spaces of the the Nether Rifts, weaving webs of pure shadow to conceal their presence and ensnare their prey. Many shadow spinners have taken up residence within the Midnight Tower. Their webs of pure darkness blend perfectly with the natural gloom of the tower, and they are an ever-present danger to anyone foolish enough to enter.');  
+insert into Characters (CardIndex) VALUES (cXXX);
+insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
+VALUES (chXXX, 241, 362);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 2); --Emerald
+--GangMemberIndex gXXX
+insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex);
+VALUES (arXXX, 0, 'Shadow Spinner', 'Spider', 'Elite', 8, 1, 1, eXXX); 
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, kXXX); --Immobile
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, kXXX); --Immune: Poison
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, kXXX); --Mob
+--GangMemberIndex gXXX
+insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex);
+VALUES (arXXX, 1, 'Shadow Spinner', 'Spider', 'Elite', 8, 1, 1, eXXX); 
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, kXXX); --Immobile
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, kXXX); --Immune: Poison
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, kXXX); --Mob
+
+
+--Watch Tower
+--Watch Tower --CardIndex cXXX --CharacterIndex chXXX --ArcadeCharacterIndex arXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Watch Tower',
+'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Watch_Tower/Card_Arcade_Warband_Watch_Tower_Watch_Tower_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Watch_Tower/Card_Arcade_Warband_Watch_Tower_Watch_Tower_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Watch_Tower/Watch_Tower.xhtml', 
+'Arcade Gang', '2.0', '2.0 Core Set', 'Default', 
+'The Crown Guard is the standing army of the King of Crytalia. Made up of highly trained and dedicated servants of the land, the Crown Guard is the primary bulwark against the forces of the Dark Consul. It is their duty to maintain order and security within Crystalia, so that Heroes have the freedom to strike at the heart of the Dark Consul''s dungeons. While Heroes and the Crown Guard work hand-in-hand, it is not uncommon for a Hero to cross the line with a bit of excessive celebration or occasional shady deal that puts them at odds with the Crown Guard.'); 
+insert into Characters (CardIndex) VALUES (cXXX);
+insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
+VALUES (chXXX, 0, -1);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 4); --Sapphire
+--GangMemberIndex gXXX
+insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex);
+VALUES (arXXX, 0, 'Watch Tower', 'Spawning Point', '', 0, 3, 1, eXXX);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, kXXX); --Immune: Status Effects
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, kXXX); --Resolve Aura
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, kXXX); --Spawning Pool
+
+
+--Crown Guard Longbowmen 	--CardIndex cXXX	--CharacterIndex chXXX	--ArcadeCharacterIndex arXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Crown Guard Longbowmen',
+'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Watch_Tower/Card_Arcade_Warband_Watch_Tower_Crown Guard Longbowmen_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Watch_Tower/Card_Arcade_Warband_Watch_Tower_Crown Guard Longbowmen_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Watch_Tower/Crown Guard Longbowmen.xhtml', 
+'Warband', '2.0', '2.0 Core Set', 'Default', 
+'Hold. Hoooooold. Hooooooooold. FIRE! Let the land darken in the shade of our arrows!');  
+insert into Characters (CardIndex) VALUES (cXXX);
+insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
+VALUES (chXXX, 241, 362);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 2); --Emerald
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 4); --Sapphire
+--GangMemberIndex gXXX
+insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex);
+VALUES (arXXX, 0, 'Longbowmen', 'Human', 'Elite', 6, 1, 1, eXXX); 
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, kXXX); --Wind of Blades
+--GangMemberIndex gXXX
+insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex);
+VALUES (arXXX, 1, 'Longbowmen', 'Human', 'Elite', 6, 1, 1, eXXX);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, kXXX); --Wind of Blades
+
+--Crown Guard Patrol 	--CardIndex cXXX	--CharacterIndex chXXX	--ArcadeCharacterIndex arXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Crown Guard Patrol',
+'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Watch_Tower/Card_Arcade_Warband_Watch_Tower_Crown_Guard_Patrol_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Watch_Tower/Card_Arcade_Warband_Watch_Tower_Crown_Guard_Patrol_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Watch_Tower/Crown_Guard_Patrol.xhtml', 
+'Warband', '2.0', '2.0 Core Set', 'Default', 
+'"So you''re saying the tavern was always like this, and that you had nothing to do with these broken tables, smashed chairs, or fifteen moaning persons lying about?"');  
+insert into Characters (CardIndex) VALUES (cXXX);
+insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
+VALUES (chXXX, 241, 362);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 4); --Sapphire
+--GangMemberIndex gXXX
+insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex);
+VALUES (arXXX, 0, 'Sergeant-At-Arms', 'Human', 'Elite', 6, 3, 3, eXXX); 
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, kXXX); --Feint
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, kXXX); --Mob
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (gXXX, abXXX); --Squad Tactics
+--GangMemberIndex gXXX
+insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex);
+VALUES (arXXX, 1, 'Swordsman', 'Human', 'Minion', 6, 1, 2, eXXX); 
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, kXXX); --Fodder
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, kXXX); --Mob
+--GangMemberIndex gXXX
+insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex);
+VALUES (arXXX, 2, 'Pikeman', 'Human', 'Minion', 6, 1, 1, eXXX); 
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, kXXX); --Mob
