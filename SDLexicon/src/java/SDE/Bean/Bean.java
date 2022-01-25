@@ -79,10 +79,12 @@ public class Bean extends Main.Bean{
     public String getContent(){
         String result = "";
         
-        if(page.compareTo("Keywords") == 0){
-            result = "/Content/Keywords.xhtml";
+        if(page.compareTo("Index") == 0){
+            result = "/SDE/Content/Index.xhtml";
+        }else if(page.compareTo("Keywords") == 0){
+            result = "/SDE/Content/Keywords.xhtml";
         }else if(page.compareTo("Abilities") == 0){
-            result = "/Content/Abilities.xhtml";
+            result = "/SDE/Content/Abilities.xhtml";
         }
         
         return result;
