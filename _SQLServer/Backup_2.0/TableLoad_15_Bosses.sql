@@ -6,7 +6,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Bosses/Bomechan.xhtml', 
 'Boss', '2.0 Devil''s Island', '2.0 Devil''s Island', 'Explore',
 'Bomechan is a striking beauty of clan Ijin, but the pair of iron-spiked tetsubo and her hearty laughter as she swings them are her most arresting features.  She loves a challenge and seeks to place herself on the Moon Throne, because she sees this as the greatest challenge of all.');
-insert into Characters (CardIndex) VALUES (cXXX);
+insert into Characters (CardIndex, StandieFront, StandieBack) VALUES (cXXX,
+'http://htkb.info/SDE/2.0/Cards/Standies/Bomechan_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Standies/Bomechan_2.0_back.png');
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 0); --Amethyst
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (chXXX, 'Feminine', 'Small', 'Ijin Riftling', 7, 4, '2R 2G', '2B 1G', '2B', '3B', 7, 0);
@@ -30,7 +32,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Bosses/Daemonus.xhtml', 
 'Boss', '2.0 Devil''s Island', '2.0 Devil''s Island', 'Explore',
 'Built by a doomed gnomish artificer to house a fragment of the Dark Consul''s evil soul, Daemonus serves the Midnight Queen as guardian and champion. The true purpose of this vile clockwork contraption is far more sinister. Through Daemonus, the Dark Consul is able to observe and whisper corruption to the Queen. In this way, he shields her heart from the Light, continuing to usher her along the path to darkness.');
-insert into Characters (CardIndex) VALUES (cXXX);
+insert into Characters (CardIndex, StandieFront, StandieBack) VALUES (cXXX,
+'http://htkb.info/SDE/2.0/Cards/Standies/Daemonus_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Standies/Daemonus_2.0_back.png');
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 4); --Sapphire
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (chXXX, 'Neither', 'Large', 'Construct', 6, 2, '2ST 1B 1G', '2ST 1R 1G', '3B', '3B', 1, 0);
@@ -53,7 +57,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Bosses/Demon_Queen_Araphel.xhtml', 
 'Boss', '2.0 Devil''s Island', '2.0 Devil''s Island', 'Explore',
 'Araphel is the Mistress of Chains and Lady of Deceit, giving aid to any who seek to subvert and control the will of those around them. Her Devoted come from every walk of life, even the clergy of other deities are sometimes the Devoted of Araphel in disguise, working her poison plots from within other houses of worship.');
-insert into Characters (CardIndex) VALUES (cXXX);
+insert into Characters (CardIndex, StandieFront, StandieBack) VALUES (cXXX,
+'http://htkb.info/SDE/2.0/Cards/Standies/Demon_Queen_Araphel_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Standies/Demon_Queen_Araphel_2.0_back.png');
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 0); --Amethyst
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (chXXX, 'Feminine', 'Small', 'Demon', 6, 4, '2B', '2R 1G', '2R 2G', '3B', 9, 0);
@@ -74,7 +80,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Bosses/Destroyer_The.xhtml', 
 'Boss', '2.0 Devil''s Island', '2.0 Devil''s Island', 'Explore',
 '');
-insert into Characters (CardIndex) VALUES (cXXX);
+insert into Characters (CardIndex, StandieFront, StandieBack) VALUES (cXXX,
+'http://htkb.info/SDE/2.0/Cards/Standies/Destroyer_The_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Standies/Destroyer_The_2.0_back.png');
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (chXXX, 'Neither', 'Large', 'Demon', 8, 4, '1ST 3R 1G', '1ST 1R 1G', '1R 1G', '3B', 8, 0);
@@ -100,7 +108,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Bosses/Elrik_The_Lich_King.xhtml', 
 'Boss', '2.0 Devil''s Island', '2.0 Devil''s Island', 'Explore',
 'SUFFER, MORTALS!');
-insert into Characters (CardIndex) VALUES (cXXX);
+insert into Characters (CardIndex, StandieFront, StandieBack) VALUES (cXXX,
+'http://htkb.info/SDE/2.0/Cards/Standies/Elrik_The_Lich_King_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Standies/Elrik_The_Lich_King_2.0_back.png');
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 0); --Amethyst
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (chXXX, 'Neither', 'Large', 'Undead', 6, 4, '2B 2G', '2ST 2R', '3G', '2B', 8, 0);
@@ -127,7 +137,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Bosses/Gnomish_Excavator.xhtml', 
 'Boss', '2.0 Devil''s Island', '2.0 Devil''s Island', 'Explore',
 '');
-insert into Characters (CardIndex) VALUES (cXXX);
+insert into Characters (CardIndex, StandieFront, StandieBack) VALUES (cXXX,
+'http://htkb.info/SDE/2.0/Cards/Standies/Gnomish_Excavator_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Standies/Gnomish_Excavator_2.0_back.png');
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 2); --Emerald
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (chXXX, 'Neither', 'Small', 'Gnome', 4, 4, '4R', '2G', '3B', '2R 2G', 10, 0);
@@ -154,7 +166,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Bosses/Guth_The.xhtml', 
 'Boss', '2.0 Devil''s Island', '2.0 Devil''s Island', 'Explore',
 '');--!! unavailable !!
-insert into Characters (CardIndex) VALUES (cXXX);
+insert into Characters (CardIndex, StandieFront, StandieBack) VALUES (cXXX,
+'http://htkb.info/SDE/2.0/Cards/Standies/Guth_The_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Standies/Guth_The_2.0_back.png');
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (chXXX, 'Neither', 'Large', 'Orc', 8, 4, '1B 2R 1G', '1ST 1B 2R', '1B', '1B 2R', 8, 0);
@@ -176,7 +190,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Bosses/Hoarfang.xhtml', 
 'Boss', '2.0 Devil''s Island', '2.0 Devil''s Island', 'Explore',
 '');--!! unavailable !!
-insert into Characters (CardIndex) VALUES (cXXX);
+insert into Characters (CardIndex, StandieFront, StandieBack) VALUES (cXXX,
+'http://htkb.info/SDE/2.0/Cards/Standies/Hoarfang_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Standies/Hoarfang_2.0_back.png');
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 4); --Sapphire
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (chXXX, 'Neither', 'Large', 'Dragon', 6, 5, '2R 3G', '3R', '5R', '3B', 12, 0);
@@ -203,7 +219,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Bosses/Jorogumo.xhtml', 
 'Boss', '2.0 Devil''s Island', '2.0 Devil''s Island', 'Explore',
 '');
-insert into Characters (CardIndex) VALUES (cXXX);
+insert into Characters (CardIndex, StandieFront, StandieBack) VALUES (cXXX,
+'http://htkb.info/SDE/2.0/Cards/Standies/Jorogumo_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Standies/Jorogumo_2.0_back.png');
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (chXXX, 'Feminine', 'Large', 'Spider', 6, 4, '2B 2G', '2B 2R', '1R 1G', '3R', 8, 0);
@@ -228,7 +246,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Bosses/Krampus.xhtml', 
 'Boss', '2.0 Devil''s Island', '2.0 Devil''s Island', 'Explore',
 '');
-insert into Characters (CardIndex) VALUES (cXXX);
+insert into Characters (CardIndex, StandieFront, StandieBack) VALUES (cXXX,
+'http://htkb.info/SDE/2.0/Cards/Standies/Krampus_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Standies/Krampus_2.0_back.png');
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 2); --Emerald
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
@@ -254,7 +274,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Bosses/Lord_Vulcanis.xhtml', 
 'Boss', '2.0 Devil''s Island', '2.0 Devil''s Island', 'Explore',
 'The most infamous of all the giants, Lord Vulcanis broods deep beneath the Dragonback Peaks. At his enormous black forge he crafts dark relics for the generals of the Dark Consul''s armies. Into each relic he pours his rage, hate, and loathing for the realm of Light, tempering them for the battles to come.');
-insert into Characters (CardIndex) VALUES (cXXX);
+insert into Characters (CardIndex, StandieFront, StandieBack) VALUES (cXXX,
+'http://htkb.info/SDE/2.0/Cards/Standies/Lord_Vulcanis_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Standies/Lord_Vulcanis_2.0_back.png');
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (chXXX, 'Neither', 'Large', 'Dark Celestian Giant', 6, 4, '2ST 1R', '2R', '3R', '3R', 8, 0);
@@ -276,7 +298,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Bosses/Midnight_Queen_The.xhtml', 
 'Boss', '2.0 Devil''s Island', '2.0 Devil''s Island', 'Explore',
 'The Midnight Queen has risen to prominence as the Dark Consul''s voice and prophet in his time of exile. Known also as the Shadow Consort, Prophecy Breaker, The Demoness, and the Hollow Queen, she is the Dark Consul''s terrible will made manifest. She will see all of Crystalia consumed by darkness.');
-insert into Characters (CardIndex) VALUES (cXXX);
+insert into Characters (CardIndex, StandieFront, StandieBack) VALUES (cXXX,
+'http://htkb.info/SDE/2.0/Cards/Standies/Midnight_Queen_The_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Standies/Midnight_Queen_The_2.0_back.png');
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 0); --Amethyst
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (chXXX, 'Feminine', 'Small', 'Human', 6, 3, '2B', '2B 1G', '1ST 2R 1G', '3B', 5, 0);
@@ -299,7 +323,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Bosses/Mordred_the_Accursed.xhtml', 
 'Boss', '2.0 Devil''s Island', '2.0 Devil''s Island', 'Explore',
 '');
-insert into Characters (CardIndex) VALUES (cXXX);
+insert into Characters (CardIndex, StandieFront, StandieBack) VALUES (cXXX,
+'http://htkb.info/SDE/2.0/Cards/Standies/Mordred_the_Accursed_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Standies/Mordred_the_Accursed_2.0_back.png');
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (chXXX, 'Neither', 'Small', 'Undead', 6, 4, '5R', '1B 1G', '1ST 3R 1G', '3B', 5, 0);
@@ -324,7 +350,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Bosses/Mother_Noctua.xhtml', 
 'Boss', '2.0 Devil''s Island', '2.0 Devil''s Island', 'Explore',
 'Hoot! Hoot, hoot! HOOOOOOTTT!!!');
-insert into Characters (CardIndex) VALUES (cXXX);
+insert into Characters (CardIndex, StandieFront, StandieBack) VALUES (cXXX,
+'http://htkb.info/SDE/2.0/Cards/Standies/Mother_Noctua_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Standies/Mother_Noctua_2.0_back.png');
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (chXXX, 'Neither', 'Large', 'Owlbear', 6, 4, '2B 2R 1G', '2R 1G', '1B 1R 1G', '2R', 10, 0);
@@ -347,7 +375,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Bosses/Nightsong_the_Eternal.xhtml', 
 'Boss', '2.0 Devil''s Island', '2.0 Devil''s Island', 'Explore',
 '');
-insert into Characters (CardIndex) VALUES (cXXX);
+insert into Characters (CardIndex, StandieFront, StandieBack) VALUES (cXXX,
+'http://htkb.info/SDE/2.0/Cards/Standies/Nightsong_the_Eternal_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Standies/Nightsong_the_Eternal_2.0_back.png');
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 3); --Ruby
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 4); --Sapphire
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
@@ -374,7 +404,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Bosses/Onibaba.xhtml', 
 'Boss', '2.0 Devil''s Island', '2.0 Devil''s Island', 'Explore',
 'As a mortal, Onibaba would lure stragglers from battles into her traps, finish them off, and sell their possessions. One night, however, she pulled a finely crafted mask from a dark and terrible samurai, and slipped it on over her face. In that instant, the dark power from within the mask touched the festering rot in her soul and consumed her. Soon the mortal hag was infested by an ageless, devouring horror that has stalked Kagejima''s places of slaughter ever since.');
-insert into Characters (CardIndex) VALUES (cXXX);
+insert into Characters (CardIndex, StandieFront, StandieBack) VALUES (cXXX,
+'http://htkb.info/SDE/2.0/Cards/Standies/Onibaba_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Standies/Onibaba_2.0_back.png');
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1); --Citrine
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
@@ -398,7 +430,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Bosses/Onryo.xhtml', 
 'Boss', '2.0 Devil''s Island', '2.0 Devil''s Island', 'Explore',
 '"Into the darkness, under the trees. Into the water, follow me please."');
-insert into Characters (CardIndex) VALUES (cXXX);
+insert into Characters (CardIndex, StandieFront, StandieBack) VALUES (cXXX,
+'http://htkb.info/SDE/2.0/Cards/Standies/Onryo_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Standies/Onryo_2.0_back.png');
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 0); --Amethyst
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (chXXX, 'Feminine', 'Small', 'Undead Ghost', 6, 4, '2B', '3R', '2R 2G', '2B 2R', 8, 0);
@@ -423,7 +457,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Bosses/Pauper_Prince.xhtml', 
 'Boss', '2.0 Devil''s Island', '2.0 Devil''s Island', 'Explore',
 '"Didn''t you know? All travelers to the Undercove must pay the the Prince''s Due."');
-insert into Characters (CardIndex) VALUES (cXXX);
+insert into Characters (CardIndex, StandieFront, StandieBack) VALUES (cXXX,
+'http://htkb.info/SDE/2.0/Cards/Standies/Pauper_Prince_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Standies/Pauper_Prince_2.0_back.png');
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (chXXX, 'Male', 'Large', 'Troll', 5, 4, '2R 2G', '1R 1G', '3B 1R', '2B 2R', 8, 0);
@@ -447,7 +483,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Bosses/Starfire.xhtml', 
 'Boss', '2.0 Devil''s Island', '2.0 Devil''s Island', 'Explore',
 '');
-insert into Characters (CardIndex) VALUES (cXXX);
+insert into Characters (CardIndex, StandieFront, StandieBack) VALUES (cXXX,
+'http://htkb.info/SDE/2.0/Cards/Standies/Starfire_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Standies/Starfire_2.0_back.png');
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (chXXX, 'Neither', 'Large', 'Dragon', 8, 4, '1ST 2R 1G', '1B 1R 1G', '1ST 1B 2R', '2R', 8, 0);
@@ -471,7 +509,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Bosses/Testudo_Tower.xhtml', 
 'Boss', '2.0 Devil''s Island', '2.0 Devil''s Island', 'Explore',
 '');
-insert into Characters (CardIndex) VALUES (cXXX);
+insert into Characters (CardIndex, StandieFront, StandieBack) VALUES (cXXX,
+'http://htkb.info/SDE/2.0/Cards/Standies/Testudo_Tower_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Standies/Testudo_Tower_2.0_back.png');
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 4); --Sapphire
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (chXXX, 'Neither', 'Large', 'Rocktop', 4, 4, '1ST 3R', '2ST 2R 1G', '3B', '2B', 8, 0);
@@ -495,7 +535,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Bosses/Thresher_The.xhtml', 
 'Boss', '2.0 Devil''s Island', '2.0 Devil''s Island', 'Explore',
 '');--!! unavailable !!
-insert into Characters (CardIndex) VALUES (cXXX);
+insert into Characters (CardIndex, StandieFront, StandieBack) VALUES (cXXX,
+'http://htkb.info/SDE/2.0/Cards/Standies/Thresher_The_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Standies/Thresher_The_2.0_back.png');
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 0); --Amethyst
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (chXXX, 'Neither', 'Large', 'Construct', 5, 4, '2R 2G', '5B', '5B', '1B', 8, 0);
@@ -520,7 +562,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Bosses/Ymnaur_Wintersson.xhtml', 
 'Boss', '2.0 Devil''s Island', '2.0 Devil''s Island', 'Explore',
 '');
-insert into Characters (CardIndex) VALUES (cXXX);
+insert into Characters (CardIndex, StandieFront, StandieBack) VALUES (cXXX,
+'http://htkb.info/SDE/2.0/Cards/Standies/Ymnaur_Wintersson_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Standies/Ymnaur_Wintersson_2.0_back.png');
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (chXXX, 'Male', 'Large', 'Ice Giant', 6, 4, '3R 1G', '1ST 1G', '3R', '3R', 1, 0);
