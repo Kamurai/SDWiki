@@ -6,7 +6,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Pets/Admiral_Fuzzybottom.xhtml', 
 'Pet', 'FK', 'FK Core Set', 'Default', 
 'Who''s a good kitty?');
-insert into Characters (CardIndex) VALUES (215,
+insert into Characters (CardIndex, StandieFront, StandieBack) VALUES (215,
 'http://htkb.info/SDE/FK/Cards/Pets/Standies/Admiral_Fuzzybottom_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Pets/Standies/Admiral_Fuzzybottom_FK_back.png');
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (130, 337); --Small
@@ -25,7 +25,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Pets/Colonel_The.xhtml', 
 'Pet', 'FK', 'FK Core Set', 'Default', 
 'I didn''t get a harumph out of that guy.');
-insert into Characters (CardIndex) VALUES (216,
+insert into Characters (CardIndex, StandieFront, StandieBack) VALUES (216,
 'http://htkb.info/SDE/FK/Cards/Pets/Standies/Colonel_The_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Pets/Standies/Colonel_The_FK_back.png');
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (131, 337); --Small
@@ -43,7 +43,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Pets/Lord_Gruff.xhtml', 
 'Pet', 'FK', 'FK Core Set', 'Default', 
 'Harumph.');
-insert into Characters (CardIndex) VALUES (217,
+insert into Characters (CardIndex, StandieFront, StandieBack) VALUES (217,
 'http://htkb.info/SDE/FK/Cards/Pets/Standies/Lord_Gruff_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Pets/Standies/Lord_Gruff_FK_back.png');
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (132, 337); --Small
@@ -62,7 +62,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Pets/Madam_Hilde.xhtml', 
 'Pet', 'FK', 'FK Core Set', 'Default', 
 'My ears!');
-insert into Characters (CardIndex) VALUES (218,
+insert into Characters (CardIndex, StandieFront, StandieBack) VALUES (218,
 'http://htkb.info/SDE/FK/Cards/Pets/Standies/Madam_Hilde_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Pets/Standies/Madam_Hilde_FK_back.png');
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (133, 337); --Small
@@ -81,7 +81,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Pets/Miss_G_Snorts.xhtml', 
 'Pet', 'FK', 'FK Core Set', 'Default', 
 'Stinktashtic!');
-insert into Characters (CardIndex) VALUES (219,
+insert into Characters (CardIndex, StandieFront, StandieBack) VALUES (219,
 'http://htkb.info/SDE/FK/Cards/Pets/Standies/Miss_G_Snorts_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Pets/Standies/Miss_G_Snorts_FK_back.png');
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (134, 337); --Small
@@ -100,7 +100,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Pets/Mr_Chompers.xhtml', 
 'Pet', 'FK', 'FK Core Set', 'Default', 
 'Poof.');
-insert into Characters (CardIndex) VALUES (220,
+insert into Characters (CardIndex, StandieFront, StandieBack) VALUES (220,
 'http://htkb.info/SDE/FK/Cards/Pets/Standies/Mr_Chompers_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Pets/Standies/Mr_Chompers_FK_back.png');
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (135, 337); --Small
@@ -119,7 +119,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Pets/Mr_Bitey.xhtml', 
 'Pet', 'FK', 'FK Core Set', 'Default', 
 'Ouch!  He bit me!');
-insert into Characters (CardIndex) VALUES (221,
+insert into Characters (CardIndex, StandieFront, StandieBack) VALUES (221,
 'http://htkb.info/SDE/FK/Cards/Pets/Standies/Mr_Bitey_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Pets/Standies/Mr_Bitey_FK_back.png');
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (136, 337); --Small
@@ -138,7 +138,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Pets/Never_Lost_Cola.xhtml', 
 'Pet', 'FK', 'FK Core Set', 'Default', 
 'I''m positive it''s that way.');
-insert into Characters (CardIndex) VALUES (222,
+insert into Characters (CardIndex, StandieFront, StandieBack) VALUES (222,
 'http://htkb.info/SDE/FK/Cards/Pets/Standies/Never_Lost_Cola_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Pets/Standies/Never_Lost_Cola_FK_back.png');
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (137, 337); --Small
