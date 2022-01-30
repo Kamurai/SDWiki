@@ -6,7 +6,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/FK/Explore/Cards/Creeps/Citrine_Slime.xhtml', 
 'Creep', 'FK', 'FK Core Set', 'Explore', 
 'Citrine Slimes are not very good conversationalists.  They are, however, exceptional at oozing and stinking of sulfur--mainly the stinking part.  One splash or casual ooze-to-skin contact will doom a Hero to smelling bad for the rest of their days.  While this is fine if you are Citrine Slime yourself, it is rarely appropriate for polite company.');
-insert into Characters (CardIndex) VALUES (226);
+insert into Characters (CardIndex) VALUES (226,
+'http://htkb.info/SDE/FK/Cards/Creeps/Standies/Citrine_Slime_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Creeps/Standies/Citrine_Slime_FK_back.png');
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (141, 1); --Citrine
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (141, 270); --Insignificant
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (141, 337); --Small
@@ -24,7 +26,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/FK/Explore/Cards/Creeps/Emerald_Slime.xhtml', 
 'Creep', 'FK', 'FK Core Set', 'Explore', 
 'Remarkably congenial, Emerald Slimes are giggling chatterboxes.  Regaling Heroes with grand tales of "glorp--glug--splurr--slorp," "blurb--grupple--glog--blarr," and the classic, "bloob--blub--blablablup."  Granted, there are direct translations, so no Hero actually knows what they are saying, but they seem friendly enough.');
-insert into Characters (CardIndex) VALUES (227);
+insert into Characters (CardIndex) VALUES (227,
+'http://htkb.info/SDE/FK/Cards/Creeps/Standies/Emerald_Slime_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Creeps/Standies/Emerald_Slime_FK_back.png');
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (142, 2); --Emerald
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (142, 270); --Insignificant
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (142, 337); --Small
@@ -42,7 +46,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/FK/Explore/Cards/Creeps/Ghost.xhtml', 
 'Creep', 'FK', 'FK Core Set', 'Explore', 
 'Boo!  Boooooo!  BOOOOOOO!');
-insert into Characters (CardIndex) VALUES (228);
+insert into Characters (CardIndex) VALUES (228,
+'http://htkb.info/SDE/FK/Cards/Creeps/Standies/Ghost_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Creeps/Standies/Ghost_FK_back.png');
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (143, 4); --Ruby
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (143, 233); --Ghost
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (143, 323); --Shallow Grave
@@ -60,7 +66,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/FK/Explore/Cards/Creeps/Giri.xhtml', 
 'Creep', 'FK', 'FK Core Set', 'Explore', 
 'Giri are capricious faeries, even when not under the influence of the Dark Consul.  Lovers of cultivated crops, Giri travel throughout Crystalia in large swarms, seeking farmsteads with delicious greens to devour.  Farmers who make offerings to the Giri are blessed with a bumper crop.  Those who do not see their fields consumed as though struck by a plague of locusts.');
-insert into Characters (CardIndex) VALUES (229);
+insert into Characters (CardIndex) VALUES (229,
+'http://htkb.info/SDE/FK/Cards/Creeps/Standies/Giri_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Creeps/Standies/Giri_FK_back.png');
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (144, 1); --Citrine
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (144, 270); --Insignificant
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (144, 291); --Mob
@@ -78,7 +86,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/FK/Explore/Cards/Creeps/Rabid_Squirrel.xhtml', 
 'Creep', 'FK', 'FK Core Set', 'Explore', 
 'Driven mad by their curse, Rabid Squirrels attack in packs, swarming over unsuspecting Heroes, biting and chittering with insane glee.');
-insert into Characters (CardIndex) VALUES (230);
+insert into Characters (CardIndex) VALUES (230,
+'http://htkb.info/SDE/FK/Cards/Creeps/Standies/Rabid_Squirrel_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Creeps/Standies/Rabid_Squirrel_FK_back.png');
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (145, 1); --Citrine
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (145, 270); --Insignificant
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (145, 337); --Small
@@ -96,7 +106,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/FK/Explore/Cards/Creeps/Rattlebone.xhtml', 
 'Creep', 'FK', 'FK Core Set', 'Explore', 
 'Rattlebones are the plague of the moorlands and the favorite party trick of up--and--coming necromancers.  Easy to raise, easy to destroy, easy to raise again.  They are an unceasing nuisance to even the most powerful to Heroes.');
-insert into Characters (CardIndex) VALUES (231);
+insert into Characters (CardIndex) VALUES (231,
+'http://htkb.info/SDE/FK/Cards/Creeps/Standies/Rattlebone_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Creeps/Standies/Rattlebone_FK_back.png');
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (146, 1); --Citrine
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (146, 270); --Insignificant
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (146, 291); --Mob
@@ -113,7 +125,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/FK/Explore/Cards/Creeps/Ruby_Slime.xhtml', 
 'Creep', 'FK', 'FK Core Set', 'Explore', 
 'Far more cranky than they have any right to be, Ruby Slime are incessant complainers.  Given to long, obnoxious bouts of melodramatic sighing and irritated grumbling, many get along very well with dwarves.  Such alliances rarely last long.  Inevitably the Ruby Slime will decide the dwarf owes him some shiny trinket and demand it with a rude and indignant gooing--which is enough to ruin any friendship.');
-insert into Characters (CardIndex) VALUES (232);
+insert into Characters (CardIndex) VALUES (232,
+'http://htkb.info/SDE/FK/Cards/Creeps/Standies/Ruby_Slime_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Creeps/Standies/Ruby_Slime_FK_back.png');
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (147, 2); --Ruby
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (147, 270); --Insignificant
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (147, 337); --Small
@@ -131,7 +145,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/FK/Explore/Cards/Creeps/Sapphire_Slime.xhtml', 
 'Creep', 'FK', 'FK Core Set', 'Explore', 
 'Something is not quite right with Sapphire Slimes.  Even for a slime they are somewhat peculiar and odd.  Given to drooling and then slurping it up noisily, many Heroes find themselves uncomfortable around Sapphire Slimes.  Accordingly, they are not invited to many dinner parties.');
-insert into Characters (CardIndex) VALUES (233);
+insert into Characters (CardIndex) VALUES (233,
+'http://htkb.info/SDE/FK/Cards/Creeps/Standies/Sapphire_Slime_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Creeps/Standies/Sapphire_Slime_FK_back.png');
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (148, 4); --Sapphire
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (148, 270); --Insignificant
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (148, 337); --Small
