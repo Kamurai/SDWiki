@@ -391,6 +391,8 @@
 
 /*Mob Mentality						--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Arcade', 'Mob Mentality', 'Monsters with CITRINEAFFINITY that are within 2 squares of Kobold Warrens gain Mob.');
 
+/*My Brother!						--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'My Brother!', 'When Ugg is spawned, also spawn Mugg adjacent to the SPAWNPOINT on the first tile (moving any models necessary to place him).  Mugg also counts as a Dungeon Boss and the Heroes do not win until both Dungeon Bosses are destroyed.  Time Out is reached when one of the Dungeon Bosses is destroyed.');
+
 /*My Pet							--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'My Pet', 'A model with My Pet may not be targeted with offensive actions while Daemonus is in play.');
 /*My Pretties						--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'My Pretties', 'At the end of each Consul turn, spawn a Spiteful Cherub adjacent to this model.');
 /*New Skull							--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'New Skull', 'When a model with New Skull achieves a critical hit during an offensive action, spawn a Ghostflame adjacent to any Spawning Point if there are fewer than six Ghostflames in play.');
@@ -708,6 +710,10 @@
 
 
 /*Stingy							--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Stingy', 'A model with Stingy may not share its potions with friendly Heroes.');
+
+
+/*Storm Of Rage And Grief, A		--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Storm Of Rage And Grief, A', 'All Heroes must roll thier STR.  Any Heroes that roll 3 or fewer stars suffer KNOCKDOWN.  Then, if Ugg or Mugg is in play, the remaining Dungeon Boss immediately performs a full activation (this may interrupt the Heros'' turn).');
+
 /*Strength of Virtue				--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Strength of Virtue', 'When a model with Strength of Virtue would gain a status effect, it may roll 1b.  If any 0st are rolled, it does not gain the status effect.');
 /*Strike							--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Strike', 'This Pet’s Master gains Pounce on its basic Melee attack if it has one and it began its activation within 2 squares of this Pet.');
 /*Sturdy							--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Sturdy', 'A model with Sturdy never suffers more than a single wound from a single action, such as critical hits or Massive Damage.');
