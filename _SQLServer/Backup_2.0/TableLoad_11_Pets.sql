@@ -162,7 +162,7 @@ insert into Characters (CardIndex, StandieFront, StandieBack) VALUES (cXXX,
 'http://htkb.info/SDE/2.0/Cards/Standies/Hey_Lissin_2.0_back.png');
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 4); --Sapphire
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (chXXX, 'Female', 'Small', '', 8, 1, '1B', '2ST', '2ST', '4ST', 1, 0);
+VALUES (chXXX, 'Feminine', 'Small', '', 8, 1, '1B', '2ST', '2ST', '4ST', 1, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Fly
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Small
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Super Annoying
