@@ -7,7 +7,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Warbands/Egg_Clutch/Egg_Clutch.xhtml', 
 'Warband', '1.0', '1.0 Core Set', 'Explore',
 '');
-insert into Characters (CardIndex) VALUES (39); 
+insert into Characters (CardIndex, StandieFront, StandieBack) VALUES (39,
+'http://htkb.info/SDE/1.0/Cards/Warbands/Egg_Clutch/Standies/Egg_Clutch_1.0.png', 
+'http://htkb.info/SDE/1.0/Cards/Warbands/Egg_Clutch/Standies/Egg_Clutch_1.0_back.png'); 
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (39, 61); --Immune: Status Effects
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (39, 30); --Each Egg Clutch comes with
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (39, 'Neutral', 'Small', 'Spawning Point', 0, 0, '', '1st', '', '', 3, 0);
@@ -15,12 +17,14 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (3
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (39, 'Spawning Point', 'Start', 0); 
 --Hatchlings --Index 40
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Hatchlings',
-'http://htkb.info/SDE/1.0/Cards/Warbands/Egg_Clutch/Card_Warband_Egg_Clutch_Hatchlings_1.0.png', 
-'http://htkb.info/SDE/1.0/Cards/Warbands/Egg_Clutch/Card_Warband_Egg_Clutch_Hatchlings_1.0_back.png', 
+'http://htkb.info/SDE/1.0/Cards/Warbands/Egg_Clutch/Standies/Egg_Clutch_Hatchlings_1.0.png', 
+'http://htkb.info/SDE/1.0/Cards/Warbands/Egg_Clutch/Standies/Egg_Clutch_Hatchlings_1.0_back.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Warbands/Egg_Clutch/Hatchlings.xhtml', 
 'Warband', '1.0', '1.0 Core Set', 'Explore',
 'Even the smallest of drakes can be a serious threat in numbers.  Quick footed, sharp toothed, and very hungry, Hatchlings swarm over anything at their height and have made move than one quick meal of a wounded hero.');
-insert into Characters (CardIndex) VALUES (40); 
+insert into Characters (CardIndex, StandieFront, StandieBack) VALUES (40,
+'http://htkb.info/SDE/1.0/Cards/Warbands/Egg_Clutch/Standies/Egg_Clutch_Hatchlings_1.0.png', 
+'http://htkb.info/SDE/1.0/Cards/Warbands/Egg_Clutch/Standies/Egg_Clutch_Hatchlings_1.0_back.png'); 
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (40, 133); --Swarm
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (40, 'Either', 'Small', 'Drake', 6, 2, '2B', '0st', '2B', '3B', 2, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (40, 0, 1); --Attack
@@ -33,7 +37,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Warbands/Egg_Clutch/Whelp.xhtml', 
 'Warband', '1.0', '1.0 Core Set', 'Explore',
 'Still too young ot earn their wings, Whelps must settle for chasing down their prey to make a meal.  This quickly weeds out the weakest of the clutch and ensures that only the strongest will survive.');
-insert into Characters (CardIndex) VALUES (41); 
+insert into Characters (CardIndex, StandieFront, StandieBack) VALUES (41,
+'http://htkb.info/SDE/1.0/Cards/Warbands/Egg_Clutch/Standies/Egg_Clutch_Whelp_1.0.png', 
+'http://htkb.info/SDE/1.0/Cards/Warbands/Egg_Clutch/Standies/Egg_Clutch_Whelp_1.0_back.png'); 
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (41, 68); --Knockdown
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (41, 'Either', 'Small', 'Drake', 6, 1, '2B 1R', '1st', '3B', '3B', 1, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (41, 0, 1); --Attack
@@ -41,12 +47,14 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (4
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (41, 'Denizen', '8 Bit', 1); 
 --Wyrmling --Index 42
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Wyrmling',
-'http://htkb.info/SDE/1.0/Cards/Warbands/Egg_Clutch/Card_Warband_Egg_Clutch_Wyrmling_1.0.png', 
-'http://htkb.info/SDE/1.0/Cards/Warbands/Egg_Clutch/Card_Warband_Egg_Clutch_Wyrmling_1.0_back.png', 
+'http://htkb.info/SDE/1.0/Cards/Warbands/Egg_Clutch/Standies/Egg_Clutch_Wyrmling_1.0.png', 
+'http://htkb.info/SDE/1.0/Cards/Warbands/Egg_Clutch/Standies/Egg_Clutch_Wyrmling_1.0_back.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Warbands/Egg_Clutch/Wyrmling.xhtml', 
 'Warband', '1.0', '1.0 Core Set', 'Explore',
 'Wyrmlings have so far managed to not be eaten by kin or kobold and are nearing maturity.  They wheel around the caverns and their mountain hunting grounds, on newly sprouted wings, feeding on foolish trespassers.');
-insert into Characters (CardIndex) VALUES (42); 
+insert into Characters (CardIndex, StandieFront, StandieBack) VALUES (42,
+'http://htkb.info/SDE/1.0/Cards/Warbands/Egg_Clutch/Standies/Egg_Clutch_Wyrmling_1.0.png', 
+'http://htkb.info/SDE/1.0/Cards/Warbands/Egg_Clutch/Standies/Egg_Clutch_Wyrmling_1.0_back.png'); 
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (42, 36); --Fly
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (42, 68); --Knockdown
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (42, 57); --Immune: Knockdown
@@ -63,7 +71,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Warbands/Kobold_Warrens/Kobold_Warrens.xhtml', 
 'Warband', '1.0', '1.0 Core Set', 'Explore',
 '');
-insert into Characters (CardIndex) VALUES (43); 
+insert into Characters (CardIndex, StandieFront, StandieBack) VALUES (43,
+'http://htkb.info/SDE/1.0/Cards/Warbands/Kobold_Warrens/Standies/Kobold_Warrens_1.0.png', 
+'http://htkb.info/SDE/1.0/Cards/Warbands/Kobold_Warrens/Standies/Kobold_Warrens_1.0_back.png'); 
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (43, 61); --Immune: Status Effects
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (43, 69); --Kobold Warrens comes with
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (43, 'Neutral', 'Small', 'Spawning Point', 0, 0, '', '1st', '', '', 3, 0);
@@ -76,7 +86,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Warbands/Kobold_Warrens/Dragon_Priest.xhtml', 
 'Warband', '1.0', '1.0 Core Set', 'Explore',
 'Often the leaders of warbands in the deep dark, Dragon Priests are granted arcane powers by their close communion with the dragon, Starfire.  Once bestowed these these gifts they never hesitate to use their favor to bully and cajole the lesser kobolds into fighting for them.');
-insert into Characters (CardIndex) VALUES (44); 
+insert into Characters (CardIndex, StandieFront, StandieBack) VALUES (44,
+'http://htkb.info/SDE/1.0/Cards/Warbands/Kobold_Warrens/Standies/Kobold_Warrens_Dragon_Priest_1.0.png', 
+'http://htkb.info/SDE/1.0/Cards/Warbands/Kobold_Warrens/Standies/Kobold_Warrens_Dragon_Priest_1.0_back.png'); 
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (44, 79); --Magic 8
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (44, 83); --Mob
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (44, 39); --Dragon Rage
@@ -93,7 +105,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Warbands/Kobold_Warrens/Flinger.xhtml', 
 'Warband', '1.0', '1.0 Core Set', 'Explore',
 'Many young Kobolds emerge from their warrens having learned how to hunt bats and other denizens with nothing more than a strip of drakegut and a pouch full of stones.  Deadly accurate, they launch small clay pots of flaming lamp oil or inky smoke bombs to conceal their movement.');
-insert into Characters (CardIndex) VALUES (45); 
+insert into Characters (CardIndex, StandieFront, StandieBack) VALUES (45,
+'http://htkb.info/SDE/1.0/Cards/Warbands/Kobold_Warrens/Standies/Kobold_Warrens_Flinger_1.0.png', 
+'http://htkb.info/SDE/1.0/Cards/Warbands/Kobold_Warrens/Standies/Kobold_Warrens_Flinger_1.0_back.png'); 
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (45, 82); --Missile 6
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (45, 83); --Mob
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (45, 69); --Hot Pot
@@ -110,7 +124,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Warbands/Kobold_Warrens/Gouger.xhtml', 
 'Warband', '1.0', '1.0 Core Set', 'Explore',
 'Kobolds are not big on courage as lone fighters.  Their snarling growls are meager and their weapons blunt and rusted.  The Gouger''s long spears can effectively add weight to their kin''s attacks by stabbing at the desperately flailing heroes.');
-insert into Characters (CardIndex) VALUES (46);
+insert into Characters (CardIndex, StandieFront, StandieBack) VALUES (46,
+'http://htkb.info/SDE/1.0/Cards/Warbands/Kobold_Warrens/Standies/Kobold_Warrens_Gouger_1.0.png', 
+'http://htkb.info/SDE/1.0/Cards/Warbands/Kobold_Warrens/Standies/Kobold_Warrens_Gouger_1.0_back.png');
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (46, 104); --Reach 2
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (46, 83); --Mob
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (46, 'Either', 'Small', 'Kobold', 7, 1, '2B', '0st', '2B', '1B 1R', 1, 0);
@@ -124,7 +140,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Warbands/Kobold_Warrens/Ironscale.xhtml', 
 'Warband', '1.0', '1.0 Core Set', 'Explore',
 'The strongest and largest of their kind, the Ironscales are draped in heavy armor and fight from behind immovable heavy shields.  Advancing with a rattling stomp, their kin swarm from behind their wall of protection to attack anyone foolish enough to stick around.');
-insert into Characters (CardIndex) VALUES (47); 
+insert into Characters (CardIndex, StandieFront, StandieBack) VALUES (47,
+'http://htkb.info/SDE/1.0/Cards/Warbands/Kobold_Warrens/Standies/Kobold_Warrens_Ironscale_1.0.png', 
+'http://htkb.info/SDE/1.0/Cards/Warbands/Kobold_Warrens/Standies/Kobold_Warrens_Ironscale_1.0_back.png'); 
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (47, 83); --Mob
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (47, 113); --Shieldwall
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (47, 'Either', 'Small', 'Kobold', 7, 2, '1B 1R', '2st', '2B', '1B 1R', 1, 0);
@@ -138,7 +156,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Warbands/Kobold_Warrens/Knucklehead.xhtml', 
 'Warband', '1.0', '1.0 Core Set', 'Explore',
 'The Knuckleheads'' strength lies in large, deadly, mobs of its kin throwing themselves headlong into smaller bands of heroes.  They use their small shields and iron helmets to take blows, while frantically stabbing anything in reach with their crude weapons.');
-insert into Characters (CardIndex) VALUES (48);
+insert into Characters (CardIndex, StandieFront, StandieBack) VALUES (48,
+'http://htkb.info/SDE/1.0/Cards/Warbands/Kobold_Warrens/Standies/Kobold_Warrens_Knucklehead_1.0.png', 
+'http://htkb.info/SDE/1.0/Cards/Warbands/Kobold_Warrens/Standies/Kobold_Warrens_Knucklehead_1.0_back.png');
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (48, 83); --Mob
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (48, 'Either', 'Small', 'Kobold', 7, 1, '3B', '1st', '2B', '1B 1R', 1, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (48, 0, 1); --Attack
@@ -155,7 +175,9 @@ The Fire Flows are surprsingly rich in life considering the harsh environment.  
 Like most places of great magical power the life is not limited to mortal creatures.  Elemental gels are born by the thousands as volcanic eruptions ravage the landscape.<br>
 Ruling over it all is the Molten Lord, Roxor.  Ancientas the mountains themselves, Roxor guards the heart and seeks to extend its fiery influence until all of Crystalia is consumed in flame.
 ');
-insert into Characters (CardIndex) VALUES (49); 
+insert into Characters (CardIndex, StandieFront, StandieBack) VALUES (49,
+'http://htkb.info/SDE/1.0/Cards/Warbands/Lava_Whirl/Standies/Lava_Whirl_1.0.png', 
+'http://htkb.info/SDE/1.0/Cards/Warbands/Lava_Whirl/Standies/Lava_Whirl_1.0_back.png'); 
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (49, 61); --Immune: Status Effects
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (49, 73); --Lava Whirl comes with
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (49, 'Neutral', 'Small', 'Spawning Point', 0, 0, '', '1st', '', '', 3, 0);
@@ -168,7 +190,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Warbands/Lava_Whirl/Blaze_Beetle.xhtml', 
 'Warband', '1.0', 'Caveners of Roxor', 'Explore',
 'Subsisting entirely on the molten rock of the Fire Flows, the Blaze Beetle is at home swimming through its magnificent lava rivers.  Blaze Beetles possess a remarkable sense of cruel cunning and they delight in burrowing beneath groups of Heroes to erupt from solid stone, bathing them in a shower of fire and rock.');
-insert into Characters (CardIndex) VALUES (50); 
+insert into Characters (CardIndex, StandieFront, StandieBack) VALUES (50,
+'http://htkb.info/SDE/1.0/Cards/Warbands/Lava_Whirl/Standies/Lava_Whirl_Blaze_Beetle_1.0.png', 
+'http://htkb.info/SDE/1.0/Cards/Warbands/Lava_Whirl/Standies/Lava_Whirl_Blaze_Beetle_1.0_back.png'); 
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (50, 17); --Burrow
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (50, 54); --Immune: Fire
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (50, 20); --Burning Chitin
@@ -184,7 +208,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Warbands/Lava_Whirl/Burning_Gel.xhtml', 
 'Warband', '1.0', 'Caveners of Roxor', 'Explore',
 'Born of fire, Burning Gels prefer to lurk in any fire they can find, hoping to ambush passersby.  If no fire presents itself they are all too happy to start one themselves.  Not being truly alive the only way to actually extinguish a Burning Gel is to stomp it into too many pieces for it to cause any more mischief.');
-insert into Characters (CardIndex) VALUES (51); 
+insert into Characters (CardIndex, StandieFront, StandieBack) VALUES (51,
+'http://htkb.info/SDE/1.0/Cards/Warbands/Lava_Whirl/Standies/Lava_Whirl_Burning_Gel_1.0.png', 
+'http://htkb.info/SDE/1.0/Cards/Warbands/Lava_Whirl/Standies/Lava_Whirl_Burning_Gel_1.0_back.png'); 
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (51, 32); --Fire
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (51, 54); --Immune: Fire
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (51, 153); --Vulnerable: Cold
@@ -201,7 +227,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Warbands/Lava_Whirl/Ember_Hound.xhtml', 
 'Warband', '1.0', 'Caveners of Roxor', 'Explore',
 'Concealed in a cloak of ash, the Ember Hound stalks travelers whose campfires burn too brightly at night.');
-insert into Characters (CardIndex) VALUES (52); 
+insert into Characters (CardIndex, StandieFront, StandieBack) VALUES (52,
+'http://htkb.info/SDE/1.0/Cards/Warbands/Lava_Whirl/Standies/Lava_Whirl_Ember_Hound_1.0.png', 
+'http://htkb.info/SDE/1.0/Cards/Warbands/Lava_Whirl/Standies/Lava_Whirl_Ember_Hound_1.0_back.png'); 
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (52, 54); --Immune: Fire
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (52, 129); --Stealth
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (52, 3); --Ash Cloud
@@ -216,7 +244,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Warbands/Lava_Whirl/Fire_Gel.xhtml', 
 'Warband', '1.0', 'Caveners of Roxor', 'Explore',
 'Fire Gels may be half the size of Burning Gels but they''re twice as angry.  They delight in catching the unwary Hero off guard, lighting their bootlaces on fire and singeing their hair with malicious glee.');
-insert into Characters (CardIndex) VALUES (53); 
+insert into Characters (CardIndex, StandieFront, StandieBack) VALUES (53,
+'http://htkb.info/SDE/1.0/Cards/Warbands/Lava_Whirl/Standies/Lava_Whirl_Fire_Gel_1.0.png', 
+'http://htkb.info/SDE/1.0/Cards/Warbands/Lava_Whirl/Standies/Lava_Whirl_Fire_Gel_1.0_back.png'); 
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (53, 32); --Fire
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (53, 54); --Immune: Fire
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (53, 153); --Vulnerable: Cold
@@ -234,7 +264,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '1.0', 'Von Drakk Manor', 'Explore',
 'Long ago the inhabitants of the Glauerdoom used pumpkins to carve jack-o-lanterns to trick the restless spirits of the moor to pass by their homes at night.  In time the spirits grew wise to this deception and decided to play a trick of their own.  Now pumpkin patches are grim, haunted, places where the creatures that go bump in the night lurk, waiting for their prey.<br><br>
 Beneath the dark boughs of the Witches'' Weald pumpkins grow wild and the orange globes pulse with strange energies as the withc covens practice their own special brand of dark magic -- poisons, necromancy, enchantment, curses, no subject is taboo.  The covens find great favor with both the Dark Consul and Von Drakk Manor.  Both often have need of the witches'' unique abilities when dealing with self righteous Heroes who seek to thwart them.');
-insert into Characters (CardIndex) VALUES (54); --! To look at later
+insert into Characters (CardIndex, StandieFront, StandieBack) VALUES (54,
+'http://htkb.info/SDE/1.0/Cards/Warbands/Pumpkin_Patch/Standies/Pumpkin_Patch_1.0.png', 
+'http://htkb.info/SDE/1.0/Cards/Warbands/Pumpkin_Patch/Standies/Pumpkin_Patch_1.0_back.png'); --! To look at later
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (54, 61); --Immune: Status Effects
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (54, 97); --Pumpkin Patch comes with
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (54, 'Neutral', 'Small', 'Spawning Point', 0, 0, '', '1st', '', '', 3, 0);
@@ -247,7 +279,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Warbands/Pumpkin_Patch/Crypt_Spider.xhtml', 
 'Warband', '1.0', 'Von Drakk Manor', 'Explore',
 'Spiders are favored guardians of the many crypts and barrows in the Glauerdoom.  They have no interest in the dead nor in their treasures.  Cruel, cunning, and immeasurably patient they wait in elaborately spun webs.  They know the lure of treasure and plunder is irresistable to the living.  Soon enough foolish Heroes will come and then it will feast.');
-insert into Characters (CardIndex) VALUES (55); 
+insert into Characters (CardIndex, StandieFront, StandieBack) VALUES (55,
+'http://htkb.info/SDE/1.0/Cards/Warbands/Pumpkin_Patch/Standies/Pumpkin_Patch_Crypt_Spider_1.0.png', 
+'http://htkb.info/SDE/1.0/Cards/Warbands/Pumpkin_Patch/Standies/Pumpkin_Patch_Crypt_Spider_1.0_back.png'); 
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (55, 135); --Surefoot
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (55, 44); --Enervating Bite
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (55, 115); --Silk Spinner
@@ -262,7 +296,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Warbands/Pumpkin_Patch/Curse_Coven_Witch.xhtml', 
 'Warband', '1.0', 'Von Drakk Manor', 'Explore',
 'The Curse Coven is a favorite of witches far and wide.  Indeed, most witches have dabbled in curses.  It is easy to find great pleasure in curdling toddlers'' milk, giving a fussy aunt the farts, or just turning someone into a good old fashioned miserable toad');
-insert into Characters (CardIndex) VALUES (56); 
+insert into Characters (CardIndex, StandieFront, StandieBack) VALUES (56,
+'http://htkb.info/SDE/1.0/Cards/Warbands/Pumpkin_Patch/Standies/Pumpkin_Patch_Curse_Coven_Witch_1.0.png', 
+'http://htkb.info/SDE/1.0/Cards/Warbands/Pumpkin_Patch/Standies/Pumpkin_Patch_Curse_Coven_Witch_1.0_back.png'); 
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (56, 36); --Fly
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (56, 79); --Magic 6
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (56, 91); --Potion 1
@@ -280,7 +316,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Warbands/Pumpkin_Patch/Skullbat.xhtml', 
 'Warband', '1.0', 'Von Drakk Manor', 'Explore',
 'When one dies in the moorlands it is customary to bury them head first.  Failing that, it is practical to secure a good solid helmet on the deceased''s head.  One wouldn''t want it to sprout wings and fly away after all');
-insert into Characters (CardIndex) VALUES (57); 
+insert into Characters (CardIndex, StandieFront, StandieBack) VALUES (57,
+'http://htkb.info/SDE/1.0/Cards/Warbands/Pumpkin_Patch/Standies/Pumpkin_Patch_Skullbat_1.0.png', 
+'http://htkb.info/SDE/1.0/Cards/Warbands/Pumpkin_Patch/Standies/Pumpkin_Patch_Skullbat_1.0_back.png'); 
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (57, 46); --Host
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (57, 36); --Fly
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (57, 79); --Magic 4
@@ -301,7 +339,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 Like many of the Consul''s minions Rocktop society is ruled by strength and size.  At the top of the hierarchy stands the migty Crusher.  Dimwitted and brutish, Crushers spend most of their waking hours smashing rock to increase the size of the tunnel systems they claim as theirs.
 In contrast, Rollers and Bombardiers are surprisingly jovial creatures.  Relishing mischief and mayhem they delight in the noise and spectacle as rocks, Heroes, or anything smaller than them are smashed, smushed, crushed, crunched, or exploded.<br>
 Below them all are the hapless Slowpokes.  Simple creatures who, if they had a say in it, would be perfectly content moving rocks from one side of a cave to another and back again.');
-insert into Characters (CardIndex) VALUES (58); 
+insert into Characters (CardIndex, StandieFront, StandieBack) VALUES (58,
+'http://htkb.info/SDE/1.0/Cards/Warbands/Rock_Pile/Standies/Rock_Pile_1.0.png', 
+'http://htkb.info/SDE/1.0/Cards/Warbands/Rock_Pile/Standies/Rock_Pile_1.0_back.png'); 
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (58, 61); --Immune: Status Effects
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (58, 110); --Rock Pile comes with
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (58, 'Neutral', 'Small', 'Spawning Point', 0, 0, '', '1st', '', '', 3, 0);
@@ -314,7 +354,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Warbands/Rock_Pile/Bombardier.xhtml', 
 'Warband', '1.0', 'Caverns of Roxor', 'Explore',
 'Delighting in explosions, Bombardiers happily fire their cannons into the midst of any combat, hitting friend and foe alike.  Because of this, bombardiers do not have many friends, not even other Rocktops, who quickly tuck themselves safely into their shells at the first booming report of the Bombardier''s cannon.');
-insert into Characters (CardIndex) VALUES (59); 
+insert into Characters (CardIndex, StandieFront, StandieBack) VALUES (59,
+'http://htkb.info/SDE/1.0/Cards/Warbands/Rock_Pile/Standies/Rock_Pile_Bombardier_1.0.png', 
+'http://htkb.info/SDE/1.0/Cards/Warbands/Rock_Pile/Standies/Rock_Pile_Bombardier_1.0_back.png'); 
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (59, 146); --Turtle
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (59, 144); --Turtle Power
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (59, 111); --Shell Shock
@@ -330,7 +372,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Warbands/Rock_Pile/Crusher.xhtml', 
 'Warband', '1.0', 'Caverns of Roxor', 'Explore',
 'Crushers are the premier miners in Crystalia.  Their ability to grind through rock and soil make even the proudest dwarf blush.  The constant pounding and pulverizing takes a toll on their attitude however, leaving them belligerent and unwelcoming when hapless Heroes wander into their homes.');
-insert into Characters (CardIndex) VALUES (60); 
+insert into Characters (CardIndex, StandieFront, StandieBack) VALUES (60,
+'http://htkb.info/SDE/1.0/Cards/Warbands/Rock_Pile/Standies/Rock_Pile_Crusher_1.0.png', 
+'http://htkb.info/SDE/1.0/Cards/Warbands/Rock_Pile/Standies/Rock_Pile_Crusher_1.0_back.png'); 
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (60, 145); --Turtle Tremor
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (60, 137); --Thick Shell
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (60, 'Either', 'Large', 'Rocktop', 5, 3, '2B 1R', '1st 1R', '3B', '2B', 4, 0);
@@ -344,7 +388,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Warbands/Rock_Pile/Roller.xhtml', 
 'Warband', '1.0', 'Caverns of Roxor', 'Explore',
 'Rollers love a good bit of sport.  Stomping through the tunnels they happilly line Slowpokes up for a game of Nineshells, chortling merrily as an expert shot sends shells rebounding and ricocheting throughout the mines.');
-insert into Characters (CardIndex) VALUES (61); 
+insert into Characters (CardIndex, StandieFront, StandieBack) VALUES (61,
+'http://htkb.info/SDE/1.0/Cards/Warbands/Rock_Pile/Standies/Rock_Pile_Roller_1.0.png', 
+'http://htkb.info/SDE/1.0/Cards/Warbands/Rock_Pile/Standies/Rock_Pile_Roller_1.0_back.png'); 
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (61, 146); --Turtle
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (61, 138); --Thwack!
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (61, 144); --Turtle Power
@@ -359,7 +405,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Warbands/Rock_Pile/Slowpoke.xhtml', 
 'Warband', '1.0', 'Caverns of Roxor', 'Explore',
 '');
-insert into Characters (CardIndex) VALUES (62); 
+insert into Characters (CardIndex, StandieFront, StandieBack) VALUES (62,
+'http://htkb.info/SDE/1.0/Cards/Warbands/Rock_Pile/Standies/Rock_Pile_Slowpoke_1.0.png', 
+'http://htkb.info/SDE/1.0/Cards/Warbands/Rock_Pile/Standies/Rock_Pile_Slowpoke_1.0_back.png'); 
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (62, 146); --Turtle
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (62, 144); --Turtle Power
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (62, 'Either', 'Small', 'Rocktop', 5, 1, '3B', '0st', '3B', '2B', 1, 0);
@@ -376,7 +424,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 The Glauerdoom Moor is a grim and foreboding place by any measure.  Its fetid fens and marshes remain perpetually shrouded beneath a grey fog.  Its great cities have long since faded, their glory reduced to crumbling ruins and sinking towers.  The landscape is dotted by vast mausoleums and endless crypts built to house the ever dwindling populations'' dead.<br><br>
 Tragically the dead do not rest long.  The dark power of necromancy infuses the land and the dead sleep uneasily.  Their slumber is but a brief respite.  Soon their master bids them to rise and take their place in his macabre host.
 ');
-insert into Characters (CardIndex) VALUES (63);
+insert into Characters (CardIndex, StandieFront, StandieBack) VALUES (63,
+'http://htkb.info/SDE/1.0/Cards/Warbands/Shallow_Grave/Standies/Shallow_Grave_1.0.png', 
+'http://htkb.info/SDE/1.0/Cards/Warbands/Shallow_Grave/Standies/Shallow_Grave_1.0_back.png');
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (63, 61); --Immune: Status Effects
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (63, 113); --Shallow Grave comes with
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (63, 'Neutral', 'Small', 'Spawning Point', 0, 0, '', '1st', '', '', 3, 0);
@@ -389,7 +439,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Warbands/Shallow_Grave/Bone_Head.xhtml', 
 'Warband', '1.0', 'Von Drakk Manor', 'Explore',
 'Boneheads make up the ranks of Von Drakk''s and the Dark Consul''s undead legions.  Drawn from the lucky few Rattle-Bones who survive their first engagement with heroic adventurers, they are clad in the rusty and battered armor of those who have fallen before them, to hopefully survive their second.');
-insert into Characters (CardIndex) VALUES (64); 
+insert into Characters (CardIndex, StandieFront, StandieBack) VALUES (64,
+'http://htkb.info/SDE/1.0/Cards/Warbands/Shallow_Grave/Standies/Shallow_Grave_Bone_Head_1.0.png', 
+'http://htkb.info/SDE/1.0/Cards/Warbands/Shallow_Grave/Standies/Shallow_Grave_Bone_Head_1.0_back.png'); 
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (64, 12); --Bone Pile
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (64, 'Either', 'Small', 'Undead Skeleton', 6, 1, '3B', '1st', '2B', '1B', 1, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (64, 0, 1); --Attack
@@ -402,7 +454,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Warbands/Shallow_Grave/Dread_Knight.xhtml', 
 'Warband', '1.0', 'Von Drakk Manor', 'Explore',
 'In life Dread Knights were vaunted warriors, serving their lords with steadfast devotion.  Their loyalty continues even into death and they remain highly prized as some of the Dark Consul''s deadliest minions.');
-insert into Characters (CardIndex) VALUES (65); 
+insert into Characters (CardIndex, StandieFront, StandieBack) VALUES (65,
+'http://htkb.info/SDE/1.0/Cards/Warbands/Shallow_Grave/Standies/Shallow_Grave_Dread_Knight_1.0.png', 
+'http://htkb.info/SDE/1.0/Cards/Warbands/Shallow_Grave/Standies/Shallow_Grave_Dread_Knight_1.0_back.png'); 
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (65, 12); --Bone Pile
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (65, 23); --Cold
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (65, 31); --Cursed Blade
@@ -417,7 +471,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Warbands/Shallow_Grave/Dust_Coven_Necromancer.xhtml', 
 'Warband', '1.0', 'Von Drakk Manor', 'Explore',
 'Dust Coven Necromancers can often be seen lurking among the many crypts and mausoleums dotting the land, cackling madly as they go about their grim work.  So inevitable is the reanimation of the dead in the moorlands that many wealthy families empploy their own necromancers.  Ensuring that if their ancestors are to be counted amoung the waking dead at least they will remain in service to their kith and kin.');
-insert into Characters (CardIndex) VALUES (66); 
+insert into Characters (CardIndex, StandieFront, StandieBack) VALUES (66,
+'http://htkb.info/SDE/1.0/Cards/Warbands/Shallow_Grave/Standies/Shallow_Grave_Dust_Coven_Necromancer_1.0.png', 
+'http://htkb.info/SDE/1.0/Cards/Warbands/Shallow_Grave/Standies/Shallow_Grave_Dust_Coven_Necromancer_1.0_back.png'); 
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (66, 79); --Magic 6
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (66, 80); --Mend Bones
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (66, 140); --Tide of Bones
@@ -434,7 +490,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Warbands/Shallow_Grave/Dust_Mage.xhtml', 
 'Warband', '1.0', 'Von Drakk Manor', 'Explore',
 'The death of a Dust Coven Necromancer does not mean an end to them entirely.  The dark magic of necromany clings to their bones like bitter frost.  They are reborn as the cruel Dust Mages, cursed to be bound to another necromancer''s evil desires.');
-insert into Characters (CardIndex) VALUES (67); 
+insert into Characters (CardIndex, StandieFront, StandieBack) VALUES (67,
+'http://htkb.info/SDE/1.0/Cards/Warbands/Shallow_Grave/Standies/Shallow_Grave_Dust_Mage_1.0.png', 
+'http://htkb.info/SDE/1.0/Cards/Warbands/Shallow_Grave/Standies/Shallow_Grave_Dust_Mage_1.0_back.png'); 
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (67, 8); --Bind
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (67, 12); --Bone Pile
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (67, 79); --Magic 6
@@ -451,7 +509,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Warbands/Shallow_Grave/Rattle_Bone.xhtml', 
 'Warband', '1.0', 'Von Drakk Manor', 'Explore',
 'Rattle-Bones are the plague of the moorlands and the favorite party trick of up-and-coming necromancers.  Easy to raise, easy to destroy, easy to raise again.  They are an unceasing nuisance to even the most powerful of Heroes.  The only true way to keep them down is to stomp their bones to dust.');
-insert into Characters (CardIndex) VALUES (68); 
+insert into Characters (CardIndex, StandieFront, StandieBack) VALUES (68,
+'http://htkb.info/SDE/1.0/Cards/Warbands/Shallow_Grave/Standies/Shallow_Grave_Rattle_Bone_1.0.png', 
+'http://htkb.info/SDE/1.0/Cards/Warbands/Shallow_Grave/Standies/Shallow_Grave_Rattle_Bone_1.0_back.png'); 
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (68, 12); --Bone Pile
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (68, 83); --Mob
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (68, 109); --Risen
