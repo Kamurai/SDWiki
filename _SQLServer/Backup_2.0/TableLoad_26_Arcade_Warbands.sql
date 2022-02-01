@@ -126,6 +126,26 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (gXXX, abX
 
 
 --Clan Ijin
+--Ijin Madoushi	--CardIndex cXXX	--CharacterIndex chXXX	--ArcadeCharacterIndex arXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ijin Madoushi',
+'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Ijin/Card_Arcade_Warband_Clan_Ijin_Ijin_Madoushi_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Ijin/Card_Arcade_Warband_Clan_Ijin_Ijin_Madoushi_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Clan_Ijin/Ijin_Madoushi.xhtml', 
+'Warband', '2.0', '2.0 Core Set', 'Default', 
+'Ijin Madoushi have learned some of the mystical ways of the void witches. They use this power to stir their fellow Ijin into a blood frenzy, calling them to battle.');
+insert into Characters (CardIndex) VALUES (cXXX);
+insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
+VALUES (chXXX, 124, 134);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 0); --Amethyst
+--GangMemberIndex gXXX
+insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex);
+VALUES (arXXX, 0, 'Ijin Madoushi', 'Solo Spawning Point', '', 2, 3, 1, eXXX);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, kXXX); --Massive Damage
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, kXXX); --Rampage
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, kXXX); --Solo Spawn
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, kXXX); --Spawning Pool
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (gXXX, abXXX); --Blood Frenzy
+
 --Ijin Crush of Ijin A --CardIndex cXXX --CharacterIndex chXXX --ArcadeCharacterIndex arXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ijin Crush of Ijin A',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Ijin/Card_Arcade_Warband_Clan_Ijin_Ijin_Crush_of_Ijin_A_2.0.png', 
@@ -169,28 +189,29 @@ insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, 
 VALUES (arXXX, 1, 'Ijin Kunoichi', 'Ijin Riftling', 'Minion', 6, 1, 1, eXXX);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, kXXX); --Rampage
 
---Ijin Madoushi	--CardIndex cXXX	--CharacterIndex chXXX	--ArcadeCharacterIndex arXXX
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ijin Madoushi',
-'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Ijin/Card_Arcade_Warband_Clan_Ijin_Ijin_Madoushi_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Ijin/Card_Arcade_Warband_Clan_Ijin_Ijin_Madoushi_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Clan_Ijin/Ijin_Madoushi.xhtml', 
+
+--Clan Ika
+--Ika Madoushi	--CardIndex cXXX	--CharacterIndex chXXX	--ArcadeCharacterIndex arXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ika Madoushi',
+'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Ika/Card_Arcade_Warband_Clan_Ika_Ika Madoushi_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Ika/Card_Arcade_Warband_Clan_Ika_Ika Madoushi_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Clan_Ika/Ika Madoushi.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Default', 
-'Ijin Madoushi have learned some of the mystical ways of the void witches. They use this power to stir their fellow Ijin into a blood frenzy, calling them to battle.');
+'');
 insert into Characters (CardIndex) VALUES (cXXX);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
 VALUES (chXXX, 124, 134);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 0); --Amethyst
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 3); --Ruby
 --GangMemberIndex gXXX
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex);
-VALUES (arXXX, 0, 'Ijin Madoushi', 'Spawning Point', '', 2, 3, 1, eXXX);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, kXXX); --Massive Damage
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, kXXX); --Rampage
+VALUES (arXXX, 0, 'Ika Madoushi', 'Solo Spawning Point', '', 2, 3, 1, eXXX);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, kXXX); --Killamari
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, kXXX); --Salty
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, kXXX); --Solo Spawn
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, kXXX); --Spawning Pool
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (gXXX, abXXX); --Blood Frenzy
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, kXXX); --Stealth
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (gXXX, abXXX); --Foul Weather
 
-
---Clan Ika
 --Karakens Jaws, The	--CardIndex cXXX	--CharacterIndex chXXX	--ArcadeCharacterIndex arXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Karakens Jaws, The',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Ika/Card_Arcade_Warband_Clan_Ika_Karakens_Jaws_The_2.0.png', 
@@ -217,27 +238,6 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, kXX
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex);
 VALUES (arXXX, 2, 'Ika Kaiken', 'Bonded Ika', 'Minion', 6, 1, 1, eXXX);
 
---Ika Madoushi	--CardIndex cXXX	--CharacterIndex chXXX	--ArcadeCharacterIndex arXXX
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ika Madoushi',
-'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Ika/Card_Arcade_Warband_Clan_Ika_Ika Madoushi_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Ika/Card_Arcade_Warband_Clan_Ika_Ika Madoushi_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Clan_Ika/Ika Madoushi.xhtml', 
-'Warband', '2.0', '2.0 Core Set', 'Default', 
-'');
-insert into Characters (CardIndex) VALUES (cXXX);
-insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (chXXX, 124, 134);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 3); --Ruby
---GangMemberIndex gXXX
-insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex);
-VALUES (arXXX, 0, 'Ika Madoushi', 'Spawning Point', '', 2, 3, 1, eXXX);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, kXXX); --Killamari
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, kXXX); --Salty
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, kXXX); --Solo Spawn
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, kXXX); --Spawning Pool
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, kXXX); --Stealth
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (gXXX, abXXX); --Foul Weather
-
 --Ika Oni	--CardIndex cXXX	--CharacterIndex chXXX	--ArcadeCharacterIndex arXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ika Oni',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Ika/Card_Arcade_Warband_Clan_Ika_Ika_Oni_2.0.png', 
@@ -260,6 +260,25 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (gXXX, abX
 
 
 --Clan Kitsune
+--Kitsune Madoushi	--CardIndex cXXX	--CharacterIndex chXXX	--ArcadeCharacterIndex arXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Kitsune Madoushi',
+'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Kitsune/Card_Arcade_Warband_Clan_Kitsune_Kitsune_Madoushi_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Kitsune/Card_Arcade_Warband_Clan_Kitsune_Kitsune_Madoushi_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Clan_Kitsune/Kitsune_Madoushi.xhtml', 
+'Warband', '2.0', '2.0 Core Set', 'Default', 
+'');
+insert into Characters (CardIndex) VALUES (cXXX);
+insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
+VALUES (chXXX, 124, 134);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1); --Citrine
+--GangMemberIndex gXXX
+insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex);
+VALUES (arXXX, 0, 'Kitsune Madoushi', 'Solo Paired Spawning Point', '', 2, 3, 1, eXXX);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, kXXX); --Solo Paired Spawn
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, kXXX); --Spawning Pool
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, kXXX); --Territorial
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (gXXX, abXXX); --Command of Kitsune
+
 --Claws of Kitsune	--CardIndex cXXX	--CharacterIndex chXXX	--ArcadeCharacterIndex arXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Claws of Kitsune',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Kitsune/Card_Arcade_Warband_Clan_Kitsune_Claws_of_Kitsune_2.0.png', 
@@ -301,27 +320,27 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (gXXX, abX
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex);
 VALUES (arXXX, 1, 'Kitsune Yajiri', 'Bonded Kitsune', 'Minion', 6, 1, 0, eXXX);
 
---Kitsune Madoushi	--CardIndex cXXX	--CharacterIndex chXXX	--ArcadeCharacterIndex arXXX
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Kitsune Madoushi',
-'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Kitsune/Card_Arcade_Warband_Clan_Kitsune_Kitsune_Madoushi_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Kitsune/Card_Arcade_Warband_Clan_Kitsune_Kitsune_Madoushi_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Clan_Kitsune/Kitsune_Madoushi.xhtml', 
+
+--Clan Tanchyo
+--Tanchyo Madoushi	--CardIndex cXXX	--CharacterIndex chXXX	--ArcadeCharacterIndex arXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Tanchyo Madoushi',
+'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Tanchyo/Card_Arcade_Warband_Clan_Tanchyo_Tanchyo Madoushi_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Tanchyo/Card_Arcade_Warband_Clan_Tanchyo_Tanchyo Madoushi_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Clan_Tanchyo/Tanchyo Madoushi.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Default', 
 '');
 insert into Characters (CardIndex) VALUES (cXXX);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
 VALUES (chXXX, 124, 134);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 2); --Emerald
 --GangMemberIndex gXXX
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex);
-VALUES (arXXX, 0, 'Kitsune Madoushi', 'Spawning Point', '', 2, 3, 1, eXXX);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, kXXX); --Solo Paired Spawn
+VALUES (arXXX, 0, 'Tanchyo Madoushi', 'Tanchyo', 'Solo Spawning Point', 2, 3, 1, eXXX);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, kXXX); --Fly
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, kXXX); --Solo Spawn
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, kXXX); --Spawning Pool
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, kXXX); --Territorial
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (gXXX, abXXX); --Command of Kitsune
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (gXXX, abXXX); --Raven Feather
 
-
---Clan Tanchyo
 --Arrows and Blades	--CardIndex cXXX	--CharacterIndex chXXX	--ArcadeCharacterIndex arXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Arrows and Blades',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Tanchyo/Card_Arcade_Warband_Clan_Tanchyo_Arrows and Blades_2.0.png', 
@@ -342,25 +361,6 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (gXXX, abX
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex);
 VALUES (arXXX, 1, 'Tanchyo Yajiri', 'Bonded Tanchyo', 'Minion', 7, 1, 1, eXXX);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, kXXX); --Retribution
-
---Tanchyo Madoushi	--CardIndex cXXX	--CharacterIndex chXXX	--ArcadeCharacterIndex arXXX
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Tanchyo Madoushi',
-'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Tanchyo/Card_Arcade_Warband_Clan_Tanchyo_Tanchyo Madoushi_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Tanchyo/Card_Arcade_Warband_Clan_Tanchyo_Tanchyo Madoushi_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Clan_Tanchyo/Tanchyo Madoushi.xhtml', 
-'Warband', '2.0', '2.0 Core Set', 'Default', 
-'');
-insert into Characters (CardIndex) VALUES (cXXX);
-insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (chXXX, 124, 134);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 2); --Emerald
---GangMemberIndex gXXX
-insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex);
-VALUES (arXXX, 0, 'Tanchyo Madoushi', 'Tanchyo', 'Spawning Point', 2, 3, 1, eXXX);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, kXXX); --Fly
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, kXXX); --Solo Spawn
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, kXXX); --Spawning Pool
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (gXXX, abXXX); --Raven Feather
 
 --Tanchyo Kaiken	--CardIndex cXXX	--CharacterIndex chXXX	--ArcadeCharacterIndex arXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Tanchyo Kaiken',
@@ -399,6 +399,25 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (gXXX, abX
 
 
 --Clan Tora
+--Tora Madoushi	--CardIndex cXXX	--CharacterIndex chXXX	--ArcadeCharacterIndex arXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Tora Madoushi',
+'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Tora/Card_Arcade_Warband_Clan_Tora_Tora_Madoushi_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Tora/Card_Arcade_Warband_Clan_Tora_Tora_Madoushi_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Clan_Tora/Tora_Madoushi.xhtml', 
+'Warband', '2.0', '2.0 Core Set', 'Default', 
+'');
+insert into Characters (CardIndex) VALUES (cXXX);
+insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
+VALUES (chXXX, 124, 134);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1); --Citrine
+--GangMemberIndex gXXX
+insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex);
+VALUES (arXXX, 0, 'Tora Madoushi', 'Tora', 'Solo Spawning Point', 2, 3, 1, eXXX);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, kXXX); --Massive Damage
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, kXXX); --Solo Spawn
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, kXXX); --Spawning Pool
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (gXXX, abXXX); --Relentless Onslaught
+
 --Gunpowder Gala	--CardIndex cXXX	--CharacterIndex chXXX	--ArcadeCharacterIndex arXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Gunpowder Gala',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Tora/Card_Arcade_Warband_Clan_Tora_Gunpowder_Gala_2.0.png', 
@@ -419,25 +438,6 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (gXXX, abX
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex);
 VALUES (arXXX, 1, 'Tora Kunoichi', 'Tora Bonded', 'Minion', 5, 3, 1, eXXX);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, kXXX); --Stealth
-
---Tora Madoushi	--CardIndex cXXX	--CharacterIndex chXXX	--ArcadeCharacterIndex arXXX
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Tora Madoushi',
-'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Tora/Card_Arcade_Warband_Clan_Tora_Tora_Madoushi_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Tora/Card_Arcade_Warband_Clan_Tora_Tora_Madoushi_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Clan_Tora/Tora_Madoushi.xhtml', 
-'Warband', '2.0', '2.0 Core Set', 'Default', 
-'');
-insert into Characters (CardIndex) VALUES (cXXX);
-insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (chXXX, 124, 134);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1); --Citrine
---GangMemberIndex gXXX
-insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex);
-VALUES (arXXX, 0, 'Tora Madoushi', 'Tora', 'Spawning Point', 2, 3, 1, eXXX);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, kXXX); --Massive Damage
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, kXXX); --Solo Spawn
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, kXXX); --Spawning Pool
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (gXXX, abXXX); --Relentless Onslaught
 
 --Triumphant Tora	--CardIndex cXXX	--CharacterIndex chXXX	--ArcadeCharacterIndex arXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Triumphant Tora',
@@ -476,13 +476,12 @@ VALUES (chXXX, 124, 134);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 3); --Ruby
 --GangMemberIndex gXXX
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex);
-VALUES (arXXX, 0, 'Yamazaru Madoushi', 'Yamazaru', 'Spawning Point', 2, 3, 1, eXXX);
+VALUES (arXXX, 0, 'Yamazaru Madoushi', 'Yamazaru', 'Solo Spawning Point', 2, 3, 1, eXXX);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, kXXX); --Shiny Bauble
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, kXXX); --Slow
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, kXXX); --Solo Spawn
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, kXXX); --Spawning Pool
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (gXXX, abXXX); --Mountain Flute
-
 
 --Yamazaru Madoushi Beta	--CardIndex cXXX	--CharacterIndex chXXX	--ArcadeCharacterIndex arXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Yamazaru Madoushi Beta',
@@ -497,13 +496,12 @@ VALUES (chXXX, 124, 134);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 3); --Ruby
 --GangMemberIndex gXXX
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex);
-VALUES (arXXX, 0, 'Yamazaru Madoushi', 'Yamazaru', 'Spawning Point', 2, 3, 1, eXXX);
+VALUES (arXXX, 0, 'Yamazaru Madoushi', 'Yamazaru', 'Solo Spawning Point', 2, 3, 1, eXXX);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, kXXX); --Shiny Bauble
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, kXXX); --Slow
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, kXXX); --Solo Spawn
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, kXXX); --Spawning Pool
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (gXXX, abXXX); --Mountain Flute
-
 
 --Monkey Mischief	--CardIndex cXXX	--CharacterIndex chXXX	--ArcadeCharacterIndex arXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Monkey Mischief',
@@ -526,7 +524,6 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (gXXX, abX
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex);
 VALUES (arXXX, 1, 'Yamazaru Kaiken', 'Bonded Yamazaru', 'Minion', 7, 1, 0, eXXX);
 
-
 --Monkey Mischief Beta	--CardIndex cXXX	--CharacterIndex chXXX	--ArcadeCharacterIndex arXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Monkey Mischief Beta',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Yamazaru/Card_Arcade_Warband_Clan_Yamazaru_Monkey_Mischief_Beta_2.0.png', 
@@ -548,7 +545,6 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (gXXX, abX
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex);
 VALUES (arXXX, 1, 'Yamazaru Kaiken', 'Bonded Yamazaru', 'Minion', 7, 1, 0, eXXX);
 
-
 --Yamazaru Oni	--CardIndex cXXX	--CharacterIndex chXXX	--ArcadeCharacterIndex arXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Yamazaru Oni',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Yamazaru/Card_Arcade_Warband_Clan_Yamazaru_Yamazaru_Oni_2.0.png', 
@@ -567,7 +563,6 @@ VALUES (arXXX, 0, 'Yamazaru Oni', 'Yamazaru', 'Elite', 7, 4, 2, eXXX);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, kXXX); --Knockdown
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, kXXX); --Shiny Bauble
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (gXXX, abXXX); --Yamazaru's Tail
-
 
 --Yamazaru Oni Beta	--CardIndex cXXX	--CharacterIndex chXXX	--ArcadeCharacterIndex arXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Yamazaru Oni Beta',
@@ -588,7 +583,6 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, kXX
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, kXXX); --Shiny Bauble
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (gXXX, abXXX); --Yamazaru's Tail
 
-
 --Yamazaru Yajiri	--CardIndex cXXX	--CharacterIndex chXXX	--ArcadeCharacterIndex arXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Yamazaru Yajiri',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Yamazaru/Card_Arcade_Warband_Clan_Yamazaru_Yamazaru_Yajiri_2.0.png', 
@@ -607,7 +601,6 @@ VALUES (arXXX, 0, 'Yamazaru Yajiri', 'Yamazaru', 'Elite', 7, 3, 2, eXXX);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, kXXX); --Hex
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, kXXX); --Shiny Bauble
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (gXXX, abXXX); --The Mountain Disapproves
-
 
 --Yamazaru Yajiri Beta	--CardIndex cXXX	--CharacterIndex chXXX	--ArcadeCharacterIndex arXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Yamazaru Yajiri Beta',
@@ -630,6 +623,26 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (gXXX, abX
 
 
 --Clan Yurei
+--Yurei Madoushi	--CardIndex cXXX	--CharacterIndex chXXX	--ArcadeCharacterIndex arXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Yurei Madoushi',
+'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Yurei/Card_Arcade_Warband_Clan_Yurei_Yurei_Madoushi_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Yurei/Card_Arcade_Warband_Clan_Yurei_Yurei_Madoushi_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Clan_Yurei/Yurei_Madoushi.xhtml', 
+'Warband', '2.0', '2.0 Core Set', 'Default', 
+'It was the Yurei''s Madoushi that consigned their lords to their fate of undeath. Knowing that they would be able to fight on, even in death, they can serve their Lord and regain the honor of their clan.');
+insert into Characters (CardIndex) VALUES (cXXX);
+insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
+VALUES (chXXX, 124, 134);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 0); --Amethyst
+--GangMemberIndex gXXX
+insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex);
+VALUES (arXXX, 0, 'Yurei Madoushi', 'Undead', 'Yurei Undead Spawning Point', 1, 3, 1, eXXX);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, kXXX); --Active Spawn
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, kXXX); --Dragged To The Depths
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, kXXX); --Solo Spawn
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, kXXX); --Spawning Pool
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (gXXX, abXXX); --Soul Drain
+
 --Ghost Ship	--CardIndex cXXX	--CharacterIndex chXXX	--ArcadeCharacterIndex arXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ghost Ship',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Yurei/Card_Arcade_Warband_Clan_Yurei_Ghost Ship_2.0.png', 
@@ -651,26 +664,6 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (gXXX, abX
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex);
 VALUES (arXXX, 1, 'Yurei Kaiken', 'Bonded Undead', 'Minion', 4, 1, 1, eXXX);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, kXXX); --Dragged To The Depths
-
---Yurei Madoushi	--CardIndex cXXX	--CharacterIndex chXXX	--ArcadeCharacterIndex arXXX
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Yurei Madoushi',
-'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Yurei/Card_Arcade_Warband_Clan_Yurei_Yurei_Madoushi_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Yurei/Card_Arcade_Warband_Clan_Yurei_Yurei_Madoushi_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Clan_Yurei/Yurei_Madoushi.xhtml', 
-'Warband', '2.0', '2.0 Core Set', 'Default', 
-'It was the Yurei''s Madoushi that consigned their lords to their fate of undeath. Knowing that they would be able to fight on, even in death, they can serve their Lord and regain the honor of their clan.');
-insert into Characters (CardIndex) VALUES (cXXX);
-insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (chXXX, 124, 134);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 0); --Amethyst
---GangMemberIndex gXXX
-insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex);
-VALUES (arXXX, 0, 'Yurei Madoushi', 'Undead', 'Spawning Point', 1, 3, 1, eXXX);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, kXXX); --Active Spawn
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, kXXX); --Dragged To The Depths
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, kXXX); --Solo Spawn
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, kXXX); --Spawning Pool
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (gXXX, abXXX); --Soul Drain
 
 --Spirit Archers	--CardIndex cXXX	--CharacterIndex chXXX	--ArcadeCharacterIndex arXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Spirit Archers',
@@ -788,7 +781,6 @@ insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, 
 VALUES (arXXX, 1, 'Harvest Goon', 'Bonded Construct', 'Minion', 5, 2, 0, eXXX);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, kXXX); --Flammable
 
-
 --Reap The Harvest	--CardIndex cXXX	--CharacterIndex chXXX	--ArcadeCharacterIndex arXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Reap The Harvest',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Corrupted_Harvest/Card_Arcade_Warband_Corrupted_Harvest_Reap_the_Harvest_2.0.png', 
@@ -852,7 +844,6 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, kXX
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, kXXX); --Fury
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (gXXX, abXXX); --Despair
 
-
 --Cursed Barrow Errata --CardIndex cXXX --CharacterIndex chXXX --ArcadeCharacterIndex arXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Cursed Barrow Errata',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Cursed_Barrow/Card_Arcade_Warband_Cursed_Barrow_Errata_2.0.png', 
@@ -891,12 +882,12 @@ VALUES (arXXX, 1, 'Draugr', 'Undead Ghoul', 'Minion', 6, 1, 2, eXXX);
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (gXXX, abXXX); --Berserker Saga
 
 
---Cursed Hallow
---Cursed Hallow --CardIndex cXXX --CharacterIndex chXXX --ArcadeCharacterIndex arXXX
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Cursed Hallow',
-'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Cursed_Hallow/Card_Arcade_Warband_Cursed_Hallow_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Cursed_Hallow/Card_Arcade_Warband_Cursed_Hallow_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Cursed_Hallow/Cursed_Hallow.xhtml', 
+--Cursed Hollow
+--Cursed Hollow --CardIndex cXXX --CharacterIndex chXXX --ArcadeCharacterIndex arXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Cursed Hollow',
+'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Cursed_Hollow/Card_Arcade_Warband_Cursed_Hollow_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Cursed_Hollow/Card_Arcade_Warband_Cursed_Hollow_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Cursed_Hollow/Cursed_Hollow.xhtml', 
 'Arcade Gang', '2.0', '2.0 Core Set', 'Default', 
 'Kodama are inherently fickle, and they are often prone to influence. Many Kodama who dwell at the edge of the Fae Wood, where it meets the Glauerdoom Moor, have fallen under the sway of Nightsong the Eternal. They delight in spreading corruption, blighting crops, and plaguing the living.
 
@@ -907,15 +898,15 @@ VALUES (chXXX, 0, -1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 0); --Amethyst
 --GangMemberIndex gXXX
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex);
-VALUES (arXXX, 0, 'Cursed Hallow', 'Spawning Point', '', 0, 4, 1, eXXX);
+VALUES (arXXX, 0, 'Cursed Hollow', 'Spawning Point', '', 0, 4, 1, eXXX);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, kXXX); --Immune: Status Effects
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, kXXX); --Spawning Pool
 
 --Gloom Wisps	--CardIndex cXXX	--CharacterIndex chXXX	--ArcadeCharacterIndex arXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Gloom Wisps',
-'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Cursed_Hallow/Card_Arcade_Warband_Cursed_Hallow_Gloom_Wisps_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Cursed_Hallow/Card_Arcade_Warband_Cursed_Hallow_Gloom_Wisps_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Cursed_Hallow/Gloom_Wisps.xhtml', 
+'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Cursed_Hollow/Card_Arcade_Warband_Cursed_Hollow_Gloom_Wisps_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Cursed_Hollow/Card_Arcade_Warband_Cursed_Hollow_Gloom_Wisps_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Cursed_Hollow/Gloom_Wisps.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Default', 
 'Wisps are shy, but have a reputation for leading travelers to safety and shelter. Those Wisps who have become corrupted by Nightsong the Eternal still lead travelers, laughing and chirping, creating the illusion of comfort. But the longer the weary traveler stays in the company of the Wisp, the more they sink into a dark despair, until they simply lay down in the blighted moor. Unable to bring themselves to seek shelter or food, these travelers wither away as the wisp laughs and plays.');
 insert into Characters (CardIndex) VALUES (cXXX);
@@ -933,12 +924,11 @@ VALUES (arXXX, 1, 'Gloom Wisp', 'Undead Kodama', 'Elite', 6, 2, 1, eXXX);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, kXXX); --Despair
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (gXXX, abXXX); --Ghastly Vigor
 
-
 --Rotten Seeds --CardIndex cXXX --CharacterIndex chXXX --ArcadeCharacterIndex arXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Rotten Seeds',
-'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Cursed_Hallow/Card_Arcade_Warband_Cursed_Hallow_Rotten Seeds_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Cursed_Hallow/Card_Arcade_Warband_Cursed_Hallow_Rotten Seeds_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Cursed_Hallow/Rotten Seeds.xhtml', 
+'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Cursed_Hollow/Card_Arcade_Warband_Cursed_Hollow_Rotten Seeds_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Cursed_Hollow/Card_Arcade_Warband_Cursed_Hollow_Rotten Seeds_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Cursed_Hollow/Rotten Seeds.xhtml', 
 'Arcade Gang', '2.0', '2.0 Core Set', 'Default', 
 'Each spring the Deeproot Tree breathes life into countless sprouts. They travel Crystalia, settling down and blooming new life throughout the land. Most sprouts take root in fertile territory, where they can reach their full potential. But some find themselves deep in the Glauerdoom Moor. Even so, a sprout will sometimes take root in the oppressive, swampy waters and create a beacon of life and hope in that desperate and forgotten place. But all too often the sprout will be corrupted by the foul things that lurk in the moor. Often these seeds are planted and cultivated by Rotten Cabbages who want to see another servant for their lord, Nightsong the Eternal.');
 insert into Characters (CardIndex) VALUES (cXXX);
@@ -957,9 +947,9 @@ VALUES (arXXX, 0, 'Rotten Cabbage', 'Undead Kodama', 'Elite', 6, 1, 1, eXXX);
 
 --Spoiled Turnips	--CardIndex cXXX	--CharacterIndex chXXX	--ArcadeCharacterIndex arXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Spoiled Turnips',
-'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Cursed_Hallow/Card_Arcade_Warband_Cursed_Hallow_Spoiled_Turnips_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Cursed_Hallow/Card_Arcade_Warband_Cursed_Hallow_Spoiled_Turnips_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Cursed_Hallow/Spoiled_Turnips.xhtml', 
+'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Cursed_Hollow/Card_Arcade_Warband_Cursed_Hollow_Spoiled_Turnips_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Cursed_Hollow/Card_Arcade_Warband_Cursed_Hollow_Spoiled_Turnips_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Cursed_Hollow/Spoiled_Turnips.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Default', 
 'Turnipheads are normally difficult to sway, devoting themselves to healing sick plants. However, those that do become corrupted are consumed completely, becoming devoted to spreading blight and plague to the living. They forsake their ability to heal, instead reveling in the decay that reflects the visage of the undead lord.');
 insert into Characters (CardIndex) VALUES (cXXX);
@@ -977,12 +967,11 @@ VALUES (arXXX, 1, 'Spoiled Turnips', 'Undead Kodama', 'Elite', 6, 1, 0, eXXX);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, kXXX); --Bane
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (gXXX, abXXX); --Bane of Death
 
-
 --Vengeful Compost	--CardIndex cXXX	--CharacterIndex chXXX	--ArcadeCharacterIndex arXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Vengeful Compost',
-'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Cursed_Hallow/Card_Arcade_Warband_Cursed_Hallow_Vengeful_Compost_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Cursed_Hallow/Card_Arcade_Warband_Cursed_Hallow_Vengeful_Compost_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Cursed_Hallow/Vengeful_Compost.xhtml', 
+'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Cursed_Hollow/Card_Arcade_Warband_Cursed_Hollow_Vengeful_Compost_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Cursed_Hollow/Card_Arcade_Warband_Cursed_Hollow_Vengeful_Compost_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Cursed_Hollow/Vengeful_Compost.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Default', 
 'Those sprouts who become corrupted by the Glauerdoom Moor and the Rotten Cabbages who dwell there acquire certain tastes. The land is not fertile enough to support the rapid and grotesque growth that the plant undergoes, so it develops twisted,, lashing vines that are used to draw victims to it in order to feed on their blood. This thirst cannot be quenched, and the more the more it drinks, the more it grows...');
 insert into Characters (CardIndex) VALUES (cXXX);
@@ -1131,7 +1120,7 @@ VALUES (chXXX, 0, -1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1); --Citrine
 --GangMemberIndex gXXX
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex);
-VALUES (arXXX, 0, 'Fire Flow Hollow', 'Spawning Point', '', 0, 4, 1, eXXX);
+VALUES (arXXX, 0, 'Fire Flow Hollow', 'Paired Spawning Point', '', 0, 4, 1, eXXX);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, kXXX); --Fire
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, kXXX); --Fire Aura
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, kXXX); --Immune: Status Effects
@@ -1162,7 +1151,6 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, kXX
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, kXXX); --Immune: Fire
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, kXXX); --Kindling
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (gXXX, abXXX); --Raging Flame
-
 
 --Spicey Turnips	--CardIndex cXXX	--CharacterIndex chXXX	--ArcadeCharacterIndex arXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Spicey Turnips',
@@ -1317,7 +1305,7 @@ VALUES (chXXX, 0, -1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1); --Citrine
 --GangMemberIndex gXXX
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex);
-VALUES (arXXX, 0, 'Frozen Warrens', 'Spawning Point', '', 0, 4, 1, eXXX);
+VALUES (arXXX, 0, 'Frozen Warrens', 'Paired Spawning Point', '', 0, 4, 1, eXXX);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, kXXX); --Black Ice
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, kXXX); --Immune: Status Effects
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, kXXX); --Spawning Pool
@@ -1537,7 +1525,7 @@ VALUES (chXXX, 0, -1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1); --Citrine
 --GangMemberIndex gXXX
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex);
-VALUES (arXXX, 0, 'Kobold Warrens', 'Spawning Point', '', 0, 3, 1, eXXX);
+VALUES (arXXX, 0, 'Kobold Warrens', 'Paired Spawning Point', '', 0, 3, 1, eXXX);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, kXXX); --Immune: Status Effects
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, kXXX); --Mob
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, kXXX); --Mob Mentality
@@ -1813,7 +1801,6 @@ insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, 
 VALUES (arXXX, 2, 'Hatchlings', 'Bonded Drake', 'Minion', 6, 2, 1, eXXX);
 
 
-
 --Pinching Palace
 --Pinching Palace --CardIndex cXXX --CharacterIndex chXXX --ArcadeCharacterIndex arXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Pinching Palace',
@@ -1875,7 +1862,6 @@ insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, 
 VALUES (arXXX, 1, 'Big Claw', 'Crab', 'Minion', 8, 1, 1, eXXX);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, kXXX); --Grabby
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, kXXX); --Immune: Knockdown
-
 
 
 --Sand Spire
@@ -2218,7 +2204,7 @@ VALUES (chXXX, 0, -1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1); --Citrine
 --GangMemberIndex gXXX
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex);
-VALUES (arXXX, 0, 'Shadow Warren', 'Spawning Point', '', 0, 3, 1, eXXX);
+VALUES (arXXX, 0, 'Shadow Warren', 'Paired Spawning Point', '', 0, 3, 1, eXXX);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, kXXX); --Immune: Status Effects
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, kXXX); --Spawning Pool
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, kXXX); --Stealth
@@ -2315,7 +2301,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, kXX
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (gXXX, abXXX); --Azogar
 --GangMemberIndex gXXX
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex);
-VALUES (arXXX, 1, 'Undead Legionnaire', 'Bonded Dark Legion', '', 2, 1, 0, eXXX);
+VALUES (arXXX, 1, 'Undead Legionnaire', 'Bonded Dark Legion', 'Minion', 2, 1, 0, eXXX);
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (gXXX, abXXX); --Hail of Fire
 
 --Necromutant 	--CardIndex cXXX	--CharacterIndex chXXX	--ArcadeCharacterIndex arXXX
@@ -2418,7 +2404,6 @@ VALUES (arXXX, 0, 'Spawn of Servitude', 'Spawning Point', '', 0, 3, 1, eXXX);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, kXXX); --Immune: Status Effects
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, kXXX); --SHAME!
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, kXXX); --Spawning Pool
-
 
 --Night Shift, The 	--CardIndex cXXX	--CharacterIndex chXXX	--ArcadeCharacterIndex arXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Night Shift, The',
@@ -2557,7 +2542,6 @@ VALUES (arXXX, 0, 'Watch Tower', 'Spawning Point', '', 0, 3, 1, eXXX);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, kXXX); --Immune: Status Effects
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, kXXX); --Resolve Aura
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, kXXX); --Spawning Pool
-
 
 --Crown Guard Longbowmen 	--CardIndex cXXX	--CharacterIndex chXXX	--ArcadeCharacterIndex arXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Crown Guard Longbowmen',

@@ -18,7 +18,7 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (183
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (183, 'Neither', 'Small', 'Spawning Point', 0, 0, '', '1ST', '', '', 3, 0);
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (183, 2); --Armor
-insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (183, '', 'Start', 0);
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (183, 'Spawning Point', 'Start', 0);
 
 --Billmen --CardIndex 269 --CharacterIndex 184 --ExploreCharacterIndex 184
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
@@ -98,7 +98,7 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (187
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (187, 'Neither', 'Small', 'Spawning Point', 0, 0, '', '1ST', '', '', 4, 0);
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (187, 2); --Armor
-insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (187, '', 'Start', 0);
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (187, 'Spawning Point', 'Start', 0);
 
 --Black Claw Assassin --CardIndex 273 --CharacterIndex 188 --ExploreCharacterIndex 188
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
@@ -183,7 +183,7 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (191
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (191, 'Neither', 'Small', 'Spawning Point', 0, 0, '', '1ST', '', '', 3, 0);
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (191, 2); --Armor
-insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (191, '', 'Start', 0);
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (191, 'Spawning Point', 'Start', 0);
 
 --Hatchlings --CardIndex 277 --CharacterIndex 192 --ExploreCharacterIndex 192
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
@@ -267,7 +267,7 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (195
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (195, 'Neither', 'Small', 'Spawning Point', 0, 0, '', '1ST', '', '', 4, 0);
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (195, 2); --Armor
-insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (195, '', 'Start', 0);
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (195, 'Spawning Point', 'Start', 0);
 
 --Chunin --CardIndex 281 --CharacterIndex 196 --ExploreCharacterIndex 196
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
@@ -393,7 +393,7 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (201
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (201, 'Neither', 'Small', 'Spawning Point', 0, 0, '', '1ST', '', '', 3, 0);
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (201, 2); --Armor
-insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (201, '', 'Start', 0);
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (201, 'Spawning Point', 'Start', 0);
 
 --Kinoshroom --CardIndex 287 --CharacterIndex 202 --ExploreCharacterIndex 202
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
@@ -476,7 +476,7 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (205
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (205, 'Neither', 'Small', 'Spawning Point', 0, 0, '', '1ST', '', '', 4, 0);
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (205, 2); --Armor
-insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (205, '', 'Start', 0);
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (205, 'Spawning Point', 'Start', 0);
 
 --Prowler --CardIndex 291 --CharacterIndex 206 --ExploreCharacterIndex 206
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
@@ -582,7 +582,7 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (210
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (210, 'Neither', 'Small', 'Spawning Point', 0, 0, '', '1ST', '', '', 4, 0);
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (210, 2); --Armor
-insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (210, '', 'Start', 0);
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (210, 'Spawning Point', 'Start', 0);
 
 --Dragon Priest --CardIndex 296 --CharacterIndex 211 --ExploreCharacterIndex 211
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
@@ -705,7 +705,7 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (216
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (216, 'Neither', 'Small', 'Spawning Point', 0, 0, '', '1ST', '', '', 3, 0);
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (216, 2); --Armor
-insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (216, '', 'Start', 0);
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (216, 'Spawning Point', 'Start', 0);
 
 --Blaze Beetle --CardIndex 302 --CharacterIndex 217 --ExploreCharacterIndex 217
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
@@ -815,7 +815,7 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (221
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (221, 'Neither', 'Small', 'Spawning Point', 0, 0, '', '1ST', '', '', 4, 0);
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (221, 2); --Armor
-insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (221, '', 'Start', 0);
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (221, 'Spawning Point', 'Start', 0);
 
 --King Sprout --CardIndex 307 --CharacterIndex 222 --ExploreCharacterIndex 222
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
@@ -946,7 +946,7 @@ insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender
 VALUES (227, 'Neither', 'Small', 'Spawning Point', 0, 0, '', '1ST', '', '', 3, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (227, 1, 2); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (227, 2); --Armor
-insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (227, '', 'Start', 0);
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (227, 'Spawning Point', 'Start', 0);
 
 --Crypt Spider --CardIndex 313 --CharacterIndex 228 --ExploreCharacterIndex 228
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
@@ -1033,7 +1033,7 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (231
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (231, 'Neither', 'Small', 'Spawning Point', 0, 0, '', '1ST', '', '', 4, 0);
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (231, 2); --Armor
-insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (231, '', 'Start', 0);
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (231, 'Spawning Point', 'Start', 0);
 
 --Bombardier --CardIndex 317 --CharacterIndex 232 --ExploreCharacterIndex 232
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
@@ -1222,7 +1222,7 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (240
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (240, 'Neither', 'Small', 'Spawning Point', 0, 0, '', '1ST', '', '', 3, 0);
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (240, 2); --Armor
-insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (240, '', 'Start', 0);
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (240, 'Spawning Point', 'Start', 0);
 
 --Mist Hound --CardIndex 326 --CharacterIndex 241 --ExploreCharacterIndex 241
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
@@ -1285,7 +1285,7 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (243
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (243, 'Neither', 'Small', 'Spawning Point', 0, 0, '', '1ST', '', '', 4, 0);
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (243, 2); --Armor
-insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (243, '', 'Start', 0);
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (243, 'Spawning Point', 'Start', 0);
 
 --Bone Head --CardIndex 329 --CharacterIndex 244 --ExploreCharacterIndex 244
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
@@ -1389,7 +1389,7 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (248
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (248, 'Neither', 'Small', 'Spawning Point', 0, 0, '', '1ST', '', '', 3, 0);
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (248, 2); --Armor
-insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (248, '', 'Start', 0);
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (248, 'Spawning Point', 'Start', 0);
 
 --Ghostfire Warrior --CardIndex 334 --CharacterIndex 249 --ExploreCharacterIndex 249
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (

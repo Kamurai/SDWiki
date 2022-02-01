@@ -187,7 +187,7 @@ VALUES (306, 0, -1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (306, 3); --Ruby
 --GangMemberIndex 60
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (60, 0, 'Elemental Shrine', 'Spawning Point', '', 0, 0, 3, 187);
+VALUES (60, 0, 'Elemental Shrine', 'Paired Spawning Point', '', 0, 0, 3, 187);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (60, 268); --Immune: Status Effects
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (60, 214); --Elemental Affinity
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (60, 347); --Stealth
@@ -356,7 +356,7 @@ VALUES (313, 0, -1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (313, 4); --Sapphire
 --GangMemberIndex 74
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (74, 0, 'Grabby House', 'Spawning Point', '', 0, 3, 1, 201);
+VALUES (74, 0, 'Grabby House', 'Paired Spawning Point', '', 0, 3, 1, 201);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (74, 268); --Immune: Status Effects
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (74, 240); --Grabby Hands
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (74, 382); --Spawning Pool
@@ -422,7 +422,7 @@ VALUES (316, 0, -1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (316, 1); --Citrine
 --GangMemberIndex 79
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (79, 0, 'Kobold Warrens', 'Spawning Point', '', 0, 4, 1, 206);
+VALUES (79, 0, 'Kobold Warrens', 'Paired Spawning Point', '', 0, 4, 1, 206);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (79, 268); --Immune: Status Effects
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (79, 292); --Mob Mentality
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (79, 384); --Spawning Pool
@@ -613,7 +613,7 @@ VALUES (324, 0, -1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (324, 1); --Citrine
 --GangMemberIndex 94
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (94, 0, 'Old Growth Hollow', 'Spawning Point', '', 0, 4, 1, 218);
+VALUES (94, 0, 'Old Growth Hollow', 'Paired Spawning Point', '', 0, 4, 1, 218);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (94, 268); --Immune: Status Effects
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (94, 301); --Poison Aura
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (94, 388); --Spawning Pool
@@ -786,7 +786,7 @@ VALUES (332, 0, -1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (332, 4); --Sapphire
 --GangMemberIndex 107
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (107, 0, 'Rock Pile', 'Spawning Point', '', 0, 3, 1, 228);
+VALUES (107, 0, 'Rock Pile', 'Paired Spawning Point', '', 0, 3, 1, 228);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (107, 268); --Immune: Status Effects
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (107, 317); --Rock Aura
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (107, 392); --Spawning Pool
@@ -967,7 +967,7 @@ VALUES (340, 0, -1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (340, 3); --Ruby
 --GangMemberIndex 121
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (121, 0, 'Shallow Grave', 'Spawning Point', '', 0, 3, 1, 240);
+VALUES (121, 0, 'Shallow Grave', 'Paired Spawning Point', '', 0, 3, 1, 240);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (121, 268); --Immune: Status Effects
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (121, 182); --Bane Aura
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (121, 396); --Spawning Pool
