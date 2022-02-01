@@ -3,6 +3,7 @@
 create view ArcadeGangsViewMultiLine as 
 select a.CardIndex, b.CharacterIndex, e.ArcadeCharacterIndex, --Indexes
 a.Name as CardName, PictureFront, PictureBack, Link, CardType, ProductSet, a.ProductModule, a.PlayMode, Flavor, --Cards
+n.StandieFront, n.StandieBack, --Characters
 AffinityType, --Affinity
 f.StatAction as SoloActions, f.StatStrength as SoloStrength, f.StatRange as SoloRange, --Solo Stat lines
 g.StatAction as GangActions, g.StatStrength as GangStrength, g.StatRange as GangRange, --Gang Stat lines
@@ -26,5 +27,6 @@ full join AbilityAssignments k on h.GangMemberIndex=k.GangMemberIndex
 full join Abilities l on k.AbilityIndex=l.AbilityIndex
 full join Attributes v on l.AttributeIndex=v.AttributeIndex
 join ExploreCharacters m on h.ExploreCharacterIndex = m.ExploreCharacterIndex
-where a.CardType = 'Warband'
+join Characters n on m.CharacterIndex = n.CharacterIndex
+where g.StatAction IS NOT NULL AND g.StatStrength IS NOT NULL AND g.StatRange IS NOT NULL
 ;

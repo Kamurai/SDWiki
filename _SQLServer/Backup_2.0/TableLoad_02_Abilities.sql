@@ -15,6 +15,7 @@
 
 /*Army of Bone														--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Army of Bone', 'Action', 'Support', 0, -1, -1, 'Wave 3, Raise');
 
+/*Arrow Storm														--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Arrow Storm', 'Action', 'Offense', 0, 1, -1, '4MI, Wave 4');
 /*Arrow Storm														--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Arrow Storm', 'Action', 'Offense', 0, 1, 6, 'RANGE6, Burst 2, +1ST STR');
 
 /*Avalanche of Blades												--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Default', 'Avalanche of Blades', 'Action', 'Offense', 2, 1, 1, '1SW, Wave 1, IMMOBILE');
@@ -23,6 +24,9 @@
 
 /*Bag of Crows														--Index kXXX*/ 	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Bag of Crows', 'Action', 'Support', 0, -1, -1, 'If there are less than 4 Underdead Crows in play, Spawn Underdead Crows within 4 squares of this model until there are 4 in play.');
 /*Bane of Death														--Index kXXX*/ 	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Bane of Death', 'Action', 'Support', 0, -1, -1, 'AUGMENT, Aura 2, All Undead gain BANE.');
+
+/*Batters Up!														--Index kXXX*/ 	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Explore', 'Batters Up!', 'Action', 'Offense', 1, 1, 4, '4SW, Compel 6.  If the target ends the Compel within Melee range of Ugg, Ugg may immediately make a basic offensive action against the target without spending an aciton point.  Ugg''s attack gains Massive Damage.');
+/*Batters Up!														--Index kXXX*/ 	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Batters Up!', 'Action', 'Offense', 0, 1, 10, 'Push 6.  If the target ends the Push within Melee range of Ugg, Ugg immediately performs the Stomp And Bash action against the target.');
 
 /*Beastial Healing													--Index kXXX*/ 	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Default', 'Beastial Healing', 'Action', 'Support', 1, 3, 0, 'AUGMENT, Roll this Hero''s WILL and Heal 1 for each star rolled.');
 
@@ -36,6 +40,9 @@
 /*Blind Obedience													--Index kXXX*/ 	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Explore', 'Blind Obedience', 'Action', 'Offense', 2, 3, 6, '6MA, if this attack inflicts a wound, the target spends 1AC, controlled by the Consul, for each status effect on it.');
 /*Blind Obedience													--Index kXXX*/ 	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Blind Obedience', 'Action', 'Offense', 0, 1, 6, 'AUGMENT.  If this attack inflicts a wound, the target must immediately make one basic attack action for each status effect on it targeting the closest other Hero.');
 /*Blood Frenzy														--Index kXXX*/ 	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Blood Frenzy', 'Action', 'Support', 0, -1, -1, 'AUGMENT, all other Ijin gangs on this tile gain Massive Damage to all of their attaccks this turn.');
+
+/*Blood Is Up, Brother, The											--Index kXXX*/ 	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Explore', 'Blood Is Up, Brother, The', 'Action', 'Support', 1, -1, -1, 'AUGMENT, Aura 4, +1R to offensive actions.');
+/*Blood Is Up, Brother, The											--Index kXXX*/ 	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Blood Is Up, Brother, The', 'Action', 'Support', 0, -1, -1, 'AUGMENT, Aura 4, +1ST STR.');
 
 /*Blood-Red Lip Balm												--Index kXXX*/ 	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Default', 'Blood-Red Lip Balm', 'Action', 'Emergency', 0, -1, -1, 'AUGMENT, +1B ARM');
 
@@ -245,6 +252,8 @@
 /*Frozen Detonation													--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Frozen Detonation', 'Action', 'Offense', 0, 1, 3, 'Burst 1, ICE');
 /*Frozen Heart														--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Frozen Heart', 'Action', 'Offense', 0, 1, 3, 'ICE');
 
+/*Furious Charge													--Index abXXX*/ insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Explore', 'Furious Charge', 'Action', 'Offense', 2, 1, -1, '0SW, Lance 4, Charge, KNOCKDOWN.  If Ugg ends this action within 4 of Mugg, Mugg may take the Shot Storm action without spending action points.');
+
 /*Furious Firebloom													--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Default', 'Furious Firebloom', 'Potion', 'Support', 1, 3, 4, 'DANGEROUS, 4MA, Burst 1');
 
 
@@ -371,7 +380,6 @@
 /*Mountain Sees, The												--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Explore', 'Mountain Sees, The', 'Action', 'Offense', 1, 3, -1, '0MA, Wave 1, ICE');
 /*Mountain Sees, The												--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Mountain Sees, The', 'Action', 'Offense', 0, 1, -1, 'Wave 3, ICE');
 
-
 /*My Champion														--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Explore', 'My Champion', 'Action', 'Support', 1, -1, 6, 'If Daemonus is not in play, spawn Daemonus within six squares.');
 /*My Champion														--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'My Champion', 'Action', 'Support', 0, -1, -1, 'If Daemonus is not in play, spawn Daemonus adjacent to the Hero with the least wrath.');
 
@@ -469,6 +477,11 @@
 /*Shield Breaker													--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Shield Breaker', 'Action', 'Offense', 0, 1, 3, 'BANE');
 /*Shield Wall														--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Shield Wall', 'Action', 'Support', 0, -1, -1, 'AUGMENT, Aura 2, +1ST ARM');
 
+/*Shoots 'em In The Air!!!											--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Explore', 'Shoots ''em In The Air!!!', 'Action', 'Offense', 1, 1, 4, '4SW, Compel 6.  If the target ends the Compel within Missile range of Mugg, Mugg may immediately make two basic offensive actions against the target without spending any action points.');
+/*Shoots 'em In The Air!!!											--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Shoots ''em In The Air!!!', 'Action', 'Offense', 0, 1, 4, 'Push 6.  If the target ends the Push within range of Mugg, the target gains all the Wrath and Mugg immediately performs the Fight command.');
+
+/*Shot Storm														--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Explore', 'Shot Storm', 'Action', 'Offense', 2, 4, -1, '0MI, Wave 4, Improved Critical');
+
 /*Show of Strength													--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Explore', 'Show of Strength', 'Action', 'Support', 1, 1, -1, 'Wave 2, STR vs WILL, Compel 1');
 /*Show of Strength													--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Show of Strength', 'Action', 'Support', 0, 1, -1, 'Wave 1, STR vs WILL, Push 1');
 
@@ -520,8 +533,9 @@
 /*Stoke the Bellows													--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Stoke the Bellows', 'Action', 'Support', 0, -1, -1, 'All Heroes suffering FIRE suffer 1 wound.');
 /*Stoke the Blaze													--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Explore', 'Stoke the Blaze', 'Action', 'Support', 1, 1, -1, 'DANGEROUS, Wave 4, STR vs DEX FIRE');
 
-/*Storm of Arrows													--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Storm of Arrows', 'Action', 'Support', 0, -1, -1, 'This monster immediately performs the attack command.');
+/*Stop And Bash														--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Stop And Bash', 'Action', 'Offense', 0, 1, 4, '+2ST STR, Massive Damage');
 
+/*Storm of Arrows													--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Storm of Arrows', 'Action', 'Support', 0, -1, -1, 'This monster immediately performs the attack command.');
 
 /*Strength In Decay													--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Strength In Decay', 'Action', 'Support', 0, -1, 1, 'AUGMENT, Death Lord');
 
@@ -616,6 +630,8 @@
 /*Yamazaru's Tail													--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Yamazaru''s Tail', 'Action', 'Offense', 0, 1, -1, 'Wave 3, KNOCKDOWN');
 /*You Can't Run														--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'You Can''t Run', 'Action', 'Offense', 0, 1, 6, 'IMMOBILE');
 
+/*You're Bleeding, Brother!											--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Explore', 'You''re Bleeding, Brother!', 'Action', 'Support', 1, -1, 4, 'AUGMENT, 4RANGE.  Heal 2 on Mugg.  This action may only be taken once per turn.');
+/*You're Bleeding, Brother!											--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'You''re Bleeding, Brother!', 'Action', 'Support', 0, -1, -1, 'AUGMENT, Mugg Heals 2 if he is in play.');
 
 
 

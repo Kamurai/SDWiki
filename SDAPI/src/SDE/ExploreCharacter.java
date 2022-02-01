@@ -5,6 +5,8 @@ import java.util.ArrayList;
 
 public class ExploreCharacter extends Character implements KeywordInterface, AbilityInterface {
     
+    private String              standieFront;
+    private String              standieBack;
     private String              gender;
     private String              modelSize;
     private String              creatureType;
@@ -23,6 +25,8 @@ public class ExploreCharacter extends Character implements KeywordInterface, Abi
     
     public ExploreCharacter(){
         super();
+        this.standieFront   = "";
+        this.standieBack    = "";
         this.gender         = "";
         this.modelSize      = "";
         this.creatureType   = "";
