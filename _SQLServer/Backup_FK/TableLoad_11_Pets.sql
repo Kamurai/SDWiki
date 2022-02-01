@@ -6,14 +6,15 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Pets/Admiral_Fuzzybottom.xhtml', 
 'Pet', 'FK', 'FK Core Set', 'Default', 
 'Who''s a good kitty?');
-insert into Characters (CardIndex) VALUES (215,
-'http://htkb.info/SDE/FK/Cards/Pets/Standies/Admiral_Fuzzybottom_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Pets/Standies/Admiral_Fuzzybottom_FK_back.png');
+insert into Characters (CardIndex) VALUES (215;
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (130, 337); --Small
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (130, 283); --Master Gains Happy Cat
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (130, 366); --Happy Cat
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (130, 'Either', 'Small', 'Wonder', 7, 1, '3B', '2ST', '', '', 0, 0);
+VALUES (130,
+'http://htkb.info/SDE/FK/Cards/Pets/Standies/Admiral_Fuzzybottom_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Pets/Standies/Admiral_Fuzzybottom_FK_back.png'),
+'Either', 'Small', 'Wonder', 7, 1, '3B', '2ST', '', '', 0, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (130, 1, 1);
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (130, 2);
 insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (130, '', -1);
@@ -25,13 +26,14 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Pets/Colonel_The.xhtml', 
 'Pet', 'FK', 'FK Core Set', 'Default', 
 'I didn''t get a harumph out of that guy.');
-insert into Characters (CardIndex) VALUES (216,
-'http://htkb.info/SDE/FK/Cards/Pets/Standies/Colonel_The_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Pets/Standies/Colonel_The_FK_back.png');
+insert into Characters (CardIndex) VALUES (216);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (131, 337); --Small
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (131, 618); --Tactical Strike
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (131, 'Either', 'Small', 'Wonder', 6, 1, '2R', '3B', '', '', 0, 0);
+VALUES (131,
+'http://htkb.info/SDE/FK/Cards/Pets/Standies/Colonel_The_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Pets/Standies/Colonel_The_FK_back.png',
+'Either', 'Small', 'Wonder', 6, 1, '2R', '3B', '', '', 0, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (131, 1, 1);
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (131, 2);
 insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (131, '', -1);
@@ -43,14 +45,15 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Pets/Lord_Gruff.xhtml', 
 'Pet', 'FK', 'FK Core Set', 'Default', 
 'Harumph.');
-insert into Characters (CardIndex) VALUES (217,
-'http://htkb.info/SDE/FK/Cards/Pets/Standies/Lord_Gruff_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Pets/Standies/Lord_Gruff_FK_back.png');
+insert into Characters (CardIndex) VALUES (217);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (132, 337); --Small
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (132, 284); --Master Gains Knockdown
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (132, 364); --Grump
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (132, 'Masculine', 'Small', 'Wonder', 6, 1, '3B', '3ST', '', '', 0, 0);
+VALUES (132,
+'http://htkb.info/SDE/FK/Cards/Pets/Standies/Lord_Gruff_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Pets/Standies/Lord_Gruff_FK_back.png',
+'Masculine', 'Small', 'Wonder', 6, 1, '3B', '3ST', '', '', 0, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (132, 1, 1);
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (132, 2);
 insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (132, '', -1);
@@ -62,14 +65,15 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Pets/Madam_Hilde.xhtml', 
 'Pet', 'FK', 'FK Core Set', 'Default', 
 'My ears!');
-insert into Characters (CardIndex) VALUES (218,
-'http://htkb.info/SDE/FK/Cards/Pets/Standies/Madam_Hilde_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Pets/Standies/Madam_Hilde_FK_back.png');
+insert into Characters (CardIndex) VALUES (218);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (133, 337); --Small
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (133, 285); --Master Gains Soprano
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (133, 575); --Soprano
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (133, 'Feminine', 'Small', 'Wonder', 6, 1, '1B1R', '3ST', '', '', 0, 0);
+VALUES (133,
+'http://htkb.info/SDE/FK/Cards/Pets/Standies/Madam_Hilde_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Pets/Standies/Madam_Hilde_FK_back.png',
+'Feminine', 'Small', 'Wonder', 6, 1, '1B1R', '3ST', '', '', 0, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (133, 1, 1);
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (133, 2);
 insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (133, '', -1);
@@ -81,14 +85,15 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Pets/Miss_G_Snorts.xhtml', 
 'Pet', 'FK', 'FK Core Set', 'Default', 
 'Stinktashtic!');
-insert into Characters (CardIndex) VALUES (219,
-'http://htkb.info/SDE/FK/Cards/Pets/Standies/Miss_G_Snorts_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Pets/Standies/Miss_G_Snorts_FK_back.png');
+insert into Characters (CardIndex) VALUES (219);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (134, 337); --Small
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (134, 286); --Master Gains Poison
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (134, 599); --Stink Beard Bark
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (134, 'Feminine', 'Small', 'Wonder', 6, 1, '3B', '2ST', '', '', 0, 0);
+VALUES (134,
+'http://htkb.info/SDE/FK/Cards/Pets/Standies/Miss_G_Snorts_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Pets/Standies/Miss_G_Snorts_FK_back.png',
+'Feminine', 'Small', 'Wonder', 6, 1, '3B', '2ST', '', '', 0, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (134, 1, 1);
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (134, 2);
 insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (134, '', -1);
@@ -100,14 +105,15 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Pets/Mr_Chompers.xhtml', 
 'Pet', 'FK', 'FK Core Set', 'Default', 
 'Poof.');
-insert into Characters (CardIndex) VALUES (220,
-'http://htkb.info/SDE/FK/Cards/Pets/Standies/Mr_Chompers_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Pets/Standies/Mr_Chompers_FK_back.png');
+insert into Characters (CardIndex) VALUES (220);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (135, 337); --Small
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (135, 287); --Master Gains Fire
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (135, 489); --Poof
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (135, 'Masculine', 'Small', 'Wonder', 6, 1, '2R', '2ST', '', '', 0, 0);
+VALUES (135,
+'http://htkb.info/SDE/FK/Cards/Pets/Standies/Mr_Chompers_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Pets/Standies/Mr_Chompers_FK_back.png',
+'Masculine', 'Small', 'Wonder', 6, 1, '2R', '2ST', '', '', 0, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (135, 1, 1);
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (135, 2);
 insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (135, '', -1);
@@ -119,14 +125,15 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Pets/Mr_Bitey.xhtml', 
 'Pet', 'FK', 'FK Core Set', 'Default', 
 'Ouch!  He bit me!');
-insert into Characters (CardIndex) VALUES (221,
-'http://htkb.info/SDE/FK/Cards/Pets/Standies/Mr_Bitey_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Pets/Standies/Mr_Bitey_FK_back.png');
+insert into Characters (CardIndex) VALUES (221);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (136, 337); --Small
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (136, 288); --Master Gains Berserk
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (136, 531); --Rotten Carrot
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (136, 'Masculine', 'Small', 'Wonder', 6, 2, '2R', '2ST', '', '', 0, 0);
+VALUES (136,
+'http://htkb.info/SDE/FK/Cards/Pets/Standies/Mr_Bitey_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Pets/Standies/Mr_Bitey_FK_back.png',
+'Masculine', 'Small', 'Wonder', 6, 2, '2R', '2ST', '', '', 0, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (136, 1, 1);
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (136, 2);
 insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (136, '', -1);
@@ -138,14 +145,15 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Pets/Never_Lost_Cola.xhtml', 
 'Pet', 'FK', 'FK Core Set', 'Default', 
 'I''m positive it''s that way.');
-insert into Characters (CardIndex) VALUES (222,
-'http://htkb.info/SDE/FK/Cards/Pets/Standies/Never_Lost_Cola_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Pets/Standies/Never_Lost_Cola_FK_back.png');
+insert into Characters (CardIndex) VALUES (222);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (137, 337); --Small
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (137, 289); --Master Gains Luck
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (137, 531); --Rotten Carrot
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (137, 'Masculine', 'Small', 'Wonder', 6, 2, '2R', '2ST', '', '', 0, 0);
+VALUES (137,
+'http://htkb.info/SDE/FK/Cards/Pets/Standies/Never_Lost_Cola_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Pets/Standies/Never_Lost_Cola_FK_back.png',
+'Masculine', 'Small', 'Wonder', 6, 2, '2R', '2ST', '', '', 0, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (137, 1, 1);
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (137, 2);
 insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (137, '', -1);
