@@ -99,7 +99,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Kisa is every bit at home in the world of Super Dungeon Explore as she is in the Last Galaxy.  Steeped in arcane lore and magical might, Kisa blasts and curses the dungeon''s monsters with glee and style.');
 insert into Characters (CardIndex, StandieFront, StandieBack) VALUES (5, 
 'http://htkb.info/SDE/1.0/Cards/Heroes/Standies/Codifier_Kisa_1.0.png', 
-'http://htkb.info/SDE/1.0/Cards/Heroes/Standies/Codifier_Kisa_1.0_back.png',);
+'http://htkb.info/SDE/1.0/Cards/Heroes/Standies/Codifier_Kisa_1.0_back.png');
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (5, 76); --Luck
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (5, 79); --Magic 8
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (5, 135); --Surefoot
