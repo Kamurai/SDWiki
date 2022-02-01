@@ -28,5 +28,5 @@ full join Abilities l on k.AbilityIndex=l.AbilityIndex
 full join Attributes v on l.AttributeIndex=v.AttributeIndex
 join ExploreCharacters m on h.ExploreCharacterIndex = m.ExploreCharacterIndex
 join Characters n on m.CharacterIndex = n.CharacterIndex
-where a.CardType = 'Arcade Solo'
+where g.StatAction IS NULL AND g.StatStrength IS NULL AND g.StatRange IS NULL
 ;

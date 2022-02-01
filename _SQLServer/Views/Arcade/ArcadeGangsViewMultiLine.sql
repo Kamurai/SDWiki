@@ -28,5 +28,5 @@ full join Abilities l on k.AbilityIndex=l.AbilityIndex
 full join Attributes v on l.AttributeIndex=v.AttributeIndex
 join ExploreCharacters m on h.ExploreCharacterIndex = m.ExploreCharacterIndex
 join Characters n on m.CharacterIndex = n.CharacterIndex
-where a.CardType = 'Warband'
+where g.StatAction IS NOT NULL AND g.StatStrength IS NOT NULL AND g.StatRange IS NOT NULL
 ;

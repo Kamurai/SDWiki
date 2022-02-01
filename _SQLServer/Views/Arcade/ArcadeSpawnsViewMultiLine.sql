@@ -7,7 +7,7 @@ n.StandieFront, n.StandieBack, --Characters
 AffinityType, --Affinity
 f.StatAction as SoloActions, f.StatStrength as SoloStrength, f.StatRange as SoloRange, --Solo Stat lines
 g.StatAction as GangActions, g.StatStrength as GangStrength, g.StatRange as GangRange, --Gang Stat lines
-h.GangMemberIndex, MemberOrder, h.Name as GangMemberName, h.CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor,--GangMembers
+h.GangMemberIndex, MemberOrder, h.Name as GangMemberName, h.CreatureType, h.RankType, MemberMovement, MemberHealth, MemberArmor,--GangMembers
 j.KeywordIndex, j.Name as KeywordName, KeywordDescription, --Keywords
 l.AbilityIndex, l.Name as AbilityName, AbilityResource, AbilityType, AbilityCost, --Abilities
 v.Attribute as AbilityAttribute, --Attributes
@@ -28,5 +28,5 @@ full join Abilities l on k.AbilityIndex=l.AbilityIndex
 full join Attributes v on l.AttributeIndex=v.AttributeIndex
 join ExploreCharacters m on h.ExploreCharacterIndex = m.ExploreCharacterIndex
 join Characters n on m.CharacterIndex = n.CharacterIndex
-where a.CardType = 'Spawning Point'
+where h.RankType = 'Spawning Point'
 ;

@@ -1,5 +1,5 @@
 --drop view ExploreDenizensViewMultiLine
---Elites
+--Denizens
 create view ExploreDenizensViewMultiLine as 
 select a.CardIndex, b.CharacterIndex, c.ExploreCharacterIndex, --Indexes
 a.Name as CardName, PictureFront, PictureBack, Link, CardType, ProductSet, a.ProductModule, a.PlayMode, Flavor, --Cards
@@ -28,5 +28,5 @@ full join Attributes k on j.AttributeIndex=k.AttributeIndex
 full join DefenseAssignments l on c.ExploreCharacterIndex=l.ExploreCharacterIndex
 full join Attributes m on l.AttributeIndex=m.AttributeIndex
 full join Monsters n on c.ExploreCharacterIndex=n.ExploreCharacterIndex
-where a.CardType = 'Denizen'
+where n.RankType = 'Denizen'
 ;
