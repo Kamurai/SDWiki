@@ -3,7 +3,7 @@
 create view ExploreElitesViewMultiLine as 
 select a.CardIndex, b.CharacterIndex, c.ExploreCharacterIndex, --Indexes
 a.Name as CardName, PictureFront, PictureBack, Link, CardType, ProductSet, a.ProductModule, a.PlayMode, Flavor, --Cards
-b.StandieFront, b.StandieBack, --Characters
+c.StandieFront, c.StandieBack, --Characters
 Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions, --ExploreCharacter
 AffinityType, --Affinity
 g.KeywordIndex, g.Name as KeywordName, KeywordDescription, --Keywords
@@ -28,5 +28,5 @@ full join Attributes k on j.AttributeIndex=k.AttributeIndex
 full join DefenseAssignments l on c.ExploreCharacterIndex=l.ExploreCharacterIndex
 full join Attributes m on l.AttributeIndex=m.AttributeIndex
 full join Monsters n on c.ExploreCharacterIndex=n.ExploreCharacterIndex
-where n.RankType = 'Elite'
+where a.CardType = 'Elite'
 ;

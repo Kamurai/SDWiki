@@ -3,7 +3,7 @@
 create view ExploreCreepsViewMultiLine as 
 select a.CardIndex, b.CharacterIndex, c.ExploreCharacterIndex, --Indexes
 a.Name as CardName, PictureFront, PictureBack, Link, CardType, ProductSet, a.ProductModule, a.PlayMode, Flavor, --Cards
-b.StandieFront, b.StandieBack, --Characters
+c.StandieFront, c.StandieBack, --Characters
 Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions, --ExploreCharacter
 AffinityType, --Affinity
 g.KeywordIndex, g.Name as KeywordName, KeywordDescription, --Keywords
