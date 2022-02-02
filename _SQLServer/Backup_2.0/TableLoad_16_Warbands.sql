@@ -12,7 +12,7 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 2
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (chXXX,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Arcadian_Spider_Nest/Standies/Arcadian_Spider_Nest_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Arcadian_Spider_Nest/Standies/Arcadian_Spider_Nest_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Arcadian_Spider_Nest/Standies/Arcadian_Spider_Nest_2.0_back.png', 
 'Neither', 'Small', 'Spawning Point', 0, 0, '', '1st', '', '', 3, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Immune: Status Effects
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Webs
@@ -33,7 +33,7 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 3
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (eXXX,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Arcadian_Spider_Nest/Standies/Duskweaver_Acolyte_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Arcadian_Spider_Nest/Standies/Duskweaver_Acolyte_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Arcadian_Spider_Nest/Standies/Duskweaver_Acolyte_2.0_back.png', 
 'Either', 'Small', 'Nether Elf Witch', 8, 3, '1B', '3B', '2R', '3B', 3, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Poison
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Immune: Poison
@@ -58,7 +58,7 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 2
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (cXXX,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Arcadian_Spider_Nest/Standies/Leaping_Spider_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Arcadian_Spider_Nest/Standies/Leaping_Spider_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Arcadian_Spider_Nest/Standies/Leaping_Spider_2.0_back.png', 
 'Either', 'Small', 'Spider', 6, 1, '2B 1R', '1st', '3B', '3B', 1, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Immune: Poison
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Mob
@@ -80,7 +80,7 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 2
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (chXXX,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Arcadian_Spider_Nest/Standies/Trapdoor_Spider_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Arcadian_Spider_Nest/Standies/Trapdoor_Spider_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Arcadian_Spider_Nest/Standies/Trapdoor_Spider_2.0_back.png', 
 'Either', 'Small', 'Spider', 8, 1, '2B', '0ST', '1B', '3B', 1, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Immune: Poison
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Mob
@@ -105,7 +105,7 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (chXXX,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Bandit_Knight/Standies/Bandit Knight_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Bandit_Knight/Standies/Bandit Knight_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Bandit_Knight/Standies/Bandit Knight_2.0_back.png', 
 'Neither', 'Small', 'Spawning Point', 0, 0, '', '1st', '', '', 3, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Counterstrike
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Immune: Status Effects
@@ -125,7 +125,7 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (eXXX,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Bandit_Knight/Standies/Billmen_Bandit_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Bandit_Knight/Standies/Billmen_Bandit_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Bandit_Knight/Standies/Billmen_Bandit_2.0_back.png', 
 'Either', 'Small', 'Chimera', 6, 1, '3B', '1ST', '2B', '1B 1R', 1, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Steal
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 1, 2); --Strength
@@ -144,7 +144,7 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (cXXX,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Bandit_Knight/Standies/Grobbit_Barbarian_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Bandit_Knight/Standies/Grobbit_Barbarian_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Bandit_Knight/Standies/Grobbit_Barbarian_2.0_back.png', 
 'Either', 'Large', 'Chimera', 6, 3, '3B 1R', '2B', '1B', '3B', 4, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Berserk
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Surefoot
@@ -165,7 +165,7 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (chXXX,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Bandit_Knight/Standies/_Marauder_Squawk_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Bandit_Knight/Standies/_Marauder_Squawk_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Bandit_Knight/Standies/_Marauder_Squawk_2.0_back.png', 
 'Either', 'Small', 'Chimera', 8, 2, '2B 1R', '1ST', '2B', '3B', 2, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Pounce
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Surefoot
@@ -189,7 +189,7 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 0
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (cXXX,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Ijin/Standies/Clan_Ijin_Madoushi_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Ijin/Standies/Clan_Ijin_Madoushi_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Ijin/Standies/Clan_Ijin_Madoushi_2.0_back.png', 
 'Masculine', 'Small', 'Ijin Spawning Point', 2, 1, '3B', '1ST', '3B', '1B', 3, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Active Spawn
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Improved Critical
@@ -212,7 +212,7 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 0
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (chXXX,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Ijin/Standies/Clan_Ijin_Kaiken_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Ijin/Standies/Clan_Ijin_Kaiken_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Ijin/Standies/Clan_Ijin_Kaiken_2.0_back.png', 
 'Masculine', 'Small', 'Ijin Riftling', 6, 1, '3B', '1ST', '1B', '3B', 1, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Rampage
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 1, 1); --Strength
@@ -231,7 +231,7 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 0
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (eXXX,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Ijin/Standies/Clan_Ijin_Kunoichi_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Ijin/Standies/Clan_Ijin_Kunoichi_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Ijin/Standies/Clan_Ijin_Kunoichi_2.0_back.png', 
 'Feminine', 'Small', 'Ijin Riftling', 7, 2, '2R', '0ST', '2B', '3B', 2, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Rampage
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Stealth
@@ -255,7 +255,7 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 0
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (chXXX,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Ijin/Standies/Clan_Ijin_Oni_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Ijin/Standies/Clan_Ijin_Oni_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Ijin/Standies/Clan_Ijin_Oni_2.0_back.png', 
 'Either', 'Large', 'Ijin Demon', 5, 2, '2B 1R', '1B 1R', '1B', '3B', 2, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Bodyguard
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Immobile
@@ -277,7 +277,7 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 0
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (chXXX,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Ijin/Standies/Clan_Ijin_Yajiri_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Ijin/Standies/Clan_Ijin_ajiri_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Ijin/Standies/Clan_Ijin_ajiri_2.0_back.png', 
 'Either', 'Small', 'Ijin Riftling', 6, 1, '2B', '0ST', '1B', '3B', 1, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Poison
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Rampage
@@ -299,7 +299,7 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 3
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (cXXX,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Ika/Standies/Clan_Ika_Madoushi_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Ika/Standies/Clan_Ika_Madoushi_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Ika/Standies/Clan_Ika_Madoushi_2.0_back.png', 
 'Masculine', 'Small', 'Ika Spawning Point', 2, 1, '2B', '1ST', '2R', '2B', 3, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Active Spawn
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Killamari
@@ -323,7 +323,7 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 3
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (chXXX,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Ika/Standies/Clan_Ika_Kaiken_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Ika/Standies/Clan_Ika_Kaiken_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Ika/Standies/Clan_Ika_Kaiken_2.0_back.png', 
 'Masculine', 'Small', 'Ika', 6, 1, '3B', '1ST', '2B', '2B', 1, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Salty
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 1, 1); --Strength
@@ -342,7 +342,7 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 3
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (eXXX,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Ika/Standies/Clan_Ika_Kunoichi_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Ika/Standies/Clan_Ika_Kunoichi_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Ika/Standies/Clan_Ika_Kunoichi_2.0_back.png', 
 'Feminine', 'Small', 'Ika', 6, 2, '3B', '1ST', '2B', '2R', 2, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Salty
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Tidal Wave
@@ -363,7 +363,7 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 3
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (chXXX,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Ika/Standies/Clan_Ika_Oni_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Ika/Standies/Clan_Ika_Oni_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Ika/Standies/Clan_Ika_Oni_2.0_back.png', 
 'Either', 'Large', 'Ika Elite', 6, 3, '1B 1G', '1B 1G', '4B', '2B', 3, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Hex
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Massive Damage
@@ -387,7 +387,7 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 3
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (chXXX,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Ika/Standies/Clan_Ika_Yajiri_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Ika/Standies/Clan_Ika_ajiri_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Ika/Standies/Clan_Ika_ajiri_2.0_back.png', 
 'Either', 'Small', 'Ika', 6, 1, '2B', '0ST', '2B', '3B', 1, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Salty
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 4, 6); --Dex
@@ -408,7 +408,7 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 3
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (cXXX,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Kitsune/Standies/Clan_Kitsune_Madoushi_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Kitsune/Standies/Clan_Kitsune_Madoushi_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Kitsune/Standies/Clan_Kitsune_Madoushi_2.0_back.png', 
 'Masculine', 'Small', 'Kitsune Paired Spawning Point', 2, 1, '1B', '1ST', '1B', '2B', 3, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Active Spawn
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Heal X
@@ -432,7 +432,7 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (chXXX,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Kitsune/Standies/Clan_Kitsune_Kaiken_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Kitsune/Standies/Clan_Kitsune_Kaiken_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Kitsune/Standies/Clan_Kitsune_Kaiken_2.0_back.png', 
 'Masculine', 'Small', 'Kitsune', 5, 1, '2B', '1ST', '2B', '3B', 1, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Pounce
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Surefoot
@@ -453,7 +453,7 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 2
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (eXXX,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Kitsune/Standies/Clan_Kitsune_Kunoichi_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Kitsune/Standies/Clan_Kitsune_Kunoichi_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Kitsune/Standies/Clan_Kitsune_Kunoichi_2.0_back.png', 
 'Feminine', 'Small', 'Kitsune', 7, 2, '2B', '2B', '3B', '3B', 2, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Stealth
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Surefoot
@@ -476,7 +476,7 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (chXXX,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Kitsune/Standies/Clan_Kitsune_Oni_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Kitsune/Standies/Clan_Kitsune_Oni_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Kitsune/Standies/Clan_Kitsune_Oni_2.0_back.png', 
 'Either', 'Large', 'Kitsune', 5, 2, '2B 1R', '3B', '2B', '3B', 2, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Massive Damage
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Surefoot
@@ -499,7 +499,7 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 2
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (chXXX,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Kitsune/Standies/Clan_Kitsune_Yajiri_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Kitsune/Standies/Clan_Kitsune_ajiri_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Kitsune/Standies/Clan_Kitsune_ajiri_2.0_back.png', 
 'Either', 'Small', 'Kitsune', 5, 1, '2B', '0ST', '3B', '2B', 1, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Retreat
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Surefoot
@@ -523,7 +523,7 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 2
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (cXXX,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Tanchyo/Standies/Clan_Tanchyo_Madoushi_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Tanchyo/Standies/Clan_Tanchyo_Madoushi_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Tanchyo/Standies/Clan_Tanchyo_Madoushi_2.0_back.png', 
 'Masculine', 'Small', 'Tanchyo Spawning Point', 2, 1, '2B', '1ST', '3B', '2B', 3, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Active Spawn
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Fly
@@ -545,7 +545,7 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (chXXX,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Tanchyo/Standies/Clan_Tanchyo_Kaiken_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Tanchyo/Standies/Clan_Tanchyo_Kaiken_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Tanchyo/Standies/Clan_Tanchyo_Kaiken_2.0_back.png', 
 'Masculine', 'Small', 'Tanchyo', 7, 2, '2R', '0ST', '2B', '2B', 2, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Massive Damage
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Retribution
@@ -567,7 +567,7 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 2
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (eXXX,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Tanchyo/Standies/Clan_Tanchyo_Kunoichi_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Tanchyo/Standies/Clan_Tanchyo_Kunoichi_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Tanchyo/Standies/Clan_Tanchyo_Kunoichi_2.0_back.png', 
 'Feminine', 'Small', 'Tanchyo', 7, 2, '3B', '1ST', '3B', '3B', 2, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Retribution
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --The Dancing Blade
@@ -588,7 +588,7 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (chXXX,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Tanchyo/Standies/Clan_Tanchyo_Oni_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Tanchyo/Standies/Clan_Tanchyo_Oni_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Tanchyo/Standies/Clan_Tanchyo_Oni_2.0_back.png', 
 'Either', 'Large', 'Tanchyo', 7, 3, '1ST 2B', '1B 1R', '3B', '3B', 3, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Fly
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Retribution
@@ -610,7 +610,7 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 2
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (chXXX,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Tanchyo/Standies/Clan_Tanchyo_Yajiri_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Tanchyo/Standies/Clan_Tanchyo_ajiri_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Tanchyo/Standies/Clan_Tanchyo_ajiri_2.0_back.png', 
 'Either', 'Small', 'Tanchyo', 7, 2, '2B', '0ST', '2B', '2B', 2, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Retribution
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 4, 8); --Dex
@@ -631,7 +631,7 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (cXXX,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Tora/Standies/Clan_Tora_Madoushi_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Tora/Standies/Clan_Tora_Madoushi_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Tora/Standies/Clan_Tora_Madoushi_2.0_back.png', 
 'Masculine', 'Small', 'Tora Spawning Point', 2, 1, '3B', '1ST', '1B', '3B', 3, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Active Spawn
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Fury
@@ -654,7 +654,7 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (chXXX,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Tora/Standies/Clan_Tora_Kaiken_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Tora/Standies/Clan_Tora_Kaiken_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Tora/Standies/Clan_Tora_Kaiken_2.0_back.png', 
 'Masculine', 'Small', 'Tora', 5, 2, '3B', '1ST', '1B', '3B', 2, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Ravage
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 1, 1); --Strength
@@ -673,7 +673,7 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (eXXX,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Tora/Standies/Clan_Tora_Kunoichi_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Tora/Standies/Clan_Tora_Kunoichi_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Tora/Standies/Clan_Tora_Kunoichi_2.0_back.png', 
 'Feminine', 'Small', 'Tora', 5, 2, '3B', '1ST', '2B', '2R', 2, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Ravage
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Volatile
@@ -695,7 +695,7 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (chXXX,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Tora/Standies/Clan_Tora_Oni_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Tora/Standies/Clan_Tora_Oni_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Tora/Standies/Clan_Tora_Oni_2.0_back.png', 
 'Either', 'Large', 'Tora', 5, 3, '1B 2R', '2B 1R', '1B', '3B', 3, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Knockdown
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Ravage
@@ -718,7 +718,7 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 2
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (chXXX,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Tora/Standies/Clan_Tora_Yajiri_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Tora/Standies/Clan_Tora_ajiri_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Tora/Standies/Clan_Tora_ajiri_2.0_back.png', 
 'Either', 'Small', 'Tora', 5, 2, '3B', '0ST', '1B', '3B', 1, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Brutal Strike
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Massive Damage
@@ -741,7 +741,7 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 3
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (cXXX,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Yamazaru/Standies/Clan_Yamazaru_Madoushi_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Yamazaru/Standies/Clan_Yamazaru_Madoushi_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Yamazaru/Standies/Clan_Yamazaru_Madoushi_2.0_back.png', 
 'Masculine', 'Small', 'Yamazaru Spawning Point', 2, 1, '2B', '1ST', '3B', '2B', 3, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Active Spawn
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Shiny Bauble
@@ -764,7 +764,7 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (chXXX,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Yamazaru/Standies/Clan_Yamazaru_Kaiken_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Yamazaru/Standies/Clan_Yamazaru_Kaiken_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Yamazaru/Standies/Clan_Yamazaru_Kaiken_2.0_back.png', 
 'Masculine', 'Small', 'Yamazaru', 7, 1, '3B', '1ST', '2B', '3B', 1, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Ice
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Shiny Bauble
@@ -786,7 +786,7 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 2
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (eXXX,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Yamazaru/Standies/Clan_Yamazaru_Kunoichi_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Yamazaru/Standies/Clan_Yamazaru_Kunoichi_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Yamazaru/Standies/Clan_Yamazaru_Kunoichi_2.0_back.png', 
 'Feminine', 'Small', 'Yamazaru', 7, 1, '3B', '0ST', '3B', '3B', 1, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Hex
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Ice
@@ -810,7 +810,7 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (chXXX,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Yamazaru/Standies/Clan_Yamazaru_Oni_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Yamazaru/Standies/Clan_Yamazaru_Oni_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Yamazaru/Standies/Clan_Yamazaru_Oni_2.0_back.png', 
 'Either', 'Large', 'Yamazaru', 7, 4, '2B 1R', '2B 1R', '1B', '3B', 4, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Improved Critical
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Knockdown
@@ -832,7 +832,7 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 2
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (chXXX,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Yamazaru/Standies/Clan_Yamazaru_Yajiri_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Yamazaru/Standies/Clan_Yamazaru_Yajiri_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Yamazaru/Standies/Clan_Yamazaru_Yajiri_2.0_back.png', 
 'Either', 'Small', 'Yamazaru', 7, 1, '3B', '1ST', '2B', '3B', 1, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Hex
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Ice
@@ -856,7 +856,7 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 0
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (cXXX,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Yurei/Standies/Clan_Yurei_Madoushi_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Yurei/Standies/Clan_Yurei_Madoushi_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Yurei/Standies/Clan_Yurei_Madoushi_2.0_back.png', 
 'Masculine', 'Small', 'Undead Spawning Point', 1, 1, '2B', '1ST', '3B', '1B', 3, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Active Spawn
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Dragged To The Depths
@@ -899,7 +899,7 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 0
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (eXXX,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Yurei/Standies/Clan_Yurei_Kunoichi_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Yurei/Standies/Clan_Yurei_Kunoichi_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Yurei/Standies/Clan_Yurei_Kunoichi_2.0_back.png', 
 'Feminine', 'Small', 'Undead', 4, 2, '2R', '2R', '3B', '3B', 2, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Dragged To The Depths
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Pounce
@@ -922,7 +922,7 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 0
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (chXXX,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Yurei/Standies/Clan_Yurei_Yajiri_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Yurei/Standies/Clan_Yurei_ajiri_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Yurei/Standies/Clan_Yurei_Yajiri_2.0_back.png', 
 'Either', 'Small', 'Undead', 4, 1, '1B', '0ST', '3B', '3B', 1, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Dragged To The Depths
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 4, 8); --Dex
@@ -943,7 +943,7 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (chXXX,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Cold_Eggs/Standies/Cold_Eggs_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Cold_Eggs/Standies/Cold_Eggs_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Cold_Eggs/Standies/Cold_Eggs_2.0_back.png', 
 'Neither', 'Small', 'Spawning Point', 0, 0, '', '1st', '', '', 3, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Black Ice
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Immune: Status Effects
@@ -963,7 +963,7 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (eXXX,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Cold_Eggs/Standies/Frostbyte_Hatchlings_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Cold_Eggs/Standies/Frostbyte_Hatchlings_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Cold_Eggs/Standies/Frostbyte_Hatchlings_2.0_back.png', 
 'Either', 'Small', 'Drake', 6, 2, '3B', '0ST', '2B', '3B', 2, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Shatter
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 1, 1); --Strength
@@ -982,7 +982,7 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (cXXX,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Cold_Eggs/Standies/Frostbyte_Whelp_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Cold_Eggs/Standies/Frostbyte_Whelp_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Cold_Eggs/Standies/Frostbyte_Whelp_2.0_back.png', 
 'Either', 'Large', 'Drake', 6, 1, '2B 1R', '1ST', '3B', '3B', 1, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Ice
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Shatter
@@ -1002,7 +1002,7 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 4
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (chXXX,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Cold_Eggs/Standies/Frostbyte_Wyrmling_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Cold_Eggs/Standies/Frostbyte_Wyrmling_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Cold_Eggs/Standies/Frostbyte_Wyrmling_2.0_back.png', 
 'Either', 'Small', 'Drake', 6, 2, '2B 1R', '1ST', '3B', '3B', 2, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Fly
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Ice
@@ -1028,7 +1028,7 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 0
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (chXXX,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Corrupted_Harvest/Standies/Corrupted_Harvest_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Corrupted_Harvest/Standies/Corrupted_Harvest_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Corrupted_Harvest/Standies/Corrupted_Harvest_2.0_back.png', 
 'Neither', 'Large', 'Construct Spawning Point', 0, 0, '', '1st', '', '', 4, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Fire
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Flammable
@@ -1049,7 +1049,7 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 0
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (eXXX,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Corrupted_Harvest/Standies/Corrupted_Harvest_Crow_Eater_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Corrupted_Harvest/Standies/Corrupted_Harvest_Crow_Eater_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Corrupted_Harvest/Standies/Corrupted_Harvest_Crow_Eater_2.0_back.png', 
 'Either', 'Small', 'Construct', 5, 3, '2R', '3B', '4B', '1B', 4, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Bane
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Fire
@@ -1075,7 +1075,7 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 0
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (cXXX,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Corrupted_Harvest/Standies/Corrupted_Harvest_Harvest_Goon_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Corrupted_Harvest/Standies/Corrupted_Harvest_Harvest_Goon_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Corrupted_Harvest/Standies/Corrupted_Harvest_Harvest_Goon_2.0_back.png', 
 'Either', 'Small', 'Construct', 5, 1, '3B', '0ST', '0ST', '1B', 2, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Fire
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Flammable
@@ -1095,7 +1095,7 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 0
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (chXXX,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Corrupted_Harvest/Standies/Corrupted_Harvest_Harvest_Sack_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Corrupted_Harvest/Standies/Corrupted_Harvest_Harvest_Sack_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Corrupted_Harvest/Standies/Corrupted_Harvest_Harvest_Sack_2.0_back.png', 
 'Either', 'Small', 'Construct', 5, 2, '2R', '1B', '0ST', '1B', 2, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Fire
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Flammable
@@ -1120,7 +1120,7 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 0
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (chXXX,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Barrow/Standies/Cursed_Barrow_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Barrow/Standies/Cursed_Barrow_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Barrow/Standies/Cursed_Barrow_2.0_back.png', 
 'Neither', 'Small', 'Spawning Point', 0, 0, '', '1st', '', '', 3, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Despair
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Immune: Status Effects
@@ -1140,7 +1140,7 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 0
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (eXXX,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Barrow/Standies/Cursed_Barrow_Black_Hand_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Barrow/Standies/Cursed_Barrow_Black_Hand_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Barrow/Standies/Cursed_Barrow_Black_Hand_2.0_back.png', 
 'Either', 'Small', 'Undead Ghoul', 6, 2, '2B', '1ST', '3B', '2B', 2, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Despair
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Ghost
@@ -1162,7 +1162,7 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 0
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (cXXX,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Barrow/Standies/Cursed_Barrow_Draugr_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Barrow/Standies/Cursed_Barrow_Draugr_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Barrow/Standies/Cursed_Barrow_Draugr_2.0_back.png', 
 'Either', 'Large', 'Undead Ghoul', 6, 1, '3B', '1ST', '1B', '2B', 1, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Despair
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 1, 1); --Strength
@@ -1181,7 +1181,7 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 0
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (chXXX,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Barrow/Standies/Cursed_Barrow_Draugr_Berserker_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Barrow/Standies/Cursed_Barrow_Draugr_Berserker_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Barrow/Standies/Cursed_Barrow_Draugr_Berserker_2.0_back.png', 
 'Either', 'Large', 'Shapeshift', 8, 3, '4B', '1ST', '1B', '2B', 4, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Blood Drinker
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Despair
@@ -1204,7 +1204,7 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 0
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (chXXX,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Barrow/Standies/Cursed_Barrow_Errata_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Barrow/Standies/Cursed_Barrow_Errata_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Barrow/Standies/Cursed_Barrow_Errata_2.0_back.png', 
 'Neither', 'Small', 'Spawning Point', 0, 0, '', '1st', '', '', 3, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Despair
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Immune: Status Effects
@@ -1228,7 +1228,7 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 4
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (chXXX,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Hollow/Standies/Cursed_Hollow_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Hollow/Standies/Cursed_Hollow_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Hollow/Standies/Cursed_Hollow_2.0_back.png', 
 'Neither', 'Large', 'Paired Spawning Point', 0, 0, '', '1st', '', '', 4, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Immune: Status Effects
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Spawning Pool
@@ -1245,9 +1245,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (cXXX);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 4); --Sapphire
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (eXXX,
+VALUES (chXXX,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Hollow/Standies/Cursed_Hollow_Bad_Seed_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Hollow/Standies/Cursed_Hollow_Bad_Seed_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Hollow/Standies/Cursed_Hollow_Bad_Seed_2.0_back.png', 
 'Either', 'Large', 'Undead Kodama', 6, 1, '1B', '2R', '3B', '1B 1R', 2, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Forced Shift
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Shapeshift: Wrath Sprout
@@ -1268,7 +1268,7 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 3
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (cXXX,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Hollow/Standies/Cursed_Gloom_Wisp_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Hollow/Standies/Cursed_Gloom_Wisp_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Hollow/Standies/Cursed_Gloom_Wisp_2.0_back.png', 
 'Either', 'Large', 'Undead Kodama', 6, 2, '1B', '1ST', '2B 1R', '3B', 2, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Despair
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Gloom and Doom
@@ -1289,7 +1289,7 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (chXXX,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Hollow/Standies/Cursed_Hollow_Rotten_Cabbage_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Hollow/Standies/Cursed_Hollow_Rotten_Cabbage_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Hollow/Standies/Cursed_Hollow_Rotten_Cabbage_2.0_back.png', 
 'Either', 'Large', 'Undead Kodama', 6, 1, '3B', '1ST', '3B', '2B', 1, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Mob
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 1, 1); --Strength
@@ -1308,7 +1308,7 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (chXXX,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Hollow/Standies/Hollow_Spoiled_Turnip_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Hollow/Standies/Hollow_Spoiled_Turnip_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Hollow/Standies/Hollow_Spoiled_Turnip_2.0_back.png', 
 'Neither', 'Small', 'Undead Kodama', 6, 1, '2B', '0ST', '3B', '2B 1R', 1, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Bane
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Bane of Death
@@ -1329,7 +1329,7 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 4
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (chXXX,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Hollow/Standies/Hollow_Wrath_Sprout_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Hollow/Standies/Hollow_Wrath_Sprout_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Hollow/Standies/Hollow_Wrath_Sprout_2.0_back.png', 
 'Neither', 'Large', 'Shapeshift', 1, 3, '5B', '2R', '3B', '1B', 4, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Blood Drinker
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Fixed Form
@@ -1354,7 +1354,7 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 3
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (chXXX,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Knight/Standies/Cursed_Knight_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Knight/Standies/Cursed_Knight_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Knight/Standies/Cursed_Knight_2.0_back.png', 
 'Neither', 'Large', 'Spawning Point', 0, 0, '', '1st', '', '', 3, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Hex
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Hex Aura
@@ -1373,9 +1373,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (cXXX);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (eXXX,
+VALUES (chXXX,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Knight/Standies/Cursed_Knight_Grobbit_Deathlord_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Knight/Standies/Cursed_Knight_Grobbit_Deathlord_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Knight/Standies/Cursed_Knight_Grobbit_Deathlord_2.0_back.png', 
 'Either', 'Large', 'Chimera', 6, 3, '2B 1R', '2B 1R', '1B', '3B', 3, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Bane
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Despair
@@ -1397,9 +1397,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (cXXX); 
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (cXXX,
+VALUES (chXXX,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Knight/Standies/Cursed_Knight_Moorland_Militia_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Knight/Standies/Cursed_Knight_Moorland_Militia_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Knight/Standies/Cursed_Knight_Moorland_Militia_2.0_back.png', 
 'Either', 'Small', 'Chimera', 6, 1, '3B', '1ST', '2B', '1B 1R', 1, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Mob
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 1, 2); --Strength
@@ -1418,7 +1418,7 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 3
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (chXXX,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Knight/Standies/Cursed_Knight_Skull_Squawk_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Knight/Standies/Cursed_Knight_Skull_Squawk_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Knight/Standies/Cursed_Knight_Skull_Squawk_2.0_back.png', 
 'Either', 'Large', 'Chimera', 8, 2, '2B 1R', '2ST', '3B', '2B', 1, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Ghost
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Massive Damage
@@ -1441,7 +1441,7 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 3
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (chXXX,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Knight/Standies/Cursed_Knight_Skull_Squawk_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Knight/Standies/Cursed_Knight_Skull_Squawk_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Knight/Standies/Cursed_Knight_Skull_Squawk_2.0_back.png', 
 'Either', 'Large', 'Chimera', 8, 2, '2B 1R', '2ST', '3B', '2B', 1, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Ghost
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Massive Damage
@@ -1468,7 +1468,7 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (chXXX,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Egg_Clutch/Standies/Egg_Clutch_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Egg_Clutch/Standies/Egg_Clutch_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Egg_Clutch/Standies/Egg_Clutch_2.0_back.png', 
 'Neither', 'Small', 'Spawning Point', 0, 0, '', '1st', '', '', 3, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Immune: Status Effects
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Spawning Pool
@@ -1488,7 +1488,7 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (chXXX,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Egg_Clutch/Standies/Egg_Clutch_Hatchlings_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Egg_Clutch/Standies/Egg_Clutch_Hatchlings_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Egg_Clutch/Standies/Egg_Clutch_Hatchlings_2.0_back.png', 
 'Either', 'Small', 'Drake', 6, 2, '3B', '0ST', '2B', '3B', 2, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Pile-on
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 1, 1); --Strength
@@ -1507,7 +1507,7 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (chXXX,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Egg_Clutch/Standies/Egg_Clutch_Whelp_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Egg_Clutch/Standies/Egg_Clutch_Whelp_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Egg_Clutch/Standies/Egg_Clutch_Whelp_2.0_back.png', 
 'Either', 'Large', 'Drake', 6, 1, '2B 1R', '1ST', '3B', '3B', 1, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Knockdown
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Pile-on
@@ -1527,7 +1527,7 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 2
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (chXXX,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Cold_Eggs/Standies/Frostbyte_Wyrmling_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Cold_Eggs/Standies/Frostbyte_Wyrmling_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Cold_Eggs/Standies/Frostbyte_Wyrmling_2.0_back.png', 
 'Either', 'Large', 'Drake', 6, 2, '2B 1R', '1ST', '3B', '3B', 2, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Fire
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Fly
@@ -1554,7 +1554,7 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 3
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (chXXX,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Elemental_Shrine/Standies/Elemental_Shrine_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Elemental_Shrine/Standies/Elemental_Shrine_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Elemental_Shrine/Standies/Elemental_Shrine_2.0_back.png', 
 'Neither', 'Large', 'Paired Spawning Point', , 1, '', '1ST', '', '', 4, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Elemental Affinity
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Hidden
@@ -1576,7 +1576,7 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (chXXX,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Elemental_Shrine/Standies/Elemental_Shrine_Chunin_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Elemental_Shrine/Standies/Elemental_Shrine_Chunin_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Elemental_Shrine/Standies/Elemental_Shrine_Chunin_2.0_back.png', 
 'Masculine', 'Small', 'Ninja', 6, 1, '2B 1R', '3B', '3B', '3B', 3, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Stealth
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Precision Strike
@@ -1597,7 +1597,7 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (chXXX,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Elemental_Shrine/Standies/Elemental_Shrine_Kaiken_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Elemental_Shrine/Standies/Elemental_Shrine_Kaiken_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Elemental_Shrine/Standies/Elemental_Shrine_Kaiken_2.0_back.png', 
 'Masculine', 'Small', 'Ninja', 6, 1, '3B', '1ST', '2B', '3B', 1, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Stealth
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Back Strike
@@ -1616,9 +1616,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (cXXX);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 2); --Emerald
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (eXXX,
+VALUES (chXXX,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Elemental_Shrine/Standies/Elemental_Shrine_Kunoichi_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Elemental_Shrine/Standies/Elemental_Shrine_Kunoichi_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Elemental_Shrine/Standies/Elemental_Shrine_Kunoichi_2.0_back.png', 
 'Feminine', 'Small', 'Ninja', 8, 1, '3B', '0ST', '1B 1R', '2R', 1, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Pounce
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Stealth
@@ -1638,9 +1638,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (cXXX); 
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (cXXX,
+VALUES (chXXX,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Elemental_Shrine/Standies/Elemental_Shrine_Madoushi_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Elemental_Shrine/Standies/Elemental_Shrine_Madoushi_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Elemental_Shrine/Standies/Elemental_Shrine_Madoushi_2.0_back.png', 
 'Masculine', 'Small', 'Ninja', 6, 2, '2B', '1ST', '2R', '3B', 2, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Fly
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Poison
@@ -1664,7 +1664,7 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 2
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (chXXX,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Elemental_Shrine/Standies/Elemental_Shrine_Yajiri_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Elemental_Shrine/Standies/Elemental_Shrinen_Yajiri_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Elemental_Shrine/Standies/Elemental_Shrinen_Yajiri_2.0_back.png', 
 'Masculine', 'Small', 'Ninja', 6, 1, '2B', '0ST', '2B', '3B', 1, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Stealth
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Wind of Blades
@@ -1688,7 +1688,7 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (chXXX,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Fire_Flow_Hollow/Standies/Fire_Flow_Hollow_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Fire_Flow_Hollow/Standies/Fire_Flow_Hollow_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Fire_Flow_Hollow/Standies/Fire_Flow_Hollow_2.0_back.png', 
 'Neither', 'Large', 'Paired Spawning Point', 0, 0, '', '1st', '', '', 4, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Fire
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Fire Aura
@@ -1709,7 +1709,7 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (chXXX,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Fire_Flow_Hollow/Standies/Broiled_Mook_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Fire_Flow_Hollow/Standies/Broiled_Mook_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Fire_Flow_Hollow/Standies/Broiled_Mook_2.0_back.png', 
 'Either', 'Large', 'Kodama', 6, 1, '3B', '1ST', '3B', '2B', 1, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Fire
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Immune: Fire
@@ -1728,9 +1728,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (cXXX); 
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (cXXX,
+VALUES (chXXX,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Fire_Flow_Hollow/Standies/Flame_Wisp_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Fire_Flow_Hollow/Standies/Flame_Wisp_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Fire_Flow_Hollow/Standies/Flame_Wisp_2.0_back.png', 
 'Either', 'Large', 'Kodama', 6, 2, '1B', '1ST', '2B 1R', '3B', 2, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Fire
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Immune: Fire
@@ -1749,9 +1749,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (cXXX);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (eXXX,
+VALUES (chXXX,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Fire_Flow_Hollow/Standies/Magma_Seed_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Fire_Flow_Hollow/Standies/Magma_Seed_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Fire_Flow_Hollow/Standies/Magma_Seed_2.0_back.png', 
 'Either', 'Large', 'Kodama', 6, 1, '1B', '2R', '3B', '1B 1R', 2, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Fire
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Forced Shift
@@ -1773,7 +1773,7 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (chXXX,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Fire_Flow_Hollow/Standies/Spicy_Turnip_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Fire_Flow_Hollow/Standies/Spicy_Turnip_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Fire_Flow_Hollow/Standies/Spicy_Turnip_2.0_back.png', 
 'Neither', 'Large', 'Kodama', 6, 1, '2B', '0ST', '3B', '2B 1R', 1, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Fire
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Immune: Fire
@@ -1796,7 +1796,7 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 4
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (chXXX,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Fire_Flow_Hollow/Standies/Volcanic_Sprout_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Fire_Flow_Hollow/Standies/Volcanic_Sprout_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Fire_Flow_Hollow/Standies/Volcanic_Sprout_2.0_back.png', 
 'Neither', 'Large', 'Shapeshift', 1, 3, '2B 2R', '2R', '3B', '1B', 4, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Charge
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Feed Me
@@ -1824,7 +1824,7 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 3
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (chXXX,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Forgotten_Stone/Standies/Forgotten_Stone_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Forgotten_Stone/Standies/Forgotten_Stone_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Forgotten_Stone/Standies/Forgotten_Stone_2.0_back.png', 
 'Neither', 'Large', 'Spawning Point', 0, 0, '', '1st', '', '', 3, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Immune: Status Effects
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Scuttle
@@ -1843,9 +1843,9 @@ insert into Characters (CardIndex) VALUES (cXXX);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1); --Citrine
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (eXXX,
+VALUES (chXXX,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Forgotten_Stone/Standies/Blackblade_Corsair_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Forgotten_Stone/Standies/Blackblade_Corsair_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Forgotten_Stone/Standies/Blackblade_Corsair_2.0_back.png', 
 'Either', 'Small', 'Nether Elf Pirate', 7, 1, '2B 1R', '1ST', '3B', '3B', 1, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Piracy
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Surefoot
@@ -1867,7 +1867,7 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 3
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (cXXX,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Forgotten_Stone/Standies/Corsair_Arbalist_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Forgotten_Stone/Standies/Corsair_Arbalist_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Forgotten_Stone/Standies/Corsair_Arbalist_2.0_back.png', 
 'Masculine', 'Small', 'Nether Elf Pirate', 7, 1, '2B', '1ST', '3B', '3B', 1, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Fire
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Piracy
@@ -1891,7 +1891,7 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 3
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (chXXX,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Forgotten_Stone/Standies/Midnight_Mutineer_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Forgotten_Stone/Standies/Midnight_Mutineer_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Forgotten_Stone/Standies/Midnight_Mutineer_2.0_back.png', 
 'Feminine', 'Small', 'Nether Elf Pirate', 8, 3, '3B 1R', '1B', '3B', '3B', 3, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Bane
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Brutal Strike
@@ -1918,7 +1918,7 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (chXXX,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Frozen_Warrens/Standies/Frozen_Warrens_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Frozen_Warrens/Standies/Frozen_Warrens_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Frozen_Warrens/Standies/Frozen_Warrens_2.0_back.png', 
 'Neither', 'Large', 'Spawning Point', 0, 0, '', '1st', '', '', 4, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Black Ice
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Immune: Status Effects
@@ -1936,9 +1936,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (cXXX);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (eXXX,
+VALUES (chXXX,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Frozen_Warrens/Standies/Blockhead_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Frozen_Warrens/Standies/Blockhead_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Frozen_Warrens/Standies/Blockhead_2.0_back.png', 
 'Either', 'Small', 'Kobold', 7, 1, '3B', '1ST', '2B', '1B 1R', 1, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Mob
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 1, 1); --Strength
@@ -1956,9 +1956,9 @@ insert into Characters (CardIndex) VALUES (cXXX);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1); --Citrine
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 4); --Sapphire
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (cXXX,
+VALUES (chXXX,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Frozen_Warrens/Standies/Frostscale_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Frozen_Warrens/Standies/Frostscale_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Frozen_Warrens/Standies/Frostscale_2.0_back.png', 
 'Neither', 'Small', 'Kobold', 7, 2, '2R', '2ST', '3B', '1B 1R', 1, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Ice
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Mob
@@ -1979,7 +1979,7 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 3
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (chXXX,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Frozen_Warrens/Standies/Frozen_Priest_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Frozen_Warrens/Standies/Frozen_Priest_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Frozen_Warrens/Standies/Frozen_Priest_2.0_back.png', 
 'Neither', 'Small', 'Kobold', 7, 3, '2B', '1B 1R', '2R', '1B 1R', 3, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Ice
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Mob
@@ -2002,7 +2002,7 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (chXXX,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Frozen_Warrens/Standies/Ice_Pick_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Frozen_Warrens/Standies/Ice_Pick_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Frozen_Warrens/Standies/Ice_Pick_2.0_back.png', 
 'Neither', 'Small', 'Kobold', 7, 1, '3B', '0ST', '2B', '1B 1R', 1, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Mob
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 1, 2); --Strength
@@ -2021,7 +2021,7 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 2
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (chXXX,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Frozen_Warrens/Standies/Snowball_Chucker_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Frozen_Warrens/Standies/Snowball_Chucker_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Frozen_Warrens/Standies/Snowball_Chucker_2.0_back.png', 
 'Neither', 'Small', 'Kobold', 7, 1, '2B', '0ST', '2B', '2B 1R', 1, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Ice
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Mob
@@ -2047,7 +2047,7 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (chXXX,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Howler Stone/Standies/Howler Stone_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Howler Stone/Standies/Howler Stone_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Howler Stone/Standies/Howler Stone_2.0_back.png', 
 'Neither', 'Large', 'Spawning Point', 0, 0, '', '1st', '', '', 4, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Black Ice
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Immune: Status Effects
@@ -2065,9 +2065,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (cXXX);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (eXXX,
+VALUES (chXXX,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Frozen_Warrens/Standies/Blockhead_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Frozen_Warrens/Standies/Blockhead_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Frozen_Warrens/Standies/Blockhead_2.0_back.png', 
 'Either', 'Small', 'Kobold', 7, 1, '3B', '1ST', '2B', '1B 1R', 1, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Mob
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 1, 1); --Strength
@@ -2085,9 +2085,9 @@ insert into Characters (CardIndex) VALUES (cXXX);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1); --Citrine
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 4); --Sapphire
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (cXXX,
+VALUES (chXXX,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Frozen_Warrens/Standies/Frostscale_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Frozen_Warrens/Standies/Frostscale_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Frozen_Warrens/Standies/Frostscale_2.0_back.png', 
 'Neither', 'Small', 'Kobold', 7, 2, '2R', '2ST', '3B', '1B 1R', 1, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Ice
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Mob
@@ -2108,7 +2108,7 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 3
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (chXXX,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Frozen_Warrens/Standies/Frozen_Priest_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Frozen_Warrens/Standies/Frozen_Priest_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Frozen_Warrens/Standies/Frozen_Priest_2.0_back.png', 
 'Neither', 'Small', 'Kobold', 7, 3, '2B', '1B 1R', '2R', '1B 1R', 3, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Ice
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Mob
@@ -2131,7 +2131,7 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (chXXX,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Frozen_Warrens/Standies/Ice_Pick_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Frozen_Warrens/Standies/Ice_Pick_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Frozen_Warrens/Standies/Ice_Pick_2.0_back.png', 
 'Neither', 'Small', 'Kobold', 7, 1, '3B', '0ST', '2B', '1B 1R', 1, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Mob
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 1, 2); --Strength
@@ -2150,7 +2150,7 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 2
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (chXXX,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Frozen_Warrens/Standies/Snowball_Chucker_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Frozen_Warrens/Standies/Snowball_Chucker_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Frozen_Warrens/Standies/Snowball_Chucker_2.0_back.png', 
 'Neither', 'Small', 'Kobold', 7, 1, '2B', '0ST', '2B', '2B 1R', 1, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Ice
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Mob
@@ -2178,7 +2178,7 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 2
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (chXXX,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Howler_Stone/Standies/Howler_Stone_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Howler_Stone/Standies/Howler_Stone_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Howler_Stone/Standies/Howler_Stone_2.0_back.png', 
 'Neither', 'Large', 'Spawning Point', 0, 0, '', '1st', '', '', 3, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Immune: Status Effects
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Pack Mentality
@@ -2196,9 +2196,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (cXXX);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 2); --Emerald
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (eXXX,
+VALUES (chXXX,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Standies/Gnoll_Hunter_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Standies/Gnoll_Hunter_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Standies/Gnoll_Hunter_2.0_back.png', 
 'Either', 'Small', 'Gnoll', 6, 1, '3B', '0ST', '2B', '1B 1R', 1, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Knockdown
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Pack Hunter
@@ -2217,9 +2217,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (cXXX); 
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 2); --Emerald
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (cXXX,
+VALUES (chXXX,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Standies/Gnoll_Pack_Leader_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Standies/Gnoll_Pack_Leader_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Standies/Gnoll_Pack_Leader_2.0_back.png', 
 'Neither', 'Small', 'Gnoll', 6, 3, '2B 1R', '1ST', '2B', '1B 1R', 3, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Frenzy
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Knockdown
@@ -2243,7 +2243,7 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 2
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (chXXX,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Standies/Gnoll_Ranger_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Standies/Gnoll_Ranger_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Standies/Gnoll_Ranger_2.0_back.png', 
 'Neither', 'Large', 'Gnoll', 6, 1, '1B 1R', '0ST', '2R', '3B', 1, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Hunter's Mark
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Pack Hunter
@@ -2266,7 +2266,7 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 2
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (chXXX,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Standies/Gnoll_Warrior_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Standies/Gnoll_Warrior_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Standies/Gnoll_Warrior_2.0_back.png', 
 'Neither', 'Large', 'Gnoll', 6, 1, '2R', '1ST', '2B', '3B', 1, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Knockdown
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Pack Hunter
@@ -2291,7 +2291,7 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 3
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (chXXX,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Junk_Reaver_Crystal/Standies/Junk_Reaver_Crystal_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Junk_Reaver_Crystal/Standies/Junk_Reaver_Crystal_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Junk_Reaver_Crystal/Standies/Junk_Reaver_Crystal_2.0_back.png', 
 'Neither', 'Large', 'Spawning Point', 0, 0, '', '2ST', '', '', 2, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Immune: Status Effects
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Spawning Pool
@@ -2308,9 +2308,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (cXXX);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 2); --Emerald --!! unavailable !!
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (eXXX,
+VALUES (chXXX,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Junk_Reaver_Crystal/Standies/Junker_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Junk_Reaver_Crystal/Standies/Junker_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Junk_Reaver_Crystal/Standies/Junker_2.0_back.png', 
 'Either', 'Small', 'Orc', 6, 1, '2B 1R', '0ST', '0ST', '2ST', 1, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Improved Critical
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Reckless
@@ -2329,9 +2329,9 @@ insert into Characters (CardIndex) VALUES (cXXX);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1); --Citrine--!! unavailable !!
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 4); --Sapphire--!! unavailable !!
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (cXXX,
+VALUES (chXXX,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Junk_Reaver_Crystal/Standies/Rusty_Arrows_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Junk_Reaver_Crystal/Standies/Rusty_Arrows_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Junk_Reaver_Crystal/Standies/Rusty_Arrows_2.0_back.png', 
 'Neither', 'Small', 'Orc', 6, 1, '3ST', '1ST', '0ST', '3B', 2, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Massive Damage--!! unavailable !!
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Mob--!! unavailable !!
@@ -2352,7 +2352,7 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 3
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (chXXX,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Junk_Reaver_Crystal/Standies/Rust_Boss_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Junk_Reaver_Crystal/Standies/Rust_Boss_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Junk_Reaver_Crystal/Standies/Rust_Boss_2.0_back.png', 
 'Neither', 'Large', 'Orc', 6, 3, '3R', '3B', '0ST', '2ST', 3, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Brutal Strike
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Improved Critical
@@ -2381,7 +2381,7 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (chXXX,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Kobold_Warrens/Standies/Kobold_Warrens_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Kobold_Warrens/Standies/Kobold_Warrens_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Kobold_Warrens/Standies/Kobold_Warrens_2.0_back.png', 
 'Neither', 'Large', 'Spawning Point', 0, 0, '', '1st', '', '', 4, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Immune: Status Effects
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Mob
@@ -2400,9 +2400,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (cXXX);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (eXXX,
+VALUES (chXXX,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Kobold_Warrens/Standies/Dragon_Priest_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Kobold_Warrens/Standies/Dragon_Priest_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Kobold_Warrens/Standies/Dragon_Priest_2.0_back.png', 
 'Either', 'Small', 'Kobold', 7, 3, '2B', '1B 1R', '2R', '1B 1R', 3, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Mob
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Stealth
@@ -2422,9 +2422,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (cXXX); 
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 2); --Emerald
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (cXXX,
+VALUES (chXXX,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Kobold_Warrens/Standies/Flinger_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Kobold_Warrens/Standies/Flinger_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Kobold_Warrens/Standies/Flinger_2.0_back.png', 
 'Neither', 'Small', 'Kobold', 7, 1, '2B', '0ST', '2B', '2B 1R', 1, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Fire
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Mob
@@ -2448,7 +2448,7 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (chXXX,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Kobold_Warrens/Standies/Gouger_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Kobold_Warrens/Standies/Gouger_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Kobold_Warrens/Standies/Gouger_2.0_back.png', 
 'Neither', 'Small', 'Kobold', 7, 1, '3B', '0ST', '2B', '1B 1R', 1, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Mob
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 1, 2); --Strength
@@ -2468,7 +2468,7 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 4
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (chXXX,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Kobold_Warrens/Standies/Ironscale_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Kobold_Warrens/Standies/Ironscale_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Kobold_Warrens/Standies/Ironscale_2.0_back.png', 
 'Neither', 'Small', 'Kobold', 7, 2, '2R', '2ST', '2B', '1B 1R', 1, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Mob
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Scalewall
@@ -2488,7 +2488,7 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (chXXX,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Kobold_Warrens/Standies/Knucklehead_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Kobold_Warrens/Standies/Knucklehead_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Kobold_Warrens/Standies/Knucklehead_2.0_back.png', 
 'Neither', 'Small', 'Kobold', 7, 1, '3B', '1ST', '2B', '1B 1R', 1, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Mob
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 1, 1); --Strength
@@ -2509,7 +2509,7 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 3
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (chXXX,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Loot_Stash/Standies/Loot_Stash_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Loot_Stash/Standies/Loot_Stash_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Loot_Stash/Standies/Loot_Stash_2.0_back.png', 
 'Neither', 'Small', 'Spawning Point', 0, 0, '', '2ST', '', '', 3, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Immune: Status Effects
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Loot Mmata
@@ -2527,9 +2527,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (cXXX);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1); --Citrine   --!! unavailable !!
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (eXXX,
+VALUES (chXXX,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Loot_Stash/Standies/Polished_Punk_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Loot_Stash/Standies/Polished_Punk_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Loot_Stash/Standies/Polished_Punk_2.0_back.png', 
 'Either', 'Small', 'Orc', 5, 1, '2R', '1ST', '0ST', '2ST', 1, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Brutal Strike
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Reckless
@@ -2547,9 +2547,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (cXXX); 
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1); --Citrine  --!! unavailable !!
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (cXXX,
+VALUES (chXXX,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Loot_Stash/Standies/Powder_Ladz_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Loot_Stash/Standies/Powder_Ladz_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Loot_Stash/Standies/Powder_Ladz_2.0_back.png', 
 'Either', 'Large', 'Orc', 5, 1, '1R', '0ST', '0ST', '3B', 1, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --??? Strike
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Reckless
@@ -2571,7 +2571,7 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (chXXX,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Loot_Stash/Standies/_Shiny_Boss_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Loot_Stash/Standies/_Shiny_Boss_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Loot_Stash/Standies/_Shiny_Boss_2.0_back.png', 
 'Either', 'Small', 'Chimera', 8, 2, '2B 1R', '1ST', '2B', '3B', 2, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --??? Strike  --!! unavailable !!
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Reckless
@@ -2595,7 +2595,7 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 0
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (chXXX,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Maleficent_Idol/Standies/Maleficent_Idol_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Maleficent_Idol/Standies/Maleficent_Idol_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Maleficent_Idol/Standies/Maleficent_Idol_2.0_back.png', 
 'Feminine', 'Small', 'Spawning Point', 0, 0, '', '2ST', '', '', 3, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Immune: Status Effects
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Stealth
@@ -2615,7 +2615,7 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 0
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (chXXX,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Maleficent_Idol/Standies/Maleficent_Idol_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Maleficent_Idol/Standies/Maleficent_Idol_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Maleficent_Idol/Standies/Maleficent_Idol_2.0_back.png', 
 'Feminine', 'Large', 'Spawning Point', 0, 0, '', '2ST', '', '', 3, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Immune: Status Effects
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Stealth
@@ -2633,9 +2633,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (cXXX);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 0); --Amethyst
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (eXXX,
+VALUES (chXXX,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Maleficent_Idol/Standies/Devout_of_Araphel_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Maleficent_Idol/Standies/Devout_of_Araphel_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Maleficent_Idol/Standies/Devout_of_Araphel_2.0_back.png', 
 'Either', 'Small', 'Riftling', 5, 1, '3B', '0ST', '1B', '3B', 1, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Death Curse
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 1, 1); --Strength
@@ -2652,9 +2652,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (cXXX); 
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 0); --Amethyst
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (cXXX,
+VALUES (chXXX,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Maleficent_Idol/Standies/Heartbound_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Maleficent_Idol/Standies/Heartbound_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Maleficent_Idol/Standies/Heartbound_2.0_back.png', 
 'Masculine', 'Small', 'Riftling', 5, 2, '3B', '1ST', '2B 1R', '1B', 2, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Death Curse
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Massive Damage
@@ -2676,7 +2676,7 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 0
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (chXXX,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Maleficent_Idol/Standies/Master_of_Chains_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Maleficent_Idol/Standies/Master_of_Chains_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Maleficent_Idol/Standies/Master_of_Chains_2.0_back.png', 
 'Feminine', 'Small', 'Demon', 5, 2, '1B 1G', '1G', '2B 1R', '3B', 3, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Sense Weakness
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Obscene Whispers
@@ -2699,7 +2699,7 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (chXXX,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Nether_Clutch/Standies/Nether_Clutch_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Nether_Clutch/Standies/Nether_Clutch_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Nether_Clutch/Standies/Nether_Clutch_2.0_back.png', 
 'Neither', 'Small', 'Spawning Point', 0, 0, '', '1ST', '', '', 3, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Immune: Status Effects
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Spawning Pool
@@ -2717,9 +2717,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (cXXX);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (eXXX,
+VALUES (chXXX,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Nether_Clutch/Standies/Nether_Hatchlings_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Nether_Clutch/Standies/Nether_Hatchlings_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Nether_Clutch/Standies/Nether_Hatchlings_2.0_back.png', 
 'Either', 'Small', 'Drake', 6, 2, '2B', '0ST', '2B', '3B', 2, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Mighty
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Pile-on
@@ -2737,9 +2737,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (cXXX); 
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (cXXX,
+VALUES (chXXX,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Nether_Clutch/Standies/Nether_Whelp_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Nether_Clutch/Standies/Nether_Whelp_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Nether_Clutch/Standies/Nether_Whelp_2.0_back.png', 
 'Either', 'Large', 'Drake', 6, 1, '2B 1R', '0ST', '3B', '3B', 1, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Knockdown
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Mighty
@@ -2760,7 +2760,7 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 2
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (chXXX,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Nether_Clutch/Standies/Nether_Wyrmling_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Nether_Clutch/Standies/Nether_Wyrmling_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Nether_Clutch/Standies/Nether_Wyrmling_2.0_back.png', 
 'Either', 'Large', 'Drake', 6, 2, '2B 1R', '0ST', '3B', '3B', 2, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Bane
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Fly
@@ -2788,7 +2788,7 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 4
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (chXXX,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Pinching_Palace/Standies/Pinching_Palace_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Pinching_Palace/Standies/Pinching_Palace_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Pinching_Palace/Standies/Pinching_Palace_2.0_back.png', 
 'Neither', 'Small', 'Spawning Point', 0, 0, '', '2ST', '', '', 3, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Backlash
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Immune: Status Effects
@@ -2807,9 +2807,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (cXXX);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 4); --Sapphire
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (eXXX,
+VALUES (chXXX,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Pinching_Palace/Standies/Big_Claw_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Pinching_Palace/Standies/Big_Claw_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Pinching_Palace/Standies/Big_Claw_2.0_back.png', 
 'Either', 'Small', 'Crab', 8, 1, '3B', '1ST', '1B', '3B', 1, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Grabby
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Immune: Knockdown
@@ -2829,9 +2829,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (cXXX); 
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 4); --Sapphire
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (cXXX,
+VALUES (chXXX,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Pinching_Palace/Standies/Carapace_Crawler_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Pinching_Palace/Standies/Carapace_Crawler_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Pinching_Palace/Standies/Carapace_Crawler_2.0_back.png', 
 'Either', 'Large', 'Crab', 8, 1, '2B', '0ST', '1B', '3B', 1, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Grabby
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Immune: Knockdown
@@ -2855,7 +2855,7 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 4
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (chXXX,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Pinching_Palace/Standies/Lord_of_the_Crabs_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Pinching_Palace/Standies/Lord_of_the_Crabs_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Pinching_Palace/Standies/Lord_of_the_Crabs_2.0_back.png', 
 'Feminine', 'Small', 'Nether Elf', 8, 3, '1B', '3B', '2R', '3B', 3, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Burrow
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Immune: Knockdown
@@ -2884,7 +2884,7 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 3
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (chXXX,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Sand_Spire/Standies/Sand_Spire_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Sand_Spire/Standies/Sand_Spire_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Sand_Spire/Standies/Sand_Spire_2.0_back.png', 
 'Neither', 'Small', 'Spawning Point', 0, 0, '', '1ST', '', '', 3, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Immune: Status Effects
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Predator
@@ -2904,9 +2904,9 @@ insert into Characters (CardIndex) VALUES (cXXX);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1); --Citrine
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (eXXX,
+VALUES (chXXX,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Sand_Spire/Standies/Desert_Blade_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Sand_Spire/Standies/Desert_Blade_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Sand_Spire/Standies/Desert_Blade_2.0_back.png', 
 'Masculine', 'Small', 'Nether Elf', 7, 1, '2B 1R', '1ST', '3B', '3B', 1, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Bluff
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Surefoot
@@ -2926,9 +2926,9 @@ insert into Characters (CardIndex) VALUES (cXXX);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1); --Citrine
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 2); --Emerald
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (cXXX,
+VALUES (chXXX,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Sand_Spire/Standies/Dune_Hunter_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Sand_Spire/Standies/Dune_Hunter_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Sand_Spire/Standies/Dune_Hunter_2.0_back.png', 
 'Masculine', 'Small', 'Nether Elf', 7, 1, '2B', '1ST', '3B', '3B', 1, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Bluff
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Surefoot
@@ -2951,7 +2951,7 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 3
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (chXXX,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Sand_Spire/Standies/Silk_Knife_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Sand_Spire/Standies/Silk_Knife_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Sand_Spire/Standies/Silk_Knife_2.0_back.png', 
 'Feminine', 'Small', 'Nether Elf', 8, 3, '3B 1R', '1B', '3B', '3B', 3, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Bane
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Bluff
@@ -2978,7 +2978,7 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 3
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (chXXX,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Scrap_Tower/Standies/Scrap_Tower_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Scrap_Tower/Standies/Scrap_Tower_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Scrap_Tower/Standies/Scrap_Tower_2.0_back.png', 
 'Neither', 'Small', 'Spawning Point', 0, 0, '', '1ST', '', '', 3, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Immune: Status Effects
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Penata of Death
@@ -2996,9 +2996,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (cXXX);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (eXXX,
+VALUES (chXXX,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Scrap_Tower/Standies/Dunce_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Scrap_Tower/Standies/Dunce_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Scrap_Tower/Standies/Dunce_2.0_back.png', 
 'Masculine', 'Small', 'Gnome', 4, 1, '0ST', '0ST', '3B', '3B', 1, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Pinata of Death
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Say Hello To My Littler Friend!
@@ -3017,9 +3017,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (cXXX); 
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (cXXX,
+VALUES (chXXX,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Scrap_Tower/Standies/Gate_Crasher_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Scrap_Tower/Standies/Gate_Crasher_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Scrap_Tower/Standies/Gate_Crasher_2.0_back.png', 
 'Neither', 'Small', 'Construct', 0, 1, '1B 1R', '1G', '0ST', '0ST', 3, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Gatekeeper
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Steady
@@ -3042,7 +3042,7 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 3
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (chXXX,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Scrap_Tower/Standies/Grim_Oculus_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Scrap_Tower/Standies/Grim_Oculus_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Scrap_Tower/Standies/Grim_Oculus_2.0_back.png', 
 'Neither', 'Small', 'Construct', 0, 1, '0ST', '2ST', '2B 1R', '0ST', 2, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Steady
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --The Eye Is Open
@@ -3063,7 +3063,7 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 3
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (chXXX,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Scrap_Tower/Standies/Kabomb_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Scrap_Tower/Standies/Kabomb_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Scrap_Tower/Standies/Kabomb_2.0_back.png', 
 'Neither', 'Small', 'Construct', 0, 0, '1B', '0ST', '0ST', '0ST', 1, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Bouncing Betty
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Insignificant
@@ -3086,7 +3086,7 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (chXXX,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Sewer_Pipe/Standies/Sewer_Pipe_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Sewer_Pipe/Standies/Sewer_Pipe_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Sewer_Pipe/Standies/Sewer_Pipe_2.0_back.png', 
 'Neither', 'Small', 'Spawning Point', 0, 0, '', '1ST', '', '', 3, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Immune: Status Effects
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Infested
@@ -3104,7 +3104,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (cXXX);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (eXXX,
+VALUES (chXXX,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Sewer_Pipe/Standies/Fetch_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Sewer_Pipe/Standies/Fetch_2.0_back.png',
 'Masculine', 'Small', 'Goblin', 7, 1, '3B', '1ST', '1B', '2R', 1, 0);
@@ -3128,7 +3128,7 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (cXXX,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Sewer_Pipe/Standies/Guttersnipe_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Sewer_Pipe/Standies/Guttersnipe_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Sewer_Pipe/Standies/Guttersnipe_2.0_back.png', 
 'Neither', 'Small', 'Goblin', 7, 1, '3B', '0ST', '1B', '1B 1R', 1, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Mob
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Stealth
@@ -3150,7 +3150,7 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (chXXX,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Sewer_Pipe/Standies/Moffet_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Sewer_Pipe/Standies/Moffet_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Sewer_Pipe/Standies/Moffet_2.0_back.png', 
 'Feminine', 'Small', 'Goblin', 7, 2, '2B', '3B', '3B', '2B 1R', 3, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Dibs
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Sidestep
@@ -3175,7 +3175,7 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 3
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (chXXX,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Shadow_Tower/Standies/Shadow_Tower_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Shadow_Tower/Standies/Shadow_Tower_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Shadow_Tower/Standies/Shadow_Tower_2.0_back.png', 
 'Neither', 'Small', 'Spawning Point', 0, 0, '', '1ST', '', '', 3, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Immune: Status Effects
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Spawning Pool
@@ -3195,9 +3195,9 @@ insert into Characters (CardIndex) VALUES (cXXX);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1); --Citrine
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (eXXX,
+VALUES (chXXX,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Shadow_Tower/Standies/Arbalist_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Shadow_Tower/Standies/Arbalist_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Shadow_Tower/Standies/Arbalist_2.0_back.png', 
 'Masculine', 'Small', 'Nether Elf', 7, 1, '2B', '1ST', '3B', '3B', 1, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Dread
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Ice
@@ -3219,9 +3219,9 @@ insert into Characters (CardIndex) VALUES (cXXX);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1); --Citrine
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (cXXX,
+VALUES (chXXX,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Shadow_Tower/Standies/Blackblade_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Shadow_Tower/Standies/Blackblade_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Shadow_Tower/Standies/Blackblade_2.0_back.png', 
 'Masculine', 'Small', 'Nether Elf', 7, 1, '2B 1R', '1ST', '3B', '3B', 1, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Dread
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Surefoot
@@ -3243,7 +3243,7 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 3
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (chXXX,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Shadow_Tower/Standies/Stalker_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Shadow_Tower/Standies/Stalker_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Shadow_Tower/Standies/Stalker_2.0_back.png', 
 'Feminine', 'Small', 'Nether Elf', 8, 3, '3B 1R', '1B', '3B', '3B', 3, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Bane
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Dread
@@ -3270,7 +3270,7 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (chXXX,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Shadow_Warrens/Standies/Shadow_Warrens_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Shadow_Warrens/Standies/Shadow_Warrens_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Shadow_Warrens/Standies/Shadow_Warrens_2.0_back.png', 
 'Neither', 'Small', 'Paired Spawning Point', 0, 0, '', '1ST', '', '', 4, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Immune: Status Effects
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Spawning Pool
@@ -3288,9 +3288,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (cXXX);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 2); --Emerald
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (eXXX,
+VALUES (chXXX,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Shadow_Warrens/Standies/Dark_Lobber_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Shadow_Warrens/Standies/Dark_Lobber_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Shadow_Warrens/Standies/Dark_Lobber_2.0_back.png', 
 'Neither', 'Small', 'Kobold', 7, 1, '2B', '0ST', '2B', '2B 1R', 1, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Fire
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Hubris
@@ -3313,9 +3313,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (cXXX); 
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (cXXX,
+VALUES (chXXX,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Shadow_Warrens/Standies/Dimwit_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Shadow_Warrens/Standies/Dimwit_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Shadow_Warrens/Standies/Dimwit_2.0_back.png', 
 'Neither', 'Small', 'Kobold', 7, 1, '3B', '1ST', '2B', '1B 1R', 1, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Hubris
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Stealth
@@ -3336,7 +3336,7 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 4
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (chXXX,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Shadow_Warrens/Standies/Shadowscale_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Shadow_Warrens/Standies/Shadowscale_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Shadow_Warrens/Standies/Shadowscale_2.0_back.png', 
 'Neither', 'Small', 'Kobold', 7, 2, '2R', '2ST', '2B', '1B 1R', 1, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Hubris
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Stealth
@@ -3357,7 +3357,7 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 3
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (chXXX,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Shadow_Warrens/Standies/Shadow_Priest_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Shadow_Warrens/Standies/Shadow_Priest_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Shadow_Warrens/Standies/Shadow_Priest_2.0_back.png', 
 'Neither', 'Small', 'Kobold', 7, 3, '2B', '1B 1R', '2R', '1B 1R', 3, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Hubris
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Stealth
@@ -3380,7 +3380,7 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (chXXX,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Shadow_Warrens/Standies/Skewer_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Shadow_Warrens/Standies/Skewer_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Shadow_Warrens/Standies/Skewer_2.0_back.png', 
 'Neither', 'Small', 'Kobold', 7, 1, '3B', '0ST', '2B', '1B 1R', 1, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Hubris
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Stealth
@@ -3402,7 +3402,7 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (chXXX,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Siege_of_the_Citadel/Standies/Nepharite_Warlord_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Siege_of_the_Citadel/Standies/Nepharite_Warlord_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Siege_of_the_Citadel/Standies/Nepharite_Warlord_2.0_back.png', 
 'Neither', 'Large', 'Spawning Point', 2, 2, '2B 1R', '1ST', '2B 1R', '2B', 3, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Active Spawn
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Dark Nexus
@@ -3425,9 +3425,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (cXXX);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (eXXX,
+VALUES (chXXX,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Siege_of_the_Citadel/Standies/Siege_of_the_Citadel_Necromutant_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Siege_of_the_Citadel/Standies/Necromutant_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Siege_of_the_Citadel/Standies/Necromutant_2.0_back.png', 
 'Neither', 'Large', 'Chimera', 5, 2, '3B', '1ST', '1B', '1B', 2, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Mob
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Belzarach
@@ -3446,9 +3446,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (cXXX); 
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (cXXX,
+VALUES (chXXX,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Siege_of_the_Citadel/Standies/Undead_Legionnaire_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Siege_of_the_Citadel/Standies/Undead_Legionnaire_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Siege_of_the_Citadel/Standies/Undead_Legionnaire_2.0_back.png', 
 'Neither', 'Small', 'Undead', 5, 1, '2B', '0ST', '1B', '0ST', 2, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Mob
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Poison
@@ -3471,7 +3471,7 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (chXXX,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Skull_Stone/Standies/Skull_Stone_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Skull_Stone/Standies/Skull_Stone_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Skull_Stone/Standies/Skull_Stone_2.0_back.png', 
 'Neither', 'Small', 'Paired Spawning Point', 0, 0, '', '1ST', '', '', 4, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Brutality Aura
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Immune: Status Effects
@@ -3489,9 +3489,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (cXXX);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (eXXX,
+VALUES (chXXX,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Skull_Stone/Standies/Face_Beater_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Skull_Stone/Standies/Face_Beater_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Skull_Stone/Standies/Face_Beater_2.0_back.png', 
 'Neither', 'Small', 'Orc', 6, 1, '3B', '0ST', '1B', '2B', 2, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Bane
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Frenzy
@@ -3511,9 +3511,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (cXXX); 
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (cXXX,
+VALUES (chXXX,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Skull_Stone/Standies/Knuckle_Smasher_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Skull_Stone/Standies/Knuckle_Smasher_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Skull_Stone/Standies/Knuckle_Smasher_2.0_back.png', 
 'Neither', 'Small', 'Kobold', 7, 1, '3B', '1ST', '2B', '1B 1R', 1, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Frenzy
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Slow
@@ -3535,7 +3535,7 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (chXXX,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Skull_Stone/Standies/Neck_Splitter_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Skull_Stone/Standies/Neck_Splitter_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Skull_Stone/Standies/Neck_Splitter_2.0_back.png', 
 'Neither', 'Small', 'Orc', 6, 1, '3B', '0ST', '1B', '2B', 2, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Frenzy
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Massive Damage
@@ -3558,7 +3558,7 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (chXXX,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Spawn_of_Servitude/Standies/Spawn_of_Servitude_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Spawn_of_Servitude/Standies/Spawn_of_Servitude_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Spawn_of_Servitude/Standies/Spawn_of_Servitude_2.0_back.png', 
 'Neither', 'Small', 'Paired Spawning Point', 0, 0, '', '1ST', '', '', 4, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --SHAME!
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Immune: Status Effects
@@ -3576,9 +3576,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (cXXX);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 0); --Amethyst
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (eXXX,
+VALUES (chXXX,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Spawn_of_Servitude/Standies/Head_Nurse_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Spawn_of_Servitude/Standies/Head_Nurse_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Spawn_of_Servitude/Standies/Head_Nurse_2.0_back.png', 
 'Feminine', 'Small', 'Demon', 6, 2, '2B', '1B 1R', '1B 2R', '3B', 3, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Fly
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Obscene Whispers
@@ -3598,9 +3598,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (cXXX); 
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 0); --Amethyst
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (cXXX,
+VALUES (chXXX,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Spawn_of_Servitude/Standies/Potion_Mistress_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Spawn_of_Servitude/Standies/Potion_Mistress_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Spawn_of_Servitude/Standies/Potion_Mistress_2.0_back.png', 
 'Feminine', 'Small', 'Demon', 6, 2, '2B', '1ST', '2R', '3B', 2, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Afflict X
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Fly
@@ -3622,7 +3622,7 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 0
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (chXXX,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Spawn_of_Servitude/Standies/Wretch_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Spawn_of_Servitude/Standies/Wretch_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Spawn_of_Servitude/Standies/Wretch_2.0_back.png', 
 'Neither', 'Small', 'Demon', 6, 1, '3B', '0ST', '0ST', '3B', 1, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Sense Weakness
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 1, 1); --Strength
@@ -3643,7 +3643,7 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 2
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (chXXX,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Spider_Nest/Standies/Spider_Nest_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Spider_Nest/Standies/Spider_Nest_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Spider_Nest/Standies/Spider_Nest_2.0_back.png', 
 'Neither', 'Small', 'Spawning Point', 0, 0, '', '1ST', '', '', 3, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Immune: Status Effects
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Spawning Pool
@@ -3661,9 +3661,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (cXXX);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 2); --Emerald
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (eXXX,
+VALUES (chXXX,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Spider_Nest/Standies/Crawler_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Spider_Nest/Standies/Crawler_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Spider_Nest/Standies/Crawler_2.0_back.png', 
 'Neither', 'Large', 'Spider', 8, 1, '3B', '1ST', '1B', '3B', 1, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Immune: Poison
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Mob
@@ -3683,9 +3683,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (cXXX); 
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 2); --Emerald
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (cXXX,
+VALUES (chXXX,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Spider_Nest/Standies/Shadow_Spinner_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Spider_Nest/Standies/Shadow_Spinner_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Spider_Nest/Standies/Shadow_Spinner_2.0_back.png', 
 'Neither', 'Small', 'Spider', 8, 1, '2B', '0ST', '1B', '3B', 1, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Immune: Poison
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Mob
@@ -3710,7 +3710,7 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 3
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (chXXX,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Spider_Nest/Standies/Spider_Speaker_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Spider_Nest/Standies/Spider_Speaker_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Spider_Nest/Standies/Spider_Speaker_2.0_back.png', 
 'Feminine', 'Small', 'Nether Elf', 8, 3, '1B', '3B', '2R', '3B', 3, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Dread
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Immune: Poison
@@ -3756,7 +3756,7 @@ insert into Characters (CardIndex) VALUES (cXXX);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 2); --Emerald
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 4); --Sapphire
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (eXXX,
+VALUES (chXXX,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Watch_Tower/Standies/Longbowman_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Watch_Tower/Standies/Longbowman_2.0_back.png',
 'Male', 'Small', 'Human', 6, 1, '2B', '1ST', '1B 1R', '3B', 1, 0);
@@ -3776,7 +3776,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (cXXX); 
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 4); --Sapphire
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (cXXX,
+VALUES (chXXX,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Watch_Tower/Standies/Pikeman_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Watch_Tower/Standies/Pikeman_2.0_back.png',
 'Male', 'Small', 'Human', 6, 1, '3B', '1ST', '1B 1R', '2B', 1, 0);
