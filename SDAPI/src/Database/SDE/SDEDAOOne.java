@@ -1,19 +1,13 @@
 package Database.SDE;
 
-import Database.DAO;
-import static Database.DAO.closeConnection;
-import static Database.DAO.getConnect;
-import static Database.DAO.openConnection;
+import Database.RRI.RRIDAO;
 import SDE.Ability;
 import SDE.Keyword;
 import java.sql.CallableStatement;
-import java.sql.Connection;
 import java.sql.ResultSet;
-import java.sql.Statement;
-import java.util.List;
 import java.util.ArrayList;
 
-public class SDEDAOOne extends DAO{
+public class SDEDAOOne extends RRIDAO{
     
     public SDEDAOOne(){
         super();
