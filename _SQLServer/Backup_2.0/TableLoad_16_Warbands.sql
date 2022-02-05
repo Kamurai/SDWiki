@@ -922,7 +922,7 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 0
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (chXXX,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Yurei/Standies/Clan_Yurei_Yajiri_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Yurei/Standies/Clan_Yurei_ajiri_2.0_back.png', 
+'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Yurei/Standies/Clan_Yurei_Yajiri_2.0_back.png', 
 'Either', 'Small', 'Undead', 4, 1, '1B', '0ST', '3B', '3B', 1, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Dragged To The Depths
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 4, 8); --Dex
@@ -2740,7 +2740,7 @@ insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender
 VALUES (chXXX,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Nether_Clutch/Standies/Nether_Whelp_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Nether_Clutch/Standies/Nether_Whelp_2.0_back.png', 
-'Either', 'Small', 'Drake', 6, 1, '2B 1R', '0ST', '3B', '3B', 1, 0);
+'Either', 'Large', 'Drake', 6, 1, '2B 1R', '0ST', '3B', '3B', 1, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Knockdown
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Mighty
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Pile-on
@@ -2761,7 +2761,7 @@ insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender
 VALUES (chXXX,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Nether_Clutch/Standies/Nether_Wyrmling_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Nether_Clutch/Standies/Nether_Wyrmling_2.0_back.png', 
-'Either', 'Small', 'Drake', 6, 2, '2B 1R', '0ST', '3B', '3B', 2, 0);
+'Either', 'Large', 'Drake', 6, 2, '2B 1R', '0ST', '3B', '3B', 2, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Bane
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Fly
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Knockdown
@@ -3106,7 +3106,8 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (chXXX,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Sewer_Pipe/Standies/Fetch_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Sewer_Pipe/Standies/Fetch_2.0_back.png', 'Masculine', 'Small', 'Goblin', 7, 1, '3B', '1ST', '1B', '2R', 1, 0);
+'http://htkb.info/SDE/2.0/Cards/Warbands/Sewer_Pipe/Standies/Fetch_2.0_back.png',
+'Masculine', 'Small', 'Goblin', 7, 1, '3B', '1ST', '1B', '2R', 1, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Immobile
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Mob
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Yoink!
@@ -3723,3 +3724,107 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (e
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (eXXX, 'Elite', '16 Bit', 2);
 
 
+--Watch Tower
+--Watch Tower --CardIndex cXXX --CharacterIndex chXXX --ExploreCharacterIndex eXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Watch Tower',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Watch_Tower/Card_Warband_Watch_Tower_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Warbands/Watch_Tower/Card_Warband_Watch_Tower_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Watch_Tower/Watch_Tower.xhtml', 
+'Warband', '2.0', '2.0 Core Set', 'Explore',
+'The Crown Guard is the standing army of the King of Crystalia. Made up of highly trained and dedicated servants of the land, the Crown Guard is the primary bulwark against the forces of the Dark Consul. It is their duty to maintain order and security within Crystalia, so that Heroes have the freedom to strike at the heart of the Dark Consul''s dungeons. While Heroes and the Crown Guard work hand-in-hand, it is not uncommon for a Hero to cross the line with a bit of excessive celebration or occasional shady deal that puts them at odds with the Crown Guard.');
+insert into Characters (CardIndex) VALUES (cXXX); 
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 4); --Sapphire
+insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+VALUES (chXXX,
+'http://htkb.info/SDE/2.0/Cards/Warbands/Watch_Tower/Standies/Watch_Tower_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Warbands/Watch_Tower/Standies/Watch_Tower_2.0_back.png',
+'Neither', 'Large', 'Spawning Point', 0, 0, '', '1ST', '', '', 3, 0);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Immune: Status Effects
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Resolve Aura
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Spawning Pool
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (eXXX, 2); --Armor 
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (eXXX, 'Spawning Point', 'Start', 0);
+
+--Longbowman --CardIndex cXXX --CharacterIndex chXXX --ExploreCharacterIndex eXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Longbowman',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Watch_Tower/Card_Warband_Watch_Tower_Longbowman_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Warbands/Watch_Tower/Card_Warband_Watch_Tower_Longbowman_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Watch_Tower/Longbowman.xhtml', 
+'Warband', '2.0', '2.0 Core Set', 'Explore',
+'Longbowmen train from an early age to become masters of their craft. Drawing bows too thick and powerful for a normal person to use, Longbowmen can rain arrows down upon their foes with remarkable speed and accuracy.');
+insert into Characters (CardIndex) VALUES (cXXX);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 2); --Emerald
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 4); --Sapphire
+insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+VALUES (chXXX,
+'http://htkb.info/SDE/2.0/Cards/Warbands/Watch_Tower/Standies/Longbowman_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Warbands/Watch_Tower/Standies/Longbowman_2.0_back.png',
+'Male', 'Small', 'Human', 6, 1, '2B', '1ST', '1B 1R', '3B', 1, 0);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Wind of Blades
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 1, 1); --Strength
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 4, 8); --DEX
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (eXXX, 2); --Armor 
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (eXXX, 'Minion', '8 Bit', 1);
+
+--Pikeman --CardIndex cXXX --CharacterIndex chXXX --ExploreCharacterIndex eXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Pikeman',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Watch_Tower/Card_Warband_Watch_Tower_Pikeman_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Warbands/Watch_Tower/Card_Warband_Watch_Tower_Pikeman_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Watch_Tower/Pikeman.xhtml', 
+'Warband', '2.0', '2.0 Core Set', 'Explore',
+'Pikemen are the first line of defense among the Crown Guard. These proud warriors brandish long-hafted pikes, and train relentlessly in fighting as a unified regiment.');
+insert into Characters (CardIndex) VALUES (cXXX); 
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 4); --Sapphire
+insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+VALUES (chXXX,
+'http://htkb.info/SDE/2.0/Cards/Warbands/Watch_Tower/Standies/Pikeman_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Warbands/Watch_Tower/Standies/Pikeman_2.0_back.png',
+'Male', 'Small', 'Human', 6, 1, '3B', '1ST', '1B 1R', '2B', 1, 0);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Mob
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 1, 2); --Strength
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (eXXX, 2); --Armor 
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (eXXX, 'Minion', '8 Bit', 1);
+
+--Sergeant-At-Arms --CardIndex cXXX --CharacterIndex chXXX --ExploreCharacterIndex eXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Sergeant-At-Arms',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Watch_Tower/Card_Warband_Watch_Tower_Sergeant_At_Arms_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Warbands/Watch_Tower/Card_Warband_Watch_Tower_Sergeant_At_Arms_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Watch_Tower/Sergeant_At_Arms.xhtml', 
+'Warband', '2.0', '2.0 Core Set', 'Explore',
+'Sergeants-at-Arms are veteran soldiers, who have spent their life in service to Crystalia and its people. They are cunning tacticians who survey the field of battle and ensure their troops are being used in the most efficient and effective manner possible.');
+insert into Characters (CardIndex) VALUES (cXXX); 
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 4); --Sapphire
+insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+VALUES (chXXX,
+'http://htkb.info/SDE/2.0/Cards/Warbands/Watch_Tower/Standies/Sergeant_At_Arms_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Warbands/Watch_Tower/Standies/Sergeant_At_Arms_2.0_back.png',
+'Male', 'Small', 'Human', 6, 2, '2B 1R', '2R', '3B', '2B', 3, 0);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Augment
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Feint
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Mob
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Clear the Ramparts
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Veteran Tactics
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Redouble
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 3, 6); --Will
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (eXXX, 2); --Armor 
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (eXXX, 'Elite', '16 Bit', 2);
+
+--Swordsman --CardIndex cXXX --CharacterIndex chXXX --ExploreCharacterIndex eXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Swordsman',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Watch_Tower/Card_Warband_Watch_Tower_Swordsman_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Warbands/Watch_Tower/Card_Warband_Watch_Tower_Swordsman_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Watch_Tower/Swordsman.xhtml', 
+'Warband', '2.0', '2.0 Core Set', 'Explore',
+'Swordmen are specially trained soldiers within the Crown Guard tasked with protecting their fellow soldiers, and the innocent, in battle. Long hours are spent training with their shields, learning to use it in the defense of themselves and others.');
+insert into Characters (CardIndex) VALUES (cXXX); 
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 4); --Sapphire
+insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+VALUES (chXXX,
+'http://htkb.info/SDE/2.0/Cards/Warbands/Watch_Tower/Standies/Swordsman_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Warbands/Watch_Tower/Standies/Swordsman_2.0_back.png',
+'Male', 'Small', 'Human', 6, 1, '3B', '2ST', '1B 1R', '2B', 1, 0);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Defender
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Mob
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 1, 1); --Strength
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (eXXX, 2); --Armor 
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (eXXX, 'Minion', '8 Bit', 1);
