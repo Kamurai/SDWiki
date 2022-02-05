@@ -1,10 +1,10 @@
---drop PROCEDURE SDWikiPullAllPets;
+--drop PROCEDURE SDWikiPullAllElites;
 
-create PROCEDURE SDWikiPullAllPets
+create PROCEDURE SDWikiPullAllElites
 AS
 BEGIN
 	select * 
-	from PetsViewMultiLine
+	from ExploreElitesViewMultiLine
 	Order By ProductSet desc, CardName asc
 	;
 END

@@ -1,5 +1,7 @@
 --drop PROCEDURE SDWikiPullOneKeyword;
 
+--Currently out of commission
+
 create PROCEDURE SDWikiPullOneKeyword(
 	@intCardLink varChar(100)
 )

@@ -2265,14 +2265,14 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Pets/Admiral_Fuzzybottom.xhtml', 
 'Pet', 'FK', 'FK Core Set', 'Default', 
 'Who''s a good kitty?');
-insert into Characters (CardIndex) VALUES (215;
+insert into Characters (CardIndex) VALUES (215);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (130, 337); --Small
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (130, 283); --Master Gains Happy Cat
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (130, 366); --Happy Cat
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (130,
 'http://htkb.info/SDE/FK/Cards/Pets/Standies/Admiral_Fuzzybottom_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Pets/Standies/Admiral_Fuzzybottom_FK_back.png'),
+'http://htkb.info/SDE/FK/Cards/Pets/Standies/Admiral_Fuzzybottom_FK_back.png',
 'Either', 'Small', 'Wonder', 7, 1, '3B', '2ST', '', '', 0, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (130, 1, 1);
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (130, 2);
@@ -11848,11 +11848,12 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/FK/SDArena/Cards/Heroes/Arena_Champion.xhtml', 
 'Hero', 'FK SDArena', 'FK SDArena Core Set', 'Default', 
 'The fennek are a reclusive race.  To see one participate in the Arena is shocking.  To see one rise to become Arena Champion is almost unfathomable.  Yet there are rumors that the fennek secretly run the Arena, searching for Heroes worthy of defending the far-flung roots of the Deeproot Tree.  Indeed, those rare few Heroes who ahve defeated the reigning Arena Champion have all gone on to achieve legendary deeds in serivce of the Deeproot.  Perhaps there is truth to the rumors after all?');
-insert into Characters (CardIndex) VALUES (737, 
-'http://htkb.info/SDE/FK/SDArena/Cards/Heroes/Standies/Arena_Champion_FK_SDArena.png', 
-'http://htkb.info/SDE/FK/SDArena/Cards/Heroes/Standies/Arena_Champion_FK_SDArena_back.png');
+insert into Characters (CardIndex) VALUES (737);
 insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
-347, 'Feminine', 'Small', 'Fennek', 6, 3, '2B1R', '2R', '2B', '3B', 5, 1);
+347, 
+'http://htkb.info/SDE/FK/SDArena/Cards/Heroes/Standies/Arena_Champion_FK_SDArena.png', 
+'http://htkb.info/SDE/FK/SDArena/Cards/Heroes/Standies/Arena_Champion_FK_SDArena_back.png', 
+'Feminine', 'Small', 'Fennek', 6, 3, '2B1R', '2R', '2B', '3B', 5, 1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (347, 1); --Citrine
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (347, 2); --Emerald
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (252, 248); --Heal X

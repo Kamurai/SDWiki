@@ -3,8 +3,7 @@
 create PROCEDURE SDWikiPullNavigationAbilities
 AS
 BEGIN
-	select distinct CardName, ProductSet, Link, PictureFront
+	select distinct AbilityName, AbilityVersion, PlayMode--, Link
 	from AbilitiesView
-	Order By ProductSet desc, CardName asc
 	;
 END

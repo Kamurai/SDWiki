@@ -1,5 +1,7 @@
 --drop PROCEDURE SDWikiPullOneAbility;
 
+--This is currently out of commission
+
 create PROCEDURE SDWikiPullOneAbility(
 	@intCardLink varChar(100)
 )

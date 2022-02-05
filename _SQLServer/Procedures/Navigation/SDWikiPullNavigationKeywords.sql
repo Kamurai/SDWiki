@@ -3,7 +3,7 @@
 create PROCEDURE SDWikiPullNavigationKeywords
 AS
 BEGIN
-	select distinct CardName, ProductSet, Link, PictureFront
+	select distinct KeywordName, KeywordVersion, PlayMode--, Link
 	from KeywordsView
 	;
 END
