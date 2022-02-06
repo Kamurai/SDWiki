@@ -1,14 +1,11 @@
 package Database.SDE;
 
-import Database.DAO;
+import Database.RRI.RRIDAO;
 import java.sql.CallableStatement;
-import java.sql.Connection;
 import java.sql.ResultSet;
-import java.sql.Statement;
-import java.util.List;
 import java.util.ArrayList;
 
-public class SDEDAONavigation extends DAO{
+public class SDEDAONavigation extends RRIDAO{
     
     public SDEDAONavigation(){
         super();
