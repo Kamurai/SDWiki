@@ -172,6 +172,29 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (eXXX, 2); --Armor
 insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (eXXX, 1, -1);
 
+--Ice Hard Buttinski --CardIndex cXXX	--CharacterIndex chXXX	--ExploreCharacterIndex eXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ice Hard Buttinski',
+'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Ice_Hard_Buttinski_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Ice_Hard_Buttinski_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Pets/Ice_Hard_Buttinski.xhtml', 
+'Pet', '2.0', '2.0 Core Set', 'Default', 
+''); --!! unavailable !!
+insert into Characters (CardIndex) VALUES (cXXX);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 4); --Sapphire
+insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+VALUES (chXXX,
+'http://htkb.info/SDE/2.0/Cards/Standies/Ice_Hard_Buttinski_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Standies/Ice_Hard_Buttinski_2.0_back.png',
+'Neither', 'Small', 'Pet', 6, 1, '2R', '3B', '2G 2R', '3B', 2, 0);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Master Gains Surefoot
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Pounce
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Stubborn Goat
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Surefoot
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Mighty Leap
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 1, 1); --Strength
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (eXXX, 2); --Armor
+insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (eXXX, 2, 6);
+
 --Inspector Honeyscout --CardIndex cXXX	--CharacterIndex chXXX	--ExploreCharacterIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Inspector Honeyscout',
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Inspector_Honeyscout_2.0.png', 
@@ -285,6 +308,29 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (eXXX, 2); --Armor
 insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (eXXX, 2, 2);
 
+--Lord Turlington Icemon --CardIndex cXXX	--CharacterIndex chXXX	--ExploreCharacterIndex eXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Lord Turlington Icemon',
+'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Lord_Turlington_Icemon_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Lord_Turlington_Icemon_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Pets/Lord_Turlington_Icemon.xhtml', 
+'Pet', '2.0', '2.0 Core Set', 'Default', 
+'');--!! unavailable !!
+insert into Characters (CardIndex) VALUES (cXXX);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 4); --Sapphire
+insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+VALUES (chXXX,
+'http://htkb.info/SDE/2.0/Cards/Standies/Lord_Turlington_Icemon_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Standies/Lord_Turlington_Icemon_2.0_back.png',
+'Male', 'Small', 'Pet', 6, 2, '1ST 2B', '1ST 2B', '1ST', '1ST', 2, 0);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Ice
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Immune: Status Effects
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Master Gains Immune: Status Effects
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Small
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Icy Sneeze
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 1, 1); --Strength
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (eXXX, 2); --Armor
+insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (eXXX, 3, 8);
+
 --Madam Hilde --CardIndex cXXX	--CharacterIndex chXXX	--ExploreCharacterIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Madam Hilde',
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Madam_Hilde_2.0.png', 
@@ -325,6 +371,26 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXX
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Small
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Flies To My Web
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 1, 1); --Strength
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (eXXX, 2); --Armor
+insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (eXXX, 2, -1);
+
+--Mighty Kowalski --CardIndex cXXX	--CharacterIndex chXXX	--ExploreCharacterIndex eXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Mighty Kowalski',
+'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Mighty_Kowalski_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Mighty_Kowalski_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Pets/Mighty_Kowalski.xhtml', 
+'Pet', '2.0', '2.0 Core Set', 'Default', 
+'');--!! unavailable !!
+insert into Characters (CardIndex) VALUES (cXXX);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 4); --Sapphire
+insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+VALUES (chXXX,
+'http://htkb.info/SDE/2.0/Cards/Standies/Mighty_Kowalski_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Standies/Mighty_Kowalski_2.0_back.png',
+'Neither', 'Small', 'Pet', 6, 1, '3B', '1ST', '3B', '3B', 2, 0);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Throw Me A Fish
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Snowball Fight
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 4, 4); --Dex
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (eXXX, 2); --Armor
 insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (eXXX, 2, -1);
 
@@ -790,6 +856,48 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (eXXX, 2); --Armor
 insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (eXXX, 2, 2);
 
+--Poe --CardIndex cXXX	--CharacterIndex chXXX	--ExploreCharacterIndex eXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Poe',
+'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Poe_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Poe_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Pets/Poe.xhtml', 
+'Pet', '2.0', '2.0 Core Set', 'Default', 
+'');--!! unavailable !!
+insert into Characters (CardIndex) VALUES (cXXX);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 4); --Sapphire
+insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+VALUES (chXXX,
+'http://htkb.info/SDE/2.0/Cards/Standies/Poe_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Standies/Poe_2.0_back.png',
+'Neither', 'Small', 'Pet', 6, 1, '0ST', '1ST', '3B', '2B', 2, 0);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Bane
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Despair
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Master Gains Despair
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Deathmark
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 3, 3); --WILL
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (eXXX, 2); --Armor
+insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (eXXX, 2, 2);
+
+--Puddin' --CardIndex cXXX	--CharacterIndex chXXX	--ExploreCharacterIndex eXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Puddin''',
+'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Puddin_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Puddin_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Pets/Puddin.xhtml', 
+'Pet', '2.0', '2.0 Core Set', 'Default', 
+'');--!! unavailable !!
+insert into Characters (CardIndex) VALUES (cXXX);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 4); --Sapphire
+insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+VALUES (chXXX,
+'http://htkb.info/SDE/2.0/Cards/Standies/Puddin_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Standies/Puddin_2.0_back.png',
+'Neither', 'Small', 'Pet', 6, 1, '3B', '3B', '1B', '3B', 3, 0);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Augment
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Ambush Predator
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 1, 2); --Strength
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (eXXX, 2); --Armor
+insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (eXXX, 2, -1);
+
 --Sabertooth Kitty --CardIndex cXXX	--CharacterIndex chXXX	--ExploreCharacterIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('ASabertooth Kitty',
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Sabertooth_Kitty_2.0.png', 
@@ -852,6 +960,52 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXX
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Small
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Strike
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Serpent Strike
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 1, 1); --Strength
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (eXXX, 2); --Armor
+insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (eXXX, 2, -1);
+
+--Sergeant of Winterwatch --CardIndex cXXX	--CharacterIndex chXXX	--ExploreCharacterIndex eXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Lord Turlington Icemon',
+'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Sergeant_of_Winterwatch_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Sergeant_of_Winterwatch_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Pets/Sergeant_of_Winterwatch.xhtml', 
+'Pet', '2.0', '2.0 Core Set', 'Default', 
+'');--!! unavailable !!
+insert into Characters (CardIndex) VALUES (cXXX);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 4); --Sapphire
+insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+VALUES (chXXX,
+'http://htkb.info/SDE/2.0/Cards/Standies/Sergeant_of_Winterwatch_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Standies/Sergeant_of_Winterwatch_2.0_back.png',
+'Neither', 'Large', 'Pet', 6, 2, '3B', '3B', '3B', '3B', 2, 0);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Augment
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Bane
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Emergency Supply
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Heals X
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Knockdown
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Trip
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Resupply
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 1, 1); --Strength
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (eXXX, 2); --Armor
+insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (eXXX, 3, -1);
+
+--Shmellow Powderpuff --CardIndex cXXX	--CharacterIndex chXXX	--ExploreCharacterIndex eXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Shmellow Powderpuff',
+'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Shmellow_Powderpuff_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Shmellow_Powderpuff_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Pets/Shmellow_Powderpuff.xhtml', 
+'Pet', '2.0', '2.0 Core Set', 'Default', 
+'');--!! unavailable !!
+insert into Characters (CardIndex) VALUES (cXXX);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 4); --Sapphire
+insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+VALUES (chXXX,
+'http://htkb.info/SDE/2.0/Cards/Standies/Shmellow_Powderpuff_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Standies/Shmellow_Powderpuff_2.0_back.png',
+'Neither', 'Small', 'Pet', 6, 1, '3B', '3B', '2B', '2R', 3, 0);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Augment
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Clever
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Yip! Yip!
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 1, 1); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (eXXX, 2); --Armor
 insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (eXXX, 2, -1);
