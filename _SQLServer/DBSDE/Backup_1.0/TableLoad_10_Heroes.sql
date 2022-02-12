@@ -41,8 +41,8 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (1
 
 --Candy & Cola --Index 2
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Candy & Cola', 
-'http://htkb.info/SDE/1.0/Cards/Heroes/Standies/Candy_And_Cola_1.0.png', 
-'http://htkb.info/SDE/1.0/Cards/Heroes/Standies/Candy_And_Cola_1.0_back.png', 
+'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Hero_Candy_And_Cola_1.0.png', 
+'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Hero_Candy_And_Cola_1.0_back.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Heroes/Candy_And_Cola.xhtml', 
 'Hero', '1.0', '1.0 Core Set', 'Default',   
 'No strangers to heroic adventure, the dynamic duo of Candy and Cola have come to the realm of Crystalia to deliver sugar fueled justice to the Consul and his villainous minions.  With a well stocked supply of soda there is no challenge too great or adversary that cannot be bested.  Adventuring has never been so sweet!');
@@ -83,8 +83,8 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (3
 
 --Claw Tribe Barbarian --Index 4
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Claw Tribe Barbarian', 
-'http://htkb.info/SDE/1.0/Cards/Heroes/Standies/Claw_Tribe_Barbarian_1.0.png', 
-'http://htkb.info/SDE/1.0/Cards/Heroes/Standies/Claw_Tribe_Barbarian_1.0_back.png', 
+'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Hero_Claw_Tribe_Barbarian_1.0.png', 
+'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Hero_Claw_Tribe_Barbarian_1.0_back.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Heroes/Claw_Tribe_Barbarian.xhtml', 
 'Hero', '1.0', '1.0 Core Set', 'Default',   
 'Born of fire and hardship, barbarians come from the edges of the Dragonback Peaks.  The hard lives they can scrape out of the rough earth and fiery landscape is meager at best, it is no wonder that many take to wandering.');
