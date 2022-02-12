@@ -368,7 +368,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (1, 2); --Armor
 
 --Candy & Cola --Index 2
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Candy & Cola', 
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Candy And Cola', 
 'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Hero_Candy_And_Cola_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Hero_Candy_And_Cola_1.0_back.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Heroes/Candy_And_Cola.xhtml', 
@@ -1215,8 +1215,8 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (39,
 
 --Hatchlings --Index 40
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Hatchlings',
-'http://htkb.info/SDE/1.0/Cards/Warbands/Egg_Clutch/Standies/Hatchlings_1.0.png', 
-'http://htkb.info/SDE/1.0/Cards/Warbands/Egg_Clutch/Standies/Hatchlings_1.0_back.png', 
+'http://htkb.info/SDE/1.0/Cards/Warbands/Egg_Clutch/Card_Warband_Hatchlings_1.0.png', 
+'http://htkb.info/SDE/1.0/Cards/Warbands/Egg_Clutch/Card_Warband_Hatchlings_1.0_back.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Warbands/Egg_Clutch/Hatchlings.xhtml', 
 'Warband', '1.0', '1.0 Core Set', 'Explore',
 'Even the smallest of drakes can be a serious threat in numbers.  Quick footed, sharp toothed, and very hungry, Hatchlings swarm over anything at their height and have made move than one quick meal of a wounded hero.');
@@ -1249,8 +1249,8 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (41,
 
 --Wyrmling --Index 42
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Wyrmling',
-'http://htkb.info/SDE/1.0/Cards/Warbands/Egg_Clutch/Standies/Egg_Clutch_Wyrmling_1.0.png', 
-'http://htkb.info/SDE/1.0/Cards/Warbands/Egg_Clutch/Standies/Egg_Clutch_Wyrmling_1.0_back.png', 
+'http://htkb.info/SDE/1.0/Cards/Warbands/Egg_Clutch/Card_Warband_Egg_Clutch_Wyrmling_1.0.png', 
+'http://htkb.info/SDE/1.0/Cards/Warbands/Egg_Clutch/Card_Warband_Egg_Clutch_Wyrmling_1.0_back.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Warbands/Egg_Clutch/Wyrmling.xhtml', 
 'Warband', '1.0', '1.0 Core Set', 'Explore',
 'Wyrmlings have so far managed to not be eaten by kin or kobold and are nearing maturity.  They wheel around the caverns and their mountain hunting grounds, on newly sprouted wings, feeding on foolish trespassers.');
