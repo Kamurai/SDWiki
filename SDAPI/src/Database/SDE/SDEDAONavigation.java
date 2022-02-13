@@ -5,7 +5,7 @@ import java.sql.CallableStatement;
 import java.sql.ResultSet;
 import java.util.ArrayList;
 
-public class SDEDAONavigation extends RRIDAO{
+public class SDEDAONavigation extends SDEDAO{
     
     public SDEDAONavigation(){
         super();

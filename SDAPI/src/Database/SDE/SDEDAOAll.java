@@ -7,7 +7,7 @@ import java.sql.CallableStatement;
 import java.sql.ResultSet;
 import java.util.ArrayList;
 
-public class SDEDAOAll extends RRIDAO{
+public class SDEDAOAll extends SDEDAO{
     
     public SDEDAOAll(){
         super();
