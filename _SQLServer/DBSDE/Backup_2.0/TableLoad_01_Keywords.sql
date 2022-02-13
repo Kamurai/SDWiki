@@ -748,7 +748,7 @@
 /*Strength of Virtue				--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Strength of Virtue', 'When a model with Strength of Virtue would gain a status effect, it may roll 1b.  If any 0st are rolled, it does not gain the status effect.');
 /*Strike							--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Strike', 'This Pet’s Master gains Pounce on its basic Melee attack if it has one and it began its activation within 2 squares of this Pet.');
 
-/*Stubborn Goat						--Index kXXX */	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Stubborn Goat', 'This doesn’t allow him to move during his activation unless the Heroes choose to discard one loot card from the backpack. Stubborn Goat!'); --!
+/*Stubborn Goat						--Index kXXX */	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Stubborn Goat', 'This doesn’t allow him to move during his activation unless the Heroes choose to discard one loot card from the backpack.'); --!
 
 /*Sturdy							--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Sturdy', 'A model with Sturdy never suffers more than a single wound from a single action, such as critical hits or Massive Damage.');
 /*Super Annoying					--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Super Annoying', 'Heroes that begin their activation adjacent to this model gain 1 additional Movement during the activation.');
