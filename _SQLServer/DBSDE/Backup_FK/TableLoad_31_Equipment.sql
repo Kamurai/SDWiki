@@ -1009,7 +1009,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/FK/SDArena/Cards/Loot/Freyjan_War_Paws.xhtml', 
 'Loot', 'FK SDArena', 'FK SDArena Core Set', 'Default',
 'Kitty''s got claws!');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (533, 'Loot' 'Top', '+1R STR');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (533, 'Loot', 'Top', '+1R STR');
 
 
 --Frostbyte Blade			--CardIndex 534		--EquipmentIndex 174 
@@ -1661,7 +1661,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/FK/SDArena/Cards/Loot/Potion_Bandolier.xhtml', 
 'Loot', 'FK SDArena', 'FK SDArena Core Set', 'Default',
 'They taste so good.');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (593, 'Loot' 'Bottom', '+1 Potion');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (593, 'Loot', 'Bottom', '+1 Potion');
 
 
 --Pumpkin Bomb					--CardIndex 594		--EquipmentIndex 234 

@@ -4,8 +4,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/2.0/Cards/Creeps/Card_Creep_Chochin-Obake_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Creeps/Card_Creep_Chochin-Obake_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Creeps/Chochin_Obake.xhtml', 
-'When spirits seek to break the veil between life and death it is the Chochin-Obake who light their way.  The more powerful of these ghostly apparitions pull the Chochin-Obake through with them so that the ghostly minions can illuminate the souls of the living.');
 'Creep', '2.0', '2.0 Core Set', 'Default', 
+'When spirits seek to break the veil between life and death it is the Chochin-Obake who light their way.  The more powerful of these ghostly apparitions pull the Chochin-Obake through with them so that the ghostly minions can illuminate the souls of the living.');
 insert into Characters (CardIndex) VALUES (cXXX);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 0); --Amethyst
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
@@ -26,8 +26,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/2.0/Cards/Creeps/Card_Creep_Curse_Raven_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Creeps/Card_Creep_Curse_Raven_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Creeps/Curse_Raven.xhtml', 
-'In the frozen lands of Frostbyte Reach, there is a legend about the Curse Raven. It is said that if you see one, someone close to you is on their way to death. It is not known if Curse Ravens cause the demise, or merely warn of the impending doom, but they are a dreaded sight either way.');
 'Creep', '2.0', '2.0 Core Set', 'Default', 
+'In the frozen lands of Frostbyte Reach, there is a legend about the Curse Raven. It is said that if you see one, someone close to you is on their way to death. It is not known if Curse Ravens cause the demise, or merely warn of the impending doom, but they are a dreaded sight either way.');
 insert into Characters (CardIndex) VALUES (cXXX);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 2); --Emerald
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
@@ -48,8 +48,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/2.0/Cards/Creeps/Card_Creep_Demolitions_Expert_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Creeps/Card_Creep_Demolitions_Expert_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Creeps/Demolitions_Expert.xhtml', 
-'Accidents are known to happen.');
 'Creep', '2.0', '2.0 Core Set', 'Default', 
+'Accidents are known to happen.');
 insert into Characters (CardIndex) VALUES (cXXX);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
@@ -71,8 +71,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/2.0/Cards/Creeps/Card_Creep_Dirty_Rat_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Creeps/Card_Creep_Dirty_Rat_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Creeps/Dirty_Rat.xhtml', 
-'While giant rats are not uncommon in the dungeons of Crystalia, those in the employ of the Pauper Prince are a particular nuisance. The Prince has an uncanny knack for training the rats to be his eyes and ears, and even to perform the occasional bit of petty theft.');
 'Creep', '2.0', '2.0 Core Set', 'Default', 
+'While giant rats are not uncommon in the dungeons of Crystalia, those in the employ of the Pauper Prince are a particular nuisance. The Prince has an uncanny knack for training the rats to be his eyes and ears, and even to perform the occasional bit of petty theft.');
 insert into Characters (CardIndex) VALUES (cXXX);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
@@ -93,8 +93,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/2.0/Cards/Creeps/Card_Creep_Fire_Flower_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Creeps/Card_Creep_Fire_Flower_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Creeps/Fire_Flower.xhtml', 
-'Fire Flowers are primitive by kodama standards, but it is a foolish Hero who underestimates these fire-spitting carnivores. Congregating in vast fields atop molten rock, fire flowers soak up the fiery heat to fuel their furnace-like fire chambers. When prey nears the entire field of flowers vomits forth a raining shower of fire, barbecuing their delicious meal to a perfect charbroil.');
 'Creep', '2.0', '2.0 Core Set', 'Default', 
+'Fire Flowers are primitive by kodama standards, but it is a foolish Hero who underestimates these fire-spitting carnivores. Congregating in vast fields atop molten rock, fire flowers soak up the fiery heat to fuel their furnace-like fire chambers. When prey nears the entire field of flowers vomits forth a raining shower of fire, barbecuing their delicious meal to a perfect charbroil.');
 insert into Characters (CardIndex) VALUES (cXXX);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
@@ -116,8 +116,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/2.0/Cards/Creeps/Card_Creep_Forge_Gnome_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Creeps/Card_Creep_Forge_Gnome_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Creeps/Forge_Gnome.xhtml', 
-'Master artificers themselves, it is no surprise that some gnomes are willing to abandon all in pursuit of their craft--despite the risks. Lured by forbidden knowledge, Forge Gnomes have fallen to the Dark in order to apprentice under Lord Vulcanis. Though the skills they acquire are many, the cost they pay is high as the will of the Dark Consul slowly twists and subverts them into little more than monsters.');
 'Creep', '2.0', '2.0 Core Set', 'Default', 
+'Master artificers themselves, it is no surprise that some gnomes are willing to abandon all in pursuit of their craft--despite the risks. Lured by forbidden knowledge, Forge Gnomes have fallen to the Dark in order to apprentice under Lord Vulcanis. Though the skills they acquire are many, the cost they pay is high as the will of the Dark Consul slowly twists and subverts them into little more than monsters.');
 insert into Characters (CardIndex) VALUES (cXXX);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
@@ -137,8 +137,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/2.0/Cards/Creeps/Card_Creep_Frost_Imp_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Creeps/Card_Creep_Frost_Imp_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Creeps/Frost_Imp.xhtml', 
-'');--!! unavailable !!
 'Creep', '2.0', '2.0 Core Set', 'Default', 
+'');--!! unavailable !!
 insert into Characters (CardIndex) VALUES (cXXX);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 4); --Sapphire
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
@@ -158,8 +158,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/2.0/Cards/Creeps/Card_Creep_Ghostflame_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Creeps/Card_Creep_Ghostflame_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Creeps/Ghostflame.xhtml', 
-'Ghostflames are flaming skulls, taken by Mordred as trophies from the heroes he has vanquished in honorable combat. They still speak in their old voices, chattering and taunting heroes who may have once called them friends. Mordred grows in power with each skull he claims, and when they are vanquished they explode in a fiery burst.');
 'Creep', '2.0', '2.0 Core Set', 'Default', 
+'Ghostflames are flaming skulls, taken by Mordred as trophies from the heroes he has vanquished in honorable combat. They still speak in their old voices, chattering and taunting heroes who may have once called them friends. Mordred grows in power with each skull he claims, and when they are vanquished they explode in a fiery burst.');
 insert into Characters (CardIndex) VALUES (cXXX);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
@@ -179,8 +179,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/2.0/Cards/Creeps/Card_Creep_Kabomb_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Creeps/Card_Creep_Kabomb_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Creeps/Kabomb.xhtml', 
-'');--!! unavailable !!
 'Creep', '2.0', '2.0 Core Set', 'Default', 
+'');--!! unavailable !!
 insert into Characters (CardIndex) VALUES (cXXX);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
@@ -200,8 +200,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/2.0/Cards/Creeps/Card_Creep_Kodead_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Creeps/Card_Creep_Kodead_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Creeps/Kodead.xhtml', 
-'The dragon Nightsong had a cult of kobolds who worshipped him, just as a cult is devoted to each dragon of Crystalia. When Nightsong was swallowed by the Nether Rifts, so too were the kobolds who followed him. Not to be the only dragon without a proper kobold cult, Nightsong resurrected them, and they remain his most loyal servants.');
 'Creep', '2.0', '2.0 Core Set', 'Default', 
+'The dragon Nightsong had a cult of kobolds who worshipped him, just as a cult is devoted to each dragon of Crystalia. When Nightsong was swallowed by the Nether Rifts, so too were the kobolds who followed him. Not to be the only dragon without a proper kobold cult, Nightsong resurrected them, and they remain his most loyal servants.');
 insert into Characters (CardIndex) VALUES (cXXX);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
@@ -221,8 +221,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/2.0/Cards/Creeps/Card_Creep_Nether_Imp_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Creeps/Card_Creep_Nether_Imp_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Creeps/Nether_Imp.xhtml', 
-'Like all imps, Nether Imps are infinitely playful and mischievous. However, being born of the Dark Realms, their mischief is a tad more malicious than most. Where a typical imp may leave an egg in your boot, a Nether Imp will chuckle as it sets your feet aflame with the baleful fires of the Nether Rifts. It''s not the imp''s fault if you can''t take a joke.');
 'Creep', '2.0', '2.0 Core Set', 'Default', 
+'Like all imps, Nether Imps are infinitely playful and mischievous. However, being born of the Dark Realms, their mischief is a tad more malicious than most. Where a typical imp may leave an egg in your boot, a Nether Imp will chuckle as it sets your feet aflame with the baleful fires of the Nether Rifts. It''s not the imp''s fault if you can''t take a joke.');
 insert into Characters (CardIndex) VALUES (cXXX);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
@@ -243,8 +243,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/2.0/Cards/Creeps/Card_Creep_Rotten Pumpkin_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Creeps/Card_Creep_Rotten Pumpkin_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Creeps/Rotten Pumpkin.xhtml', 
-'');--!! unavailable !!
 'Creep', '2.0', '2.0 Core Set', 'Default', 
+'');--!! unavailable !!
 insert into Characters (CardIndex) VALUES (cXXX);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 0); --Amethyst
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
@@ -265,8 +265,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/2.0/Cards/Creeps/Card_Creep_Spiker_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Creeps/Card_Creep_Spiker_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Creeps/Spiker.xhtml', 
-'');--!! unavailable !!
 'Creep', '2.0', '2.0 Core Set', 'Default', 
+'');--!! unavailable !!
 insert into Characters (CardIndex) VALUES (cXXX);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
@@ -286,8 +286,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/2.0/Cards/Creeps/Card_Creep_Spiteful_Cherub_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Creeps/Card_Creep_Spiteful_Cherub_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Creeps/Spiteful_Cherub.xhtml', 
-'So great is Araphel''s will and spite that it manifests as physical flesh and bone, creating Spiteful Cherubs that fly about her, whispering hateful truths and vicious lies. Araphel uses them as her eyes and ears, but also as her messengers, keeping in constant communication with her Devoted. Araphel is a spider and she uses her Cerubs to spin her web of lies and trickery.');
 'Creep', '2.0', '2.0 Core Set', 'Default', 
+'So great is Araphel''s will and spite that it manifests as physical flesh and bone, creating Spiteful Cherubs that fly about her, whispering hateful truths and vicious lies. Araphel uses them as her eyes and ears, but also as her messengers, keeping in constant communication with her Devoted. Araphel is a spider and she uses her Cerubs to spin her web of lies and trickery.');
 insert into Characters (CardIndex) VALUES (cXXX);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 0); --Amethyst
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
@@ -306,8 +306,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/2.0/Cards/Creeps/Card_Creep_Squigly_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Creeps/Card_Creep_Squigly_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Creeps/Squigly.xhtml', 
-'Squigglies plague Clockwork Cove. Don''t let their cute appearance fool you, these tiny creatures are devoted minions of the Dark Consul. They have been used to weaken the supports of docks, clog up the gears of various machinery, and generally be a thorn in the side of any hero who stands up against the forces of darkness.');
 'Creep', '2.0', '2.0 Core Set', 'Default', 
+'Squigglies plague Clockwork Cove. Don''t let their cute appearance fool you, these tiny creatures are devoted minions of the Dark Consul. They have been used to weaken the supports of docks, clog up the gears of various machinery, and generally be a thorn in the side of any hero who stands up against the forces of darkness.');
 insert into Characters (CardIndex) VALUES (cXXX);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 0); --Amethyst
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
@@ -327,8 +327,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/2.0/Cards/Creeps/Card_Creep_Underdead_Crow_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Creeps/Card_Creep_Underdead_Crow_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Creeps/Underdead_Crow.xhtml', 
-'');--!! unavailable !!
 'Creep', '2.0', '2.0 Core Set', 'Default', 
+'');--!! unavailable !!
 insert into Characters (CardIndex) VALUES (cXXX);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 0); --Amethyst
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
@@ -349,8 +349,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/2.0/Cards/Creeps/Card_Creep_Waystone_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Creeps/Card_Creep_Waystone_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Creeps/Waystone.xhtml', 
-'Waystones are used by the Jotnar to mark the icy paths of the Skull White Fastness and lead weary travelers to safety. Ymnaur Wintersson also uses waystones, but he has woven dark magic into them, and uses them to make him near-invulnerable while he remains in his frozen realm.');
 'Creep', '2.0', '2.0 Core Set', 'Default', 
+'Waystones are used by the Jotnar to mark the icy paths of the Skull White Fastness and lead weary travelers to safety. Ymnaur Wintersson also uses waystones, but he has woven dark magic into them, and uses them to make him near-invulnerable while he remains in his frozen realm.');
 insert into Characters (CardIndex) VALUES (cXXX);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
@@ -371,8 +371,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/2.0/Cards/Creeps/Card_Creep_Yowling_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Creeps/Card_Creep_Yowling_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Creeps/Yowling.xhtml', 
-'Mother Noctua acts as mother and guardian to all of the Fae Wood, but she has special love for her Yowlings - young owlbears that flock to her side. They are hatched from the most precious Deeproot Acorns, and they are daring and mischievous. More than one hero has had her favorite soda stolen by a playful Yowling.');
 'Creep', '2.0', '2.0 Core Set', 'Default', 
+'Mother Noctua acts as mother and guardian to all of the Fae Wood, but she has special love for her Yowlings - young owlbears that flock to her side. They are hatched from the most precious Deeproot Acorns, and they are daring and mischievous. More than one hero has had her favorite soda stolen by a playful Yowling.');
 insert into Characters (CardIndex) VALUES (cXXX);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
@@ -391,8 +391,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/2.0/Cards/Creeps/Card_Creep_Yurei_Bushi_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Creeps/Card_Creep_Yurei_Bushi_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Creeps/Yurei_Bushi.xhtml', 
-'');--!! unavailable !!
 'Creep', '2.0', '2.0 Core Set', 'Default', 
+'');--!! unavailable !!
 insert into Characters (CardIndex) VALUES (cXXX);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 0); --Amethyst
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 

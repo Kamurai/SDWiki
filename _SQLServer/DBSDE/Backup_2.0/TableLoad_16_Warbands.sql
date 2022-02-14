@@ -1555,7 +1555,7 @@ insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender
 VALUES (chXXX,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Elemental_Shrine/Standies/Elemental_Shrine_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Elemental_Shrine/Standies/Elemental_Shrine_2.0_back.png', 
-'Neither', 'Large', 'Paired Spawning Point', , 1, '', '1ST', '', '', 4, 0);
+'Neither', 'Large', 'Paired Spawning Point', 0, 1, '', '1ST', '', '', 4, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Elemental Affinity
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Hidden
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Immune: Status Effects

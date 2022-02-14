@@ -166,7 +166,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Treasure/Specific/Dragon_Lance.xhtml', 
 'Treasure', '1.0', '1.0 Core Set', 'Default',
 'Goddess, let my aim be true.');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (89, 'Treasure Specific' 'Top', '');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (89, 'Treasure Specific', 'Top', '');
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (17, 37); --Starfire
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (17, 28); --Coup de Grace
 --Dragon Scale Cloak --EquipmentIndex 18 --CardIndex 90

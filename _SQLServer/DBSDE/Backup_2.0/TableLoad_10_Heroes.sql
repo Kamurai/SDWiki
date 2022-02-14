@@ -1101,7 +1101,7 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXX
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Vent Steam
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Arm Cannon Overcharge
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Magnetic Field
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX): --Fresh Oil
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Fresh Oil
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 4, 8); --Dex
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (eXXX, 2); --Armor
 
@@ -1367,7 +1367,7 @@ insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXX
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Halo Extract
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 4, 6); --Dex
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (eXXX, 2); --Armor
-insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUEA (eXXX, 3); --Will
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (eXXX, 3); --Will
 
 
 --Ember Mage (feminine) --CardIndex cXXX	--CharacterIndex chXXX	--ExploreCharacterIndex eXXX
