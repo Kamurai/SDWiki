@@ -699,7 +699,7 @@ insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender
 VALUES (chXXX, 
 'http://htkb.info/SDE/2.0/Cards/Standies/Candy_Lady_of_the_Heart_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Standies/Candy_Lady_of_the_Heart_2.0_back.png',
-'Female', 'Small', 'Human', 6, 3, '2B', '3B', '2R', '3B', 5, 2);
+'Feminine', 'Small', 'Human', 6, 3, '2B', '3B', '2R', '3B', 5, 2);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Augment
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Bane
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Dangerous
@@ -1994,7 +1994,7 @@ insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender
 VALUES (chXXX, 
 'http://htkb.info/SDE/2.0/Cards/Standies/Ichika_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Standies/Ichika_2.0_back.png',
-'Female', 'Small', 'Human', 6, 2, '2R', '3B', '2B', '3B', 3, 1);
+'Feminine', 'Small', 'Human', 6, 2, '2R', '3B', '2B', '3B', 3, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Augment
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Paired Hero (Yui)
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Storm Surge
@@ -4338,7 +4338,7 @@ insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender
 VALUES (chXXX, 
 'http://htkb.info/SDE/2.0/Cards/Standies/Yui_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Standies/Yui_2.0_back.png',
-'Female', 'Small', 'Human', 6, 2, '2B', '3B', '3B', '3B', 3, 1);
+'Feminine', 'Small', 'Human', 6, 2, '2B', '3B', '3B', '3B', 3, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Augment
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Heal X
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Paired Hero (Ichika)

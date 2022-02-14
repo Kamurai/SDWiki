@@ -24,6 +24,7 @@
 /*Armory							--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Armory', 'Equip three Relic Items (in addition to any equipped due to remaining spawning points).');
 
 /*Artillery							--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Artillery', 'An action with Artillery may target any square within range, even if no model occupies the square.');
+/*Augment 							--Index kXXX*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Augment', 'May only target or affect friendly models.');
 /*Autosave							--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Autosave', 'One Use Only. When this model or a friendly model within 2 squares would be destroyed, immediately roll 1G. Remove one wound token for each star rolled. If no stars are rolled, the model is destroyed as normal.');
 
 /*Backlash							--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Backlash', 'When a model with Backlash is targeted by an offensive action and wins the defense roll, the model making the offense roll suffers one wound.  A model may not draw a loot card for destroying a model due to Backlash.');
