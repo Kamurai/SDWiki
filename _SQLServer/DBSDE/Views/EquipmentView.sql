@@ -2,7 +2,7 @@
 --Equipment
 create view EquipmentView as 
 select a.CardIndex, a.Name as CardName, a.PictureFront, a.PictureBack, a.Link, a.CardType, a.ProductSet, a.ProductModule, a.PlayMode, a.Flavor, --Cards
-b.Position, b.Effect, --Equipment
+b.EquipmentType, b.Position, b.Effect, --Equipment
 e.KeywordIndex, e.Name as KeywordName, e.KeywordDescription, --Keywords
 g.AbilityIndex, g.Name as AbilityName, g.AbilityResource, g.AbilityType, g.AbilityCost, --Abilities
 h.Attribute as AbilityAttribute, --Attributes
