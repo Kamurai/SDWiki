@@ -180,6 +180,75 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (eXXX, 4); --Dex
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (eXXX, 'Miniboss', 'Super', 4);
 
+--Clan Spirit Shrine Oni --CardIndex cXXX	--CharacterIndex chXXX	--ExploreCharacterIndex eXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Oni',
+'http://htkb.info/SDE/2.0/Cards/Minibosses/Card_Miniboss_Clan_Spirit_Shrine_Oni_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Minibosses/Card_Miniboss_Clan_Spirit_Shrine_Oni_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Minibosses/Clan_Spirit_Shrine_Oni.xhtml', 
+'Miniboss', '2.0', '2.0 Core Set', 'Explore',
+'It is said that man and Oni first met as enemies, but soon developed a grudging respect; the Oni for their size and strength, and men for their technology and tenacity. Many Oni, however fickle, will join a team to honor agreements, to demonstrate their strength, or just for the fun of it. They may not be the most stealthy, but their effect on the enemy is remarkable.');
+insert into Characters (CardIndex) VALUES (cXXX);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 3); --Ruby
+insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+VALUES (chXXX,
+'http://htkb.info/SDE/2.0/Cards/Standies/Clan_Spirit_Shrine_Oni_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Standies/Clan_Spirit_Shrine_Oni_2.0_back.png', 
+'Neither', 'Large', 'Oni', 6, 3, '3R', '2R', '3B', '2B', 6, 0);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Elemental Affinity
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Disaster
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Devour
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Deceive
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 1, 2); --Strength
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (eXXX, 2); --Armor
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (eXXX, 'Miniboss', 'Super', 4);
+
+--Clan Void Shrine Oni --CardIndex cXXX	--CharacterIndex chXXX	--ExploreCharacterIndex eXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Oni',
+'http://htkb.info/SDE/2.0/Cards/Minibosses/Card_Miniboss_Clan_Void_Shrine_Oni_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Minibosses/Card_Miniboss_Clan_Void_Shrine_Oni_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Minibosses/Clan_Void_Shrine_Oni.xhtml', 
+'Miniboss', '2.0', '2.0 Core Set', 'Explore',
+'It is said that man and Oni first met as enemies, but soon developed a grudging respect; the Oni for their size and strength, and men for their technology and tenacity. Many Oni, however fickle, will join a team to honor agreements, to demonstrate their strength, or just for the fun of it. They may not be the most stealthy, but their effect on the enemy is remarkable.');
+insert into Characters (CardIndex) VALUES (cXXX);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 3); --Ruby
+insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+VALUES (chXXX,
+'http://htkb.info/SDE/2.0/Cards/Standies/Clan_Void_Shrine_Oni_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Standies/Clan_Void_Shrine_Oni_2.0_back.png', 
+'Neither', 'Large', 'Oni', 6, 3, '3R', '2R', '3B', '2B', 6, 0);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Elemental Affinity
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Disaster
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Devour
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Deceive
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 1, 2); --Strength
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (eXXX, 2); --Armor
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (eXXX, 'Miniboss', 'Super', 4);
+
+--Clan Water Shrine Oni --CardIndex cXXX	--CharacterIndex chXXX	--ExploreCharacterIndex eXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Oni',
+'http://htkb.info/SDE/2.0/Cards/Minibosses/Card_Miniboss_Clan_Water_Shrine_Oni_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Minibosses/Card_Miniboss_Clan_Water_Shrine_Oni_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Minibosses/Clan_Water_Shrine_Oni.xhtml', 
+'Miniboss', '2.0', '2.0 Core Set', 'Explore',
+'It is said that man and Oni first met as enemies, but soon developed a grudging respect; the Oni for their size and strength, and men for their technology and tenacity. Many Oni, however fickle, will join a team to honor agreements, to demonstrate their strength, or just for the fun of it. They may not be the most stealthy, but their effect on the enemy is remarkable.');
+insert into Characters (CardIndex) VALUES (cXXX);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 3); --Ruby
+insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+VALUES (chXXX,
+'http://htkb.info/SDE/2.0/Cards/Standies/Clan_Water_Shrine_Oni_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Standies/Clan_Water_Shrine_Oni_2.0_back.png', 
+'Neither', 'Large', 'Oni', 6, 3, '3R', '2R', '3B', '2B', 6, 0);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Elemental Affinity
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Disaster
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Devour
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Deceive
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 1, 2); --Strength
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (eXXX, 2); --Armor
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (eXXX, 'Miniboss', 'Super', 4);
+
 --Crystal Weaver --CardIndex cXXX	--CharacterIndex chXXX	--ExploreCharacterIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Crystal Weaver',
 'http://htkb.info/SDE/2.0/Cards/Minibosses/Card_Miniboss_Crystal_Weaver_2.0.png', 
