@@ -259,6 +259,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (194, 2); --Armor
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (194, 'Minion', '8 Bit', 1);
 
+--Elemental Shrine
 --Elemental Shrine --CardIndex 280 --CharacterIndex 195 --ExploreCharacterIndex 195
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 'Elemental Shrine',

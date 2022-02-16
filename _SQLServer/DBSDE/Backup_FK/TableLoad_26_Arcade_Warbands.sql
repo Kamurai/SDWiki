@@ -173,12 +173,12 @@ VALUES (59, 2, 'Hatchlings', 'Drake', 'Minion', 5, 2, 1, 188);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (59, 298); --Pile-on
 
 
---Elemental Shrine
+--Clan Fire Shrine
 --Elemental Shrine --CardIndex 391	--CharacterIndex 306	--ArcadeCharacterIndex 60
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Elemental Shrine',
-'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Elemental_Shrine/Card_Arcade_Warband_Elemental_Shrine_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Elemental_Shrine/Card_Arcade_Warband_Elemental_Shrine_FK_back.png', 
-'http://htkb.online/SDWiki/SDE/FK/Arcade/Cards/Warbands/Elemental_Shrine/Elemental_Shrine.xhtml', 
+'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Clan_Fire_Shrine/Card_Arcade_Warband_Clan_Fire_Shrine_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Clan_Fire_Shrine/Card_Arcade_Warband_Clan_Fire_Shrine_FK_back.png', 
+'http://htkb.online/SDWiki/SDE/FK/Arcade/Cards/Warbands/Clan_Fire_Shrine/Clan_Fire_Shrine.xhtml', 
 'Warband', 'FK', 'FK Core Set', 'Arcade', 
 '');
 insert into Characters (CardIndex) VALUES (391);
@@ -187,18 +187,17 @@ VALUES (306, 0, -1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (306, 3); --Ruby
 --GangMemberIndex 60
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (60, 0, 'Elemental Shrine', 'Paired Spawning Point', '', 0, 0, 3, 187);
+VALUES (60, 0, 'Elemental Shrine', 'Paired Spawning Point', '', 0, 0, 1, 187);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (60, 268); --Immune: Status Effects
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (60, 214); --Elemental Affinity
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (60, 347); --Stealth
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (60, 378); --Spawning Pool
 
---Mystic Team
 --Mystic Team --CardIndex 392	--CharacterIndex 307	--ArcadeCharacterIndex 61, 62, 63
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Mystic Team',
-'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Elemental_Shrine/Card_Arcade_Warband_Elemental_Shrine_Mystic_Team_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Elemental_Shrine/Card_Arcade_Warband_Elemental_Shrine_Mystic_Team_FK_back.png', 
-'http://htkb.online/SDWiki/SDE/FK/Arcade/Cards/Warbands/Elemental_Shrine/Mystic_Team.xhtml', 
+'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Clan_Fire_Shrine/Card_Arcade_Warband_Clan_Fire_Shrine_Mystic_Team_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Clan_Fire_Shrine/Card_Arcade_Warband_Clan_Fire_Shrine_Mystic_Team_FK_back.png', 
+'http://htkb.online/SDWiki/SDE/FK/Arcade/Cards/Warbands/Clan_Fire_Shrine/Mystic_Team.xhtml', 
 'Warband', 'FK', 'FK Core Set', 'Arcade', 
 '');
 insert into Characters (CardIndex) VALUES (392);
@@ -212,22 +211,21 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (61, 348);
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (61, 323); --Poisoned Weapons
 --GangMemberIndex 62
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (62, 1, 'Kaiken', 'Ninja', 'Minion', 6, 1, 1, 193);
+VALUES (62, 1, 'Kaiken', 'Bonded Ninja', 'Minion', 6, 1, 1, 193);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (62, 175); --Back Strike
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (62, 190); --Bruiser
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (62, 348); --Stealth
 --GangMemberIndex 63
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (63, 2, 'Yajiri', 'Ninja', 'Minion', 6, 1, 1, 196);
+VALUES (63, 2, 'Yajiri', 'Bonded Ninja', 'Minion', 6, 1, 0, 196);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (63, 315); --Reach
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (63, 348); --Stealth
 
---Scout Team
---Mystic Team --CardIndex 393	--CharacterIndex 308	--ArcadeCharacterIndex 64, 65
+--Scout Team --CardIndex 393	--CharacterIndex 308	--ArcadeCharacterIndex 64, 65
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Scout Team',
-'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Elemental_Shrine/Card_Arcade_Warband_Elemental_Shrine_Scout_Team_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Elemental_Shrine/Card_Arcade_Warband_Elemental_Shrine_Scout_Team_FK_back.png', 
-'http://htkb.online/SDWiki/SDE/FK/Arcade/Cards/Warbands/Elemental_Shrine/Scout_Team.xhtml', 
+'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Clan_Fire_Shrine/Card_Arcade_Warband_Clan_Fire_Shrine_Scout_Team_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Clan_Fire_Shrine/Card_Arcade_Warband_Clan_Fire_Shrine_Scout_Team_FK_back.png', 
+'http://htkb.online/SDWiki/SDE/FK/Arcade/Cards/Warbands/Clan_Fire_Shrine/Scout_Team.xhtml', 
 'Warband', 'FK', 'FK Core Set', 'Arcade', 
 '');
 insert into Characters (CardIndex) VALUES (393);
@@ -237,20 +235,22 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (308, 2);
 --GangMemberIndex 64
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (64, 0, 'Kunoichi', 'Ninja', 'Elite', 8, 1, 1, 194);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (64, 415); --Augment
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (64, 348); --Stealth
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (64, 353); --Surge
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (64, 675); --Wind in the Forest
 --GangMemberIndex 65
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (65 , 1, 'Kunoichi', 'Ninja', 'Elite', 8, 1, 1, 194);
+VALUES (65 , 1, 'Kunoichi', 'Bonded Ninja', 'Elite', 8, 1, 1, 194);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (65, 415); --Augment
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (65, 348); --Stealth
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (65, 566); --Smoke Bomb
 
---Strike Team
 --Strike Team --CardIndex 394	--CharacterIndex 309	--ArcadeCharacterIndex 66, 67, 68
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Strike Team',
-'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Elemental_Shrine/Card_Arcade_Warband_Elemental_Shrine_Strike_Team_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Elemental_Shrine/Card_Arcade_Warband_Elemental_Shrine_Strike_Team_FK_back.png', 
-'http://htkb.online/SDWiki/SDE/FK/Arcade/Cards/Warbands/Elemental_Shrine/Strike_Team.xhtml', 
+'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Clan_Fire_Shrine/Card_Arcade_Warband_Clan_Fire_Shrine_Strike_Team_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Clan_Fire_Shrine/Card_Arcade_Warband_Clan_Fire_Shrine_Strike_Team_FK_back.png', 
+'http://htkb.online/SDWiki/SDE/FK/Arcade/Cards/Warbands/Clan_Fire_Shrine/Strike_Team.xhtml', 
 'Warband', 'FK', 'FK Core Set', 'Arcade', 
 '');
 insert into Characters (CardIndex) VALUES (394);
@@ -261,17 +261,19 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (309, 2);
 --GangMemberIndex 66
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (66, 0, 'Chunin', 'Ninja', 'Elite', 6, 3, 1, 192);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (66, 275); --Knockdown
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (66, 348); --Stealth
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (66, 502); --Precision Strike
 --GangMemberIndex 67
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (67, 1, 'Kaiken', 'Ninja', 'Minion', 6, 1, 1, 193);
+VALUES (67, 1, 'Kaiken', 'Bonded Ninja', 'Minion', 6, 1, 1, 193);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (67, 175); --Back Strike
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (67, 190); --Bruiser
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (67, 348); --Stealth
 --GangMemberIndex 68
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (68, 2, 'Yajiri', 'Ninja', 'Minion', 6, 1, 0, 196);
+VALUES (68, 2, 'Yajiri', 'Bonded Ninja', 'Minion', 6, 1, 0, 196);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (68, 291); --Mob
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (68, 315); --Reach
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (68, 348); --Stealth
 
