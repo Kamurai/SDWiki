@@ -289,6 +289,8 @@
 
 /*Hold Them!						--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Hold Them!',	'Spawn one Spiteful Cherub adjacent to each Hero in play.');
 
+/*Hookshot							--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Hookshot',	'/* Actions with Hookshot do not require line of sight to target a model. Range must still be counted around spaces that block line of sight, such as walls and structures.*/'); --Not sure if description is correct
+
 
 /*Hubris							--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Arcade',	'Hubris',		'A model with Hubris gains +1ST STR for every equipment card equipped on its target.');
 /*Hubris							--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Arcade',	'Hubris',		'When making a Melee Attack, a model with Hubris gains +1ST STR for every equipment card equipped on its target.');

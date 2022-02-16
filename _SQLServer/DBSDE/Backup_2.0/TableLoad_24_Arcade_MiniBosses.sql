@@ -148,6 +148,66 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (gXXX, 615
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (gXXX, 615); --Naughty Kitty
 
 
+--Clan Spirit Shrine Oni 	--CardIndex cXXX	--CharacterIndex chXXX	--ArcadeCharacterIndex arXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Clan Spirit Shrine Oni',
+'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Clan_Spirit_Shrine_Oni_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Clan_Spirit_Shrine_Oni_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/MiniBosses/Clan_Spirit_Shrine_Oni.xhtml', 
+'MiniBoss', '2.0', '2.0 Core Set', 'Default', 
+'');
+insert into Characters (CardIndex) VALUES (cXXX);
+insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
+VALUES (chXXX, 373, -1);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 3); --Ruby
+--GangMemberIndex gXXX
+insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
+VALUES (arXXX, 0, 'Oni', 'Oni', 'MiniBoss', 6, 8, 3, eXXX);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, 554); --Elemental Affinity
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (gXXX, 615); --Devour
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (gXXX, 615); --Disaster
+
+
+--Clan Void Shrine Oni 	--CardIndex cXXX	--CharacterIndex chXXX	--ArcadeCharacterIndex arXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Clan Void Shrine Oni',
+'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Clan_Void_Shrine_Oni_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Clan_Void_Shrine_Oni_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/MiniBosses/Clan_Void_Shrine_Oni.xhtml', 
+'MiniBoss', '2.0', '2.0 Core Set', 'Default', 
+'');
+insert into Characters (CardIndex) VALUES (cXXX);
+insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
+VALUES (chXXX, 373, -1);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 3); --Ruby
+--GangMemberIndex gXXX
+insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
+VALUES (arXXX, 0, 'Oni', 'Oni', 'MiniBoss', 6, 8, 3, eXXX);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, 554); --Elemental Affinity
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (gXXX, 615); --Devour
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (gXXX, 615); --Disaster
+
+
+--Clan Water Shrine Oni 	--CardIndex cXXX	--CharacterIndex chXXX	--ArcadeCharacterIndex arXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Clan Water Shrine Oni',
+'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Clan_Water_Shrine_Oni_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Clan_Water_Shrine_Oni_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/MiniBosses/Clan_Water_Shrine_Oni.xhtml', 
+'MiniBoss', '2.0', '2.0 Core Set', 'Default', 
+'');
+insert into Characters (CardIndex) VALUES (cXXX);
+insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
+VALUES (chXXX, 373, -1);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 3); --Ruby
+--GangMemberIndex gXXX
+insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
+VALUES (arXXX, 0, 'Oni', 'Oni', 'MiniBoss', 6, 8, 3, eXXX);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, 554); --Elemental Affinity
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (gXXX, 615); --Devour
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (gXXX, 615); --Disaster
+
+
 --Crystal Weaver	--CardIndex cXXX	--CharacterIndex chXXX	--ArcadeCharacterIndex arXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Crystal Weaver',
 'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Crystal Weaver_2.0.png', 

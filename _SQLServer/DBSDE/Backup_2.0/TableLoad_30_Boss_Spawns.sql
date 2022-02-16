@@ -14,7 +14,6 @@ VALUES (cXXX, '',
 insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (bsXXX, chXXX); 
 insert into KeywordAssignments (BossSpawnIndex, KeywordIndex) VALUES (bsXXX, kXXX); --For The Pirate Queen!
 
-
 --Demon Queen Araphel     --CardIndex cXXX   --BossSpawnIndex bsXXX  
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Demon Queen Araphel', 
 'http://htkb.info/SDE/2.0/Cards/Boss_Spawns/Card_Boss_Spawn_Demon_Queen_Araphel_2.0.png', 
@@ -130,4 +129,21 @@ VALUES (cXXX, '',
 'Run Free, Children!: Target Naughtie performs up to three moves and one basic attack action controlled by the Consul. If there are no Naughties in play, any Hero may be chosen instead.',
 '');
 insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (bsXXX, chXXX); 
+
+--Professor Cackle-Clink     --CardIndex cXXX   --BossSpawnIndex bsXXX  
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Professor Cackle-Clink', 
+'http://htkb.info/SDE/2.0/Cards/Boss_Spawns/Card_Boss_Spawn_Professor_Cackle_Clink_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Boss_Spawns/Card_Boss_Spawn_Professor_Cackle_Clink_2.0_back.png',
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Boss_Spawns/Professor_Cackle_Clink.xhtml', 
+'Boss Spawn', '2.0', '2.0 Core Set', 'Default',   
+'Gnomes are not a subtle people, and their approach to mining reflects this. They frequently employ giant, steam-powered "excavators" that blow chunks of mountainside away with a huge cannon, leaving rubble that can be sorted through later. After all, anything that didn''t survive the blast probably wasn''t worth excavating anyway.<br><br>The cannon uses specialized ammo built from crystal, with different crystals used for various purposes. Citrine shells for busting through hard granite, emerald shells for expanding and blowing away huge chucks of limestone in one go. But gnomes are prone to hyper-focusing on the task at hand, and are known to sometimes leave their explosive ammunition strewn about their work site. Work safety is not a gnomish priority.<br><br>On occasion, a wayward band of Heroes will fall afoul of an Excavator. Sometimes the driver has fallen and been seduced by the Dark Consul. Sometimes the gnome is so focused on his task that he is willing to blow away any who come between him and his obsession. And sometimes he simply mistakes the Heroes for crystal thieves and can''t hear their pleas to the contrary due to cannon-induced hearing loss.');
+insert into BossSpawns (CardIndex, DungeonEffect, BossSpawnEffect, TimeoutEffect, DifficultyRating) 
+VALUES (cXXX, '',
+'Ammo Dump: The Consul places six crystal shell tokens anywhere in the dungeon. These tokens may not be placed within three squares of another crystal shell token.<br><br>All Heroes gain the following action for the duration of this Boss Fight:<br><br> Firing Pin: Range 6, Massive Damage. This model must discard a crystal shell token from the square it is occupying in order to take this action.', 
+'Cave-In: Each Hero must choose to suffer either two wounds or Immobile',
+'');
+insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (bsXXX, chXXX);
+insert into KeywordAssignments (BossSpawnIndex, KeywordIndex) VALUES (bsXXX, kXXX); --Massive Damage
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Firing Pin 
+
 

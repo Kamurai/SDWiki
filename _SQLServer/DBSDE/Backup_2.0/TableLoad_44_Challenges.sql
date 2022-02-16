@@ -1,5 +1,15 @@
 --2.0 Challenge Cards
 
+--Accidents Happen...	--CardIndex cXXX --ChallengeIndex clXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
+VALUES ('Accidents Happen...',
+'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss/Challenges/Onryo/Card_Boss_Challenge_Accidents_Happen_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss/Challenges/Backs/Card_Boss_Challenge_White_Back_2.0.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Challenges/Boss/Challenges/Onryo/Accidents_Happen.xhtml', 
+'Challenge', '2.0', '2.0 Core Set', 'Default', 'Oops!');
+insert into Challenges (CardIndex, Trap, Challenge) VALUES (cXXX, 'All Heroes must roll their DEX. Any Hero that rolls two or fewer stars suffers 2 wounds and Knockdown.', 'All monster commands target the Hero with the least wrath.');
+insert into ChallengeAssignments (CharacterIndex, ChallengeIndex) VALUES (cXXX, clXXX); --Onryo
+
 --And Checking It Twice	--CardIndex cXXX --ChallengeIndex clXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
 VALUES ('And Checking It Twice',
@@ -9,6 +19,16 @@ VALUES ('And Checking It Twice',
 'Challenge', '2.0', '2.0 Core Set', 'Default', 'I thought he had forgotten about me. I thought I was safe. That was the cruelest part. Thinking I''d gotten away...');
 insert into Challenges (CardIndex, Trap, Challenge) VALUES (cXXX, 'The Naughtie closest to the dungeon boss with a treasure item equipped must discard one treasure.<br><br>If Gully Gawk is in play, the dungeon boss is immediately placed adjacent to Gully Gawk and takes its Into The Bag action against it.', 'Only a single Hero may activate.');
 insert into ChallengeAssignments (CharacterIndex, ChallengeIndex) VALUES (cXXX, clXXX); --Krampus
+
+--Answer For Your Sins	--CardIndex cXXX --ChallengeIndex clXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
+VALUES ('Answer For Your Sins',
+'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss/Challenges/Onryo/Card_Boss_Challenge_Answer_For_Your_Sins_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss/Challenges/Backs/Card_Boss_Challenge_White_Back_2.0.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Challenges/Boss/Challenges/Onryo/Answer_For_Your_Sins.xhtml', 
+'Challenge', '2.0', '2.0 Core Set', 'Default', '"You will pay dearly, maybe not today, but you cannot hide from me forever... I will find you, I always find you."');
+insert into Challenges (CardIndex, Trap, Challenge) VALUES (cXXX, 'The dungeon boss performs the Unique command.', 'The dungeon boss gains +1ST STR for each wound on it, to a maximum of +4ST STR.');
+insert into ChallengeAssignments (CharacterIndex, ChallengeIndex) VALUES (cXXX, clXXX); --Onryo
 
 --Avalanche	--CardIndex cXXX --ChallengeIndex clXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
@@ -66,6 +86,16 @@ VALUES ('Biting Winds',
 'Challenge', '2.0', '2.0 Core Set', 'Default', 'I thought the tower would provide some protection from the Nether Rifts. It may be the Midnight Tower, but it once was the seat of the Goddess herself! However, I was wrong. I can feel the vile winds from the Rifts blowing through every window, every crack, every door.');
 insert into Challenges (CardIndex, Trap, Challenge) VALUES (cXXX, 'Rotate the tile occupied by the Hero with the most wrath 90 degrees clockwise.', 'All offensive actions taken by monsters gain Push 5.');
 
+--Blam! Blam! Blam! Blam!	--CardIndex cXXX --ChallengeIndex clXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
+VALUES ('Blam! Blam! Blam! Blam!',
+'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss/Challenges/Professor_Cackle_Clink/Card_Boss_Challenge_Blam_Blam_Blam_Blam_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss/Challenges/Backs/Card_Boss_Challenge_Yellow_Back_2.0.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Challenges/Boss/Challenges/Professor_Cackle_Clink/Blam_Blam_Blam_Blam.xhtml', 
+'Challenge', '2.0', '2.0 Core Set', 'Default', '"THIS is what I meant to do. Terminal OVerdrive BLAM! BLAM! BLAM! AHHH! HEHEHEHEHEHE!"');
+insert into Challenges (CardIndex, Trap, Challenge) VALUES (cXXX, 'The dungeon boss performs the Unique command and then the Fight command.', 'The dungeon boss gains +2ST ARM.');
+insert into ChallengeAssignments (CharacterIndex, ChallengeIndex) VALUES (cXXX, clXXX); --Professor Cackle-Clink
+
 --Blistering Armor	--CardIndex cXXX --ChallengeIndex clXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
 VALUES ('Blistering Armor',
@@ -74,6 +104,16 @@ VALUES ('Blistering Armor',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Challenges/Boss/Challenges/Blistering_Armor.xhtml', 
 'Challenge', '2.0', '2.0 Core Set', 'Default', 'Look on my glory and become blinded by my power, or flee into the peace and safety of defeat. Find comfort in the thought that you could not stop me, and hide in the crevices that I leave to you.<br><br>-The Midnight Queen');
 insert into Challenges (CardIndex, Trap, Challenge) VALUES (cXXX, 'The dungeon boss performs the following action:<br><br>Blistering Armor: Wave 3, Push 3, KNOCKDOWN', 'The dungeon boss may not suffer more than one wound from a single action, such as critical hits or Massive Damage.');
+
+--Boooooom!	--CardIndex cXXX --ChallengeIndex clXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
+VALUES ('Boooooom!',
+'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss/Challenges/Professor_Cackle_Clink/Card_Boss_Challenge_Boooooom_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss/Challenges/Backs/Card_Boss_Challenge_Yellow_Back_2.0.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Challenges/Boss/Challenges/Professor_Cackle_Clink/Boooooom.xhtml', 
+'Challenge', '2.0', '2.0 Core Set', 'Default', '"My dear child, your companions seem to have hoarded all my stolen treasures for themselves. It is only logical then that I aim this rather nasty invention at you."');
+insert into Challenges (CardIndex, Trap, Challenge) VALUES (cXXX, 'The dungeon boss performs the following action:<br><br>Armor Piercing Shell: Massive Damage, +2ST STR.', 'All monster commands target the Hero with the least wrath.');
+insert into ChallengeAssignments (CharacterIndex, ChallengeIndex) VALUES (cXXX, clXXX); --Professor Cackle-Clink
 
 --Brotherly Competition	--CardIndex cXXX --ChallengeIndex clXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
@@ -169,6 +209,16 @@ VALUES ('Dark Shielding',
 'Challenge', '2.0', '2.0 Core Set', 'Default', 'The Goddess grows weaker, and the Dark Consul expands His influence. He protects and shields those who are faithful to him, and punishes any who dare oppose him. Your swords will be turned away, your arrows will fall short, and the light of your Goddess shall fade into the darkness!<br><br>-The Midnight Queen');
 insert into Challenges (CardIndex, Trap, Challenge) VALUES (cXXX, 'The dungeon boss performs the Unique command.', 'The dungeon boss may not suffer more than one wound from a single action, such as critical hits or Massive Damage.');
 
+--Darling, You Didn't Have To!	--CardIndex cXXX --ChallengeIndex clXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
+VALUES ('Darling, You Didn''t Have To!',
+'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss/Challenges/Demon_Queen_Araphel/Card_Boss_Challenge_Darling_You_Didnt_Have_To_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss/Challenges/Backs/Card_Boss_Challenge_Purple_Back_2.0.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Challenges/Boss/Challenges/Demon_Queen_Araphel/Darling_You_Didnt_Have_To.xhtml', 
+'Challenge', '2.0', '2.0 Core Set', 'Default', 'It is expected of a guest to bring the host a gift.');
+insert into Challenges (CardIndex, Trap, Challenge) VALUES (cXXX, 'All Heroes with a green potion action must immediately discard all their potion tokens. (Heroes may not drink potions to avoid this effect.) The dungeon boss Heals 1 for each potion token discarded.', 'The dungeon boss gains +1ST ARM for each status effect token on a Hero in play.');
+insert into ChallengeAssignments (CharacterIndex, ChallengeIndex) VALUES (cXXX, clXXX); --Demon Queen Araphel
+
 --Deadly Dance, The	--CardIndex cXXX --ChallengeIndex clXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
 VALUES ('Deadly Dance, The',
@@ -177,6 +227,26 @@ VALUES ('Deadly Dance, The',
 'http://htkb.online/SDWiki/SDE/2.0/Pet_Parade/Cards/Challenges/Deadly_Dance_The.xhtml', 
 'Challenge', '2.0', '2.0 Pet Parade', 'Default', 'Have you ever danced with a slime? You think a partner stepping on your toes is bad, try having one that melts your armor. And no, I have no desire to talk about how I ended up in that situation. Mistakes were made.<br><<br>I''ll give him this though, little guy knew how to waltz.');
 insert into Challenges (CardIndex, Trap, Challenge) VALUES (cXXX, 'Spawn one Creep adjacent to each Hero.', 'All Heroes must use their DEX for all defense rolls.');
+
+--Deal of the Century	--CardIndex cXXX --ChallengeIndex clXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
+VALUES ('Deal of the Century',
+'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss/Challenges/Pauper_Prince/Card_Boss_Challenge_Deal_of_the_Century_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss/Challenges/Backs/Card_Boss_Challenge_Yellow_Back_2.0.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Challenges/Boss/Challenges/Pauper_Prince/Deal_of_the_Century.xhtml', 
+'Challenge', '2.0', '2.0 Core Set', 'Default', '"Warning: severe irritation of the skin and eyes may occur. Seek an apothecary immediately if you experience any of the following: nausea, swollen tongue, headache, visions of the great void beyond the veil of the mortal realm, stomach ache..."');
+insert into Challenges (CardIndex, Trap, Challenge) VALUES (cXXX, 'All Heroes gain potions until they have their maximum number of potions. Then each Hero that gained potion tokens in this way suffers 2 wounds for each potion gained.', 'Only a single Hero may activate.');
+insert into ChallengeAssignments (CharacterIndex, ChallengeIndex) VALUES (cXXX, clXXX); --Pauper Prince
+
+--Death Curse	--CardIndex cXXX --ChallengeIndex clXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
+VALUES ('Death Curse',
+'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss/Challenges/Onryo/Card_Boss_Challenge_Death_Curse_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss/Challenges/Backs/Card_Boss_Challenge_White_Back_2.0.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Challenges/Boss/Challenges/Onryo/Death_Curse.xhtml', 
+'Challenge', '2.0', '2.0 Core Set', 'Default', 'The practice of Ushi-no-Toki-Mairi must always be kept secret and away from watchful eyes or it will not take effect, and the target of the curse will escape justice.');
+insert into Challenges (CardIndex, Trap, Challenge) VALUES (cXXX, 'The dungeon boss performs the Unique command.', 'Any Heroes destroyed require two Princess Coins to return to play. If the Heroes do not have enough Princess Coins to revive a destroyed Hero, they lose as usual.');
+insert into ChallengeAssignments (CharacterIndex, ChallengeIndex) VALUES (cXXX, clXXX); --Onryo
 
 --Do Your Part!	--CardIndex cXXX --ChallengeIndex clXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
@@ -275,6 +345,26 @@ VALUES ('Faithful Servants',
 'Challenge', '2.0', '2.0 Core Set', 'Default', 'You think that destroying a few spiders is going to hinder my forces? From every shadow, they crawl; from every nook, every cranny they come, swarming and skittering. Have you not noticed that the ceiling above you is moving?<br><br>-The Midnight Queen');
 insert into Challenges (CardIndex, Trap, Challenge) VALUES (cXXX, 'Randomly select a spawning point that was destroyed this game. All gangs listed on the spawning point are spawned as if they had received the Spawn command. These gangs are spawned within three squares of the dungeon boss rather than their spawning point.', 'The dungeon boss gains +1ST ARM.');
 
+--Field Repairs	--CardIndex cXXX --ChallengeIndex clXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
+VALUES ('Field Repairs',
+'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss/Challenges/Professor_Cackle_Clink/Card_Boss_Challenge_Field_Repairs_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss/Challenges/Backs/Card_Boss_Challenge_Yellow_Back_2.0.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Challenges/Boss/Challenges/Professor_Cackle_Clink/Field_Repairs.xhtml', 
+'Challenge', '2.0', '2.0 Core Set', 'Default', '"Wait. Wait. Wait! Time out! Can''t you see the condenser coil''s busted? Hand me that crystal.... There we go. Fight starts again on '3'."');
+insert into Challenges (CardIndex, Trap, Challenge) VALUES (cXXX, 'The dungeon boss Heals 1 for each crystal token carried by a Hero.', 'The dungeon boss gains +2ST ARM.');
+insert into ChallengeAssignments (CharacterIndex, ChallengeIndex) VALUES (cXXX, clXXX); --Professor Cackle-Clink
+
+--Final Betrayal	--CardIndex cXXX --ChallengeIndex clXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
+VALUES ('Final Betrayal',
+'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss/Challenges/Onryo/Card_Boss_Challenge_Final_Betrayal_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss/Challenges/Backs/Card_Boss_Challenge_White_Back_2.0.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Challenges/Boss/Challenges/Onryo/Final_Betrayal.xhtml', 
+'Challenge', '2.0', '2.0 Core Set', 'Default', '"Curse you! Ack!"<br><br>-- unknown betrayed');
+insert into Challenges (CardIndex, Trap, Challenge) VALUES (cXXX, 'All Heroes must roll their WILL. Starting with the Hero with the most wrath and going clockwise, any Hero that rolled 2 or fewer stars must take one wound token from the dungeon box and place it on themselves (so long as there are wound tokens to take).', 'Only a single Hero may activate.');
+insert into ChallengeAssignments (CharacterIndex, ChallengeIndex) VALUES (cXXX, clXXX); --Onryo
+
 --Finisher, The	--CardIndex cXXX --ChallengeIndex clXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
 VALUES ('Finisher, The',
@@ -293,6 +383,16 @@ VALUES ('Fire Ball',
 'Challenge', '2.0', '2.0 Core Set', 'Default', ''); --!! unavailable !!
 insert into Challenges (CardIndex, Trap, Challenge) VALUES (cXXX, '', ''); --!! unavailable !!
 insert into ChallengeAssignments (CharacterIndex, ChallengeIndex) VALUES (cXXX, clXXX); --Thresher, The
+
+--Fluff The Pillows	--CardIndex cXXX --ChallengeIndex clXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
+VALUES ('Fluff The Pillows',
+'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss/Challenges/Demon_Queen_Araphel/Card_Boss_Challenge_Fluff_The_Pillows_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss/Challenges/Backs/Card_Boss_Challenge_Purple_Back_2.0.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Challenges/Boss/Challenges/Demon_Queen_Araphel/Fluff_The_Pillows.xhtml', 
+'Challenge', '2.0', '2.0 Core Set', 'Default', '"You''ve gravely misread the situation."');
+insert into Challenges (CardIndex, Trap, Challenge) VALUES (cXXX, 'All Heroes must roll their WILL. The dungeon boss Heals 1 for each Hero that rolled 2 or fewer stars.', 'Each time a Hero deals a wounds to the dungeon boss, that Hero also suffers the same number of wounds.');
+insert into ChallengeAssignments (CharacterIndex, ChallengeIndex) VALUES (cXXX, clXXX); --Demon Queen Araphel
 
 --Flushed a Rabbit For Ya	--CardIndex cXXX --ChallengeIndex clXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
@@ -313,6 +413,16 @@ VALUES ('Fly My Pretties',
 'Challenge', '2.0', '2.0 Core Set', 'Default', 'Having rounded up the bedraggled carcasses of Crows who flew too close to an angry field, a welter of dark magic can often be summoned to return these bothersome avians to a horrible parody of flapping unlife.'); 
 insert into Challenges (CardIndex, Trap, Challenge) VALUES (cXXX, 'All Underdead Crows perform the Move command twice.', 'All monster commands target the Hero with the least wrath.'); 
 insert into ChallengeAssignments (CharacterIndex, ChallengeIndex) VALUES (cXXX, clXXX); --Thresher, The
+
+--For A Few Coins More	--CardIndex cXXX --ChallengeIndex clXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
+VALUES ('For A Few Coins More',
+'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss/Challenges/Pauper_Prince/Card_Boss_Challenge_For_A_Few_Coins_More_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss/Challenges/Backs/Card_Boss_Challenge_Yellow_Back_2.0.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Challenges/Boss/Challenges/Pauper_Prince/For_A_Few_Coins_More.xhtml', 
+'Challenge', '2.0', '2.0 Core Set', 'Default', '"Impressed? I know you are! But it gets better, folks. I know, I know, I''m practically cutting me own throat here. But for just a few more coins you can upgrade to the deluxe model..."');
+insert into Challenges (CardIndex, Trap, Challenge) VALUES (cXXX, 'The Heroes may choose to discard a Princess Coin and draw a treasure card. If they choose not to, place a crystal token on the dungeon boss (this crystal token counts as being placed by the Dibs ability).', 'The dungeon boss gains +1ST ARM for each crystal token on it gained through the Dibs ability.');
+insert into ChallengeAssignments (CharacterIndex, ChallengeIndex) VALUES (cXXX, clXXX); --Pauper Prince
 
 --Forever Curse, The	--CardIndex cXXX --ChallengeIndex clXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
@@ -363,6 +473,26 @@ VALUES ('Frozen Shield',
 insert into Challenges (CardIndex, Trap, Challenge) VALUES (cXXX, 'The dungeon boss performs the Move command, this command targets the Hero with the least wrath.<br><br>Then all monsters, including the dungeon boss, perform the Unique command. This command targets the Hero with the least wrath.', 'The dungeon boss gains +3ST ARM.');
 insert into ChallengeAssignments (CharacterIndex, ChallengeIndex) VALUES (cXXX, clXXX); --Elrik The Lich King
 
+--Gat Gat Gat Gat Gat	--CardIndex cXXX --ChallengeIndex clXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
+VALUES ('Gat Gat Gat Gat Gat',
+'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss/Challenges/Professor_Cackle_Clink/Card_Boss_Challenge_Gat_Gat_Gat_Gat_Gat_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss/Challenges/Backs/Card_Boss_Challenge_Yellow_Back_2.0.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Challenges/Boss/Challenges/Professor_Cackle_Clink/Gat_Gat_Gat_Gat_Gat.xhtml', 
+'Challenge', '2.0', '2.0 Core Set', 'Default', '"When I overcharge the crystal core a reac-- Oh. It''s all terribly techinical and you don''t look very bright. It is suffice to say, I will be taking your Princess Coins after this."');
+insert into Challenges (CardIndex, Trap, Challenge) VALUES (cXXX, 'The dungeon boss performs the Unique command.', 'The dungeon boss gains +1AC for each crystal token still on the board (not carried by a Hero).');
+insert into ChallengeAssignments (CharacterIndex, ChallengeIndex) VALUES (cXXX, clXXX); --Professor Cackle-Clink
+
+--Ghostly Flame A	--CardIndex cXXX --ChallengeIndex clXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
+VALUES ('Ghostly Flame A',
+'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss/Challenges/Onryo/Card_Boss_Challenge_Ghostly_Flame_A_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss/Challenges/Backs/Card_Boss_Challenge_White_Back_2.0.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Challenges/Boss/Challenges/Onryo/Ghostly_Flame_A.xhtml', 
+'Challenge', '2.0', '2.0 Core Set', 'Default', 'The Hitodama of a spirit burn with the ghostly flame as bright as the rage of the Yurei they are part of.');
+insert into Challenges (CardIndex, Trap, Challenge) VALUES (cXXX, 'If there are fewer than four Ghost Creeps in play, spawn Ghost Creeps within four squares of the dungeon boss until there are four in play.', 'Only a single Hero may activate.');
+insert into ChallengeAssignments (CharacterIndex, ChallengeIndex) VALUES (cXXX, clXXX); --Onryo
+
 --Goblin Toss Contest	--CardIndex cXXX --ChallengeIndex clXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
 VALUES ('Goblin Toss Contest',
@@ -382,6 +512,16 @@ VALUES ('Gonna Find Out Who''s Naughty Or Nice',
 'Challenge', '2.0', '2.0 Core Set', 'Default', '');
 insert into Challenges (CardIndex, Trap, Challenge) VALUES (cXXX, 'All Naughties (starting with the Naughtie with the most Wrath and proceeding down) must move their full movement stat towards the closest other Hero and perform a basic attack action against it.<br><br>If Sheep-Cote Clod is in play and has a potion token, it must take its Stink Bomb potion action against the closest other friendly Hero after completing the basic attack.', 'The dungeon boss gains +1ST ARM.');
 insert into ChallengeAssignments (CharacterIndex, ChallengeIndex) VALUES (cXXX, clXXX); --Krampus
+
+--Greasy Spoon	--CardIndex cXXX --ChallengeIndex clXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
+VALUES ('Greasy Spoon',
+'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss/Challenges/Pauper_Prince/Card_Boss_Challenge_Greasy_Spoon_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss/Challenges/Backs/Card_Boss_Challenge_Yellow_Back_2.0.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Challenges/Boss/Challenges/Pauper_Prince/Greasy_Spoon.xhtml', 
+'Challenge', '2.0', '2.0 Core Set', 'Default', '"Oh, you think the slop is your ally. But you merely adopted the slop; I was born in it, molded by it... anyway, are you gonna eat that?"');
+insert into Challenges (CardIndex, Trap, Challenge) VALUES (cXXX, 'The dungeon boss Heals 3, then performs the Unique command.', 'The dungeon boss gains +1ST ARM for each crystal token on it gained through the Dibs ability.');
+insert into ChallengeAssignments (CharacterIndex, ChallengeIndex) VALUES (cXXX, clXXX); --Pauper Prince
 
 --Greedy Imps	--CardIndex cXXX --ChallengeIndex clXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
@@ -471,6 +611,16 @@ VALUES ('Hopelessly Lost',
 'Challenge', '2.0', '2.0 Core Set', 'Default', 'Emsway, the Sanctioned Witch, was the first of our party to become separated. We lost her in the dark, twisting corridors while fending off the Blackblades. I would fear that she has fallen, but I still hear the rumbling of powerful magic and smell smoke from somewhere deep in the tower.');
 insert into Challenges (CardIndex, Trap, Challenge) VALUES (cXXX, 'The Hero with the most wrath must roll its DEX. If it achieves two or fewer stars, the Hero is placed adjacent to any dungeon exit in the third tile.', 'Heroes may not Heal.');
 
+--Howling Vengeance	--CardIndex cXXX --ChallengeIndex clXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
+VALUES ('Howling Vengeance',
+'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss/Challenges/Onryo/Card_Boss_Challenge_Howling_Vengeance_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss/Challenges/Backs/Card_Boss_Challenge_White_Back_2.0.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Challenges/Boss/Challenges/Onryo/Howling_Vengeance.xhtml', 
+'Challenge', '2.0', '2.0 Core Set', 'Default', 'The air is palpable with the rage of the Yurei''s drowned warriors, this has an energizing effect on the lost and wandering spirits of Kagejima.');
+insert into Challenges (CardIndex, Trap, Challenge) VALUES (cXXX, 'The dungeon boss performs the Fight command and gains +2ST STR for the duration of the command.', 'The dungeon boss gains +1ST ARM for each wound token on the Hero with the most wrath.');
+insert into ChallengeAssignments (CharacterIndex, ChallengeIndex) VALUES (cXXX, clXXX); --Onryo
+
 --I Ate The Goblin...I Woke Up Here	--CardIndex cXXX --ChallengeIndex clXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
 VALUES ('I Ate The Goblin...I Woke Up Here',
@@ -480,6 +630,26 @@ VALUES ('I Ate The Goblin...I Woke Up Here',
 'Challenge', '2.0', '2.0 Core Set', 'Default', ''); --!! unavailable !!
 insert into Challenges (CardIndex, Trap, Challenge) VALUES (cXXX, '', ''); --!! unavailable !!
 insert into ChallengeAssignments (CharacterIndex, ChallengeIndex) VALUES (cXXX, clXXX); --Guth, The
+
+--I Know What You Did	--CardIndex cXXX --ChallengeIndex clXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
+VALUES ('I Know What You Did',
+'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss/Challenges/Onryo/Card_Boss_Challenge_I_Know_What_You_Did_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss/Challenges/Backs/Card_Boss_Challenge_White_Back_2.0.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Challenges/Boss/Challenges/Onryo/I_Know_What_You_Did.xhtml', 
+'Challenge', '2.0', '2.0 Core Set', 'Default', 'The guilt of mortal sin lies heavy on the hearts of the righteous. It is like a fragrant lure to the Yurei, and food for their empty, ravenous souls.');
+insert into Challenges (CardIndex, Trap, Challenge) VALUES (cXXX, 'The dungeon boss performs the Unique command.', 'The dungeon boss may not suffer more than one wound from a single action, such as critical hits or Massive Damage.');
+insert into ChallengeAssignments (CharacterIndex, ChallengeIndex) VALUES (cXXX, clXXX); --Onryo
+
+--I Love the Smell of Sewage in the Morning	--CardIndex cXXX --ChallengeIndex clXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
+VALUES ('I Love the Smell of Sewage in the Morning',
+'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss/Challenges/Pauper_Prince/Card_Boss_Challenge_I_Love_the_Smell_of_Sewage_in_the_Morning_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss/Challenges/Backs/Card_Boss_Challenge_Yellow_Back_2.0.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Challenges/Boss/Challenges/Pauper_Prince/I_Love_the_Smell_of_Sewage_in_the_Morning.xhtml', 
+'Challenge', '2.0', '2.0 Core Set', 'Default', '"Told you not to stand under that pipe. Say, in the market for some new clothes?"');
+insert into Challenges (CardIndex, Trap, Challenge) VALUES (cXXX, 'Place all wrath tokens on the Hero with the least wrath.', 'The dungeon boss gains +1ST ARM for each crystal token on it gained through the Dibs ability.');
+insert into ChallengeAssignments (CharacterIndex, ChallengeIndex) VALUES (cXXX, clXXX); --Pauper Prince
 
 --Icy Resolve	--CardIndex cXXX --ChallengeIndex clXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
@@ -501,6 +671,16 @@ VALUES ('I''ll Show You Brother',
 insert into Challenges (CardIndex, Trap, Challenge) VALUES (cXXX, '', ''); --!! unavailable !!
 insert into ChallengeAssignments (CharacterIndex, ChallengeIndex) VALUES (cXXX, clXXX); --Ugg
 
+--I'm Everything You Need	--CardIndex cXXX --ChallengeIndex clXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
+VALUES ('I''m Everything You Need',
+'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss/Challenges/Demon_Queen_Araphel/Card_Boss_Challenge_Im_Everything_You_Need_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss/Challenges/Backs/Card_Boss_Challenge_Purple_Back_2.0.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Challenges/Boss/Challenges/Demon_Queen_Araphel/Im_Everything_You_Need.xhtml', 
+'Challenge', '2.0', '2.0 Core Set', 'Default', 'The Lady of Deceit''s greatest skill is to spin truth into her web of lies until the difference is indiscernable. Thus entangled, she deftly weaves threads of chaos into the fabric of adventuring parties and nations alike.');
+insert into Challenges (CardIndex, Trap, Challenge) VALUES (cXXX, 'The dungeon boss performs the Unique command.', 'Only a single Hero may activate.');
+insert into ChallengeAssignments (CharacterIndex, ChallengeIndex) VALUES (cXXX, clXXX); --Demon Queen Araphel
+
 --I'm Winning!	--CardIndex cXXX --ChallengeIndex clXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
 VALUES ('I''m Winning!',
@@ -519,6 +699,16 @@ VALUES ('Ill-Equipped',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Challenges/Ill_Equipped.xhtml', 
 'Challenge', '2.0', '2.0 Core Set', 'Default', 'Let me prepare the packs, Jonah said. I inventoried all of our equipment, Jonah said. How did he expect us to make it through the tower on these meager rations? I don''t even have a straw in order to enjoy my super slurpy grape soda. This is the last time I fight evil without preparing my own bag.');
 insert into Challenges (CardIndex, Trap, Challenge) VALUES (cXXX, 'Draw the top card of the loot deck. All Heroes in play discard all equipment that shares a slot with the drawn card. Then discard the card.', 'Heroes may not use potion actions.');
+
+--Infatuation	--CardIndex cXXX --ChallengeIndex clXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
+VALUES ('Infatuation',
+'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss/Challenges/Demon_Queen_Araphel/Card_Boss_Challenge_Infantuation_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss/Challenges/Backs/Card_Boss_Challenge_Purple_Back_2.0.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Challenges/Boss/Challenges/Demon_Queen_Araphel/Infatuation.xhtml', 
+'Challenge', '2.0', '2.0 Core Set', 'Default', '"Do not lurk and scuttle in the dark like a common thief or lovelorn peasant. Present yourself to your Queen as is proper.');
+insert into Challenges (CardIndex, Trap, Challenge) VALUES (cXXX, 'All Heroes that are farther than six squares from the dungeon boss must move until they are within six squares of the dungeon boss.', 'The dungeon boss gains +1ST ARM for each status effect token on a Hero in play.');
+insert into ChallengeAssignments (CharacterIndex, ChallengeIndex) VALUES (cXXX, clXXX); --Demon Queen Araphel
 
 --Inferno	--CardIndex cXXX --ChallengeIndex clXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
@@ -548,6 +738,36 @@ VALUES ('Just a Flesh Wound',
 'Challenge', '2.0', '2.0 Core Set', 'Default', 'Ride, my knight! Ride and show these fools the might and righteousness of the Dark Consul! Ride like a vengeful storm!<br><br>-The Midnight Queen');
 insert into Challenges (CardIndex, Trap, Challenge) VALUES (cXXX, 'Select a mini-boss that was destroyed this game. Spawn the selected mini-boss, following the normal rules for spawning a mini-boss. Then the mini-boss suffers an amount of damage equal to half its hearts, rounding up. Heroes do not draw a treasure card if this mini-boss is destroyed.', 'All monster commands target the Hero with the least wrath.');
 
+--Kablamo!!	--CardIndex cXXX --ChallengeIndex clXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
+VALUES ('Kablamo!!',
+'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss/Challenges/Professor_Cackle_Clink/Card_Boss_Challenge_Kablamo_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss/Challenges/Backs/Card_Boss_Challenge_Yellow_Back_2.0.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Challenges/Boss/Challenges/Professor_Cackle_Clink/Kablamo.xhtml', 
+'Challenge', '2.0', '2.0 Core Set', 'Default', '"See how the shell expands into that mass of tangling wires. The real genius is the rectractor core at the center. It cinches everything together nice and tight."');
+insert into Challenges (CardIndex, Trap, Challenge) VALUES (cXXX, 'The dungeon boss performs the following action:<br><br>Splinter Shell: Burst 4, Immobile.', 'The dungeon boss may not suffer more than one wound from a single action, such as critical hits or Massive Damage.');
+insert into ChallengeAssignments (CharacterIndex, ChallengeIndex) VALUES (cXXX, clXXX); --Professor Cackle-Clink
+
+--Kabloowy!!!	--CardIndex cXXX --ChallengeIndex clXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
+VALUES ('Kabloowy!!!',
+'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss/Challenges/Professor_Cackle_Clink/Card_Boss_Challenge_Kabloowy_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss/Challenges/Backs/Card_Boss_Challenge_Yellow_Back_2.0.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Challenges/Boss/Challenges/Professor_Cackle_Clink/Kabloowy.xhtml', 
+'Challenge', '2.0', '2.0 Core Set', 'Default', '"I have my trainee Dunces make these. It''s why I installed this retractable blast shield around my cockpit."');
+insert into Challenges (CardIndex, Trap, Challenge) VALUES (cXXX, 'The dungeon boss performs the following action:<br><br>Incendiary Shell: Burst 4, Fire.', 'The dungeon boss may not suffer more than one wound from a single action, such as critical hits or Massive Damage.');
+insert into ChallengeAssignments (CharacterIndex, ChallengeIndex) VALUES (cXXX, clXXX); --Professor Cackle-Clink
+
+--Kerplowww!	--CardIndex cXXX --ChallengeIndex clXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
+VALUES ('Kerplowww!',
+'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss/Challenges/Professor_Cackle_Clink/Card_Boss_Challenge_Kerplowww_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss/Challenges/Backs/Card_Boss_Challenge_Yellow_Back_2.0.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Challenges/Boss/Challenges/Professor_Cackle_Clink/Kerplowww.xhtml', 
+'Challenge', '2.0', '2.0 Core Set', 'Default', '"Did you really think that after countless ''heroes'' invaded my home, that I wouldn''t have a plan for the eventuality that you reached my lab? Now. Stand still. I need to push this red button."');
+insert into Challenges (CardIndex, Trap, Challenge) VALUES (cXXX, 'The dungeon boss performs the Unique command and then performs the following action:<br><br>Proximity Mines: Wave 4, +2ST STR.', 'Only a single Hero may activate.');
+insert into ChallengeAssignments (CharacterIndex, ChallengeIndex) VALUES (cXXX, clXXX); --Professor Cackle-Clink
+
 --Krampus Is Coming To Town, The	--CardIndex cXXX --ChallengeIndex clXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
 VALUES ('Krampus Is Coming To Town, The',
@@ -568,6 +788,16 @@ VALUES ('Little Helpers',
 insert into Challenges (CardIndex, Trap, Challenge) VALUES (cXXX, '', ''); --!! unavailable 1!
 insert into ChallengeAssignments (CharacterIndex, ChallengeIndex) VALUES (cXXX, clXXX); --Hoarfang
 
+--Love Bites	--CardIndex cXXX --ChallengeIndex clXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
+VALUES ('Love Bites',
+'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss/Challenges/Demon_Queen_Araphel/Card_Boss_Challenge_Love_Bites_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss/Challenges/Backs/Card_Boss_Challenge_Purple_Back_2.0.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Challenges/Boss/Challenges/Demon_Queen_Araphel/Love_Bites.xhtml', 
+'Challenge', '2.0', '2.0 Core Set', 'Default', 'To be in the presence of Demon Queen Araphel is to be confronted by such staggering demonic majesty that the senses reel and one''s own body betrays them.');
+insert into Challenges (CardIndex, Trap, Challenge) VALUES (cXXX, 'All Heroes must roll their WILL. Any Hero that rolls two or fewer stars suffer Knockdown.', 'Each time a Hero deals wounds to the dungeon boss, that Hero also suffers the same number of wounds.');
+insert into ChallengeAssignments (CharacterIndex, ChallengeIndex) VALUES (cXXX, clXXX); --Demon Queen Araphel
+
 --Magical Shielding	--CardIndex cXXX --ChallengeIndex clXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
 VALUES ('Magical Shielding',
@@ -576,6 +806,26 @@ VALUES ('Magical Shielding',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Challenges/Magical_Shielding.xhtml', 
 'Challenge', '2.0', '2.0 Core Set', 'Default', 'Why are doors always such a hazard to adventurers?! We came to a hallway where every door was guarded with some sort of dark magic, we could not open a single one! Somewhere behind us I heard the skittering of spiders and I knew we would either have to fight or go deeper into the tower...<br><br>We chose to keep moving.');
 insert into Challenges (CardIndex, Trap, Challenge) VALUES (cXXX, 'All monsters perform the Fight command.', 'Heroes may not pass through doorways while moving.');
+
+--Marked For Death	--CardIndex cXXX --ChallengeIndex clXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
+VALUES ('Marked For Death',
+'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss/Challenges/Onryo/Card_Boss_Challenge_Marked_For_Death_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss/Challenges/Backs/Card_Boss_Challenge_White_Back_2.0.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Challenges/Boss/Challenges/Onryo/Marked_For_Death.xhtml', 
+'Challenge', '2.0', '2.0 Core Set', 'Default', 'There are no rules to follow, no logic to trace back, no mystery to solve. You simply have 7 days... and then you die.');
+insert into Challenges (CardIndex, Trap, Challenge) VALUES (cXXX, 'Place a crystal token on the Hero with the most wrath. For the remainder of the game, that Hero must reroll all successful defense rolls.', 'The dungeon boss gains +1ST ARM for each wound token on the Hero with the most wrath.');
+insert into ChallengeAssignments (CharacterIndex, ChallengeIndex) VALUES (cXXX, clXXX); --Onryo
+
+--May I Offer A Trade?	--CardIndex cXXX --ChallengeIndex clXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
+VALUES ('May I Offer A Trade?',
+'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss/Challenges/Pauper_Prince/Card_Boss_Challenge_May_I_Offer_A_Trade_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss/Challenges/Backs/Card_Boss_Challenge_Yellow_Back_2.0.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Challenges/Boss/Challenges/Pauper_Prince/May_I_Offer_A_Trade.xhtml', 
+'Challenge', '2.0', '2.0 Core Set', 'Default', '"So you''re telling me you just found this sword in the dungeon? Just laying there, discarded. It''s not a family heirloom? No? Eh. Bet I can do is a few coppers. Decide now and I throw in the lucky rat tail. Tick-tock."');
+insert into Challenges (CardIndex, Trap, Challenge) VALUES (cXXX, 'Each Hero with one or more equipped treasure must either suffer 2 wounds, or discard one treasure and draw a new treasure. The Hero that drew each treasure must either equip it or discard it; this treasure may not be placed in the backpack or onto another Hero.', 'The dungeon boss may not suffer more than one wound from a single action, such as critical hits or Massive Damage.');
+insert into ChallengeAssignments (CharacterIndex, ChallengeIndex) VALUES (cXXX, clXXX); --Pauper Prince
 
 --Mental Fortitude	--CardIndex cXXX --ChallengeIndex clXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
@@ -614,6 +864,16 @@ VALUES ('Muster the Forces',
 'Challenge', '2.0', '2.0 Core Set', 'Default', 'The battle was fierce and quick. The Knight of the Tower rallied his forces, preventing them from falling haplessly on our blades, then charged us as a group. It seems to me the Nether Elves and their arachnid pets not only target the weakest of the group, but they delight in it, gain strength from it.');
 insert into Challenges (CardIndex, Trap, Challenge) VALUES (cXXX, 'All monsters perform the Regroup command.', 'Monsters gain a bonus to their STR equal to the number of wounds on their target.');
 
+--Mweeehahahahahaha!!!	--CardIndex cXXX --ChallengeIndex clXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
+VALUES ('Mweeehahahahahaha!!!',
+'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss/Challenges/Professor_Cackle_Clink/Card_Boss_Challenge_Mweeehahahahahaha_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss/Challenges/Backs/Card_Boss_Challenge_Yellow_Back_2.0.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Challenges/Boss/Challenges/Professor_Cackle_Clink/Mweeehahahahahaha.xhtml', 
+'Challenge', '2.0', '2.0 Core Set', 'Default', '"Oh dear. It wasn''t actually supposed to do that. Watch out please, while I attempt to regain control."');
+insert into Challenges (CardIndex, Trap, Challenge) VALUES (cXXX, 'The dungeon boss performs the Unique command.', 'Only a single Hero may activate.');
+insert into ChallengeAssignments (CharacterIndex, ChallengeIndex) VALUES (cXXX, clXXX); --Professor Cackle-Clink
+
 --Nimble Fingers	--CardIndex cXXX --ChallengeIndex clXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
 VALUES ('Nimble Fingers',
@@ -631,6 +891,26 @@ VALUES ('Nowhere to Hide',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Challenges/Nowhere_to_Hide.xhtml', 
 'Challenge', '2.0', '2.0 Core Set', 'Default', 'This entire tower pulses with obscene power. I remember stories as a child that the Dark Consul had originally sought to turn the entire thing into one giant portal, spawning abominations from the Dark Realm. I am so thankful for the sacrifices of those valiant heroes of old who stalled him and bound him! The smaller portals are enough to deal with...');
 insert into Challenges (CardIndex, Trap, Challenge) VALUES (cXXX, '', 'Any abilities on spawning points that have a range affect the spawning point''s entire tile instead of the listed range.');
+
+--Of Demons And Desire	--CardIndex cXXX --ChallengeIndex clXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
+VALUES ('Of Demons And Desire',
+'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss/Challenges/Demon_Queen_Araphel/Card_Boss_Challenge_Of_Demons_And_Desire_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss/Challenges/Backs/Card_Boss_Challenge_Purple_Back_2.0.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Challenges/Boss/Challenges/Demon_Queen_Araphel/Of_Demons_And_Desire.xhtml', 
+'Challenge', '2.0', '2.0 Core Set', 'Default', 'The servants of the Dark Queen are never far from hand, and they are eager to bring new followers into service.');
+insert into Challenges (CardIndex, Trap, Challenge) VALUES (cXXX, 'If there are fewer than four Spiteful Cherubs in play, spawn Spiteful Cherubs within three squares of the dungeon boss until there are four in play.', 'Only a single Hero may activate.');
+insert into ChallengeAssignments (CharacterIndex, ChallengeIndex) VALUES (cXXX, clXXX); --Demon Queen Araphel
+
+--On Wings of Wrath	--CardIndex cXXX --ChallengeIndex clXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
+VALUES ('On Wings of Wrath',
+'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss/Challenges/Onryo/Card_Boss_Challenge_On_Wings_of_Wrath_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss/Challenges/Backs/Card_Boss_Challenge_White_Back_2.0.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Challenges/Boss/Challenges/Onryo/On_Wings_of_Wrath.xhtml', 
+'Challenge', '2.0', '2.0 Core Set', 'Default', '"Nothing in heaven or on earth can keep me from my revenge."');
+insert into Challenges (CardIndex, Trap, Challenge) VALUES (cXXX, 'Place the dungeon boss adjacent to the SPAWNLOCATION on the first tile. Then, if there are less than four Ghost Creeps in play, spawn Ghost Creeps within three squares of the Hero with the most wrath until there are four Ghost Creeps in play.', 'The dungeon boss may not suffer more than one wound from a single action, such as critical hits or Massive Damage.');
+insert into ChallengeAssignments (CharacterIndex, ChallengeIndex) VALUES (cXXX, clXXX); --Onryo
 
 --Out of the Cornfield	--CardIndex cXXX --ChallengeIndex clXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
@@ -688,6 +968,16 @@ VALUES ('Painful Echoes',
 'Challenge', '2.0', '2.0 Core Set', 'Default', 'I know not if it was my own sympathy, the strong bond that forms between comrades under such dire circumstances, or if it was some vile curse by one of the residents of the tower - but I could feel the aches and pains of my friends. We were one, battling back the forces of darkness in the forsaken halls and defiled chambers.');
 insert into Challenges (CardIndex, Trap, Challenge) VALUES (cXXX, '', 'Whenever a Hero suffers a wound that is not caused by this challenge, all other Heroes within four squares of it also suffer a wound.');
 
+--Pay Tribute to Your Liege	--CardIndex cXXX --ChallengeIndex clXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
+VALUES ('Pay Tribute to Your Liege',
+'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss/Challenges/Pauper_Prince/Card_Boss_Challenge_Pay_Tribute_to_Your_Liege_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss/Challenges/Backs/Card_Boss_Challenge_Yellow_Back_2.0.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Challenges/Boss/Challenges/Pauper_Prince/Pay_Tribute_to_Your_Liege.xhtml', 
+'Challenge', '2.0', '2.0 Core Set', 'Default', '"This is just standard respect, the Prince''s Dues must be paid. Now, I''m not saying you get nothing for your money. You get protection. It''s dangerous down here. All manner o'' ways to get yerself dead..."');
+insert into Challenges (CardIndex, Trap, Challenge) VALUES (cXXX, 'Place one crystal token on the dungeon boss for each Princess Coin spent this game. (These crystal token counts as being placed by the Dibs ability).', 'Only a single Hero may activate.');
+insert into ChallengeAssignments (CharacterIndex, ChallengeIndex) VALUES (cXXX, clXXX); --Pauper Prince
+
 --Pick Off the Stragglers	--CardIndex cXXX --ChallengeIndex clXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
 VALUES ('Pick Off the Stragglers',
@@ -732,6 +1022,16 @@ VALUES ('Precision Strike',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Challenges/Precision_Strike.xhtml', 
 'Challenge', '2.0', '2.0 Core Set', 'Default', 'Their blades are poisoned! Their spiders have venomous bites! Even a scratch can be deadly. It is far better to avoid a blow than to knock it aside with shield or armor, lest some small scratch leave a hero in the most dire straights. Do not expect the Blackblades or Stalkers of the tower to fight fair. Poison is a specialty of any Nether Elf, and their blades must be dodged at any cost.');
 insert into Challenges (CardIndex, Trap, Challenge) VALUES (cXXX, '', 'All Heroes must use their DEX for all defense rolls.');
+
+--Pretty PLease?	--CardIndex cXXX --ChallengeIndex clXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
+VALUES ('Pretty Please?',
+'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss/Challenges/Demon_Queen_Araphel/Card_Boss_Challenge_Pretty_Please_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss/Challenges/Backs/Card_Boss_Challenge_Purple_Back_2.0.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Challenges/Boss/Challenges/Demon_Queen_Araphel/Pretty_Please.xhtml', 
+'Challenge', '2.0', '2.0 Core Set', 'Default', 'Araphel''s words wind and whisper through your mind. Soon you cannot distinguish between her desires and your own.');
+insert into Challenges (CardIndex, Trap, Challenge) VALUES (cXXX, 'The dungeon boss performs the Unique command.', 'All Heroes must use their WILL for all defense rolls.');
+insert into ChallengeAssignments (CharacterIndex, ChallengeIndex) VALUES (cXXX, clXXX); --Demon Queen Araphel
 
 --Psychic Attack	--CardIndex cXXX --ChallengeIndex clXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
@@ -781,6 +1081,16 @@ VALUES ('Refreshing Grog',
 insert into Challenges (CardIndex, Trap, Challenge) VALUES (cXXX, '', ''); --!! unavailable !!
 insert into ChallengeAssignments (CharacterIndex, ChallengeIndex) VALUES (cXXX, clXXX); --Guth, The
 
+--Retribution	--CardIndex cXXX --ChallengeIndex clXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
+VALUES ('Retribution',
+'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss/Challenges/Onryo/Card_Boss_Challenge_Retribution_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss/Challenges/Backs/Card_Boss_Challenge_White_Back_2.0.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Challenges/Boss/Challenges/Onryo/Retribution.xhtml', 
+'Challenge', '2.0', '2.0 Core Set', 'Default', 'There is a simple elegance in a hate so wretched it follows you from the next world.');
+insert into Challenges (CardIndex, Trap, Challenge) VALUES (cXXX, 'The dungeon boss performs the Fight command and then the Unique command.', 'The dungeon boss gains +1ST ARM for each status effect token on a Hero in play.');
+insert into ChallengeAssignments (CharacterIndex, ChallengeIndex) VALUES (cXXX, clXXX); --Onryo
+
 --Romp And Rack	--CardIndex cXXX --ChallengeIndex clXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
 VALUES ('Romp And Rack',
@@ -808,6 +1118,16 @@ VALUES ('Secret Escape Plan',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Challenges/Boss/Challenges/Secret_Escape_Plan.xhtml', 
 'Challenge', '2.0', '2.0 Core Set', 'Default', 'I have seen people hunt vipers. They lure the snake out, and grab the back of the neck. I have never seen a person reach into the viper''s lair. You are in my tower. My home. And I know if far better than you.<br><br>-The Midnight Queen');
 insert into Challenges (CardIndex, Trap, Challenge) VALUES (cXXX, 'The dungeon boss performs the Unique command. Then the dungeon boss is placed adjacent to the SPAWNLOCATION icon on the second tile, move any models necessary to adjacent squares to make the dungeon boss fit.', 'The dungeon boss gains Stealth.');
+
+--See? Works Like A Charm	--CardIndex cXXX --ChallengeIndex clXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
+VALUES ('See? Works Like A Charm',
+'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss/Challenges/Pauper_Prince/Card_Boss_Challenge_See_Works_Like_A_Charm_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss/Challenges/Backs/Card_Boss_Challenge_Yellow_Back_2.0.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Challenges/Boss/Challenges/Pauper_Prince/See_Works_Like_A_Charm.xhtml', 
+'Challenge', '2.0', '2.0 Core Set', 'Default', '"Did you read the fine print, there? The selling party, that''d be me, shall not be held accountable by the injured party, that''d be you, for any of the following: missing fingers, gouged eyes, scraped knees, burst pancreas (oof, that one''s a doozy), broken limbs, hurt feelings, skull fractures..."');
+insert into Challenges (CardIndex, Trap, Challenge) VALUES (cXXX, 'Attach this card to the Ruby equipment slot of the Hero with the most wrath. Discard any equipment from that slot and the Hero may no longer equip to that slot. The Hero with this card equipped gains +1G to all offense rolls, but suffers one wound for each Heart rolled during offense rolls.', '');
+insert into ChallengeAssignments (CharacterIndex, ChallengeIndex) VALUES (cXXX, clXXX); --Pauper Prince
 
 --Sense Weakness	--CardIndex cXXX --ChallengeIndex clXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
@@ -881,6 +1201,16 @@ VALUES ('Stay Together',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Challenges/Stay_Together.xhtml', 
 'Challenge', '2.0', '2.0 Core Set', 'Default', 'As we continued to brave the tower, we could hear whispers from the corridor behind us, and pleas for help behind every door. Whenever we investigated, there was nobody to be found. There was some magic, some presence, attempting to divide us, to lure us into the darkness one by one...<br><br>None of us succumbed, and I shudder to ponder our fate if we had done so.');
 insert into Challenges (CardIndex, Trap, Challenge) VALUES (cXXX, '', 'Monsters gain a +2ST STR bonus while targeting a Hero that is not adjacent to another Hero.');
+
+--Sticky Fingers	--CardIndex cXXX --ChallengeIndex clXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
+VALUES ('Sticky Fingers',
+'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss/Challenges/Pauper_Prince/Card_Boss_Challenge_Sticky_Fingers_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss/Challenges/Backs/Card_Boss_Challenge_Yellow_Back_2.0.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Challenges/Boss/Challenges/Pauper_Prince/Sticky_Fingers.xhtml', 
+'Challenge', '2.0', '2.0 Core Set', 'Default', '"Stolen goods? Of course they''re stolen! Means they''re quality. People part with their garbage intentionally. The real finds are in the things they part with unintentionally. Why, I should charge more for stolen goods!"');
+insert into Challenges (CardIndex, Trap, Challenge) VALUES (cXXX, 'The dungeon boss performs the unique command.', 'All Heroes must use their DEX for all defense rolls.');
+insert into ChallengeAssignments (CharacterIndex, ChallengeIndex) VALUES (cXXX, clXXX); --Pauper Prince
 
 --Strength Through Anger	--CardIndex cXXX --ChallengeIndex clXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
@@ -966,6 +1296,16 @@ VALUES ('They''re in the Room!',
 'Challenge', '2.0', '2.0 Pet Parade', 'Default', '"Thirty paces! Twenty paces!"<br><br>"That''s in the room! You must have cast the tracking spell wrong!"<br><br>"I didn''t cast it wrong! Fifteen paces..."');
 insert into Challenges (CardIndex, Trap, Challenge) VALUES (cXXX, 'Spawn one Creep adjacent to each dungeon exit.', 'All Creeps double their movement.');
 
+--Things We Do For Love, The	--CardIndex cXXX --ChallengeIndex clXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
+VALUES ('Things We Do For Love, The',
+'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss/Challenges/Demon_Queen_Araphel/Card_Boss_Challenge_Things_We_Do_For_Love_The_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss/Challenges/Backs/Card_Boss_Challenge_Purple_Back_2.0.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Challenges/Boss/Challenges/Demon_Queen_Araphel/Things_We_Do_For_Love_The.xhtml', 
+'Challenge', '2.0', '2.0 Core Set', 'Default', 'Also known as the Mistress of Chains, Araphel''s commands, no matter how dire, are irresistable when she bends full force of her will towards a binding.');
+insert into Challenges (CardIndex, Trap, Challenge) VALUES (cXXX, 'The Hero with the least wrath immediately moves up to six squares towards the closest other Hero (stopping when adjacent) and then performs three basic offensive actions targeting that Hero, if able.', 'All monster commands target the Hero with the least wrath.');
+insert into ChallengeAssignments (CharacterIndex, ChallengeIndex) VALUES (cXXX, clXXX); --Demon Queen Araphel
+
 --Those Left Behind	--CardIndex cXXX --ChallengeIndex clXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
 VALUES ('Those Left Behind',
@@ -975,6 +1315,16 @@ VALUES ('Those Left Behind',
 'Challenge', '2.0', '2.0 Pet Parade', 'Default', 'Sure, you can run by a few slow-moving slimes and get deeper into the dungeon. It''s easy to think the slimes aren''t worth your time. But when you''re grappling for your life with some possessed drake, those little buggers will catch up with you...');
 insert into Challenges (CardIndex, Trap, Challenge) VALUES (cXXX, 'Spawn four Creeps within three squares of the Start Token.', 'All monster commands target the Hero with the most wounds. If two or more Heroes are tied, monsters target the Hero with the least wrath among the tied Heroes.');
 
+--Till Death Do Us Part	--CardIndex cXXX --ChallengeIndex clXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
+VALUES ('Till Death Do Us Part',
+'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss/Challenges/Demon_Queen_Araphel/Card_Boss_Challenge_Till_Death_Do_Us_Part_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss/Challenges/Backs/Card_Boss_Challenge_Purple_Back_2.0.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Challenges/Boss/Challenges/Demon_Queen_Araphel/Till_Death_Do_Us_Part.xhtml', 
+'Challenge', '2.0', '2.0 Core Set', 'Default', '"Just because I am Queen does not mean I cannot also be your executioner. Kneel and pay the price for your misguided attempt at defiance."');
+insert into Challenges (CardIndex, Trap, Challenge) VALUES (cXXX, 'Place the Hero with the least wrath adjacent to the dungeon boss, then the dungeon boss performs the Unique command.', 'All Heroes must use their WILL for all defense rolls.');
+insert into ChallengeAssignments (CharacterIndex, ChallengeIndex) VALUES (cXXX, clXXX); --Demon Queen Araphel
+
 --Tiny Hands Burst From the Floor	--CardIndex cXXX --ChallengeIndex clXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
 VALUES ('Tiny Hands Burst From the Floor',
@@ -983,6 +1333,16 @@ VALUES ('Tiny Hands Burst From the Floor',
 'http://htkb.online/SDWiki/SDE/2.0/Pet_Parade/Cards/Challenges/Tiny_Hands_Burst_From_the_Floor.xhtml', 
 'Challenge', '2.0', '2.0 Pet Parade', 'Default', 'The nether elves danced around the heroes, swords darting and cloaks swirling. Suddenly, tiny hands burst through the floor and grabbed the heroes'' ankles. The elves smiled, and slowly began to circle their immobile targets as the heroes struggled...');
 insert into Challenges (CardIndex, Trap, Challenge) VALUES (cXXX, 'Spawn one Creep adjacent to each Hero.', 'Heroes with one or more Creeps adjacent to them may not move.');
+
+--To The Tunnels!	--CardIndex cXXX --ChallengeIndex clXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
+VALUES ('To The Tunnels!',
+'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss/Challenges/Pauper_Prince/Card_Boss_Challenge_To_The_Tunnels_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss/Challenges/Backs/Card_Boss_Challenge_Yellow_Back_2.0.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Challenges/Boss/Challenges/Pauper_Prince/To_The_Tunnels.xhtml', 
+'Challenge', '2.0', '2.0 Core Set', 'Default', '"Home is where the heart is, as they say. It just so happens my heart is filthy and black and filled with sewage."');
+insert into Challenges (CardIndex, Trap, Challenge) VALUES (cXXX, 'The dungeon boss performs the Unique command. Then, place the dungeon boss adjacent to the SPAWNLOCATION on the second tile. Then the dungeon boss performs the unique command a second time.', 'The dungeon boss may not suffer more than one wound from a single action, such as critical hits or Massive Damage.');
+insert into ChallengeAssignments (CharacterIndex, ChallengeIndex) VALUES (cXXX, clXXX); --Pauper Prince
 
 --Trespasser's Curse	--CardIndex cXXX --ChallengeIndex clXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
@@ -1030,15 +1390,45 @@ VALUES ('Unseen Strike',
 'Challenge', '2.0', '2.0 Core Set', 'Default', 'The Midnight Queen''s favored servants are the Nether Elves. Corrupted and twisted by exposure to the Nether Rift, these elves are experts in intrigue, assassination, poison, and ambush.<br><br>-Areyn Kestrom');
 insert into Challenges (CardIndex, Trap, Challenge) VALUES (cXXX, 'If there are fewer than two Gangs of monsters in play, select the spawning point closest to the Hero with the most wrath and spawn the first Gang listed on its card that is available to spawn.', 'All monster commands target the Hero with the least wrath.');
 
---WAAAAAAGH!	--CardIndex cXXX --ChallengeIndex clXXX
+--Vrroooom!	--CardIndex cXXX --ChallengeIndex clXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
-VALUES ('WAAAAAAGH!',
-'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss/Challenges/Guth_The/Card_Boss_WAAAAAAGH_2.0.png', 
+VALUES ('Vrroooom!',
+'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss/Challenges/Professor_Cackle_Clink/Card_Boss_Challenge_Vrroooom_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss/Challenges/Backs/Card_Boss_Challenge_Yellow_Back_2.0.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Challenges/Boss/Challenges/Professor_Cackle_Clink/Vrroooom.xhtml', 
+'Challenge', '2.0', '2.0 Core Set', 'Default', '"See how the shell expands into that mass of tangling wires. The real genius is the rectractor core at the center. It cinches everything together nice and tight."');
+insert into Challenges (CardIndex, Trap, Challenge) VALUES (cXXX, 'The dungeon boss performs the Run ''em Down action and doubles its movement for the duration of the action.', 'The dungeon boss gains -1ST ARM.');
+insert into ChallengeAssignments (CharacterIndex, ChallengeIndex) VALUES (cXXX, clXXX); --Professor Cackle-Clink
+
+--Waaaaaagh!	--CardIndex cXXX --ChallengeIndex clXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
+VALUES ('Waaaaaagh!',
+'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss/Challenges/Guth_The/Card_Boss_Waaaaaagh_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss/Challenges/Backs/Card_Boss_Challenge_Yellow_Green_Back_2.0.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Challenges/Boss/Challenges/Guth_The/WAAAAAAGH.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Challenges/Boss/Challenges/Guth_The/Waaaaaagh.xhtml', 
 'Challenge', '2.0', '2.0 Core Set', 'Default', 'Minions are easily influenced by the actions of their boss. The Guth, whose inclination is towards wanton mayhem ignites the same in his warriors. This leads to chaotic surges of violence that can be almost impossible to contain.');
 insert into Challenges (CardIndex, Trap, Challenge) VALUES (cXXX, 'If there are no Spikers in play, ignore this. Otherwise, destroy the closest Spiker to The Guth and all monsters in play except The Guth perform the Epic Fight command.', 'All monster commands target the Hero with the least wrath.');
 insert into ChallengeAssignments (CharacterIndex, ChallengeIndex) VALUES (cXXX, clXXX); --Guth, The
+
+--Wardrobe Malfunction	--CardIndex cXXX --ChallengeIndex clXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
+VALUES ('Wardrobe Malfunction',
+'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss/Challenges/Demon_Queen_Araphel/Card_Boss_Challenge_Wardrobe_Malfunction_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss/Challenges/Backs/Card_Boss_Challenge_Purple_Back_2.0.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Challenges/Boss/Challenges/Demon_Queen_Araphel/Wardrobe_Malfunction.xhtml', 
+'Challenge', '2.0', '2.0 Core Set', 'Default', '"I see you have found my succubi. Let them relieve you of your burdens. We will talk after."');
+insert into Challenges (CardIndex, Trap, Challenge) VALUES (cXXX, 'Draw the top card of the loot deck. All Heroes must either discard a Princess Coin or discard all equipment that shares a slot with the drawn card. Then discard the card.', 'The dungeon boss may not suffer more than one wound from a single action, such as critical hits or Massive Damage.');
+insert into ChallengeAssignments (CharacterIndex, ChallengeIndex) VALUES (cXXX, clXXX); --Demon Queen Araphel
+
+--Who Is Small Now Ahahah Ahaha!	--CardIndex cXXX --ChallengeIndex clXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
+VALUES ('Who Is Small Now Ahahah Ahaha!',
+'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss/Challenges/Professor_Cackle_Clink/Card_Boss_Challenge_Who_Is_Small_Now_Ahahah_Ahaha_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss/Challenges/Backs/Card_Boss_Challenge_Yellow_Back_2.0.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Challenges/Boss/Challenges/Professor_Cackle_Clink/Who_Is_Small_Now_Ahahah_Ahaha.xhtml', 
+'Challenge', '2.0', '2.0 Core Set', 'Default', '"I installed this tread to climb the vertical surface of rocky terrain. Bother. That is a lie. I installed it for exactly this reason. AHAHAHAHAHAHA!"');
+insert into Challenges (CardIndex, Trap, Challenge) VALUES (cXXX, 'The dungeon boss performs the Run ''em Down action three consecutive times.', 'The dungeon boss gains -1ST ARM.');
+insert into ChallengeAssignments (CharacterIndex, ChallengeIndex) VALUES (cXXX, clXXX); --Professor Cackle-Clink
 
 --Withered Crops	--CardIndex cXXX --ChallengeIndex clXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
@@ -1088,6 +1478,16 @@ VALUES ('You Can Run...',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Challenges/Boss/Challenges/You_Can_Run.xhtml', 
 'Challenge', '2.0', '2.0 Core Set', 'Default', 'Run, if it makes you feel better. But not down that corridor, you''ll encounter the bone wyvern! Oh, you''re turning down the hallway to the left? I hope you enjoy slate serpents! Run where you like.<br><br>I am always watching.<br><br>-The Midnight Queen');
 insert into Challenges (CardIndex, Trap, Challenge) VALUES (cXXX, 'Any mini-bosses or dungeon bosses in play remove two wound tokens, then perform the Unique command.', 'All Heroes must use their DEX for all defense rolls.');
+
+--You Won't Find A Better Deal	--CardIndex cXXX --ChallengeIndex clXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
+VALUES ('You Won''t Find A Better Deal',
+'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss/Challenges/Pauper_Prince/Card_Boss_Challenge_You_Wont_Find_A_Better_Deal_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss/Challenges/Backs/Card_Boss_Challenge_Yellow_Back_2.0.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Challenges/Boss/Challenges/Pauper_Prince/You_Wont_Find_A_Better_Deal.xhtml', 
+'Challenge', '2.0', '2.0 Core Set', 'Default', '"Of course this is a fair deal! Strong-arm you, why I never?! Knuckles, are we strong-arming these weary travelers?"');
+insert into Challenges (CardIndex, Trap, Challenge) VALUES (cXXX, 'The Heroes may choose to discard a Princess Coin and draw a treasure card. If they choose not to, spawn a mini-boss that was destroyed this game adjacent to the dungeon boss.', 'All failed defense rolls count as rolling zero stars for the purposes of the Yoink ability.');
+insert into ChallengeAssignments (CharacterIndex, ChallengeIndex) VALUES (cXXX, clXXX); --Pauper Prince
 
 --You? I Always Do All the Work	--CardIndex cXXX --ChallengeIndex clXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)

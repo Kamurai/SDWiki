@@ -406,6 +406,29 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (gXXX, 212
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (gXXX, 495); --Pipe Puff
 
 
+--Professor Cackle-Clink	--CardIndex cXXX	--CharacterIndex chXXX	--ArcadeCharacterIndex arXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Professor Cackle-Clink',
+'http://htkb.info/SDE/2.0/Cards/Arcade/Bosses/Card_Arcade_Boss_Professor_Cackle_Clink_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Arcade/Bosses/Card_Arcade_Boss_Professor_Cackle_Clink_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Bosses/Professor_Cackle_Clink.xhtml', 
+'Boss', '2.0', '2.0 Core Set', 'Default', 
+'');
+insert into Characters (CardIndex) VALUES (cXXX);
+insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
+VALUES (chXXX, 473, -1);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 2); --Emerald
+--GangMemberIndex gXXX
+insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
+VALUES (arXXX, 0, 'Professor Cackl-Clink', 'Gnome', 'Boss', 4, 8, 4, eXXX);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, 563); --Burrow
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, 557); --Excessive Armor
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, 518); --Immune: Immobile
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, 524); --Immune: Knockdown
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, 557); --Knockdown
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (gXXX, 212); --Run 'em Down
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (gXXX, 495); --Fragmentation Shell
+
+
 --Starfire	--CardIndex cXXX	--CharacterIndex chXXX	--ArcadeCharacterIndex arXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Starfire',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Bosses/Card_Arcade_Boss_Starfire_2.0.png', 
