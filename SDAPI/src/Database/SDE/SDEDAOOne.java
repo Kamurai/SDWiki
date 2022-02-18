@@ -1073,6 +1073,12 @@ public class SDEDAOOne extends SDEDAO{
         ResultSet rs;
         SDE.ChallengeCard result = new SDE.ChallengeCard();
         
+        int     previousCardIndex       = -1;
+        int     previousCharacterIndex  = -1;
+        
+        boolean newCard                 = false;
+        boolean newCharacter            = false;
+        
         try{
             openConnection();
             
@@ -1081,20 +1087,50 @@ public class SDEDAOOne extends SDEDAO{
             rs = stmt.executeQuery();
             
             while(rs.next()){
-                //run only on first pass
-                result.setCardIndex(rs.getInt("CardIndex"));
-                result.setName(rs.getString("CardName"));
-                result.setPictureFront(rs.getString("PictureFront"));
-                result.setPictureBack(rs.getString("PictureBack"));
-                result.setLink(rs.getString("Link"));
-                result.setCardType(rs.getString("CardType"));
-                result.setVersion(rs.getString("ProductSet"));
-                result.setModule(rs.getString("ProductModule"));
-                result.setMode(rs.getString("PlayMode"));
-                result.setFlavor(rs.getString("Flavor"));
+                newCard         = (rs.getInt("CardIndex")       != previousCardIndex);
+                newCharacter    = (rs.getInt("CharacterIndex")  != previousCharacterIndex);
+                
+                //run only on new card
+                if(newCard){
+                    //run only on first pass
+                    result.setCardIndex(rs.getInt("CardIndex"));
+                    result.setName(rs.getString("CardName"));
+                    result.setPictureFront(rs.getString("PictureFront"));
+                    result.setPictureBack(rs.getString("PictureBack"));
+                    result.setLink(rs.getString("Link"));
+                    result.setCardType(rs.getString("CardType"));
+                    result.setVersion(rs.getString("ProductSet"));
+                    result.setModule(rs.getString("ProductModule"));
+                    result.setMode(rs.getString("PlayMode"));
+                    result.setFlavor(rs.getString("Flavor"));
 
-                result.setTrap(rs.getString("Trap"));
-                result.setChallenge(rs.getString("Challenge"));
+                    result.setTrap(rs.getString("Trap"));
+                    result.setChallenge(rs.getString("Challenge"));
+                }
+                
+                //if on new related character
+                if(newCharacter){
+                    if(
+                            rs.getInt("CharacterIndex") != 0
+                    ){
+                        result.addCharacter(
+                            rs.getString("CharacterName"),
+                            rs.getString("CharacterVersion"),
+                            rs.getString("CharacterLink"),
+                            rs.getString("CharacterPicture")
+                        );
+                        
+                    }
+                    
+                    if(result.getCharacterList().size() > 0){
+                        System.out.print("Related Character: " + result.getCharacterList().get(0).getName());
+                    }
+                    
+                    previousCharacterIndex = rs.getInt("CharacterIndex");
+                }
+                
+                //Previous card index
+                previousCardIndex = rs.getInt("CardIndex");
             }
         }
         catch(Exception e){
