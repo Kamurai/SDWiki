@@ -5,4 +5,5 @@
 /SDWiki/nbproject/**
 /SDWiki/build/**
 /SDWiki/dist/**
-SDAPI/nbproject/private/private.properties
+/SDAPI/nbproject/private/private.properties
+*.properties
