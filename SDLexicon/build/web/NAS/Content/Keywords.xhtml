@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:c="http://java.sun.com/jsp/jstl/core"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets">
+    <h:head />
+    <h:body>
+         <title>
+            Keywords
+        </title>
+        <h2>
+            Keywords
+        </h2>
+        <div id="idCenterContent">
+            <p>
+                These are the Keywords available in Super Dungeon.
+            </p>
+            #{SDEBean.pullKeywords()}
+            
+            <div class="xRow">
+                <div class="inline keyword version">Version</div>
+                <tab/>
+                <div class="inline keyword playMode">PlayMode</div>
+                <tab/>
+                <div class="inline keyword name">Keyword</div>
+                <tab/>
+                <div class="inline keyword definition">Definition</div>
+            </div>
+            <ui:repeat var="x" value="#{SDEBean.getKeywords()}" size="#{SDEBean.getKeywords().size()}" varStatus="myVarStatus" >
+                <ui:fragment rendered="#{x.validateKeyword()}">
+                    <div class="xRow">
+                        <div class="inline keyword version"><!-- Version -->#{x.getVersion()}</div>
+                        <tab/>
+                        <div class="inline keyword playMode"><!-- PlayMode -->#{x.getPlayMode()}</div>
+                        <tab/>
+                        <div class="inline keyword name"><!-- Keyword -->#{x.getName()}</div>
+                        <tab/>
+                        <div class="inline keyword definition"><!-- Definition --><h:outputText value="#{x.getDescription()}" escape="false"/></div>
+                    </div>
+                </ui:fragment>
+            </ui:repeat>
+        </div>
+    </h:body>
+</html>
+

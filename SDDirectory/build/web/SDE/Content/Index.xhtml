@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets">
+    <h:head>
+        <link rel="shortcut icon" href="http://htkb.dyndns.org/favicon.ico"/>
+        <link rel="icon" type="image/x-icon" href="http://htkb.dyndns.org/favicon.ico"/>
+        <link rel="icon" href="http://htkb.dyndns.org/favicon.ico"/>
+        
+        <link href="http://htkb.online/Styles/SDDirectory.css"        rel="stylesheet"    type="text/css" />
+    </h:head>
+    <h:body>
+        <title>
+            Super Dungeon Explore Directory
+        </title>
+        <h2>
+            Super Dungeon Explore Directory
+        </h2>
+        <div>
+            <!-- #{SDEBean.setStarted(true)} -->
+            <div>
+                <a href="../Index.xhtml" >Return to Top Level</a>
+            </div>
+            <ui:repeat var="y" value="#{SDEBean.getLinkList()}" size="#{SDEBean.getLinkList().size()}" varStatus="myVarStatus" >
+                <div>
+                    <a href="#{y}">#{y}</a>
+                </div>
+            </ui:repeat>
+        </div>
+    </h:body>
+</html>
+
