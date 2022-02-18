@@ -1,0 +1,8 @@
+/**/*.properties
+/SDAPI/nbproject/**
+/SDAPI/build/**
+/SDAPI/dist/**
+/SDWiki/nbproject/**
+/SDWiki/build/**
+/SDWiki/dist/**
+SDAPI/nbproject/private/private.properties
