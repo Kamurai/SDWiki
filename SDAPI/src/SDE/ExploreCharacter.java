@@ -57,6 +57,8 @@ public class ExploreCharacter extends Character implements KeywordInterface, Abi
         String              mode,
         String              flavor,
         String              affinity,
+        String              standieFront,
+        String              standieBack,
         String              gender,
         String              modelSize,
         String              creatureType,
@@ -86,6 +88,8 @@ public class ExploreCharacter extends Character implements KeywordInterface, Abi
             flavor,
             affinity
         );
+        this.standieFront   = standieFront;
+        this.standieBack    = standieBack;
         this.gender         = gender;
         this.modelSize      = modelSize;
         this.creatureType   = creatureType;
@@ -101,6 +105,22 @@ public class ExploreCharacter extends Character implements KeywordInterface, Abi
         this.offenses       = offenses;
         this.keywords       = keywords;
         this.abilities      = abilities;
+    }
+
+    public String getStandieFront() {
+        return standieFront;
+    }
+
+    public void setStandieFront(String standieFront) {
+        this.standieFront = standieFront;
+    }
+
+    public String getStandieBack() {
+        return standieBack;
+    }
+
+    public void setStandieBack(String standieBack) {
+        this.standieBack = standieBack;
     }
     
     public String getGender(){

@@ -11,7 +11,7 @@ j.KeywordIndex, j.Name as KeywordName, KeywordDescription, --Keywords
 l.AbilityIndex, l.Name as AbilityName, AbilityResource, AbilityType, AbilityCost, --Abilities
 v.Attribute as AbilityAttribute, --Attributes
 AbilityRange, AbilityDescription, --Abilities
-m.Gender, m.ModelSize --ExploreCharacter
+m.Gender, m.ModelSize, m.Link, m.PictureFront, m.StandieFront --ExploreCharacter
 from Cards a
 join Characters b on a.CardIndex=b.CardIndex
 full join AffinityAssignments c on b.CharacterIndex=c.CharacterIndex

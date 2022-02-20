@@ -13,6 +13,10 @@ public class GangMember implements KeywordInterface, AbilityInterface {
     private String  gender;
     private String  modelSize;
     
+    private String  link;
+    private String  pictureFront;
+    private String  standieFront;
+    
     private ArrayList<Keyword>  keywords;
     private ArrayList<Ability>  abilities;
     
@@ -28,6 +32,10 @@ public class GangMember implements KeywordInterface, AbilityInterface {
         this.gender         = "";
         this.modelSize      = "";
         
+        this.link           = "";
+        this.pictureFront   = "";
+        this.standieFront   = "";
+        
         this.keywords       = new ArrayList<Keyword>();
         this.abilities      = new ArrayList<Ability>();
     }
@@ -42,6 +50,10 @@ public class GangMember implements KeywordInterface, AbilityInterface {
         int     armor,
         String  gender,
         String  modelSize,
+        
+        String  link,
+        String  pictureFront,
+        String  standieFront,
     
         ArrayList<Keyword>  keywords,
         ArrayList<Ability>  abilities
@@ -53,8 +65,12 @@ public class GangMember implements KeywordInterface, AbilityInterface {
         this.movement       = movement;
         this.health         = health;
         this.armor          = armor;
-        this.gender      = gender;
+        this.gender         = gender;
         this.modelSize      = modelSize;
+        
+        this.link           = link;
+        this.pictureFront   = pictureFront;
+        this.standieFront   = standieFront;
                 
         this.keywords       = keywords;
         this.abilities      = abilities;
@@ -130,6 +146,30 @@ public class GangMember implements KeywordInterface, AbilityInterface {
         }else{
             this.gender = "Error";
         }
+    }
+
+    public String getLink() {
+        return link;
+    }
+
+    public void setLink(String link) {
+        this.link = link;
+    }
+
+    public String getPictureFront() {
+        return pictureFront;
+    }
+
+    public void setPictureFront(String pictureFront) {
+        this.pictureFront = pictureFront;
+    }
+
+    public String getStandieFront() {
+        return standieFront;
+    }
+
+    public void setStandieFront(String standieFront) {
+        this.standieFront = standieFront;
     }
 
     public String getModelSize(){
