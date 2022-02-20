@@ -8,3 +8,7 @@
 /SDAPI/nbproject/private/private.properties
 *.properties
 SDWiki/nbproject/private/private.properties
+*.xml
+*.properties
+*.xml
+*.class
