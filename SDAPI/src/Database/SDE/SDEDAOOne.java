@@ -659,6 +659,7 @@ public class SDEDAOOne extends SDEDAO{
                         rs.getInt("MemberArmor"),
                         rs.getString("Gender"),
                         rs.getString("ModelSize"),
+                        rs.getString("Link"),
                         rs.getString("PictureFront"),
                         rs.getString("StandieFront"),
                         new ArrayList<SDE.Keyword>(),

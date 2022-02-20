@@ -2,7 +2,7 @@
 --Arcade Gangs
 create view ArcadeGangsViewMultiLine as 
 select a.CardIndex, b.CharacterIndex, e.ArcadeCharacterIndex, --Indexes
-a.Name as CardName, PictureFront, PictureBack, Link, CardType, ProductSet, a.ProductModule, a.PlayMode, Flavor, --Cards
+a.Name as CardName, a.PictureFront, a.PictureBack, a.Link, a.CardType, a.ProductSet, a.ProductModule, a.PlayMode, a.Flavor, --Cards
 AffinityType, --Affinity
 f.StatAction as SoloActions, f.StatStrength as SoloStrength, f.StatRange as SoloRange, --Solo Stat lines
 g.StatAction as GangActions, g.StatStrength as GangStrength, g.StatRange as GangRange, --Gang Stat lines
@@ -11,7 +11,8 @@ j.KeywordIndex, j.Name as KeywordName, KeywordDescription, --Keywords
 l.AbilityIndex, l.Name as AbilityName, AbilityResource, AbilityType, AbilityCost, --Abilities
 v.Attribute as AbilityAttribute, --Attributes
 AbilityRange, AbilityDescription, --Abilities
-m.Gender, m.ModelSize, m.Link, m.PictureFront, m.StandieFront --ExploreCharacter
+m.Gender, m.ModelSize, m.StandieFront, --ExploreCharacter
+o.Link as ExploreLink, o.PictureFront as ExplorePictureFront --Cards
 from Cards a
 join Characters b on a.CardIndex=b.CardIndex
 full join AffinityAssignments c on b.CharacterIndex=c.CharacterIndex
@@ -27,5 +28,6 @@ full join Abilities l on k.AbilityIndex=l.AbilityIndex
 full join Attributes v on l.AttributeIndex=v.AttributeIndex
 join ExploreCharacters m on h.ExploreCharacterIndex = m.ExploreCharacterIndex
 join Characters n on m.CharacterIndex = n.CharacterIndex
+join Cards o on n.CardIndex = o.CardIndex
 where g.StatAction IS NOT NULL AND g.StatStrength IS NOT NULL AND g.StatRange IS NOT NULL
 ;
