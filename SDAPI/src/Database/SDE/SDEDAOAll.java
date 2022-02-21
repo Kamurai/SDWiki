@@ -684,6 +684,9 @@ public class SDEDAOAll extends SDEDAO{
                         rs.getInt("MemberArmor"),
                         rs.getString("Gender"),
                         rs.getString("ModelSize"),
+                        rs.getString("Link"),
+                        rs.getString("PictureFront"),
+                        rs.getString("StandieFront"),
                         new ArrayList<SDE.Keyword>(),
                         new ArrayList<SDE.Ability>()
                     );

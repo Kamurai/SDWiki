@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Equipment extends Card implements KeywordInterface, AbilityInterface, CharacterInterface {
+    private String equipmentType;
     private String position;
     private String effect;
     private String characterName;
@@ -16,6 +17,7 @@ public class Equipment extends Card implements KeywordInterface, AbilityInterfac
     
     public Equipment(){
         super();
+        this.equipmentType  = "";
         this.position       = "";
         this.effect         = "";
         this.characterName  = "";
@@ -36,6 +38,7 @@ public class Equipment extends Card implements KeywordInterface, AbilityInterfac
         String  module,
         String  mode,
         String  flavor,
+        String equipmentType,
         String position,
         String effect,
         String characterName,
@@ -56,6 +59,7 @@ public class Equipment extends Card implements KeywordInterface, AbilityInterfac
             mode,
             flavor
         );
+        this.equipmentType  = equipmentType;
         this.position       = position;
         this.effect         = effect;
         this.characterName  = characterName;
@@ -63,6 +67,14 @@ public class Equipment extends Card implements KeywordInterface, AbilityInterfac
         this.characterList  = characterList;
         this.keywords       = keywords;
         this.abilities      = abilities;
+    }
+
+    public String getEquipmentType() {
+        return equipmentType;
+    }
+
+    public void setEquipmentType(String equipmentType) {
+        this.equipmentType = equipmentType;
     }
 
     public String getPosition() {

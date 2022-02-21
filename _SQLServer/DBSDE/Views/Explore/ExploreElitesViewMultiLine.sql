@@ -28,5 +28,5 @@ full join Attributes k on j.AttributeIndex=k.AttributeIndex
 full join DefenseAssignments l on c.ExploreCharacterIndex=l.ExploreCharacterIndex
 full join Attributes m on l.AttributeIndex=m.AttributeIndex
 full join Monsters n on c.ExploreCharacterIndex=n.ExploreCharacterIndex
-where a.CardType = 'Elite'
+where n.RankType = 'Elite'
 ;
