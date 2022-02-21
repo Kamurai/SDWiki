@@ -358,11 +358,11 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (1
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (163, 4); --Dexterity
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (163, '', 'Super', 1);
 
---Oni --CardIndex 249	--CharacterIndex 164	--ExploreCharacterIndex 164
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Oni',
-'http://htkb.info/SDE/FK/Cards/MiniBosses/Card_MiniBoss_Oni_FK.png', 
-'http://htkb.info/SDE/FK/Cards/MiniBosses/Card_MiniBoss_Oni_FK_back.png', 
-'http://htkb.online/SDWiki/SDE/FK/Explore/Cards/MiniBosses/Oni.xhtml', 
+--Clan Fire Shrine Oni --CardIndex 249	--CharacterIndex 164	--ExploreCharacterIndex 164
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Clan Fire Shrine Oni',
+'http://htkb.info/SDE/FK/Cards/MiniBosses/Card_MiniBoss_Clan_Fire_Shrine_Oni_FK.png', 
+'http://htkb.info/SDE/FK/Cards/MiniBosses/Card_MiniBoss_Clan_Fire_Shrine_Oni_FK_back.png', 
+'http://htkb.online/SDWiki/SDE/FK/Explore/Cards/MiniBosses/Clan_Fire_Shrine_Oni.xhtml', 
 'MiniBoss', 'FK', 'FK Core Set', 'Explore',
 'It is said that man and Oni first met as enemies, but soon developed a grudging respect; the Oni for their size and strength, and men for their technology and tenacity.  Many Oni, however fickle, will join a team to honor agreements, to demonstrate their strength, or just for the fun of it.  They may not be the most stealthy, but their effect on the enemy is remarkable.');
 insert into Characters (CardIndex) VALUES (249);
@@ -374,8 +374,8 @@ insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (164
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (164, 267); --Deceive
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (164,
-'http://htkb.info/SDE/FK/Cards/MiniBosses/Standies/Oni_FK.png', 
-'http://htkb.info/SDE/FK/Cards/MiniBosses/Standies/Oni_FK_back.png',
+'http://htkb.info/SDE/FK/Cards/MiniBosses/Standies/Clan_Fire_Shrine_Oni_FK.png', 
+'http://htkb.info/SDE/FK/Cards/MiniBosses/Standies/Clan_Fire_Shrine_Oni_FK_back.png',
 'Masculine', 'Large', 'Oni', 6, 3, '3R', '2R', '3B', '2B', 6, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (164, 1, 2); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (164, 2); --Armor
