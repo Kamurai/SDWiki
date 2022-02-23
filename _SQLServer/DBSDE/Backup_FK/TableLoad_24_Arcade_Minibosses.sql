@@ -269,11 +269,11 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (24, 337);
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (24, 611); --Super Shuriken
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (24, 344); --Frosty Soda Bomb
 
---Oni --CardIndex 362	--CharacterIndex 277	--ArcadeCharacterIndex 25
+--Clan Fire Shrine Oni --CardIndex 362	--CharacterIndex 277	--ArcadeCharacterIndex 25
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Oni',
-'http://htkb.info/SDE/FK/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Oni_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Oni_FK_back.png', 
-'http://htkb.online/SDWiki/SDE/FK/Arcade/Cards/MiniBosses/Oni.xhtml', 
+'http://htkb.info/SDE/FK/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Clan_Fire_Shrine_Oni_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Clan_Fire_Shrine_Oni_FK_back.png', 
+'http://htkb.online/SDWiki/SDE/FK/Arcade/Cards/MiniBosses/Clan_Fire_Shrine_Oni.xhtml', 
 'MiniBoss', 'FK', 'FK Core Set', 'Arcade', 
 'It is said that man and Oni first met as enemies, but soon developed a grudging respect; the Oni for their size and strength, and men for their technology and tenacity.  Many Oni, however fickle, will join a team to honor agreements, to demonstrate their strength, or just for the fun of it.  They may not be the most stealthy, but their effect on the enemy is remarkable.');
 insert into Characters (CardIndex) VALUES (362);
