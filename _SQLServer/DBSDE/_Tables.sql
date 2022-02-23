@@ -1,4 +1,4 @@
---drop table Cards, Characters, Affinities, AffinityAssignments, Keywords, KeywordAssignments, Abilities, AbilityAssignments, ExploreCharacters, Attributes, OffenseAssignments, DefenseAssignments, Pets, Monsters, ArcadeCharacters, StatLines, GangMembers, Equipment, EquipmentAssignments, Mechs, BossSpawns, BossSpawnAssignments, Utilities, Explores, ExploreTraps, ExploreCreeps, ExploreAssignments, Challenges, ChallengeAssignments, Plots, MightyMonsters;
+--drop table Cards, Characters, Affinities, AffinityAssignments, Keywords, KeywordAssignments, Abilities, AbilityAssignments, ExploreCharacters, Attributes, OffenseAssignments, DefenseAssignments, Pets, Monsters, ArcadeCharacters, StatLines, GangMembers, Equipment, EquipmentAssignments, Mechs, BossSpawns, BossSpawnAssignments, Utilities, Explores, ExploreTraps, ExploreCreeps, ExploreAssignments, Challenges, ChallengeAssignments, Plots, MightyMonsters, CustomCards;
 --drop table Keywords
 --drop table KeywordAssignments
 --drop table KeywordAssignments, AbilityAssignments, OffenseAssignments, DefenseAssignments
@@ -61,7 +61,7 @@ create table ChallengeAssignments (ChallengeAssignmentIndex bigint IDENTITY(0,1)
 create table Plots (PlotIndex bigint IDENTITY(0,1) PRIMARY KEY, CardIndex bigint not null, PowerUp varchar(50) not null, Plot varchar(50) not null);
 create table MightyMonsters (MightyMonsterIndex bigint IDENTITY(0,1) PRIMARY KEY, CardIndex bigint not null, Targets varchar(50) not null, Bonus varchar(50) not null, Condition varchar(50) not null);
 
-
+create table CustomCards (CustomCardIndex bigint IDENTITY(0,1) PRIMARY KEY, CardIndex bigint not null, Author varchar(30) not null, URL varchar(100) not null);
 
 
 
