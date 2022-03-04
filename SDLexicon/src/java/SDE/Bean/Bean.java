@@ -12,7 +12,7 @@ import Database.SDE.SDEDAOAll;
 
 @ManagedBean(name="SDEBean")
 @RequestScoped
-public class Bean extends Main.Bean{
+public class Bean extends Main.Bean.Bean{
     protected Database.SDE.SDEDAOAll        allDAO;
     
     private String      page = "";

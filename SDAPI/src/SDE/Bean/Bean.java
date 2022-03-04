@@ -7,13 +7,12 @@ import SDE.Board;
 import SDE.Card;
 import SDE.Definition;
 import SDE.Dice;
-import SDE.ExploreCharacter;
 import java.util.ArrayList;
 import java.util.List;
 
 @ManagedBean(name="SDEBean")
 @RequestScoped
-public class Bean extends Main.Bean{
+public class Bean extends Main.Bean.Bean{
     protected Database.SDE.SDEDAOOne        oneDAO;
     protected Database.SDE.SDEDAOAll        allDAO;
     protected Database.SDE.SDEDAONavigation navDAO;

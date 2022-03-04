@@ -6,7 +6,7 @@ import javax.faces.bean.RequestScoped;
 
 @ManagedBean(name="RRIBean")
 @RequestScoped
-public class Bean extends Main.Bean{
+public class Bean extends Main.Bean.Bean{
     protected List<String> linkList;
     protected LinkFetcher linkFetcher = new LinkFetcher();
     
