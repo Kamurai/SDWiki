@@ -15,8 +15,8 @@ import java.util.List;
 @ManagedBean(name="MainBean")
 @RequestScoped
 public class Bean{
-    protected   Universal   uni;
-    private     String      page;
+    protected Universal   uni;
+    protected String      page;
     protected List<String> linkList;
     protected LinkFetcher linkFetcher = new LinkFetcher();
     protected boolean started = false;
@@ -27,6 +27,8 @@ public class Bean{
     
     public Bean(){
         uni = new Universal();
+        
+        this.page               = "";
     }
 
     public String setLayout(String page){

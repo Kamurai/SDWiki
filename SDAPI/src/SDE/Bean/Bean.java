@@ -22,12 +22,13 @@ public class Bean extends Main.Bean.Bean{
     private Definition  definition;
     private List<Card>  definitionList;
     
-    private String      page;
+//    private String      page;
     
     protected List<String> linkList;
     protected LinkFetcher linkFetcher = new LinkFetcher();
     
     public Bean(){
+        super();
         this.uni                = new Universal();
         this.oneDAO             = new Database.SDE.SDEDAOOne();
         this.allDAO             = new Database.SDE.SDEDAOAll();
@@ -39,8 +40,6 @@ public class Bean extends Main.Bean.Bean{
         this.diceList           = new ArrayList<Card>();
         this.definition         = new Definition();
         this.definitionList     = new ArrayList<Card>();
-        
-        this.page               = "";
         
         linkList = linkFetcher.getFileList();
     }
@@ -57,12 +56,14 @@ public class Bean extends Main.Bean.Bean{
         return definition;
     }
     
+    @Override
     public String setLayout(String page){
         this.page = page;
         
         return "./Layout.xhtml";
     }
     
+    @Override
     public String getContent(){
         String result = "";
         
