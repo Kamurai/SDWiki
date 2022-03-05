@@ -5,16 +5,20 @@
 
 package NAS.Bean;
 
-import Main.*;
-import NAS.Custom;
 import javax.faces.bean.ManagedBean;
 import javax.faces.bean.RequestScoped;
+
+import NAS.*;
+import Main.Universal;
+import java.util.List;
 
 @ManagedBean(name="NASBean")
 @RequestScoped
 public class Bean extends Main.Bean.Bean{
     int vLevel;
     int vPage;
+    protected List<String> linkList;
+    protected LinkFetcher linkFetcher = new LinkFetcher();
     
     Custom    vCustom;
     Universal vUniversal;
@@ -25,6 +29,8 @@ public class Bean extends Main.Bean.Bean{
         
         vCustom = new Custom();
         vUniversal = new Universal();
+        
+        linkList = linkFetcher.getFileList();
     }
 
     public void setVLevel(int vLevel)
@@ -67,5 +73,10 @@ public class Bean extends Main.Bean.Bean{
         setVPage(vPage);
 
         return getPath()+"NAS/Layout.xhtml";
+    }
+    
+    @Override
+    public List<String> getLinkList(){
+        return linkList;
     }
 }

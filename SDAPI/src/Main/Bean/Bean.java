@@ -5,11 +5,12 @@
 
 package Main.Bean;
 
+import javax.faces.bean.ManagedBean;
+import javax.faces.bean.RequestScoped;
+
 import Main.LinkFetcher;
 import Main.Universal;
 import java.util.List;
-import javax.faces.bean.ManagedBean;
-import javax.faces.bean.RequestScoped;
 
 @ManagedBean(name="MainBean")
 @RequestScoped
@@ -19,6 +20,7 @@ public class Bean{
     protected List<String> linkList;
     protected LinkFetcher linkFetcher = new LinkFetcher();
     protected boolean started = false;
+    
     public void setStarted(boolean input){
         this.started = input;
     }

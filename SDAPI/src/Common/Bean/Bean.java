@@ -1,10 +1,12 @@
-package RRI;
+package Common.Bean;
 
-import java.util.List;
 import javax.faces.bean.ManagedBean;
 import javax.faces.bean.RequestScoped;
 
-@ManagedBean(name="RRIBean")
+import Common.LinkFetcher;
+import java.util.List;
+
+@ManagedBean(name="CommonBean")
 @RequestScoped
 public class Bean extends Main.Bean.Bean{
     protected List<String> linkList;

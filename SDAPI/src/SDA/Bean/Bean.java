@@ -1,33 +1,32 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
 
-package SDA;
+package SDA.Bean;
 
-import Main.*;
 import javax.faces.bean.ManagedBean;
 import javax.faces.bean.RequestScoped;
-import javax.faces.bean.SessionScoped;
-import javax.faces.bean.ViewScoped;
+
+import SDA.*;
+import Main.Universal;
+import java.util.List;
 
 @ManagedBean(name="SDABean")
 @RequestScoped
-public class Bean
-{
+public class Bean extends Main.Bean.Bean{
     int vLevel;
     int vPage;
+    protected List<String> linkList;
+    protected LinkFetcher linkFetcher = new LinkFetcher();
     
     Custom    vCustom;
     Universal vUniversal;
 
-    public Bean()
-    {
+    public Bean(){
         vLevel = 0;
         vPage = 0;
         
         vCustom = new Custom();
         vUniversal = new Universal();
+        
+        linkList = linkFetcher.getFileList();
     }
 
     public void setVLevel(int vLevel)
@@ -55,11 +54,6 @@ public class Bean
         return "stub"; //vUniversal.getPath(vLevel-1);
     }
 
-    public String getContent()
-    {
-        return vCustom.getContent(getVPage());
-    }
-
     public String getVersions()
     {
         return vCustom.getVersions(getVPage());
@@ -70,11 +64,15 @@ public class Bean
         return "stub"; //vUniversal.getWebMaster();
     }
 
-    public String setLayout(int vLevel, int vPage)
-    {
+    public String setLayout(int vLevel, int vPage){
         setVLevel(vLevel);
         setVPage(vPage);
 
         return getPath()+"SDA/Layout.xhtml";
+    }
+    
+    @Override
+    public List<String> getLinkList(){
+        return linkList;
     }
 }

@@ -2,11 +2,9 @@ package SDE.Bean;
 
 import javax.faces.bean.ManagedBean;
 import javax.faces.bean.RequestScoped;
+
+import SDE.*;
 import Main.Universal;
-import SDE.Board;
-import SDE.Card;
-import SDE.Definition;
-import SDE.Dice;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -26,6 +24,9 @@ public class Bean extends Main.Bean.Bean{
     
     private String      page;
     
+    protected List<String> linkList;
+    protected LinkFetcher linkFetcher = new LinkFetcher();
+    
     public Bean(){
         this.uni                = new Universal();
         this.oneDAO             = new Database.SDE.SDEDAOOne();
@@ -40,6 +41,8 @@ public class Bean extends Main.Bean.Bean{
         this.definitionList     = new ArrayList<Card>();
         
         this.page               = "";
+        
+        linkList = linkFetcher.getFileList();
     }
 
     public Board getBoard() {
@@ -68,5 +71,10 @@ public class Bean extends Main.Bean.Bean{
         }
         
         return result;
+    }
+    
+    @Override
+    public List<String> getLinkList(){
+        return linkList;
     }
 }
