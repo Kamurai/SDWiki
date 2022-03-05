@@ -3,15 +3,16 @@
  * and open the template in the editor.
  */
 
-package NAS;
+package NAS.Bean;
 
 import Main.*;
+import NAS.Custom;
 import javax.faces.bean.ManagedBean;
 import javax.faces.bean.RequestScoped;
 
 @ManagedBean(name="NASBean")
 @RequestScoped
-public class Bean{
+public class Bean extends Main.Bean.Bean{
     int vLevel;
     int vPage;
     
@@ -49,11 +50,6 @@ public class Bean{
     public String getStylePath()
     {
         return "stub"; //vUniversal.getPath(vLevel-1);
-    }
-
-    public String getContent()
-    {
-        return vCustom.getContent(getVPage());
     }
 
     public String getVersions()

@@ -4,32 +4,36 @@
       xmlns:h="http://java.sun.com/jsf/html"
       xmlns:ui="http://xmlns.jcp.org/jsf/facelets">
     <h:head>
-        <link rel="shortcut icon" href="http://htkb.dyndns.org/favicon.ico"/>
-        <link rel="icon" type="image/x-icon" href="http://htkb.dyndns.org/favicon.ico"/>
-        <link rel="icon" href="http://htkb.dyndns.org/favicon.ico"/>
+        <link rel="shortcut icon" href="http://htkb.online/favicon.ico"/>
+        <link rel="icon" type="image/x-icon" href="http://htkb.online/favicon.ico"/>
+        <link rel="icon" href="http://htkb.online/favicon.ico"/>
         
         <link href="http://htkb.online/Styles/SDDirectory.css"        rel="stylesheet"    type="text/css" />
     </h:head>
     <h:body>
-         <title>
-            Super Dungeon Explore Directory
+        <title>
+            Super Dungeon Shuffler
         </title>
-        <h:form>
-            <ui:include src="/SDE/Universal/Logo.xhtml"></ui:include>
-        </h:form>
         <h2>
-            Super Dungeon Explore Directory
+            Welcome to the Super Dungeon Shuffler!
         </h2>
-        <div>
-            <!-- #{SDEBean.setStarted(true)} -->
-            <div>
-                <a href="../Index.xhtml" >Return to Top Level</a>
-            </div>
-            <ui:repeat var="y" value="#{SDEBean.getLinkList()}" size="#{SDEBean.getLinkList().size()}" varStatus="myVarStatus" >
-                <div>
-                    <a href="#{y}">#{y}</a>
-                </div>
-            </ui:repeat>
+        <div id="idCenterContent">
+            <p>
+                This is a tool for randomizing cards in the Super Dungeon related games.
+            </p>
+            <p>
+                Please join us on Discord:
+            </p>
+            <p>
+                <a href="https://discord.com/invite/yTnAEj2ZyH">Super Dungeon Discord</a>
+            </p>
+            
+            <p>
+                Please support the primary company, Ninja Division, formerly "Soda Pop Miniatures" by buying their real, physical products.
+            </p>
+            <p>
+                <a href="http://ninjadivision.com">NINJA DIVISION</a>
+            </p>
         </div>
     </h:body>
 </html>

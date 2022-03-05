@@ -10,14 +10,14 @@
         <link rel="icon" type="image/x-icon" href="http://htkb.online/favicon.ico"/>
         <link rel="icon" href="http://htkb.online/favicon.ico"/>
         
-        <link href="http://htkb.online/Styles/SDDirectory.css"        rel="stylesheet"    type="text/css" />
+        <link href="http://htkb.online/Styles/SDShuffler.css"        rel="stylesheet"    type="text/css" />
     </h:head>
     <h:body>
         <div id="idGeneralLayout">
             <Header id="idHeaderRow">
                 <div id="idHeaderRowCenter">
                     <h:form>
-                        <ui:include src="./Universal/Logo.xhtml"></ui:include>
+                        <ui:include src="/Universal/Logo.xhtml"></ui:include>
                     </h:form>
                 </div>
             </Header>
@@ -40,7 +40,7 @@
                 </div>
                 <div id="idCenterRowMain">
                     <h:form>
-                       <ui:include src="#{NASBean.getContent()}"></ui:include>
+                       <ui:include src="#{RRIBean.getContent()}"></ui:include>
                     </h:form>
                 </div>
                 <div id="idCenterRowRight">

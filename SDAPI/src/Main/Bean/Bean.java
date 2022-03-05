@@ -3,8 +3,10 @@
  * and open the template in the editor.
  */
 
-package Main;
+package Main.Bean;
 
+import Main.LinkFetcher;
+import Main.Universal;
 import java.util.List;
 import javax.faces.bean.ManagedBean;
 import javax.faces.bean.RequestScoped;
