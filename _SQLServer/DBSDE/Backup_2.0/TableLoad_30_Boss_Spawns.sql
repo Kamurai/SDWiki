@@ -147,3 +147,19 @@ insert into KeywordAssignments (BossSpawnIndex, KeywordIndex) VALUES (bsXXX, kXX
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Firing Pin 
 
 
+--Ugg     --CardIndex cXXX   --BossSpawnIndex bsXXX  
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ugg', 
+'http://htkb.info/SDE/2.0/Cards/Boss_Spawns/Card_Boss_Spawn_Ugg_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Boss_Spawns/Card_Boss_Spawn_Ugg_2.0_back.png',
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Boss_Spawns/Ugg.xhtml', 
+'Boss Spawn', '2.0', '2.0 Core Set', 'Default',   
+''); --!! unavailable !!
+insert into BossSpawns (CardIndex, DungeonEffect, BossSpawnEffect, TimeoutEffect, DifficultyRating) 
+VALUES (cXXX, '',
+'My Brother!: When Ugg is spawned, also spawn Mugg adjacent to the SPAWNPOINT on the first tile (moving any models necessary to place him). Mugg also counts as a Dungeon Boss and the Heroes do not win until both Dungeon Bosses are destroyed. Time Out is reached when one of the Dungeon Bosses is destroyed.', 
+'A Storm Of Rage And Grief: All Heroes must roll their STR. Any Heroes that roll 3 or fewer stars suffer KNOCKDOWN. Then, if Ugg or Mugg is in play, the remaining Dungeon Boxx immediately performs a full activation (this may interrupt the Heroes'' turn).',
+'Difficulty Rating 1: If the party is unable to beat this boss with the usual number of Princess coins, they may add 1 additional Princess Coins the next time they face this boss.');
+insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (bsXXX, chXXX);
+
+
+

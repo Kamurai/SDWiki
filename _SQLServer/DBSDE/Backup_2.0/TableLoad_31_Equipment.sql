@@ -3774,6 +3774,16 @@ insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Remedy
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (90, 46); --Melt Away
 
+--Sohei Tetsubo --CardIndex cXXX --EquipmentIndex eXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Sohei Tetsubo',
+'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Sohei_Tetsubo_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Sohei_Tetsubo.xhtml', 
+'Treasure', '2.0', '2.0 Core Set', 'Default',
+'');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Treasure Specific', 'Left', '+1R STR');
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Discipline
+
 --Solid Straw Hat --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Solid Straw Hat',
 'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Solid_Straw_Hat_2.0.png', 
