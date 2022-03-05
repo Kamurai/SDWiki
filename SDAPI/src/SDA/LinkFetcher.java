@@ -20,7 +20,7 @@ public class LinkFetcher extends Main.LinkFetcher{
         super();
         
         this.rootDirectory = "C:\\House\\Programming\\Netbeans\\SDE\\web\\SDAdventure";
-        this.prefix = "http://htkb.info/SDAdventure/";
+        this.prefix = "http://htkb.info/SDE/SDAdventure/";
     }
     
     @Override
