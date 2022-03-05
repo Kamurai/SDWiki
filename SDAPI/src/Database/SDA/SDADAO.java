@@ -29,11 +29,11 @@ public abstract class SDADAO extends DAO{
     }
            
     public static Connection openConnection(){
-        try{
-            Class.forName(dbi.getDriver());
-        }catch (ClassNotFoundException e){
-                System.out.println("Could not load the driver");
-        }
+//        try{
+//            Class.forName(dbi.getDriver());
+//        }catch (ClassNotFoundException e){
+//                System.out.println("Could not load the driver");
+//        }
         
         try{
             connect = DriverManager.getConnection((dbi.getUrl()+dbi.getDbName()), dbi.getDbUsername(), dbi.getDbPassword());
