@@ -39,8 +39,8 @@
                 <div id="idCenterRowMain">
                     <h:form>
                         <c:choose>
-                            <c:when test="#{SDEBean.getPage().compareTo('Index') == 0}">
-                                <ui:include src="#{SDEBean.getContent()}"></ui:include>
+                            <c:when test="#{SDEWikiBean.getPage().compareTo('Index') == 0}">
+                                <ui:include src="#{SDEWikiBean.getContent()}"></ui:include>
                             </c:when>
                             <c:otherwise>
                                 <ui:include src="/SDE/Content/CardList.xhtml"></ui:include>

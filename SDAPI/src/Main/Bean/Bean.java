@@ -8,27 +8,32 @@ package Main.Bean;
 import javax.faces.bean.ManagedBean;
 import javax.faces.bean.RequestScoped;
 
-import Main.LinkFetcher;
 import Main.Universal;
 import java.util.List;
 
 @ManagedBean(name="MainBean")
 @RequestScoped
 public class Bean{
-    protected Universal   uni;
-    protected String      page;
-    protected List<String> linkList;
-    protected LinkFetcher linkFetcher = new LinkFetcher();
-    protected boolean started = false;
-    
-    public void setStarted(boolean input){
-        this.started = input;
-    }
+    protected Universal     uni;
+    protected String        page;
+    protected boolean       started = false;
     
     public Bean(){
         uni = new Universal();
         
         this.page               = "";
+    }
+
+    public void setStarted(boolean input){
+        this.started = input;
+    }
+    
+    public String getPage() {
+        return page;
+    }
+
+    public void setPage(String page) {
+        this.page = page;
     }
 
     public String setLayout(String page){
@@ -48,20 +53,10 @@ public class Bean{
         
         return result;
     }
-
-    public String getPage() {
-        return page;
-    }
     
     public String getWebMaster(){
         String Result = "";
         Result += "Website managed by Kamurai.";
         return Result;
-    }
-    
-    public List<String> getLinkList(){
-//        System.out.println("Main.Bean.getLinkList");
-        
-        return linkList;
     }
 }

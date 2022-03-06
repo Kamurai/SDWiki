@@ -1,47 +1,26 @@
-package SDE.Bean;
+package NAS.Bean;
 
+import SDE.Bean.*;
+import Database.SDE.SDEDAOAll;
 import javax.faces.bean.ManagedBean;
 import javax.faces.bean.RequestScoped;
+
+import SDE.*;
 import Main.Universal;
 import java.util.ArrayList;
 import java.util.List;
 
-import SDE.Keyword;
-import SDE.Ability;
-import Database.SDE.SDEDAOAll;
-
-@ManagedBean(name="SDEBean")
+@ManagedBean(name="SDELexiconBean")
 @RequestScoped
-public class Bean extends Main.Bean.Bean{
-    protected Database.SDE.SDEDAOAll        allDAO;
-    
-    private String      page = "";
-    private String      version = "";
-    
+public class LexiconBean extends Main.Bean.LexiconBean{
     private List<Keyword>   keywords;
     private List<Ability>   abilities;
     
-    public Bean(){
-        this.uni                = new Universal();
-        this.allDAO             = new Database.SDE.SDEDAOAll();
+    public LexiconBean(){
+        super();
         
-        this.version            = "";
-    }
-
-    public String getPage() {
-        return page;
-    }
-
-    public void setPage(String page) {
-        this.page = page;
-    }
-
-    public String getVersion() {
-        return version;
-    }
-
-    public void setVersion(String version) {
-        this.version = version;
+        this.keywords   = new ArrayList<Keyword>();
+        this.abilities  = new ArrayList<Ability>();
     }
 
     public List<Keyword> getKeywords() {
@@ -69,22 +48,15 @@ public class Bean extends Main.Bean.Bean{
     }
     
     @Override
-    public String setLayout(String page){
-        this.page = page;
-        
-        return "./Layout.xhtml";
-    }
-    
-    @Override
     public String getContent(){
         String result = "";
         
         if(page.compareTo("Index") == 0){
-            result = "/SDE/Content/Index.xhtml";
+            result = "./Content/Index.xhtml";
         }else if(page.compareTo("Keywords") == 0){
-            result = "/SDE/Content/Keywords.xhtml";
+            result = "../Content/Keywords.xhtml";
         }else if(page.compareTo("Abilities") == 0){
-            result = "/SDE/Content/Abilities.xhtml";
+            result = "../Content/Abilities.xhtml";
         }
         
         return result;

@@ -2,14 +2,14 @@ package SDE.Bean;
 
 import javax.faces.bean.ManagedBean;
 import javax.faces.bean.RequestScoped;
-import SDE.ExploreCharacter;
+
 import SDE.NavItem;
 import java.util.ArrayList;
 import java.util.List;
 
 @ManagedBean(name="SDECardBean")
 @RequestScoped
-public class CardBean extends Bean{
+public class CardBean extends SDE.Bean.Bean{
     private String title;
     private String header;
     private List<NavItem> cardList;
