@@ -1,16 +1,7 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
-
 package NAS.Bean;
 
 import javax.faces.bean.ManagedBean;
 import javax.faces.bean.RequestScoped;
-
-import NAS.*;
-import Main.Universal;
-import java.util.List;
 
 @ManagedBean(name="NASBean")
 @RequestScoped

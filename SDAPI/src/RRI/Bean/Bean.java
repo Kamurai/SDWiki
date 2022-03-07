@@ -3,10 +3,6 @@ package RRI.Bean;
 import javax.faces.bean.ManagedBean;
 import javax.faces.bean.RequestScoped;
 
-import RRI.*;
-import Main.Universal;
-import java.util.List;
-
 @ManagedBean(name="RRIBean")
 @RequestScoped
 public class Bean extends Main.Bean.Bean{

@@ -4,10 +4,6 @@ package SDA.Bean;
 import javax.faces.bean.ManagedBean;
 import javax.faces.bean.RequestScoped;
 
-import SDA.*;
-import Main.Universal;
-import java.util.List;
-
 @ManagedBean(name="SDABean")
 @RequestScoped
 public class Bean extends Main.Bean.Bean{

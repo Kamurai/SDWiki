@@ -14,30 +14,7 @@ import java.util.List;
 @ManagedBean(name="ShufflerBean")
 @RequestScoped
 public class ShufflerBean extends Main.Bean.Bean{
-    String cardtype             = "";
-    String playMode             = "";
-    
-    Card currentCard            = new Card();
-    
-    List<Card> drawPile         = new ArrayList<Card>();
-    List<Card> discardPile      = new ArrayList<Card>();
-    
-    Boolean include2p0          = true;
-    Boolean includeFK           = true;
-    Boolean includeFKSDArena    = true;
-    Boolean includeCustom       = true;
-    Boolean include1p0          = true;
-    Boolean include1p0Custom    = true;
-    
     public ShufflerBean(){
         super();        
-    }
-    
-    public void fetchNewDeck(){
-        
-    }
-    
-    public void drawNewCard(){
-        
     }
 }
