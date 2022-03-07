@@ -2,6 +2,8 @@
 <!DOCTYPE HTML>
 <html xmlns="http://www.w3.org/1999/xhtml"
       xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:c="http://java.sun.com/jsp/jstl/core"
       xmlns:ui="http://xmlns.jcp.org/jsf/facelets">
     <h:head/>
     <h:body>
@@ -12,22 +14,66 @@
             Welcome to the Super Dungeon Shuffler!
         </h2>
         <div id="idCenterContent">
-            <p>
-                This is a tool for randomizing cards in the Super Dungeon related games.
-            </p>
-            <p>
-                Please join us on Discord:
-            </p>
-            <p>
-                <a href="https://discord.com/invite/yTnAEj2ZyH">Super Dungeon Discord</a>
-            </p>
-            
-            <p>
-                Please support the primary company, Ninja Division, formerly "Soda Pop Miniatures" by buying their real, physical products.
-            </p>
-            <p>
-                <a href="http://ninjadivision.com">NINJA DIVISION</a>
-            </p>
+            <div id="idSelection">
+                <div>
+                    <!-- Dropbox: type of card -->
+                    <h:selectOneMenu value="#{SDEShufflerBean.cardtype}" onchange="submit()" immediate="true">
+                        <f:selectItem itemValue="0" itemLabel="Heroes"/>
+                        <f:selectItem itemValue="1" itemLabel="Pets"/>
+                        <f:selectItem itemValue="2" itemLabel="Booty" />
+                        <f:selectItem itemValue="3" itemLabel="Creeps" />
+                        <f:selectItem itemValue="4" itemLabel="Lesser Monsters" />
+                        <f:selectItem itemValue="5" itemLabel="Mini Bosses" />
+                        <f:selectItem itemValue="6" itemLabel="Bosses" />
+                        <f:selectItem itemValue="7" itemLabel="Loot" />
+                        <f:selectItem itemValue="8" itemLabel="Treasure" />
+                        <f:selectItem itemValue="9" itemLabel="Relics" />
+                    </h:selectOneMenu>
+                </div>
+                <div>
+                    <!-- Check boxes for versions -->
+                    <h:selectBooleanCheckbox value="#{SDEShufflerBean.include2p0}"/>2.0
+                    <h:selectBooleanCheckbox value="#{SDEShufflerBean.includeFK}"/>FK
+                    <h:selectBooleanCheckbox value="#{SDEShufflerBean.includeFKSDArena}"/>FK SDArena
+                    <h:selectBooleanCheckbox value="#{SDEShufflerBean.includeCustom}"/>Custom
+                    <h:selectBooleanCheckbox value="#{SDEShufflerBean.include1p0}"/>1.0
+                    <h:selectBooleanCheckbox value="#{SDEShufflerBean.include1p0Custom}"/>1.0 Custom
+                </div>
+                <div>
+                    <!-- Dropbox: play mode -->
+                    <h:selectOneMenu value="#{SDEShufflerBean.playMode}" onchange="submit()" immediate="true">
+                        <f:selectItem itemValue="0" itemLabel="Explore"/>
+                        <f:selectItem itemValue="1" itemLabel="Arcade"/>
+                    </h:selectOneMenu>
+                </div>
+                <div id="idFetchButton">
+                    <h:commandButton value ="Fetch New Deck" action="#{SDEShufflerBean.fetchNewDeck()}"/>
+                </div>
+            </div>
+            <div id="idDrawnCard">
+                <div id="idCardDisplayContainer">
+                    <ui:fragment rendered="#{SDEShufflerBean.drawPile.size() != 0}">
+                        <h:graphicImage id="idCardDisplayFront" value="#{SDEShufflerBean.getCardFront()}" />
+                    </ui:fragment>
+                    <ui:fragment rendered="#{SDEShufflerBean.drawPile.size() == 0}">
+                        <h:graphicImage id="idCardDisplayBack" value="#{SDEShufflerBean.getCardBack()}" />
+                    </ui:fragment>
+                </div>
+                <div id="idDrawButton">
+                    <h:commandButton value ="Draw Card" action="#{SDEShufflerBean.drawNewCard()}" disabled="#{SDEShufflerBean.drawPile.size() == 0}"/>
+                </div>
+            </div>
+            <div id="idDiscardPileContainer">
+                <table id="idDiscardPile">
+                    <ui:repeat var="x" value="#{SDEShufflerBean.discardPile}" size="#{SDEShufflerBean.discardPile.size()}" varStatus="myVarStatus">
+                         <tr>
+                             <td>
+                                 <h:outputText value="#{x[0]}" />
+                             </td>
+                         </tr>
+                    </ui:repeat>
+                </table>
+            </div>
         </div>
     </h:body>
 </html>
