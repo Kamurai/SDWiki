@@ -8,17 +8,8 @@ import java.util.List;
 
 @ManagedBean(name="CommonDirectoryBean")
 @RequestScoped
-public class DirectoryBean extends Common.Bean.Bean{
-    protected List<String>  linkList;
-    protected LinkFetcher   linkFetcher = new LinkFetcher();
-    
-    public DirectoryBean(){
-        super();
-        
-        this.linkList = linkFetcher.getFileList();
-    }
-    
-    public List<String> getLinkList(){
-        return linkList;
+public class DirectoryBean extends Main.Bean.DirectoryBean{
+    public static List<String> getLinkList(){
+        return LinkFetcher.getFileList();
     }
 }

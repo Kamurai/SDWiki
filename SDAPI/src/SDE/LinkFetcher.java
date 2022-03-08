@@ -4,29 +4,13 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class LinkFetcher extends Main.LinkFetcher{
-    protected String rootDirectory = "Alpha";
-    @Override
-    protected String getRootDirectory(){
-        return this.rootDirectory;
-    }
-    protected String prefix = "Beta";
-    @Override
-    protected String getPrefix(){
-        return this.prefix;
-    }
+    protected static String rootDirectory = "C:\\House\\Programming\\Netbeans\\SDE\\web";
+    protected static String prefix = "http://htkb.info/SDE/";
     
-    public LinkFetcher(){
-//        super();
-        
-        this.rootDirectory = "C:\\House\\Programming\\Netbeans\\SDE\\web";
-        this.prefix = "http://htkb.info/SDE/";
-    }
-    
-    @Override
-    public List<String> getFileList(){
+    public static List<String> getFileList(){
         List<String> result = new ArrayList<String>();
         
-        result = getFileList(getPrefix(), getRootDirectory());
+        result = getFileList(prefix, rootDirectory);
         
         return result;
     }

@@ -12,11 +12,11 @@
             Supder Dungeon Adventure Directory
         </h2>
         <div>
-            <!-- #{SDABean.setStarted(true)} -->
+            <!-- #{SDADirectoryBean.setStarted(true)} -->
             <div>
                 <a href="../Index.xhtml" >Return to Top Level</a>
             </div>
-            <ui:repeat var="y" value="#{SDABean.getLinkList()}" size="#{SDABean.getLinkList().size()}" varStatus="myVarStatus" >
+            <ui:repeat var="y" value="#{SDADirectoryBean.getLinkList()}" size="#{SDADirectoryBean.getLinkList().size()}" varStatus="myVarStatus" >
                 <div>
                     <a href="#{y}">#{y}</a>
                 </div>

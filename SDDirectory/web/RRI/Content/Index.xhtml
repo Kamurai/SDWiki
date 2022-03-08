@@ -12,11 +12,11 @@
             Rail Raiders Directory
         </h2>
         <div>
-            <!-- #{RRIBean.setStarted(true)} -->
+            <!-- #{RRIDirectoryBean.setStarted(true)} -->
             <div>
                 <a href="../Index.xhtml" >Return to Top Level</a>
             </div>
-            <ui:repeat var="y" value="#{RRIBean.getLinkList()}" size="#{RRIBean.getLinkList().size()}" varStatus="myVarStatus" >
+            <ui:repeat var="y" value="#{RRIDirectoryBean.getLinkList()}" size="#{RRIDirectoryBean.getLinkList().size()}" varStatus="myVarStatus" >
                 <div>
                     <a href="#{y}">#{y}</a>
                 </div>
