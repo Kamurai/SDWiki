@@ -3,13 +3,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml"
       xmlns:h="http://java.sun.com/jsf/html"
       xmlns:ui="http://xmlns.jcp.org/jsf/facelets">
-    <h:head>
-        <link rel="shortcut icon" href="http://htkb.online/favicon.ico"/>
-        <link rel="icon" type="image/x-icon" href="http://htkb.online/favicon.ico"/>
-        <link rel="icon" href="http://htkb.online/favicon.ico"/>
-        
-        <link href="http://htkb.online/Styles/SDDirectory.css"        rel="stylesheet"    type="text/css" />
-    </h:head>
+    <h:head/>
     <h:body>
         <title>
             Super Dungeon Explore Directory
@@ -18,11 +12,11 @@
             Super Dungeon Explore Directory
         </h2>
         <div>
-            <!-- #{SDEBean.setStarted(true)} -->
+            <!-- #{SDEDirectoryBean.setStarted(true)} -->
             <div>
                 <a href="../Index.xhtml" >Return to Top Level</a>
             </div>
-            <ui:repeat var="y" value="#{SDEBean.getLinkList()}" size="#{SDEBean.getLinkList().size()}" varStatus="myVarStatus" >
+            <ui:repeat var="y" value="#{SDEDirectoryBean.getLinkList()}" size="#{SDEDirectoryBean.getLinkList().size()}" varStatus="myVarStatus" >
                 <div>
                     <a href="#{y}">#{y}</a>
                 </div>

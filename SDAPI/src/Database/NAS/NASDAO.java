@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package Database.NAS;
 
 import Database.*;
@@ -29,11 +24,11 @@ public abstract class NASDAO extends DAO{
     }
            
     public static Connection openConnection(){
-        try{
-            Class.forName(dbi.getDriver());
-        }catch (ClassNotFoundException e){
-                System.out.println("Could not load the driver");
-        }
+//        try{
+//            Class.forName(dbi.getDriver());
+//        }catch (ClassNotFoundException e){
+//                System.out.println("Could not load the driver");
+//        }
         
         try{
             connect = DriverManager.getConnection((dbi.getUrl()+dbi.getDbName()), dbi.getDbUsername(), dbi.getDbPassword());

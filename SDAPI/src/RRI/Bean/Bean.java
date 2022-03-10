@@ -1,68 +1,19 @@
 package RRI.Bean;
 
-import Main.*;
-import RRI.Custom;
 import javax.faces.bean.ManagedBean;
 import javax.faces.bean.RequestScoped;
 
 @ManagedBean(name="RRIBean")
 @RequestScoped
 public class Bean extends Main.Bean.Bean{
-    int vLevel;
-    int vPage;
+    protected Database.RRI.RRIDAOOne        oneDAO;
+    protected Database.RRI.RRIDAOAll        allDAO;
+    protected Database.RRI.RRIDAONavigation navDAO;
     
-    Custom    vCustom;
-    Universal vUniversal;
-
-    public Bean()
-    {
-        vLevel = 0;
-        vPage = 0;
-        
-        vCustom = new Custom();
-        vUniversal = new Universal();
-    }
-
-    public void setVLevel(int vLevel)
-    {
-        this.vLevel = vLevel;
-    }
-
-    public void setVPage(int vPage)
-    {
-        this.vPage = vPage;
-    }
-
-    public int getVPage()
-    {
-        return vPage;
-    }
-
-    public String getPath()
-    {
-        return "stub"; //vUniversal.getPath(vLevel);
-    }
-
-    public String getStylePath()
-    {
-        return "stub"; //vUniversal.getPath(vLevel-1);
-    }
-
-    public String getVersions()
-    {
-        return vCustom.getVersions(getVPage());
-    }
-
-    public String WebMaster()
-    {
-        return "stub"; //vUniversal.getWebMaster();
-    }
-
-    public String setLayout(int vLevel, int vPage)
-    {
-        setVLevel(vLevel);
-        setVPage(vPage);
-
-        return getPath()+"RRI/Layout.xhtml";
+    public Bean(){
+        super();
+        this.oneDAO             = new Database.RRI.RRIDAOOne();
+        this.allDAO             = new Database.RRI.RRIDAOAll();
+        this.navDAO             = new Database.RRI.RRIDAONavigation();
     }
 }

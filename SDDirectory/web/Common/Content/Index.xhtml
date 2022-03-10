@@ -12,11 +12,11 @@
             HTKB Common Directory
         </h2>
         <div>
-            <!-- #{SDEBean.setStarted(true)} -->
+            <!-- #{CommonDirectoryBean.setStarted(true)} -->
             <div>
                 <a href="../Index.xhtml" >Return to Top Level</a>
             </div>
-            <ui:repeat var="y" value="#{CommonBean.getLinkList()}" size="#{CommonBean.getLinkList().size()}" varStatus="myVarStatus" >
+            <ui:repeat var="y" value="#{CommonDirectoryBean.getLinkList()}" size="#{CommonDirectoryBean.getLinkList().size()}" varStatus="myVarStatus" >
                 <div>
                     <a href="#{y}">#{y}</a>
                 </div>

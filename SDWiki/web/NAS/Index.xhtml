@@ -9,9 +9,7 @@
     </h:head>
     <h:body>
         <h:form>
-            #{MainBean.setVLevel(1)}
-            #{MainBean.setVPage(0)}
-            <ui:include src="#{NASBean.setLayout(1,0)}"></ui:include>
+            <ui:include src="#{NASBean.setLayout('Index')}"></ui:include>
         </h:form>
     </h:body>
 </html>

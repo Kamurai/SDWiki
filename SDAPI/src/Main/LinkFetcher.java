@@ -5,67 +5,18 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class LinkFetcher{
-    protected String rootDirectory = "";
-    protected String getRootDirectory(){
-        return rootDirectory;
-    }
-    protected String prefix = "";
-    protected String getPrefix(){
-        return prefix;
-    }
+    protected static String rootDirectory = "";
+    protected static String prefix = "";
     
-//    public LinkFetcher(){
-//        System.out.println("Main.LinkFetcher");
-//    }
-    
-    public List<String> getFileList(){
+    public static List<String> getFileList(){
         List<String> result = new ArrayList<String>();
         
-        result = getFileList(getRootDirectory());
+        result = getFileList(prefix, rootDirectory);
         
         return result;
     }
     
-    protected List<String> getFileList(String input){
-        List<String> result = new ArrayList<String>();
-        
-        //Creating a File object for directory
-        File directoryPath = new File(input);
-        //List of all files and directories
-        File filesList[] = directoryPath.listFiles();
-    
-        if(filesList != null){
-            for(File file : filesList) {
-                String potential = file.getAbsolutePath();
-                potential = potential.replace('\\', '/');
-
-                if(verifyFileExtension(potential)){
-                    potential = stripAndBuildLink(potential);
-
-                    result.add(potential);
-                }else{
-                    //potential directory
-                    result.addAll(getFileList(potential));
-                }
-            }
-        }else{
-            if(input == null || input.isEmpty()){
-                result.add("Boogers");
-            }else{
-                result.add(input);
-            }
-        }
-        
-        if(filesList == null || result.isEmpty()){
-            result.add(input);
-        }else{
-            result.add("Snot");
-        }
-        
-        return result;        
-    }
-    
-    protected List<String> getFileList(String prefix, String input){
+    protected static List<String> getFileList(String prefix, String input){
         List<String> result = new ArrayList<String>();
         
         //Creating a File object for directory
@@ -88,34 +39,11 @@ public class LinkFetcher{
                 }
             }
         }
-//        else{
-//            if(input == null || input.isEmpty()){
-//                result.add("Boogers");
-//            }else{
-//                result.add(input);
-//            }
-//        }
-        
-//        if(filesList == null || result.isEmpty()){
-//            result.add(input);
-//        }else{
-//            result.add("Snot");
-//        }
         
         return result;        
     }
     
-    protected String stripAndBuildLink(String input){
-        String result = "";
-        
-        result = stripLink(input);
-        
-        result = buildLink(result);
-        
-        return result;
-    }
-    
-    protected String stripAndBuildLink(String prefix, String input){
+    protected static String stripAndBuildLink(String prefix, String input){
         String result = "";
         
         result = stripLink(input);
@@ -125,23 +53,15 @@ public class LinkFetcher{
         return result;
     }
     
-    protected String stripLink(String input){
+    protected static String stripLink(String input){
         String result = "";
         
-        result = input.substring(getRootDirectory().length()+1, input.length());
+        result = input.substring(rootDirectory.length()+1, input.length());
         
         return result;
     }
     
-    protected String buildLink(String input){
-        String result = "";
-        
-        result = prefix + input;
-        
-        return result;
-    }
-    
-    protected String buildLink(String prefix, String input){
+    protected static String buildLink(String input){
         String result = "";
         
         result = prefix + input;
@@ -149,7 +69,15 @@ public class LinkFetcher{
         return result;
     }
     
-    protected boolean verifyFileExtension(String input){
+    protected static String buildLink(String prefix, String input){
+        String result = "";
+        
+        result = prefix + input;
+        
+        return result;
+    }
+    
+    protected static boolean verifyFileExtension(String input){
         boolean result = false;
         
         int inputSize = input.length();

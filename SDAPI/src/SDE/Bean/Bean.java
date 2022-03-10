@@ -1,12 +1,11 @@
 package SDE.Bean;
 
+import Database.SDE.SDEDAOAll;
 import javax.faces.bean.ManagedBean;
 import javax.faces.bean.RequestScoped;
+
+import SDE.*;
 import Main.Universal;
-import SDE.Board;
-import SDE.Card;
-import SDE.Definition;
-import SDE.Dice;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -17,56 +16,22 @@ public class Bean extends Main.Bean.Bean{
     protected Database.SDE.SDEDAOAll        allDAO;
     protected Database.SDE.SDEDAONavigation navDAO;
     
-    private Board board;
-    private List<Card>  boardList;
-    private Dice dice;
-    private List<Card>  diceList;
-    private Definition  definition;
-    private List<Card>  definitionList;
-    
-    private String      page;
+    protected String            version = "";
     
     public Bean(){
-        this.uni                = new Universal();
+        super();
         this.oneDAO             = new Database.SDE.SDEDAOOne();
         this.allDAO             = new Database.SDE.SDEDAOAll();
         this.navDAO             = new Database.SDE.SDEDAONavigation();
         
-        this.board              = new Board();
-        this.boardList          = new ArrayList<Card>();
-        this.dice               = new Dice();
-        this.diceList           = new ArrayList<Card>();
-        this.definition         = new Definition();
-        this.definitionList     = new ArrayList<Card>();
-        
-        this.page               = "";
+        this.version            = "";
     }
 
-    public Board getBoard() {
-        return board;
-    }
-    
-    public Dice getDice() {
-        return dice;
+    public String getVersion() {
+        return version;
     }
 
-    public Definition getDefinition() {
-        return definition;
-    }
-    
-    public String setLayout(String page){
-        this.page = page;
-        
-        return "./Layout.xhtml";
-    }
-    
-    public String getContent(){
-        String result = "";
-        
-        if(page.compareTo("Index") == 0){
-            result = "./Content/Index.xhtml";
-        }
-        
-        return result;
+    public void setVersion(String version) {
+        this.version = version;
     }
 }

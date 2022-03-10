@@ -6,8 +6,9 @@
       xmlns:c="http://java.sun.com/jsp/jstl/core"
       xmlns:ui="http://java.sun.com/jsf/facelets">
     <h:head>
-        <link href='/Pictures/favicon.ico'                  rel='shortcut icon' type='image/x-icon' />
-        <link href='/Pictures/favicon.ico'                  rel='icon'          type='image/x-icon' />
+        <link href="http://htkb.online/favicon.ico"         rel="shortcut icon" type="image/x-icon" />
+        <link href="http://htkb.online/favicon.ico"         rel="icon"          type="image/x-icon" />
+        <link href="http://htkb.online/favicon.ico"         rel="icon" />
         <link href='http://htkb.online/Styles/SDWiki.css'   rel='stylesheet'    type='text/css' />
     </h:head>
     <h:body>
@@ -38,8 +39,8 @@
                 <div id="idCenterRowMain">
                     <h:form>
                         <c:choose>
-                            <c:when test="#{MainBean.getPage().compareTo('Index') == 0}">
-                                <ui:include src="#{MainBean.getContent()}"></ui:include>
+                            <c:when test="#{SDEWikiBean.getPage().compareTo('Index') == 0}">
+                                <ui:include src="#{SDEWikiBean.getContent()}"></ui:include>
                             </c:when>
                             <c:otherwise>
                                 <ui:include src="/SDE/Content/CardList.xhtml"></ui:include>

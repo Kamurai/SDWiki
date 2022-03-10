@@ -17,7 +17,7 @@
             <p>
                 These are the Abilities available in Super Dungeon.
             </p>
-            #{SDEBean.pullAbilities()}
+            #{NASBean.pullAbilities()}
             
             <div class="xRow">
                 <div class="inline ability version">Version</div>
@@ -36,7 +36,7 @@
                 <tab/>
                 <div class="inline ability definition">Definition</div>
             </div>
-            <ui:repeat var="x" value="#{SDEBean.getAbilities()}" size="#{SDEBean.getAbilities().size()}" varStatus="myVarStatus" >
+            <ui:repeat var="x" value="#{NASBean.getAbilities()}" size="#{NASBean.getAbilities().size()}" varStatus="myVarStatus" >
                 <ui:fragment rendered="#{x.validateAbility()}">
                     <div class="xRow">
                         <div class="inline ability version"><!-- Version -->#{x.getVersion()}</div>
