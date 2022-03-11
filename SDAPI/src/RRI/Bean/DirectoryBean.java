@@ -3,7 +3,7 @@ package RRI.Bean;
 import javax.faces.bean.ManagedBean;
 import javax.faces.bean.RequestScoped;
 
-import SDE.*;
+import RRI.*;
 import java.util.List;
 
 @ManagedBean(name="RRIDirectoryBean")

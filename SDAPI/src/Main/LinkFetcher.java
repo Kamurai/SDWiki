@@ -11,12 +11,12 @@ public class LinkFetcher{
     public static List<String> getFileList(){
         List<String> result = new ArrayList<String>();
         
-        result = getFileList(prefix, rootDirectory);
+        result = getFileList(prefix, rootDirectory, rootDirectory);
         
         return result;
     }
     
-    protected static List<String> getFileList(String prefix, String input){
+    protected static List<String> getFileList(String prefix, String input, String rootDirectory){
         List<String> result = new ArrayList<String>();
         
         //Creating a File object for directory
@@ -30,12 +30,12 @@ public class LinkFetcher{
                 potential = potential.replace('\\', '/');
 
                 if(verifyFileExtension(potential)){
-                    potential = stripAndBuildLink(prefix, potential);
+                    potential = stripAndBuildLink(prefix, potential, rootDirectory);
 
                     result.add(potential);
                 }else{
                     //potential directory
-                    result.addAll(getFileList(prefix, potential));
+                    result.addAll(getFileList(prefix, potential, rootDirectory));
                 }
             }
         }
@@ -43,17 +43,17 @@ public class LinkFetcher{
         return result;        
     }
     
-    protected static String stripAndBuildLink(String prefix, String input){
+    protected static String stripAndBuildLink(String prefix, String input, String rootDirectory){
         String result = "";
         
-        result = stripLink(input);
+        result = stripLink(input, rootDirectory);
         
         result = buildLink(prefix, result);
         
         return result;
     }
     
-    protected static String stripLink(String input){
+    protected static String stripLink(String input, String rootDirectory){
         String result = "";
         
         result = input.substring(rootDirectory.length()+1, input.length());
