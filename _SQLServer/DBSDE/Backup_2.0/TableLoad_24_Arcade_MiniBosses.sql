@@ -148,6 +148,92 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (gXXX, 615
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (gXXX, 615); --Naughty Kitty
 
 
+--Clan Ika Chunin	--CardIndex cXXX	--CharacterIndex chXXX	--ArcadeCharacterIndex arXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Clan Ika Chunin',
+'http:/htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Clan_Ika_Chunin_2.0.png', 
+'http:/htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Clan_Ika_Chunin_2.0_back.png', 
+'http:/htkb.online/SDWiki/SDE/2.0/Cards/Arcade/MiniBosses/Clan_Ika_Chunin.xhtml', 
+'MiniBoss', '2.0', '2.0 Core Set', 'Default', 
+'');
+insert into Characters (CardIndex) VALUES (cXXX);
+insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
+VALUES (chXXX, 373, -1);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1); --Citrine
+--GangMemberIndex gXXX
+insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
+VALUES (arXXX, 0, 'Ika Chunin', 'Ika', 'MiniBoss', 6, 7, 3, eXXX);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, 554); --Immobile
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, 554); --Killamari
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, 554); --Massive Damage
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, 554); --Salty
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (gXXX, 615); --Undertow
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (gXXX, 615); --The Raging Oceans
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (gXXX, 615); --Sweeping Spear
+
+
+--Clan Kitsune Chunin	--CardIndex cXXX	--CharacterIndex chXXX	--ArcadeCharacterIndex arXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Clan Kitsune Chunin',
+'http:/htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Clan_Kitsune_Chunin_2.0.png', 
+'http:/htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Clan_Kitsune_Chunin_2.0_back.png', 
+'http:/htkb.online/SDWiki/SDE/2.0/Cards/Arcade/MiniBosses/Clan_Kitsune_Chunin.xhtml', 
+'MiniBoss', '2.0', '2.0 Core Set', 'Default', 
+'The Kitsune Chunin is the leader of the Kitsune Kunoichi. No outsider knows how the Chunin is chosen from the ranks of the Kunoichi, but it is speculated that Kunoichi are allowed to challenge the current Chunin for the title, ensuring that the strongest and most cunning is always in charge. He or she always wears a face covering in battle to protect their identity should they choose to leave any survivors. The Chunin is equipped with the most deadly of the concoctions for which the Kitsune are famed, often using these poisons to coat their weapons.');
+insert into Characters (CardIndex) VALUES (cXXX);
+insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
+VALUES (chXXX, 373, -1);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1); --Citrine
+--GangMemberIndex gXXX
+insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
+VALUES (arXXX, 0, 'Kitsune Chunin', 'Kitsune', 'MiniBoss', 5, 7, 3, eXXX);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, 554); --Poison
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, 554); --Territorial
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (gXXX, 615); --New Territory
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (gXXX, 615); --Cunning Blade
+
+
+--Clan Sohei Chunin	--CardIndex cXXX	--CharacterIndex chXXX	--ArcadeCharacterIndex arXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Clan Sohei Chunin',
+'http:/htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Clan_Sohei_Chunin_2.0.png', 
+'http:/htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Clan_Sohei_Chunin_2.0_back.png', 
+'http:/htkb.online/SDWiki/SDE/2.0/Cards/Arcade/MiniBosses/Clan_Sohei_Chunin.xhtml', 
+'MiniBoss', '2.0', '2.0 Core Set', 'Default', 
+''); --!! unavailable !!
+insert into Characters (CardIndex) VALUES (cXXX);
+insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
+VALUES (chXXX, 373, -1);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 0); --!! unavailable !!
+--GangMemberIndex gXXX
+insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
+VALUES (arXXX, 0, 'Sohei Chunin', 'Sohei', 'MiniBoss', 6, 7, 3, eXXX);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, 554); --Augment
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, 554); --Discipline 
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, 554); --Knockdown
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, 554); --Massive Damage
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (gXXX, 615); --Together, Brothers!
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (gXXX, 615); --The Smashening
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (gXXX, 615); --Tsunami of Wrath
+
+
+--Clan Sohei Oni	--CardIndex cXXX	--CharacterIndex chXXX	--ArcadeCharacterIndex arXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Clan Sohei Oni',
+'http:/htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Clan_Sohei_Oni_2.0.png', 
+'http:/htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Clan_Sohei_Oni_2.0_back.png', 
+'http:/htkb.online/SDWiki/SDE/2.0/Cards/Arcade/MiniBosses/Clan_Sohei_Oni.xhtml', 
+'MiniBoss', '2.0', '2.0 Core Set', 'Default', 
+''); --!! unavailable !!
+insert into Characters (CardIndex) VALUES (cXXX);
+insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
+VALUES (chXXX, 373, -1);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 0); --!! unavailable !!
+--GangMemberIndex gXXX
+insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
+VALUES (arXXX, 0, 'Sohei Oni', 'Sohei', 'MiniBoss', 8, 7, 4, eXXX);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, 554); --Discipline 
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, 554); --Monstrous Steed, A
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (gXXX, 615); --Bullrush
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (gXXX, 615); --Mincemeat
+
+
 --Clan Spirit Shrine Oni 	--CardIndex cXXX	--CharacterIndex chXXX	--ArcadeCharacterIndex arXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Clan Spirit Shrine Oni',
 'http:/htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Clan_Spirit_Shrine_Oni_2.0.png', 
@@ -166,6 +252,46 @@ VALUES (arXXX, 0, 'Oni', 'Oni', 'MiniBoss', 6, 8, 3, eXXX);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, 554); --Elemental Affinity
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (gXXX, 615); --Devour
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (gXXX, 615); --Disaster
+
+
+--Clan Tanchyo Chunin	--CardIndex cXXX	--CharacterIndex chXXX	--ArcadeCharacterIndex arXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Clan Tanchyo Chunin',
+'http:/htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Clan_Tanchyo_Chunin_2.0.png', 
+'http:/htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Clan_Tanchyo_Chunin_2.0_back.png', 
+'http:/htkb.online/SDWiki/SDE/2.0/Cards/Arcade/MiniBosses/Clan_Tanchyo_Chunin.xhtml', 
+'MiniBoss', '2.0', '2.0 Core Set', 'Default', 
+'The Tanchyo are known throughout Kagejima for their archery skills, and the Chunin are those who have proven themselves above and beyond even their fellow Tanchyo. Each village only has a single Chunin. Sometimes this individual is a hero of a great battle. Sometimes they have proven themselves in an archery contest. But all Tanchyo Chunin are deadly opponents who can single-handedly rain down a storm of arrows.');
+insert into Characters (CardIndex) VALUES (cXXX);
+insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
+VALUES (chXXX, 373, -1);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 2); --Emerald
+--GangMemberIndex gXXX
+insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
+VALUES (arXXX, 0, 'Tanchyo Chunin', 'Tanchyo', 'MiniBoss', 7, 7, 3, eXXX);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, 554); --Retreat
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, 554); --Vengeful Storm
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (gXXX, 615); --Storm of Arrows
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (gXXX, 615); --Reposition
+
+
+--Clan Tora Chunin	--CardIndex cXXX	--CharacterIndex chXXX	--ArcadeCharacterIndex arXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Clan Tora Chunin',
+'http:/htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Clan_Tora_Chunin_2.0.png', 
+'http:/htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Clan_Tora_Chunin_2.0_back.png', 
+'http:/htkb.online/SDWiki/SDE/2.0/Cards/Arcade/MiniBosses/Clan_Tora_Chunin.xhtml', 
+'MiniBoss', '2.0', '2.0 Core Set', 'Default', 
+'The Chunin of the Tora employ tactics learned over centuries of battle. Employing the strength of their warriors as a fire attacks a dry forest, or a Tiger pounces on the unwary prey.');
+insert into Characters (CardIndex) VALUES (cXXX);
+insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
+VALUES (chXXX, 373, -1);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1); --Citrine
+--GangMemberIndex gXXX
+insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
+VALUES (arXXX, 0, 'Tora Chunin', 'Tora', 'MiniBoss', 5, 7, 3, eXXX);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, 554); --Tough
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (gXXX, 615); --Tora Tora Tora!
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (gXXX, 615); --Reload!
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (gXXX, 615); --Flurry of Blades
 
 
 --Clan Void Shrine Oni 	--CardIndex cXXX	--CharacterIndex chXXX	--ArcadeCharacterIndex arXXX
@@ -206,6 +332,68 @@ VALUES (arXXX, 0, 'Oni', 'Oni', 'MiniBoss', 6, 8, 3, eXXX);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, 554); --Elemental Affinity
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (gXXX, 615); --Devour
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (gXXX, 615); --Disaster
+
+
+--Clan Yamazaru Chunin	--CardIndex cXXX	--CharacterIndex chXXX	--ArcadeCharacterIndex arXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Clan Yamazaru Chunin',
+'http:/htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Clan_Yamazaru_Chunin_2.0.png', 
+'http:/htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Clan_Yamazaru_Chunin_2.0_back.png', 
+'http:/htkb.online/SDWiki/SDE/2.0/Cards/Arcade/MiniBosses/Clan_Yamazaru_Chunin.xhtml', 
+'MiniBoss', '2.0', '2.0 Core Set', 'Default', 
+'The Yamazaru are naturally curious and playful. They love new trinquets and fun items, and this even spills over into how they arm themselves for battle. Often, the Yamazaru Chunin is simply the one with the newest weapon, biggest club, or the most new trinquets to share with his or her fellow Yamazaru.');
+insert into Characters (CardIndex) VALUES (cXXX);
+insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
+VALUES (chXXX, 373, -1);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1); --Citrine
+--GangMemberIndex gXXX
+insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
+VALUES (arXXX, 0, 'Yamazaru Chunin', 'Yamazaru', 'MiniBoss', 7, 7, 3, eXXX);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, 554); --Bane
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, 554); --Shiny Bauble
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (gXXX, 615); --Endless Curiosity
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (gXXX, 615); --Monkey's Paw
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (gXXX, 615); --Spinning Tetsubo
+
+
+--Clan Yurei Chunin	--CardIndex cXXX	--CharacterIndex chXXX	--ArcadeCharacterIndex arXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Clan Yurei Chunin',
+'http:/htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Clan_Yurei_Chunin_2.0.png', 
+'http:/htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Clan_Yurei_Chunin_2.0_back.png', 
+'http:/htkb.online/SDWiki/SDE/2.0/Cards/Arcade/MiniBosses/Clan_Yurei_Chunin.xhtml', 
+'MiniBoss', '2.0', '2.0 Core Set', 'Default', 
+'It is said that the hammers borne by the Yurei Chunin were the very ones used to close the final links of chain that held the Yurei clan nobles to their battle barges when they were cast into the ocean. Cursed with the most vile hatred for the Ika, these weapons are as much symbols of that hatred as they are tools for revenge.');
+insert into Characters (CardIndex) VALUES (cXXX);
+insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
+VALUES (chXXX, 373, -1);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 0); --Amethyst
+--GangMemberIndex gXXX
+insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
+VALUES (arXXX, 0, 'Yamazaru Chunin', 'Yamazaru', 'MiniBoss', 7, 7, 3, eXXX);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, 554); --Dragged To The Depths
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, 554); --Massive Damage
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (gXXX, 615); --Drowning Deep, The
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (gXXX, 615); --Fury of Eternity
+
+
+--Clan Yurei Oni	--CardIndex cXXX	--CharacterIndex chXXX	--ArcadeCharacterIndex arXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Clan Yurei Oni',
+'http:/htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Clan_Yurei_Oni_2.0.png', 
+'http:/htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Clan_Yurei_Oni_2.0_back.png', 
+'http:/htkb.online/SDWiki/SDE/2.0/Cards/Arcade/MiniBosses/Clan_Yurei_Oni.xhtml', 
+'MiniBoss', '2.0', '2.0 Core Set', 'Default', 
+'Amongst the many warriors that were sent to the bottom of the sea during the Yurei rebellion. There were quite a few Oni from some of the outlying islands in the service of Lord Tomomori. Their strength was used to better their way onto the Ika''s castle ships. It is of no difference now, as even in death, they are terrifying and powerful foes. ');
+insert into Characters (CardIndex) VALUES (cXXX);
+insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
+VALUES (chXXX, 373, -1);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 0); --Amethyst
+--GangMemberIndex gXXX
+insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
+VALUES (arXXX, 0, 'Yamazaru Chunin', 'Yamazaru', 'MiniBoss', 5, 9, 3, eXXX);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, 554); --Dragged To The Depths
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, 554); --Immobile
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, 554); --Massive Damage
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (gXXX, 615); --Undertow
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (gXXX, 615); --Storm of Vengeance
 
 
 --Crystal Weaver	--CardIndex cXXX	--CharacterIndex chXXX	--ArcadeCharacterIndex arXXX
@@ -420,29 +608,6 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (gXXX, 615
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (gXXX, 615); --Double Slash
 
 
---Ika Chunin	--CardIndex cXXX	--CharacterIndex chXXX	--ArcadeCharacterIndex arXXX
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ika Chunin',
-'http:/htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Ika_Chunin_2.0.png', 
-'http:/htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Ika_Chunin_2.0_back.png', 
-'http:/htkb.online/SDWiki/SDE/2.0/Cards/Arcade/MiniBosses/Ika_Chunin.xhtml', 
-'MiniBoss', '2.0', '2.0 Core Set', 'Default', 
-'');
-insert into Characters (CardIndex) VALUES (cXXX);
-insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (chXXX, 373, -1);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1); --Citrine
---GangMemberIndex gXXX
-insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (arXXX, 0, 'Ika Chunin', 'Ika', 'MiniBoss', 6, 7, 3, eXXX);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, 554); --Immobile
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, 554); --Killamari
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, 554); --Massive Damage
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, 554); --Salty
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (gXXX, 615); --Undertow
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (gXXX, 615); --The Raging Oceans
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (gXXX, 615); --Sweeping Spear
-
-
 --Kappa	--CardIndex cXXX	--CharacterIndex chXXX	--ArcadeCharacterIndex arXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Kappa',
 'http:/htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Kappa_2.0.png', 
@@ -462,26 +627,6 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, 554
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, 554); --Sturdy
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (gXXX, 615); --Shell Spin
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (gXXX, 615); --The Kappa's Curse
-
-
---Kitsune Chunin	--CardIndex cXXX	--CharacterIndex chXXX	--ArcadeCharacterIndex arXXX
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Kitsune Chunin',
-'http:/htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Kitsune_Chunin_2.0.png', 
-'http:/htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Kitsune_Chunin_2.0_back.png', 
-'http:/htkb.online/SDWiki/SDE/2.0/Cards/Arcade/MiniBosses/Kitsune_Chunin.xhtml', 
-'MiniBoss', '2.0', '2.0 Core Set', 'Default', 
-'The Kitsune Chunin is the leader of the Kitsune Kunoichi. No outsider knows how the Chunin is chosen from the ranks of the Kunoichi, but it is speculated that Kunoichi are allowed to challenge the current Chunin for the title, ensuring that the strongest and most cunning is always in charge. He or she always wears a face covering in battle to protect their identity should they choose to leave any survivors. The Chunin is equipped with the most deadly of the concoctions for which the Kitsune are famed, often using these poisons to coat their weapons.');
-insert into Characters (CardIndex) VALUES (cXXX);
-insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (chXXX, 373, -1);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1); --Citrine
---GangMemberIndex gXXX
-insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (arXXX, 0, 'Kitsune Chunin', 'Kitsune', 'MiniBoss', 5, 7, 3, eXXX);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, 554); --Poison
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, 554); --Territorial
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (gXXX, 615); --New Territory
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (gXXX, 615); --Cunning Blade
 
 
 --Knight of Shifting Sand	--CardIndex cXXX	--CharacterIndex chXXX	--ArcadeCharacterIndex arXXX
@@ -752,49 +897,6 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (gXXX, 615
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (gXXX, 615); --Lifesap
 
 
---Sohei Chunin	--CardIndex cXXX	--CharacterIndex chXXX	--ArcadeCharacterIndex arXXX
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Sohei Chunin',
-'http:/htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Sohei_Chunin_2.0.png', 
-'http:/htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Sohei_Chunin_2.0_back.png', 
-'http:/htkb.online/SDWiki/SDE/2.0/Cards/Arcade/MiniBosses/Sohei_Chunin.xhtml', 
-'MiniBoss', '2.0', '2.0 Core Set', 'Default', 
-''); --!! unavailable !!
-insert into Characters (CardIndex) VALUES (cXXX);
-insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (chXXX, 373, -1);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 0); --!! unavailable !!
---GangMemberIndex gXXX
-insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (arXXX, 0, 'Sohei Chunin', 'Sohei', 'MiniBoss', 6, 7, 3, eXXX);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, 554); --Augment
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, 554); --Discipline 
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, 554); --Knockdown
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, 554); --Massive Damage
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (gXXX, 615); --Together, Brothers!
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (gXXX, 615); --The Smashening
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (gXXX, 615); --Tsunami of Wrath
-
-
---Tanchyo Chunin	--CardIndex cXXX	--CharacterIndex chXXX	--ArcadeCharacterIndex arXXX
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Tanchyo Chunin',
-'http:/htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Tanchyo_Chunin_2.0.png', 
-'http:/htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Tanchyo_Chunin_2.0_back.png', 
-'http:/htkb.online/SDWiki/SDE/2.0/Cards/Arcade/MiniBosses/Tanchyo_Chunin.xhtml', 
-'MiniBoss', '2.0', '2.0 Core Set', 'Default', 
-'The Tanchyo are known throughout Kagejima for their archery skills, and the Chunin are those who have proven themselves above and beyond even their fellow Tanchyo. Each village only has a single Chunin. Sometimes this individual is a hero of a great battle. Sometimes they have proven themselves in an archery contest. But all Tanchyo Chunin are deadly opponents who can single-handedly rain down a storm of arrows.');
-insert into Characters (CardIndex) VALUES (cXXX);
-insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (chXXX, 373, -1);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 2); --Emerald
---GangMemberIndex gXXX
-insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (arXXX, 0, 'Tanchyo Chunin', 'Tanchyo', 'MiniBoss', 7, 7, 3, eXXX);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, 554); --Retreat
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, 554); --Vengeful Storm
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (gXXX, 615); --Storm of Arrows
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (gXXX, 615); --Reposition
-
-
 --Tengu	--CardIndex cXXX	--CharacterIndex chXXX	--ArcadeCharacterIndex arXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Tengu',
 'http:/htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Tengu_2.0.png', 
@@ -839,26 +941,6 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, 554
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (gXXX, 615); --Hidden Lever
 
 
---Tora Chunin	--CardIndex cXXX	--CharacterIndex chXXX	--ArcadeCharacterIndex arXXX
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Tora Chunin',
-'http:/htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Tora_Chunin_2.0.png', 
-'http:/htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Tora_Chunin_2.0_back.png', 
-'http:/htkb.online/SDWiki/SDE/2.0/Cards/Arcade/MiniBosses/Tora_Chunin.xhtml', 
-'MiniBoss', '2.0', '2.0 Core Set', 'Default', 
-'The Chunin of the Tora employ tactics learned over centuries of battle. Employing the strength of their warriors as a fire attacks a dry forest, or a Tiger pounces on the unwary prey.');
-insert into Characters (CardIndex) VALUES (cXXX);
-insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (chXXX, 373, -1);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1); --Citrine
---GangMemberIndex gXXX
-insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (arXXX, 0, 'Tora Chunin', 'Tora', 'MiniBoss', 5, 7, 3, eXXX);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, 554); --Tough
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (gXXX, 615); --Tora Tora Tora!
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (gXXX, 615); --Reload!
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (gXXX, 615); --Flurry of Blades
-
-
 --Ugluk the Mechanically Inclined	--CardIndex cXXX	--CharacterIndex chXXX	--ArcadeCharacterIndex arXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ugluk the Mechanically Inclined',
 'http:/htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Ugluk_the_Mechanically_Inclined_2.0.png', 
@@ -898,27 +980,6 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, 554
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (gXXX, 615); --Wyrdwood Arrow
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (gXXX, 615); --That One. With The Funny Face
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (gXXX, 615); --Storm of Arrows
-
-
---Yamazaru Chunin	--CardIndex cXXX	--CharacterIndex chXXX	--ArcadeCharacterIndex arXXX
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Yamazaru Chunin',
-'http:/htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Yamazaru_Chunin_2.0.png', 
-'http:/htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Yamazaru_Chunin_2.0_back.png', 
-'http:/htkb.online/SDWiki/SDE/2.0/Cards/Arcade/MiniBosses/Yamazaru_Chunin.xhtml', 
-'MiniBoss', '2.0', '2.0 Core Set', 'Default', 
-'The Yamazaru are naturally curious and playful. They love new trinquets and fun items, and this even spills over into how they arm themselves for battle. Often, the Yamazaru Chunin is simply the one with the newest weapon, biggest club, or the most new trinquets to share with his or her fellow Yamazaru.');
-insert into Characters (CardIndex) VALUES (cXXX);
-insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (chXXX, 373, -1);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1); --Citrine
---GangMemberIndex gXXX
-insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (arXXX, 0, 'Yamazaru Chunin', 'Yamazaru', 'MiniBoss', 7, 7, 3, eXXX);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, 554); --Bane
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, 554); --Shiny Bauble
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (gXXX, 615); --Endless Curiosity
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (gXXX, 615); --Monkey's Paw
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (gXXX, 615); --Spinning Tetsubo
 
 
 --Yobuko	--CardIndex cXXX	--CharacterIndex chXXX	--ArcadeCharacterIndex arXXX

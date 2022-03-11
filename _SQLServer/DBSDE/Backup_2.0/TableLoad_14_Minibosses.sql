@@ -180,8 +180,57 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (eXXX, 4); --Dex
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (eXXX, 'Miniboss', 'Super', 4);
 
+--Clan Ika Chunin --CardIndex cXXX	--CharacterIndex chXXX	--ExploreCharacterIndex eXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Clan Ika Chunin',
+'http:/htkb.info/SDE/2.0/Cards/Minibosses/Card_Miniboss_Clan_Ika_Chunin_2.0.png', 
+'http:/htkb.info/SDE/2.0/Cards/Minibosses/Card_Miniboss_Clan_Ika_Chunin_2.0_back.png', 
+'http:/htkb.online/SDWiki/SDE/2.0/Cards/Minibosses/Clan_Ika_Chunin.xhtml', 
+'Miniboss', '2.0', '2.0 Core Set', 'Explore',
+'');
+insert into Characters (CardIndex) VALUES (cXXX);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 3); --Ruby
+insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+VALUES (chXXX,
+'http:/htkb.info/SDE/2.0/Cards/Standies/Clan_Ika_Chunin_2.0.png', 
+'http:/htkb.info/SDE/2.0/Cards/Standies/Clan_Ika_Chunin_2.0_back.png', 
+'Masculine', 'Small', 'Ika', 6, 3, '5B', '3B', '2B', '3B', 7, 0);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Immobile
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Killamari
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Massive Damage
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Salty
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Sweeping Spear
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Raging Oceans, The
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Undertow
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 1, 4); --Strength
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (eXXX, 2); --Armor
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (eXXX, 'Miniboss', 'Super', 4);
+
+--Clan Kitsune Chunin --CardIndex cXXX	--CharacterIndex chXXX	--ExploreCharacterIndex eXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Clan Kitsune Chunin',
+'http:/htkb.info/SDE/2.0/Cards/Minibosses/Card_Miniboss_Clan_Kitsune_Chunin_2.0.png', 
+'http:/htkb.info/SDE/2.0/Cards/Minibosses/Card_Miniboss_Clan_Kitsune_Chunin_2.0_back.png', 
+'http:/htkb.online/SDWiki/SDE/2.0/Cards/Minibosses/Clan_Kitsune_Chunin.xhtml', 
+'Miniboss', '2.0', '2.0 Core Set', 'Explore',
+'The Kitsune Chunin is the leader of the Kitsune Kunoichi. No outsider knows how the Chunin is chosen from the ranks of the Kunoichi, but it is speculated that Kunoichi are allowed to challenge the current Chunin for the title, ensuring that the strongest and most cunning is always in charge. He or she always wears a face covering in battle to protect their identity should they choose to leave any survivors. The Chunin is equipped with the most deadly of the concoctions for which the Kitsune are famed, often using these poisons to coat their weapons.');
+insert into Characters (CardIndex) VALUES (cXXX);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1); --Citrine
+insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+VALUES (chXXX,
+'http:/htkb.info/SDE/2.0/Cards/Standies/Clan_Kitsune_Chunin_2.0.png', 
+'http:/htkb.info/SDE/2.0/Cards/Standies/Clan_Kitsune_Chunin_2.0_back.png', 
+'Masculine', 'Small', 'Kitsune', 5, 3, '2R', '1B 1G', '3B', '2R', 7, 0);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Poison
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Surefoot
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Territorial
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Cunning Blade
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Hit And Run
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --New Territory
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 1, 2); --Strength
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (eXXX, 2); --Armor
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (eXXX, 'Miniboss', 'Super', 4);
+
 --Clan Spirit Shrine Oni --CardIndex cXXX	--CharacterIndex chXXX	--ExploreCharacterIndex eXXX
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Oni',
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Clan Spirit Shrine Oni',
 'http:/htkb.info/SDE/2.0/Cards/Minibosses/Card_Miniboss_Clan_Spirit_Shrine_Oni_2.0.png', 
 'http:/htkb.info/SDE/2.0/Cards/Minibosses/Card_Miniboss_Clan_Spirit_Shrine_Oni_2.0_back.png', 
 'http:/htkb.online/SDWiki/SDE/2.0/Cards/Minibosses/Clan_Spirit_Shrine_Oni.xhtml', 
@@ -203,8 +252,109 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (eXXX, 2); --Armor
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (eXXX, 'Miniboss', 'Super', 4);
 
+--Clan Sohei Chunin --CardIndex cXXX	--CharacterIndex chXXX	--ExploreCharacterIndex eXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Clan Sohei Chunin',
+'http:/htkb.info/SDE/2.0/Cards/Minibosses/Card_Miniboss_Clan_Sohei_Chunin_2.0.png', 
+'http:/htkb.info/SDE/2.0/Cards/Minibosses/Card_Miniboss_Clan_Sohei_Chunin_2.0_back.png', 
+'http:/htkb.online/SDWiki/SDE/2.0/Cards/Minibosses/Clan_Sohei_Chunin.xhtml', 
+'Miniboss', '2.0', '2.0 Core Set', 'Explore',
+'');
+insert into Characters (CardIndex) VALUES (cXXX);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 4); --Sapphire
+insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+VALUES (chXXX,
+'http:/htkb.info/SDE/2.0/Cards/Standies/Clan_Sohei_Chunin_2.0.png', 
+'http:/htkb.info/SDE/2.0/Cards/Standies/Clan_Sohei_Chunin_2.0_back.png', 
+'Masculine', 'Small', 'Sohei', 6, 3, '3R', '3B', '3B', '2B', 7, 0);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Augment
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Discipline
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Knockdown
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Massive Damage
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --The Smashening
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Tsunami of Wrath
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Together, Brothers!
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 1, 4); --Strength
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (eXXX, 2); --Armor
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (eXXX, 'Miniboss', 'Super', 4);
+
+--Clan Sohei Oni --CardIndex cXXX	--CharacterIndex chXXX	--ExploreCharacterIndex eXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Clan Sohei Oni',
+'http:/htkb.info/SDE/2.0/Cards/Minibosses/Card_Miniboss_Clan_Sohei_Oni_2.0.png', 
+'http:/htkb.info/SDE/2.0/Cards/Minibosses/Card_Miniboss_Clan_Sohei_Oni_2.0_back.png', 
+'http:/htkb.online/SDWiki/SDE/2.0/Cards/Minibosses/Clan_Sohei_Oni.xhtml', 
+'Miniboss', '2.0', '2.0 Core Set', 'Explore',
+''); --!! unavailable !!
+insert into Characters (CardIndex) VALUES (cXXX);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 4); --Sapphire
+insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+VALUES (chXXX,
+'http:/htkb.info/SDE/2.0/Cards/Standies/Clan_Sohei_Oni_2.0.png', 
+'http:/htkb.info/SDE/2.0/Cards/Standies/Clan_Sohei_Oni_2.0_back.png', 
+'Masculine', 'Small', 'Sohei', 6, 3, '3R', '3B', '3B', '2B', 7, 0); --!! unavailable !!
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Discipline
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 1, 4); --Strength --!! unavailable !!
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (eXXX, 2); --Armor
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (eXXX, 'Miniboss', 'Super', 4); --!! unavailable !!
+
+
+--Clan Tanchyo Chunin --CardIndex cXXX	--CharacterIndex chXXX	--ExploreCharacterIndex eXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Clan Tanchyo Chunin',
+'http:/htkb.info/SDE/2.0/Cards/Minibosses/Card_Miniboss_Clan_Tanchyo_Chunin_2.0.png', 
+'http:/htkb.info/SDE/2.0/Cards/Minibosses/Card_Miniboss_Clan_Tanchyo_Chunin_2.0_back.png', 
+'http:/htkb.online/SDWiki/SDE/2.0/Cards/Minibosses/Clan_Tanchyo_Chunin.xhtml', 
+'Miniboss', '2.0', '2.0 Core Set', 'Explore',
+'The Tanchyo are known throughout Kagejima for their archery skills, and the Chunin are those who have proven themselves above and beyond even their fellow Tanchyo. Each village only has single Chunin. Sometimes this individual is a hero of a great battle. Sometimes they have proven themselves in an archery contest. But all Tanchyo Chunin are deadly opponents who can single-handedly rain down a storm of arrows.');
+insert into Characters (CardIndex) VALUES (cXXX);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 2); --Emerald
+insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+VALUES (chXXX,
+'http:/htkb.info/SDE/2.0/Cards/Standies/Clan_Tanchyo_Chunin_2.0.png', 
+'http:/htkb.info/SDE/2.0/Cards/Standies/Clan_Tanchyo_Chunin_2.0_back.png', 
+'Feminine', 'Small', 'Tanchyo', 7, 3, '3B', '2ST', '3B', '2B 2R', 7, 0);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Hookshot
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Retreat
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Retribution
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Vengeful Storm
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --The Arrow Senses The Way
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Reposition
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Storm of Arrows
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 4, 6); --Dex
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (eXXX, 2); --Armor
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (eXXX, 'Miniboss', 'Super', 4);
+
+--Clan Tora Chunin --CardIndex cXXX	--CharacterIndex chXXX	--ExploreCharacterIndex eXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Clan Tora Chunin',
+'http:/htkb.info/SDE/2.0/Cards/Minibosses/Card_Miniboss_Clan_Tora_Chunin_2.0.png', 
+'http:/htkb.info/SDE/2.0/Cards/Minibosses/Card_Miniboss_Clan_Tora_Chunin_2.0_back.png', 
+'http:/htkb.online/SDWiki/SDE/2.0/Cards/Minibosses/Clan_Tora_Chunin.xhtml', 
+'Miniboss', '2.0', '2.0 Core Set', 'Explore',
+'The Chunin of the Tora employ tactics learned over centuries of battle. Employing the strength of their warriors as a fire attacks a dry forest, or a Tiger pounces on the unwary prey.');
+insert into Characters (CardIndex) VALUES (cXXX);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1); --Citrine
+insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+VALUES (chXXX,
+'http:/htkb.info/SDE/2.0/Cards/Standies/Clan_Tora_Chunin_2.0.png', 
+'http:/htkb.info/SDE/2.0/Cards/Standies/Clan_Tora_Chunin_2.0_back.png', 
+'Masculine', 'Small', 'Tora', 5, 3, '2B 1R', '2R', '2R', '3B', 8, 0);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Charge
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Improved Critical
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Ravage
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Selfless
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --The Way of The Blade
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Leaping Strike
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Gunpowder Savant
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 1, 2); --Strength
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (eXXX, 2); --Armor
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (eXXX, 'Miniboss', 'Super', 4);
+
 --Clan Void Shrine Oni --CardIndex cXXX	--CharacterIndex chXXX	--ExploreCharacterIndex eXXX
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Oni',
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Clan Void Shrine Oni',
 'http:/htkb.info/SDE/2.0/Cards/Minibosses/Card_Miniboss_Clan_Void_Shrine_Oni_2.0.png', 
 'http:/htkb.info/SDE/2.0/Cards/Minibosses/Card_Miniboss_Clan_Void_Shrine_Oni_2.0_back.png', 
 'http:/htkb.online/SDWiki/SDE/2.0/Cards/Minibosses/Clan_Void_Shrine_Oni.xhtml', 
@@ -227,7 +377,7 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (e
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (eXXX, 'Miniboss', 'Super', 4);
 
 --Clan Water Shrine Oni --CardIndex cXXX	--CharacterIndex chXXX	--ExploreCharacterIndex eXXX
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Oni',
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Clan Water Shrine Oni',
 'http:/htkb.info/SDE/2.0/Cards/Minibosses/Card_Miniboss_Clan_Water_Shrine_Oni_2.0.png', 
 'http:/htkb.info/SDE/2.0/Cards/Minibosses/Card_Miniboss_Clan_Water_Shrine_Oni_2.0_back.png', 
 'http:/htkb.online/SDWiki/SDE/2.0/Cards/Minibosses/Clan_Water_Shrine_Oni.xhtml', 
@@ -246,6 +396,80 @@ insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXX
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Devour
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Deceive
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 1, 2); --Strength
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (eXXX, 2); --Armor
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (eXXX, 'Miniboss', 'Super', 4);
+
+--Clan Yamazaru Chunin --CardIndex cXXX	--CharacterIndex chXXX	--ExploreCharacterIndex eXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Clan Yamazaru Chunin',
+'http:/htkb.info/SDE/2.0/Cards/Minibosses/Card_Miniboss_Clan_Yamazaru_Chunin_2.0.png', 
+'http:/htkb.info/SDE/2.0/Cards/Minibosses/Card_Miniboss_Clan_Yamazaru_Chunin_2.0_back.png', 
+'http:/htkb.online/SDWiki/SDE/2.0/Cards/Minibosses/Clan_Yamazaru_Chunin.xhtml', 
+'Miniboss', '2.0', '2.0 Core Set', 'Explore',
+'The Yamazaru are naturally curious and playful. They love new trinquets and fun items, and this even spills over into how they arm themselves for battle. Often, the Yamazaru Chunin is simply the one with the newest weapon, biggest club, or the most new trinquets to share with his or her fellow Yamazaru.');
+insert into Characters (CardIndex) VALUES (cXXX);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 2); --Emerald
+insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+VALUES (chXXX,
+'http:/htkb.info/SDE/2.0/Cards/Standies/Clan_Yamazaru_Chunin_2.0.png', 
+'http:/htkb.info/SDE/2.0/Cards/Standies/Clan_Yamazaru_Chunin_2.0_back.png', 
+'Masculine', 'Small', 'Yamazaru', 7, 3, '2B 2R', '2B 1R', '1B 2R', '2G', 7, 0);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Bane
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Shiny Bauble
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Spinning Tetsubo
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Monkey's Paw
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Endless Curiosity
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 1, 3); --Strength
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (eXXX, 2); --Armor
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (eXXX, 'Miniboss', 'Super', 4);
+
+--Clan Yurei Chunin --CardIndex cXXX	--CharacterIndex chXXX	--ExploreCharacterIndex eXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Clan Yurei Chunin',
+'http:/htkb.info/SDE/2.0/Cards/Minibosses/Card_Miniboss_Clan_Yurei_Chunin_2.0.png', 
+'http:/htkb.info/SDE/2.0/Cards/Minibosses/Card_Miniboss_Clan_Yurei_Chunin_2.0_back.png', 
+'http:/htkb.online/SDWiki/SDE/2.0/Cards/Minibosses/Clan_Yurei_Chunin.xhtml', 
+'Miniboss', '2.0', '2.0 Core Set', 'Explore',
+'It is said that the hammers borne by the Yurei Chunin were the very ones used to close the final links of chain that held the Yurei clan nobles to their battle barges when they were cast into the ocean. Cursed with the most vile hatred for the Ika, these weapons are as much symbols of that hatred as they are tools for revenge.');
+insert into Characters (CardIndex) VALUES (cXXX);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 0); --Amethyst
+insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+VALUES (chXXX,
+'http:/htkb.info/SDE/2.0/Cards/Standies/Clan_Yurei_Chunin_2.0.png', 
+'http:/htkb.info/SDE/2.0/Cards/Standies/Clan_Yurei_Chunin_2.0_back.png', 
+'Neither', 'Small', 'Undead', 4, 3, '2B 2R', '2R', '3B', '1B', 7, 0);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Call Of The Deep
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Dragged To The Depths
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Improved Critical
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Massive Damage
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Pounce
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Crashing Waves
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Fury Of Eternity
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --The Drowning Deeps
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 1, 3); --Strength
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (eXXX, 2); --Armor
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (eXXX, 'Miniboss', 'Super', 4);
+
+--Clan Yurei Oni --CardIndex cXXX	--CharacterIndex chXXX	--ExploreCharacterIndex eXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Clan Yurei Oni',
+'http:/htkb.info/SDE/2.0/Cards/Minibosses/Card_Miniboss_Clan_Yurei_Oni_2.0.png', 
+'http:/htkb.info/SDE/2.0/Cards/Minibosses/Card_Miniboss_Clan_Yurei_Oni_2.0_back.png', 
+'http:/htkb.online/SDWiki/SDE/2.0/Cards/Minibosses/Clan_Yurei_Oni.xhtml', 
+'Miniboss', '2.0', '2.0 Core Set', 'Explore',
+'Amongst the many warriors that were sent to the bottom of the sea during the Yurei rebellion. There were quite a few Oni from some of the outlying islands in the service of Lord Tomomori. Their strength was used to batter their way onto the Ika''s castle ships. It is of no difference now, as even in death, they are terrifying and powerful foes.');
+insert into Characters (CardIndex) VALUES (cXXX);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 0); --Amethyst
+insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+VALUES (chXXX,
+'http:/htkb.info/SDE/2.0/Cards/Standies/Clan_Yurei_Oni_2.0.png', 
+'http:/htkb.info/SDE/2.0/Cards/Standies/Clan_Yurei_Oni_2.0_back.png', 
+'Neither', 'Large', 'Undead', 4, 3, '2B 2G', '3B', '3B', '2B', 8, 0);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Dragged To The Depths
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Immobile
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Massive Damage
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Pounce
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Crashing Waves
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Undertow
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Storm of Vengeance
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 1, 3); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (eXXX, 2); --Armor
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (eXXX, 'Miniboss', 'Super', 4);
 
@@ -467,31 +691,6 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (eXXX, 2); --Armor
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (eXXX, 'Miniboss', 'Super', 4);
 
---Ika Chunin --CardIndex cXXX	--CharacterIndex chXXX	--ExploreCharacterIndex eXXX
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ika Chunin',
-'http:/htkb.info/SDE/2.0/Cards/Minibosses/Card_Miniboss_Ika_Chunin_2.0.png', 
-'http:/htkb.info/SDE/2.0/Cards/Minibosses/Card_Miniboss_Ika_Chunin_2.0_back.png', 
-'http:/htkb.online/SDWiki/SDE/2.0/Cards/Minibosses/Ika_Chunin.xhtml', 
-'Miniboss', '2.0', '2.0 Core Set', 'Explore',
-'');
-insert into Characters (CardIndex) VALUES (cXXX);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 3); --Ruby
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (chXXX,
-'http:/htkb.info/SDE/2.0/Cards/Standies/Ika_Chunin_2.0.png', 
-'http:/htkb.info/SDE/2.0/Cards/Standies/Ika_Chunin_2.0_back.png', 
-'Masculine', 'Small', 'Ika', 6, 3, '5B', '3B', '2B', '3B', 7, 0);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Immobile
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Killamari
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Massive Damage
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Salty
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Sweeping Spear
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --The Raging Oceans
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Undertow
-insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 1, 4); --Strength
-insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (eXXX, 2); --Armor
-insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (eXXX, 'Miniboss', 'Super', 4);
-
 --Kappa --CardIndex cXXX	--CharacterIndex chXXX	--ExploreCharacterIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Kappa',
 'http:/htkb.info/SDE/2.0/Cards/Minibosses/Card_Miniboss_Kappa_2.0.png', 
@@ -514,30 +713,6 @@ insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXX
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --The Kappa's Curse
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Fickle Kappa
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 1, 1); --Strength
-insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (eXXX, 2); --Armor
-insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (eXXX, 'Miniboss', 'Super', 4);
-
---Kitsune Chunin --CardIndex cXXX	--CharacterIndex chXXX	--ExploreCharacterIndex eXXX
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Kitsune Chunin',
-'http:/htkb.info/SDE/2.0/Cards/Minibosses/Card_Miniboss_Kitsune_Chunin_2.0.png', 
-'http:/htkb.info/SDE/2.0/Cards/Minibosses/Card_Miniboss_Kitsune_Chunin_2.0_back.png', 
-'http:/htkb.online/SDWiki/SDE/2.0/Cards/Minibosses/Kitsune_Chunin.xhtml', 
-'Miniboss', '2.0', '2.0 Core Set', 'Explore',
-'The Kitsune Chunin is the leader of the Kitsune Kunoichi. No outsider knows how the Chunin is chosen from the ranks of the Kunoichi, but it is speculated that Kunoichi are allowed to challenge the current Chunin for the title, ensuring that the strongest and most cunning is always in charge. He or she always wears a face covering in battle to protect their identity should they choose to leave any survivors. The Chunin is equipped with the most deadly of the concoctions for which the Kitsune are famed, often using these poisons to coat their weapons.');
-insert into Characters (CardIndex) VALUES (cXXX);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1); --Citrine
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (chXXX,
-'http:/htkb.info/SDE/2.0/Cards/Standies/Kitsune_Chunin_2.0.png', 
-'http:/htkb.info/SDE/2.0/Cards/Standies/Kitsune_Chunin_2.0_back.png', 
-'Masculine', 'Small', 'Kitsune', 5, 3, '2R', '1B 1G', '3B', '2R', 7, 0);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Poison
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Surefoot
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Territorial
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Cunning Blade
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Hit And Run
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --New Territory
-insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 1, 2); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (eXXX, 2); --Armor
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (eXXX, 'Miniboss', 'Super', 4);
 
@@ -889,82 +1064,6 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (eXXX, 2); --Armor
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (eXXX, 'Miniboss', 'Super', 4);
 
---Sohei Chunin --CardIndex cXXX	--CharacterIndex chXXX	--ExploreCharacterIndex eXXX
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Sohei Chunin',
-'http:/htkb.info/SDE/2.0/Cards/Minibosses/Card_Miniboss_Sohei_Chunin_2.0.png', 
-'http:/htkb.info/SDE/2.0/Cards/Minibosses/Card_Miniboss_Sohei_Chunin_2.0_back.png', 
-'http:/htkb.online/SDWiki/SDE/2.0/Cards/Minibosses/Sohei_Chunin.xhtml', 
-'Miniboss', '2.0', '2.0 Core Set', 'Explore',
-'');
-insert into Characters (CardIndex) VALUES (cXXX);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 4); --Sapphire
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (chXXX,
-'http:/htkb.info/SDE/2.0/Cards/Standies/Sohei_Chunin_2.0.png', 
-'http:/htkb.info/SDE/2.0/Cards/Standies/Sohei_Chunin_2.0_back.png', 
-'Masculine', 'Small', 'Sohei', 6, 3, '3R', '3B', '3B', '2B', 7, 0);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Augment
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Discipline
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Knockdown
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Massive Damage
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --The Smashening
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Tsunami of Wrath
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Together, Brothers!
-insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 1, 4); --Strength
-insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (eXXX, 2); --Armor
-insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (eXXX, 'Miniboss', 'Super', 4);
-
---Sohei Oni --CardIndex cXXX	--CharacterIndex chXXX	--ExploreCharacterIndex eXXX
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Sohei Oni',
-'http:/htkb.info/SDE/2.0/Cards/Minibosses/Card_Miniboss_Sohei_Oni_2.0.png', 
-'http:/htkb.info/SDE/2.0/Cards/Minibosses/Card_Miniboss_Sohei_Oni_2.0_back.png', 
-'http:/htkb.online/SDWiki/SDE/2.0/Cards/Minibosses/Sohei_Oni.xhtml', 
-'Miniboss', '2.0', '2.0 Core Set', 'Explore',
-''); --!! unavailable !!
-insert into Characters (CardIndex) VALUES (cXXX);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 4); --Sapphire
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (chXXX,
-'http:/htkb.info/SDE/2.0/Cards/Standies/Sohei_Oni_2.0.png', 
-'http:/htkb.info/SDE/2.0/Cards/Standies/Sohei_Oni_2.0_back.png', 
-'Masculine', 'Small', 'Sohei', 6, 3, '3R', '3B', '3B', '2B', 7, 0); --!! unavailable !!
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Discipline
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --
-insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 1, 4); --Strength --!! unavailable !!
-insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (eXXX, 2); --Armor
-insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (eXXX, 'Miniboss', 'Super', 4); --!! unavailable !!
-
-
---Tanchyo Chunin --CardIndex cXXX	--CharacterIndex chXXX	--ExploreCharacterIndex eXXX
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Tanchyo Chunin',
-'http:/htkb.info/SDE/2.0/Cards/Minibosses/Card_Miniboss_Tanchyo_Chunin_2.0.png', 
-'http:/htkb.info/SDE/2.0/Cards/Minibosses/Card_Miniboss_Tanchyo_Chunin_2.0_back.png', 
-'http:/htkb.online/SDWiki/SDE/2.0/Cards/Minibosses/Tanchyo_Chunin.xhtml', 
-'Miniboss', '2.0', '2.0 Core Set', 'Explore',
-'The Tanchyo are known throughout Kagejima for their archery skills, and the Chunin are those who have proven themselves above and beyond even their fellow Tanchyo. Each village only has single Chunin. Sometimes this individual is a hero of a great battle. Sometimes they have proven themselves in an archery contest. But all Tanchyo Chunin are deadly opponents who can single-handedly rain down a storm of arrows.');
-insert into Characters (CardIndex) VALUES (cXXX);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 2); --Emerald
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (chXXX,
-'http:/htkb.info/SDE/2.0/Cards/Standies/Tanchyo_Chunin_2.0.png', 
-'http:/htkb.info/SDE/2.0/Cards/Standies/Tanchyo_Chunin_2.0_back.png', 
-'Feminine', 'Small', 'Tanchyo', 7, 3, '3B', '2ST', '3B', '2B 2R', 7, 0);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Hookshot
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Retreat
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Retribution
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Vengeful Storm
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --The Arrow Senses The Way
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Reposition
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Storm of Arrows
-insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 4, 6); --Dex
-insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (eXXX, 2); --Armor
-insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (eXXX, 'Miniboss', 'Super', 4);
-
 --Tengu --CardIndex cXXX	--CharacterIndex chXXX	--ExploreCharacterIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Tengu',
 'http:/htkb.info/SDE/2.0/Cards/Minibosses/Card_Miniboss_Tengu_2.0.png', 
@@ -1019,31 +1118,6 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (eXXX, 3); --Will
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (eXXX, 'Miniboss', 'Super', 4);
 
---Tora Chunin --CardIndex cXXX	--CharacterIndex chXXX	--ExploreCharacterIndex eXXX
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Tora Chunin',
-'http:/htkb.info/SDE/2.0/Cards/Minibosses/Card_Miniboss_Tora_Chunin_2.0.png', 
-'http:/htkb.info/SDE/2.0/Cards/Minibosses/Card_Miniboss_Tora_Chunin_2.0_back.png', 
-'http:/htkb.online/SDWiki/SDE/2.0/Cards/Minibosses/Tora_Chunin.xhtml', 
-'Miniboss', '2.0', '2.0 Core Set', 'Explore',
-'The Chunin of the Tora employ tactics learned over centuries of battle. Employing the strength of their warriors as a fire attacks a dry forest, or a Tiger pounces on the unwary prey.');
-insert into Characters (CardIndex) VALUES (cXXX);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1); --Citrine
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (chXXX,
-'http:/htkb.info/SDE/2.0/Cards/Standies/Tora_Chunin_2.0.png', 
-'http:/htkb.info/SDE/2.0/Cards/Standies/Tora_Chunin_2.0_back.png', 
-'Masculine', 'Small', 'Tora', 5, 3, '2B 1R', '2R', '2R', '3B', 8, 0);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Charge
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Improved Critical
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Ravage
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Selfless
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --The Way of The Blade
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Leaping Strike
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Gunpowder Savant
-insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 1, 2); --Strength
-insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (eXXX, 2); --Armor
-insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (eXXX, 'Miniboss', 'Super', 4);
-
 --Ugluk the Mechanically Inclined --CardIndex cXXX	--CharacterIndex chXXX	--ExploreCharacterIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ugluk the Mechanically Inclined',
 'http:/htkb.info/SDE/2.0/Cards/Minibosses/Card_Miniboss_Ugluk_the_Mechanically_Inclined_2.0.png', 
@@ -1091,29 +1165,6 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (eXXX, 2); --Armor
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (eXXX, 'Miniboss', 'Super', 4);
 
---Yamazaru Chunin --CardIndex cXXX	--CharacterIndex chXXX	--ExploreCharacterIndex eXXX
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Yamazaru Chunin',
-'http:/htkb.info/SDE/2.0/Cards/Minibosses/Card_Miniboss_Yamazaru_Chunin_2.0.png', 
-'http:/htkb.info/SDE/2.0/Cards/Minibosses/Card_Miniboss_Yamazaru_Chunin_2.0_back.png', 
-'http:/htkb.online/SDWiki/SDE/2.0/Cards/Minibosses/Yamazaru_Chunin.xhtml', 
-'Miniboss', '2.0', '2.0 Core Set', 'Explore',
-'The Yamazaru are naturally curious and playful. They love new trinquets and fun items, and this even spills over into how they arm themselves for battle. Often, the Yamazaru Chunin is simply the one with the newest weapon, biggest club, or the most new trinquets to share with his or her fellow Yamazaru.');
-insert into Characters (CardIndex) VALUES (cXXX);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 2); --Emerald
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (chXXX,
-'http:/htkb.info/SDE/2.0/Cards/Standies/Yamazaru_Chunin_2.0.png', 
-'http:/htkb.info/SDE/2.0/Cards/Standies/Yamazaru_Chunin_2.0_back.png', 
-'Masculine', 'Small', 'Yamazaru', 7, 3, '2B 2R', '2B 1R', '1B 2R', '2G', 7, 0);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Bane
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Shiny Bauble
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Spinning Tetsubo
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Monkey's Paw
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Endless Curiosity
-insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 1, 3); --Strength
-insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (eXXX, 2); --Armor
-insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (eXXX, 'Miniboss', 'Super', 4);
-
 --Yobuko --CardIndex cXXX	--CharacterIndex chXXX	--ExploreCharacterIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Yobuko',
 'http:/htkb.info/SDE/2.0/Cards/Minibosses/Card_Miniboss_Yobuko_2.0.png', 
@@ -1138,56 +1189,3 @@ insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXX
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 1, 1); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (eXXX, 2); --Armor
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (eXXX, 'Miniboss', 'Super', 4);
-
---Yurei Chunin --CardIndex cXXX	--CharacterIndex chXXX	--ExploreCharacterIndex eXXX
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Yurei Chunin',
-'http:/htkb.info/SDE/2.0/Cards/Minibosses/Card_Miniboss_Yurei_Chunin_2.0.png', 
-'http:/htkb.info/SDE/2.0/Cards/Minibosses/Card_Miniboss_Yurei_Chunin_2.0_back.png', 
-'http:/htkb.online/SDWiki/SDE/2.0/Cards/Minibosses/Yurei_Chunin.xhtml', 
-'Miniboss', '2.0', '2.0 Core Set', 'Explore',
-'It is said that the hammers borne by the Yurei Chunin were the very ones used to close the final links of chain that held the Yurei clan nobles to their battle barges when they were cast into the ocean. Cursed with the most vile hatred for the Ika, these weapons are as much symbols of that hatred as they are tools for revenge.');
-insert into Characters (CardIndex) VALUES (cXXX);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 0); --Amethyst
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (chXXX,
-'http:/htkb.info/SDE/2.0/Cards/Standies/Yurei_Chunin_2.0.png', 
-'http:/htkb.info/SDE/2.0/Cards/Standies/Yurei_Chunin_2.0_back.png', 
-'Neither', 'Small', 'Undead', 4, 3, '2B 2R', '2R', '3B', '1B', 7, 0);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Call Of The Deep
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Dragged To The Depths
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Improved Critical
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Massive Damage
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Pounce
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Crashing Waves
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Fury Of Eternity
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --The Drowning Deeps
-insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 1, 3); --Strength
-insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (eXXX, 2); --Armor
-insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (eXXX, 'Miniboss', 'Super', 4);
-
---Yurei Oni --CardIndex cXXX	--CharacterIndex chXXX	--ExploreCharacterIndex eXXX
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Yurei Oni',
-'http:/htkb.info/SDE/2.0/Cards/Minibosses/Card_Miniboss_Yurei_Oni_2.0.png', 
-'http:/htkb.info/SDE/2.0/Cards/Minibosses/Card_Miniboss_Yurei_Oni_2.0_back.png', 
-'http:/htkb.online/SDWiki/SDE/2.0/Cards/Minibosses/Yurei_Oni.xhtml', 
-'Miniboss', '2.0', '2.0 Core Set', 'Explore',
-'Amongst the many warriors that were sent to the bottom of the sea during the Yurei rebellion. There were quite a few Oni from some of the outlying islands in the service of Lord Tomomori. Their strength was used to batter their way onto the Ika''s castle ships. It is of no difference now, as even in death, they are terrifying and powerful foes.');
-insert into Characters (CardIndex) VALUES (cXXX);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 0); --Amethyst
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (chXXX,
-'http:/htkb.info/SDE/2.0/Cards/Standies/Yurei_Oni_2.0.png', 
-'http:/htkb.info/SDE/2.0/Cards/Standies/Yurei_Oni_2.0_back.png', 
-'Neither', 'Large', 'Undead', 4, 3, '2B 2G', '3B', '3B', '2B', 8, 0);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Dragged To The Depths
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Immobile
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Massive Damage
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Pounce
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Crashing Waves
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Undertow
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Storm of Vengeance
-insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 1, 3); --Strength
-insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (eXXX, 2); --Armor
-insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (eXXX, 'Miniboss', 'Super', 4);
-
-
