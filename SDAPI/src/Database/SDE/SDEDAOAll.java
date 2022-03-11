@@ -1,6 +1,5 @@
 package Database.SDE;
 
-import Database.RRI.RRIDAO;
 import SDE.Ability;
 import SDE.Keyword;
 import java.sql.CallableStatement;
@@ -150,7 +149,7 @@ public class SDEDAOAll extends SDEDAO{
     }
     
     //Pull All Heroes
-    public ArrayList<SDE.ExploreCharacter> pullAllHeroes(){
+    public static ArrayList<SDE.ExploreCharacter> pullAllHeroes(){
         CallableStatement stmt = null;
         ResultSet rs;
         ArrayList<SDE.ExploreCharacter> result = new ArrayList<SDE.ExploreCharacter>();
@@ -269,7 +268,7 @@ public class SDEDAOAll extends SDEDAO{
     }
     
     //Pull All Pets
-    public ArrayList<SDE.Pet> pullAllPets(){
+    public static ArrayList<SDE.Pet> pullAllPets(){
         CallableStatement stmt = null;
         ResultSet rs;
         ArrayList<SDE.Pet> result = new ArrayList<SDE.Pet>();
@@ -391,52 +390,52 @@ public class SDEDAOAll extends SDEDAO{
     }
     
     //Pull All Booty
-    public ArrayList<SDE.Monster> pullAllBooty(){
+    public static ArrayList<SDE.Monster> pullAllBooty(){
         return pullAllMonsters("{call SDWikiPullAllBooty()}");
     }
     
     //Pull All Creep
-    public ArrayList<SDE.Monster> pullAllCreeps(){
+    public static ArrayList<SDE.Monster> pullAllCreeps(){
         return pullAllMonsters("{call SDWikiPullAllCreeps()}");
     }
     
     //Pull All Elite
-    public ArrayList<SDE.Monster> pullAllElites(){
+    public static ArrayList<SDE.Monster> pullAllElites(){
         return pullAllMonsters("{call SDWikiPullAllElites()}");
     }
     
     //Pull All Mini Boss
-    public ArrayList<SDE.Monster> pullAllMiniBosses(){
+    public static ArrayList<SDE.Monster> pullAllMiniBosses(){
         return pullAllMonsters("{call SDWikiPullAllMiniBosses()}");
     }
     
     //Pull All Boss
-    public ArrayList<SDE.Monster> pullAllBosses(){
+    public static ArrayList<SDE.Monster> pullAllBosses(){
         return pullAllMonsters("{call SDWikiPullAllBosses()}");
     }
     
     //Pull All Minion
-    public ArrayList<SDE.Monster> pullAllMinions(){
+    public static ArrayList<SDE.Monster> pullAllMinions(){
         return pullAllMonsters("{call SDWikiPullAllMinions()}");
     }
     
     //Pull All Spawn
-    public ArrayList<SDE.Monster> pullAllSpawns(){
+    public static ArrayList<SDE.Monster> pullAllSpawns(){
         return pullAllMonsters("{call SDWikiPullAllSpawns()}");
     }
     
     //Pull All Warband
-    public ArrayList<SDE.Monster> pullAllWarbands(){
+    public static ArrayList<SDE.Monster> pullAllWarbands(){
         return pullAllMonsters("{call SDWikiPullAllWarbands()}");
     }
     
     //Pull All Monster
-    public ArrayList<SDE.Monster> pullAllMonsters(){
+    public static ArrayList<SDE.Monster> pullAllMonsters(){
         return pullAllMonsters("{call SDWikiPullAllMonsters()}");
     }
     
     //Pull All Monsters
-    public ArrayList<SDE.Monster> pullAllMonsters(String callableStatement){
+    public static ArrayList<SDE.Monster> pullAllMonsters(String callableStatement){
         CallableStatement stmt = null;
         ResultSet rs;
         ArrayList<SDE.Monster> result = new ArrayList<SDE.Monster>();
@@ -559,52 +558,52 @@ public class SDEDAOAll extends SDEDAO{
     }
     
     //Pull All Arcade Booty
-    public ArrayList<SDE.ArcadeCharacter> pullAllArcadeBooty(){
+    public static ArrayList<SDE.ArcadeCharacter> pullAllArcadeBooty(){
         return pullAllArcadeMonsters("{call SDWikiPullAllArcadeBooty(?)}");
     }
     
     //Pull All Arcade Creep
-    public ArrayList<SDE.ArcadeCharacter> pullAllArcadeCreeps(){
+    public static ArrayList<SDE.ArcadeCharacter> pullAllArcadeCreeps(){
         return pullAllArcadeMonsters("{call SDWikiPullAllArcadeCreeps(?)}");
     }
     
     //Pull All Arcade Mini Boss
-    public ArrayList<SDE.ArcadeCharacter> pullAllArcadeMiniBosses(){
+    public static ArrayList<SDE.ArcadeCharacter> pullAllArcadeMiniBosses(){
         return pullAllArcadeMonsters("{call SDWikiPullAllArcadeMiniBosses(?)}");
     }
     
     //Pull All Arcade Boss
-    public ArrayList<SDE.ArcadeCharacter> pullAllArcadeBosses(){
+    public static ArrayList<SDE.ArcadeCharacter> pullAllArcadeBosses(){
         return pullAllArcadeMonsters("{call SDWikiPullAllArcadeBosses(?)}");
     }
     
     //Pull All Arcade Solo
-    public ArrayList<SDE.ArcadeCharacter> pullAllArcadeSolos(){
+    public static ArrayList<SDE.ArcadeCharacter> pullAllArcadeSolos(){
         return pullAllArcadeMonsters("{call SDWikiPullAllArcadeSolos(?)}");
     }
     
     //Pull All Arcade Spawn
-    public ArrayList<SDE.ArcadeCharacter> pullAllArcadeSpawns(){
+    public static ArrayList<SDE.ArcadeCharacter> pullAllArcadeSpawns(){
         return pullAllArcadeMonsters("{call SDWikiPullAllArcadeSpawns(?)}");
     }
     
     //Pull All Arcade Gang
-    public ArrayList<SDE.ArcadeCharacter> pullAllArcadeGangs(){
+    public static ArrayList<SDE.ArcadeCharacter> pullAllArcadeGangs(){
         return pullAllArcadeMonsters("{call SDWikiPullAllArcadeGangs(?)}");
     }
     
     //Pull All Arcade Warband
-    public ArrayList<SDE.ArcadeCharacter> pullAllArcadeWarbands(){
+    public static ArrayList<SDE.ArcadeCharacter> pullAllArcadeWarbands(){
         return pullAllArcadeMonsters("{call SDWikiPullAllArcadeWarbands(?)}");
     }
     
     //Pull All Arcade Monster
-    public ArrayList<SDE.ArcadeCharacter> pullAllArcadeMonsters(){
+    public static ArrayList<SDE.ArcadeCharacter> pullAllArcadeMonsters(){
         return pullAllArcadeMonsters("{call SDWikiPullAllArcadeMonsters(?)}");
     }
     
     //Pull All Arcade Monsters
-    public ArrayList<SDE.ArcadeCharacter> pullAllArcadeMonsters(String callableStatement){
+    public static ArrayList<SDE.ArcadeCharacter> pullAllArcadeMonsters(String callableStatement){
         CallableStatement stmt = null;
         ResultSet rs;
         ArrayList<SDE.ArcadeCharacter> result = new ArrayList<SDE.ArcadeCharacter>();
@@ -735,27 +734,27 @@ public class SDEDAOAll extends SDEDAO{
     }
     
     //Pull All Loot
-    public ArrayList<SDE.Equipment> pullAllLoot(){
+    public static ArrayList<SDE.Equipment> pullAllLoot(){
         return pullAllEquipment("{call SDWikiPullAllLoot(?)}");
     }
     
     //Pull All Treasure
-    public ArrayList<SDE.Equipment> pullAllTreasures(){
+    public static ArrayList<SDE.Equipment> pullAllTreasures(){
         return pullAllEquipment("{call SDWikiPullAllTreasure(?)}");
     }
     
     //Pull All Relic
-    public ArrayList<SDE.Equipment> pullAllRelics(){
+    public static ArrayList<SDE.Equipment> pullAllRelics(){
         return pullAllEquipment("{call SDWikiPullAllRelic(?)}");
     }
     
     //Pull All Equipment
-    public ArrayList<SDE.Equipment> pullAllEquipment(){
+    public static ArrayList<SDE.Equipment> pullAllEquipment(){
         return pullAllEquipment("{call SDWikiPullAllEquipment(?)}");
     }
     
     //Pull All Equipment
-    public ArrayList<SDE.Equipment> pullAllEquipment(String callableStatement){
+    public static ArrayList<SDE.Equipment> pullAllEquipment(String callableStatement){
         CallableStatement stmt = null;
         ResultSet rs;
         ArrayList<SDE.Equipment> result = new ArrayList<SDE.Equipment>();
@@ -847,7 +846,7 @@ public class SDEDAOAll extends SDEDAO{
     }
     
     //Pull All Boss Spawn
-    public ArrayList<SDE.BossSpawn> pullAllBossSpawnCards(){
+    public static ArrayList<SDE.BossSpawn> pullAllBossSpawnCards(){
         CallableStatement stmt = null;
         ResultSet rs;
         ArrayList<SDE.BossSpawn> result = new ArrayList<SDE.BossSpawn>();
@@ -907,17 +906,17 @@ public class SDEDAOAll extends SDEDAO{
     }
     
     //Pull Arcade Plot Card
-    public ArrayList<SDE.PlotCard> pullAllArcadePlotCards(){
+    public static ArrayList<SDE.PlotCard> pullAllArcadePlotCards(){
         return pullAllPlotCards("{call SDWikiPullAllArcadePlotCards()}");
     }
     
     //Pull All Explore Plot Card
-    public ArrayList<SDE.PlotCard> pullAllExplorePlotCards(){
+    public static ArrayList<SDE.PlotCard> pullAllExplorePlotCards(){
         return pullAllPlotCards("{call SDWikiPullAllExplorePlotCards()}");
     }
     
     //Pull All Plot Cards
-    public ArrayList<SDE.PlotCard> pullAllPlotCards(String callableStatement){
+    public static ArrayList<SDE.PlotCard> pullAllPlotCards(String callableStatement){
         CallableStatement stmt = null;
         ResultSet rs;
         ArrayList<SDE.PlotCard> result = new ArrayList<SDE.PlotCard>();
@@ -974,7 +973,7 @@ public class SDEDAOAll extends SDEDAO{
     }
     
     //Pull All Explore Cards
-    public ArrayList<SDE.ExploreCard> pullAllExploreCards(){
+    public static ArrayList<SDE.ExploreCard> pullAllExploreCards(){
         CallableStatement stmt = null;
         ResultSet rs;
         ArrayList<SDE.ExploreCard> result = new ArrayList<SDE.ExploreCard>();
@@ -1037,7 +1036,7 @@ public class SDEDAOAll extends SDEDAO{
     }
     
     //Pull All Challenge Cards
-    public ArrayList<SDE.ChallengeCard> pullAllChallengeCards(){
+    public static ArrayList<SDE.ChallengeCard> pullAllChallengeCards(){
         CallableStatement stmt = null;
         ResultSet rs;
         ArrayList<SDE.ChallengeCard> result = new ArrayList<SDE.ChallengeCard>();
@@ -1094,7 +1093,7 @@ public class SDEDAOAll extends SDEDAO{
     }
     
     //Pull All Boss Challenge Cards
-    public ArrayList<SDE.ChallengeCard> pullAllBossChallengeCards(){
+    public static ArrayList<SDE.ChallengeCard> pullAllBossChallengeCards(){
         CallableStatement stmt = null;
         ResultSet rs;
         ArrayList<SDE.ChallengeCard> result = new ArrayList<SDE.ChallengeCard>();
@@ -1153,7 +1152,7 @@ public class SDEDAOAll extends SDEDAO{
     }
     
     //Pull All Mighty Monster Cards
-    public ArrayList<SDE.MightyMonsterCard> pullAllMightyMonsterCards(){
+    public static ArrayList<SDE.MightyMonsterCard> pullAllMightyMonsterCards(){
         CallableStatement stmt = null;
         ResultSet rs;
         ArrayList<SDE.MightyMonsterCard> result = new ArrayList<SDE.MightyMonsterCard>();
@@ -1211,17 +1210,17 @@ public class SDEDAOAll extends SDEDAO{
     }
     
     //Pull One Terrain Card
-    public ArrayList<SDE.UtilityCard> pullAllTerrainCards(){
+    public static ArrayList<SDE.UtilityCard> pullAllTerrainCards(){
         return pullAllUtilityCards("{call SDWikiPullAllTerrainCards()}");
     }
     
     //Pull One Utility Card
-    public ArrayList<SDE.UtilityCard> pullAllUtilityCards(){
+    public static ArrayList<SDE.UtilityCard> pullAllUtilityCards(){
         return pullAllUtilityCards("{call SDWikiPullAllUtilityCards()}");
     }
     
     //Pull All Utility Cards
-    public ArrayList<SDE.UtilityCard> pullAllUtilityCards(String callableStatement){
+    public static ArrayList<SDE.UtilityCard> pullAllUtilityCards(String callableStatement){
         CallableStatement stmt = null;
         ResultSet rs;
         ArrayList<SDE.UtilityCard> result = new ArrayList<SDE.UtilityCard>();

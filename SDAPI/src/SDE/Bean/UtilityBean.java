@@ -2,10 +2,13 @@ package SDE.Bean;
 
 import javax.faces.bean.ManagedBean;
 import javax.faces.bean.RequestScoped;
-import Main.Universal;
-import SDE.UtilityCard;
+
 import java.util.ArrayList;
 import java.util.List;
+
+import Main.Universal;
+import SDE.*;
+import Database.SDE.*;
 
 @ManagedBean(name="SDEUtilityBean")
 @RequestScoped
@@ -30,9 +33,9 @@ public class UtilityBean extends CardBean{
         String path = uni.getAppPath()+link;
         
         if(path.compareTo("") != 0){
-            this.utilityCard  = oneDAO.pullOneUtilityCard(path);
+            this.utilityCard  = SDEDAOOne.pullOneUtilityCard(path);
         }
-        this.utilityCardList  = navDAO.pullNavigationForUtilitiesByProductSet(utilityCard.getVersion());
+        this.utilityCardList  = SDEDAONavigation.pullNavigationForUtilitiesByProductSet(utilityCard.getVersion());
         
         return "./Layout.xhtml";
     }

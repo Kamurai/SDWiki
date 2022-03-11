@@ -18,7 +18,7 @@ public class Card extends Component{
         this.pictureFront   = "";
         this.pictureBack    = "";
         this.cardType       = "";
-        this.version     = "";
+        this.version        = "";
         this.module         = "";
         this.mode           = "";
         this.flavor         = "";        
@@ -47,6 +47,22 @@ public class Card extends Component{
         this.mode           = mode;
         this.flavor         = flavor;
     }
+    
+    public Card(Card card){
+        setLink(card.getLink());
+        
+        this.cardIndex      = card.getCardIndex();
+        this.name           = card.getName();
+        this.pictureFront   = card.getPictureFront();
+        this.pictureBack    = card.getPictureBack();
+        this.cardType       = card.getCardType();
+        this.version        = card.getVersion();
+        this.module         = card.getModule();
+        this.mode           = card.getMode();
+        this.flavor         = card.getFlavor();
+    }
+    
+    
 
     public int getCardIndex() {
         return cardIndex;

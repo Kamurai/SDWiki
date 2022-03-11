@@ -2,10 +2,13 @@ package SDE.Bean;
 
 import javax.faces.bean.ManagedBean;
 import javax.faces.bean.RequestScoped;
-import Main.Universal;
-import SDE.Equipment;
+
 import java.util.ArrayList;
 import java.util.List;
+
+import Main.Universal;
+import SDE.*;
+import Database.SDE.*;
 
 @ManagedBean(name="SDELootBean")
 @RequestScoped
@@ -30,9 +33,9 @@ public class LootBean extends EquipmentBean{
         String path = uni.getAppPath()+link;
         
         if(path.compareTo("") != 0){
-            this.equipment   = oneDAO.pullOneEquipment(path);
+            this.equipment   = SDEDAOOne.pullOneEquipment(path);
         }
-        this.equipmentList  = navDAO.pullNavigationForLoot();
+        this.equipmentList  = SDEDAONavigation.pullNavigationForLoot();
         
         return "./Layout.xhtml";
     }
@@ -41,9 +44,9 @@ public class LootBean extends EquipmentBean{
         String path = uni.getAppPath()+link;
         
         if(path.compareTo("") != 0){
-            this.equipment   = oneDAO.pullOneEquipment(path);
+            this.equipment   = SDEDAOOne.pullOneEquipment(path);
         }
-        this.equipmentList  = navDAO.pullNavigationForLoot(version);
+        this.equipmentList  = SDEDAONavigation.pullNavigationForLoot(version);
         
         return "./Layout.xhtml";
     }

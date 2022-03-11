@@ -2,11 +2,13 @@ package SDE.Bean;
 
 import javax.faces.bean.ManagedBean;
 import javax.faces.bean.RequestScoped;
-import Main.Universal;
-import SDE.TerrainCard;
-import SDE.UtilityCard;
+
 import java.util.ArrayList;
 import java.util.List;
+
+import Main.Universal;
+import SDE.*;
+import Database.SDE.*;
 
 @ManagedBean(name="SDETerrainBean")
 @RequestScoped
@@ -31,9 +33,9 @@ public class TerrainBean extends CardBean{
         String path = uni.getAppPath()+link;
         
         if(path.compareTo("") != 0){
-            this.terrainCard  = oneDAO.pullOneTerrainCard(path);
+            this.terrainCard  = SDEDAOOne.pullOneTerrainCard(path);
         }
-        this.terrainCardList  = navDAO.pullNavigationForTerrainCards(terrainCard.getVersion());
+        this.terrainCardList  = SDEDAONavigation.pullNavigationForTerrainCards(terrainCard.getVersion());
         
         return "./Layout.xhtml";
     }

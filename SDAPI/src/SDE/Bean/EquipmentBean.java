@@ -2,10 +2,13 @@ package SDE.Bean;
 
 import javax.faces.bean.ManagedBean;
 import javax.faces.bean.RequestScoped;
-import Main.Universal;
-import SDE.Equipment;
+
 import java.util.ArrayList;
 import java.util.List;
+
+import Main.Universal;
+import SDE.*;
+import Database.SDE.*;
 
 @ManagedBean(name="SDEEquipmentBean")
 @RequestScoped
@@ -30,15 +33,15 @@ public class EquipmentBean extends CardBean{
         String path = uni.getAppPath()+link;
         
         if(path.compareTo("") != 0){
-            this.equipment   = oneDAO.pullOneEquipment(path);
+            this.equipment   = SDEDAOOne.pullOneEquipment(path);
         }
         
         if(this.equipment.getCardType().compareTo("Loot") == 0){
-            this.equipmentList  = navDAO.pullNavigationForLoot(this.equipment.getVersion());
+            this.equipmentList  = SDEDAONavigation.pullNavigationForLoot(this.equipment.getVersion());
         }else if(this.equipment.getCardType().compareTo("Treasure") == 0){
-            this.equipmentList  = navDAO.pullNavigationForTreasure(this.equipment.getVersion());
+            this.equipmentList  = SDEDAONavigation.pullNavigationForTreasure(this.equipment.getVersion());
         }else{
-            this.equipmentList  = navDAO.pullNavigationForEquipment(this.equipment.getVersion());
+            this.equipmentList  = SDEDAONavigation.pullNavigationForEquipment(this.equipment.getVersion());
         }
         
         return "./Layout.xhtml";

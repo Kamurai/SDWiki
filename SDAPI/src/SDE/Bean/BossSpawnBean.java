@@ -2,10 +2,13 @@ package SDE.Bean;
 
 import javax.faces.bean.ManagedBean;
 import javax.faces.bean.RequestScoped;
-import Main.Universal;
-import SDE.BossSpawn;
+
 import java.util.ArrayList;
 import java.util.List;
+
+import Main.Universal;
+import SDE.*;
+import Database.SDE.*;
 
 @ManagedBean(name="SDEBossSpawnBean")
 @RequestScoped
@@ -29,9 +32,9 @@ public class BossSpawnBean extends CardBean{
         String path = uni.getAppPath()+link;
         
         if(path.compareTo("") != 0){
-            this.bossSpawn  = oneDAO.pullOneBossSpawnCard(path);
+            this.bossSpawn  = SDEDAOOne.pullOneBossSpawnCard(path);
         }
-        this.bossSpawnList  = navDAO.pullNavigationForBossSpawns();
+        this.bossSpawnList  = SDEDAONavigation.pullNavigationForBossSpawns();
         
         return "./Layout.xhtml";
     }
@@ -40,9 +43,9 @@ public class BossSpawnBean extends CardBean{
         String path = uni.getAppPath()+link;
         
         if(path.compareTo("") != 0){
-            this.bossSpawn   = oneDAO.pullOneBossSpawnCard(path);
+            this.bossSpawn   = SDEDAOOne.pullOneBossSpawnCard(path);
         }
-//        this.bossSpawnList  = navDAO.pullNavigationForBossSpawns(version);
+//        this.bossSpawnList  = SDEDAONavigation.pullNavigationForBossSpawns(version);
         
         return "./Layout.xhtml";
     }

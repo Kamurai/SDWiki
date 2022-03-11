@@ -3,9 +3,11 @@ package SDE.Bean;
 import javax.faces.bean.ManagedBean;
 import javax.faces.bean.RequestScoped;
 
-import SDE.NavItem;
 import java.util.ArrayList;
 import java.util.List;
+
+import SDE.*;
+import Database.SDE.*;
 
 @ManagedBean(name="SDECardBean")
 @RequestScoped
@@ -38,75 +40,75 @@ public class CardBean extends SDE.Bean.Bean{
         if(type.compareTo("Heroes") == 0){
             this.title      = "Heroes";
             this.header     = "Heroes";
-            this.cardList   = navDAO.pullNavigationForHeroes();
+            this.cardList   = SDEDAONavigation.pullNavigationForHeroes();
         }else if(type.compareTo("Bosses") == 0){
             this.title      = "Bosses";
             this.header     = "Bosses";
-            this.cardList   = navDAO.pullNavigationForBosses();
+            this.cardList   = SDEDAONavigation.pullNavigationForBosses();
         }else if(type.compareTo("MiniBosses") == 0){
             this.title      = "MiniBosses";
             this.header     = "MiniBosses";
-            this.cardList   = navDAO.pullNavigationForMiniBosses();
+            this.cardList   = SDEDAONavigation.pullNavigationForMiniBosses();
         }else if(type.compareTo("Booty") == 0){
             this.title      = "Booty";
             this.header     = "Booty";
-            this.cardList   = navDAO.pullNavigationForBooty();
+            this.cardList   = SDEDAONavigation.pullNavigationForBooty();
         }else if(type.compareTo("Pets") == 0){
             this.title      = "Pets";
             this.header     = "Pets";
-            this.cardList   = navDAO.pullNavigationForPets();
+            this.cardList   = SDEDAONavigation.pullNavigationForPets();
         }else if(type.compareTo("Creeps") == 0){
             this.title      = "Creeps";
             this.header     = "Creeps";
-            this.cardList   = navDAO.pullNavigationForCreeps();
+            this.cardList   = SDEDAONavigation.pullNavigationForCreeps();
         }else if(type.compareTo("Warbands") == 0){
             this.title      = "Warband Monsters";
             this.header     = "Warband Monsters";
-            this.cardList   = navDAO.pullNavigationForWarbands();
+            this.cardList   = SDEDAONavigation.pullNavigationForWarbands();
         }else if(type.compareTo("Loot") == 0){
             this.title      = "Loot";
             this.header     = "Loot";
-            this.cardList   = navDAO.pullNavigationForLoot();
+            this.cardList   = SDEDAONavigation.pullNavigationForLoot();
         }else if(type.compareTo("Treasure") == 0){
             this.title      = "Treasure";
             this.header     = "Treasure";
-            this.cardList   = navDAO.pullNavigationForTreasure();
+            this.cardList   = SDEDAONavigation.pullNavigationForTreasure();
         }else if(type.compareTo("Relics") == 0){
             this.title      = "Relics";
             this.header     = "Relics";
-            this.cardList   = navDAO.pullNavigationForRelics();
+            this.cardList   = SDEDAONavigation.pullNavigationForRelics();
         }else if(type.compareTo("Boss_Spawns") == 0){
             this.title      = "Boss_Spawns";
             this.header     = "Boss_Spawns";
-            this.cardList   = navDAO.pullNavigationForBossSpawns();
+            this.cardList   = SDEDAONavigation.pullNavigationForBossSpawns();
         }else if(type.compareTo("Utility_Cards") == 0){
             this.title      = "Utility_Cards";
             this.header     = "Utility_Cards";
-            this.cardList  = navDAO.pullNavigationForUtilities();
+            this.cardList  = SDEDAONavigation.pullNavigationForUtilities();
         }else if(type.compareTo("Terrain_Cards") == 0){
             this.title      = "Terrain_Cards";
             this.header     = "Terrain_Cards";
-            this.cardList   = navDAO.pullNavigationForTerrainCards();
+            this.cardList   = SDEDAONavigation.pullNavigationForTerrainCards();
         }else if(type.compareTo("Arcade_Plot_Cards") == 0){
             this.title      = "Arcade_Plot_Cards";
             this.header     = "Arcade_Plot_Cards";
-            this.cardList   = navDAO.pullNavigationForArcadePlotCards();
+            this.cardList   = SDEDAONavigation.pullNavigationForArcadePlotCards();
         }else if(type.compareTo("Explore_Cards") == 0){
             this.title      = "Explore_Cards";
             this.header     = "Explore_Cards";
-            this.cardList   = navDAO.pullNavigationForExploreCards();
+            this.cardList   = SDEDAONavigation.pullNavigationForExploreCards();
         }else if(type.compareTo("Explore_Plot_Cards") == 0){
             this.title      = "Explore_Plot_Cards";
             this.header     = "Explore_Plot_Cards";
-            this.cardList   = navDAO.pullNavigationForExplorePlotCards();
+            this.cardList   = SDEDAONavigation.pullNavigationForExplorePlotCards();
         }else if(type.compareTo("Challenge_Cards") == 0){
             this.title      = "Challenge_Cards";
             this.header     = "Challenge_Cards";
-            this.cardList   = navDAO.pullNavigationForChallengeCards();
+            this.cardList   = SDEDAONavigation.pullNavigationForChallengeCards();
         }else if(type.compareTo("Mighty_Monster_Cards") == 0){
             this.title      = "Mighty_Monster_Cards";
             this.header     = "Mighty_Monster_Cards";
-            this.cardList   = navDAO.pullNavigationForMightyMonsterCards();
+            this.cardList   = SDEDAONavigation.pullNavigationForMightyMonsterCards();
         }
         
         return "./Layout.xhtml";
@@ -117,75 +119,75 @@ public class CardBean extends SDE.Bean.Bean{
         if(type.compareTo("Heroes") == 0){
             this.title      = "Heroes";
             this.header     = "Heroes";
-            this.cardList   = navDAO.pullNavigationForHeroesByProductSet(version);
+            this.cardList   = SDEDAONavigation.pullNavigationForHeroesByProductSet(version);
         }else if(type.compareTo("Bosses") == 0){
             this.title      = "Bosses";
             this.header     = "Bosses";
-            this.cardList   = navDAO.pullNavigationForBossesByProductSet(version);
+            this.cardList   = SDEDAONavigation.pullNavigationForBossesByProductSet(version);
         }else if(type.compareTo("MiniBosses") == 0){
             this.title      = "MiniBosses";
             this.header     = "MiniBosses";
-            this.cardList   = navDAO.pullNavigationForMiniBossesByProductSet(version);
+            this.cardList   = SDEDAONavigation.pullNavigationForMiniBossesByProductSet(version);
         }else if(type.compareTo("Booty") == 0){
             this.title      = "Booty";
             this.header     = "Booty";
-            this.cardList   = navDAO.pullNavigationForBootyByProductSet(version);
+            this.cardList   = SDEDAONavigation.pullNavigationForBootyByProductSet(version);
         }else if(type.compareTo("Pets") == 0){
             this.title      = "Pets";
             this.header     = "Pets";
-            this.cardList   = navDAO.pullNavigationForPets(version);
+            this.cardList   = SDEDAONavigation.pullNavigationForPets(version);
         }else if(type.compareTo("Creeps") == 0){
             this.title      = "Creeps";
             this.header     = "Creeps";
-            this.cardList   = navDAO.pullNavigationForCreepsbyProductSet(version);
+            this.cardList   = SDEDAONavigation.pullNavigationForCreepsbyProductSet(version);
         }else if(type.compareTo("Warbands") == 0){
             this.title      = "Warbands";
             this.header     = "Warbands";
-            this.cardList   = navDAO.pullNavigationForWarbandsByProductSet(version);
+            this.cardList   = SDEDAONavigation.pullNavigationForWarbandsByProductSet(version);
         }else if(type.compareTo("Loot") == 0){
             this.title      = "Loot";
             this.header     = "Loot";
-            this.cardList   = navDAO.pullNavigationForLoot(version);
+            this.cardList   = SDEDAONavigation.pullNavigationForLoot(version);
         }else if(type.compareTo("Treasure") == 0){
             this.title      = "Treasure";
             this.header     = "Treasure";
-            this.cardList   = navDAO.pullNavigationForTreasure(version);
+            this.cardList   = SDEDAONavigation.pullNavigationForTreasure(version);
         }else if(type.compareTo("Relics") == 0){
             this.title      = "Relics";
             this.header     = "Relics";
-            this.cardList   = navDAO.pullNavigationForRelics(version);
+            this.cardList   = SDEDAONavigation.pullNavigationForRelics(version);
         }else if(type.compareTo("Boss_Spawns") == 0){
             this.title      = "Boss_Spawns";
             this.header     = "Boss_Spawns";
-            this.cardList   = navDAO.pullNavigationForBossSpawns(version);
+            this.cardList   = SDEDAONavigation.pullNavigationForBossSpawns(version);
         }else if(type.compareTo("Utility_Cards") == 0){
             this.title      = "Utility_Cards";
             this.header     = "Utility_Cards";
-            this.cardList  = navDAO.pullNavigationForUtilitiesByProductSet(version);
+            this.cardList  = SDEDAONavigation.pullNavigationForUtilitiesByProductSet(version);
         }else if(type.compareTo("Terrain_Cards") == 0){
             this.title      = "Terrain_Cards";
             this.header     = "Terrain_Cards";
-            this.cardList   = navDAO.pullNavigationForTerrainCards(version);
+            this.cardList   = SDEDAONavigation.pullNavigationForTerrainCards(version);
         }else if(type.compareTo("Arcade_Plot_Cards") == 0){
             this.title      = "Arcade_Plot_Cards";
             this.header     = "Arcade_Plot_Cards";
-            this.cardList   = navDAO.pullNavigationForArcadePlotCards(version);
+            this.cardList   = SDEDAONavigation.pullNavigationForArcadePlotCards(version);
         }else if(type.compareTo("Explore_Cards") == 0){
             this.title      = "Explore_Cards";
             this.header     = "Explore_Cards";
-            this.cardList   = navDAO.pullNavigationForExploreCards(version);
+            this.cardList   = SDEDAONavigation.pullNavigationForExploreCards(version);
         }else if(type.compareTo("Explore_Plot_Cards") == 0){
             this.title      = "Explore_Plot_Cards";
             this.header     = "Explore_Plot_Cards";
-            this.cardList   = navDAO.pullNavigationForExplorePlotCards(version);
+            this.cardList   = SDEDAONavigation.pullNavigationForExplorePlotCards(version);
         }else if(type.compareTo("Challenge_Cards") == 0){
             this.title      = "Challenge_Cards";
             this.header     = "Challenge_Cards";
-            this.cardList   = navDAO.pullNavigationForChallengeCards(version);
+            this.cardList   = SDEDAONavigation.pullNavigationForChallengeCards(version);
         }else if(type.compareTo("Mighty_Monster_Cards") == 0){
             this.title      = "Mighty_Monster_Cards";
             this.header     = "Mighty_Monster_Cards";
-            this.cardList   = navDAO.pullNavigationForMightyMonsterCards(version);
+            this.cardList   = SDEDAONavigation.pullNavigationForMightyMonsterCards(version);
         }
         
         return "./Layout.xhtml";
@@ -197,166 +199,166 @@ public class CardBean extends SDE.Bean.Bean{
             this.title      = "Heroes";
             this.header     = "Heroes";
             if(version.compareTo("FK") == 0 || version.compareTo("FK SDArena") == 0 || version.compareTo("2.0") == 0 || version.compareTo("1.0") == 0){
-                this.cardList   = navDAO.pullNavigationForHeroesByProductSet(version);
+                this.cardList   = SDEDAONavigation.pullNavigationForHeroesByProductSet(version);
             }else{
-                this.cardList   = navDAO.pullNavigationForHeroes();
+                this.cardList   = SDEDAONavigation.pullNavigationForHeroes();
             }
         }else if(type.compareTo("Bosses") == 0){
             this.title      = "Bosses";
             this.header     = "Bosses";
             if(version.compareTo("1.0") == 0){
-                this.cardList   = navDAO.pullNavigationForBossesByProductSet(version);
+                this.cardList   = SDEDAONavigation.pullNavigationForBossesByProductSet(version);
             }else if(version.compareTo("All") == 0 || version.compareTo("FK") == 0 || version.compareTo("2.0") == 0){
-                this.cardList   = navDAO.pullNavigationForBossesAllOrByProductSet(version, playMode);
+                this.cardList   = SDEDAONavigation.pullNavigationForBossesAllOrByProductSet(version, playMode);
             }else{
-                this.cardList   = navDAO.pullNavigationForBosses();
+                this.cardList   = SDEDAONavigation.pullNavigationForBosses();
             }
         }else if(type.compareTo("MiniBosses") == 0){
             this.title      = "MiniBosses";
             this.header     = "MiniBosses";
             if(version.compareTo("1.0") == 0){
-                this.cardList   = navDAO.pullNavigationForMiniBossesByProductSet(version);
+                this.cardList   = SDEDAONavigation.pullNavigationForMiniBossesByProductSet(version);
             }else if(version.compareTo("All") == 0 || version.compareTo("FK") == 0 || version.compareTo("2.0") == 0){
-                this.cardList   = navDAO.pullNavigationForMiniBossesAllOrByProductSet(version, playMode);
+                this.cardList   = SDEDAONavigation.pullNavigationForMiniBossesAllOrByProductSet(version, playMode);
             }else{
-                this.cardList   = navDAO.pullNavigationForMiniBosses();
+                this.cardList   = SDEDAONavigation.pullNavigationForMiniBosses();
             }
         }else if(type.compareTo("Booty") == 0){
             this.title      = "Booty";
             this.header     = "Booty";
             if(version.compareTo("1.0") == 0){
-                this.cardList   = navDAO.pullNavigationForBootyByProductSet(version);
+                this.cardList   = SDEDAONavigation.pullNavigationForBootyByProductSet(version);
             }else if(version.compareTo("All") == 0 || version.compareTo("FK") == 0 || version.compareTo("2.0") == 0){
-                this.cardList   = navDAO.pullNavigationForBootyAllOrByProductSet(version, playMode);
+                this.cardList   = SDEDAONavigation.pullNavigationForBootyAllOrByProductSet(version, playMode);
             }else{
-                this.cardList   = navDAO.pullNavigationForBooty();
+                this.cardList   = SDEDAONavigation.pullNavigationForBooty();
             }
         }else if(type.compareTo("Pets") == 0){
             this.title      = "Pets";
             this.header     = "Pets";
             if(version.compareTo("FK") == 0 || version.compareTo("2.0") == 0 || version.compareTo("1.0") == 0){
-                this.cardList   = navDAO.pullNavigationForPets(version);
+                this.cardList   = SDEDAONavigation.pullNavigationForPets(version);
             }else{
-                this.cardList   = navDAO.pullNavigationForPets();
+                this.cardList   = SDEDAONavigation.pullNavigationForPets();
             }
         }else if(type.compareTo("Creeps") == 0){
             this.title      = "Creeps";
             this.header     = "Creeps";
             if(version.compareTo("1.0") == 0){
-                this.cardList   = navDAO.pullNavigationForCreepsbyProductSet(version);
+                this.cardList   = SDEDAONavigation.pullNavigationForCreepsbyProductSet(version);
             }else if(version.compareTo("All") == 0 || version.compareTo("FK") == 0 || version.compareTo("2.0") == 0){
-                this.cardList   = navDAO.pullNavigationForCreepsAllOrByProductSet(version, playMode);
+                this.cardList   = SDEDAONavigation.pullNavigationForCreepsAllOrByProductSet(version, playMode);
             }else{
-                this.cardList   = navDAO.pullNavigationForCreeps();
+                this.cardList   = SDEDAONavigation.pullNavigationForCreeps();
             }
         }else if(type.compareTo("Warbands") == 0){
             this.title      = "Warbands";
             this.header     = "Warbands";
             if(version.compareTo("1.0") == 0){
-                this.cardList   = navDAO.pullNavigationForWarbandsByProductSet(version);
+                this.cardList   = SDEDAONavigation.pullNavigationForWarbandsByProductSet(version);
             }else if(version.compareTo("All") == 0 || version.compareTo("FK") == 0 || version.compareTo("2.0") == 0){
-                this.cardList   = navDAO.pullNavigationForWarbandsAllOrByProductSet(version, playMode);
+                this.cardList   = SDEDAONavigation.pullNavigationForWarbandsAllOrByProductSet(version, playMode);
             }else{
-                this.cardList   = navDAO.pullNavigationForWarbands();
+                this.cardList   = SDEDAONavigation.pullNavigationForWarbands();
             }
         }else if(type.compareTo("Utility_Cards") == 0){
             this.title      = "Utility_Cards";
             this.header     = "Utility_Cards";
             if(version.compareTo("1.0") == 0){
-                this.cardList   = navDAO.pullNavigationForUtilitiesByProductSet(version);
+                this.cardList   = SDEDAONavigation.pullNavigationForUtilitiesByProductSet(version);
             }else if(version.compareTo("All") == 0 || version.compareTo("FK") == 0 || version.compareTo("2.0") == 0){
-                this.cardList   = navDAO.pullNavigationForUtilitiesAllOrByProductSetAndPlayMode(version, playMode);
+                this.cardList   = SDEDAONavigation.pullNavigationForUtilitiesAllOrByProductSetAndPlayMode(version, playMode);
             }else{
-                this.cardList   = navDAO.pullNavigationForUtilities();
+                this.cardList   = SDEDAONavigation.pullNavigationForUtilities();
             }
         }else if(type.compareTo("Loot") == 0){
             this.title      = "Loot";
             this.header     = "Loot";
             if(version.compareTo("FK") == 0 || version.compareTo("FK SDArena") == 0 || version.compareTo("2.0") == 0 || version.compareTo("1.0") == 0){
-                this.cardList   = navDAO.pullNavigationForLoot(version);
+                this.cardList   = SDEDAONavigation.pullNavigationForLoot(version);
             }else{
-                this.cardList   = navDAO.pullNavigationForLoot();
+                this.cardList   = SDEDAONavigation.pullNavigationForLoot();
             }
             
         }else if(type.compareTo("Treasure") == 0){
             this.title      = "Treasure";
             this.header     = "Treasure";
             if(version.compareTo("FK") == 0 || version.compareTo("FK SDArena") == 0 || version.compareTo("2.0") == 0 || version.compareTo("1.0") == 0){
-                this.cardList   = navDAO.pullNavigationForTreasure(version);
+                this.cardList   = SDEDAONavigation.pullNavigationForTreasure(version);
             }else{
-                this.cardList   = navDAO.pullNavigationForTreasure();
+                this.cardList   = SDEDAONavigation.pullNavigationForTreasure();
             }
             
         }else if(type.compareTo("Relics") == 0){
             this.title      = "Relics";
             this.header     = "Relics";
             if(version.compareTo("FK") == 0 || version.compareTo("2.0") == 0 || version.compareTo("1.0") == 0){
-                this.cardList   = navDAO.pullNavigationForRelics(version);
+                this.cardList   = SDEDAONavigation.pullNavigationForRelics(version);
             }else{
-                this.cardList   = navDAO.pullNavigationForRelics();
+                this.cardList   = SDEDAONavigation.pullNavigationForRelics();
             }
             
         }else if(type.compareTo("Boss_Spawns") == 0){
             this.title      = "Boss_Spawns";
             this.header     = "Boss_Spawns";
             if(version.compareTo("FK") == 0 || version.compareTo("2.0") == 0 || version.compareTo("1.0") == 0){
-                this.cardList   = navDAO.pullNavigationForBossSpawns(version);
+                this.cardList   = SDEDAONavigation.pullNavigationForBossSpawns(version);
             }else{
-                this.cardList   = navDAO.pullNavigationForBossSpawns();
+                this.cardList   = SDEDAONavigation.pullNavigationForBossSpawns();
             }
             
         }else if(type.compareTo("Terrain_Cards") == 0){
             this.title      = "Terrain_Cards";
             this.header     = "Terrain_Cards";
             if(version.compareTo("FK") == 0 || version.compareTo("2.0") == 0 || version.compareTo("1.0") == 0){
-                this.cardList   = navDAO.pullNavigationForTerrainCards(version);
+                this.cardList   = SDEDAONavigation.pullNavigationForTerrainCards(version);
             }else{
-                this.cardList   = navDAO.pullNavigationForTerrainCards();
+                this.cardList   = SDEDAONavigation.pullNavigationForTerrainCards();
             }
             
         }else if(type.compareTo("Arcade_Plot_Cards") == 0){
             this.title      = "Arcade_Plot_Cards";
             this.header     = "Arcade_Plot_Cards";
             if(version.compareTo("FK") == 0 || version.compareTo("2.0") == 0 || version.compareTo("1.0") == 0){
-                this.cardList   = navDAO.pullNavigationForArcadePlotCards(version);
+                this.cardList   = SDEDAONavigation.pullNavigationForArcadePlotCards(version);
             }else{
-                this.cardList   = navDAO.pullNavigationForArcadePlotCards();
+                this.cardList   = SDEDAONavigation.pullNavigationForArcadePlotCards();
             }
             
         }else if(type.compareTo("Explore_Cards") == 0){
             this.title      = "Explore_Cards";
             this.header     = "Explore_Cards";
             if(version.compareTo("FK") == 0 || version.compareTo("2.0") == 0 || version.compareTo("1.0") == 0){
-                this.cardList   = navDAO.pullNavigationForExploreCards(version);
+                this.cardList   = SDEDAONavigation.pullNavigationForExploreCards(version);
             }else{
-                this.cardList   = navDAO.pullNavigationForExploreCards();
+                this.cardList   = SDEDAONavigation.pullNavigationForExploreCards();
             }
             
         }else if(type.compareTo("Explore_Plot_Cards") == 0){
             this.title      = "Explore_Plot_Cards";
             this.header     = "Explore_Plot_Cards";
             if(version.compareTo("FK") == 0 || version.compareTo("2.0") == 0 || version.compareTo("1.0") == 0){
-                this.cardList   = navDAO.pullNavigationForExplorePlotCards(version);
+                this.cardList   = SDEDAONavigation.pullNavigationForExplorePlotCards(version);
             }else{
-                this.cardList   = navDAO.pullNavigationForExplorePlotCards();
+                this.cardList   = SDEDAONavigation.pullNavigationForExplorePlotCards();
             }
             
         }else if(type.compareTo("Challenge_Cards") == 0){
             this.title      = "Challenge_Cards";
             this.header     = "Challenge_Cards";
             if(version.compareTo("FK") == 0 || version.compareTo("2.0") == 0 || version.compareTo("1.0") == 0){
-                this.cardList   = navDAO.pullNavigationForChallengeCards(version);
+                this.cardList   = SDEDAONavigation.pullNavigationForChallengeCards(version);
             }else{
-                this.cardList   = navDAO.pullNavigationForChallengeCards();
+                this.cardList   = SDEDAONavigation.pullNavigationForChallengeCards();
             }
             
         }else if(type.compareTo("Mighty_Monster_Cards") == 0){
             this.title      = "Mighty_Monster_Cards";
             this.header     = "Mighty_Monster_Cards";
             if(version.compareTo("FK") == 0 || version.compareTo("2.0") == 0 || version.compareTo("1.0") == 0){
-                this.cardList   = navDAO.pullNavigationForMightyMonsterCards(version);
+                this.cardList   = SDEDAONavigation.pullNavigationForMightyMonsterCards(version);
             }else{
-                this.cardList   = navDAO.pullNavigationForMightyMonsterCards();
+                this.cardList   = SDEDAONavigation.pullNavigationForMightyMonsterCards();
             }
             
         }
