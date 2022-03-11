@@ -12,7 +12,7 @@ public class SDEDAONavigation extends SDEDAO{
     }
     
     //Pull Navigation for Heroes
-    public ArrayList<SDE.NavItem> pullNavigationForHeroes(){
+    public static ArrayList<SDE.NavItem> pullNavigationForHeroes(){
         CallableStatement stmt = null;
         ResultSet rs;
         ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
@@ -33,7 +33,7 @@ public class SDEDAONavigation extends SDEDAO{
         return result;
     }
     
-    public ArrayList<SDE.NavItem> pullNavigationForHeroesByProductSet(String version){
+    public static ArrayList<SDE.NavItem> pullNavigationForHeroesByProductSet(String version){
         CallableStatement stmt = null;
         ResultSet rs;
         ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
@@ -56,7 +56,7 @@ public class SDEDAONavigation extends SDEDAO{
     }
     
     //Pull Navigation for Pets
-    public ArrayList<SDE.NavItem> pullNavigationForPets(){
+    public static ArrayList<SDE.NavItem> pullNavigationForPets(){
         CallableStatement stmt = null;
         ResultSet rs;
         ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
@@ -77,7 +77,7 @@ public class SDEDAONavigation extends SDEDAO{
         return result;
     }
      
-    public ArrayList<SDE.NavItem> pullNavigationForPets(String version){
+    public static ArrayList<SDE.NavItem> pullNavigationForPets(String version){
         CallableStatement stmt = null;
         ResultSet rs;
         ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
@@ -100,7 +100,7 @@ public class SDEDAONavigation extends SDEDAO{
     }
      
     //Pull Navigation for Booty
-    public ArrayList<SDE.NavItem> pullNavigationForBooty(){
+    public static ArrayList<SDE.NavItem> pullNavigationForBooty(){
         CallableStatement stmt = null;
         ResultSet rs;
         ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
@@ -121,7 +121,7 @@ public class SDEDAONavigation extends SDEDAO{
         return result;
     }
     
-    public ArrayList<SDE.NavItem> pullNavigationForBootyByProductSet(String version){
+    public static ArrayList<SDE.NavItem> pullNavigationForBootyByProductSet(String version){
         CallableStatement stmt = null;
         ResultSet rs;
         ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
@@ -143,7 +143,7 @@ public class SDEDAONavigation extends SDEDAO{
         return result;
     }
     
-    public ArrayList<SDE.NavItem> pullNavigationForBootyAllOrByProductSet(String version, String playMode){
+    public static ArrayList<SDE.NavItem> pullNavigationForBootyAllOrByProductSet(String version, String playMode){
         ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
         
         if(version.compareTo("All") == 0){
@@ -155,7 +155,7 @@ public class SDEDAONavigation extends SDEDAO{
         return result;
     }
     
-    private ArrayList<SDE.NavItem> pullNavigationForBootyByProductSetAndPlayMode(String version, String playMode){
+    private static ArrayList<SDE.NavItem> pullNavigationForBootyByProductSetAndPlayMode(String version, String playMode){
         CallableStatement stmt = null;
         ResultSet rs;
         ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
@@ -178,7 +178,7 @@ public class SDEDAONavigation extends SDEDAO{
         return result;
     }
     
-    private ArrayList<SDE.NavItem> pullNavigationForBootyByPlayMode(String playMode){
+    private static ArrayList<SDE.NavItem> pullNavigationForBootyByPlayMode(String playMode){
         CallableStatement stmt = null;
         ResultSet rs;
         ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
@@ -201,7 +201,7 @@ public class SDEDAONavigation extends SDEDAO{
     }
     
     //Pull Navigation for Creeps
-    public ArrayList<SDE.NavItem> pullNavigationForCreeps(){
+    public static ArrayList<SDE.NavItem> pullNavigationForCreeps(){
         CallableStatement stmt = null;
         ResultSet rs;
         ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
@@ -222,7 +222,7 @@ public class SDEDAONavigation extends SDEDAO{
         return result;
     }
       
-    public ArrayList<SDE.NavItem> pullNavigationForCreepsbyProductSet(String version){
+    public static ArrayList<SDE.NavItem> pullNavigationForCreepsbyProductSet(String version){
         CallableStatement stmt = null;
         ResultSet rs;
         ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
@@ -244,7 +244,7 @@ public class SDEDAONavigation extends SDEDAO{
         return result;
     }
       
-    public ArrayList<SDE.NavItem> pullNavigationForCreepsAllOrByProductSet(String version, String playMode){
+    public static ArrayList<SDE.NavItem> pullNavigationForCreepsAllOrByProductSet(String version, String playMode){
         ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
         
         if(version.compareTo("All") == 0){
@@ -256,7 +256,7 @@ public class SDEDAONavigation extends SDEDAO{
         return result;
     }
     
-    private ArrayList<SDE.NavItem> pullNavigationForCreepsByProductSetAndPlayMode(String version, String playMode){
+    private static ArrayList<SDE.NavItem> pullNavigationForCreepsByProductSetAndPlayMode(String version, String playMode){
         CallableStatement stmt = null;
         ResultSet rs;
         ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
@@ -279,7 +279,7 @@ public class SDEDAONavigation extends SDEDAO{
         return result;
     }
     
-    private ArrayList<SDE.NavItem> pullNavigationForCreepsByPlayMode(String playMode){
+    private static ArrayList<SDE.NavItem> pullNavigationForCreepsByPlayMode(String playMode){
         CallableStatement stmt = null;
         ResultSet rs;
         ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
@@ -302,7 +302,7 @@ public class SDEDAONavigation extends SDEDAO{
     }
       
     //Pull Navigation for Elites
-    public ArrayList<SDE.NavItem> pullNavigationForElites(){
+    public static ArrayList<SDE.NavItem> pullNavigationForElites(){
         CallableStatement stmt = null;
         ResultSet rs;
         ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
@@ -323,7 +323,7 @@ public class SDEDAONavigation extends SDEDAO{
         return result;
     }
     
-    public ArrayList<SDE.NavItem> pullNavigationForElites(String version){
+    public static ArrayList<SDE.NavItem> pullNavigationForElites(String version){
         CallableStatement stmt = null;
         ResultSet rs;
         ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
@@ -345,7 +345,7 @@ public class SDEDAONavigation extends SDEDAO{
         return result;
     }
     
-    public ArrayList<SDE.NavItem> pullNavigationForElites(String version, String playMode){
+    public static ArrayList<SDE.NavItem> pullNavigationForElites(String version, String playMode){
         CallableStatement stmt = null;
         ResultSet rs;
         ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
@@ -369,7 +369,7 @@ public class SDEDAONavigation extends SDEDAO{
     }
     
     //Pull Navigation for MiniBosses
-    public ArrayList<SDE.NavItem> pullNavigationForMiniBosses(){
+    public static ArrayList<SDE.NavItem> pullNavigationForMiniBosses(){
         CallableStatement stmt = null;
         ResultSet rs;
         ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
@@ -390,7 +390,7 @@ public class SDEDAONavigation extends SDEDAO{
         return result;
     }
     
-    public ArrayList<SDE.NavItem> pullNavigationForMiniBossesByProductSet(String version){
+    public static ArrayList<SDE.NavItem> pullNavigationForMiniBossesByProductSet(String version){
         CallableStatement stmt = null;
         ResultSet rs;
         ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
@@ -412,7 +412,7 @@ public class SDEDAONavigation extends SDEDAO{
         return result;
     }
     
-    public ArrayList<SDE.NavItem> pullNavigationForMiniBossesAllOrByProductSet(String version, String playMode){
+    public static ArrayList<SDE.NavItem> pullNavigationForMiniBossesAllOrByProductSet(String version, String playMode){
         ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
         
         if(version.compareTo("All") == 0){
@@ -424,7 +424,7 @@ public class SDEDAONavigation extends SDEDAO{
         return result;
     }
     
-    private ArrayList<SDE.NavItem> pullNavigationForMiniBossesByProductSetAndPlayMode(String version, String playMode){
+    private static ArrayList<SDE.NavItem> pullNavigationForMiniBossesByProductSetAndPlayMode(String version, String playMode){
         CallableStatement stmt = null;
         ResultSet rs;
         ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
@@ -447,7 +447,7 @@ public class SDEDAONavigation extends SDEDAO{
         return result;
     }
     
-    private ArrayList<SDE.NavItem> pullNavigationForMiniBossesByPlayMode(String playMode){
+    private static ArrayList<SDE.NavItem> pullNavigationForMiniBossesByPlayMode(String playMode){
         CallableStatement stmt = null;
         ResultSet rs;
         ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
@@ -470,7 +470,7 @@ public class SDEDAONavigation extends SDEDAO{
     }
     
     //Pull Navigation for Bosses
-    public ArrayList<SDE.NavItem> pullNavigationForBosses(){
+    public static ArrayList<SDE.NavItem> pullNavigationForBosses(){
         CallableStatement stmt = null;
         ResultSet rs;
         ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
@@ -491,7 +491,7 @@ public class SDEDAONavigation extends SDEDAO{
         return result;
     }
     
-    public ArrayList<SDE.NavItem> pullNavigationForBossesByProductSet(String version){
+    public static ArrayList<SDE.NavItem> pullNavigationForBossesByProductSet(String version){
         CallableStatement stmt = null;
         ResultSet rs;
         ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
@@ -513,7 +513,7 @@ public class SDEDAONavigation extends SDEDAO{
         return result;
     }
     
-    public ArrayList<SDE.NavItem> pullNavigationForBossesAllOrByProductSet(String version, String playMode){
+    public static ArrayList<SDE.NavItem> pullNavigationForBossesAllOrByProductSet(String version, String playMode){
         ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
         
         if(version.compareTo("All") == 0){
@@ -525,7 +525,7 @@ public class SDEDAONavigation extends SDEDAO{
         return result;
     }
     
-    private ArrayList<SDE.NavItem> pullNavigationForBossesByProductSetAndPlayMode(String version, String playMode){
+    private static ArrayList<SDE.NavItem> pullNavigationForBossesByProductSetAndPlayMode(String version, String playMode){
         CallableStatement stmt = null;
         ResultSet rs;
         ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
@@ -548,7 +548,7 @@ public class SDEDAONavigation extends SDEDAO{
         return result;
     }
     
-    private ArrayList<SDE.NavItem> pullNavigationForBossesByPlayMode(String playMode){
+    private static ArrayList<SDE.NavItem> pullNavigationForBossesByPlayMode(String playMode){
         CallableStatement stmt = null;
         ResultSet rs;
         ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
@@ -572,7 +572,7 @@ public class SDEDAONavigation extends SDEDAO{
     }
     
     //Pull Navigation for Minions
-    public ArrayList<SDE.NavItem> pullNavigationForMinions(){
+    public static ArrayList<SDE.NavItem> pullNavigationForMinions(){
         CallableStatement stmt = null;
         ResultSet rs;
         ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
@@ -593,7 +593,7 @@ public class SDEDAONavigation extends SDEDAO{
         return result;
     }
 
-    public ArrayList<SDE.NavItem> pullNavigationForMinions(String version){
+    public static ArrayList<SDE.NavItem> pullNavigationForMinions(String version){
         CallableStatement stmt = null;
         ResultSet rs;
         ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
@@ -615,7 +615,7 @@ public class SDEDAONavigation extends SDEDAO{
         return result;
     }
 
-    public ArrayList<SDE.NavItem> pullNavigationForMinions(String version, String playMode){
+    public static ArrayList<SDE.NavItem> pullNavigationForMinions(String version, String playMode){
         CallableStatement stmt = null;
         ResultSet rs;
         ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
@@ -639,7 +639,7 @@ public class SDEDAONavigation extends SDEDAO{
     }
 
     //Pull Navigation for Spawns
-    public ArrayList<SDE.NavItem> pullNavigationForSpawns(){
+    public static ArrayList<SDE.NavItem> pullNavigationForSpawns(){
         CallableStatement stmt = null;
         ResultSet rs;
         ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
@@ -660,7 +660,7 @@ public class SDEDAONavigation extends SDEDAO{
         return result;
     }
     
-    public ArrayList<SDE.NavItem> pullNavigationForSpawns(String version){
+    public static ArrayList<SDE.NavItem> pullNavigationForSpawns(String version){
         CallableStatement stmt = null;
         ResultSet rs;
         ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
@@ -682,7 +682,7 @@ public class SDEDAONavigation extends SDEDAO{
         return result;
     }
     
-    public ArrayList<SDE.NavItem> pullNavigationForSpawns(String version, String playMode){
+    public static ArrayList<SDE.NavItem> pullNavigationForSpawns(String version, String playMode){
         CallableStatement stmt = null;
         ResultSet rs;
         ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
@@ -706,7 +706,7 @@ public class SDEDAONavigation extends SDEDAO{
     }
     
     //Pull Navigation for Warbands
-    public ArrayList<SDE.NavItem> pullNavigationForWarbands(){
+    public static ArrayList<SDE.NavItem> pullNavigationForWarbands(){
         CallableStatement stmt = null;
         ResultSet rs;
         ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
@@ -727,7 +727,7 @@ public class SDEDAONavigation extends SDEDAO{
         return result;
     }
     
-    public ArrayList<SDE.NavItem> pullNavigationForWarbandsByProductSet(String version){
+    public static ArrayList<SDE.NavItem> pullNavigationForWarbandsByProductSet(String version){
         CallableStatement stmt = null;
         ResultSet rs;
         ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
@@ -749,7 +749,7 @@ public class SDEDAONavigation extends SDEDAO{
         return result;
     }
     
-    public ArrayList<SDE.NavItem> pullNavigationForWarbandsAllOrByProductSet(String version, String playMode){
+    public static ArrayList<SDE.NavItem> pullNavigationForWarbandsAllOrByProductSet(String version, String playMode){
         ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
         
         if(version.compareTo("All") == 0){
@@ -761,7 +761,7 @@ public class SDEDAONavigation extends SDEDAO{
         return result;
     }
     
-    private ArrayList<SDE.NavItem> pullNavigationForWarbandsByProductSetAndPlayMode(String version, String playMode){
+    private static ArrayList<SDE.NavItem> pullNavigationForWarbandsByProductSetAndPlayMode(String version, String playMode){
         CallableStatement stmt = null;
         ResultSet rs;
         ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
@@ -784,7 +784,7 @@ public class SDEDAONavigation extends SDEDAO{
         return result;
     }
     
-    private ArrayList<SDE.NavItem> pullNavigationForWarbandsByPlayMode(String playMode){
+    private static ArrayList<SDE.NavItem> pullNavigationForWarbandsByPlayMode(String playMode){
         CallableStatement stmt = null;
         ResultSet rs;
         ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
@@ -807,7 +807,7 @@ public class SDEDAONavigation extends SDEDAO{
     }
     
     //Pull Navigation for Monsters
-    public ArrayList<SDE.NavItem> pullNavigationForMonsters(){
+    public static ArrayList<SDE.NavItem> pullNavigationForMonsters(){
         CallableStatement stmt = null;
         ResultSet rs;
         ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
@@ -828,7 +828,7 @@ public class SDEDAONavigation extends SDEDAO{
         return result;
     }    
     
-    public ArrayList<SDE.NavItem> pullNavigationForMonsters(String version){
+    public static ArrayList<SDE.NavItem> pullNavigationForMonsters(String version){
         CallableStatement stmt = null;
         ResultSet rs;
         ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
@@ -850,7 +850,7 @@ public class SDEDAONavigation extends SDEDAO{
         return result;
     }    
     
-    public ArrayList<SDE.NavItem> pullNavigationForMonsters(String version, String playMode){
+    public static ArrayList<SDE.NavItem> pullNavigationForMonsters(String version, String playMode){
         CallableStatement stmt = null;
         ResultSet rs;
         ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
@@ -874,7 +874,7 @@ public class SDEDAONavigation extends SDEDAO{
     }    
     
 //    //Pull Navigation for Arcade Booty
-//    public ArrayList<SDE.NavItem> pullNavigationForArcadeBooty(){
+//    public static ArrayList<SDE.NavItem> pullNavigationForArcadeBooty(){
 //        CallableStatement stmt = null;
 //        ResultSet rs;
 //        ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
@@ -895,7 +895,7 @@ public class SDEDAONavigation extends SDEDAO{
 //        return result;
 //    }
 //    
-//    public ArrayList<SDE.NavItem> pullNavigationForArcadeBooty(String version){
+//    public static ArrayList<SDE.NavItem> pullNavigationForArcadeBooty(String version){
 //        CallableStatement stmt = null;
 //        ResultSet rs;
 //        ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
@@ -918,7 +918,7 @@ public class SDEDAONavigation extends SDEDAO{
 //    }
 //    
 //    //Pull Navigation for Arcade Bosses
-//    public ArrayList<SDE.NavItem> pullNavigationForArcadeBosses(){
+//    public static ArrayList<SDE.NavItem> pullNavigationForArcadeBosses(){
 //        CallableStatement stmt = null;
 //        ResultSet rs;
 //        ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
@@ -939,7 +939,7 @@ public class SDEDAONavigation extends SDEDAO{
 //        return result;
 //    }
 //    
-//    public ArrayList<SDE.NavItem> pullNavigationForArcadeBosses(String version){
+//    public static ArrayList<SDE.NavItem> pullNavigationForArcadeBosses(String version){
 //        CallableStatement stmt = null;
 //        ResultSet rs;
 //        ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
@@ -962,7 +962,7 @@ public class SDEDAONavigation extends SDEDAO{
 //    }
 //    
 //    //Pull Navigation for Arcade Creeps
-//    public ArrayList<SDE.NavItem> pullNavigationForArcadeCreeps(){
+//    public static ArrayList<SDE.NavItem> pullNavigationForArcadeCreeps(){
 //        CallableStatement stmt = null;
 //        ResultSet rs;
 //        ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
@@ -983,7 +983,7 @@ public class SDEDAONavigation extends SDEDAO{
 //        return result;
 //    }
 //    
-//    public ArrayList<SDE.NavItem> pullNavigationForArcadeCreeps(String version){
+//    public static ArrayList<SDE.NavItem> pullNavigationForArcadeCreeps(String version){
 //        CallableStatement stmt = null;
 //        ResultSet rs;
 //        ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
@@ -1006,7 +1006,7 @@ public class SDEDAONavigation extends SDEDAO{
 //    }
 //    
 //    //Pull Navigation for Arcade Gangs
-//    public ArrayList<SDE.NavItem> pullNavigationForArcadeGangs(){
+//    public static ArrayList<SDE.NavItem> pullNavigationForArcadeGangs(){
 //        CallableStatement stmt = null;
 //        ResultSet rs;
 //        ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
@@ -1027,7 +1027,7 @@ public class SDEDAONavigation extends SDEDAO{
 //        return result;
 //    }
 //    
-//    public ArrayList<SDE.NavItem> pullNavigationForArcadeGangs(String version){
+//    public static ArrayList<SDE.NavItem> pullNavigationForArcadeGangs(String version){
 //        CallableStatement stmt = null;
 //        ResultSet rs;
 //        ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
@@ -1050,7 +1050,7 @@ public class SDEDAONavigation extends SDEDAO{
 //    }
 //    
 //    //Pull Navigation for Arcade Mini Bosses
-//    public ArrayList<SDE.NavItem> pullNavigationForArcadeMinibosses(){
+//    public static ArrayList<SDE.NavItem> pullNavigationForArcadeMinibosses(){
 //        CallableStatement stmt = null;
 //        ResultSet rs;
 //        ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
@@ -1071,7 +1071,7 @@ public class SDEDAONavigation extends SDEDAO{
 //        return result;
 //    }
 //    
-//    public ArrayList<SDE.NavItem> pullNavigationForArcadeMinibosses(String version){
+//    public static ArrayList<SDE.NavItem> pullNavigationForArcadeMinibosses(String version){
 //        CallableStatement stmt = null;
 //        ResultSet rs;
 //        ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
@@ -1094,7 +1094,7 @@ public class SDEDAONavigation extends SDEDAO{
 //    }
 //    
 //    //Pull Navigation for Arcade Solos
-//    public ArrayList<SDE.NavItem> pullNavigationForArcadeSolos(){
+//    public static ArrayList<SDE.NavItem> pullNavigationForArcadeSolos(){
 //        CallableStatement stmt = null;
 //        ResultSet rs;
 //        ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
@@ -1115,7 +1115,7 @@ public class SDEDAONavigation extends SDEDAO{
 //        return result;
 //    }
 //    
-//    public ArrayList<SDE.NavItem> pullNavigationForArcadeSolos(String version){
+//    public static ArrayList<SDE.NavItem> pullNavigationForArcadeSolos(String version){
 //        CallableStatement stmt = null;
 //        ResultSet rs;
 //        ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
@@ -1138,7 +1138,7 @@ public class SDEDAONavigation extends SDEDAO{
 //    }
     
     //Pull Navigation for Equipment
-    public ArrayList<SDE.NavItem> pullNavigationForEquipment(){
+    public static ArrayList<SDE.NavItem> pullNavigationForEquipment(){
         CallableStatement stmt = null;
         ResultSet rs;
         ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
@@ -1159,7 +1159,7 @@ public class SDEDAONavigation extends SDEDAO{
         return result;
     }
     
-    public ArrayList<SDE.NavItem> pullNavigationForEquipment(String version){
+    public static ArrayList<SDE.NavItem> pullNavigationForEquipment(String version){
         CallableStatement stmt = null;
         ResultSet rs;
         ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
@@ -1182,7 +1182,7 @@ public class SDEDAONavigation extends SDEDAO{
     }
     
     //Pull Navigation for Loot
-    public ArrayList<SDE.NavItem> pullNavigationForLoot(){
+    public static ArrayList<SDE.NavItem> pullNavigationForLoot(){
         CallableStatement stmt = null;
         ResultSet rs;
         ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
@@ -1203,7 +1203,7 @@ public class SDEDAONavigation extends SDEDAO{
         return result;
     }
     
-    public ArrayList<SDE.NavItem> pullNavigationForLoot(String version){
+    public static ArrayList<SDE.NavItem> pullNavigationForLoot(String version){
         CallableStatement stmt = null;
         ResultSet rs;
         ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
@@ -1226,7 +1226,7 @@ public class SDEDAONavigation extends SDEDAO{
     }
     
     //Pull Navigation for Treasure
-    public ArrayList<SDE.NavItem> pullNavigationForTreasure(){
+    public static ArrayList<SDE.NavItem> pullNavigationForTreasure(){
         CallableStatement stmt = null;
         ResultSet rs;
         ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
@@ -1247,7 +1247,7 @@ public class SDEDAONavigation extends SDEDAO{
         return result;
     }
     
-    public ArrayList<SDE.NavItem> pullNavigationForTreasure(String version){
+    public static ArrayList<SDE.NavItem> pullNavigationForTreasure(String version){
         CallableStatement stmt = null;
         ResultSet rs;
         ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
@@ -1270,7 +1270,7 @@ public class SDEDAONavigation extends SDEDAO{
     }
     
     //Pull Navigation for Relic
-    public ArrayList<SDE.NavItem> pullNavigationForRelics(){
+    public static ArrayList<SDE.NavItem> pullNavigationForRelics(){
         CallableStatement stmt = null;
         ResultSet rs;
         ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
@@ -1291,7 +1291,7 @@ public class SDEDAONavigation extends SDEDAO{
         return result;
     }
     
-    public ArrayList<SDE.NavItem> pullNavigationForRelics(String version){
+    public static ArrayList<SDE.NavItem> pullNavigationForRelics(String version){
         CallableStatement stmt = null;
         ResultSet rs;
         ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
@@ -1314,7 +1314,7 @@ public class SDEDAONavigation extends SDEDAO{
     }
     
     //Pull Navigation for Boss Spawns
-    public ArrayList<SDE.NavItem> pullNavigationForBossSpawns(){
+    public static ArrayList<SDE.NavItem> pullNavigationForBossSpawns(){
         CallableStatement stmt = null;
         ResultSet rs;
         ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
@@ -1335,7 +1335,7 @@ public class SDEDAONavigation extends SDEDAO{
         return result;
     }
     
-    public ArrayList<SDE.NavItem> pullNavigationForBossSpawns(String version){
+    public static ArrayList<SDE.NavItem> pullNavigationForBossSpawns(String version){
         CallableStatement stmt = null;
         ResultSet rs;
         ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
@@ -1358,7 +1358,7 @@ public class SDEDAONavigation extends SDEDAO{
     }
     
     //Pull Navigation for Utility Cards
-    public ArrayList<SDE.NavItem> pullNavigationForUtilities(){
+    public static ArrayList<SDE.NavItem> pullNavigationForUtilities(){
         CallableStatement stmt = null;
         ResultSet rs;
         ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
@@ -1379,7 +1379,7 @@ public class SDEDAONavigation extends SDEDAO{
         return result;
     }
     
-    public ArrayList<SDE.NavItem> pullNavigationForUtilitiesByProductSet(String version){
+    public static ArrayList<SDE.NavItem> pullNavigationForUtilitiesByProductSet(String version){
         CallableStatement stmt = null;
         ResultSet rs;
         ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
@@ -1401,7 +1401,7 @@ public class SDEDAONavigation extends SDEDAO{
         return result;
     }
     
-    public ArrayList<SDE.NavItem> pullNavigationForUtilitiesAllOrByProductSetAndPlayMode(String version, String playMode){
+    public static ArrayList<SDE.NavItem> pullNavigationForUtilitiesAllOrByProductSetAndPlayMode(String version, String playMode){
         ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
         
         if(version.compareTo("All") == 0){
@@ -1413,7 +1413,7 @@ public class SDEDAONavigation extends SDEDAO{
         return result;
     }
     
-    private ArrayList<SDE.NavItem> pullNavigationForUtilitiesByProductSetAndPlayMode(String version, String playMode){
+    private static ArrayList<SDE.NavItem> pullNavigationForUtilitiesByProductSetAndPlayMode(String version, String playMode){
         CallableStatement stmt = null;
         ResultSet rs;
         ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
@@ -1436,7 +1436,7 @@ public class SDEDAONavigation extends SDEDAO{
         return result;
     }
     
-    private ArrayList<SDE.NavItem> pullNavigationForUtilitiesByPlayMode(String playMode){
+    private static ArrayList<SDE.NavItem> pullNavigationForUtilitiesByPlayMode(String playMode){
         CallableStatement stmt = null;
         ResultSet rs;
         ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
@@ -1472,7 +1472,7 @@ public class SDEDAONavigation extends SDEDAO{
     
     
     //Pull Navigation for Terrain Cards
-    public ArrayList<SDE.NavItem> pullNavigationForTerrainCards(){
+    public static ArrayList<SDE.NavItem> pullNavigationForTerrainCards(){
         CallableStatement stmt = null;
         ResultSet rs;
         ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
@@ -1493,7 +1493,7 @@ public class SDEDAONavigation extends SDEDAO{
         return result;
     }
     
-    public ArrayList<SDE.NavItem> pullNavigationForTerrainCards(String version){
+    public static ArrayList<SDE.NavItem> pullNavigationForTerrainCards(String version){
         CallableStatement stmt = null;
         ResultSet rs;
         ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
@@ -1516,7 +1516,7 @@ public class SDEDAONavigation extends SDEDAO{
     }
     
     //Pull Navigation for Arcade Plot Cards
-    public ArrayList<SDE.NavItem> pullNavigationForArcadePlotCards(){
+    public static ArrayList<SDE.NavItem> pullNavigationForArcadePlotCards(){
         CallableStatement stmt = null;
         ResultSet rs;
         ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
@@ -1537,7 +1537,7 @@ public class SDEDAONavigation extends SDEDAO{
         return result;
     }
     
-    public ArrayList<SDE.NavItem> pullNavigationForArcadePlotCards(String version){
+    public static ArrayList<SDE.NavItem> pullNavigationForArcadePlotCards(String version){
         CallableStatement stmt = null;
         ResultSet rs;
         ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
@@ -1560,7 +1560,7 @@ public class SDEDAONavigation extends SDEDAO{
     }
     
     //Pull Navigation for Explore Cards
-    public ArrayList<SDE.NavItem> pullNavigationForExploreCards(){
+    public static ArrayList<SDE.NavItem> pullNavigationForExploreCards(){
         CallableStatement stmt = null;
         ResultSet rs;
         ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
@@ -1581,7 +1581,7 @@ public class SDEDAONavigation extends SDEDAO{
         return result;
     }
     
-    public ArrayList<SDE.NavItem> pullNavigationForExploreCards(String version){
+    public static ArrayList<SDE.NavItem> pullNavigationForExploreCards(String version){
         CallableStatement stmt = null;
         ResultSet rs;
         ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
@@ -1604,7 +1604,7 @@ public class SDEDAONavigation extends SDEDAO{
     }
     
     //Pull Navigation for Explore Plot Cards
-    public ArrayList<SDE.NavItem> pullNavigationForExplorePlotCards(){
+    public static ArrayList<SDE.NavItem> pullNavigationForExplorePlotCards(){
         CallableStatement stmt = null;
         ResultSet rs;
         ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
@@ -1625,7 +1625,7 @@ public class SDEDAONavigation extends SDEDAO{
         return result;
     }
 
-    public ArrayList<SDE.NavItem> pullNavigationForExplorePlotCards(String version){
+    public static ArrayList<SDE.NavItem> pullNavigationForExplorePlotCards(String version){
         CallableStatement stmt = null;
         ResultSet rs;
         ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
@@ -1648,7 +1648,7 @@ public class SDEDAONavigation extends SDEDAO{
     }
 
     //Pull Navigation for Challenge Cards
-    public ArrayList<SDE.NavItem> pullNavigationForChallengeCards(){
+    public static ArrayList<SDE.NavItem> pullNavigationForChallengeCards(){
         CallableStatement stmt = null;
         ResultSet rs;
         ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
@@ -1669,7 +1669,7 @@ public class SDEDAONavigation extends SDEDAO{
         return result;
     }
 
-    public ArrayList<SDE.NavItem> pullNavigationForChallengeCards(String version){
+    public static ArrayList<SDE.NavItem> pullNavigationForChallengeCards(String version){
         CallableStatement stmt = null;
         ResultSet rs;
         ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
@@ -1692,7 +1692,7 @@ public class SDEDAONavigation extends SDEDAO{
     }
 
     //Pull Navigation for Boss Challenge Cards
-    public ArrayList<SDE.NavItem> pullNavigationForBossChallengeCards(){
+    public static ArrayList<SDE.NavItem> pullNavigationForBossChallengeCards(){
         CallableStatement stmt = null;
         ResultSet rs;
         ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
@@ -1713,7 +1713,7 @@ public class SDEDAONavigation extends SDEDAO{
         return result;
     }
 
-    public ArrayList<SDE.NavItem> pullNavigationForBossChallengeCards(String version){
+    public static ArrayList<SDE.NavItem> pullNavigationForBossChallengeCards(String version){
         CallableStatement stmt = null;
         ResultSet rs;
         ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
@@ -1736,7 +1736,7 @@ public class SDEDAONavigation extends SDEDAO{
     }
 
     //Pull Navigation for Mighty Monster Cards
-    public ArrayList<SDE.NavItem> pullNavigationForMightyMonsterCards(){
+    public static ArrayList<SDE.NavItem> pullNavigationForMightyMonsterCards(){
         CallableStatement stmt = null;
         ResultSet rs;
         ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
@@ -1757,7 +1757,7 @@ public class SDEDAONavigation extends SDEDAO{
         return result;
     }
     
-    public ArrayList<SDE.NavItem> pullNavigationForMightyMonsterCards(String version){
+    public static ArrayList<SDE.NavItem> pullNavigationForMightyMonsterCards(String version){
         CallableStatement stmt = null;
         ResultSet rs;
         ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
@@ -1779,7 +1779,7 @@ public class SDEDAONavigation extends SDEDAO{
         return result;
     }
     
-    private ArrayList<SDE.NavItem> pullNavigationForCards(ResultSet rs){
+    private static ArrayList<SDE.NavItem> pullNavigationForCards(ResultSet rs){
         ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
         String  tempCardName;
         String  tempVersion;

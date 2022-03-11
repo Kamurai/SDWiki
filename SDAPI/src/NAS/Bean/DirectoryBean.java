@@ -3,7 +3,7 @@ package NAS.Bean;
 import javax.faces.bean.ManagedBean;
 import javax.faces.bean.RequestScoped;
 
-import SDE.*;
+import NAS.*;
 import java.util.List;
 
 @ManagedBean(name="NASDirectoryBean")

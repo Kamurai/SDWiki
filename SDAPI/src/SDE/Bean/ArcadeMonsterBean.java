@@ -2,11 +2,13 @@ package SDE.Bean;
 
 import javax.faces.bean.ManagedBean;
 import javax.faces.bean.RequestScoped;
-import Main.Universal;
-import SDE.ArcadeCharacter;
-import SDE.Monster;
+
 import java.util.ArrayList;
 import java.util.List;
+
+import Main.Universal;
+import SDE.*;
+import Database.SDE.*;
 
 @ManagedBean(name="SDEArcadeMonsterBean")
 @RequestScoped
@@ -32,7 +34,7 @@ public class ArcadeMonsterBean extends CardBean{
         String result = "./Layout.xhtml";
         
         if(path.compareTo("") != 0){
-            this.monster        = oneDAO.pullOneArcadeMonster(path);
+            this.monster        = SDEDAOOne.pullOneArcadeMonster(path);
         }
         
 //        if(this.monster.getCardType().compareTo("Warband") == 0){

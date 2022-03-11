@@ -4,6 +4,7 @@ import javax.faces.bean.ManagedBean;
 import javax.faces.bean.RequestScoped;
 
 import SDE.*;
+import Database.SDE.*;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -13,10 +14,10 @@ public class ShufflerBean extends Main.Bean.ShufflerBean{
     String cardtype             = "";
     String playMode             = "";
     
-    Card currentCard            = new Card();
+    NavItem currentCard            = new NavItem();
     
-    List<Card> drawPile         = new ArrayList<Card>();
-    List<Card> discardPile      = new ArrayList<Card>();
+    List<NavItem> drawPile      = new ArrayList<NavItem>();
+    List<NavItem> discardPile   = new ArrayList<NavItem>();
     
     Boolean include2p0          = true;
     Boolean includeFK           = false;
@@ -30,19 +31,50 @@ public class ShufflerBean extends Main.Bean.ShufflerBean{
     }
     
     public void fetchNewDeck(){
+        discardPile = new ArrayList<NavItem>();
+        
+        
+        if(cardtype.equals("0")){
+            drawPile = SDEDAONavigation.pullNavigationForHeroes();
+        }else if(cardtype.equals("1")){
+            
+        }else if(cardtype.equals("2")){
+            
+        }else if(cardtype.equals("3")){
+            
+        }else if(cardtype.equals("4")){
+            
+        }else if(cardtype.equals("5")){
+            
+        }else if(cardtype.equals("6")){
+            
+        }else if(cardtype.equals("7")){
+            
+        }else if(cardtype.equals("8")){
+            
+        }else if(cardtype.equals("9")){
+            
+        }
+        
+        
+        
+        
+        currentCard = new NavItem();
         
     }
     
     public void drawNewCard(){
-        
+        discardPile.add(new NavItem(currentCard));
+        currentCard = new NavItem(drawPile.get(0));
+        drawPile.remove(0);
     }
     
     public String getCardFront(){
-        return currentCard.getPictureFront();
+        return currentCard.getPicture();
     }
     
     public String getCardBack(){
-        return currentCard.getPictureBack();
+        return currentCard.getPicture(); //Add PictureBack to NavItem
     }
 
     public String getCardtype() {
@@ -61,27 +93,27 @@ public class ShufflerBean extends Main.Bean.ShufflerBean{
         this.playMode = playMode;
     }
 
-    public Card getCurrentCard() {
+    public NavItem getCurrentCard() {
         return currentCard;
     }
 
-    public void setCurrentCard(Card currentCard) {
+    public void setCurrentCard(NavItem currentCard) {
         this.currentCard = currentCard;
     }
 
-    public List<Card> getDrawPile() {
+    public List<NavItem> getDrawPile() {
         return drawPile;
     }
 
-    public void setDrawPile(List<Card> drawPile) {
+    public void setDrawPile(List<NavItem> drawPile) {
         this.drawPile = drawPile;
     }
 
-    public List<Card> getDiscardPile() {
+    public List<NavItem> getDiscardPile() {
         return discardPile;
     }
 
-    public void setDiscardPile(List<Card> discardPile) {
+    public void setDiscardPile(List<NavItem> discardPile) {
         this.discardPile = discardPile;
     }
 

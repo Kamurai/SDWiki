@@ -2,10 +2,13 @@ package SDE.Bean;
 
 import javax.faces.bean.ManagedBean;
 import javax.faces.bean.RequestScoped;
-import Main.Universal;
-import SDE.Pet;
+
 import java.util.ArrayList;
 import java.util.List;
+
+import Main.Universal;
+import SDE.*;
+import Database.SDE.*;
 
 @ManagedBean(name="SDEPetBean")
 @RequestScoped
@@ -30,9 +33,9 @@ public class PetBean extends CardBean{
         String path = uni.getAppPath()+link;
         
         if(path.compareTo("") != 0){
-            this.pet   = oneDAO.pullOnePet(path);
+            this.pet   = SDEDAOOne.pullOnePet(path);
         }
-        this.petList  = navDAO.pullNavigationForHeroes();
+        this.petList  = SDEDAONavigation.pullNavigationForHeroes();
         
         return "./Layout.xhtml";
     }
@@ -41,9 +44,9 @@ public class PetBean extends CardBean{
         String path = uni.getAppPath()+link;
         
         if(path.compareTo("") != 0){
-            this.pet   = oneDAO.pullOnePet(path);
+            this.pet   = SDEDAOOne.pullOnePet(path);
         }
-        this.petList  = navDAO.pullNavigationForHeroesByProductSet(version);
+        this.petList  = SDEDAONavigation.pullNavigationForHeroesByProductSet(version);
         
         return "./Layout.xhtml";
     }

@@ -2,9 +2,10 @@ package SDE.Bean;
 
 import javax.faces.bean.ManagedBean;
 import javax.faces.bean.RequestScoped;
+
 import Main.Universal;
-import SDE.ExploreCharacter;
-import SDE.NavItem;
+import SDE.*;
+import Database.SDE.*;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -31,9 +32,9 @@ public class ExploreCharacterBean extends CardBean{
         String path = uni.getAppPath()+link;
         
         if(path.compareTo("") != 0){
-            this.exploreCharacter   = oneDAO.pullOneExploreCharacter(path);
+            this.exploreCharacter   = SDEDAOOne.pullOneExploreCharacter(path);
         }
-        this.exploreCharacterList  = navDAO.pullNavigationForHeroes();
+        this.exploreCharacterList  = SDEDAONavigation.pullNavigationForHeroes();
         
         return "./Layout.xhtml";
     }
@@ -42,9 +43,9 @@ public class ExploreCharacterBean extends CardBean{
         String path = uni.getAppPath()+link;
         
         if(path.compareTo("") != 0){
-            this.exploreCharacter   = oneDAO.pullOneExploreCharacter(path);
+            this.exploreCharacter   = SDEDAOOne.pullOneExploreCharacter(path);
         }
-        this.exploreCharacterList  = navDAO.pullNavigationForHeroesByProductSet(version);
+        this.exploreCharacterList  = SDEDAONavigation.pullNavigationForHeroesByProductSet(version);
         
         return "./Layout.xhtml";
     }

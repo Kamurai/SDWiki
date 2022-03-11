@@ -1,8 +1,6 @@
 package Database.SDE;
 
-import Database.RRI.RRIDAO;
-import SDE.Ability;
-import SDE.Keyword;
+import SDE.*;
 import java.sql.CallableStatement;
 import java.sql.ResultSet;
 import java.util.ArrayList;
@@ -150,7 +148,7 @@ public class SDEDAOOne extends SDEDAO{
     }
     
     //Pull One Hero
-    public SDE.ExploreCharacter pullOneExploreCharacter(String link){
+    public static SDE.ExploreCharacter pullOneExploreCharacter(String link){
         CallableStatement stmt = null;
         ResultSet rs;
         SDE.ExploreCharacter result = new SDE.ExploreCharacter();
@@ -264,7 +262,7 @@ public class SDEDAOOne extends SDEDAO{
     }
     
     //Pull One Pet
-    public SDE.Pet pullOnePet(String link){
+    public static SDE.Pet pullOnePet(String link){
         CallableStatement stmt;
         ResultSet rs;
         SDE.Pet result = new SDE.Pet();
@@ -382,52 +380,52 @@ public class SDEDAOOne extends SDEDAO{
     }
     
     //Pull One Booty
-    public SDE.Monster pullOneBooty(String link){
+    public static SDE.Monster pullOneBooty(String link){
         return pullOneMonster(link, "{call SDWikiPullOneBooty(?)}");
     }
     
     //Pull One Creep
-    public SDE.Monster pullOneCreep(String link){
+    public static SDE.Monster pullOneCreep(String link){
         return pullOneMonster(link, "{call SDWikiPullOneCreep(?)}");
     }
     
     //Pull One Elite
-    public SDE.Monster pullOneElite(String link){
+    public static SDE.Monster pullOneElite(String link){
         return pullOneMonster(link, "{call SDWikiPullOneElite(?)}");
     }
     
     //Pull One Mini Boss
-    public SDE.Monster pullOneMiniBoss(String link){
+    public static SDE.Monster pullOneMiniBoss(String link){
         return pullOneMonster(link, "{call SDWikiPullOneMiniBoss(?)}");
     }
     
     //Pull One Boss
-    public SDE.Monster pullOneBoss(String link){
+    public static SDE.Monster pullOneBoss(String link){
         return pullOneMonster(link, "{call SDWikiPullOneBoss(?)}");
     }
     
     //Pull One Minion
-    public SDE.Monster pullOneMinion(String link){
+    public static SDE.Monster pullOneMinion(String link){
         return pullOneMonster(link, "{call SDWikiPullOneMinion(?)}");
     }
     
     //Pull One Spawn
-    public SDE.Monster pullOneSpawn(String link){
+    public static SDE.Monster pullOneSpawn(String link){
         return pullOneMonster(link, "{call SDWikiPullOneSpawn(?)}");
     }
     
     //Pull One Warband
-    public SDE.Monster pullOneWarband(String link){
+    public static SDE.Monster pullOneWarband(String link){
         return pullOneMonster(link, "{call SDWikiPullOneWarband(?)}");
     }
     
     //Pull One Monster
-    public SDE.Monster pullOneMonster(String link){
+    public static SDE.Monster pullOneMonster(String link){
         return pullOneMonster(link, "{call SDWikiPullOneMonster(?)}");
     }
     
     //Pull One Monster
-    public SDE.Monster pullOneMonster(String link, String callableStatement){
+    public static SDE.Monster pullOneMonster(String link, String callableStatement){
         CallableStatement stmt;
         ResultSet rs;
         SDE.Monster result = new SDE.Monster();
@@ -542,51 +540,51 @@ public class SDEDAOOne extends SDEDAO{
     }
     
     //Pull One Arcade Booty
-    public SDE.ArcadeCharacter pullOneArcadeBooty(String link){
+    public static SDE.ArcadeCharacter pullOneArcadeBooty(String link){
         return pullOneArcadeMonster(link, "{call SDWikiPullOneArcadeBooty(?)}");
     }
     
     //Pull One Arcade Creep
-    public SDE.ArcadeCharacter pullOneArcadeCreep(String link){
+    public static SDE.ArcadeCharacter pullOneArcadeCreep(String link){
         return pullOneArcadeMonster(link, "{call SDWikiPullOneArcadeCreep(?)}");
     }
     
     //Pull One Arcade Mini Boss
-    public SDE.ArcadeCharacter pullOneArcadeMiniBoss(String link){
+    public static SDE.ArcadeCharacter pullOneArcadeMiniBoss(String link){
         return pullOneArcadeMonster(link, "{call SDWikiPullOneArcadeMiniBoss(?)}");
     }
     
     //Pull One Arcade Boss
-    public SDE.ArcadeCharacter pullOneArcadeBoss(String link){
+    public static SDE.ArcadeCharacter pullOneArcadeBoss(String link){
         return pullOneArcadeMonster(link, "{call SDWikiPullOneArcadeBoss(?)}");
     }
     
     //Pull One Arcade Solo
-    public SDE.ArcadeCharacter pullOneArcadeSolo(String link){
+    public static SDE.ArcadeCharacter pullOneArcadeSolo(String link){
         return pullOneArcadeMonster(link, "{call SDWikiPullOneArcadeSolo(?)}");
     }
     
     //Pull One Arcade Spawn
-    public SDE.ArcadeCharacter pullOneArcadeSpawn(String link){
+    public static SDE.ArcadeCharacter pullOneArcadeSpawn(String link){
         return pullOneArcadeMonster(link, "{call SDWikiPullOneArcadeSpawn(?)}");
     }
     
     //Pull One Arcade Gang
-    public SDE.ArcadeCharacter pullOneArcadeGang(String link){
+    public static SDE.ArcadeCharacter pullOneArcadeGang(String link){
         return pullOneArcadeMonster(link, "{call SDWikiPullOneArcadeGang(?)}");
     }
     
     //Pull One Arcade Warband
-    public SDE.ArcadeCharacter pullOneArcadeWarband(String link){
+    public static SDE.ArcadeCharacter pullOneArcadeWarband(String link){
         return pullOneArcadeMonster(link, "{call SDWikiPullOneArcadeWarband(?)}");
     }
     
     //Pull One Arcade Monster
-    public SDE.ArcadeCharacter pullOneArcadeMonster(String link){
+    public static SDE.ArcadeCharacter pullOneArcadeMonster(String link){
         return pullOneArcadeMonster(link, "{call SDWikiPullOneArcadeMonster(?)}");
     }
     
-    public SDE.ArcadeCharacter pullOneArcadeMonster(String link, String callableStatement){
+    public static SDE.ArcadeCharacter pullOneArcadeMonster(String link, String callableStatement){
         CallableStatement stmt;
         ResultSet rs;
         SDE.ArcadeCharacter result = new SDE.ArcadeCharacter();
@@ -710,27 +708,27 @@ public class SDEDAOOne extends SDEDAO{
     }
         
     //Pull One Loot
-    public SDE.Equipment pullOneLoot(String link){
+    public static SDE.Equipment pullOneLoot(String link){
         return pullOneEquipment(link, "{call SDWikiPullOneLoot(?)}");
     }
     
     //Pull One Treasure
-    public SDE.Equipment pullOneTreasure(String link){
+    public static SDE.Equipment pullOneTreasure(String link){
         return pullOneEquipment(link, "{call SDWikiPullOneTreasure(?)}");
     }
     
     //Pull One Relic
-    public SDE.Equipment pullOneRelic(String link){
+    public static SDE.Equipment pullOneRelic(String link){
         return pullOneEquipment(link, "{call SDWikiPullOneRelic(?)}");
     }
     
     //Pull One Equipment
-    public SDE.Equipment pullOneEquipment(String link){
+    public static SDE.Equipment pullOneEquipment(String link){
         return pullOneEquipment(link, "{call SDWikiPullOneEquipment(?)}");
     }
     
     //Pull One Equipment
-    public SDE.Equipment pullOneEquipment(String link, String callableStatement){
+    public static SDE.Equipment pullOneEquipment(String link, String callableStatement){
         CallableStatement stmt;
         ResultSet rs;
         SDE.Equipment result = new SDE.Equipment();
@@ -831,7 +829,7 @@ public class SDEDAOOne extends SDEDAO{
     }
     
     //Pull One Boss Spawn
-    public SDE.BossSpawn pullOneBossSpawnCard(String link){
+    public static SDE.BossSpawn pullOneBossSpawnCard(String link){
         CallableStatement stmt;
         ResultSet rs;
         SDE.BossSpawn result = new SDE.BossSpawn();
@@ -900,17 +898,17 @@ public class SDEDAOOne extends SDEDAO{
     }
     
     //Pull Arcade Plot Card
-    public SDE.PlotCard pullOneArcadePlotCard(String link){
+    public static SDE.PlotCard pullOneArcadePlotCard(String link){
         return pullOnePlot(link, "{call SDWikiPullOneArcadePlotCard(?)}");
     }
     
     //Pull One Explore Plot Card
-    public SDE.PlotCard pullOneExplorePlotCard(String link){
+    public static SDE.PlotCard pullOneExplorePlotCard(String link){
         return pullOnePlot(link, "{call SDWikiPullOneExplorePlotCard(?)}");
     }
     
     //Pull One Plot Card
-    public SDE.PlotCard pullOnePlot(String link, String callableStatement){
+    public static SDE.PlotCard pullOnePlot(String link, String callableStatement){
         CallableStatement stmt;
         ResultSet rs;
         SDE.PlotCard result = new SDE.PlotCard();
@@ -949,7 +947,7 @@ public class SDEDAOOne extends SDEDAO{
     }
     
     //Pull One Explore Card
-    public SDE.ExploreCard pullOneExploreCard(String link){
+    public static SDE.ExploreCard pullOneExploreCard(String link){
         System.out.print(link);
         System.out.print("pullOneExploreCard 1");
         
@@ -1070,7 +1068,7 @@ public class SDEDAOOne extends SDEDAO{
     }
     
     //Pull One Challenge Card
-    public SDE.ChallengeCard pullOneChallengeCard(String link){
+    public static SDE.ChallengeCard pullOneChallengeCard(String link){
         CallableStatement stmt;
         ResultSet rs;
         SDE.ChallengeCard result = new SDE.ChallengeCard();
@@ -1145,7 +1143,7 @@ public class SDEDAOOne extends SDEDAO{
     }
     
     //Pull One Boss Challenge Card
-    public SDE.ChallengeCard pullOneBossChallengeCard(String link){
+    public static SDE.ChallengeCard pullOneBossChallengeCard(String link){
         CallableStatement stmt;
         ResultSet rs;
         SDE.ChallengeCard result = new SDE.ChallengeCard();
@@ -1186,7 +1184,7 @@ public class SDEDAOOne extends SDEDAO{
     }
     
     //Pull One Mighty Monster Card
-    public SDE.MightyMonsterCard pullOneMightyMonsterCard(String link){
+    public static SDE.MightyMonsterCard pullOneMightyMonsterCard(String link){
         CallableStatement stmt;
         ResultSet rs;
         SDE.MightyMonsterCard result = new SDE.MightyMonsterCard();
@@ -1227,7 +1225,7 @@ public class SDEDAOOne extends SDEDAO{
     }
     
     //Pull One Terrain Card
-    public SDE.TerrainCard pullOneTerrainCard(String link){
+    public static SDE.TerrainCard pullOneTerrainCard(String link){
         
         System.out.print(link);
         System.out.print("pullOneTerrainCard 1");
@@ -1300,7 +1298,7 @@ public class SDEDAOOne extends SDEDAO{
     }
     
     //Pull One Utility Card
-    public SDE.UtilityCard pullOneUtilityCard(String link){
+    public static SDE.UtilityCard pullOneUtilityCard(String link){
         CallableStatement stmt;
         ResultSet rs;
         SDE.UtilityCard result = new SDE.UtilityCard();

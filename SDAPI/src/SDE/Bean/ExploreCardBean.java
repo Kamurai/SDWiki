@@ -2,11 +2,13 @@ package SDE.Bean;
 
 import javax.faces.bean.ManagedBean;
 import javax.faces.bean.RequestScoped;
-import Main.Universal;
-import SDE.ExploreCard;
-import SDE.UtilityCard;
+
 import java.util.ArrayList;
 import java.util.List;
+
+import Main.Universal;
+import SDE.*;
+import Database.SDE.*;
 
 @ManagedBean(name="SDEExploreCardBean")
 @RequestScoped
@@ -32,7 +34,7 @@ public class ExploreCardBean extends CardBean{
         String path = uni.getAppPath()+link;
         
         if(path.compareTo("") != 0){
-            this.exploreCard  = oneDAO.pullOneExploreCard(path);
+            this.exploreCard  = SDEDAOOne.pullOneExploreCard(path);
         }else{
             System.out.print("No Path.");
         }

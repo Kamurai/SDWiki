@@ -10,7 +10,7 @@ public class LinkFetcher extends Main.LinkFetcher{
     public static List<String> getFileList(){
         List<String> result = new ArrayList<String>();
         
-        result = getFileList(prefix, rootDirectory);
+        result = getFileList(prefix, rootDirectory, rootDirectory);
         
         return result;
     }    

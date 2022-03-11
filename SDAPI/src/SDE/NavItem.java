@@ -24,6 +24,13 @@ public class NavItem {
         this.link       = link;
         this.picture    = picture;
     }
+    
+    public NavItem(NavItem navItem){
+        this.name       = navItem.getName();
+        this.version    = navItem.getVersion();
+        this.link       = navItem.getLink();
+        this.picture    = navItem.getPicture();
+    }
 
     public String getName() {
         return name;
