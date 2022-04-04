@@ -1,560 +1,339 @@
 --Table Load 1
---1.0 Heroes
---Angry Bear --Index 0
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Angry Bear', 
-'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Hero_Angry_Bear_1.0.png', 
-'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Hero_Angry_Bear_1.0_back.png', 
-'http://htkb.online/SDWiki/SDE/1.0/Cards/Heroes/Angry_Bear.xhtml', 
-'Hero', '1.0', '1.0 Core Set', 'Default', 
-'Some skilled Druids can take the form of a raging Totem Ursos - a mighty bearlike creature filled with nature''s wrath for the enemies of the Deeproot Tree.');
-insert into Characters (CardIndex) VALUES (0);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (0, 59); --Immune: Poison
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (0, 57); --Immune: Knockdown
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (0, 8); --Bear Charge
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (0, 9); --Bear Hug
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (0, 105); --Shapeshift: Deeproot Druid
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (0, 83); --Nourishing Berries
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (0, 
-'http://htkb.info/SDE/1.0/Cards/Heroes/Standies/Angry_Bear_1.0.png', 
-'http://htkb.info/SDE/1.0/Cards/Heroes/Standies/Angry_Bear_1.0_back.png', 
-'Either', 'Large', 'Shapeshift', 6, 3, '2R', '2R', '1B1R', '2B', 5, 1);
-insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (0, 0, 1); --Attack
-insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (0, 2); --Armor
-
---Calico Kate --Index 1
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Calico Kate', 
-'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Hero_Calico_Kate_1.0.png', 
-'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Hero_Calico_Kate_1.0_back.png', 
-'http://htkb.online/SDWiki/SDE/1.0/Cards/Heroes/Calico_Kate.xhtml', 
-'Hero', '1.0', '1.0 Core Set', 'Default',   
-'Explosion! Calico Kate bursts into Super Dungeon Explore to the boom of her trademark love of mass destruction.  Her pirating skill ensures that she can plunder the best loot from even the stingiest dungeon minions.');
-insert into Characters (CardIndex) VALUES (1);
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (1, 11); --Bomb's Away
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (1, 85); --Pirate Snatch
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (1, 116); --Skully
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (1, 
-'http://htkb.info/SDE/1.0/Cards/Heroes/Standies/Calico_Kate_1.0.png', 
-'http://htkb.info/SDE/1.0/Cards/Heroes/Standies/Calico_Kate_1.0_back.png', 
-'Feminine', 'Small', 'Human Hero', 6, 3, '1B1R', '3B', '1B1R', '2B', 5, 1);
-insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (1, 0, 1); --Attack
-insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (1, 2); --Armor
-
---Candy & Cola --Index 2
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Candy & Cola', 
-'http://htkb.info/SDE/1.0/Cards/Heroes/Standies/Candy_And_Cola_1.0.png', 
-'http://htkb.info/SDE/1.0/Cards/Heroes/Standies/Candy_And_Cola_1.0_back.png', 
-'http://htkb.online/SDWiki/SDE/1.0/Cards/Heroes/Candy_And_Cola.xhtml', 
-'Hero', '1.0', '1.0 Core Set', 'Default',   
-'No strangers to heroic adventure, the dynamic duo of Candy and Cola have come to the realm of Crystalia to deliver sugar fueled justice to the Consul and his villainous minions.  With a well stocked supply of soda there is no challenge too great or adversary that cannot be bested.  Adventuring has never been so sweet!');
-insert into Characters (CardIndex) VALUES (2);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (2, 76); --Luck
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (2, 22); --Cola
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (2, 146); --Vending Machine
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (2, 123); --Soothing Soda
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (2, 132); --Sugar Rush
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (2, 
-'http://htkb.info/SDE/1.0/Cards/Heroes/Standies/Candy_And_Cola_1.0.png', 
-'http://htkb.info/SDE/1.0/Cards/Heroes/Standies/Candy_And_Cola_1.0_back.png', 
-'Feminine', 'Small', 'Human Hero', 6, 3, '2B', '3B', '2B', '1B1R', 5, 3);
-insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (2, 0, 1); --Attack
-insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (2, 2); --Armor
-
---Celestial Herald --Index 3
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Celestial Herald', 
-'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Hero_Celestial_Herald_1.0.png', 
-'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Hero_Celestial_Herald_1.0_back.png', 
-'http://htkb.online/SDWiki/SDE/1.0/Cards/Heroes/Celestial_Herald.xhtml', 
-'Hero', '1.0', '1.0 Core Set', 'Default',   
-'For millennia Celestials have remained aloof from the world below.  As the Dark Consul''s power grows his shadow extends even across their sacred lands and at last they have begun to recognize that the threat concerns all the peoples of Crystalia.  The arrival of their Heralds signals that Celestia will not submit quietly.');
-insert into Characters (CardIndex) VALUES (3);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (3, 36); --Fly
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (3, 82); --Missile 6
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (3, 57); --Immune: Knockdown
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (3, 2); --Arrow Storm
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (3, 62); --Heart Seeker
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (3, 58); --Halo Extract
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (3, 
-'http://htkb.info/SDE/1.0/Cards/Heroes/Standies/Celestial_Herald_1.0.png', 
-'http://htkb.info/SDE/1.0/Cards/Heroes/Standies/Celestial_Herald_1.0_back.png', 
-'Feminine', 'Small', 'Celestial Hero', 7, 3, '2B', '3B', '1B1R', '2R', 5, 1);
-insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (3, 0, 1); --Attack
-insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (3, 4, 6); --Dexterity
-insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (3, 2); --Armor
-
---Claw Tribe Barbarian --Index 4
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Claw Tribe Barbarian', 
-'http://htkb.info/SDE/1.0/Cards/Heroes/Standies/Claw_Tribe_Barbarian_1.0.png', 
-'http://htkb.info/SDE/1.0/Cards/Heroes/Standies/Claw_Tribe_Barbarian_1.0_back.png', 
-'http://htkb.online/SDWiki/SDE/1.0/Cards/Heroes/Claw_Tribe_Barbarian.xhtml', 
-'Hero', '1.0', '1.0 Core Set', 'Default',   
-'Born of fire and hardship, barbarians come from the edges of the Dragonback Peaks.  The hard lives they can scrape out of the rough earth and fiery landscape is meager at best, it is no wonder that many take to wandering.');
-insert into Characters (CardIndex) VALUES (4);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (4, 7); --Berserk
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (4, 142); --Tough
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (4, 92); --Rage
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (4, 55); --Fury's Blood
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (4, 
-'http://htkb.info/SDE/1.0/Cards/Heroes/Standies/Claw_Tribe_Barbarian_1.0.png', 
-'http://htkb.info/SDE/1.0/Cards/Heroes/Standies/Claw_Tribe_Barbarian_1.0_back.png', 
-'Feminine', 'Small', 'Human Hero', 6, 3, '2R', '3B', '2B', '2B', 5, 1);
-insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (4, 0, 1); --Attack
-insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (4, 2); --Armor
-
---Codifier Kisa --Index 5
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Codifier Kisa', 
-'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Hero_Codifier_Kisa_1.0.png', 
-'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Hero_Codifier_Kisa_1.0_back.png', 
-'http://htkb.online/SDWiki/SDE/1.0/Cards/Heroes/Codifier_Kisa.xhtml', 
-'Hero', '1.0', '1.0 Core Set', 'Default',   
-'Kisa is every bit at home in the world of Super Dungeon Explore as she is in the Last Galaxy.  Steeped in arcane lore and magical might, Kisa blasts and curses the dungeon''s monsters with glee and style.');
-insert into Characters (CardIndex) VALUES (5);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (5, 76); --Luck
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (5, 79); --Magic 8
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (5, 135); --Surefoot
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (5, 10); --Black Cat
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (5, 21); --Cat & Mouse
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (5, 99); --Scratch
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (5, 22); --Catnip
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (5, 
-'http://htkb.info/SDE/1.0/Cards/Heroes/Standies/Codifier_Kisa_1.0.png', 
-'http://htkb.info/SDE/1.0/Cards/Heroes/Standies/Codifier_Kisa_1.0_back.png', 
-'Feminine', 'Small', 'Freyjan Hero', 6, 3, '3B', '3B', '1B1R', '1B1R', 5, 2);
-insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (5, 0, 1); --Attack
-insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (5, 3, 8); --Will
-insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (5, 2); --Armor
-
---Deeproot Druid --Index 6
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Deeproot Druid', 
-'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Hero_Deeproot_Druid_1.0.png', 
-'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Hero_Deeproot_Druid_1.0_back.png', 
-'http://htkb.online/SDWiki/SDE/1.0/Cards/Heroes/Deeproot_Druid.xhtml', 
-'Hero', '1.0', '1.0 Core Set', 'Default',   
-'Sacred guardians of the Deeproot Tree, the Druids are fierce defenders of their revered realm.  Druids can assume animal forms when doing battle.  Often when magic and cunning have failed, animal rage can overcome.');
-insert into Characters (CardIndex) VALUES (6);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (6, 90); --Poison
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (6, 59); --Immune: Poison
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (6, 131); --Stranglethorn
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (6, 14); --Briar Armor
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (6, 105); --Shapeshift
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (6, 83); --Nourishing Berries
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (6, 
-'http://htkb.info/SDE/1.0/Cards/Heroes/Standies/Deeproot_Druid_1.0.png', 
-'http://htkb.info/SDE/1.0/Cards/Heroes/Standies/Deeproot_Druid_1.0_back.png', 
-'Masculine', 'Small', 'Half-Elf Hero', 7, 3, '3B', '1B1R', '1B1R', '2B', 5, 1);
-insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (6, 0, 1); --Attack
-insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (6, 2); --Armor
-
---Deeproot Scout --Index 7
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Deeproot Scout', 
-'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Hero_Deeproot_Scout_1.0.png', 
-'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Hero_Deeproot_Scout_1.0_back.png', 
-'http://htkb.online/SDWiki/SDE/1.0/Cards/Heroes/Deeproot_Scout.xhtml', 
-'Hero', '1.0', '1.0 Core Set', 'Default',   
-'The threat of the Consul grows ever more dire as the Grim Heralds continue their implacable march into the heart of Crystalia.  With the Nether Rifts encroaching into the Fae Wood, the Deeproot Tree has begun to send her scouts in search of allies who can help stem the tide of darkness.');
-insert into Characters (CardIndex) VALUES (7);
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (7, 12); --Boomerang
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (7, 13); --Bow
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (7, 0); --Acorn Grenade
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (7, 128); --Sprite Syrup
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (7, 
-'http://htkb.info/SDE/1.0/Cards/Heroes/Standies/Deeproot_Scout_1.0.png', 
-'http://htkb.info/SDE/1.0/Cards/Heroes/Standies/Deeproot_Scout_1.0_back.png', 
-'Either', 'Small', 'Elf Hero', 7, 3, '1B1R', '3B', '2B', '1B1R', 5, 1);
-insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (7, 0, 1); --Attack
-insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (7, 2); --Armor
-
---Ember Mage --Index 8
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ember Mage', 
-'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Hero_Ember_Mage_1.0.png', 
-'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Hero_Ember_Mage_1.0_back.png', 
-'http://htkb.online/SDWiki/SDE/1.0/Cards/Heroes/Ember_Mage.xhtml', 
-'Hero', '1.0', '1.0 Core Set', 'Default',   
-'The soul of the mage will reflect the powers that they develop.  Ember Mages are quick to anger, and wield terrible blasts of fire and brimstone.  Their destructive magic is highly sought after by adventuring parties willing to take the risk.');
-insert into Characters (CardIndex) VALUES (8);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (8, 79); --Magic 8
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (8, 54); --Fire
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (8, 48); --Fire Wave
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (8, 76); --Magma Strike
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (8, 149); --White Mage Potion
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (8, 47); --Fire Water
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (8, 
-'http://htkb.info/SDE/1.0/Cards/Heroes/Standies/Ember_Mage_1.0.png', 
-'http://htkb.info/SDE/1.0/Cards/Heroes/Standies/Ember_Mage_1.0_back.png', 
-'Feminine', 'Small', 'Human Hero', 6, 3, '2B', '3B', '2R', '1B1R', 5, 2);
-insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (8, 0, 1); --Attack
-insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (8, 3, 8); --Will
-insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (8, 2); --Armor
-
---Glimmerdusk Ranger --Index 9
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Glimmerdusk Ranger', 
-'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Hero_Glimmerdusk_Ranger_1.0.png', 
-'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Hero_Glimmerdusk_Ranger_1.0_back.png', 
-'http://htkb.online/SDWiki/SDE/1.0/Cards/Heroes/Glimmerdusk_Ranger.xhtml', 
-'Hero', '1.0', '1.0 Core Set', 'Default',   
-'Deadly archers, the Glimmerdusk Rangers patrol edges of the Fae Wood hunting any foolish enough to enter uninvited.  With the rise of the Consul and the Nether Rifts advancing into their lands, the Rangers have begun to venture from their woodland realm.  They offer their considerable skill to any who will take the fight to the Consul.');
-insert into Characters (CardIndex) VALUES (9);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (9, 82); --Missile 8
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (9, 63); --Herbalist
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (9, 124); --Sparkle Burst
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (9, 86); --Pixie Dust
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (9, 
-'http://htkb.info/SDE/1.0/Cards/Heroes/Standies/Glimmerdusk_Ranger_1.0.png', 
-'http://htkb.info/SDE/1.0/Cards/Heroes/Standies/Glimmerdusk_Ranger_1.0_back.png', 
-'Feminine', 'Small', 'Elf Hero', 7, 3, '1B1R', '3B', '2B', '2R', 5, 1);
-insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (9, 0, 1); --Attack
-insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (9, 4, 8); --Dexterity
-insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (9, 2); --Armor
-
---Hearthsworn Fighter --Index 10
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Hearthsworn Fighter', 
-'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Hero_Hearthsworn_Fighter_1.0.png', 
-'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Hero_Hearthsworn_Fighter_1.0_back.png', 
-'http://htkb.online/SDWiki/SDE/1.0/Cards/Heroes/Hearthsworn_Fighter.xhtml', 
-'Hero', '1.0', '1.0 Core Set', 'Default',   
-'Resilient and unflinching in the face of combat, the Dwarven Hearthsworn are warriors without peer.  Able to withstand injury that would fell any of the lesser races the Hearthsworn cleave through their adversaries bellowing insults and challenges to any foolish enough to face them.');
-insert into Characters (CardIndex) VALUES (10);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (10, 57); --Immune: Knockdown
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (10, 59); --Immune: Poison
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (10, 40); --Dwarven Curse
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (10, 24); --Cleave
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (10, 64); --Hero's Balm
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (10, 
-'http://htkb.info/SDE/1.0/Cards/Heroes/Standies/Hearthsworn_Fighter_1.0.png', 
-'http://htkb.info/SDE/1.0/Cards/Heroes/Standies/Hearthsworn_Fighter_1.0_back.png', 
-'Masculine', 'Small', 'Dwarf Hero', 6, 3, '2B1R', '2R', '2B', '2B', 6, 1);
-insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (10, 0, 1); --Attack
-insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (10, 2);--Armor
-
---Hexcast Sorceress --Index 11
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Hexcast Sorceress', 
-'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Hero_Hexcast_Sorceress_1.0.png', 
-'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Hero_Hexcast_Sorceress_1.0_back.png', 
-'http://htkb.online/SDWiki/SDE/1.0/Cards/Heroes/Hexcast_Sorceress.xhtml', 
-'Hero', '1.0', '1.0 Core Set', 'Default',   
-'Trained in the dark art of hexes and curses the Hexcast Covens are uneasy allies to the rulers of Crystalia.  Nonetheless their potency in battle cannot be denied.  Slowing enemies, shattering armor, and weakening their foes a Hexcast Sorceress can lay even the mightest low.');
-insert into Characters (CardIndex) VALUES (11);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (11, 79); --Magic 8
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (11, 53); --Frozen Feet
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (11, 66); --Hobbled Hands
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (11, 15); --Broken Bones
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (11, 152); --Wizard Wings
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (11, 
-'http://htkb.info/SDE/1.0/Cards/Heroes/Standies/Hexcast_Sorceress_1.0.png', 
-'http://htkb.info/SDE/1.0/Cards/Heroes/Standies/Hexcast_Sorceress_1.0_back.png', 
-'Feminine', 'Small', 'Human Hero', 6, 3, '2B', '3B', '1B1R', '1B1R', 5, 1);
-insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (11, 0, 1); --Attack
-insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (11, 3, 8); --Will
-insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (11, 2); --Armor
-
---Miserable Toad --Index 12
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Miserable Toad', 
-'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Hero_Miserable_Toad_1.0.png', 
-'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Hero_Miserable_Toad_1.0_back.png', 
-'http://htkb.online/SDWiki/SDE/1.0/Cards/Heroes/Miserable_Toad.xhtml', 
-'Hero', '1.0', '1.0 Core Set', 'Default',   
-'She said she wanted my honest opinion.....');
-insert into Characters (CardIndex) VALUES (12);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (12, 29); --Dodge
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (12, 118); --Small
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (12, 121); --Smooches
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (12, 130); --Sticky Tongue
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (12, 
-'http://htkb.info/SDE/1.0/Cards/Heroes/Standies/Miserable_Toad_1.0.png', 
-'http://htkb.info/SDE/1.0/Cards/Heroes/Standies/Miserable_Toad_1.0_back.png', 
-'Either', 'Small', 'Shapeshift', 5, 3, '1B', '0', '2B', '3B', 5, 1);
-insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (12, 0, 1); --Attack
-insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (12, 2); --Armor
-insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (12, 4); --Dextrity
-
---Nyan-Nyan --Index 13
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Nyan-Nyan', 
-'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Hero_Nyan_Nyan_1.0.png', 
-'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Hero_Nyan_Nyan_1.0_back.png', 
-'http://htkb.online/SDWiki/SDE/1.0/Cards/Heroes/Nyan_Nyan.xhtml', 
-'Hero', '1.0', '1.0 Core Set', 'Default',   
-'Meow!  Kitty got your tongue?');
-insert into Characters (CardIndex) VALUES (13);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (13, 0); --9 Lives
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (13, 29); --Dodge
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (13, 76); --Luck
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (13, 135); --Teeth & Fur
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (13, 91); --Purr
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (13, 23); --Catnip Bomb
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender,ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (13, 
-'http://htkb.info/SDE/1.0/Cards/Heroes/Standies/Nyan_Nyan_1.0.png', 
-'http://htkb.info/SDE/1.0/Cards/Heroes/Standies/Nyan_Nyan_1.0_back.png', 
-'Feminine', 'Small', 'Freyjan Hero', 7, 3, '3B', '3B', '2B', '2R', 5, 1);
-insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (13, 0, 1);--! To look at later
-insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (13, 2); --Armor
-insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (13, 4); --Dexterity
-
---One Shot --Index 14
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('One Shot', 
-'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Hero_One_Shot_1.0.png', 
-'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Hero_One_Shot_1.0_back.png', 
-'http://htkb.online/SDWiki/SDE/1.0/Cards/Heroes/One_Shot.xhtml', 
-'Hero', '1.0', '1.0 Core Set', 'Default',   
-'With the crack of her rifle and the smell of gunpowder, One Shot brings her signature ranged warfare into Super Dungeon Explore with deadly effect.  Terrified monsters flee in panic, but they can''t run fast enough.  One Shot has them in her sights!');
-insert into Characters (CardIndex) VALUES (14);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (14, 103); --Range 8
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (14, 33); --Daystar 
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (14, 51); --Focused Shot
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (14, 52); --Fritz
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (14, 
-'http://htkb.info/SDE/1.0/Cards/Heroes/Standies/One_Shot_1.0.png', 
-'http://htkb.info/SDE/1.0/Cards/Heroes/Standies/One_Shot_1.0_back.png', 
-'Feminine', 'Small', 'Human Hero', 6, 3, '2R', '3B', '2B', '2B', 5, 1);
-insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (14, 0, 8); --Attack
-insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (14, 2); --Armor
-
---Princess Malya --Index 15
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Princess Malya', 
-'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Hero_Princess_Malya_1.0.png', 
-'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Hero_Princess_Malya_1.0_back.png', 
-'http://htkb.online/SDWiki/SDE/1.0/Cards/Heroes/Princess_Malya.xhtml', 
-'Hero', '1.0', '1.0 Core Set', 'Default',   
-'Even a racing super-star has time to sit down to a game of Super Dungeon Explore.  Princess Malya brings her love of speed into the Last Galaxy''s favorite online game, zipping through the dungeon at a breakneck pace.  Malya slays monsters with glee, but is always willing to lend fellow adventurers a hand with the help of some creation magic.');
-insert into Characters (CardIndex) VALUES (15);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (15, 29); --Dodge
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (15, 43); --Energy Blast
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (15, 89); --Purification
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (15, 82); --Mr. Tomn
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (15, 
-'http://htkb.info/SDE/1.0/Cards/Heroes/Standies/Princess_Malya_1.0.png', 
-'http://htkb.info/SDE/1.0/Cards/Heroes/Standies/Princess_Malya_1.0_back.png', 
-'Feminine', 'Small', 'Human Hero', 8, 3, '1B1R', '2B', '2B', '2R', 5, 1);
-insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (15, 0, 1); --Attack
-insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (15, 2); --Armor
-insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (15, 4); --Dexterity
-
---Princess Ruby --Index 16
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Princess Ruby', 
-'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Hero_Princess_Ruby_1.0.png', 
-'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Hero_Princess_Ruby_1.0_back.png', 
-'http://htkb.online/SDWiki/SDE/1.0/Cards/Heroes/Princess_Ruby.xhtml', 
-'Hero', '1.0', '1.0 Core Set', 'Default',   
-'The eldest of five sisters, Princess Ruby, is heiress to the royal throne of Crystalia.  Her kindness and wisdom are matched only by her stubbornness.  Despite her father''s protests and fears for her safety, she remains determined to travel her realm before she is required to rule it.');
-insert into Characters (CardIndex) VALUES (16);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (16, 79); --Magic 6
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (16, 29); --Dodge
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (16, 77); --Maiden's Favor
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (16, 79); --Maiden's Token
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (16, 78); --Maiden's Kiss
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (16, 60); --Happily Ever After
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (16, 
-'http://htkb.info/SDE/1.0/Cards/Heroes/Standies/Princess_Ruby_1.0.png', 
-'http://htkb.info/SDE/1.0/Cards/Heroes/Standies/Princess_Ruby_1.0_back.png', 
-'Feminine', 'Small', 'Human Hero', 6, 3, '2B', '3B', '3B', '2B1R', 5, 1);
-insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (16, 0, 1); --Attack
-insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (16, 3, 6); --Will
-insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (16, 2); --Armor
-insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (16, 4); --Dexterity
-
---Riftling Rogue --Index 17
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Riftling Rogue', 
-'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Hero_Riftling_Rogue_1.0.png', 
-'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Hero_Riftling_Rogue_1.0_back.png', 
-'http://htkb.online/SDWiki/SDE/1.0/Cards/Heroes/Riftling_Rogue.xhtml', 
-'Hero', '1.0', '1.0 Core Set', 'Default',   
-'Bred in the underworld, the Demonkin lend heroes to combat the Consul for their own closely guarded reasons.  Masters of striking from the shadows, the Riftling Guild adepts can find the chink in any armor.  More important to many though is their uncanny knack to find the most valuable treasure in any dungeon.');
-insert into Characters (CardIndex) VALUES (17);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (17, 29); --Dodge
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (17, 76); --Luck
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (17, 129); --Stealth
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (17, 7); --Bamf!
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (17, 6); --Backstab
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (17, 35); --Dimensional Draught
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (17, 
-'http://htkb.info/SDE/1.0/Cards/Heroes/Standies/Riftling_Rogue_1.0.png', 
-'http://htkb.info/SDE/1.0/Cards/Heroes/Standies/Riftling_Rogue_1.0_back.png', 
-'Feminine', 'Small', 'Demonkin Hero', 7, 3, '3B', '2B', '1B1R', '2R', 5, 1);
-insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (17, 0, 1); --Attack
-insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (17, 2); --Armor
-insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (17, 4); --Dexterity
-
---Royal Paladin --Index 18
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Royal Paladin', 
-'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Hero_Royal_Paladin_1.0.png', 
-'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Hero_Royal_Paladin_1.0_back.png', 
-'http://htkb.online/SDWiki/SDE/1.0/Cards/Heroes/Royal_Paladin.xhtml', 
-'Hero', '1.0', '1.0 Core Set', 'Default',   
-'From the high citadels, the worshippers of light are champions against the spreading darkness.  Powerful warriors and healers, the Paladins have been at the front of the great confrontation with the Consul.');
-insert into Characters (CardIndex) VALUES (18);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (18, 41); --Healer
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (18, 43); --Holy
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (18, 70); --Iron Halo
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (18, 117); --Smite
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (18, 41); --Elixir
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (18,
-'http://htkb.info/SDE/1.0/Cards/Heroes/Standies/Royal_Paladin_1.0.png', 
-'http://htkb.info/SDE/1.0/Cards/Heroes/Standies/Royal_Paladin_1.0_back.png', 
-'Masculine', 'Small', 'Human Hero', 6, 3, '3B', '1B1R', '1B1R', '2B', 5, 1);
-insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (18, 0, 1); --Attack
-insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (18, 2); --Armor
-
---Sebastian Cross --Index 19
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Sebastian Cross', 
-'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Hero_Sebastian_Cross_1.0.png', 
-'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Hero_Sebastian_Cross_1.0_back.png', 
-'http://htkb.online/SDWiki/SDE/1.0/Cards/Heroes/Sebastian_Cross.xhtml', 
-'Hero', '1.0', '1.0 Core Set', 'Default',   
-'Few would suspect the dour Sebastian Cross to be an avid Super Dungeon Explore player.  Yet he is reknown for his cunning tactics and exceptional party management.  A party led by Sebastian is an unstoppable juggernaut, battering through the Consul''s minions with grim determination.');
-insert into Characters (CardIndex) VALUES (19);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (19, 57); --Immune: Knockdown
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (19, 43); --Holy
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (19, 110); --Shattered Sword
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (19, 125); --Spearhead
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (19, 98); --Rook
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (19, 
-'http://htkb.info/SDE/1.0/Cards/Heroes/Standies/Sebastian_Cross_1.0.png', 
-'http://htkb.info/SDE/1.0/Cards/Heroes/Standies/Sebastian_Cross_1.0_back.png', 
-'Masculine', 'Small', 'Human Hero', 5, 3, '2B1R', '2R', '2B', '2B', 6, 1);
-insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (19, 0, 1); --Attack
-insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (19, 2); --Armor
-
---Sister Of Light --Index 20
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Sister Of Light', 
-'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Hero_Sister_Of_Light_1.0.png', 
-'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Hero_Sister_Of_Light_1.0_back.png', 
-'http://htkb.online/SDWiki/SDE/1.0/Cards/Heroes/Sister_Of_Light.xhtml', 
-'Hero', '1.0', '1.0 Core Set', 'Default',   
-'Chapter Houses for the Order of Light can be found throughout Crystalia.  From their hallowed halls paladins, priests, and slayers are trained to bring light to the dark corners of Crystalia.  Sisters of Light are drawn from the order''s orphans who have lost their loved ones to the creatures of the night.  Their unique experiences give them not only the strength to seek vengeance but the empathy to assist others in need.');
-insert into Characters (CardIndex) VALUES (20);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (20, 43); --Holy
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (20, 59); --Hammer of Judgement
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (20, 90); --Purification
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (20, 42); --Elixir of Light
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (20, 
-'http://htkb.info/SDE/1.0/Cards/Heroes/Standies/Sister_Of_Light_1.0.png', 
-'http://htkb.info/SDE/1.0/Cards/Heroes/Standies/Sister_Of_Light_1.0_back.png', 
-'Feminine', 'Small', 'Human Hero', 6, 3, '1B1R', '2R', '1B1R', '2B', 5, 1);
-insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (20, 0, 1); --Attack
-insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (20, 2); --Armor
-
---Star Guild Sapper --Index 21
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Star Guild Sapper', 
-'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Hero_Star_Guild_Sapper_1.0.png', 
-'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Hero_Star_Guild_Sapper_1.0_back.png', 
-'http://htkb.online/SDWiki/SDE/1.0/Cards/Heroes/Star_Guild_Sapper.xhtml', 
-'Hero', '1.0', '1.0 Core Set', 'Default',   
-'Wherever the mountains touch the sky you can be sure to find dwarves of the Star Guild.  There, at the roof of the world, they dig great sunken amphitheaters open to the twinkling night sky.  With patience only a dwarf can muster, they wait for the very stars to fall from the heavens.  When such an event occurs, no force on Crystalia can prevent them from retrieving the precious celestial metals for use in their forges.');
-insert into Characters (CardIndex) VALUES (21);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (21, 57); --Immune: Knockdown
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (21, 104); --Reach 2
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (21, 4); --Astral Hammer
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (21, 88); --POW!
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (21, 129); --Star Shine
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (21, 19); --Burning Bloom
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (21, 
-'http://htkb.info/SDE/1.0/Cards/Heroes/Standies/Star_Guild_Sapper_1.0.png', 
-'http://htkb.info/SDE/1.0/Cards/Heroes/Standies/Star_Guild_Sapper_1.0_back.png', 
-'Masculine', 'Small', 'Dwarf Hero', 6, 3, '2B1R', '1B1R', '2B', '2B', 6, 1);
-insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (21, 0, 2); --Attack
-insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (21, 2); --Armor
-
---Von Wilder --Index 22
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Von Wilder', 
-'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Hero_Von_Wilder_1.0.png', 
-'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Hero_Von_Wilder_1.0_back.png', 
-'http://htkb.online/SDWiki/SDE/1.0/Cards/Heroes/Von_Wilder.xhtml', 
-'Hero', '1.0', '1.0 Core Set', 'Default',   
-'Through rigid study and discipline the Von Wildings seek to tasme their inner beast.  Though not entirely successful, they have become very adept at "Aiming" their Wilder side in the right direction.');
-insert into Characters (CardIndex) VALUES (22);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (22, 142); --Tough
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (22, 412); --Vulnerable: Magic  
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (22, 103); --Shag Fest
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (22, 108); --Shapeshift
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (22, 
-'http://htkb.info/SDE/1.0/Cards/Heroes/Standies/Von_Wilder_1.0.png', 
-'http://htkb.info/SDE/1.0/Cards/Heroes/Standies/Von_Wilder_1.0_back.png', 
-'Masculine', 'Large', 'Shapeshift', 6, 3, '2B1R', '1B1R', '2B', '2B', 6, 1);
-insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (22, 0, 1); --Attack
-insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (22, 2); --Armor
-
---Von Wilding --Index 23
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Von Wilding', 
-'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Hero_Von_Wilding_1.0.png', 
-'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Hero_Von_Wilding_1.0_back.png', 
-'http://htkb.online/SDWiki/SDE/1.0/Cards/Heroes/Von_Wilding.xhtml', 
-'Hero', '1.0', '1.0 Core Set', 'Default',   
-'Generations ago the Von Wilding family saw the destruction of their family estate and a curse put on their entire line by Baron Von Drakk.  The family''s fate was meant as a grim warning to any noble family who dared oppose the Baron.  Now, sworn to the life of a slayer, successive generations of Von Wilding travel Crystalia searching for clues that will allow them to remove their curse and end Von Drakk''s blighted reign over their homeland.');
-insert into Characters (CardIndex) VALUES (23);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (23, 104); --Reach 2
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (23, 148); --Whip Master
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (23, 29); --Crack the Whip
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (23, 109); --Shapeshift
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (23, 68); --Holy Water
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (23, 67); --Holy Oil
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (23, 
-'http://htkb.info/SDE/1.0/Cards/Heroes/Standies/Von_Wilding_1.0.png', 
-'http://htkb.info/SDE/1.0/Cards/Heroes/Standies/Von_Wilding_1.0_back.png', 
-'Feminine', 'Small', 'Human Hero', 6, 3, '1B1R', '3B', '1B1R', '2R', 5, 2);
-insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (23, 0, 2); --Attack
-insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (23, 2); --Armor
-
---Wyrm Claw Exemplar --Index 24
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Wyrm Claw Exemplar', 
-'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Hero_Wyrm_Claw_Exemplar_1.0.png', 
-'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Hero_Wyrm_Claw_Exemplar_1.0_back.png', 
-'http://htkb.online/SDWiki/SDE/1.0/Cards/Heroes/Wyrm_Claw_Exemplar.xhtml', 
-'Hero', '1.0', '1.0 Core Set', 'Default',   
-'Wyrm Claw Exemplars are rigid adherents to the Cult of the Burning Star.  Where it serves the interest of their master, Exemplars range far from their lairs to recover artifacts of great value.  They will even grudgingly work alongside other Heroes - as long as they don''t look too closely under the Exemplar''s huge helmet.');
-insert into Characters (CardIndex) VALUES (24);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (24, 57); --Immune: Knockdown
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (24, 17); --Burning Blade
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (24, 65); --Hightower
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (24, 87); --Portcullis Potion
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (24, 
-'http://htkb.info/SDE/1.0/Cards/Heroes/Standies/Wyrm_Claw_Exemplar_1.0.png', 
-'http://htkb.info/SDE/1.0/Cards/Heroes/Standies/Wyrm_Claw_Exemplar_1.0_back.png', 
-'Either', 'Small', 'Kobold Hero', 7, 3, '2B1R', '2R', '1B1R', '1B1R', 5, 1);
-insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (24, 0, 1); --Attack
-insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (24, 2); --Armor
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+--Raiders
+--Apprentice, The --Index 0
+insert into Cards (CardIndex, CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor, Lore) VALUES (0, 'Apprentice, The', 
+'http://htkb.info/RRI/Cards/Characters/Card_Character_Apprentice_The.png', 
+'http://htkb.info/RRI/Cards/Characters/Card_Character_Apprentice_The_back.png', 
+'http://htkb.online/SDWiki/RRI/Cards/Characters/Apprentice_The.xhtml', 
+'Character', 'RRI', 'RRI Core Set', 'Default', 
+'"What is it?"', 'C.O.W. ruthlessly guards its position in the galaxy. While raiders prove to be an irritation to the galactic organization, the damage raiders actually inflict rarely goes beyond minor PR disasters and momentary hits to C.O.W.''s bottom line. When this is taken into consideration, C.O.W.''s obvious desperation to capture the raider known only as "The Apprentice" is dumbfounding. Already boasting a bounty higher than raiders of far more renown, The Apprentice remains a precocious enigma to all that cross its path.');
+insert into KeywordAssignments (KeywordAssignmentsIndex, KeywordIndex, RaiderIndex, LawbotIndex, HighNoonCardIndex, LongArmOfTheLawCardIndex, LootIndex, UtilityIndex) VALUES (0, 0, 0, 0, 0, 0, 0); --Apprentice, The
+insert into Raiders (RaiderIndex, ModelIndex, StandieFront, StandieBack, Gender) VALUES (0, 0, 
+'http://htkb.info/RRI/Cards/Characters/Standies/Apprentice_The.png', 
+'http://htkb.info/RRI/Cards/Characters/Standies/Apprentice_The_back.png', 
+'Either');
+
+--Bakusho Mondai --Index 1
+insert into Cards (CardIndex, CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor, Lore) VALUES (1, 'Bakusho Mondai', 
+'http://htkb.info/RRI/Cards/Characters/Card_Character_Bakusho_Mondai.png', 
+'http://htkb.info/RRI/Cards/Characters/Card_Character_Bakusho_Mondai_back.png', 
+'http://htkb.online/SDWiki/RRI/Cards/Characters/Bakusho_Mondai.xhtml', 
+'Character', 'RRI', 'RRI Core Set', 'Default', 
+'"Take cover! This one''s a big ''un."', 'Bakusho_Mondai''s gregarious nature and boisterous personality made him a natural master of festivals and celebrations. He is eager to join raiding parties and lend his dance-kata and fireworks, exquisitely choreographed to the thumping rhythm of taiko drums.');
+insert into KeywordAssignments (KeywordAssignmentsIndex, KeywordIndex, RaiderIndex, LawbotIndex, HighNoonCardIndex, LongArmOfTheLawCardIndex, LootIndex, UtilityIndex) VALUES (0, 1, 0, 0, 0, 0, 0); --Bakusho Mondai
+insert into Raiders (RaiderIndex, ModelIndex, StandieFront, StandieBack, Gender) VALUES (0, 0, 
+'http://htkb.info/RRI/Cards/Characters/Standies/Bakusho_Mondai.png', 
+'http://htkb.info/RRI/Cards/Characters/Standies/Bakusho_Mondai_back.png', 
+'Masculine');
+
+--Cactus Zak --Index 2
+insert into Cards (CardIndex, CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor, Lore) VALUES (2, 'Cactus Zak', 
+'http://htkb.info/RRI/Cards/Characters/Card_Character_Cactus_Zak.png', 
+'http://htkb.info/RRI/Cards/Characters/Card_Character_Cactus_Zak_back.png', 
+'http://htkb.online/SDWiki/RRI/Cards/Characters/Cactus_Zak.xhtml', 
+'Character', 'RRI', 'RRI Core Set', 'Default', 
+'"Rustlin'' cattle or coin; makes no difference to me."', 'In the wildest regions of the galactic frontier, the only crime more dagerous than raiding government trains is poaching space cattle. And the only man daring enough to make his living at both is Cactus Zak. Once an honest man making a hard living as a space cattle rancher, Zak now risks life and limb in daring heists against the shipments of the Galactic Central Bank for their part in the loss of his family. Branded an outlaw, the man known as Cactus Zak will not rest until he has justice or revenge, whichever comes first.');
+insert into KeywordAssignments (KeywordAssignmentsIndex, KeywordIndex, RaiderIndex, LawbotIndex, HighNoonCardIndex, LongArmOfTheLawCardIndex, LootIndex, UtilityIndex) VALUES (0, 2, 0, 0, 0, 0, 0); --Cactus Zak
+insert into Raiders (RaiderIndex, ModelIndex, StandieFront, StandieBack, Gender) VALUES (0, 0, 
+'http://htkb.info/RRI/Cards/Characters/Standies/Cactus_Zak.png', 
+'http://htkb.info/RRI/Cards/Characters/Standies/Cactus_Zak_back.png', 
+'Masculine');
+
+--Canton Cobb --Index 3
+insert into Cards (CardIndex, CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor, Lore) VALUES (3, 'Canton Cobb', 
+'http://htkb.info/RRI/Cards/Characters/Card_Character_Canton_Cobb.png', 
+'http://htkb.info/RRI/Cards/Characters/Card_Character_Canton_Cobb_back.png', 
+'http://htkb.online/SDWiki/RRI/Cards/Characters/Canton_Cobb.xhtml', 
+'Character', 'RRI', 'RRI Core Set', 'Default', 
+'"Shiny. Let''s be bad guys."', 'Known across the galaxy as the hero of Serene City, Canton Cobb has an uncanny knack for getting into trouble and committing unintentional acts of heroism. On more than one occaision, he''s hidden loot in a small town only to return later to find a grateful community who believe he left the money for them. Despite his unintended reputation and big damn heroics, Canton is a mercenary through and through who will take any job to make a buck. His favorite pastimes include gambling, cleaning Betty (his favorite gun), and spending alone time in his bunk.');
+insert into KeywordAssignments (KeywordAssignmentsIndex, KeywordIndex, RaiderIndex, LawbotIndex, HighNoonCardIndex, LongArmOfTheLawCardIndex, LootIndex, UtilityIndex) VALUES (0, 3, 0, 0, 0, 0, 0); --Canton Cobb
+insert into Raiders (RaiderIndex, ModelIndex, StandieFront, StandieBack, Gender) VALUES (0, 0, 
+'http://htkb.info/RRI/Cards/Characters/Standies/Canton_Cobb.png', 
+'http://htkb.info/RRI/Cards/Characters/Standies/Canton_Cobb_back.png', 
+'Masculine');
+
+
+--Chuy --Index 4
+insert into Cards (CardIndex, CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor, Lore) VALUES (4,'Chuy', 
+'http://htkb.info/RRI/Cards/Characters/Card_Character_Chuy.png', 
+'http://htkb.info/RRI/Cards/Characters/Card_Character_Chuy_back.png', 
+'http://htkb.online/SDWiki/RRI/Cards/Characters/Chuy.xhtml', 
+'Character', 'RRI', 'RRI Core Set', 'Default', 
+'"He''s no use to me dead."', 'Part-time bounty hunter, part-time bandit, and full-time butt-kicker, Chuy''s name is legendary amongst the scum and villainy of the outer rim. While not much is known about the history of this renowned warrior, what is clear is that when the bounty hunting business is slow, Chuy isn''t opposed to robbing space haulers to make a little extra on the side. With his wide array of weapons and sweet-looking armor, he can take down the fiercest bounties and toughest Lawbots. With the ever increasing amounts of loot being sent across the galaxy, it''s clear that stories of Chuy''s exploits will continue to be told across the stars.');
+insert into KeywordAssignments (KeywordAssignmentsIndex, KeywordIndex, RaiderIndex, LawbotIndex, HighNoonCardIndex, LongArmOfTheLawCardIndex, LootIndex, UtilityIndex) VALUES (0, 4, 0, 0, 0, 0, 0); --Chuy
+insert into Raiders (RaiderIndex, ModelIndex, StandieFront, StandieBack, Gender) VALUES (0, 0, 
+'http://htkb.info/RRI/Cards/Characters/Standies/Chuy.png', 
+'http://htkb.info/RRI/Cards/Characters/Standies/Chuy_back.png', 
+'Masculine');
+
+--Cowpunch Candy --Index 5
+insert into Cards (CardIndex, CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor, Lore) VALUES (5, 'Cowpuncher Candy', 
+'http://htkb.info/RRI/Cards/Characters/Card_Character_Cowpuncher_Candy.png', 
+'http://htkb.info/RRI/Cards/Characters/Card_Character_Cowpuncher_Candy_back.png', 
+'http://htkb.online/SDWiki/RRI/Cards/Characters/Cowpuncher_Candy.xhtml', 
+'Character', 'RRI', 'RRI Core Set', 'Default', 
+'"There is a funny story about how she got her moniker, and no, she won''t tell you."', 'With her surprising blaster skills and can-do attitude, Candy has developed quite the reputation and a devoted fan following. Originally a loner, she formed a special connection with the mysterious raider El Cola, and now there''s no one she would rather have on her side. The two of them make one of the most effective bandit teams in all the outer rim. She believes in El Cola''s mission to collect loot and help those in need, but she does save what she can to someday fulfill her own dream: to sample every candy and soda shop in the core worlds.');
+insert into KeywordAssignments (KeywordAssignmentsIndex, KeywordIndex, RaiderIndex, LawbotIndex, HighNoonCardIndex, LongArmOfTheLawCardIndex, LootIndex, UtilityIndex) VALUES (0, 5, 0, 0, 0, 0, 0); --Cowpuncher Candy
+insert into Raiders (RaiderIndex, ModelIndex, StandieFront, StandieBack, Gender) VALUES (0, 0, 
+'http://htkb.info/RRI/Cards/Characters/Standies/Cowpuncher_Candy.png', 
+'http://htkb.info/RRI/Cards/Characters/Standies/Cowpuncher_Candy_back.png', 
+'Feminine');
+
+
+--El Cola --Index 6
+insert into Cards (CardIndex, CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor, Lore) VALUES (6, 'El Cola', 
+'http://htkb.info/RRI/Cards/Characters/Card_Character_El_Cola.png', 
+'http://htkb.info/RRI/Cards/Characters/Card_Character_El_Cola_back.png', 
+'http://htkb.online/SDWiki/RRI/Cards/Characters/El_Cola.xhtml', 
+'Character', 'RRI', 'RRI Core Set', 'Default', 
+'"That masked squirrel-thing is the greatest fighter I have ever met!"', 'No one knows where this mysteriously furry swashbuckling hero comes from, but everyone across the space rails knows not to get in his way - unless they want to suffer a flurry of blindingly quick rapier slashes! El Cola met Cowpuncher Candy shortly after taking up banditry, and they immediately began working together as if they''d known each other all their lives. The pair have become best friends and partners in crime, both sharing a love of adventure, justice, and delicious soda goodness.');
+insert into KeywordAssignments (KeywordAssignmentsIndex, KeywordIndex, RaiderIndex, LawbotIndex, HighNoonCardIndex, LongArmOfTheLawCardIndex, LootIndex, UtilityIndex) VALUES (0, 6, 0, 0, 0, 0, 0); --El Cola
+insert into Raiders (RaiderIndex, ModelIndex, StandieFront, StandieBack, Gender) VALUES (0, 0, 
+'http://htkb.info/RRI/Cards/Characters/Standies/El_Cola.png', 
+'http://htkb.info/RRI/Cards/Characters/Standies/El_Cola_back.png', 
+'Masculine');
+
+--Huckleberry --Index 7
+insert into Cards (CardIndex, CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor, Lore) VALUES (7, 'Huckleberry', 
+'http://htkb.info/RRI/Cards/Characters/Card_Character_Huckleberry.png', 
+'http://htkb.info/RRI/Cards/Characters/Card_Character_Huckleberry_back.png', 
+'http://htkb.online/SDWiki/RRI/Cards/Characters/Huckleberry.xhtml', 
+'Character', 'RRI', 'RRI Core Set', 'Default', 
+'"Don''t start a game you aint''t ready to finish."', 'The Huckleberry is the quintessential gambler, gunfighter, and gentleman. Easily the smoothest dude in the outer rim, he is famously as loyal to his friends and allies as he is vengeful of cheats, thieves, and double-crossers. No one who ever tried to play him dirty at cards or in a heist lived to tell the tale. For Huckleberry, a blaster duel is just another type of gambling, where speed is as crucial as luck and the stakes are your life. As skilled with the gun as he is with a pack of cards, Huckleberry knows that as long as he lives a life worth living, the odds will always be in his favor.');
+insert into KeywordAssignments (KeywordAssignmentsIndex, KeywordIndex, RaiderIndex, LawbotIndex, HighNoonCardIndex, LongArmOfTheLawCardIndex, LootIndex, UtilityIndex) VALUES (0, 7, 0, 0, 0, 0, 0); --Huckleberry
+insert into Raiders (RaiderIndex, ModelIndex, StandieFront, StandieBack, Gender) VALUES (0, 0, 
+'http://htkb.info/RRI/Cards/Characters/Standies/Huckleberry.png', 
+'http://htkb.info/RRI/Cards/Characters/Standies/Huckleberry_back.png', 
+'Masculine');
+
+--John Grizzly --Index 8
+insert into Cards (CardIndex, CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor, Lore) VALUES (8, 'John Grizzly', 
+'http://htkb.info/RRI/Cards/Characters/Card_Character_John_Grizzly.png', 
+'http://htkb.info/RRI/Cards/Characters/Card_Character_John_Grizzly_back.png', 
+'http://htkb.online/SDWiki/RRI/Cards/Characters/John_Grizzly.xhtml', 
+'Character', 'RRI', 'RRI Core Set', 'Default', 
+'"I fight for all those who served"', 'A man of few words and fewer wasted actions, John Grizzly is one of the few outlaws in the galaxy who can claim that his heists on C.O.W. shipments are just a way of evening the score. Overcome with a fierce need to help those who had given so much for the causes of various star systems, as well as a desire to get back at the Galactic Congress for discarding their veterans, John began taking part in dangerous space rail heists for big loot. With courage and dedication, John once again took up arms for a cause he believes in, and isn''t afraid to blast a hole in a few Tinstars to help a fellow soldier in need.');
+insert into KeywordAssignments (KeywordAssignmentsIndex, KeywordIndex, RaiderIndex, LawbotIndex, HighNoonCardIndex, LongArmOfTheLawCardIndex, LootIndex, UtilityIndex) VALUES (0, 8, 0, 0, 0, 0, 0); --John Grizzly
+insert into Raiders (RaiderIndex, ModelIndex, StandieFront, StandieBack, Gender) VALUES (0, 0, 
+'http://htkb.info/RRI/Cards/Characters/Standies/John_Grizzly.png', 
+'http://htkb.info/RRI/Cards/Characters/Standies/John_Grizzly_back.png', 
+'Masculine');
+
+--Josie Oakley --Index 9
+insert into Cards (CardIndex, CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor, Lore) VALUES (9, 'Josie Oakley', 
+'http://htkb.info/RRI/Cards/Characters/Card_Character_Josie_Oakley.png', 
+'http://htkb.info/RRI/Cards/Characters/Card_Character_Josie_Oakley_back.png', 
+'http://htkb.online/SDWiki/RRI/Cards/Characters/Josie_Oakley.xhtml', 
+'Character', 'RRI', 'RRI Core Set', 'Default', 
+'"She''s the best shot in the stars."', 'As the only daughter of legendary outlaw and pistoleer Jumpin'' Wayne Oakley, Josie learned to shoot almost as soon as she could walk. When she was old enough, Josie took everything she learned from her father and followed in his footsteps, becoming one of the most renowned gunfighters and loot-stealing bandits in all the outer rim. Rumor has it she is also the only living person ever to best JR Dallas in a draw. No one knows if there''s any truth to it, but Dallas seems to have an intense rivalry with Josie. In the end, Josie is forging her own path to fame and fortune with the business end of her blaster pistol.');
+insert into KeywordAssignments (KeywordAssignmentsIndex, KeywordIndex, RaiderIndex, LawbotIndex, HighNoonCardIndex, LongArmOfTheLawCardIndex, LootIndex, UtilityIndex) VALUES (0, 9, 0, 0, 0, 0, 0); --Josie Oakley
+insert into Raiders (RaiderIndex, ModelIndex, StandieFront, StandieBack, Gender) VALUES (0, 0, 
+'http://htkb.info/RRI/Cards/Characters/Standies/Josie_Oakley.png', 
+'http://htkb.info/RRI/Cards/Characters/Standies/Josie_Oakley_back.png', 
+'Feminine');
+
+--JR Dallas --Index 10
+insert into Cards (CardIndex, CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor, Lore) VALUES (10, 'JR Dallas', 
+'http://htkb.info/RRI/Cards/Characters/Card_Character_JR_Dallas.png', 
+'http://htkb.info/RRI/Cards/Characters/Card_Character_JR_Dallas_back.png', 
+'http://htkb.online/SDWiki/RRI/Cards/Characters/JR_Dallas.xhtml', 
+'Character', 'RRI', 'RRI Core Set', 'Default', 
+'"Ain''t no tin-plated Lawbot ever gonna outdraw me!"', 'As the almost-undisputed fastest draw in the galaxy, JR Dallas'' reputation makes him the toast of any tavern he graces with his presence. He gladly regales everyone within earshot with tales of his many victories against some of the most legendary names in the outer rim. While some of the details of these stories may be slightly exaggerated, JR knows how to weave an exciting tale, and many patrons are willing to run up their bar tabs buying drinks in exchange for one of his stories. A truly incredible gunfighter, JR is the consummate thrill-seeker, earning big loot from a shootout and promptly losing it all in high-stakes card games, only to do it all again the next day.');
+insert into KeywordAssignments (KeywordAssignmentsIndex, KeywordIndex, RaiderIndex, LawbotIndex, HighNoonCardIndex, LongArmOfTheLawCardIndex, LootIndex, UtilityIndex) VALUES (0, 10, 0, 0, 0, 0, 0); --JR Dallas
+insert into Raiders (RaiderIndex, ModelIndex, StandieFront, StandieBack, Gender) VALUES (0, 0, 
+'http://htkb.info/RRI/Cards/Characters/Standies/JR_Dallas.png', 
+'http://htkb.info/RRI/Cards/Characters/Standies/JR_Dallas_back.png', 
+'Masculine');
+
+--Kid, The --Index 11
+insert into Cards (CardIndex, CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor, Lore) VALUES (11, 'Kid, The', 
+'http://htkb.info/RRI/Cards/Characters/Card_Character_Kid_The.png', 
+'http://htkb.info/RRI/Cards/Characters/Card_Character_Kid_The_back.png', 
+'http://htkb.online/SDWiki/RRI/Cards/Characters/Kid_The.xhtml', 
+'Character', 'RRI', 'RRI Core Set', 'Default', 
+'"I''m the fastest there ever was."', 'As the youngest brother (and subsequent member) of the infamous Black Hat Gang, The Kid was quite literally born to be an outlaw. Loving the adventures he had with his brothers, The Kid was all too eager to be included in the gang''s largest score to date. During the heist, a surprisingly large posse of Tinstars lead by Lt. Deadeye captured most of the gang, The Kid only being saved by his eldest brother''s sacrifice. Since that day, The Kid has gathered as much money as he can and worked to find a way to free his brothers from jail. No Lawbot, bandit, or government official will get in the way of The Kid and his share of the loot.');
+insert into KeywordAssignments (KeywordAssignmentsIndex, KeywordIndex, RaiderIndex, LawbotIndex, HighNoonCardIndex, LongArmOfTheLawCardIndex, LootIndex, UtilityIndex) VALUES (0, 11, 0, 0, 0, 0, 0); --Kid, The
+insert into Raiders (RaiderIndex, ModelIndex, StandieFront, StandieBack, Gender) VALUES (0, 0, 
+'http://htkb.info/RRI/Cards/Characters/Standies/Kid_The.png', 
+'http://htkb.info/RRI/Cards/Characters/Standies/Kid_The_back.png', 
+'Masculine');
+
+
+--Kingsman --Index 12
+insert into Cards (CardIndex, CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor, Lore) VALUES (12, 'Kingsman', 
+'http://htkb.info/RRI/Cards/Characters/Card_Character_Kingsman.png', 
+'http://htkb.info/RRI/Cards/Characters/Card_Character_Kingsman_back.png', 
+'http://htkb.online/SDWiki/RRI/Cards/Characters/Kingsman.xhtml', 
+'Character', 'RRI', 'RRI Core Set', 'Default', 
+'"I say, I do so wish these Tinstars made for better sport."', 'Born to a high class family in the core worlds, the Kingsman cast aside the comforts and privileges that his family''s vast fortune afforded him and instead dedicating his youth to hunting the most dangerous and cunning beasts in the galaxy. A horrible hunting accident involving astro-dynamite required that his body be rebuilt with robotic prosthesis, and Kingsman has returned to the hunt, as well as the occasional train heist, in order to pay for the costly hospital bills. With his incredible aim enhanced by his augmentations, Kingsman has truly become one of the most dangerous men in the galaxy.');
+insert into KeywordAssignments (KeywordAssignmentsIndex, KeywordIndex, RaiderIndex, LawbotIndex, HighNoonCardIndex, LongArmOfTheLawCardIndex, LootIndex, UtilityIndex) VALUES (0, 12, 0, 0, 0, 0, 0); --Kingsman
+insert into Raiders (RaiderIndex, ModelIndex, StandieFront, StandieBack, Gender) VALUES (0, 0, 
+'http://htkb.info/RRI/Cards/Characters/Standies/Kingsman.png', 
+'http://htkb.info/RRI/Cards/Characters/Standies/Kingsman_back.png', 
+'Masculine');
+
+
+--Mutha Superior --Index 13
+insert into Cards (CardIndex, CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor, Lore) VALUES (13, 'Mutha Superior', 
+'http://htkb.info/RRI/Cards/Characters/Card_Character_Mutha_Superior.png', 
+'http://htkb.info/RRI/Cards/Characters/Card_Character_Mutha_Superior_back.png', 
+'http://htkb.online/SDWiki/RRI/Cards/Characters/Mutha_Superior.xhtml', 
+'Character', 'RRI', 'RRI Core Set', 'Default', 
+'"Don''t think of it as robbery, my child. I''m just forcibly asking for a donation."', 'Once a ruthless and terrifying bandit, known for putting down anyone who stood in her way, Mutha Superior has found a new path, one that on the surface seems quite a lot like her old one. Having had a profound religious "awakening" during a heist, she left behind her ill-gotten goods and dedicated herself to her new found faith and piety, eventually settling in as a nun at a remote orphanage. Times are tough, as recent wars have brought in an ever growing influx of little mouths to feed, and an ever depleting sum in the donation box. Finding no other option, Mutha Superior returned to her old train robbing ways, but this time for the good of the children.');
+insert into KeywordAssignments (KeywordAssignmentsIndex, KeywordIndex, RaiderIndex, LawbotIndex, HighNoonCardIndex, LongArmOfTheLawCardIndex, LootIndex, UtilityIndex) VALUES (0, 13, 0, 0, 0, 0, 0); --Mutha Superior
+insert into Raiders (RaiderIndex, ModelIndex, StandieFront, StandieBack, Gender) VALUES (0, 0, 
+'http://htkb.info/RRI/Cards/Characters/Standies/Mutha_Superior.png', 
+'http://htkb.info/RRI/Cards/Characters/Standies/Mutha_Superior_back.png', 
+'Feminine');
+
+
+--Pancho Perfecto --Index 14
+insert into Cards (CardIndex, CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor, Lore) VALUES (14, 'Pancho Perfecto', 
+'http://htkb.info/RRI/Cards/Characters/Card_Character_Pancho_Perfecto.png', 
+'http://htkb.info/RRI/Cards/Characters/Card_Character_Pancho_Perfecto_back.png', 
+'http://htkb.online/SDWiki/RRI/Cards/Characters/Pancho_Perfecto.xhtml', 
+'Character', 'RRI', 'RRI Core Set', 'Default', 
+'"Ugly? I''ll show you ugly!"', 'Known as Pancho The Ugly, Pancho The Rat and Pancho Of The Grinning Machete, as well as several other names not fit to print, Pancho Perfecto is an outlaw renowned as much for his fighting prowess as he is for just plain meanness. Having escaped custody from Lawbot officials on two separate occasions, the last one during the middle of a trial, Pancho Perfecto has taken to working alone, targeting lucrative train routes and always looking for the big score. With his trusty ionic revolver and carbon tritanium machete, Maria, this desperado of the stars won''t rest until he makes his fortune or is put down for good.');
+insert into KeywordAssignments (KeywordAssignmentsIndex, KeywordIndex, RaiderIndex, LawbotIndex, HighNoonCardIndex, LongArmOfTheLawCardIndex, LootIndex, UtilityIndex) VALUES (0, 14, 0, 0, 0, 0, 0); --Pancho Perfecto
+insert into Raiders (RaiderIndex, ModelIndex, StandieFront, StandieBack, Gender) VALUES (0, 0, 
+'http://htkb.info/RRI/Cards/Characters/Standies/Pancho_Perfecto.png', 
+'http://htkb.info/RRI/Cards/Characters/Standies/Pancho_Perfecto_back.png', 
+'Masculine');
+
+
+--Pearl Heart --Index 15
+insert into Cards (CardIndex, CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor, Lore) VALUES (15, 'Pearl Heart', 
+'http://htkb.info/RRI/Cards/Characters/Card_Character_Pearl_Heart.png', 
+'http://htkb.info/RRI/Cards/Characters/Card_Character_Pearl_Heart_back.png', 
+'http://htkb.online/SDWiki/RRI/Cards/Characters/Pearl_Heart.xhtml', 
+'Character', 'RRI', 'RRI Core Set', 'Default', 
+'"Her smile could melt the heart of a Lawbot just as fast as her gun could blast it to smithereens."', 'Anyone who spends time in the outer rim has heard of the Shooting Star Saloon and its beloved star singer and showgirl, Pearl Heart. While now famous for her amazing performances, Pearl lead the life of a bandit and raider long before becoming a star on the stage. She still partakes in the occasional heist, mainly to avoid boredom, but also to stay limber and to liberate a little of the wealth from the galaxy''s great and good (who are notoriously bad tippers). When she encounters other bandits during a raid, she is known for charming her way not just into alliances, but also into a larger cut of the loot.');
+insert into KeywordAssignments (KeywordAssignmentsIndex, KeywordIndex, RaiderIndex, LawbotIndex, HighNoonCardIndex, LongArmOfTheLawCardIndex, LootIndex, UtilityIndex) VALUES (0, 15, 0, 0, 0, 0, 0); --Pearl Heart
+insert into Raiders (RaiderIndex, ModelIndex, StandieFront, StandieBack, Gender) VALUES (0, 0, 
+'http://htkb.info/RRI/Cards/Characters/Standies/Pearl_Heart.png', 
+'http://htkb.info/RRI/Cards/Characters/Standies/Pearl_Heart_back.png', 
+'Feminine');
+
+
+--Rhinestone --Index 16
+insert into Cards (CardIndex, CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor, Lore) VALUES (16, 'Rhinestone', 
+'http://htkb.info/RRI/Cards/Characters/Card_Character_Rhinestone.png', 
+'http://htkb.info/RRI/Cards/Characters/Card_Character_Rhinestone_back.png', 
+'http://htkb.online/SDWiki/RRI/Cards/Characters/Rhinestone.xhtml', 
+'Character', 'RRI', 'RRI Core Set', 'Default', 
+'"Those who tell you to never bring a knife don''t know how to use a knife."', 'With a clash of thunder and the howling of a dozen blades, the beautiful barbarian queen Rhinestone, has become a true terror of the space rails. Rumor has it that she hails from the unexplored territories beyond the outer rim or even another galaxy. The C.O.W. central command continues to raise the bounty on her head exponentially, but to no avail. Of note, the mysterious Conductor has taken an interest in Rhinestone''s dealings, and the pair seem to have a strange connection. Whatever her origins, Rhinestone is equal parts ruthlessness and beauty, never letting anything get in the way of good fight and a big score.');
+insert into KeywordAssignments (KeywordAssignmentsIndex, KeywordIndex, RaiderIndex, LawbotIndex, HighNoonCardIndex, LongArmOfTheLawCardIndex, LootIndex, UtilityIndex) VALUES (0, 16, 0, 0, 0, 0, 0); --Rhinestone
+insert into Raiders (RaiderIndex, ModelIndex, StandieFront, StandieBack, Gender) VALUES (0, 0, 
+'http://htkb.info/RRI/Cards/Characters/Standies/Rhinestone.png', 
+'http://htkb.info/RRI/Cards/Characters/Standies/Rhinestone_back.png', 
+'Feminine');
+
+
+--Star Princess Candy --Index 17
+insert into Cards (CardIndex, CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor, Lore) VALUES (17, 'Star Princess Candy', 
+'http://htkb.info/RRI/Cards/Characters/Card_Character_Star_Princess_Candy.png', 
+'http://htkb.info/RRI/Cards/Characters/Card_Character_Star_Princess_Candy_back.png', 
+'http://htkb.online/SDWiki/RRI/Cards/Characters/Star_Princess_Candy.xhtml', 
+'Character', 'RRI', 'RRI Core Set', 'Default', 
+'"Aren''t you a little short for a lawbot?"', 'The ultimate rebel, Star Princess Candy fights for justice throughout the galaxy with boldness, determination, and a knack to get out of the toughest situations. Star Princess Candy has developed a knack for obtaining secret plans and codes which allow her to raid the rails with uncanny precision.');
+insert into KeywordAssignments (KeywordAssignmentsIndex, KeywordIndex, RaiderIndex, LawbotIndex, HighNoonCardIndex, LongArmOfTheLawCardIndex, LootIndex, UtilityIndex) VALUES (0, 17, 0, 0, 0, 0, 0); --Star Princess Candy
+insert into Raiders (RaiderIndex, ModelIndex, StandieFront, StandieBack, Gender) VALUES (0, 0, 
+'http://htkb.info/RRI/Cards/Characters/Standies/Star_Princess_Candy.png', 
+'http://htkb.info/RRI/Cards/Characters/Standies/Star_Princess_Candy_back.png', 
+'Feminine');
+
+
+--Steelhorse Candy --Index 18
+insert into Cards (CardIndex, CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor, Lore) VALUES (18, 'Steelhorse Candy', 
+'http://htkb.info/RRI/Cards/Characters/Card_Character_Steelhorse_Candy.png', 
+'http://htkb.info/RRI/Cards/Characters/Card_Character_Steelhorse_Candy_back.png', 
+'http://htkb.online/SDWiki/RRI/Cards/Characters/Steelhorse_Candy.xhtml', 
+'Character', 'RRI', 'RRI Core Set', 'Default', 
+'"Ride ''Em Cowgirl!"', 'With her surprising blaster skills and can-do attitude, Candy has developed quite the reputation and a devoted fan following. Originally a loner, she formed a special connection with the mysterious raider El Cola, and now there''s no one she would rather have on her side. The two of them make one of the most effective bandit teams in all the outer rim. She believes in El Cola''s mission to collect loot and help those in need, but she does save what she can to someday fulfill her own dream: to sample every candy and soda shop in the core worlds.');
+insert into KeywordAssignments (KeywordAssignmentsIndex, KeywordIndex, RaiderIndex, LawbotIndex, HighNoonCardIndex, LongArmOfTheLawCardIndex, LootIndex, UtilityIndex) VALUES (0, 18, 0, 0, 0, 0, 0); --Steelhorse Candy
+insert into Raiders (RaiderIndex, ModelIndex, StandieFront, StandieBack, Gender) VALUES (0, 0, 
+'http://htkb.info/RRI/Cards/Characters/Standies/Steelhorse_Candy.png', 
+'http://htkb.info/RRI/Cards/Characters/Standies/Steelhorse_Candy_back.png', 
+'Feminine');
+
+
+--Swordmage Acolyte --Index 19
+insert into Cards (CardIndex, CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor, Lore) VALUES (19, 'Swordmage Acolyte', 
+'http://htkb.info/RRI/Cards/Characters/Card_Character_Swordmage_Acolyte.png', 
+'http://htkb.info/RRI/Cards/Characters/Card_Character_Swordmage_Acolyte_back.png', 
+'http://htkb.online/SDWiki/RRI/Cards/Characters/Swordmage_Acolyte.xhtml', 
+'Character', 'RRI', 'RRI Core Set', 'Default', 
+'"This is between you and me!"', 'Swordmages have a long history of leading the resistance against the oppressive regime of C.O.W. and the Galactic Central Bank. Sadly, these rare and charismatic leaders are ruthlessly hunted down across the galaxy. As fewer and fewer children with innate talents to become swordmages are discovered each year, they have become a dying breed. Now, the swordmages are reduced to a mere handful of grizzled veterans and their young acolytes.');
+insert into KeywordAssignments (KeywordAssignmentsIndex, KeywordIndex, RaiderIndex, LawbotIndex, HighNoonCardIndex, LongArmOfTheLawCardIndex, LootIndex, UtilityIndex) VALUES (0, 19, 0, 0, 0, 0, 0); --Swordmage Acolyte
+insert into Raiders (RaiderIndex, ModelIndex, StandieFront, StandieBack, Gender) VALUES (0, 0, 
+'http://htkb.info/RRI/Cards/Characters/Standies/Swordmage_Acolyte.png', 
+'http://htkb.info/RRI/Cards/Characters/Standies/Swordmage_Acolyte_back.png', 
+'Feminine');
+
+
+--Tazak Geronimo --Index 20
+insert into Cards (CardIndex, CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor, Lore) VALUES (20, 'Tazak Geronimo', 
+'http://htkb.info/RRI/Cards/Characters/Card_Character_Tazak_Geronimo.png', 
+'http://htkb.info/RRI/Cards/Characters/Card_Character_Tazak_Geronimo_back.png', 
+'http://htkb.online/SDWiki/RRI/Cards/Characters/Tazak_Geronimo.xhtml', 
+'Character', 'RRI', 'RRI Core Set', 'Default', 
+'"Even wise men need loot."', 'As second son of the chief of the Star Runner tribe, Tazak always tried to do the best for his family and his people. A great warrior and tracker, Geronimo took on only the toughest scouting missions. Eventually, this led to a surprising partnership with a mysterious masked bandit who had become impressed with Tazak''s cunning and fighting prowess. Soon, Tazak was sending unprecedented amounts of double-dollars back to his people and had resigned himself to this new life as a bandit. While the pair work well together, they will just as often go off on separate capers. Double the jobs means double the loot, and Tazak needs to do all he can to help his tribe.');
+insert into KeywordAssignments (KeywordAssignmentsIndex, KeywordIndex, RaiderIndex, LawbotIndex, HighNoonCardIndex, LongArmOfTheLawCardIndex, LootIndex, UtilityIndex) VALUES (0, 20, 0, 0, 0, 0, 0); --Tazak Geronimo
+insert into Raiders (RaiderIndex, ModelIndex, StandieFront, StandieBack, Gender) VALUES (0, 0, 
+'http://htkb.info/RRI/Cards/Characters/Standies/Tazak_Geronimo.png', 
+'http://htkb.info/RRI/Cards/Characters/Standies/Tazak_Geronimo_back.png', 
+'Masculine');
+
+
+--Thorne --Index 21
+insert into Cards (CardIndex, CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor, Lore) VALUES (21, 'Thorne', 
+'http://htkb.info/RRI/Cards/Characters/Card_Character_Thorne.png', 
+'http://htkb.info/RRI/Cards/Characters/Card_Character_Thorne_back.png', 
+'http://htkb.online/SDWiki/RRI/Cards/Characters/Thorne.xhtml', 
+'Character', 'RRI', 'RRI Core Set', 'Default', 
+'"Bang."', 'Some call him a wild man, others call him a cowboy. The man known as Thorne refers to himself as a simple bounty hunter. Most people find this laid-back and cool customer very easy to get along with, even though he rarely shares much of his past. No matter the danger, Thorne is a man in his element, using fast thinking and even faster reflexes to get out of any jam. As a lifelong fan of martial arts movie star, Brock Li, Thorne is also a kenpo expert, which he enjoys using on any Lawbots fixin'' to keep him from the next big score.');
+insert into KeywordAssignments (KeywordAssignmentsIndex, KeywordIndex, RaiderIndex, LawbotIndex, HighNoonCardIndex, LongArmOfTheLawCardIndex, LootIndex, UtilityIndex) VALUES (0, 21, 0, 0, 0, 0, 0); --Thorne
+insert into Raiders (RaiderIndex, ModelIndex, StandieFront, StandieBack, Gender) VALUES (0, 0, 
+'http://htkb.info/RRI/Cards/Characters/Standies/Thorne.png', 
+'http://htkb.info/RRI/Cards/Characters/Standies/Thorne_back.png', 
+'Masculine');
+
+
+--Typhoon --Index 22
+insert into Cards (CardIndex, CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor, Lore) VALUES (22, 'Typhoon', 
+'http://htkb.info/RRI/Cards/Characters/Card_Character_Typhoon.png', 
+'http://htkb.info/RRI/Cards/Characters/Card_Character_Typhoon_back.png', 
+'http://htkb.online/SDWiki/RRI/Cards/Characters/Typhoon.xhtml', 
+'Character', 'RRI', 'RRI Core Set', 'Default', 
+'"Love and peace!"', 'In an ironic twist of fate, one of the galaxy''s greatest bounty hunters also has the largest bounty in the galaxy on his head: 6 billion double-dollars. A pacifist at his core, Typhoon will go to great lengths to save lives, even his opponents'', and he brings nearly all of his bounties in alive. When the bounty hunting business is slow, Typhoon is also known to take on the occasional heist job, feeling more at ease battling Tinstar robots. Even then, he avoids headshots to allow the individual Lawbots to fight another day. Part deadly gunfighter and part peace-loving hippie, Typhoon will continue to live his life by his own set of rules: love, peace, and loot.');
+insert into KeywordAssignments (KeywordAssignmentsIndex, KeywordIndex, RaiderIndex, LawbotIndex, HighNoonCardIndex, LongArmOfTheLawCardIndex, LootIndex, UtilityIndex) VALUES (0, 22, 0, 0, 0, 0, 0); --Typhoon
+insert into Raiders (RaiderIndex, ModelIndex, StandieFront, StandieBack, Gender) VALUES (0, 0, 
+'http://htkb.info/RRI/Cards/Characters/Standies/Typhoon.png', 
+'http://htkb.info/RRI/Cards/Characters/Standies/Typhoon_back.png', 
+'Masculine');
+
+--Umbra --Index 23
+insert into Cards (CardIndex, CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor, Lore) VALUES (23, 'Umbra', 
+'http://htkb.info/RRI/Cards/Characters/Card_Character_Umbra.png', 
+'http://htkb.info/RRI/Cards/Characters/Card_Character_Umbra_back.png', 
+'http://htkb.online/SDWiki/RRI/Cards/Characters/Umbra.xhtml', 
+'Character', 'RRI', 'RRI Core Set', 'Default', 
+'"Rest in Pieces."', 'Dr. Umbra, PhD is man who has spent his whole life dealing with death as a profession. Cleaning up after botched heists was definitely a strange and less than illustrious career, but Dr. Umbra enjoyed his work, saving up his earnings to buy a custom made astro-hearse, which he lovingly named Morticia. One day tragedy struck, as Dr. Umbra arrived early to a post-heist clean up, poor Morticia was riddled with laser holes by stray Lawbot blasts. When C.O.W. refused to reimburse for the damages, Dr. Umbra decided he would seek reparations by other means, namely by starting a new life as a bandit and outlaw, robbing from any C.O.W. rail shipments and blasting holes in Tinstars with scalpel-like precision.');
+insert into KeywordAssignments (KeywordAssignmentsIndex, KeywordIndex, RaiderIndex, LawbotIndex, HighNoonCardIndex, LongArmOfTheLawCardIndex, LootIndex, UtilityIndex) VALUES (0, 23, 0, 0, 0, 0, 0); --Umbra
+insert into Raiders (RaiderIndex, ModelIndex, StandieFront, StandieBack, Gender) VALUES (0, 0, 
+'http://htkb.info/RRI/Cards/Characters/Standies/Umbra.png', 
+'http://htkb.info/RRI/Cards/Characters/Standies/Umbra_back.png', 
+'Masculine');
+
+--Whistlin Pete --Index 24
+insert into Cards (CardIndex, CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor, Lore) VALUES (24, 'Whistlin Pete', 
+'http://htkb.info/RRI/Cards/Characters/Card_Character_Whistlin_Pete.png', 
+'http://htkb.info/RRI/Cards/Characters/Card_Character_Whistlin_Pete_back.png', 
+'http://htkb.online/SDWiki/RRI/Cards/Characters/Whistlin_Pete.xhtml', 
+'Character', 'RRI', 'RRI Core Set', 'Default', 
+'"I don''t know what was more unsettling, the way he whistled before the gunfight or the way he cackled during it."', 'Insane, strange, and a little bit smelly all accurately describe this mysterious prospector turned space bandit. While his unkempt beard, old worn hat, and slack-jawed grin may make him seem harmless, do not be fooled. One moment, Whistling Pete is a rambling but harmless madman, and the next, he becomes a hollerin'' tornado of death and blaster bolts. As his legend grows, so do the unconfirmed rumors of a tragic past. Wherever he''s from, Whistling Pete and Bessie Omega, his invisible telepathic space cow, travel the space rails, eagerly fighting to claim the C.O.W.''s and the Galactic Bank''s fortunes.');
+insert into KeywordAssignments (KeywordAssignmentsIndex, KeywordIndex, RaiderIndex, LawbotIndex, HighNoonCardIndex, LongArmOfTheLawCardIndex, LootIndex, UtilityIndex) VALUES (0, 24, 0, 0, 0, 0, 0); --Whistlin Pete
+insert into Raiders (RaiderIndex, ModelIndex, StandieFront, StandieBack, Gender) VALUES (0, 0, 
+'http://htkb.info/RRI/Cards/Characters/Standies/Whistlin_Pete.png', 
+'http://htkb.info/RRI/Cards/Characters/Standies/Whistlin_Pete_back.png', 
+'Masculine');
