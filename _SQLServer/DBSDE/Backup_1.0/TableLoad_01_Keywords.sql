@@ -81,7 +81,7 @@
 /*Lycanthropy						--Index  77*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Lycanthropy', 'Wounded models that are not removed from play gain +1 red att and suffer Vulnerable Magic.');
 /*Magic								--Index  78*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Magic', 'This ability allows a the model to attack an enemy up to X squares away. In addition a model making a Magic attack must use their WILL attribute when attacking. A model may use any of its ability or special actions using Magic X, unless specified otherwise.'); 
 /*Magic								--Index  79*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Magic', 'A model with Magic X may target a model up to X squares<br>away. If a model is making an attack using Magic X they must use their<br>WILL attribute when making their attack roll, unless specified otherwise.'); 
-/*Massive Damaage					--Index  80*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Massive Damage', 'When an attack with Massive Damage inflicts a wound it instead inflicts two wounds.');
+/*Massive Damage					--Index  80*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Massive Damage', 'When an attack with Massive Damage inflicts a wound it instead inflicts two wounds.');
 /*Missile							--Index  81*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Missile', 'This ability allows the model to attack an enemy up to X squares away, as long as the model is not adjacent to an enemy model. In addition, a model making a Missile attack must use their DEX attribute when attacking. A model may use any of its abilities or special actions using missile X, unless specified otherwise.'); 
 /*Missile							--Index  82*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Missile', 'A model with Missile X may target a model up to X squares<br>away. If a model is making an attack using Missile X they must use their<br>DEX attribute when making their attack roll, unless specified otherwise.'); 
 /*Mob								--Index  83*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Mob', 'Add +1b ATT to this model''s melee attack for every other model with Mob in melee with the target, up to +3b ATT.');
@@ -168,3 +168,12 @@
 /*Wave									--Index 164*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Wave', 'A Wave effect is centered<br>on the user’s square and<br>hits the user and every<br>model within X squares of<br>the user. Waves replace the<br>distance portion (X) of a<br>distance effect, but do not<br>replace any other aspect of<br>the ability.');
 /*Wave									--Index 165*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Wave', 'A Wave effect is centered on the user’s base and every square within X squares of the user.');
 /*Weak									--Index 166*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Weak', 'A model or effect with Weak places a Weak counter on any model it damages. A model suffering Weak discards the highest result rolled anytime it makes a roll using its ATT attribute.');
+
+/*Lance									--Index 167*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Lance', 'A Lance effect draws a straight Line in any direction, directly away from the user''s base along a distance of X. Every model along this Line is hit. Lance effects may not be used along diagonals.');
+/*Massive Damage						--Index 168*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Massive Damage', 'When an offensive action with Massive Damage inflicts a wound it instead inflicts two wounds.');
+
+
+
+
+
+
