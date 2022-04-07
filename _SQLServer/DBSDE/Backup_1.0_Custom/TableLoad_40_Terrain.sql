@@ -1,5 +1,6 @@
---1.0 Terrain Cards
---Difficult Terrain --CardIndex 151	--UtilityIndex 0	--TerrainIndex 0
+--1.0 Custom
+--Terrain Cards
+--Difficult Terrain --CardIndex cXXX	--UtilityIndex uXXX	--TerrainIndex tXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
 VALUES ('Difficult Terrain',
 'http://htkb.info/SDE/1.0/Cards/Utility/Card_Utility_Terrain_Difficult_Terrain_1.0.png', 
