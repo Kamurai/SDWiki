@@ -26,7 +26,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Blossom_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Pets/Blossom.xhtml', 
 'Pet', '2.0', '2.0 Core Set', 'Default', 
-'');--!! unavailable !!
+'Forever a merry companion to the Kodama, sprouts have recently been given a bad name due to their cousins in the realm of the Forgotten King. In the hands of a skilled gardener, a whole new Kodama village can grow in the shade of a single good sprout.');
 insert into Characters (CardIndex) VALUES (cXXX);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 2); --Emerald
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
@@ -34,9 +34,8 @@ VALUES (chXXX,
 'http://htkb.info/SDE/2.0/Cards/Standies/Blossom_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Standies/Blossom_2.0_back.png',
 'Either', 'Small', '', 1, 1, '0ST', '1ST', '2B', '0ST', 3, 0);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Seeping Growth
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Master Gains Happy Cat
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Pollen Cloud
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, 875); --Seeping Growth
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, 1523); --Pollen Cloud
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 3, 2); --Will
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (eXXX, 2); --Armor
 insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (eXXX, 2, -1);
@@ -91,7 +90,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Ex_Crow_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Pets/Ex_Crow.xhtml', 
 'Pet', '2.0', '2.0 Core Set', 'Default', 
-'');--!! unavailable !!
+'Underdead Crows will sometimes become fiercely loyal to a particular hero, some will say they wait for the Hero to expire so they can make off with some shiny baubles for their nest as they did in life.');
 insert into Characters (CardIndex) VALUES (cXXX);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 0); --Amethyst
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
@@ -99,9 +98,10 @@ VALUES (chXXX,
 'http://htkb.info/SDE/2.0/Cards/Standies/Ex_Crow_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Standies/Ex_Crow_2.0_back.png',
 'Either', 'Small', 'Undead', 5, 1, '3B', '0ST', '0ST', '0ST', 1, 0);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Eat Crow
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Fly
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Murder of Crows
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, 565); --Eat Crow
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, 596); --Fly
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, 728); --Massive Damage
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, 1447); --Murder of Crows
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 1, 1); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (eXXX, 2); --Armor
 insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (eXXX, 1, -1);
@@ -134,7 +134,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Gentle_Natsuko_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Pets/Gentle_Natsuko.xhtml', 
 'Pet', '2.0', '2.0 Core Set', 'Default', 
-'');--!! unavailable !!
+'Ghosts cling to this world for many reasons: hate, vengeance, unfinished works. But those Chochin-Obake who accompany heroes are usually fallen comrades looking to save their friends one last time. Sometimes they even sacrifice their own souls, flaring out in one brilliant moment in the hopes of keeping those they loved in life safe.');
 insert into Characters (CardIndex) VALUES (cXXX);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 0); --Amethyst
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
@@ -142,10 +142,10 @@ VALUES (chXXX,
 'http://htkb.info/SDE/2.0/Cards/Standies/Gentle_Natsuko_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Standies/Gentle_Natsuko_2.0_back.png',
 'Either', 'Small', 'Ghost', 6, 2, '1B', '3B', '1G', '3B', 2, 0);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Ghost
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Illumination
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Immune: Knockdown
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Siphon Life
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, 629); --Ghost
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, 670); --Illumination
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, 681); --Immune: Status Effects
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, 1671); --Siphon Life
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 3, 1); --Will
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (eXXX, 2); --Armor
 insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (eXXX, 2, -1);
@@ -292,7 +292,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Lord_Spike_Rage_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Pets/Lord_Spike_Rage.xhtml', 
 'Pet', '2.0', '2.0 Core Set', 'Default', 
-'');--!! unavailable !!
+'"I am LORD of the Spikers! Please don''t eat me."');
 insert into Characters (CardIndex) VALUES (cXXX);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
@@ -300,10 +300,10 @@ VALUES (chXXX,
 'http://htkb.info/SDE/2.0/Cards/Standies/Lord_Spike_Rage_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Standies/Lord_Spike_Rage_2.0_back.png',
 'Either', 'Small', '', 6, 1, '2B', '2ST', '0ST', '2B', 2, 0);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Master Gains Rage
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Rage
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Small
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Surprisingly Fierce
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, 728); --Massive Damage
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, 830); --Rage
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, 903); --Small
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, 1795); --Surprisingly Fierce
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 1, 1); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (eXXX, 2); --Armor
 insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (eXXX, 2, 2);
@@ -924,7 +924,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Sage_Aumar_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Pets/Sage_Aumar.xhtml', 
 'Pet', '2.0', '2.0 Core Set', 'Default', 
-'');--!! unavailable !!
+'Most Spiteful Cherubs are terrible, malicious creatures devoted to driving heroes mad with deadly secrets. But thtat can get tiring. Every once in a while a cherub just wants to say something nice for a change. Make somebody''s day better, you know? It can''t be, "The darkness will claim all you love and your works will be ground to sand," all the time. Every once in a w hile a cherub just wants to say, "Hey, you look nice today. And you''re rocking that wizard hat."');
 insert into Characters (CardIndex) VALUES (cXXX);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 0); --Amethyst
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
@@ -932,9 +932,9 @@ VALUES (chXXX,
 'http://htkb.info/SDE/2.0/Cards/Standies/Sage_Aumar_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Standies/Sage_Aumar_2.0_back.png',
 'Either', 'Small', 'Demon', 6, 1, '4B', '3B', '2R', '1B', 1, 0);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Fly
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Pep Talk
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Go To Her
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, 596); --Fly
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, 796); --Pep Talk
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, 1224); --Go To Her
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 1, 1); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (eXXX, 2); --Armor
 insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (eXXX, 1, -1);
@@ -1078,7 +1078,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Willard_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Pets/Willard.xhtml', 
 'Pet', '2.0', '2.0 Core Set', 'Default', 
-'');--!! unavailable !!
+'Many heroes think that Willard is unique. A rat who knows his name, obeys commands, and even brings you trinkets! But the truth is that all rats are excellent pets. They are intelligent and loving creatures by nature. They are only driven into the sewers or the waiting arms of the Dark Consul by a populace that does not understand them.');
 insert into Characters (CardIndex) VALUES (cXXX);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
@@ -1086,9 +1086,9 @@ VALUES (chXXX,
 'http://htkb.info/SDE/2.0/Cards/Standies/Willard_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Standies/Willard_2.0_back.png',
 'Either', 'Small', 'Rat', 8, 2, '2B', '2B', '1B', '2R', 2, 0);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Brutal Strike
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Found A Shiny
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Sneakiest Rat
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, 482); --Brutal Strike
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, 609); --Found A Shiny
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, 1698); --Sneakiest Rat
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 1, 1); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (eXXX, 2); --Armor
 insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (eXXX, 2, -1);

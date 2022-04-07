@@ -2117,7 +2117,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Kodama_Gardener_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Kodama_Gardener.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
-'');--!! unavailable !!
+'"Go out into the world, spread your love for the Goddess with each seed you lay. May your blessed tools help you in your labor to turn earth and prepare beds for our future!" - Wilt Greenleaf, Master Gardener.');
 insert into Characters (CardIndex) VALUES (844);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (752, 2); --Emerald
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 

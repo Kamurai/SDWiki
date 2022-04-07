@@ -80,10 +80,10 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/2.0/Cards/Boss_Spawns/Card_Boss_Spawn_Guth_The_2.0_back.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Boss_Spawns/Guth_The.xhtml', 
 'Boss Spawn', '2.0', '2.0 Core Set', 'Default',   
-''); --!! unavailable !!
+'Leading a charge of Frostbyte Ravagers through Barrel Roll Pass, The Guth''s speed and ferocity soon saw him outdistance his horde, isolated, and cutoff. Always choosing to go forward, The Guth carved his wasy to Clockwork Cove. Upon reaching the Undercove, he found the claustrophobic subterranean confines surprisingly delightful and soon began a merry hunt terrorizing the denizens.<br><br>Initially, his rampage ran afoul of The Pauper Prince''s gangs, Scrap Guild, and other feudal lords of the Undercove. But as he fought, the more anarchic and warlike inhabitants flocked to his banner and The Guth quickly established his own fiefdom below. Now, The Guth will occasionally cooperate with rival Undercove bosses, so long as the arrangement satisfies his primary concerns -- that the battle never ends and that his stable of prize hogs are given ample opportunity to feed on the results of the carnage.');
 insert into BossSpawns (CardIndex, DungeonEffect, BossSpawnEffect, TimeoutEffect, DifficultyRating) 
 VALUES (cXXX, '',
-'Spawn one Ijin Oni adjacent to Bomechan.', --!! unavailable !!
+'Get ''em Boys: Spawn four spikers. Starting with the Consul, the Consul and the Party alternate placing Spikers on the dungeon until all four are placed. Spikers may not be placed within three squares of another Spiker or in the first tile.', 
 'WAAAAAAAAAAAAAAAAAGGHHH!!!: Place a Battle Frenzy token on every Orc, Goblin, and Gnoll except the dungeon boss. When a model would suffer one or more damage, it may discard a Battle Frenzy token to reduce the damage to zero.',
 '');
 insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (bsXXX, chXXX); 
@@ -129,6 +129,36 @@ VALUES (cXXX, '',
 'Run Free, Children!: Target Naughtie performs up to three moves and one basic attack action controlled by the Consul. If there are no Naughties in play, any Hero may be chosen instead.',
 '');
 insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (bsXXX, chXXX); 
+
+--Lord Vulcanis     --CardIndex cXXX   --BossSpawnIndex bsXXX  
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Lord Vulcanis', 
+'http://htkb.info/SDE/2.0/Cards/Boss_Spawns/Card_Boss_Spawn_Lord_Vulcanis_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Boss_Spawns/Card_Boss_Spawn_Lord_Vulcanis_2.0_back.png',
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Boss_Spawns/Lord_Vulcanis.xhtml', 
+'Boss Spawn', '2.0', '2.0 Core Set', 'Default',   
+'Vulcanis fell from the Light before even the Dark Consul. A master smith upon the floating olyentos of Celestia, he crafted items of exquisite beauty and quality to adorn the wealthy and powerful. While those he served pursued the arts, philosophy, and knowledge, Vulcanis saw only the softening of the Celestian people. To him, they were a people too soft to take their rightful place as rulers of all Crystalia.<br><br>In secret he began to craft fell weapons of war, and gather like-minded celestians to his cause. By the time of rise of the Dark Consul, Vulcanis and his followers had already gained significant power within the rulng chambers of Celestia. Vulcanis readily threw his support behind the Dark Consul. As he and his follower embraced the darkness, so did they fall. Their wings burned to ash upon their backs and their skin turned as hard and stoney as their hearts.<br><br>Now, Vulcanis lords over arguably the strongest military forces within all the realms. Disciplined, trained, and battle-hardened through centuries of conflict, his Dark Celestian Legion only waits for the the opportune moment to strike!');
+insert into BossSpawns (CardIndex, DungeonEffect, BossSpawnEffect, TimeoutEffect, DifficultyRating) 
+VALUES (cXXX, '',
+'Armory: Equip three Relic Items (in addition to any equipped due to remaining spawning points).<br><br>Apprenticeships: Spawn six Forge Gnomes; one within two squares of each dungeon exit in the first tile and one within two squares of each dungeon exit in the last tile.', 
+'Scrap Metal: All Heroes must randomly discard an equipped loot card, if able.',
+'');
+insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (bsXXX, chXXX); 
+
+
+--Midnight Queen, The     --CardIndex cXXX   --BossSpawnIndex bsXXX  
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Midnight Queen, The', 
+'http://htkb.info/SDE/2.0/Cards/Boss_Spawns/Card_Boss_Spawn_Midnight_Queen_The_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Boss_Spawns/Card_Boss_Spawn_Midnight_Queen_The_2.0_back.png',
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Boss_Spawns/Midnight_Queen_The.xhtml', 
+'Boss Spawn', '2.0', '2.0 Core Set', 'Default',   
+'The origins of the Midnight Queen are a mystery; indeed, exactly when she took on her dark mantle of rulership is unknown. Her background, place of birth, or the history of how she became the Dark Consul''s thrall are all complete blanks. What is known, however, is that she is magically potent, ambitious, and possessed of a horrifyingly twisted and shockingly organized mind. This alone makes her one of the most dangerous enemies of the Goddess.<br><br>Knowledge of the Midnight Queen has spurred literallly hundreds of expeditions to the Midnight Tower over the years. The Midnight Queen has shown her power and intelligence against every Hero who has dared her lair. Her malign influence has only heightened the danger of a place that the Dark Consul''s spirit had already twisted so horribly.');
+insert into BossSpawns (CardIndex, DungeonEffect, BossSpawnEffect, TimeoutEffect, DifficultyRating) 
+VALUES (cXXX, '',
+'Daemonus: If Daemonus is not in play, spawn Daemonus within six squares of the Midnight Queen.<br><br>Bewitching Song: The Consul may move all Heroes 3 squares, using the rules for Compel.', 
+'Daemonus: If Daemonus is not in play, spawn Daemonus within six squares of the Midnight Queen.<br><br>Do Not Fight: All Heroes suffer Hex.',
+'');
+insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (bsXXX, chXXX); 
+
 
 --Professor Cackle-Clink     --CardIndex cXXX   --BossSpawnIndex bsXXX  
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Professor Cackle-Clink', 
