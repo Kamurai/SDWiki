@@ -164,7 +164,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Guth_The_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Bosses/Guth_The.xhtml', 
 'Boss', '2.0 Devil''s Island', '2.0 Devil''s Island', 'Explore',
-'');--!! unavailable !!
+'"After I chop you up, you''ll make a tasty snack!"');
 insert into Characters (CardIndex) VALUES (cXXX);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
@@ -172,12 +172,16 @@ VALUES (chXXX,
 'http://htkb.info/SDE/2.0/Cards/Bosses/Standies/Guth_The_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Bosses/Standies/Guth_The_2.0_back.png', 
 'Neither', 'Large', 'Orc', 8, 4, '1B 2R 1G', '1ST 1B 2R', '1B', '1B 2R', 8, 0);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Pig Feed
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Pile-On
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Warcry
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Goblin Toss
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Out Of My Way!
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Seasoning
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, 708); --Knockdown
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, 728); --Massive Damage
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, 799); --Pig Feed
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, 1807); --Pile-On
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, 830); --Rage
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, 1041); --Tough
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, 1064); --Warcry
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, 1226); --Goblin Toss
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, 1487); --Out Of My Way!
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, 1618); --Seasoning
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 1, 2); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (eXXX, 2); --Armor
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (eXXX, 'Boss', 'Super', 4);
@@ -561,7 +565,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Thresher_The_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Bosses/Thresher_The.xhtml', 
 'Boss', '2.0 Devil''s Island', '2.0 Devil''s Island', 'Explore',
-'');--!! unavailable !!
+'');
 insert into Characters (CardIndex) VALUES (cXXX);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 0); --Amethyst
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
@@ -569,15 +573,15 @@ VALUES (chXXX,
 'http://htkb.info/SDE/2.0/Cards/Bosses/Standies/Thresher_The_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Bosses/Standies/Thresher_The_2.0_back.png', 
 'Neither', 'Large', 'Construct', 5, 4, '2R 2G', '5B', '5B', '1B', 8, 0);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Bag of Crows
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Bane
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Flammable
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Hex
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Massive Damage
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Throw X
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Cull The Weak
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Cloud of Straw
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Pumpkin Toss
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, 452); --Bag of Crows
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, 453); --Bane
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, 588); --Fire
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, 595); --Flammable
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, 647); --Hex
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, 1037); --Throw X
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, 944); --Cull The Weak
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, 898); --Cloud of Straw
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, 1549); --Pumpkin Toss
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 1, 3); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (eXXX, 2); --Armor
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (eXXX, 'Boss', 'Super', 4);

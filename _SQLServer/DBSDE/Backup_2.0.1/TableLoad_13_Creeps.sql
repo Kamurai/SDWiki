@@ -266,7 +266,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/2.0/Cards/Creeps/Card_Creep_Spiker_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Creeps/Spiker.xhtml', 
 'Creep', '2.0', '2.0 Core Set', 'Default', 
-'');--!! unavailable !!
+'Spiker life is short and brutal. Most die from being thrown at Heroes at high velocities or being fed to The Guth''s hogs (or The Guth himself). Surprisingly, there is never any shortage of volunteers to serve as a Spiker. They''re definitely not forced into the role by the bigger orcs and goblins. It''s an honor to serve The Guth. They absolutey, positively, 100% want to be a Spiker. Seriously.');
 insert into Characters (CardIndex) VALUES (cXXX);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
@@ -274,9 +274,9 @@ VALUES (eXXX,
 'http://htkb.info/SDE/2.0/Cards/Standies/Spiker_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Standies/Spiker_2.0_back.png',
 'Either', 'Small', 'Goblin', 6, 1, '2B', '0ST', '0ST', '2B', 1, 0);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Insignificant
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Knockdown
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Mob
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, 693); --Insignificant
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, 709); --Knockdown
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, 757); --Mob
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 1, 1); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (eXXX, 2); --Armor
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (eXXX, '', '8 Bit', 1);
@@ -328,7 +328,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/2.0/Cards/Creeps/Card_Creep_Underdead_Crow_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Creeps/Underdead_Crow.xhtml', 
 'Creep', '2.0', '2.0 Core Set', 'Default', 
-'');--!! unavailable !!
+'"It shouldn''t be upsetting when the crows start disappearing from the fields. But it sure can be terrifying when they return." - Farmers Almanac');
 insert into Characters (CardIndex) VALUES (cXXX);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 0); --Amethyst
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
@@ -336,10 +336,12 @@ VALUES (eXXX,
 'http://htkb.info/SDE/2.0/Cards/Standies/Underdead_Crow_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Standies/Underdead_Crow_2.0_back.png',
 'Either', 'Small', 'Undead', 5, 1, '3B', '0ST', '0ST', '0ST', 1, 0);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Eat Crow
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Fly
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Insignificant
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Murder of Crows
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, 453); --Bane
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, 565); --Eat Crow
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, 596); --Fly
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, 693); --Insignificant
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, 728); --Massive Damage
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, 1447); --Murder of Crows
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 1, 1); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (eXXX, 2); --Armor
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (eXXX, '', '8 Bit', 1);

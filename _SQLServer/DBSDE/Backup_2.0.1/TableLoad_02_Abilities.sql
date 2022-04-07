@@ -21,7 +21,7 @@
 /*Apprentice														--Index 741*/ 	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Apprentice', 'Action', 'Support', 0, -1, -1, 'Spawn two Forge Gnomes adjacent to this model.');
 /*Araphel's Blessing												--Index 742*/ 	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Araphel''s Blessing', 'Action', 'Offense', 0, 1, 3, 'BANE');
 /*Araphel's Blessing												--Index 743*/ 	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Explore', 'Araphel''s Blessing', 'Action', 'Support', 1, 1, -1, 'Once per turn. Select a status effect token and place it in an adjacent, unoccupied square. If a Hero enters the square the token is discarded and the Hero gains the status effect at the end of the current activation.');
-/*Araphel's Wine													--Index 744*/ 	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Default', 'Araphel''s Wine', 'Potion', 'Support', 1, -1, -1, 'AUGMENT, Oracle');
+/*Araphel's Wine													--Index 744*/ 	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Default', 'Araphel''s Wine', 'Potion', 'Support', 1, 3, -1, 'AUGMENT, Oracle');
 /*Arc Lightning														--Index 745*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Explore', 'Arc Lightning', 'Action', 'Offense', 2, 0, 6, 'DANGEROUS, MA6, +1B WILL, Arc');
 /*Arcane Burst														--Index 746*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Explore', 'Arcane Burst', 'Action', 'Offense', 2, 0, 8, '8MA, Burst 1');
 /*Arcane Manipulation												--Index 747*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Explore', 'Arcane Manipulation', 'Action', 'Support', 1, 1, -1, 'WILL vs WILL, Wave 2, Compel 2');
@@ -223,7 +223,7 @@
 /*Crystaline Web													--Index 941*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Explore', 'Crystaline Web', 'Action', 'Offense', 2, 0, -1, '0SW, Wave 1, Slow');
 /*Cucumber Water													--Index 942*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Explore', 'Cucumber Water', 'Potion', 'Offense', 1, 3, -1, 'Augment, Roll 2R and Heal 1 for each star rolled.');
 /*Cull the Weak														--Index 943*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Cull the Weak', 'Action', 'Offense', 0, 1, -1, 'Wave 3, Massive Damage, only models suffering Bane are affected by this attack.');
-/*Cull The Weak														--Index 944*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Explore', 'Cull The Weak', 'Action', 'Offense', 1, 1, 3, '3SW, Massive Damage, this attack may only target models suffering BANE.');
+/*Cull The Weak														--Index 944*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Explore', 'Cull The Weak', 'Action', 'Offense', 1, 0, -1, '3SW, Massive Damage, this attack may only target models suffering BANE.');
 /*Cunning Blade														--Index 945*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Cunning Blade', 'Action', 'Offense', 0, 1, -1, 'Wave 2');
 /*Cunning Blade														--Index 946*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Explore', 'Cunning Blade', 'Action', 'Offense', 2, 0, -1, '0SW, Cross 2');
 /*Cunning Lies														--Index 947*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Cunning Lies', 'Action', 'Support', 0, -1, 6, 'Pull 3');
@@ -1254,6 +1254,70 @@
 
 /*Coolmint Kitty Bomb												--Index 2040*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Explore', 'Coolmint Kitty Bomb', 'Potion', 'Offense', 1, 2, -1, 'DANGEROUS, Wave 1, ICE');
 /*Purrrrr															--Index 2041*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Explore', 'Purrrrr', 'Action', 'Support', 1, 1, -1, 'Wave 1, WILL vs WILL, Compel 2');
-/*Teeth & Fur															--Index 2042*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Explore', 'Teeth and Fur', 'Action', 'Offense', 2, 0, -1, '1SW, +1R STR, Pounce, KNOCKDOWN');
+/*Teeth & Fur														--Index 2042*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Explore', 'Teeth and Fur', 'Action', 'Offense', 2, 0, -1, '1SW, +1R STR, Pounce, KNOCKDOWN');
+
+
+/*At Your Back														--Index 204*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Explore', 'At Your Back', 'Action', 'Support', 1, 2, 4, 'Augment, 4RANGE, Switch places with target Hero.');
+/*Dance of the Dead, The											--Index 204*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Explore', 'Dance of the Dead, The', 'Action', 'Offense', 2, 1, -1, '0MI, Wave 1, POISON');
+/*Essence of Vampire												--Index 204*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Explore', 'Essence of Vampire', 'Potion', 'Support', 1, 3, -1, 'Augment, Whenever this model deals a wound, it Heals 1.');
+/*Fireworks															--Index 204*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Explore', 'Fireworks', 'Action', 'Offense', 2, 1, -1, '8MA, +1R WILL, Massive Damage, Improved Critical');
+/*Glitter Bomb														--Index 204*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Explore', 'Glitter Bomb', 'Potion', 'Offense', 1, 3, -1, 'DANGEROUS, 4MA, Burst 1');
+/*Let's Discuss Our Plan											--Index 204*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Explore', 'Let''s Discuss Our Plan', 'Action', 'Support', 1, 1, -1, 'Augment, Leadership');
+/*Lights In Your Eyes												--Index 204*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Explore', 'Lights In Your Eyes', 'Action', 'Support', 1, 2, 6, '6RANGE, +1G WILL, WILL vs DEX, HEX');
+/*Look Into My Eyes													--Index 204*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Explore', 'Look Into My Eyes', 'Action', 'Support', 1, 2, 6, 'DANGEROUS, 6RANGE, WILL vs WILL, Compel 6');
+/*Memorized Healing Potion											--Index 204*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Explore', 'Memorized Healing Potion', 'Potion', 'Offense', 1, 3, -1, 'Augment, Heal 1 for each spawning point that has been destroyed this game.');
+/*Night's Mercy, The												--Index 204*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Explore', 'Night''s Mercy, The', 'Action', 'Offense', 2, 1, -1, '2SW, +1G STR, Massive Damage');
+/*SparkleBOOM														--Index 204*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Explore', 'SparkleBOOM', 'Action', 'Offense', 2, 0, -1, '8MA, Burst 1, Knockdown');
+/*Taste of You, A													--Index 204*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Explore', 'Taste of You, A', 'Action', 'Offense', 2, 0, -1, '1MA, +1R WILL, Place a crystal token on the target if this action succeeds. The next time the target activates, discard the token and this model controls the target''s first action of the activation.');
+/*Tears of the Moon													--Index 204*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Explore', 'Tears of the Moon', 'Potion', 'Offense', 1, 3, -1, 'Augment, Defender');
+/*Textbook Curse													--Index 204*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Explore', 'Textbook Curse', 'Action', 'Offense', 2, 0, -1, '4MA, +1R WILL, Hex');
+/*Ultra Caffeinated Cramming Potion									--Index 204*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Explore', 'Ultra Caffeinated Cramming Potion', 'Potion', 'Support', 1, 2, -1, 'Augment, +1AC, suffer 1 wound.');
+/*Viper's Strike													--Index 204*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Explore', 'Viper''s Strike', 'Action', 'Offense', 1, 0, -1, '2SW, +1B STR, Pounce. This action may only be taken once per activation.');
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
