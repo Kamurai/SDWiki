@@ -191,17 +191,16 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Creeps/Card_Arcade_Creep_Spiker_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Creeps/Spiker.xhtml', 
 'Creep', '2.0', '2.0 Core Set', 'Default', 
-'');  --!! unavailable !!
+'Spiker life is short and brutal. Most die from being thrown at Heroes at high velocities or being fed to The Guth''s hogs (or The Guth himself). Surprisingly, there is never any shortage of volunteers to serve as a Spiker. They''re definitely not forced into the role by the bigger orcs and goblins. It''s an honor to serve The Guth. They absolutely, positively, 100% want to be a Spiker. Seriously.');  
 insert into Characters (CardIndex) VALUES (cXXX);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
 VALUES (chXXX, 133, -1);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 0); --Amethyst  --!! unavailable !!
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 3); --Ruby  
 --GangMemberIndex gXXX
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (arXXX, 0, 'Spiker', 'Undead Ghost', 'Creep', 6, 1, 0, eXXX);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, 559); --Immune: Status Effects
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, 561); --Insignificant
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (gXXX, abXXX); --Siphon Life
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, 693); --Insignificant
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, 708); --Knockdown
 
 
 --Spiteful Cherub	--CardIndex cXXX	--CharacterIndex chXXX	--ArcadeCharacterIndex arXXX

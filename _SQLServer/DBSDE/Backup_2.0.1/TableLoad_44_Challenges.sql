@@ -150,8 +150,8 @@ VALUES ('Contest of Strength',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss/Challenges/Thresher_The/Card_Boss_Challenge_Contest_of_Strength_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss/Challenges/Backs/Card_Boss_Challenge_Purple_Back_2.0.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Challenges/Boss/Challenges/Thresher_The/Contest_of_Strength.xhtml', 
-'Challenge', '2.0', '2.0 Core Set', 'Default', ''); --!! unavailable !!
-insert into Challenges (CardIndex, Trap, Challenge) VALUES (cXXX, '', ''); --!! unavailable !!
+'Challenge', '2.0', '2.0 Core Set', 'Default', 'Each swing of the Thresher''s flail can rattle loose enough seed to plant a farmer''s back forty, or flatten a fully armored knight like a tin milking pail stepped on by a bull.'); 
+insert into Challenges (CardIndex, Trap, Challenge) VALUES (cXXX, 'The dungeon boss performs the Unique command.', 'All Heroes must use their STR for all defense rolls.'); 
 insert into ChallengeAssignments (CharacterIndex, ChallengeIndex) VALUES (cXXX, clXXX); --Thresher, The
 
 --Corn Maze	--CardIndex cXXX --ChallengeIndex clXXX
@@ -160,8 +160,8 @@ VALUES ('Corn Maze',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss/Challenges/Thresher_The/Card_Boss_Challenge_Corn_Maze_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss/Challenges/Backs/Card_Boss_Challenge_Purple_Back_2.0.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Challenges/Boss/Challenges/Thresher_The/Corn_Maze.xhtml', 
-'Challenge', '2.0', '2.0 Core Set', 'Default', ''); --!! unavailable !!
-insert into Challenges (CardIndex, Trap, Challenge) VALUES (cXXX, '', ''); --!! unavailable !!
+'Challenge', '2.0', '2.0 Core Set', 'Default', '"Was it a right, right, left? Or a right, left, right? Can you ask that funny looking fellow gimping towards us if he knows a way out?"');
+insert into Challenges (CardIndex, Trap, Challenge) VALUES (cXXX, 'The dungeon boss performs the Unique command. Then the dungeon boss is placed adjacent to the SPAWNPOINT icon on the second tile, move any models necessary to adjacent squares to make the dungeon boss fit.', 'The dungeon boss gains Stealth.'); 
 insert into ChallengeAssignments (CharacterIndex, ChallengeIndex) VALUES (cXXX, clXXX); --Thresher, The
 
 --Curse of Rot	--CardIndex cXXX --ChallengeIndex clXXX
@@ -283,8 +283,8 @@ VALUES ('Drinking Contest',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss/Challenges/Thresher_The/Card_Boss_Challenge_Drinking_Contest_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss/Challenges/Backs/Card_Boss_Challenge_Purple_Back_2.0.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Challenges/Boss/Challenges/Thresher_The/Drinking_Contest.xhtml', 
-'Challenge', '2.0', '2.0 Core Set', 'Default', ''); --!! unavailable !!
-insert into Challenges (CardIndex, Trap, Challenge) VALUES (cXXX, '', ''); --!! unavailable !!
+'Challenge', '2.0', '2.0 Core Set', 'Default', '"Never challenge a dwarf in a contest of drink." - Crystalian Proverb'); 
+insert into Challenges (CardIndex, Trap, Challenge) VALUES (cXXX, 'All Heroes discard all potion tokens. All Heroes suffer slow.', 'Only a single Hero may activate.'); 
 insert into ChallengeAssignments (CharacterIndex, ChallengeIndex) VALUES (cXXX, clXXX); --Thresher, The
 
 --Elemental Wrath	--CardIndex cXXX --ChallengeIndex clXXX
@@ -322,8 +322,8 @@ VALUES ('Extra Stuffing',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss/Challenges/Thresher_The/Card_Boss_Challenge_Extra_Stuffing_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss/Challenges/Backs/Card_Boss_Challenge_Purple_Back_2.0.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Challenges/Boss/Challenges/Thresher_The/Extra_Stuffing.xhtml', 
-'Challenge', '2.0', '2.0 Core Set', 'Default', ''); --!! unavailable !!
-insert into Challenges (CardIndex, Trap, Challenge) VALUES (cXXX, '', ''); --!! unavailable !!
+'Challenge', '2.0', '2.0 Core Set', 'Default', 'Stooping low to scrape up bushels of straw, the Thresher can quickly repair depleted limbs and gain resistance to deadly blows. It''s as if the act of stuffing its ragged coat is like slipping on a fresh coat of mail.'); 
+insert into Challenges (CardIndex, Trap, Challenge) VALUES (cXXX, 'The dungeon boss performs the Unique command.', 'The dungeon boss may not suffer more than one wound from a single action, such as critical hits or Massive Damage.');
 insert into ChallengeAssignments (CharacterIndex, ChallengeIndex) VALUES (cXXX, clXXX); --Thresher, The
 
 --Faithful	--CardIndex cXXX --ChallengeIndex clXXX
@@ -374,14 +374,14 @@ VALUES ('Finisher, The',
 'Challenge', '2.0', '2.0 Core Set', 'Default', 'For a time, it seemed as if the tower''s guards had forgotten us, left us to perish from the natural dangers that lurked in such a dark place. But when we were at our weakest, stumbling and coughing, beaten and bloodied from our encounters, the guards struck once more. I think now that they had never left us, watching the entire time from the shadows, waiting to strike when the time was right.');
 insert into Challenges (CardIndex, Trap, Challenge) VALUES (cXXX, '', 'Monsters gain a bonus to their STR equal to the number of wounds on their target.');
 
---Fire Ball	--CardIndex cXXX --ChallengeIndex clXXX
+--Fire Bad!	--CardIndex cXXX --ChallengeIndex clXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
-VALUES ('Fire Ball',
-'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss/Challenges/Thresher_The/Card_Boss_Challenge_Fire_Ball_2.0.png', 
+VALUES ('Fire Bad!',
+'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss/Challenges/Thresher_The/Card_Boss_Challenge_Fire_Bad_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss/Challenges/Backs/Card_Boss_Challenge_Purple_Back_2.0.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Challenges/Boss/Challenges/Thresher_The/Fire_Ball.xhtml', 
-'Challenge', '2.0', '2.0 Core Set', 'Default', ''); --!! unavailable !!
-insert into Challenges (CardIndex, Trap, Challenge) VALUES (cXXX, '', ''); --!! unavailable !!
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Challenges/Boss/Challenges/Thresher_The/Fire_Bad.xhtml', 
+'Challenge', '2.0', '2.0 Core Set', 'Default', '"Of course they''re afraid of fire. Any adventurer who wants to put some distance between themselves and an advancing horde of straw and malice need only to light a torch and wave it about!" - Unknown Adventurer'); 
+insert into Challenges (CardIndex, Trap, Challenge) VALUES (cXXX, 'Remove the fire status effect from all models in play, then the dungeon boss performs the following action:<br><br>RAC Emergency Pale: Wave 3, Push 3, Knockdown. The Dungeon Boss Heals 1 for each wound dealt by this action.', 'The dungeon boss may not suffer more than one wound from a single action, such as critical hits or Massive Damage.');
 insert into ChallengeAssignments (CharacterIndex, ChallengeIndex) VALUES (cXXX, clXXX); --Thresher, The
 
 --Fluff The Pillows	--CardIndex cXXX --ChallengeIndex clXXX
@@ -499,8 +499,8 @@ VALUES ('Goblin Toss Contest',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss/Challenges/Guth_The/Card_Boss_Challenge_Goblin_Toss_Contest_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss/Challenges/Backs/Card_Boss_Challenge_Yellow_Green_Back_2.0.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Challenges/Boss/Challenges/Guth_The/Goblin_Toss_Contest.xhtml', 
-'Challenge', '2.0', '2.0 Core Set', 'Default', 'The Guth enjoys physical games......'); --!! unavailable !!
-insert into Challenges (CardIndex, Trap, Challenge) VALUES (cXXX, 'Roll 1G. The Guth performs the......', 'Only a single Hero.....'); --!! unavailable !!
+'Challenge', '2.0', '2.0 Core Set', 'Default', 'The Guth enjoys physical games of strength almost as much as battle. He has even been known to allow enemies a brief moment of peace in order compete. The stakes are simple. If he wins, he gets to fight you. If he loses, he gets to eat you.'); 
+insert into Challenges (CardIndex, Trap, Challenge) VALUES (cXXX, 'Roll 1G. The Guth performs the Goblin Toss action repeatedly until there are no Spikers in play.<br><br>Then, The Guth performs the Unique command (regardless of whether there are Spikers in play).', 'Only a single Hero may activate.'); 
 insert into ChallengeAssignments (CharacterIndex, ChallengeIndex) VALUES (cXXX, clXXX); --Guth, The
 
 --Gonna Find Out Who's Naughty Or Nice	--CardIndex cXXX --ChallengeIndex clXXX
@@ -621,14 +621,14 @@ VALUES ('Howling Vengeance',
 insert into Challenges (CardIndex, Trap, Challenge) VALUES (cXXX, 'The dungeon boss performs the Fight command and gains +2ST STR for the duration of the command.', 'The dungeon boss gains +1ST ARM for each wound token on the Hero with the most wrath.');
 insert into ChallengeAssignments (CharacterIndex, ChallengeIndex) VALUES (cXXX, clXXX); --Onryo
 
---I Ate The Goblin...I Woke Up Here	--CardIndex cXXX --ChallengeIndex clXXX
+--I Ate That Goblin... Then I Woke Up Here	--CardIndex cXXX --ChallengeIndex clXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
-VALUES ('I Ate The Goblin...I Woke Up Here',
-'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss/Challenges/Guth_The/Card_Boss_Challenge_I_Ate_The_Goblin_I_Woke_Up_Here_2.0.png', 
+VALUES ('I Ate That Goblin... Then I Woke Up Here',
+'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss/Challenges/Guth_The/Card_Boss_Challenge_I_Ate_That_Goblin_Then_I_Woke_Up_Here_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss/Challenges/Backs/Card_Boss_Challenge_Yellow_Green_Back_2.0.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Challenges/Boss/Challenges/Guth_The/I_Ate_The_Goblin_I_Woke_Up_Here.xhtml', 
-'Challenge', '2.0', '2.0 Core Set', 'Default', ''); --!! unavailable !!
-insert into Challenges (CardIndex, Trap, Challenge) VALUES (cXXX, '', ''); --!! unavailable !!
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Challenges/Boss/Challenges/Guth_The/I_Ate_That_Goblin_Then_I_Woke_Up_Here.xhtml', 
+'Challenge', '2.0', '2.0 Core Set', 'Default', ''); 
+insert into Challenges (CardIndex, Trap, Challenge) VALUES (cXXX, 'If there are no Spikers in play, ignore this. Otherwise, destroy the closest Spiker to The Guth and The Guth is placed adjacent to the spawning point icon in the first tile.<br><br>Then, the Guth performs the Unique command (regardless of whether there are Spikers in play).', 'The dungeon boss gains +2ST ARM.'); 
 insert into ChallengeAssignments (CharacterIndex, ChallengeIndex) VALUES (cXXX, clXXX); --Guth, The
 
 --I Know What You Did	--CardIndex cXXX --ChallengeIndex clXXX
@@ -719,14 +719,14 @@ VALUES ('Inferno',
 'Challenge', '2.0', '2.0 Core Set', 'Default', 'This infernal tower is guarded by all manner of creatures and traps alike! We encountered the dreadful Knight of the Tower, and at the pull of a lever he engulfed the corridor we occupied in flames. We lost him in the inferno, and now my cape is singed and Enny, our cat burglar, is having coughing fits.<br><br>I fear the knight could reappear once more around any corner...');
 insert into Challenges (CardIndex, Trap, Challenge) VALUES (cXXX, 'All Heroes that are not on the first tile suffer FIRE.', 'Heroes do not remove status effects at the end of their activation.');
 
---It's A Go Galloping Good Pig	--CardIndex cXXX --ChallengeIndex clXXX
+--It's A Goblin Galloping Good Time	--CardIndex cXXX --ChallengeIndex clXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
-VALUES ('Goblin Toss Contest',
-'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss/Challenges/Guth_The/Card_Boss_Challenge_Its_A_Go_Galloping_Good_Pig_2.0.png', 
+VALUES ('It''s A Goblin Galloping Good Time',
+'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss/Challenges/Guth_The/Card_Boss_Challenge_Its_A_Goblin_Galloping_Good_Time_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss/Challenges/Backs/Card_Boss_Challenge_Yellow_Green_Back_2.0.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Challenges/Boss/Challenges/Guth_The/Its_A_Go_Galloping_Good_Pig.xhtml', 
-'Challenge', '2.0', '2.0 Core Set', 'Default', ''); --!! unavailable !!
-insert into Challenges (CardIndex, Trap, Challenge) VALUES (cXXX, '', ''); --!! unavailable !!
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Challenges/Boss/Challenges/Guth_The/Its_A_Goblin_Galloping_Good_Time.xhtml', 
+'Challenge', '2.0', '2.0 Core Set', 'Default', 'The Guth''s war boars have a complex relationship with goblins. On one hand, Spikers bring them food. On the other, Spikers are food. During a battle this can cause The Guth''s mounts to charge straight into the Spikers, resulting in a stampeding Guth careening through the dungeon, slaying everything within reach, and making no attempt to regain control.'); 
+insert into Challenges (CardIndex, Trap, Challenge) VALUES (cXXX, 'If there are no Spikers in play, ignore this. Otherwise, destroy the closest Spiker to The Guth and The Guth takes the Out of My Way! action three consecutive times.', 'The dungeon boss gains +1ST ARM.'); 
 insert into ChallengeAssignments (CharacterIndex, ChallengeIndex) VALUES (cXXX, clXXX); --Guth, The
 
 --Just a Flesh Wound	--CardIndex cXXX --ChallengeIndex clXXX
@@ -912,14 +912,14 @@ VALUES ('On Wings of Wrath',
 insert into Challenges (CardIndex, Trap, Challenge) VALUES (cXXX, 'Place the dungeon boss adjacent to the SPAWNLOCATION on the first tile. Then, if there are less than four Ghost Creeps in play, spawn Ghost Creeps within three squares of the Hero with the most wrath until there are four Ghost Creeps in play.', 'The dungeon boss may not suffer more than one wound from a single action, such as critical hits or Massive Damage.');
 insert into ChallengeAssignments (CharacterIndex, ChallengeIndex) VALUES (cXXX, clXXX); --Onryo
 
---Out of the Cornfield	--CardIndex cXXX --ChallengeIndex clXXX
+--Out of the Corn	--CardIndex cXXX --ChallengeIndex clXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
-VALUES ('Out of the Cornfield',
-'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss/Challenges/Thresher_The/Card_Boss_Challenge_Out_of_the_Cornfield_2.0.png', 
+VALUES ('Out of the Corn',
+'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss/Challenges/Thresher_The/Card_Boss_Challenge_Out_of_the_Corn_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss/Challenges/Backs/Card_Boss_Challenge_Purple_Back_2.0.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Challenges/Boss/Challenges/Thresher_The/Out_of_the_Cornfield.xhtml', 
-'Challenge', '2.0', '2.0 Core Set', 'Default', ''); --!! unavailable !!
-insert into Challenges (CardIndex, Trap, Challenge) VALUES (cXXX, '', ''); --!! unavailable !!
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Challenges/Boss/Challenges/Thresher_The/Out_of_the_Corn.xhtml', 
+'Challenge', '2.0', '2.0 Core Set', 'Default', 'The cultists that help to usher in the rise of strawmen constructs will often talk of a prophecy when the very fields will one day draw back like a curtain, and an army will stand in its place, as far as the eye can see, to bring to ruin the Kingdom and herald in the Dark Consul''s reign.');
+insert into Challenges (CardIndex, Trap, Challenge) VALUES (cXXX, 'The Dungeon Boss performs the Epic Fight command.', 'All Heroes must use their DEX for all defense rolls.'); 
 insert into ChallengeAssignments (CharacterIndex, ChallengeIndex) VALUES (cXXX, clXXX); --Thresher, The
 
 --Out Of The Ice	--CardIndex cXXX --ChallengeIndex clXXX
@@ -1048,8 +1048,8 @@ VALUES ('Pumpkin Carving Contest',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss/Challenges/Thresher_The/Card_Boss_Challenge_Pumpkin_Carving_Contest_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss/Challenges/Backs/Card_Boss_Challenge_Purple_Back_2.0.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Challenges/Boss/Challenges/Thresher_The/Pumpkin_Carving_Contest.xhtml', 
-'Challenge', '2.0', '2.0 Core Set', 'Default', ''); --!! unavailable !!
-insert into Challenges (CardIndex, Trap, Challenge) VALUES (cXXX, '', ''); --!! unavailable !!
+'Challenge', '2.0', '2.0 Core Set', 'Default', 'The children who grow up around pumpkin patches, during times of harvest, will often carve intricate faces and leering scary grimaces as part of their celebration. If you watch this tradition, a keen eyed observer will also note the drawing of straws. The one that draws the short straw is the one that goes into the patch to pick first.'); 
+insert into Challenges (CardIndex, Trap, Challenge) VALUES (cXXX, 'Spawn one Rotten Pumpkin adjacent to each Hero. (If you have no Rotten Pumpkins, spawn Underdead Crows instead, until there are a maximum of 4 in play).', 'The dungeon boss gains +1ST ARM.'); 
 insert into ChallengeAssignments (CharacterIndex, ChallengeIndex) VALUES (cXXX, clXXX); --Thresher, The
 
 --Rage Spreads, The	--CardIndex cXXX --ChallengeIndex clXXX
@@ -1061,24 +1061,24 @@ VALUES ('Rage Spreads, The',
 'Challenge', '2.0', '2.0 Core Set', 'Default', 'I remember, as a girl, I once squashed a centipede, only to find that it attracted more to the spot. This memory flashed before me as I cut down the great spiders that the cursed elves of this tower use as hounds. It seemed that the more I struck down, the more they swarmed. They did not fear the loss of their comrades, they relished in it. By the time I hacked my way through the swarm, I found I was separated from the others.');
 insert into Challenges (CardIndex, Trap, Challenge) VALUES (cXXX, '', 'Whenever a Hero with three or more wrath suffers a wound, it suffers one additional wound.');
 
---Ragin And Ready To Go	--CardIndex cXXX --ChallengeIndex clXXX
+--Ragin And Ready To Go!	--CardIndex cXXX --ChallengeIndex clXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
-VALUES ('Ragin and Ready To Go',
+VALUES ('Ragin and Ready To Go!',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss/Challenges/Guth_The/Card_Boss_Challenge_Ragin_And_Ready_To_Go_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss/Challenges/Backs/Card_Boss_Challenge_Yellow_Green_Back_2.0.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Challenges/Boss/Challenges/Guth_The/Ragin_And_Ready_To_Go.xhtml', 
-'Challenge', '2.0', '2.0 Core Set', 'Default', ''); --!! unavailable !!
-insert into Challenges (CardIndex, Trap, Challenge) VALUES (cXXX, '', ''); --!! unavailable !!
+'Challenge', '2.0', '2.0 Core Set', 'Default', 'It is easy to assume The Guth is a mindless monster bent only towards destruction and combat. But it is a foolish Hero that does so. The Guth is capable of surprisingly complex strategies and cunning tactics - so long as the end result is destruction and combat.'); 
+insert into Challenges (CardIndex, Trap, Challenge) VALUES (cXXX, 'If there are no Spikers in play, ignore this. Otherwise, destroy the closest Spiker to The Guth and the Consul takes an additional turn after this one.', ''); 
 insert into ChallengeAssignments (CharacterIndex, ChallengeIndex) VALUES (cXXX, clXXX); --Guth, The
 
---Refreshing Grog	--CardIndex cXXX --ChallengeIndex clXXX
+--Refreshments	--CardIndex cXXX --ChallengeIndex clXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
-VALUES ('Refreshing Grog',
-'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss/Challenges/Guth_The/Card_Boss_Challenge_Refreshing_Grog_2.0.png', 
+VALUES ('Refreshments',
+'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss/Challenges/Guth_The/Card_Boss_Challenge_Refreshments_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss/Challenges/Backs/Card_Boss_Challenge_Yellow_Green_Back_2.0.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Challenges/Boss/Challenges/Guth_The/Refreshing_Grog.xhtml', 
-'Challenge', '2.0', '2.0 Core Set', 'Default', ''); --!! unavailable !!
-insert into Challenges (CardIndex, Trap, Challenge) VALUES (cXXX, '', ''); --!! unavailable !!
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Challenges/Boss/Challenges/Guth_The/Refreshments.xhtml', 
+'Challenge', '2.0', '2.0 Core Set', 'Default', 'Eating goblins is generally frowned upon in Undercove, and Frostbyte, and, well everywhere really. It''s not very nice. Nor is it very healthy. But, in a rare pause between trading blows, The Destroyer introduced The Guth to "juicing" as a healthy alternative.'); 
+insert into Challenges (CardIndex, Trap, Challenge) VALUES (cXXX, 'If there are no Spikers in play, ignore this. Otherwise, destroy the closest Spiker to The Guth and The Guth Heals 3.', 'The dungeon boss may not suffer more than one wound from a single action, such as critical hits or Massive Damage.');
 insert into ChallengeAssignments (CharacterIndex, ChallengeIndex) VALUES (cXXX, clXXX); --Guth, The
 
 --Retribution	--CardIndex cXXX --ChallengeIndex clXXX
@@ -1091,14 +1091,14 @@ VALUES ('Retribution',
 insert into Challenges (CardIndex, Trap, Challenge) VALUES (cXXX, 'The dungeon boss performs the Fight command and then the Unique command.', 'The dungeon boss gains +1ST ARM for each status effect token on a Hero in play.');
 insert into ChallengeAssignments (CharacterIndex, ChallengeIndex) VALUES (cXXX, clXXX); --Onryo
 
---Romp And Rack	--CardIndex cXXX --ChallengeIndex clXXX
+--Romp And Rage	--CardIndex cXXX --ChallengeIndex clXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
-VALUES ('Romp And Rack',
-'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss/Challenges/Guth_The/Card_Boss_Challenge_Romp_And_Rack_2.0.png', 
+VALUES ('Romp And Rage',
+'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss/Challenges/Guth_The/Card_Boss_Challenge_Romp_And_Rage_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss/Challenges/Backs/Card_Boss_Challenge_Yellow_Green_Back_2.0.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Challenges/Boss/Challenges/Guth_The/Romp_And_Rack.xhtml', 
-'Challenge', '2.0', '2.0 Core Set', 'Default', ''); --!! unavailable !!
-insert into Challenges (CardIndex, Trap, Challenge) VALUES (cXXX, '', ''); --!! unavailable !!
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Challenges/Boss/Challenges/Guth_The/Romp_And_Rage.xhtml', 
+'Challenge', '2.0', '2.0 Core Set', 'Default', 'It''s not only about eating. It''s also about the pure joy of swinging an axe around bashing stuff, bellowing at the top of your lungs, frothing, and laughing. A good romp should be angry. But most of all - it should be fun.'); 
+insert into Challenges (CardIndex, Trap, Challenge) VALUES (cXXX, 'If there are no Spikers in play, ignore this. Otherwise, destroy the closest Spiker to The Guth and The Guth performs the Fight command.<br><br>Then, The Guth performs the Unique command (regardless of whether there are Spikers in play).', 'The dungeon boss gains +1ST ARM.');
 insert into ChallengeAssignments (CharacterIndex, ChallengeIndex) VALUES (cXXX, clXXX); --Guth, The
 
 --Run Away!	--CardIndex cXXX --ChallengeIndex clXXX
@@ -1273,8 +1273,8 @@ VALUES ('That One Gave Me Gas',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss/Challenges/Guth_The/Card_Boss_Challenge_That_One_Gave_Me_Gas_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss/Challenges/Backs/Card_Boss_Challenge_Yellow_Green_Back_2.0.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Challenges/Boss/Challenges/Guth_The/That_One_Gave_Me_Gas.xhtml', 
-'Challenge', '2.0', '2.0 Core Set', 'Default', ''); --!! unavailable !!
-insert into Challenges (CardIndex, Trap, Challenge) VALUES (cXXX, '', ''); --!! unavailable !!
+'Challenge', '2.0', '2.0 Core Set', 'Default', 'The Stinky Spikers displeased The Guth by refusing to bathe, becoming filthy and diseased. So he ate them. They proved to be remarkably tender and well-aged, if a bit rough to the insides.'); 
+insert into Challenges (CardIndex, Trap, Challenge) VALUES (cXXX, 'If there are no Spikers in play, ignore this. Otherwise, destroy the closest Spiker to The Guth and all Heroes within three squares of The Guth suffer Bane and Hex.<br><br>Then, The Guth performs the Unique command (regardless of whether there are Spikers in play).', 'Only a single Hero may activate.'); 
 insert into ChallengeAssignments (CharacterIndex, ChallengeIndex) VALUES (cXXX, clXXX); --Guth, The
 
 --That Was A Spicy Goblin	--CardIndex cXXX --ChallengeIndex clXXX
@@ -1283,8 +1283,8 @@ VALUES ('That Was A Spicy Goblin',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss/Challenges/Guth_The/Card_Boss_Challenge_That_Was_A_Spicy_Goblin_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss/Challenges/Backs/Card_Boss_Challenge_Yellow_Green_Back_2.0.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Challenges/Boss/Challenges/Guth_The/That_Was_A_Spicy_Goblin.xhtml', 
-'Challenge', '2.0', '2.0 Core Set', 'Default', ''); --!! unavailable !!
-insert into Challenges (CardIndex, Trap, Challenge) VALUES (cXXX, '', ''); --!! unavailable !!
+'Challenge', '2.0', '2.0 Core Set', 'Default', 'A clever Spiker named Wicked thought to stave off his demise by becoming unpalatable to The Guth and his hogs by slathering himsef in hotsauce and filling his ears and trousers with chilis. Inadvertently, he created the Guth-favorite appetizer, "Wicked-Style".'); 
+insert into Challenges (CardIndex, Trap, Challenge) VALUES (cXXX, 'If there are no Spikers in play, ignore this. Otherwise, destroy the closest Spiker to The Guth and all Heroes suffer Knockdown.', 'The dungeon boss may not suffer more than one wound from a single action, such as critical hits or Massive Damage.'); 
 insert into ChallengeAssignments (CharacterIndex, ChallengeIndex) VALUES (cXXX, clXXX); --Guth, The
 
 --They're in the Room!	--CardIndex cXXX --ChallengeIndex clXXX
@@ -1436,8 +1436,8 @@ VALUES ('Withered Crops',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss/Challenges/Thresher_The/Card_Boss_Challenge_Withered_Crops_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss/Challenges/Backs/Card_Boss_Challenge_Purple_Back_2.0.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Challenges/Boss/Challenges/Thresher_The/Withered_Crops.xhtml', 
-'Challenge', '2.0', '2.0 Core Set', 'Default', ''); --!! unavailable !!
-insert into Challenges (CardIndex, Trap, Challenge) VALUES (cXXX, '', ''); --!! unavailable !!
+'Challenge', '2.0', '2.0 Core Set', 'Default', 'The Goddesses bounty, a full harvest, is the delight of those around Crystalia. It is the very antithesis of the Dark Consul and his magic. As such, there is much effort before such harvest times to crush the peoples spirit with a bad harvest, in hopes to bring low the Goddesses power in the realms.'); 
+insert into Challenges (CardIndex, Trap, Challenge) VALUES (cXXX, 'All Heroes must choose to either suffer 3 wounds or Bane.', 'Only a single Hero may activate.'); 
 insert into ChallengeAssignments (CharacterIndex, ChallengeIndex) VALUES (cXXX, clXXX); --Thresher, The
 
 --Withering Wastes, The	--CardIndex cXXX --ChallengeIndex clXXX
