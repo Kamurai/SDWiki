@@ -1,0 +1,3 @@
+--1.0.2
+--Utility Cards
+--Rules Addendum and Errata	--CardIndex cXXX	--UtilityIndex uXXX

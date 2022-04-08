@@ -156,10 +156,3 @@
 /*Wizard Wings 				--Index 152*/ 	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0', 'Default', 'Wizard Wings', 'Potion', 'Support', 1, -1, -1, '+1B WILL, Fly');
 /*X Marks the Spot			--Index 153*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0', 'Default', 'X Marks the Spot', 'Action', 'Support', 2, -1, 0, 'Draw and equip 1 Loot card');
 /*Zealotry							--Index 154*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0', 'Default', 'Zealotry', 'Action', 'Support', 1, -1, -1, 'Augment, Aura 2, +1B Attack');
-
-/*Magic Armor						--Index 155*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0', 'Default', 'Magic Armor', 'Potion', 'Support', 0, 3, -1, '+1R ARM');
-/*Massive Sword						--Index 156*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0', 'Default', 'Massive Sword', 'Action', 'Offense', 3, 2, -1, '+1G ATT, Massive Damage');
-/*Spear Throw						--Index 157*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0', 'Default', 'Spear Throw', 'Action', 'Offense', 1, 0, 4, 'Range 4');
-/*Spinning Axe						--Index 158*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0', 'Default', 'Spinning Axe', 'Action', 'Offense', 2, 1, -1, '+1R ATT, Lance 6');
-
-

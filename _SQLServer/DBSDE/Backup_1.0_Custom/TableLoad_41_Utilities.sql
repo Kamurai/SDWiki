@@ -1,5 +1,6 @@
---1.0 Utility Cards
---Rules Addendum and Errata
+--1.0 Custom
+--Utility Cards
+--Rules Addendum and Errata  --Card Index cXXX --Utility Index uXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
 VALUES ('Rules Addendum and Errata',
 'http://htkb.info/SDE/1.0/Cards/Utility/Card_Utility_Addendums_Errata_Rules_1.0.png', 
