@@ -1556,6 +1556,25 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Adventuring in style.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Loot', 'Bottom', '+1ST DEX');
 
+--Fell My Enemies --CardIndex cXXX --EquipmentIndex eXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Fell My Enemies',
+'http://htkb.info/SDE/2.0/Cards/Prayer_Slips/Card_Prayer_Slip_Fell_My_Enemies_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Prayer_Slips/Card_Prayer_Slip_Back_2.0.png',
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Prayer_Slips/Fell_My_Enemies.xhtml', 
+'Prayer Slips', '2.0', '2.0 Core Set', 'Default',
+''); --!! unavailable !!
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Prayer Slips', 'Bottom', '...model may discard this Prayer Slip at ....of its activation. If it does, all of its attacks gain Burst 1');
+
+--Fill My Belly --CardIndex cXXX --EquipmentIndex eXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Fill My Belly',
+'http://htkb.info/SDE/2.0/Cards/Prayer_Slips/Card_Prayer_Slip_Fell_My_Enemies_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Prayer_Slips/Card_Prayer_Slip_Back_2.0.png',
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Prayer_Slips/Fell_My_Enemies.xhtml', 
+'Prayer Slips', '2.0', '2.0 Core Set', 'Default',
+''); --!! unavailable !!
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Prayer Slips', 'Left', 'This model may discard this Prayer Slip at the start of its activation. If it does, add one potion to the result of all of its rolls this activation (attacks still need to succeed in order to collect the potion).');
+
+
 --Fireflow Stave --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Fireflow Stave',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Generic/Card_Treasure_Fireflow_Stave_2.0.png', 
@@ -1928,6 +1947,26 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'I''ll admit, I judged it by its cover.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Treasure Books', '', 'When this card is drawn, immediately give the Hero that most recently activated all of the wrath. Draw an additional treasure in place of this one.');
 
+--Guide My Fury --CardIndex cXXX --EquipmentIndex eXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Guide My Fury',
+'http://htkb.info/SDE/2.0/Cards/Prayer_Slips/Card_Prayer_Slip_Guide_My_Fury_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Prayer_Slips/Card_Prayer_Slip_Back_2.0.png',
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Prayer_Slips/Guide_My_Fury.xhtml', 
+'Prayer Slips', '2.0', '2.0 Core Set', 'Default',
+'');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Prayer Slips', 'Bottom', 'This model may discard this Prayer Slip at the start of its activation. If it does, all of its attacks gain Massive Damage.');
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, 728); --Massive Damage
+
+--Guide My Hand --CardIndex cXXX --EquipmentIndex eXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Guide My Hand',
+'http://htkb.info/SDE/2.0/Cards/Prayer_Slips/Card_Prayer_Slip_Guide_My_Hand_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Prayer_Slips/Card_Prayer_Slip_Back_2.0.png',
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Prayer_Slips/Guide_My_Hand.xhtml', 
+'Prayer Slips', '2.0', '2.0 Core Set', 'Default',
+''); --!! unavailable !!
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Prayer Slips', 'Left', 'This model may discard this Prayer Slip at the start of its activation. If it does, all of its rolls this activation gain +1B.');
+
+
 --Gunbai Iron Fan --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Gunbai Iron Fan',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Gunbai_Iron_Fan_2.0.png', 
@@ -2018,6 +2057,15 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Loot', '2.0', '2.0 Core Set', 'Default',
 'I stand with the strength of my clan.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Loot', 'Left', '+1R ARM');
+
+--Heal This Unworthy Soul     --CardIndex cXXX --EquipmentIndex eXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Heal This Unworthy Soul',
+'http://htkb.info/SDE/2.0/Cards/Prayer_Slips/Card_Prayer_Slip_Heal_This_Unworthy_Soul_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Prayer_Slips/Card_Prayer_Slip_Back_2.0.png',
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Prayer_Slips/Heal_This_Unworthy_Soul.xhtml', 
+'Prayer Slips', '2.0', '2.0 Core Set', 'Default',
+''); --!! unavailable !!
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Prayer Slips', 'Top', 'This model may discard this Prayer Slip at ... turn. If it does, target.... Heals 3.');
 
 --Heart Container --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Heart Container',
@@ -2408,6 +2456,15 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Treasure', 'Bottom', '+1G ARM');
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (90, 46); --Commanding Presence
 
+--Keep Me From Harm     --CardIndex cXXX --EquipmentIndex eXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Keep Me From Harm',
+'http://htkb.info/SDE/2.0/Cards/Prayer_Slips/Card_Prayer_Slip_Keep_Me_From_Harm_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Prayer_Slips/Card_Prayer_Slip_Back_2.0.png',
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Prayer_Slips/Keep_Me_From_Harm.xhtml', 
+'Prayer Slips', '2.0', '2.0 Core Set', 'Default',
+''); --!! unavailable !!
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Prayer Slips', 'Top', 'This model may discard this Prayer Slip at ... during the Consul turn. If it ... Hero gains +1G ARM for the ... of the Consul Turn.');
+
 --Kid-Snatcher --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Kid-Snatcher',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Kid_Snatcher_2.0.png', 
@@ -2678,6 +2735,24 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Relics', 'Left', '+1R ARM'); 
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Fire
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (90, 46); --Bone Burn
+
+--Make Swift Their Feet     --CardIndex cXXX --EquipmentIndex eXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Make Swift Their Feet',
+'http://htkb.info/SDE/2.0/Cards/Prayer_Slips/Card_Prayer_Slip_Make_Swift_Their_Feet_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Prayer_Slips/Card_Prayer_Slip_Back_2.0.png',
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Prayer_Slips/Make_Swift_Their_Feet.xhtml', 
+'Prayer Slips', '2.0', '2.0 Core Set', 'Default',
+'');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Prayer Slips', 'Right', 'This model may discard this Prayer Slip at the start of another Hero''s activation. If it does, the Hero gains +3MO and Proficient this activation.');
+
+--Make Swift Their Mind     --CardIndex cXXX --EquipmentIndex eXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Make Swift Their Mind',
+'http://htkb.info/SDE/2.0/Cards/Prayer_Slips/Card_Prayer_Slip_Make_Swift_Their_Mind_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Prayer_Slips/Card_Prayer_Slip_Back_2.0.png',
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Prayer_Slips/Make_Swift_Their_Mind.xhtml', 
+'Prayer Slips', '2.0', '2.0 Core Set', 'Default',
+''); --!! unavailable !!
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Prayer Slips', 'Right', 'This model may discard this Prayer Slip at the start of another ... gains +1AC ...');
 
 --Makeshift Polearm --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Makeshift Polearm',
