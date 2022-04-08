@@ -712,3 +712,5 @@
 /*Delicious								--Index 1089*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Explore', 'Delicious', 'When adjacent to this model, The Guth may discard this equipment (ignoring Cursed) as if it were a friendly Goblin Creep to activate Pig Feed.');
 
 /*Brutality Aura						--Index 1090*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Explore', 'Brutality Aura', 'All models, friendly or enemy, that are within two squares of a model with Brutality Aura gain +1ST ARM.');
+
+/*Pig Feed								--Index 1091*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Explore', 'Pig Feed', 'When a model with Pig Feed enters play, spawn one Spiker within three squares of each spawning point icon (four total).'); 
