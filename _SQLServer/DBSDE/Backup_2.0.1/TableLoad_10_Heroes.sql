@@ -4367,14 +4367,14 @@ VALUES (840,
 'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Dazzled_2.0_back.png',
 'Feminine', 'Small', 'Human', 6, 3, '3B', '3B', '3B', '2B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (436, 609); --Found A Shiny
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (436, kxxx); --Hex
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (436, kxxx); --Improved Critical
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (436, kxxx); --Knockdown
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (436, kxxx); --Massive Damage
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (436, abxxx); --SparkleBOOM
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (436, abxxx); --Fireworks
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (436, abxxx); --Lights In Your Eyes
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (436, abxxx); --Glitter Bomb
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (436, 647); --Hex
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (436, 685); --Improved Critical
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (436, 708); --Knockdown
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (436, 728); --Massive Damage
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (436, 2059); --SparkleBOOM
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (436, 2049); --Fireworks
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (436, 2053); --Lights In Your Eyes
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (436, 2050); --Glitter Bomb
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (436, 3, 8); --Will
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (436, 2); --Armor
 
@@ -4393,13 +4393,13 @@ VALUES (841,
 'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Outcast_Vampyr_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Outcast_Vampyr_2.0_back.png',
 'Masculine', 'Small', 'Undead', 6, 3, '2B', '3B', '3B', '3B', 5, 1);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (437, kxxx); --Fly
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (437, kxxx); --Heart Attack
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (437, kxxx); --Hunger
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (437, abxxx); --Taste of You, A
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (437, abxxx); --Dance of the Dead, The
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (437, abxxx); --Look Into My Eyes
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (437, abxxx); --Essence of Vampire
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (437, 596); --Fly
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (437, 1086); --Heart Attack
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (437, 662); --Hunger
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (437, 2060); --Taste of You, A
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (437, 2046); --Dance of the Dead, The
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (437, 2054); --Look Into My Eyes
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (437, 2047); --Essence of Vampire
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (437, 3, 3); --Will
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (437, 4, 2); --Dex
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (437, 2); --Armor
@@ -4419,13 +4419,13 @@ VALUES (842,
 'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Royal_Academic_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Royal_Academic_2.0_back.png',
 'Feminine', 'Small', 'Human', 6, 3, '2B', '3B', '2R', '3B', 5, 2);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (438, kxxx); --Clever
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (438, kxxx); --Hex
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (438, kxxx); --Leadership
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (438, abxxx); --Textbook Curse
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (438, abxxx); --Let's Discuss Our Plan
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (438, abxxx); --Ultra Caffeinated Cramming Potion
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (438, abxxx); --Memorized Healing Potion
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (438, 506); --Clever
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (438, 647); --Hex
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (438, 713); --Leadership
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (438, 2062); --Textbook Curse
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (438, 2052); --Let's Discuss Our Plan
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (438, 2064); --Ultra Caffeinated Cramming Potion
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (438, 2055); --Memorized Healing Potion
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (438, 3, 4); --Will
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (438, 2); --Armor
 
