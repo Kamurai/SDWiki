@@ -1282,10 +1282,10 @@
 /*Viper's Strike													--Index 2065*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Explore', 'Viper''s Strike', 'Action', 'Offense', 1, 0, -1, '2SW, +1B STR, Pounce. This action may only be taken once per activation.');
 
 
-/*Toss Me															--Index 2066*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Explore', 'Toss Me', '', '', -1, 1, -1, 'if this model is targeted by an action with Throw, after resolving the results of the action, destroy this model. Volatile is triggered by Toss Me.');
+/*Toss Me															--Index 2066*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Explore', 'Toss Me', '', '', -1, 1, -1, 'If this model is targeted by an action with Throw, after resolving the results of the action, destroy this model. Volatile is triggered by Toss Me.');
 
 
-
+/*Chained Strike													--Index 2067*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Explore', 'Chained Strike', 'Action', 'Offense', 1, 0, -1, '1SW, Compel 4');
 
 
 
