@@ -160,6 +160,96 @@ VALUES (cXXX, '',
 insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (bsXXX, chXXX); 
 
 
+--Mordred the Accursed     --CardIndex cXXX   --BossSpawnIndex bsXXX  
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Mordred the Accursed', 
+'http://htkb.info/SDE/2.0/Cards/Boss_Spawns/Card_Boss_Spawn_Mordred_the_Accursed_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Boss_Spawns/Card_Boss_Spawn_Mordred_the_Accursed_2.0_back.png',
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Boss_Spawns/Mordred_the_Accursed.xhtml', 
+'Boss Spawn', '2.0', '2.0 Core Set', 'Default',   
+'Mordred was the greatest champion of the Bramble Knights. Privy to The Forgotten King''s evil schemes, Mordred gave himself to the Dark Consul long before the chimeric curse transformed his brethren. He whispered in the Forgotten King''s ear, encouraging and welcoming the treacherous rebellion. He escaped the curse that fell upon his men because he was destroyed by a group of mighty heroes in the final battle, only to be raised by the power of the Dark Consul to fight on.<br><br>Now he seeks out champions of Crystalia, challenging them to single combat, hoping to seek revenge on the ones who slayed him. Those champions who fall are "reborn" as ghostflame skulls, a ghastly trophy enslaved to Mordred''s foul purpose. They cackle and taunt those who dare to challenge their master, still speaking in the same voices they had in life.<br><br>Many have caught glimpses of Mordred riding through the Fae Wood on moonless knights, his Ghostflames floating behind him, searching out his next challenge.');
+insert into BossSpawns (CardIndex, DungeonEffect, BossSpawnEffect, TimeoutEffect, DifficultyRating) 
+VALUES (cXXX, '',
+'Skulls of the Fallen: Spawn six Ghostflames: two adjacent to each SPAWNPOINT square on the first, second, and third tiles. Whenever a Hero is destroyed, spawn one Ghostflame adjacent to any SPAWNPOINT (up to a maximum of six Ghostflames in play).', 
+'Charge Through: All Heroes immediately suffer a melee attack with 5R STR, regardless of range and Line of Sight.',
+'Difficulty Rating 1: If the party is unable to beat this boss with the usual number of Princess Coins, they may add 1 additional Princess Coin the next time they face this boss.');
+insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (bsXXX, chXXX); 
+
+
+--Mother Noctua     --CardIndex cXXX   --BossSpawnIndex bsXXX  
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Mother Noctua', 
+'http://htkb.info/SDE/2.0/Cards/Boss_Spawns/Card_Boss_Spawn_Mother_Noctua_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Boss_Spawns/Card_Boss_Spawn_Mother_Noctua_2.0_back.png',
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Boss_Spawns/Mother_Noctua.xhtml', 
+'Boss Spawn', '2.0', '2.0 Core Set', 'Default',   
+'Deep in the Fae Wood lurks Mother Noctua. The elves have told stories about her going back generations. A great owlbear, spiritual mother to all creatures of the forest, and guardian of its trees. She was said to be fearsome and fickle, but benevolent to those who treated her forest with respect. She was hatched from the very first Deeproot Acorn, and she embodied the might and fury of the Fae Wood itself. As the stories go, she slumbered deep in the wood, only waking during times of great strife.<br><br>When the Nether Rifts swallowed part of the Fae Wood, a scream was heard that echoed through the entire forest. It was blood-curdling and ferocious, pain and sorrow and vengeance all wrapped into one. Mother Noctua had awakened to the deep wound that had been gashed into her lovely wood. Always fearsome, any benevolence in Mother Noctua died that day. Now she defends the Fae Wood against any who do not belong there with all of the fury of a mother defending her children.');
+insert into BossSpawns (CardIndex, DungeonEffect, BossSpawnEffect, TimeoutEffect, DifficultyRating) 
+VALUES (cXXX, '',
+'The Forest Awakens: The Consul may spawn up to 4 skull points of monsters from the spawning pool anywhere in the dungeon.', 
+'The Forest''s Vengeance: This effect does not occur during Boss Sightings. For the remainder of the game, all monsters except for Mother Noctua gain +1R to all rolls.<br><br>Furious Bloom: This effect only occurs during Boss Sightings. The Consul may spawn up to 4 skull points of monsters from the spawning pool in each tile affected by the Boss Sighting. These monsters may spawn anywhere in the tile.',
+'Difficulty Rating 2: If the party is unable to beat this boss with the usual number of Princess Coins, they may add 2 additional Princess Coins the next time they face this boss.');
+insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (bsXXX, chXXX); 
+
+
+--Nightsong the Eternal     --CardIndex cXXX   --BossSpawnIndex bsXXX  
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Nightsong the Eternal', 
+'http://htkb.info/SDE/2.0/Cards/Boss_Spawns/Card_Boss_Spawn_Nightsong_the_Eternal_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Boss_Spawns/Card_Boss_Spawn_Nightsong_the_Eternal_2.0_back.png',
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Boss_Spawns/Nightsong_the_Eternal.xhtml', 
+'Boss Spawn', '2.0', '2.0 Core Set', 'Default',   
+'Once a proud Emerald Dragon, Nightsong''s woodland home was devoured by the formation of the Nether Rifts. Cast into the Dark Realm, he simply refused to die. Now a twisted mockery of his ancient majesty, Nightsong has crawled from the Rifts, animated by his dread will alone.<br><br>Nightsong does not serve the Dark Consul. He does not defend Crystalia. Nightsong serves only himself, and he will not die on anyone else''s terms. If he is cursed to live this twilight between life and death, then the rest of Crystalia must suffer it with him, Goddess and Dark Consul alike. He seeks to turn everything around him into an abomination in his own image. With him come hordes of undead terrors, once more given life to wreak terror upon the land.<br><br>Nightsong is a champion of the undead, and where he dwells, those who share his curse are emboldened and given strength.');
+insert into BossSpawns (CardIndex, DungeonEffect, BossSpawnEffect, TimeoutEffect, DifficultyRating) 
+VALUES (cXXX, '',
+'Undead Horde: Spawn 4 Kodeads within four squares of Nightsong the Eternal.', 
+'Children of Decay: The Consul selects a Hero and spawns a Kodead adjacent to it. Repeat this until a Kodead has spawned adjacent to each Hero or there are six Kodeads in play.',
+'Difficulty Rating 1: If the party is unable to beat this boss with the usual number of Princess Coins, they may add 1 additional Princess Coins the next time they face this boss.');
+insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (bsXXX, chXXX); 
+
+
+--Onibaba     --CardIndex cXXX   --BossSpawnIndex bsXXX  
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Onibaba', 
+'http://htkb.info/SDE/2.0/Cards/Boss_Spawns/Card_Boss_Spawn_Onibaba_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Boss_Spawns/Card_Boss_Spawn_Onibaba_2.0_back.png',
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Boss_Spawns/Onibaba.xhtml', 
+'Boss Spawn', '2.0', '2.0 Core Set', 'Default',   
+'As a mortal, Onibaba would lure stragglers from battles into her traps, finish them off, and sell their possessions. One night, however, she pulled a finely crafted mask from a dark and terrible samurai, and slipped it on over her face. In that instant, the dark power from within the mask touched the festering rot in her soul and consumed her. Soon the mortal hag was infested by an ageless, devouring horror that has stalked Kagejima''s places of slaughter ever since.<br><br>Together, the hag and spirit that inhabits her have retained the name of Onibaba. The spirit has kept Onibaba''s human habits, amplifying those inclinations that were dark and murderous. Those who have ventured close to her and lived have heard her muttering to herself, sometimes in argument, other times laughing ominously. She still lures straggler and wanderers into malicious traps, dispatching them for trinkets she no longer has need or want for.');
+insert into BossSpawns (CardIndex, DungeonEffect, BossSpawnEffect, TimeoutEffect, DifficultyRating) 
+VALUES (cXXX, '',
+'Scavenger: The Consul selects up to two loot from the discard pile or backpack and equips them to Onibaba.', 
+'Battle Without End: If no mini-boss is in play, spawn a mini-boss selected for this game adjacent to target Hero. The mini-boss immediately suffers three wounds. Heroes do not draw treasure for destroying this mini-boss.',
+'Difficulty Rating 1: If the party is unable to beat this boss with the usual number of Princess Coins, they may add 1 additional Princess Coins the next time they face this boss.');
+insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (bsXXX, chXXX); 
+
+
+--Onryo     --CardIndex cXXX   --BossSpawnIndex bsXXX  
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Onryo', 
+'http://htkb.info/SDE/2.0/Cards/Boss_Spawns/Card_Boss_Spawn_Onryo_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Boss_Spawns/Card_Boss_Spawn_Onryo_2.0_back.png',
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Boss_Spawns/Onryo.xhtml', 
+'Boss Spawn', '2.0', '2.0 Core Set', 'Default',   
+'Sometimes, the dead cannot rest. People who die in terror, in rage, in great pain often cannot move on. Their passions become heavy with the spiritual element and cannot escape the pull of this world. In a land as laden with shadows and daggers as Kagejima, this tragedy befalls far too many, including Onryo. A youg girl hated when she should have been loved, cursed when she should have been nurtured, drowned when she should have been saved, Onryo''s vengeful spirit haunts the meres and moors surrounding the place of her death. She torments without rest any travelers who come near or those who remind her of the family that murdered her. Far too many have followed her distant, phantom figure flickering between trees and joined her small bones in a black and lonely pool.');
+insert into BossSpawns (CardIndex, DungeonEffect, BossSpawnEffect, TimeoutEffect, DifficultyRating) 
+VALUES (cXXX, '',
+'Count of Seven: When Onryo spawns, begin tracking the number of Hero activations that occur during the Boss Fight. At the end of the seventh activation, remove one Princess Coin from the backpack. Then begin the count again.', 
+'Lantern Curse: Spawn two Chochin-Obake in any open doorway.',
+'Difficulty Rating 2: If the party is unable to beat this boss with the usual number of Princess Coins, they may add 2 additional Princess Coins the next time they face this boss.');
+insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (bsXXX, chXXX); 
+
+
+--Pauper Prince     --CardIndex cXXX   --BossSpawnIndex bsXXX  
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Pauper Prince', 
+'http://htkb.info/SDE/2.0/Cards/Boss_Spawns/Card_Boss_Spawn_Pauper_Prince_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Boss_Spawns/Card_Boss_Spawn_Pauper_Prince_2.0_back.png',
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Boss_Spawns/Pauper_Prince.xhtml', 
+'Boss Spawn', '2.0', '2.0 Core Set', 'Default',   
+'When asked about his origins, the Pauper Prince smiles slyly beneath the brim of his hat and begins one of a hundred tales. He claims that each one contains the truth, if the listener is only clever enough to find it. Whatever that truth may be, the Pauper Prince''s ragtag hordes of orcs, goblins, constructs, and other ne''er-do-wells have consolidated the Undercove''s gangs and installed the Pauper Prince as the master of a vast criminal underworld.<br><br>Seeking to shatter the growing threat a united Undercove represents to Clockwork Cove, the governors of Ariels have set increasinlgly higher bounties calling for the Prince''s removal. However, more than one adventuring party has been defeated by underestimating the Prince as a mere troll.');
+insert into BossSpawns (CardIndex, DungeonEffect, BossSpawnEffect, TimeoutEffect, DifficultyRating) 
+VALUES (cXXX, '',
+'Rat Pack: Spawn four Dirty Rats within three squares of the Pauper Prince.<br><br>A Prince''s Due: Remove all spent Princess Coins from all Heroes'' cards.', 
+'Rat Swarm: Spawn four Dirty Rats in any open doorway.',
+'');
+insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (bsXXX, chXXX); 
+
+
 --Professor Cackle-Clink     --CardIndex cXXX   --BossSpawnIndex bsXXX  
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Professor Cackle-Clink', 
 'http://htkb.info/SDE/2.0/Cards/Boss_Spawns/Card_Boss_Spawn_Professor_Cackle_Clink_2.0.png', 
@@ -175,6 +265,53 @@ VALUES (cXXX, '',
 insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (bsXXX, chXXX);
 insert into KeywordAssignments (BossSpawnIndex, KeywordIndex) VALUES (bsXXX, kXXX); --Massive Damage
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Firing Pin 
+
+
+--Starfire     --CardIndex cXXX   --BossSpawnIndex bsXXX  
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Starfire', 
+'http://htkb.info/SDE/2.0/Cards/Boss_Spawns/Card_Boss_Spawn_Starfire_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Boss_Spawns/Card_Boss_Spawn_Starfire_2.0_back.png',
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Boss_Spawns/Starfire.xhtml', 
+'Boss Spawn', '2.0', '2.0 Core Set', 'Default',   
+'Some sages claim that Starfire was the first dragon corrupted by the Dark Consul, that he succumbed to evil while he slumbered. The danger posed by Starfire is greater than his own considerable strength and prowess. His domination of the kobolds that spilled through the Nether Rifts into Crystalia speaks to his foresight, knowing they would be useful and project his power further than he could alone. His creation of the dragon cults, however, was a stroke of true genious. In the cults, he gave the kobolds a cause - a deity - to rally and inspiration them, and created a focus for veneration that weakened the fabric of Crystalia to bring in still more monsters. Starfire has reaped the benefits of this for centuries, vastly increasing his personal power and allowing him to dominate the Dragonbacks. His kobolds patrol the entire range, and his minions attack settlements and strongholds throughout Crystalia.');
+insert into BossSpawns (CardIndex, DungeonEffect, BossSpawnEffect, TimeoutEffect, DifficultyRating) 
+VALUES (cXXX, '',
+'Burning Blades: All elite and minion monsters gain the ability FIRE.', 
+'Fire Storm: All Heroes suffer FIRE.',
+'');
+insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (bsXXX, chXXX); 
+insert into KeywordAssignments (BossSpawnIndex, KeywordIndex) VALUES (bsXXX, kXXX); --Fire
+
+
+--Testudo Tower     --CardIndex cXXX   --BossSpawnIndex bsXXX  
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Testudo Tower', 
+'http://htkb.info/SDE/2.0/Cards/Boss_Spawns/Card_Boss_Spawn_Testudo_Tower_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Boss_Spawns/Card_Boss_Spawn_Testudo_Tower_2.0_back.png',
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Boss_Spawns/Testudo_Tower.xhtml', 
+'Boss Spawn', '2.0', '2.0 Core Set', 'Default',   
+''); --!! unavailable !!
+insert into BossSpawns (CardIndex, DungeonEffect, BossSpawnEffect, TimeoutEffect, DifficultyRating) 
+VALUES (cXXX, '',
+'Out of Your Shell: Replace each Turtle Shell model on the dungeon with a Rocktop model from the spawning pool with a skull value of 2 or less.<br><br>Rock Up: All Rocktops gain Immune: Status Effects', 
+'Bumper Shell: Make a Melee Attack against every Hero in the dungeon, regardless of its location. Any model which is wounded must discard one equipped equipment card.',
+'');
+insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (bsXXX, chXXX); 
+insert into KeywordAssignments (BossSpawnIndex, KeywordIndex) VALUES (bsXXX, kXXX); --Immune: Status Effects
+
+
+--Thresher, The     --CardIndex cXXX   --BossSpawnIndex bsXXX  
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Thresher, The', 
+'http://htkb.info/SDE/2.0/Cards/Boss_Spawns/Card_Boss_Spawn_Thresher_The_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Boss_Spawns/Card_Boss_Spawn_Thresher_The_2.0_back.png',
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Boss_Spawns/Thresher_The.xhtml', 
+'Boss Spawn', '2.0', '2.0 Core Set', 'Default',   
+'The machinations of the Dark Consul are varied and complex. No one expected such bold attacks in the heart of civilization, above ground and out of the dungeons. And at the very center of the corruption and pestilence is the Thresher.<br><br>Said to have been born of the malice of a Dark Kodama Bitter Root. A carved token of wood from such a tree was all the anger needed to provide a gateway for the Dark Consul to work his evil magic. And thus, was the Thresher born. The towering construct of straw and timbers seems to drag itself along, wielding a monstrous enchanted flail.<br><br>To encounter a Thresher is to feel your very courage sapped away from you. You do not fight a living beast, prone to anger or rage, only the cold machinations of an evil will placed on an inanimate puppet. Your bravery, your courageous challenges, will count for nothing more than the mulch you will be buried in should you fail.');
+insert into BossSpawns (CardIndex, DungeonEffect, BossSpawnEffect, TimeoutEffect, DifficultyRating) 
+VALUES (cXXX, '',
+'The Sky Blackens: Spawn 2 Underdead Crows within 4 squares of The Thresher.', 
+'Go For The Eyes!: Spawn 1 Underdead Crow adjacent to each Hero, until there is a maximum of 4 Underdead Crows in play.',
+'');
+insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (bsXXX, chXXX); 
 
 
 --Ugg     --CardIndex cXXX   --BossSpawnIndex bsXXX  

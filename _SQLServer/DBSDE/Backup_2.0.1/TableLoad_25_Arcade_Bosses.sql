@@ -64,11 +64,11 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (gXXX, 253
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (gXXX, 495); --Go For The Eyes!
 
 
---The Destroyer	--CardIndex cXXX	--CharacterIndex chXXX	--ArcadeCharacterIndex arXXX
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('The Destroyer',
-'http://htkb.info/SDE/2.0/Cards/Arcade/Bosses/Card_Arcade_Boss_The_Destroyer_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Arcade/Bosses/Card_Arcade_Boss_The_Destroyer_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Bosses/The_Destroyer.xhtml', 
+--Destroyer, The	--CardIndex cXXX	--CharacterIndex chXXX	--ArcadeCharacterIndex arXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Destroyer, The',
+'http://htkb.info/SDE/2.0/Cards/Arcade/Bosses/Card_Arcade_Boss_Destroyer_The_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Arcade/Bosses/Card_Arcade_Boss_Destroyer_The_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Bosses/Destroyer_The.xhtml', 
 'Boss', '2.0', '2.0 Core Set', 'Default', 
 '');
 insert into Characters (CardIndex) VALUES (cXXX);
@@ -136,24 +136,26 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (gXXX, 253
 
 --Guth, The	--CardIndex cXXX	--CharacterIndex chXXX	--ArcadeCharacterIndex arXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Guth, The',
-'http://htkb.info/SDE/2.0/Cards/Arcade/Bosses/Card_Arcade_Boss_Guth, The_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Arcade/Bosses/Card_Arcade_Boss_Guth, The_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Bosses/Guth, The.xhtml', 
+'http://htkb.info/SDE/2.0/Cards/Arcade/Bosses/Card_Arcade_Boss_Guth_The_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Arcade/Bosses/Card_Arcade_Boss_Guth_The_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Bosses/Guth_The.xhtml', 
 'Boss', '2.0', '2.0 Core Set', 'Default', 
-'');--!! unavailable !!
+'"After I chop you up, you''ll make a tasty snack!"');
 insert into Characters (CardIndex) VALUES (cXXX);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
 VALUES (chXXX, 473, -1);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 0); --Amethyst--!! unavailable !!
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 1); --Citrine
 --GangMemberIndex gXXX
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (arXXX, 0, 'Guth, The', 'Orc', 'Boss', 8, 8, 4, eXXX);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, 563); --Pig Feed
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, 524); --Pile-on
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, 557); --Tough
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (gXXX, 212); --Out of My Way!
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (gXXX, 253); --Goblin Toss
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (gXXX, 495); --Warcry
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, 708); --Knockdown
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, 729); --Massive Damage
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, 1091); --Pig Feed
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, 800); --Pile-on
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, 1041); --Tough
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (gXXX, abxxx); --Out of My Way!
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (gXXX, abxxx); --Goblin Toss
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (gXXX, 1997); --Warcry
 
 
 --Hoarfang	--CardIndex cXXX	--CharacterIndex chXXX	--ArcadeCharacterIndex arXXX
@@ -310,6 +312,25 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, 524
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (gXXX, 212); --Deeproot Rage
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (gXXX, 253); --Ferocious Bloom
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (gXXX, 495); --Ravenform
+
+
+--Mugg	--CardIndex cXXX	--CharacterIndex chXXX	--ArcadeCharacterIndex arXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Mugg',
+'http://htkb.info/SDE/2.0/Cards/Arcade/Bosses/Card_Arcade_Boss_Mugg_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Arcade/Bosses/Card_Arcade_Boss_Mugg_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Bosses/Mugg.xhtml', 
+'Boss', '2.0', '2.0 Core Set', 'Default', 
+''); --!! unavailable !!
+insert into Characters (CardIndex) VALUES (cXXX);
+insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
+VALUES (chXXX, 473, -1);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 3); --Ruby
+--GangMemberIndex gXXX
+insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
+VALUES (arXXX, 0, 'Mugg', 'Ogre', 'Boss', 6, 6, 3, eXXX);
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (gXXX, abxxx); --Batters Up!
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (gXXX, 754); --Arrow Storm
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (gXXX, 816); --The Blood Is Up, Brother
 
 
 --Nightsong the Eternal	--CardIndex cXXX	--CharacterIndex chXXX	--ArcadeCharacterIndex arXXX
@@ -479,7 +500,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Bosses/Card_Arcade_Boss_Thresher_The_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Bosses/Thresher_The.xhtml', 
 'Boss', '2.0', '2.0 Core Set', 'Default', 
-''); -- !!unavailabe!!
+'Often mistaken for The Great Pumpkin, Threshers are magically imbued constructs of hay, wood, and a burning desire to reap all living things like wheat in the field. With a slow stomping tread, straw and bugs shake out from the creature''s rotten timbers with each step, often giving a nasty case of hay fever to any heroes with allergies nearby.'); 
 insert into Characters (CardIndex) VALUES (cXXX);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
 VALUES (chXXX, 473, -1);
@@ -487,12 +508,34 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 0
 --GangMemberIndex gXXX
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (arXXX, 0, 'Thresher, The', 'Construct', 'Boss', 5, 9, 4, eXXX);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, 563); --Flammable
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, 524); --Hex
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, 557); --Massive Damage
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (gXXX, 212); --Cloud of Straw
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (gXXX, 253); --Cull the Weak
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (gXXX, 495); --Bag of Crows
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, 595); --Flammable
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, 649); --Hex
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, 728); --Massive Damage
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (gXXX, 896); --Cloud of Straw
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (gXXX, 943); --Cull the Weak
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (gXXX, 769); --Bag of Crows
+
+
+--Ugg	--CardIndex cXXX	--CharacterIndex chXXX	--ArcadeCharacterIndex arXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ugg',
+'http://htkb.info/SDE/2.0/Cards/Arcade/Bosses/Card_Arcade_Boss_Ugg_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Arcade/Bosses/Card_Arcade_Boss_Ugg_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Bosses/Ugg.xhtml', 
+'Boss', '2.0', '2.0 Core Set', 'Default', 
+''); --!! unavailable !!
+insert into Characters (CardIndex) VALUES (cXXX);
+insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
+VALUES (chXXX, 473, -1);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 3); --Ruby
+--GangMemberIndex gXXX
+insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
+VALUES (arXXX, 0, 'Ugg', 'Ogre', 'Boss', 4, 6, 3, eXXX);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, 488); --Bully
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, 728); --Massive Damage
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, 765); --My Brother!
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (gXXX, 1651); --Shoots 'em In The Air!!!
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (gXXX, 1762); --Stomp And Bash
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (gXXX, 2036); --You're Bleeding, Brother!
 
 
 --Ymnaur Wintersson	--CardIndex cXXX	--CharacterIndex chXXX	--ArcadeCharacterIndex arXXX
