@@ -406,7 +406,7 @@
 /*Piracy								--Index 803*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Arcade', 'Piracy', 'When a monster with Piracy attacks a Hero and the Hero rolls zero stars for defense, the Hero must discard one equipped loot card at random, if able.');
 /*Piracy								--Index 804*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Explore', 'Piracy', 'When a monster with Piracy achieves a critical success, its target must discard one equipped loot card at random, if able. ');
 /*Piracy								--Index 805*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Explore', 'Piracy', 'When a model with Piracy achieves a critical success, its target must discard one equipped loot card at random, if able. ');
-/*Plunder Twins, The					--Index 806*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Plunder Twins, The', '');
+/*Plunder Twins, The					--Index 806*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Plunder Twins, The', ''); --!! Mugg and Ugg !!
 /*Poison								--Index 807*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Poison', 'A model suffering Poison reduces its total number of action points by 1, to a minimum of 1.');
 /*Poisonous Mist						--Index 808*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Poisonous Mist', 'All Heroes suffer POISON.');
 /*POP									--Index 809*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Arcade', 'POP', 'When a model with POP is destroyed, all adjacent enemies suffer one damage, and all friendly Creeps in Line of Sight perform the Move command.');
@@ -699,13 +699,13 @@
 /*You've Been Naughty					--Index 1082*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Explore', 'You''ve Been Naughty', 'After an enemy model rolls a critical success against a model with You''ve Been Naughty, the enemy model Shapeshifts into a Naughtie (regardless of the number of wounds dealt by the critical).  The Consul selects one Naughtie shapeshift card that is not already being used by a Hero.  If all Naughtie shapeshift cards are in play, this ability has no effect.  Heroes on Kringle''s Nice List may not be shapeshifted in this way.');
 /*Your Goddess Has Forsaken You			--Index 1083*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Your Goddess Has Forsaken You', 'All enemy Heroes discard all spent Princess Coins from their cards.  All enemy Heroes without Princess Coins to discard suffer one wound.');
 
-/*Impulsive								--Index 1084*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Explore', 'Impulsive', '');
+/*Impulsive								--Index 1084*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Explore', 'Impulsive', ''); --!! unavailable Orcdon Ramsay !!
 
 /*Hex									--Index 1085*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Explore', 'Hex', 'A model suffering Hex discards the highest result rolled antime it makes an offense roll. After dice are rolled by any Hero for any reason, this model may discard the die to add it to the roll.');
 
 /*Heart Attack							--Index 1086*/ insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Explore', 'Heart Attack', ''); --!! unavailable Outcast Vampyr !!
 
-/*Pile-On								--Index 1807*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Explore', 'Pile-On', 'A model with Pile-on gains +1R STR if its target is suffering Knockdown.');
+/*Pile-On								--Index 1087*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Explore', 'Pile-On', 'A model with Pile-on gains +1R STR if its target is suffering Knockdown.');
 
 /*Silverware							--Index 1088*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Explore', 'Silverware', 'All Spikers in play gain +1G STR.');
 

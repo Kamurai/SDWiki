@@ -629,12 +629,12 @@ VALUES (1027,
 'http:/htkb.info/SDE/2.0/Cards/Standies/Grim_Golem_2.0.png', 
 'http:/htkb.info/SDE/2.0/Cards/Standies/Grim_Golem_2.0_back.png', 
 'Neither', 'Large', 'Construct', 5, 3, '2R', '2ST 2R', '3B', '1B', 6, 0);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (531, kXXX); --Immune: Status Effects
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (531, kXXX); --Resolve Aura
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (531, kXXX); --Stealth
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (531, abXXX); --Siege Tower
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (531, abXXX); --Fortification
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (531, abXXX); --Unnatural Dark
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (531, 681); --Immune: Status Effects
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (531, 851); --Resolve Aura
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (531, 1010); --Stealth
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (531, 1660); --Siege Tower
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (531, 1164); --Fortification
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (531, 1888); --Unnatural Dark
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (531, 1, 2); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (531, 2); --Armor
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (531, 'Miniboss', 'Super', 4);
@@ -653,15 +653,15 @@ VALUES (936,
 'http:/htkb.info/SDE/2.0/Cards/Standies/Hecate_Vilehorn_2.0.png', 
 'http:/htkb.info/SDE/2.0/Cards/Standies/Hecate_Vilehorn_2.0_back.png', 
 'Either', 'Large', 'Witch Centaur', 8, 3, '1B 2R', '2R', '3R', '2B', 6, 0);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (532, kXXX); --Animate Soul
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (532, kXXX); --Hex
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (532, kXXX); --Knockdown
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (532, kXXX); --Mob
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (532, kXXX); --Raise
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (532, kXXX); --Surefoot
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (532, abXXX); --Trample
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (532, abXXX); --Army of Bone
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (532, abXXX); --Soul Shard
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (532, 434); --Animate Soul
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (532, 647); --Hex
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (532, 708); --Knockdown
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (532, 757); --Mob
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (532, 832); --Raise
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (532, 1023); --Surefoot
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (532, 1858); --Trample
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (532, 750); --Army of Bone
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (532, 1719); --Soul Shard
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (532, 1, 2); --Strength
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (532, 3, 6); --Will
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (532, 2); --Armor
@@ -681,12 +681,12 @@ VALUES (937,
 'http:/htkb.info/SDE/2.0/Cards/Standies/Ibaraki_Doji_2.0.png', 
 'http:/htkb.info/SDE/2.0/Cards/Standies/Ibaraki_Doji_2.0_back.png', 
 'Masculine', 'Small', 'Ijin Riftling', 6, 3, '2G', '2B 1R', '2B', '3B', 6, 0);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (533, kXXX); --Brutal Strike
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (533, kXXX); --Massive Damage
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (533, kXXX); --Rampage
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (533, abXXX); --Finish The Weak
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (533, abXXX); --Double Slash
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (533, abXXX); --Battle Howl
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (533, 482); --Brutal Strike
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (533, 728); --Massive Damage
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (533, 834); --Rampage
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (533, 1116); --Finish The Weak
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (533, 1033); --Double Slash
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (533, 780); --Battle Howl
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (533, 1, 2); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (533, 2); --Armor
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (533, 'Miniboss', 'Super', 4);
@@ -705,13 +705,13 @@ VALUES (938,
 'http:/htkb.info/SDE/2.0/Cards/Standies/Kappa_2.0.png', 
 'http:/htkb.info/SDE/2.0/Cards/Standies/Kappa_2.0_back.png', 
 'Neither', 'Large', 'Oni', 5, 3, '1B 2R', '3R', '2B 1R', '2B', 6, 0);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (534, kXXX); --Backlash
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (534, kXXX); --Immobile
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (534, kXXX); --Sturdy
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (534, kXXX); --Throw X
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (534, abXXX); --Shell Spin
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (534, abXXX); --The Kappa's Curse
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (534, abXXX); --Fickle Kappa
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (534, 449); --Backlash
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (534, 672); --Immobile
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (534, 1021); --Sturdy
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (534, 1037); --Throw X
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (534, 1342); --Kappa's Curse, The
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (534, 1641); --Shell Spin
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (534, 1103); --Fickle Kappa
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (534, 1, 1); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (534, 2); --Armor
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (534, 'Miniboss', 'Super', 4);
@@ -731,13 +731,13 @@ VALUES (939,
 'http:/htkb.info/SDE/2.0/Cards/Standies/Knight_of_the_Shifting Sand_2.0.png', 
 'http:/htkb.info/SDE/2.0/Cards/Standies/Knight_of_the_Shifting Sand_2.0_back.png', 
 'Masculine', 'Small', 'Nether Elf Soldier', 6, 3, '2ST 2R', '1B', '3R', '3B', 7, 0);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (535, kXXX); --Bluff
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (535, kXXX); --Knockdown
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (535, kXXX); --Predator
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (535, kXXX); --Surefoot
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (535, abXXX); --Nether Rift
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (535, abXXX); --Sand Storm
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (535, abXXX); --Hunting Party
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (535, 468); --Bluff
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (535, 708); --Knockdown
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (535, 818); --Predator
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (535, 1023); --Surefoot
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (535, 1465); --Nether Rift
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (535, 1606); --Sand Storm
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (535, 1284); --Hunting Party
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (535, 1, 2); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (535, 3); --Will
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (535, 'Miniboss', 'Super', 4);
@@ -757,14 +757,14 @@ VALUES (940,
 'http:/htkb.info/SDE/2.0/Cards/Standies/Knight_of_the_Tower_2.0.png', 
 'http:/htkb.info/SDE/2.0/Cards/Standies/Knight_of_the_Tower_2.0_back.png', 
 'Masculine', 'Small', 'Nether Elf Soldier', 6, 3, '2ST 2R', '1B', '1B 2R', '3B', 7, 0);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (536, kXXX); --Arc
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (536, kXXX); --Dread
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (536, kXXX); --Fly
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (536, kXXX); --Knockdown
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (536, kXXX); --Stealth
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (536, abXXX); --Nether Rift
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (536, abXXX); --Void Lightning
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (536, abXXX); --Unnatural Dark
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (536, 437); --Arc
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (536, 563); --Dread
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (536, 596); --Fly
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (536, 708); --Knockdown
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (536, 1010); --Stealth
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (536, 1465); --Nether Rift
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (536, 1991); --Void Lightning
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (536, 1888); --Unnatural Dark
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (536, 1, 2); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (536, 3); --Will
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (536, 'Miniboss', 'Super', 4);
@@ -783,10 +783,10 @@ VALUES (941,
 'http:/htkb.info/SDE/2.0/Cards/Standies/Kobold_Ogre_2.0.png', 
 'http:/htkb.info/SDE/2.0/Cards/Standies/Kobold_Ogre_2.0_back.png', 
 'Neither', 'Large', 'Kobold Ogre', 5, 3, '2R 2B', '2R', '1B', '2R', 7, 0);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (537, kXXX); --Knockdown
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (537, kXXX); --Mob
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (537, abXXX); --Thwomp
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (537, abXXX); --Spin Around Real Fast
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (537, 708); --Knockdown
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (537, 757); --Mob
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (537, 1838); --Thwomp
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (537, 1728); --Spin Around Real Fast
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (537, 1, 3); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (537, 2); --Armor
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (537, 'Miniboss', 'Super', 4);
@@ -805,12 +805,12 @@ VALUES (942,
 'http:/htkb.info/SDE/2.0/Cards/Standies/Mistmourn_Warg_2.0.png', 
 'http:/htkb.info/SDE/2.0/Cards/Standies/Mistmourn_Warg_2.0_back.png', 
 'Neither', 'Large', 'Wolf', 8, 3, '2B 2R', '2R', '2B', '3R', 7, 0);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (538, kXXX); --Massive Damage
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (538, kXXX); --Nip The Heels
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (538, kXXX); --Pack Strength
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (538, kXXX); --Ravage
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (538, abXXX); --Chew Toy
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (538, abXXX); --Howl
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (538, 729); --Massive Damage
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (538, 772); --Nip The Heels
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (538, 786); --Pack Strength
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (538, 837); --Ravage
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (538, 880); --Chew Toy
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (538, 1280); --Howl
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (538, 1, 1); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (538, 2); --Armor
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (538, 'Miniboss', 'Super', 4);
@@ -829,18 +829,18 @@ VALUES (943,
 'http:/htkb.info/SDE/2.0/Cards/Standies/Monach_Tvar_2.0.png', 
 'http:/htkb.info/SDE/2.0/Cards/Standies/Monach_Tvar_2.0_back.png', 
 'Masculine', 'Small', 'Nether Elf', 6, 3, '1G 1R', '2R', '3B', '3R', 3, 0);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (539, kXXX); --Ambush
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (539, kXXX); --Backstabber
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (539, kXXX); --Bane
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (539, kXXX); --Dread
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (539, kXXX); --Pounce
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (539, kXXX); --Smokebomb
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (539, kXXX); --Stealth
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (539, kXXX); --You're Alone
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (539, abXXX); --Storm of Blades
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (539, abXXX); --Strike From Shadow
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (539, abXXX); --Cunning Lies
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (539, abXXX); --Unnatural Dark
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (539, 428); --Ambush
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (539, 451); --Backstabber
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (539, 453); --Bane
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (539, 563); --Dread
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (539, 815); --Pounce
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (539, 905); --Smokebomb
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (539, 1010); --Stealth
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (539, 1080); --You're Alone
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (539, 1766); --Storm of Blades
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (539, 1778); --Strike From Shadow
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (539, 948); --Cunning Lies
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (539, 1888); --Unnatural Dark
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (539, 1, 1); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (539, 2); --Armor
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (539, 'Miniboss', 'Super', 2);
@@ -859,333 +859,310 @@ VALUES (944,
 'http:/htkb.info/SDE/2.0/Cards/Standies/Nethercorn_2.0.png', 
 'http:/htkb.info/SDE/2.0/Cards/Standies/Nethercorn_2.0_back.png', 
 'Neither', 'Large', 'Demon Unicorn', 8, 3, '1ST 2R', '4B', '2B 1R', '3B', 6, 0);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (540, kXXX); --Bane
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (540, kXXX); --Dark Radiance
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (540, kXXX); --Fire
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (540, kXXX); --Fly
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (540, kXXX); --Ice
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (540, kXXX); --Immune: Bane
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (540, kXXX); --Immune: Hex
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (540, abXXX); --Death Curse
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (540, abXXX); --Demon Flame
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (540, abXXX); --Unnatural Life
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (540, 453); --Bane
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (540, 530); --Dark Radiance
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (540, 588); --Fire
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (540, 596); --Fly
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (540, 668); --Ice
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (540, 673); --Immune: Bane
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (540, 675); --Immune: Hex
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (540, 982); --Death Curse
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (540, 1000); --Demon Flame
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (540, 1889); --Unnatural Life
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (540, 1, 1); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (540, 2); --Armor
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (540, 'Miniboss', 'Super', 4);
 
---Oni --CardIndex 1037	--CharacterIndex 945	--ExploreCharacterIndex 541
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Oni',
-'http:/htkb.info/SDE/2.0/Cards/Minibosses/Card_Miniboss_Oni_2.0.png', 
-'http:/htkb.info/SDE/2.0/Cards/Minibosses/Card_Miniboss_Oni_2.0_back.png', 
-'http:/htkb.online/SDWiki/SDE/2.0/Cards/Minibosses/Oni.xhtml', 
-'Miniboss', '2.0', '2.0 Core Set', 'Explore',
-'It is said that man and Oni first met as enemies, but soon developed a grudging respect; the Oni for their size and strength, and men for their technology and tenacity. Many Oni, however fickle, will join a team to honor agreements, to demonstrate their strength, or just for the fun of it. They may not be the most stealthy, but their effect on the enemy is remarkable.');
-insert into Characters (CardIndex) VALUES (1037);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (945, 1); --Citrine
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (945, 3); --Ruby
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (945,
-'http:/htkb.info/SDE/2.0/Cards/Standies/Oni_2.0.png', 
-'http:/htkb.info/SDE/2.0/Cards/Standies/Oni_2.0_back.png', 
-'Neither', 'Large', 'Oni', 6, 3, '3R', '2R', '3B', '2B', 6, 0);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (541, kXXX); --Elemental Affinity
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (541, abXXX); --Disaster
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (541, abXXX); --Devour
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (541, abXXX); --Deceive
-insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (541, 1, 2); --Strength
-insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (541, 2); --Armor
-insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (541, 'Miniboss', 'Super', 4);
-
---Orcdon Ramsay --CardIndex 1038	--CharacterIndex 946	--ExploreCharacterIndex 542
+--Orcdon Ramsay --CardIndex 1037	--CharacterIndex 945	--ExploreCharacterIndex 541
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Orcdon Ramsay',
 'http:/htkb.info/SDE/2.0/Cards/Minibosses/Card_Miniboss_Orcdon_Ramsay_2.0.png', 
 'http:/htkb.info/SDE/2.0/Cards/Minibosses/Card_Miniboss_Orcdon_Ramsay_2.0_back.png', 
 'http:/htkb.online/SDWiki/SDE/2.0/Cards/Minibosses/Orcdon_Ramsay.xhtml', 
 'Miniboss', '2.0', '2.0 Core Set', 'Explore',
 '');--!! unavailable !!
-insert into Characters (CardIndex) VALUES (1038);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (946, 3); --Ruby
+insert into Characters (CardIndex) VALUES (1037);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (945, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (946,
+VALUES (945,
 'http:/htkb.info/SDE/2.0/Cards/Standies/Orcdon_Ramsay_2.0.png', 
 'http:/htkb.info/SDE/2.0/Cards/Standies/Orcdon_Ramsay_2.0_back.png', 
 'Neither', 'Large', 'Orc', 6, 3, '1R 2G', '1B 2R', '2B', '2B', 7, 0);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (542, kXXX); --Impulsive
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (542, kXXX); --Reckless
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (542, abXXX); --Can You Smell What The Orc Is Cooking?!
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (542, abXXX); --IT'S RAW!
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (542, abXXX); --Shop Fresh, Shop Local
-insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (542, 1, 3); --Strength
-insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (542, 2); --Armor
-insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (542, 'Miniboss', 'Super', 4);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (541, 1084); --Impulsive
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (541, 843); --Reckless
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (541, 863); --Can You Smell What The Orc Is Cooking?!
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (541, 1329); --IT'S RAW!
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (541, 1653); --Shop Fresh, Shop Local
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (541, 1, 3); --Strength
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (541, 2); --Armor
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (541, 'Miniboss', 'Super', 4);
 
---Rage Fiend, The --CardIndex 1039	--CharacterIndex 947	--ExploreCharacterIndex 543
+--Rage Fiend, The --CardIndex 1038	--CharacterIndex 946	--ExploreCharacterIndex 542
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Rage Fiend, The',
 'http:/htkb.info/SDE/2.0/Cards/Minibosses/Card_Miniboss_Rage_Fiend_The_2.0.png', 
 'http:/htkb.info/SDE/2.0/Cards/Minibosses/Card_Miniboss_Rage_Fiend_The_2.0_back.png', 
 'http:/htkb.online/SDWiki/SDE/2.0/Cards/Minibosses/Rage_Fiend_The.xhtml', 
 'Miniboss', '2.0', '2.0 Core Set', 'Explore',
 'The Rage Fiend is a legend among the orcish tribes. An unstoppable juggernaut of destruction, it is whispered that The Rage Fiend was blessed by the great demon lord known only as The Destroyer. Filled with demonic vigor and visions of desolation, The Rage Fiend incites all around him to ever increasing fits of violence and madness. Where The Rage Fiend treads only death follows.');
-insert into Characters (CardIndex) VALUES (1039);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (947, 1); --Citrine
+insert into Characters (CardIndex) VALUES (1038);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (946, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (947,
+VALUES (946,
 'http:/htkb.info/SDE/2.0/Cards/Standies/Rage_Fiend_The_2.0.png', 
 'http:/htkb.info/SDE/2.0/Cards/Standies/Rage_Fiend_The_2.0_back.png', 
 'Neither', 'Large', 'Orc', 5, 4, '4R', '2B', '0ST', '2B', 8, 0);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (543, kXXX); --Frenzy
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (543, kXXX); --Immune: Hex
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (543, abXXX); --Indiscriminate Destruction
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (543, abXXX); --Focused Brutality
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (543, abXXX); --Infectious Insanity
-insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (543, 1, 3); --Strength
-insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (543, 2); --Armor
-insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (543, 'Miniboss', 'Super', 4);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (542, 616); --Frenzy
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (542, 675); --Immune: Hex
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (542, 1314); --Indiscriminate Destruction
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (542, 1156); --Focused Brutality
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (542, 1316); --Infectious Insanity
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (542, 1, 3); --Strength
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (542, 2); --Armor
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (542, 'Miniboss', 'Super', 4);
 
---Randy, Lrod of Spiders --CardIndex 1040	--CharacterIndex 948	--ExploreCharacterIndex 544
+--Randy, Lrod of Spiders --CardIndex 1039	--CharacterIndex 947	--ExploreCharacterIndex 543
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Randy, Lrod of Spiders',
 'http:/htkb.info/SDE/2.0/Cards/Minibosses/Card_Miniboss_Randy_Lrod_of_Spiders_2.0.png', 
 'http:/htkb.info/SDE/2.0/Cards/Minibosses/Card_Miniboss_Randy_Lrod_of_Spiders_2.0_back.png', 
 'http:/htkb.online/SDWiki/SDE/2.0/Cards/Minibosses/Randy_Lrod_of_Spiders.xhtml', 
 'Miniboss', '2.0', '2.0 Core Set', 'Explore',
 'The last galaxy is a place where mighty knights clash with the forces of the void, and a battle for survival rages. But that doesn''t mean that the arcades will manage themselves. Randy has been charged with the sacred duty of managing one such arcade. Annoyed at customers who continually vaporize his place of work with high tech weaponry, Randy decided to program himself into his favorite game. But a typo prevented him from being a proper lord, even in a game...');
-insert into Characters (CardIndex) VALUES (1040);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (948, 1); --Citrine
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (948, 2); --Emerald
+insert into Characters (CardIndex) VALUES (1039);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (947, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (947, 2); --Emerald
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (948,
+VALUES (947,
 'http:/htkb.info/SDE/2.0/Cards/Standies/Randy_Lrod_of_Spiders_2.0.png', 
 'http:/htkb.info/SDE/2.0/Cards/Standies/Randy_Lrod_of_Spiders_2.0_back.png', 
 'Masculine', 'Small', 'Human Lrod', 5, 3, '3B', '1ST 1R', '3B', '2G', 7, 0);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (544, kXXX); --Heal X
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (544, kXXX); --Surefoot
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (544, kXXX); --Webs
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (544, abXXX); --Get out!
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (544, abXXX); --Power Nap
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (544, abXXX); --Summon Minions
-insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (544, 4, 6); --Dex
-insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (544, 2); --Armor
-insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (544, 'Miniboss', 'Super', 4);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (543, 642); --Heal X
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (543, 1023); --Surefoot
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (543, 1068); --Webs
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (543, 1205); --Get out!
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (543, 1531); --Power Nap
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (543, 1787); --Summon Minions
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (543, 4, 6); --Dex
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (543, 2); --Armor
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (543, 'Miniboss', 'Super', 4);
 
---Rex --CardIndex 1041	--CharacterIndex 949	--ExploreCharacterIndex 545
+--Rex --CardIndex 1040	--CharacterIndex 948	--ExploreCharacterIndex 544
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Rex',
 'http:/htkb.info/SDE/2.0/Cards/Minibosses/Card_Miniboss_Rex_2.0.png', 
 'http:/htkb.info/SDE/2.0/Cards/Minibosses/Card_Miniboss_Rex_2.0_back.png', 
 'http:/htkb.online/SDWiki/SDE/2.0/Cards/Minibosses/Rex.xhtml', 
 'Miniboss', '2.0', '2.0 Core Set', 'Explore',
 'Rex has collected more than a few new friends since going to work in the Consul''s dungeons. Most are unwary adventurers not quite quick enough to get out of the reach of his enthusiastic hugs.');
-insert into Characters (CardIndex) VALUES (1041);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (949, 1); --Citrine
+insert into Characters (CardIndex) VALUES (1040);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (948, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (949,
+VALUES (948,
 'http:/htkb.info/SDE/2.0/Cards/Standies/Rex_2.0.png', 
 'http:/htkb.info/SDE/2.0/Cards/Standies/Rex_2.0_back.png', 
 'Neither', 'Large', 'Kobold Ogre', 5, 3, '2R 2B', '2R', '1B', '2B', 7, 0);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (545, kXXX); --Bane
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (545, kXXX); --Hex
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (545, kXXX); --Knockdown
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (545, kXXX); --Massive Damage
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (545, kXXX); --Mob
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (545, abXXX); --Thwomp
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (545, abXXX); --Rex Cuddle
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (545, abXXX); --Rex Smash
-insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (545, 1, 3); --Strength
-insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (545, 2); --Armor
-insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (545, 'Miniboss', 'Super', 4);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (544, 453); --Bane
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (544, 647); --Hex
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (544, 708); --Knockdown
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (544, 729); --Massive Damage
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (544, 757); --Mob
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (544, 1838); --Thwomp
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (544, 1589); --Rex Cuddle
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (544, 1591); --Rex Smash
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (544, 1, 3); --Strength
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (544, 2); --Armor
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (544, 'Miniboss', 'Super', 4);
 
---Ser Anthony --CardIndex 1042	--CharacterIndex 950	--ExploreCharacterIndex 546
+--Ser Anthony --CardIndex 1041	--CharacterIndex 949	--ExploreCharacterIndex 545
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ser Anthony',
 'http:/htkb.info/SDE/2.0/Cards/Minibosses/Card_Miniboss_Ser_Anthony_2.0.png', 
 'http:/htkb.info/SDE/2.0/Cards/Minibosses/Card_Miniboss_Ser_Anthony_2.0_back.png', 
 'http:/htkb.online/SDWiki/SDE/2.0/Cards/Minibosses/Ser_Anthony.xhtml', 
 'Miniboss', '2.0', '2.0 Core Set', 'Explore',
 'Despite his youth, Ser Anthony rose through the ranks of the Crown Guard quickly. Taken under the wing of the venerable knight Ser Charles he excelled at his studies--both physical and mental. At Ser Charles'' retirement, it was the great knight''s honor to see his squire rise to fill his station.');
-insert into Characters (CardIndex) VALUES (1042);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (950, 4); --Sapphire
+insert into Characters (CardIndex) VALUES (1041);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (949, 4); --Sapphire
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (950,
+VALUES (949,
 'http:/htkb.info/SDE/2.0/Cards/Standies/Ser_Anthony_2.0.png', 
 'http:/htkb.info/SDE/2.0/Cards/Standies/Ser_Anthony_2.0_back.png', 
 'Masculine', 'Small', 'Human Soldier', 8, 3, '2ST 2R', '3R', '3B', '1B 1R', 6, 0);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (546, kXXX); --Charge
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (546, kXXX); --Defender
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (546, kXXX); --Immune: Status Effects
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (546, kXXX); --Knockdown
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (546, kXXX); --Surefoot
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (546, abXXX); --Breakthrough
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (546, abXXX); --Trample
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (546, abXXX); --Suffer Not
-insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (546, 1, 3); --Strength
-insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (546, 2); --Armor
-insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (546, 'Miniboss', 'Super', 4);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (545, 502); --Charge
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (545, 543); --Defender
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (545, 681); --Immune: Status Effects
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (545, 708); --Knockdown
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (545, 1023); --Surefoot
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (545, 834); --Breakthrough
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (545, 1859); --Trample
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (545, 1784); --Suffer Not
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (545, 1, 3); --Strength
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (545, 2); --Armor
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (545, 'Miniboss', 'Super', 4);
 
---Ser Elmer --CardIndex 1043	--CharacterIndex 951	--ExploreCharacterIndex 547
+--Ser Elmer --CardIndex 1042	--CharacterIndex 950	--ExploreCharacterIndex 546
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ser Elmer',
 'http:/htkb.info/SDE/2.0/Cards/Minibosses/Card_Miniboss_Ser_Elmer_2.0.png', 
 'http:/htkb.info/SDE/2.0/Cards/Minibosses/Card_Miniboss_Ser_Elmer_2.0_back.png', 
 'http:/htkb.online/SDWiki/SDE/2.0/Cards/Minibosses/Ser_Elmer.xhtml', 
 'Miniboss', '2.0', '2.0 Core Set', 'Explore',
 'Ser Elmer has the distinct privilege and honor of serving as Castletown''s Captain of the Guard. Charged with overseeing the safety of Castletown''s businesses and citizens, Ser Elmer rarely encounters monsters. Instead, Ser Elmer typically confronts various criminal organizations, shadowy thieves guilds, and over exuberant Heroes who have gotten out of line.');
-insert into Characters (CardIndex) VALUES (1043);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (951, 4); --Sapphire
+insert into Characters (CardIndex) VALUES (1042);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (950, 4); --Sapphire
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (951,
+VALUES (950,
 'http:/htkb.info/SDE/2.0/Cards/Standies/Ser_Elmer_2.0.png', 
 'http:/htkb.info/SDE/2.0/Cards/Standies/Ser_Elmer_2.0_back.png', 
 'Masculine', 'Small', 'Human Soldier', 6, 3, '2ST 2R', '1ST 2R', '3B', '1B 1R', 6, 0);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (547, kXXX); --Bane
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (547, kXXX); --Defender
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (547, abXXX); --Shield Breaker
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (547, abXXX); --Form On Me
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (547, abXXX); --Veteran Endurance
-insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (547, 1, 1); --Strength
-insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (547, 2); --Armor
-insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (547, 'Miniboss', 'Super', 4);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (546, 453); --Bane
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (546, 543); --Defender
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (546, 1646); --Shield Breaker
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (546, 1163); --Form On Me
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (546, 1895); --Veteran Endurance
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (546, 1, 1); --Strength
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (546, 2); --Armor
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (546, 'Miniboss', 'Super', 4);
 
---Shinigami --CardIndex 1044	--CharacterIndex 952	--ExploreCharacterIndex 548
+--Shinigami --CardIndex 1043	--CharacterIndex 951	--ExploreCharacterIndex 547
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Shinigami',
 'http:/htkb.info/SDE/2.0/Cards/Minibosses/Card_Miniboss_Shinigami_2.0.png', 
 'http:/htkb.info/SDE/2.0/Cards/Minibosses/Card_Miniboss_Shinigami_2.0_back.png', 
 'http:/htkb.online/SDWiki/SDE/2.0/Cards/Minibosses/Shinigami.xhtml', 
 'Miniboss', '2.0', '2.0 Core Set', 'Explore',
 'Few types of death spectre inspire such dread as Kagejima''s shinigami. These deadly spirits lure victims into cursed pacts, offering up knowledge or power that inevitably leads to an unfortunate death. Indeed, so insidious and cruel are these pacts that many seek death in order to end the suffering their bargain causes.');
-insert into Characters (CardIndex) VALUES (1044);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (952, 0); --Amethyst
+insert into Characters (CardIndex) VALUES (1043);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (951, 0); --Amethyst
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (952,
+VALUES (951,
 'http:/htkb.info/SDE/2.0/Cards/Standies/Shinigami_2.0.png', 
 'http:/htkb.info/SDE/2.0/Cards/Standies/Shinigami_2.0_back.png', 
 'Neither', 'Large', 'Undead', 8, 3, '2B', '2R', '2ST 1G', '3B', 6, 0);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (548, kXXX); --Ghost
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (548, kXXX); --Immune: Status Effects
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (548, abXXX); --Lifesap
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (548, abXXX); --Death Pact
-insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (548, 3, 2); --Will
-insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (548, 2); --Armor
-insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (548, 'Miniboss', 'Super', 4);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (547, 631); --Ghost
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (547, 681); --Immune: Status Effects
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (547, 1372); --Lifesap
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (547, 987); --Death Pact
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (547, 3, 2); --Will
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (547, 2); --Armor
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (547, 'Miniboss', 'Super', 4);
 
---Tengu --CardIndex 1045	--CharacterIndex 953	--ExploreCharacterIndex 549
+--Tengu --CardIndex 1044	--CharacterIndex 952	--ExploreCharacterIndex 548
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Tengu',
 'http:/htkb.info/SDE/2.0/Cards/Minibosses/Card_Miniboss_Tengu_2.0.png', 
 'http:/htkb.info/SDE/2.0/Cards/Minibosses/Card_Miniboss_Tengu_2.0_back.png', 
 'http:/htkb.online/SDWiki/SDE/2.0/Cards/Minibosses/Tengu.xhtml', 
 'Miniboss', '2.0', '2.0 Core Set', 'Explore',
 'For centuries, the Tengu have bartered or traded their magical and martial skill to the competing clans of Kagejima. Sometimes they do so for gold, for more offerings at their shrines, or for shiny baubles. Other times the requests are more unusual, such as whispers of love from a beautiful woman, the first wail of a newborn, or thirty stems of saffron.');
-insert into Characters (CardIndex) VALUES (1045);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (953, 1); --Citrine
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (953, 3); --Ruby
+insert into Characters (CardIndex) VALUES (1044);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (952, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (952, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (953,
+VALUES (952,
 'http:/htkb.info/SDE/2.0/Cards/Standies/Tengu_2.0.png', 
 'http:/htkb.info/SDE/2.0/Cards/Standies/Tengu_2.0_back.png', 
 'Neither', 'Small', 'Tengu', 6, 3, '2B', '1B 1G', '1ST 2R', '3B', 7, 0);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (549, kXXX); --Bane
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (549, kXXX); --Fire
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (549, kXXX); --Fly
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (549, kXXX); --Hubris
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (549, abXXX); --The Curse of Gold
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (549, abXXX); --The Curse of Coin
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (549, abXXX); --The Curse of Drink
-insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (549, 1, 1); --Strength
-insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (549, 3, 6); --Will
-insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (549, 2); --Armor
-insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (549, 'Miniboss', 'Super', 4);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (548, 453); --Bane
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (548, 588); --Fire
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (548, 596); --Fly
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (548, 661); --Hubris
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (548, 956); --Curse of Gold, The 
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (548, 953); --Curse of Coin, The 
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (548, 954); --Curse of Drink, The 
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (548, 1, 1); --Strength
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (548, 3, 6); --Will
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (548, 2); --Armor
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (548, 'Miniboss', 'Super', 4);
 
---Tidal Knight --CardIndex 1046	--CharacterIndex 954	--ExploreCharacterIndex 550
+--Tidal Knight --CardIndex 1045	--CharacterIndex 953	--ExploreCharacterIndex 549
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Tidal Knight',
 'http:/htkb.info/SDE/2.0/Cards/Minibosses/Card_Miniboss_Tidal_Knight_2.0.png', 
 'http:/htkb.info/SDE/2.0/Cards/Minibosses/Card_Miniboss_Tidal_Knight_2.0_back.png', 
 'http:/htkb.online/SDWiki/SDE/2.0/Cards/Minibosses/Tidal_Knight.xhtml', 
 'Miniboss', '2.0', '2.0 Core Set', 'Explore',
 'Magically adapted to survive beneath the sea. Tidal Knights are rarely seen, even by nether elf corsairs. In times of need, Tidal Knights are summoned by Shadow Fleet corsairs through the use of massive horns which are sounded beneath the waves. Once summoned, the Tidal Knights race alongside the Shadow Fleet, before launching into the air to charge enemy sailors upon the decks.');
-insert into Characters (CardIndex) VALUES (1046);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (954, 1); --Citrine
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (954, 3); --Ruby
+insert into Characters (CardIndex) VALUES (1045);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (953, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (953, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (954,
+VALUES (953,
 'http:/htkb.info/SDE/2.0/Cards/Standies/Tidal_Knight_2.0.png', 
 'http:/htkb.info/SDE/2.0/Cards/Standies/Tidal_Knight_2.0_back.png', 
 'Masculine', 'Small', 'Nether Elf Pirate', 6, 3, '2ST 2R', '1B', '3R', '3B', 7, 0);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (550, kXXX); --Brutal Strike
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (550, kXXX); --Dibs
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (550, kXXX); --Fly
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (550, kXXX); --Immobile
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (550, kXXX); --Piracy
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (550, abXXX); --Walk the Plank
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (550, abXXX); --Turbulent Seas
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (550, abXXX); --Finish The Cur
-insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (550, 1, 2); --Strength
-insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (550, 3); --Will
-insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (550, 'Miniboss', 'Super', 4);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (549, 483); --Brutal Strike
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (549, 551); --Dibs
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (549, 596); --Fly
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (549, 672); --Immobile
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (549, 805); --Piracy
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (549, 1996); --Walk the Plank
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (549, 1872); --Turbulent Seas
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (549, 1114); --Finish The Cur
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (549, 1, 2); --Strength
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (549, 3); --Will
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (549, 'Miniboss', 'Super', 4);
 
---Ugluk the Mechanically Inclined --CardIndex 1047	--CharacterIndex 955	--ExploreCharacterIndex 551
+--Ugluk the Mechanically Inclined --CardIndex 1046	--CharacterIndex 954	--ExploreCharacterIndex 550
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ugluk the Mechanically Inclined',
 'http:/htkb.info/SDE/2.0/Cards/Minibosses/Card_Miniboss_Ugluk_the_Mechanically_Inclined_2.0.png', 
 'http:/htkb.info/SDE/2.0/Cards/Minibosses/Card_Miniboss_Ugluk_the_Mechanically_Inclined_2.0_back.png', 
 'http:/htkb.online/SDWiki/SDE/2.0/Cards/Minibosses/Ugluk_the_Mechanically_Inclined.xhtml', 
 'Miniboss', '2.0', '2.0 Core Set', 'Explore',
 '');--!! unavailable !!
-insert into Characters (CardIndex) VALUES (1047);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (955, 3); --Ruby
+insert into Characters (CardIndex) VALUES (1046);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (954, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (955,
+VALUES (954,
 'http:/htkb.info/SDE/2.0/Cards/Standies/Ugluk_the_Mechanically_Inclined_2.0.png', 
 'http:/htkb.info/SDE/2.0/Cards/Standies/Ugluk_the_Mechanically_Inclined_2.0_back.png', 
 'Masculine', 'Large', 'Orc', 6, 3, '3B 1R', '4B', '2B', '3B', 7, 0);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (551, kXXX); --Coghammer
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (551, kXXX); --Improved Critical
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (551, abXXX); --Disassemble
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (551, abXXX); --Conveyor Crush
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (551, abXXX); --Machinist
-insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (551, 1, 3); --Strength
-insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (551, 2); --Armor
-insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (551, 'Miniboss', 'Super', 4);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (550, 507); --Coghammer
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (550, 685); --Improved Critical
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (550, 1021); --Disassemble
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (550, 914); --Conveyor Crush
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (550, 1393); --Machinist
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (550, 1, 3); --Strength
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (550, 2); --Armor
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (550, 'Miniboss', 'Super', 4);
 
---Vlad the Perforator --CardIndex 1048	--CharacterIndex 956	--ExploreCharacterIndex 552
+--Vlad the Perforator --CardIndex 1047	--CharacterIndex 955	--ExploreCharacterIndex 551
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Vlad the Perforator',
 'http:/htkb.info/SDE/2.0/Cards/Minibosses/Card_Miniboss_Vlad_the_Perforator_2.0.png', 
 'http:/htkb.info/SDE/2.0/Cards/Minibosses/Card_Miniboss_Vlad_the_Perforator_2.0_back.png', 
 'http:/htkb.online/SDWiki/SDE/2.0/Cards/Minibosses/Vlad_the_Perforator.xhtml', 
 'Miniboss', '2.0', '2.0 Core Set', 'Explore',
 '');--!! unavailable !!
-insert into Characters (CardIndex) VALUES (1048);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (956, 3); --Ruby
+insert into Characters (CardIndex) VALUES (1047);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (955, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (956,
+VALUES (955,
 'http:/htkb.info/SDE/2.0/Cards/Standies/Vlad_the_Perforator_2.0.png', 
 'http:/htkb.info/SDE/2.0/Cards/Standies/Vlad_the_Perforator_2.0_back.png', 
 'Masculine', 'Large', 'Orc', 6, 4, '2R', '2R', '2B', '3R', 8, 4);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (552, kXXX); --Brutal Strike
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (552, kXXX); --Mark
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (552, kXXX); --Reckless
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (552, abXXX); --Wyrdwood Arrow
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (552, abXXX); --The One. With The Funny Face
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (552, abXXX); --Storm of Arrows
-insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (552, 4, 10); --Dex
-insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (552, 2); --Armor
-insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (552, 'Miniboss', 'Super', 4);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (551, 482); --Brutal Strike
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (551, 724); --Mark
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (551, 843); --Reckless
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (551, 2028); --Wyrdwood Arrow
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (551, 1828); --That One. With The Funny Face
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (551, 1764); --Storm of Arrows
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (551, 4, 10); --Dex
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (551, 2); --Armor
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (551, 'Miniboss', 'Super', 4);
 
---Yobuko --CardIndex 1049	--CharacterIndex 957	--ExploreCharacterIndex 553
+--Yobuko --CardIndex 1048	--CharacterIndex 956	--ExploreCharacterIndex 552
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Yobuko',
 'http:/htkb.info/SDE/2.0/Cards/Minibosses/Card_Miniboss_Yobuko_2.0.png', 
 'http:/htkb.info/SDE/2.0/Cards/Minibosses/Card_Miniboss_Yobuko_2.0_back.png', 
 'http:/htkb.online/SDWiki/SDE/2.0/Cards/Minibosses/Yobuko.xhtml', 
 'Miniboss', '2.0', '2.0 Core Set', 'Explore',
 'Tall, strong, and fierce, Yobuko is also young and inexperienced compared to his Ijin counterparts. This blend of natural ability coupled with an, as yet, unrivaled capacity to fight might be the most frightening aspect about him. His power is already so incredible that he is the rival of many of his masters, and he is also constantly testing his mettle against full-blooded oni twice his size to the amazement of all of his clansmen.');
-insert into Characters (CardIndex) VALUES (1049);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (957, 1); --Citrine
+insert into Characters (CardIndex) VALUES (1048);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (956, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (957,
+VALUES (956,
 'http:/htkb.info/SDE/2.0/Cards/Standies/Yobuko_2.0.png', 
 'http:/htkb.info/SDE/2.0/Cards/Standies/Yobuko_2.0_back.png', 
 'Masculine', 'Small', 'Ijin Riftling', 6, 3, '2R 1G', '2R', '2B', '2B', 6, 0);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (553, kXXX); --Brutality Aura
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (553, kXXX); --Charge
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (553, kXXX); --Improved Critical
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (553, kXXX); --Tough
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (553, abXXX); --Demon Rush
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (553, abXXX); --Rampaging Fists
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (553, abXXX); --Demonic Challenge
-insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (553, 1, 1); --Strength
-insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (553, 2); --Armor
-insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (553, 'Miniboss', 'Super', 4);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (552, 485); --Brutality Aura
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (552, 502); --Charge
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (552, 685); --Improved Critical
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (552, 1041); --Tough
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (552, 1001); --Demon Rush
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (552, 1562); --Rampaging Fists
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (552, 1003); --Demonic Challenge
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (552, 1, 1); --Strength
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (552, 2); --Armor
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (552, 'Miniboss', 'Super', 4);
