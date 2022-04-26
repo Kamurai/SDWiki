@@ -672,7 +672,7 @@
 /*Virulent								--Index 1058*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Explore', 'Virulent', 'Add +1B to this model''s offense rolls if its target is suffering from Poison.');
 /*Volatile								--Index 1059*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Volatile', 'When a model with Volatile is destroyed, before removing the model, resolve the following action: 2AC 0SW, +2R STR, Wave 1')
 /*Volatile								--Index 1060*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Volatile', 'When a model with Volatile is destroyed, before removing the model, resolve the following action: 1AC 0SW, Wave 1, +2R STR.')
-/*Volatile								--Index 1061*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Arcade', 'Volatile', 'When a model with Volatile is destroyed, before removing the model, resolve the following action: Wave 1, +3ST STR. When Volatile is triggered, the model with Volatile is destroyed.')
+/*Volatile								--Index 1061*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Arcade', 'Volatile', 'When a model with Volatile is destroyed, before removing the model, resolve the following action: 0AC Wave 1, +3ST STR. When Volatile is triggered, the model with Volatile is destroyed.')
 /*Volatile								--Index 1062*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Explore', 'Volatile', 'When a model with Volatile is destroyed, before removing the model, resolve the following action: 0Melee, Wave 1, +2R STR.')
 
 

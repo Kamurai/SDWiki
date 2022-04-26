@@ -1,5 +1,5 @@
 --2.0 Arcade Booty
---Boo Booty	--CardIndex 1268	--CharacterIndex 1171	--ArcadeCharacterIndex 3
+--Boo Booty	--CardIndex 1268	--CharacterIndex 1171	--ArcadeCharacterIndex 105
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Boo Booty',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Booty/Card_Arcade_Boo_Booty_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Booty/Card_Arcade_Boo_Booty_2.0_back.png', 
@@ -11,8 +11,8 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1171, 1)
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
 VALUES (1171, 142, -1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1171, 1); --Citrine
---GangMemberIndex 3
+--GangMemberIndex 153
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (3, 0, 'Boo Booty', 'Boo Booty', 'Elite', 5, 2, 3, 138);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (3, 445); --Backlash
+VALUES (105, 0, 'Boo Booty', 'Boo Booty', 'Elite', 5, 2, 3, 485);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (153, 445); --Backlash
 

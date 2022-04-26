@@ -1289,7 +1289,7 @@
 
 /*Fire Vines														--Index 2069*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Explore', 'Fire Vine', 'Action', 'Offense', 2, 0, -1, '0SW, Lance 6, Charge');
 
-
+/*Snowball Fight!													--Index 2070*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Explore', 'Snowball Fight!', 'Action', 'Offense', -1, 0, -1, 'ICE');
 
 
 
