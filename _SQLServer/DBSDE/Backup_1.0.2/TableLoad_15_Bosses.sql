@@ -1,6 +1,6 @@
 --1.0.2
 --Bosses
---Nocturne --Index cXXX
+--The Forgotten King --Index cXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 'Forgotten King, The',
 'http://htkb.info/SDE/1.0/Cards/Bosses/Card_Boss_Forgotten_King_The_1.0.png', 
