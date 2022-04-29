@@ -38,4 +38,4 @@
 /*Preacher					 		--Index   31*/		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('RRI', 'Default', 'Preacher', 			'');
 
 /*999						 		--Index   32*/		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('RRI', 'Default', '999', 					'');
-/*Lt Deadeye				 		--Index   33*/		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('RRI', 'Default', 'Lt Deadeye', 			'');
+/*LT Deadeye				 		--Index   33*/		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('RRI', 'Default', 'Lt Deadeye', 			'');
