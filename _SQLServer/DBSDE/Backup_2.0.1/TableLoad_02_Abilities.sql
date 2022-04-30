@@ -1291,20 +1291,19 @@
 
 /*Snowball Fight!													--Index 2070*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Explore', 'Snowball Fight!', 'Action', 'Offense', -1, 0, -1, 'ICE');
 
+/*Killshot															--Index 2071*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Killshot', 'Action', 'Offense', 0, 1, 6, '6MI, Massive Damage');
 
+/*Bullrush															--Index 2072*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Bullrush', 'Action', 'Offense', 0, 0, -1, 'Wave 6');
 
+/*Mincemeat															--Index 2073*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Mincemeat', 'Action', 'Offense', 0, 1, -1, 'Massive Damage. If this attack succeeds, perform it again until it fails or the target is destroyed.');
 
+/*Storm of Vengeance												--Index 2074*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Storm of Vengeance', 'Action', 'Support', 0, 1, -1, 'AUGMENT.  All Undead monsters gangs (not solos) in play immediately perform the Fight command.');
 
+/*Blutarch Handcannon												--Index 2075*/ 	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Blutarch Handcannon', 'Action', 'Offense', 0, 4, 6, '6MI, +2ST STR');
 
-
-
-
-
-
-
-
-
-
+/*Coagulated Mixture												--Index 2076*/ 	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Coagulated Mixture', 'Action', 'Offense', 0, 2, -1, 'Wave 4');
+/*Kobold's Tears													--Index 2077*/ 	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Kobold''s Tears', 'Action', 'Support', 0, 1, -1, 'Augment. Deranged Alchemist gains +1ST STR permanently.');
+/*Vile Concoction													--Index 2078*/ 	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Vile Concoction', 'Action', 'Support', 0, 0, 6, 'RANGE6. Roll a blue die, the target Hero suffers a status effects depending on the roll:<br><br>0ST: IMMOBILE<br><br>1ST: BANE<br><br>2ST: BANE, HEX, IMMOBILE');
 
 
 
