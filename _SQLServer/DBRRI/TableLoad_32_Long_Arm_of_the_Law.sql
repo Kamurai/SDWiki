@@ -12,5 +12,5 @@ VALUES (cXXX, '999',
 '', 
 ''
 );
-insert into LongArmOfTheLawCards (CharacterIndex) VALUES (cXXX);
+insert into LongArmOfTheLawCards (CardIndex) VALUES (cXXX);
 insert into KeywordAssignments (KeywordIndex, LongArmOfTheLawCardIndex) VALUES (kXXX, 0); --999

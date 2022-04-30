@@ -18,7 +18,7 @@ VALUES (0,
 'http://htkb.info/RRI/Cards/Characters/Standies/Apprentice_The_back.png', 
 'Either');
 insert into Raiders (CharacterIndex) VALUES (0);
-insert into KeywordAssignments (KeywordIndex, RaiderIndex) VALUES (0, 0); --Apprentice, The
+insert into KeywordAssignments (RaiderIndex, KeywordIndex) VALUES (0, 0); --Apprentice, The
 
 --Bakusho Mondai --CharacterIndex 1 --CardIndex 1 --RaiderIndex 1
 insert into Cards (CardIndex, CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor, Lore) 
@@ -36,7 +36,7 @@ VALUES (1,
 'http://htkb.info/RRI/Cards/Characters/Standies/Bakusho_Mondai_back.png', 
 'Masculine');
 insert into Raiders (CharacterIndex, StandieFront, StandieBack, Gender) VALUES (1);
-insert into KeywordAssignments (KeywordIndex, RaiderIndex) VALUES (1, 1); --Bakusho Mondai
+insert into KeywordAssignments (RaiderIndex, KeywordIndex) VALUES (1, 1); --Bakusho Mondai
 
 --Cactus Zak --CharacterIndex 2 --CardIndex 2 --RaiderIndex 2
 insert into Cards (CardIndex, CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor, Lore) 
@@ -54,7 +54,7 @@ VALUES (2,
 'http://htkb.info/RRI/Cards/Characters/Standies/Cactus_Zak_back.png', 
 'Masculine');
 insert into Raiders (CharacterIndex, StandieFront, StandieBack, Gender) VALUES (2);
-insert into KeywordAssignments (KeywordIndex, RaiderIndex) VALUES (2, 2); --Cactus Zak
+insert into KeywordAssignments (RaiderIndex, KeywordIndex) VALUES (2, 2); --Cactus Zak
 
 --Canton Cobb --CharacterIndex 3 --CardIndex 3 --RaiderIndex 3
 insert into Cards (CardIndex, CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor, Lore) 
@@ -73,7 +73,7 @@ VALUES (3,
 'Masculine');
 insert into Raiders (CharacterIndex, StandieFront, StandieBack, Gender) 
 VALUES (3);
-insert into KeywordAssignments (KeywordIndex, RaiderIndex) VALUES (3, 3); --Canton Cobb
+insert into KeywordAssignments (RaiderIndex, KeywordIndex) VALUES (3, 3); --Canton Cobb
 
 --Chuy --CharacterIndex 4 --CardIndex 4 --RaiderIndex 4
 insert into Cards (CardIndex, CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor, Lore) 
@@ -92,7 +92,7 @@ VALUES (4,
 'Masculine');
 insert into Raiders (CharacterIndex, StandieFront, StandieBack, Gender) 
 VALUES (4);
-insert into KeywordAssignments (KeywordIndex, RaiderIndex) VALUES (4, 4); --Chuy
+insert into KeywordAssignments (RaiderIndex, KeywordIndex) VALUES (4, 4); --Chuy
 
 --Cowpunch Candy --CharacterIndex 5 --CardIndex 5 --RaiderIndex 5
 insert into Cards (CardIndex, CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor, Lore) 
@@ -111,7 +111,7 @@ VALUES (5,
 'Feminine');
 insert into Raiders (CharacterIndex, StandieFront, StandieBack, Gender) 
 VALUES (5);
-insert into KeywordAssignments (KeywordIndex, RaiderIndex) VALUES (5, 5); --Cowpuncher Candy
+insert into KeywordAssignments (RaiderIndex, KeywordIndex) VALUES (5, 5); --Cowpuncher Candy
 
 --El Cola --CharacterIndex 6 --CardIndex 6 --RaiderIndex 6
 insert into Cards (CardIndex, CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor, Lore) 
@@ -130,7 +130,7 @@ VALUES (6,
 'Masculine');
 insert into Raiders (CharacterIndex, StandieFront, StandieBack, Gender) 
 VALUES (6);
-insert into KeywordAssignments (KeywordIndex, RaiderIndex) VALUES (6, 6); --El Cola
+insert into KeywordAssignments (RaiderIndex, KeywordIndex) VALUES (6, 6); --El Cola
 
 --Huckleberry --CharacterIndex 7 --CardIndex 7 --RaiderIndex 7
 insert into Cards (CardIndex, CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor, Lore) 
@@ -149,7 +149,7 @@ VALUES (7,
 'Masculine');
 insert into Raiders (CharacterIndex, StandieFront, StandieBack, Gender) 
 VALUES (7);
-insert into KeywordAssignments (KeywordIndex, RaiderIndex) VALUES (7, 7); --Huckleberry
+insert into KeywordAssignments (RaiderIndex, KeywordIndex) VALUES (7, 7); --Huckleberry
 
 --John Grizzly --CharacterIndex 8 --CardIndex 8 --RaiderIndex 8
 insert into Cards (CardIndex, CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor, Lore) 
@@ -168,7 +168,7 @@ VALUES (8,
 'Masculine');
 insert into Raiders (CharacterIndex, StandieFront, StandieBack, Gender) 
 VALUES (8);
-insert into KeywordAssignments (KeywordIndex, RaiderIndex) VALUES (8, 8); --John Grizzly
+insert into KeywordAssignments (RaiderIndex, KeywordIndex) VALUES (8, 8); --John Grizzly
 
 --Josie Oakley --CharacterIndex 9 --CardIndex 9 --RaiderIndex 9
 insert into Cards (CardIndex, CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor, Lore) 
@@ -187,7 +187,7 @@ VALUES (9,
 'Feminine');
 insert into Raiders (CharacterIndex, StandieFront, StandieBack, Gender) 
 VALUES (9);
-insert into KeywordAssignments (KeywordIndex, RaiderIndex) VALUES (9, 9); --Josie Oakley
+insert into KeywordAssignments (RaiderIndex, KeywordIndex) VALUES (9, 9); --Josie Oakley
 
 --JR Dallas --CharacterIndex 10 --CardIndex 10 --RaiderIndex 10
 insert into Cards (CardIndex, CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor, Lore) 
@@ -206,7 +206,7 @@ VALUES (10,
 'Masculine');
 insert into Raiders (CharacterIndex, StandieFront, StandieBack, Gender) 
 VALUES (10);
-insert into KeywordAssignments (KeywordIndex, RaiderIndex) VALUES (10, 10); --JR Dallas
+insert into KeywordAssignments (RaiderIndex, KeywordIndex) VALUES (10, 10); --JR Dallas
 
 --Kid, The --CharacterIndex 11 --CardIndex 11 --RaiderIndex 11
 insert into Cards (CardIndex, CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor, Lore) 
@@ -225,7 +225,7 @@ VALUES (11,
 'Masculine');
 insert into Raiders (CharacterIndex, StandieFront, StandieBack, Gender) 
 VALUES (11);
-insert into KeywordAssignments (KeywordIndex, RaiderIndex) VALUES (11, 11); --Kid, The
+insert into KeywordAssignments (RaiderIndex, KeywordIndex) VALUES (11, 11); --Kid, The
 
 --Kingsman --CharacterIndex 12 --CardIndex 12 --RaiderIndex 12
 insert into Cards (CardIndex, CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor, Lore) 
@@ -244,7 +244,7 @@ VALUES (12,
 'Masculine');
 insert into Raiders (CharacterIndex, StandieFront, StandieBack, Gender) 
 VALUES (12);
-insert into KeywordAssignments (KeywordIndex, RaiderIndex) VALUES (12, 12); --Kingsman
+insert into KeywordAssignments (RaiderIndex, KeywordIndex) VALUES (12, 12); --Kingsman
 
 --Mutha Superior --CharacterIndex 13 --CardIndex 13 --RaiderIndex 13
 insert into Cards (CardIndex, CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor, Lore) 
@@ -263,7 +263,7 @@ VALUES (13,
 'Feminine');
 insert into Raiders (CharacterIndex, StandieFront, StandieBack, Gender) 
 VALUES (13);
-insert into KeywordAssignments (KeywordIndex, RaiderIndex) VALUES (13, 13); --Mutha Superior
+insert into KeywordAssignments (RaiderIndex, KeywordIndex) VALUES (13, 13); --Mutha Superior
 
 --Pancho Perfecto --CharacterIndex 14 --CardIndex 14 --RaiderIndex 14
 insert into Cards (CardIndex, CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor, Lore) 
@@ -282,7 +282,7 @@ VALUES (14,
 'Masculine');
 insert into Raiders (CharacterIndex, StandieFront, StandieBack, Gender) 
 VALUES (14);
-insert into KeywordAssignments (KeywordIndex, RaiderIndex) VALUES (14, 14); --Pancho Perfecto
+insert into KeywordAssignments (RaiderIndex, KeywordIndex) VALUES (14, 14); --Pancho Perfecto
 
 --Pearl Heart --CharacterIndex 15 --CardIndex 15 --RaiderIndex 15
 insert into Cards (CardIndex, CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor, Lore) 
@@ -301,7 +301,7 @@ VALUES (15,
 'Feminine');
 insert into Raiders (CharacterIndex, StandieFront, StandieBack, Gender) 
 VALUES (15);
-insert into KeywordAssignments (KeywordIndex, RaiderIndex) VALUES (15, 15); --Pearl Heart
+insert into KeywordAssignments (RaiderIndex, KeywordIndex) VALUES (15, 15); --Pearl Heart
 
 --Rhinestone --CharacterIndex 16 --CardIndex 16 --RaiderIndex 16
 insert into Cards (CardIndex, CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor, Lore) 
@@ -320,7 +320,7 @@ VALUES (16,
 'Feminine');
 insert into Raiders (CharacterIndex, StandieFront, StandieBack, Gender) 
 VALUES (16);
-insert into KeywordAssignments (KeywordIndex, RaiderIndex) VALUES (16, 16); --Rhinestone
+insert into KeywordAssignments (RaiderIndex, KeywordIndex) VALUES (16, 16); --Rhinestone
 
 --Star Princess Candy --CharacterIndex 17 --CardIndex 17 --RaiderIndex 17
 insert into Cards (CardIndex, CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor, Lore) 
@@ -339,7 +339,7 @@ VALUES (17,
 'Feminine');
 insert into Raiders (CharacterIndex, StandieFront, StandieBack, Gender) 
 VALUES (17);
-insert into KeywordAssignments (KeywordIndex, RaiderIndex) VALUES (17, 17); --Star Princess Candy
+insert into KeywordAssignments (RaiderIndex, KeywordIndex) VALUES (17, 17); --Star Princess Candy
 
 --Steelhorse Candy --CharacterIndex 18 --CardIndex 18 --RaiderIndex 18
 insert into Cards (CardIndex, CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor, Lore) 
@@ -358,7 +358,7 @@ VALUES (18,
 'Feminine');
 insert into Raiders (CharacterIndex, StandieFront, StandieBack, Gender) 
 VALUES (18);
-insert into KeywordAssignments (KeywordIndex, RaiderIndex) VALUES (18, 18); --Steelhorse Candy
+insert into KeywordAssignments (RaiderIndex, KeywordIndex) VALUES (18, 18); --Steelhorse Candy
 
 --Swordmage Acolyte --CharacterIndex 19 --CardIndex 19 --RaiderIndex 19
 insert into Cards (CardIndex, CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor, Lore) 
@@ -377,7 +377,7 @@ VALUES (19,
 'Feminine');
 insert into Raiders (CharacterIndex, StandieFront, StandieBack, Gender) 
 VALUES (19);
-insert into KeywordAssignments (KeywordIndex, RaiderIndex) VALUES (19, 19); --Swordmage Acolyte
+insert into KeywordAssignments (RaiderIndex, KeywordIndex) VALUES (19, 19); --Swordmage Acolyte
 
 --Tazak Geronimo --CharacterIndex 20 --CardIndex 20 --RaiderIndex 20
 insert into Cards (CardIndex, CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor, Lore) 
@@ -396,7 +396,7 @@ VALUES (20,
 'Masculine');
 insert into Raiders (CharacterIndex, StandieFront, StandieBack, Gender) 
 VALUES (20);
-insert into KeywordAssignments (KeywordIndex, RaiderIndex) VALUES (20, 20); --Tazak Geronimo
+insert into KeywordAssignments (RaiderIndex, KeywordIndex) VALUES (20, 20); --Tazak Geronimo
 
 --Thorne --CharacterIndex 21 --CardIndex 21 --RaiderIndex 21
 insert into Cards (CardIndex, CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor, Lore) 
@@ -415,7 +415,7 @@ VALUES (21,
 'Masculine');
 insert into Raiders (CharacterIndex, StandieFront, StandieBack, Gender) 
 VALUES (21);
-insert into KeywordAssignments (KeywordIndex, RaiderIndex) VALUES (21, 21); --Thorne
+insert into KeywordAssignments (RaiderIndex, KeywordIndex) VALUES (21, 21); --Thorne
 
 --Typhoon --CharacterIndex 22 --CardIndex 22 --RaiderIndex 22
 insert into Cards (CardIndex, CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor, Lore) 
@@ -434,7 +434,7 @@ VALUES (22,
 'Masculine');
 insert into Raiders (CharacterIndex, StandieFront, StandieBack, Gender) 
 VALUES (22);
-insert into KeywordAssignments (KeywordIndex, RaiderIndex) VALUES (22, 22); --Typhoon
+insert into KeywordAssignments (RaiderIndex, KeywordIndex) VALUES (22, 22); --Typhoon
 
 --Umbra --CharacterIndex 23 --CardIndex 23 --RaiderIndex 23
 insert into Cards (CardIndex, CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor, Lore) 
@@ -453,7 +453,7 @@ VALUES (23,
 'Masculine');
 insert into Raiders (CharacterIndex, StandieFront, StandieBack, Gender) 
 VALUES (23);
-insert into KeywordAssignments (KeywordIndex, RaiderIndex) VALUES (23, 23); --Umbra
+insert into KeywordAssignments (RaiderIndex, KeywordIndex) VALUES (23, 23); --Umbra
 
 --Whistlin Pete --CharacterIndex 24 --CardIndex 24 --RaiderIndex 24
 insert into Cards (CardIndex, CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor, Lore) 
@@ -472,4 +472,4 @@ VALUES (24,
 'Masculine');
 insert into Raiders (CharacterIndex, StandieFront, StandieBack, Gender) 
 VALUES (24);
-insert into KeywordAssignments (KeywordIndex, RaiderIndex) VALUES (24, 24); --Whistlin Pete
+insert into KeywordAssignments (RaiderIndex, KeywordIndex) VALUES (24, 24); --Whistlin Pete

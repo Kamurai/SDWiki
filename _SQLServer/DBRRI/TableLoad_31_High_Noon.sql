@@ -12,7 +12,7 @@ VALUES (34, 'Both Barrels',
 '', 
 ''
 );
-insert into HighNoonCards (CharacterIndex) VALUES (34);
+insert into HighNoonCards (CardIndex) VALUES (34);
 insert into KeywordAssignments (KeywordIndex, HighNoonCardIndex) VALUES (34, 0); --Both Barrels
 
 

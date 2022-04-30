@@ -12,6 +12,5 @@ VALUES (cXXX, 'Hands',
 '', 
 ''
 );
-insert into LootCards (CharacterIndex) VALUES (cXXX);
-insert into KeywordAssignments (KeywordIndex, LootIndex) VALUES (kXXX, 0); --100 Gallon Hat
-
+insert into Utilities (CardIndex) VALUES (cXXX, 
+'');

@@ -12,7 +12,7 @@ VALUES (cXXX, '100 Gallon Hat',
 '', 
 ''
 );
-insert into LootCards (CharacterIndex) VALUES (cXXX);
+insert into LootCards (CardIndex) VALUES (cXXX);
 insert into KeywordAssignments (KeywordIndex, LootIndex) VALUES (kXXX, 0); --100 Gallon Hat
 
 
