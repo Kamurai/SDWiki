@@ -1,36 +1,95 @@
+--SDE
 --2.0.2 
 --Equipment
---Barbarian Chic --CardIndex cXXX --EquipmentIndex eXXX
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
-'Barbarian Chic',
-'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Barbarian_Chic_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Barbarian_Chic.xhtml', 
-'Treasure', '2.0', '2.0 Core Set', 'Default',
-'The very latest thing.');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (cXXX, 'Character Treasure', 'Right', '+1G ARM');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Brutality Aura
 
---Branch Blade --CardIndex cXXX --EquipmentIndex eXXX
+--Cannon Ball --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
-'Branch Blade',
-'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Branch_Blade_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Branch_Blade.xhtml', 
+'Cannon Ball',
+'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Cannon_Ball_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Cannon_Ball_2.0_back.png',
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Cannon_Ball.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (cXXX, 'Character Treasure', 'Left', '+1R STR');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Counterstrike
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (cXXX, 'Character Treasure', 'Right', '');
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Black-Handed Henry
 
---Burlap Sack --CardIndex cXXX --EquipmentIndex eXXX
+--Cutlass --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
-'Burlap Sack',
-'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Burlap_Sack_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Burlap_Sack.xhtml', 
+'Cutlass',
+'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Cutlass_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Cutlass_2.0_back.png',
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Cutlass.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
-'"Look at all the stuff you can put in here!"');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (cXXX, 'Character Treasure', 'Bottom', '+1R STR +1R ARM +1R WILL +1R DEX');
+'');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (cXXX, 'Character Treasure', 'Bottom', '');
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Black-Handed Henry
+
+--Eye Patch --CardIndex cXXX --EquipmentIndex eXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+'Eye Patch',
+'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Eye_Patch_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Eye_Patch_2.0_back.png',
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Eye_Patch.xhtml', 
+'Treasure', '2.0', '2.0 Core Set', 'Default',
+'');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (cXXX, 'Character Treasure', 'Bottom', '');
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Black-Handed Henry
+
+--Invulnerability Potion --CardIndex cXXX --EquipmentIndex eXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+'Invulnerability Potion',
+'http://htkb.info/SDE/2.0/Cards/Loot/Specific/Card_Treasure_Invulnerability_Potion_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Loot/Specific/Card_Treasure_Invulnerability_Potion_2.0_back.png',
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Loot/Specific/Invulnerability_Potion.xhtml', 
+'Loot', '2.0', '2.0 Core Set', 'Default',
+'');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (cXXX, 'Character Loot', '', '');
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Black-Handed Henry
+
+--Peg Leg --CardIndex cXXX --EquipmentIndex eXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+'Peg Leg',
+'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Peg_Leg_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Peg_Leg_2.0_back.png',
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Peg_Leg.xhtml', 
+'Treasure', '2.0', '2.0 Core Set', 'Default',
+'Watch for Woodworm');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (cXXX, 'Character Treasure', 'Left', '-1MO +1R ARM');
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Run Down
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Black-Handed Henry
+
+--Pirate Hat --CardIndex cXXX --EquipmentIndex eXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+'Pirate Hat',
+'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Pirate_Hat_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Pirate_Hat_2.0_back.png',
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Pirate_Hat.xhtml', 
+'Treasure', '2.0', '2.0 Core Set', 'Default',
+'');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (cXXX, 'Character Treasure', 'Top', '');
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Black-Handed Henry
+
+--Pirate Map --CardIndex cXXX --EquipmentIndex eXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+'Pirate Map',
+'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Pirate_Map_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Pirate_Map_2.0_back.png',
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Pirate_Map.xhtml', 
+'Treasure', '2.0', '2.0 Core Set', 'Default',
+'');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (cXXX, 'Character Treasure', 'Top', '');
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Black-Handed Henry
+
+
+
+
+
+
+
+
+
+
+
 
 
 
