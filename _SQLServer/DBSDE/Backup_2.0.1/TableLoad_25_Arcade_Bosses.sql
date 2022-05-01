@@ -1,4 +1,7 @@
---2.0 Bosses
+--SDE
+--2.0.1
+--Bosses
+
 --Bomechan	--CardIndex cXXX	--CharacterIndex chXXX	--ArcadeCharacterIndex arXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Bomechan',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Bosses/Card_Arcade_Boss_Bomechan_2.0.png', 
@@ -22,7 +25,6 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (gXXX, 212
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (gXXX, 253); --Show of Strength
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (gXXX, 495); --Smokebomb
 
-
 --Daemonus	--CardIndex cXXX	--CharacterIndex chXXX	--ArcadeCharacterIndex arXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Daemonus',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Bosses/Card_Arcade_Boss_Daemonus_2.0.png', 
@@ -39,7 +41,6 @@ insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, 
 VALUES (arXXX, 0, 'Daemonus', 'Construct', 'Boss', 6, 1, 2, eXXX);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, 563); --Bully
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, 524); --Dark Defender
-
 
 --Demon Queen Araphel	--CardIndex cXXX	--CharacterIndex chXXX	--ArcadeCharacterIndex arXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Demon Queen Araphel',

@@ -1,4 +1,7 @@
---2.0 Bosses
+--SDE
+--2.0
+--Bosses
+
 --Bomechan --CardIndex 1049 --CharacterIndex 957 --ExploreCharacterIndex 553
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Bomechan',
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Bomechan_2.0.png', 

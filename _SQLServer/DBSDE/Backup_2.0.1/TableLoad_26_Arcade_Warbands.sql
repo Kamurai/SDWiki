@@ -1,4 +1,7 @@
---2.0 --Warband Gangs
+--SDE
+--2.0
+ --Warband Gangs
+ 
 --Arcadian Spider Nest
 --Arcadian Spider Nest --CardIndex cXXX --CharacterIndex chXXX --ArcadeCharacterIndex arXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Arcadian Spider Nest',

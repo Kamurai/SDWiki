@@ -1,4 +1,7 @@
---2.0 Arcade Creeps
+--SDE
+--2.0.1
+--Arcade Creeps
+
 --Chochin-Obake	--CardIndex 1269	--CharacterIndex 1172	--ArcadeCharacterIndex 106
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Chochin-Obake',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Creeps/Card_Arcade_Creep_Chochin_Obake_2.0.png', 

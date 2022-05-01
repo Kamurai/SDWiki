@@ -1,4 +1,7 @@
---2.0 --Warband Monsters
+--SDE
+--2.0
+ --Warband Monsters
+ 
 --Arcadian Spider Nest
 --Arcadian Spider Nest --CardIndex 1079 --CharacterIndex 982 --ExploreCharacterIndex 578
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Arcadian Spider Nest',
@@ -13,11 +16,11 @@ insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender
 VALUES (982,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Arcadian_Spider_Nest/Standies/Arcadian_Spider_Nest_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Arcadian_Spider_Nest/Standies/Arcadian_Spider_Nest_2.0_back.png', 
-'Neither', 'Small', 'Spawning Point', 0, 0, '', '1st', '', '', 3, 0);
+'Neither', 'Small', 'Spawning Point', 0, 0, '', '1ST', '', '', 3, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (578, 681); --Immune: Status Effects
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (578, 1068); --Webs
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (578, 915); --Spawning Pool
-insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (578, 1); --Armor 
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (578, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (578, 'Spawning Point', 'Start', 0);
 
 --Duskweaver Acolyte --CardIndex 1080 --CharacterIndex 983 --ExploreCharacterIndex 579
@@ -59,7 +62,7 @@ insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender
 VALUES (984,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Arcadian_Spider_Nest/Standies/Leaping_Spider_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Arcadian_Spider_Nest/Standies/Leaping_Spider_2.0_back.png', 
-'Either', 'Small', 'Spider', 6, 1, '2B 1R', '1st', '3B', '3B', 1, 0);
+'Either', 'Small', 'Spider', 6, 1, '2B 1R', '1ST', '3B', '3B', 1, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (580, 679); --Immune: Poison
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (580, 757); --Mob
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (580, 1023); --Surefoot
@@ -106,7 +109,7 @@ insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender
 VALUES (986,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Bandit_Knight/Standies/Bandit Knight_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Bandit_Knight/Standies/Bandit Knight_2.0_back.png', 
-'Neither', 'Small', 'Spawning Point', 0, 0, '', '1st', '', '', 3, 0);
+'Neither', 'Small', 'Spawning Point', 0, 0, '', '1ST', '', '', 3, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (582, 518); --Counterstrike
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (582, 681); --Immune: Status Effects
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (582, 917); --Spawning Pool
@@ -1434,7 +1437,7 @@ insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender
 VALUES (1046,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Cold_Eggs/Standies/Cold_Eggs_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Cold_Eggs/Standies/Cold_Eggs_2.0_back.png', 
-'Neither', 'Small', 'Spawning Point', 0, 0, '', '1st', '', '', 3, 0);
+'Neither', 'Small', 'Spawning Point', 0, 0, '', '1ST', '', '', 3, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (642, 461); --Black Ice
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (642, 681); --Immune: Status Effects
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (642, 931); --Spawning Pool
@@ -1519,7 +1522,7 @@ insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, 
 VALUES (1050,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Corrupted_Harvest/Standies/Corrupted_Harvest_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Corrupted_Harvest/Standies/Corrupted_Harvest_2.0_back.png', 
-'Neither', 'Large', 'Construct Spawning Point', 0, 0, '', '1st', '', '', 4, 0);
+'Neither', 'Large', 'Construct Spawning Point', 0, 0, '', '1ST', '', '', 4, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (646, 588); --Fire
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (646, 595); --Flammable
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (646, 681); --Immune: Status Effects Except Fire
@@ -1611,7 +1614,7 @@ insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender
 VALUES (1054,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Barrow/Standies/Cursed_Barrow_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Barrow/Standies/Cursed_Barrow_2.0_back.png', 
-'Neither', 'Small', 'Spawning Point', 0, 0, '', '1st', '', '', 3, 0);
+'Neither', 'Small', 'Spawning Point', 0, 0, '', '1ST', '', '', 3, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (650, 547); --Despair
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (650, 681); --Immune: Status Effects
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (650, 937); --Spawning Pool
@@ -1695,7 +1698,7 @@ insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender
 VALUES (1058,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Barrow/Standies/Cursed_Barrow_Errata_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Barrow/Standies/Cursed_Barrow_Errata_2.0_back.png', 
-'Neither', 'Small', 'Spawning Point', 0, 0, '', '1st', '', '', 3, 0);
+'Neither', 'Small', 'Spawning Point', 0, 0, '', '1ST', '', '', 3, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (654, 547); --Despair
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (654, 681); --Immune: Status Effects
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (654, 939); --Spawning Pool
@@ -1719,7 +1722,7 @@ insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender
 VALUES (1059,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Hollow/Standies/Cursed_Hollow_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Hollow/Standies/Cursed_Hollow_2.0_back.png', 
-'Neither', 'Large', 'Paired Spawning Point', 0, 0, '', '1st', '', '', 4, 0);
+'Neither', 'Large', 'Paired Spawning Point', 0, 0, '', '1ST', '', '', 4, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (655, 681); --Immune: Status Effects
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (655, 941); --Spawning Pool
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (655, 2); --Armor 
@@ -1845,7 +1848,7 @@ insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender
 VALUES (1065,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Knight/Standies/Cursed_Knight_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Knight/Standies/Cursed_Knight_2.0_back.png', 
-'Neither', 'Large', 'Spawning Point', 0, 0, '', '1st', '', '', 3, 0);
+'Neither', 'Large', 'Spawning Point', 0, 0, '', '1ST', '', '', 3, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (661, 647); --Hex
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (661, 650); --Hex Aura
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (661, 681); --Immune: Status Effects
@@ -1959,7 +1962,7 @@ insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender
 VALUES (1070,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Egg_Clutch/Standies/Egg_Clutch_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Egg_Clutch/Standies/Egg_Clutch_2.0_back.png', 
-'Neither', 'Small', 'Spawning Point', 0, 0, '', '1st', '', '', 3, 0);
+'Neither', 'Small', 'Spawning Point', 0, 0, '', '1ST', '', '', 3, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (666, 681); --Immune: Status Effects
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (666, 945); --Spawning Pool
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (666, 1010); --Stealth
@@ -2179,7 +2182,7 @@ insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender
 VALUES (1080,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Fire_Flow_Hollow/Standies/Fire_Flow_Hollow_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Fire_Flow_Hollow/Standies/Fire_Flow_Hollow_2.0_back.png', 
-'Neither', 'Large', 'Paired Spawning Point', 0, 0, '', '1st', '', '', 4, 0);
+'Neither', 'Large', 'Paired Spawning Point', 0, 0, '', '1ST', '', '', 4, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (676, 588); --Fire
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (676, 589); --Fire Aura
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (676, 681); --Immune: Status Effects
@@ -2315,7 +2318,7 @@ insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender
 VALUES (1086,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Forgotten_Stone/Standies/Forgotten_Stone_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Forgotten_Stone/Standies/Forgotten_Stone_2.0_back.png', 
-'Neither', 'Large', 'Spawning Point', 0, 0, '', '1st', '', '', 3, 0);
+'Neither', 'Large', 'Spawning Point', 0, 0, '', '1ST', '', '', 3, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (682, 681); --Immune: Status Effects
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (682, 872); --Scuttle
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (682, 951); --Spawning Pool
@@ -2409,7 +2412,7 @@ insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender
 VALUES (1090,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Frozen_Warrens/Standies/Frozen_Warrens_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Frozen_Warrens/Standies/Frozen_Warrens_2.0_back.png', 
-'Neither', 'Large', 'Spawning Point', 0, 0, '', '1st', '', '', 4, 0);
+'Neither', 'Large', 'Spawning Point', 0, 0, '', '1ST', '', '', 4, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (686, 461); --Black Ice
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (686, 681); --Immune: Status Effects
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (686, 953); --Spawning Pool
@@ -2540,7 +2543,7 @@ insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender
 VALUES (1096,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Howler_Stone/Standies/Howler_Stone_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Howler_Stone/Standies/Howler_Stone_2.0_back.png', 
-'Neither', 'Large', 'Spawning Point', 0, 0, '', '1st', '', '', 3, 0);
+'Neither', 'Large', 'Spawning Point', 0, 0, '', '1ST', '', '', 3, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (692, 681); --Immune: Status Effects
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (692, 785); --Pack Mentality
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (692, 956); --Spawning Pool
@@ -2742,7 +2745,7 @@ insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender
 VALUES (1105,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Kobold_Warrens/Standies/Kobold_Warrens_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Kobold_Warrens/Standies/Kobold_Warrens_2.0_back.png', 
-'Neither', 'Large', 'Spawning Point', 0, 0, '', '1st', '', '', 4, 0);
+'Neither', 'Large', 'Spawning Point', 0, 0, '', '1ST', '', '', 4, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (701, 681); --Immune: Status Effects
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (701, 757); --Mob
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (701, 759); --Mob Mentality

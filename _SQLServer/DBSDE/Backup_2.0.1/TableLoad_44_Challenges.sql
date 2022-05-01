@@ -1,4 +1,6 @@
---2.0 Challenge Cards
+--SDE
+--2.0
+--Challenge Cards
 
 --Accidents Happen...	--CardIndex cXXX --ChallengeIndex clXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)

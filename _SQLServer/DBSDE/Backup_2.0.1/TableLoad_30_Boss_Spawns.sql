@@ -1,4 +1,7 @@
---2.0 Boss Spawns
+--SDE
+--2.0.1
+--Boss Spawns
+
 --Bomechan     --CardIndex cXXX   --BossSpawnIndex bsXXX  
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Bomechan', 
 'http://htkb.info/SDE/2.0/Cards/Boss_Spawns/Card_Boss_Spawn_Bomechan_2.0.png', 
@@ -11,7 +14,7 @@ VALUES (cXXX, '',
 'Spawn one Ijin Oni adjacent to Bomechan.', 
 'Spawn one Ijin Oni anywhere in the dungeon.',
 '');
-insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (bsXXX, chXXX); 
+insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (bsXXX, chXXX); --Bomechan
 insert into KeywordAssignments (BossSpawnIndex, KeywordIndex) VALUES (bsXXX, kXXX); --For The Pirate Queen!
 
 --Demon Queen Araphel     --CardIndex cXXX   --BossSpawnIndex bsXXX  

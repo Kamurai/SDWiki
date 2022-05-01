@@ -10,8 +10,8 @@ insert into Characters (CardIndex) VALUES (983);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (891, 0); --Amethyst
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (891,
-'http://htkb.info/SDE/2.0/Cards/Standies/Chochin-Obake_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Standies/Chochin-Obake_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Creeps/Standies/Chochin-Obake_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Creeps/Standies/Chochin-Obake_2.0_back.png',
 'Either', 'Small', 'Undead Ghost', 6, 2, '1B', '3B', '1G', '3B', 1, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (487, 629); --Ghost
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (487, 670); --Illumination
@@ -32,8 +32,8 @@ insert into Characters (CardIndex) VALUES (984);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (892, 2); --Emerald
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (892,
-'http://htkb.info/SDE/2.0/Cards/Standies/Curse_Raven_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Standies/Curse_Raven_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Creeps/Standies/Curse_Raven_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Creeps/Standies/Curse_Raven_2.0_back.png',
 'Either', 'Small', 'Undead', 1, 1, '0ST', '1ST', '3B', '2B', 1, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (488, 453); --Bane
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (488, 547); --Despair
@@ -54,8 +54,8 @@ insert into Characters (CardIndex) VALUES (985);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (893, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (893,
-'http://htkb.info/SDE/2.0/Cards/Standies/Demolitions_Expert_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Standies/Demolitions_Expert_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Creeps/Standies/Demolitions_Expert_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Creeps/Standies/Demolitions_Expert_2.0_back.png',
 'Either', 'Small', 'Rocktop', 5, 1, '2B', '0ST', '2B', '1B', 1, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (489, 680); --Immune: Slow
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (489, 691); --Insignificant
@@ -77,8 +77,8 @@ insert into Characters (CardIndex) VALUES (986);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (894, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (894,
-'http://htkb.info/SDE/2.0/Cards/Standies/Dirty_Rat_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Standies/Dirty_Rat_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Creeps/Standies/Dirty_Rat_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Creeps/Standies/Dirty_Rat_2.0_back.png',
 'Either', 'Small', 'Rat', 8, 1, '1B', '0ST', '1B', '2R', 1, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (490, 757); --Mob
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (490, 1056); --Vermin
@@ -99,8 +99,8 @@ insert into Characters (CardIndex) VALUES (987);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (895, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (895,
-'http://htkb.info/SDE/2.0/Cards/Standies/Fire_Flower_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Standies/Fire_Flower_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Creeps/Standies/Fire_Flower_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Creeps/Standies/Fire_Flower_2.0_back.png',
 'Either', 'Small', 'Kodama', 3, 1, '1B', '1ST', '1B', '3B', 1, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (491, 588); --Fire
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (491, 674); --Immune: Fire
@@ -122,8 +122,8 @@ insert into Characters (CardIndex) VALUES (988);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (896, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (896,
-'http://htkb.info/SDE/2.0/Cards/Standies/Forge_Gnome_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Standies/Forge_Gnome_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Creeps/Standies/Forge_Gnome_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Creeps/Standies/Forge_Gnome_2.0_back.png',
 'Either', 'Small', 'Gnome', 4, 1, '3B', '1ST', '2B', '1B', 1, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (492, 588); --Fire 
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (492, 1175); --Freelance Fire Forge
@@ -143,8 +143,8 @@ insert into Characters (CardIndex) VALUES (989);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (897, 4); --Sapphire
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (897,
-'http://htkb.info/SDE/2.0/Cards/Standies/Frost_Imp_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Standies/Frost_Imp_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Creeps/Standies/Frost_Imp_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Creeps/Standies/Frost_Imp_2.0_back.png',
 'Either', 'Small', 'Demon', 6, 1, '2B', '3B', '4B', '4B', 1, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (493, 460); --Biting Wind
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (493, 693); --Insignificant
@@ -164,8 +164,8 @@ insert into Characters (CardIndex) VALUES (990);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (898, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (898,
-'http://htkb.info/SDE/2.0/Cards/Standies/Ghostflame_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Standies/Ghostflame_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Creeps/Standies/Ghostflame_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Creeps/Standies/Ghostflame_2.0_back.png',
 'Either', 'Small', 'Undead', 4, 0, '0ST', '0ST', '0ST', '0ST', 2, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (494, 588); --Fire
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (494, 594); --Flaming
@@ -185,8 +185,8 @@ insert into Characters (CardIndex) VALUES (991);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (899, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (899,
-'http://htkb.info/SDE/2.0/Cards/Standies/Kabomb_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Standies/Kabomb_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Creeps/Standies/Kabomb_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Creeps/Standies/Kabomb_2.0_back.png',
 'Either', 'Small', 'Construct', 0, 0, '1B', '0ST', '0ST', '0ST', 1, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (495, 475); --Bouncing Betty 
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (495, 693); --Insignificant
@@ -206,8 +206,8 @@ insert into Characters (CardIndex) VALUES (992);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (900, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (900,
-'http://htkb.info/SDE/2.0/Cards/Standies/Kodead_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Standies/Kodead_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Creeps/Standies/Kodead_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Creeps/Standies/Kodead_2.0_back.png',
 'Either', 'Small', 'Undead Kobold', 5, 1, '1B', '0ST', '0ST', '0ST', 2, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (496, 617); --Fresh Grave
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (496, 753); --Meager
@@ -227,8 +227,8 @@ insert into Characters (CardIndex) VALUES (993);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (901, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (901,
-'http://htkb.info/SDE/2.0/Cards/Standies/Nether_Imp_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Standies/Nether_Imp_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Creeps/Standies/Nether_Imp_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Creeps/Standies/Nether_Imp_2.0_back.png',
 'Either', 'Small', 'Demon', 6, 1, '1B', '0ST', '1ST', '2B', 1, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (497, 453); --Bane
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (497, 588); --Fire
@@ -249,8 +249,8 @@ insert into Characters (CardIndex) VALUES (994);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (902, 0); --Amethyst
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (902,
-'http://htkb.info/SDE/2.0/Cards/Standies/Rotten_Pumpkin_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Standies/Rotten_Pumpkin_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Creeps/Standies/Rotten_Pumpkin_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Creeps/Standies/Rotten_Pumpkin_2.0_back.png',
 'Either', 'Small', '', 5, 1, '2B', '0ST', '0ST', '0ST', 1, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (498, 453); --Bane
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (498, 693); --Insignificant
@@ -271,8 +271,8 @@ insert into Characters (CardIndex) VALUES (995);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (903, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (903,
-'http://htkb.info/SDE/2.0/Cards/Standies/Spiker_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Standies/Spiker_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Creeps/Standies/Spiker_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Creeps/Standies/Spiker_2.0_back.png',
 'Either', 'Small', 'Goblin', 6, 1, '2B', '0ST', '0ST', '2B', 1, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (499, 693); --Insignificant
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (499, 709); --Knockdown
@@ -292,8 +292,8 @@ insert into Characters (CardIndex) VALUES (996);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (904, 0); --Amethyst
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (904,
-'http://htkb.info/SDE/2.0/Cards/Standies/Spiteful_Cherub_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Standies/Spiteful_Cherub_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Creeps/Standies/Spiteful_Cherub_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Creeps/Standies/Spiteful_Cherub_2.0_back.png',
 'Either', 'Small', 'Demon', 6, 1, '4B', '1ST', '2R', '1B', 1, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (500, 596); --Fly
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (500, 997); --Spiteful Whispers
@@ -312,8 +312,8 @@ insert into Characters (CardIndex) VALUES (997);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (905, 0); --Amethyst
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (905,
-'http://htkb.info/SDE/2.0/Cards/Standies/Squigly_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Standies/Squigly_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Creeps/Standies/Squigly_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Creeps/Standies/Squigly_2.0_back.png',
 'Either', 'Small', 'Squid', 6, 1, '2B', '0ST', '0ST', '3B', 1, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (501, 636); --Grabby
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (501, 901); --Slow
@@ -333,8 +333,8 @@ insert into Characters (CardIndex) VALUES (998);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (906, 0); --Amethyst
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (906,
-'http://htkb.info/SDE/2.0/Cards/Standies/Underdead_Crow_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Standies/Underdead_Crow_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Creeps/Standies/Underdead_Crow_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Creeps/Standies/Underdead_Crow_2.0_back.png',
 'Either', 'Small', 'Undead', 5, 1, '3B', '0ST', '0ST', '0ST', 1, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (502, 453); --Bane
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (502, 565); --Eat Crow
@@ -357,8 +357,8 @@ insert into Characters (CardIndex) VALUES (999);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (907, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (907,
-'http://htkb.info/SDE/2.0/Cards/Standies/Waystone_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Standies/Waystone_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Creeps/Standies/Waystone_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Creeps/Standies/Waystone_2.0_back.png',
 'Either', 'Small', 'Waystone', 0, 0, '0ST', '1ST', '0ST', '0ST', 2, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (503, 681); --Immune: Status Effects
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (503, 729); --Massive Damage
@@ -379,8 +379,8 @@ insert into Characters (CardIndex) VALUES (1000);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (908, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (908,
-'http://htkb.info/SDE/2.0/Cards/Standies/Yowling_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Standies/Yowling_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Creeps/Standies/Yowling_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Creeps/Standies/Yowling_2.0_back.png',
 'Either', 'Small', 'Owlbear', 6, 1, '2B', '1ST', '1B', '4B', 1, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (504, 636); --Grabby
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (504, 1829); --Thieving Owls
@@ -399,8 +399,8 @@ insert into Characters (CardIndex) VALUES (1001);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (909, 0); --Amethyst
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (909,
-'http://htkb.info/SDE/2.0/Cards/Standies/Yurei_Bushi_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Standies/Yurei_Bushi_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Creeps/Standies/Yurei_Bushi_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Creeps/Standies/Yurei_Bushi_2.0_back.png',
 'Either', 'Small', 'Ghost', 6, 1, '3B', '0ST', '0ST', '0ST', 1, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (505, 693); --Insignificant
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (505, 995); --Spirit Sentry
