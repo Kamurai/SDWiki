@@ -57,8 +57,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Ancient_Crusher.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Nothing stands!');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Treasure', 'Right', '+1G STR');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Treasure', 'Right', '+1G STR');
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (90, 46); --Destruction
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Gothmog the Terrible
 
 --Angelic Arbalest --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Angelic Arbalest',
@@ -117,9 +118,10 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Arrow_of_Seeking.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Treasure', 'Left', '+1G DEX');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Treasure', 'Left', '+1G DEX');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Hookshot
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (90, 46); --The Lonely Arrow
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Clan Tanchyo Chunin
 
 --Artificer Pistol --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Artificer Pistol',
@@ -137,8 +139,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Banded_Bronze.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Stay true to the Goddess.');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Treasure', 'Left', '+1G ARM');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Treasure', 'Left', '+1G ARM');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Holy
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Elrik the Lich King
 
 --Bane Amulet --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Bane Amulet',
@@ -147,10 +150,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Bane_Amulet.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');  --!! unavailable !!
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Treasure', 'Left', '+1G STR');  --!! unavailable !!
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Treasure', 'Left', '+1G STR');  --!! unavailable !!
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Blood Drinker --!! unavailable 1!
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (90, 46); --Destruction --!! unavailable !!
-
 
 --Barbarian Chic --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Barbarian Chic',
@@ -159,9 +161,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Barbarian_Chic.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'The very latest thing.');  
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Treasure', 'Left', '+1G ARM');  
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Treasure', 'Left', '+1G ARM');  
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, 1090); --Brutality Aura
-
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --The Guth
 
 --Bashful Booty --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Bashful Booty',
@@ -203,17 +205,18 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Loot', 'Top', '+1B STR');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Immune: Hex
 
---Berserker's Horn (Relic) --CardIndex cXXX --EquipmentIndex eXXX
+--Berserker's Horn --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Berserker''s Horn',
 'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Berserkers_Horn_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Relics/Berserkers_Horn.xhtml', 
-'Relics', '2.0', '2.0 Core Set', 'Default',
+'Relic', '2.0', '2.0 Core Set', 'Default',
 'Who knew they had such a flat head.');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Relics', 'Bottom', '');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Relic', 'Bottom', '');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Rage
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --The Guth
 
---Berserker's Helm (Treasure) --CardIndex cXXX --EquipmentIndex eXXX
+--Berserker's Helm --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Berserker''s Helm',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Generic/Card_Treasure_Berserkers_Helm_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
@@ -257,8 +260,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Black_Harp.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Treasure', 'Top', '+2MO +1AC +1R DEX +1R WILL');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Treasure', 'Top', '+2MO +1AC +1R DEX +1R WILL');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Dance Party
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Nightsong the Eternal
 
 --Black Pearl, The --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Black Pearl, The',
@@ -267,9 +271,10 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Black_Pearl_The.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Treasure', 'Top', '+1G ARM');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Treasure', 'Top', '+1G ARM');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Consuming Greed
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Cursed
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Onibaba
 
 --Bladed Fist --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Bladed Fist',
@@ -278,8 +283,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Bladed_Fist.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Treasure', 'Left', '+1R STR');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Treasure', 'Left', '+1R STR');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Berserk
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Clan Tora Chunin
 
 --Bladed Quarterstaff --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Bladed Quarterstaff',
@@ -298,8 +304,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Blaze_Eye_Blazer.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'No flame may harm me.');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Treasure', 'Left', '+1B +1R ARM');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Treasure' 'Left', '+1B +1R ARM');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Immune: Fire
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --The Destroyer
 
 --Blazing Armor --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Blazing Armor',
@@ -308,8 +315,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Blazing_Armor.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Treasure', 'Right', '+1G ARM');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Treasure' 'Right', '+1G ARM');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Deadly Defense
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Demon Queen Araphel
 
 --Blazing Momo Yoroi --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Blazing Momo Yoroi',
@@ -326,9 +334,10 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Bleak_Cap_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Relics/Bleak_Cap.xhtml', 
-'Relics', '2.0', '2.0 Core Set', 'Default',
+'Relic', '2.0', '2.0 Core Set', 'Default',
 ''); --!!unavailable !!
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Relics', 'Top', '+1R ARM');  --!!unavailable !!
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Relic', 'Top', '+1R ARM');  --!!unavailable !!
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Hoarfang
 
 --Blessed Spear --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Blessed Spear',
@@ -345,20 +354,22 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Blight_Stone_The_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Relics/Blight_Stone_The.xhtml', 
-'Relics', '2.0', '2.0 Core Set', 'Default',
+'Relic', '2.0', '2.0 Core Set', 'Default',
 '');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Relics', 'Top', '+1R WILL');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Relic', 'Top', '+1R WILL');
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (90, 46); --Eternal Master
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Nightsong the Eternal
 
 --Blood-Stained Sandals  --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Blood-Stained Sandals',
 'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Blood_Stained_Sandals_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Relics/Blood_Stained_Sandals.xhtml', 
-'Relics', '2.0', '2.0 Core Set', 'Default',
+'Relic', '2.0', '2.0 Core Set', 'Default',
 '');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Relics', 'Top', '+4MO');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Relic', 'Top', '+4MO');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Backstabber
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Onryo
 
 --Blue Shell --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Blue Shell',
@@ -367,9 +378,10 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Blue_Shell.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Got him!');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Treasure', 'Left', '+1G DEX');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Treasure' 'Left', '+1G DEX');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Massive Damage
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (90, 46); --Seek The Leader
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Kappa
 
 --Bluraz Fizzy Blast --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Bluraz Fizzy Blast',
@@ -395,10 +407,11 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Book_of_Secrets_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Relics/Book_of_Secrets.xhtml', 
-'Relics', '2.0', '2.0 Core Set', 'Default',
+'Relic', '2.0', '2.0 Core Set', 'Default',
 'You wouldn''t read a lady''s diary, would you?');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Relics', 'Top', '');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Relic', 'Top', '');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --For Unlawful Carnal Knowledge
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Demon Queen Araphel
 
 --Booty Biter --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Booty Biter',
@@ -434,32 +447,35 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Bound_Tresses_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Relics/Bound_Tresses.xhtml', 
-'Relics', '2.0', '2.0 Core Set', 'Default',
+'Relic', '2.0', '2.0 Core Set', 'Default',
 'Malice radiates from this long queue, take care its owner doesn''t come looking Geta.');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Relics', 'Right', '+1R WILL');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Relic', 'Right', '+1R WILL');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Hex
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (90, 46); --Tempest of Wrath
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Onryo
 
 --Brace of the Four Winds  --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Brace of the Four Winds',
 'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Brace_of_the_Four_Winds_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Relics/Brace_of_the_Four_Winds.xhtml', 
-'Relics', '2.0', '2.0 Core Set', 'Default',
+'Relic', '2.0', '2.0 Core Set', 'Default',
 '');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Relics', 'Top', '+1R ARM');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Relic', 'Top', '+1R ARM');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Howling Vengeance
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Bomechan
 
 --Brain Chain  --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Brain Chain',
 'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Brain_Chain_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Relics/Brain_Chain.xhtml', 
-'Relics', '2.0', '2.0 Core Set', 'Default',
+'Relic', '2.0', '2.0 Core Set', 'Default',
 '');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Relics', 'Bottom', '+1R WILL');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Relic', 'Bottom', '+1R WILL');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Ice
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (90, 46); --Ice Storm
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Pauper Prince
 
 --Branch Blade  --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Branch Blade',
@@ -468,8 +484,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Branch_Blade.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Treasure', 'Right', '+1R STR');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Treasure' 'Right', '+1R STR');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Counterstrike
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --The Guth
 
 --Brass Knuckles --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Brass Knuckles',
@@ -497,8 +514,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Brute_Lord_Bracers.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Kill, Maim, Burn!');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Treasure', 'Top', '+1R STR');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Treasure' 'Top', '+1R STR');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Frenzy
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --The Rage Fiend
 
 --Bubble Bop Grape Attack --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Bubble Bop Grape Attack',
@@ -525,10 +543,11 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Burial_Kimono_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Relics/Burial_Kimono.xhtml', 
-'Relics', '2.0', '2.0 Core Set', 'Default',
+'Relic', '2.0', '2.0 Core Set', 'Default',
 'Spun from silk, the katabira is a revered article of clothing, as it is borne by its wearer into the afterlife.');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Relics', 'Left', '');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Relic', 'Left', '');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Spirit Call
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Onryo
 
 --Burial Robes --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Burial Robes',
@@ -537,8 +556,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Burial_Robes.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'You seriously want me to wear these?');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Treasure', 'Left', '+2R ARM');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Treasure' 'Left', '+2R ARM');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Ghost
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Onryo
 
 --Burlap Sack --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Burlap Sack',
@@ -547,7 +567,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Burlap_Sack.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '"Look at all the stuff you can put in here!"'); 
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Treasure', 'Top', '+1R STR +1R ARM +1R WILL +1R DEX');  
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Treasure' 'Top', '+1R STR +1R ARM +1R WILL +1R DEX');  
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --The Thresher
 
 --Burning Eye --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Burning Eye',
@@ -566,20 +587,22 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Burning_Horn.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Let them all burn.');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Treasure', 'Bottom', '+1G STR');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Treasure' 'Bottom', '+1G STR');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Dangerous
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Fire
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (90, 46); --Dragon's Breath
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Burning Horn
 
 --Burning Jewel, The  --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Burning Jewel, The',
 'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Burning_Jewel_The_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Relics/Burning_Jewel_The.xhtml', 
-'Relics', '2.0', '2.0 Core Set', 'Default',
+'Relic', '2.0', '2.0 Core Set', 'Default',
 '');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Relics', 'Bottom', '+1AC');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Relic', 'Bottom', '+1AC');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Eternal Flame
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Lord Vulcanis
 
 --Burnt Twig --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Burnt Twig',
@@ -610,10 +633,11 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Cats_Paw.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Treasure', 'Left', '+1R DEX 2 +1G DEX');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Treasure' 'Left', '+1R DEX 2 +1G DEX');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Knockdown
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Pounce
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (90, 46); --Sneak Attack
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Chaos Kitty
 
 --Celestial Lance --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Celestial Lance',
@@ -650,8 +674,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Chained_Locket.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Treasure', 'Top', '+2 HEALTH');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Treasure' 'Top', '+2 HEALTH');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Steady
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Chained Knight
 
 --Chainmail --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Chainmail',
@@ -678,9 +703,10 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Chains_of_Service.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Treasure', 'Top', '+1G WILL');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Treasure' 'Top', '+1G WILL');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Augment
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (90, 46); --Servitude
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --The Destroyer
 
 --Champion's Regalia --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Champion''s Regalia',
@@ -709,8 +735,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Cheese_Head.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Treasure', 'Bottom', '+1G ARM');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Treasure' 'Bottom', '+1G ARM');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Spongy
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Randy, Lrod of Spiders
 
 --Chew Toy --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Chew Toy',
@@ -729,9 +756,10 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Chill_Song.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '"Blarrttt!" never sounded so chilling.');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Treasure', 'Left', '+1G STR');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Treasure' 'Left', '+1G STR');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Ice
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (90, 46); --Winter's Harvest
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --The Guth
 
 --Chimeric Battleblade --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Chimeric Battleblade',
@@ -801,9 +829,10 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Clockwork_Gatling.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Watch where you point that!');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Treasure', 'Right', '+3B DEX');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Treasure' 'Right', '+3B DEX');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Dangerous
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (90, 46); --Reckless Fire
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Pauper Prince
 
 --Clockwork Harness --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Clockwork Harness',
@@ -832,8 +861,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Cocooned_Hero.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Treasure', 'Right', '+1R WILL');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Treasure' 'Right', '+1R WILL');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Lost Hero
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Jorogumo
 
 --Cog Hammer --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Cog Hammer',
@@ -842,19 +872,21 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Cog_Hammer.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Treasure', 'Left', '+2B STR');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Treasure' 'Left', '+2B STR');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Coghammer
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Ugluk the Mechanically Inclined
 
 --Confused Ice Glob  --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Confused Ice Glob',
 'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Confused_Ice_Glob_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Relics/Confused_Ice_Glob.xhtml', 
-'Relics', '2.0', '2.0 Core Set', 'Default',
+'Relic', '2.0', '2.0 Core Set', 'Default',
 '');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Relics', 'Top', '+1R STR');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Relic', 'Top', '+1R STR');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Ice
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (90, 46); --Block Head
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Elrik the Lich King
 
 --Corpse Hand --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Corpse Hand',
@@ -903,8 +935,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Crimson_Plate.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Away, ye foul-brouthed abominations!');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Treasure', 'Left', '+1G ARM');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Treasure' 'Left', '+1G ARM');
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (90, 46); --Banish
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Mordred the Accursed
 
 --Crimson Watcher, The --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ancient Crusher',
@@ -913,8 +946,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Crimson_Watcher_The.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Treasure', 'Bottom', '+1R WILL');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Treasure' 'Bottom', '+1R WILL');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Grave Visions
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Blood-Eye Tracker
 
 --Crown Of Frost --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Crown Of Frost',
@@ -923,9 +957,10 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Crown_Of_Frost.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Your tongue will get stuck if you lick it.');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Treasure', 'Bottom', '+1G DEX');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Treasure' 'Bottom', '+1G DEX');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Ice
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Immune: Ice
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Elrik the Lich King
 
 --Crude Blunderbuss --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Crude Blunderbuss',
@@ -954,8 +989,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Crystal_Key.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'This should do the trick...');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Treasure', 'Left', '+1G DEX');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Treasure' 'Left', '+1G DEX');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Proficient
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Crystal Weaver
 
 --Crystal Munition --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Crystal Munition',
@@ -964,8 +1000,10 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Crystal_Munition.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Treasure', 'Left', '+1G DEX');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Treasure' 'Left', '+1G DEX');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Volatile
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Gnomish Excavator
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Professor Cackle-Clink
 
 --Crystal Shard --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Crystal Shard',
@@ -983,19 +1021,20 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Cursed_Remains.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Treasure', 'Right', '+1G STR');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Treasure' 'Right', '+1G STR');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Bane
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Cursed
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --False Security
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Onryo
 
 --Cursed Staff  --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Cursed Staff',
 'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Cursed_Staff_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Relics/Cursed_Staff.xhtml', 
-'Relics', '2.0', '2.0 Core Set', 'Default',
+'Relic', '2.0', '2.0 Core Set', 'Default',
 'The Dark Consul bestows his power on his most loyal servants, but power always has a price.');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Relics', 'Right', '+1AC');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Relic', 'Right', '+1AC');
 
 --Dagger of Malice --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Dagger of Malice',
@@ -1004,27 +1043,29 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Dagger_of_Malice.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Treasure', 'Right', '+1G STR');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Treasure' 'Right', '+1G STR');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Cursed
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Malice
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Onibaba
 
 --Dapper Sword Cane  --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Dapper Sword Cane',
 'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Dapper_Sword_Cane_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Relics/Dapper_Sword_Cane.xhtml', 
-'Relics', '2.0', '2.0 Core Set', 'Default',
+'Relic', '2.0', '2.0 Core Set', 'Default',
 'A finer point.');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Relics', 'Right', '+1R STR');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Relic', 'Right', '+1R STR');
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Pauper Prince
 
 --Dark Crystal  --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Dark Crystal',
 'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Dark_Crystal_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Relics/Dark_Crystal.xhtml', 
-'Relics', '2.0', '2.0 Core Set', 'Default',
+'Relic', '2.0', '2.0 Core Set', 'Default',
 '');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Relics', 'Bottom', '');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Relic', 'Bottom', '');
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (90, 46); --The Consul's Wrath
 
 --Darkwood Bow --CardIndex cXXX --EquipmentIndex eXXX
@@ -1034,8 +1075,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Darkwood_Bow.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Treasure', 'Left', '+1G DEX');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Treasure' 'Left', '+1G DEX');
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (90, 46); --Darkwood Rain
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Demon Queen Araphel
 
 --Darkwood Staff --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Darkwood Staff',
@@ -1044,8 +1086,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Darkwood_Staff.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Treasure', 'Right', '+1G STR');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Treasure' 'Right', '+1G STR');
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (90, 46); --Spin Around Real Fast
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Demon Queen Araphel
 
 --Dark Dragon --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Dark Dragon',
@@ -1054,8 +1097,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Dark_Dragon.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Your end approaches, beast.');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Treasure', 'Right', '+1G STR');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Treasure' 'Right', '+1G STR');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Slayer
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Nightsong the Eternal
 
 --Dawn Break --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Dawn Break',
@@ -1064,8 +1108,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Dawn_Break.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Flee before the light!');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Treasure', 'Right', '+1G STR');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Treasure' 'Right', '+1G STR');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Holy
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Nightsong the Eternal
 
 --Deadly Dirk --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Deadly Dirk',
@@ -1084,8 +1129,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Deaths_Notebook.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Treasure', 'Top', '+1G WILL');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Treasure' 'Top', '+1G WILL');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Know Fate
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Shinigami
 
 --Delicate Riding Spear --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Delicate Riding Spear',
@@ -1104,8 +1150,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Demons_Bane.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Treasure', 'Bottom', '+1R STR +1R WILL +1R DEX');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Treasure' 'Bottom', '+1R STR +1R WILL +1R DEX');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Holy
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Demon Queen Araphel
 
 --Devil Island Map --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Devil Island Map',
@@ -1114,7 +1161,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Loot/Specific/Devil_Island_Map.xhtml', 
 'Loot', '2.0', '2.0 Core Set', 'Default',
 'Learn Lily''s Secret: Saru Quest: Be within three squares of the Lily token when Lily is rescued in Scenario 4: Rescue Lily or Scenario 5: Devil Child. When this quest is accomplished, equip the Devil Island Map equipment card on the reverse side of this card. It may remain equipped for the entire campaign, unless you choose to discard it.');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Loot Specific', 'Top', '+1R WILL');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Loot', 'Top', '+1R WILL');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --I Know A Shortcut!
 insert into EquipmentAssignments (EquipmentAssignmentIndex, EquipmentIndex, CharacterIndex) VALUES (eaXXX, eXXX, cXXX); --Saru
 
@@ -1125,8 +1172,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Devils_Eye_The.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Treasure', 'Top', '+2B WILL +2B DEX');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Treasure' 'Top', '+2B WILL +2B DEX');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Poison
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Bomechan
 
 --Devouring Sphere --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Devouring Sphere',
@@ -1173,8 +1221,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Discordant_Gem.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Treasure', 'Top', '+1B STR +1B WILL +1B DEX');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Treasure' 'Top', '+1B STR +1B WILL +1B DEX');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Illusionary Double
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --The Midnight Queen
 
 --Divine Destrier --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Divine Destrier',
@@ -1183,8 +1232,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Divine_Destrier.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Treasure', 'Top', '+3MO');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Treasure' 'Top', '+3MO');
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (90, 46); --Breakthrough
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Royal Knight
 
 --Divine Vestments --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Divine Vestments',
@@ -1205,8 +1255,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Dragon_Bow.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Everyone get down!');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Treasure', 'Right', '+1G DEX');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Treasure' 'Right', '+1G DEX');
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (90, 46); --Solar Flare
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Starfire
 
 --Dragon Breath Blunderbuss --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Dragon Breath Blunderbuss',
@@ -1227,19 +1278,21 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Dragon_Horn.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Treasure', 'Top', '+1R STR');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Treasure' 'Top', '+1R STR');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Immune: Status Effects
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (90, 46); --Call of the Dragon King
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Starfire
 
 --Dragon Jewel, The  --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Dragon Jewel, The',
 'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Dragon_Jewel_The_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Relics/Dragon_Jewel_The.xhtml', 
-'Relics', '2.0', '2.0 Core Set', 'Default',
+'Relic', '2.0', '2.0 Core Set', 'Default',
 '');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Relics', 'Top', '+1R STR');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Relic', 'Top', '+1R STR');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Burn, Insects!
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Starfire
 
 --Dragon Tooth Club --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Dragon Tooth Club',
@@ -1248,8 +1301,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Dragon_Tooth_Club.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Smash! Smash! Smash, little ants.');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Treasure', 'Right', '+2B STR');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Treasure' 'Right', '+2B STR');
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (90, 46); --Thwack
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Rex
 
 --Dragon Tooth Shortbow --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Dragon Tooth Shortbow',
@@ -1268,9 +1322,10 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Dragonblade_Plate.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Your reign of terror ends now!');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Treasure', 'Left', '');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Treasure' 'Left', '');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Massive Damage
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (90, 46); --Kill the Dragon
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Hoarfang
 
 --Driving Hat --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Driving Hat',
@@ -1279,8 +1334,10 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Driving_Hat.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Treasure', 'Bottom', '+1G WILL');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Treasure' 'Bottom', '+1G WILL');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Sturdy
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Gnomish Excavator
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Professor Cackle-Clink
 
 --Duelist Tunic --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Duelist Tunic',
@@ -1451,10 +1508,11 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Enforced_Virtue.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'You''re kidding me right?');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Treasure', 'Top', '');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Treasure' 'Top', '');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Dangerous
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Immune: Status Effects
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (90, 46); --No Touching
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Captain of the Guard
 
 --Envenomed Blade --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Envenomed Blade',
@@ -1463,18 +1521,21 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Envenomed_Blade.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'One cut. One less foe.');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Treasure', 'Left', '+1G DEX');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Treasure' 'Left', '+1G DEX');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Poison
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Jorogumo
 
 --Excess Ammo --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Excess Ammo',
 'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Excess_Ammo_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Relics/Excess_Ammo.xhtml', 
-'Relics', '2.0', '2.0 Core Set', 'Default',
+'Relic', '2.0', '2.0 Core Set', 'Default',
 '');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Relics', 'Top', '+1R DEX');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Relic', 'Top', '+1R DEX');
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (90, 46); --Excess Ammo
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Gnomish Excavator
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Professor Cackle-Clink
 
 --Executioner's Axe --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Executioner''s Axe',
@@ -1494,8 +1555,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Exemplar_Fullplate.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Did he forget to put it on...?');  
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Treasure', 'Right', '+1R ARM');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Treasure' 'Right', '+1R ARM');
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (90, abxxx); --Celestial Shielding
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --The Guth
 
 --Exorcist --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Exorcist',
@@ -1504,18 +1566,20 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Exorcist.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Treasure', 'Top', '+1G DEX');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Treasure' 'Top', '+1G DEX');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Fire
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (90, 46); --Corpsplosion
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Mordred the Accursed
 
 --Extra Large Arrows --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Extra Large Arrows',
 'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Extra_Large_Arrows_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Relics/Extra_Large_Arrows.xhtml', 
-'Relics', '2.0', '2.0 Core Set', 'Default',
+'Relic', '2.0', '2.0 Core Set', 'Default',
 '');  --!! unavailable !!
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Relics', 'Top', '+1R DEX');  --!! unavailable !!
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Relic', 'Top', '+1R DEX');  --!! unavailable !!
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Ugg
 
 --Extra Pixels --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Adventurer Plate',
@@ -1543,9 +1607,10 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Fancy_Pocket_Watch_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Relics/Fancy_Pocket_Watch.xhtml', 
-'Relics', '2.0', '2.0 Core Set', 'Default',
+'Relic', '2.0', '2.0 Core Set', 'Default',
 'My lovelies always have time for larceny.');  
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Relics', 'Top', 'Once per activation, spawn two Dirty Rats within three squares of the Dungeon Boss.'); 
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Relic', 'Top', 'Once per activation, spawn two Dirty Rats within three squares of the Dungeon Boss.'); 
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Pauper Prince
 
 --Fashionable Cape --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Fashionable Cape',
@@ -1563,7 +1628,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Prayer_Slips/Fell_My_Enemies.xhtml', 
 'Prayer Slips', '2.0', '2.0 Core Set', 'Default',
 ''); --!! unavailable !!
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Prayer Slips', 'Bottom', '...model may discard this Prayer Slip at ....of its activation. If it does, all of its attacks gain Burst 1');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Prayer Slip', 'Bottom', '...model may discard this Prayer Slip at ....of its activation. If it does, all of its attacks gain Burst 1');
 
 --Fill My Belly --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Fill My Belly',
@@ -1572,8 +1637,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Prayer_Slips/Fell_My_Enemies.xhtml', 
 'Prayer Slips', '2.0', '2.0 Core Set', 'Default',
 ''); --!! unavailable !!
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Prayer Slips', 'Left', 'This model may discard this Prayer Slip at the start of its activation. If it does, add one potion to the result of all of its rolls this activation (attacks still need to succeed in order to collect the potion).');
-
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Prayer Slip', 'Left', 'This model may discard this Prayer Slip at the start of its activation. If it does, add one potion to the result of all of its rolls this activation (attacks still need to succeed in order to collect the potion).');
 
 --Fireflow Stave --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Fireflow Stave',
@@ -1618,30 +1682,33 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Flame_Cannon_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Relics/Flame_Cannon.xhtml', 
-'Relics', '2.0', '2.0 Core Set', 'Default',
+'Relic', '2.0', '2.0 Core Set', 'Default',
 'Bring the marshmallows!');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Relics', 'Right', '');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Relic', 'Right', '');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Fire
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (90, 46); --Flame Cannon
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Gnomish Excavator
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Professor Cackle-Clink
 
 --Flame Weaver --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Flame Weaver',
 'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Flame Weaver_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Relics/Flame Weaver.xhtml', 
-'Relics', '2.0', '2.0 Core Set', 'Default',
+'Relic', '2.0', '2.0 Core Set', 'Default',
 '');  
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Relics', 'Top', '+1R STR');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Relic', 'Top', '+1R STR');
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (90, 46); --Flame Weaver 
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Lord Vulcanis
 
 --Flaming Crown --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Flaming Crown',
 'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Flaming_Crown_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Relics/Flaming_Crown.xhtml', 
-'Relics', '2.0', '2.0 Core Set', 'Default',
+'Relic', '2.0', '2.0 Core Set', 'Default',
 'Imbued with the flames of the Nether Rift, the Flaming Crown is a blessing of the Dark Consul.');  
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Relics', 'Bottom', '+1R STR');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Relic', 'Bottom', '+1R STR');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --The Consul's Wrath 
 
 --Forbidden Tome --CardIndex cXXX --EquipmentIndex eXXX
@@ -1661,8 +1728,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Foremans_Mine_Cart.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Treasure', 'Top', '+2B STR');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Treasure' 'Top', '+2B STR');
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (90, 46); --Hit It
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Testudo Tower
 
 --Fraggle Stikkar --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Fraggle Stikkar',
@@ -1671,9 +1739,10 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Fraggle_Stikkar.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Treasure', 'Right', '+1G STR');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Treasure' 'Right', '+1G STR');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Cursed
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Holiday Madness
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Krampus
 
 --Freyjan Hairball --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Freyjan Hairball',
@@ -1692,8 +1761,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Freyjan_Skin.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');  --!! unavailable !!
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Treasure', 'Bottom', '+1R DEX +');  --!! unavailable !!
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Treasure' 'Bottom', '+1R DEX +');  --!! unavailable !!
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Kitty Claws
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Hoarfang
 
 --Fried Eggs --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Fried Eggs',
@@ -1702,9 +1772,10 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Fried_Eggs.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Treasure', 'Top', '+1R STR +1R WILL +1R DEX');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Treasure' 'Top', '+1R STR +1R WILL +1R DEX');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Cursed
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Mamma Knows
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Mother Noctua
 
 --Frost Warden Armor --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Frost Warden Armor',
@@ -1713,19 +1784,21 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Frost_Warden_Armor.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'I stand ready.');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Treasure', 'Left', '+1G ARM');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Treasure' 'Left', '+1G ARM');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Steady
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Ymnaur Wintersson
 
 --Frostfang --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Frostfang',
 'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Frostfang_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Relics/Frostfang.xhtml', 
-'Relics', '2.0', '2.0 Core Set', 'Default',
+'Relic', '2.0', '2.0 Core Set', 'Default',
 'A cold fury falls on any who touch the blade.');  
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Relics', 'Top', '+1R STR');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Relic', 'Top', '+1R STR');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Ice
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (90, 46); --Frostfang
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Ymnaur Wintersson
 
 --Frozen Falchion --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Frozen Falchion',
@@ -1734,8 +1807,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Frozen_Falchion.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Have you ever heard ice shriek as it cracks?');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Treasure', 'Right', '+2B STR');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Treasure' 'Right', '+2B STR');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Ice
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Ymnaur Wintersson
 
 --Frozen Hammer --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Frozen Hammer',
@@ -1744,18 +1818,20 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Frozen_Hammer.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');  --!! unavailable !!
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Treasure', 'Right', '+1G STR');  --!! unavailable !!
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Treasure' 'Right', '+1G STR');  --!! unavailable !!
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --!! unavailable !!
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (90, 46); --
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Hoarfang
 
 --Frozen Soul --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Frozen Soul',
 'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Frozen_Soul_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Relics/Frozen_Soul.xhtml', 
-'Relics', '2.0', '2.0 Core Set', 'Default',
+'Relic', '2.0', '2.0 Core Set', 'Default',
 'That''s the spirit!');  
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Relics', 'Bottom', '+2R HEALTH');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Relic', 'Bottom', '+2R HEALTH');
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Elrik the Lich King
 
 --Frozen Wand --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Frozen Wand',
@@ -1764,9 +1840,10 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Frozen_Wand.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');  --!! unavailable !!
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Treasure', 'Right', '+1G STR');  --!! unavailable !!
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Treasure' 'Right', '+1G STR');  --!! unavailable !!
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (90, 46); --!! unavailable !!
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Hoarfang
 
 --Fruit Splash Cherry Bomb --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Fruit Spash Cherry Bomb',
@@ -1783,10 +1860,11 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Fuzzy_Handcuffs_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Relics/Fuzzy_Handcuffs.xhtml', 
-'Relics', '2.0', '2.0 Core Set', 'Default',
+'Relic', '2.0', '2.0 Core Set', 'Default',
 'Oh, you know...');  
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Relics', 'Left', '');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Relic', 'Left', '');
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (90, 46); --Chained To Me
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Demon Queen Araphel
 
 --Gappa Cape Lock --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Gappa Cape Lock',
@@ -1813,7 +1891,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Gem_of_Greed.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Mine! It''s all mine!');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Treasure', 'Top', 'A model with the Gem of Greed may equip two pieces of equipment to every slot. It may not equip a second treasure card.');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Treasure' 'Top', 'A model with the Gem of Greed may equip two pieces of equipment to every slot. It may not equip a second treasure card.');
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Starfire
 
 --Ghostflame Amulet --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ghostflame Amulet',
@@ -1822,8 +1901,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Ghostflame_Amulet.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Treasure', 'Bottom', '+1B STR +1B WILL +1B DEX');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Treasure' 'Bottom', '+1B STR +1B WILL +1B DEX');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Ghost Charge
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Mordred the Accursed
 
 --Ghostly Hammer --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ghostly Hammer',
@@ -1832,8 +1912,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Ghostly_Hammer.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Treasure', 'Left', '+1G STR');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Treasure' 'Left', '+1G STR');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Dragged To The Depths
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Clan Yurei Chunin
 
 --Girdle of Ogre Power --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Girdle of Ogre Power',
@@ -1842,9 +1923,10 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Girdle_of_Ogre_Power.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Treasure', 'Right', '+1G STR');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Treasure' 'Right', '+1G STR');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Dangerous
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (90, 46); --Mighty Toss
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Bomechan
 
 --Gladeborn Rapier --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Gladeborn Rapier',
@@ -1853,9 +1935,10 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Gladeborn_Rapier.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Treasure', 'Right', '+1G DEX');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Treasure' 'Right', '+1G DEX');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Pounce
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (90, 46); --Become The Arrow
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Mother Noctua
 
 --Gleaming Breastplate --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Gleaming Breastplate',
@@ -1896,9 +1979,11 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Gnomish_Goggles.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Eye protection is essential.');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Treasure', 'Bottom', '+1G ARM');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Treasure' 'Bottom', '+1G ARM');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Augment
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (90, 46); --Lookout
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Gnomish Excavator
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Professor Cackle-Clink
 
 --Gnomish Sticker --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Gnomish Sticker',
@@ -1916,8 +2001,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Goddess_Talisman.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Treasure', 'Bottom', '+1B STR +1B WILL +1B DEX');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Treasure' 'Bottom', '+1B STR +1B WILL +1B DEX');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Blessed Strike
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Nightsong the Eternal
 
 --Golem Shard Armor --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Golem Shard Armor',
@@ -1954,7 +2040,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Prayer_Slips/Guide_My_Fury.xhtml', 
 'Prayer Slips', '2.0', '2.0 Core Set', 'Default',
 '');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Prayer Slips', 'Bottom', 'This model may discard this Prayer Slip at the start of its activation. If it does, all of its attacks gain Massive Damage.');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Prayer Slip', 'Bottom', 'This model may discard this Prayer Slip at the start of its activation. If it does, all of its attacks gain Massive Damage.');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, 728); --Massive Damage
 
 --Guide My Hand --CardIndex cXXX --EquipmentIndex eXXX
@@ -1964,8 +2050,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Prayer_Slips/Guide_My_Hand.xhtml', 
 'Prayer Slips', '2.0', '2.0 Core Set', 'Default',
 ''); --!! unavailable !!
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Prayer Slips', 'Left', 'This model may discard this Prayer Slip at the start of its activation. If it does, all of its rolls this activation gain +1B.');
-
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Prayer Slip', 'Left', 'This model may discard this Prayer Slip at the start of its activation. If it does, all of its rolls this activation gain +1B.');
 
 --Gunbai Iron Fan --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Gunbai Iron Fan',
@@ -1974,8 +2059,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Gunbai_Iron_Fan.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Treasure', 'Left', '+1G STR');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Treasure' 'Left', '+1G STR');
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (90, 46); --Winds of Change
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Bomechan
 
 --Guttering Candle --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Guttering Candle',
@@ -2006,19 +2092,21 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Hammer_Of_Smiting.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Flat zombies are less threatening.');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Treasure', 'Right', '+1G STR');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Treasure' 'Right', '+1G STR');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Holy
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Cursed Jarl
 
 --Hammer of Vulcanis --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Hammer of Vulcanis',
 'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Hammer_of_Vulcanis_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Relics/Hammer_of_Vulcanis.xhtml', 
-'Relics', '2.0', '2.0 Core Set', 'Default',
+'Relic', '2.0', '2.0 Core Set', 'Default',
 '');  
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Relics', 'Right', '+1R STR');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Relic', 'Right', '+1R STR');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Fire
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (90, 46); --Fueled by Fire
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Lord Vulcanis
 
 --Hammer Pendant --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Hammer Pendant',
@@ -2036,8 +2124,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Harvest_Hook.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '"This is a working person''s tool. Simple, and effective."');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Treasure', 'Left', '+1G STR');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Treasure' 'Left', '+1G STR');
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (90, 46); --The Reaping
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --The Thresher
 
 --Hatamoto Coat --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Hatamoto Coat',
@@ -2046,7 +2135,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Generic/Hatamoto_Coat.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Treasure', 'Left', '+1R ARM');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Treasure' 'Left', '+1R ARM');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Wisdom
 
 --Hattai Okegawa --CardIndex cXXX --EquipmentIndex eXXX
@@ -2065,7 +2154,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Prayer_Slips/Heal_This_Unworthy_Soul.xhtml', 
 'Prayer Slips', '2.0', '2.0 Core Set', 'Default',
 ''); --!! unavailable !!
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Prayer Slips', 'Top', 'This model may discard this Prayer Slip at ... turn. If it does, target.... Heals 3.');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Prayer Slip', 'Top', 'This model may discard this Prayer Slip at ... turn. If it does, target.... Heals 3.');
 
 --Heart Container --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Heart Container',
@@ -2081,21 +2170,23 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Heart_of_Ice_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Relics/Heart_of_Ice.xhtml', 
-'Relics', '2.0', '2.0 Core Set', 'Default',
+'Relic', '2.0', '2.0 Core Set', 'Default',
 '');  --!! unavailable !!
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Relics', 'Bottom', '+1R STR');  --!! unavailable !!
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Relic', 'Bottom', '+1R STR');  --!! unavailable !!
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Fire --!! unavailable !!
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Hoarfang
 
 --Heart of the Forge --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Heart of the Forge',
 'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Heart_of_the_Forge_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Relics/Heart_of_the_Forge.xhtml', 
-'Relics', '2.0', '2.0 Core Set', 'Default',
+'Relic', '2.0', '2.0 Core Set', 'Default',
 ''); 
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Relics', 'Top', '+2MO'); 
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Relic', 'Top', '+2MO'); 
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Fire
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Heart of the Forge
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Lord Vulcanis
 
 --Heart-Shaped Locket --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Heart-Shaped Locket',
@@ -2113,8 +2204,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Heavenly_Body.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Never again.');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Treasure', 'Left', '+1R ARM');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Treasure' 'Left', '+1R ARM');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Favors of the Goddess
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Mordred the Accursed
 
 --Helmet of Fury --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Helmet of Fury',
@@ -2131,10 +2223,11 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Heros_Bane_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Relics/Heros_Bane.xhtml', 
-'Relics', '2.0', '2.0 Core Set', 'Default',
+'Relic', '2.0', '2.0 Core Set', 'Default',
 ''); 
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Relics', 'Top', '+1R STR'); 
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Relic', 'Top', '+1R STR'); 
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Hero's Bane
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Mordred the Accursed
 
 --Hero's Blade --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Hero''s Blade',
@@ -2151,10 +2244,11 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Hidden_Snack_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Relics/Hidden_Snack.xhtml', 
-'Relics', '2.0', '2.0 Core Set', 'Default',
+'Relic', '2.0', '2.0 Core Set', 'Default',
 'There''s no hiding from the smell.'); 
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Relics', 'Right', '');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Relic', 'Right', '');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, 1032); --There Ya Are 
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --The Guth
 
 --Hinokami Robes --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Hinokami Robes',
@@ -2174,10 +2268,11 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Holly_Berry_Mead.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Treasure', 'Bottom', '+1G WILL');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Treasure' 'Bottom', '+1G WILL');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Dangerous
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Poison
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (90, 46); --Party Tiiiime!
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Krampus
 
 --Horned Helm --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Horned Helm',
@@ -2205,8 +2300,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/House_Von_Drakk_Regalia.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Strength through blood.');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Treasure', 'Left', '+2B ARM');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Treasure' 'Left', '+2B ARM');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Bleed
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Nightsong the Eternal
 
 --Howling Tapestry --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Howling Tapestry',
@@ -2215,29 +2311,32 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Howling_Tapestry.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'I have never lost my prey.');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Treasure', 'Bottom', '+1R STR');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Treasure' 'Bottom', '+1R STR');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Predator
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Elrik the Lich King
 
 --Hungering Mask, The --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Hungering Mask, The',
 'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Hungering_Mask_The_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Relics/Hungering_Mask_The.xhtml', 
-'Relics', '2.0', '2.0 Core Set', 'Default',
+'Relic', '2.0', '2.0 Core Set', 'Default',
 'It consumes all who wear it.');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Relics', 'Top', '+2B WILL'); 
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Relic', 'Top', '+2B WILL'); 
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (90, 46); --The Consuming Winds
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Onibaba
 
 --Ice Cage --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ice Cage',
 'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Ice_Cage_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Relics/Ice_Cage.xhtml', 
-'Relics', '2.0', '2.0 Core Set', 'Default',
+'Relic', '2.0', '2.0 Core Set', 'Default',
 '');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Relics', 'Top', ''); 
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Relic', 'Top', ''); 
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Frozen Prison
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (90, 46); --Ice King
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Elrik the Lich King
 
 --Ice Shoes --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ice Shoes',
@@ -2246,9 +2345,10 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Ice_Shoes.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');  --!! unavailable !!
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Treasure', 'Right', '+1G STR');  --!! unavailable !!
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Treasure' 'Right', '+1G STR');  --!! unavailable !!
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (90, 46); --!! unavailable !!
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Hoarfang
 
 --Ijin Bracers --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ijin Bracers',
@@ -2257,8 +2357,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Ijin_Bracers.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'IJIN SMASH!');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Treasure', 'Left', '+1G STR');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Treasure' 'Left', '+1G STR');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Improved Critical
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Yobuko
 
 --Ika Claw Crawler --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ika Claw Crawler',
@@ -2276,8 +2377,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Inferno_Eagle.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Treasure', 'Top', '+1AC');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Treasure' 'Top', '+1AC');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Leadership
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Lord Vulcanis
 
 --Ingredient Pouch --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ingredient Pouch',
@@ -2286,9 +2388,10 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Ingredient_Pouch.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Treasure', 'Bottom', '+1 HEART +1 POTION');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Treasure' 'Bottom', '+1 HEART +1 POTION');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Augment
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (90, 46); --!! unavailable !!
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Orcdon Ramsey
 
 --Innocense Lost --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Innocence Lost',
@@ -2305,20 +2408,22 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Inscribed_Repeater_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Relics/Inscribed_Repeater.xhtml', 
-'Relics', '2.0', '2.0 Core Set', 'Default',
+'Relic', '2.0', '2.0 Core Set', 'Default',
 'A gun for a knife fight.');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Relics', 'Left', '+1R DEX');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Relic', 'Left', '+1R DEX');
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (90, 46); --BLAM!
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Pauper Prince
 
 --Iron Kanabo --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Iron Kanabo',
 'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Iron_Kanabo_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Relics/Iron_Kanabo.xhtml', 
-'Relics', '2.0', '2.0 Core Set', 'Default',
+'Relic', '2.0', '2.0 Core Set', 'Default',
 '');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Relics', 'Left', '+1R STR'); 
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Relic', 'Left', '+1R STR'); 
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Brutal Strike
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Bomechan
 
 --Iron Necklace --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Iron Necklace',
@@ -2355,8 +2460,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Jade_Monkey.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Treasure', 'Bottom', '+1G ARM');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Treasure' 'Bottom', '+1G ARM');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Jealous Monkey
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Onibaba
 
 --Jikininki Curse --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Jikininki Curse',
@@ -2376,8 +2482,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Jotnar_Knot.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Treasure', 'Bottom', '+1G WILL');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Treasure' 'Bottom', '+1G WILL');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Luck
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Ymnaur Wintersson
 
 --Jumbo Shuriken --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Jumbo Shuriken',
@@ -2386,8 +2493,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Jumbo_Shuriken.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Great, now I need to go pick it up.');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Treasure', 'Right', '+1G STR');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Treasure' 'Right', '+1G STR');
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (90, 46); --As Far As I Can Throw It
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Dark Kitsune
 
 --Jumonji --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Jumonji',
@@ -2463,7 +2571,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Prayer_Slips/Keep_Me_From_Harm.xhtml', 
 'Prayer Slips', '2.0', '2.0 Core Set', 'Default',
 ''); --!! unavailable !!
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Prayer Slips', 'Top', 'This model may discard this Prayer Slip at ... during the Consul turn. If it ... Hero gains +1G ARM for the ... of the Consul Turn.');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Prayer Slip', 'Top', 'This model may discard this Prayer Slip at ... during the Consul turn. If it ... Hero gains +1G ARM for the ... of the Consul Turn.');
 
 --Kid-Snatcher --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Kid-Snatcher',
@@ -2472,8 +2580,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Kid_Snatcher.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Get over here!');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Treasure', 'Right', '+1G STR');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Treasure' 'Right', '+1G STR');
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (90, 46); --Snatch!
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Krampus
 
 --Kikko Gane Do Lock --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Kikko Gane Do Lock',
@@ -2491,8 +2600,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Kitsune_Mask.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'What does the fox say? The fox says nothing, until it is time to pounce.');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Treasure', 'Bottom', '');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Treasure' 'Bottom', '');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Territorial
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Clan Kitsune Chunin
 
 --Kitty-Kat Charm --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Kitty-Kat Charm',
@@ -2586,9 +2696,10 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Laughing_Idol.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Treasure', 'Left', '+1G WILL');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Treasure' 'Left', '+1G WILL');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Cursed
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Mocking Laughter
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Onibaba
 
 --Lemon Peel --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Lemon Peel',
@@ -2607,9 +2718,10 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Lightbreaker.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Treasure', 'Right', '+1G STR');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Treasure' 'Right', '+1G STR');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Augment
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (90, 46); --Blind Onslaught
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --The Midnight Queen
 
 --Lightning Caster --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Lightning Caster',
@@ -2638,11 +2750,12 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Lock_of_Hair.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Treasure', 'Bottom', '+1B WILL +1B ARM');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Treasure' 'Bottom', '+1B WILL +1B ARM');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Augment
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Heal
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Holy
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (90, 46); --Lullaby
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Onryo
 
 --Lockpicks --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Lockpicks',
@@ -2660,7 +2773,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Loot/Specific/Lost_Coin_The.xhtml', 
 'Loot', '2.0', '2.0 Core Set', 'Default',
 'Retrieve The Lost Treasure: Kiji Quest: In any scenario, while Kiji is on a treasure pile square, trade four loot from the backpack in order to draw a treasure card.<br></br>When this quest is accomplished, equip the Lost Coin equipment card on the reverse side of this card. It may remain equipped for the entire campaign, unless you choose to discard it.');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Loot Specific', 'Top', '+1ST ARM +1R DEX');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Loot', 'Top', '+1ST ARM +1R DEX');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --The Real Thing
 insert into EquipmentAssignments (EquipmentAssignmentIndex, EquipmentIndex, CharacterIndex) VALUES (eaXXX, eXXX, cXXX); --Kiji
 
@@ -2669,21 +2782,23 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Love_and_Despair_Potion_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Relics/Love_and_Despair_Potion.xhtml', 
-'Relics', '2.0', '2.0 Core Set', 'Default',
+'Relic', '2.0', '2.0 Core Set', 'Default',
 '');  
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Relics', 'Bottom', '+1B ARM'); 
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Relic', 'Bottom', '+1B ARM'); 
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Heal X
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (90, 46); --Drink Their Tears
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Demon Queen Araphel
 
 --Lucky Boulder --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Lucky Boulder',
 'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Lucky_Boulder_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Relics/Lucky_Boulder.xhtml', 
-'Relics', '2.0', '2.0 Core Set', 'Default',
+'Relic', '2.0', '2.0 Core Set', 'Default',
 '');  --!! unavailable !!
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Relics', 'Bottom', '+1B ARM'); --!! unavailable !!
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Relic', 'Bottom', '+1B ARM'); --!! unavailable !!
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --  --!! unavailable !!
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Ugg
 
 --Lucky Peach --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Lucky Peach',
@@ -2692,7 +2807,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Loot/Specific/Lucky_Peach.xhtml', 
 'Loot', '2.0', '2.0 Core Set', 'Default',
 'Beat Up Some Ijin: Momotaro Quest: In any scenario which has Ibaraki-doji, deal the last wound to Ibaraki-doji and destroy it.<br></br>When this quest is accomplished, equip the Lucky Peach equipment card on the reverse side of this card. It may remain equipped for the entire campaign, unless you choose to discard it.');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Loot Specific', 'Top', '+1G STR');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Loot', 'Top', '+1G STR');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Selfless
 insert into EquipmentAssignments (EquipmentAssignmentIndex, EquipmentIndex, CharacterIndex) VALUES (eaXXX, eXXX, cXXX); --Momotaro
 
@@ -2722,19 +2837,21 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Lunar_Vestments.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'The Lunar elves'' craftsmanship did not die with them.');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Treasure', 'Left', '+1G ARM');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Treasure' 'Left', '+1G ARM');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Fury
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Mother Noctua
 
 --Magma Gauntlets --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Magma Gauntlets',
 'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Magma_Gauntlets_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Relics/Magma_Gauntlets.xhtml', 
-'Relics', '2.0', '2.0 Core Set', 'Default',
+'Relic', '2.0', '2.0 Core Set', 'Default',
 '');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Relics', 'Left', '+1R ARM'); 
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Relic', 'Left', '+1R ARM'); 
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Fire
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (90, 46); --Bone Burn
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Lord Vulcanis
 
 --Make Swift Their Feet     --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Make Swift Their Feet',
@@ -2743,7 +2860,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Prayer_Slips/Make_Swift_Their_Feet.xhtml', 
 'Prayer Slips', '2.0', '2.0 Core Set', 'Default',
 '');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Prayer Slips', 'Right', 'This model may discard this Prayer Slip at the start of another Hero''s activation. If it does, the Hero gains +3MO and Proficient this activation.');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Prayer Slip', 'Right', 'This model may discard this Prayer Slip at the start of another Hero''s activation. If it does, the Hero gains +3MO and Proficient this activation.');
 
 --Make Swift Their Mind     --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Make Swift Their Mind',
@@ -2752,7 +2869,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Prayer_Slips/Make_Swift_Their_Mind.xhtml', 
 'Prayer Slips', '2.0', '2.0 Core Set', 'Default',
 ''); --!! unavailable !!
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Prayer Slips', 'Right', 'This model may discard this Prayer Slip at the start of another ... gains +1AC ...');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Prayer Slip', 'Right', 'This model may discard this Prayer Slip at the start of another ... gains +1AC ...');
 
 --Makeshift Polearm --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Makeshift Polearm',
@@ -2780,8 +2897,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Manekichan.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'This fortune may cost you more than just your coin...');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Treasure', 'Right', '');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Treasure' 'Right', '');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Lucky Cat
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Clan Yurei Oni
 
 --Maniacal Mapbook  --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Maniacal Mapbook',
@@ -2799,8 +2917,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Many_Eyed_Orb.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Its eyes follow me around the room...');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Treasure', 'Bottom', '+1G WILL');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Treasure' 'Bottom', '+1G WILL');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Glimpse The Future
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Jorogumo
 
 --Massive Fists --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Massive Fists',
@@ -2838,21 +2957,24 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_M_Brothers_Hanky_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Relics/M_Brothers_Hanky.xhtml', 
-'Relics', '2.0', '2.0 Core Set', 'Default',
+'Relic', '2.0', '2.0 Core Set', 'Default',
 '');  --!! unavailable !!
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Relics', 'Left', '+1R ARM');  --!! unavailable !!
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Relic', 'Left', '+1R ARM');  --!! unavailable !!
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --  --!! unavailable !! 
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (90, 46); --  --!! unavailable !!
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Ugg
 
 --Mekaniks Tools  --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Mekaniks Tools',
 'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Mekaniks_Tools_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Relics/Mekaniks_Tools.xhtml', 
-'Relics', '2.0', '2.0 Core Set', 'Default',
+'Relic', '2.0', '2.0 Core Set', 'Default',
 'They''re old but they get the job done.');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Relics', 'Left', '');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Relic', 'Left', '');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Oiled With The Blood of Heroes
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Gnomish Excavator
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Professor Cackle-Clink
 
 --Midnight Helm --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Midnight Helm',
@@ -2861,8 +2983,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Midnight_Helm.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Treasure', 'Bottom', '+1G ARM');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Treasure' 'Bottom', '+1G ARM');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Parry
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --The Midnight Queen
 
 --Midnight Mail --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Midnight Mail',
@@ -2871,10 +2994,11 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Midnight_Mail.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'The power of the Dark Realm calls to me.');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Treasure', 'Left', '+1G ARM');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Treasure' 'Left', '+1G ARM');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Bane
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Fire
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (90, 46); --Nether Fury
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --The Midnight Queen
 
 --Mind Burst Melon --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Mind Burst Melon',
@@ -2894,9 +3018,10 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Mind_Maze.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Which way?');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Treasure', 'Top', '+1G WILL');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Treasure' 'Top', '+1G WILL');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Ice
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (90, 46); --Labyrinth
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Cernonos
 
 --Mistmourn Leather --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Mistmourn Leather',
@@ -2905,9 +3030,10 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Mistmourn_Leather.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Chew on this.');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Treasure', 'Left', '+1G ARM');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Treasure' 'Left', '+1G ARM');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Immune: Knockdown
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Immune: Slow
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Mother Noctua
 
 --Monkey''s Paw, The --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Monkey''s Paw, The',
@@ -2916,9 +3042,10 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Monkeys_Paw_The.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Treasure', 'Right', '');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Treasure' 'Right', '');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Cursed
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --As You Wish
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Onibaba
 
 --Monstrous Maul --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Monstrous Maul',
@@ -2949,18 +3076,21 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Mysterious_Lever.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Treasure', 'Right', '+1G ARM');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Treasure' 'Right', '+1G ARM');
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (90, 46); --Give It A Pull
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Gnomish Excavator
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Professor Cackle-Clink
 
 --Naughty Basket --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Naughty Basket',
 'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Naughty_Basket_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Relics/Naughty_Basket.xhtml', 
-'Relics', '2.0', '2.0 Core Set', 'Default',
+'Relic', '2.0', '2.0 Core Set', 'Default',
 'Those who go in, don''t come out.');  
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Relics', 'Bottom', '');  
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Relic', 'Bottom', '');  
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Naughty Basket
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Krampus
 
 --Naughty Switch --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Naughty Switch',
@@ -2969,8 +3099,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Naughty_Switch.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Treasure', 'Left', '+1G DEX');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Treasure' 'Left', '+1G DEX');
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (90, 46); --BEHAVE!
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Krampus
 
 --Neko Hairball --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Neko Hairball',
@@ -3008,9 +3139,10 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Nether_Portal.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Treasure', 'Top', '+1G WILL');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Treasure' 'Top', '+1G WILL');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Cursed
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Dark Reflection
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --The Midnight Queen
 
 --Nether Sword --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Nether Sword',
@@ -3027,9 +3159,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Nethercorn_Horn_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Relics/Nethercorn_Horn.xhtml', 
-'Relics', '2.0', '2.0 Core Set', 'Default',
+'Relic', '2.0', '2.0 Core Set', 'Default',
 '');  
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Relics', 'Right', '+1AC');  
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Relic', 'Right', '+1AC');  
 
 --Netherstave --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Netherstave',
@@ -3046,10 +3178,11 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Nightbringer_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Relics/Nightbringer.xhtml', 
-'Relics', '2.0', '2.0 Core Set', 'Default',
+'Relic', '2.0', '2.0 Core Set', 'Default',
 'I shall bring darkness and despair.'); 
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Relics', 'Top', '+1R STR'); 
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Relic', 'Top', '+1R STR'); 
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (90, 46); --Cleanse The World
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --The Destroyer
 
 --Nightmare Steed --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Nightmare Steed',
@@ -3058,10 +3191,11 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Nightmare_Steed.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Treasure', 'Right', '+2MO');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Treasure' 'Right', '+2MO');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Charge
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Fire
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (90, 46); --Nightmare Charge
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Knight of the Tower
 
 --No --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('No',
@@ -3070,9 +3204,10 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/No.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');  --!! unavailable !!
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Treasure', 'Left', '+1G STR');  --!! unavailable !!
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Treasure' 'Left', '+1G STR');  --!! unavailable !!
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --!! unavailable !!
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (90, 46); --!! unavailable !!
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Hoarfang
 
 --Obaa-San Dumplings --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Obaa-San Dumplings',
@@ -3081,7 +3216,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Loot/Specific/Obaa_San_Dumplings.xhtml', 
 'Loot', '2.0', '2.0 Core Set', 'Default',
 'Eat All The Dumplings!: Adzuki Quest: At the end of Scenario 3: Food Fight or Scenario 4: Rescue Lily, have at least two dumpling tokens on Adzuki''s card.<br></br>When this quest is accomplished, equip the Obaa-San Dumpling equipment card on the reverse side of this card. It may remain equipped for the entire campaign, unless you choose to discard it.');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Loot Specific', 'Top', '+1R STR +1R DEX');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Loot', 'Top', '+1R STR +1R DEX');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --A Dumpling For The Journey
 insert into EquipmentAssignments (EquipmentAssignmentIndex, EquipmentIndex, CharacterIndex) VALUES (eaXXX, eXXX, cXXX); --Adzuki
 
@@ -3090,10 +3225,11 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Obi_of_the_Master_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Relics/Obi_of_the_Master.xhtml', 
-'Relics', '2.0', '2.0 Core Set', 'Default',
+'Relic', '2.0', '2.0 Core Set', 'Default',
 ''); 
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Relics', 'Bottom', '+2 HEALTH'); 
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Relic', 'Bottom', '+2 HEALTH'); 
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (90, 46); --Queen of the Ijin
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Bomechan
 
 --Ofuda --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ofuda',
@@ -3102,8 +3238,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Ofuda.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'I return you to whence you came!');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Treasure', 'Top', '');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Treasure' 'Top', '');
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (90, 46); --Banish
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Onryo
 
 --Ogre Mace --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ogre Mace',
@@ -3151,10 +3288,10 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Oni_Bracers.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Treasure', 'Right', '+1G STR');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Treasure' 'Right', '+1G STR');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, 502); --Charge
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (90, 849); --Bullrush
-
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Clan Sohei Oni
 
 --Oni's Loin Cloth --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Oni''s Loin Cloth',
@@ -3163,9 +3300,10 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Onis_Loin_Cloth.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Treasure', 'Top', '+1G DEX');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Treasure' 'Top', '+1G DEX');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Dangerous
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (90, 46); --Cover Your Shame!
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Bomechan
 
 --Ono --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ono',
@@ -3193,8 +3331,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Ord_Necklace.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');  --!! unavailable !!
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Treasure', 'Bottom', '+1G WILL');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Treasure' 'Bottom', '+1G WILL');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Immune: Knockdown
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Ugg
 
 --Ordinary Brick --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ordinary Brick',
@@ -3240,9 +3379,11 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Overcharged_Engine_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Relics/Overcharged_Engine.xhtml', 
-'Relics', '2.0', '2.0 Core Set', 'Default',
+'Relic', '2.0', '2.0 Core Set', 'Default',
 'VROOM!');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Relics', 'Bottom', '+3MO');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Relic', 'Bottom', '+3MO');
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Gnomish Excavator
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Professor Cackle-Clink
 
 --Parrying Blade --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Parrying Blade',
@@ -3279,10 +3420,11 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Perchtenfelz_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Relics/Perchtenfelz.xhtml', 
-'Relics', '2.0', '2.0 Core Set', 'Default',
+'Relic', '2.0', '2.0 Core Set', 'Default',
 'I''m not attacking first, you attack him first!'); 
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Relics', 'Left', ''); 
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Relic', 'Left', ''); 
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Spread The Cheer
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Krampus
 
 --Perilous Pages  --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Perilous Pages',
@@ -3300,8 +3442,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Petrified_Dragon_Heart.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Treasure', 'Top', '+1 HEALTH');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Treasure' 'Top', '+1 HEALTH');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Healer
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Starfire
 
 --Pinching Pages  --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Pinching Pages',
@@ -3327,21 +3470,23 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Pocket_Crow_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Relics/Pocket_Crow.xhtml', 
-'Relics', '2.0', '2.0 Core Set', 'Default',
+'Relic', '2.0', '2.0 Core Set', 'Default',
 '"Adorable how it leers at you so."'); 
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Relics', 'Top', ''); 
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Relic', 'Top', ''); 
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Birds of a Feather
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --The Thresher
 
 --Poisoned Gem, The --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Poisoned Gem, The',
 'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Poisoned_Gem_The_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Relics/Poisoned_Gem_The.xhtml', 
-'Relics', '2.0', '2.0 Core Set', 'Default',
+'Relic', '2.0', '2.0 Core Set', 'Default',
 'Can you feel your body growing weary?'); 
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Relics', 'Top', '+1R WILL'); 
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Relic', 'Top', '+1R WILL'); 
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Poison
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Tainted Blood
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Jorogumo
 
 --Pokey Walking Stick --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Pokey Walking Stick',
@@ -3350,9 +3495,10 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Pokey_Walking_Stick.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Weren''t expecting that were you!');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Treasure', 'Left', '+2R WILL');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Treasure' 'Left', '+2R WILL');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Immobile
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (90, 46); --Paralyzing Poke! 
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Pauper Prince
 
 --Portable Hole --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Portable Hole',
@@ -3373,9 +3519,10 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Pot_Plate.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');  --!! unavailable !!
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Treasure', 'Right', '+1G STR');  --!! unavailable !!
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Treasure' 'Right', '+1G STR');  --!! unavailable !!
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --!! unavailable !!
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (90, 46); --!! unavailable !!
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Ugg
 
 --Potion Bandolier --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Potion Bandolier',
@@ -3402,9 +3549,10 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Praetorian_Regalia.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Treasure', 'Bottom', '+1R STR +1G ARM');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Treasure' 'Bottom', '+1R STR +1G ARM');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Cursed
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Self Importance
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Lord Vulcanis
 
 --Prickle Pear 'Splosion --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Prickle Pear Splosion',
@@ -3444,11 +3592,12 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Radical_Sunglasses.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'I make us look good.');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Treasure', 'Bottom', '+1G WILL');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Treasure' 'Bottom', '+1G WILL');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Augment
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Immune: Fire
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Remedy
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (90, 46); --Posse
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Testudo Tower
 
 --Ragged Red Coat --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ragged Red Coat',
@@ -3457,8 +3606,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Ragged_Red_Coat.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Stay close...');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Treasure', 'Left', '+1R ARM');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Treasure' 'Left', '+1R ARM');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Backstabber
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Krampus
 
 --Ravager Standard --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ravager Standard',
@@ -3467,8 +3617,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Ravager_Standard.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Treasure', 'Bottom', '+1B STR +1B DEX +1B WILL'); 
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Treasure' 'Bottom', '+1B STR +1B DEX +1B WILL'); 
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, 838); --Ravage
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --The Guth
 
 --Raven's Feather --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Raven''s Feather',
@@ -3477,8 +3628,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Ravens_Feather.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Treasure', 'Top', '+1G ARM');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Treasure' 'Top', '+1G ARM');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Fly
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Tengu
 
 --Reinforced Shirt --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Reinforced Shirt',
@@ -3496,9 +3648,10 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Repeating_Crossbow.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '"Stick around"');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Treasure', 'Left', '+1G DEX');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Treasure' 'Left', '+1G DEX');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Augment
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (90, 46); --Storm of Arrows
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Ugg
 
 --Resurrection Charm --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Resurrection Charm',
@@ -3524,11 +3677,12 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Rod_of_Elemental_Ice_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Relics/Rod_of_Elemental_Ice.xhtml', 
-'Relics', '2.0', '2.0 Core Set', 'Default',
+'Relic', '2.0', '2.0 Core Set', 'Default',
 'Between a rod and a cold place.'); 
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Relics', 'Left', ''); 
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Relic', 'Left', ''); 
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Ice 
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (90, 46); --Ice Bolt
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Elrike the Lich King
 
 --Ronin No Kusari --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ronin No Kusari',
@@ -3546,8 +3700,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Rose_Poignard.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Treasure', 'Right', '+1G STR');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Treasure' 'Right', '+1G STR');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Bleed
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Mother Noctua
 
 --Royal Guard Uniform --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Royal Guard Uniform',
@@ -3566,8 +3721,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Royal_Paladin_Plate.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'If looks could smite.');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Treasure', 'Right', '+1G ARM');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Treasure' 'Right', '+1G ARM');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Holy
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --The Destroyer
 
 --Ruby Crystal Shard --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ruby Crystal Shard',
@@ -3596,9 +3752,10 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Runic_Tablet.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Blow, wind! Blow!');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Treasure', 'Top', '');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Treasure' 'Top', '');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Ice
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (90, 46); --Ice Storm
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Ymnaur Wintersson
 
 --Rusty Gauntlets --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Rusty Gauntlets',
@@ -3614,11 +3771,12 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Sack_of_Coal_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Relics/Sack_of_Coal.xhtml', 
-'Relics', '2.0', '2.0 Core Set', 'Default',
+'Relic', '2.0', '2.0 Core Set', 'Default',
 ''); 
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Relics', 'Top', '+1B STR +1B DEX +1B WILL'); 
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Relic', 'Top', '+1B STR +1B DEX +1B WILL'); 
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Dangerous 
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (90, 46); --Just Coal For You!
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Krampus
 
 --Sapphire Crystal Shard --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Sapphire Crystal Shard',
@@ -3638,10 +3796,11 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Sashimono_War_Flag.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Treasure', 'Bottom', '+1G WILL');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Treasure' 'Bottom', '+1G WILL');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Augment
 insert into KeywordAssignments (EquipmentIndex, KeywrodIndex) VALUES (eXXX, kXXX); --Remedy
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (90, 46); --Rallying Cry
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Bomechan
 
 --Saya Lock --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Saya Lock',
@@ -3669,8 +3828,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Scourge_of_the_Consul.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Whip it.');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Treasure', 'Right', '+1B +1R STR');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Treasure' 'Right', '+1B +1R STR');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Saboteur
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --The Destroyer
 
 --Sea Salt Kote Lock --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Sea Salt Kote Lock',
@@ -3730,9 +3890,10 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Serpent_Bracelet.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Treasure', 'Left', '+1G DEX');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Treasure' 'Left', '+1G DEX');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Alone Forever
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Cursed
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Onibaba
 
 --Shadow Crown --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Shadow Crown',
@@ -3750,11 +3911,12 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Shard_of_Everlasting_Ice_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Relics/Shard_of_Everlasting_Ice.xhtml', 
-'Relics', '2.0', '2.0 Core Set', 'Default',
+'Relic', '2.0', '2.0 Core Set', 'Default',
 ''); --!! unavailable !!
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Relics', 'Top', '+1B STR +1B DEX +1B WILL'); 
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Relic', 'Top', '+1B STR +1B DEX +1B WILL'); 
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); -- --!! unavailable !! 
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (90, 46); -- --!! unavailable !!
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Hoarfang
 
 --Shell Shield --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Shell Shield',
@@ -3763,8 +3925,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Shell_Shield.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Pretty sure it''s unbreakable.');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Treasure', 'Right', '+1R ARM');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Treasure' 'Right', '+1R ARM');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Sturdy
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Testudo Tower
 
 --Shield of Sorrow --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Shield of Sorrow',
@@ -3773,8 +3936,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Shield_of_Sorrow.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Treasure', 'Right', '+1R ARM');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Treasure' 'Right', '+1R ARM');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Despair
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Mordred the Accursed
 
 --Shinobi Shozoku --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Shinobi Shozoku',
@@ -3784,6 +3948,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Loot', '2.0', '2.0 Core Set', 'Default',
 'It has pockets for shuriken. And pockets for poison viles. And blood stains hardly show!');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Loot', 'Left', '+1R DEX');
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Arashikage
 
 --Shinobi Shozoku --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Shinobi Shozoku',
@@ -3792,7 +3957,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Shinobi_Shozoku.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Treasure', 'Left', '+1G DEX');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Treasure' 'Left', '+1G DEX');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Feint
 
 --Shojo's Stash --CardIndex cXXX --EquipmentIndex eXXX
@@ -3814,9 +3979,10 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Siege_Breaker.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');  --!! unavailable !!
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Treasure', 'Right', '+1G STR');  --!! unavailable !!
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Treasure' 'Right', '+1G STR');  --!! unavailable !!
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --!! unavailable !!
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (90, 46); --!! unavailable !!
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Ugg
 
 --Silk Gloves --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Silk Gloves',
@@ -3827,28 +3993,16 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'So luxurious.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Loot', 'Left', '+1R DEX');
 
---Silver Hammer --CardIndex cXXX --EquipmentIndex eXXX
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Silver Hammer',
-'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Silver_Hammer_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Relics/Silver_Hammer.xhtml', 
-'Relics', '2.0', '2.0 Core Set', 'Default',
-''); --!! unavailable !!
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Relics', 'Top', '+1B STR +1B DEX +1B WILL');  --!! unavailable !!
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --  --!! unavailable !! 
-insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (90, 46); --  --!! unavailable !!
-
-
 --Silverware --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Silverware',
 'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Silverware_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Relics/Silverware.xhtml', 
-'Relics', '2.0', '2.0 Core Set', 'Default',
+'Relic', '2.0', '2.0 Core Set', 'Default',
 'Unlikely trophies from past conquests.'); 
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Relics', 'Left', ''); 
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Relic', 'Left', ''); 
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, 1088); --Silverware 
-
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --The Guth
 
 --Skull Mask --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Skull Mask',
@@ -3857,8 +4011,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Skull_Mask.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Treasure', 'Bottom', '+1R ARM');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Treasure' 'Bottom', '+1R ARM');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Rampage
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Ibaraki Doji
 
 --Smatter Hauler --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Smatter Hauler',
@@ -3867,8 +4022,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Smatter_Hauler.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Let''s see what we caught today.');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Treasure', 'Top', '+1G DEX');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Treasure' 'Top', '+1G DEX');
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (90, 46); --Haul 'em In
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Pauper Prince
 
 --Snow Bane --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Snow Bane',
@@ -3877,11 +4033,12 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Snow_Bane.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'The light of the Goddess can melt any frost.');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Treasure', 'Right', '+1G DEX');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Treasure' 'Right', '+1G DEX');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Augment
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Immune: Ice
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Remedy
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (90, 46); --Melt Away
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Ymnaur Wintersson
 
 --Sohei Tetsubo --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Sohei Tetsubo',
@@ -3890,19 +4047,21 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Sohei_Tetsubo.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Treasure', 'Left', '+1R STR');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Treasure' 'Left', '+1R STR');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Discipline
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Clan Sohei Chunin
 
 --Solid Straw Hat --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Solid Straw Hat',
 'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Solid_Straw_Hat_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Relics/Solid_Straw_Hat.xhtml', 
-'Relics', '2.0', '2.0 Core Set', 'Default',
+'Relic', '2.0', '2.0 Core Set', 'Default',
 'Keeps the rain off'); 
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Relics', 'Bottom', '+1 HEALTH'); 
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Relic', 'Bottom', '+1 HEALTH'); 
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, 1021); --Sturdy
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (90, 46); -- --!! unavailable !!
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --The Thresher
 
 --Soul Depository --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Soul Depository',
@@ -3911,7 +4070,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Soul_Depository.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Treasure', 'Top', '+1 HEALTH<br>When a Hero equipped with Soul Depository suffers a wound which would cause it to be destroyed, immediately discard Soul Depository and remove all wound and status effect tokens from the Hero.');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Treasure' 'Top', '+1 HEALTH<br>When a Hero equipped with Soul Depository suffers a wound which would cause it to be destroyed, immediately discard Soul Depository and remove all wound and status effect tokens from the Hero.');
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Elrik the Lich King
 
 --Soul Eater --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Soul Eater',
@@ -3920,17 +4080,18 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Soul_Eater.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Soooo delicious!');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Treasure', 'Right', '+1G STR');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Treasure' 'Right', '+1G STR');
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (90, 46); --Yum-Yum
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Elrik the Lich King
 
 --Soul Jar --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Soul Jar',
 'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Soul_Jar_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Relics/Soul_Jar.xhtml', 
-'Relics', '2.0', '2.0 Core Set', 'Default',
+'Relic', '2.0', '2.0 Core Set', 'Default',
 ''); 
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Relics', 'Left', '+2MO +2 HEALTH'); 
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Relic', 'Left', '+2MO +2 HEALTH'); 
 
 --Soul Shard --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Soul Shard',
@@ -3952,37 +4113,27 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Treasure', 'Top', '+1G STR');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Spawn Kill
 
---Special Flask --CardIndex cXXX --EquipmentIndex eXXX
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Special Flask',
-'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Special_Flask_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Relics/Special_Flask.xhtml', 
-'Relics', '2.0', '2.0 Core Set', 'Default',
-''); --!! unavailable !!
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Relics', 'Top', '');  --!! unavailable !!
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --  --!! unavailable !!
-insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (90, 46); --  --!! unavailable !!
-
 --Special Pokin Fork --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Special Pokin Fork',
 'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Special_Pokin_Fork_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Relics/Special_Pokin_Fork.xhtml', 
-'Relics', '2.0', '2.0 Core Set', 'Default',
+'Relic', '2.0', '2.0 Core Set', 'Default',
 'Poke, poke, pokepokepoke POKE!'); 
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Relics', 'Right', '+1R STR'); 
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Relic', 'Right', '+1R STR'); 
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Knockdown
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Krampus
 
 --Special Sauce --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Special Sauce',
 'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Special_Sauce_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Relics/Special_Sauce.xhtml', 
-'Relics', '2.0', '2.0 Core Set', 'Default',
+'Relic', '2.0', '2.0 Core Set', 'Default',
 'No treats for the piggy who can''t ketchup!'); 
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Relics', 'Top', ''); 
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Relic', 'Top', ''); 
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, 1028); --Tasty
-
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --The Guth
 
 --Spellmaster Ring --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Spellmaster Ring',
@@ -4003,8 +4154,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Sphere_of_Eternal_Night.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Treasure', 'Bottom', '+1G DEX');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Treasure' 'Bottom', '+1G DEX');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Insight
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --The Midnight Queen
 
 --Spider Bite --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Spider Bite',
@@ -4025,9 +4177,10 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Spidersilk_Kimono.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Wrapped in spider webs? Fantastic.');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Treasure', 'Top', '+1G ARM');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Treasure' 'Top', '+1G ARM');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Immune: Immobile
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Immune: Poison
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Jorogumo
 
 --Spiderweb Corset --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Spiderweb Corset',
@@ -4036,9 +4189,10 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Spiderweb_Corset.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Stop. Making. Clothes. From. Spiderwebs. It''s weird.');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Treasure', 'Right', '+1G ARM');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Treasure' 'Right', '+1G ARM');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Dangerous
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (90, 46); --Flies In My Web
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Jorogumo
 
 --Spiked Wheel --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Spiked Wheel',
@@ -4047,7 +4201,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Spiked_Wheel.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'I can balance on it! See?!');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Treasure', 'Top', '+1R STR +1AC');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Treasure' 'Top', '+1R STR +1AC');
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Gnomish Excavator
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Professor Cackle-Clink
 
 --Spikes! --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Spikes!',
@@ -4065,10 +4221,11 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Spirit_Shot.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'I burn bright and true!');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Treasure', 'Top', '+1G WILL');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Treasure' 'Top', '+1G WILL');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Fire
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Ice
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (90, 46); --Soul Lance
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Mordred the Accursed
 
 --Square Shovel --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Square Shovel',
@@ -4087,9 +4244,10 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Squid_Ink_Potion.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Treasure', 'Top', '+1G WILL');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Treasure' 'Top', '+1G WILL');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Hex
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (90, 46); --Ink Cloud
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Clan Ika Chunin
 
 --Stampeding Booty --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Stampeding Booty',
@@ -4107,8 +4265,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Star_Plate.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'This place must be cleansed.');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Treasure', 'Left', '+1G ARM');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Treasure' 'Left', '+1G ARM');
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (90, 46); --Purifying Light
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Nightsong the Eternal
 
 --Stave Of The Lich King --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Stave Of The Lich King',
@@ -4117,9 +4276,10 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Stave_Of_The_Lich_King.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Ancient as the Reach.');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Treasure', 'Right', '+2B WILL');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Treasure' 'Right', '+2B WILL');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Augment
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (90, 46); --Unnatural Tonic
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Elrik the Lich King
 
 --Steel Gauntlets --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Steel Gauntlets',
@@ -4146,8 +4306,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Sting.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Gnoll hide makes for surprisingly good boots.');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Treasure', 'Left', '+1G STR');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Treasure' 'Left', '+1G STR');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Hunter
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Jorogumo
 
 --Stinky Sewer Cowl --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Stinky Sewer Cowl',
@@ -4156,17 +4317,18 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Stinky_Sewer_Cowl.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');  --!! unavailable !!
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Treasure', 'Right', '+1G ARM');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Treasure' 'Right', '+1G ARM');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Vile Stench
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Charmancer
 
 --Stolen Essence --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Stolen Essence',
 'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Stolen_Essence_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Relics/Stolen_Essence.xhtml', 
-'Relics', '2.0', '2.0 Core Set', 'Default',
+'Relic', '2.0', '2.0 Core Set', 'Default',
 'Not all heroes return triumphantly...'); 
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Relics', 'Left', '+2 HEALTH +2MO');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Relic', 'Left', '+2 HEALTH +2MO');
 
 --Stolen Voice --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Stolen Voice',
@@ -4175,20 +4337,22 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Stolen_Voice.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Treasure', 'Bottom', '+1G WILL');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Treasure' 'Bottom', '+1G WILL');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Dangerous
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (90, 46); --Inappropriate Comments
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Mother Noctua
 
 --Stompin' Boots --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Stompin'' Boots',
 'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Stompin_Boots_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Relics/Stompin_Boots.xhtml', 
-'Relics', '2.0', '2.0 Core Set', 'Default',
+'Relic', '2.0', '2.0 Core Set', 'Default',
 ''); --!! unavailable !!
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Relics', 'Top', '');  --!! unavailable !!
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Relic', 'Top', '');  --!! unavailable !!
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --  --!! unavailable !!
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (90, 46); --  --!! unavailable !!
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Ugg
 
 --Stompin Boots --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Stompin Boots',
@@ -4197,9 +4361,10 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Stompin_Boots.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');  --!! unavailable !!
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Treasure', 'Top', '+1 HEALTH');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Treasure' 'Top', '+1 HEALTH');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --!!  unavailable !!
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (90, 46); --!! unavailable !!
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Ugg
 
 --Stone Heart --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Stone Heart',
@@ -4219,8 +4384,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Stonebacks_Pickaxe.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Treasure', 'Right', '+1G STR');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Treasure' 'Right', '+1G STR');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Burrow
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Testudo Tower
 
 --Striped Candy --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Striped Candy',
@@ -4229,9 +4395,10 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Striped_Candy.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Treasure', 'Bottom', '+1G DEX');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Treasure' 'Bottom', '+1G DEX');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Massive Damage
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (90, 46); --Thrown Candy
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Krampus
 
 --Stuffed Crow --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Stuffed Crow',
@@ -4240,9 +4407,10 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Stuffed_Crow.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Treasure', 'Bottom', '+1G WILL');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Treasure' 'Bottom', '+1G WILL');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Bane
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Eat Crow
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --The Thresher
 
 --Sturdy Cloak --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Sturdy Cloak',
@@ -4260,10 +4428,11 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Subservient_Goblin.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');  
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Treasure', 'Top', '+1B STR +1B ARM');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Treasure' 'Top', '+1B STR +1B ARM');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, 523); --Cursed
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, 1089); --Delicious
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (90, abxxx); --Fetch
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --The Guth
 
 --Sugar Rush Soda --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Sugar Rush Soda',
@@ -4293,9 +4462,11 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Tankbuster_Blunderbuss.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'The trick is to get REAL close...');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Treasure', 'Left', '+1R STR');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Treasure' 'Left', '+1R STR');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Massive Damage
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (90, 46); --Tankbuster
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Gnomish Excavator
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Professor Cackle-Clink
 
 --Tanto Lock --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Tanto Lock',
@@ -4311,9 +4482,10 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Tape_The_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Relics/Tape_The.xhtml', 
-'Relics', '2.0', '2.0 Core Set', 'Default',
+'Relic', '2.0', '2.0 Core Set', 'Default',
 'Don''t watch that!'); 
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Relics', 'Bottom', '+2R WILL  Onryo may use the Cursed Visions action once per activation spending no action points.'); 
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Relic', 'Bottom', '+2R WILL  Onryo may use the Cursed Visions action once per activation spending no action points.'); 
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Onryo
 
 --Tatami Gusoku --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Tatami Gusoku',
@@ -4331,9 +4503,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Tattered_Flannel.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Wrap yourself in this luxurious cotton blend and snuggle up by a fire with some pumpkin spice mead." - Advertisement in the Crystalia Castle Herald');  
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Treasure', 'Right', '+1G ARM');  
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Treasure' 'Right', '+1G ARM');  
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, 1041); --Tough
-
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --The Thresher
 
 --Teka-Teka Do --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Teka-Teka Do',
@@ -4351,9 +4523,10 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Tenderiser_The.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'With added oil.');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Treasure', 'Right', '+1G STR');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Treasure' 'Right', '+1G STR');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Fire
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (90, 46); --Flaming Blade
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Ugg
 
 --Tengu Cap --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Tengu Cap',
@@ -4390,20 +4563,22 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Thirsting_Blade_The_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Relics/Thirsting_Blade_The.xhtml', 
-'Relics', '2.0', '2.0 Core Set', 'Default',
+'Relic', '2.0', '2.0 Core Set', 'Default',
 ''); 
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Relics', 'Top', '+1R STR'); 
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Relic', 'Top', '+1R STR'); 
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Lifedrain 
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --The Thirsting Blade
 
 --Threshing Flail --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Threshing Flail',
 'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Threshing_Flail_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Relics/Threshing_Flail.xhtml', 
-'Relics', '2.0', '2.0 Core Set', 'Default',
+'Relic', '2.0', '2.0 Core Set', 'Default',
 ''); 
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Relics', 'Right', '+1R STR'); 
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Relic', 'Right', '+1R STR'); 
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, 1080); --You're Alone 
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --The Thresher
 
 --Tickle Tongue Cola --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Tickle Tongue Cola',
@@ -4423,8 +4598,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Torment_Knife.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'This was used to cause great suffering.');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Treasure', 'Right', '+2R STR');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Treasure' 'Right', '+2R STR');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Bane
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Onryo
 
 --Tormented Text --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Tormented Text',
@@ -4451,8 +4627,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Traveling_Jacket.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Treasure', 'Right', '+2B ARM');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Treasure' 'Right', '+2B ARM');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Sturdy
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Bomechan
 
 --Treasured Toy --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Treasured Toy',
@@ -4461,8 +4638,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Treasured_Toy.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'I see what she sees.');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Treasure', 'Top', '+2B WILL');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Treasure' 'Top', '+2B WILL');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Illumination
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Onryo
 
 --Truncheon --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Truncheon',
@@ -4471,8 +4649,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Truncheon.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Club ''em good!');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Treasure', 'Right', '+1G STR');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Treasure' 'Right', '+1G STR');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Knockdown
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Pauper Prince
 
 --Trusty Lockpicks --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Trusty Lockpicks',
@@ -4491,60 +4670,65 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Turtle_Shell_Mail.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'So tough, so slow.');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Treasure', 'Left', '-2MO +1G ARM');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Treasure' 'Left', '-2MO +1G ARM');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Immune: Knockdown
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Immune: Slow
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Testudo Tower
 
 --Twilight Reaper --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Twilight Reaper',
 'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Twilight_Reaper_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Relics/Twilight_Reaper.xhtml', 
-'Relics', '2.0', '2.0 Core Set', 'Default',
+'Relic', '2.0', '2.0 Core Set', 'Default',
 ''); 
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Relics', 'Top', '+1R WILL'); 
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Relic', 'Top', '+1R WILL'); 
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Afflict X
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Bane
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Hex
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --The Midnight Queen
 
 --Uchide No Kozuchi --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Uchide No Kozuchi',
 'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Uchide_No_Kozuchi_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Relics/Uchide_No_Kozuchi.xhtml', 
-'Relics', '2.0', '2.0 Core Set', 'Default',
+'Relic', '2.0', '2.0 Core Set', 'Default',
 ''); 
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Relics', 'Right', '');  
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Relic', 'Right', '');  
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Improved Critical
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Bomechan
 
 --Undying Blade, The --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Undying Blade, The',
 'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Undying_Blade_The_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Relics/Undying_Blade_The.xhtml', 
-'Relics', '2.0', '2.0 Core Set', 'Default',
+'Relic', '2.0', '2.0 Core Set', 'Default',
 ''); 
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Relics', 'Top', '+2B STR');  
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Relic', 'Top', '+2B STR');  
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Blood Drinker 
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Elrik the Lich King
 
 --Undying Blade, The v2 --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Undying Blade, The',
 'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Undying_Blade_The_v2_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Relics/Undying_Blade_The_v2.xhtml', 
-'Relics', '2.0', '2.0 Core Set', 'Default',
+'Relic', '2.0', '2.0 Core Set', 'Default',
 ''); 
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Relics', 'Right', '+2B STR');  
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Relic', 'Right', '+2B STR');  
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Blood Drinker 
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Elrik the Lich King
 
 --Unknown --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Unknown',
 'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Unknown_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Relics/Unknown.xhtml', 
-'Relics', '2.0', '2.0 Core Set', 'Default',
+'Relic', '2.0', '2.0 Core Set', 'Default',
 ''); --!! unavailable !!
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Relics', 'Top', '');  --!! unavailable !!
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Relic', 'Top', '');  --!! unavailable !!
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --  --!! unavailable !!
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (90, 46); --  --!! unavailable !!
 
@@ -4555,9 +4739,10 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Unknown2.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');  --!! unavailable !!
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Treasure', 'Right', '+1G STR'); --!! unavailable !!
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Treasure' 'Right', '+1G STR'); --!! unavailable !!
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --!! unavailable !!
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (90, 46); --!! unavailable !!
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Ugg
 
 --Unlucky Crow's Foot --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Unlucky Crow''s Foot',
@@ -4566,9 +4751,10 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Unlucky_Crows_Foot.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Treasure', 'Top', '+2B STR +2B WILL +2B DEX');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Treasure' 'Top', '+2B STR +2B WILL +2B DEX');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Broken Heart
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Cursed
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --The Thresher
 
 --Urchin's Mush --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Urchin''s Mush',
@@ -4577,10 +4763,11 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Urchins_Mush.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'It''s healthy! Seriously.');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Treasure', 'Right', '+1G STR');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Treasure' 'Right', '+1G STR');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Augment
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Heal
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (90, 46); --Mushy Mush
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Pauper Prince
 
 --Vagabond's Cloak --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Vagabond''s Cloak',
@@ -4589,8 +4776,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Vagabonds_Cloak.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Always overlooked--just as I intended.');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Treasure', 'Left', '+1G ARM');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Treasure' 'Left', '+1G ARM');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Stealth
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Pauper Prince
 
 --Vainglorious --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Vainglorious',
@@ -4609,9 +4797,10 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Venom_Vial.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Treasure', 'Top', '+1G WILL');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Treasure' 'Top', '+1G WILL');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Immune: Bane
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Immune: Poison
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Demon Queen Araphel
 
 --Volatile Explosives --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Volatile Explosives',
@@ -4620,9 +4809,10 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Volatile_Explosives.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Don''t worry, I''m an expert.');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Treasure', 'Top', '');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Treasure' 'Top', '');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Dangerous
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (90, 46); --Esplosion!
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Testudo Tower
 
 --Vulcanite Banded Mail --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Vulcanite Banded Mail',
@@ -4631,8 +4821,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Vulcanite_Banded_Mail.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Guaranteed to last a lifetime.');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Treasure', 'Left', '+1R ARM');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Treasure' 'Left', '+1R ARM');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Sturdy
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Lord Vulcanis
 
 --Vulcanite Gladius --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Vulcanite Gladius',
@@ -4641,10 +4832,11 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Vulcanite_Gladius.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Treasure', 'Right', '+1G STR');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Treasure' 'Right', '+1G STR');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Afflict X
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Fire
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Knockdown
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Lord Vulcanis
 
 --Vulcanite Scutum --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Vulcanite Scutum',
@@ -4653,9 +4845,10 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Vulcanite_Scutum.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Out of the way!');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Treasure', 'Right', '+1G ARM');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Treasure' 'Right', '+1G ARM');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Dangerous
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (90, 46); --Shield Bash
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Lord Vulcanis
 
 --Vulcanite Standard --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Vulcanite Standard',
@@ -4664,9 +4857,10 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Vulcanite_Standard.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Treasure', 'Top', '+2B WILL');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Treasure' 'Top', '+2B WILL');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Augment
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (90, 46); --Rallying Cry
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Lord Vulcanis
 
 --War Maul --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('War Maul',
@@ -4675,8 +4869,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/War_Maul.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'MIGHTY MONKEY SMASH!');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Treasure', 'Right', '+1G STR');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Treasure' 'Right', '+1G STR');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Improved Critical
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Clan Yamazaru Chunin
 
 --Warrior Mail --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Warrior Mail',
@@ -4705,18 +4900,20 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Waystone.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'I think he wants it back...');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Treasure', 'Left', '+1B STR +1B ARM +1B WILL +1B DEX');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Treasure' 'Left', '+1B STR +1B ARM +1B WILL +1B DEX');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Wayfarer
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Ymnaur Wintersson
 
 --Weathered Great Coat --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Weathered Great Coat',
 'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Weathered_Great_Coat_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Relics/Weathered_Great_Coat.xhtml', 
-'Relics', '2.0', '2.0 Core Set', 'Default',
+'Relic', '2.0', '2.0 Core Set', 'Default',
 ''); 
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Relics', 'Left', '+1R STR');  
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Relic', 'Left', '+1R STR');  
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, 879); --Sense Weakness 
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --The Thresher
 
 --Wheat Sheaf --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Wheat Sheaf',
@@ -4725,8 +4922,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Wheat_Sheaf.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '"Thy doom is wrought! Beware my sheaf!"'); 
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Treasure', 'Left', '+1G DEX');  
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Treasure' 'Left', '+1G DEX');  
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (90, abxxx); --THWAP!
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --The Thresher
 
 --Whirling Doom, The --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Whirling Doom, The',
@@ -4735,30 +4933,32 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Whirling_Doom_The.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 ''); 
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Treasure', 'Right', '+1G DEX +1R DEX'); 
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Treasure' 'Right', '+1G DEX +1R DEX'); 
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Hookshot
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (90, 46); --Doooom
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Ninja Cola (FK)
 
 --Widowmaker --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Widowmaker',
 'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Widowmaker_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Relics/Widowmaker.xhtml', 
-'Relics', '2.0', '2.0 Core Set', 'Default',
+'Relic', '2.0', '2.0 Core Set', 'Default',
 ''); 
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Relics', 'Top', '+1R WILL');  
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Relic', 'Top', '+1R WILL');  
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --The Widow's Secret 
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Demon Queen Araphel
 
 --Widowmaker v2  --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Widowmaker',
 'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Widowmaker_v2_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Relics/Widowmaker_v2.xhtml', 
-'Relics', '2.0', '2.0 Core Set', 'Default',
+'Relic', '2.0', '2.0 Core Set', 'Default',
 'The tears shed for those slain taste so delectably sweet.'); 
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Relics', 'Right', '+1R WILL');  
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Relic', 'Right', '+1R WILL');  
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --The Widow's Secret 
-
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Demon Queen Araphel
 
 --Widow's Glass  --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Widow''s Glass'),
@@ -4767,9 +4967,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Widows_Glass_v2.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 ''); 
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Treasure', 'Left', '+1R ARM');  
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Treasure' 'Left', '+1R ARM');  
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, 681); --Immune: Status Effects 
-
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Demon Queen Araphel
 
 --Windswept Flute --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Windswept Flute',
@@ -4799,21 +4999,23 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Wings_of_Ash.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Treasure', 'Bottom', '+1G DEX');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Treasure' 'Bottom', '+1G DEX');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Augment
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Fly
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Sturdy
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (90, 46); --Ash Cloud
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --The Destroyer
 
 --Winter Orb --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Winter Orb',
 'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Winter_Orb_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Relics/Winter_Orb.xhtml', 
-'Relics', '2.0', '2.0 Core Set', 'Default',
+'Relic', '2.0', '2.0 Core Set', 'Default',
 ''); --!! unavailable !!
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Relics' 'Top', '+1R WILL');  --!! unavailable !!
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Relic' 'Top', '+1R WILL');  --!! unavailable !!
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --!! unavailable !!
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Hoarfang
 
 --Winter's Orb --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Winter''s Orb',
@@ -4822,8 +5024,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Winters_Orb.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Treasure', 'Top', '+1G WILL');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Treasure' 'Top', '+1G WILL');
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (90, 46); --Trapped In The Orb
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Krampus
 
 --Witch Hat --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Witch Hat',
@@ -4897,9 +5100,10 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Wooden_Sword.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Treasure', 'Right', '+1G STR');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Treasure' 'Right', '+1G STR');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Cursed
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Splinters
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Mordred the Accursed
 
 --Wyrm Scale Shield --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Wyrm Scale Shield',
@@ -4908,10 +5112,11 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Wyrm_Scale_Shield.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Woosh!');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Treasure', 'Left', '+1G ARM');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (150, 'Character Treasure' 'Left', '+1G ARM');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Dangerous
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Fire
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (90, 46); --Fire Storm
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Starfire
 
 --Zukin Helmet Lock --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Zukin Helmet Lock',
