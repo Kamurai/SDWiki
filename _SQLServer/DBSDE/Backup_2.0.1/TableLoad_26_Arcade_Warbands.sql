@@ -3,7 +3,7 @@
  --Warband Gangs
  
 --Arcadian Spider Nest
---Arcadian Spider Nest --CardIndex cXXX --CharacterIndex chXXX --ArcadeCharacterIndex arXXX
+--Arcadian Spider Nest --CardIndex 1359 --CharacterIndex 1262 --ArcadeCharacterIndex 196
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Arcadian Spider Nest',
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Arcadian_Spider_Nest/Card_Arcade_Warband_Arcadian_Spider_Nest_2.0.png', 
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Arcadian_Spider_Nest/Card_Arcade_Warband_Arcadian_Spider_Nest_2.0_back.png', 
@@ -14,9 +14,9 @@ insert into Characters (CardIndex) VALUES (cXXX);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
 VALUES (chXXX, 0, -1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 2); --Emerald
---GangMemberIndex gXXX
+--GangMemberIndex 644
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex);
-VALUES (arXXX, 0, 'Arcadian Spider Nest', 'Spawning Point', '', 0, 3, 1, eXXX);
+VALUES (arXXX, 0, 'Arcadian Spider Nest', 'Spawning Point', '', 0, 3, 1, 229);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, kXXX); --Immune: Status Effects
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, kXXX); --Webs
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (gXXX, kXXX); --Spawning Pool
