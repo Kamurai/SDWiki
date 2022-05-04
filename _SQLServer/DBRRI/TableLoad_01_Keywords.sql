@@ -50,4 +50,51 @@
 /*Dead Or Alive				 		--Index   39*/		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('RRI', 'Default', 'Dead Or Alive', 		'Lawbots may reroll up to one die in fights until the end of the round.');
 /*Fan the Hammer			 		--Index   40*/		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('RRI', 'Default', 'Fan the Hammer', 		'Whenever you take the Showdown action this tunr, you may Showdown twice in a row as part of the same action.');
 /*Fire Main Thrusters		 		--Index   41*/		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('RRI', 'Default', 'Fire Main Thrusters', 	'Discard the top card of the High Noon deck.');
+/*Got To Have Faith			 		--Index   42*/		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('RRI', 'Default', 'Got To Have Faith', 	'Take one High Noon card from the discard pile and shuffle it into the High Noon Deck.');
+/*Hands Up					 		--Index   43*/		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('RRI', 'Default', 'Hands Up', 			'You may reroll one die in every roll you make this turn.');
+/*Hot Lead Flyin'			 		--Index   44*/		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('RRI', 'Default', 'Hot Lead Flyin''', 	'Roll an additional die in Showdowns this turn.');
+/*Impulse Throttle			 		--Index   45*/		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('RRI', 'Default', 'Impulse Throttle', 	'Discard the top two cards of the High Noon deck.');
+/*Infamous					 		--Index   46*/		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('RRI', 'Default', 'Infamous', 			'Keep this card.  You may roll an addtional die in fights.  At the end of each of your turns, discard this card if you didn''t score any [$$] during your turn.');
+/*Jokers Wild				 		--Index   47*/		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('RRI', 'Default', 'Jokers Wild', 			'Keep this card.  After rerolls, you may discard this card to change any die you rolled to any other face of your choice.  Discard this card at the end of your turn.');
+/*Law and Order				 		--Index   48*/		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('RRI', 'Default', 'Law and Order', 		'The player to your left moves one Lawbot from an adjacent car to your Raider''s current car.');
+/*Mysterious Stranger		 		--Index   49*/		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('RRI', 'Default', 'Mysterious Stranger', 	'You may move to an adjacent car.  This costs no actions and isn''t a Move action.');
+/*Pushin' Up Daisies		 		--Index   50*/		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('RRI', 'Default', 'Pushin'' Up Daisies', 	'Whenever a Lawbot is destroyed by you this turn, score an additional 1[$$].');
+/*Reckless Haste			 		--Index   51*/		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('RRI', 'Default', 'Reckless Haste', 			'Discard the top four cards of the High Noon deck.');
+/*Redlining the Engines		 		--Index   52*/		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('RRI', 'Default', 'Redlining the Engines',	'Discard the top three cards of the High Noon deck.');
+/*Salvage					 		--Index   53*/		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('RRI', 'Default', 'Salvage',					'Until the end of your turn, whenever you destroy a Lawbot, put a Loot token on the car you are on.');
+/*Spray and Pray			 		--Index   54*/		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('RRI', 'Default', 'Spray and Pray',			'During the first Showdown you are involved in this turn you may reroll up to all of your dice.');
+/*This Gun's Tune			 		--Index   55*/		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('RRI', 'Default', 'This Gun''s Tune',			'If you have at least one Weapon you roll one additional die during fights until the end of your turn.');
+/*This is a Robbery			 		--Index   56*/		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('RRI', 'Default', 'This is a Robbery',		'Look at one additional Loot card for the first Loot token you score this turn.');
+/*True Grit					 		--Index   57*/		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('RRI', 'Default', 'True Grit',				'Until the end of your turn, the losers of fights don''t suffer any consequences unless they lose by two or more hand ranks.');
+/*Uneasy Partnership		 		--Index   58*/		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('RRI', 'Default', 'Uneasy Partnership',		'Until the end of your turn you may agree to "Team Up" with one other Raider involved in a fight that you are in.  If you and the other Raider agree to "Team Up" then you both roll one additional die during the fight, and if either of you win then the other isn''t moved.');
+/*White Lightnin'			 		--Index   59*/		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('RRI', 'Default', 'White Lightnin''',			'Until the end of your turn, you may reroll up to two dice in fights, and you can''t Search.');
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
