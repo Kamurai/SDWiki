@@ -10,7 +10,7 @@ create table Characters (CharacterIndex bigint IDENTITY(0,1) PRIMARY KEY, CardIn
 create table Raiders (RaiderIndex bigint IDENTITY(0,1) PRIMARY KEY, CharacterIndex bigint not null);
 
 --Lawbots
-create table Lawbots (LawbotIndex bigint IDENTITY(0,1) PRIMARY KEY, CharacterIndex bigint not null, RankType varchar(50) not null, Dollars varchar(50) not null);
+create table Lawbots (LawbotIndex bigint IDENTITY(0,1) PRIMARY KEY, CharacterIndex bigint not null, RankType varchar(50) not null, Dollars int not null);
 
 --High Noon
 create table HighNoonCards (HighNoonCardIndex bigint IDENTITY(0,1) PRIMARY KEY, CardIndex bigint not null);
