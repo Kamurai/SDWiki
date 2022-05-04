@@ -2,7 +2,7 @@
 --RRI
 --High Noon Cards
 
---Both Barrels --CardIndex cXXX --HighNoonCardIndex 0
+--Both Barrels --CardIndex 34 --HighNoonCardIndex 0
 insert into Cards (CardIndex, CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor, Lore) 
 VALUES (34, 'Both Barrels', 
 'http://htkb.info/RRI/Cards/High_Noon/Card_HighNoon_Both_Barrels.png', 

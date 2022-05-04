@@ -39,3 +39,4 @@
 
 /*999						 		--Index   32*/		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('RRI', 'Default', '999', 					'');
 /*LT Deadeye				 		--Index   33*/		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('RRI', 'Default', 'Lt Deadeye', 			'');
+
