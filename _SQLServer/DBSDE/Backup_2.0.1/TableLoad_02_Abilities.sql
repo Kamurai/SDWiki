@@ -252,7 +252,7 @@
 
 /*Dance For Me														--Index 970*/ 	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Explore', 'Dance For Me', 'Action', 'Support', 1, 1, -1, 'Wave 2, WILL vs WILL, Compel 4');
 /*Dance of Blades													--Index 971*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Explore', 'Dance of Blades', 'Action', 'Offense', 2, 0, -1, '0MI, Cross 2, +1R DEX ');
-/*Dancing Blade														--Index 972*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Dancing Blade', 'Action', 'Offense', 0, 1, -1, 'Wave 2');
+/*Dancing Blade, The												--Index 972*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Dancing Blade, The', 'Action', 'Offense', 0, 1, -1, 'Wave 2');
 /*Dancing Blade, The												--Index 973*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Dancing Blade, The', 'Action', 'Offense', 2, 0, -1, '0SW, Wave 2');
 /*Darkforge Blade													--Index 974*/ 	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Explore', 'Darkforge Blade', 'Action', 'Offense', 2, 1, -1, '1SW, +1R STR, ICE');
 /*Darkwood Rain														--Index 975*/ 	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Explore', 'Darkwood Rain', 'Action', 'Offense', 1, 0, 10, '10MI');
@@ -1323,5 +1323,27 @@
 /*Wind, The															--Index 2089*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Wind, The', 'Action', 'Offense', 0, 0, -1, 'Wave 3, ICE');
 
 /*Pipe Puff															--Index 2090*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Pipe Puff', 'Action', 'Offense', 0, 1, -1, 'Wave 4, Poison');
+
+/*Bladewall															--Index 2091*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Bladewall', 'Action', 'Support', 0, -1, -1, 'Augment, Aura 3, +2ST ARM');
+
+/*Smoke Bomb														--Index 2092*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Smoke Bomb', 'Action', 'Support', 0, -1, -1, 'AUGMENT, Aura 2, Stealth');
+/*Wind in the Forest												--Index 2093*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Wind in the Forest', 'Action', 'Support', 0, -1, -1, 'AUGMENT, Surge');
+
+/*Hold 'em Still!													--Index 2094*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Hold ''em Still!', 'Action', 'Offense', 0,-1, -1, 'Gain +1ST STR for each Orc within 3 squares of the target.');
+/*Red Wrath, The													--Index 2095*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Red Wrath, The', 'Action', 'Offense', 0,-1, -1, 'This gang gains +1ST STR.');
+/*Shield Bash														--Index 2096*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Shield Bash', 'Action', 'Offense', 0, -1, -1, 'This attack deals one additional wound for each Polished Punk bonded to this elite.');
+/*Shield Wall														--Index 2097*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Shield Wall', 'Action', 'Support', 0, -1, -1, 'This gang gains +1ST ARM.');
+/*WATCH THIS!														--Index 2098*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'WATCH THIS!', 'Action', 'Offense', 0, -1, -1, 'Massive Damage. +2ST STR. If this attack does not deal a wound, destroy this model.');
+
+/*Say Hello To My Littler Friend!									--Index 2099*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Say Hello To My Littler Friend!', 'Action', 'Support', 0, -1, 3, 'Spawn one KaBomb within three squares'); --!!Scrap Tower Dunce card !!
+
+
+
+
+
+
+
+
+
 
 
