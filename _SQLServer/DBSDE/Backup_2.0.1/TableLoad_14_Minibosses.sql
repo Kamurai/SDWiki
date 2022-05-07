@@ -1,4 +1,7 @@
---2.0 MiniBoss
+--SDE
+--2.0.1
+--MiniBosses
+
 --Arachne --CardIndex 1002	--CharacterIndex 910	--ExploreCharacterIndex 506
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Arachne',
 'http:/htkb.info/SDE/2.0/Cards/Minibosses/Card_Miniboss_Arachne_2.0.png', 

@@ -13,6 +13,21 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (cXXX, 'Character Treasure', 'Right', '');
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Black-Handed Henry
 
+--Colo --CardIndex cXXX --EquipmentIndex eXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+'Colo',
+'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Familiar_Colo_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Familiar_Colo_2.0_back.png',
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Familiar/Colo.xhtml', 
+'Loot', '2.0', '2.0 Core Set', 'Default',
+'');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (cXXX, 'Character Loot', 'Top', '');
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Colo
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Familiar
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --Smuggler
+insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (eXXX, abXXX); --Shoot First
+insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (eXXX, abXXX); --I Know
+
 --Cutlass --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 'Cutlass',
@@ -45,6 +60,18 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (cXXX, 'Character Loot', '', '');
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Black-Handed Henry
+
+--Magic Compass --CardIndex cXXX --EquipmentIndex eXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+'Magic Compass',
+'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Magic_Compass_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Magic_Compass_2.0_back.png',
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Magic_Compass.xhtml', 
+'Treasure', '2.0', '2.0 Core Set', 'Default',
+'Bring me that horizon.');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (cXXX, 'Character Treasure', 'Top', '+1G WILL');
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --This Way to Treasure!
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Jolly Sparrow
 
 --Peg Leg --CardIndex cXXX --EquipmentIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
