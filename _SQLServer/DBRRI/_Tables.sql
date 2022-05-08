@@ -19,7 +19,7 @@ create table HighNoonCards (HighNoonCardIndex bigint IDENTITY(0,1) PRIMARY KEY, 
 create table LongArmOfTheLawCards (LongArmOfTheLawCardIndex bigint IDENTITY(0,1) PRIMARY KEY, CardIndex bigint not null);
 
 --Loot
-create table LootCards (LootIndex bigint IDENTITY(0,1) PRIMARY KEY, CardIndex bigint not null, IsWeapon bit not null);
+create table LootCards (LootIndex bigint IDENTITY(0,1) PRIMARY KEY, CardIndex bigint not null, IsWeapon bit not null, IsEquipment bit not null);
 
 create table Utilities (UtilityIndex bigint IDENTITY(0,1) PRIMARY KEY, CardIndex bigint not null, UtilityDescription varchar(1000) not null);
 
