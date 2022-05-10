@@ -113,6 +113,10 @@
 /*Machine Rifle						--Index   100*/		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('RRI', 'Default', 'Machine Rifle',			'Weapon:  When you win a fight against Lawbots, destroy one additional Lawbot.');
 /*Medicae Intruments				--Index   101*/		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('RRI', 'Default', 'Medicae Intruments',		'Equipment:  When the Lawbots beat you in a fight, you decide which adjacent car you are moved to.');
 /*Nytromite							--Index   102*/		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('RRI', 'Default', 'Nytromite',				'You may use an action to put this card on the car you are on.  While this card is on a car, before the Dealer''s turn eah round the Dealer rolls 1 die.  If a KING or higher is rolled destroy all Lawbots on the car and all Raiders on the car are thrown Off the Train.  No one Scores [$$] for the destroyed Lawbots.');
+/*Rich Travel Chest					--Index   103*/		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('RRI', 'Default', 'Rich Travel Chest',		'Draw two Loot cards and score them both.');
+/*Score								--Index   104*/		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('RRI', 'Default', 'Score',					'Score 2[$$].');
+/*Small Time						--Index   105*/		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('RRI', 'Default', 'Small Time',				'Score 1[$$].');
+/*Spacetime Sarsaparilla			--Index   106*/		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('RRI', 'Default', 'Spacetime Sarsaparilla',	'Equipment:  Discard this card during your turn to move to any car with another raider on it.');
 
 
 
