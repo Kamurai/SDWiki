@@ -14,11 +14,11 @@ insert into Attributes (Attribute) VALUES ('Attack'); --1
 insert into Attributes (Attribute) VALUES ('Defense'); --2
 insert into Attributes (Attribute) VALUES ('Koban'); --3
 
---Keywords
-create table Keywords (KeywordIndex bigint IDENTITY(0,1) PRIMARY KEY, KeywordVersion varchar(20) not null, KeywordType varchar(20) not null, KeywordName varchar(50) not null, KeywordDescription varchar(1000) not null);
-
 --Teams
 create table Teams (TeamIndex bigint IDENTITY(0,1) PRIMARY KEY, TeamName varchar(20) not null, Quickplay varchar(100) not null);
+
+--Keywords
+create table Keywords (KeywordIndex bigint IDENTITY(0,1) PRIMARY KEY, KeywordVersion varchar(20) not null, KeywordType varchar(20) not null, KeywordName varchar(50) not null, KeywordDescription varchar(1000) not null);
 
 --Cards
 create table Cards (CardIndex bigint IDENTITY(0,1) PRIMARY KEY, CardName varchar(50) not null, PictureFront varchar(150) not null, PictureBack varchar(150) not null, Link varchar(125) not null, CardType varchar(20) not null, ProductSet varchar(20) not null, ProductModule varchar(20) not null, Flavor varchar(1250));

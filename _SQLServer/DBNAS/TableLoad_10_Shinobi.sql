@@ -2,8 +2,7 @@
 --NAS
 --Shinobi
 
--- --Index 0
---Bomechan --CardIndex 0 --CharacterIndex 0 --ShinobiIndex 0
+--Bomechan --CardIndex 0 --ShinobiIndex 0
 insert into Cards (CardIndex, CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor) 
 VALUES (0, 'Bomechan', 
 'http://htkb.info/NAS/Cards/Shinobi/Ijin_Bomechan.png', 
@@ -24,6 +23,6 @@ insert into KeywordAssignments (ShinobiIndex, KeywordIndex) VALUES (0, kXXX); --
 insert into KeywordAssignments (ShinobiIndex, KeywordIndex) VALUES (0, kXXX); --Nimble
 insert into KeywordAssignments (ShinobiIndex, KeywordIndex) VALUES (0, kXXX); --Resilent
 insert into KeywordAssignments (ShinobiIndex, KeywordIndex) VALUES (0, kXXX); --Whirlwind
-
+insert into TeamAssignments (ShinobiIndex, TeamIndex) VALUES (0, 6); --Clan Ijin
 
 
