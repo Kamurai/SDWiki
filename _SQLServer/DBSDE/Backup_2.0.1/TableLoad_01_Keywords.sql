@@ -725,7 +725,7 @@
 
 /*Volatile								--Index 1097*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Arcade', 'Volatile', 'When a model with Volatile is destroyed, before removing the model, resolve the following action: 0AC 0SW, Wave 1, +2ST STR');
 
-
+/*Dangerous								--Index 1098*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Arcade', 'Dangerous', '');
 
 
 
