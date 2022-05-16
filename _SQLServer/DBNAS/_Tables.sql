@@ -24,7 +24,7 @@ create table Keywords (KeywordIndex bigint IDENTITY(0,1) PRIMARY KEY, KeywordVer
 create table Cards (CardIndex bigint IDENTITY(0,1) PRIMARY KEY, CardName varchar(50) not null, PictureFront varchar(150) not null, PictureBack varchar(150) not null, Link varchar(125) not null, CardType varchar(20) not null, ProductSet varchar(20) not null, ProductModule varchar(20) not null, Flavor varchar(1250));
 
 --Shinobi
-create table Shinobi (ShinobiIndex bigint IDENTITY(0,1) PRIMARY KEY, CardIndex bigint not null, StandieFront varchar(150) not null, StandieBack varchar(150) not null, Gender varchar(50) not null, ModelSize varchar(50) not null, Affiliation varchar(50) not null, RankType varchar(50) not null, Movement int not null, Attack int not null, Defense varchar(50) not null, Koban varchar(50) not null);
+create table Shinobi (ShinobiIndex bigint IDENTITY(0,1) PRIMARY KEY, CardIndex bigint not null, StandieFront varchar(150) not null, StandieBack varchar(150) not null, Gender varchar(50) not null, ModelSize varchar(50) not null, RankType varchar(50) not null, Movement int not null, Attack int not null, Defense varchar(50) not null, Koban varchar(50) not null);
 
 --Moon Cards
 create table MoonCards (MoonCardIndex bigint IDENTITY(0,1) PRIMARY KEY, CardIndex bigint not null, MoonCardCondition varchar(1000) not null, MoonCardAffinityMatch varchar(1000) not null );
