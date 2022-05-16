@@ -727,7 +727,12 @@
 
 /*Dangerous								--Index 1098*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Arcade', 'Dangerous', '');
 
-
-
+/*Chasm									--Index 1099*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Explore', 'Chasm', 'Models cannot move through chasms. Models can draw line of sight through chasms.');
+/*Difficult Terrain						--Index 1100*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Explore', 'Difficult Terrain', 'Each square of difficult terrain a model enters costs two movement points. If a model does not have enough movement points to move into a square with difficult terrain, it may not do so.<br><br>Large based models are only considered to enter a square of difficult terrain if one of the squares counted along the path they are moving is difficult terrain. Remember, large based models can "squeeze" through single-square lanes.');
+/*Fire									--Index 1101*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Explore', 'Fire', 'A model which enters one or more Fire squares suffers FIRE at the end of the current activation.');
+/*Goddess								--Index 1102*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Explore', 'Goddess', 'Models that end their activation adjacent to a Goddess structure may remove one wound token.');
+/*Lava									--Index 1103*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Explore', 'Lava', 'A model which enters one or more Lava squares suffers FIRE at the end of the current activation.');
+/*Spawn Location						--Index 1104*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Explore', 'Spawn Location', 'Spawning points are placed in spawn location squares.');
+/*Treasure Pile							--Index 1105*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Explore', 'Treasure Pile', 'If there are one or more Heroes on a Treasure Pile Square during the Hero Power-Up phase, the party may trade four loot cards from the Backpack for a treasure instead of the usual six loot cards.');
 
 
