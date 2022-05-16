@@ -12,9 +12,6 @@
 
 /*Smuggler						--Index kXXX*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Smuggler', 'This allows the hero draw three LOOT and one TREASURE card at the start of the game. If this model is removed from play, you can choose to discard the cards in place of using a princess coin. If you haven''t discarded these cards, you may choose to draw and equip any of them when the Boss is spawned.');
 
-/*This Way To Treasure			--Index kXXX*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'This Way To Treasure', '12RG, move target Treasure Chest up to 6 squares.');
-
-
 
 
 

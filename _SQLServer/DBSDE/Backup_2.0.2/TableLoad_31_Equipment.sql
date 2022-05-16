@@ -70,7 +70,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Bring me that horizon.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (cXXX, 'Character Treasure', 'Top', '+1G WILL');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (eXXX, kXXX); --This Way to Treasure!
+insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (eXXX, kXXX); --This Way to Treasure!
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Jolly Sparrow
 
 --Peg Leg --CardIndex cXXX --EquipmentIndex eXXX

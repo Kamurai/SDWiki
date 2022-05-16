@@ -37,6 +37,9 @@
 /*Taste of You, A												--Index kXXX*/ 	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Default', 'Taste of You, A', 							'Action', 'Support', 	2, 3, 1, '1MA, +1R WILL.  Place a crystal token on the target if this action succeeds.  The next time the target activates, discard the token and this model controls the target''s first action of the activation.');
 /*Tear Your Arms Off											--Index kXXX*/ 	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Default', 'Tear Your Arms Off', 						'Action', 'Support', 	1, 1, 2, '2SW, +1R STR, Massive Damage');
 /*Tears of the Moon												--Index kXXX*/ 	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Default', 'Tears of the Moon', 							'Potion', 'Emergency', 	1, -1, 0, 'AUGMENT, Defender');
+
+/*This Way To Treasures!										--Index kXXX*/ 	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Default', 'This Way To Treasures!', 					'Action', 'Support', 	1, -1, 12, '12RG, move target Treasure Chest up to 6 squares.');
+
 /*Viper''s Strike												--Index kXXX*/ 	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Default', 'Viper''s Strike', 							'Action', 'Offense', 	1, 1, 2, '2SW, +1B STR, Pounce.  This action may only be taken once per activation.');
 
 
