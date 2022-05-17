@@ -476,7 +476,8 @@
 /*Frozen Pot														--Index 1192*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Explore', 'Frozen Pot', 'Action', 'Offense', 1, 0, 6, '6MI, ICE');
 /*Frozen Solid														--Index 1193*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Explore', 'Frozen Solid', 'Action', 'Offense', 2, 0, 5, 'MA5, +1R WILL, ICE, Immobile');
 /*Fungal Fury														--Index 1194*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Explore', 'Fungal Fury', 'Action', 'Support', 1, 2, -1, 'Augment, Fungal Fury');
-/*Furious Charge													--Index 1195*/ insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Explore', 'Furious Charge', 'Action', 'Offense', 2, 1, -1, '0SW, Lance 4, Charge, KNOCKDOWN.  If Ugg ends this action within 4 of Mugg, Mugg may take the Shot Storm action without spending action points.');
+/*Furious Charge													--Index 1195*/ insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, 
+AbilityDescription) VALUES ('2.0', 'Explore', 'Furious Charge', 'Action', 'Offense', 2, 1, -1, '0SW, Lance 4, Charge, KNOCKDOWN.  If Ugg ends this action within 4 of Mugg, Mugg may take the Shot Storm action without spending action points.');
 /*Furious Firebloom													--Index 1196*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Default', 'Furious Firebloom', 'Potion', 'Support', 1, 3, 4, 'DANGEROUS, 4MA, Burst 1');
 /*Furious Fist Whirlwind											--Index 1197*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Explore', 'Furious Fist Whirlwind', 'Action', 'Offense', 2, 1, -1, '0SW, Wave 1, Knockdown');
 /*Fury of Eternity													--Index 1198*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Fury of Eternity', 'Action', 'Offense', 0, 1, 6, 'Massive Damage');
@@ -1206,8 +1207,10 @@
 /*Wait In Shadow													--Index 1994*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Wait In Shadow', 'Action', 'Support', 0, -1, 4, 'All monsters on this tile gain Predator.');
 /*Wait In Shadow													--Index 1995*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Explore', 'Wait In Shadow', 'Action', 'Support', 1, -1, 4, '4RANGE, Place a crystal token in target square.  Friendly models adjacent to the token gain Predator.  An adjacent model may spend tow movement points to remove the token.');
 /*Walk the Plank													--Index 1996*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Explore', 'Walk the Plank', 'Action', 'Offense', 2, 0, -1, 'Push 4, Immobile');
-/*Warcry															--Index 1997*/ insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityTye, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Warcry', 'Action', 'Support', 0, 2, -1, 'Roll 1G and spawn one Spiker within three squares of The Guff for each star rolled, up to a maximum of four Spikers in play.');
-/*Wardrobe Swap														--Index 1998*/ insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityTye, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Explore', 'Wardrobe Swap', 'Potion', 'Support', 1, 3, -1, 'Choose two Heroes, they may exchange one piece of equipment.');
+/*Warcry															--Index 1997*/ insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityTye, AbilityCost, AttributeIndex, AbilityRange, 
+AbilityDescription) VALUES ('2.0', 'Arcade', 'Warcry', 'Action', 'Support', 0, 2, -1, 'Roll 1G and spawn one Spiker within three squares of The Guff for each star rolled, up to a maximum of four Spikers in play.');
+/*Wardrobe Swap														--Index 1998*/ insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityTye, AbilityCost, AttributeIndex, AbilityRange, 
+AbilityDescription) VALUES ('2.0', 'Explore', 'Wardrobe Swap', 'Potion', 'Support', 1, 3, -1, 'Choose two Heroes, they may exchange one piece of equipment.');
 /*WATCH THIS!														--Index 1999*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Explore', 'WATCH THIS!', 'Action', 'Offense', 1, 0, 6, '6MI, +1B DEX, Massive Damage. If this model rolls any hearts during this attack, destroy this model after the attack is resolved.');
 /*Water Bowl														--Index 2000*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Explore', 'Water Bowl', 'Potion', 'Emergency', 1, 4, -1, 'Augment, Rampage');
 /*Waters of the Moon												--Index 2001*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Explore', 'Waters of the Moon', 'Potion', 'Offense', 1, 2, -1, 'Augment, Steady, Remedy');
@@ -1337,10 +1340,9 @@
 
 /*Say Hello To My Littler Friend!									--Index 2099*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Say Hello To My Littler Friend!', 'Action', 'Support', 0, -1, 3, 'Spawn one KaBomb within three squares'); --!!Scrap Tower Dunce card !!
 
+/*Eruption															--Index 2100*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Eruption', 'Action', 'Offense', 2, 1, -1, '0MI, Wave 1, Fire');
 
-
-
-
+/*Storm of Arrows													--Index 2101*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Storm of Arrows', 'Action', 'Support', 2, -1, -1, 'Augment, this model makes three basic missile attacks without spending action points and then suffers one wound.');
 
 
 

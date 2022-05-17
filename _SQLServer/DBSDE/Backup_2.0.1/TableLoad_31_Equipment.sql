@@ -7,8 +7,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'I slew a demon with it, and the flames of the nether forever touched it...');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2517, 'Treasure', 'Right', '+1G STR');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (293, kXXX); --Bane
-insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (293, 46); --Accursed Cut
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (293, 453); --Bane
+insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (293, 727); --Accursed Cut
 
 --Adventurer Plate --CardIndex 2518 --EquipmentIndex 294
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Adventurer Plate',
@@ -27,8 +27,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Give us some warning before you throw the next one?');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2519, 'Treasure', 'Right', '+1R WILL');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (295, kXXX); --Dangerous
-insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (295, 46); --Bombs Away!
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (295, 1098); --Dangerous
+insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (295, 824); --Bombs Away!
 
 --Amethyst Crystal Shard --CardIndex 2520 --EquipmentIndex 296
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Amethyst Crystal Shard',
@@ -38,8 +38,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Crystalia is mine, no one will stand in my way.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2520, 'Treasure', 'Top', '+1R WILL +1AC');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (296, kXXX); --Knockdown
-insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (296, 46); --Princess Power
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (296, 706); --Knockdown
+insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (296, 1535); --Princess Power
 
 --Ancestral Mail --CardIndex 2521 --EquipmentIndex 297
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ancestral Mail',
@@ -58,7 +58,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Nothing stands!');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2522, 'Character Treasure', 'Right', '+1G STR');
-insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (298, 46); --Destruction
+insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (298, 1009); --Destruction
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (298, chXXX); --Gothmog the Terrible
 
 --Angelic Arbalest --CardIndex 2523 --EquipmentIndex 299
@@ -69,8 +69,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Give the Goddess my greetings.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2523, 'Treasure', 'Right', '+1R ARM');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (299, kXXX); --Knockdown
-insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (299, 46); --Celestial Clobbering
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (299, 706); --Knockdown
+insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (299, 869); --Celestial Clobbering
 
 --Arcadian Wine --CardIndex 2524 --EquipmentIndex 300
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Arcadian Wine',
@@ -80,8 +80,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2524, 'Treasure', 'Bottom', '+1R DEX');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (300, kXXX); --Heal
-insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (300, 46); --Wine Tasting
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (300, 642); --Heal
+insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (300, 2020); --Wine Tasting
 
 --Arcane Tome --CardIndex 2525 --EquipmentIndex 301
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Arcane Tome',
@@ -100,7 +100,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Your power is mine!');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2526, 'Treasure', 'Left', '+2B WILL');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (302, kXXX); --Mastery
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (302, 752); --Mastery
 
 --Armored Assassin --CardIndex 2527 --EquipmentIndex 303
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Armored Assassin',
@@ -119,8 +119,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2528, 'Character Treasure', 'Left', '+1G DEX');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (304, kXXX); --Hookshot
-insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (304, 46); --The Lonely Arrow
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (304, 656); --Hookshot
+insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (304, 1382); --The Lonely Arrow
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (304, chXXX); --Clan Tanchyo Chunin
 
 --Artificer Pistol --CardIndex 2529 --EquipmentIndex 305
@@ -140,7 +140,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Stay true to the Goddess.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2529, 'Character Treasure', 'Left', '+1G ARM');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (306, kXXX); --Holy
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (306, 654); --Holy
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (306, chXXX); --Elrik the Lich King
 
 --Bane Amulet --CardIndex 2531 --EquipmentIndex 307
@@ -151,8 +151,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');  --!! unavailable !!
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2531, 'Character Treasure', 'Left', '+1G STR');  --!! unavailable !!
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (307, kXXX); --Blood Drinker --!! unavailable 1!
-insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (307, 46); --Destruction --!! unavailable !!
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (307, 466); --Blood Drinker --!! unavailable 1!
+insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (307, 1009); --Destruction --!! unavailable !!
 
 --Barbarian Chic --CardIndex 2532 --EquipmentIndex 308
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Barbarian Chic',
@@ -173,7 +173,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Aw, she''s just a little shy!');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2533, 'Booty Treasure', '', 'Boo Booties only have an effect when drawn from a treasure chest. The Consul spawns one Boo Booty in the square the treasure chest occupied. Then all Heroes within three squares and line of sight of the Boo Booty suffer HEX.');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (309, kXXX); --Hex
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (309, 647); --Hex
 
 --Beginner's Spellbook --CardIndex 2534 --EquipmentIndex 310
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Beginner''s Spellbook',
@@ -183,7 +183,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Loot', '2.0', '2.0 Core Set', 'Default',
 'Never leave home without it.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2534, 'Loot', 'Right', '+1B WILL');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (310, kXXX); --Ice
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (310, 668); --Ice
 
 --Bejeweled Shield --CardIndex 2535 --EquipmentIndex 311
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Bejeweled Shield',
@@ -193,7 +193,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2535, 'Treasure', 'Left', '+1R STR');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (311, kXXX); --Extra Sparkly
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (311, 575); --Extra Sparkly
 
 --Bent Nail --CardIndex 2536 --EquipmentIndex 312
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Bent Nail',
@@ -203,7 +203,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Loot', '2.0', '2.0 Core Set', 'Default',
 'Still sharp.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2536, 'Loot', 'Top', '+1B STR');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (312, kXXX); --Immune: Hex
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (312, 675); --Immune: Hex
 
 --Berserker's Horn --CardIndex 2537 --EquipmentIndex 313
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Berserker''s Horn',
@@ -213,7 +213,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Relic', '2.0', '2.0 Core Set', 'Default',
 'Who knew they had such a flat head.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2537, 'Character Relic', 'Bottom', '');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (313, kXXX); --Rage
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (313, 830); --Rage
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (313, chXXX); --The Guth
 
 --Berserker's Helm --CardIndex 2538 --EquipmentIndex 314
@@ -224,7 +224,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2538, 'Treasure', 'Bottom', '+1R STR');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (314, kXXX); --Berserk
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (314, 457); --Berserk
 
 --Binding Tome --CardIndex 2539 --EquipmentIndex 315
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Binding Tome',
@@ -261,7 +261,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2542, 'Character Treasure', 'Top', '+2MO +1AC +1R DEX +1R WILL');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (318, kXXX); --Dance Party
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (318, 526); --Dance Party
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (318, chXXX); --Nightsong the Eternal
 
 --Black Pearl, The --CardIndex 2543 --EquipmentIndex 319
@@ -272,8 +272,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2543, 'Character Treasure', 'Top', '+1G ARM');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (319, kXXX); --Consuming Greed
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (319, kXXX); --Cursed
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (319, 512); --Consuming Greed
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (319, 523); --Cursed
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (319, chXXX); --Onibaba
 
 --Bladed Fist --CardIndex 2544 --EquipmentIndex 320
@@ -284,7 +284,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2544, 'Character Treasure', 'Left', '+1R STR');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (320, kXXX); --Berserk
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (320, 457); --Berserk
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (320, chXXX); --Clan Tora Chunin
 
 --Bladed Quarterstaff --CardIndex 2545 --EquipmentIndex 321
@@ -295,7 +295,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Loot', '2.0', '2.0 Core Set', 'Default',
 'Just a scratch...');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2545, 'Loot', 'Right', '+1B WILL');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (321, kXXX); --Poison
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (321, 807); --Poison
 
 --Blaze-Eye Blazer --CardIndex 2546 --EquipmentIndex 322
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Blaze-Eye Blazer',
@@ -305,7 +305,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'No flame may harm me.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2546, 'Character Treasure' 'Left', '+1B +1R ARM');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (322, kXXX); --Immune: Fire
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (322, 674); --Immune: Fire
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (322, chXXX); --The Destroyer
 
 --Blazing Armor --CardIndex 2547 --EquipmentIndex 323
@@ -316,7 +316,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2547, 'Character Treasure' 'Right', '+1G ARM');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (323, kXXX); --Deadly Defense
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (323, 533); --Deadly Defense
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (323, chXXX); --Demon Queen Araphel
 
 --Blazing Momo Yoroi --CardIndex 2548 --EquipmentIndex 324
@@ -327,7 +327,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2548, 'Treasure', 'Left', '+1G ARM');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (324, kXXX); --Volatile
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (324, 1059); --Volatile
 
 --Bleak Cap --CardIndex 2549 --EquipmentIndex 325
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Bleak Cap',
@@ -347,7 +347,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2550, 'Treasure', 'Left', '+1R STR');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (326, kXXX); --Divine Guidance
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (326, 558); --Divine Guidance
 
 --Blight Stone, The  --CardIndex 2551 --EquipmentIndex 327
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Blight Stone, The',
@@ -357,7 +357,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Relic', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2551, 'Character Relic', 'Top', '+1R WILL');
-insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (327, 46); --Eternal Master
+insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (327, 1080); --Eternal Master
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (327, chXXX); --Nightsong the Eternal
 
 --Blood-Stained Sandals  --CardIndex 2552 --EquipmentIndex 328
@@ -368,7 +368,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Relic', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2552, 'Character Relic', 'Top', '+4MO');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (328, kXXX); --Backstabber
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (328, 451); --Backstabber
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (328, chXXX); --Onryo
 
 --Blue Shell --CardIndex 2553 --EquipmentIndex 329
@@ -379,8 +379,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Got him!');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2553, 'Character Treasure' 'Left', '+1G DEX');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (329, kXXX); --Massive Damage
-insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (329, 46); --Seek The Leader
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (329, 727); --Massive Damage
+insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (329, 1619); --Seek The Leader
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (329, chXXX); --Kappa
 
 --Bluraz Fizzy Blast --CardIndex 2554 --EquipmentIndex 330
@@ -391,7 +391,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2554, 'Treasure', 'Top', '+1AC');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (330, kXXX); --Share A Sip!
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (330, 890); --Share A Sip!
 
 --Bodacious Binding --CardIndex 2555 --EquipmentIndex 331
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Bodacious Binding',
@@ -410,7 +410,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Relic', '2.0', '2.0 Core Set', 'Default',
 'You wouldn''t read a lady''s diary, would you?');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2556, 'Character Relic', 'Top', '');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (332, kXXX); --For Unlawful Carnal Knowledge
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (332, 600); --For Unlawful Carnal Knowledge
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (332, chXXX); --Demon Queen Araphel
 
 --Booty Biter --CardIndex 2557 --EquipmentIndex 333
@@ -430,7 +430,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Crunch, crunch, crunch. Booty Grinders live to devour your gear.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2558, 'Treasure Booty', '', 'Boo Booties only have an effect when drawn from a treasure chest. The Consul spawns one Boo Booty in the square the treasure chest occupied. The Hero that opened the chest discards one equipped loot card.');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (334, kXXX); --Hex
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (334, 648); --Hex
 
 --Bottlecap Caltrops --CardIndex 2559 --EquipmentIndex 335
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Bottlecap Caltrops',
@@ -440,7 +440,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Your feet are doomed!');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2559, 'Treasure', 'Left', '+1G DEX');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (335, kXXX); --Sidestep
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (335, 895); --Sidestep
 
 --Bound Tresses  --CardIndex 2560 --EquipmentIndex 336
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Bound Tresses',
@@ -450,8 +450,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Relic', '2.0', '2.0 Core Set', 'Default',
 'Malice radiates from this long queue, take care its owner doesn''t come looking Geta.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2560, 'Character Relic', 'Right', '+1R WILL');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (336, kXXX); --Hex
-insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (336, 46); --Tempest of Wrath
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (336, 648); --Hex
+insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (336, 1821); --Tempest of Wrath
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (336, chXXX); --Onryo
 
 --Brace of the Four Winds  --CardIndex 2561 --EquipmentIndex 337
@@ -462,7 +462,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Relic', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2561, 'Character Relic', 'Top', '+1R ARM');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (337, kXXX); --Howling Vengeance
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (337, 658); --Howling Vengeance
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (337, chXXX); --Bomechan
 
 --Brain Chain  --CardIndex 2562 --EquipmentIndex 338
@@ -473,8 +473,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Relic', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2562, 'Character Relic', 'Bottom', '+1R WILL');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (338, kXXX); --Ice
-insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (338, 46); --Ice Storm
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (338, 668); --Ice
+insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (338, 1299); --Ice Storm
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (338, chXXX); --Pauper Prince
 
 --Branch Blade  --CardIndex 2563 --EquipmentIndex 339
@@ -485,7 +485,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2563, 'Character Treasure' 'Right', '+1R STR');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (339, kXXX); --Counterstrike
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (339, 516); --Counterstrike
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (339, chXXX); --The Guth
 
 --Brass Knuckles --CardIndex 2564 --EquipmentIndex 340
@@ -505,7 +505,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Loot', '2.0', '2.0 Core Set', 'Default',
 'I can only go right!');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2565, 'Loot', 'Top', '+2MO');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (341, kXXX); --Immune: Slow
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (341, 680); --Immune: Slow
 
 --Brute Lord Bracers --CardIndex 2566 --EquipmentIndex 342
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Brute Lord Bracers',
@@ -515,7 +515,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Kill, Maim, Burn!');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2566, 'Character Treasure' 'Top', '+1R STR');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (342, kXXX); --Frenzy
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (342, 616); --Frenzy
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (342, chXXX); --The Rage Fiend
 
 --Bubble Bop Grape Attack --CardIndex 2567 --EquipmentIndex 343
@@ -526,8 +526,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2567, 'Treasure', 'Top', '+1G STR');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (343, kXXX); --Augment
-insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (343, 46); --A Taste For The Fight
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (343, 442); --Augment
+insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (343, 1812); --Taste For The Fight, A
 
 --Bubbly Beverage --CardIndex 2568 --EquipmentIndex 344
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Bubbly Beverage',
@@ -546,7 +546,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Relic', '2.0', '2.0 Core Set', 'Default',
 'Spun from silk, the katabira is a revered article of clothing, as it is borne by its wearer into the afterlife.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2569, 'Character Relic', 'Left', '');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (345, kXXX); --Spirit Call
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (345, 994); --Spirit Call
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (345, chXXX); --Onryo
 
 --Burial Robes --CardIndex 2570 --EquipmentIndex 346
@@ -557,7 +557,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'You seriously want me to wear these?');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2570, 'Character Treasure' 'Left', '+2R ARM');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (346, kXXX); --Ghost
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (346, 629); --Ghost
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (346, chXXX); --Onryo
 
 --Burlap Sack --CardIndex 2571 --EquipmentIndex 347
@@ -578,7 +578,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'My eyes! They burn!');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2572, 'Treasure', 'Bottom', '+1G STR');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (348, kXXX); --Fire
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (348, 588); --Fire
 
 --Burning Horn --CardIndex 2573 --EquipmentIndex 349
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Burning Horn',
@@ -588,9 +588,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Let them all burn.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2573, 'Character Treasure' 'Bottom', '+1G STR');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (349, kXXX); --Dangerous
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (349, kXXX); --Fire
-insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (349, 46); --Dragon's Breath
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (349, 1098); --Dangerous
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (349, 588); --Fire
+insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (349, 1043); --Dragon's Breath
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (349, chXXX); --Burning Horn
 
 --Burning Jewel, The  --CardIndex 2574 --EquipmentIndex 350
@@ -601,7 +601,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Relic', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2574, 'Character Relic', 'Bottom', '+1AC');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (350, kXXX); --Eternal Flame
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (350, 570); --Eternal Flame
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (350, chXXX); --Lord Vulcanis
 
 --Burnt Twig --CardIndex 2575 --EquipmentIndex 351
@@ -612,7 +612,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Loot', '2.0', '2.0 Core Set', 'Default',
 'Surprisingly warm.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2575, 'Loot', 'Top', '+1B DEX');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (351, kXXX); --Immune: Ice
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (351, 676); --Immune: Ice
 
 --Candy's Prize --CardIndex 2576 --EquipmentIndex 352
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Candy''s Prize',
@@ -622,9 +622,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'I guessed how many were in the jar!');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2576, 'Treasure', 'Left', '+1G STR');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (352, kXXX); --Augment
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (352, kXXX); --Heal
-insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (352, 46); --Spread The Love
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (352, 442); --Augment
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (352, 642); --Heal
+insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (352, 1736); --Spread The Love
 
 --Cat's Paw --CardIndex 2577 --EquipmentIndex 353
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Cat''s Paw',
@@ -634,9 +634,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2577, 'Character Treasure' 'Left', '+1R DEX 2 +1G DEX');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (353, kXXX); --Knockdown
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (353, kXXX); --Pounce
-insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (353, 46); --Sneak Attack
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (353, 706); --Knockdown
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (353, 815); --Pounce
+insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (353, 1697); --Sneak Attack
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (353, chXXX); --Chaos Kitty
 
 --Celestial Lance --CardIndex 2578 --EquipmentIndex 354
@@ -647,7 +647,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2578, 'Treasure', 'Right', '+1R ARM');
-insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (354, 46); --The Goddess Lance
+insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (354, 1228); --Goddess Lance, The
 
 --Celestian Armbands --CardIndex 2579 --EquipmentIndex 355
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Celestian Armbands',
@@ -675,7 +675,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2581, 'Character Treasure' 'Top', '+2 HEALTH');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (357, kXXX); --Steady
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (357, 1007); --Steady
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (357, chXXX); --Chained Knight
 
 --Chainmail --CardIndex 2582 --EquipmentIndex 358
@@ -704,8 +704,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2584, 'Character Treasure' 'Top', '+1G WILL');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (360, kXXX); --Augment
-insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (360, 46); --Servitude
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (360, 442); --Augment
+insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (360, 1626); --Servitude
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (360, chXXX); --The Destroyer
 
 --Champion's Regalia --CardIndex 2585 --EquipmentIndex 361
@@ -716,7 +716,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'To the winner go the spoils.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2585, 'Treasure', 'Left', '+2B STR');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (361, kXXX); --Improved Critical
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (361, 684); --Improved Critical
 
 --Checkpoint --CardIndex 2586 --EquipmentIndex 362
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Checkpoint',
@@ -726,7 +726,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Would you like to save?');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2586, 'Treasure', 'Top', '');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (362, kXXX); --Autosave
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (362, 443); --Autosave
 
 --Cheese Head --CardIndex 2587 --EquipmentIndex 363
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Cheese Head',
@@ -736,7 +736,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2587, 'Character Treasure' 'Bottom', '+1G ARM');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (363, kXXX); --Spongy
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (363, 1000); --Spongy
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (363, chXXX); --Randy, Lrod of Spiders
 
 --Chew Toy --CardIndex 2588 --EquipmentIndex 364
@@ -747,7 +747,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2588, 'Treasure', 'Top', '+1AC');
-insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (364, 46); --Go Home, Boy
+insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (364, 1223); --Go Home, Boy
 
 --Chill Song --CardIndex 2589 --EquipmentIndex 365
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Chill Song',
@@ -757,8 +757,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '"Blarrttt!" never sounded so chilling.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2589, 'Character Treasure' 'Left', '+1G STR');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (365, kXXX); --Ice
-insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (365, 46); --Winter's Harvest
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (365, 668); --Ice
+insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (365, 2021); --Winter's Harvest
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (365, chXXX); --The Guth
 
 --Chimeric Battleblade --CardIndex 2590 --EquipmentIndex 366
@@ -769,7 +769,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Loot', '2.0', '2.0 Core Set', 'Default',
 'Chimeric battleblades change with each user. The fierce wield blades of flame, the cold-hearted blades of ice.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2590, 'Loot', 'Right', '+1ST STR');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (366, kXXX); --Ice
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (366, 668); --Ice
 
 --Citrine Crystal Shard --CardIndex 2591 --EquipmentIndex 367
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Citrine Crystal Shard',
@@ -779,8 +779,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2591, 'Treasure', 'Right', '+1G STR');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (367, kXXX); --Augment
-insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (367, 46); --Princess Power
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (367, 442); --Augment
+insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (367, 1538); --Princess Power
 
 --Clan Tora Gusoku --CardIndex 2592 --EquipmentIndex 368
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Clan Tora Gusoku',
@@ -790,7 +790,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2592, 'Treasure', 'Left', '+1G ARM');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (368, kXXX); --Steady
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (368, 1007); --Steady
 
 --Claws of the Tiger --CardIndex 2593 --EquipmentIndex 369
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Claws of the Tiger',
@@ -800,7 +800,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Crude, but effective.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2593, 'Treasure', 'Right', '+1R STR');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (369, kXXX); --Brutal Strike
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (369, 482); --Brutal Strike
 
 --Cloak of Wards --CardIndex 2594 --EquipmentIndex 370
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Cloak of Wards',
@@ -810,7 +810,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Nothing can penetrate my defense.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2594, 'Treasure', 'Bottom', '+1G ARM');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (370, kXXX); --Immune: Knockdown
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (370, 678); --Immune: Knockdown
 
 --Clockwork Canary --CardIndex 2595 --EquipmentIndex 371
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Clockwork Canary',
@@ -820,7 +820,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Loot', '2.0', '2.0 Core Set', 'Default',
 'Keep your eye on the canary.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2595, 'Loot', 'Bottom', '+1B ARM');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (371, kXXX); --Immune: Poison
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (371, 679); --Immune: Poison
 
 --Clockwork Gatling --CardIndex 2596 --EquipmentIndex 372
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Clockwork Gatling',
@@ -830,8 +830,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Watch where you point that!');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2596, 'Character Treasure' 'Right', '+3B DEX');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (372, kXXX); --Dangerous
-insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (372, 46); --Reckless Fire
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (372, 1098); --Dangerous
+insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (372, 1573); --Reckless Fire
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (372, chXXX); --Pauper Prince
 
 --Clockwork Harness --CardIndex 2597 --EquipmentIndex 373
@@ -842,7 +842,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'When you hear the click, get down.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2597, 'Treasure', 'Left', '+1R ARM');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (373, kXXX); --Deadly Defense
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (373, 533); --Deadly Defense
 
 --Clockwork Swift --CardIndex 2598 --EquipmentIndex 374
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Clockwork Swift',
@@ -852,7 +852,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Loot', '2.0', '2.0 Core Set', 'Default',
 'Keep your eye on the swift.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2598, 'Loot', 'Bottom', '+1B ARM');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (374, kXXX); --Immune: Poison
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (374, 679); --Immune: Poison
 
 --Cocooned Hero --CardIndex 2599 --EquipmentIndex 375
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Cocooned Hero',
@@ -862,7 +862,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2599, 'Character Treasure' 'Right', '+1R WILL');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (375, kXXX); --Lost Hero
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (375, 717); --Lost Hero
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (375, chXXX); --Jorogumo
 
 --Cog Hammer --CardIndex 2600 --EquipmentIndex 376
@@ -873,7 +873,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2600, 'Character Treasure' 'Left', '+2B STR');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (376, kXXX); --Coghammer
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (376, 507); --Coghammer
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (376, chXXX); --Ugluk the Mechanically Inclined
 
 --Confused Ice Glob  --CardIndex 2601 --EquipmentIndex 377
@@ -884,8 +884,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Relic', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2601, 'Character Relic', 'Top', '+1R STR');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (377, kXXX); --Ice
-insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (377, 46); --Block Head
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (377, 668); --Ice
+insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (377, 813); --Block Head
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (377, chXXX); --Elrik the Lich King
 
 --Corpse Hand --CardIndex 2602 --EquipmentIndex 378
@@ -896,8 +896,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Must you bring that thing everywhere?');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2602, 'Treasure', 'Bottom', '+1R WILL');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (378, kXXX); --Bane
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (378, kXXX); --Hex
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (378, 454); --Bane
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (378, 647); --Hex
 
 --Cotton Candy Kitty Cloak --CardIndex 2603 --EquipmentIndex 379
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Cotton Candy Kitty Cloak',
@@ -907,7 +907,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2603, 'Treasure', 'Left', '+1G DEX');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (379, kXXX); --Sturdy
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (379, 1021); --Sturdy
 
 --Coward's Boots --CardIndex 2604 --EquipmentIndex 380
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Cowards Boots',
@@ -917,7 +917,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Loot', '2.0', '2.0 Core Set', 'Default',
 'Run away!');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2604, 'Loot', 'Top', '+2MO');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (380, kXXX); --Immune: Slow
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (380, 680); --Immune: Slow
 
 --Creepy Kyorinrin --CardIndex 2605 --EquipmentIndex 381
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Creepy Kyorinrin',
@@ -936,7 +936,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Away, ye foul-brouthed abominations!');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2606, 'Character Treasure' 'Left', '+1G ARM');
-insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (382, 46); --Banish
+insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (382, 776); --Banish
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (382, chXXX); --Mordred the Accursed
 
 --Crimson Watcher, The --CardIndex 2607 --EquipmentIndex 383
@@ -947,7 +947,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2607, 'Character Treasure' 'Bottom', '+1R WILL');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (383, kXXX); --Grave Visions
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (383, 639); --Grave Visions
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (383, chXXX); --Blood-Eye Tracker
 
 --Crown Of Frost --CardIndex 2608 --EquipmentIndex 384
@@ -958,8 +958,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Your tongue will get stuck if you lick it.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2608, 'Character Treasure' 'Bottom', '+1G DEX');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (384, kXXX); --Ice
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (384, kXXX); --Immune: Ice
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (384, 668); --Ice
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (384, 676); --Immune: Ice
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (384, chXXX); --Elrik the Lich King
 
 --Crude Blunderbuss --CardIndex 2609 --EquipmentIndex 385
@@ -970,7 +970,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Loot', '2.0', '2.0 Core Set', 'Default',
 'It''s bound to hit something...');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2609, 'Loot', 'Left', '+1B STR');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (385, kXXX); --Slow
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (385, 901); --Slow
 
 --Crystalian Tunic --CardIndex 2610 --EquipmentIndex 386
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Crystalian Tunic',
@@ -980,7 +980,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Loot', '2.0', '2.0 Core Set', 'Default',
 'What strange clothes from a far-off land...');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2610, 'Loot', 'Left', '+1B DEX');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (386, kXXX); --Knockdown
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (386, 706); --Knockdown
 
 --Crystal Key --CardIndex 2611 --EquipmentIndex 387
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Crystal Key',
@@ -990,7 +990,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'This should do the trick...');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2611, 'Character Treasure' 'Left', '+1G DEX');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (387, kXXX); --Proficient
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (387, 824); --Proficient
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (387, chXXX); --Crystal Weaver
 
 --Crystal Munition --CardIndex 2612 --EquipmentIndex 388
@@ -1001,7 +1001,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2612, 'Character Treasure' 'Left', '+1G DEX');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (388, kXXX); --Volatile
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (388, 1097); --Volatile
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (388, chXXX); --Gnomish Excavator
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (388, chXXX); --Professor Cackle-Clink
 
@@ -1022,9 +1022,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2614, 'Character Treasure' 'Right', '+1G STR');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (390, kXXX); --Bane
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (390, kXXX); --Cursed
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (390, kXXX); --False Security
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (390, 454); --Bane
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (390, 523); --Cursed
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (390, 577); --False Security
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (390, chXXX); --Onryo
 
 --Cursed Staff  --CardIndex 2615 --EquipmentIndex 391
@@ -1044,8 +1044,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2616, 'Character Treasure' 'Right', '+1G STR');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (392, kXXX); --Cursed
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (392, kXXX); --Malice
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (392, 523); --Cursed
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (392, 720); --Malice
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (392, chXXX); --Onibaba
 
 --Dapper Sword Cane  --CardIndex 2617 --EquipmentIndex 393
@@ -1066,7 +1066,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Relic', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2618, 'Relic', 'Bottom', '');
-insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (394, 46); --The Consul's Wrath
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (397, 511);--Consul's Wrath, The
 
 --Darkwood Bow --CardIndex 2619 --EquipmentIndex 395
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Darkwood Bow',
@@ -1076,7 +1076,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2619, 'Character Treasure' 'Left', '+1G DEX');
-insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (395, 46); --Darkwood Rain
+insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (395, 975); --Darkwood Rain
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (395, chXXX); --Demon Queen Araphel
 
 --Darkwood Staff --CardIndex 2620 --EquipmentIndex 396
@@ -1087,7 +1087,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2620, 'Character Treasure' 'Right', '+1G STR');
-insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (396, 46); --Spin Around Real Fast
+insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (396, 1729); --Spin Around Real Fast
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (396, chXXX); --Demon Queen Araphel
 
 --Dark Dragon --CardIndex 2621 --EquipmentIndex 397
@@ -1098,7 +1098,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Your end approaches, beast.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2621, 'Character Treasure' 'Right', '+1G STR');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (397, kXXX); --Slayer
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (397, 899); --Slayer
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (397, chXXX); --Nightsong the Eternal
 
 --Dawn Break --CardIndex 2622 --EquipmentIndex 398
@@ -1109,7 +1109,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Flee before the light!');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2622, 'Character Treasure' 'Right', '+1G STR');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (398, kXXX); --Holy
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (398, 654); --Holy
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (398, chXXX); --Nightsong the Eternal
 
 --Deadly Dirk --CardIndex 2623 --EquipmentIndex 399
@@ -1120,7 +1120,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Loot', '2.0', '2.0 Core Set', 'Default',
 'Just a little stick.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2623, 'Loot', 'Right', '+1B DEX');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (399, kXXX); --Poison
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (399, 807); --Poison
 
 --Death's Notebook --CardIndex 2624 --EquipmentIndex 400
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Death''s Notebook',
@@ -1130,7 +1130,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2624, 'Character Treasure' 'Top', '+1G WILL');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (400, kXXX); --Know Fate
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (400, 711); --Know Fate
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (400, chXXX); --Shinigami
 
 --Delicate Riding Spear --CardIndex 2625 --EquipmentIndex 401
@@ -1141,7 +1141,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2625, 'Treasure', 'Right', '+1R ARM +1R DEX');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (401, kXXX); --Counterstrike
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (401, 516); --Counterstrike
 
 --Demon's Bane --CardIndex 2626 --EquipmentIndex 402
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Demon''s Bane',
@@ -1151,7 +1151,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2626, 'Character Treasure' 'Bottom', '+1R STR +1R WILL +1R DEX');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (402, kXXX); --Holy
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (402, 654); --Holy
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (402, chXXX); --Demon Queen Araphel
 
 --Devil Island Map --CardIndex 2627 --EquipmentIndex 403
@@ -1162,7 +1162,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Loot', '2.0', '2.0 Core Set', 'Default',
 'Learn Lily''s Secret: Saru Quest: Be within three squares of the Lily token when Lily is rescued in Scenario 4: Rescue Lily or Scenario 5: Devil Child. When this quest is accomplished, equip the Devil Island Map equipment card on the reverse side of this card. It may remain equipped for the entire campaign, unless you choose to discard it.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2627, 'Character Loot', 'Top', '+1R WILL');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (403, kXXX); --I Know A Shortcut!
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (403, 666); --I Know A Shortcut!
 insert into EquipmentAssignments (EquipmentAssignmentIndex, EquipmentIndex, CharacterIndex) VALUES (eaXXX, 403, cXXX); --Saru
 
 --Devil's Eye, The --CardIndex 2628 --EquipmentIndex 404
@@ -1173,7 +1173,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2628, 'Character Treasure' 'Top', '+2B WILL +2B DEX');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (404, kXXX); --Poison
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (404, 807); --Poison
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (404, chXXX); --Bomechan
 
 --Devouring Sphere --CardIndex 2629 --EquipmentIndex 405
@@ -1184,7 +1184,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2629, 'Treasure', 'Right', '+2B ARM');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (405, kXXX); --Predator
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (405, 816); --Predator
 
 --Diamond Helm --CardIndex 2630 --EquipmentIndex 406
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Diamond Helm',
@@ -1212,7 +1212,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Loot', '2.0', '2.0 Core Set', 'Default',
 'Never underestimate a bad penny.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2632, 'Loot', 'Top', '+1B ARM');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (408, kXXX); --Immune: Bane
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (408, 673); --Immune: Bane
 
 --Discordant Gem --CardIndex 2633 --EquipmentIndex 409
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Discordant Gem',
@@ -1222,7 +1222,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2633, 'Character Treasure' 'Top', '+1B STR +1B WILL +1B DEX');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (409, kXXX); --Illusionary Double
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (409, 671); --Illusionary Double
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (409, chXXX); --The Midnight Queen
 
 --Divine Destrier --CardIndex 2634 --EquipmentIndex 410
@@ -1233,7 +1233,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2634, 'Character Treasure' 'Top', '+3MO');
-insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (410, 46); --Breakthrough
+insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (410, 835); --Breakthrough
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (410, chXXX); --Royal Knight
 
 --Divine Vestments --CardIndex 2635 --EquipmentIndex 411
@@ -1244,8 +1244,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'May the Goddess bring you comfort.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2635, 'Treasure', 'Left', '+1G WILL');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (411, kXXX); --Augment
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (411, kXXX); --Heal
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (411, 442); --Augment
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (411, 642); --Heal
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (411, 46); --Soothe
 
 --Dragon Bow --CardIndex 2636 --EquipmentIndex 412
@@ -1256,7 +1256,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Everyone get down!');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2636, 'Character Treasure' 'Right', '+1G DEX');
-insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (412, 46); --Solar Flare
+insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (412, 1709); --Solar Flare
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (412, chXXX); --Starfire
 
 --Dragon Breath Blunderbuss --CardIndex 2637 --EquipmentIndex 413
@@ -1267,9 +1267,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Those gnomes outdid themselves with this one.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2637, 'Treasure', 'Left', '+1R DEX');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (413, kXXX); --Fire
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (413, kXXX); --Immune: Fire
-insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (413, 46); --Eruption
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (413, 588); --Fire
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (413, 674); --Immune: Fire
+insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (413, 2100); --Eruption
 
 --Dragon Horn --CardIndex 2638 --EquipmentIndex 414
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Dragon Horn',
@@ -1279,8 +1279,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2638, 'Character Treasure' 'Top', '+1R STR');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (414, kXXX); --Immune: Status Effects
-insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (414, 46); --Call of the Dragon King
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (414, 681); --Immune: Status Effects
+insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (414, 858); --Call of the Dragon King
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (414, chXXX); --Starfire
 
 --Dragon Jewel, The  --CardIndex 2639 --EquipmentIndex 415
@@ -1291,7 +1291,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Relic', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2639, 'Character Relic', 'Top', '+1R STR');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (415, kXXX); --Burn, Insects!
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (415, 490); --Burn, Insects!
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (415, chXXX); --Starfire
 
 --Dragon Tooth Club --CardIndex 2640 --EquipmentIndex 416
@@ -1302,7 +1302,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Smash! Smash! Smash, little ants.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2640, 'Character Treasure' 'Right', '+2B STR');
-insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (416, 46); --Thwack
+insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (416, 1837); --Thwack
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (416, chXXX); --Rex
 
 --Dragon Tooth Shortbow --CardIndex 2641 --EquipmentIndex 417
@@ -1313,7 +1313,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Loot', '2.0', '2.0 Core Set', 'Default',
 'It is said the spirit of the slain dragon curses every arrow as it leaves the bow.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2641, 'Loot', 'Right', '+1B DEX');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (417, kXXX); --Bane
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (417, 454); --Bane
 
 --Dragonblade Plate --CardIndex 2642 --EquipmentIndex 418
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Dragonblade Plate',
@@ -1323,8 +1323,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Your reign of terror ends now!');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2642, 'Character Treasure' 'Left', '');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (418, kXXX); --Massive Damage
-insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (418, 46); --Kill the Dragon
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (418, 727); --Massive Damage
+insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (418, 1344); --Kill the Dragon
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (418, chXXX); --Hoarfang
 
 --Driving Hat --CardIndex 2643 --EquipmentIndex 419
@@ -1335,7 +1335,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2643, 'Character Treasure' 'Bottom', '+1G WILL');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (419, kXXX); --Sturdy
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (419, 1021); --Sturdy
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (419, chXXX); --Gnomish Excavator
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (419, chXXX); --Professor Cackle-Clink
 
@@ -1347,7 +1347,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Loot', '2.0', '2.0 Core Set', 'Default',
 'Always look your best while raiding.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2644, 'Loot', 'Left', '+1B DEX');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (420, kXXX); --Knockdown
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (420, 706); --Knockdown
 
 --Dungeon Map --CardIndex 2645 --EquipmentIndex 421
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Dungeon Map',
@@ -1393,7 +1393,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Loot', '2.0', '2.0 Core Set', 'Default',
 'Headbutt!');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2649, 'Loot', 'Bottom', '+1ST STR');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (425, kXXX); --Knockdown
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (425, 706); --Knockdown
 
 --Dwarven Horn --CardIndex 2650 --EquipmentIndex 426
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Dwarven Horn',
@@ -1421,7 +1421,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Loot', '2.0', '2.0 Core Set', 'Default',
 'Perfect for any dungeon terrain.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2652, 'Loot', 'Left', '+1B DEX');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (428, kXXX); --Surefoot
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (428, 1023); --Surefoot
 
 --Elvish Bracelet --CardIndex 2653 --EquipmentIndex 429
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Elvish Bracelet',
@@ -1431,7 +1431,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Loot', '2.0', '2.0 Core Set', 'Default',
 'I love charm bracelets!');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2653, 'Loot', 'Bottom', '+1B DEX');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (429, kXXX); --Immune: Fire
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (429, 674); --Immune: Fire
 
 --Elvish Cloak --CardIndex 2654 --EquipmentIndex 430
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Elvish Cloak',
@@ -1459,8 +1459,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Only the most esteemed Ember Mages wear the robes of the tower.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2656, 'Treasure', 'Left', '+1R WILL');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (432, kXXX); --Fire
-insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (432, 46); --Flaming Gaze
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (432, 588); --Fire
+insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (432, 1141); --Flaming Gaze
 
 --Emerald Crystal Shard --CardIndex 2657 --EquipmentIndex 433
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Emerald Crystal Shard',
@@ -1470,8 +1470,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Those gnomes outdid themselves with this one.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2657, 'Treasure', 'Left', '+1G DEX');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (433, kXXX); --Augment
-insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (433, 46); --Princess Power
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (433, 442); --Augment
+insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (433, 1537); --Princess Power
 
 --Empty Jar --CardIndex 2658 --EquipmentIndex 434
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Empty Jar',
@@ -1490,7 +1490,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2659, 'Treasure', 'Right', '+1R STR');
-insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (435, 46); --Karmic Strike
+insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (435, 1343); --Karmic Strike
 
 --Enchanted Shuriken Lock --CardIndex 2660 --EquipmentIndex 436
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Enchanted Shuriken Lock',
@@ -1509,9 +1509,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'You''re kidding me right?');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2661, 'Character Treasure' 'Top', '');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (437, kXXX); --Dangerous
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (437, kXXX); --Immune: Status Effects
-insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (437, 46); --No Touching
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (437, 1098); --Dangerous
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (437, 681); --Immune: Status Effects
+insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (437, 1473); --No Touching
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (437, chXXX); --Captain of the Guard
 
 --Envenomed Blade --CardIndex 2662 --EquipmentIndex 438
@@ -1522,7 +1522,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'One cut. One less foe.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2662, 'Character Treasure' 'Left', '+1G DEX');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (438, kXXX); --Poison
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (438, 807); --Poison
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (438, chXXX); --Jorogumo
 
 --Excess Ammo --CardIndex 2663 --EquipmentIndex 439
@@ -1533,7 +1533,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Relic', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2663, 'Character Relic', 'Top', '+1R DEX');
-insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (439, 46); --Excess Ammo
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (438, 572); --Excess Ammo
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (439, chXXX); --Gnomish Excavator
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (439, chXXX); --Professor Cackle-Clink
 
@@ -1545,8 +1545,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Off with their heads!');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2664, 'Treasure', 'Right', '+1R ARM');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (440, kXXX); --Massive Damage
-insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (440, 46); --Execute
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (440, 727); --Massive Damage
+insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (440, 1081); --Execute
 
 --Exemplar Fullplate --CardIndex 2665 --EquipmentIndex 441
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Exemplar Fullplate',
@@ -1556,7 +1556,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Did he forget to put it on...?');  
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2665, 'Character Treasure' 'Right', '+1R ARM');
-insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (441, abxxx); --Celestial Shielding
+insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (441, 2045); --Celestial Shielding
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (441, chXXX); --The Guth
 
 --Exorcist --CardIndex 2666 --EquipmentIndex 442
@@ -1567,8 +1567,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2666, 'Character Treasure' 'Top', '+1G DEX');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (442, kXXX); --Fire
-insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (442, 46); --Corpsplosion
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (442, 588); --Fire
+insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (442, 918); --Corpsplosion
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (442, chXXX); --Mordred the Accursed
 
 --Extra Large Arrows --CardIndex 2667 --EquipmentIndex 443
@@ -1589,7 +1589,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Loot', '2.0', '2.0 Core Set', 'Default',
 'Look at that resolution.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2668, 'Loot', 'Top', '+1B ARM');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (444, kXXX); --Immune: Hex
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (444, 675); --Immune: Hex
 
 --Faerie Blade --CardIndex 2669 --EquipmentIndex 445
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Faerie Blade',
@@ -1599,8 +1599,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'They fell like leaves to the forest floor...');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2669, 'Treasure', 'Right', '+1R DEX');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (445, kXXX); --Poison
-insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (445, 46); --Dance of Blades
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (445, 807); --Poison
+insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (445, 971); --Dance of Blades
 
 --Fancy Pocket Watch --CardIndex 2670 --EquipmentIndex 446
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Fancy Pocket Watch',
@@ -1647,8 +1647,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Get ready! FIIIIIIIRE BAAAAAALL!');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2674, 'Treasure', 'Right', '+1R WILL');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (450, kXXX); --Fire
-insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (450, 46); --Fireball
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (450, 588); --Fire
+insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (450, 1125); --Fireball
 
 --Fizzy Beverage --CardIndex 2675 --EquipmentIndex 451
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Fizzy Beverage',
@@ -1685,8 +1685,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Relic', '2.0', '2.0 Core Set', 'Default',
 'Bring the marshmallows!');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2678, 'Character Relic', 'Right', '');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (454, kXXX); --Fire
-insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (454, 46); --Flame Cannon
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (454, 588); --Fire
+insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (454, 1137); --Flame Cannon
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (454, chXXX); --Gnomish Excavator
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (454, chXXX); --Professor Cackle-Clink
 
@@ -1698,7 +1698,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Relic', '2.0', '2.0 Core Set', 'Default',
 '');  
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2679, 'Character Relic', 'Top', '+1R STR');
-insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (455, 46); --Flame Weaver 
+insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (455, 1138); --Flame Weaver 
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (455, chXXX); --Lord Vulcanis
 
 --Flaming Crown --CardIndex 2680 --EquipmentIndex 456
@@ -1709,7 +1709,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Relic', '2.0', '2.0 Core Set', 'Default',
 'Imbued with the flames of the Nether Rift, the Flaming Crown is a blessing of the Dark Consul.');  
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2680, 'Relic', 'Bottom', '+1R STR');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (456, kXXX); --The Consul's Wrath 
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (456, 511); --Consul's Wrath , The
 
 --Forbidden Tome --CardIndex 2681 --EquipmentIndex 457
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Forbidden Tome',
@@ -1719,7 +1719,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2681, 'Treasure', 'Bottom', '+1G WILL');
-insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (457, 46); --Forbidden Magic
+insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (457, 1160); --Forbidden Magic
 
 --Foreman's Mine Cart --CardIndex 2682 --EquipmentIndex 458
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Foreman''s Mine Cart',
@@ -1729,7 +1729,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2682, 'Character Treasure' 'Top', '+2B STR');
-insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (458, 46); --Hit It
+insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (458, 1270); --Hit It
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (458, chXXX); --Testudo Tower
 
 --Fraggle Stikkar --CardIndex 2683 --EquipmentIndex 459
@@ -1740,8 +1740,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2683, 'Character Treasure' 'Right', '+1G STR');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (459, kXXX); --Cursed
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (459, kXXX); --Holiday Madness
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (459, 523); --Cursed
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (459, 653); --Holiday Madness
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (459, chXXX); --Krampus
 
 --Freyjan Hairball --CardIndex 2684 --EquipmentIndex 460
@@ -1752,7 +1752,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Loot', '2.0', '2.0 Core Set', 'Default',
 'You have been honored by the Freyjan people.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2684, 'Loot', 'Top', '+1B DEX');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (460, kXXX); --Slow
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (460, 901); --Slow
 
 --Freyjan Skin --CardIndex 2685 --EquipmentIndex 461
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Freyjan Skin',
@@ -1762,7 +1762,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');  --!! unavailable !!
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2685, 'Character Treasure' 'Bottom', '+1R DEX +');  --!! unavailable !!
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (461, kXXX); --Kitty Claws
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (461, 704); --Kitty Claws
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (461, chXXX); --Hoarfang
 
 --Fried Eggs --CardIndex 2686 --EquipmentIndex 462
@@ -1773,8 +1773,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2686, 'Character Treasure' 'Top', '+1R STR +1R WILL +1R DEX');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (462, kXXX); --Cursed
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (462, kXXX); --Mamma Knows
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (462, 523); --Cursed
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (462, 721); --Mamma Knows
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (462, chXXX); --Mother Noctua
 
 --Frost Warden Armor --CardIndex 2687 --EquipmentIndex 463
@@ -1785,7 +1785,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'I stand ready.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2687, 'Character Treasure' 'Left', '+1G ARM');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (463, kXXX); --Steady
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (463, 1007); --Steady
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (463, chXXX); --Ymnaur Wintersson
 
 --Frostfang --CardIndex 2688 --EquipmentIndex 464
@@ -1796,8 +1796,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Relic', '2.0', '2.0 Core Set', 'Default',
 'A cold fury falls on any who touch the blade.');  
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2688, 'Character Relic', 'Top', '+1R STR');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (464, kXXX); --Ice
-insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (464, 46); --Frostfang
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (464, 668); --Ice
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (464, 618);--Frostfang
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (464, chXXX); --Ymnaur Wintersson
 
 --Frozen Falchion --CardIndex 2689 --EquipmentIndex 465
@@ -1808,7 +1808,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Have you ever heard ice shriek as it cracks?');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2689, 'Character Treasure' 'Right', '+2B STR');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (465, kXXX); --Ice
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (465, 668); --Ice
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (465, chXXX); --Ymnaur Wintersson
 
 --Frozen Hammer --CardIndex 2690 --EquipmentIndex 466
@@ -1853,7 +1853,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2693, 'Treasure', 'Top', '+1AC');
-insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (469, 46); --Bob-omb!
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (468, 469); --Bob-omb!
 
 --Fuzzy Handcuffs --CardIndex 2694 --EquipmentIndex 470
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Fuzzy Handcuffs',
@@ -1863,7 +1863,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Relic', '2.0', '2.0 Core Set', 'Default',
 'Oh, you know...');  
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2694, 'Character Relic', 'Left', '');
-insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (470, 46); --Chained To Me
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (468, 497); --Chained To Me
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (470, chXXX); --Demon Queen Araphel
 
 --Gappa Cape Lock --CardIndex 2695 --EquipmentIndex 471
@@ -1902,7 +1902,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2698, 'Character Treasure' 'Bottom', '+1B STR +1B WILL +1B DEX');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (474, kXXX); --Ghost Charge
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (474, 632); --Ghost Charge
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (474, chXXX); --Mordred the Accursed
 
 --Ghostly Hammer --CardIndex 2699 --EquipmentIndex 475
@@ -1913,7 +1913,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2699, 'Character Treasure' 'Left', '+1G STR');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (475, kXXX); --Dragged To The Depths
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (475, 562); --Dragged To The Depths
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (475, chXXX); --Clan Yurei Chunin
 
 --Girdle of Ogre Power --CardIndex 2700 --EquipmentIndex 476
@@ -1924,8 +1924,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2700, 'Character Treasure' 'Right', '+1G STR');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (476, kXXX); --Dangerous
-insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (476, 46); --Mighty Toss
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (476, 1098); --Dangerous
+insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (476, 1424); --Mighty Toss
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (476, chXXX); --Bomechan
 
 --Gladeborn Rapier --CardIndex 2701 --EquipmentIndex 477
@@ -1936,8 +1936,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2701, 'Character Treasure' 'Right', '+1G DEX');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (477, kXXX); --Pounce
-insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (477, 46); --Become The Arrow
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (477, 815); --Pounce
+insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (477, 785); --Become The Arrow
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (477, chXXX); --Mother Noctua
 
 --Gleaming Breastplate --CardIndex 2702 --EquipmentIndex 478
@@ -1957,8 +1957,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Ohhhhh, it''s so sparkly!');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2703, 'Treasure', 'Right', '+1B DEX');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (479, kXXX); --Dangerous
-insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (479, 46); --Sparklesplosion
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (479, 1098); --Dangerous
+insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (479, 1722); --Sparklesplosion
 
 --Glimmerwood Cloak --CardIndex 2704 --EquipmentIndex 480
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Glimmerwood Cloak',
@@ -1968,9 +1968,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2704, 'Treasure', 'Right', '+1G DEX');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (480, kXXX); --Augment
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (480, kXXX); --Stealth
-insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (480, 46); --Glimmering Swirls
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (480, 442); --Augment
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (480, 1010); --Stealth
+insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (480, 1217); --Glimmering Swirls
 
 --Gnomish Goggles --CardIndex 2705 --EquipmentIndex 481
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Gnomish Goggles',
@@ -1980,8 +1980,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Eye protection is essential.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2705, 'Character Treasure' 'Bottom', '+1G ARM');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (481, kXXX); --Augment
-insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (481, 46); --Lookout
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (481, 442); --Augment
+insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (481, 1383); --Lookout
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (481, chXXX); --Gnomish Excavator
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (481, chXXX); --Professor Cackle-Clink
 
@@ -2002,7 +2002,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2707, 'Character Treasure' 'Bottom', '+1B STR +1B WILL +1B DEX');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (483, kXXX); --Blessed Strike
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (483, 464); --Blessed Strike
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (483, chXXX); --Nightsong the Eternal
 
 --Golem Shard Armor --CardIndex 2708 --EquipmentIndex 484
@@ -2013,7 +2013,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Be the boulder.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2708, 'Treasure', 'Left', '+1G ARM');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (484, kXXX); --Resolve
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (484, 850); --Resolve
 
 --Granite Pendant --CardIndex 2709 --EquipmentIndex 485
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Granite Pendant',
@@ -2041,7 +2041,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Prayer Slips', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2711, 'Prayer Slip', 'Bottom', 'This model may discard this Prayer Slip at the start of its activation. If it does, all of its attacks gain Massive Damage.');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (487, 728); --Massive Damage
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (487, 727); --Massive Damage
 
 --Guide My Hand --CardIndex 2712 --EquipmentIndex 488
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Guide My Hand',
@@ -2060,7 +2060,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2713, 'Character Treasure' 'Left', '+1G STR');
-insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (489, 46); --Winds of Change
+insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (489, 2018); --Winds of Change
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (489, chXXX); --Bomechan
 
 --Guttering Candle --CardIndex 2714 --EquipmentIndex 490
@@ -2071,9 +2071,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2714, 'Treasure', 'Top', '+1R WILL');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (490, kXXX); --Augment
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (490, kXXX); --Teleport
-insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (490, 46); --Flicker
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (490, 442); --Augment
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (490, 1029); --Teleport
+insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (490, 1144); --Flicker
 
 --Gyrocopter Hat --CardIndex 2715 --EquipmentIndex 491
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Gyrocopter Hat',
@@ -2083,7 +2083,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2715, ' Treasure', 'Bottom', '+1R ARM +2MO');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (491, kXXX); --Fly
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (491, 596); --Fly
 
 --Hammer Of Smiting --CardIndex 2716 --EquipmentIndex 492
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Hammer Of Smiting',
@@ -2093,7 +2093,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Flat zombies are less threatening.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2716, 'Character Treasure' 'Right', '+1G STR');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (492, kXXX); --Holy
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (492, 655); --Holy
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (492, chXXX); --Cursed Jarl
 
 --Hammer of Vulcanis --CardIndex 2717 --EquipmentIndex 493
@@ -2104,8 +2104,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Relic', '2.0', '2.0 Core Set', 'Default',
 '');  
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2717, 'Character Relic', 'Right', '+1R STR');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (493, kXXX); --Fire
-insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (493, 46); --Fueled by Fire
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (493, 588); --Fire
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (493, 622); --Fueled by Fire
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (493, chXXX); --Lord Vulcanis
 
 --Hammer Pendant --CardIndex 2718 --EquipmentIndex 494
@@ -2125,7 +2125,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '"This is a working person''s tool. Simple, and effective."');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2719, 'Character Treasure' 'Left', '+1G STR');
-insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (495, 46); --The Reaping
+insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (495, 1569); --Reaping, The
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (495, chXXX); --The Thresher
 
 --Hatamoto Coat --CardIndex 2720 --EquipmentIndex 496
@@ -2136,7 +2136,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2720, 'Character Treasure' 'Left', '+1R ARM');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (496, kXXX); --Wisdom
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (496, 1074); --Wisdom
 
 --Hattai Okegawa --CardIndex 2721 --EquipmentIndex 497
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Hattai Okegawa',
@@ -2173,7 +2173,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Relic', '2.0', '2.0 Core Set', 'Default',
 '');  --!! unavailable !!
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2724, 'Character Relic', 'Bottom', '+1R STR');  --!! unavailable !!
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (500, kXXX); --Fire --!! unavailable !!
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (500, 588); --Fire --!! unavailable !!
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (500, chXXX); --Hoarfang
 
 --Heart of the Forge --CardIndex 2725 --EquipmentIndex 501
@@ -2184,8 +2184,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Relic', '2.0', '2.0 Core Set', 'Default',
 ''); 
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2725, 'Character Relic', 'Top', '+2MO'); 
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (501, kXXX); --Fire
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (501, kXXX); --Heart of the Forge
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (501, 588); --Fire
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (501, 644); --Heart of the Forge
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (501, chXXX); --Lord Vulcanis
 
 --Heart-Shaped Locket --CardIndex 2726 --EquipmentIndex 502
@@ -2205,7 +2205,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Never again.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2727, 'Character Treasure' 'Left', '+1R ARM');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (503, kXXX); --Favors of the Goddess
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (503, 578); --Favors of the Goddess
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (503, chXXX); --Mordred the Accursed
 
 --Helmet of Fury --CardIndex 2728 --EquipmentIndex 504
@@ -2216,7 +2216,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2728, 'Treasure', 'Bottom', '+1R STR');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (504, kXXX); --Fury
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (504, 625); --Fury
 
 --Hero's Bane --CardIndex 2729 --EquipmentIndex 505
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Hero''s Bane',
@@ -2226,7 +2226,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Relic', '2.0', '2.0 Core Set', 'Default',
 ''); 
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2729, 'Character Relic', 'Top', '+1R STR'); 
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (505, kXXX); --Hero's Bane
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (505, 645); --Hero's Bane
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (505, chXXX); --Mordred the Accursed
 
 --Hero's Blade --CardIndex 2730 --EquipmentIndex 506
@@ -2237,7 +2237,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'I am not left-handed.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2730, 'Treasure', 'Right', '+1R STR +1AC');
-insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (506, 46); --Spin Attack
+insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (506, 1730); --Spin Attack
 
 --Hidden Snack --CardIndex 2731 --EquipmentIndex 507
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Hidden Snack',
@@ -2258,8 +2258,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2732, 'Treasure', 'Left', '+1R WILL');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (508, kXXX); --Fire
-insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (508, 46); --Flaming Gaze
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (508, 588); --Fire
+insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (508, 1141); --Flaming Gaze
 
 --Holly Berry Mead --CardIndex 2733 --EquipmentIndex 509
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Holly Berry Mead',
@@ -2269,9 +2269,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2733, 'Character Treasure' 'Bottom', '+1G WILL');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (509, kXXX); --Dangerous
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (509, kXXX); --Poison
-insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (509, 46); --Party Tiiiime!
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (509, 1098); --Dangerous
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (509, 807); --Poison
+insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (509, 1498); --Party Tiiiime!
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (509, chXXX); --Krampus
 
 --Horned Helm --CardIndex 2734 --EquipmentIndex 510
@@ -2291,7 +2291,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Never turn your back on a member of the House of Ash...');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2735, 'Treasure', 'Left', '+1G ARM');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (511, kXXX); --Backstabber
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (511, 450); --Backstabber
 
 --House Von Drakk Regalia --CardIndex 2736 --EquipmentIndex 512
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('House Von Drakk Regalia',
@@ -2301,7 +2301,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Strength through blood.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2736, 'Character Treasure' 'Left', '+2B ARM');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (512, kXXX); --Bleed
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (512, 463); --Bleed
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (512, chXXX); --Nightsong the Eternal
 
 --Howling Tapestry --CardIndex 2737 --EquipmentIndex 513
@@ -2312,7 +2312,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'I have never lost my prey.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2737, 'Character Treasure' 'Bottom', '+1R STR');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (513, kXXX); --Predator
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (513, 816); --Predator
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (513, chXXX); --Elrik the Lich King
 
 --Hungering Mask, The --CardIndex 2738 --EquipmentIndex 514
@@ -2323,7 +2323,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Relic', '2.0', '2.0 Core Set', 'Default',
 'It consumes all who wear it.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2738, 'Character Relic', 'Top', '+2B WILL'); 
-insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (514, 46); --The Consuming Winds
+insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (514, 913); --Consuming Winds, The
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (514, chXXX); --Onibaba
 
 --Ice Cage --CardIndex 2739 --EquipmentIndex 515
@@ -2334,8 +2334,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Relic', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2739, 'Character Relic', 'Top', ''); 
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (515, kXXX); --Frozen Prison
-insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (515, 46); --Ice King
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (515, 621); --Frozen Prison
+insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (515, 1289); --Ice King
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (515, chXXX); --Elrik the Lich King
 
 --Ice Shoes --CardIndex 2740 --EquipmentIndex 516
@@ -2358,7 +2358,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'IJIN SMASH!');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2741, 'Character Treasure' 'Left', '+1G STR');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (517, kXXX); --Improved Critical
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (517, 685); --Improved Critical
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (517, chXXX); --Yobuko
 
 --Ika Claw Crawler --CardIndex 2742 --EquipmentIndex 518
@@ -2378,7 +2378,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2743, 'Character Treasure' 'Top', '+1AC');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (519, kXXX); --Leadership
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (519, 713); --Leadership
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (519, chXXX); --Lord Vulcanis
 
 --Ingredient Pouch --CardIndex 2744 --EquipmentIndex 520
@@ -2389,7 +2389,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2744, 'Character Treasure' 'Bottom', '+1 HEART +1 POTION');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (520, kXXX); --Augment
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (520, 442); --Augment
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (520, 46); --!! unavailable !!
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (520, chXXX); --Orcdon Ramsey
 
@@ -2401,7 +2401,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Have you checked under the bed?');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2745, 'Treasure', 'Right', '+1B STR');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (521, kXXX); --Dark Radiance
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (521, 530); --Dark Radiance
 
 --Inscribed Repeater  --CardIndex 2746 --EquipmentIndex 522
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Inscribed Repeater',
@@ -2411,7 +2411,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Relic', '2.0', '2.0 Core Set', 'Default',
 'A gun for a knife fight.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2746, 'Character Relic', 'Left', '+1R DEX');
-insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (522, 46); --BLAM!
+insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (522, 803); --BLAM!
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (522, chXXX); --Pauper Prince
 
 --Iron Kanabo --CardIndex 2747 --EquipmentIndex 523
@@ -2422,7 +2422,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Relic', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2747, 'Character Relic', 'Left', '+1R STR'); 
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (523, kXXX); --Brutal Strike
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (523, 482); --Brutal Strike
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (523, chXXX); --Bomechan
 
 --Iron Necklace --CardIndex 2748 --EquipmentIndex 524
@@ -2451,7 +2451,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Loot', '2.0', '2.0 Core Set', 'Default',
 'Warning: Do not attempt flight.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2750, 'Loot', 'Top', '+2MO');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (526, kXXX); --Immune: Knockdown
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (526, 678); --Immune: Knockdown
 
 --Jade Monkey --CardIndex 2751 --EquipmentIndex 527
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Jade Monkey',
@@ -2461,7 +2461,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2751, 'Character Treasure' 'Bottom', '+1G ARM');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (527, kXXX); --Jealous Monkey
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (527, 696); --Jealous Monkey
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (527, chXXX); --Onibaba
 
 --Jikininki Curse --CardIndex 2752 --EquipmentIndex 528
@@ -2472,8 +2472,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2752, 'Treasure', 'Bottom', '+1R WILL');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (528, kXXX); --Bane
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (528, kXXX); --Hex
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (528, 454); --Bane
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (528, 648); --Hex
 
 --Jotnar Knot --CardIndex 2753 --EquipmentIndex 529
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Jotnar Knot',
@@ -2483,7 +2483,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2753, 'Character Treasure' 'Bottom', '+1G WILL');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (529, kXXX); --Luck
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (529, 718); --Luck
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (529, chXXX); --Ymnaur Wintersson
 
 --Jumbo Shuriken --CardIndex 2754 --EquipmentIndex 530
@@ -2494,7 +2494,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Great, now I need to go pick it up.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2754, 'Character Treasure' 'Right', '+1G STR');
-insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (530, 46); --As Far As I Can Throw It
+insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (530, 756); --As Far As I Can Throw It
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (530, chXXX); --Dark Kitsune
 
 --Jumonji --CardIndex 2755 --EquipmentIndex 531
@@ -2523,9 +2523,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2757, 'Treasure', 'Right', '+1G STR');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (533, kXXX); --Heals X
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (533, kXXX); --Massive Damage
-insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (533, 46); --Serpent's Strike
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (533, 642); --Heals X
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (533, 727); --Massive Damage
+insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (533, 1625); --Serpent's Strike
 
 --Karategi --CardIndex 2758 --EquipmentIndex 534
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Karategi',
@@ -2562,7 +2562,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2761, 'Treasure', 'Bottom', '+1G ARM');
-insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (537, 46); --Commanding Presence
+insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (537, 908); --Commanding Presence
 
 --Keep Me From Harm     --CardIndex 2762 --EquipmentIndex 538
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Keep Me From Harm',
@@ -2581,7 +2581,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Get over here!');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2763, 'Character Treasure' 'Right', '+1G STR');
-insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (539, 46); --Snatch!
+insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (539, 1696); --Snatch!
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (539, chXXX); --Krampus
 
 --Kikko Gane Do Lock --CardIndex 2764 --EquipmentIndex 540
@@ -2601,7 +2601,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'What does the fox say? The fox says nothing, until it is time to pounce.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2765, 'Character Treasure' 'Bottom', '');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (541, kXXX); --Territorial
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (541, 1030); --Territorial
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (541, chXXX); --Clan Kitsune Chunin
 
 --Kitty-Kat Charm --CardIndex 2766 --EquipmentIndex 542
@@ -2621,7 +2621,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Loot', '2.0', '2.0 Core Set', 'Default',
 'Meow?');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2767, 'Loot', 'Left', '+1B DEX');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (543, kXXX); --Surefoot
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (543, 1023); --Surefoot
 
 --Kitty-Kat Cloak Lock --CardIndex 2768 --EquipmentIndex 544
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Kitty-Kat Cloak Lock',
@@ -2631,7 +2631,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Lock Loot', '2.0', '2.0 Core Set', 'Default',
 'Meow?');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2768, 'Lock Loot', 'Left', '+1B DEX');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (544, kXXX); --Surefoot
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (544, 1023); --Surefoot
 
 --Knight's Fullplate --CardIndex 2769 --EquipmentIndex 545
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Knight''s Fullplate',
@@ -2668,7 +2668,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Loot', '2.0', '2.0 Core Set', 'Default',
 'Thanks mom!');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2772, 'Loot', 'Bottom', '+1B WILL');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (548, kXXX); --Immune: Ice
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (548, 676); --Immune: Ice
 
 --Komuso Tengai Lock --CardIndex 2773 --EquipmentIndex 549
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Komuso Tengai Lock',
@@ -2678,7 +2678,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Lock Loot', '2.0', '2.0 Core Set', 'Default',
 'Ego is a cage. But so is this helmet.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2773, 'Lock Loot', 'Left', '+1B WILL');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (549, kXXX); --Immune: Ice
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (549, 676); --Immune: Ice
 
 --Kusari Gusoku Lock --CardIndex 2774 --EquipmentIndex 550
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Kusari Gusoku Lock',
@@ -2697,8 +2697,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2775, 'Character Treasure' 'Left', '+1G WILL');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (551, kXXX); --Cursed
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (551, kXXX); --Mocking Laughter
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (551, 523); --Cursed
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (551, 760); --Mocking Laughter
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (551, chXXX); --Onibaba
 
 --Lemon Peel --CardIndex 2776 --EquipmentIndex 552
@@ -2709,7 +2709,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Loot', '2.0', '2.0 Core Set', 'Default',
 'A sour jolt!');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2776, 'Loot', 'Top', '+1B WILL');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (552, kXXX); --Immune: Poison
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (552, 679); --Immune: Poison
 
 --Lightbreaker --CardIndex 2777 --EquipmentIndex 553
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Lightbreaker',
@@ -2719,8 +2719,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2777, 'Character Treasure' 'Right', '+1G STR');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (553, kXXX); --Augment
-insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (553, 46); --Blind Onslaught
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (553, 442); --Augment
+insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (553, 811); --Blind Onslaught
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (553, chXXX); --The Midnight Queen
 
 --Lightning Caster --CardIndex 2778 --EquipmentIndex 554
@@ -2731,7 +2731,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Hey guys, watch this!');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2778, 'Treasure', 'Right', '+1G WILL');
-insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (554, 46); --Lighting Storm
+insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (554, 1377); --Lighting Storm
 
 --Lightning Prayer Scroll --CardIndex 2779 --EquipmentIndex 555
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Lightning Prayer Scroll',
@@ -2741,7 +2741,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2779, 'Treasure', 'Left', '+1R WILL');
-insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (555, 46); --Lightning Storm
+insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (555, 1377); --Lightning Storm
 
 --Lock of Hair --CardIndex 2780 --EquipmentIndex 556
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Lock of Hair',
@@ -2751,10 +2751,10 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2780, 'Character Treasure' 'Bottom', '+1B WILL +1B ARM');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (556, kXXX); --Augment
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (556, kXXX); --Heal
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (556, kXXX); --Holy
-insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (556, 46); --Lullaby
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (556, 442); --Augment
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (556, 642); --Heal
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (556, 655); --Holy
+insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (556, 1391); --Lullaby
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (556, chXXX); --Onryo
 
 --Lockpicks --CardIndex 2781 --EquipmentIndex 557
@@ -2774,7 +2774,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Loot', '2.0', '2.0 Core Set', 'Default',
 'Retrieve The Lost Treasure: Kiji Quest: In any scenario, while Kiji is on a treasure pile square, trade four loot from the backpack in order to draw a treasure card.<br></br>When this quest is accomplished, equip the Lost Coin equipment card on the reverse side of this card. It may remain equipped for the entire campaign, unless you choose to discard it.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2782, 'Character Loot', 'Top', '+1ST ARM +1R DEX');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (558, kXXX); --The Real Thing
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (558, 842); --Real Thing, The
 insert into EquipmentAssignments (EquipmentAssignmentIndex, EquipmentIndex, CharacterIndex) VALUES (eaXXX, 558, cXXX); --Kiji
 
 --Love and Despair Potion --CardIndex 2783 --EquipmentIndex 559
@@ -2785,8 +2785,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Relic', '2.0', '2.0 Core Set', 'Default',
 '');  
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2783, 'Character Relic', 'Bottom', '+1B ARM'); 
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (559, kXXX); --Heal X
-insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (559, 46); --Drink Their Tears
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (559, 642); --Heal X
+insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (559, 1048); --Drink Their Tears
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (559, chXXX); --Demon Queen Araphel
 
 --Lucky Boulder --CardIndex 2784 --EquipmentIndex 560
@@ -2808,7 +2808,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Loot', '2.0', '2.0 Core Set', 'Default',
 'Beat Up Some Ijin: Momotaro Quest: In any scenario which has Ibaraki-doji, deal the last wound to Ibaraki-doji and destroy it.<br></br>When this quest is accomplished, equip the Lucky Peach equipment card on the reverse side of this card. It may remain equipped for the entire campaign, unless you choose to discard it.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2785, 'Character Loot', 'Top', '+1G STR');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (561, kXXX); --Selfless
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (561, 877); --Selfless
 insert into EquipmentAssignments (EquipmentAssignmentIndex, EquipmentIndex, CharacterIndex) VALUES (eaXXX, 561, cXXX); --Momotaro
 
 --Lucky Striped Pants --CardIndex 2786 --EquipmentIndex 562
@@ -2819,7 +2819,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Lucky!');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2786, 'Treasure', 'Top', '+1R ARM');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (562, kXXX); --Luck
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (562, 718); --Luck
 
 --Lunar Tiara --CardIndex 2787 --EquipmentIndex 563
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Lunar Tiara',
@@ -2838,7 +2838,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'The Lunar elves'' craftsmanship did not die with them.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2788, 'Character Treasure' 'Left', '+1G ARM');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (564, kXXX); --Fury
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (564, 625); --Fury
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (564, chXXX); --Mother Noctua
 
 --Magma Gauntlets --CardIndex 2789 --EquipmentIndex 565
@@ -2849,8 +2849,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Relic', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2789, 'Character Relic', 'Left', '+1R ARM'); 
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (565, kXXX); --Fire
-insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (565, 46); --Bone Burn
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (565, 588); --Fire
+insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (565, 825); --Bone Burn
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (565, chXXX); --Lord Vulcanis
 
 --Make Swift Their Feet     --CardIndex 2790 --EquipmentIndex 566
@@ -2888,7 +2888,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2802, 'Treasure', 'Left', '+1G STR');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (569, kXXX); --Improved Critical
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (569, 685); --Improved Critical
 
 --Manekichan --CardIndex 2803 --EquipmentIndex 570
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Manekichan',
@@ -2898,7 +2898,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'This fortune may cost you more than just your coin...');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2803, 'Character Treasure' 'Right', '');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (570, kXXX); --Lucky Cat
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (570, 719); --Lucky Cat
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (570, chXXX); --Clan Yurei Oni
 
 --Maniacal Mapbook  --CardIndex 2804 --EquipmentIndex 571
@@ -2918,7 +2918,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Its eyes follow me around the room...');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2805, 'Character Treasure' 'Bottom', '+1G WILL');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (572, kXXX); --Glimpse The Future
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (572, 634); --Glimpse The Future
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (572, chXXX); --Jorogumo
 
 --Massive Fists --CardIndex 2806 --EquipmentIndex 573
@@ -2929,7 +2929,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Crude, but effective.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2806, 'Treasure', 'Right', '+1R STR');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (573, kXXX); --Brutal Strike
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (573, 481); --Brutal Strike
 
 --Masterwork Tekko Lock --CardIndex 2807 --EquipmentIndex 574
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Masterwork Tekko Lock',
@@ -2948,9 +2948,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2808, 'Treasure', 'Top', '+1G WILL');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (575, kXXX); --Dangerous
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (575, kXXX); --Hex
-insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (575, 46); --Devil's Hex
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (575, 1098); --Dangerous
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (575, 648); --Hex
+insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (575, 1010); --Devil's Hex
 
 --M' Brother's Hanky --CardIndex 2809 --EquipmentIndex 576
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('M'' Brother''s Hanky',
@@ -2972,7 +2972,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Relic', '2.0', '2.0 Core Set', 'Default',
 'They''re old but they get the job done.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2810, 'Character Relic', 'Left', '');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (577, kXXX); --Oiled With The Blood of Heroes
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (577, 777); --Oiled With The Blood of Heroes
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (577, chXXX); --Gnomish Excavator
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (577, chXXX); --Professor Cackle-Clink
 
@@ -2984,7 +2984,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2811, 'Character Treasure' 'Bottom', '+1G ARM');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (578, kXXX); --Parry
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (578, 793); --Parry
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (578, chXXX); --The Midnight Queen
 
 --Midnight Mail --CardIndex 2812 --EquipmentIndex 579
@@ -2995,9 +2995,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'The power of the Dark Realm calls to me.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2812, 'Character Treasure' 'Left', '+1G ARM');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (579, kXXX); --Bane
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (579, kXXX); --Fire
-insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (579, 46); --Nether Fury
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (579, 454); --Bane
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (579, 588); --Fire
+insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (579, 1462); --Nether Fury
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (579, chXXX); --The Midnight Queen
 
 --Mind Burst Melon --CardIndex 2813 --EquipmentIndex 580
@@ -3008,8 +3008,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2813, 'Treasure', 'Top', '+1G WILL');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (580, kXXX); --Augment
-insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (580, 46); --A Taste For Treasure
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (580, 442); --Augment
+insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (580, 1813); --Taste For Treasure, A
 
 --Mind Maze --CardIndex 2814 --EquipmentIndex 581
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Mind Maze',
@@ -3019,8 +3019,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Which way?');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2814, 'Character Treasure' 'Top', '+1G WILL');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (581, kXXX); --Ice
-insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (581, 46); --Labyrinth
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (581, 668); --Ice
+insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (581, 1354); --Labyrinth
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (581, chXXX); --Cernonos
 
 --Mistmourn Leather --CardIndex 2815 --EquipmentIndex 582
@@ -3031,8 +3031,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Chew on this.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2815, 'Character Treasure' 'Left', '+1G ARM');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (582, kXXX); --Immune: Knockdown
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (582, kXXX); --Immune: Slow
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (582, 678); --Immune: Knockdown
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (582, 680); --Immune: Slow
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (582, chXXX); --Mother Noctua
 
 --Monkey''s Paw, The --CardIndex 2816 --EquipmentIndex 583
@@ -3043,8 +3043,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2816, 'Character Treasure' 'Right', '');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (583, kXXX); --Cursed
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (583, kXXX); --As You Wish
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (583, 523); --Cursed
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (583, 441); --As You Wish
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (583, chXXX); --Onibaba
 
 --Monstrous Maul --CardIndex 2817 --EquipmentIndex 584
@@ -3055,8 +3055,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'No blade will harm me. No armor will stop me.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2817, 'Treasure', 'Right', '+1G ARM');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (584, kXXX); --Bane
-insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (584, 46); --Crunch
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (584, 454); --Bane
+insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (584, 937); --Crunch
 
 --Mushroom Cap --CardIndex 2818 --EquipmentIndex 585
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Mushroom Cap',
@@ -3066,8 +3066,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2818, 'Treasure', 'Bottom', '+1G WILL');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (585, kXXX); --Slow
-insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (585, 46); --Choking Spores
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (585, 901); --Slow
+insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (585, 884); --Choking Spores
 
 --Mysterious Lever --CardIndex 2819 --EquipmentIndex 586
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Mysterious Lever',
@@ -3077,7 +3077,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2819, 'Character Treasure' 'Right', '+1G ARM');
-insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (586, 46); --Give It A Pull
+insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (586, 1213); --Give It A Pull
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (586, chXXX); --Gnomish Excavator
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (586, chXXX); --Professor Cackle-Clink
 
@@ -3089,7 +3089,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Relic', '2.0', '2.0 Core Set', 'Default',
 'Those who go in, don''t come out.');  
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2820, 'Character Relic', 'Bottom', '');  
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (587, kXXX); --Naughty Basket
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (587, 768); --Naughty Basket
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (587, chXXX); --Krampus
 
 --Naughty Switch --CardIndex 2821 --EquipmentIndex 588
@@ -3100,7 +3100,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2821, 'Character Treasure' 'Left', '+1G DEX');
-insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (588, 46); --BEHAVE!
+insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (588, 786); --BEHAVE!
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (588, chXXX); --Krampus
 
 --Neko Hairball --CardIndex 2822 --EquipmentIndex 589
@@ -3111,7 +3111,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Loot', '2.0', '2.0 Core Set', 'Default',
 'You have been honored by the Neko people.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2822, 'Loot', 'Top', '+1B DEX');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (589, kXXX); --Slow
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (589, 901); --Slow
 
 --Nether Crystal --CardIndex 2823 --EquipmentIndex 590
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Nether Crystal',
@@ -3130,7 +3130,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Loot', '2.0', '2.0 Core Set', 'Default',
 'A blade cursed with the flames of the rift.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2824, 'Loot', 'Right', '+1B STR');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (591, kXXX); --Fire
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (591, 588); --Fire
 
 --Nether Portal --CardIndex 2825 --EquipmentIndex 592
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Nether Portal',
@@ -3140,8 +3140,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2825, 'Character Treasure' 'Top', '+1G WILL');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (592, kXXX); --Cursed
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (592, kXXX); --Dark Reflection
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (592, 523); --Cursed
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (592, 531); --Dark Reflection
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (592, chXXX); --The Midnight Queen
 
 --Nether Sword --CardIndex 2826 --EquipmentIndex 593
@@ -3152,7 +3152,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Forged in the deepest pits, the merest scratch can prove fatal.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2826, 'Treasure', 'Right', '+1G DEX');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (593, kXXX); --Poison
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (593, 807); --Poison
 
 --Nethercorn Horn --CardIndex 2827 --EquipmentIndex 594
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Nethercorn Horn',
@@ -3171,7 +3171,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Loot', '2.0', '2.0 Core Set', 'Default',
 'Just a scratch...');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2828, 'Loot', 'Right', '+1B WILL');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (595, kXXX); --Poison
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (595, 807); --Poison
 
 --Nightbringer --CardIndex 2829 --EquipmentIndex 596
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Nightbringer',
@@ -3181,7 +3181,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Relic', '2.0', '2.0 Core Set', 'Default',
 'I shall bring darkness and despair.'); 
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2829, 'Character Relic', 'Top', '+1R STR'); 
-insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (596, 46); --Cleanse The World
+insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (596, 886); --Cleanse The World
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (596, chXXX); --The Destroyer
 
 --Nightmare Steed --CardIndex 2830 --EquipmentIndex 597
@@ -3192,9 +3192,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2830, 'Character Treasure' 'Right', '+2MO');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (597, kXXX); --Charge
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (597, kXXX); --Fire
-insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (597, 46); --Nightmare Charge
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (597, 501); --Charge
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (597, 588); --Fire
+insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (597, 1471); --Nightmare Charge
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (597, chXXX); --Knight of the Tower
 
 --No --CardIndex 2831 --EquipmentIndex 598
@@ -3217,7 +3217,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Loot', '2.0', '2.0 Core Set', 'Default',
 'Eat All The Dumplings!: Adzuki Quest: At the end of Scenario 3: Food Fight or Scenario 4: Rescue Lily, have at least two dumpling tokens on Adzuki''s card.<br></br>When this quest is accomplished, equip the Obaa-San Dumpling equipment card on the reverse side of this card. It may remain equipped for the entire campaign, unless you choose to discard it.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2832, 'Character Loot', 'Top', '+1R STR +1R DEX');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (599, kXXX); --A Dumpling For The Journey
+insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (599, 1052); --Dumpling For The Journey, A
 insert into EquipmentAssignments (EquipmentAssignmentIndex, EquipmentIndex, CharacterIndex) VALUES (eaXXX, 599, cXXX); --Adzuki
 
 --Obi of the Master --CardIndex 2833 --EquipmentIndex 600
@@ -3228,7 +3228,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Relic', '2.0', '2.0 Core Set', 'Default',
 ''); 
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2833, 'Character Relic', 'Bottom', '+2 HEALTH'); 
-insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (600, 46); --Queen of the Ijin
+insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (600, 1551); --Queen of the Ijin
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (600, chXXX); --Bomechan
 
 --Ofuda --CardIndex 2834 --EquipmentIndex 601
@@ -3239,7 +3239,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'I return you to whence you came!');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2834, 'Character Treasure' 'Top', '');
-insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (601, 46); --Banish
+insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (601, 777); --Banish
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (601, chXXX); --Onryo
 
 --Ogre Mace --CardIndex 2835 --EquipmentIndex 602
@@ -3259,7 +3259,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Loot', '2.0', '2.0 Core Set', 'Default',
 'Just let them think I defeated it, alright?');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2836, 'Loot', 'Bottom', '+1ST STR');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (603, kXXX); --Hex
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (603, 648); --Hex
 
 --Old Bucket --CardIndex 2837 --EquipmentIndex 604
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Old Bucket',
@@ -3269,7 +3269,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Loot', '2.0', '2.0 Core Set', 'Default',
 'There''s a hole in the bucket.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2837, 'Loot', 'Bottom', '+1B DEX');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (604, kXXX); --Immune: Fire
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (604, 674); --Immune: Fire
 
 --Old Bucket Lock --CardIndex 2838 --EquipmentIndex 605
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Old Bucket Lock',
@@ -3279,7 +3279,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Lock Loot', '2.0', '2.0 Core Set', 'Default',
 'There''s a hole in the bucket.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2838,' Lock Loot', 'Bottom', '+1B DEX');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (605, kXXX); --Immune: Fire
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (605, 674); --Immune: Fire
 
 --Oni Bracers --CardIndex 2839 --EquipmentIndex 606
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Oni Bracers',
@@ -3301,8 +3301,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2840, 'Character Treasure' 'Top', '+1G DEX');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (607, kXXX); --Dangerous
-insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (607, 46); --Cover Your Shame!
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (607, 1098); --Dangerous
+insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (607, 920); --Cover Your Shame!
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (607, chXXX); --Bomechan
 
 --Ono --CardIndex 2841 --EquipmentIndex 608
@@ -3322,7 +3322,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2842, 'Treasure', 'Bottom', '+1B STR +1B WILL +1B DEX');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (609, kXXX); --Oracle
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (609, 781); --Oracle
 
 --Ord Necklace --CardIndex 2843 --EquipmentIndex 610
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ord Necklace',
@@ -3332,7 +3332,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');  --!! unavailable !!
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2843, 'Character Treasure' 'Bottom', '+1G WILL');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (610, kXXX); --Immune: Knockdown
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (610, 678); --Immune: Knockdown
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (610, chXXX); --Ugg
 
 --Ordinary Brick --CardIndex 2844 --EquipmentIndex 611
@@ -3361,7 +3361,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Lock Loot', '2.0', '2.0 Core Set', 'Default',
 'A cursed blade forged from the claws of a yokai, wreathed in flame.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2846, 'Lock Loot', 'Right', '+1B STR');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (613, kXXX); --Fire
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (613, 588); --Fire
 
 --Outrageous Orange Tango --CardIndex 2847 --EquipmentIndex 614
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Outrageous Orange Tango',
@@ -3371,8 +3371,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2847, 'Treasure', 'Top', '+1G DEX');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (614, kXXX); --Augment
-insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (614, 46); --A Taste For Blood
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (614, 442); --Augment
+insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (614, 1810); --Taste For Blood, A
 
 --Overcharged Engine  --CardIndex 2848 --EquipmentIndex 615
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Overcharged Engine',
@@ -3402,8 +3402,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2850, 'Treasure', 'Top', '+1G WILL');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (617, kXXX); --Augment
-insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (617, 46); --A Taste for Treasure
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (617, 442); --Augment
+insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (617, 1813); --Taste for Treasure, A
 
 --Pegasus Wings --CardIndex 2851 --EquipmentIndex 618
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Pegasus Wings',
@@ -3413,7 +3413,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2851, 'Treasure', 'Bottom', '+1R DEX +2MO');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (618, kXXX); --Fly
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (618, 596); --Fly
 
 --Perchtenfelz --CardIndex 2852 --EquipmentIndex 619
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Perchtenfelz',
@@ -3423,7 +3423,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Relic', '2.0', '2.0 Core Set', 'Default',
 'I''m not attacking first, you attack him first!'); 
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2852, 'Character Relic', 'Left', ''); 
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (619, kXXX); --Spread The Cheer
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (619, 1002); --Spread The Cheer
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (619, chXXX); --Krampus
 
 --Perilous Pages  --CardIndex 2853 --EquipmentIndex 620
@@ -3443,7 +3443,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2854, 'Character Treasure' 'Top', '+1 HEALTH');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (621, kXXX); --Healer
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (621, 643); --Healer
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (621, chXXX); --Starfire
 
 --Pinching Pages  --CardIndex 2855 --EquipmentIndex 622
@@ -3463,7 +3463,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Does this dress make me look blocky?');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2856, 'Treasure', 'Top', '+1G STR');
-insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (623, 46); --Pixel Crush
+insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (623, 1516); --Pixel Crush
 
 --Pocket Crow --CardIndex 2857 --EquipmentIndex 624
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Pocket Crow',
@@ -3473,7 +3473,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Relic', '2.0', '2.0 Core Set', 'Default',
 '"Adorable how it leers at you so."'); 
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2857, 'Character Relic', 'Top', ''); 
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (624, kXXX); --Birds of a Feather
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (624, 459); --Birds of a Feather
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (624, chXXX); --The Thresher
 
 --Poisoned Gem, The --CardIndex 2858 --EquipmentIndex 625
@@ -3484,8 +3484,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Relic', '2.0', '2.0 Core Set', 'Default',
 'Can you feel your body growing weary?'); 
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2858, 'Character Relic', 'Top', '+1R WILL'); 
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (625, kXXX); --Poison
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (625, kXXX); --Tainted Blood
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (625, 807); --Poison
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (625, 1027); --Tainted Blood
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (625, chXXX); --Jorogumo
 
 --Pokey Walking Stick --CardIndex 2859 --EquipmentIndex 626
@@ -3496,8 +3496,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Weren''t expecting that were you!');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2859, 'Character Treasure' 'Left', '+2R WILL');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (626, kXXX); --Immobile
-insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (626, 46); --Paralyzing Poke! 
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (626, 672); --Immobile
+insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (626, 1496); --Paralyzing Poke! 
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (626, chXXX); --Pauper Prince
 
 --Portable Hole --CardIndex 2860 --EquipmentIndex 627
@@ -3508,9 +3508,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2860, 'Treasure', 'Top', '+1R DEX');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (627, kXXX); --Augment
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (627, kXXX); --Teleport
-insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (627, 46); --Through The Hole!
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (627, 442); --Augment
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (627, 1029); --Teleport
+insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (627, 1832); --Through The Hole!
 
 --Pot Plate --CardIndex 2861 --EquipmentIndex 628
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Pot Plate',
@@ -3550,8 +3550,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2864, 'Character Treasure' 'Bottom', '+1R STR +1G ARM');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (631, kXXX); --Cursed
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (631, kXXX); --Self Importance
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (631, 523); --Cursed
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (631, 876); --Self Importance
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (631, chXXX); --Lord Vulcanis
 
 --Prickle Pear 'Splosion --CardIndex 2865 --EquipmentIndex 632
@@ -3562,8 +3562,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2865, 'Treasure', 'Top', '+1G ARM');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (632, kXXX); --Augment
-insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (632, 46); --A Taste For Friendship
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (632, 442); --Augment
+insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (632, 1811); --Taste For Friendship, A
 
 --Priest Vestments --CardIndex 2866 --EquipmentIndex 633
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Priest Vestments',
@@ -3582,8 +3582,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2867, 'Treasure', 'Top', '+1G STR');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (634, kXXX); --Augment
-insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (634, 46); --A Taste For The Fight
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (634, 442); --Augment
+insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (634, 1812); --Taste For The Fight, A
 
 --Radical Sunglasses --CardIndex 2868 --EquipmentIndex 635
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Radical Sunglasses',
@@ -3593,10 +3593,10 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'I make us look good.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2868, 'Character Treasure' 'Bottom', '+1G WILL');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (635, kXXX); --Augment
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (635, kXXX); --Immune: Fire
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (635, kXXX); --Remedy
-insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (635, 46); --Posse
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (635, 442); --Augment
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (635, 674); --Immune: Fire
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (635, 847); --Remedy
+insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (635, 1525); --Posse
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (635, chXXX); --Testudo Tower
 
 --Ragged Red Coat --CardIndex 2869 --EquipmentIndex 636
@@ -3607,7 +3607,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Stay close...');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2869, 'Character Treasure' 'Left', '+1R ARM');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (636, kXXX); --Backstabber
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (636, 451); --Backstabber
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (636, chXXX); --Krampus
 
 --Ravager Standard --CardIndex 2870 --EquipmentIndex 637
@@ -3629,7 +3629,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2871, 'Character Treasure' 'Top', '+1G ARM');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (638, kXXX); --Fly
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (638, 596); --Fly
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (638, chXXX); --Tengu
 
 --Reinforced Shirt --CardIndex 2872 --EquipmentIndex 639
@@ -3649,8 +3649,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '"Stick around"');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2873, 'Character Treasure' 'Left', '+1G DEX');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (640, kXXX); --Augment
-insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (640, 46); --Storm of Arrows
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (640, 442); --Augment
+insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (640, 2101); --Storm of Arrows
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (640, chXXX); --Ugg
 
 --Resurrection Charm --CardIndex 2874 --EquipmentIndex 641
@@ -3661,7 +3661,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2874, 'Treasure', 'Bottom', '+1R WILL');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (641, kXXX); --Resurrection
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (641, 852); --Resurrection
 
 --Riftling Orb    --CardIndex 2875 --EquipmentIndex 642
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Riftling Orb',
@@ -3680,8 +3680,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Relic', '2.0', '2.0 Core Set', 'Default',
 'Between a rod and a cold place.'); 
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2876, 'Character Relic', 'Left', ''); 
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (643, kXXX); --Ice 
-insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (643, 46); --Ice Bolt
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (643, 668); --Ice 
+insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (643, 1288); --Ice Bolt
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (643, chXXX); --Elrike the Lich King
 
 --Ronin No Kusari --CardIndex 2877 --EquipmentIndex 644
@@ -3701,7 +3701,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2878, 'Character Treasure' 'Right', '+1G STR');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (645, kXXX); --Bleed
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (645, 463); --Bleed
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (645, chXXX); --Mother Noctua
 
 --Royal Guard Uniform --CardIndex 2879 --EquipmentIndex 646
@@ -3712,7 +3712,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Duty. Honor. Service.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2879, 'Treasure', 'Left', '+1G ARM');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (646, kXXX); --Selfless
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (646, 877); --Selfless
 
 --Royal Paladin Plate --CardIndex 2880 --EquipmentIndex 647
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Royal Paladin Plate',
@@ -3722,7 +3722,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'If looks could smite.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2880, 'Character Treasure' 'Right', '+1G ARM');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (647, kXXX); --Holy
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (647, 655); --Holy
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (647, chXXX); --The Destroyer
 
 --Ruby Crystal Shard --CardIndex 2881 --EquipmentIndex 648
@@ -3733,8 +3733,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2881, 'Treasure', 'Bottom', '+1G WILL');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (648, kXXX); --Augment
-insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (90, 46); --Princess Power
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (648, 442); --Augment
+insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (90, 1539); --Princess Power
 
 --Rugged Chainmail --CardIndex 2882 --EquipmentIndex 649
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Rugged Chainmail',
@@ -3753,8 +3753,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Blow, wind! Blow!');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2883, 'Character Treasure' 'Top', '');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (650, kXXX); --Ice
-insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (650, 46); --Ice Storm
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (650, 668); --Ice
+insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (650, 1301); --Ice Storm
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (650, chXXX); --Ymnaur Wintersson
 
 --Rusty Gauntlets --CardIndex 2884 --EquipmentIndex 651
@@ -3774,8 +3774,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Relic', '2.0', '2.0 Core Set', 'Default',
 ''); 
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2885, 'Character Relic', 'Top', '+1B STR +1B DEX +1B WILL'); 
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (652, kXXX); --Dangerous 
-insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (652, 46); --Just Coal For You!
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (652, 1098); --Dangerous 
+insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (652, 1336); --Just Coal For You!
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (652, chXXX); --Krampus
 
 --Sapphire Crystal Shard --CardIndex 2886 --EquipmentIndex 653
@@ -3786,8 +3786,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2886, 'Treasure', 'Top', '+1G ARM');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (653, kXXX); --Augment
-insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (653, 46); --Princess Power
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (653, 442); --Augment
+insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (653, 1536); --Princess Power
 
 --Sashimono War Flag --CardIndex 2887 --EquipmentIndex 654
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Sashimono War Flag',
@@ -3797,9 +3797,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2887, 'Character Treasure' 'Bottom', '+1G WILL');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (654, kXXX); --Augment
-insert into KeywordAssignments (EquipmentIndex, KeywrodIndex) VALUES (654, kXXX); --Remedy
-insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (654, 46); --Rallying Cry
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (654, 442); --Augment
+insert into KeywordAssignments (EquipmentIndex, KeywrodIndex) VALUES (654, 847); --Remedy
+insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (654, 1560); --Rallying Cry
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (654, chXXX); --Bomechan
 
 --Saya Lock --CardIndex 2888 --EquipmentIndex 655
@@ -3819,7 +3819,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Don''t underestimate me.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2889, 'Treasure', 'Right', '+1G WILL');
-insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (656, 46); --Force of Will
+insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (656, 1161); --Force of Will
 
 --Scourge of the Consul   --CardIndex 2890 --EquipmentIndex 657
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Scourge of the Consul',
@@ -3829,7 +3829,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Whip it.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2890, 'Character Treasure' 'Right', '+1B +1R STR');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (657, kXXX); --Saboteur
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (657, 862); --Saboteur
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (657, chXXX); --The Destroyer
 
 --Sea Salt Kote Lock --CardIndex 2891 --EquipmentIndex 658
@@ -3858,8 +3858,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2893, 'Treasure', 'Bottom', '+1G ARM');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (660, kXXX); --Knockdown
-insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (660, 46); --The Sentinel Strikes
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (660, 705); --Knockdown
+insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (660, 1622); --Sentinel Strikes, The
 
 --Sentinel Statuette (DI) --CardIndex 2894 --EquipmentIndex 661
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Sentinel Statuette',
@@ -3869,8 +3869,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2894, 'Treasure', 'Bottom', '+1G ARM');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (661, kXXX); --Knockdown
-insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (661, 46); --Obeisance to the Ancients
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (661, 705); --Knockdown
+insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (661, 1478); --Obeisance to the Ancients
 
 --Sentinel Statuette --CardIndex 2895 --EquipmentIndex 662
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Sentinel Statuette',
@@ -3880,8 +3880,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2895, 'Treasure', 'Bottom', '+1G ARM');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (662, kXXX); --Knockdown
-insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (662, 46); --The Sentinel Strikes
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (662, 705); --Knockdown
+insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (662, 1622); --Sentinel Strikes, The
 
 --Serpent Bracelet --CardIndex 2896 --EquipmentIndex 663
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Serpent Bracelet',
@@ -3891,8 +3891,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2896, 'Character Treasure' 'Left', '+1G DEX');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (663, kXXX); --Alone Forever
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (663, kXXX); --Cursed
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (663, 427); --Alone Forever
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (663, 523); --Cursed
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (663, chXXX); --Onibaba
 
 --Shadow Crown --CardIndex 2897 --EquipmentIndex 664
@@ -3903,8 +3903,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Swift and silent as a shadow.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2897, 'Treasure', 'Bottom', '+1R DEX +1AC');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (664, kXXX); --Augment
-insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (664, 46); --Shadow
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (664, 442); --Augment
+insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (664, 1627); --Shadow
 
 --Shard of Everlasting Ice --CardIndex 2898 --EquipmentIndex 665
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Shard of Everlasting Ice',
@@ -3926,7 +3926,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Pretty sure it''s unbreakable.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2899, 'Character Treasure' 'Right', '+1R ARM');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (666, kXXX); --Sturdy
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (666, 1020); --Sturdy
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (666, chXXX); --Testudo Tower
 
 --Shield of Sorrow --CardIndex 2900 --EquipmentIndex 667
@@ -3937,7 +3937,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2900, 'Character Treasure' 'Right', '+1R ARM');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (667, kXXX); --Despair
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (667, 547); --Despair
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (667, chXXX); --Mordred the Accursed
 
 --Shinobi Shozoku --CardIndex 2901 --EquipmentIndex 668
@@ -3958,7 +3958,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2902, 'Character Treasure' 'Left', '+1G DEX');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (669, kXXX); --Feint
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (669, 581); --Feint
 
 --Shojo's Stash --CardIndex 2903 --EquipmentIndex 670
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Shojo''s Stash',
@@ -3968,9 +3968,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2903, 'Treasure', 'Bottom', '+1R DEX');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (670, kXXX); --Augment
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (670, kXXX); --Heal X
-insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (670, 46); --Wine Tasting
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (670, 442); --Augment
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (670, 642); --Heal X
+insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (670, 2020); --Wine Tasting
 
 --Siege Breaker --CardIndex 2904 --EquipmentIndex 671
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Siege Breaker',
@@ -4012,7 +4012,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2907, 'Character Treasure' 'Bottom', '+1R ARM');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (674, kXXX); --Rampage
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (674, 834); --Rampage
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (674, chXXX); --Ibaraki Doji
 
 --Smatter Hauler --CardIndex 2908 --EquipmentIndex 675
@@ -4023,7 +4023,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Let''s see what we caught today.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2908, 'Character Treasure' 'Top', '+1G DEX');
-insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (675, 46); --Haul 'em In
+insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (675, 1250); --Haul 'em In
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (675, chXXX); --Pauper Prince
 
 --Snow Bane --CardIndex 2909 --EquipmentIndex 676
@@ -4034,10 +4034,10 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'The light of the Goddess can melt any frost.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2909, 'Character Treasure' 'Right', '+1G DEX');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (676, kXXX); --Augment
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (676, kXXX); --Immune: Ice
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (676, kXXX); --Remedy
-insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (676, 46); --Melt Away
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (676, 442); --Augment
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (676, 676); --Immune: Ice
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (676, 847); --Remedy
+insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (676, 1419); --Melt Away
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (676, chXXX); --Ymnaur Wintersson
 
 --Sohei Tetsubo --CardIndex 2910 --EquipmentIndex 677
@@ -4048,7 +4048,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2910, 'Character Treasure' 'Left', '+1R STR');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (677, kXXX); --Discipline
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (677, 557); --Discipline
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (677, chXXX); --Clan Sohei Chunin
 
 --Solid Straw Hat --CardIndex 2911 --EquipmentIndex 678
@@ -4081,7 +4081,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Soooo delicious!');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2913, 'Character Treasure' 'Right', '+1G STR');
-insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (680, 46); --Yum-Yum
+insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (680, 2039); --Yum-Yum
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (680, chXXX); --Elrik the Lich King
 
 --Soul Jar --CardIndex 2914 --EquipmentIndex 681
@@ -4101,7 +4101,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2915, 'Treasure', 'Right', '+1G STR +1G WILL +1G DEX');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (682, kXXX); --Soul Echo
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (682, 911); --Soul Echo
 
 --Spawn Breaker --CardIndex 2916 --EquipmentIndex 683
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Spawn Breaker',
@@ -4111,7 +4111,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2916, 'Treasure', 'Top', '+1G STR');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (683, kXXX); --Spawn Kill
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (683, 913); --Spawn Kill
 
 --Special Pokin Fork --CardIndex 2917 --EquipmentIndex 684
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Special Pokin Fork',
@@ -4121,7 +4121,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Relic', '2.0', '2.0 Core Set', 'Default',
 'Poke, poke, pokepokepoke POKE!'); 
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2917, 'Character Relic', 'Right', '+1R STR'); 
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (684, kXXX); --Knockdown
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (684, 708); --Knockdown
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (684, chXXX); --Krampus
 
 --Special Sauce --CardIndex 2918 --EquipmentIndex 685
@@ -4143,9 +4143,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Let''s see how they fight with glitter in their eyes!');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2919, 'Treasure', 'Top', '+1G WILL');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (686, kXXX); --Dangerous
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (686, kXXX); --Hex
-insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (686, 46); --Glitter Bomb
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (686, 1098); --Dangerous
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (686, 647); --Hex
+insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (686, 1218); --Glitter Bomb
 
 --Sphere of Eternal Night --CardIndex 2920 --EquipmentIndex 687
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Sphere of Eternal Night',
@@ -4155,7 +4155,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2920, 'Character Treasure' 'Bottom', '+1G DEX');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (687, kXXX); --Insight
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (687, 688); --Insight
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (687, chXXX); --The Midnight Queen
 
 --Spider Bite --CardIndex 2921 --EquipmentIndex 688
@@ -4166,9 +4166,10 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'A taste of poison...');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2921, 'Treasure', 'Right', '+1G DEX');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (688, kXXX); --Afflict X
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (688, kXXX); --Immobile
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (688, kXXX); --Poison
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (688, 421); --Afflict
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (688, 423); --Afflict X
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (688, 672); --Immobile
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (688, 807); --Poison
 
 --Spidersilk Kimono --CardIndex 2922 --EquipmentIndex 689
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Spidersilk Kimono',
@@ -4178,8 +4179,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Wrapped in spider webs? Fantastic.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2922, 'Character Treasure' 'Top', '+1G ARM');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (689, kXXX); --Immune: Immobile
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (689, kXXX); --Immune: Poison
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (689, 677); --Immune: Immobile
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (689, 679); --Immune: Poison
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (689, chXXX); --Jorogumo
 
 --Spiderweb Corset --CardIndex 2923 --EquipmentIndex 690
@@ -4190,8 +4191,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Stop. Making. Clothes. From. Spiderwebs. It''s weird.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2923, 'Character Treasure' 'Right', '+1G ARM');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (690, kXXX); --Dangerous
-insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (690, 46); --Flies In My Web
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (690, 1098); --Dangerous
+insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (690, 1146); --Flies In My Web
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (690, chXXX); --Jorogumo
 
 --Spiked Wheel --CardIndex 2924 --EquipmentIndex 691
@@ -4222,9 +4223,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'I burn bright and true!');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2926, 'Character Treasure' 'Top', '+1G WILL');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (693, kXXX); --Fire
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (693, kXXX); --Ice
-insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (693, 46); --Soul Lance
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (693, 588); --Fire
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (693, 668); --Ice
+insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (693, 1717); --Soul Lance
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (693, chXXX); --Mordred the Accursed
 
 --Square Shovel --CardIndex 2927 --EquipmentIndex 694
@@ -4235,7 +4236,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Loot', '2.0', '2.0 Core Set', 'Default',
 'Is this supposed to dig?');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2927, 'Loot', 'Top', '+1B STR');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (694, kXXX); --Immune: Bane
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (694, 673); --Immune: Bane
 
 --Squid Ink Potion --CardIndex 2928 --EquipmentIndex 695
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Squid Ink Potion',
@@ -4245,8 +4246,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2928, 'Character Treasure' 'Top', '+1G WILL');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (695, kXXX); --Hex
-insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (695, 46); --Ink Cloud
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (695, 647); --Hex
+insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (695, 1318); --Ink Cloud
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, chXXX); --Clan Ika Chunin
 
 --Stampeding Booty --CardIndex 2929 --EquipmentIndex 696
@@ -4266,7 +4267,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'This place must be cleansed.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2930, 'Character Treasure' 'Left', '+1G ARM');
-insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (697, 46); --Purifying Light
+insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (697, 1550); --Purifying Light
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (697, chXXX); --Nightsong the Eternal
 
 --Stave Of The Lich King --CardIndex 2931 --EquipmentIndex 698
@@ -4277,8 +4278,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Ancient as the Reach.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2931, 'Character Treasure' 'Right', '+2B WILL');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (698, kXXX); --Augment
-insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (698, 46); --Unnatural Tonic
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (698, 442); --Augment
+insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (698, 1890); --Unnatural Tonic
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (698, chXXX); --Elrik the Lich King
 
 --Steel Gauntlets --CardIndex 2932 --EquipmentIndex 699
@@ -4307,7 +4308,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Gnoll hide makes for surprisingly good boots.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2934, 'Character Treasure' 'Left', '+1G STR');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (701, kXXX); --Hunter
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (701, 663); --Hunter
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (701, chXXX); --Jorogumo
 
 --Stinky Sewer Cowl --CardIndex 2935 --EquipmentIndex 702
@@ -4318,7 +4319,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');  --!! unavailable !!
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2935, 'Character Treasure' 'Right', '+1G ARM');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (702, kXXX); --Vile Stench
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (702, 1057); --Vile Stench
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (702, chXXX); --Charmancer
 
 --Stolen Essence --CardIndex 2936 --EquipmentIndex 703
@@ -4338,8 +4339,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2937, 'Character Treasure' 'Bottom', '+1G WILL');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (704, kXXX); --Dangerous
-insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (704, 46); --Inappropriate Comments
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (704, 1098); --Dangerous
+insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (704, 1311); --Inappropriate Comments
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (704, chXXX); --Mother Noctua
 
 --Stompin' Boots --CardIndex 2938 --EquipmentIndex 705
@@ -4374,8 +4375,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Sure as stone.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2940, 'Treasure', 'Left', '+1R ARM +1 HEALTH');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (707, kXXX); --Augment
-insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (707, 46); --Invincible
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (707, 442); --Augment
+insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (707, 1325); --Invincible
 
 --Stoneback's Pickaxe --CardIndex 2941 --EquipmentIndex 708
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Stoneback''s Pickaxe',
@@ -4385,7 +4386,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2941, 'Character Treasure' 'Right', '+1G STR');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (708, kXXX); --Burrow
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (708, 493); --Burrow
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (708, chXXX); --Testudo Tower
 
 --Striped Candy --CardIndex 2942 --EquipmentIndex 709
@@ -4396,8 +4397,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2942, 'Character Treasure' 'Bottom', '+1G DEX');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (709, kXXX); --Massive Damage
-insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (709, 46); --Thrown Candy
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (709, 728); --Massive Damage
+insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (709, 1834); --Thrown Candy
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (709, chXXX); --Krampus
 
 --Stuffed Crow --CardIndex 2943 --EquipmentIndex 710
@@ -4408,8 +4409,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2943, 'Character Treasure' 'Bottom', '+1G WILL');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (710, kXXX); --Bane
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (710, kXXX); --Eat Crow
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (710, 453); --Bane
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (710, 565); --Eat Crow
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (710, chXXX); --The Thresher
 
 --Sturdy Cloak --CardIndex 2944 --EquipmentIndex 711
@@ -4431,7 +4432,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2945, 'Character Treasure' 'Top', '+1B STR +1B ARM');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (712, 523); --Cursed
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (712, 1089); --Delicious
-insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (712, abxxx); --Fetch
+insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (712, 2048); --Fetch
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (712, chXXX); --The Guth
 
 --Sugar Rush Soda --CardIndex 2946 --EquipmentIndex 713
@@ -4451,9 +4452,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2947, 'Treasure', 'Bottom', '+1G DEX');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (714, kXXX); --Augment
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (714, kXXX); --Stealth
-insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (714, 46); --Raven Feathers
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (714, 442); --Augment
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (714, 1010); --Stealth
+insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (714, 1567); --Raven Feathers
 
 --Tankbuster Blunderbuss --CardIndex 2948 --EquipmentIndex 715
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Tankbuster Blunderbuss',
@@ -4463,8 +4464,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'The trick is to get REAL close...');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2948, 'Character Treasure' 'Left', '+1R STR');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (715, kXXX); --Massive Damage
-insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (715, 46); --Tankbuster
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (715, 728); --Massive Damage
+insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (715, 1809); --Tankbuster
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (715, chXXX); --Gnomish Excavator
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (715, chXXX); --Professor Cackle-Clink
 
@@ -4524,8 +4525,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'With added oil.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2954, 'Character Treasure' 'Right', '+1G STR');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (721, kXXX); --Fire
-insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (721, 46); --Flaming Blade
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (721, 588); --Fire
+insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (721, 1140); --Flaming Blade
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (721, chXXX); --Ugg
 
 --Tengu Cap --CardIndex 2955 --EquipmentIndex 722
@@ -4545,9 +4546,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2956, 'Treasure', 'Right', '+1G DEX');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (723, kXXX); --Brutal Strike
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (723, kXXX); --Massive Damage
-insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (723, 46); --Extra Powder
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (723, 482); --Brutal Strike
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (723, 728); --Massive Damage
+insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (723, 1087); --Extra Powder
 
 --Tezuchi Pendant --CardIndex 2957 --EquipmentIndex 724
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Tezuchi Pendant',
@@ -4566,7 +4567,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Relic', '2.0', '2.0 Core Set', 'Default',
 ''); 
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2958, 'Character Relic', 'Top', '+1R STR'); 
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (725, kXXX); --Lifedrain 
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (725, 714); --Lifedrain 
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (725, chXXX); --The Thirsting Blade
 
 --Threshing Flail --CardIndex 2959 --EquipmentIndex 726
@@ -4588,8 +4589,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2960, 'Treasure', 'Top', '+1G DEX');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (727, kXXX); --Augment
-insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (727, 46); --A Taste For Blood
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (727, 442); --Augment
+insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (727, 1810); --Taste For Blood, A
 
 --Torment Knife --CardIndex 2961 --EquipmentIndex 728
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Torment Knife',
@@ -4599,7 +4600,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'This was used to cause great suffering.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2961, 'Character Treasure' 'Right', '+2R STR');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (728, kXXX); --Bane
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (728, 453); --Bane
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (728, chXXX); --Onryo
 
 --Tormented Text --CardIndex 2962 --EquipmentIndex 729
@@ -4628,7 +4629,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2964, 'Character Treasure' 'Right', '+2B ARM');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (731, kXXX); --Sturdy
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (731, 1021); --Sturdy
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (731, chXXX); --Bomechan
 
 --Treasured Toy --CardIndex 2965 --EquipmentIndex 732
@@ -4639,7 +4640,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'I see what she sees.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2965, 'Character Treasure' 'Top', '+2B WILL');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (732, kXXX); --Illumination
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (732, 670); --Illumination
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (732, chXXX); --Onryo
 
 --Truncheon --CardIndex 2966 --EquipmentIndex 733
@@ -4650,7 +4651,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Club ''em good!');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2966, 'Character Treasure' 'Right', '+1G STR');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (733, kXXX); --Knockdown
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (733, 708); --Knockdown
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (733, chXXX); --Pauper Prince
 
 --Trusty Lockpicks --CardIndex 2967 --EquipmentIndex 734
@@ -4661,7 +4662,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2967, 'Treasure', 'Top', '+1G DEX');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (734, kXXX); --Proficient
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (734, 824); --Proficient
 
 --Turtle Shell Mail --CardIndex 2968 --EquipmentIndex 735
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Turtle Shell Mail',
@@ -4671,8 +4672,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'So tough, so slow.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2968, 'Character Treasure' 'Left', '-2MO +1G ARM');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (735, kXXX); --Immune: Knockdown
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (735, kXXX); --Immune: Slow
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (735, 678); --Immune: Knockdown
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (735, 680); --Immune: Slow
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (735, chXXX); --Testudo Tower
 
 --Twilight Reaper --CardIndex 2969 --EquipmentIndex 736
@@ -4683,9 +4684,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Relic', '2.0', '2.0 Core Set', 'Default',
 ''); 
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2969, 'Character Relic', 'Top', '+1R WILL'); 
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (736, kXXX); --Afflict X
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (736, kXXX); --Bane
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (736, kXXX); --Hex
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (736, 423); --Afflict X
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (736, 453); --Bane
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (736, 647); --Hex
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (736, chXXX); --The Midnight Queen
 
 --Uchide No Kozuchi --CardIndex 2970 --EquipmentIndex 737
@@ -4696,7 +4697,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Relic', '2.0', '2.0 Core Set', 'Default',
 ''); 
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2970, 'Character Relic', 'Right', '');  
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (737, kXXX); --Improved Critical
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (737, 685); --Improved Critical
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (737, chXXX); --Bomechan
 
 --Undying Blade, The --CardIndex 2971 --EquipmentIndex 738
@@ -4707,7 +4708,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Relic', '2.0', '2.0 Core Set', 'Default',
 ''); 
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2971, 'Character Relic', 'Top', '+2B STR');  
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (738, kXXX); --Blood Drinker 
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (738, 467); --Blood Drinker 
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (738, chXXX); --Elrik the Lich King
 
 --Undying Blade, The v2 --CardIndex 2972 --EquipmentIndex 739
@@ -4718,7 +4719,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Relic', '2.0', '2.0 Core Set', 'Default',
 ''); 
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2972, 'Character Relic', 'Right', '+2B STR');  
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (739, kXXX); --Blood Drinker 
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (739, 467); --Blood Drinker 
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (739, chXXX); --Elrik the Lich King
 
 --Unknown --CardIndex 2973 --EquipmentIndex 740
@@ -4752,8 +4753,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2975, 'Character Treasure' 'Top', '+2B STR +2B WILL +2B DEX');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (742, kXXX); --Broken Heart
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (742, kXXX); --Cursed
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (742, 478); --Broken Heart
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (742, 523); --Cursed
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (742, chXXX); --The Thresher
 
 --Urchin's Mush --CardIndex 2976 --EquipmentIndex 743
@@ -4764,9 +4765,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'It''s healthy! Seriously.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2976, 'Character Treasure' 'Right', '+1G STR');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (743, kXXX); --Augment
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (743, kXXX); --Heal
-insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (743, 46); --Mushy Mush
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (743, 442); --Augment
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (743, 642); --Heal
+insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (743, 1448); --Mushy Mush
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (743, chXXX); --Pauper Prince
 
 --Vagabond's Cloak --CardIndex 2977 --EquipmentIndex 744
@@ -4777,7 +4778,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Always overlooked--just as I intended.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2977, 'Character Treasure' 'Left', '+1G ARM');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (744, kXXX); --Stealth
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (744, 1010); --Stealth
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (744, chXXX); --Pauper Prince
 
 --Vainglorious --CardIndex 2978 --EquipmentIndex 745
@@ -4788,7 +4789,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Me. Me. Me. Me.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2978, 'Treasure', 'Left', '+2B ARM');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (745, kXXX); --Tribute To Myself
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (745, 1044); --Tribute To Myself
 
 --Venom Vial --CardIndex 2979 --EquipmentIndex 746
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Venom Vial',
@@ -4798,8 +4799,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2979, 'Character Treasure' 'Top', '+1G WILL');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (746, kXXX); --Immune: Bane
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (746, kXXX); --Immune: Poison
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (746, 673); --Immune: Bane
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (746, 679); --Immune: Poison
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (746, chXXX); --Demon Queen Araphel
 
 --Volatile Explosives --CardIndex 2980 --EquipmentIndex 747
@@ -4810,8 +4811,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Don''t worry, I''m an expert.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2980, 'Character Treasure' 'Top', '');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (747, kXXX); --Dangerous
-insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (747, 46); --Esplosion!
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (747, 1098); --Dangerous
+insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (747, 1078); --Esplosion!
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (747, chXXX); --Testudo Tower
 
 --Vulcanite Banded Mail --CardIndex 2981 --EquipmentIndex 748
@@ -4822,7 +4823,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Guaranteed to last a lifetime.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2981, 'Character Treasure' 'Left', '+1R ARM');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (748, kXXX); --Sturdy
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (748, 1020); --Sturdy
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (748, chXXX); --Lord Vulcanis
 
 --Vulcanite Gladius --CardIndex 2982 --EquipmentIndex 749
@@ -4833,9 +4834,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2982, 'Character Treasure' 'Right', '+1G STR');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (749, kXXX); --Afflict X
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (749, kXXX); --Fire
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (749, kXXX); --Knockdown
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (749, 423); --Afflict X
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (749, 588); --Fire
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (749, 708); --Knockdown
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (749, chXXX); --Lord Vulcanis
 
 --Vulcanite Scutum --CardIndex 2983 --EquipmentIndex 750
@@ -4846,8 +4847,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Out of the way!');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2983, 'Character Treasure' 'Right', '+1G ARM');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (750, kXXX); --Dangerous
-insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (750, 46); --Shield Bash
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (750, 1098); --Dangerous
+insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (750, 1643); --Shield Bash
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (750, chXXX); --Lord Vulcanis
 
 --Vulcanite Standard --CardIndex 2984 --EquipmentIndex 751
@@ -4858,8 +4859,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2984, 'Character Treasure' 'Top', '+2B WILL');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (751, kXXX); --Augment
-insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (751, 46); --Rallying Cry
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (751, 442); --Augment
+insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (751, 1561); --Rallying Cry
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (751, chXXX); --Lord Vulcanis
 
 --War Maul --CardIndex 2985 --EquipmentIndex 752
@@ -4870,7 +4871,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'MIGHTY MONKEY SMASH!');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2985, 'Character Treasure' 'Right', '+1G STR');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (752, kXXX); --Improved Critical
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (752, 685); --Improved Critical
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (752, chXXX); --Clan Yamazaru Chunin
 
 --Warrior Mail --CardIndex 2986 --EquipmentIndex 753
@@ -4890,8 +4891,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2987, 'Treasure', 'Top', '+1G ARM');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (754, kXXX); --Augment
-insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (754, 46); --A Taste For Friendship
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (754, 442); --Augment
+insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (754, 1811); --Taste For Friendship, A
 
 --Waystone --CardIndex 2988 --EquipmentIndex 755
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Waystone',
@@ -4901,7 +4902,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'I think he wants it back...');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2988, 'Character Treasure' 'Left', '+1B STR +1B ARM +1B WILL +1B DEX');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (755, kXXX); --Wayfarer
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (755, 1067); --Wayfarer
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (755, chXXX); --Ymnaur Wintersson
 
 --Weathered Great Coat --CardIndex 2989 --EquipmentIndex 756
@@ -4923,7 +4924,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '"Thy doom is wrought! Beware my sheaf!"'); 
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2990, 'Character Treasure' 'Left', '+1G DEX');  
-insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (757, abxxx); --THWAP!
+insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (757, 2063); --THWAP!
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (757, chXXX); --The Thresher
 
 --Whirling Doom, The --CardIndex 2991 --EquipmentIndex 758
@@ -4934,8 +4935,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 ''); 
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2991, 'Character Treasure' 'Right', '+1G DEX +1R DEX'); 
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (758, kXXX); --Hookshot
-insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (758, 46); --Doooom
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (758, 657); --Hookshot
+insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (758, 1032); --Doooom
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (758, chXXX); --Ninja Cola (FK)
 
 --Widowmaker --CardIndex 2992 --EquipmentIndex 759
@@ -4946,7 +4947,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Relic', '2.0', '2.0 Core Set', 'Default',
 ''); 
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2992, 'Character Relic', 'Top', '+1R WILL');  
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (759, kXXX); --The Widow's Secret 
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (759, 1071); --Widow's Secret, The
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (759, chXXX); --Demon Queen Araphel
 
 --Widowmaker v2  --CardIndex 2993 --EquipmentIndex 760
@@ -4957,7 +4958,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Relic', '2.0', '2.0 Core Set', 'Default',
 'The tears shed for those slain taste so delectably sweet.'); 
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2993, 'Character Relic', 'Right', '+1R WILL');  
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (760, kXXX); --The Widow's Secret 
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (760, 1071); --Widow's Secret, The
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (760, chXXX); --Demon Queen Araphel
 
 --Widow's Glass  --CardIndex 2994 --EquipmentIndex 761
@@ -4979,8 +4980,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2995, 'Treasure', 'Bottom', '+1G DEX');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (762, kXXX); --Knockdown
-insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (762, 46); --Windsong
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (762, 708); --Knockdown
+insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (762, 2019); --Windsong
 
 --Winged Crossbow --CardIndex 2996 --EquipmentIndex 763
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Winged Crossbow',
@@ -4990,7 +4991,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Loot', '2.0', '2.0 Core Set', 'Default',
 'Goddess, guide my shot.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2996, 'Loot', 'Right', '+1B WILL');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (763, kXXX); --Immune: Bane
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (763, 673); --Immune: Bane
 
 --Wings of Ash --CardIndex 2997 --EquipmentIndex 764
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Wings of Ash',
@@ -5000,10 +5001,10 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2997, 'Character Treasure' 'Bottom', '+1G DEX');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (764, kXXX); --Augment
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (764, kXXX); --Fly
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (764, kXXX); --Sturdy
-insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (764, 46); --Ash Cloud
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (764, 442); --Augment
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (764, 596); --Fly
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (764, 1020); --Sturdy
+insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (764, 757); --Ash Cloud
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (764, chXXX); --The Destroyer
 
 --Winter Orb --CardIndex 2998 --EquipmentIndex 765
@@ -5025,7 +5026,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2999, 'Character Treasure' 'Top', '+1G WILL');
-insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (766, 46); --Trapped In The Orb
+insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (766, 1860); --Trapped In The Orb
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (766, chXXX); --Krampus
 
 --Witch Hat --CardIndex 3000 --EquipmentIndex 767
@@ -5036,7 +5037,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Loot', '2.0', '2.0 Core Set', 'Default',
 'Which hat? The pointed hat!');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (3000, 'Loot', 'Bottom', '+1ST WILL');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (767, kXXX); --Hex
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (767, 647); --Hex
 
 --Witch Robes --CardIndex 3001 --EquipmentIndex 768
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Witch Robes',
@@ -5082,7 +5083,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Loot', '2.0', '2.0 Core Set', 'Default',
 'Point the wand at what you want to barbeque...');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (3005, 'Loot', 'Right', '+1B WILL');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (772, kXXX); --Fire
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (772, 588); --Fire
 
 --Wizardling Robe --CardIndex 3006 --EquipmentIndex 773
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Wizardling Robe',
@@ -5101,8 +5102,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (3007, 'Character Treasure' 'Right', '+1G STR');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (774, kXXX); --Cursed
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (774, kXXX); --Splinters
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (774, 523); --Cursed
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (774, 999); --Splinters
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (774, chXXX); --Mordred the Accursed
 
 --Wyrm Scale Shield --CardIndex 3008 --EquipmentIndex 775
@@ -5113,9 +5114,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Woosh!');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (3008, 'Character Treasure' 'Left', '+1G ARM');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (775, kXXX); --Dangerous
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (775, kXXX); --Fire
-insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (775, 46); --Fire Storm
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (775, 1098); --Dangerous
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (775, 588); --Fire
+insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (775, 1122); --Fire Storm
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (775, chXXX); --Starfire
 
 --Zukin Helmet Lock --CardIndex 3009 --EquipmentIndex 776
