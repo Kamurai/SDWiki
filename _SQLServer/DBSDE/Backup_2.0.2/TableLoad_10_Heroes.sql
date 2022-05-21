@@ -1,3 +1,4 @@
+--SDE
 --2.0.2 
 --Heroes
 
@@ -71,6 +72,29 @@ insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (315
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (315, 1863); --Treasure Map
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (315, 1, 1); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (315, 2); --Armor
+
+--Deepwater Diver --CardIndex 812	--CharacterIndex 421	--ExploreCharacterIndex 316
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('D''Shaun', 
+'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Deepwater_Diver_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Deepwater_Diver_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Deepwater_Diver.xhtml', 
+'Hero', '2.0', '2.0 Core Set', 'Default', 
+'');
+insert into Characters (CardIndex) VALUES (812);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (421, 1); --Citrine
+insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+VALUES (421, 
+'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Deepwater_Diver_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Deepwater_Diver_2.0_back.png',
+'Either', 'Large', 'Gnome Construct', 5, 3, '2R', '3B 1R', '2B', '1B', 5, 1);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (316, 636); --Grabby
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (316, 676); --Immune: Ice
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (316, abXXX); --Lead With The Beard
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (316, abXXX); --Go.  Go.  Grabby Claws
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (316, abXXX); --Seal The Hatches
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (316, abXXX); --Bubbles!
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (316, 1, 2); --Strength
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (316, 2); --Armor
 
 --Eiko Ando --CardIndex cXXX	--CharacterIndex chXXX	--ExploreCharacterIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
@@ -165,6 +189,39 @@ insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXX
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 1, 1); --Strength
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 4, 6); --Dexterity
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (eXXX, 2); --Armor
+
+--Skuttle Knight --CardIndex cXXX	--CharacterIndex chXXX	--ExploreCharacterIndex eXXX
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+'Skuttle Knight', 
+'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Skuttle_Knight_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Skuttle_Knight_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Skuttle_Knight.xhtml', 
+'Hero', '2.0', '2.0 Core Set', 'Default', 
+'');
+insert into Characters (CardIndex) VALUES (cXXX);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (chXXX, 4); --Sapphire
+insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+VALUES (chXXX, 
+'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Skuttle_Knight_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Skuttle_Knight_2.0_back.png',
+'Masculine', 'Large', 'Gnome', 3, 4, '2R', '2B 1R', '3B', '2B', 5, 1);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, 1023); --Surefoot
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (eXXX, kXXX); --Catastrohpic Failure
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Pinch And Tear
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Vent Steam
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Skuttle
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (eXXX, abXXX); --Crab Juice
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (eXXX, 1, 2); --Strength
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (eXXX, 2); --Armor
+
+
+
+
+
+
+
+
+
 
 
 
