@@ -907,17 +907,17 @@ insert into KeywordAssignments (ShinobiIndex, KeywordIndex) VALUES (38, kXXX); -
 
 --Sun Empire Wandering Samurai --CardIndex 50 --ShinobiIndex 39
 insert into Cards (CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor) 
-VALUES ('Stealth Cola', 
-'http://htkb.info/NAS/Cards/Shinobi/Ronin_Stealth_Cola.png', 
-'http://htkb.info/NAS/Cards/Shinobi/Ronin_Stealth_Cola_back.png', 
-'http://htkb.online/SDWiki/NAS/Cards/Shinobi/Stealth_Cola.xhtml', 
+VALUES ('Sun Empire Wandering Samurai', 
+'http://htkb.info/NAS/Cards/Shinobi/Ronin_Sun_Empire_Wandering_Samurai.png', 
+'http://htkb.info/NAS/Cards/Shinobi/Ronin_Sun_Empire_Wandering_Samurai_back.png', 
+'http://htkb.online/SDWiki/NAS/Cards/Shinobi/Sun_Empire_Wandering_Samurai.xhtml', 
 'Shinobi', 'NAS', 'NAS Core Set', 'Default', 
 'Come at me, boy.  I''ll show you how true warriors fight.'
 );
 insert into Shinobi (CardIndex, StandieFront, StandieBack, Gender, ModelSize, RankType, Movement, Attack, Defense, Koban, Upkeep, AttackRange, RangedDescription) 
 VALUES (50,
-'http://htkb.info/NAS/Cards/Shinobi/Standies/Stealth_Cola.png', 
-'http://htkb.info/NAS/Cards/Shinobi/Standies/Stealth_Cola_back.png', 
+'http://htkb.info/NAS/Cards/Shinobi/Standies/Sun_Empire_Wandering_Samurai.png', 
+'http://htkb.info/NAS/Cards/Shinobi/Standies/Sun_Empire_Wandering_Samurai_back.png', 
 'Masculine', 'Small', 'Ronin', 4, 4, 4, 22, 6, 1, '');
 insert into AffinityAssignments (ShinobiIndex, AffinityIndex) VALUES (39, 1); --Earth
 insert into AffinityAssignments (ShinobiIndex, AffinityIndex) VALUES (39, 2); --Fire
@@ -927,6 +927,73 @@ insert into KeywordAssignments (ShinobiIndex, KeywordIndex) VALUES (39, kXXX); -
 insert into KeywordAssignments (ShinobiIndex, KeywordIndex) VALUES (39, kXXX); --Ronin
 insert into KeywordAssignments (ShinobiIndex, KeywordIndex) VALUES (39, kXXX); --Sensei
 insert into KeywordAssignments (ShinobiIndex, KeywordIndex) VALUES (39, kXXX); --Honor
+
+--Tengu --CardIndex 51 --ShinobiIndex 40
+insert into Cards (CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor) 
+VALUES ('Tengu', 
+'http://htkb.info/NAS/Cards/Shinobi/Ronin_Tengu.png', 
+'http://htkb.info/NAS/Cards/Shinobi/Ronin_Tengu_back.png', 
+'http://htkb.online/SDWiki/NAS/Cards/Shinobi/Tengu.xhtml', 
+'Shinobi', 'NAS', 'NAS Core Set', 'Default', 
+'Do not meddle in the affairs of the tengu, for they are strange and quick to anger.'
+);
+insert into Shinobi (CardIndex, StandieFront, StandieBack, Gender, ModelSize, RankType, Movement, Attack, Defense, Koban, Upkeep, AttackRange, RangedDescription) 
+VALUES (51,
+'http://htkb.info/NAS/Cards/Shinobi/Standies/Tengu.png', 
+'http://htkb.info/NAS/Cards/Shinobi/Standies/Tengu_back.png', 
+'Either', 'Small', 'Ronin', 8, 2, 2, 14, 5, 1, '');
+insert into AffinityAssignments (ShinobiIndex, AffinityIndex) VALUES (40, 0); --Air
+insert into AffinityAssignments (ShinobiIndex, AffinityIndex) VALUES (40, 2); --Fire
+insert into KeywordAssignments (ShinobiIndex, KeywordIndex) VALUES (40, kXXX); --Combined Attack
+insert into KeywordAssignments (ShinobiIndex, KeywordIndex) VALUES (40, kXXX); --Ronin
+insert into KeywordAssignments (ShinobiIndex, KeywordIndex) VALUES (40, kXXX); --Tanchyo's Wings
+insert into KeywordAssignments (ShinobiIndex, KeywordIndex) VALUES (40, kXXX); --Wind Gust
+
+--Yagyu Jubei --CardIndex 52 --ShinobiIndex 41
+insert into Cards (CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor) 
+VALUES ('Yagyu Jubei', 
+'http://htkb.info/NAS/Cards/Shinobi/Ronin_Yagyu_Jubei.png', 
+'http://htkb.info/NAS/Cards/Shinobi/Ronin_Yagyu_Jubei_back.png', 
+'http://htkb.online/SDWiki/NAS/Cards/Shinobi/Yagyu_Jubei.xhtml', 
+'Shinobi', 'NAS', 'NAS Core Set', 'Default', 
+'Wait, wait.  Attack me again.  I simply must learn how you did that.'
+);
+insert into Shinobi (CardIndex, StandieFront, StandieBack, Gender, ModelSize, RankType, Movement, Attack, Defense, Koban, Upkeep, AttackRange, RangedDescription) 
+VALUES (52,
+'http://htkb.info/NAS/Cards/Shinobi/Standies/Yagyu_Jubei.png', 
+'http://htkb.info/NAS/Cards/Shinobi/Standies/Yagyu_Jubei_back.png', 
+'Either', 'Small', 'Ronin', 5, 5, 4, 24, 6, 1, '');
+insert into AffinityAssignments (ShinobiIndex, AffinityIndex) VALUES (41, 0); --Air
+insert into AffinityAssignments (ShinobiIndex, AffinityIndex) VALUES (41, 1); --Earth
+insert into KeywordAssignments (ShinobiIndex, KeywordIndex) VALUES (41, kXXX); --Close Combat Master
+insert into KeywordAssignments (ShinobiIndex, KeywordIndex) VALUES (41, kXXX); --Earth Mastery
+insert into KeywordAssignments (ShinobiIndex, KeywordIndex) VALUES (41, kXXX); --Resilient
+insert into KeywordAssignments (ShinobiIndex, KeywordIndex) VALUES (41, kXXX); --Ronin
+insert into KeywordAssignments (ShinobiIndex, KeywordIndex) VALUES (41, kXXX); --Sensei
+insert into KeywordAssignments (ShinobiIndex, KeywordIndex) VALUES (41, kXXX); --Banzai
+
+--Yokozuna --CardIndex 53 --ShinobiIndex 42
+insert into Cards (CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor) 
+VALUES ('Yokozuna', 
+'http://htkb.info/NAS/Cards/Shinobi/Ronin_Yokozuna.png', 
+'http://htkb.info/NAS/Cards/Shinobi/Ronin_Yokozuna_back.png', 
+'http://htkb.online/SDWiki/NAS/Cards/Shinobi/Yokozuna.xhtml', 
+'Shinobi', 'NAS', 'NAS Core Set', 'Default', 
+'Up you go, boss.  You haven''t had enough, but you''ve had all you can handle.'
+);
+insert into Shinobi (CardIndex, StandieFront, StandieBack, Gender, ModelSize, RankType, Movement, Attack, Defense, Koban, Upkeep, AttackRange, RangedDescription) 
+VALUES (53,
+'http://htkb.info/NAS/Cards/Shinobi/Standies/Yokozuna.png', 
+'http://htkb.info/NAS/Cards/Shinobi/Standies/Yokozuna_back.png', 
+'Either', 'Small', 'Ronin', 4, 5, 4, 25, 6, 1, '');
+insert into AffinityAssignments (ShinobiIndex, AffinityIndex) VALUES (42, 1); --Earth
+insert into AffinityAssignments (ShinobiIndex, AffinityIndex) VALUES (42, 5); --Water
+insert into KeywordAssignments (ShinobiIndex, KeywordIndex) VALUES (42, kXXX); --Focus
+insert into KeywordAssignments (ShinobiIndex, KeywordIndex) VALUES (42, kXXX); --Resilient
+insert into KeywordAssignments (ShinobiIndex, KeywordIndex) VALUES (42, kXXX); --Ronin
+insert into KeywordAssignments (ShinobiIndex, KeywordIndex) VALUES (42, kXXX); --Tidal Wave
+insert into KeywordAssignments (ShinobiIndex, KeywordIndex) VALUES (42, kXXX); --Tough
+insert into KeywordAssignments (ShinobiIndex, KeywordIndex) VALUES (42, kXXX); --1000-Hand Slap
 
 
 
