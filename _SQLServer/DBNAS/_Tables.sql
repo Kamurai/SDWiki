@@ -33,7 +33,7 @@ create table Utilities (UtilityIndex bigint IDENTITY(0,1) PRIMARY KEY, CardIndex
 
 --Assignments
 create table AffinityAssignments (AffinityAssignmentIndex bigint IDENTITY(0,1) PRIMARY KEY, AffinityIndex bigint not null, ShinobiIndex bigint, TeamIndex bigint, MoonCardIndex bigint);
-create table KeywordAssignments (KeywordAssignmentIndex bigint IDENTITY(0,1) PRIMARY KEY, KeywordIndex bigint not null, ShinobiIndex bigint, TeamIndex bigint, MoonCardIndex bigint, UtilityIndex bigint);
+create table KeywordAssignments (KeywordAssignmentIndex bigint IDENTITY(0,1) PRIMARY KEY, KeywordIndex bigint not null, ShinobiIndex bigint, TeamIndex bigint, UtilityIndex bigint);
 create table TeamAssignments (TeamAssignmentIndex bigint IDENTITY(0,1) PRIMARY KEY, TeamIndex bigint not null, ShinobiIndex bigint not null);
 
 
