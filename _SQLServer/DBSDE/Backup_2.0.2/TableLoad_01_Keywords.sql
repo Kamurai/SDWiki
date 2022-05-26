@@ -1,4 +1,9 @@
---2.0.2 Keywords
+--SDE
+--2.0.2
+--Keywords
+
+/*Catastrophic Failure			--Index kXXX*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Catastrophic Failure', 'Should this model suffer more than 1 damage in a round of combat, Catastrophic Failure automatically triggers Vent Steam.');
+
 
 /*Heart Attack					--Index kXXX*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Heart Attack', 'When making an offense roll, a model with Heart Attack counts any hearts rolled as two hearts.');
 
