@@ -61,7 +61,7 @@
 /*Bone Collector						--Index 472*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Explore', 'Bone Collector', 'A model with Bone Collector may use hearts it rolls during successful offensive actions on Pets as well as Heroes.');
 /*Boo Booty								--Index 473*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Boo Booty', 'Boo Booty cannot be spawned, instead they enter play when their treasure card is drawn.');
 /*Born Lucky							--Index 474*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Explore', 'Born Lucky', 'A model with Born Lucky may reroll one heart when it rolls dice.');
-/*Bouncing Betty						--Index 475*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Bouncing Betty', '');
+/*Bouncing Betty						--Index 475*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Explore', 'Bouncing Betty', 'A model with Bouncing Betty may enter squares occupied by other models (and other models may enter squares containing a model with Bouncing Betty).  As soon as a model with Bouncing Betty shares a square with an enemy model, destroy it and trigger Volatile.  When a model with Bouncing Betty activates, roll 1R and move it a number of squares equal to the number of stars rolled towards the closest Hero.  If there are ever 12 models with Bouncing Betty in play, immediately destroy all of them (this triggers Volatile).');
 /*Bound									--Index 476*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Bound', 'When a monster with Bound is destroyed, a SUPER on the same tile may instead choose to suffer one wound and prevent the monster from being destroyed.');
 /*Bound									--Index 477*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Explore', 'Bound', 'When a monster with Bound is destroyed, a SUPER on the same tile may instead choose to suffer one damage and prevent the monster from being destroyed; remove all wound tokens from the monster with Bound.');
 /*Broken Heart							--Index 478*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Explore', 'Broken Heart', 'When a model with Broken Heart rolls hearts during a successful attack, it may not use them to heal friendly models. Instead, it must choose one friendly model to suffer a wound for each heart rolled.');
@@ -723,7 +723,7 @@
 
 /*Knockdown								--Index 1096*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Arcade', 'Knockdown', 'A model suffering Knockdown may not move or perform any other action until it spends one action point or all of its movement points to remove the Knockdown token.(Arcade: A monster suffering Knockdown may not perform commands until the next Move command. Instead of moving it must remove the Knockdown token.)');
 
-/*Volatile								--Index 1097*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Arcade', 'Volatile', 'When a model with Volatile is destroyed, before removing the model, resolve the following action: 0AC 0SW, Wave 1, +2ST STR');
+/*Volatile								--Index 1097*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Explore', 'Volatile', 'When a model with Volatile is destroyed, before removing the model, resolve the following action: 0AC 0SW, Wave 1, +2ST STR');
 
 /*Dangerous								--Index 1098*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Arcade', 'Dangerous', '');
 
@@ -734,5 +734,3 @@
 /*Lava									--Index 1103*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Explore', 'Lava', 'A model which enters one or more Lava squares suffers FIRE at the end of the current activation.');
 /*Spawn Location						--Index 1104*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Explore', 'Spawn Location', 'Spawning points are placed in spawn location squares.');
 /*Treasure Pile							--Index 1105*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Explore', 'Treasure Pile', 'If there are one or more Heroes on a Treasure Pile Square during the Hero Power-Up phase, the party may trade four loot cards from the Backpack for a treasure instead of the usual six loot cards.');
-
-

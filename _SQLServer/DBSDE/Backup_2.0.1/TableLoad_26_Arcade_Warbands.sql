@@ -2379,6 +2379,7 @@ VALUES (304, 0, 'Grim Oculus', 'Construct', 'Elite', 0, 1, 1, 404);  --!! unavai
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (821, 1010); --Steady
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (821, 576); --Eye Is Open, The
 
+--Needs to be stubbed, not removed as it is a Creep: if not in Creeps, this can be fixed here.
 --Kabomb 	--CardIndex 2468	--CharacterIndex 1371	--ArcadeCharacterIndex 305
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Kabomb',
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Scrap_Tower/Card_Arcade_Warband_Scrap_Tower_Kabomb_2.0.png', 

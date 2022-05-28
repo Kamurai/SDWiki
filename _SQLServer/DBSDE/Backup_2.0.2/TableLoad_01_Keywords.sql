@@ -18,6 +18,10 @@
 /*Smuggler						--Index kXXX*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Smuggler', 'This allows the hero draw three LOOT and one TREASURE card at the start of the game. If this model is removed from play, you can choose to discard the cards in place of using a princess coin. If you haven''t discarded these cards, you may choose to draw and equip any of them when the Boss is spawned.');
 
 
+/*Bouncing Betty						--Index kXXX*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Arcade', 'Bouncing Betty', 'A model with Bouncing Betty may enter squares occupied by other models (and other models may enter squares containing a model with Bouncing Betty).  As soon as a model with Bouncing Betty shares a square with an enemy model, destroy it and trigger Volatile.  When a model with Bouncing Betty receives a Move command, roll 1R and move it a number of squares equal to the number of stars rolled towards the closest Hero.  If there are ever 12 models with Bouncing Betty in play, immediately destroy all of them (this triggers Volatile).');
+
+/*Volatile								--Index kXXX*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Arcade', 'Volatile', 'When a model with Volatile is destroyed, before removing the model, resolve the following action: 0AC Wave 4, STR 4ST');
+
 
 
 
