@@ -200,7 +200,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http:/htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Clan_Sohei_Chunin_2.0_back.png', 
 'http:/htkb.online/SDWiki/SDE/2.0/Cards/Arcade/MiniBosses/Clan_Sohei_Chunin.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Default', 
-''); --!! unavailable !!
+'Sohei Chunin have faced horrors that would render lesser warriors insane.  But it is not their place to simply face such horrors, but to defeat and banish them back to the Dark Realm.  It is said that the greatest warriors of the clan, do not banish the minions of the Dark Consul, but unmake them entirely.  Ending their threat to Crystalia permanently.');
 insert into Characters (CardIndex) VALUES (1295);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
 VALUES (1198, 373, -1);

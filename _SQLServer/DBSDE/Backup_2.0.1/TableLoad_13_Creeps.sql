@@ -180,7 +180,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/2.0/Cards/Creeps/Card_Creep_Kabomb_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Creeps/Kabomb.xhtml', 
 'Creep', '2.0', '2.0 Core Set', 'Default', 
-'');--!! unavailable !!
+'');
 insert into Characters (CardIndex) VALUES (991);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (899, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 

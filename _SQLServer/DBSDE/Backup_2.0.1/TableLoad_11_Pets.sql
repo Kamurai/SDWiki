@@ -181,7 +181,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Ice_Hard_Buttinski_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Pets/Ice_Hard_Buttinski.xhtml', 
 'Pet', '2.0', '2.0 Core Set', 'Default', 
-''); --!! unavailable !!
+'Buttinski knew The Goats Gruff, but they weren''t gruff enough for Buttinski.  Buttinski is hard like ice and colder than the Frostbytes themselves.  Buttinski needs a hug.  Right now.');
 insert into Characters (CardIndex) VALUES (939);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (847, 4); --Sapphire
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
@@ -317,7 +317,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Lord_Turlington_Icemon_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Pets/Lord_Turlington_Icemon.xhtml', 
 'Pet', '2.0', '2.0 Core Set', 'Default', 
-'');--!! unavailable !!
+'Two households, both alike in diginity<br>(In fair Crystalia, where we lay our scene),<br>From ancient grudge break to new mutiny.<br>From forth the fatal elements of fire and ice.<br>A pair of star-crossed pets love their life;<br>For never was a story of more fun<br>Than this Lord and Lady Turlington.');--!! unavailable !!
 insert into Characters (CardIndex) VALUES (945);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (853, 4); --Sapphire
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
@@ -383,7 +383,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Mighty_Kowalski_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Pets/Mighty_Kowalski.xhtml', 
 'Pet', '2.0', '2.0 Core Set', 'Default', 
-'');--!! unavailable !!
+'All the penguin chicks look up to the legendary Rinny-Prin-Pren.  Some even strive to match his accomplishments.  A difficult thing for a penguin.  But despite all odds Mighty Kowalski is on the Hero''s path.  Don''t you dare call him a "pet".  He''s an "Apprentice Hero".');
 insert into Characters (CardIndex) VALUES (948);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (856, 4); --Sapphire
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
@@ -866,7 +866,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Poe_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Pets/Poe.xhtml', 
 'Pet', '2.0', '2.0 Core Set', 'Default', 
-'');--!! unavailable !!
+'Poe is sitting.  Still they''re sitting.  Still sitting.  Sitting.  Sitting.  Sitting still.  Okay.  Very still now.  Yes.  There''s som-nope.  Just a shadow.  Still sitting.  Oh.  Inn that shadow, floats my soul.  Clever Poe.');
 insert into Characters (CardIndex) VALUES (970);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (878, 4); --Sapphire
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
@@ -888,7 +888,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Puddin_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Pets/Puddin.xhtml', 
 'Pet', '2.0', '2.0 Core Set', 'Default', 
-'');--!! unavailable !!
+'The cat has no name.  The cat just loves to eat pudding.  The cat thinks you have pudding.  The cat doesn''t care what you say.  The cat wants the pudding.  Give the cat the pudding.  Oh.  That had to hurt.');
 insert into Characters (CardIndex) VALUES (971);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (879, 4); --Sapphire
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
@@ -974,7 +974,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Sergeant_of_Winterwatch_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Pets/Sergeant_of_Winterwatch.xhtml', 
 'Pet', '2.0', '2.0 Core Set', 'Default', 
-'');--!! unavailable !!
+'Sergeant here.  Some bad gnoll bites you have there.  Don''t worry, soldier.  I''ll have you fixed up right proper and back to civilization before nightfall.  Leave it to me.  Woof.');
 insert into Characters (CardIndex) VALUES (975);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (883, 4); --Sapphire
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
@@ -999,7 +999,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Shmellow_Powderpuff_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Pets/Shmellow_Powderpuff.xhtml', 
 'Pet', '2.0', '2.0 Core Set', 'Default', 
-'');--!! unavailable !!
+'Shmellow may look soft, but she''s as clever as they come.  Blending into the powdery snow she knows the hidden roots through the Frostbyte as well as any Skathi and her keen eyes are ever wary for traps.');
 insert into Characters (CardIndex) VALUES (976);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (884, 4); --Sapphire
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 

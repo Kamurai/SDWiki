@@ -639,7 +639,6 @@ insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (290
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (290, 1, 2); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (290, 2); --Armor
 
-
 --Byakko --CardIndex 787	--CharacterIndex 396	--ExploreCharacterIndex 291
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Byakko', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Byakko_2.0.png', 
@@ -663,14 +662,13 @@ insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (291
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (291, 4, 2); --Dex
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (291, 2); --Armor
 
-
 --Candy, Lady of the Heart --CardIndex 788	--CharacterIndex 397	--ExploreCharacterIndex 292
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Candy, Lady of the Heart', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Candy_Lady_of_the_Heart_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Candy_Lady_of_the_Heart_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Candy_Lady_of_the_Heart.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
-''); --!! unavailable !!
+'Candy has sought the tuttleage of the renownded healer and all-around sweetheart Princess Ruby.  Under Ruby''s expert guidance, Candy is learning the art of taking, breaking, and healing hearts.');
 insert into Characters (CardIndex) VALUES (788);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (397, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
@@ -691,7 +689,6 @@ insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (292
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (292, 1891); --Unrequited Love Potion
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (292, 3, 4); --Will
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (292, 2); --Armor
-
 
 --Candy, Mistress of Darkness --CardIndex 789	--CharacterIndex 398	--ExploreCharacterIndex 293
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Candy, Mistress of Darkness', 
@@ -716,7 +713,6 @@ insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (293
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (293, 3, 4); --Will
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (293, 2); --Armor
 
-
 --Captain of the Guard --CardIndex 790	--CharacterIndex 399	--ExploreCharacterIndex 294
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Captain of the Guard', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Captain_of_the Guard_2.0.png', 
@@ -739,7 +735,6 @@ insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (294
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (294, 1104); --Field Dressing
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (294, 1, 1); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (294, 2); --Armor
-
 
 --Casanova Cola --CardIndex 791	--CharacterIndex 400	--ExploreCharacterIndex 295
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Casanova Cola', 
@@ -765,7 +760,6 @@ insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (295
 insert into AbilityAssingments (ExploreCharacterIndex, AbilityIndex) VALUES (295, 1600); --Rosewater
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (295, 4, 2); --Dex
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (295, 2); --Armor
-
 
 --Cat Burglar --CardIndex 792	--CharacterIndex 401	--ExploreCharacterIndex 296
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Cat Burglar', 
@@ -2159,7 +2153,6 @@ insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (349
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (349, 1, 2); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (349, 2); --Armor
 
-
 --Kringle --CardIndex 846	--CharacterIndex 754	--ExploreCharacterIndex 350
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Kringle', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Kringle_2.0.png', 
@@ -2186,14 +2179,13 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (350, 3, 5); --Will
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (350, 2); --Armor
 
-
 --Lahkpa --CardIndex 847	--CharacterIndex 755	--ExploreCharacterIndex 351
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Lahkpa', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Lahkpa_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Lahkpa_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Lahkpa.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
-''); --!! unavailable !!
+'Lahkpa is a class of spirit that can be conjured to assist a band of heroes to find their way through treacherous terrain and magically hidden entrances to dungeons hidden by the Dark Consul.  Just be sure you don''t short Lahkpa on your agreed share of the loot, it lead you in, but it doesn''t have to lead you out.');
 insert into Characters (CardIndex) VALUES (847);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (755, 4); --Sapphire
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
@@ -2214,7 +2206,6 @@ insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (351
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (351, 1446); --The Mountain's Blessings
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (351, 3, 3); --Will
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (351, 2); --Armor
-
 
 --Leopold Magnus --CardIndex 848	--CharacterIndex 756	--ExploreCharacterIndex 352
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Leopold Magnus', 
@@ -4331,7 +4322,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Bladedancer_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Bladedancer.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
-''); --!! unavailable !!
+'The Lunar Elf Bladedancer schools are long forgotten memories.  Combining swordsmanship with grace and fluidity, they elevated their craft to an art.  Over the centuries the Dark Prince Monach Tvar has ruthlessly eradicated the last vestiges of this proud martial heritage.  Now the few remaining Bladedancers wander Crystalia seeking the rare, gifted apprentice who can carry on their skills.');
 insert into Characters (CardIndex) VALUES (931);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (839, 2); --Emerald
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
@@ -4350,7 +4341,6 @@ insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (435
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (435, abxxx); --Tears of the Moon
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (435, 1, 2); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (435, 2); --Armor
-
 
 --Dazzled --CardIndex 932	--CharacterIndex 840	--ExploreCharacterIndex 436
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Dazzled', 
@@ -4378,14 +4368,13 @@ insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (436
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (436, 3, 8); --Will
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (436, 2); --Armor
 
-
 --Outcast Vampyr --CardIndex 933	--CharacterIndex 841	--ExploreCharacterIndex 437
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Outcast Vampyr', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Outcast_Vampyr_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Outcast_Vampyr_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Outcast_Vampyr.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
-''); --!! unavailable !!
+'Baron Von Drakk is not a fan of other vampires.  In order to remain in his good graces they must show total obedience to his whims.  While such deference can reap great rewards, more headstrong vampires seek alternate paths to achieve the glory they so rightfully deserve.  A small few even attempt to tread the Hero''s path.  They are rarely welcome warmly.  Thus the Guild du Vampyr was formed in an effort at rebranding.  It has found surprising success with the more shadowy heoric elements.  They''re even considering frachising.');
 insert into Characters (CardIndex) VALUES (933);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (841, 0); --Amethyst
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
@@ -4403,7 +4392,6 @@ insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (437
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (437, 3, 3); --Will
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (437, 4, 2); --Dex
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (437, 2); --Armor
-
 
 --Royal Academic --CardIndex 934	--CharacterIndex 842	--ExploreCharacterIndex 438
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Royal Academic', 

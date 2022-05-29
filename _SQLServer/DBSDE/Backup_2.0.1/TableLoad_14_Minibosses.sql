@@ -261,7 +261,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http:/htkb.info/SDE/2.0/Cards/Minibosses/Card_Miniboss_Clan_Sohei_Chunin_2.0_back.png', 
 'http:/htkb.online/SDWiki/SDE/2.0/Cards/Minibosses/Clan_Sohei_Chunin.xhtml', 
 'Miniboss', '2.0', '2.0 Core Set', 'Explore',
-'');
+'Sohei Chunin have faced horrors that would render lesser warriors insane.  But it is not their place to simply face such horrors, but to defeat and banish them back to the Dark Realm.  It is said that the greatest warriors of the clan, do not banish the minions of the Dark Consul, but unmake them entirely.  Ending their threat to Crystalia permanently.');
 insert into Characters (CardIndex) VALUES (1012);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (920, 4); --Sapphire
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
@@ -286,7 +286,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http:/htkb.info/SDE/2.0/Cards/Minibosses/Card_Miniboss_Clan_Sohei_Oni_2.0_back.png', 
 'http:/htkb.online/SDWiki/SDE/2.0/Cards/Minibosses/Clan_Sohei_Oni.xhtml', 
 'Miniboss', '2.0', '2.0 Core Set', 'Explore',
-''); --!! unavailable !!
+'The Shi are a species as ancient as Crystalia itself.  Legends say that Ameratsu''s first steps upon Crystalia were taken with the loyal Shi at her side.  These luminous creatures'' souls cannot be touched by darkness.  They are a joyful and playful when among children of light, as they are fierce and terrifying to creatures who dwell in darkness.');
 insert into Characters (CardIndex) VALUES (1013);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (921, 4); --Sapphire
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 

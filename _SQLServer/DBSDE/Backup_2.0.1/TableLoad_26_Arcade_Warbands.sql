@@ -323,7 +323,6 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (667, 1367
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex);
 VALUES (210, 1, 'Kitsune Yajiri', 'Bonded Kitsune', 'Minion', 6, 1, 0, 253);
 
-
 --Clan Sohei
 --Sohei Madoushi	--CardIndex 1374	--CharacterIndex 1277	--ArcadeCharacterIndex 211
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Sohei Madoushi',
@@ -331,7 +330,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Sohei/Card_Arcade_Warband_Clan_Sohei_Madoushi_2.0_back.png', 
 'http:/htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Clan_Sohei/Sohei_Madoushi.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Default', 
-''); --!! unavailable !!
+'The Sohei Madoushi have been granted visions of the realms across the ocean, and witnessed the taint of the Dark Consul upon those lands.  Fearing that Kagejima will become overrun, they have adopted a zero tolerance policy in regards to "Heroes" from other realms.');
 insert into Characters (CardIndex) VALUES (1374);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
 VALUES (1277, 124, 134);
@@ -350,7 +349,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Sohei/Card_Arcade_Warband_Clan_Sohei_Blades_of_the_Sohei_2.0_back.png', 
 'http:/htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Clan_Sohei/Blades_of_the_Sohei.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Default', 
-''); --!! unavailable !!
+'Working in perfect harmony, Blades of the Sohei turn back the darkness and return the land to Ameratsu''s grace.');
 insert into Characters (CardIndex) VALUES (1375);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
 VALUES (1278, 124, 134);
@@ -372,7 +371,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Kitsune/Card_Arcade_Warband_Clan_Kitsune_Sohei Yajiri_2.0_back.png', 
 'http:/htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Clan_Kitsune/Sohei Yajiri.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Default', 
-''); --!! unavailable !!
+'Sohei Yajiri are less experienced kohai who have only begun their journey along the ascetic paths of the Ikko, suporting the clan with disciplined bow fire.');
 insert into Characters (CardIndex) VALUES (1376);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
 VALUES (1279, 124, 134);
@@ -382,7 +381,6 @@ insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, 
 VALUES (213, 0, 'Sohei Yajiri', 'Sohei', 'Elite', 6, 2, 1, 257);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (672, 556); --Discipline
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (672, 755); --Arrows For Our Guests
-
 
 --Clan Spirit Shrine
 --Elemental Shrine	--CardIndex 1377	--CharacterIndex 1280	--ArcadeCharacterIndex 214
@@ -2000,7 +1998,7 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1351, 3)
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex);
 VALUES (285, 0, 'Loot_Stash', 'Spawning Point', '', 0, 3, 2, 378);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (795, 681); --Immune: Status Effects
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (795, 716); --Loot Penata
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (795, 716); --Loot Pinata
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (795, 961); --Spawning Pool
 
 --Powder Lad 	--CardIndex 1449	--CharacterIndex 1352	--ArcadeCharacterIndex 286
@@ -2316,7 +2314,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Scrap_Tower/Card_Arcade_Warband_Scrap_Tower_Scrap_Tower_2.0_back.png', 
 'http:/htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Scrap_Tower/Scrap_Tower.xhtml', 
 'Arcade Gang', '2.0', '2.0 Core Set', 'Default', 
-''); --!! unavailable !!
+'The gnomish artificer who constructed Daemonus was cast out from his guild and banished, eventually finding his way to the Undercove.  Deep within the grinding bowels of Clockwork Cove he gathered the other tinkerers, artificiers, and forgemasters who had been cast aside or refused entry by the guilds.  From them the Scrap Guild was born, and their cruel inventions have become favorites of dungeons bosses looking for extra dungeon security.');
 insert into Characters (CardIndex) VALUES (2464);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
 VALUES (1367, 0, -1);
@@ -2325,7 +2323,7 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1367, 3)
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex);
 VALUES (301, 0, 'Scrap Tower', 'Spawning Point', '', 0, 3, 1, 401);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (818, 681); --Immune: Status Effects
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (818, 802); --Penata of Death
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (818, 802); --Pinata of Death
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (818, 975); --Spawning Pool
 
 --Dunce 	--CardIndex 2465	--CharacterIndex 1368	--ArcadeCharacterIndex 302
@@ -2334,15 +2332,15 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Scrap_Tower/Card_Arcade_Warband_Scrap_Tower_Dunce_2.0_back.png', 
 'http:/htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Scrap_Tower/Dunce.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Default', 
-'');  --!! unavailable !!
+'Cackling gnomes, raving madmen, clever goblins, and more make up the ranks of the anarchic Scrap Guild.  Most, despite their crazed brilliance, were considered failures outside the Undercove and so they proudly claim the moniker of Dunce as their fiendish invetions thwart Heroes'' dungeon adventures.');
 insert into Characters (CardIndex) VALUES (2465);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
 VALUES (1368, 241, 362);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1368, 3); --Ruby
 --GangMemberIndex 819
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex);
-VALUES (302, 0, 'Dunce', 'Gnome', 'Minion', 4, 3, 2, 402);  --!! unavailable !!
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (819, 802); --Penata of Death
+VALUES (302, 0, 'Dunce', 'Gnome', 'Minion', 4, 3, 2, 402);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (819, 802); --Pinata of Death
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (819, 2099); --Say Hello To My Littler Friend
 
 --Gate Crasher 	--CardIndex 2466	--CharacterIndex 1369	--ArcadeCharacterIndex 303
@@ -2351,7 +2349,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Scrap_Tower/Card_Arcade_Warband_Scrap_Tower_Gate_Crasher_2.0_back.png', 
 'http:/htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Scrap_Tower/Gate_Crasher.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Default', 
-'');  --!! unavailable !!
+'No riddle to pass.  Just smash.  Smash.  SMASH!');
 insert into Characters (CardIndex) VALUES (2466);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
 VALUES (1369, 241, 362);
@@ -2379,23 +2377,23 @@ VALUES (304, 0, 'Grim Oculus', 'Construct', 'Elite', 0, 1, 1, 404);  --!! unavai
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (821, 1010); --Steady
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (821, 576); --Eye Is Open, The
 
---Needs to be stubbed, not removed as it is a Creep: if not in Creeps, this can be fixed here.
 --Kabomb 	--CardIndex 2468	--CharacterIndex 1371	--ArcadeCharacterIndex 305
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Kabomb',
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Scrap_Tower/Card_Arcade_Warband_Scrap_Tower_Kabomb_2.0.png', 
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Scrap_Tower/Card_Arcade_Warband_Scrap_Tower_Kabomb_2.0_back.png', 
 'http:/htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Scrap_Tower/Kabomb.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Default', 
-'');  --!! unavailable !!
+'');
 insert into Characters (CardIndex) VALUES (2468);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
 VALUES (1371, 241, 362);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1371, 3); --Ruby
 --GangMemberIndex 822
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex);
-VALUES (305, 0, 'Kabomb', 'Construct', 'Elite', 7, 1, 1, 405);  --!! unavailable !!
+VALUES (305, 0, 'Kabomb', 'Construct', 'Elite', 7, 1, 1, 495);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (822, 475); --Bouncing Betty
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (822, kXXX); --???
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (822, kXXX); --Insignificant
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (822, kXXX); --Volatile
 
 
 --Sewer Pipe

@@ -513,7 +513,6 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (600, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (600, 'Minion', '8 Bit', 1); 
 
-
 --Clan Sohei
 --Sohei Madoushi --CardIndex 1102 --CharacterIndex 1005 --ExploreCharacterIndex 601
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Sohei Madoushi',
@@ -521,7 +520,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Sohei/Card_Warband_Clan_Sohei_Madoushi_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Clan_Sohei/Sohei_Madoushi.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
-''); --!! unavailable !!
+'The Sohei Madoushi have been granted visions of the realms across the ocean, and witnessed the taint of the Dark Consul upon those lands.  Fearing that Kagejima will become overrun, they have adopted a zero tolerance policy in regards to "Heroes" from other realms.');
 insert into Characters (CardIndex) VALUES (1102); 
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1005, 4); --Sapphire
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
@@ -543,7 +542,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Sohei/Card_Warband_Clan_Sohei_Kaiken_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Clan_Sohei/Sohei_Kaiken.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
-''); --!! unavailable !!
+'After completing the Nine Trials of Devotion, a Sohei''s soul is purified by the clan''s Madoushi and eleveated to Kaiken.  In combat, their swords are as the divine light of Ameratsu, banishing all shadows before them.');
 insert into Characters (CardIndex) VALUES (1103); 
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1006, 1); --!! unavailable !!
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
@@ -562,7 +561,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Sohei/Card_Warband_Clan_Sohei_Kunoichi_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Clan_Sohei/Sohei_Kunoichi.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
-''); --!! unavailable !!
+'Trained specialist and charismatic leaders, Sohei Kunoichi are billiant points of light in the darkness.  They can be found where the Dark Consul''s influence is strongest, guiding their comrades in service to the light.');
 insert into Characters (CardIndex) VALUES (1104);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1007, 2); --!! unavailable 1!
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
@@ -581,7 +580,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Sohei/Card_Warband_Clan_Sohei_Yajiri_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Clan_Sohei/Sohei_Yajiri.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
-''); --!! unavailable !!
+'Sohei Yajiri are less experienced kohai who have only begun their journey along the ascetic paths of the Ikko, suporting the clan with disciplined bow fire.');
 insert into Characters (CardIndex) VALUES (1105); 
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1008, 2); --!! unavailable !!
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
@@ -3335,7 +3334,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Scrap_Tower/Card_Warband_Scrap_Tower_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Scrap_Tower/Scrap_Tower.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
-'');--!! unavailable !!
+'The gnomish artificer who constructed Daemonus was cast out from his guild and banished, eventually finding his way to the Undercove.  Deep within the grinding bowels of Clockwork Cove he gathered the other tinkerers, artificiers, and forgemasters who had been cast aside or refused entry by the guilds.  From them the Scrap Guild was born, and their cruel inventions have become favorites of dungeons bosses looking for extra dungeon security.');
 insert into Characters (CardIndex) VALUES (1229); 
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1132, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
@@ -3355,7 +3354,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Scrap_Tower/Card_Warband_Scrap_Tower_Dunce_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Scrap_Tower/Dunce.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
-'');--!! unavailable !!
+'Cackling gnomes, raving madmen, clever goblins, and more make up the ranks of the anarchic Scrap Guild.  Most, despite their crazed brilliance, were considered failures outside the Undercove and so they proudly claim the moniker of Dunce as their fiendish invetions thwart Heroes'' dungeon adventures.');
 insert into Characters (CardIndex) VALUES (1230);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1133, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
@@ -3376,7 +3375,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Scrap_Tower/Card_Warband_Scrap_Tower_Gate_Crasher_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Scrap_Tower/Gate_Crasher.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
-'');--!! unavailable !!
+'No riddle to pass.  Just smash.  Smash.  SMASH!');
 insert into Characters (CardIndex) VALUES (1231); 
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1134, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
@@ -3415,25 +3414,19 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (7
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (731, 'Minion', '16 Bit', 3); 
 
 --Kabomb --CardIndex 1233 --CharacterIndex 1136 --ExploreCharacterIndex 732
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Kabomb',
-'http://htkb.info/SDE/2.0/Cards/Warbands/Scrap_Tower/Card_Warband_Scrap_Tower_Kabomb_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Scrap_Tower/Card_Warband_Scrap_Tower_Kabomb_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Scrap_Tower/Kabomb.xhtml', 
-'Warband', '2.0', '2.0 Core Set', 'Explore',
-'');--!! unavailable !!
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('',
+'', 
+'', 
+'', 
+'', '', '', '',
+'');
 insert into Characters (CardIndex) VALUES (1233); 
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1136, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (1136,
-'http://htkb.info/SDE/2.0/Cards/Warbands/Scrap_Tower/Standies/Kabomb_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Scrap_Tower/Standies/Kabomb_2.0_back.png', 
-'Neither', 'Small', 'Construct', 0, 0, '1B', '0ST', '0ST', '0ST', 1, 0);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (732, 475); --Bouncing Betty
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (732, 693); --Insignificant
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (732, 1040); --Toss Me
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (732, 1062); --Volatile
-insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (732, 2); --Armor 
-insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (732, 'Creep', '8 Bit', 1); 
+'', 
+'', 
+'', '', '', 0, 0, '', '', '', '', 0, 0);
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (732, '', '', 0); 
 
 
 --Sewer Pipe

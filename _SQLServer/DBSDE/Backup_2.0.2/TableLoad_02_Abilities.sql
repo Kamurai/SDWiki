@@ -2,6 +2,17 @@
 --2.0.2
 /*At Your Back													--Index kXXX*/ 	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Default', 'At Your Back', 								'Action', 'Support', 	1, -1, 4, 'AUGMENT, 4RG.  Switch places with target Hero.');
 /*Black Powder													--Index kXXX*/ 	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Default', 'Black Powder', 								'Potion', 'Emergency', 	1, -1, 0, 'AUGMENT, Volatile');
+
+
+
+/*Blade Wall													--Index kXXX*/ 	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Explore', 'Blade Wall', 								'Action', 'Support', 	1, -1, -1, 'AUGMENT, Aura 3.  All models in range gain +1R to defense rolls due to Discipline instead of +1B.');
+/*Blade Wall													--Index kXXX*/ 	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 'Blade Wall', 									'Action', 'Support', 	0, -1, -1, 'AUGMENT, Aura 3.  +2ST ARM');
+
+
+
+
+
+
 /*Boarding Action												--Index kXXX*/ 	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Explore', 'Boarding Action', 							'Action', 'Support', 	1, -1, -1, 'All other friendly Pirates on this tile may immediately make one basic offensive action.');
 /*Boarding Action												--Index kXXX*/ 	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Arcade', 	'Boarding Action', 							'Action', 'Support', 	1, -1, -1, 'All other friendly Pirates on this tile may immediately make one basic offensive action.');
 /*Bow Bomb														--Index kXXX*/ 	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Default', 'Bow Bomb', 									'Action', 'Offense', 	2, 4, 6, '6MI, Burst 1, +1B DEX');
@@ -56,6 +67,13 @@
 /*Soulmark														--Index kXXX*/ 	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Default', 'Soulmark', 									'Action', 'Offense', 	2, 3, 6, '6MA, BANE');
 /*Soul Tether													--Index kXXX*/ 	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Default', 'Soul Tether', 								'Action', 'Offense', 	2, 3, 6, '6MA.  If this destroys its target, this model may equip one Prayer Slip to a slot that does not already have one.');
 /*SparkleBOOM													--Index kXXX*/ 	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Default', 'SparkleBOOM', 								'Action', 'Offense', 	2, 3, 8, '8MA, +1R WILL, MASSIVE DAMAGE, IMPROVED CRITICAL');
+
+/*Stink Beard Bark													--Index 1756*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Default', 'Stink Beard Bark', 'Action', 'Offense', 1, 0, -1, '0SW, Sweep 1, POISON');
+
+
+/*Storm of Blades												--Index kXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Default', 'Storm of Blades', 'Action', 'Support', 1, -1, -1, 'AUGMENT, Aura 3, All models in range gain +1R to offense rolls due to Discipline instead of +1B.');
+
+
 /*Taste of You, A												--Index kXXX*/ 	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Default', 'Taste of You, A', 							'Action', 'Support', 	2, 3, 1, '1MA, +1R WILL.  Place a crystal token on the target if this action succeeds.  The next time the target activates, discard the token and this model controls the target''s first action of the activation.');
 /*Tear Your Arms Off											--Index kXXX*/ 	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Default', 'Tear Your Arms Off', 						'Action', 'Support', 	1, 1, 2, '2SW, +1R STR, Massive Damage');
 /*Tears of the Moon												--Index kXXX*/ 	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('2.0', 'Default', 'Tears of the Moon', 							'Potion', 'Emergency', 	1, -1, 0, 'AUGMENT, Defender');
