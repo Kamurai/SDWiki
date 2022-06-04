@@ -678,7 +678,7 @@ VALUES (397,
 'Feminine', 'Small', 'Human', 6, 3, '2B', '3B', '2R', '3B', 5, 2);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (292, 442); --Augment
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (292, 455); --Bane
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (292, kXXX); --Dangerous
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (292, 1098); --Dangerous
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (292, 588); --Fire
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (292, 642); --Heal X
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (292, 709); --Knockdown
@@ -757,7 +757,7 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (295
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (295, 1849); --Today, I Repay My Debt...
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (295, 788); --Behind Your Ear
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (295, 1066); --EN GARDE!
-insert into AbilityAssingments (ExploreCharacterIndex, AbilityIndex) VALUES (295, 1600); --Rosewater
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (295, 1600); --Rosewater
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (295, 4, 2); --Dex
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (295, 2); --Armor
 
@@ -1093,7 +1093,7 @@ VALUES (413,
 'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Cog_War_Reaver_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Cog_War_Reaver_2.0_back.png',
 'Neither', 'Large', 'Orc', 6, 3, '3B', '3B', '2B', '3B', 5, 1);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (308, kXXX); --Brutal Strike
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (308, 483); --Brutal Strike
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (308, 507); --Coghammer
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (308, 685); --Improved Critical
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (308, 728); --Massive Damage
@@ -2905,27 +2905,19 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (378, 2); --Armor
 
 
---PRINCESS MALYA --CARDINDEX 875	--CHARACTERINDEX 783	--EXPLORECHARACTERINDEX 379
-INSERT INTO CARDS (NAME, PICTUREFRONT, PICTUREBACK, LINK, CARDTYPE, PRODUCTSET, PRODUCTMODULE, PLAYMODE, FLAVOR) VALUES ('PRINCESS MALYA', 
-'HTTP://HTKB.INFO/SDE/2.0/CARDS/HEROES/CARD_HERO_PRINCESS_MALYA_2.0.PNG', 
-'HTTP://HTKB.INFO/SDE/2.0/CARDS/HEROES/CARD_HERO_PRINCESS_MALYA_2.0_BACK.PNG', 
-'HTTP://HTKB.ONLINE/SDWIKI/SDE/2.0/CARDS/HEROES/PRINCESS_MALYA.XHTML', 
-'HERO', '2.0', '2.0 CORE SET', 'DEFAULT', 
-'EVEN A RACING SUPER-STAR HAS TIME TO SIT DOWN TO A GAME OF SUPER DUNGEON EXPLORE. PRINCESS MALYA BRINGS HER LOVE OF SPEED INTO THE LAST GALAXY''S FAVORITE ONLINE GAME, ZIPPING THROUGH THE DUNGEON AT A BREAKNECK PACE. MALYA SLAYS MONSTERS WITH GLEE, BUT IS ALWAYS WILLING TO LEND FELLOW ADVENTURERS A HAND WITH THE HELP OF SOME CREATION MAGIC.');
+--Stub --CARDINDEX 875	--CHARACTERINDEX 783	--EXPLORECHARACTERINDEX 379
+INSERT INTO CARDS (NAME, PICTUREFRONT, PICTUREBACK, LINK, CARDTYPE, PRODUCTSET, PRODUCTMODULE, PLAYMODE, FLAVOR) VALUES ('', 
+'', 
+'', 
+'', 
+'', '', '', '', 
+'');
 INSERT INTO CHARACTERS (CARDINDEX) VALUES (875);
-INSERT INTO AFFINITYASSIGNMENTS (CHARACTERINDEX, AFFINITYINDEX) VALUES (783, 2); --EMERALD
 INSERT INTO EXPLORECHARACTERS (CHARACTERINDEX, STANDIEFRONT, STANDIEBACK, GENDER, MODELSIZE, CREATURETYPE, MOVEMENT, ACTIONS, STRENGTH, ARMOR, WILL, DEXTERITY, HEALTH, POTIONS) 
 VALUES (783, 
-'HTTP://HTKB.INFO/SDE/2.0/CARDS/HEROES/STANDIES/PRINCESS_MALYA_2.0.PNG', 
-'HTTP://HTKB.INFO/SDE/2.0/CARDS/HEROES/STANDIES/PRINCESS_MALYA_2.0_BACK.PNG',
-'FEMININE', 'SMALL', 'HUMAN', 8, 3, '3B', '2B', '2B', '2R', 5, 1);
-INSERT INTO KEYWORDASSIGNMENTS (EXPLORECHARACTERINDEX, KEYWORDINDEX) VALUES (379, 642); --HEAL X
-INSERT INTO ABILITYASSIGNMENTS (EXPLORECHARACTERINDEX, ABILITYINDEX) VALUES (379, ABXXX); --ENERGY BLAST
-INSERT INTO ABILITYASSIGNMENTS (EXPLORECHARACTERINDEX, ABILITYINDEX) VALUES (379, ABXXX); --SPARK OF LIFE
-INSERT INTO ABILITYASSIGNMENTS (EXPLORECHARACTERINDEX, ABILITYINDEX) VALUES (379, ABXXX); --MR. TOMN
-INSERT INTO OFFENSEASSIGNMENTS (EXPLORECHARACTERINDEX, ATTRIBUTEINDEX, OFFENSERANGE) VALUES (379, 1, 2); --STRENGTH
-INSERT INTO DEFENSEASSIGNMENTS (EXPLORECHARACTERINDEX, ATTRIBUTEINDEX) VALUES (379, 2); --ARMOR
-INSERT INTO DEFENSEASSIGNMENTS (EXPLORECHARACTERINDEX, ATTRIBUTEINDEX) VALUES (379, 4); --DEX
+'', 
+'',
+'', '', '', 0, 0, '', '', '', '', 0, 0);
 
 
 --Princess Sapphire --CardIndex 876	--CharacterIndex 784	--ExploreCharacterIndex 380
@@ -4330,15 +4322,15 @@ VALUES (839,
 'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Bladedancer_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Bladedancer_2.0_back.png',
 'Feminine', 'Small', 'Elf', 6, 3, '2R', '2R', '2B', '2R', 5, 1);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (435, kxxx); --Counterstrike
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (435, kxxx); --Deadly Defense
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (435, kxxx); --Defender
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (435, kxxx); --Massive Damage
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (435, kxxx); --Pounce
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (435, abxxx); --Viper's Strike
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (435, abxxx); --The Night's Mercy
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (435, abxxx); --At Your Back
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (435, abxxx); --Tears of the Moon
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (435, 518); --Counterstrike
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (435, 533); --Deadly Defense
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (435, 544); --Defender
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (435, 728); --Massive Damage
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (435, 815); --Pounce
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (435, 2065); --Viper's Strike
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (435, 2056); --Night's Mercy, The
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (435, 2043); --At Your Back
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (435, 2061); --Tears of the Moon
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (435, 1, 2); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (435, 2); --Armor
 

@@ -499,7 +499,7 @@ VALUES (1212, 373, -1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1212, 1); --Citrine
 --GangMemberIndex 594
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (arXXX, 0, 'Ezoghoul', 'Ezoghoul', 'MiniBoss', 8, 7, 3, 179);
+VALUES (146, 0, 'Ezoghoul', 'Ezoghoul', 'MiniBoss', 8, 7, 3, 179);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (594, 681); --Immune: Status Effects
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (594, 2075); --Blutarch Handcannon
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (594, 1460); --Necrosis

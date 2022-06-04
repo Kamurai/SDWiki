@@ -330,9 +330,9 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1251, 3)
 --GangMemberIndex 633
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (185, 0, 'Mugg', 'Ogre', 'Boss', 6, 6, 3, 218);
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (gXXX, 778); --Batters Up!
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (gXXX, 754); --Arrow Storm
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (gXXX, 816); --Blood Is Up, Brother, The
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (633, 778); --Batters Up!
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (633, 754); --Arrow Storm
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (633, 816); --Blood Is Up, Brother, The
 
 
 --Nightsong the Eternal	--CardIndex 1349	--CharacterIndex 1252	--ArcadeCharacterIndex 186

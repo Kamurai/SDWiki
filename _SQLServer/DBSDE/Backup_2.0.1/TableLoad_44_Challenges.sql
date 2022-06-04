@@ -353,7 +353,7 @@ VALUES ('Field Repairs',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss/Challenges/Professor_Cackle_Clink/Card_Boss_Challenge_Field_Repairs_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss/Challenges/Backs/Card_Boss_Challenge_Yellow_Back_2.0.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Challenges/Boss/Challenges/Professor_Cackle_Clink/Field_Repairs.xhtml', 
-'Challenge', '2.0', '2.0 Core Set', 'Default', '"Wait. Wait. Wait! Time out! Can''t you see the condenser coil''s busted? Hand me that crystal.... There we go. Fight starts again on '3'."');
+'Challenge', '2.0', '2.0 Core Set', 'Default', '"Wait. Wait. Wait! Time out! Can''t you see the condenser coil''s busted? Hand me that crystal.... There we go. Fight starts again on ''3''."');
 insert into Challenges (CardIndex, Trap, Challenge) VALUES (3086, 'The dungeon boss Heals 1 for each crystal token carried by a Hero.', 'The dungeon boss gains +2ST ARM.');
 insert into ChallengeAssignments (CharacterIndex, ChallengeIndex) VALUES (976, 36); --Professor Cackle-Clink
 

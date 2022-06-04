@@ -1517,7 +1517,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'While most villagers are justifiably a superstitious bunch. It does not help when agents of the Dark Consul make their way into the farmlands to wreak chaos and havoc. Many of the rural denizens have become "fed-up" with their field''s strawmen jumping down from the stilts to terrorize the locals.');
 insert into Characters (CardIndex) VALUES (1147); 
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1050, 0); --Amethyst
-insert into ExploreCharacters (CharacterIndex, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (1050,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Corrupted_Harvest/Standies/Corrupted_Harvest_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Corrupted_Harvest/Standies/Corrupted_Harvest_2.0_back.png', 

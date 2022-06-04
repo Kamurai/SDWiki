@@ -54,7 +54,7 @@ VALUES (1174, 133, -1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1174, 1); --Citrine
 --GangMemberIndex 156
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (arXXX, 0, 'Demolitions Expert', 'Rocktop', 'Creep', 5, 1, 0, 141);
+VALUES (108, 0, 'Demolitions Expert', 'Rocktop', 'Creep', 5, 1, 0, 141);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (156, 691); --Insignificant
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (156, 680); --Immune: Slow
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (156, 681); --Immune: Status Effects
