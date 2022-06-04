@@ -40,6 +40,10 @@ type .\Backup_FK\TableLoad_40_Terrain.sql >> TableLoad_B_FK.sql
 type .\Backup_FK\TableLoad_41_Utilities.sql >> TableLoad_B_FK.sql
 type .\Backup_FK\TableLoad_42_Explores.sql >> TableLoad_B_FK.sql
 type .\Backup_FK\TableLoad_50_Heroes.sql >> TableLoad_B_FK.sql
+type .\Backup_FK\TableLoad_54_MiniBosses.sql >> TableLoad_B_FK.sql
+type .\Backup_FK\TableLoad_56_Warbands.sql >> TableLoad_B_FK.sql
+type .\Backup_FK\TableLoad_64_Arcade_MiniBosses.sql >> TableLoad_B_FK.sql
+type .\Backup_FK\TableLoad_66_Arcade_Warbands.sql >> TableLoad_B_FK.sql
 
 type .\Backup_2.0.1\TableLoad_01_Keywords.sql >> TableLoad_C_2.0.1.sql
 type .\Backup_2.0.1\TableLoad_02_Abilities.sql >> TableLoad_C_2.0.1.sql

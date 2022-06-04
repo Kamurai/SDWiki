@@ -11870,3 +11870,596 @@ insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (252
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (252, 723); --Cure Cordial
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (252, 1, 2); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (252, 2); --Armor
+--FK MiniBoss (Addition)
+--Clan Earth Shrine Oni --CardIndex 738	--CharacterIndex 348	--ExploreCharacterIndex 253
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Clan Earth Shrine Oni',
+'http://htkb.info/SDE/FK/Cards/MiniBosses/Card_MiniBoss_Clan_Earth_Shrine_Oni_FK.png', 
+'http://htkb.info/SDE/FK/Cards/MiniBosses/Card_MiniBoss_Clan_Earth_Shrine_Oni_FK_back.png', 
+'http://htkb.online/SDWiki/SDE/FK/Explore/Cards/MiniBosses/Clan_Earth_Shrine_Oni.xhtml', 
+'MiniBoss', 'FK', 'FK Core Set', 'Explore',
+'It is said that man and Oni first met as enemies, but soon developed a grudging respect; the Oni for their size and strength, and men for their technology and tenacity.  Many Oni, however fickle, will join a team to honor agreements, to demonstrate their strength, or just for the fun of it.  They may not be the most stealthy, but their effect on the enemy is remarkable.');
+insert into Characters (CardIndex) VALUES (738);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (348, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (348, 3); --Ruby
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (253, 214); --Elemental Affinity
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (253, 274); --Disaster
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (253, 270); --Devour
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (253, 267); --Deceive
+insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+VALUES (348,
+'http://htkb.info/SDE/FK/Cards/MiniBosses/Standies/Clan_Earth_Shrine_Oni_FK.png', 
+'http://htkb.info/SDE/FK/Cards/MiniBosses/Standies/Clan_Earth_Shrine_Oni_FK_back.png',
+'Masculine', 'Large', 'Oni', 6, 3, '3R', '2R', '3B', '2B', 6, 0);
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (253, 1, 2); --Strength
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (253, 2); --Armor
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (253, '', 'Super', 4);
+
+
+--Clan Wind Shrine Oni --CardIndex 739	--CharacterIndex 349	--ExploreCharacterIndex 254
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Clan Wind Shrine Oni',
+'http://htkb.info/SDE/FK/Cards/MiniBosses/Card_MiniBoss_Clan_Wind_Shrine_Oni_FK.png', 
+'http://htkb.info/SDE/FK/Cards/MiniBosses/Card_MiniBoss_Clan_Wind_Shrine_Oni_FK_back.png', 
+'http://htkb.online/SDWiki/SDE/FK/Explore/Cards/MiniBosses/Clan_Wind_Shrine_Oni.xhtml', 
+'MiniBoss', 'FK', 'FK Core Set', 'Explore',
+'It is said that man and Oni first met as enemies, but soon developed a grudging respect; the Oni for their size and strength, and men for their technology and tenacity.  Many Oni, however fickle, will join a team to honor agreements, to demonstrate their strength, or just for the fun of it.  They may not be the most stealthy, but their effect on the enemy is remarkable.');
+insert into Characters (CardIndex) VALUES (739);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (349, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (349, 3); --Ruby
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (254, 214); --Elemental Affinity
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (254, 274); --Disaster
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (254, 270); --Devour
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (254, 267); --Deceive
+insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+VALUES (349,
+'http://htkb.info/SDE/FK/Cards/MiniBosses/Standies/Clan_Wind_Shrine_Oni_FK.png', 
+'http://htkb.info/SDE/FK/Cards/MiniBosses/Standies/Clan_Wind_Shrine_Oni_FK_back.png',
+'Masculine', 'Large', 'Oni', 6, 3, '3R', '2R', '3B', '2B', 6, 0);
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (254, 1, 2); --Strength
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (254, 2); --Armor
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (254, '', 'Super', 4);
+
+--FK --Warband Monsters (Addition)
+--Clan Earth Shrine
+--Elemental Shrine --CardIndex 740 --CharacterIndex 350 --ExploreCharacterIndex 255
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+'Elemental Shrine',
+'http://htkb.info/SDE/FK/Cards/Warbands/Clan_Earth_Shrine/Card_Warband_Clan_Earth_Shrine_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Warbands/Clan_Earth_Shrine/Card_Warband_Clan_Earth_Shrine_FK_back.png', 
+'http://htkb.online/SDWiki/SDE/FK/Explore/Cards/Warbands/Clan_Earth_Shrine/Clan_Earth_Shrine.xhtml', 
+'Warband', 'FK', 'FK Core Set', 'Explore',
+'');
+insert into Characters (CardIndex) VALUES (740);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (350, 3); --Ruby
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (255, 268); --Immune: Status Effects
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (255, 214); --Elemental Affinity
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (255, 254); --Hidden
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (255, 348); --Stealth
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (255, 377); --Spawning Pool
+insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+VALUES (350,
+'http://htkb.info/SDE/FK/Cards/Warbands/Clan_Earth_Shrine/Standies/Clan_Earth_Shrine_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Warbands/Clan_Earth_Shrine/Standies/Clan_Earth_Shrine_FK_back.png',
+'Neither', 'Small', 'Spawning Point', 0, 0, '', '1ST', '', '', 4, 0);
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (255, 2); --Armor
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (255, 'Spawning Point', 'Start', 0);
+
+--Chunin --CardIndex 741 --CharacterIndex 351 --ExploreCharacterIndex 256
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+'Chunin',
+'http://htkb.info/SDE/FK/Cards/Warbands/Clan_Earth_Shrine/Card_Warband_Clan_Earth_Shrine_Chunin_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Warbands/Clan_Earth_Shrine/Card_Warband_Clan_Earth_Shrine_Chunin_FK_back.png', 
+'http://htkb.online/SDWiki/SDE/FK/Explore/Cards/Warbands/Clan_Earth_Shrine/Chunin.xhtml', 
+'Warband', 'FK', 'FK Core Set', 'Explore',
+'Aspring leaders and skilled fighters within the clan are called upon to lead their own team of ninjas as chunin.  This is an incredible honor, and the trials to come will not only test a chunin''s leadership and skills, but their spirit as well.');
+insert into Characters (CardIndex) VALUES (741);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (351, 1); --Citrine
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (256, 415); --Augment
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (256, 275); --Knockdown
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (256, 348); --Stealth
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (256, 322); --Precision Strike
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (256, 281); --Elemental Master
+insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+VALUES (351,
+'http://htkb.info/SDE/FK/Cards/Warbands/Clan_Earth_Shrine/Standies/Chunin_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Warbands/Clan_Earth_Shrine/Standies/Chunin_FK_back.png',
+'Masculine', 'Small', 'Ninja', 6, 3, '2B 1R', '3B', '3B', '3B', 3, 0);
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (256, 1, 1); --Strength
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (256, 2); --Armor
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (256, 'Elite', '16 Bit', 2);
+
+--Kaiken --CardIndex 742 --CharacterIndex 352 --ExploreCharacterIndex 257
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+'Kaiken',
+'http://htkb.info/SDE/FK/Cards/Warbands/Clan_Earth_Shrine/Card_Warband_Clan_Earth_Shrine_Kaiken_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Warbands/Clan_Earth_Shrine/Card_Warband_Clan_Earth_Shrine_Kaiken_FK_back.png', 
+'http://htkb.online/SDWiki/SDE/FK/Explore/Cards/Warbands/Clan_Earth_Shrine/Kaiken.xhtml', 
+'Warband', 'FK', 'FK Core Set', 'Explore',
+'Kaiken are the backbone of the clans.  To be a kaiken is not to be relegated to a basic or role.  Training to become a kaiken starts from birth and is ingrained through hardship, conditioning, and trials that normal people could not withstand.  Kaiken are masters of the art of stealth, the sword, and the shuriken.  As their experience grows, they learn to tap elemental magic, unlocking potent abilities to rival even the great Heroes.');
+insert into Characters (CardIndex) VALUES (742);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (352, 1); --Citrine
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (257, 348); --Stealth
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (257, 174); --Back Strike
+insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+VALUES (352,
+'http://htkb.info/SDE/FK/Cards/Warbands/Clan_Earth_Shrine/Standies/Kaiken_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Warbands/Clan_Earth_Shrine/Standies/Kaiken_FK_back.png',
+'Masculine', 'Small', 'Ninja', 6, 1, '3B', '1ST', '2B', '3B', 1, 0);
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (257, 1, 1); --Strength
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (257, 4, 3); --Dexterity
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (257, 2); --Armor
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (257, 'Minion', '8 Bit', 1);
+
+--Kunoichi --CardIndex 743 --CharacterIndex 353 --ExploreCharacterIndex 258
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+'Kunoichi',
+'http://htkb.info/SDE/FK/Cards/Warbands/Clan_Earth_Shrine/Card_Warband_Clan_Earth_Shrine_Kunoichi_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Warbands/Clan_Earth_Shrine/Card_Warband_Clan_Earth_Shrine_Kunoichi_FK_back.png', 
+'http://htkb.online/SDWiki/SDE/FK/Explore/Cards/Warbands/Clan_Earth_Shrine/Kunoichi.xhtml', 
+'Warband', 'FK', 'FK Core Set', 'Explore',
+'Kunoichi are specialized female fighters and scouts for the clans.  Though deadly and widely trained in the ninja arts, the kunoichi put particular emphasis on speed and agility.  In battle, kunoichi focus on key mission objectives such as scouting targets and carrying vital missives.');
+insert into Characters (CardIndex) VALUES (743);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (353, 2); --Emerald
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (258, 306); --Pounce
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (258, 348); --Stealth
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (258, 674); --Wind in the Forest
+insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+VALUES (353,
+'http://htkb.info/SDE/FK/Cards/Warbands/Clan_Earth_Shrine/Standies/Kunoichi_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Warbands/Clan_Earth_Shrine/Standies/Kunoichi_FK_back.png',
+'Feminine', 'Small', 'Ninja', 8, 1, '3B', '0ST', '1B1R', '2R', 1, 0);
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (258, 1, 1); --Strength
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (258, 2); --Armor
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (258, 4); --Dexterity
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (258, 'Elite', '8 Bit', 1);
+
+--Madoushi --CardIndex 744 --CharacterIndex 354 --ExploreCharacterIndex 259
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+'Madoushi',
+'http://htkb.info/SDE/FK/Cards/Warbands/Clan_Earth_Shrine/Card_Warband_Clan_Earth_Shrine_Madoushi_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Warbands/Clan_Earth_Shrine/Card_Warband_Clan_Earth_Shrine_Madoushi_FK_back.png', 
+'http://htkb.online/SDWiki/SDE/FK/Explore/Cards/Warbands/Clan_Earth_Shrine/Madoushi.xhtml', 
+'Warband', 'FK', 'FK Core Set', 'Explore',
+'All clans possess the mystics known as madoushi.  In some clans, they are revered as sages, alchemists and healers.  Other clans regard them as witches, and tolerate them with barely concealed mistrust and fear.  Whether they are revered or reviled, all madoushi are able to harness the powers native to the lands of their clan.  With training, study, and mediataion, a madoushi learns to draw from the lines of Ki that race through the landscape, summoning the very elements to do their bidding.');
+insert into Characters (CardIndex) VALUES (744);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (354, 3); --Ruby
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (259, 415); --Augment
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (259, 229); --Fly
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (259, 348); --Stealth
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (259, 300); --Poison
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (259, 482); --Poisoned Weapons
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (259, 677); --Wind Walk
+insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+VALUES (354,
+'http://htkb.info/SDE/FK/Cards/Warbands/Clan_Earth_Shrine/Standies/Madoushi_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Warbands/Clan_Earth_Shrine/Standies/Madoushi_FK_back.png',
+'Masculine', 'Small', 'Ninja', 6, 2, '2B', '1ST', '2R', '3B', 2, 0);
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (259, 1, 1); --Strength
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (259, 3, 6); --Magic
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (259, 2); --Armor
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (259, 'Elite', '8 Bit', 2);
+
+--Yajiri --CardIndex 745 --CharacterIndex 355 --ExploreCharacterIndex 260
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+'Yajiri',
+'http://htkb.info/SDE/FK/Cards/Warbands/Clan_Earth_Shrine/Card_Warband_Clan_Earth_Shrine_Yajiri_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Warbands/Clan_Earth_Shrine/Card_Warband_Clan_Earth_Shrine_Yajiri_FK_back.png', 
+'http://htkb.online/SDWiki/SDE/FK/Explore/Cards/Warbands/Clan_Earth_Shrine/Yajiri.xhtml', 
+'Warband', 'FK', 'FK Core Set', 'Explore',
+'Yajiri specialize in attacking from afar.  Their black shafted arrows are renowned for striking with deadly accuracy.  While the bow is utilized throughout all the clans, many have developed their own unique forms of ranged warfare.  The Kitsune''s blowguns eliminate sentries with only the sound of a silent rush of wind to mark their use; while the thunder of the Tora''s rifle sows confusion among the enemy ranks, even as it wreaks terrible devastation.  No matter the form it takes, a yajiri''s value to their clan cannot be underestimated.');
+insert into Characters (CardIndex) VALUES (745);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (355, 2); --Emerald
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (260, 348); --Stealth
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (260, 363); --Wind of Blades
+insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+VALUES (355,
+'http://htkb.info/SDE/FK/Cards/Warbands/Clan_Earth_Shrine/Standies/Yajiri_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Warbands/Clan_Earth_Shrine/Standies/Yajiri_FK_back.png',
+'Masculine', 'Small', 'Ninja', 6, 1, '2B', '0ST', '2B', '3B', 1, 0);
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (260, 1, 1); --Strength
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (260, 4, 6); --Dexterity
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (260, 2); --Armor
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (260, 'Minion', '8 Bit', 1);
+
+
+--Clan Wind Shrine
+--Elemental Shrine --CardIndex 746 --CharacterIndex 356 --ExploreCharacterIndex 261
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+'Elemental Shrine',
+'http://htkb.info/SDE/FK/Cards/Warbands/Clan_Wind_Shrine/Card_Warband_Clan_Wind_Shrine_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Warbands/Clan_Wind_Shrine/Card_Warband_Clan_Wind_Shrine_FK_back.png', 
+'http://htkb.online/SDWiki/SDE/FK/Explore/Cards/Warbands/Clan_Wind_Shrine/Clan_Wind_Shrine.xhtml', 
+'Warband', 'FK', 'FK Core Set', 'Explore',
+'');
+insert into Characters (CardIndex) VALUES (746);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (356, 3); --Ruby
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (261, 268); --Immune: Status Effects
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (261, 214); --Elemental Affinity
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (261, 254); --Hidden
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (261, 348); --Stealth
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (261, 377); --Spawning Pool
+insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+VALUES (356,
+'http://htkb.info/SDE/FK/Cards/Warbands/Clan_Wind_Shrine/Standies/Clan_Wind_Shrine_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Warbands/Clan_Wind_Shrine/Standies/Clan_Wind_Shrine_FK_back.png',
+'Neither', 'Small', 'Paired Spawning Point', 0, 0, '', '1ST', '', '', 4, 0);
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (261, 2); --Armor
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (261, 'Spawning Point', 'Start', 0);
+
+--Chunin --CardIndex 747 --CharacterIndex 357 --ExploreCharacterIndex 262
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+'Chunin',
+'http://htkb.info/SDE/FK/Cards/Warbands/Clan_Wind_Shrine/Card_Warband_Clan_Wind_Shrine_Chunin_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Warbands/Clan_Wind_Shrine/Card_Warband_Clan_Wind_Shrine_Chunin_FK_back.png', 
+'http://htkb.online/SDWiki/SDE/FK/Explore/Cards/Warbands/Clan_Wind_Shrine/Chunin.xhtml', 
+'Warband', 'FK', 'FK Core Set', 'Explore',
+'Aspring leaders and skilled fighters within the clan are called upon to lead their own team of ninjas as chunin.  This is an incredible honor, and the trials to come will not only test a chunin''s leadership and skills, but their spirit as well.');
+insert into Characters (CardIndex) VALUES (747);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (357, 1); --Citrine
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (262, 415); --Augment
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (262, 275); --Knockdown
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (262, 348); --Stealth
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (262, 322); --Precision Strike
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (262, 281); --Elemental Master
+insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+VALUES (357,
+'http://htkb.info/SDE/FK/Cards/Warbands/Clan_Wind_Shrine/Standies/Chunin_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Warbands/Clan_Wind_Shrine/Standies/Chunin_FK_back.png',
+'Masculine', 'Small', 'Ninja', 6, 3, '2B 1R', '3B', '3B', '3B', 3, 0);
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (262, 1, 1); --Strength
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (262, 2); --Armor
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (262, 'Elite', '16 Bit', 2);
+
+--Kaiken --CardIndex 748 --CharacterIndex 358 --ExploreCharacterIndex 263
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+'Kaiken',
+'http://htkb.info/SDE/FK/Cards/Warbands/Clan_Wind_Shrine/Card_Warband_Clan_Wind_Shrine_Kaiken_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Warbands/Clan_Wind_Shrine/Card_Warband_Clan_Wind_Shrine_Kaiken_FK_back.png', 
+'http://htkb.online/SDWiki/SDE/FK/Explore/Cards/Warbands/Clan_Wind_Shrine/Kaiken.xhtml', 
+'Warband', 'FK', 'FK Core Set', 'Explore',
+'Kaiken are the backbone of the clans.  To be a kaiken is not to be relegated to a basic or role.  Training to become a kaiken starts from birth and is ingrained through hardship, conditioning, and trials that normal people could not withstand.  Kaiken are masters of the art of stealth, the sword, and the shuriken.  As their experience grows, they learn to tap elemental magic, unlocking potent abilities to rival even the great Heroes.');
+insert into Characters (CardIndex) VALUES (748);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (358, 1); --Citrine
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (263, 348); --Stealth
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (263, 174); --Back Strike
+insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+VALUES (358,
+'http://htkb.info/SDE/FK/Cards/Warbands/Clan_Wind_Shrine/Standies/Kaiken_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Warbands/Clan_Wind_Shrine/Standies/Kaiken_FK_back.png',
+'Masculine', 'Small', 'Ninja', 6, 1, '3B', '1ST', '2B', '3B', 1, 0);
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (263, 1, 1); --Strength
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (263, 4, 3); --Dexterity
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (263, 2); --Armor
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (263, 'Minion', '8 Bit', 1);
+
+--Kunoichi --CardIndex 749 --CharacterIndex 359 --ExploreCharacterIndex 264
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+'Kunoichi',
+'http://htkb.info/SDE/FK/Cards/Warbands/Clan_Wind_Shrine/Card_Warband_Clan_Wind_Shrine_Kunoichi_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Warbands/Clan_Wind_Shrine/Card_Warband_Clan_Wind_Shrine_Kunoichi_FK_back.png', 
+'http://htkb.online/SDWiki/SDE/FK/Explore/Cards/Warbands/Clan_Wind_Shrine/Kunoichi.xhtml', 
+'Warband', 'FK', 'FK Core Set', 'Explore',
+'Kunoichi are specialized female fighters and scouts for the clans.  Though deadly and widely trained in the ninja arts, the kunoichi put particular emphasis on speed and agility.  In battle, kunoichi focus on key mission objectives such as scouting targets and carrying vital missives.');
+insert into Characters (CardIndex) VALUES (749);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (359, 2); --Emerald
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (264, 306); --Pounce
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (264, 348); --Stealth
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (264, 674); --Wind in the Forest
+insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+VALUES (359,
+'http://htkb.info/SDE/FK/Cards/Warbands/Clan_Wind_Shrine/Standies/Kunoichi_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Warbands/Clan_Wind_Shrine/Standies/Kunoichi_FK_back.png',
+'Feminine', 'Small', 'Ninja', 8, 1, '3B', '0ST', '1B1R', '2R', 1, 0);
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (264, 1, 1); --Strength
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (264, 2); --Armor
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (264, 4); --Dexterity
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (264, 'Elite', '8 Bit', 1);
+
+--Madoushi --CardIndex 750 --CharacterIndex 360 --ExploreCharacterIndex 265
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+'Madoushi',
+'http://htkb.info/SDE/FK/Cards/Warbands/Clan_Wind_Shrine/Card_Warband_Clan_Wind_Shrine_Madoushi_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Warbands/Clan_Wind_Shrine/Card_Warband_Clan_Wind_Shrine_Madoushi_FK_back.png', 
+'http://htkb.online/SDWiki/SDE/FK/Explore/Cards/Warbands/Clan_Wind_Shrine/Madoushi.xhtml', 
+'Warband', 'FK', 'FK Core Set', 'Explore',
+'All clans possess the mystics known as madoushi.  In some clans, they are revered as sages, alchemists and healers.  Other clans regard them as witches, and tolerate them with barely concealed mistrust and fear.  Whether they are revered or reviled, all madoushi are able to harness the powers native to the lands of their clan.  With training, study, and mediataion, a madoushi learns to draw from the lines of Ki that race through the landscape, summoning the very elements to do their bidding.');
+insert into Characters (CardIndex) VALUES (750);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (360, 3); --Ruby
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (265, 415); --Augment
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (265, 229); --Fly
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (265, 348); --Stealth
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (265, 300); --Poison
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (265, 482); --Poisoned Weapons
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (265, 677); --Wind Walk
+insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+VALUES (360,
+'http://htkb.info/SDE/FK/Cards/Warbands/Clan_Wind_Shrine/Standies/Madoushi_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Warbands/Clan_Wind_Shrine/Standies/Madoushi_FK_back.png',
+'Masculine', 'Small', 'Ninja', 6, 2, '2B', '1ST', '2R', '3B', 2, 0);
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (265, 1, 1); --Strength
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (265, 3, 6); --Magic
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (265, 2); --Armor
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (265, 'Elite', '8 Bit', 2);
+
+--Yajiri --CardIndex 751 --CharacterIndex 361 --ExploreCharacterIndex 266
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+'Yajiri',
+'http://htkb.info/SDE/FK/Cards/Warbands/Clan_Wind_Shrine/Card_Warband_Clan_Wind_Shrine_Yajiri_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Warbands/Clan_Wind_Shrine/Card_Warband_Clan_Wind_Shrine_Yajiri_FK_back.png', 
+'http://htkb.online/SDWiki/SDE/FK/Explore/Cards/Warbands/Clan_Wind_Shrine/Yajiri.xhtml', 
+'Warband', 'FK', 'FK Core Set', 'Explore',
+'Yajiri specialize in attacking from afar.  Their black shafted arrows are renowned for striking with deadly accuracy.  While the bow is utilized throughout all the clans, many have developed their own unique forms of ranged warfare.  The Kitsune''s blowguns eliminate sentries with only the sound of a silent rush of wind to mark their use; while the thunder of the Tora''s rifle sows confusion among the enemy ranks, even as it wreaks terrible devastation.  No matter the form it takes, a yajiri''s value to their clan cannot be underestimated.');
+insert into Characters (CardIndex) VALUES (751);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (361, 2); --Emerald
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (266, 348); --Stealth
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (266, 363); --Wind of Blades
+insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+VALUES (361,
+'http://htkb.info/SDE/FK/Cards/Warbands/Clan_Wind_Shrine/Standies/Yajiri_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Warbands/Clan_Wind_Shrine/Standies/Yajiri_FK_back.png',
+'Masculine', 'Small', 'Ninja', 6, 1, '2B', '0ST', '2B', '3B', 1, 0);
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (266, 1, 1); --Strength
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (266, 4, 6); --Dexterity
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (266, 2); --Armor
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (266, 'Minion', '8 Bit', 1);
+
+
+
+
+--FK Arcade MiniBosses  (Addition)
+--Clan Earth Shrine Oni --CardIndex 752	--CharacterIndex 362	--ArcadeCharacterIndex 95
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Clan Earth Shrine Oni',
+'http://htkb.info/SDE/FK/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Clan_Earth_Shrine_Oni_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Clan_Earth_Shrine_Oni_FK_back.png', 
+'http://htkb.online/SDWiki/SDE/FK/Arcade/Cards/MiniBosses/Clan_Earth_Shrine_Oni.xhtml', 
+'MiniBoss', 'FK', 'FK Core Set', 'Arcade', 
+'');
+insert into Characters (CardIndex) VALUES (752);
+insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
+VALUES (362, 373, -1);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (362, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (362, 3); --Ruby
+--GangMemberIndex 133
+insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
+VALUES (95, 0, 'Oni', 'Oni', 'MiniBoss', 6, 8, 3, 253);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (133, 214); --Elemental Affinity
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (133, 272); --Devour
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (133, 275); --Disaster
+
+
+--Clan Wind Shrine Oni --CardIndex 753	--CharacterIndex 363	--ArcadeCharacterIndex 96
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Clan Wind Shrine Oni',
+'http://htkb.info/SDE/FK/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Clan_Wind_Shrine_Oni_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Clan_Wind_Shrine_Oni_FK_back.png', 
+'http://htkb.online/SDWiki/SDE/FK/Arcade/Cards/MiniBosses/Clan_Wind_Shrine_Oni.xhtml', 
+'MiniBoss', 'FK', 'FK Core Set', 'Arcade', 
+'');
+insert into Characters (CardIndex) VALUES (753);
+insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
+VALUES (363, 373, -1);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (363, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (363, 3); --Ruby
+--GangMemberIndex 134
+insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
+VALUES (96, 0, 'Oni', 'Oni', 'MiniBoss', 6, 8, 3, 255);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (134, 214); --Elemental Affinity
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (134, 272); --Devour
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (134, 275); --Disaster
+
+--FK --Warband Gangs (Addition)
+--Clan Earth Shrine
+--Elemental Shrine --CardIndex 754	--CharacterIndex 364	--ArcadeCharacterIndex 97
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Elemental Shrine',
+'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Clan_Earth_Shrine/Card_Arcade_Warband_Clan_Earth_Shrine_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Clan_Earth_Shrine/Card_Arcade_Warband_Clan_Earth_Shrine_FK_back.png', 
+'http://htkb.online/SDWiki/SDE/FK/Arcade/Cards/Warbands/Clan_Earth_Shrine/Clan_Earth_Shrine.xhtml', 
+'Warband', 'FK', 'FK Core Set', 'Arcade', 
+'');
+insert into Characters (CardIndex) VALUES (754);
+insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
+VALUES (364, 0, -1);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (364, 3); --Ruby
+--GangMemberIndex 135
+insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
+VALUES (97, 0, 'Elemental Shrine', 'Paired Spawning Point', '', 0, 0, 1, 256);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (135, 268); --Immune: Status Effects
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (135, 214); --Elemental Affinity
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (135, 347); --Stealth
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (135, 378); --Spawning Pool
+
+--Mystic Team --CardIndex 755	--CharacterIndex 365	--ArcadeCharacterIndex 98
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Mystic Team',
+'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Clan_Earth_Shrine/Card_Arcade_Warband_Clan_Earth_Shrine_Mystic_Team_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Clan_Earth_Shrine/Card_Arcade_Warband_Clan_Earth_Shrine_Mystic_Team_FK_back.png', 
+'http://htkb.online/SDWiki/SDE/FK/Arcade/Cards/Warbands/Clan_Earth_Shrine/Mystic_Team.xhtml', 
+'Warband', 'FK', 'FK Core Set', 'Arcade', 
+'');
+insert into Characters (CardIndex) VALUES (755);
+insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
+VALUES (365, 124, 354);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (365, 3); --Ruby
+--GangMemberIndex 136
+insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
+VALUES (98, 0, 'Madoushi', 'Ninja', 'Elite', 6, 2, 1, 260);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (136, 415);--Augment
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (136, 300);--Poison
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (136, 348); --Stealth
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (136, 323); --Poisoned Weapons
+--GangMemberIndex 137
+insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
+VALUES (98, 1, 'Kaiken', 'Bonded Ninja', 'Minion', 6, 1, 1, 258);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (137, 175); --Back Strike
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (137, 190); --Bruiser
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (137, 348); --Stealth
+--GangMemberIndex 138
+insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
+VALUES (98, 2, 'Yajiri', 'Bonded Ninja', 'Minion', 6, 1, 0, 261);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (138, 315); --Reach
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (138, 348); --Stealth
+
+--Scout Team --CardIndex 756	--CharacterIndex 366	--ArcadeCharacterIndex 99
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Scout Team',
+'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Clan_Earth_Shrine/Card_Arcade_Warband_Clan_Earth_Shrine_Scout_Team_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Clan_Earth_Shrine/Card_Arcade_Warband_Clan_Earth_Shrine_Scout_Team_FK_back.png', 
+'http://htkb.online/SDWiki/SDE/FK/Arcade/Cards/Warbands/Clan_Earth_Shrine/Scout_Team.xhtml', 
+'Warband', 'FK', 'FK Core Set', 'Arcade', 
+'');
+insert into Characters (CardIndex) VALUES (756);
+insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
+VALUES (366, 122, 133);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (366, 2); --Emerald
+--GangMemberIndex 139
+insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
+VALUES (99, 0, 'Kunoichi', 'Ninja', 'Elite', 8, 1, 1, 259);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (139, 415); --Augment
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (139, 348); --Stealth
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (139, 353); --Surge
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (139, 675); --Wind in the Forest
+--GangMemberIndex 140
+insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
+VALUES (99 , 1, 'Kunoichi', 'Bonded Ninja', 'Elite', 8, 1, 1, 259);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (140, 415); --Augment
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (140, 348); --Stealth
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (140, 566); --Smoke Bomb
+
+--Strike Team --CardIndex 757	--CharacterIndex 367	--ArcadeCharacterIndex 100
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Strike Team',
+'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Clan_Earth_Shrine/Card_Arcade_Warband_Clan_Earth_Shrine_Strike_Team_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Clan_Earth_Shrine/Card_Arcade_Warband_Clan_Earth_Shrine_Strike_Team_FK_back.png', 
+'http://htkb.online/SDWiki/SDE/FK/Arcade/Cards/Warbands/Clan_Earth_Shrine/Strike_Team.xhtml', 
+'Warband', 'FK', 'FK Core Set', 'Arcade', 
+'');
+insert into Characters (CardIndex) VALUES (757);
+insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
+VALUES (367, 232, 353);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (367, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (367, 2); --Emerald
+--GangMemberIndex 141
+insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
+VALUES (100, 0, 'Chunin', 'Ninja', 'Elite', 6, 3, 1, 257);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (141, 275); --Knockdown
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (141, 348); --Stealth
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (141, 502); --Precision Strike
+--GangMemberIndex 142
+insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
+VALUES (100, 1, 'Kaiken', 'Bonded Ninja', 'Minion', 6, 1, 1, 258);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (142, 175); --Back Strike
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (142, 190); --Bruiser
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (142, 348); --Stealth
+--GangMemberIndex 143
+insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
+VALUES (100, 2, 'Yajiri', 'Bonded Ninja', 'Minion', 6, 1, 0, 261);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (143, 291); --Mob
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (143, 315); --Reach
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (143, 348); --Stealth
+
+
+--Clan Wind Shrine
+--Elemental Shrine --CardIndex 758	--CharacterIndex 368	--ArcadeCharacterIndex 101
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Elemental Shrine',
+'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Clan_Wind_Shrine/Card_Arcade_Warband_Clan_Wind_Shrine_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Clan_Wind_Shrine/Card_Arcade_Warband_Clan_Wind_Shrine_FK_back.png', 
+'http://htkb.online/SDWiki/SDE/FK/Arcade/Cards/Warbands/Clan_Wind_Shrine/Clan_Wind_Shrine.xhtml', 
+'Warband', 'FK', 'FK Core Set', 'Arcade', 
+'');
+insert into Characters (CardIndex) VALUES (758);
+insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
+VALUES (368, 0, -1);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (368, 3); --Ruby
+--GangMemberIndex 144
+insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
+VALUES (101, 0, 'Elemental Shrine', 'Paired Spawning Point', '', 0, 0, 1, 268);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (144, 268); --Immune: Status Effects
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (144, 214); --Elemental Affinity
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (144, 347); --Stealth
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (144, 378); --Spawning Pool
+
+--Mystic Team --CardIndex 759	--CharacterIndex 369	--ArcadeCharacterIndex 102
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Mystic Team',
+'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Clan_Wind_Shrine/Card_Arcade_Warband_Clan_Wind_Shrine_Mystic_Team_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Clan_Wind_Shrine/Card_Arcade_Warband_Clan_Wind_Shrine_Mystic_Team_FK_back.png', 
+'http://htkb.online/SDWiki/SDE/FK/Arcade/Cards/Warbands/Clan_Wind_Shrine/Mystic_Team.xhtml', 
+'Warband', 'FK', 'FK Core Set', 'Arcade', 
+'');
+insert into Characters (CardIndex) VALUES (759);
+insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
+VALUES (369, 124, 354);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (369, 3); --Ruby
+--GangMemberIndex 145
+insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
+VALUES (102, 0, 'Madoushi', 'Ninja', 'Elite', 6, 2, 1, 272);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (145, 415);--Augment
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (145, 300);--Poison
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (145, 348); --Stealth
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (145, 323); --Poisoned Weapons
+--GangMemberIndex 146
+insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
+VALUES (102, 1, 'Kaiken', 'Bonded Ninja', 'Minion', 6, 1, 1, 270);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (146, 175); --Back Strike
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (146, 190); --Bruiser
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (146, 348); --Stealth
+--GangMemberIndex 147
+insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
+VALUES (102, 2, 'Yajiri', 'Bonded Ninja', 'Minion', 6, 1, 0, 273);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (147, 315); --Reach
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (147, 348); --Stealth
+
+--Scout Team --CardIndex 760	--CharacterIndex 370	--ArcadeCharacterIndex 103
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Scout Team',
+'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Clan_Wind_Shrine/Card_Arcade_Warband_Clan_Wind_Shrine_Scout_Team_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Clan_Wind_Shrine/Card_Arcade_Warband_Clan_Wind_Shrine_Scout_Team_FK_back.png', 
+'http://htkb.online/SDWiki/SDE/FK/Arcade/Cards/Warbands/Clan_Wind_Shrine/Scout_Team.xhtml', 
+'Warband', 'FK', 'FK Core Set', 'Arcade', 
+'');
+insert into Characters (CardIndex) VALUES (760);
+insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
+VALUES (370, 122, 133);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (370, 2); --Emerald
+--GangMemberIndex 148
+insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
+VALUES (103, 0, 'Kunoichi', 'Ninja', 'Elite', 8, 1, 1, 271);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (148, 415); --Augment
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (148, 348); --Stealth
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (148, 353); --Surge
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (148, 675); --Wind in the Forest
+--GangMemberIndex 149
+insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
+VALUES (103 , 1, 'Kunoichi', 'Bonded Ninja', 'Elite', 8, 1, 1, 271);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (149, 415); --Augment
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (149, 348); --Stealth
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (149, 566); --Smoke Bomb
+
+--Strike Team --CardIndex 761	--CharacterIndex 371	--ArcadeCharacterIndex 104
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Strike Team',
+'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Clan_Wind_Shrine/Card_Arcade_Warband_Clan_Wind_Shrine_Strike_Team_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Clan_Wind_Shrine/Card_Arcade_Warband_Clan_Wind_Shrine_Strike_Team_FK_back.png', 
+'http://htkb.online/SDWiki/SDE/FK/Arcade/Cards/Warbands/Clan_Wind_Shrine/Strike_Team.xhtml', 
+'Warband', 'FK', 'FK Core Set', 'Arcade', 
+'');
+insert into Characters (CardIndex) VALUES (761);
+insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
+VALUES (371, 232, 353);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (371, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (371, 2); --Emerald
+--GangMemberIndex 150
+insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
+VALUES (104, 0, 'Chunin', 'Ninja', 'Elite', 6, 3, 1, 269);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (150, 275); --Knockdown
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (150, 348); --Stealth
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (150, 502); --Precision Strike
+--GangMemberIndex 151
+insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
+VALUES (104, 1, 'Kaiken', 'Bonded Ninja', 'Minion', 6, 1, 1, 270);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (151, 175); --Back Strike
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (151, 190); --Bruiser
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (151, 348); --Stealth
+--GangMemberIndex 152
+insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
+VALUES (104, 2, 'Yajiri', 'Bonded Ninja', 'Minion', 6, 1, 0, 273);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (152, 291); --Mob
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (152, 315); --Reach
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (152, 348); --Stealth
+
+
+
+
+

@@ -1,4 +1,8 @@
---2.0 Heroes
+--SDE
+--2.0 
+--Heroes
+
+
 --Abominable Snowman --CardIndex 762	--CharacterIndex 371	--ExploreCharacterIndex 267
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Abominable Snowman', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Abominable_Snowman_2.0.png', 
@@ -26,7 +30,6 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (267, 3, 5); --Will
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (267, 2); --Armor
 
-
 --Adzuki --CardIndex 763	--CharacterIndex 372	--ExploreCharacterIndex 268
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Adzuki', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Adzuki_2.0.png', 
@@ -50,7 +53,6 @@ insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (268
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (268, 2000); --Water Bowl
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (268, 1, 1); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (268, 2); --Armor
-
 
 --Akkorokamui --CardIndex 764	--CharacterIndex 373	--ExploreCharacterIndex 269
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Akkorokamui', 
@@ -76,7 +78,6 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (269, 4, 5); --Dex
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (269, 2); --Armor
 
-
 --Alberdus --CardIndex 765	--CharacterIndex 374	--ExploreCharacterIndex 270
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Alberdus', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Alberdus_2.0.png', 
@@ -99,7 +100,6 @@ insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (270
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (270, 1507); --Phalanx Phial
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (270, 1, 1); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (270, 2); --Armor
-
 
 --Angry Bear --CardIndex 766	--CharacterIndex 375	--ExploreCharacterIndex 271
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Angry Bear', 
@@ -509,20 +509,19 @@ insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (285
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (285, 1, 1); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (285, 2); --Armor
 
-
---Blizzard Wizzard --CardIndex 782	--CharacterIndex 391	--ExploreCharacterIndex 286
+--Blizzard Wizard --CardIndex 782	--CharacterIndex 391	--ExploreCharacterIndex 286
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Blizzard Wizzard', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Blizzard_Wizzard_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Blizzard_Wizzard_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Blizzard_Wizzard.xhtml', 
+'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Blizzard_Wizard_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Blizzard_Wizard_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Blizzard_Wizard.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
 'Ah, it is cold today my friend. Please, come warm yourself by my fire. What fire? Why this one right here? Oh dear, it appears to have gone cold. No bother, we shall shift to ourt true forms and be nice and toasty! You cannot shift, you say? That is most unfortunate. I suppose you will freeze then. A most unpleasant turn of affairs if I do say so. -- Recollections of a frostbitten freyjan');
 insert into Characters (CardIndex) VALUES (782);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (391, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (391, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Blizzard_Wizzard_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Blizzard_Wizzard_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Blizzard_Wizard_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Blizzard_Wizard_2.0_back.png',
 'Masculine', 'Small', 'Human', 6, 3, '1B 3B', '2R', '3B', '1B 1R', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (286, 668); --Ice
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (286, 709); --Knockdown
@@ -531,7 +530,6 @@ insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (286
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (286, 905); --Cold Press Coffee
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (286, 3, 5); --Will
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (286, 2); --Armor
-
 
 --Bomb-Blast Prophet --CardIndex 783	--CharacterIndex 392	--ExploreCharacterIndex 287
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Bomb-Blast Prophet', 
@@ -715,7 +713,7 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (2
 
 --Captain of the Guard --CardIndex 790	--CharacterIndex 399	--ExploreCharacterIndex 294
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Captain of the Guard', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Captain_of_the Guard_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Captain_of_the_Guard_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Captain_of_the_Guard_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Captain_of_the_Guard.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
@@ -724,7 +722,7 @@ insert into Characters (CardIndex) VALUES (790);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (399, 4); --Sapphire
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (399, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Captain_of_the Guard_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Captain_of_the_Guard_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Captain_of_the_Guard_2.0_back.png',
 'Masculine', 'Small', 'Human', 6, 3, '3B', '2B 1R', '3B', '2B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (294, 455); --Bane
@@ -956,10 +954,9 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (302, 2); --Armor
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (302, 3); --Will
 
-
 --Celestian Purifier --CardIndex 799	--CharacterIndex 408	--ExploreCharacterIndex 303
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Celestian Purifier', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Celestian Purifier_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Celestian_Purifier_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Celestian_Purifier_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Celestian_Purifier.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
@@ -968,7 +965,7 @@ insert into Characters (CardIndex) VALUES (799);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (408, 4); --Sapphire
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (408, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Celestian Purifier_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Celestian_Purifier_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Celestian_Purifier_2.0_back.png',
 'Feminine', 'Small', 'Celestian', 7, 3, '2B', '3B', '2R', '3B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (303, 596); --Fly
@@ -980,7 +977,6 @@ insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (303
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (303, 3, 1); --Will
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (303, 4, 3); --Dex
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (303, 2); --Armor
-
 
 --Chuy --CardIndex 800	--CharacterIndex 409	--ExploreCharacterIndex 304
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Chuy', 
@@ -1007,7 +1003,6 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (304, 4, 6); --Dex
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (304, 2); --Armor
 
-
 --Claw Tribe Barbarian (feminine) --CardIndex 801	--CharacterIndex 410	--ExploreCharacterIndex 305
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Claw Tribe Barbarian', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Claw_Tribe_Barbarian_feminine_2.0.png', 
@@ -1030,7 +1025,6 @@ insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (305
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (305, 1, 1); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (305, 2); --Armor
 
-
 --Claw Tribe Barbarian (masculine) --CardIndex 802	--CharacterIndex 411	--ExploreCharacterIndex 306
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Claw Tribe Barbarian', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Claw_Tribe_Barbarian_masculine_2.0.png', 
@@ -1052,7 +1046,6 @@ insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (306
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (306, 1200); --Fury's Blood
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (306, 1, 1); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (306, 2); --Armor
-
 
 --Clockwork Contraption --CardIndex 803	--CharacterIndex 412	--ExploreCharacterIndex 307
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Clockwork Contraption', 
@@ -1420,7 +1413,6 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (320, 4, 8); --Dex
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (320, 2); --Armor
 
-
 --Fed-Up Farmer --CardIndex 817	--CharacterIndex 426	--ExploreCharacterIndex 321
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Fed-Up Farmer', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Fed_Up_Farmer_2.0.png', 
@@ -1444,7 +1436,6 @@ insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (321
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (321, 1, 3); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (321, 2); --Armor
 
-
 --Formless Hanzo --CardIndex 818	--CharacterIndex 427	--ExploreCharacterIndex 322
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Formless Hanzo', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Formless_Hanzo_2.0.png', 
@@ -1452,7 +1443,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Formless_Hanzo.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
 '"Be water, my friend."');
-insert into Characters (CardIndex) VALUES (321);
+insert into Characters (CardIndex) VALUES (818);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (427, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (427, 
@@ -4284,7 +4275,6 @@ insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (433
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (433, 1, 3); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (433, 2); --Armor
 
-
 --Zenyo Ryu --CardIndex 930	--CharacterIndex 838	--ExploreCharacterIndex 434
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Zenyo Ryu', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Zenyo_Ryu_2.0.png', 
@@ -4307,105 +4297,4 @@ insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (434
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (434, 1, 2); --Strength
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (434, 3, 5); --Will
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (434, 2); --Armor
-
---Bladedancer --CardIndex 931	--CharacterIndex 839	--ExploreCharacterIndex 435
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Bladedancer', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Bladedancer_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Bladedancer_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Bladedancer.xhtml', 
-'Hero', '2.0', '2.0 Core Set', 'Default', 
-'The Lunar Elf Bladedancer schools are long forgotten memories.  Combining swordsmanship with grace and fluidity, they elevated their craft to an art.  Over the centuries the Dark Prince Monach Tvar has ruthlessly eradicated the last vestiges of this proud martial heritage.  Now the few remaining Bladedancers wander Crystalia seeking the rare, gifted apprentice who can carry on their skills.');
-insert into Characters (CardIndex) VALUES (931);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (839, 2); --Emerald
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (839, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Bladedancer_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Bladedancer_2.0_back.png',
-'Feminine', 'Small', 'Elf', 6, 3, '2R', '2R', '2B', '2R', 5, 1);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (435, 518); --Counterstrike
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (435, 533); --Deadly Defense
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (435, 544); --Defender
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (435, 728); --Massive Damage
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (435, 815); --Pounce
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (435, 2065); --Viper's Strike
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (435, 2056); --Night's Mercy, The
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (435, 2043); --At Your Back
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (435, 2061); --Tears of the Moon
-insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (435, 1, 2); --Strength
-insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (435, 2); --Armor
-
---Dazzled --CardIndex 932	--CharacterIndex 840	--ExploreCharacterIndex 436
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Dazzled', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Dazzled_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Dazzled_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Dazzled.xhtml', 
-'Hero', '2.0', '2.0 Core Set', 'Default', 
-''); --!! unavailable !!
-insert into Characters (CardIndex) VALUES (932);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (840, 4); --Sapphire
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (840, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Dazzled_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Dazzled_2.0_back.png',
-'Feminine', 'Small', 'Human', 6, 3, '3B', '3B', '3B', '2B', 5, 1);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (436, 609); --Found A Shiny
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (436, 647); --Hex
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (436, 685); --Improved Critical
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (436, 708); --Knockdown
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (436, 728); --Massive Damage
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (436, 2059); --SparkleBOOM
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (436, 2049); --Fireworks
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (436, 2053); --Lights In Your Eyes
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (436, 2050); --Glitter Bomb
-insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (436, 3, 8); --Will
-insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (436, 2); --Armor
-
---Outcast Vampyr --CardIndex 933	--CharacterIndex 841	--ExploreCharacterIndex 437
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Outcast Vampyr', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Outcast_Vampyr_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Outcast_Vampyr_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Outcast_Vampyr.xhtml', 
-'Hero', '2.0', '2.0 Core Set', 'Default', 
-'Baron Von Drakk is not a fan of other vampires.  In order to remain in his good graces they must show total obedience to his whims.  While such deference can reap great rewards, more headstrong vampires seek alternate paths to achieve the glory they so rightfully deserve.  A small few even attempt to tread the Hero''s path.  They are rarely welcome warmly.  Thus the Guild du Vampyr was formed in an effort at rebranding.  It has found surprising success with the more shadowy heoric elements.  They''re even considering frachising.');
-insert into Characters (CardIndex) VALUES (933);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (841, 0); --Amethyst
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (841, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Outcast_Vampyr_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Outcast_Vampyr_2.0_back.png',
-'Masculine', 'Small', 'Undead', 6, 3, '2B', '3B', '3B', '3B', 5, 1);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (437, 596); --Fly
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (437, 1086); --Heart Attack
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (437, 662); --Hunger
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (437, 2060); --Taste of You, A
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (437, 2046); --Dance of the Dead, The
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (437, 2054); --Look Into My Eyes
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (437, 2047); --Essence of Vampire
-insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (437, 3, 3); --Will
-insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (437, 4, 2); --Dex
-insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (437, 2); --Armor
-
---Royal Academic --CardIndex 934	--CharacterIndex 842	--ExploreCharacterIndex 438
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Royal Academic', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Royal_Academic_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Royal_Academic_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Royal_Academic.xhtml', 
-'Hero', '2.0', '2.0 Core Set', 'Default', 
-''); --!! unavailable !!
-insert into Characters (CardIndex) VALUES (934);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (842, 3); --Ruby
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (842, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Royal_Academic_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Royal_Academic_2.0_back.png',
-'Feminine', 'Small', 'Human', 6, 3, '2B', '3B', '2R', '3B', 5, 2);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (438, 506); --Clever
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (438, 647); --Hex
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (438, 713); --Leadership
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (438, 2062); --Textbook Curse
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (438, 2052); --Let's Discuss Our Plan
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (438, 2064); --Ultra Caffeinated Cramming Potion
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (438, 2055); --Memorized Healing Potion
-insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (438, 3, 4); --Will
-insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (438, 2); --Armor
 

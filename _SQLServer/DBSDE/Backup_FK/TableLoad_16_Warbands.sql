@@ -1,4 +1,8 @@
---FK --Warband Monsters
+--SDE
+--FK 
+--Warband Monsters
+
+
 --Bramble Knight
 --Bramble Knight --CardIndex 268 --CharacterIndex 183 --ExploreCharacterIndex 183
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
