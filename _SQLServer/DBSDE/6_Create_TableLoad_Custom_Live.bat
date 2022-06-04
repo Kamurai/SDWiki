@@ -6,6 +6,7 @@
 ' ' > TableLoad_E_1.0_Custom.sql
 ' ' > TableLoad_F_Custom.sql
 ' ' > TableLoad_G_2.0.2.sql
+
 type .\Backup_1.0.1\TableLoad_01_Keywords.sql >> TableLoad_A_1.0.1.sql
 type .\Backup_1.0.1\TableLoad_02_Abilities.sql >> TableLoad_A_1.0.1.sql
 type .\Backup_1.0.1\TableLoad_10_Heroes.sql >> TableLoad_A_1.0.1.sql
@@ -17,6 +18,7 @@ type .\Backup_1.0.1\TableLoad_20_Boss_Spawns.sql >> TableLoad_A_1.0.1.sql
 type .\Backup_1.0.1\TableLoad_21_Equipment.sql >> TableLoad_A_1.0.1.sql
 type .\Backup_1.0.1\TableLoad_40_Terrain.sql >> TableLoad_A_1.0.1.sql
 type .\Backup_1.0.1\TableLoad_41_Utilities.sql >> TableLoad_A_1.0.1.sql
+
 type .\Backup_FK\TableLoad_01_Keywords.sql >> TableLoad_B_FK.sql
 type .\Backup_FK\TableLoad_02_Abilities.sql >> TableLoad_B_FK.sql
 type .\Backup_FK\TableLoad_10_Heroes.sql >> TableLoad_B_FK.sql
@@ -38,6 +40,7 @@ type .\Backup_FK\TableLoad_40_Terrain.sql >> TableLoad_B_FK.sql
 type .\Backup_FK\TableLoad_41_Utilities.sql >> TableLoad_B_FK.sql
 type .\Backup_FK\TableLoad_42_Explores.sql >> TableLoad_B_FK.sql
 type .\Backup_FK\TableLoad_50_Heroes.sql >> TableLoad_B_FK.sql
+
 type .\Backup_2.0.1\TableLoad_01_Keywords.sql >> TableLoad_C_2.0.1.sql
 type .\Backup_2.0.1\TableLoad_02_Abilities.sql >> TableLoad_C_2.0.1.sql
 type .\Backup_2.0.1\TableLoad_10_Heroes.sql >> TableLoad_C_2.0.1.sql
@@ -61,6 +64,7 @@ type .\Backup_2.0.1\TableLoad_44_Challenges.sql >> TableLoad_C_2.0.1.sql
 type .\Backup_2.0.1\TableLoad_45_MightyMonsterCards.sql >> TableLoad_C_2.0.1.sql
 type .\Backup_2.0.1\TableLoad_46_Consul_Power_Ups.sql >> TableLoad_C_2.0.1.sql
 type .\Backup_2.0.1\TableLoad_47_Difficulty.sql >> TableLoad_C_2.0.1.sql
+
 type .\Backup_1.0.2\TableLoad_01_Keywords.sql >> TableLoad_D_1.0.2.sql
 type .\Backup_1.0.2\TableLoad_02_Abilities.sql >> TableLoad_D_1.0.2.sql
 type .\Backup_1.0.2\TableLoad_10_Heroes.sql >> TableLoad_D_1.0.2.sql
@@ -72,6 +76,7 @@ type .\Backup_1.0.2\TableLoad_20_Boss_Spawns.sql >> TableLoad_D_1.0.2.sql
 type .\Backup_1.0.2\TableLoad_21_Equipment.sql >> TableLoad_D_1.0.2.sql
 type .\Backup_1.0.2\TableLoad_40_Terrain.sql >> TableLoad_D_1.0.2.sql
 type .\Backup_1.0.2\TableLoad_41_Utilities.sql >> TableLoad_D_1.0.2.sql
+
 type .\Backup_1.0_Custom\TableLoad_01_Keywords.sql >> TableLoad_E_1.0_Custom.sql
 type .\Backup_1.0_Custom\TableLoad_02_Abilities.sql >> TableLoad_E_1.0_Custom.sql
 type .\Backup_1.0_Custom\TableLoad_10_Heroes.sql >> TableLoad_E_1.0_Custom.sql
@@ -104,6 +109,7 @@ type .\Backup_Custom\TableLoad_41_Utilities.sql >> TableLoad_F_Custom.sql
 
 type .\Backup_2.0.2\TableLoad_01_Keywords.sql >> TableLoad_G_2.0.2.sql
 type .\Backup_2.0.2\TableLoad_02_Abilities.sql >> TableLoad_G_2.0.2.sql
+
 type _Tables.sql >> TableLoad_Main.sql
 type TableLoad_A_1.0.1.sql >> TableLoad_Main.sql
 type TableLoad_B_FK.sql >> TableLoad_Main.sql
