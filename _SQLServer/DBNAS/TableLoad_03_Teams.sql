@@ -69,12 +69,3 @@ values('Yamazaru Clan', '');
 insert into AffinityAssignments (TeamIndex, AffinityIndex) VALUES (11, 1); --Earth
 
 
-
-
-
-
-
-
-
-
-

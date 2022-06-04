@@ -1,4 +1,4 @@
---drop table Affinities, Attributes, Keywords, Cards, Shinobi, AffinityAssignments, MoonCards, Utilities, KeywordAssignments;
+--drop table Affinities, Attributes, Teams, Keywords, Cards, Shinobi, MoonCards, Utilities, AffinityAssignments, KeywordAssignments, TeamAssignments;
 
 create table Affinities (AffinityIndex bigint IDENTITY(0,1) PRIMARY KEY, AffinityType varchar(50) not null);
 insert into Affinities (AffinityType) VALUES ('Air'); --0
@@ -18,7 +18,7 @@ insert into Attributes (Attribute) VALUES ('Koban'); --3
 create table Teams (TeamIndex bigint IDENTITY(0,1) PRIMARY KEY, TeamName varchar(20) not null, Quickplay varchar(100) not null);
 
 --Keywords
-create table Keywords (KeywordIndex bigint IDENTITY(0,1) PRIMARY KEY, KeywordVersion varchar(20) not null, KeywordType varchar(20) not null, KeywordName varchar(50) not null, KeywordDescription varchar(1000) not null);
+create table Keywords (KeywordIndex bigint IDENTITY(0,1) PRIMARY KEY, KeywordVersion varchar(20) not null, KeywordName varchar(50) not null, KeywordDescription varchar(1000) not null);
 
 --Cards
 create table Cards (CardIndex bigint IDENTITY(0,1) PRIMARY KEY, CardName varchar(50) not null, PictureFront varchar(150) not null, PictureBack varchar(150) not null, Link varchar(125) not null, CardType varchar(20) not null, ProductSet varchar(20) not null, ProductModule varchar(20) not null, Flavor varchar(1250));
@@ -35,21 +35,3 @@ create table Utilities (UtilityIndex bigint IDENTITY(0,1) PRIMARY KEY, CardIndex
 create table AffinityAssignments (AffinityAssignmentIndex bigint IDENTITY(0,1) PRIMARY KEY, AffinityIndex bigint not null, ShinobiIndex bigint, TeamIndex bigint, MoonCardIndex bigint);
 create table KeywordAssignments (KeywordAssignmentIndex bigint IDENTITY(0,1) PRIMARY KEY, KeywordIndex bigint not null, ShinobiIndex bigint, TeamIndex bigint, UtilityIndex bigint);
 create table TeamAssignments (TeamAssignmentIndex bigint IDENTITY(0,1) PRIMARY KEY, TeamIndex bigint not null, ShinobiIndex bigint not null);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
