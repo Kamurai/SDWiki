@@ -13,7 +13,7 @@ public class DbInfo {
     public String getDbName(){
         return dbName;
     }
-    private String dbUsername  = "sa";
+    private String dbUsername  = "publicAccess";
     public String getDbUsername(){
         return dbUsername;
     }
@@ -26,7 +26,7 @@ public class DbInfo {
         driver      = "com.microsoft.jdbc.sqlserver.SQLServerDriver";
         url         = "jdbc:sqlserver://localhost";
         dbName      = ";DatabaseName=SDWiki";
-        dbUsername  = "sa";
+        dbUsername  = "publicAccess";
         dbPassword  = "yellow23";
     }
 }
