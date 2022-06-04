@@ -47,4 +47,10 @@ public class NavItem {
     public String getPicture() {
         return picture;
     }
+    
+    
+
+    public void setPicture(String input) {
+        this.picture = input;
+    }
 }

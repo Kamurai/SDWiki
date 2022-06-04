@@ -49,6 +49,8 @@ public class Bean{
             result = "./Content/Index.xhtml";
         }else if(page.compareTo("AboutUs") == 0){
             result = "./Content/AboutUs.xhtml";
+        }else if(page.compareTo("Discord") == 0){
+            result = "./Content/Discord.xhtml";
         }
         
         return result;
