@@ -8,7 +8,7 @@ VALUES ('Deputy',
 'http://htkb.info/RRI/Cards/Lawbots/Card_Lawbots.png', 
 'http://htkb.info/RRI/Cards/Long_Arm_of_the_Law/Card_LongArmOfTheLaw_Back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/Lawbots/Deputy.xhtml', 
-'Lawbot', 'RRI', 'RRI Core Set', 'Default', 
+'Lawbot', 'RRI', 'RRI Core Set',  
 '', 
 ''
 );
@@ -30,7 +30,7 @@ VALUES ('Sheriff',
 'http://htkb.info/RRI/Cards/Lawbots/Card_Lawbots.png', 
 'http://htkb.info/RRI/Cards/Long_Arm_of_the_Law/Card_LongArmOfTheLaw_Back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/Lawbots/Sheriff.xhtml', 
-'Lawbot', 'RRI', 'RRI Core Set', 'Default', 
+'Lawbot', 'RRI', 'RRI Core Set',  
 '', 
 ''
 );
@@ -52,7 +52,7 @@ VALUES ('Marshal',
 'http://htkb.info/RRI/Cards/Lawbots/Card_Lawbots.png', 
 'http://htkb.info/RRI/Cards/Long_Arm_of_the_Law/Card_LongArmOfTheLaw_Back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/Lawbots/Marshal.xhtml', 
-'Lawbot', 'RRI', 'RRI Core Set', 'Default', 
+'Lawbot', 'RRI', 'RRI Core Set',  
 '', 
 ''
 );
@@ -74,7 +74,7 @@ VALUES ('Cavalry Soldier',
 'http://htkb.info/RRI/Cards/Lawbots/Card_Lawbot_Cavalry_Soldier.png', 
 'http://htkb.info/RRI/Cards/Long_Arm_of_the_Law/Card_LongArmOfTheLaw_Back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/Lawbots/Cavalry_Soldier.xhtml', 
-'Lawbot', 'RRI', 'RRI Core Set', 'Default', 
+'Lawbot', 'RRI', 'RRI Core Set',  
 '', 
 ''
 );
@@ -97,7 +97,7 @@ VALUES ('Cavalry_Captain',
 'http://htkb.info/RRI/Cards/Lawbots/Card_Lawbot_Cavalry_Captain.png', 
 'http://htkb.info/RRI/Cards/Long_Arm_of_the_Law/Card_LongArmOfTheLaw_Back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/Lawbots/Cavalry_Captain.xhtml', 
-'Lawbot', 'RRI', 'RRI Core Set', 'Default', 
+'Lawbot', 'RRI', 'RRI Core Set',  
 '', 
 ''
 );
@@ -120,7 +120,7 @@ VALUES ('Palbearer',
 'http://htkb.info/RRI/Cards/Lawbots/Card_Lawbot_Palbearer.png', 
 'http://htkb.info/RRI/Cards/Long_Arm_of_the_Law/Card_LongArmOfTheLaw_Back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/Lawbots/Palbearer.xhtml', 
-'Lawbot', 'RRI', 'RRI Core Set', 'Default', 
+'Lawbot', 'RRI', 'RRI Core Set',  
 '', 
 ''
 );
@@ -143,7 +143,7 @@ VALUES ('Preacher',
 'http://htkb.info/RRI/Cards/Lawbots/Card_Lawbot_Preacher.png', 
 'http://htkb.info/RRI/Cards/Long_Arm_of_the_Law/Card_LongArmOfTheLaw_Back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/Lawbots/Preacher.xhtml', 
-'Lawbot', 'RRI', 'RRI Core Set', 'Default', 
+'Lawbot', 'RRI', 'RRI Core Set',  
 '', 
 ''
 );
@@ -154,7 +154,6 @@ VALUES (30,
 'Neither');
 insert into Lawbots (CharacterIndex, RankType, Dollars) 
 VALUES (31,
-'Neither',
 'Marshal',
 3);
 insert into KeywordAssignments (LawbotIndex, KeywordIndex) VALUES (6, 25); --Lawbot
@@ -167,7 +166,7 @@ VALUES ('999',
 'http://htkb.info/RRI/Cards/Long_Arm_of_the_Law/Card_LongArmOfTheLaw_999.png', 
 'http://htkb.info/RRI/Cards/Long_Arm_of_the_Law/Card_LongArmOfTheLaw_Back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/Lawbots/999.xhtml', 
-'Lawbot', 'RRI', 'RRI Core Set', 'Default', 
+'Lawbot', 'RRI', 'RRI Core Set',  
 '', 
 ''
 );
@@ -190,7 +189,7 @@ VALUES ('Lt_Deadeye',
 'http://htkb.info/RRI/Cards/Long_Arm_of_the_Law/Card_LongArmOfTheLaw_LT_Deadeye.png', 
 'http://htkb.info/RRI/Cards/Long_Arm_of_the_Law/Card_LongArmOfTheLaw_Back.png', 
 'http://htkb.online/SDWiki/RRI/Cards/Lawbots/LT_Deadeye.xhtml', 
-'Lawbot', 'RRI', 'RRI Core Set', 'Default', 
+'Lawbot', 'RRI', 'RRI Core Set',  
 '', 
 ''
 );

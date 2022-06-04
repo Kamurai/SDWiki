@@ -2,15 +2,15 @@
 --RRI
 --Utility Cards
 
---Hands --CardIndex cXXX --UtilityIndex 0
-insert into Cards (CardIndex, CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor, Lore) 
-VALUES (cXXX, 'Hands', 
+--Hands --CardIndex 108 --UtilityIndex 0
+insert into Cards (CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor, Lore) 
+VALUES ('Hands', 
 'http://htkb.info/RRI/Cards/Utility/Card_Utility_Hands.png', 
 'http://htkb.info/RRI/Cards/Utility/Card_Utility_Hands.png', 
 'http://htkb.online/SDWiki/RRI/Cards/Utility/Hands.xhtml', 
-'Utility', 'RRI', 'RRI Core Set', 'Default', 
+'Utility', 'RRI', 'RRI Core Set',
 '', 
 ''
 );
-insert into Utilities (CardIndex) VALUES (cXXX, 
+insert into Utilities (CardIndex, UtilityDescription) VALUES (108, 
 '');

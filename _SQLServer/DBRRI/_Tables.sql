@@ -1,4 +1,4 @@
---drop table Keywords, Cards, Raiders, Lawbots, HighNoonCards, LongArmOfTheLawCards, Loot, Utilities, KeywordAssignments;
+--drop table Keywords, Cards, Characters, Raiders, Lawbots, HighNoonCards, LongArmOfTheLawCards, LootCards, Utilities, KeywordAssignments;
 
 create table Keywords (KeywordIndex bigint IDENTITY(0,1) PRIMARY KEY, KeywordVersion varchar(20) not null, KeywordName varchar(50) not null, KeywordDescription varchar(2500) not null);
 
@@ -24,19 +24,4 @@ create table LootCards (LootIndex bigint IDENTITY(0,1) PRIMARY KEY, CardIndex bi
 create table Utilities (UtilityIndex bigint IDENTITY(0,1) PRIMARY KEY, CardIndex bigint not null, UtilityDescription varchar(1000) not null);
 
 create table KeywordAssignments (KeywordAssignmentIndex bigint IDENTITY(0,1) PRIMARY KEY, KeywordIndex bigint not null, RaiderIndex bigint, LawbotIndex bigint, HighNoonCardIndex bigint, LongArmOfTheLawCardIndex bigint, LootIndex bigint, UtilityIndex bigint);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
