@@ -906,30 +906,19 @@ insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (301
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (301, 3, 3); --Will
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (301, 2); --Armor
 
---Celestial Herald --CardIndex 798	--CharacterIndex 408	--ExploreCharacterIndex 302
+--Stub --CardIndex 798	--CharacterIndex 408	--ExploreCharacterIndex 302
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Celestial Herald', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Celestial_Herald_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Celestial_Herald_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Celestial_Herald.xhtml', 
-'Hero', '2.0', '2.0 Core Set', 'Default', 
-'For centuries Celestia has remained isolated from the world below. As the Dark Consul''s shadow once again grows across Crystalia, a few have begun to recognize that they cannot remain aloof to the threat. The arrival of their Heralds signals that Celestia will not submit quietly.');
+'', 
+'', 
+'', 
+'', '', '', '', 
+'');
 insert into Characters (CardIndex) VALUES (798);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (408, 2); --Emerald
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (408, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (408, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Celestial_Herald_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Celestial_Herald_2.0_back.png',
-'Feminine', 'Small', 'Celestian', 7, 3, '2B', '1B', '2R', '3B', 5, 1);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (302, 657); --Hookshot
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (302, 678); --Immune: Knockdown
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (302, 596); --Fly
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (302, 1028); --Divine Arrow
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (302, 1256); --Heart Seeker
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (302, 1244); --Halo Extract
-insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (302, 4, 6); --Dex
-insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (302, 2); --Armor
-insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (302, 3); --Will
+'', 
+'',
+'', '', '', 0, 0, '', '', '', '', 0, 0);
 
 --Celestian Purifier --CardIndex 799	--CharacterIndex 409	--ExploreCharacterIndex 303
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Celestian Purifier', 
