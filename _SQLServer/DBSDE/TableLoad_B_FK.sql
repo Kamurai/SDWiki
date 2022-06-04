@@ -3503,7 +3503,11 @@ VALUES (182,
 'Masculine', 'Small', 'Undead Vampire', 8, 4, '2ST 4B', '2B', '1ST 2R', '3R', 6, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (182, 1, 2); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (182, 2); --Armor
-insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (182, '', 'Super', 4);--FK --Warband Monsters
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (182, '', 'Super', 4);--SDE
+--FK 
+--Warband Monsters
+
+
 --Bramble Knight
 --Bramble Knight --CardIndex 268 --CharacterIndex 183 --ExploreCharacterIndex 183
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
