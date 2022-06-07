@@ -2,7 +2,7 @@
 --2.0
 --Arcade MiniBosses
 
---Arachne	--CardIndex 1286	--CharacterIndex 1189	--ArcadeCharacterIndex 123
+--Arachne	--CardIndex 1286	--CharacterIndex 880	--ArcadeCharacterIndex 123
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Arachne',
 'http:/htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Arachne_2.0.png', 
 'http:/htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Arachne_2.0_back.png', 
@@ -11,8 +11,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Like all Spider Queens, Arachne is a hideous fusion of nether elf and spider.  Young by the standards of elves, Arachne has nonetheless rapidly risen to power.  Vanquishing over a dozen of her Spider Queen rivals in mere months, Arachne has caught the eye of The Midnight Queen and become a vaored lieutenant in the war against the Light.');
 insert into Characters (CardIndex) VALUES (1286);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (1189, 373, -1);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1189, 2); --Emerald
+VALUES (880, 373, -1);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (880, 2); --Emerald
 --GangMemberIndex 571
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (123, 0, 'Arachne', 'Nether Elf Spider', 'MiniBoss', 8, 7, 3, 156);
@@ -22,7 +22,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (571, 679)
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (571, 902); --Cocoon
 
 
---Arashikage	--CardIndex 1287	--CharacterIndex 1190	--ArcadeCharacterIndex 124
+--Arashikage	--CardIndex 1287	--CharacterIndex 881	--ArcadeCharacterIndex 124
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Arashikage',
 'http:/htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Arashikage_2.0.png', 
 'http:/htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Arashikage_2.0_back.png', 
@@ -31,8 +31,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 '"I can kill him, yes, but only if you tell me what I need to know."');
 insert into Characters (CardIndex) VALUES (1287);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (1190, 373, -1);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1190, 1); --Citrine
+VALUES (881, 373, -1);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (881, 1); --Citrine
 --GangMemberIndex 572
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (124, 0, 'Arashikage', 'Human', 'MiniBoss', 7, 7, 3, 157);
@@ -44,7 +44,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (572, 901)
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (572, 753); --Arrow Storm
 
 
---Blood-Eye	--CardIndex 1288	--CharacterIndex 1191	--ArcadeCharacterIndex 125
+--Blood-Eye	--CardIndex 1288	--CharacterIndex 882	--ArcadeCharacterIndex 125
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Blood-Eye',
 'http:/htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Blood_Eye_2.0.png', 
 'http:/htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Blood_Eye_2.0_back.png', 
@@ -53,9 +53,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Blood-Eye, was exiled from the Crook-Eye tribe for his lack of honor and tendency towards unnecessary violence. In truth, Blood-Eye cared little about his exile, having long chafed under the "civilized" tribe''s rules. A ruthless hunter and tracker, Blood-Eye has readily found work among the minions of the Dark Consul.');
 insert into Characters (CardIndex) VALUES (1288);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (1191, 373, -1);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1191, 2); --Emerald
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1191, 4); --Sapphire
+VALUES (882, 373, -1);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (882, 2); --Emerald
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (882, 4); --Sapphire
 --GangMemberIndex 573
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (125, 0, 'Blood-Eye', 'Orc', 'MiniBoss', 6, 8, 3, 158);
@@ -65,7 +65,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (573, 1823
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (573, 2071); --Killshot
 
 
---Cernonos	--CardIndex 1289	--CharacterIndex 1192	--ArcadeCharacterIndex 126
+--Cernonos	--CardIndex 1289	--CharacterIndex 883	--ArcadeCharacterIndex 126
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Cernonos',
 'http:/htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Cernonos_2.0.png', 
 'http:/htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Cernonos_2.0_back.png', 
@@ -74,8 +74,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'At the heart of every maze awaits a monster. Many brave adventurers have lost their way, and Cernonos is always waiting...');
 insert into Characters (CardIndex) VALUES (1289);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (1192, 373, -1);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1192, 2); --Emerald
+VALUES (883, 373, -1);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (883, 2); --Emerald
 --GangMemberIndex 574
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (126, 0, 'Cernonos', 'Nether Elf Spider', 'MiniBoss', 8, 7, 3, 159);
@@ -87,7 +87,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (574, 1252
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (574, 1384); --Lord of the Labyrinth
 
 
---Chained Knight	--CardIndex 1290	--CharacterIndex 1193	--ArcadeCharacterIndex 127
+--Chained Knight	--CardIndex 1290	--CharacterIndex 884	--ArcadeCharacterIndex 127
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Chained Knight',
 'http:/htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Chained_Knight_2.0.png', 
 'http:/htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Chained_Knight_2.0_back.png', 
@@ -96,8 +96,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'One of Araphel''s most terrifying devotees is a hulking figure known simply as the Chained Knight. Such is Araphel''s influence over him that even his name has been consumed and forgotten. Whatever he once was, now he is Araphel''s sword arm, put to use when subtlety has run its course. Even so, many say they sometimes see a flicker of defiance on his face, as if something within him still resists his dark mistress.');
 insert into Characters (CardIndex) VALUES (1290);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (1193, 373, -1);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1193, 0); --Amethyst
+VALUES (884, 373, -1);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (884, 0); --Amethyst
 --GangMemberIndex 575
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (127, 0, 'Chained Knight', 'Demon', 'MiniBoss', 6, 7, 3, 160);
@@ -108,7 +108,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (575, 1150
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (575, 1157); --For Mistress!
 
 
---Chaos Kitty	--CardIndex 1291	--CharacterIndex 1194	--ArcadeCharacterIndex 128
+--Chaos Kitty	--CardIndex 1291	--CharacterIndex 885	--ArcadeCharacterIndex 128
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Chaos Kitty',
 'http:/htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Chaos_Kitty_2.0.png', 
 'http:/htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Chaos_Kitty_2.0_back.png', 
@@ -117,8 +117,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 '"I was just playing with it and then it broke..."');
 insert into Characters (CardIndex) VALUES (1291);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (1194, 373, -1);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1194, 2); --Emerald
+VALUES (885, 373, -1);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (885, 2); --Emerald
 --GangMemberIndex 576
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (128, 0, 'Chaos Kitty', 'Freyjan', 'MiniBoss', 7, 6, 3, 161);
@@ -132,7 +132,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (576, 874)
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (576, 1455); --Naughty Kitty
 
 
---Charmancer	--CardIndex 1292	--CharacterIndex 1195	--ArcadeCharacterIndex 129
+--Charmancer	--CardIndex 1292	--CharacterIndex 886	--ArcadeCharacterIndex 129
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Charmancer',
 'http:/htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Charmancer_2.0.png', 
 'http:/htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Charmancer_2.0_back.png', 
@@ -141,8 +141,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 ''); --!! unavailable !!
 insert into Characters (CardIndex) VALUES (1292);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (1195, 373, -1);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1195, 0); --Amethyst
+VALUES (886, 373, -1);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (886, 0); --Amethyst
 --GangMemberIndex 577
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (129, 0, 'Charmancer', 'Orc', 'MiniBoss', 6, 8, 3, 162);
@@ -151,7 +151,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (577, 1084
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (577, 1338); --KABLOOOOWY!
 
 
---Clan Ika Chunin	--CardIndex 1293	--CharacterIndex 1196	--ArcadeCharacterIndex 130
+--Clan Ika Chunin	--CardIndex 1293	--CharacterIndex 887	--ArcadeCharacterIndex 130
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Clan Ika Chunin',
 'http:/htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Clan_Ika_Chunin_2.0.png', 
 'http:/htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Clan_Ika_Chunin_2.0_back.png', 
@@ -160,8 +160,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 '');
 insert into Characters (CardIndex) VALUES (1293);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (1196, 373, -1);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1196, 1); --Citrine
+VALUES (887, 373, -1);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (887, 1); --Citrine
 --GangMemberIndex 578
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (130, 0, 'Ika Chunin', 'Ika', 'MiniBoss', 6, 7, 3, 163);
@@ -174,7 +174,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (578, 1557
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (578, 1797); --Sweeping Spear
 
 
---Clan Kitsune Chunin	--CardIndex 1294	--CharacterIndex 1197	--ArcadeCharacterIndex 131
+--Clan Kitsune Chunin	--CardIndex 1294	--CharacterIndex 888	--ArcadeCharacterIndex 131
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Clan Kitsune Chunin',
 'http:/htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Clan_Kitsune_Chunin_2.0.png', 
 'http:/htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Clan_Kitsune_Chunin_2.0_back.png', 
@@ -183,8 +183,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'The Kitsune Chunin is the leader of the Kitsune Kunoichi. No outsider knows how the Chunin is chosen from the ranks of the Kunoichi, but it is speculated that Kunoichi are allowed to challenge the current Chunin for the title, ensuring that the strongest and most cunning is always in charge. He or she always wears a face covering in battle to protect their identity should they choose to leave any survivors. The Chunin is equipped with the most deadly of the concoctions for which the Kitsune are famed, often using these poisons to coat their weapons.');
 insert into Characters (CardIndex) VALUES (1294);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (1197, 373, -1);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1197, 1); --Citrine
+VALUES (888, 373, -1);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (888, 1); --Citrine
 --GangMemberIndex 579
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (131, 0, 'Kitsune Chunin', 'Kitsune', 'MiniBoss', 5, 7, 3, 164);
@@ -194,7 +194,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (579, 1468
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (579, 945); --Cunning Blade
 
 
---Clan Sohei Chunin	--CardIndex 1295	--CharacterIndex 1198	--ArcadeCharacterIndex 132
+--Clan Sohei Chunin	--CardIndex 1295	--CharacterIndex 889	--ArcadeCharacterIndex 132
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Clan Sohei Chunin',
 'http:/htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Clan_Sohei_Chunin_2.0.png', 
 'http:/htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Clan_Sohei_Chunin_2.0_back.png', 
@@ -203,8 +203,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Sohei Chunin have faced horrors that would render lesser warriors insane.  But it is not their place to simply face such horrors, but to defeat and banish them back to the Dark Realm.  It is said that the greatest warriors of the clan, do not banish the minions of the Dark Consul, but unmake them entirely.  Ending their threat to Crystalia permanently.');
 insert into Characters (CardIndex) VALUES (1295);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (1198, 373, -1);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1198, 0); --!! unavailable !!
+VALUES (889, 373, -1);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (889, 0); --!! unavailable !!
 --GangMemberIndex 580
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (132, 0, 'Sohei Chunin', 'Sohei', 'MiniBoss', 6, 7, 3, 165);
@@ -217,7 +217,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (580, 1684
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (580, 1870); --Tsunami of Wrath
 
 
---Clan Sohei Oni	--CardIndex 1296	--CharacterIndex 1199	--ArcadeCharacterIndex 133
+--Clan Sohei Oni	--CardIndex 1296	--CharacterIndex 890	--ArcadeCharacterIndex 133
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Clan Sohei Oni',
 'http:/htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Clan_Sohei_Oni_2.0.png', 
 'http:/htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Clan_Sohei_Oni_2.0_back.png', 
@@ -226,8 +226,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 ''); --!! unavailable !!
 insert into Characters (CardIndex) VALUES (1296);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (1199, 373, -1);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1199, 0); --!! unavailable !!
+VALUES (890, 373, -1);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (890, 0); --!! unavailable !!
 --GangMemberIndex 581
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (133, 0, 'Sohei Oni', 'Sohei', 'MiniBoss', 8, 7, 4, 166);
@@ -237,7 +237,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (581, 2072
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (581, 2073); --Mincemeat
 
 
---Clan Spirit Shrine Oni 	--CardIndex 1297	--CharacterIndex 1200	--ArcadeCharacterIndex 134
+--Clan Spirit Shrine Oni 	--CardIndex 1297	--CharacterIndex 891	--ArcadeCharacterIndex 134
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Clan Spirit Shrine Oni',
 'http:/htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Clan_Spirit_Shrine_Oni_2.0.png', 
 'http:/htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Clan_Spirit_Shrine_Oni_2.0_back.png', 
@@ -246,9 +246,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 '');
 insert into Characters (CardIndex) VALUES (1297);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (1200, 373, -1);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1200, 1); --Citrine
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1200, 3); --Ruby
+VALUES (891, 373, -1);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (891, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (891, 3); --Ruby
 --GangMemberIndex 582
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (134, 0, 'Oni', 'Oni', 'MiniBoss', 6, 8, 3, 167);
@@ -257,7 +257,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (582, 1011
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (582, 1022); --Disaster
 
 
---Clan Tanchyo Chunin	--CardIndex 1298	--CharacterIndex 1201	--ArcadeCharacterIndex 135
+--Clan Tanchyo Chunin	--CardIndex 1298	--CharacterIndex 892	--ArcadeCharacterIndex 135
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Clan Tanchyo Chunin',
 'http:/htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Clan_Tanchyo_Chunin_2.0.png', 
 'http:/htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Clan_Tanchyo_Chunin_2.0_back.png', 
@@ -266,8 +266,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'The Tanchyo are known throughout Kagejima for their archery skills, and the Chunin are those who have proven themselves above and beyond even their fellow Tanchyo. Each village only has a single Chunin. Sometimes this individual is a hero of a great battle. Sometimes they have proven themselves in an archery contest. But all Tanchyo Chunin are deadly opponents who can single-handedly rain down a storm of arrows.');
 insert into Characters (CardIndex) VALUES (1298);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (1201, 373, -1);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1201, 2); --Emerald
+VALUES (892, 373, -1);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (892, 2); --Emerald
 --GangMemberIndex 583
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (135, 0, 'Tanchyo Chunin', 'Tanchyo', 'MiniBoss', 7, 7, 3, 168);
@@ -277,7 +277,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (583, 1763
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (583, 1584); --Reposition
 
 
---Clan Tora Chunin	--CardIndex 1299	--CharacterIndex 1202	--ArcadeCharacterIndex 136
+--Clan Tora Chunin	--CardIndex 1299	--CharacterIndex 893	--ArcadeCharacterIndex 136
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Clan Tora Chunin',
 'http:/htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Clan_Tora_Chunin_2.0.png', 
 'http:/htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Clan_Tora_Chunin_2.0_back.png', 
@@ -286,8 +286,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'The Chunin of the Tora employ tactics learned over centuries of battle. Employing the strength of their warriors as a fire attacks a dry forest, or a Tiger pounces on the unwary prey.');
 insert into Characters (CardIndex) VALUES (1299);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (1202, 373, -1);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1202, 1); --Citrine
+VALUES (893, 373, -1);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (893, 1); --Citrine
 --GangMemberIndex 584
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (136, 0, 'Tora Chunin', 'Tora', 'MiniBoss', 5, 7, 3, 169);
@@ -297,7 +297,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (584, 1581
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (584, 1152); --Flurry of Blades
 
 
---Clan Void Shrine Oni 	--CardIndex 1300	--CharacterIndex 1203	--ArcadeCharacterIndex 137
+--Clan Void Shrine Oni 	--CardIndex 1300	--CharacterIndex 894	--ArcadeCharacterIndex 137
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Clan Void Shrine Oni',
 'http:/htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Clan_Void_Shrine_Oni_2.0.png', 
 'http:/htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Clan_Void_Shrine_Oni_2.0_back.png', 
@@ -306,9 +306,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 '');
 insert into Characters (CardIndex) VALUES (1300);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (1203, 373, -1);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1203, 1); --Citrine
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1203, 3); --Ruby
+VALUES (894, 373, -1);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (894, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (894, 3); --Ruby
 --GangMemberIndex 585
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (137, 0, 'Oni', 'Oni', 'MiniBoss', 6, 8, 3, 170);
@@ -317,7 +317,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (585, 1011
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (585, 1022); --Disaster
 
 
---Clan Water Shrine Oni 	--CardIndex 1301	--CharacterIndex 1204	--ArcadeCharacterIndex 138
+--Clan Water Shrine Oni 	--CardIndex 1301	--CharacterIndex 895	--ArcadeCharacterIndex 138
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Clan Water Shrine Oni',
 'http:/htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Clan_Water_Shrine_Oni_2.0.png', 
 'http:/htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Clan_Water_Shrine_Oni_2.0_back.png', 
@@ -326,9 +326,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 '');
 insert into Characters (CardIndex) VALUES (1301);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (1204, 373, -1);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1204, 1); --Citrine
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1204, 3); --Ruby
+VALUES (895, 373, -1);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (895, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (895, 3); --Ruby
 --GangMemberIndex 586
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (138, 0, 'Oni', 'Oni', 'MiniBoss', 6, 8, 3, 171);
@@ -337,7 +337,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (586, 1011
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (586, 1022); --Disaster
 
 
---Clan Yamazaru Chunin	--CardIndex 1302	--CharacterIndex 1205	--ArcadeCharacterIndex 139
+--Clan Yamazaru Chunin	--CardIndex 1302	--CharacterIndex 896	--ArcadeCharacterIndex 139
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Clan Yamazaru Chunin',
 'http:/htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Clan_Yamazaru_Chunin_2.0.png', 
 'http:/htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Clan_Yamazaru_Chunin_2.0_back.png', 
@@ -346,8 +346,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'The Yamazaru are naturally curious and playful. They love new trinquets and fun items, and this even spills over into how they arm themselves for battle. Often, the Yamazaru Chunin is simply the one with the newest weapon, biggest club, or the most new trinquets to share with his or her fellow Yamazaru.');
 insert into Characters (CardIndex) VALUES (1302);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (1205, 373, -1);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1205, 1); --Citrine
+VALUES (896, 373, -1);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (896, 1); --Citrine
 --GangMemberIndex 587
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (139, 0, 'Yamazaru Chunin', 'Yamazaru', 'MiniBoss', 7, 7, 3, 172);
@@ -358,7 +358,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (587, 1429
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (587, 1733); --Spinning Tetsubo
 
 
---Clan Yurei Chunin	--CardIndex 1303	--CharacterIndex 1206	--ArcadeCharacterIndex 140
+--Clan Yurei Chunin	--CardIndex 1303	--CharacterIndex 897	--ArcadeCharacterIndex 140
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Clan Yurei Chunin',
 'http:/htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Clan_Yurei_Chunin_2.0.png', 
 'http:/htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Clan_Yurei_Chunin_2.0_back.png', 
@@ -367,8 +367,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'It is said that the hammers borne by the Yurei Chunin were the very ones used to close the final links of chain that held the Yurei clan nobles to their battle barges when they were cast into the ocean. Cursed with the most vile hatred for the Ika, these weapons are as much symbols of that hatred as they are tools for revenge.');
 insert into Characters (CardIndex) VALUES (1303);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (1206, 373, -1);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1206, 0); --Amethyst
+VALUES (897, 373, -1);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (897, 0); --Amethyst
 --GangMemberIndex 588
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (140, 0, 'Yamazaru Chunin', 'Yamazaru', 'MiniBoss', 7, 7, 3, 173);
@@ -378,7 +378,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (588, 1049
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (588, 1198); --Fury of Eternity
 
 
---Clan Yurei Oni	--CardIndex 1304	--CharacterIndex 1207	--ArcadeCharacterIndex 141
+--Clan Yurei Oni	--CardIndex 1304	--CharacterIndex 898	--ArcadeCharacterIndex 141
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Clan Yurei Oni',
 'http:/htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Clan_Yurei_Oni_2.0.png', 
 'http:/htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Clan_Yurei_Oni_2.0_back.png', 
@@ -387,8 +387,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Amongst the many warriors that were sent to the bottom of the sea during the Yurei rebellion. There were quite a few Oni from some of the outlying islands in the service of Lord Tomomori. Their strength was used to better their way onto the Ika''s castle ships. It is of no difference now, as even in death, they are terrifying and powerful foes. ');
 insert into Characters (CardIndex) VALUES (1304);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (1207, 373, -1);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1207, 0); --Amethyst
+VALUES (898, 373, -1);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (898, 0); --Amethyst
 --GangMemberIndex 589
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (141, 0, 'Yamazaru Chunin', 'Yamazaru', 'MiniBoss', 5, 9, 3, 174);
@@ -399,7 +399,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (589, 1880
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (589, 2074); --Storm of Vengeance
 
 
---Crystal Weaver	--CardIndex 1305	--CharacterIndex 1208	--ArcadeCharacterIndex 142
+--Crystal Weaver	--CardIndex 1305	--CharacterIndex 899	--ArcadeCharacterIndex 142
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Crystal Weaver',
 'http:/htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Crystal Weaver_2.0.png', 
 'http:/htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Crystal Weaver_2.0_back.png', 
@@ -408,8 +408,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'The Midnight Tower is guarded by any number of nefarious traps, henchmen, and monsters. But none compare to the Crystal Golem in pure corruption and unfeeling malignance. Once a sacred keeper of the Goddess Chamber, the Crystal Golem was one of the wonders of Crystalia. That the Midnight Queen was able to taint it in both heart and form is a stain upon the land. Once in the shape of a mighty knight, the golem has taken on the twisted form of one of the Queen''s spiders, and stalks the halls of her tower hunting down unfortunate Heroes with unfeeling adeptness.');
 insert into Characters (CardIndex) VALUES (1305);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (1208, 373, -1);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1208, 0); --Amethyst
+VALUES (899, 373, -1);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (899, 0); --Amethyst
 --GangMemberIndex 590
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (142, 0, 'Crystal Weaver', 'Construct', 'MiniBoss', 7, 7, 3, 175);
@@ -420,7 +420,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (590, 940)
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (590, 1661); --Sieze Prey
 
 
---Cursed Jarl	--CardIndex 1306	--CharacterIndex 1209	--ArcadeCharacterIndex 143
+--Cursed Jarl	--CardIndex 1306	--CharacterIndex 900	--ArcadeCharacterIndex 143
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Cursed Jarl',
 'http:/htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Cursed_Jarl_2.0.png', 
 'http:/htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Cursed_Jarl_2.0_back.png', 
@@ -429,8 +429,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'In order to unite the warring human tribes of Frostbyte Reavers, Elrik was required to earn (or force) the allegiance of each tribe''s powerful Jarl. Drawn to Elrik''s might--both physical and magical--most Jarls happily supported his claims to kingship and the riches it brought to them. They did not know of the dark powers which Elrik tapped to gain his strength. When Elrik ascended to Lichdom the Jarls were bestowed the curse of undeath, doomed to serve their King forever.');
 insert into Characters (CardIndex) VALUES (1306);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (1209, 373, -1);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1209, 0); --Amethyst
+VALUES (900, 373, -1);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (900, 0); --Amethyst
 --GangMemberIndex 591
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (143, 0, 'Cursed Jarl', 'Undead Ghoul', 'MiniBoss', 6, 7, 3, 176);
@@ -441,7 +441,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (591, 932)
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (591, 1776); --Strength In Decay
 
 
---Dark Kitsune	--CardIndex 1307	--CharacterIndex 1210	--ArcadeCharacterIndex 144
+--Dark Kitsune	--CardIndex 1307	--CharacterIndex 901	--ArcadeCharacterIndex 144
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Dark Kitsune',
 'http:/htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Dark Kitsune_2.0.png', 
 'http:/htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Dark Kitsune_2.0_back.png', 
@@ -450,8 +450,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Some Kitsune are ill-suited for life beneath their clan''s shadowed trees. Dark Kitsune dream of a wider world, and long to see it wonders. They take their clan''s skills in herbalism and magic with them, of course, and most parlay these talents into lucrative employment. They rarely have trouble finding warriors willing to pay their sometimes outlandish fees.');
 insert into Characters (CardIndex) VALUES (1307);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (1210, 373, -1);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1210, 2); --Emerald
+VALUES (901, 373, -1);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (901, 2); --Emerald
 --GangMemberIndex 592
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (144, 0, 'Dark Kitsune', 'Nether Elf Spider', 'MiniBoss', 8, 7, 3, 177);
@@ -462,7 +462,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (592, 1323
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (592, 1171); --Foxy
 
 
---Deranged Alchemist	--CardIndex 1308	--CharacterIndex 1211	--ArcadeCharacterIndex 145
+--Deranged Alchemist	--CardIndex 1308	--CharacterIndex 902	--ArcadeCharacterIndex 145
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Deranged Alchemist',
 'http:/htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Deranged_Alchemist_2.0.png', 
 'http:/htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Deranged_Alchemist_2.0_back.png', 
@@ -471,8 +471,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'The Harvest Festival is upon the fair citizens of Crystalia, and the Fae Alchemist has eaten too many toadstools. Now, turned to vile villainy, she must be stopped before crafting her cruel concoctions!');
 insert into Characters (CardIndex) VALUES (1308);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (1211, 373, -1);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1211, 3); --Ruby
+VALUES (902, 373, -1);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (902, 3); --Ruby
 --GangMemberIndex 593
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (145, 0, 'Deranged Alchemist', 'Elf', 'MiniBoss', 7, 7, 3, 178);
@@ -486,7 +486,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (593, 2077
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (593, 2076); --Coagulated Mixture
 
 
---Ezoghoul	--CardIndex 1309	--CharacterIndex 1212	--ArcadeCharacterIndex 146
+--Ezoghoul	--CardIndex 1309	--CharacterIndex 903	--ArcadeCharacterIndex 146
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ezoghoul',
 'http:/htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Ezoghoul_2.0.png', 
 'http:/htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Ezoghoul_2.0_back.png', 
@@ -495,8 +495,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 '');
 insert into Characters (CardIndex) VALUES (1309);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (1212, 373, -1);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1212, 1); --Citrine
+VALUES (903, 373, -1);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (903, 1); --Citrine
 --GangMemberIndex 594
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (146, 0, 'Ezoghoul', 'Ezoghoul', 'MiniBoss', 8, 7, 3, 179);
@@ -505,7 +505,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (594, 2075
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (594, 1460); --Necrosis
 
 
---Furious Fungomancer	--CardIndex 1310	--CharacterIndex 1213	--ArcadeCharacterIndex 147
+--Furious Fungomancer	--CardIndex 1310	--CharacterIndex 904	--ArcadeCharacterIndex 147
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Furious Fungomancer',
 'http:/htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Furious_Fungomancer_2.0.png', 
 'http:/htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Furious_Fungomancer_2.0_back.png', 
@@ -514,8 +514,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Sometimes an Okoshroom is exposed to powerful magic. It could be magic spewed by the Dark Consul, or even just a chance encounter with a powerful crystal. Whatever the cause, this can awaken a new understanding is the Okoshroom. It understands its place in the world. It understands how the other peoples of Crystalia see mushrooms; as mere fungus, even as food. Cursed with understanding, the Okoshroom becomes filled with rage, and seeks ways to wish the other people of Crystalia understand what it is to be a mushroom...');
 insert into Characters (CardIndex) VALUES (1310);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (1213, 373, -1);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1213, 2); --Emerald
+VALUES (904, 373, -1);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (904, 2); --Emerald
 --GangMemberIndex 595
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (147, 0, 'Furious Fungomancer', 'Nether Elf Spider', 'MiniBoss', 8, 7, 3, 180);
@@ -526,7 +526,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (595, 884)
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (595, 806); --Blessings of Hyphae
 
 
---Gothmog the Terrible	--CardIndex 1311	--CharacterIndex 1214	--ArcadeCharacterIndex 148
+--Gothmog the Terrible	--CardIndex 1311	--CharacterIndex 905	--ArcadeCharacterIndex 148
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Gothmog the Terrible',
 'http:/htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Gothmog_the_Terrible_2.0.png', 
 'http:/htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Gothmog_the_Terrible_2.0_back.png', 
@@ -535,8 +535,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Gothmog once led the Ravagers as the tribe''s brutal warlord. Under his ferocious rule, the Ravagers became infamous throughout the Frostbyte Reach. His rule was eventually undermined when Guth the Pig overthrew him with the aid of a small, feisty, cunning tribe of goblins. Disgraced by his defeat, Gothmog now serves as The Guth''s lieutenant. He nurses his hatred for his new warlord, waiting for an opportune moment to topple him, and return to his former glory.');
 insert into Characters (CardIndex) VALUES (1311);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (1214, 373, -1);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1214, 1); --Citrine
+VALUES (905, 373, -1);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (905, 1); --Citrine
 --GangMemberIndex 596
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (148, 0, 'Gothmog the Terrible', 'Orc', 'MiniBoss', 6, 9, 3, 181);
@@ -545,7 +545,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (596, 724)
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (596, 1789); --Summon the Horde
 
 
---Grim Golem	--CardIndex 1312	--CharacterIndex 1215	--ArcadeCharacterIndex 149
+--Grim Golem	--CardIndex 1312	--CharacterIndex 906	--ArcadeCharacterIndex 149
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Grim Golem',
 'http:/htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Grim_Golem_2.0.png', 
 'http:/htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Grim_Golem_2.0_back.png', 
@@ -554,8 +554,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'The massive statues which stand sentinel around the Nether Rifts are, for all intents and purposes, impervious to harm. No attempt by the Light at destroying one has ever succeeded in even marring one''s surface. The Crystal Shapers of the Dark Realm, however, are able to manipulate the surface of the Heralds, growing stone spurs that can be removed and used for nefarious purpose. Particularly favored, is the creation of golems which patrol dungeons and dark keeps. Almost as resistant to harm as the Heralds themselves, these Grim Golems are tenacious foes.');
 insert into Characters (CardIndex) VALUES (1312);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (1215, 373, -1);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1215, 4); --Sapphire
+VALUES (906, 373, -1);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (906, 4); --Sapphire
 --GangMemberIndex 597
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (149, 0, 'Grim Golem', 'Construct', 'MiniBoss', 5, 6, 3, 182);
@@ -566,7 +566,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (597, 1164
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (597, 1887); --Unnatural Dark
 
 
---Hecate Vilehorn	--CardIndex 1313	--CharacterIndex 1216	--ArcadeCharacterIndex 150
+--Hecate Vilehorn	--CardIndex 1313	--CharacterIndex 907	--ArcadeCharacterIndex 150
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Hecate Vilehorn',
 'http:/htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Hecate Vilehorn_2.0.png', 
 'http:/htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Hecate Vilehorn_2.0_back.png', 
@@ -575,8 +575,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Hecate Vilehorn was once one of the more suspected Thundervale druids. But she became obsessed with the idea of ??? and sought after it with a combination of druidic magic, and things she ??? ??? the ways of various which ???. Her druidic ??? considered this ??? an ??? to the ??? world and, when she refused to stop, they ??? ???. Through vile enough she rose ??? ??? and now she ??? the Glauerdoom Moor, searching for the spell ??? ??? and her twilight of ??? and being her back ???.');
 insert into Characters (CardIndex) VALUES (1313);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (1216, 373, -1);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1216, 3); --Ruby
+VALUES (907, 373, -1);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (907, 3); --Ruby
 --GangMemberIndex 598
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (150, 0, 'Hecate Vilehorn', 'Witch Centaur', 'MiniBoss', 8, 6, 3, 183);
@@ -589,7 +589,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (598, 750)
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (598, 1718); --Soul Shard
 
 
---Ibaraki-Doji	--CardIndex 1314	--CharacterIndex 1217	--ArcadeCharacterIndex 151
+--Ibaraki-Doji	--CardIndex 1314	--CharacterIndex 908	--ArcadeCharacterIndex 151
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ibaraki-Doji',
 'http:/htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Ibaraki_Doji_2.0.png', 
 'http:/htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Ibaraki_Doji_2.0_back.png', 
@@ -598,8 +598,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'To the Ijin, strength is the ultimate test. Those who cannot fight cannot command respect. Those who cannot win cannot lead. Those who cannot lead must follow and serve those who can. Ibaraki-doji has fought and won, and his brethren must follow and serve when the chunin commands.');
 insert into Characters (CardIndex) VALUES (1314);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (1217, 373, -1);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1217, 0); --Amethyst
+VALUES (908, 373, -1);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (908, 0); --Amethyst
 --GangMemberIndex 599
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (151, 0, 'Ibaraki-Doji', 'Ijin Riftling', 'MiniBoss', 6, 7, 2, 184);
@@ -609,7 +609,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (599, 1279
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (599, 1033); --Double Slash
 
 
---Kappa	--CardIndex 1315	--CharacterIndex 1218	--ArcadeCharacterIndex 152
+--Kappa	--CardIndex 1315	--CharacterIndex 909	--ArcadeCharacterIndex 152
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Kappa',
 'http:/htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Kappa_2.0.png', 
 'http:/htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Kappa_2.0_back.png', 
@@ -618,8 +618,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'The Kappa are wild, dangerous kami who inhabit Kagejima''s lakes, rivers, and swamps. Wily and withdrawn by nature, they can be found overturning boats and drowning unwary children. Despite this, several clans have successfully coaxed these exceptionally strong and stealthy creatures into performing services...often with the sacrifice of food, livestock, or even the village elder''s firstborn child.');
 insert into Characters (CardIndex) VALUES (1315);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (1218, 373, -1);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1218, 4); --Sapphire
+VALUES (909, 373, -1);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (909, 4); --Sapphire
 --GangMemberIndex 600
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (152, 0, 'Kappa', 'Oni', 'MiniBoss', 5, 6, 3, 185);
@@ -630,7 +630,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (600, 1640
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (600, 1341); --Kappa's Curse, The
 
 
---Knight of Shifting Sand	--CardIndex 1316	--CharacterIndex 1219	--ArcadeCharacterIndex 153
+--Knight of Shifting Sand	--CardIndex 1316	--CharacterIndex 910	--ArcadeCharacterIndex 153
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Knight of Shifting Sand',
 'http:/htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Knight of Shifting Sand_2.0.png', 
 'http:/htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Knight of Shifting Sand_2.0_back.png', 
@@ -639,9 +639,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'It is sold that to fight a Knight of Shifting Sand is to fight the desert itself. At a young age, they are led into the desert, both mount and rider veiled from all sight and sound. There, they are left to survive alone and to find their own way home. Many perish. The greatest of them spend years, even decades, traveling the deep dunes. Each journey is unique, but when they return they are masters of the desert and mighty leaders of their peers.');
 insert into Characters (CardIndex) VALUES (1316);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (1219, 373, -1);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1219, 1); --Citrine
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1219, 3); --Ruby
+VALUES (910, 373, -1);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (910, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (910, 3); --Ruby
 --GangMemberIndex 601
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (153, 0, 'Knight of Shifting Sand', 'Nether Elf Soldier', 'MiniBoss', 6, 8, 3, 186);
@@ -651,7 +651,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (601, 1990
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (601, 1605); --Sand Storm
 
 
---Knight of the Tower	--CardIndex 1317	--CharacterIndex 1220	--ArcadeCharacterIndex 154
+--Knight of the Tower	--CardIndex 1317	--CharacterIndex 911	--ArcadeCharacterIndex 154
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Knight of the Tower',
 'http:/htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Knight_of_the_Tower_2.0.png', 
 'http:/htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Knight_of_the_Tower_2.0_back.png', 
@@ -660,9 +660,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Knights of the Tower are cruel and capable nether elf champions that have risen through the ranks by striding across fields of the fallen and shrewd use of treachery. Gifted by their Queen with ghostly nether steeds, they are terrifying upon the field of battle.');
 insert into Characters (CardIndex) VALUES (1317);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (1220, 373, -1);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1220, 1); --Citrine
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1220, 3); --Ruby
+VALUES (911, 373, -1);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (911, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (911, 3); --Ruby
 --GangMemberIndex 602
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (154, 0, 'Knight of the Tower', 'Nether Elf Soldier', 'MiniBoss', 6, 8, 3, 187);
@@ -672,7 +672,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (602, 1990
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (602, 1267); --Hidden Lever
 
 
---Kobold Ogre	--CardIndex 1318	--CharacterIndex 1221	--ArcadeCharacterIndex 155
+--Kobold Ogre	--CardIndex 1318	--CharacterIndex 912	--ArcadeCharacterIndex 155
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Kobold Ogre',
 'http:/htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Kobold_Ogre_2.0.png', 
 'http:/htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Kobold_Ogre_2.0_back.png', 
@@ -681,9 +681,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'The most powerful kobold leaders often display their might with a pair or more of burly ogre bodyguards. Having grown large and brutally strong from constant exposure to the Dark Realms''s magicks, ogres have lost much of the intelligence and animal cunning of their lesser kobold kin. Despite this, they are remarkably loyal and enjoy being a part of their cousins'' plans.');
 insert into Characters (CardIndex) VALUES (1318);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (1221, 373, -1);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1221, 1); --Citrine
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1221, 4); --Sapphire
+VALUES (912, 373, -1);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (912, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (912, 4); --Sapphire
 --GangMemberIndex 603
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (155, 0, 'Kobold Ogre', 'Kobold Ogre', 'MiniBoss', 5, 8, 3, 188);
@@ -691,7 +691,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (603, 1093
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (603, 1727); --Spin Around Real Fast
 
 
---Mistmourn Warg	--CardIndex 1319	--CharacterIndex 1222	--ArcadeCharacterIndex 156
+--Mistmourn Warg	--CardIndex 1319	--CharacterIndex 913	--ArcadeCharacterIndex 156
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Mistmourn Warg',
 'http:/htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Mistmourn_Warg_2.0.png', 
 'http:/htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Mistmourn_Warg_2.0_back.png', 
@@ -700,8 +700,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'The wargs of the Mistmourn Coast grew exceptionally dangerous. Unlike other wargs, they are not pack hunters. Instead, each one strikes out on its own to claim its territory. These beasts grow to exceptional size and are frequently manipulated by the Dark Consul against the heroes of Crystalia. When a warg leads the Consul''s minions into battle, its howl emboldens those around it, driving them into a frenzy with the warg at their backs.');
 insert into Characters (CardIndex) VALUES (1319);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (1222, 373, -1);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1222, 2); --Emerald
+VALUES (913, 373, -1);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (913, 2); --Emerald
 --GangMemberIndex 604
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (156, 0, 'Mistmourn Warg', 'Wolf', 'MiniBoss', 8, 7, 3, 189);
@@ -712,7 +712,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (604, 879)
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (604, 1278); --Howl
 
 
---Monach Tvar	--CardIndex 1320	--CharacterIndex 1223	--ArcadeCharacterIndex 157
+--Monach Tvar	--CardIndex 1320	--CharacterIndex 914	--ArcadeCharacterIndex 157
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Monach Tvar',
 'http:/htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Monach_Tvar_2.0.png', 
 'http:/htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Monach_Tvar_2.0_back.png', 
@@ -721,8 +721,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Once the Ascendant Prince of the Lunar Elves, Monach Tvar fell to the Dark Consul in a bid to claim the relic known as The Dragon Horn and become the Lord of all dragonkind. To achieve his aims, he slew his only sister Ascendant Princess Elara and sealed the doom of the lunar elf people to the Dragon''s Call.');
 insert into Characters (CardIndex) VALUES (1320);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (1223, 373, -1);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1223, 2); --Emerald
+VALUES (914, 373, -1);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (914, 2); --Emerald
 --GangMemberIndex 605
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (157, 0, 'Monach Tvar', 'Nether Elf', 'MiniBoss', 6, 3, 3, 190);
@@ -733,7 +733,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (605, 1777
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (605, 947); --Cunning Lies
 
 
---Nethercorn	--CardIndex 1321	--CharacterIndex 1224	--ArcadeCharacterIndex 158
+--Nethercorn	--CardIndex 1321	--CharacterIndex 915	--ArcadeCharacterIndex 158
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Nethercorn',
 'http:/htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Nethercorn_2.0.png', 
 'http:/htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Nethercorn_2.0_back.png', 
@@ -742,8 +742,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Nethercorns are fiery tempered natives of the Dark Realm. Startlingly intelligent and predatory, nethercorns bend only to the will of the Dark Consul. Many demons assume nethercorns are servile minions, or attempt to capture them as mounts. The fields of bone around a nethercorn''s territory serve as testimony to their failure.');
 insert into Characters (CardIndex) VALUES (1321);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (1224, 373, -1);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1224, 3); --Ruby
+VALUES (915, 373, -1);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (915, 3); --Ruby
 --GangMemberIndex 606
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (158, 0, 'Nethercorn', 'Demon Unicorn', 'MiniBoss', 8, 7, 3, 191);
@@ -758,7 +758,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (606, 981)
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (606, 999); --Demon Flame
 
 
---Orcdon Ramsay	--CardIndex 1322	--CharacterIndex 1225	--ArcadeCharacterIndex 159
+--Orcdon Ramsay	--CardIndex 1322	--CharacterIndex 916	--ArcadeCharacterIndex 159
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Orcdon Ramsay',
 'http:/htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Orcdon_Ramsay_2.0.png', 
 'http:/htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Orcdon_Ramsay_2.0_back.png', 
@@ -767,8 +767,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 ''); --!! unavailable !!
 insert into Characters (CardIndex) VALUES (1322);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (1225, 373, -1);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1225, 2); --Emerald --!! unavailable !!
+VALUES (916, 373, -1);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (916, 2); --Emerald --!! unavailable !!
 --GangMemberIndex 607
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (159, 0, 'Orcdon Ramsay', 'Orc', 'MiniBoss', 6, 7, 3, 192);
@@ -779,7 +779,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (607, 2080
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (607, 2081); --Shop Fresh, Shop Local
 
 
---Rage Fiend, The	--CardIndex 1323	--CharacterIndex 1226	--ArcadeCharacterIndex 160
+--Rage Fiend, The	--CardIndex 1323	--CharacterIndex 917	--ArcadeCharacterIndex 160
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Rage Fiend, The',
 'http:/htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Rage_Fiend_The_2.0.png', 
 'http:/htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Rage_Fiend_The_2.0_back.png', 
@@ -788,8 +788,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'The Rage Fiend is a legend among the orcish tribes. An unstoppable juggernaut of destruction, it is whispered that The Rage Fiend was blessed by the great demon lord known only as The Destroyer. Filled with demonic vigor and visions of desolation, The Rage Fiend incites all around him to ever increasing fits of violence and madness. Where The Rage Fiend treads only death follows.');
 insert into Characters (CardIndex) VALUES (1323);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (1226, 373, -1);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1226, 1); --Citrine
+VALUES (917, 373, -1);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (917, 1); --Citrine
 --GangMemberIndex 608
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (160, 0, 'Rage Fiend, The', 'Orc', 'MiniBoss', 5, 8, 4, 193);
@@ -798,7 +798,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (608, 675)
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (608, 1313); --Indiscriminate Destruction
 
 
---Randy, Lrod of Spiders	--CardIndex 1324	--CharacterIndex 1227	--ArcadeCharacterIndex 161
+--Randy, Lrod of Spiders	--CardIndex 1324	--CharacterIndex 918	--ArcadeCharacterIndex 161
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Randy, Lrod of Spiders',
 'http:/htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Randy, Lrod of Spiders_2.0.png', 
 'http:/htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Randy, Lrod of Spiders_2.0_back.png', 
@@ -807,9 +807,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'The last galaxy is a place where mighty knights clash with the forces of the void, and a battle for survival rages. But that doesn''t mean that the arcades will manage themselves. Randy has been charged with the sacred duty of managing one such arcade. Annonyed at customers who continually vaporize his place of work with high tech weaponry, Randy decided to program himself into his favorite game. But a typo prevented him from being a proper lord, even in a game...');
 insert into Characters (CardIndex) VALUES (1324);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (1227, 373, -1);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1227, 1); --Citrine
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1227, 2); --Emerald
+VALUES (918, 373, -1);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (918, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (918, 2); --Emerald
 --GangMemberIndex 609
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (161, 0, 'Randy, Lrod of Spiders', 'Human', 'MiniBoss', 5, 7, 3, 194);
@@ -820,7 +820,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (609, 1530
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (609, 1786); --Summon Minions
 
 
---Rex	--CardIndex 1325	--CharacterIndex 1228	--ArcadeCharacterIndex 162
+--Rex	--CardIndex 1325	--CharacterIndex 919	--ArcadeCharacterIndex 162
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Rex',
 'http:/htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Rex_2.0.png', 
 'http:/htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Rex_2.0_back.png', 
@@ -829,9 +829,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Rex has collected more than a few new friends since going to work in the Consul''s dungeons. Most are unwary adventurers not quite quick enough to get out of the reach of his enthusiastic hugs.');
 insert into Characters (CardIndex) VALUES (1325);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (1228, 373, -1);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1228, 1); --Citrine
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1228, 4); --Sapphire
+VALUES (919, 373, -1);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (919, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (919, 4); --Sapphire
 --GangMemberIndex 610
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (162, 0, 'Rex', 'Kobold Ogre', 'MiniBoss', 5, 8, 3, 195);
@@ -839,7 +839,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (610, 727)
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (610, 1590); --Rex Smash
 
 
---Ser Anthony	--CardIndex 1326	--CharacterIndex 1229	--ArcadeCharacterIndex 163
+--Ser Anthony	--CardIndex 1326	--CharacterIndex 920	--ArcadeCharacterIndex 163
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ser Anthony',
 'http:/htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Ser_Anthony_2.0.png', 
 'http:/htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Ser_Anthony2.0_back.png', 
@@ -848,8 +848,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Despite his youth, Ser Anthony rose through the ranks of the Crown Guard quickly. Taken under the wing of the venerable knight Ser Charles he excelled at his studies--both physical and mental. At Ser Charles'' retirement, it was the great knight''s honor to see his squire rise to fill his station.');
 insert into Characters (CardIndex) VALUES (1326);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (1229, 373, -1);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1229, 4); --Sapphire
+VALUES (920, 373, -1);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (920, 4); --Sapphire
 --GangMemberIndex 611
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (163, 0, 'Ser Anthony', 'Human Soldier', 'MiniBoss', 8, 8, 3, 196);
@@ -858,7 +858,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (611, 543)
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (611, 833); --Breakthrough
 
 
---Ser Elmer	--CardIndex 1327	--CharacterIndex 1230	--ArcadeCharacterIndex 164
+--Ser Elmer	--CardIndex 1327	--CharacterIndex 921	--ArcadeCharacterIndex 164
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ser Elmer',
 'http:/htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Ser_Elmer_2.0.png', 
 'http:/htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Ser_Elmer_2.0_back.png', 
@@ -867,8 +867,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Ser Elmer has the distinct privilege and honor of serving as Castletown''s Captain of the Guard. Charged with overseeing the safety of Castletown''s businesses and citizens, Ser Elmer rarely encounters monsters. Instead, Ser Elmer typically confronts various criminal organizations, shadowy thieves guilds, and over exuberant Heroes who have gotten out of line.');
 insert into Characters (CardIndex) VALUES (1327);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (1230, 373, -1);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1230, 4); --Sapphire
+VALUES (921, 373, -1);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (921, 4); --Sapphire
 --GangMemberIndex 612
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (164, 0, 'Ser Elmer', 'Human Soldier', 'MiniBoss', 6, 7, 3, 197);
@@ -878,7 +878,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (612, 1644
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (612, 1895); --Veteran Endurance
 
 
---Shinigami	--CardIndex 1328	--CharacterIndex 1231	--ArcadeCharacterIndex 165
+--Shinigami	--CardIndex 1328	--CharacterIndex 922	--ArcadeCharacterIndex 165
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Shinigami',
 'http:/htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Shinigami_2.0.png', 
 'http:/htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Shinigami_2.0_back.png', 
@@ -887,8 +887,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Few types of death spectre inspire such dread as Kagejima''s shinigami. These deadly spirits lure victims into cursed pacts, offering up knowledge or power that inevitably leads to an unfortunate death. Indeed, so insidious and cruel are these pacts that many seek death in order to end the suffering their bargain causes.');
 insert into Characters (CardIndex) VALUES (1328);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (1231, 373, -1);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1231, 0); --Amethyst
+VALUES (922, 373, -1);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (922, 0); --Amethyst
 --GangMemberIndex 613
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (165, 0, 'Shinigami', 'Undead', 'MiniBoss', 8, 6, 3, 198);
@@ -898,7 +898,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (613, 986)
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (613, 1371); --Lifesap
 
 
---Tengu	--CardIndex 1329	--CharacterIndex 1232	--ArcadeCharacterIndex 166
+--Tengu	--CardIndex 1329	--CharacterIndex 923	--ArcadeCharacterIndex 166
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Tengu',
 'http:/htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Tengu_2.0.png', 
 'http:/htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Tengu_2.0_back.png', 
@@ -907,9 +907,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'For centuries, the Tengu have bartered or traded their magical and martial skill to the competing clans of Kagejima. Sometimes they do so for gold, for more offerings at their shrines, or for shiny baubles. Other times the requests are more unusual, such as whispers of love from a beautiful woman, the first wail of a newborn, or thirty stems of saffron.');
 insert into Characters (CardIndex) VALUES (1329);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (1232, 373, -1);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1232, 1); --Citrine
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1232, 3); --Ruby
+VALUES (923, 373, -1);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (923, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (923, 3); --Ruby
 --GangMemberIndex 614
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (166, 0, 'Tengu', 'Tengu', 'MiniBoss', 6, 7, 3, 199);
@@ -921,7 +921,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (614, 955)
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (614, 952); --Curse of Coin, The
 
 
---Tidal Knight	--CardIndex 1330	--CharacterIndex 1233	--ArcadeCharacterIndex 167
+--Tidal Knight	--CardIndex 1330	--CharacterIndex 924	--ArcadeCharacterIndex 167
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Tidal Knight',
 'http:/htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Tidal_Knight_2.0.png', 
 'http:/htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Tidal_Knight_2.0_back.png', 
@@ -930,9 +930,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Magically adapted to survive beneath the sea, Tidal Knights are rarely seen, even by nether elf corsairs. In times of need, Tidal Knights are summoned by Shadow Fleet corsairs through the use of massive horns which are sounded beneath the waves. Once summoned, the Tidal Knights race alongside the Shadow Fleet, before launching into the air to charge enemy sailors upon the decks.');
 insert into Characters (CardIndex) VALUES (1330);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (1233, 373, -1);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1233, 1); --Citrine
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1233, 3); --Ruby
+VALUES (924, 373, -1);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (924, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (924, 3); --Ruby
 --GangMemberIndex 615
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (167, 0, 'Tidal Knight', 'Nether Elf Soidier', 'MiniBoss', 6, 8, 3, 200);
@@ -942,7 +942,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (615, 803)
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (615, 1267); --Hidden Lever
 
 
---Ugluk the Mechanically Inclined	--CardIndex 1331	--CharacterIndex 1234	--ArcadeCharacterIndex 168
+--Ugluk the Mechanically Inclined	--CardIndex 1331	--CharacterIndex 925	--ArcadeCharacterIndex 168
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ugluk the Mechanically Inclined',
 'http:/htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Ugluk_the_Mechanically_Inclined_2.0.png', 
 'http:/htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Ugluk_the_Mechanically_Inclined_2.0_back.png', 
@@ -951,8 +951,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 '');  --!! unavailable !!
 insert into Characters (CardIndex) VALUES (1331);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (1234, 373, -1);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1234, 2); --Emerald --!! unavailable !!
+VALUES (925, 373, -1);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (925, 2); --Emerald --!! unavailable !!
 --GangMemberIndex 616
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (168, 0, 'Ugluk the Mechanically Inclined', 'Orc', 'MiniBoss', 6, 7, 3, 201);
@@ -962,7 +962,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (616, 2082
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (616, 2083); --Machinist
 
 
---Vlad the Perforator	--CardIndex 1332	--CharacterIndex 1235	--ArcadeCharacterIndex 169
+--Vlad the Perforator	--CardIndex 1332	--CharacterIndex 926	--ArcadeCharacterIndex 169
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Vlad the Perforator',
 'http:/htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Vlad the Perforator_2.0.png', 
 'http:/htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Vlad the Perforator_2.0_back.png', 
@@ -971,8 +971,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 '');  --!! unavailable !!
 insert into Characters (CardIndex) VALUES (1332);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (1235, 373, -1);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1235, 2); --Emerald --!! unavailable !!
+VALUES (926, 373, -1);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (926, 2); --Emerald --!! unavailable !!
 --GangMemberIndex 617
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (169, 0, 'Vlad the Perforator', 'Orc', 'MiniBoss', 6, 8, 4, 202);
@@ -983,7 +983,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (617, 2086
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (617, 2085); --Storm of Arrows
 
 
---Yobuko	--CardIndex 1333	--CharacterIndex 1236	--ArcadeCharacterIndex 170
+--Yobuko	--CardIndex 1333	--CharacterIndex 927	--ArcadeCharacterIndex 170
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Yobuko',
 'http:/htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Yobuko_2.0.png', 
 'http:/htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Yobuko_2.0_back.png', 
@@ -992,8 +992,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Tall, strong, and fierce, Yobuko is also young and inexperienced compared to his Ijin counterparts. This blend of natural ability coupled with an, as yet, unrivaled capacity to fight might be the most frightening aspect about him. His power is already so incredible that he is the rival of many of his masters, and he is also constantly testing his mettle against full-blooded oni twice his size to the amazement of all of his clansmen.');
 insert into Characters (CardIndex) VALUES (1333);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (1236, 373, -1);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1236, 1); --Citrine
+VALUES (927, 373, -1);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (927, 1); --Citrine
 --GangMemberIndex 618
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (170, 0, 'Yobuko', 'Ijin Riftling', 'MiniBoss', 6, 7, 3, 203);
