@@ -279,7 +279,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (168, 681)
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (168, 1020); --Sturdy
 
 
---Yowling	--CardIndex 1284	--CharacterIndex 1187	--ArcadeCharacterIndex 121
+--Yowling	--CardIndex 1284	--CharacterIndex 863	--ArcadeCharacterIndex 121
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Yowling',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Creeps/Card_Arcade_Creep_Yowling_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Creeps/Card_Arcade_Creep_Yowling_2.0_back.png', 
@@ -288,8 +288,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Mother Noctua acts as mother and guardian to all of the fae Wood, but she has special love for her Yowlings - young owlbears that flock to her side. They are hatched from the most precious Deeproot Acorns, and they are daring and mischievous. More than one hero has had her favorite soda stolen by a playful Yowling.');
 insert into Characters (CardIndex) VALUES (1284);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (1187, 133, -1);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1187, 1); --Citrine
+VALUES (863, 133, -1);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (863, 1); --Citrine
 --GangMemberIndex 169
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (121, 0, 'Yowling', 'Owlbear', 'Creep', 6, 1, 0, 154);
@@ -298,7 +298,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (169, 722)
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (169, 1310); --In Your Pockets
 
 
---Yurei Bushi	--CardIndex 1285	--CharacterIndex 1188	--ArcadeCharacterIndex 122
+--Yurei Bushi	--CardIndex 1285	--CharacterIndex 864	--ArcadeCharacterIndex 122
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Yurei Bushi',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Creeps/Card_Arcade_Creep_Yurei_Bushi_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Creeps/Card_Arcade_Creep_Yurei_Bushi_2.0_back.png', 
@@ -307,8 +307,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'As in life, the bonds of loyalty can follow a warrior into the afterlife. Spiritual guardians who left the world with an oath of fealty on their lips often return again to serve at their masters side.');
 insert into Characters (CardIndex) VALUES (1285);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (1188, 133, -1);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1188, 0); --Amethyst
+VALUES (864, 133, -1);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (864, 0); --Amethyst
 --GangMemberIndex 170
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (122, 0, 'Yurei Bushi', 'Ghost', 'Creep', 6, 1, 0, 155);
