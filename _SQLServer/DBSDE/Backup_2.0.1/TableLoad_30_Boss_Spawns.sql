@@ -14,7 +14,7 @@ VALUES (2495, '',
 'Spawn one Ijin Oni adjacent to Bomechan.<br><br>For The Pirate Queen!: Ijin Oni gain Frenzy for the remainder of the game. (A model with Frenzy gains +1R on offensive rolls against any model that is suffering a wound.)', 
 'Spawn one Ijin Oni anywhere in the dungeon.',
 '');
-insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (10, 1398); --Bomechan
+insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (10, 659); --Bomechan
 
 --Demon Queen Araphel     --CardIndex 2496   --BossSpawnIndex 11  
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Demon Queen Araphel', 
@@ -28,7 +28,7 @@ VALUES (2496, '',
 'Come, My Loves: Spawn Spiteful Cherubs anywhere in the dungeon until there are four in play.<br><br>Come Hither: All Heroes suffer Compel 2.', 
 'Hold Them!: Spawn one Spiteful Cherub adjacent to each Hero in play.',
 '');
-insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (11, 1399); 
+insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (11, 661); 
 
 --Destroyer, The     --CardIndex 2497   --BossSpawnIndex 12  
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Destroyer, The', 
@@ -42,7 +42,7 @@ VALUES (2497, '',
 'Demonic Possession: The Consul selects a Hero to be possessed. The possessed Hero is controlled by the Consul and counts as an 8-Bit monster worth three skull points for all purposes. It activates on the Consul turn and may not use other Heroes'' potions or equipment. If the possessed Hero is destroyed it permanently returns to the control of the party. The Hero''s original controller brings it back into play during that turn''s power-up adjacent to any other Hero without spending a Princess Coin.', 
 'Your Goddess Has Forsaken You: All enemy Heroes discard all spent Princess Coins from their cards. All enemy Heroes without Princess Coins to discard suffer one wound.',
 'Difficulty Rating 3: If the party is unable to beat this boss with the usual number of Princess Coins, they may add 3 additional Princess Coins the next time they face this boss.');
-insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (12, 1400); 
+insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (12, 662); 
 
 --Elrik The Lich King     --CardIndex 2498   --BossSpawnIndex 13  
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Elrik The Lich King', 
@@ -56,7 +56,7 @@ VALUES (2498, '',
 'Soul Jar: Place three potion tokens on Elrik. Elrik gains potions when winning offense rolls AND defense rolls. For the remainder of the game, after making a roll, Elrik may spend one potion token to reroll one die. Only a single die per roll may be rerolled.<br><br>Welcome To The Black Parade: Spawn two Curse Ravens adjacent to the spawning point icon on the third tile.', 
 'Death Curse: Roll 1B. The Consul may inflict a number of wounds on the Heroes equal to the number of stars rolled. The wounds must be distributed as evenly as possible.<br><br>The Parade Marches On: Spawn two Curse Ravens adjacent to the spawning point on the second tile.',
 '');
-insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (13, 1401); 
+insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (13, 663); 
 
 --Gnomish Excavator     --CardIndex 2499   --BossSpawnIndex 14  
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Gnomish Excavator', 
@@ -70,7 +70,7 @@ VALUES (2499, '',
 'Ammo Dump: The Consul places six crystal shell tokens anywhere in the dungeon. These tokens may not be placed within three squares of another crystal shell token.<br></br>All Heroes gain the following action for the duration of this Boss Fight: 1R Firing Pin: Range 6, Massive Damage. This model must discard a crystal shell token from the square it is occupying in order to take this action.', 
 'Cave-In: Each Hero must choose to suffer either two wounds or Immobile.',
 '');
-insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (14, 1402); 
+insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (14, 664); 
 
 --Guth, The     --CardIndex 2500   --BossSpawnIndex 15  
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Guth, The', 
@@ -84,7 +84,7 @@ VALUES (2500, '',
 'Get ''em Boys: Spawn four spikers. Starting with the Consul, the Consul and the Party alternate placing Spikers on the dungeon until all four are placed. Spikers may not be placed within three squares of another Spiker or in the first tile.', 
 'WAAAAAAAAAAAAAAAAAGGHHH!!!: Place a Battle Frenzy token on every Orc, Goblin, and Gnoll except the dungeon boss. When a model would suffer one or more damage, it may discard a Battle Frenzy token to reduce the damage to zero.',
 '');
-insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (15, 1403); 
+insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (15, 665); 
 
 --Hoarfang     --CardIndex 2501   --BossSpawnIndex 16  
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Hoarfang', 
@@ -98,7 +98,7 @@ VALUES (2501, '',
 '???: Spawn Frost Imps within three squares of the dungeon boss until there are six Frost Imps in play.', --!! unavailable !!
 'Tiny Cold Hands: Spawn one Frost Imp adjacent to each Hero, up to a maximum of six Frost Imps in play.',
 'Difficulty Rating 3: If the party is unable to beat this boss with the usual number of Princess Coins, they may add 3 additional Princess Coins the next time they face this boss.');
-insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (16, 1404); 
+insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (16, 666); 
 
 --Jorogumo     --CardIndex 2502   --BossSpawnIndex 17  
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Jorogumo', 
@@ -112,7 +112,7 @@ VALUES (2502, '',
 'The Spider''s Trap: The dungeon boss immediately performs a full activation.', 
 'Poisonous Mist: All Heroes suffer POISON.',
 '');
-insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (17, 1405); 
+insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (17, 667); 
 
 --Krampus     --CardIndex 2503   --BossSpawnIndex 18  
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Krampus', 
@@ -126,7 +126,7 @@ VALUES (2503, '',
 'Caught Red Handed: The Consul selects one Hero that is not on Kringle''s Nice List. The selected Hero shapeshifts into a Naughty of the Consul''s choice.', 
 'Run Free, Children!: Target Naughtie performs up to three moves and one basic attack action controlled by the Consul. If there are no Naughties in play, any Hero may be chosen instead.',
 '');
-insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (18, 1406); 
+insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (18, 668); 
 
 --Lord Vulcanis     --CardIndex 2504   --BossSpawnIndex 19  
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Lord Vulcanis', 
@@ -140,7 +140,7 @@ VALUES (2504, '',
 'Armory: Equip three Relic Items (in addition to any equipped due to remaining spawning points).<br><br>Apprenticeships: Spawn six Forge Gnomes; one within two squares of each dungeon exit in the first tile and one within two squares of each dungeon exit in the last tile.', 
 'Scrap Metal: All Heroes must randomly discard an equipped loot card, if able.',
 '');
-insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (19, 1407); 
+insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (19, 669); 
 
 --Midnight Queen, The     --CardIndex 2505   --BossSpawnIndex 20  
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Midnight Queen, The', 
@@ -154,7 +154,7 @@ VALUES (2505, '',
 'Daemonus: If Daemonus is not in play, spawn Daemonus within six squares of the Midnight Queen.<br><br>Bewitching Song: The Consul may move all Heroes 3 squares, using the rules for Compel.', 
 'Daemonus: If Daemonus is not in play, spawn Daemonus within six squares of the Midnight Queen.<br><br>Do Not Fight: All Heroes suffer Hex.',
 '');
-insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (20, 1408); 
+insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (20, 670); 
 
 --Mordred the Accursed     --CardIndex 2506   --BossSpawnIndex 21  
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Mordred the Accursed', 
@@ -168,7 +168,7 @@ VALUES (2506, '',
 'Skulls of the Fallen: Spawn six Ghostflames: two adjacent to each SPAWNPOINT square on the first, second, and third tiles. Whenever a Hero is destroyed, spawn one Ghostflame adjacent to any SPAWNPOINT (up to a maximum of six Ghostflames in play).', 
 'Charge Through: All Heroes immediately suffer a melee attack with 5R STR, regardless of range and Line of Sight.',
 'Difficulty Rating 1: If the party is unable to beat this boss with the usual number of Princess Coins, they may add 1 additional Princess Coin the next time they face this boss.');
-insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (21, 1409); 
+insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (21, 671); 
 
 --Mother Noctua     --CardIndex 2507   --BossSpawnIndex 22  
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Mother Noctua', 
@@ -182,7 +182,7 @@ VALUES (2507, '',
 'The Forest Awakens: The Consul may spawn up to 4 skull points of monsters from the spawning pool anywhere in the dungeon.', 
 'The Forest''s Vengeance: This effect does not occur during Boss Sightings. For the remainder of the game, all monsters except for Mother Noctua gain +1R to all rolls.<br><br>Furious Bloom: This effect only occurs during Boss Sightings. The Consul may spawn up to 4 skull points of monsters from the spawning pool in each tile affected by the Boss Sighting. These monsters may spawn anywhere in the tile.',
 'Difficulty Rating 2: If the party is unable to beat this boss with the usual number of Princess Coins, they may add 2 additional Princess Coins the next time they face this boss.');
-insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (22, 1410); 
+insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (22, 672); 
 
 --Nightsong the Eternal     --CardIndex 2508   --BossSpawnIndex 23  
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Nightsong the Eternal', 
@@ -196,7 +196,7 @@ VALUES (2508, '',
 'Undead Horde: Spawn 4 Kodeads within four squares of Nightsong the Eternal.', 
 'Children of Decay: The Consul selects a Hero and spawns a Kodead adjacent to it. Repeat this until a Kodead has spawned adjacent to each Hero or there are six Kodeads in play.',
 'Difficulty Rating 1: If the party is unable to beat this boss with the usual number of Princess Coins, they may add 1 additional Princess Coins the next time they face this boss.');
-insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (23, 1411); 
+insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (23, 674); 
 
 --Onibaba     --CardIndex 2509   --BossSpawnIndex 24  
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Onibaba', 
@@ -210,7 +210,7 @@ VALUES (2509, '',
 'Scavenger: The Consul selects up to two loot from the discard pile or backpack and equips them to Onibaba.', 
 'Battle Without End: If no mini-boss is in play, spawn a mini-boss selected for this game adjacent to target Hero. The mini-boss immediately suffers three wounds. Heroes do not draw treasure for destroying this mini-boss.',
 'Difficulty Rating 1: If the party is unable to beat this boss with the usual number of Princess Coins, they may add 1 additional Princess Coins the next time they face this boss.');
-insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (24, 1412); 
+insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (24, 675); 
 
 --Onryo     --CardIndex 2510   --BossSpawnIndex 25  
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Onryo', 
@@ -224,7 +224,7 @@ VALUES (2510, '',
 'Count of Seven: When Onryo spawns, begin tracking the number of Hero activations that occur during the Boss Fight. At the end of the seventh activation, remove one Princess Coin from the backpack. Then begin the count again.', 
 'Lantern Curse: Spawn two Chochin-Obake in any open doorway.',
 'Difficulty Rating 2: If the party is unable to beat this boss with the usual number of Princess Coins, they may add 2 additional Princess Coins the next time they face this boss.');
-insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (25, 1413); 
+insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (25, 676); 
 
 --Pauper Prince     --CardIndex 2511   --BossSpawnIndex 26  
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Pauper Prince', 
@@ -238,7 +238,7 @@ VALUES (2511, '',
 'Rat Pack: Spawn four Dirty Rats within three squares of the Pauper Prince.<br><br>A Prince''s Due: Remove all spent Princess Coins from all Heroes'' cards.', 
 'Rat Swarm: Spawn four Dirty Rats in any open doorway.',
 '');
-insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (26, 1414); 
+insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (26, 677); 
 
 --Professor Cackle-Clink     --CardIndex 2512   --BossSpawnIndex 27  
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Professor Cackle-Clink', 
@@ -252,7 +252,7 @@ VALUES (2512, '',
 'Ammo Dump: The Consul places six crystal shell tokens anywhere in the dungeon. These tokens may not be placed within three squares of another crystal shell token.<br><br>All Heroes gain the following action for the duration of this Boss Fight:<br><br>1R Firing Pin: Range 6, Massive Damage. This model must discard a crystal shell token from the square it is occupying in order to take this action.', 
 'Cave-In: Each Hero must choose to suffer either two wounds or Immobile',
 '');
-insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (27, 1415);
+insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (27, 678);
 
 --Starfire     --CardIndex 2513   --BossSpawnIndex 28  
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Starfire', 
@@ -266,7 +266,7 @@ VALUES (2513, '',
 'Burning Blades: All elite and minion monsters gain the ability FIRE.', 
 'Fire Storm: All Heroes suffer FIRE.',
 '');
-insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (28, 1416); 
+insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (28, 679); 
 
 --Testudo Tower     --CardIndex 2514   --BossSpawnIndex 29  
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Testudo Tower', 
@@ -280,7 +280,7 @@ VALUES (2514, '',
 'Out of Your Shell: Replace each Turtle Shell model on the dungeon with a Rocktop model from the spawning pool with a skull value of 2 or less.<br><br>Rock Up: All Rocktops gain Immune: Status Effects', 
 'Bumper Shell: Make a Melee Attack against every Hero in the dungeon, regardless of its location. Any model which is wounded must discard one equipped equipment card.',
 '');
-insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (29, 1417); 
+insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (29, 680); 
 
 --Thresher, The     --CardIndex 2515   --BossSpawnIndex 30  
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Thresher, The', 
@@ -294,7 +294,7 @@ VALUES (2515, '',
 'The Sky Blackens: Spawn 2 Underdead Crows within 4 squares of The Thresher.', 
 'Go For The Eyes!: Spawn 1 Underdead Crow adjacent to each Hero, until there is a maximum of 4 Underdead Crows in play.',
 '');
-insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (30, 1418); 
+insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (30, 681); 
 
 --Ugg     --CardIndex 2516   --BossSpawnIndex 31  
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ugg', 
@@ -308,7 +308,7 @@ VALUES (2516, '',
 'My Brother!: When Ugg is spawned, also spawn Mugg adjacent to the SPAWNPOINT on the first tile (moving any models necessary to place him). Mugg also counts as a Dungeon Boss and the Heroes do not win until both Dungeon Bosses are destroyed. Time Out is reached when one of the Dungeon Bosses is destroyed.', 
 'A Storm Of Rage And Grief: All Heroes must roll their STR. Any Heroes that roll 3 or fewer stars suffer KNOCKDOWN. Then, if Ugg or Mugg is in play, the remaining Dungeon Boxx immediately performs a full activation (this may interrupt the Heroes'' turn).',
 'Difficulty Rating 1: If the party is unable to beat this boss with the usual number of Princess coins, they may add 1 additional Princess Coins the next time they face this boss.');
-insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (31, 1419);
+insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (31, 682);
 
 
 

@@ -846,7 +846,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (709, 1010
 
 
 --Clan Yamazaru
---Yamazaru Madoushi	--CardIndex 1396	--CharacterIndex 1299	--ArcadeCharacterIndex 233
+--Yamazaru Madoushi	--CardIndex 1396	--CharacterIndex 953	--ArcadeCharacterIndex 233
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Yamazaru Madoushi',
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Yamazaru/Card_Arcade_Warband_Clan_Yamazaru_Yamazaru_Madoushi_2.0.png', 
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Yamazaru/Card_Arcade_Warband_Clan_Yamazaru_Yamazaru_Madoushi_2.0_back.png', 
@@ -855,8 +855,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 '');
 insert into Characters (CardIndex) VALUES (1396);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (1299, 124, 134);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1299, 3); --Ruby
+VALUES (953, 124, 134);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (953, 3); --Ruby
 --GangMemberIndex 710
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (233, 0, 'Yamazaru Madoushi', 'Yamazaru', 'Solo Spawning Point', 2, 3, 1, 295);
@@ -866,7 +866,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (710, 909)
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (710, 928); --Spawning Pool
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (710, 1437); --Mountain Flute
 
---Yamazaru Madoushi Beta	--CardIndex 1397	--CharacterIndex 1300	--ArcadeCharacterIndex 234
+--Yamazaru Madoushi Beta	--CardIndex 1397	--CharacterIndex 954	--ArcadeCharacterIndex 234
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Yamazaru Madoushi Beta',
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Yamazaru/Card_Arcade_Warband_Clan_Yamazaru_Yamazaru_Madoushi_Beta_2.0.png', 
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Yamazaru/Card_Arcade_Warband_Clan_Yamazaru_Yamazaru_Madoushi_Beta_2.0_back.png', 
@@ -875,8 +875,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 '');
 insert into Characters (CardIndex) VALUES (1397);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (1300, 124, 134);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1300, 3); --Ruby
+VALUES (954, 124, 134);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (954, 3); --Ruby
 --GangMemberIndex 711
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (234, 0, 'Yamazaru Madoushi', 'Yamazaru', 'Solo Spawning Point', 2, 3, 1, 296);
@@ -886,7 +886,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (711, 909)
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (711, 928); --Spawning Pool
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (711, 1437); --Mountain Flute
 
---Monkey Mischief	--CardIndex 1398	--CharacterIndex 1301	--ArcadeCharacterIndex 235
+--Monkey Mischief	--CardIndex 1398	--CharacterIndex 955	--ArcadeCharacterIndex 235
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Monkey Mischief',
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Yamazaru/Card_Arcade_Warband_Clan_Yamazaru_Monkey_Mischief_2.0.png', 
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Yamazaru/Card_Arcade_Warband_Clan_Yamazaru_Monkey_Mischief_2.0_back.png', 
@@ -895,8 +895,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'While the Yamazaru value stoicism and hard-edged practicality as survival traits, they see the harsh cold of their mountain homes as good reason to be warm and open in their lives. The weather often limits travel, forcing clan members to live closely with others. They gleefully play pranks, engaging in "wars of smiles" with neighboring villages. This gives the Yamazaru kaiken who fight side by side a warm bond rarely seen in the other clans. These kaiken are quick to listen to the deadly kunoichi who often lead them into battle.');
 insert into Characters (CardIndex) VALUES (1398);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (1301, 124, 134);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1301, 1); --Citrine
+VALUES (955, 124, 134);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (955, 1); --Citrine
 --GangMemberIndex 712
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (235, 0, 'Yamazaru Kunoichi', 'Yamazaru', 'Elite', 7, 3, 1, 297);
@@ -907,7 +907,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (712, 1443
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (235, 1, 'Yamazaru Kaiken', 'Bonded Yamazaru', 'Minion', 7, 1, 0, 298);
 
---Monkey Mischief Beta	--CardIndex 1399	--CharacterIndex 1302	--ArcadeCharacterIndex 236
+--Monkey Mischief Beta	--CardIndex 1399	--CharacterIndex 956	--ArcadeCharacterIndex 236
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Monkey Mischief Beta',
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Yamazaru/Card_Arcade_Warband_Clan_Yamazaru_Monkey_Mischief_Beta_2.0.png', 
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Yamazaru/Card_Arcade_Warband_Clan_Yamazaru_Monkey_Mischief_Beta_2.0_back.png', 
@@ -916,8 +916,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'While the Yamazaru value stoicism and hard-edged practicality as survival traits, they see the harsh cold of their mountain homes as good reason to be warm and open in their lives. The weather often limits travel, forcing clan members to live closely with others. They gleefully play pranks, engaging in "wars of smiles" with neighboring villages. This gives the Yamazaru kaiken who fight side by side a warm bond rarely seen in the other clans. These kaiken are quick to listen to the deadly kunoichi who often lead them into battle.');
 insert into Characters (CardIndex) VALUES (1399);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (1302, 124, 134);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1302, 1); --Citrine
+VALUES (956, 124, 134);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (956, 1); --Citrine
 --GangMemberIndex 714
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (236, 0, 'Yamazaru Kunoichi', 'Yamazaru', 'Elite', 7, 3, 1, 299);
@@ -928,7 +928,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (714, 1443
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (236, 1, 'Yamazaru Kaiken', 'Bonded Yamazaru', 'Minion', 7, 1, 0, 300);
 
---Yamazaru Oni	--CardIndex 1400	--CharacterIndex 1303	--ArcadeCharacterIndex 237
+--Yamazaru Oni	--CardIndex 1400	--CharacterIndex 957	--ArcadeCharacterIndex 237
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Yamazaru Oni',
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Yamazaru/Card_Arcade_Warband_Clan_Yamazaru_Yamazaru_Oni_2.0.png', 
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Yamazaru/Card_Arcade_Warband_Clan_Yamazaru_Yamazaru_Oni_2.0_back.png', 
@@ -937,9 +937,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'The Yamazaru have rich spiritual lives which has granted them an intimate connection with their mountain home and the creatures that dwell there. The mighty monkey oni are fierce companions of the Yamazaru, defending them in times of danger and playfully playing tricks on them during times of peace.');
 insert into Characters (CardIndex) VALUES (1400);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (1303, 124, 134);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1303, 1); --Citrine
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1303, 2); --Emerald
+VALUES (957, 124, 134);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (957, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (957, 2); --Emerald
 --GangMemberIndex 716
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (237, 0, 'Yamazaru Oni', 'Yamazaru', 'Elite', 7, 4, 2, 301);
@@ -947,7 +947,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (716, 706)
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (716, 892); --Shiny Bauble
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (716, 2029); --Yamazaru's Tail
 
---Yamazaru Oni Beta	--CardIndex 1401	--CharacterIndex 1304	--ArcadeCharacterIndex 238
+--Yamazaru Oni Beta	--CardIndex 1401	--CharacterIndex 958	--ArcadeCharacterIndex 238
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Yamazaru Oni Beta',
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Yamazaru/Card_Arcade_Warband_Clan_Yamazaru_Yamazaru_Oni_Beta_2.0.png', 
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Yamazaru/Card_Arcade_Warband_Clan_Yamazaru_Yamazaru_Oni_Beta_2.0_back.png', 
@@ -956,9 +956,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'The Yamazaru have rich spiritual lives which has granted them an intimate connection with their mountain home and the creatures that dwell there. The mighty monkey oni are fierce companions of the Yamazaru, defending them in times of danger and playfully playing tricks on them during times of peace.');
 insert into Characters (CardIndex) VALUES (1401);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (1304, 124, 134);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1304, 1); --Citrine
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1304, 2); --Emerald
+VALUES (958, 124, 134);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (958, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (958, 2); --Emerald
 --GangMemberIndex 717
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (238, 0, 'Yamazaru Oni', 'Yamazaru', 'Elite', 7, 4, 2, 302);
@@ -966,7 +966,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (717, 706)
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (717, 892); --Shiny Bauble
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (717, 2029); --Yamazaru's Tail
 
---Yamazaru Yajiri	--CardIndex 1402	--CharacterIndex 1305	--ArcadeCharacterIndex 239
+--Yamazaru Yajiri	--CardIndex 1402	--CharacterIndex 959	--ArcadeCharacterIndex 239
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Yamazaru Yajiri',
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Yamazaru/Card_Arcade_Warband_Clan_Yamazaru_Yamazaru_Yajiri_2.0.png', 
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Yamazaru/Card_Arcade_Warband_Clan_Yamazaru_Yamazaru_Yajiri_2.0_back.png', 
@@ -975,9 +975,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Yamazaru yajiri are expert marxmen, often hunting in blinding snow and among rocky mountain peaks. They brave the harh, freezing conditions with a smile, bringing back game to be shared by their household. During times of strife they are called to action, where their skill with a bow is highly valued.');
 insert into Characters (CardIndex) VALUES (1402);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (1305, 124, 134);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1305, 1); --Citrine
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1305, 2); --Emerald
+VALUES (959, 124, 134);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (959, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (959, 2); --Emerald
 --GangMemberIndex 718
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (239, 0, 'Yamazaru Yajiri', 'Yamazaru', 'Elite', 7, 3, 2, 303);
@@ -985,7 +985,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (718, 647)
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (718, 892); --Shiny Bauble
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (718, 1439); --Mountain Disapproves, The
 
---Yamazaru Yajiri Beta	--CardIndex 1403	--CharacterIndex 1306	--ArcadeCharacterIndex 240
+--Yamazaru Yajiri Beta	--CardIndex 1403	--CharacterIndex 960	--ArcadeCharacterIndex 240
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Yamazaru Yajiri Beta',
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Yamazaru/Card_Arcade_Warband_Clan_Yamazaru_Yamazaru_Yajiri_Beta_2.0.png', 
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Yamazaru/Card_Arcade_Warband_Clan_Yamazaru_Yamazaru_Yajiri_Beta_2.0_back.png', 
@@ -994,9 +994,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Yamazaru yajiri are expert marxmen, often hunting in blinding snow and among rocky mountain peaks. They brave the harh, freezing conditions with a smile, bringing back game to be shared by their household. During times of strife they are called to action, where their skill with a bow is highly valued.');
 insert into Characters (CardIndex) VALUES (1403);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (1306, 124, 134);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1306, 1); --Citrine
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1306, 2); --Emerald
+VALUES (960, 124, 134);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (960, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (960, 2); --Emerald
 --GangMemberIndex 719
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (240, 0, 'Yamazaru Yajiri', 'Yamazaru', 'Elite', 7, 3, 2, 304);
@@ -1006,7 +1006,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (719, 1439
 
 
 --Clan Yurei
---Yurei Madoushi	--CardIndex 1404	--CharacterIndex 1307	--ArcadeCharacterIndex 241
+--Yurei Madoushi	--CardIndex 1404	--CharacterIndex 961	--ArcadeCharacterIndex 241
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Yurei Madoushi',
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Yurei/Card_Arcade_Warband_Clan_Yurei_Yurei_Madoushi_2.0.png', 
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Yurei/Card_Arcade_Warband_Clan_Yurei_Yurei_Madoushi_2.0_back.png', 
@@ -1015,8 +1015,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'It was the Yurei''s Madoushi that consigned their lords to their fate of undeath. Knowing that they would be able to fight on, even in death, they can serve their Lord and regain the honor of their clan.');
 insert into Characters (CardIndex) VALUES (1404);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (1307, 124, 134);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1307, 0); --Amethyst
+VALUES (961, 124, 134);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (961, 0); --Amethyst
 --GangMemberIndex 720
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (241, 0, 'Yurei Madoushi', 'Undead', 'Yurei Undead Spawning Point', 1, 3, 1, 305);
@@ -1026,7 +1026,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (720, 909)
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (720, 991); --Spawning Pool
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (720, 1714); --Soul Drain
 
---Ghost Ship	--CardIndex 1405	--CharacterIndex 1308	--ArcadeCharacterIndex 242
+--Ghost Ship	--CardIndex 1405	--CharacterIndex 962	--ArcadeCharacterIndex 242
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ghost Ship',
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Yurei/Card_Arcade_Warband_Clan_Yurei_Ghost Ship_2.0.png', 
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Yurei/Card_Arcade_Warband_Clan_Yurei_Ghost Ship_2.0_back.png', 
@@ -1035,8 +1035,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Far ranging from the dread fleets, coastline scouts of the Ika often warn of floating jetsam. Bodies entangled in the nets and old wood might just be agents of the Yurei lying in wait to drag more of their sworn enemy into the watery depths.'); 
 insert into Characters (CardIndex) VALUES (1405);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (1308, 124, 134);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1308, 1); --Citrine
+VALUES (962, 124, 134);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (962, 1); --Citrine
 --GangMemberIndex 721
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (242, 0, 'Yurei Kunoichi', 'Undead', 'Elite', 4, 3, 2, 306);
@@ -1048,7 +1048,7 @@ insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, 
 VALUES (242, 1, 'Yurei Kaiken', 'Bonded Undead', 'Minion', 4, 1, 1, 307);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (722, 562); --Dragged To The Depths
 
---Spirit Archers	--CardIndex 1406	--CharacterIndex 1309	--ArcadeCharacterIndex 243
+--Spirit Archers	--CardIndex 1406	--CharacterIndex 963	--ArcadeCharacterIndex 243
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Spirit Archers',
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Yurei/Card_Arcade_Warband_Clan_Yurei_Spirit_Archers_2.0.png', 
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Yurei/Card_Arcade_Warband_Clan_Yurei_Spirit_Archers_2.0_back.png', 
@@ -1057,8 +1057,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Vengeance guide my black arrows, pierce the hearts of the warm and the living, bring me the victory over my enemies stolen from me in life. - unknown Yurei Yajiri');
 insert into Characters (CardIndex) VALUES (1406);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (1309, 124, 134);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1309, 0); --Amethyst
+VALUES (963, 124, 134);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (963, 0); --Amethyst
 --GangMemberIndex 723
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (243, 0, 'Yurei Yajiri', 'Undead', 'Elite', 4, 2, 2, 308);
@@ -1074,7 +1074,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (724, 1333
 
 
 --Cold Eggs
---Cold Eggs --CardIndex 1407 --CharacterIndex 1310 --ArcadeCharacterIndex 244
+--Cold Eggs --CardIndex 1407 --CharacterIndex 964 --ArcadeCharacterIndex 244
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Cold Eggs',
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Cold_Eggs/Card_Arcade_Warband_Cold_Eggs_2.0.png', 
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Cold_Eggs/Card_Arcade_Warband_Cold_Eggs_2.0_back.png', 
@@ -1083,8 +1083,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'The drakes of the Frostbyte Reach plague the frozen caverns, ruins, and forests of that frigid land. Utterly in the thrall of the Sapphire Dragon, Hoarfang, the drakes share his mercurial behavior. Many dwarven holds have even "tamed" clutches of drakes to serve as companions and hunting beasts. However, they must always be on guard for it is not uncommon for a clutch of drakes to suddenly turn upon their allies should the mood strike them.');
 insert into Characters (CardIndex) VALUES (1407);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (1310, 0, -1);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1310, 1); --Citrine
+VALUES (964, 0, -1);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (964, 1); --Citrine
 --GangMemberIndex 725
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (244, 0, 'Cold Eggs', 'Spawning Point', '', 0, 3, 1, 310);
@@ -1092,7 +1092,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (725, 461)
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (725, 681); --Immune: Status Effects
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (725, 930); --Spawning Pool
 
---Hoarfang's Brood	--CardIndex 1408	--CharacterIndex 1311	--ArcadeCharacterIndex 245
+--Hoarfang's Brood	--CardIndex 1408	--CharacterIndex 965	--ArcadeCharacterIndex 245
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Hoarfang''s Brood',
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Cold_Eggs/Card_Arcade_Warband_Cold_Eggs_Hoarfangs_Brood_2.0.png', 
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Cold_Eggs/Card_Arcade_Warband_Cold_Eggs_Hoarfangs_Brood_2.0_back.png', 
@@ -1101,8 +1101,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'The drakes of Frostbyte Reach are desperate and savage creatures, fighting for what little food can be found where they dwell. During particularly bitter ice storms, they will huddle together in caves or crevices, and woe betide any hero who seeks shelter there as well.');
 insert into Characters (CardIndex) VALUES (1408);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (1311, 241, 362);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1311, 4); --Sapphire
+VALUES (965, 241, 362);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (965, 4); --Sapphire
 --GangMemberIndex 726
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (245, 0, 'Wyrmling', 'Drake', 'Elite', 5, 2, 2, 311);
@@ -1120,7 +1120,7 @@ VALUES (245, 2, 'Hatchlings', 'Bonded Drake', 'Minion', 6, 2, 1, 313);
 
 
 --Corrupted Harvest
---Corrupted Harvest --CardIndex 1409 --CharacterIndex 1312 --ArcadeCharacterIndex 246
+--Corrupted Harvest --CardIndex 1409 --CharacterIndex 966 --ArcadeCharacterIndex 246
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Corrupted Harvest',
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Corrupted_Harvest/Card_Arcade_Warband_Corrupted_Harvest_2.0.png', 
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Corrupted_Harvest/Card_Arcade_Warband_Corrupted_Harvest_2.0_back.png', 
@@ -1129,8 +1129,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'While most villagers are justifiably a superstitious bunch. It does not help when agents of the Dark Consul make their way into the farmlands to wreak chaos and havoc. Many of the rural denizens have become "fed-up" with their field''s strawmen jumping down from their stilts to terrorize the locals.');
 insert into Characters (CardIndex) VALUES (1409);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (1312, 0, -1);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1312, 0); --Amethyst
+VALUES (966, 0, -1);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (966, 0); --Amethyst
 --GangMemberIndex 729
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (246, 0, 'Corrupted Harvest', 'Spawning Point', '', 0, 4, 1, 314);
@@ -1139,7 +1139,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (729, 595)
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (729, 681); --Immune: Status Effects Except Fire
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (729, 932); --Spawning Pool
 
---Out Of The Cornfield	--CardIndex 1410	--CharacterIndex 1313	--ArcadeCharacterIndex 247
+--Out Of The Cornfield	--CardIndex 1410	--CharacterIndex 967	--ArcadeCharacterIndex 247
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Out Of The Cornfield',
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Corrupted_Harvest/Card_Arcade_Warband_Corrupted_Harvest_Out_Of_The_Cornfield_2.0.png', 
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Corrupted_Harvest/Card_Arcade_Warband_Corrupted_Harvest_Out_Of_The_Cornfield_2.0_back.png', 
@@ -1148,8 +1148,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 '"Though roughly stitched together from hay and clothes out on a drying line, this creature''s only defining feature is a limp gait, a rusty cleaver, and a sodden bag full of meal worms and hay where it''s face should be. Fire seems to do the trick, but they will quickly lurch back into the fields while they burn up, along with the crops. Evil buggers" Watchman Hayseed, Crystalian Militia.');
 insert into Characters (CardIndex) VALUES (1410);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (1313, 241, 362);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1313, 0); --Amethyst
+VALUES (967, 241, 362);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (967, 0); --Amethyst
 --GangMemberIndex 730
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (247, 0, 'Crow Eater', 'Construct', 'Elite', 5, 4, 2, 315);
@@ -1164,7 +1164,7 @@ insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, 
 VALUES (247, 1, 'Harvest Goon', 'Bonded Construct', 'Minion', 5, 2, 0, 316);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (731, 595); --Flammable
 
---Reap The Harvest	--CardIndex 1411	--CharacterIndex 1314	--ArcadeCharacterIndex 248
+--Reap The Harvest	--CardIndex 1411	--CharacterIndex 968	--ArcadeCharacterIndex 248
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Reap The Harvest',
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Corrupted_Harvest/Card_Arcade_Warband_Corrupted_Harvest_Reap_the_Harvest_2.0.png', 
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Corrupted_Harvest/Card_Arcade_Warband_Corrupted_Harvest_Reap_the_Harvest_2.0_back.png', 
@@ -1173,8 +1173,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Stumbling along behind the Goons, the Harvest Sacks use their long pitch forks to haul off the fallen and wounded to stitch together new friends! Gotta make hay while the moon still shines!'); 
 insert into Characters (CardIndex) VALUES (1411);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (1314, 241, 362);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1314, 0); --Amethyst
+VALUES (968, 241, 362);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (968, 0); --Amethyst
 --GangMemberIndex 732
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (248, 0, 'Harvest Sack', 'Construct', 'Elite', 5, 2, 1, 317);  
@@ -1192,7 +1192,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (733, 1546
 
 
 --Cursed Barrow
---Cursed Barrow --CardIndex 1412 --CharacterIndex 1315 --ArcadeCharacterIndex 249
+--Cursed Barrow --CardIndex 1412 --CharacterIndex 969 --ArcadeCharacterIndex 249
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Cursed Barrow',
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Cursed_Barrow/Card_Arcade_Warband_Cursed_Barrow_2.0.png', 
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Cursed_Barrow/Card_Arcade_Warband_Cursed_Barrow_2.0_back.png', 
@@ -1201,15 +1201,15 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'When Elrik doomed his Reavers to the curse of undeath, he ordered the construction of a grand and macabre hall, to house him and his new warriors, deep beneath the Frostbyte Reach. Resembling a tomb more than a palace or castle, the Hall of the Lich King sprawls for untold miles beneath the surface. The only sign of the Hall upon the surface are the burial mounds of the cursed barrows. Here, Elrik''s cursed draugr warriors take rest, ever alert for trespassing Heroes.');
 insert into Characters (CardIndex) VALUES (1412);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (1315, 0, -1);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1315, 0); --Amethyst
+VALUES (969, 0, -1);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (969, 0); --Amethyst
 --GangMemberIndex 734
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (249, 0, 'Cursed Barrow', 'Spawning Point', '', 0, 3, 1, 319);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (734, 681); --Immune: Status Effects
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (734, 934); --Spawning Pool
 
---Draugr Berserker	--CardIndex 1413	--CharacterIndex 1316	--ArcadeCharacterIndex 250
+--Draugr Berserker	--CardIndex 1413	--CharacterIndex 970	--ArcadeCharacterIndex 250
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Draugr Berserker',
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Cursed_Barrow/Card_Arcade_Warband_Corrupted_Harvest_Draugr_Berserker_2.0.png', 
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Cursed_Barrow/Card_Arcade_Warband_Corrupted_Harvest_Draugr_Berserker_2.0_back.png', 
@@ -1218,8 +1218,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Draugr are not shambling, unthinking undead. Within each draugr lies the soul of a Reaver--a fierce, proud, and violent warrior, millennia old. In the fiercest combat the soul of a draugr can be unlocked, restoring it to its full violent fury. Blessed with the ability to feel, smell, and taste the draugr becomes a raging berserker determined to find release in one last glorious battle.');
 insert into Characters (CardIndex) VALUES (1413);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (1316, 241, 362);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1316, 0); --Amethyst
+VALUES (970, 241, 362);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (970, 0); --Amethyst
 --GangMemberIndex 735
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (250, 0, 'Draugr Berserker', 'Undead Ghoul', 'Elite', 8, 4, 3, 320);
@@ -1227,7 +1227,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (735, 466)
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (735, 625); --Fury
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (735, 1007); --Despair
 
---Cursed Barrow Errata --CardIndex 1414 --CharacterIndex 1317 --ArcadeCharacterIndex 251
+--Cursed Barrow Errata --CardIndex 1414 --CharacterIndex 971 --ArcadeCharacterIndex 251
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Cursed Barrow Errata',
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Cursed_Barrow/Card_Arcade_Warband_Cursed_Barrow_Errata_2.0.png', 
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Cursed_Barrow/Card_Arcade_Warband_Cursed_Barrow_Errata_2.0_back.png', 
@@ -1236,15 +1236,15 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'When Elrik doomed his Reavers to the curse of undeath, he ordered the construction of a grand and macabre hall, to house him and his new warriors, deep beneath the Frostbyte Reach. Resembling a tomb more than a palace or castle, the Hall of the Lich King sprawls for untold miles beneath the surface. The only sign of the Hall upon the surface are the burial mounds of the cursed barrows. Here, Elrik''s cursed draugr warriors take rest, ever alert for trespassing Heroes.');
 insert into Characters (CardIndex) VALUES (1414);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (1317, 0, -1);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1317, 0); --Amethyst
+VALUES (971, 0, -1);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (971, 0); --Amethyst
 --GangMemberIndex 736
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (251, 0, 'Cursed Barrow', 'Spawning Point', '', 0, 3, 1, 321);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (736, 681); --Immune: Status Effects
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (736, 935); --Spawning Pool
 
---Order Of The Black Hand	--CardIndex 1415	--CharacterIndex 1318	--ArcadeCharacterIndex 252
+--Order Of The Black Hand	--CardIndex 1415	--CharacterIndex 972	--ArcadeCharacterIndex 252
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Order Of The Black Hand',
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Corrupted_Harvest/Card_Arcade_Warband_Corrupted_Harvest_Order Of The Black Hand_2.0.png', 
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Corrupted_Harvest/Card_Arcade_Warband_Corrupted_Harvest_Order Of The Black Hand_2.0_back.png', 
@@ -1253,8 +1253,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warriors brave. Reavers true. Walk ye dead. Ye curse''ed few.');
 insert into Characters (CardIndex) VALUES (1415);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (1318, 241, 362);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1318, 0); --Amethyst
+VALUES (972, 241, 362);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (972, 0); --Amethyst
 --GangMemberIndex 737
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (252, 0, 'Black Hand', 'Undead Ghoul', 'Elite', 6, 2, 2, 322); 
@@ -1266,7 +1266,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (738, 792)
 
 
 --Cursed Hollow
---Cursed Hollow --CardIndex 1416 --CharacterIndex 1319 --ArcadeCharacterIndex 253
+--Cursed Hollow --CardIndex 1416 --CharacterIndex 973 --ArcadeCharacterIndex 253
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Cursed Hollow',
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Cursed_Hollow/Card_Arcade_Warband_Cursed_Hollow_2.0.png', 
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Cursed_Hollow/Card_Arcade_Warband_Cursed_Hollow_2.0_back.png', 
@@ -1275,15 +1275,15 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Kodama are inherently fickle, and they are often prone to influence. Many Kodama who dwell at the edge of the Fae Wood, where it meets the Glauerdoom Moor, have fallen under the sway of Nightsong the Eternal. They delight in spreading corruption, blighting crops, and plaguing the living.<br><br>Many of these Kodama have even begun to take on aspects of the undead. Their bodies are often composed of wilting leaves, blackened vines, and twisting branches. And they will stop at nothing to heed the call of their Lord.');
 insert into Characters (CardIndex) VALUES (1416);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (1319, 0, -1);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1319, 0); --Amethyst
+VALUES (973, 0, -1);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (973, 0); --Amethyst
 --GangMemberIndex 739
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (253, 0, 'Cursed Hollow', 'Spawning Point', '', 0, 4, 1, 324);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (739, 681); --Immune: Status Effects
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (739, 940); --Spawning Pool
 
---Gloom Wisps	--CardIndex 1417	--CharacterIndex 1320	--ArcadeCharacterIndex 254
+--Gloom Wisps	--CardIndex 1417	--CharacterIndex 974	--ArcadeCharacterIndex 254
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Gloom Wisps',
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Cursed_Hollow/Card_Arcade_Warband_Cursed_Hollow_Gloom_Wisps_2.0.png', 
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Cursed_Hollow/Card_Arcade_Warband_Cursed_Hollow_Gloom_Wisps_2.0_back.png', 
@@ -1292,8 +1292,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Wisps are shy, but have a reputation for leading travelers to safety and shelter. Those Wisps who have become corrupted by Nightsong the Eternal still lead travelers, laughing and chirping, creating the illusion of comfort. But the longer the weary traveler stays in the company of the Wisp, the more they sink into a dark despair, until they simply lay down in the blighted moor. Unable to bring themselves to seek shelter or food, these travelers wither away as the wisp laughs and plays.');
 insert into Characters (CardIndex) VALUES (1417);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (1320, 241, 362);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1320, 3); --Ruby
+VALUES (974, 241, 362);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (974, 3); --Ruby
 --GangMemberIndex 740
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (254, 0, 'Gloom Wisp', 'Undead Kodama', 'Elite', 6, 2, 1, 325);
@@ -1305,7 +1305,7 @@ VALUES (254, 1, 'Gloom Wisp', 'Undead Kodama', 'Elite', 6, 2, 1, 326);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (741, 547); --Despair
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (741, 1208); --Ghastly Vigor
 
---Rotten Seeds --CardIndex 1418 --CharacterIndex 1321 --ArcadeCharacterIndex 255
+--Rotten Seeds --CardIndex 1418 --CharacterIndex 975 --ArcadeCharacterIndex 255
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Rotten Seeds',
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Cursed_Hollow/Card_Arcade_Warband_Cursed_Hollow_Rotten Seeds_2.0.png', 
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Cursed_Hollow/Card_Arcade_Warband_Cursed_Hollow_Rotten Seeds_2.0_back.png', 
@@ -1314,8 +1314,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Each spring the Deeproot Tree breathes life into countless sprouts. They travel Crystalia, settling down and blooming new life throughout the land. Most sprouts take root in fertile territory, where they can reach their full potential. But some find themselves deep in the Glauerdoom Moor. Even so, a sprout will sometimes take root in the oppressive, swampy waters and create a beacon of life and hope in that desperate and forgotten place. But all too often the sprout will be corrupted by the foul things that lurk in the moor. Often these seeds are planted and cultivated by Rotten Cabbages who want to see another servant for their lord, Nightsong the Eternal.');
 insert into Characters (CardIndex) VALUES (1418);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (1321, 0, -1);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1321, 1); --Citrine
+VALUES (975, 0, -1);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (975, 1); --Citrine
 --GangMemberIndex 742
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (255, 0, 'Bad Seed', 'Undead Kodama', 'Elite', 6, 2, 3, 327);
@@ -1327,7 +1327,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (742, 1582
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (255, 0, 'Rotten Cabbage', 'Undead Kodama', 'Elite', 6, 1, 1, 328);
 
---Spoiled Turnips	--CardIndex 1419	--CharacterIndex 1322	--ArcadeCharacterIndex 256
+--Spoiled Turnips	--CardIndex 1419	--CharacterIndex 976	--ArcadeCharacterIndex 256
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Spoiled Turnips',
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Cursed_Hollow/Card_Arcade_Warband_Cursed_Hollow_Spoiled_Turnips_2.0.png', 
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Cursed_Hollow/Card_Arcade_Warband_Cursed_Hollow_Spoiled_Turnips_2.0_back.png', 
@@ -1336,8 +1336,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Turnipheads are normally difficult to sway, devoting themselves to healing sick plants. However, those that do become corrupted are consumed completely, becoming devoted to spreading blight and plague to the living. They forsake their ability to heal, instead reveling in the decay that reflects the visage of the undead lord.');
 insert into Characters (CardIndex) VALUES (1419);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (1322, 241, 362);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1322, 1); --Citrine
+VALUES (976, 241, 362);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (976, 1); --Citrine
 --GangMemberIndex 744
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (256, 0, 'Spoiled Turnips', 'Undead Kodama', 'Elite', 6, 1, 0, 329); 
@@ -1349,7 +1349,7 @@ VALUES (256, 1, 'Spoiled Turnips', 'Undead Kodama', 'Elite', 6, 1, 0, 330);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (745, 453); --Bane
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (745, 774); --Bane of Death
 
---Vengeful Compost	--CardIndex 1420	--CharacterIndex 1323	--ArcadeCharacterIndex 257
+--Vengeful Compost	--CardIndex 1420	--CharacterIndex 977	--ArcadeCharacterIndex 257
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Vengeful Compost',
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Cursed_Hollow/Card_Arcade_Warband_Cursed_Hollow_Vengeful_Compost_2.0.png', 
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Cursed_Hollow/Card_Arcade_Warband_Cursed_Hollow_Vengeful_Compost_2.0_back.png', 
@@ -1358,9 +1358,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Those sprouts who become corrupted by the Glauerdoom Moor and the Rotten Cabbages who dwell there acquire certain tastes. The land is not fertile enough to support the rapid and grotesque growth that the plant undergoes, so it develops twisted,, lashing vines that are used to draw victims to it in order to feed on their blood. This thirst cannot be quenched, and the more the more it drinks, the more it grows...');
 insert into Characters (CardIndex) VALUES (1420);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (1323, 241, 362);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1323, 1); --Citrine
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1323, 4); --Sapphire
+VALUES (977, 241, 362);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (977, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (977, 4); --Sapphire
 --GangMemberIndex 746
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (257, 0, 'Wrath Sprout', 'Shapeshift', 'Elite', 2, 4, 3, 331); 
@@ -1374,7 +1374,7 @@ VALUES (257, 1, 'Rotten Cabbage', 'Undead Kodama', 'Minion', 6, 1, 1, 332);
 
 
 --Cursed Knight
---Cursed Knight --CardIndex 1421 --CharacterIndex 1324 --ArcadeCharacterIndex 258
+--Cursed Knight --CardIndex 1421 --CharacterIndex 978 --ArcadeCharacterIndex 258
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Cursed Knight',
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Cursed_Knight/Card_Arcade_Warband_Cursed_Knight_Cursed_Knight_2.0.png', 
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Cursed_Knight/Card_Arcade_Warband_Cursed_Knight_Cursed_Knight_2.0_back.png', 
@@ -1383,8 +1383,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Where the Fae Wood meets the Glauerdoom Moor is a particularly dread location. Here, the trees bend and twist, the branches clasping and tearing at any who pass. Beneath these wicked boughs there are the Cursed Knights of the Moorlands. Forsaking the Forgotten King, these twisted Chimera have fallen under the thrall of the dragon Nightsong the Eternal. Vicious and brutal, they enact their undead Lord''s will with unflinching cruelty.');
 insert into Characters (CardIndex) VALUES (1421);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (1324, 0, -1);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1324, 0); --Amethyst
+VALUES (978, 0, -1);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (978, 0); --Amethyst
 --GangMemberIndex 748
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (258, 0, 'Cursed Knight', 'Spawning Point', '', 0, 3, 1, 333);
@@ -1393,7 +1393,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (748, 650)
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (748, 681); --Immune: Status Effects
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (748, 942); --Spawning Pool
 
---Deathlord Militia	--CardIndex 1422	--CharacterIndex 1325	--ArcadeCharacterIndex 259
+--Deathlord Militia	--CardIndex 1422	--CharacterIndex 979	--ArcadeCharacterIndex 259
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Deathlord Militia',
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Cursed_Knight/Card_Arcade_Warband_Cursed_Knight_Deathlord_Militia_2.0.png', 
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Cursed_Knight/Card_Arcade_Warband_Cursed_Knight_Deathlord_Militia_2.0_back.png', 
@@ -1402,8 +1402,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'The Billmen who make up the ranks of the Moorland Militia are a remarkably disciplined force. Indeed, these ruthless soldiers train relentlessly to keep themselves in peak condition and fighting form. It is no surprise that they take great pride in this discipline and how it elevates them above the formless mass of skeletons and zombies which they often fight alongside. Even so, they will sometimes allow a grobbit Deathlord among their ranks, unleashing it upon their foes at an opportune time.');
 insert into Characters (CardIndex) VALUES (1422);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (1325, 241, 362);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1325, 3); --Ruby
+VALUES (979, 241, 362);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (979, 3); --Ruby
 --GangMemberIndex 749
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (259, 0, 'Grobbit Deathlord', 'Chimera', 'Elite', 6, 4, 3, 334);
@@ -1417,7 +1417,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (749, 959)
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (259, 1, 'Moorland Militia', 'Bonded Chimera', 'Minion', 6, 1, 1, 335);
 
---Skull Riders --CardIndex 1423 --CharacterIndex 1326 --ArcadeCharacterIndex 260
+--Skull Riders --CardIndex 1423 --CharacterIndex 980 --ArcadeCharacterIndex 260
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Skull Riders',
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Cursed_Knight/Card_Arcade_Warband_Cursed_Knight_Skull_Riders_2.0.png', 
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Cursed_Knight/Card_Arcade_Warband_Cursed_Knight_Skull_Riders_2.0_back.png', 
@@ -1426,8 +1426,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Skull Squawk knights are a secretive bunch. In fact, there are none who can recall ever seeing one outside of their armor or sharing a single word with another. This shadowy aloofness, combined with Skull Squawks'' uncanny supernatural abilities lead many to wonder if they are truly within the realm of the living at all...');
 insert into Characters (CardIndex) VALUES (1423);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (1326, 0, -1);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1326, 3); --Ruby
+VALUES (980, 0, -1);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (980, 3); --Ruby
 --GangMemberIndex 751
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (260, 0, 'Skull Squawk', 'Chimera', 'Elite', 8, 1, 2, 336);
@@ -1442,7 +1442,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (752, 815)
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (752, 1179); --Frogger
 
 --Egg Clutch
---Egg Clutch --CardIndex 1424 --CharacterIndex 1327 --ArcadeCharacterIndex 261
+--Egg Clutch --CardIndex 1424 --CharacterIndex 981 --ArcadeCharacterIndex 261
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Egg Clutch',
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Egg_Clutch/Card_Arcade_Warband_Egg_Clutch_Egg_Clutch_2.0.png', 
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Egg_Clutch/Card_Arcade_Warband_Egg_Clutch_Egg_Clutch_2.0_back.png', 
@@ -1451,8 +1451,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Wherever a dragon makes its lair its draconic kin, drakes, are sure to be found. Territorial and savage, these lesser beasts submit entirely to the will of the dragon. In exchange for the dragon''s protection, the drakes serve as the dragon''s eyes, ears, and faithful guards. When hunting a dragon, Heroes inevitably have to make their way through hordes of drakes that throw themselves in the path of the Heroes. Larger whelps attempt to drag their foes to the ground, so smaller hatchlings can swarm over their helpless prey. Above, elder wrymlings swoop and dart, spitting fire at the invaders.');
 insert into Characters (CardIndex) VALUES (1424);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (1327, 0, -1);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1327, 1); --Citrine
+VALUES (981, 0, -1);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (981, 1); --Citrine
 --GangMemberIndex 753
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (261, 0, 'Egg Clutch', 'Spawning Point', '', 0, 3, 1, 338);
@@ -1460,7 +1460,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (753, 681)
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (753, 827); --Quick Hatch
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (753, 944); --Spawning Pool
 
---Dragonborn	--CardIndex 1425	--CharacterIndex 1328	--ArcadeCharacterIndex 262
+--Dragonborn	--CardIndex 1425	--CharacterIndex 982	--ArcadeCharacterIndex 262
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Dragonborn',
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Egg_Clutch/Card_Arcade_Warband_Egg_Clutch_Dragonborn_2.0.png', 
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Egg_Clutch/Card_Arcade_Warband_Egg_Clutch_Dragonborn_2.0_back.png', 
@@ -1469,8 +1469,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'On occasion, an ill-fated hero will stumble into a nest swarming with drakes of all sizes. In such a situation, running is often the best course of action, followed by screaming and arm-flailing.');
 insert into Characters (CardIndex) VALUES (1425);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (1328, 241, 362);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1328, 1); --Citrine
+VALUES (982, 241, 362);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (982, 1); --Citrine
 --GangMemberIndex 754
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (262, 0, 'Wyrmling', 'Drake', 'Elite', 5, 2, 2, 339);
@@ -1488,7 +1488,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (756, 800)
 
 
 --Fire Flow Hollow
---Fire Flow Hollow --CardIndex 1426 --CharacterIndex 1329 --ArcadeCharacterIndex 263
+--Fire Flow Hollow --CardIndex 1426 --CharacterIndex 983 --ArcadeCharacterIndex 263
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Fire Flow Hollow',
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Fire_Flow_Hollow/Card_Arcade_Warband_Fire_Flow_Hollow_Fire_Flow_Hollow_2.0.png', 
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Fire_Flow_Hollow/Card_Arcade_Warband_Fire_Flow_Hollow_Fire_Flow_Hollow_2.0_back.png', 
@@ -1499,8 +1499,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 While these Kodama are not servants of the Dark Consul, they are tempermental, belligerent, and dangerous. They have inherited the flaming wrath of the mountains in which they dwell, and they can pose as great a threat to a Hero as any monster.');
 insert into Characters (CardIndex) VALUES (1426);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (1329, 0, -1);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1329, 1); --Citrine
+VALUES (983, 0, -1);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (983, 1); --Citrine
 --GangMemberIndex 757
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (263, 0, 'Fire Flow Hollow', 'Paired Spawning Point', '', 0, 4, 1, 342);
@@ -1509,7 +1509,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (757, 589)
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (757, 681); --Immune: Status Effects
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (757, 948); --Spawning Pool
 
---Flame Wisps	--CardIndex 1427	--CharacterIndex 1330	--ArcadeCharacterIndex 264
+--Flame Wisps	--CardIndex 1427	--CharacterIndex 984	--ArcadeCharacterIndex 264
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Flame Wisps',
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Fire_Flow_Hollow/Card_Arcade_Warband_Fire_Flow_Hollow_Flame_Wisps_2.0.png', 
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Fire_Flow_Hollow/Card_Arcade_Warband_Fire_Flow_Hollow_Flame_Wisps_2.0_back.png', 
@@ -1518,8 +1518,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'The Kodama who eek out an existence in the Dragonback Peaks are even more temperamental and fickle than usual. Flame Wisps are particularly hard to predict. A Flame Wisp may lead a Hero through a twisting pass in the mountains one day and then set the Hero''s pack on fire the next day before running away and giggling.');
 insert into Characters (CardIndex) VALUES (1427);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (1330, 241, 362);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1330, 3); --Ruby
+VALUES (984, 241, 362);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (984, 3); --Ruby
 --GangMemberIndex 758
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (264, 0, 'Flame Wisp', 'Kodama', 'Elite', 6, 2, 1, 343);
@@ -1535,7 +1535,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (759, 674)
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (759, 703); --Kindling
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (759, 1555); --Raging Flame
 
---Spicey Turnips	--CardIndex 1428	--CharacterIndex 1331	--ArcadeCharacterIndex 265
+--Spicey Turnips	--CardIndex 1428	--CharacterIndex 985	--ArcadeCharacterIndex 265
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Spicey Turnips',
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Fire_Flow_Hollow/Card_Arcade_Warband_Fire_Flow_Hollow_Spicey_Turnips_2.0.png', 
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Fire_Flow_Hollow/Card_Arcade_Warband_Fire_Flow_Hollow_Spicey_Turnips_2.0_back.png', 
@@ -1544,8 +1544,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Spicy Turnips are Turnipheads who have given up on healing wounded plants. In the harsh conditions of the Dragonback Peaks, a Turniphead cannot properly heal every burn, every lost leaf, every torn root. This frustration builds in fiery rage, and a Spice Turnip is born. Unable to heal the wounded, Spicy Turnips instead seek to stoke the flames.');
 insert into Characters (CardIndex) VALUES (1428);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (1331, 241, 362);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1331, 1); --Citrine
+VALUES (985, 241, 362);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (985, 1); --Citrine
 --GangMemberIndex 760
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (265, 0, 'Spicy Turnips', 'Kodama', 'Elite', 6, 1, 0, 345);
@@ -1561,7 +1561,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (761, 674)
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (761, 1097); --Volatile
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (761, 855); --Burning Sensation
 
---Sprouting Magma	--CardIndex 1429	--CharacterIndex 1332	--ArcadeCharacterIndex 266
+--Sprouting Magma	--CardIndex 1429	--CharacterIndex 986	--ArcadeCharacterIndex 266
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Sprouting Magma',
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Fire_Flow_Hollow/Card_Arcade_Warband_Fire_Flow_Hollow_Sprouting_Magma_2.0.png', 
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Fire_Flow_Hollow/Card_Arcade_Warband_Fire_Flow_Hollow_Sprouting_Magma_2.0_back.png', 
@@ -1570,8 +1570,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Sometimes a seed from the Deeproot Tree will become encased in lava as it cools. The magic of the Deeproot is strong enough to keep the seed alive, and it can remain trapped for centuries. When these seeds are unearthed, they grow wild and fierce. They not only are immune to flame, but they crave it, often growing stronger in the warmth of a blaze. The Broiled Mooks native to the region consider these Magma Seeds great playmates, chortling as the little seed sparks blaze after blaze.');
 insert into Characters (CardIndex) VALUES (1429);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (1332, 241, 362);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1332, 1); --Citrine
+VALUES (986, 241, 362);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (986, 1); --Citrine
 --GangMemberIndex 762
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (266, 0, 'Magma Seed', 'Kodama', 'Elite', 6, 2, 2, 347);
@@ -1586,7 +1586,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (763, 588)
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (763, 674); --Immune: Fire
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (763, 703); --Kindling
 
---Volcanic Growth	--CardIndex 1430	--CharacterIndex 1333	--ArcadeCharacterIndex 267
+--Volcanic Growth	--CardIndex 1430	--CharacterIndex 987	--ArcadeCharacterIndex 267
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Volcanic Growth',
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Fire_Flow_Hollow/Card_Arcade_Warband_Fire_Flow_Hollow_Volcanic_Growth_2.0.png', 
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Fire_Flow_Hollow/Card_Arcade_Warband_Fire_Flow_Hollow_Volcanic_Growth_2.0_back.png', 
@@ -1595,8 +1595,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'As a Magma Seed grows, it blossoms into the mighty Volcanic Sprout. By the time these sprouts reach maturity they have spent centuries encased in lava and the experience has left them hardened and formidable. Relishing in the open air, they grow at an astounding rate, burning anything in their path, except perhaps the Broiled Mooks who find the conflagration more amusing as it grows.');
 insert into Characters (CardIndex) VALUES (1430);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (1333, 241, 362);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1333, 1); --Citrine
+VALUES (987, 241, 362);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (987, 1); --Citrine
 --GangMemberIndex 764
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (267, 0, 'Volcanic Sprout', 'Shapeshift', 'Elite', 3, 4, 2, 349);
@@ -1614,7 +1614,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (765, 703)
 
 
 --Forgotten Stone
---Forgotten Stone --CardIndex 1431 --CharacterIndex 1334 --ArcadeCharacterIndex 268
+--Forgotten Stone --CardIndex 1431 --CharacterIndex 988 --ArcadeCharacterIndex 268
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Forgotten Stone',
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Forgotten_Stone/Card_Arcade_Warband_Forgotten_Stone_Forgotten_Stone_2.0.png', 
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Forgotten_Stone/Card_Arcade_Warband_Forgotten_Stone_Forgotten_Stone_2.0_back.png', 
@@ -1623,9 +1623,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'While the Shadow Fleets of the Midnight Queen openly sail the waters of the Scalding Sea, when they venture into the vast oceans surrounding Crystalia they must be more cautious. Here, heavily armored gnomish clockwork frigates, Brinebreaker dreadnoughts bristling with weaponry, many-masted royal galleons, and fleets of undead pirate clippers from the Drowned Isles vie for supremacy. Because of this, Shadow Fleets search out forgotten islands and coves to use as hidden bases of operation. Once secured, they mark these bases'' locations with crudely carved stones that are carefully crafted to appear ancient, forgotten, and unassuming.');
 insert into Characters (CardIndex) VALUES (1431);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (1334, 0, -1);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1334, 1); --Citrine
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1334, 3); --Ruby
+VALUES (988, 0, -1);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (988, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (988, 3); --Ruby
 --GangMemberIndex 766
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (268, 0, 'Forgotten Stone', 'Spawning Point', '', 0, 3, 1, 351);
@@ -1633,7 +1633,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (766, 681)
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (766, 871); --Scuttle
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (766, 950); --Spawning Pool
 
---Boarding Party	--CardIndex 1432	--CharacterIndex 1335	--ArcadeCharacterIndex 269
+--Boarding Party	--CardIndex 1432	--CharacterIndex 989	--ArcadeCharacterIndex 269
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Boarding Party',
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Forgotten_Stone/Card_Arcade_Warband_Forgotten_Stone_Boarding Party_2.0.png', 
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Forgotten_Stone/Card_Arcade_Warband_Forgotten_Stone_Boarding Party_2.0_back.png', 
@@ -1642,9 +1642,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Nether elves do not require honorable combat. One of their favored strategies is assassination. Cut off the head and the body will die. On the high seas the chain of command is vital, and a ship without its captain is an easy target. Midnight Mutineers are experts at infiltrating a ship''s crew and, the night before their corsair breathren attack, eliminating the ship''s captain and key personnel. In the chaos of such a strike, the Blackblade Corsairs board, taking the enemy ship with ease.');
 insert into Characters (CardIndex) VALUES (1432);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (1335, 241, 362);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1335, 1); --Citrine
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1335, 3); --Ruby
+VALUES (989, 241, 362);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (989, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (989, 3); --Ruby
 --GangMemberIndex 767
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (269, 0, 'Midnight Mutineer', 'Nether Elf Pirate', 'Elite', 8, 3, 2, 352);
@@ -1655,7 +1655,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (767, 2004
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (269, 1, 'Blackblade Corsair', 'Nether Elf Pirate', 'Minion', 8, 1, 1, 353);
 
---Corsair Arbalist	--CardIndex 1433	--CharacterIndex 1336	--ArcadeCharacterIndex 270
+--Corsair Arbalist	--CardIndex 1433	--CharacterIndex 990	--ArcadeCharacterIndex 270
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Corsair Arbalist',
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Forgotten_Stone/Card_Arcade_Warband_Forgotten_Stone_Corsair_Arbalist_2.0.png', 
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Forgotten_Stone/Card_Arcade_Warband_Forgotten_Stone_Corsair_Arbalist_2.0_back.png', 
@@ -1664,9 +1664,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'A Shadow Fleet is a grim sight upon the horizon, and has been the doom for many a brave sailor. Shrouded in swirling mists and shadow, these bleak vessels begin their assaults with barrages of black-fletched crossbow bolts raking across the decks of their quarry, clearing the way for Blackblade boarders.');
 insert into Characters (CardIndex) VALUES (1433);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (1336, 241, 362);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1336, 1); --Citrine
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1336, 3); --Ruby
+VALUES (990, 241, 362);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (990, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (990, 3); --Ruby
 --GangMemberIndex 769
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (270, 0, 'Corsair Arbalist', 'Nether Elf Soldier', 'Elite', 7, 1, 2, 353);
@@ -1675,7 +1675,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (769, 1373
 
 
 --Frozen Warrens
---Frozen Warrens --CardIndex 1434 --CharacterIndex 1337 --ArcadeCharacterIndex 271
+--Frozen Warrens --CardIndex 1434 --CharacterIndex 991 --ArcadeCharacterIndex 271
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Frozen Warrens',
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Frozen_Warrens/Card_Arcade_Warband_Frozen_Warrens_Frozen_Warrens_2.0.png', 
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Frozen_Warrens/Card_Arcade_Warband_Frozen_Warrens_Frozen_Warrens_2.0_back.png', 
@@ -1684,8 +1684,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'The frigid climate of the Frostbyte Reach is notoriously inhospitable for the races of Crystalia. It is doubly so for the cold-blooded kobolds that choose to make the realm home. Because of their natural vulnerability the kobolds are fanatical devotees of the Cult of Frozen Spires. The Cult''s Frozen Priests maintain complex spells and rituals throughout the Reach designed to shield their kobold flock from the worst of the frozen climate.');
 insert into Characters (CardIndex) VALUES (1434);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (1337, 0, -1);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1337, 1); --Citrine
+VALUES (991, 0, -1);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (991, 1); --Citrine
 --GangMemberIndex 770
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (271, 0, 'Frozen Warrens', 'Paired Spawning Point', '', 0, 4, 1, 354);
@@ -1693,7 +1693,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (770, 461)
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (770, 681); --Immune: Status Effects
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (770, 952); --Spawning Pool
 
---Cult of Frozen Spires	--CardIndex 1435	--CharacterIndex 1338	--ArcadeCharacterIndex 272
+--Cult of Frozen Spires	--CardIndex 1435	--CharacterIndex 992	--ArcadeCharacterIndex 272
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Cult of Frozen Spires',
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Frozen_Warrens/Card_Arcade_Warband_Frozen_Warrens_Cult_of_Frozen_Spires_2.0.png', 
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Frozen_Warrens/Card_Arcade_Warband_Frozen_Warrens_Cult_of_Frozen_Spires_2.0_back.png', 
@@ -1702,9 +1702,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Frozen Priests have devoted themselves to the dragon Hoarfang. Their mastery of ice magic is unquestioned, and they use this magic both in battle and to adapt their warrens so their cold-blooded kin can survive in the icy regions where they dwell. The priests are often accompanied by Ice Picks, kobolds who wield long spears, as bodyguards. The protection of the Frozen Priests is of paramount importance because, without them, the entire warren could be consumed by the elements.');
 insert into Characters (CardIndex) VALUES (1435);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (1338, 241, 362);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1338, 1); --Citrine
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1338, 4); --Sapphire
+VALUES (992, 241, 362);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (992, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (992, 4); --Sapphire
 --GangMemberIndex 771
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (272, 0, 'Frozen Priest', 'Kobold', 'Elite', 6, 3, 2, 355);
@@ -1716,7 +1716,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (771, 1294
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (272, 1, 'Ice Pick', 'Bonded Kobold', 'Minion', 7, 1, 1, 356);
 
---Frostfang Horde	--CardIndex 1436	--CharacterIndex 1339	--ArcadeCharacterIndex 273
+--Frostfang Horde	--CardIndex 1436	--CharacterIndex 993	--ArcadeCharacterIndex 273
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Frostfang Horde',
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Frozen_Warrens/Card_Arcade_Warband_Frozen_Warrens_Frostfang_Horde_2.0.png', 
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Frozen_Warrens/Card_Arcade_Warband_Frozen_Warrens_Frostfang_Horde_2.0_back.png', 
@@ -1725,9 +1725,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Often, a Frostscale will be accompanied by a number of Blockheads out on the icy paths of the Frostbyte Reach. The Frostscale is able to keep his troops from freezing using weather magics taught to him by his Dragon Priest. This allows the group to scout and forage for days, before returning to the warrens and reporting what they found.');
 insert into Characters (CardIndex) VALUES (1436);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (1339, 241, 362);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1339, 1); --Citrine
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1339, 4); --Sapphire
+VALUES (993, 241, 362);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (993, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (993, 4); --Sapphire
 --GangMemberIndex 773
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (273, 0, 'Frostscale', 'Kobolds', 'Elite', 6, 1, 2, 357);
@@ -1738,7 +1738,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (773, 1296
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (273, 1, 'Blockhead', 'Bonded Kobold', 'Minion', 6, 1, 1, 358);
 
---Snowball Fight	--CardIndex 1437	--CharacterIndex 1340	--ArcadeCharacterIndex 274
+--Snowball Fight	--CardIndex 1437	--CharacterIndex 994	--ArcadeCharacterIndex 274
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Snowball Fight',
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Frozen_Warrens/Card_Arcade_Warband_Frozen_Warrens_Snowball_Fight_2.0.png', 
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Frozen_Warrens/Card_Arcade_Warband_Frozen_Warrens_Snowball_Fight_2.0_back.png', 
@@ -1747,8 +1747,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Snowball Chuckers are useless. They don''t like to hunt. They don''t like to fight. All they like to do is play in the snow, building forts, having funniest snow-dwarf contests, and rolling the snowballs they can manage. Sometimes they play a game of Dodge the Avalanche, which sees entire kobold encampments buried in layers of ice. However, that does not mean that they are not a danger to the heroes of Crystalia. More than one hero has been trapped in the crossfire of an epic snowball fight, only to never be heard from again.');
 insert into Characters (CardIndex) VALUES (1437);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (1340, 241, 362);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1340, 2); --Emerald
+VALUES (994, 241, 362);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (994, 2); --Emerald
 --GangMemberIndex 775
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (274, 0, 'Snowball Chucker', 'Kobold', 'Elite', 6, 1, 1, 359);
@@ -1764,7 +1764,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (776, 1703
 
 
 --Howler Stone
---Howler Stone --CardIndex 1438 --CharacterIndex 1341 --ArcadeCharacterIndex 275
+--Howler Stone --CardIndex 1438 --CharacterIndex 995 --ArcadeCharacterIndex 275
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Howler Stone',
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Howler_Stone/Card_Arcade_Warband_Howler_Stone_Howler_Stone_2.0.png', 
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Howler_Stone/Card_Arcade_Warband_Howler_Stone_Howler_Stone_2.0_back.png', 
@@ -1775,15 +1775,15 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 In Crystalia, gnolls behave much as they did within the Dark Realm. Stalking the shadows, they isolate and destroy weak prey. The inhospitable Frostbye Reach provides perfect shelter for this mentality. Within its snowcapped peaks the gnolls find solitude and safety, where they can rest and plot their next incursion.');
 insert into Characters (CardIndex) VALUES (1438);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (1341, 0, -1);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1341, 2); --Emerald
+VALUES (995, 0, -1);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (995, 2); --Emerald
 --GangMemberIndex 777
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (275, 0, 'Howler_Stone', 'Spawning Point', '', 0, 3, 1, 361);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (777, 681); --Immune: Status Effects
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (777, 954); --Spawning Pool
 
---Gnoll With The Punches 	--CardIndex 1439	--CharacterIndex 1342	--ArcadeCharacterIndex 276
+--Gnoll With The Punches 	--CardIndex 1439	--CharacterIndex 996	--ArcadeCharacterIndex 276
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Gnoll With The Punches',
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Howler_Stone/Card_Arcade_Warband_Howler_Stone_Gnoll_With_The_Punchess_2.0.png', 
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Howler_Stone/Card_Arcade_Warband_Howler_Stone_Gnoll_With_The_Punches_2.0_back.png', 
@@ -1792,8 +1792,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'AAAAAH-WOOOOOO');
 insert into Characters (CardIndex) VALUES (1439);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (1342, 241, 362);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1342, 2); --Emerald
+VALUES (996, 241, 362);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (996, 2); --Emerald
 --GangMemberIndex 778
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (276, 0, 'Gnoll Pack Leader', 'Gnoll', 'Elite', 6, 3, 2, 362);
@@ -1806,7 +1806,7 @@ VALUES (276, 1, 'Gnoll Warrior', 'Bonded Gnoll', 'Minion', 6, 1, 1, 363);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (779, 706); --Knockdown
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (779, 841); --Bring Down
 
---Grassy Gnolls, The	--CardIndex 1440	--CharacterIndex 1343	--ArcadeCharacterIndex 277
+--Grassy Gnolls, The	--CardIndex 1440	--CharacterIndex 997	--ArcadeCharacterIndex 277
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Grassy Gnolls, The',
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Howler_Stone/Card_Arcade_Warband_Howler_Stone_Grassy_Gnolls_The_2.0.png', 
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Howler_Stone/Card_Arcade_Warband_Howler_Stone_Grassy_Gnolls_The_2.0_back.png', 
@@ -1815,8 +1815,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Red fletching to the left. Blue to the right. Target their leader.');
 insert into Characters (CardIndex) VALUES (1440);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (1343, 241, 362);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1343, 2); --Emerald
+VALUES (997, 241, 362);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (997, 2); --Emerald
 --GangMemberIndex 780
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (277, 0, 'Gnoll Ranger', 'Gnoll', 'Elite', 6, 2, 1, 364);
@@ -1831,7 +1831,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (781, 800)
 
 
 --Junk Reaver Crystal
---Junk Reaver Crystal --CardIndex 1441 --CharacterIndex 1344 --ArcadeCharacterIndex 278
+--Junk Reaver Crystal --CardIndex 1441 --CharacterIndex 998 --ArcadeCharacterIndex 278
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Junk Reaver Crystal',
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Junk_Reaver_Crystal/Card_Arcade_Warband_Junk_Reaver_Crystal_Junk_Reaver_Crystal_2.0.png', 
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Junk_Reaver_Crystal/Card_Arcade_Warband_Junk_Reaver_Crystal_Junk_Reaver_Crystal_2.0_back.png', 
@@ -1840,15 +1840,15 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 ''); --!! unavailable !!
 insert into Characters (CardIndex) VALUES (1441);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (1344, 0, -1);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1344, 3); --Ruby
+VALUES (998, 0, -1);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (998, 3); --Ruby
 --GangMemberIndex 782
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (278, 0, 'Junk Reaver Crystal', 'Spawning Point', '', 0, 2, 2, 366);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (782, 681); --Immune: Status Effects
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (782, 957); --Spawning Pool
 
---Junkers Jamborie 	--CardIndex 1442	--CharacterIndex 1345	--ArcadeCharacterIndex 279
+--Junkers Jamborie 	--CardIndex 1442	--CharacterIndex 999	--ArcadeCharacterIndex 279
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Junkers Jamborie',
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Junk_Reaver_Crystal/Card_Arcade_Warband_Junk_Reaver_Crystal_Junkers_Jamborie_2.0.png', 
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Junk_Reaver_Crystal/Card_Arcade_Warband_Junk_Reaver_Crystal_Junkers_Jamborie_2.0_back.png', 
@@ -1857,8 +1857,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 ''); --!! unavailable !!
 insert into Characters (CardIndex) VALUES (1442);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (1345, 241, 362);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1345, 3); --Ruby
+VALUES (999, 241, 362);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (999, 3); --Ruby
 --GangMemberIndex 783
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (279, 0, 'Rust Boss', 'Orc', 'Elite', 6, 3, 2, 367);
@@ -1869,7 +1869,7 @@ insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, 
 VALUES (279, 1, 'Junker', 'Orc', 'Minion', 6, 1, 0, 368);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (784, 727); --Massive Damage
 
---Rusty Arrows	--CardIndex 1443	--CharacterIndex 1346	--ArcadeCharacterIndex 280
+--Rusty Arrows	--CardIndex 1443	--CharacterIndex 1000	--ArcadeCharacterIndex 280
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Rusty Arrows',
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Junk_Reaver_Crystal/Card_Arcade_Warband_Junk_Reaver_Crystal_Rusty_Arrows_2.0.png', 
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Junk_Reaver_Crystal/Card_Arcade_Warband_Junk_Reaver_Crystal_Rusty_Arrows_2.0_back.png', 
@@ -1878,8 +1878,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 '');  --!! unavailable !!
 insert into Characters (CardIndex) VALUES (1443);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (1346, 241, 362);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1346, 3); --Ruby
+VALUES (1000, 241, 362);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1000, 3); --Ruby
 --GangMemberIndex 785
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (280, 0, 'Rusty Arrows', 'Orc', 'Elite', 6, 2, 1, 369);
@@ -1893,7 +1893,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (785, 2094
 
 
 --Kobold Warrens
---Kobold Warrens --CardIndex 1444 --CharacterIndex 1347 --ArcadeCharacterIndex 281
+--Kobold Warrens --CardIndex 1444 --CharacterIndex 1001 --ArcadeCharacterIndex 281
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Kobold Warrens',
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Kobold_ Warrens/Card_Arcade_Warband_Kobold_ Warrens_Kobold_ Warrens_2.0.png', 
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Kobold_ Warrens/Card_Arcade_Warband_Kobold_ Warrens_Kobold_ Warrens_2.0_back.png', 
@@ -1904,8 +1904,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 Fortunately, they are also clannish and given to feuding amongst themselves when left to their own devices. Whenever possible, Heroes root out clans of kobolds before they unite behind a larger and craftier monster to boss them around. Otherwise, kobolds become an almost unstoppable scourge.'); 
 insert into Characters (CardIndex) VALUES (1444);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (1347, 0, -1);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1347, 1); --Citrine
+VALUES (1001, 0, -1);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1001, 1); --Citrine
 --GangMemberIndex 787
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (281, 0, 'Kobold Warrens', 'Paired Spawning Point', '', 0, 3, 1, 371);
@@ -1914,7 +1914,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (787, 758)
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (787, 759); --Mob Mentality
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (787, 959); --Spawning Pool
 
---Dragon Devotees 	--CardIndex 1445	--CharacterIndex 1348	--ArcadeCharacterIndex 282
+--Dragon Devotees 	--CardIndex 1445	--CharacterIndex 1002	--ArcadeCharacterIndex 282
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Dragon Devotees',
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Kobold_ Warrens/Card_Arcade_Warband_Kobold_ Warrens_Dragon_Devotees_2.0.png', 
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Kobold_ Warrens/Card_Arcade_Warband_Kobold_ Warrens_Dragon_Devotees_2.0_back.png', 
@@ -1923,8 +1923,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'When lead by a Dragon Priest, kobolds are given over to savage zealotry. Throwing themselves into combat heedless of their losses they seek only to impress their priest and the dragon whom they serve.');
 insert into Characters (CardIndex) VALUES (1445);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (1348, 241, 362);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1348, 3); --Ruby
+VALUES (1002, 241, 362);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1002, 3); --Ruby
 --GangMemberIndex 788
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (282, 0, 'Dragon Priest', 'Kobold', 'Elite', 6, 3, 2, 372);
@@ -1936,7 +1936,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (788, 1041
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (282, 1, 'Gouger', 'Kobold', 'Minion', 7, 1, 1, 373);
 
---Scale Wall	--CardIndex 1446	--CharacterIndex 1349	--ArcadeCharacterIndex 283
+--Scale Wall	--CardIndex 1446	--CharacterIndex 1003	--ArcadeCharacterIndex 283
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Scale Wall',
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Kobold_ Warrens/Card_Arcade_Warband_Kobold_ Warrens_Scale_Wall_2.0.png', 
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Kobold_ Warrens/Card_Arcade_Warband_Kobold_ Warrens_Scale_Wall_2.0_back.png', 
@@ -1945,9 +1945,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Those kobolds who prove themselves truly capable in a fight are strapped into heavy Ironscale armor and are ordered to lead the charge. Around them, lesser kobolds fall in line seeking what safety they can from behind the Ironscale''s armored bulk.');
 insert into Characters (CardIndex) VALUES (1446);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (1349, 241, 362);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1349, 1); --Citrine
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1349, 4); --Sapphire
+VALUES (1003, 241, 362);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1003, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1003, 4); --Sapphire
 --GangMemberIndex 790
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (283, 0, 'Ironscale', 'Kobold', 'Elite', 6, 1, 2, 374);
@@ -1957,7 +1957,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (790, 1647
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (283, 1, 'Knucklehead', 'Bonded Kobold', 'Minion', 6, 1, 1, 375);
 
---Sneaks	--CardIndex 1447	--CharacterIndex 1350	--ArcadeCharacterIndex 284
+--Sneaks	--CardIndex 1447	--CharacterIndex 1004	--ArcadeCharacterIndex 284
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Sneaks',
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Kobold_ Warrens/Card_Arcade_Warband_Kobold_ Warrens_Sneaks_2.0.png', 
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Kobold_ Warrens/Card_Arcade_Warband_Kobold_ Warrens_Sneaks_2.0_back.png', 
@@ -1966,8 +1966,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Shifty and untrustworthy, even by kobold standards, Flingers linger on the edge of a combat waiting for the opportune moment to sling their stones at the enemy. When extra carnage is needed they fling pots of flaming oil and drake tar into the battle, heedless of whom the flame might consume.');
 insert into Characters (CardIndex) VALUES (1447);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (1350, 241, 362);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1350, 2); --Emerald
+VALUES (1004, 241, 362);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1004, 2); --Emerald
 --GangMemberIndex 793
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (284, 0, 'Flinger', 'Kobold', 'Elite', 6, 1, 1, 376);
@@ -1983,7 +1983,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (794, 1276
 
 
 --Loot Stash
---Loot Stash --CardIndex 1448 --CharacterIndex 1351 --ArcadeCharacterIndex 285
+--Loot Stash --CardIndex 1448 --CharacterIndex 1005 --ArcadeCharacterIndex 285
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Loot Stash',
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Loot_Stash/Card_Arcade_Warband_Loot_Stash_Loot_Stash_2.0.png', 
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Loot_Stash/Card_Arcade_Warband_Loot_Stash_Loot_Stash_2.0_back.png', 
@@ -1992,8 +1992,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 ''); --!! unavailable !!
 insert into Characters (CardIndex) VALUES (1448);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (1351, 0, -1);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1351, 3); --Ruby
+VALUES (1005, 0, -1);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1005, 3); --Ruby
 --GangMemberIndex 795
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (285, 0, 'Loot_Stash', 'Spawning Point', '', 0, 3, 2, 378);
@@ -2001,7 +2001,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (795, 681)
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (795, 716); --Loot Pinata
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (795, 961); --Spawning Pool
 
---Powder Lad 	--CardIndex 1449	--CharacterIndex 1352	--ArcadeCharacterIndex 286
+--Powder Lad 	--CardIndex 1449	--CharacterIndex 1006	--ArcadeCharacterIndex 286
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Powder Lad',
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Loot_Stash/Card_Arcade_Warband_Loot_Stash_Powder_Lad_2.0.png', 
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Loot_Stash/Card_Arcade_Warband_Loot_Stash_Powder_Lad_2.0_back.png', 
@@ -2010,8 +2010,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 '');   --!! unavailable !!
 insert into Characters (CardIndex) VALUES (1449);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (1352, 241, 362);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1352, 3); --Ruby
+VALUES (1006, 241, 362);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1006, 3); --Ruby
 --GangMemberIndex 796
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (286, 0, 'Powder Lad', 'Orc', 'Elite', 5, 2, 1, 379);
@@ -2020,7 +2020,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (796, 843)
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (796, 1061); --Volatile
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (796, 2098); --WATCH THIS!
 
---Shinin' Shields	--CardIndex 1450	--CharacterIndex 1353	--ArcadeCharacterIndex 287
+--Shinin' Shields	--CardIndex 1450	--CharacterIndex 1007	--ArcadeCharacterIndex 287
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Shinin'' Shields',
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Loot_Stash/Card_Arcade_Warband_Loot_Stash_Shinin_Shields_2.0.png', 
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Loot_Stash/Card_Arcade_Warband_Loot_Stash_Shinin_Shields_2.0_back.png', 
@@ -2029,8 +2029,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 '');   --!! unavailable !!
 insert into Characters (CardIndex) VALUES (1450);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (1353, 241, 362);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1353, 3); --Ruby
+VALUES (1007, 241, 362);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1007, 3); --Ruby
 --GangMemberIndex 797
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (287, 0, 'Shiny Boss', 'Orc', 'Elite', 5, 3, 2, 380);
@@ -2043,7 +2043,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (798, 2097
 
 
 --Maleficent Idol
---Maleficent Idol --CardIndex 1451 --CharacterIndex 1354 --ArcadeCharacterIndex 288
+--Maleficent Idol --CardIndex 1451 --CharacterIndex 1008 --ArcadeCharacterIndex 288
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Maleficent Idol',
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Maleficent_Idol/Card_Arcade_Warband_Maleficent_Idol_Maleficent_Idol_2.0.png', 
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Maleficent_Idol/Card_Arcade_Warband_Maleficent_Idol_Maleficent_Idol_2.0_back.png', 
@@ -2052,8 +2052,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Usually Araphel''s dealings and worship are done in secret. Her followers move about in the shadows, applying subtle influence and spinning devious webs. However, there are places in the Dark Realm and the hidden corners of Crystalia where Araphel is worshipped openly. In these places a Maleficent Idol is erected in Araphel''s honor, carved in her likeness with the chained heart that has come to signify devotion to her.');
 insert into Characters (CardIndex) VALUES (1451);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (1354, 0, -1);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1354, 0); --Amethyst
+VALUES (1008, 0, -1);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1008, 0); --Amethyst
 --GangMemberIndex 799
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (288, 0, 'Maleficent Idol', 'Spawning Point', '', 0, 3, 2, 382);
@@ -2061,7 +2061,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (799, 681)
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (799, 963); --Spawning Pool
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (799, 1010); --Stealth
 
---Araphel's Heart 	--CardIndex 1452	--CharacterIndex 1355	--ArcadeCharacterIndex 289
+--Araphel's Heart 	--CardIndex 1452	--CharacterIndex 1009	--ArcadeCharacterIndex 289
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Araphel''s Heart',
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Maleficent_Idol/Card_Arcade_Warband_Maleficent_Idol_Araphels_Heart_2.0.png', 
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Maleficent_Idol/Card_Arcade_Warband_Maleficent_Idol_Araphels_Heart_2.0_back.png', 
@@ -2070,8 +2070,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Heartbound are those followers of Araphel who have taken their devotion one step further. Through an obscene ritual, the Heartbound have linked their very souls to Araphel, allowing them to channel her power.');  
 insert into Characters (CardIndex) VALUES (1452);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (1355, 241, 362);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1355, 0); --Amethyst
+VALUES (1009, 241, 362);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1009, 0); --Amethyst
 --GangMemberIndex 800
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (289, 0, 'Heartbound', 'Riftling', 'Elite', 5, 2, 0, 383);
@@ -2083,7 +2083,7 @@ VALUES (289, 1, 'Heartbound', 'Riftling', 'Elite', 5, 2, 0, 384);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (801, 453); --Bane
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (801, 742); --Araphel's Blessing
 
---Cult of Araphel	--CardIndex 1453	--CharacterIndex 1356	--ArcadeCharacterIndex 290
+--Cult of Araphel	--CardIndex 1453	--CharacterIndex 1010	--ArcadeCharacterIndex 290
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Cult of Araphel',
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Maleficent_Idol/Card_Arcade_Warband_Maleficent_Idol_Cult_of_Araphel_2.0.png', 
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Maleficent_Idol/Card_Arcade_Warband_Maleficent_Idol_Cult_of_Araphel_2.0_back.png', 
@@ -2092,8 +2092,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Part prophet, part proselytizer, a Master of Chains offers to deliver riftlings from the oppression the suspicions of Crystalians has placed upon them. "Do not be bound by your chains, instead master them!" So skilled are these priests, that most Devoted do not realize they are exchanging oppression for subjugation.');   
 insert into Characters (CardIndex) VALUES (1453);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (1356, 241, 362);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1356, 0); --Amethyst
+VALUES (1010, 241, 362);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1010, 0); --Amethyst
 --GangMemberIndex 802
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (290, 0, 'Master of Chains', 'Demon', 'Elite', 5, 2, 2, 385);
@@ -2102,7 +2102,7 @@ insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, 
 VALUES (290, 1, 'Devout of Araphel', 'Bonded Riftling', 'Minion', 5, 1, 0, 386);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (803, 536); --Death Curse
 
---Maleficent Idol Errata --CardIndex 1454 --CharacterIndex 1357 --ArcadeCharacterIndex 291
+--Maleficent Idol Errata --CardIndex 1454 --CharacterIndex 1011 --ArcadeCharacterIndex 291
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Maleficent Idol Errata',
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Maleficent_Idol/Card_Arcade_Warband_Maleficent_Idol_Maleficent_Idol_Errata_2.0.png', 
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Maleficent_Idol/Card_Arcade_Warband_Maleficent_Idol_Maleficent_Idol_Errata_2.0_back.png', 
@@ -2111,8 +2111,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Usually Araphel''s dealings and worship are done in secret. Her followers move about in the shadows, applying subtle influence and spinning devious webs. However, there are places in the Dark Realm and the hidden corners of Crystalia where Araphel is worshipped openly. In these places a Maleficent Idol is erected in Araphel''s honor, carved in her likeness with the chained heart that has come to signify devotion to her.');
 insert into Characters (CardIndex) VALUES (1454);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (1357, 0, -1);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1357, 0); --Amethyst
+VALUES (1011, 0, -1);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1011, 0); --Amethyst
 --GangMemberIndex 804
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (291, 0, 'Maleficent Idol', 'Spawning Point', '', 0, 3, 2, 387);
@@ -2120,7 +2120,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (804, 681)
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (804, 964); --Spawning Pool
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (804, 1010); --Stealth
 
---Heartbound	--CardIndex 1455	--CharacterIndex 1358	--ArcadeCharacterIndex 292
+--Heartbound	--CardIndex 1455	--CharacterIndex 1012	--ArcadeCharacterIndex 292
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Heartbound',
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Maleficent_Idol/Card_Arcade_Warband_Maleficent_Idol_Heartbound_2.0.png', 
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Maleficent_Idol/Card_Arcade_Warband_Maleficent_Idol_Heartbound_2.0_back.png', 
@@ -2129,8 +2129,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Heartbound are those followers of Araphel who have taken their devotion one step further. Through an obscene ritual, the Heartbound have linked their very souls to Araphel, allowing them to channel her power.');  
 insert into Characters (CardIndex) VALUES (1455);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (1358, 241, 362);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1358, 0); --Amethyst
+VALUES (1012, 241, 362);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1012, 0); --Amethyst
 --GangMemberIndex 805
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (292, 0, 'Heartbound', '', 'Elite', 5, 2, 2, 388);
@@ -2139,7 +2139,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (805, 742)
 
 
 --Nether Clutch
---Nether Clutch --CardIndex 2456 --CharacterIndex 1359 --ArcadeCharacterIndex 293
+--Nether Clutch --CardIndex 2456 --CharacterIndex 1013 --ArcadeCharacterIndex 293
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Nether Clutch',
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Nether_Clutch/Card_Arcade_Warband_Nether_Clutch_Nether_Clutch_2.0.png', 
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Nether_Clutch/Card_Arcade_Warband_Nether_Clutch_Nether_Clutch_2.0_back.png', 
@@ -2148,8 +2148,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Proximity to the Dark Realm has seen the drakes of the Nether Rifts grow mighty beyond the other clutches throughout the realms of Crystalia. Their strength is linkeed inextricably to that of the Dark Realm, as the power of the Dark Consul ebbs and flows, so too does the might of the drakes bound to him.');
 insert into Characters (CardIndex) VALUES (2456);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (1359, 0, -1);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1359, 1); --Citrine
+VALUES (1013, 0, -1);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1013, 1); --Citrine
 --GangMemberIndex 806
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (293, 0, 'Nether_Clutch', 'Spawning Point', '', 0, 3, 2, 389);
@@ -2157,7 +2157,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (806, 681)
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (806, 969); --Spawning Pool
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (806, 1010); --Stealth
 
---Demon Drakes 	--CardIndex 2457	--CharacterIndex 1360	--ArcadeCharacterIndex 294
+--Demon Drakes 	--CardIndex 2457	--CharacterIndex 1014	--ArcadeCharacterIndex 294
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Demon Drakes',
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Nether_Clutch/Card_Arcade_Warband_Nether_Clutch_Demon_Drakes_2.0.png', 
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Nether_Clutch/Card_Arcade_Warband_Nether_Clutch_Demon_Drakes_2.0_back.png', 
@@ -2166,8 +2166,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'The drakes of the Nether Rifts are particularly large and cunning. Whether it is due to an infusion of the Dark Consul''s power, or simply the result of surviving such a harsh environment, none can guess. What is known is that these drakes serve as the vanguard of the armies of the Dark Realm. Often their cries signal an advance or even an ambush, and even the most stalwart hero cringes at the sound.');  
 insert into Characters (CardIndex) VALUES (2457);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (1360, 241, 362);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1360, 1); --Citrine
+VALUES (1014, 241, 362);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1014, 1); --Citrine
 --GangMemberIndex 807
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (294, 0, 'Wyrmling', 'Drake', 'Elite', 5, 2, 2, 390);
@@ -2184,7 +2184,7 @@ VALUES (294, 2, 'Hatchlings', 'Bonded Drake', 'Minion', 6, 2, 1, 392);
 
 
 --Pinching Palace
---Pinching Palace --CardIndex 2458 --CharacterIndex 1361 --ArcadeCharacterIndex 295
+--Pinching Palace --CardIndex 2458 --CharacterIndex 1015 --ArcadeCharacterIndex 295
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Pinching Palace',
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Pinching_Palace/Card_Arcade_Warband_Pinching_Palace_Pinching_Palace_2.0.png', 
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Pinching_Palace/Card_Arcade_Warband_Pinching_Palace_Pinching_Palace_2.0_back.png', 
@@ -2193,8 +2193,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'A Lord of Crabs is only at home among crustaceans and other lurking denizens of the deep. They spend a great deal of time cultivating homes for their crabby friends, making sure they are protected, fed, and happy. This, in turn, makes the Lord of Crabs happy--even if only for a short while.');
 insert into Characters (CardIndex) VALUES (2458);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (1361, 0, -1);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1361, 2); --Emerald
+VALUES (1015, 0, -1);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1015, 2); --Emerald
 --GangMemberIndex 810
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (295, 0, 'Pinching Palace', 'Spawning Point', '', 0, 3, 1, 393);
@@ -2202,7 +2202,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (810, 446)
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (810, 681); --Immune: Status Effects
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (810, 971); --Spawning Pool
 
---Carapace Crawler 	--CardIndex 2459	--CharacterIndex 1362	--ArcadeCharacterIndex 296
+--Carapace Crawler 	--CardIndex 2459	--CharacterIndex 1016	--ArcadeCharacterIndex 296
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Carapace Crawler',
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Pinching_Palace/Card_Arcade_Warband_Pinching_Palace_Carapace_Crawler_2.0.png', 
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Pinching_Palace/Card_Arcade_Warband_Pinching_Palace_Carapace_Crawler_2.0_back.png', 
@@ -2211,8 +2211,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Carapace Crawlers grow to immense sizes extraordinarily quickly. As they grow, they molt constantly, leaving spiny shells littering the sands. These shells prove hazardous in a flight, and a canny warrior will use them to their advantage by pushing their opponents across the shells, causing them to trip and lose their balance.');  
 insert into Characters (CardIndex) VALUES (2459);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (1362, 241, 362);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1362, 2); --Emerald
+VALUES (1016, 241, 362);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1016, 2); --Emerald
 --GangMemberIndex 811
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (296, 0, 'Carapace Crawler', 'Crab', 'Elite', 8, 1, 1, 394);
@@ -2220,7 +2220,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (811, 636)
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (811, 678); --Immune: Knockdown
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (811, 706); --Knockdown
 
---Pinching Party 	--CardIndex 2460	--CharacterIndex 1363	--ArcadeCharacterIndex 297
+--Pinching Party 	--CardIndex 2460	--CharacterIndex 1017	--ArcadeCharacterIndex 297
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Pinching Party',
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Pinching_Palace/Card_Arcade_Warband_Pinching_Palace_Pinching_Party_2.0.png', 
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Pinching_Palace/Card_Arcade_Warband_Pinching_Palace_Pinching_Party_2.0_back.png', 
@@ -2229,9 +2229,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Strange and reclusive, Lords of the Crabs haunt the misty coastlines of Crystalia like specters. Intensely private, they live in craggy crevices where the ocean waves crash upon the cliffs. Able to form a bizarre communion with crustaceans and other oceanic life, these druids only answer the call of their elvish kin when forced, or when their territory is threatened. When a Lord of the Crabs must leave its solitary life, it often takes a number of Big Claw crabs along to ensure its safety.');  
 insert into Characters (CardIndex) VALUES (2460);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (1363, 241, 362);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1363, 2); --Emerald
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1363, 3); --Ruby
+VALUES (1017, 241, 362);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1017, 2); --Emerald
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1017, 3); --Ruby
 --GangMemberIndex 812
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (297, 0, 'Lord of the Crabs', 'Nether Elf Witch', 'Elite', 8, 3, 2, 395);
@@ -2247,7 +2247,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (813, 678)
 
 
 --Sand Spire
---Sand Spire --CardIndex 2461 --CharacterIndex 1364 --ArcadeCharacterIndex 298
+--Sand Spire --CardIndex 2461 --CharacterIndex 1018 --ArcadeCharacterIndex 298
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Sand Spire',
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Sand_Spire/Card_Arcade_Warband_Sand_Spire_Sand_Spire_2.0.png', 
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Sand_Spire/Card_Arcade_Warband_Sand_Spire_Sand_Spire_2.0_back.png', 
@@ -2256,8 +2256,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Arcadian nether elves are nomadic by nature and enjoy a thriving culture around horsemanship. Even among the Crystalian nobility, many say Arcadian stallions are the finest in all the realms. In contrast to many other nether elves, Arcadian nether elves have regular and mostly peaceful dealings with the various other cultures which call the dunes home. This is likely due to the harsh nature of the dunes. What meager resources it provides must be carefully cultivated and maintained, even through warfare. Despite this, Arcadian nether elves are wholly devoted to the Dark Consul and the Midnight Queen, ready to answer their call without hesitation.');
 insert into Characters (CardIndex) VALUES (2461);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (1364, 0, -1);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1364, 2); --Emerald
+VALUES (1018, 0, -1);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1018, 2); --Emerald
 --GangMemberIndex 814
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (298, 0, 'Sand Spire', 'Spawning Point', '', 0, 3, 1, 397);
@@ -2266,7 +2266,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (814, 816)
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (814, 819); --Predatory Aura
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (814, 973); --Spawning Pool
 
---Desert Raiders 	--CardIndex 2462	--CharacterIndex 1365	--ArcadeCharacterIndex 299
+--Desert Raiders 	--CardIndex 2462	--CharacterIndex 1019	--ArcadeCharacterIndex 299
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Desert Raiders',
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Sand_Spire/Card_Arcade_Warband_Sand_Spire_Desert_Raiders_2.0.png', 
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Sand_Spire/Card_Arcade_Warband_Sand_Spire_Desert_Raiders_2.0_back.png', 
@@ -2275,9 +2275,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'The Cult of Silk is an elite sect of nether elf assassins residing in the Arcadian Dunes. Their chief assassins, known as Knives, are solitary hunters who are feared throughout the land. They are responsible for the disappearances of heroes, warlords, and dungeon bosses alike. Even the Midnight Queen keeps her distance. However, sometimes the Knives will take along a detachment of Desert Blades on particularly dangerous missions. The Desert Blades never seem to make it back. The secrets of the Cult of Silk need to be protected at all costs, after all...');  
 insert into Characters (CardIndex) VALUES (2462);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (1365, 241, 362);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1365, 1); --Citrine
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1365, 3); --Ruby
+VALUES (1019, 241, 362);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1019, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1019, 3); --Ruby
 --GangMemberIndex 815
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (299, 0, 'Silk Knife', 'Nether Elf', 'Elite', 8, 3, 2, 398);
@@ -2289,7 +2289,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (815, 1994
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (299, 1, 'Desert Blade', 'Nether Elf', 'Minion', 8, 1, 1, 399);
 
---Dune Hunter 	--CardIndex 2463	--CharacterIndex 1366	--ArcadeCharacterIndex 300
+--Dune Hunter 	--CardIndex 2463	--CharacterIndex 1020	--ArcadeCharacterIndex 300
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Dune Hunter',
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Sand_Spire/Card_Arcade_Warband_Sand_Spire_Dune_Hunter_2.0.png', 
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Sand_Spire/Card_Arcade_Warband_Sand_Spire_Dune_Hunter_2.0_back.png', 
@@ -2298,9 +2298,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'True to their name, Dune Hunters are master trackers and hunters of the dunes. Skilled in survival and trapping techniques, Dune Hunters will patiently stalk Heroes for days, using subtle tricks and bluffs to guide, lure, and herd their target into ambush.');  
 insert into Characters (CardIndex) VALUES (2463);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (1366, 241, 362);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1366, 1); --Citrine
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1366, 2); --Emerald
+VALUES (1020, 241, 362);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1020, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1020, 2); --Emerald
 --GangMemberIndex 817
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (300, 0, 'Dune Hunter', 'Nether Elf', 'Elite', 7, 1, 1, 400);
@@ -2308,7 +2308,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (817, 1693
 
 
 --Scrap Tower
---Scrap Tower --CardIndex 2464 --CharacterIndex 1367 --ArcadeCharacterIndex 301
+--Scrap Tower --CardIndex 2464 --CharacterIndex 1021 --ArcadeCharacterIndex 301
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Scrap Tower',
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Scrap_Tower/Card_Arcade_Warband_Scrap_Tower_Scrap_Tower_2.0.png', 
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Scrap_Tower/Card_Arcade_Warband_Scrap_Tower_Scrap_Tower_2.0_back.png', 
@@ -2317,8 +2317,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'The gnomish artificer who constructed Daemonus was cast out from his guild and banished, eventually finding his way to the Undercove.  Deep within the grinding bowels of Clockwork Cove he gathered the other tinkerers, artificiers, and forgemasters who had been cast aside or refused entry by the guilds.  From them the Scrap Guild was born, and their cruel inventions have become favorites of dungeons bosses looking for extra dungeon security.');
 insert into Characters (CardIndex) VALUES (2464);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (1367, 0, -1);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1367, 3); --Ruby
+VALUES (1021, 0, -1);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1021, 3); --Ruby
 --GangMemberIndex 818
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (301, 0, 'Scrap Tower', 'Spawning Point', '', 0, 3, 1, 401);
@@ -2326,7 +2326,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (818, 681)
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (818, 802); --Pinata of Death
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (818, 975); --Spawning Pool
 
---Dunce 	--CardIndex 2465	--CharacterIndex 1368	--ArcadeCharacterIndex 302
+--Dunce 	--CardIndex 2465	--CharacterIndex 1022	--ArcadeCharacterIndex 302
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Dunce',
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Scrap_Tower/Card_Arcade_Warband_Scrap_Tower_Dunce_2.0.png', 
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Scrap_Tower/Card_Arcade_Warband_Scrap_Tower_Dunce_2.0_back.png', 
@@ -2335,15 +2335,15 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Cackling gnomes, raving madmen, clever goblins, and more make up the ranks of the anarchic Scrap Guild.  Most, despite their crazed brilliance, were considered failures outside the Undercove and so they proudly claim the moniker of Dunce as their fiendish invetions thwart Heroes'' dungeon adventures.');
 insert into Characters (CardIndex) VALUES (2465);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (1368, 241, 362);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1368, 3); --Ruby
+VALUES (1022, 241, 362);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1022, 3); --Ruby
 --GangMemberIndex 819
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (302, 0, 'Dunce', 'Gnome', 'Minion', 4, 3, 2, 402);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (819, 802); --Pinata of Death
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (819, 2099); --Say Hello To My Littler Friend
 
---Gate Crasher 	--CardIndex 2466	--CharacterIndex 1369	--ArcadeCharacterIndex 303
+--Gate Crasher 	--CardIndex 2466	--CharacterIndex 1023	--ArcadeCharacterIndex 303
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Gate Crasher',
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Scrap_Tower/Card_Arcade_Warband_Scrap_Tower_Gate_Crasher_2.0.png', 
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Scrap_Tower/Card_Arcade_Warband_Scrap_Tower_Gate_Crasher_2.0_back.png', 
@@ -2352,15 +2352,15 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'No riddle to pass.  Just smash.  Smash.  SMASH!');
 insert into Characters (CardIndex) VALUES (2466);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (1369, 241, 362);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1369, 3); --Ruby
+VALUES (1023, 241, 362);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1023, 3); --Ruby
 --GangMemberIndex 820
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (303, 0, 'Gate Crasher', 'Construct', 'Elite', 7, 1, 1, 403);  --!! unavailable !!
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (820, 628); --Gatekeeper
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (820, 1010); --Stealth
 
---Grim Oculus 	--CardIndex 2467	--CharacterIndex 1370	--ArcadeCharacterIndex 304
+--Grim Oculus 	--CardIndex 2467	--CharacterIndex 1024	--ArcadeCharacterIndex 304
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Grim Oculus',
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Scrap_Tower/Card_Arcade_Warband_Scrap_Tower_Grim_Oculus_2.0.png', 
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Scrap_Tower/Card_Arcade_Warband_Scrap_Tower_Grim_Oculus_2.0_back.png', 
@@ -2369,15 +2369,15 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 '');  --!! unavailable !!
 insert into Characters (CardIndex) VALUES (2467);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (1370, 241, 362);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1370, 3); --Ruby
+VALUES (1024, 241, 362);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1024, 3); --Ruby
 --GangMemberIndex 821
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (304, 0, 'Grim Oculus', 'Construct', 'Elite', 0, 1, 1, 404);  --!! unavailable !!
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (821, 1010); --Steady
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (821, 576); --Eye Is Open, The
 
---Kabomb 	--CardIndex 2468	--CharacterIndex 1371	--ArcadeCharacterIndex 305
+--Kabomb 	--CardIndex 2468	--CharacterIndex 1025	--ArcadeCharacterIndex 305
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Kabomb',
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Scrap_Tower/Card_Arcade_Warband_Scrap_Tower_Kabomb_2.0.png', 
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Scrap_Tower/Card_Arcade_Warband_Scrap_Tower_Kabomb_2.0_back.png', 
@@ -2386,8 +2386,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 '');
 insert into Characters (CardIndex) VALUES (2468);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (1371, 241, 362);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1371, 3); --Ruby
+VALUES (1025, 241, 362);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1025, 3); --Ruby
 --GangMemberIndex 822
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (305, 0, 'Kabomb', 'Construct', 'Elite', 7, 1, 1, 495);
@@ -2397,7 +2397,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (822, 1116
 
 
 --Sewer Pipe
---Sewer Pipe --CardIndex 2469 --CharacterIndex 1372 --ArcadeCharacterIndex 306
+--Sewer Pipe --CardIndex 2469 --CharacterIndex 1026 --ArcadeCharacterIndex 306
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Sewer Pipe',
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Sewer_Pipe/Card_Arcade_Warband_Sewer_Pipe_Sewer_Pipe_2.0.png', 
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Sewer_Pipe/Card_Arcade_Warband_Sewer_Pipe_Sewer_Pipe_2.0_back.png', 
@@ -2406,8 +2406,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Beneath the bellowing forges, the clanking constructs, and the grinding cogs of Clockwork Cove lies the Undercove, a bastion for the forgotten and dispossessed. These lost children of the sewer band together into loose gangs of thieves and thugs all striving to survive. It is no surprise then that the Dark Consul finds the Undercove a rich recruitment ground for new agents to advance his dark designs.'); 
 insert into Characters (CardIndex) VALUES (2469);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (1372, 0, -1);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1372, 1); --Citrine
+VALUES (1026, 0, -1);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1026, 1); --Citrine
 --GangMemberIndex 823
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (306, 0, 'Sewer Pipe', 'Spawning Point', '', 0, 3, 1, 406);
@@ -2415,7 +2415,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (823, 681)
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (823, 686); --Infested
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (823, 977); --Spawning Pool
 
---Goblin Fetches 	--CardIndex 2470	--CharacterIndex 1373	--ArcadeCharacterIndex 307
+--Goblin Fetches 	--CardIndex 2470	--CharacterIndex 1027	--ArcadeCharacterIndex 307
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Goblin Fetches',
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Sewer_Pipe/Card_Arcade_Warband_Sewer_Pipe_Goblin Fetches_2.0.png', 
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Sewer_Pipe/Card_Arcade_Warband_Sewer_Pipe_Goblin Fetches_2.0_back.png', 
@@ -2424,8 +2424,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Fetches are brutal-minded goblins that lack the sneakiness and finesse to become good thieves. Instead, they serve as thugs and collectors within the Pauper Prince''s ranks, using their nets to ensnare their victims allowing the rest of the gang to easily see to the "retrieval" of goods.');  
 insert into Characters (CardIndex) VALUES (2470);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (1373, 241, 362);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1373, 3); --Ruby
+VALUES (1027, 241, 362);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1027, 3); --Ruby
 --GangMemberIndex 824
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (307, 0, 'Fetch', 'Goblin', 'Elite', 7, 1, 1, 407); 
@@ -2439,7 +2439,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (825, 672)
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (825, 1077); --Yoink!
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (825, 1073); --Ensnare
 
---Rat King 	--CardIndex 2471	--CharacterIndex 1374	--ArcadeCharacterIndex 308
+--Rat King 	--CardIndex 2471	--CharacterIndex 1028	--ArcadeCharacterIndex 308
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Rat King',
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Sewer_Pipe/Card_Arcade_Warband_Sewer_Pipe_Rat_King_2.0.png', 
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Sewer_Pipe/Card_Arcade_Warband_Sewer_Pipe_Rat_King_2.0_back.png', 
@@ -2448,8 +2448,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'While giant rats are not uncommon in the dungeons of Crystalia, those in the employ of the Pauper Prince are a particular nuisance. The Prince has an uncanny knack for training the rats to be his eyes and ears, and even to perform the occasional bit of petty theft.');
 insert into Characters (CardIndex) VALUES (2471);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (1374, 241, 362);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1374, 1); --Citrine
+VALUES (1028, 241, 362);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1028, 1); --Citrine
 --GangMemberIndex 826
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (308, 0, 'Dirty Rat', 'Rat', 'Elite', 8, 1, 0, 409); 
@@ -2461,7 +2461,7 @@ VALUES (308, 1, 'Dirty Rat', 'Bonded Rat', 'Elite', 8, 1, 0, 410);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (827, 1077); --Yoink!
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (827, 1699); --Sneaky Rat
 
---Sovereign Sewers 	--CardIndex 2472	--CharacterIndex 1375	--ArcadeCharacterIndex 309
+--Sovereign Sewers 	--CardIndex 2472	--CharacterIndex 1029	--ArcadeCharacterIndex 309
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Sovereign Sewers',
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Sewer_Pipe/Card_Arcade_Warband_Sewer_Pipe_Sovereign_Sewers_2.0.png', 
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Sewer_Pipe/Card_Arcade_Warband_Sewer_Pipe_Sovereign_Sewers_2.0_back.png', 
@@ -2470,8 +2470,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 '"Aaaaah, what do we have ''er me luvs? Looks like a few poor ''eroes have lost their way. Mayhaps we should show them the way out? For a proper fee of course."');
 insert into Characters (CardIndex) VALUES (2472);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (1375, 241, 362);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1375, 1); --Citrine
+VALUES (1029, 241, 362);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1029, 1); --Citrine
 --GangMemberIndex 828
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (309, 0, 'Moffet', 'Goblin', 'Elite', 7, 3, 1, 411);
@@ -2486,7 +2486,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (829, 1077
 
 
 --Shadow Tower
---Shadow Tower --CardIndex 2473 --CharacterIndex 1376 --ArcadeCharacterIndex 310
+--Shadow Tower --CardIndex 2473 --CharacterIndex 1030 --ArcadeCharacterIndex 310
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Shadow Tower',
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Shadow_Tower/Card_Arcade_Warband_Shadow_Tower_Shadow_Tower_2.0.png', 
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Shadow_Tower/Card_Arcade_Warband_Shadow_Tower_Shadow_Tower_2.0_back.png', 
@@ -2495,9 +2495,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'When the Dark Realm breached the light of Crystalia, it tore a rent between the two worlds known as the Nether Rifts. Much of the land which was lost to the newly formed Nether Rifts was of the Fae Wood. As the rifts opened, entire villages and cities of deeproot elves were swallowed by the Dark Realm. Forced to survive within the cold darkness of the Dark Consul''s domain, the elves became dark reflections of what they once were. Twisted by the corrupting influence of shadow, they became vile and villainous, a scourge upon all of Crystalia.'); 
 insert into Characters (CardIndex) VALUES (2473);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (1376, 0, -1);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1376, 1); --Citrine
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1376, 3); --Ruby
+VALUES (1030, 0, -1);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1030, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1030, 3); --Ruby
 --GangMemberIndex 830
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (310, 0, 'Shadow Tower', 'Spawning Point', '', 0, 3, 1, 413);
@@ -2505,7 +2505,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (830, 681)
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (830, 979); --Spawning Pool
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (830, 1011); --Stealth Aura
 
---Shadow Guard 	--CardIndex 2474	--CharacterIndex 1377	--ArcadeCharacterIndex 311
+--Shadow Guard 	--CardIndex 2474	--CharacterIndex 1031	--ArcadeCharacterIndex 311
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Shadow Guard',
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Shadow_Tower/Card_Arcade_Warband_Shadow_Tower_Shadow_Guard_2.0.png', 
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Shadow_Tower/Card_Arcade_Warband_Shadow_Tower_Shadow_Guard_2.0_back.png', 
@@ -2514,9 +2514,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Tower Stalkers seek to identify the weakest link and remove it. Relishing in sowing dread and terror, a Tower Stalker will harry and toy with an adventuring party, striking when heroes become isolated or vulnerable. Tower Stalkers are often accompanied by Blackblades, the Midnight Queen''s infantry. While the heroes deal with the Blackblades, they rarely see the Stalker coming.');  
 insert into Characters (CardIndex) VALUES (2474);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (1377, 241, 362);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1377, 1); --Citrine
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1377, 3); --Ruby
+VALUES (1031, 241, 362);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1031, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1031, 3); --Ruby
 --GangMemberIndex 831
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (311, 0, 'Tower Stalker', 'Nether Elf', 'Elite', 8, 3, 2, 414); 
@@ -2526,7 +2526,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (831, 2004
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (311, 1, 'Tower Blackblade', 'Nether Elf', 'Minion', 8, 1, 1, 415); 
 
---Tower Arbalist 	--CardIndex 2475	--CharacterIndex 1378	--ArcadeCharacterIndex 312
+--Tower Arbalist 	--CardIndex 2475	--CharacterIndex 1032	--ArcadeCharacterIndex 312
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Tower Arbalist',
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Shadow_Tower/Card_Arcade_Warband_Shadow_Tower_Tower_Arbalist_2.0.png', 
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Shadow_Tower/Card_Arcade_Warband_Shadow_Tower_Tower_Arbalist_2.0_back.png', 
@@ -2535,16 +2535,16 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Nether elves see little reason to sacrifice themselves needlessly in battle. Because of this, the large majority of nether elf battalions consist of ranks upon ranks of Arbalists wielding wicked crossbows. Before an enemy is able to engage the nether elves'' lines, they must withstand a withering barrage of bolts.');
 insert into Characters (CardIndex) VALUES (2475);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (1378, 241, 362);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1378, 1); --Citrine
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1378, 3); --Ruby
+VALUES (1032, 241, 362);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1032, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1032, 3); --Ruby
 --GangMemberIndex 833
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (312, 0, 'Tower Arbalist', 'Nether Elf', 'Elite', 7, 1, 1, 416); 
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (833, 668); --Ice
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (833, 1071); --Enervating Bolt
 
---Tower Marksmen 	--CardIndex 2476	--CharacterIndex 1379	--ArcadeCharacterIndex 313
+--Tower Marksmen 	--CardIndex 2476	--CharacterIndex 1033	--ArcadeCharacterIndex 313
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Tower Marksmen',
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Shadow_Tower/Card_Arcade_Warband_Shadow_Tower_Tower_Marksmen_2.0.png', 
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Shadow_Tower/Card_Arcade_Warband_Shadow_Tower_Tower_Marksmen_2.0_back.png', 
@@ -2553,9 +2553,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'xxxx');
 insert into Characters (CardIndex) VALUES (2476);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (1379, 241, 362);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1379, 1); --Citrine
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1379, 3); --Ruby
+VALUES (1033, 241, 362);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1033, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1033, 3); --Ruby
 --GangMemberIndex 834
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (313, 0, 'Tower Marksmen', 'Nether Elf', 'Elite', 7, 1, 1, 417); 
@@ -2574,7 +2574,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (836, 1071
 
 
 --Shadow Warren
---Shadow Warren --CardIndex 2477 --CharacterIndex 1380 --ArcadeCharacterIndex 314
+--Shadow Warren --CardIndex 2477 --CharacterIndex 1034 --ArcadeCharacterIndex 314
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Shadow Warren',
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Shadow_Warren/Card_Arcade_Warband_Shadow_Warren_Shadow_Warren_2.0.png', 
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Shadow_Warren/Card_Arcade_Warband_Shadow_Warren_Shadow_Warren_2.0_back.png', 
@@ -2583,8 +2583,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Corsucating with the midnight energies of the Dark Realm, the kobolds of the Shadow Warrens are closely linked to the Dark Consul. Despite this, the cults of the Shadow Warrens are divided and fractious. The Cult of the Dark claims to be the original cult, tracing its lineage back to the Dark Consul''s first rise to power. The Cult of Shattered Night cares little for the other cults, relishing in assassination and intrigue. However, it is the Cult of the Dark that has recently drawn the most worry from the Heroes of Crystalia. Lead by the Demon Lord known only as The Destroyer, the Cult of the Dark has laid a waste to every foe it has faced. It has become an endless tide of darkness consuming Crystalia bit by bit.'); 
 insert into Characters (CardIndex) VALUES (2477);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (1380, 0, -1);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1380, 1); --Citrine
+VALUES (1034, 0, -1);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1034, 1); --Citrine
 --GangMemberIndex 837
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (314, 0, 'Shadow Warren', 'Paired Spawning Point', '', 0, 3, 1, 420);
@@ -2592,7 +2592,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (837, 681)
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (837, 981); --Spawning Pool
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (837, 1010); --Stealth
 
---Cult of the Dark 	--CardIndex 2478	--CharacterIndex 1381	--ArcadeCharacterIndex 315
+--Cult of the Dark 	--CardIndex 2478	--CharacterIndex 1035	--ArcadeCharacterIndex 315
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Cult of the Dark',
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Shadow_Warren/Card_Arcade_Warband_Shadow_Warren_Cult_of_the_Dark_2.0.png', 
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Shadow_Warren/Card_Arcade_Warband_Shadow_Warren_Cult_of_the_Dark_2.0_back.png', 
@@ -2601,8 +2601,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'The kobolds in the Cult of the Dark are lorded over by The Destroyer, a demon from the depths of the Nether Rifts. The Shadow Priests who lead the cult are haughty and arrogant, thinking themselves better than other kobolds who have strayed from the strength of the Dark Realm. These priests often drive Skewers, weaker kobolds who have to resort to spears, before them as cannon fodder.');  
 insert into Characters (CardIndex) VALUES (2478);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (1381, 241, 362);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1381, 3); --Ruby
+VALUES (1035, 241, 362);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1035, 3); --Ruby
 --GangMemberIndex 838
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (315, 0, 'Shadow Priest', 'Kobold', 'Elite', 6, 3, 2, 421); 
@@ -2614,7 +2614,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (838, 1041
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (315, 1, 'Skewer', 'Kobold', 'Minion', 7, 1, 1, 422); 
 
---Shadow Brigade 	--CardIndex 2479	--CharacterIndex 1382	--ArcadeCharacterIndex 316
+--Shadow Brigade 	--CardIndex 2479	--CharacterIndex 1036	--ArcadeCharacterIndex 316
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Shadow Brigade',
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Shadow_Warren/Card_Arcade_Warband_Shadow_Warren_Shadow_Brigade_2.0.png', 
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Shadow_Warren/Card_Arcade_Warband_Shadow_Warren_Shadow_Brigade_2.0_back.png', 
@@ -2623,9 +2623,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'When the Dark Realm breached the light of Crystalia, it tore a rent between the two worlds known as the Nether Rifts. Much of the land which was lost to the newly formed Nether Rifts was of the Fae Wood. As the rifts opened, entire villages and cities of deeproot elves were swallowed by the Dark Realm. Forced to survive within the cold darkness of the Dark Consul''s domain, the elves became dark reflections of what they once were. Twisted by the corrupting influence of shadow, they became vile and villainous, a scourge upon all of Crystalia.');
 insert into Characters (CardIndex) VALUES (2479);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (1382, 241, 362);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1382, 1); --Citrine
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1382, 4); --Sapphire
+VALUES (1036, 241, 362);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1036, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1036, 4); --Sapphire
 --GangMemberIndex 840
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (316, 0, 'Shadowscale', 'Kobold', 'Elite', 6, 1, 2, 423); 
@@ -2636,7 +2636,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (840, 1647
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (316, 1, 'Dimwit', 'Bonded Kobold', 'Minion', 6, 1, 1, 424); 
 
---Squirrely Slingers 	--CardIndex 2480	--CharacterIndex 1383	--ArcadeCharacterIndex 317
+--Squirrely Slingers 	--CardIndex 2480	--CharacterIndex 1037	--ArcadeCharacterIndex 317
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Squirrely Slingers',
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Shadow_Warren/Card_Arcade_Warband_Shadow_Warren_Squirrely_Slingers_2.0.png', 
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Shadow_Warren/Card_Arcade_Warband_Shadow_Warren_Squirrely_Slingers_2.0_back.png', 
@@ -2645,9 +2645,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'The kobolds of the Nether Rifts plague the outskirts of the Fae Woods, and are a scourge upon the local wildlife. A particularly favored concoction is a stew simmered from rabid squirrels. Flung from their steaming slings, the stew inflicts strange madness and afflictions upon anyone that it touches.');
 insert into Characters (CardIndex) VALUES (2480);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (1383, 241, 362);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1383, 1); --Citrine
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1383, 4); --Sapphire
+VALUES (1037, 241, 362);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1037, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1037, 4); --Sapphire
 --GangMemberIndex 842
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (317, 0, 'Dark Lobber', 'Kobold', 'Elite', 6, 1, 1, 425); 
@@ -2665,7 +2665,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (843, 1742
 
 
 --Siege of the Citadel
---Dark Legion Horde --CardIndex 2481 --CharacterIndex 1384 --ArcadeCharacterIndex 318
+--Dark Legion Horde --CardIndex 2481 --CharacterIndex 1038 --ArcadeCharacterIndex 318
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Dark Legion Horde',
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Siege_of_the_Citadel/Card_Arcade_Warband_Siege_of_the Citadel_Dark_Legion_Horde_2.0.png', 
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Siege_of_the_Citadel/Card_Arcade_Warband_Siege_of_the_Citadel_Dark_Legion_ Horde_2.0_back.png', 
@@ -2674,8 +2674,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 ''); 
 insert into Characters (CardIndex) VALUES (2481);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (1384, 0, -1);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1384, 1); --Citrine
+VALUES (1038, 0, -1);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1038, 1); --Citrine
 --GangMemberIndex 844
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (318, 0, 'Nepharite Warlord', 'Dark Legion', 'Elite', 3, 2, 2, 427);
@@ -2687,7 +2687,7 @@ insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, 
 VALUES (318, 1, 'Undead Legionnaire', 'Bonded Dark Legion', 'Minion', 2, 1, 0, 428);
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (845, 1243); --Hail of Fire
 
---Necromutant 	--CardIndex 2482	--CharacterIndex 1385	--ArcadeCharacterIndex 319
+--Necromutant 	--CardIndex 2482	--CharacterIndex 1039	--ArcadeCharacterIndex 319
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Necromutant',
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Shadow_Warren/Card_Arcade_Warband_Shadow_Warren_Necromutant_2.0.png', 
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Shadow_Warren/Card_Arcade_Warband_Shadow_Warren_Necromutant_2.0_back.png', 
@@ -2696,8 +2696,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 '');  
 insert into Characters (CardIndex) VALUES (2482);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (1385, 241, 362);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1385, 1); --Citrine
+VALUES (1039, 241, 362);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1039, 1); --Citrine
 --GangMemberIndex 846
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (319, 0, 'Necromutant', 'Dark Legion', 'Chimera', 5, 1, 1, 429); 
@@ -2705,7 +2705,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (846, 790)
 
 
 --Skull Stone
---Skull Stone --CardIndex 2483 --CharacterIndex 1386 --ArcadeCharacterIndex 320
+--Skull Stone --CardIndex 2483 --CharacterIndex 1040 --ArcadeCharacterIndex 320
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Skull Stone',
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Skull_Stone/Card_Arcade_Warband_Skull_Stone_Skull_Stone_2.0.png', 
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Skull_Stone/Card_Arcade_Warband_Skull_Stone_Skull_Stone_2.0_back.png', 
@@ -2714,8 +2714,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'A dominant race within the Dark Realm, orcs are hearty and violent by nature. Orcs congregate in huge tribes lead by the strongest or most cunning warrior among them. Under the guidance of a powerful warlord, orc tribes are scourges to the surrounding land and people. Caring little if they attack creatures of Light or Darkness, orcs care only for the thrill of the hunt and the chaos of battle.'); 
 insert into Characters (CardIndex) VALUES (2483);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (1386, 0, -1);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1386, 1); --Citrine
+VALUES (1040, 0, -1);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1040, 1); --Citrine
 --GangMemberIndex 847
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (320, 0, 'Skull Stone', 'Spawning Point', '', 0, 3, 1, 430);
@@ -2723,7 +2723,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (847, 485)
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (847, 681); --Immune: Status Effects
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (847, 983); --Spawning Pool
 
---Smasher Mob 	--CardIndex 2484	--CharacterIndex 1387	--ArcadeCharacterIndex 321
+--Smasher Mob 	--CardIndex 2484	--CharacterIndex 1041	--ArcadeCharacterIndex 321
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Smasher Mob',
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Skull_Stone/Card_Arcade_Warband_Skull_Stone_Smasher_Mob_2.0.png', 
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Skull_Stone/Card_Arcade_Warband_Skull_Stone_Smasher_Mob_2.0_back.png', 
@@ -2732,8 +2732,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Orcs are brutish and violent, but they are not without intelligence. Their high cunning is most often made manifest in their strategies of war, where they gang up to best advantage in order to fell their enemy.');  
 insert into Characters (CardIndex) VALUES (2484);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (1387, 241, 362);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1387, 1); --Citrine
+VALUES (1041, 241, 362);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1041, 1); --Citrine
 --GangMemberIndex 848
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (321, 0, 'Knuckle Smasher', 'Orc', 'Elite', 8, 2, 0, 431); 
@@ -2744,7 +2744,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (848, 1350
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (321, 1, 'Face Beater', 'Bonded Orc', 'Minion', 6, 2, 0, 432);
 
---Splitter Mob 	--CardIndex 2485	--CharacterIndex 1388	--ArcadeCharacterIndex 322
+--Splitter Mob 	--CardIndex 2485	--CharacterIndex 1042	--ArcadeCharacterIndex 322
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Splitter Mob',
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Skull_Stone/Card_Arcade_Warband_Skull_Stone_Splitter_Mob_2.0.png', 
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Skull_Stone/Card_Arcade_Warband_Skull_Stone_Splitter_Mob_2.0_back.png', 
@@ -2753,8 +2753,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Splitter Mobs specialize in finding the biggest, nastiest, toughest foe they can find and chopping them down to size. For the orcs this provides a double benefit, a significant threat is eliminated and the blow to their enemy''s morale can be devastating, leading to a route of the opposing force.');  
 insert into Characters (CardIndex) VALUES (2485);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (1388, 241, 362);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1388, 1); --Citrine
+VALUES (1042, 241, 362);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1042, 1); --Citrine
 --GangMemberIndex 850
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (322, 0, 'Neck Splitter', 'Orc', 'Elite', 6, 2, 0, 432); 
@@ -2770,7 +2770,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (851, 1457
 
 
 --Spawn of Servitude
---Spawn of Servitude --CardIndex 2486 --CharacterIndex 1389 --ArcadeCharacterIndex 323
+--Spawn of Servitude --CardIndex 2486 --CharacterIndex 1043 --ArcadeCharacterIndex 323
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Spawn of Servitude',
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Spawn_of_Servitude/Card_Arcade_Warband_Spawn_of_Servitude_Spawn_of_Servitude_2.0.png', 
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Spawn_of_Servitude/Card_Arcade_Warband_Spawn_of_Servitude_Spawn_of_Servitude_2.0_back.png', 
@@ -2779,8 +2779,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Succubi serve as Araphel''s demonic agents. Their ability to beguile, charm, and bend the minds of mortals make them uniquely suited to achieving Araphel''s aims. Succubi in the service of Araphel often have a Spawn of Servitude to use as a base of operations. Mortals who serve Araphel (knowingly or not) are often lured to a Spawn of Servitude to secure their loyalty, and enjoy the comfy, frilly pillows.'); 
 insert into Characters (CardIndex) VALUES (2486);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (1389, 0, -1);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1389, 1); --Citrine
+VALUES (1043, 0, -1);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1043, 1); --Citrine
 --GangMemberIndex 852
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (323, 0, 'Spawn of Servitude', 'Spawning Point', '', 0, 3, 1, 434);
@@ -2788,7 +2788,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (852, 681)
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (852, 882); --SHAME!
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (852, 985); --Spawning Pool
 
---Night Shift, The 	--CardIndex 2487	--CharacterIndex 1390	--ArcadeCharacterIndex 324
+--Night Shift, The 	--CardIndex 2487	--CharacterIndex 1044	--ArcadeCharacterIndex 324
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Night Shift, The',
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Spawn_of_Servitude/Card_Arcade_Warband_Spawn_of_Servitude_Night_Shift_The_2.0.png', 
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Spawn_of_Servitude/Card_Arcade_Warband_Spawn_of_Servitude_Night_Shift_The_2.0_back.png', 
@@ -2797,8 +2797,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Head Nurses oversee other succubi, infiltrating and corrupting the mortal realm. They pose as healers, luring in those weary adventurers seeking shelter, comfort, and aid for their wounds.');  
 insert into Characters (CardIndex) VALUES (2487);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (1390, 241, 362);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1390, 0); --Amethyst
+VALUES (1044, 241, 362);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1044, 0); --Amethyst
 --GangMemberIndex 853
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (324, 0, 'Head Nurse', 'Demon', 'Elite', 6, 2, 1, 435); 
@@ -2812,7 +2812,7 @@ insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, 
 VALUES (324, 1, 'Wretch', 'Bonded Demon', 'Minion', 6, 1, 0, 436);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (854, 878); --Sense Weakness
 
---Ratchet of Nurses, A 	--CardIndex 2488	--CharacterIndex 1391	--ArcadeCharacterIndex 325
+--Ratchet of Nurses, A 	--CardIndex 2488	--CharacterIndex 1045	--ArcadeCharacterIndex 325
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ratchet of Nurses, A',
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Spawn_of_Servitude/Card_Arcade_Warband_Spawn_of_Servitude_Ratchet_of_Nurses_A_2.0.png', 
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Spawn_of_Servitude/Card_Arcade_Warband_Spawn_of_Servitude_Ratchet_of_Nurses_Ab_2.0_back.png', 
@@ -2821,8 +2821,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'A Potion Mistress is a succubus with a talent for brewing potions and concoctions. They often serve under a Head Nurse, providing their superior with all of their newest and most devious brews. Make no mistake, they are not simple poisoners. Many of their potions have actual healing properties, but they often have the curious side effect of making the patient more susceptible to influence.');  
 insert into Characters (CardIndex) VALUES (2488);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (1391, 241, 362);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1391, 0); --Amethyst
+VALUES (1045, 241, 362);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1045, 0); --Amethyst
 --GangMemberIndex 855
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (325, 0, 'Potion Mistress', 'Demon', 'Elite', 6, 2, 1, 437); 
@@ -2840,7 +2840,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (856, 1479
 
 
 --Spider Nest
---Spider Nest --CardIndex 2489 --CharacterIndex 1392 --ArcadeCharacterIndex 326
+--Spider Nest --CardIndex 2489 --CharacterIndex 1046 --ArcadeCharacterIndex 326
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Spider Nest',
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Spider_Nest/Card_Arcade_Warband_Spider_Nest_Spider_Nest_2.0.png', 
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Spider_Nest/Card_Arcade_Warband_Spider_Nest_Spider_Nest_2.0_back.png', 
@@ -2849,8 +2849,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Spiders have a natural affinity with darkness and shadow. Many of the fiendish varieties which call the Nether Rifts and Dark Realm home grow to remarkable sizes and can possess a startling intellect. The nether elves strike bargains with spider nests'' Queens, and in exchange for their aid the spiders are granted their choice of hunting grounds and provided with protection from various heroic attempts at extermination.'); 
 insert into Characters (CardIndex) VALUES (2489);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (1392, 0, -1);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1392, 2); --Emerald
+VALUES (1046, 0, -1);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1046, 2); --Emerald
 --GangMemberIndex 857
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (326, 0, 'Spider Nest', 'Spawning Point', '', 0, 3, 1, 439);
@@ -2858,7 +2858,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (857, 681)
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (857, 987); --Spawning Pool
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (857, 1068); --Webs
 
---Crawler_Cluster 	--CardIndex 2490	--CharacterIndex 1393	--ArcadeCharacterIndex 327
+--Crawler_Cluster 	--CardIndex 2490	--CharacterIndex 1047	--ArcadeCharacterIndex 327
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Crawler Cluster',
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Spider_Nest/Card_Arcade_Warband_Spider_Nest_Crawler_Cluster_2.0.png', 
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Spider_Nest/Card_Arcade_Warband_Spider_Nest_Crawler_Cluster_2.0_back.png', 
@@ -2867,9 +2867,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'A revered priesthood, the Spider Speakers maintain the relationship between nether elves and the Queens of the various spider nests which populate Crystalia. Masters of poison and dark sorcery, Spider Speakers are a powerful, if not well loved, faction in nether elf society. Often accompanying them into battle are any number of venomous spiders, leaping and biting at the Spider Speaker''s command.');  
 insert into Characters (CardIndex) VALUES (2490);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (1393, 241, 362);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1393, 2); --Emerald
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1393, 3); --Ruby
+VALUES (1047, 241, 362);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1047, 2); --Emerald
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1047, 3); --Ruby
 --GangMemberIndex 858
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (327, 0, 'Spider Speaker', 'Nether Elf', 'Elite', 8, 3, 2, 440); 
@@ -2882,7 +2882,7 @@ insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, 
 VALUES (327, 1, 'Crawler', 'Spider', 'Minion', 8, 1, 1, 441);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (859, 679); --Immune: Poison
 
---Spinner Spindle	--CardIndex 2491	--CharacterIndex 1394	--ArcadeCharacterIndex 328
+--Spinner Spindle	--CardIndex 2491	--CharacterIndex 1048	--ArcadeCharacterIndex 328
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Spinner Spindle',
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Spider_Nest/Card_Arcade_Warband_Spider_Nest_Spinner_Spindle_2.0.png', 
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Spider_Nest/Card_Arcade_Warband_Spider_Nest_Spinner_Spindle_2.0_back.png', 
@@ -2891,8 +2891,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Shadow spinners lurk within dark spaces of the the Nether Rifts, weaving webs of pure shadow to conceal their presence and ensnare their prey. Many shadow spinners have taken up residence within the Midnight Tower. Their webs of pure darkness blend perfectly with the natural gloom of the tower, and they are an ever-present danger to anyone foolish enough to enter.');  
 insert into Characters (CardIndex) VALUES (2491);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (1394, 241, 362);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1394, 2); --Emerald
+VALUES (1048, 241, 362);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1048, 2); --Emerald
 --GangMemberIndex 860
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (328, 0, 'Shadow Spinner', 'Spider', 'Elite', 8, 1, 1, 442); 
@@ -2908,7 +2908,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (861, 758)
 
 
 --Watch Tower
---Watch Tower --CardIndex 2492 --CharacterIndex 1395 --ArcadeCharacterIndex 329
+--Watch Tower --CardIndex 2492 --CharacterIndex 1049 --ArcadeCharacterIndex 329
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Watch Tower',
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Watch_Tower/Card_Arcade_Warband_Watch_Tower_Watch_Tower_2.0.png', 
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Watch_Tower/Card_Arcade_Warband_Watch_Tower_Watch_Tower_2.0_back.png', 
@@ -2917,8 +2917,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'The Crown Guard is the standing army of the King of Crytalia. Made up of highly trained and dedicated servants of the land, the Crown Guard is the primary bulwark against the forces of the Dark Consul. It is their duty to maintain order and security within Crystalia, so that Heroes have the freedom to strike at the heart of the Dark Consul''s dungeons. While Heroes and the Crown Guard work hand-in-hand, it is not uncommon for a Hero to cross the line with a bit of excessive celebration or occasional shady deal that puts them at odds with the Crown Guard.'); 
 insert into Characters (CardIndex) VALUES (2492);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (1395, 0, -1);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1395, 4); --Sapphire
+VALUES (1049, 0, -1);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1049, 4); --Sapphire
 --GangMemberIndex 862
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (329, 0, 'Watch Tower', 'Spawning Point', '', 0, 3, 1, 444);
@@ -2926,7 +2926,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (862, 681)
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (862, 851); --Resolve Aura
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (862, 989); --Spawning Pool
 
---Crown Guard Longbowmen 	--CardIndex 2493	--CharacterIndex 1396	--ArcadeCharacterIndex 330
+--Crown Guard Longbowmen 	--CardIndex 2493	--CharacterIndex 1050	--ArcadeCharacterIndex 330
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Crown Guard Longbowmen',
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Watch_Tower/Card_Arcade_Warband_Watch_Tower_Crown Guard Longbowmen_2.0.png', 
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Watch_Tower/Card_Arcade_Warband_Watch_Tower_Crown Guard Longbowmen_2.0_back.png', 
@@ -2935,9 +2935,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Hold. Hoooooold. Hooooooooold. FIRE! Let the land darken in the shade of our arrows!');  
 insert into Characters (CardIndex) VALUES (2493);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (1396, 241, 362);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1396, 2); --Emerald
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1396, 4); --Sapphire
+VALUES (1050, 241, 362);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1050, 2); --Emerald
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1050, 4); --Sapphire
 --GangMemberIndex 863
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (330, 0, 'Longbowmen', 'Human', 'Elite', 6, 1, 1, 445); 
@@ -2947,7 +2947,7 @@ insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, 
 VALUES (330, 1, 'Longbowmen', 'Human', 'Elite', 6, 1, 1, 446);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (864, 1073); --Wind of Blades
 
---Crown Guard Patrol 	--CardIndex 2494	--CharacterIndex 1397	--ArcadeCharacterIndex 331
+--Crown Guard Patrol 	--CardIndex 2494	--CharacterIndex 1051	--ArcadeCharacterIndex 331
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Crown Guard Patrol',
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Watch_Tower/Card_Arcade_Warband_Watch_Tower_Crown_Guard_Patrol_2.0.png', 
 'http:/htkb.info/SDE/2.0/Cards/Arcade/Warbands/Watch_Tower/Card_Arcade_Warband_Watch_Tower_Crown_Guard_Patrol_2.0_back.png', 
@@ -2956,8 +2956,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 '"So you''re saying the tavern was always like this, and that you had nothing to do with these broken tables, smashed chairs, or fifteen moaning persons lying about?"');  
 insert into Characters (CardIndex) VALUES (2494);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (1397, 241, 362);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1397, 4); --Sapphire
+VALUES (1051, 241, 362);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1051, 4); --Sapphire
 --GangMemberIndex 865
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (331, 0, 'Sergeant-At-Arms', 'Human', 'Elite', 6, 3, 3, 447); 

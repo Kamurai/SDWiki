@@ -3,7 +3,7 @@
  --Warband Monsters
  
 --Arcadian Spider Nest
---Arcadian Spider Nest --CardIndex 1079 --CharacterIndex 982 --ExploreCharacterIndex 578
+--Arcadian Spider Nest --CardIndex 1079 --CharacterIndex 684 --ExploreCharacterIndex 578
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Arcadian Spider Nest',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Arcadian_Spider_Nest/Card_Warband_Arcadian_Spider_Nest_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Arcadian_Spider_Nest/Card_Warband_Arcadian_Spider_Nest_2.0_back.png', 
@@ -11,9 +11,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'In the dry and barren lands of Arcadia spiders have been forced to adapt to protect themselves from the harsh climate, as well as their methods when hunting for food.  Lacking natural terrain in which to build webs, Trapdoor Spiders build covered burrows near sources of water, bursting from the ground when prey grows near.  Others, such as the Leaping Spider, rely on pure speed.  Able to outpace even even horses, these speedy spiders are terrifying predators of the dunes.');
 insert into Characters (CardIndex) VALUES (1079); 
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (982, 2); --Emerald
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (684, 2); --Emerald
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (982,
+VALUES (684,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Arcadian_Spider_Nest/Standies/Arcadian_Spider_Nest_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Arcadian_Spider_Nest/Standies/Arcadian_Spider_Nest_2.0_back.png', 
 'Neither', 'Small', 'Spawning Point', 0, 0, '', '1ST', '', '', 3, 0);
@@ -23,7 +23,7 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (578
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (578, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (578, 'Spawning Point', 'Start', 0);
 
---Duskweaver Acolyte --CardIndex 1080 --CharacterIndex 983 --ExploreCharacterIndex 579
+--Duskweaver Acolyte --CardIndex 1080 --CharacterIndex 685 --ExploreCharacterIndex 579
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Duskweaver Acolyte',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Arcadian_Spider_Nest/Card_Warband_Arcadian_Spider_Nest_Duskweaver_Acolyte_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Arcadian_Spider_Nest/Card_Warband_Arcadian_Spider_Nest_Duskweaver_Acolyte_2.0_back.png', 
@@ -31,10 +31,10 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Duskweavers are an ancient branch of Arcadian Spider Speakers who see spiders as not only monstrous minions to be used as expendable chaff, but as pure expressions of the Dark Consul''s malevolent will and intent.  Duskweaver Acolytes are charged with tending to the Dark Consul''s sacred spiders, and proselytizing the unbeliever to their cause.');
 insert into Characters (CardIndex) VALUES (1080);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (983, 2); --Emerald
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (983, 3); --Ruby
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (685, 2); --Emerald
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (685, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (983,
+VALUES (685,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Arcadian_Spider_Nest/Standies/Duskweaver_Acolyte_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Arcadian_Spider_Nest/Standies/Duskweaver_Acolyte_2.0_back.png', 
 'Either', 'Small', 'Nether Elf Witch', 8, 3, '1B', '3B', '2R', '3B', 3, 0);
@@ -49,7 +49,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (579, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (579, 'Elite', '16 Bit', 2);
 
---Leaping Spider --CardIndex 1081 --CharacterIndex 984 --ExploreCharacterIndex 580
+--Leaping Spider --CardIndex 1081 --CharacterIndex 686 --ExploreCharacterIndex 580
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Leaping Spider',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Arcadian_Spider_Nest/Card_Warband_Arcadian_Spider_Nest_Leaping_Spider_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Arcadian_Spider_Nest/Card_Warband_Arcadian_Spider_Nest_Leaping_Spider_2.0_back.png', 
@@ -57,9 +57,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Marked in black and sunset orange, Leaping Spiders appear as a blur of fire streaking across the dessert as they hunt.  When they pounce, their black bodies obscure the sun and their legs go wide, catching the sun''s corona like a fiery demon of death.');
 insert into Characters (CardIndex) VALUES (1081); 
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (984, 2); --Emerald
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (686, 2); --Emerald
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (984,
+VALUES (686,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Arcadian_Spider_Nest/Standies/Leaping_Spider_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Arcadian_Spider_Nest/Standies/Leaping_Spider_2.0_back.png', 
 'Either', 'Small', 'Spider', 6, 1, '2B 1R', '1ST', '3B', '3B', 1, 0);
@@ -71,7 +71,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (580, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (580, 'Minion', '8 Bit', 1);
 
---Trapdoor Spider --CardIndex 1082 --CharacterIndex 985 --ExploreCharacterIndex 581
+--Trapdoor Spider --CardIndex 1082 --CharacterIndex 687 --ExploreCharacterIndex 581
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Trapdoor Spider',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Arcadian_Spider_Nest/Card_Warband_Arcadian_Spider_Nest_Trapdoor_Spider_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Arcadian_Spider_Nest/Card_Warband_Arcadian_Spider_Nest_Trapdoor_Spider_2.0_back.png', 
@@ -79,9 +79,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Lurking just underfoot, Trapdoor Spiders build vast tunnel networks beneath the dunes.  Covered in thick purple hairs that allow it to sense the barest tremor or shift in the sand for miles around, the spider will race through its tunnels towards a disturbance.  Once it has located its prey, the spider springs from one of dozens of carefully conceal trapdoors, quickly subduing and dragging its dinner into its labyrinth.');
 insert into Characters (CardIndex) VALUES (1082); 
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (985, 2); --Emerald
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (687, 2); --Emerald
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (985,
+VALUES (687,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Arcadian_Spider_Nest/Standies/Trapdoor_Spider_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Arcadian_Spider_Nest/Standies/Trapdoor_Spider_2.0_back.png', 
 'Either', 'Small', 'Spider', 8, 1, '2B', '0ST', '1B', '3B', 1, 0);
@@ -96,7 +96,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (581
 
 
 --Bandit Knight
---Bandit Knight --CardIndex 1083 --CharacterIndex 986 --ExploreCharacterIndex 582
+--Bandit Knight --CardIndex 1083 --CharacterIndex 688 --ExploreCharacterIndex 582
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Bandit Knight',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Bandit_Knight/Card_Warband_Bandit Knight_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Bandit_Knight/Card_Warband_Bandit Knight_2.0_back.png', 
@@ -104,9 +104,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'When the Bramble Knights were cursed by their own treasonous lord and turned into chimera, not all were successfully banished to the Lordship Ruins. The Forgotten King had used a select few Bramble Knights as his scouts and assassins. These elite knights led missions deep in the heart of enemy territory, often retreating to inaccessible regions of the Dragonback Peaks. Now, cursed and forgotten, they still dwell there. Without lord or mission, they carry on their pillaging and havoc simply because it is all they have ever known. The carnage they spread is the closest their twisted lives come to containing meaning or purpose.');
 insert into Characters (CardIndex) VALUES (1083); 
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (986, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (688, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (986,
+VALUES (688,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Bandit_Knight/Standies/Bandit Knight_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Bandit_Knight/Standies/Bandit Knight_2.0_back.png', 
 'Neither', 'Small', 'Spawning Point', 0, 0, '', '1ST', '', '', 3, 0);
@@ -117,7 +117,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (582, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (582, 'Spawning Point', 'Start', 0);
 
---Billmen Bandit --CardIndex 1084 --CharacterIndex 987 --ExploreCharacterIndex 583
+--Billmen Bandit --CardIndex 1084 --CharacterIndex 689 --ExploreCharacterIndex 583
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Billmen Bandit',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Bandit_Knight/Card_Warband_Bandit_Knight_Billmen_Bandit_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Bandit_Knight/Card_Warband_Bandit_Knight_Billmen_Bandit_2.0_back.png', 
@@ -125,9 +125,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Billmen made up the majority of the Forgotten King''s forces. Unwittingly following an evil lord, many Billmen seek to repent, or are simply tragic figures attempting to live out their days. But some are bitter that they should share in their master''s fate when they knew nothing of his plans. They blame the Heroes of Crystalia, the elves, anyone but themselves. These lonely and embittered outcasts have taken to the mountains, stealing what they can, and justifying their theft as compensation for the twisted existence they must suffer.');
 insert into Characters (CardIndex) VALUES (1084);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (987, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (689, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (987,
+VALUES (689,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Bandit_Knight/Standies/Billmen_Bandit_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Bandit_Knight/Standies/Billmen_Bandit_2.0_back.png', 
 'Either', 'Small', 'Chimera', 6, 1, '3B', '1ST', '2B', '1B 1R', 1, 0);
@@ -136,7 +136,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (583, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (583, 'Minion', '8 Bit', 1);
 
---Grobbit Barbarian --CardIndex 1085 --CharacterIndex 988 --ExploreCharacterIndex 584
+--Grobbit Barbarian --CardIndex 1085 --CharacterIndex 690 --ExploreCharacterIndex 584
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Grobbit Barbarian',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Bandit_Knight/Card_Warband_Bandit_Knight_Grobbit_Barbarian_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Bandit_Knight/Card_Warband_Bandit_Knight_Grobbit_Barbarian_2.0_back.png', 
@@ -144,9 +144,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Some Grobbits have escaped to the Dragonback Peaks, seeking shelter in the snaking paths and forgotten caverns found there. Alone and bitter, their minds have begun to change just like their bodies. Over the years their humanity has slipped away, leaving them as beastial and feral within as they are on the outside.');
 insert into Characters (CardIndex) VALUES (1085); 
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (988, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (690, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (988,
+VALUES (690,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Bandit_Knight/Standies/Grobbit_Barbarian_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Bandit_Knight/Standies/Grobbit_Barbarian_2.0_back.png', 
 'Either', 'Large', 'Chimera', 6, 3, '3B 1R', '2B', '1B', '3B', 4, 0);
@@ -157,7 +157,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (584, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (584, 'Elite', '16 Bit', 3);
 
---Marauder Squawk --CardIndex 1086 --CharacterIndex 989 --ExploreCharacterIndex 585
+--Marauder Squawk --CardIndex 1086 --CharacterIndex 691 --ExploreCharacterIndex 585
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Marauder Squawk',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Bandit_Knight/Card_Warband_Bandit_Knight__Marauder_Squawk_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Bandit_Knight/Card_Warband_Bandit_Knight__Marauder_Squawk_2.0_back.png', 
@@ -165,9 +165,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'The Bramble Knight cavalry who aided in the shadow war against the forces of Crystalia became the fearsome Marauder Squawks when their bitter lord cursed all of his forces. Unlike other knights who were bound by chivalry and honor, these marauders were masters of thieving, spying, and dirty fighting tactics.');
 insert into Characters (CardIndex) VALUES (1086); 
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (989, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (691, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (989,
+VALUES (691,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Bandit_Knight/Standies/_Marauder_Squawk_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Bandit_Knight/Standies/_Marauder_Squawk_2.0_back.png', 
 'Either', 'Small', 'Chimera', 8, 2, '2B 1R', '1ST', '2B', '3B', 2, 0);
@@ -181,7 +181,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (585
 
 
 --Clan Ijin
---Ijin Madoushi --CardIndex 1087 --CharacterIndex 990 --ExploreCharacterIndex 586
+--Ijin Madoushi --CardIndex 1087 --CharacterIndex 692 --ExploreCharacterIndex 586
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ijin Madoushi',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Ijin/Card_Warband_Clan_Ijin_Madoushi_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Ijin/Card_Warband_Clan_Ijin_Madoushi_2.0_back.png', 
@@ -189,9 +189,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Ijin Madoushi have learned some of the mystical ways of the void witches. They use this power to stir their fellow Ijin into a blood frenzy, calling them to battle.');
 insert into Characters (CardIndex) VALUES (1087); 
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (990, 0); --Amethyst
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (692, 0); --Amethyst
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (990,
+VALUES (692,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Ijin/Standies/Clan_Ijin_Madoushi_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Ijin/Standies/Clan_Ijin_Madoushi_2.0_back.png', 
 'Masculine', 'Small', 'Ijin Spawning Point', 2, 1, '3B', '1ST', '3B', '1B', 3, 0);
@@ -204,7 +204,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (586, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (586, 'Spawning Point', 'Start', 2);
 
---Ijin Kaiken --CardIndex 1088 --CharacterIndex 991 --ExploreCharacterIndex 587
+--Ijin Kaiken --CardIndex 1088 --CharacterIndex 693 --ExploreCharacterIndex 587
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ijin Kaiken',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Ijin/Card_Warband_Clan_Ijin_Kaiken_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Ijin/Card_Warband_Clan_Ijin_Kaiken_2.0_back.png', 
@@ -212,9 +212,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Kaiken are the foot soldiers of Clan Ijin and are a common sight in their harsh homeland. The Ijin struggle and succeed every day through pure, raw strength. Shaped by darkness and sculpted by hard labor, they are tough, iron-fisted, and suffer no insult. Any who trespass or insult the Ijin will face the wrath of the kaiken, each warrior having earned their place in the ranks through a test of might.');
 insert into Characters (CardIndex) VALUES (1088); 
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (991, 0); --Amethyst
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (693, 0); --Amethyst
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (991,
+VALUES (693,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Ijin/Standies/Clan_Ijin_Kaiken_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Ijin/Standies/Clan_Ijin_Kaiken_2.0_back.png', 
 'Masculine', 'Small', 'Ijin Riftling', 6, 1, '3B', '1ST', '1B', '3B', 1, 0);
@@ -223,7 +223,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (587, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (587, 'Minion', '8 Bit', 1);
 
---Ijin Kunoichi --CardIndex 1089 --CharacterIndex 992 --ExploreCharacterIndex 588
+--Ijin Kunoichi --CardIndex 1089 --CharacterIndex 694 --ExploreCharacterIndex 588
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ijin Kunoichi',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Ijin/Card_Warband_Clan_Ijin_Kunoichi_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Ijin/Card_Warband_Clan_Ijin_Kunoichi_2.0_back.png', 
@@ -231,9 +231,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'The Ijin kunoichi are elite warriors. To join the ranks of the kunoichi, a kaiken must pass both a test of might and a test of cunning. While the Ijin value strength above all else, the kunoichi are highly skilled in the most effective points to apply that strength. In other words, while all Ijin agree that smashing something is the best way to resolve a conflict, the kunoichi acknowledge that what you smash matters.');
 insert into Characters (CardIndex) VALUES (1089);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (992, 0); --Amethyst
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (694, 0); --Amethyst
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (992,
+VALUES (694,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Ijin/Standies/Clan_Ijin_Kunoichi_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Ijin/Standies/Clan_Ijin_Kunoichi_2.0_back.png', 
 'Feminine', 'Small', 'Ijin Riftling', 7, 2, '2R', '0ST', '2B', '3B', 2, 0);
@@ -247,7 +247,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (588, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (588, 'Minion', '8 Bit', 2);
 
---Ijin Oni --CardIndex 1090 --CharacterIndex 993 --ExploreCharacterIndex 589
+--Ijin Oni --CardIndex 1090 --CharacterIndex 695 --ExploreCharacterIndex 589
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ijin Oni',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Ijin/Card_Warband_Clan_Ijin_Oni_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Ijin/Card_Warband_Clan_Ijin_Oni_2.0_back.png', 
@@ -255,9 +255,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'The void witches of the Ijin have bartered an unusual peace with the mighty oni that roam their lands. These oni are fearsome, brutal, and often wield mighty clubs in battle. They are ferocious allies for clan Ijin, and in many ways the Ijin share more similarities with these monstrous oni than they do the other clans.');
 insert into Characters (CardIndex) VALUES (1090); 
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (993, 0); --Amethyst
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (695, 0); --Amethyst
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (993,
+VALUES (695,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Ijin/Standies/Clan_Ijin_Oni_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Ijin/Standies/Clan_Ijin_Oni_2.0_back.png', 
 'Either', 'Large', 'Ijin Demon', 5, 2, '2B 1R', '1B 1R', '1B', '3B', 2, 0);
@@ -269,7 +269,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (589, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (589, 'Elite', '16 Bit', 2); 
 
---Ijin Yajiri --CardIndex 1091 --CharacterIndex 994 --ExploreCharacterIndex 590
+--Ijin Yajiri --CardIndex 1091 --CharacterIndex 696 --ExploreCharacterIndex 590
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ijin Yajiri',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Ijin/Card_Warband_Clan_Ijin_Yajiri_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Ijin/Card_Warband_Clan_Ijin_Yajiri_2.0_back.png', 
@@ -277,9 +277,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'The life of an Ijin is hard, brutal, and unforgiving. Often, Ijin warriors suffer crippling injuries that would relegate a member of any other clan to a life of bed-rest, or at least humble farming. When Ijin face such difficulties, they pick up a crossbow and join the ranks of the yajiri. These hardened and wizened veterans engage the enemy at range, stubbornly refusing to give up the fight, or leave it to younger warriors.');
 insert into Characters (CardIndex) VALUES (1091); 
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (994, 0); --Amethyst
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (696, 0); --Amethyst
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (994,
+VALUES (696,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Ijin/Standies/Clan_Ijin_Yajiri_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Ijin/Standies/Clan_Ijin_Yajiri_2.0_back.png', 
 'Either', 'Small', 'Ijin Riftling', 6, 1, '2B', '0ST', '1B', '3B', 1, 0);
@@ -291,7 +291,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (590
 
 
 --Clan Ika
---Ika Madoushi --CardIndex 1092 --CharacterIndex 995 --ExploreCharacterIndex 591
+--Ika Madoushi --CardIndex 1092 --CharacterIndex 697 --ExploreCharacterIndex 591
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ika Madoushi',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Ika/Card_Warband_Clan_Ika_Madoushi_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Ika/Card_Warband_Clan_Ika_Madoushi_2.0_back.png', 
@@ -299,9 +299,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 '');
 insert into Characters (CardIndex) VALUES (1092); 
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (995, 3); --Ruby
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (697, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (995,
+VALUES (697,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Ika/Standies/Clan_Ika_Madoushi_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Ika/Standies/Clan_Ika_Madoushi_2.0_back.png', 
 'Masculine', 'Small', 'Ika Spawning Point', 2, 1, '2B', '1ST', '2R', '2B', 3, 0);
@@ -315,7 +315,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (591, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (591, 'Spawning Point', 'Start', 3);
 
---Ika Kaiken --CardIndex 1093 --CharacterIndex 996 --ExploreCharacterIndex 592
+--Ika Kaiken --CardIndex 1093 --CharacterIndex 698 --ExploreCharacterIndex 592
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ika Kaiken',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Ika/Card_Warband_Clan_Ika_Kaiken_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Ika/Card_Warband_Clan_Ika_Kaiken_2.0_back.png', 
@@ -323,9 +323,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 '');
 insert into Characters (CardIndex) VALUES (1093); 
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (996, 3); --Ruby
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (698, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (996,
+VALUES (698,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Ika/Standies/Clan_Ika_Kaiken_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Ika/Standies/Clan_Ika_Kaiken_2.0_back.png', 
 'Masculine', 'Small', 'Ika', 6, 1, '3B', '1ST', '2B', '2B', 1, 0);
@@ -334,7 +334,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (592, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (592, 'Minion', '8 Bit', 1);
 
---Ika Kunoichi --CardIndex 1094 --CharacterIndex 997 --ExploreCharacterIndex 593
+--Ika Kunoichi --CardIndex 1094 --CharacterIndex 699 --ExploreCharacterIndex 593
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ika Kunoichi',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Ika/Card_Warband_Clan_Ika_Kunoichi_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Ika/Card_Warband_Clan_Ika_Kunoichi_2.0_back.png', 
@@ -342,9 +342,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 '');
 insert into Characters (CardIndex) VALUES (1094);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (997, 3); --Ruby
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (699, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (997,
+VALUES (699,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Ika/Standies/Clan_Ika_Kunoichi_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Ika/Standies/Clan_Ika_Kunoichi_2.0_back.png', 
 'Feminine', 'Small', 'Ika', 6, 2, '3B', '1ST', '2B', '2R', 2, 0);
@@ -355,7 +355,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (593, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (593, 'Minion', '8 Bit', 2);
 
---Ika Oni --CardIndex 1095 --CharacterIndex 998 --ExploreCharacterIndex 594
+--Ika Oni --CardIndex 1095 --CharacterIndex 700 --ExploreCharacterIndex 594
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ika Oni',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Ika/Card_Warband_Clan_Ika_Oni_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Ika/Card_Warband_Clan_Ika_Oni_2.0_back.png', 
@@ -363,9 +363,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 '');
 insert into Characters (CardIndex) VALUES (1095); 
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (998, 3); --Ruby
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (700, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (998,
+VALUES (700,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Ika/Standies/Clan_Ika_Oni_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Ika/Standies/Clan_Ika_Oni_2.0_back.png', 
 'Either', 'Large', 'Ika Elite', 6, 3, '1B 1G', '1B 1G', '4B', '2B', 3, 0);
@@ -379,7 +379,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (594, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (594, 'Elite', '16 Bit', 3); 
 
---Ika Yajiri --CardIndex 1096 --CharacterIndex 999 --ExploreCharacterIndex 595
+--Ika Yajiri --CardIndex 1096 --CharacterIndex 701 --ExploreCharacterIndex 595
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ika Yajiri',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Ika/Card_Warband_Clan_Ika_Yajiri_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Ika/Card_Warband_Clan_Ika_Yajiri_2.0_back.png', 
@@ -387,9 +387,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 '');
 insert into Characters (CardIndex) VALUES (1096); 
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (999, 3); --Ruby
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (701, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (999,
+VALUES (701,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Ika/Standies/Clan_Ika_Yajiri_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Ika/Standies/Clan_Ika_Yajiri_2.0_back.png', 
 'Either', 'Small', 'Ika', 6, 1, '2B', '0ST', '2B', '3B', 1, 0);
@@ -400,7 +400,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (595
 
 
 --Clan Kitsune
---Kitsune Madoushi --CardIndex 1097 --CharacterIndex 1000 --ExploreCharacterIndex 596
+--Kitsune Madoushi --CardIndex 1097 --CharacterIndex 702 --ExploreCharacterIndex 596
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Kitsune Madoushi',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Kitsune/Card_Warband_Clan_Kitsune_Madoushi_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Kitsune/Card_Warband_Clan_Kitsune_Madoushi_2.0_back.png', 
@@ -408,9 +408,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'The Madoushi of the Kitsune clan are the masters of the healing herbs for which the Kitsune are known, as well as masters of the forest itself. They can sense pathways that nobody else can, quickly directing more Kitsune into the fight. They decide when the Kitsune are to take to battle. While the Kitsune are not under the sway of the Dark Consul, his influence has made all the clans of Kagejima more war-like, and the Madoushi are suspicious, likely to call the might of the Kitsune against complete strangers who wander into their territory.');
 insert into Characters (CardIndex) VALUES (1097); 
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1000, 3); --Ruby
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (702, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (1000,
+VALUES (702,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Kitsune/Standies/Clan_Kitsune_Madoushi_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Kitsune/Standies/Clan_Kitsune_Madoushi_2.0_back.png', 
 'Masculine', 'Small', 'Kitsune Paired Spawning Point', 2, 1, '1B', '1ST', '1B', '2B', 3, 0);
@@ -424,7 +424,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (596, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (596, 'Spawning Point', 'Start', 3);
 
---Kitsune Kaiken --CardIndex 1098 --CharacterIndex 1001 --ExploreCharacterIndex 597
+--Kitsune Kaiken --CardIndex 1098 --CharacterIndex 703 --ExploreCharacterIndex 597
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Kitsune Kaiken',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Kitsune/Card_Warband_Clan_Kitsune_Kaiken_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Kitsune/Card_Warband_Clan_Kitsune_Kaiken_2.0_back.png', 
@@ -432,9 +432,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'The Kitsune inhabit the western faces of the mountains of Kagejima. These lands are covered in lush, wet forests which are full of strange and unpredictable kami. There are many tales of strange occurences in these lands, such as travelers entering a village and emerging a century later over the course of what seemed to them a single night. Uncounted people have become lost in the twisting forests of the Kitsune, and the deeper one goes into their territory, the greater the danger grows. Kaiken are the backbone of the Kitsune forces that tend to the secret paths and hidden villages of the Kitsune.');
 insert into Characters (CardIndex) VALUES (1098); 
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1001, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (703, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (1001,
+VALUES (703,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Kitsune/Standies/Clan_Kitsune_Kaiken_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Kitsune/Standies/Clan_Kitsune_Kaiken_2.0_back.png', 
 'Masculine', 'Small', 'Kitsune', 5, 1, '2B', '1ST', '2B', '3B', 1, 0);
@@ -445,7 +445,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (597, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (597, 'Minion', '8 Bit', 1);
 
---Kitsune Kunoichi --CardIndex 1099 --CharacterIndex 1002 --ExploreCharacterIndex 598
+--Kitsune Kunoichi --CardIndex 1099 --CharacterIndex 704 --ExploreCharacterIndex 598
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Kitsune Kunoichi',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Kitsune/Card_Warband_Clan_Kitsune_Kunoichi_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Kitsune/Card_Warband_Clan_Kitsune_Kunoichi_2.0_back.png', 
@@ -453,9 +453,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Kitsune teach their children to navigate the fickle forests in which they dwell at a young age. Being able to brave the wood in order to harvest potent herbs is necessary to become an adult in Kitsune society. Those youngsters who show particular adeptness at navigating their lands soon become Kaiken, trusted with guarding the paths. When they have mastered that, they are taught the ways of the Yajiri, how to use the forests themselves against their enemies. Only when they have mastered both the path of Kaiken and Yajiri will they gain the rank of Kunoichi.');
 insert into Characters (CardIndex) VALUES (1099);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1002, 2); --Emerald
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (704, 2); --Emerald
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (1002,
+VALUES (704,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Kitsune/Standies/Clan_Kitsune_Kunoichi_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Kitsune/Standies/Clan_Kitsune_Kunoichi_2.0_back.png', 
 'Feminine', 'Small', 'Kitsune', 7, 2, '2B', '2B', '3B', '3B', 2, 0);
@@ -468,7 +468,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (598, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (598, 'Minion', '8 Bit', 2);
 
---Kitsune Oni --CardIndex 1100 --CharacterIndex 1003 --ExploreCharacterIndex 599
+--Kitsune Oni --CardIndex 1100 --CharacterIndex 705 --ExploreCharacterIndex 599
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Kitsune Oni',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Kitsune/Card_Warband_Clan_Kitsune_Oni_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Kitsune/Card_Warband_Clan_Kitsune_Oni_2.0_back.png', 
@@ -476,9 +476,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'The Oni of the Kitsune are the physical manifestations of the forest kami themselves. They take on the monstrous, fox-like shape that belies their mischievous and fickle nature and fight alongside the Kitsune clan during times of great strife...or simply when they feel like it. In battle they are ferocious, cutting down any who dare to tread too far into their forests without permission.');
 insert into Characters (CardIndex) VALUES (1100); 
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1003, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (705, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (1003,
+VALUES (705,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Kitsune/Standies/Clan_Kitsune_Oni_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Kitsune/Standies/Clan_Kitsune_Oni_2.0_back.png', 
 'Either', 'Large', 'Kitsune', 5, 2, '2B 1R', '3B', '2B', '3B', 2, 0);
@@ -491,7 +491,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (599, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (599, 'Elite', '16 Bit', 2); 
 
---Kitsune Yajiri --CardIndex 1101 --CharacterIndex 1004 --ExploreCharacterIndex 600
+--Kitsune Yajiri --CardIndex 1101 --CharacterIndex 706 --ExploreCharacterIndex 600
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Kitsune Yajiri',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Kitsune/Card_Warband_Clan_Kitsune_Yajiri_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Kitsune/Card_Warband_Clan_Kitsune_Yajiri_2.0_back.png', 
@@ -499,9 +499,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'The Kitsune Yajiri strike from the shadows of their twisted forests. Unwanted travelers will be pelted with darts, only to find that the Yajiri have vanished back into the depths of the wood. This tactic is not just used in order to allow the Yajiri escape, but to lure the trespassers deeper into the wood, where they will surely become lost and perish either due to the elements or the whims of a vengeful kami. The Kitsune territory is not a place for those who do not know its paths and secrets well, and the Yajiri use the landscape to its fullest effect.');
 insert into Characters (CardIndex) VALUES (1101); 
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1004, 2); --Emerald
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (706, 2); --Emerald
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (1004,
+VALUES (706,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Kitsune/Standies/Clan_Kitsune_Yajiri_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Kitsune/Standies/Clan_Kitsune_Yajiri_2.0_back.png', 
 'Either', 'Small', 'Kitsune', 5, 1, '2B', '0ST', '3B', '2B', 1, 0);
@@ -514,7 +514,7 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (6
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (600, 'Minion', '8 Bit', 1); 
 
 --Clan Sohei
---Sohei Madoushi --CardIndex 1102 --CharacterIndex 1005 --ExploreCharacterIndex 601
+--Sohei Madoushi --CardIndex 1102 --CharacterIndex 706 --ExploreCharacterIndex 601
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Sohei Madoushi',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Sohei/Card_Warband_Clan_Sohei_Madoushi_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Sohei/Card_Warband_Clan_Sohei_Madoushi_2.0_back.png', 
@@ -522,9 +522,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'The Sohei Madoushi have been granted visions of the realms across the ocean, and witnessed the taint of the Dark Consul upon those lands.  Fearing that Kagejima will become overrun, they have adopted a zero tolerance policy in regards to "Heroes" from other realms.');
 insert into Characters (CardIndex) VALUES (1102); 
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1005, 4); --Sapphire
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (706, 4); --Sapphire
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (1005,
+VALUES (706,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Sohei/Standies/Clan_Sohei_Madoushi_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Sohei/Standies/Clan_Sohei_Madoushi_2.0_back.png', 
 'Masculine', 'Small', 'Sohei Spawning Point', 2, 1, '0ST', '2R', '3B', '0ST', 3, 0);
@@ -536,7 +536,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (601, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (601, 'Spawning Point', 'Start', 2);
 
---Sohei Kaiken --CardIndex 1103 --CharacterIndex 1006 --ExploreCharacterIndex 602
+--Sohei Kaiken --CardIndex 1103 --CharacterIndex 707 --ExploreCharacterIndex 602
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Sohei Kaiken',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Sohei/Card_Warband_Clan_Sohei_Kaiken_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Sohei/Card_Warband_Clan_Sohei_Kaiken_2.0_back.png', 
@@ -544,9 +544,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'After completing the Nine Trials of Devotion, a Sohei''s soul is purified by the clan''s Madoushi and eleveated to Kaiken.  In combat, their swords are as the divine light of Ameratsu, banishing all shadows before them.');
 insert into Characters (CardIndex) VALUES (1103); 
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1006, 1); --!! unavailable !!
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (707, 1); --!! unavailable !!
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (1006,
+VALUES (707,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Sohei/Standies/Clan_Sohei_Kaiken_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Sohei/Standies/Clan_Sohei_Kaiken_2.0_back.png', 
 'Masculine', 'Small', 'Sohei', 6, 1, '3B', '3B', '3B', '2B', 1, 0);
@@ -555,7 +555,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (602, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (602, 'Minion', '8 Bit', 1);
 
---Sohei Kunoichi --CardIndex 1104 --CharacterIndex 1007 --ExploreCharacterIndex 603
+--Sohei Kunoichi --CardIndex 1104 --CharacterIndex 708 --ExploreCharacterIndex 603
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Sohei Kunoichi',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Sohei/Card_Warband_Clan_Sohei_Kunoichi_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Sohei/Card_Warband_Clan_Sohei_Kunoichi_2.0_back.png', 
@@ -563,9 +563,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Trained specialist and charismatic leaders, Sohei Kunoichi are billiant points of light in the darkness.  They can be found where the Dark Consul''s influence is strongest, guiding their comrades in service to the light.');
 insert into Characters (CardIndex) VALUES (1104);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1007, 2); --!! unavailable 1!
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (708, 2); --!! unavailable 1!
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (1007,
+VALUES (708,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Sohei/Standies/Clan_Sohei_Kunoichi_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Sohei/Standies/Clan_Sohei_Kunoichi_2.0_back.png', 
 'Feminine', 'Small', 'Sohei', 6, 2, '2R', '2B 1R', '3B', '2B', 2, 0);
@@ -574,7 +574,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (603, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (603, 'Minion', '16 Bit', 2);
 
---Sohei Yajiri --CardIndex 1105 --CharacterIndex 1008 --ExploreCharacterIndex 604
+--Sohei Yajiri --CardIndex 1105 --CharacterIndex 709 --ExploreCharacterIndex 604
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Sohei Yajiri',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Sohei/Card_Warband_Clan_Sohei_Yajiri_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Sohei/Card_Warband_Clan_Sohei_Yajiri_2.0_back.png', 
@@ -582,9 +582,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Sohei Yajiri are less experienced kohai who have only begun their journey along the ascetic paths of the Ikko, suporting the clan with disciplined bow fire.');
 insert into Characters (CardIndex) VALUES (1105); 
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1008, 2); --!! unavailable !!
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (709, 2); --!! unavailable !!
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (1008,
+VALUES (709,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Sohei/Standies/Clan_Sohei_Yajiri_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Sohei/Standies/Clan_Sohei_Yajiri_2.0_back.png', 
 'Either', 'Small', 'Sohei', 6, 1, '2B', '2B', '3B', '3B', 1, 0);
@@ -595,7 +595,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (604
 
 
 --Clan Spirit Shrine
---Elemental Shrine --CardIndex 1106 --CharacterIndex 1009 --ExploreCharacterIndex 605
+--Elemental Shrine --CardIndex 1106 --CharacterIndex 710 --ExploreCharacterIndex 605
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Elemental Shrine',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Spirit_Shrine/Card_Warband_Clan_Spirit_Shrine_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Spirit_Shrine/Card_Warband_Clan_Spirit_Shrine_2.0_back.png', 
@@ -603,9 +603,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 '');
 insert into Characters (CardIndex) VALUES (1106); 
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1009, 3); --Ruby
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (710, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (1009,
+VALUES (710,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Spirit_Shrine/Standies/Clan_Spirit_Shrine_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Spirit_Shrine/Standies/Clan_Spirit_Shrine_2.0_back.png', 
 'Neither', 'Large', 'Paired Spawning Point', 0, 1, '', '1ST', '', '', 4, 0);
@@ -617,7 +617,7 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (605
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (605, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (605, 'Start', 'Spawning Point', 0);
 
---Chunin --CardIndex 1107 --CharacterIndex 1010 --ExploreCharacterIndex 606
+--Chunin --CardIndex 1107 --CharacterIndex 711 --ExploreCharacterIndex 606
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Chunin',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Spirit_Shrine/Card_Warband_Clan_Spirit_Shrine_Chunin_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Spirit_Shrine/Card_Warband_Clan_Spirit_Shrine_Chunin_2.0_back.png', 
@@ -625,9 +625,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Aspiring leaders and skilled fighters within the clan are called upon to lead their own team of ninja as chunin. This is an incredible honor, and the trials to come will not only test a chunin''s leadership and skills, but their spirit as well.');
 insert into Characters (CardIndex) VALUES (1107); 
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1010, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (711, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (1010,
+VALUES (711,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Spirit_Shrine/Standies/Clan_Spirit_Shrine_Chunin_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Spirit_Shrine/Standies/Clan_Spirit_Shrine_Chunin_2.0_back.png', 
 'Masculine', 'Small', 'Ninja', 6, 1, '2B 1R', '3B', '3B', '3B', 3, 0);
@@ -640,7 +640,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (606, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (606, 'Elite', '16 Bit', 2);
 
---Kaiken --CardIndex 1108 --CharacterIndex 1011 --ExploreCharacterIndex 607
+--Kaiken --CardIndex 1108 --CharacterIndex 712 --ExploreCharacterIndex 607
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Kaiken',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Spirit_Shrine/Card_Warband_Clan_Spirit_Shrine_Kaiken_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Spirit_Shrine/Card_Warband_Clan_Spirit_Shrine_Kaiken_2.0_back.png', 
@@ -648,9 +648,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Kaiken are the backbone of the clans. To be a kaiken is not to be relegated to a basic or low role. Training to become a kaiken starts from birth and is ingrained through hardship, conditioning, and trials that normal people could not withstand. Kaiken are masters of the art of stealth, the sword, and the shuriken. As their experience grows, they learn to tap elemental magic, unlocking potent abilities to rival even the great Heroes.');
 insert into Characters (CardIndex) VALUES (1108); 
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1011, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (712, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (1011,
+VALUES (712,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Spirit_Shrine/Standies/Clan_Spirit_Shrine_Kaiken_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Spirit_Shrine/Standies/Clan_Spirit_Shrine_Kaiken_2.0_back.png', 
 'Masculine', 'Small', 'Ninja', 6, 1, '3B', '1ST', '2B', '3B', 1, 0);
@@ -661,7 +661,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (607, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (607, 'Minion', '8 Bit', 1);
 
---Kunoichi --CardIndex 1109 --CharacterIndex 1012 --ExploreCharacterIndex 608
+--Kunoichi --CardIndex 1109 --CharacterIndex 713 --ExploreCharacterIndex 608
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Kunoichi',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Spirit_Shrine/Card_Warband_Clan_Spirit_Shrine_Kunoichi_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Spirit_Shrine/Card_Warband_Clan_Spirit_Shrine_Kunoichi_2.0_back.png', 
@@ -669,9 +669,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Kunoichi are specialized female fighters and scouts for the clans. Though deadly and widely trained in the ninja arts, the kunoichi put particular emphasis on speed and agility. In battle, kunoichi focus on key mission objectives such as scouting targets and carrying vital missives.');
 insert into Characters (CardIndex) VALUES (1109);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1012, 2); --Emerald
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (713, 2); --Emerald
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (1012,
+VALUES (713,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Spirit_Shrine/Standies/Clan_Spirit_Shrine_Kunoichi_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Spirit_Shrine/Standies/Clan_Spirit_Shrine_Kunoichi_2.0_back.png', 
 'Feminine', 'Small', 'Ninja', 8, 1, '3B', '0ST', '1B 1R', '2R', 1, 0);
@@ -683,7 +683,7 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (6
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (608, 4); --Dex
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (608, 'Elite', '8 Bit', 1);
 
---Madoushi --CardIndex 1110 --CharacterIndex 1013 --ExploreCharacterIndex 609
+--Madoushi --CardIndex 1110 --CharacterIndex 714 --ExploreCharacterIndex 609
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Madoushi',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Spirit_Shrine/Card_Warband_Clan_Spirit_Shrine_Madoushi_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Spirit_Shrine/Card_Warband_Clan_Spirit_Shrine_Madoushi_2.0_back.png', 
@@ -691,9 +691,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'All clans possess the mystics known as madoushi. In some clans, they are revered as sages, alchemists and healers. Other clans regard them as witches, and tolerate them with barely concealed mistrust and fear. Whether they are revered or reviled, all madoushi are able to harness the powers native to the lands of their clan. With training, study, and meditation, a madoushi learns to draw from the lines of Ki that race through the landscape, summoning the very elements to do their bidding.');
 insert into Characters (CardIndex) VALUES (1110); 
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1013, 3); --Ruby
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (714, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (1013,
+VALUES (714,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Spirit_Shrine/Standies/Clan_Spirit_Shrine_Madoushi_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Spirit_Shrine/Standies/Clan_Spirit_Shrine_Madoushi_2.0_back.png', 
 'Masculine', 'Small', 'Ninja', 6, 2, '2B', '1ST', '2R', '3B', 2, 0);
@@ -708,7 +708,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (609, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (609, 'Elite', '8 Bit', 2);
 
---Yajiri --CardIndex 1111 --CharacterIndex 1014 --ExploreCharacterIndex 610
+--Yajiri --CardIndex 1111 --CharacterIndex 715 --ExploreCharacterIndex 610
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Yajiri',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Spirit_Shrine/Card_Warband_Clan_Spirit_Shrine_Yajiri_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Spirit_Shrine/Card_Warband_Clan_Spirit_Shrine_Yajiri_2.0_back.png', 
@@ -716,9 +716,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Yajiri specialize in attacking from afar. Their black shafted arrows are renowned for striking with deadly accuracy. While the bow is utilized throughout all the clans, many have developed their own unique forms of ranged warfare. The Kitsune''s blowguns eliminate sentries with only the sound of a silent rush of wind to mark their use; while the thunder of the Tora''s rifle sows confusion among the enemy ranks, even as it wreaks terrible devastation. No matter the form it takes, a yajiri''s value to their clan cannot be underestimated.');
 insert into Characters (CardIndex) VALUES (1111); 
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1014, 2); --Emerald
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (715, 2); --Emerald
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (1014,
+VALUES (715,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Spirit_Shrine/Standies/Clan_Spirit_Shrine_Yajiri_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Spirit_Shrine/Standies/Clan_Spirit_Shrine_Yajiri_2.0_back.png', 
 'Masculine', 'Small', 'Ninja', 6, 1, '2B', '0ST', '2B', '3B', 1, 0);
@@ -731,7 +731,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (610
 
 
 --Clan Tanchyo
---Tanchyo Madoushi --CardIndex 1112 --CharacterIndex 1015 --ExploreCharacterIndex 611
+--Tanchyo Madoushi --CardIndex 1112 --CharacterIndex 716 --ExploreCharacterIndex 611
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Tanchyo Madoushi',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Tanchyo/Card_Warband_Clan_Tanchyo_Madoushi_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Tanchyo/Card_Warband_Clan_Tanchyo_Madoushi_2.0_back.png', 
@@ -739,9 +739,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'The Madoushi of clan Tanchyo have received the blessings of the Tengu, often even taking on the physical appearance of the Tengu themselves. They are masters of the wind, and use their magic to allow their fellow Tanchyo to soar through the air, getting them into the fight at impossible speeds as they race through the tree-tops.');
 insert into Characters (CardIndex) VALUES (1112); 
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1015, 2); --Emerald
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (716, 2); --Emerald
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (1015,
+VALUES (716,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Tanchyo/Standies/Clan_Tanchyo_Madoushi_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Tanchyo/Standies/Clan_Tanchyo_Madoushi_2.0_back.png', 
 'Masculine', 'Small', 'Tanchyo Spawning Point', 2, 1, '2B', '1ST', '3B', '2B', 3, 0);
@@ -753,7 +753,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (611, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (611, 'Spawning Point', 'Start', 3);
 
---Tanchyo Kaiken --CardIndex 1113 --CharacterIndex 1016 --ExploreCharacterIndex 612
+--Tanchyo Kaiken --CardIndex 1113 --CharacterIndex 717 --ExploreCharacterIndex 612
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Tanchyo Kaiken',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Tanchyo/Card_Warband_Clan_Tanchyo_Kaiken_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Tanchyo/Card_Warband_Clan_Tanchyo_Kaiken_2.0_back.png', 
@@ -761,9 +761,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'For the Tanchyo, close-quarters fighting is rare. They live their lives among tree branches and rain arrows down on any who threaten their homes. But there are times that blade is necessary. In such times, the Tanchyo call upon their Kaiken. Where other clans have swordsmen as the bulk of their forces, Tanchyo Kaiken are rare and highly trained. They are only called upon in the most dire of circumstances.');
 insert into Characters (CardIndex) VALUES (1113); 
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1016, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (717, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (1016,
+VALUES (717,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Tanchyo/Standies/Clan_Tanchyo_Kaiken_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Tanchyo/Standies/Clan_Tanchyo_Kaiken_2.0_back.png', 
 'Masculine', 'Small', 'Tanchyo', 7, 2, '2R', '0ST', '2B', '2B', 2, 0);
@@ -774,7 +774,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (612, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (612, 'Minion', '8 Bit', 2);
 
---Tanchyo Kunoichi --CardIndex 1114 --CharacterIndex 1017 --ExploreCharacterIndex 613
+--Tanchyo Kunoichi --CardIndex 1114 --CharacterIndex 718 --ExploreCharacterIndex 613
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Tanchyo Kunoichi',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Tanchyo/Card_Warband_Clan_Tanchyo_Kunoichi_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Tanchyo/Card_Warband_Clan_Tanchyo_Kunoichi_2.0_back.png', 
@@ -782,10 +782,10 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Clan Tanchyo form incredibly close-knit family ties. The loss of a member is an accute pain, and vengeance is always swift and decisive. The Kunoichi are those who have lost a family member in combat and vowed to seek vengeance. They have dedicated themselves to the art of war, so that no other Tanchyo family has to know their pain. All-out war on Kagejima has been avoided thanks to the Moon Court, but small skirmishes are common, and clan Tanchyo is very suspicious of outsiders, often leading them into conflict with strangers who stray too far into their lands.');
 insert into Characters (CardIndex) VALUES (1114);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1017, 1); --Citrine
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1017, 2); --Emerald
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (718, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (718, 2); --Emerald
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (1017,
+VALUES (718,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Tanchyo/Standies/Clan_Tanchyo_Kunoichi_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Tanchyo/Standies/Clan_Tanchyo_Kunoichi_2.0_back.png', 
 'Feminine', 'Small', 'Tanchyo', 7, 2, '3B', '1ST', '3B', '3B', 2, 0);
@@ -796,7 +796,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (613, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (613, 'Minion', '8 Bit', 2);
 
---Tanchyo Oni --CardIndex 1115 --CharacterIndex 1018 --ExploreCharacterIndex 614
+--Tanchyo Oni --CardIndex 1115 --CharacterIndex 719 --ExploreCharacterIndex 614
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Tanchyo Oni',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Tanchyo/Card_Warband_Clan_Tanchyo_Oni_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Tanchyo/Card_Warband_Clan_Tanchyo_Oni_2.0_back.png', 
@@ -804,9 +804,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Tanchyo Oni are the physical incarnations of the kami that stalk the dense forests that the Tanchyo call home. They take the form of massive birds of prey, and they hold command over air, creating furious cyclones that can sweep their opponents from the trees they call home. Tanchyo Oni are particularly fearsome, and they are only called upon by the clan in the most dire and desperate of circumstances.');
 insert into Characters (CardIndex) VALUES (1115); 
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1018, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (719, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (1018,
+VALUES (719,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Tanchyo/Standies/Clan_Tanchyo_Oni_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Tanchyo/Standies/Clan_Tanchyo_Oni_2.0_back.png', 
 'Either', 'Large', 'Tanchyo', 7, 3, '1ST 2B', '1B 1R', '3B', '3B', 3, 0);
@@ -818,7 +818,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (614, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (614, 'Elite', '16 Bit', 3); 
 
---Tanchyo Yajiri --CardIndex 1116 --CharacterIndex 1019 --ExploreCharacterIndex 615
+--Tanchyo Yajiri --CardIndex 1116 --CharacterIndex 720 --ExploreCharacterIndex 615
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Tanchyo Yajiri',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Tanchyo/Card_Warband_Clan_Tanchyo_Yajiri_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Tanchyo/Card_Warband_Clan_Tanchyo_Yajiri_2.0_back.png', 
@@ -826,9 +826,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'The north of Kagejima is dominated by vast expanses of sheltering forests. Dozens or hundreds of feet above the forest floor, clever dwellings dot the boughs and trunks, connected by walkways and rope bridges. These are the villages of clan Tanchyo. Living in the canopy, every member of clan Tanchyo has become an expert climber and marksman, as there is no better way to protect their tree-top homes. The archers of the Tanchyo, the Yajiri, are both plentiful and exceptionally skilled.');
 insert into Characters (CardIndex) VALUES (1116); 
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1019, 2); --Emerald
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (720, 2); --Emerald
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (1019,
+VALUES (720,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Tanchyo/Standies/Clan_Tanchyo_Yajiri_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Tanchyo/Standies/Clan_Tanchyo_Yajiri_2.0_back.png', 
 'Either', 'Small', 'Tanchyo', 7, 2, '2B', '0ST', '2B', '2B', 2, 0);
@@ -839,7 +839,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (615
 
 
 --Clan Tora
---Tora Madoushi --CardIndex 1117 --CharacterIndex 1020 --ExploreCharacterIndex 616
+--Tora Madoushi --CardIndex 1117 --CharacterIndex 721 --ExploreCharacterIndex 616
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Tora Madoushi',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Tora/Card_Warband_Clan_Tora_Madoushi_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Tora/Card_Warband_Clan_Tora_Madoushi_2.0_back.png', 
@@ -847,9 +847,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'The path of the Madoushi is more than just elemental magics, Madoushi of the Tora employ all manner of alchemy and blacksmith techniques in creating imbued weapons and destructive explosives in addition to their mastery of fire.');
 insert into Characters (CardIndex) VALUES (1117); 
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1020, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (721, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (1020,
+VALUES (721,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Tora/Standies/Clan_Tora_Madoushi_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Tora/Standies/Clan_Tora_Madoushi_2.0_back.png', 
 'Masculine', 'Small', 'Tora Spawning Point', 2, 1, '3B', '1ST', '1B', '3B', 3, 0);
@@ -862,7 +862,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (616, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (616, 'Spawning Point', 'Start', 3);
 
---Tora Kaiken --CardIndex 1118 --CharacterIndex 1021 --ExploreCharacterIndex 617
+--Tora Kaiken --CardIndex 1118 --CharacterIndex 722 --ExploreCharacterIndex 617
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Tora Kaiken',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Tora/Card_Warband_Clan_Tora_Kaiken_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Tora/Card_Warband_Clan_Tora_Kaiken_2.0_back.png', 
@@ -870,9 +870,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Summoning the spirit of the tiger, the ninja of the Tora clan are ferocious and cunning. Beware their wrath. They find thrill in the fight, always rising up the challenge of their rivals.');
 insert into Characters (CardIndex) VALUES (1118); 
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1021, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (722, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (1021,
+VALUES (722,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Tora/Standies/Clan_Tora_Kaiken_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Tora/Standies/Clan_Tora_Kaiken_2.0_back.png', 
 'Masculine', 'Small', 'Tora', 5, 2, '3B', '1ST', '1B', '3B', 2, 0);
@@ -881,7 +881,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (617, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (617, 'Minion', '8 Bit', 2);
 
---Tora Kunoichi --CardIndex 1119 --CharacterIndex 1022 --ExploreCharacterIndex 618
+--Tora Kunoichi --CardIndex 1119 --CharacterIndex 723 --ExploreCharacterIndex 618
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Tora Kunoichi',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Tora/Card_Warband_Clan_Tora_Kunoichi_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Tora/Card_Warband_Clan_Tora_Kunoichi_2.0_back.png', 
@@ -889,9 +889,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'With so much mineral wealth to protect, the Tora employ their kunoichi as advance scouts when on campaign, and often amongst the villagers, dressed as common travellers or merchants to keep their eyes out for threats.');
 insert into Characters (CardIndex) VALUES (1119);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1022, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (723, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (1022,
+VALUES (723,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Tora/Standies/Clan_Tora_Kunoichi_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Tora/Standies/Clan_Tora_Kunoichi_2.0_back.png', 
 'Feminine', 'Small', 'Tora', 5, 2, '3B', '1ST', '2B', '2R', 2, 0);
@@ -903,7 +903,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (618, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (618, 'Minion', '8 Bit', 2);
 
---Tora Oni --CardIndex 1120 --CharacterIndex 1023 --ExploreCharacterIndex 619
+--Tora Oni --CardIndex 1120 --CharacterIndex 724 --ExploreCharacterIndex 619
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Tora Oni',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Tora/Card_Warband_Clan_Tora_Oni_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Tora/Card_Warband_Clan_Tora_Oni_2.0_back.png', 
@@ -911,9 +911,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Encased in solid steel and iron, the Tora value the giant guardians that join their fights. It is best to be well out of the way should one of these monsters find its way to you. Arrows and spears break harmlessly off their iron flanks as they wade into battle.');
 insert into Characters (CardIndex) VALUES (1120); 
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1023, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (724, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (1023,
+VALUES (724,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Tora/Standies/Clan_Tora_Oni_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Tora/Standies/Clan_Tora_Oni_2.0_back.png', 
 'Either', 'Large', 'Tora', 5, 3, '1B 2R', '2B 1R', '1B', '3B', 3, 0);
@@ -926,7 +926,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (619, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (619, 'Elite', '16 Bit', 3); 
 
---Tora Yajiri --CardIndex 1121 --CharacterIndex 1024 --ExploreCharacterIndex 620
+--Tora Yajiri --CardIndex 1121 --CharacterIndex 725 --ExploreCharacterIndex 620
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Tora Yajiri',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Tora/Card_Warband_Clan_Tora_Yajiri_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Tora/Card_Warband_Clan_Tora_Yajiri_2.0_back.png', 
@@ -934,9 +934,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Though other clans follow the traditional arts of the bow in their own way, the Yajiri of the Tora lean on their clans chemists and their masterwork teppo, long iron weapons that can spit fire and shot. The smoke and damage is more pleasing to the Tora''s way of war.');
 insert into Characters (CardIndex) VALUES (1121); 
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1024, 2); --Emerald
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (725, 2); --Emerald
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (1024,
+VALUES (725,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Tora/Standies/Clan_Tora_Yajiri_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Tora/Standies/Clan_Tora_Yajiri_2.0_back.png', 
 'Either', 'Small', 'Tora', 5, 2, '3B', '0ST', '1B', '3B', 1, 0);
@@ -949,7 +949,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (620
 
 
 --Clan Void Shrine
---Elemental Shrine --CardIndex 1122 --CharacterIndex 1025 --ExploreCharacterIndex 621
+--Elemental Shrine --CardIndex 1122 --CharacterIndex 726 --ExploreCharacterIndex 621
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Elemental Shrine',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Void_Shrine/Card_Warband_Clan_Void_Shrine_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Void_Shrine/Card_Warband_Clan_Void_Shrine_2.0_back.png', 
@@ -957,9 +957,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 '');
 insert into Characters (CardIndex) VALUES (1122); 
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1025, 3); --Ruby
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (726, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (1025,
+VALUES (726,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Void_Shrine/Standies/Clan_Void_Shrine_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Void_Shrine/Standies/Clan_Void_Shrine_2.0_back.png', 
 'Neither', 'Large', 'Paired Spawning Point', 0, 0, '', '1ST', '', '', 4, 0);
@@ -971,7 +971,7 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (621
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (621, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (621, 'Start', 'Spawning Point', 0);
 
---Chunin --CardIndex 1123 --CharacterIndex 1026 --ExploreCharacterIndex 622
+--Chunin --CardIndex 1123 --CharacterIndex 727 --ExploreCharacterIndex 622
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Chunin',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Void_Shrine/Card_Warband_Clan_Void_Shrine_Chunin_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Void_Shrine/Card_Warband_Clan_Void_Shrine_Chunin_2.0_back.png', 
@@ -979,9 +979,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Aspiring leaders and skilled fighters within the clan are called upon to lead their own team of ninja as chunin. This is an incredible honor, and the trials to come will not only test a chunin''s leadership and skills, but their spirit as well.');
 insert into Characters (CardIndex) VALUES (1123); 
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1026, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (727, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (1026,
+VALUES (727,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Void_Shrine/Standies/Clan_Void_Shrine_Chunin_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Void_Shrine/Standies/Clan_Void_Shrine_Chunin_2.0_back.png', 
 'Masculine', 'Small', 'Ninja', 6, 3, '2B 1R', '3B', '3B', '3B', 3, 0);
@@ -994,7 +994,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (622, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (622, 'Elite', '16 Bit', 2);
 
---Kaiken --CardIndex 1124 --CharacterIndex 1027 --ExploreCharacterIndex 623
+--Kaiken --CardIndex 1124 --CharacterIndex 728 --ExploreCharacterIndex 623
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Kaiken',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Void_Shrine/Card_Warband_Clan_Void_Shrine_Kaiken_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Void_Shrine/Card_Warband_Clan_Void_Shrine_Kaiken_2.0_back.png', 
@@ -1002,9 +1002,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Kaiken are the backbone of the clans. To be a kaiken is not to be relegated to a basic or low role. Training to become a kaiken starts from birth and is ingrained through hardship, conditioning, and trials that normal people could not withstand. Kaiken are masters of the art of stealth, the sword, and the shuriken. As their experience grows, they learn to tap elemental magic, unlocking potent abilities to rival even the great Heroes.');
 insert into Characters (CardIndex) VALUES (1124); 
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1027, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (728, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (1027,
+VALUES (728,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Void_Shrine/Standies/Clan_Void_Shrine_Kaiken_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Void_Shrine/Standies/Clan_Void_Shrine_Kaiken_2.0_back.png', 
 'Masculine', 'Small', 'Ninja', 6, 1, '3B', '1ST', '2B', '3B', 1, 0);
@@ -1015,7 +1015,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (623, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (623, 'Minion', '8 Bit', 1);
 
---Kunoichi --CardIndex 1125 --CharacterIndex 1028 --ExploreCharacterIndex 624
+--Kunoichi --CardIndex 1125 --CharacterIndex 729 --ExploreCharacterIndex 624
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Kunoichi',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Void_Shrine/Card_Warband_Clan_Void_Shrine_Kunoichi_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Void_Shrine/Card_Warband_Clan_Void_Shrine_Kunoichi_2.0_back.png', 
@@ -1023,9 +1023,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Kunoichi are specialized female fighters and scouts for the clans. Though deadly and widely trained in the ninja arts, the kunoichi put particular emphasis on speed and agility. In battle, kunoichi focus on key mission objectives such as scouting targets and carrying vital missives.');
 insert into Characters (CardIndex) VALUES (1125);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1028, 2); --Emerald
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (729, 2); --Emerald
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (1028,
+VALUES (729,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Void_Shrine/Standies/Clan_Void_Shrine_Kunoichi_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Void_Shrine/Standies/Clan_Void_Shrine_Kunoichi_2.0_back.png', 
 'Feminine', 'Small', 'Ninja', 8, 1, '3B', '0ST', '1B 1R', '2R', 1, 0);
@@ -1037,7 +1037,7 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (6
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (624, 4); --Dex
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (624, 'Elite', '8 Bit', 1);
 
---Madoushi --CardIndex 1126 --CharacterIndex 1029 --ExploreCharacterIndex 625
+--Madoushi --CardIndex 1126 --CharacterIndex 730 --ExploreCharacterIndex 625
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Madoushi',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Void_Shrine/Card_Warband_Clan_Void_Shrine_Madoushi_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Void_Shrine/Card_Warband_Clan_Void_Shrine_Madoushi_2.0_back.png', 
@@ -1045,9 +1045,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'All clans possess the mystics known as madoushi. In some clans, they are revered as sages, alchemists and healers. Other clans regard them as witches, and tolerate them with barely concealed mistrust and fear. Whether they are revered or reviled, all madoushi are able to harness the powers native to the lands of their clan. With training, study, and meditation, a madoushi learns to draw from the lines of Ki that race through the landscape, summoning the very elements to do their bidding.');
 insert into Characters (CardIndex) VALUES (1126); 
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1029, 3); --Ruby
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (730, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (1029,
+VALUES (730,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Void_Shrine/Standies/Clan_Void_Shrine_Madoushi_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Void_Shrine/Standies/Clan_Void_Shrine_Madoushi_2.0_back.png', 
 'Masculine', 'Small', 'Ninja', 6, 2, '2B', '1ST', '2R', '3B', 2, 0);
@@ -1062,7 +1062,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (625, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (625, 'Elite', '8 Bit', 2);
 
---Yajiri --CardIndex 1127 --CharacterIndex 1030 --ExploreCharacterIndex 626
+--Yajiri --CardIndex 1127 --CharacterIndex 731 --ExploreCharacterIndex 626
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Yajiri',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Void_Shrine/Card_Warband_Clan_Void_Shrine_Yajiri_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Void_Shrine/Card_Warband_Clan_Void_Shrine_Yajiri_2.0_back.png', 
@@ -1070,9 +1070,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Yajiri specialize in attacking from afar. Their black shafted arrows are renowned for striking with deadly accuracy. While the bow is utilized throughout all the clans, many have developed their own unique forms of ranged warfare. The Kitsune''s blowguns eliminate sentries with only the sound of a silent rush of wind to mark their use; while the thunder of the Tora''s rifle sows confusion among the enemy ranks, even as it wreaks terrible devastation. No matter the form it takes, a yajiri''s value to their clan cannot be underestimated.');
 insert into Characters (CardIndex) VALUES (1127); 
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1030, 2); --Emerald
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (731, 2); --Emerald
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (1030,
+VALUES (731,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Void_Shrine/Standies/Clan_Void_Shrine_Yajiri_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Void_Shrine/Standies/Clan_Void_Shrine_Yajiri_2.0_back.png', 
 'Masculine', 'Small', 'Ninja', 6, 1, '2B', '0ST', '2B', '3B', 1, 0);
@@ -1085,7 +1085,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (626
 
 
 --Clan Water Shrine
---Elemental Shrine --CardIndex 1128 --CharacterIndex 1031 --ExploreCharacterIndex 627
+--Elemental Shrine --CardIndex 1128 --CharacterIndex 732 --ExploreCharacterIndex 627
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Elemental Shrine',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Water_Shrine/Card_Warband_Clan_Water_Shrine_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Water_Shrine/Card_Warband_Clan_Water_Shrine_2.0_back.png', 
@@ -1093,9 +1093,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 '');
 insert into Characters (CardIndex) VALUES (1128); 
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1031, 3); --Ruby
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (732, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (1031,
+VALUES (732,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Water_Shrine/Standies/Clan_Water_Shrine_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Water_Shrine/Standies/Clan_Water_Shrine_2.0_back.png', 
 'Neither', 'Large', 'Paired Spawning Point', 0, 0, '', '1ST', '', '', 4, 0);
@@ -1107,7 +1107,7 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (627
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (627, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (627, 'Start', 'Spawning Point', 0);
 
---Chunin --CardIndex 1129 --CharacterIndex 1032 --ExploreCharacterIndex 628
+--Chunin --CardIndex 1129 --CharacterIndex 733 --ExploreCharacterIndex 628
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Chunin',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Water_Shrine/Card_Warband_Clan_Water_Shrine_Chunin_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Water_Shrine/Card_Warband_Clan_Water_Shrine_Chunin_2.0_back.png', 
@@ -1115,9 +1115,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Aspiring leaders and skilled fighters within the clan are called upon to lead their own team of ninja as chunin. This is an incredible honor, and the trials to come will not only test a chunin''s leadership and skills, but their spirit as well.');
 insert into Characters (CardIndex) VALUES (1129); 
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1032, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (733, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (1032,
+VALUES (733,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Water_Shrine/Standies/Clan_Water_Shrine_Chunin_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Water_Shrine/Standies/Clan_Water_Shrine_Chunin_2.0_back.png', 
 'Masculine', 'Small', 'Ninja', 6, 3, '2B 1R', '3B', '3B', '3B', 3, 0);
@@ -1130,7 +1130,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (628, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (628, 'Elite', '16 Bit', 2);
 
---Kaiken --CardIndex 1130 --CharacterIndex 1033 --ExploreCharacterIndex 629
+--Kaiken --CardIndex 1130 --CharacterIndex 734 --ExploreCharacterIndex 629
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Kaiken',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Water_Shrine/Card_Warband_Clan_Water_Shrine_Kaiken_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Water_Shrine/Card_Warband_Clan_Water_Shrine_Kaiken_2.0_back.png', 
@@ -1138,9 +1138,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Kaiken are the backbone of the clans. To be a kaiken is not to be relegated to a basic or low role. Training to become a kaiken starts from birth and is ingrained through hardship, conditioning, and trials that normal people could not withstand. Kaiken are masters of the art of stealth, the sword, and the shuriken. As their experience grows, they learn to tap elemental magic, unlocking potent abilities to rival even the great Heroes.');
 insert into Characters (CardIndex) VALUES (1130); 
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1033, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (734, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (1033,
+VALUES (734,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Water_Shrine/Standies/Clan_Water_Shrine_Kaiken_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Water_Shrine/Standies/Clan_Water_Shrine_Kaiken_2.0_back.png', 
 'Masculine', 'Small', 'Ninja', 6, 1, '3B', '1ST', '2B', '3B', 1, 0);
@@ -1151,7 +1151,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (629, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (629, 'Minion', '8 Bit', 1);
 
---Kunoichi --CardIndex 1131 --CharacterIndex 1034 --ExploreCharacterIndex 630
+--Kunoichi --CardIndex 1131 --CharacterIndex 735 --ExploreCharacterIndex 630
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Kunoichi',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Water_Shrine/Card_Warband_Clan_Water_Shrine_Kunoichi_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Water_Shrine/Card_Warband_Clan_Water_Shrine_Kunoichi_2.0_back.png', 
@@ -1159,9 +1159,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Kunoichi are specialized female fighters and scouts for the clans. Though deadly and widely trained in the ninja arts, the kunoichi put particular emphasis on speed and agility. In battle, kunoichi focus on key mission objectives such as scouting targets and carrying vital missives.');
 insert into Characters (CardIndex) VALUES (1131);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1034, 2); --Emerald
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (735, 2); --Emerald
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (1034,
+VALUES (735,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Water_Shrine/Standies/Clan_Water_Shrine_Kunoichi_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Water_Shrine/Standies/Clan_Water_Shrine_Kunoichi_2.0_back.png', 
 'Feminine', 'Small', 'Ninja', 8, 1, '3B', '0ST', '1B 1R', '2R', 1, 0);
@@ -1173,7 +1173,7 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (6
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (630, 4); --Dex
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (630, 'Elite', '8 Bit', 1);
 
---Madoushi --CardIndex 1132 --CharacterIndex 1035 --ExploreCharacterIndex 631
+--Madoushi --CardIndex 1132 --CharacterIndex 736 --ExploreCharacterIndex 631
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Madoushi',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Water_Shrine/Card_Warband_Clan_Water_Shrine_Madoushi_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Water_Shrine/Card_Warband_Clan_Water_Shrine_Madoushi_2.0_back.png', 
@@ -1181,9 +1181,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'All clans possess the mystics known as madoushi. In some clans, they are revered as sages, alchemists and healers. Other clans regard them as witches, and tolerate them with barely concealed mistrust and fear. Whether they are revered or reviled, all madoushi are able to harness the powers native to the lands of their clan. With training, study, and meditation, a madoushi learns to draw from the lines of Ki that race through the landscape, summoning the very elements to do their bidding.');
 insert into Characters (CardIndex) VALUES (1132); 
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1035, 3); --Ruby
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (736, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (1035,
+VALUES (736,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Water_Shrine/Standies/Clan_Water_Shrine_Madoushi_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Water_Shrine/Standies/Clan_Water_Shrine_Madoushi_2.0_back.png', 
 'Masculine', 'Small', 'Ninja', 6, 2, '2B', '1ST', '2R', '3B', 2, 0);
@@ -1198,7 +1198,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (631, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (631, 'Elite', '8 Bit', 2);
 
---Yajiri --CardIndex 1133 --CharacterIndex 1036 --ExploreCharacterIndex 632
+--Yajiri --CardIndex 1133 --CharacterIndex 737 --ExploreCharacterIndex 632
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Yajiri',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Water_Shrine/Card_Warband_Clan_Water_Shrine_Yajiri_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Water_Shrine/Card_Warband_Clan_Water_Shrine_Yajiri_2.0_back.png', 
@@ -1206,9 +1206,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Yajiri specialize in attacking from afar. Their black shafted arrows are renowned for striking with deadly accuracy. While the bow is utilized throughout all the clans, many have developed their own unique forms of ranged warfare. The Kitsune''s blowguns eliminate sentries with only the sound of a silent rush of wind to mark their use; while the thunder of the Tora''s rifle sows confusion among the enemy ranks, even as it wreaks terrible devastation. No matter the form it takes, a yajiri''s value to their clan cannot be underestimated.');
 insert into Characters (CardIndex) VALUES (1133); 
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1036, 2); --Emerald
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (737, 2); --Emerald
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (1036,
+VALUES (737,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Water_Shrine/Standies/Clan_Water_Shrine_Yajiri_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Water_Shrine/Standies/Clan_Water_Shrine_Yajiri_2.0_back.png', 
 'Masculine', 'Small', 'Ninja', 6, 1, '2B', '0ST', '2B', '3B', 1, 0);
@@ -1221,7 +1221,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (632
 
 
 --Clan Yamazaru
---Yamazaru Madoushi --CardIndex 1134 --CharacterIndex 1037 --ExploreCharacterIndex 633
+--Yamazaru Madoushi --CardIndex 1134 --CharacterIndex 738 --ExploreCharacterIndex 633
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Yamazaru Madoushi',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Yamazaru/Card_Warband_Clan_Yamazaru_Madoushi_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Yamazaru/Card_Warband_Clan_Yamazaru_Madoushi_2.0_back.png', 
@@ -1229,9 +1229,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 '');
 insert into Characters (CardIndex) VALUES (1134); 
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1037, 3); --Ruby
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (738, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (1037,
+VALUES (738,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Yamazaru/Standies/Clan_Yamazaru_Madoushi_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Yamazaru/Standies/Clan_Yamazaru_Madoushi_2.0_back.png', 
 'Masculine', 'Small', 'Yamazaru Spawning Point', 2, 1, '2B', '1ST', '3B', '2B', 3, 0);
@@ -1244,7 +1244,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (633, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (633, 'Spawning Point', 'Start', 3);
 
---Yamazaru Kaiken --CardIndex 1135 --CharacterIndex 1038 --ExploreCharacterIndex 634
+--Yamazaru Kaiken --CardIndex 1135 --CharacterIndex 739 --ExploreCharacterIndex 634
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Yamazaru Kaiken',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Yamazaru/Card_Warband_Clan_Yamazaru_Kaiken_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Yamazaru/Card_Warband_Clan_Yamazaru_Kaiken_2.0_back.png', 
@@ -1252,9 +1252,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'While the Yamazaru value stoicism and hard-edged practicality as survival traits, they see the harsh cold of their mountain homes as good reason to be warm and open in their lives. The weather often limits travel, forcing clan members to live closely with others. They gleefully play pranks, engaging in "wars of smiles" with neighboring villages. This gives the Yamazaru kaiken who fight side by side a warm bond rarely seen in the other clans.');
 insert into Characters (CardIndex) VALUES (1135); 
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1038, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (739, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (1038,
+VALUES (739,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Yamazaru/Standies/Clan_Yamazaru_Kaiken_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Yamazaru/Standies/Clan_Yamazaru_Kaiken_2.0_back.png', 
 'Masculine', 'Small', 'Yamazaru', 7, 1, '3B', '1ST', '2B', '3B', 1, 0);
@@ -1265,7 +1265,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (634, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (634, 'Minion', '8 Bit', 1);
 
---Yamazaru Kunoichi --CardIndex 1136 --CharacterIndex 1039 --ExploreCharacterIndex 635
+--Yamazaru Kunoichi --CardIndex 1136 --CharacterIndex 740 --ExploreCharacterIndex 635
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Yamazaru Kunoichi',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Yamazaru/Card_Warband_Clan_Yamazaru_Kunoichi_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Yamazaru/Card_Warband_Clan_Yamazaru_Kunoichi_2.0_back.png', 
@@ -1273,10 +1273,10 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Yamazaru warriors are famous for unmatched feets of natural stamina. They engage in an activity called "catching snow" where they stand completely still for days. They swim wide mountain lakes without coming up for air. And many engage in the ritual called "The Mountain Sees" where they test their spiritual endurance in the treacherous mountain peaks. The Yamazaru kunoichi have mastered all of these feets.');
 insert into Characters (CardIndex) VALUES (1136);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1039, 1); --Citrine
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1039, 2); --Emerald
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (740, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (740, 2); --Emerald
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (1039,
+VALUES (740,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Yamazaru/Standies/Clan_Yamazaru_Kunoichi_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Yamazaru/Standies/Clan_Yamazaru_Kunoichi_2.0_back.png', 
 'Feminine', 'Small', 'Yamazaru', 7, 1, '3B', '0ST', '3B', '3B', 1, 0);
@@ -1290,7 +1290,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (635, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (635, 'Minion', '8 Bit', 1);
 
---Yamazaru Oni --CardIndex 1137 --CharacterIndex 1040 --ExploreCharacterIndex 636
+--Yamazaru Oni --CardIndex 1137 --CharacterIndex 741 --ExploreCharacterIndex 636
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Yamazaru Oni',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Yamazaru/Card_Warband_Clan_Yamazaru_Oni_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Yamazaru/Card_Warband_Clan_Yamazaru_Oni_2.0_back.png', 
@@ -1298,9 +1298,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'The Yamazaru have rich spiritual lives which has granted them an intimate connection with their mountain home and the creatures that dwell there. The mighty monkey oni are fierce companions of the Yamazaru, defending them in times of danger and playfully playing tricks on them during times of peace.');
 insert into Characters (CardIndex) VALUES (1137); 
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1040, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (741, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (1040,
+VALUES (741,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Yamazaru/Standies/Clan_Yamazaru_Oni_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Yamazaru/Standies/Clan_Yamazaru_Oni_2.0_back.png', 
 'Either', 'Large', 'Yamazaru', 7, 4, '2B 1R', '2B 1R', '1B', '3B', 4, 0);
@@ -1312,7 +1312,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (636, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (636, 'Elite', '16 Bit', 4); 
 
---Yamazaru Yajiri --CardIndex 1138 --CharacterIndex 1041 --ExploreCharacterIndex 637
+--Yamazaru Yajiri --CardIndex 1138 --CharacterIndex 742 --ExploreCharacterIndex 637
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Yamazaru Yajiri',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Yamazaru/Card_Warband_Clan_Yamazaru_Yajiri_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Yamazaru/Card_Warband_Clan_Yamazaru_Yajiri_2.0_back.png', 
@@ -1320,9 +1320,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 '');
 insert into Characters (CardIndex) VALUES (1138); 
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1041, 2); --Emerald
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (742, 2); --Emerald
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (1041,
+VALUES (742,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Yamazaru/Standies/Clan_Yamazaru_Yajiri_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Yamazaru/Standies/Clan_Yamazaru_Yajiri_2.0_back.png', 
 'Either', 'Small', 'Yamazaru', 7, 1, '3B', '1ST', '2B', '3B', 1, 0);
@@ -1336,7 +1336,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (637
 
 
 --Clan Yurei
---Yurei Madouchi --CardIndex 1139 --CharacterIndex 1042 --ExploreCharacterIndex 638
+--Yurei Madouchi --CardIndex 1139 --CharacterIndex 743 --ExploreCharacterIndex 638
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Yurei Madoushi',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Yurei/Card_Warband_Clan_Yurei_Madoushi_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Yurei/Card_Warband_Clan_Yurei_Madoushi_2.0_back.png', 
@@ -1344,9 +1344,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'It was the Yurei''s Madoushi that consigned their lords to their fate of undeath. Knowing that they would be able to fight on, even in death, they can serve their Lord and regain the honor of their clan.');
 insert into Characters (CardIndex) VALUES (1139); 
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1042, 0); --Amethyst
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (743, 0); --Amethyst
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (1042,
+VALUES (743,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Yurei/Standies/Clan_Yurei_Madoushi_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Yurei/Standies/Clan_Yurei_Madoushi_2.0_back.png', 
 'Masculine', 'Small', 'Undead Spawning Point', 1, 1, '2B', '1ST', '3B', '1B', 3, 0);
@@ -1358,7 +1358,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (638, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (638, 'Spawning Point', 'Start', 3);
 
---Yurei Kaiken --CardIndex 1140 --CharacterIndex 1043 --ExploreCharacterIndex 639
+--Yurei Kaiken --CardIndex 1140 --CharacterIndex 744 --ExploreCharacterIndex 639
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Yurei Kaiken',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Yurei/Card_Warband_Clan_Yurei_Kaiken_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Yurei/Card_Warband_Clan_Yurei_Kaiken_2.0_back.png', 
@@ -1366,9 +1366,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'The spirit that clings hardest to revenge with a cold heart can bring ruin to their enemies after their own heart stops beating. - The Tao of Fukushu');
 insert into Characters (CardIndex) VALUES (1140); 
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1043, 0); --Amethyst
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (744, 0); --Amethyst
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (1043,
+VALUES (744,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Yurei/Standies/Clan_Yurei_Kaiken_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Yurei/Standies/Clan_Yurei_Kaiken_2.0_back.png', 
 'Masculine', 'Small', 'Undead', 4, 1, '3B', '1ST', '3B', '1B', 1, 0);
@@ -1379,7 +1379,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (639, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (639, 'Minion', '8 Bit', 1);
 
---Yurei Kunoichi --CardIndex 1141 --CharacterIndex 1044 --ExploreCharacterIndex 640
+--Yurei Kunoichi --CardIndex 1141 --CharacterIndex 745 --ExploreCharacterIndex 640
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Yurei Kunoichi',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Yurei/Card_Warband_Clan_Yurei_Kunoichi_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Yurei/Card_Warband_Clan_Yurei_Kunoichi_2.0_back.png', 
@@ -1387,9 +1387,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Far ranging from the dread fleets, coastline scouts of the Ika often warn of floating jetsam. Bodies entangled in the nets and old wood might just be agents of the Yurei lying in wait to drag more of their sworn enemy into the watery depths.');
 insert into Characters (CardIndex) VALUES (1141);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1044, 0); --Amethyst
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (745, 0); --Amethyst
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (1044,
+VALUES (745,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Yurei/Standies/Clan_Yurei_Kunoichi_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Yurei/Standies/Clan_Yurei_Kunoichi_2.0_back.png', 
 'Feminine', 'Small', 'Undead', 4, 2, '2R', '2R', '3B', '3B', 2, 0);
@@ -1402,7 +1402,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (640, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (640, 'Minion', '16 Bit', 2);
 
---Yurei Yajiri --CardIndex 1142 --CharacterIndex 1045 --ExploreCharacterIndex 641
+--Yurei Yajiri --CardIndex 1142 --CharacterIndex 746 --ExploreCharacterIndex 641
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Yurei Yajiri',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Yurei/Card_Warband_Clan_Yurei_Yajiri_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Yurei/Card_Warband_Clan_Yurei_Yajiri_2.0_back.png', 
@@ -1410,9 +1410,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Vengeance guide my black arrows, pierce the hearts of the warm and the living, bring me the victory over my enemies stolen from me in life. - unknown Yurei Yajiri');
 insert into Characters (CardIndex) VALUES (1142); 
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1045, 0); --Amethyst
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (746, 0); --Amethyst
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (1045,
+VALUES (746,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Yurei/Standies/Clan_Yurei_Yajiri_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Yurei/Standies/Clan_Yurei_Yajiri_2.0_back.png', 
 'Either', 'Small', 'Undead', 4, 1, '1B', '0ST', '3B', '3B', 1, 0);
@@ -1423,7 +1423,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (641
 
 
 --Cold Eggs
---Cold Eggs --CardIndex 1143 --CharacterIndex 1046 --ExploreCharacterIndex 642
+--Cold Eggs --CardIndex 1143 --CharacterIndex 747 --ExploreCharacterIndex 642
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Cold Eggs',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Cold_Eggs/Card_Warband_Cold_Eggs_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Cold_Eggs/Card_Warband_Cold_Eggs_2.0_back.png', 
@@ -1431,9 +1431,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'The drakes of the Frostbyte Reach plague the frozen caverns, ruins, and forests of that frigid land. Utterly in the thrall of the Sapphire Dragon, Hoarfang, the drakes share his mercurial behavior. Many dwarven holds have even "tamed" clutches of drakes to serve as companions and hunting beasts. However, they must always be on guard for it is not uncommon for a clutch of drakes to suddenly turn upon their allies should the mood strike them.');
 insert into Characters (CardIndex) VALUES (1143); 
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1046, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (747, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (1046,
+VALUES (747,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Cold_Eggs/Standies/Cold_Eggs_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Cold_Eggs/Standies/Cold_Eggs_2.0_back.png', 
 'Neither', 'Small', 'Spawning Point', 0, 0, '', '1ST', '', '', 3, 0);
@@ -1443,7 +1443,7 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (642
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (642, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (642, 'Spawning Point', 'Start', 0);
 
---Frostbyte Hatchlings --CardIndex 1144 --CharacterIndex 1047 --ExploreCharacterIndex 643
+--Frostbyte Hatchlings --CardIndex 1144 --CharacterIndex 748 --ExploreCharacterIndex 643
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Frostbyte Hatchlings',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Cold_Eggs/Card_Warband_Cold_Eggs_Frostbyte_Hatchlings_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Cold_Eggs/Card_Warband_Cold_Eggs_Frostbyte_Hatchlings_2.0_back.png', 
@@ -1451,9 +1451,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Hatchlings have a difficult time surviving in the barren landscape of the Frostbyte Reach. Most eek out a meager existence feeding upon the frozen remains of those felled by the more vicious monsters that stalk the reach.');
 insert into Characters (CardIndex) VALUES (1144);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1047, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (748, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (1047,
+VALUES (748,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Cold_Eggs/Standies/Frostbyte_Hatchlings_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Cold_Eggs/Standies/Frostbyte_Hatchlings_2.0_back.png', 
 'Either', 'Small', 'Drake', 6, 2, '3B', '0ST', '2B', '3B', 2, 0);
@@ -1462,7 +1462,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (643, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (643, 'Minion', '8 Bit', 1);
 
---Frostbyte Whelp --CardIndex 1145 --CharacterIndex 1048 --ExploreCharacterIndex 644
+--Frostbyte Whelp --CardIndex 1145 --CharacterIndex 749 --ExploreCharacterIndex 644
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Frostbyte Whelp',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Cold_Eggs/Card_Warband_Cold_Eggs_Frostbyte_Whelp_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Cold_Eggs/Card_Warband_Cold_Eggs_Frostbyte_Whelp_2.0_back.png', 
@@ -1470,9 +1470,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Whelps hunt in roving packs, savaging the wilderness of anything remotely edible. Remarkably intelligent, many whelps hover around the outskirts of dwarven and freyjan civilizations, feeding off scraps, and occasionally allowing themselves to become partially domesticated in return for regular feedings.');
 insert into Characters (CardIndex) VALUES (1145); 
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1048, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (749, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (1048,
+VALUES (749,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Cold_Eggs/Standies/Frostbyte_Whelp_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Cold_Eggs/Standies/Frostbyte_Whelp_2.0_back.png', 
 'Either', 'Large', 'Drake', 6, 1, '2B 1R', '1ST', '3B', '3B', 1, 0);
@@ -1482,7 +1482,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (644, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (644, 'Minion', '8 Bit', 1);
 
---Frostbyte Wyrmling --CardIndex 1146 --CharacterIndex 1049 --ExploreCharacterIndex 645
+--Frostbyte Wyrmling --CardIndex 1146 --CharacterIndex 750 --ExploreCharacterIndex 645
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Frostbyte Wyrmling',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Cold_Eggs/Card_Warband_Cold_Eggs_Frostbyte_Wyrmling_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Cold_Eggs/Card_Warband_Cold_Eggs_Frostbyte_Wyrmling_2.0_back.png', 
@@ -1490,9 +1490,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Wyrmlings swoop and soar upon the bitterly cold winds that sweep through the Frostbyte Reach. Their chirruping cries carry on the wind and are regarded by the orc tribes as signs of good favor and battles soon to come.');
 insert into Characters (CardIndex) VALUES (1146); 
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1049, 4); --Sapphire
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (750, 4); --Sapphire
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (1049,
+VALUES (750,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Cold_Eggs/Standies/Frostbyte_Wyrmling_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Cold_Eggs/Standies/Frostbyte_Wyrmling_2.0_back.png', 
 'Either', 'Small', 'Drake', 6, 2, '2B 1R', '1ST', '3B', '3B', 2, 0);
@@ -1508,7 +1508,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (645
 
 
 --Corrupted Harvest
---Corrupted Harvest --CardIndex 1147 --CharacterIndex 1050 --ExploreCharacterIndex 646
+--Corrupted Harvest --CardIndex 1147 --CharacterIndex 751 --ExploreCharacterIndex 646
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Corrupted Harvest',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Corrupted_Harvest/Card_Warband_Corrupted_Harvest_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Corrupted_Harvest/Card_Warband_Corrupted_Harvest_2.0_back.png', 
@@ -1516,9 +1516,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'While most villagers are justifiably a superstitious bunch. It does not help when agents of the Dark Consul make their way into the farmlands to wreak chaos and havoc. Many of the rural denizens have become "fed-up" with their field''s strawmen jumping down from the stilts to terrorize the locals.');
 insert into Characters (CardIndex) VALUES (1147); 
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1050, 0); --Amethyst
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (751, 0); --Amethyst
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (1050,
+VALUES (751,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Corrupted_Harvest/Standies/Corrupted_Harvest_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Corrupted_Harvest/Standies/Corrupted_Harvest_2.0_back.png', 
 'Neither', 'Large', 'Construct Spawning Point', 0, 0, '', '1ST', '', '', 4, 0);
@@ -1529,7 +1529,7 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (646
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (646, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (646, 'Spawning Point', 'Start', 0);
 
---Crow Eater --CardIndex 1148 --CharacterIndex 1051 --ExploreCharacterIndex 647
+--Crow Eater --CardIndex 1148 --CharacterIndex 752 --ExploreCharacterIndex 647
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Crow Eater',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Corrupted_Harvest/Card_Warband_Corrupted_Harvest_Crow_Eater_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Corrupted_Harvest/Card_Warband_Corrupted_Harvest_Crow_Eater_2.0_back.png', 
@@ -1537,9 +1537,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Crow eaters, aside from their well deserved name, are usually the first to rustle themselves to life. Using rusty baling knives, they cut down their fellow strawmen and will even stitch together new friends out of whatever or whoever they find.');
 insert into Characters (CardIndex) VALUES (1148);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1051, 0); --Amethyst
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (752, 0); --Amethyst
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (1051,
+VALUES (752,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Corrupted_Harvest/Standies/Corrupted_Harvest_Crow_Eater_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Corrupted_Harvest/Standies/Corrupted_Harvest_Crow_Eater_2.0_back.png', 
 'Either', 'Small', 'Construct', 5, 3, '2R', '3B', '4B', '1B', 4, 0);
@@ -1555,7 +1555,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (647, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (647, 'Minion', '16 Bit', 3);
 
---Harvest Goon --CardIndex 1149 --CharacterIndex 1052 --ExploreCharacterIndex 648
+--Harvest Goon --CardIndex 1149 --CharacterIndex 753 --ExploreCharacterIndex 648
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Harvest Goon',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Corrupted_Harvest/Card_Warband_Corrupted_Harvest_Harvest_Goon_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Corrupted_Harvest/Card_Warband_Corrupted_Harvest_Harvest_Goon_2.0_back.png', 
@@ -1563,9 +1563,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 '"Though roughly stitched together from hay and clothes out on a drying line, this creature''s only defining feature is a limp gait, a rusty cleaver, and a sodden bag full of meal worms and hay where it''s face should be. Fire seems to do the trick, but they will quickly lurch back into  the fields while they burn up, along with the crops. Evil buggers" - Watchman Hayseed, Crystalian Militia');
 insert into Characters (CardIndex) VALUES (1149); 
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1052, 0); --Amethyst
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (753, 0); --Amethyst
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (1052,
+VALUES (753,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Corrupted_Harvest/Standies/Corrupted_Harvest_Harvest_Goon_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Corrupted_Harvest/Standies/Corrupted_Harvest_Harvest_Goon_2.0_back.png', 
 'Either', 'Small', 'Construct', 5, 1, '3B', '0ST', '0ST', '1B', 2, 0);
@@ -1575,7 +1575,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (648, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (648, 'Minion', '8 Bit', 1);
 
---Harvest Sack --CardIndex 1150 --CharacterIndex 1053 --ExploreCharacterIndex 649
+--Harvest Sack --CardIndex 1150 --CharacterIndex 754 --ExploreCharacterIndex 649
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Harvest Sack',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Corrupted_Harvest/Card_Warband_Corrupted_Harvest_Harvest_Sack_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Corrupted_Harvest/Card_Warband_Corrupted_Harvest_Harvest_Sack_2.0_back.png', 
@@ -1583,9 +1583,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Stumbling along behind the Goons, the Harvest Sacks use their long pitch forks to haul off the fallen and wounded to stitch together new friends! Gotta make hay while the moon still shines!');
 insert into Characters (CardIndex) VALUES (1150); 
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1053, 0); --Amethyst
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (754, 0); --Amethyst
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (1053,
+VALUES (754,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Corrupted_Harvest/Standies/Corrupted_Harvest_Harvest_Sack_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Corrupted_Harvest/Standies/Corrupted_Harvest_Harvest_Sack_2.0_back.png', 
 'Either', 'Small', 'Construct', 5, 2, '2R', '1B', '0ST', '1B', 2, 0);
@@ -1600,7 +1600,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (649
 
 
 --Cursed Barrow
---Cursed Barrow --CardIndex 1151 --CharacterIndex 1054 --ExploreCharacterIndex 650
+--Cursed Barrow --CardIndex 1151 --CharacterIndex 755 --ExploreCharacterIndex 650
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Cursed Barrow',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Barrow/Card_Warband_Cursed_Barrow_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Barrow/Card_Warband_Cursed_Barrow_2.0_back.png', 
@@ -1608,9 +1608,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'When Elrik doomed his Reavers to the curse of undeath, he ordered the construction of a grand and macabre hall, to house him and his new warriors, deep beneath the Frostbyte Reach. Resembling a tomb more than a palace or castle, the Hall of the Lich King sprawls for untold miles beneath the surface. The only sign of the Hall upon the surface are the burial mounds of the cursed barrows. Here, Elrik''s cursed draugr warriors take rest, ever alert for trespassing Heroes.');
 insert into Characters (CardIndex) VALUES (1151); 
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1054, 0); --Amethyst
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (755, 0); --Amethyst
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (1054,
+VALUES (755,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Barrow/Standies/Cursed_Barrow_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Barrow/Standies/Cursed_Barrow_2.0_back.png', 
 'Neither', 'Small', 'Spawning Point', 0, 0, '', '1ST', '', '', 3, 0);
@@ -1620,7 +1620,7 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (650
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (650, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (650, 'Spawning Point', 'Start', 0);
 
---Black Hand	--CardIndex 1152 --CharacterIndex 1055 --ExploreCharacterIndex 651
+--Black Hand	--CardIndex 1152 --CharacterIndex 756 --ExploreCharacterIndex 651
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Black Hand',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Barrow/Card_Warband_Cursed_Barrow_Black_Hand_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Barrow/Card_Warband_Cursed_Barrow_Black_Hand_2.0_back.png', 
@@ -1628,7 +1628,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'The Black Hand was Elrik''s trusted circle of sages, advisors, seers, and skalds. It was the Black Hand who first tapped into the shadow powers of the Dark Realm, and it was they who led Elrik upon the first step to damnation.');
 insert into Characters (CardIndex) VALUES (1152);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1055, 0); --Amethyst
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (756, 0); --Amethyst
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (1055,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Barrow/Standies/Cursed_Barrow_Black_Hand_2.0.png', 
@@ -1642,7 +1642,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (651, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (651, 'Elite', '8 Bit', 2);
 
---Draugr --CardIndex 1153 --CharacterIndex 1056 --ExploreCharacterIndex 652
+--Draugr --CardIndex 1153 --CharacterIndex 757 --ExploreCharacterIndex 652
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Draugr',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Barrow/Card_Warband_Cursed_Barrow_Draugr_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Barrow/Card_Warband_Cursed_Barrow_Draugr_2.0_back.png', 
@@ -1650,9 +1650,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Once, the Reaver tribes of the Frostbyte Reach were a scourge across all of Crystalia. Building great longships, the Reavers raided along every coastline of Crystalia. Before the rise of the Dark Consul, the tribes united under a powerful and charismatic Reaver King, Elrik. United under his rule, no town or village was safe from the Reavers'' plundering. Unbeknownst to his men, Elrik had tapped into the vile magicks of the Dark Realm to fuel his ambitions.');
 insert into Characters (CardIndex) VALUES (1153); 
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1056, 0); --Amethyst
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (757, 0); --Amethyst
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (1056,
+VALUES (757,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Barrow/Standies/Cursed_Barrow_Draugr_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Barrow/Standies/Cursed_Barrow_Draugr_2.0_back.png', 
 'Either', 'Large', 'Undead Ghoul', 6, 1, '3B', '1ST', '1B', '2B', 1, 0);
@@ -1661,7 +1661,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (652, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (652, 'Minion', '8 Bit', 1);
 
---Draugr Berserker --CardIndex 1154 --CharacterIndex 1057 --ExploreCharacterIndex 653
+--Draugr Berserker --CardIndex 1154 --CharacterIndex 758 --ExploreCharacterIndex 653
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Draugr Berserker',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Barrow/Card_Warband_Cursed_Barrow_Draugr_Berserker_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Barrow/Card_Warband_Cursed_Barrow_Draugr_Berserker_2.0_back.png', 
@@ -1669,9 +1669,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Draugr are not shambling, unthinking undead. Within each draugr lies the soul of a Reaver--a fierce, proud, and violent warrior, millennia old. In the fiercest combat the soul of a draugr can be unlocked, restoring it to its full violent fury. Blessed with the ability to feel, smell, and taste the draugr becomes a raging berserker determined to find release in one last glorious battle.');
 insert into Characters (CardIndex) VALUES (1154); 
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1057, 0); --Amethyst
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (758, 0); --Amethyst
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (1057,
+VALUES (758,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Barrow/Standies/Cursed_Barrow_Draugr_Berserker_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Barrow/Standies/Cursed_Barrow_Draugr_Berserker_2.0_back.png', 
 'Either', 'Large', 'Shapeshift', 8, 3, '4B', '1ST', '1B', '2B', 4, 0);
@@ -1684,7 +1684,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (653, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (653, 'Elite', '16 Bit', 2); 
 
---Cursed Barrow Errata  --CardIndex 1155 --CharacterIndex 1058 --ExploreCharacterIndex 654
+--Cursed Barrow Errata  --CardIndex 1155 --CharacterIndex 759 --ExploreCharacterIndex 654
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Cursed Barrow Errata',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Barrow/Card_Warband_Cursed_Barrow_Errata_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Barrow/Card_Warband_Cursed_Barrow_Errata_2.0_back.png', 
@@ -1692,9 +1692,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'When Elrik doomed his Reavers to the curse of undeath, he ordered the construction of a grand and macabre hall, to house him and his new warriors, deep beneath the Frostbyte Reach. Resembling a tomb more than a palace or castle, the Hall of the Lich King sprawls for untold miles beneath the surface. The only sign of the Hall upon the surface are the burial mounds of the cursed barrows. Here, Elrik''s cursed draugr warriors take rest, ever alert for trespassing Heroes.');
 insert into Characters (CardIndex) VALUES (1155); 
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1058, 0); --Amethyst
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (759, 0); --Amethyst
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (1058,
+VALUES (759,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Barrow/Standies/Cursed_Barrow_Errata_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Barrow/Standies/Cursed_Barrow_Errata_2.0_back.png', 
 'Neither', 'Small', 'Spawning Point', 0, 0, '', '1ST', '', '', 3, 0);
@@ -1706,7 +1706,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (654
 
 
 --Cursed Hollow
---Cursed Hollow --CardIndex 1156 --CharacterIndex 1059 --ExploreCharacterIndex 655
+--Cursed Hollow --CardIndex 1156 --CharacterIndex 760 --ExploreCharacterIndex 655
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Cursed Hollow',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Hollow/Card_Warband_Cursed_Hollow_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Hollow/Card_Warband_Cursed_Hollow_2.0_back.png', 
@@ -1716,9 +1716,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 <br><br>
 Many of these Kodama have even begun to take on aspects of the undead. Their bodies are often composed of wilting leaves, blackened vines, and twisting branches. And they will stop at nothing to heed the call of their Lord.');
 insert into Characters (CardIndex) VALUES (1156); 
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1059, 4); --Sapphire
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (760, 4); --Sapphire
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (1059,
+VALUES (760,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Hollow/Standies/Cursed_Hollow_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Hollow/Standies/Cursed_Hollow_2.0_back.png', 
 'Neither', 'Large', 'Paired Spawning Point', 0, 0, '', '1ST', '', '', 4, 0);
@@ -1727,7 +1727,7 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (655
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (655, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (655, 'Spawning Point', 'Start', 0);
 
---Bad Seed	--CardIndex 1157 --CharacterIndex 1060 --ExploreCharacterIndex 656
+--Bad Seed	--CardIndex 1157 --CharacterIndex 761 --ExploreCharacterIndex 656
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Bad Seed',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Hollow/Card_Warband_Cursed_Hollow_Bad_Seed_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Hollow/Card_Warband_Cursed_Hollow_Bad_Seed_2.0_back.png', 
@@ -1735,9 +1735,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Each spring the Deeproot Tree breathes life into countless sprouts. They travel Crystalia, settling down and blooming new life throughout the land. Most sprouts take root in fertile territory, where they can reach their full potential. But some find themselves deep in the Glauerdoom Moor. Even so, a sprout will sometimes take root in the oppressive, swampy waters and create a beacon of life and hope in that desperate and forgotten place. But all too often the sprout will be corrupted by the foul things that lurk in the moor. These corrupted sprouts are known as bad seeds, and instead of spreading life and hope, they spread death and despair. Where they take root, rot spreads and a blackened blight forms on the land.');
 insert into Characters (CardIndex) VALUES (1157);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1060, 4); --Sapphire
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (761, 4); --Sapphire
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (1060,
+VALUES (761,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Hollow/Standies/Cursed_Hollow_Bad_Seed_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Hollow/Standies/Cursed_Hollow_Bad_Seed_2.0_back.png', 
 'Either', 'Large', 'Undead Kodama', 6, 1, '1B', '2R', '3B', '1B 1R', 2, 0);
@@ -1748,7 +1748,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (656, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (656, 'Elite', '16 Bit', 1);
 
---Gloom Wisp --CardIndex 1158 --CharacterIndex 1061 --ExploreCharacterIndex 657
+--Gloom Wisp --CardIndex 1158 --CharacterIndex 762 --ExploreCharacterIndex 657
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Gloom Wisp',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Hollow/Card_Warband_Cursed_Gloom_Wisp_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Hollow/Card_Warband_Cursed_Gloom_Wisp_2.0_back.png', 
@@ -1756,9 +1756,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Wisps are shy, but have a reputation for leading travelers to safety and shelter. Those Wisps who have become corrupted by Nightsong the Eternal still lead travelers, laughing and chirping, creating the illusion of comfort. But the longer the weary traveler stays in the company of the Wisp, the more they sink into a dark despair, until they simply lay down in the blighted moor. Unable to bring themselves to seek shelter or food, these travelers wither away as the wisp laughs and plays.');
 insert into Characters (CardIndex) VALUES (1158); 
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1061, 3); --Ruby
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (762, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (1061,
+VALUES (762,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Hollow/Standies/Cursed_Gloom_Wisp_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Hollow/Standies/Cursed_Gloom_Wisp_2.0_back.png', 
 'Either', 'Large', 'Undead Kodama', 6, 2, '1B', '1ST', '2B 1R', '3B', 2, 0);
@@ -1769,7 +1769,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (657, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (657, 'Elite', '8 Bit', 2);
 
---Rotten Cabbage --CardIndex 1159 --CharacterIndex 1062 --ExploreCharacterIndex 658
+--Rotten Cabbage --CardIndex 1159 --CharacterIndex 763 --ExploreCharacterIndex 658
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Rotten Cabbage',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Hollow/Card_Warband_Cursed_Hollow_Rotten_Cabbage_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Hollow/Card_Warband_Cursed_Hollow_Rotten_Cabbage_2.0_back.png', 
@@ -1777,9 +1777,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Rotten Cabbages are corrupted Mooks. Their mischievous nature takes on an edge of cruelty. They hound their victims in packs, laughing and jeering all together at whatever malicious prank they have pulled. When they form such groups, the stench of decaying cabbage is overwhelming, becoming a weapon in itself.');
 insert into Characters (CardIndex) VALUES (1159); 
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1062, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (763, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (1062,
+VALUES (763,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Hollow/Standies/Cursed_Hollow_Rotten_Cabbage_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Hollow/Standies/Cursed_Hollow_Rotten_Cabbage_2.0_back.png', 
 'Either', 'Large', 'Undead Kodama', 6, 1, '3B', '1ST', '3B', '2B', 1, 0);
@@ -1788,7 +1788,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (658, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (658, 'Minion', '8 Bit', 1); 
 
---Spoiled Turnip  --CardIndex 1160 --CharacterIndex 1063 --ExploreCharacterIndex 659
+--Spoiled Turnip  --CardIndex 1160 --CharacterIndex 764 --ExploreCharacterIndex 659
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Spoiled Turnip',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Hollow/Card_Warband_Hollow_Spoiled_Turnip_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Hollow/Card_Warband_Hollow_Spoiled_Turnip_2.0_back.png', 
@@ -1796,9 +1796,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Turnipheads are normally difficult to sway, devoting themselves to healing sick plants. However, those that do become corrupted are consumed completely, becoming devoted to spreading blight and plague to the living. They forsake their ability to heal, instead reveling in the decay that reflects the visage of their undead lord.');
 insert into Characters (CardIndex) VALUES (1160); 
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1063, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (764, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (1063,
+VALUES (764,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Hollow/Standies/Hollow_Spoiled_Turnip_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Hollow/Standies/Hollow_Spoiled_Turnip_2.0_back.png', 
 'Neither', 'Small', 'Undead Kodama', 6, 1, '2B', '0ST', '3B', '2B 1R', 1, 0);
@@ -1809,7 +1809,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (659, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (659, 'Minion', '8 Bit', 1);
 
---Wrath Sprout  --CardIndex 1161 --CharacterIndex 1064 --ExploreCharacterIndex 660
+--Wrath Sprout  --CardIndex 1161 --CharacterIndex 765 --ExploreCharacterIndex 660
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Wrath Sprout',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Hollow/Card_Warband_Hollow_Wrath_Sprout_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Hollow/Card_Warband_Hollow_Wrath_Sprout_2.0_back.png', 
@@ -1817,9 +1817,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Those sprouts who become corrupted by the Glauerdoom Moor acquire certain tastes. The land is not fertile enough to support the rapid and grotesque growth that the plant undergoes, so it develops twisted, lashing vines that are used to draw victims to it in order to feed on their blood. This thirst cannot be quenched, and the more the more it drinks, the more it grows...');
 insert into Characters (CardIndex) VALUES (1161); 
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1064, 4); --Sapphire
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (765, 4); --Sapphire
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (1064,
+VALUES (765,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Hollow/Standies/Hollow_Wrath_Sprout_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Hollow/Standies/Hollow_Wrath_Sprout_2.0_back.png', 
 'Neither', 'Large', 'Shapeshift', 1, 3, '5B', '2R', '3B', '1B', 4, 0);
@@ -1834,7 +1834,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (660
 
 
 --Cursed Knight
---Cursed Knight --CardIndex 1162 --CharacterIndex 1065 --ExploreCharacterIndex 661
+--Cursed Knight --CardIndex 1162 --CharacterIndex 766 --ExploreCharacterIndex 661
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Cursed Knight',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Knight/Card_Warband_Cursed_Knight_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Knight/Card_Warband_Cursed_Knight_2.0_back.png', 
@@ -1842,9 +1842,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Where the Fae Wood meets the Glauerdoom Moor is a particularly dread location. Here, the trees bend and twist, the branches clasping and tearing at any who pass. Beneath these wicked boughs there are the Cursed Knights of the Moorlands. Forsaking the Forgotten King, these twisted Chimera have fallen under the thrall of the dragon Nightsong the Eternal. Vicious and brutal, they enact their undead Lord''s will with unflinching cruelty.');
 insert into Characters (CardIndex) VALUES (1162); 
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1065, 3); --Ruby
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (766, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (1065,
+VALUES (766,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Knight/Standies/Cursed_Knight_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Knight/Standies/Cursed_Knight_2.0_back.png', 
 'Neither', 'Large', 'Spawning Point', 0, 0, '', '1ST', '', '', 3, 0);
@@ -1855,7 +1855,7 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (661
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (661, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (661, 'Spawning Point', 'Start', 0);
 
---Grobbit Deathlord	--CardIndex 1163 --CharacterIndex 1066 --ExploreCharacterIndex 662
+--Grobbit Deathlord	--CardIndex 1163 --CharacterIndex 767 --ExploreCharacterIndex 662
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Grobbit Deathlord',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Knight/Card_Warband_Cursed_Knight_Grobbit_Deathlord_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Knight/Card_Warband_Cursed_Knight_Grobbit_Deathlord_2.0_back.png', 
@@ -1863,9 +1863,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Deathlords have lost all trace of their former human selves. As centuries have passed, the cursed magic which keeps them alive has degraded their minds and sharpened their appetite for cruelty. This otherness radiates from them in waves of despair, shattering foes'' resolve and even robbing the desire to flee as the Deathlord mercilessly cuts through their ranks.');
 insert into Characters (CardIndex) VALUES (1163);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1066, 3); --Ruby
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (767, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (1066,
+VALUES (767,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Knight/Standies/Cursed_Knight_Grobbit_Deathlord_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Knight/Standies/Cursed_Knight_Grobbit_Deathlord_2.0_back.png', 
 'Either', 'Large', 'Chimera', 6, 3, '2B 1R', '2B 1R', '1B', '3B', 3, 0);
@@ -1879,7 +1879,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (662, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (662, 'Elite', '16 Bit', 3);
 
---Moorland Militia --CardIndex 1164 --CharacterIndex 1067 --ExploreCharacterIndex 663
+--Moorland Militia --CardIndex 1164 --CharacterIndex 768 --ExploreCharacterIndex 663
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Moorland Militia',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Knight/Card_Warband_Cursed_Knight_Moorland_Militia_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Knight/Card_Warband_Cursed_Knight_Moorland_Militia_2.0_back.png', 
@@ -1887,9 +1887,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'The Billmen who make up the ranks of the Moorland Militia are a remarkably disciplined force. Indeed, these ruthless soldiers train relentlessly to keep themselves in peak condtiion and fighting form. It is no surprise that they take great pride in this discipline and how it elevates them above the formless mass of skeletons and zombies which they often fight alongside.');
 insert into Characters (CardIndex) VALUES (1164); 
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1067, 3); --Ruby
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (768, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (1067,
+VALUES (768,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Knight/Standies/Cursed_Knight_Moorland_Militia_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Knight/Standies/Cursed_Knight_Moorland_Militia_2.0_back.png', 
 'Either', 'Small', 'Chimera', 6, 1, '3B', '1ST', '2B', '1B 1R', 1, 0);
@@ -1898,7 +1898,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (663, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (663, 'Minion', '8 Bit', 1);
 
---Skull Squawk --CardIndex 1165 --CharacterIndex 1068 --ExploreCharacterIndex 664
+--Skull Squawk --CardIndex 1165 --CharacterIndex 769 --ExploreCharacterIndex 664
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Skull Squawk',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Knight/Card_Warband_Cursed_Knight_Skull_Squawk_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Knight/Card_Warband_Cursed_Knight_Skull_Squawk_2.0_back.png', 
@@ -1906,9 +1906,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Skull Squawk knights are a secretive bunch. In fact, there are none who can recall ever seeing one outside of their armor or sharing a single word with another. This shadowy aloofness, combined with Skull Squawks'' uncanny supernatural abilities lead many to wonder if they are truly within the realm of the living at all...');
 insert into Characters (CardIndex) VALUES (1165); 
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1068, 3); --Ruby
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (769, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (1068,
+VALUES (769,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Knight/Standies/Cursed_Knight_Skull_Squawk_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Knight/Standies/Cursed_Knight_Skull_Squawk_2.0_back.png', 
 'Either', 'Large', 'Chimera', 8, 2, '2B 1R', '2ST', '3B', '2B', 1, 0);
@@ -1921,7 +1921,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (664, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (664, 'Elite', '8 Bit', 2); 
 
---Skull Squawk Beta --CardIndex 1166 --CharacterIndex 1069 --ExploreCharacterIndex 665
+--Skull Squawk Beta --CardIndex 1166 --CharacterIndex 770 --ExploreCharacterIndex 665
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Skull Squawk Beta',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Knight/Card_Warband_Cursed_Knight_Skull_Squawk_Beta_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Knight/Card_Warband_Cursed_Knight_Skull_Squawk_Beta_2.0_back.png', 
@@ -1929,9 +1929,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Skull Squawk knights are a secretive bunch. In fact, there are none who can recall ever seeing one outside of their armor or sharing a single word with another. This shadowy aloofness, combined with Skull Squawks'' uncanny supernatural abilities lead many to wonder if they are truly within the realm of the living at all...');
 insert into Characters (CardIndex) VALUES (1166); 
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1069, 3); --Ruby
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (770, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (1069,
+VALUES (770,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Knight/Standies/Cursed_Knight_Skull_Squawk_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Knight/Standies/Cursed_Knight_Skull_Squawk_2.0_back.png', 
 'Either', 'Large', 'Chimera', 8, 2, '2B 1R', '2ST', '3B', '2B', 1, 0);
@@ -1946,7 +1946,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (665
 
 
 --Egg Clutch
---Egg Clutch --CardIndex 1167 --CharacterIndex 1070 --ExploreCharacterIndex 666
+--Egg Clutch --CardIndex 1167 --CharacterIndex 771 --ExploreCharacterIndex 666
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Egg Clutch',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Egg_Clutch/Card_Warband_Egg_Clutch_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Egg_Clutch/Card_Warband_Egg_Clutch_2.0_back.png', 
@@ -1956,9 +1956,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 <br><br>
 When hunting a dragon, Heroes inevitably have to make their way through hordes of drakes that throw themselves in the path of the Heroes. Larger whelps attempt to drag their foes to the ground, so smaller hatchlings can swarm over their helpless prey. Above, elder wyrmlings swoop and dart, spitting fire at the invaders.');
 insert into Characters (CardIndex) VALUES (1167); 
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1070, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (771, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (1070,
+VALUES (771,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Egg_Clutch/Standies/Egg_Clutch_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Egg_Clutch/Standies/Egg_Clutch_2.0_back.png', 
 'Neither', 'Small', 'Spawning Point', 0, 0, '', '1ST', '', '', 3, 0);
@@ -1968,7 +1968,7 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (666
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (666, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (666, 'Spawning Point', 'Start', 0);
 
---Hatchlings --CardIndex 1168 --CharacterIndex 1071 --ExploreCharacterIndex 667
+--Hatchlings --CardIndex 1168 --CharacterIndex 772 --ExploreCharacterIndex 667
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Hatchlings',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Egg_Clutch/Card_Warband_Egg_Clutch_Hatchlings_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Egg_Clutch/Card_Warband_Egg_Clutch_Hatchlings_2.0_back.png', 
@@ -1976,9 +1976,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Even the smallest of drakes can be a serious threat in numbers. Quick-footed, sharp-toothed, and very hungry, Hatchlings swarm over anything at their height and have made more than one quick meal of a wounded Hero.');
 insert into Characters (CardIndex) VALUES (1168);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1071, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (772, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (1071,
+VALUES (772,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Egg_Clutch/Standies/Egg_Clutch_Hatchlings_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Egg_Clutch/Standies/Egg_Clutch_Hatchlings_2.0_back.png', 
 'Either', 'Small', 'Drake', 6, 2, '3B', '0ST', '2B', '3B', 2, 0);
@@ -1987,7 +1987,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (667, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (667, 'Minion', '8 Bit', 1);
 
---Whelp --CardIndex 1169 --CharacterIndex 1072 --ExploreCharacterIndex 668
+--Whelp --CardIndex 1169 --CharacterIndex 773 --ExploreCharacterIndex 668
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Whelp',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Egg_Clutch/Card_Warband_Egg_Clutch_Whelp_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Egg_Clutch/Card_Warband_Egg_Clutch_Whelp_2.0_back.png', 
@@ -1995,9 +1995,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Still too young to grow wings, Whelps must settle for chasing down their prey to make a meal. This quickly weeds out the weakest of the clutch and ensures that only the strongest will survive.');
 insert into Characters (CardIndex) VALUES (1169); 
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1072, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (773, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (1072,
+VALUES (773,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Egg_Clutch/Standies/Egg_Clutch_Whelp_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Egg_Clutch/Standies/Egg_Clutch_Whelp_2.0_back.png', 
 'Either', 'Large', 'Drake', 6, 1, '2B 1R', '1ST', '3B', '3B', 1, 0);
@@ -2007,7 +2007,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (668, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (668, 'Minion', '8 Bit', 1);
 
---Wyrmling --CardIndex 1170 --CharacterIndex 1073 --ExploreCharacterIndex 669
+--Wyrmling --CardIndex 1170 --CharacterIndex 774 --ExploreCharacterIndex 669
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Wyrmling',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Cold_Eggs/Card_Warband_Cold_Eggs_Frostbyte_Wyrmling_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Cold_Eggs/Card_Warband_Cold_Eggs_Frostbyte_Wyrmling_2.0_back.png', 
@@ -2015,9 +2015,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Wyrmlings have so far managed to not be eaten by kin or kobold and are nearing maturity. They wheel around the caverns and their mountain hunting grounds on newly sprouted wings, feeding on foolish trespassers.');
 insert into Characters (CardIndex) VALUES (1170); 
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1073, 2); --Emerald
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (774, 2); --Emerald
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (1073,
+VALUES (774,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Cold_Eggs/Standies/Frostbyte_Wyrmling_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Cold_Eggs/Standies/Frostbyte_Wyrmling_2.0_back.png', 
 'Either', 'Large', 'Drake', 6, 2, '2B 1R', '1ST', '3B', '3B', 2, 0);
@@ -2034,7 +2034,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (669
 
 
 --Elemental Shrine
---Elemental Shrine --CardIndex 1171 --CharacterIndex 1074 --ExploreCharacterIndex 670
+--Elemental Shrine --CardIndex 1171 --CharacterIndex 775 --ExploreCharacterIndex 670
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Elemental Shrine',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Elemental_Shrine/Card_Warband_Elemental_Shrine_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Elemental_Shrine/Card_Warband_Elemental_Shrine_2.0_back.png', 
@@ -2042,9 +2042,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 '');
 insert into Characters (CardIndex) VALUES (1171); 
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1074, 3); --Ruby
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (775, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (1074,
+VALUES (775,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Elemental_Shrine/Standies/Elemental_Shrine_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Elemental_Shrine/Standies/Elemental_Shrine_2.0_back.png', 
 'Neither', 'Large', 'Paired Spawning Point', 0, 1, '', '1ST', '', '', 4, 0);
@@ -2056,7 +2056,7 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (670
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (670, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (670, 'Start', 'Spawning Point', 0);
 
---Chunin --CardIndex 1172 --CharacterIndex 1075 --ExploreCharacterIndex 671
+--Chunin --CardIndex 1172 --CharacterIndex 776 --ExploreCharacterIndex 671
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Chunin',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Elemental_Shrine/Card_Warband_Elemental_Shrine_Chunin_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Elemental_Shrine/Card_Warband_Elemental_Shrine_Chunin_2.0_back.png', 
@@ -2064,9 +2064,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Aspiring leaders and skilled fighters within the clan are called upon to lead their own team of ninja as chunin. This is an incredible honor, and the trials to come will not only test a chunin''s leadership and skills, but their spirit as well.');
 insert into Characters (CardIndex) VALUES (1172); 
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1075, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (776, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (1075,
+VALUES (776,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Elemental_Shrine/Standies/Elemental_Shrine_Chunin_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Elemental_Shrine/Standies/Elemental_Shrine_Chunin_2.0_back.png', 
 'Masculine', 'Small', 'Ninja', 6, 1, '2B 1R', '3B', '3B', '3B', 3, 0);
@@ -2077,7 +2077,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (671, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (671, 'Elite', '16 Bit', 2);
 
---Kaiken --CardIndex 1173 --CharacterIndex 1076 --ExploreCharacterIndex 672
+--Kaiken --CardIndex 1173 --CharacterIndex 777 --ExploreCharacterIndex 672
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Kaiken',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Elemental_Shrine/Card_Warband_Elemental_Shrine_Kaiken_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Elemental_Shrine/Card_Warband_Elemental_Shrine_Kaiken_2.0_back.png', 
@@ -2085,9 +2085,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Kaiken are the backbone of the clans. To be a kaiken is not to be relegated to a basic or low role. Training to become a kaiken starts from birth and is ingrained through hardship, conditioning, and trials that normal people could not withstand. Kaiken are masters of the art of stealth, the sword, and the shuriken. As their experience grows, they learn to tap elemental magic, unlocking potent abilities to rival even the great Heroes.');
 insert into Characters (CardIndex) VALUES (1173); 
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1076, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (777, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (1076,
+VALUES (777,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Elemental_Shrine/Standies/Elemental_Shrine_Kaiken_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Elemental_Shrine/Standies/Elemental_Shrine_Kaiken_2.0_back.png', 
 'Masculine', 'Small', 'Ninja', 6, 1, '3B', '1ST', '2B', '3B', 1, 0);
@@ -2098,7 +2098,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (672, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (672, 'Minion', '8 Bit', 1);
 
---Kunoichi --CardIndex 1174 --CharacterIndex 1077 --ExploreCharacterIndex 673
+--Kunoichi --CardIndex 1174 --CharacterIndex 778 --ExploreCharacterIndex 673
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Kunoichi',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Elemental_Shrine/Card_Warband_Elemental_Shrine_Kunoichi_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Elemental_Shrine/Card_Warband_Elemental_Shrine_Kunoichi_2.0_back.png', 
@@ -2106,9 +2106,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Kunoichi are specialized female fighters and scouts for the clans. Though deadly and widely trained in the ninja arts, the kunoichi put particular emphasis on speed and agility. In battle, kunoichi focus on key mission objectives such as scouting targets and carrying vital missives.');
 insert into Characters (CardIndex) VALUES (1174);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1077, 2); --Emerald
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (778, 2); --Emerald
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (1077,
+VALUES (778,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Elemental_Shrine/Standies/Elemental_Shrine_Kunoichi_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Elemental_Shrine/Standies/Elemental_Shrine_Kunoichi_2.0_back.png', 
 'Feminine', 'Small', 'Ninja', 8, 1, '3B', '0ST', '1B 1R', '2R', 1, 0);
@@ -2120,7 +2120,7 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (6
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (673, 4); --Dex
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (673, 'Elite', '8 Bit', 1);
 
---Madoushi --CardIndex 1175 --CharacterIndex 1078 --ExploreCharacterIndex 674
+--Madoushi --CardIndex 1175 --CharacterIndex 779 --ExploreCharacterIndex 674
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Madoushi',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Elemental_Shrine/Card_Warband_Elemental_Shrine_Madoushi_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Elemental_Shrine/Card_Warband_Elemental_Shrine_Madoushi_2.0_back.png', 
@@ -2128,9 +2128,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'All clans possess the mystics known as madoushi. In some clans, they are revered as sages, alchemists and healers. Other clans regard them as witches, and tolerate them with barely concealed mistrust and fear. Whether they are revered or reviled, all madoushi are able to harness the powers native to the lands of their clan. With training, study, and meditation, a madoushi learns to draw from the lines of Ki that race through the landscape, summoning the very elements to do their bidding.');
 insert into Characters (CardIndex) VALUES (1175); 
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1078, 3); --Ruby
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (779, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (1078,
+VALUES (779,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Elemental_Shrine/Standies/Elemental_Shrine_Madoushi_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Elemental_Shrine/Standies/Elemental_Shrine_Madoushi_2.0_back.png', 
 'Masculine', 'Small', 'Ninja', 6, 2, '2B', '1ST', '2R', '3B', 2, 0);
@@ -2144,7 +2144,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (674, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (674, 'Elite', '8 Bit', 2);
 
---Yajiri --CardIndex 1176 --CharacterIndex 1079 --ExploreCharacterIndex 675
+--Yajiri --CardIndex 1176 --CharacterIndex 780 --ExploreCharacterIndex 675
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Yajiri',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Elemental_Shrine/Card_Warband_Elemental_Shrine_Yajiri_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Elemental_Shrine/Card_Warband_Elemental_Shrinen_Yajiri_2.0_back.png', 
@@ -2152,9 +2152,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Yajiri specialize in attacking from afar. Their black shafted arrows are renowned for striking with deadly accuracy. While the bow is utilized throughout all the clans, many have developed their own unique forms of ranged warfare. The Kitsune''s blowguns eliminate sentries with only the sound of a silent rush of wind to mark their use; while the thunder of the Tora''s rifle sows confusion among the enemy ranks, even as it wreaks terrible devastation. No matter the form it takes, a yajiri''s value to their clan cannot be underestimated.');
 insert into Characters (CardIndex) VALUES (1176); 
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1079, 2); --Emerald
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (780, 2); --Emerald
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (1079,
+VALUES (780,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Elemental_Shrine/Standies/Elemental_Shrine_Yajiri_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Elemental_Shrine/Standies/Elemental_Shrinen_Yajiri_2.0_back.png', 
 'Masculine', 'Small', 'Ninja', 6, 1, '2B', '0ST', '2B', '3B', 1, 0);
@@ -2166,7 +2166,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (675
 
 
 --Fire Flow Hollow
---Fire Flow Hollow --CardIndex 1177 --CharacterIndex 1080 --ExploreCharacterIndex 676
+--Fire Flow Hollow --CardIndex 1177 --CharacterIndex 781 --ExploreCharacterIndex 676
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Fire Flow Hollow',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Fire_Flow_Hollow/Card_Warband_Fire_Flow_Hollow_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Fire_Flow_Hollow/Card_Warband_Fire_Flow_Hollow_2.0_back.png', 
@@ -2176,9 +2176,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 <br><br>
 While these Kodama are not servants of the Dark Consul, they are tempermental, belligerent, and dangerous. They have inherited the flaming wrath of the mountains in which they dwell, and they can pose as great a threat to a Hero as any monster.');
 insert into Characters (CardIndex) VALUES (1177); 
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1080, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (781, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (1080,
+VALUES (781,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Fire_Flow_Hollow/Standies/Fire_Flow_Hollow_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Fire_Flow_Hollow/Standies/Fire_Flow_Hollow_2.0_back.png', 
 'Neither', 'Large', 'Paired Spawning Point', 0, 0, '', '1ST', '', '', 4, 0);
@@ -2189,7 +2189,7 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (676
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (676, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (676, 'Spawning Point', 'Start', 0);
 
---Broiled Mook --CardIndex 1178 --CharacterIndex 1081 --ExploreCharacterIndex 677
+--Broiled Mook --CardIndex 1178 --CharacterIndex 782 --ExploreCharacterIndex 677
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Broiled Mook',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Fire_Flow_Hollow/Card_Warband_Fire_Flow_Hollow_Broiled_Mook_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Fire_Flow_Hollow/Card_Warband_Fire_Flow_Hollow_Broiled_Mook_2.0_back.png', 
@@ -2197,9 +2197,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Mooks are naturally cheerful and playful. But those Broiled Mooks who have been charred in the harsh conditions of the Dragonback Peaks have an unusual sense of humor. All of their pranks tend to involve flames or hot coals. While Broiled Mooks are not inherently hostile, their fiery pranks are often detrimental for Heroes.');
 insert into Characters (CardIndex) VALUES (1178); 
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1081, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (782, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (1081,
+VALUES (782,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Fire_Flow_Hollow/Standies/Broiled_Mook_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Fire_Flow_Hollow/Standies/Broiled_Mook_2.0_back.png', 
 'Either', 'Large', 'Kodama', 6, 1, '3B', '1ST', '3B', '2B', 1, 0);
@@ -2210,7 +2210,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (677, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (677, 'Minion', '8 Bit', 1); 
 
---Flame Wisp --CardIndex 1179 --CharacterIndex 1082 --ExploreCharacterIndex 678
+--Flame Wisp --CardIndex 1179 --CharacterIndex 783 --ExploreCharacterIndex 678
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Flame Wisp',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Fire_Flow_Hollow/Card_Warband_Fire_Flow_Hollow_Flame_Wisp_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Fire_Flow_Hollow/Card_Warband_Fire_Flow_Hollow_Flame_Wisp_2.0_back.png', 
@@ -2218,9 +2218,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'The Kodama who eek out an existence in the Dragonback Peaks are even more temperamental and fickle that usual. Flame Wisps are particularly hard to predict. A Flame Wisp may lead a Hero through a twisting pass in the mountains one day and then set the Hero''s pack on fire the next day before running away and giggling.');
 insert into Characters (CardIndex) VALUES (1179); 
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1082, 3); --Ruby
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (783, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (1082,
+VALUES (783,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Fire_Flow_Hollow/Standies/Flame_Wisp_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Fire_Flow_Hollow/Standies/Flame_Wisp_2.0_back.png', 
 'Either', 'Large', 'Kodama', 6, 2, '1B', '1ST', '2B 1R', '3B', 2, 0);
@@ -2231,7 +2231,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (678, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (678, 'Elite', '8 Bit', 2);
 
---Magma Seed	--CardIndex 1180 --CharacterIndex 1083 --ExploreCharacterIndex 679
+--Magma Seed	--CardIndex 1180 --CharacterIndex 784 --ExploreCharacterIndex 679
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Magma Seed',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Fire_Flow_Hollow/Card_Warband_Fire_Flow_Hollow_Magma_Seed_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Fire_Flow_Hollow/Card_Warband_Fire_Flow_Hollow_Magma_Seed_2.0_back.png', 
@@ -2239,9 +2239,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Sometimes a seed from the Deeproot Tree will become encased in lava as it cools. The magic of the Deeproot is strong enough to keep the seed alive, and it can remain trapped for centuries. When these seeds are unearthed, they grow wild and fierce. They not only are immune to flame, but they crave it, often growing stronger in the warmth of a blaze.');
 insert into Characters (CardIndex) VALUES (1180);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1083, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (784, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (1083,
+VALUES (784,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Fire_Flow_Hollow/Standies/Magma_Seed_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Fire_Flow_Hollow/Standies/Magma_Seed_2.0_back.png', 
 'Either', 'Large', 'Kodama', 6, 1, '1B', '2R', '3B', '1B 1R', 2, 0);
@@ -2253,7 +2253,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (679, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (679, 'Elite', '16 Bit', 1);
 
---Spicy Turnip  --CardIndex 1181 --CharacterIndex 1084 --ExploreCharacterIndex 680
+--Spicy Turnip  --CardIndex 1181 --CharacterIndex 785 --ExploreCharacterIndex 680
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Spicy Turnip',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Fire_Flow_Hollow/Card_Warband_Fire_Flow_Hollow_Spicy_Turnip_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Fire_Flow_Hollow/Card_Warband_Fire_Flow_Hollow_Spicy_Turnip_2.0_back.png', 
@@ -2261,9 +2261,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Spicy Turnips are Turnipheads who have given up on healing wounded plants. In the harsh conditions of the Dragonback Peaks, a Turniphead cannot properly heal every burn, every lost leaf, every torn root. This frustration builds in fiery rage, and a Spicy Turnip is born. Unable to heal the wounded, Spicy Turnips instead seek to stoke the flames. ');
 insert into Characters (CardIndex) VALUES (1181); 
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1084, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (785, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (1084,
+VALUES (785,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Fire_Flow_Hollow/Standies/Spicy_Turnip_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Fire_Flow_Hollow/Standies/Spicy_Turnip_2.0_back.png', 
 'Neither', 'Large', 'Kodama', 6, 1, '2B', '0ST', '3B', '2B 1R', 1, 0);
@@ -2276,7 +2276,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (680, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (680, 'Minion', '8 Bit', 1);
 
---Volcanic Sprout  --CardIndex 1182 --CharacterIndex 1085 --ExploreCharacterIndex 681
+--Volcanic Sprout  --CardIndex 1182 --CharacterIndex 786 --ExploreCharacterIndex 681
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Volcanic Sprout',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Fire_Flow_Hollow/Card_Warband_Fire_Flow_Hollow_Volcanic_Sprout_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Fire_Flow_Hollow/Card_Warband_Fire_Flow_Hollow_Volcanic_Sprout_2.0_back.png', 
@@ -2284,9 +2284,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'As a Magma Seed grows, it blossoms into the mighty Volcanic Sprout. By the time these sprouts reach maturity they have spent centuries encased in lava and the experience has left them hardened and formidable. Relishing in the open air, they gow at an astounding rate, burning anything in their path.');
 insert into Characters (CardIndex) VALUES (1182); 
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1085, 4); --Sapphire
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (786, 4); --Sapphire
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (1085,
+VALUES (786,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Fire_Flow_Hollow/Standies/Volcanic_Sprout_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Fire_Flow_Hollow/Standies/Volcanic_Sprout_2.0_back.png', 
 'Neither', 'Large', 'Shapeshift', 1, 3, '2B 2R', '2R', '3B', '1B', 4, 0);
@@ -2303,7 +2303,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (681
 
 
 --Forgotten Stone
---Forgotten Stone --CardIndex 1183 --CharacterIndex 1086 --ExploreCharacterIndex 682
+--Forgotten Stone --CardIndex 1183 --CharacterIndex 787 --ExploreCharacterIndex 682
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Forgotten Stone',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Forgotten_Stone/Card_Warband_Forgotten_Stone_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Forgotten_Stone/Card_Warband_Forgotten_Stone_2.0_back.png', 
@@ -2311,10 +2311,10 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'While the Shadow Fleets of the Midnight Queen openly sail the waters of the Scalding Sea, when they venture into the vast oceans surrounding Crystalia they must be more cautious. Here, heavily armored gnomish clockwork frigates, Brinebreaker dreadnoughts bristling with weaponry, many-masted royal galleons, and fleets of undead pirate clippers from the Drowned Isles vie for supremacy. Because of this, Shadow Fleets search out forgotten islands and coves to use as hidden bases of operation. Once secured, they mark these bases'' locations with crudely carved stones that are carefully crafted to appear ancient, forgotten, and unassuming.');
 insert into Characters (CardIndex) VALUES (1183); 
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1086, 1); --Citrine
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1086, 3); --Ruby
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (787, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (787, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (1086,
+VALUES (787,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Forgotten_Stone/Standies/Forgotten_Stone_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Forgotten_Stone/Standies/Forgotten_Stone_2.0_back.png', 
 'Neither', 'Large', 'Spawning Point', 0, 0, '', '1ST', '', '', 3, 0);
@@ -2324,7 +2324,7 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (682
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (682, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (682, 'Spawning Point', 'Start', 0);
 
---Blackblade Corsair --CardIndex 1184 --CharacterIndex 1087 --ExploreCharacterIndex 683
+--Blackblade Corsair --CardIndex 1184 --CharacterIndex 788 --ExploreCharacterIndex 683
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Blackblade Corsair',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Forgotten_Stone/Card_Warband_Forgotten_Stone_Blackblade_Corsair_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Forgotten_Stone/Card_Warband_Forgotten_Stone_Blackblade_Corsair_2.0_back.png', 
@@ -2332,10 +2332,10 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'The Scalding Sea, which encircles the Nether Rifts and Midnight Tower, is fraught with peril. Inclement weather, demon incursions, and the monstrous denizens of the deep have honed the crews of the Midnight Queen''s Shadow Fleets into master sailors.');
 insert into Characters (CardIndex) VALUES (1184);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1087, 1); --Citrine
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1087, 3); --Ruby
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (788, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (788, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (1087,
+VALUES (788,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Forgotten_Stone/Standies/Blackblade_Corsair_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Forgotten_Stone/Standies/Blackblade_Corsair_2.0_back.png', 
 'Either', 'Small', 'Nether Elf Pirate', 7, 1, '2B 1R', '1ST', '3B', '3B', 1, 0);
@@ -2346,7 +2346,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (683, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (683, 'Minion', '8 Bit', 1);
 
---Corsair Arbalist --CardIndex 1185 --CharacterIndex 1088 --ExploreCharacterIndex 684
+--Corsair Arbalist --CardIndex 1185 --CharacterIndex 789 --ExploreCharacterIndex 684
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Corsair Arbalist',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Forgotten_Stone/Card_Warband_Forgotten_Stone_Corsair_Arbalist_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Forgotten_Stone/Card_Warband_Forgotten_Stone_Corsair_Arbalist_2.0_back.png', 
@@ -2354,10 +2354,10 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'A Shadow Fleet is a grim sight upon the horizon, and has been the doom for many a brave sailor. Shrouded in swirling mists and shadow, these bleak vessels begin their assaults with barrages of black-fletched crossbow bolts raking across the decks of their quarry, clearing the way for Blackblade boarders.');
 insert into Characters (CardIndex) VALUES (1185); 
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1088, 1); --Citrine
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1088, 3); --Ruby
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (789, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (789, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (1088,
+VALUES (789,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Forgotten_Stone/Standies/Corsair_Arbalist_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Forgotten_Stone/Standies/Corsair_Arbalist_2.0_back.png', 
 'Masculine', 'Small', 'Nether Elf Pirate', 7, 1, '2B', '1ST', '3B', '3B', 1, 0);
@@ -2370,7 +2370,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (684, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (684, 'Minion', '8 Bit', 1);
 
---Midnight Mutineer --CardIndex 1186 --CharacterIndex 1089 --ExploreCharacterIndex 685
+--Midnight Mutineer --CardIndex 1186 --CharacterIndex 790 --ExploreCharacterIndex 685
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Midnight Mutineer',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Forgotten_Stone/Card_Warband_Forgotten_Stone_Midnight_Mutineer_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Forgotten_Stone/Card_Warband_Forgotten_Stone_Midnight_Mutineer_2.0_back.png', 
@@ -2378,10 +2378,10 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Nether elves do not require honorable combat. One of their favored strategies is assassination. Cut off the head and the body will die. On the high seas the chain of command is vital, and a ship without its captain is an easy target. Midnight Mutineers are experts at infiltrating a ship''s crew and, the night before their corsair brethren attack, eliminating the ship''s captain and key personnel.');
 insert into Characters (CardIndex) VALUES (1186); 
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1089, 1); --Citrine
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1089, 3); --Ruby
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (790, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (790, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (1089,
+VALUES (790,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Forgotten_Stone/Standies/Midnight_Mutineer_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Forgotten_Stone/Standies/Midnight_Mutineer_2.0_back.png', 
 'Feminine', 'Small', 'Nether Elf Pirate', 8, 3, '3B 1R', '1B', '3B', '3B', 3, 0);
@@ -2398,7 +2398,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (685
 
 
 --Frozen Warrens
---Frozen Warrens --CardIndex 1187 --CharacterIndex 1090 --ExploreCharacterIndex 686
+--Frozen Warrens --CardIndex 1187 --CharacterIndex 791 --ExploreCharacterIndex 686
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Frozen Warrens',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Frozen_Warrens/Card_Warband_Frozen_Warrens_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Frozen_Warrens/Card_Warband_Frozen_Warrens_2.0_back.png', 
@@ -2406,9 +2406,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'The frigid climate of the Frostbyte Reach is notoriously inhospitable for the races of Crystalia. It is doubly so for the cold-blooded kobolds that choose to make the realm home. Because of their natural vulnerability the kobolds are fanatical devotees of the Cult of Frozen Spires. The Cult''s Frozen Priests maintain complex spells and rituals throughout the Reach designed to shield their kobold flock from the worst of the frozen climate.');
 insert into Characters (CardIndex) VALUES (1187); 
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1090, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (791, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (1090,
+VALUES (791,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Frozen_Warrens/Standies/Frozen_Warrens_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Frozen_Warrens/Standies/Frozen_Warrens_2.0_back.png', 
 'Neither', 'Large', 'Spawning Point', 0, 0, '', '1ST', '', '', 4, 0);
@@ -2418,7 +2418,7 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (686
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (686, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (686, 'Spawning Point', 'Start', 0);
 
---Blockhead --CardIndex 1188 --CharacterIndex 1091 --ExploreCharacterIndex 687
+--Blockhead --CardIndex 1188 --CharacterIndex 792 --ExploreCharacterIndex 687
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Blockhead',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Frozen_Warrens/Card_Warband_Frozen_Warrens_Blockhead_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Frozen_Warrens/Card_Warband_Frozen_Warrens_Blockhead_2.0_back.png', 
@@ -2426,9 +2426,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Blockheads, as their name implies, are not particularly bright, as the cold dulls their already dull senses. Fortunately, not much sense is needed when attacking Heroes who have been frozen solid by their more skilled kin.');
 insert into Characters (CardIndex) VALUES (1188);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1091, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (792, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (1091,
+VALUES (792,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Frozen_Warrens/Standies/Blockhead_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Frozen_Warrens/Standies/Blockhead_2.0_back.png', 
 'Either', 'Small', 'Kobold', 7, 1, '3B', '1ST', '2B', '1B 1R', 1, 0);
@@ -2437,7 +2437,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (687, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (687, 'Minion', '8 Bit', 1);
 
---Frostscale --CardIndex 1189 --CharacterIndex 1092 --ExploreCharacterIndex 688
+--Frostscale --CardIndex 1189 --CharacterIndex 793 --ExploreCharacterIndex 688
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Frostscale',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Frozen_Warrens/Card_Warband_Frozen_Warrens_Frostscale_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Frozen_Warrens/Card_Warband_Frozen_Warrens_Frostscale_2.0_back.png', 
@@ -2445,10 +2445,10 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Frostscales are taught basic weather magicks by the Frozen Priests, to protect their lesser kin from the harsh elements of the Frostbyte Reach. In combat, these spells are turned against their enemies as sharp shards of ice that rend through armor and freeze their foes.');
 insert into Characters (CardIndex) VALUES (1189); 
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1092, 1); --Citrine
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1092, 4); --Sapphire
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (793, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (793, 4); --Sapphire
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (1092,
+VALUES (793,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Frozen_Warrens/Standies/Frostscale_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Frozen_Warrens/Standies/Frostscale_2.0_back.png', 
 'Neither', 'Small', 'Kobold', 7, 2, '2R', '2ST', '3B', '1B 1R', 1, 0);
@@ -2459,7 +2459,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (688, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (688, 'Minion', '8 Bit', 2);
 
---Frozen Priest --CardIndex 1190 --CharacterIndex 1093 --ExploreCharacterIndex 689
+--Frozen Priest --CardIndex 1190 --CharacterIndex 794 --ExploreCharacterIndex 689
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Frozen Priest',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Frozen_Warrens/Card_Warband_Frozen_Warrens_Frozen_Priest_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Frozen_Warrens/Card_Warband_Frozen_Warrens_Frozen_Priest_2.0_back.png', 
@@ -2467,9 +2467,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Frozen Priests serve their Lord Hoarfang as the leaders of the Cult of Frozen Spires. Cold, calculating, and ruthless, Frozen Priests are notoriously burtal and unforgiving leaders. Their mastery of ice magic is absolute, and they cruely turn it upon any who they deem deserving of Hoarfang''s ire.');
 insert into Characters (CardIndex) VALUES (1190); 
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1093, 3); --Ruby
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (794, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (1093,
+VALUES (794,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Frozen_Warrens/Standies/Frozen_Priest_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Frozen_Warrens/Standies/Frozen_Priest_2.0_back.png', 
 'Neither', 'Small', 'Kobold', 7, 3, '2B', '1B 1R', '2R', '1B 1R', 3, 0);
@@ -2482,7 +2482,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (689, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (689, 'Elite', '16 Bit', 2); 
 
---Ice Pick --CardIndex 1191 --CharacterIndex 1094 --ExploreCharacterIndex 690
+--Ice Pick --CardIndex 1191 --CharacterIndex 795 --ExploreCharacterIndex 690
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ice Pick',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Frozen_Warrens/Card_Warband_Frozen_Warrens_Ice_Pick_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Frozen_Warrens/Card_Warband_Frozen_Warrens_Ice_Pick_2.0_back.png', 
@@ -2490,9 +2490,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Ice Picks enjoy a surprisingly high station within the Cult of Frozen Spires. Skilled hunters and trackers, Ice Picks roam far and wide through the Frostbyte Reach hunting game with their long spears and bringing it back to the warrens for the benefit of all.');
 insert into Characters (CardIndex) VALUES (1191); 
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1094, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (795, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (1094,
+VALUES (795,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Frozen_Warrens/Standies/Ice_Pick_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Frozen_Warrens/Standies/Ice_Pick_2.0_back.png', 
 'Neither', 'Small', 'Kobold', 7, 1, '3B', '0ST', '2B', '1B 1R', 1, 0);
@@ -2501,7 +2501,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (690, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (690, 'Minion', '8 Bit', 1); 
 
---Snowball Chucker --CardIndex 1192 --CharacterIndex 1095 --ExploreCharacterIndex 691
+--Snowball Chucker --CardIndex 1192 --CharacterIndex 796 --ExploreCharacterIndex 691
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Snowball Chucker',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Frozen_Warrens/Card_Warband_Frozen_Warrens_Snowball_Chucker_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Frozen_Warrens/Card_Warband_Frozen_Warrens_Snowball_Chucker_2.0_back.png', 
@@ -2509,9 +2509,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Snowball Chuckers are useless. They don''t like to hunt. They don''t like to fight. All they like to do is play in the snow, building forts, having funniest snow-dwarf contests, and rolling all the snowballs they can manage. Sometimes they play a game of Dodge the Avalanche, which sees entire kobold encapments buried in layers of ice.');
 insert into Characters (CardIndex) VALUES (1192); 
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1095, 2); --Emerald
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (796, 2); --Emerald
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (1095,
+VALUES (796,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Frozen_Warrens/Standies/Snowball_Chucker_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Frozen_Warrens/Standies/Snowball_Chucker_2.0_back.png', 
 'Neither', 'Small', 'Kobold', 7, 1, '2B', '0ST', '2B', '2B 1R', 1, 0);
@@ -2527,7 +2527,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (691
 
 
 --Howler Stone
---Howler Stone	--CardIndex 1193 --CharacterIndex 1096 --ExploreCharacterIndex 692
+--Howler Stone	--CardIndex 1193 --CharacterIndex 797 --ExploreCharacterIndex 692
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Howler Stone',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Howler_Stone/Card_Warband_Howler_Stone_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Howler_Stone/Card_Warband_Howler_Stone_2.0_back.png', 
@@ -2537,9 +2537,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 <br><br>
 In Crystalia, gnolls behave much as they did within the Dark Realm. Stalking the shadows, they isolate and destroy weak prey. The inhospitable Frostbyte Reach provide perfect shelter for this mentality. Within its snowcapped peaks the gnolls find solitude and safety, where they can rest and plot their next incursion.');
 insert into Characters (CardIndex) VALUES (1193); 
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1096, 2); --Emerald
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (797, 2); --Emerald
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (1096,
+VALUES (797,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Howler_Stone/Standies/Howler_Stone_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Howler_Stone/Standies/Howler_Stone_2.0_back.png', 
 'Neither', 'Large', 'Spawning Point', 0, 0, '', '1ST', '', '', 3, 0);
@@ -2549,7 +2549,7 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (692
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (692, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (692, 'Spawning Point', 'Start', 0);
 
---Gnoll Hunter --CardIndex 1194 --CharacterIndex 1097 --ExploreCharacterIndex 693
+--Gnoll Hunter --CardIndex 1194 --CharacterIndex 798 --ExploreCharacterIndex 693
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Gnoll Hunter',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Howler_Stone/Card_Warband_Howler_Stone_Gnoll_Hunter_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Howler_Stone/Card_Warband_Howler_Stone_Gnoll_Hunter_2.0_back.png', 
@@ -2557,9 +2557,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Solitary by nature, Hunters range ahead of the gnoll packs scouting trails and seeking the scent of prey. When prey is found the Hunter''s isolate the weakest members, knocking them to the ground so they and their packmates can pounce!');
 insert into Characters (CardIndex) VALUES (1194);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1097, 2); --Emerald
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (798, 2); --Emerald
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (1097,
+VALUES (798,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Standies/Gnoll_Hunter_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Standies/Gnoll_Hunter_2.0_back.png', 
 'Either', 'Small', 'Gnoll', 6, 1, '3B', '0ST', '2B', '1B 1R', 1, 0);
@@ -2570,7 +2570,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (693, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (693, 'Minion', '8 Bit', 1);
 
---Gnoll Pack Leader --CardIndex 1195 --CharacterIndex 1098 --ExploreCharacterIndex 694
+--Gnoll Pack Leader --CardIndex 1195 --CharacterIndex 799 --ExploreCharacterIndex 694
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Gnoll Pack Leader',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Howler_Stone/Card_Warband_Howler_Stone_Gnoll_Pack_Leader_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Howler_Stone/Card_Warband_Howler_Stone_Gnoll_Pack_Leader_2.0_back.png', 
@@ -2578,9 +2578,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Gnoll pack leaders must demonstrate more than strength, they must also demonstrate intelligence and cunning. A pack leader which causes the needless destruction of its packmates will not be in power long. The greatest pack leaders rise up to lead immense warpacks that rival the might of any army.');
 insert into Characters (CardIndex) VALUES (1195); 
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1098, 2); --Emerald
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (799, 2); --Emerald
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (1098,
+VALUES (799,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Standies/Gnoll_Pack_Leader_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Standies/Gnoll_Pack_Leader_2.0_back.png', 
 'Neither', 'Small', 'Gnoll', 6, 3, '2B 1R', '1ST', '2B', '1B 1R', 3, 0);
@@ -2594,7 +2594,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (694, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (694, 'Elite', '16 Bit', 2);
 
---Gnoll Ranger --CardIndex 1196 --CharacterIndex 1099 --ExploreCharacterIndex 695
+--Gnoll Ranger --CardIndex 1196 --CharacterIndex 800 --ExploreCharacterIndex 695
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Gnoll Ranger',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Howler_Stone/Card_Warband_Howler_Stone_Gnoll_Ranger_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Howler_Stone/Card_Warband_Howler_Stone_Gnoll_Ranger_2.0_back.png', 
@@ -2602,9 +2602,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'When gnolls go to war, small packs of Rangers shadow the flanks of the main warpack. As the pack engages, the Rangers let loose clouds of arrows, strategically marking enemies that the pack should hunt down and destroy. In this way the warpack coordinates their attacks against the most vulnerable of their prey.');
 insert into Characters (CardIndex) VALUES (1196); 
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1099, 2); --Emerald
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (800, 2); --Emerald
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (1099,
+VALUES (800,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Standies/Gnoll_Ranger_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Standies/Gnoll_Ranger_2.0_back.png', 
 'Neither', 'Large', 'Gnoll', 6, 1, '1B 1R', '0ST', '2R', '3B', 1, 0);
@@ -2617,7 +2617,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (695, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (695, 'Minion', '8 Bit', 1); 
 
---Gnoll Warrior --CardIndex 1197 --CharacterIndex 1100 --ExploreCharacterIndex 696
+--Gnoll Warrior --CardIndex 1197 --CharacterIndex 801 --ExploreCharacterIndex 696
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Gnoll Warrior',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Howler_Stone/Card_Warband_Howler_Stone_Gnoll_Warrior_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Howler_Stone/Card_Warband_Howler_Stone_Gnoll_Warrior_2.0_back.png', 
@@ -2625,9 +2625,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Gnoll warriors are ruthless and cunning predators. Working together, they are able to overcome even the strongest foe. Should their prey seek to flee, the warriors are as adaept at throwing their spears as stabbing with them.');
 insert into Characters (CardIndex) VALUES (1197); 
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1100, 2); --Emerald
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (801, 2); --Emerald
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (1100,
+VALUES (801,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Standies/Gnoll_Warrior_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Standies/Gnoll_Warrior_2.0_back.png', 
 'Neither', 'Large', 'Gnoll', 6, 1, '2R', '1ST', '2B', '3B', 1, 0);
@@ -2642,7 +2642,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (696
 
 
 --Junk Reaver Crystal
---Junk Reaver Crystal	--CardIndex 1198 --CharacterIndex 1101 --ExploreCharacterIndex 697
+--Junk Reaver Crystal	--CardIndex 1198 --CharacterIndex 802 --ExploreCharacterIndex 697
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Junk Reaver Crystal',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Junk_Reaver_Crystal/Card_Warband_Junk_Reaver_Crystal_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Junk_Reaver_Crystal/Card_Warband_Junk_Reaver_Crystal_2.0_back.png', 
@@ -2650,9 +2650,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 '');--!! unavailable !!
 insert into Characters (CardIndex) VALUES (1198); 
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1101, 3); --Ruby
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (802, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (1101,
+VALUES (802,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Junk_Reaver_Crystal/Standies/Junk_Reaver_Crystal_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Junk_Reaver_Crystal/Standies/Junk_Reaver_Crystal_2.0_back.png', 
 'Neither', 'Large', 'Spawning Point', 0, 0, '', '2ST', '', '', 2, 0);
@@ -2661,7 +2661,7 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (697
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (697, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (697, 'Spawning Point', 'Start', 0);
 
---Junker --CardIndex 1199 --CharacterIndex 1102 --ExploreCharacterIndex 698
+--Junker --CardIndex 1199 --CharacterIndex 803 --ExploreCharacterIndex 698
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Junker',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Junk_Reaver_Crystal/Card_Warband_Junk_Reaver_Crystal_Junker_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Junk_Reaver_Crystal/Card_Warband_Junk_Reaver_Crystal_Junker_2.0_back.png', 
@@ -2669,9 +2669,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 '');--!! unavailable 1!
 insert into Characters (CardIndex) VALUES (1199);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1102, 3); --Ruby --!! unavailable !!
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (803, 3); --Ruby --!! unavailable !!
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (1102,
+VALUES (803,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Junk_Reaver_Crystal/Standies/Junker_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Junk_Reaver_Crystal/Standies/Junker_2.0_back.png', 
 'Either', 'Small', 'Orc', 6, 1, '2B 1R', '0ST', '0ST', '2ST', 1, 0);
@@ -2681,7 +2681,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (698, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (698, 'Minion', '8 Bit', 1);
 
---Rusty Arrows --CardIndex 1200 --CharacterIndex 1103 --ExploreCharacterIndex 699
+--Rusty Arrows --CardIndex 1200 --CharacterIndex 804 --ExploreCharacterIndex 699
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Rusty Arrows',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Junk_Reaver_Crystal/Card_Warband_Junk_Reaver_Crystal_Rusty_Arrows_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Junk_Reaver_Crystal/Card_Warband_Junk_Reaver_Crystal_Rusty_Arrows_2.0_back.png', 
@@ -2689,9 +2689,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 '');--!! unavailable !!
 insert into Characters (CardIndex) VALUES (1200); 
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1103, 3); --Ruby--!! unavailable !!
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (804, 3); --Ruby--!! unavailable !!
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (1103,
+VALUES (804,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Junk_Reaver_Crystal/Standies/Rusty_Arrows_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Junk_Reaver_Crystal/Standies/Rusty_Arrows_2.0_back.png', 
 'Neither', 'Small', 'Orc', 6, 1, '3ST', '1ST', '0ST', '3B', 2, 0);
@@ -2702,7 +2702,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (699, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (699, 'Minion', '8 Bit', 1);
 
---Rust Boss --CardIndex 1201 --CharacterIndex 1104 --ExploreCharacterIndex 700
+--Rust Boss --CardIndex 1201 --CharacterIndex 805 --ExploreCharacterIndex 700
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Rust Boss',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Junk_Reaver_Crystal/Card_Warband_Junk_Reaver_Crystal_Rust_Boss_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Junk_Reaver_Crystal/Card_Warband_Junk_Reaver_Crystal_Rust_Boss_2.0_back.png', 
@@ -2710,9 +2710,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 '');--!! unavailable !!
 insert into Characters (CardIndex) VALUES (1201); 
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1104, 3); --Ruby--!! unavailable !!
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (805, 3); --Ruby--!! unavailable !!
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (1104,
+VALUES (805,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Junk_Reaver_Crystal/Standies/Rust_Boss_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Junk_Reaver_Crystal/Standies/Rust_Boss_2.0_back.png', 
 'Neither', 'Large', 'Orc', 6, 3, '3R', '3B', '0ST', '2ST', 3, 0);
@@ -2729,7 +2729,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (700
 
 
 --Kobold Warrens
---Kobold Warrens	--CardIndex 1202 --CharacterIndex 1105 --ExploreCharacterIndex 701
+--Kobold Warrens	--CardIndex 1202 --CharacterIndex 806 --ExploreCharacterIndex 701
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Kobold Warrens',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Kobold_Warrens/Card_Warband_Kobold_Warrens_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Kobold_Warrens/Card_Warband_Kobold_Warrens_2.0_back.png', 
@@ -2739,9 +2739,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 <br><br>
 Fortunately, they are also clannish and given to feuding amongst themselves when left to their own devices. Whenever possible, Heroes root out clans of kobolds before they unite behind a larger and craftier monster to boss them around. Otherwise, kobolds become an almost unstoppable scourge.');
 insert into Characters (CardIndex) VALUES (1202); 
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1105, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (806, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (1105,
+VALUES (806,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Kobold_Warrens/Standies/Kobold_Warrens_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Kobold_Warrens/Standies/Kobold_Warrens_2.0_back.png', 
 'Neither', 'Large', 'Spawning Point', 0, 0, '', '1ST', '', '', 4, 0);
@@ -2752,7 +2752,7 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (701
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (701, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (701, 'Spawning Point', 'Start', 0);
 
---Dragon Priest --CardIndex 1203 --CharacterIndex 1106 --ExploreCharacterIndex 702
+--Dragon Priest --CardIndex 1203 --CharacterIndex 807 --ExploreCharacterIndex 702
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Dragon Priest',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Kobold_Warrens/Card_Warband_Kobold_Warrens_Dragon_Priest_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Kobold_Warrens/Card_Warband_Kobold_Warrens_Dragon_Priest_2.0_back.png', 
@@ -2760,9 +2760,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'While the Cult of the Burning Star, which venerates Starfire, is the most well known there are cults of kobolds dedicated to the worship of all the dragons of Crystalia. Dragon Priests are granted arcane powers by their close communion with the dragons. Once bestowed these gifts, the priests never hesitate to use their favor to bully and intimidate the lesser kobolds into fighting for them.');
 insert into Characters (CardIndex) VALUES (1203);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1106, 3); --Ruby
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (807, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (1106,
+VALUES (807,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Kobold_Warrens/Standies/Dragon_Priest_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Kobold_Warrens/Standies/Dragon_Priest_2.0_back.png', 
 'Either', 'Small', 'Kobold', 7, 3, '2B', '1B 1R', '2R', '1B 1R', 3, 0);
@@ -2774,7 +2774,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (702, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (702, 'Elite', '16 Bit', 2);
 
---Flinger --CardIndex 1204 --CharacterIndex 1107 --ExploreCharacterIndex 703
+--Flinger --CardIndex 1204 --CharacterIndex 808 --ExploreCharacterIndex 703
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Flinger',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Kobold_Warrens/Card_Warband_Kobold_Warrens_Flinger_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Kobold_Warrens/Card_Warband_Kobold_Warrens_Flinger_2.0_back.png', 
@@ -2782,9 +2782,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Many young kobolds emerge from their warrens having learned how to hunt bats and other denizens with nothing more than a strip of drakegut and a pouch full of stones. Deadly accurate, they launch small clay pots of flaming lamp oil or inky smoke bombs to conceal their movement.');
 insert into Characters (CardIndex) VALUES (1204); 
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1107, 2); --Emerald
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (808, 2); --Emerald
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (1107,
+VALUES (808,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Kobold_Warrens/Standies/Flinger_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Kobold_Warrens/Standies/Flinger_2.0_back.png', 
 'Neither', 'Small', 'Kobold', 7, 1, '2B', '0ST', '2B', '2B 1R', 1, 0);
@@ -2798,7 +2798,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (703, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (703, 'Elite', '8 Bit', 1);
 
---Gouger --CardIndex 1205 --CharacterIndex 1108 --ExploreCharacterIndex 704
+--Gouger --CardIndex 1205 --CharacterIndex 809 --ExploreCharacterIndex 704
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Gouger',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Kobold_Warrens/Card_Warband_Kobold_Warrens_Gouger_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Kobold_Warrens/Card_Warband_Kobold_Warrens_Gouger_2.0_back.png', 
@@ -2806,9 +2806,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Kobolds are not big on courage as lone fighters. Their snarling growls are meager and their weapons blunt and rusted. The Gougher''s long spears can effectively add weight to their kin''s attacks by stabbing at the desperately flailing Heroes.');
 insert into Characters (CardIndex) VALUES (1205); 
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1108, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (809, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (1108,
+VALUES (809,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Kobold_Warrens/Standies/Gouger_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Kobold_Warrens/Standies/Gouger_2.0_back.png', 
 'Neither', 'Small', 'Kobold', 7, 1, '3B', '0ST', '2B', '1B 1R', 1, 0);
@@ -2817,7 +2817,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (704, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (704, 'Minion', '8 Bit', 1); 
 
---Ironscale --CardIndex 1206 --CharacterIndex 1109 --ExploreCharacterIndex 705
+--Ironscale --CardIndex 1206 --CharacterIndex 810 --ExploreCharacterIndex 705
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ironscale',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Kobold_Warrens/Card_Warband_Kobold_Warrens_Ironscale_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Kobold_Warrens/Card_Warband_Kobold_Warrens_Ironscale_2.0_back.png', 
@@ -2825,10 +2825,10 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'The strongest and largest of their kind, the Ironscales are draped in heavy armor and fight from behind immensely heavy shields. Advancing with a rattling stomp, their kin swarm from behind their wall of protection to attack anyone foolish enough to stick around.');
 insert into Characters (CardIndex) VALUES (1206); 
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1109, 1); --Citrine
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1109, 4); --Sapphire
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (810, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (810, 4); --Sapphire
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (1109,
+VALUES (810,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Kobold_Warrens/Standies/Ironscale_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Kobold_Warrens/Standies/Ironscale_2.0_back.png', 
 'Neither', 'Small', 'Kobold', 7, 2, '2R', '2ST', '2B', '1B 1R', 1, 0);
@@ -2838,7 +2838,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (705, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (705, 'Elite', '8 Bit', 2);
 
---Knucklehead --CardIndex 1207 --CharacterIndex 1110 --ExploreCharacterIndex 706
+--Knucklehead --CardIndex 1207 --CharacterIndex 811 --ExploreCharacterIndex 706
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Knucklehead',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Kobold_Warrens/Card_Warband_Kobold_Warrens_Knucklehead_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Kobold_Warrens/Card_Warband_Kobold_Warrens_Knucklehead_2.0_back.png', 
@@ -2846,9 +2846,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'The Knuckleheads'' strength lies in large, deadly, mobs of its kin throwing themselves headlong into smaller bands of Heroes. They use their small shields and iron helmets to take blows, while frantically stabbing anything in reach with their crude weapons.');
 insert into Characters (CardIndex) VALUES (1207); 
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1110, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (811, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (1110,
+VALUES (811,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Kobold_Warrens/Standies/Knucklehead_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Kobold_Warrens/Standies/Knucklehead_2.0_back.png', 
 'Neither', 'Small', 'Kobold', 7, 1, '3B', '1ST', '2B', '1B 1R', 1, 0);
@@ -2859,7 +2859,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (706
 
 
 --Loot Stash
---Loot Stash --CardIndex 1208 --CharacterIndex 1111 --ExploreCharacterIndex 707
+--Loot Stash --CardIndex 1208 --CharacterIndex 812 --ExploreCharacterIndex 707
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Loot Stash',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Loot_Stash/Card_Warband_Loot_Stash_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Loot_Stash/Card_Warband_Loot_Stash_2.0_back.png', 
@@ -2867,9 +2867,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 '');  --!! unavailable !!
 insert into Characters (CardIndex) VALUES (1208); 
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1111, 3); --Ruby
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (812, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (1111,
+VALUES (812,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Loot_Stash/Standies/Loot_Stash_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Loot_Stash/Standies/Loot_Stash_2.0_back.png', 
 'Neither', 'Small', 'Spawning Point', 0, 0, '', '2ST', '', '', 3, 0);
@@ -2879,7 +2879,7 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (707
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (707, 1); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (707, 'Spawning Point', 'Start', 0);
 
---Polished Punk --CardIndex 1209 --CharacterIndex 1112 --ExploreCharacterIndex 708
+--Polished Punk --CardIndex 1209 --CharacterIndex 813 --ExploreCharacterIndex 708
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Polished Punk',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Loot_Stash/Card_Warband_Loot_Stash_Polished_Punk_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Loot_Stash/Card_Warband_Loot_Stash_Polished_Punk_2.0_back.png', 
@@ -2887,9 +2887,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 '');  --!! unavailable !!
 insert into Characters (CardIndex) VALUES (1209);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1112, 1); --Citrine   --!! unavailable !!
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (813, 1); --Citrine   --!! unavailable !!
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (1112,
+VALUES (813,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Loot_Stash/Standies/Polished_Punk_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Loot_Stash/Standies/Polished_Punk_2.0_back.png', 
 'Either', 'Small', 'Orc', 5, 1, '2R', '1ST', '0ST', '2ST', 1, 0);
@@ -2899,7 +2899,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (708, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (708, 'Minion', '8 Bit', 1);
 
---Powder Ladz --CardIndex 1210 --CharacterIndex 1113 --ExploreCharacterIndex 709
+--Powder Ladz --CardIndex 1210 --CharacterIndex 814 --ExploreCharacterIndex 709
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Powder Ladz',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Loot_Stash/Card_Warband_Loot_Stash_Powder_Ladz_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Loot_Stash/Card_Warband_Loot_Stash_Powder_Ladz_2.0_back.png', 
@@ -2907,9 +2907,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 '');  --!! unavailable !!
 insert into Characters (CardIndex) VALUES (1210); 
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1113, 1); --Citrine  --!! unavailable !!
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (814, 1); --Citrine  --!! unavailable !!
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (1113,
+VALUES (814,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Loot_Stash/Standies/Powder_Ladz_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Loot_Stash/Standies/Powder_Ladz_2.0_back.png', 
 'Either', 'Large', 'Orc', 5, 1, '1R', '0ST', '0ST', '3B', 1, 0);
@@ -2921,7 +2921,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (709, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (709, 'Minion', '8 Bit', 3);
 
---Shiny Boss --CardIndex 1211 --CharacterIndex 1114 --ExploreCharacterIndex 710
+--Shiny Boss --CardIndex 1211 --CharacterIndex 815 --ExploreCharacterIndex 710
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Shiny Boss',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Loot_Stash/Card_Warband_Loot_Stash__Shiny_Boss_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Loot_Stash/Card_Warband_Loot_Stash__Shiny_Boss_2.0_back.png', 
@@ -2929,9 +2929,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 '');  --!! unavailable !!
 insert into Characters (CardIndex) VALUES (1211); 
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1114, 1); --Citrine  --!! unavailable !!
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (815, 1); --Citrine  --!! unavailable !!
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (1114,
+VALUES (815,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Loot_Stash/Standies/_Shiny_Boss_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Loot_Stash/Standies/_Shiny_Boss_2.0_back.png', 
 'Either', 'Small', 'Chimera', 8, 2, '2B 1R', '1ST', '2B', '3B', 2, 0);
@@ -2945,7 +2945,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (710
 
 
 --Maleficent Idol
---Maleficent Idol	--CardIndex 1212 --CharacterIndex 1115 --ExploreCharacterIndex 711
+--Maleficent Idol	--CardIndex 1212 --CharacterIndex 816 --ExploreCharacterIndex 711
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Maleficent Idol',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Maleficent_Idol/Card_Warband_Maleficent_Idol_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Maleficent_Idol/Card_Warband_Maleficent_Idol_2.0_back.png', 
@@ -2953,9 +2953,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Usually Araphel''s dealings and worship are done in secret. Her followers move about in the shadows, applying subtle influence and spinning devious webs. However, there are places in the Dark Realm and the hidden corners of Crystalia where Araphel is worshipped openly. In these places a Maleficent Idol is erected in Araphel''s honor, carved in her likeness with the chained heart that has come to signify devotion to her.');
 insert into Characters (CardIndex) VALUES (1212); 
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1115, 0); --Amethyst
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (816, 0); --Amethyst
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (1115,
+VALUES (816,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Maleficent_Idol/Standies/Maleficent_Idol_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Maleficent_Idol/Standies/Maleficent_Idol_2.0_back.png', 
 'Feminine', 'Small', 'Spawning Point', 0, 0, '', '2ST', '', '', 3, 0);
@@ -2965,7 +2965,7 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (711
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (711, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (711, 'Spawning Point', 'Start', 0);
 
---Maleficent Idol Errata	--CardIndex 1213 --CharacterIndex 1116 --ExploreCharacterIndex 712
+--Maleficent Idol Errata	--CardIndex 1213 --CharacterIndex 817 --ExploreCharacterIndex 712
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Maleficent Idol Errata',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Maleficent_Idol/Card_Warband_Maleficent_Idol_Errata_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Maleficent_Idol/Card_Warband_Maleficent_Idol_Errata_2.0_back.png', 
@@ -2973,9 +2973,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Usually Araphel''s dealings and worship are done in secret. Her followers move about in the shadows, applying subtle influence and spinning devious webs. However, there are places in the Dark Realm and the hidden corners of Crystalia where Araphel is worshipped openly. In these places a Maleficent Idol is erected in Araphel''s honor, carved in her likeness with the chained heart that has come to signify devotion to her.');
 insert into Characters (CardIndex) VALUES (1213); 
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1116, 0); --Amethyst
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (817, 0); --Amethyst
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (1116,
+VALUES (817,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Maleficent_Idol/Standies/Maleficent_Idol_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Maleficent_Idol/Standies/Maleficent_Idol_2.0_back.png', 
 'Feminine', 'Large', 'Spawning Point', 0, 0, '', '2ST', '', '', 3, 0);
@@ -2985,7 +2985,7 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (712
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (712, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (712, 'Spawning Point', 'Start', 0);
 
---Devout of Araphel --CardIndex 1214 --CharacterIndex 1117 --ExploreCharacterIndex 713
+--Devout of Araphel --CardIndex 1214 --CharacterIndex 818 --ExploreCharacterIndex 713
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Devout of Araphel',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Maleficent_Idol/Card_Warband_Maleficent_Idol_Devout_of_Araphel_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Maleficent_Idol/Card_Warband_Maleficent_Idol_Devout_of_Araphel_2.0_back.png', 
@@ -2993,9 +2993,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Araphel has gained significant popularity among Crystalia''s riftling population. As the Midnight Queen has risen to power and the shadow of the Dark Consul covers the realms, riftlings are increasingly viewed with suspicion and fear. This has seen them increasingly susceptible to Araphel''s whispers, which promise freedom and retribution. Many are so bitter that they allow their priests to mark them with a curse that triggers upon their death, powered by their very souls.');
 insert into Characters (CardIndex) VALUES (1214);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1117, 0); --Amethyst
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (818, 0); --Amethyst
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (1117,
+VALUES (818,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Maleficent_Idol/Standies/Devout_of_Araphel_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Maleficent_Idol/Standies/Devout_of_Araphel_2.0_back.png', 
 'Either', 'Small', 'Riftling', 5, 1, '3B', '0ST', '1B', '3B', 1, 0);
@@ -3004,7 +3004,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (713, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (713, 'Minion', '8 Bit',1);
 
---Heartbound --CardIndex 1215 --CharacterIndex 1118 --ExploreCharacterIndex 714
+--Heartbound --CardIndex 1215 --CharacterIndex 819 --ExploreCharacterIndex 714
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Heartbound',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Maleficent_Idol/Card_Warband_Maleficent_Idol_Heartbound_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Maleficent_Idol/Card_Warband_Maleficent_Idol_Heartbound_2.0_back.png', 
@@ -3012,9 +3012,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Heartbound are those followers of Araphel who have taken their devotion one step further. Through an obscene ritual, the Heartbound have linked their very souls to Araphel, allowing them to channel her power.');
 insert into Characters (CardIndex) VALUES (1215); 
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1118, 0); --Amethyst
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (819, 0); --Amethyst
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (1118,
+VALUES (819,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Maleficent_Idol/Standies/Heartbound_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Maleficent_Idol/Standies/Heartbound_2.0_back.png', 
 'Masculine', 'Small', 'Riftling', 5, 2, '3B', '1ST', '2B 1R', '1B', 2, 0);
@@ -3026,7 +3026,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (714, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (714, 'Minion', '8 Bit', 2);
 
---Master of Chains --CardIndex 1216 --CharacterIndex 1119 --ExploreCharacterIndex 715
+--Master of Chains --CardIndex 1216 --CharacterIndex 820 --ExploreCharacterIndex 715
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Master of Chains',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Maleficent_Idol/Card_Warband_Maleficent_Idol_Master_of_Chains_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Maleficent_Idol/Card_Warband_Maleficent_Idol_Master_of_Chains_2.0_back.png', 
@@ -3034,9 +3034,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Part prophet, part proselytizer, a Master of Chains offers to deliver riftlings from the oppression the suspicions of Crystalians as placed upon them. "Do not be bound by your chains, instead master them!" So skilled are these priests, that most Devoted do not realize they are exchanging oppression for subjugation.');
 insert into Characters (CardIndex) VALUES (1216); 
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1119, 0); --Amethyst
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (820, 0); --Amethyst
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (1119,
+VALUES (820,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Maleficent_Idol/Standies/Master_of_Chains_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Maleficent_Idol/Standies/Master_of_Chains_2.0_back.png', 
 'Feminine', 'Small', 'Demon', 5, 2, '1B 1G', '1G', '2B 1R', '3B', 3, 0);
@@ -3049,7 +3049,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (715
 
 
 --Nether Clutch
---Nether Clutch --CardIndex 1217 --CharacterIndex 1120 --ExploreCharacterIndex 716
+--Nether Clutch --CardIndex 1217 --CharacterIndex 821 --ExploreCharacterIndex 716
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Nether Clutch',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Nether_Clutch/Card_Warband_Nether_Clutch_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Nether_Clutch/Card_Warband_Nether_Clutch_2.0_back.png', 
@@ -3057,9 +3057,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Proximity to the Dark Realm has seen the drakes of the Nether Rifts grow mighty beyond the other clutches throughout the realms of Crystalia. Their strength is linked inextricably to that of the Dark Realm, as the power of the Dark Consul ebbs and flows, so too does the might of the drakes bound to him.');
 insert into Characters (CardIndex) VALUES (1217); 
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1120, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (821, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (1120,
+VALUES (821,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Nether_Clutch/Standies/Nether_Clutch_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Nether_Clutch/Standies/Nether_Clutch_2.0_back.png', 
 'Neither', 'Small', 'Spawning Point', 0, 0, '', '1ST', '', '', 3, 0);
@@ -3069,7 +3069,7 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (716
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (716, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (716, 'Spawning Point', 'Start', 0);
 
---Nether Hatchlings --CardIndex 1218 --CharacterIndex 1121 --ExploreCharacterIndex 717
+--Nether Hatchlings --CardIndex 1218 --CharacterIndex 822 --ExploreCharacterIndex 717
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Nether Hatchlings',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Nether_Clutch/Card_Warband_Nether_Clutch_Nether_Hatchlings_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Nether_Clutch/Card_Warband_Nether_Clutch_Nether_Hatchlings_2.0_back.png', 
@@ -3077,9 +3077,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Particularly playful, the hatchling drakes of the Nether rifts do not understand where play ends, combat begins, or cruelty reigns. Many a demon has fallen prey to a small pack of hatchlings whose playful behavior turned to tragic end.');
 insert into Characters (CardIndex) VALUES (1218);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1121, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (822, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (1121,
+VALUES (822,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Nether_Clutch/Standies/Nether_Hatchlings_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Nether_Clutch/Standies/Nether_Hatchlings_2.0_back.png', 
 'Either', 'Small', 'Drake', 6, 2, '2B', '0ST', '2B', '3B', 2, 0);
@@ -3089,7 +3089,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (717, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (717, 'Minion', '8 Bit', 1);
 
---Nether Whelp --CardIndex 1219 --CharacterIndex 1122 --ExploreCharacterIndex 718
+--Nether Whelp --CardIndex 1219 --CharacterIndex 823 --ExploreCharacterIndex 718
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Nether Whelp',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Nether_Clutch/Card_Warband_Nether_Clutch_Nether_Whelp_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Nether_Clutch/Card_Warband_Nether_Clutch_Nether_Whelp_2.0_back.png', 
@@ -3097,9 +3097,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Nether whelps tend to be solitary hunters. Staking out large territories, they mirror their dragon kin''s covetous tendencies, hoarding shiny baubles and bits of coin.');
 insert into Characters (CardIndex) VALUES (1219); 
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1122, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (823, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (1122,
+VALUES (823,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Nether_Clutch/Standies/Nether_Whelp_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Nether_Clutch/Standies/Nether_Whelp_2.0_back.png', 
 'Either', 'Large', 'Drake', 6, 1, '2B 1R', '0ST', '3B', '3B', 1, 0);
@@ -3110,7 +3110,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (718, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (718, 'Minion', '8 Bit', 1);
 
---Nether Wyrmling --CardIndex 1220 --CharacterIndex 1123 --ExploreCharacterIndex 719
+--Nether Wyrmling --CardIndex 1220 --CharacterIndex 824 --ExploreCharacterIndex 719
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Nether Wyrmling',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Nether_Clutch/Card_Warband_Nether_Clutch_Nether_Wyrmling_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Nether_Clutch/Card_Warband_Nether_Clutch_Nether_Wyrmling_2.0_back.png', 
@@ -3118,9 +3118,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Nether wyrmlings serve as the vanguard and scouts of the Dark Realm''s armies. Bursting forth from the Nether Rifts in vast flocks, they flood the skies of Crystalia searching for Crystalian settlements, patrols, and unwary parties of Heroes.');
 insert into Characters (CardIndex) VALUES (1220); 
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1123, 2); --Emerald
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (824, 2); --Emerald
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (1123,
+VALUES (824,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Nether_Clutch/Standies/Nether_Wyrmling_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Nether_Clutch/Standies/Nether_Wyrmling_2.0_back.png', 
 'Either', 'Large', 'Drake', 6, 2, '2B 1R', '0ST', '3B', '3B', 2, 0);
@@ -3138,7 +3138,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (719
 
 
 --Pinching Palace
---Pinching Palace --CardIndex 1221 --CharacterIndex 1124 --ExploreCharacterIndex 720
+--Pinching Palace --CardIndex 1221 --CharacterIndex 825 --ExploreCharacterIndex 720
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Pinching Palace',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Pinching_Palace/Card_Warband_Pinching_Palace_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Pinching_Palace/Card_Warband_Pinching_Palace_2.0_back.png', 
@@ -3146,9 +3146,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'A Lord of Crabs is only at home among crustaceans and other lurking denizens of the deep. They spend a great deal of time cultivating homes for their crabby friends, making sure they are protected, fed, and happy. This, in turn, makes the Lord of Crabs happy--even if only for a short while.');
 insert into Characters (CardIndex) VALUES (1221); 
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1124, 4); --Sapphire
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (825, 4); --Sapphire
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (1124,
+VALUES (825,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Pinching_Palace/Standies/Pinching_Palace_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Pinching_Palace/Standies/Pinching_Palace_2.0_back.png', 
 'Neither', 'Small', 'Spawning Point', 0, 0, '', '2ST', '', '', 3, 0);
@@ -3159,7 +3159,7 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (720
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (720, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (720, 'Spawning Point', 'Start', 0);
 
---Big Claw --CardIndex 1222 --CharacterIndex 1125 --ExploreCharacterIndex 721
+--Big Claw --CardIndex 1222 --CharacterIndex 826 --ExploreCharacterIndex 721
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Big Claw',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Pinching_Palace/Card_Warband_Pinching_Palace_Big_Claw_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Pinching_Palace/Card_Warband_Pinching_Palace_Big_Claw_2.0_back.png', 
@@ -3167,9 +3167,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Big Claws love to lurk in the muck and mud, happily eating anything and everything that wanders too close, including tasty Heroes. Determined (and hungry) Big Claws can be remarkably tenacious, latching onto their prey with their single enormous claw and refusing to let go. As they grow more agitated, the water and muck around them deepens, further bogging down their prey until escape is impossible.');
 insert into Characters (CardIndex) VALUES (1222);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1125, 4); --Sapphire
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (826, 4); --Sapphire
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (1125,
+VALUES (826,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Pinching_Palace/Standies/Big_Claw_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Pinching_Palace/Standies/Big_Claw_2.0_back.png', 
 'Either', 'Small', 'Crab', 8, 1, '3B', '1ST', '1B', '3B', 1, 0);
@@ -3181,7 +3181,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (721, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (721, 'Minion', '8 Bit', 1);
 
---Carapace Crawler --CardIndex 1223 --CharacterIndex 1126 --ExploreCharacterIndex 722
+--Carapace Crawler --CardIndex 1223 --CharacterIndex 827 --ExploreCharacterIndex 722
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Carapace Crawler',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Pinching_Palace/Card_Warband_Pinching_Palace_Carapace_Crawler_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Pinching_Palace/Card_Warband_Pinching_Palace_Carapace_Crawler_2.0_back.png', 
@@ -3189,9 +3189,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Carapace Crawlers grow to immense sizes extraordinarily quickly. As they grow, they molt constantly, leaving spiny shells littering the sands. These shells prove hazardous in a fight, and a canny warrior will use them to their advantage by pushing their opponents across the shells, causing them to trip and lose their balance.');
 insert into Characters (CardIndex) VALUES (1223); 
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1126, 4); --Sapphire
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (827, 4); --Sapphire
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (1126,
+VALUES (827,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Pinching_Palace/Standies/Carapace_Crawler_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Pinching_Palace/Standies/Carapace_Crawler_2.0_back.png', 
 'Either', 'Large', 'Crab', 8, 1, '2B', '0ST', '1B', '3B', 1, 0);
@@ -3204,7 +3204,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (722, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (722, 'Minion', '8 Bit', 1);
 
---Lord of the Crabs --CardIndex 1224 --CharacterIndex 1127 --ExploreCharacterIndex 723
+--Lord of the Crabs --CardIndex 1224 --CharacterIndex 828 --ExploreCharacterIndex 723
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Lord of the Crabs',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Pinching_Palace/Card_Warband_Pinching_Palace_Lord_of_the_Crabs_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Pinching_Palace/Card_Warband_Pinching_Palace_Lord_of_the_Crabs_2.0_back.png', 
@@ -3212,10 +3212,10 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Strange and reclusive, Lords of the Crabs haunt the misty coastlines of Crystalia like specters. Intensely private, they live in craggy crevices where the ocean waves crash upon the diffs. Able to form a bizarre communion with crustaceans and other oceanic life, these druids only answer the call of their elvish kin when forced, or when their territory is threatened.');
 insert into Characters (CardIndex) VALUES (1224); 
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1127, 3); --Ruby
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1127, 4); --Sapphire
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (828, 3); --Ruby
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (828, 4); --Sapphire
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (1127,
+VALUES (828,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Pinching_Palace/Standies/Lord_of_the_Crabs_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Pinching_Palace/Standies/Lord_of_the_Crabs_2.0_back.png', 
 'Feminine', 'Small', 'Nether Elf', 8, 3, '1B', '3B', '2R', '3B', 3, 0);
@@ -3233,7 +3233,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (723
 
 
 --Sand Spire
---Sand Spire --CardIndex 1225 --CharacterIndex 1128 --ExploreCharacterIndex 724
+--Sand Spire --CardIndex 1225 --CharacterIndex 829 --ExploreCharacterIndex 724
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Sand Spire',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Sand_Spire/Card_Warband_Sand_Spire_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Sand_Spire/Card_Warband_Sand_Spire_2.0_back.png', 
@@ -3241,10 +3241,10 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Arcadian nether elves are nomadic by nature and enjoy a thriving culture around horsemanship. Even among the Crystalian nobility, many say Arcadian stallions are the finest in all the realms. In contrast to many other nether elves, Arcadian nether elves have regular and mostly peaceful dealings with the various other cultures which call the dunes home. This is likely due to the harsh nature of the dunes. What meager resources it provides must be carefully cultivated and maintained, even through warfare. Despite this, Arcadian nether elves are wholly devoted to the Dark Consul and the Midnight Queen, ready to answer their call without hesitation.');
 insert into Characters (CardIndex) VALUES (1225); 
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1128, 1); --Citrine
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1128, 3); --Ruby
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (829, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (829, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (1128,
+VALUES (829,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Sand_Spire/Standies/Sand_Spire_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Sand_Spire/Standies/Sand_Spire_2.0_back.png', 
 'Neither', 'Small', 'Spawning Point', 0, 0, '', '1ST', '', '', 3, 0);
@@ -3255,7 +3255,7 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (724
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (724, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (724, 'Spawning Point', 'Start', 0);
 
---Desert Blade --CardIndex 1226 --CharacterIndex 1129 --ExploreCharacterIndex 725
+--Desert Blade --CardIndex 1226 --CharacterIndex 830 --ExploreCharacterIndex 725
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Desert Blade',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Sand_Spire/Card_Warband_Sand_Spire_Desert_Blade_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Sand_Spire/Card_Warband_Sand_Spire_Desert_Blade_2.0_back.png', 
@@ -3263,10 +3263,10 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'A specialized caste within the Blackblades, Desert Blades have adapted their fighting style to the unique conditions of the Arcadian Dunes. Eschewing the traditional heavy plate armor common to their discipline, Desert Blades are lighter and faster opponents than their kin.');
 insert into Characters (CardIndex) VALUES (1226);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1129, 1); --Citrine
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1129, 3); --Ruby
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (830, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (830, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (1129,
+VALUES (830,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Sand_Spire/Standies/Desert_Blade_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Sand_Spire/Standies/Desert_Blade_2.0_back.png', 
 'Masculine', 'Small', 'Nether Elf', 7, 1, '2B 1R', '1ST', '3B', '3B', 1, 0);
@@ -3277,7 +3277,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (725, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (725, 'Minion', '8 Bit', 1);
 
---Dune Hunter --CardIndex 1227 --CharacterIndex 1130 --ExploreCharacterIndex 726
+--Dune Hunter --CardIndex 1227 --CharacterIndex 831 --ExploreCharacterIndex 726
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Dune Hunter',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Sand_Spire/Card_Warband_Sand_Spire_Dune_Hunter_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Sand_Spire/Card_Warband_Sand_Spire_Dune_Hunter_2.0_back.png', 
@@ -3285,10 +3285,10 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'True to their name, Dune Hunters are master trackers and hunters of the dunes. Skilled in survival and trapping techniques, Dune Hunters will patiently stalk Heroes for days, using subtle tricks and bluffs to guide, lure, and herd their target into ambush.');
 insert into Characters (CardIndex) VALUES (1227); 
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1130, 1); --Citrine
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1130, 2); --Emerald
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (831, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (831, 2); --Emerald
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (1130,
+VALUES (831,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Sand_Spire/Standies/Dune_Hunter_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Sand_Spire/Standies/Dune_Hunter_2.0_back.png', 
 'Masculine', 'Small', 'Nether Elf', 7, 1, '2B', '1ST', '3B', '3B', 1, 0);
@@ -3300,7 +3300,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (726, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (726, 'Minion', '8 Bit', 1);
 
---Silk Knife --CardIndex 1228 --CharacterIndex 1131 --ExploreCharacterIndex 727
+--Silk Knife --CardIndex 1228 --CharacterIndex 832 --ExploreCharacterIndex 727
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Silk Knife',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Sand_Spire/Card_Warband_Sand_Spire_Silk_Knife_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Sand_Spire/Card_Warband_Sand_Spire_Silk_Knife_2.0_back.png', 
@@ -3308,10 +3308,10 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Graceful, beautiful, silent, deadly--all words used to describe the assassins known as the Cult of Silk. Even among the nether elves none know who truly controls the Cult of Silk. Their assassins, known as Knives, have never been captured alive. Over the centuries, the Cult of Silk has been implicated in the death of Heroes, monstrous warlords, nether elves, and even the Consul''s own dungeon bosses. Indeed, even the Midnight Queen maintains only a tenuous truce with the cult and its mysterious leader.');
 insert into Characters (CardIndex) VALUES (1228); 
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1131, 1); --Citrine
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1131, 3); --Ruby
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (832, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (832, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (1131,
+VALUES (832,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Sand_Spire/Standies/Silk_Knife_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Sand_Spire/Standies/Silk_Knife_2.0_back.png', 
 'Feminine', 'Small', 'Nether Elf', 8, 3, '3B 1R', '1B', '3B', '3B', 3, 0);
@@ -3328,7 +3328,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (727
 
 
 --Scrap Tower
---Scrap Tower --CardIndex 1229 --CharacterIndex 1132 --ExploreCharacterIndex 728
+--Scrap Tower --CardIndex 1229 --CharacterIndex 833 --ExploreCharacterIndex 728
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Scrap Tower',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Scrap_Tower/Card_Warband_Scrap_Tower_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Scrap_Tower/Card_Warband_Scrap_Tower_2.0_back.png', 
@@ -3336,9 +3336,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'The gnomish artificer who constructed Daemonus was cast out from his guild and banished, eventually finding his way to the Undercove.  Deep within the grinding bowels of Clockwork Cove he gathered the other tinkerers, artificiers, and forgemasters who had been cast aside or refused entry by the guilds.  From them the Scrap Guild was born, and their cruel inventions have become favorites of dungeons bosses looking for extra dungeon security.');
 insert into Characters (CardIndex) VALUES (1229); 
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1132, 3); --Ruby
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (833, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (1132,
+VALUES (833,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Scrap_Tower/Standies/Scrap_Tower_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Scrap_Tower/Standies/Scrap_Tower_2.0_back.png', 
 'Neither', 'Small', 'Spawning Point', 0, 0, '', '1ST', '', '', 3, 0);
@@ -3348,7 +3348,7 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (728
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (728, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (728, 'Spawning Point', 'Start', 0);
 
---Dunce --CardIndex 1230 --CharacterIndex 1133 --ExploreCharacterIndex 729
+--Dunce --CardIndex 1230 --CharacterIndex 834 --ExploreCharacterIndex 729
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Dunce',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Scrap_Tower/Card_Warband_Scrap_Tower_Dunce_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Scrap_Tower/Card_Warband_Scrap_Tower_Dunce_2.0_back.png', 
@@ -3356,9 +3356,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Cackling gnomes, raving madmen, clever goblins, and more make up the ranks of the anarchic Scrap Guild.  Most, despite their crazed brilliance, were considered failures outside the Undercove and so they proudly claim the moniker of Dunce as their fiendish invetions thwart Heroes'' dungeon adventures.');
 insert into Characters (CardIndex) VALUES (1230);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1133, 3); --Ruby
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (834, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (1133,
+VALUES (834,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Scrap_Tower/Standies/Dunce_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Scrap_Tower/Standies/Dunce_2.0_back.png', 
 'Masculine', 'Small', 'Gnome', 4, 1, '0ST', '0ST', '3B', '3B', 1, 0);
@@ -3369,7 +3369,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (729, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (729, 'Minion', '8 Bit', 1);
 
---Gate Crasher --CardIndex 1231 --CharacterIndex 1134 --ExploreCharacterIndex 730
+--Gate Crasher --CardIndex 1231 --CharacterIndex 835 --ExploreCharacterIndex 730
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Gate Crasher',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Scrap_Tower/Card_Warband_Scrap_Tower_Gate_Crasher_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Scrap_Tower/Card_Warband_Scrap_Tower_Gate_Crasher_2.0_back.png', 
@@ -3377,9 +3377,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'No riddle to pass.  Just smash.  Smash.  SMASH!');
 insert into Characters (CardIndex) VALUES (1231); 
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1134, 3); --Ruby
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (835, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (1134,
+VALUES (835,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Scrap_Tower/Standies/Gate_Crasher_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Scrap_Tower/Standies/Gate_Crasher_2.0_back.png', 
 'Neither', 'Small', 'Construct', 0, 1, '1B 1R', '1G', '0ST', '0ST', 3, 0);
@@ -3391,7 +3391,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (730, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (730, 'Minion', '8 Bit', 1);
 
---Grim Oculus --CardIndex 1232 --CharacterIndex 1135 --ExploreCharacterIndex 731
+--Grim Oculus --CardIndex 1232 --CharacterIndex 836 --ExploreCharacterIndex 731
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Grim Oculus',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Scrap_Tower/Card_Warband_Scrap_Tower_Grim_Oculus_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Scrap_Tower/Card_Warband_Scrap_Tower_Grim_Oculus_2.0_back.png', 
@@ -3399,10 +3399,10 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 '');--!! unavailable !!
 insert into Characters (CardIndex) VALUES (1232); 
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1135, 1); --Citrine
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1135, 3); --Ruby
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (836, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (836, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (1135,
+VALUES (836,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Scrap_Tower/Standies/Grim_Oculus_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Scrap_Tower/Standies/Grim_Oculus_2.0_back.png', 
 'Neither', 'Small', 'Construct', 0, 1, '0ST', '2ST', '2B 1R', '0ST', 2, 0);
@@ -3413,7 +3413,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (731, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (731, 'Minion', '16 Bit', 3); 
 
---Kabomb --CardIndex 1233 --CharacterIndex 1136 --ExploreCharacterIndex 732
+--Kabomb --CardIndex 1233 --CharacterIndex 837 --ExploreCharacterIndex 732
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('',
 '', 
 '', 
@@ -3422,7 +3422,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 '');
 insert into Characters (CardIndex) VALUES (1233); 
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (1136,
+VALUES (837,
 '', 
 '', 
 '', '', '', 0, 0, '', '', '', '', 0, 0);
@@ -3430,7 +3430,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (732
 
 
 --Sewer Pipe
---Sewer Pipe --CardIndex 1234 --CharacterIndex 1137 --ExploreCharacterIndex 733
+--Sewer Pipe --CardIndex 1234 --CharacterIndex 838 --ExploreCharacterIndex 733
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Sewer Pipe',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Sewer_Pipe/Card_Warband_Sewer_Pipe_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Sewer_Pipe/Card_Warband_Sewer_Pipe_2.0_back.png', 
@@ -3438,9 +3438,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Beneath the bellowing forges, the clanking constructs, and the grinding cogs of Clockwork Cove lies the Undercove, a bastion for the forgotten and dispossessed. These lost children of the sewer band together into loose gangs of thieves and thugs all striving to survive. It is no surprise then that the Dark Consul finds the Undercove a rich recruitment ground for new agents to advance his dark designs.');
 insert into Characters (CardIndex) VALUES (1234); 
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1137, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (838, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (1137,
+VALUES (838,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Sewer_Pipe/Standies/Sewer_Pipe_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Sewer_Pipe/Standies/Sewer_Pipe_2.0_back.png', 
 'Neither', 'Small', 'Spawning Point', 0, 0, '', '1ST', '', '', 3, 0);
@@ -3450,7 +3450,7 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (733
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (733, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (733, 'Spawning Point', 'Start', 0);
 
---Fetch --CardIndex 1235 --CharacterIndex 1138 --ExploreCharacterIndex 734
+--Fetch --CardIndex 1235 --CharacterIndex 839 --ExploreCharacterIndex 734
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Fetch',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Sewer_Pipe/Card_Warband_Sewer_Pipe_Fetch_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Sewer_Pipe/Card_Warband_Sewer_Pipe_Fetch_2.0_back.png', 
@@ -3458,9 +3458,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Fetches are brutal-minded goblins that lack the sneakiness and finesse to become good thieves. Instead, they serve as thugs and collectors within the Pauper Prince''s ranks, using their nets to ensnare their victims allowing the rest of the gang to easily see to the "retrieval" of goods.');
 insert into Characters (CardIndex) VALUES (1235);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1138, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (839, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (1138,
+VALUES (839,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Sewer_Pipe/Standies/Fetch_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Sewer_Pipe/Standies/Fetch_2.0_back.png',
 'Masculine', 'Small', 'Goblin', 7, 1, '3B', '1ST', '1B', '2R', 1, 0);
@@ -3472,7 +3472,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (734, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (734, 'Minion', '8 Bit', 1);
 
---Guttersnipe --CardIndex 1236 --CharacterIndex 1139 --ExploreCharacterIndex 735
+--Guttersnipe --CardIndex 1236 --CharacterIndex 840 --ExploreCharacterIndex 735
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Guttersnipe',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Sewer_Pipe/Card_Warband_Sewer_Pipe_Guttersnipe_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Sewer_Pipe/Card_Warband_Sewer_Pipe_Guttersnipe_2.0_back.png', 
@@ -3480,9 +3480,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Nimble and quick-fingered, Guttersnipes canvas both the Undercove and the Cove Above collecting the Prince''s Due. When simple sneakiness or diversion is not sufficient to conceal their actions, Guttersnipes will light the small braziers that hang from their belts, filling the area in clouds of smoke.');
 insert into Characters (CardIndex) VALUES (1236); 
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1139, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (840, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (1139,
+VALUES (840,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Sewer_Pipe/Standies/Guttersnipe_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Sewer_Pipe/Standies/Guttersnipe_2.0_back.png', 
 'Neither', 'Small', 'Goblin', 7, 1, '3B', '0ST', '1B', '1B 1R', 1, 0);
@@ -3494,7 +3494,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (735, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (735, 'Minion', '8 Bit', 1);
 
---Moffet --CardIndex 1237 --CharacterIndex 1140 --ExploreCharacterIndex 736
+--Moffet --CardIndex 1237 --CharacterIndex 841 --ExploreCharacterIndex 736
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Moffet',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Sewer_Pipe/Card_Warband_Sewer_Pipe_Moffet_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Sewer_Pipe/Card_Warband_Sewer_Pipe_Moffet_2.0_back.png', 
@@ -3502,9 +3502,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Trusted lieutenants within the Pauper Prince''s ranks, Moffets lead gangs of thieves to collect the Prince''s Due. Moffets rise to their station through displays of cunning, deviousness, and treachery all of which are inevitably employed towards the removal of the Moffet before them.');
 insert into Characters (CardIndex) VALUES (1237); 
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1140, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (841, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (1140,
+VALUES (841,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Sewer_Pipe/Standies/Moffet_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Sewer_Pipe/Standies/Moffet_2.0_back.png', 
 'Feminine', 'Small', 'Goblin', 7, 2, '2B', '3B', '3B', '2B 1R', 3, 0);
@@ -3518,7 +3518,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (736
 
 
 --Shadow Tower
---Shadow Tower --CardIndex 1238 --CharacterIndex 1141 --ExploreCharacterIndex 737
+--Shadow Tower --CardIndex 1238 --CharacterIndex 842 --ExploreCharacterIndex 737
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Shadow Tower',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Shadow_Tower/Card_Warband_Shadow_Tower_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Shadow_Tower/Card_Warband_Shadow_Tower_2.0_back.png', 
@@ -3526,10 +3526,10 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'When the Dark Realm breached the light of Crystalia, it tore a rent between the two worlds known as the Nether Rifts. Much of the land which was lost to the newly formed Nether Rifts was of the Fae Wood. As the rifts opened, entire villages and cities of deeproot elves were swallowed by the Dark Realm. Forced to survive within the cold darkness of the Dark Consul''s domain, the elves became dark reflections of what they once were. Twisted by the corrupting influence of shadow, they became vile and villainous, a scourge upon all of Crystalia.');
 insert into Characters (CardIndex) VALUES (1238); 
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1141, 1); --Citrine
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1141, 3); --Ruby
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (842, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (842, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (1141,
+VALUES (842,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Shadow_Tower/Standies/Shadow_Tower_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Shadow_Tower/Standies/Shadow_Tower_2.0_back.png', 
 'Neither', 'Small', 'Spawning Point', 0, 0, '', '1ST', '', '', 3, 0);
@@ -3540,7 +3540,7 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (737
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (737, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (737, 'Spawning Point', 'Start', 0);
 
---Tower Arbalist --CardIndex 1239 --CharacterIndex 1142 --ExploreCharacterIndex 738
+--Tower Arbalist --CardIndex 1239 --CharacterIndex 843 --ExploreCharacterIndex 738
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Tower Arbalist',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Shadow_Tower/Card_Warband_Shadow_Tower_Tower_Arbalist_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Shadow_Tower/Card_Warband_Shadow_Tower_Tower_Arbalist_2.0_back.png', 
@@ -3548,10 +3548,10 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Nether elves see little reason to sacrifice themselves needlessly in battle. Because of this, the large majority of nether elf battalions consist of ranks upon ranks of Arbalists wielding wicked crossbows. Before an enemy is able to engage the nether elves'' lines, they must withstand a withering barrage of bolts.');
 insert into Characters (CardIndex) VALUES (1239);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1142, 1); --Citrine
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1142, 3); --Ruby
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (843, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (843, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (1142,
+VALUES (843,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Shadow_Tower/Standies/Arbalist_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Shadow_Tower/Standies/Arbalist_2.0_back.png', 
 'Masculine', 'Small', 'Nether Elf', 7, 1, '2B', '1ST', '3B', '3B', 1, 0);
@@ -3564,7 +3564,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (738, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (738, 'Minion', '8 Bit', 1);
 
---Tower Blackblade --CardIndex 1240 --CharacterIndex 1143 --ExploreCharacterIndex 739
+--Tower Blackblade --CardIndex 1240 --CharacterIndex 844 --ExploreCharacterIndex 739
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Tower Blackblade',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Shadow_Tower/Card_Warband_Shadow_Tower_Tower_Blackblade_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Shadow_Tower/Card_Warband_Shadow_Tower_Tower_Blackblade_2.0_back.png', 
@@ -3572,10 +3572,10 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Blackblades are the standard infantry which comprise the bulk of the Midnight Queen''s forces. However, Blackblades are anything but "standard." With military careers spanning centuries, Blackblades are devoted to the art of soldiery and martial combat. Cruel and utterly without mercy, Blackblades are instruments of death and destruction.');
 insert into Characters (CardIndex) VALUES (1240); 
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1143, 1); --Citrine
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1143, 3); --Ruby
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (844, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (844, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (1143,
+VALUES (844,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Shadow_Tower/Standies/Blackblade_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Shadow_Tower/Standies/Blackblade_2.0_back.png', 
 'Masculine', 'Small', 'Nether Elf', 7, 1, '2B 1R', '1ST', '3B', '3B', 1, 0);
@@ -3586,7 +3586,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (739, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (739, 'Minion', '8 Bit', 1);
 
---Tower Stalker --CardIndex 1241 --CharacterIndex 1144 --ExploreCharacterIndex 740
+--Tower Stalker --CardIndex 1241 --CharacterIndex 845 --ExploreCharacterIndex 740
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Tower Stalker',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Shadow_Tower/Card_Warband_Shadow_Tower_Tower_Stalker_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Shadow_Tower/Card_Warband_Shadow_Tower_Tower_Stalker_2.0_back.png', 
@@ -3594,10 +3594,10 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Tower Stalkers seek to identify the weakest link and remove it. Relishing in sowing dread and terror, a Tower Stalker will harry and toy with an adventuring party. Striking when Heroes become isolated or vulnerable, always seeking to keep the party guessing and off balance. Under such an assault, many lose heart and abandon their quest entirely.');
 insert into Characters (CardIndex) VALUES (1241); 
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1144, 1); --Citrine
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1144, 3); --Ruby
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (845, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (845, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (1144,
+VALUES (845,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Shadow_Tower/Standies/Stalker_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Shadow_Tower/Standies/Stalker_2.0_back.png', 
 'Feminine', 'Small', 'Nether Elf', 8, 3, '3B 1R', '1B', '3B', '3B', 3, 0);
@@ -3614,7 +3614,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (740
 
 
 --Shadow Warrens
---Shadow Warrens --CardIndex 1242 --CharacterIndex 1145 --ExploreCharacterIndex 741
+--Shadow Warrens --CardIndex 1242 --CharacterIndex 846 --ExploreCharacterIndex 741
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Shadow Warrens',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Shadow_Warrens/Card_Warband_Shadow_Warrens_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Shadow_Warrens/Card_Warband_Shadow_Warrens_2.0_back.png', 
@@ -3622,9 +3622,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Corsucating with the midnight energies of the Dark Realm, the kobolds of the Shadow Warrens are closely linked to the Dark Consul. Despite this, the cults of the Shadow Warrens are divided and fractious. The Cult of the First claims to be the original cult, tracing its lineage back to the Dark Consul''s first rise to power. The Cult of Shattered Night cares little for the other cults, relishing in assassination and intrigue. However, it is the Cult of the Dark that has recently drawn the most worry from the Heroes of Crystalia. Lead by the Demon Lord known only as The Destroyer, the Cult of the Dark has laid waste to every foe it has faced. It has become an endless tide of darkness consuming Crystalia bit by bit.');
 insert into Characters (CardIndex) VALUES (1242); 
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1145, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (846, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (1145,
+VALUES (846,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Shadow_Warrens/Standies/Shadow_Warrens_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Shadow_Warrens/Standies/Shadow_Warrens_2.0_back.png', 
 'Neither', 'Small', 'Paired Spawning Point', 0, 0, '', '1ST', '', '', 4, 0);
@@ -3634,7 +3634,7 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (741
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (741, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (741, 'Spawning Point', 'Start', 0);
 
---Dark Lobber --CardIndex 1243 --CharacterIndex 1146 --ExploreCharacterIndex 742
+--Dark Lobber --CardIndex 1243 --CharacterIndex 847 --ExploreCharacterIndex 742
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Dark Lobber',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Shadow_Warrens/Card_Warband_Shadow_Warrens_Dark_Lobber_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Shadow_Warrens/Card_Warband_Shadow_Warrens_Dark_Lobber_2.0_back.png', 
@@ -3642,9 +3642,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'The kobolds of the Nether Rifts plague the outskirts of the Fae Woods, and are a scourge upon the local wildlife. A particularly favored concoction is a stew simmered from rabid squirrels. Flung from their steaming slings, the stew inflicts strange madness and afflictions upon anyone that it touches.');
 insert into Characters (CardIndex) VALUES (1243);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1146, 2); --Emerald
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (847, 2); --Emerald
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (1146,
+VALUES (847,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Shadow_Warrens/Standies/Dark_Lobber_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Shadow_Warrens/Standies/Dark_Lobber_2.0_back.png', 
 'Neither', 'Small', 'Kobold', 7, 1, '2B', '0ST', '2B', '2B 1R', 1, 0);
@@ -3659,7 +3659,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (742, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (742, 'Elite', '8 Bit', 1);
 
---Dimwit --CardIndex 1244 --CharacterIndex 1147 --ExploreCharacterIndex 743
+--Dimwit --CardIndex 1244 --CharacterIndex 848 --ExploreCharacterIndex 743
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Dimwit',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Shadow_Warrens/Card_Warband_Shadow_Warrens_Dimwit_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Shadow_Warrens/Card_Warband_Shadow_Warrens_Dimwit_2.0_back.png', 
@@ -3667,9 +3667,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Dimwits are covetous and greedy creatures, constantly engaging in displays of one-upsmanship and bravado. Most Dimwits are absolutely certain in their superiority and are driven into fits of insane rage when confronted by Heroes whose gear gleams brighter than their own.');
 insert into Characters (CardIndex) VALUES (1244); 
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1147, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (848, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (1147,
+VALUES (848,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Shadow_Warrens/Standies/Dimwit_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Shadow_Warrens/Standies/Dimwit_2.0_back.png', 
 'Neither', 'Small', 'Kobold', 7, 1, '3B', '1ST', '2B', '1B 1R', 1, 0);
@@ -3679,7 +3679,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (743, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (743, 'Minion', '8 Bit', 1);
 
---Shadowscale --CardIndex 1245 --CharacterIndex 1148 --ExploreCharacterIndex 744
+--Shadowscale --CardIndex 1245 --CharacterIndex 849 --ExploreCharacterIndex 744
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Shadowscale',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Shadow_Warrens/Card_Warband_Shadow_Warrens_Shadowscale_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Shadow_Warrens/Card_Warband_Shadow_Warrens_Shadowscale_2.0_back.png', 
@@ -3687,10 +3687,10 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Shadowscales rise from the ranks of Dimwits by virtue of being bigger, stronger, and having acquired better loot than the others. Still prone to the same infighting, bickering, and jealousy of others, they occasionally deign to assist their lessers just to prove how magnanimous they truly are. However, such behavior typically leads to the collection of "protection" taxes after the battle.');
 insert into Characters (CardIndex) VALUES (1245); 
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1148, 1); --Citrine
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1148, 4); --Sapphire
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (849, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (849, 4); --Sapphire
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (1148,
+VALUES (849,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Shadow_Warrens/Standies/Shadowscale_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Shadow_Warrens/Standies/Shadowscale_2.0_back.png', 
 'Neither', 'Small', 'Kobold', 7, 2, '2R', '2ST', '2B', '1B 1R', 1, 0);
@@ -3701,7 +3701,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (744, 3); --Will 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (744, 'Elite', '8 Bit', 2);
 
---Shadow Priest --CardIndex 1246 --CharacterIndex 1149 --ExploreCharacterIndex 745
+--Shadow Priest --CardIndex 1246 --CharacterIndex 850 --ExploreCharacterIndex 745
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Shadow Priest',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Shadow_Warrens/Card_Warband_Shadow_Warrens_Shadow_Priest_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Shadow_Warrens/Card_Warband_Shadow_Warrens_Shadow_Priest_2.0_back.png', 
@@ -3709,9 +3709,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Shadow Priests are haughty and a bit insufferable to other kobolds. The Shadow Priests proximity to the Dark Realm grant them a certain sense of smug superiority over other kobolds, whom they feel have strayed too far from the dark. This view is heightened by the Lord of their cult, The Destroyer, who sees all creatures who have left the embrace of the Dark Realm as weak and insignificant.');
 insert into Characters (CardIndex) VALUES (1246); 
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1149, 3); --Ruby
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (850, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (1149,
+VALUES (850,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Shadow_Warrens/Standies/Shadow_Priest_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Shadow_Warrens/Standies/Shadow_Priest_2.0_back.png', 
 'Neither', 'Small', 'Kobold', 7, 3, '2B', '1B 1R', '2R', '1B 1R', 3, 0);
@@ -3724,7 +3724,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (745, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (745, 'Elite', '16 Bit', 2);
 
---Skewer --CardIndex 1247 --CharacterIndex 1150 --ExploreCharacterIndex 746
+--Skewer --CardIndex 1247 --CharacterIndex 851 --ExploreCharacterIndex 746
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Skewer',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Shadow_Warrens/Card_Warband_Shadow_Warrens_Skewer_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Shadow_Warrens/Card_Warband_Shadow_Warrens_Skewer_2.0_back.png', 
@@ -3732,9 +3732,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Skewers are the rabble of the Shadow Warrens. These unfortunate kobolds have never been strong enough to hold onto the weapons and armor they manage to scavenge from the battlefield, and lack the necessary hand-eye coordination to use a sling. In ordr to get some use out of them, they are given a spear and thrust to the head of the battle.');
 insert into Characters (CardIndex) VALUES (1247); 
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1150, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (851, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (1150,
+VALUES (851,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Shadow_Warrens/Standies/Skewer_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Shadow_Warrens/Standies/Skewer_2.0_back.png', 
 'Neither', 'Small', 'Kobold', 7, 1, '3B', '0ST', '2B', '1B 1R', 1, 0);
@@ -3746,7 +3746,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (746
 
 
 --Siege of the Citadel
---Nepharite Warlord --CardIndex 1248 --CharacterIndex 1151 --ExploreCharacterIndex 747
+--Nepharite Warlord --CardIndex 1248 --CharacterIndex 852 --ExploreCharacterIndex 747
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Nepharite Warlord',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Siege_of_the_Citadel/Card_Warband_Nepharite_Warlord_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Siege_of_the_Citadel/Card_Warband_Nepharite_Warlord_2.0_back.png', 
@@ -3754,9 +3754,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 '');
 insert into Characters (CardIndex) VALUES (1248); 
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1151, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (852, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (1151,
+VALUES (852,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Siege_of_the_Citadel/Standies/Nepharite_Warlord_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Siege_of_the_Citadel/Standies/Nepharite_Warlord_2.0_back.png', 
 'Neither', 'Large', 'Spawning Point', 2, 2, '2B 1R', '1ST', '2B 1R', '2B', 3, 0);
@@ -3771,7 +3771,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (747, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (747, 'Spawning Point', 'Start', 3);
 
---Necromutant --CardIndex 1249 --CharacterIndex 1152 --ExploreCharacterIndex 748
+--Necromutant --CardIndex 1249 --CharacterIndex 853 --ExploreCharacterIndex 748
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Necromutant',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Siege_of_the_Citadel/Card_Warband_Siege_of_the_Citadel_Necromutant_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Siege_of_the_Citadel/Card_Warband_Siege_of_the_Citadel_Necromutant_2.0_back.png', 
@@ -3779,9 +3779,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 '');
 insert into Characters (CardIndex) VALUES (1249);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1152, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (853, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (1152,
+VALUES (853,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Siege_of_the_Citadel/Standies/Siege_of_the_Citadel_Necromutant_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Siege_of_the_Citadel/Standies/Necromutant_2.0_back.png', 
 'Neither', 'Large', 'Chimera', 5, 2, '3B', '1ST', '1B', '1B', 2, 0);
@@ -3792,7 +3792,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (748, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (748, 'Elite', '8 Bit', 2);
 
---Undead Legionnaire --CardIndex 1250 --CharacterIndex 1153 --ExploreCharacterIndex 749
+--Undead Legionnaire --CardIndex 1250 --CharacterIndex 854 --ExploreCharacterIndex 749
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Undead Legionnaire',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Siege_of_the_Citadel/Card_Warband_Siege_of_the_Citadel_Undead_Legionnaire_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Siege_of_the_Citadel/Card_Warband_Siege_of_the_Citadel_Undead_Legionnaire_2.0_back.png', 
@@ -3800,9 +3800,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 '');
 insert into Characters (CardIndex) VALUES (1250); 
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1153, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (854, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (1153,
+VALUES (854,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Siege_of_the_Citadel/Standies/Undead_Legionnaire_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Siege_of_the_Citadel/Standies/Undead_Legionnaire_2.0_back.png', 
 'Neither', 'Small', 'Undead', 5, 1, '2B', '0ST', '1B', '0ST', 2, 0);
@@ -3815,7 +3815,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (749
 
 
 --Skull Stone
---Skull Stone --CardIndex 1251 --CharacterIndex 1154 --ExploreCharacterIndex 750
+--Skull Stone --CardIndex 1251 --CharacterIndex 855 --ExploreCharacterIndex 750
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Skull Stone',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Skull_Stone/Card_Warband_Skull_Stone_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Skull_Stone/Card_Warband_Skull_Stone_2.0_back.png', 
@@ -3823,9 +3823,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'A dominant race within the Dark Realm, orcs are hearty and violent by nature. Orcs congregate in huge tribes lead by the strongest or most cunning warrior among them. Under the guidance of a powerful warlord, orc tribes are scourges to the surrounding land and people. Caring little if they attack creatures of Light or Darkness, orcs care only for the thrill of the hunt and the chaos of battle.');
 insert into Characters (CardIndex) VALUES (1251); 
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1154, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (855, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (1154,
+VALUES (855,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Skull_Stone/Standies/Skull_Stone_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Skull_Stone/Standies/Skull_Stone_2.0_back.png', 
 'Neither', 'Small', 'Paired Spawning Point', 0, 0, '', '1ST', '', '', 4, 0);
@@ -3835,7 +3835,7 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (750
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (750, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (750, 'Spawning Point', 'Start', 0);
 
---Face Beater --CardIndex 1252 --CharacterIndex 1155 --ExploreCharacterIndex 751
+--Face Beater --CardIndex 1252 --CharacterIndex 856 --ExploreCharacterIndex 751
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Face Beater',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Skull_Stone/Card_Warband_Skull_Stone_Face_Beater_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Skull_Stone/Card_Warband_Skull_Stone_Face_Beater_2.0_back.png', 
@@ -3843,9 +3843,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Your face. I don''t like it. Come close little ugly face. Come''er. Don''t back away. That''s it. Stand right there. This will only take a moment.');
 insert into Characters (CardIndex) VALUES (1252);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1155, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (856, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (1155,
+VALUES (856,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Skull_Stone/Standies/Face_Beater_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Skull_Stone/Standies/Face_Beater_2.0_back.png', 
 'Neither', 'Small', 'Orc', 6, 1, '3B', '0ST', '1B', '2B', 2, 0);
@@ -3857,7 +3857,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (751, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (751, 'Minion', '8 Bit', 1);
 
---Knuckle Smasher --CardIndex 1253 --CharacterIndex 1156 --ExploreCharacterIndex 752
+--Knuckle Smasher --CardIndex 1253 --CharacterIndex 857 --ExploreCharacterIndex 752
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Knuckle Smasher',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Skull_Stone/Card_Warband_Skull_Stone_Knuckle_Smasher_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Skull_Stone/Card_Warband_Skull_Stone_Knuckle_Smasher_2.0_back.png', 
@@ -3865,9 +3865,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Look at my fists. They are not happy. They are so sad. Need to smash something. Need to hit something. Need to hit you. Need to hit you NOW!');
 insert into Characters (CardIndex) VALUES (1253); 
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1156, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (857, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (1156,
+VALUES (857,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Skull_Stone/Standies/Knuckle_Smasher_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Skull_Stone/Standies/Knuckle_Smasher_2.0_back.png', 
 'Neither', 'Small', 'Kobold', 7, 1, '3B', '1ST', '2B', '1B 1R', 1, 0);
@@ -3879,7 +3879,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (752, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (752, 'Elite', '8 Bit', 2);
 
---Neck Splitter --CardIndex 1254 --CharacterIndex 1157 --ExploreCharacterIndex 753
+--Neck Splitter --CardIndex 1254 --CharacterIndex 858 --ExploreCharacterIndex 753
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Neck Splitter',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Skull_Stone/Card_Warband_Skull_Stone_Neck_Splitter_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Skull_Stone/Card_Warband_Skull_Stone_Neck_Splitter_2.0_back.png', 
@@ -3887,9 +3887,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'My axe is sharp. My axe is thirsty. I will swing my axe. I will swing it again. And again. And again. My axe will thirst no more.');
 insert into Characters (CardIndex) VALUES (1254); 
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1157, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (858, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (1157,
+VALUES (858,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Skull_Stone/Standies/Neck_Splitter_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Skull_Stone/Standies/Neck_Splitter_2.0_back.png', 
 'Neither', 'Small', 'Orc', 6, 1, '3B', '0ST', '1B', '2B', 2, 0);
@@ -3902,7 +3902,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (753
 
 
 --Spawn of Servitude
---Spawn of Servitude --CardIndex 1255 --CharacterIndex 1158 --ExploreCharacterIndex 754
+--Spawn of Servitude --CardIndex 1255 --CharacterIndex 859 --ExploreCharacterIndex 754
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Spawn of Servitude',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Spawn_of_Servitude/Card_Warband_Spawn_of_Servitude_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Spawn_of_Servitude/Card_Warband_Spawn_of_Servitude_2.0_back.png', 
@@ -3910,9 +3910,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Succubi serve as Araphel''s demonic agents. Their ability to beguile, charm, and bend the minds of mortals make them uniquely suited to achieving Araphel''s aims. Succubi in the service of Araphel often have a Spawn of Servitude to use as a base of operations. Mortals who serve Araphel (knowingly or not) are often lured to a Spawn of Servitude to secure their loyalty, and enjoy the comfy, frilly pillows.');
 insert into Characters (CardIndex) VALUES (1255); 
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1158, 1); --Citrine
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (859, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (1158,
+VALUES (859,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Spawn_of_Servitude/Standies/Spawn_of_Servitude_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Spawn_of_Servitude/Standies/Spawn_of_Servitude_2.0_back.png', 
 'Neither', 'Small', 'Paired Spawning Point', 0, 0, '', '1ST', '', '', 4, 0);
@@ -3922,7 +3922,7 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (754
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (754, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (754, 'Spawning Point', 'Start', 0);
 
---Head Nurse --CardIndex 1256 --CharacterIndex 1159 --ExploreCharacterIndex 755
+--Head Nurse --CardIndex 1256 --CharacterIndex 860 --ExploreCharacterIndex 755
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Head Nurse',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Spawn_of_Servitude/Card_Warband_Spawn_of_Servitude_Head_Nurse_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Spawn_of_Servitude/Card_Warband_Spawn_of_Servitude_Head_Nurse_2.0_back.png', 
@@ -3930,9 +3930,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Head Nurses oversee other succubi, infiltrating and corrupting the mortal realm. They pose as healers, luring in those weary adventurers seeking shelter, comfort, and aid for their wounds. All of these things are provided, and soon the patient wonders why they ever need to leave. And if the Head Nurse, who saved their life, asks a favor, who are they to deny it? Who are they to deny her anything?');
 insert into Characters (CardIndex) VALUES (1256);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1159, 0); --Amethyst
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (860, 0); --Amethyst
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (1159,
+VALUES (860,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Spawn_of_Servitude/Standies/Head_Nurse_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Spawn_of_Servitude/Standies/Head_Nurse_2.0_back.png', 
 'Feminine', 'Small', 'Demon', 6, 2, '2B', '1B 1R', '1B 2R', '3B', 3, 0);
@@ -3944,7 +3944,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (755, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (755, 'Elite', '16 Bit', 2);
 
---Potion Mistress --CardIndex 1257 --CharacterIndex 1160 --ExploreCharacterIndex 756
+--Potion Mistress --CardIndex 1257 --CharacterIndex 861 --ExploreCharacterIndex 756
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Potion Mistress',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Spawn_of_Servitude/Card_Warband_Spawn_of_Servitude_Potion_Mistress_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Spawn_of_Servitude/Card_Warband_Spawn_of_Servitude_Potion_Mistress_2.0_back.png', 
@@ -3952,9 +3952,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'A Potion Mistress is a succubus with a talent for brewing potions and concoctions. They often serve under a Head Nurse, providing their superior with all of their newest and most devious brews. Make no mistake, they are not simple poisoners. Many of their potions have actual healing properties, but they often have the curious side effect of making the patient more susceptible to influence.');
 insert into Characters (CardIndex) VALUES (1257); 
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1160, 0); --Amethyst
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (861, 0); --Amethyst
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (1160,
+VALUES (861,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Spawn_of_Servitude/Standies/Potion_Mistress_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Spawn_of_Servitude/Standies/Potion_Mistress_2.0_back.png', 
 'Feminine', 'Small', 'Demon', 6, 2, '2B', '1ST', '2R', '3B', 2, 0);
@@ -3966,7 +3966,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (756, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (756, 'Minion', '8 Bit', 2);
 
---Wretch --CardIndex 1258 --CharacterIndex 1161 --ExploreCharacterIndex 757
+--Wretch --CardIndex 1258 --CharacterIndex 862 --ExploreCharacterIndex 757
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Wretch',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Spawn_of_Servitude/Card_Warband_Spawn_of_Servitude_Wretch_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Spawn_of_Servitude/Card_Warband_Spawn_of_Servitude_Wretch_2.0_back.png', 
@@ -3974,9 +3974,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Mortals who fall to the sway of succubi are always put to maximum use. No part of the mortal is wasted. While they are healthy and vibrant, they can be used to infiltrate, plot, and spread derision. And as they grow weaker and more frail they can still serve their mistress. And when they are nothing but a wretch, a drained husk of what they once were? Well, there is always a need for cannon fodder.');
 insert into Characters (CardIndex) VALUES (1258); 
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1161, 0); --Amethyst
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (862, 0); --Amethyst
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (1161,
+VALUES (862,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Spawn_of_Servitude/Standies/Wretch_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Spawn_of_Servitude/Standies/Wretch_2.0_back.png', 
 'Neither', 'Small', 'Demon', 6, 1, '3B', '0ST', '0ST', '3B', 1, 0);
@@ -3987,7 +3987,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (757
 
 
 --Spider Nest
---Spider Nest --CardIndex 1259 --CharacterIndex 1162 --ExploreCharacterIndex 758
+--Spider Nest --CardIndex 1259 --CharacterIndex 863 --ExploreCharacterIndex 758
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Spider Nest',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Spider_Nest/Card_Warband_Spider_Nest_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Spider_Nest/Card_Warband_Spider_Nest_2.0_back.png', 
@@ -3995,9 +3995,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Spiders have a natural affinity with darkness and shadow. Many of the fiendish varieties which call the Nether Rifts and Dark Realm home grow to remarkable sizes and can possess a startling intelluct. The nether elves strike bargains with spider nests'' Queens, and in exchange for their aid the spiders are granted their choice of hunting grounds and provided with protection from various heroic attempts at extermination.');
 insert into Characters (CardIndex) VALUES (1259); 
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1162, 2); --Emerald
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (863, 2); --Emerald
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (1162,
+VALUES (863,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Spider_Nest/Standies/Spider_Nest_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Spider_Nest/Standies/Spider_Nest_2.0_back.png', 
 'Neither', 'Small', 'Spawning Point', 0, 0, '', '1ST', '', '', 3, 0);
@@ -4007,7 +4007,7 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (758
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (758, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (758, 'Spawning Point', 'Start', 0);
 
---Crawler --CardIndex 1260 --CharacterIndex 1163 --ExploreCharacterIndex 759
+--Crawler --CardIndex 1260 --CharacterIndex 864 --ExploreCharacterIndex 759
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Crawler',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Spider_Nest/Card_Warband_Spider_Nest_Crawler_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Spider_Nest/Card_Warband_Spider_Nest_Crawler_2.0_back.png', 
@@ -4015,9 +4015,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'The Dark Realm is home to a vast array of poisonous and deadly bugs, spiders, scuttlers, and biters. These creepy crawly denizens of the the Dark are often tamed by Nether Elf witches, who usher their crawler swarms into battle, overwhelming their foes with bites, stings, and poisons.');
 insert into Characters (CardIndex) VALUES (1260);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1163, 2); --Emerald
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (864, 2); --Emerald
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (1163,
+VALUES (864,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Spider_Nest/Standies/Crawler_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Spider_Nest/Standies/Crawler_2.0_back.png', 
 'Neither', 'Large', 'Spider', 8, 1, '3B', '1ST', '1B', '3B', 1, 0);
@@ -4029,7 +4029,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (759, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (759, 'Minion', '8 Bit', 1);
 
---Shadow Spinner --CardIndex 1261 --CharacterIndex 1164 --ExploreCharacterIndex 760
+--Shadow Spinner --CardIndex 1261 --CharacterIndex 865 --ExploreCharacterIndex 760
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Shadow Spinner',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Spider_Nest/Card_Warband_Spider_Nest_Shadow_Spinner_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Spider_Nest/Card_Warband_Spider_Nest_Shadow_Spinner_2.0_back.png', 
@@ -4037,9 +4037,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Shadow spinners lurk within dark spaces of the the Nether Rifts, weaving webs of pure shadow to conceal their presence and ensnare their prey.');
 insert into Characters (CardIndex) VALUES (1261); 
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1164, 2); --Emerald
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (865, 2); --Emerald
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (1164,
+VALUES (865,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Spider_Nest/Standies/Shadow_Spinner_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Spider_Nest/Standies/Shadow_Spinner_2.0_back.png', 
 'Neither', 'Small', 'Spider', 8, 1, '2B', '0ST', '1B', '3B', 1, 0);
@@ -4053,7 +4053,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (760, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (760, 'Minion', '8 Bit', 1);
 
---Spider Speaker --CardIndex 1262 --CharacterIndex 1165 --ExploreCharacterIndex 761
+--Spider Speaker --CardIndex 1262 --CharacterIndex 866 --ExploreCharacterIndex 761
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Spider Speaker',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Spider_Nest/Card_Warband_Spider_Nest_Spider_Speaker_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Spider_Nest/Card_Warband_Spider_Nest_Spider_Speaker_2.0_back.png', 
@@ -4061,10 +4061,10 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'A revered priesthood, the Spider Speakers maintain the relationship between nether elves and the Queens of the various spider nests which populate Crystalia. Masters of poison and dark sorcery, Spider Speakers are a powerful, if not well loved, faction in nether elf society.');
 insert into Characters (CardIndex) VALUES (1262); 
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1165, 2); --Emerald
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1165, 3); --Ruby
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (866, 2); --Emerald
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (866, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (1165,
+VALUES (866,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Spider_Nest/Standies/Spider_Speaker_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Spider_Nest/Standies/Spider_Speaker_2.0_back.png', 
 'Feminine', 'Small', 'Nether Elf', 8, 3, '1B', '3B', '2R', '3B', 3, 0);
@@ -4081,7 +4081,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (761
 
 
 --Watch Tower
---Watch Tower --CardIndex 1263 --CharacterIndex 1166 --ExploreCharacterIndex 762
+--Watch Tower --CardIndex 1263 --CharacterIndex 867 --ExploreCharacterIndex 762
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Watch Tower',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Watch_Tower/Card_Warband_Watch_Tower_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Watch_Tower/Card_Warband_Watch_Tower_2.0_back.png', 
@@ -4089,9 +4089,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'The Crown Guard is the standing army of the King of Crystalia. Made up of highly trained and dedicated servants of the land, the Crown Guard is the primary bulwark against the forces of the Dark Consul. It is their duty to maintain order and security within Crystalia, so that Heroes have the freedom to strike at the heart of the Dark Consul''s dungeons. While Heroes and the Crown Guard work hand-in-hand, it is not uncommon for a Hero to cross the line with a bit of excessive celebration or occasional shady deal that puts them at odds with the Crown Guard.');
 insert into Characters (CardIndex) VALUES (1263); 
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1166, 4); --Sapphire
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (867, 4); --Sapphire
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (1166,
+VALUES (867,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Watch_Tower/Standies/Watch_Tower_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Watch_Tower/Standies/Watch_Tower_2.0_back.png',
 'Neither', 'Large', 'Spawning Point', 0, 0, '', '1ST', '', '', 3, 0);
@@ -4101,7 +4101,7 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (762
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (762, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (762, 'Spawning Point', 'Start', 0);
 
---Longbowman --CardIndex 1264 --CharacterIndex 1167 --ExploreCharacterIndex 763
+--Longbowman --CardIndex 1264 --CharacterIndex 858 --ExploreCharacterIndex 763
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Longbowman',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Watch_Tower/Card_Warband_Watch_Tower_Longbowman_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Watch_Tower/Card_Warband_Watch_Tower_Longbowman_2.0_back.png', 
@@ -4109,10 +4109,10 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Longbowmen train from an early age to become masters of their craft. Drawing bows too thick and powerful for a normal person to use, Longbowmen can rain arrows down upon their foes with remarkable speed and accuracy.');
 insert into Characters (CardIndex) VALUES (1264);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1167, 2); --Emerald
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1167, 4); --Sapphire
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (858, 2); --Emerald
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (858, 4); --Sapphire
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (1167,
+VALUES (858,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Watch_Tower/Standies/Longbowman_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Watch_Tower/Standies/Longbowman_2.0_back.png',
 'Male', 'Small', 'Human', 6, 1, '2B', '1ST', '1B 1R', '3B', 1, 0);
@@ -4122,7 +4122,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (763, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (763, 'Minion', '8 Bit', 1);
 
---Pikeman --CardIndex 1265 --CharacterIndex 1168 --ExploreCharacterIndex 764
+--Pikeman --CardIndex 1265 --CharacterIndex 859 --ExploreCharacterIndex 764
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Pikeman',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Watch_Tower/Card_Warband_Watch_Tower_Pikeman_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Watch_Tower/Card_Warband_Watch_Tower_Pikeman_2.0_back.png', 
@@ -4130,9 +4130,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Pikemen are the first line of defense among the Crown Guard. These proud warriors brandish long-hafted pikes, and train relentlessly in fighting as a unified regiment.');
 insert into Characters (CardIndex) VALUES (1265); 
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1168, 4); --Sapphire
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (859, 4); --Sapphire
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (1168,
+VALUES (859,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Watch_Tower/Standies/Pikeman_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Watch_Tower/Standies/Pikeman_2.0_back.png',
 'Male', 'Small', 'Human', 6, 1, '3B', '1ST', '1B 1R', '2B', 1, 0);
@@ -4141,7 +4141,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (764, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (764, 'Minion', '8 Bit', 1);
 
---Sergeant-At-Arms --CardIndex 1266 --CharacterIndex 1169 --ExploreCharacterIndex 765
+--Sergeant-At-Arms --CardIndex 1266 --CharacterIndex 860 --ExploreCharacterIndex 765
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Sergeant-At-Arms',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Watch_Tower/Card_Warband_Watch_Tower_Sergeant_At_Arms_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Watch_Tower/Card_Warband_Watch_Tower_Sergeant_At_Arms_2.0_back.png', 
@@ -4149,9 +4149,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Sergeants-at-Arms are veteran soldiers, who have spent their life in service to Crystalia and its people. They are cunning tacticians who survey the field of battle and ensure their troops are being used in the most efficient and effective manner possible.');
 insert into Characters (CardIndex) VALUES (1266); 
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1169, 4); --Sapphire
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (860, 4); --Sapphire
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (1169,
+VALUES (860,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Watch_Tower/Standies/Sergeant_At_Arms_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Watch_Tower/Standies/Sergeant_At_Arms_2.0_back.png',
 'Male', 'Small', 'Human', 6, 2, '2B 1R', '2R', '3B', '2B', 3, 0);
@@ -4165,7 +4165,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (765, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (765, 'Elite', '16 Bit', 2);
 
---Swordsman --CardIndex 1267 --CharacterIndex 1170 --ExploreCharacterIndex 766
+--Swordsman --CardIndex 1267 --CharacterIndex 861 --ExploreCharacterIndex 766
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Swordsman',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Watch_Tower/Card_Warband_Watch_Tower_Swordsman_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Watch_Tower/Card_Warband_Watch_Tower_Swordsman_2.0_back.png', 
@@ -4173,9 +4173,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Swordmen are specially trained soldiers within the Crown Guard tasked with protecting their fellow soldiers, and the innocent, in battle. Long hours are spent training with their shields, learning to use it in the defense of themselves and others.');
 insert into Characters (CardIndex) VALUES (1267); 
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1170, 4); --Sapphire
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (861, 4); --Sapphire
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (1170,
+VALUES (861,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Watch_Tower/Standies/Swordsman_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Watch_Tower/Standies/Swordsman_2.0_back.png',
 'Male', 'Small', 'Human', 6, 1, '3B', '2ST', '1B 1R', '2B', 1, 0);

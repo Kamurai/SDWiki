@@ -4,7 +4,7 @@
 
 
 
---Bladedancer --CardIndex 3237	--CharacterIndex 1398	--ExploreCharacterIndex 767
+--Bladedancer --CardIndex 3237	--CharacterIndex 1052	--ExploreCharacterIndex 767
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Bladedancer', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Bladedancer_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Bladedancer_2.0_back.png', 
@@ -12,9 +12,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
 'The Lunar Elf Bladedancer schools are long forgotten memories.  Combining swordsmanship with grace and fluidity, they elevated their craft to an art.  Over the centuries the Dark Prince Monach Tvar has ruthlessly eradicated the last vestiges of this proud martial heritage.  Now the few remaining Bladedancers wander Crystalia seeking the rare, gifted apprentice who can carry on their skills.');
 insert into Characters (CardIndex) VALUES (3237);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1398, 2); --Emerald
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1052, 2); --Emerald
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (1398, 
+VALUES (1052, 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Bladedancer_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Bladedancer_2.0_back.png',
 'Feminine', 'Small', 'Elf', 6, 3, '2R', '2R', '2B', '2R', 5, 1);
@@ -30,7 +30,7 @@ insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (767
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (767, 1, 2); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (767, 2); --Armor
 
---Dazzled --CardIndex 3238	--CharacterIndex 1399	--ExploreCharacterIndex 768
+--Dazzled --CardIndex 3238	--CharacterIndex 1053	--ExploreCharacterIndex 768
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Dazzled', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Dazzled_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Dazzled_2.0_back.png', 
@@ -38,9 +38,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
 ''); --!! unavailable !!
 insert into Characters (CardIndex) VALUES (3238);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1399, 4); --Sapphire
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1053, 4); --Sapphire
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (1399, 
+VALUES (1053, 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Dazzled_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Dazzled_2.0_back.png',
 'Feminine', 'Small', 'Human', 6, 3, '3B', '3B', '3B', '2B', 5, 1);
@@ -56,7 +56,7 @@ insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (768
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (768, 3, 8); --Will
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (768, 2); --Armor
 
---Outcast Vampyr --CardIndex 3239	--CharacterIndex 1400	--ExploreCharacterIndex 769
+--Outcast Vampyr --CardIndex 3239	--CharacterIndex 1054	--ExploreCharacterIndex 769
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Outcast Vampyr', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Outcast_Vampyr_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Outcast_Vampyr_2.0_back.png', 
@@ -64,9 +64,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
 'Baron Von Drakk is not a fan of other vampires.  In order to remain in his good graces they must show total obedience to his whims.  While such deference can reap great rewards, more headstrong vampires seek alternate paths to achieve the glory they so rightfully deserve.  A small few even attempt to tread the Hero''s path.  They are rarely welcome warmly.  Thus the Guild du Vampyr was formed in an effort at rebranding.  It has found surprising success with the more shadowy heoric elements.  They''re even considering frachising.');
 insert into Characters (CardIndex) VALUES (3239);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1400, 0); --Amethyst
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1054, 0); --Amethyst
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (1400, 
+VALUES (1054, 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Outcast_Vampyr_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Outcast_Vampyr_2.0_back.png',
 'Masculine', 'Small', 'Undead', 6, 3, '2B', '3B', '3B', '3B', 5, 1);
@@ -81,7 +81,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (769, 4, 2); --Dex
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (769, 2); --Armor
 
---Royal Academic --CardIndex 3240	--CharacterIndex 1401	--ExploreCharacterIndex 770
+--Royal Academic --CardIndex 3240	--CharacterIndex 1055	--ExploreCharacterIndex 770
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Royal Academic', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Royal_Academic_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Royal_Academic_2.0_back.png', 
@@ -89,9 +89,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
 ''); --!! unavailable !!
 insert into Characters (CardIndex) VALUES (3240);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1401, 3); --Ruby
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1055, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (1401, 
+VALUES (1055, 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Royal_Academic_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Royal_Academic_2.0_back.png',
 'Feminine', 'Small', 'Human', 6, 3, '2B', '3B', '2R', '3B', 5, 2);
