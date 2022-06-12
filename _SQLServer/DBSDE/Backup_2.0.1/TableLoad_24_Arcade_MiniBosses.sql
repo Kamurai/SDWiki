@@ -566,7 +566,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Ibaraki_Doji_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Ibaraki_Doji_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/MiniBosses/Ibaraki_Doji.xhtml', 
-'MiniBoss', '2.0', '2.0 Core Set', 'Arcade', 
+'MiniBoss', '2.0 DI', '2.0 Devil''s Island', 'Arcade', 
 'To the Ijin, strength is the ultimate test. Those who cannot fight cannot command respect. Those who cannot win cannot lead. Those who cannot lead must follow and serve those who can. Ibaraki-doji has fought and won, and his brethren must follow and serve when the chunin commands.');
 insert into Characters (CardIndex) VALUES (1314);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 

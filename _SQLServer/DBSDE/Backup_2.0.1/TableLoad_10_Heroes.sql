@@ -771,8 +771,8 @@ insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (296
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (296, 1, 1); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (296, 2); --Armor
 
---Cat Burglar beta --CardIndex 793	--CharacterIndex 403	--ExploreCharacterIndex 297
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Cat Burglar beta', 
+--Cat Burglar (beta) --CardIndex 793	--CharacterIndex 403	--ExploreCharacterIndex 297
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Cat Burglar (beta)', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Cat_Burglar_beta_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Cat Burglar_beta_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Cat_Burglar_beta.xhtml', 
@@ -799,62 +799,33 @@ insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (297
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (297, 1, 1); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (297, 2); --Armor
 
---Cat Burglar V1 --CardIndex 794	--CharacterIndex 404	--ExploreCharacterIndex 298
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Cat Burglar V1', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Cat_Burglar_v1_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Cat Burglar_v1_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Cat_Burglar_v1.xhtml', 
-'Hero', '2.0', '2.0 Core Set', 'Default', 
+--Stub --CardIndex 794	--CharacterIndex 404	--ExploreCharacterIndex 298
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('', 
+'', 
+'', 
+'', 
+'', '', '', '', 
 '');
 insert into Characters (CardIndex) VALUES (794);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (404, 2); --Emerald
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (404, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Cat_Burglar_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Cat Burglar_2.0_back.png',
-'Feminine', 'Small', 'Freyjan', 7, 3, '3B', '3B', '2B', '2B 1R', 5, 1);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (298, 417); --9 Lives
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (298, 807); --Poison
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (298, 815); --Pounce
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (298, 853); --Retreat
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (298, 1010); --Stealth
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (298, 1033); --Thief
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (298, 1833); --Throwing Knives
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (298, 1231); --Gotcha!
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (298, 864); --Can't Catch Me
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (298, 2038); --Yummy-Nom-Nom
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (298, 1026); --Distracting Fuzzball
-insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (298, 1, 1); --Strength
-insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (298, 2); --Armor
+'', 
+'',
+'', '', '', 0, 0, '', '', '', '', 0, 0);
 
---Cat Burglar V2 --CardIndex 795	--CharacterIndex 405	--ExploreCharacterIndex 299
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Cat Burglar V2', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Cat_Burglar_v2_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Cat Burglar_v2_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Cat_Burglar_v2.xhtml', 
-'Hero', '2.0', '2.0 Core Set', 'Default', 
+--Stub --CardIndex 795	--CharacterIndex 405	--ExploreCharacterIndex 299
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('', 
+'', 
+'', 
+'', 
+'', '', '', '', 
 '');
 insert into Characters (CardIndex) VALUES (795);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (405, 2); --Emerald
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (405, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Cat_Burglar_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Cat Burglar_2.0_back.png',
-'Feminine', 'Small', 'Freyjan', 7, 3, '3B', '3B', '2B', '2B 1R', 5, 1);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (299, 417); --9 Lives
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (299, 642); --Heal X
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (299, 807); --Poison
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (299, 815); --Pounce
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (299, 824); --Proficient
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (299, 853); --Retreat
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (299, 1010); --Stealth
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (299, 1833); --Throwing Knives
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (299, 1231); --Gotcha!
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (299, 864); --Can't Catch Me
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (299, 2038); --Yummy-Nom-Nom
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (299, 1026); --Distracting Fuzzball
-insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (299, 1, 1); --Strength
-insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (299, 2); --Armor
+'', 
+'',
+'', '', '', 0, 0, '', '', '', '', 0, 0);
 
 --Celebration Candy --CardIndex 796	--CharacterIndex 406	--ExploreCharacterIndex 300
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Celebration Candy', 
@@ -1464,8 +1435,8 @@ insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (324
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (324, 4, 3); --Dex
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (324, 2); --Armor
 
---Freyjan Beastmaster Errata --CardIndex 821	--CharacterIndex 431	--ExploreCharacterIndex 325
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Freyjan Beastmaster', 
+--Freyjan Beastmaster (errata) --CardIndex 821	--CharacterIndex 431	--ExploreCharacterIndex 325
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Freyjan Beastmaster (errata)', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Freyjan_Beastmaster_Errata_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Freyjan_Beastmaster_Errata_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Freyjan_Beastmaster_Errata.xhtml', 
@@ -2520,8 +2491,8 @@ insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (367
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (367, 1, 2); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (367, 2); --Armor
 
---Musashi (Errata)	--CardIndex 864	--CharacterIndex 474	--ExploreCharacterIndex 368
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Musashi', 
+--Musashi (errata)	--CardIndex 864	--CharacterIndex 474	--ExploreCharacterIndex 368
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Musashi (errata)', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Musashi_Errata_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Musashi_Errata_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Musashi_Errata.xhtml', 

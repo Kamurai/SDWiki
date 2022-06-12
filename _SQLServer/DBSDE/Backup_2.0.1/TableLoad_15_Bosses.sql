@@ -7,7 +7,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Bomechan_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Bomechan_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Bosses/Bomechan.xhtml', 
-'Boss', '2.0 Devil''s Island', '2.0 Devil''s Island', 'Explore',
+'Boss', '2.0 DI', '2.0 Devil''s Island', 'Explore',
 'Bomechan is a striking beauty of clan Ijin, but the pair of iron-spiked tetsubo and her hearty laughter as she swings them are her most arresting features.  She loves a challenge and seeks to place herself on the Moon Throne, because she sees this as the greatest challenge of all.');
 insert into Characters (CardIndex) VALUES (1049);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (659, 0); --Amethyst
@@ -33,7 +33,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Daemonus_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Daemonus_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Bosses/Daemonus.xhtml', 
-'Boss', '2.0 Devil''s Island', '2.0 Devil''s Island', 'Explore',
+'Boss', '2.0', '2.0 Core Set', 'Explore',
 'Built by a doomed gnomish artificer to house a fragment of the Dark Consul''s evil soul, Daemonus serves the Midnight Queen as guardian and champion. The true purpose of this vile clockwork contraption is far more sinister. Through Daemonus, the Dark Consul is able to observe and whisper corruption to the Queen. In this way, he shields her heart from the Light, continuing to usher her along the path to darkness.');
 insert into Characters (CardIndex) VALUES (1050);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (660, 4); --Sapphire
@@ -58,7 +58,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Demon_Queen_Araphel_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Demon_Queen_Araphel_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Bosses/Demon_Queen_Araphel.xhtml', 
-'Boss', '2.0 Devil''s Island', '2.0 Devil''s Island', 'Explore',
+'Boss', '2.0', '2.0 Core Set', 'Explore',
 'Araphel is the Mistress of Chains and Lady of Deceit, giving aid to any who seek to subvert and control the will of those around them. Her Devoted come from every walk of life, even the clergy of other deities are sometimes the Devoted of Araphel in disguise, working her poison plots from within other houses of worship.');
 insert into Characters (CardIndex) VALUES (1051);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (661, 0); --Amethyst
@@ -81,7 +81,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Destroyer_The_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Destroyer_The_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Bosses/Destroyer_The.xhtml', 
-'Boss', '2.0 Devil''s Island', '2.0 Devil''s Island', 'Explore',
+'Boss', '2.0', '2.0 Core Set', 'Explore',
 '');
 insert into Characters (CardIndex) VALUES (1052);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (662, 1); --Citrine
@@ -109,7 +109,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Elrik_The_Lich_King_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Elrik_The_Lich_King_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Bosses/Elrik_The_Lich_King.xhtml', 
-'Boss', '2.0 Devil''s Island', '2.0 Devil''s Island', 'Explore',
+'Boss', '2.0', '2.0 Core Set', 'Explore',
 'SUFFER, MORTALS!');
 insert into Characters (CardIndex) VALUES (1053);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (663, 0); --Amethyst
@@ -138,7 +138,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Gnomish_Excavator_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Gnomish_Excavator_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Bosses/Gnomish_Excavator.xhtml', 
-'Boss', '2.0 Devil''s Island', '2.0 Devil''s Island', 'Explore',
+'Boss', '2.0', '2.0 Core Set', 'Explore',
 '');
 insert into Characters (CardIndex) VALUES (1054);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (664, 2); --Emerald
@@ -166,7 +166,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Guth_The_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Guth_The_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Bosses/Guth_The.xhtml', 
-'Boss', '2.0 Devil''s Island', '2.0 Devil''s Island', 'Explore',
+'Boss', '2.0', '2.0 Core Set', 'Explore',
 '"After I chop you up, you''ll make a tasty snack!"');
 insert into Characters (CardIndex) VALUES (1055);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (665, 1); --Citrine
@@ -194,7 +194,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Hoarfang_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Hoarfang_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Bosses/Hoarfang.xhtml', 
-'Boss', '2.0 Devil''s Island', '2.0 Devil''s Island', 'Explore',
+'Boss', '2.0', '2.0 Core Set', 'Explore',
 '');--!! unavailable !!
 insert into Characters (CardIndex) VALUES (1056);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (666, 4); --Sapphire
@@ -223,7 +223,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Jorogumo_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Jorogumo_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Bosses/Jorogumo.xhtml', 
-'Boss', '2.0 Devil''s Island', '2.0 Devil''s Island', 'Explore',
+'Boss', '2.0', '2.0 Core Set', 'Explore',
 '');
 insert into Characters (CardIndex) VALUES (1057);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (667, 1); --Citrine
@@ -250,7 +250,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Krampus_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Krampus_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Bosses/Krampus.xhtml', 
-'Boss', '2.0 Devil''s Island', '2.0 Devil''s Island', 'Explore',
+'Boss', '2.0', '2.0 Core Set', 'Explore',
 '');
 insert into Characters (CardIndex) VALUES (1058);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (668, 2); --Emerald
@@ -278,7 +278,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Lord_Vulcanis_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Lord_Vulcanis_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Bosses/Lord_Vulcanis.xhtml', 
-'Boss', '2.0 Devil''s Island', '2.0 Devil''s Island', 'Explore',
+'Boss', '2.0', '2.0 Core Set', 'Explore',
 'The most infamous of all the giants, Lord Vulcanis broods deep beneath the Dragonback Peaks. At his enormous black forge he crafts dark relics for the generals of the Dark Consul''s armies. Into each relic he pours his rage, hate, and loathing for the realm of Light, tempering them for the battles to come.');
 insert into Characters (CardIndex) VALUES (1059);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (669, 1); --Citrine
@@ -302,7 +302,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Midnight_Queen_The_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Midnight_Queen_The_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Bosses/Midnight_Queen_The.xhtml', 
-'Boss', '2.0 Devil''s Island', '2.0 Devil''s Island', 'Explore',
+'Boss', '2.0', '2.0 Core Set', 'Explore',
 'The Midnight Queen has risen to prominence as the Dark Consul''s voice and prophet in his time of exile. Known also as the Shadow Consort, Prophecy Breaker, The Demoness, and the Hollow Queen, she is the Dark Consul''s terrible will made manifest. She will see all of Crystalia consumed by darkness.');
 insert into Characters (CardIndex) VALUES (1060);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (670, 0); --Amethyst
@@ -328,7 +328,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Mordred_the_Accursed_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Mordred_the_Accursed_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Bosses/Mordred_the_Accursed.xhtml', 
-'Boss', '2.0 Devil''s Island', '2.0 Devil''s Island', 'Explore',
+'Boss', '2.0', '2.0 Core Set', 'Explore',
 '');
 insert into Characters (CardIndex) VALUES (1061);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (671, 1); --Citrine
@@ -355,7 +355,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Mother_Noctua_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Mother_Noctua_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Bosses/Mother_Noctua.xhtml', 
-'Boss', '2.0 Devil''s Island', '2.0 Devil''s Island', 'Explore',
+'Boss', '2.0', '2.0 Core Set', 'Explore',
 'Hoot! Hoot, hoot! HOOOOOOTTT!!!');
 insert into Characters (CardIndex) VALUES (1062);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (672, 1); --Citrine
@@ -380,7 +380,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Mugg_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Mugg_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Bosses/Mugg.xhtml', 
-'Boss', '2.0 Devil''s Island', '2.0 Devil''s Island', 'Explore',
+'Boss', '2.0', '2.0 Core Set', 'Explore',
 ''); --!! unavailable !!
 insert into Characters (CardIndex) VALUES (1063);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (673, 3); --Ruby
@@ -404,7 +404,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Nightsong_the_Eternal_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Nightsong_the_Eternal_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Bosses/Nightsong_the_Eternal.xhtml', 
-'Boss', '2.0 Devil''s Island', '2.0 Devil''s Island', 'Explore',
+'Boss', '2.0', '2.0 Core Set', 'Explore',
 '');
 insert into Characters (CardIndex) VALUES (1064);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (674, 3); --Ruby
@@ -433,7 +433,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Onibaba_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Onibaba_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Bosses/Onibaba.xhtml', 
-'Boss', '2.0 Devil''s Island', '2.0 Devil''s Island', 'Explore',
+'Boss', '2.0', '2.0 Core Set', 'Explore',
 'As a mortal, Onibaba would lure stragglers from battles into her traps, finish them off, and sell their possessions. One night, however, she pulled a finely crafted mask from a dark and terrible samurai, and slipped it on over her face. In that instant, the dark power from within the mask touched the festering rot in her soul and consumed her. Soon the mortal hag was infested by an ageless, devouring horror that has stalked Kagejima''s places of slaughter ever since.');
 insert into Characters (CardIndex) VALUES (1065);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (675, 1); --Citrine
@@ -459,7 +459,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Onryo_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Onryo_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Bosses/Onryo.xhtml', 
-'Boss', '2.0 Devil''s Island', '2.0 Devil''s Island', 'Explore',
+'Boss', '2.0', '2.0 Core Set', 'Explore',
 '"Into the darkness, under the trees. Into the water, follow me please."');
 insert into Characters (CardIndex) VALUES (1066);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (676, 0); --Amethyst
@@ -486,7 +486,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Pauper_Prince_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Pauper_Prince_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Bosses/Pauper_Prince.xhtml', 
-'Boss', '2.0 Devil''s Island', '2.0 Devil''s Island', 'Explore',
+'Boss', '2.0', '2.0 Core Set', 'Explore',
 '"Didn''t you know? All travelers to the Undercove must pay the the Prince''s Due."');
 insert into Characters (CardIndex) VALUES (1067);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (677, 1); --Citrine
@@ -512,7 +512,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Professor_Cackle_Clink_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Professor_Cackle_Clink_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Bosses/Professor_Cackle_Clink.xhtml', 
-'Boss', '2.0 Devil''s Island', '2.0 Devil''s Island', 'Explore',
+'Boss', '2.0', '2.0 Core Set', 'Explore',
 '');
 insert into Characters (CardIndex) VALUES (1068);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (678, 0); --Amethyst
@@ -540,7 +540,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Starfire_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Starfire_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Bosses/Starfire.xhtml', 
-'Boss', '2.0 Devil''s Island', '2.0 Devil''s Island', 'Explore',
+'Boss', '2.0', '2.0 Core Set', 'Explore',
 '');
 insert into Characters (CardIndex) VALUES (1069);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (679, 1); --Citrine
@@ -566,7 +566,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Testudo_Tower_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Testudo_Tower_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Bosses/Testudo_Tower.xhtml', 
-'Boss', '2.0 Devil''s Island', '2.0 Devil''s Island', 'Explore',
+'Boss', '2.0', '2.0 Core Set', 'Explore',
 '');
 insert into Characters (CardIndex) VALUES (1070);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (680, 4); --Sapphire
@@ -592,7 +592,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Thresher_The_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Thresher_The_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Bosses/Thresher_The.xhtml', 
-'Boss', '2.0 Devil''s Island', '2.0 Devil''s Island', 'Explore',
+'Boss', '2.0', '2.0 Core Set', 'Explore',
 '');
 insert into Characters (CardIndex) VALUES (1071);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (681, 0); --Amethyst
@@ -619,7 +619,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Ugg_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Ugg_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Bosses/Ugg.xhtml', 
-'Boss', '2.0 Devil''s Island', '2.0 Devil''s Island', 'Explore',
+'Boss', '2.0', '2.0 Core Set', 'Explore',
 ''); --!! unavailable !!
 insert into Characters (CardIndex) VALUES (1072);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (682, 3); --Ruby
@@ -643,7 +643,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Ymnaur_Wintersson_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Ymnaur_Wintersson_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Bosses/Ymnaur_Wintersson.xhtml', 
-'Boss', '2.0 Devil''s Island', '2.0 Devil''s Island', 'Explore',
+'Boss', '2.0', '2.0 Core Set', 'Explore',
 '');
 insert into Characters (CardIndex) VALUES (1078);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (683, 1); --Citrine

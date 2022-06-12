@@ -7,7 +7,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Bosses/Card_Arcade_Boss_Bomechan_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Bosses/Card_Arcade_Boss_Bomechan_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Bosses/Bomechan.xhtml', 
-'Boss', '2.0', '2.0 Core Set', 'Arcade', 
+'Boss', '2.0 DI', '2.0 Devil''s Island', 'Arcade', 
 'Bomechan is a striking beauty of clan Ijin, but the pair of iron-spiked tetsubo and her hearty laughter as she swings them are her most arresting features.  She loves a challenge and seeks to place herself on the Moon Throne, because she sees this as the greatest challenge of all.');
 insert into Characters (CardIndex) VALUES (1334);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
