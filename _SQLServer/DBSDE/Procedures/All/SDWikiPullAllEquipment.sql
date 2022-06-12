@@ -1,6 +1,6 @@
 --drop PROCEDURE SDWikiPullAllEquipment;
 
-create PROCEDURE SDWikiPullAllEquipment
+CREATE OR ALTER PROCEDURE SDWikiPullAllEquipment
 AS
 BEGIN
 	select * 

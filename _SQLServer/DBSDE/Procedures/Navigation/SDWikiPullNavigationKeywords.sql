@@ -1,6 +1,6 @@
---drop PROCEDURE SDWikiPullNavigationKeywords;
+--drop PROCEDURE DBSDEPullNavigationKeywords;
 
-create PROCEDURE SDWikiPullNavigationKeywords
+CREATE OR ALTER PROCEDURE DBSDEPullNavigationKeywords
 AS
 BEGIN
 	select distinct KeywordName, KeywordVersion, PlayMode--, Link

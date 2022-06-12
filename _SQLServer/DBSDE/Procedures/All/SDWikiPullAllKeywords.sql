@@ -1,6 +1,6 @@
---drop PROCEDURE SDWikiPullAllKeywords;
+--drop PROCEDURE DBSDEPullAllKeywords;
 
-create PROCEDURE SDWikiPullAllKeywords
+CREATE OR ALTER PROCEDURE DBSDEPullAllKeywords
 AS
 BEGIN
 	select * 

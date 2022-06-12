@@ -1,10 +1,10 @@
---drop PROCEDURE SDWikiPullAllUtilityCards;
+--drop PROCEDURE DBSDEPullAllUtilityCards;
 
-create PROCEDURE SDWikiPullAllUtilityCards
+CREATE OR ALTER PROCEDURE DBSDEPullAllUtilityCards
 AS
 BEGIN
 	select * 
 	from UtilityView
-	Order By ProductSet desc, CardName asc
+	Order By CardName asc
 	;
 END

@@ -1,8 +1,8 @@
---drop PROCEDURE DBSDEPullOneKeyword;
+--drop PROCEDURE DBRRIPullOneKeyword;
 
 --Currently out of commission
 
-CREATE OR ALTER PROCEDURE DBSDEPullOneKeyword(
+CREATE OR ALTER PROCEDURE DBRRIPullOneKeyword(
 	@intCardLink varChar(100)
 )
 AS

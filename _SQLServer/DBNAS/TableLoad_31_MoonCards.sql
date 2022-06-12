@@ -17,8 +17,6 @@ VALUES (54,
 'Earth Moon - The model rerolls all of its dice.');
 insert into AffinityAssignments (MoonCardIndex, AffinityIndex) VALUES (0, 1); --Earth
 
-
-
 --Ameratsu's Gaze --CardIndex 55 --MoonCardIndex 1
 insert into Cards (CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor) 
 VALUES ('Raizin''s Spark', 
@@ -34,10 +32,6 @@ VALUES (55,
 'Spirit Moon - During combat, instead of rerolling a VOID result, add a die to your roll with a SPIRIT result on it.');
 insert into AffinityAssignments (MoonCardIndex, AffinityIndex) VALUES (1, 3); --Spirit
 
-
-
-
-
 --Banzai! --CardIndex 56 --MoonCardIndex 2
 insert into Cards (CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor) 
 VALUES ('Banzai!', 
@@ -52,8 +46,6 @@ VALUES (56,
 'When a friendly model that has moved at least four spaces this turn attacks, play this card to give it +2 ATTACK.', 
 'Earth Moon - The model gets +2 ATTACK, even if it did not move.');
 insert into AffinityAssignments (MoonCardIndex, AffinityIndex) VALUES (2, 1); --Earth
-
-
 
 --Darkest Night --CardIndex 57 --MoonCardIndex 3
 insert into Cards (CardName, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, Flavor) 

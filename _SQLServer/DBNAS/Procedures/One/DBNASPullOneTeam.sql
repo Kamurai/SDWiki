@@ -1,13 +1,13 @@
---drop PROCEDURE DBSDEPullOneKeyword;
+--drop PROCEDURE DBNASPullOneTeam;
 
 --Currently out of commission
 
-CREATE OR ALTER PROCEDURE DBSDEPullOneKeyword(
+CREATE OR ALTER PROCEDURE DBNASPullOneTeam(
 	@intCardLink varChar(100)
 )
 AS
 BEGIN
 	select * 
-	from KeywordsView
+	from TeamsView
 	where Link = @intCardLink;
 END
