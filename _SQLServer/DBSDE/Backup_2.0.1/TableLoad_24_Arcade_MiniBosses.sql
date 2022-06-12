@@ -440,28 +440,19 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (592, 1413
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (592, 1323); --Into The Reeds
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (592, 1171); --Foxy
 
---Deranged Alchemist	--CardIndex 1308	--CharacterIndex 902	--ArcadeCharacterIndex 145
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Deranged Alchemist',
-'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Deranged_Alchemist_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Deranged_Alchemist_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/MiniBosses/Deranged_Alchemist.xhtml', 
-'MiniBoss', '2.0', '2.0 Core Set', 'Arcade', 
-'The Harvest Festival is upon the fair citizens of Crystalia, and the Fae Alchemist has eaten too many toadstools. Now, turned to vile villainy, she must be stopped before crafting her cruel concoctions!');
+--Stub	--CardIndex 1308	--CharacterIndex 902	--ArcadeCharacterIndex 145
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('',
+'', 
+'', 
+'', 
+'', '', '', '', 
+'');
 insert into Characters (CardIndex) VALUES (1308);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
 VALUES (902, 373, -1);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (902, 3); --Ruby
 --GangMemberIndex 593
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (145, 0, 'Deranged Alchemist', 'Elf', 'MiniBoss', 7, 7, 3, 178);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (593, 453); --Bane
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (593, 647); --Hex
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (593, 672); --Immobile
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (593, 681); --Immune: Status Effects
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (593, 807); --Poison
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (593, 2078); --Vile Concoction
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (593, 2077); --Kobold's Tears
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (593, 2076); --Coagulated Mixture
+VALUES (145, 0, '', '', '', 0, 0, 0, 178);
 
 --Ezoghoul	--CardIndex 1309	--CharacterIndex 903	--ArcadeCharacterIndex 146
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ezoghoul',
