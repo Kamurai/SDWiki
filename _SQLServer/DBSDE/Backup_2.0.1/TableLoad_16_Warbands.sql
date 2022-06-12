@@ -98,8 +98,8 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (581
 --Bandit Knight
 --Bandit Knight --CardIndex 1083 --CharacterIndex 688 --ExploreCharacterIndex 582
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Bandit Knight',
-'http://htkb.info/SDE/2.0/Cards/Warbands/Bandit_Knight/Card_Warband_Bandit Knight_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Bandit_Knight/Card_Warband_Bandit Knight_2.0_back.png', 
+'http://htkb.info/SDE/2.0/Cards/Warbands/Bandit_Knight/Card_Warband_Bandit_Knight_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Warbands/Bandit_Knight/Card_Warband_Bandit_Knight_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Bandit_Knight/Bandit Knight.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'When the Bramble Knights were cursed by their own treasonous lord and turned into chimera, not all were successfully banished to the Lordship Ruins. The Forgotten King had used a select few Bramble Knights as his scouts and assassins. These elite knights led missions deep in the heart of enemy territory, often retreating to inaccessible regions of the Dragonback Peaks. Now, cursed and forgotten, they still dwell there. Without lord or mission, they carry on their pillaging and havoc simply because it is all they have ever known. The carnage they spread is the closest their twisted lives come to containing meaning or purpose.');
@@ -159,8 +159,8 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (584
 
 --Marauder Squawk --CardIndex 1086 --CharacterIndex 691 --ExploreCharacterIndex 585
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Marauder Squawk',
-'http://htkb.info/SDE/2.0/Cards/Warbands/Bandit_Knight/Card_Warband_Bandit_Knight__Marauder_Squawk_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Bandit_Knight/Card_Warband_Bandit_Knight__Marauder_Squawk_2.0_back.png', 
+'http://htkb.info/SDE/2.0/Cards/Warbands/Bandit_Knight/Card_Warband_Bandit_Knight_Marauder_Squawk_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Warbands/Bandit_Knight/Card_Warband_Bandit_Knight_Marauder_Squawk_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Bandit_Knight/Marauder_Squawk.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'The Bramble Knight cavalry who aided in the shadow war against the forces of Crystalia became the fearsome Marauder Squawks when their bitter lord cursed all of his forces. Unlike other knights who were bound by chivalry and honor, these marauders were masters of thieving, spying, and dirty fighting tactics.');
@@ -168,8 +168,8 @@ insert into Characters (CardIndex) VALUES (1086);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (691, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (691,
-'http://htkb.info/SDE/2.0/Cards/Warbands/Bandit_Knight/Standies/_Marauder_Squawk_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Bandit_Knight/Standies/_Marauder_Squawk_2.0_back.png', 
+'http://htkb.info/SDE/2.0/Cards/Warbands/Bandit_Knight/Standies/Marauder_Squawk_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Warbands/Bandit_Knight/Standies/Marauder_Squawk_2.0_back.png', 
 'Either', 'Small', 'Chimera', 8, 2, '2B 1R', '1ST', '2B', '3B', 2, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (585, 815); --Pounce
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (585, 1023); --Surefoot
@@ -1750,8 +1750,8 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (656
 
 --Gloom Wisp --CardIndex 1158 --CharacterIndex 762 --ExploreCharacterIndex 657
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Gloom Wisp',
-'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Hollow/Card_Warband_Cursed_Gloom_Wisp_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Hollow/Card_Warband_Cursed_Gloom_Wisp_2.0_back.png', 
+'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Hollow/Card_Warband_Cursed_Hollow_Gloom_Wisp_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Hollow/Card_Warband_Cursed_Hollow_Gloom_Wisp_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Cursed_Hollow/Gloom_Wisp.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Wisps are shy, but have a reputation for leading travelers to safety and shelter. Those Wisps who have become corrupted by Nightsong the Eternal still lead travelers, laughing and chirping, creating the illusion of comfort. But the longer the weary traveler stays in the company of the Wisp, the more they sink into a dark despair, until they simply lay down in the blighted moor. Unable to bring themselves to seek shelter or food, these travelers wither away as the wisp laughs and plays.');
@@ -1759,8 +1759,8 @@ insert into Characters (CardIndex) VALUES (1158);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (762, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (762,
-'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Hollow/Standies/Cursed_Gloom_Wisp_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Hollow/Standies/Cursed_Gloom_Wisp_2.0_back.png', 
+'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Hollow/Standies/Cursed_Hollow_Gloom_Wisp_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Hollow/Standies/Cursed_Hollow_Gloom_Wisp_2.0_back.png', 
 'Either', 'Large', 'Undead Kodama', 6, 2, '1B', '1ST', '2B 1R', '3B', 2, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (657, 547); --Despair
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (657, 1219); --Gloom and Doom
@@ -1790,8 +1790,8 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (658
 
 --Spoiled Turnip  --CardIndex 1160 --CharacterIndex 764 --ExploreCharacterIndex 659
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Spoiled Turnip',
-'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Hollow/Card_Warband_Hollow_Spoiled_Turnip_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Hollow/Card_Warband_Hollow_Spoiled_Turnip_2.0_back.png', 
+'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Hollow/Card_Warband_Cursed_Hollow_Spoiled_Turnip_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Hollow/Card_Warband_Cursed_Hollow_Spoiled_Turnip_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Cursed_Hollow/Spoiled_Turnip.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Turnipheads are normally difficult to sway, devoting themselves to healing sick plants. However, those that do become corrupted are consumed completely, becoming devoted to spreading blight and plague to the living. They forsake their ability to heal, instead reveling in the decay that reflects the visage of their undead lord.');
@@ -1799,8 +1799,8 @@ insert into Characters (CardIndex) VALUES (1160);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (764, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (764,
-'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Hollow/Standies/Hollow_Spoiled_Turnip_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Hollow/Standies/Hollow_Spoiled_Turnip_2.0_back.png', 
+'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Hollow/Standies/Spoiled_Turnip_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Hollow/Standies/Spoiled_Turnip_2.0_back.png', 
 'Neither', 'Small', 'Undead Kodama', 6, 1, '2B', '0ST', '3B', '2B 1R', 1, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (659, 453); --Bane
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (659, 775); --Bane of Death
@@ -1811,8 +1811,8 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (659
 
 --Wrath Sprout  --CardIndex 1161 --CharacterIndex 765 --ExploreCharacterIndex 660
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Wrath Sprout',
-'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Hollow/Card_Warband_Hollow_Wrath_Sprout_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Hollow/Card_Warband_Hollow_Wrath_Sprout_2.0_back.png', 
+'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Hollow/Card_Warband_Cursed_Hollow_Wrath_Sprout_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Hollow/Card_Warband_Cursed_Hollow_Wrath_Sprout_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Cursed_Hollow/Wrath_Sprout.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Those sprouts who become corrupted by the Glauerdoom Moor acquire certain tastes. The land is not fertile enough to support the rapid and grotesque growth that the plant undergoes, so it develops twisted, lashing vines that are used to draw victims to it in order to feed on their blood. This thirst cannot be quenched, and the more the more it drinks, the more it grows...');
@@ -1820,8 +1820,8 @@ insert into Characters (CardIndex) VALUES (1161);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (765, 4); --Sapphire
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (765,
-'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Hollow/Standies/Hollow_Wrath_Sprout_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Hollow/Standies/Hollow_Wrath_Sprout_2.0_back.png', 
+'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Hollow/Standies/Wrath_Sprout_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Hollow/Standies/Wrath_Sprout_2.0_back.png', 
 'Neither', 'Large', 'Shapeshift', 1, 3, '5B', '2R', '3B', '1B', 4, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (660, 467); --Blood Drinker
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (660, 593); --Fixed Form
@@ -1921,11 +1921,11 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (664, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (664, 'Elite', '8 Bit', 2); 
 
---Skull Squawk Beta --CardIndex 1166 --CharacterIndex 770 --ExploreCharacterIndex 665
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Skull Squawk Beta',
-'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Knight/Card_Warband_Cursed_Knight_Skull_Squawk_Beta_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Knight/Card_Warband_Cursed_Knight_Skull_Squawk_Beta_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Cursed_Knight/Skull_Squawk_Beta_.xhtml', 
+--Skull Squawk (beta) --CardIndex 1166 --CharacterIndex 770 --ExploreCharacterIndex 665
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Skull Squawk (beta)',
+'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Knight/Card_Warband_Cursed_Knight_Skull_Squawk_beta_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Knight/Card_Warband_Cursed_Knight_Skull_Squawk_beta_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Cursed_Knight/Skull_Squawk_beta_.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Skull Squawk knights are a secretive bunch. In fact, there are none who can recall ever seeing one outside of their armor or sharing a single word with another. This shadowy aloofness, combined with Skull Squawks'' uncanny supernatural abilities lead many to wonder if they are truly within the realm of the living at all...');
 insert into Characters (CardIndex) VALUES (1166); 
@@ -2901,8 +2901,8 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (708
 
 --Powder Ladz --CardIndex 1210 --CharacterIndex 814 --ExploreCharacterIndex 709
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Powder Ladz',
-'http://htkb.info/SDE/2.0/Cards/Warbands/Loot_Stash/Card_Warband_Loot_Stash_Powder_Ladz_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Loot_Stash/Card_Warband_Loot_Stash_Powder_Ladz_2.0_back.png', 
+'http://htkb.info/SDE/2.0/Cards/Warbands/Loot_Stash/Card_Warband_Loot_Stash_Powder_Lad_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Warbands/Loot_Stash/Card_Warband_Loot_Stash_Powder_Lad_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Loot_Stash/Grobbit_Powder_Ladz.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 '');  --!! unavailable !!
@@ -2910,8 +2910,8 @@ insert into Characters (CardIndex) VALUES (1210);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (814, 1); --Citrine  --!! unavailable !!
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (814,
-'http://htkb.info/SDE/2.0/Cards/Warbands/Loot_Stash/Standies/Powder_Ladz_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Loot_Stash/Standies/Powder_Ladz_2.0_back.png', 
+'http://htkb.info/SDE/2.0/Cards/Warbands/Loot_Stash/Standies/Powder_Lad_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Warbands/Loot_Stash/Standies/Powder_Lad_2.0_back.png', 
 'Either', 'Large', 'Orc', 5, 1, '1R', '0ST', '0ST', '3B', 1, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (709, 482); --Brutal Strike
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (709, 843); --Reckless
@@ -2923,8 +2923,8 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (709
 
 --Shiny Boss --CardIndex 1211 --CharacterIndex 815 --ExploreCharacterIndex 710
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Shiny Boss',
-'http://htkb.info/SDE/2.0/Cards/Warbands/Loot_Stash/Card_Warband_Loot_Stash__Shiny_Boss_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Loot_Stash/Card_Warband_Loot_Stash__Shiny_Boss_2.0_back.png', 
+'http://htkb.info/SDE/2.0/Cards/Warbands/Loot_Stash/Card_Warband_Loot_Stash_Shiny_Boss_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Warbands/Loot_Stash/Card_Warband_Loot_Stash_Shiny_Boss_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Loot_Stash/Shiny_Boss.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 '');  --!! unavailable !!
@@ -3748,8 +3748,8 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (746
 --Siege of the Citadel
 --Nepharite Warlord --CardIndex 1248 --CharacterIndex 852 --ExploreCharacterIndex 747
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Nepharite Warlord',
-'http://htkb.info/SDE/2.0/Cards/Warbands/Siege_of_the_Citadel/Card_Warband_Nepharite_Warlord_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Siege_of_the_Citadel/Card_Warband_Nepharite_Warlord_2.0_back.png', 
+'http://htkb.info/SDE/2.0/Cards/Warbands/Siege_of_the_Citadel/Card_Warband_Siege_of_the_Citadel_Nepharite_Warlord_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Warbands/Siege_of_the_Citadel/Card_Warband_Siege_of_the_Citadel_Nepharite_Warlord_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Siege_of_the_Citadel/Nepharite_Warlord.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 '');
