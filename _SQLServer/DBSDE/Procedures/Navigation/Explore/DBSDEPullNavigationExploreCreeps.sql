@@ -1,10 +1,10 @@
---drop PROCEDURE SDWikiPullNavigationExploreCreeps;
+--drop PROCEDURE DBSDEPullNavigationExploreCreeps;
 
-create PROCEDURE SDWikiPullNavigationExploreCreeps
+CREATE OR ALTER PROCEDURE DBSDEPullNavigationExploreCreeps
 AS
 BEGIN
 	select distinct CardName, ProductSet, Link, PictureFront
 	from CreepsViewMultiLine
-	Order By ProductSet desc, CardName asc
+	Order By CardName asc
 	;
 END

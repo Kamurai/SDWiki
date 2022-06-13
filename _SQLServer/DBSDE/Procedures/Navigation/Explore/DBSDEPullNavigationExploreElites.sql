@@ -1,10 +1,10 @@
---drop PROCEDURE SDWikiPullNavigationExploreElites;
+--drop PROCEDURE DBSDEPullNavigationExploreElites;
 
-create PROCEDURE SDWikiPullNavigationExploreElites
+CREATE OR ALTER PROCEDURE DBSDEPullNavigationExploreElites
 AS
 BEGIN
 	select distinct CardName, ProductSet, Link, PictureFront
 	from ElitesViewMultiLine
-	Order By ProductSet desc, CardName asc
+	Order By CardName asc
 	;
 END

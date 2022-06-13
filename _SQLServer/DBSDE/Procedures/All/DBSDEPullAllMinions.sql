@@ -1,10 +1,10 @@
---drop PROCEDURE SDWikiPullAllMinions;
+--drop PROCEDURE DBSDEPullAllMinions;
 
-create PROCEDURE SDWikiPullAllMinions
+CREATE OR ALTER PROCEDURE DBSDEPullAllMinions
 AS
 BEGIN
 	select * 
 	from MinionsViewMultiLine
-	Order By ProductSet desc, CardName asc
+	Order By CardName asc
 	;
 END

@@ -1,10 +1,10 @@
---drop PROCEDURE SDWikiPullAllWarbands;
+--drop PROCEDURE DBSDEPullAllWarbands;
 
-create PROCEDURE SDWikiPullAllWarbands
+CREATE OR ALTER PROCEDURE DBSDEPullAllWarbands
 AS
 BEGIN
 	select * 
 	from WarbandsViewMultiLine
-	Order By ProductSet desc, CardName asc
+	Order By CardName asc
 	;
 END

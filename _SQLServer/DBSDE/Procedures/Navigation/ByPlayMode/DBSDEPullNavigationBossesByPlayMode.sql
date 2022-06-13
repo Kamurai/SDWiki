@@ -1,6 +1,6 @@
---drop PROCEDURE SDWikiPullNavigationBossesByPlayMode;
+--drop PROCEDURE DBSDEPullNavigationBossesByPlayMode;
 
-create PROCEDURE SDWikiPullNavigationBossesByPlayMode(
+CREATE OR ALTER PROCEDURE DBSDEPullNavigationBossesByPlayMode(
 	@strMode varChar(7)
 )
 AS

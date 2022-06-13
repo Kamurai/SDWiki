@@ -1,6 +1,6 @@
---drop PROCEDURE SDWikiPullNavigationMiniBossesByProductSetAndPlayMode;
+--drop PROCEDURE DBSDEPullNavigationMiniBossesByProductSetAndPlayMode;
 
-create PROCEDURE SDWikiPullNavigationMiniBossesByProductSetAndPlayMode(
+CREATE OR ALTER PROCEDURE DBSDEPullNavigationMiniBossesByProductSetAndPlayMode(
 	@strVersion varChar(3),
 	@strMode varChar(7)
 )

@@ -1,10 +1,10 @@
---drop PROCEDURE SDWikiPullNavigationEquipment;
+--drop PROCEDURE DBSDEPullNavigationEquipment;
 
-create PROCEDURE SDWikiPullNavigationEquipment
+CREATE OR ALTER PROCEDURE DBSDEPullNavigationEquipment
 AS
 BEGIN
 	select distinct CardName, ProductSet, Link, PictureFront
 	from EquipmentView
-	Order By ProductSet desc, CardName asc
+	Order By CardName asc
 	;
 END

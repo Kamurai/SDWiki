@@ -1,10 +1,10 @@
---drop PROCEDURE SDWikiPullAllExplorePlotCards;
+--drop PROCEDURE DBSDEPullAllExplorePlotCards;
 
-create PROCEDURE SDWikiPullAllExplorePlotCards
+CREATE OR ALTER PROCEDURE DBSDEPullAllExplorePlotCards
 AS
 BEGIN
 	select * 
 	from ExplorePlotsView
-	Order By ProductSet desc, CardName asc
+	Order By CardName asc
 	;
 END

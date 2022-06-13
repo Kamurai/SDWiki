@@ -1,6 +1,6 @@
---drop PROCEDURE SDWikiPullOneMount;
+--drop PROCEDURE DBSDEPullOneMount;
 
-create PROCEDURE SDWikiPullOneMount(
+CREATE OR ALTER PROCEDURE DBSDEPullOneMount(
 	@intCardLink varChar(100)
 )
 AS

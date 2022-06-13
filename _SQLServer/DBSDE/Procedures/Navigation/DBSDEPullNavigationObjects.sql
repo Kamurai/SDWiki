@@ -1,10 +1,10 @@
---drop PROCEDURE SDWikiPullNavigationObjects;
+--drop PROCEDURE DBSDEPullNavigationObjects;
 
-create PROCEDURE SDWikiPullNavigationObjects
+CREATE OR ALTER PROCEDURE DBSDEPullNavigationObjects
 AS
 BEGIN
 	select distinct CardName, ProductSet, PlayMode, Link, PictureFront
 	from ObjectsViewMultiLine
-	Order By ProductSet desc, PlayMode desc, CardName asc
+	Order By CardName asc
 	;
 END

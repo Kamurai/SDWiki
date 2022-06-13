@@ -1,6 +1,6 @@
---drop PROCEDURE SDWikiPullOneLoot;
+--drop PROCEDURE DBSDEPullOneLoot;
 
-create PROCEDURE SDWikiPullOneLoot(
+CREATE OR ALTER PROCEDURE DBSDEPullOneLoot(
 	@strCardLink varChar(100)
 )
 AS

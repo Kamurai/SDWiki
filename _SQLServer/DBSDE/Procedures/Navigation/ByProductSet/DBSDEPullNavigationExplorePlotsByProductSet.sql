@@ -1,6 +1,6 @@
---drop PROCEDURE SDWikiPullNavigationExplorePlotsByProductSet;
+--drop PROCEDURE DBSDEPullNavigationExplorePlotsByProductSet;
 
-create PROCEDURE SDWikiPullNavigationExplorePlotsByProductSet(
+CREATE OR ALTER PROCEDURE DBSDEPullNavigationExplorePlotsByProductSet(
 	@strVersion varChar(10)
 )
 AS
@@ -8,6 +8,6 @@ BEGIN
 	select distinct CardName, ProductSet, PlayMode, Link, PictureFront
 	from ExplorePlotsView
 	where ExplorePlotsView.ProductSet = @strVersion
-	Order By ProductSet desc, PlayMode desc, CardName asc
+	Order By CardName asc
 	;
 END

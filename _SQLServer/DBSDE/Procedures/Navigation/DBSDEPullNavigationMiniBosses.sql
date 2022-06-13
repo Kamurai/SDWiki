@@ -1,10 +1,10 @@
---drop PROCEDURE SDWikiPullNavigationMiniBosses;
+--drop PROCEDURE DBSDEPullNavigationMiniBosses;
 
-create PROCEDURE SDWikiPullNavigationMiniBosses
+CREATE OR ALTER PROCEDURE DBSDEPullNavigationMiniBosses
 AS
 BEGIN
 	select CardName, ProductSet, PlayMode, Link, PictureFront
 	from DualMiniBossesView
-	Order By ProductSet desc, PlayMode desc, CardName asc
+	Order By CardName asc
 	;
 END

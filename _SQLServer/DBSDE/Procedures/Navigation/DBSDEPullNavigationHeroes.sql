@@ -1,10 +1,10 @@
---drop PROCEDURE SDWikiPullNavigationHeroes;
+--drop PROCEDURE DBSDEPullNavigationHeroes;
 
-CREATE or ALTER PROCEDURE SDWikiPullNavigationHeroes
+CREATE or ALTER PROCEDURE DBSDEPullNavigationHeroes
 AS
 BEGIN
 	select distinct CardName, ProductSet, PlayMode, Link, PictureFront
 	from HeroesViewMultiLine
-	Order By CardName asc --ProductSet desc, PlayMode desc, CardName asc
+	Order By CardName asc
 	;
 END

@@ -1,6 +1,6 @@
---drop PROCEDURE SDWikiPullNavigationPetsByProductSet;
+--drop PROCEDURE DBSDEPullNavigationPetsByProductSet;
 
-create PROCEDURE SDWikiPullNavigationPetsByProductSet(
+CREATE OR ALTER PROCEDURE DBSDEPullNavigationPetsByProductSet(
 	@strVersion varChar(10)
 )
 AS
@@ -8,6 +8,6 @@ BEGIN
 	select distinct CardName, ProductSet, Playmode, Link, PictureFront
 	from PetsViewMultiLine
 	where PetsViewMultiLine.ProductSet = @strVersion
-	Order By ProductSet desc, PlayMode desc, CardName asc
+	Order By CardName asc
 	;
 END

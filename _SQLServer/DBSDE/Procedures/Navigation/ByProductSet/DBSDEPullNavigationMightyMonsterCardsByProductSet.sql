@@ -1,6 +1,6 @@
---drop PROCEDURE SDWikiPullNavigationMightyMonsterCardsByProductSet;
+--drop PROCEDURE DBSDEPullNavigationMightyMonsterCardsByProductSet;
 
-create PROCEDURE SDWikiPullNavigationMightyMonsterCardsByProductSet(
+CREATE OR ALTER PROCEDURE DBSDEPullNavigationMightyMonsterCardsByProductSet(
 	@strVersion varChar(10)
 )
 AS
@@ -8,6 +8,6 @@ BEGIN
 	select distinct CardName, ProductSet, PlayMode, Link, PictureFront
 	from MightyMonsterView
 	where MightyMonsterView.ProductSet = @strVersion
-	Order By ProductSet desc, PlayMode desc, CardName asc
+	Order By CardName asc
 	;
 END

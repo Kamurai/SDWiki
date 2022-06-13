@@ -1,10 +1,10 @@
---drop PROCEDURE SDWikiPullNavigationArcadeMiniBosses;
+--drop PROCEDURE DBSDEPullNavigationArcadeMiniBosses;
 
-create PROCEDURE SDWikiPullNavigationArcadeMiniBosses
+CREATE OR ALTER PROCEDURE DBSDEPullNavigationArcadeMiniBosses
 AS
 BEGIN
 	select distinct CardName, ProductSet, Link, PictureFront
 	from ArcadeMiniBossesViewMultiLine
-	Order By ProductSet desc, CardName asc
+	Order By CardName asc
 	;
 END

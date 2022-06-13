@@ -1,6 +1,6 @@
---drop PROCEDURE SDWikiPullOneExplorePlot;
+--drop PROCEDURE DBSDEPullOneExplorePlot;
 
-create PROCEDURE SDWikiPullOneExplorePlot(
+CREATE OR ALTER PROCEDURE DBSDEPullOneExplorePlot(
 	@intCardLink varChar(100)
 )
 AS

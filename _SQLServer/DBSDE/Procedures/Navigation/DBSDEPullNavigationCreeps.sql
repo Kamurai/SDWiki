@@ -1,10 +1,10 @@
---drop PROCEDURE SDWikiPullNavigationCreeps;
+--drop PROCEDURE DBSDEPullNavigationCreeps;
 
-create PROCEDURE SDWikiPullNavigationCreeps
+CREATE OR ALTER PROCEDURE DBSDEPullNavigationCreeps
 AS
 BEGIN
 	select CardName, ProductSet, PlayMode, Link, PictureFront
 	from DualCreepsView
-	Order By ProductSet desc, PlayMode desc, CardName asc
+	Order By CardName asc
 	;
 END

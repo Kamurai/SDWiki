@@ -1,10 +1,10 @@
---drop PROCEDURE SDWikiPullAllTerrainCards;
+--drop PROCEDURE DBSDEPullAllTerrainCards;
 
-create PROCEDURE SDWikiPullAllTerrainCards
+CREATE OR ALTER PROCEDURE DBSDEPullAllTerrainCards
 AS
 BEGIN
 	select * 
 	from TerrainView
-	Order By ProductSet desc, CardName asc
+	Order By CardName asc
 	;
 END

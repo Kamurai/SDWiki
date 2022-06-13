@@ -1,6 +1,6 @@
---drop PROCEDURE SDWikiPullOneWarband;
+--drop PROCEDURE DBSDEPullOneWarband;
 
-create PROCEDURE SDWikiPullOneWarband(
+CREATE OR ALTER PROCEDURE DBSDEPullOneWarband(
 	@intCardLink varChar(100)
 )
 AS

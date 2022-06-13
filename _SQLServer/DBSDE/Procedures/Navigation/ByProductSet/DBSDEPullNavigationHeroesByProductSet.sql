@@ -1,6 +1,6 @@
---drop PROCEDURE SDWikiPullNavigationHeroesByProductSet;
+--drop PROCEDURE DBSDEPullNavigationHeroesByProductSet;
 
-create PROCEDURE SDWikiPullNavigationHeroesByProductSet(
+CREATE OR ALTER PROCEDURE DBSDEPullNavigationHeroesByProductSet(
 	@strVersion varChar(10)
 )
 AS
@@ -8,6 +8,6 @@ BEGIN
 	select distinct CardName, ProductSet, Playmode, Link, PictureFront
 	from HeroesViewMultiLine
 	where HeroesViewMultiLine.ProductSet = @strVersion
-	Order By ProductSet desc, PlayMode desc, CardName asc
+	Order By CardName asc
 	;
 END

@@ -1,6 +1,6 @@
---drop PROCEDURE SDWikiPullOneMightyMonsterCard;
+--drop PROCEDURE DBSDEPullOneMightyMonsterCard;
 
-create PROCEDURE SDWikiPullOneMightyMonsterCard(
+CREATE OR ALTER PROCEDURE DBSDEPullOneMightyMonsterCard(
 	@intCardLink varChar(100)
 )
 AS

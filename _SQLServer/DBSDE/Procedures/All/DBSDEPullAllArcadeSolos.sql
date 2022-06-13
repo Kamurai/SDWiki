@@ -1,10 +1,10 @@
---drop PROCEDURE SDWikiPullAllArcadeSolos;
+--drop PROCEDURE DBSDEPullAllArcadeSolos;
 
-create PROCEDURE SDWikiPullAllArcadeSolos
+CREATE OR ALTER PROCEDURE DBSDEPullAllArcadeSolos
 AS
 BEGIN
 	select * 
 	from ArcadeSolosViewMultiLine
-	Order By ProductSet desc, CardName asc
+	Order By CardName asc
 	;
 END

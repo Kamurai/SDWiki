@@ -1,10 +1,10 @@
---drop PROCEDURE SDWikiPullNavigationWarbands;
+--drop PROCEDURE DBSDEPullNavigationWarbands;
 
-create PROCEDURE SDWikiPullNavigationWarbands
+CREATE OR ALTER PROCEDURE DBSDEPullNavigationWarbands
 AS
 BEGIN
 	select CardName, ProductSet, PlayMode, Link, PictureFront
 	from DualWarbandsView
-	Order By ProductSet desc, PlayMode desc, CardName asc
+	Order By CardName asc
 	;
 END

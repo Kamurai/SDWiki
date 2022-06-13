@@ -1,10 +1,10 @@
---drop PROCEDURE SDWikiPullAllChallengeCards;
+--drop PROCEDURE DBSDEPullAllChallengeCards;
 
-create PROCEDURE SDWikiPullAllChallengeCards
+CREATE OR ALTER PROCEDURE DBSDEPullAllChallengeCards
 AS
 BEGIN
 	select * 
 	from ChallengesView
-	Order By ProductSet desc, CardName asc
+	Order By CardName asc
 	;
 END

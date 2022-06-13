@@ -1,10 +1,10 @@
---drop PROCEDURE SDWikiPullNavigationBossSpawns;
+--drop PROCEDURE DBSDEPullNavigationBossSpawns;
 
-create PROCEDURE SDWikiPullNavigationBossSpawns
+CREATE OR ALTER PROCEDURE DBSDEPullNavigationBossSpawns
 AS
 BEGIN
 	select distinct CardName, ProductSet, Link, PictureFront
 	from BossSpawnView
-	Order By ProductSet desc, CardName asc
+	Order By CardName asc
 	;
 END

@@ -1,10 +1,10 @@
---drop PROCEDURE SDWikiPullNavigationTerrainCards;
+--drop PROCEDURE DBSDEPullNavigationTerrainCards;
 
-create PROCEDURE SDWikiPullNavigationTerrainCards
+CREATE OR ALTER PROCEDURE DBSDEPullNavigationTerrainCards
 AS
 BEGIN
 	select distinct CardName, ProductSet, Link, PictureFront
 	from TerrainView
-	Order By ProductSet desc, CardName asc
+	Order By CardName asc
 	;
 END

@@ -1,10 +1,10 @@
---drop PROCEDURE SDWikiPullAllMightyMonsterCards;
+--drop PROCEDURE DBSDEPullAllMightyMonsterCards;
 
-create PROCEDURE SDWikiPullAllMightyMonsterCards
+CREATE OR ALTER PROCEDURE DBSDEPullAllMightyMonsterCards
 AS
 BEGIN
 	select * 
 	from MightyMonsterView
-	Order By ProductSet desc, CardName asc
+	Order By CardName asc
 	;
 END

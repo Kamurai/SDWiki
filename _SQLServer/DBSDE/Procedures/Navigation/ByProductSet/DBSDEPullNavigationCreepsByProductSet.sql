@@ -1,6 +1,6 @@
---drop PROCEDURE SDWikiPullNavigationCreepsByProductSet;
+--drop PROCEDURE DBSDEPullNavigationCreepsByProductSet;
 
-create PROCEDURE SDWikiPullNavigationCreepsByProductSet(
+CREATE OR ALTER PROCEDURE DBSDEPullNavigationCreepsByProductSet(
 	@strVersion varChar(10)
 )
 AS
@@ -8,6 +8,6 @@ BEGIN
 	select distinct CardName, ProductSet, PlayMode, Link, PictureFront
 	from DualCreepsView
 	where ProductSet = @strVersion
-	Order By ProductSet desc, PlayMode desc, CardName asc
+	Order By CardName asc
 	;
 END

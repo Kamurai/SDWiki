@@ -1,6 +1,6 @@
---drop PROCEDURE SDWikiPullOneChallengeCard;
+--drop PROCEDURE DBSDEPullOneChallengeCard;
 
-create PROCEDURE SDWikiPullOneChallengeCard(
+CREATE OR ALTER PROCEDURE DBSDEPullOneChallengeCard(
 	@intCardLink varChar(100)
 )
 AS

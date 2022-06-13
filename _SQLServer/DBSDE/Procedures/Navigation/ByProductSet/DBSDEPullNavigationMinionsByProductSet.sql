@@ -1,6 +1,6 @@
---drop PROCEDURE SDWikiPullNavigationMinionsByProductSet;
+--drop PROCEDURE DBSDEPullNavigationMinionsByProductSet;
 
-create PROCEDURE SDWikiPullNavigationMinionsByProductSet(
+CREATE OR ALTER PROCEDURE DBSDEPullNavigationMinionsByProductSet(
 	@strVersion varChar(10)
 )
 AS
@@ -8,6 +8,6 @@ BEGIN
 	select distinct CardName, ProductSet, PlayMode, Link, PictureFront
 	from MinionsViewMultiLine
 	where MinionsViewMultiLine.ProductSet = @strVersion
-	Order By ProductSet desc, PlayMode desc, CardName asc
+	Order By CardName asc
 	;
 END

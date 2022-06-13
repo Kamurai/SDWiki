@@ -1,8 +1,8 @@
---drop PROCEDURE SDWikiPullOneAbility;
+--drop PROCEDURE DBSDEPullOneAbility;
 
 --This is currently out of commission
 
-create PROCEDURE SDWikiPullOneAbility(
+CREATE OR ALTER PROCEDURE DBSDEPullOneAbility(
 	@intCardLink varChar(100)
 )
 AS

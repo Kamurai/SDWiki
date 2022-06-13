@@ -1,10 +1,10 @@
---drop PROCEDURE SDWikiPullAllMechs;
+--drop PROCEDURE DBSDEPullAllMechs;
 
-create PROCEDURE SDWikiPullAllMechs
+CREATE OR ALTER PROCEDURE DBSDEPullAllMechs
 AS
 BEGIN
 	select * 
 	from MechsView
-	Order By ProductSet desc, CardName asc
+	Order By CardName asc
 	;
 END

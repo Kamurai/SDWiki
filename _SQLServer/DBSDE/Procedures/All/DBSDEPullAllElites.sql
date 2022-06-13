@@ -1,10 +1,10 @@
---drop PROCEDURE SDWikiPullAllElites;
+--drop PROCEDURE DBSDEPullAllElites;
 
-create PROCEDURE SDWikiPullAllElites
+CREATE OR ALTER PROCEDURE DBSDEPullAllElites
 AS
 BEGIN
 	select * 
 	from ExploreElitesViewMultiLine
-	Order By ProductSet desc, CardName asc
+	Order By CardName asc
 	;
 END

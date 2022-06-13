@@ -1,6 +1,6 @@
---drop PROCEDURE SDWikiPullNavigationUtilityCardsByPlayMode;
+--drop PROCEDURE DBSDEPullNavigationUtilityCardsByPlayMode;
 
-create PROCEDURE SDWikiPullNavigationUtilityCardsByPlayMode(
+CREATE OR ALTER PROCEDURE DBSDEPullNavigationUtilityCardsByPlayMode(
 	@strMode varChar(7)
 )
 AS
@@ -8,6 +8,6 @@ BEGIN
 	select distinct CardName, ProductSet, PlayMode, Link, PictureFront
 	from UtilitiesView
 	where PlayMode = @strMode
-	Order By ProductSet desc, PlayMode desc, CardName asc
+	Order By CardName asc
 	;
 END

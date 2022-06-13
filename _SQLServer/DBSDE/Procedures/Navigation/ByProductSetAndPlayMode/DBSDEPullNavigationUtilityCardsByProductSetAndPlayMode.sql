@@ -1,6 +1,6 @@
---drop PROCEDURE SDWikiPullNavigationUtilityCards;
+--drop PROCEDURE DBSDEPullNavigationUtilityCards;
 
-create PROCEDURE SDWikiPullNavigationUtilityCardsByProductSetAndPlayMode(
+CREATE OR ALTER PROCEDURE DBSDEPullNavigationUtilityCardsByProductSetAndPlayMode(
 	@strVersion varChar(10),
 	@strMode varChar(7)
 )

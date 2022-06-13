@@ -1,10 +1,10 @@
---drop PROCEDURE SDWikiPullNavigationExploreMonsters;
+--drop PROCEDURE DBSDEPullNavigationExploreMonsters;
 
-create PROCEDURE SDWikiPullNavigationExploreMonsters
+CREATE OR ALTER PROCEDURE DBSDEPullNavigationExploreMonsters
 AS
 BEGIN
 	select distinct CardName, ProductSet, Link, PictureFront
 	from MonstersViewMultiLine
-	Order By ProductSet desc, CardName asc
+	Order By CardName asc
 	;
 END

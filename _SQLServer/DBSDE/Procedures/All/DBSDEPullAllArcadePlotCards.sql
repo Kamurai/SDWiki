@@ -1,10 +1,10 @@
---drop PROCEDURE SDWikiPullAllArcadePlotCards;
+--drop PROCEDURE DBSDEPullAllArcadePlotCards;
 
-create PROCEDURE SDWikiPullAllArcadePlotCards
+CREATE OR ALTER PROCEDURE DBSDEPullAllArcadePlotCards
 AS
 BEGIN
 	select * 
 	from ArcadePlotsView
-	Order By ProductSet desc, CardName asc
+	Order By CardName asc
 	;
 END

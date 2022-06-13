@@ -1,6 +1,6 @@
---drop PROCEDURE SDWikiPullNavigationArcadeSolosByProductSet;
+--drop PROCEDURE DBSDEPullNavigationArcadeSolosByProductSet;
 
-create PROCEDURE SDWikiPullNavigationArcadeSolosByProductSet(
+CREATE OR ALTER PROCEDURE DBSDEPullNavigationArcadeSolosByProductSet(
 	@strVersion varChar(10)
 )
 AS
@@ -8,6 +8,6 @@ BEGIN
 	select distinct CardName, ProductSet, PlayMode, Link, PictureFront
 	from ArcadeSolosViewMultiLine
 	where ArcadeSolosViewMultiLine.ProductSet = @strVersion
-	Order By ProductSet desc, PlayMode desc, CardName asc
+	Order By CardName asc
 	;
 END

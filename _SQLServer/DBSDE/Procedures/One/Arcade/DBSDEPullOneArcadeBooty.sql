@@ -1,6 +1,6 @@
---drop PROCEDURE SDWikiPullOneArcadeBooty;
+--drop PROCEDURE DBSDEPullOneArcadeBooty;
 
-create PROCEDURE SDWikiPullOneArcadeBooty(
+CREATE OR ALTER PROCEDURE DBSDEPullOneArcadeBooty(
 	@intCardLink varChar(100)
 )
 AS

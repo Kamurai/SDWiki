@@ -1,6 +1,6 @@
---drop PROCEDURE SDWikiPullOneBossSpawn;
+--drop PROCEDURE DBSDEPullOneBossSpawn;
 
-create PROCEDURE SDWikiPullOneBossSpawn(
+CREATE OR ALTER PROCEDURE DBSDEPullOneBossSpawn(
 	@intCardLink varChar(100)
 )
 AS

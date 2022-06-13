@@ -1,6 +1,6 @@
---drop PROCEDURE SDWikiPullOneObject;
+--drop PROCEDURE DBSDEPullOneObject;
 
-create PROCEDURE SDWikiPullOneObject(
+CREATE OR ALTER PROCEDURE DBSDEPullOneObject(
 	@intCardLink varChar(100)
 )
 AS

@@ -1,10 +1,10 @@
---drop PROCEDURE SDWikiPullAllPets;
+--drop PROCEDURE DBSDEPullAllPets;
 
-create PROCEDURE SDWikiPullAllPets
+CREATE OR ALTER PROCEDURE DBSDEPullAllPets
 AS
 BEGIN
 	select * 
 	from PetsViewMultiLine
-	Order By ProductSet desc, CardName asc
+	Order By CardName asc
 	;
 END

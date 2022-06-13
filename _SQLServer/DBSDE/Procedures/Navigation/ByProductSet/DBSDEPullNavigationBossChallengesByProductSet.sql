@@ -1,6 +1,6 @@
---drop PROCEDURE SDWikiPullNavigationBossChallengesByProductSet;
+--drop PROCEDURE DBSDEPullNavigationBossChallengesByProductSet;
 
-create PROCEDURE SDWikiPullNavigationBossChallengesByProductSet(
+CREATE OR ALTER PROCEDURE DBSDEPullNavigationBossChallengesByProductSet(
 	@strVersion varChar(10)
 )
 AS
@@ -8,6 +8,6 @@ BEGIN
 	select distinct CardName, ProductSet, PlayMode, Link, PictureFront
 	from BossChallengesView
 	where BossChallengesView.ProductSet = @strVersion
-	Order By ProductSet desc, PlayMode desc, CardName asc
+	Order By CardName asc
 	;
 END

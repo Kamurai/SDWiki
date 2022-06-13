@@ -1,6 +1,6 @@
---drop PROCEDURE SDWikiPullOnePet;
+--drop PROCEDURE DBSDEPullOnePet;
 
-create PROCEDURE SDWikiPullOnePet(
+CREATE OR ALTER PROCEDURE DBSDEPullOnePet(
 	@intCardLink varChar(100)
 )
 AS

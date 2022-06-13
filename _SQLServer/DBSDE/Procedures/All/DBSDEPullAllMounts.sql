@@ -1,10 +1,10 @@
---drop PROCEDURE SDWikiPullAllMounts;
+--drop PROCEDURE DBSDEPullAllMounts;
 
-create PROCEDURE SDWikiPullAllMounts
+CREATE OR ALTER PROCEDURE DBSDEPullAllMounts
 AS
 BEGIN
 	select * 
 	from MountsViewMultiLine
-	Order By ProductSet desc, CardName asc
+	Order By CardName asc
 	;
 END

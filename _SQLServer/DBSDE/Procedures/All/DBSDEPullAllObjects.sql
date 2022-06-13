@@ -1,10 +1,10 @@
---drop PROCEDURE SDWikiPullAllObjects;
+--drop PROCEDURE DBSDEPullAllObjects;
 
-create PROCEDURE SDWikiPullAllObjects
+CREATE OR ALTER PROCEDURE DBSDEPullAllObjects
 AS
 BEGIN
 	select * 
 	from ObjectsViewMultiLine
-	Order By ProductSet desc, CardName asc
+	Order By CardName asc
 	;
 END

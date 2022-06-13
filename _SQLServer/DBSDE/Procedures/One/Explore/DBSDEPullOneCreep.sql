@@ -1,6 +1,6 @@
---drop PROCEDURE SDWikiPullOneCreep;
+--drop PROCEDURE DBSDEPullOneCreep;
 
-create PROCEDURE SDWikiPullOneCreep(
+CREATE OR ALTER PROCEDURE DBSDEPullOneCreep(
 	@intCardLink varChar(100)
 )
 AS

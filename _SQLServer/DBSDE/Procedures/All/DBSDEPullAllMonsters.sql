@@ -1,10 +1,10 @@
---drop PROCEDURE SDWikiPullAllMonsters;
+--drop PROCEDURE DBSDEPullAllMonsters;
 
-create PROCEDURE SDWikiPullAllMonsters
+CREATE OR ALTER PROCEDURE DBSDEPullAllMonsters
 AS
 BEGIN
 	select * 
 	from MonstersViewMultiLine
-	Order By ProductSet desc, CardName asc
+	Order By CardName asc
 	;
 END

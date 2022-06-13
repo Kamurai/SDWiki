@@ -1,10 +1,10 @@
---drop PROCEDURE SDWikiPullNavigationExploreBosses;
+--drop PROCEDURE DBSDEPullNavigationExploreBosses;
 
-create PROCEDURE SDWikiPullNavigationExploreBosses
+CREATE OR ALTER PROCEDURE DBSDEPullNavigationExploreBosses
 AS
 BEGIN
 	select distinct CardName, ProductSet, Link, PictureFront
 	from BossesViewMultiLine
-	Order By ProductSet desc, CardName asc
+	Order By CardName asc
 	;
 END

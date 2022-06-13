@@ -1,6 +1,6 @@
---drop PROCEDURE SDWikiPullAllAbilities;
+--drop PROCEDURE DBSDEPullAllAbilities;
 
-create PROCEDURE SDWikiPullAllAbilities
+CREATE OR ALTER PROCEDURE DBSDEPullAllAbilities
 AS
 BEGIN
 	select * 

@@ -1,10 +1,10 @@
---drop PROCEDURE SDWikiPullAllRelics;
+--drop PROCEDURE DBSDEPullAllRelics;
 
-create PROCEDURE SDWikiPullAllRelics
+CREATE OR ALTER PROCEDURE DBSDEPullAllRelics
 AS
 BEGIN
 	select * 
 	from RelicsView
-	Order By ProductSet desc, CardName asc
+	Order By CardName asc
 	;
 END

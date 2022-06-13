@@ -1,10 +1,10 @@
---drop PROCEDURE SDWikiPullAllHeroes;
+--drop PROCEDURE DBSDEPullAllHeroes;
 
-create PROCEDURE SDWikiPullAllHeroes
+CREATE OR ALTER PROCEDURE DBSDEPullAllHeroes
 AS
 BEGIN
 	select * 
 	from HeroesViewMultiLine
-	Order By ProductSet desc, CardName asc
+	Order By CardName asc
 	;
 END

@@ -1,10 +1,10 @@
---drop PROCEDURE SDWikiPullNavigationRelics;
+--drop PROCEDURE DBSDEPullNavigationRelics;
 
-create PROCEDURE SDWikiPullNavigationRelics
+CREATE OR ALTER PROCEDURE DBSDEPullNavigationRelics
 AS
 BEGIN
 	select distinct CardName, ProductSet, Link, PictureFront
 	from RelicsView
-	Order By ProductSet desc, CardName asc
+	Order By CardName asc
 	;
 END

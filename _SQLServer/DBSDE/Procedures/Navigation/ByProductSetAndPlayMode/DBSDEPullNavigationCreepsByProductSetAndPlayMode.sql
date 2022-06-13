@@ -1,6 +1,6 @@
---drop PROCEDURE SDWikiPullNavigationCreepsByProductSetAndPlayMode;
+--drop PROCEDURE DBSDEPullNavigationCreepsByProductSetAndPlayMode;
 
-create PROCEDURE SDWikiPullNavigationCreepsByProductSetAndPlayMode(
+CREATE OR ALTER PROCEDURE DBSDEPullNavigationCreepsByProductSetAndPlayMode(
 	@strVersion varChar(3),
 	@strMode varChar(7)
 )

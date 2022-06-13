@@ -1,10 +1,10 @@
---drop PROCEDURE SDWikiPullNavigationBooty;
+--drop PROCEDURE DBSDEPullNavigationBooty;
 
-create PROCEDURE SDWikiPullNavigationBooty
+CREATE OR ALTER PROCEDURE DBSDEPullNavigationBooty
 AS
 BEGIN
 	select CardName, ProductSet, PlayMode, Link, PictureFront
 	from DualBootyView
-	Order By ProductSet desc, PlayMode desc, CardName asc
+	Order By CardName asc
 	;
 END

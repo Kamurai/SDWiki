@@ -1,10 +1,10 @@
---drop PROCEDURE SDWikiPullNavigationConsulPowerUpCards;
+--drop PROCEDURE DBSDEPullNavigationConsulPowerUpCards;
 
-create PROCEDURE SDWikiPullNavigationConsulPowerUpCards
+CREATE OR ALTER PROCEDURE DBSDEPullNavigationConsulPowerUpCards
 AS
 BEGIN
 	select distinct CardName, ProductSet, Link, PictureFront
 	from ConsulPowerUpsView
-	Order By ProductSet desc, CardName asc
+	Order By CardName asc
 	;
 END

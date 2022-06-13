@@ -1,6 +1,6 @@
---drop PROCEDURE SDWikiPullNavigationTerrainCardsByProductSet;
+--drop PROCEDURE DBSDEPullNavigationTerrainCardsByProductSet;
 
-create PROCEDURE SDWikiPullNavigationTerrainCardsByProductSet(
+CREATE OR ALTER PROCEDURE DBSDEPullNavigationTerrainCardsByProductSet(
 	@strVersion varChar(10)
 )
 AS
@@ -8,6 +8,6 @@ BEGIN
 	select distinct CardName, ProductSet, PlayMode, Link, PictureFront
 	from TerrainView
 	where TerrainView.ProductSet = @strVersion
-	Order By ProductSet desc, PlayMode desc, CardName asc
+	Order By CardName asc
 	;
 END

@@ -1,10 +1,10 @@
---drop PROCEDURE SDWikiPullNavigationExploreSpawns;
+--drop PROCEDURE DBSDEPullNavigationExploreSpawns;
 
-create PROCEDURE SDWikiPullNavigationExploreSpawns
+CREATE OR ALTER PROCEDURE DBSDEPullNavigationExploreSpawns
 AS
 BEGIN
 	select distinct CardName, ProductSet, Link, PictureFront
 	from SpawnsViewMultiLine
-	Order By ProductSet desc, CardName asc
+	Order By CardName asc
 	;
 END

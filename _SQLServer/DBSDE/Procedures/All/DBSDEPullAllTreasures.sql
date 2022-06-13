@@ -1,10 +1,10 @@
---drop PROCEDURE SDWikiPullAllTreasures;
+--drop PROCEDURE DBSDEPullAllTreasures;
 
-create PROCEDURE SDWikiPullAllTreasures
+CREATE OR ALTER PROCEDURE DBSDEPullAllTreasures
 AS
 BEGIN
 	select * 
 	from TreasuresView
-	Order By ProductSet desc, CardName asc
+	Order By CardName asc
 	;
 END

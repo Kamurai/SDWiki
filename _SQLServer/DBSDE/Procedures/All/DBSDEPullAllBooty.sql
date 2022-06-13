@@ -1,10 +1,10 @@
---drop PROCEDURE SDWikiPullAllBooty;
+--drop PROCEDURE DBSDEPullAllBooty;
 
-create PROCEDURE SDWikiPullAllBooty
+CREATE OR ALTER PROCEDURE DBSDEPullAllBooty
 AS
 BEGIN
 	select * 
 	from BootyViewMultiLine
-	Order By ProductSet desc, CardName asc
+	Order By CardName asc
 	;
 END

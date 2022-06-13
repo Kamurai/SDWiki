@@ -1,6 +1,6 @@
---drop PROCEDURE SDWikiPullNavigationArcadeCreepsByProductSet;
+--drop PROCEDURE DBSDEPullNavigationArcadeCreepsByProductSet;
 
-create PROCEDURE SDWikiPullNavigationArcadeCreepsByProductSet(
+CREATE OR ALTER PROCEDURE DBSDEPullNavigationArcadeCreepsByProductSet(
 	@strVersion varChar(10)
 )
 AS
@@ -8,6 +8,6 @@ BEGIN
 	select distinct CardName, ProductSet, PlayMode, Link, PictureFront
 	from ArcadeCreepsViewMultiLine
 	where ArcadeCreepsViewMultiLine.ProductSet = @strVersion
-	Order By ProductSet desc, PlayMode desc, CardName asc
+	Order By CardName asc
 	;
 END

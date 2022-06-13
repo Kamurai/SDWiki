@@ -1,10 +1,10 @@
---drop PROCEDURE SDWikiPullNavigationWarbands;
+--drop PROCEDURE DBSDEPullNavigationWarbands;
 
-create PROCEDURE SDWikiPullNavigationExploreWarbands
+CREATE OR ALTER PROCEDURE DBSDEPullNavigationExploreWarbands
 AS
 BEGIN
 	select distinct CardName, ProductSet, Link, PictureFront
 	from WarbandsViewMultiLine
-	Order By ProductSet desc, CardName asc
+	Order By CardName asc
 	;
 END

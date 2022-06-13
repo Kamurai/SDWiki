@@ -1,10 +1,10 @@
---drop PROCEDURE SDWikiPullAllConsulPowerUpCards;
+--drop PROCEDURE DBSDEPullAllConsulPowerUpCards;
 
-create PROCEDURE SDWikiPullAllConsulPowerUpCards
+CREATE OR ALTER PROCEDURE DBSDEPullAllConsulPowerUpCards
 AS
 BEGIN
 	select * 
 	from ConsulPowerUpsView
-	Order By ProductSet desc, CardName asc
+	Order By CardName asc
 	;
 END

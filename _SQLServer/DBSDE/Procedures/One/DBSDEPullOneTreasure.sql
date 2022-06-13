@@ -1,6 +1,6 @@
---drop PROCEDURE SDWikiPullOneTreasure;
+--drop PROCEDURE DBSDEPullOneTreasure;
 
-create PROCEDURE SDWikiPullOneTreasure(
+CREATE OR ALTER PROCEDURE DBSDEPullOneTreasure(
 	@intCardLink varChar(100)
 )
 AS

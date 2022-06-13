@@ -1,10 +1,10 @@
---drop PROCEDURE SDWikiPullNavigationBossChallenges;
+--drop PROCEDURE DBSDEPullNavigationBossChallenges;
 
-create PROCEDURE SDWikiPullNavigationBossChallenges
+CREATE OR ALTER PROCEDURE DBSDEPullNavigationBossChallenges
 AS
 BEGIN
 	select distinct CardName, ProductSet, Link, PictureFront
 	from BossChallengesView
-	Order By ProductSet desc, CardName asc
+	Order By CardName asc
 	;
 END

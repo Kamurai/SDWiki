@@ -1,6 +1,6 @@
---drop PROCEDURE SDWikiPullNavigationBootyByProductSet;
+--drop PROCEDURE DBSDEPullNavigationBootyByProductSet;
 
-create PROCEDURE SDWikiPullNavigationBootyByProductSet(
+CREATE OR ALTER PROCEDURE DBSDEPullNavigationBootyByProductSet(
 	@strVersion varChar(10)
 )
 AS
@@ -8,6 +8,6 @@ BEGIN
 	select CardName, ProductSet, PlayMode, Link, PictureFront
 	from DualBootyView
 	where ProductSet = @strVersion
-	Order By ProductSet desc, PlayMode desc, CardName asc
+	Order By CardName asc
 	;
 END

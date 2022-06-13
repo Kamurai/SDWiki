@@ -1,10 +1,10 @@
---drop PROCEDURE SDWikiPullAllArcadeSpawns;
+--drop PROCEDURE DBSDEPullAllArcadeSpawns;
 
-create PROCEDURE SDWikiPullAllArcadeSpawns
+CREATE OR ALTER PROCEDURE DBSDEPullAllArcadeSpawns
 AS
 BEGIN
 	select * 
 	from ArcadeSpawnsViewMultiLine
-	Order By ProductSet desc, CardName asc
+	Order By CardName asc
 	;
 END

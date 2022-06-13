@@ -1,6 +1,6 @@
---drop PROCEDURE SDWikiPullOneRelic;
+--drop PROCEDURE DBSDEPullOneRelic;
 
-create PROCEDURE SDWikiPullOneRelic(
+CREATE OR ALTER PROCEDURE DBSDEPullOneRelic(
 	@intCardLink varChar(100)
 )
 AS

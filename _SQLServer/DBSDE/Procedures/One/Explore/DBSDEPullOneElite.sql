@@ -1,6 +1,6 @@
---drop PROCEDURE SDWikiPullOneElite;
+--drop PROCEDURE DBSDEPullOneElite;
 
-create PROCEDURE SDWikiPullOneElite(
+CREATE OR ALTER PROCEDURE DBSDEPullOneElite(
 	@intCardLink varChar(100)
 )
 AS

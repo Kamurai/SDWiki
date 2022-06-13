@@ -1,10 +1,10 @@
---drop PROCEDURE SDWikiPullNavigationMounts;
+--drop PROCEDURE DBSDEPullNavigationMounts;
 
-create PROCEDURE SDWikiPullNavigationMounts
+CREATE OR ALTER PROCEDURE DBSDEPullNavigationMounts
 AS
 BEGIN
 	select distinct CardName, ProductSet, PlayMode, Link, PictureFront
 	from MountsViewMultiLine
-	Order By ProductSet desc, PlayMode desc, CardName asc
+	Order By CardName asc
 	;
 END

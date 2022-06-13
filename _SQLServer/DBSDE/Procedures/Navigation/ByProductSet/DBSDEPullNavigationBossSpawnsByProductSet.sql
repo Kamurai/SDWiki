@@ -1,6 +1,6 @@
---drop PROCEDURE SDWikiPullNavigationBossSpawnsByProductSet;
+--drop PROCEDURE DBSDEPullNavigationBossSpawnsByProductSet;
 
-create PROCEDURE SDWikiPullNavigationBossSpawnsByProductSet(
+CREATE OR ALTER PROCEDURE DBSDEPullNavigationBossSpawnsByProductSet(
 	@strVersion varChar(10)
 )
 AS
@@ -8,6 +8,6 @@ BEGIN
 	select distinct CardName, ProductSet, PlayMode, Link, PictureFront
 	from BossSpawnView
 	where BossSpawnView.ProductSet = @strVersion
-	Order By ProductSet desc, PlayMode desc, CardName asc
+	Order By CardName asc
 	;
 END

@@ -1,10 +1,10 @@
---drop PROCEDURE SDWikiPullAllLoot;
+--drop PROCEDURE DBSDEPullAllLoot;
 
-create PROCEDURE SDWikiPullAllLoot
+CREATE OR ALTER PROCEDURE DBSDEPullAllLoot
 AS
 BEGIN
 	select * 
 	from LootView
-	Order By ProductSet desc, CardName asc
+	Order By CardName asc
 	;
 END

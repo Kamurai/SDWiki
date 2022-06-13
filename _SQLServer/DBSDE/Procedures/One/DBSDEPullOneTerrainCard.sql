@@ -1,6 +1,6 @@
---drop PROCEDURE SDWikiPullOneTerrainCard;
+--drop PROCEDURE DBSDEPullOneTerrainCard;
 
-create PROCEDURE SDWikiPullOneTerrainCard(
+CREATE OR ALTER PROCEDURE DBSDEPullOneTerrainCard(
 	@intCardLink varChar(100)
 )
 AS

@@ -1,10 +1,10 @@
---drop PROCEDURE SDWikiPullNavigationArcadeCreeps;
+--drop PROCEDURE DBSDEPullNavigationArcadeCreeps;
 
-create PROCEDURE SDWikiPullNavigationArcadeCreeps
+CREATE OR ALTER PROCEDURE DBSDEPullNavigationArcadeCreeps
 AS
 BEGIN
 	select distinct CardName, ProductSet, Link, PictureFront
 	from ArcadeCreepsViewMultiLine
-	Order By ProductSet desc, CardName asc
+	Order By CardName asc
 	;
 END

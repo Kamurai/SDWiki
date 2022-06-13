@@ -1,6 +1,6 @@
---drop PROCEDURE SDWikiPullAllAbilitiesByProductSet;
+--drop PROCEDURE DBSDEPullAllAbilitiesByProductSet;
 
-create PROCEDURE SDWikiPullAllAbilitiesByProductSet(
+CREATE OR ALTER PROCEDURE DBSDEPullAllAbilitiesByProductSet(
 	@strVersion varChar(6)
 )
 AS

@@ -1,6 +1,6 @@
---drop PROCEDURE SDWikiPullOneConsulPowerUpCard;
+--drop PROCEDURE DBSDEPullOneConsulPowerUpCard;
 
-create PROCEDURE SDWikiPullOneConsulPowerUpCard(
+CREATE OR ALTER PROCEDURE DBSDEPullOneConsulPowerUpCard(
 	@intCardLink varChar(100)
 )
 AS

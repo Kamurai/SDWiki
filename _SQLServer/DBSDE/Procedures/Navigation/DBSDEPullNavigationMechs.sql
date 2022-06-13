@@ -1,10 +1,10 @@
---drop PROCEDURE SDWikiPullNavigationMechs;
+--drop PROCEDURE DBSDEPullNavigationMechs;
 
-create PROCEDURE SDWikiPullNavigationMechs
+CREATE OR ALTER PROCEDURE DBSDEPullNavigationMechs
 AS
 BEGIN
 	select distinct CardName, ProductSet, Link, PictureFront
 	from MechsView
-	Order By ProductSet desc, CardName asc
+	Order By CardName asc
 	;
 END

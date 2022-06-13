@@ -1,10 +1,10 @@
---drop PROCEDURE SDWikiPullNavigationUtilityCards;
+--drop PROCEDURE DBSDEPullNavigationUtilityCards;
 
-create PROCEDURE SDWikiPullNavigationUtilityCards
+CREATE OR ALTER PROCEDURE DBSDEPullNavigationUtilityCards
 AS
 BEGIN
 	select distinct CardName, ProductSet, PlayMode, Link, PictureFront
 	from UtilitiesView
-	Order By ProductSet desc, PlayMode desc, CardName asc
+	Order By CardName asc
 	;
 END

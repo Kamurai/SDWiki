@@ -1,10 +1,10 @@
---drop PROCEDURE SDWikiPullAllArcadeGangs;
+--drop PROCEDURE DBSDEPullAllArcadeGangs;
 
-create PROCEDURE SDWikiPullAllArcadeGangs
+CREATE OR ALTER PROCEDURE DBSDEPullAllArcadeGangs
 AS
 BEGIN
 	select * 
 	from ArcadeGangsViewMultiLine
-	Order By ProductSet desc, CardName asc
+	Order By CardName asc
 	;
 END

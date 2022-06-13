@@ -1,10 +1,10 @@
---drop PROCEDURE SDWikiPullAllMiniBosses;
+--drop PROCEDURE DBSDEPullAllMiniBosses;
 
-create PROCEDURE SDWikiPullAllMiniBosses
+CREATE OR ALTER PROCEDURE DBSDEPullAllMiniBosses
 AS
 BEGIN
 	select * 
 	from MiniBossesViewMultiLine
-	Order By ProductSet desc, CardName asc
+	Order By CardName asc
 	;
 END

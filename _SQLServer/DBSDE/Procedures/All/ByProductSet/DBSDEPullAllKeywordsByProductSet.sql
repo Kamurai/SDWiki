@@ -1,6 +1,6 @@
---drop PROCEDURE SDWikiPullAllKeywordsByProductSet;
+--drop PROCEDURE DBSDEPullAllKeywordsByProductSet;
 
-create PROCEDURE SDWikiPullAllKeywordsByProductSet(
+CREATE OR ALTER PROCEDURE DBSDEPullAllKeywordsByProductSet(
 	@strVersion varChar(6)
 )
 AS

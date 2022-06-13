@@ -1,10 +1,10 @@
---drop PROCEDURE SDWikiPullAllEquipment;
+--drop PROCEDURE DBSDEPullAllEquipment;
 
-CREATE OR ALTER PROCEDURE SDWikiPullAllEquipment
+CREATE OR ALTER PROCEDURE DBSDEPullAllEquipment
 AS
 BEGIN
 	select * 
 	from EquipmentView
-	Order By ProductSet desc, CardName asc
+	Order By CardName asc
 	;
 END

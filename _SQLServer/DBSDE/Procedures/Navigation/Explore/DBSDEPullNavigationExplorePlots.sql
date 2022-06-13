@@ -1,10 +1,10 @@
---drop PROCEDURE SDWikiPullNavigationExplorePlots;
+--drop PROCEDURE DBSDEPullNavigationExplorePlots;
 
-create PROCEDURE SDWikiPullNavigationExplorePlots
+CREATE OR ALTER PROCEDURE DBSDEPullNavigationExplorePlots
 AS
 BEGIN
 	select distinct CardName, ProductSet, Link, PictureFront
 	from ExplorePlotsView
-	Order By ProductSet desc, CardName asc
+	Order By CardName asc
 	;
 END

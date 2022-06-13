@@ -1,6 +1,6 @@
---drop PROCEDURE SDWikiPullOneMinion;
+--drop PROCEDURE DBSDEPullOneMinion;
 
-create PROCEDURE SDWikiPullOneMinion(
+CREATE OR ALTER PROCEDURE DBSDEPullOneMinion(
 	@intCardLink varChar(100)
 )
 AS

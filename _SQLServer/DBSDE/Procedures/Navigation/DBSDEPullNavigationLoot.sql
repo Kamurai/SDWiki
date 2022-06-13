@@ -1,10 +1,10 @@
---drop PROCEDURE SDWikiPullNavigationLoot;
+--drop PROCEDURE DBSDEPullNavigationLoot;
 
-create PROCEDURE SDWikiPullNavigationLoot
+CREATE OR ALTER PROCEDURE DBSDEPullNavigationLoot
 AS
 BEGIN
 	select distinct CardName, ProductSet, Link, PictureFront
 	from LootView
-	Order By ProductSet desc, CardName asc
+	Order By CardName asc
 	;
 END

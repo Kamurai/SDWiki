@@ -1,10 +1,10 @@
---drop PROCEDURE SDWikiPullAllArcadeCreeps;
+--drop PROCEDURE DBSDEPullAllArcadeCreeps;
 
-create PROCEDURE SDWikiPullAllArcadeCreeps
+CREATE OR ALTER PROCEDURE DBSDEPullAllArcadeCreeps
 AS
 BEGIN
 	select * 
 	from ArcadeCreepsViewMultiLine
-	Order By ProductSet desc, CardName asc
+	Order By CardName asc
 	;
 END
