@@ -21,7 +21,7 @@ public class SDEDAOAll extends SDEDAO{
         try{
             openConnection();
             
-            stmt = getConnect().prepareCall("{call SDWikiPullAllKeywords}");
+            stmt = getConnect().prepareCall("{call DBSDEPullAllKeywords}");
             rs = stmt.executeQuery();
             
             while(rs.next()){
@@ -51,7 +51,7 @@ public class SDEDAOAll extends SDEDAO{
         try{
             openConnection();
             
-            stmt = getConnect().prepareCall("{call SDWikiPullAllKeywordsByProductSet(?)}");
+            stmt = getConnect().prepareCall("{call DBSDEPullAllKeywordsByProductSet(?)}");
             stmt.setString(1, version);
             rs = stmt.executeQuery();
             
@@ -83,7 +83,7 @@ public class SDEDAOAll extends SDEDAO{
         try{
             openConnection();
             
-            stmt = getConnect().prepareCall("{call SDWikiPullAllAbilities}");
+            stmt = getConnect().prepareCall("{call DBSDEPullAllAbilities}");
             rs = stmt.executeQuery();
             
             while(rs.next()){
@@ -119,7 +119,7 @@ public class SDEDAOAll extends SDEDAO{
         try{
             openConnection();
             
-            stmt = getConnect().prepareCall("{call SDWikiPullAllAbilitiesByProductSet(?)}");
+            stmt = getConnect().prepareCall("{call DBSDEPullAllAbilitiesByProductSet(?)}");
             stmt.setString(1, version);
             rs = stmt.executeQuery();
             
@@ -170,7 +170,7 @@ public class SDEDAOAll extends SDEDAO{
         try{
             openConnection();
             
-            stmt = getConnect().prepareCall("{call SDWikiPullAllHeroes}");
+            stmt = getConnect().prepareCall("{call DBSDEPullAllHeroes}");
             rs = stmt.executeQuery();
             
             while(rs.next()){
@@ -289,7 +289,7 @@ public class SDEDAOAll extends SDEDAO{
         try{
             openConnection();
             
-            stmt = getConnect().prepareCall("{call SDWikiPullAllPets}");
+            stmt = getConnect().prepareCall("{call DBSDEPullAllPets}");
             rs = stmt.executeQuery();
             
             while(rs.next()){
@@ -391,47 +391,47 @@ public class SDEDAOAll extends SDEDAO{
     
     //Pull All Booty
     public static ArrayList<SDE.Monster> pullAllBooty(){
-        return pullAllMonsters("{call SDWikiPullAllBooty()}");
+        return pullAllMonsters("{call DBSDEPullAllBooty()}");
     }
     
     //Pull All Creep
     public static ArrayList<SDE.Monster> pullAllCreeps(){
-        return pullAllMonsters("{call SDWikiPullAllCreeps()}");
+        return pullAllMonsters("{call DBSDEPullAllCreeps()}");
     }
     
     //Pull All Elite
     public static ArrayList<SDE.Monster> pullAllElites(){
-        return pullAllMonsters("{call SDWikiPullAllElites()}");
+        return pullAllMonsters("{call DBSDEPullAllElites()}");
     }
     
     //Pull All Mini Boss
     public static ArrayList<SDE.Monster> pullAllMiniBosses(){
-        return pullAllMonsters("{call SDWikiPullAllMiniBosses()}");
+        return pullAllMonsters("{call DBSDEPullAllMiniBosses()}");
     }
     
     //Pull All Boss
     public static ArrayList<SDE.Monster> pullAllBosses(){
-        return pullAllMonsters("{call SDWikiPullAllBosses()}");
+        return pullAllMonsters("{call DBSDEPullAllBosses()}");
     }
     
     //Pull All Minion
     public static ArrayList<SDE.Monster> pullAllMinions(){
-        return pullAllMonsters("{call SDWikiPullAllMinions()}");
+        return pullAllMonsters("{call DBSDEPullAllMinions()}");
     }
     
     //Pull All Spawn
     public static ArrayList<SDE.Monster> pullAllSpawns(){
-        return pullAllMonsters("{call SDWikiPullAllSpawns()}");
+        return pullAllMonsters("{call DBSDEPullAllSpawns()}");
     }
     
     //Pull All Warband
     public static ArrayList<SDE.Monster> pullAllWarbands(){
-        return pullAllMonsters("{call SDWikiPullAllWarbands()}");
+        return pullAllMonsters("{call DBSDEPullAllWarbands()}");
     }
     
     //Pull All Monster
     public static ArrayList<SDE.Monster> pullAllMonsters(){
-        return pullAllMonsters("{call SDWikiPullAllMonsters()}");
+        return pullAllMonsters("{call DBSDEPullAllMonsters()}");
     }
     
     //Pull All Monsters
@@ -559,47 +559,47 @@ public class SDEDAOAll extends SDEDAO{
     
     //Pull All Arcade Booty
     public static ArrayList<SDE.ArcadeCharacter> pullAllArcadeBooty(){
-        return pullAllArcadeMonsters("{call SDWikiPullAllArcadeBooty(?)}");
+        return pullAllArcadeMonsters("{call DBSDEPullAllArcadeBooty(?)}");
     }
     
     //Pull All Arcade Creep
     public static ArrayList<SDE.ArcadeCharacter> pullAllArcadeCreeps(){
-        return pullAllArcadeMonsters("{call SDWikiPullAllArcadeCreeps(?)}");
+        return pullAllArcadeMonsters("{call DBSDEPullAllArcadeCreeps(?)}");
     }
     
     //Pull All Arcade Mini Boss
     public static ArrayList<SDE.ArcadeCharacter> pullAllArcadeMiniBosses(){
-        return pullAllArcadeMonsters("{call SDWikiPullAllArcadeMiniBosses(?)}");
+        return pullAllArcadeMonsters("{call DBSDEPullAllArcadeMiniBosses(?)}");
     }
     
     //Pull All Arcade Boss
     public static ArrayList<SDE.ArcadeCharacter> pullAllArcadeBosses(){
-        return pullAllArcadeMonsters("{call SDWikiPullAllArcadeBosses(?)}");
+        return pullAllArcadeMonsters("{call DBSDEPullAllArcadeBosses(?)}");
     }
     
     //Pull All Arcade Solo
     public static ArrayList<SDE.ArcadeCharacter> pullAllArcadeSolos(){
-        return pullAllArcadeMonsters("{call SDWikiPullAllArcadeSolos(?)}");
+        return pullAllArcadeMonsters("{call DBSDEPullAllArcadeSolos(?)}");
     }
     
     //Pull All Arcade Spawn
     public static ArrayList<SDE.ArcadeCharacter> pullAllArcadeSpawns(){
-        return pullAllArcadeMonsters("{call SDWikiPullAllArcadeSpawns(?)}");
+        return pullAllArcadeMonsters("{call DBSDEPullAllArcadeSpawns(?)}");
     }
     
     //Pull All Arcade Gang
     public static ArrayList<SDE.ArcadeCharacter> pullAllArcadeGangs(){
-        return pullAllArcadeMonsters("{call SDWikiPullAllArcadeGangs(?)}");
+        return pullAllArcadeMonsters("{call DBSDEPullAllArcadeGangs(?)}");
     }
     
     //Pull All Arcade Warband
     public static ArrayList<SDE.ArcadeCharacter> pullAllArcadeWarbands(){
-        return pullAllArcadeMonsters("{call SDWikiPullAllArcadeWarbands(?)}");
+        return pullAllArcadeMonsters("{call DBSDEPullAllArcadeWarbands(?)}");
     }
     
     //Pull All Arcade Monster
     public static ArrayList<SDE.ArcadeCharacter> pullAllArcadeMonsters(){
-        return pullAllArcadeMonsters("{call SDWikiPullAllArcadeMonsters(?)}");
+        return pullAllArcadeMonsters("{call DBSDEPullAllArcadeMonsters(?)}");
     }
     
     //Pull All Arcade Monsters
@@ -735,22 +735,22 @@ public class SDEDAOAll extends SDEDAO{
     
     //Pull All Loot
     public static ArrayList<SDE.Equipment> pullAllLoot(){
-        return pullAllEquipment("{call SDWikiPullAllLoot(?)}");
+        return pullAllEquipment("{call DBSDEPullAllLoot(?)}");
     }
     
     //Pull All Treasure
     public static ArrayList<SDE.Equipment> pullAllTreasures(){
-        return pullAllEquipment("{call SDWikiPullAllTreasure(?)}");
+        return pullAllEquipment("{call DBSDEPullAllTreasure(?)}");
     }
     
     //Pull All Relic
     public static ArrayList<SDE.Equipment> pullAllRelics(){
-        return pullAllEquipment("{call SDWikiPullAllRelic(?)}");
+        return pullAllEquipment("{call DBSDEPullAllRelic(?)}");
     }
     
     //Pull All Equipment
     public static ArrayList<SDE.Equipment> pullAllEquipment(){
-        return pullAllEquipment("{call SDWikiPullAllEquipment(?)}");
+        return pullAllEquipment("{call DBSDEPullAllEquipment(?)}");
     }
     
     //Pull All Equipment
@@ -859,7 +859,7 @@ public class SDEDAOAll extends SDEDAO{
         try{
             openConnection();
             
-            stmt = getConnect().prepareCall("{call SDWikiPullAllBossSpawns()}");
+            stmt = getConnect().prepareCall("{call DBSDEPullAllBossSpawns()}");
             rs = stmt.executeQuery();
             
             while(rs.next()){
@@ -907,12 +907,12 @@ public class SDEDAOAll extends SDEDAO{
     
     //Pull Arcade Plot Card
     public static ArrayList<SDE.PlotCard> pullAllArcadePlotCards(){
-        return pullAllPlotCards("{call SDWikiPullAllArcadePlotCards()}");
+        return pullAllPlotCards("{call DBSDEPullAllArcadePlotCards()}");
     }
     
     //Pull All Explore Plot Card
     public static ArrayList<SDE.PlotCard> pullAllExplorePlotCards(){
-        return pullAllPlotCards("{call SDWikiPullAllExplorePlotCards()}");
+        return pullAllPlotCards("{call DBSDEPullAllExplorePlotCards()}");
     }
     
     //Pull All Plot Cards
@@ -986,7 +986,7 @@ public class SDEDAOAll extends SDEDAO{
         try{
             openConnection();
             
-            stmt = getConnect().prepareCall("{call SDWikiPullAllExploreCards()}");
+            stmt = getConnect().prepareCall("{call DBSDEPullAllExploreCards()}");
             rs = stmt.executeQuery();
             
             while(rs.next()){
@@ -1049,7 +1049,7 @@ public class SDEDAOAll extends SDEDAO{
         try{
             openConnection();
             
-            stmt = getConnect().prepareCall("{call SDWikiPullAllChallenges()}");
+            stmt = getConnect().prepareCall("{call DBSDEPullAllChallenges()}");
             rs = stmt.executeQuery();
             
             while(rs.next()){
@@ -1106,7 +1106,7 @@ public class SDEDAOAll extends SDEDAO{
         try{
             openConnection();
             
-            stmt = getConnect().prepareCall("{call SDWikiPullAllBossChallenges()}");
+            stmt = getConnect().prepareCall("{call DBSDEPullAllBossChallenges()}");
             rs = stmt.executeQuery();
             
             while(rs.next()){
@@ -1165,7 +1165,7 @@ public class SDEDAOAll extends SDEDAO{
         try{
             openConnection();
             
-            stmt = getConnect().prepareCall("{call SDWikiPullAllMightyMonsterCards()}");
+            stmt = getConnect().prepareCall("{call DBSDEPullAllMightyMonsterCards()}");
             rs = stmt.executeQuery();
             
             while(rs.next()){
@@ -1211,12 +1211,12 @@ public class SDEDAOAll extends SDEDAO{
     
     //Pull One Terrain Card
     public static ArrayList<SDE.UtilityCard> pullAllTerrainCards(){
-        return pullAllUtilityCards("{call SDWikiPullAllTerrainCards()}");
+        return pullAllUtilityCards("{call DBSDEPullAllTerrainCards()}");
     }
     
     //Pull One Utility Card
     public static ArrayList<SDE.UtilityCard> pullAllUtilityCards(){
-        return pullAllUtilityCards("{call SDWikiPullAllUtilityCards()}");
+        return pullAllUtilityCards("{call DBSDEPullAllUtilityCards()}");
     }
     
     //Pull All Utility Cards

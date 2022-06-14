@@ -20,7 +20,7 @@ public class SDEDAOOne extends SDEDAO{
         try{
             openConnection();
             
-            stmt = getConnect().prepareCall("{call SDWikiPullAllKeywords}");
+            stmt = getConnect().prepareCall("{call DBSDEPullAllKeywords}");
             rs = stmt.executeQuery();
             
             while(rs.next()){
@@ -50,7 +50,7 @@ public class SDEDAOOne extends SDEDAO{
         try{
             openConnection();
             
-            stmt = getConnect().prepareCall("{call SDWikiPullAllKeywordsByProductSet(?)}");
+            stmt = getConnect().prepareCall("{call DBSDEPullAllKeywordsByProductSet(?)}");
             stmt.setString(1, version);
             rs = stmt.executeQuery();
             
@@ -82,7 +82,7 @@ public class SDEDAOOne extends SDEDAO{
         try{
             openConnection();
             
-            stmt = getConnect().prepareCall("{call SDWikiPullAllAbilities}");
+            stmt = getConnect().prepareCall("{call DBSDEPullAllAbilities}");
             rs = stmt.executeQuery();
             
             while(rs.next()){
@@ -118,7 +118,7 @@ public class SDEDAOOne extends SDEDAO{
         try{
             openConnection();
             
-            stmt = getConnect().prepareCall("{call SDWikiPullAllAbilitiesByProductSet(?)}");
+            stmt = getConnect().prepareCall("{call DBSDEPullAllAbilitiesByProductSet(?)}");
             stmt.setString(1, version);
             rs = stmt.executeQuery();
             
@@ -168,7 +168,7 @@ public class SDEDAOOne extends SDEDAO{
         try{
             openConnection();
             
-            stmt = getConnect().prepareCall("{call SDWikiPullOneHero(?)}");
+            stmt = getConnect().prepareCall("{call DBSDEPullOneHero(?)}");
             stmt.setString(1, link);
             rs = stmt.executeQuery();
             
@@ -282,7 +282,7 @@ public class SDEDAOOne extends SDEDAO{
         try{
             openConnection();
             
-            stmt = getConnect().prepareCall("{call SDWikiPullOnePet(?)}");
+            stmt = getConnect().prepareCall("{call DBSDEPullOnePet(?)}");
             stmt.setString(1, link);
             rs = stmt.executeQuery();
             
@@ -381,47 +381,47 @@ public class SDEDAOOne extends SDEDAO{
     
     //Pull One Booty
     public static SDE.Monster pullOneBooty(String link){
-        return pullOneMonster(link, "{call SDWikiPullOneBooty(?)}");
+        return pullOneMonster(link, "{call DBSDEPullOneBooty(?)}");
     }
     
     //Pull One Creep
     public static SDE.Monster pullOneCreep(String link){
-        return pullOneMonster(link, "{call SDWikiPullOneCreep(?)}");
+        return pullOneMonster(link, "{call DBSDEPullOneCreep(?)}");
     }
     
     //Pull One Elite
     public static SDE.Monster pullOneElite(String link){
-        return pullOneMonster(link, "{call SDWikiPullOneElite(?)}");
+        return pullOneMonster(link, "{call DBSDEPullOneElite(?)}");
     }
     
     //Pull One Mini Boss
     public static SDE.Monster pullOneMiniBoss(String link){
-        return pullOneMonster(link, "{call SDWikiPullOneMiniBoss(?)}");
+        return pullOneMonster(link, "{call DBSDEPullOneMiniBoss(?)}");
     }
     
     //Pull One Boss
     public static SDE.Monster pullOneBoss(String link){
-        return pullOneMonster(link, "{call SDWikiPullOneBoss(?)}");
+        return pullOneMonster(link, "{call DBSDEPullOneBoss(?)}");
     }
     
     //Pull One Minion
     public static SDE.Monster pullOneMinion(String link){
-        return pullOneMonster(link, "{call SDWikiPullOneMinion(?)}");
+        return pullOneMonster(link, "{call DBSDEPullOneMinion(?)}");
     }
     
     //Pull One Spawn
     public static SDE.Monster pullOneSpawn(String link){
-        return pullOneMonster(link, "{call SDWikiPullOneSpawn(?)}");
+        return pullOneMonster(link, "{call DBSDEPullOneSpawn(?)}");
     }
     
     //Pull One Warband
     public static SDE.Monster pullOneWarband(String link){
-        return pullOneMonster(link, "{call SDWikiPullOneWarband(?)}");
+        return pullOneMonster(link, "{call DBSDEPullOneWarband(?)}");
     }
     
     //Pull One Monster
     public static SDE.Monster pullOneMonster(String link){
-        return pullOneMonster(link, "{call SDWikiPullOneMonster(?)}");
+        return pullOneMonster(link, "{call DBSDEPullOneMonster(?)}");
     }
     
     //Pull One Monster
@@ -541,47 +541,47 @@ public class SDEDAOOne extends SDEDAO{
     
     //Pull One Arcade Booty
     public static SDE.ArcadeCharacter pullOneArcadeBooty(String link){
-        return pullOneArcadeMonster(link, "{call SDWikiPullOneArcadeBooty(?)}");
+        return pullOneArcadeMonster(link, "{call DBSDEPullOneArcadeBooty(?)}");
     }
     
     //Pull One Arcade Creep
     public static SDE.ArcadeCharacter pullOneArcadeCreep(String link){
-        return pullOneArcadeMonster(link, "{call SDWikiPullOneArcadeCreep(?)}");
+        return pullOneArcadeMonster(link, "{call DBSDEPullOneArcadeCreep(?)}");
     }
     
     //Pull One Arcade Mini Boss
     public static SDE.ArcadeCharacter pullOneArcadeMiniBoss(String link){
-        return pullOneArcadeMonster(link, "{call SDWikiPullOneArcadeMiniBoss(?)}");
+        return pullOneArcadeMonster(link, "{call DBSDEPullOneArcadeMiniBoss(?)}");
     }
     
     //Pull One Arcade Boss
     public static SDE.ArcadeCharacter pullOneArcadeBoss(String link){
-        return pullOneArcadeMonster(link, "{call SDWikiPullOneArcadeBoss(?)}");
+        return pullOneArcadeMonster(link, "{call DBSDEPullOneArcadeBoss(?)}");
     }
     
     //Pull One Arcade Solo
     public static SDE.ArcadeCharacter pullOneArcadeSolo(String link){
-        return pullOneArcadeMonster(link, "{call SDWikiPullOneArcadeSolo(?)}");
+        return pullOneArcadeMonster(link, "{call DBSDEPullOneArcadeSolo(?)}");
     }
     
     //Pull One Arcade Spawn
     public static SDE.ArcadeCharacter pullOneArcadeSpawn(String link){
-        return pullOneArcadeMonster(link, "{call SDWikiPullOneArcadeSpawn(?)}");
+        return pullOneArcadeMonster(link, "{call DBSDEPullOneArcadeSpawn(?)}");
     }
     
     //Pull One Arcade Gang
     public static SDE.ArcadeCharacter pullOneArcadeGang(String link){
-        return pullOneArcadeMonster(link, "{call SDWikiPullOneArcadeGang(?)}");
+        return pullOneArcadeMonster(link, "{call DBSDEPullOneArcadeGang(?)}");
     }
     
     //Pull One Arcade Warband
     public static SDE.ArcadeCharacter pullOneArcadeWarband(String link){
-        return pullOneArcadeMonster(link, "{call SDWikiPullOneArcadeWarband(?)}");
+        return pullOneArcadeMonster(link, "{call DBSDEPullOneArcadeWarband(?)}");
     }
     
     //Pull One Arcade Monster
     public static SDE.ArcadeCharacter pullOneArcadeMonster(String link){
-        return pullOneArcadeMonster(link, "{call SDWikiPullOneArcadeMonster(?)}");
+        return pullOneArcadeMonster(link, "{call DBSDEPullOneArcadeMonster(?)}");
     }
     
     public static SDE.ArcadeCharacter pullOneArcadeMonster(String link, String callableStatement){
@@ -709,22 +709,22 @@ public class SDEDAOOne extends SDEDAO{
         
     //Pull One Loot
     public static SDE.Equipment pullOneLoot(String link){
-        return pullOneEquipment(link, "{call SDWikiPullOneLoot(?)}");
+        return pullOneEquipment(link, "{call DBSDEPullOneLoot(?)}");
     }
     
     //Pull One Treasure
     public static SDE.Equipment pullOneTreasure(String link){
-        return pullOneEquipment(link, "{call SDWikiPullOneTreasure(?)}");
+        return pullOneEquipment(link, "{call DBSDEPullOneTreasure(?)}");
     }
     
     //Pull One Relic
     public static SDE.Equipment pullOneRelic(String link){
-        return pullOneEquipment(link, "{call SDWikiPullOneRelic(?)}");
+        return pullOneEquipment(link, "{call DBSDEPullOneRelic(?)}");
     }
     
     //Pull One Equipment
     public static SDE.Equipment pullOneEquipment(String link){
-        return pullOneEquipment(link, "{call SDWikiPullOneEquipment(?)}");
+        return pullOneEquipment(link, "{call DBSDEPullOneEquipment(?)}");
     }
     
     //Pull One Equipment
@@ -843,7 +843,7 @@ public class SDEDAOOne extends SDEDAO{
         try{
             openConnection();
             
-            stmt = getConnect().prepareCall("{call SDWikiPullOneBossSpawn(?)}");
+            stmt = getConnect().prepareCall("{call DBSDEPullOneBossSpawn(?)}");
             stmt.setString(1, link);
             rs = stmt.executeQuery();
             
@@ -899,12 +899,12 @@ public class SDEDAOOne extends SDEDAO{
     
     //Pull Arcade Plot Card
     public static SDE.PlotCard pullOneArcadePlotCard(String link){
-        return pullOnePlot(link, "{call SDWikiPullOneArcadePlotCard(?)}");
+        return pullOnePlot(link, "{call DBSDEPullOneArcadePlotCard(?)}");
     }
     
     //Pull One Explore Plot Card
     public static SDE.PlotCard pullOneExplorePlotCard(String link){
-        return pullOnePlot(link, "{call SDWikiPullOneExplorePlotCard(?)}");
+        return pullOnePlot(link, "{call DBSDEPullOneExplorePlotCard(?)}");
     }
     
     //Pull One Plot Card
@@ -969,7 +969,7 @@ public class SDEDAOOne extends SDEDAO{
         try{
             openConnection();
             
-            stmt = getConnect().prepareCall("{call SDWikiPullOneExploreCard(?)}");
+            stmt = getConnect().prepareCall("{call DBSDEPullOneExploreCard(?)}");
             stmt.setString(1, link);
             rs = stmt.executeQuery();
             
@@ -1082,7 +1082,7 @@ public class SDEDAOOne extends SDEDAO{
         try{
             openConnection();
             
-            stmt = getConnect().prepareCall("{call SDWikiPullOneChallenge(?)}");
+            stmt = getConnect().prepareCall("{call DBSDEPullOneChallenge(?)}");
             stmt.setString(1, link);
             rs = stmt.executeQuery();
             
@@ -1151,7 +1151,7 @@ public class SDEDAOOne extends SDEDAO{
         try{
             openConnection();
             
-            stmt = getConnect().prepareCall("{call SDWikiPullOneBossChallenge(?)}");
+            stmt = getConnect().prepareCall("{call DBSDEPullOneBossChallenge(?)}");
             stmt.setString(1, link);
             rs = stmt.executeQuery();
             
@@ -1192,7 +1192,7 @@ public class SDEDAOOne extends SDEDAO{
         try{
             openConnection();
             
-            stmt = getConnect().prepareCall("{call SDWikiPullOneMightyMonster(?)}");
+            stmt = getConnect().prepareCall("{call DBSDEPullOneMightyMonster(?)}");
             stmt.setString(1, link);
             rs = stmt.executeQuery();
             
@@ -1245,7 +1245,7 @@ public class SDEDAOOne extends SDEDAO{
         try{
             openConnection();
             
-            stmt = getConnect().prepareCall("{call SDWikiPullOneTerrainCard(?)}");
+            stmt = getConnect().prepareCall("{call DBSDEPullOneTerrainCard(?)}");
             stmt.setString(1, link);
             rs = stmt.executeQuery();
             
@@ -1306,7 +1306,7 @@ public class SDEDAOOne extends SDEDAO{
         try{
             openConnection();
             
-            stmt = getConnect().prepareCall("{call SDWikiPullOneUtilityCard(?)}");
+            stmt = getConnect().prepareCall("{call DBSDEPullOneUtilityCard(?)}");
             stmt.setString(1, link);
             rs = stmt.executeQuery();
             
