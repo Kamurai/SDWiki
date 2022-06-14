@@ -8,6 +8,7 @@ import java.util.List;
 
 import SDE.*;
 import Database.SDE.*;
+import SDE.Utility.Validator;
 
 @ManagedBean(name="SDECardBean")
 @RequestScoped
@@ -198,7 +199,7 @@ public class CardBean extends SDE.Bean.Bean{
         if(type.compareTo("Heroes") == 0){
             this.title      = "Heroes";
             this.header     = "Heroes";
-            if(version.compareTo("FK") == 0 || version.compareTo("FK SDArena") == 0 || version.compareTo("2.0") == 0 || version.compareTo("1.0") == 0){
+            if(Validator.validateVersion(version)){
                 this.cardList   = SDEDAONavigation.pullNavigationForHeroesByProductSet(version);
             }else{
                 this.cardList   = SDEDAONavigation.pullNavigationForHeroes();
@@ -208,7 +209,7 @@ public class CardBean extends SDE.Bean.Bean{
             this.header     = "Bosses";
             if(version.compareTo("1.0") == 0){
                 this.cardList   = SDEDAONavigation.pullNavigationForBossesByProductSet(version);
-            }else if(version.compareTo("All") == 0 || version.compareTo("FK") == 0 || version.compareTo("2.0") == 0){
+            }else if(Validator.validateVersion(version)){
                 this.cardList   = SDEDAONavigation.pullNavigationForBossesAllOrByProductSet(version, playMode);
             }else{
                 this.cardList   = SDEDAONavigation.pullNavigationForBosses();
@@ -218,7 +219,7 @@ public class CardBean extends SDE.Bean.Bean{
             this.header     = "MiniBosses";
             if(version.compareTo("1.0") == 0){
                 this.cardList   = SDEDAONavigation.pullNavigationForMiniBossesByProductSet(version);
-            }else if(version.compareTo("All") == 0 || version.compareTo("FK") == 0 || version.compareTo("2.0") == 0){
+            }else if(Validator.validateVersion(version)){
                 this.cardList   = SDEDAONavigation.pullNavigationForMiniBossesAllOrByProductSet(version, playMode);
             }else{
                 this.cardList   = SDEDAONavigation.pullNavigationForMiniBosses();
@@ -228,7 +229,7 @@ public class CardBean extends SDE.Bean.Bean{
             this.header     = "Booty";
             if(version.compareTo("1.0") == 0){
                 this.cardList   = SDEDAONavigation.pullNavigationForBootyByProductSet(version);
-            }else if(version.compareTo("All") == 0 || version.compareTo("FK") == 0 || version.compareTo("2.0") == 0){
+            }else if(Validator.validateVersion(version)){
                 this.cardList   = SDEDAONavigation.pullNavigationForBootyAllOrByProductSet(version, playMode);
             }else{
                 this.cardList   = SDEDAONavigation.pullNavigationForBooty();
@@ -236,7 +237,7 @@ public class CardBean extends SDE.Bean.Bean{
         }else if(type.compareTo("Pets") == 0){
             this.title      = "Pets";
             this.header     = "Pets";
-            if(version.compareTo("FK") == 0 || version.compareTo("2.0") == 0 || version.compareTo("1.0") == 0){
+            if(Validator.includeFromVersion(version, "FK")){
                 this.cardList   = SDEDAONavigation.pullNavigationForPets(version);
             }else{
                 this.cardList   = SDEDAONavigation.pullNavigationForPets();
@@ -244,9 +245,7 @@ public class CardBean extends SDE.Bean.Bean{
         }else if(type.compareTo("Creeps") == 0){
             this.title      = "Creeps";
             this.header     = "Creeps";
-            if(version.compareTo("1.0") == 0){
-                this.cardList   = SDEDAONavigation.pullNavigationForCreepsbyProductSet(version);
-            }else if(version.compareTo("All") == 0 || version.compareTo("FK") == 0 || version.compareTo("2.0") == 0){
+            if(Validator.includeFromVersion(version, "FK")){
                 this.cardList   = SDEDAONavigation.pullNavigationForCreepsAllOrByProductSet(version, playMode);
             }else{
                 this.cardList   = SDEDAONavigation.pullNavigationForCreeps();
@@ -254,9 +253,9 @@ public class CardBean extends SDE.Bean.Bean{
         }else if(type.compareTo("Warbands") == 0){
             this.title      = "Warbands";
             this.header     = "Warbands";
-            if(version.compareTo("1.0") == 0){
+            if(Validator.includeUpToVersion(version, "1.0")){
                 this.cardList   = SDEDAONavigation.pullNavigationForWarbandsByProductSet(version);
-            }else if(version.compareTo("All") == 0 || version.compareTo("FK") == 0 || version.compareTo("2.0") == 0){
+            }else if(Validator.includeFromVersion(version, "FK")){
                 this.cardList   = SDEDAONavigation.pullNavigationForWarbandsAllOrByProductSet(version, playMode);
             }else{
                 this.cardList   = SDEDAONavigation.pullNavigationForWarbands();
@@ -264,9 +263,9 @@ public class CardBean extends SDE.Bean.Bean{
         }else if(type.compareTo("Utility_Cards") == 0){
             this.title      = "Utility_Cards";
             this.header     = "Utility_Cards";
-            if(version.compareTo("1.0") == 0){
+            if(Validator.includeUpToVersion(version, "1.0")){
                 this.cardList   = SDEDAONavigation.pullNavigationForUtilitiesByProductSet(version);
-            }else if(version.compareTo("All") == 0 || version.compareTo("FK") == 0 || version.compareTo("2.0") == 0){
+            }else if(Validator.includeFromVersion(version, "FK")){
                 this.cardList   = SDEDAONavigation.pullNavigationForUtilitiesAllOrByProductSetAndPlayMode(version, playMode);
             }else{
                 this.cardList   = SDEDAONavigation.pullNavigationForUtilities();
@@ -274,7 +273,7 @@ public class CardBean extends SDE.Bean.Bean{
         }else if(type.compareTo("Loot") == 0){
             this.title      = "Loot";
             this.header     = "Loot";
-            if(version.compareTo("FK") == 0 || version.compareTo("FK SDArena") == 0 || version.compareTo("2.0") == 0 || version.compareTo("1.0") == 0){
+            if(Validator.validateVersion(version)){
                 this.cardList   = SDEDAONavigation.pullNavigationForLoot(version);
             }else{
                 this.cardList   = SDEDAONavigation.pullNavigationForLoot();
@@ -283,7 +282,7 @@ public class CardBean extends SDE.Bean.Bean{
         }else if(type.compareTo("Treasure") == 0){
             this.title      = "Treasure";
             this.header     = "Treasure";
-            if(version.compareTo("FK") == 0 || version.compareTo("FK SDArena") == 0 || version.compareTo("2.0") == 0 || version.compareTo("1.0") == 0){
+            if(Validator.validateVersion(version)){
                 this.cardList   = SDEDAONavigation.pullNavigationForTreasure(version);
             }else{
                 this.cardList   = SDEDAONavigation.pullNavigationForTreasure();
@@ -292,7 +291,7 @@ public class CardBean extends SDE.Bean.Bean{
         }else if(type.compareTo("Relics") == 0){
             this.title      = "Relics";
             this.header     = "Relics";
-            if(version.compareTo("FK") == 0 || version.compareTo("2.0") == 0 || version.compareTo("1.0") == 0){
+            if(Validator.includeFromVersion(version, "2.0")){
                 this.cardList   = SDEDAONavigation.pullNavigationForRelics(version);
             }else{
                 this.cardList   = SDEDAONavigation.pullNavigationForRelics();
@@ -301,7 +300,7 @@ public class CardBean extends SDE.Bean.Bean{
         }else if(type.compareTo("Boss_Spawns") == 0){
             this.title      = "Boss_Spawns";
             this.header     = "Boss_Spawns";
-            if(version.compareTo("FK") == 0 || version.compareTo("2.0") == 0 || version.compareTo("1.0") == 0){
+            if(Validator.validateVersion(version)){
                 this.cardList   = SDEDAONavigation.pullNavigationForBossSpawns(version);
             }else{
                 this.cardList   = SDEDAONavigation.pullNavigationForBossSpawns();
@@ -310,7 +309,7 @@ public class CardBean extends SDE.Bean.Bean{
         }else if(type.compareTo("Terrain_Cards") == 0){
             this.title      = "Terrain_Cards";
             this.header     = "Terrain_Cards";
-            if(version.compareTo("FK") == 0 || version.compareTo("2.0") == 0 || version.compareTo("1.0") == 0){
+            if(Validator.validateVersion(version)){
                 this.cardList   = SDEDAONavigation.pullNavigationForTerrainCards(version);
             }else{
                 this.cardList   = SDEDAONavigation.pullNavigationForTerrainCards();
@@ -319,7 +318,7 @@ public class CardBean extends SDE.Bean.Bean{
         }else if(type.compareTo("Arcade_Plot_Cards") == 0){
             this.title      = "Arcade_Plot_Cards";
             this.header     = "Arcade_Plot_Cards";
-            if(version.compareTo("FK") == 0 || version.compareTo("2.0") == 0 || version.compareTo("1.0") == 0){
+            if(Validator.includeFromVersion(version, "2.0")){
                 this.cardList   = SDEDAONavigation.pullNavigationForArcadePlotCards(version);
             }else{
                 this.cardList   = SDEDAONavigation.pullNavigationForArcadePlotCards();
@@ -328,7 +327,7 @@ public class CardBean extends SDE.Bean.Bean{
         }else if(type.compareTo("Explore_Cards") == 0){
             this.title      = "Explore_Cards";
             this.header     = "Explore_Cards";
-            if(version.compareTo("FK") == 0 || version.compareTo("2.0") == 0 || version.compareTo("1.0") == 0){
+            if(Validator.includeFromVersion(version, "FK")){
                 this.cardList   = SDEDAONavigation.pullNavigationForExploreCards(version);
             }else{
                 this.cardList   = SDEDAONavigation.pullNavigationForExploreCards();
@@ -337,7 +336,7 @@ public class CardBean extends SDE.Bean.Bean{
         }else if(type.compareTo("Explore_Plot_Cards") == 0){
             this.title      = "Explore_Plot_Cards";
             this.header     = "Explore_Plot_Cards";
-            if(version.compareTo("FK") == 0 || version.compareTo("2.0") == 0 || version.compareTo("1.0") == 0){
+            if(Validator.includeFromVersion(version, "2.0")){
                 this.cardList   = SDEDAONavigation.pullNavigationForExplorePlotCards(version);
             }else{
                 this.cardList   = SDEDAONavigation.pullNavigationForExplorePlotCards();
@@ -346,7 +345,7 @@ public class CardBean extends SDE.Bean.Bean{
         }else if(type.compareTo("Challenge_Cards") == 0){
             this.title      = "Challenge_Cards";
             this.header     = "Challenge_Cards";
-            if(version.compareTo("FK") == 0 || version.compareTo("2.0") == 0 || version.compareTo("1.0") == 0){
+            if(Validator.includeFromVersion(version, "2.0")){
                 this.cardList   = SDEDAONavigation.pullNavigationForChallengeCards(version);
             }else{
                 this.cardList   = SDEDAONavigation.pullNavigationForChallengeCards();
@@ -355,7 +354,7 @@ public class CardBean extends SDE.Bean.Bean{
         }else if(type.compareTo("Mighty_Monster_Cards") == 0){
             this.title      = "Mighty_Monster_Cards";
             this.header     = "Mighty_Monster_Cards";
-            if(version.compareTo("FK") == 0 || version.compareTo("2.0") == 0 || version.compareTo("1.0") == 0){
+            if(Validator.includeFromVersion(version, "2.0")){
                 this.cardList   = SDEDAONavigation.pullNavigationForMightyMonsterCards(version);
             }else{
                 this.cardList   = SDEDAONavigation.pullNavigationForMightyMonsterCards();
