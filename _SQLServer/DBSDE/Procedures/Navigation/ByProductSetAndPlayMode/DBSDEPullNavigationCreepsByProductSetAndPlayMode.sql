@@ -1,7 +1,7 @@
 --drop PROCEDURE DBSDEPullNavigationCreepsByProductSetAndPlayMode;
 
 CREATE OR ALTER PROCEDURE DBSDEPullNavigationCreepsByProductSetAndPlayMode(
-	@strVersion varChar(3),
+	@strVersion varChar(10),
 	@strMode varChar(7)
 )
 AS

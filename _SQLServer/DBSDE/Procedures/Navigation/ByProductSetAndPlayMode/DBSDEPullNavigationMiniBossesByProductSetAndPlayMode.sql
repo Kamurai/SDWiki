@@ -1,7 +1,7 @@
 --drop PROCEDURE DBSDEPullNavigationMiniBossesByProductSetAndPlayMode;
 
 CREATE OR ALTER PROCEDURE DBSDEPullNavigationMiniBossesByProductSetAndPlayMode(
-	@strVersion varChar(3),
+	@strVersion varChar(10),
 	@strMode varChar(7)
 )
 AS

@@ -1,7 +1,7 @@
 --drop PROCEDURE DBSDEPullNavigationBootyByProductSetAndPlayMode;
 
 CREATE OR ALTER PROCEDURE DBSDEPullNavigationBootyByProductSetAndPlayMode(
-	@strVersion varChar(3),
+	@strVersion varChar(10),
 	@strMode varChar(7)
 )
 AS
