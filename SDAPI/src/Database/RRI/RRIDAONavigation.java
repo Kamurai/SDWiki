@@ -21,7 +21,7 @@ public class RRIDAONavigation extends SDEDAO{
         try{
             openConnection();
             
-            stmt = getConnect().prepareCall("{call SDWikiPullNavigationHeroes}");
+            stmt = getConnect().prepareCall("{call DBRRIPullNavigationHeroes}");
             rs = stmt.executeQuery();
             
             result = pullNavigationForCards(rs);
@@ -42,7 +42,7 @@ public class RRIDAONavigation extends SDEDAO{
         try{
             openConnection();
             
-            stmt = getConnect().prepareCall("{call SDWikiPullNavigationHeroesByProductSet(?)}");
+            stmt = getConnect().prepareCall("{call DBRRIPullNavigationHeroesByProductSet(?)}");
             stmt.setString(1, version);
             rs = stmt.executeQuery();
             
@@ -65,7 +65,7 @@ public class RRIDAONavigation extends SDEDAO{
         try{
             openConnection();
             
-            stmt = getConnect().prepareCall("{call SDWikiPullNavigationPets}");
+            stmt = getConnect().prepareCall("{call DBRRIPullNavigationPets}");
             rs = stmt.executeQuery();
             
             result = pullNavigationForCards(rs);
@@ -86,7 +86,7 @@ public class RRIDAONavigation extends SDEDAO{
         try{
             openConnection();
             
-            stmt = getConnect().prepareCall("{call SDWikiPullNavigationPetsByProductSet(?)}");
+            stmt = getConnect().prepareCall("{call DBRRIPullNavigationPetsByProductSet(?)}");
             stmt.setString(1, version);
             rs = stmt.executeQuery();
             
@@ -109,7 +109,7 @@ public class RRIDAONavigation extends SDEDAO{
         try{
             openConnection();
             
-            stmt = getConnect().prepareCall("{call SDWikiPullNavigationBooty}");
+            stmt = getConnect().prepareCall("{call DBRRIPullNavigationBooty}");
             rs = stmt.executeQuery();
             
             result = pullNavigationForCards(rs);
@@ -130,7 +130,7 @@ public class RRIDAONavigation extends SDEDAO{
         try{
             openConnection();
             
-            stmt = getConnect().prepareCall("{call SDWikiPullNavigationBootyByProductSet(?)}");
+            stmt = getConnect().prepareCall("{call DBRRIPullNavigationBootyByProductSet(?)}");
             stmt.setString(1, version);
             rs = stmt.executeQuery();
             
@@ -164,7 +164,7 @@ public class RRIDAONavigation extends SDEDAO{
         try{
             openConnection();
             
-            stmt = getConnect().prepareCall("{call SDWikiPullNavigationBootyByProductSetAndPlayMode(?,?)}");
+            stmt = getConnect().prepareCall("{call DBRRIPullNavigationBootyByProductSetAndPlayMode(?,?)}");
             stmt.setString(1, version);
             stmt.setString(2, playMode);
             rs = stmt.executeQuery();
@@ -187,7 +187,7 @@ public class RRIDAONavigation extends SDEDAO{
         try{
             openConnection();
             
-            stmt = getConnect().prepareCall("{call SDWikiPullNavigationBootyByPlayMode(?)}");
+            stmt = getConnect().prepareCall("{call DBRRIPullNavigationBootyByPlayMode(?)}");
             stmt.setString(1, playMode);
             rs = stmt.executeQuery();
             
@@ -210,7 +210,7 @@ public class RRIDAONavigation extends SDEDAO{
         try{
             openConnection();
             
-            stmt = getConnect().prepareCall("{call SDWikiPullNavigationCreeps}");
+            stmt = getConnect().prepareCall("{call DBRRIPullNavigationCreeps}");
             rs = stmt.executeQuery();
             
             result = pullNavigationForCards(rs);
@@ -231,7 +231,7 @@ public class RRIDAONavigation extends SDEDAO{
         try{
             openConnection();
             
-            stmt = getConnect().prepareCall("{call SDWikiPullNavigationCreepsByProductSet(?)}");
+            stmt = getConnect().prepareCall("{call DBRRIPullNavigationCreepsByProductSet(?)}");
             stmt.setString(1, version);
             rs = stmt.executeQuery();
             
@@ -265,7 +265,7 @@ public class RRIDAONavigation extends SDEDAO{
         try{
             openConnection();
             
-            stmt = getConnect().prepareCall("{call SDWikiPullNavigationCreepsByProductSetAndPlayMode(?,?)}");
+            stmt = getConnect().prepareCall("{call DBRRIPullNavigationCreepsByProductSetAndPlayMode(?,?)}");
             stmt.setString(1, version);
             stmt.setString(2, playMode);
             rs = stmt.executeQuery();
@@ -288,7 +288,7 @@ public class RRIDAONavigation extends SDEDAO{
         try{
             openConnection();
             
-            stmt = getConnect().prepareCall("{call SDWikiPullNavigationCreepsByPlayMode(?)}");
+            stmt = getConnect().prepareCall("{call DBRRIPullNavigationCreepsByPlayMode(?)}");
             stmt.setString(1, playMode);
             rs = stmt.executeQuery();
             
@@ -311,7 +311,7 @@ public class RRIDAONavigation extends SDEDAO{
         try{
             openConnection();
             
-            stmt = getConnect().prepareCall("{call SDWikiPullNavigationElites}");
+            stmt = getConnect().prepareCall("{call DBRRIPullNavigationElites}");
             rs = stmt.executeQuery();
             
             result = pullNavigationForCards(rs);
@@ -332,7 +332,7 @@ public class RRIDAONavigation extends SDEDAO{
         try{
             openConnection();
             
-            stmt = getConnect().prepareCall("{call SDWikiPullNavigationElitesByProductSet(?)}");
+            stmt = getConnect().prepareCall("{call DBRRIPullNavigationElitesByProductSet(?)}");
             stmt.setString(1, version);
             rs = stmt.executeQuery();
             
@@ -354,7 +354,7 @@ public class RRIDAONavigation extends SDEDAO{
         try{
             openConnection();
             
-            stmt = getConnect().prepareCall("{call SDWikiPullNavigationElitesByProductSet(?,?)}");
+            stmt = getConnect().prepareCall("{call DBRRIPullNavigationElitesByProductSet(?,?)}");
             stmt.setString(1, version);
             stmt.setString(2, playMode);
             rs = stmt.executeQuery();
@@ -378,7 +378,7 @@ public class RRIDAONavigation extends SDEDAO{
         try{
             openConnection();
             
-            stmt = getConnect().prepareCall("{call SDWikiPullNavigationMiniBosses}");
+            stmt = getConnect().prepareCall("{call DBRRIPullNavigationMiniBosses}");
             rs = stmt.executeQuery();
             
             result = pullNavigationForCards(rs);
@@ -399,7 +399,7 @@ public class RRIDAONavigation extends SDEDAO{
         try{
             openConnection();
             
-            stmt = getConnect().prepareCall("{call SDWikiPullNavigationMiniBossesByProductSet(?)}");
+            stmt = getConnect().prepareCall("{call DBRRIPullNavigationMiniBossesByProductSet(?)}");
             stmt.setString(1, version);
             rs = stmt.executeQuery();
             
@@ -433,7 +433,7 @@ public class RRIDAONavigation extends SDEDAO{
         try{
             openConnection();
             
-            stmt = getConnect().prepareCall("{call SDWikiPullNavigationMiniBossesByProductSetAndPlayMode(?,?)}");
+            stmt = getConnect().prepareCall("{call DBRRIPullNavigationMiniBossesByProductSetAndPlayMode(?,?)}");
             stmt.setString(1, version);
             stmt.setString(2, playMode);
             rs = stmt.executeQuery();
@@ -456,7 +456,7 @@ public class RRIDAONavigation extends SDEDAO{
         try{
             openConnection();
             
-            stmt = getConnect().prepareCall("{call SDWikiPullNavigationMiniBossesByPlayMode(?)}");
+            stmt = getConnect().prepareCall("{call DBRRIPullNavigationMiniBossesByPlayMode(?)}");
             stmt.setString(1, playMode);
             rs = stmt.executeQuery();
             
@@ -479,7 +479,7 @@ public class RRIDAONavigation extends SDEDAO{
         try{
             openConnection();
             
-            stmt = getConnect().prepareCall("{call SDWikiPullNavigationBosses}");
+            stmt = getConnect().prepareCall("{call DBRRIPullNavigationBosses}");
             rs = stmt.executeQuery();
             
             result = pullNavigationForCards(rs);
@@ -500,7 +500,7 @@ public class RRIDAONavigation extends SDEDAO{
         try{
             openConnection();
             
-            stmt = getConnect().prepareCall("{call SDWikiPullNavigationBossesByProductSet(?)}");
+            stmt = getConnect().prepareCall("{call DBRRIPullNavigationBossesByProductSet(?)}");
             stmt.setString(1, version);
             rs = stmt.executeQuery();
             
@@ -534,7 +534,7 @@ public class RRIDAONavigation extends SDEDAO{
         try{
             openConnection();
             
-            stmt = getConnect().prepareCall("{call SDWikiPullNavigationBossesByProductSetAndPlayMode(?,?)}");
+            stmt = getConnect().prepareCall("{call DBRRIPullNavigationBossesByProductSetAndPlayMode(?,?)}");
             stmt.setString(1, version);
             stmt.setString(2, playMode);
             rs = stmt.executeQuery();
@@ -557,7 +557,7 @@ public class RRIDAONavigation extends SDEDAO{
         try{
             openConnection();
             
-            stmt = getConnect().prepareCall("{call SDWikiPullNavigationBossesByPlayMode(?)}");
+            stmt = getConnect().prepareCall("{call DBRRIPullNavigationBossesByPlayMode(?)}");
             stmt.setString(1, playMode);
             rs = stmt.executeQuery();
             
@@ -581,7 +581,7 @@ public class RRIDAONavigation extends SDEDAO{
         try{
             openConnection();
             
-            stmt = getConnect().prepareCall("{call SDWikiPullNavigationMinions}");
+            stmt = getConnect().prepareCall("{call DBRRIPullNavigationMinions}");
             rs = stmt.executeQuery();
             
             result = pullNavigationForCards(rs);
@@ -602,7 +602,7 @@ public class RRIDAONavigation extends SDEDAO{
         try{
             openConnection();
             
-            stmt = getConnect().prepareCall("{call SDWikiPullNavigationMinionsByProductSet(?)}");
+            stmt = getConnect().prepareCall("{call DBRRIPullNavigationMinionsByProductSet(?)}");
             stmt.setString(1, version);
             rs = stmt.executeQuery();
             
@@ -624,7 +624,7 @@ public class RRIDAONavigation extends SDEDAO{
         try{
             openConnection();
             
-            stmt = getConnect().prepareCall("{call SDWikiPullNavigationMinionsByProductSet(?,?)}");
+            stmt = getConnect().prepareCall("{call DBRRIPullNavigationMinionsByProductSet(?,?)}");
             stmt.setString(1, version);
             stmt.setString(2, playMode);
             rs = stmt.executeQuery();
@@ -648,7 +648,7 @@ public class RRIDAONavigation extends SDEDAO{
         try{
             openConnection();
             
-            stmt = getConnect().prepareCall("{call SDWikiPullNavigationSpawns}");
+            stmt = getConnect().prepareCall("{call DBRRIPullNavigationSpawns}");
             rs = stmt.executeQuery();
             
             result = pullNavigationForCards(rs);
@@ -669,7 +669,7 @@ public class RRIDAONavigation extends SDEDAO{
         try{
             openConnection();
             
-            stmt = getConnect().prepareCall("{call SDWikiPullNavigationSpawnsByProductSet(?)}");
+            stmt = getConnect().prepareCall("{call DBRRIPullNavigationSpawnsByProductSet(?)}");
             stmt.setString(1, version);
             rs = stmt.executeQuery();
             
@@ -691,7 +691,7 @@ public class RRIDAONavigation extends SDEDAO{
         try{
             openConnection();
             
-            stmt = getConnect().prepareCall("{call SDWikiPullNavigationSpawnsByProductSet(?,?)}");
+            stmt = getConnect().prepareCall("{call DBRRIPullNavigationSpawnsByProductSet(?,?)}");
             stmt.setString(1, version);
             stmt.setString(2, playMode);
             rs = stmt.executeQuery();
@@ -715,7 +715,7 @@ public class RRIDAONavigation extends SDEDAO{
         try{
             openConnection();
             
-            stmt = getConnect().prepareCall("{call SDWikiPullNavigationWarbands}");
+            stmt = getConnect().prepareCall("{call DBRRIPullNavigationWarbands}");
             rs = stmt.executeQuery();
             
             result = pullNavigationForCards(rs);
@@ -736,7 +736,7 @@ public class RRIDAONavigation extends SDEDAO{
         try{
             openConnection();
             
-            stmt = getConnect().prepareCall("{call SDWikiPullNavigationWarbandsByProductSet(?)}");
+            stmt = getConnect().prepareCall("{call DBRRIPullNavigationWarbandsByProductSet(?)}");
             stmt.setString(1, version);
             rs = stmt.executeQuery();
             
@@ -770,7 +770,7 @@ public class RRIDAONavigation extends SDEDAO{
         try{
             openConnection();
             
-            stmt = getConnect().prepareCall("{call SDWikiPullNavigationWarbandsByProductSetAndPlayMode(?,?)}");
+            stmt = getConnect().prepareCall("{call DBRRIPullNavigationWarbandsByProductSetAndPlayMode(?,?)}");
             stmt.setString(1, version);
             stmt.setString(2, playMode);
             rs = stmt.executeQuery();
@@ -793,7 +793,7 @@ public class RRIDAONavigation extends SDEDAO{
         try{
             openConnection();
             
-            stmt = getConnect().prepareCall("{call SDWikiPullNavigationWarbandsByPlayMode(?)}");
+            stmt = getConnect().prepareCall("{call DBRRIPullNavigationWarbandsByPlayMode(?)}");
             stmt.setString(1, playMode);
             rs = stmt.executeQuery();
             
@@ -816,7 +816,7 @@ public class RRIDAONavigation extends SDEDAO{
         try{
             openConnection();
             
-            stmt = getConnect().prepareCall("{call SDWikiPullNavigationMonsters}");
+            stmt = getConnect().prepareCall("{call DBRRIPullNavigationMonsters}");
             rs = stmt.executeQuery();
             
             result = pullNavigationForCards(rs);
@@ -837,7 +837,7 @@ public class RRIDAONavigation extends SDEDAO{
         try{
             openConnection();
             
-            stmt = getConnect().prepareCall("{call SDWikiPullNavigationMonstersByProductSet(?)}");
+            stmt = getConnect().prepareCall("{call DBRRIPullNavigationMonstersByProductSet(?)}");
             stmt.setString(1, version);
             rs = stmt.executeQuery();
             
@@ -859,7 +859,7 @@ public class RRIDAONavigation extends SDEDAO{
         try{
             openConnection();
             
-            stmt = getConnect().prepareCall("{call SDWikiPullNavigationMonstersByProductSet(?,?)}");
+            stmt = getConnect().prepareCall("{call DBRRIPullNavigationMonstersByProductSet(?,?)}");
             stmt.setString(1, version);
             stmt.setString(2, playMode);
             rs = stmt.executeQuery();
@@ -883,7 +883,7 @@ public class RRIDAONavigation extends SDEDAO{
 //        try{
 //            openConnection();
 //            
-//            stmt = getConnect().prepareCall("{call SDWikiPullNavigationArcadeBooty}");
+//            stmt = getConnect().prepareCall("{call DBRRIPullNavigationArcadeBooty}");
 //            rs = stmt.executeQuery();
 //            
 //            result = pullNavigationForCards(rs);
@@ -904,7 +904,7 @@ public class RRIDAONavigation extends SDEDAO{
 //        try{
 //            openConnection();
 //            
-//            stmt = getConnect().prepareCall("{call SDWikiPullNavigationArcadeBootyByProductSet(?)}");
+//            stmt = getConnect().prepareCall("{call DBRRIPullNavigationArcadeBootyByProductSet(?)}");
 //            stmt.setString(1, version);
 //            rs = stmt.executeQuery();
 //            
@@ -927,7 +927,7 @@ public class RRIDAONavigation extends SDEDAO{
 //        try{
 //            openConnection();
 //            
-//            stmt = getConnect().prepareCall("{call SDWikiPullNavigationArcadeBosses}");
+//            stmt = getConnect().prepareCall("{call DBRRIPullNavigationArcadeBosses}");
 //            rs = stmt.executeQuery();
 //            
 //            result = pullNavigationForCards(rs);
@@ -948,7 +948,7 @@ public class RRIDAONavigation extends SDEDAO{
 //        try{
 //            openConnection();
 //            
-//            stmt = getConnect().prepareCall("{call SDWikiPullNavigationArcadeBossesByProductSet(?)}");
+//            stmt = getConnect().prepareCall("{call DBRRIPullNavigationArcadeBossesByProductSet(?)}");
 //            stmt.setString(1, version);
 //            rs = stmt.executeQuery();
 //            
@@ -971,7 +971,7 @@ public class RRIDAONavigation extends SDEDAO{
 //        try{
 //            openConnection();
 //            
-//            stmt = getConnect().prepareCall("{call SDWikiPullNavigationArcadeCreeps}");
+//            stmt = getConnect().prepareCall("{call DBRRIPullNavigationArcadeCreeps}");
 //            rs = stmt.executeQuery();
 //            
 //            result = pullNavigationForCards(rs);
@@ -992,7 +992,7 @@ public class RRIDAONavigation extends SDEDAO{
 //        try{
 //            openConnection();
 //            
-//            stmt = getConnect().prepareCall("{call SDWikiPullNavigationArcadeCreepsByProductSet(?)}");
+//            stmt = getConnect().prepareCall("{call DBRRIPullNavigationArcadeCreepsByProductSet(?)}");
 //            stmt.setString(1, version);
 //            rs = stmt.executeQuery();
 //            
@@ -1015,7 +1015,7 @@ public class RRIDAONavigation extends SDEDAO{
 //        try{
 //            openConnection();
 //            
-//            stmt = getConnect().prepareCall("{call SDWikiPullNavigationArcadeGangs}");
+//            stmt = getConnect().prepareCall("{call DBRRIPullNavigationArcadeGangs}");
 //            rs = stmt.executeQuery();
 //            
 //            result = pullNavigationForCards(rs);
@@ -1036,7 +1036,7 @@ public class RRIDAONavigation extends SDEDAO{
 //        try{
 //            openConnection();
 //            
-//            stmt = getConnect().prepareCall("{call SDWikiPullNavigationArcadeGangsByProductSet(?)}");
+//            stmt = getConnect().prepareCall("{call DBRRIPullNavigationArcadeGangsByProductSet(?)}");
 //            stmt.setString(1, version);
 //            rs = stmt.executeQuery();
 //            
@@ -1059,7 +1059,7 @@ public class RRIDAONavigation extends SDEDAO{
 //        try{
 //            openConnection();
 //            
-//            stmt = getConnect().prepareCall("{call SDWikiPullNavigationArcadeMiniBosses}");
+//            stmt = getConnect().prepareCall("{call DBRRIPullNavigationArcadeMiniBosses}");
 //            rs = stmt.executeQuery();
 //            
 //            result = pullNavigationForCards(rs);
@@ -1080,7 +1080,7 @@ public class RRIDAONavigation extends SDEDAO{
 //        try{
 //            openConnection();
 //            
-//            stmt = getConnect().prepareCall("{call SDWikiPullNavigationArcadeMiniBossesByProductSet(?)}");
+//            stmt = getConnect().prepareCall("{call DBRRIPullNavigationArcadeMiniBossesByProductSet(?)}");
 //            stmt.setString(1, version);
 //            rs = stmt.executeQuery();
 //            
@@ -1103,7 +1103,7 @@ public class RRIDAONavigation extends SDEDAO{
 //        try{
 //            openConnection();
 //            
-//            stmt = getConnect().prepareCall("{call SDWikiPullNavigationArcadeSolos}");
+//            stmt = getConnect().prepareCall("{call DBRRIPullNavigationArcadeSolos}");
 //            rs = stmt.executeQuery();
 //            
 //            result = pullNavigationForCards(rs);
@@ -1124,7 +1124,7 @@ public class RRIDAONavigation extends SDEDAO{
 //        try{
 //            openConnection();
 //            
-//            stmt = getConnect().prepareCall("{call SDWikiPullNavigationArcadeSolosByProductSet(?)}");
+//            stmt = getConnect().prepareCall("{call DBRRIPullNavigationArcadeSolosByProductSet(?)}");
 //            stmt.setString(1, version);
 //            rs = stmt.executeQuery();
 //            
@@ -1147,7 +1147,7 @@ public class RRIDAONavigation extends SDEDAO{
         try{
             openConnection();
             
-            stmt = getConnect().prepareCall("{call SDWikiPullNavigationEquipment}");
+            stmt = getConnect().prepareCall("{call DBRRIPullNavigationEquipment}");
             rs = stmt.executeQuery();
             
             result = pullNavigationForCards(rs);
@@ -1168,7 +1168,7 @@ public class RRIDAONavigation extends SDEDAO{
         try{
             openConnection();
             
-            stmt = getConnect().prepareCall("{call SDWikiPullNavigationEquipmentByProductSet(?)}");
+            stmt = getConnect().prepareCall("{call DBRRIPullNavigationEquipmentByProductSet(?)}");
             stmt.setString(1, version);
             rs = stmt.executeQuery();
             
@@ -1191,7 +1191,7 @@ public class RRIDAONavigation extends SDEDAO{
         try{
             openConnection();
             
-            stmt = getConnect().prepareCall("{call SDWikiPullNavigationLoot}");
+            stmt = getConnect().prepareCall("{call DBRRIPullNavigationLoot}");
             rs = stmt.executeQuery();
             
             result = pullNavigationForCards(rs);
@@ -1212,7 +1212,7 @@ public class RRIDAONavigation extends SDEDAO{
         try{
             openConnection();
             
-            stmt = getConnect().prepareCall("{call SDWikiPullNavigationLootByProductSet(?)}");
+            stmt = getConnect().prepareCall("{call DBRRIPullNavigationLootByProductSet(?)}");
             stmt.setString(1, version);
             rs = stmt.executeQuery();
             
@@ -1235,7 +1235,7 @@ public class RRIDAONavigation extends SDEDAO{
         try{
             openConnection();
             
-            stmt = getConnect().prepareCall("{call SDWikiPullNavigationTreasure}");
+            stmt = getConnect().prepareCall("{call DBRRIPullNavigationTreasure}");
             rs = stmt.executeQuery();
             
             result = pullNavigationForCards(rs);
@@ -1256,7 +1256,7 @@ public class RRIDAONavigation extends SDEDAO{
         try{
             openConnection();
             
-            stmt = getConnect().prepareCall("{call SDWikiPullNavigationTreasureByProductSet(?)}");
+            stmt = getConnect().prepareCall("{call DBRRIPullNavigationTreasureByProductSet(?)}");
             stmt.setString(1, version);
             rs = stmt.executeQuery();
             
@@ -1279,7 +1279,7 @@ public class RRIDAONavigation extends SDEDAO{
         try{
             openConnection();
             
-            stmt = getConnect().prepareCall("{call SDWikiPullNavigationRelic}");
+            stmt = getConnect().prepareCall("{call DBRRIPullNavigationRelic}");
             rs = stmt.executeQuery();
             
             result = pullNavigationForCards(rs);
@@ -1300,7 +1300,7 @@ public class RRIDAONavigation extends SDEDAO{
         try{
             openConnection();
             
-            stmt = getConnect().prepareCall("{call SDWikiPullNavigationRelicByProductSet(?)}");
+            stmt = getConnect().prepareCall("{call DBRRIPullNavigationRelicByProductSet(?)}");
             stmt.setString(1, version);
             rs = stmt.executeQuery();
             
@@ -1323,7 +1323,7 @@ public class RRIDAONavigation extends SDEDAO{
         try{
             openConnection();
             
-            stmt = getConnect().prepareCall("{call SDWikiPullNavigationBossSpawns}");
+            stmt = getConnect().prepareCall("{call DBRRIPullNavigationBossSpawns}");
             rs = stmt.executeQuery();
             
             result = pullNavigationForCards(rs);
@@ -1344,7 +1344,7 @@ public class RRIDAONavigation extends SDEDAO{
         try{
             openConnection();
             
-            stmt = getConnect().prepareCall("{call SDWikiPullNavigationBossSpawnsByProductSet(?)}");
+            stmt = getConnect().prepareCall("{call DBRRIPullNavigationBossSpawnsByProductSet(?)}");
             stmt.setString(1, version);
             rs = stmt.executeQuery();
             
@@ -1367,7 +1367,7 @@ public class RRIDAONavigation extends SDEDAO{
         try{
             openConnection();
             
-            stmt = getConnect().prepareCall("{call SDWikiPullNavigationUtilityCards}");
+            stmt = getConnect().prepareCall("{call DBRRIPullNavigationUtilityCards}");
             rs = stmt.executeQuery();
             
             result = pullNavigationForCards(rs);
@@ -1388,7 +1388,7 @@ public class RRIDAONavigation extends SDEDAO{
         try{
             openConnection();
             
-            stmt = getConnect().prepareCall("{call SDWikiPullNavigationUtilityCardsByProductSet(?)}");
+            stmt = getConnect().prepareCall("{call DBRRIPullNavigationUtilityCardsByProductSet(?)}");
             stmt.setString(1, version);
              rs = stmt.executeQuery();
             
@@ -1422,7 +1422,7 @@ public class RRIDAONavigation extends SDEDAO{
         try{
             openConnection();
             
-            stmt = getConnect().prepareCall("{call SDWikiPullNavigationUtilityCardsByProductSetAndPlayMode(?,?)}");
+            stmt = getConnect().prepareCall("{call DBRRIPullNavigationUtilityCardsByProductSetAndPlayMode(?,?)}");
             stmt.setString(1, version);
             stmt.setString(2, playMode);
             rs = stmt.executeQuery();
@@ -1445,7 +1445,7 @@ public class RRIDAONavigation extends SDEDAO{
         try{
             openConnection();
             
-            stmt = getConnect().prepareCall("{call SDWikiPullNavigationUtilityCardsByPlayMode(?)}");
+            stmt = getConnect().prepareCall("{call DBRRIPullNavigationUtilityCardsByPlayMode(?)}");
             stmt.setString(1, playMode);
             rs = stmt.executeQuery();
             
@@ -1481,7 +1481,7 @@ public class RRIDAONavigation extends SDEDAO{
         try{
             openConnection();
             
-            stmt = getConnect().prepareCall("{call SDWikiPullNavigationTerrainCards}");
+            stmt = getConnect().prepareCall("{call DBRRIPullNavigationTerrainCards}");
             rs = stmt.executeQuery();
             
             result = pullNavigationForCards(rs);
@@ -1502,7 +1502,7 @@ public class RRIDAONavigation extends SDEDAO{
         try{
             openConnection();
             
-            stmt = getConnect().prepareCall("{call SDWikiPullNavigationTerrainCardsByProductSet(?)}");
+            stmt = getConnect().prepareCall("{call DBRRIPullNavigationTerrainCardsByProductSet(?)}");
             stmt.setString(1, version);
             rs = stmt.executeQuery();
             
@@ -1525,7 +1525,7 @@ public class RRIDAONavigation extends SDEDAO{
         try{
             openConnection();
             
-            stmt = getConnect().prepareCall("{call SDWikiPullNavigationArcadePlotCards}");
+            stmt = getConnect().prepareCall("{call DBRRIPullNavigationArcadePlotCards}");
             rs = stmt.executeQuery();
             
             result = pullNavigationForCards(rs);
@@ -1546,7 +1546,7 @@ public class RRIDAONavigation extends SDEDAO{
         try{
             openConnection();
             
-            stmt = getConnect().prepareCall("{call SDWikiPullNavigationArcadePlotCardsByProductSet(?)}");
+            stmt = getConnect().prepareCall("{call DBRRIPullNavigationArcadePlotCardsByProductSet(?)}");
             stmt.setString(1, version);
             rs = stmt.executeQuery();
             
@@ -1569,7 +1569,7 @@ public class RRIDAONavigation extends SDEDAO{
         try{
             openConnection();
             
-            stmt = getConnect().prepareCall("{call SDWikiPullNavigationExploreCards}");
+            stmt = getConnect().prepareCall("{call DBRRIPullNavigationExploreCards}");
             rs = stmt.executeQuery();
             
             result = pullNavigationForCards(rs);
@@ -1590,7 +1590,7 @@ public class RRIDAONavigation extends SDEDAO{
         try{
             openConnection();
             
-            stmt = getConnect().prepareCall("{call SDWikiPullNavigationExploreCardsByProductSet(?)}");
+            stmt = getConnect().prepareCall("{call DBRRIPullNavigationExploreCardsByProductSet(?)}");
             stmt.setString(1, version);
             rs = stmt.executeQuery();
             
@@ -1613,7 +1613,7 @@ public class RRIDAONavigation extends SDEDAO{
         try{
             openConnection();
             
-            stmt = getConnect().prepareCall("{call SDWikiPullNavigationExplorePlotCards}");
+            stmt = getConnect().prepareCall("{call DBRRIPullNavigationExplorePlotCards}");
             rs = stmt.executeQuery();
             
             result = pullNavigationForCards(rs);
@@ -1634,7 +1634,7 @@ public class RRIDAONavigation extends SDEDAO{
         try{
             openConnection();
             
-            stmt = getConnect().prepareCall("{call SDWikiPullNavigationExplorePlotCardsByProductSet(?)}");
+            stmt = getConnect().prepareCall("{call DBRRIPullNavigationExplorePlotCardsByProductSet(?)}");
             stmt.setString(1, version);
             rs = stmt.executeQuery();
             
@@ -1657,7 +1657,7 @@ public class RRIDAONavigation extends SDEDAO{
         try{
             openConnection();
             
-            stmt = getConnect().prepareCall("{call SDWikiPullNavigationChallengeCards}");
+            stmt = getConnect().prepareCall("{call DBRRIPullNavigationChallengeCards}");
             rs = stmt.executeQuery();
             
             result = pullNavigationForCards(rs);
@@ -1678,7 +1678,7 @@ public class RRIDAONavigation extends SDEDAO{
         try{
             openConnection();
             
-            stmt = getConnect().prepareCall("{call SDWikiPullNavigationChallengeCardsByProductSet(?)}");
+            stmt = getConnect().prepareCall("{call DBRRIPullNavigationChallengeCardsByProductSet(?)}");
             stmt.setString(1, version);
             rs = stmt.executeQuery();
             
@@ -1701,7 +1701,7 @@ public class RRIDAONavigation extends SDEDAO{
         try{
             openConnection();
             
-            stmt = getConnect().prepareCall("{call SDWikiPullNavigationBossChallengeCards}");
+            stmt = getConnect().prepareCall("{call DBRRIPullNavigationBossChallengeCards}");
             rs = stmt.executeQuery();
             
             result = pullNavigationForCards(rs);
@@ -1722,7 +1722,7 @@ public class RRIDAONavigation extends SDEDAO{
         try{
             openConnection();
             
-            stmt = getConnect().prepareCall("{call SDWikiPullNavigationBossChallengeCardsByProductSet(?)}");
+            stmt = getConnect().prepareCall("{call DBRRIPullNavigationBossChallengeCardsByProductSet(?)}");
             stmt.setString(1, version);
             rs = stmt.executeQuery();
             
@@ -1745,7 +1745,7 @@ public class RRIDAONavigation extends SDEDAO{
         try{
             openConnection();
             
-            stmt = getConnect().prepareCall("{call SDWikiPullNavigationMightyMonsterCards}");
+            stmt = getConnect().prepareCall("{call DBRRIPullNavigationMightyMonsterCards}");
             rs = stmt.executeQuery();
             
             result = pullNavigationForCards(rs);
@@ -1766,7 +1766,7 @@ public class RRIDAONavigation extends SDEDAO{
         try{
             openConnection();
             
-            stmt = getConnect().prepareCall("{call SDWikiPullNavigationMightyMonsterCardsByProductSet(?)}");
+            stmt = getConnect().prepareCall("{call DBRRIPullNavigationMightyMonsterCardsByProductSet(?)}");
             stmt.setString(1, version);
             rs = stmt.executeQuery();
             
