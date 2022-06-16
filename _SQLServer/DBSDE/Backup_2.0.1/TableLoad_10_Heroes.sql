@@ -3973,7 +3973,7 @@ insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (429
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (429, 1993); --Vortex Bomb
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (429, 1, 1); --Strength
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (429, 3, 5); --Will
-insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (429 2); --Armor
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (429, 2); --Armor
 
 --Wyrdwood Reaver --CardIndex 925	--CharacterIndex 535	--ExploreCharacterIndex 430
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Wyrdwood Reaver', 
