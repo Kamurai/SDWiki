@@ -6467,7 +6467,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (447, 2); --Armor
 insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (447, 2, 2);
 
---Lord Nevermore --CardIndex 943	--CharacterIndex 943	--ExploreCharacterIndex 448
+--Lord Nevermore --CardIndex 943	--CharacterIndex 553	--ExploreCharacterIndex 448
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Lord Nevermore',
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Lord_Nevermore_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Lord_Nevermore_2.0_back.png', 
@@ -6475,9 +6475,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Pet', '2.0', '2.0 Core Set', 'Default', 
 'Lord Nevermore did not know why he could sometimes see glimpses of the future, but he never questioned it. He tried to use his powers for good, but being a raven always made it difficult. Sometimes he could see when one hero would need a potion more than another, but they never seemed grateful when he grabbed it and dropped it on the one who would need it. No matter, Lord Nevermore does not need their thanks, he is certain he knows best.');
 insert into Characters (CardIndex) VALUES (943);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (943, 4); --Sapphire
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (553, 4); --Sapphire
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (943,
+VALUES (553,
 'http://htkb.info/SDE/2.0/Cards/Pets/Standies/Lord_Nevermore_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Pets/Standies/Lord_Nevermore_2.0_back.png',
 'Either', 'Small', '', 7, 1, '1B', '2ST', '2ST', '2ST', 1, 0);
@@ -7104,7 +7104,7 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (4
 insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (476, 2, -1);
 
 --Sabertooth Kitty --CardIndex 972	--CharacterIndex 582	--ExploreCharacterIndex 477
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('ASabertooth Kitty',
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Sabertooth Kitty',
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Sabertooth_Kitty_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Sabertooth_Kitty_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Pets/Sabertooth_Kitty.xhtml', 
@@ -7170,7 +7170,7 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (4
 insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (479, 2, -1);
 
 --Sergeant of Winterwatch --CardIndex 975	--CharacterIndex 585	--ExploreCharacterIndex 480
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Lord Turlington Icemon',
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Sergeant of Winterwatch',
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Sergeant_of_Winterwatch_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Sergeant_of_Winterwatch_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Pets/Sergeant_of_Winterwatch.xhtml', 
