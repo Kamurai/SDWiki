@@ -3427,7 +3427,7 @@ VALUES (837,
 '', 
 '', '', '', 0, 0, '', '', '', '', 0, 0);
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (733, '', '', 0); 
-733
+
 
 --Sewer Pipe
 --Sewer Pipe --CardIndex 1229 --CharacterIndex 838 --ExploreCharacterIndex 734
