@@ -2,7 +2,7 @@
 --2.0
 --Pets
 
---Admiral Fuzzybottom --CardIndex 931	--CharacterIndex 541	--ExploreCharacterIndex 435
+--Admiral Fuzzybottom --CardIndex 931	--CharacterIndex 541	--ExploreCharacterIndex 436 
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Admiral Fuzzybottom',
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Admiral_Fuzzybottom_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Admiral_Fuzzybottom_2.0_back.png', 
@@ -16,14 +16,14 @@ VALUES (541,
 'http://htkb.info/SDE/2.0/Cards/Pets/Standies/Admiral_Fuzzybottom_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Pets/Standies/Admiral_Fuzzybottom_2.0_back.png',
 'Either', 'Small', '', 7, 1, '3B', '2ST', '1ST', '3ST', 2, 0);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (435, 903); --Small
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (435, 734); --Master Gains Happy Cat
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (435, 1248); --Happy Cat
-insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (435, 1, 1); --Strength
-insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (435, 2); --Armor
-insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (435, 2, 3);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (436, 903); --Small
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (436, 734); --Master Gains Happy Cat
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (436, 1248); --Happy Cat
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (436, 1, 1); --Strength
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (436, 2); --Armor
+insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (436, 2, 3);
 
---Blossom --CardIndex 932	--CharacterIndex 542	--ExploreCharacterIndex 436
+--Blossom --CardIndex 932	--CharacterIndex 542	--ExploreCharacterIndex 437
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Blossom',
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Blossom_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Blossom_2.0_back.png', 
@@ -37,13 +37,13 @@ VALUES (542,
 'http://htkb.info/SDE/2.0/Cards/Pets/Standies/Blossom_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Pets/Standies/Blossom_2.0_back.png',
 'Either', 'Small', '', 1, 1, '0ST', '1ST', '2B', '0ST', 3, 0);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (436, 875); --Seeping Growth
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (436, 1523); --Pollen Cloud
-insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (436, 3, 2); --Will
-insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (436, 2); --Armor
-insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (436, 2, -1);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (437, 875); --Seeping Growth
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (437, 1523); --Pollen Cloud
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (437, 3, 2); --Will
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (437, 2); --Armor
+insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (437, 2, -1);
 
---Colonel, The --CardIndex 933	--CharacterIndex 543	--ExploreCharacterIndex 437
+--Colonel, The --CardIndex 933	--CharacterIndex 543	--ExploreCharacterIndex 438
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Colonel, The',
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Colonel_The_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Colonel_The_2.0_back.png', 
@@ -59,13 +59,13 @@ VALUES (543,
 'http://htkb.info/SDE/2.0/Cards/Pets/Standies/Colonel_The_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Pets/Standies/Colonel_The_2.0_back.png',
 'Either', 'Small', '', 6, 1, '2R', '3BT', '2ST', '0ST', 1, 0);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (437, 903); --Small
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (437, 1806); --Tactical Strike
-insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (437, 1, 1); --Strength
-insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (437, 2); --Armor
-insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (437, 2, -1);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (438, 903); --Small
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (438, 1806); --Tactical Strike
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (438, 1, 1); --Strength
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (438, 2); --Armor
+insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (438, 2, -1);
 
---Cupid --CardIndex 934	--CharacterIndex 544	--ExploreCharacterIndex 438
+--Cupid --CardIndex 934	--CharacterIndex 544	--ExploreCharacterIndex 439
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Cupid',
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Cupid_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Cupid_2.0_back.png', 
@@ -79,15 +79,15 @@ VALUES (544,
 'http://htkb.info/SDE/2.0/Cards/Pets/Standies/Cupid_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Pets/Standies/Cupid_2.0_back.png',
 'Either', 'Small', 'Cypher', 6, 1, '2ST', '2ST', '2ST', '2B', 2, 0);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (438, 596); --Fly
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (438, 743); --Master Gains Potion Master
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (438, 813); --Potion Master
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (438, 950); --Cupid's Arrow
-insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (438, 4, 6); --Dex
-insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (438, 2); --Armor
-insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (438, 2, 2);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (439, 596); --Fly
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (439, 743); --Master Gains Potion Master
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (439, 813); --Potion Master
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (439, 950); --Cupid's Arrow
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (439, 4, 6); --Dex
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (439, 2); --Armor
+insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (439, 2, 2);
 
---Ex-Crow --CardIndex 935	--CharacterIndex 545	--ExploreCharacterIndex 439
+--Ex-Crow --CardIndex 935	--CharacterIndex 545	--ExploreCharacterIndex 440
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ex-Crow',
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Ex_Crow_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Ex_Crow_2.0_back.png', 
@@ -101,15 +101,15 @@ VALUES (545,
 'http://htkb.info/SDE/2.0/Cards/Pets/Standies/Ex_Crow_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Pets/Standies/Ex_Crow_2.0_back.png',
 'Either', 'Small', 'Undead', 5, 1, '3B', '0ST', '0ST', '0ST', 1, 0);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (439, 565); --Eat Crow
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (439, 596); --Fly
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (439, 728); --Massive Damage
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (439, 1447); --Murder of Crows
-insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (439, 1, 1); --Strength
-insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (439, 2); --Armor
-insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (439, 1, -1);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (440, 565); --Eat Crow
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (440, 596); --Fly
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (440, 728); --Massive Damage
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (440, 1447); --Murder of Crows
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (440, 1, 1); --Strength
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (440, 2); --Armor
+insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (440, 1, -1);
 
---General Kai --CardIndex 936	--CharacterIndex 546	--ExploreCharacterIndex 440
+--General Kai --CardIndex 936	--CharacterIndex 546	--ExploreCharacterIndex 441
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('General Kai',
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_General_Kai_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_General_Kai_2.0_back.png', 
@@ -123,15 +123,15 @@ VALUES (546,
 'http://htkb.info/SDE/2.0/Cards/Pets/Standies/General_Kai_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Pets/Standies/General_Kai_2.0_back.png',
 'Either', 'Small', '', 7, 1, '2ST', '2ST', '3B', '2ST', 2, 0);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (440, 426); --All-Seeing
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (440, 596); --Fly
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (440, 903); --Small
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (440, 1334); --Judgy Gaze
-insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (440, 3, 6); --Will
-insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (440, 2); --Armor
-insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (440, 2, -1);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (441, 426); --All-Seeing
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (441, 596); --Fly
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (441, 903); --Small
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (441, 1334); --Judgy Gaze
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (441, 3, 6); --Will
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (441, 2); --Armor
+insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (441, 2, -1);
 
---Gentle Natsuko --CardIndex 937	--CharacterIndex 547	--ExploreCharacterIndex 441
+--Gentle Natsuko --CardIndex 937	--CharacterIndex 547	--ExploreCharacterIndex 442
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Gentle Natsuko',
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Gentle_Natsuko_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Gentle_Natsuko_2.0_back.png', 
@@ -145,15 +145,15 @@ VALUES (547,
 'http://htkb.info/SDE/2.0/Cards/Pets/Standies/Gentle_Natsuko_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Pets/Standies/Gentle_Natsuko_2.0_back.png',
 'Either', 'Small', 'Ghost', 6, 2, '1B', '3B', '1G', '3B', 2, 0);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (441, 631); --Ghost
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (441, 670); --Illumination
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (441, 681); --Immune: Status Effects
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (441, 1671); --Siphon Life
-insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (441, 3, 1); --Will
-insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (441, 2); --Armor
-insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (441, 2, -1);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (442, 631); --Ghost
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (442, 670); --Illumination
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (442, 681); --Immune: Status Effects
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (442, 1671); --Siphon Life
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (442, 3, 1); --Will
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (442, 2); --Armor
+insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (442, 2, -1);
 
---Hey Lissin --CardIndex 938	--CharacterIndex 548	--ExploreCharacterIndex 442
+--Hey Lissin --CardIndex 938	--CharacterIndex 548	--ExploreCharacterIndex 443
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Hey Lissin',
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Hey_Lissin_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Hey_Lissin_2.0_back.png', 
@@ -167,15 +167,15 @@ VALUES (548,
 'http://htkb.info/SDE/2.0/Cards/Pets/Standies/Hey_Lissin_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Pets/Standies/Hey_Lissin_2.0_back.png',
 'Feminine', 'Small', '', 8, 1, '1B', '2ST', '2ST', '4ST', 1, 0);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (442, 596); --Fly
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (442, 903); --Small
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (442, 1022); --Super Annoying
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (442, 1065); --Watch Out!
-insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (442, 1, 1); --Strength
-insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (442, 2); --Armor
-insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (442, 1, -1);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (443, 596); --Fly
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (443, 903); --Small
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (443, 1022); --Super Annoying
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (443, 1065); --Watch Out!
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (443, 1, 1); --Strength
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (443, 2); --Armor
+insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (443, 1, -1);
 
---Ice Hard Buttinski --CardIndex 939	--CharacterIndex 549	--ExploreCharacterIndex 443
+--Ice Hard Buttinski --CardIndex 939	--CharacterIndex 549	--ExploreCharacterIndex 444
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ice Hard Buttinski',
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Ice_Hard_Buttinski_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Ice_Hard_Buttinski_2.0_back.png', 
@@ -189,16 +189,16 @@ VALUES (549,
 'http://htkb.info/SDE/2.0/Cards/Pets/Standies/Ice_Hard_Buttinski_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Pets/Standies/Ice_Hard_Buttinski_2.0_back.png',
 'Neither', 'Small', 'Pet', 6, 1, '2R', '3B', '2G 2R', '3B', 2, 0);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (443, 749); --Master Gains Surefoot
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (443, 815); --Pounce
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (443, 1019); --Stubborn Goat
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (443, 1023); --Surefoot
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (443, 1422); --Mighty Leap
-insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (443, 1, 1); --Strength
-insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (443, 2); --Armor
-insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (443, 2, 6);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (444, 749); --Master Gains Surefoot
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (444, 815); --Pounce
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (444, 1019); --Stubborn Goat
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (444, 1023); --Surefoot
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (444, 1422); --Mighty Leap
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (444, 1, 1); --Strength
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (444, 2); --Armor
+insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (444, 2, 6);
 
---Inspector Honeyscout --CardIndex 940	--CharacterIndex 550	--ExploreCharacterIndex 444
+--Inspector Honeyscout --CardIndex 940	--CharacterIndex 550	--ExploreCharacterIndex 445
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Inspector Honeyscout',
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Inspector_Honeyscout_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Inspector_Honeyscout_2.0_back.png', 
@@ -212,16 +212,16 @@ VALUES (550,
 'http://htkb.info/SDE/2.0/Cards/Pets/Standies/Inspector_Honeyscout_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Pets/Standies/Inspector_Honeyscout_2.0_back.png',
 'Either', 'Small', '', 5, 1, '2B', '2ST', '0ST', '0ST', 2, 0);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (444, 642); --Heal X
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (444, 747); --Master Gains Slow
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (444, 901); --Slow
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (444, 903); --Small
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (444, 1676); --Slathered In Honey
-insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (444, 1, 1); --Strength
-insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (444, 2); --Armor
-insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (444, 2, 2);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (445, 642); --Heal X
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (445, 747); --Master Gains Slow
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (445, 901); --Slow
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (445, 903); --Small
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (445, 1676); --Slathered In Honey
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (445, 1, 1); --Strength
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (445, 2); --Armor
+insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (445, 2, 2);
 
---Lady Turlington Firemon --CardIndex 941	--CharacterIndex 551	--ExploreCharacterIndex 445
+--Lady Turlington Firemon --CardIndex 941	--CharacterIndex 551	--ExploreCharacterIndex 446
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Lady Turlington Firemon',
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Lady_Turlington_Firemon_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Lady_Turlington_Firemon_2.0_back.png', 
@@ -235,16 +235,16 @@ VALUES (551,
 'http://htkb.info/SDE/2.0/Cards/Pets/Standies/Lady_Turlington_Firemon_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Pets/Standies/Lady_Turlington_Firemon_2.0_back.png',
 'Either', 'Small', '', 6, 2, '1ST 2B', '1ST 2B', '1ST', '1ST', 2, 0);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (445, 588); --Fire
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (445, 703); --Kindling
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (445, 738); --Master Gains Kindling
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (445, 903); --Small
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (445, 1139); --Flaming Belch
-insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (445, 1, 8); --Strength
-insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (445, 2); --Armor
-insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (445, 3, 8);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (446, 588); --Fire
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (446, 703); --Kindling
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (446, 738); --Master Gains Kindling
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (446, 903); --Small
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (446, 1139); --Flaming Belch
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (446, 1, 8); --Strength
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (446, 2); --Armor
+insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (446, 3, 8);
 
---Lord Gruff --CardIndex 942	--CharacterIndex 552	--ExploreCharacterIndex 446
+--Lord Gruff --CardIndex 942	--CharacterIndex 552	--ExploreCharacterIndex 447
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Lord Gruff',
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Lord_Gruff_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Lord_Gruff_2.0_back.png', 
@@ -258,15 +258,15 @@ VALUES (552,
 'http://htkb.info/SDE/2.0/Cards/Pets/Standies/Lord_Gruff_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Pets/Standies/Lord_Gruff_2.0_back.png',
 'Either', 'Small', '', 6, 1, '3B', '3ST', '1ST', '1ST', 2, 0);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (446, 709); --Knockdown
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (446, 739); --Master Gains Knockdown
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (446, 903); --Small
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (446, 1238); --Grump
-insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (446, 1, 1); --Strength
-insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (446, 2); --Armor
-insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (446, 2, 2);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (447, 709); --Knockdown
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (447, 739); --Master Gains Knockdown
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (447, 903); --Small
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (447, 1238); --Grump
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (447, 1, 1); --Strength
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (447, 2); --Armor
+insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (447, 2, 2);
 
---Lord Nevermore --CardIndex 943	--CharacterIndex 943	--ExploreCharacterIndex 447
+--Lord Nevermore --CardIndex 943	--CharacterIndex 553	--ExploreCharacterIndex 448
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Lord Nevermore',
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Lord_Nevermore_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Lord_Nevermore_2.0_back.png', 
@@ -274,22 +274,22 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Pet', '2.0', '2.0 Core Set', 'Default', 
 'Lord Nevermore did not know why he could sometimes see glimpses of the future, but he never questioned it. He tried to use his powers for good, but being a raven always made it difficult. Sometimes he could see when one hero would need a potion more than another, but they never seemed grateful when he grabbed it and dropped it on the one who would need it. No matter, Lord Nevermore does not need their thanks, he is certain he knows best.');
 insert into Characters (CardIndex) VALUES (943);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (943, 4); --Sapphire
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (553, 4); --Sapphire
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
-VALUES (943,
+VALUES (553,
 'http://htkb.info/SDE/2.0/Cards/Pets/Standies/Lord_Nevermore_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Pets/Standies/Lord_Nevermore_2.0_back.png',
 'Either', 'Small', '', 7, 1, '1B', '2ST', '2ST', '2ST', 1, 0);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (447, 596); --Fly
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (447, 741); --Master Gains Oracle
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (447, 781); --Oracle
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (447, 903); --Small
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (447, 730); --Air Drop
-insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (447, 1, 1); --Strength
-insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (447, 2); --Armor
-insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (447, 1, 2);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (448, 596); --Fly
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (448, 741); --Master Gains Oracle
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (448, 781); --Oracle
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (448, 903); --Small
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (448, 730); --Air Drop
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (448, 1, 1); --Strength
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (448, 2); --Armor
+insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (448, 1, 2);
 
---Lord Spike Rage --CardIndex 944	--CharacterIndex 554	--ExploreCharacterIndex 448
+--Lord Spike Rage --CardIndex 944	--CharacterIndex 554	--ExploreCharacterIndex 449
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Lord Spike Rage',
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Lord_Spike_Rage_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Lord_Spike_Rage_2.0_back.png', 
@@ -303,15 +303,15 @@ VALUES (554,
 'http://htkb.info/SDE/2.0/Cards/Pets/Standies/Lord_Spike_Rage_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Pets/Standies/Lord_Spike_Rage_2.0_back.png',
 'Either', 'Small', '', 6, 1, '2B', '2ST', '0ST', '2B', 2, 0);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (448, 728); --Massive Damage
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (448, 830); --Rage
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (448, 903); --Small
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (448, 1795); --Surprisingly Fierce
-insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (448, 1, 1); --Strength
-insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (448, 2); --Armor
-insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (448, 2, 2);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (449, 728); --Massive Damage
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (449, 830); --Rage
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (449, 903); --Small
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (449, 1795); --Surprisingly Fierce
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (449, 1, 1); --Strength
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (449, 2); --Armor
+insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (449, 2, 2);
 
---Lord Turlington Icemon --CardIndex 945	--CharacterIndex 555	--ExploreCharacterIndex 449
+--Lord Turlington Icemon --CardIndex 945	--CharacterIndex 555	--ExploreCharacterIndex 450
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Lord Turlington Icemon',
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Lord_Turlington_Icemon_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Lord_Turlington_Icemon_2.0_back.png', 
@@ -325,16 +325,16 @@ VALUES (555,
 'http://htkb.info/SDE/2.0/Cards/Pets/Standies/Lord_Turlington_Icemon_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Pets/Standies/Lord_Turlington_Icemon_2.0_back.png',
 'Male', 'Small', 'Pet', 6, 2, '1ST 2B', '1ST 2B', '1ST', '1ST', 2, 0);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (449, 668); --Ice
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (449, 681); --Immune: Status Effects
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (449, 737); --Master Gains Immune: Status Effects
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (449, 903); --Small
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (449, 1305); --Icy Sneeze
-insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (449, 1, 1); --Strength
-insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (449, 2); --Armor
-insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (449, 3, 8);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (450, 668); --Ice
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (450, 681); --Immune: Status Effects
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (450, 737); --Master Gains Immune: Status Effects
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (450, 903); --Small
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (450, 1305); --Icy Sneeze
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (450, 1, 1); --Strength
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (450, 2); --Armor
+insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (450, 3, 8);
 
---Madam Hilde --CardIndex 946	--CharacterIndex 556	--ExploreCharacterIndex 450
+--Madam Hilde --CardIndex 946	--CharacterIndex 556	--ExploreCharacterIndex 451
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Madam Hilde',
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Madam_Hilde_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Madam_Hilde_2.0_back.png', 
@@ -348,15 +348,15 @@ VALUES (556,
 'http://htkb.info/SDE/2.0/Cards/Pets/Standies/Madam_Hilde_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Pets/Standies/Madam_Hilde_2.0_back.png',
 'Either', 'Small', '', 6, 1, '1R 1B', '3ST', '1ST', '1ST', 2, 0);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (450, 455); --Bane
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (450, 748); --Master Gains Soprano
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (450, 903); --Small
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (450, 1713); --Soprano
-insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (450, 1, 1); --Strength
-insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (450, 2); --Armor
-insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (450, 2, 3);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (451, 455); --Bane
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (451, 748); --Master Gains Soprano
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (451, 903); --Small
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (451, 1713); --Soprano
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (451, 1, 1); --Strength
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (451, 2); --Armor
+insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (451, 2, 3);
 
---Magus Crawley --CardIndex 947	--CharacterIndex 557	--ExploreCharacterIndex 451
+--Magus Crawley --CardIndex 947	--CharacterIndex 557	--ExploreCharacterIndex 452
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Magus Crawley',
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Magus_Crawley_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Magus_Crawley_2.0_back.png', 
@@ -370,14 +370,14 @@ VALUES (557,
 'http://htkb.info/SDE/2.0/Cards/Pets/Standies/Magus_Crawley_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Pets/Standies/Magus_Crawley_2.0_back.png',
 'Either', 'Small', '', 6, 1, '2B', '2ST', '2ST', '2ST', 2, 0);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (451, 797); --Pest Control
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (451, 903); --Small
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (451, 1145); --Flies To My Web
-insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (451, 1, 1); --Strength
-insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (451, 2); --Armor
-insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (451, 2, -1);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (452, 797); --Pest Control
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (452, 903); --Small
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (452, 1145); --Flies To My Web
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (452, 1, 1); --Strength
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (452, 2); --Armor
+insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (452, 2, -1);
 
---Mighty Kowalski --CardIndex 948	--CharacterIndex 558	--ExploreCharacterIndex 452
+--Mighty Kowalski --CardIndex 948	--CharacterIndex 558	--ExploreCharacterIndex 453
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Mighty Kowalski',
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Mighty_Kowalski_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Mighty_Kowalski_2.0_back.png', 
@@ -391,13 +391,13 @@ VALUES (558,
 'http://htkb.info/SDE/2.0/Cards/Pets/Standies/Mighty_Kowalski_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Pets/Standies/Mighty_Kowalski_2.0_back.png',
 'Neither', 'Small', 'Pet', 6, 1, '3B', '1ST', '3B', '3B', 2, 0);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (452, 1036); --Throw Me A Fish
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (452, 1706); --Snowball Fight
-insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (452, 4, 4); --Dex
-insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (452, 2); --Armor
-insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (452, 2, -1);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (453, 1036); --Throw Me A Fish
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (453, 1706); --Snowball Fight
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (453, 4, 4); --Dex
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (453, 2); --Armor
+insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (453, 2, -1);
 
---Miss G. Snorts --CardIndex 949	--CharacterIndex 559	--ExploreCharacterIndex 453
+--Miss G. Snorts --CardIndex 949	--CharacterIndex 559	--ExploreCharacterIndex 454
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Miss G. Snorts',
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Miss_G_Snorts_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Miss_G_Snorts_2.0_back.png', 
@@ -411,15 +411,15 @@ VALUES (559,
 'http://htkb.info/SDE/2.0/Cards/Pets/Standies/Miss_G_Snorts_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Pets/Standies/Miss_G_Snorts_2.0_back.png',
 'Either', 'Small', '', 6, 1, '3B', '2ST', '2ST', '2ST', 2, 0);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (453, 742); --Master Gains Poison
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (453, 807); --Poison
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (453, 903); --Small
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (453, 1756); --Stink Beard Bark
-insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (453, 1, 1); --Strength
-insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (453, 2); --Armor
-insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (453, 2, 2);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (454, 742); --Master Gains Poison
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (454, 807); --Poison
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (454, 903); --Small
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (454, 1756); --Stink Beard Bark
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (454, 1, 1); --Strength
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (454, 2); --Armor
+insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (454, 2, 2);
 
---Miss Serenity Brown --CardIndex 950	--CharacterIndex 560	--ExploreCharacterIndex 454
+--Miss Serenity Brown --CardIndex 950	--CharacterIndex 560	--ExploreCharacterIndex 455
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Miss Serenity Brown',
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Miss_Serenity_Brown_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Miss_Serenity_Brown_2.0_back.png', 
@@ -433,16 +433,16 @@ VALUES (560,
 'http://htkb.info/SDE/2.0/Cards/Pets/Standies/Miss_Serenity_Brown_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Pets/Standies/Miss_Serenity_Brown_2.0_back.png',
 'Either', 'Small', '', 6, 1, '2ST', '2ST', '2ST', '1B 1R', 2, 0);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (454, 483); --Brutal Strike
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (454, 596); --Fly
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (454, 787); --Pain Is Scary
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (454, 903); --Small
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (454, 1306); --Illuminated Strike
-insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (454, 4, 3); --Dex
-insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (454, 2); --Armor
-insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (454, 2, -1);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (455, 483); --Brutal Strike
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (455, 596); --Fly
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (455, 787); --Pain Is Scary
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (455, 903); --Small
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (455, 1306); --Illuminated Strike
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (455, 4, 3); --Dex
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (455, 2); --Armor
+insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (455, 2, -1);
 
---Mister Bligh --CardIndex 951	--CharacterIndex 561	--ExploreCharacterIndex 455
+--Mister Bligh --CardIndex 951	--CharacterIndex 561	--ExploreCharacterIndex 456
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Mister Bligh',
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Mister_Bligh_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Mister_Bligh_2.0_back.png', 
@@ -456,16 +456,16 @@ VALUES (561,
 'http://htkb.info/SDE/2.0/Cards/Pets/Standies/Mister_Bligh_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Pets/Standies/Mister_Bligh_2.0_back.png',
 'Either', 'Small', '', 6, 1, '2R 1B', '1ST', '0ST', '0ST', 3, 0);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (455, 744); --Master Gains Predator
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (455, 818); --Predator
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (455, 903); --Small
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (455, 1037); --Throw X
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (455, 1332); --Jealous Rage
-insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (455, 1, 1); --Strength
-insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (455, 2); --Armor
-insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (455, 2, 2);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (456, 744); --Master Gains Predator
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (456, 818); --Predator
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (456, 903); --Small
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (456, 1037); --Throw X
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (456, 1332); --Jealous Rage
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (456, 1, 1); --Strength
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (456, 2); --Armor
+insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (456, 2, 2);
 
---Mister Chompers --CardIndex 952	--CharacterIndex 562	--ExploreCharacterIndex 456
+--Mister Chompers --CardIndex 952	--CharacterIndex 562	--ExploreCharacterIndex 457
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Mister Chompers',
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Mister_Chompers_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Mister_Chompers_2.0_back.png', 
@@ -479,15 +479,15 @@ VALUES (562,
 'http://htkb.info/SDE/2.0/Cards/Pets/Standies/Mister_Chompers_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Pets/Standies/Mister_Chompers_2.0_back.png',
 'Either', 'Small', '', 6, 1, '2R', '2ST', '2ST', '2ST', 2, 0);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (456, 588); --Fire
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (456, 733); --Master Gains Fire
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (456, 903); --Small
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (456, 1524); --Poof
-insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (456, 1, 1); --Strength
-insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (456, 2); --Armor
-insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (456, 2, 2);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (457, 588); --Fire
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (457, 733); --Master Gains Fire
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (457, 903); --Small
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (457, 1524); --Poof
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (457, 1, 1); --Strength
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (457, 2); --Armor
+insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (457, 2, 2);
 
---Mr. Bitey --CardIndex 953	--CharacterIndex 563	--ExploreCharacterIndex 457
+--Mr. Bitey --CardIndex 953	--CharacterIndex 563	--ExploreCharacterIndex 458
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Mr. Bitey',
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Mr_Bitey_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Mr_Bitey_2.0_back.png', 
@@ -501,15 +501,15 @@ VALUES (563,
 'http://htkb.info/SDE/2.0/Cards/Pets/Standies/Mr_Bitey_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Pets/Standies/Mr_Bitey_2.0_back.png',
 'Either', 'Small', '', 6, 2, '2R', '2ST', '2ST', '2ST', 2, 0);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (457, 457); --Berserk
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (457, 731); --Master Gains Berserk
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (457, 903); --Small
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (457, 1601); --Rotten Carrot
-insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (457, 1, 1); --Strength
-insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (457, 2); --Armor
-insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (457, 3, 1);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (458, 457); --Berserk
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (458, 731); --Master Gains Berserk
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (458, 903); --Small
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (458, 1601); --Rotten Carrot
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (458, 1, 1); --Strength
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (458, 2); --Armor
+insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (458, 3, 1);
 
---Mr. Milky --CardIndex 954	--CharacterIndex 564	--ExploreCharacterIndex 458
+--Mr. Milky --CardIndex 954	--CharacterIndex 564	--ExploreCharacterIndex 459
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Mr. Milky',
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Mr_Milky_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Mr_Milky_2.0_back.png', 
@@ -523,14 +523,14 @@ VALUES (564,
 'http://htkb.info/SDE/2.0/Cards/Pets/Standies/Mr_Milky_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Pets/Standies/Mr_Milky_2.0_back.png',
 'Either', 'Small', 'Cypher', 6, 1, '1B 1R', '2ST', '2ST', '2ST', 2, 0);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (458, 718); --Luck
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (458, 740); --Master Gains Luck
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (458, 1796); --Sustenance
-insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (458, 1, 1); --Strength
-insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (458, 2); --Armor
-insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (458, 2, 2);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (459, 718); --Luck
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (459, 740); --Master Gains Luck
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (459, 1796); --Sustenance
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (459, 1, 1); --Strength
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (459, 2); --Armor
+insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (459, 2, 2);
 
---Mr. Thaddius Stout --CardIndex 955	--CharacterIndex 565	--ExploreCharacterIndex 459
+--Mr. Thaddius Stout --CardIndex 955	--CharacterIndex 565	--ExploreCharacterIndex 460
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Mr. Thaddius Stout',
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Mr_Thaddius_Stout_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Mr_Thaddius_Stout_2.0_back.png', 
@@ -544,16 +544,16 @@ VALUES (565,
 'http://htkb.info/SDE/2.0/Cards/Pets/Standies/Mr_Thaddius_Stout_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Pets/Standies/Mr_Thaddius_Stout_2.0_back.png',
 'Either', 'Small', '', 7, 1, '2B', '1ST', '2ST', '2ST', 3, 0);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (459, 745); --Master Gains Proficient
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (459, 824); --Proficient
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (459, 894); --Sidekick
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (459, 903); --Small
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (459, 1248); --Happy Cat
-insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (459, 1, 1); --Strength
-insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (459, 2); --Armor
-insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (459, 2, 8);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (460, 745); --Master Gains Proficient
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (460, 824); --Proficient
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (460, 894); --Sidekick
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (460, 903); --Small
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (460, 1248); --Happy Cat
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (460, 1, 1); --Strength
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (460, 2); --Armor
+insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (460, 2, 8);
 
---Never-Lost Cola --CardIndex 956	--CharacterIndex 566	--ExploreCharacterIndex 460
+--Never-Lost Cola --CardIndex 956	--CharacterIndex 566	--ExploreCharacterIndex 461
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Never-Lost Cola',
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Never_Lost_Cola_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Never_Lost_Cola_2.0_back.png', 
@@ -567,15 +567,15 @@ VALUES (566,
 'http://htkb.info/SDE/2.0/Cards/Pets/Standies/Never_Lost_Cola_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Pets/Standies/Never_Lost_Cola_2.0_back.png',
 'Either', 'Small', '', 7, 1, '1R 1B', '2ST', '3ST', '3ST', 2, 0);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (460, 718); --Luck
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (460, 740); --Master Gains Luck
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (460, 769); --Never-Lost
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (460, 903); --Small
-insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (460, 1, 1); --Strength
-insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (460, 2); --Armor
-insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (460, 2, 3);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (461, 718); --Luck
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (461, 740); --Master Gains Luck
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (461, 769); --Never-Lost
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (461, 903); --Small
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (461, 1, 1); --Strength
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (461, 2); --Armor
+insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (461, 2, 3);
 
---Overlord Okami --CardIndex 957	--CharacterIndex 567	--ExploreCharacterIndex 461
+--Overlord Okami --CardIndex 957	--CharacterIndex 567	--ExploreCharacterIndex 462
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Overlord Okami',
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Overlord_Okami_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Overlord_Okami_2.0_back.png', 
@@ -589,15 +589,15 @@ VALUES (567,
 'http://htkb.info/SDE/2.0/Cards/Pets/Standies/Overlord_Okami_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Pets/Standies/Overlord_Okami_2.0_back.png',
 'Either', 'Small', '', 6, 1, '2R 1B', '3B', '0ST', '3ST', 3, 0);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (461, 903); --Small
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (461, 1025); --Tag Team
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (461, 1029); --Teleport
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (461, 2058); --Out of Nowhere
-insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (461, 1, 2); --Strength
-insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (461, 2); --Armor
-insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (461, 3, -1);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (462, 903); --Small
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (462, 1025); --Tag Team
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (462, 1029); --Teleport
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (462, 2058); --Out of Nowhere
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (462, 1, 2); --Strength
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (462, 2); --Armor
+insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (462, 3, -1);
 
---Pet Citrine Slime --CardIndex 958	--CharacterIndex 568	--ExploreCharacterIndex 462
+--Pet Citrine Slime --CardIndex 958	--CharacterIndex 568	--ExploreCharacterIndex 463
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Pet Citrine Slime',
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Citrine_Slime_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Citrine_Slime_2.0_back.png', 
@@ -611,14 +611,14 @@ VALUES (568,
 'http://htkb.info/SDE/2.0/Cards/Pets/Standies/Citrine_Slime_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Pets/Standies/Citrine_Slime_2.0_back.png',
 'Either', 'Small', '', 6, 1, '2B', '0ST', '1ST', '1ST', 3, 0);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (462, 695); --Invader
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (462, 903); --Small
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (462, 1259); --Helpful Citrine Goop
-insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (462, 1, 1); --Strength
-insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (462, 2); --Armor
-insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (462, 1, -1);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (463, 695); --Invader
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (463, 903); --Small
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (463, 1259); --Helpful Citrine Goop
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (463, 1, 1); --Strength
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (463, 2); --Armor
+insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (463, 1, -1);
 
---Pet Demolitions Expert --CardIndex 959	--CharacterIndex 569	--ExploreCharacterIndex 463
+--Pet Demolitions Expert --CardIndex 959	--CharacterIndex 569	--ExploreCharacterIndex 464
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Pet Demolitions Expert',
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Demolitions_Expert_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Demolitions_Expert_2.0_back.png', 
@@ -632,18 +632,18 @@ VALUES (569,
 'http://htkb.info/SDE/2.0/Cards/Pets/Standies/Demolitions_Expert_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Pets/Standies/Demolitions_Expert_2.0_back.png',
 'Either', 'Small', '', 5, 1, '2B', '0ST', '2B', '1B', 1, 0);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (463, 678); --Immune: Knockdown
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (463, 680); --Immune: Slow
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (463, 709); --Knockdown
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (463, 903); --Small
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (463, 750); --Master Gains Volatile
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (463, 1060); --Volatile
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (463, 1340); --Kaboom
-insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (463, 1, 1); --Strength
-insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (463, 2); --Armor
-insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (463, 1, 8);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (464, 678); --Immune: Knockdown
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (464, 680); --Immune: Slow
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (464, 709); --Knockdown
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (464, 903); --Small
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (464, 750); --Master Gains Volatile
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (464, 1060); --Volatile
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (464, 1340); --Kaboom
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (464, 1, 1); --Strength
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (464, 2); --Armor
+insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (464, 1, 8);
 
---Pet Emerald Slime --CardIndex 960	--CharacterIndex 570	--ExploreCharacterIndex 464
+--Pet Emerald Slime --CardIndex 960	--CharacterIndex 570	--ExploreCharacterIndex 465
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Pet Emerald Slime',
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Emerald_Slime_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Emerald_Slime_2.0_back.png', 
@@ -657,14 +657,14 @@ VALUES (570,
 'http://htkb.info/SDE/2.0/Cards/Pets/Standies/Emerald_Slime_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Pets/Standies/Emerald_Slime_2.0_back.png',
 'Either', 'Small', '', 6, 1, '2B', '0ST', '1ST', '1ST', 3, 0);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (464, 695); --Invader
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (464, 903); --Small
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (464, 1260); --Helpful Emerald Goop
-insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (464, 1, 1); --Strength
-insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (464, 2); --Armor
-insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (464, 1, -1);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (465, 695); --Invader
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (465, 903); --Small
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (465, 1260); --Helpful Emerald Goop
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (465, 1, 1); --Strength
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (465, 2); --Armor
+insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (465, 1, -1);
 
---Pet Fire Flower --CardIndex 961	--CharacterIndex 571	--ExploreCharacterIndex 465
+--Pet Fire Flower --CardIndex 961	--CharacterIndex 571	--ExploreCharacterIndex 466
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Pet Fire Flower',
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Fire_Flower_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Fire_Flower_2.0_back.png', 
@@ -678,17 +678,17 @@ VALUES (571,
 'http://htkb.info/SDE/2.0/Cards/Pets/Standies/Fire_Flower_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Pets/Standies/Fire_Flower_2.0_back.png',
 'Either', 'Small', '', 0, 1, '1B', '2ST', '1B', '3B', 2, 0);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (465, 588); --Fire
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (465, 674); --Immune: Fire
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (465, 751); --Master Gains Wind of Blades
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (465, 874); --Secluded
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (465, 903); --Small
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (465, 1072); --Wind of Blades
-insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (465, 4, 4); --Dex
-insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (465, 2); --Armor
-insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (465, 1, 4);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (466, 588); --Fire
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (466, 674); --Immune: Fire
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (466, 751); --Master Gains Wind of Blades
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (466, 874); --Secluded
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (466, 903); --Small
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (466, 1072); --Wind of Blades
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (466, 4, 4); --Dex
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (466, 2); --Armor
+insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (466, 1, 4);
 
---Pet Frost Imp --CardIndex 962	--CharacterIndex 572	--ExploreCharacterIndex 466
+--Pet Frost Imp --CardIndex 962	--CharacterIndex 572	--ExploreCharacterIndex 467
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Pet Frost Imp',
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Frost_Imp_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Frost_Imp_2.0_back.png', 
@@ -702,14 +702,14 @@ VALUES (572,
 'http://htkb.info/SDE/2.0/Cards/Pets/Standies/Frost_Imp_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Pets/Standies/Frost_Imp_2.0_back.png',
 'Either', 'Small', '', 6, 1, '2B', '2ST', '1B', '3B', 2, 0);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (466, 903); --Small
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (466, 735); --Master Gains Ice
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (466, 1704); --Snowball
-insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (466, 4, 3); --Dex
-insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (466, 2); --Armor
-insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (466, 2, 2);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (467, 903); --Small
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (467, 735); --Master Gains Ice
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (467, 1704); --Snowball
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (467, 4, 3); --Dex
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (467, 2); --Armor
+insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (467, 2, 2);
 
---Pet Ghost --CardIndex 963	--CharacterIndex 573	--ExploreCharacterIndex 467
+--Pet Ghost --CardIndex 963	--CharacterIndex 573	--ExploreCharacterIndex 468
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Pet Ghost',
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Ghost_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Ghost_2.0_back.png', 
@@ -723,16 +723,16 @@ VALUES (573,
 'http://htkb.info/SDE/2.0/Cards/Pets/Standies/Ghost_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Pets/Standies/Ghost_2.0_back.png',
 'Either', 'Small', '', 6, 1, '0ST', '2ST', '2B', '3B', 1, 0);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (467, 629); --Ghost
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (467, 638); --Grave Spawn
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (467, 640); --Guardian
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (467, 776); --Numerous
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (467, 903); --Small
-insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (467, 3, 1); --Will
-insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (467, 2); --Armor
-insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (467, 0, -1);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (468, 629); --Ghost
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (468, 638); --Grave Spawn
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (468, 640); --Guardian
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (468, 776); --Numerous
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (468, 903); --Small
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (468, 3, 1); --Will
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (468, 2); --Armor
+insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (468, 0, -1);
 
---Pet Giri --CardIndex 964	--CharacterIndex 574	--ExploreCharacterIndex 468
+--Pet Giri --CardIndex 964	--CharacterIndex 574	--ExploreCharacterIndex 469
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Pet Giri',
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Giri_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Giri_2.0_back.png', 
@@ -746,14 +746,14 @@ VALUES (574,
 'http://htkb.info/SDE/2.0/Cards/Pets/Standies/Giri_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Pets/Standies/Giri_2.0_back.png',
 'Either', 'Small', '', 6, 1, '2B', '2ST', '3B', '2B', 2, 0);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (468, 646); --Heroic Mob
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (468, 757); --Mob
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (468, 903); --Small
-insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (468, 1, 2); --Strength
-insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (468, 2); --Armor
-insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (468, 2, -1);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (469, 646); --Heroic Mob
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (469, 757); --Mob
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (469, 903); --Small
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (469, 1, 2); --Strength
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (469, 2); --Armor
+insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (469, 2, -1);
 
---Pet Rabid Squirrel --CardIndex 965	--CharacterIndex 575	--ExploreCharacterIndex 469
+--Pet Rabid Squirrel --CardIndex 965	--CharacterIndex 575	--ExploreCharacterIndex 470
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Pet Rabid Squirrel',
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Rabid_Squirrel_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Rabid_Squirrel_2.0_back.png', 
@@ -767,13 +767,13 @@ VALUES (575,
 'http://htkb.info/SDE/2.0/Cards/Pets/Standies/Rabid_Squirrel_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Pets/Standies/Rabid_Squirrel_2.0_back.png',
 'Either', 'Small', '', 7, 1, '2R', '3B', '0ST', '2R', 2, 0);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (469, 829); --Rabid
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (469, 903); --Small
-insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (469, 1, 1); --Strength
-insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (469, 2); --Armor
-insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (469, 2, -1);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (470, 829); --Rabid
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (470, 903); --Small
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (470, 1, 1); --Strength
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (470, 2); --Armor
+insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (470, 2, -1);
 
---Pet Rattlebone --CardIndex 966	--CharacterIndex 576	--ExploreCharacterIndex 470
+--Pet Rattlebone --CardIndex 966	--CharacterIndex 576	--ExploreCharacterIndex 471
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Pet Rattlebone',
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Rattlebone_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Rattlebone_2.0_back.png', 
@@ -787,14 +787,14 @@ VALUES (576,
 'http://htkb.info/SDE/2.0/Cards/Pets/Standies/Rattlebone_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Pets/Standies/Rattlebone_2.0_back.png',
 'Either', 'Small', '', 6, 1, '4B', '1B', '1B', '1B', 3, 0);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (470, 472); --Bone Collector
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (470, 903); --Small
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (470, 1001); --Spooky Spooky!
-insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (470, 1, 1); --Strength
-insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (470, 2); --Armor
-insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (470, 3, -1);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (471, 472); --Bone Collector
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (471, 903); --Small
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (471, 1001); --Spooky Spooky!
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (471, 1, 1); --Strength
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (471, 2); --Armor
+insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (471, 3, -1);
 
---Pet Ruby Slime --CardIndex 967	--CharacterIndex 577	--ExploreCharacterIndex 471
+--Pet Ruby Slime --CardIndex 967	--CharacterIndex 577	--ExploreCharacterIndex 472
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Pet Ruby Slime',
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Ruby_Slime_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Ruby_Slime_2.0_back.png', 
@@ -808,14 +808,14 @@ VALUES (577,
 'http://htkb.info/SDE/2.0/Cards/Pets/Standies/Ruby_Slime_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Pets/Standies/Ruby_Slime_2.0_back.png',
 'Either', 'Small', '', 6, 1, '2B', '0ST', '1ST', '1ST', 3, 0);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (471, 695); --Invader
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (471, 903); --Small
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (471, 1261); --Helpful Ruby Goop
-insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (471, 1, 1); --Strength
-insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (471, 2); --Armor
-insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (471, 1, -1);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (472, 695); --Invader
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (472, 903); --Small
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (472, 1261); --Helpful Ruby Goop
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (472, 1, 1); --Strength
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (472, 2); --Armor
+insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (472, 1, -1);
 
---Pet Sapphire Slime --CardIndex 968	--CharacterIndex 578	--ExploreCharacterIndex 472
+--Pet Sapphire Slime --CardIndex 968	--CharacterIndex 578	--ExploreCharacterIndex 473
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Pet Sapphire Slime',
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Sapphire_Slime_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Sapphire_Slime_2.0_back.png', 
@@ -829,14 +829,14 @@ VALUES (578,
 'http://htkb.info/SDE/2.0/Cards/Pets/Standies/Sapphire_Slime_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Pets/Standies/Sapphire_Slime_2.0_back.png',
 'Either', 'Small', '', 6, 1, '2B', '0ST', '1ST', '1ST', 3, 0);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (472, 695); --Invader
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (472, 903); --Small
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (472, 1262); --Helpful Sapphire Goop
-insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (472, 1, 1); --Strength
-insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (472, 2); --Armor
-insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (472, 1, -1);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (473, 695); --Invader
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (473, 903); --Small
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (473, 1262); --Helpful Sapphire Goop
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (473, 1, 1); --Strength
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (473, 2); --Armor
+insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (473, 1, -1);
 
---Pet Squigly --CardIndex 969	--CharacterIndex 579	--ExploreCharacterIndex 473
+--Pet Squigly --CardIndex 969	--CharacterIndex 579	--ExploreCharacterIndex 474
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Pet Squigly',
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Squigly_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Squigly_2.0_back.png', 
@@ -850,17 +850,17 @@ VALUES (579,
 'http://htkb.info/SDE/2.0/Cards/Pets/Standies/Squigly_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Pets/Standies/Squigly_2.0_back.png',
 'Either', 'Small', '', 6, 1, '2B', '2ST', '0ST', '3B', 2, 0);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (473, 636); --Grabby
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (473, 672); --Immobile
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (473, 736); --Master Gains Immobile
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (473, 901); --Slow
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (473, 903); --Small
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (473, 1682); --Slimy Hug
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (474, 636); --Grabby
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (474, 672); --Immobile
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (474, 736); --Master Gains Immobile
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (474, 901); --Slow
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (474, 903); --Small
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (474, 1682); --Slimy Hug
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (473, 1, 1); --Strength
-insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (473, 2); --Armor
-insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (473, 2, 2);
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (474, 2); --Armor
+insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (474, 2, 2);
 
---Poe --CardIndex 970	--CharacterIndex 580	--ExploreCharacterIndex 474
+--Poe --CardIndex 970	--CharacterIndex 580	--ExploreCharacterIndex 475
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Poe',
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Poe_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Poe_2.0_back.png', 
@@ -874,15 +874,15 @@ VALUES (580,
 'http://htkb.info/SDE/2.0/Cards/Pets/Standies/Poe_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Pets/Standies/Poe_2.0_back.png',
 'Neither', 'Small', 'Pet', 6, 1, '0ST', '1ST', '3B', '2B', 2, 0);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (474, 453); --Bane
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (474, 547); --Despair
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (474, 732); --Master Gains Despair
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (474, 991); --Deathmark
-insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (474, 3, 3); --WILL
-insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (474, 2); --Armor
-insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (474, 2, 2);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (475, 453); --Bane
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (475, 547); --Despair
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (475, 732); --Master Gains Despair
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (475, 991); --Deathmark
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (475, 3, 3); --WILL
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (475, 2); --Armor
+insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (475, 2, 2);
 
---Puddin' --CardIndex 971	--CharacterIndex 581	--ExploreCharacterIndex 475
+--Puddin' --CardIndex 971	--CharacterIndex 581	--ExploreCharacterIndex 476
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Puddin''',
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Puddin_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Puddin_2.0_back.png', 
@@ -896,14 +896,14 @@ VALUES (581,
 'http://htkb.info/SDE/2.0/Cards/Pets/Standies/Puddin_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Pets/Standies/Puddin_2.0_back.png',
 'Neither', 'Small', 'Pet', 6, 1, '3B', '3B', '1B', '3B', 3, 0);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (475, 442); --Augment
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (475, 734); --Ambush Predator
-insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (475, 1, 2); --Strength
-insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (475, 2); --Armor
-insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (475, 2, -1);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (476, 442); --Augment
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (476, 734); --Ambush Predator
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (476, 1, 2); --Strength
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (476, 2); --Armor
+insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (476, 2, -1);
 
---Sabertooth Kitty --CardIndex 972	--CharacterIndex 582	--ExploreCharacterIndex 476
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('ASabertooth Kitty',
+--Sabertooth Kitty --CardIndex 972	--CharacterIndex 582	--ExploreCharacterIndex 477
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Sabertooth Kitty',
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Sabertooth_Kitty_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Sabertooth_Kitty_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Pets/Sabertooth_Kitty.xhtml', 
@@ -916,13 +916,13 @@ VALUES (582,
 'http://htkb.info/SDE/2.0/Cards/Pets/Standies/Sabertooth_Kitty_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Pets/Standies/Sabertooth_Kitty_2.0_back.png',
 'Either', 'Small', '', 6, 1, '2B 1R', '3BT', '1B', '3B', 3, 0);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (476, 429); --Ambush Predator
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (476, 732); --Ambush
-insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (476, 1, 1); --Strength
-insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (476, 2); --Armor
-insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (476, 2, -1);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (477, 429); --Ambush Predator
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (477, 732); --Ambush
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (477, 1, 1); --Strength
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (477, 2); --Armor
+insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (477, 2, -1);
 
---Sage Aumar --CardIndex 973	--CharacterIndex 583	--ExploreCharacterIndex 477
+--Sage Aumar --CardIndex 973	--CharacterIndex 583	--ExploreCharacterIndex 478
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Sage Aumar',
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Sage_Aumar_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Sage_Aumar_2.0_back.png', 
@@ -936,14 +936,14 @@ VALUES (583,
 'http://htkb.info/SDE/2.0/Cards/Pets/Standies/Sage_Aumar_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Pets/Standies/Sage_Aumar_2.0_back.png',
 'Either', 'Small', 'Demon', 6, 1, '4B', '3B', '2R', '1B', 1, 0);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (477, 596); --Fly
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (477, 796); --Pep Talk
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (477, 1224); --Go To Her
-insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (477, 1, 1); --Strength
-insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (477, 2); --Armor
-insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (477, 1, -1);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (478, 596); --Fly
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (478, 796); --Pep Talk
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (478, 1224); --Go To Her
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (478, 1, 1); --Strength
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (478, 2); --Armor
+insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (478, 1, -1);
 
---Ser Slither --CardIndex 974	--CharacterIndex 584	--ExploreCharacterIndex 478
+--Ser Slither --CardIndex 974	--CharacterIndex 584	--ExploreCharacterIndex 479
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ser Slither',
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Ser_Slither_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Ser_Slither_2.0_back.png', 
@@ -960,16 +960,16 @@ VALUES (584,
 'http://htkb.info/SDE/2.0/Cards/Pets/Standies/Ser_Slither_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Pets/Standies/Ser_Slither_2.0_back.png',
 'Either', 'Small', '', 6, 1, '2R', '2ST', '2ST', '2ST', 2, 0);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (478, 815); --Pounce
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (478, 903); --Small
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (478, 1016); --Strike
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (478, 1623); --Serpent Strike
-insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (478, 1, 1); --Strength
-insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (478, 2); --Armor
-insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (478, 2, -1);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (479, 815); --Pounce
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (479, 903); --Small
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (479, 1016); --Strike
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (479, 1623); --Serpent Strike
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (479, 1, 1); --Strength
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (479, 2); --Armor
+insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (479, 2, -1);
 
---Sergeant of Winterwatch --CardIndex 975	--CharacterIndex 585	--ExploreCharacterIndex 479
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Lord Turlington Icemon',
+--Sergeant of Winterwatch --CardIndex 975	--CharacterIndex 585	--ExploreCharacterIndex 480
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Sergeant of Winterwatch',
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Sergeant_of_Winterwatch_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Sergeant_of_Winterwatch_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Pets/Sergeant_of_Winterwatch.xhtml', 
@@ -982,18 +982,18 @@ VALUES (585,
 'http://htkb.info/SDE/2.0/Cards/Pets/Standies/Sergeant_of_Winterwatch_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Pets/Standies/Sergeant_of_Winterwatch_2.0_back.png',
 'Neither', 'Large', 'Pet', 6, 2, '3B', '3B', '3B', '3B', 2, 0);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (479, 442); --Augment
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (479, 453); --Bane
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (479, 569); --Emergency Supply
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (479, 642); --Heals X
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (479, 705); --Knockdown
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (479, 1867); --Trip
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (479, 1588); --Resupply
-insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (479, 1, 1); --Strength
-insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (479, 2); --Armor
-insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (479, 3, -1);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (480, 442); --Augment
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (480, 453); --Bane
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (480, 569); --Emergency Supply
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (480, 642); --Heals X
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (480, 705); --Knockdown
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (480, 1867); --Trip
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (480, 1588); --Resupply
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (480, 1, 1); --Strength
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (480, 2); --Armor
+insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (480, 3, -1);
 
---Shmellow Powderpuff --CardIndex 976	--CharacterIndex 586	--ExploreCharacterIndex 480
+--Shmellow Powderpuff --CardIndex 976	--CharacterIndex 586	--ExploreCharacterIndex 481
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Shmellow Powderpuff',
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Shmellow_Powderpuff_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Shmellow_Powderpuff_2.0_back.png', 
@@ -1007,14 +1007,14 @@ VALUES (586,
 'http://htkb.info/SDE/2.0/Cards/Pets/Standies/Shmellow_Powderpuff_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Pets/Standies/Shmellow_Powderpuff_2.0_back.png',
 'Neither', 'Small', 'Pet', 6, 1, '3B', '3B', '2B', '2R', 3, 0);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (480, 442); --Augment
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (480, 506); --Clever
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (480, 2032); --Yip! Yip!
-insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (480, 1, 1); --Strength
-insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (480, 2); --Armor
-insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (480, 2, -1);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (481, 442); --Augment
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (481, 506); --Clever
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (481, 2032); --Yip! Yip!
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (481, 1, 1); --Strength
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (481, 2); --Armor
+insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (481, 2, -1);
 
---Static --CardIndex 977	--CharacterIndex 587	--ExploreCharacterIndex 481
+--Static --CardIndex 977	--CharacterIndex 587	--ExploreCharacterIndex 482
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Static',
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Static_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Static_2.0_back.png', 
@@ -1028,14 +1028,14 @@ VALUES (587,
 'http://htkb.info/SDE/2.0/Cards/Pets/Standies/Static_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Pets/Standies/Static_2.0_back.png',
 'Either', 'Small', 'Cypher', 6, 1, '2ST', '2ST', '2B', '2ST', 2, 0);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (481, 455); --Bane
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (481, 730); --Master Gains Bane
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (481, 1544); --Psychic Snare
-insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (481, 3, 4); --Will
-insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (481, 2); --Armor
-insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (481, 2, 2);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (482, 455); --Bane
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (482, 730); --Master Gains Bane
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (482, 1544); --Psychic Snare
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (482, 3, 4); --Will
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (482, 2); --Armor
+insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (482, 2, 2);
 
---Tame Gourd --CardIndex 978	--CharacterIndex 588	--ExploreCharacterIndex 482
+--Tame Gourd --CardIndex 978	--CharacterIndex 588	--ExploreCharacterIndex 483
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Tame Gourd',
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Tame_Gourd_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Tame_Gourd_2.0_back.png', 
@@ -1049,14 +1049,14 @@ VALUES (588,
 'http://htkb.info/SDE/2.0/Cards/Pets/Standies/Tame_Gourd_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Pets/Standies/Tame_Gourd_2.0_back.png',
 'Either', 'Small', '', 5, 1, '1B 1R', '1ST', '0ST', '0ST', 2, 0);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (482, 453); --Bane
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (482, 730); --Master Gains Bane
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (482, 1602); --Rotten Pumpkin Guts
-insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (482, 1, 1); --Strength
-insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (482, 2); --Armor
-insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (482, 2, 2);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (483, 453); --Bane
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (483, 730); --Master Gains Bane
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (483, 1602); --Rotten Pumpkin Guts
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (483, 1, 1); --Strength
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (483, 2); --Armor
+insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (483, 2, 2);
 
---Troopa Doug --CardIndex 979	--CharacterIndex 589	--ExploreCharacterIndex 483
+--Troopa Doug --CardIndex 979	--CharacterIndex 589	--ExploreCharacterIndex 484
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Troopa Doug',
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Troopa_Doug_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Troopa_Doug_2.0_back.png', 
@@ -1070,13 +1070,13 @@ VALUES (589,
 'http://htkb.info/SDE/2.0/Cards/Pets/Standies/Troopa_Doug_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Pets/Standies/Troopa_Doug_2.0_back.png',
 'Either', 'Small', '', 6, 1, '1B', '1G', '0ST', '0ST', 3, 0);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (483, 903); --Small
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (483, 1045); --Troopa Shield
-insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (483, 1, 1); --Strength
-insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (483, 2); --Armor
-insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (483, 1, -1);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (484, 903); --Small
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (484, 1045); --Troopa Shield
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (484, 1, 1); --Strength
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (484, 2); --Armor
+insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (484, 1, -1);
 
---Willard --CardIndex 980	--CharacterIndex 590	--ExploreCharacterIndex 484
+--Willard --CardIndex 980	--CharacterIndex 590	--ExploreCharacterIndex 485
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Willard',
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Willard_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Willard_2.0_back.png', 
@@ -1090,12 +1090,12 @@ VALUES (590,
 'http://htkb.info/SDE/2.0/Cards/Pets/Standies/Willard_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Pets/Standies/Willard_2.0_back.png',
 'Either', 'Small', 'Rat', 8, 2, '2B', '2B', '1B', '2R', 2, 0);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (484, 482); --Brutal Strike
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (484, 609); --Found A Shiny
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (484, 1698); --Sneakiest Rat
-insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (484, 1, 1); --Strength
-insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (484, 2); --Armor
-insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (484, 2, -1);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (485, 482); --Brutal Strike
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (485, 609); --Found A Shiny
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (485, 1698); --Sneakiest Rat
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (485, 1, 1); --Strength
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (485, 2); --Armor
+insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (485, 2, -1);
 
 
 
