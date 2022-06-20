@@ -4,7 +4,8 @@
       xmlns:h="http://java.sun.com/jsf/html"
       xmlns:f="http://java.sun.com/jsf/core"
       xmlns:c="http://java.sun.com/jsp/jstl/core"
-      xmlns:ui="http://xmlns.jcp.org/jsf/facelets">
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"  
+      xmlns:p="http://primefaces.org/ui">
     <h:head/>
     <h:body>
         <title>
@@ -13,11 +14,11 @@
         <h2>
             Welcome to the Super Dungeon Shuffler!
         </h2>
-        <div id="idCenterContent">
+        <h:form id="idCenterContent">
             <div id="idSelection">
                 <div>
                     <!-- Dropbox: type of card -->
-                    <h:selectOneMenu value="#{SDEShufflerBean.cardtype}" onchange="submit()" immediate="true">
+                    <h:selectOneMenu value="#{SDEShufflerBean.cardtype}" immediate="true">
                         <f:selectItem itemValue="0" itemLabel="Heroes"/>
                         <f:selectItem itemValue="1" itemLabel="Pets"/>
                         <f:selectItem itemValue="2" itemLabel="Booty" />
@@ -47,7 +48,7 @@
                     </h:selectOneMenu>
                 </div>
                 <div id="idFetchButton">
-                    <h:commandButton value ="Fetch New Deck" action="#{SDEShufflerBean.fetchNewDeck()}"/>
+                    <h:commandButton value="Fetch New Deck" action="#{SDEShufflerBean.fetchNewDeck()}"/>
                 </div>
             </div>
             <div id="idDrawnCard">
@@ -60,7 +61,7 @@
                     </ui:fragment>
                 </div>
                 <div id="idDrawButton">
-                    <h:commandButton value ="Draw Card" action="#{SDEShufflerBean.drawNewCard()}" disabled="#{SDEShufflerBean.drawPile.size() == 0}"/>
+                    <h:commandButton value="Draw Card" action="#{SDEShufflerBean.drawNewCard()}" disabled="#{SDEShufflerBean.drawPile.size() == 0}"/>
                 </div>
             </div>
             <div id="idDiscardPileContainer">
@@ -68,13 +69,14 @@
                     <ui:repeat var="x" value="#{SDEShufflerBean.discardPile}" size="#{SDEShufflerBean.discardPile.size()}" varStatus="myVarStatus">
                          <tr>
                              <td>
-                                 <h:outputText value="#{x[0]}" />
+                                 <h:outputText value="#{x.getName()}" />
                              </td>
                          </tr>
                     </ui:repeat>
                 </table>
             </div>
-        </div>
+            
+        </h:form>
     </h:body>
 </html>
 
