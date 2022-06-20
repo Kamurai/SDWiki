@@ -1,7 +1,6 @@
 package SDE.Bean;
 
-import javax.faces.bean.ManagedBean;
-import javax.faces.bean.RequestScoped;
+import javax.faces.bean.*;
 
 import SDE.*;
 import Database.SDE.*;
@@ -9,9 +8,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 @ManagedBean(name="SDEShufflerBean")
-@RequestScoped
+@SessionScoped
 public class ShufflerBean extends Main.Bean.ShufflerBean{
-    String cardtype             = "";
+    String cardtype             = "0";
     String playMode             = "";
     
     NavItem currentCard            = new NavItem();
@@ -33,6 +32,8 @@ public class ShufflerBean extends Main.Bean.ShufflerBean{
     public void fetchNewDeck(){
         discardPile = new ArrayList<NavItem>();
         
+        System.out.println("Fetching New Deck");
+        System.out.println("Card Type Value: "+cardtype);
         
         if(cardtype.equals("0")){
             drawPile = SDEDAONavigation.pullNavigationForHeroes();
@@ -56,11 +57,14 @@ public class ShufflerBean extends Main.Bean.ShufflerBean{
             
         }
         
+        System.out.println("Size of draw pile: "+drawPile.size());
         
         
         
         currentCard = new NavItem();
         
+//        currentCard.setPicture("Bad Wolf"); //test
+        drawNewCard();
     }
     
     public void drawNewCard(){
