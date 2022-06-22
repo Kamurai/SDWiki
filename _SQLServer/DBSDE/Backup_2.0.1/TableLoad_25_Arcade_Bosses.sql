@@ -15,7 +15,7 @@ VALUES (939, 473, -1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (939, 0); --Amethyst
 --GangMemberIndex 619
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (171, 0, 'Bomechan', 'Ijin Riftling', 'Boss', 7, 9, 4, 204);
+VALUES (171, 0, 'Bomechan', 'Ijin Riftling', 'Boss', 7, 9, 4, 554);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (619, 780); --Oni Guards
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (619, 816); --Predator
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (619, 833); --Rampage
@@ -38,7 +38,7 @@ VALUES (940, 473, -1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (940, 4); --Sapphire
 --GangMemberIndex 620
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (172, 0, 'Daemonus', 'Construct', 'Boss', 6, 1, 2, 205);
+VALUES (172, 0, 'Daemonus', 'Construct', 'Boss', 6, 1, 2, 555);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (620, 488); --Bully
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (620, 527); --Dark Defender
 
@@ -55,7 +55,7 @@ VALUES (941, 473, -1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (941, 0); --Amethyst
 --GangMemberIndex 621
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (173, 0, 'Demon Queen Araphel', 'Demon', 'Boss', 6, 9, 4, 206);
+VALUES (173, 0, 'Demon Queen Araphel', 'Demon', 'Boss', 6, 9, 4, 556);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (621, 560); --Do It For Me?
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (621, 767); --My Pretties
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (621, 878); --Sense Weakness
@@ -77,7 +77,7 @@ VALUES (942, 473, -1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (942, 1); --Citrine
 --GangMemberIndex 622
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (174, 0, 'The Destroyer', 'Demon', 'Boss', 8, 8, 4, 207);
+VALUES (174, 0, 'The Destroyer', 'Demon', 'Boss', 8, 8, 4, 557);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (622, 453); --Bane
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (622, 682); --Impale
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (622, 674); --Immune: Fire
@@ -98,7 +98,7 @@ VALUES (943, 473, -1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (943, 0); --Amethyst
 --GangMemberIndex 623
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (175, 0, 'Elrik The Lich King', 'Undead', 'Boss', 6, 10, 4, 208);
+VALUES (175, 0, 'Elrik The Lich King', 'Undead', 'Boss', 6, 10, 4, 558);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (623, 453); --Bane
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (623, 462); --Black Parade
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (623, 538); --Death Lord
@@ -123,7 +123,7 @@ VALUES (944, 473, -1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (944, 2); --Emerald
 --GangMemberIndex 624
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (176, 0, 'Gnomish Excavator', 'Gnome', 'Boss', 4, 8, 4, 209);
+VALUES (176, 0, 'Gnomish Excavator', 'Gnome', 'Boss', 4, 8, 4, 559);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (176, 1094); --Burrow
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (176, 573); --Excessive Armor
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (176, 677); --Immune: Immobile
@@ -145,7 +145,7 @@ VALUES (945, 473, -1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (945, 1); --Citrine
 --GangMemberIndex 625
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (177, 0, 'Guth, The', 'Orc', 'Boss', 8, 8, 4, 210);
+VALUES (177, 0, 'Guth, The', 'Orc', 'Boss', 8, 8, 4, 560);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (625, 706); --Knockdown
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (625, 727); --Massive Damage
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (625, 1095); --Pig Feed
@@ -168,7 +168,7 @@ VALUES (946, 473, -1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (946, 0); --Amethyst
 --GangMemberIndex 626
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (178, 0, 'Hoarfang', 'Dragon', 'Boss', 6, 12, 5, 211);
+VALUES (178, 0, 'Hoarfang', 'Dragon', 'Boss', 6, 12, 5, 561);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (626, 519); --Crush
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (626, 596); --Fly
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (626, 620); --Frosty Imps
@@ -193,7 +193,7 @@ VALUES (947, 473, -1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (947, 1); --Citrine
 --GangMemberIndex 627
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (179, 0, 'Jorogumo', 'Spider', 'Boss', 6, 8, 5, 212);
+VALUES (179, 0, 'Jorogumo', 'Spider', 'Boss', 6, 8, 5, 562);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (627, 642); --Heal X
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (627, 524); --Immune: Poison
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (627, 726); --Massive Damage
@@ -217,7 +217,7 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (948, 2);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (948, 3); --Ruby
 --GangMemberIndex 628
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (180, 0, 'Krampus', 'Faerie', 'Boss', 7, 10, 4, 213);
+VALUES (180, 0, 'Krampus', 'Faerie', 'Boss', 7, 10, 4, 563);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (628, 647); --Hex
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (628, 672); --Immobile
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (628, 773); --Nom Nom Nom
@@ -240,7 +240,7 @@ VALUES (949, 473, -1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (949, 1); --Citrine
 --GangMemberIndex 629
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (181, 0, 'Lord Vulcanis', 'Dark Celestian Giant', 'Boss', 6, 8, 4, 214);
+VALUES (181, 0, 'Lord Vulcanis', 'Dark Celestian Giant', 'Boss', 6, 8, 4, 564);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (629, 570); --Eternal Flame
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (629, 588); --Fire
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (629, 605); --Forge Master
@@ -260,7 +260,7 @@ VALUES (950, 473, -1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (950, 0); --Amethyst
 --GangMemberIndex 630
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (182, 0, 'Midnight Queen, The', 'Human', 'Boss', 6, 7, 3, 215);
+VALUES (182, 0, 'Midnight Queen, The', 'Human', 'Boss', 6, 7, 3, 565);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (630, 647); --Hex
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (630, 1394); --Maddening Maze
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (630, 1449); --My Champion
@@ -278,7 +278,7 @@ VALUES (951, 473, -1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (951, 1); --Citrine
 --GangMemberIndex 631
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (183, 0, 'Mordred the Accursed', 'Undead', 'Boss', 6, 6, 4, 216);
+VALUES (183, 0, 'Mordred the Accursed', 'Undead', 'Boss', 6, 6, 4, 566);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (631, 498); --Challenge
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (631, 706); --Knockdown
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (631, 1046); --Trophies
@@ -298,7 +298,7 @@ VALUES (952, 473, -1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (952, 1); --Citrine
 --GangMemberIndex 632
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (184, 0, 'Mother Noctua', 'Owlbear', 'Boss', 4, 8, 4, 217);
+VALUES (184, 0, 'Mother Noctua', 'Owlbear', 'Boss', 4, 8, 4, 567);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (632, 603); --Forest Blessings
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (632, 844); --Reclamation
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (632, 994); --Deeproot Rage
@@ -318,7 +318,7 @@ VALUES (953, 473, -1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (953, 3); --Ruby
 --GangMemberIndex 633
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (185, 0, 'Mugg', 'Ogre', 'Boss', 6, 6, 3, 218);
+VALUES (185, 0, 'Mugg', 'Ogre', 'Boss', 6, 6, 3, 568);
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (633, 778); --Batters Up!
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (633, 754); --Arrow Storm
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (633, 816); --Blood Is Up, Brother, The
@@ -337,7 +337,7 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (954, 3);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (954, 4); --Sapphire
 --GangMemberIndex 634
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (186, 0, 'Nightsong the Eternal', 'Undead Dragon', 'Boss', 5, 12, 4, 219);
+VALUES (186, 0, 'Nightsong the Eternal', 'Undead Dragon', 'Boss', 5, 12, 4, 569);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (634, 539); --Death Lord
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (634, 596); --Fly
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (634, 668); --Ice
@@ -360,7 +360,7 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (955, 1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (955, 3); --Ruby
 --GangMemberIndex 635
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (187, 0, 'Onibaba', 'Oni', 'Boss', 6, 9, 4, 220);
+VALUES (187, 0, 'Onibaba', 'Oni', 'Boss', 6, 9, 4, 570);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (635, 453); --Bane
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (635, 867); --Scavenger
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (635, 1097); --Feed, My Children
@@ -380,7 +380,7 @@ VALUES (956, 473, -1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (956, 0); --Amethyst
 --GangMemberIndex 636
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (188, 0, 'Onryo', 'Undead Ghost', 'Boss', 6, 8, 4, 221);
+VALUES (188, 0, 'Onryo', 'Undead Ghost', 'Boss', 6, 8, 4, 571);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (636, 453); --Bane
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (636, 629); --Ghost
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (636, 633); --Ghostmancer
@@ -404,7 +404,7 @@ VALUES (957, 473, -1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (957, 1); --Citrine
 --GangMemberIndex 637
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (189, 0, 'Pauper Prince', 'Troll', 'Boss', 5, 9, 4, 222);
+VALUES (189, 0, 'Pauper Prince', 'Troll', 'Boss', 5, 9, 4, 572);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (637, 548); --Dibs
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (637, 672); --Immobile
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (637, 807); --Poison
@@ -426,7 +426,7 @@ VALUES (958, 473, -1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (958, 2); --Emerald
 --GangMemberIndex 638
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (190, 0, 'Professor Cackl-Clink', 'Gnome', 'Boss', 4, 8, 4, 223);
+VALUES (190, 0, 'Professor Cackl-Clink', 'Gnome', 'Boss', 4, 8, 4, 573);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (638, 1094); --Burrow
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (638, 573); --Excessive Armor
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (638, 677); --Immune: Immobile
@@ -448,7 +448,7 @@ VALUES (959, 473, -1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (959, 1); --Citrine
 --GangMemberIndex 639
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (191, 0, 'Starfire', 'Dragon', 'Boss', 8, 10, 3, 224);
+VALUES (191, 0, 'Starfire', 'Dragon', 'Boss', 8, 10, 3, 574);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (639, 588); --Fire
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (639, 596); --Fly
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (639, 674); --Immune: Fire
@@ -469,7 +469,7 @@ VALUES (960, 473, -1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (960, 4); --Sapphire
 --GangMemberIndex 640
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (192, 0, 'Testudo Tower', 'Rocktop', 'Boss', 4, 10, 4, 225);
+VALUES (192, 0, 'Testudo Tower', 'Rocktop', 'Boss', 4, 10, 4, 575);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (640, 487); --Bulldozer
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (640, 681); --Immune: Status Effects
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (640, 1096); --Knockdown
@@ -490,7 +490,7 @@ VALUES (961, 473, -1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (961, 0); --Amethyst
 --GangMemberIndex 641
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (193, 0, 'Thresher, The', 'Construct', 'Boss', 5, 9, 4, 226);
+VALUES (193, 0, 'Thresher, The', 'Construct', 'Boss', 5, 9, 4, 576);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (641, 595); --Flammable
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (641, 649); --Hex
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (641, 728); --Massive Damage
@@ -511,7 +511,7 @@ VALUES (962, 473, -1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (962, 3); --Ruby
 --GangMemberIndex 642
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (194, 0, 'Ugg', 'Ogre', 'Boss', 4, 6, 3, 227);
+VALUES (194, 0, 'Ugg', 'Ogre', 'Boss', 4, 6, 3, 577);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (642, 488); --Bully
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (642, 728); --Massive Damage
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (642, 765); --My Brother!
@@ -532,7 +532,7 @@ VALUES (963, 473, -1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (963, 1); --Citrine
 --GangMemberIndex 643
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (195, 0, 'Ymnaur Wintersson', 'Ice Giant', 'Boss', 4, 1, 4, 228);
+VALUES (195, 0, 'Ymnaur Wintersson', 'Ice Giant', 'Boss', 4, 1, 4, 578);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (643, 668); --Ice
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (643, 676); --Immune: Ice
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (643, 725); --Mark The Path
