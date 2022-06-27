@@ -2452,12 +2452,12 @@ VALUES (1076, 241, 362);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1076, 1); --Citrine
 --GangMemberIndex 826
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (308, 0, 'Dirty Rat', 'Rat', 'Elite', 8, 1, 0, ); --No Dirty Rat in the Warbands file !!
+VALUES (308, 0, 'Dirty Rat', 'Rat', 'Elite', 8, 1, 0, 0); --No Dirty Rat in the Warbands file !!
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (826, 1077); --Yoink!
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (826, 1699); --Sneaky Rat
 --GangMemberIndex 827
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (308, 1, 'Dirty Rat', 'Bonded Rat', 'Elite', 8, 1, 0, ); --No Dirty Rat in the Warbands file !!
+VALUES (308, 1, 'Dirty Rat', 'Bonded Rat', 'Elite', 8, 1, 0, 0); --No Dirty Rat in the Warbands file !!
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (827, 1077); --Yoink!
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (827, 1699); --Sneaky Rat
 
@@ -2558,17 +2558,17 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1081, 1)
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1081, 3); --Ruby
 --GangMemberIndex 834
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (313, 0, 'Tower Marksmen', 'Nether Elf', 'Elite', 7, 1, 1, ); --No Tower Marksmen in the Warbands file
+VALUES (313, 0, 'Tower Marksmen', 'Nether Elf', 'Elite', 7, 1, 1, 0); --No Tower Marksmen in the Warbands file
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (834, 668); --Ice
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (834, 1071); --Enervating Bolt
 --GangMemberIndex 835
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (313, 1, 'Tower Marksmen', 'Nether Elf', 'Elite', 7, 1, 1, ); --No Tower Marksmen in the Warbands file
+VALUES (313, 1, 'Tower Marksmen', 'Nether Elf', 'Elite', 7, 1, 1, 0); --No Tower Marksmen in the Warbands file
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (835, 668); --Ice
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (835, 1071); --Enervating Bolt
 --GangMemberIndex 836
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (313, 2, 'Tower Marksmen', 'Nether Elf', 'Elite', 7, 1, 1, ); --No Tower Marksmen in the Warbands file
+VALUES (313, 2, 'Tower Marksmen', 'Nether Elf', 'Elite', 7, 1, 1, 0); --No Tower Marksmen in the Warbands file
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (836, 668); --Ice
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (836, 1071); --Enervating Bolt
 
