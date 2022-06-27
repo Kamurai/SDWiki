@@ -539,5 +539,3 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (643, 725)
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (643, 845); --Refuge
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (643, 1861); --Travel The Way
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (643, 1754); --Stinging Wind
-
-
