@@ -9608,7 +9608,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (578, 2); --Armor
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (578, 'Boss', 'Super', 4);
 
-5795--SDE
+--SDE
 --2.0
  --Warband Monsters
  
