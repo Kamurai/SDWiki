@@ -1,4 +1,4 @@
-5795--SDE
+--SDE
 --2.0
  --Warband Monsters
  

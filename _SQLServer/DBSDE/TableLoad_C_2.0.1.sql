@@ -15602,10 +15602,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (643, 676)
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (643, 725); --Mark The Path
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (643, 845); --Refuge
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (643, 1861); --Travel The Way
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (643, 1754); --Stinging Wind
-
-
---SDE
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (643, 1754); --Stinging Wind--SDE
 --2.0
  --Warband Gangs
  
