@@ -895,7 +895,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Generic/Corpse_Hand.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Must you bring that thing everywhere?');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1597);
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1597, 'Loot', 'Top', '+1R WILL');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (378, 454); --Bane
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (378, 647); --Hex
 
