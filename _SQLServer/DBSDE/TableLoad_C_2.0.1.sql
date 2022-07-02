@@ -18581,7 +18581,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (867, 758)
 --2.0.1
 --Boss Spawns
 
---Bomechan     --CardIndex 2495   --BossSpawnIndex 10  
+--Bomechan     --CardIndex 1490   --BossSpawnIndex 10  
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Bomechan', 
 'http://htkb.info/SDE/2.0/Cards/Boss_Spawns/Card_Boss_Spawn_Bomechan_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Boss_Spawns/Card_Boss_Spawn_Bomechan_2.0_back.png',
@@ -18589,13 +18589,13 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Boss Spawn', '2.0', '2.0 Core Set', 'Default',   
 'Clan Ijin values strength above all else, and Bomechan is a true daughter of clan Ijin.  She loves a challenge and she seeks to place herself on the Moon Throne, because she sees this as the greatest challenge of all.  When she is not plotting her ascension to the Moon Throne, Bomechan leads Ijin vessels in pirate riads all along the coasts near Devil Island.  Her crew follow her without question, knowing her to be the strongest and therefore most suited to lead.  She is always seen at the very front of the boarding actions, the very first to enter combat, and the very first to claim the spoils of victory.  Bomechan is the pirate queen of the Ijin, and she delights in any challenge from those who would seek to end her reign of piracy and bloodshed.');
 insert into BossSpawns (CardIndex, DungeonEffect, BossSpawnEffect, TimeoutEffect, DifficultyRating) 
-VALUES (2495, '',
+VALUES (1490, '',
 'Spawn one Ijin Oni adjacent to Bomechan.<br><br>For The Pirate Queen!: Ijin Oni gain Frenzy for the remainder of the game. (A model with Frenzy gains +1R on offensive rolls against any model that is suffering a wound.)', 
 'Spawn one Ijin Oni anywhere in the dungeon.',
 '');
 insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (10, 659); --Bomechan
 
---Demon Queen Araphel     --CardIndex 2496   --BossSpawnIndex 11  
+--Demon Queen Araphel     --CardIndex 1491   --BossSpawnIndex 11  
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Demon Queen Araphel', 
 'http://htkb.info/SDE/2.0/Cards/Boss_Spawns/Card_Boss_Spawn_Demon_Queen_Araphel_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Boss_Spawns/Card_Boss_Spawn_Demon_Queen_Araphel_2.0_back.png',
@@ -18603,13 +18603,13 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Boss Spawn', '2.0', '2.0 Core Set', 'Default',   
 'It is rumoured that Araphel was a mentor to the Dark Consul himself, hoping to add him to the ranks of her Devoted. However, in a rare coup it was the Dark Consul who ascended to ultimate power within the Dark Realm. Outwardly, Araphel speaks with derision about the Consul''s betrayal but, privately, Araphel is proud that her student was capable of such delicious trickery. She is the Mistress of Chains and Lady of Deceit, giving aid to any who seek to subvert and control the will of those around them. She aids her old student by spreading rumours and lies through the heart of Crystalia. Her Devoted come from every walk of life, even the clergy of other deities are sometimes the Devoted of Araphel in disguise, working her poison plots from within other houses of worship.');
 insert into BossSpawns (CardIndex, DungeonEffect, BossSpawnEffect, TimeoutEffect, DifficultyRating) 
-VALUES (2496, '',
+VALUES (1491, '',
 'Come, My Loves: Spawn Spiteful Cherubs anywhere in the dungeon until there are four in play.<br><br>Come Hither: All Heroes suffer Compel 2.', 
 'Hold Them!: Spawn one Spiteful Cherub adjacent to each Hero in play.',
 '');
 insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (11, 661); 
 
---Destroyer, The     --CardIndex 2497   --BossSpawnIndex 12  
+--Destroyer, The     --CardIndex 1492   --BossSpawnIndex 12  
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Destroyer, The', 
 'http://htkb.info/SDE/2.0/Cards/Boss_Spawns/Card_Boss_Spawn_Destroyer_The_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Boss_Spawns/Card_Boss_Spawn_Destroyer_The_2.0_back.png',
@@ -18617,13 +18617,13 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Boss Spawn', '2.0', '2.0 Core Set', 'Default',   
 'The Destroyer is a demon lord who lurks in the Nether Rifts. Unlike riftlings who have sacrificed some of their demonic nature in order to remain stable in Crystalia, The Destroyer is a pure demon who considers those who make such a choice to be corrupted and weak. Rather than adapting himself to Crystalia, he seeks to adapt Crystalia around himself. The Nether Rifts are only the beginning. He seeks to see all of Crystalia become like the Rifts and then set about swallowing it entirely into the demonic realm.<br></br>He considers Crystalia and those who dwell there as weak and corrupted, even his riftling cousins. With his mighty axe and demonic flames, he will purge the corruption from this world and remake it, forged in demonic flames.<br></br>The Destroyer meets weakness with rage, and leaves only ash in his wake.');
 insert into BossSpawns (CardIndex, DungeonEffect, BossSpawnEffect, TimeoutEffect, DifficultyRating) 
-VALUES (2497, '',
+VALUES (1492, '',
 'Demonic Possession: The Consul selects a Hero to be possessed. The possessed Hero is controlled by the Consul and counts as an 8-Bit monster worth three skull points for all purposes. It activates on the Consul turn and may not use other Heroes'' potions or equipment. If the possessed Hero is destroyed it permanently returns to the control of the party. The Hero''s original controller brings it back into play during that turn''s power-up adjacent to any other Hero without spending a Princess Coin.', 
 'Your Goddess Has Forsaken You: All enemy Heroes discard all spent Princess Coins from their cards. All enemy Heroes without Princess Coins to discard suffer one wound.',
 'Difficulty Rating 3: If the party is unable to beat this boss with the usual number of Princess Coins, they may add 3 additional Princess Coins the next time they face this boss.');
 insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (12, 662); 
 
---Elrik The Lich King     --CardIndex 2498   --BossSpawnIndex 13  
+--Elrik The Lich King     --CardIndex 1493   --BossSpawnIndex 13  
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Elrik The Lich King', 
 'http://htkb.info/SDE/2.0/Cards/Boss_Spawns/Card_Boss_Spawn_Elrik_The_Lich_King_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Boss_Spawns/Card_Boss_Spawn_Elrik_The_Lich_King_2.0_back.png',
@@ -18631,13 +18631,13 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Boss Spawn', '2.0', '2.0 Core Set', 'Default',   
 'Deep in the frozen wastes of Frostbyte Reach, an undying army readies for battle. Weapons clash against shields. Warcries are carried on the chill wind. And an army of the undead prepares to march on Crystalia.<br></br>It can be argued that Elrik was the first threat to Crystalia. Rising before the Dark Consul, Elrik was Reaver King of unmatched ferocity, skill, and cunning. Tapping the magicks of the Dark Realm he bolstered his already formidable power through the curse of undeath, becoming a terrifying lich. Now the Lich King stirs within his hall once more, preparing to unleash his draugr warriors across the land and restore his glory of old.');
 insert into BossSpawns (CardIndex, DungeonEffect, BossSpawnEffect, TimeoutEffect, DifficultyRating) 
-VALUES (2498, '',
+VALUES (1493, '',
 'Soul Jar: Place three potion tokens on Elrik. Elrik gains potions when winning offense rolls AND defense rolls. For the remainder of the game, after making a roll, Elrik may spend one potion token to reroll one die. Only a single die per roll may be rerolled.<br><br>Welcome To The Black Parade: Spawn two Curse Ravens adjacent to the spawning point icon on the third tile.', 
 'Death Curse: Roll 1B. The Consul may inflict a number of wounds on the Heroes equal to the number of stars rolled. The wounds must be distributed as evenly as possible.<br><br>The Parade Marches On: Spawn two Curse Ravens adjacent to the spawning point on the second tile.',
 '');
 insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (13, 663); 
 
---Gnomish Excavator     --CardIndex 2499   --BossSpawnIndex 14  
+--Gnomish Excavator     --CardIndex 1494   --BossSpawnIndex 14  
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Gnomish Excavator', 
 'http://htkb.info/SDE/2.0/Cards/Boss_Spawns/Card_Boss_Spawn_Gnomish_Excavator_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Boss_Spawns/Card_Boss_Spawn_Gnomish_Excavator_2.0_back.png',
@@ -18645,13 +18645,13 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Boss Spawn', '2.0', '2.0 Core Set', 'Default',   
 'Gnomes are not a subtle people, and their approach to mining reflects this. They frequently employ giant, steam-powered "excavator" that blow chunks of mountainside away with a huge cannon, leaving rubble that can be sorted through later. After all, anything that didn''t survive the blast probably wasn''t worth excavating anyway.<br></br>The cannon uses specialized ammo built from crystal, with different crystals used for various purposes. Citrine shells for busting through hard granite, emerald shells for expanding and blowing away huge chunks of limestone in one go. But gnomes are prone to hyper-focusing on the task at hand, and are known to sometimes leave their explosive ammunition strewn about their work site. Work safety is not a gnomish priority.<br></br>On occasion, a wayward band of Heroes will fall afoul of an Excavator. Sometimes the driver has fallen and been seduced by the Dark Consul. Sometimes the gnome is so focused on his task that he is willing to blow away any who come between him and his obsession. And sometimes he simply mistakes the Heroes for crystal thieves and can''t hear their pleas to the contrary due to cannon-induced hearing loss.');
 insert into BossSpawns (CardIndex, DungeonEffect, BossSpawnEffect, TimeoutEffect, DifficultyRating) 
-VALUES (2499, '',
+VALUES (1494, '',
 'Ammo Dump: The Consul places six crystal shell tokens anywhere in the dungeon. These tokens may not be placed within three squares of another crystal shell token.<br></br>All Heroes gain the following action for the duration of this Boss Fight: 1R Firing Pin: Range 6, Massive Damage. This model must discard a crystal shell token from the square it is occupying in order to take this action.', 
 'Cave-In: Each Hero must choose to suffer either two wounds or Immobile.',
 '');
 insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (14, 664); 
 
---Guth, The     --CardIndex 2500   --BossSpawnIndex 15  
+--Guth, The     --CardIndex 1495   --BossSpawnIndex 15  
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Guth, The', 
 'http://htkb.info/SDE/2.0/Cards/Boss_Spawns/Card_Boss_Spawn_Guth_The_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Boss_Spawns/Card_Boss_Spawn_Guth_The_2.0_back.png',
@@ -18659,13 +18659,13 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Boss Spawn', '2.0', '2.0 Core Set', 'Default',   
 'Leading a charge of Frostbyte Ravagers through Barrel Roll Pass, The Guth''s speed and ferocity soon saw him outdistance his horde, isolated, and cutoff. Always choosing to go forward, The Guth carved his wasy to Clockwork Cove. Upon reaching the Undercove, he found the claustrophobic subterranean confines surprisingly delightful and soon began a merry hunt terrorizing the denizens.<br><br>Initially, his rampage ran afoul of The Pauper Prince''s gangs, Scrap Guild, and other feudal lords of the Undercove. But as he fought, the more anarchic and warlike inhabitants flocked to his banner and The Guth quickly established his own fiefdom below. Now, The Guth will occasionally cooperate with rival Undercove bosses, so long as the arrangement satisfies his primary concerns -- that the battle never ends and that his stable of prize hogs are given ample opportunity to feed on the results of the carnage.');
 insert into BossSpawns (CardIndex, DungeonEffect, BossSpawnEffect, TimeoutEffect, DifficultyRating) 
-VALUES (2500, '',
+VALUES (1495, '',
 'Get ''em Boys: Spawn four spikers. Starting with the Consul, the Consul and the Party alternate placing Spikers on the dungeon until all four are placed. Spikers may not be placed within three squares of another Spiker or in the first tile.', 
 'WAAAAAAAAAAAAAAAAAGGHHH!!!: Place a Battle Frenzy token on every Orc, Goblin, and Gnoll except the dungeon boss. When a model would suffer one or more damage, it may discard a Battle Frenzy token to reduce the damage to zero.',
 '');
 insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (15, 665); 
 
---Hoarfang     --CardIndex 2501   --BossSpawnIndex 16  
+--Hoarfang     --CardIndex 1496   --BossSpawnIndex 16  
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Hoarfang', 
 'http://htkb.info/SDE/2.0/Cards/Boss_Spawns/Card_Boss_Spawn_Hoarfang_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Boss_Spawns/Card_Boss_Spawn_Hoarfang_2.0_back.png',
@@ -18673,13 +18673,13 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Boss Spawn', '2.0', '2.0 Core Set', 'Default',   
 '');  --!! unavailable !!
 insert into BossSpawns (CardIndex, DungeonEffect, BossSpawnEffect, TimeoutEffect, DifficultyRating) 
-VALUES (2501, '',
+VALUES (1496, '',
 '???: Spawn Frost Imps within three squares of the dungeon boss until there are six Frost Imps in play.', --!! unavailable !!
 'Tiny Cold Hands: Spawn one Frost Imp adjacent to each Hero, up to a maximum of six Frost Imps in play.',
 'Difficulty Rating 3: If the party is unable to beat this boss with the usual number of Princess Coins, they may add 3 additional Princess Coins the next time they face this boss.');
 insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (16, 666); 
 
---Jorogumo     --CardIndex 2502   --BossSpawnIndex 17  
+--Jorogumo     --CardIndex 1497   --BossSpawnIndex 17  
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Jorogumo', 
 'http://htkb.info/SDE/2.0/Cards/Boss_Spawns/Card_Boss_Spawn_Jorogumo_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Boss_Spawns/Card_Boss_Spawn_Jorogumo_2.0_back.png',
@@ -18687,13 +18687,13 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Boss Spawn', '2.0', '2.0 Core Set', 'Default',   
 'A horror, a cautionary tale, and a powerful opponent; the spider women called Jorogumo are terrifying and beautiful. They are descended from a witch. Centuries ago, she haunted the rivers and lakes of Kagejima and rescued the unwary or unfortunate from drowning. Full of kind words, she helped them to her home, and gave them dry clothes and warm soup. Slowly, she poisoned them, wrapped them in paralyzing power, and used them for dark and terrible spells. The magics she worked were too much for the land to bear, and Kagejima itself cursed this wicked woman with a shape that evoked her horrid nature. This terrible judgment carried to her offspring, who came to bear her form and her name. Now they plague Kagejima, luring the unsuspecting into their lairs and pouncing on unwary travelers.');
 insert into BossSpawns (CardIndex, DungeonEffect, BossSpawnEffect, TimeoutEffect, DifficultyRating) 
-VALUES (2502, '',
+VALUES (1497, '',
 'The Spider''s Trap: The dungeon boss immediately performs a full activation.', 
 'Poisonous Mist: All Heroes suffer POISON.',
 '');
 insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (17, 667); 
 
---Krampus     --CardIndex 2503   --BossSpawnIndex 18  
+--Krampus     --CardIndex 1498   --BossSpawnIndex 18  
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Krampus', 
 'http://htkb.info/SDE/2.0/Cards/Boss_Spawns/Card_Boss_Spawn_Krampus_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Boss_Spawns/Card_Boss_Spawn_Krampus_2.0_back.png',
@@ -18701,13 +18701,13 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Boss Spawn', '2.0', '2.0 Core Set', 'Default',   
 'The winter solstice is a time of gathering and celebration for the people of Crystalia. Warm around their hearths, sipping warm mugs, they wait for Kringle to bring gifts for the good girls and boys.<br></br>But for the naughty citizens of Crystalia, the winter solstice is a time to turn out the lights, hide under the bed, and beg the Goddess that the Krampus does not find them. The Krampus is a mighty faerie from the far North, his gaping maw the last thing that no-good tricksters ever see.<br></br>He sees you when you''re sleeping. He knows when you''re awake. You had best start running, for goodness sake.');
 insert into BossSpawns (CardIndex, DungeonEffect, BossSpawnEffect, TimeoutEffect, DifficultyRating) 
-VALUES (2503, '',
+VALUES (1498, '',
 'Caught Red Handed: The Consul selects one Hero that is not on Kringle''s Nice List. The selected Hero shapeshifts into a Naughty of the Consul''s choice.', 
 'Run Free, Children!: Target Naughtie performs up to three moves and one basic attack action controlled by the Consul. If there are no Naughties in play, any Hero may be chosen instead.',
 '');
 insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (18, 668); 
 
---Lord Vulcanis     --CardIndex 2504   --BossSpawnIndex 19  
+--Lord Vulcanis     --CardIndex 1499   --BossSpawnIndex 19  
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Lord Vulcanis', 
 'http://htkb.info/SDE/2.0/Cards/Boss_Spawns/Card_Boss_Spawn_Lord_Vulcanis_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Boss_Spawns/Card_Boss_Spawn_Lord_Vulcanis_2.0_back.png',
@@ -18715,13 +18715,13 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Boss Spawn', '2.0', '2.0 Core Set', 'Default',   
 'Vulcanis fell from the Light before even the Dark Consul. A master smith upon the floating olyentos of Celestia, he crafted items of exquisite beauty and quality to adorn the wealthy and powerful. While those he served pursued the arts, philosophy, and knowledge, Vulcanis saw only the softening of the Celestian people. To him, they were a people too soft to take their rightful place as rulers of all Crystalia.<br><br>In secret he began to craft fell weapons of war, and gather like-minded celestians to his cause. By the time of rise of the Dark Consul, Vulcanis and his followers had already gained significant power within the rulng chambers of Celestia. Vulcanis readily threw his support behind the Dark Consul. As he and his follower embraced the darkness, so did they fall. Their wings burned to ash upon their backs and their skin turned as hard and stoney as their hearts.<br><br>Now, Vulcanis lords over arguably the strongest military forces within all the realms. Disciplined, trained, and battle-hardened through centuries of conflict, his Dark Celestian Legion only waits for the the opportune moment to strike!');
 insert into BossSpawns (CardIndex, DungeonEffect, BossSpawnEffect, TimeoutEffect, DifficultyRating) 
-VALUES (2504, '',
+VALUES (1499, '',
 'Armory: Equip three Relic Items (in addition to any equipped due to remaining spawning points).<br><br>Apprenticeships: Spawn six Forge Gnomes; one within two squares of each dungeon exit in the first tile and one within two squares of each dungeon exit in the last tile.', 
 'Scrap Metal: All Heroes must randomly discard an equipped loot card, if able.',
 '');
 insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (19, 669); 
 
---Midnight Queen, The     --CardIndex 2505   --BossSpawnIndex 20  
+--Midnight Queen, The     --CardIndex 1500   --BossSpawnIndex 20  
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Midnight Queen, The', 
 'http://htkb.info/SDE/2.0/Cards/Boss_Spawns/Card_Boss_Spawn_Midnight_Queen_The_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Boss_Spawns/Card_Boss_Spawn_Midnight_Queen_The_2.0_back.png',
@@ -18729,13 +18729,13 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Boss Spawn', '2.0', '2.0 Core Set', 'Default',   
 'The origins of the Midnight Queen are a mystery; indeed, exactly when she took on her dark mantle of rulership is unknown. Her background, place of birth, or the history of how she became the Dark Consul''s thrall are all complete blanks. What is known, however, is that she is magically potent, ambitious, and possessed of a horrifyingly twisted and shockingly organized mind. This alone makes her one of the most dangerous enemies of the Goddess.<br><br>Knowledge of the Midnight Queen has spurred literallly hundreds of expeditions to the Midnight Tower over the years. The Midnight Queen has shown her power and intelligence against every Hero who has dared her lair. Her malign influence has only heightened the danger of a place that the Dark Consul''s spirit had already twisted so horribly.');
 insert into BossSpawns (CardIndex, DungeonEffect, BossSpawnEffect, TimeoutEffect, DifficultyRating) 
-VALUES (2505, '',
+VALUES (1500, '',
 'Daemonus: If Daemonus is not in play, spawn Daemonus within six squares of the Midnight Queen.<br><br>Bewitching Song: The Consul may move all Heroes 3 squares, using the rules for Compel.', 
 'Daemonus: If Daemonus is not in play, spawn Daemonus within six squares of the Midnight Queen.<br><br>Do Not Fight: All Heroes suffer Hex.',
 '');
 insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (20, 670); 
 
---Mordred the Accursed     --CardIndex 2506   --BossSpawnIndex 21  
+--Mordred the Accursed     --CardIndex 1501   --BossSpawnIndex 21  
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Mordred the Accursed', 
 'http://htkb.info/SDE/2.0/Cards/Boss_Spawns/Card_Boss_Spawn_Mordred_the_Accursed_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Boss_Spawns/Card_Boss_Spawn_Mordred_the_Accursed_2.0_back.png',
@@ -18743,13 +18743,13 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Boss Spawn', '2.0', '2.0 Core Set', 'Default',   
 'Mordred was the greatest champion of the Bramble Knights. Privy to The Forgotten King''s evil schemes, Mordred gave himself to the Dark Consul long before the chimeric curse transformed his brethren. He whispered in the Forgotten King''s ear, encouraging and welcoming the treacherous rebellion. He escaped the curse that fell upon his men because he was destroyed by a group of mighty heroes in the final battle, only to be raised by the power of the Dark Consul to fight on.<br><br>Now he seeks out champions of Crystalia, challenging them to single combat, hoping to seek revenge on the ones who slayed him. Those champions who fall are "reborn" as ghostflame skulls, a ghastly trophy enslaved to Mordred''s foul purpose. They cackle and taunt those who dare to challenge their master, still speaking in the same voices they had in life.<br><br>Many have caught glimpses of Mordred riding through the Fae Wood on moonless knights, his Ghostflames floating behind him, searching out his next challenge.');
 insert into BossSpawns (CardIndex, DungeonEffect, BossSpawnEffect, TimeoutEffect, DifficultyRating) 
-VALUES (2506, '',
+VALUES (1501, '',
 'Skulls of the Fallen: Spawn six Ghostflames: two adjacent to each SPAWNPOINT square on the first, second, and third tiles. Whenever a Hero is destroyed, spawn one Ghostflame adjacent to any SPAWNPOINT (up to a maximum of six Ghostflames in play).', 
 'Charge Through: All Heroes immediately suffer a melee attack with 5R STR, regardless of range and Line of Sight.',
 'Difficulty Rating 1: If the party is unable to beat this boss with the usual number of Princess Coins, they may add 1 additional Princess Coin the next time they face this boss.');
 insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (21, 671); 
 
---Mother Noctua     --CardIndex 2507   --BossSpawnIndex 22  
+--Mother Noctua     --CardIndex 1502   --BossSpawnIndex 22  
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Mother Noctua', 
 'http://htkb.info/SDE/2.0/Cards/Boss_Spawns/Card_Boss_Spawn_Mother_Noctua_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Boss_Spawns/Card_Boss_Spawn_Mother_Noctua_2.0_back.png',
@@ -18757,13 +18757,13 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Boss Spawn', '2.0', '2.0 Core Set', 'Default',   
 'Deep in the Fae Wood lurks Mother Noctua. The elves have told stories about her going back generations. A great owlbear, spiritual mother to all creatures of the forest, and guardian of its trees. She was said to be fearsome and fickle, but benevolent to those who treated her forest with respect. She was hatched from the very first Deeproot Acorn, and she embodied the might and fury of the Fae Wood itself. As the stories go, she slumbered deep in the wood, only waking during times of great strife.<br><br>When the Nether Rifts swallowed part of the Fae Wood, a scream was heard that echoed through the entire forest. It was blood-curdling and ferocious, pain and sorrow and vengeance all wrapped into one. Mother Noctua had awakened to the deep wound that had been gashed into her lovely wood. Always fearsome, any benevolence in Mother Noctua died that day. Now she defends the Fae Wood against any who do not belong there with all of the fury of a mother defending her children.');
 insert into BossSpawns (CardIndex, DungeonEffect, BossSpawnEffect, TimeoutEffect, DifficultyRating) 
-VALUES (2507, '',
+VALUES (1502, '',
 'The Forest Awakens: The Consul may spawn up to 4 skull points of monsters from the spawning pool anywhere in the dungeon.', 
 'The Forest''s Vengeance: This effect does not occur during Boss Sightings. For the remainder of the game, all monsters except for Mother Noctua gain +1R to all rolls.<br><br>Furious Bloom: This effect only occurs during Boss Sightings. The Consul may spawn up to 4 skull points of monsters from the spawning pool in each tile affected by the Boss Sighting. These monsters may spawn anywhere in the tile.',
 'Difficulty Rating 2: If the party is unable to beat this boss with the usual number of Princess Coins, they may add 2 additional Princess Coins the next time they face this boss.');
 insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (22, 672); 
 
---Nightsong the Eternal     --CardIndex 2508   --BossSpawnIndex 23  
+--Nightsong the Eternal     --CardIndex 1503   --BossSpawnIndex 23  
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Nightsong the Eternal', 
 'http://htkb.info/SDE/2.0/Cards/Boss_Spawns/Card_Boss_Spawn_Nightsong_the_Eternal_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Boss_Spawns/Card_Boss_Spawn_Nightsong_the_Eternal_2.0_back.png',
@@ -18771,13 +18771,13 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Boss Spawn', '2.0', '2.0 Core Set', 'Default',   
 'Once a proud Emerald Dragon, Nightsong''s woodland home was devoured by the formation of the Nether Rifts. Cast into the Dark Realm, he simply refused to die. Now a twisted mockery of his ancient majesty, Nightsong has crawled from the Rifts, animated by his dread will alone.<br><br>Nightsong does not serve the Dark Consul. He does not defend Crystalia. Nightsong serves only himself, and he will not die on anyone else''s terms. If he is cursed to live this twilight between life and death, then the rest of Crystalia must suffer it with him, Goddess and Dark Consul alike. He seeks to turn everything around him into an abomination in his own image. With him come hordes of undead terrors, once more given life to wreak terror upon the land.<br><br>Nightsong is a champion of the undead, and where he dwells, those who share his curse are emboldened and given strength.');
 insert into BossSpawns (CardIndex, DungeonEffect, BossSpawnEffect, TimeoutEffect, DifficultyRating) 
-VALUES (2508, '',
+VALUES (1503, '',
 'Undead Horde: Spawn 4 Kodeads within four squares of Nightsong the Eternal.', 
 'Children of Decay: The Consul selects a Hero and spawns a Kodead adjacent to it. Repeat this until a Kodead has spawned adjacent to each Hero or there are six Kodeads in play.',
 'Difficulty Rating 1: If the party is unable to beat this boss with the usual number of Princess Coins, they may add 1 additional Princess Coins the next time they face this boss.');
 insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (23, 674); 
 
---Onibaba     --CardIndex 2509   --BossSpawnIndex 24  
+--Onibaba     --CardIndex 1504   --BossSpawnIndex 24  
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Onibaba', 
 'http://htkb.info/SDE/2.0/Cards/Boss_Spawns/Card_Boss_Spawn_Onibaba_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Boss_Spawns/Card_Boss_Spawn_Onibaba_2.0_back.png',
@@ -18785,13 +18785,13 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Boss Spawn', '2.0', '2.0 Core Set', 'Default',   
 'As a mortal, Onibaba would lure stragglers from battles into her traps, finish them off, and sell their possessions. One night, however, she pulled a finely crafted mask from a dark and terrible samurai, and slipped it on over her face. In that instant, the dark power from within the mask touched the festering rot in her soul and consumed her. Soon the mortal hag was infested by an ageless, devouring horror that has stalked Kagejima''s places of slaughter ever since.<br><br>Together, the hag and spirit that inhabits her have retained the name of Onibaba. The spirit has kept Onibaba''s human habits, amplifying those inclinations that were dark and murderous. Those who have ventured close to her and lived have heard her muttering to herself, sometimes in argument, other times laughing ominously. She still lures straggler and wanderers into malicious traps, dispatching them for trinkets she no longer has need or want for.');
 insert into BossSpawns (CardIndex, DungeonEffect, BossSpawnEffect, TimeoutEffect, DifficultyRating) 
-VALUES (2509, '',
+VALUES (1504, '',
 'Scavenger: The Consul selects up to two loot from the discard pile or backpack and equips them to Onibaba.', 
 'Battle Without End: If no mini-boss is in play, spawn a mini-boss selected for this game adjacent to target Hero. The mini-boss immediately suffers three wounds. Heroes do not draw treasure for destroying this mini-boss.',
 'Difficulty Rating 1: If the party is unable to beat this boss with the usual number of Princess Coins, they may add 1 additional Princess Coins the next time they face this boss.');
 insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (24, 675); 
 
---Onryo     --CardIndex 2510   --BossSpawnIndex 25  
+--Onryo     --CardIndex 1505   --BossSpawnIndex 25  
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Onryo', 
 'http://htkb.info/SDE/2.0/Cards/Boss_Spawns/Card_Boss_Spawn_Onryo_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Boss_Spawns/Card_Boss_Spawn_Onryo_2.0_back.png',
@@ -18799,13 +18799,13 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Boss Spawn', '2.0', '2.0 Core Set', 'Default',   
 'Sometimes, the dead cannot rest. People who die in terror, in rage, in great pain often cannot move on. Their passions become heavy with the spiritual element and cannot escape the pull of this world. In a land as laden with shadows and daggers as Kagejima, this tragedy befalls far too many, including Onryo. A youg girl hated when she should have been loved, cursed when she should have been nurtured, drowned when she should have been saved, Onryo''s vengeful spirit haunts the meres and moors surrounding the place of her death. She torments without rest any travelers who come near or those who remind her of the family that murdered her. Far too many have followed her distant, phantom figure flickering between trees and joined her small bones in a black and lonely pool.');
 insert into BossSpawns (CardIndex, DungeonEffect, BossSpawnEffect, TimeoutEffect, DifficultyRating) 
-VALUES (2510, '',
+VALUES (1505, '',
 'Count of Seven: When Onryo spawns, begin tracking the number of Hero activations that occur during the Boss Fight. At the end of the seventh activation, remove one Princess Coin from the backpack. Then begin the count again.', 
 'Lantern Curse: Spawn two Chochin-Obake in any open doorway.',
 'Difficulty Rating 2: If the party is unable to beat this boss with the usual number of Princess Coins, they may add 2 additional Princess Coins the next time they face this boss.');
 insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (25, 676); 
 
---Pauper Prince     --CardIndex 2511   --BossSpawnIndex 26  
+--Pauper Prince     --CardIndex 1506   --BossSpawnIndex 26  
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Pauper Prince', 
 'http://htkb.info/SDE/2.0/Cards/Boss_Spawns/Card_Boss_Spawn_Pauper_Prince_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Boss_Spawns/Card_Boss_Spawn_Pauper_Prince_2.0_back.png',
@@ -18813,13 +18813,13 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Boss Spawn', '2.0', '2.0 Core Set', 'Default',   
 'When asked about his origins, the Pauper Prince smiles slyly beneath the brim of his hat and begins one of a hundred tales. He claims that each one contains the truth, if the listener is only clever enough to find it. Whatever that truth may be, the Pauper Prince''s ragtag hordes of orcs, goblins, constructs, and other ne''er-do-wells have consolidated the Undercove''s gangs and installed the Pauper Prince as the master of a vast criminal underworld.<br><br>Seeking to shatter the growing threat a united Undercove represents to Clockwork Cove, the governors of Ariels have set increasinlgly higher bounties calling for the Prince''s removal. However, more than one adventuring party has been defeated by underestimating the Prince as a mere troll.');
 insert into BossSpawns (CardIndex, DungeonEffect, BossSpawnEffect, TimeoutEffect, DifficultyRating) 
-VALUES (2511, '',
+VALUES (1506, '',
 'Rat Pack: Spawn four Dirty Rats within three squares of the Pauper Prince.<br><br>A Prince''s Due: Remove all spent Princess Coins from all Heroes'' cards.', 
 'Rat Swarm: Spawn four Dirty Rats in any open doorway.',
 '');
 insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (26, 677); 
 
---Professor Cackle-Clink     --CardIndex 2512   --BossSpawnIndex 27  
+--Professor Cackle-Clink     --CardIndex 1507   --BossSpawnIndex 27  
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Professor Cackle-Clink', 
 'http://htkb.info/SDE/2.0/Cards/Boss_Spawns/Card_Boss_Spawn_Professor_Cackle_Clink_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Boss_Spawns/Card_Boss_Spawn_Professor_Cackle_Clink_2.0_back.png',
@@ -18827,13 +18827,13 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Boss Spawn', '2.0', '2.0 Core Set', 'Default',   
 'Gnomes are not a subtle people, and their approach to mining reflects this. They frequently employ giant, steam-powered "excavators" that blow chunks of mountainside away with a huge cannon, leaving rubble that can be sorted through later. After all, anything that didn''t survive the blast probably wasn''t worth excavating anyway.<br><br>The cannon uses specialized ammo built from crystal, with different crystals used for various purposes. Citrine shells for busting through hard granite, emerald shells for expanding and blowing away huge chucks of limestone in one go. But gnomes are prone to hyper-focusing on the task at hand, and are known to sometimes leave their explosive ammunition strewn about their work site. Work safety is not a gnomish priority.<br><br>On occasion, a wayward band of Heroes will fall afoul of an Excavator. Sometimes the driver has fallen and been seduced by the Dark Consul. Sometimes the gnome is so focused on his task that he is willing to blow away any who come between him and his obsession. And sometimes he simply mistakes the Heroes for crystal thieves and can''t hear their pleas to the contrary due to cannon-induced hearing loss.');
 insert into BossSpawns (CardIndex, DungeonEffect, BossSpawnEffect, TimeoutEffect, DifficultyRating) 
-VALUES (2512, '',
+VALUES (1507, '',
 'Ammo Dump: The Consul places six crystal shell tokens anywhere in the dungeon. These tokens may not be placed within three squares of another crystal shell token.<br><br>All Heroes gain the following action for the duration of this Boss Fight:<br><br>1R Firing Pin: Range 6, Massive Damage. This model must discard a crystal shell token from the square it is occupying in order to take this action.', 
 'Cave-In: Each Hero must choose to suffer either two wounds or Immobile',
 '');
 insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (27, 678);
 
---Starfire     --CardIndex 2513   --BossSpawnIndex 28  
+--Starfire     --CardIndex 1508   --BossSpawnIndex 28  
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Starfire', 
 'http://htkb.info/SDE/2.0/Cards/Boss_Spawns/Card_Boss_Spawn_Starfire_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Boss_Spawns/Card_Boss_Spawn_Starfire_2.0_back.png',
@@ -18841,13 +18841,13 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Boss Spawn', '2.0', '2.0 Core Set', 'Default',   
 'Some sages claim that Starfire was the first dragon corrupted by the Dark Consul, that he succumbed to evil while he slumbered. The danger posed by Starfire is greater than his own considerable strength and prowess. His domination of the kobolds that spilled through the Nether Rifts into Crystalia speaks to his foresight, knowing they would be useful and project his power further than he could alone. His creation of the dragon cults, however, was a stroke of true genious. In the cults, he gave the kobolds a cause - a deity - to rally and inspiration them, and created a focus for veneration that weakened the fabric of Crystalia to bring in still more monsters. Starfire has reaped the benefits of this for centuries, vastly increasing his personal power and allowing him to dominate the Dragonbacks. His kobolds patrol the entire range, and his minions attack settlements and strongholds throughout Crystalia.');
 insert into BossSpawns (CardIndex, DungeonEffect, BossSpawnEffect, TimeoutEffect, DifficultyRating) 
-VALUES (2513, '',
+VALUES (1508, '',
 'Burning Blades: All elite and minion monsters gain the ability FIRE.', 
 'Fire Storm: All Heroes suffer FIRE.',
 '');
 insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (28, 679); 
 
---Testudo Tower     --CardIndex 2514   --BossSpawnIndex 29  
+--Testudo Tower     --CardIndex 1509   --BossSpawnIndex 29  
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Testudo Tower', 
 'http://htkb.info/SDE/2.0/Cards/Boss_Spawns/Card_Boss_Spawn_Testudo_Tower_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Boss_Spawns/Card_Boss_Spawn_Testudo_Tower_2.0_back.png',
@@ -18855,13 +18855,13 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Boss Spawn', '2.0', '2.0 Core Set', 'Default',   
 ''); --!! unavailable !!
 insert into BossSpawns (CardIndex, DungeonEffect, BossSpawnEffect, TimeoutEffect, DifficultyRating) 
-VALUES (2514, '',
+VALUES (1509, '',
 'Out of Your Shell: Replace each Turtle Shell model on the dungeon with a Rocktop model from the spawning pool with a skull value of 2 or less.<br><br>Rock Up: All Rocktops gain Immune: Status Effects', 
 'Bumper Shell: Make a Melee Attack against every Hero in the dungeon, regardless of its location. Any model which is wounded must discard one equipped equipment card.',
 '');
 insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (29, 680); 
 
---Thresher, The     --CardIndex 2515   --BossSpawnIndex 30  
+--Thresher, The     --CardIndex 1510   --BossSpawnIndex 30  
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Thresher, The', 
 'http://htkb.info/SDE/2.0/Cards/Boss_Spawns/Card_Boss_Spawn_Thresher_The_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Boss_Spawns/Card_Boss_Spawn_Thresher_The_2.0_back.png',
@@ -18869,13 +18869,13 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Boss Spawn', '2.0', '2.0 Core Set', 'Default',   
 'The machinations of the Dark Consul are varied and complex. No one expected such bold attacks in the heart of civilization, above ground and out of the dungeons. And at the very center of the corruption and pestilence is the Thresher.<br><br>Said to have been born of the malice of a Dark Kodama Bitter Root. A carved token of wood from such a tree was all the anger needed to provide a gateway for the Dark Consul to work his evil magic. And thus, was the Thresher born. The towering construct of straw and timbers seems to drag itself along, wielding a monstrous enchanted flail.<br><br>To encounter a Thresher is to feel your very courage sapped away from you. You do not fight a living beast, prone to anger or rage, only the cold machinations of an evil will placed on an inanimate puppet. Your bravery, your courageous challenges, will count for nothing more than the mulch you will be buried in should you fail.');
 insert into BossSpawns (CardIndex, DungeonEffect, BossSpawnEffect, TimeoutEffect, DifficultyRating) 
-VALUES (2515, '',
+VALUES (1510, '',
 'The Sky Blackens: Spawn 2 Underdead Crows within 4 squares of The Thresher.', 
 'Go For The Eyes!: Spawn 1 Underdead Crow adjacent to each Hero, until there is a maximum of 4 Underdead Crows in play.',
 '');
 insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (30, 681); 
 
---Ugg     --CardIndex 2516   --BossSpawnIndex 31  
+--Ugg     --CardIndex 1511   --BossSpawnIndex 31  
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ugg', 
 'http://htkb.info/SDE/2.0/Cards/Boss_Spawns/Card_Boss_Spawn_Ugg_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Boss_Spawns/Card_Boss_Spawn_Ugg_2.0_back.png',
@@ -18883,7 +18883,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Boss Spawn', '2.0', '2.0 Core Set', 'Default',   
 ''); --!! unavailable !!
 insert into BossSpawns (CardIndex, DungeonEffect, BossSpawnEffect, TimeoutEffect, DifficultyRating) 
-VALUES (2516, '',
+VALUES (1511, '',
 'My Brother!: When Ugg is spawned, also spawn Mugg adjacent to the SPAWNPOINT on the first tile (moving any models necessary to place him). Mugg also counts as a Dungeon Boss and the Heroes do not win until both Dungeon Bosses are destroyed. Time Out is reached when one of the Dungeon Bosses is destroyed.', 
 'A Storm Of Rage And Grief: All Heroes must roll their STR. Any Heroes that roll 3 or fewer stars suffer KNOCKDOWN. Then, if Ugg or Mugg is in play, the remaining Dungeon Boxx immediately performs a full activation (this may interrupt the Heroes'' turn).',
 'Difficulty Rating 1: If the party is unable to beat this boss with the usual number of Princess coins, they may add 1 additional Princess Coins the next time they face this boss.');
@@ -18892,934 +18892,934 @@ insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (31, 68
 
 
 --2.0 Equipment
---Accursed Longsword --CardIndex 2517 --EquipmentIndex 293
+--Accursed Longsword --CardIndex 1512 --EquipmentIndex 293
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Accursed Longsword',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Generic/Card_Treasure_Accursed_Longsword_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Generic/Accursed_Longsword.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'I slew a demon with it, and the flames of the nether forever touched it...');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2517, 'Treasure', 'Right', '+1G STR');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1512, 'Treasure', 'Right', '+1G STR');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (293, 453); --Bane
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (293, 727); --Accursed Cut
 
---Adventurer Plate --CardIndex 2518 --EquipmentIndex 294
+--Adventurer Plate --CardIndex 1513 --EquipmentIndex 294
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Adventurer Plate',
 'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Adventurer_Plate_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Loot/Adventurer_Plate.xhtml', 
 'Loot', '2.0', '2.0 Core Set', 'Default',
 'This scratch is from an angry drake, this is from a rabid squirrel....');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2518, 'Loot', 'Left', '+1R ARM');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1513, 'Loot', 'Left', '+1R ARM');
 
---Alchemical Bomb --CardIndex 2519 --EquipmentIndex 295
+--Alchemical Bomb --CardIndex 1514 --EquipmentIndex 295
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Alchemical Bomb',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Generic/Card_Treasure_Alchemical_Bomb_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Generic/Alchemical_Bomb.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Give us some warning before you throw the next one?');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2519, 'Treasure', 'Right', '+1R WILL');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1514, 'Treasure', 'Right', '+1R WILL');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (295, 1098); --Dangerous
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (295, 824); --Bombs Away!
 
---Amethyst Crystal Shard --CardIndex 2520 --EquipmentIndex 296
+--Amethyst Crystal Shard --CardIndex 1515 --EquipmentIndex 296
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Amethyst Crystal Shard',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Generic/Card_Treasure_Amethyst_Crystal_Shard_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Generic/Amethyst_Crystal_Shard.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Crystalia is mine, no one will stand in my way.');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2520, 'Treasure', 'Top', '+1R WILL +1AC');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1515, 'Treasure', 'Top', '+1R WILL +1AC');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (296, 706); --Knockdown
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (296, 1535); --Princess Power
 
---Ancestral Mail --CardIndex 2521 --EquipmentIndex 297
+--Ancestral Mail --CardIndex 1516 --EquipmentIndex 297
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ancestral Mail',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Generic/Card_Treasure_Ancestral_Mail_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Generic/Ancestral_Mail.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'This mail has served my family for generations.');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2521, 'Treasure', 'Left', '+1G ARM');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1516, 'Treasure', 'Left', '+1G ARM');
 
---Ancient Crusher --CardIndex 2522 --EquipmentIndex 298
+--Ancient Crusher --CardIndex 1517 --EquipmentIndex 298
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ancient Crusher',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Ancient_Crusher_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Ancient_Crusher.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Nothing stands!');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2522, 'Character Treasure', 'Right', '+1G STR');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1517, 'Character Treasure', 'Right', '+1G STR');
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (298, 1009); --Destruction
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (298, 934); --Gothmog the Terrible
 
---Angelic Arbalest --CardIndex 2523 --EquipmentIndex 299
+--Angelic Arbalest --CardIndex 1518 --EquipmentIndex 299
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Angelic Arbalest',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Generic/Card_Treasure_Angelic_Arbalest_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Generic/Angelic_Arbalest.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Give the Goddess my greetings.');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2523, 'Treasure', 'Right', '+1R ARM');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1518, 'Treasure', 'Right', '+1R ARM');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (299, 706); --Knockdown
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (299, 869); --Celestial Clobbering
 
---Arcadian Wine --CardIndex 2524 --EquipmentIndex 300
+--Arcadian Wine --CardIndex 1519 --EquipmentIndex 300
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Arcadian Wine',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Generic/Card_Treasure_Arcadian_Wine_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Generic/Arcadian_Wine.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2524, 'Treasure', 'Bottom', '+1R DEX');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1519, 'Treasure', 'Bottom', '+1R DEX');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (300, 642); --Heal
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (300, 2020); --Wine Tasting
 
---Arcane Tome --CardIndex 2525 --EquipmentIndex 301
+--Arcane Tome --CardIndex 1520 --EquipmentIndex 301
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Arcane Tome',
 'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Arcane_Tome_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Loot/Arcane_Tome.xhtml', 
 'Loot', '2.0', '2.0 Core Set', 'Default',
 'Knowledge is power.');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2525, 'Loot', 'Left', '+1R WILL');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1520, 'Loot', 'Left', '+1R WILL');
 
---Arch Wizard's Robe --CardIndex 2526 --EquipmentIndex 302
+--Arch Wizard's Robe --CardIndex 1521 --EquipmentIndex 302
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Arch Wizard''s Robe',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Generic/Card_Treasure_Arch_Wizards_Robe_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Generic/Arch_Wizards_Robe.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Your power is mine!');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2526, 'Treasure', 'Left', '+2B WILL');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1521, 'Treasure', 'Left', '+2B WILL');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (302, 752); --Mastery
 
---Armored Assassin --CardIndex 2527 --EquipmentIndex 303
+--Armored Assassin --CardIndex 1522 --EquipmentIndex 303
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Armored Assassin',
 'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Armored_Assassin_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Loot/Armored_Assassin.xhtml', 
 'Loot', '2.0', '2.0 Core Set', 'Default',
 'Dress for the job you want, not the job you have.');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2527, 'Loot', 'Left', '+1R DEX');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1522, 'Loot', 'Left', '+1R DEX');
 
---Arrow of Seeking --CardIndex 2528 --EquipmentIndex 304
+--Arrow of Seeking --CardIndex 1523 --EquipmentIndex 304
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Arrow of Seeking',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Arrow_of_Seeking_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Arrow_of_Seeking.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2528, 'Character Treasure', 'Left', '+1G DEX');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1523, 'Character Treasure', 'Left', '+1G DEX');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (304, 656); --Hookshot
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (304, 1382); --The Lonely Arrow
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (304, 922); --Clan Tanchyo Chunin
 
---Artificer Pistol --CardIndex 2529 --EquipmentIndex 305
+--Artificer Pistol --CardIndex 1524 --EquipmentIndex 305
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Artificer Pistol',
 'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Artificer_Pistol_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Loot/Artificer_Pistol.xhtml', 
 'Loot', '2.0', '2.0 Core Set', 'Default',
 'I see you''re proud of your crude blunderbuss, well...');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2529, 'Loot', 'Right', '+1R WILL');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1524, 'Loot', 'Right', '+1R WILL');
 
---Banded Bronze --CardIndex 2529 --EquipmentIndex 306
+--Banded Bronze --CardIndex 1525 --EquipmentIndex 306
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Banded Bronze',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Banded_Bronze_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Banded_Bronze.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Stay true to the Goddess.');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2529, 'Character Treasure', 'Left', '+1G ARM');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1525, 'Character Treasure', 'Left', '+1G ARM');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (306, 654); --Holy
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (306, 961); --Elrik the Lich King
 
---Bane Amulet --CardIndex 2531 --EquipmentIndex 307
+--Bane Amulet --CardIndex 1526 --EquipmentIndex 307
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Bane Amulet',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Bane_Amulet_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Bane_Amulet.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');  --!! unavailable !!
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2531, 'Character Treasure', 'Left', '+1G STR');  --!! unavailable !!
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1526, 'Character Treasure', 'Left', '+1G STR');  --!! unavailable !!
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (307, 466); --Blood Drinker --!! unavailable 1!
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (307, 1009); --Destruction --!! unavailable !!
 
---Barbarian Chic --CardIndex 2532 --EquipmentIndex 308
+--Barbarian Chic --CardIndex 1527 --EquipmentIndex 308
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Barbarian Chic',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Barbarian_Chic_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Barbarian_Chic.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'The very latest thing.');  
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2532, 'Character Treasure', 'Left', '+1G ARM');  
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1527, 'Character Treasure', 'Left', '+1G ARM');  
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (308, 1090); --Brutality Aura
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (308, 963); --Guth, The
 
---Bashful Booty --CardIndex 2533 --EquipmentIndex 309
+--Bashful Booty --CardIndex 1528 --EquipmentIndex 309
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Bashful Booty',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Booty/Card_Treasure_Bashful_Booty_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Booty/Bashful_Booty.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Aw, she''s just a little shy!');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2533, 'Booty Treasure', '', 'Boo Booties only have an effect when drawn from a treasure chest. The Consul spawns one Boo Booty in the square the treasure chest occupied. Then all Heroes within three squares and line of sight of the Boo Booty suffer HEX.');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1528, 'Booty Treasure', '', 'Boo Booties only have an effect when drawn from a treasure chest. The Consul spawns one Boo Booty in the square the treasure chest occupied. Then all Heroes within three squares and line of sight of the Boo Booty suffer HEX.');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (309, 647); --Hex
 
---Beginner's Spellbook --CardIndex 2534 --EquipmentIndex 310
+--Beginner's Spellbook --CardIndex 1529 --EquipmentIndex 310
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Beginner''s Spellbook',
 'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Beginners_Spellbook_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Loot/Beginners_Spellbook.xhtml', 
 'Loot', '2.0', '2.0 Core Set', 'Default',
 'Never leave home without it.');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2534, 'Loot', 'Right', '+1B WILL');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1529, 'Loot', 'Right', '+1B WILL');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (310, 668); --Ice
 
---Bejeweled Shield --CardIndex 2535 --EquipmentIndex 311
+--Bejeweled Shield --CardIndex 1530 --EquipmentIndex 311
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Bejeweled Shield',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Generic/Card_Treasure_Bejeweled_Shield_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Generic/Bejeweled_Shield.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2535, 'Treasure', 'Left', '+1R STR');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1530, 'Treasure', 'Left', '+1R STR');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (311, 575); --Extra Sparkly
 
---Bent Nail --CardIndex 2536 --EquipmentIndex 312
+--Bent Nail --CardIndex 1531 --EquipmentIndex 312
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Bent Nail',
 'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Bent_Nail_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Loot/Bent_Nail.xhtml', 
 'Loot', '2.0', '2.0 Core Set', 'Default',
 'Still sharp.');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2536, 'Loot', 'Top', '+1B STR');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1531, 'Loot', 'Top', '+1B STR');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (312, 675); --Immune: Hex
 
---Berserker's Horn --CardIndex 2537 --EquipmentIndex 313
+--Berserker's Horn --CardIndex 1532 --EquipmentIndex 313
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Berserker''s Horn',
 'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Berserkers_Horn_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Relics/Berserkers_Horn.xhtml', 
 'Relic', '2.0', '2.0 Core Set', 'Default',
 'Who knew they had such a flat head.');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2537, 'Character Relic', 'Bottom', '');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1532, 'Character Relic', 'Bottom', '');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (313, 830); --Rage
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (313, 963); --Guth, The
 
---Berserker's Helm --CardIndex 2538 --EquipmentIndex 314
+--Berserker's Helm --CardIndex 1533 --EquipmentIndex 314
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Berserker''s Helm',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Generic/Card_Treasure_Berserkers_Helm_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Generic/Berserkers_Helm.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2538, 'Treasure', 'Bottom', '+1R STR');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1533, 'Treasure', 'Bottom', '+1R STR');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (314, 457); --Berserk
 
---Binding Tome --CardIndex 2539 --EquipmentIndex 315
+--Binding Tome --CardIndex 1534 --EquipmentIndex 315
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Binding Tome',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Books/Card_Treasure_Binding_Tome_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Books/Binding_Tome.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'I''ll admit, I judged it by its cover.');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2539, 'Treasure Books', '', 'Give this card to the Consul and draw another treasure card before selecting a treasure card. At the start of any Hero turn, the Consul may discard this card to name a Hero. The named Hero may not activate that turn. (Two Heroes still activate as normal, even if this forces a Hero with an activation token to activate).');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1534, 'Treasure Books', '', 'Give this card to the Consul and draw another treasure card before selecting a treasure card. At the start of any Hero turn, the Consul may discard this card to name a Hero. The named Hero may not activate that turn. (Two Heroes still activate as normal, even if this forces a Hero with an activation token to activate).');
 
---Bisento --CardIndex 2540 --EquipmentIndex 316
+--Bisento --CardIndex 1535 --EquipmentIndex 316
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Bisento',
 'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Bisento_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Loot/Bisento.xhtml', 
 'Loot', '2.0', '2.0 Core Set', 'Default',
 'Stay back, Ijin.');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2540, 'Loot', 'Right', '+1ST STR');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1535, 'Loot', 'Right', '+1ST STR');
 
---Bitey Book --CardIndex 2541 --EquipmentIndex 317
+--Bitey Book --CardIndex 1536 --EquipmentIndex 317
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Bitey Book',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Books/Card_Treasure_Bitey_Book_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Books/Bitey_Book.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'This is why I don''t read.');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2541, 'Treasure Books', '', 'Give this card to the Consul and draw another treasure card before selecting a treasure card. At the start of any turn, the Consul may discard this card to make all Heroes roll their DEX. Any Heroes that score one or fewer starts on the roll suffer a wound.');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1536, 'Treasure Books', '', 'Give this card to the Consul and draw another treasure card before selecting a treasure card. At the start of any turn, the Consul may discard this card to make all Heroes roll their DEX. Any Heroes that score one or fewer starts on the roll suffer a wound.');
 
---Black Harp --CardIndex 2542 --EquipmentIndex 318
+--Black Harp --CardIndex 1537 --EquipmentIndex 318
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Black Harp',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Black_Harp_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Black_Harp.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2542, 'Character Treasure', 'Top', '+2MO +1AC +1R DEX +1R WILL');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1537, 'Character Treasure', 'Top', '+2MO +1AC +1R DEX +1R WILL');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (318, 526); --Dance Party
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (318, 972); --Nightsong the Eternal
 
---Black Pearl, The --CardIndex 2543 --EquipmentIndex 319
+--Black Pearl, The --CardIndex 1538 --EquipmentIndex 319
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Black Pearl, The',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Black_Pearl_The_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Black_Pearl_The.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2543, 'Character Treasure', 'Top', '+1G ARM');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1538, 'Character Treasure', 'Top', '+1G ARM');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (319, 512); --Consuming Greed
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (319, 523); --Cursed
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (319, 973); --Onibaba
 
---Bladed Fist --CardIndex 2544 --EquipmentIndex 320
+--Bladed Fist --CardIndex 1539 --EquipmentIndex 320
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Bladed Fist',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Bladed_Fist_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Bladed_Fist.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2544, 'Character Treasure', 'Left', '+1R STR');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1539, 'Character Treasure', 'Left', '+1R STR');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (320, 457); --Berserk
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (320, 923); --Clan Tora Chunin
 
---Bladed Quarterstaff --CardIndex 2545 --EquipmentIndex 321
+--Bladed Quarterstaff --CardIndex 1540 --EquipmentIndex 321
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Bladed Quarterstaff',
 'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Bladed_Quarterstaff_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Loot/Bladed_Quarterstaff.xhtml', 
 'Loot', '2.0', '2.0 Core Set', 'Default',
 'Just a scratch...');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2545, 'Loot', 'Right', '+1B WILL');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1540, 'Loot', 'Right', '+1B WILL');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (321, 807); --Poison
 
---Blaze-Eye Blazer --CardIndex 2546 --EquipmentIndex 322
+--Blaze-Eye Blazer --CardIndex 1541 --EquipmentIndex 322
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Blaze-Eye Blazer',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Blaze_Eye_Blazer_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Blaze_Eye_Blazer.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'No flame may harm me.');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2546, 'Character Treasure', 'Left', '+1B +1R ARM');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1541, 'Character Treasure', 'Left', '+1B +1R ARM');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (322, 674); --Immune: Fire
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (322, 960); --Destroyer, The
 
---Blazing Armor --CardIndex 2547 --EquipmentIndex 323
+--Blazing Armor --CardIndex 1542 --EquipmentIndex 323
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Blazing Armor',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Blazing_Armor_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Blazing_Armor.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2547, 'Character Treasure', 'Right', '+1G ARM');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1542, 'Character Treasure', 'Right', '+1G ARM');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (323, 533); --Deadly Defense
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (323, 959); --Demon Queen Araphel
 
---Blazing Momo Yoroi --CardIndex 2548 --EquipmentIndex 324
+--Blazing Momo Yoroi --CardIndex 1543 --EquipmentIndex 324
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Blazing Momo Yoroi',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Generic/Card_Treasure_Blazing_Momo_Yoroi_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Generic/Blazing_Momo_Yoroi.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2548, 'Treasure', 'Left', '+1G ARM');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1543, 'Treasure', 'Left', '+1G ARM');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (324, 1059); --Volatile
 
---Bleak Cap --CardIndex 2549 --EquipmentIndex 325
+--Bleak Cap --CardIndex 1544 --EquipmentIndex 325
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Bleak Cap',
 'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Bleak_Cap_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Relics/Bleak_Cap.xhtml', 
 'Relic', '2.0', '2.0 Core Set', 'Default',
 ''); --!!unavailable !!
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2549, 'Character Relic', 'Top', '+1R ARM');  --!!unavailable !!
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1544, 'Character Relic', 'Top', '+1R ARM');  --!!unavailable !!
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (325, 964); --Hoarfang
 
---Blessed Spear --CardIndex 2550 --EquipmentIndex 326
+--Blessed Spear --CardIndex 1545 --EquipmentIndex 326
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Blessed Spear',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Generic/Card_Treasure_Blessed_Spear_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Generic/Blessed_Spear.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2550, 'Treasure', 'Left', '+1R STR');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1545, 'Treasure', 'Left', '+1R STR');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (326, 558); --Divine Guidance
 
---Blight Stone, The  --CardIndex 2551 --EquipmentIndex 327
+--Blight Stone, The  --CardIndex 1546 --EquipmentIndex 327
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Blight Stone, The',
 'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Blight_Stone_The_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Relics/Blight_Stone_The.xhtml', 
 'Relic', '2.0', '2.0 Core Set', 'Default',
 '');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2551, 'Character Relic', 'Top', '+1R WILL');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1546, 'Character Relic', 'Top', '+1R WILL');
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (327, 1080); --Eternal Master
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (327, 972); --Nightsong the Eternal
 
---Blood-Stained Sandals  --CardIndex 2552 --EquipmentIndex 328
+--Blood-Stained Sandals  --CardIndex 1547 --EquipmentIndex 328
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Blood-Stained Sandals',
 'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Blood_Stained_Sandals_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Relics/Blood_Stained_Sandals.xhtml', 
 'Relic', '2.0', '2.0 Core Set', 'Default',
 '');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2552, 'Character Relic', 'Top', '+4MO');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1547, 'Character Relic', 'Top', '+4MO');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (328, 451); --Backstabber
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (328, 974); --Onryo
 
---Blue Shell --CardIndex 2553 --EquipmentIndex 329
+--Blue Shell --CardIndex 1548 --EquipmentIndex 329
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Blue Shell',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Blue_Shell_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Blue_Shell.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Got him!');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2553, 'Character Treasure', 'Left', '+1G DEX');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1548, 'Character Treasure', 'Left', '+1G DEX');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (329, 727); --Massive Damage
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (329, 1619); --Seek The Leader
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (329, 938); --Kappa
 
---Bluraz Fizzy Blast --CardIndex 2554 --EquipmentIndex 330
+--Bluraz Fizzy Blast --CardIndex 1549 --EquipmentIndex 330
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Bluraz Fizzy Blast',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Generic/Card_Treasure_Bluraz_Fizzy_Blast_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Generic/Bluraz_Fizzy_Blast.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2554, 'Treasure', 'Top', '+1AC');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1549, 'Treasure', 'Top', '+1AC');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (330, 890); --Share A Sip!
 
---Bodacious Binding --CardIndex 2555 --EquipmentIndex 331
+--Bodacious Binding --CardIndex 1550 --EquipmentIndex 331
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Bodacious Binding',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Books/Card_Treasure_Bodacious_Binding_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Books/Bodacious_Binding.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'I''ll admit, I judged it by its cover.');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2555, 'Treasure Books', '', 'Give this card to the Consul and draw another treasure card before selecting a treasure card. At the start of any Hero turn, the Consul may discard this card to name a Hero. The named Hero may not activate that turn. (Two Heroes still activate as normal, even if this forces a Hero with an activation token to activate).');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1550, 'Treasure Books', '', 'Give this card to the Consul and draw another treasure card before selecting a treasure card. At the start of any Hero turn, the Consul may discard this card to name a Hero. The named Hero may not activate that turn. (Two Heroes still activate as normal, even if this forces a Hero with an activation token to activate).');
 
---Book Of Secrets  --CardIndex 2556 --EquipmentIndex 332
+--Book Of Secrets  --CardIndex 1551 --EquipmentIndex 332
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Book Of Secrets',
 'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Book_of_Secrets_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Relics/Book_of_Secrets.xhtml', 
 'Relic', '2.0', '2.0 Core Set', 'Default',
 'You wouldn''t read a lady''s diary, would you?');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2556, 'Character Relic', 'Top', '');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1551, 'Character Relic', 'Top', '');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (332, 600); --For Unlawful Carnal Knowledge
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (332, 959); --Demon Queen Araphel
 
---Booty Biter --CardIndex 2557 --EquipmentIndex 333
+--Booty Biter --CardIndex 1552 --EquipmentIndex 333
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Booty Biter',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Booty/Card_Treasure_Booty_Biter_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Booty/Booty_Biter.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Watch your fingers, this Boo Booty bites!');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2557, 'Treasure Booty', '', 'Boo Booties only have an effect when drawn from a treasure chest. The Consul spawns one Boo Booty in the square the treasure chest occupied. The Hero that opened the chest suffers one wound.');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1552, 'Treasure Booty', '', 'Boo Booties only have an effect when drawn from a treasure chest. The Consul spawns one Boo Booty in the square the treasure chest occupied. The Hero that opened the chest suffers one wound.');
 
---Booty Grinder --CardIndex 2558 --EquipmentIndex 334
+--Booty Grinder --CardIndex 1553 --EquipmentIndex 334
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Booty Grinder',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Booty/Card_Treasure_Booty_Grinder_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Booty/Booty_Grinder.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Crunch, crunch, crunch. Booty Grinders live to devour your gear.');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2558, 'Treasure Booty', '', 'Boo Booties only have an effect when drawn from a treasure chest. The Consul spawns one Boo Booty in the square the treasure chest occupied. The Hero that opened the chest discards one equipped loot card.');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1553, 'Treasure Booty', '', 'Boo Booties only have an effect when drawn from a treasure chest. The Consul spawns one Boo Booty in the square the treasure chest occupied. The Hero that opened the chest discards one equipped loot card.');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (334, 648); --Hex
 
---Bottlecap Caltrops --CardIndex 2559 --EquipmentIndex 335
+--Bottlecap Caltrops --CardIndex 1554 --EquipmentIndex 335
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Bottlecap Caltrops',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Generic/Card_Treasure_Bottlecap_Caltrops_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Generic/Bottlecap_Caltrops.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Your feet are doomed!');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2559, 'Treasure', 'Left', '+1G DEX');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1554, 'Treasure', 'Left', '+1G DEX');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (335, 895); --Sidestep
 
---Bound Tresses  --CardIndex 2560 --EquipmentIndex 336
+--Bound Tresses  --CardIndex 1555 --EquipmentIndex 336
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Bound Tresses',
 'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Bound_Tresses_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Relics/Bound_Tresses.xhtml', 
 'Relic', '2.0', '2.0 Core Set', 'Default',
 'Malice radiates from this long queue, take care its owner doesn''t come looking Geta.');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2560, 'Character Relic', 'Right', '+1R WILL');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1555, 'Character Relic', 'Right', '+1R WILL');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (336, 648); --Hex
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (336, 1821); --Tempest of Wrath
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (336, 974); --Onryo
 
---Brace of the Four Winds  --CardIndex 2561 --EquipmentIndex 337
+--Brace of the Four Winds  --CardIndex 1556 --EquipmentIndex 337
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Brace of the Four Winds',
 'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Brace_of_the_Four_Winds_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Relics/Brace_of_the_Four_Winds.xhtml', 
 'Relic', '2.0', '2.0 Core Set', 'Default',
 '');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2561, 'Character Relic', 'Top', '+1R ARM');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1556, 'Character Relic', 'Top', '+1R ARM');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (337, 658); --Howling Vengeance
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (337, 957); --Bomechan
 
---Brain Chain  --CardIndex 2562 --EquipmentIndex 338
+--Brain Chain  --CardIndex 1557 --EquipmentIndex 338
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Brain Chain',
 'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Brain_Chain_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Relics/Brain_Chain.xhtml', 
 'Relic', '2.0', '2.0 Core Set', 'Default',
 '');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2562, 'Character Relic', 'Bottom', '+1R WILL');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1557, 'Character Relic', 'Bottom', '+1R WILL');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (338, 668); --Ice
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (338, 1299); --Ice Storm
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (338, 975); --Pauper Prince
 
---Branch Blade  --CardIndex 2563 --EquipmentIndex 339
+--Branch Blade  --CardIndex 1558 --EquipmentIndex 339
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Branch Blade',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Branch_Blade_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Branch_Blade.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2563, 'Character Treasure', 'Right', '+1R STR');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1558, 'Character Treasure', 'Right', '+1R STR');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (339, 516); --Counterstrike
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (339, 963); --Guth, The
 
---Brass Knuckles --CardIndex 2564 --EquipmentIndex 340
+--Brass Knuckles --CardIndex 1559 --EquipmentIndex 340
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Brass Knuckles',
 'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Brass_Knuckles_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Loot/Brass_Knuckles.xhtml', 
 'Loot', '2.0', '2.0 Core Set', 'Default',
 'When you''re tired of messing around.');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2564, 'Loot', 'Left', '+1B STR');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1559, 'Loot', 'Left', '+1B STR');
 
---Broken Joystiq --CardIndex 2565 --EquipmentIndex 341
+--Broken Joystiq --CardIndex 1560 --EquipmentIndex 341
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Broken Joystiq',
 'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Broken_Joystiq_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Loot/Broken_Joystiq.xhtml', 
 'Loot', '2.0', '2.0 Core Set', 'Default',
 'I can only go right!');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2565, 'Loot', 'Top', '+2MO');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1560, 'Loot', 'Top', '+2MO');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (341, 680); --Immune: Slow
 
---Brute Lord Bracers --CardIndex 2566 --EquipmentIndex 342
+--Brute Lord Bracers --CardIndex 1561 --EquipmentIndex 342
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Brute Lord Bracers',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Brute_Lord_Bracers_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Brute_Lord_Bracers.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Kill, Maim, Burn!');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2566, 'Character Treasure', 'Top', '+1R STR');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1561, 'Character Treasure', 'Top', '+1R STR');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (342, 616); --Frenzy
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (342, 946); --Rage Fiend, The
 
---Bubble Bop Grape Attack --CardIndex 2567 --EquipmentIndex 343
+--Bubble Bop Grape Attack --CardIndex 1562 --EquipmentIndex 343
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Bubble Bop Grape Attack',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Generic/Card_Treasure_Bubble_Bop_Grape_Attack_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Generic/Bubble_Bop_Grape_Attack.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2567, 'Treasure', 'Top', '+1G STR');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1562, 'Treasure', 'Top', '+1G STR');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (343, 442); --Augment
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (343, 1812); --Taste For The Fight, A
 
---Bubbly Beverage --CardIndex 2568 --EquipmentIndex 344
+--Bubbly Beverage --CardIndex 1563 --EquipmentIndex 344
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Bubbly Beverage',
 'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Bubbly_Beverage_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Loot/Bubbly_Beverage.xhtml', 
 'Loot', '2.0', '2.0 Core Set', 'Default',
 'Does sugar always do this to you?');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2568, 'Loot', 'Top', '+1MO');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1563, 'Loot', 'Top', '+1MO');
 
---Burial Kimono  --CardIndex 2569 --EquipmentIndex 345
+--Burial Kimono  --CardIndex 1564 --EquipmentIndex 345
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Burial Kimono',
 'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Burial_Kimono_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Relics/Burial_Kimono.xhtml', 
 'Relic', '2.0', '2.0 Core Set', 'Default',
 'Spun from silk, the katabira is a revered article of clothing, as it is borne by its wearer into the afterlife.');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2569, 'Character Relic', 'Left', '');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1564, 'Character Relic', 'Left', '');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (345, 994); --Spirit Call
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (345, 974); --Onryo
 
---Burial Robes --CardIndex 2570 --EquipmentIndex 346
+--Burial Robes --CardIndex 1565 --EquipmentIndex 346
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Burial Robes',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Burial_Robes_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Burial_Robes.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'You seriously want me to wear these?');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2570, 'Character Treasure', 'Left', '+2R ARM');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1565, 'Character Treasure', 'Left', '+2R ARM');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (346, 629); --Ghost
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (346, 974); --Onryo
 
---Burlap Sack --CardIndex 2571 --EquipmentIndex 347
+--Burlap Sack --CardIndex 1566 --EquipmentIndex 347
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Burlap Sack',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Burlap_Sack_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Burlap_Sack.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '"Look at all the stuff you can put in here!"'); 
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2571, 'Character Treasure', 'Top', '+1R STR +1R ARM +1R WILL +1R DEX');  
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1566, 'Character Treasure', 'Top', '+1R STR +1R ARM +1R WILL +1R DEX');  
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (347, 979); --Thresher, The
 
---Burning Eye --CardIndex 2572 --EquipmentIndex 348
+--Burning Eye --CardIndex 1567 --EquipmentIndex 348
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Burning Eye',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Generic/Card_Treasure_Burning_Eye_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Generic/Burning_Eye.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'My eyes! They burn!');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2572, 'Treasure', 'Bottom', '+1G STR');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1567, 'Treasure', 'Bottom', '+1G STR');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (348, 588); --Fire
 
---Burning Horn --CardIndex 2573 --EquipmentIndex 349
+--Burning Horn --CardIndex 1568 --EquipmentIndex 349
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Burning Horn',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Burning_Horn_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Burning_Horn.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Let them all burn.');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2573, 'Character Treasure', 'Bottom', '+1G STR');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1568, 'Character Treasure', 'Bottom', '+1G STR');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (349, 1098); --Dangerous
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (349, 588); --Fire
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (349, 1043); --Dragon's Breath
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (349, 977); --Starfire
 
---Burning Jewel, The  --CardIndex 2574 --EquipmentIndex 350
+--Burning Jewel, The  --CardIndex 1569 --EquipmentIndex 350
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Burning Jewel, The',
 'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Burning_Jewel_The_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Relics/Burning_Jewel_The.xhtml', 
 'Relic', '2.0', '2.0 Core Set', 'Default',
 '');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2574, 'Character Relic', 'Bottom', '+1AC');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1569, 'Character Relic', 'Bottom', '+1AC');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (350, 570); --Eternal Flame
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (350, 967); --Lord Vulcanis
 
---Burnt Twig --CardIndex 2575 --EquipmentIndex 351
+--Burnt Twig --CardIndex 1570 --EquipmentIndex 351
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Burnt Twig',
 'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Burnt_Twig_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Loot/Burnt_Twig.xhtml', 
 'Loot', '2.0', '2.0 Core Set', 'Default',
 'Surprisingly warm.');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2575, 'Loot', 'Top', '+1B DEX');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1570, 'Loot', 'Top', '+1B DEX');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (351, 676); --Immune: Ice
 
---Candy's Prize --CardIndex 2576 --EquipmentIndex 352
+--Candy's Prize --CardIndex 1571 --EquipmentIndex 352
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Candy''s Prize',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Generic/Card_Treasure_Candys_Prize_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Generic/Candys_Prize.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'I guessed how many were in the jar!');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2576, 'Treasure', 'Left', '+1G STR');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1571, 'Treasure', 'Left', '+1G STR');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (352, 442); --Augment
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (352, 642); --Heal
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (352, 1736); --Spread The Love
 
---Cat's Paw --CardIndex 2577 --EquipmentIndex 353
+--Cat's Paw --CardIndex 1572 --EquipmentIndex 353
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Cat''s Paw',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Cats_Paw_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Cats_Paw.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2577, 'Character Treasure', 'Left', '+1R DEX 2 +1G DEX');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1572, 'Character Treasure', 'Left', '+1R DEX 2 +1G DEX');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (353, 706); --Knockdown
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (353, 815); --Pounce
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (353, 1697); --Sneak Attack
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (353, 916); --Chaos Kitty
 
---Celestial Lance --CardIndex 2578 --EquipmentIndex 354
+--Celestial Lance --CardIndex 1573 --EquipmentIndex 354
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Celestial Lance',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Generic/Card_Treasure_Celestial_Lance_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Generic/Celestial_Lance.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2578, 'Treasure', 'Right', '+1R ARM');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1573, 'Treasure', 'Right', '+1R ARM');
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (354, 1228); --Goddess Lance, The
 
---Celestian Armbands --CardIndex 2579 --EquipmentIndex 355
+--Celestian Armbands --CardIndex 1574 --EquipmentIndex 355
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Celestian Armbands',
 'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Celestian Armbands_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Loot/Celestian Armbands.xhtml', 
 'Loot', '2.0', '2.0 Core Set', 'Default',
 'Improve your hugs.');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2579, 'Loot', 'Top', '+1B ARM');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1574, 'Loot', 'Top', '+1B ARM');
 
---Celestian Tiara --CardIndex 2580 --EquipmentIndex 356
+--Celestian Tiara --CardIndex 1575 --EquipmentIndex 356
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Celestian Tiara',
 'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Celestian_Tiara_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Loot/Celestian_Tiara.xhtml', 
 'Loot', '2.0', '2.0 Core Set', 'Default',
 'Fighting evil in style.');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2580, 'Loot', 'Bottom', '+1R WILL');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1575, 'Loot', 'Bottom', '+1R WILL');
 
---Chained Locket --CardIndex 2581 --EquipmentIndex 357
+--Chained Locket --CardIndex 1576 --EquipmentIndex 357
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Chained Locket',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Chained_Locket_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Chained_Locket.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2581, 'Character Treasure', 'Top', '+2 HEALTH');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1576, 'Character Treasure', 'Top', '+2 HEALTH');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (357, 1007); --Steady
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (357, 914); --Chained Knight
 
---Chainmail --CardIndex 2582 --EquipmentIndex 358
+--Chainmail --CardIndex 1577 --EquipmentIndex 358
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Chainmail',
 'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Chainmail_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Loot/Chainmail.xhtml', 
 'Loot', '2.0', '2.0 Core Set', 'Default',
 'Come at me!');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2582, 'Loot', 'Left', '+1B ARM');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1577, 'Loot', 'Left', '+1B ARM');
 
---Chainmail Coif --CardIndex 2583 --EquipmentIndex 359
+--Chainmail Coif --CardIndex 1578 --EquipmentIndex 359
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Chainmail Coif',
 'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Chainmail_Coif_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Loot/Chainmail_Coif.xhtml', 
 'Loot', '2.0', '2.0 Core Set', 'Default',
 'Always protect your head.');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2583, 'Loot', 'Bottom', '+1ST ARM');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1578, 'Loot', 'Bottom', '+1ST ARM');
 
---Chains of Service --CardIndex 2584 --EquipmentIndex 360
+--Chains of Service --CardIndex 1579 --EquipmentIndex 360
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Chains of Service',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Chains_of_Service_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Chains_of_Service.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2584, 'Character Treasure', 'Top', '+1G WILL');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1579, 'Character Treasure', 'Top', '+1G WILL');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (360, 442); --Augment
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (360, 1626); --Servitude
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (360, 960); --Destroyer, The
 
---Champion's Regalia --CardIndex 2585 --EquipmentIndex 361
+--Champion's Regalia --CardIndex 1580 --EquipmentIndex 361
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Champion''s Regalia',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Generic/Card_Treasure_Champions_Regalia_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Generic/Champions_Regalia.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'To the winner go the spoils.');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2585, 'Treasure', 'Left', '+2B STR');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1580, 'Treasure', 'Left', '+2B STR');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (361, 684); --Improved Critical
 
---Checkpoint --CardIndex 2586 --EquipmentIndex 362
+--Checkpoint --CardIndex 1581 --EquipmentIndex 362
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Checkpoint',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Generic/Card_Treasure_Checkpoint_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Generic/Checkpoint.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Would you like to save?');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2586, 'Treasure', 'Top', '');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1581, 'Treasure', 'Top', '');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (362, 443); --Autosave
 
---Cheese Head --CardIndex 2587 --EquipmentIndex 363
+--Cheese Head --CardIndex 1582 --EquipmentIndex 363
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Cheese Head',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Cheese_Head_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Cheese_Head.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2587, 'Character Treasure', 'Bottom', '+1G ARM');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1582, 'Character Treasure', 'Bottom', '+1G ARM');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (363, 1000); --Spongy
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (363, 947); --Randy, Lrod of Spiders
 
---Chew Toy --CardIndex 2588 --EquipmentIndex 364
+--Chew Toy --CardIndex 1583 --EquipmentIndex 364
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Chew Toy',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Generic/Card_Treasure_Chew_Toy_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Generic/Chew_Toy.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2588, 'Treasure', 'Top', '+1AC');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1583, 'Treasure', 'Top', '+1AC');
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (364, 1223); --Go Home, Boy
 
---Chill Song --CardIndex 2589 --EquipmentIndex 365
+--Chill Song --CardIndex 1584 --EquipmentIndex 365
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Chill Song',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Chill_Song_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Chill_Song.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '"Blarrttt!" never sounded so chilling.');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2589, 'Character Treasure', 'Left', '+1G STR');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1584, 'Character Treasure', 'Left', '+1G STR');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (365, 668); --Ice
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (365, 2021); --Winter's Harvest
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (365, 963); --Guth, The
 
---Chimeric Battleblade --CardIndex 2590 --EquipmentIndex 366
+--Chimeric Battleblade --CardIndex 1585 --EquipmentIndex 366
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Chimeric Battleblade',
 'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Chimeric_Battleblade_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Loot/Chimeric_Battleblade.xhtml', 
 'Loot', '2.0', '2.0 Core Set', 'Default',
 'Chimeric battleblades change with each user. The fierce wield blades of flame, the cold-hearted blades of ice.');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2590, 'Loot', 'Right', '+1ST STR');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1585, 'Loot', 'Right', '+1ST STR');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (366, 668); --Ice
 
---Citrine Crystal Shard --CardIndex 2591 --EquipmentIndex 367
+--Citrine Crystal Shard --CardIndex 1586 --EquipmentIndex 367
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Citrine Crystal Shard',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Generic/Card_Treasure_Citrine_Crystal_Shard_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Generic/Citrine_Crystal_Shard.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2591, 'Treasure', 'Right', '+1G STR');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1586, 'Treasure', 'Right', '+1G STR');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (367, 442); --Augment
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (367, 1538); --Princess Power
 
---Clan Tora Gusoku --CardIndex 2592 --EquipmentIndex 368
+--Clan Tora Gusoku --CardIndex 1587 --EquipmentIndex 368
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Clan Tora Gusoku',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Generic/Card_Treasure_Clan_Tora_Gusoku_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Generic/Clan_Tora_Gusoku.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2592, 'Treasure', 'Left', '+1G ARM');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1587, 'Treasure', 'Left', '+1G ARM');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (368, 1007); --Steady
 
---Claws of the Tiger --CardIndex 2593 --EquipmentIndex 369
+--Claws of the Tiger --CardIndex 1588 --EquipmentIndex 369
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Claws of the Tiger',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Generic/Card_Treasure_Claws_of_the_Tiger_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Generic/Claws_of_the_Tiger.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Crude, but effective.');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2593, 'Treasure', 'Right', '+1R STR');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1588, 'Treasure', 'Right', '+1R STR');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (369, 482); --Brutal Strike
 
---Cloak of Wards --CardIndex 2594 --EquipmentIndex 370
+--Cloak of Wards --CardIndex 1589 --EquipmentIndex 370
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Cloak of Wards',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Generic/Card_Treasure_Cloak_of_Wards_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Generic/Cloak_of_Wards.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Nothing can penetrate my defense.');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2594, 'Treasure', 'Bottom', '+1G ARM');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1589, 'Treasure', 'Bottom', '+1G ARM');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (370, 678); --Immune: Knockdown
 
---Clockwork Canary --CardIndex 2595 --EquipmentIndex 371
+--Clockwork Canary --CardIndex 1590 --EquipmentIndex 371
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Clockwork Canary',
 'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Clockwork Canary_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Loot/Clockwork Canary.xhtml', 
 'Loot', '2.0', '2.0 Core Set', 'Default',
 'Keep your eye on the canary.');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2595, 'Loot', 'Bottom', '+1B ARM');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1590, 'Loot', 'Bottom', '+1B ARM');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (371, 679); --Immune: Poison
 
---Clockwork Gatling --CardIndex 2596 --EquipmentIndex 372
+--Clockwork Gatling --CardIndex 1591 --EquipmentIndex 372
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Clockwork Gatling',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Clockwork Gatling_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Clockwork_Gatling.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Watch where you point that!');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2596, 'Character Treasure', 'Right', '+3B DEX');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1591, 'Character Treasure', 'Right', '+3B DEX');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (372, 1098); --Dangerous
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (372, 1573); --Reckless Fire
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (372, 975); --Pauper Prince
 
---Clockwork Harness --CardIndex 2597 --EquipmentIndex 373
+--Clockwork Harness --CardIndex 1592 --EquipmentIndex 373
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Clockwork Harness',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Generic/Card_Treasure_Clockwork_Harness_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Generic/Clockwork_Harness.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'When you hear the click, get down.');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2597, 'Treasure', 'Left', '+1R ARM');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1592, 'Treasure', 'Left', '+1R ARM');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (373, 533); --Deadly Defense
 
---Clockwork Swift --CardIndex 2598 --EquipmentIndex 374
+--Clockwork Swift --CardIndex 1593 --EquipmentIndex 374
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Clockwork Swift',
 'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Clockwork_Swift_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Loot/Clockwork_Swift.xhtml', 
 'Loot', '2.0', '2.0 Core Set', 'Default',
 'Keep your eye on the swift.');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2598, 'Loot', 'Bottom', '+1B ARM');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1593, 'Loot', 'Bottom', '+1B ARM');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (374, 679); --Immune: Poison
 
---Cocooned Hero --CardIndex 2599 --EquipmentIndex 375
+--Cocooned Hero --CardIndex 1594 --EquipmentIndex 375
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Cocooned Hero',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Cocooned_Hero_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Cocooned_Hero.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2599, 'Character Treasure', 'Right', '+1R WILL');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1594, 'Character Treasure', 'Right', '+1R WILL');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (375, 717); --Lost Hero
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (375, 965); --Jorogumo
 
---Cog Hammer --CardIndex 2600 --EquipmentIndex 376
+--Cog Hammer --CardIndex 1595 --EquipmentIndex 376
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Cog Hammer',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Cog_Hammer_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Cog_Hammer.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2600, 'Character Treasure', 'Left', '+2B STR');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1595, 'Character Treasure', 'Left', '+2B STR');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (376, 507); --Coghammer
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (376, 954); --Ugluk the Mechanically Inclined
 
---Confused Ice Glob  --CardIndex 2601 --EquipmentIndex 377
+--Confused Ice Glob  --CardIndex 1596 --EquipmentIndex 377
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Confused Ice Glob',
 'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Confused_Ice_Glob_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Relics/Confused_Ice_Glob.xhtml', 
 'Relic', '2.0', '2.0 Core Set', 'Default',
 '');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2601, 'Character Relic', 'Top', '+1R STR');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1596, 'Character Relic', 'Top', '+1R STR');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (377, 668); --Ice
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (377, 813); --Block Head
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (377, 961); --Elrik the Lich King
 
---Corpse Hand --CardIndex 2602 --EquipmentIndex 378
+--Corpse Hand --CardIndex 1597 --EquipmentIndex 378
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Corpse Hand',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Generic/Card_Treasure_Corpse_Hand_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Generic/Corpse_Hand.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Must you bring that thing everywhere?');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2602, 'Treasure', 'Bottom', '+1R WILL');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1597);
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (378, 454); --Bane
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (378, 647); --Hex
 
---Cotton Candy Kitty Cloak --CardIndex 2603 --EquipmentIndex 379
+--Cotton Candy Kitty Cloak --CardIndex 1598 --EquipmentIndex 379
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Cotton Candy Kitty Cloak',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Generic/Card_Treasure_Cotton_Candy_Kitty_Cloak_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Generic/Cotton_Candy_Kitty_Cloak.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2603, 'Treasure', 'Left', '+1G DEX');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1598, 'Treasure', 'Left', '+1G DEX');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (379, 1021); --Sturdy
 
---Coward's Boots --CardIndex 2604 --EquipmentIndex 380
+--Coward's Boots --CardIndex 1599 --EquipmentIndex 380
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Cowards Boots',
 'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Cowards_Boots_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Loot/Cowards_Boots.xhtml', 
 'Loot', '2.0', '2.0 Core Set', 'Default',
 'Run away!');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2604, 'Loot', 'Top', '+2MO');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1599, 'Loot', 'Top', '+2MO');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (380, 680); --Immune: Slow
 
---Creepy Kyorinrin --CardIndex 2605 --EquipmentIndex 381
+--Creepy Kyorinrin --CardIndex 1600 --EquipmentIndex 381
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Creepy Kyorinrin',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Books/Card_Treasure_Creepy_Kyorinrin_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Books/Creepy_Kyorinrin.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Betrayed. By a book.');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2605, 'Treasure Books', '', 'Give this card to the Consul and draw another treasure card before selecting a treasure card. At any time, before dice are rolled, the Consul may discard this card to heal all wounds on target monster. Creepy Kyorinrin may not be used on the dungeon boss.');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1600, 'Treasure Books', '', 'Give this card to the Consul and draw another treasure card before selecting a treasure card. At any time, before dice are rolled, the Consul may discard this card to heal all wounds on target monster. Creepy Kyorinrin may not be used on the dungeon boss.');
 
 --Crimson Plate --CardIndex 2606 --EquipmentIndex 382
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Crimson Plate',
