@@ -35,7 +35,7 @@ VALUES ('Difficult Terrain DI',
 'http://htkb.info/SDE/2.0/Cards/Utility/Terrain/DI/Card_Terrain_Difficult_Terrain_2.0_DI.png', 
 'http://htkb.info/SDE/2.0/Cards/Utility/Terrain/Card_Terrain_Back_2.0.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Utility/Difficult_Terrain_DI.xhtml', 
-'Terrain', '2.0 DI', '2.0 Devil''s Island', 'Default', '');
+'Terrain', '2.0 DI', '2.0 DI', 'Default', '');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (1999, ''); 
 insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (16, 1100); --Difficult Terrain
 
@@ -55,7 +55,7 @@ VALUES ('Fire',
 'http://htkb.info/SDE/2.0/Cards/Utility/Terrain/DI/Card_Terrain_Fire_2.0_DI.png', 
 'http://htkb.info/SDE/2.0/Cards/Utility/Terrain/Card_Terrain_Back_2.0.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Utility/Fire_DI.xhtml', 
-'Terrain', '2.0 DI', '2.0 Devil''s Island', 'Default', '');
+'Terrain', '2.0 DI', '2.0 DI', 'Default', '');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (2001, ''); 
 insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (18, 1101); --Fire
 
@@ -87,7 +87,7 @@ VALUES ('Lava 1',
 'http://htkb.info/SDE/2.0/Cards/Utility/Terrain/DP/Card_Terrain_Lava_1_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Utility/Terrain/Card_Terrain_Back_2.0.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Utility/Lava_1.xhtml', 
-'Terrain', '2.0 DI', '2.0 Dragon''s Peak', 'Default', '');
+'Terrain', '2.0', '2.0 DP', 'Default', '');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (2004, ''); 
 insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (21, 1103); --Lava
 
@@ -107,7 +107,7 @@ VALUES ('Spawn Location',
 'http://htkb.info/SDE/2.0/Cards/Utility/Terrain/DI/Card_Terrain_Spawn_Location_2.0_DI.png', 
 'http://htkb.info/SDE/2.0/Cards/Utility/Terrain/Card_Terrain_Back_2.0.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Utility/Spawn_Location_DI.xhtml', 
-'Terrain', '2.0 DI', '2.0 Devil''s Island', 'Default', '');
+'Terrain', '2.0 DI', '2.0 DI', 'Default', '');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (2006, ''); 
 insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (23, 1104); --Spawn Location
 
@@ -127,7 +127,7 @@ VALUES ('Structure',
 'http://htkb.info/SDE/2.0/Cards/Utility/Terrain/DI/Card_Terrain_Structure_2.0_DI.png', 
 'http://htkb.info/SDE/2.0/Cards/Utility/Terrain/Card_Terrain_Back_2.0.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Utility/Structure_DI.xhtml', 
-'Terrain', '2.0 DI', '2.0 Devil''s Island', 'Default', '');
+'Terrain', '2.0 DI', '2.0 DI', 'Default', '');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (2008, ''); 
 insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (25, 1017); --Structure
 
@@ -147,7 +147,7 @@ VALUES ('Treasure Pile',
 'http://htkb.info/SDE/2.0/Cards/Utility/Terrain/DI/Card_Terrain_Treasure_Pile_2.0_DI.png', 
 'http://htkb.info/SDE/2.0/Cards/Utility/Terrain/Card_Terrain_Back_2.0.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Utility/Treasure_Pile_DI.xhtml', 
-'Terrain', '2.0 DI', '2.0 Devil''s Island', 'Default', '');
+'Terrain', '2.0 DI', '2.0 DI', 'Default', '');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (2010, ''); 
 insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (27, 1105); --Treasure Pile
 
