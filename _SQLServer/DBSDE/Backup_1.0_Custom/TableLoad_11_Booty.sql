@@ -1,3 +1,5 @@
+--SDE
 --1.0 Custom
 --Booty
---Boo Boody --Card Index cXXX  --Explore Character Index --eXXX
+
+--Name --Card Index cXXX  --Explore Character Index --eXXX

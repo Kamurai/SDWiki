@@ -1,3 +1,4 @@
+--SDE
 --1.0.2
 --Bosses
 --The Forgotten King --Index cXXX

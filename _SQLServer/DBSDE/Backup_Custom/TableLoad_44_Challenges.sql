@@ -1,3 +1,5 @@
+--SDE
 --Custom 
 --Challenge Cards
---Backpack	--CardIndex cXXX --ChallengeIndex clXXX
+
+--Name	--CardIndex cXXX --ChallengeIndex clXXX

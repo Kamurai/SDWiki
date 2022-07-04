@@ -1,4 +1,7 @@
---2.0 Equipment
+--SDE
+--2.0.1
+--Equipment
+
 --Accursed Longsword --CardIndex 1512 --EquipmentIndex 293
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Accursed Longsword',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Generic/Card_Treasure_Accursed_Longsword_2.0.png', 

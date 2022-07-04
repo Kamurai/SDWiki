@@ -2,7 +2,6 @@
 --2.0 
 --Heroes
 
-
 --Abominable Snowman --CardIndex 762	--CharacterIndex 372	--ExploreCharacterIndex 267
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Abominable Snowman', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Abominable_Snowman_2.0.png', 

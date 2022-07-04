@@ -1,3 +1,4 @@
+--SDE
 --1.0.2
 --Heroes
 --Questing Knight --Card Index cXXX --Explore Character Index eXXX

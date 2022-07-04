@@ -1,3 +1,4 @@
+--SDE
 --1.0.2
 --Abilities
 /*Magic Armor						--Index abXXX*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0', 'Default', 'Magic Armor', 'Potion', 'Support', 0, 3, -1, '+1R ARM');

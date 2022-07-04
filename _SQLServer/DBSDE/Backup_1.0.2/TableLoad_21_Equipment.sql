@@ -1,3 +1,4 @@
+--SDE
 --1.0.2
 --Equipment
---Assassin's Crossbow --CardIndex cXXX --EquipmentIndex eXXX
+--Name --CardIndex cXXX --EquipmentIndex eXXX

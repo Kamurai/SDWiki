@@ -1,2 +1,5 @@
---Custom Arcade Booty
---Boody Biter	--CardIndex cXXX	--CharacterIndex chXXX	--ArcadeCharacterIndex arXXX
+--SDE
+--Custom
+--Arcade Booty
+
+--Name	--CardIndex cXXX	--CharacterIndex chXXX	--ArcadeCharacterIndex arXXX
