@@ -1458,7 +1458,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Generic/Ember_Tower_Robes.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Only the most esteemed Ember Mages wear the robes of the tower.');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1650, 'Treasure', 'Left', '+1R WILL');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1651, 'Treasure', 'Left', '+1R WILL');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (432, 588); --Fire
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (432, 1141); --Flaming Gaze
 

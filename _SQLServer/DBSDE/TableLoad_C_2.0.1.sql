@@ -20390,7 +20390,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/2.0/Cards/Loot/Lock/Card_Loot_Enchanted_Shuriken_Lock_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Loot/Lock/Enchanted_Shuriken_Lock.xhtml', 
-'Lock Loot', '2.0', '2.0 Core Set', 'Default',
+'Loot', '2.0', '2.0 Core Set', 'Default',
 'Are you controlling that with your mind!?');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1655, 'Lock Loot', 'Right', '+1R WILL');
 
@@ -20566,7 +20566,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/2.0/Cards/Loot/Lock/Card_Loot_Fizzy_Beverage_Lock_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Loot/Lock/Fizzy_Beverage_Lock.xhtml', 
-'Lock Loot', '2.0', '2.0 Core Set', 'Default',
+'Loot', '2.0', '2.0 Core Set', 'Default',
 'So much sugar!');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1672, 'Lock Loot', 'Top', '+1AC');
 
@@ -20764,7 +20764,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/2.0/Cards/Loot/Lock/Card_Loot_Gappa_Cape_Lock_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Loot/Lock/Gappa_Cape_Lock.xhtml', 
-'Lock Loot', '2.0', '2.0 Core Set', 'Default',
+'Loot', '2.0', '2.0 Core Set', 'Default',
 'Do the Ijin even realize what they stole?');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1690, 'Lock Loot', 'Left', '+1B WILL');
 
@@ -21404,7 +21404,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/2.0/Cards/Loot/Lock/Card_Loot_Kabuto_Lock_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Loot/Lock/Kabuto_Lock.xhtml', 
-'Lock Loot', '2.0', '2.0 Core Set', 'Default',
+'Loot', '2.0', '2.0 Core Set', 'Default',
 'The things you find in an oni''s trash heap...');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1751, 'Lock Loot', 'Bottom', '+1R ARM');
 
@@ -21443,7 +21443,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/2.0/Cards/Loot/Lock/Card_Loot_Kawari_Kabuto_Lock_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Loot/Lock/Kawari_Kabuto_Lock.xhtml', 
-'Lock Loot', '2.0', '2.0 Core Set', 'Default',
+'Loot', '2.0', '2.0 Core Set', 'Default',
 'Sawed the horns off an oni myself!');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1755, 'Lock Loot', 'Bottom', '+1R STR');
 
@@ -21482,7 +21482,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/2.0/Cards/Loot/Lock/Card_Loot_Kikko_Gane_Do_Lock_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Loot/Lock/Kikko_Gane_Do_Lock.xhtml', 
-'Lock Loot', '2.0', '2.0 Core Set', 'Default',
+'Loot', '2.0', '2.0 Core Set', 'Default',
 'Some shuriken sticking in the shoulder, but it''s still good!');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1759, 'Lock Loot', 'Left', '+1B ARM');
 
@@ -21521,7 +21521,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/2.0/Cards/Loot/Lock/Card_Loot_Kitty_Kat_Cloak_Lock_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Loot/Lock/Kitty_Kat_Cloak_Lock.xhtml', 
-'Lock Loot', '2.0', '2.0 Core Set', 'Default',
+'Loot', '2.0', '2.0 Core Set', 'Default',
 'Meow?');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1763, 'Lock Loot', 'Left', '+1B DEX');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (544, 1023); --Surefoot
@@ -21568,7 +21568,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/2.0/Cards/Loot/Lock/Card_Loot_Komuso_Tengai_Lock_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Loot/Lock/Komuso_Tengai_Lock.xhtml', 
-'Lock Loot', '2.0', '2.0 Core Set', 'Default',
+'Loot', '2.0', '2.0 Core Set', 'Default',
 'Ego is a cage. But so is this helmet.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1768, 'Lock Loot', 'Left', '+1B WILL');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (549, 676); --Immune: Ice
@@ -21578,7 +21578,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/2.0/Cards/Loot/Lock/Card_Loot_Kusari_Gusoku_Lock_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Loot/Lock/Kusari_Gusoku_Lock.xhtml', 
-'Lock Loot', '2.0', '2.0 Core Set', 'Default',
+'Loot', '2.0', '2.0 Core Set', 'Default',
 'Come at me!');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1769, 'Lock Loot', 'Left', '+1B ARM');
 
@@ -21829,7 +21829,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/2.0/Cards/Loot/Lock/Card_Loot_Masterwork_Tekko_Lock_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Loot/Lock/Masterwork_Tekko_Lock.xhtml', 
-'Lock Loot', '2.0', '2.0 Core Set', 'Default',
+'Loot', '2.0', '2.0 Core Set', 'Default',
 'When you''re tired of messing around.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1793, 'Lock Loot', 'Left', '+1B STR');
 
@@ -22169,7 +22169,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/2.0/Cards/Loot/Lock/Card_Loot_Old_Bucket_Lock_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Loot/Lock/Old_Bucket_Lock.xhtml', 
-'Lock Loot', '2.0', '2.0 Core Set', 'Default',
+'Loot', '2.0', '2.0 Core Set', 'Default',
 'There''s a hole in the bucket.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1824,' Lock Loot', 'Bottom', '+1B DEX');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (605, 674); --Immune: Fire
@@ -22251,7 +22251,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/2.0/Cards/Loot/Lock/Card_Loot_Otachi_Lock_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Loot/Lock/Otachi_Lock.xhtml', 
-'Lock Loot', '2.0', '2.0 Core Set', 'Default',
+'Loot', '2.0', '2.0 Core Set', 'Default',
 'A cursed blade forged from the claws of a yokai, wreathed in flame.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1832, 'Lock Loot', 'Right', '+1B STR');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (613, 588); --Fire
@@ -22700,7 +22700,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/2.0/Cards/Loot/Lock/Card_Loot_Saya_Lock_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Loot/Lock/Saya_Lock.xhtml', 
-'Lock Loot', '2.0', '2.0 Core Set', 'Default',
+'Loot', '2.0', '2.0 Core Set', 'Default',
 'Keep your blade with care.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1874, 'Lock Loot', 'Right', '+1B ARM');
 
@@ -22730,7 +22730,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/2.0/Cards/Loot/Lock/Card_Loot_Sea_Salt_Kote_Lock_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Loot/Lock/Sea_Salt_Kote_Lock.xhtml', 
-'Lock Loot', '2.0', '2.0 Core Set', 'Default',
+'Loot', '2.0', '2.0 Core Set', 'Default',
 'Those were for practice!');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1877, 'Lock Loot', 'Right', '+1B ARM');
 
@@ -23367,7 +23367,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/2.0/Cards/Loot/Lock/Card_Loot_Tanto_Lock_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Loot/Lock/Tanto_Lock.xhtml', 
-'Lock Loot', '2.0', '2.0 Core Set', 'Default',
+'Loot', '2.0', '2.0 Core Set', 'Default',
 'Keep it in your off-hand. Or keep it hidden when swords are forbidden.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1935, 'Lock Loot', 'Right', '+1R DEX');
 
@@ -24017,7 +24017,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/2.0/Cards/Loot/Lock/Card_Loot_Zukin_Helmet_Lock_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Loot/Lock/Zukin_Helmet_Lock.xhtml', 
-'Lock Loot', '2.0', '2.0 Core Set', 'Default',
+'Loot', '2.0', '2.0 Core Set', 'Default',
 'Always protect your head.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1995, 'Lock Loot', 'Bottom', '+1ST ARM');
 
