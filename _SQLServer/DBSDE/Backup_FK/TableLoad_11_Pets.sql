@@ -14,7 +14,7 @@ insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender
 VALUES (130,
 'http://htkb.info/SDE/FK/Cards/Pets/Standies/Admiral_Fuzzybottom_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Pets/Standies/Admiral_Fuzzybottom_FK_back.png',
-'Either', 'Small', 'Wonder', 7, 1, '3B', '2ST', '', '', 0, 0);
+'Either', 'Small', 'Wonder', 7, 1, '3B', '2ST', '', '', 1, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (130, 1, 1);
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (130, 2);
 insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (130, '', -1);
@@ -33,7 +33,7 @@ insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender
 VALUES (131,
 'http://htkb.info/SDE/FK/Cards/Pets/Standies/Colonel_The_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Pets/Standies/Colonel_The_FK_back.png',
-'Either', 'Small', 'Wonder', 6, 1, '2R', '3B', '', '', 0, 0);
+'Either', 'Small', 'Wonder', 6, 1, '2R', '3B', '', '', 1, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (131, 1, 1);
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (131, 2);
 insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (131, '', -1);
@@ -53,7 +53,7 @@ insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender
 VALUES (132,
 'http://htkb.info/SDE/FK/Cards/Pets/Standies/Lord_Gruff_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Pets/Standies/Lord_Gruff_FK_back.png',
-'Masculine', 'Small', 'Wonder', 6, 1, '3B', '3ST', '', '', 0, 0);
+'Masculine', 'Small', 'Wonder', 6, 1, '3B', '3ST', '', '', 1, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (132, 1, 1);
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (132, 2);
 insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (132, '', -1);
@@ -73,7 +73,7 @@ insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender
 VALUES (133,
 'http://htkb.info/SDE/FK/Cards/Pets/Standies/Madam_Hilde_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Pets/Standies/Madam_Hilde_FK_back.png',
-'Feminine', 'Small', 'Wonder', 6, 1, '1B1R', '3ST', '', '', 0, 0);
+'Feminine', 'Small', 'Wonder', 6, 1, '1B1R', '3ST', '', '', 1, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (133, 1, 1);
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (133, 2);
 insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (133, '', -1);
@@ -93,7 +93,7 @@ insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender
 VALUES (134,
 'http://htkb.info/SDE/FK/Cards/Pets/Standies/Miss_G_Snorts_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Pets/Standies/Miss_G_Snorts_FK_back.png',
-'Feminine', 'Small', 'Wonder', 6, 1, '3B', '2ST', '', '', 0, 0);
+'Feminine', 'Small', 'Wonder', 6, 1, '3B', '2ST', '', '', 1, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (134, 1, 1);
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (134, 2);
 insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (134, '', -1);
@@ -113,7 +113,7 @@ insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender
 VALUES (135,
 'http://htkb.info/SDE/FK/Cards/Pets/Standies/Mr_Chompers_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Pets/Standies/Mr_Chompers_FK_back.png',
-'Masculine', 'Small', 'Wonder', 6, 1, '2R', '2ST', '', '', 0, 0);
+'Masculine', 'Small', 'Wonder', 6, 1, '2R', '2ST', '', '', 1, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (135, 1, 1);
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (135, 2);
 insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (135, '', -1);
@@ -133,7 +133,7 @@ insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender
 VALUES (136,
 'http://htkb.info/SDE/FK/Cards/Pets/Standies/Mr_Bitey_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Pets/Standies/Mr_Bitey_FK_back.png',
-'Masculine', 'Small', 'Wonder', 6, 2, '2R', '2ST', '', '', 0, 0);
+'Masculine', 'Small', 'Wonder', 6, 2, '2R', '2ST', '', '', 1, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (136, 1, 1);
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (136, 2);
 insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (136, '', -1);
@@ -153,7 +153,7 @@ insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender
 VALUES (137,
 'http://htkb.info/SDE/FK/Cards/Pets/Standies/Never_Lost_Cola_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Pets/Standies/Never_Lost_Cola_FK_back.png',
-'Masculine', 'Small', 'Wonder', 6, 2, '2R', '2ST', '', '', 0, 0);
+'Masculine', 'Small', 'Wonder', 6, 2, '2R', '2ST', '', '', 1, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (137, 1, 1);
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (137, 2);
 insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (137, '', -1);

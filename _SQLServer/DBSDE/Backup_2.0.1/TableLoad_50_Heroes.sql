@@ -1,8 +1,6 @@
 --SDE
---FK SD Arena 
+--2.0.1
 --Heroes
-
-
 
 --Bladedancer --CardIndex 2222	--CharacterIndex 1100	--ExploreCharacterIndex 768
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Bladedancer', 
