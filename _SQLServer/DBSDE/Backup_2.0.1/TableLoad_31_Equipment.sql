@@ -1626,7 +1626,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/2.0/Cards/Prayer_Slips/Card_Prayer_Slip_Fell_My_Enemies_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Prayer_Slips/Card_Prayer_Slip_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Prayer_Slips/Fell_My_Enemies.xhtml', 
-'Prayer Slips', '2.0', '2.0 Core Set', 'Default',
+'Prayer Slip', '2.0', '2.0 Core Set', 'Default',
 ''); --!! unavailable !!
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1667, 'Prayer Slip', 'Bottom', '...model may discard this Prayer Slip at ....of its activation. If it does, all of its attacks gain Burst 1');
 
@@ -1635,7 +1635,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/2.0/Cards/Prayer_Slips/Card_Prayer_Slip_Fell_My_Enemies_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Prayer_Slips/Card_Prayer_Slip_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Prayer_Slips/Fell_My_Enemies.xhtml', 
-'Prayer Slips', '2.0', '2.0 Core Set', 'Default',
+'Prayer Slip', '2.0', '2.0 Core Set', 'Default',
 ''); --!! unavailable !!
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1668, 'Prayer Slip', 'Left', 'This model may discard this Prayer Slip at the start of its activation. If it does, add one potion to the result of all of its rolls this activation (attacks still need to succeed in order to collect the potion).');
 
@@ -2038,7 +2038,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/2.0/Cards/Prayer_Slips/Card_Prayer_Slip_Guide_My_Fury_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Prayer_Slips/Card_Prayer_Slip_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Prayer_Slips/Guide_My_Fury.xhtml', 
-'Prayer Slips', '2.0', '2.0 Core Set', 'Default',
+'Prayer Slip', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1706, 'Prayer Slip', 'Bottom', 'This model may discard this Prayer Slip at the start of its activation. If it does, all of its attacks gain Massive Damage.');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (487, 727); --Massive Damage
@@ -2048,7 +2048,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/2.0/Cards/Prayer_Slips/Card_Prayer_Slip_Guide_My_Hand_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Prayer_Slips/Card_Prayer_Slip_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Prayer_Slips/Guide_My_Hand.xhtml', 
-'Prayer Slips', '2.0', '2.0 Core Set', 'Default',
+'Prayer Slip', '2.0', '2.0 Core Set', 'Default',
 ''); --!! unavailable !!
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1707, 'Prayer Slip', 'Left', 'This model may discard this Prayer Slip at the start of its activation. If it does, all of its rolls this activation gain +1B.');
 
@@ -2152,7 +2152,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/2.0/Cards/Prayer_Slips/Card_Prayer_Slip_Heal_This_Unworthy_Soul_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Prayer_Slips/Card_Prayer_Slip_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Prayer_Slips/Heal_This_Unworthy_Soul.xhtml', 
-'Prayer Slips', '2.0', '2.0 Core Set', 'Default',
+'Prayer Slip', '2.0', '2.0 Core Set', 'Default',
 ''); --!! unavailable !!
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1717, 'Prayer Slip', 'Top', 'This model may discard this Prayer Slip at ... turn. If it does, target.... Heals 3.');
 
@@ -2858,7 +2858,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/2.0/Cards/Prayer_Slips/Card_Prayer_Slip_Make_Swift_Their_Feet_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Prayer_Slips/Card_Prayer_Slip_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Prayer_Slips/Make_Swift_Their_Feet.xhtml', 
-'Prayer Slips', '2.0', '2.0 Core Set', 'Default',
+'Prayer Slip', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1785, 'Prayer Slip', 'Right', 'This model may discard this Prayer Slip at the start of another Hero''s activation. If it does, the Hero gains +3MO and Proficient this activation.');
 
@@ -2867,7 +2867,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/2.0/Cards/Prayer_Slips/Card_Prayer_Slip_Make_Swift_Their_Mind_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Prayer_Slips/Card_Prayer_Slip_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Prayer_Slips/Make_Swift_Their_Mind.xhtml', 
-'Prayer Slips', '2.0', '2.0 Core Set', 'Default',
+'Prayer Slip', '2.0', '2.0 Core Set', 'Default',
 ''); --!! unavailable !!
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1786, 'Prayer Slip', 'Right', 'This model may discard this Prayer Slip at the start of another ... gains +1AC ...');
 
