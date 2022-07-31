@@ -27,11 +27,11 @@
             <div>
                 <div class="standiePicturePictureContainer">
                     <!-- Front of Card -->
-                    <img class="standiePicture" src="#{SDEExploreCharacterBean.getExploreCharacter().getStandieFront()}"/>
+                    <img class="standiePicture" src="#{SDEPetBean.getPet().getStandieFront()}"/>
                 </div>
                 <div class="standiePicturePictureContainer">
                     <!-- Back of Card -->
-                    <img class="standiePicture" src="#{SDEExploreCharacterBean.getExploreCharacter().getStandieBack()}"/>
+                    <img class="standiePicture" src="#{SDEPetBean.getPet().getStandieBack()}"/>
                 </div>
             </div>
             
@@ -192,7 +192,7 @@
                 <div>Keywords:</div>
                 <ui:repeat var="x" value="#{SDEPetBean.getPet().getKeywords()}" size="#{SDEPetBean.getPet().getKeywords().size()}" varStatus="myVarStatus" >
                     <ui:fragment rendered="#{x.validateKeyword()}">
-                        <<ui:include src="/Content/Keyword.xhtml">
+                        <ui:include src="/Content/Keyword.xhtml">
                             <ui:param name="keyword" value="x"/>
                         </ui:include>
                     </ui:fragment>

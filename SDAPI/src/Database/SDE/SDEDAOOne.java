@@ -305,6 +305,8 @@ public class SDEDAOOne extends SDEDAO{
                     result.setModule(rs.getString("ProductModule"));
                     result.setMode(rs.getString("PlayMode"));
                     result.setFlavor(rs.getString("Flavor"));
+                    result.setStandieFront(rs.getString("StandieFront"));
+                    result.setStandieBack(rs.getString("StandieBack"));
                     result.setGender(rs.getString("Gender"));
                     result.setModelSize(rs.getString("ModelSize"));
                     result.setCreatureType(rs.getString("CreatureType"));
@@ -468,6 +470,8 @@ public class SDEDAOOne extends SDEDAO{
                     result.setModule(rs.getString("ProductModule"));
                     result.setMode(rs.getString("PlayMode"));
                     result.setFlavor(rs.getString("Flavor"));
+                    result.setStandieFront(rs.getString("StandieFront"));
+                    result.setStandieBack(rs.getString("StandieBack"));
                     result.setGender(rs.getString("Gender"));
                     result.setModelSize(rs.getString("ModelSize"));
                     result.setCreatureType(rs.getString("CreatureType"));
