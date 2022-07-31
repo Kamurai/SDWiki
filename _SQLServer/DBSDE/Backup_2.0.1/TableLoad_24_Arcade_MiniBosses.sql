@@ -354,10 +354,10 @@ VALUES (908, 373, -1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (908, 0); --Amethyst
 --GangMemberIndex 588
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (140, 0, 'Yamazaru Chunin', 'Yamazaru', 'MiniBoss', 7, 7, 3, 173);
+VALUES (140, 0, 'Yurei Chunin', 'Yurei Undead', 'MiniBoss', 7, 7, 3, 173);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (588, 562); --Dragged To The Depths
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (588, 728); --Massive Damage
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (588, 1049); --Drowning Deep, The
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (588, 1049); --Drowning Deeps, The
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (588, 1198); --Fury of Eternity
 
 --Clan Yurei Oni	--CardIndex 1299	--CharacterIndex 909	--ArcadeCharacterIndex 141
@@ -373,7 +373,7 @@ VALUES (909, 373, -1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (909, 0); --Amethyst
 --GangMemberIndex 589
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (141, 0, 'Yamazaru Chunin', 'Yamazaru', 'MiniBoss', 5, 9, 3, 174);
+VALUES (141, 0, 'Yurei Oni', 'Undead', 'MiniBoss', 5, 9, 3, 174);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (589, 562); --Dragged To The Depths
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (589, 672); --Immobile
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (589, 726); --Massive Damage
@@ -467,7 +467,7 @@ VALUES (914, 373, -1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (914, 1); --Citrine
 --GangMemberIndex 594
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (146, 0, 'Ezoghoul', 'Ezoghoul', 'MiniBoss', 8, 7, 3, 179);
+VALUES (146, 0, 'Ezoghoul', 'Dark Legion', 'MiniBoss', 8, 7, 3, 179);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (594, 681); --Immune: Status Effects
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (594, 2075); --Blutarch Handcannon
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (594, 1460); --Necrosis

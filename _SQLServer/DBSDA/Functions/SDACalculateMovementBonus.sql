@@ -1,6 +1,6 @@
 --drop FUNCTION SDACalculateMovementBonus
 
-CREATE FUNCTION SDACalculateMovementBonus(
+CREATE OR ALTER FUNCTION SDACalculateMovementBonus(
 	@intMovement int
 )
 RETURNS int

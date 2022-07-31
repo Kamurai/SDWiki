@@ -1,4 +1,5 @@
+--SDE
 --Custom 
---Utility Cards
---Terrain
---Difficult Terrain --CardIndex cXXX --UtilityIndex uXXX --TerrainIndex tXXX
+--Terrain (Utility Cards)
+
+--Name --CardIndex cXXX --UtilityIndex uXXX --TerrainIndex tXXX

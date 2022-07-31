@@ -1,3 +1,5 @@
+--SDE
 --Custom 
 --Mighty Monster Cards
---Bonus ARM	--CardIndex cXXX --MightyMonsterIndex mXXX
+
+--Name	--CardIndex cXXX --MightyMonsterIndex mXXX

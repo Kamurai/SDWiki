@@ -1,3 +1,5 @@
+--SDE
 --Custom 
 --Plot Cards
---Acid Fog	--CardIndex cXXX --PlotIndex pXXX
+
+--Name	--CardIndex cXXX --PlotIndex pXXX

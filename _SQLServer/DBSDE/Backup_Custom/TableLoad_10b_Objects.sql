@@ -1,4 +1,7 @@
---2.0 Pets
+--SDE
+--Custom
+--Objects
+
 --Super Dungeon Ball --CardIndex cXXX	--CharacterIndex chXXX	--ExploreCharacterIndex eXXX
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Super Dungeon Ball',
 'http://htkb.info/SDE/SDBall/Cards/Objects/Card_Object_Super_Dungeon_Ball_Custom.png', 

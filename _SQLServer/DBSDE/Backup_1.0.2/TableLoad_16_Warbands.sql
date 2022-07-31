@@ -1,3 +1,4 @@
+--SDE
 --1.0.2
 --Warband Monsters
---Egg Clutch --Index cXXX
+--Name --Index cXXX

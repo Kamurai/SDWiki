@@ -1,2 +1,5 @@
---Custom Booty
---Boo Boody --CardIndex cXXX	--CharacterIndex chXXX	--ExploreCharacterIndex eXXX
+--SDE
+--Custom
+--Booty
+
+--Name --CardIndex cXXX	--CharacterIndex chXXX	--ExploreCharacterIndex eXXX

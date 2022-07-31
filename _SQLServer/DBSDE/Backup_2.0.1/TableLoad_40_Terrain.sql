@@ -1,153 +1,153 @@
 --2.0 Utility Cards
---Chasm --CardIndex 3010 --UtilityIndex 13 --TerrainIndex 12
+--Chasm --CardIndex 1996 --UtilityIndex 13 --TerrainIndex 12
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
 VALUES ('Chasm',
 'http://htkb.info/SDE/2.0/Cards/Utility/Terrain/Card_Terrain_Chasm_2.0_DI.png', 
 'http://htkb.info/SDE/2.0/Cards/Utility/Terrain/Card_Terrain_Back_2.0.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Utility/Chasm.xhtml', 
-'Terrain', '2.0 Devil''s Island', '2.0 Devil''s Island', 'Default', '');
-insert into Utilities (CardIndex, UtilityDescription) VALUES (3010, ''); 
+'Terrain', '2.0', '2.0', 'Default', '');
+insert into Utilities (CardIndex, UtilityDescription) VALUES (1996, ''); 
 insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (13, 1099); --Chasm
 
---Chasm2 --CardIndex 3011 --UtilityIndex 14 --TerrainIndex 13
+--Chasm2 --CardIndex 1997 --UtilityIndex 14 --TerrainIndex 13
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
 VALUES ('Chasm2',
 'http://htkb.info/SDE/2.0/Cards/Utility/Terrain/Card_Terrain_Chasm2_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Utility/Terrain/Card_Terrain_Back_2.0.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Utility/Chasm2.xhtml', 
-'Terrain', '2.0 Devil''s Island', '2.0 Devil''s Island', 'Default', '');
-insert into Utilities (CardIndex, UtilityDescription) VALUES (3011, ''); 
+'Terrain', '2.0', '2.0', 'Default', '');
+insert into Utilities (CardIndex, UtilityDescription) VALUES (1997, ''); 
 insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (14, 1099); --Chasm
 
---Difficult Terrain --CardIndex 3012 --UtilityIndex 15 --TerrainIndex 14
+--Difficult Terrain --CardIndex 1998 --UtilityIndex 15 --TerrainIndex 14
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
 VALUES ('Difficult Terrain',
 'http://htkb.info/SDE/2.0/Cards/Utility/Terrain/Card_Terrain_Difficult_Terrain_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Utility/Terrain/Card_Terrain_Back_2.0.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Utility/Difficult_Terrain.xhtml', 
-'Terrain', '2.0 Devil''s Island', '2.0 Devil''s Island', 'Default', '');
-insert into Utilities (CardIndex, UtilityDescription) VALUES (3012, ''); 
+'Terrain', '2.0', '2.0', 'Default', '');
+insert into Utilities (CardIndex, UtilityDescription) VALUES (1998, ''); 
 insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (15, 1100); --Difficult Terrain
 
---Difficult Terrain DI --CardIndex 3013 --UtilityIndex 16 --TerrainIndex 15
+--Difficult Terrain DI --CardIndex 1999 --UtilityIndex 16 --TerrainIndex 15
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
 VALUES ('Difficult Terrain DI',
 'http://htkb.info/SDE/2.0/Cards/Utility/Terrain/DI/Card_Terrain_Difficult_Terrain_2.0_DI.png', 
 'http://htkb.info/SDE/2.0/Cards/Utility/Terrain/Card_Terrain_Back_2.0.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Utility/Difficult_Terrain_DI.xhtml', 
-'Terrain', '2.0 Devil''s Island', '2.0 Devil''s Island', 'Default', '');
-insert into Utilities (CardIndex, UtilityDescription) VALUES (3013, ''); 
+'Terrain', '2.0 DI', '2.0 DI', 'Default', '');
+insert into Utilities (CardIndex, UtilityDescription) VALUES (1999, ''); 
 insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (16, 1100); --Difficult Terrain
 
---Difficult Terrain2 --CardIndex 3014 --UtilityIndex 17 --TerrainIndex 16
+--Difficult Terrain2 --CardIndex 2000 --UtilityIndex 17 --TerrainIndex 16
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
 VALUES ('Difficult Terrain2',
 'http://htkb.info/SDE/2.0/Cards/Utility/Terrain/Card_Terrain_Difficult_Terrain2_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Utility/Terrain/Card_Terrain_Back_2.0.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Utility/Difficult_Terrain2.xhtml', 
-'Terrain', '2.0 Devil''s Island', '2.0 Devil''s Island', 'Default', '');
-insert into Utilities (CardIndex, UtilityDescription) VALUES (3014, ''); 
+'Terrain', '2.0', '2.0', 'Default', '');
+insert into Utilities (CardIndex, UtilityDescription) VALUES (2000, ''); 
 insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (17, 1100); --Difficult Terrain
 
---Fire DI--CardIndex 3015 --UtilityIndex 18 --TerrainIndex 17
+--Fire DI--CardIndex 2001 --UtilityIndex 18 --TerrainIndex 17
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
 VALUES ('Fire',
 'http://htkb.info/SDE/2.0/Cards/Utility/Terrain/DI/Card_Terrain_Fire_2.0_DI.png', 
 'http://htkb.info/SDE/2.0/Cards/Utility/Terrain/Card_Terrain_Back_2.0.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Utility/Fire_DI.xhtml', 
-'Terrain', '2.0 Devil''s Island', '2.0 Devil''s Island', 'Default', '');
-insert into Utilities (CardIndex, UtilityDescription) VALUES (3015, ''); 
+'Terrain', '2.0 DI', '2.0 DI', 'Default', '');
+insert into Utilities (CardIndex, UtilityDescription) VALUES (2001, ''); 
 insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (18, 1101); --Fire
 
---Goddess --CardIndex 3016 --UtilityIndex 19 --TerrainIndex 18
+--Goddess --CardIndex 2002 --UtilityIndex 19 --TerrainIndex 18
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
 VALUES ('Goddess',
 'http://htkb.info/SDE/2.0/Cards/Utility/Terrain/Card_Terrain_Goddess_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Utility/Terrain/Card_Terrain_Back_2.0.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Utility/Goddess.xhtml', 
-'Terrain', '2.0 Devil''s Island', '2.0 Devil''s Island', 'Default', '');
-insert into Utilities (CardIndex, UtilityDescription) VALUES (3016, ''); 
+'Terrain', '2.0', '2.0', 'Default', '');
+insert into Utilities (CardIndex, UtilityDescription) VALUES (2002, ''); 
 insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (19, 465); --Blessing
 insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (19, 1102); --Goddess
 insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (19, 1017); --Structure
 
---Lava --CardIndex 3017 --UtilityIndex 20 --TerrainIndex 19
+--Lava --CardIndex 2003 --UtilityIndex 20 --TerrainIndex 19
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
 VALUES ('Lava',
 'http://htkb.info/SDE/2.0/Cards/Utility/Terrain/Card_Terrain_Lava_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Utility/Terrain/Card_Terrain_Back_2.0.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Utility/Lava.xhtml', 
-'Terrain', '2.0 Devil''s Island', '2.0 Devil''s Island', 'Default', '');
-insert into Utilities (CardIndex, UtilityDescription) VALUES (3017, ''); 
+'Terrain', '2.0', '2.0', 'Default', '');
+insert into Utilities (CardIndex, UtilityDescription) VALUES (2003, ''); 
 insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (20, 1103); --Lava
 
---Lava 1 --CardIndex 3018 --UtilityIndex 21 --TerrainIndex 20
+--Lava 1 --CardIndex 2004 --UtilityIndex 21 --TerrainIndex 20
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
 VALUES ('Lava 1',
 'http://htkb.info/SDE/2.0/Cards/Utility/Terrain/DP/Card_Terrain_Lava_1_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Utility/Terrain/Card_Terrain_Back_2.0.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Utility/Lava_1.xhtml', 
-'Terrain', '2.0 Devil''s Island', '2.0 Devil''s Island', 'Default', '');
-insert into Utilities (CardIndex, UtilityDescription) VALUES (3018, ''); 
+'Terrain', '2.0', '2.0 DP', 'Default', '');
+insert into Utilities (CardIndex, UtilityDescription) VALUES (2004, ''); 
 insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (21, 1103); --Lava
 
---Spawn Location --CardIndex 3019 --UtilityIndex 22 --TerrainIndex 21
+--Spawn Location --CardIndex 2005 --UtilityIndex 22 --TerrainIndex 21
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
 VALUES ('Spawn Location',
 'http://htkb.info/SDE/2.0/Cards/Utility/Terrain/Card_Terrain_Spawn_Location_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Utility/Terrain/Card_Terrain_Back_2.0.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Utility/Spawn_Location.xhtml', 
-'Terrain', '2.0 Devil''s Island', '2.0 Devil''s Island', 'Default', '');
-insert into Utilities (CardIndex, UtilityDescription) VALUES (3019, ''); 
+'Terrain', '2.0', '2.0', 'Default', '');
+insert into Utilities (CardIndex, UtilityDescription) VALUES (2005, ''); 
 insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (22, 1104); --Spawn Location
 
---Spawn Location DI  --CardIndex 3020 --UtilityIndex 23 --TerrainIndex 22
+--Spawn Location DI  --CardIndex 2006 --UtilityIndex 23 --TerrainIndex 22
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
 VALUES ('Spawn Location',
 'http://htkb.info/SDE/2.0/Cards/Utility/Terrain/DI/Card_Terrain_Spawn_Location_2.0_DI.png', 
 'http://htkb.info/SDE/2.0/Cards/Utility/Terrain/Card_Terrain_Back_2.0.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Utility/Spawn_Location_DI.xhtml', 
-'Terrain', '2.0 Devil''s Island', '2.0 Devil''s Island', 'Default', '');
-insert into Utilities (CardIndex, UtilityDescription) VALUES (3020, ''); 
+'Terrain', '2.0 DI', '2.0 DI', 'Default', '');
+insert into Utilities (CardIndex, UtilityDescription) VALUES (2006, ''); 
 insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (23, 1104); --Spawn Location
 
---Structure --CardIndex 3021 --UtilityIndex 24 --TerrainIndex 23
+--Structure --CardIndex 2007 --UtilityIndex 24 --TerrainIndex 23
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
 VALUES ('Structure',
 'http://htkb.info/SDE/2.0/Cards/Utility/Terrain/Card_Terrain_Structure_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Utility/Terrain/Card_Terrain_Back_2.0.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Utility/Structure.xhtml', 
-'Terrain', '2.0 Devil''s Island', '2.0 Devil''s Island', 'Default', '');
-insert into Utilities (CardIndex, UtilityDescription) VALUES (3021, ''); 
+'Terrain', '2.0', '2.0', 'Default', '');
+insert into Utilities (CardIndex, UtilityDescription) VALUES (2007, ''); 
 insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (24, 1017); --Structure
 
---Structure DI  --CardIndex 3022 --UtilityIndex 25 --TerrainIndex 24
+--Structure DI  --CardIndex 2008 --UtilityIndex 25 --TerrainIndex 24
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
 VALUES ('Structure',
 'http://htkb.info/SDE/2.0/Cards/Utility/Terrain/DI/Card_Terrain_Structure_2.0_DI.png', 
 'http://htkb.info/SDE/2.0/Cards/Utility/Terrain/Card_Terrain_Back_2.0.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Utility/Structure_DI.xhtml', 
-'Terrain', '2.0 Devil''s Island', '2.0 Devil''s Island', 'Default', '');
-insert into Utilities (CardIndex, UtilityDescription) VALUES (3022, ''); 
+'Terrain', '2.0 DI', '2.0 DI', 'Default', '');
+insert into Utilities (CardIndex, UtilityDescription) VALUES (2008, ''); 
 insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (25, 1017); --Structure
 
---Structure2 --CardIndex 3023 --UtilityIndex 26 --TerrainIndex 25
+--Structure2 --CardIndex 2009 --UtilityIndex 26 --TerrainIndex 25
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
 VALUES ('Structure2',
 'http://htkb.info/SDE/2.0/Cards/Utility/Terrain/Card_Terrain_Structure2_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Utility/Terrain/Card_Terrain_Back_2.0.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Utility/Structure2.xhtml', 
-'Terrain', '2.0 Devil''s Island', '2.0 Devil''s Island', 'Default', '');
-insert into Utilities (CardIndex, UtilityDescription) VALUES (3023, ''); 
+'Terrain', '2.0', '2.0', 'Default', '');
+insert into Utilities (CardIndex, UtilityDescription) VALUES (2009, ''); 
 insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (26, 1017); --Structure
 
---Treasure Pile DI --CardIndex 3024 --UtilityIndex 27 --TerrainIndex 26
+--Treasure Pile DI --CardIndex 2010 --UtilityIndex 27 --TerrainIndex 26
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
 VALUES ('Treasure Pile',
 'http://htkb.info/SDE/2.0/Cards/Utility/Terrain/DI/Card_Terrain_Treasure_Pile_2.0_DI.png', 
 'http://htkb.info/SDE/2.0/Cards/Utility/Terrain/Card_Terrain_Back_2.0.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Utility/Treasure_Pile_DI.xhtml', 
-'Terrain', '2.0 Devil''s Island', '2.0 Devil''s Island', 'Default', '');
-insert into Utilities (CardIndex, UtilityDescription) VALUES (3024, ''); 
+'Terrain', '2.0 DI', '2.0 DI', 'Default', '');
+insert into Utilities (CardIndex, UtilityDescription) VALUES (2010, ''); 
 insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (27, 1105); --Treasure Pile
 
