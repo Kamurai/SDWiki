@@ -12,7 +12,7 @@ insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (439, 
 --Acorn of Life				--CardIndex 440		--EquipmentIndex 80
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Acorn of Life',
 'http://htkb.info/SDE/FK/Cards/Treasure/Specific/Card_Treasure_Acorn_of_Life_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Treasure/Specific/Card_Treasure_Back_FK.png',
+'http://htkb.info/SDE/FK/Cards/Treasure/Card_Treasure_Back_FK.png',
 'http://htkb.online/SDWiki/SDE/FK/Cards/Treasure/Acorn_of_Life.xhtml', 
 'Treasure', 'FK', 'FK Core Set', 'Default',
 '');
@@ -23,7 +23,7 @@ insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (80, 530); 
 --Alchemy Bag				--CardIndex 441		--EquipmentIndex 81 
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Alchemy Bag',
 'http://htkb.info/SDE/FK/Cards/Treasure/Specific/Card_Treasure_Alchemy_Bag_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Treasure/Specific/Card_Treasure_Back_FK.png',
+'http://htkb.info/SDE/FK/Cards/Treasure/Card_Treasure_Back_FK.png',
 'http://htkb.online/SDWiki/SDE/FK/Cards/Treasure/Alchemy_Bag.xhtml', 
 'Treasure', 'FK', 'FK Core Set', 'Default',
 '');
@@ -46,7 +46,7 @@ insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (442, 
 --Amethyst Crystal Shard	--CardIndex 443		--EquipmentIndex 83 
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Amethyst Crystal Shard',
 'http://htkb.info/SDE/FK/Cards/Treasure/Generic/Card_Treasure_Amethyst_Crystal_Shard_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Treasure/Generic/Card_Treasure_Back_FK.png',
+'http://htkb.info/SDE/FK/Cards/Treasure/Card_Treasure_Back_FK.png',
 'http://htkb.online/SDWiki/SDE/FK/Cards/Treasure/Amethyst_Amulet.xhtml', 
 'Treasure', 'FK', 'FK Core Set', 'Default',
 'Crystalia is mine, no one will stand in my way.');
@@ -68,7 +68,7 @@ insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (84, 700); 
 --Ancestral Mail			--CardIndex 445		--EquipmentIndex 85 
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ancestral Mail',
 'http://htkb.info/SDE/FK/Cards/Treasure/Generic/Card_Treasure_Ancestral_Mail_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Treasure/Generic/Card_Treasure_Back_FK.png',
+'http://htkb.info/SDE/FK/Cards/Treasure/Card_Treasure_Back_FK.png',
 'http://htkb.online/SDWiki/SDE/FK/Cards/Treasure/Ancestral_Mail.xhtml', 
 'Treasure', 'FK', 'FK Core Set', 'Default',
 'This mail has served my family for generations.');
@@ -141,7 +141,7 @@ insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (451, 
 --Assassin's Crossbow		--CardIndex 452		--EquipmentIndex 92 
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Assassin''s Crossbow',
 'http://htkb.info/SDE/FK/Cards/Treasure/Specific/Card_Treasure_Assassins_Crossbow_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Treasure/Specific/Card_Treasure_Back_FK.png',
+'http://htkb.info/SDE/FK/Cards/Treasure/Card_Treasure_Back_FK.png',
 'http://htkb.online/SDWiki/SDE/FK/Cards/Treasure/Assassins_Crossbow.xhtml', 
 'Treasure', 'FK', 'FK Core Set', 'Default',
 'I always get my prey.');
@@ -152,7 +152,7 @@ insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (92, 471); 
 --Bat Winged Key			--CardIndex 453		--EquipmentIndex 93 
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Bat Winged Key',
 'http://htkb.info/SDE/FK/Cards/Treasure/Specific/Card_Treasure_Bat_Winged_Key_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Treasure/Specific/Card_Treasure_Back_FK.png',
+'http://htkb.info/SDE/FK/Cards/Treasure/Card_Treasure_Back_FK.png',
 'http://htkb.online/SDWiki/SDE/FK/Cards/Treasure/Bat_Winged_Key.xhtml', 
 'Treasure', 'FK', 'FK Core Set', 'Default',
 '');
@@ -163,7 +163,7 @@ insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (93, 229); 
 --Bejeweled Shield			--CardIndex 454		--EquipmentIndex 94 
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Bejeweled Shield',
 'http://htkb.info/SDE/FK/Cards/Treasure/Generic/Card_Treasure_Bejeweled_Shield_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Treasure/Generic/Card_Treasure_Back_FK.png',
+'http://htkb.info/SDE/FK/Cards/Treasure/Card_Treasure_Back_FK.png',
 'http://htkb.online/SDWiki/SDE/FK/Cards/Treasure/Bejeweled_Shield.xhtml', 
 'Treasure', 'FK', 'FK Core Set', 'Default',
 '');
@@ -195,7 +195,7 @@ insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (96, 263); 
 --Bewitched Wand			--CardIndex 457		--EquipmentIndex 97 
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Bewitched Wand',
 'http://htkb.info/SDE/FK/Cards/Treasure/Specific/Card_Treasure_Bewitched_Wand_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Treasure/Specific/Card_Treasure_Back_FK.png',
+'http://htkb.info/SDE/FK/Cards/Treasure/Card_Treasure_Back_FK.png',
 'http://htkb.online/SDWiki/SDE/FK/Cards/Treasure/Bewitched_Wand.xhtml', 
 'Treasure', 'FK', 'FK Core Set', 'Default',
 'Chilled to the bone.');
@@ -237,7 +237,7 @@ insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (100, 206);
 --Black Spot				--CardIndex 461		--EquipmentIndex 101 
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Black Spot',
 'http://htkb.info/SDE/FK/Cards/Treasure/Specific/Card_Treasure_Black_Spot_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Treasure/Specific/Card_Treasure_Back_FK.png',
+'http://htkb.info/SDE/FK/Cards/Treasure/Card_Treasure_Back_FK.png',
 'http://htkb.online/SDWiki/SDE/FK/Cards/Treasure/Black_Spot.xhtml', 
 'Treasure', 'FK', 'FK Core Set', 'Default',
 'Ye be far too reckless fer me liking.');
@@ -248,7 +248,7 @@ insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (101, 205);
 --Black Tallow Candle		--CardIndex 462		--EquipmentIndex 102 
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Black Tallow Candle',
 'http://htkb.info/SDE/FK/Cards/Treasure/Specific/Card_Treasure_Black_Tallow_Candle_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Treasure/Specific/Card_Treasure_Back_FK.png',
+'http://htkb.info/SDE/FK/Cards/Treasure/Card_Treasure_Back_FK.png',
 'http://htkb.online/SDWiki/SDE/FK/Cards/Treasure/Black_Tallow_Candle.xhtml', 
 'Treasure', 'FK', 'FK Core Set', 'Default',
 'I can walk through walls, neat!');
@@ -271,7 +271,7 @@ insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (103, 702);
 --Blessed Spear				--CardIndex 464		--EquipmentIndex 104 
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Blessed Spear',
 'http://htkb.info/SDE/FK/Cards/Treasure/Generic/Card_Treasure_Blessed_Spear_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Treasure/Generic/Card_Treasure_Back_FK.png',
+'http://htkb.info/SDE/FK/Cards/Treasure/Card_Treasure_Back_FK.png',
 'http://htkb.online/SDWiki/SDE/FK/Cards/Treasure/Blessed_Spear.xhtml', 
 'Treasure', 'FK', 'FK Core Set', 'Default',
 'Goddess grant me strength.');
@@ -281,7 +281,7 @@ insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (464, 
 --Blue Shell				--CardIndex 465		--EquipmentIndex 105 
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Blue Shell',
 'http://htkb.info/SDE/FK/Cards/Treasure/Specific/Card_Treasure_Blue_Shell_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Treasure/Specific/Card_Treasure_Back_FK.png',
+'http://htkb.info/SDE/FK/Cards/Treasure/Card_Treasure_Back_FK.png',
 'http://htkb.online/SDWiki/SDE/FK/Cards/Treasure/Blue_Shell.xhtml', 
 'Treasure', 'FK', 'FK Core Set', 'Default',
 'Got him!');
@@ -314,7 +314,7 @@ insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (107,367); 
 --Boris's Bashful Bammer	--CardIndex 468		--EquipmentIndex 108 
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Boris''s Bashful Bammer',
 'http://htkb.info/SDE/FK/Cards/Treasure/Specific/Card_Treasure_Boris_Bashful_Bammer_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Treasure/Specific/Card_Treasure_Back_FK.png',
+'http://htkb.info/SDE/FK/Cards/Treasure/Card_Treasure_Back_FK.png',
 'http://htkb.online/SDWiki/SDE/FK/Cards/Treasure/Boris_Bashful_Bammer.xhtml', 
 'Treasure', 'FK', 'FK Core Set', 'Default',
 'I said, "stay down!"');
@@ -336,7 +336,7 @@ insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (109,367); 
 --Brain Souffle				--CardIndex 470		--EquipmentIndex 110 
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Brain Souffle',
 'http://htkb.info/SDE/FK/Cards/Treasure/Specific/Card_Treasure_Brain_Souffle_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Treasure/Specific/Card_Treasure_Back_FK.png',
+'http://htkb.info/SDE/FK/Cards/Treasure/Card_Treasure_Back_FK.png',
 'http://htkb.online/SDWiki/SDE/FK/Cards/Treasure/Brain_Souffle.xhtml', 
 'Treasure', 'FK', 'FK Core Set', 'Default',
 '');
@@ -348,7 +348,7 @@ insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (110, 184);
 --Bramble Bracers			--CardIndex 471		--EquipmentIndex 111 
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Bramble Bracers',
 'http://htkb.info/SDE/FK/Cards/Treasure/Specific/Card_Treasure_Bramble_Bracers_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Treasure/Specific/Card_Treasure_Back_FK.png',
+'http://htkb.info/SDE/FK/Cards/Treasure/Card_Treasure_Back_FK.png',
 'http://htkb.online/SDWiki/SDE/FK/Cards/Treasure/Bramble_Bracers.xhtml', 
 'Treasure', 'FK', 'FK Core Set', 'Default',
 'Struggle as you will, you won''t escape.');
@@ -380,7 +380,7 @@ insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (473, 
 --Burning Eye				--CardIndex 474 	--EquipmentIndex 114 
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Burning Eye',
 'http://htkb.info/SDE/FK/Cards/Treasure/Generic/Card_Treasure_Burning_Eye_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Treasure/Generic/Card_Treasure_Back_FK.png',
+'http://htkb.info/SDE/FK/Cards/Treasure/Card_Treasure_Back_FK.png',
 'http://htkb.online/SDWiki/SDE/FK/Cards/Treasure/Burning_Eye.xhtml', 
 'Treasure', 'FK', 'FK Core Set', 'Default',
 'My eyes! They burn!');
@@ -391,7 +391,7 @@ insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (114, 336);
 --Burning Horn				--CardIndex 475		--EquipmentIndex 115 
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Burning Horn',
 'http://htkb.info/SDE/FK/Cards/Treasure/Specific/Card_Treasure_Burning_Horn_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Treasure/Specific/Card_Treasure_Back_FK.png',
+'http://htkb.info/SDE/FK/Cards/Treasure/Card_Treasure_Back_FK.png',
 'http://htkb.online/SDWiki/SDE/FK/Cards/Treasure/Burning_Horn.xhtml', 
 'Treasure', 'FK', 'FK Core Set', 'Default',
 'Let them all burn.');
@@ -413,7 +413,7 @@ insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (116, 264);
 --Cat's Paw					--CardIndex 477		--EquipmentIndex 117 
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Cat''s Paw',
 'http://htkb.info/SDE/FK/Cards/Treasure/Specific/Card_Treasure_Cats_Paw_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Treasure/Specific/Card_Treasure_Back_FK.png',
+'http://htkb.info/SDE/FK/Cards/Treasure/Card_Treasure_Back_FK.png',
 'http://htkb.online/SDWiki/SDE/FK/Cards/Treasure/Cats_Paw.xhtml', 
 'Treasure', 'FK', 'FK Core Set', 'Default',
 '');
@@ -486,7 +486,7 @@ insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (483, 
 --Cheese Head				--CardIndex 484		--EquipmentIndex 124 
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Cheese Head',
 'http://htkb.info/SDE/FK/Cards/Treasure/Specific/Card_Treasure_Cheese_Head_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Treasure/Specific/Card_Treasure_Back_FK.png',
+'http://htkb.info/SDE/FK/Cards/Treasure/Card_Treasure_Back_FK.png',
 'http://htkb.online/SDWiki/SDE/FK/Cards/Treasure/Cheese_Head.xhtml', 
 'Treasure', 'FK', 'FK Core Set', 'Default',
 '');
@@ -497,7 +497,7 @@ insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (124, 345);
 --Citrine Crystal Shard		--CardIndex 485		--EquipmentIndex 125 
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Citrine Crystal Shard',
 'http://htkb.info/SDE/FK/Cards/Treasure/Generic/Card_Treasure_Citrine_Crystal_Shard_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Treasure/Generic/Card_Treasure_Back_FK.png',
+'http://htkb.info/SDE/FK/Cards/Treasure/Card_Treasure_Back_FK.png',
 'http://htkb.online/SDWiki/SDE/FK/Cards/Treasure/Citrine_Crystal_Shard.xhtml', 
 'Treasure', 'FK', 'FK Core Set', 'Default',
 '');
@@ -529,7 +529,7 @@ insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (127, 176);
 --Cloak of Wards			--CardIndex 488		--EquipmentIndex 128 
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Cloak of Wards',
 'http://htkb.info/SDE/FK/Cards/Treasure/Generic/Card_Treasure_Cloak_of_Wards_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Treasure/Generic/Card_Treasure_Back_FK.png',
+'http://htkb.info/SDE/FK/Cards/Treasure/Card_Treasure_Back_FK.png',
 'http://htkb.online/SDWiki/SDE/FK/Cards/Treasure/Cloak_of_Wards.xhtml', 
 'Treasure', 'FK', 'FK Core Set', 'Default',
 'Nothing can penetrate my defense.');
@@ -581,7 +581,7 @@ insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (492, 
 --Cursed Talisman			--CardIndex 493		--EquipmentIndex 133 
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Cursed Talisman',
 'http://htkb.info/SDE/FK/Cards/Treasure/Specific/Card_Treasure_Cursed_Talisman_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Treasure/Specific/Card_Treasure_Back_FK.png',
+'http://htkb.info/SDE/FK/Cards/Treasure/Card_Treasure_Back_FK.png',
 'http://htkb.online/SDWiki/SDE/FK/Cards/Treasure/Cursed_Talisman.xhtml', 
 'Treasure', 'FK', 'FK Core Set', 'Default',
 'I feel faint.');
@@ -623,7 +623,7 @@ insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (496, 
 --Death Scythe				--CardIndex 497		--EquipmentIndex 137 
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Death Scythe',
 'http://htkb.info/SDE/FK/Cards/Treasure/Specific/Card_Treasure_Death_Scythe_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Treasure/Specific/Card_Treasure_Back_FK.png',
+'http://htkb.info/SDE/FK/Cards/Treasure/Card_Treasure_Back_FK.png',
 'http://htkb.online/SDWiki/SDE/FK/Cards/Treasure/Death_Scythe.xhtml', 
 'Treasure', 'FK', 'FK Core Set', 'Default',
 'I am the reaper!');
@@ -634,7 +634,7 @@ insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (137, 369);
 --Deeproot Acorn			--CardIndex 498		--EquipmentIndex 138 
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Deeproot Acorn',
 'http://htkb.info/SDE/FK/Cards/Treasure/Specific/Card_Treasure_Deeproot_Acorn_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Treasure/Specific/Card_Treasure_Back_FK.png',
+'http://htkb.info/SDE/FK/Cards/Treasure/Card_Treasure_Back_FK.png',
 'http://htkb.online/SDWiki/SDE/FK/Cards/Treasure/Deeproot_Acorn.xhtml', 
 'Treasure', 'FK', 'FK Core Set', 'Default',
 '');
@@ -696,7 +696,7 @@ insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (143, 261);
 --Divine Vestments			--CardIndex 504		--EquipmentIndex 144 
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Divine Vestments',
 'http://htkb.info/SDE/FK/Cards/Treasure/Generic/Card_Treasure_Divine_Vestments_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Treasure/Generic/Card_Treasure_Back_FK.png',
+'http://htkb.info/SDE/FK/Cards/Treasure/Card_Treasure_Back_FK.png',
 'http://htkb.online/SDWiki/SDE/FK/Cards/Treasure/Divine_Vestments.xhtml', 
 'Treasure', 'FK', 'FK Core Set', 'Default',
 'May the Goddess bring you comfort.');
@@ -718,7 +718,7 @@ insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (145, 179);
 --Dragon Bow				--CardIndex 506		--EquipmentIndex 146 
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Dragon Bow',
 'http://htkb.info/SDE/FK/Cards/Treasure/Specific/Card_Treasure_Dragon_Bow_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Treasure/Specific/Card_Treasure_Back_FK.png',
+'http://htkb.info/SDE/FK/Cards/Treasure/Card_Treasure_Back_FK.png',
 'http://htkb.online/SDWiki/SDE/FK/Cards/Treasure/Dragpm_Bow.xhtml', 
 'Treasure', 'FK', 'FK Core Set', 'Default',
 'Everyone get down!');
@@ -729,7 +729,7 @@ insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (146, 572);
 --Dragon Horn				--CardIndex 507		--EquipmentIndex 147 
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Dragon Horn',
 'http://htkb.info/SDE/FK/Cards/Treasure/Specific/Card_Treasure_Dragon_Horn_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Treasure/Specific/Card_Treasure_Back_FK.png',
+'http://htkb.info/SDE/FK/Cards/Treasure/Card_Treasure_Back_FK.png',
 'http://htkb.online/SDWiki/SDE/FK/Cards/Treasure/Dragon_Horn.xhtml', 
 'Treasure', 'FK', 'FK Core Set', 'Default',
 'All will bow before me.');
@@ -741,7 +741,7 @@ insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (147, 268);
 --Dragon Lance				--CardIndex 508		--EquipmentIndex 148 
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Dragon Lance',
 'http://htkb.info/SDE/FK/Cards/Treasure/Specific/Card_Treasure_Dragon_Lance_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Treasure/Specific/Card_Treasure_Back_FK.png',
+'http://htkb.info/SDE/FK/Cards/Treasure/Card_Treasure_Back_FK.png',
 'http://htkb.online/SDWiki/SDE/FK/Cards/Treasure/Dragon_Lance.xhtml', 
 'Treasure', 'FK', 'FK Core Set', 'Default',
 '');
@@ -752,7 +752,7 @@ insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (148, 692);
 --Dragon Tooth Club			--CardIndex 509		--EquipmentIndex 149 
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Dragon Tooth Club',
 'http://htkb.info/SDE/FK/Cards/Treasure/Specific/Card_Treasure_Dragon_Tooth_Club_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Treasure/Specific/Card_Treasure_Back_FK.png',
+'http://htkb.info/SDE/FK/Cards/Treasure/Card_Treasure_Back_FK.png',
 'http://htkb.online/SDWiki/SDE/FK/Cards/Treasure/Dragon_Tooth_Club.xhtml', 
 'Treasure', 'FK', 'FK Core Set', 'Default',
 'Smash!  Smash!  Smash, little ants.');
@@ -763,7 +763,7 @@ insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (149, 628);
 --Drake Kabob				--CardIndex 510		--EquipmentIndex 150 
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Drake Kabob',
 'http://htkb.info/SDE/FK/Cards/Treasure/Specific/Card_Treasure_Drake_Kabob_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Treasure/Specific/Card_Treasure_Back_FK.png',
+'http://htkb.info/SDE/FK/Cards/Treasure/Card_Treasure_Back_FK.png',
 'http://htkb.online/SDWiki/SDE/FK/Cards/Treasure/Drake_Kabob.xhtml', 
 'Treasure', 'FK', 'FK Core Set', 'Default',
 'I always get my prey.');
@@ -846,7 +846,7 @@ insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (517, 
 --Emerald Crystal Shard		--CardIndex 518		--EquipmentIndex 158 
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Emerald Crystal Shard',
 'http://htkb.info/SDE/FK/Cards/Treasure/Generic/Card_Treasure_Emerald_Crystal_Shard_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Treasure/Generic/Card_Treasure_Back_FK.png',
+'http://htkb.info/SDE/FK/Cards/Treasure/Card_Treasure_Back_FK.png',
 'http://htkb.online/SDWiki/SDE/FK/Cards/Treasure/Emerald_Crystal_Shard.xhtml', 
 'Treasure', 'FK', 'FK Core Set', 'Default',
 '');
@@ -867,7 +867,7 @@ insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (519, 
 --Executioner's Axe			--CardIndex 520		--EquipmentIndex 160 
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Executioner''s Axe',
 'http://htkb.info/SDE/FK/Cards/Treasure/Generic/Card_Treasure_Executioners_Axe_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Treasure/Generic/Card_Treasure_Back_FK.png',
+'http://htkb.info/SDE/FK/Cards/Treasure/Card_Treasure_Back_FK.png',
 'http://htkb.online/SDWiki/SDE/FK/Cards/Treasure/Executioners_Axe.xhtml', 
 'Treasure', 'FK', 'FK Core Set', 'Default',
 'Don''t run with that!');
@@ -878,7 +878,7 @@ insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (160, 282);
 --Exemplar Shield			--CardIndex 521		--EquipmentIndex 161 
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Exemplar Shield',
 'http://htkb.info/SDE/FK/Cards/Treasure/Specific/Card_Treasure_Exemplar_Shield_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Treasure/Specific/Card_Treasure_Back_FK.png',
+'http://htkb.info/SDE/FK/Cards/Treasure/Card_Treasure_Back_FK.png',
 'http://htkb.online/SDWiki/SDE/FK/Cards/Treasure/Specific/Exemplar_Shield.xhtml', 
 'Treasure', 'FK', 'FK Core Set', 'Default',
 '');
@@ -940,7 +940,7 @@ insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (526, 
 --Fire Gel Goo				--CardIndex 527		--EquipmentIndex 167 
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Fire Gel Goo',
 'http://htkb.info/SDE/FK/Cards/Treasure/Specific/Card_Treasure_Fire_Gel_Goo_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Treasure/Specific/Card_Treasure_Back_FK.png',
+'http://htkb.info/SDE/FK/Cards/Treasure/Card_Treasure_Back_FK.png',
 'http://htkb.online/SDWiki/SDE/FK/Cards/Treasure/Specific/Fire_Gel_Goo.xhtml', 
 'Treasure', 'FK', 'FK Core Set', 'Default',
 'Oh gross!');
@@ -951,7 +951,7 @@ insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (167, 360);
 --Fireflow Brew				--CardIndex 528		--EquipmentIndex 168 
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Fireflow Brew',
 'http://htkb.info/SDE/FK/Cards/Treasure/Specific/Card_Treasure_Fireflow_Brew_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Treasure/Specific/Card_Treasure_Back_FK.png',
+'http://htkb.info/SDE/FK/Cards/Treasure/Card_Treasure_Back_FK.png',
 'http://htkb.online/SDWiki/SDE/FK/Cards/Treasure/Specific/Fireflow_Brew.xhtml', 
 'Treasure', 'FK', 'FK Core Set', 'Default',
 'I''m on fire!');
@@ -994,7 +994,7 @@ insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (171 , 706)
 --Fool's Gold				--CardIndex 532		--EquipmentIndex 172 
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Fool''s Gold',
 'http://htkb.info/SDE/FK/Cards/Treasure/Specific/Card_Treasure_Fools_Gold_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Treasure/Specific/Card_Treasure_Back_FK.png',
+'http://htkb.info/SDE/FK/Cards/Treasure/Card_Treasure_Back_FK.png',
 'http://htkb.online/SDWiki/SDE/FK/Cards/Treasure/Fools_Gold.xhtml', 
 'Treasure', 'FK', 'FK Core Set', 'Default',
 'Better lucky than smart, I always say.');
@@ -1026,7 +1026,7 @@ insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (174, 707);
 --Gem of Alar City			--CardIndex 535		--EquipmentIndex 175 
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Gem of Alar City',
 'http://htkb.info/SDE/FK/Cards/Treasure/Generic/Card_Treasure_Gem_of_Alar_City_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Treasure/Generic/Card_Treasure_Back_FK.png',
+'http://htkb.info/SDE/FK/Cards/Treasure/Card_Treasure_Back_FK.png',
 'http://htkb.online/SDWiki/SDE/FK/Cards/Treasure/Gen_of_Alar_City.xhtml', 
 'Treasure', 'FK', 'FK Core Set', 'Default',
 'You show remarkable alacrity.');
@@ -1036,7 +1036,7 @@ insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (535, 
 --Gem of Greed					--CardIndex 536		--EquipmentIndex 176 
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Gem of Greed',
 'http://htkb.info/SDE/FK/Cards/Treasure/Specific/Card_Treasure_Gem_of_Greed_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Treasure/Specific/Card_Treasure_Back_FK.png',
+'http://htkb.info/SDE/FK/Cards/Treasure/Card_Treasure_Back_FK.png',
 'http://htkb.online/SDWiki/SDE/FK/Cards/Treasure/Gem_of_Greed.xhtml', 
 'Treasure', 'FK', 'FK Core Set', 'Default',
 'Mine!  It''s all mine!');
@@ -1080,7 +1080,7 @@ insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (539, 
 --Grimy Grim Granite Greaves	--CardIndex 540		--EquipmentIndex 180 
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Grimy Grim Granite Greaves',
 'http://htkb.info/SDE/FK/Cards/Treasure/Specific/Card_Treasure_Grimy_Grim_Granite_Greaves_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Treasure/Specific/Card_Treasure_Back_FK.png',
+'http://htkb.info/SDE/FK/Cards/Treasure/Card_Treasure_Back_FK.png',
 'http://htkb.online/SDWiki/SDE/FK/Cards/Treasure/Grimy_Grim_Granite_Greaves.xhtml', 
 'Treasure', 'FK', 'FK Core Set', 'Default',
 'Keep moving, it''ll be over soon.');
@@ -1102,7 +1102,7 @@ insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (541, 
 --Guttering Candle				--CardIndex 542		--EquipmentIndex 182 
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Guttering Candle',
 'http://htkb.info/SDE/FK/Cards/Treasure/Generic/Card_Treasure_Guttering_Candle_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Treasure/Generic/Card_Treasure_Back_FK.png',
+'http://htkb.info/SDE/FK/Cards/Treasure/Card_Treasure_Back_FK.png',
 'http://htkb.online/SDWiki/SDE/FK/Cards/Treasure/Guttering_Candle.xhtml', 
 'Treasure', 'FK', 'FK Core Set', 'Default',
 '');
@@ -1124,7 +1124,7 @@ insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (183, 693);
 --Harvest Scythe				--CardIndex 544  	--EquipmentIndex 184 
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Harvest Scythe',
 'http://htkb.info/SDE/FK/Cards/Treasure/Specific/Card_Treasure_Harvest_Scythe_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Treasure/Specific/Card_Treasure_Back_FK.png',
+'http://htkb.info/SDE/FK/Cards/Treasure/Card_Treasure_Back_FK.png',
 'http://htkb.online/SDWiki/SDE/FK/Cards/Treasure/Harvest_Scythe.xhtml', 
 'Treasure', 'FK', 'FK Core Set', 'Default',
 'Nothing more than wheat.');
@@ -1176,7 +1176,7 @@ insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (188, 708);
 --Hero's Blade					--CardIndex 549		--EquipmentIndex 189 
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Hero''s Blade',
 'http://htkb.info/SDE/FK/Cards/Treasure/Generic/Card_Treasure_Heros_Blade_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Treasure/Generic/Card_Treasure_Back_FK.png',
+'http://htkb.info/SDE/FK/Cards/Treasure/Card_Treasure_Back_FK.png',
 'http://htkb.online/SDWiki/SDE/FK/Cards/Treasure/Heros_Blade.xhtml', 
 'Treasure', 'FK', 'FK Core Set', 'Default',
 'I am not left-handed.');
@@ -1187,7 +1187,7 @@ insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (189, 584);
 --Holy Water					--CardIndex 550		--EquipmentIndex 190 
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Holy Water',
 'http://htkb.info/SDE/FK/Cards/Treasure/Specific/Card_Treasure_Holy_Water_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Treasure/Specific/Card_Treasure_Back_FK.png',
+'http://htkb.info/SDE/FK/Cards/Treasure/Card_Treasure_Back_FK.png',
 'http://htkb.online/SDWiki/SDE/FK/Cards/Treasure/Specific/Holy_Water.xhtml', 
 'Treasure', 'FK', 'FK Core Set', 'Default',
 'Goddess protect us.');
@@ -1232,7 +1232,7 @@ insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (193, 265);
 --Jumbo Shuriken				--CardIndex 554		--EquipmentIndex 194 
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Jumbo Shuriken',
 'http://htkb.info/SDE/FK/Cards/Treasure/Specific/Card_Treasure_Jumbo_Shuriken_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Treasure/Specific/Card_Treasure_Back_FK.png',
+'http://htkb.info/SDE/FK/Cards/Treasure/Card_Treasure_Back_FK.png',
 'http://htkb.online/SDWiki/SDE/FK/Cards/Treasure/Jumbo_Shuriken.xhtml', 
 'Treasure', 'FK', 'FK Core Set', 'Default',
 'Great, now I need to go pick it up.');
@@ -1243,7 +1243,7 @@ insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (194, 697);
 --King's Map					--CardIndex 555		--EquipmentIndex 195 
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('King''s Map',
 'http://htkb.info/SDE/FK/Cards/Treasure/Specific/Card_Treasure_Kings_Map_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Treasure/Specific/Card_Treasure_Back_FK.png',
+'http://htkb.info/SDE/FK/Cards/Treasure/Card_Treasure_Back_FK.png',
 'http://htkb.online/SDWiki/SDE/FK/Cards/Treasure/Kings_Map.xhtml', 
 'Treasure', 'FK', 'FK Core Set', 'Default',
 'These tunnels go on forever.');
@@ -1266,7 +1266,7 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (196, 5
 --Lady's Favor					--CardIndex 557		--EquipmentIndex 197 
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Lady''s Favor',
 'http://htkb.info/SDE/FK/Cards/Treasure/Specific/Card_Treasure_Ladys_Favor_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Treasure/Specific/Card_Treasure_Back_FK.png',
+'http://htkb.info/SDE/FK/Cards/Treasure/Card_Treasure_Back_FK.png',
 'http://htkb.online/SDWiki/SDE/FK/Cards/Treasure/Ladys_Favor.xhtml', 
 'Treasure', 'FK', 'FK Core Set', 'Default',
 'I''ll not fail you.');
@@ -1297,7 +1297,7 @@ insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (199, 266);
 --Lost Love Pendant				--CardIndex 560		--EquipmentIndex 200 
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Lost Love Pendant',
 'http://htkb.info/SDE/FK/Cards/Treasure/Specific/Card_Treasure_Lost_Love_Pendant_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Treasure/Specific/Card_Treasure_Back_FK.png',
+'http://htkb.info/SDE/FK/Cards/Treasure/Card_Treasure_Back_FK.png',
 'http://htkb.online/SDWiki/SDE/FK/Cards/Treasure/Lost_Love_Pendant.xhtml', 
 'Treasure', 'FK', 'FK Core Set', 'Default',
 '');
@@ -1318,7 +1318,7 @@ insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (561, 
 --Lucky Striped Pants			--CardIndex 562		--EquipmentIndex 202 
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Lucky Striped Pants',
 'http://htkb.info/SDE/FK/Cards/Treasure/Generic/Card_Treasure_Lucky_Striped_Pants_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Treasure/Generic/Card_Treasure_Back_FK.png',
+'http://htkb.info/SDE/FK/Cards/Treasure/Card_Treasure_Back_FK.png',
 'http://htkb.online/SDWiki/SDE/FK/Cards/Treasure/Lucky_Striped_Pants.xhtml', 
 'Treasure', 'FK', 'FK Core Set', 'Default',
 'Lucky!');
@@ -1329,7 +1329,7 @@ insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (202, 281);
 --Lupine Totem Mask				--CardIndex 563		--EquipmentIndex 203 
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Lupine Totem Mask',
 'http://htkb.info/SDE/FK/Cards/Treasure/Specific/Card_Treasure_Lupine_Totem_Mask_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Treasure/Specific/Card_Treasure_Back_FK.png',
+'http://htkb.info/SDE/FK/Cards/Treasure/Card_Treasure_Back_FK.png',
 'http://htkb.online/SDWiki/SDE/FK/Cards/Treasure/Lupine_Totem_Mask.xhtml', 
 'Treasure', 'FK', 'FK Core Set', 'Default',
 '');
@@ -1371,7 +1371,7 @@ insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (566, 
 --Miner's Helm					--CardIndex 567		--EquipmentIndex 207 
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Miner''s Helm',
 'http://htkb.info/SDE/FK/Cards/Treasure/Specific/Card_Treasure_Miners_Helm_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Treasure/Specific/Card_Treasure_Back_FK.png',
+'http://htkb.info/SDE/FK/Cards/Treasure/Card_Treasure_Back_FK.png',
 'http://htkb.online/SDWiki/SDE/FK/Cards/Treasure/Miners_Helm.xhtml', 
 'Treasure', 'FK', 'FK Core Set', 'Default',
 'Flee shadows flee!');
@@ -1382,7 +1382,7 @@ insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (207, 261);
 --Monstrous Maul				--CardIndex 568		--EquipmentIndex 208 
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Monstrous Maul',
 'http://htkb.info/SDE/FK/Cards/Treasure/Generic/Card_Treasure_Monstrous_Maul_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Treasure/Generic/Card_Treasure_Back_FK.png',
+'http://htkb.info/SDE/FK/Cards/Treasure/Card_Treasure_Back_FK.png',
 'http://htkb.online/SDWiki/SDE/FK/Cards/Treasure/Monstrous_Maul.xhtml', 
 'Treasure', 'FK', 'FK Core Set', 'Default',
 'No blade will harm me.  No armor will stop me.');
@@ -1404,7 +1404,7 @@ insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (209, 711);
 --Mournful Vial					--CardIndex 570		--EquipmentIndex 210 
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Mournful Vial',
 'http://htkb.info/SDE/FK/Cards/Treasure/Specific/Card_Treasure_Mournful_Vial_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Treasure/Specific/Card_Treasure_Back_FK.png',
+'http://htkb.info/SDE/FK/Cards/Treasure/Card_Treasure_Back_FK.png',
 'http://htkb.online/SDWiki/SDE/FK/Cards/Treasure/Mournful_Vial.xhtml', 
 'Treasure', 'FK', 'FK Core Set', 'Default',
 '');
@@ -1426,7 +1426,7 @@ insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (571, 
 --Nether Sword					--CardIndex 572		--EquipmentIndex 212 
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Nether Sword',
 'http://htkb.info/SDE/FK/Cards/Treasure/Generic/Card_Treasure_Nether_Sword_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Treasure/Generic/Card_Treasure_Back_FK.png',
+'http://htkb.info/SDE/FK/Cards/Treasure/Card_Treasure_Back_FK.png',
 'http://htkb.online/SDWiki/SDE/FK/Cards/Treasure/Nether_Sword.xhtml', 
 'Treasure', 'FK', 'FK Core Set', 'Default',
 'Forged in the deepest pits, the merest scratch can prove fatal.');
@@ -1448,7 +1448,7 @@ insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (573, 
 --Pegasus Wings					--CardIndex 574		--EquipmentIndex 214 
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Pegasus Wings',
 'http://htkb.info/SDE/FK/Cards/Treasure/Generic/Card_Treasure_Pegasus_Wings_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Treasure/Generic/Card_Treasure_Back_FK.png',
+'http://htkb.info/SDE/FK/Cards/Treasure/Card_Treasure_Back_FK.png',
 'http://htkb.online/SDWiki/SDE/FK/Cards/Treasure/Pegasus_Wings.xhtml', 
 'Treasure', 'FK', 'FK Core Set', 'Default',
 '');
@@ -1547,7 +1547,7 @@ insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (222, 365);
 --Petrified Dragon Heart		--CardIndex 583		--EquipmentIndex 223 
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Petrified Dragon Heart',
 'http://htkb.info/SDE/FK/Cards/Treasure/Specific/Card_Treasure_Petrified_Dragon_Heart_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Treasure/Specific/Card_Treasure_Back_FK.png',
+'http://htkb.info/SDE/FK/Cards/Treasure/Card_Treasure_Back_FK.png',
 'http://htkb.online/SDWiki/SDE/FK/Cards/Treasure/Petrified_Dragon_Heart.xhtml', 
 'Treasure', 'FK', 'FK Core Set', 'Default',
 'It beats still.');
@@ -1580,7 +1580,7 @@ insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (585, 
 --Pinch of Salt					--CardIndex 586		--EquipmentIndex 226 
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Pinch of Salt',
 'http://htkb.info/SDE/FK/Cards/Treasure/Specific/Card_Treasure_Pinch_of_Salt_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Treasure/Specific/Card_Treasure_Back_FK.png',
+'http://htkb.info/SDE/FK/Cards/Treasure/Card_Treasure_Back_FK.png',
 'http://htkb.online/SDWiki/SDE/FK/Cards/Treasure/Pinch_of_Salt.xhtml', 
 'Treasure', 'FK', 'FK Core Set', 'Default',
 '');
@@ -1591,7 +1591,7 @@ insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (226, 698);
 --Pixelated Pendant				--CardIndex 587		--EquipmentIndex 227 
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Pixelated Pendant',
 'http://htkb.info/SDE/FK/Cards/Treasure/Generic/Card_Treasure_Pixelated_Pendant_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Treasure/Generic/Card_Treasure_Back_FK.png',
+'http://htkb.info/SDE/FK/Cards/Treasure/Card_Treasure_Back_FK.png',
 'http://htkb.online/SDWiki/SDE/FK/Cards/Treasure/Pixelated_Pendant.xhtml', 
 'Treasure', 'FK', 'FK Core Set', 'Default',
 'Does this dress make me look blocky?');
@@ -1623,7 +1623,7 @@ insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (229, 268);
 --Posh Pajamas					--CardIndex 590		--EquipmentIndex 230 
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Posh Pajamas',
 'http://htkb.info/SDE/FK/Cards/Treasure/Specific/Card_Treasure_Posh_Pajamas_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Treasure/Specific/Card_Treasure_Back_FK.png',
+'http://htkb.info/SDE/FK/Cards/Treasure/Card_Treasure_Back_FK.png',
 'http://htkb.online/SDWiki/SDE/FK/Cards/Treasure/Posh_Pajamas.xhtml', 
 'Treasure', 'FK', 'FK Core Set', 'Default',
 'So Comfy!');
@@ -1635,7 +1635,7 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (230, 3
 --Possessed Cloak				--CardIndex 591		--EquipmentIndex 231 
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Possessed Cloak',
 'http://htkb.info/SDE/FK/Cards/Treasure/Specific/Card_Treasure_Possessed_Cloak_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Treasure/Specific/Card_Treasure_Back_FK.png',
+'http://htkb.info/SDE/FK/Cards/Treasure/Card_Treasure_Back_FK.png',
 'http://htkb.online/SDWiki/SDE/FK/Cards/Treasure/Possessed_Cloak.xhtml', 
 'Treasure', 'FK', 'FK Core Set', 'Default',
 '');
@@ -1667,7 +1667,7 @@ insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (593, 
 --Pumpkin Bomb					--CardIndex 594		--EquipmentIndex 234 
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Pumpkin Bomb',
 'http://htkb.info/SDE/FK/Cards/Treasure/Specific/Card_Treasure_Pumpkin_Bomb_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Treasure/Specific/Card_Treasure_Back_FK.png',
+'http://htkb.info/SDE/FK/Cards/Treasure/Card_Treasure_Back_FK.png',
 'http://htkb.online/SDWiki/SDE/FK/Cards/Treasure/Pumpkin_Bomb.xhtml', 
 'Treasure', 'FK', 'FK Core Set', 'Default',
 'Throw it, quick!');
@@ -1690,7 +1690,7 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (235, 5
 --Rainproof Parasol				--CardIndex 596		--EquipmentIndex 236 
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Rainproof Parasol',
 'http://htkb.info/SDE/FK/Cards/Treasure/Specific/Card_Treasure_Rainproof_Parasol_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Treasure/Specific/Card_Treasure_Back_FK.png',
+'http://htkb.info/SDE/FK/Cards/Treasure/Card_Treasure_Back_FK.png',
 'http://htkb.online/SDWiki/SDE/FK/Cards/Treasure/Rainproof_Parasol.xhtml', 
 'Treasure', 'FK', 'FK Core Set', 'Default',
 '');
@@ -1702,7 +1702,7 @@ insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (236, 229);
 --Red Cap Hat					--CardIndex 597		--EquipmentIndex 237 
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Red Cap Hat',
 'http://htkb.info/SDE/FK/Cards/Treasure/Specific/Card_Treasure_Red_Cap_Hat_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Treasure/Specific/Card_Treasure_Back_FK.png',
+'http://htkb.info/SDE/FK/Cards/Treasure/Card_Treasure_Back_FK.png',
 'http://htkb.online/SDWiki/SDE/FK/Cards/Treasure/Red_Cap_Hat.xhtml', 
 'Treasure', 'FK', 'FK Core Set', 'Default',
 'Must fight more monsters!');
@@ -1713,7 +1713,7 @@ insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (237, 232);
 --Regal Portrait				--CardIndex 598		--EquipmentIndex 238 
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Regal Portrait',
 'http://htkb.info/SDE/FK/Cards/Treasure/Specific/Card_Treasure_Regal_Portrait_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Treasure/Specific/Card_Treasure_Back_FK.png',
+'http://htkb.info/SDE/FK/Cards/Treasure/Card_Treasure_Back_FK.png',
 'http://htkb.online/SDWiki/SDE/FK/Cards/Treasure/Regal_Portrait.xhtml', 
 'Treasure', 'FK', 'FK Core Set', 'Default',
 'Dear King, A magnificent dungeon-warming gift for you.  Cherish it always.');
@@ -1745,7 +1745,7 @@ insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (600, 
 --Roaring Pendant of the Wood	--CardIndex 601		--EquipmentIndex 241 
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Roaring Pendant of the Wood',
 'http://htkb.info/SDE/FK/Cards/Treasure/Specific/Card_Treasure_Roaring_Pendant_of_the_Wood_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Treasure/Specific/Card_Treasure_Back_FK.png',
+'http://htkb.info/SDE/FK/Cards/Treasure/Card_Treasure_Back_FK.png',
 'http://htkb.online/SDWiki/SDE/FK/Cards/Treasure/Roaring_Pendant_of_the_Wood.xhtml', 
 'Treasure', 'FK', 'FK Core Set', 'Default',
 '');
@@ -1756,7 +1756,7 @@ insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (241, 525);
 --Roxor's Bane					--CardIndex 602		--EquipmentIndex 242 
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Roxor''s Bane',
 'http://htkb.info/SDE/FK/Cards/Treasure/Specific/Card_Treasure_Roxors_Bane_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Treasure/Specific/Card_Treasure_Back_FK.png',
+'http://htkb.info/SDE/FK/Cards/Treasure/Card_Treasure_Back_FK.png',
 'http://htkb.online/SDWiki/SDE/FK/Cards/Treasure/Roxors_Bane.xhtml', 
 'Treasure', 'FK', 'FK Core Set', 'Default',
 '');
@@ -1777,7 +1777,7 @@ insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (243, 713);
 --Ruby Crystal Shard			--CardIndex 604		--EquipmentIndex 244 
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ruby Crystal Shard',
 'http://htkb.info/SDE/FK/Cards/Treasure/Generic/Card_Treasure_Ruby_Crystal_Shard_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Treasure/Generic/Card_Treasure_Back_FK.png',
+'http://htkb.info/SDE/FK/Cards/Treasure/Card_Treasure_Back_FK.png',
 'http://htkb.online/SDWiki/SDE/FK/Cards/Treasure/Ruby_Crystal_Shard.xhtml', 
 'Treasure', 'FK', 'FK Core Set', 'Default',
 '');
@@ -1799,7 +1799,7 @@ insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (245, 714);
 --Rumble and Ruckus				--CardIndex 606		--EquipmentIndex 246 
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Rumble & Ruckus',
 'http://htkb.info/SDE/FK/Cards/Treasure/Specific/Card_Treasure_Rumble_and_Ruckus_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Treasure/Specific/Card_Treasure_Back_FK.png',
+'http://htkb.info/SDE/FK/Cards/Treasure/Card_Treasure_Back_FK.png',
 'http://htkb.online/SDWiki/SDE/FK/Cards/Treasure/Rumble_and_Ruckus.xhtml', 
 'Treasure', 'FK', 'FK Core Set', 'Default',
 'Few can stand when Rumble & Ruckus shake the ground.');
@@ -1831,7 +1831,7 @@ insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (608, 
 --Sapphire Crystal Shard		--CardIndex 609		--EquipmentIndex 249 
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Sapphire Crystal Shard',
 'http://htkb.info/SDE/FK/Cards/Treasure/Generic/Card_Treasure_Sapphire_Crystal_Shard_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Treasure/Generic/Card_Treasure_Back_FK.png',
+'http://htkb.info/SDE/FK/Cards/Treasure/Card_Treasure_Back_FK.png',
 'http://htkb.online/SDWiki/SDE/FK/Cards/Treasure/Sapphire_Crystal_Shard.xhtml', 
 'Treasure', 'FK', 'FK Core Set', 'Default',
 '');
@@ -1842,7 +1842,7 @@ insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (249, 509);
 --Sceptre of the Archmage		--CardIndex 610		--EquipmentIndex 250 
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Sceptre of the Archmage',
 'http://htkb.info/SDE/FK/Cards/Treasure/Generic/Card_Treasure_Sceptre_of_the_Archmage_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Treasure/Generic/Card_Treasure_Back_FK.png',
+'http://htkb.info/SDE/FK/Cards/Treasure/Card_Treasure_Back_FK.png',
 'http://htkb.online/SDWiki/SDE/FK/Cards/Treasure/Sceptre_of_the_Archmage.xhtml', 
 'Treasure', 'FK', 'FK Core Set', 'Default',
 'Don''t underestimate me.');
@@ -1853,7 +1853,7 @@ insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (250, 335);
 --Shadow Crown					--CardIndex 611		--EquipmentIndex 251 
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Shadow Crown',
 'http://htkb.info/SDE/FK/Cards/Treasure/Specific/Card_Treasure_Shadow_Crown_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Treasure/Specific/Card_Treasure_Back_FK.png',
+'http://htkb.info/SDE/FK/Cards/Treasure/Card_Treasure_Back_FK.png',
 'http://htkb.online/SDWiki/SDE/FK/Cards/Treasure/Specific/Shadow_Crown.xhtml', 
 'Treasure', 'FK', 'FK Core Set', 'Default',
 'Swift and silent as a shadow.');
@@ -1885,7 +1885,7 @@ insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (253, 715);
 --Shimmering Robes				--CardIndex 614		--EquipmentIndex 254 
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Shimmering Robes',
 'http://htkb.info/SDE/FK/Cards/Treasure/Specific/Card_Treasure_Shimmering_Robes_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Treasure/Specific/Card_Treasure_Back_FK.png',
+'http://htkb.info/SDE/FK/Cards/Treasure/Card_Treasure_Back_FK.png',
 'http://htkb.online/SDWiki/SDE/FK/Cards/Treasure/Shimmering_Robes.xhtml', 
 'Treasure', 'FK', 'FK Core Set', 'Default',
 '');
@@ -1907,7 +1907,7 @@ insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (615, 
 --Silver Mirror					--CardIndex 616		--EquipmentIndex 256 
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Silver Mirror',
 'http://htkb.info/SDE/FK/Cards/Treasure/Specific/Card_Treasure_Silver_Mirror_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Treasure/Specific/Card_Treasure_Back_FK.png',
+'http://htkb.info/SDE/FK/Cards/Treasure/Card_Treasure_Back_FK.png',
 'http://htkb.online/SDWiki/SDE/FK/Cards/Treasure/Silver_Mirror.xhtml', 
 'Treasure', 'FK', 'FK Core Set', 'Default',
 '');
@@ -1980,7 +1980,7 @@ insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (622, 
 --Spinning Leek					--CardIndex 623		--EquipmentIndex 264 
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Spinning Leek',
 'http://htkb.info/SDE/FK/Cards/Treasure/Specific/Card_Treasure_Spinning_Leek_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Treasure/Specific/Card_Treasure_Back_FK.png',
+'http://htkb.info/SDE/FK/Cards/Treasure/Card_Treasure_Back_FK.png',
 'http://htkb.online/SDWiki/SDE/FK/Cards/Treasure/Spinning_Leek.xhtml', 
 'Treasure', 'FK', 'FK Core Set', 'Default',
 '');
@@ -2012,7 +2012,7 @@ insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (625, 
 --Stone Heart					--CardIndex 626		--EquipmentIndex 267 
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Stone Heart',
 'http://htkb.info/SDE/FK/Cards/Treasure/Generic/Card_Treasure_Stone_Heart_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Treasure/Generic/Card_Treasure_Back_FK.png',
+'http://htkb.info/SDE/FK/Cards/Treasure/Card_Treasure_Back_FK.png',
 'http://htkb.online/SDWiki/SDE/FK/Cards/Treasure/Stone_Heart.xhtml', 
 'Treasure', 'FK', 'FK Core Set', 'Default',
 'Sure as stone.');
@@ -2033,7 +2033,7 @@ insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (627, 
 --Sweet Kimono					--CardIndex 628		--EquipmentIndex 269 
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Sweet Kimono',
 'http://htkb.info/SDE/FK/Cards/Treasure/Specific/Card_Treasure_Sweet_Kimono_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Treasure/Specific/Card_Treasure_Back_FK.png',
+'http://htkb.info/SDE/FK/Cards/Treasure/Card_Treasure_Back_FK.png',
 'http://htkb.online/SDWiki/SDE/FK/Cards/Treasure/Sweet_Kimono.xhtml', 
 'Treasure', 'FK', 'FK Core Set', 'Default',
 '');
@@ -2044,7 +2044,7 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (269, 6
 --Temptress Perfume				--CardIndex 629		--EquipmentIndex 270 
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Temptress Perfume',
 'http://htkb.info/SDE/FK/Cards/Treasure/Specific/Card_Treasure_Temptress_Perfume_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Treasure/Specific/Card_Treasure_Back_FK.png',
+'http://htkb.info/SDE/FK/Cards/Treasure/Card_Treasure_Back_FK.png',
 'http://htkb.online/SDWiki/SDE/FK/Cards/Treasure/Temptress_Perfume.xhtml', 
 'Treasure', 'FK', 'FK Core Set', 'Default',
 'Her beauty chilled my very soul.');
@@ -2056,7 +2056,7 @@ insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (270, 264);
 --Toxic Tincture				--CardIndex 630		--EquipmentIndex 271 
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Toxic Tincture',
 'http://htkb.info/SDE/FK/Cards/Treasure/Specific/Card_Treasure_Toxic_Tincture_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Treasure/Specific/Card_Treasure_Back_FK.png',
+'http://htkb.info/SDE/FK/Cards/Treasure/Card_Treasure_Back_FK.png',
 'http://htkb.online/SDWiki/SDE/FK/Cards/Treasure/Toxic_Tincture.xhtml', 
 'Treasure', 'FK', 'FK Core Set', 'Default',
 'Did my skin just turn green?');
@@ -2077,7 +2077,7 @@ insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (630, 
 --Trusty Lock Picks				--CardIndex 631		--EquipmentIndex 273 
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Trusty Lock Picks',
 'http://htkb.info/SDE/FK/Cards/Treasure/Generic/Card_Treasure_Trusty_Lock_Picks_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Treasure/Generic/Card_Treasure_Back_FK.png',
+'http://htkb.info/SDE/FK/Cards/Treasure/Card_Treasure_Back_FK.png',
 'http://htkb.online/SDWiki/SDE/FK/Cards/Treasure/Trusty_Lock_Picks.xhtml', 
 'Treasure', 'FK', 'FK Core Set', 'Default',
 'Nothing is safe.');
@@ -2099,7 +2099,7 @@ insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (274, 406);
 --Vial of Burning Bile			--CardIndex 633		--EquipmentIndex 275 
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Vile of Burning Bile',
 'http://htkb.info/SDE/FK/Cards/Treasure/Specific/Card_Treasure_Vial_of_Burning_Bile_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Treasure/Specific/Card_Treasure_Back_FK.png',
+'http://htkb.info/SDE/FK/Cards/Treasure/Card_Treasure_Back_FK.png',
 'http://htkb.online/SDWiki/SDE/FK/Cards/Treasure/Vial_of_Burning_Bile.xhtml', 
 'Treasure', 'FK', 'FK Core Set', 'Default',
 'Uh, I think it''s eating my armor...');
@@ -2110,7 +2110,7 @@ insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (275, 182);
 --Vial of Ghiri Musk			--CardIndex 634		--EquipmentIndex 276 
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Vial of Ghiri Musk',
 'http://htkb.info/SDE/FK/Cards/Treasure/Specific/Card_Treasure_Vial_of_Ghiri_Musk_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Treasure/Specific/Card_Treasure_Back_FK.png',
+'http://htkb.info/SDE/FK/Cards/Treasure/Card_Treasure_Back_FK.png',
 'http://htkb.online/SDWiki/SDE/FK/Cards/Treasure/Vial_of_Ghiri_Musk.xhtml', 
 'Treasure', 'FK', 'FK Core Set', 'Default',
 '');
@@ -2145,7 +2145,7 @@ insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (278, 265);
 --Von Hulf's Sword				--CardIndex 637		--EquipmentIndex 279 
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Von Hulf''s Sword',
 'http://htkb.info/SDE/FK/Cards/Treasure/Generic/Card_Treasure_Von_Hulfs_Sword_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Treasure/Generic/Card_Treasure_Back_FK.png',
+'http://htkb.info/SDE/FK/Cards/Treasure/Card_Treasure_Back_FK.png',
 'http://htkb.online/SDWiki/SDE/FK/Cards/Treasure/Von_Hulfs_Sword.xhtml', 
 'Treasure', 'FK', 'FK Core Set', 'Default',
 'I will defend my people!');
@@ -2156,7 +2156,7 @@ insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (279, 207);
 --Vulcanis's Maul				--CardIndex 638		--EquipmentIndex 280 
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Vulcanis''s Maul',
 'http://htkb.info/SDE/FK/Cards/Treasure/Specific/Card_Treasure_Vulcanis_Maul_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Treasure/Specific/Card_Treasure_Back_FK.png',
+'http://htkb.info/SDE/FK/Cards/Treasure/Card_Treasure_Back_FK.png',
 'http://htkb.online/SDWiki/SDE/FK/Cards/Treasure/Vulcanis_Maul.xhtml', 
 'Treasure', 'FK', 'FK Core Set', 'Default',
 'Get back!');
@@ -2167,7 +2167,7 @@ insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (280, 172);
 --Whirling Doom The				--CardIndex 639		--EquipmentIndex 281 
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Whirling Doom The',
 'http://htkb.info/SDE/FK/Cards/Treasure/Specific/Card_Treasure_Whirling_Doom_The_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Treasure/Specific/Card_Treasure_Back_FK.png',
+'http://htkb.info/SDE/FK/Cards/Treasure/Card_Treasure_Back_FK.png',
 'http://htkb.online/SDWiki/SDE/FK/Cards/Treasure/Whirling_Doom_The.xhtml', 
 'Treasure', 'FK', 'FK Core Set', 'Default',
 '');
@@ -2209,7 +2209,7 @@ insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (643, 
 --Withered Ring					--CardIndex 644		--EquipmentIndex 285 
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Withered Ring',
 'http://htkb.info/SDE/FK/Cards/Treasure/Specific/Card_Treasure_Withered_Ring_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Treasure/Specific/Card_Treasure_Back_FK.png',
+'http://htkb.info/SDE/FK/Cards/Treasure/Card_Treasure_Back_FK.png',
 'http://htkb.online/SDWiki/SDE/FK/Cards/Treasure/Withered_Ring.xhtml', 
 'Treasure', 'FK', 'FK Core Set', 'Default',
 'Undeath - beats the real thing.');
@@ -2251,7 +2251,7 @@ insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (288, 223);
 --Wobbling Stalactite			--CardIndex 648		--EquipmentIndex 289 
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Wobbling Stalactite',
 'http://htkb.info/SDE/FK/Cards/Treasure/Specific/Card_Treasure_Wobbling_Stalactite_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Treasure/Specific/Card_Treasure_Back_FK.png',
+'http://htkb.info/SDE/FK/Cards/Treasure/Card_Treasure_Back_FK.png',
 'http://htkb.online/SDWiki/SDE/FK/Cards/Treasure/Wobbling_Stalactite.xhtml', 
 'Treasure', 'FK', 'FK Core Set', 'Default',
 'Wibble-Wobble, Wibble-Wobble, Watch Out!');
@@ -2262,7 +2262,7 @@ insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (289, 672);
 --Wyrm Scale Cloak				--CardIndex 649		--EquipmentIndex 290 
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Wyrm Scale Cloak',
 'http://htkb.info/SDE/FK/Cards/Treasure/Specific/Card_Treasure_Wyrm_Scale_Cloak_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Treasure/Specific/Card_Treasure_Back_FK.png',
+'http://htkb.info/SDE/FK/Cards/Treasure/Card_Treasure_Back_FK.png',
 'http://htkb.online/SDWiki/SDE/FK/Cards/Treasure/Wyrm_Scale_Cloak.xhtml', 
 'Treasure', 'FK', 'FK Core Set', 'Default',
 'Is it hot in here?');
@@ -2273,7 +2273,7 @@ insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (290, 265);
 --Wyrm Scale Shield				--CardIndex 650		--EquipmentIndex 291 
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Wyrm Scale Shield',
 'http://htkb.info/SDE/FK/Cards/Treasure/Specific/Card_Treasure_Wyrm_Scale_Shield_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Treasure/Specific/Card_Treasure_Back_FK.png',
+'http://htkb.info/SDE/FK/Cards/Treasure/Card_Treasure_Back_FK.png',
 'http://htkb.online/SDWiki/SDE/FK/Cards/Treasure/Wyrm_Scale_Shield.xhtml', 
 'Treasure', 'FK', 'FK Core Set', 'Default',
 'Woosh!');
@@ -2284,7 +2284,7 @@ insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (291, 318);
 --Zombie Brute Brew				--CardIndex 651		--EquipmentIndex 292 
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Zombie Brute Brew',
 'http://htkb.info/SDE/FK/Cards/Treasure/Specific/Card_Treasure_Zombie_Brute_Brew_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Treasure/Specific/Card_Treasure_Back_FK.png',
+'http://htkb.info/SDE/FK/Cards/Treasure/Card_Treasure_Back_FK.png',
 'http://htkb.online/SDWiki/SDE/FK/Cards/Treasure/Zombie_Brute_Brew.xhtml', 
 'Treasure', 'FK', 'FK Core Set', 'Default',
 'RWAAAAAARRRR!');
