@@ -11642,136 +11642,96 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (6
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (670, 'Elite', '8 Bit', 2); 
 
 
---Elemental Shrine
---Elemental Shrine --CardIndex 1166 --CharacterIndex 776 --ExploreCharacterIndex 671
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Elemental Shrine',
-'http://htkb.info/SDE/2.0/Cards/Warbands/Elemental_Shrine/Card_Warband_Elemental_Shrine_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Elemental_Shrine/Card_Warband_Elemental_Shrine_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Elemental_Shrine/Elemental_Shrine.xhtml', 
-'Warband', '2.0', '2.0 Core Set', 'Explore',
+--
+-- --CardIndex 1166 --CharacterIndex 776 --ExploreCharacterIndex 671
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('',
+'', 
+'', 
+'', 
+'', '', '', '',
 '');
 insert into Characters (CardIndex) VALUES (1166); 
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (776, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (776,
-'http://htkb.info/SDE/2.0/Cards/Warbands/Elemental_Shrine/Standies/Elemental_Shrine_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Elemental_Shrine/Standies/Elemental_Shrine_2.0_back.png', 
-'Neither', 'Large', 'Paired Spawning Point', 0, 1, '', '1ST', '', '', 4, 0);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (671, 567); --Elemental Affinity
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (671, 651); --Hidden
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (671, 681); --Immune: Status Effects
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (671, 947); --Spawning Pool
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (671, 1010); --Stealth
-insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (671, 2); --Armor 
-insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (671, 'Start', 'Spawning Point', 0);
+'', 
+'', 
+'', '', '', 0, 0, '', '', '', '', 0, 0);
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (671, '', '', 0);
 
---Chunin --CardIndex 1167 --CharacterIndex 777 --ExploreCharacterIndex 672
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Chunin',
-'http://htkb.info/SDE/2.0/Cards/Warbands/Elemental_Shrine/Card_Warband_Elemental_Shrine_Chunin_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Elemental_Shrine/Card_Warband_Elemental_Shrine_Chunin_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Elemental_Shrine/Chunin.xhtml', 
-'Warband', '2.0', '2.0 Core Set', 'Explore',
-'Aspiring leaders and skilled fighters within the clan are called upon to lead their own team of ninja as chunin. This is an incredible honor, and the trials to come will not only test a chunin''s leadership and skills, but their spirit as well.');
+-- --CardIndex 1167 --CharacterIndex 777 --ExploreCharacterIndex 672
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('',
+'', 
+'', 
+'', 
+'', '', '', '',
+'');
 insert into Characters (CardIndex) VALUES (1167); 
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (777, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (777,
-'http://htkb.info/SDE/2.0/Cards/Warbands/Elemental_Shrine/Standies/Elemental_Shrine_Chunin_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Elemental_Shrine/Standies/Elemental_Shrine_Chunin_2.0_back.png', 
-'Masculine', 'Small', 'Ninja', 6, 1, '2B 1R', '3B', '3B', '3B', 3, 0);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (672, 1010); --Stealth
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (672, 1534); --Precision Strike
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (672, 1059); --Elemental Master
-insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (672, 1, 1); --Strength
-insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (672, 2); --Armor 
-insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (672, 'Elite', '16 Bit', 2);
+'', 
+'', 
+'', '', '', 0, 0, '', '', '', '', 0, 0);
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (672, '', '', 0);
 
---Kaiken --CardIndex 1168 --CharacterIndex 778 --ExploreCharacterIndex 673
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Kaiken',
-'http://htkb.info/SDE/2.0/Cards/Warbands/Elemental_Shrine/Card_Warband_Elemental_Shrine_Kaiken_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Elemental_Shrine/Card_Warband_Elemental_Shrine_Kaiken_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Elemental_Shrine/Kaiken.xhtml', 
-'Warband', '2.0', '2.0 Core Set', 'Explore',
-'Kaiken are the backbone of the clans. To be a kaiken is not to be relegated to a basic or low role. Training to become a kaiken starts from birth and is ingrained through hardship, conditioning, and trials that normal people could not withstand. Kaiken are masters of the art of stealth, the sword, and the shuriken. As their experience grows, they learn to tap elemental magic, unlocking potent abilities to rival even the great Heroes.');
+-- --CardIndex 1168 --CharacterIndex 778 --ExploreCharacterIndex 673
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('',
+'', 
+'', 
+'', 
+'', '', '', '',
+'');
 insert into Characters (CardIndex) VALUES (1168); 
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (778, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (778,
-'http://htkb.info/SDE/2.0/Cards/Warbands/Elemental_Shrine/Standies/Elemental_Shrine_Kaiken_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Elemental_Shrine/Standies/Elemental_Shrine_Kaiken_2.0_back.png', 
-'Masculine', 'Small', 'Ninja', 6, 1, '3B', '1ST', '2B', '3B', 1, 0);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (673, 1010); --Stealth
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (673, 767); --Back Strike
-insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (673, 1, 1); --Strength
-insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (673, 4, 3); --Dex
-insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (673, 2); --Armor 
-insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (673, 'Minion', '8 Bit', 1);
+'', 
+'', 
+'', '', '', 0, 0, '', '', '', '', 0, 0);
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (673, '', '', 0);
 
---Kunoichi --CardIndex 1169 --CharacterIndex 779 --ExploreCharacterIndex 674
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Kunoichi',
-'http://htkb.info/SDE/2.0/Cards/Warbands/Elemental_Shrine/Card_Warband_Elemental_Shrine_Kunoichi_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Elemental_Shrine/Card_Warband_Elemental_Shrine_Kunoichi_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Elemental_Shrine/Kunoichi.xhtml', 
-'Warband', '2.0', '2.0 Core Set', 'Explore',
-'Kunoichi are specialized female fighters and scouts for the clans. Though deadly and widely trained in the ninja arts, the kunoichi put particular emphasis on speed and agility. In battle, kunoichi focus on key mission objectives such as scouting targets and carrying vital missives.');
+-- --CardIndex 1169 --CharacterIndex 779 --ExploreCharacterIndex 674
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('',
+'', 
+'', 
+'', 
+'', '', '', '',
+'');
 insert into Characters (CardIndex) VALUES (1169);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (779, 2); --Emerald
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (779,
-'http://htkb.info/SDE/2.0/Cards/Warbands/Elemental_Shrine/Standies/Elemental_Shrine_Kunoichi_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Elemental_Shrine/Standies/Elemental_Shrine_Kunoichi_2.0_back.png', 
-'Feminine', 'Small', 'Ninja', 8, 1, '3B', '0ST', '1B 1R', '2R', 1, 0);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (674, 815); --Pounce
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (674, 1010); --Stealth
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (674, 2016); --Wind in the Forest
-insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (674, 1, 1); --Strength
-insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (674, 2); --Armor
-insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (674, 4); --Dex
-insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (674, 'Elite', '8 Bit', 1);
+'', 
+'', 
+'', '', '', 0, 0, '', '', '', '', 0, 0);
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (674, '', '', 0);
 
---Madoushi --CardIndex 1170 --CharacterIndex 780 --ExploreCharacterIndex 675
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Madoushi',
-'http://htkb.info/SDE/2.0/Cards/Warbands/Elemental_Shrine/Card_Warband_Elemental_Shrine_Madoushi_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Elemental_Shrine/Card_Warband_Elemental_Shrine_Madoushi_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Elemental_Shrine/Madoushi.xhtml', 
-'Warband', '2.0', '2.0 Core Set', 'Explore',
-'All clans possess the mystics known as madoushi. In some clans, they are revered as sages, alchemists and healers. Other clans regard them as witches, and tolerate them with barely concealed mistrust and fear. Whether they are revered or reviled, all madoushi are able to harness the powers native to the lands of their clan. With training, study, and meditation, a madoushi learns to draw from the lines of Ki that race through the landscape, summoning the very elements to do their bidding.');
+-- --CardIndex 1170 --CharacterIndex 780 --ExploreCharacterIndex 675
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('',
+'', 
+'', 
+'', 
+'', '', '', '',
+'');
 insert into Characters (CardIndex) VALUES (1170); 
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (780, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (780,
-'http://htkb.info/SDE/2.0/Cards/Warbands/Elemental_Shrine/Standies/Elemental_Shrine_Madoushi_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Elemental_Shrine/Standies/Elemental_Shrine_Madoushi_2.0_back.png', 
-'Masculine', 'Small', 'Ninja', 6, 2, '2B', '1ST', '2R', '3B', 2, 0);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (675, 596); --Fly
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (675, 807); --Poison
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (675, 1010); --Stealth
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (675, 1521); --Poisoned Weapons
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (675, 2017); --Wind Walk
-insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (675, 1, 1); --Strength
-insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (675, 3, 6); --Will
-insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (675, 2); --Armor 
-insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (675, 'Elite', '8 Bit', 2);
+'', 
+'', 
+'', '', '', 0, 0, '', '', '', '', 0, 0);
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (675, '', '', 0);
 
---Yajiri --CardIndex 1171 --CharacterIndex 781 --ExploreCharacterIndex 676
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Yajiri',
-'http://htkb.info/SDE/2.0/Cards/Warbands/Elemental_Shrine/Card_Warband_Elemental_Shrine_Yajiri_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Elemental_Shrine/Card_Warband_Elemental_Shrinen_Yajiri_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Elemental_Shrine/Yajiri.xhtml', 
-'Warband', '2.0', '2.0 Core Set', 'Explore',
-'Yajiri specialize in attacking from afar. Their black shafted arrows are renowned for striking with deadly accuracy. While the bow is utilized throughout all the clans, many have developed their own unique forms of ranged warfare. The Kitsune''s blowguns eliminate sentries with only the sound of a silent rush of wind to mark their use; while the thunder of the Tora''s rifle sows confusion among the enemy ranks, even as it wreaks terrible devastation. No matter the form it takes, a yajiri''s value to their clan cannot be underestimated.');
+-- --CardIndex 1171 --CharacterIndex 781 --ExploreCharacterIndex 676
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('',
+'', 
+'', 
+'', 
+'', '', '', '',
+'');
 insert into Characters (CardIndex) VALUES (1171); 
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (781, 2); --Emerald
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (781,
-'http://htkb.info/SDE/2.0/Cards/Warbands/Elemental_Shrine/Standies/Elemental_Shrine_Yajiri_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Elemental_Shrine/Standies/Elemental_Shrinen_Yajiri_2.0_back.png', 
-'Masculine', 'Small', 'Ninja', 6, 1, '2B', '0ST', '2B', '3B', 1, 0);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (676, 1010); --Stealth
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (676, 1072); --Wind of Blades
-insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (676, 4, 6); --Dex
-insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (676, 2); --Armor 
-insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (676, 'Minion', '8 Bit', 1); 
+'', 
+'', 
+'', '', '', 0, 0, '', '', '', '', 0, 0);
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (676, '', '', 0); 
 
 
 --Fire Flow Hollow
