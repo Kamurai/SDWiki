@@ -1,7 +1,7 @@
 --drop PROCEDURE DBSDEPullOneArcadeBoss;
 
 CREATE OR ALTER PROCEDURE DBSDEPullOneArcadeBoss(
-	@intCardLink varChar(100)
+	@intCardLink varChar(150)
 )
 AS
 BEGIN

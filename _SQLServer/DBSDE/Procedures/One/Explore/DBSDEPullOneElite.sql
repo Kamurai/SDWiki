@@ -1,7 +1,7 @@
 --drop PROCEDURE DBSDEPullOneElite;
 
 CREATE OR ALTER PROCEDURE DBSDEPullOneElite(
-	@intCardLink varChar(100)
+	@intCardLink varChar(150)
 )
 AS
 BEGIN

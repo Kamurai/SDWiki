@@ -1,7 +1,7 @@
 --drop PROCEDURE DBSDEPullOneWarband;
 
 CREATE OR ALTER PROCEDURE DBSDEPullOneWarband(
-	@intCardLink varChar(100)
+	@intCardLink varChar(150)
 )
 AS
 BEGIN

@@ -1,7 +1,7 @@
 --drop PROCEDURE DBSDEPullOneExplorePlot;
 
 CREATE OR ALTER PROCEDURE DBSDEPullOneExplorePlot(
-	@intCardLink varChar(100)
+	@intCardLink varChar(150)
 )
 AS
 BEGIN

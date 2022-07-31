@@ -1,7 +1,7 @@
 --drop PROCEDURE DBSDEPullOneMiniBoss;
 
 CREATE OR ALTER PROCEDURE DBSDEPullOneMiniBoss(
-	@intCardLink varChar(100)
+	@intCardLink varChar(150)
 )
 AS
 BEGIN

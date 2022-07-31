@@ -32,7 +32,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (554
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Daemonus',
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Daemonus_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Daemonus_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Bosses/Daemonus.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Bosses/Daemonus.xhtml', 
 'Boss', '2.0', '2.0 Core Set', 'Explore',
 'Built by a doomed gnomish artificer to house a fragment of the Dark Consul''s evil soul, Daemonus serves the Midnight Queen as guardian and champion. The true purpose of this vile clockwork contraption is far more sinister. Through Daemonus, the Dark Consul is able to observe and whisper corruption to the Queen. In this way, he shields her heart from the Light, continuing to usher her along the path to darkness.');
 insert into Characters (CardIndex) VALUES (1050);
@@ -57,7 +57,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (555
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Demon Queen Araphel',
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Demon_Queen_Araphel_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Demon_Queen_Araphel_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Bosses/Demon_Queen_Araphel.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Bosses/Demon_Queen_Araphel.xhtml', 
 'Boss', '2.0', '2.0 Core Set', 'Explore',
 'Araphel is the Mistress of Chains and Lady of Deceit, giving aid to any who seek to subvert and control the will of those around them. Her Devoted come from every walk of life, even the clergy of other deities are sometimes the Devoted of Araphel in disguise, working her poison plots from within other houses of worship.');
 insert into Characters (CardIndex) VALUES (1051);
@@ -80,7 +80,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (556
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Destroyer, The',
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Destroyer_The_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Destroyer_The_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Bosses/Destroyer_The.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Bosses/Destroyer_The.xhtml', 
 'Boss', '2.0', '2.0 Core Set', 'Explore',
 '');
 insert into Characters (CardIndex) VALUES (1052);
@@ -108,7 +108,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (557
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Elrik The Lich King',
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Elrik_The_Lich_King_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Elrik_The_Lich_King_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Bosses/Elrik_The_Lich_King.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Bosses/Elrik_The_Lich_King.xhtml', 
 'Boss', '2.0', '2.0 Core Set', 'Explore',
 'SUFFER, MORTALS!');
 insert into Characters (CardIndex) VALUES (1053);
@@ -137,7 +137,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (558
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Gnomish Excavator',
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Gnomish_Excavator_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Gnomish_Excavator_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Bosses/Gnomish_Excavator.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Bosses/Gnomish_Excavator.xhtml', 
 'Boss', '2.0', '2.0 Core Set', 'Explore',
 '');
 insert into Characters (CardIndex) VALUES (1054);
@@ -165,7 +165,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (559
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Guth, The',
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Guth_The_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Guth_The_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Bosses/Guth_The.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Bosses/Guth_The.xhtml', 
 'Boss', '2.0', '2.0 Core Set', 'Explore',
 '"After I chop you up, you''ll make a tasty snack!"');
 insert into Characters (CardIndex) VALUES (1055);
@@ -193,7 +193,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (560
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Hoarfang',
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Hoarfang_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Hoarfang_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Bosses/Hoarfang.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Bosses/Hoarfang.xhtml', 
 'Boss', '2.0', '2.0 Core Set', 'Explore',
 '');--!! unavailable !!
 insert into Characters (CardIndex) VALUES (1056);
@@ -222,7 +222,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (561
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Jorogumo',
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Jorogumo_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Jorogumo_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Bosses/Jorogumo.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Bosses/Jorogumo.xhtml', 
 'Boss', '2.0', '2.0 Core Set', 'Explore',
 '');
 insert into Characters (CardIndex) VALUES (1057);
@@ -249,7 +249,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (562
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Krampus',
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Krampus_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Krampus_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Bosses/Krampus.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Bosses/Krampus.xhtml', 
 'Boss', '2.0', '2.0 Core Set', 'Explore',
 '');
 insert into Characters (CardIndex) VALUES (1058);
@@ -277,7 +277,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (563
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Lord Vulcanis',
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Lord_Vulcanis_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Lord_Vulcanis_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Bosses/Lord_Vulcanis.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Bosses/Lord_Vulcanis.xhtml', 
 'Boss', '2.0', '2.0 Core Set', 'Explore',
 'The most infamous of all the giants, Lord Vulcanis broods deep beneath the Dragonback Peaks. At his enormous black forge he crafts dark relics for the generals of the Dark Consul''s armies. Into each relic he pours his rage, hate, and loathing for the realm of Light, tempering them for the battles to come.');
 insert into Characters (CardIndex) VALUES (1059);
@@ -301,7 +301,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (564
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Midnight Queen, The',
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Midnight_Queen_The_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Midnight_Queen_The_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Bosses/Midnight_Queen_The.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Bosses/Midnight_Queen_The.xhtml', 
 'Boss', '2.0', '2.0 Core Set', 'Explore',
 'The Midnight Queen has risen to prominence as the Dark Consul''s voice and prophet in his time of exile. Known also as the Shadow Consort, Prophecy Breaker, The Demoness, and the Hollow Queen, she is the Dark Consul''s terrible will made manifest. She will see all of Crystalia consumed by darkness.');
 insert into Characters (CardIndex) VALUES (1060);
@@ -327,7 +327,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (565
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Mordred the Accursed',
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Mordred_the_Accursed_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Mordred_the_Accursed_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Bosses/Mordred_the_Accursed.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Bosses/Mordred_the_Accursed.xhtml', 
 'Boss', '2.0', '2.0 Core Set', 'Explore',
 '');
 insert into Characters (CardIndex) VALUES (1061);
@@ -354,7 +354,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (566
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Mother Noctua',
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Mother_Noctua_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Mother_Noctua_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Bosses/Mother_Noctua.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Bosses/Mother_Noctua.xhtml', 
 'Boss', '2.0', '2.0 Core Set', 'Explore',
 'Hoot! Hoot, hoot! HOOOOOOTTT!!!');
 insert into Characters (CardIndex) VALUES (1062);
@@ -379,7 +379,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (567
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Mugg',
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Mugg_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Mugg_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Bosses/Mugg.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Bosses/Mugg.xhtml', 
 'Boss', '2.0', '2.0 Core Set', 'Explore',
 ''); --!! unavailable !!
 insert into Characters (CardIndex) VALUES (1063);
@@ -403,7 +403,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (568
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Nightsong the Eternal',
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Nightsong_the_Eternal_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Nightsong_the_Eternal_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Bosses/Nightsong_the_Eternal.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Bosses/Nightsong_the_Eternal.xhtml', 
 'Boss', '2.0', '2.0 Core Set', 'Explore',
 '');
 insert into Characters (CardIndex) VALUES (1064);
@@ -432,7 +432,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (569
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Onibaba',
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Onibaba_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Onibaba_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Bosses/Onibaba.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Bosses/Onibaba.xhtml', 
 'Boss', '2.0', '2.0 Core Set', 'Explore',
 'As a mortal, Onibaba would lure stragglers from battles into her traps, finish them off, and sell their possessions. One night, however, she pulled a finely crafted mask from a dark and terrible samurai, and slipped it on over her face. In that instant, the dark power from within the mask touched the festering rot in her soul and consumed her. Soon the mortal hag was infested by an ageless, devouring horror that has stalked Kagejima''s places of slaughter ever since.');
 insert into Characters (CardIndex) VALUES (1065);
@@ -458,7 +458,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (570
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Onryo',
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Onryo_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Onryo_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Bosses/Onryo.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Bosses/Onryo.xhtml', 
 'Boss', '2.0', '2.0 Core Set', 'Explore',
 '"Into the darkness, under the trees. Into the water, follow me please."');
 insert into Characters (CardIndex) VALUES (1066);
@@ -485,7 +485,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (571
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Pauper Prince',
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Pauper_Prince_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Pauper_Prince_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Bosses/Pauper_Prince.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Bosses/Pauper_Prince.xhtml', 
 'Boss', '2.0', '2.0 Core Set', 'Explore',
 '"Didn''t you know? All travelers to the Undercove must pay the the Prince''s Due."');
 insert into Characters (CardIndex) VALUES (1067);
@@ -511,7 +511,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (572
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Professor Cackle-Clink',
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Professor_Cackle_Clink_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Professor_Cackle_Clink_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Bosses/Professor_Cackle_Clink.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Bosses/Professor_Cackle_Clink.xhtml', 
 'Boss', '2.0', '2.0 Core Set', 'Explore',
 '');
 insert into Characters (CardIndex) VALUES (1068);
@@ -539,7 +539,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (573
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Starfire',
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Starfire_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Starfire_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Bosses/Starfire.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Bosses/Starfire.xhtml', 
 'Boss', '2.0', '2.0 Core Set', 'Explore',
 '');
 insert into Characters (CardIndex) VALUES (1069);
@@ -565,7 +565,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (574
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Testudo Tower',
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Testudo_Tower_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Testudo_Tower_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Bosses/Testudo_Tower.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Bosses/Testudo_Tower.xhtml', 
 'Boss', '2.0', '2.0 Core Set', 'Explore',
 '');
 insert into Characters (CardIndex) VALUES (1070);
@@ -591,7 +591,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (575
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Thresher, The',
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Thresher_The_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Thresher_The_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Bosses/Thresher_The.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Bosses/Thresher_The.xhtml', 
 'Boss', '2.0', '2.0 Core Set', 'Explore',
 '');
 insert into Characters (CardIndex) VALUES (1071);
@@ -618,7 +618,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (576
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ugg',
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Ugg_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Ugg_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Bosses/Ugg.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Bosses/Ugg.xhtml', 
 'Boss', '2.0', '2.0 Core Set', 'Explore',
 ''); --!! unavailable !!
 insert into Characters (CardIndex) VALUES (1072);
@@ -642,7 +642,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (577
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ymnaur Wintersson',
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Ymnaur_Wintersson_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Ymnaur_Wintersson_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Bosses/Ymnaur_Wintersson.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Bosses/Ymnaur_Wintersson.xhtml', 
 'Boss', '2.0', '2.0 Core Set', 'Explore',
 '');
 insert into Characters (CardIndex) VALUES (1073);

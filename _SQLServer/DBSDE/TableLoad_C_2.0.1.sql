@@ -7319,7 +7319,7 @@ insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (485, 2, -1);
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Boo Booty',
 'http://htkb.info/SDE/2.0/Cards/Booty/Card_Booty_Boo_Booty_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Booty/Card_Booty_Boo_Booty_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Booty/Boo_Booty.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Booty/Boo_Booty.xhtml', 
 'Booty', '2.0', '2.0 Core Set', 'Explore',   
 'Boo booty are the unfortunate creation of gnomish tinkering paired with dwarven greed.  Orginally intended to guard the treasure vaults of the Hearthsworn Dwarves, the spirit of the Dark Consul filled the constructs with a malevolent intellect.  Turning upon their former masters, boo booty rabidly guard their treasure from all who would seek to drain it.');
 insert into Characters (CardIndex) VALUES (981);
@@ -7361,7 +7361,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (487
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Chochin-Obake',
 'http://htkb.info/SDE/2.0/Cards/Creeps/Card_Creep_Chochin-Obake_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Creeps/Card_Creep_Chochin-Obake_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Creeps/Chochin_Obake.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Creeps/Chochin_Obake.xhtml', 
 'Creep', '2.0', '2.0 Core Set', 'Explore', 
 'When spirits seek to break the veil between life and death it is the Chochin-Obake who light their way.  The more powerful of these ghostly apparitions pull the Chochin-Obake through with them so that the ghostly minions can illuminate the souls of the living.');
 insert into Characters (CardIndex) VALUES (983);
@@ -7383,7 +7383,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (488
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Curse Raven',
 'http://htkb.info/SDE/2.0/Cards/Creeps/Card_Creep_Curse_Raven_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Creeps/Card_Creep_Curse_Raven_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Creeps/Curse_Raven.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Creeps/Curse_Raven.xhtml', 
 'Creep', '2.0', '2.0 Core Set', 'Explore', 
 'In the frozen lands of Frostbyte Reach, there is a legend about the Curse Raven. It is said that if you see one, someone close to you is on their way to death. It is not known if Curse Ravens cause the demise, or merely warn of the impending doom, but they are a dreaded sight either way.');
 insert into Characters (CardIndex) VALUES (984);
@@ -7405,7 +7405,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (489
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Demolitions Expert',
 'http://htkb.info/SDE/2.0/Cards/Creeps/Card_Creep_Demolitions_Expert_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Creeps/Card_Creep_Demolitions_Expert_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Creeps/Demolitions_Expert.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Creeps/Demolitions_Expert.xhtml', 
 'Creep', '2.0', '2.0 Core Set', 'Explore', 
 'Accidents are known to happen.');
 insert into Characters (CardIndex) VALUES (985);
@@ -7428,7 +7428,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (490
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Dirty Rat',
 'http://htkb.info/SDE/2.0/Cards/Creeps/Card_Creep_Dirty_Rat_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Creeps/Card_Creep_Dirty_Rat_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Creeps/Dirty_Rat.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Creeps/Dirty_Rat.xhtml', 
 'Creep', '2.0', '2.0 Core Set', 'Explore', 
 'While giant rats are not uncommon in the dungeons of Crystalia, those in the employ of the Pauper Prince are a particular nuisance. The Prince has an uncanny knack for training the rats to be his eyes and ears, and even to perform the occasional bit of petty theft.');
 insert into Characters (CardIndex) VALUES (986);
@@ -7450,7 +7450,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (491
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Fire Flower',
 'http://htkb.info/SDE/2.0/Cards/Creeps/Card_Creep_Fire_Flower_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Creeps/Card_Creep_Fire_Flower_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Creeps/Fire_Flower.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Creeps/Fire_Flower.xhtml', 
 'Creep', '2.0', '2.0 Core Set', 'Explore', 
 'Fire Flowers are primitive by kodama standards, but it is a foolish Hero who underestimates these fire-spitting carnivores. Congregating in vast fields atop molten rock, fire flowers soak up the fiery heat to fuel their furnace-like fire chambers. When prey nears the entire field of flowers vomits forth a raining shower of fire, barbecuing their delicious meal to a perfect charbroil.');
 insert into Characters (CardIndex) VALUES (987);
@@ -7473,7 +7473,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (492
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Forge Gnome',
 'http://htkb.info/SDE/2.0/Cards/Creeps/Card_Creep_Forge_Gnome_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Creeps/Card_Creep_Forge_Gnome_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Creeps/Forge_Gnome.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Creeps/Forge_Gnome.xhtml', 
 'Creep', '2.0', '2.0 Core Set', 'Explore', 
 'Master artificers themselves, it is no surprise that some gnomes are willing to abandon all in pursuit of their craft--despite the risks. Lured by forbidden knowledge, Forge Gnomes have fallen to the Dark in order to apprentice under Lord Vulcanis. Though the skills they acquire are many, the cost they pay is high as the will of the Dark Consul slowly twists and subverts them into little more than monsters.');
 insert into Characters (CardIndex) VALUES (988);
@@ -7494,7 +7494,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (493
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Frost Imp',
 'http://htkb.info/SDE/2.0/Cards/Creeps/Card_Creep_Frost_Imp_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Creeps/Card_Creep_Frost_Imp_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Creeps/Frost_Imp.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Creeps/Frost_Imp.xhtml', 
 'Creep', '2.0', '2.0 Core Set', 'Explore', 
 '');--!! unavailable !!
 insert into Characters (CardIndex) VALUES (989);
@@ -7515,7 +7515,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (494
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ghostflame',
 'http://htkb.info/SDE/2.0/Cards/Creeps/Card_Creep_Ghostflame_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Creeps/Card_Creep_Ghostflame_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Creeps/Ghostflame.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Creeps/Ghostflame.xhtml', 
 'Creep', '2.0', '2.0 Core Set', 'Explore', 
 'Ghostflames are flaming skulls, taken by Mordred as trophies from the heroes he has vanquished in honorable combat. They still speak in their old voices, chattering and taunting heroes who may have once called them friends. Mordred grows in power with each skull he claims, and when they are vanquished they explode in a fiery burst.');
 insert into Characters (CardIndex) VALUES (990);
@@ -7536,7 +7536,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (495
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Kabomb',
 'http://htkb.info/SDE/2.0/Cards/Creeps/Card_Creep_Kabomb_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Creeps/Card_Creep_Kabomb_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Creeps/Kabomb.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Creeps/Kabomb.xhtml', 
 'Creep', '2.0', '2.0 Core Set', 'Explore', 
 '');
 insert into Characters (CardIndex) VALUES (991);
@@ -7557,7 +7557,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (496
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Kodead',
 'http://htkb.info/SDE/2.0/Cards/Creeps/Card_Creep_Kodead_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Creeps/Card_Creep_Kodead_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Creeps/Kodead.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Creeps/Kodead.xhtml', 
 'Creep', '2.0', '2.0 Core Set', 'Explore', 
 'The dragon Nightsong had a cult of kobolds who worshipped him, just as a cult is devoted to each dragon of Crystalia. When Nightsong was swallowed by the Nether Rifts, so too were the kobolds who followed him. Not to be the only dragon without a proper kobold cult, Nightsong resurrected them, and they remain his most loyal servants.');
 insert into Characters (CardIndex) VALUES (992);
@@ -7578,7 +7578,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (497
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Nether Imp',
 'http://htkb.info/SDE/2.0/Cards/Creeps/Card_Creep_Nether_Imp_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Creeps/Card_Creep_Nether_Imp_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Creeps/Nether_Imp.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Creeps/Nether_Imp.xhtml', 
 'Creep', '2.0', '2.0 Core Set', 'Explore', 
 'Like all imps, Nether Imps are infinitely playful and mischievous. However, being born of the Dark Realms, their mischief is a tad more malicious than most. Where a typical imp may leave an egg in your boot, a Nether Imp will chuckle as it sets your feet aflame with the baleful fires of the Nether Rifts. It''s not the imp''s fault if you can''t take a joke.');
 insert into Characters (CardIndex) VALUES (993);
@@ -7600,7 +7600,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (498
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Rotten Pumpkin',
 'http://htkb.info/SDE/2.0/Cards/Creeps/Card_Creep_Rotten_Pumpkin_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Creeps/Card_Creep_Rotten_Pumpkin_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Creeps/Rotten_Pumpkin.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Creeps/Rotten_Pumpkin.xhtml', 
 'Creep', '2.0', '2.0 Core Set', 'Explore', 
 'It''s quit a sight, long ropey vines strewn everywhere, vomited piles of rotten pumpkin mush covering terror stricken townsfolk. What they lack in teeth and claws, they certainly make up for in panic and menace, and that can be just as bad.');
 insert into Characters (CardIndex) VALUES (994);
@@ -7622,7 +7622,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (499
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Spiker',
 'http://htkb.info/SDE/2.0/Cards/Creeps/Card_Creep_Spiker_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Creeps/Card_Creep_Spiker_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Creeps/Spiker.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Creeps/Spiker.xhtml', 
 'Creep', '2.0', '2.0 Core Set', 'Explore', 
 'Spiker life is short and brutal. Most die from being thrown at Heroes at high velocities or being fed to The Guth''s hogs (or The Guth himself). Surprisingly, there is never any shortage of volunteers to serve as a Spiker. They''re definitely not forced into the role by the bigger orcs and goblins. It''s an honor to serve The Guth. They absolutey, positively, 100% want to be a Spiker. Seriously.');
 insert into Characters (CardIndex) VALUES (995);
@@ -7643,7 +7643,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (500
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Spiteful Cherub',
 'http://htkb.info/SDE/2.0/Cards/Creeps/Card_Creep_Spiteful_Cherub_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Creeps/Card_Creep_Spiteful_Cherub_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Creeps/Spiteful_Cherub.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Creeps/Spiteful_Cherub.xhtml', 
 'Creep', '2.0', '2.0 Core Set', 'Explore', 
 'So great is Araphel''s will and spite that it manifests as physical flesh and bone, creating Spiteful Cherubs that fly about her, whispering hateful truths and vicious lies. Araphel uses them as her eyes and ears, but also as her messengers, keeping in constant communication with her Devoted. Araphel is a spider and she uses her Cerubs to spin her web of lies and trickery.');
 insert into Characters (CardIndex) VALUES (996);
@@ -7663,7 +7663,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (501
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Squigly',
 'http://htkb.info/SDE/2.0/Cards/Creeps/Card_Creep_Squigly_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Creeps/Card_Creep_Squigly_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Creeps/Squigly.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Creeps/Squigly.xhtml', 
 'Creep', '2.0', '2.0 Core Set', 'Explore', 
 'Squigglies plague Clockwork Cove. Don''t let their cute appearance fool you, these tiny creatures are devoted minions of the Dark Consul. They have been used to weaken the supports of docks, clog up the gears of various machinery, and generally be a thorn in the side of any hero who stands up against the forces of darkness.');
 insert into Characters (CardIndex) VALUES (997);
@@ -7684,7 +7684,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (502
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Underdead Crow',
 'http://htkb.info/SDE/2.0/Cards/Creeps/Card_Creep_Underdead_Crow_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Creeps/Card_Creep_Underdead_Crow_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Creeps/Underdead_Crow.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Creeps/Underdead_Crow.xhtml', 
 'Creep', '2.0', '2.0 Core Set', 'Explore', 
 '"It shouldn''t be upsetting when the crows start disappearing from the fields. But it sure can be terrifying when they return." - Farmers Almanac');
 insert into Characters (CardIndex) VALUES (998);
@@ -7708,7 +7708,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (503
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Waystone',
 'http://htkb.info/SDE/2.0/Cards/Creeps/Card_Creep_Waystone_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Creeps/Card_Creep_Waystone_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Creeps/Waystone.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Creeps/Waystone.xhtml', 
 'Creep', '2.0', '2.0 Core Set', 'Explore', 
 'Waystones are used by the Jotnar to mark the icy paths of the Skull White Fastness and lead weary travelers to safety. Ymnaur Wintersson also uses waystones, but he has woven dark magic into them, and uses them to make him near-invulnerable while he remains in his frozen realm.');
 insert into Characters (CardIndex) VALUES (999);
@@ -7730,7 +7730,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (504
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Yowling',
 'http://htkb.info/SDE/2.0/Cards/Creeps/Card_Creep_Yowling_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Creeps/Card_Creep_Yowling_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Creeps/Yowling.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Creeps/Yowling.xhtml', 
 'Creep', '2.0', '2.0 Core Set', 'Explore', 
 'Mother Noctua acts as mother and guardian to all of the Fae Wood, but she has special love for her Yowlings - young owlbears that flock to her side. They are hatched from the most precious Deeproot Acorns, and they are daring and mischievous. More than one hero has had her favorite soda stolen by a playful Yowling.');
 insert into Characters (CardIndex) VALUES (1000);
@@ -7750,7 +7750,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (505
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Yurei Bushi',
 'http://htkb.info/SDE/2.0/Cards/Creeps/Card_Creep_Yurei_Bushi_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Creeps/Card_Creep_Yurei_Bushi_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Creeps/Yurei_Bushi.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Creeps/Yurei_Bushi.xhtml', 
 'Creep', '2.0', '2.0 Core Set', 'Explore', 
 'As in life, the bonds of loyalty can follow a warrior into the afterlife. Spiritual guardians who left the world with an oath of fealty on their lips often return again to serve at their masters side.');
 insert into Characters (CardIndex) VALUES (1001);
@@ -7775,7 +7775,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (506
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Arachne',
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Arachne_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Arachne_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/MiniBosses/Arachne.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/MiniBosses/Arachne.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Explore',
 '');
 insert into Characters (CardIndex) VALUES (1002);
@@ -7802,7 +7802,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (507
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Arashikage',
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Arashikage_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Arashikage_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/MiniBosses/Arashikage.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/MiniBosses/Arashikage.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Explore',
 '"I can kill him, yes, but only if you tell me what I need to know."');
 insert into Characters (CardIndex) VALUES (1003);
@@ -7826,7 +7826,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (508
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Blood-Eye',
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Blood_Eye_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Blood_Eye_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/MiniBosses/Blood_Eye.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/MiniBosses/Blood_Eye.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Explore',
 'Blood-Eye, was exiled from the Crook-eye tribe for his lack of honor and tendency towards unnecessary violence. In truth, Blood-Eye cared little about his exile, having long chafed under the "civilized" tribe''s rules. A ruthless hunter and tracker, Blood-Eye has readily found work among the minions of the Dark Consul.');
 insert into Characters (CardIndex) VALUES (1004);
@@ -7853,7 +7853,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (509
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Cernonos',
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Cernonos_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Cernonos_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/MiniBosses/Cernonos.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/MiniBosses/Cernonos.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Explore',
 'At the heart of every maze awaits a monster. Many brave adventurers have lost their way, and Cernonos is always waiting...');
 insert into Characters (CardIndex) VALUES (1005);
@@ -7879,7 +7879,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (510
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Chained Knight',
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Chained_Knight_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Chained_Knight_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/MiniBosses/Chained_Knight.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/MiniBosses/Chained_Knight.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Explore',
 'One of Araphel''s most terrifying devotees is a hulking figure known simply as the Chained Knight. Such is Araphel''s influence over him that even his name has been consumed and forgotten. Whatever he once was, now he is Araphel''s sword arm, put to use when subtlety has run its course. Even so, many say they sometimes see a flicker of defiance on his face, as if something within him still resists his dark mistress.');
 insert into Characters (CardIndex) VALUES (1006);
@@ -7903,7 +7903,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (511
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Charmancer',
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Charmancer_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Charmancer_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/MiniBosses/Charmancer.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/MiniBosses/Charmancer.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Explore',
 '');  --!! unavailable !!
 insert into Characters (CardIndex) VALUES (1007);
@@ -7930,7 +7930,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (512
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Chaos Kitty',
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Chaos_Kitty_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Chaos_Kitty_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/MiniBosses/Chaos_Kitty.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/MiniBosses/Chaos_Kitty.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Explore',
 '"I was just playing with it and then it broke..."');
 insert into Characters (CardIndex) VALUES (1008);
@@ -7956,7 +7956,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (513
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Clan Ika Chunin',
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Clan_Ika_Chunin_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Clan_Ika_Chunin_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/MiniBosses/Clan_Ika_Chunin.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/MiniBosses/Clan_Ika_Chunin.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Explore',
 '');
 insert into Characters (CardIndex) VALUES (1009);
@@ -7981,7 +7981,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (514
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Clan Kitsune Chunin',
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Clan_Kitsune_Chunin_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Clan_Kitsune_Chunin_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/MiniBosses/Clan_Kitsune_Chunin.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/MiniBosses/Clan_Kitsune_Chunin.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Explore',
 'The Kitsune Chunin is the leader of the Kitsune Kunoichi. No outsider knows how the Chunin is chosen from the ranks of the Kunoichi, but it is speculated that Kunoichi are allowed to challenge the current Chunin for the title, ensuring that the strongest and most cunning is always in charge. He or she always wears a face covering in battle to protect their identity should they choose to leave any survivors. The Chunin is equipped with the most deadly of the concoctions for which the Kitsune are famed, often using these poisons to coat their weapons.');
 insert into Characters (CardIndex) VALUES (1010);
@@ -8005,7 +8005,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (515
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Clan Spirit Shrine Oni',
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Clan_Spirit_Shrine_Oni_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Clan_Spirit_Shrine_Oni_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/MiniBosses/Clan_Spirit_Shrine_Oni.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/MiniBosses/Clan_Spirit_Shrine_Oni.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Explore',
 'It is said that man and Oni first met as enemies, but soon developed a grudging respect; the Oni for their size and strength, and men for their technology and tenacity. Many Oni, however fickle, will join a team to honor agreements, to demonstrate their strength, or just for the fun of it. They may not be the most stealthy, but their effect on the enemy is remarkable.');
 insert into Characters (CardIndex) VALUES (1011);
@@ -8028,7 +8028,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (516
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Clan Sohei Chunin',
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Clan_Sohei_Chunin_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Clan_Sohei_Chunin_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/MiniBosses/Clan_Sohei_Chunin.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/MiniBosses/Clan_Sohei_Chunin.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Explore',
 'Sohei Chunin have faced horrors that would render lesser warriors insane.  But it is not their place to simply face such horrors, but to defeat and banish them back to the Dark Realm.  It is said that the greatest warriors of the clan, do not banish the minions of the Dark Consul, but unmake them entirely.  Ending their threat to Crystalia permanently.');
 insert into Characters (CardIndex) VALUES (1012);
@@ -8053,7 +8053,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (517
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Clan Sohei Oni',
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Clan_Sohei_Oni_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Clan_Sohei_Oni_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/MiniBosses/Clan_Sohei_Oni.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/MiniBosses/Clan_Sohei_Oni.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Explore',
 'The Shi are a species as ancient as Crystalia itself.  Legends say that Ameratsu''s first steps upon Crystalia were taken with the loyal Shi at her side.  These luminous creatures'' souls cannot be touched by darkness.  They are a joyful and playful when among children of light, as they are fierce and terrifying to creatures who dwell in darkness.');
 insert into Characters (CardIndex) VALUES (1013);
@@ -8079,7 +8079,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (518
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Clan Tanchyo Chunin',
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Clan_Tanchyo_Chunin_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Clan_Tanchyo_Chunin_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/MiniBosses/Clan_Tanchyo_Chunin.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/MiniBosses/Clan_Tanchyo_Chunin.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Explore',
 'The Tanchyo are known throughout Kagejima for their archery skills, and the Chunin are those who have proven themselves above and beyond even their fellow Tanchyo. Each village only has single Chunin. Sometimes this individual is a hero of a great battle. Sometimes they have proven themselves in an archery contest. But all Tanchyo Chunin are deadly opponents who can single-handedly rain down a storm of arrows.');
 insert into Characters (CardIndex) VALUES (1014);
@@ -8104,7 +8104,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (519
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Clan Tora Chunin',
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Clan_Tora_Chunin_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Clan_Tora_Chunin_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/MiniBosses/Clan_Tora_Chunin.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/MiniBosses/Clan_Tora_Chunin.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Explore',
 'The Chunin of the Tora employ tactics learned over centuries of battle. Employing the strength of their warriors as a fire attacks a dry forest, or a Tiger pounces on the unwary prey.');
 insert into Characters (CardIndex) VALUES (1015);
@@ -8129,7 +8129,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (520
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Clan Void Shrine Oni',
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Clan_Void_Shrine_Oni_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Clan_Void_Shrine_Oni_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/MiniBosses/Clan_Void_Shrine_Oni.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/MiniBosses/Clan_Void_Shrine_Oni.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Explore',
 'It is said that man and Oni first met as enemies, but soon developed a grudging respect; the Oni for their size and strength, and men for their technology and tenacity. Many Oni, however fickle, will join a team to honor agreements, to demonstrate their strength, or just for the fun of it. They may not be the most stealthy, but their effect on the enemy is remarkable.');
 insert into Characters (CardIndex) VALUES (1016);
@@ -8152,7 +8152,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (521
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Clan Water Shrine Oni',
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Clan_Water_Shrine_Oni_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Clan_Water_Shrine_Oni_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/MiniBosses/Clan_Water_Shrine_Oni.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/MiniBosses/Clan_Water_Shrine_Oni.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Explore',
 'It is said that man and Oni first met as enemies, but soon developed a grudging respect; the Oni for their size and strength, and men for their technology and tenacity. Many Oni, however fickle, will join a team to honor agreements, to demonstrate their strength, or just for the fun of it. They may not be the most stealthy, but their effect on the enemy is remarkable.');
 insert into Characters (CardIndex) VALUES (1017);
@@ -8175,7 +8175,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (522
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Clan Yamazaru Chunin',
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Clan_Yamazaru_Chunin_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Clan_Yamazaru_Chunin_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/MiniBosses/Clan_Yamazaru_Chunin.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/MiniBosses/Clan_Yamazaru_Chunin.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Explore',
 'The Yamazaru are naturally curious and playful. They love new trinquets and fun items, and this even spills over into how they arm themselves for battle. Often, the Yamazaru Chunin is simply the one with the newest weapon, biggest club, or the most new trinquets to share with his or her fellow Yamazaru.');
 insert into Characters (CardIndex) VALUES (1018);
@@ -8198,7 +8198,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (523
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Clan Yurei Chunin',
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Clan_Yurei_Chunin_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Clan_Yurei_Chunin_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/MiniBosses/Clan_Yurei_Chunin.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/MiniBosses/Clan_Yurei_Chunin.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Explore',
 'It is said that the hammers borne by the Yurei Chunin were the very ones used to close the final links of chain that held the Yurei clan nobles to their battle barges when they were cast into the ocean. Cursed with the most vile hatred for the Ika, these weapons are as much symbols of that hatred as they are tools for revenge.');
 insert into Characters (CardIndex) VALUES (1019);
@@ -8224,7 +8224,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (524
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Clan Yurei Oni',
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Clan_Yurei_Oni_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Clan_Yurei_Oni_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/MiniBosses/Clan_Yurei_Oni.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/MiniBosses/Clan_Yurei_Oni.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Explore',
 'Amongst the many warriors that were sent to the bottom of the sea during the Yurei rebellion. There were quite a few Oni from some of the outlying islands in the service of Lord Tomomori. Their strength was used to batter their way onto the Ika''s castle ships. It is of no difference now, as even in death, they are terrifying and powerful foes.');
 insert into Characters (CardIndex) VALUES (1020);
@@ -8249,7 +8249,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (525
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Crystal Weaver',
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Crystal_Weaver_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Crystal_Weaver_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/MiniBosses/Crystal_Weaver.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/MiniBosses/Crystal_Weaver.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Explore',
 'The Midnight Tower is guarded by any number of nefarious traps, henchmen, and monsters. But none compare to the Crystal Weaver in pure corruption and unfeeling malignance. Once a sacred keeper of the Goddess Chamber, the Crystal Weaver was one of the wonders of Crystalia. That the Midnight Queen was able to taint it in both heart and form is a stain upon the land. Once in the shape of a mighty knight, the golem has taken on the twisted form of one of the Queen''s spiders, and stalks the halls of her tower hunting down unfortunate Heroes with unfeeling adeptness.');
 insert into Characters (CardIndex) VALUES (1021);
@@ -8273,7 +8273,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (526
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Cursed Jarl',
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Cursed_Jarl_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Cursed_Jarl_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/MiniBosses/Cursed_Jarl.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/MiniBosses/Cursed_Jarl.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Explore',
 'In order to unite the warring human tribes of Frostbyte Reavers, Elrik was required to earn (or force) the allegiance of each tribe''s powerful Jarl. Drawn to Elrik''s might--both physical and magical--most Jarls happily supported his claims to kingship and the riches it brought to them. They did not know of the dark powers which Elrik tapped to gain his strength. When Elrik ascended to Lichdom the Jarls were bestowed the curse of undeath, doomed to serve their King forever.');
 insert into Characters (CardIndex) VALUES (1022);
@@ -8297,7 +8297,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (527
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Dark Kitsune',
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Dark_Kitsune_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Dark_Kitsune_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/MiniBosses/Dark_Kitsune.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/MiniBosses/Dark_Kitsune.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Explore',
 'Some Kitsune are ill-suited for life beneath their clan''s shadowed trees. Dark Kitsune dream of a wider world, and long to see its wonders. They take their clan''s skills in herbalism and magic with them, of course, and most parlay these talents into lucrative employment. They rarely have trouble finding warriors willing to pay their sometimes outlandish fees.');
 insert into Characters (CardIndex) VALUES (1023);
@@ -8321,7 +8321,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (528
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ezoghoul',
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Ezoghoul_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Ezoghoul_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/MiniBosses/Ezoghoul.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/MiniBosses/Ezoghoul.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Explore',
 '');
 insert into Characters (CardIndex) VALUES (1024);
@@ -8344,7 +8344,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (529
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Furious Fungomancer',
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Furious_Fungomancer_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Furious_Fungomancer_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/MiniBosses/Furious_Fungomancer.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/MiniBosses/Furious_Fungomancer.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Explore',
 'Sometimes a Okoshroom is exposed to powerful magic. It could be magic spewed by the Dark Consul, or even just a chance encounter with a powerful crystal. Whatever the cause, this can awaken a new understanding in the Okoshroom. It understands its place in the world. It understands how the other peoples of Crystalia see mushrooms; as mere fungus, even as food. Cursed with understanding, the Okoshroom becomes filled with rage, and seeks ways to make the other people of Crystalia understand what it is to be a mushroom...');
 insert into Characters (CardIndex) VALUES (1025);
@@ -8369,7 +8369,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (530
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Gothmog The Terrible',
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Gothmog_the_Terrible_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Gothmog_the_Terrible_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/MiniBosses/Gothmog_the_Terrible.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/MiniBosses/Gothmog_the_Terrible.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Explore',
 'Gothmog once led the Ravagers as the tribe''s brutal warlord. Under his ferocious rule, the Ravagers became infamous throughout the Frostbyte Reach. His rule was eventually undermined when Guth the Pig overthrew him with the aid of a small, feisty, cunning tribe of goblins. Disgraced by his defeat, Gothmog now serves as The Guth''s lieutenant. He nurses his hatred for his new warlord, waiting for an opportune moment to topple him, and return to his former glory.');
 insert into Characters (CardIndex) VALUES (1026);
@@ -8391,7 +8391,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (531
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Grim Golem',
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Grim_Golem_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Grim_Golem_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/MiniBosses/Grim_Golem.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/MiniBosses/Grim_Golem.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Explore',
 'The massive statues which stand sentinel around the Nether Rifts are, for all intents and purposes, impervious to harm. No attempt by the Light at destroying one has ever succeeded in even marring one''s surface. The Crystal Shapers of the Dark Realm, however, are able to manipulate the surface of the Heralds, growing stone spurs that can be removed and used for nefarious purpose. Particularly favored, is the creation of golems which patrol dungeons and dark keeps. Almost as resistant to harm as the Heralds themselves, these Grim Golems are tenacious foes.');
 insert into Characters (CardIndex) VALUES (1027);
@@ -8415,7 +8415,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (532
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Hecate Vilehorn',
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Hecate_Vilehorn_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Hecate_Vilehorn_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/MiniBosses/Hecate_Vilehorn.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/MiniBosses/Hecate_Vilehorn.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Explore',
 '');
 insert into Characters (CardIndex) VALUES (1028);
@@ -8467,7 +8467,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (534
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Kappa',
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Kappa_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Kappa_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/MiniBosses/Kappa.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/MiniBosses/Kappa.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Explore',
 'The Kappa are wild, dangerous kami who inhabit Kagejima''s lakes, rivers, and swamps. Wily and withdrawn by nature, they can be found overturning boats and drowning unwary children. Despite this, several clans have successfully coaxed these exceptionally strong and stealthy creatures into performing services...often with the sacrifice of food, livestock, or even the village elder''s first born child.');
 insert into Characters (CardIndex) VALUES (1030);
@@ -8492,7 +8492,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (535
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Knight of Shifting Sand',
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Knight_of_Shifting_Sand_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Knight_of_Shifting_Sand_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/MiniBosses/Knight_of_the_Shifting_Sand.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/MiniBosses/Knight_of_the_Shifting_Sand.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Explore',
 'It is said that to fight a Knight of Shifting Sand is to fight the desert itself. At a young age, they are led into the desert, both mount and rider veiled from all sight and sound. There, they are left to survive alone and to find their own way home. Many perish. The greatest of them spend years, even decades, traveling the deep dunes. Each journey is unique, but when they return they are masters of the desert and mighty leaders of their peers.');
 insert into Characters (CardIndex) VALUES (1031);
@@ -8518,7 +8518,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (536
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Knight of the Tower',
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Knight_of_the_Tower_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Knight_of_the_Tower_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/MiniBosses/Knight_of_the_Tower.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/MiniBosses/Knight_of_the_Tower.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Explore',
 '');
 insert into Characters (CardIndex) VALUES (1032);
@@ -8545,7 +8545,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (537
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Kobold Ogre',
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Kobold_Ogre_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Kobold_Ogre_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/MiniBosses/Kobold_Ogre.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/MiniBosses/Kobold_Ogre.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Explore',
 'The most powerful kobold leaders often display their might with a pair or more of burly ogre bodyguards. Having grown large and brutally strong from constant exposure to the Dark Realm''s magick, ogres have lost much of the intelligence and animal cunning of their lesser kobold kin. Despite this, they are remarkably loyal and enjoy being a part of their cousins'' plans.');
 insert into Characters (CardIndex) VALUES (1033);
@@ -8567,7 +8567,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (538
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Mistmourn Warg',
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Mistmourn_Warg_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Mistmourn_Warg_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/MiniBosses/Mistmourn_Warg.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/MiniBosses/Mistmourn_Warg.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Explore',
 'The wargs of the Mistmourn Coast grow exceptionally dangerous. Unlike other wargs, they are not pack hunters. Instead, each one strikes out on its own to claim its territory. These beasts grow to exceptional size and are frequently manipulated by the Dark Consul against the heroes of Crystalia. When a warg leads the Consul''s minions into battle, its howl emboldens those around it, driving them into a frenzy with the warg of their backs.');
 insert into Characters (CardIndex) VALUES (1034);
@@ -8591,7 +8591,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (539
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Monach Tvar',
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Monach_Tvar_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Monach_Tvar_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/MiniBosses/Monach_Tvar.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/MiniBosses/Monach_Tvar.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Explore',
 '');
 insert into Characters (CardIndex) VALUES (1035);
@@ -8621,7 +8621,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (540
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Nethercorn',
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Nethercorn_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Nethercorn_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/MiniBosses/Nethercorn.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/MiniBosses/Nethercorn.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Explore',
 'Nethercorns are fiery tempered natives of the Dark Realm. Startlingly intelligent and predatory, nethercorns bend only to the will of the Dark Consul. Many demons assume nethercorns are servile minions, or attempt to capture them as mounts. The fields of bone around a nethercorn''s territory serve as testimony to their failure.');
 insert into Characters (CardIndex) VALUES (1036);
@@ -8649,7 +8649,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (541
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Orcdon Ramsay',
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Orcdon_Ramsay_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Orcdon_Ramsay_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/MiniBosses/Orcdon_Ramsay.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/MiniBosses/Orcdon_Ramsay.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Explore',
 '');--!! unavailable !!
 insert into Characters (CardIndex) VALUES (1037);
@@ -8672,7 +8672,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (542
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Rage Fiend, The',
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Rage_Fiend_The_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Rage_Fiend_The_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/MiniBosses/Rage_Fiend_The.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/MiniBosses/Rage_Fiend_The.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Explore',
 'The Rage Fiend is a legend among the orcish tribes. An unstoppable juggernaut of destruction, it is whispered that The Rage Fiend was blessed by the great demon lord known only as The Destroyer. Filled with demonic vigor and visions of desolation, The Rage Fiend incites all around him to ever increasing fits of violence and madness. Where The Rage Fiend treads only death follows.');
 insert into Characters (CardIndex) VALUES (1038);
@@ -8695,7 +8695,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (543
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Randy, Lrod of Spiders',
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Randy_Lrod_of_Spiders_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Randy_Lrod_of_Spiders_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/MiniBosses/Randy_Lrod_of_Spiders.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/MiniBosses/Randy_Lrod_of_Spiders.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Explore',
 'The last galaxy is a place where mighty knights clash with the forces of the void, and a battle for survival rages. But that doesn''t mean that the arcades will manage themselves. Randy has been charged with the sacred duty of managing one such arcade. Annoyed at customers who continually vaporize his place of work with high tech weaponry, Randy decided to program himself into his favorite game. But a typo prevented him from being a proper lord, even in a game...');
 insert into Characters (CardIndex) VALUES (1039);
@@ -8720,7 +8720,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (544
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Rex',
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Rex_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Rex_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/MiniBosses/Rex.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/MiniBosses/Rex.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Explore',
 'Rex has collected more than a few new friends since going to work in the Consul''s dungeons. Most are unwary adventurers not quite quick enough to get out of the reach of his enthusiastic hugs.');
 insert into Characters (CardIndex) VALUES (1040);
@@ -8746,7 +8746,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (545
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ser Anthony',
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Ser_Anthony_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Ser_Anthony_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/MiniBosses/Ser_Anthony.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/MiniBosses/Ser_Anthony.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Explore',
 'Despite his youth, Ser Anthony rose through the ranks of the Crown Guard quickly. Taken under the wing of the venerable knight Ser Charles he excelled at his studies--both physical and mental. At Ser Charles'' retirement, it was the great knight''s honor to see his squire rise to fill his station.');
 insert into Characters (CardIndex) VALUES (1041);
@@ -8772,7 +8772,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (546
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ser Elmer',
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Ser_Elmer_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Ser_Elmer_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/MiniBosses/Ser_Elmer.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/MiniBosses/Ser_Elmer.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Explore',
 'Ser Elmer has the distinct privilege and honor of serving as Castletown''s Captain of the Guard. Charged with overseeing the safety of Castletown''s businesses and citizens, Ser Elmer rarely encounters monsters. Instead, Ser Elmer typically confronts various criminal organizations, shadowy thieves guilds, and over exuberant Heroes who have gotten out of line.');
 insert into Characters (CardIndex) VALUES (1042);
@@ -8795,7 +8795,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (547
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Shinigami',
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Shinigami_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Shinigami_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/MiniBosses/Shinigami.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/MiniBosses/Shinigami.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Explore',
 'Few types of death spectre inspire such dread as Kagejima''s shinigami. These deadly spirits lure victims into cursed pacts, offering up knowledge or power that inevitably leads to an unfortunate death. Indeed, so insidious and cruel are these pacts that many seek death in order to end the suffering their bargain causes.');
 insert into Characters (CardIndex) VALUES (1043);
@@ -8817,7 +8817,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (548
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Tengu',
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Tengu_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Tengu_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/MiniBosses/Tengu.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/MiniBosses/Tengu.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Explore',
 'For centuries, the Tengu have bartered or traded their magical and martial skill to the competing clans of Kagejima. Sometimes they do so for gold, for more offerings at their shrines, or for shiny baubles. Other times the requests are more unusual, such as whispers of love from a beautiful woman, the first wail of a newborn, or thirty stems of saffron.');
 insert into Characters (CardIndex) VALUES (1044);
@@ -8844,7 +8844,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (549
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Tidal Knight',
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Tidal_Knight_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Tidal_Knight_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/MiniBosses/Tidal_Knight.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/MiniBosses/Tidal_Knight.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Explore',
 'Magically adapted to survive beneath the sea. Tidal Knights are rarely seen, even by nether elf corsairs. In times of need, Tidal Knights are summoned by Shadow Fleet corsairs through the use of massive horns which are sounded beneath the waves. Once summoned, the Tidal Knights race alongside the Shadow Fleet, before launching into the air to charge enemy sailors upon the decks.');
 insert into Characters (CardIndex) VALUES (1045);
@@ -8871,7 +8871,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (550
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ugluk the Mechanically Inclined',
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Ugluk_the_Mechanically_Inclined_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Ugluk_the_Mechanically_Inclined_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/MiniBosses/Ugluk_the_Mechanically_Inclined.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/MiniBosses/Ugluk_the_Mechanically_Inclined.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Explore',
 '');--!! unavailable !!
 insert into Characters (CardIndex) VALUES (1046);
@@ -8894,7 +8894,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (551
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Vlad the Perforator',
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Vlad_the_Perforator_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Vlad_the_Perforator_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/MiniBosses/Vlad_the_Perforator.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/MiniBosses/Vlad_the_Perforator.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Explore',
 '');--!! unavailable !!
 insert into Characters (CardIndex) VALUES (1047);
@@ -8918,7 +8918,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (552
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Yobuko',
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Yobuko_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Yobuko_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/MiniBosses/Yobuko.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/MiniBosses/Yobuko.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Explore',
 'Tall, strong, and fierce, Yobuko is also young and inexperienced compared to his Ijin counterparts. This blend of natural ability coupled with an, as yet, unrivaled capacity to fight might be the most frightening aspect about him. His power is already so incredible that he is the rival of many of his masters, and he is also constantly testing his mettle against full-blooded oni twice his size to the amazement of all of his clansmen.');
 insert into Characters (CardIndex) VALUES (1048);
@@ -8972,7 +8972,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (554
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Daemonus',
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Daemonus_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Daemonus_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Bosses/Daemonus.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Bosses/Daemonus.xhtml', 
 'Boss', '2.0', '2.0 Core Set', 'Explore',
 'Built by a doomed gnomish artificer to house a fragment of the Dark Consul''s evil soul, Daemonus serves the Midnight Queen as guardian and champion. The true purpose of this vile clockwork contraption is far more sinister. Through Daemonus, the Dark Consul is able to observe and whisper corruption to the Queen. In this way, he shields her heart from the Light, continuing to usher her along the path to darkness.');
 insert into Characters (CardIndex) VALUES (1050);
@@ -8997,7 +8997,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (555
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Demon Queen Araphel',
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Demon_Queen_Araphel_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Demon_Queen_Araphel_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Bosses/Demon_Queen_Araphel.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Bosses/Demon_Queen_Araphel.xhtml', 
 'Boss', '2.0', '2.0 Core Set', 'Explore',
 'Araphel is the Mistress of Chains and Lady of Deceit, giving aid to any who seek to subvert and control the will of those around them. Her Devoted come from every walk of life, even the clergy of other deities are sometimes the Devoted of Araphel in disguise, working her poison plots from within other houses of worship.');
 insert into Characters (CardIndex) VALUES (1051);
@@ -9020,7 +9020,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (556
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Destroyer, The',
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Destroyer_The_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Destroyer_The_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Bosses/Destroyer_The.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Bosses/Destroyer_The.xhtml', 
 'Boss', '2.0', '2.0 Core Set', 'Explore',
 '');
 insert into Characters (CardIndex) VALUES (1052);
@@ -9048,7 +9048,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (557
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Elrik The Lich King',
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Elrik_The_Lich_King_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Elrik_The_Lich_King_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Bosses/Elrik_The_Lich_King.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Bosses/Elrik_The_Lich_King.xhtml', 
 'Boss', '2.0', '2.0 Core Set', 'Explore',
 'SUFFER, MORTALS!');
 insert into Characters (CardIndex) VALUES (1053);
@@ -9077,7 +9077,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (558
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Gnomish Excavator',
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Gnomish_Excavator_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Gnomish_Excavator_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Bosses/Gnomish_Excavator.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Bosses/Gnomish_Excavator.xhtml', 
 'Boss', '2.0', '2.0 Core Set', 'Explore',
 '');
 insert into Characters (CardIndex) VALUES (1054);
@@ -9105,7 +9105,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (559
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Guth, The',
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Guth_The_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Guth_The_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Bosses/Guth_The.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Bosses/Guth_The.xhtml', 
 'Boss', '2.0', '2.0 Core Set', 'Explore',
 '"After I chop you up, you''ll make a tasty snack!"');
 insert into Characters (CardIndex) VALUES (1055);
@@ -9133,7 +9133,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (560
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Hoarfang',
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Hoarfang_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Hoarfang_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Bosses/Hoarfang.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Bosses/Hoarfang.xhtml', 
 'Boss', '2.0', '2.0 Core Set', 'Explore',
 '');--!! unavailable !!
 insert into Characters (CardIndex) VALUES (1056);
@@ -9162,7 +9162,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (561
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Jorogumo',
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Jorogumo_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Jorogumo_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Bosses/Jorogumo.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Bosses/Jorogumo.xhtml', 
 'Boss', '2.0', '2.0 Core Set', 'Explore',
 '');
 insert into Characters (CardIndex) VALUES (1057);
@@ -9189,7 +9189,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (562
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Krampus',
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Krampus_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Krampus_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Bosses/Krampus.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Bosses/Krampus.xhtml', 
 'Boss', '2.0', '2.0 Core Set', 'Explore',
 '');
 insert into Characters (CardIndex) VALUES (1058);
@@ -9217,7 +9217,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (563
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Lord Vulcanis',
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Lord_Vulcanis_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Lord_Vulcanis_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Bosses/Lord_Vulcanis.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Bosses/Lord_Vulcanis.xhtml', 
 'Boss', '2.0', '2.0 Core Set', 'Explore',
 'The most infamous of all the giants, Lord Vulcanis broods deep beneath the Dragonback Peaks. At his enormous black forge he crafts dark relics for the generals of the Dark Consul''s armies. Into each relic he pours his rage, hate, and loathing for the realm of Light, tempering them for the battles to come.');
 insert into Characters (CardIndex) VALUES (1059);
@@ -9241,7 +9241,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (564
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Midnight Queen, The',
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Midnight_Queen_The_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Midnight_Queen_The_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Bosses/Midnight_Queen_The.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Bosses/Midnight_Queen_The.xhtml', 
 'Boss', '2.0', '2.0 Core Set', 'Explore',
 'The Midnight Queen has risen to prominence as the Dark Consul''s voice and prophet in his time of exile. Known also as the Shadow Consort, Prophecy Breaker, The Demoness, and the Hollow Queen, she is the Dark Consul''s terrible will made manifest. She will see all of Crystalia consumed by darkness.');
 insert into Characters (CardIndex) VALUES (1060);
@@ -9267,7 +9267,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (565
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Mordred the Accursed',
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Mordred_the_Accursed_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Mordred_the_Accursed_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Bosses/Mordred_the_Accursed.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Bosses/Mordred_the_Accursed.xhtml', 
 'Boss', '2.0', '2.0 Core Set', 'Explore',
 '');
 insert into Characters (CardIndex) VALUES (1061);
@@ -9294,7 +9294,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (566
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Mother Noctua',
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Mother_Noctua_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Mother_Noctua_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Bosses/Mother_Noctua.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Bosses/Mother_Noctua.xhtml', 
 'Boss', '2.0', '2.0 Core Set', 'Explore',
 'Hoot! Hoot, hoot! HOOOOOOTTT!!!');
 insert into Characters (CardIndex) VALUES (1062);
@@ -9319,7 +9319,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (567
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Mugg',
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Mugg_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Mugg_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Bosses/Mugg.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Bosses/Mugg.xhtml', 
 'Boss', '2.0', '2.0 Core Set', 'Explore',
 ''); --!! unavailable !!
 insert into Characters (CardIndex) VALUES (1063);
@@ -9343,7 +9343,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (568
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Nightsong the Eternal',
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Nightsong_the_Eternal_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Nightsong_the_Eternal_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Bosses/Nightsong_the_Eternal.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Bosses/Nightsong_the_Eternal.xhtml', 
 'Boss', '2.0', '2.0 Core Set', 'Explore',
 '');
 insert into Characters (CardIndex) VALUES (1064);
@@ -9372,7 +9372,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (569
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Onibaba',
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Onibaba_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Onibaba_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Bosses/Onibaba.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Bosses/Onibaba.xhtml', 
 'Boss', '2.0', '2.0 Core Set', 'Explore',
 'As a mortal, Onibaba would lure stragglers from battles into her traps, finish them off, and sell their possessions. One night, however, she pulled a finely crafted mask from a dark and terrible samurai, and slipped it on over her face. In that instant, the dark power from within the mask touched the festering rot in her soul and consumed her. Soon the mortal hag was infested by an ageless, devouring horror that has stalked Kagejima''s places of slaughter ever since.');
 insert into Characters (CardIndex) VALUES (1065);
@@ -9398,7 +9398,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (570
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Onryo',
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Onryo_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Onryo_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Bosses/Onryo.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Bosses/Onryo.xhtml', 
 'Boss', '2.0', '2.0 Core Set', 'Explore',
 '"Into the darkness, under the trees. Into the water, follow me please."');
 insert into Characters (CardIndex) VALUES (1066);
@@ -9425,7 +9425,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (571
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Pauper Prince',
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Pauper_Prince_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Pauper_Prince_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Bosses/Pauper_Prince.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Bosses/Pauper_Prince.xhtml', 
 'Boss', '2.0', '2.0 Core Set', 'Explore',
 '"Didn''t you know? All travelers to the Undercove must pay the the Prince''s Due."');
 insert into Characters (CardIndex) VALUES (1067);
@@ -9451,7 +9451,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (572
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Professor Cackle-Clink',
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Professor_Cackle_Clink_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Professor_Cackle_Clink_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Bosses/Professor_Cackle_Clink.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Bosses/Professor_Cackle_Clink.xhtml', 
 'Boss', '2.0', '2.0 Core Set', 'Explore',
 '');
 insert into Characters (CardIndex) VALUES (1068);
@@ -9479,7 +9479,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (573
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Starfire',
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Starfire_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Starfire_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Bosses/Starfire.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Bosses/Starfire.xhtml', 
 'Boss', '2.0', '2.0 Core Set', 'Explore',
 '');
 insert into Characters (CardIndex) VALUES (1069);
@@ -9505,7 +9505,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (574
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Testudo Tower',
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Testudo_Tower_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Testudo_Tower_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Bosses/Testudo_Tower.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Bosses/Testudo_Tower.xhtml', 
 'Boss', '2.0', '2.0 Core Set', 'Explore',
 '');
 insert into Characters (CardIndex) VALUES (1070);
@@ -9531,7 +9531,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (575
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Thresher, The',
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Thresher_The_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Thresher_The_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Bosses/Thresher_The.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Bosses/Thresher_The.xhtml', 
 'Boss', '2.0', '2.0 Core Set', 'Explore',
 '');
 insert into Characters (CardIndex) VALUES (1071);
@@ -9558,7 +9558,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (576
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ugg',
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Ugg_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Ugg_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Bosses/Ugg.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Bosses/Ugg.xhtml', 
 'Boss', '2.0', '2.0 Core Set', 'Explore',
 ''); --!! unavailable !!
 insert into Characters (CardIndex) VALUES (1072);
@@ -9582,7 +9582,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (577
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ymnaur Wintersson',
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Ymnaur_Wintersson_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Ymnaur_Wintersson_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Bosses/Ymnaur_Wintersson.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Bosses/Ymnaur_Wintersson.xhtml', 
 'Boss', '2.0', '2.0 Core Set', 'Explore',
 '');
 insert into Characters (CardIndex) VALUES (1073);
@@ -9616,7 +9616,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (578
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Arcadian Spider Nest',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Arcadian_Spider_Nest/Card_Warband_Arcadian_Spider_Nest_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Arcadian_Spider_Nest/Card_Warband_Arcadian_Spider_Nest_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Arcadian_Spider_Nest/Arcadian_Spider_Nest.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Arcadian_Spider_Nest/Arcadian_Spider_Nest.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'In the dry and barren lands of Arcadia spiders have been forced to adapt to protect themselves from the harsh climate, as well as their methods when hunting for food.  Lacking natural terrain in which to build webs, Trapdoor Spiders build covered burrows near sources of water, bursting from the ground when prey grows near.  Others, such as the Leaping Spider, rely on pure speed.  Able to outpace even even horses, these speedy spiders are terrifying predators of the dunes.');
 insert into Characters (CardIndex) VALUES (1074); 
@@ -9636,7 +9636,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (579
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Duskweaver Acolyte',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Arcadian_Spider_Nest/Card_Warband_Arcadian_Spider_Nest_Duskweaver_Acolyte_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Arcadian_Spider_Nest/Card_Warband_Arcadian_Spider_Nest_Duskweaver_Acolyte_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Arcadian_Spider_Nest/Duskweaver_Acolyte.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Arcadian_Spider_Nest/Duskweaver_Acolyte.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Duskweavers are an ancient branch of Arcadian Spider Speakers who see spiders as not only monstrous minions to be used as expendable chaff, but as pure expressions of the Dark Consul''s malevolent will and intent.  Duskweaver Acolytes are charged with tending to the Dark Consul''s sacred spiders, and proselytizing the unbeliever to their cause.');
 insert into Characters (CardIndex) VALUES (1075);
@@ -9662,7 +9662,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (580
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Leaping Spider',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Arcadian_Spider_Nest/Card_Warband_Arcadian_Spider_Nest_Leaping_Spider_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Arcadian_Spider_Nest/Card_Warband_Arcadian_Spider_Nest_Leaping_Spider_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Arcadian_Spider_Nest/Leaping_Spider.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Arcadian_Spider_Nest/Leaping_Spider.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Marked in black and sunset orange, Leaping Spiders appear as a blur of fire streaking across the dessert as they hunt.  When they pounce, their black bodies obscure the sun and their legs go wide, catching the sun''s corona like a fiery demon of death.');
 insert into Characters (CardIndex) VALUES (1076); 
@@ -9684,7 +9684,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (581
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Trapdoor Spider',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Arcadian_Spider_Nest/Card_Warband_Arcadian_Spider_Nest_Trapdoor_Spider_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Arcadian_Spider_Nest/Card_Warband_Arcadian_Spider_Nest_Trapdoor_Spider_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Arcadian_Spider_Nest/Trapdoor_Spider.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Arcadian_Spider_Nest/Trapdoor_Spider.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Lurking just underfoot, Trapdoor Spiders build vast tunnel networks beneath the dunes.  Covered in thick purple hairs that allow it to sense the barest tremor or shift in the sand for miles around, the spider will race through its tunnels towards a disturbance.  Once it has located its prey, the spider springs from one of dozens of carefully conceal trapdoors, quickly subduing and dragging its dinner into its labyrinth.');
 insert into Characters (CardIndex) VALUES (1077); 
@@ -9709,15 +9709,15 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (582
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Bandit Knight',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Bandit_Knight/Card_Warband_Bandit_Knight_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Bandit_Knight/Card_Warband_Bandit_Knight_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Bandit_Knight/Bandit Knight.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Bandit_Knight/Bandit_Knight.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'When the Bramble Knights were cursed by their own treasonous lord and turned into chimera, not all were successfully banished to the Lordship Ruins. The Forgotten King had used a select few Bramble Knights as his scouts and assassins. These elite knights led missions deep in the heart of enemy territory, often retreating to inaccessible regions of the Dragonback Peaks. Now, cursed and forgotten, they still dwell there. Without lord or mission, they carry on their pillaging and havoc simply because it is all they have ever known. The carnage they spread is the closest their twisted lives come to containing meaning or purpose.');
 insert into Characters (CardIndex) VALUES (1078); 
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (688, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (688,
-'http://htkb.info/SDE/2.0/Cards/Warbands/Bandit_Knight/Standies/Bandit Knight_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Bandit_Knight/Standies/Bandit Knight_2.0_back.png', 
+'http://htkb.info/SDE/2.0/Cards/Warbands/Bandit_Knight/Standies/Bandit_Knight_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Warbands/Bandit_Knight/Standies/Bandit_Knight_2.0_back.png', 
 'Neither', 'Small', 'Spawning Point', 0, 0, '', '1ST', '', '', 3, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (583, 518); --Counterstrike
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (583, 681); --Immune: Status Effects
@@ -9730,7 +9730,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (583
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Billmen Bandit',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Bandit_Knight/Card_Warband_Bandit_Knight_Billmen_Bandit_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Bandit_Knight/Card_Warband_Bandit_Knight_Billmen_Bandit_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Bandit_Knight/Billmen_Bandit.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Bandit_Knight/Billmen_Bandit.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Billmen made up the majority of the Forgotten King''s forces. Unwittingly following an evil lord, many Billmen seek to repent, or are simply tragic figures attempting to live out their days. But some are bitter that they should share in their master''s fate when they knew nothing of his plans. They blame the Heroes of Crystalia, the elves, anyone but themselves. These lonely and embittered outcasts have taken to the mountains, stealing what they can, and justifying their theft as compensation for the twisted existence they must suffer.');
 insert into Characters (CardIndex) VALUES (1079);
@@ -9749,7 +9749,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (584
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Grobbit Barbarian',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Bandit_Knight/Card_Warband_Bandit_Knight_Grobbit_Barbarian_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Bandit_Knight/Card_Warband_Bandit_Knight_Grobbit_Barbarian_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Bandit_Knight/Grobbit_Barbarian.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Bandit_Knight/Grobbit_Barbarian.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Some Grobbits have escaped to the Dragonback Peaks, seeking shelter in the snaking paths and forgotten caverns found there. Alone and bitter, their minds have begun to change just like their bodies. Over the years their humanity has slipped away, leaving them as beastial and feral within as they are on the outside.');
 insert into Characters (CardIndex) VALUES (1080); 
@@ -9770,7 +9770,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (585
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Marauder Squawk',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Bandit_Knight/Card_Warband_Bandit_Knight_Marauder_Squawk_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Bandit_Knight/Card_Warband_Bandit_Knight_Marauder_Squawk_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Bandit_Knight/Marauder_Squawk.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Bandit_Knight/Marauder_Squawk.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'The Bramble Knight cavalry who aided in the shadow war against the forces of Crystalia became the fearsome Marauder Squawks when their bitter lord cursed all of his forces. Unlike other knights who were bound by chivalry and honor, these marauders were masters of thieving, spying, and dirty fighting tactics.');
 insert into Characters (CardIndex) VALUES (1081); 
@@ -9794,7 +9794,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (586
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ijin Madoushi',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Ijin/Card_Warband_Clan_Ijin_Madoushi_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Ijin/Card_Warband_Clan_Ijin_Madoushi_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Clan_Ijin/Ijin_Madoushi.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Clan_Ijin/Ijin_Madoushi.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Ijin Madoushi have learned some of the mystical ways of the void witches. They use this power to stir their fellow Ijin into a blood frenzy, calling them to battle.');
 insert into Characters (CardIndex) VALUES (1082); 
@@ -9817,7 +9817,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (587
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ijin Kaiken',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Ijin/Card_Warband_Clan_Ijin_Kaiken_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Ijin/Card_Warband_Clan_Ijin_Kaiken_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Clan_Ijin/Ijin_Kaiken.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Clan_Ijin/Ijin_Kaiken.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Kaiken are the foot soldiers of Clan Ijin and are a common sight in their harsh homeland. The Ijin struggle and succeed every day through pure, raw strength. Shaped by darkness and sculpted by hard labor, they are tough, iron-fisted, and suffer no insult. Any who trespass or insult the Ijin will face the wrath of the kaiken, each warrior having earned their place in the ranks through a test of might.');
 insert into Characters (CardIndex) VALUES (1083); 
@@ -9836,7 +9836,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (588
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ijin Kunoichi',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Ijin/Card_Warband_Clan_Ijin_Kunoichi_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Ijin/Card_Warband_Clan_Ijin_Kunoichi_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Clan_Ijin/Ijin_Kunoichi.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Clan_Ijin/Ijin_Kunoichi.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'The Ijin kunoichi are elite warriors. To join the ranks of the kunoichi, a kaiken must pass both a test of might and a test of cunning. While the Ijin value strength above all else, the kunoichi are highly skilled in the most effective points to apply that strength. In other words, while all Ijin agree that smashing something is the best way to resolve a conflict, the kunoichi acknowledge that what you smash matters.');
 insert into Characters (CardIndex) VALUES (1084);
@@ -9860,7 +9860,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (589
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ijin Oni',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Ijin/Card_Warband_Clan_Ijin_Oni_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Ijin/Card_Warband_Clan_Ijin_Oni_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Clan_Ijin/Ijin_Oni.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Clan_Ijin/Ijin_Oni.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'The void witches of the Ijin have bartered an unusual peace with the mighty oni that roam their lands. These oni are fearsome, brutal, and often wield mighty clubs in battle. They are ferocious allies for clan Ijin, and in many ways the Ijin share more similarities with these monstrous oni than they do the other clans.');
 insert into Characters (CardIndex) VALUES (1085); 
@@ -9882,7 +9882,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (590
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ijin Yajiri',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Ijin/Card_Warband_Clan_Ijin_Yajiri_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Ijin/Card_Warband_Clan_Ijin_Yajiri_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Clan_Ijin/Ijin_Yajiri.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Clan_Ijin/Ijin_Yajiri.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'The life of an Ijin is hard, brutal, and unforgiving. Often, Ijin warriors suffer crippling injuries that would relegate a member of any other clan to a life of bed-rest, or at least humble farming. When Ijin face such difficulties, they pick up a crossbow and join the ranks of the yajiri. These hardened and wizened veterans engage the enemy at range, stubbornly refusing to give up the fight, or leave it to younger warriors.');
 insert into Characters (CardIndex) VALUES (1086); 
@@ -9904,7 +9904,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (591
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ika Madoushi',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Ika/Card_Warband_Clan_Ika_Madoushi_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Ika/Card_Warband_Clan_Ika_Madoushi_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Clan_Ika/Ika_Madoushi.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Clan_Ika/Ika_Madoushi.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 '');
 insert into Characters (CardIndex) VALUES (1087); 
@@ -9928,7 +9928,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (592
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ika Kaiken',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Ika/Card_Warband_Clan_Ika_Kaiken_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Ika/Card_Warband_Clan_Ika_Kaiken_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Clan_Ika/Ika_Kaiken.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Clan_Ika/Ika_Kaiken.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 '');
 insert into Characters (CardIndex) VALUES (1088); 
@@ -9947,7 +9947,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (593
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ika Kunoichi',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Ika/Card_Warband_Clan_Ika_Kunoichi_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Ika/Card_Warband_Clan_Ika_Kunoichi_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Clan_Ika/Ika_Kunoichi.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Clan_Ika/Ika_Kunoichi.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 '');
 insert into Characters (CardIndex) VALUES (1089);
@@ -9968,7 +9968,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (594
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ika Oni',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Ika/Card_Warband_Clan_Ika_Oni_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Ika/Card_Warband_Clan_Ika_Oni_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Clan_Ika/Ika_Oni.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Clan_Ika/Ika_Oni.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 '');
 insert into Characters (CardIndex) VALUES (1090); 
@@ -9992,7 +9992,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (595
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ika Yajiri',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Ika/Card_Warband_Clan_Ika_Yajiri_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Ika/Card_Warband_Clan_Ika_Yajiri_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Clan_Ika/Ika_Yajiri.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Clan_Ika/Ika_Yajiri.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 '');
 insert into Characters (CardIndex) VALUES (1091); 
@@ -10013,7 +10013,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (596
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Kitsune Madoushi',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Kitsune/Card_Warband_Clan_Kitsune_Madoushi_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Kitsune/Card_Warband_Clan_Kitsune_Madoushi_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Clan_Kitsune/Kitsune_Madoushi.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Clan_Kitsune/Kitsune_Madoushi.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'The Madoushi of the Kitsune clan are the masters of the healing herbs for which the Kitsune are known, as well as masters of the forest itself. They can sense pathways that nobody else can, quickly directing more Kitsune into the fight. They decide when the Kitsune are to take to battle. While the Kitsune are not under the sway of the Dark Consul, his influence has made all the clans of Kagejima more war-like, and the Madoushi are suspicious, likely to call the might of the Kitsune against complete strangers who wander into their territory.');
 insert into Characters (CardIndex) VALUES (1092); 
@@ -10037,7 +10037,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (597
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Kitsune Kaiken',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Kitsune/Card_Warband_Clan_Kitsune_Kaiken_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Kitsune/Card_Warband_Clan_Kitsune_Kaiken_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Clan_Kitsune/Kitsune_Kaiken.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Clan_Kitsune/Kitsune_Kaiken.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'The Kitsune inhabit the western faces of the mountains of Kagejima. These lands are covered in lush, wet forests which are full of strange and unpredictable kami. There are many tales of strange occurences in these lands, such as travelers entering a village and emerging a century later over the course of what seemed to them a single night. Uncounted people have become lost in the twisting forests of the Kitsune, and the deeper one goes into their territory, the greater the danger grows. Kaiken are the backbone of the Kitsune forces that tend to the secret paths and hidden villages of the Kitsune.');
 insert into Characters (CardIndex) VALUES (1093); 
@@ -10058,7 +10058,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (598
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Kitsune Kunoichi',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Kitsune/Card_Warband_Clan_Kitsune_Kunoichi_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Kitsune/Card_Warband_Clan_Kitsune_Kunoichi_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Clan_Kitsune/Kitsune_Kunoichi.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Clan_Kitsune/Kitsune_Kunoichi.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Kitsune teach their children to navigate the fickle forests in which they dwell at a young age. Being able to brave the wood in order to harvest potent herbs is necessary to become an adult in Kitsune society. Those youngsters who show particular adeptness at navigating their lands soon become Kaiken, trusted with guarding the paths. When they have mastered that, they are taught the ways of the Yajiri, how to use the forests themselves against their enemies. Only when they have mastered both the path of Kaiken and Yajiri will they gain the rank of Kunoichi.');
 insert into Characters (CardIndex) VALUES (1094);
@@ -10081,7 +10081,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (599
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Kitsune Oni',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Kitsune/Card_Warband_Clan_Kitsune_Oni_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Kitsune/Card_Warband_Clan_Kitsune_Oni_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Clan_Kitsune/Kitsune_Oni.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Clan_Kitsune/Kitsune_Oni.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'The Oni of the Kitsune are the physical manifestations of the forest kami themselves. They take on the monstrous, fox-like shape that belies their mischievous and fickle nature and fight alongside the Kitsune clan during times of great strife...or simply when they feel like it. In battle they are ferocious, cutting down any who dare to tread too far into their forests without permission.');
 insert into Characters (CardIndex) VALUES (1095); 
@@ -10104,7 +10104,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (600
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Kitsune Yajiri',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Kitsune/Card_Warband_Clan_Kitsune_Yajiri_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Kitsune/Card_Warband_Clan_Kitsune_Yajiri_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Clan_Kitsune/Kitsune_Yajiri.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Clan_Kitsune/Kitsune_Yajiri.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'The Kitsune Yajiri strike from the shadows of their twisted forests. Unwanted travelers will be pelted with darts, only to find that the Yajiri have vanished back into the depths of the wood. This tactic is not just used in order to allow the Yajiri escape, but to lure the trespassers deeper into the wood, where they will surely become lost and perish either due to the elements or the whims of a vengeful kami. The Kitsune territory is not a place for those who do not know its paths and secrets well, and the Yajiri use the landscape to its fullest effect.');
 insert into Characters (CardIndex) VALUES (1096); 
@@ -10127,7 +10127,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (601
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Sohei Madoushi',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Sohei/Card_Warband_Clan_Sohei_Madoushi_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Sohei/Card_Warband_Clan_Sohei_Madoushi_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Clan_Sohei/Sohei_Madoushi.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Clan_Sohei/Sohei_Madoushi.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'The Sohei Madoushi have been granted visions of the realms across the ocean, and witnessed the taint of the Dark Consul upon those lands.  Fearing that Kagejima will become overrun, they have adopted a zero tolerance policy in regards to "Heroes" from other realms.');
 insert into Characters (CardIndex) VALUES (1097); 
@@ -10149,7 +10149,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (602
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Sohei Kaiken',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Sohei/Card_Warband_Clan_Sohei_Kaiken_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Sohei/Card_Warband_Clan_Sohei_Kaiken_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Clan_Sohei/Sohei_Kaiken.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Clan_Sohei/Sohei_Kaiken.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'After completing the Nine Trials of Devotion, a Sohei''s soul is purified by the clan''s Madoushi and eleveated to Kaiken.  In combat, their swords are as the divine light of Ameratsu, banishing all shadows before them.');
 insert into Characters (CardIndex) VALUES (1098); 
@@ -10168,7 +10168,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (603
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Sohei Kunoichi',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Sohei/Card_Warband_Clan_Sohei_Kunoichi_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Sohei/Card_Warband_Clan_Sohei_Kunoichi_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Clan_Sohei/Sohei_Kunoichi.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Clan_Sohei/Sohei_Kunoichi.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Trained specialist and charismatic leaders, Sohei Kunoichi are billiant points of light in the darkness.  They can be found where the Dark Consul''s influence is strongest, guiding their comrades in service to the light.');
 insert into Characters (CardIndex) VALUES (1099);
@@ -10187,7 +10187,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (604
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Sohei Yajiri',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Sohei/Card_Warband_Clan_Sohei_Yajiri_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Sohei/Card_Warband_Clan_Sohei_Yajiri_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Clan_Sohei/Sohei_Yajiri.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Clan_Sohei/Sohei_Yajiri.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Sohei Yajiri are less experienced kohai who have only begun their journey along the ascetic paths of the Ikko, suporting the clan with disciplined bow fire.');
 insert into Characters (CardIndex) VALUES (1100); 
@@ -10208,7 +10208,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (605
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Elemental Shrine',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Spirit_Shrine/Card_Warband_Clan_Spirit_Shrine_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Spirit_Shrine/Card_Warband_Clan_Spirit_Shrine_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Clan_Spirit_Shrine/Clan_Spirit_Shrine.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Clan_Spirit_Shrine/Clan_Spirit_Shrine.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 '');
 insert into Characters (CardIndex) VALUES (1101); 
@@ -10230,7 +10230,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (606
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Chunin',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Spirit_Shrine/Card_Warband_Clan_Spirit_Shrine_Chunin_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Spirit_Shrine/Card_Warband_Clan_Spirit_Shrine_Chunin_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Clan_Spirit_Shrine/Clan_Spirit_Shrine_Chunin.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Clan_Spirit_Shrine/Clan_Spirit_Shrine_Chunin.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Aspiring leaders and skilled fighters within the clan are called upon to lead their own team of ninja as chunin. This is an incredible honor, and the trials to come will not only test a chunin''s leadership and skills, but their spirit as well.');
 insert into Characters (CardIndex) VALUES (1102); 
@@ -10253,7 +10253,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (607
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Kaiken',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Spirit_Shrine/Card_Warband_Clan_Spirit_Shrine_Kaiken_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Spirit_Shrine/Card_Warband_Clan_Spirit_Shrine_Kaiken_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Clan_Spirit_Shrine/Clan_Spirit_Shrine_Kaiken.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Clan_Spirit_Shrine/Clan_Spirit_Shrine_Kaiken.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Kaiken are the backbone of the clans. To be a kaiken is not to be relegated to a basic or low role. Training to become a kaiken starts from birth and is ingrained through hardship, conditioning, and trials that normal people could not withstand. Kaiken are masters of the art of stealth, the sword, and the shuriken. As their experience grows, they learn to tap elemental magic, unlocking potent abilities to rival even the great Heroes.');
 insert into Characters (CardIndex) VALUES (1103); 
@@ -10274,7 +10274,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (608
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Kunoichi',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Spirit_Shrine/Card_Warband_Clan_Spirit_Shrine_Kunoichi_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Spirit_Shrine/Card_Warband_Clan_Spirit_Shrine_Kunoichi_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Clan_Spirit_Shrine/Clan_Spirit_Shrine_Kunoichi.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Clan_Spirit_Shrine/Clan_Spirit_Shrine_Kunoichi.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Kunoichi are specialized female fighters and scouts for the clans. Though deadly and widely trained in the ninja arts, the kunoichi put particular emphasis on speed and agility. In battle, kunoichi focus on key mission objectives such as scouting targets and carrying vital missives.');
 insert into Characters (CardIndex) VALUES (1104);
@@ -10296,7 +10296,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (609
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Madoushi',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Spirit_Shrine/Card_Warband_Clan_Spirit_Shrine_Madoushi_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Spirit_Shrine/Card_Warband_Clan_Spirit_Shrine_Madoushi_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Clan_Spirit_Shrine/Clan_Spirit_Madoushi.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Clan_Spirit_Shrine/Clan_Spirit_Madoushi.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'All clans possess the mystics known as madoushi. In some clans, they are revered as sages, alchemists and healers. Other clans regard them as witches, and tolerate them with barely concealed mistrust and fear. Whether they are revered or reviled, all madoushi are able to harness the powers native to the lands of their clan. With training, study, and meditation, a madoushi learns to draw from the lines of Ki that race through the landscape, summoning the very elements to do their bidding.');
 insert into Characters (CardIndex) VALUES (1105); 
@@ -10321,7 +10321,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (610
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Yajiri',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Spirit_Shrine/Card_Warband_Clan_Spirit_Shrine_Yajiri_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Spirit_Shrine/Card_Warband_Clan_Spirit_Shrine_Yajiri_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Clan_Spirit_Shrine/Clan_Spirit_Yajiri.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Clan_Spirit_Shrine/Clan_Spirit_Yajiri.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Yajiri specialize in attacking from afar. Their black shafted arrows are renowned for striking with deadly accuracy. While the bow is utilized throughout all the clans, many have developed their own unique forms of ranged warfare. The Kitsune''s blowguns eliminate sentries with only the sound of a silent rush of wind to mark their use; while the thunder of the Tora''s rifle sows confusion among the enemy ranks, even as it wreaks terrible devastation. No matter the form it takes, a yajiri''s value to their clan cannot be underestimated.');
 insert into Characters (CardIndex) VALUES (1106); 
@@ -10344,7 +10344,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (611
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Tanchyo Madoushi',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Tanchyo/Card_Warband_Clan_Tanchyo_Madoushi_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Tanchyo/Card_Warband_Clan_Tanchyo_Madoushi_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Clan_Tanchyo/Tanchyo_Madoushi.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Clan_Tanchyo/Tanchyo_Madoushi.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'The Madoushi of clan Tanchyo have received the blessings of the Tengu, often even taking on the physical appearance of the Tengu themselves. They are masters of the wind, and use their magic to allow their fellow Tanchyo to soar through the air, getting them into the fight at impossible speeds as they race through the tree-tops.');
 insert into Characters (CardIndex) VALUES (1107); 
@@ -10366,7 +10366,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (612
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Tanchyo Kaiken',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Tanchyo/Card_Warband_Clan_Tanchyo_Kaiken_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Tanchyo/Card_Warband_Clan_Tanchyo_Kaiken_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Clan_Tanchyo/Tanchyo_Kaiken.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Clan_Tanchyo/Tanchyo_Kaiken.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'For the Tanchyo, close-quarters fighting is rare. They live their lives among tree branches and rain arrows down on any who threaten their homes. But there are times that blade is necessary. In such times, the Tanchyo call upon their Kaiken. Where other clans have swordsmen as the bulk of their forces, Tanchyo Kaiken are rare and highly trained. They are only called upon in the most dire of circumstances.');
 insert into Characters (CardIndex) VALUES (1108); 
@@ -10387,7 +10387,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (613
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Tanchyo Kunoichi',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Tanchyo/Card_Warband_Clan_Tanchyo_Kunoichi_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Tanchyo/Card_Warband_Clan_Tanchyo_Kunoichi_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Clan_Tanchyo/Tanchyo_Kunoichi.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Clan_Tanchyo/Tanchyo_Kunoichi.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Clan Tanchyo form incredibly close-knit family ties. The loss of a member is an accute pain, and vengeance is always swift and decisive. The Kunoichi are those who have lost a family member in combat and vowed to seek vengeance. They have dedicated themselves to the art of war, so that no other Tanchyo family has to know their pain. All-out war on Kagejima has been avoided thanks to the Moon Court, but small skirmishes are common, and clan Tanchyo is very suspicious of outsiders, often leading them into conflict with strangers who stray too far into their lands.');
 insert into Characters (CardIndex) VALUES (1109);
@@ -10409,7 +10409,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (614
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Tanchyo Oni',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Tanchyo/Card_Warband_Clan_Tanchyo_Oni_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Tanchyo/Card_Warband_Clan_Tanchyo_Oni_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Clan_Tanchyo/Tanchyo_Oni.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Clan_Tanchyo/Tanchyo_Oni.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Tanchyo Oni are the physical incarnations of the kami that stalk the dense forests that the Tanchyo call home. They take the form of massive birds of prey, and they hold command over air, creating furious cyclones that can sweep their opponents from the trees they call home. Tanchyo Oni are particularly fearsome, and they are only called upon by the clan in the most dire and desperate of circumstances.');
 insert into Characters (CardIndex) VALUES (1110); 
@@ -10431,7 +10431,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (615
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Tanchyo Yajiri',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Tanchyo/Card_Warband_Clan_Tanchyo_Yajiri_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Tanchyo/Card_Warband_Clan_Tanchyo_Yajiri_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Clan_Tanchyo/Tanchyo_Yajiri.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Clan_Tanchyo/Tanchyo_Yajiri.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'The north of Kagejima is dominated by vast expanses of sheltering forests. Dozens or hundreds of feet above the forest floor, clever dwellings dot the boughs and trunks, connected by walkways and rope bridges. These are the villages of clan Tanchyo. Living in the canopy, every member of clan Tanchyo has become an expert climber and marksman, as there is no better way to protect their tree-top homes. The archers of the Tanchyo, the Yajiri, are both plentiful and exceptionally skilled.');
 insert into Characters (CardIndex) VALUES (1111); 
@@ -10452,7 +10452,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (616
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Tora Madoushi',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Tora/Card_Warband_Clan_Tora_Madoushi_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Tora/Card_Warband_Clan_Tora_Madoushi_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Clan_Tora/Tora_Madoushi.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Clan_Tora/Tora_Madoushi.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'The path of the Madoushi is more than just elemental magics, Madoushi of the Tora employ all manner of alchemy and blacksmith techniques in creating imbued weapons and destructive explosives in addition to their mastery of fire.');
 insert into Characters (CardIndex) VALUES (1112); 
@@ -10475,7 +10475,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (617
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Tora Kaiken',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Tora/Card_Warband_Clan_Tora_Kaiken_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Tora/Card_Warband_Clan_Tora_Kaiken_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Clan_Tora/Tora_Kaiken.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Clan_Tora/Tora_Kaiken.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Summoning the spirit of the tiger, the ninja of the Tora clan are ferocious and cunning. Beware their wrath. They find thrill in the fight, always rising up the challenge of their rivals.');
 insert into Characters (CardIndex) VALUES (1113); 
@@ -10494,7 +10494,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (618
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Tora Kunoichi',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Tora/Card_Warband_Clan_Tora_Kunoichi_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Tora/Card_Warband_Clan_Tora_Kunoichi_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Clan_Tora/Tora_Kunoichi.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Clan_Tora/Tora_Kunoichi.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'With so much mineral wealth to protect, the Tora employ their kunoichi as advance scouts when on campaign, and often amongst the villagers, dressed as common travellers or merchants to keep their eyes out for threats.');
 insert into Characters (CardIndex) VALUES (1114);
@@ -10516,7 +10516,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (619
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Tora Oni',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Tora/Card_Warband_Clan_Tora_Oni_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Tora/Card_Warband_Clan_Tora_Oni_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Clan_Tora/Tora_Oni.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Clan_Tora/Tora_Oni.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Encased in solid steel and iron, the Tora value the giant guardians that join their fights. It is best to be well out of the way should one of these monsters find its way to you. Arrows and spears break harmlessly off their iron flanks as they wade into battle.');
 insert into Characters (CardIndex) VALUES (1115); 
@@ -10539,7 +10539,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (620
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Tora Yajiri',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Tora/Card_Warband_Clan_Tora_Yajiri_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Tora/Card_Warband_Clan_Tora_Yajiri_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Clan_Tora/Tora_Yajiri.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Clan_Tora/Tora_Yajiri.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Though other clans follow the traditional arts of the bow in their own way, the Yajiri of the Tora lean on their clans chemists and their masterwork teppo, long iron weapons that can spit fire and shot. The smoke and damage is more pleasing to the Tora''s way of war.');
 insert into Characters (CardIndex) VALUES (1116); 
@@ -10562,7 +10562,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (621
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Elemental Shrine',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Void_Shrine/Card_Warband_Clan_Void_Shrine_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Void_Shrine/Card_Warband_Clan_Void_Shrine_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Clan_Void_Shrine/Clan_Void_Shrine.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Clan_Void_Shrine/Clan_Void_Shrine.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 '');
 insert into Characters (CardIndex) VALUES (1117); 
@@ -10584,7 +10584,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (622
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Chunin',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Void_Shrine/Card_Warband_Clan_Void_Shrine_Chunin_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Void_Shrine/Card_Warband_Clan_Void_Shrine_Chunin_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Clan_Void_Shrine/Clan_Void_Shrine_Chunin.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Clan_Void_Shrine/Clan_Void_Shrine_Chunin.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Aspiring leaders and skilled fighters within the clan are called upon to lead their own team of ninja as chunin. This is an incredible honor, and the trials to come will not only test a chunin''s leadership and skills, but their spirit as well.');
 insert into Characters (CardIndex) VALUES (1118); 
@@ -10607,7 +10607,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (623
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Kaiken',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Void_Shrine/Card_Warband_Clan_Void_Shrine_Kaiken_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Void_Shrine/Card_Warband_Clan_Void_Shrine_Kaiken_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Clan_Void_Shrine/Clan_Void_Shrine_Kaiken.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Clan_Void_Shrine/Clan_Void_Shrine_Kaiken.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Kaiken are the backbone of the clans. To be a kaiken is not to be relegated to a basic or low role. Training to become a kaiken starts from birth and is ingrained through hardship, conditioning, and trials that normal people could not withstand. Kaiken are masters of the art of stealth, the sword, and the shuriken. As their experience grows, they learn to tap elemental magic, unlocking potent abilities to rival even the great Heroes.');
 insert into Characters (CardIndex) VALUES (1119); 
@@ -10628,7 +10628,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (624
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Kunoichi',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Void_Shrine/Card_Warband_Clan_Void_Shrine_Kunoichi_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Void_Shrine/Card_Warband_Clan_Void_Shrine_Kunoichi_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Clan_Void_Shrine/Clan_Void_Shrine_Kunoichi.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Clan_Void_Shrine/Clan_Void_Shrine_Kunoichi.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Kunoichi are specialized female fighters and scouts for the clans. Though deadly and widely trained in the ninja arts, the kunoichi put particular emphasis on speed and agility. In battle, kunoichi focus on key mission objectives such as scouting targets and carrying vital missives.');
 insert into Characters (CardIndex) VALUES (1120);
@@ -10650,7 +10650,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (625
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Madoushi',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Void_Shrine/Card_Warband_Clan_Void_Shrine_Madoushi_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Void_Shrine/Card_Warband_Clan_Void_Shrine_Madoushi_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Clan_Void_Shrine/Clan_Void_Madoushi.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Clan_Void_Shrine/Clan_Void_Madoushi.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'All clans possess the mystics known as madoushi. In some clans, they are revered as sages, alchemists and healers. Other clans regard them as witches, and tolerate them with barely concealed mistrust and fear. Whether they are revered or reviled, all madoushi are able to harness the powers native to the lands of their clan. With training, study, and meditation, a madoushi learns to draw from the lines of Ki that race through the landscape, summoning the very elements to do their bidding.');
 insert into Characters (CardIndex) VALUES (1121); 
@@ -10675,7 +10675,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (626
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Yajiri',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Void_Shrine/Card_Warband_Clan_Void_Shrine_Yajiri_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Void_Shrine/Card_Warband_Clan_Void_Shrine_Yajiri_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Clan_Void_Shrine/Clan_Void_Yajiri.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Clan_Void_Shrine/Clan_Void_Yajiri.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Yajiri specialize in attacking from afar. Their black shafted arrows are renowned for striking with deadly accuracy. While the bow is utilized throughout all the clans, many have developed their own unique forms of ranged warfare. The Kitsune''s blowguns eliminate sentries with only the sound of a silent rush of wind to mark their use; while the thunder of the Tora''s rifle sows confusion among the enemy ranks, even as it wreaks terrible devastation. No matter the form it takes, a yajiri''s value to their clan cannot be underestimated.');
 insert into Characters (CardIndex) VALUES (1122); 
@@ -10698,7 +10698,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (627
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Elemental Shrine',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Water_Shrine/Card_Warband_Clan_Water_Shrine_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Water_Shrine/Card_Warband_Clan_Water_Shrine_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Clan_Water_Shrine/Clan_Water_Shrine.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Clan_Water_Shrine/Clan_Water_Shrine.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 '');
 insert into Characters (CardIndex) VALUES (1123); 
@@ -10720,7 +10720,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (628
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Chunin',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Water_Shrine/Card_Warband_Clan_Water_Shrine_Chunin_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Water_Shrine/Card_Warband_Clan_Water_Shrine_Chunin_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Clan_Water_Shrine/Clan_Water_Shrine_Chunin.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Clan_Water_Shrine/Clan_Water_Shrine_Chunin.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Aspiring leaders and skilled fighters within the clan are called upon to lead their own team of ninja as chunin. This is an incredible honor, and the trials to come will not only test a chunin''s leadership and skills, but their spirit as well.');
 insert into Characters (CardIndex) VALUES (1124); 
@@ -10743,7 +10743,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (629
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Kaiken',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Water_Shrine/Card_Warband_Clan_Water_Shrine_Kaiken_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Water_Shrine/Card_Warband_Clan_Water_Shrine_Kaiken_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Clan_Water_Shrine/Clan_Water_Shrine_Kaiken.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Clan_Water_Shrine/Clan_Water_Shrine_Kaiken.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Kaiken are the backbone of the clans. To be a kaiken is not to be relegated to a basic or low role. Training to become a kaiken starts from birth and is ingrained through hardship, conditioning, and trials that normal people could not withstand. Kaiken are masters of the art of stealth, the sword, and the shuriken. As their experience grows, they learn to tap elemental magic, unlocking potent abilities to rival even the great Heroes.');
 insert into Characters (CardIndex) VALUES (1125); 
@@ -10764,7 +10764,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (630
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Kunoichi',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Water_Shrine/Card_Warband_Clan_Water_Shrine_Kunoichi_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Water_Shrine/Card_Warband_Clan_Water_Shrine_Kunoichi_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Clan_Water_Shrine/Clan_Water_Shrine_Kunoichi.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Clan_Water_Shrine/Clan_Water_Shrine_Kunoichi.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Kunoichi are specialized female fighters and scouts for the clans. Though deadly and widely trained in the ninja arts, the kunoichi put particular emphasis on speed and agility. In battle, kunoichi focus on key mission objectives such as scouting targets and carrying vital missives.');
 insert into Characters (CardIndex) VALUES (1126);
@@ -10786,7 +10786,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (631
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Madoushi',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Water_Shrine/Card_Warband_Clan_Water_Shrine_Madoushi_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Water_Shrine/Card_Warband_Clan_Water_Shrine_Madoushi_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Clan_Water_Shrine/Clan_Water_Madoushi.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Clan_Water_Shrine/Clan_Water_Madoushi.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'All clans possess the mystics known as madoushi. In some clans, they are revered as sages, alchemists and healers. Other clans regard them as witches, and tolerate them with barely concealed mistrust and fear. Whether they are revered or reviled, all madoushi are able to harness the powers native to the lands of their clan. With training, study, and meditation, a madoushi learns to draw from the lines of Ki that race through the landscape, summoning the very elements to do their bidding.');
 insert into Characters (CardIndex) VALUES (1127); 
@@ -10811,7 +10811,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (632
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Yajiri',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Water_Shrine/Card_Warband_Clan_Water_Shrine_Yajiri_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Water_Shrine/Card_Warband_Clan_Water_Shrine_Yajiri_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Clan_Water_Shrine/Clan_Water_Yajiri.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Clan_Water_Shrine/Clan_Water_Yajiri.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Yajiri specialize in attacking from afar. Their black shafted arrows are renowned for striking with deadly accuracy. While the bow is utilized throughout all the clans, many have developed their own unique forms of ranged warfare. The Kitsune''s blowguns eliminate sentries with only the sound of a silent rush of wind to mark their use; while the thunder of the Tora''s rifle sows confusion among the enemy ranks, even as it wreaks terrible devastation. No matter the form it takes, a yajiri''s value to their clan cannot be underestimated.');
 insert into Characters (CardIndex) VALUES (1128); 
@@ -10834,7 +10834,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (633
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Yamazaru Madoushi',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Yamazaru/Card_Warband_Clan_Yamazaru_Madoushi_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Yamazaru/Card_Warband_Clan_Yamazaru_Madoushi_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Clan_Yamazaru/Yamazaru_Madoushi.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Clan_Yamazaru/Yamazaru_Madoushi.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 '');
 insert into Characters (CardIndex) VALUES (1129); 
@@ -10857,7 +10857,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (634
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Yamazaru Kaiken',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Yamazaru/Card_Warband_Clan_Yamazaru_Kaiken_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Yamazaru/Card_Warband_Clan_Yamazaru_Kaiken_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Clan_Yamazaru/Yamazaru_Kaiken.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Clan_Yamazaru/Yamazaru_Kaiken.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'While the Yamazaru value stoicism and hard-edged practicality as survival traits, they see the harsh cold of their mountain homes as good reason to be warm and open in their lives. The weather often limits travel, forcing clan members to live closely with others. They gleefully play pranks, engaging in "wars of smiles" with neighboring villages. This gives the Yamazaru kaiken who fight side by side a warm bond rarely seen in the other clans.');
 insert into Characters (CardIndex) VALUES (1130); 
@@ -10878,7 +10878,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (635
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Yamazaru Kunoichi',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Yamazaru/Card_Warband_Clan_Yamazaru_Kunoichi_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Yamazaru/Card_Warband_Clan_Yamazaru_Kunoichi_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Clan_Yamazaru/Yamazaru_Kunoichi.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Clan_Yamazaru/Yamazaru_Kunoichi.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Yamazaru warriors are famous for unmatched feets of natural stamina. They engage in an activity called "catching snow" where they stand completely still for days. They swim wide mountain lakes without coming up for air. And many engage in the ritual called "The Mountain Sees" where they test their spiritual endurance in the treacherous mountain peaks. The Yamazaru kunoichi have mastered all of these feets.');
 insert into Characters (CardIndex) VALUES (1131);
@@ -10903,7 +10903,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (636
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Yamazaru Oni',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Yamazaru/Card_Warband_Clan_Yamazaru_Oni_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Yamazaru/Card_Warband_Clan_Yamazaru_Oni_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Clan_Yamazaru/Yamazaru_Oni.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Clan_Yamazaru/Yamazaru_Oni.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'The Yamazaru have rich spiritual lives which has granted them an intimate connection with their mountain home and the creatures that dwell there. The mighty monkey oni are fierce companions of the Yamazaru, defending them in times of danger and playfully playing tricks on them during times of peace.');
 insert into Characters (CardIndex) VALUES (1132); 
@@ -10925,7 +10925,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (637
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Yamazaru Yajiri',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Yamazaru/Card_Warband_Clan_Yamazaru_Yajiri_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Yamazaru/Card_Warband_Clan_Yamazaru_Yajiri_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Clan_Yamazaru/Yamazaru_Yajiri.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Clan_Yamazaru/Yamazaru_Yajiri.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 '');
 insert into Characters (CardIndex) VALUES (1133); 
@@ -10949,7 +10949,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (638
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Yurei Madoushi',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Yurei/Card_Warband_Clan_Yurei_Madoushi_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Yurei/Card_Warband_Clan_Yurei_Madoushi_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Clan_Yurei/Yurei_Madoushi.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Clan_Yurei/Yurei_Madoushi.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'It was the Yurei''s Madoushi that consigned their lords to their fate of undeath. Knowing that they would be able to fight on, even in death, they can serve their Lord and regain the honor of their clan.');
 insert into Characters (CardIndex) VALUES (1134); 
@@ -10971,7 +10971,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (639
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Yurei Kaiken',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Yurei/Card_Warband_Clan_Yurei_Kaiken_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Yurei/Card_Warband_Clan_Yurei_Kaiken_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Clan_Yurei/Yurei_Kaiken.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Clan_Yurei/Yurei_Kaiken.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'The spirit that clings hardest to revenge with a cold heart can bring ruin to their enemies after their own heart stops beating. - The Tao of Fukushu');
 insert into Characters (CardIndex) VALUES (1135); 
@@ -10992,7 +10992,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (640
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Yurei Kunoichi',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Yurei/Card_Warband_Clan_Yurei_Kunoichi_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Yurei/Card_Warband_Clan_Yurei_Kunoichi_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Clan_Yurei/Yurei_Kunoichi.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Clan_Yurei/Yurei_Kunoichi.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Far ranging from the dread fleets, coastline scouts of the Ika often warn of floating jetsam. Bodies entangled in the nets and old wood might just be agents of the Yurei lying in wait to drag more of their sworn enemy into the watery depths.');
 insert into Characters (CardIndex) VALUES (1136);
@@ -11015,7 +11015,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (641
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Yurei Yajiri',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Yurei/Card_Warband_Clan_Yurei_Yajiri_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Yurei/Card_Warband_Clan_Yurei_Yajiri_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Clan_Yurei/Yurei_Yajiri.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Clan_Yurei/Yurei_Yajiri.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Vengeance guide my black arrows, pierce the hearts of the warm and the living, bring me the victory over my enemies stolen from me in life. - unknown Yurei Yajiri');
 insert into Characters (CardIndex) VALUES (1137); 
@@ -11036,7 +11036,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (642
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Cold Eggs',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Cold_Eggs/Card_Warband_Cold_Eggs_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Cold_Eggs/Card_Warband_Cold_Eggs_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Cold_Eggs/Cold_Eggs.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Cold_Eggs/Cold_Eggs.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'The drakes of the Frostbyte Reach plague the frozen caverns, ruins, and forests of that frigid land. Utterly in the thrall of the Sapphire Dragon, Hoarfang, the drakes share his mercurial behavior. Many dwarven holds have even "tamed" clutches of drakes to serve as companions and hunting beasts. However, they must always be on guard for it is not uncommon for a clutch of drakes to suddenly turn upon their allies should the mood strike them.');
 insert into Characters (CardIndex) VALUES (1138); 
@@ -11056,7 +11056,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (643
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Frostbyte Hatchlings',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Cold_Eggs/Card_Warband_Cold_Eggs_Frostbyte_Hatchlings_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Cold_Eggs/Card_Warband_Cold_Eggs_Frostbyte_Hatchlings_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Cold_Eggs/Frostbyte_Hatchlings.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Cold_Eggs/Frostbyte_Hatchlings.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Hatchlings have a difficult time surviving in the barren landscape of the Frostbyte Reach. Most eek out a meager existence feeding upon the frozen remains of those felled by the more vicious monsters that stalk the reach.');
 insert into Characters (CardIndex) VALUES (1139);
@@ -11075,7 +11075,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (644
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Frostbyte Whelp',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Cold_Eggs/Card_Warband_Cold_Eggs_Frostbyte_Whelp_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Cold_Eggs/Card_Warband_Cold_Eggs_Frostbyte_Whelp_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Cold_Eggs/Frostbyte_Whelp.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Cold_Eggs/Frostbyte_Whelp.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Whelps hunt in roving packs, savaging the wilderness of anything remotely edible. Remarkably intelligent, many whelps hover around the outskirts of dwarven and freyjan civilizations, feeding off scraps, and occasionally allowing themselves to become partially domesticated in return for regular feedings.');
 insert into Characters (CardIndex) VALUES (1140); 
@@ -11095,7 +11095,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (645
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Frostbyte Wyrmling',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Cold_Eggs/Card_Warband_Cold_Eggs_Frostbyte_Wyrmling_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Cold_Eggs/Card_Warband_Cold_Eggs_Frostbyte_Wyrmling_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Cold_Eggs/Frostbyte_Wyrmling.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Cold_Eggs/Frostbyte_Wyrmling.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Wyrmlings swoop and soar upon the bitterly cold winds that sweep through the Frostbyte Reach. Their chirruping cries carry on the wind and are regarded by the orc tribes as signs of good favor and battles soon to come.');
 insert into Characters (CardIndex) VALUES (1141); 
@@ -11121,7 +11121,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (646
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Corrupted Harvest',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Corrupted_Harvest/Card_Warband_Corrupted_Harvest_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Corrupted_Harvest/Card_Warband_Corrupted_Harvest_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Corrupted_Harvest/Corrupted_Harvest.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Corrupted_Harvest/Corrupted_Harvest.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'While most villagers are justifiably a superstitious bunch. It does not help when agents of the Dark Consul make their way into the farmlands to wreak chaos and havoc. Many of the rural denizens have become "fed-up" with their field''s strawmen jumping down from the stilts to terrorize the locals.');
 insert into Characters (CardIndex) VALUES (1142); 
@@ -11142,7 +11142,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (647
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Crow Eater',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Corrupted_Harvest/Card_Warband_Corrupted_Harvest_Crow_Eater_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Corrupted_Harvest/Card_Warband_Corrupted_Harvest_Crow_Eater_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Corrupted_Harvest/Crow_Eater.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Corrupted_Harvest/Crow_Eater.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Crow eaters, aside from their well deserved name, are usually the first to rustle themselves to life. Using rusty baling knives, they cut down their fellow strawmen and will even stitch together new friends out of whatever or whoever they find.');
 insert into Characters (CardIndex) VALUES (1143);
@@ -11168,7 +11168,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (648
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Harvest Goon',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Corrupted_Harvest/Card_Warband_Corrupted_Harvest_Harvest_Goon_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Corrupted_Harvest/Card_Warband_Corrupted_Harvest_Harvest_Goon_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Corrupted_Harvest/Harvest_Goon.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Corrupted_Harvest/Harvest_Goon.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 '"Though roughly stitched together from hay and clothes out on a drying line, this creature''s only defining feature is a limp gait, a rusty cleaver, and a sodden bag full of meal worms and hay where it''s face should be. Fire seems to do the trick, but they will quickly lurch back into  the fields while they burn up, along with the crops. Evil buggers" - Watchman Hayseed, Crystalian Militia');
 insert into Characters (CardIndex) VALUES (1144); 
@@ -11188,7 +11188,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (649
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Harvest Sack',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Corrupted_Harvest/Card_Warband_Corrupted_Harvest_Harvest_Sack_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Corrupted_Harvest/Card_Warband_Corrupted_Harvest_Harvest_Sack_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Corrupted_Harvest/Harvest_Sack.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Corrupted_Harvest/Harvest_Sack.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Stumbling along behind the Goons, the Harvest Sacks use their long pitch forks to haul off the fallen and wounded to stitch together new friends! Gotta make hay while the moon still shines!');
 insert into Characters (CardIndex) VALUES (1145); 
@@ -11213,7 +11213,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (650
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Cursed Barrow',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Barrow/Card_Warband_Cursed_Barrow_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Barrow/Card_Warband_Cursed_Barrow_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Cursed_Barrow/Cursed_Barrow.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Cursed_Barrow/Cursed_Barrow.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'When Elrik doomed his Reavers to the curse of undeath, he ordered the construction of a grand and macabre hall, to house him and his new warriors, deep beneath the Frostbyte Reach. Resembling a tomb more than a palace or castle, the Hall of the Lich King sprawls for untold miles beneath the surface. The only sign of the Hall upon the surface are the burial mounds of the cursed barrows. Here, Elrik''s cursed draugr warriors take rest, ever alert for trespassing Heroes.');
 insert into Characters (CardIndex) VALUES (1146); 
@@ -11233,7 +11233,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (651
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Black Hand',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Barrow/Card_Warband_Cursed_Barrow_Black_Hand_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Barrow/Card_Warband_Cursed_Barrow_Black_Hand_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Cursed_Barrow/Black_Hand.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Cursed_Barrow/Black_Hand.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'The Black Hand was Elrik''s trusted circle of sages, advisors, seers, and skalds. It was the Black Hand who first tapped into the shadow powers of the Dark Realm, and it was they who led Elrik upon the first step to damnation.');
 insert into Characters (CardIndex) VALUES (1147);
@@ -11255,7 +11255,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (652
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Draugr',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Barrow/Card_Warband_Cursed_Barrow_Draugr_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Barrow/Card_Warband_Cursed_Barrow_Draugr_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Cursed_Barrow/Draugr.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Cursed_Barrow/Draugr.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Once, the Reaver tribes of the Frostbyte Reach were a scourge across all of Crystalia. Building great longships, the Reavers raided along every coastline of Crystalia. Before the rise of the Dark Consul, the tribes united under a powerful and charismatic Reaver King, Elrik. United under his rule, no town or village was safe from the Reavers'' plundering. Unbeknownst to his men, Elrik had tapped into the vile magicks of the Dark Realm to fuel his ambitions.');
 insert into Characters (CardIndex) VALUES (1148); 
@@ -11274,7 +11274,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (653
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Draugr Berserker',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Barrow/Card_Warband_Cursed_Barrow_Draugr_Berserker_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Barrow/Card_Warband_Cursed_Barrow_Draugr_Berserker_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Cursed_Barrow/Draugr_Berserker.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Cursed_Barrow/Draugr_Berserker.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Draugr are not shambling, unthinking undead. Within each draugr lies the soul of a Reaver--a fierce, proud, and violent warrior, millennia old. In the fiercest combat the soul of a draugr can be unlocked, restoring it to its full violent fury. Blessed with the ability to feel, smell, and taste the draugr becomes a raging berserker determined to find release in one last glorious battle.');
 insert into Characters (CardIndex) VALUES (1149); 
@@ -11297,7 +11297,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (654
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Cursed Barrow Errata',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Barrow/Card_Warband_Cursed_Barrow_Errata_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Barrow/Card_Warband_Cursed_Barrow_Errata_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Cursed_Barrow/Cursed_Barrow_Errata.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Cursed_Barrow/Cursed_Barrow_Errata.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'When Elrik doomed his Reavers to the curse of undeath, he ordered the construction of a grand and macabre hall, to house him and his new warriors, deep beneath the Frostbyte Reach. Resembling a tomb more than a palace or castle, the Hall of the Lich King sprawls for untold miles beneath the surface. The only sign of the Hall upon the surface are the burial mounds of the cursed barrows. Here, Elrik''s cursed draugr warriors take rest, ever alert for trespassing Heroes.');
 insert into Characters (CardIndex) VALUES (1150); 
@@ -11319,7 +11319,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (655
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Cursed Hollow',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Hollow/Card_Warband_Cursed_Hollow_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Hollow/Card_Warband_Cursed_Hollow_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Cursed_Hollow/Cursed_Hollow.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Cursed_Hollow/Cursed_Hollow.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Kodama are inherently fickle, and they are often prone to influence. Many Kodama who dwell at the edge of the Fae Wood, where it meets the Glauerdoom Moor, have fallen under the sway of Nightsong the Eternal. They delight in spreading corruption, blighting crops, and plaguing the living.
 <br><br>
@@ -11340,7 +11340,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (656
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Bad Seed',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Hollow/Card_Warband_Cursed_Hollow_Bad_Seed_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Hollow/Card_Warband_Cursed_Hollow_Bad_Seed_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Cursed_Hollow/Bad_Seed.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Cursed_Hollow/Bad_Seed.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Each spring the Deeproot Tree breathes life into countless sprouts. They travel Crystalia, settling down and blooming new life throughout the land. Most sprouts take root in fertile territory, where they can reach their full potential. But some find themselves deep in the Glauerdoom Moor. Even so, a sprout will sometimes take root in the oppressive, swampy waters and create a beacon of life and hope in that desperate and forgotten place. But all too often the sprout will be corrupted by the foul things that lurk in the moor. These corrupted sprouts are known as bad seeds, and instead of spreading life and hope, they spread death and despair. Where they take root, rot spreads and a blackened blight forms on the land.');
 insert into Characters (CardIndex) VALUES (1152);
@@ -11361,7 +11361,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (657
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Gloom Wisp',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Hollow/Card_Warband_Cursed_Hollow_Gloom_Wisp_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Hollow/Card_Warband_Cursed_Hollow_Gloom_Wisp_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Cursed_Hollow/Gloom_Wisp.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Cursed_Hollow/Gloom_Wisp.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Wisps are shy, but have a reputation for leading travelers to safety and shelter. Those Wisps who have become corrupted by Nightsong the Eternal still lead travelers, laughing and chirping, creating the illusion of comfort. But the longer the weary traveler stays in the company of the Wisp, the more they sink into a dark despair, until they simply lay down in the blighted moor. Unable to bring themselves to seek shelter or food, these travelers wither away as the wisp laughs and plays.');
 insert into Characters (CardIndex) VALUES (1153); 
@@ -11382,7 +11382,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (658
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Rotten Cabbage',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Hollow/Card_Warband_Cursed_Hollow_Rotten_Cabbage_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Hollow/Card_Warband_Cursed_Hollow_Rotten_Cabbage_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Cursed_Hollow/Rotten_Cabbage.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Cursed_Hollow/Rotten_Cabbage.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Rotten Cabbages are corrupted Mooks. Their mischievous nature takes on an edge of cruelty. They hound their victims in packs, laughing and jeering all together at whatever malicious prank they have pulled. When they form such groups, the stench of decaying cabbage is overwhelming, becoming a weapon in itself.');
 insert into Characters (CardIndex) VALUES (1154); 
@@ -11401,7 +11401,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (659
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Spoiled Turnip',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Hollow/Card_Warband_Cursed_Hollow_Spoiled_Turnip_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Hollow/Card_Warband_Cursed_Hollow_Spoiled_Turnip_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Cursed_Hollow/Spoiled_Turnip.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Cursed_Hollow/Spoiled_Turnip.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Turnipheads are normally difficult to sway, devoting themselves to healing sick plants. However, those that do become corrupted are consumed completely, becoming devoted to spreading blight and plague to the living. They forsake their ability to heal, instead reveling in the decay that reflects the visage of their undead lord.');
 insert into Characters (CardIndex) VALUES (1155); 
@@ -11422,7 +11422,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (660
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Wrath Sprout',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Hollow/Card_Warband_Cursed_Hollow_Wrath_Sprout_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Hollow/Card_Warband_Cursed_Hollow_Wrath_Sprout_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Cursed_Hollow/Wrath_Sprout.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Cursed_Hollow/Wrath_Sprout.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Those sprouts who become corrupted by the Glauerdoom Moor acquire certain tastes. The land is not fertile enough to support the rapid and grotesque growth that the plant undergoes, so it develops twisted, lashing vines that are used to draw victims to it in order to feed on their blood. This thirst cannot be quenched, and the more the more it drinks, the more it grows...');
 insert into Characters (CardIndex) VALUES (1156); 
@@ -11447,7 +11447,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (661
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Cursed Knight',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Knight/Card_Warband_Cursed_Knight_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Knight/Card_Warband_Cursed_Knight_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Cursed_Knight/Cursed_Knight.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Cursed_Knight/Cursed_Knight.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Where the Fae Wood meets the Glauerdoom Moor is a particularly dread location. Here, the trees bend and twist, the branches clasping and tearing at any who pass. Beneath these wicked boughs there are the Cursed Knights of the Moorlands. Forsaking the Forgotten King, these twisted Chimera have fallen under the thrall of the dragon Nightsong the Eternal. Vicious and brutal, they enact their undead Lord''s will with unflinching cruelty.');
 insert into Characters (CardIndex) VALUES (1157); 
@@ -11468,7 +11468,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (662
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Grobbit Deathlord',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Knight/Card_Warband_Cursed_Knight_Grobbit_Deathlord_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Knight/Card_Warband_Cursed_Knight_Grobbit_Deathlord_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Cursed_Knight/Grobbit_Deathlord.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Cursed_Knight/Grobbit_Deathlord.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Deathlords have lost all trace of their former human selves. As centuries have passed, the cursed magic which keeps them alive has degraded their minds and sharpened their appetite for cruelty. This otherness radiates from them in waves of despair, shattering foes'' resolve and even robbing the desire to flee as the Deathlord mercilessly cuts through their ranks.');
 insert into Characters (CardIndex) VALUES (1158);
@@ -11492,7 +11492,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (663
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Moorland Militia',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Knight/Card_Warband_Cursed_Knight_Moorland_Militia_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Knight/Card_Warband_Cursed_Knight_Moorland_Militia_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Cursed_Knight/Moorland_Militia.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Cursed_Knight/Moorland_Militia.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'The Billmen who make up the ranks of the Moorland Militia are a remarkably disciplined force. Indeed, these ruthless soldiers train relentlessly to keep themselves in peak condtiion and fighting form. It is no surprise that they take great pride in this discipline and how it elevates them above the formless mass of skeletons and zombies which they often fight alongside.');
 insert into Characters (CardIndex) VALUES (1159); 
@@ -11511,7 +11511,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (664
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Skull Squawk',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Knight/Card_Warband_Cursed_Knight_Skull_Squawk_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Knight/Card_Warband_Cursed_Knight_Skull_Squawk_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Cursed_Knight/Skull_Squawk.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Cursed_Knight/Skull_Squawk.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Skull Squawk knights are a secretive bunch. In fact, there are none who can recall ever seeing one outside of their armor or sharing a single word with another. This shadowy aloofness, combined with Skull Squawks'' uncanny supernatural abilities lead many to wonder if they are truly within the realm of the living at all...');
 insert into Characters (CardIndex) VALUES (1160); 
@@ -11534,7 +11534,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (665
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Skull Squawk (beta)',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Knight/Card_Warband_Cursed_Knight_Skull_Squawk_beta_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Knight/Card_Warband_Cursed_Knight_Skull_Squawk_beta_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Cursed_Knight/Skull_Squawk_beta_.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Cursed_Knight/Skull_Squawk_beta_.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Skull Squawk knights are a secretive bunch. In fact, there are none who can recall ever seeing one outside of their armor or sharing a single word with another. This shadowy aloofness, combined with Skull Squawks'' uncanny supernatural abilities lead many to wonder if they are truly within the realm of the living at all...');
 insert into Characters (CardIndex) VALUES (1161); 
@@ -11559,7 +11559,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (666
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Egg Clutch',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Egg_Clutch/Card_Warband_Egg_Clutch_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Egg_Clutch/Card_Warband_Egg_Clutch_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Egg_Clutch/Egg_Clutch.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Egg_Clutch/Egg_Clutch.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Wherever a dragon makes its lair its draconic kin, drakes, are sure to be found. Territorial and savage, these lesser beasts submit entirely to the will of the dragon. In exchange for the dragon''s protection, the drakes serve as the dragon''s eyes, ears, and faithful guards. 
 <br><br>
@@ -11581,7 +11581,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (667
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Hatchlings',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Egg_Clutch/Card_Warband_Egg_Clutch_Hatchlings_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Egg_Clutch/Card_Warband_Egg_Clutch_Hatchlings_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Egg_Clutch/Hatchlings.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Egg_Clutch/Hatchlings.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Even the smallest of drakes can be a serious threat in numbers. Quick-footed, sharp-toothed, and very hungry, Hatchlings swarm over anything at their height and have made more than one quick meal of a wounded Hero.');
 insert into Characters (CardIndex) VALUES (1163);
@@ -11600,7 +11600,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (668
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Whelp',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Egg_Clutch/Card_Warband_Egg_Clutch_Whelp_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Egg_Clutch/Card_Warband_Egg_Clutch_Whelp_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Egg_Clutch/Whelp.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Egg_Clutch/Whelp.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Still too young to grow wings, Whelps must settle for chasing down their prey to make a meal. This quickly weeds out the weakest of the clutch and ensures that only the strongest will survive.');
 insert into Characters (CardIndex) VALUES (1164); 
@@ -11620,7 +11620,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (669
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Wyrmling',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Cold_Eggs/Card_Warband_Cold_Eggs_Frostbyte_Wyrmling_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Cold_Eggs/Card_Warband_Cold_Eggs_Frostbyte_Wyrmling_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Cold_Eggs/Frostbyte_Wyrmling.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Cold_Eggs/Frostbyte_Wyrmling.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Wyrmlings have so far managed to not be eaten by kin or kobold and are nearing maturity. They wheel around the caverns and their mountain hunting grounds on newly sprouted wings, feeding on foolish trespassers.');
 insert into Characters (CardIndex) VALUES (1165); 
@@ -11647,7 +11647,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (670
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Elemental Shrine',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Elemental_Shrine/Card_Warband_Elemental_Shrine_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Elemental_Shrine/Card_Warband_Elemental_Shrine_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Elemental_Shrine/Elemental_Shrine.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Elemental_Shrine/Elemental_Shrine.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 '');
 insert into Characters (CardIndex) VALUES (1166); 
@@ -11669,7 +11669,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (671
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Chunin',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Elemental_Shrine/Card_Warband_Elemental_Shrine_Chunin_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Elemental_Shrine/Card_Warband_Elemental_Shrine_Chunin_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Elemental_Shrine/Chunin.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Elemental_Shrine/Chunin.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Aspiring leaders and skilled fighters within the clan are called upon to lead their own team of ninja as chunin. This is an incredible honor, and the trials to come will not only test a chunin''s leadership and skills, but their spirit as well.');
 insert into Characters (CardIndex) VALUES (1167); 
@@ -11690,7 +11690,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (672
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Kaiken',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Elemental_Shrine/Card_Warband_Elemental_Shrine_Kaiken_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Elemental_Shrine/Card_Warband_Elemental_Shrine_Kaiken_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Elemental_Shrine/Kaiken.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Elemental_Shrine/Kaiken.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Kaiken are the backbone of the clans. To be a kaiken is not to be relegated to a basic or low role. Training to become a kaiken starts from birth and is ingrained through hardship, conditioning, and trials that normal people could not withstand. Kaiken are masters of the art of stealth, the sword, and the shuriken. As their experience grows, they learn to tap elemental magic, unlocking potent abilities to rival even the great Heroes.');
 insert into Characters (CardIndex) VALUES (1168); 
@@ -11711,7 +11711,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (673
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Kunoichi',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Elemental_Shrine/Card_Warband_Elemental_Shrine_Kunoichi_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Elemental_Shrine/Card_Warband_Elemental_Shrine_Kunoichi_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Elemental_Shrine/Kunoichi.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Elemental_Shrine/Kunoichi.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Kunoichi are specialized female fighters and scouts for the clans. Though deadly and widely trained in the ninja arts, the kunoichi put particular emphasis on speed and agility. In battle, kunoichi focus on key mission objectives such as scouting targets and carrying vital missives.');
 insert into Characters (CardIndex) VALUES (1169);
@@ -11733,7 +11733,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (674
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Madoushi',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Elemental_Shrine/Card_Warband_Elemental_Shrine_Madoushi_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Elemental_Shrine/Card_Warband_Elemental_Shrine_Madoushi_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Elemental_Shrine/Madoushi.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Elemental_Shrine/Madoushi.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'All clans possess the mystics known as madoushi. In some clans, they are revered as sages, alchemists and healers. Other clans regard them as witches, and tolerate them with barely concealed mistrust and fear. Whether they are revered or reviled, all madoushi are able to harness the powers native to the lands of their clan. With training, study, and meditation, a madoushi learns to draw from the lines of Ki that race through the landscape, summoning the very elements to do their bidding.');
 insert into Characters (CardIndex) VALUES (1170); 
@@ -11757,7 +11757,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (675
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Yajiri',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Elemental_Shrine/Card_Warband_Elemental_Shrine_Yajiri_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Elemental_Shrine/Card_Warband_Elemental_Shrinen_Yajiri_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Elemental_Shrine/Yajiri.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Elemental_Shrine/Yajiri.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Yajiri specialize in attacking from afar. Their black shafted arrows are renowned for striking with deadly accuracy. While the bow is utilized throughout all the clans, many have developed their own unique forms of ranged warfare. The Kitsune''s blowguns eliminate sentries with only the sound of a silent rush of wind to mark their use; while the thunder of the Tora''s rifle sows confusion among the enemy ranks, even as it wreaks terrible devastation. No matter the form it takes, a yajiri''s value to their clan cannot be underestimated.');
 insert into Characters (CardIndex) VALUES (1171); 
@@ -11779,7 +11779,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (676
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Fire Flow Hollow',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Fire_Flow_Hollow/Card_Warband_Fire_Flow_Hollow_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Fire_Flow_Hollow/Card_Warband_Fire_Flow_Hollow_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Fire_Flow_Hollow/Fire_Flow_Hollow.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Fire_Flow_Hollow/Fire_Flow_Hollow.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'The seeds and sprouts of the Deeproot Tree have traveled far and wide on the winds of Crystalia. The lava beds of the Dragonback Peaks can create fertile grounds for these new sprouts to take root. This new growth takes on the aspects of its surroundings, creating Kodama with fiery tempers.
 <br><br>
@@ -11802,7 +11802,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (677
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Broiled Mook',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Fire_Flow_Hollow/Card_Warband_Fire_Flow_Hollow_Broiled_Mook_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Fire_Flow_Hollow/Card_Warband_Fire_Flow_Hollow_Broiled_Mook_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Fire_Flow_Hollow/Broiled_Mook.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Fire_Flow_Hollow/Broiled_Mook.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Mooks are naturally cheerful and playful. But those Broiled Mooks who have been charred in the harsh conditions of the Dragonback Peaks have an unusual sense of humor. All of their pranks tend to involve flames or hot coals. While Broiled Mooks are not inherently hostile, their fiery pranks are often detrimental for Heroes.');
 insert into Characters (CardIndex) VALUES (1173); 
@@ -11823,7 +11823,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (678
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Flame Wisp',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Fire_Flow_Hollow/Card_Warband_Fire_Flow_Hollow_Flame_Wisp_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Fire_Flow_Hollow/Card_Warband_Fire_Flow_Hollow_Flame_Wisp_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Fire_Flow_Hollow/Flame_Wisp.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Fire_Flow_Hollow/Flame_Wisp.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'The Kodama who eek out an existence in the Dragonback Peaks are even more temperamental and fickle that usual. Flame Wisps are particularly hard to predict. A Flame Wisp may lead a Hero through a twisting pass in the mountains one day and then set the Hero''s pack on fire the next day before running away and giggling.');
 insert into Characters (CardIndex) VALUES (1174); 
@@ -11844,7 +11844,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (679
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Magma Seed',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Fire_Flow_Hollow/Card_Warband_Fire_Flow_Hollow_Magma_Seed_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Fire_Flow_Hollow/Card_Warband_Fire_Flow_Hollow_Magma_Seed_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Fire_Flow_Hollow/Magma_Seed.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Fire_Flow_Hollow/Magma_Seed.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Sometimes a seed from the Deeproot Tree will become encased in lava as it cools. The magic of the Deeproot is strong enough to keep the seed alive, and it can remain trapped for centuries. When these seeds are unearthed, they grow wild and fierce. They not only are immune to flame, but they crave it, often growing stronger in the warmth of a blaze.');
 insert into Characters (CardIndex) VALUES (1175);
@@ -11866,7 +11866,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (680
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Spicy Turnip',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Fire_Flow_Hollow/Card_Warband_Fire_Flow_Hollow_Spicy_Turnip_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Fire_Flow_Hollow/Card_Warband_Fire_Flow_Hollow_Spicy_Turnip_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Fire_Flow_Hollow/Spicy_Turnip.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Fire_Flow_Hollow/Spicy_Turnip.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Spicy Turnips are Turnipheads who have given up on healing wounded plants. In the harsh conditions of the Dragonback Peaks, a Turniphead cannot properly heal every burn, every lost leaf, every torn root. This frustration builds in fiery rage, and a Spicy Turnip is born. Unable to heal the wounded, Spicy Turnips instead seek to stoke the flames. ');
 insert into Characters (CardIndex) VALUES (1176); 
@@ -11889,7 +11889,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (681
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Volcanic Sprout',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Fire_Flow_Hollow/Card_Warband_Fire_Flow_Hollow_Volcanic_Sprout_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Fire_Flow_Hollow/Card_Warband_Fire_Flow_Hollow_Volcanic_Sprout_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Fire_Flow_Hollow/Volcanic_Sprout.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Fire_Flow_Hollow/Volcanic_Sprout.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'As a Magma Seed grows, it blossoms into the mighty Volcanic Sprout. By the time these sprouts reach maturity they have spent centuries encased in lava and the experience has left them hardened and formidable. Relishing in the open air, they gow at an astounding rate, burning anything in their path.');
 insert into Characters (CardIndex) VALUES (1177); 
@@ -11916,7 +11916,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (682
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Forgotten Stone',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Forgotten_Stone/Card_Warband_Forgotten_Stone_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Forgotten_Stone/Card_Warband_Forgotten_Stone_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Forgotten_Stone/Forgotten_Stone.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Forgotten_Stone/Forgotten_Stone.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'While the Shadow Fleets of the Midnight Queen openly sail the waters of the Scalding Sea, when they venture into the vast oceans surrounding Crystalia they must be more cautious. Here, heavily armored gnomish clockwork frigates, Brinebreaker dreadnoughts bristling with weaponry, many-masted royal galleons, and fleets of undead pirate clippers from the Drowned Isles vie for supremacy. Because of this, Shadow Fleets search out forgotten islands and coves to use as hidden bases of operation. Once secured, they mark these bases'' locations with crudely carved stones that are carefully crafted to appear ancient, forgotten, and unassuming.');
 insert into Characters (CardIndex) VALUES (1178); 
@@ -11937,7 +11937,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (683
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Blackblade Corsair',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Forgotten_Stone/Card_Warband_Forgotten_Stone_Blackblade_Corsair_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Forgotten_Stone/Card_Warband_Forgotten_Stone_Blackblade_Corsair_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Forgotten_Stone/Blackblade_Corsair.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Forgotten_Stone/Blackblade_Corsair.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'The Scalding Sea, which encircles the Nether Rifts and Midnight Tower, is fraught with peril. Inclement weather, demon incursions, and the monstrous denizens of the deep have honed the crews of the Midnight Queen''s Shadow Fleets into master sailors.');
 insert into Characters (CardIndex) VALUES (1179);
@@ -11959,7 +11959,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (684
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Corsair Arbalist',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Forgotten_Stone/Card_Warband_Forgotten_Stone_Corsair_Arbalist_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Forgotten_Stone/Card_Warband_Forgotten_Stone_Corsair_Arbalist_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Forgotten_Stone/Corsair_Arbalist.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Forgotten_Stone/Corsair_Arbalist.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'A Shadow Fleet is a grim sight upon the horizon, and has been the doom for many a brave sailor. Shrouded in swirling mists and shadow, these bleak vessels begin their assaults with barrages of black-fletched crossbow bolts raking across the decks of their quarry, clearing the way for Blackblade boarders.');
 insert into Characters (CardIndex) VALUES (1180); 
@@ -11983,7 +11983,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (685
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Midnight Mutineer',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Forgotten_Stone/Card_Warband_Forgotten_Stone_Midnight_Mutineer_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Forgotten_Stone/Card_Warband_Forgotten_Stone_Midnight_Mutineer_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Forgotten_Stone/Midnight_Mutineer_2.0.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Forgotten_Stone/Midnight_Mutineer_2.0.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Nether elves do not require honorable combat. One of their favored strategies is assassination. Cut off the head and the body will die. On the high seas the chain of command is vital, and a ship without its captain is an easy target. Midnight Mutineers are experts at infiltrating a ship''s crew and, the night before their corsair brethren attack, eliminating the ship''s captain and key personnel.');
 insert into Characters (CardIndex) VALUES (1181); 
@@ -12011,7 +12011,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (686
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Frozen Warrens',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Frozen_Warrens/Card_Warband_Frozen_Warrens_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Frozen_Warrens/Card_Warband_Frozen_Warrens_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Frozen_Warrens/Frozen_Warrens.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Frozen_Warrens/Frozen_Warrens.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'The frigid climate of the Frostbyte Reach is notoriously inhospitable for the races of Crystalia. It is doubly so for the cold-blooded kobolds that choose to make the realm home. Because of their natural vulnerability the kobolds are fanatical devotees of the Cult of Frozen Spires. The Cult''s Frozen Priests maintain complex spells and rituals throughout the Reach designed to shield their kobold flock from the worst of the frozen climate.');
 insert into Characters (CardIndex) VALUES (1182); 
@@ -12031,7 +12031,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (687
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Blockhead',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Frozen_Warrens/Card_Warband_Frozen_Warrens_Blockhead_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Frozen_Warrens/Card_Warband_Frozen_Warrens_Blockhead_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Frozen_Warrens/Blockhead.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Frozen_Warrens/Blockhead.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Blockheads, as their name implies, are not particularly bright, as the cold dulls their already dull senses. Fortunately, not much sense is needed when attacking Heroes who have been frozen solid by their more skilled kin.');
 insert into Characters (CardIndex) VALUES (1183);
@@ -12050,7 +12050,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (688
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Frostscale',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Frozen_Warrens/Card_Warband_Frozen_Warrens_Frostscale_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Frozen_Warrens/Card_Warband_Frozen_Warrens_Frostscale_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Frozen_Warrens/Frostscale.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Frozen_Warrens/Frostscale.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Frostscales are taught basic weather magicks by the Frozen Priests, to protect their lesser kin from the harsh elements of the Frostbyte Reach. In combat, these spells are turned against their enemies as sharp shards of ice that rend through armor and freeze their foes.');
 insert into Characters (CardIndex) VALUES (1184); 
@@ -12072,7 +12072,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (689
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Frozen Priest',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Frozen_Warrens/Card_Warband_Frozen_Warrens_Frozen_Priest_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Frozen_Warrens/Card_Warband_Frozen_Warrens_Frozen_Priest_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Frozen_Warrens/Frozen_Priest_2.0.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Frozen_Warrens/Frozen_Priest_2.0.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Frozen Priests serve their Lord Hoarfang as the leaders of the Cult of Frozen Spires. Cold, calculating, and ruthless, Frozen Priests are notoriously burtal and unforgiving leaders. Their mastery of ice magic is absolute, and they cruely turn it upon any who they deem deserving of Hoarfang''s ire.');
 insert into Characters (CardIndex) VALUES (1185); 
@@ -12095,7 +12095,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (690
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ice Pick',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Frozen_Warrens/Card_Warband_Frozen_Warrens_Ice_Pick_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Frozen_Warrens/Card_Warband_Frozen_Warrens_Ice_Pick_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Frozen_Warrens/Ice_Pick_2.0.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Frozen_Warrens/Ice_Pick_2.0.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Ice Picks enjoy a surprisingly high station within the Cult of Frozen Spires. Skilled hunters and trackers, Ice Picks roam far and wide through the Frostbyte Reach hunting game with their long spears and bringing it back to the warrens for the benefit of all.');
 insert into Characters (CardIndex) VALUES (1186); 
@@ -12114,7 +12114,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (691
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Snowball Chucker',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Frozen_Warrens/Card_Warband_Frozen_Warrens_Snowball_Chucker_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Frozen_Warrens/Card_Warband_Frozen_Warrens_Snowball_Chucker_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Frozen_Warrens/Snowball_Chucker_2.0.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Frozen_Warrens/Snowball_Chucker_2.0.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Snowball Chuckers are useless. They don''t like to hunt. They don''t like to fight. All they like to do is play in the snow, building forts, having funniest snow-dwarf contests, and rolling all the snowballs they can manage. Sometimes they play a game of Dodge the Avalanche, which sees entire kobold encapments buried in layers of ice.');
 insert into Characters (CardIndex) VALUES (1187); 
@@ -12140,7 +12140,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (692
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Howler Stone',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Howler_Stone/Card_Warband_Howler_Stone_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Howler_Stone/Card_Warband_Howler_Stone_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Howler_Stone/Howler_Stone.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Howler_Stone/Howler_Stone.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Gnolls are wholley creatures of the Dark Realm. Petty, cruel, and savagely cunning, massive packs of gnolls prowl throughout the Shadowlands of the Dark Realm. When the Dark Consul shattered the divide between the realms of Light and Dark, the gnolls were slow to emerge. Instead, the cunning creatures began to prey upon the weakened fiefdoms within the Dark Realm. Only as the gnolls'' power grew did they venture through the Nether Rifts into Crystalia.
 <br><br>
@@ -12162,7 +12162,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (693
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Gnoll Hunter',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Howler_Stone/Card_Warband_Howler_Stone_Gnoll_Hunter_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Howler_Stone/Card_Warband_Howler_Stone_Gnoll_Hunter_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Howler_Stone/Gnoll_Hunter.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Howler_Stone/Gnoll_Hunter.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Solitary by nature, Hunters range ahead of the gnoll packs scouting trails and seeking the scent of prey. When prey is found the Hunter''s isolate the weakest members, knocking them to the ground so they and their packmates can pounce!');
 insert into Characters (CardIndex) VALUES (1189);
@@ -12183,7 +12183,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (694
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Gnoll Pack Leader',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Howler_Stone/Card_Warband_Howler_Stone_Gnoll_Pack_Leader_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Howler_Stone/Card_Warband_Howler_Stone_Gnoll_Pack_Leader_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Howler_Stone/Gnoll_Pack_Leader.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Howler_Stone/Gnoll_Pack_Leader.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Gnoll pack leaders must demonstrate more than strength, they must also demonstrate intelligence and cunning. A pack leader which causes the needless destruction of its packmates will not be in power long. The greatest pack leaders rise up to lead immense warpacks that rival the might of any army.');
 insert into Characters (CardIndex) VALUES (1190); 
@@ -12207,7 +12207,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (695
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Gnoll Ranger',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Howler_Stone/Card_Warband_Howler_Stone_Gnoll_Ranger_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Howler_Stone/Card_Warband_Howler_Stone_Gnoll_Ranger_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Howler_Stone/Gnoll_Ranger_2.0.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Howler_Stone/Gnoll_Ranger_2.0.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'When gnolls go to war, small packs of Rangers shadow the flanks of the main warpack. As the pack engages, the Rangers let loose clouds of arrows, strategically marking enemies that the pack should hunt down and destroy. In this way the warpack coordinates their attacks against the most vulnerable of their prey.');
 insert into Characters (CardIndex) VALUES (1191); 
@@ -12230,7 +12230,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (696
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Gnoll Warrior',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Howler_Stone/Card_Warband_Howler_Stone_Gnoll_Warrior_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Howler_Stone/Card_Warband_Howler_Stone_Gnoll_Warrior_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Howler_Stone/Gnoll_Warrior_2.0.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Howler_Stone/Gnoll_Warrior_2.0.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Gnoll warriors are ruthless and cunning predators. Working together, they are able to overcome even the strongest foe. Should their prey seek to flee, the warriors are as adaept at throwing their spears as stabbing with them.');
 insert into Characters (CardIndex) VALUES (1192); 
@@ -12255,7 +12255,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (697
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Junk Reaver Crystal',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Junk_Reaver_Crystal/Card_Warband_Junk_Reaver_Crystal_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Junk_Reaver_Crystal/Card_Warband_Junk_Reaver_Crystal_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Junk_Reaver_Crystal/Junk_Reaver_Crystal.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Junk_Reaver_Crystal/Junk_Reaver_Crystal.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 '');--!! unavailable !!
 insert into Characters (CardIndex) VALUES (1193); 
@@ -12274,7 +12274,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (698
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Junker',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Junk_Reaver_Crystal/Card_Warband_Junk_Reaver_Crystal_Junker_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Junk_Reaver_Crystal/Card_Warband_Junk_Reaver_Crystal_Junker_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Junk_Reaver_Crystal/Junker.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Junk_Reaver_Crystal/Junker.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 '');--!! unavailable 1!
 insert into Characters (CardIndex) VALUES (1194);
@@ -12294,7 +12294,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (699
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Rusty Arrows',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Junk_Reaver_Crystal/Card_Warband_Junk_Reaver_Crystal_Rusty_Arrows_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Junk_Reaver_Crystal/Card_Warband_Junk_Reaver_Crystal_Rusty_Arrows_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Junk_Reaver_Crystal/Rusty_Arrows.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Junk_Reaver_Crystal/Rusty_Arrows.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 '');--!! unavailable !!
 insert into Characters (CardIndex) VALUES (1195); 
@@ -12315,7 +12315,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (700
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Rust Boss',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Junk_Reaver_Crystal/Card_Warband_Junk_Reaver_Crystal_Rust_Boss_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Junk_Reaver_Crystal/Card_Warband_Junk_Reaver_Crystal_Rust_Boss_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Junk_Reaver_Crystal/Rust_Boss_2.0.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Junk_Reaver_Crystal/Rust_Boss_2.0.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 '');--!! unavailable !!
 insert into Characters (CardIndex) VALUES (1196); 
@@ -12342,7 +12342,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (701
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Kobold Warrens',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Kobold_Warrens/Card_Warband_Kobold_Warrens_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Kobold_Warrens/Card_Warband_Kobold_Warrens_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Kobold_Warrens/Kobold_Warrens.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Kobold_Warrens/Kobold_Warrens.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Kobolds were the first monsters from the Dark Realm to invade Crystalia, and remain the most numerous. In the centuries that have passed since the banishment of the Dark Consul, kobolds have only increased in numbers. Supremely adaptable and remarkably relentless in their drive to expand, there is no corner of Crystalia untouched by their menance.
 <br><br>
@@ -12365,7 +12365,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (702
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Dragon Priest',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Kobold_Warrens/Card_Warband_Kobold_Warrens_Dragon_Priest_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Kobold_Warrens/Card_Warband_Kobold_Warrens_Dragon_Priest_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Kobold_Warrens/Dragon_Priest.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Kobold_Warrens/Dragon_Priest.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'While the Cult of the Burning Star, which venerates Starfire, is the most well known there are cults of kobolds dedicated to the worship of all the dragons of Crystalia. Dragon Priests are granted arcane powers by their close communion with the dragons. Once bestowed these gifts, the priests never hesitate to use their favor to bully and intimidate the lesser kobolds into fighting for them.');
 insert into Characters (CardIndex) VALUES (1198);
@@ -12387,7 +12387,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (703
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Flinger',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Kobold_Warrens/Card_Warband_Kobold_Warrens_Flinger_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Kobold_Warrens/Card_Warband_Kobold_Warrens_Flinger_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Kobold_Warrens/Flinger.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Kobold_Warrens/Flinger.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Many young kobolds emerge from their warrens having learned how to hunt bats and other denizens with nothing more than a strip of drakegut and a pouch full of stones. Deadly accurate, they launch small clay pots of flaming lamp oil or inky smoke bombs to conceal their movement.');
 insert into Characters (CardIndex) VALUES (1199); 
@@ -12411,7 +12411,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (704
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Gouger',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Kobold_Warrens/Card_Warband_Kobold_Warrens_Gouger_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Kobold_Warrens/Card_Warband_Kobold_Warrens_Gouger_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Kobold_Warrens/Gouger_2.0.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Kobold_Warrens/Gouger_2.0.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Kobolds are not big on courage as lone fighters. Their snarling growls are meager and their weapons blunt and rusted. The Gougher''s long spears can effectively add weight to their kin''s attacks by stabbing at the desperately flailing Heroes.');
 insert into Characters (CardIndex) VALUES (1200); 
@@ -12430,7 +12430,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (705
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ironscale',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Kobold_Warrens/Card_Warband_Kobold_Warrens_Ironscale_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Kobold_Warrens/Card_Warband_Kobold_Warrens_Ironscale_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Kobold_Warrens/Ironscale_2.0.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Kobold_Warrens/Ironscale_2.0.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'The strongest and largest of their kind, the Ironscales are draped in heavy armor and fight from behind immensely heavy shields. Advancing with a rattling stomp, their kin swarm from behind their wall of protection to attack anyone foolish enough to stick around.');
 insert into Characters (CardIndex) VALUES (1201); 
@@ -12451,7 +12451,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (706
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Knucklehead',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Kobold_Warrens/Card_Warband_Kobold_Warrens_Knucklehead_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Kobold_Warrens/Card_Warband_Kobold_Warrens_Knucklehead_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Kobold_Warrens/Knucklehead_2.0.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Kobold_Warrens/Knucklehead_2.0.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'The Knuckleheads'' strength lies in large, deadly, mobs of its kin throwing themselves headlong into smaller bands of Heroes. They use their small shields and iron helmets to take blows, while frantically stabbing anything in reach with their crude weapons.');
 insert into Characters (CardIndex) VALUES (1202); 
@@ -12472,7 +12472,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (707
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Loot Stash',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Loot_Stash/Card_Warband_Loot_Stash_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Loot_Stash/Card_Warband_Loot_Stash_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Loot_Stash/Loot_Stash.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Loot_Stash/Loot_Stash.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 '');  --!! unavailable !!
 insert into Characters (CardIndex) VALUES (1203); 
@@ -12492,7 +12492,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (708
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Polished Punk',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Loot_Stash/Card_Warband_Loot_Stash_Polished_Punk_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Loot_Stash/Card_Warband_Loot_Stash_Polished_Punk_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Loot_Stash/Polished_Punk.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Loot_Stash/Polished_Punk.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 '');  --!! unavailable !!
 insert into Characters (CardIndex) VALUES (1204);
@@ -12512,7 +12512,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (709
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Powder Ladz',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Loot_Stash/Card_Warband_Loot_Stash_Powder_Lad_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Loot_Stash/Card_Warband_Loot_Stash_Powder_Lad_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Loot_Stash/Grobbit_Powder_Ladz.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Loot_Stash/Grobbit_Powder_Ladz.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 '');  --!! unavailable !!
 insert into Characters (CardIndex) VALUES (1205); 
@@ -12534,7 +12534,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (710
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Shiny Boss',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Loot_Stash/Card_Warband_Loot_Stash_Shiny_Boss_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Loot_Stash/Card_Warband_Loot_Stash_Shiny_Boss_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Loot_Stash/Shiny_Boss.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Loot_Stash/Shiny_Boss.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 '');  --!! unavailable !!
 insert into Characters (CardIndex) VALUES (1206); 
@@ -12558,7 +12558,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (711
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Maleficent Idol',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Maleficent_Idol/Card_Warband_Maleficent_Idol_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Maleficent_Idol/Card_Warband_Maleficent_Idol_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Maleficent_Idol/Maleficent_Idol.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Maleficent_Idol/Maleficent_Idol.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Usually Araphel''s dealings and worship are done in secret. Her followers move about in the shadows, applying subtle influence and spinning devious webs. However, there are places in the Dark Realm and the hidden corners of Crystalia where Araphel is worshipped openly. In these places a Maleficent Idol is erected in Araphel''s honor, carved in her likeness with the chained heart that has come to signify devotion to her.');
 insert into Characters (CardIndex) VALUES (1207); 
@@ -12578,7 +12578,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (712
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Maleficent Idol Errata',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Maleficent_Idol/Card_Warband_Maleficent_Idol_Errata_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Maleficent_Idol/Card_Warband_Maleficent_Idol_Errata_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Maleficent_Idol/Maleficent_Idol_Errata.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Maleficent_Idol/Maleficent_Idol_Errata.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Usually Araphel''s dealings and worship are done in secret. Her followers move about in the shadows, applying subtle influence and spinning devious webs. However, there are places in the Dark Realm and the hidden corners of Crystalia where Araphel is worshipped openly. In these places a Maleficent Idol is erected in Araphel''s honor, carved in her likeness with the chained heart that has come to signify devotion to her.');
 insert into Characters (CardIndex) VALUES (1208); 
@@ -12598,7 +12598,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (713
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Devout of Araphel',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Maleficent_Idol/Card_Warband_Maleficent_Idol_Devout_of_Araphel_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Maleficent_Idol/Card_Warband_Maleficent_Idol_Devout_of_Araphel_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Maleficent_Idol/Devout_of_Araphel.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Maleficent_Idol/Devout_of_Araphel.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Araphel has gained significant popularity among Crystalia''s riftling population. As the Midnight Queen has risen to power and the shadow of the Dark Consul covers the realms, riftlings are increasingly viewed with suspicion and fear. This has seen them increasingly susceptible to Araphel''s whispers, which promise freedom and retribution. Many are so bitter that they allow their priests to mark them with a curse that triggers upon their death, powered by their very souls.');
 insert into Characters (CardIndex) VALUES (1209);
@@ -12617,7 +12617,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (714
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Heartbound',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Maleficent_Idol/Card_Warband_Maleficent_Idol_Heartbound_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Maleficent_Idol/Card_Warband_Maleficent_Idol_Heartbound_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Maleficent_Idol/Heartbound.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Maleficent_Idol/Heartbound.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Heartbound are those followers of Araphel who have taken their devotion one step further. Through an obscene ritual, the Heartbound have linked their very souls to Araphel, allowing them to channel her power.');
 insert into Characters (CardIndex) VALUES (1210); 
@@ -12639,7 +12639,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (715
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Master of Chains',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Maleficent_Idol/Card_Warband_Maleficent_Idol_Master_of_Chains_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Maleficent_Idol/Card_Warband_Maleficent_Idol_Master_of_Chains_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Maleficent_Idol/Master_of_Chains_2.0.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Maleficent_Idol/Master_of_Chains_2.0.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Part prophet, part proselytizer, a Master of Chains offers to deliver riftlings from the oppression the suspicions of Crystalians as placed upon them. "Do not be bound by your chains, instead master them!" So skilled are these priests, that most Devoted do not realize they are exchanging oppression for subjugation.');
 insert into Characters (CardIndex) VALUES (1211); 
@@ -12662,7 +12662,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (716
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Nether Clutch',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Nether_Clutch/Card_Warband_Nether_Clutch_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Nether_Clutch/Card_Warband_Nether_Clutch_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Nether_Clutch/Nether_Clutch.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Nether_Clutch/Nether_Clutch.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Proximity to the Dark Realm has seen the drakes of the Nether Rifts grow mighty beyond the other clutches throughout the realms of Crystalia. Their strength is linked inextricably to that of the Dark Realm, as the power of the Dark Consul ebbs and flows, so too does the might of the drakes bound to him.');
 insert into Characters (CardIndex) VALUES (1212); 
@@ -12682,7 +12682,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (717
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Nether Hatchlings',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Nether_Clutch/Card_Warband_Nether_Clutch_Nether_Hatchlings_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Nether_Clutch/Card_Warband_Nether_Clutch_Nether_Hatchlings_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Nether_Clutch/Nether_Hatchlings.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Nether_Clutch/Nether_Hatchlings.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Particularly playful, the hatchling drakes of the Nether rifts do not understand where play ends, combat begins, or cruelty reigns. Many a demon has fallen prey to a small pack of hatchlings whose playful behavior turned to tragic end.');
 insert into Characters (CardIndex) VALUES (1213);
@@ -12702,7 +12702,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (718
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Nether Whelp',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Nether_Clutch/Card_Warband_Nether_Clutch_Nether_Whelp_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Nether_Clutch/Card_Warband_Nether_Clutch_Nether_Whelp_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Nether_Clutch/Nether_Whelp.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Nether_Clutch/Nether_Whelp.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Nether whelps tend to be solitary hunters. Staking out large territories, they mirror their dragon kin''s covetous tendencies, hoarding shiny baubles and bits of coin.');
 insert into Characters (CardIndex) VALUES (1214); 
@@ -12723,7 +12723,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (719
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Nether Wyrmling',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Nether_Clutch/Card_Warband_Nether_Clutch_Nether_Wyrmling_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Nether_Clutch/Card_Warband_Nether_Clutch_Nether_Wyrmling_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Nether_Clutch/Nether_Wyrmling.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Nether_Clutch/Nether_Wyrmling.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Nether wyrmlings serve as the vanguard and scouts of the Dark Realm''s armies. Bursting forth from the Nether Rifts in vast flocks, they flood the skies of Crystalia searching for Crystalian settlements, patrols, and unwary parties of Heroes.');
 insert into Characters (CardIndex) VALUES (1215); 
@@ -12751,7 +12751,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (720
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Pinching Palace',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Pinching_Palace/Card_Warband_Pinching_Palace_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Pinching_Palace/Card_Warband_Pinching_Palace_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Pinching_Palace/Pinching_Palace.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Pinching_Palace/Pinching_Palace.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'A Lord of Crabs is only at home among crustaceans and other lurking denizens of the deep. They spend a great deal of time cultivating homes for their crabby friends, making sure they are protected, fed, and happy. This, in turn, makes the Lord of Crabs happy--even if only for a short while.');
 insert into Characters (CardIndex) VALUES (1216); 
@@ -12772,7 +12772,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (721
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Big Claw',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Pinching_Palace/Card_Warband_Pinching_Palace_Big_Claw_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Pinching_Palace/Card_Warband_Pinching_Palace_Big_Claw_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Pinching_Palace/Big_Claw.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Pinching_Palace/Big_Claw.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Big Claws love to lurk in the muck and mud, happily eating anything and everything that wanders too close, including tasty Heroes. Determined (and hungry) Big Claws can be remarkably tenacious, latching onto their prey with their single enormous claw and refusing to let go. As they grow more agitated, the water and muck around them deepens, further bogging down their prey until escape is impossible.');
 insert into Characters (CardIndex) VALUES (1217);
@@ -12794,7 +12794,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (722
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Carapace Crawler',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Pinching_Palace/Card_Warband_Pinching_Palace_Carapace_Crawler_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Pinching_Palace/Card_Warband_Pinching_Palace_Carapace_Crawler_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Pinching_Palace/Carapace_Crawler.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Pinching_Palace/Carapace_Crawler.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Carapace Crawlers grow to immense sizes extraordinarily quickly. As they grow, they molt constantly, leaving spiny shells littering the sands. These shells prove hazardous in a fight, and a canny warrior will use them to their advantage by pushing their opponents across the shells, causing them to trip and lose their balance.');
 insert into Characters (CardIndex) VALUES (1218); 
@@ -12817,7 +12817,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (723
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Lord of the Crabs',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Pinching_Palace/Card_Warband_Pinching_Palace_Lord_of_the_Crabs_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Pinching_Palace/Card_Warband_Pinching_Palace_Lord_of_the_Crabs_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Pinching_Palace/Lord_of_the_Crabs.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Pinching_Palace/Lord_of_the_Crabs.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Strange and reclusive, Lords of the Crabs haunt the misty coastlines of Crystalia like specters. Intensely private, they live in craggy crevices where the ocean waves crash upon the diffs. Able to form a bizarre communion with crustaceans and other oceanic life, these druids only answer the call of their elvish kin when forced, or when their territory is threatened.');
 insert into Characters (CardIndex) VALUES (1219); 
@@ -12846,7 +12846,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (724
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Sand Spire',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Sand_Spire/Card_Warband_Sand_Spire_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Sand_Spire/Card_Warband_Sand_Spire_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Sand_Spire/Sand_Spire.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Sand_Spire/Sand_Spire.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Arcadian nether elves are nomadic by nature and enjoy a thriving culture around horsemanship. Even among the Crystalian nobility, many say Arcadian stallions are the finest in all the realms. In contrast to many other nether elves, Arcadian nether elves have regular and mostly peaceful dealings with the various other cultures which call the dunes home. This is likely due to the harsh nature of the dunes. What meager resources it provides must be carefully cultivated and maintained, even through warfare. Despite this, Arcadian nether elves are wholly devoted to the Dark Consul and the Midnight Queen, ready to answer their call without hesitation.');
 insert into Characters (CardIndex) VALUES (1220); 
@@ -12868,7 +12868,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (725
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Desert Blade',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Sand_Spire/Card_Warband_Sand_Spire_Desert_Blade_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Sand_Spire/Card_Warband_Sand_Spire_Desert_Blade_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Sand_Spire/Desert_Blade.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Sand_Spire/Desert_Blade.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'A specialized caste within the Blackblades, Desert Blades have adapted their fighting style to the unique conditions of the Arcadian Dunes. Eschewing the traditional heavy plate armor common to their discipline, Desert Blades are lighter and faster opponents than their kin.');
 insert into Characters (CardIndex) VALUES (1221);
@@ -12890,7 +12890,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (726
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Dune Hunter',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Sand_Spire/Card_Warband_Sand_Spire_Dune_Hunter_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Sand_Spire/Card_Warband_Sand_Spire_Dune_Hunter_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Sand_Spire/Dune_Hunter.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Sand_Spire/Dune_Hunter.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'True to their name, Dune Hunters are master trackers and hunters of the dunes. Skilled in survival and trapping techniques, Dune Hunters will patiently stalk Heroes for days, using subtle tricks and bluffs to guide, lure, and herd their target into ambush.');
 insert into Characters (CardIndex) VALUES (1222); 
@@ -12913,7 +12913,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (727
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Silk Knife',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Sand_Spire/Card_Warband_Sand_Spire_Silk_Knife_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Sand_Spire/Card_Warband_Sand_Spire_Silk_Knife_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Sand_Spire/Silk_Knife.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Sand_Spire/Silk_Knife.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Graceful, beautiful, silent, deadly--all words used to describe the assassins known as the Cult of Silk. Even among the nether elves none know who truly controls the Cult of Silk. Their assassins, known as Knives, have never been captured alive. Over the centuries, the Cult of Silk has been implicated in the death of Heroes, monstrous warlords, nether elves, and even the Consul''s own dungeon bosses. Indeed, even the Midnight Queen maintains only a tenuous truce with the cult and its mysterious leader.');
 insert into Characters (CardIndex) VALUES (1223); 
@@ -12941,7 +12941,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (728
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Scrap Tower',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Scrap_Tower/Card_Warband_Scrap_Tower_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Scrap_Tower/Card_Warband_Scrap_Tower_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Scrap_Tower/Scrap_Tower.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Scrap_Tower/Scrap_Tower.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'The gnomish artificer who constructed Daemonus was cast out from his guild and banished, eventually finding his way to the Undercove.  Deep within the grinding bowels of Clockwork Cove he gathered the other tinkerers, artificiers, and forgemasters who had been cast aside or refused entry by the guilds.  From them the Scrap Guild was born, and their cruel inventions have become favorites of dungeons bosses looking for extra dungeon security.');
 insert into Characters (CardIndex) VALUES (1224); 
@@ -12961,7 +12961,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (729
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Dunce',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Scrap_Tower/Card_Warband_Scrap_Tower_Dunce_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Scrap_Tower/Card_Warband_Scrap_Tower_Dunce_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Scrap_Tower/Dunce.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Scrap_Tower/Dunce.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Cackling gnomes, raving madmen, clever goblins, and more make up the ranks of the anarchic Scrap Guild.  Most, despite their crazed brilliance, were considered failures outside the Undercove and so they proudly claim the moniker of Dunce as their fiendish invetions thwart Heroes'' dungeon adventures.');
 insert into Characters (CardIndex) VALUES (1225);
@@ -12982,7 +12982,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (730
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Gate Crasher',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Scrap_Tower/Card_Warband_Scrap_Tower_Gate_Crasher_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Scrap_Tower/Card_Warband_Scrap_Tower_Gate_Crasher_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Scrap_Tower/Gate_Crasher.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Scrap_Tower/Gate_Crasher.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'No riddle to pass.  Just smash.  Smash.  SMASH!');
 insert into Characters (CardIndex) VALUES (1226); 
@@ -13004,7 +13004,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (731
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Grim Oculus',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Scrap_Tower/Card_Warband_Scrap_Tower_Grim_Oculus_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Scrap_Tower/Card_Warband_Scrap_Tower_Grim_Oculus_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Scrap_Tower/Grim_Oculus.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Scrap_Tower/Grim_Oculus.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 '');--!! unavailable !!
 insert into Characters (CardIndex) VALUES (1227); 
@@ -13043,7 +13043,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (733
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Sewer Pipe',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Sewer_Pipe/Card_Warband_Sewer_Pipe_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Sewer_Pipe/Card_Warband_Sewer_Pipe_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Sewer_Pipe/Sewer_Pipe.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Sewer_Pipe/Sewer_Pipe.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Beneath the bellowing forges, the clanking constructs, and the grinding cogs of Clockwork Cove lies the Undercove, a bastion for the forgotten and dispossessed. These lost children of the sewer band together into loose gangs of thieves and thugs all striving to survive. It is no surprise then that the Dark Consul finds the Undercove a rich recruitment ground for new agents to advance his dark designs.');
 insert into Characters (CardIndex) VALUES (1229); 
@@ -13063,7 +13063,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (734
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Fetch',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Sewer_Pipe/Card_Warband_Sewer_Pipe_Fetch_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Sewer_Pipe/Card_Warband_Sewer_Pipe_Fetch_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Sewer_Pipe/Fetch.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Sewer_Pipe/Fetch.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Fetches are brutal-minded goblins that lack the sneakiness and finesse to become good thieves. Instead, they serve as thugs and collectors within the Pauper Prince''s ranks, using their nets to ensnare their victims allowing the rest of the gang to easily see to the "retrieval" of goods.');
 insert into Characters (CardIndex) VALUES (1230);
@@ -13085,7 +13085,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (735
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Guttersnipe',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Sewer_Pipe/Card_Warband_Sewer_Pipe_Guttersnipe_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Sewer_Pipe/Card_Warband_Sewer_Pipe_Guttersnipe_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Sewer_Pipe/Guttersnipe.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Sewer_Pipe/Guttersnipe.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Nimble and quick-fingered, Guttersnipes canvas both the Undercove and the Cove Above collecting the Prince''s Due. When simple sneakiness or diversion is not sufficient to conceal their actions, Guttersnipes will light the small braziers that hang from their belts, filling the area in clouds of smoke.');
 insert into Characters (CardIndex) VALUES (1231); 
@@ -13107,7 +13107,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (736
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Moffet',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Sewer_Pipe/Card_Warband_Sewer_Pipe_Moffet_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Sewer_Pipe/Card_Warband_Sewer_Pipe_Moffet_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Sewer_Pipe/Moffet.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Sewer_Pipe/Moffet.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Trusted lieutenants within the Pauper Prince''s ranks, Moffets lead gangs of thieves to collect the Prince''s Due. Moffets rise to their station through displays of cunning, deviousness, and treachery all of which are inevitably employed towards the removal of the Moffet before them.');
 insert into Characters (CardIndex) VALUES (1232); 
@@ -13131,7 +13131,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (737
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Shadow Tower',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Shadow_Tower/Card_Warband_Shadow_Tower_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Shadow_Tower/Card_Warband_Shadow_Tower_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Shadow_Tower/Shadow_Tower.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Shadow_Tower/Shadow_Tower.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'When the Dark Realm breached the light of Crystalia, it tore a rent between the two worlds known as the Nether Rifts. Much of the land which was lost to the newly formed Nether Rifts was of the Fae Wood. As the rifts opened, entire villages and cities of deeproot elves were swallowed by the Dark Realm. Forced to survive within the cold darkness of the Dark Consul''s domain, the elves became dark reflections of what they once were. Twisted by the corrupting influence of shadow, they became vile and villainous, a scourge upon all of Crystalia.');
 insert into Characters (CardIndex) VALUES (1233); 
@@ -13153,7 +13153,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (738
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Tower Arbalist',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Shadow_Tower/Card_Warband_Shadow_Tower_Tower_Arbalist_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Shadow_Tower/Card_Warband_Shadow_Tower_Tower_Arbalist_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Shadow_Tower/Tower_Arbalist.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Shadow_Tower/Tower_Arbalist.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Nether elves see little reason to sacrifice themselves needlessly in battle. Because of this, the large majority of nether elf battalions consist of ranks upon ranks of Arbalists wielding wicked crossbows. Before an enemy is able to engage the nether elves'' lines, they must withstand a withering barrage of bolts.');
 insert into Characters (CardIndex) VALUES (1234);
@@ -13177,7 +13177,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (739
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Tower Blackblade',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Shadow_Tower/Card_Warband_Shadow_Tower_Tower_Blackblade_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Shadow_Tower/Card_Warband_Shadow_Tower_Tower_Blackblade_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Shadow_Tower/Tower_Blackblade.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Shadow_Tower/Tower_Blackblade.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Blackblades are the standard infantry which comprise the bulk of the Midnight Queen''s forces. However, Blackblades are anything but "standard." With military careers spanning centuries, Blackblades are devoted to the art of soldiery and martial combat. Cruel and utterly without mercy, Blackblades are instruments of death and destruction.');
 insert into Characters (CardIndex) VALUES (1235); 
@@ -13199,7 +13199,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (740
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Tower Stalker',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Shadow_Tower/Card_Warband_Shadow_Tower_Tower_Stalker_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Shadow_Tower/Card_Warband_Shadow_Tower_Tower_Stalker_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Shadow_Tower/Tower_Stalker.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Shadow_Tower/Tower_Stalker.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Tower Stalkers seek to identify the weakest link and remove it. Relishing in sowing dread and terror, a Tower Stalker will harry and toy with an adventuring party. Striking when Heroes become isolated or vulnerable, always seeking to keep the party guessing and off balance. Under such an assault, many lose heart and abandon their quest entirely.');
 insert into Characters (CardIndex) VALUES (1236); 
@@ -13227,7 +13227,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (741
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Shadow Warrens',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Shadow_Warrens/Card_Warband_Shadow_Warrens_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Shadow_Warrens/Card_Warband_Shadow_Warrens_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Shadow_Warrens/Shadow_Warrens.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Shadow_Warrens/Shadow_Warrens.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Corsucating with the midnight energies of the Dark Realm, the kobolds of the Shadow Warrens are closely linked to the Dark Consul. Despite this, the cults of the Shadow Warrens are divided and fractious. The Cult of the First claims to be the original cult, tracing its lineage back to the Dark Consul''s first rise to power. The Cult of Shattered Night cares little for the other cults, relishing in assassination and intrigue. However, it is the Cult of the Dark that has recently drawn the most worry from the Heroes of Crystalia. Lead by the Demon Lord known only as The Destroyer, the Cult of the Dark has laid waste to every foe it has faced. It has become an endless tide of darkness consuming Crystalia bit by bit.');
 insert into Characters (CardIndex) VALUES (1237); 
@@ -13247,7 +13247,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (742
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Dark Lobber',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Shadow_Warrens/Card_Warband_Shadow_Warrens_Dark_Lobber_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Shadow_Warrens/Card_Warband_Shadow_Warrens_Dark_Lobber_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Shadow_Warrens/Dark_Lobber.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Shadow_Warrens/Dark_Lobber.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'The kobolds of the Nether Rifts plague the outskirts of the Fae Woods, and are a scourge upon the local wildlife. A particularly favored concoction is a stew simmered from rabid squirrels. Flung from their steaming slings, the stew inflicts strange madness and afflictions upon anyone that it touches.');
 insert into Characters (CardIndex) VALUES (1238);
@@ -13272,7 +13272,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (743
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Dimwit',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Shadow_Warrens/Card_Warband_Shadow_Warrens_Dimwit_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Shadow_Warrens/Card_Warband_Shadow_Warrens_Dimwit_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Shadow_Warrens/Dimwit.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Shadow_Warrens/Dimwit.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Dimwits are covetous and greedy creatures, constantly engaging in displays of one-upsmanship and bravado. Most Dimwits are absolutely certain in their superiority and are driven into fits of insane rage when confronted by Heroes whose gear gleams brighter than their own.');
 insert into Characters (CardIndex) VALUES (1239); 
@@ -13292,7 +13292,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (744
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Shadowscale',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Shadow_Warrens/Card_Warband_Shadow_Warrens_Shadowscale_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Shadow_Warrens/Card_Warband_Shadow_Warrens_Shadowscale_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Shadow_Warrens/Shadowscale.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Shadow_Warrens/Shadowscale.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Shadowscales rise from the ranks of Dimwits by virtue of being bigger, stronger, and having acquired better loot than the others. Still prone to the same infighting, bickering, and jealousy of others, they occasionally deign to assist their lessers just to prove how magnanimous they truly are. However, such behavior typically leads to the collection of "protection" taxes after the battle.');
 insert into Characters (CardIndex) VALUES (1240); 
@@ -13314,7 +13314,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (745
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Shadow Priest',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Shadow_Warrens/Card_Warband_Shadow_Warrens_Shadow_Priest_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Shadow_Warrens/Card_Warband_Shadow_Warrens_Shadow_Priest_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Shadow_Warrens/Shadow_Priest.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Shadow_Warrens/Shadow_Priest.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Shadow Priests are haughty and a bit insufferable to other kobolds. The Shadow Priests proximity to the Dark Realm grant them a certain sense of smug superiority over other kobolds, whom they feel have strayed too far from the dark. This view is heightened by the Lord of their cult, The Destroyer, who sees all creatures who have left the embrace of the Dark Realm as weak and insignificant.');
 insert into Characters (CardIndex) VALUES (1241); 
@@ -13337,7 +13337,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (746
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Skewer',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Shadow_Warrens/Card_Warband_Shadow_Warrens_Skewer_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Shadow_Warrens/Card_Warband_Shadow_Warrens_Skewer_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Shadow_Warrens/Skewer.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Shadow_Warrens/Skewer.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Skewers are the rabble of the Shadow Warrens. These unfortunate kobolds have never been strong enough to hold onto the weapons and armor they manage to scavenge from the battlefield, and lack the necessary hand-eye coordination to use a sling. In ordr to get some use out of them, they are given a spear and thrust to the head of the battle.');
 insert into Characters (CardIndex) VALUES (1242); 
@@ -13359,7 +13359,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (747
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Nepharite Warlord',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Siege_of_the_Citadel/Card_Warband_Siege_of_the_Citadel_Nepharite_Warlord_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Siege_of_the_Citadel/Card_Warband_Siege_of_the_Citadel_Nepharite_Warlord_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Siege_of_the_Citadel/Nepharite_Warlord.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Siege_of_the_Citadel/Nepharite_Warlord.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 '');
 insert into Characters (CardIndex) VALUES (1243); 
@@ -13384,7 +13384,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (748
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Necromutant',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Siege_of_the_Citadel/Card_Warband_Siege_of_the_Citadel_Necromutant_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Siege_of_the_Citadel/Card_Warband_Siege_of_the_Citadel_Necromutant_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Siege_of_the_Citadel/Necromutant.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Siege_of_the_Citadel/Necromutant.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 '');
 insert into Characters (CardIndex) VALUES (1244);
@@ -13405,7 +13405,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (749
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Undead Legionnaire',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Siege_of_the_Citadel/Card_Warband_Siege_of_the_Citadel_Undead_Legionnaire_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Siege_of_the_Citadel/Card_Warband_Siege_of_the_Citadel_Undead_Legionnaire_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Siege_of_the_Citadel/Undead_Legionnaire.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Siege_of_the_Citadel/Undead_Legionnaire.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 '');
 insert into Characters (CardIndex) VALUES (1245); 
@@ -13428,7 +13428,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (750
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Skull Stone',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Skull_Stone/Card_Warband_Skull_Stone_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Skull_Stone/Card_Warband_Skull_Stone_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Skull_Stone/Skull_Stone.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Skull_Stone/Skull_Stone.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'A dominant race within the Dark Realm, orcs are hearty and violent by nature. Orcs congregate in huge tribes lead by the strongest or most cunning warrior among them. Under the guidance of a powerful warlord, orc tribes are scourges to the surrounding land and people. Caring little if they attack creatures of Light or Darkness, orcs care only for the thrill of the hunt and the chaos of battle.');
 insert into Characters (CardIndex) VALUES (1246); 
@@ -13448,7 +13448,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (751
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Face Beater',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Skull_Stone/Card_Warband_Skull_Stone_Face_Beater_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Skull_Stone/Card_Warband_Skull_Stone_Face_Beater_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Skull_Stone/Face_Beater.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Skull_Stone/Face_Beater.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Your face. I don''t like it. Come close little ugly face. Come''er. Don''t back away. That''s it. Stand right there. This will only take a moment.');
 insert into Characters (CardIndex) VALUES (1247);
@@ -13470,7 +13470,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (752
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Knuckle Smasher',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Skull_Stone/Card_Warband_Skull_Stone_Knuckle_Smasher_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Skull_Stone/Card_Warband_Skull_Stone_Knuckle_Smasher_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Skull_Stone/Knuckle_Smasher.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Skull_Stone/Knuckle_Smasher.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Look at my fists. They are not happy. They are so sad. Need to smash something. Need to hit something. Need to hit you. Need to hit you NOW!');
 insert into Characters (CardIndex) VALUES (1248); 
@@ -13492,7 +13492,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (753
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Neck Splitter',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Skull_Stone/Card_Warband_Skull_Stone_Neck_Splitter_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Skull_Stone/Card_Warband_Skull_Stone_Neck_Splitter_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Skull_Stone/Neck_Splitter.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Skull_Stone/Neck_Splitter.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'My axe is sharp. My axe is thirsty. I will swing my axe. I will swing it again. And again. And again. My axe will thirst no more.');
 insert into Characters (CardIndex) VALUES (1249); 
@@ -13515,7 +13515,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (754
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Spawn of Servitude',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Spawn_of_Servitude/Card_Warband_Spawn_of_Servitude_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Spawn_of_Servitude/Card_Warband_Spawn_of_Servitude_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Spawn_of_Servitude/Spawn_of_Servitude.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Spawn_of_Servitude/Spawn_of_Servitude.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Succubi serve as Araphel''s demonic agents. Their ability to beguile, charm, and bend the minds of mortals make them uniquely suited to achieving Araphel''s aims. Succubi in the service of Araphel often have a Spawn of Servitude to use as a base of operations. Mortals who serve Araphel (knowingly or not) are often lured to a Spawn of Servitude to secure their loyalty, and enjoy the comfy, frilly pillows.');
 insert into Characters (CardIndex) VALUES (1250); 
@@ -13535,7 +13535,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (755
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Head Nurse',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Spawn_of_Servitude/Card_Warband_Spawn_of_Servitude_Head_Nurse_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Spawn_of_Servitude/Card_Warband_Spawn_of_Servitude_Head_Nurse_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Spawn_of_Servitude/Head_Nurse.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Spawn_of_Servitude/Head_Nurse.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Head Nurses oversee other succubi, infiltrating and corrupting the mortal realm. They pose as healers, luring in those weary adventurers seeking shelter, comfort, and aid for their wounds. All of these things are provided, and soon the patient wonders why they ever need to leave. And if the Head Nurse, who saved their life, asks a favor, who are they to deny it? Who are they to deny her anything?');
 insert into Characters (CardIndex) VALUES (1251);
@@ -13557,7 +13557,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (756
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Potion Mistress',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Spawn_of_Servitude/Card_Warband_Spawn_of_Servitude_Potion_Mistress_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Spawn_of_Servitude/Card_Warband_Spawn_of_Servitude_Potion_Mistress_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Spawn_of_Servitude/Potion_Mistress.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Spawn_of_Servitude/Potion_Mistress.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'A Potion Mistress is a succubus with a talent for brewing potions and concoctions. They often serve under a Head Nurse, providing their superior with all of their newest and most devious brews. Make no mistake, they are not simple poisoners. Many of their potions have actual healing properties, but they often have the curious side effect of making the patient more susceptible to influence.');
 insert into Characters (CardIndex) VALUES (1252); 
@@ -13579,7 +13579,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (757
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Wretch',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Spawn_of_Servitude/Card_Warband_Spawn_of_Servitude_Wretch_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Spawn_of_Servitude/Card_Warband_Spawn_of_Servitude_Wretch_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Spawn_of_Servitude/Wretch.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Spawn_of_Servitude/Wretch.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Mortals who fall to the sway of succubi are always put to maximum use. No part of the mortal is wasted. While they are healthy and vibrant, they can be used to infiltrate, plot, and spread derision. And as they grow weaker and more frail they can still serve their mistress. And when they are nothing but a wretch, a drained husk of what they once were? Well, there is always a need for cannon fodder.');
 insert into Characters (CardIndex) VALUES (1253); 
@@ -13600,7 +13600,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (758
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Spider Nest',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Spider_Nest/Card_Warband_Spider_Nest_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Spider_Nest/Card_Warband_Spider_Nest_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Spider_Nest/Spider_Nest.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Spider_Nest/Spider_Nest.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Spiders have a natural affinity with darkness and shadow. Many of the fiendish varieties which call the Nether Rifts and Dark Realm home grow to remarkable sizes and can possess a startling intelluct. The nether elves strike bargains with spider nests'' Queens, and in exchange for their aid the spiders are granted their choice of hunting grounds and provided with protection from various heroic attempts at extermination.');
 insert into Characters (CardIndex) VALUES (1254); 
@@ -13620,7 +13620,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (759
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Crawler',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Spider_Nest/Card_Warband_Spider_Nest_Crawler_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Spider_Nest/Card_Warband_Spider_Nest_Crawler_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Spider_Nest/Crawler.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Spider_Nest/Crawler.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'The Dark Realm is home to a vast array of poisonous and deadly bugs, spiders, scuttlers, and biters. These creepy crawly denizens of the the Dark are often tamed by Nether Elf witches, who usher their crawler swarms into battle, overwhelming their foes with bites, stings, and poisons.');
 insert into Characters (CardIndex) VALUES (1255);
@@ -13642,7 +13642,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (760
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Shadow Spinner',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Spider_Nest/Card_Warband_Spider_Nest_Shadow_Spinner_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Spider_Nest/Card_Warband_Spider_Nest_Shadow_Spinner_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Spider_Nest/Shadow_Spinner.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Spider_Nest/Shadow_Spinner.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Shadow spinners lurk within dark spaces of the the Nether Rifts, weaving webs of pure shadow to conceal their presence and ensnare their prey.');
 insert into Characters (CardIndex) VALUES (1256); 
@@ -13666,7 +13666,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (761
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Spider Speaker',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Spider_Nest/Card_Warband_Spider_Nest_Spider_Speaker_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Spider_Nest/Card_Warband_Spider_Nest_Spider_Speaker_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Spider_Nest/Spider_Speaker.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Spider_Nest/Spider_Speaker.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'A revered priesthood, the Spider Speakers maintain the relationship between nether elves and the Queens of the various spider nests which populate Crystalia. Masters of poison and dark sorcery, Spider Speakers are a powerful, if not well loved, faction in nether elf society.');
 insert into Characters (CardIndex) VALUES (1257); 
@@ -13694,7 +13694,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (762
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Watch Tower',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Watch_Tower/Card_Warband_Watch_Tower_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Watch_Tower/Card_Warband_Watch_Tower_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Watch_Tower/Watch_Tower.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Watch_Tower/Watch_Tower.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'The Crown Guard is the standing army of the King of Crystalia. Made up of highly trained and dedicated servants of the land, the Crown Guard is the primary bulwark against the forces of the Dark Consul. It is their duty to maintain order and security within Crystalia, so that Heroes have the freedom to strike at the heart of the Dark Consul''s dungeons. While Heroes and the Crown Guard work hand-in-hand, it is not uncommon for a Hero to cross the line with a bit of excessive celebration or occasional shady deal that puts them at odds with the Crown Guard.');
 insert into Characters (CardIndex) VALUES (1258); 
@@ -13714,7 +13714,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (763
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Longbowman',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Watch_Tower/Card_Warband_Watch_Tower_Longbowman_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Watch_Tower/Card_Warband_Watch_Tower_Longbowman_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Watch_Tower/Longbowman.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Watch_Tower/Longbowman.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Longbowmen train from an early age to become masters of their craft. Drawing bows too thick and powerful for a normal person to use, Longbowmen can rain arrows down upon their foes with remarkable speed and accuracy.');
 insert into Characters (CardIndex) VALUES (1259);
@@ -13735,7 +13735,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (764
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Pikeman',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Watch_Tower/Card_Warband_Watch_Tower_Pikeman_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Watch_Tower/Card_Warband_Watch_Tower_Pikeman_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Watch_Tower/Pikeman.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Watch_Tower/Pikeman.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Pikemen are the first line of defense among the Crown Guard. These proud warriors brandish long-hafted pikes, and train relentlessly in fighting as a unified regiment.');
 insert into Characters (CardIndex) VALUES (1260); 
@@ -13754,7 +13754,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (765
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Sergeant-At-Arms',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Watch_Tower/Card_Warband_Watch_Tower_Sergeant_At_Arms_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Watch_Tower/Card_Warband_Watch_Tower_Sergeant_At_Arms_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Watch_Tower/Sergeant_At_Arms.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Watch_Tower/Sergeant_At_Arms.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Sergeants-at-Arms are veteran soldiers, who have spent their life in service to Crystalia and its people. They are cunning tacticians who survey the field of battle and ensure their troops are being used in the most efficient and effective manner possible.');
 insert into Characters (CardIndex) VALUES (1261); 
@@ -13778,7 +13778,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (766
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Swordsman',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Watch_Tower/Card_Warband_Watch_Tower_Swordsman_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Watch_Tower/Card_Warband_Watch_Tower_Swordsman_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Warbands/Watch_Tower/Swordsman.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Watch_Tower/Swordsman.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Swordmen are specially trained soldiers within the Crown Guard tasked with protecting their fellow soldiers, and the innocent, in battle. Long hours are spent training with their shields, learning to use it in the defense of themselves and others.');
 insert into Characters (CardIndex) VALUES (1262); 
@@ -13798,7 +13798,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (767
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Boo Booty',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Booty/Card_Arcade_Boo_Booty_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Booty/Card_Arcade_Boo_Booty_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Booty/Boo_Booty.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Booty/Boo_Booty.xhtml', 
 'Booty', '2.0', '2.0 Core Set', 'Arcade', 
 'Boo booty are the unfortunate creation of gnomish tinkering, paired with dwarven greed.  Originally intended to guard the treasure vaults of the Hearthsworn Dwarves, the spirit of the Dark Consul filled the constructs with a malevolent intellect.  Turning upon their former masters, boo booty rabildly guard their treasure from all who would seek to claim it.');
 insert into Characters (CardIndex) VALUES (1263);
@@ -13818,7 +13818,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (153, 445)
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Chochin-Obake',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Creeps/Card_Arcade_Creep_Chochin_Obake_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Creeps/Card_Arcade_Creep_Chochin_Obake_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Creeps/Chochin_Obake.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Creeps/Chochin_Obake.xhtml', 
 'Creep', '2.0', '2.0 Core Set', 'Arcade', 
 'When spirits seek to break the veil between life and death it is the Chochin-Obake who light their way.  The more powerful of these ghostly apparitions pull the Chochin-Obake through with them so that the ghostly minions can illuminate the souls of the living.');
 insert into Characters (CardIndex) VALUES (1264);
@@ -13836,7 +13836,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (154, 1669
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Curse Raven',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Creeps/Card_Arcade_Creep_Curse_Raven_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Creeps/Card_Arcade_Creep_Curse_Raven_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Creeps/Curse_Raven.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Creeps/Curse_Raven.xhtml', 
 'Creep', '2.0', '2.0 Core Set', 'Arcade', 
 'In the frozen lands of Frostbyte Reach, there is a legend about the Curse Raven. It is said that if you see one, someone close to you is on their way to death. It is not known if Curse Ravens cause the demise, or merely warn of the impending doom, but they are a dreaded sight either way.');
 insert into Characters (CardIndex) VALUES (1265);
@@ -13855,7 +13855,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (155, 990)
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Demolitions Expert',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Creeps/Card_Arcade_Creep_Demolitions_Expert_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Creeps/Card_Arcade_Creep_Demolitions_Expert_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Creeps/Demolitions_Expert.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Creeps/Demolitions_Expert.xhtml', 
 'Creep', '2.0', '2.0 Core Set', 'Arcade', 
 'Accidents are known to happen.');
 insert into Characters (CardIndex) VALUES (1266);
@@ -13875,7 +13875,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (156, 1339
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Fire Flower',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Creeps/Card_Arcade_Creep_Fire_Flower_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Creeps/Card_Arcade_Creep_Fire_Flower_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Creeps/Fire_Flower.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Creeps/Fire_Flower.xhtml', 
 'Creep', '2.0', '2.0 Core Set', 'Arcade', 
 'Fire Flowers are primitive by kodama standards, but it is a foolish Hero who underestimates these fire-spitting carnivores. Congregating in vast fields atop molten rock, fire flowers soak up the fiery heat to fuel their furnance-like fire chambers. When prey nears the entire field of flowers vomits forth a raining shower of fire, barbecuing their delicious meal to a perfect charbroil.');
 insert into Characters (CardIndex) VALUES (1267);
@@ -13893,7 +13893,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (157, 691)
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Forge Gnome',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Creeps/Card_Arcade_Creep_Forge_Gnome_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Creeps/Card_Arcade_Creep_Forge_Gnome_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Creeps/Forge_Gnome.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Creeps/Forge_Gnome.xhtml', 
 'Creep', '2.0', '2.0 Core Set', 'Arcade', 
 'Master artificers themselves, it is no surprise that some gnomes are willing to abandon all in pursuit of their craft--despite the risks. Lured by forbidden knowledge, Forge Gnomes have fallen to the Dark in order to apprentice under Lord Vulcanis. Though the skills they acquire are many, the cost they pay is high as the will of the Dark Consul slowly twists and subverts them into little more than monsters.');
 insert into Characters (CardIndex) VALUES (1268);
@@ -13909,7 +13909,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (158, 1758
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Frost Imp',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Creeps/Card_Arcade_Creep_Frost_Imp_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Creeps/Card_Arcade_Creep_Frost_Imp_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Creeps/Frost_Imp.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Creeps/Frost_Imp.xhtml', 
 'Creep', '2.0', '2.0 Core Set', 'Arcade', 
 '');  --!! unavailable !!
 insert into Characters (CardIndex) VALUES (1269);
@@ -13927,7 +13927,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (159, 2070
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ghostflame',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Creeps/Card_Arcade_Creep_Ghostflame_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Creeps/Card_Arcade_Creep_Ghostflame_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Creeps/Ghostflame.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Creeps/Ghostflame.xhtml', 
 'Creep', '2.0', '2.0 Core Set', 'Arcade', 
 'Ghostflames are flaming skulls, taken by Mordred as trophies from the heroes he has vanquished in honorable combat. They still speak in their old voices, chattering and taunting heroes who may have once called them friends. Mordred grows in power with each skull he claims, and when they are vanquished they explode in a fiery burst.');
 insert into Characters (CardIndex) VALUES (1270);
@@ -13944,7 +13944,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (160, 896)
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Kodead',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Creeps/Card_Arcade_Creep_Kodead_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Creeps/Card_Arcade_Creep_Kodead_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Creeps/Kodead.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Creeps/Kodead.xhtml', 
 'Creep', '2.0', '2.0 Core Set', 'Arcade', 
 'The dragon Nightsong had a cult of kobolds who worshipped him, just as a cult is devoted to each dragon of Crystalia. When Nightsong was swallowed by the Nether Rifts, so too were the kobolds who followed him. Not to be the only dragon without a proper kobold cult, Nightsong resurrected them, and they remain his most loyal servants.');
 insert into Characters (CardIndex) VALUES (1271);
@@ -13960,7 +13960,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (161, 795)
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Nether Imp',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Creeps/Card_Arcade_Creep_Nether_Imp_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Creeps/Card_Arcade_Creep_Nether_Imp_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Creeps/Nether_Imp.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Creeps/Nether_Imp.xhtml', 
 'Creep', '2.0', '2.0 Core Set', 'Arcade', 
 'Like all imps, Nether Imps are infinitely playful and mischievous. However, being born of the Dark Realms, their mischief is a tad more malicious than most. Where a typical imp may leave an egg in your boot, a Nether Imp will chuckle as it sets your feet aflame with the baleful fires of the Nether Rifts. It''s not the imp''s fault if you can''t take a joke.');
 insert into Characters (CardIndex) VALUES (1272);
@@ -13978,7 +13978,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (162, 1462
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Rotten Pumpkin',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Creeps/Card_Arcade_Creep_Rotten_Pumpkin_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Creeps/Card_Arcade_Creep_Rotten_Pumpkin_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Creeps/Rotten_Pumpkin.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Creeps/Rotten_Pumpkin.xhtml', 
 'Creep', '2.0', '2.0 Core Set', 'Arcade', 
 '');  --!! unavailable !!
 insert into Characters (CardIndex) VALUES (1273);
@@ -13994,7 +13994,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (163, 904)
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Spiker',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Creeps/Card_Arcade_Creep_Spiker_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Creeps/Card_Arcade_Creep_Spiker_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Creeps/Spiker.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Creeps/Spiker.xhtml', 
 'Creep', '2.0', '2.0 Core Set', 'Arcade', 
 'Spiker life is short and brutal. Most die from being thrown at Heroes at high velocities or being fed to The Guth''s hogs (or The Guth himself). Surprisingly, there is never any shortage of volunteers to serve as a Spiker. They''re definitely not forced into the role by the bigger orcs and goblins. It''s an honor to serve The Guth. They absolutely, positively, 100% want to be a Spiker. Seriously.');  
 insert into Characters (CardIndex) VALUES (1274);
@@ -14011,7 +14011,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (164, 708)
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Spiteful Cherub',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Creeps/Card_Arcade_Creep_Spiteful_Cherub_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Creeps/Card_Arcade_Creep_Spiteful_Cherub_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Creeps/Spiteful_Cherub.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Creeps/Spiteful_Cherub.xhtml', 
 'Creep', '2.0', '2.0 Core Set', 'Arcade', 
 '');
 insert into Characters (CardIndex) VALUES (1275);
@@ -14028,7 +14028,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (165, 996)
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Squigly',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Creeps/Card_Arcade_Creep_Squigly_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Creeps/Card_Arcade_Creep_Squigly_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Creeps/Squigly.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Creeps/Squigly.xhtml', 
 'Creep', '2.0', '2.0 Core Set', 'Arcade', 
 'Squigglies plague Clockwork Cove. Don''t let their cute appearance fool you, these tiny creatures are devoted minions of the Dark Consul. They have been used to weaken the supports of docks, clog up the gears of various machinery, and generally be a thorn in the side of any hero who stands up against the forces of darkness.');
 insert into Characters (CardIndex) VALUES (1276);
@@ -14046,7 +14046,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (166, 1680
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Underdead Crow',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Creeps/Card_Arcade_Creep_Underdead_Crow_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Creeps/Card_Arcade_Creep_Underdead_Crow_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Creeps/Underdead_Crow.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Creeps/Underdead_Crow.xhtml', 
 'Creep', '2.0', '2.0 Core Set', 'Arcade', 
 '');  --!! unavailable !!
 insert into Characters (CardIndex) VALUES (1277);
@@ -14063,7 +14063,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (167, 693)
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Waystone',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Creeps/Card_Arcade_Creep_Waystone_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Creeps/Card_Arcade_Creep_Waystone_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Creeps/Waystone.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Creeps/Waystone.xhtml', 
 'Creep', '2.0', '2.0 Core Set', 'Arcade', 
 'Waystones are used by the Jotnar to mark the icy paths of the Skull White Fastness and lead weary travelers to safety. Ymnaur Wintersson also uses waystones, but he has woven dark magic into them, and uses them to make him near-invulnerable while he remains in his frozen realm.');
 insert into Characters (CardIndex) VALUES (1278);
@@ -14080,7 +14080,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (168, 1020
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Yowling',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Creeps/Card_Arcade_Creep_Yowling_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Creeps/Card_Arcade_Creep_Yowling_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Creeps/Yowling.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Creeps/Yowling.xhtml', 
 'Creep', '2.0', '2.0 Core Set', 'Arcade', 
 'Mother Noctua acts as mother and guardian to all of the fae Wood, but she has special love for her Yowlings - young owlbears that flock to her side. They are hatched from the most precious Deeproot Acorns, and they are daring and mischievous. More than one hero has had her favorite soda stolen by a playful Yowling.');
 insert into Characters (CardIndex) VALUES (1279);
@@ -14098,7 +14098,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (169, 1310
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Yurei Bushi',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Creeps/Card_Arcade_Creep_Yurei_Bushi_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Creeps/Card_Arcade_Creep_Yurei_Bushi_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Creeps/Yurei_Bushi.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Creeps/Yurei_Bushi.xhtml', 
 'Creep', '2.0', '2.0 Core Set', 'Arcade', 
 'As in life, the bonds of loyalty can follow a warrior into the afterlife. Spiritual guardians who left the world with an oath of fealty on their lips often return again to serve at their masters side.');
 insert into Characters (CardIndex) VALUES (1280);
@@ -14121,7 +14121,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (170, 995)
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Arachne',
 'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Arachne_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Arachne_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/MiniBosses/Arachne.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/MiniBosses/Arachne.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Arcade', 
 'Like all Spider Queens, Arachne is a hideous fusion of nether elf and spider.  Young by the standards of elves, Arachne has nonetheless rapidly risen to power.  Vanquishing over a dozen of her Spider Queen rivals in mere months, Arachne has caught the eye of The Midnight Queen and become a vaored lieutenant in the war against the Light.');
 insert into Characters (CardIndex) VALUES (1281);
@@ -14140,7 +14140,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (571, 902)
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Arashikage',
 'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Arashikage_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Arashikage_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/MiniBosses/Arashikage.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/MiniBosses/Arashikage.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Arcade', 
 '"I can kill him, yes, but only if you tell me what I need to know."');
 insert into Characters (CardIndex) VALUES (1282);
@@ -14161,7 +14161,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (572, 753)
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Blood-Eye',
 'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Blood_Eye_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Blood_Eye_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/MiniBosses/Blood_Eye.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/MiniBosses/Blood_Eye.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Arcade', 
 'Blood-Eye, was exiled from the Crook-Eye tribe for his lack of honor and tendency towards unnecessary violence. In truth, Blood-Eye cared little about his exile, having long chafed under the "civilized" tribe''s rules. A ruthless hunter and tracker, Blood-Eye has readily found work among the minions of the Dark Consul.');
 insert into Characters (CardIndex) VALUES (1283);
@@ -14181,7 +14181,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (573, 2071
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Cernonos',
 'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Cernonos_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Cernonos_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/MiniBosses/Cernonos.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/MiniBosses/Cernonos.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Arcade', 
 'At the heart of every maze awaits a monster. Many brave adventurers have lost their way, and Cernonos is always waiting...');
 insert into Characters (CardIndex) VALUES (1284);
@@ -14202,7 +14202,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (574, 1384
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Chained Knight',
 'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Chained_Knight_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Chained_Knight_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/MiniBosses/Chained_Knight.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/MiniBosses/Chained_Knight.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Arcade', 
 'One of Araphel''s most terrifying devotees is a hulking figure known simply as the Chained Knight. Such is Araphel''s influence over him that even his name has been consumed and forgotten. Whatever he once was, now he is Araphel''s sword arm, put to use when subtlety has run its course. Even so, many say they sometimes see a flicker of defiance on his face, as if something within him still resists his dark mistress.');
 insert into Characters (CardIndex) VALUES (1285);
@@ -14222,7 +14222,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (575, 1157
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Chaos Kitty',
 'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Chaos_Kitty_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Chaos_Kitty_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/MiniBosses/Chaos_Kitty.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/MiniBosses/Chaos_Kitty.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Arcade', 
 '"I was just playing with it and then it broke..."');
 insert into Characters (CardIndex) VALUES (1286);
@@ -14245,7 +14245,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (576, 1455
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Charmancer',
 'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Charmancer_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Charmancer_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/MiniBosses/Charmancer.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/MiniBosses/Charmancer.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Arcade', 
 ''); --!! unavailable !!
 insert into Characters (CardIndex) VALUES (1287);
@@ -14263,7 +14263,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (577, 1338
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Clan Ika Chunin',
 'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Clan_Ika_Chunin_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Clan_Ika_Chunin_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/MiniBosses/Clan_Ika_Chunin.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/MiniBosses/Clan_Ika_Chunin.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Arcade', 
 '');
 insert into Characters (CardIndex) VALUES (1288);
@@ -14285,7 +14285,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (578, 1797
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Clan Kitsune Chunin',
 'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Clan_Kitsune_Chunin_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Clan_Kitsune_Chunin_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/MiniBosses/Clan_Kitsune_Chunin.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/MiniBosses/Clan_Kitsune_Chunin.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Arcade', 
 'The Kitsune Chunin is the leader of the Kitsune Kunoichi. No outsider knows how the Chunin is chosen from the ranks of the Kunoichi, but it is speculated that Kunoichi are allowed to challenge the current Chunin for the title, ensuring that the strongest and most cunning is always in charge. He or she always wears a face covering in battle to protect their identity should they choose to leave any survivors. The Chunin is equipped with the most deadly of the concoctions for which the Kitsune are famed, often using these poisons to coat their weapons.');
 insert into Characters (CardIndex) VALUES (1289);
@@ -14304,7 +14304,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (579, 945)
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Clan Sohei Chunin',
 'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Clan_Sohei_Chunin_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Clan_Sohei_Chunin_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/MiniBosses/Clan_Sohei_Chunin.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/MiniBosses/Clan_Sohei_Chunin.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Arcade', 
 'Sohei Chunin have faced horrors that would render lesser warriors insane.  But it is not their place to simply face such horrors, but to defeat and banish them back to the Dark Realm.  It is said that the greatest warriors of the clan, do not banish the minions of the Dark Consul, but unmake them entirely.  Ending their threat to Crystalia permanently.');
 insert into Characters (CardIndex) VALUES (1290);
@@ -14326,7 +14326,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (580, 1870
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Clan Sohei Oni',
 'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Clan_Sohei_Oni_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Clan_Sohei_Oni_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/MiniBosses/Clan_Sohei_Oni.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/MiniBosses/Clan_Sohei_Oni.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Arcade', 
 ''); --!! unavailable !!
 insert into Characters (CardIndex) VALUES (1291);
@@ -14345,7 +14345,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (581, 2073
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Clan Spirit Shrine Oni',
 'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Clan_Spirit_Shrine_Oni_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Clan_Spirit_Shrine_Oni_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/MiniBosses/Clan_Spirit_Shrine_Oni.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/MiniBosses/Clan_Spirit_Shrine_Oni.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Arcade', 
 '');
 insert into Characters (CardIndex) VALUES (1292);
@@ -14364,7 +14364,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (582, 1022
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Clan Tanchyo Chunin',
 'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Clan_Tanchyo_Chunin_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Clan_Tanchyo_Chunin_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/MiniBosses/Clan_Tanchyo_Chunin.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/MiniBosses/Clan_Tanchyo_Chunin.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Arcade', 
 'The Tanchyo are known throughout Kagejima for their archery skills, and the Chunin are those who have proven themselves above and beyond even their fellow Tanchyo. Each village only has a single Chunin. Sometimes this individual is a hero of a great battle. Sometimes they have proven themselves in an archery contest. But all Tanchyo Chunin are deadly opponents who can single-handedly rain down a storm of arrows.');
 insert into Characters (CardIndex) VALUES (1293);
@@ -14383,7 +14383,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (583, 1584
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Clan Tora Chunin',
 'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Clan_Tora_Chunin_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Clan_Tora_Chunin_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/MiniBosses/Clan_Tora_Chunin.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/MiniBosses/Clan_Tora_Chunin.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Arcade', 
 'The Chunin of the Tora employ tactics learned over centuries of battle. Employing the strength of their warriors as a fire attacks a dry forest, or a Tiger pounces on the unwary prey.');
 insert into Characters (CardIndex) VALUES (1294);
@@ -14402,7 +14402,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (584, 1152
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Clan Void Shrine Oni',
 'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Clan_Void_Shrine_Oni_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Clan_Void_Shrine_Oni_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/MiniBosses/Clan_Void_Shrine_Oni.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/MiniBosses/Clan_Void_Shrine_Oni.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Arcade', 
 '');
 insert into Characters (CardIndex) VALUES (1295);
@@ -14421,7 +14421,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (585, 1022
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Clan Water Shrine Oni',
 'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Clan_Water_Shrine_Oni_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Clan_Water_Shrine_Oni_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/MiniBosses/Clan_Water_Shrine_Oni.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/MiniBosses/Clan_Water_Shrine_Oni.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Arcade', 
 '');
 insert into Characters (CardIndex) VALUES (1296);
@@ -14440,7 +14440,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (586, 1022
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Clan Yamazaru Chunin',
 'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Clan_Yamazaru_Chunin_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Clan_Yamazaru_Chunin_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/MiniBosses/Clan_Yamazaru_Chunin.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/MiniBosses/Clan_Yamazaru_Chunin.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Arcade', 
 'The Yamazaru are naturally curious and playful. They love new trinquets and fun items, and this even spills over into how they arm themselves for battle. Often, the Yamazaru Chunin is simply the one with the newest weapon, biggest club, or the most new trinquets to share with his or her fellow Yamazaru.');
 insert into Characters (CardIndex) VALUES (1297);
@@ -14460,7 +14460,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (587, 1733
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Clan Yurei Chunin',
 'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Clan_Yurei_Chunin_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Clan_Yurei_Chunin_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/MiniBosses/Clan_Yurei_Chunin.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/MiniBosses/Clan_Yurei_Chunin.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Arcade', 
 'It is said that the hammers borne by the Yurei Chunin were the very ones used to close the final links of chain that held the Yurei clan nobles to their battle barges when they were cast into the ocean. Cursed with the most vile hatred for the Ika, these weapons are as much symbols of that hatred as they are tools for revenge.');
 insert into Characters (CardIndex) VALUES (1298);
@@ -14479,7 +14479,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (588, 1198
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Clan Yurei Oni',
 'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Clan_Yurei_Oni_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Clan_Yurei_Oni_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/MiniBosses/Clan_Yurei_Oni.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/MiniBosses/Clan_Yurei_Oni.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Arcade', 
 'Amongst the many warriors that were sent to the bottom of the sea during the Yurei rebellion. There were quite a few Oni from some of the outlying islands in the service of Lord Tomomori. Their strength was used to better their way onto the Ika''s castle ships. It is of no difference now, as even in death, they are terrifying and powerful foes. ');
 insert into Characters (CardIndex) VALUES (1299);
@@ -14499,7 +14499,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (589, 2074
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Crystal Weaver',
 'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Crystal_Weaver_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Crystal_Weaver_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/MiniBosses/Crystal_Weaver.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/MiniBosses/Crystal_Weaver.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Arcade', 
 'The Midnight Tower is guarded by any number of nefarious traps, henchmen, and monsters. But none compare to the Crystal Golem in pure corruption and unfeeling malignance. Once a sacred keeper of the Goddess Chamber, the Crystal Golem was one of the wonders of Crystalia. That the Midnight Queen was able to taint it in both heart and form is a stain upon the land. Once in the shape of a mighty knight, the golem has taken on the twisted form of one of the Queen''s spiders, and stalks the halls of her tower hunting down unfortunate Heroes with unfeeling adeptness.');
 insert into Characters (CardIndex) VALUES (1300);
@@ -14519,7 +14519,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (590, 1661
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Cursed Jarl',
 'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Cursed_Jarl_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Cursed_Jarl_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/MiniBosses/Cursed_Jarl.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/MiniBosses/Cursed_Jarl.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Arcade', 
 'In order to unite the warring human tribes of Frostbyte Reavers, Elrik was required to earn (or force) the allegiance of each tribe''s powerful Jarl. Drawn to Elrik''s might--both physical and magical--most Jarls happily supported his claims to kingship and the riches it brought to them. They did not know of the dark powers which Elrik tapped to gain his strength. When Elrik ascended to Lichdom the Jarls were bestowed the curse of undeath, doomed to serve their King forever.');
 insert into Characters (CardIndex) VALUES (1301);
@@ -14539,7 +14539,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (591, 1776
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Dark Kitsune',
 'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Dark_Kitsune_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Dark_Kitsune_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/MiniBosses/Dark_Kitsune.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/MiniBosses/Dark_Kitsune.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Arcade', 
 'Some Kitsune are ill-suited for life beneath their clan''s shadowed trees. Dark Kitsune dream of a wider world, and long to see it wonders. They take their clan''s skills in herbalism and magic with them, of course, and most parlay these talents into lucrative employment. They rarely have trouble finding warriors willing to pay their sometimes outlandish fees.');
 insert into Characters (CardIndex) VALUES (1302);
@@ -14573,7 +14573,7 @@ VALUES (145, 0, '', '', '', 0, 0, 0, 178);
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ezoghoul',
 'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Ezoghoul_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Ezoghoul_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/MiniBosses/Ezoghoul.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/MiniBosses/Ezoghoul.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Arcade', 
 '');
 insert into Characters (CardIndex) VALUES (1304);
@@ -14591,7 +14591,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (594, 1460
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Furious Fungomancer',
 'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Furious_Fungomancer_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Furious_Fungomancer_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/MiniBosses/Furious_Fungomancer.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/MiniBosses/Furious_Fungomancer.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Arcade', 
 'Sometimes an Okoshroom is exposed to powerful magic. It could be magic spewed by the Dark Consul, or even just a chance encounter with a powerful crystal. Whatever the cause, this can awaken a new understanding is the Okoshroom. It understands its place in the world. It understands how the other peoples of Crystalia see mushrooms; as mere fungus, even as food. Cursed with understanding, the Okoshroom becomes filled with rage, and seeks ways to wish the other people of Crystalia understand what it is to be a mushroom...');
 insert into Characters (CardIndex) VALUES (1305);
@@ -14611,7 +14611,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (595, 806)
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Gothmog the Terrible',
 'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Gothmog_the_Terrible_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Gothmog_the_Terrible_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/MiniBosses/Gothmog_the_Terrible.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/MiniBosses/Gothmog_the_Terrible.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Arcade', 
 'Gothmog once led the Ravagers as the tribe''s brutal warlord. Under his ferocious rule, the Ravagers became infamous throughout the Frostbyte Reach. His rule was eventually undermined when Guth the Pig overthrew him with the aid of a small, feisty, cunning tribe of goblins. Disgraced by his defeat, Gothmog now serves as The Guth''s lieutenant. He nurses his hatred for his new warlord, waiting for an opportune moment to topple him, and return to his former glory.');
 insert into Characters (CardIndex) VALUES (1306);
@@ -14629,7 +14629,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (596, 1789
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Grim Golem',
 'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Grim_Golem_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Grim_Golem_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/MiniBosses/Grim_Golem.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/MiniBosses/Grim_Golem.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Arcade', 
 'The massive statues which stand sentinel around the Nether Rifts are, for all intents and purposes, impervious to harm. No attempt by the Light at destroying one has ever succeeded in even marring one''s surface. The Crystal Shapers of the Dark Realm, however, are able to manipulate the surface of the Heralds, growing stone spurs that can be removed and used for nefarious purpose. Particularly favored, is the creation of golems which patrol dungeons and dark keeps. Almost as resistant to harm as the Heralds themselves, these Grim Golems are tenacious foes.');
 insert into Characters (CardIndex) VALUES (1307);
@@ -14649,7 +14649,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (597, 1887
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Hecate Vilehorn',
 'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Hecate_Vilehorn_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Hecate_Vilehorn_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/MiniBosses/Hecate_Vilehorn.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/MiniBosses/Hecate_Vilehorn.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Arcade', 
 'Hecate Vilehorn was once one of the more suspected Thundervale druids. But she became obsessed with the idea of ??? and sought after it with a combination of druidic magic, and things she ??? ??? the ways of various which ???. Her druidic ??? considered this ??? an ??? to the ??? world and, when she refused to stop, they ??? ???. Through vile enough she rose ??? ??? and now she ??? the Glauerdoom Moor, searching for the spell ??? ??? and her twilight of ??? and being her back ???.');
 insert into Characters (CardIndex) VALUES (1308);
@@ -14690,7 +14690,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (599, 1033
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Kappa',
 'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Kappa_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Kappa_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/MiniBosses/Kappa.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/MiniBosses/Kappa.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Arcade', 
 'The Kappa are wild, dangerous kami who inhabit Kagejima''s lakes, rivers, and swamps. Wily and withdrawn by nature, they can be found overturning boats and drowning unwary children. Despite this, several clans have successfully coaxed these exceptionally strong and stealthy creatures into performing services...often with the sacrifice of food, livestock, or even the village elder''s firstborn child.');
 insert into Characters (CardIndex) VALUES (1310);
@@ -14710,7 +14710,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (600, 1341
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Knight of Shifting Sand',
 'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Knight_of_Shifting_Sand_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Knight_of_Shifting_Sand_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/MiniBosses/Knight_of_Shifting_Sand.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/MiniBosses/Knight_of_Shifting_Sand.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Arcade', 
 'It is sold that to fight a Knight of Shifting Sand is to fight the desert itself. At a young age, they are led into the desert, both mount and rider veiled from all sight and sound. There, they are left to survive alone and to find their own way home. Many perish. The greatest of them spend years, even decades, traveling the deep dunes. Each journey is unique, but when they return they are masters of the desert and mighty leaders of their peers.');
 insert into Characters (CardIndex) VALUES (1311);
@@ -14730,7 +14730,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (601, 1605
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Knight of the Tower',
 'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Knight_of_the_Tower_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Knight_of_the_Tower_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/MiniBosses/Knight_of_the_Tower.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/MiniBosses/Knight_of_the_Tower.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Arcade', 
 'Knights of the Tower are cruel and capable nether elf champions that have risen through the ranks by striding across fields of the fallen and shrewd use of treachery. Gifted by their Queen with ghostly nether steeds, they are terrifying upon the field of battle.');
 insert into Characters (CardIndex) VALUES (1312);
@@ -14750,7 +14750,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (602, 1267
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Kobold Ogre',
 'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Kobold_Ogre_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Kobold_Ogre_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/MiniBosses/Kobold_Ogre.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/MiniBosses/Kobold_Ogre.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Arcade', 
 'The most powerful kobold leaders often display their might with a pair or more of burly ogre bodyguards. Having grown large and brutally strong from constant exposure to the Dark Realms''s magicks, ogres have lost much of the intelligence and animal cunning of their lesser kobold kin. Despite this, they are remarkably loyal and enjoy being a part of their cousins'' plans.');
 insert into Characters (CardIndex) VALUES (1313);
@@ -14768,7 +14768,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (603, 1727
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Mistmourn Warg',
 'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Mistmourn_Warg_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Mistmourn_Warg_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/MiniBosses/Mistmourn_Warg.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/MiniBosses/Mistmourn_Warg.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Arcade', 
 'The wargs of the Mistmourn Coast grew exceptionally dangerous. Unlike other wargs, they are not pack hunters. Instead, each one strikes out on its own to claim its territory. These beasts grow to exceptional size and are frequently manipulated by the Dark Consul against the heroes of Crystalia. When a warg leads the Consul''s minions into battle, its howl emboldens those around it, driving them into a frenzy with the warg at their backs.');
 insert into Characters (CardIndex) VALUES (1314);
@@ -14788,7 +14788,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (604, 1278
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Monach Tvar',
 'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Monach_Tvar_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Monach_Tvar_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/MiniBosses/Monach_Tvar.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/MiniBosses/Monach_Tvar.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Arcade', 
 'Once the Ascendant Prince of the Lunar Elves, Monach Tvar fell to the Dark Consul in a bid to claim the relic known as The Dragon Horn and become the Lord of all dragonkind. To achieve his aims, he slew his only sister Ascendant Princess Elara and sealed the doom of the lunar elf people to the Dragon''s Call.');
 insert into Characters (CardIndex) VALUES (1315);
@@ -14808,7 +14808,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (605, 947)
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Nethercorn',
 'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Nethercorn_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Nethercorn_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/MiniBosses/Nethercorn.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/MiniBosses/Nethercorn.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Arcade', 
 'Nethercorns are fiery tempered natives of the Dark Realm. Startlingly intelligent and predatory, nethercorns bend only to the will of the Dark Consul. Many demons assume nethercorns are servile minions, or attempt to capture them as mounts. The fields of bone around a nethercorn''s territory serve as testimony to their failure.');
 insert into Characters (CardIndex) VALUES (1316);
@@ -14832,7 +14832,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (606, 999)
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Orcdon Ramsay',
 'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Orcdon_Ramsay_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Orcdon_Ramsay_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/MiniBosses/Orcdon_Ramsay.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/MiniBosses/Orcdon_Ramsay.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Arcade', 
 ''); --!! unavailable !!
 insert into Characters (CardIndex) VALUES (1317);
@@ -14852,7 +14852,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (607, 2081
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Rage Fiend, The',
 'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Rage_Fiend_The_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Rage_Fiend_The_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/MiniBosses/Rage_Fiend_The.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/MiniBosses/Rage_Fiend_The.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Arcade', 
 'The Rage Fiend is a legend among the orcish tribes. An unstoppable juggernaut of destruction, it is whispered that The Rage Fiend was blessed by the great demon lord known only as The Destroyer. Filled with demonic vigor and visions of desolation, The Rage Fiend incites all around him to ever increasing fits of violence and madness. Where The Rage Fiend treads only death follows.');
 insert into Characters (CardIndex) VALUES (1318);
@@ -14870,7 +14870,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (608, 1313
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Randy, Lrod of Spiders',
 'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Randy_Lrod_of_Spiders_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Randy_Lrod_of_Spiders_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/MiniBosses/Randy, Lrod of Spiders.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/MiniBosses/Randy, Lrod of Spiders.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Arcade', 
 'The last galaxy is a place where mighty knights clash with the forces of the void, and a battle for survival rages. But that doesn''t mean that the arcades will manage themselves. Randy has been charged with the sacred duty of managing one such arcade. Annonyed at customers who continually vaporize his place of work with high tech weaponry, Randy decided to program himself into his favorite game. But a typo prevented him from being a proper lord, even in a game...');
 insert into Characters (CardIndex) VALUES (1319);
@@ -14891,7 +14891,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (609, 1786
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Rex',
 'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Rex_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Rex_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/MiniBosses/Rex.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/MiniBosses/Rex.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Arcade', 
 'Rex has collected more than a few new friends since going to work in the Consul''s dungeons. Most are unwary adventurers not quite quick enough to get out of the reach of his enthusiastic hugs.');
 insert into Characters (CardIndex) VALUES (1320);
@@ -14909,7 +14909,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (610, 1590
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ser Anthony',
 'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Ser_Anthony_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Ser_Anthony2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/MiniBosses/Ser_Anthony.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/MiniBosses/Ser_Anthony.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Arcade', 
 'Despite his youth, Ser Anthony rose through the ranks of the Crown Guard quickly. Taken under the wing of the venerable knight Ser Charles he excelled at his studies--both physical and mental. At Ser Charles'' retirement, it was the great knight''s honor to see his squire rise to fill his station.');
 insert into Characters (CardIndex) VALUES (1321);
@@ -14927,7 +14927,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (611, 833)
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ser Elmer',
 'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Ser_Elmer_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Ser_Elmer_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/MiniBosses/Ser_Elmer.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/MiniBosses/Ser_Elmer.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Arcade', 
 'Ser Elmer has the distinct privilege and honor of serving as Castletown''s Captain of the Guard. Charged with overseeing the safety of Castletown''s businesses and citizens, Ser Elmer rarely encounters monsters. Instead, Ser Elmer typically confronts various criminal organizations, shadowy thieves guilds, and over exuberant Heroes who have gotten out of line.');
 insert into Characters (CardIndex) VALUES (1322);
@@ -14946,7 +14946,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (612, 1895
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Shinigami',
 'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Shinigami_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Shinigami_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/MiniBosses/Shinigami.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/MiniBosses/Shinigami.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Arcade', 
 'Few types of death spectre inspire such dread as Kagejima''s shinigami. These deadly spirits lure victims into cursed pacts, offering up knowledge or power that inevitably leads to an unfortunate death. Indeed, so insidious and cruel are these pacts that many seek death in order to end the suffering their bargain causes.');
 insert into Characters (CardIndex) VALUES (1323);
@@ -14965,7 +14965,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (613, 1371
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Tengu',
 'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Tengu_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Tengu_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/MiniBosses/Tengu.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/MiniBosses/Tengu.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Arcade', 
 'For centuries, the Tengu have bartered or traded their magical and martial skill to the competing clans of Kagejima. Sometimes they do so for gold, for more offerings at their shrines, or for shiny baubles. Other times the requests are more unusual, such as whispers of love from a beautiful woman, the first wail of a newborn, or thirty stems of saffron.');
 insert into Characters (CardIndex) VALUES (1324);
@@ -14987,7 +14987,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (614, 952)
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Tidal Knight',
 'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Tidal_Knight_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Tidal_Knight_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/MiniBosses/Tidal_Knight.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/MiniBosses/Tidal_Knight.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Arcade', 
 'Magically adapted to survive beneath the sea, Tidal Knights are rarely seen, even by nether elf corsairs. In times of need, Tidal Knights are summoned by Shadow Fleet corsairs through the use of massive horns which are sounded beneath the waves. Once summoned, the Tidal Knights race alongside the Shadow Fleet, before launching into the air to charge enemy sailors upon the decks.');
 insert into Characters (CardIndex) VALUES (1325);
@@ -15007,7 +15007,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (615, 1267
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ugluk the Mechanically Inclined',
 'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Ugluk_the_Mechanically_Inclined_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Ugluk_the_Mechanically_Inclined_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/MiniBosses/Ugluk_the_Mechanically_Inclined.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/MiniBosses/Ugluk_the_Mechanically_Inclined.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Arcade', 
 '');  --!! unavailable !!
 insert into Characters (CardIndex) VALUES (1326);
@@ -15026,7 +15026,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (616, 2083
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Vlad the Perforator',
 'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Vlad_the_Perforator_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Vlad_the_Perforator_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/MiniBosses/Vlad_the_Perforator.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/MiniBosses/Vlad_the_Perforator.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Arcade', 
 '');  --!! unavailable !!
 insert into Characters (CardIndex) VALUES (1327);
@@ -15046,7 +15046,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (617, 2085
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Yobuko',
 'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Yobuko_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Yobuko_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/MiniBosses/Yobuko.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/MiniBosses/Yobuko.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Arcade', 
 'Tall, strong, and fierce, Yobuko is also young and inexperienced compared to his Ijin counterparts. This blend of natural ability coupled with an, as yet, unrivaled capacity to fight might be the most frightening aspect about him. His power is already so incredible that he is the rival of many of his masters, and he is also constantly testing his mettle against full-blooded oni twice his size to the amazement of all of his clansmen.');
 insert into Characters (CardIndex) VALUES (1328);
@@ -15092,7 +15092,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (619, 1688
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Daemonus',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Bosses/Card_Arcade_Boss_Daemonus_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Bosses/Card_Arcade_Boss_Daemonus_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Bosses/Daemonus.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Bosses/Daemonus.xhtml', 
 'Boss', '2.0', '2.0 Core Set', 'Arcade', 
 'Built by a doomed gnomish artificer to house a fragment of the Dark Consul''s evil soul, Daemonus serves the Midnight Queen as guardian and champion. The true purpose of this vile clockwork contraption is far more sinister. Through Daemonus, the Dark Consul is able to observe and whisper corruption to the Queen. In this way, he shields her heart from the Light, continuing to use her along the path to darkness.');
 insert into Characters (CardIndex) VALUES (1330);
@@ -15109,7 +15109,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (620, 527)
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Demon Queen Araphel',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Bosses/Card_Arcade_Boss_Demon_Queen_Araphel_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Bosses/Card_Arcade_Boss_Demon_Queen_Araphel_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Bosses/Demon_Queen_Araphel.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Bosses/Demon_Queen_Araphel.xhtml', 
 'Boss', '2.0', '2.0 Core Set', 'Arcade', 
 '');
 insert into Characters (CardIndex) VALUES (1331);
@@ -15131,7 +15131,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (621, 1221
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Destroyer, The',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Bosses/Card_Arcade_Boss_Destroyer_The_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Bosses/Card_Arcade_Boss_Destroyer_The_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Bosses/Destroyer_The.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Bosses/Destroyer_The.xhtml', 
 'Boss', '2.0', '2.0 Core Set', 'Arcade', 
 '');
 insert into Characters (CardIndex) VALUES (1332);
@@ -15152,7 +15152,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (622, 1004
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Elrik The Lich King',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Bosses/Card_Arcade_Boss_Elrik_The_Lich_King_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Bosses/Card_Arcade_Boss_Elrik_The_Lich_King_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Bosses/Elrik_The_Lich_King.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Bosses/Elrik_The_Lich_King.xhtml', 
 'Boss', '2.0', '2.0 Core Set', 'Arcade', 
 'SUFFER, MORTALS!');
 insert into Characters (CardIndex) VALUES (1333);
@@ -15177,7 +15177,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (623, 983)
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Gnomish Excavator',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Bosses/Card_Arcade_Boss_Gnomish_Excavator_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Bosses/Card_Arcade_Boss_Gnomish_Excavator_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Bosses/Gnomish_Excavator.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Bosses/Gnomish_Excavator.xhtml', 
 'Boss', '2.0', '2.0 Core Set', 'Arcade', 
 '');
 insert into Characters (CardIndex) VALUES (1334);
@@ -15199,7 +15199,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (176, 1172
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Guth, The',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Bosses/Card_Arcade_Boss_Guth_The_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Bosses/Card_Arcade_Boss_Guth_The_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Bosses/Guth_The.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Bosses/Guth_The.xhtml', 
 'Boss', '2.0', '2.0 Core Set', 'Arcade', 
 '"After I chop you up, you''ll make a tasty snack!"');
 insert into Characters (CardIndex) VALUES (1335);
@@ -15222,7 +15222,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (625, 1997
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Hoarfang',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Bosses/Card_Arcade_Boss_Hoarfang_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Bosses/Card_Arcade_Boss_Hoarfang_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Bosses/Hoarfang.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Bosses/Hoarfang.xhtml', 
 'Boss', '2.0', '2.0 Core Set', 'Arcade', 
 '');--!! unavailable !!
 insert into Characters (CardIndex) VALUES (1336);
@@ -15247,7 +15247,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (626, 1358
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Jorogumo',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Bosses/Card_Arcade_Boss_Jorogumo_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Bosses/Card_Arcade_Boss_Jorogumo_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Bosses/Jorogumo.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Bosses/Jorogumo.xhtml', 
 'Boss', '2.0', '2.0 Core Set', 'Arcade', 
 '');
 insert into Characters (CardIndex) VALUES (1337);
@@ -15270,7 +15270,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (627, 1095
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Krampus',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Bosses/Card_Arcade_Boss_Krampus_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Bosses/Card_Arcade_Boss_Krampus_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Bosses/Krampus.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Bosses/Krampus.xhtml', 
 'Boss', '2.0', '2.0 Core Set', 'Arcade', 
 '');
 insert into Characters (CardIndex) VALUES (1338);
@@ -15294,7 +15294,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (628, 1320
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Lord Vulcanis',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Bosses/Card_Arcade_Boss_Lord_Vulcanis_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Bosses/Card_Arcade_Boss_Lord_Vulcanis_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Bosses/Lord_Vulcanis.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Bosses/Lord_Vulcanis.xhtml', 
 'Boss', '2.0', '2.0 Core Set', 'Arcade', 
 'The most infamous of all the giants, Lord Vulcanis broods deep beneath the Dragonback Peaks. At his enormous black forge he crafts dark relics for the generals of the Dark Consul''s armies. Into each relic he pours his rage, hate, and loathing for the realm of Light, tempering them for the battles to come.');
 insert into Characters (CardIndex) VALUES (1339);
@@ -15314,7 +15314,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (629, 741)
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Midnight Queen, The',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Bosses/Card_Arcade_Boss_Midnight_Queen_The_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Bosses/Card_Arcade_Boss_Midnight_Queen_The_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Bosses/Midnight_Queen_The.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Bosses/Midnight_Queen_The.xhtml', 
 'Boss', '2.0', '2.0 Core Set', 'Arcade', 
 'The Midnight Queen has risen to prominence as the Dark Consul''s voice and prophet in his time of exile. Known also as the Shadow Consort, Prophecy Breaker, The Demoness, and the Hollow Queen, she is the Dark Consul''s terrible will made manifest. She will see all of Crystalia consumed by darkness.');
 insert into Characters (CardIndex) VALUES (1340);
@@ -15332,7 +15332,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (630, 1449
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Mordred the Accursed',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Bosses/Card_Arcade_Boss_Mordred_the_Accursed_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Bosses/Card_Arcade_Boss_Mordred_the_Accursed_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Bosses/Mordred_the_Accursed.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Bosses/Mordred_the_Accursed.xhtml', 
 'Boss', '2.0', '2.0 Core Set', 'Arcade', 
 'Mordred never speaks when he is in battle. He raises a single finger, pointing at his challenger, and then rides forth to meet them. Ghostflames follow behind him, laughing and yelling as their master doses in.');
 insert into Characters (CardIndex) VALUES (1341);
@@ -15352,7 +15352,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (631, 1749
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Mother Noctua',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Bosses/Card_Arcade_Boss_Mother_Noctua_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Bosses/Card_Arcade_Boss_Mother_Noctua_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Bosses/Mother_Noctua.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Bosses/Mother_Noctua.xhtml', 
 'Boss', '2.0', '2.0 Core Set', 'Arcade', 
 'Hoot! Hoot, hoot! HOOOOOOTTT!!!');
 insert into Characters (CardIndex) VALUES (1342);
@@ -15372,7 +15372,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (632, 1568
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Mugg',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Bosses/Card_Arcade_Boss_Mugg_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Bosses/Card_Arcade_Boss_Mugg_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Bosses/Mugg.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Bosses/Mugg.xhtml', 
 'Boss', '2.0', '2.0 Core Set', 'Arcade', 
 ''); --!! unavailable !!
 insert into Characters (CardIndex) VALUES (1343);
@@ -15390,7 +15390,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (633, 816)
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Nightsong the Eternal',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Bosses/Card_Arcade_Boss_Nightsong_the_Eternal_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Bosses/Card_Arcade_Boss_Nightsong_the_Eternal_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Bosses/Nightsong_the_Eternal.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Bosses/Nightsong_the_Eternal.xhtml', 
 'Boss', '2.0', '2.0 Core Set', 'Arcade', 
 'Once a proud Emerald Dragon, Nightsong''s woodland home was devoured by the formation of the Nether Rifts. Cast into the Dark Realm, he refused to die.');
 insert into Characters (CardIndex) VALUES (1344);
@@ -15413,7 +15413,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (634, 748)
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Onibaba',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Bosses/Card_Arcade_Boss_Onibaba_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Bosses/Card_Arcade_Boss_Onibaba_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Bosses/Onibaba.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Bosses/Onibaba.xhtml', 
 'Boss', '2.0', '2.0 Core Set', 'Arcade', 
 'As a mortal, Onibaba would lure stragglers from battles into her traps, finish them off, and sell their possessions. One night, however, she pulled a finely crafted mask from a dark and terrible samurai, and slipped it on over her face. In that instant, the dark power from within the mask touched the festering rot in her soul and consumed her. Soon the mortal hag was infested by an ageless, devouring horror that has stalked Kagejima''s places of slaughter ever since.');
 insert into Characters (CardIndex) VALUES (1345);
@@ -15434,7 +15434,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (635, 1014
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Onryo',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Bosses/Card_Arcade_Boss_Onryo_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Bosses/Card_Arcade_Boss_Onryo_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Bosses/Onryo.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Bosses/Onryo.xhtml', 
 'Boss', '2.0', '2.0 Core Set', 'Arcade', 
 '"Into the darkness, under the trees. Into the water, follow me please."');
 insert into Characters (CardIndex) VALUES (1346);
@@ -15458,7 +15458,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (636, 1107
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Pauper Prince',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Bosses/Card_Arcade_Boss_Pauper_Prince_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Bosses/Card_Arcade_Boss_Pauper_Prince_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Bosses/Pauper_Prince.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Bosses/Pauper_Prince.xhtml', 
 'Boss', '2.0', '2.0 Core Set', 'Arcade', 
 '"Didn''t you know? All travelers to the Undercove must pay the the Prince''s Due."');
 insert into Characters (CardIndex) VALUES (1347);
@@ -15480,7 +15480,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (637, 2090
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Professor Cackle-Clink',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Bosses/Card_Arcade_Boss_Professor_Cackle_Clink_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Bosses/Card_Arcade_Boss_Professor_Cackle_Clink_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Bosses/Professor_Cackle_Clink.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Bosses/Professor_Cackle_Clink.xhtml', 
 'Boss', '2.0', '2.0 Core Set', 'Arcade', 
 '');
 insert into Characters (CardIndex) VALUES (1348);
@@ -15502,7 +15502,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (638, 1172
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Starfire',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Bosses/Card_Arcade_Boss_Starfire_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Bosses/Card_Arcade_Boss_Starfire_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Bosses/Starfire.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Bosses/Starfire.xhtml', 
 'Boss', '2.0', '2.0 Core Set', 'Arcade', 
 'While dragons are not uncommon in Crystalia, none inspire the terror of Starfire. From his volcanic mountain within the Dragonback Peaks he brings fire and destruction across the length and breadth of the realm. Vast herds are consumed by his appetites and entire treasuries are claimed by his greed.');
 insert into Characters (CardIndex) VALUES (1349);
@@ -15523,7 +15523,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (639, 1807
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Testudo Tower',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Bosses/Card_Arcade_Boss_Testudo_Tower_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Bosses/Card_Arcade_Boss_Testudo_Tower_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Bosses/Testudo_Tower.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Bosses/Testudo_Tower.xhtml', 
 'Boss', '2.0', '2.0 Core Set', 'Arcade', 
 '');
 insert into Characters (CardIndex) VALUES (1350);
@@ -15544,7 +15544,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (640, 826)
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Thresher, The',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Bosses/Card_Arcade_Boss_Thresher_The_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Bosses/Card_Arcade_Boss_Thresher_The_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Bosses/Thresher_The.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Bosses/Thresher_The.xhtml', 
 'Boss', '2.0', '2.0 Core Set', 'Arcade', 
 'Often mistaken for The Great Pumpkin, Threshers are magically imbued constructs of hay, wood, and a burning desire to reap all living things like wheat in the field. With a slow stomping tread, straw and bugs shake out from the creature''s rotten timbers with each step, often giving a nasty case of hay fever to any heroes with allergies nearby.'); 
 insert into Characters (CardIndex) VALUES (1351);
@@ -15565,7 +15565,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (641, 769)
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ugg',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Bosses/Card_Arcade_Boss_Ugg_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Bosses/Card_Arcade_Boss_Ugg_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Bosses/Ugg.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Bosses/Ugg.xhtml', 
 'Boss', '2.0', '2.0 Core Set', 'Arcade', 
 ''); --!! unavailable !!
 insert into Characters (CardIndex) VALUES (1352);
@@ -15586,7 +15586,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (642, 2036
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ymnaur Wintersson',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Bosses/Card_Arcade_Boss_Ymnaur_Wintersson_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Bosses/Card_Arcade_Boss_Ymnaur_Wintersson_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Bosses/Ymnaur_Wintersson.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Bosses/Ymnaur_Wintersson.xhtml', 
 'Boss', '2.0', '2.0 Core Set', 'Arcade', 
 'Unlike most Jotnar, who seek a life of peaceful introspection high upon the Skull White Fastness, Ymnaur''s refuses to accept peace. With the fury of an avalanche, every strike of his frozen axe binds the land in deep frost.');
 insert into Characters (CardIndex) VALUES (1353);
@@ -15610,7 +15610,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (643, 1754
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Arcadian Spider Nest',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Arcadian_Spider_Nest/Card_Arcade_Warband_Arcadian_Spider_Nest_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Arcadian_Spider_Nest/Card_Arcade_Warband_Arcadian_Spider_Nest_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Arcadian_Spider_Nest/Arcadian_Spider_Nest.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Arcadian_Spider_Nest/Arcadian_Spider_Nest.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Arcade', 
 'In the dry and barren lands of Arcadia spiders have been forced to adapt to protect themselves from the harsh climate, as well as their methods when hunting for food.  Lacking natural terrain in which to build webs, Trapdoor Spiders build covered burrows near sources of water, bursting from the ground when prey grows near.  Others, such as the Leaping Spider, rely on pure speed.  Able to outpace even even horses, these speedy spiders are terrifying predators of the dunes.');
 insert into Characters (CardIndex) VALUES (1354);
@@ -15628,7 +15628,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (644, 914)
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Inescapable Swarm',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Arcadian_Spider_Nest/Card_Arcade_Warband_Arcadian_Spider_Nest_Inescapable_Swarm_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Arcadian_Spider_Nest/Card_Arcade_Warband_Arcadian_Spider_Nest_Inescapable_Swarm_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Arcadian_Spider_Nest/Inescapable_Swarm.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Arcadian_Spider_Nest/Inescapable_Swarm.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Arcade', 
 'Duskweavers are an ancient branch of Arcadian Spider Speakers who see spiders as not only fierce creatures to be used in battle, but as pure expressions of the Dark Consul'' malevolent will and intent.  Duskweaver Acolytes are charged with tending to the Dark Consul''s sacred spiders, and proselytizing the unbeliever to their cause.  Of course, there are those who deny the purity and sanctity of the Dark Consul''s chosen.  For those who cannot be swayed, a Duskweaver Acolyte is never far from a nest of Trapdoor Spiders, charged with keeping their temple safe, and free of those who do not see the true way.');
 insert into Characters (CardIndex) VALUES (1355);
@@ -15652,7 +15652,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (646, 1994
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Terrifying Leapers',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Arcadian_Spider_Nest/Card_Arcade_Warband_Arcadian_Spider_Nest_Terrifying_Leapers_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Arcadian_Spider_Nest/Card_Arcade_Warband_Arcadian_Spider_Nest_Terrifying_Leapers_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Arcadian_Spider_Nest/Terrifying_Leapers.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Arcadian_Spider_Nest/Terrifying_Leapers.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Arcade', 
 'Marked in black and sunset orange, Leaping Spiders appear as a blur of fire streaking across the dessert as they hunt.  When they pounce, their black bodies obscure the sun and their legs go wide, catching the sun''s corona like a fiery demon of death.');
 insert into Characters (CardIndex) VALUES (1356);
@@ -15674,7 +15674,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (648, 679)
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Bandit Knight',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Bandit_Knight/Card_Arcade_Warband_Bandit_Knight_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Bandit_Knight/Card_Arcade_Warband_Bandit_Knight_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Bandit_Knight/Bandit_Knight.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Bandit_Knight/Bandit_Knight.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Arcade', 
 'When the Bramble Knights were cursed by their own treasonous lord and turned into chimera, not all were successfully banished to the Lordship Ruins. The Forgotten King had used a select few Bramble Knights as his scouts and assassins. These elite knights led missions deep in the heart of enemy territory, often retreating no inaccessible regions of the Dragonback Peaks.
 
@@ -15694,7 +15694,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (649, 916)
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Barbaric Bandits',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Bandit_Knight/Card_Arcade_Warband_Bandit_Knight_Barbaric_Bandits_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Bandit_Knight/Card_Arcade_Warband_Bandit_Knight_Barbaric_Bandits_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Bandit_Knight/Barbaric_Bandits.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Bandit_Knight/Barbaric_Bandits.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Arcade', 
 'Some Grobbits have escaped to the Dragonback Peaks, seeking shelter in the snaking paths and forgotten caverns found there. Alone and bitter, their minds have begun to change just like their bodies. Over the years their humanity has slipped away, leaving them as beastial and feral within as they are on the outside. Sometimes these twisted creatures will form packs or tribes with Billmen Bandits, robbing weary travelers and adventurers in order to survive.');
 insert into Characters (CardIndex) VALUES (1358);
@@ -15714,7 +15714,7 @@ VALUES (200, 1, 'Billmen Bandit', 'Bonded Chimera', 'Minion', 6, 1, 1, 584);
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Marauding Doom, The',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Bandit_Knight/Card_Arcade_Warband_Bandit_Knight_Marauding_Doom_The_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Bandit_Knight/Card_Arcade_Warband_Bandit_Knight_Marauding_Doom_The_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Bandit_Knight/Marauding_Doom_The.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Bandit_Knight/Marauding_Doom_The.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Arcade', 
 'The Bramble Knight cavalry who aided in the shadow war against the forces of Crystalia became the fearsome Marauder Squawks when their bitter lord cursed all of his forces. Unlike other knights who were bound by chivalry and honor, these marauders were masters of thieving, spying, and dirty fighting tactics.');
 insert into Characters (CardIndex) VALUES (1359);
@@ -15736,7 +15736,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (653, 1019
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ijin Madoushi',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Ijin/Card_Arcade_Warband_Clan_Ijin_Madoushi_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Ijin/Card_Arcade_Warband_Clan_Ijin_Madoushi_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Clan_Ijin/Ijin_Madoushi.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Clan_Ijin/Ijin_Madoushi.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Arcade', 
 'Ijin Madoushi have learned some of the mystical ways of the void witches. They use this power to stir their fellow Ijin into a blood frenzy, calling them to battle.');
 insert into Characters (CardIndex) VALUES (1360);
@@ -15756,7 +15756,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (654, 814)
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ijin Crush of Ijin A',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Ijin/Card_Arcade_Warband_Clan_Ijin_Ijin_Crush_of_Ijin_A_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Ijin/Card_Arcade_Warband_Clan_Ijin_Ijin_Crush_of_Ijin_A_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Clan_Ijin/Ijin_Crush_of_Ijin_A.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Clan_Ijin/Ijin_Crush_of_Ijin_A.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Arcade', 
 'The void witches of the Ijin have bartered an unusual peace with the mighty oni that roam their lands. These oni are fearsome, brutal, and often wield mighty clubs in battle. They are ferocious allies for clan Ijin, and in many ways the Ijin share more similarities with these monstrous oni than they do the other clans. These similarities make the kaiken of Clan Ijin the perfect warriors to accompany the oni into battle.');
 insert into Characters (CardIndex) VALUES (1361);
@@ -15778,7 +15778,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (656, 1493
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ijin Hunting Party',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Ijin/Card_Arcade_Warband_Clan_Ijin_Ijin_Hunting_Party_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Ijin/Card_Arcade_Warband_Clan_Ijin_Ijin_Hunting_Party_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Clan_Ijin/Ijin_Hunting_Party.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Clan_Ijin/Ijin_Hunting_Party.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Arcade', 
 'The life of an Ijin is hard, brutal, and unforgiving. Often, Ijin warriors suffer crippling injuries that would relegate a member of any other clan to a life of bed-rest, or at least humble farming. When Ijin face such difficulties, they pick up a crossbow and join the ranks of the yajiri. These hardened and wizened veterans engage the enemy at range, stubbornly refusing to give up the fight, or leave it to younger warriors. The cunning kunoichi are often the only Ijin open to listening to the wisdom of these aging warriors.');
 insert into Characters (CardIndex) VALUES (1362);
@@ -15801,7 +15801,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (658, 833)
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ika Madoushi',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Ika/Card_Arcade_Warband_Clan_Ika_Madoushi_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Ika/Card_Arcade_Warband_Clan_Ika_Madoushi_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Clan_Ika/Ika_Madoushi.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Clan_Ika/Ika_Madoushi.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Arcade', 
 '');
 insert into Characters (CardIndex) VALUES (1363);
@@ -15822,7 +15822,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (659, 1166
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Krakens Jaws, The',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Ika/Card_Arcade_Warband_Clan_Ika_Krakens_Jaws_The_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Ika/Card_Arcade_Warband_Clan_Ika_Krakens_Jaws_The_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Clan_Ika/Krakens_Jaws_The.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Clan_Ika/Krakens_Jaws_The.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Arcade', 
 '');
 insert into Characters (CardIndex) VALUES (1364);
@@ -15848,7 +15848,7 @@ VALUES (206, 2, 'Ika Kaiken', 'Bonded Ika', 'Minion', 6, 1, 1, 593);
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ika Oni',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Ika/Card_Arcade_Warband_Clan_Ika_Oni_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Ika/Card_Arcade_Warband_Clan_Ika_Oni_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Clan_Ika/Ika_Oni.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Clan_Ika/Ika_Oni.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Arcade', 
 '');
 insert into Characters (CardIndex) VALUES (1365);
@@ -15870,7 +15870,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (663, 1108
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Kitsune Madoushi',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Kitsune/Card_Arcade_Warband_Clan_Kitsune_Madoushi_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Kitsune/Card_Arcade_Warband_Clan_Kitsune_Madoushi_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Clan_Kitsune/Kitsune_Madoushi.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Clan_Kitsune/Kitsune_Madoushi.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Arcade', 
 '');
 insert into Characters (CardIndex) VALUES (1366);
@@ -15889,7 +15889,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (664, 906)
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Claws of Kitsune',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Kitsune/Card_Arcade_Warband_Clan_Kitsune_Claws_of_Kitsune_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Kitsune/Card_Arcade_Warband_Clan_Kitsune_Claws_of_Kitsune_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Clan_Kitsune/Claws_of_Kitsune.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Clan_Kitsune/Claws_of_Kitsune.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Arcade', 
 'Kaiken are the backbone of the Kitsune forces that tend to secret paths and hidden villages of the Kitsune. When situations are dire, they call upon the Kitsune Oni. The Oni of the Kitsune are the physical manifestations of the forest kami themselves. They take on the monstrous, fox-like shape that belies their mischievous and fickle nature and fight alongside the Kitsune clan during times of great strife...or simply when they feel like it. In battle they are ferocious, cutting down any who dare to tread too far into their forests without permission.');
 insert into Characters (CardIndex) VALUES (1367);
@@ -15910,7 +15910,7 @@ VALUES (209, 1, 'Kitsune Kaiken', 'Bonded Kitsune', 'Minion', 6, 1, 1, 598);
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Kitsune Shuriken Storm',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Kitsune/Card_Arcade_Warband_Clan_Kitsune_Kitsune_Shuriken_Storm_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Kitsune/Card_Arcade_Warband_Clan_Kitsune_Kitsune_Shuriken_Storm_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Clan_Kitsune/Kitsune_Shuriken_Storm.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Clan_Kitsune/Kitsune_Shuriken_Storm.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Arcade', 
 'The Kitsune Yajiri strike from the shadows of their twisted forests. Unwanted travelers will be pelted with darts, only to find that the Yajiri have vanished back into the depths of the wood. This tactic is not just used in order to allow the Yajiri escape, but to lure the trespassers deeper into the wood, where they will surely become lost and perish either due to the elements or the whims of a vengeful kami. The Kitsune territory is not a place for those who do not know its paths and secrets well, and the Yajiri use the landscape to its fullest effect. The Yijiri are often led by Kunoichi, who have mastered the ways of both Kaiken and Yijiri.');
 insert into Characters (CardIndex) VALUES (1368);
@@ -15931,7 +15931,7 @@ VALUES (210, 1, 'Kitsune Yajiri', 'Bonded Kitsune', 'Minion', 6, 1, 0, 601);
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Sohei Madoushi',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Sohei/Card_Arcade_Warband_Clan_Sohei_Madoushi_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Sohei/Card_Arcade_Warband_Clan_Sohei_Madoushi_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Clan_Sohei/Sohei_Madoushi.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Clan_Sohei/Sohei_Madoushi.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Arcade', 
 'The Sohei Madoushi have been granted visions of the realms across the ocean, and witnessed the taint of the Dark Consul upon those lands.  Fearing that Kagejima will become overrun, they have adopted a zero tolerance policy in regards to "Heroes" from other realms.');
 insert into Characters (CardIndex) VALUES (1369);
@@ -15950,7 +15950,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (669, 915)
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Blades of the Sohei',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Sohei/Card_Arcade_Warband_Blades_of_the_Sohei_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Sohei/Card_Arcade_Warband_Blades_of_the_Sohei_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Clan_Sohei/Blades_of_the_Sohei.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Clan_Sohei/Blades_of_the_Sohei.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Arcade', 
 'Working in perfect harmony, Blades of the Sohei turn back the darkness and return the land to Ameratsu''s grace.');
 insert into Characters (CardIndex) VALUES (1370);
@@ -15972,7 +15972,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (671, 556)
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Sohei Yajiri',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Sohei/Card_Arcade_Warband_Clan_Sohei_Yajiri_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Sohei/Card_Arcade_Warband_Clan_Sohei_Yajiri_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Clan_Sohei/Sohei_Yajiri.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Clan_Sohei/Sohei_Yajiri.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Arcade', 
 'Sohei Yajiri are less experienced kohai who have only begun their journey along the ascetic paths of the Ikko, suporting the clan with disciplined bow fire.');
 insert into Characters (CardIndex) VALUES (1371);
@@ -15990,7 +15990,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (672, 755)
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Elemental Shrine',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Spirit_Shrine/Card_Arcade_Warband_Clan_Spirit_Shrine_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Spirit_Shrine/Card_Arcade_Warband_Clan_Spriti_Shrine_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Clan_Spirit_Shrine/Elemental_Shrine.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Clan_Spirit_Shrine/Elemental_Shrine.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Arcade', 
 '');
 insert into Characters (CardIndex) VALUES (1372);
@@ -16009,7 +16009,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (673, 1010
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Mystic Team',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Spirit_Shrine/Card_Arcade_Warband_Clan_Spirit_Shrine_Mystic_Team_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Spirit_Shrine/Card_Arcade_Warband_Clan_Spirit_Shrine_Mystic_Team_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Clan_Spirit_Shrine/Mystic_Team.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Clan_Spirit_Shrine/Mystic_Team.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Arcade', 
 '');
 insert into Characters (CardIndex) VALUES (1373);
@@ -16039,7 +16039,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (676, 1010
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Scout Team',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Spirit_Shrine/Card_Arcade_Warband_Clan_Spirit_Shrine_Scout_Team_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Spirit_Shrine/Card_Arcade_Warband_Clan_Spirit_Shrine_Scout_Team_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Clan_Spirit_Shrine/Scout_Team.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Clan_Spirit_Shrine/Scout_Team.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Arcade', 
 '');
 insert into Characters (CardIndex) VALUES (1374);
@@ -16064,7 +16064,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (678, 2092
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Strike Team',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Spirit_Shrine/Card_Arcade_Warband_Clan_Spirit_Shrine_Strike_Team_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Spirit_Shrine/Card_Arcade_Warband_Clan_Spirit_Shrine_Strike_Team_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Clan_Spirit_Shrine/Strike_Team.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Clan_Spirit_Shrine/Strike_Team.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Arcade', 
 '');
 insert into Characters (CardIndex) VALUES (1375);
@@ -16097,7 +16097,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (681, 1010
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Tanchyo Madoushi',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Tanchyo/Card_Arcade_Warband_Clan_Tanchyo_Madoushi_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Tanchyo/Card_Arcade_Warband_Clan_Tanchyo_Madoushi_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Clan_Tanchyo/Tanchyo_Madoushi.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Clan_Tanchyo/Tanchyo_Madoushi.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Arcade', 
 '');
 insert into Characters (CardIndex) VALUES (1376);
@@ -16116,7 +16116,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (682, 1565
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Arrows and Blades',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Tanchyo/Card_Arcade_Warband_Clan_Tanchyo_Arrows_and_Blades_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Tanchyo/Card_Arcade_Warband_Clan_Tanchyo_Arrows_and_Blades_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Clan_Tanchyo/Arrows_and_Blades.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Clan_Tanchyo/Arrows_and_Blades.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Arcade', 
 'Clan Tanchyo form incredibly close-knit family ties. The loss of a member is an accute pain, and vengeance is always swift and decisive. The Kunoichi are those who have lost a family member in combat and vowed to seek vengeance. They have dedicated themselves to the art of war, so that no other Tanchyo family has to know their pain. Kunoichi are frequently accompanied by archers, Yajiri, the most common of clan Tanchyo warriors.');
 insert into Characters (CardIndex) VALUES (1377);
@@ -16137,7 +16137,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (684, 855)
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Tanchyo Kaiken',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Tanchyo/Card_Arcade_Warband_Clan_Tanchyo_Tanchyo_Kaiken_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Tanchyo/Card_Arcade_Warband_Clan_Tanchyo_Tanchyo_Kaiken_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Clan_Tanchyo/Tanchyo_Keiken.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Clan_Tanchyo/Tanchyo_Keiken.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Arcade', 
 'For the Tanchyo, close-quarters fighting is rare. They live their lives among tree branches and rain arrows down on any who threaten their homes. But there are times that a blade is necessary. In such times, the Tanchyo call upon their Kaiken. Where other clans have swordsmen as the bulk of their forces, Tanchyo Kaiken are rare and highly trained. They are only called upon in the most dire of circumstances.');
 insert into Characters (CardIndex) VALUES (1378);
@@ -16154,7 +16154,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (685, 1663
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Tanchyo Oni',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Tanchyo/Card_Arcade_Warband_Clan_Tanchyo_Tanchyo_Oni_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Tanchyo/Card_Arcade_Warband_Clan_Tanchyo_Tanchyo_Oni_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Clan_Tanchyo/Tanchyo_Oni.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Clan_Tanchyo/Tanchyo_Oni.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Arcade', 
 'Tanchyo Oni are the physical incarnations of the kami that stalk the dense forests that the Tanchyo call home. They take the form of massive birds of prey, and they hold commmand over air, creating furious cyclones that can sweep their opponents from the trees they call home. Tanchyo Oni are particularly fearsome, and they are only called upon by the clan in the most dire and desperate of circumstances.');
 insert into Characters (CardIndex) VALUES (1379);
@@ -16174,7 +16174,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (686, 1258
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Tora Madoushi',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Tora/Card_Arcade_Warband_Clan_Tora_Madoushi_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Tora/Card_Arcade_Warband_Clan_Tora_Madoushi_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Clan_Tora/Tora_Madoushi.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Clan_Tora/Tora_Madoushi.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Arcade', 
 '');
 insert into Characters (CardIndex) VALUES (1380);
@@ -16193,7 +16193,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (687, 1580
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Gunpowder Gala',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Tora/Card_Arcade_Warband_Clan_Tora_Gunpowder_Gala_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Tora/Card_Arcade_Warband_Clan_Tora_Gunpowder_Gala_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Clan_Tora/Gunpowder_Gala.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Clan_Tora/Gunpowder_Gala.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Arcade', 
 '');
 insert into Characters (CardIndex) VALUES (1381);
@@ -16214,7 +16214,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (689, 1010
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Triumphant Tora',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Tora/Card_Arcade_Warband_Clan_Tora_Triumphant_Tora_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Tora/Card_Arcade_Warband_Clan_Tora_Triumphant_Tora_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Clan_Tora/Triumphant_Tora.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Clan_Tora/Triumphant_Tora.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Arcade', 
 '');
 insert into Characters (CardIndex) VALUES (1382);
@@ -16239,7 +16239,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (691, 1580
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Elemental Shrine',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Void_Shrine/Card_Arcade_Warband_Clan_Void_Shrine_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Void_Shrine/Card_Arcade_Warband_Clan_Void_Shrine_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Clan_Void_Shrine/Elemental_Shrine.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Clan_Void_Shrine/Elemental_Shrine.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Arcade', 
 '');
 insert into Characters (CardIndex) VALUES (1383);
@@ -16258,7 +16258,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (692, 1010
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Mystic Team',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Void_Shrine/Card_Arcade_Warband_Clan_Void_Shrine_Mystic_Team_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Void_Shrine/Card_Arcade_Warband_Clan_Void_Shrine_Mystic_Team_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Clan_Void_Shrine/Mystic_Team.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Clan_Void_Shrine/Mystic_Team.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Arcade', 
 '');
 insert into Characters (CardIndex) VALUES (1384);
@@ -16288,7 +16288,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (695, 1010
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Scout Team',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Void_Shrine/Card_Arcade_Warband_Clan_Void_Shrine_Scout_Team_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Void_Shrine/Card_Arcade_Warband_Clan_Void_Shrine_Scout_Team_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Clan_Void_Shrine/Scout_Team.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Clan_Void_Shrine/Scout_Team.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Arcade', 
 '');
 insert into Characters (CardIndex) VALUES (1385);
@@ -16313,7 +16313,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (697, 2092
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Strike Team',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Void_Shrine/Card_Arcade_Warband_Clan_Void_Shrine_Strike_Team_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Void_Shrine/Card_Arcade_Warband_Clan_Void_Shrine_Strike_Team_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Clan_Void_Shrine/Strike_Team.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Clan_Void_Shrine/Strike_Team.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Arcade', 
 '');
 insert into Characters (CardIndex) VALUES (1386);
@@ -16346,7 +16346,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (700, 1010
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Elemental Shrine',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Water_Shrine/Card_Arcade_Warband_Clan_Water_Shrine_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Water_Shrine/Card_Arcade_Warband_Clan_Spriti_Water_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Clan_Water_Shrine/Elemental_Shrine.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Clan_Water_Shrine/Elemental_Shrine.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Arcade', 
 '');
 insert into Characters (CardIndex) VALUES (1387);
@@ -16365,7 +16365,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (701, 1010
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Mystic Team',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Water_Shrine/Card_Arcade_Warband_Clan_Water_Shrine_Mystic_Team_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Water_Shrine/Card_Arcade_Warband_Clan_Water_Shrine_Mystic_Team_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Clan_Water_Shrine/Mystic_Team.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Clan_Water_Shrine/Mystic_Team.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Arcade', 
 '');
 insert into Characters (CardIndex) VALUES (1388);
@@ -16395,7 +16395,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (704, 1010
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Tanchyo Kaiken',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Water_Shrine/Card_Arcade_Warband_Clan_Water_Shrine_Scout_Team_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Water_Shrine/Card_Arcade_Warband_Clan_Water_Shrine_Scout_Team_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Clan_Water_Shrine/Scout_Team.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Clan_Water_Shrine/Scout_Team.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Arcade', 
 '');
 insert into Characters (CardIndex) VALUES (1389);
@@ -16420,7 +16420,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (706, 2092
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Tanchyo Oni',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Water_Shrine/Card_Arcade_Warband_Clan_Water_Shrine_Strike_Team_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Water_Shrine/Card_Arcade_Warband_Clan_Water_Shrine_Strike_Team_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Clan_Water_Shrine/Strike_Team.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Clan_Water_Shrine/Strike_Team.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Arcade', 
 '');
 insert into Characters (CardIndex) VALUES (1390);
@@ -16453,7 +16453,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (709, 1010
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Yamazaru Madoushi',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Yamazaru/Card_Arcade_Warband_Clan_Yamazaru_Madoushi_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Yamazaru/Card_Arcade_Warband_Clan_Yamazaru_Madoushi_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Clan_Yamazaru/Yamazaru_Madoushi.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Clan_Yamazaru/Yamazaru_Madoushi.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Arcade', 
 '');
 insert into Characters (CardIndex) VALUES (1391);
@@ -16473,7 +16473,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (710, 1437
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Yamazaru Madoushi (beta)',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Yamazaru/Card_Arcade_Warband_Clan_Yamazaru_Madoushi_beta_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Yamazaru/Card_Arcade_Warband_Clan_Yamazaru_Madoushi_beta_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Clan_Yamazaru/Yamazaru_Madoushi_beta.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Clan_Yamazaru/Yamazaru_Madoushi_beta.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Arcade', 
 '');
 insert into Characters (CardIndex) VALUES (1392);
@@ -16493,7 +16493,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (711, 1437
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Monkey Mischief',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Yamazaru/Card_Arcade_Warband_Clan_Yamazaru_Monkey_Mischief_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Yamazaru/Card_Arcade_Warband_Clan_Yamazaru_Monkey_Mischief_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Clan_Yamazaru/Monkey_Mischief.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Clan_Yamazaru/Monkey_Mischief.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Arcade', 
 'While the Yamazaru value stoicism and hard-edged practicality as survival traits, they see the harsh cold of their mountain homes as good reason to be warm and open in their lives. The weather often limits travel, forcing clan members to live closely with others. They gleefully play pranks, engaging in "wars of smiles" with neighboring villages. This gives the Yamazaru kaiken who fight side by side a warm bond rarely seen in the other clans. These kaiken are quick to listen to the deadly kunoichi who often lead them into battle.');
 insert into Characters (CardIndex) VALUES (1393);
@@ -16514,7 +16514,7 @@ VALUES (235, 1, 'Yamazaru Kaiken', 'Bonded Yamazaru', 'Minion', 7, 1, 0, 635);
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Monkey Mischief (beta)',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Yamazaru/Card_Arcade_Warband_Clan_Yamazaru_Monkey_Mischief_beta_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Yamazaru/Card_Arcade_Warband_Clan_Yamazaru_Monkey_Mischief_beta_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Clan_Yamazaru/Monkey_Mischief_beta.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Clan_Yamazaru/Monkey_Mischief_beta.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Arcade', 
 'While the Yamazaru value stoicism and hard-edged practicality as survival traits, they see the harsh cold of their mountain homes as good reason to be warm and open in their lives. The weather often limits travel, forcing clan members to live closely with others. They gleefully play pranks, engaging in "wars of smiles" with neighboring villages. This gives the Yamazaru kaiken who fight side by side a warm bond rarely seen in the other clans. These kaiken are quick to listen to the deadly kunoichi who often lead them into battle.');
 insert into Characters (CardIndex) VALUES (1394);
@@ -16535,7 +16535,7 @@ VALUES (236, 1, 'Yamazaru Kaiken', 'Bonded Yamazaru', 'Minion', 7, 1, 0, 635);
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Yamazaru Oni',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Yamazaru/Card_Arcade_Warband_Clan_Yamazaru_Oni_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Yamazaru/Card_Arcade_Warband_Clan_Yamazaru_Oni_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Clan_Yamazaru/Yamazaru_Oni.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Clan_Yamazaru/Yamazaru_Oni.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Arcade', 
 'The Yamazaru have rich spiritual lives which has granted them an intimate connection with their mountain home and the creatures that dwell there. The mighty monkey oni are fierce companions of the Yamazaru, defending them in times of danger and playfully playing tricks on them during times of peace.');
 insert into Characters (CardIndex) VALUES (1395);
@@ -16554,7 +16554,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (716, 2029
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Yamazaru Oni (beta)',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Yamazaru/Card_Arcade_Warband_Clan_Yamazaru_Oni_beta_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Yamazaru/Card_Arcade_Warband_Clan_Yamazaru_Oni_beta_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Clan_Yamazaru/Yamazaru_Oni_beta.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Clan_Yamazaru/Yamazaru_Oni_beta.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Arcade', 
 'The Yamazaru have rich spiritual lives which has granted them an intimate connection with their mountain home and the creatures that dwell there. The mighty monkey oni are fierce companions of the Yamazaru, defending them in times of danger and playfully playing tricks on them during times of peace.');
 insert into Characters (CardIndex) VALUES (1396);
@@ -16573,7 +16573,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (717, 2029
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Yamazaru Yajiri',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Yamazaru/Card_Arcade_Warband_Clan_Yamazaru_Yajiri_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Yamazaru/Card_Arcade_Warband_Clan_Yamazaru_Yajiri_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Clan_Yamazaru/Yamazaru_Yajiri.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Clan_Yamazaru/Yamazaru_Yajiri.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Arcade', 
 'Yamazaru yajiri are expert marxmen, often hunting in blinding snow and among rocky mountain peaks. They brave the harh, freezing conditions with a smile, bringing back game to be shared by their household. During times of strife they are called to action, where their skill with a bow is highly valued.');
 insert into Characters (CardIndex) VALUES (1397);
@@ -16592,7 +16592,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (718, 1439
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Yamazaru Yajiri (beta)',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Yamazaru/Card_Arcade_Warband_Clan_Yamazaru_Yajiri_beta_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Yamazaru/Card_Arcade_Warband_Clan_Yamazaru_Yajiri_beta_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Clan_Yamazaru/Yamazaru_Yajiri_beta.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Clan_Yamazaru/Yamazaru_Yajiri_beta.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Arcade', 
 'Yamazaru yajiri are expert marxmen, often hunting in blinding snow and among rocky mountain peaks. They brave the harh, freezing conditions with a smile, bringing back game to be shared by their household. During times of strife they are called to action, where their skill with a bow is highly valued.');
 insert into Characters (CardIndex) VALUES (1398);
@@ -16613,7 +16613,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (719, 1439
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Yurei Madoushi',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Yurei/Card_Arcade_Warband_Clan_Yurei_Madoushi_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Yurei/Card_Arcade_Warband_Clan_Yurei_Madoushi_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Clan_Yurei/Yurei_Madoushi.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Clan_Yurei/Yurei_Madoushi.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Arcade', 
 'It was the Yurei''s Madoushi that consigned their lords to their fate of undeath. Knowing that they would be able to fight on, even in death, they can serve their Lord and regain the honor of their clan.');
 insert into Characters (CardIndex) VALUES (1399);
@@ -16633,7 +16633,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (720, 1714
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ghost Ship',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Yurei/Card_Arcade_Warband_Clan_Yurei_Ghost_Ship_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Yurei/Card_Arcade_Warband_Clan_Yurei_Ghost_Ship_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Clan_Yurei/Ghost Ship.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Clan_Yurei/Ghost Ship.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Arcade', 
 'Far ranging from the dread fleets, coastline scouts of the Ika often warn of floating jetsam. Bodies entangled in the nets and old wood might just be agents of the Yurei lying in wait to drag more of their sworn enemy into the watery depths.'); 
 insert into Characters (CardIndex) VALUES (1400);
@@ -16655,7 +16655,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (722, 562)
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Spirit Archers',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Yurei/Card_Arcade_Warband_Clan_Yurei_Spirit_Archers_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Yurei/Card_Arcade_Warband_Clan_Yurei_Spirit_Archers_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Clan_Yurei/Spirit_Archers.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Clan_Yurei/Spirit_Archers.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Arcade', 
 'Vengeance guide my black arrows, pierce the hearts of the warm and the living, bring me the victory over my enemies stolen from me in life. - unknown Yurei Yajiri');
 insert into Characters (CardIndex) VALUES (1401);
@@ -16681,7 +16681,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (724, 1333
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Cold Eggs',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Cold_Eggs/Card_Arcade_Warband_Cold_Eggs_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Cold_Eggs/Card_Arcade_Warband_Cold_Eggs_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Cold_Eggs/Cold_Eggs.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Cold_Eggs/Cold_Eggs.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Arcade', 
 'The drakes of the Frostbyte Reach plague the frozen caverns, ruins, and forests of that frigid land. Utterly in the thrall of the Sapphire Dragon, Hoarfang, the drakes share his mercurial behavior. Many dwarven holds have even "tamed" clutches of drakes to serve as companions and hunting beasts. However, they must always be on guard for it is not uncommon for a clutch of drakes to suddenly turn upon their allies should the mood strike them.');
 insert into Characters (CardIndex) VALUES (1402);
@@ -16699,7 +16699,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (725, 930)
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Hoarfang''s Brood',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Cold_Eggs/Card_Arcade_Warband_Cold_Eggs_Hoarfangs_Brood_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Cold_Eggs/Card_Arcade_Warband_Cold_Eggs_Hoarfangs_Brood_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Cold_Eggs/Hoarfangs_Brood.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Cold_Eggs/Hoarfangs_Brood.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Arcade', 
 'The drakes of Frostbyte Reach are desperate and savage creatures, fighting for what little food can be found where they dwell. During particularly bitter ice storms, they will huddle together in caves or crevices, and woe betide any hero who seeks shelter there as well.');
 insert into Characters (CardIndex) VALUES (1403);
@@ -16727,7 +16727,7 @@ VALUES (245, 2, 'Hatchlings', 'Bonded Drake', 'Minion', 6, 2, 1, 644);
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Corrupted Harvest',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Corrupted_Harvest/Card_Arcade_Warband_Corrupted_Harvest_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Corrupted_Harvest/Card_Arcade_Warband_Corrupted_Harvest_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Corrupted_Harvest/Corrupted_Harvest.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Corrupted_Harvest/Corrupted_Harvest.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Arcade', 
 'While most villagers are justifiably a superstitious bunch. It does not help when agents of the Dark Consul make their way into the farmlands to wreak chaos and havoc. Many of the rural denizens have become "fed-up" with their field''s strawmen jumping down from their stilts to terrorize the locals.');
 insert into Characters (CardIndex) VALUES (1404);
@@ -16746,7 +16746,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (729, 932)
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Out of the Cornfield',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Corrupted_Harvest/Card_Arcade_Warband_Corrupted_Harvest_Out_of_the_Cornfield_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Corrupted_Harvest/Card_Arcade_Warband_Corrupted_Harvest_Out_of_the_Cornfield_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Corrupted_Harvest/Out_of_the_Cornfield.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Corrupted_Harvest/Out_of_the_Cornfield.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Arcade', 
 '"Though roughly stitched together from hay and clothes out on a drying line, this creature''s only defining feature is a limp gait, a rusty cleaver, and a sodden bag full of meal worms and hay where it''s face should be. Fire seems to do the trick, but they will quickly lurch back into the fields while they burn up, along with the crops. Evil buggers" Watchman Hayseed, Crystalian Militia.');
 insert into Characters (CardIndex) VALUES (1405);
@@ -16771,7 +16771,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (731, 595)
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Reap The Harvest',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Corrupted_Harvest/Card_Arcade_Warband_Corrupted_Harvest_Reap_the_Harvest_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Corrupted_Harvest/Card_Arcade_Warband_Corrupted_Harvest_Reap_the_Harvest_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Corrupted_Harvest/Reap_the_Harvest.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Corrupted_Harvest/Reap_the_Harvest.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Arcade', 
 'Stumbling along behind the Goons, the Harvest Sacks use their long pitch forks to haul off the fallen and wounded to stitch together new friends! Gotta make hay while the moon still shines!'); 
 insert into Characters (CardIndex) VALUES (1406);
@@ -16799,7 +16799,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (733, 1546
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Cursed Barrow',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Cursed_Barrow/Card_Arcade_Warband_Cursed_Barrow_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Cursed_Barrow/Card_Arcade_Warband_Cursed_Barrow_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Cursed_Barrow/Cursed_Barrow.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Cursed_Barrow/Cursed_Barrow.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Arcade', 
 'When Elrik doomed his Reavers to the curse of undeath, he ordered the construction of a grand and macabre hall, to house him and his new warriors, deep beneath the Frostbyte Reach. Resembling a tomb more than a palace or castle, the Hall of the Lich King sprawls for untold miles beneath the surface. The only sign of the Hall upon the surface are the burial mounds of the cursed barrows. Here, Elrik''s cursed draugr warriors take rest, ever alert for trespassing Heroes.');
 insert into Characters (CardIndex) VALUES (1407);
@@ -16816,7 +16816,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (734, 934)
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Draugr Berserker',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Cursed_Barrow/Card_Arcade_Warband_Cursed_Barrow_Draugr_Berserker_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Cursed_Barrow/Card_Arcade_Warband_Cursed_Barrow_Draugr_Berserker_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Cursed_Barrow/Draugr_Berserker.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Cursed_Barrow/Draugr_Berserker.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Arcade', 
 'Draugr are not shambling, unthinking undead. Within each draugr lies the soul of a Reaver--a fierce, proud, and violent warrior, millennia old. In the fiercest combat the soul of a draugr can be unlocked, restoring it to its full violent fury. Blessed with the ability to feel, smell, and taste the draugr becomes a raging berserker determined to find release in one last glorious battle.');
 insert into Characters (CardIndex) VALUES (1408);
@@ -16834,7 +16834,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (735, 1007
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Cursed Barrow Errata',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Cursed_Barrow/Card_Arcade_Warband_Cursed_Barrow_Errata_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Cursed_Barrow/Card_Arcade_Warband_Cursed_Barrow_Errata_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Cursed_Barrow/Cursed_Barrow_Errata.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Cursed_Barrow/Cursed_Barrow_Errata.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Arcade', 
 'When Elrik doomed his Reavers to the curse of undeath, he ordered the construction of a grand and macabre hall, to house him and his new warriors, deep beneath the Frostbyte Reach. Resembling a tomb more than a palace or castle, the Hall of the Lich King sprawls for untold miles beneath the surface. The only sign of the Hall upon the surface are the burial mounds of the cursed barrows. Here, Elrik''s cursed draugr warriors take rest, ever alert for trespassing Heroes.');
 insert into Characters (CardIndex) VALUES (1409);
@@ -16851,7 +16851,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (736, 935)
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Order Of The Black Hand',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Cursed_Barrow/Card_Arcade_Warband_Cursed_Barrow_Order_Of_The_Black_Hand_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Cursed_Barrow/Card_Arcade_Warband_Corrupted_Harvest_Order_Of_The_Black_Hand_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Cursed_Barrow/Order_Of_The_Black_Hand.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Cursed_Barrow/Order_Of_The_Black_Hand.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Arcade', 
 'Warriors brave. Reavers true. Walk ye dead. Ye curse''ed few.');
 insert into Characters (CardIndex) VALUES (1410);
@@ -16873,7 +16873,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (738, 792)
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Cursed Hollow',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Cursed_Hollow/Card_Arcade_Warband_Cursed_Hollow_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Cursed_Hollow/Card_Arcade_Warband_Cursed_Hollow_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Cursed_Hollow/Cursed_Hollow.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Cursed_Hollow/Cursed_Hollow.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Arcade', 
 'Kodama are inherently fickle, and they are often prone to influence. Many Kodama who dwell at the edge of the Fae Wood, where it meets the Glauerdoom Moor, have fallen under the sway of Nightsong the Eternal. They delight in spreading corruption, blighting crops, and plaguing the living.<br><br>Many of these Kodama have even begun to take on aspects of the undead. Their bodies are often composed of wilting leaves, blackened vines, and twisting branches. And they will stop at nothing to heed the call of their Lord.');
 insert into Characters (CardIndex) VALUES (1411);
@@ -16890,7 +16890,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (739, 940)
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Gloom Wisps',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Cursed_Hollow/Card_Arcade_Warband_Cursed_Hollow_Gloom_Wisps_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Cursed_Hollow/Card_Arcade_Warband_Cursed_Hollow_Gloom_Wisps_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Cursed_Hollow/Gloom_Wisps.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Cursed_Hollow/Gloom_Wisps.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Arcade', 
 'Wisps are shy, but have a reputation for leading travelers to safety and shelter. Those Wisps who have become corrupted by Nightsong the Eternal still lead travelers, laughing and chirping, creating the illusion of comfort. But the longer the weary traveler stays in the company of the Wisp, the more they sink into a dark despair, until they simply lay down in the blighted moor. Unable to bring themselves to seek shelter or food, these travelers wither away as the wisp laughs and plays.');
 insert into Characters (CardIndex) VALUES (1412);
@@ -16912,7 +16912,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (741, 1208
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Rotten Seeds',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Cursed_Hollow/Card_Arcade_Warband_Cursed_Hollow_Rotten Seeds_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Cursed_Hollow/Card_Arcade_Warband_Cursed_Hollow_Rotten Seeds_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Cursed_Hollow/Rotten Seeds.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Cursed_Hollow/Rotten Seeds.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Arcade', 
 'Each spring the Deeproot Tree breathes life into countless sprouts. They travel Crystalia, settling down and blooming new life throughout the land. Most sprouts take root in fertile territory, where they can reach their full potential. But some find themselves deep in the Glauerdoom Moor. Even so, a sprout will sometimes take root in the oppressive, swampy waters and create a beacon of life and hope in that desperate and forgotten place. But all too often the sprout will be corrupted by the foul things that lurk in the moor. Often these seeds are planted and cultivated by Rotten Cabbages who want to see another servant for their lord, Nightsong the Eternal.');
 insert into Characters (CardIndex) VALUES (1413);
@@ -16934,7 +16934,7 @@ VALUES (255, 0, 'Rotten Cabbage', 'Undead Kodama', 'Elite', 6, 1, 1, 659);
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Spoiled Turnips',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Cursed_Hollow/Card_Arcade_Warband_Cursed_Hollow_Spoiled_Turnips_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Cursed_Hollow/Card_Arcade_Warband_Cursed_Hollow_Spoiled_Turnips_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Cursed_Hollow/Spoiled_Turnips.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Cursed_Hollow/Spoiled_Turnips.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Arcade', 
 'Turnipheads are normally difficult to sway, devoting themselves to healing sick plants. However, those that do become corrupted are consumed completely, becoming devoted to spreading blight and plague to the living. They forsake their ability to heal, instead reveling in the decay that reflects the visage of the undead lord.');
 insert into Characters (CardIndex) VALUES (1414);
@@ -16956,7 +16956,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (745, 774)
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Vengeful Compost',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Cursed_Hollow/Card_Arcade_Warband_Cursed_Hollow_Vengeful_Compost_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Cursed_Hollow/Card_Arcade_Warband_Cursed_Hollow_Vengeful_Compost_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Cursed_Hollow/Vengeful_Compost.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Cursed_Hollow/Vengeful_Compost.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Arcade', 
 'Those sprouts who become corrupted by the Glauerdoom Moor and the Rotten Cabbages who dwell there acquire certain tastes. The land is not fertile enough to support the rapid and grotesque growth that the plant undergoes, so it develops twisted,, lashing vines that are used to draw victims to it in order to feed on their blood. This thirst cannot be quenched, and the more the more it drinks, the more it grows...');
 insert into Characters (CardIndex) VALUES (1415);
@@ -16981,7 +16981,7 @@ VALUES (257, 1, 'Rotten Cabbage', 'Undead Kodama', 'Minion', 6, 1, 1, 659);
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Cursed Knight',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Cursed_Knight/Card_Arcade_Warband_Cursed_Knight_Cursed_Knight_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Cursed_Knight/Card_Arcade_Warband_Cursed_Knight_Cursed_Knight_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Cursed_Knight/Cursed_Knight.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Cursed_Knight/Cursed_Knight.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Arcade', 
 'Where the Fae Wood meets the Glauerdoom Moor is a particularly dread location. Here, the trees bend and twist, the branches clasping and tearing at any who pass. Beneath these wicked boughs there are the Cursed Knights of the Moorlands. Forsaking the Forgotten King, these twisted Chimera have fallen under the thrall of the dragon Nightsong the Eternal. Vicious and brutal, they enact their undead Lord''s will with unflinching cruelty.');
 insert into Characters (CardIndex) VALUES (1416);
@@ -17000,7 +17000,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (748, 942)
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Deathlord Militia',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Cursed_Knight/Card_Arcade_Warband_Cursed_Knight_Deathlord_Militia_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Cursed_Knight/Card_Arcade_Warband_Cursed_Knight_Deathlord_Militia_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Cursed_Knight/Deathlord_Militia.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Cursed_Knight/Deathlord_Militia.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Arcade', 
 'The Billmen who make up the ranks of the Moorland Militia are a remarkably disciplined force. Indeed, these ruthless soldiers train relentlessly to keep themselves in peak condition and fighting form. It is no surprise that they take great pride in this discipline and how it elevates them above the formless mass of skeletons and zombies which they often fight alongside. Even so, they will sometimes allow a grobbit Deathlord among their ranks, unleashing it upon their foes at an opportune time.');
 insert into Characters (CardIndex) VALUES (1417);
@@ -17024,7 +17024,7 @@ VALUES (259, 1, 'Moorland Militia', 'Bonded Chimera', 'Minion', 6, 1, 1, 664);
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Skull Riders',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Cursed_Knight/Card_Arcade_Warband_Cursed_Knight_Skull_Riders_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Cursed_Knight/Card_Arcade_Warband_Cursed_Knight_Skull_Riders_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Cursed_Knight/Skull_Riders.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Cursed_Knight/Skull_Riders.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Arcade', 
 'Skull Squawk knights are a secretive bunch. In fact, there are none who can recall ever seeing one outside of their armor or sharing a single word with another. This shadowy aloofness, combined with Skull Squawks'' uncanny supernatural abilities lead many to wonder if they are truly within the realm of the living at all...');
 insert into Characters (CardIndex) VALUES (1418);
@@ -17049,7 +17049,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (752, 1179
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Egg Clutch',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Egg_Clutch/Card_Arcade_Warband_Egg_Clutch_Egg_Clutch_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Egg_Clutch/Card_Arcade_Warband_Egg_Clutch_Egg_Clutch_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Egg_Clutch/Egg_Clutch.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Egg_Clutch/Egg_Clutch.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Arcade', 
 'Wherever a dragon makes its lair its draconic kin, drakes, are sure to be found. Territorial and savage, these lesser beasts submit entirely to the will of the dragon. In exchange for the dragon''s protection, the drakes serve as the dragon''s eyes, ears, and faithful guards. When hunting a dragon, Heroes inevitably have to make their way through hordes of drakes that throw themselves in the path of the Heroes. Larger whelps attempt to drag their foes to the ground, so smaller hatchlings can swarm over their helpless prey. Above, elder wrymlings swoop and dart, spitting fire at the invaders.');
 insert into Characters (CardIndex) VALUES (1419);
@@ -17067,7 +17067,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (753, 944)
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Dragonborn',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Egg_Clutch/Card_Arcade_Warband_Egg_Clutch_Dragonborn_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Egg_Clutch/Card_Arcade_Warband_Egg_Clutch_Dragonborn_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Egg_Clutch/Dragonborn.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Egg_Clutch/Dragonborn.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Arcade', 
 'On occasion, an ill-fated hero will stumble into a nest swarming with drakes of all sizes. In such a situation, running is often the best course of action, followed by screaming and arm-flailing.');
 insert into Characters (CardIndex) VALUES (1420);
@@ -17095,7 +17095,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (756, 800)
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Fire Flow Hollow',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Fire_Flow_Hollow/Card_Arcade_Warband_Fire_Flow_Hollow_Fire_Flow_Hollow_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Fire_Flow_Hollow/Card_Arcade_Warband_Fire_Flow_Hollow_Fire_Flow_Hollow_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Fire_Flow_Hollow/Fire_Flow_Hollow.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Fire_Flow_Hollow/Fire_Flow_Hollow.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Arcade', 
 'The seeds and sprouts of the Deeproot Tree have traveled far and wide on the winds of Crystalia. The lava beds of the Dragonback Peaks can create fertile grounds for these new sprouts to take root. This new growth takes on the aspects of its surroundings, creating Kodama with fiery tempers.
 
@@ -17116,7 +17116,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (757, 948)
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Flame Wisps',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Fire_Flow_Hollow/Card_Arcade_Warband_Fire_Flow_Hollow_Flame_Wisps_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Fire_Flow_Hollow/Card_Arcade_Warband_Fire_Flow_Hollow_Flame_Wisps_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Fire_Flow_Hollow/Flame_Wisps.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Fire_Flow_Hollow/Flame_Wisps.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Arcade', 
 'The Kodama who eek out an existence in the Dragonback Peaks are even more temperamental and fickle than usual. Flame Wisps are particularly hard to predict. A Flame Wisp may lead a Hero through a twisting pass in the mountains one day and then set the Hero''s pack on fire the next day before running away and giggling.');
 insert into Characters (CardIndex) VALUES (1422);
@@ -17142,7 +17142,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (759, 1555
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Spicey Turnips',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Fire_Flow_Hollow/Card_Arcade_Warband_Fire_Flow_Hollow_Spicey_Turnips_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Fire_Flow_Hollow/Card_Arcade_Warband_Fire_Flow_Hollow_Spicey_Turnips_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Fire_Flow_Hollow/Spicey_Turnips.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Fire_Flow_Hollow/Spicey_Turnips.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Arcade', 
 'Spicy Turnips are Turnipheads who have given up on healing wounded plants. In the harsh conditions of the Dragonback Peaks, a Turniphead cannot properly heal every burn, every lost leaf, every torn root. This frustration builds in fiery rage, and a Spice Turnip is born. Unable to heal the wounded, Spicy Turnips instead seek to stoke the flames.');
 insert into Characters (CardIndex) VALUES (1423);
@@ -17168,7 +17168,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (761, 855)
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Sprouting Magma',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Fire_Flow_Hollow/Card_Arcade_Warband_Fire_Flow_Hollow_Sprouting_Magma_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Fire_Flow_Hollow/Card_Arcade_Warband_Fire_Flow_Hollow_Sprouting_Magma_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Fire_Flow_Hollow/Sprouting_Magma.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Fire_Flow_Hollow/Sprouting_Magma.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Arcade', 
 'Sometimes a seed from the Deeproot Tree will become encased in lava as it cools. The magic of the Deeproot is strong enough to keep the seed alive, and it can remain trapped for centuries. When these seeds are unearthed, they grow wild and fierce. They not only are immune to flame, but they crave it, often growing stronger in the warmth of a blaze. The Broiled Mooks native to the region consider these Magma Seeds great playmates, chortling as the little seed sparks blaze after blaze.');
 insert into Characters (CardIndex) VALUES (1424);
@@ -17193,7 +17193,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (763, 703)
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Volcanic Growth',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Fire_Flow_Hollow/Card_Arcade_Warband_Fire_Flow_Hollow_Volcanic_Growth_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Fire_Flow_Hollow/Card_Arcade_Warband_Fire_Flow_Hollow_Volcanic_Growth_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Fire_Flow_Hollow/Volcanic_Growth.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Fire_Flow_Hollow/Volcanic_Growth.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Arcade', 
 'As a Magma Seed grows, it blossoms into the mighty Volcanic Sprout. By the time these sprouts reach maturity they have spent centuries encased in lava and the experience has left them hardened and formidable. Relishing in the open air, they grow at an astounding rate, burning anything in their path, except perhaps the Broiled Mooks who find the conflagration more amusing as it grows.');
 insert into Characters (CardIndex) VALUES (1425);
@@ -17221,7 +17221,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (765, 703)
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Forgotten Stone',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Forgotten_Stone/Card_Arcade_Warband_Forgotten_Stone_Forgotten_Stone_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Forgotten_Stone/Card_Arcade_Warband_Forgotten_Stone_Forgotten_Stone_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Forgotten_Stone/Forgotten_Stone.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Forgotten_Stone/Forgotten_Stone.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Arcade', 
 'While the Shadow Fleets of the Midnight Queen openly sail the waters of the Scalding Sea, when they venture into the vast oceans surrounding Crystalia they must be more cautious. Here, heavily armored gnomish clockwork frigates, Brinebreaker dreadnoughts bristling with weaponry, many-masted royal galleons, and fleets of undead pirate clippers from the Drowned Isles vie for supremacy. Because of this, Shadow Fleets search out forgotten islands and coves to use as hidden bases of operation. Once secured, they mark these bases'' locations with crudely carved stones that are carefully crafted to appear ancient, forgotten, and unassuming.');
 insert into Characters (CardIndex) VALUES (1426);
@@ -17240,7 +17240,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (766, 950)
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Boarding Party',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Forgotten_Stone/Card_Arcade_Warband_Forgotten_Stone_Boarding_Party_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Forgotten_Stone/Card_Arcade_Warband_Forgotten_Stone_Boarding_Party_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Forgotten_Stone/Boarding_Party.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Forgotten_Stone/Boarding_Party.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Arcade', 
 'Nether elves do not require honorable combat. One of their favored strategies is assassination. Cut off the head and the body will die. On the high seas the chain of command is vital, and a ship without its captain is an easy target. Midnight Mutineers are experts at infiltrating a ship''s crew and, the night before their corsair breathren attack, eliminating the ship''s captain and key personnel. In the chaos of such a strike, the Blackblade Corsairs board, taking the enemy ship with ease.');
 insert into Characters (CardIndex) VALUES (1427);
@@ -17262,7 +17262,7 @@ VALUES (269, 1, 'Blackblade Corsair', 'Nether Elf Pirate', 'Minion', 8, 1, 1, 68
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Corsair Arbalist',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Forgotten_Stone/Card_Arcade_Warband_Forgotten_Stone_Corsair_Arbalist_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Forgotten_Stone/Card_Arcade_Warband_Forgotten_Stone_Corsair_Arbalist_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Forgotten_Stone/Corsair_Arbalist.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Forgotten_Stone/Corsair_Arbalist.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Arcade', 
 'A Shadow Fleet is a grim sight upon the horizon, and has been the doom for many a brave sailor. Shrouded in swirling mists and shadow, these bleak vessels begin their assaults with barrages of black-fletched crossbow bolts raking across the decks of their quarry, clearing the way for Blackblade boarders.');
 insert into Characters (CardIndex) VALUES (1428);
@@ -17282,7 +17282,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (769, 1373
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Frozen Warrens',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Frozen_Warrens/Card_Arcade_Warband_Frozen_Warrens_Frozen_Warrens_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Frozen_Warrens/Card_Arcade_Warband_Frozen_Warrens_Frozen_Warrens_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Frozen_Warrens/Frozen_Warrens.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Frozen_Warrens/Frozen_Warrens.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Arcade', 
 'The frigid climate of the Frostbyte Reach is notoriously inhospitable for the races of Crystalia. It is doubly so for the cold-blooded kobolds that choose to make the realm home. Because of their natural vulnerability the kobolds are fanatical devotees of the Cult of Frozen Spires. The Cult''s Frozen Priests maintain complex spells and rituals throughout the Reach designed to shield their kobold flock from the worst of the frozen climate.');
 insert into Characters (CardIndex) VALUES (1429);
@@ -17300,7 +17300,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (770, 952)
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Cult of Frozen Spires',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Frozen_Warrens/Card_Arcade_Warband_Frozen_Warrens_Cult_of_Frozen_Spires_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Frozen_Warrens/Card_Arcade_Warband_Frozen_Warrens_Cult_of_Frozen_Spires_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Frozen_Warrens/Cult_of_Frozen_Spires.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Frozen_Warrens/Cult_of_Frozen_Spires.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Arcade', 
 'Frozen Priests have devoted themselves to the dragon Hoarfang. Their mastery of ice magic is unquestioned, and they use this magic both in battle and to adapt their warrens so their cold-blooded kin can survive in the icy regions where they dwell. The priests are often accompanied by Ice Picks, kobolds who wield long spears, as bodyguards. The protection of the Frozen Priests is of paramount importance because, without them, the entire warren could be consumed by the elements.');
 insert into Characters (CardIndex) VALUES (1430);
@@ -17323,7 +17323,7 @@ VALUES (272, 1, 'Ice Pick', 'Bonded Kobold', 'Minion', 7, 1, 1, 691);
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Frostfang Horde',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Frozen_Warrens/Card_Arcade_Warband_Frozen_Warrens_Frostfang_Horde_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Frozen_Warrens/Card_Arcade_Warband_Frozen_Warrens_Frostfang_Horde_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Frozen_Warrens/Frostfang_Horde.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Frozen_Warrens/Frostfang_Horde.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Arcade', 
 'Often, a Frostscale will be accompanied by a number of Blockheads out on the icy paths of the Frostbyte Reach. The Frostscale is able to keep his troops from freezing using weather magics taught to him by his Dragon Priest. This allows the group to scout and forage for days, before returning to the warrens and reporting what they found.');
 insert into Characters (CardIndex) VALUES (1431);
@@ -17345,7 +17345,7 @@ VALUES (273, 1, 'Blockhead', 'Bonded Kobold', 'Minion', 6, 1, 1, 688);
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Snowball Fight',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Frozen_Warrens/Card_Arcade_Warband_Frozen_Warrens_Snowball_Fight_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Frozen_Warrens/Card_Arcade_Warband_Frozen_Warrens_Snowball_Fight_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Frozen_Warrens/Snowball_Fight.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Frozen_Warrens/Snowball_Fight.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Arcade', 
 'Snowball Chuckers are useless. They don''t like to hunt. They don''t like to fight. All they like to do is play in the snow, building forts, having funniest snow-dwarf contests, and rolling the snowballs they can manage. Sometimes they play a game of Dodge the Avalanche, which sees entire kobold encampments buried in layers of ice. However, that does not mean that they are not a danger to the heroes of Crystalia. More than one hero has been trapped in the crossfire of an epic snowball fight, only to never be heard from again.');
 insert into Characters (CardIndex) VALUES (1432);
@@ -17371,7 +17371,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (776, 1703
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Howler Stone',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Howler_Stone/Card_Arcade_Warband_Howler_Stone_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Howler_Stone/Card_Arcade_Warband_Howler_Stone_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Howler_Stone/Howler_Stone.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Howler_Stone/Howler_Stone.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Arcade', 
 'Gnolls are wholly creatures of the Dark Realm. Petty, cruel, and savagely cunning, massive packs of gnolls prowl throughout the shadowlands of the Dark Realm. When the Dark Consul shattered the divide between the realms of Light and Dark, the gnolls were slow to emerge. Instead, the cunning creatures began to prey upon the weakened fiefdoms within the Dark Realm. Only as the gnolls'' power grew did they venture through the Nether Rifts into Crystalia.
 <br><br>
@@ -17390,7 +17390,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (777, 954)
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Gnoll With The Punches',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Howler_Stone/Card_Arcade_Warband_Howler_Stone_Gnoll_With_The_Punches_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Howler_Stone/Card_Arcade_Warband_Howler_Stone_Gnoll_With_The_Punches_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Howler_Stone/Gnoll_With_The_Punches.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Howler_Stone/Gnoll_With_The_Punches.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Arcade', 
 'AAAAAH-WOOOOOO');
 insert into Characters (CardIndex) VALUES (1434);
@@ -17413,7 +17413,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (779, 841)
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Grassy Gnolls, The',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Howler_Stone/Card_Arcade_Warband_Howler_Stone_Grassy_Gnolls_The_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Howler_Stone/Card_Arcade_Warband_Howler_Stone_Grassy_Gnolls_The_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Howler_Stone/Grassy_Gnolls_The.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Howler_Stone/Grassy_Gnolls_The.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Arcade', 
 'Red fletching to the left. Blue to the right. Target their leader.');
 insert into Characters (CardIndex) VALUES (1435);
@@ -17438,7 +17438,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (781, 800)
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Junk Reaver Crystal',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Junk_Reaver_Crystal/Card_Arcade_Warband_Junk_Reaver_Crystal_Junk_Reaver_Crystal_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Junk_Reaver_Crystal/Card_Arcade_Warband_Junk_Reaver_Crystal_Junk_Reaver_Crystal_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Junk_Reaver_Crystal/Junk_Reaver_Crystal.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Junk_Reaver_Crystal/Junk_Reaver_Crystal.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Arcade', 
 ''); --!! unavailable !!
 insert into Characters (CardIndex) VALUES (1436);
@@ -17455,7 +17455,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (782, 957)
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Junkers Jamborie',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Junk_Reaver_Crystal/Card_Arcade_Warband_Junk_Reaver_Crystal_Junkers_Jamborie_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Junk_Reaver_Crystal/Card_Arcade_Warband_Junk_Reaver_Crystal_Junkers_Jamborie_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Junk_Reaver_Crystal/Junkers_Jamborie.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Junk_Reaver_Crystal/Junkers_Jamborie.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Arcade', 
 ''); --!! unavailable !!
 insert into Characters (CardIndex) VALUES (1437);
@@ -17476,7 +17476,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (784, 727)
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Rusty Arrows',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Junk_Reaver_Crystal/Card_Arcade_Warband_Junk_Reaver_Crystal_Rusty_Arrows_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Junk_Reaver_Crystal/Card_Arcade_Warband_Junk_Reaver_Crystal_Rusty_Arrows_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Junk_Reaver_Crystal/Rusty_Arrows.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Junk_Reaver_Crystal/Rusty_Arrows.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Arcade', 
 '');  --!! unavailable !!
 insert into Characters (CardIndex) VALUES (1438);
@@ -17500,7 +17500,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (785, 2094
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Kobold Warrens',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Kobold_ Warrens/Card_Arcade_Warband_Kobold_ Warrens_Kobold_ Warrens_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Kobold_ Warrens/Card_Arcade_Warband_Kobold_ Warrens_Kobold_ Warrens_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Kobold_ Warrens/Kobold_ Warrens.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Kobold_ Warrens/Kobold_ Warrens.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Arcade', 
 'Kobolds were the first monsters from the Dark Realm to invade Crystalia, and remain the most numerous. In the centuries that have passed since the banishment of the Dark Consul, kobolds have only increased in numbers. Supremely adaptable and remarkably relentless in their drive to expand, there is no corner of Crystalia untouched by their menace.
 
@@ -17521,7 +17521,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (787, 959)
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Dragon Devotees',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Kobold_Warrens/Card_Arcade_Warband_Kobold_Warrens_Dragon_Devotees_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Kobold_Warrens/Card_Arcade_Warband_Kobold_Warrens_Dragon_Devotees_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Kobold_Warrens/Dragon_Devotees.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Kobold_Warrens/Dragon_Devotees.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Arcade', 
 'When lead by a Dragon Priest, kobolds are given over to savage zealotry. Throwing themselves into combat heedless of their losses they seek only to impress their priest and the dragon whom they serve.');
 insert into Characters (CardIndex) VALUES (1440);
@@ -17543,7 +17543,7 @@ VALUES (282, 1, 'Gouger', 'Kobold', 'Minion', 7, 1, 1, 705);
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Scale Wall',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Kobold_Warrens/Card_Arcade_Warband_Kobold_Warrens_Scale_Wall_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Kobold_Warrens/Card_Arcade_Warband_Kobold_Warrens_Scale_Wall_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Kobold_Warrens/Scale_Wall.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Kobold_Warrens/Scale_Wall.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Arcade', 
 'Those kobolds who prove themselves truly capable in a fight are strapped into heavy Ironscale armor and are ordered to lead the charge. Around them, lesser kobolds fall in line seeking what safety they can from behind the Ironscale''s armored bulk.');
 insert into Characters (CardIndex) VALUES (1441);
@@ -17564,7 +17564,7 @@ VALUES (283, 1, 'Knucklehead', 'Bonded Kobold', 'Minion', 6, 1, 1, 707);
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Sneaks',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Kobold_Warrens/Card_Arcade_Warband_Kobold_Warrens_Sneaks_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Kobold_Warrens/Card_Arcade_Warband_Kobold_Warrens_Sneaks_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Kobold_Warrens/Sneaks.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Kobold_Warrens/Sneaks.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Arcade', 
 'Shifty and untrustworthy, even by kobold standards, Flingers linger on the edge of a combat waiting for the opportune moment to sling their stones at the enemy. When extra carnage is needed they fling pots of flaming oil and drake tar into the battle, heedless of whom the flame might consume.');
 insert into Characters (CardIndex) VALUES (1442);
@@ -17590,7 +17590,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (794, 1276
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Loot Stash',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Loot_Stash/Card_Arcade_Warband_Loot_Stash_Loot_Stash_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Loot_Stash/Card_Arcade_Warband_Loot_Stash_Loot_Stash_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Loot_Stash/Loot_Stash.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Loot_Stash/Loot_Stash.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Arcade', 
 ''); --!! unavailable !!
 insert into Characters (CardIndex) VALUES (1443);
@@ -17608,7 +17608,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (795, 961)
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Powder Lad',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Loot_Stash/Card_Arcade_Warband_Loot_Stash_Powder_Lad_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Loot_Stash/Card_Arcade_Warband_Loot_Stash_Powder_Lad_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Loot_Stash/Powder_Lad.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Loot_Stash/Powder_Lad.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Arcade', 
 '');   --!! unavailable !!
 insert into Characters (CardIndex) VALUES (1444);
@@ -17627,7 +17627,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (796, 2098
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Shinin'' Shields',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Loot_Stash/Card_Arcade_Warband_Loot_Stash_Shinin_Shields_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Loot_Stash/Card_Arcade_Warband_Loot_Stash_Shinin_Shields_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Loot_Stash/Shinin_Shields.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Loot_Stash/Shinin_Shields.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Arcade', 
 '');   --!! unavailable !!
 insert into Characters (CardIndex) VALUES (1445);
@@ -17650,7 +17650,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (798, 2097
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Maleficent Idol',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Maleficent_Idol/Card_Arcade_Warband_Maleficent_Idol_Maleficent_Idol_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Maleficent_Idol/Card_Arcade_Warband_Maleficent_Idol_Maleficent_Idol_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Maleficent_Idol/Maleficent_Idol.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Maleficent_Idol/Maleficent_Idol.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Arcade', 
 'Usually Araphel''s dealings and worship are done in secret. Her followers move about in the shadows, applying subtle influence and spinning devious webs. However, there are places in the Dark Realm and the hidden corners of Crystalia where Araphel is worshipped openly. In these places a Maleficent Idol is erected in Araphel''s honor, carved in her likeness with the chained heart that has come to signify devotion to her.');
 insert into Characters (CardIndex) VALUES (1446);
@@ -17668,7 +17668,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (799, 1010
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Araphel''s Heart',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Maleficent_Idol/Card_Arcade_Warband_Maleficent_Idol_Araphels_Heart_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Maleficent_Idol/Card_Arcade_Warband_Maleficent_Idol_Araphels_Heart_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Maleficent_Idol/Araphels_Heart.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Maleficent_Idol/Araphels_Heart.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Arcade', 
 'Heartbound are those followers of Araphel who have taken their devotion one step further. Through an obscene ritual, the Heartbound have linked their very souls to Araphel, allowing them to channel her power.');  
 insert into Characters (CardIndex) VALUES (1447);
@@ -17690,7 +17690,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (801, 742)
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Cult of Araphel',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Maleficent_Idol/Card_Arcade_Warband_Maleficent_Idol_Cult_of_Araphel_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Maleficent_Idol/Card_Arcade_Warband_Maleficent_Idol_Cult_of_Araphel_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Maleficent_Idol/Cult_of_Araphel.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Maleficent_Idol/Cult_of_Araphel.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Arcade', 
 'Part prophet, part proselytizer, a Master of Chains offers to deliver riftlings from the oppression the suspicions of Crystalians has placed upon them. "Do not be bound by your chains, instead master them!" So skilled are these priests, that most Devoted do not realize they are exchanging oppression for subjugation.');   
 insert into Characters (CardIndex) VALUES (1448);
@@ -17709,7 +17709,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (803, 536)
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Maleficent Idol Errata',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Maleficent_Idol/Card_Arcade_Warband_Maleficent_Idol_Maleficent_Idol_Errata_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Maleficent_Idol/Card_Arcade_Warband_Maleficent_Idol_Maleficent_Idol_Errata_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Maleficent_Idol/Maleficent_Idol_Errata.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Maleficent_Idol/Maleficent_Idol_Errata.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Arcade', 
 'Usually Araphel''s dealings and worship are done in secret. Her followers move about in the shadows, applying subtle influence and spinning devious webs. However, there are places in the Dark Realm and the hidden corners of Crystalia where Araphel is worshipped openly. In these places a Maleficent Idol is erected in Araphel''s honor, carved in her likeness with the chained heart that has come to signify devotion to her.');
 insert into Characters (CardIndex) VALUES (1449);
@@ -17727,7 +17727,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (804, 1010
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Heartbound',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Maleficent_Idol/Card_Arcade_Warband_Maleficent_Idol_Heartbound_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Maleficent_Idol/Card_Arcade_Warband_Maleficent_Idol_Heartbound_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Maleficent_Idol/Heartbound.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Maleficent_Idol/Heartbound.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Arcade', 
 'Heartbound are those followers of Araphel who have taken their devotion one step further. Through an obscene ritual, the Heartbound have linked their very souls to Araphel, allowing them to channel her power.');  
 insert into Characters (CardIndex) VALUES (1450);
@@ -17746,7 +17746,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (805, 742)
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Nether Clutch',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Nether_Clutch/Card_Arcade_Warband_Nether_Clutch_Nether_Clutch_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Nether_Clutch/Card_Arcade_Warband_Nether_Clutch_Nether_Clutch_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Nether_Clutch/Nether_Clutch.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Nether_Clutch/Nether_Clutch.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Arcade', 
 'Proximity to the Dark Realm has seen the drakes of the Nether Rifts grow mighty beyond the other clutches throughout the realms of Crystalia. Their strength is linkeed inextricably to that of the Dark Realm, as the power of the Dark Consul ebbs and flows, so too does the might of the drakes bound to him.');
 insert into Characters (CardIndex) VALUES (1451);
@@ -17764,7 +17764,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (806, 1010
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Demon Drakes',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Nether_Clutch/Card_Arcade_Warband_Nether_Clutch_Demon_Drakes_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Nether_Clutch/Card_Arcade_Warband_Nether_Clutch_Demon_Drakes_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Nether_Clutch/Demon_Drakes.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Nether_Clutch/Demon_Drakes.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Arcade', 
 'The drakes of the Nether Rifts are particularly large and cunning. Whether it is due to an infusion of the Dark Consul''s power, or simply the result of surviving such a harsh environment, none can guess. What is known is that these drakes serve as the vanguard of the armies of the Dark Realm. Often their cries signal an advance or even an ambush, and even the most stalwart hero cringes at the sound.');  
 insert into Characters (CardIndex) VALUES (1452);
@@ -17791,7 +17791,7 @@ VALUES (294, 2, 'Hatchlings', 'Bonded Drake', 'Minion', 6, 2, 1, 718);
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Pinching Palace',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Pinching_Palace/Card_Arcade_Warband_Pinching_Palace_Pinching_Palace_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Pinching_Palace/Card_Arcade_Warband_Pinching_Palace_Pinching_Palace_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Pinching_Palace/Pinching_Palace.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Pinching_Palace/Pinching_Palace.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Arcade', 
 'A Lord of Crabs is only at home among crustaceans and other lurking denizens of the deep. They spend a great deal of time cultivating homes for their crabby friends, making sure they are protected, fed, and happy. This, in turn, makes the Lord of Crabs happy--even if only for a short while.');
 insert into Characters (CardIndex) VALUES (1453);
@@ -17809,7 +17809,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (810, 971)
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Carapace Crawler',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Pinching_Palace/Card_Arcade_Warband_Pinching_Palace_Carapace_Crawler_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Pinching_Palace/Card_Arcade_Warband_Pinching_Palace_Carapace_Crawler_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Pinching_Palace/Carapace_Crawler.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Pinching_Palace/Carapace_Crawler.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Arcade', 
 'Carapace Crawlers grow to immense sizes extraordinarily quickly. As they grow, they molt constantly, leaving spiny shells littering the sands. These shells prove hazardous in a flight, and a canny warrior will use them to their advantage by pushing their opponents across the shells, causing them to trip and lose their balance.');  
 insert into Characters (CardIndex) VALUES (1454);
@@ -17827,7 +17827,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (811, 706)
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Pinching Party',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Pinching_Palace/Card_Arcade_Warband_Pinching_Palace_Pinching_Party_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Pinching_Palace/Card_Arcade_Warband_Pinching_Palace_Pinching_Party_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Pinching_Palace/Pinching_Party.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Pinching_Palace/Pinching_Party.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Arcade', 
 'Strange and reclusive, Lords of the Crabs haunt the misty coastlines of Crystalia like specters. Intensely private, they live in craggy crevices where the ocean waves crash upon the cliffs. Able to form a bizarre communion with crustaceans and other oceanic life, these druids only answer the call of their elvish kin when forced, or when their territory is threatened. When a Lord of the Crabs must leave its solitary life, it often takes a number of Big Claw crabs along to ensure its safety.');  
 insert into Characters (CardIndex) VALUES (1455);
@@ -17854,7 +17854,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (813, 678)
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Sand Spire',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Sand_Spire/Card_Arcade_Warband_Sand_Spire_Sand_Spire_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Sand_Spire/Card_Arcade_Warband_Sand_Spire_Sand_Spire_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Sand_Spire/Sand_Spire.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Sand_Spire/Sand_Spire.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Arcade', 
 'Arcadian nether elves are nomadic by nature and enjoy a thriving culture around horsemanship. Even among the Crystalian nobility, many say Arcadian stallions are the finest in all the realms. In contrast to many other nether elves, Arcadian nether elves have regular and mostly peaceful dealings with the various other cultures which call the dunes home. This is likely due to the harsh nature of the dunes. What meager resources it provides must be carefully cultivated and maintained, even through warfare. Despite this, Arcadian nether elves are wholly devoted to the Dark Consul and the Midnight Queen, ready to answer their call without hesitation.');
 insert into Characters (CardIndex) VALUES (1456);
@@ -17873,7 +17873,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (814, 973)
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Desert Raiders',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Sand_Spire/Card_Arcade_Warband_Sand_Spire_Desert_Raiders_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Sand_Spire/Card_Arcade_Warband_Sand_Spire_Desert_Raiders_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Sand_Spire/Desert_Raiders.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Sand_Spire/Desert_Raiders.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Arcade', 
 'The Cult of Silk is an elite sect of nether elf assassins residing in the Arcadian Dunes. Their chief assassins, known as Knives, are solitary hunters who are feared throughout the land. They are responsible for the disappearances of heroes, warlords, and dungeon bosses alike. Even the Midnight Queen keeps her distance. However, sometimes the Knives will take along a detachment of Desert Blades on particularly dangerous missions. The Desert Blades never seem to make it back. The secrets of the Cult of Silk need to be protected at all costs, after all...');  
 insert into Characters (CardIndex) VALUES (1457);
@@ -17896,7 +17896,7 @@ VALUES (299, 1, 'Desert Blade', 'Nether Elf', 'Minion', 8, 1, 1, 726);
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Dune Hunter',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Sand_Spire/Card_Arcade_Warband_Sand_Spire_Dune_Hunter_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Sand_Spire/Card_Arcade_Warband_Sand_Spire_Dune_Hunter_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Sand_Spire/Dune_Hunter.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Sand_Spire/Dune_Hunter.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Arcade', 
 'True to their name, Dune Hunters are master trackers and hunters of the dunes. Skilled in survival and trapping techniques, Dune Hunters will patiently stalk Heroes for days, using subtle tricks and bluffs to guide, lure, and herd their target into ambush.');  
 insert into Characters (CardIndex) VALUES (1458);
@@ -17915,7 +17915,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (817, 1693
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Scrap Tower',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Scrap_Tower/Card_Arcade_Warband_Scrap_Tower_Scrap_Tower_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Scrap_Tower/Card_Arcade_Warband_Scrap_Tower_Scrap_Tower_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Scrap_Tower/Scrap_Tower.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Scrap_Tower/Scrap_Tower.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Arcade', 
 'The gnomish artificer who constructed Daemonus was cast out from his guild and banished, eventually finding his way to the Undercove.  Deep within the grinding bowels of Clockwork Cove he gathered the other tinkerers, artificiers, and forgemasters who had been cast aside or refused entry by the guilds.  From them the Scrap Guild was born, and their cruel inventions have become favorites of dungeons bosses looking for extra dungeon security.');
 insert into Characters (CardIndex) VALUES (1459);
@@ -17933,7 +17933,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (818, 975)
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Dunce',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Scrap_Tower/Card_Arcade_Warband_Scrap_Tower_Dunce_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Scrap_Tower/Card_Arcade_Warband_Scrap_Tower_Dunce_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Scrap_Tower/Dunce.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Scrap_Tower/Dunce.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Arcade', 
 'Cackling gnomes, raving madmen, clever goblins, and more make up the ranks of the anarchic Scrap Guild.  Most, despite their crazed brilliance, were considered failures outside the Undercove and so they proudly claim the moniker of Dunce as their fiendish invetions thwart Heroes'' dungeon adventures.');
 insert into Characters (CardIndex) VALUES (1460);
@@ -17950,7 +17950,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (819, 2099
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Gate Crasher',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Scrap_Tower/Card_Arcade_Warband_Scrap_Tower_Gate_Crasher_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Scrap_Tower/Card_Arcade_Warband_Scrap_Tower_Gate_Crasher_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Scrap_Tower/Gate_Crasher.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Scrap_Tower/Gate_Crasher.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Arcade', 
 'No riddle to pass.  Just smash.  Smash.  SMASH!');
 insert into Characters (CardIndex) VALUES (1461);
@@ -17967,7 +17967,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (820, 1010
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Grim Oculus',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Scrap_Tower/Card_Arcade_Warband_Scrap_Tower_Grim_Oculus_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Scrap_Tower/Card_Arcade_Warband_Scrap_Tower_Grim_Oculus_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Scrap_Tower/Grim_Oculus.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Scrap_Tower/Grim_Oculus.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Arcade', 
 '');  --!! unavailable !!
 insert into Characters (CardIndex) VALUES (1462);
@@ -17984,7 +17984,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (821, 576)
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Kabomb',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Creeps/Card_Arcade_Creep_Kabomb_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Creeps/Card_Arcade_Creep_Kabomb_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Creeps/Kabomb.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Creeps/Kabomb.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Arcade', 
 '');
 insert into Characters (CardIndex) VALUES (1463);
@@ -18004,7 +18004,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (822, 1116
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Sewer Pipe',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Sewer_Pipe/Card_Arcade_Warband_Sewer_Pipe_Sewer_Pipe_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Sewer_Pipe/Card_Arcade_Warband_Sewer_Pipe_Sewer_Pipe_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Sewer_Pipe/Sewer_Pipe.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Sewer_Pipe/Sewer_Pipe.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Arcade', 
 'Beneath the bellowing forges, the clanking constructs, and the grinding cogs of Clockwork Cove lies the Undercove, a bastion for the forgotten and dispossessed. These lost children of the sewer band together into loose gangs of thieves and thugs all striving to survive. It is no surprise then that the Dark Consul finds the Undercove a rich recruitment ground for new agents to advance his dark designs.'); 
 insert into Characters (CardIndex) VALUES (1464);
@@ -18022,7 +18022,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (823, 977)
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Goblin Fetches',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Sewer_Pipe/Card_Arcade_Warband_Sewer_Pipe_Goblin_Fetches_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Sewer_Pipe/Card_Arcade_Warband_Sewer_Pipe_Goblin_Fetches_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Sewer_Pipe/Goblin_Fetches.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Sewer_Pipe/Goblin_Fetches.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Arcade', 
 'Fetches are brutal-minded goblins that lack the sneakiness and finesse to become good thieves. Instead, they serve as thugs and collectors within the Pauper Prince''s ranks, using their nets to ensnare their victims allowing the rest of the gang to easily see to the "retrieval" of goods.');  
 insert into Characters (CardIndex) VALUES (1465);
@@ -18046,7 +18046,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (825, 1073
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Rat King',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Sewer_Pipe/Card_Arcade_Warband_Sewer_Pipe_Rat_King_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Sewer_Pipe/Card_Arcade_Warband_Sewer_Pipe_Rat_King_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Sewer_Pipe/Rat_King.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Sewer_Pipe/Rat_King.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Arcade', 
 'While giant rats are not uncommon in the dungeons of Crystalia, those in the employ of the Pauper Prince are a particular nuisance. The Prince has an uncanny knack for training the rats to be his eyes and ears, and even to perform the occasional bit of petty theft.');
 insert into Characters (CardIndex) VALUES (1466);
@@ -18068,7 +18068,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (827, 1699
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Sovereign Sewers',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Sewer_Pipe/Card_Arcade_Warband_Sewer_Pipe_Sovereign_Sewers_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Sewer_Pipe/Card_Arcade_Warband_Sewer_Pipe_Sovereign_Sewers_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Sewer_Pipe/Sovereign_Sewers.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Sewer_Pipe/Sovereign_Sewers.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Arcade', 
 '"Aaaaah, what do we have ''er me luvs? Looks like a few poor ''eroes have lost their way. Mayhaps we should show them the way out? For a proper fee of course."');
 insert into Characters (CardIndex) VALUES (1467);
@@ -18093,7 +18093,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (829, 1077
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Shadow Tower',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Shadow_Tower/Card_Arcade_Warband_Shadow_Tower_Shadow_Tower_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Shadow_Tower/Card_Arcade_Warband_Shadow_Tower_Shadow_Tower_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Shadow_Tower/Shadow_Tower.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Shadow_Tower/Shadow_Tower.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Arcade', 
 'When the Dark Realm breached the light of Crystalia, it tore a rent between the two worlds known as the Nether Rifts. Much of the land which was lost to the newly formed Nether Rifts was of the Fae Wood. As the rifts opened, entire villages and cities of deeproot elves were swallowed by the Dark Realm. Forced to survive within the cold darkness of the Dark Consul''s domain, the elves became dark reflections of what they once were. Twisted by the corrupting influence of shadow, they became vile and villainous, a scourge upon all of Crystalia.'); 
 insert into Characters (CardIndex) VALUES (1468);
@@ -18112,7 +18112,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (830, 1011
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Shadow Guard',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Shadow_Tower/Card_Arcade_Warband_Shadow_Tower_Shadow_Guard_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Shadow_Tower/Card_Arcade_Warband_Shadow_Tower_Shadow_Guard_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Shadow_Tower/Shadow_Guard.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Shadow_Tower/Shadow_Guard.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Arcade', 
 'Tower Stalkers seek to identify the weakest link and remove it. Relishing in sowing dread and terror, a Tower Stalker will harry and toy with an adventuring party, striking when heroes become isolated or vulnerable. Tower Stalkers are often accompanied by Blackblades, the Midnight Queen''s infantry. While the heroes deal with the Blackblades, they rarely see the Stalker coming.');  
 insert into Characters (CardIndex) VALUES (1469);
@@ -18133,7 +18133,7 @@ VALUES (311, 1, 'Tower Blackblade', 'Nether Elf', 'Minion', 8, 1, 1, 740);
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Tower Arbalist',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Shadow_Tower/Card_Arcade_Warband_Shadow_Tower_Tower_Arbalist_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Shadow_Tower/Card_Arcade_Warband_Shadow_Tower_Tower_Arbalist_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Shadow_Tower/Tower_Arbalist.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Shadow_Tower/Tower_Arbalist.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Arcade', 
 'Nether elves see little reason to sacrifice themselves needlessly in battle. Because of this, the large majority of nether elf battalions consist of ranks upon ranks of Arbalists wielding wicked crossbows. Before an enemy is able to engage the nether elves'' lines, they must withstand a withering barrage of bolts.');
 insert into Characters (CardIndex) VALUES (1470);
@@ -18151,7 +18151,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (833, 1071
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Tower Marksmen',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Shadow_Tower/Card_Arcade_Warband_Shadow_Tower_Tower_Marksmen_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Shadow_Tower/Card_Arcade_Warband_Shadow_Tower_Tower_Marksmen_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Shadow_Tower/Tower_Marksmen.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Shadow_Tower/Tower_Marksmen.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Arcade', 
 'xxxx');
 insert into Characters (CardIndex) VALUES (1471);
@@ -18181,7 +18181,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (836, 1071
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Shadow Warren',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Shadow_Warren/Card_Arcade_Warband_Shadow_Warren_Shadow_Warren_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Shadow_Warren/Card_Arcade_Warband_Shadow_Warren_Shadow_Warren_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Shadow_Warren/Shadow_Warren.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Shadow_Warren/Shadow_Warren.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Arcade', 
 'Corsucating with the midnight energies of the Dark Realm, the kobolds of the Shadow Warrens are closely linked to the Dark Consul. Despite this, the cults of the Shadow Warrens are divided and fractious. The Cult of the Dark claims to be the original cult, tracing its lineage back to the Dark Consul''s first rise to power. The Cult of Shattered Night cares little for the other cults, relishing in assassination and intrigue. However, it is the Cult of the Dark that has recently drawn the most worry from the Heroes of Crystalia. Lead by the Demon Lord known only as The Destroyer, the Cult of the Dark has laid a waste to every foe it has faced. It has become an endless tide of darkness consuming Crystalia bit by bit.'); 
 insert into Characters (CardIndex) VALUES (1472);
@@ -18199,7 +18199,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (837, 1010
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Cult of the Dark',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Shadow_Warren/Card_Arcade_Warband_Shadow_Warren_Cult_of_the_Dark_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Shadow_Warren/Card_Arcade_Warband_Shadow_Warren_Cult_of_the_Dark_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Shadow_Warren/Cult_of_the_Dark.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Shadow_Warren/Cult_of_the_Dark.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Arcade', 
 'The kobolds in the Cult of the Dark are lorded over by The Destroyer, a demon from the depths of the Nether Rifts. The Shadow Priests who lead the cult are haughty and arrogant, thinking themselves better than other kobolds who have strayed from the strength of the Dark Realm. These priests often drive Skewers, weaker kobolds who have to resort to spears, before them as cannon fodder.');  
 insert into Characters (CardIndex) VALUES (1473);
@@ -18221,7 +18221,7 @@ VALUES (315, 1, 'Skewer', 'Kobold', 'Minion', 7, 1, 1, 747);
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Shadow Brigade',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Shadow_Warren/Card_Arcade_Warband_Shadow_Warren_Shadow_Brigade_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Shadow_Warren/Card_Arcade_Warband_Shadow_Warren_Shadow_Brigade_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Shadow_Warren/Shadow_Brigade.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Shadow_Warren/Shadow_Brigade.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Arcade', 
 'When the Dark Realm breached the light of Crystalia, it tore a rent between the two worlds known as the Nether Rifts. Much of the land which was lost to the newly formed Nether Rifts was of the Fae Wood. As the rifts opened, entire villages and cities of deeproot elves were swallowed by the Dark Realm. Forced to survive within the cold darkness of the Dark Consul''s domain, the elves became dark reflections of what they once were. Twisted by the corrupting influence of shadow, they became vile and villainous, a scourge upon all of Crystalia.');
 insert into Characters (CardIndex) VALUES (1474);
@@ -18243,7 +18243,7 @@ VALUES (316, 1, 'Dimwit', 'Bonded Kobold', 'Minion', 6, 1, 1, 744);
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Squirrely Slingers',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Shadow_Warren/Card_Arcade_Warband_Shadow_Warren_Squirrely_Slingers_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Shadow_Warren/Card_Arcade_Warband_Shadow_Warren_Squirrely_Slingers_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Shadow_Warren/Squirrely_Slingers.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Shadow_Warren/Squirrely_Slingers.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Arcade', 
 'The kobolds of the Nether Rifts plague the outskirts of the Fae Woods, and are a scourge upon the local wildlife. A particularly favored concoction is a stew simmered from rabid squirrels. Flung from their steaming slings, the stew inflicts strange madness and afflictions upon anyone that it touches.');
 insert into Characters (CardIndex) VALUES (1475);
@@ -18272,7 +18272,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (843, 1742
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Dark Legion Horde',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Siege_of_the_Citadel/Card_Arcade_Warband_Siege_of_the Citadel_Dark_Legion_Horde_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Siege_of_the_Citadel/Card_Arcade_Warband_Siege_of_the_Citadel_Dark_Legion_ Horde_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Siege_of_the_Citadel/Dark_Legion_Horde.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Siege_of_the_Citadel/Dark_Legion_Horde.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Arcade', 
 ''); 
 insert into Characters (CardIndex) VALUES (1476);
@@ -18294,7 +18294,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (845, 1243
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Necromutant',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Siege_of_the_Citadel/Card_Arcade_Warband_Siege_of_the_Citadel_Necromutant_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Siege_of_the_Citadel/Card_Arcade_Warband_Siege_of_the Citadel_Necromutant_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Siege_of_the Citadel/Necromutant.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Siege_of_the Citadel/Necromutant.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Arcade', 
 '');  
 insert into Characters (CardIndex) VALUES (1477);
@@ -18312,7 +18312,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (846, 790)
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Skull Stone',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Skull_Stone/Card_Arcade_Warband_Skull_Stone_Skull_Stone_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Skull_Stone/Card_Arcade_Warband_Skull_Stone_Skull_Stone_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Skull_Stone/Skull_Stone.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Skull_Stone/Skull_Stone.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Arcade', 
 'A dominant race within the Dark Realm, orcs are hearty and violent by nature. Orcs congregate in huge tribes lead by the strongest or most cunning warrior among them. Under the guidance of a powerful warlord, orc tribes are scourges to the surrounding land and people. Caring little if they attack creatures of Light or Darkness, orcs care only for the thrill of the hunt and the chaos of battle.'); 
 insert into Characters (CardIndex) VALUES (1478);
@@ -18330,7 +18330,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (847, 983)
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Smasher Mob',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Skull_Stone/Card_Arcade_Warband_Skull_Stone_Smasher_Mob_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Skull_Stone/Card_Arcade_Warband_Skull_Stone_Smasher_Mob_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Skull_Stone/Smasher_Mob.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Skull_Stone/Smasher_Mob.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Arcade', 
 'Orcs are brutish and violent, but they are not without intelligence. Their high cunning is most often made manifest in their strategies of war, where they gang up to best advantage in order to fell their enemy.');  
 insert into Characters (CardIndex) VALUES (1479);
@@ -18351,7 +18351,7 @@ VALUES (321, 1, 'Face Beater', 'Bonded Orc', 'Minion', 6, 2, 0, 752);
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Splitter Mob',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Skull_Stone/Card_Arcade_Warband_Skull_Stone_Splitter_Mob_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Skull_Stone/Card_Arcade_Warband_Skull_Stone_Splitter_Mob_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Skull_Stone/Splitter_Mob.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Skull_Stone/Splitter_Mob.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Arcade', 
 'Splitter Mobs specialize in finding the biggest, nastiest, toughest foe they can find and chopping them down to size. For the orcs this provides a double benefit, a significant threat is eliminated and the blow to their enemy''s morale can be devastating, leading to a route of the opposing force.');  
 insert into Characters (CardIndex) VALUES (1480);
@@ -18377,7 +18377,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (851, 1457
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Spawn of Servitude',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Spawn_of_Servitude/Card_Arcade_Warband_Spawn_of_Servitude_Spawn_of_Servitude_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Spawn_of_Servitude/Card_Arcade_Warband_Spawn_of_Servitude_Spawn_of_Servitude_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Spawn_of_Servitude/Spawn_of_Servitude.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Spawn_of_Servitude/Spawn_of_Servitude.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Arcade', 
 'Succubi serve as Araphel''s demonic agents. Their ability to beguile, charm, and bend the minds of mortals make them uniquely suited to achieving Araphel''s aims. Succubi in the service of Araphel often have a Spawn of Servitude to use as a base of operations. Mortals who serve Araphel (knowingly or not) are often lured to a Spawn of Servitude to secure their loyalty, and enjoy the comfy, frilly pillows.'); 
 insert into Characters (CardIndex) VALUES (1481);
@@ -18395,7 +18395,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (852, 985)
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Night Shift, The',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Spawn_of_Servitude/Card_Arcade_Warband_Spawn_of_Servitude_Night_Shift_The_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Spawn_of_Servitude/Card_Arcade_Warband_Spawn_of_Servitude_Night_Shift_The_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Spawn_of_Servitude/Night_Shift_The.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Spawn_of_Servitude/Night_Shift_The.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Arcade', 
 'Head Nurses oversee other succubi, infiltrating and corrupting the mortal realm. They pose as healers, luring in those weary adventurers seeking shelter, comfort, and aid for their wounds.');  
 insert into Characters (CardIndex) VALUES (1482);
@@ -18419,7 +18419,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (854, 878)
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ratchet of Nurses, A',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Spawn_of_Servitude/Card_Arcade_Warband_Spawn_of_Servitude_Ratchet_of_Nurses_A_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Spawn_of_Servitude/Card_Arcade_Warband_Spawn_of_Servitude_Ratchet_of_Nurses_Ab_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Spawn_of_Servitude/Ratchet_of_Nurses_A.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Spawn_of_Servitude/Ratchet_of_Nurses_A.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Arcade', 
 'A Potion Mistress is a succubus with a talent for brewing potions and concoctions. They often serve under a Head Nurse, providing their superior with all of their newest and most devious brews. Make no mistake, they are not simple poisoners. Many of their potions have actual healing properties, but they often have the curious side effect of making the patient more susceptible to influence.');  
 insert into Characters (CardIndex) VALUES (1483);
@@ -18447,7 +18447,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (856, 1479
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Spider Nest',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Spider_Nest/Card_Arcade_Warband_Spider_Nest_Spider_Nest_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Spider_Nest/Card_Arcade_Warband_Spider_Nest_Spider_Nest_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Spider_Nest/Spider_Nest.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Spider_Nest/Spider_Nest.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Arcade', 
 'Spiders have a natural affinity with darkness and shadow. Many of the fiendish varieties which call the Nether Rifts and Dark Realm home grow to remarkable sizes and can possess a startling intellect. The nether elves strike bargains with spider nests'' Queens, and in exchange for their aid the spiders are granted their choice of hunting grounds and provided with protection from various heroic attempts at extermination.'); 
 insert into Characters (CardIndex) VALUES (1484);
@@ -18465,7 +18465,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (857, 1068
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Crawler Cluster',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Spider_Nest/Card_Arcade_Warband_Spider_Nest_Crawler_Cluster_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Spider_Nest/Card_Arcade_Warband_Spider_Nest_Crawler_Cluster_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Spider_Nest/Crawler_Cluster.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Spider_Nest/Crawler_Cluster.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Arcade', 
 'A revered priesthood, the Spider Speakers maintain the relationship between nether elves and the Queens of the various spider nests which populate Crystalia. Masters of poison and dark sorcery, Spider Speakers are a powerful, if not well loved, faction in nether elf society. Often accompanying them into battle are any number of venomous spiders, leaping and biting at the Spider Speaker''s command.');  
 insert into Characters (CardIndex) VALUES (1485);
@@ -18489,7 +18489,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (859, 679)
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Spinner Spindle',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Spider_Nest/Card_Arcade_Warband_Spider_Nest_Spinner_Spindle_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Spider_Nest/Card_Arcade_Warband_Spider_Nest_Spinner_Spindle_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Spider_Nest/Spinner_Spindle.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Spider_Nest/Spinner_Spindle.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Arcade', 
 'Shadow spinners lurk within dark spaces of the the Nether Rifts, weaving webs of pure shadow to conceal their presence and ensnare their prey. Many shadow spinners have taken up residence within the Midnight Tower. Their webs of pure darkness blend perfectly with the natural gloom of the tower, and they are an ever-present danger to anyone foolish enough to enter.');  
 insert into Characters (CardIndex) VALUES (1486);
@@ -18515,7 +18515,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (861, 758)
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Watch Tower',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Watch_Tower/Card_Arcade_Warband_Watch_Tower_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Watch_Tower/Card_Arcade_Warband_Watch_Tower_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Watch_Tower/Watch_Tower.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Watch_Tower/Watch_Tower.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Arcade', 
 'The Crown Guard is the standing army of the King of Crytalia. Made up of highly trained and dedicated servants of the land, the Crown Guard is the primary bulwark against the forces of the Dark Consul. It is their duty to maintain order and security within Crystalia, so that Heroes have the freedom to strike at the heart of the Dark Consul''s dungeons. While Heroes and the Crown Guard work hand-in-hand, it is not uncommon for a Hero to cross the line with a bit of excessive celebration or occasional shady deal that puts them at odds with the Crown Guard.'); 
 insert into Characters (CardIndex) VALUES (1487);
@@ -18533,7 +18533,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (862, 989)
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Crown Guard Longbowmen',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Watch_Tower/Card_Arcade_Warband_Watch_Tower_Crown_Guard_Longbowmen_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Watch_Tower/Card_Arcade_Warband_Watch_Tower_Crown_Guard_Longbowmen_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Watch_Tower/Crown Guard Longbowmen.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Watch_Tower/Crown Guard Longbowmen.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Arcade', 
 'Hold. Hoooooold. Hooooooooold. FIRE! Let the land darken in the shade of our arrows!');  
 insert into Characters (CardIndex) VALUES (1488);
@@ -18554,7 +18554,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (864, 1073
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Crown Guard Patrol',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Watch_Tower/Card_Arcade_Warband_Watch_Tower_Crown_Guard_Patrol_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Watch_Tower/Card_Arcade_Warband_Watch_Tower_Crown_Guard_Patrol_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Warbands/Watch_Tower/Crown_Guard_Patrol.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Watch_Tower/Crown_Guard_Patrol.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Arcade', 
 '"So you''re saying the tavern was always like this, and that you had nothing to do with these broken tables, smashed chairs, or fifteen moaning persons lying about?"');  
 insert into Characters (CardIndex) VALUES (1489);
@@ -18898,7 +18898,7 @@ insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (31, 68
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Accursed Longsword',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Generic/Card_Treasure_Accursed_Longsword_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Generic/Accursed_Longsword.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Accursed_Longsword.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'I slew a demon with it, and the flames of the nether forever touched it...');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1512, 'Treasure', 'Right', '+1G STR');
@@ -18907,8 +18907,8 @@ insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (293, 727);
 
 --Adventurer Plate --CardIndex 1513 --EquipmentIndex 294
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Adventurer Plate',
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Adventurer_Plate_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Back_2.0.png',
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Adventurer_Plate_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Loot/Adventurer_Plate.xhtml', 
 'Loot', '2.0', '2.0 Core Set', 'Default',
 'This scratch is from an angry drake, this is from a rabid squirrel....');
@@ -18918,7 +18918,7 @@ insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1513,
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Alchemical Bomb',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Generic/Card_Treasure_Alchemical_Bomb_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Generic/Alchemical_Bomb.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Alchemical_Bomb.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Give us some warning before you throw the next one?');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1514, 'Treasure', 'Right', '+1R WILL');
@@ -18929,7 +18929,7 @@ insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (295, 824);
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Amethyst Crystal Shard',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Generic/Card_Treasure_Amethyst_Crystal_Shard_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Generic/Amethyst_Crystal_Shard.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Amethyst_Crystal_Shard.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Crystalia is mine, no one will stand in my way.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1515, 'Treasure', 'Top', '+1R WILL +1AC');
@@ -18940,7 +18940,7 @@ insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (296, 1535)
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ancestral Mail',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Generic/Card_Treasure_Ancestral_Mail_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Generic/Ancestral_Mail.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Ancestral_Mail.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'This mail has served my family for generations.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1516, 'Treasure', 'Left', '+1G ARM');
@@ -18949,7 +18949,7 @@ insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1516,
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ancient Crusher',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Ancient_Crusher_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Ancient_Crusher.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Ancient_Crusher.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Nothing stands!');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1517, 'Character Treasure', 'Right', '+1G STR');
@@ -18960,7 +18960,7 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (298, 9
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Angelic Arbalest',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Generic/Card_Treasure_Angelic_Arbalest_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Generic/Angelic_Arbalest.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Angelic_Arbalest.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Give the Goddess my greetings.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1518, 'Treasure', 'Right', '+1R ARM');
@@ -18971,7 +18971,7 @@ insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (299, 869);
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Arcadian Wine',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Generic/Card_Treasure_Arcadian_Wine_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Generic/Arcadian_Wine.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Arcadian_Wine.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1519, 'Treasure', 'Bottom', '+1R DEX');
@@ -18980,8 +18980,8 @@ insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (300, 2020)
 
 --Arcane Tome --CardIndex 1520 --EquipmentIndex 301
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Arcane Tome',
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Arcane_Tome_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Back_2.0.png',
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Arcane_Tome_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Loot/Arcane_Tome.xhtml', 
 'Loot', '2.0', '2.0 Core Set', 'Default',
 'Knowledge is power.');
@@ -18991,7 +18991,7 @@ insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1520,
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Arch Wizard''s Robe',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Generic/Card_Treasure_Arch_Wizards_Robe_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Generic/Arch_Wizards_Robe.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Arch_Wizards_Robe.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Your power is mine!');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1521, 'Treasure', 'Left', '+2B WILL');
@@ -18999,8 +18999,8 @@ insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (302, 752);
 
 --Armored Assassin --CardIndex 1522 --EquipmentIndex 303
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Armored Assassin',
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Armored_Assassin_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Back_2.0.png',
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Armored_Assassin_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Loot/Armored_Assassin.xhtml', 
 'Loot', '2.0', '2.0 Core Set', 'Default',
 'Dress for the job you want, not the job you have.');
@@ -19010,7 +19010,7 @@ insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1522,
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Arrow of Seeking',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Arrow_of_Seeking_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Arrow_of_Seeking.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Arrow_of_Seeking.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1523, 'Character Treasure', 'Left', '+1G DEX');
@@ -19020,8 +19020,8 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (304, 9
 
 --Artificer Pistol --CardIndex 1524 --EquipmentIndex 305
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Artificer Pistol',
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Artificer_Pistol_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Back_2.0.png',
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Artificer_Pistol_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Loot/Artificer_Pistol.xhtml', 
 'Loot', '2.0', '2.0 Core Set', 'Default',
 'I see you''re proud of your crude blunderbuss, well...');
@@ -19031,29 +19031,27 @@ insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1524,
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Banded Bronze',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Banded_Bronze_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Banded_Bronze.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Banded_Bronze.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Stay true to the Goddess.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1525, 'Character Treasure', 'Left', '+1G ARM');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (306, 654); --Holy
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (306, 961); --Elrik the Lich King
 
---Bane Amulet --CardIndex 1526 --EquipmentIndex 307
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Bane Amulet',
-'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Bane_Amulet_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Bane_Amulet.xhtml', 
-'Treasure', '2.0', '2.0 Core Set', 'Default',
-'');  --!! unavailable !!
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1526, 'Character Treasure', 'Left', '+1G STR');  --!! unavailable !!
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (307, 466); --Blood Drinker --!! unavailable 1!
-insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (307, 1009); --Destruction --!! unavailable !!
+-- --CardIndex 1526 --EquipmentIndex 307
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('',
+'', 
+'',
+'', 
+'', '', '', '',
+'');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1526, '', '', '');
 
 --Barbarian Chic --CardIndex 1527 --EquipmentIndex 308
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Barbarian Chic',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Barbarian_Chic_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Barbarian_Chic.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Barbarian_Chic.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'The very latest thing.');  
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1527, 'Character Treasure', 'Left', '+1G ARM');  
@@ -19063,7 +19061,7 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (308, 9
 --Bashful Booty --CardIndex 1528 --EquipmentIndex 309
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Bashful Booty',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Booty/Card_Treasure_Bashful_Booty_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Back_2.0.png',
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Booty/Bashful_Booty.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Aw, she''s just a little shy!');
@@ -19072,8 +19070,8 @@ insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (309, 647);
 
 --Beginner's Spellbook --CardIndex 1529 --EquipmentIndex 310
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Beginner''s Spellbook',
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Beginners_Spellbook_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Back_2.0.png',
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Beginners_Spellbook_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Loot/Beginners_Spellbook.xhtml', 
 'Loot', '2.0', '2.0 Core Set', 'Default',
 'Never leave home without it.');
@@ -19084,7 +19082,7 @@ insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (310, 668);
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Bejeweled Shield',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Generic/Card_Treasure_Bejeweled_Shield_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Generic/Bejeweled_Shield.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Bejeweled_Shield.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1530, 'Treasure', 'Left', '+1R STR');
@@ -19092,8 +19090,8 @@ insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (311, 575);
 
 --Bent Nail --CardIndex 1531 --EquipmentIndex 312
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Bent Nail',
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Bent_Nail_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Back_2.0.png',
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Bent_Nail_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Loot/Bent_Nail.xhtml', 
 'Loot', '2.0', '2.0 Core Set', 'Default',
 'Still sharp.');
@@ -19115,7 +19113,7 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (313, 9
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Berserker''s Helm',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Generic/Card_Treasure_Berserkers_Helm_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Generic/Berserkers_Helm.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Berserkers_Helm.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1533, 'Treasure', 'Bottom', '+1R STR');
@@ -19124,7 +19122,7 @@ insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (314, 457);
 --Binding Tome --CardIndex 1534 --EquipmentIndex 315
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Binding Tome',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Books/Card_Treasure_Binding_Tome_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Back_2.0.png',
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Books/Binding_Tome.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'I''ll admit, I judged it by its cover.');
@@ -19132,8 +19130,8 @@ insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1534,
 
 --Bisento --CardIndex 1535 --EquipmentIndex 316
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Bisento',
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Bisento_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Back_2.0.png',
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Bisento_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Loot/Bisento.xhtml', 
 'Loot', '2.0', '2.0 Core Set', 'Default',
 'Stay back, Ijin.');
@@ -19142,7 +19140,7 @@ insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1535,
 --Bitey Book --CardIndex 1536 --EquipmentIndex 317
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Bitey Book',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Books/Card_Treasure_Bitey_Book_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Back_2.0.png',
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Books/Bitey_Book.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'This is why I don''t read.');
@@ -19152,7 +19150,7 @@ insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1536,
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Black Harp',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Black_Harp_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Black_Harp.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Black_Harp.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1537, 'Character Treasure', 'Top', '+2MO +1AC +1R DEX +1R WILL');
@@ -19163,7 +19161,7 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (318, 9
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Black Pearl, The',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Black_Pearl_The_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Black_Pearl_The.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Black_Pearl_The.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1538, 'Character Treasure', 'Top', '+1G ARM');
@@ -19175,7 +19173,7 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (319, 9
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Bladed Fist',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Bladed_Fist_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Bladed_Fist.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Bladed_Fist.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1539, 'Character Treasure', 'Left', '+1R STR');
@@ -19184,8 +19182,8 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (320, 9
 
 --Bladed Quarterstaff --CardIndex 1540 --EquipmentIndex 321
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Bladed Quarterstaff',
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Bladed_Quarterstaff_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Back_2.0.png',
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Bladed_Quarterstaff_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Loot/Bladed_Quarterstaff.xhtml', 
 'Loot', '2.0', '2.0 Core Set', 'Default',
 'Just a scratch...');
@@ -19196,7 +19194,7 @@ insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (321, 807);
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Blaze-Eye Blazer',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Blaze_Eye_Blazer_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Blaze_Eye_Blazer.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Blaze_Eye_Blazer.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'No flame may harm me.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1541, 'Character Treasure', 'Left', '+1B +1R ARM');
@@ -19207,7 +19205,7 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (322, 9
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Blazing Armor',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Blazing_Armor_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Blazing_Armor.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Blazing_Armor.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1542, 'Character Treasure', 'Right', '+1G ARM');
@@ -19218,7 +19216,7 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (323, 9
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Blazing Momo Yoroi',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Generic/Card_Treasure_Blazing_Momo_Yoroi_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Generic/Blazing_Momo_Yoroi.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Blazing_Momo_Yoroi.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1543, 'Treasure', 'Left', '+1G ARM');
@@ -19238,7 +19236,7 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (325, 9
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Blessed Spear',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Generic/Card_Treasure_Blessed_Spear_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Generic/Blessed_Spear.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Blessed_Spear.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1545, 'Treasure', 'Left', '+1R STR');
@@ -19270,7 +19268,7 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (328, 9
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Blue Shell',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Blue_Shell_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Blue_Shell.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Blue_Shell.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Got him!');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1548, 'Character Treasure', 'Left', '+1G DEX');
@@ -19282,7 +19280,7 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (329, 9
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Bluraz Fizzy Blast',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Generic/Card_Treasure_Bluraz_Fizzy_Blast_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Generic/Bluraz_Fizzy_Blast.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Bluraz_Fizzy_Blast.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1549, 'Treasure', 'Top', '+1AC');
@@ -19291,7 +19289,7 @@ insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (330, 890);
 --Bodacious Binding --CardIndex 1550 --EquipmentIndex 331
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Bodacious Binding',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Books/Card_Treasure_Bodacious_Binding_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Back_2.0.png',
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Books/Bodacious_Binding.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'I''ll admit, I judged it by its cover.');
@@ -19311,7 +19309,7 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (332, 9
 --Booty Biter --CardIndex 1552 --EquipmentIndex 333
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Booty Biter',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Booty/Card_Treasure_Booty_Biter_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Back_2.0.png',
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Booty/Booty_Biter.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Watch your fingers, this Boo Booty bites!');
@@ -19320,7 +19318,7 @@ insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1552,
 --Booty Grinder --CardIndex 1553 --EquipmentIndex 334
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Booty Grinder',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Booty/Card_Treasure_Booty_Grinder_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Back_2.0.png',
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Booty/Booty_Grinder.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Crunch, crunch, crunch. Booty Grinders live to devour your gear.');
@@ -19331,7 +19329,7 @@ insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (334, 648);
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Bottlecap Caltrops',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Generic/Card_Treasure_Bottlecap_Caltrops_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Generic/Bottlecap_Caltrops.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Bottlecap_Caltrops.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Your feet are doomed!');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1554, 'Treasure', 'Left', '+1G DEX');
@@ -19376,7 +19374,7 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (338, 9
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Branch Blade',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Branch_Blade_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Branch_Blade.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Branch_Blade.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1558, 'Character Treasure', 'Right', '+1R STR');
@@ -19385,8 +19383,8 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (339, 9
 
 --Brass Knuckles --CardIndex 1559 --EquipmentIndex 340
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Brass Knuckles',
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Brass_Knuckles_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Back_2.0.png',
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Brass_Knuckles_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Loot/Brass_Knuckles.xhtml', 
 'Loot', '2.0', '2.0 Core Set', 'Default',
 'When you''re tired of messing around.');
@@ -19394,8 +19392,8 @@ insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1559,
 
 --Broken Joystiq --CardIndex 1560 --EquipmentIndex 341
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Broken Joystiq',
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Broken_Joystiq_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Back_2.0.png',
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Broken_Joystiq_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Loot/Broken_Joystiq.xhtml', 
 'Loot', '2.0', '2.0 Core Set', 'Default',
 'I can only go right!');
@@ -19406,7 +19404,7 @@ insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (341, 680);
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Brute Lord Bracers',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Brute_Lord_Bracers_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Brute_Lord_Bracers.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Brute_Lord_Bracers.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Kill, Maim, Burn!');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1561, 'Character Treasure', 'Top', '+1R STR');
@@ -19417,7 +19415,7 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (342, 9
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Bubble Bop Grape Attack',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Generic/Card_Treasure_Bubble_Bop_Grape_Attack_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Generic/Bubble_Bop_Grape_Attack.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Bubble_Bop_Grape_Attack.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1562, 'Treasure', 'Top', '+1G STR');
@@ -19426,8 +19424,8 @@ insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (343, 1812)
 
 --Bubbly Beverage --CardIndex 1563 --EquipmentIndex 344
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Bubbly Beverage',
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Bubbly_Beverage_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Back_2.0.png',
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Bubbly_Beverage_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Loot/Bubbly_Beverage.xhtml', 
 'Loot', '2.0', '2.0 Core Set', 'Default',
 'Does sugar always do this to you?');
@@ -19448,7 +19446,7 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (345, 9
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Burial Robes',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Burial_Robes_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Burial_Robes.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Burial_Robes.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'You seriously want me to wear these?');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1565, 'Character Treasure', 'Left', '+2R ARM');
@@ -19459,7 +19457,7 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (346, 9
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Burlap Sack',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Burlap_Sack_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Burlap_Sack.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Burlap_Sack.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '"Look at all the stuff you can put in here!"'); 
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1566, 'Character Treasure', 'Top', '+1R STR +1R ARM +1R WILL +1R DEX');  
@@ -19469,7 +19467,7 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (347, 9
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Burning Eye',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Generic/Card_Treasure_Burning_Eye_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Generic/Burning_Eye.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Burning_Eye.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'My eyes! They burn!');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1567, 'Treasure', 'Bottom', '+1G STR');
@@ -19479,7 +19477,7 @@ insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (348, 588);
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Burning Horn',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Burning_Horn_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Burning_Horn.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Burning_Horn.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Let them all burn.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1568, 'Character Treasure', 'Bottom', '+1G STR');
@@ -19501,8 +19499,8 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (350, 9
 
 --Burnt Twig --CardIndex 1570 --EquipmentIndex 351
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Burnt Twig',
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Burnt_Twig_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Back_2.0.png',
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Burnt_Twig_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Loot/Burnt_Twig.xhtml', 
 'Loot', '2.0', '2.0 Core Set', 'Default',
 'Surprisingly warm.');
@@ -19513,7 +19511,7 @@ insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (351, 676);
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Candy''s Prize',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Generic/Card_Treasure_Candys_Prize_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Generic/Candys_Prize.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Candys_Prize.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'I guessed how many were in the jar!');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1571, 'Treasure', 'Left', '+1G STR');
@@ -19525,7 +19523,7 @@ insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (352, 1736)
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Cat''s Paw',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Cats_Paw_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Cats_Paw.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Cats_Paw.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1572, 'Character Treasure', 'Left', '+1R DEX 2 +1G DEX');
@@ -19538,7 +19536,7 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (353, 9
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Celestial Lance',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Generic/Card_Treasure_Celestial_Lance_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Generic/Celestial_Lance.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Celestial_Lance.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1573, 'Treasure', 'Right', '+1R ARM');
@@ -19546,17 +19544,17 @@ insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (354, 1228)
 
 --Celestian Armbands --CardIndex 1574 --EquipmentIndex 355
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Celestian Armbands',
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Celestian Armbands_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Loot/Celestian Armbands.xhtml', 
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Celestian_Armbands_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Back_2.0.png',
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Loot/Celestian_Armbands.xhtml', 
 'Loot', '2.0', '2.0 Core Set', 'Default',
 'Improve your hugs.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1574, 'Loot', 'Top', '+1B ARM');
 
 --Celestian Tiara --CardIndex 1575 --EquipmentIndex 356
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Celestian Tiara',
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Celestian_Tiara_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Back_2.0.png',
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Celestian_Tiara_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Loot/Celestian_Tiara.xhtml', 
 'Loot', '2.0', '2.0 Core Set', 'Default',
 'Fighting evil in style.');
@@ -19566,7 +19564,7 @@ insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1575,
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Chained Locket',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Chained_Locket_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Chained_Locket.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Chained_Locket.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1576, 'Character Treasure', 'Top', '+2 HEALTH');
@@ -19575,8 +19573,8 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (357, 9
 
 --Chainmail --CardIndex 1577 --EquipmentIndex 358
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Chainmail',
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Chainmail_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Back_2.0.png',
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Chainmail_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Loot/Chainmail.xhtml', 
 'Loot', '2.0', '2.0 Core Set', 'Default',
 'Come at me!');
@@ -19584,8 +19582,8 @@ insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1577,
 
 --Chainmail Coif --CardIndex 1578 --EquipmentIndex 359
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Chainmail Coif',
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Chainmail_Coif_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Back_2.0.png',
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Chainmail_Coif_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Loot/Chainmail_Coif.xhtml', 
 'Loot', '2.0', '2.0 Core Set', 'Default',
 'Always protect your head.');
@@ -19595,7 +19593,7 @@ insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1578,
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Chains of Service',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Chains_of_Service_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Chains_of_Service.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Chains_of_Service.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1579, 'Character Treasure', 'Top', '+1G WILL');
@@ -19607,7 +19605,7 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (360, 9
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Champion''s Regalia',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Generic/Card_Treasure_Champions_Regalia_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Generic/Champions_Regalia.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Champions_Regalia.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'To the winner go the spoils.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1580, 'Treasure', 'Left', '+2B STR');
@@ -19617,7 +19615,7 @@ insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (361, 684);
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Checkpoint',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Generic/Card_Treasure_Checkpoint_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Generic/Checkpoint.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Checkpoint.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Would you like to save?');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1581, 'Treasure', 'Top', '');
@@ -19627,7 +19625,7 @@ insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (362, 443);
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Cheese Head',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Cheese_Head_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Cheese_Head.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Cheese_Head.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1582, 'Character Treasure', 'Bottom', '+1G ARM');
@@ -19638,7 +19636,7 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (363, 9
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Chew Toy',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Generic/Card_Treasure_Chew_Toy_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Generic/Chew_Toy.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Chew_Toy.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1583, 'Treasure', 'Top', '+1AC');
@@ -19648,7 +19646,7 @@ insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (364, 1223)
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Chill Song',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Chill_Song_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Chill_Song.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Chill_Song.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '"Blarrttt!" never sounded so chilling.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1584, 'Character Treasure', 'Left', '+1G STR');
@@ -19658,8 +19656,8 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (365, 9
 
 --Chimeric Battleblade --CardIndex 1585 --EquipmentIndex 366
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Chimeric Battleblade',
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Chimeric_Battleblade_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Back_2.0.png',
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Chimeric_Battleblade_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Loot/Chimeric_Battleblade.xhtml', 
 'Loot', '2.0', '2.0 Core Set', 'Default',
 'Chimeric battleblades change with each user. The fierce wield blades of flame, the cold-hearted blades of ice.');
@@ -19670,7 +19668,7 @@ insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (366, 668);
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Citrine Crystal Shard',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Generic/Card_Treasure_Citrine_Crystal_Shard_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Generic/Citrine_Crystal_Shard.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Citrine_Crystal_Shard.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1586, 'Treasure', 'Right', '+1G STR');
@@ -19681,7 +19679,7 @@ insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (367, 1538)
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Clan Tora Gusoku',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Generic/Card_Treasure_Clan_Tora_Gusoku_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Generic/Clan_Tora_Gusoku.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Clan_Tora_Gusoku.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1587, 'Treasure', 'Left', '+1G ARM');
@@ -19691,7 +19689,7 @@ insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (368, 1007)
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Claws of the Tiger',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Generic/Card_Treasure_Claws_of_the_Tiger_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Generic/Claws_of_the_Tiger.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Claws_of_the_Tiger.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Crude, but effective.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1588, 'Treasure', 'Right', '+1R STR');
@@ -19701,7 +19699,7 @@ insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (369, 482);
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Cloak of Wards',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Generic/Card_Treasure_Cloak_of_Wards_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Generic/Cloak_of_Wards.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Cloak_of_Wards.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Nothing can penetrate my defense.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1589, 'Treasure', 'Bottom', '+1G ARM');
@@ -19709,9 +19707,9 @@ insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (370, 678);
 
 --Clockwork Canary --CardIndex 1590 --EquipmentIndex 371
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Clockwork Canary',
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Clockwork Canary_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Loot/Clockwork Canary.xhtml', 
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Clockwork_Canary_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Back_2.0.png',
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Loot/Clockwork_Canary.xhtml', 
 'Loot', '2.0', '2.0 Core Set', 'Default',
 'Keep your eye on the canary.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1590, 'Loot', 'Bottom', '+1B ARM');
@@ -19719,9 +19717,9 @@ insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (371, 679);
 
 --Clockwork Gatling --CardIndex 1591 --EquipmentIndex 372
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Clockwork Gatling',
-'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Clockwork Gatling_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Clockwork_Gatling_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Clockwork_Gatling.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Clockwork_Gatling.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Watch where you point that!');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1591, 'Character Treasure', 'Right', '+3B DEX');
@@ -19733,7 +19731,7 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (372, 9
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Clockwork Harness',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Generic/Card_Treasure_Clockwork_Harness_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Generic/Clockwork_Harness.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Clockwork_Harness.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'When you hear the click, get down.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1592, 'Treasure', 'Left', '+1R ARM');
@@ -19741,8 +19739,8 @@ insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (373, 533);
 
 --Clockwork Swift --CardIndex 1593 --EquipmentIndex 374
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Clockwork Swift',
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Clockwork_Swift_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Back_2.0.png',
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Clockwork_Swift_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Loot/Clockwork_Swift.xhtml', 
 'Loot', '2.0', '2.0 Core Set', 'Default',
 'Keep your eye on the swift.');
@@ -19753,7 +19751,7 @@ insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (374, 679);
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Cocooned Hero',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Cocooned_Hero_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Cocooned_Hero.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Cocooned_Hero.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1594, 'Character Treasure', 'Right', '+1R WILL');
@@ -19764,7 +19762,7 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (375, 9
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Cog Hammer',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Cog_Hammer_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Cog_Hammer.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Cog_Hammer.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1595, 'Character Treasure', 'Left', '+2B STR');
@@ -19787,7 +19785,7 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (377, 9
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Corpse Hand',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Generic/Card_Treasure_Corpse_Hand_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Generic/Corpse_Hand.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Corpse_Hand.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Must you bring that thing everywhere?');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1597, 'Loot', 'Top', '+1R WILL');
@@ -19798,7 +19796,7 @@ insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (378, 647);
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Cotton Candy Kitty Cloak',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Generic/Card_Treasure_Cotton_Candy_Kitty_Cloak_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Generic/Cotton_Candy_Kitty_Cloak.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Cotton_Candy_Kitty_Cloak.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1598, 'Treasure', 'Left', '+1G DEX');
@@ -19806,8 +19804,8 @@ insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (379, 1021)
 
 --Coward's Boots --CardIndex 1599 --EquipmentIndex 380
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Cowards Boots',
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Cowards_Boots_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Back_2.0.png',
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Cowards_Boots_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Loot/Cowards_Boots.xhtml', 
 'Loot', '2.0', '2.0 Core Set', 'Default',
 'Run away!');
@@ -19817,7 +19815,7 @@ insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (380, 680);
 --Creepy Kyorinrin --CardIndex 1600 --EquipmentIndex 381
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Creepy Kyorinrin',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Books/Card_Treasure_Creepy_Kyorinrin_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Back_2.0.png',
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Books/Creepy_Kyorinrin.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Betrayed. By a book.');
@@ -19827,7 +19825,7 @@ insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1600,
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Crimson Plate',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Crimson_Plate_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Crimson_Plate.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Crimson_Plate.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Away, ye foul-brouthed abominations!');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1601, 'Character Treasure', 'Left', '+1G ARM');
@@ -19838,7 +19836,7 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (382, 9
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ancient Crusher',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Crimson_Watcher_The_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Crimson_Watcher_The.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Crimson_Watcher_The.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1602, 'Character Treasure', 'Bottom', '+1R WILL');
@@ -19849,7 +19847,7 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (383, 9
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Crown Of Frost',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Crown_Of_Frost_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Crown_Of_Frost.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Crown_Of_Frost.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Your tongue will get stuck if you lick it.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1603, 'Character Treasure', 'Bottom', '+1G DEX');
@@ -19859,8 +19857,8 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (384, 9
 
 --Crude Blunderbuss --CardIndex 1604 --EquipmentIndex 385
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Crude Blunderbuss',
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Crude_Blunderbuss_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Back_2.0.png',
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Crude_Blunderbuss_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Loot/Crude_Blunderbuss.xhtml', 
 'Loot', '2.0', '2.0 Core Set', 'Default',
 'It''s bound to hit something...');
@@ -19869,8 +19867,8 @@ insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (385, 901);
 
 --Crystalian Tunic --CardIndex 1605 --EquipmentIndex 386
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Crystalian Tunic',
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Crystalian_Tunic_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Back_2.0.png',
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Crystalian_Tunic_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Loot/Crystalian_Tunic.xhtml', 
 'Loot', '2.0', '2.0 Core Set', 'Default',
 'What strange clothes from a far-off land...');
@@ -19881,7 +19879,7 @@ insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (386, 706);
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Crystal Key',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Crystal_Key_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Crystal_Key.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Crystal_Key.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'This should do the trick...');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1606, 'Character Treasure', 'Left', '+1G DEX');
@@ -19892,7 +19890,7 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (387, 9
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Crystal Munition',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Crystal_Munition_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Crystal_Munition.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Crystal_Munition.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1607, 'Character Treasure', 'Left', '+1G DEX');
@@ -19902,8 +19900,8 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (388, 9
 
 --Crystal Shard --CardIndex 1608 --EquipmentIndex 389
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Crystal Shard',
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Crystal_Shard_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Back_2.0.png',
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Crystal_Shard_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Loot/Crystal_Shard.xhtml', 
 'Loot', '2.0', '2.0 Core Set', 'Default',
 'Hold it to the light--rainbows!');
@@ -19913,7 +19911,7 @@ insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1608,
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Cursed Remains',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Cursed_Remains_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Cursed_Remains.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Cursed_Remains.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1609, 'Character Treasure', 'Right', '+1G STR');
@@ -19935,7 +19933,7 @@ insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1610,
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Dagger of Malice',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Dagger_of_Malice_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Dagger_of_Malice.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Dagger_of_Malice.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1611, 'Character Treasure', 'Right', '+1G STR');
@@ -19967,7 +19965,7 @@ insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (397, 511);
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Darkwood Bow',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Darkwood_Bow_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Darkwood_Bow.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Darkwood_Bow.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1614, 'Character Treasure', 'Left', '+1G DEX');
@@ -19978,7 +19976,7 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (395, 9
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Darkwood Staff',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Darkwood_Staff_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Darkwood_Staff.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Darkwood_Staff.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1615, 'Character Treasure', 'Right', '+1G STR');
@@ -19989,7 +19987,7 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (396, 9
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Dark Dragon',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Dark_Dragon_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Dark_Dragon.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Dark_Dragon.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Your end approaches, beast.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1616, 'Character Treasure', 'Right', '+1G STR');
@@ -20000,7 +19998,7 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (397, 9
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Dawn Break',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Dawn_Break_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Dawn_Break.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Dawn_Break.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Flee before the light!');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1617, 'Character Treasure', 'Right', '+1G STR');
@@ -20009,8 +20007,8 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (398, 9
 
 --Deadly Dirk --CardIndex 1618 --EquipmentIndex 399
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Deadly Dirk',
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Deadly_Dirk_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Back_2.0.png',
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Deadly_Dirk_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Loot/Deadly_Dirk.xhtml', 
 'Loot', '2.0', '2.0 Core Set', 'Default',
 'Just a little stick.');
@@ -20021,7 +20019,7 @@ insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (399, 807);
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Death''s Notebook',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Deaths_Notebook_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Deaths_Notebook.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Deaths_Notebook.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1619, 'Character Treasure', 'Top', '+1G WILL');
@@ -20032,7 +20030,7 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (400, 9
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Delicate Riding Spear',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Generic/Card_Treasure_Delicate_Riding_Spear_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Generic/Delicate_Riding_Spear.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Delicate_Riding_Spear.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1620, 'Treasure', 'Right', '+1R ARM +1R DEX');
@@ -20042,7 +20040,7 @@ insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (401, 516);
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Demon''s Bane',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Demons_Bane_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Demons_Bane.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Demons_Bane.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1621, 'Character Treasure', 'Bottom', '+1R STR +1R WILL +1R DEX');
@@ -20064,7 +20062,7 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (403, 8
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Devil''s Eye, The',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Devils_Eye_The_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Devils_Eye_The.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Devils_Eye_The.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1623, 'Character Treasure', 'Top', '+2B WILL +2B DEX');
@@ -20075,7 +20073,7 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (404, 9
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Devouring Sphere',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Generic/Card_Treasure_Devouring_Sphere_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Generic/Devouring_Sphere.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Devouring_Sphere.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1624, 'Treasure', 'Right', '+2B ARM');
@@ -20083,8 +20081,8 @@ insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (405, 816);
 
 --Diamond Helm --CardIndex 1625 --EquipmentIndex 406
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Diamond Helm',
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Diamond_Helm_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Back_2.0.png',
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Diamond_Helm_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Loot/Diamond_Helm.xhtml', 
 'Loot', '2.0', '2.0 Core Set', 'Default',
 'Resplendent and sparkly.');
@@ -20092,8 +20090,8 @@ insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1625,
 
 --Diamond Plate --CardIndex 1626 --EquipmentIndex 407
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Diamond Plate',
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Diamond_Plate_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Back_2.0.png',
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Diamond_Plate_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Loot/Diamond_Plate.xhtml', 
 'Loot', '2.0', '2.0 Core Set', 'Default',
 'Ultimate protection? Priceless.');
@@ -20101,8 +20099,8 @@ insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1626,
 
 --Dirty Penny --CardIndex 1627 --EquipmentIndex 408
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Dirty Penny',
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Dirty_Penny_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Back_2.0.png',
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Dirty_Penny_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Loot/Dirty_Penny.xhtml', 
 'Loot', '2.0', '2.0 Core Set', 'Default',
 'Never underestimate a bad penny.');
@@ -20113,7 +20111,7 @@ insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (408, 673);
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Discordant Gem',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Discordant_Gem_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Discordant_Gem.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Discordant_Gem.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1628, 'Character Treasure', 'Top', '+1B STR +1B WILL +1B DEX');
@@ -20122,9 +20120,9 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (409, 9
 
 --Divine Destrier --CardIndex 1629 --EquipmentIndex 410
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Divine Destrier',
-'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Divine_Detrier_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Divine_Destrier_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Divine_Destrier.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Divine_Destrier.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1629, 'Character Treasure', 'Top', '+3MO');
@@ -20135,7 +20133,7 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (410, 7
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Divine Vestments',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Generic/Card_Treasure_Divine_Vestments_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Generic/Divine_Vestments.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Divine_Vestments.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'May the Goddess bring you comfort.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1630, 'Treasure', 'Left', '+1G WILL');
@@ -20147,7 +20145,7 @@ insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (411, 46); 
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Dragon Bow',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Dragon_Bow_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Dragon_Bow.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Dragon_Bow.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Everyone get down!');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1631, 'Character Treasure', 'Right', '+1G DEX');
@@ -20158,7 +20156,7 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (412, 9
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Dragon Breath Blunderbuss',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Generic/Card_Treasure_Dragon_Breath_Blunderbuss_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Generic/Dragon_Breath_Blunderbuss.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Dragon_Breath_Blunderbuss.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Those gnomes outdid themselves with this one.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1632, 'Treasure', 'Left', '+1R DEX');
@@ -20170,7 +20168,7 @@ insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (413, 2100)
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Dragon Horn',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Dragon_Horn_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Dragon_Horn.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Dragon_Horn.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1633, 'Character Treasure', 'Top', '+1R STR');
@@ -20193,7 +20191,7 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (415, 9
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Dragon Tooth Club',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Dragon_Tooth_Club_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Dragon_Tooth_Club.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Dragon_Tooth_Club.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Smash! Smash! Smash, little ants.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1635, 'Character Treasure', 'Right', '+2B STR');
@@ -20202,8 +20200,8 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (416, 9
 
 --Dragon Tooth Shortbow --CardIndex 1636 --EquipmentIndex 417
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Dragon Tooth Shortbow',
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Dragon_Tooth_Shortbow_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Back_2.0.png',
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Dragon_Tooth_Shortbow_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Loot/Dragon_Tooth_Shortbow.xhtml', 
 'Loot', '2.0', '2.0 Core Set', 'Default',
 'It is said the spirit of the slain dragon curses every arrow as it leaves the bow.');
@@ -20214,7 +20212,7 @@ insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (417, 454);
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Dragonblade Plate',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Dragonblade_Plate_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Dragonblade_Plate.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Dragonblade_Plate.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Your reign of terror ends now!');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1637, 'Character Treasure', 'Left', '');
@@ -20226,7 +20224,7 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (418, 9
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Driving Hat',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Driving_Hat_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Driving_Hat.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Driving_Hat.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1638, 'Character Treasure', 'Bottom', '+1G WILL');
@@ -20234,11 +20232,11 @@ insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (419, 1021)
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (419, 962); --Gnomish Excavator
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (419, 976); --Professor Cackle-Clink
 
---Duelist Tunic --CardIndex 1639 --EquipmentIndex 420
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Duelist Tunic',
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Duelist_Tunic_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Loot/Duelist_Tunic.xhtml', 
+--Duelist's Tunic --CardIndex 1639 --EquipmentIndex 420
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Duelist''s Tunic',
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Duelists_Tunic_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Back_2.0.png',
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Loot/Duelists_Tunic.xhtml', 
 'Loot', '2.0', '2.0 Core Set', 'Default',
 'Always look your best while raiding.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1639, 'Loot', 'Left', '+1B DEX');
@@ -20246,8 +20244,8 @@ insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (420, 706);
 
 --Dungeon Map --CardIndex 1640 --EquipmentIndex 421
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Dungeon Map',
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Dungeon_Map_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Back_2.0.png',
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Dungeon_Map_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Loot/Dungeon_Map.xhtml', 
 'Loot', '2.0', '2.0 Core Set', 'Default',
 'I''m positive it''s that way.');
@@ -20255,8 +20253,8 @@ insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1640,
 
 --Dwarf Runestone --CardIndex 1641 --EquipmentIndex 422
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Dwarf Runestone',
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Dwarf_Runestone_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Back_2.0.png',
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Dwarf_Runestone_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Loot/Dwarf_Runestone.xhtml', 
 'Loot', '2.0', '2.0 Core Set', 'Default',
 'I''d translate it, but there are children present.');
@@ -20264,8 +20262,8 @@ insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1641,
 
 --Dwarven Axe --CardIndex 1642 --EquipmentIndex 423
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Dwarven Axe',
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Dwarven_Axe_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Back_2.0.png',
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Dwarven_Axe_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Loot/Dwarven_Axe.xhtml', 
 'Loot', '2.0', '2.0 Core Set', 'Default',
 'Forged by dwarves and just as reliable.');
@@ -20273,8 +20271,8 @@ insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1642,
 
 --Dwarven Doublet --CardIndex 1643 --EquipmentIndex 424
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Dwarven Doublet',
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Dwarven_Doublet_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Back_2.0.png',
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Dwarven_Doublet_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Loot/Dwarven_Doublet.xhtml', 
 'Loot', '2.0', '2.0 Core Set', 'Default',
 'Always leave the arms free to maximize your axe swing.');
@@ -20282,8 +20280,8 @@ insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1643,
 
 --Dwarven Helm --CardIndex 1644 --EquipmentIndex 425
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Dwarven Helm',
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Dwarven_Helm_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Back_2.0.png',
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Dwarven_Helm_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Loot/Dwarven_Helm.xhtml', 
 'Loot', '2.0', '2.0 Core Set', 'Default',
 'Headbutt!');
@@ -20292,8 +20290,8 @@ insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (425, 706);
 
 --Dwarven Horn --CardIndex 1645 --EquipmentIndex 426
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Dwarven Horn',
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Dwarven_Horn_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Back_2.0.png',
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Dwarven_Horn_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Loot/Dwarven_Horn.xhtml', 
 'Loot', '2.0', '2.0 Core Set', 'Default',
 'Blow on it, or just hit someone with it.');
@@ -20301,8 +20299,8 @@ insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1645,
 
 --Elven Longbow --CardIndex 1646 --EquipmentIndex 427
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Elven Longbow',
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Elven_Longbow_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Back_2.0.png',
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Elven_Longbow_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Loot/Elven_Longbow.xhtml', 
 'Loot', '2.0', '2.0 Core Set', 'Default',
 'You don''t need armor if your enemies never reach you.');
@@ -20310,8 +20308,8 @@ insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1646,
 
 --Elvish Boots --CardIndex 1647 --EquipmentIndex 428
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Elvish Boots',
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Elvish_Boots_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Back_2.0.png',
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Elvish_Boots_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Loot/Elvish_Boots.xhtml', 
 'Loot', '2.0', '2.0 Core Set', 'Default',
 'Perfect for any dungeon terrain.');
@@ -20320,8 +20318,8 @@ insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (428, 1023)
 
 --Elvish Bracelet --CardIndex 1648 --EquipmentIndex 429
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Elvish Bracelet',
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Elvish_Bracelet_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Back_2.0.png',
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Elvish_Bracelet_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Loot/Elvish_Bracelet.xhtml', 
 'Loot', '2.0', '2.0 Core Set', 'Default',
 'I love charm bracelets!');
@@ -20330,8 +20328,8 @@ insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (429, 674);
 
 --Elvish Cloak --CardIndex 1649 --EquipmentIndex 430
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Elvish Cloak',
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Elvish_Cloak_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Back_2.0.png',
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Elvish_Cloak_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Loot/Elvish_Cloak.xhtml', 
 'Loot', '2.0', '2.0 Core Set', 'Default',
 'Alone in a crowd. Hidden in a shadow.');
@@ -20339,8 +20337,8 @@ insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1649,
 
 --Elvish Rapier --CardIndex 1650 --EquipmentIndex 431
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Elvish Rapier',
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Elvish_Rapier_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Back_2.0.png',
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Elvish_Rapier_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Loot/Elvish_Rapier.xhtml', 
 'Loot', '2.0', '2.0 Core Set', 'Default',
 'Beautiful and deadly.');
@@ -20350,7 +20348,7 @@ insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1650,
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ember Tower Robes',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Generic/Card_Treasure_Ember_Tower_Robes_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Generic/Ember_Tower_Robes.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Ember_Tower_Robes.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Only the most esteemed Ember Mages wear the robes of the tower.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1651, 'Treasure', 'Left', '+1R WILL');
@@ -20361,7 +20359,7 @@ insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (432, 1141)
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Emerald Crystal Shard',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Generic/Card_Treasure_Emerald_Crystal_Shard_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Generic/Emerald_Crystal_Shard.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Emerald_Crystal_Shard.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Those gnomes outdid themselves with this one.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1652, 'Treasure', 'Left', '+1G DEX');
@@ -20370,8 +20368,8 @@ insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (433, 1537)
 
 --Empty Jar --CardIndex 1653 --EquipmentIndex 434
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Empty Jar',
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Empty_Jar_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Back_2.0.png',
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Empty_Jar_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Loot/Empty_Jar.xhtml', 
 'Loot', '2.0', '2.0 Core Set', 'Default',
 'You fought a dungeon full of kobolds for this?');
@@ -20381,7 +20379,7 @@ insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1653,
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Enchanted No-Dachi',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Generic/Card_Treasure_Enchanted_No_Dachi_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Generic/Enchanted_No_Dachi.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Enchanted_No_Dachi.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1654, 'Treasure', 'Right', '+1R STR');
@@ -20400,7 +20398,7 @@ insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1655,
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Enforced Virtue',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Enforced_Virtue_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Enforced_Virtue.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Enforced_Virtue.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'You''re kidding me right?');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1656, 'Character Treasure', 'Top', '');
@@ -20413,7 +20411,7 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (437, 3
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Envenomed Blade',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Envenomed_Blade_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Envenomed_Blade.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Envenomed_Blade.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'One cut. One less foe.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1657, 'Character Treasure', 'Left', '+1G DEX');
@@ -20436,7 +20434,7 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (439, 9
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Executioner''s Axe',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Generic/Card_Treasure_Executioners_Axe_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Generic/Executioners_Axe.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Executioners_Axe.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Off with their heads!');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1659, 'Treasure', 'Right', '+1R ARM');
@@ -20447,7 +20445,7 @@ insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (440, 1081)
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Exemplar Fullplate',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Exemplar_Fullplate_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Exemplar_Fullplate.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Exemplar_Fullplate.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Did he forget to put it on...?');  
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1660, 'Character Treasure', 'Right', '+1R ARM');
@@ -20458,7 +20456,7 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (441, 9
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Exorcist',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Exorcist_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Exorcist.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Exorcist.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1661, 'Character Treasure', 'Top', '+1G DEX');
@@ -20478,8 +20476,8 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (443, 9
 
 --Extra Pixels --CardIndex 1663 --EquipmentIndex 444
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Adventurer Plate',
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Extra_Pixels_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Back_2.0.png',
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Extra_Pixels_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Loot/Extra_Pixels.xhtml', 
 'Loot', '2.0', '2.0 Core Set', 'Default',
 'Look at that resolution.');
@@ -20490,7 +20488,7 @@ insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (444, 675);
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Faerie Blade',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Generic/Card_Treasure_Faerie_Blade_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Generic/Faerie_Blade.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Faerie_Blade.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'They fell like leaves to the forest floor...');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1664, 'Treasure', 'Right', '+1R DEX');
@@ -20509,8 +20507,8 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (446, 9
 
 --Fashionable Cape --CardIndex 1666 --EquipmentIndex 447
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Fashionable Cape',
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Fashionable_Cape_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Back_2.0.png',
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Fashionable_Cape_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Loot/Fashionable_Cape.xhtml', 
 'Loot', '2.0', '2.0 Core Set', 'Default',
 'Adventuring in style.');
@@ -20538,7 +20536,7 @@ insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1668,
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Fireflow Stave',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Generic/Card_Treasure_Fireflow_Stave_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Generic/Fireflow_Stave.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Fireflow_Stave.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Get ready! FIIIIIIIRE BAAAAAALL!');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1669, 'Treasure', 'Right', '+1R WILL');
@@ -20547,8 +20545,8 @@ insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (450, 1125)
 
 --Fizzy Beverage --CardIndex 1670 --EquipmentIndex 451
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Fizzy Beverage',
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Fizzy_Beverage_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Back_2.0.png',
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Fizzy_Beverage_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Loot/Fizzy_Beverage.xhtml', 
 'Loot', '2.0', '2.0 Core Set', 'Default',
 'So much fizz! So much caffeine! So much sugar! Let''s do this!');
@@ -20556,8 +20554,8 @@ insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1670,
 
 --Fizzy Beverage alt --CardIndex 1671 --EquipmentIndex 452
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Fizzy Beverage alt',
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Fizzy_Beverage_alt_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Back_2.0.png',
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Fizzy_Beverage_alt_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Loot/Fizzy_Beverage_alt.xhtml', 
 'Loot', '2.0', '2.0 Core Set', 'Default',
 'So much sugar!');
@@ -20610,7 +20608,7 @@ insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (456, 511);
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Forbidden Tome',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Generic/Card_Treasure_Forbidden_Tome_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Generic/Forbidden_Tome.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Forbidden_Tome.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1676, 'Treasure', 'Bottom', '+1G WILL');
@@ -20620,7 +20618,7 @@ insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (457, 1160)
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Foreman''s Mine Cart',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Foremans_Mine_Cart_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Foremans_Mine_Cart.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Foremans_Mine_Cart.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1677, 'Character Treasure', 'Top', '+2B STR');
@@ -20631,7 +20629,7 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (458, 9
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Fraggle Stikkar',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Fraggle_Stikkar_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Fraggle_Stikkar.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Fraggle_Stikkar.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1678, 'Character Treasure', 'Right', '+1G STR');
@@ -20641,8 +20639,8 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (459, 9
 
 --Freyjan Hairball --CardIndex 1679 --EquipmentIndex 460
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Freyjan Hairball',
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Freyjan_Hairball_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Back_2.0.png',
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Freyjan_Hairball_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Loot/Freyjan_Hairball.xhtml', 
 'Loot', '2.0', '2.0 Core Set', 'Default',
 'You have been honored by the Freyjan people.');
@@ -20653,7 +20651,7 @@ insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (460, 901);
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Freyjan Skin',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Freyjan_Skin_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Freyjan_Skin.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Freyjan_Skin.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');  --!! unavailable !!
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1680, 'Character Treasure', 'Bottom', '+1R DEX +');  --!! unavailable !!
@@ -20664,7 +20662,7 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (461, 9
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Fried Eggs',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Fried_Eggs_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Fried_Eggs.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Fried_Eggs.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1681, 'Character Treasure', 'Top', '+1R STR +1R WILL +1R DEX');
@@ -20676,7 +20674,7 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (462, 9
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Frost Warden Armor',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Frost_Warden_Armor_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Frost_Warden_Armor.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Frost_Warden_Armor.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'I stand ready.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1682, 'Character Treasure', 'Left', '+1G ARM');
@@ -20699,7 +20697,7 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (464, 9
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Frozen Falchion',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Frozen_Falchion_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Frozen_Falchion.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Frozen_Falchion.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Have you ever heard ice shriek as it cracks?');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1684, 'Character Treasure', 'Right', '+2B STR');
@@ -20710,7 +20708,7 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (465, 9
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Frozen Hammer',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Frozen_Hammer_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Frozen_Hammer.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Frozen_Hammer.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');  --!! unavailable !!
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1685, 'Character Treasure', 'Right', '+1G STR');  --!! unavailable !!
@@ -20732,7 +20730,7 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (467, 9
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Frozen Wand',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Frozen_Wand_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Frozen_Wand.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Frozen_Wand.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');  --!! unavailable !!
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1687, 'Character Treasure', 'Right', '+1G STR');  --!! unavailable !!
@@ -20744,7 +20742,7 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (468, 9
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Fruit Spash Cherry Bomb',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Generic/Card_Treasure_Fruit_Splash_Cherry_Bomb_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Generic/Fruit_Splash_Cherry_Bomb.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Fruit_Splash_Cherry_Bomb.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1688, 'Treasure', 'Top', '+1AC');
@@ -20774,7 +20772,7 @@ insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1690,
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Gem of Alar City',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Generic/Card_Treasure_Gem_of_Alar_City_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Generic/Gem_of_Alar_City.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Gem_of_Alar_City.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'You show remarkable alacrity.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1691, 'Treasure', 'Bottom', '+1G WILL');
@@ -20783,7 +20781,7 @@ insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1691,
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Gem of Greed',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Gem_of_Greed_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Gem_of_Greed.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Gem_of_Greed.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Mine! It''s all mine!');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1692, 'Character Treasure', 'Top', 'A model with the Gem of Greed may equip two pieces of equipment to every slot. It may not equip a second treasure card.');
@@ -20793,7 +20791,7 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (473, 9
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ghostflame Amulet',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Ghostflame_Amulet_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Ghostflame_Amulet.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Ghostflame_Amulet.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1693, 'Character Treasure', 'Bottom', '+1B STR +1B WILL +1B DEX');
@@ -20804,7 +20802,7 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (474, 9
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ghostly Hammer',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Ghostly_Hammer_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Ghostly_Hammer.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Ghostly_Hammer.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1694, 'Character Treasure', 'Left', '+1G STR');
@@ -20815,7 +20813,7 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (475, 9
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Girdle of Ogre Power',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Girdle_of_Ogre_Power_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Girdle_of_Ogre_Power.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Girdle_of_Ogre_Power.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1695, 'Character Treasure', 'Right', '+1G STR');
@@ -20827,7 +20825,7 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (476, 9
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Gladeborn Rapier',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Gladeborn_Rapier_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Gladeborn_Rapier.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Gladeborn_Rapier.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1696, 'Character Treasure', 'Right', '+1G DEX');
@@ -20837,8 +20835,8 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (477, 9
 
 --Gleaming Breastplate --CardIndex 1697 --EquipmentIndex 478
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Gleaming Breastplate',
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Gleaming_Breastplate_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Back_2.0.png',
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Gleaming_Breastplate_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Loot/Gleaming_Breastplate.xhtml', 
 'Loot', '2.0', '2.0 Core Set', 'Default',
 'The Dark Consul can wait till I''ve applied one more coat of polish.');
@@ -20848,7 +20846,7 @@ insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1697,
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Glimmerwood Bow',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Generic/Card_Treasure_Glimmerwood_Bow_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Generic/Glimmerwood_Bow.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Glimmerwood_Bow.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Ohhhhh, it''s so sparkly!');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1698, 'Treasure', 'Right', '+1B DEX');
@@ -20859,7 +20857,7 @@ insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (479, 1722)
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Glimmerwood Cloak',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Generic/Card_Treasure_Glimmerwood_Cloak_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Generic/Glimmerwood_Cloak.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Glimmerwood_Cloak.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1699, 'Treasure', 'Right', '+1G DEX');
@@ -20871,7 +20869,7 @@ insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (480, 1217)
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Gnomish Goggles',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Gnomish_Goggles_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Gnomish_Goggles.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Gnomish_Goggles.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Eye protection is essential.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1700, 'Character Treasure', 'Bottom', '+1G ARM');
@@ -20882,8 +20880,8 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (481, 9
 
 --Gnomish Sticker --CardIndex 1701 --EquipmentIndex 482
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Gnomish Sticker',
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Gnomish_Sticker_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Back_2.0.png',
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Gnomish_Sticker_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Loot/Gnomish_Sticker.xhtml', 
 'Loot', '2.0', '2.0 Core Set', 'Default',
 'The fact that they can only reach my legs still isn''t very comforting.');
@@ -20893,7 +20891,7 @@ insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1701,
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Goddess Talisman',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Goddess_Talisman_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Goddess_Talisman.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Goddess_Talisman.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1702, 'Character Treasure', 'Bottom', '+1B STR +1B WILL +1B DEX');
@@ -20904,7 +20902,7 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (483, 9
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Golem Shard Armor',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Generic/Card_Treasure_Golem_Shard_Armor_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Generic/Golem_Shard_Armor.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Golem_Shard_Armor.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Be the boulder.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1703, 'Treasure', 'Left', '+1G ARM');
@@ -20912,8 +20910,8 @@ insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (484, 850);
 
 --Granite Pendant --CardIndex 1704 --EquipmentIndex 485
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Granite Pendant',
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Granite_Pendant_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Back_2.0.png',
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Granite_Pendant_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Loot/Granite_Pendant.xhtml', 
 'Loot', '2.0', '2.0 Core Set', 'Default',
 'Solid as a rock.');
@@ -20922,7 +20920,7 @@ insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1704,
 --Greedy Grimoire --CardIndex 1705 --EquipmentIndex 486
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Greedy Grimoire',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Books/Card_Treasure_Greedy_Grimoire_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Back_2.0.png',
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Books/Greedy_Grimoire.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'I''ll admit, I judged it by its cover.');
@@ -20951,7 +20949,7 @@ insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1707,
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Gunbai Iron Fan',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Gunbai_Iron_Fan_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Gunbai_Iron_Fan.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Gunbai_Iron_Fan.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1708, 'Character Treasure', 'Left', '+1G STR');
@@ -20962,7 +20960,7 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (489, 9
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Guttering Candle',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Generic/Card_Treasure_Guttering_Candle_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Generic/Guttering_Candle.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Guttering_Candle.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1709, 'Treasure', 'Top', '+1R WILL');
@@ -20974,7 +20972,7 @@ insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (490, 1144)
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Gyrocopter Hat',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Generic/Card_Treasure_Gyrocopter_Hat_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Generic/Gyrocopter_Hat.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Gyrocopter_Hat.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1710, ' Treasure', 'Bottom', '+1R ARM +2MO');
@@ -20984,7 +20982,7 @@ insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (491, 596);
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Hammer Of Smiting',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Hammer_Of_Smiting_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Hammer_Of_Smiting.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Hammer_Of_Smiting.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Flat zombies are less threatening.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1711, 'Character Treasure', 'Right', '+1G STR');
@@ -21005,8 +21003,8 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (493, 9
 
 --Hammer Pendant --CardIndex 1713 --EquipmentIndex 494
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Hammer Pendant',
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Hammer_Pendant_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Back_2.0.png',
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Hammer_Pendant_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Loot/Hammer_Pendant.xhtml', 
 'Loot', '2.0', '2.0 Core Set', 'Default',
 'For those who smash with style.');
@@ -21016,18 +21014,18 @@ insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1713,
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Harvest Hook',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Harvest_Hook_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Harvest_Hook.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Harvest_Hook.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '"This is a working person''s tool. Simple, and effective."');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1714, 'Character Treasure', 'Left', '+1G STR');
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (495, 1569); --Reaping, The
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (495, 979); --Thresher, The
 
---Hatamoto Coat --CardIndex 1715 --EquipmentIndex 496
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Hatamoto Coat',
-'http://htkb.info/SDE/2.0/Cards/Treasure/Generic/Card_Treasure_Hatamoto_Coat_2.0.png', 
+--Hatamato Coat --CardIndex 1715 --EquipmentIndex 496
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Hatamato Coat',
+'http://htkb.info/SDE/2.0/Cards/Treasure/Generic/Card_Treasure_Hatamato_Coat_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Generic/Hatamoto_Coat.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Hatamato_Coat.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1715, 'Character Treasure', 'Left', '+1R ARM');
@@ -21035,8 +21033,8 @@ insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (496, 1074)
 
 --Hattai Okegawa --CardIndex 1716 --EquipmentIndex 497
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Hattai Okegawa',
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Hattai_Okegawa_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Back_2.0.png',
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Hattai_Okegawa_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Loot/Hattai_Okegawa.xhtml', 
 'Loot', '2.0', '2.0 Core Set', 'Default',
 'I stand with the strength of my clan.');
@@ -21053,8 +21051,8 @@ insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1717,
 
 --Heart Container --CardIndex 1718 --EquipmentIndex 499
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Heart Container',
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Heart_Container_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Back_2.0.png',
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Heart_Container_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Loot/Heart_Container.xhtml', 
 'Loot', '2.0', '2.0 Core Set', 'Default',
 'I have an extra in here...');
@@ -21085,8 +21083,8 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (501, 9
 
 --Heart-Shaped Locket --CardIndex 1721 --EquipmentIndex 502
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Heart-Shaped Locket',
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Heart_Shaped_Locket_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Back_2.0.png',
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Heart_Shaped_Locket_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Loot/Heart_Shaped_Locket.xhtml', 
 'Loot', '2.0', '2.0 Core Set', 'Default',
 'Why would you enchant it to beep obnoxiously when it''s empty?');
@@ -21096,7 +21094,7 @@ insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1721,
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Heavenly Body',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Heavenly_Body_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Heavenly_Body.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Heavenly_Body.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Never again.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1722, 'Character Treasure', 'Left', '+1R ARM');
@@ -21107,7 +21105,7 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (503, 9
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Helmet of Fury',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Generic/Card_Treasure_Helmet_of_Fury_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Generic/Helmet_of_Fury.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Helmet_of_Fury.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1723, 'Treasure', 'Bottom', '+1R STR');
@@ -21128,7 +21126,7 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (505, 9
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Hero''s Blade',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Generic/Card_Treasure_Heros_Blade_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Generic/Heros_Blade.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Heros_Blade.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'I am not left-handed.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1725, 'Treasure', 'Right', '+1R STR +1AC');
@@ -21149,7 +21147,7 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (507, 9
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Hinokami Robes',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Generic/Card_Treasure_Hinokami_Robes_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Generic/Hinokami_Robes.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Hinokami_Robes.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1727, 'Treasure', 'Left', '+1R WILL');
@@ -21158,9 +21156,9 @@ insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (508, 1141)
 
 --Holly Berry Mead --CardIndex 1728 --EquipmentIndex 509
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Holly Berry Mead',
-'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Holly Berry Mead_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Holly_Berry_Mead_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Holly_Berry_Mead.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Holly_Berry_Mead.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1728, 'Character Treasure', 'Bottom', '+1G WILL');
@@ -21171,8 +21169,8 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (509, 9
 
 --Horned Helm --CardIndex 1729 --EquipmentIndex 510
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Horned Helm',
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Horned_Helm_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Back_2.0.png',
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Horned_Helm_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Loot/Horned_Helm.xhtml', 
 'Loot', '2.0', '2.0 Core Set', 'Default',
 'Headbutting isn''t just for centaurs anymore.');
@@ -21182,7 +21180,7 @@ insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1729,
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('House of Ash Fullplate',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Generic/Card_Treasure_House_of_Ash_Fullplate_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Generic/House_of_Ash_Fullplate.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/House_of_Ash_Fullplate.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Never turn your back on a member of the House of Ash...');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1730, 'Treasure', 'Left', '+1G ARM');
@@ -21192,7 +21190,7 @@ insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (511, 450);
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('House Von Drakk Regalia',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_House_Von_Drakk_Regalia_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/House_Von_Drakk_Regalia.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/House_Von_Drakk_Regalia.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Strength through blood.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1731, 'Character Treasure', 'Left', '+2B ARM');
@@ -21203,7 +21201,7 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (512, 9
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Howling Tapestry',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Howling_Tapestry_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Howling_Tapestry.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Howling_Tapestry.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'I have never lost my prey.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1732, 'Character Treasure', 'Bottom', '+1R STR');
@@ -21237,7 +21235,7 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (515, 9
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ice Shoes',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Ice_Shoes_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Ice_Shoes.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Ice_Shoes.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');  --!! unavailable !!
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1735, 'Character Treasure', 'Right', '+1G STR');  --!! unavailable !!
@@ -21249,7 +21247,7 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (516, 9
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ijin Bracers',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Ijin_Bracers_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Ijin_Bracers.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Ijin_Bracers.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'IJIN SMASH!');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1736, 'Character Treasure', 'Left', '+1G STR');
@@ -21259,7 +21257,7 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (517, 9
 --Ika Claw Crawler --CardIndex 1737 --EquipmentIndex 518
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ika Claw Crawler',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Books/Card_Treasure_Ika_Claw_Crawler_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Back_2.0.png',
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Books/Ika_Claw_Crawler.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Yes, the book stole your Super Slurpy Grape Soda.');
@@ -21269,7 +21267,7 @@ insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1737,
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Inferno Eagle',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Inferno_Eagle_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Inferno_Eagle.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Inferno_Eagle.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1738, 'Character Treasure', 'Top', '+1AC');
@@ -21280,7 +21278,7 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (519, 9
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ingredient Pouch',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Ingredient_Pouch_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Ingredient_Pouch.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Ingredient_Pouch.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1739, 'Character Treasure', 'Bottom', '+1 HEART +1 POTION');
@@ -21292,7 +21290,7 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (520, 9
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Innocence Lost',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Generic/Card_Treasure_Innocence_Lost_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Generic/Innocence_Lost.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Innocence_Lost.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Have you checked under the bed?');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1740, 'Treasure', 'Right', '+1B STR');
@@ -21322,8 +21320,8 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (523, 9
 
 --Iron Necklace --CardIndex 1743 --EquipmentIndex 524
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Iron Necklace',
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Iron_Necklace_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Back_2.0.png',
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Iron_Necklace_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Loot/Iron_Necklace.xhtml', 
 'Loot', '2.0', '2.0 Core Set', 'Default',
 'It may look plain, but the enchantments are real.');
@@ -21331,8 +21329,8 @@ insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1743,
 
 --Iron Necklace DI --CardIndex 1744 --EquipmentIndex 525
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Iron Necklace',
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Iron_Necklace_2.0_DI.png', 
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Back_2.0.png',
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Iron_Necklace_2.0_DI.png', 
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Loot/Iron_Necklace_DI.xhtml', 
 'Loot', '2.0', '2.0 Core Set', 'Default',
 'Sturdy as iron.');
@@ -21340,8 +21338,8 @@ insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1744,
 
 --Itty-Bitty Wings --CardIndex 1745 --EquipmentIndex 526
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Itty-Bitty Wings',
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Itty_Bitty_Wings_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Back_2.0.png',
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Itty_Bitty_Wings_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Loot/Itty_Bitty_Wings.xhtml', 
 'Loot', '2.0', '2.0 Core Set', 'Default',
 'Warning: Do not attempt flight.');
@@ -21352,7 +21350,7 @@ insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (526, 678);
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Jade Monkey',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Jade_Monkey_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Jade_Monkey.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Jade_Monkey.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1746, 'Character Treasure', 'Bottom', '+1G ARM');
@@ -21363,7 +21361,7 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (527, 9
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Jikininki Curse',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Generic/Card_Treasure_Jikininki_Curse_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Generic/Jikininki_Curse.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Jikininki_Curse.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1747, 'Treasure', 'Bottom', '+1R WILL');
@@ -21374,7 +21372,7 @@ insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (528, 648);
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Jotnar Knot',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Jotnar_Knot_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Jotnar_Knot.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Jotnar_Knot.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1748, 'Character Treasure', 'Bottom', '+1G WILL');
@@ -21385,7 +21383,7 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (529, 9
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Jumbo Shuriken',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Jumbo_Shuriken_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Jumbo_Shuriken.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Jumbo_Shuriken.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Great, now I need to go pick it up.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1749, 'Character Treasure', 'Right', '+1G STR');
@@ -21394,8 +21392,8 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (530, 9
 
 --Jumonji --CardIndex 1750 --EquipmentIndex 531
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Jumonji',
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Jumonji_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Back_2.0.png',
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Jumonji_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Loot/Jumonji.xhtml', 
 'Loot', '2.0', '2.0 Core Set', 'Default',
 'It may appear a simple spear, but it takes a lifetime to master.');
@@ -21414,7 +21412,7 @@ insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1751,
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Kami No Gatana',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Generic/Card_Treasure_Kami_No_Gatana_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Generic/Kami_No_Gatana.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Kami_No_Gatana.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1752, 'Treasure', 'Right', '+1G STR');
@@ -21424,8 +21422,8 @@ insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (533, 1625)
 
 --Karategi --CardIndex 1753 --EquipmentIndex 534
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Karategi',
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Karategi_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Back_2.0.png',
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Karategi_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Loot/Karategi.xhtml', 
 'Loot', '2.0', '2.0 Core Set', 'Default',
 'You should see the belt I have to go with it...');
@@ -21433,8 +21431,8 @@ insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1753,
 
 --Katana --CardIndex 1754 --EquipmentIndex 535
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Katana',
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Katana_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Back_2.0.png',
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Katana_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Loot/Katana.xhtml', 
 'Loot', '2.0', '2.0 Core Set', 'Default',
 'Perfectly balanced. The blade of a warrior.');
@@ -21453,7 +21451,7 @@ insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1755,
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Kaze No Kabuto',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Generic/Card_Treasure_Kaze_No_Kabuto_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Generic/Kaze_No_Kabuto.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Kaze_No_Kabuto.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1756, 'Treasure', 'Bottom', '+1G ARM');
@@ -21472,7 +21470,7 @@ insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1757,
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Kid-Snatcher',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Kid_Snatcher_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Kid_Snatcher.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Kid_Snatcher.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Get over here!');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1758, 'Character Treasure', 'Right', '+1G STR');
@@ -21492,7 +21490,7 @@ insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1759,
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Kitsune Mask',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Kitsune_Mask_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Kitsune_Mask.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Kitsune_Mask.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'What does the fox say? The fox says nothing, until it is time to pounce.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1760, 'Character Treasure', 'Bottom', '');
@@ -21501,8 +21499,8 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (541, 9
 
 --Kitty-Kat Charm --CardIndex 1761 --EquipmentIndex 542
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Kitty-Kat Charm',
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Kitty_Kat_Charm_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Back_2.0.png',
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Kitty_Kat_Charm_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Loot/Kitty_Kat_Charm.xhtml', 
 'Loot', '2.0', '2.0 Core Set', 'Default',
 'Don''t wear that around gnolls.');
@@ -21510,8 +21508,8 @@ insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1761,
 
 --Kitty-Kat Cloak --CardIndex 1762 --EquipmentIndex 543
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Kitty-Kat Cloak',
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Kitty_Kat_Cloak_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Back_2.0.png',
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Kitty_Kat_Cloak_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Loot/Kitty_Kat_Cloak.xhtml', 
 'Loot', '2.0', '2.0 Core Set', 'Default',
 'Meow?');
@@ -21530,8 +21528,8 @@ insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (544, 1023)
 
 --Knight's Fullplate --CardIndex 1764 --EquipmentIndex 545
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Knight''s Fullplate',
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Knights_Fullplate_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Back_2.0.png',
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Knights_Fullplate_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Loot/Knights_Fullplate.xhtml', 
 'Loot', '2.0', '2.0 Core Set', 'Default',
 'Let them come.');
@@ -21539,8 +21537,8 @@ insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1764,
 
 --Knight's Helm --CardIndex 1765 --EquipmentIndex 546
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Knight''s Helm',
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Knights_Helm_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Back_2.0.png',
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Knights_Helm_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Loot/Knights_Helm.xhtml', 
 'Loot', '2.0', '2.0 Core Set', 'Default',
 'I get wanting armor, but doesn''t it clash with your wizard robe?');
@@ -21548,8 +21546,8 @@ insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1765,
 
 --Knight's Lance --CardIndex 1766 --EquipmentIndex 547
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Knight''s Lance',
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Knights_Lance_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Back_2.0.png',
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Knights_Lance_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Loot/Knights_Lance.xhtml', 
 'Loot', '2.0', '2.0 Core Set', 'Default',
 'The perfect tool for hunting dragons.');
@@ -21557,8 +21555,8 @@ insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1766,
 
 --Knit Cap --CardIndex 1767 --EquipmentIndex 548
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Knit Cap',
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Knit_Cap_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Back_2.0.png',
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Knit_Cap_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Loot/Knit_Cap.xhtml', 
 'Loot', '2.0', '2.0 Core Set', 'Default',
 'Thanks mom!');
@@ -21588,7 +21586,7 @@ insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1769,
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Laughing Idol',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Laughing_Idol_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Laughing_Idol.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Laughing_Idol.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1770, 'Character Treasure', 'Left', '+1G WILL');
@@ -21598,8 +21596,8 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (551, 9
 
 --Lemon Peel --CardIndex 1771 --EquipmentIndex 552
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Lemon Peel',
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Lemon_Peel_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Back_2.0.png',
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Lemon_Peel_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Loot/Lemon_Peel.xhtml', 
 'Loot', '2.0', '2.0 Core Set', 'Default',
 'A sour jolt!');
@@ -21610,7 +21608,7 @@ insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (552, 679);
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Lightbreaker',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Lightbreaker_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Lightbreaker.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Lightbreaker.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1772, 'Character Treasure', 'Right', '+1G STR');
@@ -21622,7 +21620,7 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (553, 9
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Lightning Caster',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Generic/Card_Treasure_Lightning_Caster_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Generic/Lightning_Caster.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Lightning_Caster.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Hey guys, watch this!');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1773, 'Treasure', 'Right', '+1G WILL');
@@ -21632,7 +21630,7 @@ insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (554, 1377)
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Lightning Prayer Scroll',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Generic/Card_Treasure_Lightning_Prayer_Scroll_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Generic/Lightning_Prayer_Scroll.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Lightning_Prayer_Scroll.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1774, 'Treasure', 'Left', '+1R WILL');
@@ -21642,7 +21640,7 @@ insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (555, 1377)
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Lock of Hair',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Lock_of_Hair_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Lock_of_Hair.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Lock_of_Hair.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1775, 'Character Treasure', 'Bottom', '+1B WILL +1B ARM');
@@ -21654,8 +21652,8 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (556, 9
 
 --Lockpicks --CardIndex 1776 --EquipmentIndex 557
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Lockpicks',
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Lockpicks_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Back_2.0.png',
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Lockpicks_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Loot/Lockpicks.xhtml', 
 'Loot', '2.0', '2.0 Core Set', 'Default',
 'I don''t know where your share of the loot went.');
@@ -21710,7 +21708,7 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (561, 7
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Lucky Striped Pants',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Generic/Card_Treasure_Lucky_Striped_Pants_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Generic/Lucky_Striped_Pants.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Lucky_Striped_Pants.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Lucky!');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1781, 'Treasure', 'Top', '+1R ARM');
@@ -21718,8 +21716,8 @@ insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (562, 718);
 
 --Lunar Tiara --CardIndex 1782 --EquipmentIndex 563
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Lunar Tiara',
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Lunar_Tiara_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Back_2.0.png',
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Lunar_Tiara_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Loot/Lunar_Tiara.xhtml', 
 'Loot', '2.0', '2.0 Core Set', 'Default',
 'Blessings of the Moon Princess upon you.');
@@ -21729,7 +21727,7 @@ insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1782,
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Lunar Vestments',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Lunar_Vestments_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Lunar_Vestments.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Lunar_Vestments.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'The Lunar elves'' craftsmanship did not die with them.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1783, 'Character Treasure', 'Left', '+1G ARM');
@@ -21768,8 +21766,8 @@ insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1786,
 
 --Makeshift Polearm --CardIndex 1787 --EquipmentIndex 568
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Makeshift Polearm',
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Makeshift_Polearm_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Back_2.0.png',
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Makeshift_Polearm_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Loot/Makeshift_Polearm.xhtml', 
 'Loot', '2.0', '2.0 Core Set', 'Default',
 'Eh, it''ll do.');
@@ -21779,7 +21777,7 @@ insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1787,
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Mallet of Fortune',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Generic/Card_Treasure_Mallet_of_Fortune_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Generic/Mallet_of_Fortune.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Mallet_of_Fortune.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1788, 'Treasure', 'Left', '+1G STR');
@@ -21789,7 +21787,7 @@ insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (569, 685);
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Manekichan',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Manekichan_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Manekichan.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Manekichan.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'This fortune may cost you more than just your coin...');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1789, 'Character Treasure', 'Right', '');
@@ -21799,7 +21797,7 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (570, 9
 --Maniacal Mapbook  --CardIndex 1790 --EquipmentIndex 571
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Maniacal Mapbook',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Books/Card_Treasure_Maniacal_Mapbook_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Back_2.0.png',
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Books/Maniacal_Mapbook.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'We should have made a left at the egg clutch...');
@@ -21809,7 +21807,7 @@ insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1790,
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Many-Eyed Orb',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Many_Eyed_Orb_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Many_Eyed_Orb.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Many_Eyed_Orb.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Its eyes follow me around the room...');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1791, 'Character Treasure', 'Bottom', '+1G WILL');
@@ -21820,7 +21818,7 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (572, 9
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Massive Fists',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Generic/Card_Treasure_Massive_Fists_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Generic/Massive_Fists.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Massive_Fists.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Crude, but effective.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1792, 'Treasure', 'Right', '+1R STR');
@@ -21839,7 +21837,7 @@ insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1793,
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Mazoku''s Bane',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Generic/Card_Treasure_Mazokus_Bane_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Generic/Mazokus_Bane.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Mazokus_Bane.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1794, 'Treasure', 'Top', '+1G WILL');
@@ -21875,7 +21873,7 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (577, 9
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Midnight Helm',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Midnight_Helm_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Midnight_Helm.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Midnight_Helm.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1797, 'Character Treasure', 'Bottom', '+1G ARM');
@@ -21886,7 +21884,7 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (578, 9
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Midnight Mail',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Midnight_Mail_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Midnight_Mail.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Midnight_Mail.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'The power of the Dark Realm calls to me.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1798, 'Character Treasure', 'Left', '+1G ARM');
@@ -21899,7 +21897,7 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (579, 9
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Mind Burst Melon',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Generic/Card_Treasure_Mind_Burst_Melon_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Generic/Mind_Burst_Melon.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Mind_Burst_Melon.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1799, 'Treasure', 'Top', '+1G WILL');
@@ -21910,7 +21908,7 @@ insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (580, 1813)
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Mind Maze',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Mind_Maze_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Mind_Maze.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Mind_Maze.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Which way?');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1800, 'Character Treasure', 'Top', '+1G WILL');
@@ -21922,7 +21920,7 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (581, 9
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Mistmourn Leather',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Mistmourn_Leather_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Mistmourn_Leather.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Mistmourn_Leather.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Chew on this.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1801, 'Character Treasure', 'Left', '+1G ARM');
@@ -21934,7 +21932,7 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (582, 9
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Monkey''s Paw, The',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Monkeys_Paw_The_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Monkeys_Paw_The.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Monkeys_Paw_The.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1802, 'Character Treasure', 'Right', '');
@@ -21946,7 +21944,7 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (583, 9
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Monstrous Maul',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Generic/Card_Treasure_Monstrous_Maul_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Generic/Monstrous_Maul.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Monstrous_Maul.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'No blade will harm me. No armor will stop me.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1803, 'Treasure', 'Right', '+1G ARM');
@@ -21957,7 +21955,7 @@ insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (584, 937);
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Mushroom Cap',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Generic/Card_Treasure_Mushroom_Cap_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Generic/Mushroom_Cap.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Mushroom_Cap.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1804, 'Treasure', 'Bottom', '+1G WILL');
@@ -21968,7 +21966,7 @@ insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (585, 884);
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Mysterious Lever',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Mysterious_Lever_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Mysterious_Lever.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Mysterious_Lever.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1805, 'Character Treasure', 'Right', '+1G ARM');
@@ -21991,7 +21989,7 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (587, 9
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Naughty Switch',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Naughty_Switch_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Naughty_Switch.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Naughty_Switch.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1807, 'Character Treasure', 'Left', '+1G DEX');
@@ -22000,8 +21998,8 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (588, 9
 
 --Neko Hairball --CardIndex 1808 --EquipmentIndex 589
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Neko Hairball',
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Neko_Hairball_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Back_2.0.png',
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Neko_Hairball_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Loot/Neko_Hairball.xhtml', 
 'Loot', '2.0', '2.0 Core Set', 'Default',
 'You have been honored by the Neko people.');
@@ -22010,8 +22008,8 @@ insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (589, 901);
 
 --Nether Crystal --CardIndex 1809 --EquipmentIndex 590
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Nether Crystal',
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Nether_Crystal_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Back_2.0.png',
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Nether_Crystal_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Loot/Nether_Crystal.xhtml', 
 'Loot', '2.0', '2.0 Core Set', 'Default',
 'Power, at a price.');
@@ -22019,8 +22017,8 @@ insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1809,
 
 --Nether Elf Longsword --CardIndex 1810 --EquipmentIndex 591
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Nether Elf Longsword',
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Nether_Elf_Longsword_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Back_2.0.png',
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Nether_Elf_Longsword_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Loot/Nether_Elf_Longsword.xhtml', 
 'Loot', '2.0', '2.0 Core Set', 'Default',
 'A blade cursed with the flames of the rift.');
@@ -22031,7 +22029,7 @@ insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (591, 588);
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Nether Portal',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Nether_Portal_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Nether_Portal.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Nether_Portal.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1811, 'Character Treasure', 'Top', '+1G WILL');
@@ -22043,7 +22041,7 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (592, 9
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Nether Sword',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Generic/Card_Treasure_Nether_Sword_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Generic/Nether_Sword.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Nether_Sword.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Forged in the deepest pits, the merest scratch can prove fatal.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1812, 'Treasure', 'Right', '+1G DEX');
@@ -22060,8 +22058,8 @@ insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1813,
 
 --Netherstave --CardIndex 1814 --EquipmentIndex 595
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Netherstave',
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Netherstave_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Back_2.0.png',
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Netherstave_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Loot/Netherstave.xhtml', 
 'Loot', '2.0', '2.0 Core Set', 'Default',
 'Just a scratch...');
@@ -22083,7 +22081,7 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (596, 9
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Nightmare Steed',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Nightmare_Steed_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Nightmare_Steed.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Nightmare_Steed.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1816, 'Character Treasure', 'Right', '+2MO');
@@ -22096,7 +22094,7 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (597, 9
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('No',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_No_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/No.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/No.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');  --!! unavailable !!
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1817, 'Character Treasure', 'Left', '+1G STR');  --!! unavailable !!
@@ -22130,7 +22128,7 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (600, 9
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ofuda',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Ofuda_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Ofuda.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Ofuda.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'I return you to whence you came!');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1820, 'Character Treasure', 'Top', '');
@@ -22139,8 +22137,8 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (601, 9
 
 --Ogre Mace --CardIndex 1821 --EquipmentIndex 602
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ogre Mace',
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Ogre_Mace_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Back_2.0.png',
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Ogre_Mace_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Loot/Ogre_Mace.xhtml', 
 'Loot', '2.0', '2.0 Core Set', 'Default',
 'If you can lift it you''re sure to hurt something.');
@@ -22148,8 +22146,8 @@ insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1821,
 
 --Ogre Skull --CardIndex 1822 --EquipmentIndex 603
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ogre Skull',
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Ogre_Skull_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Back_2.0.png',
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Ogre_Skull_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Loot/Ogre_Skull.xhtml', 
 'Loot', '2.0', '2.0 Core Set', 'Default',
 'Just let them think I defeated it, alright?');
@@ -22158,8 +22156,8 @@ insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (603, 648);
 
 --Old Bucket --CardIndex 1823 --EquipmentIndex 604
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Old Bucket',
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Old_Bucket_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Back_2.0.png',
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Old_Bucket_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Loot/Old_Bucket.xhtml', 
 'Loot', '2.0', '2.0 Core Set', 'Default',
 'There''s a hole in the bucket.');
@@ -22180,7 +22178,7 @@ insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (605, 674);
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Oni Bracers',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Oni_Bracers_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Oni_Bracers.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Oni_Bracers.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1825, 'Character Treasure', 'Right', '+1G STR');
@@ -22192,7 +22190,7 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (606, 9
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Oni''s Loin Cloth',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Onis_Loin_Cloth_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Onis_Loin_Cloth.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Onis_Loin_Cloth.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1826, 'Character Treasure', 'Top', '+1G DEX');
@@ -22202,8 +22200,8 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (607, 9
 
 --Ono --CardIndex 1827 --EquipmentIndex 608
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ono',
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Ono_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Back_2.0.png',
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Ono_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Loot/Ono.xhtml', 
 'Loot', '2.0', '2.0 Core Set', 'Default',
 'Tool. Weapon. Depends on what you''re hitting.');
@@ -22213,7 +22211,7 @@ insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1827,
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Oracle Eye',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Generic/Card_Treasure_Oracle_Eye_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Generic/Oracle_Eye.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Oracle_Eye.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1828, 'Treasure', 'Bottom', '+1B STR +1B WILL +1B DEX');
@@ -22223,7 +22221,7 @@ insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (609, 781);
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ord Necklace',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Ord_Necklace_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Ord_Necklace.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Ord_Necklace.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');  --!! unavailable !!
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1829, 'Character Treasure', 'Bottom', '+1G WILL');
@@ -22232,8 +22230,8 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (610, 9
 
 --Ordinary Brick --CardIndex 1830 --EquipmentIndex 611
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ordinary Brick',
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Ordinary_Brick_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Back_2.0.png',
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Ordinary_Brick_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Loot/Ordinary_Brick.xhtml', 
 'Loot', '2.0', '2.0 Core Set', 'Default',
 'Huff and puff all you want.');
@@ -22241,8 +22239,8 @@ insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1830,
 
 --Ornate Battleaxe --CardIndex 1831 --EquipmentIndex 612
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ornate Battleaxe',
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Ornate_Battleaxe_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Back_2.0.png',
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Ornate_Battleaxe_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Loot/Ornate_Battleaxe.xhtml', 
 'Loot', '2.0', '2.0 Core Set', 'Default',
 'Slashing in style.');
@@ -22262,7 +22260,7 @@ insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (613, 588);
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Outrageous Orange Tango',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Generic/Card_Treasure_Outrageous_Orange_Tango_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Generic/Outrageous_Orange_Tango.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Outrageous_Orange_Tango.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1833, 'Treasure', 'Top', '+1G DEX');
@@ -22282,8 +22280,8 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (615, 9
 
 --Parrying Blade --CardIndex 1835 --EquipmentIndex 616
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Parrying Blade',
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Parrying_Blade_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Back_2.0.png',
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Parrying_Blade_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Loot/Parrying_Blade.xhtml', 
 'Loot', '2.0', '2.0 Core Set', 'Default',
 'Don''t let the name fool you, it stabs too.');
@@ -22293,7 +22291,7 @@ insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1835,
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Peach Bubble',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Generic/Card_Treasure_Peach_Bubble_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Generic/Peach_Bubble.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Peach_Bubble.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1836, 'Treasure', 'Top', '+1G WILL');
@@ -22304,7 +22302,7 @@ insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (617, 1813)
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Pegasus Wings',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Generic/Card_Treasure_Pegasus_Wings_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Generic/Pegasus_Wings.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Pegasus_Wings.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1837, 'Treasure', 'Bottom', '+1R DEX +2MO');
@@ -22324,7 +22322,7 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (619, 9
 --Perilous Pages  --CardIndex 1839 --EquipmentIndex 620
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Perilous Pages',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Books/Card_Treasure_Perilous_Pages_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Back_2.0.png',
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Books/Perilous_Pages.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'This is why I don''t read.');
@@ -22334,7 +22332,7 @@ insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1839,
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Petrified Dragon Heart',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Petrified_Dragon_Heart_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Petrified_Dragon_Heart.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Petrified_Dragon_Heart.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1840, 'Character Treasure', 'Top', '+1 HEALTH');
@@ -22344,7 +22342,7 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (621, 9
 --Pinching Pages  --CardIndex 1841 --EquipmentIndex 622
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Pinching Pages',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Books/Card_Treasure_Pinching_Pages_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Back_2.0.png',
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Books/Pinching_Pages.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Yes, the book stole your Super Slurpy Grape Soda.');
@@ -22354,7 +22352,7 @@ insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1841,
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Pixelated Pendant',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Generic/Card_Treasure_Pixelated_Pendant_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Generic/Pixelated_Pendant.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Pixelated_Pendant.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Does this dress make me look blocky?');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1842, 'Treasure', 'Top', '+1G STR');
@@ -22387,7 +22385,7 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (625, 9
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Pokey Walking Stick',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Pokey_Walking_Stick_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Pokey_Walking_Stick.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Pokey_Walking_Stick.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Weren''t expecting that were you!');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1845, 'Character Treasure', 'Left', '+2R WILL');
@@ -22399,7 +22397,7 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (626, 9
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Portable Hole',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Generic/Card_Treasure_Portable_Hole_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Generic/Portable_Hole.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Portable_Hole.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1846, 'Treasure', 'Top', '+1R DEX');
@@ -22411,7 +22409,7 @@ insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (627, 1832)
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Pot Plate',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Pot_Plate_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Pot_Plate.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Pot_Plate.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');  --!! unavailable !!
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1847, 'Character Treasure', 'Right', '+1G STR');  --!! unavailable !!
@@ -22421,8 +22419,8 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (628, 9
 
 --Potion Bandolier --CardIndex 1848 --EquipmentIndex 629
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Potion Bandolier',
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Potion_Bandolier_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Back_2.0.png',
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Potion_Bandolier_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Loot/Potion_Bandolier.xhtml', 
 'Loot', '2.0', '2.0 Core Set', 'Default',
 'They taste so good.');
@@ -22430,8 +22428,8 @@ insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1848,
 
 --Potion Pouch --CardIndex 1849 --EquipmentIndex 630
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Potion Pouch',
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Potion_Pouch_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Back_2.0.png',
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Potion_Pouch_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Loot/Potion_Pouch.xhtml', 
 'Loot', '2.0', '2.0 Core Set', 'Default',
 'Label them next time, please?');
@@ -22441,7 +22439,7 @@ insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1849,
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Praetorian Regalia',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Praetorian_Regalia_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Praetorian_Regalia.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Praetorian_Regalia.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1850, 'Character Treasure', 'Bottom', '+1R STR +1G ARM');
@@ -22453,7 +22451,7 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (631, 9
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Prickle Pear Splosion',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Generic/Card_Treasure_Prickle_Pear_Splosion_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Generic/Prickle_Pear_Splosion.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Prickle_Pear_Splosion.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1851, 'Treasure', 'Top', '+1G ARM');
@@ -22462,8 +22460,8 @@ insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (632, 1811)
 
 --Priest Vestments --CardIndex 1852 --EquipmentIndex 633
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Priest Vestments',
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Priest_Vestments_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Back_2.0.png',
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Priest_Vestments_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Loot/Priest_Vestments.xhtml', 
 'Loot', '2.0', '2.0 Core Set', 'Default',
 'Dressed to smite.');
@@ -22473,7 +22471,7 @@ insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1852,
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Purple Plum Face-Punch',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Generic/Card_Treasure_Purple_Plum_Face_Punch_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Generic/Purple_Plum_Face_Punch.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Purple_Plum_Face_Punch.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1853, 'Treasure', 'Top', '+1G STR');
@@ -22484,7 +22482,7 @@ insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (634, 1812)
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Radical Sunglasses',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Radical_Sunglasses_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Radical_Sunglasses.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Radical_Sunglasses.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'I make us look good.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1854, 'Character Treasure', 'Bottom', '+1G WILL');
@@ -22498,7 +22496,7 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (635, 9
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ragged Red Coat',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Ragged_Red_Coat_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Ragged_Red_Coat.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Ragged_Red_Coat.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Stay close...');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1855, 'Character Treasure', 'Left', '+1R ARM');
@@ -22509,7 +22507,7 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (636, 9
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ravager Standard',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Ravager_Standard_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Ravager_Standard.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Ravager_Standard.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1856, 'Character Treasure', 'Bottom', '+1B STR +1B DEX +1B WILL'); 
@@ -22520,7 +22518,7 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (637, 9
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Raven''s Feather',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Ravens_Feather_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Ravens_Feather.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Ravens_Feather.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1857, 'Character Treasure', 'Top', '+1G ARM');
@@ -22529,8 +22527,8 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (638, 9
 
 --Reinforced Shirt --CardIndex 1858 --EquipmentIndex 639
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Reinforced Shirt',
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Reinforced_Shirt_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Back_2.0.png',
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Reinforced_Shirt_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Loot/Reinforced_Shirt.xhtml', 
 'Loot', '2.0', '2.0 Core Set', 'Default',
 'Every Hero''s closet should have one.');
@@ -22540,7 +22538,7 @@ insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1858,
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Repeating Crossbow',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Repeating_Crossbow_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Repeating_Crossbow.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Repeating_Crossbow.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '"Stick around"');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1859, 'Character Treasure', 'Left', '+1G DEX');
@@ -22552,7 +22550,7 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (640, 9
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Resurrection Charm',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Generic/Card_Treasure_Resurrection_Charm_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Generic/Resurrection_Charm.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Resurrection_Charm.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1860, 'Treasure', 'Bottom', '+1R WILL');
@@ -22560,8 +22558,8 @@ insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (641, 852);
 
 --Riftling Orb    --CardIndex 1861 --EquipmentIndex 642
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Riftling Orb',
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Riftling_Orb_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Back_2.0.png',
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Riftling_Orb_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Loot/Riftling_Orb.xhtml', 
 'Loot', '2.0', '2.0 Core Set', 'Default',
 'Embrace the darkness.');
@@ -22581,8 +22579,8 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (643, 9
 
 --Ronin No Kusari --CardIndex 1863 --EquipmentIndex 644
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ronin No Kusari',
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Ronin_No_Kusari_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Back_2.0.png',
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Ronin_No_Kusari_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Loot/Ronin_No_Kusari.xhtml', 
 'Loot', '2.0', '2.0 Core Set', 'Default',
 'I still serve the Moon Princess.');
@@ -22592,7 +22590,7 @@ insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1863,
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Rose Poignard',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Rose_Poignard_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Rose_Poignard.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Rose_Poignard.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1864, 'Character Treasure', 'Right', '+1G STR');
@@ -22603,7 +22601,7 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (645, 9
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Royal Guard Uniform',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Generic/Card_Treasure_Royal_Guard_Uniform_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Generic/Royal_Guard_Uniform.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Royal_Guard_Uniform.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Duty. Honor. Service.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1865, 'Treasure', 'Left', '+1G ARM');
@@ -22613,7 +22611,7 @@ insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (646, 877);
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Royal Paladin Plate',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Royal_Paladin_Plate_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Royal_Paladin_Plate.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Royal_Paladin_Plate.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'If looks could smite.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1866, 'Character Treasure', 'Right', '+1G ARM');
@@ -22624,7 +22622,7 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (647, 9
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ruby Crystal Shard',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Generic/Card_Treasure_Ruby_Crystal_Shard_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Generic/Ruby_Crystal_Shard.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Ruby_Crystal_Shard.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1867, 'Treasure', 'Bottom', '+1G WILL');
@@ -22633,8 +22631,8 @@ insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (90, 1539);
 
 --Rugged Chainmail --CardIndex 1868 --EquipmentIndex 649
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Rugged Chainmail',
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Rugged_Chainmail_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Back_2.0.png',
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Rugged_Chainmail_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Loot/Rugged_Chainmail.xhtml', 
 'Loot', '2.0', '2.0 Core Set', 'Default',
 'It doesn''t have to be pretty to do the job.');
@@ -22644,7 +22642,7 @@ insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1868,
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Runic Tablet',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Runic_Tablet_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Runic_Tablet.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Runic_Tablet.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Blow, wind! Blow!');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1869, 'Character Treasure', 'Top', '');
@@ -22654,8 +22652,8 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (650, 9
 
 --Rusty Gauntlets --CardIndex 1870 --EquipmentIndex 651
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Rusty Gauntlets',
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Rusty_Gauntlets_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Back_2.0.png',
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Rusty_Gauntlets_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Loot/Rusty_Gauntlets.xhtml', 
 'Loot', '2.0', '2.0 Core Set', 'Default',
 'Well, they''re better than nothing.');
@@ -22677,7 +22675,7 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (652, 9
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Sapphire Crystal Shard',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Generic/Card_Treasure_Sapphire_Crystal_Shard_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Generic/Sapphire_Crystal_Shard.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Sapphire_Crystal_Shard.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1872, 'Treasure', 'Top', '+1G ARM');
@@ -22688,7 +22686,7 @@ insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (653, 1536)
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Sashimono War Flag',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Sashimono_War_Flag_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Sashimono_War_Flag.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Sashimono_War_Flag.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1873, 'Character Treasure', 'Bottom', '+1G WILL');
@@ -22710,7 +22708,7 @@ insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1874,
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Sceptre of the Archmage',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Generic/Card_Treasure_Sceptre_of_the_Archmage_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Generic/Sceptre_of_the_Archmage.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Sceptre_of_the_Archmage.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Don''t underestimate me.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1875, 'Treasure', 'Right', '+1G WILL');
@@ -22720,7 +22718,7 @@ insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (656, 1161)
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Scourge of the Consul',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Scourge_of_the_Consul_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Scourge_of_the_Consul.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Scourge_of_the_Consul.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Whip it.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1876, 'Character Treasure', 'Right', '+1B +1R STR');
@@ -22738,8 +22736,8 @@ insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1877,
 
 --Secret Code --CardIndex 1878 --EquipmentIndex 659
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Secret Code',
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Secret_Code_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Back_2.0.png',
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Secret_Code_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Loot/Secret_Code.xhtml', 
 'Loot', '2.0', '2.0 Core Set', 'Default',
 'Up, Up, Down, Down, Left, Right, Left, Right, B, A, Start.');
@@ -22749,7 +22747,7 @@ insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1878,
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Sentinel Statuette',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Generic/Card_Treasure_Sentinel_Statuette_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Generic/Sentinel_Statuette.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Sentinel_Statuette.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1879, 'Treasure', 'Bottom', '+1G ARM');
@@ -22760,7 +22758,7 @@ insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (660, 1622)
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Sentinel Statuette',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Generic/Card_Treasure_Sentinel_Statuette_2.0_DI.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Generic/Sentinel_Statuette_DI.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Sentinel_Statuette_DI.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1880, 'Treasure', 'Bottom', '+1G ARM');
@@ -22771,7 +22769,7 @@ insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (661, 1478)
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Sentinel Statuette',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Generic/Card_Treasure_Sentinel_Statuette_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Generic/Sentinel_Statuette.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Sentinel_Statuette.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1881, 'Treasure', 'Bottom', '+1G ARM');
@@ -22782,7 +22780,7 @@ insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (662, 1622)
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Serpent Bracelet',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Serpent_Bracelet_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Serpent_Bracelet.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Serpent_Bracelet.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1882, 'Character Treasure', 'Left', '+1G DEX');
@@ -22794,7 +22792,7 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (663, 9
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Shadow Crown',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Generic/Card_Treasure_Shadow_Crown_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Generic/Shadow_Crown.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Shadow_Crown.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Swift and silent as a shadow.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1883, 'Treasure', 'Bottom', '+1R DEX +1AC');
@@ -22817,7 +22815,7 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (665, 9
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Shell Shield',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Shell_Shield_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Shell_Shield.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Shell_Shield.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Pretty sure it''s unbreakable.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1885, 'Character Treasure', 'Right', '+1R ARM');
@@ -22828,7 +22826,7 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (666, 9
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Shield of Sorrow',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Shield_of_Sorrow_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Shield_of_Sorrow.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Shield_of_Sorrow.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1886, 'Character Treasure', 'Right', '+1R ARM');
@@ -22837,8 +22835,8 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (667, 9
 
 --Shinobi Shozoku --CardIndex 1887 --EquipmentIndex 668
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Shinobi Shozoku',
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Shinobi_Shozoku_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Back_2.0.png',
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Shinobi_Shozoku_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Loot/Shinobi_Shozoku.xhtml', 
 'Loot', '2.0', '2.0 Core Set', 'Default',
 'It has pockets for shuriken. And pockets for poison viles. And blood stains hardly show!');
@@ -22849,7 +22847,7 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (668, 9
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Shinobi Shozoku',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Shinobi_Shozoku_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Shinobi_Shozoku.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Shinobi_Shozoku.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1888, 'Character Treasure', 'Left', '+1G DEX');
@@ -22859,7 +22857,7 @@ insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (669, 581);
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Shojo''s Stash',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Generic/Card_Treasure_Shojos_Stash_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Generic/Shojos_Stash.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Shojos_Stash.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1889, 'Treasure', 'Bottom', '+1R DEX');
@@ -22871,7 +22869,7 @@ insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (670, 2020)
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Siege Breaker',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Siege_Breaker_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Siege_Breaker.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Siege_Breaker.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');  --!! unavailable !!
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1890, 'Character Treasure', 'Right', '+1G STR');  --!! unavailable !!
@@ -22881,8 +22879,8 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (671, 9
 
 --Silk Gloves --CardIndex 1891 --EquipmentIndex 672
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Silk Gloves',
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Silk_Gloves_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Back_2.0.png',
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Silk_Gloves_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Loot/Silk_Gloves.xhtml', 
 'Loot', '2.0', '2.0 Core Set', 'Default',
 'So luxurious.');
@@ -22903,7 +22901,7 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (673, 9
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Skull Mask',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Skull_Mask_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Skull_Mask.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Skull_Mask.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1893, 'Character Treasure', 'Bottom', '+1R ARM');
@@ -22914,7 +22912,7 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (674, 9
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Smatter Hauler',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Smatter_Hauler_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Smatter_Hauler.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Smatter_Hauler.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Let''s see what we caught today.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1894, 'Character Treasure', 'Top', '+1G DEX');
@@ -22925,7 +22923,7 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (675, 9
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Snow Bane',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Snow_Bane_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Snow_Bane.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Snow_Bane.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'The light of the Goddess can melt any frost.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1895, 'Character Treasure', 'Right', '+1G DEX');
@@ -22939,7 +22937,7 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (676, 9
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Sohei Tetsubo',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Sohei_Tetsubo_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Sohei_Tetsubo.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Sohei_Tetsubo.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1896, 'Character Treasure', 'Left', '+1R STR');
@@ -22962,7 +22960,7 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (678, 9
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Soul Depository',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Soul_Depository_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Soul_Depository.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Soul_Depository.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1898, 'Character Treasure', 'Top', '+1 HEALTH<br>When a Hero equipped with Soul Depository suffers a wound which would cause it to be destroyed, immediately discard Soul Depository and remove all wound and status effect tokens from the Hero.');
@@ -22972,7 +22970,7 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (679, 9
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Soul Eater',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Soul_Eater_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Soul_Eater.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Soul_Eater.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Soooo delicious!');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1899, 'Character Treasure', 'Right', '+1G STR');
@@ -22992,7 +22990,7 @@ insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1900,
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Soul Shard',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Generic/Card_Treasure_Soul_Shard_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Generic/Soul_Shard.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Soul_Shard.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1901, 'Treasure', 'Right', '+1G STR +1G WILL +1G DEX');
@@ -23002,7 +23000,7 @@ insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (682, 911);
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Spawn Breaker',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Generic/Card_Treasure_Spawn_Breaker_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Generic/Spawn_Breaker.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Spawn_Breaker.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1902, 'Treasure', 'Top', '+1G STR');
@@ -23046,7 +23044,7 @@ insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (686, 1218)
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Sphere of Eternal Night',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Sphere_of_Eternal_Night_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Sphere_of_Eternal_Night.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Sphere_of_Eternal_Night.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1906, 'Character Treasure', 'Bottom', '+1G DEX');
@@ -23057,7 +23055,7 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (687, 9
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Spider Bite',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Generic/Card_Treasure_Spider_Bite_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Generic/Spider_Bite.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Spider_Bite.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'A taste of poison...');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1907, 'Treasure', 'Right', '+1G DEX');
@@ -23070,7 +23068,7 @@ insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (688, 807);
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Spidersilk Kimono',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Spidersilk_Kimono_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Spidersilk_Kimono.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Spidersilk_Kimono.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Wrapped in spider webs? Fantastic.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1908, 'Character Treasure', 'Top', '+1G ARM');
@@ -23082,7 +23080,7 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (689, 9
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Spiderweb Corset',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Spiderweb_Corset_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Spiderweb_Corset.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Spiderweb_Corset.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Stop. Making. Clothes. From. Spiderwebs. It''s weird.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1909, 'Character Treasure', 'Right', '+1G ARM');
@@ -23094,7 +23092,7 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (690, 9
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Spiked Wheel',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Spiked_Wheel_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Spiked_Wheel.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Spiked_Wheel.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'I can balance on it! See?!');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1910, 'Character Treasure', 'Top', '+1R STR +1AC');
@@ -23103,8 +23101,8 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (691, 9
 
 --Spikes! --CardIndex 1911 --EquipmentIndex 692
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Spikes!',
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Spikes_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Back_2.0.png',
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Spikes_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Loot/Spikes.xhtml', 
 'Loot', '2.0', '2.0 Core Set', 'Default',
 'Put one here. Put one there. Put one everywhere!');
@@ -23114,7 +23112,7 @@ insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1911,
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Spirit Shot',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Spirit_Shot_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Spirit_Shot.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Spirit_Shot.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'I burn bright and true!');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1912, 'Character Treasure', 'Top', '+1G WILL');
@@ -23125,8 +23123,8 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (693, 9
 
 --Square Shovel --CardIndex 1913 --EquipmentIndex 694
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Square Shovel',
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Square_Shovel_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Back_2.0.png',
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Square_Shovel_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Loot/Square_Shovel.xhtml', 
 'Loot', '2.0', '2.0 Core Set', 'Default',
 'Is this supposed to dig?');
@@ -23137,7 +23135,7 @@ insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (694, 673);
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Squid Ink Potion',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Squid_Ink_Potion_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Squid_Ink_Potion.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Squid_Ink_Potion.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1914, 'Character Treasure', 'Top', '+1G WILL');
@@ -23148,7 +23146,7 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (513, 9
 --Stampeding Booty --CardIndex 1915 --EquipmentIndex 696
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Stampeding Booty',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Booty/Card_Treasure_Stampeding_Booty_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Back_2.0.png',
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Booty/Stampeding_Booty.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'The Bouncing Booty never holds still. You''ll have to be quick to catch it!');
@@ -23158,7 +23156,7 @@ insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1915,
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Star Plate',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Star_Plate_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Star_Plate.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Star_Plate.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'This place must be cleansed.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1916, 'Character Treasure', 'Left', '+1G ARM');
@@ -23169,7 +23167,7 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (697, 9
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Stave Of The Lich King',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Stave_Of_The_Lich_King_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Stave_Of_The_Lich_King.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Stave_Of_The_Lich_King.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Ancient as the Reach.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1917, 'Character Treasure', 'Right', '+2B WILL');
@@ -23179,8 +23177,8 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (698, 9
 
 --Steel Gauntlets --CardIndex 1918 --EquipmentIndex 699
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Steel Gauntlets',
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Steel_Gauntlets_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Back_2.0.png',
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Steel_Gauntlets_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Loot/Steel_Gauntlets.xhtml', 
 'Loot', '2.0', '2.0 Core Set', 'Default',
 'I challenge you to a duel!');
@@ -23188,8 +23186,8 @@ insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1918,
 
 --Steel Sword --CardIndex 1919 --EquipmentIndex 700
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Steel Sword',
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Steel_Sword_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Back_2.0.png',
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Steel_Sword_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Loot/Steel_Sword.xhtml', 
 'Loot', '2.0', '2.0 Core Set', 'Default',
 'Nothing finer than a well crafted blade.');
@@ -23199,7 +23197,7 @@ insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1919,
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Sting',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Sting_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Sting.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Sting.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Gnoll hide makes for surprisingly good boots.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1920, 'Character Treasure', 'Left', '+1G STR');
@@ -23210,7 +23208,7 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (701, 9
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Stinky Sewer Cowl',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Stinky_Sewer_Cowl_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Stinky_Sewer_Cowl.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Stinky_Sewer_Cowl.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');  --!! unavailable !!
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1921, 'Character Treasure', 'Right', '+1G ARM');
@@ -23230,7 +23228,7 @@ insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1922,
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Stolen Voice',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Stolen_Voice_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Stolen_Voice.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Stolen_Voice.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1923, 'Character Treasure', 'Bottom', '+1G WILL');
@@ -23254,7 +23252,7 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (705, 9
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Stompin Boots',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Stompin_Boots_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Stompin_Boots.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Stompin_Boots.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');  --!! unavailable !!
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1925, 'Character Treasure', 'Top', '+1 HEALTH');
@@ -23266,7 +23264,7 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (706, 9
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Stone Heart',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Generic/Card_Treasure_Stone_Heart_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Generic/Stone_Heart.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Stone_Heart.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Sure as stone.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1926, 'Treasure', 'Left', '+1R ARM +1 HEALTH');
@@ -23277,7 +23275,7 @@ insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (707, 1325)
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Stoneback''s Pickaxe',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Stonebacks_Pickaxe_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Stonebacks_Pickaxe.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Stonebacks_Pickaxe.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1927, 'Character Treasure', 'Right', '+1G STR');
@@ -23288,7 +23286,7 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (708, 9
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Striped Candy',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Striped_Candy_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Striped_Candy.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Striped_Candy.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1928, 'Character Treasure', 'Bottom', '+1G DEX');
@@ -23300,7 +23298,7 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (709, 9
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Stuffed Crow',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Stuffed_Crow_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Stuffed_Crow.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Stuffed_Crow.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1929, 'Character Treasure', 'Bottom', '+1G WILL');
@@ -23310,8 +23308,8 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (710, 9
 
 --Sturdy Cloak --CardIndex 1930 --EquipmentIndex 711
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Sturdy Cloak',
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Sturdy_Cloak_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Back_2.0.png',
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Sturdy_Cloak_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Loot/Sturdy_Cloak.xhtml', 
 'Loot', '2.0', '2.0 Core Set', 'Default',
 'Rugged protection for any Hero.');
@@ -23321,7 +23319,7 @@ insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1930,
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Subservient Goblin',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Subservient_Goblin_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Subservient_Goblin.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Subservient_Goblin.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');  
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1931, 'Character Treasure', 'Top', '+1B STR +1B ARM');
@@ -23332,8 +23330,8 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (712, 9
 
 --Sugar Rush Soda --CardIndex 1932 --EquipmentIndex 713
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Sugar Rush Soda',
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Sugar_Rush_Soda_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Back_2.0.png',
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Sugar_Rush_Soda_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Loot/Sugar_Rush_Soda.xhtml', 
 'Loot', '2.0', '2.0 Core Set', 'Default',
 'Quick! Loot the dungeon before the sugar crash!');
@@ -23343,7 +23341,7 @@ insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1932,
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Tanchyo Cloak',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Generic/Card_Treasure_Tanchyo_Cloak_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Generic/Tanchyo_Cloak.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Tanchyo_Cloak.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1933, 'Treasure', 'Bottom', '+1G DEX');
@@ -23355,7 +23353,7 @@ insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (714, 1567)
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Tankbuster Blunderbuss',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Tankbuster_Blunderbuss_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Tankbuster_Blunderbuss.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Tankbuster_Blunderbuss.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'The trick is to get REAL close...');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1934, 'Character Treasure', 'Left', '+1R STR');
@@ -23385,8 +23383,8 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (717, 9
 
 --Tatami Gusoku --CardIndex 1937 --EquipmentIndex 718
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Tatami Gusoku',
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Tatami_Gusoku_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Back_2.0.png',
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Tatami_Gusoku_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Loot/Tatami_Gusoku.xhtml', 
 'Loot', '2.0', '2.0 Core Set', 'Default',
 'Easy to transport and hard as nails.');
@@ -23396,7 +23394,7 @@ insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1937,
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Tattered Flannel',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Tattered_Flannel_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Tattered_Flannel.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Tattered_Flannel.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Wrap yourself in this luxurious cotton blend and snuggle up by a fire with some pumpkin spice mead." - Advertisement in the Crystalia Castle Herald');  
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1938, 'Character Treasure', 'Right', '+1G ARM');  
@@ -23405,8 +23403,8 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (719, 9
 
 --Teka-Teka Do --CardIndex 1939 --EquipmentIndex 720
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Teka-Teka Do',
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Teka_Teka_Do_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Back_2.0.png',
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Teka_Teka_Do_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Loot/Teka_Teka_Do.xhtml', 
 'Loot', '2.0', '2.0 Core Set', 'Default',
 'Bomechan can wait till I''ve applied one more coat of polish.');
@@ -23416,7 +23414,7 @@ insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1939,
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Tenderiser, The',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Tenderiser_The_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Tenderiser_The.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Tenderiser_The.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'With added oil.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1940, 'Character Treasure', 'Right', '+1G STR');
@@ -23426,8 +23424,8 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (721, 9
 
 --Tengu Cap --CardIndex 1941 --EquipmentIndex 722
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Tengu Cap',
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Tengu_Cap_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Back_2.0.png',
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Tengu_Cap_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Loot/Tengu_Cap.xhtml', 
 'Loot', '2.0', '2.0 Core Set', 'Default',
 'Beware the blessings of the fickle Tengu.');
@@ -23437,7 +23435,7 @@ insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1941,
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Teppo',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Generic/Card_Treasure_Teppo_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Generic/Teppo.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Teppo.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1942, 'Treasure', 'Right', '+1G DEX');
@@ -23447,8 +23445,8 @@ insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (723, 1087)
 
 --Tezuchi Pendant --CardIndex 1943 --EquipmentIndex 724
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Tezuchi Pendant',
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Tezuchi_Pendant_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Back_2.0.png',
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Tezuchi_Pendant_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Loot/Tezuchi_Pendant.xhtml', 
 'Loot', '2.0', '2.0 Core Set', 'Default',
 'A mark of a great sword smith.');
@@ -23480,7 +23478,7 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (726, 9
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Tickle Tongue Cola',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Generic/Card_Treasure_Tickle_Tongue_Cola_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Generic/Tickle_Tongue_Cola.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Tickle_Tongue_Cola.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1946, 'Treasure', 'Top', '+1G DEX');
@@ -23491,7 +23489,7 @@ insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (727, 1810)
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Torment Knife',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Torment_Knife_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Torment_Knife.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Torment_Knife.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'This was used to cause great suffering.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1947, 'Character Treasure', 'Right', '+2R STR');
@@ -23501,7 +23499,7 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (728, 9
 --Tormented Text --CardIndex 1948 --EquipmentIndex 729
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Tormented Text',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Books/Card_Treasure_Tormented_Text_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Back_2.0.png',
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Books/Tormented_Text.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Ouch!');
@@ -23510,7 +23508,7 @@ insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1948,
 --Touchy Tome --CardIndex 1949 --EquipmentIndex 730
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Touchy Tome',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Books/Card_Treasure_Touchy_Tome_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Back_2.0.png',
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Books/Touchy_Tome.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Betrayed. By a book.');
@@ -23520,7 +23518,7 @@ insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1949,
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Traveling Jacket',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Traveling_Jacket_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Traveling_Jacket.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Traveling_Jacket.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1950, 'Character Treasure', 'Right', '+2B ARM');
@@ -23531,7 +23529,7 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (731, 9
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Treasured Toy',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Treasured_Toy_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Treasured_Toy.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Treasured_Toy.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'I see what she sees.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1951, 'Character Treasure', 'Top', '+2B WILL');
@@ -23542,7 +23540,7 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (732, 9
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Truncheon',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Truncheon_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Truncheon.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Truncheon.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Club ''em good!');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1952, 'Character Treasure', 'Right', '+1G STR');
@@ -23553,7 +23551,7 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (733, 9
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Trusty Lockpicks',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Generic/Card_Treasure_Trusty_Lockpicks_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Generic/Trusty_Lockpicks.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Trusty_Lockpicks.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1953, 'Treasure', 'Top', '+1G DEX');
@@ -23563,7 +23561,7 @@ insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (734, 824);
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Turtle Shell Mail',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Turtle_Shell_Mail_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Turtle_Shell_Mail.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Turtle_Shell_Mail.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'So tough, so slow.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1954, 'Character Treasure', 'Left', '-2MO +1G ARM');
@@ -23632,7 +23630,7 @@ insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (740, 46); 
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Unknown2',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Unknown2_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Unknown2.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Unknown2.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');  --!! unavailable !!
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1960, 'Character Treasure', 'Right', '+1G STR'); --!! unavailable !!
@@ -23644,7 +23642,7 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (741, 9
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Unlucky Crow''s Foot',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Unlucky_Crows_Foot_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Unlucky_Crows_Foot.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Unlucky_Crows_Foot.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1961, 'Character Treasure', 'Top', '+2B STR +2B WILL +2B DEX');
@@ -23656,7 +23654,7 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (742, 9
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Urchin''s Mush',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Urchins_Mush_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Urchins_Mush.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Urchins_Mush.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'It''s healthy! Seriously.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1962, 'Character Treasure', 'Right', '+1G STR');
@@ -23669,7 +23667,7 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (743, 9
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Vagabond''s Cloak',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Vagabonds_Cloak_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Vagabonds_Cloak.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Vagabonds_Cloak.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Always overlooked--just as I intended.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1963, 'Character Treasure', 'Left', '+1G ARM');
@@ -23680,7 +23678,7 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (744, 9
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Vainglorious',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Generic/Card_Treasure_Vainglorious_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Generic/Vainglorious.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Vainglorious.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Me. Me. Me. Me.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1964, 'Treasure', 'Left', '+2B ARM');
@@ -23690,7 +23688,7 @@ insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (745, 1044)
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Venom Vial',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Venom_Vial_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Venom_Vial.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Venom_Vial.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1965, 'Character Treasure', 'Top', '+1G WILL');
@@ -23702,7 +23700,7 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (746, 9
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Volatile Explosives',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Volatile_Explosives_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Volatile_Explosives.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Volatile_Explosives.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Don''t worry, I''m an expert.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1966, 'Character Treasure', 'Top', '');
@@ -23714,7 +23712,7 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (747, 9
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Vulcanite Banded Mail',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Vulcanite_Banded_Mail_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Vulcanite_Banded_Mail.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Vulcanite_Banded_Mail.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Guaranteed to last a lifetime.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1967, 'Character Treasure', 'Left', '+1R ARM');
@@ -23725,7 +23723,7 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (748, 9
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Vulcanite Gladius',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Vulcanite_Gladius_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Vulcanite_Gladius.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Vulcanite_Gladius.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1968, 'Character Treasure', 'Right', '+1G STR');
@@ -23738,7 +23736,7 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (749, 9
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Vulcanite Scutum',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Vulcanite_Scutum_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Vulcanite_Scutum.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Vulcanite_Scutum.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Out of the way!');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1969, 'Character Treasure', 'Right', '+1G ARM');
@@ -23750,7 +23748,7 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (750, 9
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Vulcanite Standard',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Vulcanite_Standard_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Vulcanite_Standard.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Vulcanite_Standard.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1970, 'Character Treasure', 'Top', '+2B WILL');
@@ -23762,7 +23760,7 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (751, 9
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('War Maul',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_War_Maul_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/War_Maul.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/War_Maul.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'MIGHTY MONKEY SMASH!');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1971, 'Character Treasure', 'Right', '+1G STR');
@@ -23771,8 +23769,8 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (752, 9
 
 --Warrior Mail --CardIndex 1972 --EquipmentIndex 753
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Warrior Mail',
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Warrior_Mail_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Back_2.0.png',
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Warrior_Mail_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Loot/Warrior_Mail.xhtml', 
 'Loot', '2.0', '2.0 Core Set', 'Default',
 'For the Goddess!');
@@ -23782,7 +23780,7 @@ insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1972,
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Wasabi Sunrise',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Generic/Card_Treasure_Wasabi_Sunrise_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Generic/Wasabi_Sunrise.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Wasabi_Sunrise.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1973, 'Treasure', 'Top', '+1G ARM');
@@ -23793,7 +23791,7 @@ insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (754, 1811)
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Waystone',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Waystone_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Waystone.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Waystone.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'I think he wants it back...');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1974, 'Character Treasure', 'Left', '+1B STR +1B ARM +1B WILL +1B DEX');
@@ -23815,7 +23813,7 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (756, 9
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Wheat Sheaf',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Wheat_Sheaf_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Wheat_Sheaf.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Wheat_Sheaf.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '"Thy doom is wrought! Beware my sheaf!"'); 
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1976, 'Character Treasure', 'Left', '+1G DEX');  
@@ -23826,7 +23824,7 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (757, 9
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Whirling Doom, The',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Whirling_Doom_The_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Whirling_Doom_The.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Whirling_Doom_The.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 ''); 
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1977, 'Character Treasure', 'Right', '+1G DEX +1R DEX'); 
@@ -23858,9 +23856,9 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (760, 9
 
 --Widow's Glass  --CardIndex 1980 --EquipmentIndex 761
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Widow''s Glass',
-'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Relic_Widows_Glass_v2_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Relic_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Widows_Glass_v2.xhtml', 
+'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Widows_Glass_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Widows_Glass.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 ''); 
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1980, 'Character Treasure', 'Left', '+1R ARM');  
@@ -23871,7 +23869,7 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (761, 9
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Windswept Flute',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Generic/Card_Treasure_Windswept_Flute_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Generic/Windswept_Flute.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Windswept_Flute.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1981, 'Treasure', 'Bottom', '+1G DEX');
@@ -23880,8 +23878,8 @@ insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (762, 2019)
 
 --Winged Crossbow --CardIndex 1982 --EquipmentIndex 763
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Winged Crossbow',
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Winged_Crossbow_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Back_2.0.png',
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Winged_Crossbow_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Loot/Winged_Crossbow.xhtml', 
 'Loot', '2.0', '2.0 Core Set', 'Default',
 'Goddess, guide my shot.');
@@ -23892,7 +23890,7 @@ insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (763, 673);
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Wings of Ash',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Wings_of_Ash_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Wings_of_Ash.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Wings_of_Ash.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1983, 'Character Treasure', 'Bottom', '+1G DEX');
@@ -23917,7 +23915,7 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (765, 9
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Winter''s Orb',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Winters_Orb_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Winters_Orb.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Winters_Orb.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1985, 'Character Treasure', 'Top', '+1G WILL');
@@ -23926,8 +23924,8 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (766, 9
 
 --Witch Hat --CardIndex 1986 --EquipmentIndex 767
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Witch Hat',
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Witch_Hat_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Back_2.0.png',
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Witch_Hat_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Loot/Witch_Hat.xhtml', 
 'Loot', '2.0', '2.0 Core Set', 'Default',
 'Which hat? The pointed hat!');
@@ -23936,8 +23934,8 @@ insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (767, 647);
 
 --Witch Robes --CardIndex 1987 --EquipmentIndex 768
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Witch Robes',
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Witch_Robes_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Back_2.0.png',
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Witch_Robes_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Loot/Witch_Robes.xhtml', 
 'Loot', '2.0', '2.0 Core Set', 'Default',
 'Which robes? The black robes!');
@@ -23945,8 +23943,8 @@ insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1987,
 
 --Witch Wand --CardIndex 1988 --EquipmentIndex 769
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Witch Wand',
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Witch_Wand_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Back_2.0.png',
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Witch_Wand_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Loot/Witch_Wand.xhtml', 
 'Loot', '2.0', '2.0 Core Set', 'Default',
 'Which wand? The gnarled wand!');
@@ -23954,8 +23952,8 @@ insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1988,
 
 --Wizard Cowl --CardIndex 1989 --EquipmentIndex 770
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Wizard Cowl',
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Wizard_Cowl_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Back_2.0.png',
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Wizard_Cowl_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Loot/Wizard_Cowl.xhtml', 
 'Loot', '2.0', '2.0 Core Set', 'Default',
 'I set my mind in motion.');
@@ -23963,8 +23961,8 @@ insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1989,
 
 --Wizard Ring --CardIndex 1990 --EquipmentIndex 771
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Wizard Ring',
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Wizard_Ring_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Back_2.0.png',
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Wizard_Ring_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Loot/Wizard_Ring.xhtml', 
 'Loot', '2.0', '2.0 Core Set', 'Default',
 'The power within is all the protection I need.');
@@ -23972,8 +23970,8 @@ insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1990,
 
 --Wizard Wand --CardIndex 1991 --EquipmentIndex 772
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Wizard Wand',
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Wizard_Wand_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Back_2.0.png',
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Wizard_Wand_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Loot/Wizard_Wand.xhtml', 
 'Loot', '2.0', '2.0 Core Set', 'Default',
 'Point the wand at what you want to barbeque...');
@@ -23982,8 +23980,8 @@ insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (772, 588);
 
 --Wizardling Robe --CardIndex 1992 --EquipmentIndex 773
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Wizardling Robe',
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Wizardling_Robe_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Loot/Card_Treasure_Back_2.0.png',
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Wizardling_Robe_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Loot/Card_Loot_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Loot/Wizardling_Robe.xhtml', 
 'Loot', '2.0', '2.0 Core Set', 'Default',
 'Because the dwarves weren''t laughing at us enough for the hats and the wands...');
@@ -23993,7 +23991,7 @@ insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1992,
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Wooden Sword',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Wooden_Sword_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Wooden_Sword.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Wooden_Sword.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1993, 'Character Treasure', 'Right', '+1G STR');
@@ -24005,7 +24003,7 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (774, 9
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Wyrm Scale Shield',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Wyrm_Scale_Shield_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Wyrm_Scale_Shield.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Wyrm_Scale_Shield.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Woosh!');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1994, 'Character Treasure', 'Left', '+1G ARM');

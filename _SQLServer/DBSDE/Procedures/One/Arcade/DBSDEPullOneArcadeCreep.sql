@@ -1,7 +1,7 @@
 --drop PROCEDURE DBSDEPullOneArcadeCreep;
 
 CREATE OR ALTER PROCEDURE DBSDEPullOneArcadeCreep(
-	@intCardLink varChar(100)
+	@intCardLink varChar(150)
 )
 AS
 BEGIN

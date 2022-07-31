@@ -1,7 +1,7 @@
 --drop PROCEDURE DBSDEPullOneObject;
 
 CREATE OR ALTER PROCEDURE DBSDEPullOneObject(
-	@intCardLink varChar(100)
+	@intCardLink varChar(150)
 )
 AS
 BEGIN

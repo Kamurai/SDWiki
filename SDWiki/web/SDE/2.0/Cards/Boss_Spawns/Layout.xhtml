@@ -37,14 +37,7 @@
                 </div>
                 <div id="idCenterRowMain">
                     <h:form>
-                        <c:choose>
-                            <c:when test="#{MainBean.getPage().compareTo('Index') == 0}">
-                                <ui:include src="#{MainBean.getContent()}"></ui:include>
-                            </c:when>
-                            <c:otherwise>
-                                <ui:include src="/SDE/Content/CardList.xhtml"></ui:include>
-                            </c:otherwise>
-                        </c:choose>
+                       <ui:include src="/SDE/Content/BossSpawn.xhtml"></ui:include>
                     </h:form>
                 </div>
                 <div id="idCenterRowRight">

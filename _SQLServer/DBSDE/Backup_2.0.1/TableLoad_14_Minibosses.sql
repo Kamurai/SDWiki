@@ -6,7 +6,7 @@
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Arachne',
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Arachne_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Arachne_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/MiniBosses/Arachne.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/MiniBosses/Arachne.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Explore',
 '');
 insert into Characters (CardIndex) VALUES (1002);
@@ -33,7 +33,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (507
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Arashikage',
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Arashikage_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Arashikage_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/MiniBosses/Arashikage.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/MiniBosses/Arashikage.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Explore',
 '"I can kill him, yes, but only if you tell me what I need to know."');
 insert into Characters (CardIndex) VALUES (1003);
@@ -57,7 +57,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (508
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Blood-Eye',
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Blood_Eye_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Blood_Eye_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/MiniBosses/Blood_Eye.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/MiniBosses/Blood_Eye.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Explore',
 'Blood-Eye, was exiled from the Crook-eye tribe for his lack of honor and tendency towards unnecessary violence. In truth, Blood-Eye cared little about his exile, having long chafed under the "civilized" tribe''s rules. A ruthless hunter and tracker, Blood-Eye has readily found work among the minions of the Dark Consul.');
 insert into Characters (CardIndex) VALUES (1004);
@@ -84,7 +84,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (509
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Cernonos',
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Cernonos_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Cernonos_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/MiniBosses/Cernonos.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/MiniBosses/Cernonos.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Explore',
 'At the heart of every maze awaits a monster. Many brave adventurers have lost their way, and Cernonos is always waiting...');
 insert into Characters (CardIndex) VALUES (1005);
@@ -110,7 +110,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (510
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Chained Knight',
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Chained_Knight_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Chained_Knight_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/MiniBosses/Chained_Knight.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/MiniBosses/Chained_Knight.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Explore',
 'One of Araphel''s most terrifying devotees is a hulking figure known simply as the Chained Knight. Such is Araphel''s influence over him that even his name has been consumed and forgotten. Whatever he once was, now he is Araphel''s sword arm, put to use when subtlety has run its course. Even so, many say they sometimes see a flicker of defiance on his face, as if something within him still resists his dark mistress.');
 insert into Characters (CardIndex) VALUES (1006);
@@ -134,7 +134,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (511
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Charmancer',
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Charmancer_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Charmancer_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/MiniBosses/Charmancer.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/MiniBosses/Charmancer.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Explore',
 '');  --!! unavailable !!
 insert into Characters (CardIndex) VALUES (1007);
@@ -161,7 +161,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (512
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Chaos Kitty',
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Chaos_Kitty_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Chaos_Kitty_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/MiniBosses/Chaos_Kitty.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/MiniBosses/Chaos_Kitty.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Explore',
 '"I was just playing with it and then it broke..."');
 insert into Characters (CardIndex) VALUES (1008);
@@ -187,7 +187,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (513
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Clan Ika Chunin',
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Clan_Ika_Chunin_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Clan_Ika_Chunin_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/MiniBosses/Clan_Ika_Chunin.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/MiniBosses/Clan_Ika_Chunin.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Explore',
 '');
 insert into Characters (CardIndex) VALUES (1009);
@@ -212,7 +212,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (514
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Clan Kitsune Chunin',
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Clan_Kitsune_Chunin_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Clan_Kitsune_Chunin_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/MiniBosses/Clan_Kitsune_Chunin.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/MiniBosses/Clan_Kitsune_Chunin.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Explore',
 'The Kitsune Chunin is the leader of the Kitsune Kunoichi. No outsider knows how the Chunin is chosen from the ranks of the Kunoichi, but it is speculated that Kunoichi are allowed to challenge the current Chunin for the title, ensuring that the strongest and most cunning is always in charge. He or she always wears a face covering in battle to protect their identity should they choose to leave any survivors. The Chunin is equipped with the most deadly of the concoctions for which the Kitsune are famed, often using these poisons to coat their weapons.');
 insert into Characters (CardIndex) VALUES (1010);
@@ -236,7 +236,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (515
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Clan Spirit Shrine Oni',
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Clan_Spirit_Shrine_Oni_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Clan_Spirit_Shrine_Oni_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/MiniBosses/Clan_Spirit_Shrine_Oni.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/MiniBosses/Clan_Spirit_Shrine_Oni.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Explore',
 'It is said that man and Oni first met as enemies, but soon developed a grudging respect; the Oni for their size and strength, and men for their technology and tenacity. Many Oni, however fickle, will join a team to honor agreements, to demonstrate their strength, or just for the fun of it. They may not be the most stealthy, but their effect on the enemy is remarkable.');
 insert into Characters (CardIndex) VALUES (1011);
@@ -259,7 +259,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (516
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Clan Sohei Chunin',
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Clan_Sohei_Chunin_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Clan_Sohei_Chunin_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/MiniBosses/Clan_Sohei_Chunin.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/MiniBosses/Clan_Sohei_Chunin.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Explore',
 'Sohei Chunin have faced horrors that would render lesser warriors insane.  But it is not their place to simply face such horrors, but to defeat and banish them back to the Dark Realm.  It is said that the greatest warriors of the clan, do not banish the minions of the Dark Consul, but unmake them entirely.  Ending their threat to Crystalia permanently.');
 insert into Characters (CardIndex) VALUES (1012);
@@ -284,7 +284,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (517
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Clan Sohei Oni',
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Clan_Sohei_Oni_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Clan_Sohei_Oni_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/MiniBosses/Clan_Sohei_Oni.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/MiniBosses/Clan_Sohei_Oni.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Explore',
 'The Shi are a species as ancient as Crystalia itself.  Legends say that Ameratsu''s first steps upon Crystalia were taken with the loyal Shi at her side.  These luminous creatures'' souls cannot be touched by darkness.  They are a joyful and playful when among children of light, as they are fierce and terrifying to creatures who dwell in darkness.');
 insert into Characters (CardIndex) VALUES (1013);
@@ -310,7 +310,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (518
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Clan Tanchyo Chunin',
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Clan_Tanchyo_Chunin_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Clan_Tanchyo_Chunin_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/MiniBosses/Clan_Tanchyo_Chunin.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/MiniBosses/Clan_Tanchyo_Chunin.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Explore',
 'The Tanchyo are known throughout Kagejima for their archery skills, and the Chunin are those who have proven themselves above and beyond even their fellow Tanchyo. Each village only has single Chunin. Sometimes this individual is a hero of a great battle. Sometimes they have proven themselves in an archery contest. But all Tanchyo Chunin are deadly opponents who can single-handedly rain down a storm of arrows.');
 insert into Characters (CardIndex) VALUES (1014);
@@ -335,7 +335,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (519
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Clan Tora Chunin',
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Clan_Tora_Chunin_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Clan_Tora_Chunin_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/MiniBosses/Clan_Tora_Chunin.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/MiniBosses/Clan_Tora_Chunin.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Explore',
 'The Chunin of the Tora employ tactics learned over centuries of battle. Employing the strength of their warriors as a fire attacks a dry forest, or a Tiger pounces on the unwary prey.');
 insert into Characters (CardIndex) VALUES (1015);
@@ -360,7 +360,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (520
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Clan Void Shrine Oni',
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Clan_Void_Shrine_Oni_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Clan_Void_Shrine_Oni_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/MiniBosses/Clan_Void_Shrine_Oni.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/MiniBosses/Clan_Void_Shrine_Oni.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Explore',
 'It is said that man and Oni first met as enemies, but soon developed a grudging respect; the Oni for their size and strength, and men for their technology and tenacity. Many Oni, however fickle, will join a team to honor agreements, to demonstrate their strength, or just for the fun of it. They may not be the most stealthy, but their effect on the enemy is remarkable.');
 insert into Characters (CardIndex) VALUES (1016);
@@ -383,7 +383,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (521
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Clan Water Shrine Oni',
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Clan_Water_Shrine_Oni_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Clan_Water_Shrine_Oni_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/MiniBosses/Clan_Water_Shrine_Oni.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/MiniBosses/Clan_Water_Shrine_Oni.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Explore',
 'It is said that man and Oni first met as enemies, but soon developed a grudging respect; the Oni for their size and strength, and men for their technology and tenacity. Many Oni, however fickle, will join a team to honor agreements, to demonstrate their strength, or just for the fun of it. They may not be the most stealthy, but their effect on the enemy is remarkable.');
 insert into Characters (CardIndex) VALUES (1017);
@@ -406,7 +406,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (522
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Clan Yamazaru Chunin',
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Clan_Yamazaru_Chunin_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Clan_Yamazaru_Chunin_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/MiniBosses/Clan_Yamazaru_Chunin.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/MiniBosses/Clan_Yamazaru_Chunin.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Explore',
 'The Yamazaru are naturally curious and playful. They love new trinquets and fun items, and this even spills over into how they arm themselves for battle. Often, the Yamazaru Chunin is simply the one with the newest weapon, biggest club, or the most new trinquets to share with his or her fellow Yamazaru.');
 insert into Characters (CardIndex) VALUES (1018);
@@ -429,7 +429,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (523
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Clan Yurei Chunin',
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Clan_Yurei_Chunin_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Clan_Yurei_Chunin_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/MiniBosses/Clan_Yurei_Chunin.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/MiniBosses/Clan_Yurei_Chunin.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Explore',
 'It is said that the hammers borne by the Yurei Chunin were the very ones used to close the final links of chain that held the Yurei clan nobles to their battle barges when they were cast into the ocean. Cursed with the most vile hatred for the Ika, these weapons are as much symbols of that hatred as they are tools for revenge.');
 insert into Characters (CardIndex) VALUES (1019);
@@ -455,7 +455,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (524
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Clan Yurei Oni',
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Clan_Yurei_Oni_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Clan_Yurei_Oni_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/MiniBosses/Clan_Yurei_Oni.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/MiniBosses/Clan_Yurei_Oni.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Explore',
 'Amongst the many warriors that were sent to the bottom of the sea during the Yurei rebellion. There were quite a few Oni from some of the outlying islands in the service of Lord Tomomori. Their strength was used to batter their way onto the Ika''s castle ships. It is of no difference now, as even in death, they are terrifying and powerful foes.');
 insert into Characters (CardIndex) VALUES (1020);
@@ -480,7 +480,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (525
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Crystal Weaver',
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Crystal_Weaver_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Crystal_Weaver_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/MiniBosses/Crystal_Weaver.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/MiniBosses/Crystal_Weaver.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Explore',
 'The Midnight Tower is guarded by any number of nefarious traps, henchmen, and monsters. But none compare to the Crystal Weaver in pure corruption and unfeeling malignance. Once a sacred keeper of the Goddess Chamber, the Crystal Weaver was one of the wonders of Crystalia. That the Midnight Queen was able to taint it in both heart and form is a stain upon the land. Once in the shape of a mighty knight, the golem has taken on the twisted form of one of the Queen''s spiders, and stalks the halls of her tower hunting down unfortunate Heroes with unfeeling adeptness.');
 insert into Characters (CardIndex) VALUES (1021);
@@ -504,7 +504,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (526
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Cursed Jarl',
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Cursed_Jarl_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Cursed_Jarl_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/MiniBosses/Cursed_Jarl.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/MiniBosses/Cursed_Jarl.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Explore',
 'In order to unite the warring human tribes of Frostbyte Reavers, Elrik was required to earn (or force) the allegiance of each tribe''s powerful Jarl. Drawn to Elrik''s might--both physical and magical--most Jarls happily supported his claims to kingship and the riches it brought to them. They did not know of the dark powers which Elrik tapped to gain his strength. When Elrik ascended to Lichdom the Jarls were bestowed the curse of undeath, doomed to serve their King forever.');
 insert into Characters (CardIndex) VALUES (1022);
@@ -528,7 +528,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (527
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Dark Kitsune',
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Dark_Kitsune_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Dark_Kitsune_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/MiniBosses/Dark_Kitsune.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/MiniBosses/Dark_Kitsune.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Explore',
 'Some Kitsune are ill-suited for life beneath their clan''s shadowed trees. Dark Kitsune dream of a wider world, and long to see its wonders. They take their clan''s skills in herbalism and magic with them, of course, and most parlay these talents into lucrative employment. They rarely have trouble finding warriors willing to pay their sometimes outlandish fees.');
 insert into Characters (CardIndex) VALUES (1023);
@@ -552,7 +552,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (528
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ezoghoul',
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Ezoghoul_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Ezoghoul_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/MiniBosses/Ezoghoul.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/MiniBosses/Ezoghoul.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Explore',
 '');
 insert into Characters (CardIndex) VALUES (1024);
@@ -575,7 +575,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (529
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Furious Fungomancer',
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Furious_Fungomancer_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Furious_Fungomancer_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/MiniBosses/Furious_Fungomancer.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/MiniBosses/Furious_Fungomancer.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Explore',
 'Sometimes a Okoshroom is exposed to powerful magic. It could be magic spewed by the Dark Consul, or even just a chance encounter with a powerful crystal. Whatever the cause, this can awaken a new understanding in the Okoshroom. It understands its place in the world. It understands how the other peoples of Crystalia see mushrooms; as mere fungus, even as food. Cursed with understanding, the Okoshroom becomes filled with rage, and seeks ways to make the other people of Crystalia understand what it is to be a mushroom...');
 insert into Characters (CardIndex) VALUES (1025);
@@ -600,7 +600,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (530
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Gothmog The Terrible',
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Gothmog_the_Terrible_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Gothmog_the_Terrible_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/MiniBosses/Gothmog_the_Terrible.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/MiniBosses/Gothmog_the_Terrible.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Explore',
 'Gothmog once led the Ravagers as the tribe''s brutal warlord. Under his ferocious rule, the Ravagers became infamous throughout the Frostbyte Reach. His rule was eventually undermined when Guth the Pig overthrew him with the aid of a small, feisty, cunning tribe of goblins. Disgraced by his defeat, Gothmog now serves as The Guth''s lieutenant. He nurses his hatred for his new warlord, waiting for an opportune moment to topple him, and return to his former glory.');
 insert into Characters (CardIndex) VALUES (1026);
@@ -622,7 +622,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (531
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Grim Golem',
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Grim_Golem_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Grim_Golem_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/MiniBosses/Grim_Golem.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/MiniBosses/Grim_Golem.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Explore',
 'The massive statues which stand sentinel around the Nether Rifts are, for all intents and purposes, impervious to harm. No attempt by the Light at destroying one has ever succeeded in even marring one''s surface. The Crystal Shapers of the Dark Realm, however, are able to manipulate the surface of the Heralds, growing stone spurs that can be removed and used for nefarious purpose. Particularly favored, is the creation of golems which patrol dungeons and dark keeps. Almost as resistant to harm as the Heralds themselves, these Grim Golems are tenacious foes.');
 insert into Characters (CardIndex) VALUES (1027);
@@ -646,7 +646,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (532
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Hecate Vilehorn',
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Hecate_Vilehorn_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Hecate_Vilehorn_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/MiniBosses/Hecate_Vilehorn.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/MiniBosses/Hecate_Vilehorn.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Explore',
 '');
 insert into Characters (CardIndex) VALUES (1028);
@@ -698,7 +698,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (534
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Kappa',
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Kappa_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Kappa_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/MiniBosses/Kappa.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/MiniBosses/Kappa.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Explore',
 'The Kappa are wild, dangerous kami who inhabit Kagejima''s lakes, rivers, and swamps. Wily and withdrawn by nature, they can be found overturning boats and drowning unwary children. Despite this, several clans have successfully coaxed these exceptionally strong and stealthy creatures into performing services...often with the sacrifice of food, livestock, or even the village elder''s first born child.');
 insert into Characters (CardIndex) VALUES (1030);
@@ -723,7 +723,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (535
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Knight of Shifting Sand',
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Knight_of_Shifting_Sand_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Knight_of_Shifting_Sand_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/MiniBosses/Knight_of_the_Shifting_Sand.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/MiniBosses/Knight_of_the_Shifting_Sand.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Explore',
 'It is said that to fight a Knight of Shifting Sand is to fight the desert itself. At a young age, they are led into the desert, both mount and rider veiled from all sight and sound. There, they are left to survive alone and to find their own way home. Many perish. The greatest of them spend years, even decades, traveling the deep dunes. Each journey is unique, but when they return they are masters of the desert and mighty leaders of their peers.');
 insert into Characters (CardIndex) VALUES (1031);
@@ -749,7 +749,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (536
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Knight of the Tower',
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Knight_of_the_Tower_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Knight_of_the_Tower_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/MiniBosses/Knight_of_the_Tower.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/MiniBosses/Knight_of_the_Tower.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Explore',
 '');
 insert into Characters (CardIndex) VALUES (1032);
@@ -776,7 +776,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (537
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Kobold Ogre',
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Kobold_Ogre_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Kobold_Ogre_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/MiniBosses/Kobold_Ogre.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/MiniBosses/Kobold_Ogre.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Explore',
 'The most powerful kobold leaders often display their might with a pair or more of burly ogre bodyguards. Having grown large and brutally strong from constant exposure to the Dark Realm''s magick, ogres have lost much of the intelligence and animal cunning of their lesser kobold kin. Despite this, they are remarkably loyal and enjoy being a part of their cousins'' plans.');
 insert into Characters (CardIndex) VALUES (1033);
@@ -798,7 +798,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (538
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Mistmourn Warg',
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Mistmourn_Warg_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Mistmourn_Warg_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/MiniBosses/Mistmourn_Warg.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/MiniBosses/Mistmourn_Warg.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Explore',
 'The wargs of the Mistmourn Coast grow exceptionally dangerous. Unlike other wargs, they are not pack hunters. Instead, each one strikes out on its own to claim its territory. These beasts grow to exceptional size and are frequently manipulated by the Dark Consul against the heroes of Crystalia. When a warg leads the Consul''s minions into battle, its howl emboldens those around it, driving them into a frenzy with the warg of their backs.');
 insert into Characters (CardIndex) VALUES (1034);
@@ -822,7 +822,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (539
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Monach Tvar',
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Monach_Tvar_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Monach_Tvar_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/MiniBosses/Monach_Tvar.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/MiniBosses/Monach_Tvar.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Explore',
 '');
 insert into Characters (CardIndex) VALUES (1035);
@@ -852,7 +852,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (540
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Nethercorn',
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Nethercorn_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Nethercorn_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/MiniBosses/Nethercorn.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/MiniBosses/Nethercorn.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Explore',
 'Nethercorns are fiery tempered natives of the Dark Realm. Startlingly intelligent and predatory, nethercorns bend only to the will of the Dark Consul. Many demons assume nethercorns are servile minions, or attempt to capture them as mounts. The fields of bone around a nethercorn''s territory serve as testimony to their failure.');
 insert into Characters (CardIndex) VALUES (1036);
@@ -880,7 +880,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (541
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Orcdon Ramsay',
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Orcdon_Ramsay_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Orcdon_Ramsay_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/MiniBosses/Orcdon_Ramsay.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/MiniBosses/Orcdon_Ramsay.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Explore',
 '');--!! unavailable !!
 insert into Characters (CardIndex) VALUES (1037);
@@ -903,7 +903,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (542
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Rage Fiend, The',
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Rage_Fiend_The_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Rage_Fiend_The_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/MiniBosses/Rage_Fiend_The.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/MiniBosses/Rage_Fiend_The.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Explore',
 'The Rage Fiend is a legend among the orcish tribes. An unstoppable juggernaut of destruction, it is whispered that The Rage Fiend was blessed by the great demon lord known only as The Destroyer. Filled with demonic vigor and visions of desolation, The Rage Fiend incites all around him to ever increasing fits of violence and madness. Where The Rage Fiend treads only death follows.');
 insert into Characters (CardIndex) VALUES (1038);
@@ -926,7 +926,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (543
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Randy, Lrod of Spiders',
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Randy_Lrod_of_Spiders_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Randy_Lrod_of_Spiders_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/MiniBosses/Randy_Lrod_of_Spiders.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/MiniBosses/Randy_Lrod_of_Spiders.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Explore',
 'The last galaxy is a place where mighty knights clash with the forces of the void, and a battle for survival rages. But that doesn''t mean that the arcades will manage themselves. Randy has been charged with the sacred duty of managing one such arcade. Annoyed at customers who continually vaporize his place of work with high tech weaponry, Randy decided to program himself into his favorite game. But a typo prevented him from being a proper lord, even in a game...');
 insert into Characters (CardIndex) VALUES (1039);
@@ -951,7 +951,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (544
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Rex',
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Rex_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Rex_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/MiniBosses/Rex.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/MiniBosses/Rex.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Explore',
 'Rex has collected more than a few new friends since going to work in the Consul''s dungeons. Most are unwary adventurers not quite quick enough to get out of the reach of his enthusiastic hugs.');
 insert into Characters (CardIndex) VALUES (1040);
@@ -977,7 +977,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (545
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ser Anthony',
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Ser_Anthony_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Ser_Anthony_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/MiniBosses/Ser_Anthony.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/MiniBosses/Ser_Anthony.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Explore',
 'Despite his youth, Ser Anthony rose through the ranks of the Crown Guard quickly. Taken under the wing of the venerable knight Ser Charles he excelled at his studies--both physical and mental. At Ser Charles'' retirement, it was the great knight''s honor to see his squire rise to fill his station.');
 insert into Characters (CardIndex) VALUES (1041);
@@ -1003,7 +1003,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (546
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ser Elmer',
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Ser_Elmer_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Ser_Elmer_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/MiniBosses/Ser_Elmer.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/MiniBosses/Ser_Elmer.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Explore',
 'Ser Elmer has the distinct privilege and honor of serving as Castletown''s Captain of the Guard. Charged with overseeing the safety of Castletown''s businesses and citizens, Ser Elmer rarely encounters monsters. Instead, Ser Elmer typically confronts various criminal organizations, shadowy thieves guilds, and over exuberant Heroes who have gotten out of line.');
 insert into Characters (CardIndex) VALUES (1042);
@@ -1026,7 +1026,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (547
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Shinigami',
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Shinigami_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Shinigami_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/MiniBosses/Shinigami.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/MiniBosses/Shinigami.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Explore',
 'Few types of death spectre inspire such dread as Kagejima''s shinigami. These deadly spirits lure victims into cursed pacts, offering up knowledge or power that inevitably leads to an unfortunate death. Indeed, so insidious and cruel are these pacts that many seek death in order to end the suffering their bargain causes.');
 insert into Characters (CardIndex) VALUES (1043);
@@ -1048,7 +1048,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (548
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Tengu',
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Tengu_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Tengu_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/MiniBosses/Tengu.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/MiniBosses/Tengu.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Explore',
 'For centuries, the Tengu have bartered or traded their magical and martial skill to the competing clans of Kagejima. Sometimes they do so for gold, for more offerings at their shrines, or for shiny baubles. Other times the requests are more unusual, such as whispers of love from a beautiful woman, the first wail of a newborn, or thirty stems of saffron.');
 insert into Characters (CardIndex) VALUES (1044);
@@ -1075,7 +1075,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (549
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Tidal Knight',
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Tidal_Knight_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Tidal_Knight_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/MiniBosses/Tidal_Knight.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/MiniBosses/Tidal_Knight.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Explore',
 'Magically adapted to survive beneath the sea. Tidal Knights are rarely seen, even by nether elf corsairs. In times of need, Tidal Knights are summoned by Shadow Fleet corsairs through the use of massive horns which are sounded beneath the waves. Once summoned, the Tidal Knights race alongside the Shadow Fleet, before launching into the air to charge enemy sailors upon the decks.');
 insert into Characters (CardIndex) VALUES (1045);
@@ -1102,7 +1102,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (550
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ugluk the Mechanically Inclined',
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Ugluk_the_Mechanically_Inclined_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Ugluk_the_Mechanically_Inclined_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/MiniBosses/Ugluk_the_Mechanically_Inclined.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/MiniBosses/Ugluk_the_Mechanically_Inclined.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Explore',
 '');--!! unavailable !!
 insert into Characters (CardIndex) VALUES (1046);
@@ -1125,7 +1125,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (551
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Vlad the Perforator',
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Vlad_the_Perforator_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Vlad_the_Perforator_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/MiniBosses/Vlad_the_Perforator.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/MiniBosses/Vlad_the_Perforator.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Explore',
 '');--!! unavailable !!
 insert into Characters (CardIndex) VALUES (1047);
@@ -1149,7 +1149,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (552
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Yobuko',
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Yobuko_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Yobuko_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/MiniBosses/Yobuko.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/MiniBosses/Yobuko.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Explore',
 'Tall, strong, and fierce, Yobuko is also young and inexperienced compared to his Ijin counterparts. This blend of natural ability coupled with an, as yet, unrivaled capacity to fight might be the most frightening aspect about him. His power is already so incredible that he is the rival of many of his masters, and he is also constantly testing his mettle against full-blooded oni twice his size to the amazement of all of his clansmen.');
 insert into Characters (CardIndex) VALUES (1048);

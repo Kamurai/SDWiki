@@ -1,7 +1,7 @@
 --drop PROCEDURE DBSDEPullOneCreep;
 
 CREATE OR ALTER PROCEDURE DBSDEPullOneCreep(
-	@intCardLink varChar(100)
+	@intCardLink varChar(150)
 )
 AS
 BEGIN

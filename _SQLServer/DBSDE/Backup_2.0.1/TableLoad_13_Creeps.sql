@@ -6,7 +6,7 @@
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Chochin-Obake',
 'http://htkb.info/SDE/2.0/Cards/Creeps/Card_Creep_Chochin-Obake_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Creeps/Card_Creep_Chochin-Obake_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Creeps/Chochin_Obake.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Creeps/Chochin_Obake.xhtml', 
 'Creep', '2.0', '2.0 Core Set', 'Explore', 
 'When spirits seek to break the veil between life and death it is the Chochin-Obake who light their way.  The more powerful of these ghostly apparitions pull the Chochin-Obake through with them so that the ghostly minions can illuminate the souls of the living.');
 insert into Characters (CardIndex) VALUES (983);
@@ -28,7 +28,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (488
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Curse Raven',
 'http://htkb.info/SDE/2.0/Cards/Creeps/Card_Creep_Curse_Raven_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Creeps/Card_Creep_Curse_Raven_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Creeps/Curse_Raven.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Creeps/Curse_Raven.xhtml', 
 'Creep', '2.0', '2.0 Core Set', 'Explore', 
 'In the frozen lands of Frostbyte Reach, there is a legend about the Curse Raven. It is said that if you see one, someone close to you is on their way to death. It is not known if Curse Ravens cause the demise, or merely warn of the impending doom, but they are a dreaded sight either way.');
 insert into Characters (CardIndex) VALUES (984);
@@ -50,7 +50,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (489
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Demolitions Expert',
 'http://htkb.info/SDE/2.0/Cards/Creeps/Card_Creep_Demolitions_Expert_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Creeps/Card_Creep_Demolitions_Expert_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Creeps/Demolitions_Expert.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Creeps/Demolitions_Expert.xhtml', 
 'Creep', '2.0', '2.0 Core Set', 'Explore', 
 'Accidents are known to happen.');
 insert into Characters (CardIndex) VALUES (985);
@@ -73,7 +73,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (490
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Dirty Rat',
 'http://htkb.info/SDE/2.0/Cards/Creeps/Card_Creep_Dirty_Rat_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Creeps/Card_Creep_Dirty_Rat_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Creeps/Dirty_Rat.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Creeps/Dirty_Rat.xhtml', 
 'Creep', '2.0', '2.0 Core Set', 'Explore', 
 'While giant rats are not uncommon in the dungeons of Crystalia, those in the employ of the Pauper Prince are a particular nuisance. The Prince has an uncanny knack for training the rats to be his eyes and ears, and even to perform the occasional bit of petty theft.');
 insert into Characters (CardIndex) VALUES (986);
@@ -95,7 +95,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (491
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Fire Flower',
 'http://htkb.info/SDE/2.0/Cards/Creeps/Card_Creep_Fire_Flower_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Creeps/Card_Creep_Fire_Flower_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Creeps/Fire_Flower.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Creeps/Fire_Flower.xhtml', 
 'Creep', '2.0', '2.0 Core Set', 'Explore', 
 'Fire Flowers are primitive by kodama standards, but it is a foolish Hero who underestimates these fire-spitting carnivores. Congregating in vast fields atop molten rock, fire flowers soak up the fiery heat to fuel their furnace-like fire chambers. When prey nears the entire field of flowers vomits forth a raining shower of fire, barbecuing their delicious meal to a perfect charbroil.');
 insert into Characters (CardIndex) VALUES (987);
@@ -118,7 +118,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (492
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Forge Gnome',
 'http://htkb.info/SDE/2.0/Cards/Creeps/Card_Creep_Forge_Gnome_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Creeps/Card_Creep_Forge_Gnome_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Creeps/Forge_Gnome.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Creeps/Forge_Gnome.xhtml', 
 'Creep', '2.0', '2.0 Core Set', 'Explore', 
 'Master artificers themselves, it is no surprise that some gnomes are willing to abandon all in pursuit of their craft--despite the risks. Lured by forbidden knowledge, Forge Gnomes have fallen to the Dark in order to apprentice under Lord Vulcanis. Though the skills they acquire are many, the cost they pay is high as the will of the Dark Consul slowly twists and subverts them into little more than monsters.');
 insert into Characters (CardIndex) VALUES (988);
@@ -139,7 +139,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (493
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Frost Imp',
 'http://htkb.info/SDE/2.0/Cards/Creeps/Card_Creep_Frost_Imp_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Creeps/Card_Creep_Frost_Imp_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Creeps/Frost_Imp.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Creeps/Frost_Imp.xhtml', 
 'Creep', '2.0', '2.0 Core Set', 'Explore', 
 '');--!! unavailable !!
 insert into Characters (CardIndex) VALUES (989);
@@ -160,7 +160,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (494
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ghostflame',
 'http://htkb.info/SDE/2.0/Cards/Creeps/Card_Creep_Ghostflame_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Creeps/Card_Creep_Ghostflame_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Creeps/Ghostflame.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Creeps/Ghostflame.xhtml', 
 'Creep', '2.0', '2.0 Core Set', 'Explore', 
 'Ghostflames are flaming skulls, taken by Mordred as trophies from the heroes he has vanquished in honorable combat. They still speak in their old voices, chattering and taunting heroes who may have once called them friends. Mordred grows in power with each skull he claims, and when they are vanquished they explode in a fiery burst.');
 insert into Characters (CardIndex) VALUES (990);
@@ -181,7 +181,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (495
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Kabomb',
 'http://htkb.info/SDE/2.0/Cards/Creeps/Card_Creep_Kabomb_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Creeps/Card_Creep_Kabomb_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Creeps/Kabomb.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Creeps/Kabomb.xhtml', 
 'Creep', '2.0', '2.0 Core Set', 'Explore', 
 '');
 insert into Characters (CardIndex) VALUES (991);
@@ -202,7 +202,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (496
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Kodead',
 'http://htkb.info/SDE/2.0/Cards/Creeps/Card_Creep_Kodead_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Creeps/Card_Creep_Kodead_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Creeps/Kodead.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Creeps/Kodead.xhtml', 
 'Creep', '2.0', '2.0 Core Set', 'Explore', 
 'The dragon Nightsong had a cult of kobolds who worshipped him, just as a cult is devoted to each dragon of Crystalia. When Nightsong was swallowed by the Nether Rifts, so too were the kobolds who followed him. Not to be the only dragon without a proper kobold cult, Nightsong resurrected them, and they remain his most loyal servants.');
 insert into Characters (CardIndex) VALUES (992);
@@ -223,7 +223,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (497
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Nether Imp',
 'http://htkb.info/SDE/2.0/Cards/Creeps/Card_Creep_Nether_Imp_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Creeps/Card_Creep_Nether_Imp_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Creeps/Nether_Imp.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Creeps/Nether_Imp.xhtml', 
 'Creep', '2.0', '2.0 Core Set', 'Explore', 
 'Like all imps, Nether Imps are infinitely playful and mischievous. However, being born of the Dark Realms, their mischief is a tad more malicious than most. Where a typical imp may leave an egg in your boot, a Nether Imp will chuckle as it sets your feet aflame with the baleful fires of the Nether Rifts. It''s not the imp''s fault if you can''t take a joke.');
 insert into Characters (CardIndex) VALUES (993);
@@ -245,7 +245,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (498
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Rotten Pumpkin',
 'http://htkb.info/SDE/2.0/Cards/Creeps/Card_Creep_Rotten_Pumpkin_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Creeps/Card_Creep_Rotten_Pumpkin_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Creeps/Rotten_Pumpkin.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Creeps/Rotten_Pumpkin.xhtml', 
 'Creep', '2.0', '2.0 Core Set', 'Explore', 
 'It''s quit a sight, long ropey vines strewn everywhere, vomited piles of rotten pumpkin mush covering terror stricken townsfolk. What they lack in teeth and claws, they certainly make up for in panic and menace, and that can be just as bad.');
 insert into Characters (CardIndex) VALUES (994);
@@ -267,7 +267,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (499
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Spiker',
 'http://htkb.info/SDE/2.0/Cards/Creeps/Card_Creep_Spiker_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Creeps/Card_Creep_Spiker_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Creeps/Spiker.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Creeps/Spiker.xhtml', 
 'Creep', '2.0', '2.0 Core Set', 'Explore', 
 'Spiker life is short and brutal. Most die from being thrown at Heroes at high velocities or being fed to The Guth''s hogs (or The Guth himself). Surprisingly, there is never any shortage of volunteers to serve as a Spiker. They''re definitely not forced into the role by the bigger orcs and goblins. It''s an honor to serve The Guth. They absolutey, positively, 100% want to be a Spiker. Seriously.');
 insert into Characters (CardIndex) VALUES (995);
@@ -288,7 +288,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (500
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Spiteful Cherub',
 'http://htkb.info/SDE/2.0/Cards/Creeps/Card_Creep_Spiteful_Cherub_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Creeps/Card_Creep_Spiteful_Cherub_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Creeps/Spiteful_Cherub.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Creeps/Spiteful_Cherub.xhtml', 
 'Creep', '2.0', '2.0 Core Set', 'Explore', 
 'So great is Araphel''s will and spite that it manifests as physical flesh and bone, creating Spiteful Cherubs that fly about her, whispering hateful truths and vicious lies. Araphel uses them as her eyes and ears, but also as her messengers, keeping in constant communication with her Devoted. Araphel is a spider and she uses her Cerubs to spin her web of lies and trickery.');
 insert into Characters (CardIndex) VALUES (996);
@@ -308,7 +308,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (501
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Squigly',
 'http://htkb.info/SDE/2.0/Cards/Creeps/Card_Creep_Squigly_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Creeps/Card_Creep_Squigly_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Creeps/Squigly.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Creeps/Squigly.xhtml', 
 'Creep', '2.0', '2.0 Core Set', 'Explore', 
 'Squigglies plague Clockwork Cove. Don''t let their cute appearance fool you, these tiny creatures are devoted minions of the Dark Consul. They have been used to weaken the supports of docks, clog up the gears of various machinery, and generally be a thorn in the side of any hero who stands up against the forces of darkness.');
 insert into Characters (CardIndex) VALUES (997);
@@ -329,7 +329,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (502
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Underdead Crow',
 'http://htkb.info/SDE/2.0/Cards/Creeps/Card_Creep_Underdead_Crow_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Creeps/Card_Creep_Underdead_Crow_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Creeps/Underdead_Crow.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Creeps/Underdead_Crow.xhtml', 
 'Creep', '2.0', '2.0 Core Set', 'Explore', 
 '"It shouldn''t be upsetting when the crows start disappearing from the fields. But it sure can be terrifying when they return." - Farmers Almanac');
 insert into Characters (CardIndex) VALUES (998);
@@ -353,7 +353,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (503
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Waystone',
 'http://htkb.info/SDE/2.0/Cards/Creeps/Card_Creep_Waystone_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Creeps/Card_Creep_Waystone_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Creeps/Waystone.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Creeps/Waystone.xhtml', 
 'Creep', '2.0', '2.0 Core Set', 'Explore', 
 'Waystones are used by the Jotnar to mark the icy paths of the Skull White Fastness and lead weary travelers to safety. Ymnaur Wintersson also uses waystones, but he has woven dark magic into them, and uses them to make him near-invulnerable while he remains in his frozen realm.');
 insert into Characters (CardIndex) VALUES (999);
@@ -375,7 +375,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (504
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Yowling',
 'http://htkb.info/SDE/2.0/Cards/Creeps/Card_Creep_Yowling_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Creeps/Card_Creep_Yowling_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Creeps/Yowling.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Creeps/Yowling.xhtml', 
 'Creep', '2.0', '2.0 Core Set', 'Explore', 
 'Mother Noctua acts as mother and guardian to all of the Fae Wood, but she has special love for her Yowlings - young owlbears that flock to her side. They are hatched from the most precious Deeproot Acorns, and they are daring and mischievous. More than one hero has had her favorite soda stolen by a playful Yowling.');
 insert into Characters (CardIndex) VALUES (1000);
@@ -395,7 +395,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (505
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Yurei Bushi',
 'http://htkb.info/SDE/2.0/Cards/Creeps/Card_Creep_Yurei_Bushi_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Creeps/Card_Creep_Yurei_Bushi_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Creeps/Yurei_Bushi.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Creeps/Yurei_Bushi.xhtml', 
 'Creep', '2.0', '2.0 Core Set', 'Explore', 
 'As in life, the bonds of loyalty can follow a warrior into the afterlife. Spiritual guardians who left the world with an oath of fealty on their lips often return again to serve at their masters side.');
 insert into Characters (CardIndex) VALUES (1001);

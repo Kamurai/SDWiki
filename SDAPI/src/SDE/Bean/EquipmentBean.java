@@ -40,6 +40,8 @@ public class EquipmentBean extends CardBean{
             this.equipmentList  = SDEDAONavigation.pullNavigationForLoot(this.equipment.getVersion());
         }else if(this.equipment.getCardType().compareTo("Treasure") == 0){
             this.equipmentList  = SDEDAONavigation.pullNavigationForTreasure(this.equipment.getVersion());
+        }else if(this.equipment.getCardType().compareTo("Relic") == 0){
+            this.equipmentList  = SDEDAONavigation.pullNavigationForRelics(this.equipment.getVersion());
         }else{
             this.equipmentList  = SDEDAONavigation.pullNavigationForEquipment(this.equipment.getVersion());
         }
