@@ -1,4 +1,8 @@
---2.0 Arcade Booty
+--SDE
+--2.0.1
+--Arcade Booty
+
+
 --Boo Booty	--CardIndex 1263	--CharacterIndex 873	--ArcadeCharacterIndex 105
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Boo Booty',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Booty/Card_Arcade_Boo_Booty_2.0.png', 
@@ -12,6 +16,6 @@ insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineInd
 VALUES (873, 142, -1);
 --GangMemberIndex 153
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (105, 0, 'Boo Booty', 'Boo Booty', 'Elite', 5, 2, 3, 485);
+VALUES (105, 0, 'Boo Booty', 'Boo Booty', 'Elite', 5, 2, 3, 486);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (153, 445); --Backlash
 

@@ -2,6 +2,7 @@
 --2.0.1
 --Bosses
 
+
 --Bomechan	--CardIndex 1329	--CharacterIndex 939	--ArcadeCharacterIndex 171
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Bomechan',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Bosses/Card_Arcade_Boss_Bomechan_2.0.png', 

@@ -1,4 +1,8 @@
---FK Arcade Creeps
+--SDE
+--FK 
+--Arcade Creeps
+
+
 --Citrine Slime --CardIndex 340	--CharacterIndex 255	--ArcadeCharacterIndex 3
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Citrine Slime',
 'http://htkb.info/SDE/FK/Cards/Arcade/Creeps/Card_Arcade_Creep_Citrine_Slime_FK.png', 
@@ -12,7 +16,7 @@ VALUES (255, 111, -1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (255, 1); --Citrine
 --GangMemberIndex 3
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (3, 0, 'Citrine Slime', 'Slime', 'Creep', 5, 1, 0, 138);
+VALUES (3, 0, 'Citrine Slime', 'Slime', 'Creep', 5, 1, 0, 141);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (3, 270); --Insignificant
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (3, 272); --Invader
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (3, 197); --Citrine Goop
@@ -30,7 +34,7 @@ VALUES (256, 111, -1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (256, 2); --Emerald
 --GangMemberIndex 4
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (4, 0, 'Emerald Slime', 'Slime', 'Creep', 5, 1, 0, 139);
+VALUES (4, 0, 'Emerald Slime', 'Slime', 'Creep', 5, 1, 0, 142);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (4, 270); --Insignificant
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (4, 272); --Invader
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (4, 215); --Emerald Glop
@@ -48,7 +52,7 @@ VALUES (257, 111, -1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (257, 3); --Ruby
 --GangMemberIndex 5
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (5, 0, 'Ghost', 'Undead Ghost', 'Creep', 8, 1, 0, 140);
+VALUES (5, 0, 'Ghost', 'Undead Ghost', 'Creep', 8, 1, 0, 143);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (5, 217); --Extra Scared
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (5, 272); --Invader
 
@@ -65,7 +69,7 @@ VALUES (258, 133, -1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (258, 1); --Citrine
 --GangMemberIndex 6
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (6, 0, 'Giri', 'Faerie', 'Creep', 5, 1, 0, 141);
+VALUES (6, 0, 'Giri', 'Faerie', 'Creep', 5, 1, 0, 144);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (6, 270); --Insignificant
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (6, 452); --New Crop
 
@@ -82,7 +86,7 @@ VALUES (259, 111, -1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (259, 2); --Emerald
 --GangMemberIndex 7
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (7, 0, 'Rabid Squirrel', 'Chimera', 'Creep', 6, 1, 0, 142);
+VALUES (7, 0, 'Rabid Squirrel', 'Chimera', 'Creep', 6, 1, 0, 145);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (7, 270); --Insignificant
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (7, 272); --Invader
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (7, 269); --In Your Pants
@@ -100,7 +104,7 @@ VALUES (260, 131, -1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (260, 1); --Citrine
 --GangMemberIndex 8
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (8, 0, 'Rattlebone', 'Undead Skeleton', 'Creep', 5, 1, 0, 143);
+VALUES (8, 0, 'Rattlebone', 'Undead Skeleton', 'Creep', 5, 1, 0, 146);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (8, 239); --Grabby
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (8, 270); --Insignificant
 
@@ -117,7 +121,7 @@ VALUES (261, 111, -1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (261, 4); --Sapphire
 --GangMemberIndex 9
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (9, 0, 'Ruby Slime', 'Slime', 'Creep', 5, 1, 0, 144);
+VALUES (9, 0, 'Ruby Slime', 'Slime', 'Creep', 5, 1, 0, 147);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (9, 270); --Insignificant
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (9, 272); --Invader
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (9, 318); --Ruby Goo
@@ -135,7 +139,7 @@ VALUES (262, 111, -1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (262, 4); --Sapphire
 --GangMemberIndex 10
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (10, 0, 'Sapphire Slime', 'Slime', 'Creep', 5, 1, 0, 145);
+VALUES (10, 0, 'Sapphire Slime', 'Slime', 'Creep', 5, 1, 0, 148);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (10, 270); --Insignificant
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (10, 272); --Invader
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (10, 319); --Sapphire Gloop

@@ -13767,7 +13767,7 @@ insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineInd
 VALUES (873, 142, -1);
 --GangMemberIndex 153
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (105, 0, 'Boo Booty', 'Boo Booty', 'Elite', 5, 2, 3, 485);
+VALUES (105, 0, 'Boo Booty', 'Boo Booty', 'Elite', 5, 2, 3, 486);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (153, 445); --Backlash
 
 --SDE

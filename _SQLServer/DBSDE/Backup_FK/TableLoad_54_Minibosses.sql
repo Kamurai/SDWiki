@@ -1,4 +1,8 @@
---FK MiniBoss (Addition)
+--SDE
+--FK 
+--MiniBoss (Addition)
+
+
 --Clan Earth Shrine Oni --CardIndex 738	--CharacterIndex 348	--ExploreCharacterIndex 253
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Clan Earth Shrine Oni',
 'http://htkb.info/SDE/FK/Cards/MiniBosses/Card_MiniBoss_Clan_Earth_Shrine_Oni_FK.png', 

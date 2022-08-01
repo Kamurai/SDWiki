@@ -1,6 +1,7 @@
 --SDE
---2.0 
+--2.0.1
 --Booty
+
 
 --Boo Booty --CardIndex 981	--CharacterIndex 591	--ExploreCharacterIndex 486
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Boo Booty',

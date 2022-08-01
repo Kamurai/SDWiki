@@ -2,6 +2,7 @@
 --2.0.1
 --MiniBosses
 
+
 --Arachne --CardIndex 1002	--CharacterIndex 612	--ExploreCharacterIndex 507
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Arachne',
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Arachne_2.0.png', 
@@ -304,7 +305,6 @@ insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (518
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (518, 1, 4); --Strength --!! unavailable !!
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (518, 2); --Armor
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (518, 'MiniBoss', 'Super', 4); --!! unavailable !!
-
 
 --Clan Tanchyo Chunin --CardIndex 1014	--CharacterIndex 624	--ExploreCharacterIndex 519
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Clan Tanchyo Chunin',

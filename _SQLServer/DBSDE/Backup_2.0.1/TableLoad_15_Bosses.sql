@@ -1,6 +1,7 @@
 --SDE
---2.0
+--2.0.1
 --Bosses
+
 
 --Bomechan --CardIndex 1049 --CharacterIndex 659 --ExploreCharacterIndex 554
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Bomechan',

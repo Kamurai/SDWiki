@@ -398,6 +398,8 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (200, 2); --Armor
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (200, 'Minion', '8 Bit', 1);
 
+
+--Fungal Growth
 --Fungal Growth --CardIndex 286 --CharacterIndex 201 --ExploreCharacterIndex 201
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 'Fungal Growth',
@@ -485,6 +487,8 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (204, 2); --Armor
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (204, 'Elite', '8 Bit', 2);
 
+
+--Grabby House
 --Grabby House --CardIndex 290 --CharacterIndex 205 --ExploreCharacterIndex 205
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 'Grabby House',
@@ -596,6 +600,8 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (209, 2); --Armor
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (209, 'Minion', '8 Bit', 1);
 
+
+--Kobold Warrens
 --Kobold Warrens --CardIndex 295 --CharacterIndex 210 --ExploreCharacterIndex 210
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 'Kobold Warrens',
@@ -725,6 +731,8 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (215, 2); --Armor
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (215, 'Minion', '8 Bit', 1);
 
+
+--Lava Whirl
 --Lava Whirl --CardIndex 301 --CharacterIndex 216 --ExploreCharacterIndex 216
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 'Lava Whirl',
@@ -840,6 +848,8 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (220, 2); --Armor
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (220, 'Minion', '8 Bit', 1);
 
+
+--Old Growth Hollow
 --Old Growth Hollow --CardIndex 306 --CharacterIndex 221 --ExploreCharacterIndex 221
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 'Old Growth Hollow',
@@ -976,6 +986,8 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (226, 2); --Armor
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (226, 'Elite', '8 Bit', 2);
 
+
+--Pumpkin Patch
 --Pumpkin Patch --CardIndex 312 --CharacterIndex 227 --ExploreCharacterIndex 227
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 'Pumpkin Patch',
@@ -1068,6 +1080,8 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (230, 2); --Armor
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (230, 'Minion', '8 Bit', 1);
 
+
+--Rock Pile
 --Rock Pile --CardIndex 316 --CharacterIndex 231 --ExploreCharacterIndex 231
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 'Rock Pile',
@@ -1266,6 +1280,8 @@ VALUES (239,
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (239, 2); --Armor
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (239, 'Minion', '8 Bit', 0);
 
+
+--Salt Pillar
 --Salt Pillar --CardIndex 325 --CharacterIndex 240 --ExploreCharacterIndex 240
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 'Salt Pillar',
@@ -1332,6 +1348,8 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (242, 2); --Armor
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (242, 'Elite', '8 Bit', 1);
 
+
+--Shallow Grave
 --Shallow Grave --CardIndex 328 --CharacterIndex 243 --ExploreCharacterIndex 243
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 'Shallow Grave',
@@ -1441,6 +1459,8 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (247, 2); --Armor
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (247, 'Elite', '8 Bit', 1);
 
+
+--Tribal Stone
 --Tribal Stone --CardIndex 333 --CharacterIndex 248 --ExploreCharacterIndex 248
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 'Tribal Stone',

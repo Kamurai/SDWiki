@@ -1,4 +1,8 @@
---FK Bosses
+--SDE
+--FK 
+--Bosses
+
+
 --Beatrix the Witch Queen --CardIndex 259 --CharacterIndex 174 --ExploreCharacterIndex 174
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 'Beatrix the Witch Queen',

@@ -6286,7 +6286,7 @@ insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineInd
 VALUES (252, 142, -1);
 --GangMemberIndex 0
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (0, -1, 'Booty Biter', 'Boo Booty', 'Elite', 5, 2, 3, 135);
+VALUES (0, -1, 'Booty Biter', 'Boo Booty', 'Elite', 5, 2, 3, 138);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (0, 176); --Backlash
 
 --Bouncing Booty --CardIndex 338	--CharacterIndex 253	--ArcadeCharacterIndex 1
@@ -6302,7 +6302,7 @@ insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineInd
 VALUES (253, 252, -1);
 --GangMemberIndex 1
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (1, -1, 'Bouncing Booty', 'Boo Booty', 'Elite', 8, 2, 2, 136);
+VALUES (1, -1, 'Bouncing Booty', 'Boo Booty', 'Elite', 8, 2, 2, 139);
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (1, 197); --Bounce
 
 --Booty Grinder --CardIndex 339	--CharacterIndex 254	--ArcadeCharacterIndex 2
@@ -6318,7 +6318,7 @@ insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineInd
 VALUES (254, 152, -1);
 --GangMemberIndex 2
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (2, -1, 'Booty Grinder', 'Boo Booty', 'Elite', 5, 2, 2, 137);
+VALUES (2, -1, 'Booty Grinder', 'Boo Booty', 'Elite', 5, 2, 2, 140);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (2, 242); --Grind
 --FK Arcade Creeps
 --Citrine Slime --CardIndex 340	--CharacterIndex 255	--ArcadeCharacterIndex 3

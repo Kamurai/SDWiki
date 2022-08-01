@@ -1,4 +1,8 @@
---FK Arcade MiniBosses  (Addition)
+--SDE
+--FK 
+--Arcade MiniBosses  (Addition)
+
+
 --Clan Earth Shrine Oni --CardIndex 752	--CharacterIndex 362	--ArcadeCharacterIndex 95
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Clan Earth Shrine Oni',
 'http://htkb.info/SDE/FK/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Clan_Earth_Shrine_Oni_FK.png', 
@@ -33,7 +37,7 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (363, 1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (363, 3); --Ruby
 --GangMemberIndex 134
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (96, 0, 'Oni', 'Oni', 'MiniBoss', 6, 8, 3, 255);
+VALUES (96, 0, 'Oni', 'Oni', 'MiniBoss', 6, 8, 3, 254);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (134, 214); --Elemental Affinity
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (134, 272); --Devour
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (134, 275); --Disaster

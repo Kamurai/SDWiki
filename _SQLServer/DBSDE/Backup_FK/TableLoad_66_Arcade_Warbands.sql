@@ -1,4 +1,8 @@
---FK --Warband Gangs (Addition)
+--SDE
+--FK 
+--Arcade Warband Gangs (Addition)
+
+
 --Clan Earth Shrine
 --Elemental Shrine --CardIndex 754	--CharacterIndex 364	--ArcadeCharacterIndex 97
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Elemental Shrine',

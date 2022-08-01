@@ -1,6 +1,7 @@
 --SDE
---2.0
- --Warband Monsters
+--2.0.1
+--Warband Monsters
+ 
  
 --Arcadian Spider Nest
 --Arcadian Spider Nest --CardIndex 1074 --CharacterIndex 684 --ExploreCharacterIndex 579

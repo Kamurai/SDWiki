@@ -1,4 +1,8 @@
---FK --Warband Monsters (Addition)
+--SDE
+--FK 
+--Warband Monsters (Addition)
+
+
 --Clan Earth Shrine
 --Elemental Shrine --CardIndex 740 --CharacterIndex 350 --ExploreCharacterIndex 255
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (

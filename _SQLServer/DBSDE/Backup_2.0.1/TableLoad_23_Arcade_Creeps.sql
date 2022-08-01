@@ -2,6 +2,7 @@
 --2.0.1
 --Arcade Creeps
 
+
 --Chochin-Obake	--CardIndex 1264	--CharacterIndex 874	--ArcadeCharacterIndex 106
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Chochin-Obake',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Creeps/Card_Arcade_Creep_Chochin_Obake_2.0.png', 
@@ -15,7 +16,7 @@ VALUES (874, 133, -1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (874, 0); --Amethyst
 --GangMemberIndex 154
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (106, 0, 'Chochin-Obake', 'Undead Ghost', 'Creep', 4, 1, 0, 139);
+VALUES (106, 0, 'Chochin-Obake', 'Undead Ghost', 'Creep', 4, 1, 0, 488);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (154, 629); --Ghost
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (154, 681); --Immune: Status Effects
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (154, 1669); --Siphon Life
@@ -33,7 +34,7 @@ VALUES (875, 133, -1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (875, 2); --Emerald
 --GangMemberIndex 155
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (107, 0, 'Curse Raven', 'Undead', 'Creep', 1, 1, 0, 140);
+VALUES (107, 0, 'Curse Raven', 'Undead', 'Creep', 1, 1, 0, 489);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (155, 453); --Bane
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (155, 790); --Parade of Death
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (155, 1007); --Despair
@@ -52,7 +53,7 @@ VALUES (876, 133, -1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (876, 1); --Citrine
 --GangMemberIndex 156
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (108, 0, 'Demolitions Expert', 'Rocktop', 'Creep', 5, 1, 0, 141);
+VALUES (108, 0, 'Demolitions Expert', 'Rocktop', 'Creep', 5, 1, 0, 490);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (156, 691); --Insignificant
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (156, 680); --Immune: Slow
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (156, 681); --Immune: Status Effects
@@ -72,7 +73,7 @@ VALUES (877, 133, -1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (877, 1); --Citrine
 --GangMemberIndex 157
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (109, 0, 'Fire Flower', 'Kodama', 'Creep', 3, 1, 0, 142);
+VALUES (109, 0, 'Fire Flower', 'Kodama', 'Creep', 3, 1, 0, 492);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (157, 588); --Fire
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (157, 674); --Immune: Fire
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (157, 691); --Insignificant
@@ -90,7 +91,7 @@ VALUES (878, 133, -1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (878, 3); --Ruby
 --GangMemberIndex 158
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (110, 0, 'Forge Gnome', 'Gnome', 'Creep', 4, 1, 0, 143);
+VALUES (110, 0, 'Forge Gnome', 'Gnome', 'Creep', 4, 1, 0, 493);
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (158, 1758); --Stoke the Bellows
 
 --Frost Imp	--CardIndex 1269	--CharacterIndex 879	--ArcadeCharacterIndex 111
@@ -106,7 +107,7 @@ VALUES (879, 133, -1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (879, 4); --Sapphire
 --GangMemberIndex 159
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (111, 0, 'Frost Imp', 'Demon', 'Creep', 6, 1, 0, 144);
+VALUES (111, 0, 'Frost Imp', 'Demon', 'Creep', 6, 1, 0, 494);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (159, 460); --Biting Wind
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (159, 691); --Insignificant
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (159, 2070); --Snowball Fight!
@@ -124,7 +125,7 @@ VALUES (880, 133, -1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (880, 1); --Citrine
 --GangMemberIndex 160
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (112, 0, 'Ghostflame', 'Undead', 'Creep', 4, 2, 0, 145);
+VALUES (112, 0, 'Ghostflame', 'Undead', 'Creep', 4, 2, 0, 495);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (160, 809); --Pop
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (160, 896); --Skittish
 
@@ -141,7 +142,7 @@ VALUES (881, 133, -1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (881, 1); --Citrine
 --GangMemberIndex 161
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (113, 0, 'Kodead', 'Undead Kobold', 'Creep', 5, 1, 0, 146);
+VALUES (113, 0, 'Kodead', 'Undead Kobold', 'Creep', 5, 1, 0, 497);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (161, 795); --Past Life
 
 --Nether Imp	--CardIndex 1272	--CharacterIndex 882	--ArcadeCharacterIndex 114
@@ -157,7 +158,7 @@ VALUES (882, 133, -1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (882, 1); --Citrine
 --GangMemberIndex 162
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (114, 0, 'Nether Imp', 'Demon', 'Creep', 6, 1, 0, 147);
+VALUES (114, 0, 'Nether Imp', 'Demon', 'Creep', 6, 1, 0, 498);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (162, 453); --Bane
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (162, 588); --Fire
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (162, 1462); --Nether Fire
@@ -175,7 +176,7 @@ VALUES (883, 133, -1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (883, 0); --Amethyst
 --GangMemberIndex 163
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (115, 0, 'Rotten Pumpkin', '', 'Creep', 5, 1, 0, 148);
+VALUES (115, 0, 'Rotten Pumpkin', '', 'Creep', 5, 1, 0, 499);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (163, 904); --Smashing Pumpkins
 
 --Spiker	--CardIndex 1274	--CharacterIndex 884	--ArcadeCharacterIndex 116
@@ -191,7 +192,7 @@ VALUES (884, 133, -1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (884, 3); --Ruby  
 --GangMemberIndex 164
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (116, 0, 'Spiker', 'Undead Ghost', 'Creep', 6, 1, 0, 149);
+VALUES (116, 0, 'Spiker', 'Undead Ghost', 'Creep', 6, 1, 0, 500);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (164, 693); --Insignificant
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (164, 708); --Knockdown
 
@@ -208,7 +209,7 @@ VALUES (885, 133, -1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (885, 0); --Amethyst
 --GangMemberIndex 165
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (117, 0, 'Spiteful Cherub', 'Demon', 'Creep', 4, 1, 0, 150);
+VALUES (117, 0, 'Spiteful Cherub', 'Demon', 'Creep', 4, 1, 0, 501);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (165, 695); --Invader
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (165, 996); --Spiteful Whispers
 
@@ -225,7 +226,7 @@ VALUES (886, 133, -1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (886, 3); --Ruby
 --GangMemberIndex 166
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (118, 0, 'Squigly', 'Squid', 'Creep', 6, 1, 0, 151);
+VALUES (118, 0, 'Squigly', 'Squid', 'Creep', 6, 1, 0, 502);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (166, 636); --Grabby
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (166, 901); --Slow
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (166, 1680); --Slimy Hug
@@ -243,7 +244,7 @@ VALUES (887, 133, -1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (887, 0); --Amethyst
 --GangMemberIndex 167
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (119, 0, 'Underdead Crow', 'Undead', 'Creep', 6, 1, 0, 152);
+VALUES (119, 0, 'Underdead Crow', 'Undead', 'Creep', 6, 1, 0, 503);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (167, 565); --Eat Crow
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (167, 693); --Insignificant
 
@@ -260,7 +261,7 @@ VALUES (888, 133, -1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (888, 1); --Citrine
 --GangMemberIndex 168
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (120, 0, 'Waystone', 'Waystone', 'Creep', 0, 2, 1, 153);
+VALUES (120, 0, 'Waystone', 'Waystone', 'Creep', 0, 2, 1, 504);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (168, 681); --Immune: Status Effects
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (168, 1020); --Sturdy
 
@@ -277,7 +278,7 @@ VALUES (889, 133, -1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (889, 1); --Citrine
 --GangMemberIndex 169
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (121, 0, 'Yowling', 'Owlbear', 'Creep', 6, 1, 0, 154);
+VALUES (121, 0, 'Yowling', 'Owlbear', 'Creep', 6, 1, 0, 505);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (169, 636); --Grabby
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (169, 722); --Mamma's Mad
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (169, 1310); --In Your Pockets
@@ -295,7 +296,7 @@ VALUES (890, 133, -1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (890, 0); --Amethyst
 --GangMemberIndex 170
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (122, 0, 'Yurei Bushi', 'Ghost', 'Creep', 6, 1, 0, 155);
+VALUES (122, 0, 'Yurei Bushi', 'Ghost', 'Creep', 6, 1, 0, 506);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (170, 693); --Insignificant
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (170, 995); --Spirit Sentry
 

@@ -1,6 +1,7 @@
 --SDE
---2.0 
+--2.0.1
 --Creeps
+
 
 --Chochin-Obake --CardIndex 983	--CharacterIndex 593	--ExploreCharacterIndex 488
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Chochin-Obake',
