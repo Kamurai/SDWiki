@@ -514,6 +514,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (601, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (601, 'Minion', '8 Bit', 1); 
 
+
 --Clan Sohei
 --Sohei Madoushi --CardIndex 1097 --CharacterIndex 707 --ExploreCharacterIndex 602
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Sohei Madoushi',
@@ -3374,7 +3375,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (732, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (732, 'Minion', '16 Bit', 3); 
 
---Kabomb --CardIndex 1228 --CharacterIndex 838 --ExploreCharacterIndex 733
+-- --CardIndex 1228 --CharacterIndex 838 --ExploreCharacterIndex 733
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('',
 '', 
 '', 

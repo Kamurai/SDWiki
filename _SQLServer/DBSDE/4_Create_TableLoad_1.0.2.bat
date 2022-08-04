@@ -82,18 +82,18 @@ type .\Backup_1.0.2\TableLoad_21_Equipment.sql >> TableLoad_D_1.0.2.sql
 type .\Backup_1.0.2\TableLoad_40_Terrain.sql >> TableLoad_D_1.0.2.sql
 type .\Backup_1.0.2\TableLoad_41_Utilities.sql >> TableLoad_D_1.0.2.sql
 
-type .\Backup_1.0_Custom\TableLoad_01_Keywords.sql >> TableLoad_E_1.0_Custom.sql
-type .\Backup_1.0_Custom\TableLoad_02_Abilities.sql >> TableLoad_E_1.0_Custom.sql
-type .\Backup_Custom\TableLoad_01_Keywords.sql >> TableLoad_F_Custom.sql
-type .\Backup_Custom\TableLoad_02_Abilities.sql >> TableLoad_F_Custom.sql
-type .\Backup_2.0.2\TableLoad_01_Keywords.sql >> TableLoad_G_2.0.2.sql
-type .\Backup_2.0.2\TableLoad_02_Abilities.sql >> TableLoad_G_2.0.2.sql
+type .\Backup_2.0.2\TableLoad_01_Keywords.sql >> TableLoad_E_2.0.2.sql
+type .\Backup_2.0.2\TableLoad_02_Abilities.sql >> TableLoad_E_2.0.2.sql
+type .\Backup_1.0_Custom\TableLoad_01_Keywords.sql >> TableLoad_F_1.0_Custom.sql
+type .\Backup_1.0_Custom\TableLoad_02_Abilities.sql >> TableLoad_F_1.0_Custom.sql
+type .\Backup_Custom\TableLoad_01_Keywords.sql >> TableLoad_G_Custom.sql
+type .\Backup_Custom\TableLoad_02_Abilities.sql >> TableLoad_G_Custom.sql
 
 type _Tables.sql >> TableLoad_Main.sql
 type TableLoad_A_1.0.1.sql >> TableLoad_Main.sql
 type TableLoad_B_FK.sql >> TableLoad_Main.sql
 type TableLoad_C_2.0.1.sql >> TableLoad_Main.sql
 type TableLoad_D_1.0.2.sql >> TableLoad_Main.sql
-type TableLoad_E_1.0_Custom.sql >> TableLoad_Main.sql
-type TableLoad_F_Custom.sql >> TableLoad_Main.sql
-type TableLoad_G_2.0.2.sql >> TableLoad_Main.sql
+type TableLoad_E_2.0.2.sql >> TableLoad_Main.sql
+type TableLoad_F_1.0_Custom.sql >> TableLoad_Main.sql
+type TableLoad_G_Custom.sql >> TableLoad_Main.sql
