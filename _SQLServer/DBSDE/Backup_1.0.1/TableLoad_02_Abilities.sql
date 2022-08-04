@@ -1,6 +1,8 @@
---Table Load 2
+--SDE
 --1.0
 --Abilities
+
+
 /*Acorn Grenade 				--Index 0*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0', 'Default', 'Acorn Grenade', 'Action', 'Offense', 2, 0, 6, 'Range 6, Burst 1, Knockdown, Dangerous');
 /*Alluring							--Index 1*/		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0', 'Default', 'Alluring', 'Action', 'Offense', 2, 3, 4, '+1R WILL, If successful Vandella immediately heals one wound.');
 /*Arrow Storm					--Index 2*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0', 'Default', 'Arrow Storm', 'Action', 'Offense', 2, 4, -1, 'DEX vs ARM, Spray 4');

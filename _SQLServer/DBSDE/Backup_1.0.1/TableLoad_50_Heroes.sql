@@ -1,6 +1,9 @@
---Table Load 1
---1.0 Heroes
---Questing Knight --Card Index 935
+--SDE
+--1.0
+--Heroes
+
+
+--Questing Knight --Card Index 935	--CharacterIndex 843 --Explore Character Index 439
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Questing Knight', 
 'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Hero_Questing_Knight_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Hero_Questing_Knight_1.0_back.png', 
@@ -15,7 +18,8 @@ insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (439
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (439, 158); --Spinning Axe
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (439, 156); --Massive Sword
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (439, 155); --Magic Armor
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (843, 
+insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
+843, 
 'http://htkb.info/SDE/1.0/Cards/Heroes/Standies/Questing_Knight_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Heroes/Standies/Questing_Knight_1.0_back.png', 
 'Masculine', 'Small', 'Human', 6, 3, '2R', '2B 1R', '2B', '2B', 5, 1);
