@@ -90,18 +90,14 @@ public class CardBean extends SDE.Bean.Bean{
             this.title      = "Terrain Cards";
             this.header     = "Terrain Cards";
             this.cardList   = SDEDAONavigation.pullNavigationForTerrainCards();
-        }else if(type.compareTo("Arcade_Plot_Cards") == 0){
-            this.title      = "Arcade Plot Cards";
-            this.header     = "Arcade Plot Cards";
-            this.cardList   = SDEDAONavigation.pullNavigationForArcadePlotCards();
         }else if(type.compareTo("Explore_Cards") == 0){
             this.title      = "Explore Cards";
             this.header     = "Explore Cards";
             this.cardList   = SDEDAONavigation.pullNavigationForExploreCards();
-        }else if(type.compareTo("Explore_Plot_Cards") == 0){
-            this.title      = "Explore Plot Cards";
-            this.header     = "Explore Plot Cards";
-            this.cardList   = SDEDAONavigation.pullNavigationForExplorePlotCards();
+        }else if(type.compareTo("Plot_Cards") == 0){
+            this.title      = "Plot Cards";
+            this.header     = "Plot Cards";
+            this.cardList   = SDEDAONavigation.pullNavigationForPlotCards();
         }else if(type.compareTo("Challenge_Cards") == 0){
             this.title      = "Challenge Cards";
             this.header     = "Challenge Cards";
@@ -177,18 +173,14 @@ public class CardBean extends SDE.Bean.Bean{
             this.title      = "Terrain Cards";
             this.header     = "Terrain Cards";
             this.cardList   = SDEDAONavigation.pullNavigationForTerrainCards(version);
-        }else if(type.compareTo("Arcade_Plot_Cards") == 0){
-            this.title      = "Arcade Plot Cards";
-            this.header     = "Arcade Plot Cards";
-            this.cardList   = SDEDAONavigation.pullNavigationForArcadePlotCards(version);
         }else if(type.compareTo("Explore_Cards") == 0){
             this.title      = "Explore Cards";
             this.header     = "Explore Cards";
             this.cardList   = SDEDAONavigation.pullNavigationForExploreCards(version);
-        }else if(type.compareTo("Explore_Plot_Cards") == 0){
-            this.title      = "Explore Plot Cards";
-            this.header     = "Explore Plot Cards";
-            this.cardList   = SDEDAONavigation.pullNavigationForExplorePlotCards(version);
+        }else if(type.compareTo("Plot_Cards") == 0){
+            this.title      = "Plot Cards";
+            this.header     = "Plot Cards";
+            this.cardList   = SDEDAONavigation.pullNavigationForPlotCards(version);
         }else if(type.compareTo("Challenge_Cards") == 0){
             this.title      = "Challenge Cards";
             this.header     = "Challenge Cards";
@@ -326,14 +318,6 @@ public class CardBean extends SDE.Bean.Bean{
             }else{
                 this.cardList   = SDEDAONavigation.pullNavigationForTerrainCards();
             }            
-        }else if(type.compareTo("Arcade_Plot_Cards") == 0){
-            this.title      = "Arcade Plot Cards";
-            this.header     = "Arcade Plot Cards";
-            if(Validator.includeFromVersion(version, "2.0")){
-                this.cardList   = SDEDAONavigation.pullNavigationForArcadePlotCards(version);
-            }else{
-                this.cardList   = SDEDAONavigation.pullNavigationForArcadePlotCards();
-            }            
         }else if(type.compareTo("Explore_Cards") == 0){
             this.title      = "Explore Cards";
             this.header     = "Explore Cards";
@@ -342,13 +326,13 @@ public class CardBean extends SDE.Bean.Bean{
             }else{
                 this.cardList   = SDEDAONavigation.pullNavigationForExploreCards();
             }            
-        }else if(type.compareTo("Explore_Plot_Cards") == 0){
-            this.title      = "Explore Plot Cards";
-            this.header     = "Explore Plot Cards";
+        }else if(type.compareTo("Plot_Cards") == 0){
+            this.title      = "Plot Cards";
+            this.header     = "Plot Cards";
             if(Validator.includeFromVersion(version, "2.0")){
-                this.cardList   = SDEDAONavigation.pullNavigationForExplorePlotCards(version);
+                this.cardList   = SDEDAONavigation.pullNavigationForPlotCards(version);
             }else{
-                this.cardList   = SDEDAONavigation.pullNavigationForExplorePlotCards();
+                this.cardList   = SDEDAONavigation.pullNavigationForPlotCards();
             }            
         }else if(type.compareTo("Challenge_Cards") == 0){
             this.title      = "Challenge Cards";

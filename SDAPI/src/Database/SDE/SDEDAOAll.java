@@ -915,6 +915,11 @@ public class SDEDAOAll extends SDEDAO{
         return pullAllPlotCards("{call DBSDEPullAllExplorePlotCards()}");
     }
     
+    //Pull All Plot Card
+    public static ArrayList<SDE.PlotCard> pullAllPlotCards(){
+        return pullAllPlotCards("{call DBSDEPullAllPlotCards()}");
+    }
+    
     //Pull All Plot Cards
     public static ArrayList<SDE.PlotCard> pullAllPlotCards(String callableStatement){
         CallableStatement stmt = null;

@@ -1647,6 +1647,50 @@ public class SDEDAONavigation extends SDEDAO{
         return result;
     }
 
+    //Pull Navigation for Explore Plot Cards
+    public static ArrayList<SDE.NavItem> pullNavigationForPlotCards(){
+        CallableStatement stmt = null;
+        ResultSet rs;
+        ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
+        
+        try{
+            openConnection();
+            
+            stmt = getConnect().prepareCall("{call DBSDEPullNavigationPlotCards}");
+            rs = stmt.executeQuery();
+            
+            result = pullNavigationForCards(rs);
+        }catch(Exception e){
+            e.printStackTrace();
+        }finally{
+            closeConnection();
+        }
+        
+        return result;
+    }
+
+    public static ArrayList<SDE.NavItem> pullNavigationForPlotCards(String version){
+        CallableStatement stmt = null;
+        ResultSet rs;
+        ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
+        
+        try{
+            openConnection();
+            
+            stmt = getConnect().prepareCall("{call DBSDEPullNavigationPlotCardsByProductSet(?)}");
+            stmt.setString(1, version);
+            rs = stmt.executeQuery();
+            
+            result = pullNavigationForCards(rs);
+        }catch(Exception e){
+            e.printStackTrace();
+        }finally{
+            closeConnection();
+        }
+        
+        return result;
+    }
+
     //Pull Navigation for Challenge Cards
     public static ArrayList<SDE.NavItem> pullNavigationForChallengeCards(){
         CallableStatement stmt = null;

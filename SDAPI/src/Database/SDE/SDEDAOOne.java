@@ -912,6 +912,11 @@ public class SDEDAOOne extends SDEDAO{
     }
     
     //Pull One Plot Card
+    public static SDE.PlotCard pullOnePlotCard(String link){
+        return pullOnePlot(link, "{call DBSDEPullOnePlotCard(?)}");
+    }
+    
+    //Pull One Plot Card
     public static SDE.PlotCard pullOnePlot(String link, String callableStatement){
         CallableStatement stmt;
         ResultSet rs;
