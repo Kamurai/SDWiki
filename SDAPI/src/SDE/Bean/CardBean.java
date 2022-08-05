@@ -79,37 +79,45 @@ public class CardBean extends SDE.Bean.Bean{
             this.header     = "Relics";
             this.cardList   = SDEDAONavigation.pullNavigationForRelics();
         }else if(type.compareTo("Boss_Spawns") == 0){
-            this.title      = "Boss_Spawns";
-            this.header     = "Boss_Spawns";
+            this.title      = "Boss Spawns";
+            this.header     = "Boss Spawns";
             this.cardList   = SDEDAONavigation.pullNavigationForBossSpawns();
         }else if(type.compareTo("Utility_Cards") == 0){
-            this.title      = "Utility_Cards";
-            this.header     = "Utility_Cards";
+            this.title      = "Utility Cards";
+            this.header     = "Utility Cards";
             this.cardList  = SDEDAONavigation.pullNavigationForUtilities();
         }else if(type.compareTo("Terrain_Cards") == 0){
-            this.title      = "Terrain_Cards";
-            this.header     = "Terrain_Cards";
+            this.title      = "Terrain Cards";
+            this.header     = "Terrain Cards";
             this.cardList   = SDEDAONavigation.pullNavigationForTerrainCards();
         }else if(type.compareTo("Arcade_Plot_Cards") == 0){
-            this.title      = "Arcade_Plot_Cards";
-            this.header     = "Arcade_Plot_Cards";
+            this.title      = "Arcade Plot Cards";
+            this.header     = "Arcade Plot Cards";
             this.cardList   = SDEDAONavigation.pullNavigationForArcadePlotCards();
         }else if(type.compareTo("Explore_Cards") == 0){
-            this.title      = "Explore_Cards";
-            this.header     = "Explore_Cards";
+            this.title      = "Explore Cards";
+            this.header     = "Explore Cards";
             this.cardList   = SDEDAONavigation.pullNavigationForExploreCards();
         }else if(type.compareTo("Explore_Plot_Cards") == 0){
-            this.title      = "Explore_Plot_Cards";
-            this.header     = "Explore_Plot_Cards";
+            this.title      = "Explore Plot Cards";
+            this.header     = "Explore Plot Cards";
             this.cardList   = SDEDAONavigation.pullNavigationForExplorePlotCards();
         }else if(type.compareTo("Challenge_Cards") == 0){
-            this.title      = "Challenge_Cards";
-            this.header     = "Challenge_Cards";
+            this.title      = "Challenge Cards";
+            this.header     = "Challenge Cards";
             this.cardList   = SDEDAONavigation.pullNavigationForChallengeCards();
         }else if(type.compareTo("Mighty_Monster_Cards") == 0){
-            this.title      = "Mighty_Monster_Cards";
-            this.header     = "Mighty_Monster_Cards";
+            this.title      = "Mighty Monster Cards";
+            this.header     = "Mighty Monster Cards";
             this.cardList   = SDEDAONavigation.pullNavigationForMightyMonsterCards();
+        }else if(type.compareTo("Consul_Power_Up_Cards") == 0){
+            this.title      = "Consul Power Up Cards";
+            this.header     = "Consul Power Up Cards";
+            this.cardList   = SDEDAONavigation.pullNavigationForConsulPowerUpCards();
+        }else{
+            this.title      = "Heroes";
+            this.header     = "Heroes";
+            this.cardList   = SDEDAONavigation.pullNavigationForHeroes();
         }
         
         return "./Layout.xhtml";
@@ -158,37 +166,45 @@ public class CardBean extends SDE.Bean.Bean{
             this.header     = "Relics";
             this.cardList   = SDEDAONavigation.pullNavigationForRelics(version);
         }else if(type.compareTo("Boss_Spawns") == 0){
-            this.title      = "Boss_Spawns";
-            this.header     = "Boss_Spawns";
+            this.title      = "Boss Spawns";
+            this.header     = "Boss Spawns";
             this.cardList   = SDEDAONavigation.pullNavigationForBossSpawns(version);
         }else if(type.compareTo("Utility_Cards") == 0){
-            this.title      = "Utility_Cards";
-            this.header     = "Utility_Cards";
+            this.title      = "Utility Cards";
+            this.header     = "Utility Cards";
             this.cardList  = SDEDAONavigation.pullNavigationForUtilitiesByProductSet(version);
         }else if(type.compareTo("Terrain_Cards") == 0){
-            this.title      = "Terrain_Cards";
-            this.header     = "Terrain_Cards";
+            this.title      = "Terrain Cards";
+            this.header     = "Terrain Cards";
             this.cardList   = SDEDAONavigation.pullNavigationForTerrainCards(version);
         }else if(type.compareTo("Arcade_Plot_Cards") == 0){
-            this.title      = "Arcade_Plot_Cards";
-            this.header     = "Arcade_Plot_Cards";
+            this.title      = "Arcade Plot Cards";
+            this.header     = "Arcade Plot Cards";
             this.cardList   = SDEDAONavigation.pullNavigationForArcadePlotCards(version);
         }else if(type.compareTo("Explore_Cards") == 0){
-            this.title      = "Explore_Cards";
-            this.header     = "Explore_Cards";
+            this.title      = "Explore Cards";
+            this.header     = "Explore Cards";
             this.cardList   = SDEDAONavigation.pullNavigationForExploreCards(version);
         }else if(type.compareTo("Explore_Plot_Cards") == 0){
-            this.title      = "Explore_Plot_Cards";
-            this.header     = "Explore_Plot_Cards";
+            this.title      = "Explore Plot Cards";
+            this.header     = "Explore Plot Cards";
             this.cardList   = SDEDAONavigation.pullNavigationForExplorePlotCards(version);
         }else if(type.compareTo("Challenge_Cards") == 0){
-            this.title      = "Challenge_Cards";
-            this.header     = "Challenge_Cards";
+            this.title      = "Challenge Cards";
+            this.header     = "Challenge Cards";
             this.cardList   = SDEDAONavigation.pullNavigationForChallengeCards(version);
         }else if(type.compareTo("Mighty_Monster_Cards") == 0){
-            this.title      = "Mighty_Monster_Cards";
-            this.header     = "Mighty_Monster_Cards";
+            this.title      = "Mighty Monster Cards";
+            this.header     = "Mighty Monster Cards";
             this.cardList   = SDEDAONavigation.pullNavigationForMightyMonsterCards(version);
+        }else if(type.compareTo("Consul_Power_Up_Cards") == 0){
+            this.title      = "Consul Power Up Cards";
+            this.header     = "Consul Power Up Cards";
+            this.cardList   = SDEDAONavigation.pullNavigationForConsulPowerUpCards(version);
+        }else{
+            this.title      = "Heroes";
+            this.header     = "Heroes";
+            this.cardList   = SDEDAONavigation.pullNavigationForHeroes();
         }
         
         return "./Layout.xhtml";
@@ -261,8 +277,8 @@ public class CardBean extends SDE.Bean.Bean{
                 this.cardList   = SDEDAONavigation.pullNavigationForWarbands();
             }
         }else if(type.compareTo("Utility_Cards") == 0){
-            this.title      = "Utility_Cards";
-            this.header     = "Utility_Cards";
+            this.title      = "Utility Cards";
+            this.header     = "Utility Cards";
             if(Validator.includeUpToVersion(version, "1.0")){
                 this.cardList   = SDEDAONavigation.pullNavigationForUtilitiesByProductSet(version);
             }else if(Validator.includeFromVersion(version, "FK")){
@@ -277,8 +293,7 @@ public class CardBean extends SDE.Bean.Bean{
                 this.cardList   = SDEDAONavigation.pullNavigationForLoot(version);
             }else{
                 this.cardList   = SDEDAONavigation.pullNavigationForLoot();
-            }
-            
+            }            
         }else if(type.compareTo("Treasure") == 0){
             this.title      = "Treasure";
             this.header     = "Treasure";
@@ -286,8 +301,7 @@ public class CardBean extends SDE.Bean.Bean{
                 this.cardList   = SDEDAONavigation.pullNavigationForTreasure(version);
             }else{
                 this.cardList   = SDEDAONavigation.pullNavigationForTreasure();
-            }
-            
+            }            
         }else if(type.compareTo("Relics") == 0){
             this.title      = "Relics";
             this.header     = "Relics";
@@ -295,71 +309,79 @@ public class CardBean extends SDE.Bean.Bean{
                 this.cardList   = SDEDAONavigation.pullNavigationForRelics(version);
             }else{
                 this.cardList   = SDEDAONavigation.pullNavigationForRelics();
-            }
-            
+            }            
         }else if(type.compareTo("Boss_Spawns") == 0){
-            this.title      = "Boss_Spawns";
-            this.header     = "Boss_Spawns";
+            this.title      = "Boss Spawns";
+            this.header     = "Boss Spawns";
             if(Validator.validateVersion(version)){
                 this.cardList   = SDEDAONavigation.pullNavigationForBossSpawns(version);
             }else{
                 this.cardList   = SDEDAONavigation.pullNavigationForBossSpawns();
-            }
-            
+            }            
         }else if(type.compareTo("Terrain_Cards") == 0){
-            this.title      = "Terrain_Cards";
-            this.header     = "Terrain_Cards";
+            this.title      = "Terrain Cards";
+            this.header     = "Terrain Cards";
             if(Validator.validateVersion(version)){
                 this.cardList   = SDEDAONavigation.pullNavigationForTerrainCards(version);
             }else{
                 this.cardList   = SDEDAONavigation.pullNavigationForTerrainCards();
-            }
-            
+            }            
         }else if(type.compareTo("Arcade_Plot_Cards") == 0){
-            this.title      = "Arcade_Plot_Cards";
-            this.header     = "Arcade_Plot_Cards";
+            this.title      = "Arcade Plot Cards";
+            this.header     = "Arcade Plot Cards";
             if(Validator.includeFromVersion(version, "2.0")){
                 this.cardList   = SDEDAONavigation.pullNavigationForArcadePlotCards(version);
             }else{
                 this.cardList   = SDEDAONavigation.pullNavigationForArcadePlotCards();
-            }
-            
+            }            
         }else if(type.compareTo("Explore_Cards") == 0){
-            this.title      = "Explore_Cards";
-            this.header     = "Explore_Cards";
+            this.title      = "Explore Cards";
+            this.header     = "Explore Cards";
             if(Validator.includeFromVersion(version, "FK")){
                 this.cardList   = SDEDAONavigation.pullNavigationForExploreCards(version);
             }else{
                 this.cardList   = SDEDAONavigation.pullNavigationForExploreCards();
-            }
-            
+            }            
         }else if(type.compareTo("Explore_Plot_Cards") == 0){
-            this.title      = "Explore_Plot_Cards";
-            this.header     = "Explore_Plot_Cards";
+            this.title      = "Explore Plot Cards";
+            this.header     = "Explore Plot Cards";
             if(Validator.includeFromVersion(version, "2.0")){
                 this.cardList   = SDEDAONavigation.pullNavigationForExplorePlotCards(version);
             }else{
                 this.cardList   = SDEDAONavigation.pullNavigationForExplorePlotCards();
-            }
-            
+            }            
         }else if(type.compareTo("Challenge_Cards") == 0){
-            this.title      = "Challenge_Cards";
-            this.header     = "Challenge_Cards";
+            this.title      = "Challenge Cards";
+            this.header     = "Challenge Cards";
             if(Validator.includeFromVersion(version, "2.0")){
                 this.cardList   = SDEDAONavigation.pullNavigationForChallengeCards(version);
             }else{
                 this.cardList   = SDEDAONavigation.pullNavigationForChallengeCards();
-            }
-            
+            }            
         }else if(type.compareTo("Mighty_Monster_Cards") == 0){
-            this.title      = "Mighty_Monster_Cards";
-            this.header     = "Mighty_Monster_Cards";
+            this.title      = "Mighty Monster Cards";
+            this.header     = "Mighty Monster Cards";
             if(Validator.includeFromVersion(version, "2.0")){
                 this.cardList   = SDEDAONavigation.pullNavigationForMightyMonsterCards(version);
             }else{
                 this.cardList   = SDEDAONavigation.pullNavigationForMightyMonsterCards();
+            }            
+        }else if(type.compareTo("Consul_Power_Up_Cards") == 0){
+            this.title      = "Consul Power Up Cards";
+            this.header     = "Consul Power Up Cards";
+            if(Validator.includeFromVersion(version, "2.0")){
+                this.cardList   = SDEDAONavigation.pullNavigationForConsulPowerUpCards(version);
+            }else{
+                this.cardList   = SDEDAONavigation.pullNavigationForConsulPowerUpCards();
+            }            
+        }else{
+            this.title      = "Heroes";
+            this.header     = "Heroes";
+            if(Validator.validateVersion(version)){
+                this.cardList   = SDEDAONavigation.pullNavigationForHeroesByProductSet(version);
+            }else{
+                this.cardList   = SDEDAONavigation.pullNavigationForHeroes();
             }
-            
         }
         
         return "./Layout.xhtml";

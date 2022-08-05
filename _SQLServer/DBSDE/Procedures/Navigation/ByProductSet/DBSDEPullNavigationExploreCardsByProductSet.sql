@@ -6,8 +6,8 @@ CREATE OR ALTER PROCEDURE DBSDEPullNavigationExploreCardsByProductSet(
 AS
 BEGIN
 	select distinct CardName, ProductSet, PlayMode, Link, PictureFront
-	from ExploresView
-	where ExploresView.ProductSet = @strVersion
+	from ExploreCardsView
+	where ExploreCardsView.ProductSet = @strVersion
 	Order By CardName asc
 	;
 END

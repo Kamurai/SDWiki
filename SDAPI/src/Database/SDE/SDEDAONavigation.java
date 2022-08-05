@@ -1779,6 +1779,50 @@ public class SDEDAONavigation extends SDEDAO{
         return result;
     }
     
+    //Pull Navigation for Mighty Monster Cards
+    public static ArrayList<SDE.NavItem> pullNavigationForConsulPowerUpCards(){
+        CallableStatement stmt = null;
+        ResultSet rs;
+        ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
+        
+        try{
+            openConnection();
+            
+            stmt = getConnect().prepareCall("{call DBSDEPullNavigationConsulPowerUpCards}");
+            rs = stmt.executeQuery();
+            
+            result = pullNavigationForCards(rs);
+        }catch(Exception e){
+            e.printStackTrace();
+        }finally{
+            closeConnection();
+        }
+        
+        return result;
+    }
+    
+    public static ArrayList<SDE.NavItem> pullNavigationForConsulPowerUpCards(String version){
+        CallableStatement stmt = null;
+        ResultSet rs;
+        ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
+        
+        try{
+            openConnection();
+            
+            stmt = getConnect().prepareCall("{call DBSDEPullNavigationConsulPowerUpCardsByProductSet(?)}");
+            stmt.setString(1, version);
+            rs = stmt.executeQuery();
+            
+            result = pullNavigationForCards(rs);
+        }catch(Exception e){
+            e.printStackTrace();
+        }finally{
+            closeConnection();
+        }
+        
+        return result;
+    }
+    
     private static ArrayList<SDE.NavItem> pullNavigationForCards(ResultSet rs){
         ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
         String  tempCardName;

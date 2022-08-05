@@ -53,7 +53,7 @@ VALUES ('Bonus Ijin Kunoichi Frenzy',
 'http://htkb.info/SDE/2.0/Cards/Mighty_Monster/Card_Mighty_Monster_Bonus_Ijin_Kunoichi_Frenzy_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Mighty_Monster/Card_Mighty_Monster_Back_2.0.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Mighty_Monster/Bonus_Ijin_Kunoichi_Frenzy.xhtml', 
-'Mighty Monster', '2.0', '2.0 Core Set', 'Default', '');
+'Mighty Monster', '2.0 DI', '2.0 Devil''s Island', 'Default', '');
 insert into MightyMonsters (CardIndex, Targets, Bonus, Condition) VALUES (2196, 
 'All Ijin Kunoichi gain the following bonus:', 
 'A model with Frenzy gains +1R on offensive rolls against any model that is suffering a wound.', 
@@ -65,7 +65,7 @@ VALUES ('Bonus Ijin Oni Sturdy',
 'http://htkb.info/SDE/2.0/Cards/Mighty_Monster/Card_Mighty_Monster_Bonus_Ijin_Oni_Sturdy_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Mighty_Monster/Card_Mighty_Monster_Back_2.0.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Mighty_Monster/Bonus_Ijin_Oni_Sturdy.xhtml', 
-'Mighty Monster', '2.0', '2.0 Core Set', 'Default', '');
+'Mighty Monster', '2.0 DI', '2.0 Devil''s Island', 'Default', '');
 insert into MightyMonsters (CardIndex, Targets, Bonus, Condition) VALUES (2197, 
 'All Ijin Oni gain the following bonus:', 
 'A model with Sturdy never suffers more than a single wound from a single action, such as critical success or Massive Damage.', 
@@ -107,10 +107,10 @@ insert into MightyMonsters (CardIndex, Targets, Bonus, Condition) VALUES (2200,
 '+1R to all offense rolls', 
 'If the monsters gain the above bonus from the Mighty Monster Chart, place this card in front of the Consul player as a reminder.');
 
---Bonus STR 2	--CardIndex 2201 --MightyMonsterIndex 9
+--Bonus STR	--CardIndex 2201 --MightyMonsterIndex 9
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
 VALUES ('Bonus STR 2',
-'http://htkb.info/SDE/2.0/Cards/Mighty_Monster/Card_Mighty_Monster_Bonus_STR_2_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Mighty_Monster/Card_Mighty_Monster_Bonus_STR_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Mighty_Monster/Card_Mighty_Monster_Back_2.0.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Mighty_Monster/Bonus_STR_2.xhtml', 
 'Mighty Monster', '2.0', '2.0 Core Set', 'Default', '');
