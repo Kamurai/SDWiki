@@ -110,6 +110,10 @@ public class CardBean extends SDE.Bean.Bean{
             this.title      = "Consul Power Up Cards";
             this.header     = "Consul Power Up Cards";
             this.cardList   = SDEDAONavigation.pullNavigationForConsulPowerUpCards();
+        }else if(type.compareTo("Difficulty_Cards") == 0){
+            this.title      = "Difficulty Cards";
+            this.header     = "Difficulty Cards";
+            this.cardList   = SDEDAONavigation.pullNavigationForDifficultyCards();
         }else{
             this.title      = "Heroes";
             this.header     = "Heroes";
@@ -193,6 +197,10 @@ public class CardBean extends SDE.Bean.Bean{
             this.title      = "Consul Power Up Cards";
             this.header     = "Consul Power Up Cards";
             this.cardList   = SDEDAONavigation.pullNavigationForConsulPowerUpCards(version);
+        }else if(type.compareTo("Difficulty_Cards") == 0){
+            this.title      = "Difficulty Cards";
+            this.header     = "Difficulty Cards";
+            this.cardList   = SDEDAONavigation.pullNavigationForDifficultyCards(version);
         }else{
             this.title      = "Heroes";
             this.header     = "Heroes";
@@ -330,7 +338,7 @@ public class CardBean extends SDE.Bean.Bean{
             this.title      = "Plot Cards";
             this.header     = "Plot Cards";
             if(Validator.includeFromVersion(version, "2.0")){
-                this.cardList   = SDEDAONavigation.pullNavigationForPlotCards(version);
+                this.cardList   = SDEDAONavigation.pullNavigationForPlotCardsByProductSetAndPlayMode(version, playMode);
             }else{
                 this.cardList   = SDEDAONavigation.pullNavigationForPlotCards();
             }            
@@ -357,6 +365,14 @@ public class CardBean extends SDE.Bean.Bean{
                 this.cardList   = SDEDAONavigation.pullNavigationForConsulPowerUpCards(version);
             }else{
                 this.cardList   = SDEDAONavigation.pullNavigationForConsulPowerUpCards();
+            }            
+        }else if(type.compareTo("Difficulty_Cards") == 0){
+            this.title      = "Difficulty Cards";
+            this.header     = "Difficulty Cards";
+            if(Validator.includeFromVersion(version, "2.0")){
+                this.cardList   = SDEDAONavigation.pullNavigationForDifficultyCards(version);
+            }else{
+                this.cardList   = SDEDAONavigation.pullNavigationForDifficultyCards();
             }            
         }else{
             this.title      = "Heroes";

@@ -105,6 +105,7 @@ type .\Backup_2.0.2\TableLoad_44_Challenges.sql >> TableLoad_E_2.0.2.sql
 type .\Backup_2.0.2\TableLoad_45_MightyMonsterCards.sql >> TableLoad_E_2.0.2.sql
 type .\Backup_2.0.2\TableLoad_46_Consul_Power_Ups.sql >> TableLoad_E_2.0.2.sql
 type .\Backup_2.0.2\TableLoad_47_Difficulty.sql >> TableLoad_E_2.0.2.sql
+type .\Backup_2.0.2\TableLoad_83_Plots.sql >> TableLoad_E_2.0.2.sql
 
 type .\Backup_1.0_Custom\TableLoad_01_Keywords.sql >> TableLoad_F_1.0_Custom.sql
 type .\Backup_1.0_Custom\TableLoad_02_Abilities.sql >> TableLoad_F_1.0_Custom.sql

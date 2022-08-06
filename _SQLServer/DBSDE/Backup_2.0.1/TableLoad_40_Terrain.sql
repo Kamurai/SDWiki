@@ -1,18 +1,22 @@
---2.0 Utility Cards
+--SDE
+--2.0 
+--Utility Cards
+
+
 --Chasm --CardIndex 1996 --UtilityIndex 13 --TerrainIndex 12
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
 VALUES ('Chasm',
-'http://htkb.info/SDE/2.0/Cards/Utility/Terrain/Card_Terrain_Chasm_2.0_DI.png', 
+'http://htkb.info/SDE/2.0/Cards/Utility/Terrain/Card_Terrain_Chasm.png', 
 'http://htkb.info/SDE/2.0/Cards/Utility/Terrain/Card_Terrain_Back_2.0.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Utility/Chasm.xhtml', 
 'Terrain', '2.0', '2.0', 'Default', '');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (1996, ''); 
 insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (13, 1099); --Chasm
 
---Chasm2 --CardIndex 1997 --UtilityIndex 14 --TerrainIndex 13
+--Chasm --CardIndex 1997 --UtilityIndex 14 --TerrainIndex 13
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
-VALUES ('Chasm2',
-'http://htkb.info/SDE/2.0/Cards/Utility/Terrain/Card_Terrain_Chasm2_2.0.png', 
+VALUES ('Chasm',
+'http://htkb.info/SDE/2.0/Cards/Utility/Terrain/Card_Terrain_Chasm2.png', 
 'http://htkb.info/SDE/2.0/Cards/Utility/Terrain/Card_Terrain_Back_2.0.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Utility/Chasm2.xhtml', 
 'Terrain', '2.0', '2.0', 'Default', '');
@@ -22,7 +26,7 @@ insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (14, 1099); -
 --Difficult Terrain --CardIndex 1998 --UtilityIndex 15 --TerrainIndex 14
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
 VALUES ('Difficult Terrain',
-'http://htkb.info/SDE/2.0/Cards/Utility/Terrain/Card_Terrain_Difficult_Terrain_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Utility/Terrain/Card_Terrain_Difficult_Terrain.png', 
 'http://htkb.info/SDE/2.0/Cards/Utility/Terrain/Card_Terrain_Back_2.0.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Utility/Difficult_Terrain.xhtml', 
 'Terrain', '2.0', '2.0', 'Default', '');
@@ -31,7 +35,7 @@ insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (15, 1100); -
 
 --Difficult Terrain DI --CardIndex 1999 --UtilityIndex 16 --TerrainIndex 15
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
-VALUES ('Difficult Terrain DI',
+VALUES ('Difficult Terrain',
 'http://htkb.info/SDE/2.0/Cards/Utility/Terrain/DI/Card_Terrain_Difficult_Terrain_2.0_DI.png', 
 'http://htkb.info/SDE/2.0/Cards/Utility/Terrain/Card_Terrain_Back_2.0.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Utility/Difficult_Terrain_DI.xhtml', 
@@ -39,10 +43,10 @@ VALUES ('Difficult Terrain DI',
 insert into Utilities (CardIndex, UtilityDescription) VALUES (1999, ''); 
 insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (16, 1100); --Difficult Terrain
 
---Difficult Terrain2 --CardIndex 2000 --UtilityIndex 17 --TerrainIndex 16
+--Difficult Terrain --CardIndex 2000 --UtilityIndex 17 --TerrainIndex 16
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
-VALUES ('Difficult Terrain2',
-'http://htkb.info/SDE/2.0/Cards/Utility/Terrain/Card_Terrain_Difficult_Terrain2_2.0.png', 
+VALUES ('Difficult Terrain',
+'http://htkb.info/SDE/2.0/Cards/Utility/Terrain/Card_Terrain_Difficult_Terrain2.png', 
 'http://htkb.info/SDE/2.0/Cards/Utility/Terrain/Card_Terrain_Back_2.0.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Utility/Difficult_Terrain2.xhtml', 
 'Terrain', '2.0', '2.0', 'Default', '');
@@ -62,7 +66,7 @@ insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (18, 1101); -
 --Goddess --CardIndex 2002 --UtilityIndex 19 --TerrainIndex 18
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
 VALUES ('Goddess',
-'http://htkb.info/SDE/2.0/Cards/Utility/Terrain/Card_Terrain_Goddess_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Utility/Terrain/Card_Terrain_Goddess.png', 
 'http://htkb.info/SDE/2.0/Cards/Utility/Terrain/Card_Terrain_Back_2.0.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Utility/Goddess.xhtml', 
 'Terrain', '2.0', '2.0', 'Default', '');
@@ -74,7 +78,7 @@ insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (19, 1017); -
 --Lava --CardIndex 2003 --UtilityIndex 20 --TerrainIndex 19
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
 VALUES ('Lava',
-'http://htkb.info/SDE/2.0/Cards/Utility/Terrain/Card_Terrain_Lava_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Utility/Terrain/Card_Terrain_Lava.png', 
 'http://htkb.info/SDE/2.0/Cards/Utility/Terrain/Card_Terrain_Back_2.0.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Utility/Lava.xhtml', 
 'Terrain', '2.0', '2.0', 'Default', '');
@@ -83,8 +87,8 @@ insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (20, 1103); -
 
 --Lava 1 --CardIndex 2004 --UtilityIndex 21 --TerrainIndex 20
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
-VALUES ('Lava 1',
-'http://htkb.info/SDE/2.0/Cards/Utility/Terrain/DP/Card_Terrain_Lava_1_2.0.png', 
+VALUES ('Lava',
+'http://htkb.info/SDE/2.0/Cards/Utility/Terrain/DP/Card_Terrain_Lava_1.png', 
 'http://htkb.info/SDE/2.0/Cards/Utility/Terrain/Card_Terrain_Back_2.0.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Utility/Lava_1.xhtml', 
 'Terrain', '2.0', '2.0 DP', 'Default', '');
@@ -94,7 +98,7 @@ insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (21, 1103); -
 --Spawn Location --CardIndex 2005 --UtilityIndex 22 --TerrainIndex 21
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
 VALUES ('Spawn Location',
-'http://htkb.info/SDE/2.0/Cards/Utility/Terrain/Card_Terrain_Spawn_Location_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Utility/Terrain/Card_Terrain_Spawn_Location.png', 
 'http://htkb.info/SDE/2.0/Cards/Utility/Terrain/Card_Terrain_Back_2.0.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Utility/Spawn_Location.xhtml', 
 'Terrain', '2.0', '2.0', 'Default', '');
@@ -114,7 +118,7 @@ insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (23, 1104); -
 --Structure --CardIndex 2007 --UtilityIndex 24 --TerrainIndex 23
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
 VALUES ('Structure',
-'http://htkb.info/SDE/2.0/Cards/Utility/Terrain/Card_Terrain_Structure_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Utility/Terrain/DI/Card_Terrain_Structure_2.0_DI.png', 
 'http://htkb.info/SDE/2.0/Cards/Utility/Terrain/Card_Terrain_Back_2.0.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Utility/Structure.xhtml', 
 'Terrain', '2.0', '2.0', 'Default', '');
@@ -131,10 +135,10 @@ VALUES ('Structure',
 insert into Utilities (CardIndex, UtilityDescription) VALUES (2008, ''); 
 insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (25, 1017); --Structure
 
---Structure2 --CardIndex 2009 --UtilityIndex 26 --TerrainIndex 25
+--Structure --CardIndex 2009 --UtilityIndex 26 --TerrainIndex 25
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
-VALUES ('Structure2',
-'http://htkb.info/SDE/2.0/Cards/Utility/Terrain/Card_Terrain_Structure2_2.0.png', 
+VALUES ('Structure',
+'http://htkb.info/SDE/2.0/Cards/Utility/Terrain/Card_Terrain_Structure.png', 
 'http://htkb.info/SDE/2.0/Cards/Utility/Terrain/Card_Terrain_Back_2.0.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Utility/Structure2.xhtml', 
 'Terrain', '2.0', '2.0', 'Default', '');

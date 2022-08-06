@@ -1647,7 +1647,7 @@ public class SDEDAONavigation extends SDEDAO{
         return result;
     }
 
-    //Pull Navigation for Explore Plot Cards
+    //Pull Navigation for Plot Cards
     public static ArrayList<SDE.NavItem> pullNavigationForPlotCards(){
         CallableStatement stmt = null;
         ResultSet rs;
@@ -1679,6 +1679,29 @@ public class SDEDAONavigation extends SDEDAO{
             
             stmt = getConnect().prepareCall("{call DBSDEPullNavigationPlotCardsByProductSet(?)}");
             stmt.setString(1, version);
+            rs = stmt.executeQuery();
+            
+            result = pullNavigationForCards(rs);
+        }catch(Exception e){
+            e.printStackTrace();
+        }finally{
+            closeConnection();
+        }
+        
+        return result;
+    }
+    
+    public static ArrayList<SDE.NavItem> pullNavigationForPlotCardsByProductSetAndPlayMode(String version, String playMode){
+        CallableStatement stmt = null;
+        ResultSet rs;
+        ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
+        
+        try{
+            openConnection();
+            
+            stmt = getConnect().prepareCall("{call DBSDEPullNavigationPlotCardsByProductSetAndPlayMode(?,?)}");
+            stmt.setString(1, version);
+            stmt.setString(2, playMode);
             rs = stmt.executeQuery();
             
             result = pullNavigationForCards(rs);
@@ -1823,7 +1846,7 @@ public class SDEDAONavigation extends SDEDAO{
         return result;
     }
     
-    //Pull Navigation for Mighty Monster Cards
+    //Pull Navigation for Consul Power Up Cards
     public static ArrayList<SDE.NavItem> pullNavigationForConsulPowerUpCards(){
         CallableStatement stmt = null;
         ResultSet rs;
@@ -1866,6 +1889,52 @@ public class SDEDAONavigation extends SDEDAO{
         
         return result;
     }
+    
+    //Pull Navigation for Difficulty Cards
+    public static ArrayList<SDE.NavItem> pullNavigationForDifficultyCards(){
+        CallableStatement stmt = null;
+        ResultSet rs;
+        ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
+        
+        try{
+            openConnection();
+            
+            stmt = getConnect().prepareCall("{call DBSDEPullNavigationDifficultyCards}");
+            rs = stmt.executeQuery();
+            
+            result = pullNavigationForCards(rs);
+        }catch(Exception e){
+            e.printStackTrace();
+        }finally{
+            closeConnection();
+        }
+        
+        return result;
+    }
+    
+    public static ArrayList<SDE.NavItem> pullNavigationForDifficultyCards(String version){
+        CallableStatement stmt = null;
+        ResultSet rs;
+        ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
+        
+        try{
+            openConnection();
+            
+            stmt = getConnect().prepareCall("{call DBSDEPullNavigationDifficultyCardsByProductSet(?)}");
+            stmt.setString(1, version);
+            rs = stmt.executeQuery();
+            
+            result = pullNavigationForCards(rs);
+        }catch(Exception e){
+            e.printStackTrace();
+        }finally{
+            closeConnection();
+        }
+        
+        return result;
+    }
+    
+    
     
     private static ArrayList<SDE.NavItem> pullNavigationForCards(ResultSet rs){
         ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();

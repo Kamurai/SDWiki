@@ -23993,21 +23993,25 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Always protect your head.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1995, 'Lock Loot', 'Bottom', '+1ST ARM');
 
---2.0 Utility Cards
+--SDE
+--2.0 
+--Utility Cards
+
+
 --Chasm --CardIndex 1996 --UtilityIndex 13 --TerrainIndex 12
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
 VALUES ('Chasm',
-'http://htkb.info/SDE/2.0/Cards/Utility/Terrain/Card_Terrain_Chasm_2.0_DI.png', 
+'http://htkb.info/SDE/2.0/Cards/Utility/Terrain/Card_Terrain_Chasm.png', 
 'http://htkb.info/SDE/2.0/Cards/Utility/Terrain/Card_Terrain_Back_2.0.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Utility/Chasm.xhtml', 
 'Terrain', '2.0', '2.0', 'Default', '');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (1996, ''); 
 insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (13, 1099); --Chasm
 
---Chasm2 --CardIndex 1997 --UtilityIndex 14 --TerrainIndex 13
+--Chasm --CardIndex 1997 --UtilityIndex 14 --TerrainIndex 13
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
-VALUES ('Chasm2',
-'http://htkb.info/SDE/2.0/Cards/Utility/Terrain/Card_Terrain_Chasm2_2.0.png', 
+VALUES ('Chasm',
+'http://htkb.info/SDE/2.0/Cards/Utility/Terrain/Card_Terrain_Chasm2.png', 
 'http://htkb.info/SDE/2.0/Cards/Utility/Terrain/Card_Terrain_Back_2.0.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Utility/Chasm2.xhtml', 
 'Terrain', '2.0', '2.0', 'Default', '');
@@ -24017,7 +24021,7 @@ insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (14, 1099); -
 --Difficult Terrain --CardIndex 1998 --UtilityIndex 15 --TerrainIndex 14
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
 VALUES ('Difficult Terrain',
-'http://htkb.info/SDE/2.0/Cards/Utility/Terrain/Card_Terrain_Difficult_Terrain_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Utility/Terrain/Card_Terrain_Difficult_Terrain.png', 
 'http://htkb.info/SDE/2.0/Cards/Utility/Terrain/Card_Terrain_Back_2.0.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Utility/Difficult_Terrain.xhtml', 
 'Terrain', '2.0', '2.0', 'Default', '');
@@ -24026,7 +24030,7 @@ insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (15, 1100); -
 
 --Difficult Terrain DI --CardIndex 1999 --UtilityIndex 16 --TerrainIndex 15
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
-VALUES ('Difficult Terrain DI',
+VALUES ('Difficult Terrain',
 'http://htkb.info/SDE/2.0/Cards/Utility/Terrain/DI/Card_Terrain_Difficult_Terrain_2.0_DI.png', 
 'http://htkb.info/SDE/2.0/Cards/Utility/Terrain/Card_Terrain_Back_2.0.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Utility/Difficult_Terrain_DI.xhtml', 
@@ -24034,10 +24038,10 @@ VALUES ('Difficult Terrain DI',
 insert into Utilities (CardIndex, UtilityDescription) VALUES (1999, ''); 
 insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (16, 1100); --Difficult Terrain
 
---Difficult Terrain2 --CardIndex 2000 --UtilityIndex 17 --TerrainIndex 16
+--Difficult Terrain --CardIndex 2000 --UtilityIndex 17 --TerrainIndex 16
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
-VALUES ('Difficult Terrain2',
-'http://htkb.info/SDE/2.0/Cards/Utility/Terrain/Card_Terrain_Difficult_Terrain2_2.0.png', 
+VALUES ('Difficult Terrain',
+'http://htkb.info/SDE/2.0/Cards/Utility/Terrain/Card_Terrain_Difficult_Terrain2.png', 
 'http://htkb.info/SDE/2.0/Cards/Utility/Terrain/Card_Terrain_Back_2.0.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Utility/Difficult_Terrain2.xhtml', 
 'Terrain', '2.0', '2.0', 'Default', '');
@@ -24057,7 +24061,7 @@ insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (18, 1101); -
 --Goddess --CardIndex 2002 --UtilityIndex 19 --TerrainIndex 18
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
 VALUES ('Goddess',
-'http://htkb.info/SDE/2.0/Cards/Utility/Terrain/Card_Terrain_Goddess_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Utility/Terrain/Card_Terrain_Goddess.png', 
 'http://htkb.info/SDE/2.0/Cards/Utility/Terrain/Card_Terrain_Back_2.0.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Utility/Goddess.xhtml', 
 'Terrain', '2.0', '2.0', 'Default', '');
@@ -24069,7 +24073,7 @@ insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (19, 1017); -
 --Lava --CardIndex 2003 --UtilityIndex 20 --TerrainIndex 19
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
 VALUES ('Lava',
-'http://htkb.info/SDE/2.0/Cards/Utility/Terrain/Card_Terrain_Lava_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Utility/Terrain/Card_Terrain_Lava.png', 
 'http://htkb.info/SDE/2.0/Cards/Utility/Terrain/Card_Terrain_Back_2.0.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Utility/Lava.xhtml', 
 'Terrain', '2.0', '2.0', 'Default', '');
@@ -24078,8 +24082,8 @@ insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (20, 1103); -
 
 --Lava 1 --CardIndex 2004 --UtilityIndex 21 --TerrainIndex 20
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
-VALUES ('Lava 1',
-'http://htkb.info/SDE/2.0/Cards/Utility/Terrain/DP/Card_Terrain_Lava_1_2.0.png', 
+VALUES ('Lava',
+'http://htkb.info/SDE/2.0/Cards/Utility/Terrain/DP/Card_Terrain_Lava_1.png', 
 'http://htkb.info/SDE/2.0/Cards/Utility/Terrain/Card_Terrain_Back_2.0.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Utility/Lava_1.xhtml', 
 'Terrain', '2.0', '2.0 DP', 'Default', '');
@@ -24089,7 +24093,7 @@ insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (21, 1103); -
 --Spawn Location --CardIndex 2005 --UtilityIndex 22 --TerrainIndex 21
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
 VALUES ('Spawn Location',
-'http://htkb.info/SDE/2.0/Cards/Utility/Terrain/Card_Terrain_Spawn_Location_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Utility/Terrain/Card_Terrain_Spawn_Location.png', 
 'http://htkb.info/SDE/2.0/Cards/Utility/Terrain/Card_Terrain_Back_2.0.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Utility/Spawn_Location.xhtml', 
 'Terrain', '2.0', '2.0', 'Default', '');
@@ -24109,7 +24113,7 @@ insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (23, 1104); -
 --Structure --CardIndex 2007 --UtilityIndex 24 --TerrainIndex 23
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
 VALUES ('Structure',
-'http://htkb.info/SDE/2.0/Cards/Utility/Terrain/Card_Terrain_Structure_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Utility/Terrain/DI/Card_Terrain_Structure_2.0_DI.png', 
 'http://htkb.info/SDE/2.0/Cards/Utility/Terrain/Card_Terrain_Back_2.0.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Utility/Structure.xhtml', 
 'Terrain', '2.0', '2.0', 'Default', '');
@@ -24126,10 +24130,10 @@ VALUES ('Structure',
 insert into Utilities (CardIndex, UtilityDescription) VALUES (2008, ''); 
 insert into KeywordAssignments (UtilityIndex, KeywordIndex) VALUES (25, 1017); --Structure
 
---Structure2 --CardIndex 2009 --UtilityIndex 26 --TerrainIndex 25
+--Structure --CardIndex 2009 --UtilityIndex 26 --TerrainIndex 25
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
-VALUES ('Structure2',
-'http://htkb.info/SDE/2.0/Cards/Utility/Terrain/Card_Terrain_Structure2_2.0.png', 
+VALUES ('Structure',
+'http://htkb.info/SDE/2.0/Cards/Utility/Terrain/Card_Terrain_Structure.png', 
 'http://htkb.info/SDE/2.0/Cards/Utility/Terrain/Card_Terrain_Back_2.0.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Utility/Structure2.xhtml', 
 'Terrain', '2.0', '2.0', 'Default', '');
@@ -24235,15 +24239,21 @@ VALUES ('Read Before Opening 4',
 'http://htkb.info/SDE/2.0/Cards/Utility/Card_Utility_2.0_DI_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Utility/Read_Before_Opening_4.xhtml', 
 'Utility', '2.0', '2.0 DI', 'Default', '');
-insert into Utilities (CardIndex, UtilityDescription) VALUES (2020, 'READ BEFORE OPENING!</br><br><br>This pack contains alternative profile game cards for the monster models included in the Super Dungeon: Explore board game. (This box!)</br><br><br>Once you have played games using the standard monster cards, use these cards to increase the variety of monsters you may choose from to play your games.</br>');--2.0 Plot Cards
+insert into Utilities (CardIndex, UtilityDescription) VALUES (2020, 'READ BEFORE OPENING!</br><br><br>This pack contains alternative profile game cards for the monster models included in the Super Dungeon: Explore board game. (This box!)</br><br><br>Once you have played games using the standard monster cards, use these cards to increase the variety of monsters you may choose from to play your games.</br>');--SDE
+--2.0
+--Plot Cards
+
+
 --Acid Fog	--CardIndex 2021 --PlotIndex 0
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
 VALUES ('Acid Fog',
 'http://htkb.info/SDE/2.0/Pet_Parade/Cards/Explore_Plots/Card_Explore_Plot_Acid_Fog.png', 
 'http://htkb.info/SDE/2.0/Pet_Parade/Cards/Explore_Plots/Card_Explore_Plot_Back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Plots/Explore/Acid_Fog.xhtml', 
-'Explore Plot', '2.0', '2.0 Pet Parade', 'Default', '');
-insert into Plots (CardIndex, PowerUp, Plot) VALUES (2021, 'Boss Sighting first tile.<br><br>Spawn two Skull Points of monsters.', 
+'Plot Card', '2.0', '2.0 Pet Parade', 'Explore', 
+'');
+insert into Plots (CardIndex, PowerUp, Plot) VALUES (2021, 
+'Boss Sighting first tile.<br><br>Spawn two Skull Points of monsters.', 
 'Spawn six Creeps within three squares of the SPAWNLOCATION square on the second tile.  Discard this plot when there are no Plot Creeps in play.  If the last Plot Creep to be destroyed is destroyed by a Hero, all Heroes may roll 1G and draw a Treasure on a roll of HEARTPOTION.<br><br>Whenever a Plot Creep moves onto the Start token destroy it and draw the top card of the loot deck.  All Heroes in play discard all equipment that shares a slot with the drawn card.  Then discard the card.');
 
 --Armies from the Grave	--CardIndex 2022 --PlotIndex 1
@@ -24252,8 +24262,10 @@ VALUES ('Armies from the Grave',
 'http://htkb.info/SDE/2.0/Pet_Parade/Cards/Explore_Plots/Card_Explore_Plot_Armies_from_the_Grave.png', 
 'http://htkb.info/SDE/2.0/Pet_Parade/Cards/Explore_Plots/Card_Explore_Plot_Back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Plots/Explore/Armies_from_the_Grave.xhtml', 
-'Explore Plot', '2.0', '2.0 Pet Parade', 'Default', 'Why do they all have shovels?');
-insert into Plots (CardIndex, PowerUp, Plot) VALUES (2022, '', 
+'Plot Card', '2.0', '2.0 Pet Parade', 'Explore', 
+'Why do they all have shovels?');
+insert into Plots (CardIndex, PowerUp, Plot) VALUES (2022, 
+'', 
 'Spawn four Creeps within three squares of the SPAWNLOCATION square on the second tile.  Discard this plot when there are no Plot Creeps in play.  If the last Plot Creep to be destroyed is destroyed by a Hero, the party draws two Loot.<br><br>Plot Creeps may leave the dungeon by moving out of any dungeon exit in the last tile. When a Plot Creep leaves the dungeon in this way it is destroyed and the Consul may spawn six additional Skull Points of monsters during that turn''s power-up phase if one or more Creeps was destoyed in this way during the turn.');
 
 --Blessings of Strength	--CardIndex 2023 --PlotIndex 2
@@ -24262,8 +24274,10 @@ VALUES ('Blessings of Strength',
 'http://htkb.info/SDE/2.0/Pet_Parade/Cards/Explore_Plots/Card_Explore_Plot_Blessings_of_Strength.png', 
 'http://htkb.info/SDE/2.0/Pet_Parade/Cards/Explore_Plots/Card_Explore_Plot_Back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Plots/Explore/Blessings_of_Strength.xhtml', 
-'Explore Plot', '2.0', '2.0 Pet Parade', 'Default', 'Have you ever seen a kobold pick up a rattlebone and use it as a club? I have. Clobbered me something fierce with it, too. I never would have thought it would be so effective, but those things have tough skulls.');
-insert into Plots (CardIndex, PowerUp, Plot) VALUES (2023, '', 
+'Plot Card', '2.0', '2.0 Pet Parade', 'Explore', 
+'Have you ever seen a kobold pick up a rattlebone and use it as a club? I have. Clobbered me something fierce with it, too. I never would have thought it would be so effective, but those things have tough skulls.');
+insert into Plots (CardIndex, PowerUp, Plot) VALUES (2023, 
+'', 
 'Spawn six Creeps using the normal rules for spawning.  While attacking, minion and elite monsters gain +1B to the offense roll for each Plot Creep adjacent to (or Invading) the target Hero, to a maximum of +3B. When the last Plot Creep is destroyed discard this plot and the Heroes draw one Loot.');
 
 --Brain Leeches	--CardIndex 2024 --PlotIndex 3
@@ -24272,7 +24286,8 @@ VALUES ('Brain Leeches',
 'http://htkb.info/SDE/2.0/Pet_Parade/Cards/Explore_Plots/Card_Explore_Plot_Brain_Leeches.png', 
 'http://htkb.info/SDE/2.0/Pet_Parade/Cards/Explore_Plots/Card_Explore_Plot_Back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Plots/Explore/Brain_Leeches.xhtml', 
-'Explore Plot', '2.0', '2.0 Pet Parade', 'Default', 'Fancy a new hat?');
+'Plot Card', '2.0', '2.0 Pet Parade', 'Explore', 
+'Fancy a new hat?');
 insert into Plots (CardIndex, PowerUp, Plot) VALUES (2024, 'Spawn four Skull Points of monsters.', 
 'Spawn one Creep adjacent to every dungeon exit in the dungeon.  Discard this plot when the last Plot Creep is destroyed; each Hero rolls 1G and draws one Treasure on a roll of HEARTPOTION.<br><br>When a Hero activates, if there is a Plot Creep Invading its card, the Hero must roll its WILL. If the Hero rolls four or fewer stars, destroy one Plot Creep that was Invading the Hero and the Consul controls the Hero for the duration of the activation. The Consul may not discard any equipment or drink potions during the activation.');
 
@@ -24282,8 +24297,10 @@ VALUES ('Call the Lightning',
 'http://htkb.info/SDE/2.0/Pet_Parade/Cards/Explore_Plots/Card_Explore_Plot_Call_the_Lightning.png', 
 'http://htkb.info/SDE/2.0/Pet_Parade/Cards/Explore_Plots/Card_Explore_Plot_Back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Plots/Explore/Call_the_Lightning.xhtml', 
-'Explore Plot', '2.0', '2.0 Pet Parade', 'Default', '');
-insert into Plots (CardIndex, PowerUp, Plot) VALUES (2025, '', 
+'Plot Card', '2.0', '2.0 Pet Parade', 'Explore', 
+'');
+insert into Plots (CardIndex, PowerUp, Plot) VALUES (2025, 
+'', 
 'The Consul places two crystal tokens in the last tile and one in the second tile. These tokens must not be placed within three squares of a tile edge. At the end of every Consul power-up phase, starting the turn this card was played, the Consul spawns one Creep adjacent to each crystal token. A Hero may remove one of these tokens by taking an interact action while sharing a space with the token. When the last token is discarded, discard this plot and the party draws one Treasure.<br><br>If there are ever three or more Plot Creeps adjacent to (or Invading) a Hero, both the Hero and all adjacent (or Invading) Plot Creeps are destroyed.');
 
 --Flood the Dungeon	--CardIndex 2026 --PlotIndex 5
@@ -24292,8 +24309,10 @@ VALUES ('Flood the Dungeon',
 'http://htkb.info/SDE/2.0/Pet_Parade/Cards/Explore_Plots/Card_Explore_Plot_Flood_the_Dungeon.png', 
 'http://htkb.info/SDE/2.0/Pet_Parade/Cards/Explore_Plots/Card_Explore_Plot_Back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Plots/Explore/Flood_the_Dungeon.xhtml', 
-'Explore Plot', '2.0', '2.0 Pet Parade', 'Default', 'Raid the dungeon they said. Be a hero they said. Nobody tells you how hard it is to carry a backpack full of loot through waist-high water.');
-insert into Plots (CardIndex, PowerUp, Plot) VALUES (2026, 'Spawn two Skull Points of monsters.', 
+'Plot Card', '2.0', '2.0 Pet Parade', 'Explore', 
+'Raid the dungeon they said. Be a hero they said. Nobody tells you how hard it is to carry a backpack full of loot through waist-high water.');
+insert into Plots (CardIndex, PowerUp, Plot) VALUES (2026, 
+'Spawn two Skull Points of monsters.', 
 'Spawn six Creeps within three squares of the SPAWNLOCATION square on the second tile.  Discard this plot when there are no Plot Creeps in play.  If the last Plot Creep to be destroyed is destroyed by a Hero, the party draws two Loot.<br><br>Whenever a Plot Creep moves onto the Start token, destroy the Creep and all Heroes suffer two wounds.');
 
 --Highway Robbery	--CardIndex 2027 --PlotIndex 6
@@ -24302,8 +24321,10 @@ VALUES ('Highway Robbery',
 'http://htkb.info/SDE/2.0/Pet_Parade/Cards/Explore_Plots/Card_Explore_Plot_Highway_Robbery.png', 
 'http://htkb.info/SDE/2.0/Pet_Parade/Cards/Explore_Plots/Card_Explore_Plot_Back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Plots/Explore/Highway_Robbery.xhtml', 
-'Explore Plot', '2.0', '2.0 Pet Parade', 'Default', 'Those cute little squid things took our loot!');
-insert into Plots (CardIndex, PowerUp, Plot) VALUES (2027, 'Spawn three Skull Points of monsters.', 
+'Plot Card', '2.0', '2.0 Pet Parade', 'Explore', 
+'Those cute little squid things took our loot!');
+insert into Plots (CardIndex, PowerUp, Plot) VALUES (2027, 
+'Spawn three Skull Points of monsters.', 
 'The Consul selects up to one equipment card from each Hero and places it in the backpack. Spawn six Creeps. Each Creep must be spawned within three squares of a Hero. When the last Plot Creep is destroyed, discard this plot.<br><br>Whenever a Hero destroys a Plot Creep, the Hero may equip one card from the backpack. Heroes may not equip cards from the backpack by any other means while this plot remains in play.');
 
 --Immortality Potion	--CardIndex 2028 --PlotIndex 7
@@ -24312,8 +24333,10 @@ VALUES ('Immortality Potion',
 'http://htkb.info/SDE/2.0/Pet_Parade/Cards/Explore_Plots/Card_Explore_Plot_Immortality_Potion.png', 
 'http://htkb.info/SDE/2.0/Pet_Parade/Cards/Explore_Plots/Card_Explore_Plot_Back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Plots/Explore/Immortality_Potion.xhtml', 
-'Explore Plot', '2.0', '2.0 Pet Parade', 'Default', 'Every time I take a shot, a rabid squirrel dives in front of the arrow!');
-insert into Plots (CardIndex, PowerUp, Plot) VALUES (2028, 'Spawn two Skull Points of monsters.<br><br>Spawn mini-boss.', 
+'Plot Card', '2.0', '2.0 Pet Parade', 'Explore', 
+'Every time I take a shot, a rabid squirrel dives in front of the arrow!');
+insert into Plots (CardIndex, PowerUp, Plot) VALUES (2028, 
+'Spawn two Skull Points of monsters.<br><br>Spawn mini-boss.', 
 'Spawn four Creeps on the same tile as the mini-boss, anywhere on the tile. When the mini-boss suffers wounds, it may select a Plot Creep in its line of sight to suffer the wounds instead. When the mini-boss is destroyed, discard this plot and the party draws two additional Treasures for destroying the mini-boss (they may still only choose one Treasure, discarding the rest).');
 
 --Life for Life	--CardIndex 2029 --PlotIndex 8
@@ -24322,8 +24345,10 @@ VALUES ('Life for Life',
 'http://htkb.info/SDE/2.0/Pet_Parade/Cards/Explore_Plots/Card_Explore_Plot_Life_for_Life.png', 
 'http://htkb.info/SDE/2.0/Pet_Parade/Cards/Explore_Plots/Card_Explore_Plot_Back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Plots/Explore/Life_for_Life.xhtml', 
-'Explore Plot', '2.0', '2.0 Pet Parade', 'Default', 'All the forge gnomes are chanting. And glowing. That seems...bad.');
-insert into Plots (CardIndex, PowerUp, Plot) VALUES (2029, 'Spawn three Skull Points of monsters.', 
+'Plot Card', '2.0', '2.0 Pet Parade', 'Explore', 
+'All the forge gnomes are chanting. And glowing. That seems...bad.');
+insert into Plots (CardIndex, PowerUp, Plot) VALUES (2029, 
+'Spawn three Skull Points of monsters.', 
 'The Consul places two crystal tokens in the last tile and one in the second tile. These tokens must not be placed within three squares of a tile edge. At the end of every Consul power-up phase, starting the turn this card was played, the Consul spawns one Creep adjacent to each crystal token. A Hero may remove one of these tokens by taking an interact action while sharing a space with the token. When the last token is discarded, discard this plot and the party draws three Loot.<br><br>If there are ever eight or more Plot Creeps in play, destroy all Plot Creeps and the party discards one unspent Princess Coin, if able.');
 
 --Obscenity Against the Goddess	--CardIndex 2030 --PlotIndex 9
@@ -24332,8 +24357,10 @@ VALUES ('Obscenity Against the Goddess',
 'http://htkb.info/SDE/2.0/Pet_Parade/Cards/Explore_Plots/Card_Explore_Plot_Obscenity_Against_the_Goddess.png', 
 'http://htkb.info/SDE/2.0/Pet_Parade/Cards/Explore_Plots/Card_Explore_Plot_Back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Plots/Explore/Obscenity_Against_the_Goddess.xhtml', 
-'Explore Plot', '2.0', '2.0 Pet Parade', 'Default', '');
-insert into Plots (CardIndex, PowerUp, Plot) VALUES (2030, '', 
+'Plot Card', '2.0', '2.0 Pet Parade', 'Explore', 
+'');
+insert into Plots (CardIndex, PowerUp, Plot) VALUES (2030, 
+'', 
 'Spawn a number of Creeps equal to the number of the party''s unspent Princess Coins, minus one. These Creeps are spawned within three squares of the SPAWNLOCATION square on the second tile.  Place one of the party''s unspent Princess Coins beside each Plot Creep; these coins move with the Creep and may not be used until the party regains them. When a Plot Creep is destoyed or leaves the board, place its coin on the space it had occupied.<br><br>A Hero occupying the same space as a coin may take an interact action to place the coin back in the party''s backpack. A dungeon boss or mini-boss occupying the same space as a coin may take an interact action to discard it from play. Discard this plot when no Princess Coins remain on the board; the Party draws one Treasure and one Loot.');
 
 --Path of Champions	--CardIndex 2031 --PlotIndex 10
@@ -24342,8 +24369,10 @@ VALUES ('Path of Champions',
 'http://htkb.info/SDE/2.0/Pet_Parade/Cards/Explore_Plots/Card_Explore_Plot_Path_of_Champions.png', 
 'http://htkb.info/SDE/2.0/Pet_Parade/Cards/Explore_Plots/Card_Explore_Plot_Back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Plots/Explore/Path_of_Champions.xhtml', 
-'Explore Plot', '2.0', '2.0 Pet Parade', 'Default', 'Are..are those Yowlings cheering him on?');
-insert into Plots (CardIndex, PowerUp, Plot) VALUES (2031, 'Spawn two Skull Points of monsters.<br><br>Spawn mini-boss.', 
+'Plot Card', '2.0', '2.0 Pet Parade', 'Explore', 
+'Are..are those Yowlings cheering him on?');
+insert into Plots (CardIndex, PowerUp, Plot) VALUES (2031, 
+'Spawn two Skull Points of monsters.<br><br>Spawn mini-boss.', 
 'Spawn four Creeps on the same tile as the mini-boss, anywhere on the tile.  When making an offensive roll, the mini-boss gains +1B to its roll for every Plot Creep in its line of sight, to a maximum of +3B. When the last Plot Creep is destroyed, discard this plot and the Heroes draw one loot.');
 
 --Servants of the Consul	--CardIndex 2032 --PlotIndex 11
@@ -24352,18 +24381,22 @@ VALUES ('Servants of the Consul',
 'http://htkb.info/SDE/2.0/Pet_Parade/Cards/Explore_Plots/Card_Explore_Plot_Servants_of_the_Consul.png', 
 'http://htkb.info/SDE/2.0/Pet_Parade/Cards/Explore_Plots/Card_Explore_Plot_Back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Plots/Explore/Servants_of_the_Consul.xhtml', 
-'Explore Plot', '2.0', '2.0 Pet Parade', 'Default', 'I don''t know where the rabid squirrels came from. I just know they kept coming, and coming...');
-insert into Plots (CardIndex, PowerUp, Plot) VALUES (2032, '', 
+'Plot Card', '2.0', '2.0 Pet Parade', 'Explore', 
+'I don''t know where the rabid squirrels came from. I just know they kept coming, and coming...');
+insert into Plots (CardIndex, PowerUp, Plot) VALUES (2032, 
+'', 
 'The Consul places two crystal tokens in the last tile. These tokens must not be placed within two squares of a tile edge or another crystal token. At the end of every Consul power-up phase, starting the turn this card was played, the Consul spawns one Creep adjacent to each crystal token. A Hero may remove one of these tokens by taking an interact action while sharing a space with the token. When the token is discarded the Heroes draw one Treasure.');
 
 --Spies in Every Corner	--CardIndex 2033 --PlotIndex 12
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
 VALUES ('Spies in Every Corner',
-'http://htkb.info/SDE/2.0/Pet_Parade/Cards/Explore_Plots/Card_Explore_Plot_Spies in Every Corner.png', 
+'http://htkb.info/SDE/2.0/Cards/Explore_Plot/Card_Explore_Plot_Spies_In_Every_Corner.png', 
 'http://htkb.info/SDE/2.0/Pet_Parade/Cards/Explore_Plots/Card_Explore_Plot_Back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Plots/Explore/Spies_in_Every_Corner.xhtml', 
-'Explore Plot', '2.0', '2.0 Pet Parade', 'Default', 'I could swear that little nether imp was pointing and laughing at us while we were running from Starfire''s conflagration...');
-insert into Plots (CardIndex, PowerUp, Plot) VALUES (2033, 'Spawn two Skull Points of monsters.', 
+'Plot Card', '2.0', '2.0 Pet Parade', 'Explore', 
+'I could swear that little nether imp was pointing and laughing at us while we were running from Starfire''s conflagration...');
+insert into Plots (CardIndex, PowerUp, Plot) VALUES (2033, 
+'Spawn two Skull Points of monsters.', 
 'Spawn two Creeps in each tile. These Creeps may spawn anywhere in the tile. Starting the turn after this card is played, at the start of the Consul''s power-up phase, there is a Boss Sighting in every tile where at least one Plot Creep remains. Discard this plot when the last Plot Creep is destroyed and each Hero rolls 1R and draws one Loot on a roll of POTION.');
 
 --Terrible Protection	--CardIndex 2034 --PlotIndex 13
@@ -24372,8 +24405,10 @@ VALUES ('Terrible Protection',
 'http://htkb.info/SDE/2.0/Pet_Parade/Cards/Explore_Plots/Card_Explore_Plot_Terrible_Protection.png', 
 'http://htkb.info/SDE/2.0/Pet_Parade/Cards/Explore_Plots/Card_Explore_Plot_Back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Plots/Explore/Terrible_Protection.xhtml', 
-'Explore Plot', '2.0', '2.0 Pet Parade', 'Default', 'Slimes are bad enough when they get on your gear. But there are plenty of monsters out there that are cunning enough to use them as a living shield.');
-insert into Plots (CardIndex, PowerUp, Plot) VALUES (2034, '', 
+'Plot Card', '2.0', '2.0 Pet Parade', 'Explore', 
+'Slimes are bad enough when they get on your gear. But there are plenty of monsters out there that are cunning enough to use them as a living shield.');
+insert into Plots (CardIndex, PowerUp, Plot) VALUES (2034, 
+'', 
 'Spawn six Creeps using the normal rules for spawning. After a Hero makes an offense roll against a minion or elite monster, the Consul may choose one of the rolled dice for each Plot Creep adajacent to (or Invading) the Hero. The chosen die is considered to be blank. When the last Plot Creep is destroyed discard the plot and the Heroes draw one Loot.');
 
 --Untouchable Tower, The	--CardIndex 2035 --PlotIndex 14
@@ -24382,8 +24417,10 @@ VALUES ('Untouchable Tower, The',
 'http://htkb.info/SDE/2.0/Pet_Parade/Cards/Explore_Plots/Card_Explore_Plot_Untouchable_Tower_The.png', 
 'http://htkb.info/SDE/2.0/Pet_Parade/Cards/Explore_Plots/Card_Explore_Plot_Back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Plots/Explore/Untouchable_Tower_The.xhtml', 
-'Explore Plot', '2.0', '2.0 Pet Parade', 'Default', 'I would destroy that spawning point, but there are slimes crawling all over it. Did you see what those things did to my favorite axe?');
-insert into Plots (CardIndex, PowerUp, Plot) VALUES (2035, 'Spawn two Skull Points of monsters.', 
+'Plot Card', '2.0', '2.0 Pet Parade', 'Explore', 
+'I would destroy that spawning point, but there are slimes crawling all over it. Did you see what those things did to my favorite axe?');
+insert into Plots (CardIndex, PowerUp, Plot) VALUES (2035, 
+'Spawn two Skull Points of monsters.', 
 'Spawn six Creeps anywhere in the last tile.  Discard this plot when the last Plot Creep is destroyed and each Hero rolls 1R and draws one Loot on a roll of POTION.<br><br>Spawning Points that have at least one Plot Creep within three squares and line of sight may not suffer wounds.');
 
 
@@ -26091,7 +26128,7 @@ VALUES ('Bounty',
 'http://htkb.info/SDE/2.0/Cards/Difficulty/Card_DIfficulty_Easy_Mode_Bounty_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Difficulty/Card_DIfficulty_Easy_Mode_Back_2.0.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Difficulty/Bounty.xhtml', 
-'Difficulty', '2.0', '2.0 Core Set', 'Default', 'You''re saying that if we raid the Midnight Tower, seat of the Dark Consul''s power in this world, we get to keep all the loot we find there AND we get free cookies for life when we come back?<br><br>We''d better hurry before some other heroes beat us to it!');
+'Difficulty Card', '2.0', '2.0 Core Set', 'Default', 'You''re saying that if we raid the Midnight Tower, seat of the Dark Consul''s power in this world, we get to keep all the loot we find there AND we get free cookies for life when we come back?<br><br>We''d better hurry before some other heroes beat us to it!');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (2210, 'During the Heroes'' power-up, they draw one treasure for each Elite destroyed that had three or more hearts, instead of one loot.');
 
 --Coin on a String	--CardIndex 2211 --DifficultyIndex 1
@@ -26100,7 +26137,7 @@ VALUES ('Coin on a String',
 'http://htkb.info/SDE/2.0/Cards/Difficulty/Card_DIfficulty_Easy_Mode_Coin_on_a_String_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Difficulty/Card_DIfficulty_Easy_Mode_Back_2.0.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Difficulty/Coin_on_a_String.xhtml', 
-'Difficulty', '2.0', '2.0 Core Set', 'Default', 'So, we have sacred Princess Coins, relics of the Goddess herself and... you put one on a string to get more uses out of it?<br><br>I love it!');
+'Difficulty Card', '2.0', '2.0 Core Set', 'Default', 'So, we have sacred Princess Coins, relics of the Goddess herself and... you put one on a string to get more uses out of it?<br><br>I love it!');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (2211, 'Once per turn, during power-up, the party may discard four loot cards from the backpack to gain a Princess Coin.');
 
 --Come Prepared	--CardIndex 2212 --DifficultyIndex 2
@@ -26109,7 +26146,7 @@ VALUES ('Come Prepared',
 'http://htkb.info/SDE/2.0/Cards/Difficulty/Card_DIfficulty_Easy_Mode_Come_Prepared_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Difficulty/Card_DIfficulty_Easy_Mode_Back_2.0.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Difficulty/Come_Prepared.xhtml', 
-'Difficulty', '2.0', '2.0 Core Set', 'Default', 'Fifty feet of rope?<br><br>Check.<br><br>Grappling hook?<br><br>Check.<br><br>Extra candy?<br><br>Check.<br><br>Bear traps?<br><br>Check.');
+'Difficulty Card', '2.0', '2.0 Core Set', 'Default', 'Fifty feet of rope?<br><br>Check.<br><br>Grappling hook?<br><br>Check.<br><br>Extra candy?<br><br>Check.<br><br>Bear traps?<br><br>Check.');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (2212, 'At the start of the game, draw a number of loot cards equal to the twice the number of Heroes. Each Hero may immediately choose and equip one of these loot cards, discard the rest.');
 
 --Deluxe Glitter Bomb	--CardIndex 2213 --DifficultyIndex 3
@@ -26118,7 +26155,7 @@ VALUES ('Deluxe Glitter Bomb',
 'http://htkb.info/SDE/2.0/Cards/Difficulty/Card_DIfficulty_Easy_Mode_Deluxe_Glitter_Bomb_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Difficulty/Card_DIfficulty_Easy_Mode_Back_2.0.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Difficulty/Deluxe_Glitter_Bomb.xhtml', 
-'Difficulty', '2.0', '2.0 Core Set', 'Default', 'This is a major improvement over your standard glitter bomb. The radius is doubled, with an exponentially higher glitter load delivered to your target area. The glitter itself is specially designed to cling to clothing, scales, shields - really anything you may face - for up to a month.<br><br>Yessir, if you have enemies, they may as well be sparkly and highly irritated.');
+'Difficulty Card', '2.0', '2.0 Core Set', 'Default', 'This is a major improvement over your standard glitter bomb. The radius is doubled, with an exponentially higher glitter load delivered to your target area. The glitter itself is specially designed to cling to clothing, scales, shields - really anything you may face - for up to a month.<br><br>Yessir, if you have enemies, they may as well be sparkly and highly irritated.');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (2213, 'Keep this card. Once per game, the party may discard this card at the start of the Consul Turn. The Consul ignores all commands this turn that do not spawn monsters.');
 
 --Know Your Enemy	--CardIndex 2214 --DifficultyIndex 4
@@ -26127,7 +26164,7 @@ VALUES ('Know Your Enemy',
 'http://htkb.info/SDE/2.0/Cards/Difficulty/Card_DIfficulty_Easy_Mode_Know_Your_Enemy_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Difficulty/Card_DIfficulty_Easy_Mode_Back_2.0.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Difficulty/Know_Your_Enemy.xhtml', 
-'Difficulty', '2.0', '2.0 Core Set', 'Default', 'The Nether Elves store their snacks in the second level of the tower, we strike there first.<br><br>Let us see how they fight without tasty treats or delicious soda!');
+'Difficulty Card', '2.0', '2.0 Core Set', 'Default', 'The Nether Elves store their snacks in the second level of the tower, we strike there first.<br><br>Let us see how they fight without tasty treats or delicious soda!');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (2214, 'Do not draw a plot card when the first spawning point is destroyed; only draw a plot when directed to by the Mighty Monster Chart.<br><br>If the plot requires placing crystal tokens, after every crystal token is placed, the party may move each crystal token up to four squares.');
 
 --Potion of Luck	--CardIndex 2215 --DifficultyIndex 5
@@ -26136,7 +26173,7 @@ VALUES ('Potion of Luck',
 'http://htkb.info/SDE/2.0/Cards/Difficulty/Card_DIfficulty_Easy_Mode_Potion_of_Luck_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Difficulty/Card_DIfficulty_Easy_Mode_Back_2.0.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Difficulty/Potion_of_Luck.xhtml', 
-'Difficulty', '2.0', '2.0 Core Set', 'Default', 'Well, I mean, it helped me win all the games of pinochle last night! Surely it will also help us brave the Midnight Tower. And that wandering merchant who sold it to me gave me her guarantee. Her guarantee!<br><br>If you can''t trust a nameless wandering merchant, who can you trust?');
+'Difficulty Card', '2.0', '2.0 Core Set', 'Default', 'Well, I mean, it helped me win all the games of pinochle last night! Surely it will also help us brave the Midnight Tower. And that wandering merchant who sold it to me gave me her guarantee. Her guarantee!<br><br>If you can''t trust a nameless wandering merchant, who can you trust?');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (2215, 'After the party draws a challenge card, any Hero may discard a potion token to discard the challenge card before it has any effect and draw a new challenge card.');
 
 --Consul's Right Hand, The	--CardIndex 2216 --DifficultyIndex 6
@@ -26145,7 +26182,7 @@ VALUES ('Consul''s Right Hand, The',
 'http://htkb.info/SDE/2.0/Cards/Difficulty/Card_DIfficulty_Hard_Mode_Consuls_Right_Hand_The_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Difficulty/Card_DIfficulty_Hard_Mode_Back_2.0.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Difficulty/Consuls_Right_Hand_The.xhtml', 
-'Difficulty', '2.0', '2.0 Core Set', 'Default', 'So, the guy twirling on horseback with two swords wasn''t even the real henchman? We have to fight another one? At least this one seems like less of a show off. He''s just standing there in the doorway, glaring ominiously and beckoning us forward. It''s the little touches.');
+'Difficulty Card', '2.0', '2.0 Core Set', 'Default', 'So, the guy twirling on horseback with two swords wasn''t even the real henchman? We have to fight another one? At least this one seems like less of a show off. He''s just standing there in the doorway, glaring ominiously and beckoning us forward. It''s the little touches.');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (2216, 'Select an additional mini-boss. At the start of the Consul''s turn 8, spawn the selected mini-boss.<br><br>If your collection contains only one mini-boss, discard this card and draw again.');
 
 --Excessive Traps	--CardIndex 2217 --DifficultyIndex 7
@@ -26154,7 +26191,7 @@ VALUES ('Excessive Traps',
 'http://htkb.info/SDE/2.0/Cards/Difficulty/Card_DIfficulty_Hard_Mode_Excessive_Traps_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Difficulty/Card_DIfficulty_Hard_Mode_Back_2.0.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Difficulty/Excessive_Traps.xhtml', 
-'Difficulty', '2.0', '2.0 Core Set', 'Default', 'I get trapping us in a pit. I even get filling the pit with scorpions. But slowly filling it with water just seems excessive, and cruel to the scorpions.');
+'Difficulty Card', '2.0', '2.0 Core Set', 'Default', 'I get trapping us in a pit. I even get filling the pit with scorpions. But slowly filling it with water just seems excessive, and cruel to the scorpions.');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (2217, 'Starting on turn 5, during the power-up of every Consul Turn, draw a challenge card and immediately resolve its trap effect if it has one, then discard it with no further effect. Discard this Hard Mode card when the dungeon boss spawns; it has no further effect.');
 
 --Gifted Apprentice, A	--CardIndex 2218 --DifficultyIndex 8
@@ -26163,7 +26200,7 @@ VALUES ('Gifted Apprentice, A',
 'http://htkb.info/SDE/2.0/Cards/Difficulty/Card_DIfficulty_Hard_Mode_Gifted_Apprentice_A_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Difficulty/Card_DIfficulty_Hard_Mode_Back_2.0.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Difficulty/Gifted_Apprentice_A.xhtml', 
-'Difficulty', '2.0', '2.0 Core Set', 'Default', 'That knight is wielding two swords, while riding a horse! Wait...did he just leap into the air, twirl the blades around, and then land in the saddle? Oh! Now he''s pointing! What''s the next trick?<br><br>...he''s pointing at us. And he''s riding this way...<br><br>Run away!');
+'Difficulty Card', '2.0', '2.0 Core Set', 'Default', 'That knight is wielding two swords, while riding a horse! Wait...did he just leap into the air, twirl the blades around, and then land in the saddle? Oh! Now he''s pointing! What''s the next trick?<br><br>...he''s pointing at us. And he''s riding this way...<br><br>Run away!');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (2218, 'All mini bosses gain the following bonuses:<br><br>+1ST ARM +1AC');
 
 --Plots Within Plots	--CardIndex 2219 --DifficultyIndex 9
@@ -26172,7 +26209,7 @@ VALUES ('Plots Within Plots',
 'http://htkb.info/SDE/2.0/Cards/Difficulty/Card_DIfficulty_Hard_Mode_Plots_Within_Plots_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Difficulty/Card_DIfficulty_Hard_Mode_Back_2.0.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Difficulty/Plots_Within_Plots.xhtml', 
-'Difficulty', '2.0', '2.0 Core Set', 'Default', 'The kidnapped prince is really the bad guy? But not completely bad, he was just pretending to be bad so he could pretend to kidnap himself and get into the tower? Which he is doing to avenge his father, only to find out he was adopted? I just came here for loot.');
+'Difficulty Card', '2.0', '2.0 Core Set', 'Default', 'The kidnapped prince is really the bad guy? But not completely bad, he was just pretending to be bad so he could pretend to kidnap himself and get into the tower? Which he is doing to avenge his father, only to find out he was adopted? I just came here for loot.');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (2219, 'Draw a plot card during the Consul''s power-up on turn 8. You may have more than one plot card in play at once. If both plot cards make use of crystal tokens, use another distinct token (such as a Fire token) to mark the crystal tokens associated with the second plot. Crystal tokens from the first plot will not affect the second plot, and vice versa.');
 
 --Rising Darkness, The	--CardIndex 2220 --DifficultyIndex 10
@@ -26181,7 +26218,7 @@ VALUES ('Rising Darkness, The',
 'http://htkb.info/SDE/2.0/Cards/Difficulty/Card_DIfficulty_Hard_Mode_Rising_Darkness_The_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Difficulty/Card_DIfficulty_Hard_Mode_Back_2.0.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Difficulty/Rising_Darkness_The.xhtml', 
-'Difficulty', '2.0', '2.0 Core Set', 'Default', 'How was I to know the Midnight Queen would be more powerful at the stroke of midnight on a moonless night in the heart of her throne room? Could we have planned better? Yes. Nobody is denying that, but at least I remembered the fifty feet of rope.');
+'Difficulty Card', '2.0', '2.0 Core Set', 'Default', 'How was I to know the Midnight Queen would be more powerful at the stroke of midnight on a moonless night in the heart of her throne room? Could we have planned better? Yes. Nobody is denying that, but at least I remembered the fifty feet of rope.');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (2220, 'The dungeon boss gains the following bonuses:<br><br>+1ST STR +1AC');
 
 --They Knew We Were Coming...	--CardIndex 2221 --DifficultyIndex 11
@@ -26190,7 +26227,7 @@ VALUES ('They Knew We Were Coming...',
 'http://htkb.info/SDE/2.0/Cards/Difficulty/Card_DIfficulty_Hard_Mode_They_Knew_We_Were_Coming_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Difficulty/Card_DIfficulty_Hard_Mode_Back_2.0.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Difficulty/They_Knew_We_Were_Coming.xhtml', 
-'Difficulty', '2.0', '2.0 Core Set', 'Default', 'There are a lot of bonuses to having a bard in the party. Music can lift the spirits of weary adventurers and bards are highly knowledgeable about local lore. But a full musical ballad upon entering a dungeon may not have been the best idea...');
+'Difficulty Card', '2.0', '2.0 Core Set', 'Default', 'There are a lot of bonuses to having a bard in the party. Music can lift the spirits of weary adventurers and bards are highly knowledgeable about local lore. But a full musical ballad upon entering a dungeon may not have been the best idea...');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (2221, 'The spawning points on the first and second tiles spawn at the start of the game, instead of just the spawning point on the first tile. If the spawning points on the first and second tile are both paired, spawn from the spawning point on the third tile instead.');
 
 --SDE

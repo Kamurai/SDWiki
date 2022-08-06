@@ -2,7 +2,7 @@
 --1.0 Custom
 --Heroes
 
---Apple Jack --Card Index 2274	--CharacterIndex 1137 --Explore Character Index 798
+--Apple Jack --Card Index 2289	--CharacterIndex 1137 --Explore Character Index 798
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 'Apple Jack', 
 'http://htkb.info/SDE/1.0/Custom/Cards/Heroes/Card_Hero_Apple_Jack_1.0_Custom.png', 
@@ -25,6 +25,6 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (0, 2); --Armor
 insert into CustomCards (CardIndex, Author, SourceURL) VALUES(
 2274,
-'Pony Group',
-''
+'Damien Stanley, @Gubbinz',
+'https://boardgamegeek.com/thread/1191087/sde-mlp-custom-heronies'
 );
