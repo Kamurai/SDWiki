@@ -2,4 +2,4 @@
 --1.0 Custom
 --Booty
 
---Name --Card Index cXXX  --Explore Character Index --eXXX
+--Name --Card Index cXXX  --ExploreCharacterIndex --eXXX
