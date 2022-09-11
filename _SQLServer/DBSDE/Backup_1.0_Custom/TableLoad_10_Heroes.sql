@@ -516,27 +516,24 @@ insert into CustomCards (CardIndex, Author, SourceURL) VALUES(
 
 --Rammus --Card Index 2306	--CharacterIndex 1155 --ExploreCharacterIndex 816
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
-'Rainbow Dash', 
-'http://htkb.info/SDE/1.0/Custom/Cards/Heroes/Card_Hero_Rainbow_Dash_1.0_Custom.png', 
-'http://htkb.info/SDE/1.0/Custom/Cards/Heroes/Card_Hero_Rainbow_Dash_1.0_Custom_back.png', 
-'http://htkb.online/SDWiki/SDE/1.0/Custom/Cards/Heroes/Rainbow_Dash.xhtml', 
+'Rammus', 
+'http://htkb.info/SDE/1.0/Custom/Cards/Heroes/Card_Hero_Rammus_1.0_Custom.png', 
+'http://htkb.info/SDE/1.0/Custom/Cards/Heroes/Card_Hero_Rammus_1.0_Custom_back.png', 
+'http://htkb.online/SDWiki/SDE/1.0/Custom/Cards/Heroes/Rammus.xhtml', 
 'Hero', '1.0 Custom', '1.0 Custom Set', 'Default', 
-'Rainbow Dash is responsible for maintaining the weather and clearing the skies in Ponyville.  As a huge fan of the Wonderbolts, she dreams of one day joining their group.');
-insert into Characters (CardIndex) VALUES (2305);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (815, 36); --Fly
-
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (815, 2238); --Double Dash
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (815, 2239); --Sonic Rainbow
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (815, 2240); --Twenty Percent Cooler
-
+'');
+insert into Characters (CardIndex) VALUES (2306);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (816, 36); --Tank
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (816, 57); --Immune: Knockdown
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (816, 2238); --Defensive Ball Curl
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (816, 2239); --Puncturing Taunt
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Attack, Armor, Will, Dexterity, Health, Potions) VALUES (
-1154, 
-'http://htkb.info/Common/Standies/My_Little_Pony/Rainbow_Dash.png', 
-'http://htkb.info/Common/Standies/My_Little_Pony/Rainbow_Dash_back.png', 
-'Feminine', 'Small', '', 8, 3, '2B', '2B', '1R', '1B 1R', 5, 1);
-insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (815, 0, 1); --Attack
-insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (815, 2); --Armor
-
+1155, 
+'http://htkb.info/Common/Standies/LOL/Rammus.png', 
+'http://htkb.info/Common/Standies/LOL/Rammus_back.png', 
+'Either', 'Large', 'Armordillo', 6, 3, '1R', '3B', '1B 1R', '1B', 5, 1);
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (816, 0, 1); --Attack
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (816, 2); --Armor
 insert into CustomCards (CardIndex, Author, SourceURL) VALUES(
 2307,
 '@cincydooley',
@@ -544,7 +541,26 @@ insert into CustomCards (CardIndex, Author, SourceURL) VALUES(
 );
 
 --Rarity --Card Index 2307	--CharacterIndex 1156 --ExploreCharacterIndex 817
-
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+'Rarity', 
+'http://htkb.info/SDE/1.0/Custom/Cards/Heroes/Card_Hero_Rarity_1.0_Custom.png', 
+'http://htkb.info/SDE/1.0/Custom/Cards/Heroes/Card_Hero_Rarity_1.0_Custom_back.png', 
+'http://htkb.online/SDWiki/SDE/1.0/Custom/Cards/Heroes/Rarity.xhtml', 
+'Hero', '1.0 Custom', '1.0 Custom Set', 'Default', 
+'Rarity is the older sister of Sweetie Belle and the love interest of Spike.  Rarity works as both a fashion designer and as a seamstress at her own shop in Ponyville, the Carousel Boutique.');
+insert into Characters (CardIndex) VALUES (2307);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (817, 79); --Magic 8
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (817, 2238); --Rought Cut
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (817, 2239); --Crystalize
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (817, 2239); --Shatter
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (817, 2239); --Crystal Armour
+insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Attack, Armor, Will, Dexterity, Health, Potions) VALUES (
+1156, 
+'http://htkb.info/Common/Standies/My_Little_Pony/Rarity.png', 
+'http://htkb.info/Common/Standies/My_Little_Pony/Rarity_back.png', 
+'Feminine', 'Small', '', 8, 3, '2B', '2B', '2R', '2B', 6, 1);
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (817, 0, 1); --Attack
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (817, 2); --Armor
 insert into CustomCards (CardIndex, Author, SourceURL) VALUES(
 2307,
 'Damien Stanley, @Gubbinz',
@@ -552,23 +568,80 @@ insert into CustomCards (CardIndex, Author, SourceURL) VALUES(
 );
 
 --Royal Fencer (v1) --Card Index 2308	--CharacterIndex 1157 --ExploreCharacterIndex 818
-
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+'Royal Fencer (v1)', 
+'http://htkb.info/SDE/1.0/Custom/Cards/Heroes/Card_Hero_Royal_Fencer_v1_1.0_Custom.png', 
+'http://htkb.info/SDE/1.0/Custom/Cards/Heroes/Card_Hero_Royal_Fencer_v1_1.0_Custom_back.png', 
+'http://htkb.online/SDWiki/SDE/1.0/Custom/Cards/Heroes/Royal_Fencer.xhtml', 
+'Hero', '1.0 Custom', '1.0 Custom Set', 'Default', 
+'');
+insert into Characters (CardIndex) VALUES (2308);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (818, 26); --Dangerous
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (818, 71); --Lance 2
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (818, 2250); --Disarm
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (818, 2251); --Lunge
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (818, 2252); --Hero's Sacrifice
+insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Attack, Armor, Will, Dexterity, Health, Potions) VALUES (
+1157, 
+'http://htkb.info/Common/Standies/Fate/Saber_Chibi.png', 
+'http://htkb.info/Common/Standies/Fate/Saber_Chibi_back.png', 
+'Feminine', 'Small', 'Human', 6, 3, '3B', '1B 1R', '1B 1R', '2B', 5, 1);
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (818, 0, 1); --Attack
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (818, 2); --Armor
 insert into CustomCards (CardIndex, Author, SourceURL) VALUES(
-2312,
+2308,
 'TBD',
 'https://www.pinterest.com/pin/423971752430359236/'
 );
 
 --Royal Fencer (v2) --Card Index 2309	--CharacterIndex 1158 --ExploreCharacterIndex 819
-
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+'Royal Fencer (v2)', 
+'http://htkb.info/SDE/1.0/Custom/Cards/Heroes/Card_Hero_Royal_Fencer_v2_1.0_Custom.png', 
+'http://htkb.info/SDE/1.0/Custom/Cards/Heroes/Card_Hero_Royal_Fencer_v2_1.0_Custom_back.png', 
+'http://htkb.online/SDWiki/SDE/1.0/Custom/Cards/Heroes/Royal_Fencer.xhtml', 
+'Hero', '1.0 Custom', '1.0 Custom Set', 'Default', 
+'');
+insert into Characters (CardIndex) VALUES (2309);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (819, 26); --Dangerous
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (819, 71); --Lance 2
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (819, 2250); --Disarm
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (819, 2251); --Lunge
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (819, 2252); --Hero's Sacrifice
+insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Attack, Armor, Will, Dexterity, Health, Potions) VALUES (
+1158, 
+'http://htkb.info/Common/Standies/Fate/Saber_Chibi.png', 
+'http://htkb.info/Common/Standies/Fate/Saber_Chibi_back.png', 
+'Feminine', 'Small', 'Human', 6, 3, '3B', '1B 1R', '1B 1R', '2B', 5, 1);
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (819, 0, 1); --Attack
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (819, 2); --Armor
 insert into CustomCards (CardIndex, Author, SourceURL) VALUES(
-2312,
+2309,
 'TBD',
 'https://www.pinterest.com/pin/423971752430359238/'
 );
 
 --Royal Paladin --Card Index 2310	--CharacterIndex 1159 --ExploreCharacterIndex 820
-
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+'Royal Paladin', 
+'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Hero_Royal_Paladin_1.0.png', 
+'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Hero_Royal_Paladin_1.0_back.png', 
+'http://htkb.online/SDWiki/SDE/1.0/Cards/Heroes/Royal_Paladin.xhtml', 
+'Hero', '1.0', '1.0 Core Set', 'Default',   
+'From the high citadels, the worshippers of light are champions against the spreading darkness.  Powerful warriors and healers, the Paladins have been at the front of the great confrontation with the Consul.');
+insert into Characters (CardIndex) VALUES (2310);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (820, 41); --Healer
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (820, 43); --Holy
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (820, 70); --Iron Halo
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (820, 117); --Smite
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (820, 41); --Elixir
+insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
+1159,
+'http://htkb.info/Common/Standies/Fate/Saber_Chibi.png', 
+'http://htkb.info/Common/Standies/Fate/Saber_Chibi_back.png', 
+'Feminine', 'Small', 'Human', 6, 3, '3B', '1B1R', '1B1R', '2B', 5, 1);
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (820, 0, 1); --Attack
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (820, 2); --Armor
 insert into CustomCards (CardIndex, Author, SourceURL) VALUES(
 2310,
 '@EY',
@@ -576,15 +649,53 @@ insert into CustomCards (CardIndex, Author, SourceURL) VALUES(
 );
 
 --Sirdan --Card Index 2311	--CharacterIndex 1160 --ExploreCharacterIndex 821
-
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+'Sirdan', 
+'http://htkb.info/SDE/1.0/Custom/Cards/Heroes/Card_Hero_Sirdan_1.0_Custom.png', 
+'http://htkb.info/SDE/1.0/Custom/Cards/Heroes/Card_Hero_Sirdan_1.0_Custom_back.png', 
+'http://htkb.online/SDWiki/SDE/1.0/Custom/Cards/Heroes/Sirdan.xhtml', 
+'Hero', '1.0 Custom', '1.0 Custom Set', 'Default', 
+'');
+insert into Characters (CardIndex) VALUES (2311);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (821, 36); --Fly
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (821, 142); --Tough
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (821, 54); --Immune: Fire
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (821, 2253); --Hardened Scales
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (821, 2254); --Flame Breath
+insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Attack, Armor, Will, Dexterity, Health, Potions) VALUES (
+1160, 
+'http://htkb.info/Common/Standies/Sirdan.png', 
+'http://htkb.info/Common/Standies/Sirdan_back.png', 
+'Masculine', 'Small', 'Half-Dragon', 6, 3, '2B', '3R', '2B', '1B 1R', 6, 1);
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (821, 0, 1); --Attack
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (821, 2); --Armor
 insert into CustomCards (CardIndex, Author, SourceURL) VALUES(
-2312,
+2311,
 'Sirdan87',
 'https://www.weasyl.com/~sirdan87/submissions/312279/sirdan-super-dungeon-explore-character-card'
 );
 
 --Sonya Giantslayer --Card Index 2312	--CharacterIndex 1161 --ExploreCharacterIndex 822
-
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+'Sonya Giantslayer', 
+'http://htkb.info/SDE/1.0/Custom/Cards/Heroes/Card_Hero_Sonya_Giantslayer_1.0_Custom.png', 
+'http://htkb.info/SDE/1.0/Custom/Cards/Heroes/Card_Hero_Sonya_Giantslayer_1.0_Custom_back.png', 
+'http://htkb.online/SDWiki/SDE/1.0/Custom/Cards/Heroes/Sonya_Giantslayer.xhtml', 
+'Hero', '1.0 Custom', '1.0 Custom Set', 'Default', 
+'Sonya earned her reputation as a great sword-master by slaying Brisgol, the Giant King.');
+insert into Characters (CardIndex) VALUES (2312);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (822, 29); --Dodge
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (822, 142); --Tough
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (822, 2255); --Lunging Slash
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (822, 2256); --Vorpal Strike
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (822, 2257); --Invulnerable
+insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Attack, Armor, Will, Dexterity, Health, Potions) VALUES (
+1161, 
+'http://htkb.info/Common/Standies/Arcadia_Quest/Sonya_Giantslayer.png', 
+'http://htkb.info/Common/Standies/Arcadia_Quest/Sonya_Giantslayer_back.png', 
+'Feminine', 'Small', 'Human', 6, 3, '2R', '2B', '2B', '3B', 5, 1);
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (822, 0, 1); --Attack
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (822, 2); --Armor
 insert into CustomCards (CardIndex, Author, SourceURL) VALUES(
 2312,
 'Ulf Beorstruk, @Ulf Beorstruk',
@@ -592,7 +703,26 @@ insert into CustomCards (CardIndex, Author, SourceURL) VALUES(
 );
 
 --Stormgale Amazon --Card Index 2313	--CharacterIndex 1162 --ExploreCharacterIndex 823
-
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+'Stormgale Amazon', 
+'http://htkb.info/SDE/1.0/Custom/Cards/Heroes/Card_Hero_Stormgale_Amazon_1.0_Custom.png', 
+'http://htkb.info/SDE/1.0/Custom/Cards/Heroes/Card_Hero_Stormgale_Amazon_1.0_Custom_back.png', 
+'http://htkb.online/SDWiki/SDE/1.0/Custom/Cards/Heroes/Stormgale_Amazon.xhtml', 
+'Hero', '1.0 Custom', '1.0 Custom Set', 'Default', 
+'');
+insert into Characters (CardIndex) VALUES (2313);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (823, 135); --Surefoot
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (823, 142); --Tough
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (823, 2255); --Fend
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (823, 2256); --Lightning Fury
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (823, 2257); --Dinosaur Eggs
+insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Attack, Armor, Will, Dexterity, Health, Potions) VALUES (
+1162, 
+'http://htkb.info/Common/Standies/Stormgale_Amazon.png', 
+'http://htkb.info/Common/Standies/Stormgale_Amazon_back.png', 
+'Feminine', 'Small', 'Human', 6, 3, '2R', '2B', '2B', '3B', 5, 1);
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (823, 0, 1); --Attack
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (823, 2); --Armor
 insert into CustomCards (CardIndex, Author, SourceURL) VALUES(
 2313,
 'N India, @superstring',
@@ -600,7 +730,26 @@ insert into CustomCards (CardIndex, Author, SourceURL) VALUES(
 );
 
 --Twilight Sparkle --Card Index 2314	--CharacterIndex 1163 --ExploreCharacterIndex 824
-
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+'Twilight Sparkle', 
+'http://htkb.info/SDE/1.0/Custom/Cards/Heroes/Card_Hero_Twilight_Sparkle_1.0_Custom.png', 
+'http://htkb.info/SDE/1.0/Custom/Cards/Heroes/Card_Hero_Twilight_Sparkle_1.0_Custom_back.png', 
+'http://htkb.online/SDWiki/SDE/1.0/Custom/Cards/Heroes/Twilight_Sparkle.xhtml', 
+'Hero', '1.0 Custom', '1.0 Custom Set', 'Default', 
+'Twilight Sparkle is a celestial pony and lives in Golden Oak Library with Spike, her friend and assistant.  She moved from Canterlot to Ponyville to study the magic of friendship and represents the element of magic.');
+insert into Characters (CardIndex) VALUES (2314);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (824, 79); --Magic 8
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (824, 2262); --Telekinesis
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (824, 2263); --Friend Zone
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (824, 2264); --Twilight Sparkleburst
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (824, 2265); --Studious
+insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Attack, Armor, Will, Dexterity, Health, Potions) VALUES (
+1163, 
+'http://htkb.info/Common/Standies/My_Little_Pony/Twighlight_Sparkle.png', 
+'http://htkb.info/Common/Standies/My_Little_Pony/Twighlight_Sparkle_back.png', 
+'Feminine', 'Small', '', 8, 3, '2B', '2B', '2R', '2B', 6, 1);
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (824, 0, 1); --Attack
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (824, 2); --Armor
 insert into CustomCards (CardIndex, Author, SourceURL) VALUES(
 2314,
 'Damien Stanley, @Gubbinz',
@@ -608,7 +757,22 @@ insert into CustomCards (CardIndex, Author, SourceURL) VALUES(
 );
 
 --The Wolf --Card Index 2315	--CharacterIndex 1164 --ExploreCharacterIndex 825
-
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+'Wolf, The', 
+'http://htkb.info/SDE/1.0/Custom/Cards/Heroes/Card_Hero_Wolf_The_1.0_Custom.png', 
+'http://htkb.info/SDE/1.0/Custom/Cards/Heroes/Card_Hero_Wolf_The_1.0_Custom_back.png', 
+'http://htkb.online/SDWiki/SDE/1.0/Custom/Cards/Heroes/Wolf_The.xhtml', 
+'Hero', '1.0 Custom', '1.0 Custom Set', 'Default', 
+'Twilight Sparkle is a celestial pony and lives in Golden Oak Library with Spike, her friend and assistant.  She moved from Canterlot to Ponyville to study the magic of friendship and represents the element of magic.');
+insert into Characters (CardIndex) VALUES (2315);
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (825, 2265); --The Wolf
+insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Attack, Armor, Will, Dexterity, Health, Potions) VALUES (
+1164, 
+'http://htkb.info/Common/Standies/My_Little_Pony/Twighlight_Sparkle.png', 
+'http://htkb.info/Common/Standies/My_Little_Pony/Twighlight_Sparkle_back.png', 
+'Either', 'Small', '', 7, 3, '1B 1R', '1B 1R', '2B', '2B', 0, 0);
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (825, 0, 1); --Attack
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (825, 2); --Armor
 insert into CustomCards (CardIndex, Author, SourceURL) VALUES(
 2315,
 'Adam Porter, @Adam78',

@@ -102,6 +102,53 @@
 /*Sonic Rainbow								--Index 2242*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0 Custom', 'Default', 'The Power of Love',						'Action', 'Offense', 3, 0, -1, 'SWEEP 3, DANGEROUS, DEX vs. ARM, Overhead');
 /*Twenty Percent Cooler						--Index 2243*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0 Custom', 'Default', 'Loving Care',								'Potion', 'Support', 1, -1, 0, '+1B');
 
+/*Defensive Ball Curl						--Index 2244*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0 Custom', 'Default', 'Defensive Ball Curl',						'Action', 'Support', 1, -1, 0, 'AUGMENT +2 ARM');
+/*Puncturing Taunt							--Index 2245*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0 Custom', 'Default', 'Puncturing Taunt',						'Action', 'Support', 2, -1, -1, 'All enemies adjacent to Rammus must attack Rammus.  Enemies that attack Rammus take a 1R damage roll.');
+
+/*Rought Cut								--Index 2246*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0 Custom', 'Default', 'Rought Cut',								'Action', 'Support', 1, 3, 8, 'MAGIC 8, DIFFICULT TERRAIN');
+/*Crystalize								--Index 2247*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0 Custom', 'Default', 'Crystalize',								'Action', 'Support', 2, 3, 8, 'MAGIC 8, FORM CRYSTAL');
+/*Shatter									--Index 2248*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0 Custom', 'Default', 'Shatter',									'Action', 'Offense', 1, 3, 8, 'MAGIC 8, BURST 1, SHATTER');
+/*Crystal Armour							--Index 2249*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0 Custom', 'Default', 'Crystal Armour',							'Potion', 'Support', 1, -1, 0, '+1ST ARM');
+
+/*Disarm									--Index 2250*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0 Custom', 'Default', 'Disarm',									'Action', 'Offense', 2, 0, -1, '+1R ATT, WEAK');
+/*Lunge										--Index 2251*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0 Custom', 'Default', 'Lunge',									'Action', 'Offense', 1, 0, 8, '+1G ATT, FRAGILE');
+/*Hero's Sacrifice							--Index 2252*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0 Custom', 'Default', 'Hero''s Sacrifice',						'Potion', 'Support', 1, -1, -1, 'Remove a wound counter from a Hero and add a wound counter to affected Hero');
+
+/*Hardened Scales							--Index 2253*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0 Custom', 'Default', 'Hardened Scales',							'Action', 'Support', 2, -1, 0, 'On defense rolls, rolls an extra 1B');
+/*Flame Breath								--Index 2254*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0 Custom', 'Default', 'Flame Breath',							'Potion', 'Support', 1, 0, 10, 'RANGE 10, DANGEROUS');
+
+/*Lunging Slash								--Index 2255*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0 Custom', 'Default', 'Lunging Slash',							'Action', 'Offense', 1, 0, -1, 'LANCE 3');
+/*Vorpal Strike								--Index 2256*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0 Custom', 'Default', 'Vorpal Strike',							'Action', 'Offense', 3, 0, 1, '+1G ATT, MASSIVE DAMAGE');
+/*Invulnerable								--Index 2257*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0 Custom', 'Default', 'Invulnerable',							'Potion', 'Support', 1, -1, 0, 'IMMUNE: STATUS EFFECTS, REMEDY');
+
+/*Fend										--Index 2258*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0 Custom', 'Default', 'Fend',									'Action', 'Offense', 2, 0, -1, 'CROSS 1, KNOCKDOWN');
+/*Lightning Fury							--Index 2259*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0 Custom', 'Default', 'Lightning Fury',							'Action', 'Offense', 2, 4, -1, 'MISSILE 6, SPRAY 3, +1B DEX.  The Spray effect only occurs if the model targeted is wounded and the area affected starts with the square the targeted model is on.');
+/*Dinosaur Eggs								--Index 2260*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0 Custom', 'Default', 'Dinosaur Eggs',							'Potion', 'Support', 1, -1, 0, 'DODGE');
+
+/*Telekinesis								--Index 2261*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0 Custom', 'Default', 'Telekinesis',								'Action', 'Support', 1, -1, 8, 'COMPEL 3');
+/*Friend Zone								--Index 2262*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0 Custom', 'Default', 'Friend Zone',								'Action', 'Support', 3, -1, 8, 'AUGMENT, BURST 1, HEAL 1');
+/*Twilight Sparkleburst						--Index 2263*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0 Custom', 'Default', 'Twilight Sparkleburst',					'Action', 'Offense', 3, 3, 8, 'BURST 1');
+/*Studious									--Index 2264*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0 Custom', 'Default', 'Studious',								'Potion', 'Support', 1, -1, 0, 'LUCK');
+
+/*The Wolf									--Index 2265*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0 Custom', 'Default', 'Wolf, The',								'Action', 'Offense', 3, 0, -1, 'After every square you move this turn you can make one melee attack.  Each attack after the first adds an additional 1B to the dice roll.  You cannot step in the same square twice.  Your ARM is reduced to 1B until next activation irrespective of equipment.  Auras still take affect however.<br><br>The Wolf cannot use potions, but can benefit from the effect of other''s potions.');
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

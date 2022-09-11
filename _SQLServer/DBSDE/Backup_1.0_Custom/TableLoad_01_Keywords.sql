@@ -13,6 +13,10 @@
 
 /*Hired Hand						--Index   1131*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0 Custom', 'Default', 'Hired Hand', 'Hired Hands cannot equip items, carry potions, or open chests.<br><br>Up to two Hired Hands can be activated per turn instead of a single Hero. (The Hero still gets their own turn later in the round.)');
 
+/*Tank								--Index   1132*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0 Custom', 'Default', 'Tank', 'TBD.');
 
+/*Difficult Terrain					--Index   1133*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0 Custom', 'Default', 'Difficult Terrain', 'Place a marker to indicate that the affected square now counts as difficult terrain.');
+/*Crystal Form						--Index   1134*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0 Custom', 'Default', 'Crystal Form', 'Varies depending on whether the targeted square is occupied or not.<br><br>Unoccupied Square - Place a large crystal model in the targeted square.  The crystal counts as a wall and blocks LOS.<br><br>Occupied Square - Place the Crystal Form status effect on the targetted model.');
+/*Shatter							--Index   1135*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0 Custom', 'Default', 'Shatter', 'The target must be either a large crystal or a model with the Crystal Form status effect.  Resolve as you would for a normal burst effect.');
 
 

@@ -35,7 +35,7 @@ insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (1, 
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (1, 
 'http://htkb.info/SDE/1.0/Cards/Heroes/Standies/Calico_Kate_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Heroes/Standies/Calico_Kate_1.0_back.png', 
-'Feminine', 'Small', 'Human Hero', 6, 3, '1B1R', '3B', '1B1R', '2B', 5, 1);
+'Feminine', 'Small', 'Human', 6, 3, '1B1R', '3B', '1B1R', '2B', 5, 1);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (1, 0, 1); --Attack
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (1, 2); --Armor
 
@@ -55,7 +55,7 @@ insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (2, 
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (2, 
 'http://htkb.info/SDE/1.0/Cards/Heroes/Standies/Candy_And_Cola_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Heroes/Standies/Candy_And_Cola_1.0_back.png', 
-'Feminine', 'Small', 'Human Hero', 6, 3, '2B', '3B', '2B', '1B1R', 5, 3);
+'Feminine', 'Small', 'Human', 6, 3, '2B', '3B', '2B', '1B1R', 5, 3);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (2, 0, 1); --Attack
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (2, 2); --Armor
 
@@ -76,7 +76,7 @@ insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (3, 
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (3, 
 'http://htkb.info/SDE/1.0/Cards/Heroes/Standies/Celestial_Herald_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Heroes/Standies/Celestial_Herald_1.0_back.png', 
-'Feminine', 'Small', 'Celestial Hero', 7, 3, '2B', '3B', '1B1R', '2R', 5, 1);
+'Feminine', 'Small', 'Celestial', 7, 3, '2B', '3B', '1B1R', '2R', 5, 1);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (3, 0, 1); --Attack
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (3, 4, 6); --Dexterity
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (3, 2); --Armor
@@ -96,7 +96,7 @@ insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (4, 
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (4, 
 'http://htkb.info/SDE/1.0/Cards/Heroes/Standies/Claw_Tribe_Barbarian_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Heroes/Standies/Claw_Tribe_Barbarian_1.0_back.png', 
-'Feminine', 'Small', 'Human Hero', 6, 3, '2R', '3B', '2B', '2B', 5, 1);
+'Feminine', 'Small', 'Human', 6, 3, '2R', '3B', '2B', '2B', 5, 1);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (4, 0, 1); --Attack
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (4, 2); --Armor
 
@@ -118,7 +118,7 @@ insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (5, 
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (5, 
 'http://htkb.info/SDE/1.0/Cards/Heroes/Standies/Codifier_Kisa_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Heroes/Standies/Codifier_Kisa_1.0_back.png', 
-'Feminine', 'Small', 'Freyjan Hero', 6, 3, '3B', '3B', '1B1R', '1B1R', 5, 2);
+'Feminine', 'Small', 'Freyjan', 6, 3, '3B', '3B', '1B1R', '1B1R', 5, 2);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (5, 0, 1); --Attack
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (5, 3, 8); --Will
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (5, 2); --Armor
@@ -140,7 +140,7 @@ insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (6, 
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (6, 
 'http://htkb.info/SDE/1.0/Cards/Heroes/Standies/Deeproot_Druid_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Heroes/Standies/Deeproot_Druid_1.0_back.png', 
-'Masculine', 'Small', 'Half-Elf Hero', 7, 3, '3B', '1B1R', '1B1R', '2B', 5, 1);
+'Masculine', 'Small', 'Half-Elf', 7, 3, '3B', '1B1R', '1B1R', '2B', 5, 1);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (6, 0, 1); --Attack
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (6, 2); --Armor
 
@@ -159,7 +159,7 @@ insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (7, 
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (7, 
 'http://htkb.info/SDE/1.0/Cards/Heroes/Standies/Deeproot_Scout_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Heroes/Standies/Deeproot_Scout_1.0_back.png', 
-'Either', 'Small', 'Elf Hero', 7, 3, '1B1R', '3B', '2B', '1B1R', 5, 1);
+'Either', 'Small', 'Elf', 7, 3, '1B1R', '3B', '2B', '1B1R', 5, 1);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (7, 0, 1); --Attack
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (7, 2); --Armor
 
@@ -180,7 +180,7 @@ insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (8, 
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (8, 
 'http://htkb.info/SDE/1.0/Cards/Heroes/Standies/Ember_Mage_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Heroes/Standies/Ember_Mage_1.0_back.png', 
-'Feminine', 'Small', 'Human Hero', 6, 3, '2B', '3B', '2R', '1B1R', 5, 2);
+'Feminine', 'Small', 'Human', 6, 3, '2B', '3B', '2R', '1B1R', 5, 2);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (8, 0, 1); --Attack
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (8, 3, 8); --Will
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (8, 2); --Armor
@@ -200,7 +200,7 @@ insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (9, 
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (9, 
 'http://htkb.info/SDE/1.0/Cards/Heroes/Standies/Glimmerdusk_Ranger_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Heroes/Standies/Glimmerdusk_Ranger_1.0_back.png', 
-'Feminine', 'Small', 'Elf Hero', 7, 3, '1B1R', '3B', '2B', '2R', 5, 1);
+'Feminine', 'Small', 'Elf', 7, 3, '1B1R', '3B', '2B', '2R', 5, 1);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (9, 0, 1); --Attack
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (9, 4, 8); --Dexterity
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (9, 2); --Armor
@@ -221,7 +221,7 @@ insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (10,
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (10, 
 'http://htkb.info/SDE/1.0/Cards/Heroes/Standies/Hearthsworn_Fighter_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Heroes/Standies/Hearthsworn_Fighter_1.0_back.png', 
-'Masculine', 'Small', 'Dwarf Hero', 6, 3, '2B1R', '2R', '2B', '2B', 6, 1);
+'Masculine', 'Small', 'Dwarf', 6, 3, '2B1R', '2R', '2B', '2B', 6, 1);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (10, 0, 1); --Attack
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (10, 2);--Armor
 
@@ -241,7 +241,7 @@ insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (11,
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (11, 
 'http://htkb.info/SDE/1.0/Cards/Heroes/Standies/Hexcast_Sorceress_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Heroes/Standies/Hexcast_Sorceress_1.0_back.png', 
-'Feminine', 'Small', 'Human Hero', 6, 3, '2B', '3B', '1B1R', '1B1R', 5, 1);
+'Feminine', 'Small', 'Human', 6, 3, '2B', '3B', '1B1R', '1B1R', 5, 1);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (11, 0, 1); --Attack
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (11, 3, 8); --Will
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (11, 2); --Armor
@@ -283,7 +283,7 @@ insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (13,
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender,ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (13, 
 'http://htkb.info/SDE/1.0/Cards/Heroes/Standies/Nyan_Nyan_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Heroes/Standies/Nyan_Nyan_1.0_back.png', 
-'Feminine', 'Small', 'Freyjan Hero', 7, 3, '3B', '3B', '2B', '2R', 5, 1);
+'Feminine', 'Small', 'Freyjan', 7, 3, '3B', '3B', '2B', '2R', 5, 1);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (13, 0, 1);--! To look at later
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (13, 2); --Armor
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (13, 4); --Dexterity
@@ -303,7 +303,7 @@ insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (14,
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (14, 
 'http://htkb.info/SDE/1.0/Cards/Heroes/Standies/One_Shot_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Heroes/Standies/One_Shot_1.0_back.png', 
-'Feminine', 'Small', 'Human Hero', 6, 3, '2R', '3B', '2B', '2B', 5, 1);
+'Feminine', 'Small', 'Human', 6, 3, '2R', '3B', '2B', '2B', 5, 1);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (14, 0, 8); --Attack
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (14, 2); --Armor
 
@@ -322,7 +322,7 @@ insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (15,
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (15, 
 'http://htkb.info/SDE/1.0/Cards/Heroes/Standies/Princess_Malya_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Heroes/Standies/Princess_Malya_1.0_back.png', 
-'Feminine', 'Small', 'Human Hero', 8, 3, '1B1R', '2B', '2B', '2R', 5, 1);
+'Feminine', 'Small', 'Human', 8, 3, '1B1R', '2B', '2B', '2R', 5, 1);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (15, 0, 1); --Attack
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (15, 2); --Armor
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (15, 4); --Dexterity
@@ -344,7 +344,7 @@ insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (16,
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (16, 
 'http://htkb.info/SDE/1.0/Cards/Heroes/Standies/Princess_Ruby_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Heroes/Standies/Princess_Ruby_1.0_back.png', 
-'Feminine', 'Small', 'Human Hero', 6, 3, '2B', '3B', '3B', '2B1R', 5, 1);
+'Feminine', 'Small', 'Human', 6, 3, '2B', '3B', '3B', '2B1R', 5, 1);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (16, 0, 1); --Attack
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (16, 3, 6); --Will
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (16, 2); --Armor
@@ -367,7 +367,7 @@ insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (17,
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (17, 
 'http://htkb.info/SDE/1.0/Cards/Heroes/Standies/Riftling_Rogue_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Heroes/Standies/Riftling_Rogue_1.0_back.png', 
-'Feminine', 'Small', 'Demonkin Hero', 7, 3, '3B', '2B', '1B1R', '2R', 5, 1);
+'Feminine', 'Small', 'Demonkin', 7, 3, '3B', '2B', '1B1R', '2R', 5, 1);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (17, 0, 1); --Attack
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (17, 2); --Armor
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (17, 4); --Dexterity
@@ -388,7 +388,7 @@ insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (18,
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (18,
 'http://htkb.info/SDE/1.0/Cards/Heroes/Standies/Royal_Paladin_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Heroes/Standies/Royal_Paladin_1.0_back.png', 
-'Masculine', 'Small', 'Human Hero', 6, 3, '3B', '1B1R', '1B1R', '2B', 5, 1);
+'Masculine', 'Small', 'Human', 6, 3, '3B', '1B1R', '1B1R', '2B', 5, 1);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (18, 0, 1); --Attack
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (18, 2); --Armor
 
@@ -408,7 +408,7 @@ insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (19,
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (19, 
 'http://htkb.info/SDE/1.0/Cards/Heroes/Standies/Sebastian_Cross_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Heroes/Standies/Sebastian_Cross_1.0_back.png', 
-'Masculine', 'Small', 'Human Hero', 5, 3, '2B1R', '2R', '2B', '2B', 6, 1);
+'Masculine', 'Small', 'Human', 5, 3, '2B1R', '2R', '2B', '2B', 6, 1);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (19, 0, 1); --Attack
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (19, 2); --Armor
 
@@ -427,7 +427,7 @@ insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (20,
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (20, 
 'http://htkb.info/SDE/1.0/Cards/Heroes/Standies/Sister_Of_Light_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Heroes/Standies/Sister_Of_Light_1.0_back.png', 
-'Feminine', 'Small', 'Human Hero', 6, 3, '1B1R', '2R', '1B1R', '2B', 5, 1);
+'Feminine', 'Small', 'Human', 6, 3, '1B1R', '2R', '1B1R', '2B', 5, 1);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (20, 0, 1); --Attack
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (20, 2); --Armor
 
@@ -448,7 +448,7 @@ insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (21,
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (21, 
 'http://htkb.info/SDE/1.0/Cards/Heroes/Standies/Star_Guild_Sapper_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Heroes/Standies/Star_Guild_Sapper_1.0_back.png', 
-'Masculine', 'Small', 'Dwarf Hero', 6, 3, '2B1R', '1B1R', '2B', '2B', 6, 1);
+'Masculine', 'Small', 'Dwarf', 6, 3, '2B1R', '1B1R', '2B', '2B', 6, 1);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (21, 0, 2); --Attack
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (21, 2); --Armor
 
@@ -488,7 +488,7 @@ insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (23,
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (23, 
 'http://htkb.info/SDE/1.0/Cards/Heroes/Standies/Von_Wilding_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Heroes/Standies/Von_Wilding_1.0_back.png', 
-'Feminine', 'Small', 'Human Hero', 6, 3, '1B1R', '3B', '1B1R', '2R', 5, 2);
+'Feminine', 'Small', 'Human', 6, 3, '1B1R', '3B', '1B1R', '2R', 5, 2);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (23, 0, 2); --Attack
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (23, 2); --Armor
 
@@ -507,7 +507,7 @@ insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (24,
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (24, 
 'http://htkb.info/SDE/1.0/Cards/Heroes/Standies/Wyrm_Claw_Exemplar_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Heroes/Standies/Wyrm_Claw_Exemplar_1.0_back.png', 
-'Either', 'Small', 'Kobold Hero', 7, 3, '2B1R', '2R', '1B1R', '1B1R', 5, 1);
+'Either', 'Small', 'Kobold', 7, 3, '2B1R', '2R', '1B1R', '1B1R', 5, 1);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (24, 0, 1); --Attack
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (24, 2); --Armor
 
