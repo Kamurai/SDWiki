@@ -720,11 +720,11 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Orcdon_Ramsay_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/MiniBosses/Orcdon_Ramsay.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Arcade', 
-''); --!! unavailable !!
+'I don''t care if it''s a dungeon!<br>There''s no crying in this kitchen!');
 insert into Characters (CardIndex) VALUES (1317);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
 VALUES (927, 373, -1);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (927, 2); --Emerald --!! unavailable !!
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (927, 3); --Ruby
 --GangMemberIndex 607
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (159, 0, 'Orcdon Ramsay', 'Orc', 'MiniBoss', 6, 7, 3, 542);

@@ -4,15 +4,22 @@
 
 
 --Brown Wizard --Card Index 2341   --BossSpawnIndex 33
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Roxor', 
-'http://htkb.info/SDE/1.0/Custom/Cards/Boss_Spawns/Card_Boss_Spawn_Roxor_1.0.png', 
-'http://htkb.info/SDE/1.0/Custom/Cards/Boss_Spawns/Card_Boss_Spawn_Roxor_1.0.png',
-'http://htkb.online/SDWiki/SDE/1.0/Custom/Cards/Boss_Spawns/Roxor.xhtml', 
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+'Brown Wizard', 
+'http://htkb.info/SDE/1.0/Custom/Cards/Boss_Spawns/Card_Boss_Spawn_Brown_Wizard_1.0_Custom.png', 
+'http://htkb.info/SDE/1.0/Custom/Cards/Boss_Spawns/Card_Boss_Spawn_Brown_Wizard_1.0_Custom.png',
+'http://htkb.online/SDWiki/SDE/1.0/Custom/Cards/Boss_Spawns/Brown_Wizard.xhtml', 
 'Boss Spawn', '1.0', '1.0 Core Set', 'Default',   
 '');
-insert into BossSpawns (CardIndex, DungeonEffect, BossSpawnEffect, TimeoutEffect, DifficultyRating) VALUES (69, 'Jagged Earth: All squares adjacent to spawning points are considered Difficult Terrain for Heroes.  Precious Metals:  Once per round Heroes may discard two unequipped loot cards and immediately draw another.', 'Molton Core:  Roxor enters play in Rock Form.  At the beginning of every activation choose one form for Roxor to assume.  Roxor gains the form''s gonuses until the beginning of his next activation:  Rock Form:  +1G Armor, Immune:  Status Effects, Fire Form:  +1G Attack, Fire, Tremors:  When Roxor enters paly place a Slow counter on every Boss Spawn.', 'Earthquake: Place a Knockdown counter on every Boss Spawn.  Summon: 1 Blaze Beetle, 2 Ember Hounds, 3 Burning Gels', '');
-insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (0, 36); 
-
+insert into BossSpawns (CardIndex, DungeonEffect, BossSpawnEffect, TimeoutEffect, DifficultyRating) VALUES (2341, 
+'Black Magic:  Heroes in a tile containing a spawn point are considered to be suffering from STUN.  They lose this status effect immediately upon leaving the tile.', 
+'When the Wizard enters play place a Stun counter on every hero.<br><br>Magic Sapping Blades:  All Minions and denizens gain the Stun ability as if it were printed on their stat card.<br><br>Summon:<br>2 Knuckleheads<br>2 Flingers<br>2 Dragon Priests', 
+'Curse: One hero model, of the Consul player''s choice is cursed by the Wizard, and immediately turns into The Wolf.  All equipment and potions are kept by the hero.', 
+'');
+--insert into KeywordAssignments (BossSpawnIndex, KeywordIndex) VALUES (33, 1136); --Black Magic
+--insert into KeywordAssignments (BossSpawnIndex, KeywordIndex) VALUES (33, 1137); --Magic Sapping Blades
+--insert into KeywordAssignments (BossSpawnIndex, KeywordIndex) VALUES (33, 1138); --Curse
+insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (33, 1172); --Brown Wizard
 insert into CustomCards (CardIndex, Author, SourceURL) VALUES(
 2341,
 'Adam Porter, @Adam78',
@@ -20,7 +27,23 @@ insert into CustomCards (CardIndex, Author, SourceURL) VALUES(
 );
 
 --Chaos Warrior --Card Index 2342   --BossSpawnIndex 34
-
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+'Chaos Warrior', 
+'http://htkb.info/SDE/1.0/Custom/Cards/Boss_Spawns/Card_Boss_Spawn_Chaos_Warrior_1.0_Custom.png', 
+'http://htkb.info/SDE/1.0/Custom/Cards/Boss_Spawns/Card_Boss_Spawn_Chaos_Warrior_1.0_Custom.png',
+'http://htkb.online/SDWiki/SDE/1.0/Custom/Cards/Boss_Spawns/Chaos_Warrior.xhtml', 
+'Boss Spawn', '1.0', '1.0 Core Set', 'Default',   
+'');
+insert into BossSpawns (CardIndex, DungeonEffect, BossSpawnEffect, TimeoutEffect, DifficultyRating) VALUES (2341, 
+'Armoured Plating:  Heroes in a tile containing a spawn point are considered to be suffering from STUN.  They lose this status effect immediately upon leaving the tile.', 
+'Armour piercing:  When the Chaos Warrior enters play place a Fragile counter on every hero.  The Chaos Warrior starts off mounted.<br><br>Armour Piercing Blades:  All Minions and denizens gain the Fragile ability as if it were printed on their stat card.<br><br>Summon:<br>2 Knuckleheads<br>1 Ogre<br>2 Gougers', 
+'Explosion:  All heroes suffer KNOCKDOWN and models adjacent to the Warrior suffer Fragile.  The Chaos Warrior is dismounted.', 
+'');
+--insert into KeywordAssignments (BossSpawnIndex, KeywordIndex) VALUES (34, 1139); --Armoured Plating
+--insert into KeywordAssignments (BossSpawnIndex, KeywordIndex) VALUES (34, 1140); --Armoured Piercing
+--insert into KeywordAssignments (BossSpawnIndex, KeywordIndex) VALUES (34, 1141); --Armour Piercing Blades
+--insert into KeywordAssignments (BossSpawnIndex, KeywordIndex) VALUES (34, 1142); --Explosion
+insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (34, 1173); --Chaos Warrior
 insert into CustomCards (CardIndex, Author, SourceURL) VALUES(
 2342,
 'Adam Porter, @Adam78',

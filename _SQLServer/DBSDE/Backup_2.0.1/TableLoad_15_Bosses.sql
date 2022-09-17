@@ -196,15 +196,15 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Hoarfang_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Bosses/Hoarfang.xhtml', 
 'Boss', '2.0', '2.0 Core Set', 'Explore',
-'');--!! unavailable !!
+'');
 insert into Characters (CardIndex) VALUES (1056);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (666, 4); --Sapphire
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (666,
 'http://htkb.info/SDE/2.0/Cards/Bosses/Standies/Hoarfang_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Bosses/Standies/Hoarfang_2.0_back.png', 
-'Neither', 'Large', 'Dragon', 6, 5, '2R 3G', '3R', '5R', '3B', 12, 0);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (561, 520); --Crush
+'Neither', 'Huge', 'Dragon', 6, 5, '2R 3G', '3R', '5R', '3B', 12, 0);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (561, 519); --Crush
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (561, 596); --Fly
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (561, 676); --Immune: Ice
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (561, 685); --Improved Critical

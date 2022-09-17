@@ -24,11 +24,11 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Loot', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2261, 'Character Loot', 'Top', '');
-insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (778, 1107); --Cheeto
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (778, 1110); --Familiar
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (778, 1114); --Smuggler
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (778, 2138); --Shoot First
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (778, 2124); --I Know
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (778, 1107); --Cheeto
 
 --Cutlass --CardIndex 2262 --EquipmentIndex 779
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
@@ -76,8 +76,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Bring me that horizon.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2265, 'Character Treasure', 'Top', '+1G WILL');
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (782, 2149); --This Way to Treasure!
-insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (782, 1124); --Jolly Sparrow
-insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (782, 1133); --Jolly Sparrow
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (782, 1124); --Jolly Sparrow: Explore
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (782, 1133); --Jolly Sparrow: Arcade
 
 --Peg Leg --CardIndex 2266 --EquipmentIndex 783
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
@@ -88,7 +88,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Watch for Woodworm.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2266, 'Character Treasure', 'Left', '-1MO +1R ARM');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (783, 1125); --Run Down
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (783, 859); --Run Down
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (783, 1125); --Black-Handed Henry: Explore
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (783, 1134); --Black-Handed Henry: Arcade
 

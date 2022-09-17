@@ -882,19 +882,19 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Orcdon_Ramsay_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/MiniBosses/Orcdon_Ramsay.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Explore',
-'');--!! unavailable !!
+'I don''t care if it''s a dungeon!<br>There''s no crying in this kitchen!');
 insert into Characters (CardIndex) VALUES (1037);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (647, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (647,
-'http://htkb.info/SDE/2.0/Cards/Standies/Orcdon_Ramsay_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Standies/Orcdon_Ramsay_2.0_back.png', 
-'Neither', 'Large', 'Orc', 6, 3, '1R 2G', '1B 2R', '2B', '2B', 7, 0);
+'http://htkb.info/SDE/2.0/Cards/Standies/Orcdon_Ramsay.png', 
+'http://htkb.info/SDE/2.0/Cards/Standies/Orcdon_Ramsay_back.png', 
+'Masculine', 'Large', 'Orc', 6, 3, '1R 2G', '1B 2R', '2B', '2B', 7, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (542, 1084); --Impulsive
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (542, 843); --Reckless
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (542, 863); --Can You Smell What The Orc Is Cooking?!
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (542, 1329); --IT'S RAW!
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (542, 1653); --Shop Fresh, Shop Local
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (542, 2079); --Can You Smell What The Orc Is Cooking?!
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (542, 2080); --IT'S RAW!
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (542, 2081); --Shop Fresh, Shop Local
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (542, 1, 3); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (542, 2); --Armor
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (542, 'MiniBoss', 'Super', 4);
@@ -910,8 +910,8 @@ insert into Characters (CardIndex) VALUES (1038);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (648, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (648,
-'http://htkb.info/SDE/2.0/Cards/Standies/Rage_Fiend_The_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Standies/Rage_Fiend_The_2.0_back.png', 
+'http://htkb.info/SDE/2.0/Cards/Standies/Rage_Fiend_The.png', 
+'http://htkb.info/SDE/2.0/Cards/Standies/Rage_Fiend_The_back.png', 
 'Neither', 'Large', 'Orc', 5, 4, '4R', '2B', '0ST', '2B', 8, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (543, 616); --Frenzy
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (543, 675); --Immune: Hex
@@ -934,8 +934,8 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (649, 1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (649, 2); --Emerald
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (649,
-'http://htkb.info/SDE/2.0/Cards/Standies/Randy_Lrod_of_Spiders_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Standies/Randy_Lrod_of_Spiders_2.0_back.png', 
+'http://htkb.info/SDE/2.0/Cards/Standies/Randy_Lrod_of_Spiders.png', 
+'http://htkb.info/SDE/2.0/Cards/Standies/Randy_Lrod_of_Spiders_back.png', 
 'Masculine', 'Small', 'Human Lrod', 5, 3, '3B', '1ST 1R', '3B', '2G', 7, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (544, 642); --Heal X
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (544, 1023); --Surefoot

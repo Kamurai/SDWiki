@@ -26,7 +26,7 @@
 
 /*Keep the Rum Flowing			--Index 1117*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Keep the Rum Flowing', 'TBD');
 
-/*???							--Index 1118*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'TBD', 'TBD');
+/*								--Index 1118*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('', '', '', '');
 
 /*Master Gains: Grabby			--Index 1119*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Master Gains: Grabby (X)', 'The model controlling this model gains the ability "Grabby" when they are within X spaces of one another.');
 
@@ -40,7 +40,7 @@
 
 /*Spawning Pool					--Index 1124*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Arcade', 'Spawning Pool', '1x Crow''s Nest (Spawning Point)<br>1x Bosun<br>2x Cursed Pirate<br>2x The Walking Cursed<br><br>Cards:<br>The Lost Souls');
 
-/*Run Down						--Index 1125*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Run Down', 'Once per activation, a model with Run Down may move onto the same square as an enemy model.  The enemy model suffers Compel 2 and one wound.');
+/*								--Index 1125*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('', '', '', '');
 
 
 

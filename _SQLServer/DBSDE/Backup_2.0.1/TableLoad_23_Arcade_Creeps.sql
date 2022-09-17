@@ -100,7 +100,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Creeps/Card_Arcade_Creep_Frost_Imp_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Creeps/Frost_Imp.xhtml', 
 'Creep', '2.0', '2.0 Core Set', 'Arcade', 
-'');  --!! unavailable !!
+'Centuries of life within the bitter cold of the Frostbyte Reach have caused Frost Imps to mutate and adapt to their surroundings.  Frost Imp''s souls are as cold and hard as the land they call home.  They delight in causing avalanches upon traveling caravans, trapping hunters in snowdrifts, or simply putting snow down a sleeping Hero''s pants.');
 insert into Characters (CardIndex) VALUES (1269);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
 VALUES (879, 133, -1);

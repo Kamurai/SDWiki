@@ -2,6 +2,7 @@
 --2.0.1
 --Equipment
 
+
 --Accursed Longsword --CardIndex 1512 --EquipmentIndex 293
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Accursed Longsword',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Generic/Card_Treasure_Accursed_Longsword_2.0.png', 
@@ -330,15 +331,20 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1543, 'Treasure', 'Left', '+1G ARM');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (324, 1059); --Volatile
 
---Bleak Cap --CardIndex 1544 --EquipmentIndex 325
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Bleak Cap',
-'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Bleak_Cap_2.0.png', 
+--Bleak Crest --CardIndex 1544 --EquipmentIndex 325
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+'Bleak Crest',
+'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Bleak_Crest_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Relics/Bleak_Cap.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Relics/Bleak_Crest.xhtml', 
 'Relic', '2.0', '2.0 Core Set', 'Default',
-''); --!!unavailable !!
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1544, 'Character Relic', 'Top', '+1R ARM');  --!!unavailable !!
-insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (325, 964); --Hoarfang
+'');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1544, 'Character Relic', 'Bottom', '');
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (325, 502); --Charge
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (325, 859); --Run Down
+insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (325, abXXX); --Juggernaut
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, 666); --Hoarfang: Explore
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, 946); --Hoarfang: Arcade
 
 --Blessed Spear --CardIndex 1545 --EquipmentIndex 326
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Blessed Spear',
@@ -1317,7 +1323,8 @@ insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1636,
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (417, 454); --Bane
 
 --Dragonblade Plate --CardIndex 1637 --EquipmentIndex 418
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Dragonblade Plate',
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+'Dragonblade Plate',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Dragonblade_Plate_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Dragonblade_Plate.xhtml', 
@@ -1326,7 +1333,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1637, 'Character Treasure', 'Left', '');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (418, 727); --Massive Damage
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (418, 1344); --Kill the Dragon
-insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (418, 964); --Hoarfang
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, 666); --Hoarfang: Explore
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, 946); --Hoarfang: Arcade
 
 --Driving Hat --CardIndex 1638 --EquipmentIndex 419
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Driving Hat',
@@ -1755,16 +1763,18 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1679, 'Loot', 'Top', '+1B DEX');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (460, 901); --Slow
 
---Freyjan Skin --CardIndex 1680 --EquipmentIndex 461
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Freyjan Skin',
-'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Freyjan_Skin_2.0.png', 
+--Freyjan Stole --CardIndex 1680 --EquipmentIndex 461
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+'Freyjan Stole',
+'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Freyjan_Stole_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Freyjan_Skin.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Freyjan_Stole.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
-'');  --!! unavailable !!
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1680, 'Character Treasure', 'Bottom', '+1R DEX +');  --!! unavailable !!
+'Careful, lest you get scratched.');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1680, 'Character Treasure', 'Top', '+1R DEX +1R STR');  --!! unavailable !!
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (461, 704); --Kitty Claws
-insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (461, 964); --Hoarfang
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, 666); --Hoarfang: Explore
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, 946); --Hoarfang: Arcade
 
 --Fried Eggs --CardIndex 1681 --EquipmentIndex 462
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Fried Eggs',
@@ -1812,17 +1822,18 @@ insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1684,
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (465, 668); --Ice
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (465, 981); --Ymnaur Wintersson
 
---Frozen Hammer --CardIndex 1685 --EquipmentIndex 466
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Frozen Hammer',
-'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Frozen_Hammer_2.0.png', 
+--Frost Hammer --CardIndex 1685 --EquipmentIndex 466
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+'Frost Hammer',
+'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Frost_Hammer_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Frozen_Hammer.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Frost_Hammer.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
-'');  --!! unavailable !!
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1685, 'Character Treasure', 'Right', '+1G STR');  --!! unavailable !!
---insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (466, kXXX); --!! unavailable !!
-insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (466, 46); --
-insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (466, 964); --Hoarfang
+'Why don''t you chill out for awhile!');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1685, 'Character Treasure', 'Left', '+1G STR');
+--insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (466, abXXX); --Ice Fan
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, 666); --Hoarfang: Explore
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, 946); --Hoarfang: Arcade
 
 --Frozen Soul --CardIndex 1686 --EquipmentIndex 467
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Frozen Soul',
@@ -1835,16 +1846,17 @@ insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1686,
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (467, 961); --Elrik the Lich King
 
 --Frozen Wand --CardIndex 1687 --EquipmentIndex 468
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Frozen Wand',
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+'Frozen Wand',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Frozen_Wand_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Frozen_Wand.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
-'');  --!! unavailable !!
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1687, 'Character Treasure', 'Right', '+1G STR');  --!! unavailable !!
---insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (468, kXXX); --
-insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (468, 46); --!! unavailable !!
-insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (468, 964); --Hoarfang
+'Frozen solid.');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1687, 'Character Treasure', 'Left', '+1G WILL');
+--insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (468, kXXX); --Frozen Stiff
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, 666); --Hoarfang: Explore
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, 946); --Hoarfang: Arcade
 
 --Fruit Splash Cherry Bomb --CardIndex 1688 --EquipmentIndex 469
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Fruit Spash Cherry Bomb',
@@ -2167,15 +2179,17 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1718, 'Loot', 'Top', '+1R HEALTH');
 
 --Heart of Ice --CardIndex 1719 --EquipmentIndex 500
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Heart of Ice',
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+'Heart of Ice',
 'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Heart_of_Ice_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Relics/Heart_of_Ice.xhtml', 
 'Relic', '2.0', '2.0 Core Set', 'Default',
-'');  --!! unavailable !!
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1719, 'Character Relic', 'Bottom', '+1R STR');  --!! unavailable !!
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (500, 588); --Fire --!! unavailable !!
-insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (500, 964); --Hoarfang
+'Chilled to the core.');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1719, 'Character Relic', 'Top', '');
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (500, 482); --Brutal Strike
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, 666); --Hoarfang: Explore
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, 946); --Hoarfang: Arcade
 
 --Heart of the Forge --CardIndex 1720 --EquipmentIndex 501
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Heart of the Forge',
@@ -2339,17 +2353,18 @@ insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (515, 621);
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (515, 1289); --Ice King
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (515, 961); --Elrik the Lich King
 
---Ice Shoes --CardIndex 1735 --EquipmentIndex 516
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ice Shoes',
-'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Ice_Shoes_2.0.png', 
+--Ice Shards --CardIndex 1735 --EquipmentIndex 516
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+'Ice Shards',
+'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Ice_Shards_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Ice_Shoes.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Ice_Shards.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
-'');  --!! unavailable !!
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1735, 'Character Treasure', 'Right', '+1G STR');  --!! unavailable !!
---insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (516, kXXX); --
-insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (516, 46); --!! unavailable !!
-insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (516, 964); --Hoarfang
+'You''re mine princess!');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1735, 'Character Treasure', 'Bottom', '+1R WILL');  --!! unavailable !!
+--insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (516, abXXX); --Ice King
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, 666); --Hoarfang: Explore
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, 946); --Hoarfang: Arcade
 
 --Ijin Bracers --CardIndex 1736 --EquipmentIndex 517
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ijin Bracers',
@@ -2389,10 +2404,11 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Ingredient_Pouch.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1739, 'Character Treasure', 'Bottom', '+1 HEART +1 POTION');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (520, 442); --Augment
-insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (520, 46); --!! unavailable !!
-insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (520, 945); --Orcdon Ramsey
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1739, 'Character Treasure', 'Bottom', '+1HE +1PO');
+insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (520, 1467); --New Recipe
+insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (520, 1380); --Local Ingredients
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (520, 647); --Orcdon Ramsay: Explore
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (520, 927); --Orcdon Ramsay: Arcade
 
 --Innocense Lost --CardIndex 1740 --EquipmentIndex 521
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Innocence Lost',
@@ -3198,17 +3214,18 @@ insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (597, 588);
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (597, 1471); --Nightmare Charge
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (597, 940); --Knight of the Tower
 
---No --CardIndex 1817 --EquipmentIndex 598
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('No',
-'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_No_2.0.png', 
+--Noblesse Oblige --CardIndex 1817 --EquipmentIndex 598
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+'Noblesse Oblige',
+'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Noblesse_Oblige_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/No.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Noblesse_Oblige.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
-'');  --!! unavailable !!
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1817, 'Character Treasure', 'Left', '+1G STR');  --!! unavailable !!
---insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (598, kXXX); --!! unavailable !!
-insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (598, 46); --!! unavailable !!
-insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (598, 964); --Hoarfang
+'');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1817, 'Character Treasure', 'Right', '+1R ARM +1R STR');  --!! unavailable !!
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (598, 585); --Feint
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, 666); --Hoarfang: Explore
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, 946); --Hoarfang: Arcade
 
 --Obaa-San Dumplings --CardIndex 1818 --EquipmentIndex 599
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Obaa-San Dumplings',
@@ -3908,16 +3925,17 @@ insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (664, 442);
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (664, 1627); --Shadow
 
 --Shard of Everlasting Ice --CardIndex 1884 --EquipmentIndex 665
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Shard of Everlasting Ice',
-'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Shard_of_Everlasting_Ice_2.0.png', 
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+'Shards of Everwinter',
+'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Shards_of_Everwinter_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Relics/Shard_of_Everlasting_Ice.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Relics/Shards_of_Everwinter.xhtml', 
 'Relic', '2.0', '2.0 Core Set', 'Default',
-''); --!! unavailable !!
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1884, 'Character Relic', 'Top', '+1B STR +1B DEX +1B WILL'); 
---insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (665, kXXX); -- --!! unavailable !! 
-insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (665, 46); -- --!! unavailable !!
-insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (665, 964); --Hoarfang
+'');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1884, 'Character Relic', 'Left', '+1R WILL');
+--insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (665, kXXX); --Chip Off the Block
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (665, 666); --Hoarfang: Explore
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (665, 946); --Hoarfang: Arcade
 
 --Shell Shield --CardIndex 1885 --EquipmentIndex 666
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Shell Shield',
@@ -5008,16 +5026,18 @@ insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (764, 1020)
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (764, 757); --Ash Cloud
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (764, 960); --Destroyer, The
 
---Winter Orb --CardIndex 1984 --EquipmentIndex 765
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Winter Orb',
-'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Winter_Orb_2.0.png', 
+--Winter's Chill --CardIndex 1984 --EquipmentIndex 765
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+'Winter''s Chill',
+'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Winters_Chill_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Relics/Winter_Orb.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Relics/Winters_Chill.xhtml', 
 'Relic', '2.0', '2.0 Core Set', 'Default',
-''); --!! unavailable !!
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1984, 'Character Relic', 'Top', '+1R WILL');  --!! unavailable !!
---insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (765, kXXX); --!! unavailable !!
-insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (765, 964); --Hoarfang
+'Gaze deeply... but beware, for what is revealed may be chilling.');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1984, 'Character Relic', 'Right', '+1R STR');  --!! unavailable !!
+--insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (765, kXXX); --Ice Fiends
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (665, 666); --Hoarfang: Explore
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (665, 946); --Hoarfang: Arcade
 
 --Winter's Orb --CardIndex 1985 --EquipmentIndex 766
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Winter''s Orb',

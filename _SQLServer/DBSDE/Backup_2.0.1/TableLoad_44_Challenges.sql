@@ -259,14 +259,17 @@ VALUES ('Do Your Part!',
 'Challenge', '2.0', '2.0 Core Set', 'Default', 'If you are going to take on the Midnight Tower, be sure you have vetted your party properly. I knew that taking someone who calls himself "Jonah the well-rested of the frequent naps" was a mistake. He has done practically nothing!<br><br>I mean, how do you sleep through an ambush by Nether Elf assassins? I''m almost impressed.');
 insert into Challenges (CardIndex, Trap, Challenge) VALUES (2062, '', 'At the start of the Consul''s next turn, all Heroes with zero wrath suffer two wounds.');
 
---Dragon Race	--CardIndex 2063 --ChallengeIndex 27
+--Dragon's Rage	--CardIndex 2063 --ChallengeIndex 27
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
-VALUES ('Dragon Race',
+VALUES ('Dragon''s Rage',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss_Challenges/Hoarfang/Card_Boss_Challenge_Dragon_Race_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss_Challenges/Backs/Card_Boss_Challenge_Blue_Back_2.0.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Challenges/Boss_Challenges/Hoarfang/Dragon_Race.xhtml', 
-'Challenge', '2.0', '2.0 Core Set', 'Default', ''); --!! unavailable !!
-insert into Challenges (CardIndex, Trap, Challenge) VALUES (2063, '', ''); --!! unavailable !!
+'Challenge', '2.0', '2.0 Core Set', 'Default', 
+'You dare enter my home?!  I have been tolerant of you until now.  NO MORE!');
+insert into Challenges (CardIndex, Trap, Challenge) VALUES (2063, 
+'Move the Dungeon Boss in the most direct manner until it is adjacent to the SPAWNLOCATION on the second tile, moving through any walls, structures, or Heroes in its way.  Any Heroes moved through in this manner suffer one wound and Knockdown.', 
+'The dungeon boss gains +1ST ARM for each Frost Imp in play.');
 insert into ChallengeAssignments (CharacterIndex, ChallengeIndex) VALUES (964, 27); --Hoarfang
 
 --Dragon's Pride	--CardIndex 2064 --ChallengeIndex 28
@@ -275,8 +278,11 @@ VALUES ('Dragon''s Pride',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss_Challenges/Hoarfang/Card_Boss_Challenge_Dragons_Pride_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss_Challenges/Backs/Card_Boss_Challenge_Blue_Back_2.0.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Challenges/Boss_Challenges/Hoarfang/Dragons_Pride.xhtml', 
-'Challenge', '2.0', '2.0 Core Set', 'Default', '"Did you think that because I......'); --!! unavailable !!
-insert into Challenges (CardIndex, Trap, Challenge) VALUES (2064, 'All monsters perform the Unique command.', 'The dungeon boss.....'); --!! unavailable !!
+'Challenge', '2.0', '2.0 Core Set', 'Default', 
+'Did you think that because I deigned to speak with you that we were somehow acquaintances?  Let me dissuade you fo that notion.');
+insert into Challenges (CardIndex, Trap, Challenge) VALUES (2064, 
+'All monsters perform the Unique command.', 
+'The dungeon boss may not suffer more than one wound from a single action, such as critical hits or Massive Damage.');
 insert into ChallengeAssignments (CharacterIndex, ChallengeIndex) VALUES (964, 28); --Hoarfang
 
 --Drinking Contest	--CardIndex 2065 --ChallengeIndex 29
@@ -295,8 +301,11 @@ VALUES ('Elemental Wrath',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss_Challenges/Hoarfang/Card_Boss_Challenge_Elemental_Wrath_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss_Challenges/Backs/Card_Boss_Challenge_Blue_Back_2.0.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Challenges/Boss_Challenges/Hoarfang/Elemental_Wrath.xhtml', 
-'Challenge', '2.0', '2.0 Core Set', 'Default', ''); --!! unavailable !!
-insert into Challenges (CardIndex, Trap, Challenge) VALUES (2066, 'All monsters perform the Unique command.', ''); --!! unavailable !!
+'Challenge', '2.0', '2.0 Core Set', 'Default', 
+'I existed before Crystalia existed.  I am no mere creature that crawls upon its surface.  I am the aether.  I am magic given form, and you have roused my wrath.'); --!! unavailable !!
+insert into Challenges (CardIndex, Trap, Challenge) VALUES (2066, 
+'All monsters perform the Unique command.', 
+'Only a single Hero may activate.');
 insert into ChallengeAssignments (CharacterIndex, ChallengeIndex) VALUES (964, 30); --Hoarfang
 
 --Endless Tide, The	--CardIndex 2067 --ChallengeIndex 31
@@ -328,14 +337,17 @@ VALUES ('Extra Stuffing',
 insert into Challenges (CardIndex, Trap, Challenge) VALUES (2069, 'The dungeon boss performs the Unique command.', 'The dungeon boss may not suffer more than one wound from a single action, such as critical hits or Massive Damage.');
 insert into ChallengeAssignments (CharacterIndex, ChallengeIndex) VALUES (979, 33); --Thresher, The
 
---Faithful	--CardIndex 2070 --ChallengeIndex 34
+--Faithful Imps	--CardIndex 2070 --ChallengeIndex 34
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
-VALUES ('Faithful',
-'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss_Challenges/Hoarfang/Card_Boss_Challenge_Faithful_2.0.png', 
+VALUES ('Faithful Imps',
+'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss_Challenges/Hoarfang/Card_Boss_Challenge_Faithful_Imps_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss_Challenges/Backs/Card_Boss_Challenge_Blue_Back_2.0.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Challenges/Boss_Challenges/Hoarfang/Faithful.xhtml', 
-'Challenge', '2.0', '2.0 Core Set', 'Default', ''); --!! unavailable !!
-insert into Challenges (CardIndex, Trap, Challenge) VALUES (2070, '', ''); --!! unavailable !!
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Challenges/Boss_Challenges/Hoarfang/Faithful_Imps.xhtml', 
+'Challenge', '2.0', '2.0 Core Set', 'Default', 
+'Even without any physical connection to the Dark Realm, Hoarfang can wrench her minions into Crystalia replenshing her horders.');
+insert into Challenges (CardIndex, Trap, Challenge) VALUES (2070, 
+'Randomly select a spawning point that was destroyed this game.  All gangs listed on the spawning point are spawned as if they had received the Spawn command.  These gangs are spawned within three squares of the dungeon boss rather than their spawning pool.', 
+'The dungeon boss gains +1ST ARM for each Frost Imp in play.');
 insert into ChallengeAssignments (CharacterIndex, ChallengeIndex) VALUES (964, 34); --Hoarfang
 
 --Faithful Servants	--CardIndex 2071 --ChallengeIndex 35
@@ -435,14 +447,17 @@ VALUES ('Forever Curse, The',
 'Challenge', '2.0', '2.0 Core Set', 'Default', 'At the height of the battle, I caught a glimpse of the Midnight Queen herself. With a flick of her wrist I could feel the curse fall upon me, staining my very bones. Then the spiders came...');
 insert into Challenges (CardIndex, Trap, Challenge) VALUES (2080, 'The Hero with the least wrath selects a POISON, HEX, ICE, SLOW, FIRE and KNOCKDOWN token and distributes them among the Heroes. Each Hero must receive at least one status effect token. (These tokens may be negated by immunity.)', 'Heroes do not remove status effects at the end of their activation.');
 
---Freezing	--CardIndex 2081 --ChallengeIndex 45
+--Freezing Wind	--CardIndex 2081 --ChallengeIndex 45
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
-VALUES ('Freezing',
-'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss_Challenges/Hoarfang/Card_Boss_Challenge_Freezing_2.0.png', 
+VALUES ('Freezing Wind',
+'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss_Challenges/Hoarfang/Card_Boss_Challenge_Freezing_Wind_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss_Challenges/Backs/Card_Boss_Challenge_Blue_Back_2.0.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Challenges/Boss_Challenges/Hoarfang/Freezing.xhtml', 
-'Challenge', '2.0', '2.0 Core Set', 'Default', ''); --!! unavailable !!
-insert into Challenges (CardIndex, Trap, Challenge) VALUES (2081, '', ''); --!! unavailable !!
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Challenges/Boss_Challenges/Hoarfang/Freezing_Wind.xhtml', 
+'Challenge', '2.0', '2.0 Core Set', 'Default', 
+'As Hoarfang''s wings churn the air they produce frigid gales that quickly gather in speed and ferocity, freezing unprotected felsh in moments.');
+insert into Challenges (CardIndex, Trap, Challenge) VALUES (2081, 
+'The dungeon boss immediately performs the following action:<br> 0AC Freezing Wind: Wave 3, Push 3, ICE, KNOCKDOWN', 
+'The dungeon boss gains +1ST ARM for each Frost Imp in play.');
 insert into ChallengeAssignments (CharacterIndex, ChallengeIndex) VALUES (964, 45); --Hoarfang
 
 --Freezing March, The	--CardIndex 2082 --ChallengeIndex 46
@@ -461,8 +476,11 @@ VALUES ('Frostbite',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss_Challenges/Hoarfang/Card_Boss_Challenge_Frostbite_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss_Challenges/Backs/Card_Boss_Challenge_Blue_Back_2.0.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Challenges/Boss_Challenges/Hoarfang/Frostbite.xhtml', 
-'Challenge', '2.0', '2.0 Core Set', 'Default', ''); --!! unavailable !!
-insert into Challenges (CardIndex, Trap, Challenge) VALUES (2083, '', ''); --!! unavailable !!
+'Challenge', '2.0', '2.0 Core Set', 'Default', 
+'When you can''t feel your toes of fingers, you''re cold and need to find a fire.  When they''re fully encased in a block of ice--along with your legs and body and head--you''re an ice cube.  That''s a problem.');
+insert into Challenges (CardIndex, Trap, Challenge) VALUES (2083, 
+'The dungeon boss immediately performs the follwing action:<br>0AC Frostbite: Wave 3, BANE, POISON, ICE', 
+'Only a single Hero may activate.');
 insert into ChallengeAssignments (CharacterIndex, ChallengeIndex) VALUES (964, 47); --Hoarfang
 
 --Frozen Shield	--CardIndex 2084 --ChallengeIndex 48
@@ -531,8 +549,11 @@ VALUES ('Greedy Imps',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss_Challenges/Hoarfang/Card_Boss_Challenge_Greedy_Imps_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss_Challenges/Backs/Card_Boss_Challenge_Blue_Back_2.0.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Challenges/Boss_Challenges/Hoarfang/Greedy_Imps.xhtml', 
-'Challenge', '2.0', '2.0 Core Set', 'Default', '"They''re not stealing it because they want it. They''re stealing it because you want it, and they know the pain it will cause."');
-insert into Challenges (CardIndex, Trap, Challenge) VALUES (2090, 'Spawn one Frost Imp adjacent to each Hero with at least one Treasure equipped, to a maximum of six Frost Imps in play.', 'The dungeon boss may not suffer more than one wound from a single action, such as critical hits or Massive Damage.');
+'Challenge', '2.0', '2.0 Core Set', 'Default', 
+'They''re not stealing it because they want it. They''re stealing it because you want it, and they know the pain it will cause.');
+insert into Challenges (CardIndex, Trap, Challenge) VALUES (2090, 
+'Spawn one Frost Imp adjacent to each Hero with at least one Treasure equipped, to a maximum of six Frost Imps in play.', 
+'The dungeon boss may not suffer more than one wound from a single action, such as critical hits or Massive Damage.');
 insert into ChallengeAssignments (CharacterIndex, ChallengeIndex) VALUES (964, 54); --Hoarfang
 
 --Hay Bales	--CardIndex 2091 --ChallengeIndex 55
@@ -786,8 +807,11 @@ VALUES ('Little Helpers',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss_Challenges/Hoarfang/Card_Boss_Challenge_Little_Helpers_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss_Challenges/Backs/Card_Boss_Challenge_Blue_Back_2.0.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Challenges/Boss_Challenges/Hoarfang/Little_Helpers.xhtml', 
-'Challenge', '2.0', '2.0 Core Set', 'Default', ''); --!! unavailable !!
-insert into Challenges (CardIndex, Trap, Challenge) VALUES (2116, '', ''); --!! unavailable 1!
+'Challenge', '2.0', '2.0 Core Set', 'Default', 
+'The cold will numb your limbs and dull your reflexes.  And if you let enough of them swarm you, you won''t be able to move at all.');
+insert into Challenges (CardIndex, Trap, Challenge) VALUES (2116, 
+'Spawn one Frost Imp adjacent to each Hero, until there are a maximum of six in play.', 
+'All Heroes must use their DEX for all defense rolls.');
 insert into ChallengeAssignments (CharacterIndex, ChallengeIndex) VALUES (964, 80); --Hoarfang
 
 --Love Bites	--CardIndex 2117 --ChallengeIndex 81
@@ -835,8 +859,11 @@ VALUES ('Mental Fortitude',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss_Challenges/Hoarfang/Card_Boss_Challenge_Mental_Fortitude_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss_Challenges/Backs/Card_Boss_Challenge_Blue_Back_2.0.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Challenges/Boss_Challenges/Hoarfang/Mental_Fortitude.xhtml', 
-'Challenge', '2.0', '2.0 Core Set', 'Default', ''); --!! unavailable !!
-insert into Challenges (CardIndex, Trap, Challenge) VALUES (2121, '', ''); --!! unavailable !!
+'Challenge', '2.0', '2.0 Core Set', 'Default', 
+'Yes, I have drawn all heat from my hall.  Do you feel it?  It takes its toll, sapping you not only of your strength but of your resolve.  Now we will see what you are truly worth.');
+insert into Challenges (CardIndex, Trap, Challenge) VALUES (2121, 
+'All monsters perform the Unique command.', 
+'All Heroes must use their WILL for all defense rolls.');
 insert into ChallengeAssignments (CharacterIndex, ChallengeIndex) VALUES (964, 85); --Hoarfang
 
 --Might Makes Right	--CardIndex 2122 --ChallengeIndex 86
@@ -930,8 +957,11 @@ VALUES ('Out Of The Ice',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss_Challenges/Hoarfang/Card_Boss_Challenge_Out_of_the_Ice_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss_Challenges/Backs/Card_Boss_Challenge_Blue_Back_2.0.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Challenges/Boss_Challenges/Hoarfang/Out_of_the_Ice.xhtml', 
-'Challenge', '2.0', '2.0 Core Set', 'Default', 'No one is entirely sure if Frost Imps hide in the ice or if Hoarfang wills them into being from the ice.');
-insert into Challenges (CardIndex, Trap, Challenge) VALUES (2131, 'Spawn Frost Imps within three squares of the dungeon boss until there are six Frost Imps in play.', 'All monster commands target the Hero with the least wrath.');
+'Challenge', '2.0', '2.0 Core Set', 'Default', 
+'No one is entirely sure if Frost Imps hide in the ice or if Hoarfang wills them into being from the ice.');
+insert into Challenges (CardIndex, Trap, Challenge) VALUES (2131, 
+'Spawn Frost Imps within three squares of the dungeon boss until there are six Frost Imps in play.', 
+'All monster commands target the Hero with the least wrath.');
 insert into ChallengeAssignments (CharacterIndex, ChallengeIndex) VALUES (964, 95); --Hoarfang
 
 --Overexertion	--CardIndex 2132 --ChallengeIndex 96

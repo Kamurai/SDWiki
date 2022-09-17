@@ -688,15 +688,15 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (466, 2); --Armor
 insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (466, 1, 4);
 
---Pet Frost Imp --CardIndex 962	--CharacterIndex 572	--ExploreCharacterIndex 467
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Pet Frost Imp',
-'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Frost_Imp_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Frost_Imp_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Pets/Frost_Imp.xhtml', 
+--Buttons --CardIndex 962	--CharacterIndex 572	--ExploreCharacterIndex 467
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Buttons',
+'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Buttons_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Buttons_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Pets/Buttons.xhtml', 
 'Pet', '2.0', '2.0 Core Set', 'Default', 
-'');--!! unavailable !!
+'They were warned the pet was a gllutton.<br>That sly little Imp called Button.<br>Without socks to put their toes in,<br>The Heroes became quite frozen.<br>Because sheep are made out of mutton.');
 insert into Characters (CardIndex) VALUES (962);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (572, 4); --Sapphire --?? card image affinity is covered by a portion of another card ??
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (572, 4); --Sapphire
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (572,
 'http://htkb.info/SDE/2.0/Cards/Pets/Standies/Frost_Imp_2.0.png', 
