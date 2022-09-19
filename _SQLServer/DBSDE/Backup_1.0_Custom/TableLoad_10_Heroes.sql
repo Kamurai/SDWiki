@@ -17,7 +17,7 @@ insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (798
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (798, 2171); --Stampede
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (798, 2172); --Haymaker
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (798, 2173); --Applesauce
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Attack, Armor, Will, Dexterity, Health, Potions) VALUES (
+insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 1137, 
 'http://htkb.info/Common/Standies/My_Little_Pony/Apple_Jack.png', 
 'http://htkb.info/Common/Standies/My_Little_Pony/Apple_Jack_back.png', 
@@ -44,7 +44,7 @@ insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (799
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (799, 2175); --Lunar Blade
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (799, 2176); --Second Wind
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (799, 2177); --Talent Blaster
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Attack, Armor, Will, Dexterity, Health, Potions) VALUES (
+insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 1138, 
 'http://htkb.info/Common/Standies/Avenging_Samurai.png', 
 'http://htkb.info/Common/Standies/Avenging_Samurai_back.png', 
@@ -67,7 +67,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 '');
 insert into Characters (CardIndex) VALUES (2290);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (800, 63); --Terrain
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Attack, Armor, Will, Dexterity, Health, Potions) VALUES (
+insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 1139, 
 'http://htkb.info/Common/Standies/Crystal_Form.png', 
 'http://htkb.info/Common/Standies/Crystal_Form_back.png', 
@@ -93,7 +93,7 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (801
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (801, 2178); --Stand Fast!
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (801, 2179); --Smite
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (801, 2180); --Anesthesia
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Attack, Armor, Will, Dexterity, Health, Potions) VALUES (
+insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 1140, 
 'http://htkb.info/Common/Standies/Arcadia_Quest/Diva_Royal_Guard.png', 
 'http://htkb.info/Common/Standies/Arcadia_Quest/Diva_Royal_Guard_back.png', 
@@ -121,7 +121,7 @@ insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (801
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (801, 2182); --Direct
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (801, 2183); --Bolster
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (801, 2184); --Coals
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Attack, Armor, Will, Dexterity, Health, Potions) VALUES (
+insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 1140, 
 'http://htkb.info/Common/Standies/Arcadia_Quest/Dragonmaster.png', 
 'http://htkb.info/Common/Standies/Arcadia_Quest/Dragonmaster_back.png', 
@@ -150,7 +150,7 @@ insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (802
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (802, 2182); --Kaleidoscope
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (802, 2183); --Whirling Dervish
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (802, 2184); --Caffeine Pills
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Attack, Armor, Will, Dexterity, Health, Potions) VALUES (
+insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 1141, 
 'http://htkb.info/Common/Standies/Arcadia_Quest/Dragonmaster.png', 
 'http://htkb.info/Common/Standies/Arcadia_Quest/Dragonmaster_back.png', 
@@ -177,7 +177,7 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (803
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (803, 2181); --Finding Strays
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (803, 2182); --Can I Keep Him?
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (803, 2183); --Liquid Courage
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Attack, Armor, Will, Dexterity, Health, Potions) VALUES (
+insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 1142, 
 'http://htkb.info/Common/Standies/My_Little_Pony/Fluttershy.png', 
 'http://htkb.info/Common/Standies/My_Little_Pony/Fluttershy_back.png', 
@@ -204,7 +204,7 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (804
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (804, 2181); --I am NOT a man!
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (804, 2182); --Wanna Wrassle?
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (804, 2183); --Kegus Universalis
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Attack, Armor, Will, Dexterity, Health, Potions) VALUES (
+insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 1143, 
 'http://htkb.info/Common/Standies/Frostbyte_Warrior.png', 
 'http://htkb.info/Common/Standies/Frostbyte_Warrior_back.png', 
@@ -232,7 +232,7 @@ insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (805
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (805, 2182); --Subdue
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (805, 2183); --Supressing Fire
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (805, 2183); --Sunburst
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Attack, Armor, Will, Dexterity, Health, Potions) VALUES (
+insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 1144, 
 'http://htkb.info/Common/Standies/Arcadia_Quest/Glauerdoom_Hunter.png', 
 'http://htkb.info/Common/Standies/Arcadia_Quest/Glauerdoom_Hunter_back.png', 
@@ -259,7 +259,7 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (806
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (806, 2182); --Takedown
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (806, 2183); --Sunder
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (806, 2183); --Styigan Root
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Attack, Armor, Will, Dexterity, Health, Potions) VALUES (
+insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 1145, 
 'http://htkb.info/Common/Standies/Arcadia_Quest/Guild_Swordsman.png', 
 'http://htkb.info/Common/Standies/Arcadia_Quest/Guild_Swordsman_back.png', 
@@ -287,7 +287,7 @@ insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (807
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (807, 2220); --Shield Smash
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (807, 2221); --Heroic Scream
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (807, 2222); --Elixir of Fire
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Attack, Armor, Will, Dexterity, Health, Potions) VALUES (
+insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 1146, 
 'http://htkb.info/SDE/Standies/Alternate/Herald_of_Vulcanis.png', 
 'http://htkb.info/SDE/Standies/Alternate/Herald_of_Vulcanis_back.png', 
@@ -314,7 +314,7 @@ insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (808
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (808, 66); --Hobbled Hands
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (808, 15); --Broken Bones
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (808, 152); --Wizard Wings
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Attack, Armor, Will, Dexterity, Health, Potions) VALUES (
+insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 1147, 
 'http://htkb.info/SDE/Standies/Alternate/Hexcast_Sorceress.png', 
 'http://htkb.info/SDE/Standies/Alternate/Hexcast_Sorceress.png', 
@@ -337,7 +337,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 '');
 insert into Characters (CardIndex) VALUES (2299);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (809, 1131); --Hired Hand
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Attack, Armor, Will, Dexterity, Health, Potions) VALUES (
+insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 1148, 
 'http://htkb.info/Common/Standies/Hired_Hand.png', 
 'http://htkb.info/Common/Standies/Hired_Hand_back.png', 
@@ -365,7 +365,7 @@ insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (810
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (810, 2224); --Chakra Blast
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (810, 2225); --Instant Karma
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (810, 2226); --Inner Peace
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Attack, Armor, Will, Dexterity, Health, Potions) VALUES (
+insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 1149, 
 'http://htkb.info/Common/Standies/Lotus_Temple_Monk.png', 
 'http://htkb.info/Common/Standies/Lotus_Temple_Monk_back.png', 
@@ -393,7 +393,7 @@ insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (811
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (811, 2228); --Blizzard
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (811, 2229); --Freeze the Heartblood
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (811, 2230); --Ice Queen
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Attack, Armor, Will, Dexterity, Health, Potions) VALUES (
+insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 1150, 
 'http://htkb.info/Common/Standies/Arcadia_Quest/Maya_Ice_Mage.png', 
 'http://htkb.info/Common/Standies/Arcadia_Quest/Maya_Ice_Mage_back.png', 
@@ -420,7 +420,7 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (812
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (812, 2231); --Swash th'Bucks!
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (812, 2232); --Nyahaha Taunt
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (812, 2233); --Cap'n's Grog
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Attack, Armor, Will, Dexterity, Health, Potions) VALUES (
+insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 1151, 
 'http://htkb.info/Common/Standies/Nekkoneer_Captain.png', 
 'http://htkb.info/Common/Standies/Nekkoneer_Captain_back.png', 
@@ -447,7 +447,7 @@ insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (813
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (813, 2235); --Super-Sticky-Double-Bubble Bubble-Gum
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (813, 2236); --Pinkie Cannon
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (813, 2237); --Pinkie Logic
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Attack, Armor, Will, Dexterity, Health, Potions) VALUES (
+insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 1152, 
 'http://htkb.info/Common/Standies/My_Little_Pony/Pinkie_Pie.png', 
 'http://htkb.info/Common/Standies/My_Little_Pony/Pinkie_Pie_back.png', 
@@ -475,7 +475,7 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (814
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (814, 2238); --Aura of Love
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (814, 2239); --The Power of Love
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (814, 2240); --Loving Care
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Attack, Armor, Will, Dexterity, Health, Potions) VALUES (
+insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 1153, 
 'http://htkb.info/Common/Standies/My_Little_Pony/Princess_Cadance.png', 
 'http://htkb.info/Common/Standies/My_Little_Pony/Princess_Cadance_back.png', 
@@ -501,7 +501,7 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (815
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (815, 2238); --Double Dash
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (815, 2239); --Sonic Rainbow
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (815, 2240); --Twenty Percent Cooler
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Attack, Armor, Will, Dexterity, Health, Potions) VALUES (
+insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 1154, 
 'http://htkb.info/Common/Standies/My_Little_Pony/Rainbow_Dash.png', 
 'http://htkb.info/Common/Standies/My_Little_Pony/Rainbow_Dash_back.png', 
@@ -527,7 +527,7 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (816
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (816, 57); --Immune: Knockdown
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (816, 2238); --Defensive Ball Curl
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (816, 2239); --Puncturing Taunt
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Attack, Armor, Will, Dexterity, Health, Potions) VALUES (
+insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 1155, 
 'http://htkb.info/Common/Standies/LOL/Rammus.png', 
 'http://htkb.info/Common/Standies/LOL/Rammus_back.png', 
@@ -554,7 +554,7 @@ insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (817
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (817, 2239); --Crystalize
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (817, 2239); --Shatter
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (817, 2239); --Crystal Armour
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Attack, Armor, Will, Dexterity, Health, Potions) VALUES (
+insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 1156, 
 'http://htkb.info/Common/Standies/My_Little_Pony/Rarity.png', 
 'http://htkb.info/Common/Standies/My_Little_Pony/Rarity_back.png', 
@@ -581,7 +581,7 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (818
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (818, 2250); --Disarm
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (818, 2251); --Lunge
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (818, 2252); --Hero's Sacrifice
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Attack, Armor, Will, Dexterity, Health, Potions) VALUES (
+insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 1157, 
 'http://htkb.info/Common/Standies/Fate/Saber_Chibi.png', 
 'http://htkb.info/Common/Standies/Fate/Saber_Chibi_back.png', 
@@ -608,7 +608,7 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (819
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (819, 2250); --Disarm
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (819, 2251); --Lunge
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (819, 2252); --Hero's Sacrifice
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Attack, Armor, Will, Dexterity, Health, Potions) VALUES (
+insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 1158, 
 'http://htkb.info/Common/Standies/Fate/Saber_Chibi.png', 
 'http://htkb.info/Common/Standies/Fate/Saber_Chibi_back.png', 
@@ -662,7 +662,7 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (821
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (821, 54); --Immune: Fire
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (821, 2253); --Hardened Scales
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (821, 2254); --Flame Breath
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Attack, Armor, Will, Dexterity, Health, Potions) VALUES (
+insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 1160, 
 'http://htkb.info/Common/Standies/Sirdan.png', 
 'http://htkb.info/Common/Standies/Sirdan_back.png', 
@@ -689,7 +689,7 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (822
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (822, 2255); --Lunging Slash
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (822, 2256); --Vorpal Strike
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (822, 2257); --Invulnerable
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Attack, Armor, Will, Dexterity, Health, Potions) VALUES (
+insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 1161, 
 'http://htkb.info/Common/Standies/Arcadia_Quest/Sonya_Giantslayer.png', 
 'http://htkb.info/Common/Standies/Arcadia_Quest/Sonya_Giantslayer_back.png', 
@@ -716,7 +716,7 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (823
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (823, 2255); --Fend
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (823, 2256); --Lightning Fury
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (823, 2257); --Dinosaur Eggs
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Attack, Armor, Will, Dexterity, Health, Potions) VALUES (
+insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 1162, 
 'http://htkb.info/Common/Standies/Stormgale_Amazon.png', 
 'http://htkb.info/Common/Standies/Stormgale_Amazon_back.png', 
@@ -743,7 +743,7 @@ insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (824
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (824, 2263); --Friend Zone
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (824, 2264); --Twilight Sparkleburst
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (824, 2265); --Studious
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Attack, Armor, Will, Dexterity, Health, Potions) VALUES (
+insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 1163, 
 'http://htkb.info/Common/Standies/My_Little_Pony/Twighlight_Sparkle.png', 
 'http://htkb.info/Common/Standies/My_Little_Pony/Twighlight_Sparkle_back.png', 
@@ -766,7 +766,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Twilight Sparkle is a celestial pony and lives in Golden Oak Library with Spike, her friend and assistant.  She moved from Canterlot to Ponyville to study the magic of friendship and represents the element of magic.');
 insert into Characters (CardIndex) VALUES (2315);
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (825, 2265); --The Wolf
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Attack, Armor, Will, Dexterity, Health, Potions) VALUES (
+insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 1164, 
 'http://htkb.info/Common/Standies/My_Little_Pony/Twighlight_Sparkle.png', 
 'http://htkb.info/Common/Standies/My_Little_Pony/Twighlight_Sparkle_back.png', 

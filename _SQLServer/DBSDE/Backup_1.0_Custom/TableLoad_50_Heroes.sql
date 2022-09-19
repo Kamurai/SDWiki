@@ -18,7 +18,7 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (851
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (851, 2170); --Rally Cry
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (851, 2171); --Aimed Strike
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (851, 2172); --Flash Bomb
-insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Attack, Armor, Will, Dexterity, Health, Potions) VALUES (
+insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 1190, 
 'http://htkb.info/Common/Standies/My_Little_Pony/Flash_Sentry.png', 
 'http://htkb.info/Common/Standies/My_Little_Pony/Flash_Sentry_back.png', 

@@ -342,9 +342,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1544, 'Character Relic', 'Bottom', '');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (325, 502); --Charge
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (325, 859); --Run Down
-insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (325, abXXX); --Juggernaut
-insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, 666); --Hoarfang: Explore
-insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, 946); --Hoarfang: Arcade
+insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (325, 1335); --Juggernaut
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (325, 666); --Hoarfang: Explore
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (325, 946); --Hoarfang: Arcade
 
 --Blessed Spear --CardIndex 1545 --EquipmentIndex 326
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Blessed Spear',
@@ -1333,8 +1333,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1637, 'Character Treasure', 'Left', '');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (418, 727); --Massive Damage
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (418, 1344); --Kill the Dragon
-insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, 666); --Hoarfang: Explore
-insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, 946); --Hoarfang: Arcade
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (418, 666); --Hoarfang: Explore
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (418, 946); --Hoarfang: Arcade
 
 --Driving Hat --CardIndex 1638 --EquipmentIndex 419
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Driving Hat',
@@ -1773,8 +1773,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Careful, lest you get scratched.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1680, 'Character Treasure', 'Top', '+1R DEX +1R STR');  --!! unavailable !!
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (461, 704); --Kitty Claws
-insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, 666); --Hoarfang: Explore
-insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, 946); --Hoarfang: Arcade
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (461, 666); --Hoarfang: Explore
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (461, 946); --Hoarfang: Arcade
 
 --Fried Eggs --CardIndex 1681 --EquipmentIndex 462
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Fried Eggs',
@@ -1831,9 +1831,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Why don''t you chill out for awhile!');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1685, 'Character Treasure', 'Left', '+1G STR');
---insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (466, abXXX); --Ice Fan
-insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, 666); --Hoarfang: Explore
-insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, 946); --Hoarfang: Arcade
+insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (466, 2327); --Ice Fan
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (466, 666); --Hoarfang: Explore
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (466, 946); --Hoarfang: Arcade
 
 --Frozen Soul --CardIndex 1686 --EquipmentIndex 467
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Frozen Soul',
@@ -1854,9 +1854,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Frozen solid.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1687, 'Character Treasure', 'Left', '+1G WILL');
---insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (468, kXXX); --Frozen Stiff
-insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, 666); --Hoarfang: Explore
-insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, 946); --Hoarfang: Arcade
+insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (468, 2328); --Frozen Stiff
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (468, 666); --Hoarfang: Explore
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (468, 946); --Hoarfang: Arcade
 
 --Fruit Splash Cherry Bomb --CardIndex 1688 --EquipmentIndex 469
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Fruit Spash Cherry Bomb',
@@ -2188,8 +2188,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Chilled to the core.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1719, 'Character Relic', 'Top', '');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (500, 482); --Brutal Strike
-insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, 666); --Hoarfang: Explore
-insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, 946); --Hoarfang: Arcade
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (500, 666); --Hoarfang: Explore
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (500, 946); --Hoarfang: Arcade
 
 --Heart of the Forge --CardIndex 1720 --EquipmentIndex 501
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Heart of the Forge',
@@ -2362,9 +2362,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'You''re mine princess!');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1735, 'Character Treasure', 'Bottom', '+1R WILL');  --!! unavailable !!
---insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (516, abXXX); --Ice King
-insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, 666); --Hoarfang: Explore
-insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, 946); --Hoarfang: Arcade
+insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (516, 2329); --Ice King
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (516, 666); --Hoarfang: Explore
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (516, 946); --Hoarfang: Arcade
 
 --Ijin Bracers --CardIndex 1736 --EquipmentIndex 517
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ijin Bracers',
@@ -3224,8 +3224,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1817, 'Character Treasure', 'Right', '+1R ARM +1R STR');  --!! unavailable !!
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (598, 585); --Feint
-insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, 666); --Hoarfang: Explore
-insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (eXXX, 946); --Hoarfang: Arcade
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (598, 666); --Hoarfang: Explore
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (598, 946); --Hoarfang: Arcade
 
 --Obaa-San Dumplings --CardIndex 1818 --EquipmentIndex 599
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Obaa-San Dumplings',

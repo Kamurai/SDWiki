@@ -45,7 +45,7 @@
 /*Berserk								--Index 457*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Berserk', 'During its activation, a model with Berserk may make a single Melee Attack costing no action points.');
 /*Bewitching Song						--Index 458*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Bewitching Song', 'The Consul may move all Heroes 3 squares, using the rules for Compel.');
 /*Birds of a Feather					--Index 459*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Explore', 'Birds of a Feather', 'When a model with Birds of a Feather suffers a wound, spawn 2 Underdead Crows adjacent to it.');
-/*Biting Wind							--Index 460*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Explore', 'Biting Wind', '');
+/*Biting Wind							--Index 460*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Biting Wind', 'When a model with Biting Wind is destroyed, the model that destroyed it gains ICE at the end of its activation.');
 /*Black Ice								--Index 461*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Black Ice', 'Enemy models which end an activation within two squares of this model are moved two squares directly away from the model with Black Ice.');
 /*Black Parade							--Index 462*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Black Parade', 'When a model with Black Parade enters play, the Consul spawns two Curse Ravens adjacent to the spawning point icon in the third tile and two adjacent to the spawning point icon in the second tile (four Curse Ravens total).');
 /*Bleed									--Index 463*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Bleed', 'When making an offensive roll, a model with Bleed counts any Hearts rolled as both one star and one heart.');
@@ -91,8 +91,8 @@
 /*Charge								--Index 502*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Explore', 'Charge', 'When a model with Charge uses a Lance area effect, after resolving all other effects of the Lance, the model may be placed in any unoccupied square that was affected by the Lance for free.');
 /*Charge Through						--Index 503*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Charge Through', 'All Heroes immediately suffer a melee attack with 5R STR, regardless of range and LOS.');
 /*Children of Decay						--Index 504*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Children of Decay', 'The Consul selects a Hero and spawns a Kodead adjacent to it.  Repeat this until a Kodead has spawned adjacent to each Hero or there are six Kodeads in play.');
-/*Clever								--Index 505*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Clever', 'If a challenge card springs a trap on the hero party, you can instead, take a wound and ignore the effects of the trap.'); 
-/*Clever								--Index 506*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Explore', 'Clever', 'When a challenge card is drawn with a Trap effect, Clever models may suffer a wound to cancel the effect.');
+/*Clever								--Index 505*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Explore', 'Clever', 'When a Boss Sighting space is reached, a model with Clever may suffer a wound to cancel the Boss Sighting.'); 
+/*Clever								--Index 506*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Arcade', 	'Clever', 'When a Challenge card is drawn with a Trap effect, a model with Clever may suffer a wound to cancel the Trap effect.');
 /*Coghammer								--Index 507*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Explore', 'Coghammer', 'When a model with Coghammer rolls a heart, it may suffer a wound to turn one die that rolled a heart to any facing of its choice.');
 /*Cold Fury								--Index 508*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Cold Fury', 'After any Waystone Creep suffers damage during the Hero turn, a model with Cold Fury may immediately take the Stinging Wind action.');
 /*Come Hither							--Index 509*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Come Hither', 'All Heroes suffer Compel 2.');
@@ -105,8 +105,8 @@
 /*Counterstrike							--Index 516*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Arcade', 	'Counterstrike', 'When a model with Counterstrike suffers a wound, it may immediately make a single Melee Attack targeting the model which inflicted the wound, so long as the model is within range.');
 /*Counterstrike							--Index 517*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Arcade', 	'Counterstrike', 'When a model with Counterstrike suffers a wound, it may immediately make a single Basic Attack targeting the model which inflicted the wound, so long as the model is within range.');
 /*Counterstrike							--Index 518*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Explore', 'Counterstrike', 'When a model with Counterstrike suffers a wound, it may immediately make a single Melee Attack targeting the model which inflicted the wound, so long as the model is within range.');
-/*Crush									--Index 519*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Arcade', 'Crush', ''); --?? Hoarfang - doesn't have a back
-/*Crush									--Index 520*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Explore', 'Crush', ''); --?? Hoarfang - doesn't have a back
+/*Crush									--Index 519*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Crush', 'A model with Crush gains Massive Damage if its target was suffering Ice when it was targeted.');
+/*										--Index 520*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('', '', '', '');
 /*Crystal Curse							--Index 521*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Explore', 'Crystal Curse', 'When a model with Crystal Curse succeeds with an offensive action, apply one random status effect token to the target for each heart the model with Crystal Curse rolled.');
 /*Crystal Shaping						--Index 522*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Crystal Shaping', 'At the start of this model''s activation it may discard one equipment card from the backpack in order to gain one of the following until the start of its next activation, depending on the equipment''s slot:<br>Citrine: +1AC<br>Emerald:  +2MV<br>Ruby:  +1R WILL<br>Sapphire: +1R ARM.');
 /*Cursed								--Index 523*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Cursed', 'Equipment with Cursed must be equipped during Power-Up if any Hero has an available slot, and cannot be removed or discarded unless the model is destroyed.');
@@ -208,8 +208,8 @@
 /*Frenzy								--Index 616*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Explore', 'Frenzy', 'A model with Frenzy gains +1R on offensive rolls against any model that is suffering a wound.');
 /*Fresh Grave							--Index 617*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Explore', 'Fresh Grave', 'Kodeads may be spawned from Fresh Grave Tile Effects instead of Rattlebones.');
 /*Frostfang								--Index 618*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Explore', 'Frostfang', 'A model with Frostfang gains +1G to offensive rolls while targeting a model suffering ICE.');
-/*Frost Imps							--Index 619*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Explore', 'Frost Imps', 'Spawn Frost Imps within three squares of the dungeon boss until there are six Frost Imps in play.'); --?? Boxx_Spawn_Hoarfang - verify this is correct name and wordage is correct, card is partially covered.
-/*Frosty Imps							--Index 620*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Arcade', 'Frosty Imps', ''); --?? Arcade Hoarfang - doesn't have a back
+/*Frosty Imps							--Index 619*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Frosty Imps', 'Spawn Frost Imps within three squares of the dungeon boss until there are six Frost Imps in play.');
+/*Frosty Imps							--Index 620*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Arcade', 'Frosty Imps', 'When a model with Frosty Imps spawns, spawn Frost Imps within three squres of it until there are six Frost Imps in play.'); 
 /*Frozen Prison							--Index 621*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Frozen Prison', 'While this Relic is attached to a Hero, the Hero must roll 1B before taking an action.  If no stars are rolled, the action automatically fails.  The Hero may choose to suffer one wound to reroll the die.');
 /*Fueled by Fire						--Index 622*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Fueled by Fire', 'A model with Fueled by Fire adds 1R to all offensive rolls for each model suffering Fire.');
 /*Fungal Fury							--Index 623*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Fungal Fury', 'Enemy models that end a Push within three squares and LoS of one or more models with Fungal Fury suffer one wound.');
@@ -298,7 +298,7 @@
 /*Killamari								--Index 701*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Arcade', 'Killamari', 'When a model with Killamari is destroyed by another model, place a tentacles token on the model that destroyed it for the remainder of the game. (You may use a crystal token to represent the tentacles token).');
 /*Killamari								--Index 702*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Explore', 'Killamari', 'When a model with Killamari is destroyed by another model, place a tentacles token on the model that destroyed it for the remainder of the game. (You may use a crystal token to represent the tentacles token).');
 /*Kindling								--Index 703*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Kindling', 'A model adjacent to a model with Kindling cannot remove FIRE status effect tokens at the end of its activation.');
-/*Kitty Claws							--Index 704*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Explore', 'Kitty Claws', '');
+/*Kitty Claws							--Index 704*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Kitty Claws', 'Immediately make one Melee Attack against any enemy model that moves into a square adjacent to a model with Kitty Claws.');
 /*Knockdown								--Index 705*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Knockdown', 'A model or effect with Knockdown places a Knockdown counter on any model it damages. A model suffering Knockdown may not move or perform any other action until it spends one action point to remove the counter and stand up.'); 
 /*Knockdown								--Index 706*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Arcade', 'Knockdown', 'A model suffering Knockdown may not move or perform any other action until it spends one action point or all of its movement points to remove the Knockdown token.');
 /*Knockdown								--Index 707*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Arcade', 'Knockdown', 'A monster suffering Knockdown may not perform commands until the next Move command. Instead of moving it must remove the Knockdown token.');
@@ -444,7 +444,7 @@
 /*Reach									--Index 840*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Arcade', 'Reach', '+2ST RNG if a model with Reach is in the gang.');
 /*Read The Wind							--Index 841*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Read The Wind', 'A model with Read The Wind may roll 1G when the party clears all activation tokens.  Keep this die on the Hero''s card and discard it next time activation tokens are cleared.  After dice are rolled by any Hero for any reason, this model may discard the die to add it to the roll.');
 /*Real Thing, The						--Index 842*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Explore', 'Real Thing, The', 'You may discard The Lost Coin at any time in order to add one Princess Coin to the backpack.');
-/*Reckless								--Index 843*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Explore', 'Reckless', 'Should the enemy roll a critical defense, this model can wound himself due to Reckless');
+/*Reckless								--Index 843*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Explore', 'Reckless', 'Should the enemy roll a critical defense, this model can wound himself due to Reckless.');
 /*Reclamation							--Index 844*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Reclamation', 'When this dungeon boss spawns, place all spawning points that were destroyed this game back on their SPAWNPOINT squares.  Move any models occupying those squares to adjacent squares.  This dungeon boss does not heal due to spawning points in play, and Heroes do not draw loot for destroying these spawning points.  Then spawn six Yowlings within three squares of this dungeon boss.');
 /*Refuge								--Index 845*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Refuge', 'Models with Refuge may not suffer wounds while Waystone Creeps are in play (they may still suffer other effects such as Push and Status Effects.)');
 /*Regenerate							--Index 846*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Explore', 'Regenerate', 'Roll 1B for every wound token on the model affected by Regenerate. Remove one wound token for each star rolled.');
@@ -645,7 +645,7 @@
 /*Throw Me a Fish						--Index 1036*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('', '', '', '');
 /*Throw	X								--Index 1037*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Explore', 'Throw X', 'When using an action with Throw, choose one friendly adjacent model.  Move that model a number of squares up to the value of X, using the rules for Push.  If the model moves to a square that is adjacent to another model, it immediately stops moving.  Every model it stops adjacent to, friendly or enemy, suffers an offense roll of +1B per square the model moved.');
 /*Thwomp								--Index 1038*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Explore', 'Thwomp', 'Enemy models may attempt to move through a space containing a model with THWOMP.  If they do, the model with THWOMP immediately makes a melee attack against the enemy before the enemy moves through its space.  If the attack is successful, the enemy may not move through the space.  If the attack fails, the enemy model may move freely through all spaces containing the model with THWOMP (though it may not stop in the spaces).');
-/*Tiny Cold Hands						--Index 1039*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Explore', 'Tiny Cold Hands', 'Spawn one Frost Imp adjacent to each Hero, up to a maximum of six Frost Imps in play.');
+/*Tiny Cold Hands						--Index 1039*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Tiny Cold Hands', 'Spawn one Frost Imp adjacent to each Hero, up to a maximum of six Frost Imps in play.');
 /*Toss Me								--Index 1040*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Toss Me', 'If this model is targeted by an action with Throw, after resolving the results of the action, destroy this model. Volatile is triggered by Toss Me.');
 /*Tough									--Index 1041*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Tough', 'During its upkeep, a model with Tough removes a single wound token.');
 /*Toughened Scars						--Index 1042*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Toughened Scars', 'This Hero gains +1HE for each Princess Coin on it, in addtion to any other benefit.  (Arcade:  When this model is brought into play using a Princess Coin, place the Princess Coin on its card in order to benefit from this ability.)');
@@ -696,7 +696,7 @@
 /*You've Been Naughty					--Index 1082*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Explore', 'You''ve Been Naughty', 'After an enemy model rolls a critical success against a model with You''ve Been Naughty, the enemy model Shapeshifts into a Naughtie (regardless of the number of wounds dealt by the critical).  The Consul selects one Naughtie shapeshift card that is not already being used by a Hero.  If all Naughtie shapeshift cards are in play, this ability has no effect.  Heroes on Kringle''s Nice List may not be shapeshifted in this way.');
 /*Your Goddess Has Forsaken You			--Index 1083*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Your Goddess Has Forsaken You', 'All enemy Heroes discard all spent Princess Coins from their cards.  All enemy Heroes without Princess Coins to discard suffer one wound.');
 
-/*Impulsive								--Index 1084*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Explore', 'Impulsive', ''); --!! unavailable Orcdon Ramsay !!
+/*Impulsive								--Index 1084*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Explore', 'Impulsive', 'When a model with Impulsive activates, roll 1R and apply the following depending on the number of stars rolled:<br>0ST: This model gains Brutal Strike this activation.<br>1ST: This model gains Improved Critical this activation.<br>2ST+: This model gains Brutal Strike and Improved Critical this activation.');
 
 /*Hex									--Index 1085*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Explore', 'Hex', 'A model suffering Hex discards the highest result rolled antime it makes an offense roll. After dice are rolled by any Hero for any reason, this model may discard the die to add it to the roll.');
 
@@ -6888,15 +6888,15 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (466, 2); --Armor
 insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (466, 1, 4);
 
---Pet Frost Imp --CardIndex 962	--CharacterIndex 572	--ExploreCharacterIndex 467
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Pet Frost Imp',
-'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Frost_Imp_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Frost_Imp_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Pets/Frost_Imp.xhtml', 
+--Buttons --CardIndex 962	--CharacterIndex 572	--ExploreCharacterIndex 467
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Buttons',
+'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Buttons_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Buttons_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Pets/Buttons.xhtml', 
 'Pet', '2.0', '2.0 Core Set', 'Default', 
-'');--!! unavailable !!
+'They were warned the pet was a gllutton.<br>That sly little Imp called Button.<br>Without socks to put their toes in,<br>The Heroes became quite frozen.<br>Because sheep are made out of mutton.');
 insert into Characters (CardIndex) VALUES (962);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (572, 4); --Sapphire --?? card image affinity is covered by a portion of another card ??
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (572, 4); --Sapphire
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (572,
 'http://htkb.info/SDE/2.0/Cards/Pets/Standies/Frost_Imp_2.0.png', 
@@ -7498,7 +7498,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/2.0/Cards/Creeps/Card_Creep_Frost_Imp_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Creeps/Frost_Imp.xhtml', 
 'Creep', '2.0', '2.0 Core Set', 'Explore', 
-'');--!! unavailable !!
+'Centuries of life within the bitter cold of the Frostbyte Reach have caused Frost Imps to mutate and adapt to their surroundings.  Frost Imp''s souls are as cold and hard as the land they call home.  They delight in causing avalanches upon traveling caravans, trapping hunters in snowdrifts, or simply putting snow down a sleeping Hero''s pants.');
 insert into Characters (CardIndex) VALUES (989);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (599, 4); --Sapphire
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
@@ -8653,19 +8653,19 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Orcdon_Ramsay_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/MiniBosses/Orcdon_Ramsay.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Explore',
-'');--!! unavailable !!
+'I don''t care if it''s a dungeon!<br>There''s no crying in this kitchen!');
 insert into Characters (CardIndex) VALUES (1037);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (647, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (647,
-'http://htkb.info/SDE/2.0/Cards/Standies/Orcdon_Ramsay_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Standies/Orcdon_Ramsay_2.0_back.png', 
-'Neither', 'Large', 'Orc', 6, 3, '1R 2G', '1B 2R', '2B', '2B', 7, 0);
+'http://htkb.info/SDE/2.0/Cards/Standies/Orcdon_Ramsay.png', 
+'http://htkb.info/SDE/2.0/Cards/Standies/Orcdon_Ramsay_back.png', 
+'Masculine', 'Large', 'Orc', 6, 3, '1R 2G', '1B 2R', '2B', '2B', 7, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (542, 1084); --Impulsive
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (542, 843); --Reckless
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (542, 863); --Can You Smell What The Orc Is Cooking?!
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (542, 1329); --IT'S RAW!
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (542, 1653); --Shop Fresh, Shop Local
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (542, 2079); --Can You Smell What The Orc Is Cooking?!
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (542, 2080); --IT'S RAW!
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (542, 2081); --Shop Fresh, Shop Local
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (542, 1, 3); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (542, 2); --Armor
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (542, 'MiniBoss', 'Super', 4);
@@ -8681,8 +8681,8 @@ insert into Characters (CardIndex) VALUES (1038);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (648, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (648,
-'http://htkb.info/SDE/2.0/Cards/Standies/Rage_Fiend_The_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Standies/Rage_Fiend_The_2.0_back.png', 
+'http://htkb.info/SDE/2.0/Cards/Standies/Rage_Fiend_The.png', 
+'http://htkb.info/SDE/2.0/Cards/Standies/Rage_Fiend_The_back.png', 
 'Neither', 'Large', 'Orc', 5, 4, '4R', '2B', '0ST', '2B', 8, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (543, 616); --Frenzy
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (543, 675); --Immune: Hex
@@ -8705,8 +8705,8 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (649, 1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (649, 2); --Emerald
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (649,
-'http://htkb.info/SDE/2.0/Cards/Standies/Randy_Lrod_of_Spiders_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Standies/Randy_Lrod_of_Spiders_2.0_back.png', 
+'http://htkb.info/SDE/2.0/Cards/Standies/Randy_Lrod_of_Spiders.png', 
+'http://htkb.info/SDE/2.0/Cards/Standies/Randy_Lrod_of_Spiders_back.png', 
 'Masculine', 'Small', 'Human Lrod', 5, 3, '3B', '1ST 1R', '3B', '2G', 7, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (544, 642); --Heal X
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (544, 1023); --Surefoot
@@ -9138,15 +9138,15 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Hoarfang_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Bosses/Hoarfang.xhtml', 
 'Boss', '2.0', '2.0 Core Set', 'Explore',
-'');--!! unavailable !!
+'');
 insert into Characters (CardIndex) VALUES (1056);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (666, 4); --Sapphire
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (666,
 'http://htkb.info/SDE/2.0/Cards/Bosses/Standies/Hoarfang_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Bosses/Standies/Hoarfang_2.0_back.png', 
-'Neither', 'Large', 'Dragon', 6, 5, '2R 3G', '3R', '5R', '3B', 12, 0);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (561, 520); --Crush
+'Neither', 'Huge', 'Dragon', 6, 5, '2R 3G', '3R', '5R', '3B', 12, 0);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (561, 519); --Crush
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (561, 596); --Fly
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (561, 676); --Immune: Ice
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (561, 685); --Improved Critical
@@ -13881,7 +13881,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Creeps/Card_Arcade_Creep_Frost_Imp_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Creeps/Frost_Imp.xhtml', 
 'Creep', '2.0', '2.0 Core Set', 'Arcade', 
-'');  --!! unavailable !!
+'Centuries of life within the bitter cold of the Frostbyte Reach have caused Frost Imps to mutate and adapt to their surroundings.  Frost Imp''s souls are as cold and hard as the land they call home.  They delight in causing avalanches upon traveling caravans, trapping hunters in snowdrifts, or simply putting snow down a sleeping Hero''s pants.');
 insert into Characters (CardIndex) VALUES (1269);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
 VALUES (879, 133, -1);
@@ -14805,11 +14805,11 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Orcdon_Ramsay_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/MiniBosses/Orcdon_Ramsay.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Arcade', 
-''); --!! unavailable !!
+'I don''t care if it''s a dungeon!<br>There''s no crying in this kitchen!');
 insert into Characters (CardIndex) VALUES (1317);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
 VALUES (927, 373, -1);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (927, 2); --Emerald --!! unavailable !!
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (927, 3); --Ruby
 --GangMemberIndex 607
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (159, 0, 'Orcdon Ramsay', 'Orc', 'MiniBoss', 6, 7, 3, 542);
@@ -15196,7 +15196,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Bosses/Card_Arcade_Boss_Hoarfang_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Bosses/Hoarfang.xhtml', 
 'Boss', '2.0', '2.0 Core Set', 'Arcade', 
-'');--!! unavailable !!
+'');
 insert into Characters (CardIndex) VALUES (1336);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
 VALUES (946, 473, -1);
@@ -18866,6 +18866,7 @@ insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (31, 68
 --2.0.1
 --Equipment
 
+
 --Accursed Longsword --CardIndex 1512 --EquipmentIndex 293
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Accursed Longsword',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Generic/Card_Treasure_Accursed_Longsword_2.0.png', 
@@ -19194,15 +19195,20 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1543, 'Treasure', 'Left', '+1G ARM');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (324, 1059); --Volatile
 
---Bleak Cap --CardIndex 1544 --EquipmentIndex 325
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Bleak Cap',
-'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Bleak_Cap_2.0.png', 
+--Bleak Crest --CardIndex 1544 --EquipmentIndex 325
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+'Bleak Crest',
+'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Bleak_Crest_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Relics/Bleak_Cap.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Relics/Bleak_Crest.xhtml', 
 'Relic', '2.0', '2.0 Core Set', 'Default',
-''); --!!unavailable !!
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1544, 'Character Relic', 'Top', '+1R ARM');  --!!unavailable !!
-insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (325, 964); --Hoarfang
+'');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1544, 'Character Relic', 'Bottom', '');
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (325, 502); --Charge
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (325, 859); --Run Down
+insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (325, 1335); --Juggernaut
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (325, 666); --Hoarfang: Explore
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (325, 946); --Hoarfang: Arcade
 
 --Blessed Spear --CardIndex 1545 --EquipmentIndex 326
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Blessed Spear',
@@ -20181,7 +20187,8 @@ insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1636,
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (417, 454); --Bane
 
 --Dragonblade Plate --CardIndex 1637 --EquipmentIndex 418
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Dragonblade Plate',
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+'Dragonblade Plate',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Dragonblade_Plate_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Dragonblade_Plate.xhtml', 
@@ -20190,7 +20197,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1637, 'Character Treasure', 'Left', '');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (418, 727); --Massive Damage
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (418, 1344); --Kill the Dragon
-insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (418, 964); --Hoarfang
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (418, 666); --Hoarfang: Explore
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (418, 946); --Hoarfang: Arcade
 
 --Driving Hat --CardIndex 1638 --EquipmentIndex 419
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Driving Hat',
@@ -20619,16 +20627,18 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1679, 'Loot', 'Top', '+1B DEX');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (460, 901); --Slow
 
---Freyjan Skin --CardIndex 1680 --EquipmentIndex 461
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Freyjan Skin',
-'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Freyjan_Skin_2.0.png', 
+--Freyjan Stole --CardIndex 1680 --EquipmentIndex 461
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+'Freyjan Stole',
+'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Freyjan_Stole_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Freyjan_Skin.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Freyjan_Stole.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
-'');  --!! unavailable !!
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1680, 'Character Treasure', 'Bottom', '+1R DEX +');  --!! unavailable !!
+'Careful, lest you get scratched.');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1680, 'Character Treasure', 'Top', '+1R DEX +1R STR');  --!! unavailable !!
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (461, 704); --Kitty Claws
-insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (461, 964); --Hoarfang
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (461, 666); --Hoarfang: Explore
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (461, 946); --Hoarfang: Arcade
 
 --Fried Eggs --CardIndex 1681 --EquipmentIndex 462
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Fried Eggs',
@@ -20676,17 +20686,18 @@ insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1684,
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (465, 668); --Ice
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (465, 981); --Ymnaur Wintersson
 
---Frozen Hammer --CardIndex 1685 --EquipmentIndex 466
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Frozen Hammer',
-'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Frozen_Hammer_2.0.png', 
+--Frost Hammer --CardIndex 1685 --EquipmentIndex 466
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+'Frost Hammer',
+'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Frost_Hammer_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Frozen_Hammer.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Frost_Hammer.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
-'');  --!! unavailable !!
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1685, 'Character Treasure', 'Right', '+1G STR');  --!! unavailable !!
---insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (466, kXXX); --!! unavailable !!
-insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (466, 46); --
-insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (466, 964); --Hoarfang
+'Why don''t you chill out for awhile!');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1685, 'Character Treasure', 'Left', '+1G STR');
+insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (466, 2327); --Ice Fan
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (466, 666); --Hoarfang: Explore
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (466, 946); --Hoarfang: Arcade
 
 --Frozen Soul --CardIndex 1686 --EquipmentIndex 467
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Frozen Soul',
@@ -20699,16 +20710,17 @@ insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1686,
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (467, 961); --Elrik the Lich King
 
 --Frozen Wand --CardIndex 1687 --EquipmentIndex 468
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Frozen Wand',
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+'Frozen Wand',
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Frozen_Wand_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Frozen_Wand.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
-'');  --!! unavailable !!
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1687, 'Character Treasure', 'Right', '+1G STR');  --!! unavailable !!
---insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (468, kXXX); --
-insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (468, 46); --!! unavailable !!
-insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (468, 964); --Hoarfang
+'Frozen solid.');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1687, 'Character Treasure', 'Left', '+1G WILL');
+insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (468, 2328); --Frozen Stiff
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (468, 666); --Hoarfang: Explore
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (468, 946); --Hoarfang: Arcade
 
 --Fruit Splash Cherry Bomb --CardIndex 1688 --EquipmentIndex 469
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Fruit Spash Cherry Bomb',
@@ -21031,15 +21043,17 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1718, 'Loot', 'Top', '+1R HEALTH');
 
 --Heart of Ice --CardIndex 1719 --EquipmentIndex 500
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Heart of Ice',
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+'Heart of Ice',
 'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Heart_of_Ice_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Back_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Relics/Heart_of_Ice.xhtml', 
 'Relic', '2.0', '2.0 Core Set', 'Default',
-'');  --!! unavailable !!
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1719, 'Character Relic', 'Bottom', '+1R STR');  --!! unavailable !!
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (500, 588); --Fire --!! unavailable !!
-insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (500, 964); --Hoarfang
+'Chilled to the core.');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1719, 'Character Relic', 'Top', '');
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (500, 482); --Brutal Strike
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (500, 666); --Hoarfang: Explore
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (500, 946); --Hoarfang: Arcade
 
 --Heart of the Forge --CardIndex 1720 --EquipmentIndex 501
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Heart of the Forge',
@@ -21203,17 +21217,18 @@ insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (515, 621);
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (515, 1289); --Ice King
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (515, 961); --Elrik the Lich King
 
---Ice Shoes --CardIndex 1735 --EquipmentIndex 516
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ice Shoes',
-'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Ice_Shoes_2.0.png', 
+--Ice Shards --CardIndex 1735 --EquipmentIndex 516
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+'Ice Shards',
+'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Ice_Shards_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Ice_Shoes.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Ice_Shards.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
-'');  --!! unavailable !!
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1735, 'Character Treasure', 'Right', '+1G STR');  --!! unavailable !!
---insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (516, kXXX); --
-insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (516, 46); --!! unavailable !!
-insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (516, 964); --Hoarfang
+'You''re mine princess!');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1735, 'Character Treasure', 'Bottom', '+1R WILL');  --!! unavailable !!
+insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (516, 2329); --Ice King
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (516, 666); --Hoarfang: Explore
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (516, 946); --Hoarfang: Arcade
 
 --Ijin Bracers --CardIndex 1736 --EquipmentIndex 517
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ijin Bracers',
@@ -21253,10 +21268,11 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Ingredient_Pouch.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1739, 'Character Treasure', 'Bottom', '+1 HEART +1 POTION');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (520, 442); --Augment
-insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (520, 46); --!! unavailable !!
-insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (520, 945); --Orcdon Ramsey
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1739, 'Character Treasure', 'Bottom', '+1HE +1PO');
+insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (520, 1467); --New Recipe
+insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (520, 1380); --Local Ingredients
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (520, 647); --Orcdon Ramsay: Explore
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (520, 927); --Orcdon Ramsay: Arcade
 
 --Innocense Lost --CardIndex 1740 --EquipmentIndex 521
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Innocence Lost',
@@ -22062,17 +22078,18 @@ insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (597, 588);
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (597, 1471); --Nightmare Charge
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (597, 940); --Knight of the Tower
 
---No --CardIndex 1817 --EquipmentIndex 598
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('No',
-'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_No_2.0.png', 
+--Noblesse Oblige --CardIndex 1817 --EquipmentIndex 598
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+'Noblesse Oblige',
+'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Noblesse_Oblige_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Card_Treasure_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/No.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Noblesse_Oblige.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
-'');  --!! unavailable !!
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1817, 'Character Treasure', 'Left', '+1G STR');  --!! unavailable !!
---insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (598, kXXX); --!! unavailable !!
-insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (598, 46); --!! unavailable !!
-insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (598, 964); --Hoarfang
+'');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1817, 'Character Treasure', 'Right', '+1R ARM +1R STR');  --!! unavailable !!
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (598, 585); --Feint
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (598, 666); --Hoarfang: Explore
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (598, 946); --Hoarfang: Arcade
 
 --Obaa-San Dumplings --CardIndex 1818 --EquipmentIndex 599
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Obaa-San Dumplings',
@@ -22772,16 +22789,17 @@ insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (664, 442);
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (664, 1627); --Shadow
 
 --Shard of Everlasting Ice --CardIndex 1884 --EquipmentIndex 665
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Shard of Everlasting Ice',
-'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Shard_of_Everlasting_Ice_2.0.png', 
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+'Shards of Everwinter',
+'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Shards_of_Everwinter_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Relics/Shard_of_Everlasting_Ice.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Relics/Shards_of_Everwinter.xhtml', 
 'Relic', '2.0', '2.0 Core Set', 'Default',
-''); --!! unavailable !!
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1884, 'Character Relic', 'Top', '+1B STR +1B DEX +1B WILL'); 
---insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (665, kXXX); -- --!! unavailable !! 
-insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (665, 46); -- --!! unavailable !!
-insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (665, 964); --Hoarfang
+'');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1884, 'Character Relic', 'Left', '+1R WILL');
+--insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (665, kXXX); --Chip Off the Block
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (665, 666); --Hoarfang: Explore
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (665, 946); --Hoarfang: Arcade
 
 --Shell Shield --CardIndex 1885 --EquipmentIndex 666
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Shell Shield',
@@ -23872,16 +23890,18 @@ insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (764, 1020)
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (764, 757); --Ash Cloud
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (764, 960); --Destroyer, The
 
---Winter Orb --CardIndex 1984 --EquipmentIndex 765
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Winter Orb',
-'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Winter_Orb_2.0.png', 
+--Winter's Chill --CardIndex 1984 --EquipmentIndex 765
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+'Winter''s Chill',
+'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Winters_Chill_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Relics/Winter_Orb.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Relics/Winters_Chill.xhtml', 
 'Relic', '2.0', '2.0 Core Set', 'Default',
-''); --!! unavailable !!
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1984, 'Character Relic', 'Top', '+1R WILL');  --!! unavailable !!
---insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (765, kXXX); --!! unavailable !!
-insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (765, 964); --Hoarfang
+'Gaze deeply... but beware, for what is revealed may be chilling.');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (1984, 'Character Relic', 'Right', '+1R STR');  --!! unavailable !!
+--insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (765, kXXX); --Ice Fiends
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (665, 666); --Hoarfang: Explore
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (665, 946); --Hoarfang: Arcade
 
 --Winter's Orb --CardIndex 1985 --EquipmentIndex 766
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Winter''s Orb',
@@ -24685,14 +24705,17 @@ VALUES ('Do Your Part!',
 'Challenge', '2.0', '2.0 Core Set', 'Default', 'If you are going to take on the Midnight Tower, be sure you have vetted your party properly. I knew that taking someone who calls himself "Jonah the well-rested of the frequent naps" was a mistake. He has done practically nothing!<br><br>I mean, how do you sleep through an ambush by Nether Elf assassins? I''m almost impressed.');
 insert into Challenges (CardIndex, Trap, Challenge) VALUES (2062, '', 'At the start of the Consul''s next turn, all Heroes with zero wrath suffer two wounds.');
 
---Dragon Race	--CardIndex 2063 --ChallengeIndex 27
+--Dragon's Rage	--CardIndex 2063 --ChallengeIndex 27
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
-VALUES ('Dragon Race',
+VALUES ('Dragon''s Rage',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss_Challenges/Hoarfang/Card_Boss_Challenge_Dragon_Race_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss_Challenges/Backs/Card_Boss_Challenge_Blue_Back_2.0.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Challenges/Boss_Challenges/Hoarfang/Dragon_Race.xhtml', 
-'Challenge', '2.0', '2.0 Core Set', 'Default', ''); --!! unavailable !!
-insert into Challenges (CardIndex, Trap, Challenge) VALUES (2063, '', ''); --!! unavailable !!
+'Challenge', '2.0', '2.0 Core Set', 'Default', 
+'You dare enter my home?!  I have been tolerant of you until now.  NO MORE!');
+insert into Challenges (CardIndex, Trap, Challenge) VALUES (2063, 
+'Move the Dungeon Boss in the most direct manner until it is adjacent to the SPAWNLOCATION on the second tile, moving through any walls, structures, or Heroes in its way.  Any Heroes moved through in this manner suffer one wound and Knockdown.', 
+'The dungeon boss gains +1ST ARM for each Frost Imp in play.');
 insert into ChallengeAssignments (CharacterIndex, ChallengeIndex) VALUES (964, 27); --Hoarfang
 
 --Dragon's Pride	--CardIndex 2064 --ChallengeIndex 28
@@ -24701,8 +24724,11 @@ VALUES ('Dragon''s Pride',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss_Challenges/Hoarfang/Card_Boss_Challenge_Dragons_Pride_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss_Challenges/Backs/Card_Boss_Challenge_Blue_Back_2.0.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Challenges/Boss_Challenges/Hoarfang/Dragons_Pride.xhtml', 
-'Challenge', '2.0', '2.0 Core Set', 'Default', '"Did you think that because I......'); --!! unavailable !!
-insert into Challenges (CardIndex, Trap, Challenge) VALUES (2064, 'All monsters perform the Unique command.', 'The dungeon boss.....'); --!! unavailable !!
+'Challenge', '2.0', '2.0 Core Set', 'Default', 
+'Did you think that because I deigned to speak with you that we were somehow acquaintances?  Let me dissuade you fo that notion.');
+insert into Challenges (CardIndex, Trap, Challenge) VALUES (2064, 
+'All monsters perform the Unique command.', 
+'The dungeon boss may not suffer more than one wound from a single action, such as critical hits or Massive Damage.');
 insert into ChallengeAssignments (CharacterIndex, ChallengeIndex) VALUES (964, 28); --Hoarfang
 
 --Drinking Contest	--CardIndex 2065 --ChallengeIndex 29
@@ -24721,8 +24747,11 @@ VALUES ('Elemental Wrath',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss_Challenges/Hoarfang/Card_Boss_Challenge_Elemental_Wrath_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss_Challenges/Backs/Card_Boss_Challenge_Blue_Back_2.0.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Challenges/Boss_Challenges/Hoarfang/Elemental_Wrath.xhtml', 
-'Challenge', '2.0', '2.0 Core Set', 'Default', ''); --!! unavailable !!
-insert into Challenges (CardIndex, Trap, Challenge) VALUES (2066, 'All monsters perform the Unique command.', ''); --!! unavailable !!
+'Challenge', '2.0', '2.0 Core Set', 'Default', 
+'I existed before Crystalia existed.  I am no mere creature that crawls upon its surface.  I am the aether.  I am magic given form, and you have roused my wrath.'); --!! unavailable !!
+insert into Challenges (CardIndex, Trap, Challenge) VALUES (2066, 
+'All monsters perform the Unique command.', 
+'Only a single Hero may activate.');
 insert into ChallengeAssignments (CharacterIndex, ChallengeIndex) VALUES (964, 30); --Hoarfang
 
 --Endless Tide, The	--CardIndex 2067 --ChallengeIndex 31
@@ -24754,14 +24783,17 @@ VALUES ('Extra Stuffing',
 insert into Challenges (CardIndex, Trap, Challenge) VALUES (2069, 'The dungeon boss performs the Unique command.', 'The dungeon boss may not suffer more than one wound from a single action, such as critical hits or Massive Damage.');
 insert into ChallengeAssignments (CharacterIndex, ChallengeIndex) VALUES (979, 33); --Thresher, The
 
---Faithful	--CardIndex 2070 --ChallengeIndex 34
+--Faithful Imps	--CardIndex 2070 --ChallengeIndex 34
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
-VALUES ('Faithful',
-'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss_Challenges/Hoarfang/Card_Boss_Challenge_Faithful_2.0.png', 
+VALUES ('Faithful Imps',
+'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss_Challenges/Hoarfang/Card_Boss_Challenge_Faithful_Imps_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss_Challenges/Backs/Card_Boss_Challenge_Blue_Back_2.0.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Challenges/Boss_Challenges/Hoarfang/Faithful.xhtml', 
-'Challenge', '2.0', '2.0 Core Set', 'Default', ''); --!! unavailable !!
-insert into Challenges (CardIndex, Trap, Challenge) VALUES (2070, '', ''); --!! unavailable !!
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Challenges/Boss_Challenges/Hoarfang/Faithful_Imps.xhtml', 
+'Challenge', '2.0', '2.0 Core Set', 'Default', 
+'Even without any physical connection to the Dark Realm, Hoarfang can wrench her minions into Crystalia replenshing her horders.');
+insert into Challenges (CardIndex, Trap, Challenge) VALUES (2070, 
+'Randomly select a spawning point that was destroyed this game.  All gangs listed on the spawning point are spawned as if they had received the Spawn command.  These gangs are spawned within three squares of the dungeon boss rather than their spawning pool.', 
+'The dungeon boss gains +1ST ARM for each Frost Imp in play.');
 insert into ChallengeAssignments (CharacterIndex, ChallengeIndex) VALUES (964, 34); --Hoarfang
 
 --Faithful Servants	--CardIndex 2071 --ChallengeIndex 35
@@ -24861,14 +24893,17 @@ VALUES ('Forever Curse, The',
 'Challenge', '2.0', '2.0 Core Set', 'Default', 'At the height of the battle, I caught a glimpse of the Midnight Queen herself. With a flick of her wrist I could feel the curse fall upon me, staining my very bones. Then the spiders came...');
 insert into Challenges (CardIndex, Trap, Challenge) VALUES (2080, 'The Hero with the least wrath selects a POISON, HEX, ICE, SLOW, FIRE and KNOCKDOWN token and distributes them among the Heroes. Each Hero must receive at least one status effect token. (These tokens may be negated by immunity.)', 'Heroes do not remove status effects at the end of their activation.');
 
---Freezing	--CardIndex 2081 --ChallengeIndex 45
+--Freezing Wind	--CardIndex 2081 --ChallengeIndex 45
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
-VALUES ('Freezing',
-'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss_Challenges/Hoarfang/Card_Boss_Challenge_Freezing_2.0.png', 
+VALUES ('Freezing Wind',
+'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss_Challenges/Hoarfang/Card_Boss_Challenge_Freezing_Wind_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss_Challenges/Backs/Card_Boss_Challenge_Blue_Back_2.0.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Challenges/Boss_Challenges/Hoarfang/Freezing.xhtml', 
-'Challenge', '2.0', '2.0 Core Set', 'Default', ''); --!! unavailable !!
-insert into Challenges (CardIndex, Trap, Challenge) VALUES (2081, '', ''); --!! unavailable !!
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Challenges/Boss_Challenges/Hoarfang/Freezing_Wind.xhtml', 
+'Challenge', '2.0', '2.0 Core Set', 'Default', 
+'As Hoarfang''s wings churn the air they produce frigid gales that quickly gather in speed and ferocity, freezing unprotected felsh in moments.');
+insert into Challenges (CardIndex, Trap, Challenge) VALUES (2081, 
+'The dungeon boss immediately performs the following action:<br> 0AC Freezing Wind: Wave 3, Push 3, ICE, KNOCKDOWN', 
+'The dungeon boss gains +1ST ARM for each Frost Imp in play.');
 insert into ChallengeAssignments (CharacterIndex, ChallengeIndex) VALUES (964, 45); --Hoarfang
 
 --Freezing March, The	--CardIndex 2082 --ChallengeIndex 46
@@ -24887,8 +24922,11 @@ VALUES ('Frostbite',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss_Challenges/Hoarfang/Card_Boss_Challenge_Frostbite_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss_Challenges/Backs/Card_Boss_Challenge_Blue_Back_2.0.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Challenges/Boss_Challenges/Hoarfang/Frostbite.xhtml', 
-'Challenge', '2.0', '2.0 Core Set', 'Default', ''); --!! unavailable !!
-insert into Challenges (CardIndex, Trap, Challenge) VALUES (2083, '', ''); --!! unavailable !!
+'Challenge', '2.0', '2.0 Core Set', 'Default', 
+'When you can''t feel your toes of fingers, you''re cold and need to find a fire.  When they''re fully encased in a block of ice--along with your legs and body and head--you''re an ice cube.  That''s a problem.');
+insert into Challenges (CardIndex, Trap, Challenge) VALUES (2083, 
+'The dungeon boss immediately performs the follwing action:<br>0AC Frostbite: Wave 3, BANE, POISON, ICE', 
+'Only a single Hero may activate.');
 insert into ChallengeAssignments (CharacterIndex, ChallengeIndex) VALUES (964, 47); --Hoarfang
 
 --Frozen Shield	--CardIndex 2084 --ChallengeIndex 48
@@ -24957,8 +24995,11 @@ VALUES ('Greedy Imps',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss_Challenges/Hoarfang/Card_Boss_Challenge_Greedy_Imps_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss_Challenges/Backs/Card_Boss_Challenge_Blue_Back_2.0.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Challenges/Boss_Challenges/Hoarfang/Greedy_Imps.xhtml', 
-'Challenge', '2.0', '2.0 Core Set', 'Default', '"They''re not stealing it because they want it. They''re stealing it because you want it, and they know the pain it will cause."');
-insert into Challenges (CardIndex, Trap, Challenge) VALUES (2090, 'Spawn one Frost Imp adjacent to each Hero with at least one Treasure equipped, to a maximum of six Frost Imps in play.', 'The dungeon boss may not suffer more than one wound from a single action, such as critical hits or Massive Damage.');
+'Challenge', '2.0', '2.0 Core Set', 'Default', 
+'They''re not stealing it because they want it. They''re stealing it because you want it, and they know the pain it will cause.');
+insert into Challenges (CardIndex, Trap, Challenge) VALUES (2090, 
+'Spawn one Frost Imp adjacent to each Hero with at least one Treasure equipped, to a maximum of six Frost Imps in play.', 
+'The dungeon boss may not suffer more than one wound from a single action, such as critical hits or Massive Damage.');
 insert into ChallengeAssignments (CharacterIndex, ChallengeIndex) VALUES (964, 54); --Hoarfang
 
 --Hay Bales	--CardIndex 2091 --ChallengeIndex 55
@@ -25212,8 +25253,11 @@ VALUES ('Little Helpers',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss_Challenges/Hoarfang/Card_Boss_Challenge_Little_Helpers_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss_Challenges/Backs/Card_Boss_Challenge_Blue_Back_2.0.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Challenges/Boss_Challenges/Hoarfang/Little_Helpers.xhtml', 
-'Challenge', '2.0', '2.0 Core Set', 'Default', ''); --!! unavailable !!
-insert into Challenges (CardIndex, Trap, Challenge) VALUES (2116, '', ''); --!! unavailable 1!
+'Challenge', '2.0', '2.0 Core Set', 'Default', 
+'The cold will numb your limbs and dull your reflexes.  And if you let enough of them swarm you, you won''t be able to move at all.');
+insert into Challenges (CardIndex, Trap, Challenge) VALUES (2116, 
+'Spawn one Frost Imp adjacent to each Hero, until there are a maximum of six in play.', 
+'All Heroes must use their DEX for all defense rolls.');
 insert into ChallengeAssignments (CharacterIndex, ChallengeIndex) VALUES (964, 80); --Hoarfang
 
 --Love Bites	--CardIndex 2117 --ChallengeIndex 81
@@ -25261,8 +25305,11 @@ VALUES ('Mental Fortitude',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss_Challenges/Hoarfang/Card_Boss_Challenge_Mental_Fortitude_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss_Challenges/Backs/Card_Boss_Challenge_Blue_Back_2.0.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Challenges/Boss_Challenges/Hoarfang/Mental_Fortitude.xhtml', 
-'Challenge', '2.0', '2.0 Core Set', 'Default', ''); --!! unavailable !!
-insert into Challenges (CardIndex, Trap, Challenge) VALUES (2121, '', ''); --!! unavailable !!
+'Challenge', '2.0', '2.0 Core Set', 'Default', 
+'Yes, I have drawn all heat from my hall.  Do you feel it?  It takes its toll, sapping you not only of your strength but of your resolve.  Now we will see what you are truly worth.');
+insert into Challenges (CardIndex, Trap, Challenge) VALUES (2121, 
+'All monsters perform the Unique command.', 
+'All Heroes must use their WILL for all defense rolls.');
 insert into ChallengeAssignments (CharacterIndex, ChallengeIndex) VALUES (964, 85); --Hoarfang
 
 --Might Makes Right	--CardIndex 2122 --ChallengeIndex 86
@@ -25356,8 +25403,11 @@ VALUES ('Out Of The Ice',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss_Challenges/Hoarfang/Card_Boss_Challenge_Out_of_the_Ice_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss_Challenges/Backs/Card_Boss_Challenge_Blue_Back_2.0.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Challenges/Boss_Challenges/Hoarfang/Out_of_the_Ice.xhtml', 
-'Challenge', '2.0', '2.0 Core Set', 'Default', 'No one is entirely sure if Frost Imps hide in the ice or if Hoarfang wills them into being from the ice.');
-insert into Challenges (CardIndex, Trap, Challenge) VALUES (2131, 'Spawn Frost Imps within three squares of the dungeon boss until there are six Frost Imps in play.', 'All monster commands target the Hero with the least wrath.');
+'Challenge', '2.0', '2.0 Core Set', 'Default', 
+'No one is entirely sure if Frost Imps hide in the ice or if Hoarfang wills them into being from the ice.');
+insert into Challenges (CardIndex, Trap, Challenge) VALUES (2131, 
+'Spawn Frost Imps within three squares of the dungeon boss until there are six Frost Imps in play.', 
+'All monster commands target the Hero with the least wrath.');
 insert into ChallengeAssignments (CharacterIndex, ChallengeIndex) VALUES (964, 95); --Hoarfang
 
 --Overexertion	--CardIndex 2132 --ChallengeIndex 96

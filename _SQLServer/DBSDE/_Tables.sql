@@ -61,7 +61,7 @@ CREATE TABLE ChallengeAssignments (ChallengeAssignmentIndex bigint IDENTITY(0,1)
 CREATE TABLE Plots (PlotIndex bigint IDENTITY(0,1) PRIMARY KEY, CardIndex bigint not null, PowerUp varchar(100) not null, Plot varchar(1000) not null);
 CREATE TABLE MightyMonsters (MightyMonsterIndex bigint IDENTITY(0,1) PRIMARY KEY, CardIndex bigint not null, Targets varchar(100) not null, Bonus varchar(250) not null, Condition varchar(500) not null);
 
-CREATE TABLE CustomCards (CustomCardIndex bigint IDENTITY(0,1) PRIMARY KEY, CardIndex bigint not null, Author varchar(30) not null, SoureURL varchar(100) not null);
+CREATE TABLE CustomCards (CustomCardIndex bigint IDENTITY(0,1) PRIMARY KEY, CardIndex bigint not null, Author varchar(30) not null, SourceURL varchar(150) not null);
 
 
 

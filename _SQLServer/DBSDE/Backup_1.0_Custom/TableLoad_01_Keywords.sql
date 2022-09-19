@@ -32,5 +32,10 @@
 
 /*Invulnerable						--Index   1144*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0 Custom', 'Default', 'Invulnerable', 				'Status effects only last until the end of the your next turn.');
 
+/*GooBody							--Index   1145*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0 Custom', 'Default', 'GooBody', 					'When attacked, if the attack misses, then this model may immediately move 1 space.');
 
+/*Flee								--Index   1146*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0 Custom', 'Default', 'Flee', 						'Metaly enters the dungeon from any entrance when 16 bit is reached.  it is moved first on every Consul turn and MUST move across every tie in play.  Once it reaches the final tile it exits from any entrance on that tile.');
+/*Shinies							--Index   1147*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0 Custom', 'Default', 'Shinies', 					'Heroes that kill a Metaly may draw from the Treasure deck.');
 
+/*Spawning Pool						--Index   1148*/		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0 Custom', 'Explore', 'Spawning Pool', 			'1x Slime Stack (Spawning Point)<br>1x Dukeslime<br>1x Healie<br>2x Blubblies<br>4x Slimes<br>1x Metaly');
+/*Spawning Pool						--Index   1149*/		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0 Custom', 'Explore', 'Spawning Pool', 			'1x Warp Pipe (Spawning Point)<br>1x Bob-omb<br>2x Koopa Troopas<br>3x Goombas');
