@@ -60,7 +60,7 @@ VALUES (543,
 'http://htkb.info/SDE/2.0/Cards/Pets/Standies/Colonel_The_2.0_back.png',
 'Either', 'Small', '', 6, 1, '2R', '3BT', '2ST', '0ST', 1, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (438, 903); --Small
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (438, 1806); --Tactical Strike
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (438, 1807); --Tactical Strike
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (438, 1, 1); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (438, 2); --Armor
 insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (438, 2, -1);
@@ -592,7 +592,7 @@ VALUES (567,
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (462, 903); --Small
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (462, 1025); --Tag Team
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (462, 1029); --Teleport
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (462, 2058); --Out of Nowhere
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (462, 2059); --Out of Nowhere
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (462, 1, 2); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (462, 2); --Armor
 insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (462, 3, -1);
@@ -987,7 +987,7 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (480
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (480, 569); --Emergency Supply
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (480, 642); --Heals X
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (480, 705); --Knockdown
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (480, 1867); --Trip
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (480, 1868); --Trip
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (480, 1588); --Resupply
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (480, 1, 1); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (480, 2); --Armor
@@ -1009,7 +1009,7 @@ VALUES (586,
 'Neither', 'Small', 'Pet', 6, 1, '3B', '3B', '2B', '2R', 3, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (481, 442); --Augment
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (481, 506); --Clever
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (481, 2032); --Yip! Yip!
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (481, 2034); --Yip! Yip!
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (481, 1, 1); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (481, 2); --Armor
 insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (481, 2, -1);

@@ -10,7 +10,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/1.0/Custom/Cards/Warbands/Beasts/Card_Warband_Rabillion_1.0.png', 
 'http://htkb.info/SDE/1.0/Custom/Cards/Warbands/Beasts/Card_Warband_Rabillion_1.0_back.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Custom/Cards/Warbands/Beasts/Rabillion.xhtml', 
-'Warband', '1.0', '1.0 Core Set', 'Explore',
+'Warband', '1.0 Custom', '1.0 Custom Set', 'Explore',
 '');
 insert into Characters (CardIndex) VALUES (2327); 
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
@@ -36,7 +36,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/1.0/Custom/Cards/Warbands/Beasts/Card_Warband_Rabite_1.0.png', 
 'http://htkb.info/SDE/1.0/Custom/Cards/Warbands/Beasts/Card_Warband_Rabite_1.0_back.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Custom/Cards/Warbands/Beasts/Rabite.xhtml', 
-'Warband', '1.0', '1.0 Core Set', 'Explore',
+'Warband', '1.0 Custom', '1.0 Custom Set', 'Explore',
 '');
 insert into Characters (CardIndex) VALUES (2328); 
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
@@ -62,7 +62,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/1.0/Custom/Cards/Warbands/Maids/Card_Warband_Maid_Battle_Maid_1.0_Custom.png', 
 'http://htkb.info/SDE/1.0/Custom/Cards/Warbands/Maids/Card_Warband_Maid_Battle_Maid_1.0_Custom_back.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Custom/Cards/Warbands/Maids/Battle_Maid.xhtml', 
-'Warband', '1.0', '1.0 Core Set', 'Explore',
+'Warband', '1.0 Custom', '1.0 Custom Set', 'Explore',
 '');
 insert into Characters (CardIndex) VALUES (2329); 
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
@@ -77,7 +77,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (839
 insert into CustomCards (CardIndex, Author, SourceURL) VALUES(
 2329,
 '@EY',
-'https://kawaiisaa.blogspot.com/2014/09/super-dungeon-explore.html'
+'https://kawaiisaa.blogspot.com/2015/09/super-dungeon-explore.html'
 );
 
 --Meido --Card Index 2330	--CharacterIndex 1179 --ExploreCharacterIndex 840
@@ -86,7 +86,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/1.0/Custom/Cards/Warbands/Maids/Card_Warband_Maid_Meido_1.0_Custom.png', 
 'http://htkb.info/SDE/1.0/Custom/Cards/Warbands/Maids/Card_Warband_Maid_Meido_1.0_Custom_back.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Custom/Cards/Warbands/Maids/Meido.xhtml', 
-'Warband', '1.0', '1.0 Core Set', 'Explore',
+'Warband', '1.0 Custom', '1.0 Custom Set', 'Explore',
 '');
 insert into Characters (CardIndex) VALUES (2330); 
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
@@ -101,7 +101,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (840
 insert into CustomCards (CardIndex, Author, SourceURL) VALUES(
 2330,
 '@EY',
-'https://kawaiisaa.blogspot.com/2014/09/super-dungeon-explore.html'
+'https://kawaiisaa.blogspot.com/2015/09/super-dungeon-explore.html'
 );
 
 
@@ -112,7 +112,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/1.0/Custom/Cards/Warbands/Slimes/Card_Warband_Slime_1.0_Custom.png', 
 'http://htkb.info/SDE/1.0/Custom/Cards/Warbands/Slimes/Card_Warband_Slime_1.0_Custom_back.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Custom/Cards/Warbands/Slimes/Slime.xhtml', 
-'Warband', '1.0', '1.0 Core Set', 'Explore',
+'Warband', '1.0 Custom', '1.0 Custom Set', 'Explore',
 '');
 insert into Characters (CardIndex) VALUES (2331); 
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
@@ -137,7 +137,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/1.0/Custom/Cards/Warbands/Slimes/Card_Warband_Slime_Bubblie_1.0_Custom.png', 
 'http://htkb.info/SDE/1.0/Custom/Cards/Warbands/Slimes/Card_Warband_Slime_Bubblie_1.0_Custom_back.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Custom/Cards/Warbands/Slimes/Bubblie.xhtml', 
-'Warband', '1.0', '1.0 Core Set', 'Explore',
+'Warband', '1.0 Custom', '1.0 Custom Set', 'Explore',
 '');
 insert into Characters (CardIndex) VALUES (2332); 
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
@@ -162,7 +162,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/1.0/Custom/Cards/Warbands/Slimes/Card_Warband_Slime_Bubblie_1.0_Custom.png', 
 'http://htkb.info/SDE/1.0/Custom/Cards/Warbands/Slimes/Card_Warband_Slime_Bubblie_1.0_Custom_back.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Custom/Cards/Warbands/Slimes/Bubblie.xhtml', 
-'Warband', '1.0', '1.0 Core Set', 'Explore',
+'Warband', '1.0 Custom', '1.0 Custom Set', 'Explore',
 '');
 insert into Characters (CardIndex) VALUES (2333); 
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
@@ -186,7 +186,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/1.0/Custom/Cards/Warbands/Slimes/Card_Warband_Slime_Dukeslime_1.0_Custom.png', 
 'http://htkb.info/SDE/1.0/Custom/Cards/Warbands/Slimes/Card_Warband_Slime_Dukeslime_1.0_Custom_back.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Custom/Cards/Warbands/Slimes/Dukeslime.xhtml', 
-'Warband', '1.0', '1.0 Core Set', 'Explore',
+'Warband', '1.0 Custom', '1.0 Custom Set', 'Explore',
 '');
 insert into Characters (CardIndex) VALUES (2334); 
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
@@ -212,7 +212,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/1.0/Custom/Cards/Warbands/Slimes/Card_Warband_Slime_Healie_1.0_Custom.png', 
 'http://htkb.info/SDE/1.0/Custom/Cards/Warbands/Slimes/Card_Warband_Slime_Healie_1.0_Custom_back.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Custom/Cards/Warbands/Slimes/Healie.xhtml', 
-'Warband', '1.0', '1.0 Core Set', 'Explore',
+'Warband', '1.0 Custom', '1.0 Custom Set', 'Explore',
 '');
 insert into Characters (CardIndex) VALUES (2335); 
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
@@ -238,7 +238,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/1.0/Custom/Cards/Warbands/Slimes/Card_Warband_Slime_Metaly_1.0_Custom.png', 
 'http://htkb.info/SDE/1.0/Custom/Cards/Warbands/Slimes/Card_Warband_Slime_Metaly_1.0_Custom_back.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Custom/Cards/Warbands/Slimes/Metaly.xhtml', 
-'Warband', '1.0', '1.0 Core Set', 'Explore',
+'Warband', '1.0 Custom', '1.0 Custom Set', 'Explore',
 '');
 insert into Characters (CardIndex) VALUES (2336); 
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
@@ -292,7 +292,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/1.0/Custom/Cards/Warbands/Warp_Pipe/Card_Warband_Warp_Pipe_Bob_Omb_1.0_Custom.png', 
 'http://htkb.info/SDE/1.0/Custom/Cards/Warbands/Warp_Pipe/Card_Warband_Warp_Pipe_Bob_Omb_1.0_Custom_back.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Custom/Cards/Warbands/Warp_Pipe/Bob_Omb.xhtml', 
-'Warband', '1.0', '1.0 Core Set', 'Explore',
+'Warband', '1.0 Custom', '1.0 Custom Set', 'Explore',
 '');
 insert into Characters (CardIndex) VALUES (2338); 
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
@@ -316,7 +316,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/1.0/Custom/Cards/Warbands/Warp_Pipe/Card_Warband_Warp_Pipe_Goomba_1.0_Custom.png', 
 'http://htkb.info/SDE/1.0/Custom/Cards/Warbands/Warp_Pipe/Card_Warband_Warp_Pipe_Goomba_1.0_Custom_back.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Custom/Cards/Warbands/Warp_Pipe/Goomba.xhtml', 
-'Warband', '1.0', '1.0 Core Set', 'Explore',
+'Warband', '1.0 Custom', '1.0 Custom Set', 'Explore',
 '');
 insert into Characters (CardIndex) VALUES (2339); 
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
@@ -341,7 +341,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/1.0/Custom/Cards/Warbands/Warp_Pipe/Card_Warband_Warp_Pipe_Koopa_Troopa_1.0_Custom.png', 
 'http://htkb.info/SDE/1.0/Custom/Cards/Warbands/Warp_Pipe/Card_Warband_Warp_Pipe_Koopa_Troopa_1.0_Custom_back.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Custom/Cards/Warbands/Warp_Pipe/Koopa_Troopa.xhtml', 
-'Warband', '1.0', '1.0 Core Set', 'Explore',
+'Warband', '1.0 Custom', '1.0 Custom Set', 'Explore',
 '');
 insert into Characters (CardIndex) VALUES (2336); 
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (

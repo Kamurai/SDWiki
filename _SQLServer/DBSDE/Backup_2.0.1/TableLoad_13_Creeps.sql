@@ -66,7 +66,7 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (490
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (490, 709); --Knockdown
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (490, 1060); --Volatile
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (490, 1340); --Kaboom
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (490, 2066); --Toss Me
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (490, 2067); --Toss Me
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (490, 2); --Armor
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (490, '', '8 Bit', 0);
 
@@ -131,7 +131,7 @@ VALUES (598,
 'Either', 'Small', 'Gnome', 4, 1, '3B', '1ST', '2B', '1B', 1, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (493, 588); --Fire 
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (493, 1175); --Freelance Fire Forge
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (493, 2025); --Work The Bellows
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (493, 2026); --Work The Bellows
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (493, 1, 1); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (493, 2); --Armor
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (493, '', '8 Bit', 0);
@@ -387,7 +387,7 @@ VALUES (610,
 'http://htkb.info/SDE/2.0/Cards/Creeps/Standies/Yowling_2.0_back.png',
 'Either', 'Small', 'Owlbear', 6, 1, '2B', '1ST', '1B', '4B', 1, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (505, 636); --Grabby
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (505, 1829); --Thieving Owls
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (505, 1830); --Thieving Owls
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (505, 1, 1); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (505, 2); --Armor
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (505, '', '8 Bit', 0);

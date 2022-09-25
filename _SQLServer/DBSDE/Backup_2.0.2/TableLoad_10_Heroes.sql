@@ -69,7 +69,7 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (776
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (776, 679); --Immune: Poison
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (776, 1147); --Flintlock
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (776, 1352); --Kraken
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (776, 1863); --Treasure Map
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (776, 1864); --Treasure Map
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (776, 1, 1); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (776, 2); --Armor
 

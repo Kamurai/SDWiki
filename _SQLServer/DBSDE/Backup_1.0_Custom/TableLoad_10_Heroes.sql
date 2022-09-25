@@ -324,7 +324,7 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (8
 insert into CustomCards (CardIndex, Author, SourceURL) VALUES(
 2298,
 '@EY',
-'https://kawaiisaa.blogspot.com/2014/09/super-dungeon-explore.html'
+'https://kawaiisaa.blogspot.com/2015/09/super-dungeon-explore.html'
 );
 
 --Hired Hand --Card Index 2299	--CharacterIndex 1148 --ExploreCharacterIndex 809
@@ -645,7 +645,7 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (8
 insert into CustomCards (CardIndex, Author, SourceURL) VALUES(
 2310,
 '@EY',
-'https://kawaiisaa.blogspot.com/2014/09/super-dungeon-explore.html'
+'https://kawaiisaa.blogspot.com/2015/09/super-dungeon-explore.html'
 );
 
 --Sirdan --Card Index 2311	--CharacterIndex 1160 --ExploreCharacterIndex 821

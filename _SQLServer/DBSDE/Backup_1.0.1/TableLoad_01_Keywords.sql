@@ -1,5 +1,5 @@
 --SDE
---1.0 
+--1.0.1 
 --Keywords
 
 
@@ -170,12 +170,3 @@
 /*Wave								--Index 164*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Wave', 'A Wave effect is centered<br>on the user’s square and<br>hits the user and every<br>model within X squares of<br>the user. Waves replace the<br>distance portion (X) of a<br>distance effect, but do not<br>replace any other aspect of<br>the ability.');
 /*Wave								--Index 165*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Wave', 'A Wave effect is centered on the user’s base and every square within X squares of the user.');
 /*Weak								--Index 166*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Weak', 'A model or effect with Weak places a Weak counter on any model it damages. A model suffering Weak discards the highest result rolled anytime it makes a roll using its ATT attribute.');
-
-/*Lance								--Index 167*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Lance', 'A Lance effect draws a straight Line in any direction, directly away from the user''s base along a distance of X. Every model along this Line is hit. Lance effects may not be used along diagonals.');
-/*Massive Damage					--Index 168*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Massive Damage', 'When an offensive action with Massive Damage inflicts a wound it instead inflicts two wounds.');
-
-
-
-
-
-

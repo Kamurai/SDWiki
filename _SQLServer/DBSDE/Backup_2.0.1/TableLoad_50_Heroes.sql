@@ -21,10 +21,10 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (768
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (768, 544); --Defender
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (768, 728); --Massive Damage
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (768, 815); --Pounce
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (768, 2065); --Viper's Strike
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (768, 2056); --Night's Mercy, The
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (768, 2043); --At Your Back
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (768, 2061); --Tears of the Moon
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (768, 2066); --Viper's Strike
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (768, 2057); --Night's Mercy, The
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (768, 2044); --At Your Back
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (768, 2062); --Tears of the Moon
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (768, 1, 2); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (768, 2); --Armor
 
@@ -47,10 +47,10 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (769
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (769, 685); --Improved Critical
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (769, 708); --Knockdown
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (769, 728); --Massive Damage
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (769, 2059); --SparkleBOOM
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (769, 2049); --Fireworks
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (769, 2053); --Lights In Your Eyes
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (769, 2050); --Glitter Bomb
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (769, 2060); --SparkleBOOM
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (769, 2050); --Fireworks
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (769, 2054); --Lights In Your Eyes
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (769, 2051); --Glitter Bomb
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (769, 3, 8); --Will
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (769, 2); --Armor
 
@@ -71,10 +71,10 @@ VALUES (1102,
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (770, 596); --Fly
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (770, 1086); --Heart Attack
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (770, 662); --Hunger
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (770, 2060); --Taste of You, A
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (770, 2046); --Dance of the Dead, The
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (770, 2054); --Look Into My Eyes
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (770, 2047); --Essence of Vampire
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (770, 2061); --Taste of You, A
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (770, 2047); --Dance of the Dead, The
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (770, 2055); --Look Into My Eyes
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (770, 2048); --Essence of Vampire
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (770, 3, 3); --Will
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (770, 4, 2); --Dex
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (770, 2); --Armor
@@ -96,9 +96,9 @@ VALUES (1103,
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (771, 506); --Clever
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (771, 647); --Hex
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (771, 713); --Leadership
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (771, 2062); --Textbook Curse
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (771, 2052); --Let's Discuss Our Plan
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (771, 2064); --Ultra Caffeinated Cramming Potion
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (771, 2055); --Memorized Healing Potion
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (771, 2063); --Textbook Curse
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (771, 2053); --Let's Discuss Our Plan
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (771, 2065); --Ultra Caffeinated Cramming Potion
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (771, 2056); --Memorized Healing Potion
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (771, 3, 4); --Will
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (771, 2); --Armor

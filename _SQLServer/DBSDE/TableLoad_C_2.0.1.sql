@@ -2082,7 +2082,7 @@
 
 
 --SDE
---2.0 
+--2.0.1 
 --Heroes
 
 --Abominable Snowman --CardIndex 762	--CharacterIndex 372	--ExploreCharacterIndex 267
@@ -14968,7 +14968,7 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (935, 1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (935, 3); --Ruby
 --GangMemberIndex 615
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (167, 0, 'Tidal Knight', 'Nether Elf Soidier', 'MiniBoss', 6, 8, 3, 550);
+VALUES (167, 0, 'Tidal Knight', 'Nether Elf Soldier', 'MiniBoss', 6, 8, 3, 550);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (615, 549); --Dibs
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (615, 596); --Fly
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (615, 803); --Piracy

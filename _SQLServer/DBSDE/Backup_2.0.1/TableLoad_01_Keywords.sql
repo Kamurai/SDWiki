@@ -18,6 +18,16 @@
 /*Ammo Dump								--Index 430*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Ammo Dump', 'The Consul places six crystal shell tokens anywhere in the dungeon.  These tokens may not be placed within three squares of another crystal shell token.<br><br>All Heroes gain the following action for the duration of this Boss Fight:  Firing Pin');
 /*Angry Walrus							--Index 431*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Explore', 'Angry Walrus', 'At the end of the Consul''s power-up phase, the Consul rolls 1B. If no stars are rolled, nothing happens. If any stars are rolled, the Consul may move the model with Angry Walrus up to one square for each star rolled and then make a basic melee offensive action against any other member of the party in range (Arcade: the Hero''s controller rolls and must move towards and attack the closest other friendly model if stars are rolled).');
 /*Animate Soul							--Index 432*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Animate Soul', 'Place a crystal token on target Hero.  When the Hero is destroyed, if the model that placed the crystal is not in play, remove the crystal adjacent to the Hero.  The model spawned in this way suffers three wounds after being placed.');
+
+
+
+
+--Adjust Keywords going forward
+
+
+
+
+
 /*Animate Soul							--Index 434*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Explore', 'Animate Soul', 'Place a crystal token on target Hero.  When the Hero is destroyed, if the model that placed the crystal is not in play, remove the crystal token to spawn the model that placed the crystsal adjacent to the Hero. The model spawned in this way suffers three wounds after being placed.');
 /*Another Round							--Index 435*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Another Round', 'During upkeep roll 1B.  For every start rolled Deodric gains one potion.');
 /*Apprenticeships						--Index 436*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Apprenticeships', 'Spawn six Forge Gnomes; one within two squares of each dungeon exit in the first tile and one within two squares of each dungeon exit in the last tile.');

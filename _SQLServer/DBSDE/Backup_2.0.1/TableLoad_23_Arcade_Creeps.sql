@@ -110,7 +110,7 @@ insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, 
 VALUES (111, 0, 'Frost Imp', 'Demon', 'Creep', 6, 1, 0, 494);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (159, 460); --Biting Wind
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (159, 691); --Insignificant
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (159, 2070); --Snowball Fight!
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (159, 2071); --Snowball Fight!
 
 --Ghostflame	--CardIndex 1270	--CharacterIndex 880	--ArcadeCharacterIndex 112
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ghostflame',

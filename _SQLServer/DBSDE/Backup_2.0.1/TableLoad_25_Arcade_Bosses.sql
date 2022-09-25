@@ -22,7 +22,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (619, 816)
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (619, 833); --Rampage
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (619, 1010); --Stealth
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (619, 1023); --Surefoot
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (619, 1826); --Tetsubo For Every Face, A
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (619, 1827); --Tetsubo For Every Face, A
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (619, 1655); --Show of Strength
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (619, 1688); --Smokebomb
 
@@ -152,9 +152,9 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (625, 727)
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (625, 1095); --Pig Feed
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (625, 800); --Pile-on
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (625, 1041); --Tough
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (625, 2057); --Out of My Way!
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (625, 2051); --Goblin Toss
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (625, 1997); --Warcry
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (625, 2058); --Out of My Way!
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (625, 2052); --Goblin Toss
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (625, 1998); --Warcry
 
 --Hoarfang	--CardIndex 1336	--CharacterIndex 946	--ArcadeCharacterIndex 178
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Hoarfang',
@@ -176,9 +176,9 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (626, 620)
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (626, 668); --Ice
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (626, 762); --Monstrous Size
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (626, 518); ----!! unavailable !!
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (626, 2089); --Wind, The
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (626, 2090); --Wind, The
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (626, 1215); --Glacial Shift
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (626, 1815); --Tear to Pieces
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (626, 1816); --Tear to Pieces
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (626, 1358); --Lashing Tail
 
 --Jorogumo	--CardIndex 1337	--CharacterIndex 947	--ArcadeCharacterIndex 179
@@ -200,7 +200,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (627, 524)
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (627, 726); --Massive Damage
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (627, 807); --Poison
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (627, 1068); --Webs
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (627, 2088); --Silk Noose
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (627, 2089); --Silk Noose
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (627, 1731); --Spin Webs
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (627, 1095); --Feed on Essence
 
@@ -388,7 +388,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (636, 633)
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (636, 672); --Immobile
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (636, 681); --Immune: Status Effects
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (636, 727); --Massive Damage
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (636, 1884); --Unfortunate Accident
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (636, 1885); --Unfortunate Accident
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (636, 962); --Cursed Vision
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (636, 1107); --Final Day
 
@@ -412,7 +412,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (637, 807)
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (637, 880); --Shake Down
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (637, 1041); --Tough
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (637, 1055); --Easy Mark
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (637, 2090); --Pipe Puff
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (637, 2091); --Pipe Puff
 
 --Professor Cackle-Clink	--CardIndex 1348	--CharacterIndex 958	--ArcadeCharacterIndex 190
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Professor Cackle-Clink',
@@ -455,7 +455,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (639, 596)
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (639, 674); --Immune: Fire
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (639, 706); --Knockdown
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (639, 1317); --Inferno
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (639, 1807); --Tail Sweep
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (639, 1808); --Tail Sweep
 
 --Testudo Tower	--CardIndex 1350	--CharacterIndex 960	--ArcadeCharacterIndex 192
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Testudo Tower',
@@ -518,7 +518,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (642, 728)
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (642, 765); --My Brother!
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (642, 1651); --Shoots 'em In The Air!!!
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (642, 1762); --Stomp And Bash
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (642, 2036); --You're Bleeding, Brother!
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (642, 2037); --You're Bleeding, Brother!
 
 --Ymnaur Wintersson	--CardIndex 1353	--CharacterIndex 963	--ArcadeCharacterIndex 195
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ymnaur Wintersson',
@@ -538,5 +538,5 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (643, 668)
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (643, 676); --Immune: Ice
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (643, 725); --Mark The Path
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (643, 845); --Refuge
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (643, 1861); --Travel The Way
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (643, 1862); --Travel The Way
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (643, 1754); --Stinging Wind

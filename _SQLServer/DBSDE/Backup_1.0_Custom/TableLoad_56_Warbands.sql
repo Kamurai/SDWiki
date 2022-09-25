@@ -10,7 +10,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/1.0/Custom/Cards/Warbands/Dwelling/Card_Warband_Blight_Rat_1.0.png', 
 'http://htkb.info/SDE/1.0/Custom/Cards/Warbands/Dwelling/Card_Warband_Blight_Rat_1.0_back.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Custom/Cards/Warbands/Dwelling/Blight_Rat.xhtml', 
-'Warband', '1.0', '1.0 Core Set', 'Explore',
+'Warband', '1.0 Custom', '1.0 Custom Set', 'Explore',
 '');
 insert into Characters (CardIndex) VALUES (2348); 
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (856, 83); --Mob
@@ -34,7 +34,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/1.0/Custom/Cards/Warbands/Dwelling/Card_Warband_Dire_Bat_1.0.png', 
 'http://htkb.info/SDE/1.0/Custom/Cards/Warbands/Dwelling/Card_Warband_Dire_Bat_1.0_back.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Custom/Cards/Warbands/Dwelling/Dire_Bat.xhtml', 
-'Warband', '1.0', '1.0 Core Set', 'Explore',
+'Warband', '1.0 Custom', '1.0 Custom Set', 'Explore',
 '');
 insert into Characters (CardIndex) VALUES (2349); 
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (857, 36); --Fly
@@ -59,7 +59,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/1.0/Custom/Cards/Warbands/Dwelling/Card_Warband_Dirt_Eater_1.0.png', 
 'http://htkb.info/SDE/1.0/Custom/Cards/Warbands/Dwelling/Card_Warband_Dirt_Eater_1.0_back.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Custom/Cards/Warbands/Dwelling/Dirt_Eater.xhtml', 
-'Warband', '1.0', '1.0 Core Set', 'Explore',
+'Warband', '1.0 Custom', '1.0 Custom Set', 'Explore',
 '');
 insert into Characters (CardIndex) VALUES (2350); 
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (858, 79); --Magic 4
@@ -85,7 +85,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/1.0/Custom/Cards/Warbands/Dwelling/Card_Warband_Salamander_1.0.png', 
 'http://htkb.info/SDE/1.0/Custom/Cards/Warbands/Dwelling/Card_Warband_Salamander_1.0_back.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Custom/Cards/Warbands/Dwelling/Salamander.xhtml', 
-'Warband', '1.0', '1.0 Core Set', 'Explore',
+'Warband', '1.0 Custom', '1.0 Custom Set', 'Explore',
 '');
 insert into Characters (CardIndex) VALUES (2351); 
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (859, 59); --Immune: Poison
@@ -110,7 +110,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/1.0/Custom/Cards/Warbands/Dwelling/Card_Warband_Spitting_Spider_1.0.png', 
 'http://htkb.info/SDE/1.0/Custom/Cards/Warbands/Dwelling/Card_Warband_Spitting_Spider_1.0_back.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Custom/Cards/Warbands/Dwelling/Spitting_Spider.xhtml', 
-'Warband', '1.0', '1.0 Core Set', 'Explore',
+'Warband', '1.0 Custom', '1.0 Custom Set', 'Explore',
 '');
 insert into Characters (CardIndex) VALUES (2352); 
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (860, 90); --Poison

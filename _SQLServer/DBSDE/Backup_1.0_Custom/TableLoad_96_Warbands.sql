@@ -10,7 +10,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/1.0/Custom/Cards/Warbands/Slimes/Card_Warband_Slime_Stack_1.0.png', 
 'http://htkb.info/SDE/1.0/Custom/Cards/Warbands/Slimes/Card_Warband_Slime_Stack_1.0_back.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Custom/Cards/Warbands/Slimes/Slime_Stack.xhtml', 
-'Warband', '1.0', '1.0 Core Set', 'Explore',
+'Warband', '1.0 Custom', '1.0 Custom Set', 'Explore',
 '');
 insert into Characters (CardIndex) VALUES (2353); 
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (861, 83); --Mob

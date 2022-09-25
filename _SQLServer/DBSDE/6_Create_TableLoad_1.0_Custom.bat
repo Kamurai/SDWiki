@@ -6,7 +6,8 @@
 ' ' > TableLoad_E_2.0.2.sql
 ' ' > TableLoad_F_1.0_Custom.sql
 ' ' > TableLoad_G_2.0.3.sql
-' ' > TableLoad_H_Custom.sql
+' ' > TableLoad_H_1.0.3.sql
+' ' > TableLoad_I_Custom.sql
 
 type .\Backup_1.0.1\TableLoad_01_Keywords.sql >> TableLoad_A_1.0.1.sql
 type .\Backup_1.0.1\TableLoad_02_Abilities.sql >> TableLoad_A_1.0.1.sql
@@ -128,8 +129,11 @@ type .\Backup_1.0_Custom\TableLoad_96_Warbands.sql >> TableLoad_F_1.0_Custom.sql
 type .\Backup_2.0.3\TableLoad_01_Keywords.sql >> TableLoad_G_2.0.3.sql
 type .\Backup_2.0.3\TableLoad_02_Abilities.sql >> TableLoad_G_2.0.3.sql
 
-type .\Backup_Custom\TableLoad_01_Keywords.sql >> TableLoad_H_Custom.sql
-type .\Backup_Custom\TableLoad_02_Abilities.sql >> TableLoad_H_Custom.sql
+type .\Backup_1.0.3\TableLoad_01_Keywords.sql >> TableLoad_H_1.0.3.sql
+type .\Backup_1.0.3\TableLoad_02_Abilities.sql >> TableLoad_H_1.0.3.sql
+
+type .\Backup_Custom\TableLoad_01_Keywords.sql >> TableLoad_I_Custom.sql
+type .\Backup_Custom\TableLoad_02_Abilities.sql >> TableLoad_I_Custom.sql
 
 type _Tables.sql >> TableLoad_Main.sql
 type TableLoad_A_1.0.1.sql >> TableLoad_Main.sql
@@ -139,4 +143,5 @@ type TableLoad_D_1.0.2.sql >> TableLoad_Main.sql
 type TableLoad_E_2.0.2.sql >> TableLoad_Main.sql
 type TableLoad_F_1.0_Custom.sql >> TableLoad_Main.sql
 type TableLoad_G_2.0.3.sql >> TableLoad_Main.sql
-type TableLoad_H_Custom.sql >> TableLoad_Main.sql
+type TableLoad_H_1.0.3.sql >> TableLoad_Main.sql
+type TableLoad_I_Custom.sql >> TableLoad_Main.sql

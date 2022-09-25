@@ -8,7 +8,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/1.0/Custom/Cards/MiniBosses/Card_MiniBoss_Barry_1.0_Custom.png', 
 'http://htkb.info/SDE/1.0/Custom/Cards/MiniBosses/Card_MiniBoss_Barry_1.0_Custom_back.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Custom/Cards/MiniBosses/Barry.xhtml', 
-'MiniBoss', '1.0', '1.0 Core Set', 'Explore',
+'MiniBoss', '1.0 Custom', '1.0 Custom Set', 'Explore',
 '');
 insert into Characters (CardIndex) VALUES (2352);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (860, 103); --Range 7

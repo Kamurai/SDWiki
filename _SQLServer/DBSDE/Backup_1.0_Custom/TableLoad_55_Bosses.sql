@@ -8,7 +8,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/1.0/Custom/Cards/Bosses/Card_Boss_Quimera_1.0_Custom.png', 
 'http://htkb.info/SDE/1.0/Custom/Cards/Bosses/Card_Boss_Quimera_1.0_Custom_back.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Custom/Cards/Bosses/Quimera.xhtml', 
-'Boss', '1.0', '1.0 Core Set', 'Explore',
+'Boss', '1.0 Custom', '1.0 Custom Set', 'Explore',
 '');
 insert into Characters (CardIndex) VALUES (2346);
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (854, 136); --Garra Mortal
@@ -34,7 +34,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/1.0/Custom/Cards/Bosses/Card_Boss_Venger_1.0_Custom.png', 
 'http://htkb.info/SDE/1.0/Custom/Cards/Bosses/Card_Boss_Venger_1.0_Custom_back.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Custom/Cards/Bosses/Venger.xhtml', 
-'Boss', '1.0', '1.0 Core Set', 'Explore',
+'Boss', '1.0 Custom', '1.0 Custom Set', 'Explore',
 '');
 insert into Characters (CardIndex) VALUES (2347);
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (855, 136); --Rayo Mortal

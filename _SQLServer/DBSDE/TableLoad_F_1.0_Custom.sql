@@ -1039,7 +1039,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/1.0/Custom/Cards/MiniBosses/Card_MiniBoss_Green_Dragon_1.0_Custom.png', 
 'http://htkb.info/SDE/1.0/Custom/Cards/MiniBosses/Card_MiniBoss_Green_Dragon_1.0_Custom_back.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Custom/Cards/MiniBosses/Green_Dragon.xhtml', 
-'MiniBoss', '1.0', '1.0 Core Set', 'Explore',
+'MiniBoss', '1.0 Custom', '1.0 Custom Set', 'Explore',
 '');
 insert into Characters (CardIndex) VALUES (2316);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (826, 59); --Immune: Poison
@@ -1065,7 +1065,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/1.0/Custom/Cards/MiniBosses/Card_MiniBoss_King_Diamond_1.0_Custom.png', 
 'http://htkb.info/SDE/1.0/Custom/Cards/MiniBosses/Card_MiniBoss_King_Diamond_1.0_Custom_back.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Custom/Cards/MiniBosses/King_Diamond.xhtml', 
-'MiniBoss', '1.0', '1.0 Core Set', 'Explore',
+'MiniBoss', '1.0 Custom', '1.0 Custom Set', 'Explore',
 '');
 insert into Characters (CardIndex) VALUES (2317);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (827, 79); --Magic 6
@@ -1095,7 +1095,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/1.0/Custom/Cards/MiniBosses/Card_MiniBoss_Ralph_1.0_Custom.png', 
 'http://htkb.info/SDE/1.0/Custom/Cards/MiniBosses/Card_MiniBoss_Ralph_1.0_Custom_back.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Custom/Cards/MiniBosses/Ralph.xhtml', 
-'MiniBoss', '1.0', '1.0 Core Set', 'Explore',
+'MiniBoss', '1.0 Custom', '1.0 Custom Set', 'Explore',
 '');
 insert into Characters (CardIndex) VALUES (2318);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (828, 7); --Berserk
@@ -1122,7 +1122,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/1.0/Custom/Cards/MiniBosses/Card_MiniBoss_Star_Guild_Sapper_1.0_Custom.png', 
 'http://htkb.info/SDE/1.0/Custom/Cards/MiniBosses/Card_MiniBoss_Star_Guild_Sapper_1.0_Custom_back.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Custom/Cards/MiniBosses/Star_Guild_Sapper.xhtml', 
-'MiniBoss', '1.0', '1.0 Core Set', 'Explore',
+'MiniBoss', '1.0 Custom', '1.0 Custom Set', 'Explore',
 '');
 insert into Characters (CardIndex) VALUES (2319);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (829, 7); --Berserk
@@ -1149,7 +1149,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/1.0/Custom/Cards/MiniBosses/Card_MiniBoss_Wardude_1.0_Custom.png', 
 'http://htkb.info/SDE/1.0/Custom/Cards/MiniBosses/Card_MiniBoss_Wardude_1.0_Custom_back.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Custom/Cards/MiniBosses/Wardude.xhtml', 
-'MiniBoss', '1.0', '1.0 Core Set', 'Explore',
+'MiniBoss', '1.0 Custom', '1.0 Custom Set', 'Explore',
 '');
 insert into Characters (CardIndex) VALUES (2319);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (829, 7); --Tough
@@ -1185,7 +1185,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/1.0/Custom/Cards/Bosses/Card_Boss_Bowser_1.0_Custom.png', 
 'http://htkb.info/SDE/1.0/Custom/Cards/Bosses/Card_Boss_Bowser_1.0_Custom_back.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Custom/Cards/Bosses/Bowser.xhtml', 
-'Boss', '1.0', '1.0 Core Set', 'Explore',
+'Boss', '1.0 Custom', '1.0 Custom Set', 'Explore',
 '');
 insert into Characters (CardIndex) VALUES (2321);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (831, 54); --Immune: Fire
@@ -1212,7 +1212,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/1.0/Custom/Cards/Bosses/Card_Boss_Brown_Boar_1.0_Custom.png', 
 'http://htkb.info/SDE/1.0/Custom/Cards/Bosses/Card_Boss_Brown_Boar_1.0_Custom_back.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Custom/Cards/Bosses/Brown_Boar.xhtml', 
-'Boss', '1.0', '1.0 Core Set', 'Explore',
+'Boss', '1.0 Custom', '1.0 Custom Set', 'Explore',
 '');
 insert into Characters (CardIndex) VALUES (2322);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (832, 83); --Mob
@@ -1239,7 +1239,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/1.0/Custom/Cards/Bosses/Card_Boss_Brown_Wizard_1.0_Custom.png', 
 'http://htkb.info/SDE/1.0/Custom/Cards/Bosses/Card_Boss_Brown_Wizard_1.0_Custom_back.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Custom/Cards/Bosses/Brown_Wizard.xhtml', 
-'Boss', '1.0', '1.0 Core Set', 'Explore',
+'Boss', '1.0 Custom', '1.0 Custom Set', 'Explore',
 '');
 insert into Characters (CardIndex) VALUES (2323);
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (833, 2283); --Shapeshift: Brown Boars
@@ -1266,7 +1266,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/1.0/Custom/Cards/Bosses/Card_Boss_Chaos_Warrior_1.0_Custom.png', 
 'http://htkb.info/SDE/1.0/Custom/Cards/Bosses/Card_Boss_Chaos_Warrior_1.0_Custom_back.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Custom/Cards/Bosses/Chaos_Warrior.xhtml', 
-'Boss', '1.0', '1.0 Core Set', 'Explore',
+'Boss', '1.0 Custom', '1.0 Custom Set', 'Explore',
 '');
 insert into Characters (CardIndex) VALUES (2324);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (834, 83); --Invulnerable
@@ -1295,7 +1295,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/1.0/Custom/Cards/Bosses/Card_Boss_Chaos_Warrior_Mounted_1.0_Custom.png', 
 'http://htkb.info/SDE/1.0/Custom/Cards/Bosses/Card_Boss_Chaos_Warrior_Mounted_1.0_Custom_back.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Custom/Cards/Bosses/Chaos_Warrior_Mounted.xhtml', 
-'Boss', '1.0', '1.0 Core Set', 'Explore',
+'Boss', '1.0 Custom', '1.0 Custom Set', 'Explore',
 '');
 insert into Characters (CardIndex) VALUES (2325);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (835, 83); --Invulnerable
@@ -1324,7 +1324,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/1.0/Custom/Cards/Bosses/Card_Boss_Hydra_1.0_Custom.png', 
 'http://htkb.info/SDE/1.0/Custom/Cards/Bosses/Card_Boss_Hydra_1.0_Custom_back.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Custom/Cards/Bosses/Hydra.xhtml', 
-'Boss', '1.0', '1.0 Core Set', 'Explore',
+'Boss', '1.0 Custom', '1.0 Custom Set', 'Explore',
 '');
 insert into Characters (CardIndex) VALUES (2326);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (836, 36); --Fly
@@ -1384,7 +1384,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/1.0/Custom/Cards/Warbands/Beasts/Card_Warband_Rabillion_1.0.png', 
 'http://htkb.info/SDE/1.0/Custom/Cards/Warbands/Beasts/Card_Warband_Rabillion_1.0_back.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Custom/Cards/Warbands/Beasts/Rabillion.xhtml', 
-'Warband', '1.0', '1.0 Core Set', 'Explore',
+'Warband', '1.0 Custom', '1.0 Custom Set', 'Explore',
 '');
 insert into Characters (CardIndex) VALUES (2327); 
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
@@ -1410,7 +1410,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/1.0/Custom/Cards/Warbands/Beasts/Card_Warband_Rabite_1.0.png', 
 'http://htkb.info/SDE/1.0/Custom/Cards/Warbands/Beasts/Card_Warband_Rabite_1.0_back.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Custom/Cards/Warbands/Beasts/Rabite.xhtml', 
-'Warband', '1.0', '1.0 Core Set', 'Explore',
+'Warband', '1.0 Custom', '1.0 Custom Set', 'Explore',
 '');
 insert into Characters (CardIndex) VALUES (2328); 
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
@@ -1436,7 +1436,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/1.0/Custom/Cards/Warbands/Maids/Card_Warband_Maid_Battle_Maid_1.0_Custom.png', 
 'http://htkb.info/SDE/1.0/Custom/Cards/Warbands/Maids/Card_Warband_Maid_Battle_Maid_1.0_Custom_back.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Custom/Cards/Warbands/Maids/Battle_Maid.xhtml', 
-'Warband', '1.0', '1.0 Core Set', 'Explore',
+'Warband', '1.0 Custom', '1.0 Custom Set', 'Explore',
 '');
 insert into Characters (CardIndex) VALUES (2329); 
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
@@ -1460,7 +1460,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/1.0/Custom/Cards/Warbands/Maids/Card_Warband_Maid_Meido_1.0_Custom.png', 
 'http://htkb.info/SDE/1.0/Custom/Cards/Warbands/Maids/Card_Warband_Maid_Meido_1.0_Custom_back.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Custom/Cards/Warbands/Maids/Meido.xhtml', 
-'Warband', '1.0', '1.0 Core Set', 'Explore',
+'Warband', '1.0 Custom', '1.0 Custom Set', 'Explore',
 '');
 insert into Characters (CardIndex) VALUES (2330); 
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
@@ -1486,7 +1486,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/1.0/Custom/Cards/Warbands/Slimes/Card_Warband_Slime_1.0_Custom.png', 
 'http://htkb.info/SDE/1.0/Custom/Cards/Warbands/Slimes/Card_Warband_Slime_1.0_Custom_back.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Custom/Cards/Warbands/Slimes/Slime.xhtml', 
-'Warband', '1.0', '1.0 Core Set', 'Explore',
+'Warband', '1.0 Custom', '1.0 Custom Set', 'Explore',
 '');
 insert into Characters (CardIndex) VALUES (2331); 
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
@@ -1511,7 +1511,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/1.0/Custom/Cards/Warbands/Slimes/Card_Warband_Slime_Bubblie_1.0_Custom.png', 
 'http://htkb.info/SDE/1.0/Custom/Cards/Warbands/Slimes/Card_Warband_Slime_Bubblie_1.0_Custom_back.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Custom/Cards/Warbands/Slimes/Bubblie.xhtml', 
-'Warband', '1.0', '1.0 Core Set', 'Explore',
+'Warband', '1.0 Custom', '1.0 Custom Set', 'Explore',
 '');
 insert into Characters (CardIndex) VALUES (2332); 
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
@@ -1536,7 +1536,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/1.0/Custom/Cards/Warbands/Slimes/Card_Warband_Slime_Bubblie_1.0_Custom.png', 
 'http://htkb.info/SDE/1.0/Custom/Cards/Warbands/Slimes/Card_Warband_Slime_Bubblie_1.0_Custom_back.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Custom/Cards/Warbands/Slimes/Bubblie.xhtml', 
-'Warband', '1.0', '1.0 Core Set', 'Explore',
+'Warband', '1.0 Custom', '1.0 Custom Set', 'Explore',
 '');
 insert into Characters (CardIndex) VALUES (2333); 
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
@@ -1560,7 +1560,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/1.0/Custom/Cards/Warbands/Slimes/Card_Warband_Slime_Dukeslime_1.0_Custom.png', 
 'http://htkb.info/SDE/1.0/Custom/Cards/Warbands/Slimes/Card_Warband_Slime_Dukeslime_1.0_Custom_back.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Custom/Cards/Warbands/Slimes/Dukeslime.xhtml', 
-'Warband', '1.0', '1.0 Core Set', 'Explore',
+'Warband', '1.0 Custom', '1.0 Custom Set', 'Explore',
 '');
 insert into Characters (CardIndex) VALUES (2334); 
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
@@ -1586,7 +1586,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/1.0/Custom/Cards/Warbands/Slimes/Card_Warband_Slime_Healie_1.0_Custom.png', 
 'http://htkb.info/SDE/1.0/Custom/Cards/Warbands/Slimes/Card_Warband_Slime_Healie_1.0_Custom_back.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Custom/Cards/Warbands/Slimes/Healie.xhtml', 
-'Warband', '1.0', '1.0 Core Set', 'Explore',
+'Warband', '1.0 Custom', '1.0 Custom Set', 'Explore',
 '');
 insert into Characters (CardIndex) VALUES (2335); 
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
@@ -1612,7 +1612,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/1.0/Custom/Cards/Warbands/Slimes/Card_Warband_Slime_Metaly_1.0_Custom.png', 
 'http://htkb.info/SDE/1.0/Custom/Cards/Warbands/Slimes/Card_Warband_Slime_Metaly_1.0_Custom_back.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Custom/Cards/Warbands/Slimes/Metaly.xhtml', 
-'Warband', '1.0', '1.0 Core Set', 'Explore',
+'Warband', '1.0 Custom', '1.0 Custom Set', 'Explore',
 '');
 insert into Characters (CardIndex) VALUES (2336); 
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
@@ -1666,7 +1666,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/1.0/Custom/Cards/Warbands/Warp_Pipe/Card_Warband_Warp_Pipe_Bob_Omb_1.0_Custom.png', 
 'http://htkb.info/SDE/1.0/Custom/Cards/Warbands/Warp_Pipe/Card_Warband_Warp_Pipe_Bob_Omb_1.0_Custom_back.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Custom/Cards/Warbands/Warp_Pipe/Bob_Omb.xhtml', 
-'Warband', '1.0', '1.0 Core Set', 'Explore',
+'Warband', '1.0 Custom', '1.0 Custom Set', 'Explore',
 '');
 insert into Characters (CardIndex) VALUES (2338); 
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
@@ -1690,7 +1690,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/1.0/Custom/Cards/Warbands/Warp_Pipe/Card_Warband_Warp_Pipe_Goomba_1.0_Custom.png', 
 'http://htkb.info/SDE/1.0/Custom/Cards/Warbands/Warp_Pipe/Card_Warband_Warp_Pipe_Goomba_1.0_Custom_back.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Custom/Cards/Warbands/Warp_Pipe/Goomba.xhtml', 
-'Warband', '1.0', '1.0 Core Set', 'Explore',
+'Warband', '1.0 Custom', '1.0 Custom Set', 'Explore',
 '');
 insert into Characters (CardIndex) VALUES (2339); 
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
@@ -1715,7 +1715,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/1.0/Custom/Cards/Warbands/Warp_Pipe/Card_Warband_Warp_Pipe_Koopa_Troopa_1.0_Custom.png', 
 'http://htkb.info/SDE/1.0/Custom/Cards/Warbands/Warp_Pipe/Card_Warband_Warp_Pipe_Koopa_Troopa_1.0_Custom_back.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Custom/Cards/Warbands/Warp_Pipe/Koopa_Troopa.xhtml', 
-'Warband', '1.0', '1.0 Core Set', 'Explore',
+'Warband', '1.0 Custom', '1.0 Custom Set', 'Explore',
 '');
 insert into Characters (CardIndex) VALUES (2336); 
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
@@ -1747,7 +1747,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/1.0/Custom/Cards/Boss_Spawns/Card_Boss_Spawn_Brown_Wizard_1.0_Custom.png', 
 'http://htkb.info/SDE/1.0/Custom/Cards/Boss_Spawns/Card_Boss_Spawn_Brown_Wizard_1.0_Custom.png',
 'http://htkb.online/SDWiki/SDE/1.0/Custom/Cards/Boss_Spawns/Brown_Wizard.xhtml', 
-'Boss Spawn', '1.0', '1.0 Core Set', 'Default',   
+'Boss Spawn', '1.0 Custom', '1.0 Custom Set', 'Default',   
 '');
 insert into BossSpawns (CardIndex, DungeonEffect, BossSpawnEffect, TimeoutEffect, DifficultyRating) VALUES (2341, 
 'Black Magic:  Heroes in a tile containing a spawn point are considered to be suffering from STUN.  They lose this status effect immediately upon leaving the tile.', 
@@ -1770,7 +1770,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/1.0/Custom/Cards/Boss_Spawns/Card_Boss_Spawn_Chaos_Warrior_1.0_Custom.png', 
 'http://htkb.info/SDE/1.0/Custom/Cards/Boss_Spawns/Card_Boss_Spawn_Chaos_Warrior_1.0_Custom.png',
 'http://htkb.online/SDWiki/SDE/1.0/Custom/Cards/Boss_Spawns/Chaos_Warrior.xhtml', 
-'Boss Spawn', '1.0', '1.0 Core Set', 'Default',   
+'Boss Spawn', '1.0 Custom', '1.0 Custom Set', 'Default',   
 '');
 insert into BossSpawns (CardIndex, DungeonEffect, BossSpawnEffect, TimeoutEffect, DifficultyRating) VALUES (2341, 
 'Armoured Plating:  Heroes in a tile containing a spawn point are considered to be suffering from STUN.  They lose this status effect immediately upon leaving the tile.', 

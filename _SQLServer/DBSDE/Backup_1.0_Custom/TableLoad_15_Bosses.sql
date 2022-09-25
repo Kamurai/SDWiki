@@ -8,7 +8,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/1.0/Custom/Cards/Bosses/Card_Boss_Bowser_1.0_Custom.png', 
 'http://htkb.info/SDE/1.0/Custom/Cards/Bosses/Card_Boss_Bowser_1.0_Custom_back.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Custom/Cards/Bosses/Bowser.xhtml', 
-'Boss', '1.0', '1.0 Core Set', 'Explore',
+'Boss', '1.0 Custom', '1.0 Custom Set', 'Explore',
 '');
 insert into Characters (CardIndex) VALUES (2321);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (831, 54); --Immune: Fire
@@ -35,7 +35,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/1.0/Custom/Cards/Bosses/Card_Boss_Brown_Boar_1.0_Custom.png', 
 'http://htkb.info/SDE/1.0/Custom/Cards/Bosses/Card_Boss_Brown_Boar_1.0_Custom_back.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Custom/Cards/Bosses/Brown_Boar.xhtml', 
-'Boss', '1.0', '1.0 Core Set', 'Explore',
+'Boss', '1.0 Custom', '1.0 Custom Set', 'Explore',
 '');
 insert into Characters (CardIndex) VALUES (2322);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (832, 83); --Mob
@@ -62,7 +62,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/1.0/Custom/Cards/Bosses/Card_Boss_Brown_Wizard_1.0_Custom.png', 
 'http://htkb.info/SDE/1.0/Custom/Cards/Bosses/Card_Boss_Brown_Wizard_1.0_Custom_back.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Custom/Cards/Bosses/Brown_Wizard.xhtml', 
-'Boss', '1.0', '1.0 Core Set', 'Explore',
+'Boss', '1.0 Custom', '1.0 Custom Set', 'Explore',
 '');
 insert into Characters (CardIndex) VALUES (2323);
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (833, 2283); --Shapeshift: Brown Boars
@@ -89,7 +89,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/1.0/Custom/Cards/Bosses/Card_Boss_Chaos_Warrior_1.0_Custom.png', 
 'http://htkb.info/SDE/1.0/Custom/Cards/Bosses/Card_Boss_Chaos_Warrior_1.0_Custom_back.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Custom/Cards/Bosses/Chaos_Warrior.xhtml', 
-'Boss', '1.0', '1.0 Core Set', 'Explore',
+'Boss', '1.0 Custom', '1.0 Custom Set', 'Explore',
 '');
 insert into Characters (CardIndex) VALUES (2324);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (834, 83); --Invulnerable
@@ -118,7 +118,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/1.0/Custom/Cards/Bosses/Card_Boss_Chaos_Warrior_Mounted_1.0_Custom.png', 
 'http://htkb.info/SDE/1.0/Custom/Cards/Bosses/Card_Boss_Chaos_Warrior_Mounted_1.0_Custom_back.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Custom/Cards/Bosses/Chaos_Warrior_Mounted.xhtml', 
-'Boss', '1.0', '1.0 Core Set', 'Explore',
+'Boss', '1.0 Custom', '1.0 Custom Set', 'Explore',
 '');
 insert into Characters (CardIndex) VALUES (2325);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (835, 83); --Invulnerable
@@ -147,7 +147,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/1.0/Custom/Cards/Bosses/Card_Boss_Hydra_1.0_Custom.png', 
 'http://htkb.info/SDE/1.0/Custom/Cards/Bosses/Card_Boss_Hydra_1.0_Custom_back.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Custom/Cards/Bosses/Hydra.xhtml', 
-'Boss', '1.0', '1.0 Core Set', 'Explore',
+'Boss', '1.0 Custom', '1.0 Custom Set', 'Explore',
 '');
 insert into Characters (CardIndex) VALUES (2326);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (836, 36); --Fly

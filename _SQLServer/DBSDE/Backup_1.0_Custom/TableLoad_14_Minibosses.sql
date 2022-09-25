@@ -8,7 +8,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/1.0/Custom/Cards/MiniBosses/Card_MiniBoss_Green_Dragon_1.0_Custom.png', 
 'http://htkb.info/SDE/1.0/Custom/Cards/MiniBosses/Card_MiniBoss_Green_Dragon_1.0_Custom_back.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Custom/Cards/MiniBosses/Green_Dragon.xhtml', 
-'MiniBoss', '1.0', '1.0 Core Set', 'Explore',
+'MiniBoss', '1.0 Custom', '1.0 Custom Set', 'Explore',
 '');
 insert into Characters (CardIndex) VALUES (2316);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (826, 59); --Immune: Poison
@@ -34,7 +34,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/1.0/Custom/Cards/MiniBosses/Card_MiniBoss_King_Diamond_1.0_Custom.png', 
 'http://htkb.info/SDE/1.0/Custom/Cards/MiniBosses/Card_MiniBoss_King_Diamond_1.0_Custom_back.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Custom/Cards/MiniBosses/King_Diamond.xhtml', 
-'MiniBoss', '1.0', '1.0 Core Set', 'Explore',
+'MiniBoss', '1.0 Custom', '1.0 Custom Set', 'Explore',
 '');
 insert into Characters (CardIndex) VALUES (2317);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (827, 79); --Magic 6
@@ -64,7 +64,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/1.0/Custom/Cards/MiniBosses/Card_MiniBoss_Ralph_1.0_Custom.png', 
 'http://htkb.info/SDE/1.0/Custom/Cards/MiniBosses/Card_MiniBoss_Ralph_1.0_Custom_back.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Custom/Cards/MiniBosses/Ralph.xhtml', 
-'MiniBoss', '1.0', '1.0 Core Set', 'Explore',
+'MiniBoss', '1.0 Custom', '1.0 Custom Set', 'Explore',
 '');
 insert into Characters (CardIndex) VALUES (2318);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (828, 7); --Berserk
@@ -91,7 +91,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/1.0/Custom/Cards/MiniBosses/Card_MiniBoss_Star_Guild_Sapper_1.0_Custom.png', 
 'http://htkb.info/SDE/1.0/Custom/Cards/MiniBosses/Card_MiniBoss_Star_Guild_Sapper_1.0_Custom_back.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Custom/Cards/MiniBosses/Star_Guild_Sapper.xhtml', 
-'MiniBoss', '1.0', '1.0 Core Set', 'Explore',
+'MiniBoss', '1.0 Custom', '1.0 Custom Set', 'Explore',
 '');
 insert into Characters (CardIndex) VALUES (2319);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (829, 7); --Berserk
@@ -118,7 +118,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/1.0/Custom/Cards/MiniBosses/Card_MiniBoss_Wardude_1.0_Custom.png', 
 'http://htkb.info/SDE/1.0/Custom/Cards/MiniBosses/Card_MiniBoss_Wardude_1.0_Custom_back.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Custom/Cards/MiniBosses/Wardude.xhtml', 
-'MiniBoss', '1.0', '1.0 Core Set', 'Explore',
+'MiniBoss', '1.0 Custom', '1.0 Custom Set', 'Explore',
 '');
 insert into Characters (CardIndex) VALUES (2319);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (829, 7); --Tough
