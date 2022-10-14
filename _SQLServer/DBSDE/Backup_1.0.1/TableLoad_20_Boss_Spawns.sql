@@ -1,5 +1,8 @@
---1.0
+--SDE
+--1.0.1
 --Boss Spawns
+
+
 --Roxor --BossSpawnIndex 0  --CardIndex 69
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Roxor', 
 'http://htkb.info/SDE/1.0/Cards/Boss_Spawns/Card_Boss_Spawn_Roxor_1.0.png', 

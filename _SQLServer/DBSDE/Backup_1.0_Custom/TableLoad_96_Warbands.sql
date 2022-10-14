@@ -19,7 +19,7 @@ insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender
 'http://htkb.info/Common/Standies/Slime_Stack.png', 
 'http://htkb.info/Common/Standies/Slime_Stack_back.png', 
 'Either', 'Small', 'Spawning Point', 0, 0, '', '1ST', '', '', 3, 0);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (861, 1148); --Spawning Pool
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (861, 1147); --Spawning Pool
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (861, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (861, 'Spawning Point', 'Start', 0); 
 insert into CustomCards (CardIndex, Author, SourceURL) VALUES(

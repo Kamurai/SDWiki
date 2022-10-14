@@ -11,7 +11,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Cannon_Ball.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2260, 'Character Treasure', 'Right', '');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2260, 'Character Treasure', 'Right', '+1G DEX');
+--insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (777, abXXX); --Extra Powder
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (777, 1125); --Black-Handed Henry: Explore
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (777, 1134); --Black-Handed Henry: Arcade
 
@@ -22,10 +23,10 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Familiar_Colo_2.0_back.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Familiar/Colo.xhtml', 
 'Loot', '2.0', '2.0 Core Set', 'Default',
-'');
+'What are you laughing at fuzzball?');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2261, 'Character Loot', 'Top', '');
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (778, 1110); --Familiar
-insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (778, 1114); --Smuggler
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (778, 1109); --Familiar
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (778, 1113); --Smuggler
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (778, 2138); --Shoot First
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (778, 2124); --I Know
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (778, 1107); --Cheeto
@@ -38,7 +39,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Cutlass.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2262, 'Character Treasure', 'Bottom', '');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2262, 'Character Treasure', 'Bottom', '+1G STR');
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (779, 794); --Parry
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (779, 1125); --Black-Handed Henry: Explore
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (779, 1134); --Black-Handed Henry: Arcade
 
@@ -49,8 +51,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Eye_Patch_2.0_back.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Eye_Patch.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
-'');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2263, 'Character Treasure', 'Bottom', '');
+'It''s terribly comfortable.  Everyone will be wearing them in the futrure.');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2263, 'Character Treasure', 'Bottom', '+1R WILL');
+--insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (780, abXXX); --ARRRR!
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (780, 1125); --Black-Handed Henry: Explore
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (780, 1134); --Black-Handed Henry: Arcade
 
@@ -63,8 +66,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Loot', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2264, 'Character Loot', '', '');
-insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (781, 1125); --Black-Handed Henry: Explore
-insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (781, 1134); --Black-Handed Henry: Arcade
+--insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (781, kXXX); --Brew a Special Potion
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (781, 1106); --Black-Handed Henry: Hero
 
 --Magic Compass --CardIndex 2265 --EquipmentIndex 782
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
@@ -99,20 +102,20 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Pirate_Hat_2.0_back.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Pirate_Hat.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
-'');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2267, 'Character Treasure', 'Top', '');
+'Cock your hat - angles are attitudes.');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2267, 'Character Treasure', 'Top', '+1R ARM');
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (784, 1125); --Black-Handed Henry: Explore
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (784, 1134); --Black-Handed Henry: Arcade
 
---Pirate Map --CardIndex 2268 --EquipmentIndex 785
+--Treasure Map --CardIndex 2268 --EquipmentIndex 785
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
-'Pirate Map',
-'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Pirate_Map_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Pirate_Map_2.0_back.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Pirate_Map.xhtml', 
+'Treasure Map',
+'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Treasure_Map_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Treasure_Map_2.0_back.png',
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Treasure_Map.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
-'');
-insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2268, 'Character Treasure', 'Top', '');
+'Genuine and bona-fied.  Mr. Bimbo told me so.');
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2268, 'Character Treasure', 'Top', '+2MO +1 DEX');
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (785, 1125); --Black-Handed Henry: Explore
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (785, 1134); --Black-Handed Henry: Arcade
 

@@ -1,5 +1,8 @@
---1.0
---Mini Boss
+--SDE
+--1.0.1
+--MiniBosses
+
+
 --Captain R --Index 26
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Captain R',
 'http://htkb.info/SDE/1.0/Cards/MiniBosses/Card_MiniBoss_Captain_R_1.0.png', 

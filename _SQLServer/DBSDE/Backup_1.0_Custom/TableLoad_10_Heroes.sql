@@ -66,7 +66,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Hero', '1.0 Custom', '1.0 Custom Set', 'Default', 
 '');
 insert into Characters (CardIndex) VALUES (2290);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (800, 63); --Terrain
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (800, 1125); --Terrain
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 1139, 
 'http://htkb.info/Common/Standies/Crystal_Form.png', 
@@ -145,7 +145,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (2292);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (802, 56); --Immune: Immobile
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (802, 29); --Dodge
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (802, 32); --Seductress
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (802, 1126); --Seductress
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (802, 2181); --Sexy Dance
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (802, 2182); --Kaleidoscope
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (802, 2183); --Whirling Dervish

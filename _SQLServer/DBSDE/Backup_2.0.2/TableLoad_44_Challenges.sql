@@ -10,10 +10,10 @@ VALUES ('Cannons On Deck!',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss_Challenges/Backs/Card_Boss_Challenge_Yellow_Back_2.0.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Challenges/Boss_Challenges/Black_Handed_Henry/Cannons_On_Deck.xhtml', 
 'Challenge', '2.0', '2.0 Core Set', 'Default', 
-'');
+'I knew an elf name Monach.  Dreadful fellow.  Seriously the worst.  I never tired of launching cannonballs into his elf face.  Oh, he has nothing to do with you.  I was just reminiscing of that joyous occasion as I shoot you in th eface with cannonballs.  He smelled funny too.');
 insert into Challenges (CardIndex, Trap, Challenge) VALUES (2269, 
-'', 
-'');
+'Spawn Loose Cannon within 3 squares of the dungeon boss until ther eare four in play.', 
+'All monsters gain +1ST STR.');
 insert into ChallengeAssignments (CharacterIndex, ChallengeIndex) VALUES (1134, 156); --Black-Handed Henry: Arcade
 
 --Fire Breath Potion	--CardIndex 2270 --ChallengeIndex 157
@@ -36,10 +36,10 @@ VALUES ('Icy Armor Potion',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss_Challenges/Backs/Card_Boss_Challenge_Yellow_Back_2.0.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Challenges/Boss_Challenges/Black_Handed_Henry/Icy_Armor_Potion.xhtml', 
 'Challenge', '2.0', '2.0 Core Set', 'Default', 
-'');
+'Sometimes I just want the world to chill out and leave me alone.  So I had the Frostbyte Jotnar teach me a few secrets to distilling.  I find the cold bracing.  Besides, it''s not my fault you forgot to pack your parkas.');
 insert into Challenges (CardIndex, Trap, Challenge) VALUES (2271, 
-'', 
-'');
+'The dungeon boss performs the following action:  0AC Ice Storm: Wave 3, ICE', 
+'The dungeon boss gains +1ST ARM.');
 insert into ChallengeAssignments (CharacterIndex, ChallengeIndex) VALUES (1134, 158); --Black-Handed Henry: Arcade
 
 --Invulnerability Potion	--CardIndex 2272 --ChallengeIndex 159
@@ -49,10 +49,10 @@ VALUES ('Invulnerability Potion',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss_Challenges/Backs/Card_Boss_Challenge_Yellow_Back_2.0.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Challenges/Boss_Challenges/Black_Handed_Henry/Invulnerability_Potion.xhtml', 
 'Challenge', '2.0', '2.0 Core Set', 'Default', 
-'');
+'This one is a blueberry--child''s tears blend.  That''s right.  The secret is mashing a single berry between thumb and foreginger so only a single drop of juice is produced.  That drop must then be immediately mixed with a single toddler tear and battled.  Tragically, it must be a tear of joy.  Indeed, a great deal of my crew''s time is spent devising ways to make toddlers laugh.  We are the blackest of hearts.');
 insert into Challenges (CardIndex, Trap, Challenge) VALUES (2272, 
-'', 
-'');
+'All monsters perform the Unique command.', 
+'The dungeon boss may only be wounded if the attack is a critical (criticals are counted normally).');
 insert into ChallengeAssignments (CharacterIndex, ChallengeIndex) VALUES (1134, 159); --Black-Handed Henry: Arcade
 
 --Speed Potion	--CardIndex 2273 --ChallengeIndex 160

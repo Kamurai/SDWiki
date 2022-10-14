@@ -3,42 +3,42 @@
 --Keywords
 
 
-/*Terrain 							--Index   1126*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0 Custom', 'Default', 'Terrain', 					'Crystal forms are considered terrain and do not contribute to the loot-o-meter or wound tracker.');
-/*Seductress						--Index   1127*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0 Custom', 'Default', 'Seductress', 				'Range 6. At the beginning of its activation a model with Seductress may prevent a single enemy model within range (worth one Skull Point) from being activated that turn. This is automatic and costs no AP.');
+/*Terrain 							--Index   1125*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0 Custom', 'Default', 'Terrain', 					'Crystal forms are considered terrain and do not contribute to the loot-o-meter or wound tracker.');
+/*Seductress						--Index   1126*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0 Custom', 'Default', 'Seductress', 				'Range 6. At the beginning of its activation a model with Seductress may prevent a single enemy model within range (worth one Skull Point) from being activated that turn. This is automatic and costs no AP.');
 
-/*Treasure Thief					--Index   1128*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0 Custom', 'Default', 'Treasure Thief', 			'Barry can open Treasure Chests in the same way as a Hero Character.  Barry cannot use the Item but will carry it until he is killed.  The heroes will then gain that item.');
-/*Barry								--Index   1129*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0 Custom', 'Default', 'Barry', 					'Barry is 16-Bit, but can only come into play once.');
+/*Treasure Thief					--Index   1127*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0 Custom', 'Default', 'Treasure Thief', 			'Barry can open Treasure Chests in the same way as a Hero Character.  Barry cannot use the Item but will carry it until he is killed.  The heroes will then gain that item.');
+/*Barry								--Index   1128*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0 Custom', 'Default', 'Barry', 					'Barry is 16-Bit, but can only come into play once.');
 
-/*Swarm								--Index   1130*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0 Custom', 'Default', 'Swarm', 					'TBD.');
+/*Swarm								--Index   1129*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0 Custom', 'Default', 'Swarm', 					'TBD.');
 
-/*Hired Hand						--Index   1131*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0 Custom', 'Default', 'Hired Hand', 				'Hired Hands cannot equip items, carry potions, or open chests.<br><br>Up to two Hired Hands can be activated per turn instead of a single Hero. (The Hero still gets their own turn later in the round.)');
+/*Hired Hand						--Index   1130*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0 Custom', 'Default', 'Hired Hand', 				'Hired Hands cannot equip items, carry potions, or open chests.<br><br>Up to two Hired Hands can be activated per turn instead of a single Hero. (The Hero still gets their own turn later in the round.)');
 
-/*Tank								--Index   1132*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0 Custom', 'Default', 'Tank', 						'TBD.');
+/*Tank								--Index   1131*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0 Custom', 'Default', 'Tank', 						'TBD.');
 
-/*Difficult Terrain					--Index   1133*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0 Custom', 'Default', 'Difficult Terrain', 		'Place a marker to indicate that the affected square now counts as difficult terrain.');
-/*Crystal Form						--Index   1134*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0 Custom', 'Default', 'Crystal Form', 				'Varies depending on whether the targeted square is occupied or not.<br><br>Unoccupied Square - Place a large crystal model in the targeted square.  The crystal counts as a wall and blocks LOS.<br><br>Occupied Square - Place the Crystal Form status effect on the targetted model.');
-/*Shatter							--Index   1135*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0 Custom', 'Default', 'Shatter', 					'The target must be either a large crystal or a model with the Crystal Form status effect.  Resolve as you would for a normal burst effect.');
+/*Difficult Terrain					--Index   1132*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0 Custom', 'Default', 'Difficult Terrain', 		'Place a marker to indicate that the affected square now counts as difficult terrain.');
+/*Crystal Form						--Index   1133*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0 Custom', 'Default', 'Crystal Form', 				'Varies depending on whether the targeted square is occupied or not.<br><br>Unoccupied Square - Place a large crystal model in the targeted square.  The crystal counts as a wall and blocks LOS.<br><br>Occupied Square - Place the Crystal Form status effect on the targetted model.');
+/*Shatter							--Index   1134*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0 Custom', 'Default', 'Shatter', 					'The target must be either a large crystal or a model with the Crystal Form status effect.  Resolve as you would for a normal burst effect.');
 
-/*Black Magic						--Index   1136*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0 Custom', 'Default', 'Black Magic', 				'Heroes in a tile containing a spawn point are considered to be suffering from STUN.  They lose this status effect immediately upon leaving the tile.');
-/*Magic Sapping Blades				--Index   1137*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0 Custom', 'Default', 'Magic Sapping Blades', 		'All Minions and denizens gain the Stun ability as if it were printed on their stat card.');
-/*Curse								--Index   1138*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0 Custom', 'Default', 'Curse', 					'One hero model, of the Consul player''s choice is cursed by the Wizard, and immediately turns into The Wolf.  All equipment and potions are kept by the hero.');
+/*Black Magic						--Index   1135*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0 Custom', 'Default', 'Black Magic', 				'Heroes in a tile containing a spawn point are considered to be suffering from STUN.  They lose this status effect immediately upon leaving the tile.');
+/*Magic Sapping Blades				--Index   1136*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0 Custom', 'Default', 'Magic Sapping Blades', 		'All Minions and denizens gain the Stun ability as if it were printed on their stat card.');
+/*Curse								--Index   1137*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0 Custom', 'Default', 'Curse', 					'One hero model, of the Consul player''s choice is cursed by the Wizard, and immediately turns into The Wolf.  All equipment and potions are kept by the hero.');
 
-/*Armoured Plating					--Index   1139*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0 Custom', 'Default', 'Armoured Plating', 			'Heroes in a tile containing a spawn point are considered to be suffering from STUN.  They lose this status effect immediately upon leaving the tile.');
-/*Armoured Piercing					--Index   1140*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0 Custom', 'Default', 'Armoured Piercing', 		'When the Chaos Warrior enters play place a Fragile counter on every hero.  The Chaos Warrior starts off mounted.');
-/*Armour Piercing Blades			--Index   1141*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0 Custom', 'Default', 'Armour Piercing Blades', 	'One hero model, of the Consul player''s choice is cursed by the Wizard, and immediately turns into The Wolf.  All equipment and potions are kept by the hero.');
-/*Explosion							--Index   1142*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0 Custom', 'Default', 'Explosion', 				'All heroes suffer KNOCKDOWN and models adjacent to the Warrior suffer Fragile.  The Chaos Warrior is dismounted.');
+/*Armoured Plating					--Index   1138*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0 Custom', 'Default', 'Armoured Plating', 			'Heroes in a tile containing a spawn point are considered to be suffering from STUN.  They lose this status effect immediately upon leaving the tile.');
+/*Armoured Piercing					--Index   1139*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0 Custom', 'Default', 'Armoured Piercing', 		'When the Chaos Warrior enters play place a Fragile counter on every hero.  The Chaos Warrior starts off mounted.');
+/*Armour Piercing Blades			--Index   1140*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0 Custom', 'Default', 'Armour Piercing Blades', 	'One hero model, of the Consul player''s choice is cursed by the Wizard, and immediately turns into The Wolf.  All equipment and potions are kept by the hero.');
+/*Explosion							--Index   1141*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0 Custom', 'Default', 'Explosion', 				'All heroes suffer KNOCKDOWN and models adjacent to the Warrior suffer Fragile.  The Chaos Warrior is dismounted.');
 
-/*Split								--Index   1143*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0 Custom', 'Default', 'Split', 					'The two boars share one set of wounds and action points, but can move 8 squares each.');
+/*Split								--Index   1142*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0 Custom', 'Default', 'Split', 					'The two boars share one set of wounds and action points, but can move 8 squares each.');
 
-/*Invulnerable						--Index   1144*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0 Custom', 'Default', 'Invulnerable', 				'Status effects only last until the end of the your next turn.');
+/*Invulnerable						--Index   1143*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0 Custom', 'Default', 'Invulnerable', 				'Status effects only last until the end of the your next turn.');
 
-/*GooBody							--Index   1145*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0 Custom', 'Default', 'GooBody', 					'When attacked, if the attack misses, then this model may immediately move 1 space.');
+/*GooBody							--Index   1144*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0 Custom', 'Default', 'GooBody', 					'When attacked, if the attack misses, then this model may immediately move 1 space.');
 
-/*Flee								--Index   1146*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0 Custom', 'Default', 'Flee', 						'Metaly enters the dungeon from any entrance when 16 bit is reached.  it is moved first on every Consul turn and MUST move across every tie in play.  Once it reaches the final tile it exits from any entrance on that tile.');
-/*Shinies							--Index   1147*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0 Custom', 'Default', 'Shinies', 					'Heroes that kill a Metaly may draw from the Treasure deck.');
+/*Flee								--Index   1145*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0 Custom', 'Default', 'Flee', 						'Metaly enters the dungeon from any entrance when 16 bit is reached.  it is moved first on every Consul turn and MUST move across every tie in play.  Once it reaches the final tile it exits from any entrance on that tile.');
+/*Shinies							--Index   1146*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0 Custom', 'Default', 'Shinies', 					'Heroes that kill a Metaly may draw from the Treasure deck.');
 
-/*Spawning Pool						--Index   1148*/		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0 Custom', 'Explore', 'Spawning Pool', 			'1x Slime Stack (Spawning Point)<br>1x Dukeslime<br>1x Healie<br>2x Blubblies<br>4x Slimes<br>1x Metaly');
-/*Spawning Pool						--Index   1149*/		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0 Custom', 'Explore', 'Spawning Pool', 			'1x Warp Pipe (Spawning Point)<br>1x Bob-omb<br>2x Koopa Troopas<br>3x Goombas');
+/*Spawning Pool						--Index   1147*/		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0 Custom', 'Explore', 'Spawning Pool', 			'1x Slime Stack (Spawning Point)<br>1x Dukeslime<br>1x Healie<br>2x Blubblies<br>4x Slimes<br>1x Metaly');
+/*Spawning Pool						--Index   1148*/		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0 Custom', 'Explore', 'Spawning Pool', 			'1x Warp Pipe (Spawning Point)<br>1x Bob-omb<br>2x Koopa Troopas<br>3x Goombas');
 --SDE
 --1.0 Custom
 --Abilities
@@ -308,7 +308,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Hero', '1.0 Custom', '1.0 Custom Set', 'Default', 
 '');
 insert into Characters (CardIndex) VALUES (2290);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (800, 63); --Terrain
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (800, 1125); --Terrain
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 1139, 
 'http://htkb.info/Common/Standies/Crystal_Form.png', 
@@ -387,7 +387,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (2292);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (802, 56); --Immune: Immobile
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (802, 29); --Dodge
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (802, 32); --Seductress
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (802, 1126); --Seductress
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (802, 2181); --Sexy Dance
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (802, 2182); --Kaleidoscope
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (802, 2183); --Whirling Dervish
@@ -566,7 +566,7 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (8
 insert into CustomCards (CardIndex, Author, SourceURL) VALUES(
 2298,
 '@EY',
-'https://kawaiisaa.blogspot.com/2014/09/super-dungeon-explore.html'
+'https://kawaiisaa.blogspot.com/2015/09/super-dungeon-explore.html'
 );
 
 --Hired Hand --Card Index 2299	--CharacterIndex 1148 --ExploreCharacterIndex 809
@@ -887,7 +887,7 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (8
 insert into CustomCards (CardIndex, Author, SourceURL) VALUES(
 2310,
 '@EY',
-'https://kawaiisaa.blogspot.com/2014/09/super-dungeon-explore.html'
+'https://kawaiisaa.blogspot.com/2015/09/super-dungeon-explore.html'
 );
 
 --Sirdan --Card Index 2311	--CharacterIndex 1160 --ExploreCharacterIndex 821
@@ -1216,7 +1216,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 '');
 insert into Characters (CardIndex) VALUES (2322);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (832, 83); --Mob
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (832, 1143); --Split
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (832, 1142); --Split
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (832, 2279); --Shapeshift: Brown Wizard
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (832, 2280); --Tusks
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
@@ -1269,8 +1269,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Boss', '1.0 Custom', '1.0 Custom Set', 'Explore',
 '');
 insert into Characters (CardIndex) VALUES (2324);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (834, 83); --Invulnerable
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (834, 1143); --Missile 8
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (834, 1143); --Invulnerable
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (834, 82); --Missile 8
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (834, 2287); --Dual Weapons
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (834, 2288); --Lightning
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (834, 2289); --Extreme Aggression
@@ -1451,7 +1451,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (839
 insert into CustomCards (CardIndex, Author, SourceURL) VALUES(
 2329,
 '@EY',
-'https://kawaiisaa.blogspot.com/2014/09/super-dungeon-explore.html'
+'https://kawaiisaa.blogspot.com/2015/09/super-dungeon-explore.html'
 );
 
 --Meido --Card Index 2330	--CharacterIndex 1179 --ExploreCharacterIndex 840
@@ -1475,7 +1475,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (840
 insert into CustomCards (CardIndex, Author, SourceURL) VALUES(
 2330,
 '@EY',
-'https://kawaiisaa.blogspot.com/2014/09/super-dungeon-explore.html'
+'https://kawaiisaa.blogspot.com/2015/09/super-dungeon-explore.html'
 );
 
 
@@ -1494,7 +1494,7 @@ insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender
 'http://htkb.info/Common/Standies/Bounceslime.png', 
 'http://htkb.info/Common/Standies/Bounceslime_back.png', 
 'Either', 'Small', 'Slime', 6, 1, '3B', '0ST', '2B', '2B', 1, 0);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (841, 1145); --GooBody
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (841, 1144); --GooBody
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (841, 2301); --Stand Ready!
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (841, 0, 1); --Attack
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (841, 2); --Armor 
@@ -1519,7 +1519,7 @@ insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender
 'http://htkb.info/Common/Standies/Bubblie.png', 
 'http://htkb.info/Common/Standies/Bubblie_back.png', 
 'Either', 'Small', 'Slime', 5, 1, '1R 2B', '0ST', '2B', '1R 1B', 1, 0);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (842, 1145); --GooBody
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (842, 1144); --GooBody
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (842, 2301); --Stand Ready!
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (842, 0, 1); --Attack
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (842, 2); --Armor 
@@ -1549,7 +1549,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (843, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (843, 'Denizen', 'Special', 1);
 insert into CustomCards (CardIndex, Author, SourceURL) VALUES(
-2327,
+2333,
 'Glenn',
 'https://www.pinterest.com/pin/423971752430359230/'
 );
@@ -1568,7 +1568,7 @@ insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender
 'http://htkb.info/Common/Standies/Dukeslime.png', 
 'http://htkb.info/Common/Standies/Dukeslime_back.png', 
 'Either', 'Large', 'Slime', 5, 3, '2R 2B', '1ST', '1R 1B', '1B', 3, 0);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (844, 1145); --GooBody
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (844, 1144); --GooBody
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (844, 2304); --Slime Time
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (844, 2305); --Puff Up!
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (844, 0, 1); --Attack
@@ -1594,7 +1594,7 @@ insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender
 'http://htkb.info/Common/Standies/Healie.png', 
 'http://htkb.info/Common/Standies/Healie_back.png', 
 'Either', 'Small', 'Slime', 6, 2, '3B', '0ST', '1R 1B', '2B', 2, 0);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (845, 1145); --GooBody
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (845, 1144); --GooBody
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (845, 36); --Fly
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (845, 2306); --Heal
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (845, 0, 1); --Attack
@@ -1620,10 +1620,10 @@ insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender
 'http://htkb.info/Common/Standies/Metaly.png', 
 'http://htkb.info/Common/Standies/Metaly_back.png', 
 'Either', 'Small', 'Slime', 9, 1, '1B', '3ST', '1R 1B', '2B', 1, 0);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (846, 1145); --GooBody
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (846, 1144); --GooBody
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (846, 134); --Sturdy
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (846, 1146); --Flee
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (846, 1147); --Shinies
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (846, 1145); --Flee
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (846, 1146); --Shinies
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (846, 2306); --Frizz
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (846, 0, 1); --Attack
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (846, 2); --Armor 
@@ -1651,7 +1651,7 @@ VALUES (1186,
 'http://htkb.info/Common/Standies/SMB/Warp_Pipe_back.png', 
 'Neither', 'Small', 'Spawning Point', 0, 0, '', '1ST', '', '', 3, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (847, 681); --Immune: Status Effects
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (847, 1149); --Spawning Pool
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (847, 1148); --Spawning Pool
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (847, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (847, 'Spawning Point', 'Start', 0);
 insert into CustomCards (CardIndex, Author, SourceURL) VALUES(
@@ -1754,9 +1754,9 @@ insert into BossSpawns (CardIndex, DungeonEffect, BossSpawnEffect, TimeoutEffect
 'When the Wizard enters play place a Stun counter on every hero.<br><br>Magic Sapping Blades:  All Minions and denizens gain the Stun ability as if it were printed on their stat card.<br><br>Summon:<br>2 Knuckleheads<br>2 Flingers<br>2 Dragon Priests', 
 'Curse: One hero model, of the Consul player''s choice is cursed by the Wizard, and immediately turns into The Wolf.  All equipment and potions are kept by the hero.', 
 '');
---insert into KeywordAssignments (BossSpawnIndex, KeywordIndex) VALUES (33, 1136); --Black Magic
---insert into KeywordAssignments (BossSpawnIndex, KeywordIndex) VALUES (33, 1137); --Magic Sapping Blades
---insert into KeywordAssignments (BossSpawnIndex, KeywordIndex) VALUES (33, 1138); --Curse
+insert into KeywordAssignments (BossSpawnIndex, KeywordIndex) VALUES (33, 1135); --Black Magic
+insert into KeywordAssignments (BossSpawnIndex, KeywordIndex) VALUES (33, 1136); --Magic Sapping Blades
+insert into KeywordAssignments (BossSpawnIndex, KeywordIndex) VALUES (33, 1137); --Curse
 insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (33, 1172); --Brown Wizard
 insert into CustomCards (CardIndex, Author, SourceURL) VALUES(
 2341,
@@ -1777,10 +1777,10 @@ insert into BossSpawns (CardIndex, DungeonEffect, BossSpawnEffect, TimeoutEffect
 'Armour piercing:  When the Chaos Warrior enters play place a Fragile counter on every hero.  The Chaos Warrior starts off mounted.<br><br>Armour Piercing Blades:  All Minions and denizens gain the Fragile ability as if it were printed on their stat card.<br><br>Summon:<br>2 Knuckleheads<br>1 Ogre<br>2 Gougers', 
 'Explosion:  All heroes suffer KNOCKDOWN and models adjacent to the Warrior suffer Fragile.  The Chaos Warrior is dismounted.', 
 '');
---insert into KeywordAssignments (BossSpawnIndex, KeywordIndex) VALUES (34, 1139); --Armoured Plating
---insert into KeywordAssignments (BossSpawnIndex, KeywordIndex) VALUES (34, 1140); --Armoured Piercing
---insert into KeywordAssignments (BossSpawnIndex, KeywordIndex) VALUES (34, 1141); --Armour Piercing Blades
---insert into KeywordAssignments (BossSpawnIndex, KeywordIndex) VALUES (34, 1142); --Explosion
+insert into KeywordAssignments (BossSpawnIndex, KeywordIndex) VALUES (34, 1138); --Armoured Plating
+insert into KeywordAssignments (BossSpawnIndex, KeywordIndex) VALUES (34, 1139); --Armoured Piercing
+insert into KeywordAssignments (BossSpawnIndex, KeywordIndex) VALUES (34, 1140); --Armour Piercing Blades
+insert into KeywordAssignments (BossSpawnIndex, KeywordIndex) VALUES (34, 1141); --Explosion
 insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (34, 1173); --Chaos Warrior
 insert into CustomCards (CardIndex, Author, SourceURL) VALUES(
 2342,

@@ -1,5 +1,8 @@
---Table Load 1
---1.0 Heroes
+--SDE
+--1.0.1
+--Heroes
+
+
 --Angry Bear --Index 0
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Angry Bear', 
 'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Hero_Angry_Bear_1.0.png', 

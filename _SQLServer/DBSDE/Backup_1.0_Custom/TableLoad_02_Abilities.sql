@@ -3,6 +3,9 @@
 --Abilities
 
 
+--!!!Problems after
+--!!!Clean before
+
 /*Buckaroo 									--Index 2170*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0 Custom', 'Default', 'Buckaroo', 'Action', 'Offense', 2, 0, -1, 'Wave 1, DANGEROUS, IMMUNE: Mob');
 /*Stampede 									--Index 2171*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0 Custom', 'Default', 'Stampede', 'Action', 'Offense', 3, 0, 0, 'ATT vs. DEX, TRAMPLE');
 /*Haymaker 									--Index 2172*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0 Custom', 'Default', 'Haymaker', 'Action', 'Offense', 3, 0, 0, '+1R ATT, Stun');
@@ -197,5 +200,10 @@
 
 /*Head Bonk									--Index 2309*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0 Custom', 'Explore', 'Head Bonk',								'Action', 'Offense', 2, 0, 2, 'REACH 2, +1B');
 
-/*Shell Toss								--Index 2310*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0 Custom', 'Explore', 'Shell Toss',								'Action', 'Offense', 2, 0, -1, 'LANCE 4');
+/*Shell Toss								--Index 2310->2220*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0 Custom', 'Explore', 'Shell Toss',								'Action', 'Offense', 2, 0, -1, 'LANCE 4');
 
+--!!!Problems before
+--!!!Clean after
+
+/*Pistol Barrage							--Index 2221*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0 Custom', 'Explore', 'Shell Toss',								'Action', 'Offense', 2, 0, -1, 'LANCE 4');
+/*High Tide									--Index 2222*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0 Custom', 'Explore', 'Shell Toss',								'Action', 'Offense', 2, 0, -1, 'LANCE 4');

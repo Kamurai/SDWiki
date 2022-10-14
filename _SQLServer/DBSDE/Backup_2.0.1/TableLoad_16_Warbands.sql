@@ -19,8 +19,8 @@ VALUES (684,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Arcadian_Spider_Nest/Standies/Arcadian_Spider_Nest_2.0_back.png', 
 'Neither', 'Small', 'Spawning Point', 0, 0, '', '1ST', '', '', 3, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (579, 681); --Immune: Status Effects
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (579, 1068); --Webs
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (579, 915); --Spawning Pool
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (579, 1067); --Webs
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (579, 914); --Spawning Pool
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (579, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (579, 'Spawning Point', 'Start', 0);
 
@@ -42,7 +42,7 @@ VALUES (685,
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (580, 807); --Poison
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (580, 679); --Immune: Poison
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (580, 468); --Bluff
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (580, 1023); --Surefoot
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (580, 1022); --Surefoot
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (580, 1856); --Toxicity
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (580, 1616); --Scuttling Swarm
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (580, 1724); --Spider to the Fly
@@ -66,7 +66,7 @@ VALUES (686,
 'Either', 'Small', 'Spider', 6, 1, '2B 1R', '1ST', '3B', '3B', 1, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (581, 679); --Immune: Poison
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (581, 757); --Mob
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (581, 1023); --Surefoot
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (581, 1022); --Surefoot
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (581, 735); --Ambush Predator
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (581, 1, 1); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (581, 2); --Armor 
@@ -88,7 +88,7 @@ VALUES (687,
 'Either', 'Small', 'Spider', 8, 1, '2B', '0ST', '1B', '3B', 1, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (582, 679); --Immune: Poison
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (582, 757); --Mob
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (582, 1023); --Surefoot
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (582, 1022); --Surefoot
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (582, 1996); --Wait In Shadow
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (582, 1, 1); --Strength
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (582, 4, 4); --Dexterity
@@ -113,7 +113,7 @@ VALUES (688,
 'Neither', 'Small', 'Spawning Point', 0, 0, '', '1ST', '', '', 3, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (583, 518); --Counterstrike
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (583, 681); --Immune: Status Effects
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (583, 917); --Spawning Pool
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (583, 916); --Spawning Pool
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (583, 1, 2); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (583, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (583, 'Spawning Point', 'Start', 0);
@@ -132,7 +132,7 @@ VALUES (689,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Bandit_Knight/Standies/Billmen_Bandit_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Bandit_Knight/Standies/Billmen_Bandit_2.0_back.png', 
 'Either', 'Small', 'Chimera', 6, 1, '3B', '1ST', '2B', '1B 1R', 1, 0);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (584, 1009); --Steal
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (584, 1008); --Steal
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (584, 1, 2); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (584, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (584, 'Minion', '8 Bit', 1);
@@ -152,7 +152,7 @@ VALUES (690,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Bandit_Knight/Standies/Grobbit_Barbarian_2.0_back.png', 
 'Either', 'Large', 'Chimera', 6, 3, '3B 1R', '2B', '1B', '3B', 4, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (585, 457); --Berserk
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (585, 1023); --Surefoot
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (585, 1022); --Surefoot
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (585, 2013); --Wild Swing
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (585, 1, 2); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (585, 2); --Armor 
@@ -173,7 +173,7 @@ VALUES (691,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Bandit_Knight/Standies/Marauder_Squawk_2.0_back.png', 
 'Either', 'Small', 'Chimera', 8, 2, '2B 1R', '1ST', '2B', '3B', 2, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (586, 815); --Pounce
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (586, 1023); --Surefoot
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (586, 1022); --Surefoot
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (586, 1180); --Frogger
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (586, 1020); --Dirty Strike
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (586, 1, 1); --Strength
@@ -199,7 +199,7 @@ VALUES (692,
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (587, 418); --Active Spawn
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (587, 685); --Improved Critical
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (587, 834); --Rampage
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (587, 919); --Spawning Pool
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (587, 918); --Spawning Pool
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (587, 815); --Blood Frenzy
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (587, 3, 3); --Will
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (587, 2); --Armor 
@@ -239,8 +239,8 @@ VALUES (694,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Ijin/Standies/Clan_Ijin_Kunoichi_2.0_back.png', 
 'Feminine', 'Small', 'Ijin Riftling', 7, 2, '2R', '0ST', '2B', '3B', 2, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (589, 834); --Rampage
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (589, 1010); --Stealth
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (589, 1023); --Surefoot
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (589, 1009); --Stealth
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (589, 1022); --Surefoot
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (589, 1657); --Shuriken Storm
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (589, 1689); --Smoke Bomb
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (589, 1, 1); --Strength
@@ -309,8 +309,8 @@ VALUES (697,
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (592, 418); --Active Spawn
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (592, 702); --Killamari
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (592, 866); --Salty
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (592, 921); --Spawning Pool
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (592, 1010); --Stealth
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (592, 920); --Spawning Pool
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (592, 1009); --Stealth
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (592, 1167); --Foul Weather
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (592, 3, 6); --Will
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (592, 2); --Armor 
@@ -373,7 +373,7 @@ VALUES (700,
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (595, 647); --Hex
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (595, 728); --Massive Damage
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (595, 866); --Salty
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (595, 901); --Slow
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (595, 900); --Slow
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (595, 1740); --Squidical Hit
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (595, 1319); --Ink Cloud
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (595, 1, 3); --Strength
@@ -417,8 +417,8 @@ VALUES (702,
 'Masculine', 'Small', 'Kitsune Paired Spawning Point', 2, 1, '1B', '1ST', '1B', '2B', 3, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (597, 418); --Active Spawn
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (597, 642); --Heal X
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (597, 1023); --Surefoot
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (597, 1030); --Territorial
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (597, 1022); --Surefoot
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (597, 1029); --Territorial
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (597, 907); --Command of Kitsune
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (597, 1169); --Fox's Grace
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (597, 3, 6); --Will
@@ -440,8 +440,8 @@ VALUES (703,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Kitsune/Standies/Clan_Kitsune_Kaiken_2.0_back.png', 
 'Masculine', 'Small', 'Kitsune', 5, 1, '2B', '1ST', '2B', '3B', 1, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (598, 815); --Pounce
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (598, 1023); --Surefoot
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (598, 1030); --Territorial
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (598, 1022); --Surefoot
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (598, 1029); --Territorial
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (598, 1, 1); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (598, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (598, 'Minion', '8 Bit', 1);
@@ -460,9 +460,9 @@ VALUES (704,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Kitsune/Standies/Clan_Kitsune_Kunoichi_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Kitsune/Standies/Clan_Kitsune_Kunoichi_2.0_back.png', 
 'Feminine', 'Small', 'Kitsune', 7, 2, '2B', '2B', '3B', '3B', 2, 0);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (599, 1010); --Stealth
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (599, 1023); --Surefoot
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (599, 1030); --Territorial
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (599, 1009); --Stealth
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (599, 1022); --Surefoot
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (599, 1029); --Territorial
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (599, 1368); --Let Them Come
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (599, 1171); --Foxy
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (599, 4, 4); --Dex
@@ -484,8 +484,8 @@ VALUES (705,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Kitsune/Standies/Clan_Kitsune_Oni_2.0_back.png', 
 'Either', 'Large', 'Kitsune', 5, 2, '2B 1R', '3B', '2B', '3B', 2, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (600, 729); --Massive Damage
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (600, 1023); --Surefoot
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (600, 1030); --Territorial
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (600, 1022); --Surefoot
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (600, 1029); --Territorial
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (600, 889); --Clear The Forest
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (600, 1781); --Strike The Heart
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (600, 1, 3); --Strength
@@ -507,8 +507,8 @@ VALUES (706,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Kitsune/Standies/Clan_Kitsune_Yajiri_2.0_back.png', 
 'Either', 'Small', 'Kitsune', 5, 1, '2B', '0ST', '3B', '2B', 1, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (601, 853); --Retreat
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (601, 1023); --Surefoot
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (601, 1030); --Territorial
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (601, 1022); --Surefoot
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (601, 1029); --Territorial
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (601, 976); --Darts From The Reeds
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (601, 4, 6); --Dex
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (601, 2); --Armor 
@@ -532,7 +532,7 @@ VALUES (707,
 'Masculine', 'Small', 'Sohei Spawning Point', 2, 1, '0ST', '2R', '3B', '0ST', 3, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (602, 418); --Active Spawn
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (602, 556); --Discipline
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (602, 1092); --Spawning Pool
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (602, 1090); --Spawning Pool
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (602, 916); --Coordinated Strike
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (602, 3, 4); --Will
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (602, 2); --Armor 
@@ -546,13 +546,13 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'After completing the Nine Trials of Devotion, a Sohei''s soul is purified by the clan''s Madoushi and eleveated to Kaiken.  In combat, their swords are as the divine light of Ameratsu, banishing all shadows before them.');
 insert into Characters (CardIndex) VALUES (1098); 
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (708, 1); --!! unavailable !!
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (708, 4); --Sapphire
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (708,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Sohei/Standies/Clan_Sohei_Kaiken_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Sohei/Standies/Clan_Sohei_Kaiken_2.0_back.png', 
 'Masculine', 'Small', 'Sohei', 6, 1, '3B', '3B', '3B', '2B', 1, 0);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (603, 556); --Discipline !! unavailable !!
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (603, 556); --Discipline
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (603, 1, 1); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (603, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (603, 'Minion', '8 Bit', 1);
@@ -565,13 +565,13 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Trained specialist and charismatic leaders, Sohei Kunoichi are billiant points of light in the darkness.  They can be found where the Dark Consul''s influence is strongest, guiding their comrades in service to the light.');
 insert into Characters (CardIndex) VALUES (1099);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (709, 2); --!! unavailable 1!
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (709, 4); --Sapphire
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (709,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Sohei/Standies/Clan_Sohei_Kunoichi_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Sohei/Standies/Clan_Sohei_Kunoichi_2.0_back.png', 
 'Feminine', 'Small', 'Sohei', 6, 2, '2R', '2B 1R', '3B', '2B', 2, 0);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (604, 556); --Discipline !! unavailable !!
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (604, 556); --Discipline
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (604, 1, 3); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (604, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (604, 'Minion', '16 Bit', 2);
@@ -584,7 +584,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Sohei Yajiri are less experienced kohai who have only begun their journey along the ascetic paths of the Ikko, suporting the clan with disciplined bow fire.');
 insert into Characters (CardIndex) VALUES (1100); 
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (710, 2); --!! unavailable !!
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (710, 4); --Sapphire
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (710,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Sohei/Standies/Clan_Sohei_Yajiri_2.0.png', 
@@ -614,8 +614,8 @@ VALUES (711,
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (606, 567); --Elemental Affinity
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (606, 651); --Hidden
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (606, 681); --Immune: Status Effects
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (606, 947); --Spawning Pool
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (606, 1010); --Stealth
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (606, 946); --Spawning Pool
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (606, 1009); --Stealth
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (606, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (606, 'Start', 'Spawning Point', 0);
 
@@ -635,7 +635,7 @@ VALUES (712,
 'Masculine', 'Small', 'Ninja', 6, 1, '2B 1R', '3B', '3B', '3B', 3, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (607, 442); --Augment
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (607, 708); --Knockdown
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (607, 1010); --Stealth
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (607, 1009); --Stealth
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (607, 1533); --Precision Strike
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (607, 1059); --Elemental Master
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (607, 1, 1); --Strength
@@ -656,7 +656,7 @@ VALUES (713,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Spirit_Shrine/Standies/Clan_Spirit_Shrine_Kaiken_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Spirit_Shrine/Standies/Clan_Spirit_Shrine_Kaiken_2.0_back.png', 
 'Masculine', 'Small', 'Ninja', 6, 1, '3B', '1ST', '2B', '3B', 1, 0);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (608, 1010); --Stealth
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (608, 1009); --Stealth
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (608, 767); --Back Strike
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (608, 1, 1); --Strength
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (608, 4, 3); --Dex
@@ -678,7 +678,7 @@ VALUES (714,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Spirit_Shrine/Standies/Clan_Spirit_Shrine_Kunoichi_2.0_back.png', 
 'Feminine', 'Small', 'Ninja', 8, 1, '3B', '0ST', '1B 1R', '2R', 1, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (609, 815); --Pounce
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (609, 1010); --Stealth
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (609, 1009); --Stealth
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (609, 2017); --Wind in the Forest
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (609, 1, 1); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (609, 2); --Armor
@@ -702,7 +702,7 @@ VALUES (715,
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (610, 442); --Augment
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (610, 596); --Fly
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (610, 807); --Poison
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (610, 1010); --Stealth
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (610, 1009); --Stealth
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (610, 1521); --Poisoned Weapons
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (610, 2018); --Wind Walk
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (610, 1, 1); --Strength
@@ -724,8 +724,8 @@ VALUES (716,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Spirit_Shrine/Standies/Clan_Spirit_Shrine_Yajiri_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Spirit_Shrine/Standies/Clan_Spirit_Shrine_Yajiri_2.0_back.png', 
 'Masculine', 'Small', 'Ninja', 6, 1, '2B', '0ST', '2B', '3B', 1, 0);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (611, 1010); --Stealth
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (611, 1072); --Wind of Blades
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (611, 1009); --Stealth
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (611, 1071); --Wind of Blades
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (611, 1, 1); --Strength
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (611, 4, 6); --Dex
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (611, 2); --Armor 
@@ -858,7 +858,7 @@ VALUES (722,
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (617, 418); --Active Spawn
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (617, 626); --Fury
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (617, 838); --Ravage
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (617, 927); --Spawning Pool
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (617, 926); --Spawning Pool
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (617, 2023); --With Your Last Breath
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (617, 1, 1); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (617, 2); --Armor 
@@ -898,7 +898,7 @@ VALUES (724,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Tora/Standies/Clan_Tora_Kunoichi_2.0_back.png', 
 'Feminine', 'Small', 'Tora', 5, 2, '3B', '1ST', '2B', '2R', 2, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (619, 838); --Ravage
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (619, 1059); --Volatile
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (619, 1058); --Volatile
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (619, 1528); --Powder Bomb
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (619, 1159); --FOR THE CLAN!
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (619, 4, 4); --Dex
@@ -921,7 +921,7 @@ VALUES (725,
 'Either', 'Large', 'Tora', 5, 3, '1B 2R', '2B 1R', '1B', '3B', 3, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (620, 709); --Knockdown
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (620, 838); --Ravage
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (620, 1059); --Volatile
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (620, 1058); --Volatile
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (620, 1349); --Kneel Insects!
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (620, 1241); --Gunpowder Burst
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (620, 1, 3); --Strength
@@ -968,8 +968,8 @@ VALUES (727,
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (622, 566); --Elemental Affinity
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (622, 651); --Hidden
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (622, 681); --Immune: Status Effects
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (622, 947); --Spawning Pool
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (622, 1010); --Stealth
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (622, 946); --Spawning Pool
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (622, 1009); --Stealth
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (622, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (622, 'Start', 'Spawning Point', 0);
 
@@ -989,7 +989,7 @@ VALUES (728,
 'Masculine', 'Small', 'Ninja', 6, 3, '2B 1R', '3B', '3B', '3B', 3, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (623, 442); --Augment
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (623, 708); --Knockdown
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (623, 1010); --Stealth
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (623, 1009); --Stealth
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (623, 1534); --Precision Strike
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (623, 1059); --Elemental Master
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (623, 1, 1); --Strength
@@ -1010,7 +1010,7 @@ VALUES (729,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Void_Shrine/Standies/Clan_Void_Shrine_Kaiken_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Void_Shrine/Standies/Clan_Void_Shrine_Kaiken_2.0_back.png', 
 'Masculine', 'Small', 'Ninja', 6, 1, '3B', '1ST', '2B', '3B', 1, 0);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (624, 1010); --Stealth
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (624, 1009); --Stealth
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (624, 767); --Back Strike
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (624, 1, 1); --Strength
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (624, 4, 3); --Dex
@@ -1032,7 +1032,7 @@ VALUES (730,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Void_Shrine/Standies/Clan_Void_Shrine_Kunoichi_2.0_back.png', 
 'Feminine', 'Small', 'Ninja', 8, 1, '3B', '0ST', '1B 1R', '2R', 1, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (625, 815); --Pounce
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (625, 1010); --Stealth
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (625, 1009); --Stealth
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (625, 2016); --Wind in the Forest
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (625, 1, 1); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (625, 2); --Armor
@@ -1056,7 +1056,7 @@ VALUES (731,
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (626, 442); --Augment
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (626, 596); --Fly
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (626, 807); --Poison
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (626, 1010); --Stealth
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (626, 1009); --Stealth
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (626, 1521); --Poisoned Weapons
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (626, 2018); --Wind Walk
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (626, 1, 1); --Strength
@@ -1078,8 +1078,8 @@ VALUES (732,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Void_Shrine/Standies/Clan_Void_Shrine_Yajiri_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Void_Shrine/Standies/Clan_Void_Shrine_Yajiri_2.0_back.png', 
 'Masculine', 'Small', 'Ninja', 6, 1, '2B', '0ST', '2B', '3B', 1, 0);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (627, 1010); --Stealth
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (627, 1072); --Wind of Blades
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (627, 1009); --Stealth
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (627, 1071); --Wind of Blades
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (627, 1, 1); --Strength
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (627, 4, 6); --Dex
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (627, 2); --Armor 
@@ -1104,8 +1104,8 @@ VALUES (733,
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (628, 567); --Elemental Affinity
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (628, 651); --Hidden
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (628, 681); --Immune: Status Effects
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (628, 947); --Spawning Pool
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (628, 1010); --Stealth
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (628, 946); --Spawning Pool
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (628, 1009); --Stealth
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (628, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (628, 'Start', 'Spawning Point', 0);
 
@@ -1125,7 +1125,7 @@ VALUES (734,
 'Masculine', 'Small', 'Ninja', 6, 3, '2B 1R', '3B', '3B', '3B', 3, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (629, 442); --Augment
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (629, 708); --Knockdown
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (629, 1010); --Stealth
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (629, 1009); --Stealth
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (629, 1534); --Precision Strike
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (629, 1059); --Elemental Master
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (629, 1, 1); --Strength
@@ -1146,7 +1146,7 @@ VALUES (735,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Water_Shrine/Standies/Clan_Water_Shrine_Kaiken_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Water_Shrine/Standies/Clan_Water_Shrine_Kaiken_2.0_back.png', 
 'Masculine', 'Small', 'Ninja', 6, 1, '3B', '1ST', '2B', '3B', 1, 0);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (630, 1010); --Stealth
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (630, 1009); --Stealth
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (630, 767); --Back Strike
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (630, 1, 1); --Strength
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (630, 4, 3); --Dex
@@ -1168,7 +1168,7 @@ VALUES (736,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Water_Shrine/Standies/Clan_Water_Shrine_Kunoichi_2.0_back.png', 
 'Feminine', 'Small', 'Ninja', 8, 1, '3B', '0ST', '1B 1R', '2R', 1, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (631, 815); --Pounce
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (631, 1010); --Stealth
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (631, 1009); --Stealth
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (631, 2017); --Wind in the Forest
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (631, 1, 1); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (631, 2); --Armor
@@ -1192,7 +1192,7 @@ VALUES (737,
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (632, 442); --Augment
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (632, 596); --Fly
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (632, 807); --Poison
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (632, 1010); --Stealth
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (632, 1009); --Stealth
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (632, 1521); --Poisoned Weapons
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (632, 2018); --Wind Walk
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (632, 1, 1); --Strength
@@ -1214,8 +1214,8 @@ VALUES (738,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Water_Shrine/Standies/Clan_Water_Shrine_Yajiri_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Water_Shrine/Standies/Clan_Water_Shrine_Yajiri_2.0_back.png', 
 'Masculine', 'Small', 'Ninja', 6, 1, '2B', '0ST', '2B', '3B', 1, 0);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (633, 1010); --Stealth
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (633, 1072); --Wind of Blades
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (633, 1009); --Stealth
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (633, 1071); --Wind of Blades
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (633, 1, 1); --Strength
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (633, 4, 6); --Dex
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (633, 2); --Armor 
@@ -1238,9 +1238,9 @@ VALUES (739,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Yamazaru/Standies/Clan_Yamazaru_Madoushi_2.0_back.png', 
 'Masculine', 'Small', 'Yamazaru Spawning Point', 2, 1, '2B', '1ST', '3B', '2B', 3, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (634, 418); --Active Spawn
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (634, 893); --Shiny Bauble
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (634, 901); --Slow
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (634, 929); --Spawning Pool
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (634, 892); --Shiny Bauble
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (634, 900); --Slow
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (634, 928); --Spawning Pool
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (634, 1438); --Mountain Flute
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (634, 3, 6); --Will
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (634, 2); --Armor 
@@ -1261,7 +1261,7 @@ VALUES (740,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Yamazaru/Standies/Clan_Yamazaru_Kaiken_2.0_back.png', 
 'Masculine', 'Small', 'Yamazaru', 7, 1, '3B', '1ST', '2B', '3B', 1, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (635, 668); --Ice
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (635, 893); --Shiny Bauble
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (635, 892); --Shiny Bauble
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (635, 1445); --Mountain Sees, The
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (635, 1, 1); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (635, 2); --Armor 
@@ -1284,7 +1284,7 @@ VALUES (741,
 'Feminine', 'Small', 'Yamazaru', 7, 1, '3B', '0ST', '3B', '3B', 1, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (636, 647); --Hex
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (636, 668); --Ice
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (636, 893); --Shiny Bauble
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (636, 892); --Shiny Bauble
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (636, 958); --Curse Of The Angry Monkey
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (636, 1445); --Mountain Sees, The
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (636, 1, 1); --Strength
@@ -1308,7 +1308,7 @@ VALUES (742,
 'Either', 'Large', 'Yamazaru', 7, 4, '2B 1R', '2B 1R', '1B', '3B', 4, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (637, 685); --Improved Critical
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (637, 708); --Knockdown
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (637, 893); --Shiny Bauble
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (637, 892); --Shiny Bauble
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (637, 2032); --Yamazura's Tail
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (637, 1, 3); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (637, 2); --Armor 
@@ -1330,7 +1330,7 @@ VALUES (743,
 'Either', 'Small', 'Yamazaru', 7, 1, '3B', '1ST', '2B', '3B', 1, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (638, 647); --Hex
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (638, 668); --Ice
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (638, 893); --Shiny Bauble
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (638, 892); --Shiny Bauble
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (638, 1442); -- Mountain Disapproves, The
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (638, 4, 6); --Dex
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (638, 2); --Armor 
@@ -1354,7 +1354,7 @@ VALUES (744,
 'Masculine', 'Small', 'Undead Spawning Point', 1, 1, '2B', '1ST', '3B', '1B', 3, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (639, 418); --Active Spawn
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (639, 562); --Dragged To The Depths
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (639, 992); --Spawning Pool
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (639, 991); --Spawning Pool
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (639, 1716); --Soul Drain
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (639, 3, 6); --Will
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (639, 2); --Armor 
@@ -1441,7 +1441,7 @@ VALUES (748,
 'Neither', 'Small', 'Spawning Point', 0, 0, '', '1ST', '', '', 3, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (643, 461); --Black Ice
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (643, 681); --Immune: Status Effects
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (643, 931); --Spawning Pool
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (643, 930); --Spawning Pool
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (643, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (643, 'Spawning Point', 'Start', 0);
 
@@ -1459,7 +1459,7 @@ VALUES (749,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Cold_Eggs/Standies/Frostbyte_Hatchlings_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Cold_Eggs/Standies/Frostbyte_Hatchlings_2.0_back.png', 
 'Either', 'Small', 'Drake', 6, 2, '3B', '0ST', '2B', '3B', 2, 0);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (644, 891); --Shatter
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (644, 890); --Shatter
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (644, 1, 1); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (644, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (644, 'Minion', '8 Bit', 1);
@@ -1479,7 +1479,7 @@ VALUES (750,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Cold_Eggs/Standies/Frostbyte_Whelp_2.0_back.png', 
 'Either', 'Large', 'Drake', 6, 1, '2B 1R', '1ST', '3B', '3B', 1, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (645, 668); --Ice
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (645, 891); --Shatter
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (645, 890); --Shatter
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (645, 1, 2); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (645, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (645, 'Minion', '8 Bit', 1);
@@ -1500,7 +1500,7 @@ VALUES (751,
 'Either', 'Small', 'Drake', 6, 2, '2B 1R', '1ST', '3B', '3B', 2, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (646, 596); --Fly
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (646, 668); --Ice
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (646, 891); --Shatter
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (646, 890); --Shatter
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (646, 1188); --Frozen Detonation
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (646, 1290); --Ice Lance
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (646, 1, 1); --Strength
@@ -1527,7 +1527,7 @@ VALUES (752,
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (647, 588); --Fire
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (647, 595); --Flammable
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (647, 681); --Immune: Status Effects Except Fire
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (647, 933); --Spawning Pool
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (647, 932); --Spawning Pool
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (647, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (647, 'Spawning Point', 'Start', 0);
 
@@ -1549,7 +1549,7 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (648
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (648, 588); --Fire
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (648, 595); --Flammble
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (648, 647); --Hex
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (648, 1037); --Throw X
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (648, 1036); --Throw X
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (648, 935); --Crow Pie
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (648, 898); --Cloud of Straw
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (648, 1549); --Pumpkin Toss
@@ -1593,7 +1593,7 @@ VALUES (755,
 'Either', 'Small', 'Construct', 5, 2, '2R', '1B', '0ST', '1B', 2, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (650, 588); --Fire
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (650, 595); --Flammable
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (650, 1037); --Throw X
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (650, 1036); --Throw X
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (650, 1488); --Out of the Corn
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (650, 1548); --Pumpkin Toss
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (650, 1, 1); --Strength
@@ -1618,7 +1618,7 @@ VALUES (756,
 'Neither', 'Small', 'Spawning Point', 0, 0, '', '1ST', '', '', 3, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (651, 547); --Despair
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (651, 681); --Immune: Status Effects
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (651, 937); --Spawning Pool
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (651, 936); --Spawning Pool
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (651, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (651, 'Spawning Point', 'Start', 0);
 
@@ -1702,7 +1702,7 @@ VALUES (760,
 'Neither', 'Small', 'Spawning Point', 0, 0, '', '1ST', '', '', 3, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (655, 547); --Despair
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (655, 681); --Immune: Status Effects
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (655, 939); --Spawning Pool
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (655, 938); --Spawning Pool
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (655, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (655, 'Spawning Point', 'Start', 0);
 
@@ -1725,7 +1725,7 @@ VALUES (761,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Hollow/Standies/Cursed_Hollow_2.0_back.png', 
 'Neither', 'Large', 'Paired Spawning Point', 0, 0, '', '1ST', '', '', 4, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (656, 681); --Immune: Status Effects
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (656, 941); --Spawning Pool
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (656, 940); --Spawning Pool
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (656, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (656, 'Spawning Point', 'Start', 0);
 
@@ -1827,7 +1827,7 @@ VALUES (766,
 'Neither', 'Large', 'Shapeshift', 1, 3, '5B', '2R', '3B', '1B', 4, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (661, 467); --Blood Drinker
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (661, 593); --Fixed Form
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (661, 1041); --Tough
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (661, 1040); --Tough
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (661, 1235); --Grasping Vines
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (661, 1093); --Feast
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (661, 1, 4); --Strength
@@ -1853,7 +1853,7 @@ VALUES (767,
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (662, 647); --Hex
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (662, 650); --Hex Aura
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (662, 681); --Immune: Status Effects
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (662, 943); --Spawning Pool
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (662, 942); --Spawning Pool
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (662, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (662, 'Spawning Point', 'Start', 0);
 
@@ -1965,8 +1965,8 @@ VALUES (772,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Egg_Clutch/Standies/Egg_Clutch_2.0_back.png', 
 'Neither', 'Small', 'Spawning Point', 0, 0, '', '1ST', '', '', 3, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (667, 681); --Immune: Status Effects
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (667, 945); --Spawning Pool
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (667, 1010); --Stealth
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (667, 944); --Spawning Pool
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (667, 1009); --Stealth
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (667, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (667, 'Spawning Point', 'Start', 0);
 
@@ -2147,7 +2147,7 @@ VALUES (782,
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (677, 588); --Fire
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (677, 589); --Fire Aura
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (677, 681); --Immune: Status Effects
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (677, 949); --Spawning Pool
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (677, 948); --Spawning Pool
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (677, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (677, 'Spawning Point', 'Start', 0);
 
@@ -2209,7 +2209,7 @@ VALUES (785,
 'Either', 'Large', 'Kodama', 6, 1, '1B', '2R', '3B', '1B 1R', 2, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (680, 588); --Fire
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (680, 601); --Forced Shift
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (680, 888); --Shapeshift: Volcanic Sprout
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (680, 887); --Shapeshift: Volcanic Sprout
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (680, 1120); --Fire Field
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (680, 1, 1); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (680, 2); --Armor 
@@ -2231,7 +2231,7 @@ VALUES (786,
 'Neither', 'Large', 'Kodama', 6, 1, '2B', '0ST', '3B', '2B 1R', 1, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (681, 588); --Fire
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (681, 674); --Immune: Fire
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (681, 1060); --Volatile
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (681, 1059); --Volatile
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (681, 856); --Burning Sensation
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (681, 1, 1); --Strength
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (681, 4, 6); --Dex
@@ -2282,7 +2282,7 @@ VALUES (788,
 'Neither', 'Large', 'Spawning Point', 0, 0, '', '1ST', '', '', 3, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (683, 681); --Immune: Status Effects
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (683, 872); --Scuttle
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (683, 951); --Spawning Pool
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (683, 950); --Spawning Pool
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (683, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (683, 'Spawning Point', 'Start', 0);
 
@@ -2302,7 +2302,7 @@ VALUES (789,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Forgotten_Stone/Standies/Blackblade_Corsair_2.0_back.png', 
 'Either', 'Small', 'Nether Elf Pirate', 7, 1, '2B 1R', '1ST', '3B', '3B', 1, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (684, 805); --Piracy
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (684, 1023); --Surefoot
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (684, 1022); --Surefoot
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (684, 1024); --Discipline
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (684, 1, 1); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (684, 2); --Armor 
@@ -2325,7 +2325,7 @@ VALUES (790,
 'Masculine', 'Small', 'Nether Elf Pirate', 7, 1, '2B', '1ST', '3B', '3B', 1, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (685, 588); --Fire
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (685, 805); --Piracy
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (685, 1023); --Surefoot
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (685, 1022); --Surefoot
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (685, 1374); --Light The Sails
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (685, 1, 1); --Strength
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (685, 4, 8); --Dex
@@ -2350,7 +2350,7 @@ VALUES (791,
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (686, 453); --Bane
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (686, 481); --Brutal Strike
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (686, 805); --Piracy
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (686, 1023); --Surefoot
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (686, 1022); --Surefoot
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (686, 2006); --Weaken the Prey
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (686, 1628); --Shadow
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (686, 1114); --Finish The Cur
@@ -2376,7 +2376,7 @@ VALUES (792,
 'Neither', 'Large', 'Spawning Point', 0, 0, '', '1ST', '', '', 4, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (687, 461); --Black Ice
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (687, 681); --Immune: Status Effects
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (687, 953); --Spawning Pool
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (687, 952); --Spawning Pool
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (687, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (687, 'Spawning Point', 'Start', 0);
 
@@ -2479,7 +2479,7 @@ VALUES (797,
 'Neither', 'Small', 'Kobold', 7, 1, '2B', '0ST', '2B', '2B 1R', 1, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (692, 668); --Ice
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (692, 757); --Mob
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (692, 895); --Sidestep
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (692, 894); --Sidestep
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (692, 1192); --Frozen Pot
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (692, 1295); --Ice Rink
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (692, 1, 1); --Strength
@@ -2507,7 +2507,7 @@ VALUES (798,
 'Neither', 'Large', 'Spawning Point', 0, 0, '', '1ST', '', '', 3, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (693, 681); --Immune: Status Effects
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (693, 785); --Pack Mentality
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (693, 956); --Spawning Pool
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (693, 955); --Spawning Pool
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (693, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (693, 'Spawning Point', 'Start', 0);
 
@@ -2619,7 +2619,7 @@ VALUES (803,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Junk_Reaver_Crystal/Standies/Junk_Reaver_Crystal_2.0_back.png', 
 'Neither', 'Large', 'Spawning Point', 0, 0, '', '2ST', '', '', 2, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (698, 681); --Immune: Status Effects
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (698, 958); --Spawning Pool
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (698, 957); --Spawning Pool
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (698, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (698, 'Spawning Point', 'Start', 0);
 
@@ -2651,15 +2651,15 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 '');--!! unavailable !!
 insert into Characters (CardIndex) VALUES (1195); 
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (805, 3); --Ruby--!! unavailable !!
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (805, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (805,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Junk_Reaver_Crystal/Standies/Rusty_Arrows_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Junk_Reaver_Crystal/Standies/Rusty_Arrows_2.0_back.png', 
 'Neither', 'Small', 'Orc', 6, 1, '3ST', '1ST', '0ST', '3B', 2, 0);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (700, 728); --Massive Damage--!! unavailable !!
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (700, 843); --Reckless--!! unavailable !!
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (700, 1271); --Hold 'em Still!--!! unavailable !!
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (700, 728); --Massive Damage
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (700, 843); --Reckless
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (700, 1271); --Hold 'em Still!
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (700, 4, 8); --Dex
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (700, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (700, 'Minion', '8 Bit', 1);
@@ -2672,7 +2672,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 '');--!! unavailable !!
 insert into Characters (CardIndex) VALUES (1196); 
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (806, 3); --Ruby--!! unavailable !!
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (806, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (806,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Junk_Reaver_Crystal/Standies/Rust_Boss_2.0.png', 
@@ -2683,8 +2683,8 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (701
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (701, 728); --Massive Damage
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (701, 838); --Ravage
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (701, 843); --Reckless
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (701, 1451); --My Death For Yours--!! unavailable !!
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (701, 1575); --Red Wrath, The--!! unavailable !!
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (701, 1451); --My Death For Yours
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (701, 1575); --Red Wrath, The
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (701, 1, 2); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (701, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (701, 'Elite', '16 Bit', 3); 
@@ -2710,7 +2710,7 @@ VALUES (807,
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (702, 681); --Immune: Status Effects
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (702, 757); --Mob
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (702, 759); --Mob Mentality
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (702, 960); --Spawning Pool
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (702, 959); --Spawning Pool
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (702, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (702, 'Spawning Point', 'Start', 0);
 
@@ -2729,7 +2729,7 @@ VALUES (808,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Kobold_Warrens/Standies/Dragon_Priest_2.0_back.png', 
 'Either', 'Small', 'Kobold', 7, 3, '2B', '1B 1R', '2R', '1B 1R', 3, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (703, 757); --Mob
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (703, 1010); --Stealth
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (703, 1009); --Stealth
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (703, 1042); --Dragon Rage
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (703, 1633); --Shadow Breath
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (703, 1, 1); --Strength
@@ -2752,7 +2752,7 @@ VALUES (809,
 'Neither', 'Small', 'Kobold', 7, 1, '2B', '0ST', '2B', '2B 1R', 1, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (704, 588); --Fire
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (704, 757); --Mob
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (704, 1010); --Stealth
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (704, 1009); --Stealth
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (704, 1277); --Hot Pot
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (704, 1691); --Smoke Pot
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (704, 1, 1); --Strength
@@ -2837,7 +2837,7 @@ VALUES (813,
 'Neither', 'Small', 'Spawning Point', 0, 0, '', '2ST', '', '', 3, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (708, 681); --Immune: Status Effects
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (708, 716); --Loot Pinata
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (708, 962); --Spawning Pool
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (708, 961); --Spawning Pool
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (708, 1); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (708, 'Spawning Point', 'Start', 0);
 
@@ -2877,7 +2877,7 @@ VALUES (815,
 'Either', 'Large', 'Orc', 5, 1, '1R', '0ST', '0ST', '3B', 1, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (710, 482); --Brutal Strike
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (710, 843); --Reckless
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (710, 1062); --Volatile
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (710, 1061); --Volatile
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (710, 2000); --WATCH THIS!  --!! unavailable !!
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (710, 4, 12); --Dex
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (710, 2); --Armor 
@@ -2922,8 +2922,8 @@ VALUES (817,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Maleficent_Idol/Standies/Maleficent_Idol_2.0_back.png', 
 'Feminine', 'Small', 'Spawning Point', 0, 0, '', '2ST', '', '', 3, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (712, 681); --Immune: Status Effects
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (712, 1010); --Stealth
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (712, 966); --Spawning Pool
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (712, 1009); --Stealth
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (712, 965); --Spawning Pool
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (712, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (712, 'Spawning Point', 'Start', 0);
 
@@ -2942,8 +2942,8 @@ VALUES (818,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Maleficent_Idol/Standies/Maleficent_Idol_2.0_back.png', 
 'Feminine', 'Large', 'Spawning Point', 0, 0, '', '2ST', '', '', 3, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (713, 681); --Immune: Status Effects
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (713, 1010); --Stealth
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (713, 965); --Spawning Pool
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (713, 1009); --Stealth
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (713, 964); --Spawning Pool
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (713, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (713, 'Spawning Point', 'Start', 0);
 
@@ -3026,8 +3026,8 @@ VALUES (822,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Nether_Clutch/Standies/Nether_Clutch_2.0_back.png', 
 'Neither', 'Small', 'Spawning Point', 0, 0, '', '1ST', '', '', 3, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (717, 681); --Immune: Status Effects
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (717, 970); --Spawning Pool
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (717, 1010); --Stealth
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (717, 969); --Spawning Pool
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (717, 1009); --Stealth
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (717, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (717, 'Spawning Point', 'Start', 0);
 
@@ -3117,7 +3117,7 @@ VALUES (826,
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (721, 448); --Backlash
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (721, 681); --Immune: Status Effects
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (721, 849); --Reserve
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (721, 972); --Spawning Pool
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (721, 971); --Spawning Pool
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (721, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (721, 'Spawning Point', 'Start', 0);
 
@@ -3137,7 +3137,7 @@ VALUES (827,
 'Either', 'Small', 'Crab', 8, 1, '3B', '1ST', '1B', '3B', 1, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (722, 636); --Grabby
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (722, 678); --Immune: Knockdown
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (722, 1023); --Surefoot
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (722, 1022); --Surefoot
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (722, 1597); --Rising Tide
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (722, 1, 1); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (722, 2); --Armor 
@@ -3159,7 +3159,7 @@ VALUES (828,
 'Either', 'Large', 'Crab', 8, 1, '2B', '0ST', '1B', '3B', 1, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (723, 636); --Grabby
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (723, 678); --Immune: Knockdown
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (723, 1023); --Surefoot
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (723, 1022); --Surefoot
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (723, 1065); --Empty Shell
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (723, 1, 1); --Strength
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (723, 4, 4); --Dex
@@ -3185,7 +3185,7 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (724
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (724, 678); --Immune: Knockdown
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (724, 708); --Knockdown
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (724, 801); --Pile-on
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (724, 1023); --Surefoot
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (724, 1022); --Surefoot
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (724, 1876); --Twisting Sands
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (724, 1613); --Scuttling Menance
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (724, 1510); --Pick Them Clean
@@ -3213,7 +3213,7 @@ VALUES (830,
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (725, 681); --Immune: Status Effects
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (725, 818); --Predator
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (725, 819); --Predatory Aura
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (725, 974); --Spawning Pool
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (725, 973); --Spawning Pool
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (725, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (725, 'Spawning Point', 'Start', 0);
 
@@ -3233,7 +3233,7 @@ VALUES (831,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Sand_Spire/Standies/Desert_Blade_2.0_back.png', 
 'Masculine', 'Small', 'Nether Elf', 7, 1, '2B 1R', '1ST', '3B', '3B', 1, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (726, 468); --Bluff
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (726, 1023); --Surefoot
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (726, 1022); --Surefoot
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (726, 1024); --Discipline
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (726, 1, 1); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (726, 2); --Armor 
@@ -3255,7 +3255,7 @@ VALUES (832,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Sand_Spire/Standies/Dune_Hunter_2.0_back.png', 
 'Masculine', 'Small', 'Nether Elf', 7, 1, '2B', '1ST', '3B', '3B', 1, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (727, 468); --Bluff
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (727, 1023); --Surefoot
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (727, 1022); --Surefoot
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (727, 1694); --Snare
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (727, 1, 1); --Strength
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (727, 4, 8); --Dex
@@ -3280,7 +3280,7 @@ VALUES (833,
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (728, 453); --Bane
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (728, 468); --Bluff
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (728, 818); --Predator
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (728, 1023); --Surefoot
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (728, 1022); --Surefoot
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (728, 2006); --Weaken the Prey
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (728, 1629); --Shadow
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (728, 1284); --Hunting Party
@@ -3306,7 +3306,7 @@ VALUES (834,
 'Neither', 'Small', 'Spawning Point', 0, 0, '', '1ST', '', '', 3, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (729, 681); --Immune: Status Effects
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (729, 802); --Pinata of Death
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (729, 976); --Spawning Pool
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (729, 975); --Spawning Pool
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (729, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (729, 'Spawning Point', 'Start', 0);
 
@@ -3346,8 +3346,8 @@ VALUES (836,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Scrap_Tower/Standies/Gate_Crasher_2.0_back.png', 
 'Neither', 'Small', 'Construct', 0, 1, '1B 1R', '1G', '0ST', '0ST', 3, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (731, 628); --Gatekeeper
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (731, 1008); --Steady
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (731, 1038); --Thwomp
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (731, 1007); --Steady
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (731, 1037); --Thwomp
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (731, 2011); --Why Was I Built To Feel Loneliness?
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (731, 1, 1); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (731, 2); --Armor 
@@ -3368,7 +3368,7 @@ VALUES (837,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Scrap_Tower/Standies/Grim_Oculus_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Scrap_Tower/Standies/Grim_Oculus_2.0_back.png', 
 'Neither', 'Small', 'Construct', 0, 1, '0ST', '2ST', '2B 1R', '0ST', 2, 0);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (732, 1008); --Steady
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (732, 1007); --Steady
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (732, 576); --Eye Is Open, The
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (732, 2011); --Why Was I Built To Feel Loneliness?
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (732, 3, 8); --Will
@@ -3408,7 +3408,7 @@ VALUES (839,
 'Neither', 'Small', 'Spawning Point', 0, 0, '', '1ST', '', '', 3, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (734, 681); --Immune: Status Effects
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (734, 687); --Infested
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (734, 978); --Spawning Pool
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (734, 977); --Spawning Pool
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (734, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (734, 'Spawning Point', 'Start', 0);
 
@@ -3428,7 +3428,7 @@ VALUES (840,
 'Masculine', 'Small', 'Goblin', 7, 1, '3B', '1ST', '1B', '2R', 1, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (735, 672); --Immobile
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (735, 757); --Mob
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (735, 1078); --Yoink!
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (735, 1077); --Yoink!
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (735, 1074); --Ensnare
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (735, 1, 1); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (735, 2); --Armor 
@@ -3449,8 +3449,8 @@ VALUES (841,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Sewer_Pipe/Standies/Guttersnipe_2.0_back.png', 
 'Neither', 'Small', 'Goblin', 7, 1, '3B', '0ST', '1B', '1B 1R', 1, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (736, 757); --Mob
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (736, 1010); --Stealth
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (736, 1078); --Yoink!
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (736, 1009); --Stealth
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (736, 1077); --Yoink!
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (736, 1690); --Smoke Brazier
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (736, 1, 1); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (736, 2); --Armor 
@@ -3471,7 +3471,7 @@ VALUES (842,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Sewer_Pipe/Standies/Moffet_2.0_back.png', 
 'Feminine', 'Small', 'Goblin', 7, 2, '2B', '3B', '3B', '2B 1R', 3, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (737, 550); --Dibs
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (737, 895); --Sidestep
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (737, 894); --Sidestep
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (737, 893); --Clockwork Gatling
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (737, 1, 1); --Strength
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (737, 4, 4); --Dex
@@ -3496,9 +3496,9 @@ VALUES (843,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Shadow_Tower/Standies/Shadow_Tower_2.0_back.png', 
 'Neither', 'Small', 'Spawning Point', 0, 0, '', '1ST', '', '', 3, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (738, 681); --Immune: Status Effects
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (738, 980); --Spawning Pool
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (738, 1010); --Stealth
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (738, 1011); --Stealth Aura
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (738, 979); --Spawning Pool
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (738, 1009); --Stealth
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (738, 1010); --Stealth Aura
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (738, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (738, 'Spawning Point', 'Start', 0);
 
@@ -3519,7 +3519,7 @@ VALUES (844,
 'Masculine', 'Small', 'Nether Elf', 7, 1, '2B', '1ST', '3B', '3B', 1, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (739, 563); --Dread
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (739, 668); --Ice
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (739, 1023); --Surefoot
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (739, 1022); --Surefoot
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (739, 1072); --Enervating Bolt
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (739, 1, 1); --Strength
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (739, 4, 8); --Dex
@@ -3542,7 +3542,7 @@ VALUES (845,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Shadow_Tower/Standies/Blackblade_2.0_back.png', 
 'Masculine', 'Small', 'Nether Elf', 7, 1, '2B 1R', '1ST', '3B', '3B', 1, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (740, 563); --Dread
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (740, 1023); --Surefoot
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (740, 1022); --Surefoot
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (740, 1024); --Discipline
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (740, 1, 1); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (740, 2); --Armor 
@@ -3565,8 +3565,8 @@ VALUES (846,
 'Feminine', 'Small', 'Nether Elf', 8, 3, '3B 1R', '1B', '3B', '3B', 3, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (741, 453); --Bane
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (741, 563); --Dread
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (741, 1010); --Stealth
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (741, 1023); --Surefoot
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (741, 1009); --Stealth
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (741, 1022); --Surefoot
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (741, 2006); --Weaken the Prey
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (741, 1630); --Shadow
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (741, 1889); --Unnatural Dark
@@ -3591,8 +3591,8 @@ VALUES (847,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Shadow_Warrens/Standies/Shadow_Warrens_2.0_back.png', 
 'Neither', 'Small', 'Paired Spawning Point', 0, 0, '', '1ST', '', '', 4, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (742, 681); --Immune: Status Effects
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (742, 982); --Spawning Pool
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (742, 1010); --Stealth
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (742, 981); --Spawning Pool
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (742, 1009); --Stealth
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (742, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (742, 'Spawning Point', 'Start', 0);
 
@@ -3612,8 +3612,8 @@ VALUES (848,
 'Neither', 'Small', 'Kobold', 7, 1, '2B', '0ST', '2B', '2B 1R', 1, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (743, 588); --Fire
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (743, 661); --Hubris
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (743, 1006); --Squirrely
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (743, 1010); --Stealth
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (743, 1005); --Squirrely
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (743, 1009); --Stealth
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (743, 1277); --Hot Pot
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (743, 1741); --Squirrel Stew
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (743, 1, 1); --Strength
@@ -3636,7 +3636,7 @@ VALUES (849,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Shadow_Warrens/Standies/Dimwit_2.0_back.png', 
 'Neither', 'Small', 'Kobold', 7, 1, '3B', '1ST', '2B', '1B 1R', 1, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (744, 661); --Hubris
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (744, 1010); --Stealth
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (744, 1009); --Stealth
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (744, 1, 1); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (744, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (744, 'Minion', '8 Bit', 1);
@@ -3657,7 +3657,7 @@ VALUES (850,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Shadow_Warrens/Standies/Shadowscale_2.0_back.png', 
 'Neither', 'Small', 'Kobold', 7, 2, '2R', '2ST', '2B', '1B 1R', 1, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (745, 661); --Hubris
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (745, 1010); --Stealth
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (745, 1009); --Stealth
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (745, 1608); --Scalewall
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (745, 1, 1); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (745, 3); --Will 
@@ -3678,7 +3678,7 @@ VALUES (851,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Shadow_Warrens/Standies/Shadow_Priest_2.0_back.png', 
 'Neither', 'Small', 'Kobold', 7, 3, '2B', '1B 1R', '2R', '1B 1R', 3, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (746, 661); --Hubris
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (746, 1010); --Stealth
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (746, 1009); --Stealth
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (746, 1042); --Dragon Rage
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (746, 993); --Deep Dark
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (746, 1, 1); --Strength
@@ -3701,7 +3701,7 @@ VALUES (852,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Shadow_Warrens/Standies/Skewer_2.0_back.png', 
 'Neither', 'Small', 'Kobold', 7, 1, '3B', '0ST', '2B', '1B 1R', 1, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (747, 661); --Hubris
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (747, 1010); --Stealth
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (747, 1009); --Stealth
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (747, 1, 2); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (747, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (747, 'Minion', '8 Bit', 1);
@@ -3725,7 +3725,7 @@ VALUES (853,
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (748, 419); --Active Spawn
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (748, 529); --Dark Nexus
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (748, 530); --Dark Radiance
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (748, 968); --Spawning Pool
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (748, 967); --Spawning Pool
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (748, 766); --Azogar
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (748, 1017); --Dimension Warp
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (748, 1870); --True Gate
@@ -3793,7 +3793,7 @@ VALUES (856,
 'Neither', 'Small', 'Paired Spawning Point', 0, 0, '', '1ST', '', '', 4, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (751, 486); --Brutality Aura
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (751, 681); --Immune: Status Effects
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (751, 984); --Spawning Pool
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (751, 983); --Spawning Pool
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (751, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (751, 'Spawning Point', 'Start', 0);
 
@@ -3834,7 +3834,7 @@ VALUES (858,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Skull_Stone/Standies/Knuckle_Smasher_2.0_back.png', 
 'Neither', 'Small', 'Kobold', 7, 1, '3B', '1ST', '2B', '1B 1R', 1, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (753, 616); --Frenzy
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (753, 901); --Slow
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (753, 900); --Slow
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (753, 1351); --Knuckle Smash
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (753, 1316); --Infectious Insanity
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (753, 1, 1); --Strength
@@ -3878,9 +3878,9 @@ VALUES (860,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Spawn_of_Servitude/Standies/Spawn_of_Servitude_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Spawn_of_Servitude/Standies/Spawn_of_Servitude_2.0_back.png', 
 'Neither', 'Small', 'Paired Spawning Point', 0, 0, '', '1ST', '', '', 4, 0);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (755, 883); --SHAME!
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (755, 882); --SHAME!
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (755, 681); --Immune: Status Effects
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (755, 986); --Spawning Pool
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (755, 985); --Spawning Pool
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (755, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (755, 'Spawning Point', 'Start', 0);
 
@@ -3964,8 +3964,8 @@ VALUES (864,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Spider_Nest/Standies/Spider_Nest_2.0_back.png', 
 'Neither', 'Small', 'Spawning Point', 0, 0, '', '1ST', '', '', 3, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (759, 681); --Immune: Status Effects
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (759, 988); --Spawning Pool
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (759, 1068); --Webs
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (759, 987); --Spawning Pool
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (759, 1067); --Webs
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (759, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (759, 'Spawning Point', 'Start', 0);
 
@@ -3985,7 +3985,7 @@ VALUES (865,
 'Neither', 'Large', 'Spider', 8, 1, '3B', '1ST', '1B', '3B', 1, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (760, 679); --Immune: Poison
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (760, 757); --Mob
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (760, 1023); --Surefoot
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (760, 1022); --Surefoot
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (760, 1725); --Spider Web
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (760, 1, 1); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (760, 2); --Armor 
@@ -4007,8 +4007,8 @@ VALUES (866,
 'Neither', 'Small', 'Spider', 8, 1, '2B', '0ST', '1B', '3B', 1, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (761, 679); --Immune: Poison
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (761, 757); --Mob
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (761, 1010); --Stealth
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (761, 1023); --Surefoot
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (761, 1009); --Stealth
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (761, 1022); --Surefoot
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (761, 1634); --Shadow Web
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (761, 1, 1); --Strength
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (761, 4, 4); --Dex
@@ -4033,7 +4033,7 @@ VALUES (867,
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (762, 563); --Dread
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (762, 679); --Immune: Poison
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (762, 807); --Poison
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (762, 1023); --Surefoot
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (762, 1022); --Surefoot
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (762, 1856); --Toxicity
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (762, 1617); --Scuttling Swarm
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (762, 1724); --Spider to the Fly
@@ -4059,7 +4059,7 @@ VALUES (868,
 'Neither', 'Large', 'Spawning Point', 0, 0, '', '1ST', '', '', 3, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (763, 681); --Immune: Status Effects
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (763, 851); --Resolve Aura
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (763, 990); --Spawning Pool
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (763, 989); --Spawning Pool
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (763, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (763, 'Spawning Point', 'Start', 0);
 
@@ -4078,7 +4078,7 @@ VALUES (869,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Watch_Tower/Standies/Longbowman_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Watch_Tower/Standies/Longbowman_2.0_back.png',
 'Male', 'Small', 'Human', 6, 1, '2B', '1ST', '1B 1R', '3B', 1, 0);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (764, 1072); --Wind of Blades
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (764, 1071); --Wind of Blades
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (764, 1, 1); --Strength
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (764, 4, 8); --DEX
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (764, 2); --Armor 

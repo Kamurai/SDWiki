@@ -10,7 +10,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Bosses/Card_Arcade_Boss_Black_Handed_Henry_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Bosses/Black_Handed_Henry.xhtml', 
 'Boss', '2.0', '2.0 Core Set', 'Default', 
-'');
+'Arrrghhh.  I''ll take yer crowns, but I''ll be needing those blueberries first.');
 insert into Characters (CardIndex) VALUES (2256);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
 VALUES (1134, 496, -1);

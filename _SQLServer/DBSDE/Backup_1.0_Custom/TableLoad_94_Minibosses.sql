@@ -12,10 +12,10 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 '');
 insert into Characters (CardIndex) VALUES (2352);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (860, 103); --Range 7
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (860, 1128); --Hight Tide
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (860, 1129); --Barry
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (860, 2192); --Pistol Barrage
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (860, 2193); --High Tide
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (860, 1127); --Treasure Thief
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (860, 1128); --Barry
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (860, 2221); --Pistol Barrage
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (860, 2222); --High Tide
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (1199,
 'http://htkb.info/Common/Standies/Barry.png', 

@@ -1,5 +1,8 @@
---1.0
---Bosses (used Monster 2.0 Explore)
+--SDE
+--1.0.1
+--Bosses
+
+
 --Nocturne --Index 35
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Nocturne',
 'http://htkb.info/SDE/1.0/Cards/Bosses/Card_Boss_Nocturne_1.0.png', 

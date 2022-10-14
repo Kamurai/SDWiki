@@ -1,5 +1,8 @@
---Table Load 1
+--SDE
 --FK
+--Keywords
+
+
 /*9 Lives						--Index 167*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', '9 Lives', 'One Use Only. When a model with 9 lives is destroyed, immediately roll 1r. Remove one wound token for each star rolled If no stars are rolled the model is destroyed as normal.');
 /*Alchemy						--Index 168*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Alchemy', 'When a model with Alchemy rolls a heart they may choose to gain a potion instead.');
 /*All-Seeing					--Index 169*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'All-Seeing', 'This Pet''s Master gains Hookshot on its basic Magic attack if it has one, so long as it begins its activation within 2 squares of this Pet.');
@@ -248,7 +251,11 @@
 /*Vulnerable: Magic				--Index 412*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Vulnerable: Magic', '');
 /*Retreat						--Index 413*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Retreat', 'After completing an action with Retreat, using the rules for Push, the model''s player moves the model with Retreat five squares away from its target or the square which the target occupied.');
 /*Charge						--Index 414*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Charge', 'When a model with Charge uses a Lance area effect, after resolving all other effects of the Lance, the model may be placed in any unoccupied square that was affected by the Lance.');
-/*Augment						--Index 415*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Augment', 'May only target or affect friendly models.');--FK Abilities
+/*Augment						--Index 415*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Augment', 'May only target or affect friendly models.');--SDE
+--FK
+--Abilities
+
+
 /*Acorn Bomb												--Index 155*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Acorn Bomb', 'Action', 'Offense', 2, 1, 6, 'DANGEROUS, 6SW, Burst 1, KNOCKDOWN');
 /*Alluring													--Index 156*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Alluring', 'Action', 'Offense', 1, 3, -1, 'MA, Wave 1, HEX');
 /*Alluring Perfume											--Index 157*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Alluring Perfume', 'Potion', 'Support', 1, -1, 6, 'RANGE6, Compel 6');

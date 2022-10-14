@@ -18,7 +18,7 @@ VALUES (1115,
 'http://htkb.info/SDE/2.0/Cards/Pets/Standies/Polly_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Pets/Standies/Polly_2.0_back.png',
 'Either', 'Small', '', 10, 2, '1B', '3B', '1B', '3B', 2, 0);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (783, 1118); --???
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (783, 1117); --???
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (783, 2162); --Polly Wants a Potion
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (783, 2163); --Master Got a Potion
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (783, 4, 1); --Dexterity
@@ -40,8 +40,8 @@ VALUES (1116,
 'http://htkb.info/SDE/2.0/Cards/Pets/Standies/Mister_Pinchers_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Pets/Standies/Mister_Pinchers_2.0_back.png',
 'Either', 'Small', '', 3, 1, '2B 1R', '3R', '0ST', '0ST', 1, 0);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (784, 1023); --Surefoot
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (784, 1119); --Master Gains: Grabby (3)
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (784, 1022); --Surefoot
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (784, 1118); --Master Gains: Grabby (3)
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (784, 2140); --Skuttle
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (784, 1, 2); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (784, 2); --Armor
@@ -63,7 +63,7 @@ VALUES (1117,
 'Either', 'Small', '', 6, 1, '3B', '2R 1B', '1ST', '1ST', 2, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (785, 709); --Knockdown
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (785, 739); --Master Gains Knockdown
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (785, 903); --Small
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (785, 902); --Small
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (785, 1238); --Grump
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (785, 1, 1); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (785, 2); --Armor
@@ -85,7 +85,7 @@ VALUES (1118,
 'Either', 'Small', '', 6, 1, '1R 1B', '2R 1B', '1ST', '1ST', 2, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (786, 455); --Bane
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (786, 748); --Master Gains Soprano
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (786, 903); --Small
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (786, 902); --Small
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (786, 1713); --Soprano
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (786, 1, 1); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (786, 2); --Armor
@@ -107,7 +107,7 @@ VALUES (1119,
 'Either', 'Small', '', 6, 1, '3B', '2ST', '2ST', '2ST', 2, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (787, 742); --Master Gains Poison
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (787, 807); --Poison
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (787, 903); --Small
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (787, 902); --Small
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (787, 2144); --Stink Beard Bark
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (787, 1, 1); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (787, 2); --Armor
@@ -130,9 +130,9 @@ VALUES (1120,
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (788, 678); --Immune: Knockdown
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (788, 680); --Immune: Slow
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (788, 709); --Knockdown
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (788, 903); --Small
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (788, 902); --Small
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (788, 750); --Master Gains Volatile
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (788, 1060); --Volatile
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (788, 1059); --Volatile
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (788, 1340); --Kaboom
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (788, 1, 1); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (788, 2); --Armor
@@ -153,7 +153,7 @@ VALUES (1121,
 'http://htkb.info/SDE/2.0/Cards/Pets/Standies/Scooter_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Pets/Standies/Scooter_2.0_back.png',
 'Either', 'Small', '', 4, 1, '3B', '3R', '0ST', '0ST', 1, 0);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (789, 1023); --Surefoot
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (789, 1022); --Surefoot
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (789, 739); --Master Gains: KNOCKDOWN (3)
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (789, 2140); --Skuttle
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (789, 1, 1); --Strength

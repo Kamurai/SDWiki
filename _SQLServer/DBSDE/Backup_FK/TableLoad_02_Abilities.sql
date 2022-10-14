@@ -1,4 +1,8 @@
---FK Abilities
+--SDE
+--FK
+--Abilities
+
+
 /*Acorn Bomb												--Index 155*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Acorn Bomb', 'Action', 'Offense', 2, 1, 6, 'DANGEROUS, 6SW, Burst 1, KNOCKDOWN');
 /*Alluring													--Index 156*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Alluring', 'Action', 'Offense', 1, 3, -1, 'MA, Wave 1, HEX');
 /*Alluring Perfume											--Index 157*/	insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('FK', 'Default', 'Alluring Perfume', 'Potion', 'Support', 1, -1, 6, 'RANGE6, Compel 6');

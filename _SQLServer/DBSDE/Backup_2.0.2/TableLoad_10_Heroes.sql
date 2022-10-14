@@ -10,7 +10,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Black_Handed_Henry_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Black_Handed_Henry.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
-'');
+'I''m no Hero.  I''m simply here to the plunder and potions!');
 insert into Characters (CardIndex) VALUES (2228);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1106, 4); --Sapphire
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
@@ -18,7 +18,7 @@ VALUES (1106,
 'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Black_Handed_Henry_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Black_Handed_Henry_2.0_back.png',
 'Masculine', 'Small', 'Dwarf Pirate', 6, 3, '2B', '3B', '3B', '2R', 6, 2);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (774, 1117); --Keep the Rum Flowing
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (774, 1116); --Keep the Rum Flowing
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (774, 798); --Pet: Polly
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (774, 2116); --Extra Powder
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (774, 2160); --Garlic Breath
@@ -34,7 +34,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Cheeto_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Cheeto.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
-'');
+'Freed from the clutches of the Dark Consul''s minions by a daring raid led by Star Princess Candy, Chuy, and Colo.  Cheeto and Colo immediately became inseparable companions.  Working in regions ruled by the Consul, they smuggle supplies and supply aid to those who resist the darkness.  Just don''t tell Colo that he''s actually the sidekick.');
 insert into Characters (CardIndex) VALUES (2229);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1107, 2); --Emerald
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
@@ -42,7 +42,7 @@ VALUES (1107,
 'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Cheeto_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Cheeto_2.0_back.png',
 'Masculine', 'Large', 'Bugbear', 5, 3, '2B 1R', '2R', '2B', '2B', 6, 1);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (775, 1020); --Sturdy
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (775, 1019); --Sturdy
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (775, 1110); --Familiar: Colo
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (775, 2158); --Bow Bomb
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (775, 2147); --Tear Your Arms Off
@@ -79,7 +79,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Deepwater_Diver_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Deepwater_Diver.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
-'');
+'There''s a gnome inside.  Or so they say.<br>Its not come out for many a day.<br>Where are you gnome?  Don''t hide away.<br>A dungeon we''ve found.  It''s time to play.<br>Click-clatter to life.  Into the fray!');
 insert into Characters (CardIndex) VALUES (2231);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1109, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
@@ -92,7 +92,7 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (777
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (777, 2125); --Lead With The Beard
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (777, 2121); --Go.  Go.  Grabby Claws
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (777, 2139); --Seal The Hatches
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (777, 2109); --Bubbles!
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (777, 2019); --Bubbles!
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (777, 1, 2); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (777, 2); --Armor
 
@@ -103,7 +103,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Eiko_Ando_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Eiko_Ando.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
-'');
+'The Light of the Goddess blind you.  The purity of Ameratsu bind you.  The soul of Kagejima banish you!');
 insert into Characters (CardIndex) VALUES (2232);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1110, 4); --Sapphire
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
@@ -111,7 +111,7 @@ VALUES (1110,
 'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Eiko_Ando_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Eiko_Ando_2.0_back.png',
 'Feminine', 'Small', 'Human', 6, 3, '2B', '3B', '3B', '2B', 5, 1);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (778, 1108); --Exorcist
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (778, 1107); --Exorcist
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (778, 2134); --Power of Prayer, The
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (778, 2135); --Purifying Water
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (778, 2141); --Soulmark
@@ -126,7 +126,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Hermit_Swordmage_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Hermit_Swordmage.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
-'');
+'While younger Arcadian Swordmages have begun to travel openly through the Realms, elder swordmages live lives of quiet contemplation exploring the greater mysteries and preserving their knowledge to pass down to their apprentices.  It is a foolish villain who underestimates these "hermits", for they are true masters of their craft.');
 insert into Characters (CardIndex) VALUES (2233);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1111, 4); --Sapphire
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
@@ -135,8 +135,8 @@ VALUES (1111,
 'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Eiko_Ando_2.0_back.png',
 'Masculine', 'Small', 'Human', 6, 3, '3B', '2R', '2B 1R', '3B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (779, 796); --Pep Talk
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (779, 1007); --Steady
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (779, 2128); --Mage Push
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (779, 1006); --Steady
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (779, 1396); --Mage Push
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (779, 2129); --Master Push
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (779, 2130); --Mind Trick
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (779, 2110); --Cantina Coffee
@@ -150,7 +150,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Magoichi_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Magoichi.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
-'');
+'I have toppled tyrants greater than the Dark Consul.  You doubt me!?  Then why does he scurry and sulk in the shadows?  I''ll tell you.  He''s frightened!');
 insert into Characters (CardIndex) VALUES (2234);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1112, 4); --Sapphire
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
@@ -160,10 +160,10 @@ VALUES (1112,
 'Masculine', 'Small', 'Human', 6, 3, '3B', '2R', '1B', '2R', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (780, 557); --Discipline
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (780, 843); --Reckless
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (780, 2153); --Black Powder
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (780, 2123); --I Just Stuffed Some Cutlery In There...
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (780, 2131); --MORE POWDER!
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (780, 2123); --I Just Stuffed Some Cutlery In There...
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (780, 4, 10); --Dexterity
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (780, 2153); --Black Powder
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (780, 2); --Armor
 
 --Pirate Captain --CardIndex 2235	--CharacterIndex 1113	--ExploreCharacterIndex 781
@@ -173,7 +173,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Pirate_Captain_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Pirate_Captain.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
-'');
+'It seems that these days anybody with a cutlass, magic compass, and fancy hat wants to call tehmselves a Pirate Captain.  Don''t they realize that pirates are actually the bad guys?');
 insert into Characters (CardIndex) VALUES (2235);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1113, 4); --Sapphire
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
@@ -182,7 +182,7 @@ VALUES (1113,
 'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Pirate_Captain_2.0_back.png',
 'Masculine', 'Small', 'Pirate Human', 6, 3, '2R', '3B', '2B', '3B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (781, 794); --Parry
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (781, 2116); --Extra Powder
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (781, 1087); --Extra Powder
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (781, 2118); --Fancy Sword Work
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (781, 2113); --Double Cross
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (781, 2136); --Rum
@@ -197,7 +197,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Skuttle_Knight_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Skuttle_Knight.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
-'');
+'The Skuttle Knights stand at the forefront of Clockwork Cove''s defeneses.  These brave gnomes are drawn from the glorious and noble ranks of any gnome who can build or buy their own Skuttler.  The Cove''s guilds certainly aren''t going to just give some young gnomlet a clicking, clacking, clanking war walker.  It''s far too busy selling them to venerable and wealthy gnomes who need mobility assistance.');
 insert into Characters (CardIndex) VALUES (2236);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1114, 4); --Sapphire
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
@@ -205,8 +205,8 @@ VALUES (1114,
 'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Skuttle_Knight_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Skuttle_Knight_2.0_back.png',
 'Masculine', 'Large', 'Gnome', 3, 4, '2R', '2B 1R', '3B', '2B', 5, 1);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (782, 1023); --Surefoot
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (782, 1107); --Catastrohpic Failure
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (782, 1022); --Surefoot
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (782, 1107); --Catastrophic Failure
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (782, 2133); --Pinch And Tear
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (782, 2150); --Vent Steam
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (782, 2140); --Skuttle

@@ -39,7 +39,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 '');
 insert into Characters (CardIndex) VALUES (2322);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (832, 83); --Mob
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (832, 1143); --Split
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (832, 1142); --Split
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (832, 2279); --Shapeshift: Brown Wizard
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (832, 2280); --Tusks
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
@@ -92,8 +92,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Boss', '1.0 Custom', '1.0 Custom Set', 'Explore',
 '');
 insert into Characters (CardIndex) VALUES (2324);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (834, 83); --Invulnerable
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (834, 1143); --Missile 8
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (834, 1143); --Invulnerable
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (834, 82); --Missile 8
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (834, 2287); --Dual Weapons
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (834, 2288); --Lightning
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (834, 2289); --Extreme Aggression

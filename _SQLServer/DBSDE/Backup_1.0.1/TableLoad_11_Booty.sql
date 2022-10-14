@@ -1,5 +1,8 @@
---Table Load 4
---1.0 Booty
+--SDE
+--1.0.1
+--Booty
+
+
 --Boo Boody --Index 25
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Boo Booty',
 'http://htkb.info/SDE/1.0/Cards/Booty/Card_Booty_Boo_Booty_1.0.png', 

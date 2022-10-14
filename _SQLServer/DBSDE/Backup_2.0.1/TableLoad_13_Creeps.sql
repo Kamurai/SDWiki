@@ -64,7 +64,7 @@ VALUES (595,
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (490, 680); --Immune: Slow
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (490, 691); --Insignificant
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (490, 709); --Knockdown
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (490, 1060); --Volatile
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (490, 1059); --Volatile
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (490, 1340); --Kaboom
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (490, 2067); --Toss Me
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (490, 2); --Armor
@@ -85,8 +85,8 @@ VALUES (596,
 'http://htkb.info/SDE/2.0/Cards/Creeps/Standies/Dirty_Rat_2.0_back.png',
 'Either', 'Small', 'Rat', 8, 1, '1B', '0ST', '1B', '2R', 1, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (491, 757); --Mob
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (491, 1056); --Vermin
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (491, 1078); --Yoink!
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (491, 1055); --Vermin
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (491, 1077); --Yoink!
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (491, 1700); --Sneaky Rat
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (491, 1, 1); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (491, 2); --Armor
@@ -109,7 +109,7 @@ VALUES (597,
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (492, 588); --Fire
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (492, 674); --Immune: Fire
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (492, 691); --Insignificant
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (492, 1072); --Wind Of Blades
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (492, 1071); --Wind Of Blades
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (492, 1, 1); --Strength
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (492, 4, 4); --Dex
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (492, 2); --Armor
@@ -194,8 +194,8 @@ VALUES (601,
 'Either', 'Small', 'Construct', 0, 0, '1B', '0ST', '0ST', '0ST', 1, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (496, 475); --Bouncing Betty 
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (496, 693); --Insignificant
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (496, 1040); --Toss Me
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (496, 1062); --Volatile
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (496, 1039); --Toss Me
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (496, 1061); --Volatile
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (496, 2); --Armor
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (496, '', '8 Bit', 1);
 
@@ -258,8 +258,8 @@ VALUES (604,
 'Either', 'Small', '', 5, 1, '2B', '0ST', '0ST', '0ST', 1, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (499, 453); --Bane
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (499, 693); --Insignificant
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (499, 1040); --Toss Me
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (499, 1062); --Volatile
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (499, 1039); --Toss Me
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (499, 1061); --Volatile
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (499, 1, 1); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (499, 2); --Armor
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (499, '', '8 Bit', 1);
@@ -300,7 +300,7 @@ VALUES (606,
 'http://htkb.info/SDE/2.0/Cards/Creeps/Standies/Spiteful_Cherub_2.0_back.png',
 'Either', 'Small', 'Demon', 6, 1, '4B', '1ST', '2R', '1B', 1, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (501, 596); --Fly
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (501, 997); --Spiteful Whispers
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (501, 996); --Spiteful Whispers
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (501, 1224); --Go To Her
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (501, 2); --Armor
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (501, '', '8 Bit', 1);
@@ -320,7 +320,7 @@ VALUES (607,
 'http://htkb.info/SDE/2.0/Cards/Creeps/Standies/Squigly_2.0_back.png',
 'Either', 'Small', 'Squid', 6, 1, '2B', '0ST', '0ST', '3B', 1, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (502, 636); --Grabby
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (502, 901); --Slow
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (502, 900); --Slow
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (502, 1682); --Slimy Hug
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (502, 1, 1); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (502, 2); --Armor
@@ -367,7 +367,7 @@ VALUES (609,
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (504, 681); --Immune: Status Effects
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (504, 729); --Massive Damage
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (504, 753); --Meager
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (504, 1020); --Sturdy
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (504, 1019); --Sturdy
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (504, 697); --Journey, The
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (504, 2); --Armor
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (504, '', '8 Bit', 0);
@@ -407,7 +407,7 @@ VALUES (611,
 'http://htkb.info/SDE/2.0/Cards/Creeps/Standies/Yurei_Bushi_2.0_back.png',
 'Either', 'Small', 'Ghost', 6, 1, '3B', '0ST', '0ST', '0ST', 1, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (506, 693); --Insignificant
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (506, 995); --Spirit Sentry
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (506, 994); --Spirit Sentry
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (506, 1, 1); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (506, 2); --Armor
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (506, '', '8 Bit', 1);

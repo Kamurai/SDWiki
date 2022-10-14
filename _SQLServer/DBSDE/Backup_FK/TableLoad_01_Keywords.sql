@@ -1,5 +1,8 @@
---Table Load 1
+--SDE
 --FK
+--Keywords
+
+
 /*9 Lives						--Index 167*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', '9 Lives', 'One Use Only. When a model with 9 lives is destroyed, immediately roll 1r. Remove one wound token for each star rolled If no stars are rolled the model is destroyed as normal.');
 /*Alchemy						--Index 168*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'Alchemy', 'When a model with Alchemy rolls a heart they may choose to gain a potion instead.');
 /*All-Seeing					--Index 169*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('FK', 'Default', 'All-Seeing', 'This Pet''s Master gains Hookshot on its basic Magic attack if it has one, so long as it begins its activation within 2 squares of this Pet.');

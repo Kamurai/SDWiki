@@ -57,7 +57,7 @@ VALUES (108, 0, 'Demolitions Expert', 'Rocktop', 'Creep', 5, 1, 0, 490);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (156, 691); --Insignificant
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (156, 680); --Immune: Slow
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (156, 681); --Immune: Status Effects
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (156, 1061); --Volatile
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (156, 1060); --Volatile
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (156, 1339); --Kaboom
 
 --Fire Flower	--CardIndex 1267	--CharacterIndex 877	--ArcadeCharacterIndex 109
@@ -127,7 +127,7 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (880, 1);
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (112, 0, 'Ghostflame', 'Undead', 'Creep', 4, 2, 0, 495);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (160, 809); --Pop
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (160, 896); --Skittish
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (160, 894); --Skittish
 
 --Kodead	--CardIndex 1271	--CharacterIndex 881	--ArcadeCharacterIndex 113
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Kodead',
@@ -177,7 +177,7 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (883, 0);
 --GangMemberIndex 163
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (115, 0, 'Rotten Pumpkin', '', 'Creep', 5, 1, 0, 499);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (163, 904); --Smashing Pumpkins
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (163, 903); --Smashing Pumpkins
 
 --Spiker	--CardIndex 1274	--CharacterIndex 884	--ArcadeCharacterIndex 116
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Spiker',
@@ -211,7 +211,7 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (885, 0);
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (117, 0, 'Spiteful Cherub', 'Demon', 'Creep', 4, 1, 0, 501);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (165, 695); --Invader
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (165, 996); --Spiteful Whispers
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (165, 995); --Spiteful Whispers
 
 --Squigly	--CardIndex 1276	--CharacterIndex 886	--ArcadeCharacterIndex 118
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Squigly',
@@ -228,7 +228,7 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (886, 3);
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (118, 0, 'Squigly', 'Squid', 'Creep', 6, 1, 0, 502);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (166, 636); --Grabby
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (166, 901); --Slow
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (166, 900); --Slow
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (166, 1680); --Slimy Hug
 
 --Underdead Crow	--CardIndex 1277	--CharacterIndex 887	--ArcadeCharacterIndex 119
@@ -263,7 +263,7 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (888, 1);
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (120, 0, 'Waystone', 'Waystone', 'Creep', 0, 2, 1, 504);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (168, 681); --Immune: Status Effects
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (168, 1020); --Sturdy
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (168, 1019); --Sturdy
 
 --Yowling	--CardIndex 1279	--CharacterIndex 889	--ArcadeCharacterIndex 121
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Yowling',
@@ -298,7 +298,7 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (890, 0);
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (122, 0, 'Yurei Bushi', 'Ghost', 'Creep', 6, 1, 0, 506);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (170, 693); --Insignificant
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (170, 995); --Spirit Sentry
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (170, 994); --Spirit Sentry
 
 
 

@@ -120,7 +120,7 @@ insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender
 'http://htkb.info/Common/Standies/Bounceslime.png', 
 'http://htkb.info/Common/Standies/Bounceslime_back.png', 
 'Either', 'Small', 'Slime', 6, 1, '3B', '0ST', '2B', '2B', 1, 0);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (841, 1145); --GooBody
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (841, 1144); --GooBody
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (841, 2301); --Stand Ready!
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (841, 0, 1); --Attack
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (841, 2); --Armor 
@@ -145,7 +145,7 @@ insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender
 'http://htkb.info/Common/Standies/Bubblie.png', 
 'http://htkb.info/Common/Standies/Bubblie_back.png', 
 'Either', 'Small', 'Slime', 5, 1, '1R 2B', '0ST', '2B', '1R 1B', 1, 0);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (842, 1145); --GooBody
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (842, 1144); --GooBody
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (842, 2301); --Stand Ready!
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (842, 0, 1); --Attack
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (842, 2); --Armor 
@@ -175,7 +175,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (843, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (843, 'Denizen', 'Special', 1);
 insert into CustomCards (CardIndex, Author, SourceURL) VALUES(
-2327,
+2333,
 'Glenn',
 'https://www.pinterest.com/pin/423971752430359230/'
 );
@@ -194,7 +194,7 @@ insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender
 'http://htkb.info/Common/Standies/Dukeslime.png', 
 'http://htkb.info/Common/Standies/Dukeslime_back.png', 
 'Either', 'Large', 'Slime', 5, 3, '2R 2B', '1ST', '1R 1B', '1B', 3, 0);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (844, 1145); --GooBody
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (844, 1144); --GooBody
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (844, 2304); --Slime Time
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (844, 2305); --Puff Up!
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (844, 0, 1); --Attack
@@ -220,7 +220,7 @@ insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender
 'http://htkb.info/Common/Standies/Healie.png', 
 'http://htkb.info/Common/Standies/Healie_back.png', 
 'Either', 'Small', 'Slime', 6, 2, '3B', '0ST', '1R 1B', '2B', 2, 0);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (845, 1145); --GooBody
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (845, 1144); --GooBody
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (845, 36); --Fly
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (845, 2306); --Heal
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (845, 0, 1); --Attack
@@ -246,10 +246,10 @@ insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender
 'http://htkb.info/Common/Standies/Metaly.png', 
 'http://htkb.info/Common/Standies/Metaly_back.png', 
 'Either', 'Small', 'Slime', 9, 1, '1B', '3ST', '1R 1B', '2B', 1, 0);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (846, 1145); --GooBody
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (846, 1144); --GooBody
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (846, 134); --Sturdy
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (846, 1146); --Flee
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (846, 1147); --Shinies
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (846, 1145); --Flee
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (846, 1146); --Shinies
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (846, 2306); --Frizz
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (846, 0, 1); --Attack
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (846, 2); --Armor 
@@ -277,7 +277,7 @@ VALUES (1186,
 'http://htkb.info/Common/Standies/SMB/Warp_Pipe_back.png', 
 'Neither', 'Small', 'Spawning Point', 0, 0, '', '1ST', '', '', 3, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (847, 681); --Immune: Status Effects
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (847, 1149); --Spawning Pool
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (847, 1148); --Spawning Pool
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (847, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (847, 'Spawning Point', 'Start', 0);
 insert into CustomCards (CardIndex, Author, SourceURL) VALUES(

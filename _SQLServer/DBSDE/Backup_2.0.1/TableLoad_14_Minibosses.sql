@@ -22,7 +22,7 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (507
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (507, 708); --Knockdown
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (507, 807); --Poison
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (507, 815); --Pounce
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (507, 1023); --Surefoot
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (507, 1022); --Surefoot
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (507, 1783); --Sudden Strike
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (507, 1519); --Poison Blast
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (507, 903); --Cocoon
@@ -47,7 +47,7 @@ VALUES (613,
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (508, 451); --Backstabber
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (508, 518); --Counterstrike
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (508, 685); --Improved Critical
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (508, 1023); --Surefoot
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (508, 1022); --Surefoot
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (508, 901); --Cobra Strike
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (508, 798); --Black Arrow
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (508, 1, 1); --Strength
@@ -72,7 +72,7 @@ VALUES (614,
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (509, 679); --Immune: Poison
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (509, 724); --Mark
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (509, 729); --Massive Damage
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (509, 1023); --Surefoot
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (509, 1022); --Surefoot
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (509, 1347); --Killshot
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (509, 1408); --Mark Target
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (509, 1825); --Tether
@@ -99,7 +99,7 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (510
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (510, 708); --Knockdown
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (510, 801); --Pile-on
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (510, 818); --Predator
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (510, 1023); --Surefoot
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (510, 1022); --Surefoot
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (510, 1275); --Horned Charge
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (510, 1253); --Headbutt
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (510, 1385); --Lord of the Labyrinth
@@ -123,7 +123,7 @@ VALUES (616,
 'Neither', 'Large', 'Demon', 6, 3, '4R', '2R', '1B', '2B', 7, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (511, 612); --Freed In Death
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (511, 728); --Massive Damage
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (511, 1005); --Spread The Love
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (511, 1004); --Spread The Love
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (511, 2068); --Chained Strike
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (511, 1158); --For Mistress!
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (511, 1151); --Fluff The Frilly Pillows
@@ -224,8 +224,8 @@ VALUES (620,
 'http://htkb.info/SDE/2.0/Cards/Standies/Clan_Kitsune_Chunin_2.0_back.png', 
 'Masculine', 'Small', 'Kitsune', 5, 3, '2R', '1B 1G', '3B', '2R', 7, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (515, 807); --Poison
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (515, 1023); --Surefoot
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (515, 1030); --Territorial
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (515, 1022); --Surefoot
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (515, 1029); --Territorial
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (515, 946); --Cunning Blade
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (515, 1269); --Hit And Run
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (515, 1469); --New Territory
@@ -323,7 +323,7 @@ VALUES (624,
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (519, 657); --Hookshot
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (519, 853); --Retreat
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (519, 856); --Retribution
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (519, 1054); --Vengeful Storm
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (519, 1052); --Vengeful Storm
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (519, 751); --Arrow Senses The Way, The
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (519, 1585); --Reposition
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (519, 1764); --Storm of Arrows
@@ -492,7 +492,7 @@ VALUES (631,
 'Neither', 'Large', 'Construct', 7, 3, '5B', '2B 1R', '1B', '4B', 7, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (526, 521); --Crystal Curse
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (526, 815); --Pounce
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (526, 901); --Slow
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (526, 900); --Slow
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (526, 941); --Crystaline Web
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (526, 1422); --Mighty Leap
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (526, 1662); --Sieze Prey
@@ -539,8 +539,8 @@ VALUES (633,
 'http://htkb.info/SDE/2.0/Cards/Standies/Dark_Kitsune_2.0_back.png', 
 'Feminine', 'Small', 'Kitsune', 6, 4, '2R', '2B 1R', '3B', '2R', 7, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (528, 729); --Massive Damage
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (528, 1010); --Stealth
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (528, 1023); --Surefoot
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (528, 1009); --Stealth
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (528, 1022); --Surefoot
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (528, 1414); --Massive Ninja Star To The Face
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (528, 1368); --Let Them Come
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (528, 1171); --Foxy
@@ -563,7 +563,7 @@ VALUES (634,
 'http://htkb.info/SDE/2.0/Cards/Standies/Ezoghoul_2.0_back.png', 
 'Neither', 'Large', 'Dark Legion', 8, 3, '3R', '1ST 2R', '3B', '2R', 7, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (529, 457); --Berserk
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (529, 1023); --Surefoot
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (529, 1022); --Surefoot
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (529, 758); --Ashreketh
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (529, 822); --Blutarch Handcannon
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (529, 1460); --Necrosis
@@ -586,9 +586,9 @@ VALUES (635,
 'http://htkb.info/SDE/2.0/Cards/Standies/Furious_Fungomancer_2.0_back.png', 
 'Neither', 'Small', 'Komoko', 6, 3, '3B', '1ST 1B 1R', '1ST 1B 2R', '2B', 7, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (530, 623); --Fungal Fury
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (530, 901); --Slow
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (530, 910); --Soporific
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (530, 1000); --Spongy
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (530, 900); --Slow
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (530, 909); --Soporific
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (530, 999); --Spongy
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (530, 885); --Choking Spores
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (530, 807); --Blessings of Hyphae
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (530, 1194); --Fungal Fury
@@ -634,7 +634,7 @@ VALUES (637,
 'Neither', 'Large', 'Construct', 5, 3, '2R', '2ST 2R', '3B', '1B', 6, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (532, 681); --Immune: Status Effects
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (532, 851); --Resolve Aura
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (532, 1010); --Stealth
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (532, 1009); --Stealth
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (532, 1660); --Siege Tower
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (532, 1164); --Fortification
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (532, 1889); --Unnatural Dark
@@ -656,12 +656,12 @@ VALUES (638,
 'http://htkb.info/SDE/2.0/Cards/Standies/Hecate_Vilehorn_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Standies/Hecate_Vilehorn_2.0_back.png', 
 'Either', 'Large', 'Witch Centaur', 8, 3, '1B 2R', '2R', '3R', '2B', 6, 0);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (533, 434); --Animate Soul
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (533, 433); --Animate Soul
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (533, 647); --Hex
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (533, 708); --Knockdown
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (533, 757); --Mob
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (533, 832); --Raise
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (533, 1023); --Surefoot
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (533, 1022); --Surefoot
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (533, 1859); --Trample
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (533, 750); --Army of Bone
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (533, 1719); --Soul Shard
@@ -710,8 +710,8 @@ VALUES (640,
 'Neither', 'Large', 'Oni', 5, 3, '1B 2R', '3R', '2B 1R', '2B', 6, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (535, 449); --Backlash
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (535, 672); --Immobile
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (535, 1021); --Sturdy
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (535, 1037); --Throw X
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (535, 1020); --Sturdy
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (535, 1036); --Throw X
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (535, 1342); --Kappa's Curse, The
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (535, 1641); --Shell Spin
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (535, 1103); --Fickle Kappa
@@ -737,7 +737,7 @@ VALUES (641,
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (536, 468); --Bluff
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (536, 708); --Knockdown
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (536, 818); --Predator
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (536, 1023); --Surefoot
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (536, 1022); --Surefoot
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (536, 1465); --Nether Rift
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (536, 1606); --Sand Storm
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (536, 1284); --Hunting Party
@@ -764,7 +764,7 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (537
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (537, 563); --Dread
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (537, 596); --Fly
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (537, 708); --Knockdown
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (537, 1010); --Stealth
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (537, 1009); --Stealth
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (537, 1465); --Nether Rift
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (537, 1992); --Void Lightning
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (537, 1889); --Unnatural Dark
@@ -837,9 +837,9 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (540
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (540, 453); --Bane
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (540, 563); --Dread
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (540, 815); --Pounce
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (540, 905); --Smokebomb
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (540, 1010); --Stealth
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (540, 1080); --You're Alone
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (540, 904); --Smokebomb
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (540, 1009); --Stealth
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (540, 1079); --You're Alone
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (540, 1766); --Storm of Blades
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (540, 1778); --Strike From Shadow
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (540, 948); --Cunning Lies
@@ -890,7 +890,7 @@ VALUES (647,
 'http://htkb.info/SDE/2.0/Cards/Standies/Orcdon_Ramsay.png', 
 'http://htkb.info/SDE/2.0/Cards/Standies/Orcdon_Ramsay_back.png', 
 'Masculine', 'Large', 'Orc', 6, 3, '1R 2G', '1B 2R', '2B', '2B', 7, 0);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (542, 1084); --Impulsive
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (542, 1083); --Impulsive
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (542, 843); --Reckless
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (542, 2080); --Can You Smell What The Orc Is Cooking?!
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (542, 2081); --IT'S RAW!
@@ -938,8 +938,8 @@ VALUES (649,
 'http://htkb.info/SDE/2.0/Cards/Standies/Randy_Lrod_of_Spiders_back.png', 
 'Masculine', 'Small', 'Human Lrod', 5, 3, '3B', '1ST 1R', '3B', '2G', 7, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (544, 642); --Heal X
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (544, 1023); --Surefoot
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (544, 1068); --Webs
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (544, 1022); --Surefoot
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (544, 1067); --Webs
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (544, 1205); --Get out!
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (544, 1531); --Power Nap
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (544, 1787); --Summon Minions
@@ -991,7 +991,7 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (546
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (546, 543); --Defender
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (546, 681); --Immune: Status Effects
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (546, 708); --Knockdown
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (546, 1023); --Surefoot
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (546, 1022); --Surefoot
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (546, 834); --Breakthrough
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (546, 1860); --Trample
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (546, 1784); --Suffer Not
@@ -1162,7 +1162,7 @@ VALUES (658,
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (553, 485); --Brutality Aura
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (553, 502); --Charge
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (553, 685); --Improved Critical
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (553, 1041); --Tough
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (553, 1040); --Tough
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (553, 1001); --Demon Rush
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (553, 1562); --Rampaging Fists
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (553, 1003); --Demonic Challenge

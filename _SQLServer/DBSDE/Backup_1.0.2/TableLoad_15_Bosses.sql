@@ -18,9 +18,9 @@ insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender
 'Masculine', 'Large', 'Chimera', 6, 4, '2R 1G', '2B 1G', '3B 2R', '3B', 8, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (773, 47); --Hubris
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (773, 59); --Immune: Poison
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (773, 2106); --Primal Roar
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (773, 2107); --Forestwalker
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (773, 2108); --Stranglethorn
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (773, 2016); --Primal Roar
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (773, 2017); --Forestwalker
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (773, 2018); --Stranglethorn
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (773, 0, 1); --Attack
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (773, 2); --Armor
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (773, 'Boss', 'Super', 4);

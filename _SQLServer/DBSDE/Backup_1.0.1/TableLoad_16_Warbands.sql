@@ -1,4 +1,8 @@
---1.0
+--SDE
+--1.0.1
+--Boss Spawns
+
+
 --Warband Monsters
 --Egg Clutch --Index 39
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Egg Clutch',

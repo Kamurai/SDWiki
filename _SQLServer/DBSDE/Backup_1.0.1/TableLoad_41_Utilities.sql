@@ -1,4 +1,8 @@
---1.0 Utility Cards
+--SDE
+--1.0.1
+--Utility Cards
+
+
 --Rules Addendum and Errata
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
 VALUES ('Rules Addendum and Errata',

@@ -171,7 +171,7 @@
 /*Wave								--Index 165*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Wave', 'A Wave effect is centered on the user’s base and every square within X squares of the user.');
 /*Weak								--Index 166*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0', 'Default', 'Weak', 'A model or effect with Weak places a Weak counter on any model it damages. A model suffering Weak discards the highest result rolled anytime it makes a roll using its ATT attribute.');
 --SDE
---1.0
+--1.0.1
 --Abilities
 
 

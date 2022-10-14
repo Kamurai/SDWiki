@@ -1,4 +1,8 @@
---1.0 Terrain Cards
+--SDE
+--1.0.1
+--Terrain Cards
+
+
 --Difficult Terrain --CardIndex 151	--UtilityIndex 0	--TerrainIndex 0
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
 VALUES ('Difficult Terrain',

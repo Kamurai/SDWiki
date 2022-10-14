@@ -20,8 +20,8 @@ VALUES (659,
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (554, 780); --Oni Guards
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (554, 817); --Predator
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (554, 834); --Rampage
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (554, 1010); --Stealth
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (554, 1023); --Surefoot
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (554, 1009); --Stealth
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (554, 1022); --Surefoot
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (554, 1828); --A Tetsubo for Every Face
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (554, 1656); --Show of Strength
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (554, 1689); --Smoke Bomb
@@ -69,7 +69,7 @@ VALUES (661,
 'http://htkb.info/SDE/2.0/Cards/Bosses/Standies/Demon_Queen_Araphel_2.0_back.png', 
 'Feminine', 'Small', 'Demon', 6, 4, '2B', '2R 1G', '2R 2G', '3B', 9, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (556, 560); --Do It For Me?
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (556, 1004); --Spread The Love
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (556, 1003); --Spread The Love
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (556, 809); --Blind Obedience
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (556, 1389); --Lovestruck
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (556, 1222); --Go For The Eyes!
@@ -126,7 +126,7 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (558
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (558, 647); --Hex
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (558, 673); --Immune: Bane
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (558, 675); --Immune: Hex
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (558, 814); --Potion Stash X
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (558, 814); --Potion Stash 3
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (558, 2027); --Wraith Walk
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (558, 1211); --Ghoul Blade
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (558, 984); --Death Drain
@@ -179,10 +179,10 @@ VALUES (665,
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (560, 708); --Knockdown
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (560, 728); --Massive Damage
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (560, 799); --Pig Feed
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (560, 1087); --Pile-On
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (560, 1086); --Pile-On
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (560, 830); --Rage
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (560, 1041); --Tough
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (560, 1064); --Warcry
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (560, 1040); --Tough
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (560, 1063); --Warcry
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (560, 1226); --Goblin Toss
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (560, 1487); --Out Of My Way!
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (560, 1618); --Seasoning
@@ -237,8 +237,8 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (562
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (562, 679); --Immune: Poison
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (562, 729); --Massive Damage
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (562, 807); --Poison
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (562, 1023); --Surefoot
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (562, 1068); --Webs
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (562, 1022); --Surefoot
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (562, 1067); --Webs
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (562, 1732); --Spin Webs
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (562, 1666); --Silk Noose
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (562, 1096); --Feed on Essence
@@ -265,8 +265,8 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (563
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (563, 672); --Immobile
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (563, 728); --Massive Damage
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (563, 774); --Nom Nom Nom!
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (563, 885); --Shapeshift X
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (563, 1082); --You've Been Naughty
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (563, 884); --Shapeshift X
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (563, 1081); --You've Been Naughty
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (563, 1321); --Into The Bag
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (563, 1233); --Grabbing Stick
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (563, 1403); --Make Mischief
@@ -342,8 +342,8 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (566
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (566, 502); --Charge
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (566, 708); --Knockdown
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (566, 778); --On The Move
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (566, 901); --Slow
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (566, 1047); --Trophies
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (566, 900); --Slow
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (566, 1046); --Trophies
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (566, 846); --Brutal Onslaught
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (566, 1571); --Rear Up
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (566, 1750); --Stay Out Of This, Fool
@@ -421,7 +421,7 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (569
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (569, 681); --Immune: Status Effects
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (569, 757); --Mob
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (569, 807); --Poison
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (569, 1020); --Sturdy
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (569, 1019); --Sturdy
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (569, 837); --Breath of Disease
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (569, 882); --Chill of the Grave
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (569, 1609); --Scent of Death
@@ -499,8 +499,8 @@ VALUES (677,
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (572, 550); --Dibs
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (572, 672); --Immobile
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (572, 807); --Poison
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (572, 1021); --Sturdy
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (572, 1041); --Tough
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (572, 1020); --Sturdy
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (572, 1040); --Tough
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (572, 1514); --Pipe Puff
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (572, 1832); --This is Junk
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (572, 1056); --Easy Mark
@@ -555,7 +555,7 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (574
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (574, 674); --Immune: Fire
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (574, 708); --Knockdown
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (574, 857); --Riches
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (574, 1026); --Tail Sweep
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (574, 1025); --Tail Sweep
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (574, 2014); --Wildfire
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (574, 1040); --Dragon Hoard
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (574, 1, 2); --Strength
@@ -579,8 +579,8 @@ VALUES (680,
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (575, 487); --Bulldozer
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (575, 502); --Charge
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (575, 681); --Immune: Status Effects
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (575, 1020); --Sturdy
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (575, 1037); --Throw X
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (575, 1019); --Sturdy
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (575, 1036); --Throw X
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (575, 1875); --Turtle Tosser
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (575, 1639); --Shell Shock
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (575, 827); --Booming Bombards
@@ -607,7 +607,7 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (576
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (576, 588); --Fire
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (576, 595); --Flammable
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (576, 647); --Hex
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (576, 1037); --Throw X
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (576, 1036); --Throw X
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (576, 944); --Cull The Weak
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (576, 898); --Cloud of Straw
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (576, 1549); --Pumpkin Toss
@@ -659,7 +659,7 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (578
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (578, 684); --Improved Critical
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (578, 778); --On The Move
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (578, 845); --Refuge
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (578, 1066); --Way Keeper
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (578, 1065); --Way Keeper
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (578, 1755); --Stinging Wind
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (578, 1527); --Pound The Ice
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (578, 1494); --Pacify The Way

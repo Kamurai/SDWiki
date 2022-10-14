@@ -20,7 +20,7 @@ VALUES (1204,
 'Either', 'Small', '', 3, 1, '2R', '3B', '0ST', '1B', 2, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (865, 708); --Knockdown
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (865, 678); --Immune: Knockdown
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (865, 2313); --Dun Dun, Nom Nom
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (865, 2225); --Dun Dun, Nom Nom
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (865, 1, 1); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (865, 2); --Armor
 insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (865, 2, -1);

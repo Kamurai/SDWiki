@@ -40,7 +40,7 @@ VALUES (1123,
 'Either', 'Small', 'Parrot', 10, 2, '1B', '3ST', '1B', '3R', 2, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (791, 596); --Fly
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (791, 471); --Bonded Creep: Black-Handed Henry
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (791, 2162); --Polly Got a Potion
+--insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (791, abXXX); --Polly Got a Potion
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (791, 2163); --Master Got a Potion
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (791, 4, 1); --Dexterity
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (791, 2); --Armor

@@ -1,4 +1,8 @@
---1.0 Equipment
+--SDE
+--1.0.1
+--Equipment
+
+
 --Assassin's Crossbow --EquipmentIndex 0 --CardIndex 72
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Assassin''s Crossbow',
 'http://htkb.info/SDE/1.0/Cards/Treasure/Specific/Card_Treasure_Assassins_Crossbow_1.0.png', 

@@ -43,10 +43,6 @@ VALUES (1101,
 'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Dazzled_2.0_back.png',
 'Feminine', 'Small', 'Human', 6, 3, '3B', '3B', '3B', '2B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (769, 609); --Found A Shiny
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (769, 647); --Hex
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (769, 685); --Improved Critical
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (769, 708); --Knockdown
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (769, 728); --Massive Damage
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (769, 2060); --SparkleBOOM
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (769, 2050); --Fireworks
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (769, 2054); --Lights In Your Eyes
@@ -69,7 +65,7 @@ VALUES (1102,
 'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Outcast_Vampyr_2.0_back.png',
 'Masculine', 'Small', 'Undead', 6, 3, '2B', '3B', '3B', '3B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (770, 596); --Fly
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (770, 1086); --Heart Attack
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (770, 1085); --Heart Attack
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (770, 662); --Hunger
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (770, 2061); --Taste of You, A
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (770, 2047); --Dance of the Dead, The
@@ -93,8 +89,8 @@ VALUES (1103,
 'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Royal_Academic_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Royal_Academic_2.0_back.png',
 'Feminine', 'Small', 'Human', 6, 3, '2B', '3B', '2R', '3B', 5, 2);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (771, 506); --Clever
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (771, 647); --Hex
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (771, 505); --Clever (Explore)
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (771, 506); --Clever (Arcade)
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (771, 713); --Leadership
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (771, 2063); --Textbook Curse
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (771, 2053); --Let's Discuss Our Plan
