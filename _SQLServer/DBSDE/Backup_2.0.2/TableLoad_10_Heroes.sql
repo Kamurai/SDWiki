@@ -21,9 +21,9 @@ VALUES (1106,
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (774, 1116); --Keep the Rum Flowing
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (774, 798); --Pet: Polly
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (774, 2116); --Extra Powder
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (774, 2160); --Garlic Breath
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (774, 2159); --Black Coffee
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (774, 2161); --Minty Fortress
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (774, 2070); --Garlic Breath
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (774, 2069); --Black Coffee
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (774, 2071); --Minty Fortress
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (774, 4, 6); --Dexterity
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (774, 2); --Armor
 
@@ -44,9 +44,9 @@ VALUES (1107,
 'Masculine', 'Large', 'Bugbear', 5, 3, '2B 1R', '2R', '2B', '2B', 6, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (775, 1019); --Sturdy
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (775, 1110); --Familiar: Colo
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (775, 2158); --Bow Bomb
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (775, 2147); --Tear Your Arms Off
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (775, 2137); --Scoundrel Slushie
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (775, 2068); --Bow Bomb
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (775, 2057); --Tear Your Arms Off
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (775, 2047); --Scoundrel Slushie
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (775, 1, 2); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (775, 2); --Armor
 
@@ -67,7 +67,7 @@ VALUES (1108,
 'Masculine', 'Small', 'Human', 6, 3, '3B', '3B', '1B 1R', '1B 1R', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (776, 673); --Immune: Bane
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (776, 679); --Immune: Poison
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (776, 1147); --Flintlock
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (776, 1146); --Flintlock
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (776, 1352); --Kraken
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (776, 1864); --Treasure Map
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (776, 1, 1); --Strength
@@ -89,9 +89,9 @@ VALUES (1109,
 'Either', 'Large', 'Gnome Construct', 5, 3, '2R', '3B 1R', '2B', '1B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (777, 636); --Grabby
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (777, 676); --Immune: Ice
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (777, 2125); --Lead With The Beard
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (777, 2121); --Go.  Go.  Grabby Claws
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (777, 2139); --Seal The Hatches
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (777, 2035); --Lead With The Beard
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (777, 2031); --Go.  Go.  Grabby Claws
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (777, 2049); --Seal The Hatches
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (777, 2019); --Bubbles!
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (777, 1, 2); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (777, 2); --Armor
@@ -112,10 +112,10 @@ VALUES (1110,
 'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Eiko_Ando_2.0_back.png',
 'Feminine', 'Small', 'Human', 6, 3, '2B', '3B', '3B', '2B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (778, 1107); --Exorcist
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (778, 2134); --Power of Prayer, The
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (778, 2135); --Purifying Water
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (778, 2141); --Soulmark
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (778, 2142); --Soul Tether
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (778, 2044); --Power of Prayer, The
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (778, 2045); --Purifying Water
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (778, 2051); --Soulmark
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (778, 2052); --Soul Tether
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (778, 3, 8); --Will
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (778, 2); --Armor
 
@@ -137,9 +137,9 @@ VALUES (1111,
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (779, 796); --Pep Talk
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (779, 1006); --Steady
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (779, 1396); --Mage Push
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (779, 2129); --Master Push
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (779, 2130); --Mind Trick
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (779, 2110); --Cantina Coffee
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (779, 2039); --Master Push
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (779, 2040); --Mind Trick
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (779, 2020); --Cantina Coffee
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (779, 3, 1); --Will
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (779, 2); --Armor
 
@@ -160,10 +160,10 @@ VALUES (1112,
 'Masculine', 'Small', 'Human', 6, 3, '3B', '2R', '1B', '2R', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (780, 557); --Discipline
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (780, 843); --Reckless
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (780, 2131); --MORE POWDER!
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (780, 2123); --I Just Stuffed Some Cutlery In There...
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (780, 2041); --MORE POWDER!
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (780, 2033); --I Just Stuffed Some Cutlery In There...
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (780, 4, 10); --Dexterity
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (780, 2153); --Black Powder
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (780, 2063); --Black Powder
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (780, 2); --Armor
 
 --Pirate Captain --CardIndex 2235	--CharacterIndex 1113	--ExploreCharacterIndex 781
@@ -183,9 +183,9 @@ VALUES (1113,
 'Masculine', 'Small', 'Pirate Human', 6, 3, '2R', '3B', '2B', '3B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (781, 794); --Parry
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (781, 1087); --Extra Powder
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (781, 2118); --Fancy Sword Work
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (781, 2113); --Double Cross
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (781, 2136); --Rum
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (781, 2028); --Fancy Sword Work
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (781, 2023); --Double Cross
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (781, 2046); --Rum
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (781, 1, 1); --Strength
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (781, 4, 6); --Dexterity
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (781, 2); --Armor
@@ -207,10 +207,10 @@ VALUES (1114,
 'Masculine', 'Large', 'Gnome', 3, 4, '2R', '2B 1R', '3B', '2B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (782, 1022); --Surefoot
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (782, 1107); --Catastrophic Failure
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (782, 2133); --Pinch And Tear
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (782, 2150); --Vent Steam
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (782, 2140); --Skuttle
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (782, 2111); --Crab Juice
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (782, 2043); --Pinch And Tear
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (782, 1895); --Vent Steam
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (782, 2050); --Skuttle
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (782, 2021); --Crab Juice
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (782, 1, 2); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (782, 2); --Armor
 

@@ -19,16 +19,7 @@
 /*Angry Walrus							--Index 431*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Explore', 'Angry Walrus', 'At the end of the Consul''s power-up phase, the Consul rolls 1B. If no stars are rolled, nothing happens. If any stars are rolled, the Consul may move the model with Angry Walrus up to one square for each star rolled and then make a basic melee offensive action against any other member of the party in range (Arcade: the Hero''s controller rolls and must move towards and attack the closest other friendly model if stars are rolled).');
 /*Animate Soul							--Index 432*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Animate Soul', 'Place a crystal token on target Hero.  When the Hero is destroyed, if the model that placed the crystal is not in play, remove the crystal adjacent to the Hero.  The model spawned in this way suffers three wounds after being placed.');
 /*Animate Soul							--Index 433*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Explore', 'Animate Soul', 'Place a crystal token on target Hero.  When the Hero is destroyed, if the model that placed the crystal is not in play, remove the crystal token to spawn the model that placed the crystsal adjacent to the Hero. The model spawned in this way suffers three wounds after being placed.');
-
-
-
-
---!!!Adjust Keywords going forward
-
-
-
-
-
+/*										--Index 434*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('', '', '', '');
 /*Another Round							--Index 435*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Another Round', 'During upkeep roll 1B.  For every start rolled Deodric gains one potion.');
 /*Apprenticeships						--Index 436*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Apprenticeships', 'Spawn six Forge Gnomes; one within two squares of each dungeon exit in the first tile and one within two squares of each dungeon exit in the last tile.');
 /*Arc									--Index 437*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Arc', 'After resolving an action with Arc, choose another model within two squares of the last model targeted and which has not already been targeted.  Resolve the action again, rolling one less dice of the player''s choice against the new target.  Continue choosing new targets in this manner until Arc fails to inflict a wound, no dice remain, or there is no new target in range.');
@@ -494,10 +485,6 @@
 /*Sense Weakness						--Index 879*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Explore', 'Sense Weakness', 'A model with Sense Weakness gains +1G to offensive actions targeting a model with one or more status effects.');
 /*Shake Down							--Index 880*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Shake Down', 'Enemy Heroes with the Immobile status effect that are on the same tile as a model with Shake Down count as rolling zero stars for the purpose of the Yoink ability whenever they fail a defense roll.');
 /*Shake It Off							--Index 881*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Shake If Off', 'When this Hero spends a Princess Coin to return to play, it shapeshifts into its original form.');
-
---!!! Clean past this point
-
-/*Shame!								--Index 881*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Arcade', 'Shame!', 'After a model with Shame! is destroyed, the model that destroyed it suffers Push 6.');
 /*Shame!								--Index 882*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Explore', 'Shame!', 'After a model with Shame! is destroyed, the model that destroyed it suffers Compel 6.');
 /*										--Index 883*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('', '', '', '');
 /*Shapeshift X							--Index 884*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Arcade', 'Shapeshift X', 'The model may Shapeshift into the model listed. Shapeshift rules are detailed in the rulebook.');
@@ -609,7 +596,6 @@
 /*Spawning Pool							--Index 989*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Explore', 'Spawning Pool', '1x Watchtower (Spawning Point)<br>1x Sergeant-at-Arms<br>2x Longbowmen<br>2x Pikemen<br>2x Swordsmen');
 /*Spawning Pool							--Index 990*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Arcade', 	'Spawning Pool', '1x Yurei Madoushi (Spawning Point)<br>3x Yurei Kaiken<br>2x Yurei Yajiri<br>2x Kunoichi<br><br>Cards:<br>1x Ghost Ship<br>1x Spirit Archers');
 /*Spawning Pool							--Index 991*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Explore', 'Spawning Pool', '1x Yurei Madoushi (Spawning Point)<br>3x Yurei Kaiken<br>2x Yurei Yajiri<br>2x Yurei Kunoichi');
-
 /*Spider's Trap, The					--Index 992*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Spider''s Trap, The', 'The dungeon boss immediately performs a full activation.');
 /*Spirit Call							--Index 993*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Spirit Call', 'When a model with Spirit Call is in play, all Ghost models gain +1B to all rolls.');
 /*Spirit Sentry							--Index 994*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Spirit Sentry', 'When a model with Spirit Sentry either deals or suffers a wound, all SUPER monsters in play may immediately make one basic attack action.');
@@ -642,6 +628,7 @@
 /*Super Annoying						--Index 1021*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Super Annoying', 'Heroes that begin their activation adjacent to this model gain 1 additional Movement during the activation.');
 /*Surefoot								--Index 1022*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Surefoot', 'A model with Surefoot treats difficult terrain squares as open squares.  All non-blessing tile effects in those squares are ignored.');
 /*Surge									--Index 1023*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Arcade', 'Surge', 'If no Hero is in range of a model with Surge, move it an additional 5 squares towards the Hero with the most wrath.');
+
 /*Tag Team								--Index 1024*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Tag Team', 'This Pet may activate immediately before its Master instead of immediately after it. After this Pet’s Master misses with a basic attack, this Pet may make a basic attack against the same target, if able.');
 /*Tail Sweep							--Index 1025*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Tail Sweep', 'During its activation, a model with Tail Sweep may make the following offensive action a single time for free:<br>0AC 0SW, Sweep 2, KNOCKDOWN');
 /*Tainted Blood							--Index 1026*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Explore', 'Tainted Blood', 'Enemy models within three squares of a model with Tainted Blood do not remove the POISON status effect at the end of their activations.');
@@ -660,9 +647,7 @@
 /*Toss Me								--Index 1039*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Toss Me', 'If this model is targeted by an action with Throw, after resolving the results of the action, destroy this model. Volatile is triggered by Toss Me.');
 /*Tough									--Index 1040*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Tough', 'During its upkeep, a model with Tough removes a single wound token.');
 /*Toughened Scars						--Index 1041*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Toughened Scars', 'This Hero gains +1HE for each Princess Coin on it, in addtion to any other benefit.  (Arcade:  When this model is brought into play using a Princess Coin, place the Princess Coin on its card in order to benefit from this ability.)');
-
 /*Treeform								--Index 1042*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Treeform', 'At the start of this model’s activation it may choose to forego all actions and movement to Heal 2. If it does, until the start of its next activation, it gains +1R ARM and all friendly models within Aura 2 gain +1R STR.');
-
 /*Tribute To Myself						--Index 1043*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Tribute To Myself', 'When this model wins a defensive roll, it may heal itself using hearts as if it were an offensive roll.');
 /*Troopa Shield							--Index 1044*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Troopa Shield', 'When a friendly model within two squares and Line of Sight is targeted with an attack, this model may suffer one wound.  If it does, the friendly model gains +1G ARM for the duration of the attack.');
 /*Trophies								--Index 1045*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Trophies', 'When a model with Trophies spawns, spawn six Ghostflames; two within three squares of each SPAWNPOINT.  A model with Trophies gains +1ST ARM for each Ghostflame in play.');
@@ -673,6 +658,7 @@
 /*Undead Horde							--Index 1049*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Undead Horde', 'Spawn 4 Kodeads within four squares of Nightsong the Eternal');
 /*Unpredictable							--Index 1050*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Unpredictable', 'At the end of its activation, a model with Unpredictable must roll 1R.  If it rolls no stars, the model must move three squares towards the closest other Hero and make a basic melee attack against it.');
 /*Unstable Design						--Index 1051*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Unstable Design', 'When a model with Unstable Design suffers a critical, it immediately takes its Vent Steam action.  If the model with Unstable Design would be destroyed by the critical, it takes Vent Steam before being removed.');
+
 /*Vengeful Storm						--Index 1052*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Arcade', 'Vengeful Storm', 'When a model with Vengeful Storm is killed, all monsters immediately receive the attack command.')
 /*Vengeful Storm						--Index 1053*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Explore', 'Vengeful Storm', 'When a model with Vengeful Storm is destroyed, all models friendly to it may immediately make a basic offensive action.')
 /*										--Index 1054*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('', '', '', '');
@@ -705,39 +691,23 @@
 /*You're Alone							--Index 1079*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Explore', 'You''re Alone', 'A model with You''re Alone gains +2B to offensive actions that are targeting a model that has no other models friendly to it within two squares.');
 /*You've Been Naughty					--Index 1080*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Arcade', 'You''ve Been Naughty', 'After an enemy model rolls a critical success against a model with You''ve Been Naughty, the enemy model Shapeshifts into a Naughtie (regardless of the number of wounds dealt by the critical).  The controller of the model that is shapeshifting selects one Naughtie shapeshift card that is not already being used by a Hero.  If all Naughtie shapeshift cards are in play, this ability has no effect.  Heroes on Kringle''s Nice List may not be shapeshifted in this way.');
 /*You've Been Naughty					--Index 1081*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Explore', 'You''ve Been Naughty', 'After an enemy model rolls a critical success against a model with You''ve Been Naughty, the enemy model Shapeshifts into a Naughtie (regardless of the number of wounds dealt by the critical).  The Consul selects one Naughtie shapeshift card that is not already being used by a Hero.  If all Naughtie shapeshift cards are in play, this ability has no effect.  Heroes on Kringle''s Nice List may not be shapeshifted in this way.');
-
 /*Your Goddess Has Forsaken You			--Index 1082*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Your Goddess Has Forsaken You', 'All enemy Heroes discard all spent Princess Coins from their cards.  All enemy Heroes without Princess Coins to discard suffer one wound.');
 
 /*Impulsive								--Index 1083*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Explore', 'Impulsive', 'When a model with Impulsive activates, roll 1R and apply the following depending on the number of stars rolled:<br>0ST: This model gains Brutal Strike this activation.<br>1ST: This model gains Improved Critical this activation.<br>2ST+: This model gains Brutal Strike and Improved Critical this activation.');
-
 /*Hex									--Index 1084*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Explore', 'Hex', 'A model suffering Hex discards the highest result rolled antime it makes an offense roll. After dice are rolled by any Hero for any reason, this model may discard the die to add it to the roll.');
-
 /*Heart Attack							--Index 1085*/ insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Explore', 'Heart Attack', 'When making an offense roll, a model with Heart Attack counts any hearts rolled as two hearts.');
-
 /*Pile-On								--Index 1086*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Explore', 'Pile-On', 'A model with Pile-on gains +1R STR if its target is suffering Knockdown.');
-
 /*Silverware							--Index 1087*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Explore', 'Silverware', 'All Spikers in play gain +1G STR.');
-
 /*Delicious								--Index 1088*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Explore', 'Delicious', 'When adjacent to this model, The Guth may discard this equipment (ignoring Cursed) as if it were a friendly Goblin Creep to activate Pig Feed.');
-
 /*Brutality Aura						--Index 1089*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Explore', 'Brutality Aura', 'All models, friendly or enemy, that are within two squares of a model with Brutality Aura gain +1ST ARM.');
-
 /*										--Index 1090*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('', '', '', ''); 
-
 /*Spawning Pool							--Index 1091*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Explore',	'Spawning Pool', '1x Sohei Madoushi (Spawning Point)<br>2x Sohei Kaiken<br>1x Sohei Yajiri<br>1x Sohei Oni<br>1x Sohei Kunoichi<br><br>Cards:<br>1x Tirumphant Tora<br>1x Gunpowder Gala'); --!! unavailable !!  Sohei Clan - Madoushi
-
 /*Knockdown								--Index 1092*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Arcade', 'Knockdown', 'A Hero Suffering Knockdown may not move or perform any other action until it spends one action point or all of its movement points to remove the Knockdown token.'); 
-
 /*Burrow								--Index 1093*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Arcade', 'Burrow', 'A model with Burrow may move through walls, and treats difficult terrain and structure squares as open squares.  All non-blessing tile effects in those squares are ignored.');
-
 /*Pig Feed								--Index 1094*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Arcade', 'Pig Feed', 'When a model with Pig Feed enters play, spawn one Spiker within three squares of each spawning point icon (four total).'); 
-
 /*Knockdown								--Index 1095*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Knockdown', 'A model suffering Knockdown may not move or perform any other action until it spends one action point or all of its movement points to remove the Knockdown token.(Arcade: A monster suffering Knockdown may not perform commands until the next Move command. Instead of moving it must remove the Knockdown token.)');
-
 /*Volatile								--Index 1096*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Explore', 'Volatile', 'When a model with Volatile is destroyed, before removing the model, resolve the following action: 0AC 0SW, Wave 1, +2ST STR');
-
 /*Dangerous								--Index 1097*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Dangerous', 'May target and will affect friendly and enemy models.');
-
 /*Chasm									--Index 1098*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Explore', 'Chasm', 'Models cannot move through chasms. Models can draw line of sight through chasms.');
 /*Difficult Terrain						--Index 1099*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Explore', 'Difficult Terrain', 'Each square of difficult terrain a model enters costs two movement points. If a model does not have enough movement points to move into a square with difficult terrain, it may not do so.<br><br>Large based models are only considered to enter a square of difficult terrain if one of the squares counted along the path they are moving is difficult terrain. Remember, large based models can "squeeze" through single-square lanes.');
 /*Fire									--Index 1100*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Explore', 'Fire', 'A model which enters one or more Fire squares suffers FIRE at the end of the current activation.');

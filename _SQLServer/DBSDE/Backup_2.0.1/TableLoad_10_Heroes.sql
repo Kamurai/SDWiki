@@ -23,7 +23,7 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (267
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (267, 1009); --Stealth
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (267, 1050); --Unpredictable
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (267, 904); --Cold Fury
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (267, 1177); --Freezer
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (267, 1176); --Freezer
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (267, 2010); --White-Out Elixir
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (267, 1, 2); --Strength
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (267, 3, 5); --Will
@@ -94,7 +94,7 @@ VALUES (375,
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (270, 588); --Fire
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (270, 674); --Immune: Fire
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (270, 678); --Immune: Knockdown
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (270, 1142); --Flaming Javelin
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (270, 1141); --Flaming Javelin
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (270, 1642); --Shield Bash
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (270, 1507); --Phalanx Phial
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (270, 1, 1); --Strength
@@ -289,9 +289,9 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (278
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (278, 668); --Ice
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (278, 709); --Knockdown
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (278, 815); --Pounce
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (278, 2043); --Teeth & Fur
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (278, 2042); --Purrrrr
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (278, 2041); --Coolmint Kitty Bomb
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (278, 1953); --Teeth & Fur
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (278, 1952); --Purrrrr
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (278, 1951); --Coolmint Kitty Bomb
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (278, 1, 1); --Strength
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (278, 4, 1); --Dex
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (278, 2); --Armor
@@ -462,7 +462,7 @@ VALUES (390,
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (285, 588); --Fire
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (285, 752); --Mastery
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (285, 1009); --Stealth
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (285, 1140); --Flaming Blade
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (285, 1139); --Flaming Blade
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (285, 1509); --Phoenix And Ashes
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (285, 894); --Cloud Of Ash
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (285, 1196); --Furious Firebloom
@@ -615,7 +615,7 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (291
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (291, 1245); --Hammer
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (291, 740); --Anvil
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (291, 1418); --Masterwork
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (291, 1162); --Forge Fire
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (291, 1161); --Forge Fire
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (291, 1, 2); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (291, 2); --Armor
 
@@ -711,7 +711,7 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (295
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (295, 543); --Defender
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (295, 642); --Heal X
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (295, 1645); --Shield Breaker
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (295, 1163); --Form On Me
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (295, 1162); --Form On Me
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (295, 1104); --Field Dressing
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (295, 1, 1); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (295, 2); --Armor
@@ -765,7 +765,7 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (297
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (297, 1834); --Throwing Knives
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (297, 1231); --Gotcha!
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (297, 864); --Can't Catch Me
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (297, 2039); --Yummy-Nom-Nom
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (297, 1949); --Yummy-Nom-Nom
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (297, 1026); --Distracting Fuzzball
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (297, 1, 1); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (297, 2); --Armor
@@ -793,7 +793,7 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (298
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (298, 1834); --Throwing Knives
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (298, 1231); --Gotcha!
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (298, 864); --Can't Catch Me
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (298, 2039); --Yummy-Nom-Nom
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (298, 1949); --Yummy-Nom-Nom
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (298, 1026); --Distracting Fuzzball
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (298, 1, 1); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (298, 2); --Armor
@@ -933,7 +933,7 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (305
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (305, 728); --Massive Damage
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (305, 823); --Privateer
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (305, 1515); --Pistols Blazing
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (305, 1136); --Flame Burst
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (305, 1135); --Flame Burst
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (305, 1702); --Sniper Rounds
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (305, 1, 1); --Strength
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (305, 4, 6); --Dex
@@ -1204,7 +1204,7 @@ VALUES (421,
 'Masculine', 'Small', 'Human', 6, 3, '3B', '3B', '1B 1R', '1B 1R', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (316, 673); --Immune: Bane
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (316, 679); --Immune: Poison
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (316, 1147); --Flintlock
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (316, 1146); --Flintlock
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (316, 1352); --Kraken
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (316, 1864); --Treasure Map
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (316, 1, 1); --Strength
@@ -1648,7 +1648,7 @@ VALUES (439,
 'Masculine', 'Small', 'Human', 6, 3, '1B 1G', '3B', '2B', '2B 1R', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (334, 672); --Immobile
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (334, 752); --Mastery
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (334, 1148); --Flowing Blade
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (334, 1147); --Flowing Blade
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (334, 1545); --Puff of Smoke
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (334, 1497); --Paralyzing Toxin
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (334, 1, 2); --Strength
@@ -1742,7 +1742,7 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (338
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (338, 1189); --Frozen Feet
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (338, 844); --Broken Bones
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (338, 961); --Cursed Concoction
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (338, 2025); --Wizard Wings
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (338, 1935); --Wizard Wings
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (338, 1, 1); --Strength
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (338, 3, 8); --Will
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (338, 2); --Armor
@@ -1768,7 +1768,7 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (339
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (339, 1189); --Frozen Feet
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (339, 844); --Broken Bones
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (339, 961); --Cursed Concoction
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (339, 2025); --Wizard Wings
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (339, 1935); --Wizard Wings
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (339, 1, 1); --Strength
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (339, 3, 8); --Will
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (339, 2); --Armor
@@ -1843,7 +1843,7 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (342
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (342, 672); --Immobile
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (342, 698); --Keep It On Ice
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (342, 1193); --Frozen Solid
---insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (342, abXXX); --Ice Storm
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (342, 2253); --Ice Storm
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (342, 1291); --Ice Pack
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (342, 3, 5); --Will
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (342, 2); --Armor
@@ -2266,7 +2266,7 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (359
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (359, 999); --Spongy
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (359, 1083); --Exploding Rocket Fist
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (359, 2028); --Wrench Whack
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (359, 1149); --Flubber Coating
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (359, 1148); --Flubber Coating
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (359, 911); --Concussion Grenade
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (359, 1, 1); --Strength
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (359, 4, 5); --Dex
@@ -2362,7 +2362,7 @@ VALUES (468,
 'Feminine', 'Small', 'Ika', 6, 3, '3B', '3B', '2B', '3B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (363, 894); --Sidestep
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (363, 1672); --Skewer
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (363, 1143); --Flashing Spear
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (363, 1142); --Flashing Spear
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (363, 1482); --The Ocean's Grace
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (363, 1, 1); --Strength
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (363, 4, 4); --Dex
@@ -2534,7 +2534,7 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (370
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (370, 807); --Poison
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (370, 1056); --Virulent
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (370, 929); --Crimson Shot
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (370, 2024); --Wither Away
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (370, 1934); --Wither Away
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (370, 807); --Poison Coating
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (370, 1899); --Virulence
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (370, 1, 1); --Strength
@@ -2798,7 +2798,7 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (381
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (381, 1040); --Tough
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (381, 1542); --Protector of the Realm
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (381, 1326); --Iron Halo
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (381, 1165); --Fortified
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (381, 1164); --Fortified
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (381, 1855); --Tower Defense
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (381, 1, 1); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (381, 2); --Armor
@@ -3231,7 +3231,7 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (399
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (399, 1189); --Frozen Feet
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (399, 844); --Broken Bones
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (399, 961); --Cursed Concoction
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (399, 2025); --Wizard Wings
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (399, 1935); --Wizard Wings
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (399, 1, 1); --Strength
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (399, 3, 8); --Will
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (399, 2); --Armor
@@ -3308,7 +3308,7 @@ VALUES (507,
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (402, 593); --Fixed Form
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (402, 1030); --Don't Hurt Meeee!
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (402, 1212); --Gifts In Your Socks
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (402, 2035); --You Want This Back?
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (402, 1945); --You Want This Back?
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (402, 1675); --Skyr
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (402, 1, 2); --Strength
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (402, 3, 3); --Will
@@ -3524,7 +3524,7 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (411
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (411, 649); --Hex
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (411, 672); --Immobile
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (411, 1386); --Love Arrow
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (411, 1154); --Flutter Eyelashes
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (411, 1153); --Flutter Eyelashes
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (411, 1255); --Heart Fountain
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (411, 4, 8); --Dex
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (411, 2); --Armor
@@ -3570,9 +3570,9 @@ VALUES (518,
 'Feminine', 'Small', 'Kitsune', 6, 3, '2B', '3B', '2R', '3B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (413, 1022); --Surefoot
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (413, 1029); --Territorial
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (413, 1153); --Flush Out The Prey
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (413, 1152); --Flush Out The Prey
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (413, 731); --Allure
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (413, 1170); --Foxglove
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (413, 1169); --Foxglove
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (413, 3, 4); --Will
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (413, 2); --Armor
 
@@ -3991,7 +3991,7 @@ VALUES (535,
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (430, 483); --Brutal Strike
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (430, 724); --Mark
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (430, 843); --Reckless
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (430, 2029); --Wyrdwood Arrow
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (430, 1939); --Wyrdwood Arrow
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (430, 1829); --That One. With The Funny Face
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (430, 1764); --Storm of Arrows
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (430, 1874); --Turpentine

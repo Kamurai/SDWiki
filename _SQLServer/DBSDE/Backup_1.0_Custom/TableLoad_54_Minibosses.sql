@@ -12,9 +12,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 '');
 insert into Characters (CardIndex) VALUES (2344);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (852, 124); --Spray 2
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (852, 2192); --Flecha Envenenada
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (852, 2193); --Petrificar
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (852, 2194); --Miedo
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (852, 2102); --Flecha Envenenada
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (852, 2103); --Petrificar
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (852, 2104); --Miedo
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (1191,
 'http://htkb.info/SDE/1.0/Custom/Cards/MiniBosses/Standies/Medusa.png', 
@@ -38,9 +38,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'MiniBoss', '1.0 Custom', '1.0 Custom Set', 'Explore',
 '');
 insert into Characters (CardIndex) VALUES (2345);
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (852, 2195); --Embestida
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (852, 2196); --Aplastar
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (852, 2197); --Terror
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (852, 2105); --Embestida
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (852, 2106); --Aplastar
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (852, 2107); --Terror
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (1192,
 'http://htkb.info/SDE/1.0/Custom/Cards/MiniBosses/Standies/Minos.png', 

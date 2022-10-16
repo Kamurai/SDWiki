@@ -13,8 +13,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (2321);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (831, 54); --Immune: Fire
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (831, 63); --Immune: Weak
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (831, 2279); --Fire Breath
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (831, 2280); --Butt Stomp
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (831, 2189); --Fire Breath
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (831, 2190); --Butt Stomp
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 1170,
 'http://htkb.info/Common/Standies/SMB/Bowser.png', 
@@ -40,8 +40,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (2322);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (832, 83); --Mob
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (832, 1142); --Split
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (832, 2279); --Shapeshift: Brown Wizard
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (832, 2280); --Tusks
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (832, 2191); --Shapeshift: Brown Wizard
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (832, 2192); --Tusks
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 1171,
 'http://htkb.info/Common/Standies/Brown_Boars.png', 
@@ -65,10 +65,10 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Boss', '1.0 Custom', '1.0 Custom Set', 'Explore',
 '');
 insert into Characters (CardIndex) VALUES (2323);
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (833, 2283); --Shapeshift: Brown Boars
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (833, 2284); --Spectral Bats
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (833, 2285); --Spitting Cobra
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (833, 2286); --Disorientate
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (833, 2193); --Shapeshift: Brown Boars
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (833, 2194); --Spectral Bats
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (833, 2195); --Spitting Cobra
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (833, 2196); --Disorientate
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 1172,
 'http://htkb.info/Common/Standies/Brown_Wizard.png', 
@@ -94,9 +94,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (2324);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (834, 1143); --Invulnerable
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (834, 82); --Missile 8
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (834, 2287); --Dual Weapons
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (834, 2288); --Lightning
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (834, 2289); --Extreme Aggression
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (834, 2197); --Dual Weapons
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (834, 2198); --Lightning
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (834, 2199); --Extreme Aggression
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 1173,
 'http://htkb.info/Common/Standies/Chaos_Warrior.png', 
@@ -123,9 +123,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (2325);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (835, 83); --Invulnerable
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (835, 1143); --Missile 8
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (835, 2290); --Charge
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (835, 2291); --Lightning
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (835, 2292); --Backstab
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (835, 2200); --Charge
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (835, 2201); --Lightning
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (835, 2202); --Backstab
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 1174,
 'http://htkb.info/Common/Standies/Chaos_Warrior_Mounted.png', 
@@ -156,11 +156,11 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (836
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (836, 90); --Poison
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (836, 38); --Fragile
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (836, 23); --Cold
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (836, 2293); --Red Dragon
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (836, 2294); --Blue Dragon
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (836, 2295); --Green Dragon
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (836, 2296); --Black Dragon
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (836, 2297); --White Dragon
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (836, 2203); --Red Dragon
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (836, 2204); --Blue Dragon
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (836, 2205); --Green Dragon
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (836, 2206); --Black Dragon
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (836, 2207); --White Dragon
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 1175,
 'http://htkb.info/Common/Standies/Chaos_Warrior.png', 

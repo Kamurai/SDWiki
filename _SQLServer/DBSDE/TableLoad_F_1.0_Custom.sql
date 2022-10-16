@@ -1,247 +1,5 @@
 --SDE
 --1.0 Custom
---Keywords
-
-
-/*Terrain 							--Index   1125*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0 Custom', 'Default', 'Terrain', 					'Crystal forms are considered terrain and do not contribute to the loot-o-meter or wound tracker.');
-/*Seductress						--Index   1126*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0 Custom', 'Default', 'Seductress', 				'Range 6. At the beginning of its activation a model with Seductress may prevent a single enemy model within range (worth one Skull Point) from being activated that turn. This is automatic and costs no AP.');
-
-/*Treasure Thief					--Index   1127*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0 Custom', 'Default', 'Treasure Thief', 			'Barry can open Treasure Chests in the same way as a Hero Character.  Barry cannot use the Item but will carry it until he is killed.  The heroes will then gain that item.');
-/*Barry								--Index   1128*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0 Custom', 'Default', 'Barry', 					'Barry is 16-Bit, but can only come into play once.');
-
-/*Swarm								--Index   1129*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0 Custom', 'Default', 'Swarm', 					'TBD.');
-
-/*Hired Hand						--Index   1130*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0 Custom', 'Default', 'Hired Hand', 				'Hired Hands cannot equip items, carry potions, or open chests.<br><br>Up to two Hired Hands can be activated per turn instead of a single Hero. (The Hero still gets their own turn later in the round.)');
-
-/*Tank								--Index   1131*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0 Custom', 'Default', 'Tank', 						'TBD.');
-
-/*Difficult Terrain					--Index   1132*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0 Custom', 'Default', 'Difficult Terrain', 		'Place a marker to indicate that the affected square now counts as difficult terrain.');
-/*Crystal Form						--Index   1133*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0 Custom', 'Default', 'Crystal Form', 				'Varies depending on whether the targeted square is occupied or not.<br><br>Unoccupied Square - Place a large crystal model in the targeted square.  The crystal counts as a wall and blocks LOS.<br><br>Occupied Square - Place the Crystal Form status effect on the targetted model.');
-/*Shatter							--Index   1134*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0 Custom', 'Default', 'Shatter', 					'The target must be either a large crystal or a model with the Crystal Form status effect.  Resolve as you would for a normal burst effect.');
-
-/*Black Magic						--Index   1135*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0 Custom', 'Default', 'Black Magic', 				'Heroes in a tile containing a spawn point are considered to be suffering from STUN.  They lose this status effect immediately upon leaving the tile.');
-/*Magic Sapping Blades				--Index   1136*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0 Custom', 'Default', 'Magic Sapping Blades', 		'All Minions and denizens gain the Stun ability as if it were printed on their stat card.');
-/*Curse								--Index   1137*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0 Custom', 'Default', 'Curse', 					'One hero model, of the Consul player''s choice is cursed by the Wizard, and immediately turns into The Wolf.  All equipment and potions are kept by the hero.');
-
-/*Armoured Plating					--Index   1138*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0 Custom', 'Default', 'Armoured Plating', 			'Heroes in a tile containing a spawn point are considered to be suffering from STUN.  They lose this status effect immediately upon leaving the tile.');
-/*Armoured Piercing					--Index   1139*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0 Custom', 'Default', 'Armoured Piercing', 		'When the Chaos Warrior enters play place a Fragile counter on every hero.  The Chaos Warrior starts off mounted.');
-/*Armour Piercing Blades			--Index   1140*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0 Custom', 'Default', 'Armour Piercing Blades', 	'One hero model, of the Consul player''s choice is cursed by the Wizard, and immediately turns into The Wolf.  All equipment and potions are kept by the hero.');
-/*Explosion							--Index   1141*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0 Custom', 'Default', 'Explosion', 				'All heroes suffer KNOCKDOWN and models adjacent to the Warrior suffer Fragile.  The Chaos Warrior is dismounted.');
-
-/*Split								--Index   1142*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0 Custom', 'Default', 'Split', 					'The two boars share one set of wounds and action points, but can move 8 squares each.');
-
-/*Invulnerable						--Index   1143*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0 Custom', 'Default', 'Invulnerable', 				'Status effects only last until the end of the your next turn.');
-
-/*GooBody							--Index   1144*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0 Custom', 'Default', 'GooBody', 					'When attacked, if the attack misses, then this model may immediately move 1 space.');
-
-/*Flee								--Index   1145*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0 Custom', 'Default', 'Flee', 						'Metaly enters the dungeon from any entrance when 16 bit is reached.  it is moved first on every Consul turn and MUST move across every tie in play.  Once it reaches the final tile it exits from any entrance on that tile.');
-/*Shinies							--Index   1146*/ 		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0 Custom', 'Default', 'Shinies', 					'Heroes that kill a Metaly may draw from the Treasure deck.');
-
-/*Spawning Pool						--Index   1147*/		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0 Custom', 'Explore', 'Spawning Pool', 			'1x Slime Stack (Spawning Point)<br>1x Dukeslime<br>1x Healie<br>2x Blubblies<br>4x Slimes<br>1x Metaly');
-/*Spawning Pool						--Index   1148*/		insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('1.0 Custom', 'Explore', 'Spawning Pool', 			'1x Warp Pipe (Spawning Point)<br>1x Bob-omb<br>2x Koopa Troopas<br>3x Goombas');
---SDE
---1.0 Custom
---Abilities
-
-
-/*Buckaroo 									--Index 2170*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0 Custom', 'Default', 'Buckaroo', 'Action', 'Offense', 2, 0, -1, 'Wave 1, DANGEROUS, IMMUNE: Mob');
-/*Stampede 									--Index 2171*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0 Custom', 'Default', 'Stampede', 'Action', 'Offense', 3, 0, 0, 'ATT vs. DEX, TRAMPLE');
-/*Haymaker 									--Index 2172*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0 Custom', 'Default', 'Haymaker', 'Action', 'Offense', 3, 0, 0, '+1R ATT, Stun');
-/*Applesauce								--Index 2173*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0 Custom', 'Default', 'Applesauce', 'Potion', 'Support', 1, -1, 0, '+1B ARM');
-
-/*Mistwalker								--Index 2174*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0 Custom', 'Default', 'Mistwalker', 'Action', 'Offense', 2, 0, -1, 'Cross 2, Dangerous');
-/*Lunar Blade								--Index 2175*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0 Custom', 'Default', 'Lunar Blade', 'Action', 'Offense', 2, 0, 1, '+1R ATT, Pacify, Slow');
-/*Second Wind								--Index 2176*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0 Custom', 'Default', 'Second Wind', 'Action', 'Support', 2, -1, 0, 'Heal 1, Remedy');
-/*Talent Blaster							--Index 2177*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0 Custom', 'Default', 'Talent Blaster', 'Potion', 'Support', 1, -1, 0, '+1B ATT, ARM, WILL, DEX');
-
-/*Stand Fast!								--Index 2178*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0 Custom', 'Default', 'Stand Fast!', 'Action', 'Support', 1, -1, -1, 'AUGMENT, Aura 1, Heal 1, Remedy');
-/*Smite										--Index 2179*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0 Custom', 'Default', 'Smite', 'Action', 'Offense', 1, 0, 1, 'Push 1');
-/*Anesthesia								--Index 2180*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0 Custom', 'Default', 'Anesthesia', 'Potion', 'Support', 1, -1, 0, '+3B ARM');
-
-/*Summoning									--Index 2181*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0 Custom', 'Default', 'Summoning', 'Action', 'Support', 1, -1, 1, 'Place a Wyrmling adjacent.  May not be used again while the Wyrmling remains in play.');
-/*Direct									--Index 2182*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0 Custom', 'Default', 'Direct', 'Action', 'Support', 1, -1, -1, 'Activate the Wyrmling.');
-/*Bolster									--Index 2183*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0 Custom', 'Default', 'Bolster', 'Action', 'Support', 1, -1, -1, 'The Wyrmling gains the benefits of your equipped Loot and Treasure.');
-/*Coals										--Index 2184*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0 Custom', 'Default', 'Coals', 'Potion', 'Support', 1, 3, 0, '+1R WILL, Spray 3, FIRE (Wyrmling may use only this potion)');
-
-/*Sexy Dance								--Index 2185*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0 Custom', 'Default', 'Sexy Dance', 'Action', 'Support', 1, -1, 6, '6RG, COMPEL 3, DEX vs. WILL');
-/*Kaleidoscope								--Index 2186*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0 Custom', 'Default', 'Kaleidoscope', 'Action', 'Offense', 2, 0, 0, '+3 ATT, PACIFY');
-/*Whirling Dervish							--Index 2187*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0 Custom', 'Default', 'Whirling Dervish', 'Action', 'Offense', 2, 0, -1, 'Wave 1');
-/*Caffeine Pills							--Index 2188*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0 Custom', 'Default', 'Caffeine Pills', 'Potion', 'Support', 1, -1, 0, '+5MO');
-
-/*Rally Cry									--Index 2189*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0 Custom', 'Default', 'Rally Cry', 'Action', 'Support', 1, -1, -1, 'AUGMENT, Aura 3, +1B ATT');
-/*Aimed Strike								--Index 2190*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0 Custom', 'Default', 'Aimed Strike', 'Action', 'Offense', 2, 0, 0, '+1R ATT, KNOCKDOWN');
-/*Flash Bomb								--Index 2191*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0 Custom', 'Default', 'Flash Bomb', 'Potion', 'Support', 1, -1, 4, '4RG, IMMOBILE, WEAK');
-
-/*Flecha Envenenada							--Index 2192*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0 Custom', 'Default', 'Flecha Envenenada', 'Action', 'Offense', 2, 4, 1, '+1G DEX, POISON');
-/*Petrificar								--Index 2193*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0 Custom', 'Default', 'Petrificar', 'Action', 'Offense', 2, 0, -1, 'Wave 2, IMMOBILE');
-/*Miedo										--Index 2194*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0 Custom', 'Default', 'Miedo', 'Action', 'Support', 1, -1, 1, 'SLOW');
-
-/*Embestida									--Index 2195*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0 Custom', 'Default', 'Embestida', 'Action', 'Offense', 2, 0, 1, '+1G ATT, MASSIVE DAMAGE');
-/*Aplastar									--Index 2196*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0 Custom', 'Default', 'Aplastar', 'Action', 'Offense', 2, 0, -1, 'Wave 2');
-/*Terror									--Index 2197*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0 Custom', 'Default', 'Terror', 'Action', 'Support', 1, -1, 1, 'IMMOBILE');
-
-/*Garra Mortal								--Index 2198*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0 Custom', 'Default', 'Garra Mortal', 'Action', 'Offense', 2, 0, 1, '+1R ATT, MASSIVE DAMAGE');
-/*Bola de Fuego								--Index 2199*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0 Custom', 'Default', 'Bola de Fuego', 'Action', 'Offense', 2, 0, -1, 'Lance 4');
-/*Picadura									--Index 2200*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0 Custom', 'Default', 'Picadura', 'Action', 'Support', 1, -1, 1, 'IMMOBILE');
-
-/*Rayo Mortal								--Index 2201*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0 Custom', 'Default', 'Rayo Mortal', 'Action', 'Offense', 2, 4, 1, '+1G DEX, KNOCKDOWN');
-/*Pared de Fuego							--Index 2202*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0 Custom', 'Default', 'Pared de Fuego', 'Action', 'Offense', 1, 0, -1, 'SPRAY 3');
-
-/*Assult									--Index 2203*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0 Custom', 'Default', 'Assult', 'Action', 'Offense', 1, 0, 1, '+1B if an enemy is suffering the from the effect of KNOCKDOWN.');
-
-/*Slick										--Index 2204*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0 Custom', 'Default', 'Slick', 'Action', 'Offense', 1, 3, 1, '+1B WILL.  KNOCKDOWN.');
-
-/*Tail Stab									--Index 2205*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0 Custom', 'Default', 'Tail Stab', 'Action', 'Offense', 2, 0, 2, '+1R WILL.  KNOCKDOWN.');
-
-/*Web Shot									--Index 2206*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0 Custom', 'Default', 'Tail Stab', 'Action', 'Offense', 1, 4, 4, '4RG, +1B DEX, SLOW.');
-
-/*Finding Strays							--Index 2207*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0 Custom', 'Default', 'Finding Strays', 'Action', 'Offense', 2, 3, 1, '+1B WILL, Summon');
-/*Can I Keep Him?							--Index 2208*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0 Custom', 'Default', 'Can I Keep Him?', 'Action', 'Offense', 2, 3, 1, '+1R WILL vs. WILL, Tame');
-/*Liquid Courage							--Index 2209*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0 Custom', 'Default', 'Liquid Courage', 'Potion', 'Support', 1, -1, 0, '+1B WILL');
-
-/*I am NOT a man!							--Index 2210*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0 Custom', 'Default', 'I am NOT a man!', 'Action', 'Offense', 2, 0, 2, '+1R ATT, Massive Damage');
-/*Wanna Wrassle?							--Index 2211*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0 Custom', 'Default', 'Wanna Wrassle?', 'Action', 'Offense', 1, 0, 2, '+1B ATT, Stun');
-/*Kegus Universalis							--Index 2212*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0 Custom', 'Default', 'Kegus Universalis', 'Potion', 'Support', 1, -1, 0, '+1B ARM, Immune: Fragile');
-
-/*Subdue									--Index 2213*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0 Custom', 'Default', 'Subdue', 'Action', 'Offense', 2, 0, 8, 'Ranged 8, WEAK');
-/*Supressing Fire							--Index 2214*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0 Custom', 'Default', 'Supressing Fire', 'Action', 'Offense', 2, 0, 2, 'Ranged 2, Burst 1, DANGEROUS');
-/*Sunburst									--Index 2215*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0 Custom', 'Default', 'Sunburst', 'Potion', 'Offense', 1, 0, -1, 'Wave 2, FIRE, FRAGILE, DANGEROUS');
-
-/*Takedown									--Index 2216*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0 Custom', 'Default', 'Takedown', 'Action', 'Offense', 1, 0, 1, 'KNOCKDOWN');
-/*Sunder									--Index 2217*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0 Custom', 'Default', 'Sunder', 'Action', 'Offense', 2, 0, 1, 'FRAGILE, WEAK');
-/*Styigan Root								--Index 2218*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0 Custom', 'Default', 'Styigan', 'Potion', 'Offense', 1, -1, 0, 'POISON');
-
-/*Sword of Vulcanis							--Index 2219*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0 Custom', 'Default', 'Sword of Vulcanis', 'Action', 'Offense', 1, 0, 3, 'RANGE 3, PULL 3');
-/*Shield Smash								--Index 2220*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0 Custom', 'Default', 'Shield Smash', 'Action', 'Offense', 2, 0, 1, '+1R ATT, KNOCKDOWN');
-/*Heroic Scream								--Index 2221*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0 Custom', 'Default', 'Heroic Scream', 'Action', 'Support', 1, -1, -1, 'AUGMENT, SPRAY 3, REMEDY');
-/*Elixir of Fire							--Index 2222*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0 Custom', 'Default', 'Elixir of Fire', 'Potion', 'Support', 1, -1, 0, '+1R ATT, FIRE');
-
-/*Lotus Blossom								--Index 2223*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0 Custom', 'Default', 'Lotus Blossom', 'Action', 'Offense', 2, 0, 3, 'WAVE 1');
-/*Chakra Blast								--Index 2224*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0 Custom', 'Default', 'Chakra Blast', 'Action', 'Support', 2, -1, 1, 'WAVE 2, PUSH 2, WILL vs. WILL');
-/*Instant Karma								--Index 2225*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0 Custom', 'Default', 'Instant Karma', 'Action', 'Support', 1, -1, -1, 'For every wound the Monk takes, roll 1B.  For every star rolled the attacking model takes one wound.');
-/*Inner Peace								--Index 2226*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0 Custom', 'Default', 'Inner Peace', 'Potion', 'Support', 1, -1, 0, '+1R WILL');
-
-/*Arcane Fury								--Index 2227*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0 Custom', 'Default', 'Arcane Fury', 'Action', 'Support', 1, -1, 0, '-1R ARM, +1R WILL, FIRE');
-/*Blizzard									--Index 2228*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0 Custom', 'Default', 'Blizzard', 'Action', 'Offense', 2, 3, 8, 'BURST 1, COMPEL 3');
-/*Instant Karma								--Index 2229*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0 Custom', 'Default', 'Freeze the Heartblood', 'Action', 'Offense', 2, 3, 8, '+2B WILL, FRAGILE');
-/*Inner Peace								--Index 2230*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0 Custom', 'Default', 'Ice Queen', 'Potion', 'Support', 1, -1, 0, '+2B ARM, Backlash');
-
-/*Swash th'Bucks!							--Index 2231*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0 Custom', 'Default', 'Swash th''Bucks!', 'Action', 'Offense', 1, -1, -1, 'AUGMENT, AURA 3, +1B ATTACK');
-/*Nyahaha Taunt								--Index 2232*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0 Custom', 'Default', 'Nyahaha Taunt', 'Action', 'Offense', 1, -1, 3, 'RANGE 3, COMPEL 3, WILL vs. WILL');
-/*Cap'n's Grog								--Index 2233*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0 Custom', 'Default', 'Cap''s Grog''', 'Potion', 'Support', 1, -1, 0, '+1B ARM, STURDY');
-
-/*Confetti Bomb								--Index 2234*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0 Custom', 'Default', 'Confetti Bomb', 							'Action', 'Support', 1, -1, 8, 'MISSILE 8, BURST 1, SMOKE');
-/*Super-Sticky-Double-Bubble Bubble-Gum		--Index 2235*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0 Custom', 'Default', 'Super-Sticky-Double-Bubble Bubble-Gum',	'Action', 'Support', 2, -1, -1, 'SPRAY 4, SLOW');
-/*Pinkie Cannon								--Index 2236*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0 Custom', 'Default', 'Pinkie Cannon',							'Action', 'Offense', 3, 0, -1, 'SPRAY 3');
-/*Pinkie Logic								--Index 2237*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0 Custom', 'Default', 'Pinkie Logic',							'Potion', 'Support', 1, -1, 0, 'Attacking models suffer PACIFY');
-
-/*Aura of Love								--Index 2238*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0 Custom', 'Default', 'Aura of Love',							'Action', 'Support', 2, -1, -1, '+1R WILL, WAVE 2, PACIFY');
-/*The Power of Love							--Index 2239*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0 Custom', 'Default', 'The Power of Love',						'Action', 'Support', 1, -1, -1, 'AUGMENT, AURA 1, HEAL 1, REMEDY');
-/*Loving Care								--Index 2240*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0 Custom', 'Default', 'Loving Care',								'Potion', 'Support', 1, -1, 0, '+1R ARM, HEAL 1');
-
-/*Double Dash								--Index 2241*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0 Custom', 'Default', 'Aura of Love',							'Action', 'Support', 1, -1, 0, '+1MO');
-/*Sonic Rainbow								--Index 2242*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0 Custom', 'Default', 'The Power of Love',						'Action', 'Offense', 3, 0, -1, 'SWEEP 3, DANGEROUS, DEX vs. ARM, Overhead');
-/*Twenty Percent Cooler						--Index 2243*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0 Custom', 'Default', 'Loving Care',								'Potion', 'Support', 1, -1, 0, '+1B');
-
-/*Defensive Ball Curl						--Index 2244*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0 Custom', 'Default', 'Defensive Ball Curl',						'Action', 'Support', 1, -1, 0, 'AUGMENT +2 ARM');
-/*Puncturing Taunt							--Index 2245*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0 Custom', 'Default', 'Puncturing Taunt',						'Action', 'Support', 2, -1, -1, 'All enemies adjacent to Rammus must attack Rammus.  Enemies that attack Rammus take a 1R damage roll.');
-
-/*Rought Cut								--Index 2246*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0 Custom', 'Default', 'Rought Cut',								'Action', 'Support', 1, 3, 8, 'MAGIC 8, DIFFICULT TERRAIN');
-/*Crystalize								--Index 2247*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0 Custom', 'Default', 'Crystalize',								'Action', 'Support', 2, 3, 8, 'MAGIC 8, FORM CRYSTAL');
-/*Shatter									--Index 2248*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0 Custom', 'Default', 'Shatter',									'Action', 'Offense', 1, 3, 8, 'MAGIC 8, BURST 1, SHATTER');
-/*Crystal Armour							--Index 2249*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0 Custom', 'Default', 'Crystal Armour',							'Potion', 'Support', 1, -1, 0, '+1ST ARM');
-
-/*Disarm									--Index 2250*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0 Custom', 'Default', 'Disarm',									'Action', 'Offense', 2, 0, -1, '+1R ATT, WEAK');
-/*Lunge										--Index 2251*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0 Custom', 'Default', 'Lunge',									'Action', 'Offense', 1, 0, 8, '+1G ATT, FRAGILE');
-/*Hero's Sacrifice							--Index 2252*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0 Custom', 'Default', 'Hero''s Sacrifice',						'Potion', 'Support', 1, -1, -1, 'Remove a wound counter from a Hero and add a wound counter to affected Hero');
-
-/*Hardened Scales							--Index 2253*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0 Custom', 'Default', 'Hardened Scales',							'Action', 'Support', 2, -1, 0, 'On defense rolls, rolls an extra 1B');
-/*Flame Breath								--Index 2254*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0 Custom', 'Default', 'Flame Breath',							'Potion', 'Support', 1, 0, 10, 'RANGE 10, DANGEROUS');
-
-/*Lunging Slash								--Index 2255*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0 Custom', 'Default', 'Lunging Slash',							'Action', 'Offense', 1, 0, -1, 'LANCE 3');
-/*Vorpal Strike								--Index 2256*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0 Custom', 'Default', 'Vorpal Strike',							'Action', 'Offense', 3, 0, 1, '+1G ATT, MASSIVE DAMAGE');
-/*Invulnerable								--Index 2257*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0 Custom', 'Default', 'Invulnerable',							'Potion', 'Support', 1, -1, 0, 'IMMUNE: STATUS EFFECTS, REMEDY');
-
-/*Fend										--Index 2258*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0 Custom', 'Default', 'Fend',									'Action', 'Offense', 2, 0, -1, 'CROSS 1, KNOCKDOWN');
-/*Lightning Fury							--Index 2259*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0 Custom', 'Default', 'Lightning Fury',							'Action', 'Offense', 2, 4, -1, 'MISSILE 6, SPRAY 3, +1B DEX.  The Spray effect only occurs if the model targeted is wounded and the area affected starts with the square the targeted model is on.');
-/*Dinosaur Eggs								--Index 2260*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0 Custom', 'Default', 'Dinosaur Eggs',							'Potion', 'Support', 1, -1, 0, 'DODGE');
-
-/*Telekinesis								--Index 2261*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0 Custom', 'Default', 'Telekinesis',								'Action', 'Support', 1, -1, 8, 'COMPEL 3');
-/*Friend Zone								--Index 2262*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0 Custom', 'Default', 'Friend Zone',								'Action', 'Support', 3, -1, 8, 'AUGMENT, BURST 1, HEAL 1');
-/*Twilight Sparkleburst						--Index 2263*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0 Custom', 'Default', 'Twilight Sparkleburst',					'Action', 'Offense', 3, 3, 8, 'BURST 1');
-/*Studious									--Index 2264*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0 Custom', 'Default', 'Studious',								'Potion', 'Support', 1, -1, 0, 'LUCK');
-
-/*The Wolf									--Index 2265*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0 Custom', 'Default', 'Wolf, The',								'Action', 'Offense', 3, 0, -1, 'After every square you move this turn you can make one melee attack.  Each attack after the first adds an additional 1B to the dice roll.  You cannot step in the same square twice.  Your ARM is reduced to 1B until next activation irrespective of equipment.  Auras still take affect however.<br><br>The Wolf cannot use potions, but can benefit from the effect of other''s potions.');
-
-/*Toxic Breath								--Index 2266*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0 Custom', 'Explore', 'Toxic Breath',							'Action', 'Offense', 2, 0, -1, 'SPRAY 3, POISON');
-/*Chomp										--Index 2267*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0 Custom', 'Explore', 'Chomp',									'Action', 'Offense', 2, 0, 1, '+1G MASSIVE DAMAGE');
-
-/*Wirlwind of Bones							--Index 2268*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0 Custom', 'Explore', 'Wirlwind of Bones',						'Action', 'Support', 1, -1, -1, 'AURA 4, RAISE');
-/*Powerball									--Index 2269*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0 Custom', 'Explore', 'Powerball',								'Action', 'Offense', 1, 3, 6, '+1R WILL');
-/*Now You Don't								--Index 2270*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0 Custom', 'Explore', 'Now You Don''t',							'Potion', 'Support', 1, -1, 0, 'TELEPORT');
-
-/*Big Bash									--Index 2271*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0 Custom', 'Explore', 'Big Bash',								'Action', 'Offense', 2, 0, 2, '+1G ATT, MASSIVE DAMAGE');
-/*Strangle Hold								--Index 2272*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0 Custom', 'Explore', 'Strangle Hold',							'Action', 'Offense', 2, 0, 2, 'IMMOBILE, WEAK');
-
-/*Chaos Hammer								--Index 2273*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0 Custom', 'Explore', 'Chaos Hammer',							'Action', 'Offense', 2, 0, -1, 'SWEEP 2, KNOCKDOWN');
-/*Boom										--Index 2274*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0 Custom', 'Explore', 'Boom',									'Action', 'Offense', 3, 0, 2, '+1R ATT, MASSIVE DAMAGE');
-
-/*Precision Cut								--Index 2275*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0 Custom', 'Explore', 'Precision Cut',							'Action', 'Offense', 2, 4, 1, '+1B DEX, MASSIVE DAMAGE');
-/*Ice Blade									--Index 2276*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0 Custom', 'Explore', 'Ice Blade',								'Action', 'Offense', 2, 0, 1, '+1B ATT, IMMOBILE');
-/*War Cry									--Index 2277*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0 Custom', 'Explore', 'War Cry',									'Action', 'Support', 2, -1, -1, 'AUGMENT, AURA 1, +1R ATT');
-/*Spoils of War								--Index 2278*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0 Custom', 'Explore', 'Spoils of War',							'Action', 'Support', 2, -1, 0, 'Draw and equip 1 Relic card.');
-
-/*Fire Breath								--Index 2279*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0 Custom', 'Explore', 'Fire Breath',								'Action', 'Offense', 2, 0, -1, 'SWEEP 4, FIRE');
-/*Butt Stomp								--Index 2280*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0 Custom', 'Explore', 'Butt Stomp',								'Action', 'Offense', 2, 0, -1, 'WAVE 2, PUSH 1, KNOCKDOWN');
-
-/*Shapeshift: Brown Wizard					--Index 2281*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0 Custom', 'Explore', 'Shapeshift: Brown Wizard',				'Action', 'Support', 1, -1, 0, 'Remove both Brown Boar models from the board, and place the Brown Wizard model within 1 square of where either Brown Boar was before it was removed.');
-/*Tusks										--Index 2282*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0 Custom', 'Explore', 'Tusks',									'Action', 'Offense', 2, 0, 1, '+1G ATT, FRAGILE');
-
-/*Shapeshift: Brown Boars					--Index 2283*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0 Custom', 'Explore', 'Shapeshift: Brown Boars',					'Action', 'Support', 1, -1, 0, 'Remove the Brown Wizard model from the board, and place both Brown Boar models where or adjacent to where the Brown Wizard model was.');
-/*Spectral Bats								--Index 2284*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0 Custom', 'Explore', 'Spectral Bats',							'Action', 'Offense', 2, 3, 8, 'MAGIC 8, BURST 5');
-/*Spitting Cobra							--Index 2285*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0 Custom', 'Explore', 'Spitting Cobra',							'Action', 'Offense', 2, 3, -1, 'MAGIC, LANCE 8');
-/*Disorientate								--Index 2286*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0 Custom', 'Explore', 'Disorientate',							'Action', 'Offense', 3, 3, 6, 'MAGIC 6.  Status Effect: Enemy can only move diagonally.');
-
-/*Dual Weapons								--Index 2287*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0 Custom', 'Explore', 'Dual Weapons',							'Action', 'Offense', 2, 0, -1, 'WAVE 1 ATT');
-/*Lightning									--Index 2288*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0 Custom', 'Explore', 'Lightning',								'Action', 'Offense', 1, 4, 8, 'BURST 1 DEX');
-/*Extreme Aggression						--Index 2289*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0 Custom', 'Explore', 'Extreme Aggression',						'Action', 'Offense', 2, 0, -1, 'SWEEP 2');
-
-/*Charge									--Index 2290*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0 Custom', 'Explore', 'Charge',									'Action', 'Offense', 2, 0, -1, '(Only if have moved more than/equal to half speed i.e. 5 spaces) KNOCKDOWN');
-/*Lightning									--Index 2291*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0 Custom', 'Explore', 'Lightning',								'Action', 'Offense', 1, 4, 8, 'BURST 1');
-/*Backstab									--Index 2292*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0 Custom', 'Explore', 'Backstab',								'Action', 'Offense', 3, 0, 1, 'MASSIVE DAMAGE +1B ATT');
-
-/*Red Dragon								--Index 2293*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0 Custom', 'Explore', 'Red Dragon',								'Action', 'Offense', 1, 0, -1, 'LANCE 6, FIRE');
-/*Blue Dragon								--Index 2294*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0 Custom', 'Explore', 'Blue Dragon',								'Action', 'Offense', 2, 0, -1, 'CROSS 5, STUN');
-/*Green Dragon								--Index 2295*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0 Custom', 'Explore', 'Green Dragon',							'Action', 'Offense', 2, 0, -1, 'SPRAY 3, POISON');
-/*Black Dragon								--Index 2296*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0 Custom', 'Explore', 'Black Dragon',							'Action', 'Offense', 1, 0, -1, 'BURST 1, FRAGILE');
-/*White Dragon								--Index 2297*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0 Custom', 'Explore', 'White Dragon',							'Action', 'Offense', 2, 0, -1, 'SPRAY 4, COLD');
-
-/*Spin Attack								--Index 2298*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0 Custom', 'Explore', 'Spin Attack',								'Action', 'Offense', 1, 0, -1, 'Sweep');
-/*Summon Rabite								--Index 2299*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0 Custom', 'Explore', 'Summon Rabite',							'Action', 'Support', 1, 3, -1, 'Roll WILL, if at least 1 star is rolled, place a Rabit adjacent to Rabbillion.');
-
-/*Chomp										--Index 2300*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0 Custom', 'Explore', 'Chomp',									'Action', 'Offense', 1, 0, 1, '+1R');
-
-/*Shieldwall								--Index 2301*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0 Custom', 'Explore', 'Shieldwall',								'Action', 'Support', 1, -1, 0, 'AUGMENT, AURA 1, +1B ARM');
-
-/*Stand Ready!								--Index 2302*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0 Custom', 'Explore', 'Stand Ready!',							'Action', 'Support', 1, -1, 1, 'The Slime is ready to combine.  If four slimes are adjacent to each other and have used this Action, remove them from play and replace them with a Dukeslime, which is activated immediately.');
-
-/*Absorb									--Index 2303*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0 Custom', 'Explore', 'Absorb',									'Action', 'Support', 1, -1, 1, 'Steal');
-
-/*Slime Time								--Index 2304*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0 Custom', 'Explore', 'Slime Time',								'Action', 'Support', 1, -1, -1, 'AUGMENT, AURA 3, +1 ARM to Slimes');
-/*Puff Up!									--Index 2305*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0 Custom', 'Explore', 'Puff Up!',								'Action', 'Offense', 2, 0, -1, 'Sweep 1, KNOCKDOWN');
-
-/*Heal										--Index 2306*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0 Custom', 'Explore', 'Heal',									'Action', 'Support', 1, -1, 3, 'RANGE 3, HEAL 1');
-
-/*Frizz										--Index 2307*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0 Custom', 'Explore', 'Frizz',									'Action', 'Offense', 1, 3, 6, 'MAGIC 6, FIRE, +1B WILL');
-
-/*Explode									--Index 2308*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0 Custom', 'Explore', 'Explode',									'Action', 'Offense', 2, 0, -1, 'WAVE 2, +1G ATT, destroy Bob-omb.  Remove the model from the map, but do not advance the Power Gauge.');
-
-/*Head Bonk									--Index 2309*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0 Custom', 'Explore', 'Head Bonk',								'Action', 'Offense', 2, 0, 2, 'REACH 2, +1B');
-
-/*Shell Toss								--Index 2310*/ 		insert into Abilities (AbilityVersion, PlayMode, Name, AbilityResource, AbilityType, AbilityCost, AttributeIndex, AbilityRange, AbilityDescription) VALUES ('1.0 Custom', 'Explore', 'Shell Toss',								'Action', 'Offense', 2, 0, -1, 'LANCE 4');
-
---SDE
---1.0 Custom
 --Heroes
 
 
@@ -255,10 +13,10 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Applejack is dependable and loyal, always willing to help anybody in need.  She lives and works at Sweet Apple Acres and represents the element of honesty.');
 insert into Characters (CardIndex) VALUES (2289);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (798, 142); --Tough
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (798, 2170); --Buckaroo
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (798, 2171); --Stampede
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (798, 2172); --Haymaker
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (798, 2173); --Applesauce
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (798, 2080); --Buckaroo
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (798, 2081); --Stampede
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (798, 2082); --Haymaker
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (798, 2083); --Applesauce
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 1137, 
 'http://htkb.info/Common/Standies/My_Little_Pony/Apple_Jack.png', 
@@ -282,10 +40,10 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 '');
 insert into Characters (CardIndex) VALUES (2290);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (799, 63); --Immune: Weak
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (799, 2174); --Mistwalker
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (799, 2175); --Lunar Blade
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (799, 2176); --Second Wind
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (799, 2177); --Talent Blaster
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (799, 2084); --Mistwalker
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (799, 2085); --Lunar Blade
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (799, 2086); --Second Wind
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (799, 2087); --Talent Blaster
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 1138, 
 'http://htkb.info/Common/Standies/Avenging_Samurai.png', 
@@ -332,9 +90,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'As Captain of the Royal Guard, Diva''s chief duty is rescuing Prince Aaron when he charges off alone on another foolish quest.');
 insert into Characters (CardIndex) VALUES (2291);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (801, 134); --Sturdy
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (801, 2178); --Stand Fast!
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (801, 2179); --Smite
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (801, 2180); --Anesthesia
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (801, 2088); --Stand Fast!
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (801, 2089); --Smite
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (801, 2090); --Anesthesia
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 1140, 
 'http://htkb.info/Common/Standies/Arcadia_Quest/Diva_Royal_Guard.png', 
@@ -359,10 +117,10 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (2291);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (801, 32); --Fire
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (801, 54); --Immune: Fire
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (801, 2181); --Summoning
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (801, 2182); --Direct
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (801, 2183); --Bolster
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (801, 2184); --Coals
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (801, 2091); --Summoning
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (801, 2092); --Direct
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (801, 2093); --Bolster
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (801, 2094); --Coals
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 1140, 
 'http://htkb.info/Common/Standies/Arcadia_Quest/Dragonmaster.png', 
@@ -388,10 +146,10 @@ insert into Characters (CardIndex) VALUES (2292);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (802, 56); --Immune: Immobile
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (802, 29); --Dodge
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (802, 1126); --Seductress
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (802, 2181); --Sexy Dance
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (802, 2182); --Kaleidoscope
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (802, 2183); --Whirling Dervish
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (802, 2184); --Caffeine Pills
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (802, 2095); --Sexy Dance
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (802, 2096); --Kaleidoscope
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (802, 2097); --Whirling Dervish
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (802, 2098); --Caffeine Pills
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 1141, 
 'http://htkb.info/Common/Standies/Arcadia_Quest/Dragonmaster.png', 
@@ -416,9 +174,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (2293);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (803, 36); --Fly
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (803, 38); --Fragile
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (803, 2181); --Finding Strays
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (803, 2182); --Can I Keep Him?
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (803, 2183); --Liquid Courage
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (803, 2117); --Finding Strays
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (803, 2118); --Can I Keep Him?
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (803, 2119); --Liquid Courage
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 1142, 
 'http://htkb.info/Common/Standies/My_Little_Pony/Fluttershy.png', 
@@ -443,9 +201,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (2294);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (804, 59); --Immune: Poison
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (804, 104); --Reach 2
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (804, 2181); --I am NOT a man!
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (804, 2182); --Wanna Wrassle?
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (804, 2183); --Kegus Universalis
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (804, 2120); --I am NOT a man!
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (804, 2121); --Wanna Wrassle?
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (804, 2122); --Kegus Universalis
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 1143, 
 'http://htkb.info/Common/Standies/Frostbyte_Warrior.png', 
@@ -471,9 +229,9 @@ insert into Characters (CardIndex) VALUES (2295);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (805, 41); --Healer
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (805, 103); --Range 8
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (805, 108); --Shapeshift
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (805, 2182); --Subdue
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (805, 2183); --Supressing Fire
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (805, 2183); --Sunburst
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (805, 2123); --Subdue
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (805, 2124); --Supressing Fire
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (805, 2125); --Sunburst
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 1144, 
 'http://htkb.info/Common/Standies/Arcadia_Quest/Glauerdoom_Hunter.png', 
@@ -498,9 +256,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (2296);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (806, 41); --Healer
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (806, 103); --Swarm
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (806, 2182); --Takedown
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (806, 2183); --Sunder
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (806, 2183); --Styigan Root
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (806, 2126); --Takedown
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (806, 2127); --Sunder
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (806, 2128); --Styigan Root
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 1145, 
 'http://htkb.info/Common/Standies/Arcadia_Quest/Guild_Swordsman.png', 
@@ -525,10 +283,10 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (2297);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (807, 54); --Immune: Fire
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (807, 142); --Tough
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (807, 2219); --Sword of Vulcanis
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (807, 2220); --Shield Smash
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (807, 2221); --Heroic Scream
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (807, 2222); --Elixir of Fire
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (807, 2129); --Sword of Vulcanis
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (807, 2130); --Shield Smash
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (807, 2131); --Heroic Scream
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (807, 2132); --Elixir of Fire
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 1146, 
 'http://htkb.info/SDE/Standies/Alternate/Herald_of_Vulcanis.png', 
@@ -603,10 +361,10 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (2300);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (810, 104); --Reach 2
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (810, 52); --Immune: Choke
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (810, 2223); --Lotus Blossom
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (810, 2224); --Chakra Blast
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (810, 2225); --Instant Karma
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (810, 2226); --Inner Peace
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (810, 2133); --Lotus Blossom
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (810, 2134); --Chakra Blast
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (810, 2135); --Instant Karma
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (810, 2136); --Inner Peace
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 1149, 
 'http://htkb.info/Common/Standies/Lotus_Temple_Monk.png', 
@@ -631,10 +389,10 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (2301);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (811, 79); --Magic 8
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (811, 23); --Cold
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (811, 2227); --Arcane Fury
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (811, 2228); --Blizzard
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (811, 2229); --Freeze the Heartblood
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (811, 2230); --Ice Queen
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (811, 2137); --Arcane Fury
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (811, 2138); --Blizzard
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (811, 2139); --Freeze the Heartblood
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (811, 2140); --Ice Queen
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 1150, 
 'http://htkb.info/Common/Standies/Arcadia_Quest/Maya_Ice_Mage.png', 
@@ -659,9 +417,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (2302);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (812, 29); --Dodge
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (812, 135); --Surefoot
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (812, 2231); --Swash th'Bucks!
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (812, 2232); --Nyahaha Taunt
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (812, 2233); --Cap'n's Grog
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (812, 2141); --Swash th'Bucks!
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (812, 2142); --Nyahaha Taunt
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (812, 2143); --Cap'n's Grog
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 1151, 
 'http://htkb.info/Common/Standies/Nekkoneer_Captain.png', 
@@ -685,10 +443,10 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Pinkie is energetic and sociable, and she represents the element of laughter.  She works at Sugarcube Corner and lives on the bakery''s second floor with Gummy, her pet toothless baby alligator.');
 insert into Characters (CardIndex) VALUES (2303);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (813, 79); --Magic 8
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (813, 2234); --Confetti Bomb
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (813, 2235); --Super-Sticky-Double-Bubble Bubble-Gum
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (813, 2236); --Pinkie Cannon
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (813, 2237); --Pinkie Logic
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (813, 2144); --Confetti Bomb
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (813, 2145); --Super-Sticky-Double-Bubble Bubble-Gum
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (813, 2146); --Pinkie Cannon
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (813, 2147); --Pinkie Logic
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 1152, 
 'http://htkb.info/Common/Standies/My_Little_Pony/Pinkie_Pie.png', 
@@ -714,9 +472,9 @@ insert into Characters (CardIndex) VALUES (2304);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (814, 79); --Magic 6
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (814, 36); --Fly
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (814, 29); --Dodge
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (814, 2238); --Aura of Love
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (814, 2239); --The Power of Love
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (814, 2240); --Loving Care
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (814, 2148); --Aura of Love
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (814, 2149); --The Power of Love
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (814, 2150); --Loving Care
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 1153, 
 'http://htkb.info/Common/Standies/My_Little_Pony/Princess_Cadance.png', 
@@ -740,9 +498,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Rainbow Dash is responsible for maintaining the weather and clearing the skies in Ponyville.  As a huge fan of the Wonderbolts, she dreams of one day joining their group.');
 insert into Characters (CardIndex) VALUES (2305);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (815, 36); --Fly
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (815, 2238); --Double Dash
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (815, 2239); --Sonic Rainbow
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (815, 2240); --Twenty Percent Cooler
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (815, 2151); --Double Dash
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (815, 2152); --Sonic Rainbow
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (815, 2153); --Twenty Percent Cooler
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 1154, 
 'http://htkb.info/Common/Standies/My_Little_Pony/Rainbow_Dash.png', 
@@ -767,8 +525,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (2306);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (816, 36); --Tank
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (816, 57); --Immune: Knockdown
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (816, 2238); --Defensive Ball Curl
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (816, 2239); --Puncturing Taunt
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (816, 2154); --Defensive Ball Curl
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (816, 2155); --Puncturing Taunt
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 1155, 
 'http://htkb.info/Common/Standies/LOL/Rammus.png', 
@@ -792,10 +550,10 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Rarity is the older sister of Sweetie Belle and the love interest of Spike.  Rarity works as both a fashion designer and as a seamstress at her own shop in Ponyville, the Carousel Boutique.');
 insert into Characters (CardIndex) VALUES (2307);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (817, 79); --Magic 8
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (817, 2238); --Rought Cut
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (817, 2239); --Crystalize
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (817, 2239); --Shatter
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (817, 2239); --Crystal Armour
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (817, 2156); --Rought Cut
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (817, 2157); --Crystalize
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (817, 2158); --Shatter
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (817, 2159); --Crystal Armour
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 1156, 
 'http://htkb.info/Common/Standies/My_Little_Pony/Rarity.png', 
@@ -820,9 +578,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (2308);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (818, 26); --Dangerous
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (818, 71); --Lance 2
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (818, 2250); --Disarm
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (818, 2251); --Lunge
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (818, 2252); --Hero's Sacrifice
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (818, 2160); --Disarm
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (818, 2161); --Lunge
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (818, 2162); --Hero's Sacrifice
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 1157, 
 'http://htkb.info/Common/Standies/Fate/Saber_Chibi.png', 
@@ -847,9 +605,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (2309);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (819, 26); --Dangerous
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (819, 71); --Lance 2
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (819, 2250); --Disarm
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (819, 2251); --Lunge
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (819, 2252); --Hero's Sacrifice
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (819, 2160); --Disarm
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (819, 2161); --Lunge
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (819, 2162); --Hero's Sacrifice
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 1158, 
 'http://htkb.info/Common/Standies/Fate/Saber_Chibi.png', 
@@ -902,8 +660,8 @@ insert into Characters (CardIndex) VALUES (2311);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (821, 36); --Fly
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (821, 142); --Tough
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (821, 54); --Immune: Fire
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (821, 2253); --Hardened Scales
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (821, 2254); --Flame Breath
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (821, 2163); --Hardened Scales
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (821, 2164); --Flame Breath
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 1160, 
 'http://htkb.info/Common/Standies/Sirdan.png', 
@@ -928,9 +686,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (2312);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (822, 29); --Dodge
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (822, 142); --Tough
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (822, 2255); --Lunging Slash
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (822, 2256); --Vorpal Strike
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (822, 2257); --Invulnerable
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (822, 2165); --Lunging Slash
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (822, 2166); --Vorpal Strike
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (822, 2167); --Invulnerable
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 1161, 
 'http://htkb.info/Common/Standies/Arcadia_Quest/Sonya_Giantslayer.png', 
@@ -955,9 +713,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (2313);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (823, 135); --Surefoot
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (823, 142); --Tough
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (823, 2255); --Fend
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (823, 2256); --Lightning Fury
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (823, 2257); --Dinosaur Eggs
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (823, 2168); --Fend
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (823, 2169); --Lightning Fury
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (823, 2170); --Dinosaur Eggs
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 1162, 
 'http://htkb.info/Common/Standies/Stormgale_Amazon.png', 
@@ -981,10 +739,10 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Twilight Sparkle is a celestial pony and lives in Golden Oak Library with Spike, her friend and assistant.  She moved from Canterlot to Ponyville to study the magic of friendship and represents the element of magic.');
 insert into Characters (CardIndex) VALUES (2314);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (824, 79); --Magic 8
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (824, 2262); --Telekinesis
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (824, 2263); --Friend Zone
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (824, 2264); --Twilight Sparkleburst
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (824, 2265); --Studious
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (824, 2171); --Telekinesis
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (824, 2172); --Friend Zone
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (824, 2173); --Twilight Sparkleburst
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (824, 2174); --Studious
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 1163, 
 'http://htkb.info/Common/Standies/My_Little_Pony/Twighlight_Sparkle.png', 
@@ -1007,7 +765,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Hero', '1.0 Custom', '1.0 Custom Set', 'Default', 
 'Twilight Sparkle is a celestial pony and lives in Golden Oak Library with Spike, her friend and assistant.  She moved from Canterlot to Ponyville to study the magic of friendship and represents the element of magic.');
 insert into Characters (CardIndex) VALUES (2315);
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (825, 2265); --The Wolf
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (825, 2175); --The Wolf
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 1164, 
 'http://htkb.info/Common/Standies/My_Little_Pony/Twighlight_Sparkle.png', 
@@ -1043,8 +801,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 '');
 insert into Characters (CardIndex) VALUES (2316);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (826, 59); --Immune: Poison
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (826, 50); --Toxic Breath
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (826, 34); --Chomp
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (826, 2176); --Toxic Breath
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (826, 2177); --Chomp
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (1165,
 'http://htkb.info/Common/Standies/Green_Dragon.png', 
@@ -1071,9 +829,9 @@ insert into Characters (CardIndex) VALUES (2317);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (827, 79); --Magic 6
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (827, 23); --Cold
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (827, 91); --Potion 1
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (827, 2268); --Wirlwind of Bones
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (827, 2269); --Powerball
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (827, 2270); --Now You Don't
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (827, 2178); --Wirlwind of Bones
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (827, 2179); --Powerball
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (827, 2180); --Now You Don't
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (1166,
 'http://htkb.info/Common/Standies/Impact_Miniatures/King_Diamond.png', 
@@ -1100,8 +858,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (2318);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (828, 7); --Berserk
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (828, 104); --Reach 2
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (828, 2271); --Big Bash
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (828, 2272); --Strangle Hold
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (828, 2181); --Big Bash
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (828, 2182); --Strangle Hold
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (1167,
 'http://htkb.info/Common/Standies/Impact_Miniatures/Ralph.png', 
@@ -1127,8 +885,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (2319);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (829, 7); --Berserk
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (829, 104); --Reach 2
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (829, 2273); --Chaos Hammer
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (829, 2274); --Boom
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (829, 2183); --Chaos Hammer
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (829, 2184); --Boom
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (1168,
 'http://htkb.info/SDE/Standies/Alternate/Star_Guild_Sapper.png', 
@@ -1153,10 +911,10 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 '');
 insert into Characters (CardIndex) VALUES (2319);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (829, 7); --Tough
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (829, 2275); --Precision Cut
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (829, 2276); --Ice Blade
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (829, 2277); --War Cry
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (829, 2278); --Spoils of War
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (829, 2185); --Precision Cut
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (829, 2186); --Ice Blade
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (829, 2187); --War Cry
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (829, 2188); --Spoils of War
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (1168,
 'http://htkb.info/Common/Standies/Impact_Miniatures/Wardude.png', 
@@ -1190,8 +948,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (2321);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (831, 54); --Immune: Fire
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (831, 63); --Immune: Weak
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (831, 2279); --Fire Breath
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (831, 2280); --Butt Stomp
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (831, 2189); --Fire Breath
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (831, 2190); --Butt Stomp
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 1170,
 'http://htkb.info/Common/Standies/SMB/Bowser.png', 
@@ -1217,8 +975,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (2322);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (832, 83); --Mob
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (832, 1142); --Split
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (832, 2279); --Shapeshift: Brown Wizard
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (832, 2280); --Tusks
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (832, 2191); --Shapeshift: Brown Wizard
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (832, 2192); --Tusks
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 1171,
 'http://htkb.info/Common/Standies/Brown_Boars.png', 
@@ -1242,10 +1000,10 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Boss', '1.0 Custom', '1.0 Custom Set', 'Explore',
 '');
 insert into Characters (CardIndex) VALUES (2323);
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (833, 2283); --Shapeshift: Brown Boars
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (833, 2284); --Spectral Bats
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (833, 2285); --Spitting Cobra
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (833, 2286); --Disorientate
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (833, 2193); --Shapeshift: Brown Boars
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (833, 2194); --Spectral Bats
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (833, 2195); --Spitting Cobra
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (833, 2196); --Disorientate
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 1172,
 'http://htkb.info/Common/Standies/Brown_Wizard.png', 
@@ -1271,9 +1029,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (2324);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (834, 1143); --Invulnerable
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (834, 82); --Missile 8
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (834, 2287); --Dual Weapons
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (834, 2288); --Lightning
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (834, 2289); --Extreme Aggression
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (834, 2197); --Dual Weapons
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (834, 2198); --Lightning
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (834, 2199); --Extreme Aggression
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 1173,
 'http://htkb.info/Common/Standies/Chaos_Warrior.png', 
@@ -1300,9 +1058,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (2325);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (835, 83); --Invulnerable
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (835, 1143); --Missile 8
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (835, 2290); --Charge
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (835, 2291); --Lightning
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (835, 2292); --Backstab
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (835, 2200); --Charge
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (835, 2201); --Lightning
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (835, 2202); --Backstab
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 1174,
 'http://htkb.info/Common/Standies/Chaos_Warrior_Mounted.png', 
@@ -1333,11 +1091,11 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (836
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (836, 90); --Poison
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (836, 38); --Fragile
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (836, 23); --Cold
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (836, 2293); --Red Dragon
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (836, 2294); --Blue Dragon
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (836, 2295); --Green Dragon
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (836, 2296); --Black Dragon
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (836, 2297); --White Dragon
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (836, 2203); --Red Dragon
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (836, 2204); --Blue Dragon
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (836, 2205); --Green Dragon
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (836, 2206); --Black Dragon
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (836, 2207); --White Dragon
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 1175,
 'http://htkb.info/Common/Standies/Chaos_Warrior.png', 
@@ -1392,8 +1150,8 @@ insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender
 'http://htkb.info/Common/Standies/Secret_of_Mana/Rabillion.png', 
 'http://htkb.info/Common/Standies/Secret_of_Mana/Rabillion_back.png', 
 'Either', 'Small', 'Beast', 7, 2, '2R', '2ST', '2B', '1R 1B', 2, 0);
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (837, 2298); --Spin Attack
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (837, 2299); --Summon Rabite
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (837, 2208); --Spin Attack
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (837, 2209); --Summon Rabite
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (837, 0, 1); --Attack
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (837, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (837, 'Denizen', '16 Bit', 2); 
@@ -1418,8 +1176,8 @@ insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender
 'http://htkb.info/Common/Standies/Secret_of_Mana/Rabite.png', 
 'http://htkb.info/Common/Standies/Secret_of_Mana/Rabite_back.png', 
 'Either', 'Small', 'Beast', 7, 1, '2B', '0ST', '2B', '1R 1B', 1, 0);
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (838, 2298); --Spin Attack
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (838, 2300); --Chomp
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (838, 2208); --Spin Attack
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (838, 2210); --Chomp
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (838, 0, 1); --Attack
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (838, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (838, 'Denizen', '8 Bit', 1); 
@@ -1444,7 +1202,7 @@ insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender
 'http://htkb.info/Common/Standies/Battle_Maid.png', 
 'http://htkb.info/Common/Standies/Battle_Maid_back.png', 
 'Either', 'Small', 'Housekeeping', 7, 2, '1B 1R', '2ST', '2B', '1R 1B', 1, 0);
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (839, 2301); --Shieldwall
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (839, 2211); --Shieldwall
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (839, 0, 1); --Attack
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (839, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (839, 'Minion', '8 Bit', 2); 
@@ -1495,7 +1253,7 @@ insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender
 'http://htkb.info/Common/Standies/Bounceslime_back.png', 
 'Either', 'Small', 'Slime', 6, 1, '3B', '0ST', '2B', '2B', 1, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (841, 1144); --GooBody
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (841, 2301); --Stand Ready!
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (841, 2212); --Stand Ready!
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (841, 0, 1); --Attack
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (841, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (841, 'Denizen', '8 Bit', 1); 
@@ -1520,7 +1278,7 @@ insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender
 'http://htkb.info/Common/Standies/Bubblie_back.png', 
 'Either', 'Small', 'Slime', 5, 1, '1R 2B', '0ST', '2B', '1R 1B', 1, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (842, 1144); --GooBody
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (842, 2301); --Stand Ready!
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (842, 2212); --Stand Ready!
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (842, 0, 1); --Attack
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (842, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (842, 'Denizen', '8 Bit', 1);
@@ -1544,7 +1302,7 @@ insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender
 'http://htkb.info/Common/Standies/Bubblie.png', 
 'http://htkb.info/Common/Standies/Bubblie_back.png', 
 'Either', 'Small', 'Slime', 6, 1, '2B', '1ST', '2B', '1R 1B', 1, 0);
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (843, 2301); --Absorb
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (843, 2213); --Absorb
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (843, 0, 1); --Attack
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (843, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (843, 'Denizen', 'Special', 1);
@@ -1569,8 +1327,8 @@ insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender
 'http://htkb.info/Common/Standies/Dukeslime_back.png', 
 'Either', 'Large', 'Slime', 5, 3, '2R 2B', '1ST', '1R 1B', '1B', 3, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (844, 1144); --GooBody
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (844, 2304); --Slime Time
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (844, 2305); --Puff Up!
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (844, 2214); --Slime Time
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (844, 2215); --Puff Up!
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (844, 0, 1); --Attack
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (844, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (844, 'Denizen', '16 Bit', 3);
@@ -1596,7 +1354,7 @@ insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender
 'Either', 'Small', 'Slime', 6, 2, '3B', '0ST', '1R 1B', '2B', 2, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (845, 1144); --GooBody
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (845, 36); --Fly
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (845, 2306); --Heal
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (845, 2216); --Heal
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (845, 0, 1); --Attack
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (845, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (845, 'Denizen', '8 Bit', 2);
@@ -1624,7 +1382,7 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (846
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (846, 134); --Sturdy
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (846, 1145); --Flee
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (846, 1146); --Shinies
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (846, 2306); --Frizz
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (846, 2217); --Frizz
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (846, 0, 1); --Attack
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (846, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (846, 'Special', '8 Bit', 2);
@@ -1674,7 +1432,7 @@ insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender
 'http://htkb.info/Common/Standies/SMB/Bob_Omb.png', 
 'http://htkb.info/Common/Standies/SMB/Bob_Omb_back.png', 
 'Neither', 'Small', 'Koopa', 4, 2, '1B', '1ST', '2B', '2B', 1, 0);
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (848, 2308); --Explode
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (848, 2218); --Explode
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (848, 0, 1); --Attack
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (848, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (848, 'Minion', '8 Bit', 2);
@@ -1699,7 +1457,7 @@ insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender
 'http://htkb.info/Common/Standies/SMB/Goomba_back.png', 
 'Either', 'Small', 'Koopa', 7, 2, '2B', '0ST', '1B', '2B', 1, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (849, 83); --Mob
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (849, 2306); --Head Bonk
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (849, 2219); --Head Bonk
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (849, 0, 1); --Attack
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (849, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (849, 'Minion', '8 Bit', 2);
@@ -1724,7 +1482,7 @@ insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender
 'http://htkb.info/Common/Standies/SMB/Koopa_Troopa_back.png', 
 'Either', 'Small', 'Koopa', 6, 2, '1B 1R', '2ST', '2B', '1B 1R', 2, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (846, 83); --Mob
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (846, 2310); --Shell Toss
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (846, 2220); --Shell Toss
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (846, 0, 1); --Attack
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (846, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (846, 'Minion', '8 Bit', 2);

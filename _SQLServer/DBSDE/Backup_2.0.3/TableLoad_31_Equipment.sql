@@ -13,7 +13,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (786, 'Character Treasure', 'Top', '');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (786, 1152); --Serving Size
---insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (786, abXXX); --Mystery Meat
+insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (786, 2244); --Mystery Meat
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (786, 1125); --Dread Scarlett: Explore
 insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (786, 1134); --Dread Scarlett: Arcade
 

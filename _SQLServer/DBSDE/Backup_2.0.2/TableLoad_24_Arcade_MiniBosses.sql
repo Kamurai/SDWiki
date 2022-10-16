@@ -18,8 +18,8 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1133, 4)
 --GangMemberIndex 871
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (801, 0, 'Jolly Sparrow', 'Human Pirate', 'MiniBoss', 6, 7, 3, 792);
---insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (871, kXXX); --Greed
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (871, 1167); --Greed
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (871, 794); --Parry
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (871, 1086); --Extra Powder
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (871, 2114); --Double Cross
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (871, 2156); --Boarding Action
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (871, 2024); --Double Cross
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (871, 2248); --Boarding Action

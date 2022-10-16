@@ -269,7 +269,8 @@ VALUES (1508, '',
 insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (28, 679); 
 
 --Testudo Tower     --CardIndex 1509   --BossSpawnIndex 29  
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Testudo Tower', 
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+'Testudo Tower', 
 'http://htkb.info/SDE/2.0/Cards/Boss_Spawns/Card_Boss_Spawn_Testudo_Tower_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Boss_Spawns/Card_Boss_Spawn_Testudo_Tower_2.0_back.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Boss_Spawns/Testudo_Tower.xhtml', 

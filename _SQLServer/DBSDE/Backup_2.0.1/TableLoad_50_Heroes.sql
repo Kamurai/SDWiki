@@ -21,10 +21,10 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (768
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (768, 544); --Defender
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (768, 728); --Massive Damage
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (768, 815); --Pounce
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (768, 2066); --Viper's Strike
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (768, 2057); --Night's Mercy, The
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (768, 2044); --At Your Back
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (768, 2062); --Tears of the Moon
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (768, 1976); --Viper's Strike
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (768, 1967); --Night's Mercy, The
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (768, 1954); --At Your Back
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (768, 1972); --Tears of the Moon
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (768, 1, 2); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (768, 2); --Armor
 
@@ -34,7 +34,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Dazzled_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Dazzled.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
-''); --!! unavailable !!
+'Bright Magic is a very serious magical pursuit.  It is not the Dazzled''s fault that it is very bright.  Very colorful.  Very sparkly.  And very exciting!  Most Dazzled don''t see very well anymore--all the more reason to make it even bigger and brighter!');
 insert into Characters (CardIndex) VALUES (2223);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1101, 4); --Sapphire
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
@@ -43,10 +43,10 @@ VALUES (1101,
 'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Dazzled_2.0_back.png',
 'Feminine', 'Small', 'Human', 6, 3, '3B', '3B', '3B', '2B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (769, 609); --Found A Shiny
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (769, 2060); --SparkleBOOM
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (769, 2050); --Fireworks
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (769, 2054); --Lights In Your Eyes
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (769, 2051); --Glitter Bomb
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (769, 1970); --SparkleBOOM
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (769, 1960); --Fireworks
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (769, 1964); --Lights In Your Eyes
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (769, 1961); --Glitter Bomb
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (769, 3, 8); --Will
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (769, 2); --Armor
 
@@ -67,10 +67,10 @@ VALUES (1102,
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (770, 596); --Fly
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (770, 1085); --Heart Attack
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (770, 662); --Hunger
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (770, 2061); --Taste of You, A
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (770, 2047); --Dance of the Dead, The
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (770, 2055); --Look Into My Eyes
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (770, 2048); --Essence of Vampire
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (770, 1971); --Taste of You, A
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (770, 1957); --Dance of the Dead, The
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (770, 1965); --Look Into My Eyes
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (770, 1958); --Essence of Vampire
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (770, 3, 3); --Will
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (770, 4, 2); --Dex
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (770, 2); --Armor
@@ -92,9 +92,9 @@ VALUES (1103,
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (771, 505); --Clever (Explore)
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (771, 506); --Clever (Arcade)
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (771, 713); --Leadership
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (771, 2063); --Textbook Curse
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (771, 2053); --Let's Discuss Our Plan
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (771, 2065); --Ultra Caffeinated Cramming Potion
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (771, 2056); --Memorized Healing Potion
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (771, 1973); --Textbook Curse
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (771, 1963); --Let's Discuss Our Plan
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (771, 1975); --Ultra Caffeinated Cramming Potion
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (771, 1966); --Memorized Healing Potion
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (771, 3, 4); --Will
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (771, 2); --Armor

@@ -18,8 +18,8 @@ insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender
 'http://htkb.info/Common/Standies/Secret_of_Mana/Rabillion.png', 
 'http://htkb.info/Common/Standies/Secret_of_Mana/Rabillion_back.png', 
 'Either', 'Small', 'Beast', 7, 2, '2R', '2ST', '2B', '1R 1B', 2, 0);
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (837, 2298); --Spin Attack
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (837, 2299); --Summon Rabite
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (837, 2208); --Spin Attack
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (837, 2209); --Summon Rabite
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (837, 0, 1); --Attack
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (837, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (837, 'Denizen', '16 Bit', 2); 
@@ -44,8 +44,8 @@ insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender
 'http://htkb.info/Common/Standies/Secret_of_Mana/Rabite.png', 
 'http://htkb.info/Common/Standies/Secret_of_Mana/Rabite_back.png', 
 'Either', 'Small', 'Beast', 7, 1, '2B', '0ST', '2B', '1R 1B', 1, 0);
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (838, 2298); --Spin Attack
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (838, 2300); --Chomp
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (838, 2208); --Spin Attack
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (838, 2210); --Chomp
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (838, 0, 1); --Attack
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (838, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (838, 'Denizen', '8 Bit', 1); 
@@ -70,7 +70,7 @@ insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender
 'http://htkb.info/Common/Standies/Battle_Maid.png', 
 'http://htkb.info/Common/Standies/Battle_Maid_back.png', 
 'Either', 'Small', 'Housekeeping', 7, 2, '1B 1R', '2ST', '2B', '1R 1B', 1, 0);
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (839, 2301); --Shieldwall
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (839, 2211); --Shieldwall
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (839, 0, 1); --Attack
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (839, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (839, 'Minion', '8 Bit', 2); 
@@ -121,7 +121,7 @@ insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender
 'http://htkb.info/Common/Standies/Bounceslime_back.png', 
 'Either', 'Small', 'Slime', 6, 1, '3B', '0ST', '2B', '2B', 1, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (841, 1144); --GooBody
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (841, 2301); --Stand Ready!
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (841, 2212); --Stand Ready!
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (841, 0, 1); --Attack
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (841, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (841, 'Denizen', '8 Bit', 1); 
@@ -146,7 +146,7 @@ insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender
 'http://htkb.info/Common/Standies/Bubblie_back.png', 
 'Either', 'Small', 'Slime', 5, 1, '1R 2B', '0ST', '2B', '1R 1B', 1, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (842, 1144); --GooBody
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (842, 2301); --Stand Ready!
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (842, 2212); --Stand Ready!
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (842, 0, 1); --Attack
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (842, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (842, 'Denizen', '8 Bit', 1);
@@ -170,7 +170,7 @@ insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender
 'http://htkb.info/Common/Standies/Bubblie.png', 
 'http://htkb.info/Common/Standies/Bubblie_back.png', 
 'Either', 'Small', 'Slime', 6, 1, '2B', '1ST', '2B', '1R 1B', 1, 0);
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (843, 2301); --Absorb
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (843, 2213); --Absorb
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (843, 0, 1); --Attack
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (843, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (843, 'Denizen', 'Special', 1);
@@ -195,8 +195,8 @@ insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender
 'http://htkb.info/Common/Standies/Dukeslime_back.png', 
 'Either', 'Large', 'Slime', 5, 3, '2R 2B', '1ST', '1R 1B', '1B', 3, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (844, 1144); --GooBody
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (844, 2304); --Slime Time
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (844, 2305); --Puff Up!
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (844, 2214); --Slime Time
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (844, 2215); --Puff Up!
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (844, 0, 1); --Attack
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (844, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (844, 'Denizen', '16 Bit', 3);
@@ -222,7 +222,7 @@ insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender
 'Either', 'Small', 'Slime', 6, 2, '3B', '0ST', '1R 1B', '2B', 2, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (845, 1144); --GooBody
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (845, 36); --Fly
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (845, 2306); --Heal
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (845, 2216); --Heal
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (845, 0, 1); --Attack
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (845, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (845, 'Denizen', '8 Bit', 2);
@@ -250,7 +250,7 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (846
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (846, 134); --Sturdy
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (846, 1145); --Flee
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (846, 1146); --Shinies
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (846, 2306); --Frizz
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (846, 2217); --Frizz
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (846, 0, 1); --Attack
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (846, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (846, 'Special', '8 Bit', 2);
@@ -300,7 +300,7 @@ insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender
 'http://htkb.info/Common/Standies/SMB/Bob_Omb.png', 
 'http://htkb.info/Common/Standies/SMB/Bob_Omb_back.png', 
 'Neither', 'Small', 'Koopa', 4, 2, '1B', '1ST', '2B', '2B', 1, 0);
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (848, 2308); --Explode
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (848, 2218); --Explode
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (848, 0, 1); --Attack
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (848, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (848, 'Minion', '8 Bit', 2);
@@ -325,7 +325,7 @@ insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender
 'http://htkb.info/Common/Standies/SMB/Goomba_back.png', 
 'Either', 'Small', 'Koopa', 7, 2, '2B', '0ST', '1B', '2B', 1, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (849, 83); --Mob
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (849, 2306); --Head Bonk
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (849, 2219); --Head Bonk
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (849, 0, 1); --Attack
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (849, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (849, 'Minion', '8 Bit', 2);
@@ -350,7 +350,7 @@ insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender
 'http://htkb.info/Common/Standies/SMB/Koopa_Troopa_back.png', 
 'Either', 'Small', 'Koopa', 6, 2, '1B 1R', '2ST', '2B', '1B 1R', 2, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (846, 83); --Mob
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (846, 2310); --Shell Toss
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (846, 2220); --Shell Toss
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (846, 0, 1); --Attack
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (846, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (846, 'Minion', '8 Bit', 2);

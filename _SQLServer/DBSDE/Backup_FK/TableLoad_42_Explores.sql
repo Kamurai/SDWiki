@@ -814,8 +814,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Utilities (CardIndex, UtilityDescription) VALUES (723, '2ST, 2x2, Place affected Heroes adjacent to the start marker.  Place affected monsters adjacent to the nearest spawning point.');
 insert into Explores (UtilityIndex) VALUES (74);
 insert into ExploreCreeps (ExploreIndex, CreepNumber) VALUES (56, 0);
---insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (56, chXXX);	--Testudo Tower: Explore
---insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (56, chXXX);	--Testudo Tower: Arcade
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (56, 680);	--Testudo Tower: Explore
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (56, 960);	--Testudo Tower: Arcade
 
 
 --Bomb Flower	--CardIndex 724	--UtilityIndex 75	--ExploreIndex 57	--ExploreCreepIndex	--ExploreTrapIndex
@@ -829,8 +829,8 @@ insert into Utilities (CardIndex, UtilityDescription) VALUES (724, 'Discard duri
 insert into Explores (UtilityIndex) VALUES (75);
 insert into ExploreCreeps (ExploreIndex, CreepNumber) VALUES (57, 3);
 insert into AbilityAssignments (ExploreTrapIndex, AbilityIndex) VALUES (57, 308);--Explode
---insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (57, chXXX);	--Testudo Tower: Explore
---insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (57, chXXX);	--Testudo Tower: Arcade
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (57, 680);	--Testudo Tower: Explore
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (57, 960);	--Testudo Tower: Arcade
 
 
 --Bumper Shells	--CardIndex 725	--UtilityIndex 76	--ExploreIndex 58	--ExploreCreepIndex	--ExploreTrapIndex
@@ -843,8 +843,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Utilities (CardIndex, UtilityDescription) VALUES (725, '1ST, 2x2, When a model is affected by Bumper Shells, its player may move the model 3 squares using the rules for push.');
 insert into Explores (UtilityIndex) VALUES (76);
 insert into ExploreCreeps (ExploreIndex, CreepNumber) VALUES (58, 0);
---insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (58, chXXX);	--Testudo Tower: Explore
---insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (58, chXXX);	--Testudo Tower: Arcade
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (58, 680);	--Testudo Tower: Explore
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (58, 960);	--Testudo Tower: Arcade
 
 
 --Handy Tunnel	--CardIndex 726	--UtilityIndex 77	--ExploreIndex 59	--ExploreCreepIndex	--ExploreTrapIndex
@@ -857,8 +857,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Utilities (CardIndex, UtilityDescription) VALUES (720, 'Discard during a Hero''s upkeep.  The Hero may move through walls, and treats difficult terrain and structure squares as open squares until the end of its activation.');
 insert into Explores (UtilityIndex) VALUES (77);
 insert into ExploreCreeps (ExploreIndex, CreepNumber) VALUES (59, 1);
---insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (59, chXXX);	--Testudo Tower: Explore
---insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (59, chXXX);	--Testudo Tower: Arcade
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (59, 680);	--Testudo Tower: Explore
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (59, 960);	--Testudo Tower: Arcade
 
 
 --Shell Up	--CardIndex 727	--UtilityIndex 78	--ExploreIndex 60	--ExploreCreepIndex	--ExploreTrapIndex
@@ -871,8 +871,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Utilities (CardIndex, UtilityDescription) VALUES (727, 'Discard before making a defense roll to add +1R to the roll.');
 insert into Explores (UtilityIndex) VALUES (78);
 insert into ExploreCreeps (ExploreIndex, CreepNumber) VALUES (60, 1);
---insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (60, chXXX);	--Testudo Tower: Explore
---insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (60, chXXX);	--Testudo Tower: Arcade
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (60, 680);	--Testudo Tower: Explore
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (60, 960);	--Testudo Tower: Arcade
 
 
 --Testudo Formation	--CardIndex 728	--UtilityIndex 79	--ExploreIndex 61	--ExploreCreepIndex	--ExploreTrapIndex
@@ -885,8 +885,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Utilities (CardIndex, UtilityDescription) VALUES (728, 'Discard during a Hero''s upkeep.  Remove all status effect tokens from the Hero, and all adjacent Heroes.');
 insert into Explores (UtilityIndex) VALUES (79);
 insert into ExploreCreeps (ExploreIndex, CreepNumber) VALUES (61, 2);
---insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (61, chXXX);	--Testudo Tower: Explore
---insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (61, chXXX);	--Testudo Tower: Arcade
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (61, 680);	--Testudo Tower: Explore
+insert into ExploreAssignments (ExploreIndex, CharacterIndex) VALUES (61, 960);	--Testudo Tower: Arcade
 
 
 --Bone Rot	--CardIndex 729	--UtilityIndex 80	--ExploreIndex 62	--ExploreCreepIndex	--ExploreTrapIndex

@@ -47,7 +47,7 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (555
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (555, 530); --Dark Radiance
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (555, 543); --Defender
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (555, 642); --Heal X
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (555, 2069); --Homunculus
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (555, 1272); --Homunculus
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (555, 1063); --Empower Darkness
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (555, 1541); --Protect
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (555, 1, 2); --Strength
@@ -156,7 +156,7 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (559
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (559, 729); --Massive Damage
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (559, 859); --Run Down
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (559, 1335); --Juggernaut
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (559, 1174); --Fragmentation Shell
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (559, 1172); --Fragmentation Shell
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (559, 912); --Concussion Shell
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (559, 1, 2); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (559, 2); --Armor
@@ -530,7 +530,7 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (573
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (573, 729); --Massive Damage
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (573, 859); --Run Down
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (573, 1335); --Juggernaut
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (573, 1174); --Fragmentation Shell
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (573, 1172); --Fragmentation Shell
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (573, 912); --Concussion Shell
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (573, 4, 10); --Dex
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (573, 2); --Armor
@@ -563,7 +563,8 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (5
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (574, 'Boss', 'Super', 4);
 
 --Testudo Tower --CardIndex 1070 --CharacterIndex 680 --ExploreCharacterIndex 575
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Testudo Tower',
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+'Testudo Tower',
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Testudo_Tower_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Testudo_Tower_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Bosses/Testudo_Tower.xhtml', 
@@ -634,7 +635,7 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (577
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (577, 806); --Plunder Twins, The
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (577, 1652); --Shhoots 'em In The Air!!!
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (577, 1195); --Furious Charge
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (577, 2036); --You're Bleeding, Brother!
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (577, 1946); --You're Bleeding, Brother!
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (577, 1, 4); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (577, 2); --Armor
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (577, 'Boss', 'Super', 4);

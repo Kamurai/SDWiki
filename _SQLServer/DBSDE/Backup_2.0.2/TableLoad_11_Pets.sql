@@ -12,15 +12,15 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Pet', '2.0', '2.0 Core Set', 'Default', 
 '');
 insert into Characters (CardIndex) VALUES (2237);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1115, -1); --???
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1115, 4); --Sapphire
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (1115,
 'http://htkb.info/SDE/2.0/Cards/Pets/Standies/Polly_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Pets/Standies/Polly_2.0_back.png',
 'Either', 'Small', '', 10, 2, '1B', '3B', '1B', '3B', 2, 0);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (783, 1117); --???
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (783, 2162); --Polly Wants a Potion
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (783, 2163); --Master Got a Potion
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (783, 1117); --Fly
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (783, 2072); --Polly Wants a Potion
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (783, 2073); --Master Got a Potion
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (783, 4, 1); --Dexterity
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (783, 2); --Armor
 insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (783, 3, -1);
@@ -34,7 +34,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Pet', '2.0', '2.0 Core Set', 'Default', 
 '');
 insert into Characters (CardIndex) VALUES (2238);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1116, -1); --???
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1116, 4); --Sapphire
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (1116,
 'http://htkb.info/SDE/2.0/Cards/Pets/Standies/Mister_Pinchers_2.0.png', 
@@ -42,7 +42,7 @@ VALUES (1116,
 'Either', 'Small', '', 3, 1, '2B 1R', '3R', '0ST', '0ST', 1, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (784, 1022); --Surefoot
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (784, 1118); --Master Gains: Grabby (3)
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (784, 2140); --Skuttle
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (784, 2050); --Skuttle
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (784, 1, 2); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (784, 2); --Armor
 insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (784, 2, 3);
@@ -155,7 +155,7 @@ VALUES (1121,
 'Either', 'Small', '', 4, 1, '3B', '3R', '0ST', '0ST', 1, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (789, 1022); --Surefoot
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (789, 739); --Master Gains: KNOCKDOWN (3)
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (789, 2140); --Skuttle
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (789, 2050); --Skuttle
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (789, 1, 1); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (789, 2); --Armor
 insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (789, 2, 3);

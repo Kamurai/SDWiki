@@ -65,8 +65,8 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (490
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (490, 691); --Insignificant
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (490, 709); --Knockdown
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (490, 1059); --Volatile
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (490, 1039); --Toss Me
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (490, 1340); --Kaboom
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (490, 2067); --Toss Me
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (490, 2); --Armor
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (490, '', '8 Bit', 0);
 
@@ -131,7 +131,7 @@ VALUES (598,
 'Either', 'Small', 'Gnome', 4, 1, '3B', '1ST', '2B', '1B', 1, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (493, 588); --Fire 
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (493, 1175); --Freelance Fire Forge
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (493, 2026); --Work The Bellows
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (493, 1936); --Work The Bellows
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (493, 1, 1); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (493, 2); --Armor
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (493, '', '8 Bit', 0);

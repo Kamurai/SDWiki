@@ -15,9 +15,9 @@ insert into Characters (CardIndex) VALUES (2343);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (851, 36); --Fly
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (851, 29); --Dodge
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (851, 76); --Luck
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (851, 2170); --Rally Cry
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (851, 2171); --Aimed Strike
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (851, 2172); --Flash Bomb
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (851, 2099); --Rally Cry
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (851, 2100); --Aimed Strike
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (851, 2101); --Flash Bomb
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 1190, 
 'http://htkb.info/Common/Standies/My_Little_Pony/Flash_Sentry.png', 

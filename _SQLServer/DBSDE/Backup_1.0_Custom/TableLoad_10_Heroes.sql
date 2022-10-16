@@ -13,10 +13,10 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Applejack is dependable and loyal, always willing to help anybody in need.  She lives and works at Sweet Apple Acres and represents the element of honesty.');
 insert into Characters (CardIndex) VALUES (2289);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (798, 142); --Tough
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (798, 2170); --Buckaroo
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (798, 2171); --Stampede
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (798, 2172); --Haymaker
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (798, 2173); --Applesauce
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (798, 2080); --Buckaroo
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (798, 2081); --Stampede
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (798, 2082); --Haymaker
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (798, 2083); --Applesauce
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 1137, 
 'http://htkb.info/Common/Standies/My_Little_Pony/Apple_Jack.png', 
@@ -40,10 +40,10 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 '');
 insert into Characters (CardIndex) VALUES (2290);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (799, 63); --Immune: Weak
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (799, 2174); --Mistwalker
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (799, 2175); --Lunar Blade
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (799, 2176); --Second Wind
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (799, 2177); --Talent Blaster
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (799, 2084); --Mistwalker
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (799, 2085); --Lunar Blade
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (799, 2086); --Second Wind
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (799, 2087); --Talent Blaster
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 1138, 
 'http://htkb.info/Common/Standies/Avenging_Samurai.png', 
@@ -90,9 +90,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'As Captain of the Royal Guard, Diva''s chief duty is rescuing Prince Aaron when he charges off alone on another foolish quest.');
 insert into Characters (CardIndex) VALUES (2291);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (801, 134); --Sturdy
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (801, 2178); --Stand Fast!
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (801, 2179); --Smite
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (801, 2180); --Anesthesia
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (801, 2088); --Stand Fast!
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (801, 2089); --Smite
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (801, 2090); --Anesthesia
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 1140, 
 'http://htkb.info/Common/Standies/Arcadia_Quest/Diva_Royal_Guard.png', 
@@ -117,10 +117,10 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (2291);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (801, 32); --Fire
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (801, 54); --Immune: Fire
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (801, 2181); --Summoning
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (801, 2182); --Direct
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (801, 2183); --Bolster
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (801, 2184); --Coals
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (801, 2091); --Summoning
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (801, 2092); --Direct
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (801, 2093); --Bolster
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (801, 2094); --Coals
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 1140, 
 'http://htkb.info/Common/Standies/Arcadia_Quest/Dragonmaster.png', 
@@ -146,10 +146,10 @@ insert into Characters (CardIndex) VALUES (2292);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (802, 56); --Immune: Immobile
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (802, 29); --Dodge
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (802, 1126); --Seductress
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (802, 2181); --Sexy Dance
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (802, 2182); --Kaleidoscope
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (802, 2183); --Whirling Dervish
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (802, 2184); --Caffeine Pills
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (802, 2095); --Sexy Dance
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (802, 2096); --Kaleidoscope
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (802, 2097); --Whirling Dervish
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (802, 2098); --Caffeine Pills
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 1141, 
 'http://htkb.info/Common/Standies/Arcadia_Quest/Dragonmaster.png', 
@@ -174,9 +174,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (2293);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (803, 36); --Fly
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (803, 38); --Fragile
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (803, 2181); --Finding Strays
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (803, 2182); --Can I Keep Him?
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (803, 2183); --Liquid Courage
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (803, 2117); --Finding Strays
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (803, 2118); --Can I Keep Him?
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (803, 2119); --Liquid Courage
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 1142, 
 'http://htkb.info/Common/Standies/My_Little_Pony/Fluttershy.png', 
@@ -201,9 +201,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (2294);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (804, 59); --Immune: Poison
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (804, 104); --Reach 2
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (804, 2181); --I am NOT a man!
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (804, 2182); --Wanna Wrassle?
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (804, 2183); --Kegus Universalis
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (804, 2120); --I am NOT a man!
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (804, 2121); --Wanna Wrassle?
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (804, 2122); --Kegus Universalis
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 1143, 
 'http://htkb.info/Common/Standies/Frostbyte_Warrior.png', 
@@ -229,9 +229,9 @@ insert into Characters (CardIndex) VALUES (2295);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (805, 41); --Healer
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (805, 103); --Range 8
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (805, 108); --Shapeshift
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (805, 2182); --Subdue
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (805, 2183); --Supressing Fire
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (805, 2183); --Sunburst
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (805, 2123); --Subdue
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (805, 2124); --Supressing Fire
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (805, 2125); --Sunburst
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 1144, 
 'http://htkb.info/Common/Standies/Arcadia_Quest/Glauerdoom_Hunter.png', 
@@ -256,9 +256,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (2296);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (806, 41); --Healer
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (806, 103); --Swarm
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (806, 2182); --Takedown
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (806, 2183); --Sunder
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (806, 2183); --Styigan Root
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (806, 2126); --Takedown
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (806, 2127); --Sunder
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (806, 2128); --Styigan Root
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 1145, 
 'http://htkb.info/Common/Standies/Arcadia_Quest/Guild_Swordsman.png', 
@@ -283,10 +283,10 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (2297);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (807, 54); --Immune: Fire
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (807, 142); --Tough
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (807, 2219); --Sword of Vulcanis
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (807, 2220); --Shield Smash
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (807, 2221); --Heroic Scream
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (807, 2222); --Elixir of Fire
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (807, 2129); --Sword of Vulcanis
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (807, 2130); --Shield Smash
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (807, 2131); --Heroic Scream
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (807, 2132); --Elixir of Fire
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 1146, 
 'http://htkb.info/SDE/Standies/Alternate/Herald_of_Vulcanis.png', 
@@ -361,10 +361,10 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (2300);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (810, 104); --Reach 2
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (810, 52); --Immune: Choke
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (810, 2223); --Lotus Blossom
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (810, 2224); --Chakra Blast
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (810, 2225); --Instant Karma
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (810, 2226); --Inner Peace
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (810, 2133); --Lotus Blossom
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (810, 2134); --Chakra Blast
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (810, 2135); --Instant Karma
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (810, 2136); --Inner Peace
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 1149, 
 'http://htkb.info/Common/Standies/Lotus_Temple_Monk.png', 
@@ -389,10 +389,10 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (2301);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (811, 79); --Magic 8
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (811, 23); --Cold
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (811, 2227); --Arcane Fury
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (811, 2228); --Blizzard
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (811, 2229); --Freeze the Heartblood
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (811, 2230); --Ice Queen
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (811, 2137); --Arcane Fury
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (811, 2138); --Blizzard
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (811, 2139); --Freeze the Heartblood
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (811, 2140); --Ice Queen
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 1150, 
 'http://htkb.info/Common/Standies/Arcadia_Quest/Maya_Ice_Mage.png', 
@@ -417,9 +417,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (2302);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (812, 29); --Dodge
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (812, 135); --Surefoot
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (812, 2231); --Swash th'Bucks!
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (812, 2232); --Nyahaha Taunt
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (812, 2233); --Cap'n's Grog
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (812, 2141); --Swash th'Bucks!
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (812, 2142); --Nyahaha Taunt
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (812, 2143); --Cap'n's Grog
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 1151, 
 'http://htkb.info/Common/Standies/Nekkoneer_Captain.png', 
@@ -443,10 +443,10 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Pinkie is energetic and sociable, and she represents the element of laughter.  She works at Sugarcube Corner and lives on the bakery''s second floor with Gummy, her pet toothless baby alligator.');
 insert into Characters (CardIndex) VALUES (2303);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (813, 79); --Magic 8
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (813, 2234); --Confetti Bomb
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (813, 2235); --Super-Sticky-Double-Bubble Bubble-Gum
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (813, 2236); --Pinkie Cannon
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (813, 2237); --Pinkie Logic
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (813, 2144); --Confetti Bomb
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (813, 2145); --Super-Sticky-Double-Bubble Bubble-Gum
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (813, 2146); --Pinkie Cannon
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (813, 2147); --Pinkie Logic
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 1152, 
 'http://htkb.info/Common/Standies/My_Little_Pony/Pinkie_Pie.png', 
@@ -472,9 +472,9 @@ insert into Characters (CardIndex) VALUES (2304);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (814, 79); --Magic 6
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (814, 36); --Fly
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (814, 29); --Dodge
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (814, 2238); --Aura of Love
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (814, 2239); --The Power of Love
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (814, 2240); --Loving Care
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (814, 2148); --Aura of Love
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (814, 2149); --The Power of Love
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (814, 2150); --Loving Care
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 1153, 
 'http://htkb.info/Common/Standies/My_Little_Pony/Princess_Cadance.png', 
@@ -498,9 +498,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Rainbow Dash is responsible for maintaining the weather and clearing the skies in Ponyville.  As a huge fan of the Wonderbolts, she dreams of one day joining their group.');
 insert into Characters (CardIndex) VALUES (2305);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (815, 36); --Fly
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (815, 2238); --Double Dash
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (815, 2239); --Sonic Rainbow
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (815, 2240); --Twenty Percent Cooler
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (815, 2151); --Double Dash
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (815, 2152); --Sonic Rainbow
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (815, 2153); --Twenty Percent Cooler
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 1154, 
 'http://htkb.info/Common/Standies/My_Little_Pony/Rainbow_Dash.png', 
@@ -525,8 +525,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (2306);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (816, 36); --Tank
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (816, 57); --Immune: Knockdown
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (816, 2238); --Defensive Ball Curl
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (816, 2239); --Puncturing Taunt
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (816, 2154); --Defensive Ball Curl
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (816, 2155); --Puncturing Taunt
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 1155, 
 'http://htkb.info/Common/Standies/LOL/Rammus.png', 
@@ -550,10 +550,10 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Rarity is the older sister of Sweetie Belle and the love interest of Spike.  Rarity works as both a fashion designer and as a seamstress at her own shop in Ponyville, the Carousel Boutique.');
 insert into Characters (CardIndex) VALUES (2307);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (817, 79); --Magic 8
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (817, 2238); --Rought Cut
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (817, 2239); --Crystalize
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (817, 2239); --Shatter
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (817, 2239); --Crystal Armour
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (817, 2156); --Rought Cut
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (817, 2157); --Crystalize
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (817, 2158); --Shatter
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (817, 2159); --Crystal Armour
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 1156, 
 'http://htkb.info/Common/Standies/My_Little_Pony/Rarity.png', 
@@ -578,9 +578,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (2308);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (818, 26); --Dangerous
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (818, 71); --Lance 2
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (818, 2250); --Disarm
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (818, 2251); --Lunge
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (818, 2252); --Hero's Sacrifice
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (818, 2160); --Disarm
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (818, 2161); --Lunge
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (818, 2162); --Hero's Sacrifice
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 1157, 
 'http://htkb.info/Common/Standies/Fate/Saber_Chibi.png', 
@@ -605,9 +605,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (2309);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (819, 26); --Dangerous
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (819, 71); --Lance 2
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (819, 2250); --Disarm
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (819, 2251); --Lunge
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (819, 2252); --Hero's Sacrifice
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (819, 2160); --Disarm
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (819, 2161); --Lunge
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (819, 2162); --Hero's Sacrifice
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 1158, 
 'http://htkb.info/Common/Standies/Fate/Saber_Chibi.png', 
@@ -660,8 +660,8 @@ insert into Characters (CardIndex) VALUES (2311);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (821, 36); --Fly
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (821, 142); --Tough
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (821, 54); --Immune: Fire
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (821, 2253); --Hardened Scales
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (821, 2254); --Flame Breath
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (821, 2163); --Hardened Scales
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (821, 2164); --Flame Breath
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 1160, 
 'http://htkb.info/Common/Standies/Sirdan.png', 
@@ -686,9 +686,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (2312);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (822, 29); --Dodge
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (822, 142); --Tough
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (822, 2255); --Lunging Slash
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (822, 2256); --Vorpal Strike
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (822, 2257); --Invulnerable
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (822, 2165); --Lunging Slash
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (822, 2166); --Vorpal Strike
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (822, 2167); --Invulnerable
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 1161, 
 'http://htkb.info/Common/Standies/Arcadia_Quest/Sonya_Giantslayer.png', 
@@ -713,9 +713,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (2313);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (823, 135); --Surefoot
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (823, 142); --Tough
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (823, 2255); --Fend
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (823, 2256); --Lightning Fury
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (823, 2257); --Dinosaur Eggs
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (823, 2168); --Fend
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (823, 2169); --Lightning Fury
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (823, 2170); --Dinosaur Eggs
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 1162, 
 'http://htkb.info/Common/Standies/Stormgale_Amazon.png', 
@@ -739,10 +739,10 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Twilight Sparkle is a celestial pony and lives in Golden Oak Library with Spike, her friend and assistant.  She moved from Canterlot to Ponyville to study the magic of friendship and represents the element of magic.');
 insert into Characters (CardIndex) VALUES (2314);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (824, 79); --Magic 8
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (824, 2262); --Telekinesis
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (824, 2263); --Friend Zone
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (824, 2264); --Twilight Sparkleburst
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (824, 2265); --Studious
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (824, 2171); --Telekinesis
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (824, 2172); --Friend Zone
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (824, 2173); --Twilight Sparkleburst
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (824, 2174); --Studious
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 1163, 
 'http://htkb.info/Common/Standies/My_Little_Pony/Twighlight_Sparkle.png', 
@@ -765,7 +765,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Hero', '1.0 Custom', '1.0 Custom Set', 'Default', 
 'Twilight Sparkle is a celestial pony and lives in Golden Oak Library with Spike, her friend and assistant.  She moved from Canterlot to Ponyville to study the magic of friendship and represents the element of magic.');
 insert into Characters (CardIndex) VALUES (2315);
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (825, 2265); --The Wolf
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (825, 2175); --The Wolf
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 1164, 
 'http://htkb.info/Common/Standies/My_Little_Pony/Twighlight_Sparkle.png', 

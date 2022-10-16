@@ -38,7 +38,7 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1136, 4)
 --GangMemberIndex 874
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (804, 0, 'Bosun', 'Human Pirate', '', 6, 2, 1, 795);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (874, kXXX); --Greed
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (874, 1171); --Greed
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (874, 1086); --Extra Powder
 --GangMemberIndex 875
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)

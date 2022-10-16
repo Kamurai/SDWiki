@@ -311,7 +311,7 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (592
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (592, 866); --Salty
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (592, 920); --Spawning Pool
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (592, 1009); --Stealth
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (592, 1167); --Foul Weather
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (592, 1166); --Foul Weather
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (592, 3, 6); --Will
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (592, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (592, 'Spawning Point', 'Start', 3);
@@ -420,7 +420,7 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (597
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (597, 1022); --Surefoot
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (597, 1029); --Territorial
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (597, 907); --Command of Kitsune
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (597, 1169); --Fox's Grace
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (597, 1168); --Fox's Grace
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (597, 3, 6); --Will
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (597, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (597, 'Spawning Point', 'Start', 3);
@@ -442,6 +442,7 @@ VALUES (703,
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (598, 815); --Pounce
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (598, 1022); --Surefoot
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (598, 1029); --Territorial
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (598, 1167); --Fox Strike
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (598, 1, 1); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (598, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (598, 'Minion', '8 Bit', 1);
@@ -464,7 +465,7 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (599
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (599, 1022); --Surefoot
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (599, 1029); --Territorial
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (599, 1368); --Let Them Come
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (599, 1171); --Foxy
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (599, 1170); --Foxy
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (599, 4, 4); --Dex
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (599, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (599, 'Minion', '8 Bit', 2);
@@ -572,6 +573,8 @@ VALUES (709,
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Sohei/Standies/Clan_Sohei_Kunoichi_2.0_back.png', 
 'Feminine', 'Small', 'Sohei', 6, 2, '2R', '2B 1R', '3B', '2B', 2, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (604, 556); --Discipline
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (607, 2064); --Blade Wall
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (607, 2055); --Storm of Blades
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (604, 1, 3); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (604, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (604, 'Minion', '16 Bit', 2);
@@ -679,7 +682,7 @@ VALUES (714,
 'Feminine', 'Small', 'Ninja', 8, 1, '3B', '0ST', '1B 1R', '2R', 1, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (609, 815); --Pounce
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (609, 1009); --Stealth
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (609, 2017); --Wind in the Forest
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (609, 1926); --Wind in the Forest
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (609, 1, 1); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (609, 2); --Armor
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (609, 4); --Dex
@@ -859,7 +862,7 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (617
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (617, 626); --Fury
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (617, 838); --Ravage
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (617, 926); --Spawning Pool
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (617, 2023); --With Your Last Breath
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (617, 1933); --With Your Last Breath
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (617, 1, 1); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (617, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (617, 'Spawning Point', 'Start', 3);
@@ -900,7 +903,7 @@ VALUES (724,
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (619, 838); --Ravage
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (619, 1058); --Volatile
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (619, 1528); --Powder Bomb
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (619, 1159); --FOR THE CLAN!
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (619, 1158); --FOR THE CLAN!
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (619, 4, 4); --Dex
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (619, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (619, 'Minion', '8 Bit', 2);
@@ -1033,7 +1036,7 @@ VALUES (730,
 'Feminine', 'Small', 'Ninja', 8, 1, '3B', '0ST', '1B 1R', '2R', 1, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (625, 815); --Pounce
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (625, 1009); --Stealth
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (625, 2016); --Wind in the Forest
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (625, 1926); --Wind in the Forest
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (625, 1, 1); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (625, 2); --Armor
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (625, 4); --Dex
@@ -1169,7 +1172,7 @@ VALUES (736,
 'Feminine', 'Small', 'Ninja', 8, 1, '3B', '0ST', '1B 1R', '2R', 1, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (631, 815); --Pounce
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (631, 1009); --Stealth
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (631, 2017); --Wind in the Forest
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (631, 1926); --Wind in the Forest
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (631, 1, 1); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (631, 2); --Armor
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (631, 4); --Dex
@@ -1309,7 +1312,7 @@ VALUES (742,
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (637, 685); --Improved Critical
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (637, 708); --Knockdown
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (637, 892); --Shiny Bauble
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (637, 2032); --Yamazura's Tail
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (637, 1942); --Yamazaru's Tail
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (637, 1, 3); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (637, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (637, 'Elite', '16 Bit', 4); 
@@ -2027,7 +2030,7 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (670
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (670, 596); --Fly
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (670, 708); --Knockdown
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (670, 801); --Pile-on
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (670, 1135); --Flame Burst
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (670, 1134); --Flame Burst
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (670, 1027); --Dive Bomb
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (670, 1, 1); --Strength
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (670, 4, 6); --Dex
@@ -2257,7 +2260,7 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (682
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (682, 588); --Fire
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (682, 593); --Fixed Form
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (682, 674); --Immune: Fire
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (682, 2070); --Fire Vine
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (682, 1980); --Fire Vine
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (682, 1077); --Eruption
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (682, 1, 4); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (682, 2); --Armor 
@@ -2878,7 +2881,7 @@ VALUES (815,
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (710, 482); --Brutal Strike
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (710, 843); --Reckless
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (710, 1061); --Volatile
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (710, 2000); --WATCH THIS!  --!! unavailable !!
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (710, 1910); --WATCH THIS!  --!! unavailable !!
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (710, 4, 12); --Dex
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (710, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (710, 'Minion', '8 Bit', 3);
@@ -2899,7 +2902,7 @@ VALUES (816,
 'Either', 'Small', 'Chimera', 8, 2, '2B 1R', '1ST', '2B', '3B', 2, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (711, 482); --Brutal Strike  --!! unavailable !!
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (711, 843); --Reckless
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (711, 2038); --Your Head For My Mantle  --!! unavailable !!
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (711, 2039); --Your Head For My Mantle  --!! unavailable !!
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (711, 1236); --Green Wrath, The  --!! unavailable !!
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (711, 1, 2); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (711, 2); --Armor 

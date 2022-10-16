@@ -18,5 +18,5 @@ VALUES (2259, '',
 '');
 insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (32, 1125); --Black-Handed Henry: Explore
 insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (32, 1134); --Black-Handed Henry: Arcade
---insert into KeywordAssignments (BossSpawnIndex, KeywordIndex) VALUES (32, kXXX); --Here Polly
+--insert into KeywordAssignments (BossSpawnIndex, KeywordIndex) VALUES (32, 1156); --Here Polly
 --insert into KeywordAssignments (BossSpawnIndex, KeywordIndex) VALUES (32, kXXX); --Cannons On Deck!

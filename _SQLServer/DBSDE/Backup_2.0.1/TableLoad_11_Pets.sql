@@ -239,7 +239,7 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (446
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (446, 703); --Kindling
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (446, 738); --Master Gains Kindling
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (446, 902); --Small
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (446, 1139); --Flaming Belch
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (446, 1138); --Flaming Belch
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (446, 1, 8); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (446, 2); --Armor
 insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (446, 3, 8);
@@ -372,7 +372,7 @@ VALUES (557,
 'Either', 'Small', '', 6, 1, '2B', '2ST', '2ST', '2ST', 2, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (452, 797); --Pest Control
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (452, 902); --Small
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (452, 1145); --Flies To My Web
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (452, 1144); --Flies To My Web
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (452, 1, 1); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (452, 2); --Armor
 insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (452, 2, -1);
@@ -592,7 +592,7 @@ VALUES (567,
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (462, 902); --Small
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (462, 1024); --Tag Team
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (462, 1028); --Teleport
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (462, 2059); --Out of Nowhere
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (462, 1969); --Out of Nowhere
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (462, 1, 2); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (462, 2); --Armor
 insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (462, 3, -1);
@@ -1009,7 +1009,7 @@ VALUES (586,
 'Neither', 'Small', 'Pet', 6, 1, '3B', '3B', '2B', '2R', 3, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (481, 442); --Augment
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (481, 506); --Clever
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (481, 2034); --Yip! Yip!
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (481, 1944); --Yip!  Yip!
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (481, 1, 1); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (481, 2); --Armor
 insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (481, 2, -1);

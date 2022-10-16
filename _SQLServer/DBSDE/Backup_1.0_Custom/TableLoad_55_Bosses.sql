@@ -11,9 +11,9 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Boss', '1.0 Custom', '1.0 Custom Set', 'Explore',
 '');
 insert into Characters (CardIndex) VALUES (2346);
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (854, 136); --Garra Mortal
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (854, 106); --Bola de Fuego
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (854, 106); --Picadura
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (854, 2108); --Garra Mortal
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (854, 2109); --Bola de Fuego
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (854, 2110); --Picadura
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 1193,
 'http://htkb.info/SDE/1.0/Custom/Cards/Bosses/Standies/Quimera.png', 
@@ -37,8 +37,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Boss', '1.0 Custom', '1.0 Custom Set', 'Explore',
 '');
 insert into Characters (CardIndex) VALUES (2347);
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (855, 136); --Rayo Mortal
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (855, 106); --Pared de Fuego
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (855, 2111); --Rayo Mortal
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (855, 2112); --Pared de Fuego
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (855, 2197); --Terror
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 1194,

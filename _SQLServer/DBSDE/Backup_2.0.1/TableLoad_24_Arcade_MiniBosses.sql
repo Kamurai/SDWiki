@@ -61,7 +61,7 @@ VALUES (125, 0, 'Blood-Eye', 'Orc', 'MiniBoss', 6, 8, 3, 509);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (573, 679); --Immune: Poison
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (573, 727); --Massive Damage
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (573, 1824); --Tether
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (573, 2072); --Killshot
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (573, 1346); --Killshot
 
 --Cernonos	--CardIndex 1284	--CharacterIndex 894	--ArcadeCharacterIndex 126
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Cernonos',
@@ -101,8 +101,8 @@ VALUES (127, 0, 'Chained Knight', 'Demon', 'MiniBoss', 6, 7, 3, 511);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (575, 611); --Freed in Death
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (575, 1002); --Spread the Love
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (575, 1477); --Obedience
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (575, 1150); --Fluff The Frilly Pillows
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (575, 1157); --For Mistress!
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (575, 1149); --Fluff The Frilly Pillows
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (575, 1156); --For Mistress!
 
 --Chaos Kitty	--CardIndex 1286	--CharacterIndex 896	--ArcadeCharacterIndex 128
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Chaos Kitty',
@@ -123,7 +123,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (576, 614)
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (576, 807); --Poison
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (576, 815); --Pounce
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (576, 854); --Retreat
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (576, 1155); --Flying Fur
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (576, 1154); --Flying Fur
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (576, 874); --Chaos Fur'splosion
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (576, 1455); --Naughty Kitty
 
@@ -224,8 +224,8 @@ insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, 
 VALUES (133, 0, 'Sohei Oni', 'Sohei', 'MiniBoss', 8, 7, 4, 518);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (581, 556); --Discipline 
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (581, 763); --Monstrous Steed, A
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (581, 2073); --Bullrush
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (581, 2074); --Mincemeat
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (581, 849); --Bullrush
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (581, 1984); --Mincemeat
 
 --Clan Spirit Shrine Oni 	--CardIndex 1292	--CharacterIndex 902	--ArcadeCharacterIndex 134
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Clan Spirit Shrine Oni',
@@ -282,7 +282,7 @@ VALUES (136, 0, 'Tora Chunin', 'Tora', 'MiniBoss', 5, 7, 3, 520);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (584, 1040); --Tough
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (584, 1854); --Tora Tora Tora!
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (584, 1581); --Reload!
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (584, 1152); --Flurry of Blades
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (584, 1151); --Flurry of Blades
 
 --Clan Void Shrine Oni 	--CardIndex 1295	--CharacterIndex 905	--ArcadeCharacterIndex 137
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Clan Void Shrine Oni',
@@ -379,7 +379,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (589, 562)
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (589, 672); --Immobile
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (589, 726); --Massive Damage
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (589, 1881); --Undertow
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (589, 2075); --Storm of Vengeance
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (589, 1772); --Storm of Vengeance
 
 --Crystal Weaver	--CardIndex 1300	--CharacterIndex 910	--ArcadeCharacterIndex 142
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Crystal Weaver',
@@ -439,7 +439,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (592, 729)
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (592, 1009); --Stealth
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (592, 1413); --Massive Ninja Star To The Face
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (592, 1323); --Into The Reeds
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (592, 1171); --Foxy
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (592, 1170); --Foxy
 
 --Stub	--CardIndex 1303	--CharacterIndex 913	--ArcadeCharacterIndex 145
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('',
@@ -470,7 +470,7 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (914, 1);
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (146, 0, 'Ezoghoul', 'Dark Legion', 'MiniBoss', 8, 7, 3, 529);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (594, 681); --Immune: Status Effects
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (594, 2076); --Blutarch Handcannon
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (594, 821); --Blutarch Handcannon
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (594, 1460); --Necrosis
 
 --Furious Fungomancer	--CardIndex 1305	--CharacterIndex 915	--ArcadeCharacterIndex 147
@@ -528,7 +528,7 @@ VALUES (149, 0, 'Grim Golem', 'Construct', 'MiniBoss', 5, 6, 3, 532);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (597, 681); --Immune: Status Effects
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (597, 851); --Resolve Aura
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (597, 1009); --Stealth
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (597, 1164); --Fortification
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (597, 1163); --Fortification
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (597, 1888); --Unnatural Dark
 
 --Hecate Vilehorn	--CardIndex 1308	--CharacterIndex 918	--ArcadeCharacterIndex 150
@@ -730,9 +730,9 @@ insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, 
 VALUES (159, 0, 'Orcdon Ramsay', 'Orc', 'MiniBoss', 6, 7, 3, 542);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (607, 1083); --Impulsive
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (607, 843); --Reckless
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (607, 2080); --Can You Smell What The Orc Is Cooking?!
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (607, 2081); --IT'S RAW!
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (607, 2082); --Shop Fresh, Shop Local
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (607, 1990); --Can You Smell What The Orc Is Cooking?!
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (607, 1991); --IT'S RAW!
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (607, 1992); --Shop Fresh, Shop Local
 
 --Rage Fiend, The	--CardIndex 1318	--CharacterIndex 928	--ArcadeCharacterIndex 160
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Rage Fiend, The',
@@ -905,8 +905,8 @@ insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, 
 VALUES (168, 0, 'Ugluk the Mechanically Inclined', 'Orc', 'MiniBoss', 6, 7, 3, 551);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (616, 507); --Coghammer
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (616, 727); --Massive Damage
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (616, 2083); --Disassemble
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (616, 2084); --Machinist
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (616, 1993); --Disassemble
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (616, 1994); --Machinist
 
 --Vlad the Perforator	--CardIndex 1327	--CharacterIndex 937	--ArcadeCharacterIndex 169
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Vlad the Perforator',
@@ -924,9 +924,9 @@ insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, 
 VALUES (169, 0, 'Vlad the Perforator', 'Orc', 'MiniBoss', 6, 8, 4, 552);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (617, 664); --Hunter's Mark
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (617, 843); --Reckless
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (617, 2088); --Wyrdwood Arrow
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (617, 2087); --That One. With The Funny Face
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (617, 2086); --Storm of Arrows
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (617, 1998); --Wyrdwood Arrow
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (617, 1997); --That One. With The Funny Face
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (617, 1996); --Storm of Arrows
 
 --Yobuko	--CardIndex 1328	--CharacterIndex 938	--ArcadeCharacterIndex 170
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Yobuko',
@@ -946,4 +946,4 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (618, 727)
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (618, 1040); --Tough
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (618, 1002); --Demonic Challenge
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (618, 1562); --Rampaging Fists
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (618, 2085); --Demon Rush
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (618, 1995); --Demon Rush

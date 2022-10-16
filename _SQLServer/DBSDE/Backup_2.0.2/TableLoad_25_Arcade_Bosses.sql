@@ -18,8 +18,8 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1134, 4)
 --GangMemberIndex 872
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (802, 0, 'Black-Handed Henry', 'Dwarf Pirate', 'Boss', 6, 9, 4, 793);
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (872, 563); --New Brew
-insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (872, 524); --Here Polly
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (872, 212); --Man The Cannons!  Extra Shot!
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (872, 253); --Extra Powder
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (872, 495); --Soul Jar
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (872, 2076); --New Brew
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (872, 1166); --Here Polly
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (872, 2075); --Man The Cannons!  Extra Shot!
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (872, 1086); --Extra Powder
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (872, 2078); --Soul Jar

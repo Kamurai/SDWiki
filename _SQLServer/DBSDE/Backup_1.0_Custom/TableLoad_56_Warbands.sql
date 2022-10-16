@@ -38,7 +38,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 '');
 insert into Characters (CardIndex) VALUES (2349); 
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (857, 36); --Fly
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (857, 2192); --Assult
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (857, 2113); --Assult
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 1196,
 'http://htkb.info/Common/Standies/Dire_Bat.png', 
@@ -64,7 +64,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (2350); 
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (858, 79); --Magic 4
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (858, 57); --Immune: Knockdown
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (858, 2204); --Slick
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (858, 2114); --Slick
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 1197,
 'http://htkb.info/Common/Standies/Dirt_Eater.png', 
@@ -89,7 +89,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 '');
 insert into Characters (CardIndex) VALUES (2351); 
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (859, 59); --Immune: Poison
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (859, 2205); --Tail Stab
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (859, 2115); --Tail Stab
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 1198,
 'http://htkb.info/Common/Standies/Salamander.png', 
@@ -115,7 +115,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (2352); 
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (860, 90); --Poison
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (860, 59); --Immune: Poison
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (860, 2206); --Web Shot
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (860, 2116); --Web Shot
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 1199,
 'http://htkb.info/Common/Standies/Spitting_Spider.png', 

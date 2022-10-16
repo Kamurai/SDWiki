@@ -12,8 +12,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 '');
 insert into Characters (CardIndex) VALUES (2316);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (826, 59); --Immune: Poison
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (826, 50); --Toxic Breath
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (826, 34); --Chomp
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (826, 2176); --Toxic Breath
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (826, 2177); --Chomp
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (1165,
 'http://htkb.info/Common/Standies/Green_Dragon.png', 
@@ -40,9 +40,9 @@ insert into Characters (CardIndex) VALUES (2317);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (827, 79); --Magic 6
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (827, 23); --Cold
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (827, 91); --Potion 1
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (827, 2268); --Wirlwind of Bones
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (827, 2269); --Powerball
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (827, 2270); --Now You Don't
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (827, 2178); --Wirlwind of Bones
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (827, 2179); --Powerball
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (827, 2180); --Now You Don't
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (1166,
 'http://htkb.info/Common/Standies/Impact_Miniatures/King_Diamond.png', 
@@ -69,8 +69,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (2318);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (828, 7); --Berserk
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (828, 104); --Reach 2
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (828, 2271); --Big Bash
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (828, 2272); --Strangle Hold
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (828, 2181); --Big Bash
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (828, 2182); --Strangle Hold
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (1167,
 'http://htkb.info/Common/Standies/Impact_Miniatures/Ralph.png', 
@@ -96,8 +96,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (2319);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (829, 7); --Berserk
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (829, 104); --Reach 2
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (829, 2273); --Chaos Hammer
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (829, 2274); --Boom
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (829, 2183); --Chaos Hammer
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (829, 2184); --Boom
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (1168,
 'http://htkb.info/SDE/Standies/Alternate/Star_Guild_Sapper.png', 
@@ -122,10 +122,10 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 '');
 insert into Characters (CardIndex) VALUES (2319);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (829, 7); --Tough
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (829, 2275); --Precision Cut
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (829, 2276); --Ice Blade
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (829, 2277); --War Cry
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (829, 2278); --Spoils of War
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (829, 2185); --Precision Cut
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (829, 2186); --Ice Blade
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (829, 2187); --War Cry
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (829, 2188); --Spoils of War
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (1168,
 'http://htkb.info/Common/Standies/Impact_Miniatures/Wardude.png', 

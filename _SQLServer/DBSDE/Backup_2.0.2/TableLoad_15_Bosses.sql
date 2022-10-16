@@ -21,10 +21,10 @@ VALUES (1125,
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (793, 814); --Potion Stash 2
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (793, 1119); --Potion Pirate
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (793, 1087); --Extra Powder
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (793, 2165); --Man The Cannons!  Extra Shot!
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (793, 2166); --New Brew
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (793, 2167); --Feathered Friend
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (793, 2168); --Soul Jar
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (793, 2075); --Man The Cannons!  Extra Shot!
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (793, 2076); --New Brew
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (793, 2077); --Feathered Friend
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (793, 2078); --Soul Jar
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (793, 1, 2); --Strength
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (793, 4, 6); --Dexterity
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (793, 2); --Armor

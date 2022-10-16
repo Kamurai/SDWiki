@@ -18,7 +18,7 @@ VALUES (1122,
 'http://htkb.info/SDE/2.0/Cards/Standies/Loose_Cannon_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Standies/Loose_Cannon_2.0_back.png',
 'Neither', 'Small', 'Cannon', 3, 1, '1B', '3ST', '0ST', '2R', 1, 0);
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (790, 2164); --Plugged Barrel
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (790, 2074); --Plugged Barrel
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (790, 4, 10); --Dexterity
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (790, 2); --Armor
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (790, '', '8 Bit', 1);
@@ -40,8 +40,8 @@ VALUES (1123,
 'Either', 'Small', 'Parrot', 10, 2, '1B', '3ST', '1B', '3R', 2, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (791, 596); --Fly
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (791, 471); --Bonded Creep: Black-Handed Henry
---insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (791, abXXX); --Polly Got a Potion
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (791, 2163); --Master Got a Potion
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (791, 2245); --Polly Got a Potion
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (791, 2073); --Master Got a Potion
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (791, 4, 1); --Dexterity
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (791, 2); --Armor
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (791, '', '8 Bit', 1);

@@ -37,7 +37,7 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1131, 4)
 --GangMemberIndex 869
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (799, 0, 'Loose Cannon', 'Cannon', 'Creep', 3, 1, 3, 790);
---insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (869, abXXX); --Plugged Barrel
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (869, 2246); --Plugged Barrel
 
 --Potion Parrot	--CardIndex 2254	--CharacterIndex 1132	--ArcadeCharacterIndex 800
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
@@ -55,7 +55,7 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1132, 4)
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (800, 0, 'Potion Parrot', 'Parrot', 'Creep', 10, 2, 3, 791);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (870, 453); --Bane
---insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (870, abXXX); --Polly Wants a Potion
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (870, 2247); --Polly Wants a Potion
 
 
 

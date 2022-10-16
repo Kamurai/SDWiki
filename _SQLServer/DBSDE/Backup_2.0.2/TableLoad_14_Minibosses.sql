@@ -21,9 +21,9 @@ VALUES (1124,
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (792, 1111); --Greed
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (792, 794); --Parry
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (792, 1087); --Extra Powder
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (792, 2120); --Flash of Blades
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (792, 2113); --Double Cross
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (792, 2156); --Boarding Action
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (792, 2030); --Flash of Blades
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (792, 2023); --Double Cross
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (792, 2066); --Boarding Action
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (792, 1, 2); --Strength
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (792, 4, 6); --Dexterity
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (792, 2); --Armor
