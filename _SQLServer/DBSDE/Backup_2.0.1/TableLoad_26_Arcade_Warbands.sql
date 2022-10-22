@@ -497,7 +497,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (681, 1009
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Tanchyo Madoushi',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Tanchyo/Card_Arcade_Warband_Clan_Tanchyo_Madoushi_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Tanchyo/Card_Arcade_Warband_Clan_Tanchyo_Madoushi_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Clan_Tanchyo/Tanchyo_Madoushi.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Clan_Tanchyo/Madoushi.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Arcade', 
 '');
 insert into Characters (CardIndex) VALUES (1376);
@@ -537,7 +537,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (684, 855)
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Tanchyo Kaiken',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Tanchyo/Card_Arcade_Warband_Clan_Tanchyo_Tanchyo_Kaiken_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Tanchyo/Card_Arcade_Warband_Clan_Tanchyo_Tanchyo_Kaiken_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Clan_Tanchyo/Tanchyo_Keiken.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Clan_Tanchyo/Kaiken.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Arcade', 
 'For the Tanchyo, close-quarters fighting is rare. They live their lives among tree branches and rain arrows down on any who threaten their homes. But there are times that a blade is necessary. In such times, the Tanchyo call upon their Kaiken. Where other clans have swordsmen as the bulk of their forces, Tanchyo Kaiken are rare and highly trained. They are only called upon in the most dire of circumstances.');
 insert into Characters (CardIndex) VALUES (1378);
@@ -554,7 +554,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (685, 1663
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Tanchyo Oni',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Tanchyo/Card_Arcade_Warband_Clan_Tanchyo_Tanchyo_Oni_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Tanchyo/Card_Arcade_Warband_Clan_Tanchyo_Tanchyo_Oni_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Clan_Tanchyo/Tanchyo_Oni.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Clan_Tanchyo/Oni.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Arcade', 
 'Tanchyo Oni are the physical incarnations of the kami that stalk the dense forests that the Tanchyo call home. They take the form of massive birds of prey, and they hold commmand over air, creating furious cyclones that can sweep their opponents from the trees they call home. Tanchyo Oni are particularly fearsome, and they are only called upon by the clan in the most dire and desperate of circumstances.');
 insert into Characters (CardIndex) VALUES (1379);

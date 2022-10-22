@@ -186,7 +186,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (586
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ijin Madoushi',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Ijin/Card_Warband_Clan_Ijin_Madoushi_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Ijin/Card_Warband_Clan_Ijin_Madoushi_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Clan_Ijin/Ijin_Madoushi.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Clan_Ijin/Madoushi.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Ijin Madoushi have learned some of the mystical ways of the void witches. They use this power to stir their fellow Ijin into a blood frenzy, calling them to battle.');
 insert into Characters (CardIndex) VALUES (1082); 
@@ -209,7 +209,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (587
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ijin Kaiken',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Ijin/Card_Warband_Clan_Ijin_Kaiken_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Ijin/Card_Warband_Clan_Ijin_Kaiken_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Clan_Ijin/Ijin_Kaiken.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Clan_Ijin/Kaiken.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Kaiken are the foot soldiers of Clan Ijin and are a common sight in their harsh homeland. The Ijin struggle and succeed every day through pure, raw strength. Shaped by darkness and sculpted by hard labor, they are tough, iron-fisted, and suffer no insult. Any who trespass or insult the Ijin will face the wrath of the kaiken, each warrior having earned their place in the ranks through a test of might.');
 insert into Characters (CardIndex) VALUES (1083); 
@@ -228,7 +228,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (588
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ijin Kunoichi',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Ijin/Card_Warband_Clan_Ijin_Kunoichi_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Ijin/Card_Warband_Clan_Ijin_Kunoichi_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Clan_Ijin/Ijin_Kunoichi.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Clan_Ijin/Kunoichi.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'The Ijin kunoichi are elite warriors. To join the ranks of the kunoichi, a kaiken must pass both a test of might and a test of cunning. While the Ijin value strength above all else, the kunoichi are highly skilled in the most effective points to apply that strength. In other words, while all Ijin agree that smashing something is the best way to resolve a conflict, the kunoichi acknowledge that what you smash matters.');
 insert into Characters (CardIndex) VALUES (1084);
@@ -252,7 +252,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (589
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ijin Oni',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Ijin/Card_Warband_Clan_Ijin_Oni_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Ijin/Card_Warband_Clan_Ijin_Oni_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Clan_Ijin/Ijin_Oni.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Clan_Ijin/Oni.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'The void witches of the Ijin have bartered an unusual peace with the mighty oni that roam their lands. These oni are fearsome, brutal, and often wield mighty clubs in battle. They are ferocious allies for clan Ijin, and in many ways the Ijin share more similarities with these monstrous oni than they do the other clans.');
 insert into Characters (CardIndex) VALUES (1085); 
@@ -274,7 +274,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (590
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ijin Yajiri',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Ijin/Card_Warband_Clan_Ijin_Yajiri_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Ijin/Card_Warband_Clan_Ijin_Yajiri_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Clan_Ijin/Ijin_Yajiri.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Clan_Ijin/Yajiri.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'The life of an Ijin is hard, brutal, and unforgiving. Often, Ijin warriors suffer crippling injuries that would relegate a member of any other clan to a life of bed-rest, or at least humble farming. When Ijin face such difficulties, they pick up a crossbow and join the ranks of the yajiri. These hardened and wizened veterans engage the enemy at range, stubbornly refusing to give up the fight, or leave it to younger warriors.');
 insert into Characters (CardIndex) VALUES (1086); 
@@ -296,7 +296,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (591
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ika Madoushi',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Ika/Card_Warband_Clan_Ika_Madoushi_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Ika/Card_Warband_Clan_Ika_Madoushi_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Clan_Ika/Ika_Madoushi.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Clan_Ika/Madoushi.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 '');
 insert into Characters (CardIndex) VALUES (1087); 
@@ -320,7 +320,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (592
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ika Kaiken',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Ika/Card_Warband_Clan_Ika_Kaiken_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Ika/Card_Warband_Clan_Ika_Kaiken_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Clan_Ika/Ika_Kaiken.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Clan_Ika/Kaiken.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 '');
 insert into Characters (CardIndex) VALUES (1088); 
@@ -339,7 +339,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (593
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ika Kunoichi',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Ika/Card_Warband_Clan_Ika_Kunoichi_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Ika/Card_Warband_Clan_Ika_Kunoichi_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Clan_Ika/Ika_Kunoichi.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Clan_Ika/Kunoichi.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 '');
 insert into Characters (CardIndex) VALUES (1089);
@@ -360,7 +360,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (594
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ika Oni',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Ika/Card_Warband_Clan_Ika_Oni_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Ika/Card_Warband_Clan_Ika_Oni_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Clan_Ika/Ika_Oni.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Clan_Ika/Oni.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 '');
 insert into Characters (CardIndex) VALUES (1090); 
@@ -384,7 +384,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (595
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ika Yajiri',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Ika/Card_Warband_Clan_Ika_Yajiri_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Ika/Card_Warband_Clan_Ika_Yajiri_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Clan_Ika/Ika_Yajiri.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Clan_Ika/Yajiri.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 '');
 insert into Characters (CardIndex) VALUES (1091); 
@@ -405,7 +405,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (596
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Kitsune Madoushi',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Kitsune/Card_Warband_Clan_Kitsune_Madoushi_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Kitsune/Card_Warband_Clan_Kitsune_Madoushi_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Clan_Kitsune/Kitsune_Madoushi.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Clan_Kitsune/Madoushi.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'The Madoushi of the Kitsune clan are the masters of the healing herbs for which the Kitsune are known, as well as masters of the forest itself. They can sense pathways that nobody else can, quickly directing more Kitsune into the fight. They decide when the Kitsune are to take to battle. While the Kitsune are not under the sway of the Dark Consul, his influence has made all the clans of Kagejima more war-like, and the Madoushi are suspicious, likely to call the might of the Kitsune against complete strangers who wander into their territory.');
 insert into Characters (CardIndex) VALUES (1092); 
@@ -429,7 +429,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (597
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Kitsune Kaiken',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Kitsune/Card_Warband_Clan_Kitsune_Kaiken_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Kitsune/Card_Warband_Clan_Kitsune_Kaiken_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Clan_Kitsune/Kitsune_Kaiken.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Clan_Kitsune/Kaiken.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'The Kitsune inhabit the western faces of the mountains of Kagejima. These lands are covered in lush, wet forests which are full of strange and unpredictable kami. There are many tales of strange occurences in these lands, such as travelers entering a village and emerging a century later over the course of what seemed to them a single night. Uncounted people have become lost in the twisting forests of the Kitsune, and the deeper one goes into their territory, the greater the danger grows. Kaiken are the backbone of the Kitsune forces that tend to the secret paths and hidden villages of the Kitsune.');
 insert into Characters (CardIndex) VALUES (1093); 
@@ -451,7 +451,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (598
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Kitsune Kunoichi',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Kitsune/Card_Warband_Clan_Kitsune_Kunoichi_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Kitsune/Card_Warband_Clan_Kitsune_Kunoichi_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Clan_Kitsune/Kitsune_Kunoichi.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Clan_Kitsune/Kunoichi.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Kitsune teach their children to navigate the fickle forests in which they dwell at a young age. Being able to brave the wood in order to harvest potent herbs is necessary to become an adult in Kitsune society. Those youngsters who show particular adeptness at navigating their lands soon become Kaiken, trusted with guarding the paths. When they have mastered that, they are taught the ways of the Yajiri, how to use the forests themselves against their enemies. Only when they have mastered both the path of Kaiken and Yajiri will they gain the rank of Kunoichi.');
 insert into Characters (CardIndex) VALUES (1094);
@@ -474,7 +474,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (599
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Kitsune Oni',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Kitsune/Card_Warband_Clan_Kitsune_Oni_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Kitsune/Card_Warband_Clan_Kitsune_Oni_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Clan_Kitsune/Kitsune_Oni.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Clan_Kitsune/Oni.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'The Oni of the Kitsune are the physical manifestations of the forest kami themselves. They take on the monstrous, fox-like shape that belies their mischievous and fickle nature and fight alongside the Kitsune clan during times of great strife...or simply when they feel like it. In battle they are ferocious, cutting down any who dare to tread too far into their forests without permission.');
 insert into Characters (CardIndex) VALUES (1095); 
@@ -497,7 +497,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (600
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Kitsune Yajiri',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Kitsune/Card_Warband_Clan_Kitsune_Yajiri_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Kitsune/Card_Warband_Clan_Kitsune_Yajiri_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Clan_Kitsune/Kitsune_Yajiri.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Clan_Kitsune/Yajiri.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'The Kitsune Yajiri strike from the shadows of their twisted forests. Unwanted travelers will be pelted with darts, only to find that the Yajiri have vanished back into the depths of the wood. This tactic is not just used in order to allow the Yajiri escape, but to lure the trespassers deeper into the wood, where they will surely become lost and perish either due to the elements or the whims of a vengeful kami. The Kitsune territory is not a place for those who do not know its paths and secrets well, and the Yajiri use the landscape to its fullest effect.');
 insert into Characters (CardIndex) VALUES (1096); 
@@ -521,7 +521,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (601
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Sohei Madoushi',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Sohei/Card_Warband_Clan_Sohei_Madoushi_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Sohei/Card_Warband_Clan_Sohei_Madoushi_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Clan_Sohei/Sohei_Madoushi.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Clan_Sohei/Madoushi.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'The Sohei Madoushi have been granted visions of the realms across the ocean, and witnessed the taint of the Dark Consul upon those lands.  Fearing that Kagejima will become overrun, they have adopted a zero tolerance policy in regards to "Heroes" from other realms.');
 insert into Characters (CardIndex) VALUES (1097); 
@@ -543,7 +543,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (602
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Sohei Kaiken',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Sohei/Card_Warband_Clan_Sohei_Kaiken_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Sohei/Card_Warband_Clan_Sohei_Kaiken_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Clan_Sohei/Sohei_Kaiken.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Clan_Sohei/Kaiken.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'After completing the Nine Trials of Devotion, a Sohei''s soul is purified by the clan''s Madoushi and eleveated to Kaiken.  In combat, their swords are as the divine light of Ameratsu, banishing all shadows before them.');
 insert into Characters (CardIndex) VALUES (1098); 
@@ -562,7 +562,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (603
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Sohei Kunoichi',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Sohei/Card_Warband_Clan_Sohei_Kunoichi_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Sohei/Card_Warband_Clan_Sohei_Kunoichi_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Clan_Sohei/Sohei_Kunoichi.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Clan_Sohei/Kunoichi.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Trained specialist and charismatic leaders, Sohei Kunoichi are billiant points of light in the darkness.  They can be found where the Dark Consul''s influence is strongest, guiding their comrades in service to the light.');
 insert into Characters (CardIndex) VALUES (1099);
@@ -583,7 +583,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (604
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Sohei Yajiri',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Sohei/Card_Warband_Clan_Sohei_Yajiri_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Sohei/Card_Warband_Clan_Sohei_Yajiri_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Clan_Sohei/Sohei_Yajiri.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Clan_Sohei/Yajiri.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Sohei Yajiri are less experienced kohai who have only begun their journey along the ascetic paths of the Ikko, suporting the clan with disciplined bow fire.');
 insert into Characters (CardIndex) VALUES (1100); 
@@ -604,7 +604,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (605
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Elemental Shrine',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Spirit_Shrine/Card_Warband_Clan_Spirit_Shrine_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Spirit_Shrine/Card_Warband_Clan_Spirit_Shrine_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Clan_Spirit_Shrine/Clan_Spirit_Shrine.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Clan_Spirit_Shrine/Shrine.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 '');
 insert into Characters (CardIndex) VALUES (1101); 
@@ -626,7 +626,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (606
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Chunin',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Spirit_Shrine/Card_Warband_Clan_Spirit_Shrine_Chunin_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Spirit_Shrine/Card_Warband_Clan_Spirit_Shrine_Chunin_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Clan_Spirit_Shrine/Clan_Spirit_Shrine_Chunin.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Clan_Spirit_Shrine/Chunin.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Aspiring leaders and skilled fighters within the clan are called upon to lead their own team of ninja as chunin. This is an incredible honor, and the trials to come will not only test a chunin''s leadership and skills, but their spirit as well.');
 insert into Characters (CardIndex) VALUES (1102); 
@@ -649,7 +649,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (607
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Kaiken',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Spirit_Shrine/Card_Warband_Clan_Spirit_Shrine_Kaiken_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Spirit_Shrine/Card_Warband_Clan_Spirit_Shrine_Kaiken_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Clan_Spirit_Shrine/Clan_Spirit_Shrine_Kaiken.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Clan_Spirit_Shrine/Kaiken.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Kaiken are the backbone of the clans. To be a kaiken is not to be relegated to a basic or low role. Training to become a kaiken starts from birth and is ingrained through hardship, conditioning, and trials that normal people could not withstand. Kaiken are masters of the art of stealth, the sword, and the shuriken. As their experience grows, they learn to tap elemental magic, unlocking potent abilities to rival even the great Heroes.');
 insert into Characters (CardIndex) VALUES (1103); 
@@ -670,7 +670,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (608
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Kunoichi',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Spirit_Shrine/Card_Warband_Clan_Spirit_Shrine_Kunoichi_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Spirit_Shrine/Card_Warband_Clan_Spirit_Shrine_Kunoichi_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Clan_Spirit_Shrine/Clan_Spirit_Shrine_Kunoichi.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Clan_Spirit_Shrine/Kunoichi.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Kunoichi are specialized female fighters and scouts for the clans. Though deadly and widely trained in the ninja arts, the kunoichi put particular emphasis on speed and agility. In battle, kunoichi focus on key mission objectives such as scouting targets and carrying vital missives.');
 insert into Characters (CardIndex) VALUES (1104);
@@ -692,7 +692,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (609
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Madoushi',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Spirit_Shrine/Card_Warband_Clan_Spirit_Shrine_Madoushi_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Spirit_Shrine/Card_Warband_Clan_Spirit_Shrine_Madoushi_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Clan_Spirit_Shrine/Clan_Spirit_Madoushi.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Clan_Spirit_Shrine/Madoushi.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'All clans possess the mystics known as madoushi. In some clans, they are revered as sages, alchemists and healers. Other clans regard them as witches, and tolerate them with barely concealed mistrust and fear. Whether they are revered or reviled, all madoushi are able to harness the powers native to the lands of their clan. With training, study, and meditation, a madoushi learns to draw from the lines of Ki that race through the landscape, summoning the very elements to do their bidding.');
 insert into Characters (CardIndex) VALUES (1105); 
@@ -717,7 +717,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (610
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Yajiri',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Spirit_Shrine/Card_Warband_Clan_Spirit_Shrine_Yajiri_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Spirit_Shrine/Card_Warband_Clan_Spirit_Shrine_Yajiri_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Clan_Spirit_Shrine/Clan_Spirit_Yajiri.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Clan_Spirit_Shrine/Yajiri.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Yajiri specialize in attacking from afar. Their black shafted arrows are renowned for striking with deadly accuracy. While the bow is utilized throughout all the clans, many have developed their own unique forms of ranged warfare. The Kitsune''s blowguns eliminate sentries with only the sound of a silent rush of wind to mark their use; while the thunder of the Tora''s rifle sows confusion among the enemy ranks, even as it wreaks terrible devastation. No matter the form it takes, a yajiri''s value to their clan cannot be underestimated.');
 insert into Characters (CardIndex) VALUES (1106); 
@@ -740,7 +740,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (611
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Tanchyo Madoushi',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Tanchyo/Card_Warband_Clan_Tanchyo_Madoushi_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Tanchyo/Card_Warband_Clan_Tanchyo_Madoushi_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Clan_Tanchyo/Tanchyo_Madoushi.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Clan_Tanchyo/Madoushi.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'The Madoushi of clan Tanchyo have received the blessings of the Tengu, often even taking on the physical appearance of the Tengu themselves. They are masters of the wind, and use their magic to allow their fellow Tanchyo to soar through the air, getting them into the fight at impossible speeds as they race through the tree-tops.');
 insert into Characters (CardIndex) VALUES (1107); 
@@ -762,7 +762,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (612
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Tanchyo Kaiken',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Tanchyo/Card_Warband_Clan_Tanchyo_Kaiken_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Tanchyo/Card_Warband_Clan_Tanchyo_Kaiken_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Clan_Tanchyo/Tanchyo_Kaiken.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Clan_Tanchyo/Kaiken.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'For the Tanchyo, close-quarters fighting is rare. They live their lives among tree branches and rain arrows down on any who threaten their homes. But there are times that blade is necessary. In such times, the Tanchyo call upon their Kaiken. Where other clans have swordsmen as the bulk of their forces, Tanchyo Kaiken are rare and highly trained. They are only called upon in the most dire of circumstances.');
 insert into Characters (CardIndex) VALUES (1108); 
@@ -783,7 +783,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (613
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Tanchyo Kunoichi',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Tanchyo/Card_Warband_Clan_Tanchyo_Kunoichi_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Tanchyo/Card_Warband_Clan_Tanchyo_Kunoichi_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Clan_Tanchyo/Tanchyo_Kunoichi.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Clan_Tanchyo/Kunoichi.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Clan Tanchyo form incredibly close-knit family ties. The loss of a member is an accute pain, and vengeance is always swift and decisive. The Kunoichi are those who have lost a family member in combat and vowed to seek vengeance. They have dedicated themselves to the art of war, so that no other Tanchyo family has to know their pain. All-out war on Kagejima has been avoided thanks to the Moon Court, but small skirmishes are common, and clan Tanchyo is very suspicious of outsiders, often leading them into conflict with strangers who stray too far into their lands.');
 insert into Characters (CardIndex) VALUES (1109);
@@ -805,7 +805,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (614
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Tanchyo Oni',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Tanchyo/Card_Warband_Clan_Tanchyo_Oni_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Tanchyo/Card_Warband_Clan_Tanchyo_Oni_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Clan_Tanchyo/Tanchyo_Oni.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Clan_Tanchyo/Oni.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Tanchyo Oni are the physical incarnations of the kami that stalk the dense forests that the Tanchyo call home. They take the form of massive birds of prey, and they hold command over air, creating furious cyclones that can sweep their opponents from the trees they call home. Tanchyo Oni are particularly fearsome, and they are only called upon by the clan in the most dire and desperate of circumstances.');
 insert into Characters (CardIndex) VALUES (1110); 
@@ -827,7 +827,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (615
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Tanchyo Yajiri',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Tanchyo/Card_Warband_Clan_Tanchyo_Yajiri_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Tanchyo/Card_Warband_Clan_Tanchyo_Yajiri_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Clan_Tanchyo/Tanchyo_Yajiri.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Clan_Tanchyo/Yajiri.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'The north of Kagejima is dominated by vast expanses of sheltering forests. Dozens or hundreds of feet above the forest floor, clever dwellings dot the boughs and trunks, connected by walkways and rope bridges. These are the villages of clan Tanchyo. Living in the canopy, every member of clan Tanchyo has become an expert climber and marksman, as there is no better way to protect their tree-top homes. The archers of the Tanchyo, the Yajiri, are both plentiful and exceptionally skilled.');
 insert into Characters (CardIndex) VALUES (1111); 
@@ -848,7 +848,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (616
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Tora Madoushi',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Tora/Card_Warband_Clan_Tora_Madoushi_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Tora/Card_Warband_Clan_Tora_Madoushi_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Clan_Tora/Tora_Madoushi.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Clan_Tora/Madoushi.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'The path of the Madoushi is more than just elemental magics, Madoushi of the Tora employ all manner of alchemy and blacksmith techniques in creating imbued weapons and destructive explosives in addition to their mastery of fire.');
 insert into Characters (CardIndex) VALUES (1112); 
@@ -871,7 +871,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (617
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Tora Kaiken',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Tora/Card_Warband_Clan_Tora_Kaiken_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Tora/Card_Warband_Clan_Tora_Kaiken_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Clan_Tora/Tora_Kaiken.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Clan_Tora/Kaiken.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Summoning the spirit of the tiger, the ninja of the Tora clan are ferocious and cunning. Beware their wrath. They find thrill in the fight, always rising up the challenge of their rivals.');
 insert into Characters (CardIndex) VALUES (1113); 
@@ -890,7 +890,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (618
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Tora Kunoichi',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Tora/Card_Warband_Clan_Tora_Kunoichi_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Tora/Card_Warband_Clan_Tora_Kunoichi_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Clan_Tora/Tora_Kunoichi.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Clan_Tora/Kunoichi.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'With so much mineral wealth to protect, the Tora employ their kunoichi as advance scouts when on campaign, and often amongst the villagers, dressed as common travellers or merchants to keep their eyes out for threats.');
 insert into Characters (CardIndex) VALUES (1114);
@@ -912,7 +912,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (619
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Tora Oni',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Tora/Card_Warband_Clan_Tora_Oni_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Tora/Card_Warband_Clan_Tora_Oni_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Clan_Tora/Tora_Oni.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Clan_Tora/Oni.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Encased in solid steel and iron, the Tora value the giant guardians that join their fights. It is best to be well out of the way should one of these monsters find its way to you. Arrows and spears break harmlessly off their iron flanks as they wade into battle.');
 insert into Characters (CardIndex) VALUES (1115); 
@@ -935,7 +935,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (620
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Tora Yajiri',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Tora/Card_Warband_Clan_Tora_Yajiri_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Tora/Card_Warband_Clan_Tora_Yajiri_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Clan_Tora/Tora_Yajiri.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Clan_Tora/Yajiri.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Though other clans follow the traditional arts of the bow in their own way, the Yajiri of the Tora lean on their clans chemists and their masterwork teppo, long iron weapons that can spit fire and shot. The smoke and damage is more pleasing to the Tora''s way of war.');
 insert into Characters (CardIndex) VALUES (1116); 
@@ -958,7 +958,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (621
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Elemental Shrine',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Void_Shrine/Card_Warband_Clan_Void_Shrine_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Void_Shrine/Card_Warband_Clan_Void_Shrine_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Clan_Void_Shrine/Clan_Void_Shrine.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Clan_Void_Shrine/Shrine.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 '');
 insert into Characters (CardIndex) VALUES (1117); 
@@ -980,7 +980,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (622
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Chunin',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Void_Shrine/Card_Warband_Clan_Void_Shrine_Chunin_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Void_Shrine/Card_Warband_Clan_Void_Shrine_Chunin_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Clan_Void_Shrine/Clan_Void_Shrine_Chunin.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Clan_Void_Shrine/Chunin.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Aspiring leaders and skilled fighters within the clan are called upon to lead their own team of ninja as chunin. This is an incredible honor, and the trials to come will not only test a chunin''s leadership and skills, but their spirit as well.');
 insert into Characters (CardIndex) VALUES (1118); 
@@ -1003,7 +1003,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (623
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Kaiken',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Void_Shrine/Card_Warband_Clan_Void_Shrine_Kaiken_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Void_Shrine/Card_Warband_Clan_Void_Shrine_Kaiken_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Clan_Void_Shrine/Clan_Void_Shrine_Kaiken.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Clan_Void_Shrine/Kaiken.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Kaiken are the backbone of the clans. To be a kaiken is not to be relegated to a basic or low role. Training to become a kaiken starts from birth and is ingrained through hardship, conditioning, and trials that normal people could not withstand. Kaiken are masters of the art of stealth, the sword, and the shuriken. As their experience grows, they learn to tap elemental magic, unlocking potent abilities to rival even the great Heroes.');
 insert into Characters (CardIndex) VALUES (1119); 
@@ -1024,7 +1024,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (624
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Kunoichi',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Void_Shrine/Card_Warband_Clan_Void_Shrine_Kunoichi_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Void_Shrine/Card_Warband_Clan_Void_Shrine_Kunoichi_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Clan_Void_Shrine/Clan_Void_Shrine_Kunoichi.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Clan_Void_Shrine/Kunoichi.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Kunoichi are specialized female fighters and scouts for the clans. Though deadly and widely trained in the ninja arts, the kunoichi put particular emphasis on speed and agility. In battle, kunoichi focus on key mission objectives such as scouting targets and carrying vital missives.');
 insert into Characters (CardIndex) VALUES (1120);
@@ -1046,7 +1046,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (625
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Madoushi',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Void_Shrine/Card_Warband_Clan_Void_Shrine_Madoushi_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Void_Shrine/Card_Warband_Clan_Void_Shrine_Madoushi_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Clan_Void_Shrine/Clan_Void_Madoushi.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Clan_Void_Shrine/Madoushi.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'All clans possess the mystics known as madoushi. In some clans, they are revered as sages, alchemists and healers. Other clans regard them as witches, and tolerate them with barely concealed mistrust and fear. Whether they are revered or reviled, all madoushi are able to harness the powers native to the lands of their clan. With training, study, and meditation, a madoushi learns to draw from the lines of Ki that race through the landscape, summoning the very elements to do their bidding.');
 insert into Characters (CardIndex) VALUES (1121); 
@@ -1071,7 +1071,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (626
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Yajiri',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Void_Shrine/Card_Warband_Clan_Void_Shrine_Yajiri_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Void_Shrine/Card_Warband_Clan_Void_Shrine_Yajiri_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Clan_Void_Shrine/Clan_Void_Yajiri.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Clan_Void_Shrine/Yajiri.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Yajiri specialize in attacking from afar. Their black shafted arrows are renowned for striking with deadly accuracy. While the bow is utilized throughout all the clans, many have developed their own unique forms of ranged warfare. The Kitsune''s blowguns eliminate sentries with only the sound of a silent rush of wind to mark their use; while the thunder of the Tora''s rifle sows confusion among the enemy ranks, even as it wreaks terrible devastation. No matter the form it takes, a yajiri''s value to their clan cannot be underestimated.');
 insert into Characters (CardIndex) VALUES (1122); 
@@ -1094,7 +1094,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (627
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Elemental Shrine',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Water_Shrine/Card_Warband_Clan_Water_Shrine_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Water_Shrine/Card_Warband_Clan_Water_Shrine_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Clan_Water_Shrine/Clan_Water_Shrine.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Clan_Water_Shrine/Shrine.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 '');
 insert into Characters (CardIndex) VALUES (1123); 
@@ -1116,7 +1116,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (628
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Chunin',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Water_Shrine/Card_Warband_Clan_Water_Shrine_Chunin_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Water_Shrine/Card_Warband_Clan_Water_Shrine_Chunin_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Clan_Water_Shrine/Clan_Water_Shrine_Chunin.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Clan_Water_Shrine/Chunin.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Aspiring leaders and skilled fighters within the clan are called upon to lead their own team of ninja as chunin. This is an incredible honor, and the trials to come will not only test a chunin''s leadership and skills, but their spirit as well.');
 insert into Characters (CardIndex) VALUES (1124); 
@@ -1139,7 +1139,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (629
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Kaiken',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Water_Shrine/Card_Warband_Clan_Water_Shrine_Kaiken_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Water_Shrine/Card_Warband_Clan_Water_Shrine_Kaiken_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Clan_Water_Shrine/Clan_Water_Shrine_Kaiken.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Clan_Water_Shrine/Kaiken.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Kaiken are the backbone of the clans. To be a kaiken is not to be relegated to a basic or low role. Training to become a kaiken starts from birth and is ingrained through hardship, conditioning, and trials that normal people could not withstand. Kaiken are masters of the art of stealth, the sword, and the shuriken. As their experience grows, they learn to tap elemental magic, unlocking potent abilities to rival even the great Heroes.');
 insert into Characters (CardIndex) VALUES (1125); 
@@ -1160,7 +1160,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (630
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Kunoichi',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Water_Shrine/Card_Warband_Clan_Water_Shrine_Kunoichi_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Water_Shrine/Card_Warband_Clan_Water_Shrine_Kunoichi_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Clan_Water_Shrine/Clan_Water_Shrine_Kunoichi.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Clan_Water_Shrine/Kunoichi.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Kunoichi are specialized female fighters and scouts for the clans. Though deadly and widely trained in the ninja arts, the kunoichi put particular emphasis on speed and agility. In battle, kunoichi focus on key mission objectives such as scouting targets and carrying vital missives.');
 insert into Characters (CardIndex) VALUES (1126);
@@ -1182,7 +1182,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (631
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Madoushi',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Water_Shrine/Card_Warband_Clan_Water_Shrine_Madoushi_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Water_Shrine/Card_Warband_Clan_Water_Shrine_Madoushi_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Clan_Water_Shrine/Clan_Water_Madoushi.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Clan_Water_Shrine/Madoushi.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'All clans possess the mystics known as madoushi. In some clans, they are revered as sages, alchemists and healers. Other clans regard them as witches, and tolerate them with barely concealed mistrust and fear. Whether they are revered or reviled, all madoushi are able to harness the powers native to the lands of their clan. With training, study, and meditation, a madoushi learns to draw from the lines of Ki that race through the landscape, summoning the very elements to do their bidding.');
 insert into Characters (CardIndex) VALUES (1127); 
@@ -1207,7 +1207,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (632
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Yajiri',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Water_Shrine/Card_Warband_Clan_Water_Shrine_Yajiri_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Water_Shrine/Card_Warband_Clan_Water_Shrine_Yajiri_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Clan_Water_Shrine/Clan_Water_Yajiri.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Clan_Water_Shrine/Yajiri.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Yajiri specialize in attacking from afar. Their black shafted arrows are renowned for striking with deadly accuracy. While the bow is utilized throughout all the clans, many have developed their own unique forms of ranged warfare. The Kitsune''s blowguns eliminate sentries with only the sound of a silent rush of wind to mark their use; while the thunder of the Tora''s rifle sows confusion among the enemy ranks, even as it wreaks terrible devastation. No matter the form it takes, a yajiri''s value to their clan cannot be underestimated.');
 insert into Characters (CardIndex) VALUES (1128); 
@@ -1230,7 +1230,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (633
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Yamazaru Madoushi',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Yamazaru/Card_Warband_Clan_Yamazaru_Madoushi_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Yamazaru/Card_Warband_Clan_Yamazaru_Madoushi_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Clan_Yamazaru/Yamazaru_Madoushi.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Clan_Yamazaru/Madoushi.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 '');
 insert into Characters (CardIndex) VALUES (1129); 
@@ -1253,7 +1253,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (634
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Yamazaru Kaiken',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Yamazaru/Card_Warband_Clan_Yamazaru_Kaiken_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Yamazaru/Card_Warband_Clan_Yamazaru_Kaiken_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Clan_Yamazaru/Yamazaru_Kaiken.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Clan_Yamazaru/Kaiken.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'While the Yamazaru value stoicism and hard-edged practicality as survival traits, they see the harsh cold of their mountain homes as good reason to be warm and open in their lives. The weather often limits travel, forcing clan members to live closely with others. They gleefully play pranks, engaging in "wars of smiles" with neighboring villages. This gives the Yamazaru kaiken who fight side by side a warm bond rarely seen in the other clans.');
 insert into Characters (CardIndex) VALUES (1130); 
@@ -1274,7 +1274,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (635
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Yamazaru Kunoichi',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Yamazaru/Card_Warband_Clan_Yamazaru_Kunoichi_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Yamazaru/Card_Warband_Clan_Yamazaru_Kunoichi_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Clan_Yamazaru/Yamazaru_Kunoichi.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Clan_Yamazaru/Kunoichi.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Yamazaru warriors are famous for unmatched feets of natural stamina. They engage in an activity called "catching snow" where they stand completely still for days. They swim wide mountain lakes without coming up for air. And many engage in the ritual called "The Mountain Sees" where they test their spiritual endurance in the treacherous mountain peaks. The Yamazaru kunoichi have mastered all of these feets.');
 insert into Characters (CardIndex) VALUES (1131);
@@ -1299,7 +1299,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (636
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Yamazaru Oni',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Yamazaru/Card_Warband_Clan_Yamazaru_Oni_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Yamazaru/Card_Warband_Clan_Yamazaru_Oni_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Clan_Yamazaru/Yamazaru_Oni.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Clan_Yamazaru/Oni.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'The Yamazaru have rich spiritual lives which has granted them an intimate connection with their mountain home and the creatures that dwell there. The mighty monkey oni are fierce companions of the Yamazaru, defending them in times of danger and playfully playing tricks on them during times of peace.');
 insert into Characters (CardIndex) VALUES (1132); 
@@ -1321,7 +1321,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (637
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Yamazaru Yajiri',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Yamazaru/Card_Warband_Clan_Yamazaru_Yajiri_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Yamazaru/Card_Warband_Clan_Yamazaru_Yajiri_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Clan_Yamazaru/Yamazaru_Yajiri.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Clan_Yamazaru/Yajiri.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 '');
 insert into Characters (CardIndex) VALUES (1133); 
@@ -1345,7 +1345,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (638
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Yurei Madoushi',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Yurei/Card_Warband_Clan_Yurei_Madoushi_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Yurei/Card_Warband_Clan_Yurei_Madoushi_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Clan_Yurei/Yurei_Madoushi.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Clan_Yurei/Madoushi.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'It was the Yurei''s Madoushi that consigned their lords to their fate of undeath. Knowing that they would be able to fight on, even in death, they can serve their Lord and regain the honor of their clan.');
 insert into Characters (CardIndex) VALUES (1134); 
@@ -1367,7 +1367,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (639
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Yurei Kaiken',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Yurei/Card_Warband_Clan_Yurei_Kaiken_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Yurei/Card_Warband_Clan_Yurei_Kaiken_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Clan_Yurei/Yurei_Kaiken.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Clan_Yurei/Kaiken.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'The spirit that clings hardest to revenge with a cold heart can bring ruin to their enemies after their own heart stops beating. - The Tao of Fukushu');
 insert into Characters (CardIndex) VALUES (1135); 
@@ -1388,7 +1388,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (640
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Yurei Kunoichi',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Yurei/Card_Warband_Clan_Yurei_Kunoichi_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Yurei/Card_Warband_Clan_Yurei_Kunoichi_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Clan_Yurei/Yurei_Kunoichi.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Clan_Yurei/Kunoichi.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Far ranging from the dread fleets, coastline scouts of the Ika often warn of floating jetsam. Bodies entangled in the nets and old wood might just be agents of the Yurei lying in wait to drag more of their sworn enemy into the watery depths.');
 insert into Characters (CardIndex) VALUES (1136);
@@ -1411,7 +1411,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (641
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Yurei Yajiri',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Yurei/Card_Warband_Clan_Yurei_Yajiri_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Clan_Yurei/Card_Warband_Clan_Yurei_Yajiri_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Clan_Yurei/Yurei_Yajiri.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Clan_Yurei/Yajiri.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Vengeance guide my black arrows, pierce the hearts of the warm and the living, bring me the victory over my enemies stolen from me in life. - unknown Yurei Yajiri');
 insert into Characters (CardIndex) VALUES (1137); 
