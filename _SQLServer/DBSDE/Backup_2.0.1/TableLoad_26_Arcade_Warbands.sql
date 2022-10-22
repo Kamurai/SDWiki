@@ -873,7 +873,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (710, 1437
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Yamazaru Madoushi (beta)',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Yamazaru/Card_Arcade_Warband_Clan_Yamazaru_Madoushi_beta_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Yamazaru/Card_Arcade_Warband_Clan_Yamazaru_Madoushi_beta_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Clan_Yamazaru/Yamazaru_Madoushi_beta.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Clan_Yamazaru/Yamazaru_Madoushi_Beta.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Arcade', 
 '');
 insert into Characters (CardIndex) VALUES (1392);
@@ -914,7 +914,7 @@ VALUES (235, 1, 'Yamazaru Kaiken', 'Yamazaru', 'Minion', 7, 1, 0, 635);
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Monkey Mischief (beta)',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Yamazaru/Card_Arcade_Warband_Clan_Yamazaru_Monkey_Mischief_beta_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Yamazaru/Card_Arcade_Warband_Clan_Yamazaru_Monkey_Mischief_beta_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Clan_Yamazaru/Monkey_Mischief_beta.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Clan_Yamazaru/Monkey_Mischief_Beta.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Arcade', 
 'While the Yamazaru value stoicism and hard-edged practicality as survival traits, they see the harsh cold of their mountain homes as good reason to be warm and open in their lives. The weather often limits travel, forcing clan members to live closely with others. They gleefully play pranks, engaging in "wars of smiles" with neighboring villages. This gives the Yamazaru kaiken who fight side by side a warm bond rarely seen in the other clans. These kaiken are quick to listen to the deadly kunoichi who often lead them into battle.');
 insert into Characters (CardIndex) VALUES (1394);
@@ -954,7 +954,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (716, 1940
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Yamazaru Oni (beta)',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Yamazaru/Card_Arcade_Warband_Clan_Yamazaru_Oni_beta_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Yamazaru/Card_Arcade_Warband_Clan_Yamazaru_Oni_beta_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Clan_Yamazaru/Yamazaru_Oni_beta.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Clan_Yamazaru/Yamazaru_Oni_Beta.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Arcade', 
 'The Yamazaru have rich spiritual lives which has granted them an intimate connection with their mountain home and the creatures that dwell there. The mighty monkey oni are fierce companions of the Yamazaru, defending them in times of danger and playfully playing tricks on them during times of peace.');
 insert into Characters (CardIndex) VALUES (1396);
@@ -992,7 +992,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (718, 1439
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Yamazaru Yajiri (beta)',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Yamazaru/Card_Arcade_Warband_Clan_Yamazaru_Yajiri_beta_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Yamazaru/Card_Arcade_Warband_Clan_Yamazaru_Yajiri_beta_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Clan_Yamazaru/Yamazaru_Yajiri_beta.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Clan_Yamazaru/Yamazaru_Yajiri_Beta.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Arcade', 
 'Yamazaru yajiri are expert marxmen, often hunting in blinding snow and among rocky mountain peaks. They brave the harh, freezing conditions with a smile, bringing back game to be shared by their household. During times of strife they are called to action, where their skill with a bow is highly valued.');
 insert into Characters (CardIndex) VALUES (1398);

@@ -774,7 +774,7 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (2
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Cat Burglar (beta)', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Cat_Burglar_beta_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Cat Burglar_beta_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Cat_Burglar_beta.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Cat_Burglar_Beta.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
 '');
 insert into Characters (CardIndex) VALUES (793);

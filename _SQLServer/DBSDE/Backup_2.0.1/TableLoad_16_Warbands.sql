@@ -1930,7 +1930,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (665
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Skull Squawk (beta)',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Knight/Card_Warband_Cursed_Knight_Skull_Squawk_beta_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Knight/Card_Warband_Cursed_Knight_Skull_Squawk_beta_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Cursed_Knight/Skull_Squawk_beta_.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Cursed_Knight/Skull_Squawk_Beta.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Skull Squawk knights are a secretive bunch. In fact, there are none who can recall ever seeing one outside of their armor or sharing a single word with another. This shadowy aloofness, combined with Skull Squawks'' uncanny supernatural abilities lead many to wonder if they are truly within the realm of the living at all...');
 insert into Characters (CardIndex) VALUES (1161); 
