@@ -869,11 +869,11 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (710, 908)
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (710, 927); --Spawning Pool
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (710, 1437); --Mountain Flute
 
---Yamazaru Madoushi (beta)	--CardIndex 1392	--CharacterIndex 1002	--ArcadeCharacterIndex 234
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Yamazaru Madoushi (beta)',
+--Yamazaru Madoushi (Beta)	--CardIndex 1392	--CharacterIndex 1002	--ArcadeCharacterIndex 234
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Yamazaru Madoushi (Beta)',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Yamazaru/Card_Arcade_Warband_Clan_Yamazaru_Madoushi_beta_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Yamazaru/Card_Arcade_Warband_Clan_Yamazaru_Madoushi_beta_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Clan_Yamazaru/Yamazaru_Madoushi_Beta.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Clan_Yamazaru/Yamazaru_Madoushi_beta.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Arcade', 
 '');
 insert into Characters (CardIndex) VALUES (1392);
@@ -910,11 +910,11 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (712, 1443
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (235, 1, 'Yamazaru Kaiken', 'Yamazaru', 'Minion', 7, 1, 0, 635);
 
---Monkey Mischief (beta)	--CardIndex 1394	--CharacterIndex 1004	--ArcadeCharacterIndex 236
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Monkey Mischief (beta)',
+--Monkey Mischief (Beta)	--CardIndex 1394	--CharacterIndex 1004	--ArcadeCharacterIndex 236
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Monkey Mischief (Beta)',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Yamazaru/Card_Arcade_Warband_Clan_Yamazaru_Monkey_Mischief_beta_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Yamazaru/Card_Arcade_Warband_Clan_Yamazaru_Monkey_Mischief_beta_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Clan_Yamazaru/Monkey_Mischief_Beta.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Clan_Yamazaru/Monkey_Mischief_beta.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Arcade', 
 'While the Yamazaru value stoicism and hard-edged practicality as survival traits, they see the harsh cold of their mountain homes as good reason to be warm and open in their lives. The weather often limits travel, forcing clan members to live closely with others. They gleefully play pranks, engaging in "wars of smiles" with neighboring villages. This gives the Yamazaru kaiken who fight side by side a warm bond rarely seen in the other clans. These kaiken are quick to listen to the deadly kunoichi who often lead them into battle.');
 insert into Characters (CardIndex) VALUES (1394);
@@ -950,11 +950,11 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (716, 706)
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (716, 891); --Shiny Bauble
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (716, 1940); --Yamazaru's Tail
 
---Yamazaru Oni (beta)	--CardIndex 1396	--CharacterIndex 1006	--ArcadeCharacterIndex 238
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Yamazaru Oni (beta)',
+--Yamazaru Oni (Beta)	--CardIndex 1396	--CharacterIndex 1006	--ArcadeCharacterIndex 238
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Yamazaru Oni (Beta)',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Yamazaru/Card_Arcade_Warband_Clan_Yamazaru_Oni_beta_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Yamazaru/Card_Arcade_Warband_Clan_Yamazaru_Oni_beta_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Clan_Yamazaru/Yamazaru_Oni_Beta.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Clan_Yamazaru/Yamazaru_Oni_beta.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Arcade', 
 'The Yamazaru have rich spiritual lives which has granted them an intimate connection with their mountain home and the creatures that dwell there. The mighty monkey oni are fierce companions of the Yamazaru, defending them in times of danger and playfully playing tricks on them during times of peace.');
 insert into Characters (CardIndex) VALUES (1396);
@@ -988,11 +988,11 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (718, 647)
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (718, 891); --Shiny Bauble
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (718, 1439); --Mountain Disapproves, The
 
---Yamazaru Yajiri (beta)	--CardIndex 1398	--CharacterIndex 1008	--ArcadeCharacterIndex 240
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Yamazaru Yajiri (beta)',
+--Yamazaru Yajiri (Beta)	--CardIndex 1398	--CharacterIndex 1008	--ArcadeCharacterIndex 240
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Yamazaru Yajiri (Beta)',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Yamazaru/Card_Arcade_Warband_Clan_Yamazaru_Yajiri_beta_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Yamazaru/Card_Arcade_Warband_Clan_Yamazaru_Yajiri_beta_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Clan_Yamazaru/Yamazaru_Yajiri_Beta.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Clan_Yamazaru/Yamazaru_Yajiri_beta.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Arcade', 
 'Yamazaru yajiri are expert marxmen, often hunting in blinding snow and among rocky mountain peaks. They brave the harh, freezing conditions with a smile, bringing back game to be shared by their household. During times of strife they are called to action, where their skill with a bow is highly valued.');
 insert into Characters (CardIndex) VALUES (1398);
@@ -1232,9 +1232,9 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (735, 1007
 
 --Cursed Barrow Errata --CardIndex 1409 --CharacterIndex 1019 --ArcadeCharacterIndex 251
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Cursed Barrow Errata',
-'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Cursed_Barrow/Card_Arcade_Warband_Cursed_Barrow_Errata_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Cursed_Barrow/Card_Arcade_Warband_Cursed_Barrow_Errata_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Cursed_Barrow/Cursed_Barrow_Errata.xhtml', 
+'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Cursed_Barrow/Card_Arcade_Warband_Cursed_Barrow_errata_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Cursed_Barrow/Card_Arcade_Warband_Cursed_Barrow_errata_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Cursed_Barrow/Cursed_Barrow_errata.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Arcade', 
 'When Elrik doomed his Reavers to the curse of undeath, he ordered the construction of a grand and macabre hall, to house him and his new warriors, deep beneath the Frostbyte Reach. Resembling a tomb more than a palace or castle, the Hall of the Lich King sprawls for untold miles beneath the surface. The only sign of the Hall upon the surface are the burial mounds of the cursed barrows. Here, Elrik''s cursed draugr warriors take rest, ever alert for trespassing Heroes.');
 insert into Characters (CardIndex) VALUES (1409);
@@ -2103,9 +2103,9 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (803, 536)
 
 --Maleficent Idol Errata --CardIndex 1449 --CharacterIndex 1059 --ArcadeCharacterIndex 291
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Maleficent Idol Errata',
-'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Maleficent_Idol/Card_Arcade_Warband_Maleficent_Idol_Maleficent_Idol_Errata_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Maleficent_Idol/Card_Arcade_Warband_Maleficent_Idol_Maleficent_Idol_Errata_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Maleficent_Idol/Maleficent_Idol_Errata.xhtml', 
+'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Maleficent_Idol/Card_Arcade_Warband_Maleficent_Idol_Maleficent_Idol_errata_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Maleficent_Idol/Card_Arcade_Warband_Maleficent_Idol_Maleficent_Idol_errata_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Maleficent_Idol/Maleficent_Idol_errata.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Arcade', 
 'Usually Araphel''s dealings and worship are done in secret. Her followers move about in the shadows, applying subtle influence and spinning devious webs. However, there are places in the Dark Realm and the hidden corners of Crystalia where Araphel is worshipped openly. In these places a Maleficent Idol is erected in Araphel''s honor, carved in her likeness with the chained heart that has come to signify devotion to her.');
 insert into Characters (CardIndex) VALUES (1449);

@@ -1691,17 +1691,17 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (654
 
 --Cursed Barrow Errata  --CardIndex 1150 --CharacterIndex 760 --ExploreCharacterIndex 655
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Cursed Barrow Errata',
-'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Barrow/Card_Warband_Cursed_Barrow_Errata_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Barrow/Card_Warband_Cursed_Barrow_Errata_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Cursed_Barrow/Cursed_Barrow_Errata.xhtml', 
+'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Barrow/Card_Warband_Cursed_Barrow_errata_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Barrow/Card_Warband_Cursed_Barrow_errata_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Cursed_Barrow/Cursed_Barrow_errata.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'When Elrik doomed his Reavers to the curse of undeath, he ordered the construction of a grand and macabre hall, to house him and his new warriors, deep beneath the Frostbyte Reach. Resembling a tomb more than a palace or castle, the Hall of the Lich King sprawls for untold miles beneath the surface. The only sign of the Hall upon the surface are the burial mounds of the cursed barrows. Here, Elrik''s cursed draugr warriors take rest, ever alert for trespassing Heroes.');
 insert into Characters (CardIndex) VALUES (1150); 
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (760, 0); --Amethyst
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (760,
-'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Barrow/Standies/Cursed_Barrow_Errata_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Barrow/Standies/Cursed_Barrow_Errata_2.0_back.png', 
+'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Barrow/Standies/Cursed_Barrow_errata_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Barrow/Standies/Cursed_Barrow_errata_2.0_back.png', 
 'Neither', 'Small', 'Spawning Point', 0, 0, '', '1ST', '', '', 3, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (655, 547); --Despair
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (655, 681); --Immune: Status Effects
@@ -1926,11 +1926,11 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (665, 2); --Armor 
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (665, 'Elite', '8 Bit', 2); 
 
---Skull Squawk (beta) --CardIndex 1161 --CharacterIndex 771 --ExploreCharacterIndex 666
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Skull Squawk (beta)',
+--Skull Squawk (Beta) --CardIndex 1161 --CharacterIndex 771 --ExploreCharacterIndex 666
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Skull Squawk (Beta)',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Knight/Card_Warband_Cursed_Knight_Skull_Squawk_beta_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Cursed_Knight/Card_Warband_Cursed_Knight_Skull_Squawk_beta_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Cursed_Knight/Skull_Squawk_Beta.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Cursed_Knight/Skull_Squawk_beta.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Skull Squawk knights are a secretive bunch. In fact, there are none who can recall ever seeing one outside of their armor or sharing a single word with another. This shadowy aloofness, combined with Skull Squawks'' uncanny supernatural abilities lead many to wonder if they are truly within the realm of the living at all...');
 insert into Characters (CardIndex) VALUES (1161); 
@@ -2932,9 +2932,9 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (712
 
 --Maleficent Idol Errata	--CardIndex 1208 --CharacterIndex 818 --ExploreCharacterIndex 713
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Maleficent Idol Errata',
-'http://htkb.info/SDE/2.0/Cards/Warbands/Maleficent_Idol/Card_Warband_Maleficent_Idol_Errata_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Maleficent_Idol/Card_Warband_Maleficent_Idol_Errata_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Maleficent_Idol/Maleficent_Idol_Errata.xhtml', 
+'http://htkb.info/SDE/2.0/Cards/Warbands/Maleficent_Idol/Card_Warband_Maleficent_Idol_errata_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Warbands/Maleficent_Idol/Card_Warband_Maleficent_Idol_errata_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Maleficent_Idol/Maleficent_Idol_errata.xhtml', 
 'Warband', '2.0', '2.0 Core Set', 'Explore',
 'Usually Araphel''s dealings and worship are done in secret. Her followers move about in the shadows, applying subtle influence and spinning devious webs. However, there are places in the Dark Realm and the hidden corners of Crystalia where Araphel is worshipped openly. In these places a Maleficent Idol is erected in Araphel''s honor, carved in her likeness with the chained heart that has come to signify devotion to her.');
 insert into Characters (CardIndex) VALUES (1208); 

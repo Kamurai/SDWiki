@@ -572,7 +572,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Royal Fencer (v1)', 
 'http://htkb.info/SDE/1.0/Custom/Cards/Heroes/Card_Hero_Royal_Fencer_v1_1.0_Custom.png', 
 'http://htkb.info/SDE/1.0/Custom/Cards/Heroes/Card_Hero_Royal_Fencer_v1_1.0_Custom_back.png', 
-'http://htkb.online/SDWiki/SDE/1.0/Custom/Cards/Heroes/Royal_Fencer.xhtml', 
+'http://htkb.online/SDWiki/SDE/1.0/Custom/Cards/Heroes/Royal_Fencer_v1.xhtml', 
 'Hero', '1.0 Custom', '1.0 Custom Set', 'Default', 
 '');
 insert into Characters (CardIndex) VALUES (2308);
@@ -599,7 +599,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Royal Fencer (v2)', 
 'http://htkb.info/SDE/1.0/Custom/Cards/Heroes/Card_Hero_Royal_Fencer_v2_1.0_Custom.png', 
 'http://htkb.info/SDE/1.0/Custom/Cards/Heroes/Card_Hero_Royal_Fencer_v2_1.0_Custom_back.png', 
-'http://htkb.online/SDWiki/SDE/1.0/Custom/Cards/Heroes/Royal_Fencer.xhtml', 
+'http://htkb.online/SDWiki/SDE/1.0/Custom/Cards/Heroes/Royal_Fencer_v2.xhtml', 
 'Hero', '1.0 Custom', '1.0 Custom Set', 'Default', 
 '');
 insert into Characters (CardIndex) VALUES (2309);

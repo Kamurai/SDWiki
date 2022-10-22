@@ -523,7 +523,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Hidden Shrine Mystic (Beta)', 
 'http://htkb.info/SDE/FK/Cards/Heroes/Card_Hero_Hidden_Shrine_Mystic_beta_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Heroes/Card_Hero_Hidden_Shrine_Mystic_beta_FK_back.png', 
-'http://htkb.online/SDWiki/SDE/FK/Cards/Heroes/Hidden_Shrine_Mystic_Beta.xhtml', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Heroes/Hidden_Shrine_Mystic_beta.xhtml', 
 'Hero', 'FK', 'FK Core Set', 'Default', 
 '');
 insert into Characters (CardIndex) VALUES (176);
@@ -849,12 +849,12 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (104, 2); --Armor
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (104, 4); --Dexterity
 
---Princess Emerald (beta) --CardIndex 190	--CharacterIndex 105	--ExploreCharacterIndex 105
+--Princess Emerald (Beta) --CardIndex 190	--CharacterIndex 105	--ExploreCharacterIndex 105
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
-'Princess Emerald (beta)', 
+'Princess Emerald (Beta)', 
 'http://htkb.info/SDE/FK/Cards/Heroes/Card_Hero_Princess_Emerald_beta_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Heroes/Card_Hero_Princess_Emerald_beta_FK_back.png', 
-'http://htkb.online/SDWiki/SDE/FK/Cards/Heroes/Princess_Emerald_Beta.xhtml', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Heroes/Princess_Emerald_beta.xhtml', 
 'Hero', 'FK', 'FK Core Set', 'Default', 
 'Princess Emerald has always been the most free-spirited of the Crystalian Princesses.  Holding a deep love for the forest she has developed a mastery of nature craft rivaled only by the elves.  She has long been fascinated by the legends of The Forgotten King and the tragedy of his curse.');
 insert into Characters (CardIndex) VALUES (190);
@@ -940,12 +940,12 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (108, 2); --Armor
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (108, 4); --Dexterity
 
---Questing Knight (beta)--CardIndex 194	--CharacterIndex 109	--ExploreCharacterIndex 109
+--Questing Knight (Beta)--CardIndex 194	--CharacterIndex 109	--ExploreCharacterIndex 109
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
-'Questing Knight (beta)', 
+'Questing Knight (Beta)', 
 'http://htkb.info/SDE/FK/Cards/Heroes/Card_Hero_Questing_Knight_beta_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Heroes/Card_Hero_Questing_Knight_beta_FK_back.png', 
-'http://htkb.online/SDWiki/SDE/FK/Cards/Heroes/Questing_Knight_Beta.xhtml', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Heroes/Questing_Knight_beta.xhtml', 
 'Hero', 'FK', 'FK Core Set', 'Default', 
 'Many think the Bramble Knights all shared in the Forgotten King''s curse.  In truth, a small number of Bramble Knights remained loyal to Crystalia and fought against their former liege.  This order of true knights has remained secret for centuries--known only as Questing Knights.  Hidden beneath thick armor and possessing a unequalled mastery of weapons, the Questing Knights will not rest until the Forgotten King and his court are put to the sword and their honor is restored.');
 insert into Characters (CardIndex) VALUES (194);
@@ -1385,7 +1385,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Wyrm Claw Templar (Beta)', 
 'http://htkb.info/SDE/FK/Cards/Heroes/Card_Hero_Wyrm_Claw_Templar_beta_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Heroes/Card_Hero_Wyrm_Claw_Templar_beta_FK_back.png', 
-'http://htkb.online/SDWiki/SDE/FK/Cards/Heroes/Wyrm_Claw_Templar_Beta.xhtml', 
+'http://htkb.online/SDWiki/SDE/FK/Cards/Heroes/Wyrm_Claw_Templar_beta.xhtml', 
 'Hero', 'FK', 'FK Core Set', 'Default', 
 'Wyrm Claw Templars are routinely spawned to join Exemplar''s on their quests in service of the Cult of the Burning Star.  Utterly devoted to their cause, these powerful kobolds will lay down their lives without hesitation to see their Lord''s work done.  Should the Templar''s Exemplar die wihtout accomplishing their quest, the Templar is banished from the cult in shame; often becoming  a sell sword of dire repute.');
 insert into Characters (CardIndex) VALUES (213);

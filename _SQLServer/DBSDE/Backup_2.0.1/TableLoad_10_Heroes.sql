@@ -544,7 +544,7 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (2
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Brinebreaker Aesir', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Brinebreaker_Aesir_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Brinebreaker_Aesir_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Bbrinebreaker_Aesir.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Brinebreaker_Aesir.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
 'Brinebreaker Aesir are some of the most skilled of dwarven fighters. But their skill lies not solely in their own prowess, though they have plenty, their ferocity and command exalts all the other dwarves around them to heightened feats of combat. To be elevated to Aesir a dwarf must show both martial skill and leadership.');
 insert into Characters (CardIndex) VALUES (784);
@@ -753,7 +753,7 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (402, 2);
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (402, 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Cat_Burglar_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Cat Burglar_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Cat_Burglar_2.0_back.png',
 'Feminine', 'Small', 'Freyjan', 7, 3, '3B', '3B', '2B', '2B 1R', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (297, 417); --9 Lives
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (297, 642); --Heal X
@@ -770,11 +770,11 @@ insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (297
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (297, 1, 1); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (297, 2); --Armor
 
---Cat Burglar (beta) --CardIndex 793	--CharacterIndex 403	--ExploreCharacterIndex 298
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Cat Burglar (beta)', 
+--Cat Burglar (Beta) --CardIndex 793	--CharacterIndex 403	--ExploreCharacterIndex 298
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Cat Burglar (Beta)', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Cat_Burglar_beta_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Cat Burglar_beta_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Cat_Burglar_Beta.xhtml', 
+'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Cat_Burglar_beta_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Cat_Burglar_beta.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
 '');
 insert into Characters (CardIndex) VALUES (793);
@@ -1434,19 +1434,19 @@ insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (325
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (325, 4, 3); --Dex
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (325, 2); --Armor
 
---Freyjan Beastmaster (errata) --CardIndex 821	--CharacterIndex 431	--ExploreCharacterIndex 326
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Freyjan Beastmaster (errata)', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Freyjan_Beastmaster_Errata_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Freyjan_Beastmaster_Errata_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Freyjan_Beastmaster_Errata.xhtml', 
+--Freyjan Beastmaster (Errata) --CardIndex 821	--CharacterIndex 431	--ExploreCharacterIndex 326
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Freyjan Beastmaster (Errata)', 
+'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Freyjan_Beastmaster_errata_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Freyjan_Beastmaster_errata_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Freyjan_Beastmaster_errata.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
 '"Get ''em, Mr. Fluffs!"');
 insert into Characters (CardIndex) VALUES (821);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (431, 3); --Emerald
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (431, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Freyjan_Beastmaster_Errata_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Freyjan_Beastmaster_Errata_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Freyjan_Beastmaster_errata_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Freyjan_Beastmaster_errata_2.0_back.png',
 'Either', 'Small', 'Freyjan', 6, 3, '2B', '3B', '3B', '3B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (326, 417); --9 Lives
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (326, 455); --Bane
@@ -2490,19 +2490,19 @@ insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (368
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (368, 1, 2); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (368, 2); --Armor
 
---Musashi (errata)	--CardIndex 864	--CharacterIndex 474	--ExploreCharacterIndex 369
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Musashi (errata)', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Musashi_Errata_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Musashi_Errata_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Musashi_Errata.xhtml', 
+--Musashi (Errata)	--CardIndex 864	--CharacterIndex 474	--ExploreCharacterIndex 369
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Musashi (Errata)', 
+'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Musashi_errata_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Musashi_errata_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Musashi_errata.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
 'For years, Musashi has wandered Kagejima, studying, debating, and fighting with and alongside masters from every school he could find. After some years, he found that he no longer sought to master the sword; he sought to master himself. Since the tool no longer mattered, he abandoned his weapon for a pair of mighty oars. Now he travels on, searching for himself, and refining the art of the wooden blades.');
 insert into Characters (CardIndex) VALUES (864);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (474, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (474, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Musashi_Errata_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Musashi_Errata_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Musashi_errata_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Musashi_errata_2.0_back.png',
 'Masculine', 'Small', 'Human', 6, 3, '2B 1R', '3B', '1B 1R', '2B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (369, 502); --Charge
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (369, 584); --Feint
