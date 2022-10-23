@@ -31,6 +31,8 @@ public class ChallengeCard extends UtilityCard implements CharacterInterface{
         String  module,
         String  mode,
         String  flavor,
+        String  author,
+        String  sourceURL,
         String  description,
         String trap,
         String challenge,
@@ -49,6 +51,8 @@ public class ChallengeCard extends UtilityCard implements CharacterInterface{
             module,
             mode,
             flavor,
+            author,
+            sourceURL,
             description
         );
         this.trap            = trap;

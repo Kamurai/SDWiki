@@ -10,6 +10,8 @@ public class Card extends Component{
     private String  module;
     private String  mode;
     private String  flavor;
+    private String  author;
+    private String  sourceURL;
     
     public Card(){
         super();
@@ -21,7 +23,9 @@ public class Card extends Component{
         this.version        = "";
         this.module         = "";
         this.mode           = "";
-        this.flavor         = "";        
+        this.flavor         = "";
+        this.author         = "Ninja Division";
+        this.sourceURL      = "http://www.NinjaDivision.com";
     }
     
     public Card(
@@ -29,12 +33,14 @@ public class Card extends Component{
         String  name,
         String  pictureFront,
         String  pictureBack,
+        String  link,
         String  cardType,
         String  version,
         String  module,
         String  mode,
         String  flavor,
-        String  link
+        String  author,
+        String  sourceURL        
     ){
         super(link);
         this.cardIndex      = cardIndex;
@@ -46,24 +52,44 @@ public class Card extends Component{
         this.module         = module;
         this.mode           = mode;
         this.flavor         = flavor;
+        this.author         = author;
+        this.sourceURL      = sourceURL;
     }
     
     public Card(Card card){
-        setLink(card.getLink());
-        
         this.cardIndex      = card.getCardIndex();
         this.name           = card.getName();
         this.pictureFront   = card.getPictureFront();
         this.pictureBack    = card.getPictureBack();
+        setLink(card.getLink());
         this.cardType       = card.getCardType();
         this.version        = card.getVersion();
         this.module         = card.getModule();
         this.mode           = card.getMode();
         this.flavor         = card.getFlavor();
+        this.author         = card.getAuthor();
+        this.sourceURL      = card.getSourceURL();
     }
     
+    public void clone(Card source){
+        partialClone(source);
+        clone((Component) source);
+    }
     
-
+    public void partialClone(Card source){
+        this.cardIndex      = source.cardIndex;
+        this.name           = source.name;
+        this.pictureFront   = source.pictureFront;
+        this.pictureBack    = source.pictureBack;
+        this.cardType       = source.cardType;
+        this.version        = source.version;
+        this.module         = source.module;
+        this.mode           = source.mode;
+        this.flavor         = source.flavor;
+        this.author         = source.author;
+        this.sourceURL      = source.sourceURL;
+    }
+    
     public int getCardIndex() {
         return cardIndex;
     }
@@ -135,6 +161,20 @@ public class Card extends Component{
     public void setFlavor(String flavor) {
         this.flavor = flavor;
     }
-    
-    
+
+    public String getAuthor() {
+        return author;
+    }
+
+    public void setAuthor(String author) {
+        this.author = author;
+    }
+
+    public String getSourceURL() {
+        return sourceURL;
+    }
+
+    public void setSourceURL(String sourceURL) {
+        this.sourceURL = sourceURL;
+    }
 }

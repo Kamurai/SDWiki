@@ -295,41 +295,14 @@ public class SDEDAOOne extends SDEDAO{
                 
                 //run only on new card
                 if(newCard){
-                    result.setCardIndex(rs.getInt("CardIndex"));
-                    result.setName(rs.getString("CardName"));
-                    result.setPictureFront(rs.getString("PictureFront"));
-                    result.setPictureBack(rs.getString("PictureBack"));
-                    result.setLink(rs.getString("Link"));
-                    result.setCardType(rs.getString("CardType"));
-                    result.setVersion(rs.getString("ProductSet"));
-                    result.setModule(rs.getString("ProductModule"));
-                    result.setMode(rs.getString("PlayMode"));
-                    result.setFlavor(rs.getString("Flavor"));
-                    result.setStandieFront(rs.getString("StandieFront"));
-                    result.setStandieBack(rs.getString("StandieBack"));
-                    result.setGender(rs.getString("Gender"));
-                    result.setModelSize(rs.getString("ModelSize"));
-                    result.setCreatureType(rs.getString("CreatureType"));
-                    result.setMovement(rs.getInt("Movement"));
-                    result.setActions(rs.getInt("Actions"));
-                    result.setStrength(rs.getString("Strength"));
-                    result.setArmor(rs.getString("Armor"));
-                    result.setWill(rs.getString("Will"));
-                    result.setDexterity(rs.getString("Dexterity"));
-                    result.setHealth(rs.getInt("Health"));
-                    result.setPotions(rs.getInt("Potions"));
-                    result.setAffinity(rs.getString("AffinityType"));
-                    
-                    result.setCost(rs.getInt("Cost"));
-                    result.setRange(rs.getInt("RangeLimit"));
+                    SDEDAOProcessor.processPet(rs);
                 }
                 
                 //if on new keyword
                 if(newKeyword){
                     //add new keyword to last gang member
                     result.addKeyword(
-                            rs.getString("KeywordName"),
-                            rs.getString("KeywordDescription")
+                        SDEDAOProcessor.getKeyword(rs)
                     );
                     
                     previousKeywordIndex = rs.getInt("KeywordIndex");
@@ -339,13 +312,7 @@ public class SDEDAOOne extends SDEDAO{
                 if(newAbility){
                     //add new ability to last gang member
                     result.addAbility(
-                        rs.getString("AbilityName"),
-                        rs.getString("AbilityResource"),
-                        rs.getString("AbilityType"),
-                        rs.getInt("AbilityCost"),
-                        rs.getString("AbilityAttribute"),
-                        rs.getInt("AbilityRange"),
-                        rs.getString("AbilityDescription")
+                        SDEDAOProcessor.getAbility(rs)
                     );
                 
                     previousAbilityIndex = rs.getInt("AbilityIndex");
@@ -353,15 +320,19 @@ public class SDEDAOOne extends SDEDAO{
 
                 //if new offense
                 if(newOffense){
-                    result.addOffense(new SDE.Offense(rs.getString("Offense"), rs.getInt("OffenseRange")));
+                    result.addOffense(
+                        SDEDAOProcessor.getOffense(rs)
+                    );
                 
                     previousOffenseIndex = rs.getInt("OffenseIndex");
                 }
                     
                 //if new defense
                 if(newDefense){
-                    result.addDefense(new SDE.Defense(rs.getString("Defense")));
-                
+                    result.addDefense(
+                        SDEDAOProcessor.getDefense(rs)
+                    );
+                    
                     previousDefenseIndex = rs.getInt("DefenseIndex");
                 }
                 

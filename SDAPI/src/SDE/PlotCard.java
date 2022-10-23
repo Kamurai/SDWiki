@@ -22,6 +22,8 @@ public class PlotCard extends UtilityCard {
         String  mode,
         String  flavor,
         String  description,
+        String  author,
+        String  sourceURL,
         String  powerUp,
         String  plot
     ){
@@ -36,6 +38,8 @@ public class PlotCard extends UtilityCard {
             module,
             mode,
             flavor,
+            author,
+            sourceURL,
             description
         );
         this.powerUp    = powerUp;

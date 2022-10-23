@@ -20,4 +20,8 @@ public class Component{
     public void setLink(String link) {
         this.link = link;
     }
+    
+    public void clone(Component source){
+        this.link = source.link;
+    }
 }

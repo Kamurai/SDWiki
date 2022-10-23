@@ -37,6 +37,8 @@ public class ExploreCard extends UtilityCard implements AbilityInterface, Charac
         String              module,
         String              mode,
         String              flavor,
+        String              author,
+        String              sourceURL,
         String              description,
         int                 creepNumber,
         String              trapDefense,
@@ -57,6 +59,8 @@ public class ExploreCard extends UtilityCard implements AbilityInterface, Charac
             module,
             mode,
             flavor,
+            author,
+            sourceURL,
             description
         );
         this.creepNumber    = creepNumber;

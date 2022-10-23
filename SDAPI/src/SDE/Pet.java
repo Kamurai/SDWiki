@@ -23,6 +23,8 @@ public class Pet extends ExploreCharacter {
         String              module,
         String              mode,
         String              flavor,
+        String              author,
+        String              sourceURL,
         String              affinity,
         String              standieFront,
         String              standieBack,
@@ -55,6 +57,8 @@ public class Pet extends ExploreCharacter {
             module,
             mode,
             flavor,
+            author,
+            sourceURL,
             affinity,
             standieFront,
             standieBack,
@@ -77,6 +81,16 @@ public class Pet extends ExploreCharacter {
         this.cost   = cost;
         this.range  = range;
     }
+    
+    public void clone(Pet source){
+        partialClone(source);
+        clone((Card) source);
+    }
+    
+    public void partialClone(Pet source){
+        this.cost   = source.cost;
+        this.range    = source.range;
+    }
 
     public int getCost() {
         return cost;
@@ -93,5 +107,4 @@ public class Pet extends ExploreCharacter {
     public void setRange(int range) {
         this.range = range;
     }
-    
 }

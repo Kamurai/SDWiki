@@ -21,6 +21,8 @@ public class TerrainCard extends UtilityCard implements KeywordInterface{
         String  module,
         String  mode,
         String  flavor,
+        String  author,
+        String  sourceURL,
         String  description,
         ArrayList<Keyword>  keywords
     ){
@@ -35,6 +37,8 @@ public class TerrainCard extends UtilityCard implements KeywordInterface{
             module,
             mode,
             flavor,
+            author,
+            sourceURL,
             description
         );
         this.keywords       = keywords;

@@ -19,6 +19,8 @@ public class UtilityCard extends Card{
         String  module,
         String  mode,
         String  flavor,
+        String  author,
+        String  sourceURL,
         String  description
     ){
         super(
@@ -31,7 +33,9 @@ public class UtilityCard extends Card{
             productSet,
             module,
             mode,
-            flavor
+            flavor,
+            author,
+            sourceURL
         );
         this.description = description;
     }

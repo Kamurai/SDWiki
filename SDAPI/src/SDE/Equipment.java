@@ -38,6 +38,8 @@ public class Equipment extends Card implements KeywordInterface, AbilityInterfac
         String  module,
         String  mode,
         String  flavor,
+        String  author,
+        String  sourceURL,
         String equipmentType,
         String position,
         String effect,
@@ -57,7 +59,9 @@ public class Equipment extends Card implements KeywordInterface, AbilityInterfac
             productSet,
             module,
             mode,
-            flavor
+            flavor,
+            author,
+            sourceURL
         );
         this.equipmentType  = equipmentType;
         this.position       = position;

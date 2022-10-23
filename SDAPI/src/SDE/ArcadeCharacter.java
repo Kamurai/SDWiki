@@ -26,6 +26,8 @@ public class ArcadeCharacter extends Character{
         String                  module,
         String                  mode,
         String                  flavor,
+        String                  author,
+        String                  sourceURL,
         String                  affinity,
         StatLine                soloStatLine,
         StatLine                gangStatLine,
@@ -42,6 +44,8 @@ public class ArcadeCharacter extends Character{
             module,
             mode,
             flavor,
+            author,
+            sourceURL,
             affinity
         );
         

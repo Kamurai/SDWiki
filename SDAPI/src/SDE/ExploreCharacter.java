@@ -56,6 +56,8 @@ public class ExploreCharacter extends Character implements KeywordInterface, Abi
         String              module,
         String              mode,
         String              flavor,
+        String              author,
+        String              sourceURL,
         String              affinity,
         String              standieFront,
         String              standieBack,
@@ -86,7 +88,9 @@ public class ExploreCharacter extends Character implements KeywordInterface, Abi
             module,
             mode,
             flavor,
-            affinity
+            affinity,
+            author,
+            sourceURL
         );
         this.standieFront   = standieFront;
         this.standieBack    = standieBack;
@@ -105,6 +109,31 @@ public class ExploreCharacter extends Character implements KeywordInterface, Abi
         this.offenses       = offenses;
         this.keywords       = keywords;
         this.abilities      = abilities;
+    }
+    
+    public void clone(ExploreCharacter source){
+        partialClone(source);
+        clone((Card) source);
+    }
+
+    public void partialClone(ExploreCharacter source){
+        this.standieFront   = source.standieFront;
+        this.standieBack    = source.standieBack;
+        this.gender         = source.gender;
+        this.modelSize      = source.modelSize;
+        this.creatureType   = source.creatureType;
+        this.movement       = source.movement;
+        this.actions        = source.actions;
+        this.strength       = source.strength;
+        this.armor          = source.armor;
+        this.will           = source.will;
+        this.dexterity      = source.dexterity;
+        this.health         = source.health;
+        this.potions        = source.potions;
+        this.defenses       = source.defenses;
+        this.offenses       = source.offenses;
+        this.keywords       = source.keywords;
+        this.abilities      = source.abilities;
     }
 
     public String getStandieFront() {

@@ -24,6 +24,8 @@ public class MightyMonsterCard extends UtilityCard {
         String  module,
         String  mode,
         String  flavor,
+        String  author,
+        String  sourceURL,
         String  description,
         String  targets,
         String  bonus,
@@ -40,6 +42,8 @@ public class MightyMonsterCard extends UtilityCard {
             module,
             mode,
             flavor,
+            author,
+            sourceURL,
             description
         );
         this.targets    = targets;

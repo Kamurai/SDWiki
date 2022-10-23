@@ -24,7 +24,9 @@ public class Character extends Card{
         String module,
         String mode,
         String flavor,
-        String affinity
+        String affinity,
+        String author,
+        String sourceURL
     ){
         super(
             cardIndex,
@@ -36,7 +38,9 @@ public class Character extends Card{
             version,
             module,
             mode,
-            flavor
+            flavor,
+            author,
+            sourceURL
         );
         this.affinity = affinity;
     }
