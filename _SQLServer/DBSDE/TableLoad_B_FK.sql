@@ -849,9 +849,9 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (104, 2); --Armor
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (104, 4); --Dexterity
 
---Princess Emerald (beta) --CardIndex 190	--CharacterIndex 105	--ExploreCharacterIndex 105
+--Princess Emerald (Beta) --CardIndex 190	--CharacterIndex 105	--ExploreCharacterIndex 105
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
-'Princess Emerald (beta)', 
+'Princess Emerald (Beta)', 
 'http://htkb.info/SDE/FK/Cards/Heroes/Card_Hero_Princess_Emerald_beta_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Heroes/Card_Hero_Princess_Emerald_beta_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Heroes/Princess_Emerald_beta.xhtml', 
@@ -940,9 +940,9 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (108, 2); --Armor
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (108, 4); --Dexterity
 
---Questing Knight (beta)--CardIndex 194	--CharacterIndex 109	--ExploreCharacterIndex 109
+--Questing Knight (Beta)--CardIndex 194	--CharacterIndex 109	--ExploreCharacterIndex 109
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
-'Questing Knight (beta)', 
+'Questing Knight (Beta)', 
 'http://htkb.info/SDE/FK/Cards/Heroes/Card_Hero_Questing_Knight_beta_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Heroes/Card_Hero_Questing_Knight_beta_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Cards/Heroes/Questing_Knight_beta.xhtml', 

@@ -2,7 +2,7 @@
 --1.0 Custom
 --Heroes
 
-
+--2274
 --Apple Jack --Card Index 2289	--CharacterIndex 1137 --ExploreCharacterIndex 798
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 'Apple Jack', 
@@ -408,10 +408,10 @@ insert into CustomCards (CardIndex, Author, SourceURL) VALUES(
 
 --Nekkoneer Captain --Card Index 2302	--CharacterIndex 1151 --ExploreCharacterIndex 812
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
-'Maya, Ice Mage', 
-'http://htkb.info/SDE/1.0/Custom/Cards/Heroes/Card_Hero_Maya_Ice_Mage_1.0_Custom.png', 
-'http://htkb.info/SDE/1.0/Custom/Cards/Heroes/Card_Hero_Maya_Ice_Mage_1.0_Custom_back.png', 
-'http://htkb.online/SDWiki/SDE/1.0/Custom/Cards/Heroes/Maya_Ice_Mage.xhtml', 
+'Nekoneer Captain', 
+'http://htkb.info/SDE/1.0/Custom/Cards/Heroes/Card_Hero_Nekoneer_Captain_1.0_Custom.png', 
+'http://htkb.info/SDE/1.0/Custom/Cards/Heroes/Card_Hero_Nekoneer_Captain_1.0_Custom_back.png', 
+'http://htkb.online/SDWiki/SDE/1.0/Custom/Cards/Heroes/Nekoneer_Captain.xhtml', 
 'Hero', '1.0 Custom', '1.0 Custom Set', 'Default', 
 '');
 insert into Characters (CardIndex) VALUES (2302);

@@ -51,7 +51,8 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (775, 2); --Armor
 
 --D'Shaun (Alt) --CardIndex 2230	--CharacterIndex 1108	--ExploreCharacterIndex 776
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('D''Shaun', 
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+'D''Shaun (Alt)', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_D_Shaun_alt_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_D_Shaun_alt_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/D_Shaun_alt.xhtml', 

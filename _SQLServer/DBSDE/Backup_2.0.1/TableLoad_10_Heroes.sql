@@ -13,8 +13,8 @@ insert into Characters (CardIndex) VALUES (762);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (372, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (372, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Abominable_Snowman_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Abominable_Snowman_2.0_back.png',
+'http://htkb.info/SDE/Standies/Abominable_Snowman.png', 
+'http://htkb.info/SDE/Standies/Abominable_Snowman_back.png',
 'Either', 'Large', 'Shapeshift', 6, 3, '2B 1R', '3B', '3B', '2B', 6, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (267, 593); --Fixed Form
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (267, 672); --Immobile
@@ -40,8 +40,8 @@ insert into Characters (CardIndex) VALUES (763);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (373, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (373, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Adzuki_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Adzuki_2.0_back.png',
+'http://htkb.info/NAS/Standies/Adzuki_2.0.png', 
+'http://htkb.info/NAS/Standies/Adzuki_2.0_back.png',
 'Either', 'Small', 'Chimera', 6, 3, '2R', '3B', '2B', '3B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (268, 728); --Massive Damage
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (268, 834); --Rampage
@@ -64,8 +64,8 @@ insert into Characters (CardIndex) VALUES (764);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (374, 2); --Emerald
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (374, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Akkorokamui_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Akkorokamui_2.0_back.png',
+'http://htkb.info/NAS/Standies/Akkorokamui.png', 
+'http://htkb.info/NAS/Standies/Akkorokamui_back.png',
 'Either', 'Small', 'Ika', 6, 3, '3B', '2R', '2B', '2R', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (269, 533); --Deadly Defense
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (269, 708); --Knockdown
@@ -88,8 +88,8 @@ insert into Characters (CardIndex) VALUES (765);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (375, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (375, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Alberdus_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Alberdus_2.0_back.png',
+'http://htkb.info/SDE/Standies/WOTF/Alberdus.png', 
+'http://htkb.info/SDE/Standies/WOTF/Alberdus_back.png',
 'Masculine', 'Small', 'Dark Celestian Hero', 7, 3, '2B 1R', '2R', '1B 1R', '1B 1R', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (270, 588); --Fire
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (270, 674); --Immune: Fire
@@ -112,8 +112,8 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (376, 1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (376, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (376, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Angry_Bear_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Angry_Bear_2.0_back.png',
+'http://htkb.info/SDE/Standies/Angry_Bear.png', 
+'http://htkb.info/SDE/Standies/Angry_Bear_back.png',
 'Either', 'Large', 'Shapeshift', 6, 3, '2B 1R', '2R', '1B 1R', '2B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (271, 457); --Berserk
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (271, 649); --Hex
@@ -138,8 +138,8 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (377, 3);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (377, 4); --Sapphire
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (377, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Apprentice_Mage_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Apprentice_Mage_2.0_back.png',
+'http://htkb.info/RRI/Standies/Apprentice_The.png', 
+'http://htkb.info/RRI/Standies/Apprentice_The_back.png',
 'Either', 'Small', 'Misfit', 5, 3, '1B', '3B', '3B 2R', '2B', 3, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (272, 545); --Defenseless
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (272, 643); --Healer
@@ -162,8 +162,8 @@ insert into Characters (CardIndex) VALUES (768);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (378, 4); --Sapphire
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (378, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Apprentice_Swordmage_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Apprentice_Swordmage_2.0_back.png',
+'http://htkb.info/RRI/Standies/Swordmage_Acolyte.png', 
+'http://htkb.info/RRI/Standies/Swordmage_Acolyte_back.png',
 'Feminine', 'Small', 'Tonnerian', 6, 3, '3B', '3B', '2B 1R', '2R', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (273, 1007); --Steady
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (273, 1035); --Double Slice
@@ -185,8 +185,8 @@ insert into Characters (CardIndex) VALUES (769);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (379, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (379, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Arashikage_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Arashikage_2.0_back.png',
+'http://htkb.info/NAS/Standies/Arashikage.png', 
+'http://htkb.info/NAS/Standies/Arashikage_back.png',
 'Either', 'Small', 'Human', 7, 3, '2B 1R', '3B', '2B', '2R', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (274, 451); --Backstabber
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (274, 518); --Counterstrike
@@ -209,8 +209,8 @@ insert into Characters (CardIndex) VALUES (770);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (380, 4); --Sapphire
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (380, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Armored_Bear_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Armored_Bear_2.0_back.png',
+'http://htkb.info/SDE/Standies/Armored_Bear.png', 
+'http://htkb.info/SDE/Standies/Armored_Bear_back.png',
 'Either', 'Large', 'Shapeshift', 5, 3, '3R', '2B 1R', '1B', '2B', 7, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (275, 533); --Deadly Defense
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (275, 593); --Fixed Form
@@ -234,8 +234,8 @@ insert into Characters (CardIndex) VALUES (771);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (381, 4); --Sapphire
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (381, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Attila_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Attila_2.0_back.png',
+'http://htkb.info/SDE/Standies/SOTC/Attila.png', 
+'http://htkb.info/SDE/Standies/SOTC/Attila_back.png',
 'Either', 'Large', 'Construct', 6, 3, '2B', '2R', '2B', '2R', 6, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (276, 681); --Immune: Status Effects
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (276, 1743); --SSW4200P Gatling
@@ -256,8 +256,8 @@ insert into Characters (CardIndex) VALUES (772);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (382, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (382, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Aubnar_Buttonbjorn_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Aubnar_Buttonbjorn_2.0_back.png',
+'http://htkb.info/SDE/Standies/NPC/Aubnar_Buttonbjorn.png', 
+'http://htkb.info/SDE/Standies/NPC/Aubnar_Buttonbjorn_back.png',
 'Masculine', 'Small', 'Dwarf', 6, 3, '2B', '2B', '3B', '2B 1R', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (277, 642); --Heal X
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (277, 643); --Healer
@@ -282,8 +282,8 @@ insert into Characters (CardIndex) VALUES (773);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (383, 2); --Emerald
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (383, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Aurelia_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Aurelia_2.0_back.png',
+'http://htkb.info/SDE/Standies/WOTF/Aurelia.png', 
+'http://htkb.info/SDE/Standies/WOTF/Aurelia_back.png',
 'Feminine', 'Small', 'Human', 7, 3, '3B', '2B', '1B 1R', '2R', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (278, 417); --9 Lives
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (278, 668); --Ice
@@ -307,8 +307,8 @@ insert into Characters (CardIndex) VALUES (774);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (384, 4); --Sapphire
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (384, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Bakusho_Mondai_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Bakusho_Mondai_2.0_back.png',
+'http://htkb.info/NAS/Standies/Bakusho_Mondai.png', 
+'http://htkb.info/NAS/Standies/Bakusho_Mondai_back.png',
 'Masculine', 'Small', 'Human', 6, 3, '2R', '3B', '3B', '1B 1R', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (279, 894); --Sidestep
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (279, 1040); --Tough
@@ -329,8 +329,8 @@ insert into Characters (CardIndex) VALUES (775);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (385, 2); --Emerald
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (385, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Bang_Bang_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Bang_Bang_2.0_back.png',
+'http://htkb.info/NAS/Standies/Bang_Bang.png', 
+'http://htkb.info/NAS/Standies/Bang_Bang_back.png',
 'Feminine', 'Small', 'Human', 6, 3, '3B', '3B', '2B', '2R', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (280, 729); --Massive Damage
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (280, 642); --Heal X
@@ -355,8 +355,8 @@ insert into Characters (CardIndex) VALUES (776);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (386, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (386, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Benkei_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Benkei_2.0_back.png',
+'http://htkb.info/NAS/Standies/Benkei.png', 
+'http://htkb.info/NAS/Standies/Benkei_back.png',
 'Masculine', 'Small', 'Human', 5, 3, '3B', '2R', '3B', '2B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (281, 482); --Brutal Strike
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (281, 684); --Improved Critical
@@ -380,8 +380,8 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (387, 3);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (387, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (387, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Black_Knight_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Black_Knight_2.0_back.png',
+'http://htkb.info/SDE/Standies/Black_Knight.png', 
+'http://htkb.info/SDE/Standies/Black_Knight_back.png',
 'Masculine', 'Small', 'Nether Elf', 6, 3, '2R', '2B 1R', '3B', '3R', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (282, 428); --Ambush
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (282, 451); --Backstabber
@@ -407,8 +407,8 @@ insert into Characters (CardIndex) VALUES (778);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (388, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (388, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Black_Snow_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Black_Snow_2.0_back.png',
+'http://htkb.info/SDE/Standies/Black_Snow.png', 
+'http://htkb.info/SDE/Standies/Black_Snow_back.png',
 'Masculine', 'Small', 'Human', 6, 3, '2R', '3B', '2B', '3B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (283, 461); --Black Ice
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (283, 642); --Heal X
@@ -432,8 +432,8 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (389, 1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (389, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (389, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Blaze_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Blaze_2.0_back.png',
+'http://htkb.info/SDE/Standies/Novel/Blaze.png', 
+'http://htkb.info/SDE/Standies/Novel/Blaze_back.png',
 'Feminine', 'Small', 'Human', 6, 3, '2B', '3B', '2R', '1B 1R', 5, 2);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (284, 588); --Fire
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (284, 642); --Heal X
@@ -456,8 +456,8 @@ insert into Characters (CardIndex) VALUES (780);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (390, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (390, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Blazing_Soul_Hanzo_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Blazing_Soul_Hanzo_2.0_back.png',
+'http://htkb.info/NAS/Standies/Blazing_Soul_Hanzo.png', 
+'http://htkb.info/NAS/Standies/Blazing_Soul_Hanzo_back.png',
 'Either', 'Small', 'Human', 6, 3, '1B 1G', '3B', '2B 1R', '2B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (285, 588); --Fire
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (285, 752); --Mastery
@@ -480,8 +480,8 @@ insert into Characters (CardIndex) VALUES (781);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (391, 4); --Sapphire
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (391, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Blind_Swordsman_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Blind_Swordsman_2.0_back.png',
+'http://htkb.info/NAS/Standies/Blind_Swordsman.png', 
+'http://htkb.info/NAS/Standies/Blind_Swordsman_back.png',
 'Masculine', 'Small', 'Human', 6, 3, '2B 1R', '3B', '2R', '3B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (286, 584); --Feint
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (286, 689); --Insight
@@ -504,8 +504,8 @@ insert into Characters (CardIndex) VALUES (782);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (392, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (392, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Blizzard_Wizard_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Blizzard_Wizard_2.0_back.png',
+'http://htkb.info/SDE/Standies/Blizzard_Wizard.png', 
+'http://htkb.info/SDE/Standies/Blizzard_Wizard_back.png',
 'Masculine', 'Small', 'Human', 6, 3, '1B 3B', '2R', '3B', '1B 1R', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (287, 668); --Ice
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (287, 709); --Knockdown
@@ -526,8 +526,8 @@ insert into Characters (CardIndex) VALUES (783);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (393, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (393, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Bomb_Blast_Prophet_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Bomb_Blast_Prophet_2.0_back.png',
+'http://htkb.info/SDE/Standies/Bomb_Blast_Prophet.png', 
+'http://htkb.info/SDE/Standies/Bomb_Blast_Prophet_back.png',
 'Neither', 'Large', 'Orc', 6, 3, '3B', '3B', '2R', '2B', 5, 2);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (288, 588); --Fire
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (288, 685); --Improved Critical
@@ -551,8 +551,8 @@ insert into Characters (CardIndex) VALUES (784);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (394, 2); --Emerald
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (394, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Brinebreaker_Aesir_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Brinebreaker_Aesir_2.0_back.png',
+'http://htkb.info/SDE/Standies/Brinebreaker_Aesir.png', 
+'http://htkb.info/SDE/Standies/Brinebreaker_Aesir_back.png',
 'Masculine', 'Small', 'Dwarf', 6, 3, '2R', '3B', '2B', '3B', 6, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (289, 482); --Brutal Strike
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (289, 676); --Immune: Ice
@@ -577,8 +577,8 @@ insert into Characters (CardIndex) VALUES (785);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (395, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (395, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Brinebreaker_Skathi_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Brinebreaker_Skathi_2.0_back.png',
+'http://htkb.info/SDE/Standies/Brinebreaker_Skathi.png', 
+'http://htkb.info/SDE/Standies/Brinebreaker_Skathi_back.png',
 'Masculine', 'Small', 'Dwarf', 6, 3, '3B', '2R', '2B', '3B', 6, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (290, 642); --Heal X
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (290, 668); --Ice
@@ -604,8 +604,8 @@ insert into Characters (CardIndex) VALUES (786);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (396, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (396, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Bakusho_Mondai_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Bakusho_Mondai_2.0_back.png',
+'http://htkb.info/NAS/Standies/Bakusho_Mondai.png', 
+'http://htkb.info/NAS/Standies/Bakusho_Mondai_back.png',
 'Masculine', 'Small', 'Human', 6, 3, '2B 1R', '3B', '3B', '2B', 6, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (291, 588); --Fire
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (291, 678); --Immune: Knockdown
@@ -630,8 +630,8 @@ insert into Characters (CardIndex) VALUES (787);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (397, 2); --Emerald
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (397, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Byakko_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Byakko_2.0_back.png',
+'http://htkb.info/NAS/Standies/Byakko.png', 
+'http://htkb.info/NAS/Standies/Byakko_back.png',
 'Masculine', 'Small', 'Tora', 6, 3, '3B', '3B', '1B 1R', '2R', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (292, 642); --Heal X
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (292, 838); --Ravage
@@ -653,8 +653,8 @@ insert into Characters (CardIndex) VALUES (788);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (398, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (398, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Candy_Lady_of_the_Heart_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Candy_Lady_of_the_Heart_2.0_back.png',
+'http://htkb.info/SDE/Standies/Candy_Lady_of_the_Heart.png', 
+'http://htkb.info/SDE/Standies/Candy_Lady_of_the_Heart_back.png',
 'Feminine', 'Small', 'Human', 6, 3, '2B', '3B', '2R', '3B', 5, 2);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (293, 442); --Augment
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (293, 455); --Bane
@@ -681,8 +681,8 @@ insert into Characters (CardIndex) VALUES (789);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (399, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (399, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Candy_Mistress_of_Darkness_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Candy_Mistress_of_Darkness_2.0_back.png',
+'http://htkb.info/SDE/Standies/Candy_Mistress_of_Darkness.png', 
+'http://htkb.info/SDE/Standies/Candy_Mistress_of_Darkness_back.png',
 'Feminine', 'Small', 'Human', 5, 3, '2B', '3B', '2R', '3B', 5, 2);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (294, 530); --Dark Radiance
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (294, 547); --Despair
@@ -704,8 +704,8 @@ insert into Characters (CardIndex) VALUES (790);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (400, 4); --Sapphire
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (400, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Captain_of_the_Guard_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Captain_of_the_Guard_2.0_back.png',
+'http://htkb.info/SDE/Standies/Captain_of_the_Guard.png', 
+'http://htkb.info/SDE/Standies/Captain_of_the_Guard_back.png',
 'Masculine', 'Small', 'Human', 6, 3, '3B', '2B 1R', '3B', '2B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (295, 455); --Bane
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (295, 543); --Defender
@@ -727,8 +727,8 @@ insert into Characters (CardIndex) VALUES (791);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (401, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (401, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Casanova_Cola_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Casanova_Cola_2.0_back.png',
+'http://htkb.info/SDE/Standies/Casanova_Cola.png', 
+'http://htkb.info/SDE/Standies/Casanova_Cola_back.png',
 'Either', 'Small', 'Kitsune', 6, 3, '2B', '2R', '3B', '3B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (296, 442); --Augment
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (296, 642); --Heal 
@@ -744,7 +744,7 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (2
 --Cat Burglar --CardIndex 792	--CharacterIndex 402	--ExploreCharacterIndex 297
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Cat Burglar', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Cat_Burglar_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Cat Burglar_2.0_back.png', 
+'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Cat_Burglar_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Cat_Burglar.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
 '');
@@ -752,8 +752,8 @@ insert into Characters (CardIndex) VALUES (792);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (402, 2); --Emerald
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (402, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Cat_Burglar_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Cat_Burglar_2.0_back.png',
+'http://htkb.info/SDE/Standies/Cat_Burglar.png', 
+'http://htkb.info/SDE/Standies/Cat_Burglar_back.png',
 'Feminine', 'Small', 'Freyjan', 7, 3, '3B', '3B', '2B', '2B 1R', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (297, 417); --9 Lives
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (297, 642); --Heal X
@@ -781,8 +781,8 @@ insert into Characters (CardIndex) VALUES (793);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (403, 2); --Emerald
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (403, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Cat_Burglar_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Cat Burglar_2.0_back.png',
+'http://htkb.info/SDE/Standies/Cat_Burglar.png', 
+'http://htkb.info/SDE/Standies/Cat Burglar_back.png',
 'Feminine', 'Small', 'Freyjan', 7, 3, '3B', '3B', '2B', '2B 1R', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (298, 417); --9 Lives
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (298, 807); --Poison
@@ -837,8 +837,8 @@ insert into Characters (CardIndex) VALUES (796);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (406, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (406, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Celebration_Candy_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Celebration_Candy_2.0_back.png',
+'http://htkb.info/SDE/Standies/Celebration_Candy.png', 
+'http://htkb.info/SDE/Standies/Celebration_Candy_back.png',
 'Feminine', 'Small', 'Human', 6, 3, '2R', '3B', '2B', '3B', 5, 2);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (301, 425); --Alchemy
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (301, 642); --Heal X
@@ -863,8 +863,8 @@ insert into Characters (CardIndex) VALUES (797);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (407, 2); --Emerald
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (407, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Celestial_Healer_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Celestial_Healer_2.0_back.png',
+'http://htkb.info/SDE/Standies/Celestial_Healer.png', 
+'http://htkb.info/SDE/Standies/Celestial_Healer_back.png',
 'Feminine', 'Small', 'Centaur', 7, 3, '2B', '3B', '2B', '3B', 6, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (302, 642); --Heal X
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (302, 678); --Immune: Knockdown
@@ -901,8 +901,8 @@ insert into Characters (CardIndex) VALUES (799);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (409, 4); --Sapphire
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (409, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Celestian_Purifier_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Celestian_Purifier_2.0_back.png',
+'http://htkb.info/SDE/Standies/Celestian_Purifier.png', 
+'http://htkb.info/SDE/Standies/Celestian_Purifier_back.png',
 'Feminine', 'Small', 'Celestian', 7, 3, '2B', '3B', '2R', '3B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (304, 596); --Fly
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (304, 728); --Massive Damage
@@ -925,8 +925,8 @@ insert into Characters (CardIndex) VALUES (800);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (410, 4); --Sapphire
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (410, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Chuy_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Chuy_2.0_back.png',
+'http://htkb.info/NAS/Standies/Chuy.png', 
+'http://htkb.info/NAS/Standies/Chuy_back.png',
 'Masculine', 'Small', 'Human', 6, 3, '3B', '2B 1R', '3B', '3B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (305, 437); --Arc
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (305, 588); --Fire
@@ -950,8 +950,8 @@ insert into Characters (CardIndex) VALUES (801);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (411, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (411, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Claw_Tribe_Barbarian_feminine_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Claw_Tribe_Barbarian_feminine_2.0_back.png',
+'http://htkb.info/SDE/Standies/Claw_Tribe_Barbarian_feminine.png', 
+'http://htkb.info/SDE/Standies/Claw_Tribe_Barbarian_feminine_back.png',
 'Feminine', 'Small', 'Human', 6, 3, '2R', '3B', '2B', '2B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (306, 457); --Berserk
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (306, 534); --Deadly Defense
@@ -972,8 +972,8 @@ insert into Characters (CardIndex) VALUES (802);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (412, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (412, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Claw_Tribe_Barbarian_masculine_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Claw_Tribe_Barbarian_masculine_2.0_back.png',
+'http://htkb.info/SDE/Standies/AltGendered/Claw_Tribe_Barbarian_masculine.png', 
+'http://htkb.info/SDE/Standies/AltGendered/Claw_Tribe_Barbarian_masculine_back.png',
 'Masculine', 'Small', 'Human', 6, 3, '2R', '3B', '2B', '2B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (307, 457); --Berserk
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (307, 534); --Deadly Defense
@@ -994,8 +994,8 @@ insert into Characters (CardIndex) VALUES (803);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (413, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (413, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Clockwork_Contraption_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Clockwork_Contraption_2.0_back.png',
+'http://htkb.info/SDE/Standies/Clockwork_Contraption.png', 
+'http://htkb.info/SDE/Standies/Clockwork_Contraption_back.png',
 'Other', 'Small', 'Construct', 5, 3, '2R', '3B', '2B', '3B', 6, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (308, 608); --Fortify
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (308, 728); --Massive Damage
@@ -1018,8 +1018,8 @@ insert into Characters (CardIndex) VALUES (804);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (414, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (414, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Cog_War_Reaver_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Cog_War_Reaver_2.0_back.png',
+'http://htkb.info/SDE/Standies/Cog_War_Reaver.png', 
+'http://htkb.info/SDE/Standies/Cog_War_Reaver_back.png',
 'Neither', 'Large', 'Orc', 6, 3, '3B', '3B', '2B', '3B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (309, 483); --Brutal Strike
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (309, 507); --Coghammer
@@ -1044,8 +1044,8 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (415, 2);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (415, 4); --Sapphire
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (415, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Crook_Eye_Tracker_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Crook_Eye_Tracker_2.0_back.png',
+'http://htkb.info/SDE/Standies/Crook_Eye_Tracker.png', 
+'http://htkb.info/SDE/Standies/Crook_Eye_Tracker_back.png',
 'Masculine', 'Large', 'Orc', 6, 3, '3B', '3B', '1B 1R', '3B', 6, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (310, 642); --Heal X
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (310, 679); --Immune: Poison
@@ -1070,8 +1070,8 @@ insert into Characters (CardIndex) VALUES (806);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (416, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (416, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Crystal_Shaper_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Crystal_Shaper_2.0_back.png',
+'http://htkb.info/SDE/Standies/Crystal_Shaper.png', 
+'http://htkb.info/SDE/Standies/Crystal_Shaper_back.png',
 'Feminine', 'Small', 'Elf Witch', 7, 3, '2B', '3B', '2R', '3B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (311, 522); --Crystal Shaping
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (311, 672); --Immobile
@@ -1093,8 +1093,8 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (417, 3);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (417, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (417, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Deeproot_Druid_feminine_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Deeproot_Druid_feminine_2.0_back.png',
+'http://htkb.info/SDE/Standies/AltGendered/Deeproot_Druid_feminine.png', 
+'http://htkb.info/SDE/Standies/AltGendered/Deeproot_Druid_feminine_back.png',
 'Feminine', 'Small', 'Half-Elf', 7, 3, '3B', '1B 1R', '3B', '1B 1R', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (312, 447); --Backlash
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (312, 643); --Healer
@@ -1121,8 +1121,8 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (418, 3);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (418, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (418, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Deeproot_Druid_masculine_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Deeproot_Druid_masculine_2.0_back.png',
+'http://htkb.info/SDE/Standies/Deeproot_Druid_masculine.png', 
+'http://htkb.info/SDE/Standies/Deeproot_Druid_masculine_back.png',
 'Masculine', 'Small', 'Half-Elf', 7, 3, '3B', '1B 1R', '3B', '1B 1R', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (313, 447); --Backlash
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (313, 643); --Healer
@@ -1148,8 +1148,8 @@ insert into Characters (CardIndex) VALUES (809);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (419, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (419, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Deodric_the_Drunk_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Deodric_the_Drunk_2.0_back.png',
+'http://htkb.info/SDE/Standies/Deodric_the_Drunk.png', 
+'http://htkb.info/SDE/Standies/Deodric_the_Drunk_back.png',
 'Masculine', 'Small', 'Dwarf', 6, 3, '2B', '3B', '2R', '1B 1R', 5, 3);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (314, 435); --Another Round
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (314, 681); --Immune: Status Effects
@@ -1173,8 +1173,8 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (420, 3);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (420, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (420, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Duskweaver_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Duskweaver_2.0_back.png',
+'http://htkb.info/SDE/Standies/Duskweaver.png', 
+'http://htkb.info/SDE/Standies/Duskweaver_back.png',
 'Feminine', 'Small', 'Nether Elf Spider', 8, 3, '2B 1R', '2R', '3B', '3B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (315, 672); --Immobile
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (315, 679); --Immune: Poison
@@ -1199,8 +1199,8 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (421, 3);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (421, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (421, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/D_Shaun_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/D_Shaun_2.0_back.png',
+'http://htkb.info/SDE/Standies/D_Shaun.png', 
+'http://htkb.info/SDE/Standies/D_Shaun_back.png',
 'Masculine', 'Small', 'Human', 6, 3, '3B', '3B', '1B 1R', '1B 1R', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (316, 673); --Immune: Bane
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (316, 679); --Immune: Poison
@@ -1222,8 +1222,8 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (422, 1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (422, 2); --Emerald
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (422, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Edward_Murdoch_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Edward_Murdoch_2.0_back.png',
+'http://htkb.info/SDE/Standies/SOTC/Edward_Murdoch.png', 
+'http://htkb.info/SDE/Standies/SOTC/Edward_Murdoch_back.png',
 'Masculine', 'Small', 'Human', 6, 3, '2B', '2R', '2B', '3B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (317, 684); --Improved Critical
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (317, 724); --Mark
@@ -1248,8 +1248,8 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (423, 2);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (423, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (423, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/El_Falcon_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/El_Falcon_2.0_back.png',
+'http://htkb.info/SDE/Standies/WOTF/El_Falcon.png', 
+'http://htkb.info/SDE/Standies/WOTF/El_Falcon_back.png',
 'Masculine', 'Small', 'Celestian', 7, 3, '2B', '1B', '2R', '3B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (318, 657); --Hookshot
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (318, 678); --Immune: Knockdown
@@ -1273,8 +1273,8 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (424, 3);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (424, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (424, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Ember_Mage_feminine_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Ember_Mage_feminine_2.0_back.png',
+'http://htkb.info/SDE/Standies/Ember_Mage_feminine.png', 
+'http://htkb.info/SDE/Standies/Ember_Mage_feminine_back.png',
 'Feminine', 'Small', 'Human', 6, 3, '2B', '3B', '2R', '1B 1R', 5, 2);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (319, 588); --Fire
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (319, 642); --Heal X
@@ -1298,8 +1298,8 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (425, 3);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (425, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (425, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Ember_Mage_masculine_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Ember_Mage_masculine_2.0_back.png',
+'http://htkb.info/SDE/Standies/AltGendered/Ember_Mage_masculine.png', 
+'http://htkb.info/SDE/Standies/AltGendered/Ember_Mage_masculine_back.png',
 'Masculine', 'Small', 'Human', 6, 3, '2B', '3B', '2R', '1B 1R', 5, 2);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (320, 588); --Fire
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (320, 642); --Heal X
@@ -1322,8 +1322,8 @@ insert into Characters (CardIndex) VALUES (816);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (426, 2); --Emerald
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (426, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Faris_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Faris_2.0_back.png',
+'http://htkb.info/SDE/Standies/Faris.png', 
+'http://htkb.info/SDE/Standies/Faris_back.png',
 'Masculine', 'Small', 'Human', 6, 3, '2B', '3B', '1B 1R', '2B 1R', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (321, 455); --Bane
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (321, 642); --Heal X
@@ -1347,8 +1347,8 @@ insert into Characters (CardIndex) VALUES (817);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (427, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (427, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Fed_Up_Farmer_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Fed_Up_Farmer_2.0_back.png',
+'http://htkb.info/SDE/Standies/Fed_Up_Farmer.png', 
+'http://htkb.info/SDE/Standies/Fed_Up_Farmer_back.png',
 'Either', 'Small', 'Freyjan', 7, 3, '3B', '3B', '2B', '3B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (322, 417); --9 Lives
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (322, 642); --Heal X
@@ -1370,8 +1370,8 @@ insert into Characters (CardIndex) VALUES (818);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (428, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (428, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Formless_Hanzo_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Formless_Hanzo_2.0_back.png',
+'http://htkb.info/NAS/Standies/Formless_Hanzo.png', 
+'http://htkb.info/NAS/Standies/Formless_Hanzo_back.png',
 'Masculine', 'Small', 'Human', 6, 3, '2B 1R', '3B', '3B', '2R', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (323, 674); --Immune: Fire
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (323, 607); --Formless
@@ -1395,8 +1395,8 @@ insert into Characters (CardIndex) VALUES (819);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (429, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (429, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Fortune_Hunter_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Fortune_Hunter_2.0_back.png',
+'http://htkb.info/SDE/Standies/Fortune_Hunter.png', 
+'http://htkb.info/SDE/Standies/Fortune_Hunter_back.png',
 'Feminine', 'Small', 'Dwarf', 6, 3, '2B', '3B', '3B', '2R', 6, 2);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (324, 482); --Brutal Strike
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (324, 678); --Immune: Knockdown
@@ -1420,8 +1420,8 @@ insert into Characters (CardIndex) VALUES (820);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (430, 3); --Emerald
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (430, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Freyjan_Beastmaster_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Freyjan_Beastmaster_2.0_back.png',
+'http://htkb.info/SDE/Standies/Freyjan_Beastmaster.png', 
+'http://htkb.info/SDE/Standies/Freyjan_Beastmaster_back.png',
 'Either', 'Small', 'Freyjan', 6, 3, '2B', '3B', '3B', '3B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (325, 417); --9 Lives
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (325, 455); --Bane
@@ -1445,8 +1445,8 @@ insert into Characters (CardIndex) VALUES (821);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (431, 3); --Emerald
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (431, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Freyjan_Beastmaster_errata_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Freyjan_Beastmaster_errata_2.0_back.png',
+'http://htkb.info/SDE/Standies/Freyjan_Beastmaster_errata.png', 
+'http://htkb.info/SDE/Standies/Freyjan_Beastmaster_errata_back.png',
 'Either', 'Small', 'Freyjan', 6, 3, '2B', '3B', '3B', '3B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (326, 417); --9 Lives
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (326, 455); --Bane
@@ -1470,8 +1470,8 @@ insert into Characters (CardIndex) VALUES (822);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (432, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (432, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Frozen_Queen_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Frozen_Queen_2.0_back.png',
+'http://htkb.info/SDE/Standies/Frozen_Queen.png', 
+'http://htkb.info/SDE/Standies/Frozen_Queen_back.png',
 'Feminine', 'Small', 'Human', 6, 3, '2B', '3B', '3B', '3B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (327, 668); --Ice
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (327, 672); --Immobile
@@ -1497,8 +1497,8 @@ insert into Characters (CardIndex) VALUES (823);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (433, 2); --Emerald
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (433, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Glimmerdusk_Ranger_feminine_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Glimmerdusk_Ranger_feminine_2.0_back.png',
+'http://htkb.info/SDE/Standies/Glimmerdusk_Ranger_feminine.png', 
+'http://htkb.info/SDE/Standies/Glimmerdusk_Ranger_feminine_back.png',
 'Feminine', 'Small', 'Elf', 7, 3, '1B 1R', '3B', '2B', '2B 1R', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (328, 847); --Remedy
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (328, 1009); --Stealth
@@ -1523,8 +1523,8 @@ insert into Characters (CardIndex) VALUES (824);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (434, 2); --Emerald
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (434, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Glimmerdusk_Ranger_masculine_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Glimmerdusk_Ranger_masculine_2.0_back.png',
+'http://htkb.info/SDE/Standies/AltGendered/Glimmerdusk_Ranger_masculine.png', 
+'http://htkb.info/SDE/Standies/AltGendered/Glimmerdusk_Ranger_masculine_back.png',
 'Masculine', 'Small', 'Elf', 7, 3, '1B 1R', '3B', '2B', '2B 1R', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (329, 847); --Remedy
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (329, 1009); --Stealth
@@ -1549,8 +1549,8 @@ insert into Characters (CardIndex) VALUES (825);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (435, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (435, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Gloomborn_Champion_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Gloomborn_Champion_2.0_back.png',
+'http://htkb.info/SDE/Standies/Gloomborn_Champion.png', 
+'http://htkb.info/SDE/Standies/Gloomborn_Champion_back.png',
 'Either', 'Small', 'Undead Human', 6, 3, '2R', '3B', '3B', '2B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (330, 514); --Corpse Stench
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (330, 681); --Immune: Status Effects
@@ -1572,8 +1572,8 @@ insert into Characters (CardIndex) VALUES (826);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (436, 3); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (436, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Goemon_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Goemon_2.0_back.png',
+'http://htkb.info/NAS/Standies/Goemon.png', 
+'http://htkb.info/NAS/Standies/Goemon_back.png',
 'Masculine', 'Small', 'Human', 6, 3, '2R', '2R', '3B', '2B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (331, 642); --Heal
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (331, 718); --Luck
@@ -1598,8 +1598,8 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (437, 1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (437, 4); --Sapphire
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (437, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Gork_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Gork_2.0_back.png',
+'http://htkb.info/SDE/Standies/Novel/Gork.png', 
+'http://htkb.info/SDE/Standies/Novel/Gork_back.png',
 'Masculine', 'Small', 'Dwarf', 6, 3, '2B 1R', '2R', '2B', '2B', 6, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (332, 678); --Immune: Knockdown
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (332, 679); --Immune: Poison
@@ -1620,8 +1620,8 @@ insert into Characters (CardIndex) VALUES (828);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (438, 3); --Sapphire
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (438, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Gully_Gawk_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Gully_Gawk_2.0_back.png',
+'http://htkb.info/SDE/Standies/Gully_Gawk.png', 
+'http://htkb.info/SDE/Standies/Gully_Gawk_back.png',
 'Either', 'Large', 'Shapeshift', 5, 3, '2B', '1B', '2B', '2B', 5, 2);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (333, 593); --Fixed Form
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (333, 1092); --Fearsome Cry
@@ -1643,8 +1643,8 @@ insert into Characters (CardIndex) VALUES (829);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (439, 3); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (439, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Hanzo_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Hanzo_2.0_back.png',
+'http://htkb.info/NAS/Standies/Hanzo.png', 
+'http://htkb.info/NAS/Standies/Hanzo_back.png',
 'Masculine', 'Small', 'Human', 6, 3, '1B 1G', '3B', '2B', '2B 1R', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (334, 672); --Immobile
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (334, 752); --Mastery
@@ -1666,8 +1666,8 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (440, 1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (440, 4); --Sapphire
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (440, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Hearthsworn_Fighter_masculine_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Hearthsworn_Fighter_masculine_2.0_back.png',
+'http://htkb.info/SDE/Standies/Hearthsworn_Fighter_masculine.png', 
+'http://htkb.info/SDE/Standies/Hearthsworn_Fighter_masculine_back.png',
 'Masculine', 'Small', 'Dwarf', 6, 3, '2B 1R', '2R', '2B', '2B', 6, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (335, 678); --Immune: Knockdown
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (335, 679); --Immune: Poison
@@ -1689,8 +1689,8 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (441, 1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (441, 4); --Sapphire
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (441, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Hearthsworn_Fighter_feminine_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Hearthsworn_Fighter_feminine_2.0_back.png',
+'http://htkb.info/SDE/Standies/AltGendered/Hearthsworn_Fighter_feminine.png', 
+'http://htkb.info/SDE/Standies/AltGendered/Hearthsworn_Fighter_feminine_back.png',
 'Feminine', 'Small', 'Dwarf', 6, 3, '2B 1R', '2R', '2B', '2B', 6, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (336, 678); --Immune: Knockdown
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (336, 679); --Immune: Poison
@@ -1711,8 +1711,8 @@ insert into Characters (CardIndex) VALUES (832);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (442, 3); --Emerald
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (442, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Heroic_Kinoshroom_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Heroic_Kinoshroom_2.0_back.png',
+'http://htkb.info/SDE/Standies/Heroic_Kinoshroom.png', 
+'http://htkb.info/SDE/Standies/Heroic_Kinoshroom_back.png',
 'Either', 'Large', 'Shapeshift', 6, 1, '3B', '0ST', '1B', '2B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (337, 587); --Fertilizer
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (337, 593); --Fixed Form
@@ -1732,8 +1732,8 @@ insert into Characters (CardIndex) VALUES (833);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (443, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (443, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Hexcast_Sorcerer_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Hexcast_Sorcerer_2.0_back.png',
+'http://htkb.info/SDE/Standies/AltGendered/Hexcast_Sorcerer.png', 
+'http://htkb.info/SDE/Standies/AltGendered/Hexcast_Sorcerer_back.png',
 'Masculine', 'Small', 'Human', 6, 3, '2B', '3B', '2B 1R', '1B 1R', 5, 2);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (338, 455); --Bane
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (338, 596); --Fly
@@ -1758,8 +1758,8 @@ insert into Characters (CardIndex) VALUES (834);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (444, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (444, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Hexcast_Sorceress_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Hexcast_Sorceress_2.0_back.png',
+'http://htkb.info/SDE/Standies/Hexcast_Sorceress.png', 
+'http://htkb.info/SDE/Standies/Hexcast_Sorceress_back.png',
 'Feminine', 'Small', 'Human', 6, 3, '2B', '3B', '2B 1R', '1B 1R', 5, 2);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (339, 455); --Bane
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (339, 596); --Fly
@@ -1784,8 +1784,8 @@ insert into Characters (CardIndex) VALUES (835);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (445, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (445, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Howl_And_Yip_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Howl_And_Yip_2.0_back.png',
+'http://htkb.info/SDE/Standies/Howl_And_Yip.png', 
+'http://htkb.info/SDE/Standies/Howl_And_Yip_back.png',
 'Masculine', 'Small', 'Human', 6, 3, '3B', '2R', '2B', '3B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (340, 642); --Heal X
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (340, 709); --Knockdown
@@ -1810,8 +1810,8 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (446, 1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (446, 2); --Emerald
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (446, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Ice_Climber_Candy_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Ice_Climber_Candy_2.0_back.png',
+'http://htkb.info/SDE/Standies/Ice_Climber_Candy.png', 
+'http://htkb.info/SDE/Standies/Ice_Climber_Candy_back.png',
 'Feminine', 'Small', 'Human', 6, 3, '2B 1R', '3B', '2B', '3B', 5, 2);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (341, 493); --Burrow
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (341, 642); --Heal X
@@ -1835,8 +1835,8 @@ insert into Characters (CardIndex) VALUES (837);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (447, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (447, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Ice_Shard_Aesthetic_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Ice_Shard_Aesthetic_2.0_back.png',
+'http://htkb.info/SDE/Standies/Ice_Shard_Aesthetic.png', 
+'http://htkb.info/SDE/Standies/Ice_Shard_Aesthetic_back.png',
 'Either', 'Large', 'Shapeshift', 6, 3, '2B 1R', '3B', '3B', '2B', 6, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (342, 417); --9 Lives
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (342, 668); --Ice
@@ -1859,8 +1859,8 @@ insert into Characters (CardIndex) VALUES (838);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (448, 4); --Sapphire
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (448, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Ichika_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Ichika_2.0_back.png',
+'http://htkb.info/SDE/Standies/NAS/Ichika.png', 
+'http://htkb.info/SDE/Standies/NAS/Ichika_back.png',
 'Feminine', 'Small', 'Human', 6, 2, '2R', '3B', '2B', '3B', 3, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (343, 442); --Augment
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (343, 788); --Paired Hero (Yui)
@@ -1881,8 +1881,8 @@ insert into Characters (CardIndex) VALUES (839);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (449, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (449, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Indominable_Hanzo_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Indominable_Hanzo_2.0_back.png',
+'http://htkb.info/NAS/Standies/Indominable_Hanzo.png', 
+'http://htkb.info/NAS/Standies/Indominable_Hanzo_back.png',
 'Masculine', 'Small', 'Human', 5, 3, '1B 1G', '3B', '2B', '2B 1R', 6, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (344, 752); --Mastery
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (344, 1007); --Steady
@@ -1904,8 +1904,8 @@ insert into Characters (CardIndex) VALUES (840);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (450, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (450, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Jun_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Jun_2.0_back.png',
+'http://htkb.info/SDE/Standies/WOTF/Jun_2.0.png', 
+'http://htkb.info/SDE/Standies/WOTF/Jun_2.0_back.png',
 'Feminine', 'Small', 'Human', 6, 3, '2B', '3B', '2B 1R', '3B', 5, 2);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (345, 455); --Bane
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (345, 642); --Heal X
@@ -1931,8 +1931,8 @@ insert into Characters (CardIndex) VALUES (841);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (451, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (451, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Karura_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Karura_2.0_back.png',
+'http://htkb.info/NAS/Standies/Karura.png', 
+'http://htkb.info/NAS/Standies/Karura_back.png',
 'Masculine', 'Small', 'Tanchyo', 5, 3, '3B', '3B', '2B', '3B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (346, 596); --Fly
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (346, 672); --Immobile
@@ -1956,8 +1956,8 @@ insert into Characters (CardIndex) VALUES (842);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (452, 2); --Emerald
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (452, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Kasi_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Kasi_2.0_back.png',
+'http://htkb.info/SDE/Standies/WOTF/Kasi.png', 
+'http://htkb.info/SDE/Standies/WOTF/Kasi_back.png',
 'Feminine', 'Small', 'Nether Elf', 7, 3, '1B 1R', '3B', '3B', '2R', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (347, 649); --Hex
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (347, 807); --Poison
@@ -1980,8 +1980,8 @@ insert into Characters (CardIndex) VALUES (843);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (453, 2); --Emerald
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (453, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Kiji_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Kiji_2.0_back.png',
+'http://htkb.info/NAS/Standies/Kiji.png', 
+'http://htkb.info/NAS/Standies/Kiji_back.png',
 'Either', 'Small', 'Chimera', 7, 3, '2B', '3B', '3B', '3B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (348, 596); --Fly
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (348, 815); --Pounce
@@ -2004,8 +2004,8 @@ insert into Characters (CardIndex) VALUES (844);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (454, 2); --Emerald
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (454, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Kodama_Gardener_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Kodama_Gardener_2.0_back.png',
+'http://htkb.info/SDE/Standies/Kodama_Gardener.png', 
+'http://htkb.info/SDE/Standies/Kodama_Gardener_back.png',
 'Feminine', 'Small', 'Kodama', 5, 3, '3B', '3B', '3B', '2B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (349, 764); --Moon's Blessing
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (349, 798); --Pet: Blossom
@@ -2028,8 +2028,8 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (455, 3);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (455, 4); --Sapphire
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (455, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Komuso_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Komuso_2.0_back.png',
+'http://htkb.info/NAS/Standies/Komuso.png', 
+'http://htkb.info/NAS/Standies/Komuso_back.png',
 'Masculine', 'Small', 'Human', 6, 3, '3B', '3B', '2R', '1B 1R', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (350, 464); --Blessed Strike
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (350, 668); --Ice
@@ -2051,8 +2051,8 @@ insert into Characters (CardIndex) VALUES (846);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (456, 4); --Sapphire
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (456, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Kringle_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Kringle_2.0_back.png',
+'http://htkb.info/SDE/Standies/Kringle.png', 
+'http://htkb.info/SDE/Standies/Kringle_back.png',
 'Masculine', 'Small', 'Faerie', 5, 3, '1B', '2B 1R', '2R', '2B', 6, 2);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (351, 455); --Bane
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (351, 642); --Heal X
@@ -2077,8 +2077,8 @@ insert into Characters (CardIndex) VALUES (847);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (457, 4); --Sapphire
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (457, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Lahkpa_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Lahkpa_2.0_back.png',
+'http://htkb.info/SDE/Standies/Lahkpa.png', 
+'http://htkb.info/SDE/Standies/Lahkpa_back.png',
 'Neither', 'Small', 'Demon', 6, 3, '2B', '2R', '2R', '3B', 5, 2);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (352, 442); --Augment
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (352, 596); --Fly
@@ -2105,8 +2105,8 @@ insert into Characters (CardIndex) VALUES (848);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (458, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (458, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Leopold_Magnus_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Leopold_Magnus_2.0_back.png',
+'http://htkb.info/SDE/Standies/Leopold_Magnus.png', 
+'http://htkb.info/SDE/Standies/Leopold_Magnus_back.png',
 'Masculine', 'Small', 'Human', 6, 3, '3B', '3B', '2R', '2B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (353, 437); --Arc
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (353, 530); --Dark Radiance
@@ -2131,8 +2131,8 @@ insert into Characters (CardIndex) VALUES (849);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (459, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (459, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Lightning_Mage_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Lightning_Mage_2.0_back.png',
+'http://htkb.info/SDE/Standies/Lightning_Mage.png', 
+'http://htkb.info/SDE/Standies/Lightning_Mage_back.png',
 'Feminine', 'Small', 'Human', 6, 3, '2B', '3B', '4B', '3B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (354, 437); --Arc
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (354, 709); --Knockdown
@@ -2154,8 +2154,8 @@ insert into Characters (CardIndex) VALUES (850);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (460, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (460, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Lumi_and_Zakkadia_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Lumi_and_Zakkadia_2.0_back.png',
+'http://htkb.info/SDE/Standies/WOTF/Lumi_and_Zakkadia.png', 
+'http://htkb.info/SDE/Standies/WOTF/Lumi_and_Zakkadia_back.png',
 'Feminine', 'Small', 'Human', 6, 3, '2B', '2B', '3B', '2B 1R', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (355, 642); --Heal X
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (355, 643); --Healer
@@ -2181,8 +2181,8 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (461, 1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (461, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (461, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Lunar_Knight_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Lunar_Knight_2.0_back.png',
+'http://htkb.info/SDE/Standies/Lunar_Knight.png', 
+'http://htkb.info/SDE/Standies/Lunar_Knight_back.png',
 'Feminine', 'Small', 'Elf', 7, 3, '2R', '2B', '3B', '2R', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (356, 585); --Feint
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (356, 1067); --Enchanted Strike
@@ -2204,8 +2204,8 @@ insert into Characters (CardIndex) VALUES (852);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (462, 4); --Sapphire
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (462, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Lunar_Mage_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Lunar_Mage_2.0_back.png',
+'http://htkb.info/SDE/Standies/Lunar_Mage.png', 
+'http://htkb.info/SDE/Standies/Lunar_Mage_back.png',
 'Feminine', 'Small', 'Elf', 7, 3, '2B', '3B', '2R', '3B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (357, 482); --Brutal Strike
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (357, 513); --Convergence With The Goddess
@@ -2230,8 +2230,8 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (463, 1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (463, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (463, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Mad_Cat_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Mad_Cat_2.0_back.png',
+'http://htkb.info/SDE/Standies/AltGendered/Mad_Cat.png', 
+'http://htkb.info/SDE/Standies/AltGendered/Mad_Cat_back.png',
 'Either', 'Large', 'Shapeshift', 6, 3, '2B 1R', '2R', '1B 1R', '2B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (358, 457); --Beserk
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (358, 649); --Hex
@@ -2256,8 +2256,8 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (464, 2);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (464, 4); --Sapphire
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (464, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Makerguild_Engineer_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Makerguild_Engineer_2.0_back.png',
+'http://htkb.info/SDE/Standies/Makerguild_Engineer.png', 
+'http://htkb.info/SDE/Standies/Makerguild_Engineer_back.png',
 'Masculine', 'Small', 'Dwarf', 5, 3, '3B', '2B', '3B', '2R', 6, 2);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (359, 608); --Fortify
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (359, 647); --Hex
@@ -2283,8 +2283,8 @@ insert into Characters (CardIndex) VALUES (855);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (465, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (465, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Master_of_Chains_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Master_of_Chains_2.0_back.png',
+'http://htkb.info/SDE/Standies/Master_of_Chains.png', 
+'http://htkb.info/SDE/Standies/Master_of_Chains_back.png',
 'Feminine', 'Small', 'Riftling', 6, 3, '2B', '3B', '2B 1R', '3B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (360, 610); --Free Coin
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (360, 779); --One Use Only
@@ -2309,8 +2309,8 @@ insert into Characters (CardIndex) VALUES (856);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (466, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (466, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Mitch_Hunter_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Mitch_Hunter_2.0_back.png',
+'http://htkb.info/SDE/Standies/SOTC/Mitch_Hunter.png', 
+'http://htkb.info/SDE/Standies/SOTC/Mitch_Hunter_back.png',
 'Masculine', 'Small', 'Human', 6, 3, '2B 1R', '3B', '2B', '3B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (361, 709); --Knockdown
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (361, 900); --Slow
@@ -2332,8 +2332,8 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (467, 1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (467, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (467, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Mizaru_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Mizaru_2.0_back.png',
+'http://htkb.info/SDE/Standies/NAS/Mizaru.png', 
+'http://htkb.info/SDE/Standies/NAS/Mizaru_back.png',
 'Masculine', 'Small', 'Yamazaru', 6, 3, '3B', '3B', '3B', '2R', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (362, 672); --Immobile
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (362, 841); --Read The Wind
@@ -2357,8 +2357,8 @@ insert into Characters (CardIndex) VALUES (858);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (468, 2); --Emerald
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (468, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Mizuchi_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Mizuchi_2.0_back.png',
+'http://htkb.info/SDE/Standies/NAS/Mizuchi.png', 
+'http://htkb.info/SDE/Standies/NAS/Mizuchi_back.png',
 'Feminine', 'Small', 'Ika', 6, 3, '3B', '3B', '2B', '3B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (363, 894); --Sidestep
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (363, 1672); --Skewer
@@ -2380,8 +2380,8 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (469, 2);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (469, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (469, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Mochizuki_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Mochizuki_2.0_back.png',
+'http://htkb.info/SDE/Standies/NAS/Mochizuki.png', 
+'http://htkb.info/SDE/Standies/NAS/Mochizuki_back.png',
 'Feminine', 'Small', 'Human', 5, 3, '2B', '3B', '2R', '3B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (364, 563); --Dread
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (364, 724); --Mark
@@ -2404,8 +2404,8 @@ insert into Characters (CardIndex) VALUES (860);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (470, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (470, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Momotaro_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Momotaro_2.0_back.png',
+'http://htkb.info/SDE/Standies/NAS/Momotaro.png', 
+'http://htkb.info/SDE/Standies/NAS/Momotaro_back.png',
 'Masculine', 'Small', 'Human', 6, 3, '2B 1R', '2R', '3B', '2B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (365, 642); --Heal X
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (365, 708); --Knockdown
@@ -2428,8 +2428,8 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (471, 1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (471, 2); --Emerald
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (471, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Moonspire_Guardian_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Moonspire_Guardian_2.0_back.png',
+'http://htkb.info/SDE/Standies/Moonspire_Guardian.png', 
+'http://htkb.info/SDE/Standies/Moonspire_Guardian_back.png',
 'Feminine', 'Small', 'Elf', 7, 3, '3B', '2R', '3B', '2R', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (366, 894); --Sidestep
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (366, 1071); --Wind of Blades
@@ -2452,8 +2452,8 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (472, 1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (472, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (472, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Moon_Princess_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Moon_Princess_2.0_back.png',
+'http://htkb.info/SDE/Standies/Moon_Princess.png', 
+'http://htkb.info/SDE/Standies/Moon_Princess_back.png',
 'Feminine', 'Small', 'Human', 6, 3, '2R', '1B 1R', '2R', '3B', 5, 2);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (367, 642); --Heal X
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (367, 764); --Moon's Blessing
@@ -2477,8 +2477,8 @@ insert into Characters (CardIndex) VALUES (863);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (473, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (473, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Musashi_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Musashi_2.0_back.png',
+'http://htkb.info/NAS/Standies/Miyamoto_Musashi.png', 
+'http://htkb.info/NAS/Standies/Miyamoto_Musashi_back.png',
 'Masculine', 'Small', 'Human', 6, 3, '2B 1R', '3B', '1B 1R', '2B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (368, 502); --Charge
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (368, 584); --Feint
@@ -2501,8 +2501,8 @@ insert into Characters (CardIndex) VALUES (864);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (474, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (474, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Musashi_errata_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Musashi_errata_2.0_back.png',
+'http://htkb.info/NAS/Standies/Miyamoto_Musashi.png', 
+'http://htkb.info/NAS/Standies/Miyamoto_Musashi_back.png',
 'Masculine', 'Small', 'Human', 6, 3, '2B 1R', '3B', '1B 1R', '2B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (369, 502); --Charge
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (369, 584); --Feint
@@ -2525,8 +2525,8 @@ insert into Characters (CardIndex) VALUES (865);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (475, 2); --Emerald
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (475, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Nagari_Archpoisoner_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Nagari_Archpoisoner_2.0_back.png',
+'http://htkb.info/SDE/Standies/Nagari_Archpoisoner.png', 
+'http://htkb.info/SDE/Standies/Nagari_Archpoisoner_back.png',
 'Feminine', 'Small', 'Nagari', 7, 3, '2B', '3B', '1B 1R', '3B', 5, 2);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (370, 453); --Bane
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (370, 463); --Bleed
@@ -2553,8 +2553,8 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (476, 2);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (476, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (476, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Night_Hunter_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Night_Hunter_2.0_back.png',
+'http://htkb.info/SDE/Standies/Night_Hunter.png', 
+'http://htkb.info/SDE/Standies/Night_Hunter_back.png',
 'Feminine', 'Small', 'Human', 6, 3, '2B', '3B', '3B', '2R', 5, 2);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (371, 464); --Blessed Strike
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (371, 685); --Improved Critical
@@ -2579,8 +2579,8 @@ insert into Characters (CardIndex) VALUES (867);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (477, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (477, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Nikolai_Ten_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Nikolai_Ten_2.0_back.png',
+'http://htkb.info/SDE/Standies/NPC/Nikolai_Ten.png', 
+'http://htkb.info/SDE/Standies/NPC/Nikolai_Ten_back.png',
 'Masculine', 'Small', 'Human', 7, 3, '2B', '3B', '2R', '3B', 5, 3);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (372, 425); --Alchemy
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (372, 812); --Potion Master
@@ -2603,8 +2603,8 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (478, 1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (478, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (478, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Nu_Koa_Seraph_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Nu_Koa_Seraph_2.0_back.png',
+'http://htkb.info/SDE/Standies/Nu_Koa_Seraph.png', 
+'http://htkb.info/SDE/Standies/Nu_Koa_Seraph_back.png',
 'Masculine', 'Small', 'Nu-Koa', 6, 3, '3B', '2R', '2R', '2B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (373, 596); --Fly
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (373, 608); --Fortify
@@ -2629,8 +2629,8 @@ insert into Characters (CardIndex) VALUES (869);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (479, 2); --Emerald
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (479, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Nyan_Nyan_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Nyan_Nyan_2.0_back.png',
+'http://htkb.info/SDE/Standies/Nyan_Nyan.png', 
+'http://htkb.info/SDE/Standies/Nyan_Nyan_back.png',
 'Feminine', 'Small', 'Freyjan', 7, 3, '3B', '2B', '1B 1R', '2R', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (374, 417); --9 Lives
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (374, 616); --Frenzy
@@ -2654,8 +2654,8 @@ insert into Characters (CardIndex) VALUES (870);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (480, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (480, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Orc_Chef_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Orc_Chef_2.0_back.png',
+'http://htkb.info/SDE/Standies/Orc_Chef.png', 
+'http://htkb.info/SDE/Standies/Orc_Chef_back.png',
 'Neither', 'Large', 'Orc', 6, 3, '2R', '3B', '2B', '3B', 5, 2);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (375, 1083); --Impulsive
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (375, 843); --Reckless
@@ -2678,8 +2678,8 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (481, 1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (481, 4); --Sapphire
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (481, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Otto_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Otto_2.0_back.png',
+'http://htkb.info/SDE/Standies/Novel/Otto.png', 
+'http://htkb.info/SDE/Standies/Novel/Otto_back.png',
 'Masculine', 'Small', 'Human', 6, 3, '2R', '2B 1R', '3B', '2B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (376, 588); --Fire
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (376, 642); --Heal X
@@ -2702,8 +2702,8 @@ insert into Characters (CardIndex) VALUES (872);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (482, 0); --Amethyst
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (482, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Princess_Amethyst_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Princess_Amethyst_2.0_back.png',
+'http://htkb.info/SDE/Standies/Princess_Amethyst.png', 
+'http://htkb.info/SDE/Standies/Princess_Amethyst_back.png',
 'Feminine', 'Small', 'Human', 6, 3, '2B', '2B', '2R', '3B', 5, 2);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (377, 588); --Fire
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (377, 668); --Ice
@@ -2729,8 +2729,8 @@ insert into Characters (CardIndex) VALUES (873);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (483, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (483, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Princess_Citrine_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Princess_Citrine_2.0_back.png',
+'http://htkb.info/SDE/Standies/Princess_Citrine.png', 
+'http://htkb.info/SDE/Standies/Princess_Citrine_back.png',
 'Feminine', 'Small', 'Human', 6, 3, '2B 1R', '2R', '2B', '3B', 6, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (378, 681); --Immune: Status Effects
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (378, 756); --Military Acumen
@@ -2751,8 +2751,8 @@ insert into Characters (CardIndex) VALUES (874);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (484, 2); --Emerald
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (484, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Princess_Emerald_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Princess_Emerald_2.0_back.png',
+'http://htkb.info/SDE/Standies/Princess_Emerald.png', 
+'http://htkb.info/SDE/Standies/Princess_Emerald_back.png',
 'Feminine', 'Small', 'Human', 6, 3, '2B', '3B', '1B 1R', '2B 1R', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (379, 453); --Bane
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (379, 642); --Heal X
@@ -2790,8 +2790,8 @@ insert into Characters (CardIndex) VALUES (876);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (486, 4); --Sapphire
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (486, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Princess_Sapphire_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Princess_Sapphire_2.0_back.png',
+'http://htkb.info/SDE/Standies/Princess_Sapphire.png', 
+'http://htkb.info/SDE/Standies/Princess_Sapphire_back.png',
 'Feminine', 'Small', 'Human', 6, 3, '2R', '2B 1R', '3B', '2B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (381, 544); --Defender
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (381, 642); --Heal X
@@ -2815,8 +2815,8 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (487, 1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (487, 4); --Sapphire
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (487, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Prince_Peridot_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Prince_Peridot_2.0_back.png',
+'http://htkb.info/SDE/Standies/NPC/Prince_Peridot.png', 
+'http://htkb.info/SDE/Standies/NPC/Prince_Peridot_back.png',
 'Masculine', 'Small', 'Human', 6, 3, '2R', '2B 1R', '2B', '2B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (382, 729); --Massive Damage
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (382, 1711); --Sonic Slash
@@ -2837,8 +2837,8 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (488, 1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (488, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (488, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Rainbow_Dragoon_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Rainbow_Dragoon_2.0_back.png',
+'http://htkb.info/SDE/Standies/Rainbow_Dragoon.png', 
+'http://htkb.info/SDE/Standies/Rainbow_Dragoon_back.png',
 'Masculine', 'Small', 'Celestian', 6, 3, '2B', '2B', '1R', '2B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (383, 502); --Charge
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (383, 596); --Fly
@@ -2862,8 +2862,8 @@ insert into Characters (CardIndex) VALUES (879);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (489, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (489, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Ren_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Ren_2.0_back.png',
+'http://htkb.info/SDE/Standies/WOTF/Ren.png', 
+'http://htkb.info/SDE/Standies/WOTF/Ren_back.png',
 'Masculine', 'Small', 'Human', 6, 3, '2R', '3B', '2B', '2B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (384, 457); --Berserk
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (384, 534); --Deadly Defense
@@ -2884,8 +2884,8 @@ insert into Characters (CardIndex) VALUES (880);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (490, 2); --Emerald
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (490, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Riftling_Rogue_feminine_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Riftling_Rogue_feminine_2.0_back.png',
+'http://htkb.info/SDE/Standies/Riftling_Rogue_feminine.png', 
+'http://htkb.info/SDE/Standies/Riftling_Rogue_feminine_back.png',
 'Feminine', 'Small', 'Demon', 7, 3, '3B', '2B', '1B 1R', '2R', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (385, 718); --Luck
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (385, 729); --Massive Damage
@@ -2909,8 +2909,8 @@ insert into Characters (CardIndex) VALUES (881);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (491, 2); --Emerald
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (491, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Riftling_Rogue_masculine_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Riftling_Rogue_masculine_2.0_back.png',
+'http://htkb.info/SDE/Standies/AltGendered/Riftling_Rogue_masculine.png', 
+'http://htkb.info/SDE/Standies/AltGendered/Riftling_Rogue_masculine_back.png',
 'Masculine', 'Small', 'Demon', 7, 3, '3B', '2B', '1B 1R', '2R', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (386, 718); --Luck
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (386, 729); --Massive Damage
@@ -2934,8 +2934,8 @@ insert into Characters (CardIndex) VALUES (882);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (492, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (492, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Riftling_Warrior_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Riftling_Warrior_2.0_back.png',
+'http://htkb.info/SDE/Standies/Riftling_Warrior.png', 
+'http://htkb.info/SDE/Standies/Riftling_Warrior_back.png',
 'Masculine', 'Small', 'Demon', 6, 3, '4B', '3B', '1B', '2B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (387, 502); --Charge
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (387, 588); --Fire
@@ -2959,8 +2959,8 @@ insert into Characters (CardIndex) VALUES (883);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (493, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (493, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Rimefrost_Warlord_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Rimefrost_Warlord_2.0_back.png',
+'http://htkb.info/SDE/Standies/Rimefrost_Warlord.png', 
+'http://htkb.info/SDE/Standies/Rimefrost_Warlord_back.png',
 'Masculine', 'Large', 'Orc', 6, 3, '2B 1R', '2R', '2B', '2B', 6, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (388, 616); --Frenzy
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (388, 725); --Absolute Destruction
@@ -2980,8 +2980,8 @@ insert into Characters (CardIndex) VALUES (884);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (494, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (494, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Rinny_Prin_Peng_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Rinny_Prin_Peng_2.0_back.png',
+'http://htkb.info/SDE/Standies/Rinny_Prin_Peng.png', 
+'http://htkb.info/SDE/Standies/Rinny_Prin_Peng_back.png',
 'Either', 'Small', 'Chimera', 3, 3, '2R', '3B', '2B', '3B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (389, 728); --Massive Damage
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (389, 815); --Pounce
@@ -3005,8 +3005,8 @@ insert into Characters (CardIndex) VALUES (885);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (495, 2); --Emerald
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (495, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Royal_Huntsman_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Royal_Huntsman_2.0_back.png',
+'http://htkb.info/SDE/Standies/Royal_Huntsman.png', 
+'http://htkb.info/SDE/Standies/Royal_Huntsman_back.png',
 'Masculine', 'Small', 'Human', 6, 3, '2B', '3B', '3B', '3B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (390, 598); --For The Crown!
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (390, 724); --Mark
@@ -3029,8 +3029,8 @@ insert into Characters (CardIndex) VALUES (886);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (496, 4); --Sapphire
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (496, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Royal_Knight_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Royal_Knight_2.0_back.png',
+'http://htkb.info/SDE/Standies/Royal_Knight.png', 
+'http://htkb.info/SDE/Standies/Royal_Knight_back.png',
 'Either', 'Small', 'Human', 8, 3, '2B 1R', '2R', '3B', '1B 1R', 6, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (391, 502); --Charge
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (391, 709); --Knockdown
@@ -3053,8 +3053,8 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (497, 1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (497, 4); --Sapphire
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (497, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Royal_Paladin_feminine_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Royal_Paladin_feminine_2.0_back.png',
+'http://htkb.info/SDE/Standies/AltGendered/Royal_Paladin_feminine.png', 
+'http://htkb.info/SDE/Standies/AltGendered/Royal_Paladin_feminine_back.png',
 'Feminine', 'Small', 'Human', 6, 3, '2R', '2B 1R', '3B', '2B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (392, 588); --Fire
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (392, 642); --Heal X
@@ -3078,8 +3078,8 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (498, 1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (498, 4); --Sapphire
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (498, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Royal_Paladin_masculine_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Royal_Paladin_masculine_2.0_back.png',
+'http://htkb.info/SDE/Standies/Royal_Paladin_masculine.png', 
+'http://htkb.info/SDE/Standies/Royal_Paladin_masculine_back.png',
 'Masculine', 'Small', 'Human', 6, 3, '2R', '2B 1R', '3B', '2B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (393, 588); --Fire
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (393, 642); --Heal X
@@ -3102,8 +3102,8 @@ insert into Characters (CardIndex) VALUES (889);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (499, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (499, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Ryu_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Ryu_2.0_back.png',
+'http://htkb.info/NAS/Standies/Ryu.png', 
+'http://htkb.info/NAS/Standies/Ryu_back.png',
 'Masculine', 'Small', 'Human', 6, 3, '2R', '3B', '3B', '2B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (394, 642); --Heal X
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (394, 826); --Protector
@@ -3125,8 +3125,8 @@ insert into Characters (CardIndex) VALUES (890);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (500, 2); --Emerald
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (500, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Sai_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Sai_2.0_back.png',
+'http://htkb.info/SDE/Standies/Novel/Sai.png', 
+'http://htkb.info/SDE/Standies/Novel/Sai_back.png',
 'Feminine', 'Small', 'Demon', 7, 3, '3B', '2B', '1B 1R', '2R', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (395, 718); --Luck
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (395, 723); --Massive Damage
@@ -3150,8 +3150,8 @@ insert into Characters (CardIndex) VALUES (891);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (501, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (501, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Sanctioned_Witch_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Sanctioned_Witch_2.0_back.png',
+'http://htkb.info/SDE/Standies/Sanctioned_Witch.png', 
+'http://htkb.info/SDE/Standies/Sanctioned_Witch_back.png',
 'Feminine', 'Small', 'Human', 6, 3, '2B', '3B', '2B 1R', '3B', 5, 2);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (396, 642); --Heal X
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (396, 746); --Arcane Burst
@@ -3173,8 +3173,8 @@ insert into Characters (CardIndex) VALUES (892);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (502, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (502, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Saru_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Saru_2.0_back.png',
+'http://htkb.info/SDE/Standies/NAS/Saru.png', 
+'http://htkb.info/SDE/Standies/NAS/Saru_back.png',
 'Feminine', 'Small', 'Chimera', 6, 3, '2B', '3B', '2R', '3B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (397, 647); --Hex
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (397, 672); --Immobile
@@ -3199,8 +3199,8 @@ insert into Characters (CardIndex) VALUES (893);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (503, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (503, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Ser_Charles_Strong_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Ser_Charles_Strong_2.0_back.png',
+'http://htkb.info/SDE/Standies/NPC/Ser_Charles_Strong.png', 
+'http://htkb.info/SDE/Standies/NPC/Ser_Charles_Strong_back.png',
 'Masculine', 'Small', 'Human', 8, 3, '2B 1R', '3B', '3B', '2B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (398, 709); --Knockdown
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (398, 1022); --Surefoot
@@ -3221,8 +3221,8 @@ insert into Characters (CardIndex) VALUES (894);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (504, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (504, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Severina_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Severina_2.0_back.png',
+'http://htkb.info/SDE/Standies/WOTF/Severina.png', 
+'http://htkb.info/SDE/Standies/WOTF/Severina_back.png',
 'Feminine', 'Small', 'Elf', 6, 3, '2B', '3B', '2B 1R', '1B 1R', 5, 2);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (399, 455); --Bane
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (399, 596); --Fly
@@ -3247,8 +3247,8 @@ insert into Characters (CardIndex) VALUES (895);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (505, 4); --Sapphire
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (505, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Sheep_Cote_Clod_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Sheep_Cote_Clod_2.0_back.png',
+'http://htkb.info/SDE/Standies/Sheep_Cote_Clod.png', 
+'http://htkb.info/SDE/Standies/Sheep_Cote_Clod_back.png',
 'Either', 'Small', 'Shapeshift', 5, 3, '2B', '1B', '2B', '2B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (400, 593); --Fixed Form
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (400, 1084); --Hex
@@ -3276,8 +3276,8 @@ insert into Characters (CardIndex) VALUES (896);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (506, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (506, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Shojo_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Shojo_2.0_back.png',
+'http://htkb.info/NAS/Standies/Shojo.png', 
+'http://htkb.info/NAS/Standies/Shojo_back.png',
 'Feminine', 'Small', 'Ika', 6, 3, '3B', '2R', '2R', '2B', 5, 3);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (401, 588); --Fire
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (401, 642); --Heal X
@@ -3302,8 +3302,8 @@ insert into Characters (CardIndex) VALUES (897);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (507, 4); --Sapphire
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (507, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Skyr_Gobbler_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Skyr_Gobbler_2.0_back.png',
+'http://htkb.info/SDE/Standies/Skyr_Gobbler.png', 
+'http://htkb.info/SDE/Standies/Skyr_Gobbler_back.png',
 'Either', 'Large', 'Shapeshift', 5, 3, '2B', '1B', '2B', '2B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (402, 593); --Fixed Form
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (402, 1030); --Don't Hurt Meeee!
@@ -3327,8 +3327,8 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (508, 1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (508, 2); --Emerald
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (508, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Songbird_Candy_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Songbird_Candy_2.0_back.png',
+'http://htkb.info/SDE/Standies/WOTF/Songbird_Candy.png', 
+'http://htkb.info/SDE/Standies/WOTF/Songbird_Candy_back.png',
 'Feminine', 'Small', 'Elf', 7, 3, '1B 1R', '2B', '3B', '2R', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (403, 585); --Feint
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (403, 709); --Knockdown
@@ -3351,8 +3351,8 @@ insert into Characters (CardIndex) VALUES (899);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (509, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (509, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Son_Goku_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Son_Goku_2.0_back.png',
+'http://htkb.info/NAS/Standies/Son_Goku.png', 
+'http://htkb.info/NAS/Standies/Son_Goku_back.png',
 'Masculine', 'Small', 'Yamazaru', 6, 3, '3B', '3B', '4B', '3B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (404, 474); --Born Lucky
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (404, 672); --Immobile
@@ -3374,8 +3374,8 @@ insert into Characters (CardIndex) VALUES (900);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (510, 4); --Sapphire
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (510, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Spoon_Licker_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Spoon_Licker_2.0_back.png',
+'http://htkb.info/SDE/Standies/Spoon_Licker.png', 
+'http://htkb.info/SDE/Standies/Spoon_Licker_back.png',
 'Either', 'Small', 'Shapeshift', 5, 3, '2B', '1B', '2B', '2B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (405, 593); --Fixed Form
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (405, 825); --Properly Punished
@@ -3398,8 +3398,8 @@ insert into Characters (CardIndex) VALUES (901);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (511, 2); --Emerald
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (511, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Springtime_Druid_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Springtime_Druid_2.0_back.png',
+'http://htkb.info/SDE/Standies/Springtime_Druid.png', 
+'http://htkb.info/SDE/Standies/Springtime_Druid_back.png',
 'Feminine', 'Small', 'Fenneck', 7, 3, '2B', '2B', '2R', '2R', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (406, 453); --Bane
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (406, 1022); --Surefoot
@@ -3421,8 +3421,8 @@ insert into Characters (CardIndex) VALUES (902);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (512, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (512, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Star_Guild_Rock_Singer_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Star_Guild_Rock_Singer_2.0_back.png',
+'http://htkb.info/SDE/Standies/Star_Guild_Rock_Singer.png', 
+'http://htkb.info/SDE/Standies/Star_Guild_Rock_Singer_back.png',
 'Feminine', 'Small', 'Dwarf', 6, 3, '3B', '3B', '3B', '2B', 6, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (407, 493); --Burrow
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (407, 642); --Heal X
@@ -3446,8 +3446,8 @@ insert into Characters (CardIndex) VALUES (903);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (513, 4); --Sapphire
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (513, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Star_Princess_Candy_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Star_Princess_Candy_2.0_back.png',
+'http://htkb.info/RRI/Standies/Star_Princess_Candy.png', 
+'http://htkb.info/RRI/Standies/Star_Princess_Candy_back.png',
 'Feminine', 'Small', 'Human', 6, 3, '2B', '3B', '2R', '2R', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (408, 564); --Dungeon Map
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (408, 657); --Hookshot
@@ -3469,8 +3469,8 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (514, 2);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (514, 4); --Sapphire
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (514, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Steelhorse_Candy_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Steelhorse_Candy_2.0_back.png',
+'http://htkb.info/RRI/Standies/Steelhorse_Candy.png', 
+'http://htkb.info/RRI/Standies/Steelhorse_Candy_back.png',
 'Feminine', 'Small', 'Human', 7, 3, '3B', '2R', '2B', '3B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (409, 502); --Charge
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (409, 1022); --Surefoot
@@ -3492,8 +3492,8 @@ insert into Characters (CardIndex) VALUES (905);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (515, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (515, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Sun_Empire_Wandering_Samurai_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Sun_Empire_Wandering_Samurai_2.0_back.png',
+'http://htkb.info/NAS/Standies/Sun_Empire_Wandering_Samurai.png', 
+'http://htkb.info/NAS/Standies/Sun_Empire_Wandering_Samurai_back.png',
 'Masculine', 'Small', 'Human', 6, 3, '2R', '3B', '2B', '3B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (410, 502); --Charge
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (410, 518); --Counterstrike
@@ -3516,8 +3516,8 @@ insert into Characters (CardIndex) VALUES (906);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (516, 2); --Emerald
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (516, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Sweetheart_Candy_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Sweetheart_Candy_2.0_back.png',
+'http://htkb.info/SDE/Standies/Sweetheart_Candy.png', 
+'http://htkb.info/SDE/Standies/Sweetheart_Candy_back.png',
 'Feminine', 'Small', 'Human', 7, 3, '2B', '2R', '3B', '3B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (411, 641); --Have A Heart
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (411, 642); --Heal X
@@ -3540,8 +3540,8 @@ insert into Characters (CardIndex) VALUES (907);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (517, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (517, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Tahariel_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Tahariel_2.0_back.png',
+'http://htkb.info/SDE/Standies/Tahariel.png', 
+'http://htkb.info/SDE/Standies/Tahariel_back.png',
 'Feminine', 'Small', 'Maleaach', 6, 3, '2B', '2R', '1B 1G', '3B', 5, 2);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (412, 596); --Fly
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (412, 685); --Improved Critical
@@ -3565,8 +3565,8 @@ insert into Characters (CardIndex) VALUES (908);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (518, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (518, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Tamamo_No_Mae_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Tamamo_No_Mae_2.0_back.png',
+'http://htkb.info/NAS/Standies/Tamamo_No_Mae.png', 
+'http://htkb.info/NAS/Standies/Tamamo_No_Mae_back.png',
 'Feminine', 'Small', 'Kitsune', 6, 3, '2B', '3B', '2R', '3B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (413, 1022); --Surefoot
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (413, 1029); --Territorial
@@ -3588,8 +3588,8 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (519, 1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (519, 2); --Emerald
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (519, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Tatsu_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Tatsu_2.0_back.png',
+'http://htkb.info/SDE/Standies/SOTC/Tatsu.png', 
+'http://htkb.info/SDE/Standies/SOTC/Tatsu_back.png',
 'Masculine', 'Small', 'Human', 6, 3, '2B 1R', '3B', '2B', '3B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (414, 585); --Feint
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (414, 794); --Parry
@@ -3612,8 +3612,8 @@ insert into Characters (CardIndex) VALUES (910);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (520, 4); --Sapphire
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (520, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Tincan_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Tincan_2.0_back.png',
+'http://htkb.info/SDE/Standies/Tincan.png', 
+'http://htkb.info/SDE/Standies/Tincan_back.png',
 'Masculine', 'Small', 'Dwarf', 5, 3, '2R', '2B 1R', '2B 1R', '1B', 6, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (415, 636); --Grabby
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (415, 642); --Heal X
@@ -3641,8 +3641,8 @@ insert into Characters (CardIndex) VALUES (911);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (521, 2); --Emerald
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (521, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Treffen_Cedarbough_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Treffen_Cedarbough_2.0_back.png',
+'http://htkb.info/SDE/Standies/Novel/Treffen_Cedarbough.png', 
+'http://htkb.info/SDE/Standies/Novel/Treffen_Cedarbough_back.png',
 'Masculine', 'Large', 'Shapeshift', 6, 3, '2B 1R', '3B', '3B', '2B', 6, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (416, 847); --Remedy
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (416, 1009); --Stealth
@@ -3667,8 +3667,8 @@ insert into Characters (CardIndex) VALUES (912);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (522, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (522, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Trick_Or_Treat_Cola_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Trick_Or_Treat_Cola_2.0_back.png',
+'http://htkb.info/SDE/Standies/Trick_Or_Treat_Cola.png', 
+'http://htkb.info/SDE/Standies/Trick_Or_Treat_Cola_back.png',
 'Either', 'Small', 'Kitsune', 5, 3, '2B', '2R', '3B', '3B', 5, 2);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (417, 718); --Luck
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (417, 1867); --Trick
@@ -3689,8 +3689,8 @@ insert into Characters (CardIndex) VALUES (913);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (523, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (523, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Trixie_Master_of_Chains_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Trixie_Master_of_Chains_2.0_back.png',
+'http://htkb.info/SDE/Standies/Trixie_Master_of_Chains.png', 
+'http://htkb.info/SDE/Standies/Trixie_Master_of_Chains_back.png',
 'Feminine', 'Small', 'Riftling', 6, 3, '2B', '3B', '2B 1R', '3B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (418, 610); --Free Coin
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (418, 779); --One Use Only
@@ -3715,8 +3715,8 @@ insert into Characters (CardIndex) VALUES (914);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (524, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (524, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Tusk_Raider_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Tusk_Raider_2.0_back.png',
+'http://htkb.info/SDE/Standies/Tusk_Raider.png', 
+'http://htkb.info/SDE/Standies/Tusk_Raider_back.png',
 'Masculine', 'Small', 'Dwarf', 5, 3, '1B 1G', '2R', '1B', '2R', 7, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (419, 431); --Angry Walrus
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (419, 457); --Berserk
@@ -3740,8 +3740,8 @@ insert into Characters (CardIndex) VALUES (915);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (525, 2); --Emerald
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (525, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Twilight_Cola_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Twilight_Cola_2.0_back.png',
+'http://htkb.info/SDE/Standies/WOTF/Twilight_Cola.png', 
+'http://htkb.info/SDE/Standies/WOTF/Twilight_Cola_back.png',
 'Either', 'Small', 'Kitsune', 6, 3, '1B 1R', '2B', '3B', '3B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (420, 585); --Feint
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (420, 1511); --Piercing Blade
@@ -3762,8 +3762,8 @@ insert into Characters (CardIndex) VALUES (916);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (526, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (526, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Unicorn_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Unicorn_2.0_back.png',
+'http://htkb.info/SDE/Standies/Unicorn.png', 
+'http://htkb.info/SDE/Standies/Unicorn_back.png',
 'Either', 'Large', 'Shapeshift', 6, 3, '2B 1R', '3B', '3B', '2B', 6, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (421, 502); --Charge
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (421, 596); --Fly
@@ -3777,29 +3777,20 @@ insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (421
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (421, 1, 1); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (421, 2); --Armor
 
---Unstable Design --CardIndex 917	--CharacterIndex 527	--ExploreCharacterIndex 422
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Unstable Design', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Unstable_Design_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Unstable_Design_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Unstable_Design.xhtml', 
-'Hero', '2.0', '2.0 Core Set', 'Default', 
-'The gnomes of Clockwork Cove originally designed Clockwork Contraptions to do construction work that was too dangerous for those not made entirely of metal. As the complexity of their assignments increased, their logic engines were infused with more power until they became self-aware. Once they started forming a union and demanding fair wages, the gnomes largely set them free. Some have since armed themselves and become adventurers in their own right.');
+-- --CardIndex 917	--CharacterIndex 527	--ExploreCharacterIndex 422
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+'', 
+'', 
+'', 
+'', 
+'', '', '', '', 
+'');
 insert into Characters (CardIndex) VALUES (917);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (527, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (527, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Unstable_Design_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Unstable_Design_2.0_back.png',
-'Either', 'Large', 'Construct', 5, 3, '2R', '3B', '2B', '3B', 6, 1);
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (422, 608); --Fortify
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (422, 728); --Massive Damage
-insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (422, 1051); --Unstable Design
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (422, 1895); --Vent Steam
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (422, 749); --Arm Cannon Overcharge
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (422, 1398); --Magnetic Field
-insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (422, 1177); --Fresh Oil
-insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (422, 3, 8); --Dex
-insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (422, 2); --Armor
+'', 
+'',
+'', '', '', -1, -1, '', '', '', '', -1, -1);
 
 --Ursus Knight --CardIndex 918	--CharacterIndex 528	--ExploreCharacterIndex 423
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ursus Knight', 
@@ -3812,8 +3803,8 @@ insert into Characters (CardIndex) VALUES (918);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (528, 2); --Emerald
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (528, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Ursus_Knight_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Ursus_Knight_2.0_back.png',
+'http://htkb.info/SDE/Standies/Ursus_Knight.png', 
+'http://htkb.info/SDE/Standies/Ursus_Knight_back.png',
 'Masculine', 'Small', 'Human', 6, 3, '2R', '2B 1R', '2B', '2B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (423, 533); --Deadly Defense
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (423, 728); --Massive Damage
@@ -3836,8 +3827,8 @@ insert into Characters (CardIndex) VALUES (919);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (529, 2); --Emerald
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (529, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Uzumaki_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Uzumaki_2.0_back.png',
+'http://htkb.info/NAS/Standies/Uzumaki.png', 
+'http://htkb.info/NAS/Standies/Uzumaki_back.png',
 'Masculine', 'Small', 'Kitsune', 6, 3, '3B', '2R', '2R', '2B 1R', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (424, 828); --Quick Strike
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (424, 1022); --Surefoot
@@ -3858,8 +3849,8 @@ insert into Characters (CardIndex) VALUES (920);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (530, 2); --Emerald
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (530, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Valerie_Duval_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Valerie_Duval_2.0_back.png',
+'http://htkb.info/SDE/Standies/SOTC/Valerie_Duval.png', 
+'http://htkb.info/SDE/Standies/SOTC/Valerie_Duval_back.png',
 'Feminine', 'Small', 'Human', 7, 3, '3B', '2B', '2B', '2R', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (425, 457); --Berserk
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (425, 642); --Heal X
@@ -3884,8 +3875,8 @@ insert into Characters (CardIndex) VALUES (921);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (531, 4); --Sapphire
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (531, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Virtuous_Blade_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Virtuous_Blade_2.0_back.png',
+'http://htkb.info/SDE/Standies/Virtuous_Blade.png', 
+'http://htkb.info/SDE/Standies/Virtuous_Blade_back.png',
 'Feminine', 'Small', 'Human', 6, 3, '2B 1R', '2R', '3B', '2B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (426, 642); --Heal X
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (426, 1014); --Strength of Virtue
@@ -3908,8 +3899,8 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (532, 1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (532, 2); --Emerald
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (532, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Wandering_Master_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Wandering_Master_2.0_back.png',
+'http://htkb.info/NAS/Standies/Wandering_Master.png', 
+'http://htkb.info/NAS/Standies/Wandering_Master_back.png',
 'Masculine', 'Small', 'Human', 7, 3, '2R', '3B', '3B', '2R', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (427, 567); --Elemental Affinity
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (427, 585); --Feint
@@ -3931,8 +3922,8 @@ insert into Characters (CardIndex) VALUES (923);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (533, 4); --Sapphire
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (533, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/White_Knight_Candy_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/White_Knight_Candy_2.0_back.png',
+'http://htkb.info/SDE/Standies/White_Knight_Candy.png', 
+'http://htkb.info/SDE/Standies/White_Knight_Candy_back.png',
 'Feminine', 'Small', 'Human', 6, 3, '3B', '2B 1R', '3B', '2B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (428, 464); --Blessed Strike
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (428, 588); --Fire
@@ -3956,8 +3947,8 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (534, 1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (534, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (534, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Witch_Exterminator_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Witch_Exterminator_2.0_back.png',
+'http://htkb.info/SDE/Standies/Witch_Exterminator.png', 
+'http://htkb.info/SDE/Standies/Witch_Exterminator_back.png',
 'Feminine', 'Small', 'Human', 6, 2, '2B', '3B', '2R', '1B 1R', 5, 3);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (429, 440); --Artillery
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (429, 455); --Bane
@@ -3985,8 +3976,8 @@ insert into Characters (CardIndex) VALUES (925);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (535, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (535, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Wyrdwood_Reaver_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Wyrdwood_Reaver_2.0_back.png',
+'http://htkb.info/SDE/Standies/Wyrdwood_Reaver.png', 
+'http://htkb.info/SDE/Standies/Wyrdwood_Reaver_back.png',
 'Neither', 'Large', 'Orc', 6, 3, '3B', '2R', '2B', '2R', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (430, 483); --Brutal Strike
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (430, 724); --Mark
@@ -4009,8 +4000,8 @@ insert into Characters (CardIndex) VALUES (926);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (536, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (536, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Yagyu_Jubei_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Yagyu_Jubei_2.0_back.png',
+'http://htkb.info/NAS/Standies/Yagyu_Jubei.png', 
+'http://htkb.info/NAS/Standies/Yagyu_Jubei_back.png',
 'Masculine', 'Small', 'Human', 7, 3, '2R', '2R', '3B', '2B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (431, 585); --Feint
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (431, 794); --Parry
@@ -4033,8 +4024,8 @@ insert into Characters (CardIndex) VALUES (927);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (537, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (537, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Yokozuna_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Yokozuna_2.0_back.png',
+'http://htkb.info/NAS/Standies/Yokozuna.png', 
+'http://htkb.info/NAS/Standies/Yokozuna_back.png',
 'Masculine', 'Small', 'Human', 6, 3, '3R', '3B', '3B', '2B', 7, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (432, 679); --Immune: Poison
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (432, 709); --Knockdown
@@ -4057,8 +4048,8 @@ insert into Characters (CardIndex) VALUES (928);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (538, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (538, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Yui_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Yui_2.0_back.png',
+'http://htkb.info/SDE/Standies/NAS/Yui.png', 
+'http://htkb.info/SDE/Standies/NAS/Yui_back.png',
 'Feminine', 'Small', 'Human', 6, 2, '2B', '3B', '3B', '3B', 3, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (433, 442); --Augment
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (433, 642); --Heal X
@@ -4081,8 +4072,8 @@ insert into Characters (CardIndex) VALUES (929);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (539, 0); --Amethyst
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (539, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Yurei_No_Tomomori_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Yurei_No_Tomomori_2.0_back.png',
+'http://htkb.info/SDE/Standies/NAS/Yurei_No_Tomomori.png', 
+'http://htkb.info/SDE/Standies/NAS/Yurei_No_Tomomori_back.png',
 'Masculine', 'Small', 'Undead', 5, 3, '2R', '3B', '4B', '2B', 6, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (434, 562); --Dragged To The Depths
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (434, 1038); --Dragged Down
@@ -4103,8 +4094,8 @@ insert into Characters (CardIndex) VALUES (930);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (540, 2); --Emerald
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (540, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Zenyo_Ryu_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Zenyo_Ryu_2.0_back.png',
+'http://htkb.info/SDE/Standies/NAS/Zenyo_Ryu.png', 
+'http://htkb.info/SDE/Standies/NAS/Zenyo_Ryu_back.png',
 'Feminine', 'Small', 'Tanchyo', 7, 3, '2B', '2R', '3B', '2R', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (435, 729); --Massive Damage
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (435, 1071); --Wind of Blades
