@@ -10,8 +10,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (737);
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 347, 
-'http://htkb.info/SDE/FK/SDArena/Cards/Heroes/Standies/Arena_Champion_FK_SDArena.png', 
-'http://htkb.info/SDE/FK/SDArena/Cards/Heroes/Standies/Arena_Champion_FK_SDArena_back.png', 
+'http://htkb.info/SDE/Standies/Arena_Champion.png', 
+'http://htkb.info/SDE/Standies/Arena_Champion_back.png', 
 'Feminine', 'Small', 'Fennek', 6, 3, '2B1R', '2R', '2B', '3B', 5, 1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (347, 1); --Citrine
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (347, 2); --Emerald

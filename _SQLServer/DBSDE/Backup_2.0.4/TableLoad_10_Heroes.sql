@@ -3,7 +3,7 @@
 --Heroes
 
 
---Scarlett Cutlass --CardIndex 2354	--CharacterIndex 1201	--ExploreCharacterIndex 862
+-- --CardIndex cXXX	--CharacterIndex chXXX	--ExploreCharacterIndex eXXX
 
 
 

@@ -15,8 +15,8 @@ insert into Characters (CardIndex) VALUES (2228);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1106, 4); --Sapphire
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (1106, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Black_Handed_Henry_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Black_Handed_Henry_2.0_back.png',
+'http://htkb.info/SDE/Standies/Black_Handed_Henry.png', 
+'http://htkb.info/SDE/Standies/Black_Handed_Henry_back.png',
 'Masculine', 'Small', 'Dwarf Pirate', 6, 3, '2B', '3B', '3B', '2R', 6, 2);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (774, 1116); --Keep the Rum Flowing
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (774, 798); --Pet: Polly
@@ -39,8 +39,8 @@ insert into Characters (CardIndex) VALUES (2229);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1107, 2); --Emerald
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (1107, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Cheeto_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Cheeto_2.0_back.png',
+'http://htkb.info/SDE/Standies/RRI/Cheeto.png', 
+'http://htkb.info/SDE/Standies/RRI/Cheeto_back.png',
 'Masculine', 'Large', 'Bugbear', 5, 3, '2B 1R', '2R', '2B', '2B', 6, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (775, 1019); --Sturdy
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (775, 1110); --Familiar: Colo
@@ -63,8 +63,8 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1108, 3)
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1108, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (1108, 
-'http://htkb.info/SDE/Standies/D_Shaun.png', 
-'http://htkb.info/SDE/Standies/D_Shaun_back.png',
+'http://htkb.info/SDE/Standies/WOTF/D_Shaun.png', 
+'http://htkb.info/SDE/Standies/WOTF/D_Shaun_back.png',
 'Masculine', 'Small', 'Human', 6, 3, '3B', '3B', '1B 1R', '1B 1R', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (776, 673); --Immune: Bane
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (776, 679); --Immune: Poison
@@ -86,8 +86,8 @@ insert into Characters (CardIndex) VALUES (2231);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1109, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (1109, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Deepwater_Diver_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Deepwater_Diver_2.0_back.png',
+'http://htkb.info/SDE/Standies/Deepwater_Diver.png', 
+'http://htkb.info/SDE/Standies/Deepwater_Diver_back.png',
 'Either', 'Large', 'Gnome Construct', 5, 3, '2R', '3B 1R', '2B', '1B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (777, 636); --Grabby
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (777, 676); --Immune: Ice
@@ -110,8 +110,8 @@ insert into Characters (CardIndex) VALUES (2232);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1110, 4); --Sapphire
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (1110, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Eiko_Ando_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Eiko_Ando_2.0_back.png',
+'http://htkb.info/SDE/Standies/Eiko_Ando.png', 
+'http://htkb.info/SDE/Standies/Eiko_Ando_back.png',
 'Feminine', 'Small', 'Human', 6, 3, '2B', '3B', '3B', '2B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (778, 1107); --Exorcist
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (778, 2044); --Power of Prayer, The
@@ -133,8 +133,8 @@ insert into Characters (CardIndex) VALUES (2233);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1111, 4); --Sapphire
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (1111, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Eiko_Ando_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Eiko_Ando_2.0_back.png',
+'http://htkb.info/SDE/Standies/Eiko_Ando.png', 
+'http://htkb.info/SDE/Standies/Eiko_Ando_back.png',
 'Masculine', 'Small', 'Human', 6, 3, '3B', '2R', '2B 1R', '3B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (779, 796); --Pep Talk
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (779, 1006); --Steady
@@ -157,8 +157,8 @@ insert into Characters (CardIndex) VALUES (2234);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1112, 4); --Sapphire
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (1112, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Magoichi_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Magoichi_2.0_back.png',
+'http://htkb.info/SDE/Standies/Magoichi.png', 
+'http://htkb.info/SDE/Standies/Magoichi_back.png',
 'Masculine', 'Small', 'Human', 6, 3, '3B', '2R', '1B', '2R', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (780, 557); --Discipline
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (780, 843); --Reckless
@@ -180,8 +180,8 @@ insert into Characters (CardIndex) VALUES (2235);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1113, 4); --Sapphire
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (1113, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Pirate_Captain_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Pirate_Captain_2.0_back.png',
+'http://htkb.info/SDE/Standies/Pirate_Captain.png', 
+'http://htkb.info/SDE/Standies/Pirate_Captain_back.png',
 'Masculine', 'Small', 'Pirate Human', 6, 3, '2R', '3B', '2B', '3B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (781, 794); --Parry
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (781, 1087); --Extra Powder
@@ -204,8 +204,8 @@ insert into Characters (CardIndex) VALUES (2236);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1114, 4); --Sapphire
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (1114, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Skuttle_Knight_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Skuttle_Knight_2.0_back.png',
+'http://htkb.info/SDE/Standies/Skuttle_Knight.png', 
+'http://htkb.info/SDE/Standies/Skuttle_Knight_back.png',
 'Masculine', 'Large', 'Gnome', 3, 4, '2R', '2B 1R', '3B', '2B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (782, 1022); --Surefoot
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (782, 1107); --Catastrophic Failure

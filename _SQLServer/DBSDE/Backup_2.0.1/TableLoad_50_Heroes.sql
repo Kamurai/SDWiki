@@ -13,8 +13,8 @@ insert into Characters (CardIndex) VALUES (2222);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1100, 2); --Emerald
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (1100, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Bladedancer_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Bladedancer_2.0_back.png',
+'http://htkb.info/SDE/Standies/Bladedancer.png', 
+'http://htkb.info/SDE/Standies/Bladedancer_back.png',
 'Feminine', 'Small', 'Elf', 6, 3, '2R', '2R', '2B', '2R', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (768, 518); --Counterstrike
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (768, 533); --Deadly Defense
@@ -39,8 +39,8 @@ insert into Characters (CardIndex) VALUES (2223);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1101, 4); --Sapphire
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (1101, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Dazzled_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Dazzled_2.0_back.png',
+'http://htkb.info/SDE/Standies/Dazzled.png', 
+'http://htkb.info/SDE/Standies/Dazzled_back.png',
 'Feminine', 'Small', 'Human', 6, 3, '3B', '3B', '3B', '2B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (769, 609); --Found A Shiny
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (769, 1970); --SparkleBOOM
@@ -61,8 +61,8 @@ insert into Characters (CardIndex) VALUES (2224);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1102, 0); --Amethyst
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (1102, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Outcast_Vampyr_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Outcast_Vampyr_2.0_back.png',
+'http://htkb.info/SDE/Standies/Outcast_Vampyr.png', 
+'http://htkb.info/SDE/Standies/Outcast_Vampyr_back.png',
 'Masculine', 'Small', 'Undead', 6, 3, '2B', '3B', '3B', '3B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (770, 596); --Fly
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (770, 1085); --Heart Attack
@@ -86,8 +86,8 @@ insert into Characters (CardIndex) VALUES (2225);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1103, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (1103, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Royal_Academic_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/Royal_Academic_2.0_back.png',
+'http://htkb.info/SDE/Standies/Royal_Academic.png', 
+'http://htkb.info/SDE/Standies/Royal_Academic_back.png',
 'Feminine', 'Small', 'Human', 6, 3, '2B', '3B', '2R', '3B', 5, 2);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (771, 505); --Clever (Explore)
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (771, 506); --Clever (Arcade)

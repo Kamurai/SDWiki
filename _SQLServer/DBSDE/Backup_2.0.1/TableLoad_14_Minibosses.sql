@@ -66,8 +66,8 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (614, 2);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (614, 4); --Sapphire
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (614,
-'http://htkb.info/SDE/2.0/Cards/Standies/Blood_Eye_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Standies/Blood_Eye_2.0_back.png', 
+'http://htkb.info/SDE/Standies/Blood_Eye.png', 
+'http://htkb.info/SDE/Standies/Blood_Eye_back.png', 
 'Masculine', 'Large', 'Orc', 6, 3, '3B', '3B 1R', '1B 1R', '2B 2R', 7, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (509, 679); --Immune: Poison
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (509, 724); --Mark
