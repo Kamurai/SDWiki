@@ -215,7 +215,7 @@
             <div>
                 Flavor Text: #{SDEExploreCharacterBean.getExploreCharacter().getFlavor()}
             </div>
-            <ui:fragment rendered="#{SDEExploreCharacterBean.getExploreCharacter().getVersion().contains("Custom")}">
+            <ui:fragment rendered="#{SDEExploreCharacterBean.getExploreCharacter().isCustom()}">
                 <div>
                     Author: #{SDEExploreCharacterBean.getExploreCharacter().getAuthor()}
                 </div>

@@ -136,6 +136,11 @@ public class Card extends Component{
 
     public void setVersion(String version) {
         this.version = version;
+        if(this.version.contains("Custom")){
+            setCustom(true);
+        } else {
+            setCustom(false);
+        }
     }
 
     public String getModule() {

@@ -2,6 +2,7 @@ package SDE;
 
 public class Component{
     private String  link;
+    private boolean custom;
     
     public Component(){
         this.link           = "";        
@@ -23,5 +24,13 @@ public class Component{
     
     public void clone(Component source){
         this.link = source.link;
+    }
+
+    public boolean isCustom() {
+        return custom;
+    }
+
+    public void setCustom(boolean custom) {
+        this.custom = custom;
     }
 }
