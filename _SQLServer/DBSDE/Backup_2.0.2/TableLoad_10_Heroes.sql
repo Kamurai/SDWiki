@@ -63,8 +63,8 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1108, 3)
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1108, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (1108, 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/D_Shaun_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Standies/D_Shaun_2.0_back.png',
+'http://htkb.info/SDE/Standies/D_Shaun.png', 
+'http://htkb.info/SDE/Standies/D_Shaun_back.png',
 'Masculine', 'Small', 'Human', 6, 3, '3B', '3B', '1B 1R', '1B 1R', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (776, 673); --Immune: Bane
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (776, 679); --Immune: Poison
