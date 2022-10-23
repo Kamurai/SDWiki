@@ -45,6 +45,15 @@ public class Character extends Card{
         this.affinity = affinity;
     }
     
+    public void clone(Character source){
+        partialClone(source);
+        clone((Card) source);
+    }
+    
+    public void partialClone(Character source){
+        this.affinity = source.affinity;
+    }
+    
     public String getAffinity(){
         if( this.affinity == null){
             this.affinity = Affinity.affinities.get(0);

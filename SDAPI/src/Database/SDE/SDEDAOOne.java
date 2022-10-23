@@ -295,7 +295,7 @@ public class SDEDAOOne extends SDEDAO{
                 
                 //run only on new card
                 if(newCard){
-                    SDEDAOProcessor.processPet(rs);
+                    result = SDEDAOProcessor.processPet(rs);
                 }
                 
                 //if on new keyword

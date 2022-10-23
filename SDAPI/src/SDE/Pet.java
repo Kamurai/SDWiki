@@ -84,7 +84,7 @@ public class Pet extends ExploreCharacter {
     
     public void clone(Pet source){
         partialClone(source);
-        clone((Card) source);
+        clone((ExploreCharacter) source);
     }
     
     public void partialClone(Pet source){

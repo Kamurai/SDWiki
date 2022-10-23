@@ -113,7 +113,7 @@ public class ExploreCharacter extends Character implements KeywordInterface, Abi
     
     public void clone(ExploreCharacter source){
         partialClone(source);
-        clone((Card) source);
+        clone((Character) source);
     }
 
     public void partialClone(ExploreCharacter source){

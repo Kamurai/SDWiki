@@ -106,10 +106,15 @@ public class SDEDAOProcessor {
     public static Pet processPet(ResultSet rs){
         Pet result = new Pet();
         
-        result.clone(getCard(rs));
-        result.clone(getCharacter(rs));
-        result.clone(getExploreCharacter(rs));
-        result.clone(getPet(rs));
+//        result.clone(getPet(rs));
+//        result.clone(getExploreCharacter(rs));
+//        result.clone(getCharacter(rs));
+//        result.clone(getCard(rs));
+        
+        result.partialClone(getCard(rs));
+        result.partialClone(getCharacter(rs));
+        result.partialClone(getExploreCharacter(rs));
+        result.partialClone(getPet(rs));
         
         return result;
     }
