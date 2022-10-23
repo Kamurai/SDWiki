@@ -224,7 +224,8 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (275, 2); --Armor
 
 --Attila --CardIndex 771	--CharacterIndex 381	--ExploreCharacterIndex 276
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Attila', 
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+'Attila', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Attila_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Attila_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Attila.xhtml', 
@@ -782,7 +783,7 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (403, 2);
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (403, 
 'http://htkb.info/SDE/Standies/Cat_Burglar.png', 
-'http://htkb.info/SDE/Standies/Cat Burglar_back.png',
+'http://htkb.info/SDE/Standies/Cat_Burglar_back.png',
 'Feminine', 'Small', 'Freyjan', 7, 3, '3B', '3B', '2B', '2B 1R', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (298, 417); --9 Lives
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (298, 807); --Poison
