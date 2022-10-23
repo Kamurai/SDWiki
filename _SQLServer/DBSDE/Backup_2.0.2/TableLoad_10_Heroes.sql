@@ -75,7 +75,8 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (776, 2); --Armor
 
 --Deepwater Diver --CardIndex 2231	--CharacterIndex 1109	--ExploreCharacterIndex 777
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('D''Shaun', 
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+'Deepwater Diver', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Deepwater_Diver_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Deepwater_Diver_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Deepwater_Diver.xhtml', 
