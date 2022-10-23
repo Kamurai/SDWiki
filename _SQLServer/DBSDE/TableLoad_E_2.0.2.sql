@@ -39,8 +39,8 @@ insert into Characters (CardIndex) VALUES (2229);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1107, 2); --Emerald
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (1107, 
-'http://htkb.info/SDE/Standies/Cheeto.png', 
-'http://htkb.info/SDE/Standies/Cheeto_back.png',
+'http://htkb.info/SDE/Standies/RRI/Cheeto.png', 
+'http://htkb.info/SDE/Standies/RRI/Cheeto_back.png',
 'Masculine', 'Large', 'Bugbear', 5, 3, '2B 1R', '2R', '2B', '2B', 6, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (775, 1019); --Sturdy
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (775, 1110); --Familiar: Colo
@@ -63,8 +63,8 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1108, 3)
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1108, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (1108, 
-'http://htkb.info/SDE/Standies/D_Shaun.png', 
-'http://htkb.info/SDE/Standies/D_Shaun_back.png',
+'http://htkb.info/SDE/Standies/WOTF/D_Shaun.png', 
+'http://htkb.info/SDE/Standies/WOTF/D_Shaun_back.png',
 'Masculine', 'Small', 'Human', 6, 3, '3B', '3B', '1B 1R', '1B 1R', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (776, 673); --Immune: Bane
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (776, 679); --Immune: Poison

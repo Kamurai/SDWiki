@@ -174,7 +174,6 @@
                     <div><!-- Dexterity Defense -->#{( SDEExploreCharacterBean.getExploreCharacter().containsDefense('Dexterity') )}</div>
                 </div>
             </div>
-            
             <div>
                 <div class="inline">
                     Affinity: #{SDEExploreCharacterBean.getExploreCharacter().getAffinity()}
@@ -187,6 +186,7 @@
                 </div>
             </div>
             <br/>
+            
             <!-- List of Keywords -->
             <ui:fragment rendered="#{SDEExploreCharacterBean.getExploreCharacter().validateKeywordList()}">
                 <div>Keywords:</div>
@@ -215,6 +215,14 @@
             <div>
                 Flavor Text: #{SDEExploreCharacterBean.getExploreCharacter().getFlavor()}
             </div>
+            <ui:fragment rendered="#{SDEExploreCharacterBean.getExploreCharacter().getVersion().contains("Custom")}">
+                <div>
+                    Author: #{SDEExploreCharacterBean.getExploreCharacter().getAuthor()}
+                </div>
+                <div>
+                    Source: #{SDEExploreCharacterBean.getExploreCharacter().getSourceURL()}
+                </div>
+            </ui:fragment>
         </div>
     </h:body>
 </html>

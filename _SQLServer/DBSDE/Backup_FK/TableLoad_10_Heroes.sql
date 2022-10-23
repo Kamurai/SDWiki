@@ -174,8 +174,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (161);
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 76, 
-'http://htkb.info/SDE/Standies/Cursed_Captain.png', 
-'http://htkb.info/SDE/Standies/Cursed_Captain_back.png',
+'http://htkb.info/SDE/Standies/Captain_R.png', 
+'http://htkb.info/SDE/Standies/Captain_R_back.png',
 'Masculine', 'Small', 'Undead Pirate', 6, 3, '3B', '3B', '1B1R', '1B1R', 5, 1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (76, 1); --Citrine
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (76, 3); --Ruby

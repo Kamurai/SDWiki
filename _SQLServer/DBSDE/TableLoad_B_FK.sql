@@ -34,8 +34,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (155);
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 70, 
-'http://htkb.info/SDE/Standies/Bearstruck_Berserker.png', 
-'http://htkb.info/SDE/Standies/Bearstruck_Berserker_back.png',
+'http://htkb.info/SDE/Standies/Bashful_Boris.png', 
+'http://htkb.info/SDE/Standies/Bashful_Boris_back.png',
 'Either', 'Large', 'Chimera', 6, 3, '2B1R', '2R', '1B', '2B', 5, 1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (70, 1); --Citrine
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (70, 184); --Berserk
@@ -127,8 +127,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (159);
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 74, 
-'http://htkb.info/SDE/Standies/Claw_Tribe_Barbarian.png', 
-'http://htkb.info/SDE/Standies/Claw_Tribe_Barbarian_back.png',
+'http://htkb.info/SDE/Standies/Claw_Tribe_Barbarian_feminine.png', 
+'http://htkb.info/SDE/Standies/Claw_Tribe_Barbarian_feminine_back.png',
 'Feminine', 'Small', 'Human', 6, 3, '2R', '3B', '2B', '2B', 5, 1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (74, 1); --Citrine
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (74, 184); --Berserk
@@ -199,8 +199,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (162);
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 77, 
-'http://htkb.info/SDE/Standies/Dark_Centurion.png', 
-'http://htkb.info/SDE/Standies/Dark_Centurion_back.png',
+'http://htkb.info/SDE/Standies/Herald_of_Vulcanis.png', 
+'http://htkb.info/SDE/Standies/Herald_of_Vulcanis_back.png',
 'Masculine', 'Small', 'Dark Celestian', 7, 3, '2B1R', '2R', '1B1R', '1B1R', 5, 1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (77, 1); --Citrine
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (77, 262); --Immune: Fire
@@ -222,8 +222,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (163);
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 78, 
-'http://htkb.info/SDE/Standies/Deeproot_Druid.png', 
-'http://htkb.info/SDE/Standies/Deeproot_Druid_back.png',
+'http://htkb.info/SDE/Standies/Deeproot_Druid_masculine.png', 
+'http://htkb.info/SDE/Standies/Deeproot_Druid_masculine_back.png',
 'Masculine', 'Small', 'Half-Elf', 7, 3, '3B', '1B1R', '3B', '1B1R', 5, 1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (78, 1); --Citrine
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (78, 3); --Ruby
@@ -272,8 +272,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (165);
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 80, 
-'http://htkb.info/SDE/Standies/Deeproot_Treant.png', 
-'http://htkb.info/SDE/Standies/Deeproot_Treant_back.png',
+'http://htkb.info/SDE/Standies/Trent.png', 
+'http://htkb.info/SDE/Standies/Trent_back.png',
 'Either', 'Large', 'Treant Kodama', 6, 3, '1B1R', '1ST2R', '3B', '1B', 6, 1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (80, 4); --Sapphire
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (80, 359); --Tough

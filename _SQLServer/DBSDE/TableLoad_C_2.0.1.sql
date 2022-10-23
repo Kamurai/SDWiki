@@ -381,8 +381,8 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (387, 3);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (387, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (387, 
-'http://htkb.info/SDE/Standies/Black_Knight.png', 
-'http://htkb.info/SDE/Standies/Black_Knight_back.png',
+'http://htkb.info/SDE/Standies/Monach_Tvar.png', 
+'http://htkb.info/SDE/Standies/Monach_Tvar_back.png',
 'Masculine', 'Small', 'Nether Elf', 6, 3, '2R', '2B 1R', '3B', '3R', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (282, 428); --Ambush
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (282, 451); --Backstabber
@@ -527,8 +527,8 @@ insert into Characters (CardIndex) VALUES (783);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (393, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (393, 
-'http://htkb.info/SDE/Standies/Bomb_Blast_Prophet.png', 
-'http://htkb.info/SDE/Standies/Bomb_Blast_Prophet_back.png',
+'http://htkb.info/SDE/Standies/Charmancer.png', 
+'http://htkb.info/SDE/Standies/Charmancer_back.png',
 'Neither', 'Large', 'Orc', 6, 3, '3B', '3B', '2R', '2B', 5, 2);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (288, 588); --Fire
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (288, 685); --Improved Critical
@@ -592,7 +592,6 @@ insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (290
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (290, 1304); --Icebreaker Ale
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (290, 1, 1); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (290, 2); --Armor
-
 
 --Burke Badhammer --CardIndex 786	--CharacterIndex 396	--ExploreCharacterIndex 291
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Burke Badhammer', 
@@ -705,8 +704,8 @@ insert into Characters (CardIndex) VALUES (790);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (400, 4); --Sapphire
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (400, 
-'http://htkb.info/SDE/Standies/Captain_of_the_Guard.png', 
-'http://htkb.info/SDE/Standies/Captain_of_the_Guard_back.png',
+'http://htkb.info/SDE/Standies/Ser_Elmer.png', 
+'http://htkb.info/SDE/Standies/Ser_Elmer_back.png',
 'Masculine', 'Small', 'Human', 6, 3, '3B', '2B 1R', '3B', '2B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (295, 455); --Bane
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (295, 543); --Defender
@@ -926,8 +925,8 @@ insert into Characters (CardIndex) VALUES (800);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (410, 4); --Sapphire
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (410, 
-'http://htkb.info/NAS/Standies/Chuy.png', 
-'http://htkb.info/NAS/Standies/Chuy_back.png',
+'http://htkb.info/RRI/Standies/Chuy.png', 
+'http://htkb.info/RRI/Standies/Chuy_back.png',
 'Masculine', 'Small', 'Human', 6, 3, '3B', '2B 1R', '3B', '3B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (305, 437); --Arc
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (305, 588); --Fire
@@ -1019,8 +1018,8 @@ insert into Characters (CardIndex) VALUES (804);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (414, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (414, 
-'http://htkb.info/SDE/Standies/Cog_War_Reaver.png', 
-'http://htkb.info/SDE/Standies/Cog_War_Reaver_back.png',
+'http://htkb.info/SDE/Standies/Ugluk_the_Mechanically_Inclined.png', 
+'http://htkb.info/SDE/Standies/Ugluk_the_Mechanically_Inclined_back.png',
 'Neither', 'Large', 'Orc', 6, 3, '3B', '3B', '2B', '3B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (309, 483); --Brutal Strike
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (309, 507); --Coghammer
@@ -1045,8 +1044,8 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (415, 2);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (415, 4); --Sapphire
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (415, 
-'http://htkb.info/SDE/Standies/Crook_Eye_Tracker.png', 
-'http://htkb.info/SDE/Standies/Crook_Eye_Tracker_back.png',
+'http://htkb.info/SDE/Standies/Blood_Eye.png', 
+'http://htkb.info/SDE/Standies/Blood_Eye_back.png',
 'Masculine', 'Large', 'Orc', 6, 3, '3B', '3B', '1B 1R', '3B', 6, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (310, 642); --Heal X
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (310, 679); --Immune: Poison
@@ -1149,8 +1148,8 @@ insert into Characters (CardIndex) VALUES (809);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (419, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (419, 
-'http://htkb.info/SDE/Standies/Deodric_the_Drunk.png', 
-'http://htkb.info/SDE/Standies/Deodric_the_Drunk_back.png',
+'http://htkb.info/SDE/Standies/NPC/Deodric_the_Drunk.png', 
+'http://htkb.info/SDE/Standies/NPC/Deodric_the_Drunk_back.png',
 'Masculine', 'Small', 'Dwarf', 6, 3, '2B', '3B', '2R', '1B 1R', 5, 3);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (314, 435); --Another Round
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (314, 681); --Immune: Status Effects
@@ -5746,8 +5745,8 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (614, 2);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (614, 4); --Sapphire
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (614,
-'http://htkb.info/SDE/2.0/Cards/Standies/Blood_Eye_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Standies/Blood_Eye_2.0_back.png', 
+'http://htkb.info/SDE/Standies/Blood_Eye.png', 
+'http://htkb.info/SDE/Standies/Blood_Eye_back.png', 
 'Masculine', 'Large', 'Orc', 6, 3, '3B', '3B 1R', '1B 1R', '2B 2R', 7, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (509, 679); --Immune: Poison
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (509, 724); --Mark

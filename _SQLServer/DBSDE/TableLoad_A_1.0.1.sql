@@ -56,8 +56,8 @@ insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (2, 
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (2, 123); --Soothing Soda
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (2, 132); --Sugar Rush
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (2, 
-'http://htkb.info/SDE/Standies/Candy_And_Cola.png', 
-'http://htkb.info/SDE/Standies/Candy_And_Cola0_back.png', 
+'http://htkb.info/SDE/Standies/Soda_Master_Candy.png', 
+'http://htkb.info/SDE/Standies/Soda_Master_Candy_back.png', 
 'Feminine', 'Small', 'Human', 6, 3, '2B', '3B', '2B', '1B1R', 5, 3);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (2, 0, 1); --Attack
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (2, 2); --Armor
@@ -97,8 +97,8 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (4, 
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (4, 92); --Rage
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (4, 55); --Fury's Blood
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (4, 
-'http://htkb.info/SDE/Standies/Claw_Tribe_Barbarian.png', 
-'http://htkb.info/SDE/Standies/Claw_Tribe_Barbarian_back.png', 
+'http://htkb.info/SDE/Standies/Claw_Tribe_Barbarian_feminine.png', 
+'http://htkb.info/SDE/Standies/Claw_Tribe_Barbarian_feminine_back.png', 
 'Feminine', 'Small', 'Human', 6, 3, '2R', '3B', '2B', '2B', 5, 1);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (4, 0, 1); --Attack
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (4, 2); --Armor
@@ -141,8 +141,8 @@ insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (6, 
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (6, 105); --Shapeshift
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (6, 83); --Nourishing Berries
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (6, 
-'http://htkb.info/SDE/Standies/Deeproot_Druid.png', 
-'http://htkb.info/SDE/Standies/Deeproot_Druid_back.png', 
+'http://htkb.info/SDE/Standies/Deeproot_Druid_masculine.png', 
+'http://htkb.info/SDE/Standies/Deeproot_Druid_masculine_back.png', 
 'Masculine', 'Small', 'Half-Elf', 7, 3, '3B', '1B1R', '1B1R', '2B', 5, 1);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (6, 0, 1); --Attack
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (6, 2); --Armor
