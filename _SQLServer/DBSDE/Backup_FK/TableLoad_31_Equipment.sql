@@ -1924,6 +1924,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Never trust a gnome.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (617, 'Loot', 'Right', '+1B DEX');
 
+--EquipmentIndex 258 (Corrective)
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (-1, '', '', '');
 
 --Soldier's Halberd				--CardIndex 618		--EquipmentIndex 259 
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Soldier''s Halberd',

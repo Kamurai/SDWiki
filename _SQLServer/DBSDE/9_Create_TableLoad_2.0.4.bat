@@ -141,6 +141,12 @@ type .\Backup_1.0_Custom\TableLoad_20_Boss_Spawns.sql >> TableLoad_F_1.0_Custom.
 type .\Backup_1.0_Custom\TableLoad_21_Equipment.sql >> TableLoad_F_1.0_Custom.sql
 type .\Backup_1.0_Custom\TableLoad_40_Terrain.sql >> TableLoad_F_1.0_Custom.sql
 type .\Backup_1.0_Custom\TableLoad_41_Utilities.sql >> TableLoad_F_1.0_Custom.sql
+type .\Backup_1.0_Custom\TableLoad_50_Heroes.sql >> TableLoad_F_1.0_Custom.sql
+type .\Backup_1.0_Custom\TableLoad_54_MiniBosses.sql >> TableLoad_F_1.0_Custom.sql
+type .\Backup_1.0_Custom\TableLoad_55_Bosses.sql >> TableLoad_F_1.0_Custom.sql
+type .\Backup_1.0_Custom\TableLoad_56_Warbands.sql >> TableLoad_F_1.0_Custom.sql
+type .\Backup_1.0_Custom\TableLoad_94_MiniBosses.sql >> TableLoad_F_1.0_Custom.sql
+type .\Backup_1.0_Custom\TableLoad_96_Warbands.sql >> TableLoad_F_1.0_Custom.sql
 
 type .\Backup_2.0.3\TableLoad_10_Heroes.sql >> TableLoad_G_2.0.3.sql
 type .\Backup_2.0.3\TableLoad_11_Pets.sql >> TableLoad_G_2.0.3.sql

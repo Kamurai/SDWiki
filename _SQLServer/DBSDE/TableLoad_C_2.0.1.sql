@@ -4121,8 +4121,8 @@ insert into Characters (CardIndex) VALUES (931);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (541, 4); --Sapphire
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (541,
-'http://htkb.info/SDE/2.0/Cards/Pets/Standies/Admiral_Fuzzybottom_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Pets/Standies/Admiral_Fuzzybottom_2.0_back.png',
+'http://htkb.info/SDE/Standies/Admiral_Fuzzybottom.png', 
+'http://htkb.info/SDE/Standies/Admiral_Fuzzybottom_back.png',
 'Either', 'Small', '', 7, 1, '3B', '2ST', '1ST', '3ST', 2, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (436, 902); --Small
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (436, 734); --Master Gains Happy Cat

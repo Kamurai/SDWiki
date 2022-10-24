@@ -174,8 +174,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (161);
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 76, 
-'http://htkb.info/SDE/Standies/Cursed_Captain.png', 
-'http://htkb.info/SDE/Standies/Cursed_Captain_back.png',
+'http://htkb.info/SDE/Standies/Captain_R.png', 
+'http://htkb.info/SDE/Standies/Captain_R_back.png',
 'Masculine', 'Small', 'Undead Pirate', 6, 3, '3B', '3B', '1B1R', '1B1R', 5, 1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (76, 1); --Citrine
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (76, 3); --Ruby
@@ -1447,8 +1447,8 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (130
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (130, 366); --Happy Cat
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (130,
-'http://htkb.info/SDE/FK/Cards/Pets/Standies/Admiral_Fuzzybottom_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Pets/Standies/Admiral_Fuzzybottom_FK_back.png',
+'http://htkb.info/SDE/Standies/Admiral_Fuzzybottom.png', 
+'http://htkb.info/SDE/Standies/Admiral_Fuzzybottom_back.png',
 'Either', 'Small', 'Wonder', 7, 1, '3B', '2ST', '', '', 1, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (130, 1, 1);
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (130, 2);
@@ -9533,6 +9533,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Never trust a gnome.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (617, 'Loot', 'Right', '+1B DEX');
 
+--EquipmentIndex 258 (Corrective)
+insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (-1, '', '', '');
 
 --Soldier's Halberd				--CardIndex 618		--EquipmentIndex 259 
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Soldier''s Halberd',

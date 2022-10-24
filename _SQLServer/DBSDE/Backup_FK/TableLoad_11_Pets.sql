@@ -12,8 +12,8 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (130
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (130, 366); --Happy Cat
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (130,
-'http://htkb.info/SDE/FK/Cards/Pets/Standies/Admiral_Fuzzybottom_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Pets/Standies/Admiral_Fuzzybottom_FK_back.png',
+'http://htkb.info/SDE/Standies/Admiral_Fuzzybottom.png', 
+'http://htkb.info/SDE/Standies/Admiral_Fuzzybottom_back.png',
 'Either', 'Small', 'Wonder', 7, 1, '3B', '2ST', '', '', 1, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (130, 1, 1);
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (130, 2);

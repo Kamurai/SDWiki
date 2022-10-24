@@ -3,7 +3,7 @@
 --Pets
 
 
---Jawge --CardIndex 2357	--CharacterIndex 1204	--ExploreCharacterIndex 865
+--Jawge --CardIndex 2358	--CharacterIndex 1204	--ExploreCharacterIndex 865
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 'Jawge',
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Jawge_2.0.png', 
@@ -11,7 +11,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Pets/Jawge.xhtml', 
 'Pet', '2.0', '2.0 Core Set', 'Default', 
 '');
-insert into Characters (CardIndex) VALUES (2357);
+insert into Characters (CardIndex) VALUES (2358);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1204, 2); --Emerald
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (1204,
