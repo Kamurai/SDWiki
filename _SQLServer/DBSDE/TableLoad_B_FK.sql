@@ -342,8 +342,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (168);
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 83, 
-'http://htkb.info/SDE/Standies/Ember_Mage.png', 
-'http://htkb.info/SDE/Standies/Ember_Mage_back.png',
+'http://htkb.info/SDE/Standies/Ember_Mage_feminine.png', 
+'http://htkb.info/SDE/Standies/Ember_Mage_feminine_back.png',
 'Either', 'Small', 'Human', 6, 3, '2B', '3B', '2R', '1B1R', 5, 2);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (83, 1); --Citrine
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (83, 3); --Ruby

@@ -1173,8 +1173,8 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (420, 3);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (420, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (420, 
-'http://htkb.info/SDE/Standies/Duskweaver.png', 
-'http://htkb.info/SDE/Standies/Duskweaver_back.png',
+'http://htkb.info/SDE/Standies/Arachne.png', 
+'http://htkb.info/SDE/Standies/Arachne_back.png',
 'Feminine', 'Small', 'Nether Elf Spider', 8, 3, '2B 1R', '2R', '3B', '3B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (315, 672); --Immobile
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (315, 679); --Immune: Poison

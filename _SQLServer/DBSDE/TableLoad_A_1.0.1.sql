@@ -181,8 +181,8 @@ insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (8, 
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (8, 149); --White Mage Potion
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (8, 47); --Fire Water
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (8, 
-'http://htkb.info/SDE/Standies/Ember_Mage.png', 
-'http://htkb.info/SDE/Standies/Ember_Mage_back.png', 
+'http://htkb.info/SDE/Standies/Ember_Mage_feminine.png', 
+'http://htkb.info/SDE/Standies/Ember_Mage_feminine_back.png', 
 'Feminine', 'Small', 'Human', 6, 3, '2B', '3B', '2R', '1B1R', 5, 2);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (8, 0, 1); --Attack
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (8, 3, 8); --Will

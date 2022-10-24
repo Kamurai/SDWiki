@@ -110,8 +110,8 @@ insert into Characters (CardIndex) VALUES (2232);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1110, 4); --Sapphire
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (1110, 
-'http://htkb.info/SDE/Standies/Eiko_Ando.png', 
-'http://htkb.info/SDE/Standies/Eiko_Ando_back.png',
+'http://htkb.info/SDE/Standies/NAS/Eiko_Ando.png', 
+'http://htkb.info/SDE/Standies/NAS/Eiko_Ando_back.png',
 'Feminine', 'Small', 'Human', 6, 3, '2B', '3B', '3B', '2B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (778, 1107); --Exorcist
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (778, 2044); --Power of Prayer, The
