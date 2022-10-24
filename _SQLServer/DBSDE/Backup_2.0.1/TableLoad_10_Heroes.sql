@@ -1211,7 +1211,8 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (316, 2); --Armor
 
 --Edward Murdoch --CardIndex 812	--CharacterIndex 422	--ExploreCharacterIndex 317
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Edward Murdoch', 
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+'Edward Murdoch', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Edward_Murdoch_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Edward_Murdoch_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Edward_Murdoch.xhtml', 
@@ -1445,8 +1446,8 @@ insert into Characters (CardIndex) VALUES (821);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (431, 3); --Emerald
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (431, 
-'http://htkb.info/SDE/Standies/Freyjan_Beastmaster_errata.png', 
-'http://htkb.info/SDE/Standies/Freyjan_Beastmaster_errata_back.png',
+'http://htkb.info/SDE/Standies/Freyjan_Beastmaster.png', 
+'http://htkb.info/SDE/Standies/Freyjan_Beastmaster_back.png',
 'Either', 'Small', 'Freyjan', 6, 3, '2B', '3B', '3B', '3B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (326, 417); --9 Lives
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (326, 455); --Bane
