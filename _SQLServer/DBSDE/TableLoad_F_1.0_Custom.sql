@@ -69,8 +69,8 @@ insert into Characters (CardIndex) VALUES (2291);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (800, 1125); --Terrain
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 1139, 
-'http://htkb.info/Common/Standies/Crystal_Form.png', 
-'http://htkb.info/Common/Standies/Crystal_Form_back.png', 
+'http://htkb.info/Common/Standies/Impact_Miniatures/Crystal_Form.png', 
+'http://htkb.info/Common/Standies/Impact_Miniatures/Crystal_Form_back.png', 
 'Neither', 'Small', '', 0, 0, '0', '1ST', '0', '0', 1, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (800, 0, 0); --Attack
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (800, 2); --Armor
