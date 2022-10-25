@@ -201,8 +201,8 @@ insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (9, 
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (9, 124); --Sparkle Burst
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (9, 86); --Pixie Dust
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (9, 
-'http://htkb.info/SDE/Standies/Glimmerdusk_Ranger.png', 
-'http://htkb.info/SDE/Standies/Glimmerdusk_Ranger_back.png', 
+'http://htkb.info/SDE/Standies/Glimmerdusk_Ranger_feminine.png', 
+'http://htkb.info/SDE/Standies/Glimmerdusk_Ranger_feminine_back.png', 
 'Feminine', 'Small', 'Elf', 7, 3, '1B1R', '3B', '2B', '2R', 5, 1);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (9, 0, 1); --Attack
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (9, 4, 8); --Dexterity
@@ -222,8 +222,8 @@ insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (10,
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (10, 24); --Cleave
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (10, 64); --Hero's Balm
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (10, 
-'http://htkb.info/SDE/Standies/Hearthsworn_Fighter.png', 
-'http://htkb.info/SDE/Standies/Hearthsworn_Fighter_back.png', 
+'http://htkb.info/SDE/Standies/Hearthsworn_Fighter_masculine.png', 
+'http://htkb.info/SDE/Standies/Hearthsworn_Fighter_masculine_back.png', 
 'Masculine', 'Small', 'Dwarf', 6, 3, '2B1R', '2R', '2B', '2B', 6, 1);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (10, 0, 1); --Attack
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (10, 2);--Armor

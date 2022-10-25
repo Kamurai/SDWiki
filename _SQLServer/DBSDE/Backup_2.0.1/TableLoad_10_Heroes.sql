@@ -1775,18 +1775,19 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (339, 2); --Armor
 
 --Howl & Yip --CardIndex 835	--CharacterIndex 445	--ExploreCharacterIndex 340
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Howl & Yip', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Howl_And_Yip_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Howl_And_Yip_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Howl_And_Yip.xhtml', 
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+'Howl & Yip', 
+'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Howl_and_Yip_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Howl_and_Yip_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Howl_and_Yip.xhtml', 
 'Hero', '2.0', '2.0 Core Set', 'Default', 
 'A highly skilled warrior of strange disposition, Howl, and the small child he calls Yip wander Kagejima living the rough life of a ronin. They say, in a past life, he fell in love with a bewitching kunoichi, and she with him. He did not discover her betrothal to her clan''s lord until after their son was born. To preserve honor, he gave up his name and swore revenge on the lord.');
 insert into Characters (CardIndex) VALUES (835);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (445, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (445, 
-'http://htkb.info/SDE/Standies/Howl_And_Yip.png', 
-'http://htkb.info/SDE/Standies/Howl_And_Yip_back.png',
+'http://htkb.info/NAS/Standies/Howl_and_Yip.png', 
+'http://htkb.info/NAS/Standies/Howl_and_Yip_back.png',
 'Masculine', 'Small', 'Human', 6, 3, '3B', '2R', '2B', '3B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (340, 642); --Heal X
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (340, 709); --Knockdown
@@ -1905,8 +1906,8 @@ insert into Characters (CardIndex) VALUES (840);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (450, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (450, 
-'http://htkb.info/SDE/Standies/WOTF/Jun_2.0.png', 
-'http://htkb.info/SDE/Standies/WOTF/Jun_2.0_back.png',
+'http://htkb.info/SDE/Standies/WOTF/Jun.png', 
+'http://htkb.info/SDE/Standies/WOTF/Jun_back.png',
 'Feminine', 'Small', 'Human', 6, 3, '2B', '3B', '2B 1R', '3B', 5, 2);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (345, 455); --Bane
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (345, 642); --Heal X

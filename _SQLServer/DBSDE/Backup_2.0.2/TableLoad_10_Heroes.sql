@@ -133,8 +133,8 @@ insert into Characters (CardIndex) VALUES (2233);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1111, 4); --Sapphire
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (1111, 
-'http://htkb.info/SDE/Standies/Eiko_Ando.png', 
-'http://htkb.info/SDE/Standies/Eiko_Ando_back.png',
+'http://htkb.info/SDE/Standies/RRI/Hermit_Swordmage.png', 
+'http://htkb.info/SDE/Standies/RRI/Hermit_Swordmage_back.png',
 'Masculine', 'Small', 'Human', 6, 3, '3B', '2R', '2B 1R', '3B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (779, 796); --Pep Talk
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (779, 1006); --Steady
@@ -157,8 +157,8 @@ insert into Characters (CardIndex) VALUES (2234);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1112, 4); --Sapphire
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (1112, 
-'http://htkb.info/SDE/Standies/Magoichi.png', 
-'http://htkb.info/SDE/Standies/Magoichi_back.png',
+'http://htkb.info/SDE/Standies/NAS/Magoichi.png', 
+'http://htkb.info/SDE/Standies/NAS/Magoichi_back.png',
 'Masculine', 'Small', 'Human', 6, 3, '3B', '2R', '1B', '2R', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (780, 557); --Discipline
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (780, 843); --Reckless
@@ -180,8 +180,8 @@ insert into Characters (CardIndex) VALUES (2235);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1113, 4); --Sapphire
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (1113, 
-'http://htkb.info/SDE/Standies/Pirate_Captain.png', 
-'http://htkb.info/SDE/Standies/Pirate_Captain_back.png',
+'http://htkb.info/SDE/Standies/Jolly_Sparrow.png', 
+'http://htkb.info/SDE/Standies/Jolly_Sparrow_back.png',
 'Masculine', 'Small', 'Pirate Human', 6, 3, '2R', '3B', '2B', '3B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (781, 794); --Parry
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (781, 1087); --Extra Powder

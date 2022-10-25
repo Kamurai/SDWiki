@@ -391,8 +391,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (170);
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 85, 
-'http://htkb.info/SDE/Standies/Glimmerdusk_Ranger.png', 
-'http://htkb.info/SDE/Standies/Glimmerdusk_Ranger_back.png',
+'http://htkb.info/SDE/Standies/Glimmerdusk_Ranger_feminine.png', 
+'http://htkb.info/SDE/Standies/Glimmerdusk_Ranger_feminine_back.png',
 'Either', 'Small', 'Elf', 7, 3, '1B1R', '3B', '2B', '2B1R', 5, 1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (85, 2); --Emerald
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (85, 352); --Surefoot
@@ -414,8 +414,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (171);
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 86, 
-'http://htkb.info/SDE/Standies/Hearthsworn_Fighter.png', 
-'http://htkb.info/SDE/Standies/Hearthsworn_Fighter_back.png',
+'http://htkb.info/SDE/Standies/Hearthsworn_Fighter_masculine.png', 
+'http://htkb.info/SDE/Standies/Hearthsworn_Fighter_masculine_back.png',
 'Either', 'Small', 'Dwarf', 6, 3, '2B1R', '2R', '2B', '2B', 6, 1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (86, 1); --Citrine
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (86, 4); --Sapphire

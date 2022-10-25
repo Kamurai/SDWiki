@@ -152,8 +152,8 @@ insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (803
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (803, 2098); --Caffeine Pills
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 1142, 
-'http://htkb.info/Common/Standies/Arcadia_Quest/Dragonmaster.png', 
-'http://htkb.info/Common/Standies/Arcadia_Quest/Dragonmaster_back.png', 
+'http://htkb.info/Common/Standies/Enchanted_Dancer.png', 
+'http://htkb.info/Common/Standies/Enchanted_Dancer_back.png', 
 'Feminine', 'Small', 'Human', 6, 3, '1B1R', '1B2R', '1B1R', '1B1R', 5, 1);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (803, 0, 1); --Attack
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (803, 2); --Armor
