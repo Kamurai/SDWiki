@@ -317,7 +317,7 @@ insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (809
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 1148, 
 'http://htkb.info/SDE/Standies/Alternate/Hexcast_Sorceress.png', 
-'http://htkb.info/SDE/Standies/Alternate/Hexcast_Sorceress.png', 
+'http://htkb.info/SDE/Standies/Alternate/Hexcast_Sorceress_back.png', 
 'Feminine', 'Small', 'Human', 6, 3, '2B', '3B', '1B 1R', '1B 1R', 5, 1);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (809, 0, 1); --Attack
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (809, 2); --Armor

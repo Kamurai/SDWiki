@@ -2285,8 +2285,8 @@ insert into Characters (CardIndex) VALUES (855);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (465, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (465, 
-'http://htkb.info/SDE/Standies/Master_of_Chains.png', 
-'http://htkb.info/SDE/Standies/Master_of_Chains_back.png',
+'http://htkb.info/SDE/Standies/Trixie_Master_of_Chains.png', 
+'http://htkb.info/SDE/Standies/Trixie_Master_of_Chains_back.png',
 'Feminine', 'Small', 'Riftling', 6, 3, '2B', '3B', '2B 1R', '3B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (360, 610); --Free Coin
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (360, 779); --One Use Only
@@ -2334,8 +2334,8 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (467, 1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (467, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (467, 
-'http://htkb.info/SDE/Standies/NAS/Mizaru.png', 
-'http://htkb.info/SDE/Standies/NAS/Mizaru_back.png',
+'http://htkb.info/NAS/Standies/Mizaru.png', 
+'http://htkb.info/NAS/Standies/Mizaru_back.png',
 'Masculine', 'Small', 'Yamazaru', 6, 3, '3B', '3B', '3B', '2R', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (362, 672); --Immobile
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (362, 841); --Read The Wind
@@ -2359,8 +2359,8 @@ insert into Characters (CardIndex) VALUES (858);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (468, 2); --Emerald
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (468, 
-'http://htkb.info/SDE/Standies/NAS/Mizuchi.png', 
-'http://htkb.info/SDE/Standies/NAS/Mizuchi_back.png',
+'http://htkb.info/NAS/Standies/Mizuchi.png', 
+'http://htkb.info/NAS/Standies/Mizuchi_back.png',
 'Feminine', 'Small', 'Ika', 6, 3, '3B', '3B', '2B', '3B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (363, 894); --Sidestep
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (363, 1672); --Skewer
@@ -2382,8 +2382,8 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (469, 2);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (469, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (469, 
-'http://htkb.info/SDE/Standies/NAS/Mochizuki.png', 
-'http://htkb.info/SDE/Standies/NAS/Mochizuki_back.png',
+'http://htkb.info/NAS/Standies/Mochizuki.png', 
+'http://htkb.info/NAS/Standies/Mochizuki_back.png',
 'Feminine', 'Small', 'Human', 5, 3, '2B', '3B', '2R', '3B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (364, 563); --Dread
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (364, 724); --Mark
@@ -2406,8 +2406,8 @@ insert into Characters (CardIndex) VALUES (860);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (470, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (470, 
-'http://htkb.info/SDE/Standies/NAS/Momotaro.png', 
-'http://htkb.info/SDE/Standies/NAS/Momotaro_back.png',
+'http://htkb.info/NAS/Standies/Momotaro.png', 
+'http://htkb.info/NAS/Standies/Momotaro_back.png',
 'Masculine', 'Small', 'Human', 6, 3, '2B 1R', '2R', '3B', '2B', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (365, 642); --Heal X
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (365, 708); --Knockdown
