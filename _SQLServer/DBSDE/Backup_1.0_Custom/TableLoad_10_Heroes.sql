@@ -330,8 +330,8 @@ insert into CustomCards (CardIndex, Author, SourceURL) VALUES(
 --Hired Hand --Card Index 2301	--CharacterIndex 1149 --ExploreCharacterIndex 810
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 'Hired Hand', 
-'http://htkb.info/SDE/1.0/Custom/Cards/Heroes/Card_Hero_Hexcast_Sorceress_1.0_Custom.png', 
-'http://htkb.info/SDE/1.0/Custom/Cards/Heroes/Card_Hero_Hexcast_Sorceress_1.0_Custom_back.png', 
+'http://htkb.info/SDE/1.0/Custom/Cards/Heroes/Card_Hero_Hired_Hand_1.0_Custom.png', 
+'http://htkb.info/SDE/1.0/Custom/Cards/Heroes/Card_Hero_Hired_Hand_1.0_Custom_back.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Custom/Cards/Heroes/Hired_Hand.xhtml', 
 'Hero', '1.0 Custom', '1.0 Custom Set', 'Default', 
 '');
@@ -408,10 +408,10 @@ insert into CustomCards (CardIndex, Author, SourceURL) VALUES(
 
 --Nekkoneer Captain --Card Index 2304	--CharacterIndex 1152 --ExploreCharacterIndex 813
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
-'Nekoneer Captain', 
-'http://htkb.info/SDE/1.0/Custom/Cards/Heroes/Card_Hero_Nekoneer_Captain_1.0_Custom.png', 
-'http://htkb.info/SDE/1.0/Custom/Cards/Heroes/Card_Hero_Nekoneer_Captain_1.0_Custom_back.png', 
-'http://htkb.online/SDWiki/SDE/1.0/Custom/Cards/Heroes/Nekoneer_Captain.xhtml', 
+'Nekkoneer Captain', 
+'http://htkb.info/SDE/1.0/Custom/Cards/Heroes/Card_Hero_Nekkoneer_Captain_1.0_Custom.png', 
+'http://htkb.info/SDE/1.0/Custom/Cards/Heroes/Card_Hero_Nekkoneer_Captain_1.0_Custom_back.png', 
+'http://htkb.online/SDWiki/SDE/1.0/Custom/Cards/Heroes/Nekkoneer_Captain.xhtml', 
 'Hero', '1.0 Custom', '1.0 Custom Set', 'Default', 
 '');
 insert into Characters (CardIndex) VALUES (2304);
