@@ -15,8 +15,8 @@ insert into Characters (CardIndex) VALUES (2357);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1203, 2); --Emerald
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (1203, 
-'http://htkb.info/SDE/Standies/Scarlett_Cutlass.png', 
-'http://htkb.info/SDE/Standies/Scarlett_Cutlass_back.png',
+'http://htkb.info/SDE/Standies/Dread_Scarlett.png', 
+'http://htkb.info/SDE/Standies/Dread_Scarlett_back.png',
 'Feminine', 'Small', 'Freyjan Pirate', 6, 3, '3B', '3B', '2B', '2R', 5, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (864, 1022); --Surefoot
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (864, 417); --9 Lives

@@ -984,8 +984,8 @@ insert into Characters (CardIndex) VALUES (1041);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (651, 4); --Sapphire
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (651,
-'http://htkb.info/SDE/2.0/Cards/Standies/Ser_Anthony_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Standies/Ser_Anthony_2.0_back.png', 
+'http://htkb.info/SDE/Standies/Ser_Anthony.png', 
+'http://htkb.info/SDE/Standies/Ser_Anthony_back.png', 
 'Masculine', 'Small', 'Human Soldier', 8, 3, '2ST 2R', '3R', '3B', '1B 1R', 6, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (546, 502); --Charge
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (546, 543); --Defender

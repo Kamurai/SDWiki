@@ -353,8 +353,8 @@ insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (163
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (163, 343); --Frosty Soda Bomb
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (163,
-'http://htkb.info/SDE/FK/Cards/MiniBosses/Standies/Ninja_Cola_FK.png', 
-'http://htkb.info/SDE/FK/Cards/MiniBosses/Standies/Ninja_Cola_FK_back.png',
+'http://htkb.info/NAS/Stealth_Cola.png', 
+'http://htkb.info/NAS/Stealth_Cola_back.png',
 'Masculine', 'Small', 'Kitsune', 7, 3, '3B', '2B', '1B1R', '2B2R', 5, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (163, 1, 1); --Strength
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (163, 4, 8); --Dexterity

@@ -368,15 +368,16 @@ insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (17,
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (17, 6); --Backstab
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (17, 35); --Dimensional Draught
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (17, 
-'http://htkb.info/SDE/Standies/Riftling_Rogue.png', 
-'http://htkb.info/SDE/Standies/Riftling_Rogue_back.png', 
+'http://htkb.info/SDE/Standies/Riftling_Rogue_feminine.png', 
+'http://htkb.info/SDE/Standies/Riftling_Rogue_feminine_back.png', 
 'Feminine', 'Small', 'Demonkin', 7, 3, '3B', '2B', '1B1R', '2R', 5, 1);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (17, 0, 1); --Attack
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (17, 2); --Armor
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (17, 4); --Dexterity
 
 --Royal Paladin --Index 18
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Royal Paladin', 
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+'Royal Paladin', 
 'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Hero_Royal_Paladin_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Hero_Royal_Paladin_1.0_back.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Heroes/Royal_Paladin.xhtml', 
@@ -389,8 +390,8 @@ insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (18,
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (18, 117); --Smite
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (18, 41); --Elixir
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (18,
-'http://htkb.info/SDE/Standies/Royal_Paladin.png', 
-'http://htkb.info/SDE/Standies/Royal_Paladin_back.png', 
+'http://htkb.info/SDE/Standies/Royal_Paladin_masculine.png', 
+'http://htkb.info/SDE/Standies/Royal_Paladin_masculine_back.png', 
 'Masculine', 'Small', 'Human', 6, 3, '3B', '1B1R', '1B1R', '2B', 5, 1);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (18, 0, 1); --Attack
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (18, 2); --Armor
@@ -416,7 +417,8 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (19, 2); --Armor
 
 --Sister Of Light --Index 20
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Sister Of Light', 
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+'Sister Of Light', 
 'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Hero_Sister_Of_Light_1.0.png', 
 'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Hero_Sister_Of_Light_1.0_back.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Cards/Heroes/Sister_Of_Light.xhtml', 
@@ -428,8 +430,8 @@ insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (20,
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (20, 90); --Purification
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (20, 42); --Elixir of Light
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (20, 
-'http://htkb.info/SDE/Standies/Sister_Of_Light.png', 
-'http://htkb.info/SDE/Standies/Sister_Of_Light_back.png', 
+'http://htkb.info/SDE/Standies/Sister_of_Light.png', 
+'http://htkb.info/SDE/Standies/Sister_of_Light_back.png', 
 'Feminine', 'Small', 'Human', 6, 3, '1B1R', '2R', '1B1R', '2B', 5, 1);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (20, 0, 1); --Attack
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (20, 2); --Armor
@@ -508,8 +510,8 @@ insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (24,
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (24, 65); --Hightower
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (24, 87); --Portcullis Potion
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (24, 
-'http://htkb.info/SDE/Standies/Wyrm_Claw_Exemplar.png', 
-'http://htkb.info/SDE/Standies/Wyrm_Claw_Exemplar_back.png', 
+'http://htkb.info/SDE/Standies/Ser_Snapjaw.png', 
+'http://htkb.info/SDE/Standies/Ser_Snapjaw_back.png',
 'Either', 'Small', 'Kobold', 7, 3, '2B1R', '2R', '1B1R', '1B1R', 5, 1);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (24, 0, 1); --Attack
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (24, 2); --Armor

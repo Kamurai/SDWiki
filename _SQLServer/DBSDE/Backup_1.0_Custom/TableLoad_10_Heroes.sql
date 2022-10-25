@@ -624,9 +624,9 @@ insert into CustomCards (CardIndex, Author, SourceURL) VALUES(
 --Royal Paladin --Card Index 2312	--CharacterIndex 1160 --ExploreCharacterIndex 821
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 'Royal Paladin', 
-'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Hero_Royal_Paladin_1.0.png', 
-'http://htkb.info/SDE/1.0/Cards/Heroes/Card_Hero_Royal_Paladin_1.0_back.png', 
-'http://htkb.online/SDWiki/SDE/1.0/Cards/Heroes/Royal_Paladin.xhtml', 
+'http://htkb.info/SDE/1.0/Custom/Cards/Heroes/Card_Hero_Royal_Paladin_1.0.png', 
+'http://htkb.info/SDE/1.0/Custom/Cards/Heroes/Card_Hero_Royal_Paladin_1.0_back.png', 
+'http://htkb.online/SDWiki/SDE/1.0/Custom/Cards/Heroes/Royal_Paladin.xhtml', 
 'Hero', '1.0 Custom', '1.0 Custom Set', 'Default',   
 'From the high citadels, the worshippers of light are champions against the spreading darkness.  Powerful warriors and healers, the Paladins have been at the front of the great confrontation with the Consul.');
 insert into Characters (CardIndex) VALUES (2312);
@@ -637,8 +637,8 @@ insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (821
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (821, 41); --Elixir
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 1160,
-'http://htkb.info/Common/Standies/Fate/Saber_Chibi.png', 
-'http://htkb.info/Common/Standies/Fate/Saber_Chibi_back.png', 
+'http://htkb.info/Common/Standies/Fate/Saber.png', 
+'http://htkb.info/Common/Standies/Fate/Saber_back.png', 
 'Feminine', 'Small', 'Human', 6, 3, '3B', '1B1R', '1B1R', '2B', 5, 1);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (821, 0, 1); --Attack
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (821, 2); --Armor
@@ -768,8 +768,8 @@ insert into Characters (CardIndex) VALUES (2317);
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (826, 2175); --The Wolf
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 1165, 
-'http://htkb.info/Common/Standies/My_Little_Pony/Twighlight_Sparkle.png', 
-'http://htkb.info/Common/Standies/My_Little_Pony/Twighlight_Sparkle_back.png', 
+'http://htkb.info/Common/Standies/Wolf_The.png', 
+'http://htkb.info/Common/Standies/Wolf_The_back.png', 
 'Either', 'Small', '', 7, 3, '1B 1R', '1B 1R', '2B', '2B', 0, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (826, 0, 1); --Attack
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (826, 2); --Armor

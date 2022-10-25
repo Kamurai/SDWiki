@@ -741,8 +741,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (185);
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 100, 
-'http://htkb.info/NAS/Standies/Ninja_Cola.png', 
-'http://htkb.info/NAS/Standies/Ninja_Cola_back.png',
+'http://htkb.info/NAS/Standies/Stealth_Cola.png', 
+'http://htkb.info/NAS/Standies/Stealth_Cola_back.png',
 'Masculine', 'Small', 'Kitsune', 7, 3, '3B', '2B', '1B1R', '2B1R', 4, 2);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (100, 2); --Emerald
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (100, 335); --Sidestep
@@ -766,8 +766,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (186);
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 101, 
-'http://htkb.info/NAS/Standies/Ninja_Cola.png', 
-'http://htkb.info/NAS/Standies/Ninja_Cola_back.png',
+'http://htkb.info/NAS/Standies/Stealth_Cola.png', 
+'http://htkb.info/NAS/Standies/Stealth_Cola_back.png',
 'Masculine', 'Small', 'Kitsune', 7, 3, '3B', '2B', '1B1R', '2B1R', 4, 2);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (101, 2); --Emerald
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (101, 335); --Sidestep
@@ -836,8 +836,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (189);
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 104, 
-'http://htkb.info/SDE/Standies/Outcast_Succubus.png', 
-'http://htkb.info/SDE/Standies/Outcast_Succubus_back.png',
+'http://htkb.info/SDE/Standies/Succubus_Vandella.png', 
+'http://htkb.info/SDE/Standies/Succubus_Vandella_back.png',
 'Feminine', 'Small', 'Demon', 7, 3, '1B1R', '1B', '2R', '2R', 5, 1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (104, 3); --Ruby
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (104, 229); --Fly
@@ -996,8 +996,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (196);
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 111, 
-'http://htkb.info/SDE/Standies/Riftling_Rogue.png', 
-'http://htkb.info/SDE/Standies/Riftling_Rogue_back.png', 
+'http://htkb.info/SDE/Standies/Riftling_Rogue_feminine.png', 
+'http://htkb.info/SDE/Standies/Riftling_Rogue_feminine_back.png', 
 'Feminine', 'Small', 'Demon', 7, 3, '3B', '2B', '1B1R', '2R', 5, 1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (111, 2); --Emerald
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (111, 280); --Luck
@@ -1019,8 +1019,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (197);
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 112, 
-'http://htkb.info/SDE/Standies/Royal_Paladin.png', 
-'http://htkb.info/SDE/Standies/Royal_Paladin_back.png',
+'http://htkb.info/SDE/Standies/Royal_Paladin_masculine.png', 
+'http://htkb.info/SDE/Standies/Royal_Paladin_masculine_back.png', ,
 'Masculine', 'Small', 'Human', 6, 3, '2R', '2B1R', '3B', '2B', 5, 1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (112, 2); --Citrine
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (112, 4); --Sapphire
@@ -1066,8 +1066,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (199);
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 114, 
-'http://htkb.info/SDE/Standies/Scarecrow.png', 
-'http://htkb.info/SDE/Standies/Scarecrow_back.png',
+'http://htkb.info/SDE/Standies/Jack_Scarecrow.png', 
+'http://htkb.info/SDE/Standies/Jack_Scarecrow_back.png',
 'Neither', 'Small', 'Human', 6, 3, '2B1R', '2B', '2R', '1B', 5, 1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (114, 2); --Citrine
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (114, 3); --Ruby
@@ -1369,8 +1369,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (212);
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 127, 
-'http://htkb.info/SDE/Standies/Wyrm_Claw_Exemplar.png', 
-'http://htkb.info/SDE/Standies/Wyrm_Claw_Exemplar_back.png',
+'http://htkb.info/SDE/Standies/Ser_Snapjaw.png', 
+'http://htkb.info/SDE/Standies/Ser_Snapjaw_back.png',
 'Either', 'Small', 'Kobold', 7, 3, '3B', '2B1R', '1B1R', '1B1R', 5, 1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (127, 4); --Sapphire
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (127, 265); --Immune: Knockdown
@@ -1391,8 +1391,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (213);
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 128, 
-'http://htkb.info/SDE/Standies/Wyrm_Claw_Templar.png', 
-'http://htkb.info/SDE/Standies/Wyrm_Claw_Templar_back.png',
+'http://htkb.info/SDE/Standies/Ser_Sharpclaw.png', 
+'http://htkb.info/SDE/Standies/Ser_Sharpclaw_back.png',
 'Either', 'Small', 'Kobold', 8, 3, '2B1R', '2R', '1B1R', '1B1R', 6, 1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (128, 1); --Citrine
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (128, 352); --Surefoot
@@ -1413,8 +1413,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 insert into Characters (CardIndex) VALUES (214);
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 129, 
-'http://htkb.info/SDE/Standies/Wyrm_Claw_Templar.png', 
-'http://htkb.info/SDE/Standies/Wyrm_Claw_Templar_back.png',
+'http://htkb.info/SDE/Standies/Ser_Sharpclaw.png', 
+'http://htkb.info/SDE/Standies/Ser_Sharpclaw_back.png',
 'Either', 'Small', 'Kobold', 8, 3, '2B1R', '2R', '1B1R', '1B1R', 6, 1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (129, 1); --Citrine
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (129, 352); --Surefoot
@@ -2218,8 +2218,8 @@ insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (163
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (163, 343); --Frosty Soda Bomb
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (163,
-'http://htkb.info/SDE/FK/Cards/MiniBosses/Standies/Ninja_Cola_FK.png', 
-'http://htkb.info/SDE/FK/Cards/MiniBosses/Standies/Ninja_Cola_FK_back.png',
+'http://htkb.info/NAS/Stealth_Cola.png', 
+'http://htkb.info/NAS/Stealth_Cola_back.png',
 'Masculine', 'Small', 'Kitsune', 7, 3, '3B', '2B', '1B1R', '2B2R', 5, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (163, 1, 1); --Strength
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (163, 4, 8); --Dexterity
