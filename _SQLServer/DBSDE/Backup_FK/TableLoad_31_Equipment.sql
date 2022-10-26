@@ -1500,8 +1500,8 @@ insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (578, 
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (218, 365); --Wonder 
 
 
---Miss G Snorts				--CardIndex 579		--EquipmentIndex 219 
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Miss G Snorts',
+--Miss G. Snorts				--CardIndex 579		--EquipmentIndex 219 
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Miss G. Snorts',
 'http://htkb.info/SDE/FK/Cards/Treasure/Pets/Card_Treasure_Pet_Miss_G_Snorts_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Treasure/Pets/Card_Treasure_Back_FK.png',
 'http://htkb.online/SDWiki/SDE/FK/Cards/Treasure/Pets/Miss_G_Snorts.xhtml', 

@@ -624,8 +624,8 @@ insert into CustomCards (CardIndex, Author, SourceURL) VALUES(
 --Royal Paladin --Card Index 2312	--CharacterIndex 1160 --ExploreCharacterIndex 821
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 'Royal Paladin', 
-'http://htkb.info/SDE/1.0/Custom/Cards/Heroes/Card_Hero_Royal_Paladin_1.0.png', 
-'http://htkb.info/SDE/1.0/Custom/Cards/Heroes/Card_Hero_Royal_Paladin_1.0_back.png', 
+'http://htkb.info/SDE/1.0/Custom/Cards/Heroes/Card_Hero_Royal_Paladin_1.0_Custom.png', 
+'http://htkb.info/SDE/1.0/Custom/Cards/Heroes/Card_Hero_Royal_Paladin_1.0_Custom_back.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Custom/Cards/Heroes/Royal_Paladin.xhtml', 
 'Hero', '1.0 Custom', '1.0 Custom Set', 'Default',   
 'From the high citadels, the worshippers of light are champions against the spreading darkness.  Powerful warriors and healers, the Paladins have been at the front of the great confrontation with the Consul.');

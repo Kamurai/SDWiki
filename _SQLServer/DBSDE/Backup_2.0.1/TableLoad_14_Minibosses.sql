@@ -1132,8 +1132,8 @@ insert into Characters (CardIndex) VALUES (1047);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (657, 3); --Ruby
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (657,
-'http://htkb.info/SDE/2.0/Cards/Standies/Vlad_the_Perforator_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Standies/Vlad_the_Perforator_2.0_back.png', 
+'http://htkb.info/SDE/2.0/Cards/Standies/Vlad_the_Perforator.png', 
+'http://htkb.info/SDE/2.0/Cards/Standies/Vlad_the_Perforator_back.png', 
 'Masculine', 'Large', 'Orc', 6, 4, '2R', '2R', '2B', '3R', 8, 4);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (552, 482); --Brutal Strike
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (552, 724); --Mark
