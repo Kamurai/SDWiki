@@ -8,10 +8,10 @@
     <h:head />
     <h:body>
          <title>
-            #{SDEPetBean.getPet().getName()} #{SDEExploreCharacterBean.getExploreCharacter().getVersion()}
+            #{SDEPetBean.getPet().getName()} #{SDEExploreCharacterBean.getExploreCharacter().getVersion()} #{SDEExploreCharacterBean.getExploreCharacter().getVersion()}
         </title>
         <h2>
-            #{SDEPetBean.getPet().getName()} #{SDEExploreCharacterBean.getExploreCharacter().getVersion()}
+            #{SDEPetBean.getPet().getName()} #{SDEExploreCharacterBean.getExploreCharacter().getVersion()} #{SDEExploreCharacterBean.getExploreCharacter().getVersion()}
         </h2>
         <div id="idCenterContent">
             <div>
@@ -25,12 +25,12 @@
                 </div>
             </div>
             <div>
-                <div class="standiePicturePictureContainer">
-                    <!-- Front of Card -->
+                <div class="standiePictureContainer">
+                    <!-- Front of Standie -->
                     <img class="standiePicture" src="#{SDEPetBean.getPet().getStandieFront()}"/>
                 </div>
-                <div class="standiePicturePictureContainer">
-                    <!-- Back of Card -->
+                <div class="standiePictureContainer">
+                    <!-- Back of Standie -->
                     <img class="standiePicture" src="#{SDEPetBean.getPet().getStandieBack()}"/>
                 </div>
             </div>
@@ -215,6 +215,14 @@
             <div>
                 Flavor Text: #{SDEPetBean.getPet().getFlavor()}
             </div>
+            <ui:fragment rendered="#{SDEExploreCharacterBean.getExploreCharacter().isCustom()}">
+                <div>
+                    Author: #{SDEExploreCharacterBean.getExploreCharacter().getAuthor()}
+                </div>
+                <div>
+                    Source: #{SDEExploreCharacterBean.getExploreCharacter().getSourceURL()}
+                </div>
+            </ui:fragment>
         </div>
     </h:body>
 </html>
