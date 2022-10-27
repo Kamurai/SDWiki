@@ -248,7 +248,7 @@ insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (446, 3, 8);
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Lord Gruff v1',
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Lord_Gruff_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Lord_Gruff_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Pets/Lord_Gruff.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Pets/Lord_Gruff_v1.xhtml', 
 'Pet', '2.0', '2.0 Core Set', 'Default', 
 'Your average goat in Crystalia is blissfully ignorant of the Dark Consul. They are content to chew on plants and knock over fences. Not Lord Gruff. He learned of the forces of darkness when his pasture was overrun with possessed field mice. At least, he was certain they were possessed. They were not very friendly. When the other goats failed to understand the danger, or properly admire his self-appointed lordship, he set off to find a Hero worthy of his company.');
 insert into Characters (CardIndex) VALUES (942);
@@ -338,7 +338,7 @@ insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (450, 3, 8);
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Madam Hilde v1',
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Madam_Hilde_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Madam_Hilde_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Pets/Madam_Hilde.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Pets/Madam_Hilde_v1.xhtml', 
 'Pet', '2.0', '2.0 Core Set', 'Default', 
 'After winning best in show at the village fair, Madam Hilde knew that she could do anything. After all, how many other singing pigs were there? She had to put her talents to good use. She knew she was destined for big things, so she set out for adventure, and the occasional mud bath.');
 insert into Characters (CardIndex) VALUES (946);
@@ -401,7 +401,7 @@ insert into Pets (ExploreCharacterIndex, Cost, RangeLimit) VALUES (453, 2, -1);
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Miss G. Snorts v1',
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Miss_G_Snorts_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Pets/Card_Pet_Miss_G_Snorts_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Pets/Miss_G_Snorts.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Pets/Miss_G_Snorts_v1.xhtml', 
 'Pet', '2.0', '2.0 Core Set', 'Default', 
 'Her bark strikes fear into the hearts of all who follow the Dark Consul. Her breath reeks of doom, doom for all forces of darkness. Her bite is justice. Her muddy paw prints mark the way to the Light of Crystalia. She is Miss G. Snorts, and she is the best pet a hero could have.');
 insert into Characters (CardIndex) VALUES (949);

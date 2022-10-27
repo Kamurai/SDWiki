@@ -938,6 +938,7 @@ insert into CustomCards (CardIndex, Author, SourceURL) VALUES(
 --1.0 Custom
 --Bosses
 
+
 --Bowser --Card Index 2323	--CharacterIndex 1171 --ExploreCharacterIndex 832
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 'Bowser',
@@ -1099,8 +1100,8 @@ insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (837
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (837, 2207); --White Dragon
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 1176,
-'http://htkb.info/Common/Standies/Impact_Miniatures/Hyrda.png', 
-'http://htkb.info/Common/Standies/Impact_Miniatures/Hyrda_back.png', 
+'http://htkb.info/Common/Standies/Impact_Miniatures/Hydra.png', 
+'http://htkb.info/Common/Standies/Impact_Miniatures/Hydra_back.png', 
 'Either', 'Large', 'Chromatic Dragon', 5, 4, '2ST 2R 1G', '1ST 2R', '2R', '2R', 8, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (837, 0, 1); --Attack
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (837, 2); --Armor
@@ -1667,8 +1668,8 @@ insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (855
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (855, 2110); --Picadura
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 1194,
-'http://htkb.info/SDE/1.0/Custom/Cards/Bosses/Standies/Quimera.png', 
-'http://htkb.info/SDE/1.0/Custom/Cards/Bosses/Standies/Quimera_back.png', 
+'http://htkb.info/Common/Standies/Impact_Miniatures/Chimera.png', 
+'http://htkb.info/Common/Standies/Impact_Miniatures/Chimera_back.png', 
 'Either', 'Large', 'Alado', 5, 3, '1G 2B 2R', '2R', '2B', '2R', 8, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (855, 0, 1); --Attack
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (855, 2); --Armor
@@ -1693,8 +1694,8 @@ insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (856
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (856, 2197); --Terror
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 1195,
-'http://htkb.info/SDE/1.0/Custom/Cards/Bosses/Standies/Venger.png', 
-'http://htkb.info/SDE/1.0/Custom/Cards/Bosses/Standies/Venger_back.png', 
+'http://htkb.info/Common/Standies/Impact_Miniatures/Demon_Prince.png', 
+'http://htkb.info/Common/Standies/Impact_Miniatures/Demon_Prince_back.png', 
 'Masculine', 'Large', 'Demon', 6, 4, '2ST 2B 2R', '2R', '1ST 2B', '2R', 8, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (856, 0, 1); --Attack
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (856, 2); --Armor

@@ -72,7 +72,7 @@
 --name	--CardIndex cXXX	--CharacterIndex chXXX	--ArcadeCharacterIndex aXXX
 --SDE
 --2.0.4
---Bosses
+--Arcade Bosses
 
 
 --Black-Handed Henry	--CardIndex cXXX	--CharacterIndex chXXX	--ArcadeCharacterIndex aXXX

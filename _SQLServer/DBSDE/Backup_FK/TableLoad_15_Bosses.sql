@@ -24,8 +24,8 @@ insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (174
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (174, 252); --Curses!
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (174,
-'http://htkb.info/SDE/FK/Cards/Bosses/Standies/Beatrix_the_Witch_Queen_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Bosses/Standies/Beatrix_the_Witch_Queen_FK_back.png',
+'http://htkb.info/SDE/Standies/Beatrix_the_Witch_Queen.png', 
+'http://htkb.info/SDE/Standies/Beatrix_the_Witch_Queen_back.png',
 'Feminine', 'Large', 'Witch', 7, 4, '2R', '2ST 1R', '2R 1G', '3B', 8, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (174, 1, 1); --Strength
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (174, 1, 8); --Will
@@ -51,8 +51,8 @@ insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (175
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (175, 336); --Forestwalker
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (175,
-'http://htkb.info/SDE/FK/Cards/Bosses/Standies/Forgotten_King_The_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Bosses/Standies/Forgotten_King_The_FK_back.png',
+'http://htkb.info/SDE/Standies/Forgotten_King_The.png', 
+'http://htkb.info/SDE/Standies/Forgotten_King_The_back.png',
 'Masculine', 'Large', 'Chimera', 6, 4, '2R 1G', '2B 1G', '3B 2R', '3B', 8, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (175, 1, 2); --Strength
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (175, 1, 6); --Will
@@ -81,8 +81,8 @@ insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (176
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (176, 435); --Meddlesome Giri
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (176,
-'http://htkb.info/SDE/FK/Cards/Bosses/Standies/Goro_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Bosses/Standies/Goro_FK_back.png',
+'http://htkb.info/SDE/Standies/Goro.png', 
+'http://htkb.info/SDE/Standies/Goro_back.png',
 'Masculine', 'Large', 'Faerie', 4, 4, '1ST 3B 1G', '3R', '3R', '3B', 8, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (176, 1, 2); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (176, 2); --Armor
@@ -107,8 +107,8 @@ insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (177
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (177, 619); --Tail Sweep
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (177,
-'http://htkb.info/SDE/FK/Cards/Bosses/Standies/King_Starfire_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Bosses/Standies/King_Starfire_FK_back.png',
+'http://htkb.info/SDE/Standies/King_Starfire.png', 
+'http://htkb.info/SDE/Standies/King_Starfire_back.png',
 'Masculine', 'Large', 'Dragon', 6, 4, '2ST 2R 1G', '2R 1G', '2R', '2R', 8, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (177, 1, 2); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (177, 2); --Armor
@@ -131,8 +131,8 @@ insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (178
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (178, 313); --Feast
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (178,
-'http://htkb.info/SDE/FK/Cards/Bosses/Standies/Nocturne_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Bosses/Standies/Nocturne_FK_back.png',
+'http://htkb.info/SDE/Standies/Nocturne.png', 
+'http://htkb.info/SDE/Standies/Nocturne_back.png',
 'Masculine', 'Large', 'Shapeshift', 8, 4, '2ST 2B 2R', '2B 2R', '1ST 2R', '3B', 6, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (178, 1, 2); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (178, 2); --Armor
@@ -155,8 +155,8 @@ insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (179
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (179, 443); --Molten Steel
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (179,
-'http://htkb.info/SDE/FK/Cards/Bosses/Standies/Ragin_Roxor_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Bosses/Standies/Ragin_Roxor_FK_back.png',
+'http://htkb.info/SDE/Standies/Roxor.png', 
+'http://htkb.info/SDE/Standies/Roxor_back.png',
 'Masculine', 'Large', 'Shapeshift', 6, 4, '2B 2R 1G', '2B 2R', '2B 1R', '2B', 8, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (179, 1, 2); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (179, 2); --Armor
@@ -178,8 +178,8 @@ insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (180
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (180, 224); --Cave In
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (180,
-'http://htkb.info/SDE/FK/Cards/Bosses/Standies/Rockin_Roxor_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Bosses/Standies/Rockin_Roxor_FK_back.png',
+'http://htkb.info/SDE/Standies/Roxor.png', 
+'http://htkb.info/SDE/Standies/Roxor_back.png',
 'Masculine', 'Large', 'Elemental', 6, 4, '2ST 2R', '2ST 2R 2G', '2B 1R', '1B', 8, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (180, 1, 2); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (180, 2); --Armor
@@ -202,8 +202,8 @@ insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (181
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (181, 224); --Dragon Hoard
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (181,
-'http://htkb.info/SDE/FK/Cards/Bosses/Standies/Starfire_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Bosses/Standies/Starfire_FK_back.png',
+'http://htkb.info/SDE/Standies/Starfire.png', 
+'http://htkb.info/SDE/Standies/Starfire_back.png',
 'Masculine', 'Large', 'Dragon', 8, 4, '1ST 2R 1G', '1B 1R 1G', '2R', '2R', 8, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (181, 1, 2); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (181, 2); --Armor
@@ -228,8 +228,8 @@ insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (182
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (182, 397); --Hypnotic Gaze
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (182,
-'http://htkb.info/SDE/FK/Cards/Bosses/Standies/Von_Drakk_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Bosses/Standies/Von_Drakk_FK_back.png',
+'http://htkb.info/SDE/Standies/Von_Drakk.png', 
+'http://htkb.info/SDE/Standies/Von_Drakk_back.png',
 'Masculine', 'Small', 'Undead Vampire', 8, 4, '2ST 4B', '2B', '1ST 2R', '3R', 6, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (182, 1, 2); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (182, 2); --Armor
