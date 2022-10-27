@@ -8,10 +8,10 @@
     <h:head />
     <h:body>
          <title>
-            #{SDEExploreCardBean.getExploreCard().getName()} #{SDEExploreCharacterBean.getExploreCharacter().getVersion()}
+            #{SDEExploreCardBean.getExploreCard().getName()} #{SDEExploreCardBean.getExploreCard().getVersion()}
         </title>
         <h2>
-            #{SDEExploreCardBean.getExploreCard().getName()} #{SDEExploreCharacterBean.getExploreCharacter().getVersion()}
+            #{SDEExploreCardBean.getExploreCard().getName()} #{SDEExploreCardBean.getExploreCard().getVersion()}
         </h2>
         <div id="idCenterContent">
             <div>
@@ -85,14 +85,19 @@
                     </div>
                 </ui:repeat>
             </ui:fragment>
-            
-            
-            
-            <c:if test="#{ SDEExploreCardBean.getExploreCard().validateFlavor() }">
+            <ui:fragment rendered="#{ SDEExploreCardBean.getExploreCard().validateFlavor() }">
                 <div>
                     Flavor Text: #{SDEExploreCardBean.getExploreCard().getFlavor()}
                 </div>
-            </c:if>
+            </ui:fragment>
+            <ui:fragment rendered="#{SDEExploreCardBean.getExploreCard().isCustom()}">
+                <div>
+                    Author: #{SDEExploreCardBean.getExploreCard().getAuthor()}
+                </div>
+                <div>
+                    Source: #{SDEExploreCardBean.getExploreCard().getSourceURL()}
+                </div>
+            </ui:fragment>
         </div>
     </h:body>
 </html>

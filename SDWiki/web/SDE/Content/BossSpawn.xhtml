@@ -8,10 +8,10 @@
     <h:head />
     <h:body>
          <title>
-            #{SDEBossSpawnBean.getBossSpawn().getName()} #{SDEExploreCharacterBean.getExploreCharacter().getVersion()}
+            #{SDEBossSpawnBean.getBossSpawn().getName()} #{SDEBossSpawnBean.getBossSpawn().getVersion()}
         </title>
         <h2>
-            #{SDEBossSpawnBean.getBossSpawn().getName()} #{SDEExploreCharacterBean.getExploreCharacter().getVersion()}
+            #{SDEBossSpawnBean.getBossSpawn().getName()} #{SDEBossSpawnBean.getBossSpawn().getVersion()}
         </h2>
         <div id="idCenterContent">
             <div>
@@ -80,6 +80,14 @@
                     Flavor Text: #{SDEBossSpawnBean.getBossSpawn().getFlavor()}
                 </div>
             </c:if>
+            <ui:fragment rendered="#{SDEMonsterBean.getMonster().isCustom()}">
+                <div>
+                    Author: #{SDEMonsterBean.getMonster().getAuthor()}
+                </div>
+                <div>
+                    Source: #{SDEMonsterBean.getMonster().getSourceURL()}
+                </div>
+            </ui:fragment>
         </div>
     </h:body>
 </html>

@@ -8,10 +8,10 @@
     <h:head />
     <h:body>
          <title>
-            #{SDEMonsterBean.getMonster().getName()} #{SDEExploreCharacterBean.getExploreCharacter().getVersion()}
+            #{SDEMonsterBean.getMonster().getName()} #{SDEExploreCharacterBean.getExploreCharacter().getVersion()} #{SDEExploreCharacterBean.getExploreCharacter().getVersion()}
         </title>
         <h2>
-            #{SDEMonsterBean.getMonster().getName()} #{SDEExploreCharacterBean.getExploreCharacter().getVersion()}
+            #{SDEMonsterBean.getMonster().getName()} #{SDEExploreCharacterBean.getExploreCharacter().getVersion()} #{SDEExploreCharacterBean.getExploreCharacter().getVersion()}
         </h2>
         <div id="idCenterContent">
             <div>
@@ -25,12 +25,12 @@
                 </div>
             </div>
             <div>
-                <div class="standiePicturePictureContainer">
-                    <!-- Front of Card -->
+                <div class="standiePictureContainer">
+                    <!-- Front of Standie -->
                     <img class="standiePicture" src="#{SDEExploreCharacterBean.getExploreCharacter().getStandieFront()}"/>
                 </div>
-                <div class="standiePicturePictureContainer">
-                    <!-- Back of Card -->
+                <div class="standiePictureContainer">
+                    <!-- Back of Standie -->
                     <img class="standiePicture" src="#{SDEExploreCharacterBean.getExploreCharacter().getStandieBack()}"/>
                 </div>
             </div>
@@ -254,17 +254,23 @@
                                 </c:otherwise>
                             </c:choose>
                         </div>
-
-
-
-
-                        <div class="inline"><!-- Ability Description -->#{x.getDescription()}</div>
+                         <div class="inline"><!-- Ability Description -->#{x.getDescription()}</div>
                     </div>
                 </ui:fragment>
             </ui:repeat>
-            <div>
-                Flavor Text: #{SDEMonsterBean.getMonster().getFlavor()}
-            </div>
+            <ui:fragment rendered="#{ SDEMonsterBean.getMonster().validateFlavor() }">
+                <div>
+                    Flavor Text: #{SDEMonsterBean.getMonster().getFlavor()}
+                </div>
+            </ui:fragment>
+            <ui:fragment rendered="#{SDEMonsterBean.getMonster().isCustom()}">
+                <div>
+                    Author: #{SDEMonsterBean.getMonster().getAuthor()}
+                </div>
+                <div>
+                    Source: #{SDEMonsterBean.getMonster().getSourceURL()}
+                </div>
+            </ui:fragment>
         </div>
     </h:body>
 </html>

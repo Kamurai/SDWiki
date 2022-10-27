@@ -78,16 +78,6 @@ public class BossSpawn extends Card implements CharacterInterface{
         this.characterLink = characterLink;
     }
     
-    public boolean validateFlavor(){
-        boolean result = false;
-        
-        if(getFlavor().compareTo("") != 0){
-            result = true;
-        }
-        
-        return result;
-    }
-
     public List<NavItem> getCharacterList() {
         return characterList;
     }

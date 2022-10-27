@@ -16,4 +16,6 @@ public interface CharacterInterface {
     public boolean validateCharacterList();
     
     public void addCharacter(String name, String version, String link, String picture);
+
+    boolean validateFlavor();
 }

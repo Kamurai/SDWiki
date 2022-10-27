@@ -8,10 +8,10 @@
     <h:head />
     <h:body>
          <title>
-            #{SDEEquipmentBean.getEquipment().getName()} #{SDEExploreCharacterBean.getExploreCharacter().getVersion()}
+            #{SDEEquipmentBean.getEquipment().getName()} #{SDEEquipmentBean.getEquipment().getVersion()}
         </title>
         <h2>
-            #{SDEEquipmentBean.getEquipment().getName()} #{SDEExploreCharacterBean.getExploreCharacter().getVersion()}
+            #{SDEEquipmentBean.getEquipment().getName()} #{SDEEquipmentBean.getEquipment().getVersion()}
         </h2>
         <div id="idCenterContent">
             <div>
@@ -79,9 +79,19 @@
                 </ui:repeat>
                 <br/>
             </ui:fragment>
-            <div>
-                Flavor Text: #{SDEEquipmentBean.getEquipment().getFlavor()}
-            </div>
+            <ui:fragment rendered="#{ SDEEquipmentBean.getEquipment().validateFlavor() }">
+                <div>
+                    Flavor Text: #{SDEEquipmentBean.getEquipment().getFlavor()}
+                </div>
+            </ui:fragment>
+            <ui:fragment rendered="#{SDEEquipmentBean.getEquipment().isCustom()}">
+                <div>
+                    Author: #{SDEEquipmentBean.getEquipment().getAuthor()}
+                </div>
+                <div>
+                    Source: #{SDEEquipmentBean.getEquipment().getSourceURL()}
+                </div>
+            </ui:fragment>
         </div>
     </h:body>
 </html>

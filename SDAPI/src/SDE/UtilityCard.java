@@ -47,14 +47,4 @@ public class UtilityCard extends Card{
     public void setDescription(String description) {
         this.description = description;
     }
-    
-    public boolean validateFlavor(){
-        boolean result = false;
-        
-        if(getFlavor().compareTo("") != 0){
-            result = true;
-        }
-        
-        return result;
-    }
 }

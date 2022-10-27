@@ -212,9 +212,11 @@
                 </ui:repeat>
                 <br/>
             </ui:fragment>
-            <div>
-                Flavor Text: #{SDEExploreCharacterBean.getExploreCharacter().getFlavor()}
-            </div>
+            <ui:fragment rendered="#{ SDEExploreCharacterBean.getExploreCharacter().validateFlavor() }">
+                <div>
+                    Flavor Text: #{SDEExploreCharacterBean.getExploreCharacter().getFlavor()}
+                </div>
+            </ui:fragment>
             <ui:fragment rendered="#{SDEExploreCharacterBean.getExploreCharacter().isCustom()}">
                 <div>
                     Author: #{SDEExploreCharacterBean.getExploreCharacter().getAuthor()}

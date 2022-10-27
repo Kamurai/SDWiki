@@ -212,15 +212,17 @@
                 </ui:repeat>
                 <br/>
             </ui:fragment>
-            <div>
-                Flavor Text: #{SDEPetBean.getPet().getFlavor()}
-            </div>
-            <ui:fragment rendered="#{SDEExploreCharacterBean.getExploreCharacter().isCustom()}">
+            <ui:fragment rendered="#{ SDEPetBean.getPet().validateFlavor() }">
                 <div>
-                    Author: #{SDEExploreCharacterBean.getExploreCharacter().getAuthor()}
+                    Flavor Text: #{SDEPetBean.getPet().getFlavor()}
+                </div>
+            </ui:fragment>
+            <ui:fragment rendered="#{SDEPetBean.getPet().isCustom()}">
+                <div>
+                    Author: #{SDEPetBean.getPet().getAuthor()}
                 </div>
                 <div>
-                    Source: #{SDEExploreCharacterBean.getExploreCharacter().getSourceURL()}
+                    Source: #{SDEPetBean.getPet().getSourceURL()}
                 </div>
             </ui:fragment>
         </div>

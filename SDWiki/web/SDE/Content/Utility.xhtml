@@ -8,10 +8,10 @@
     <h:head />
     <h:body>
          <title>
-            #{SDEUtilityBean.getUtilityCard().getName()} #{SDEExploreCharacterBean.getExploreCharacter().getVersion()}
+            #{SDEUtilityBean.getUtilityCard().getName()} #{SDEUtilityBean.getUtilityCard().getVersion()}
         </title>
         <h2>
-            #{SDEUtilityBean.getUtilityCard().getName()} #{SDEExploreCharacterBean.getExploreCharacter().getVersion()}
+            #{SDEUtilityBean.getUtilityCard().getName()} #{SDEUtilityBean.getUtilityCard().getVersion()}
         </h2>
         <div id="idCenterContent">
             <div>
@@ -47,11 +47,19 @@
             </div>
             
             
-            <c:if test="#{ SDEUtilityBean.getUtilityCard().validateFlavor() }">
+            <ui:fragment rendered="#{ SDEUtilityBean.getUtilityCard().validateFlavor() }">
                 <div>
                     Flavor Text: #{SDEUtilityBean.getUtilityCard().getFlavor()}
                 </div>
-            </c:if>
+            </ui:fragment>
+            <ui:fragment rendered="#{SDEUtilityBean.getUtilityCard().isCustom()}">
+                <div>
+                    Author: #{SDEUtilityBean.getUtilityCard().getAuthor()}
+                </div>
+                <div>
+                    Source: #{SDEUtilityBean.getUtilityCard().getSourceURL()}
+                </div>
+            </ui:fragment>
 
         </div>
     </h:body>

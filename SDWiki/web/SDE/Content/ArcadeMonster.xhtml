@@ -8,10 +8,10 @@
     <h:head />
     <h:body>
          <title>
-            #{SDEArcadeMonsterBean.getMonster().getName()} #{SDEExploreCharacterBean.getExploreCharacter().getVersion()}
+            #{SDEArcadeMonsterBean.getMonster().getName()} #{SDEArcadeMonsterBean.getMonster().getVersion()} 
         </title>
         <h2>
-            #{SDEArcadeMonsterBean.getMonster().getName()} #{SDEExploreCharacterBean.getExploreCharacter().getVersion()}
+            #{SDEArcadeMonsterBean.getMonster().getName()} #{SDEArcadeMonsterBean.getMonster().getVersion()}
         </h2>
         <div id="idCenterContent">
             <div>
@@ -193,9 +193,19 @@
                    </ui:fragment>
                 </ui:repeat>
             </ui:repeat>
-            <div>
-                Flavor Text: #{SDEArcadeMonsterBean.getMonster().getFlavor()}
-            </div>
+            <ui:fragment rendered="#{ SDEArcadeMonsterBean.getMonster().validateFlavor() }">
+                <div>
+                    Flavor Text: #{SDEArcadeMonsterBean.getMonster().getFlavor()}
+                </div>
+            </ui:fragment>
+            <ui:fragment rendered="#{SDEArcadeMonsterBean.getMonster().isCustom()}">
+                <div>
+                    Author: #{SDEArcadeMonsterBean.getMonster().getAuthor()}
+                </div>
+                <div>
+                    Source: #{SDEArcadeMonsterBean.getMonster().getSourceURL()}
+                </div>
+            </ui:fragment>
         </div>
     </h:body>
 </html>

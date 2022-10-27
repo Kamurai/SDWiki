@@ -182,4 +182,12 @@ public class Card extends Component{
     public void setSourceURL(String sourceURL) {
         this.sourceURL = sourceURL;
     }
+
+    public boolean validateFlavor() {
+        boolean result = false;
+        if (getFlavor().compareTo("") != 0) {
+            result = true;
+        }
+        return result;
+    }
 }
