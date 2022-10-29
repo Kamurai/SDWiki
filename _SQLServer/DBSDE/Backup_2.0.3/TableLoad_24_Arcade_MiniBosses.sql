@@ -6,9 +6,9 @@
 --Dread Scarlett	--CardIndex 2360	--CharacterIndex 1206	--ArcadeCharacterIndex 339
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 'Dread Scarlett',
-'http:/htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Dread_Scarlett_2.0.png', 
-'http:/htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Dread_Scarlett_2.0_back.png', 
-'http:/htkb.online/SDWiki/SDE/2.0/Cards/Arcade/MiniBosses/Dread_Scarlett.xhtml', 
+'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Dread_Scarlett_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Dread_Scarlett_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/MiniBosses/Dread_Scarlett.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Default', 
 'Aye.  I cheated.  Tis your fault you let me get away with it.');
 insert into Characters (CardIndex) VALUES (2360);

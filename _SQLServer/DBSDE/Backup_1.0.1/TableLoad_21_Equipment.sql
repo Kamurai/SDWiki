@@ -106,7 +106,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Treasure', '1.0', '1.0 Core Set', 'Default',
 'Bad kitty!');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (82, 'Treasure Specific', 'Top', '+1R DEX');
-insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (10, 13); --Nyan Nyan (Not Chaos Kitty)
+insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (10, 13); --Nyan Nyan
 insert into AbilityAssignments (EquipmentIndex, AbilityIndex) VALUES (10, 120); --Sneak Attack!
 --Cloak of Shadows --EquipmentIndex 11 --CardIndex 83
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Cloak of Shadows',
