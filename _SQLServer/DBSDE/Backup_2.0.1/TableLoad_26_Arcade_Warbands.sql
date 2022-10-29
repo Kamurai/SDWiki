@@ -130,8 +130,9 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (653, 1019
 
 
 --Clan Ijin
---Ijin Madoushi	--CardIndex 1360	--CharacterIndex 970	--ArcadeCharacterIndex 202
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ijin Madoushi',
+--Clan Ijin Madoushi	--CardIndex 1360	--CharacterIndex 970	--ArcadeCharacterIndex 202
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+'Clan Ijin Madoushi',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Ijin/Card_Arcade_Warband_Clan_Ijin_Madoushi_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Ijin/Card_Arcade_Warband_Clan_Ijin_Madoushi_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Clan_Ijin/Ijin_Madoushi.xhtml', 
@@ -143,7 +144,7 @@ VALUES (970, 124, 134);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (970, 0); --Amethyst
 --GangMemberIndex 654
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (202, 0, 'Ijin Madoushi', 'Solo Spawning Point', '', 2, 3, 1, 587);
+VALUES (202, 0, 'Clan Ijin Madoushi', 'Human', 'Solo Spawning Point', 2, 3, 1, 587);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (654, 727); --Massive Damage
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (654, 833); --Rampage
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (654, 908); --Solo Spawn
@@ -151,7 +152,8 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (654, 917)
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (654, 814); --Blood Frenzy
 
 --Ijin Crush of Ijin, A --CardIndex 1361 --CharacterIndex 971 --ArcadeCharacterIndex 203
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ijin Crush of Ijin, A',
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+'Ijin Crush of Ijin, A',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Ijin/Card_Arcade_Warband_Clan_Ijin_Ijin_Crush_of_Ijin_A_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Ijin/Card_Arcade_Warband_Clan_Ijin_Ijin_Crush_of_Ijin_A_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Clan_Ijin/Ijin_Crush_of_Ijin_A.xhtml', 
@@ -163,17 +165,18 @@ VALUES (971, 0, -1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (971, 1); --Citrine
 --GangMemberIndex 655
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (203, 0, 'Ijin Oni', 'Ijin Demon', 'Elite', 6, 2, 2, 590);
+VALUES (203, 0, 'Clan Ijin Oni', 'Oni', 'Elite', 6, 2, 2, 590);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (655, 833); --Rampage
 --GangMemberIndex 656
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (203, 1, 'Ijin Kaiken', 'Ijin Riftling', 'Minion', 6, 1, 0, 588);
+VALUES (203, 1, 'Clan Ijin Kaiken', 'Riftling', 'Minion', 6, 1, 0, 588);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (656, 727); --Massive Damage
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (656, 833); --Rampage
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (656, 1493); --Overwhelming Assault
 
 --Ijin Hunting Party	--CardIndex 1362	--CharacterIndex 972	--ArcadeCharacterIndex 204
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ijin Hunting Party',
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+'Ijin Hunting Party',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Ijin/Card_Arcade_Warband_Clan_Ijin_Ijin_Hunting_Party_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Ijin/Card_Arcade_Warband_Clan_Ijin_Ijin_Hunting_Party_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Clan_Ijin/Ijin_Hunting_Party.xhtml', 
@@ -185,18 +188,19 @@ VALUES (972, 241, 362);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (972, 0); --Amethyst
 --GangMemberIndex 657
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (204, 0, 'Ijin Yajiri', 'Ijin Riftling', 'Elite', 6, 1, 1, 591);
+VALUES (204, 0, 'Clan Ijin Yajiri', 'Riftling', 'Elite', 6, 1, 1, 591);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (657, 672); --Immobile
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (657, 1944); --You Can't Run
 --GangMemberIndex 658
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (204, 1, 'Ijin Kunoichi', 'Ijin Riftling', 'Minion', 6, 1, 1, 589);
+VALUES (204, 1, 'Clan Ijin Kunoichi', 'Riftling', 'Minion', 6, 1, 1, 589);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (658, 833); --Rampage
 
 
 --Clan Ika
---Ika Madoushi	--CardIndex 1363	--CharacterIndex 973	--ArcadeCharacterIndex 205
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ika Madoushi',
+--Clan Ika Madoushi	--CardIndex 1363	--CharacterIndex 973	--ArcadeCharacterIndex 205
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+'Clan Ika Madoushi',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Ika/Card_Arcade_Warband_Clan_Ika_Madoushi_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Ika/Card_Arcade_Warband_Clan_Ika_Madoushi_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Clan_Ika/Ika_Madoushi.xhtml', 
@@ -208,7 +212,7 @@ VALUES (973, 124, 134);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (973, 3); --Ruby
 --GangMemberIndex 659
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (205, 0, 'Ika Madoushi', 'Solo Spawning Point', '', 2, 3, 1, 592);
+VALUES (205, 0, 'Clan Ika Madoushi', 'Human', 'Solo Spawning Point', 2, 3, 1, 592);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (659, 701); --Killamari
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (659, 864); --Salty
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (659, 908); --Solo Spawn
@@ -217,7 +221,8 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (659, 1009
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (659, 1165); --Foul Weather
 
 --Krakens Jaws, The	--CardIndex 1364	--CharacterIndex 974	--ArcadeCharacterIndex 206
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Krakens Jaws, The',
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+'Krakens Jaws, The',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Ika/Card_Arcade_Warband_Clan_Ika_Krakens_Jaws_The_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Ika/Card_Arcade_Warband_Clan_Ika_Krakens_Jaws_The_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Clan_Ika/Krakens_Jaws_The.xhtml', 
@@ -230,20 +235,21 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (974, 1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (974, 2); --Emerald
 --GangMemberIndex 660
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (206, 0, 'Ika Kunoichi', 'Ika', 'Elite', 6, 3, 1, 594);
+VALUES (206, 0, 'Clan Ika Kunoichi', 'Human', 'Elite', 6, 3, 1, 594);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (660, 727); --Massive Damage
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (660, 864); --Salty
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (660, 860); --Call The Kraken
 --GangMemberIndex 661
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (206, 1, 'Ika Yajiri', 'Ika', 'Minion', 6, 2, 0, 596);
+VALUES (206, 1, 'Clan Ika Yajiri', 'Human', 'Minion', 6, 2, 0, 596);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (661, 839); --Reach
 --GangMemberIndex 662
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (206, 2, 'Ika Kaiken', 'Ika', 'Minion', 6, 1, 1, 593);
+VALUES (206, 2, 'Clan Ika Kaiken', 'Human', 'Minion', 6, 1, 1, 593);
 
---Ika Oni	--CardIndex 1365	--CharacterIndex 975	--ArcadeCharacterIndex 207
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ika Oni',
+--Clan Ika Oni	--CardIndex 1365	--CharacterIndex 975	--ArcadeCharacterIndex 207
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+'Clan Ika Oni',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Ika/Card_Arcade_Warband_Clan_Ika_Oni_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Ika/Card_Arcade_Warband_Clan_Ika_Oni_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Clan_Ika/Ika_Oni.xhtml', 
@@ -255,7 +261,7 @@ VALUES (975, 124, 134);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (975, 1); --Citrine
 --GangMemberIndex 663
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (207, 0, 'Ika Oni', 'Ika', 'Elite', 6, 3, 2, 595);
+VALUES (207, 0, 'Clan Ika Oni', 'Oni', 'Elite', 6, 3, 2, 595);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (663, 647); --Hex
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (663, 727); --Massive Damage
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (663, 864); --Salty
@@ -264,7 +270,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (663, 1108
 
 
 --Clan Kitsune
---Kitsune Madoushi	--CardIndex 1366	--CharacterIndex 976	--ArcadeCharacterIndex 208
+--Clan Kitsune Madoushi	--CardIndex 1366	--CharacterIndex 976	--ArcadeCharacterIndex 208
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Kitsune Madoushi',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Kitsune/Card_Arcade_Warband_Clan_Kitsune_Madoushi_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Kitsune/Card_Arcade_Warband_Clan_Kitsune_Madoushi_2.0_back.png', 
@@ -277,7 +283,7 @@ VALUES (976, 124, 134);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (976, 1); --Citrine
 --GangMemberIndex 664
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (208, 0, 'Kitsune Madoushi', 'Solo Paired Spawning Point', '', 2, 3, 1, 597);
+VALUES (208, 0, 'Clan Kitsune Madoushi', 'Kitsune', 'Solo Paired Spawning Point', 2, 3, 1, 597);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (664, 906); --Solo Paired Spawn
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (664, 921); --Spawning Pool
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (664, 1030); --Territorial
@@ -326,8 +332,9 @@ VALUES (210, 1, 'Kitsune Yajiri', 'Kitsune', 'Minion', 6, 1, 0, 601);
 
 
 --Clan Sohei
---Sohei Madoushi	--CardIndex 1369	--CharacterIndex 979	--ArcadeCharacterIndex 211
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Sohei Madoushi',
+--Clan Sohei Madoushi	--CardIndex 1369	--CharacterIndex 979	--ArcadeCharacterIndex 211
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+'Clan Sohei Madoushi',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Sohei/Card_Arcade_Warband_Clan_Sohei_Madoushi_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Sohei/Card_Arcade_Warband_Clan_Sohei_Madoushi_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Clan_Sohei/Sohei_Madoushi.xhtml', 
@@ -339,14 +346,15 @@ VALUES (979, 124, 134);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (979, 4); --Sapphire
 --GangMemberIndex 669
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (211, 0, 'Sohei Madoushi', 'Solo Spawning Point', '', 2, 3, 2, 602);
+VALUES (211, 0, 'Clan Sohei Madoushi', 'Human', 'Solo Spawning Point', 2, 3, 2, 602);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (669, 442); --Augment
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (669, 556); --Discipline
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (669, 908); --Solo Spawn
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (669, 915); --Coordinated Strike
 
 --Blades of the Sohei	--CardIndex 1370	--CharacterIndex 980	--ArcadeCharacterIndex 212
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Blades of the Sohei',
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+'Blades of the Sohei',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Sohei/Card_Arcade_Warband_Blades_of_the_Sohei_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Sohei/Card_Arcade_Warband_Blades_of_the_Sohei_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Clan_Sohei/Blades_of_the_Sohei.xhtml', 
@@ -358,17 +366,18 @@ VALUES (980, 124, 134);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (980, 4); --Sapphire
 --GangMemberIndex 670
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (212, 0, 'Sohei Kunoichi', 'Sohei', 'Elite', 6, 3, 1, 604);
+VALUES (212, 0, 'Clan Sohei Kunoichi', 'Human', 'Elite', 6, 3, 1, 604);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (670, 442); --Augment
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (670, 556); --Discipline
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (670, 2092); --Blade Wall
 --GangMemberIndex 671
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (212, 1, 'Sohei Kaiken', 'Sohei', 'Minion', 6, 1, 1, 603);
+VALUES (212, 1, 'Clan Sohei Kaiken', 'Human', 'Minion', 6, 1, 1, 603);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (671, 556); --Discipline
 
---Sohei Yajiri	--CardIndex 1371	--CharacterIndex 981	--ArcadeCharacterIndex 213
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Sohei Yajiri',
+--Clan Sohei Yajiri	--CardIndex 1371	--CharacterIndex 981	--ArcadeCharacterIndex 213
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+'Clan Sohei Yajiri',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Sohei/Card_Arcade_Warband_Clan_Sohei_Yajiri_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Sohei/Card_Arcade_Warband_Clan_Sohei_Yajiri_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Clan_Sohei/Sohei_Yajiri.xhtml', 
@@ -380,14 +389,15 @@ VALUES (981, 124, 134);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (981, 4); --Sapphire
 --GangMemberIndex 672
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (213, 0, 'Sohei Yajiri', 'Sohei', 'Elite', 6, 2, 1, 605);
+VALUES (213, 0, 'Clan Sohei Yajiri', 'Human', 'Elite', 6, 2, 1, 605);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (672, 556); --Discipline
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (672, 755); --Arrows For Our Guests
 
 
 --Clan Spirit Shrine
 --Elemental Shrine	--CardIndex 1372	--CharacterIndex 982	--ArcadeCharacterIndex 214
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Elemental Shrine',
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+'Clan Spirit Shrine',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Spirit_Shrine/Card_Arcade_Warband_Clan_Spirit_Shrine_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Spirit_Shrine/Card_Arcade_Warband_Clan_Spriti_Shrine_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Clan_Spirit_Shrine/Elemental_Shrine.xhtml', 
@@ -399,14 +409,15 @@ VALUES (982, 124, 134);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (982, 3); --Ruby
 --GangMemberIndex 673
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (214, 0, 'Elemental Shrine', 'Spirit Shrine', 'Paired Spawning Point', 0, 4, 1, 606);
+VALUES (214, 0, 'Clan Spirit Shrine', 'Spawning Point', 'Paired Spawning Point', 0, 4, 1, 606);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (673, 567); --Elemental Affinity
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (673, 681); --Immune: Status Effects
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (673, 945); --Spawning Pool
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (673, 1009); --Stealth
 
 --Mystic Team	--CardIndex 1373	--CharacterIndex 983	--ArcadeCharacterIndex 215
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Mystic Team',
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+'Mystic Team',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Spirit_Shrine/Card_Arcade_Warband_Clan_Spirit_Shrine_Mystic_Team_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Spirit_Shrine/Card_Arcade_Warband_Clan_Spirit_Shrine_Mystic_Team_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Clan_Spirit_Shrine/Mystic_Team.xhtml', 
@@ -418,25 +429,26 @@ VALUES (983, 124, 134);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (983, 3); --Ruby
 --GangMemberIndex 674
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (215, 0, 'Madoushi', 'Ninja', 'Elite', 6, 2, 1, 610);
+VALUES (215, 0, 'Clan Spirit Shrine Madoushi', 'Ninja', 'Elite', 6, 2, 1, 610);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (674, 442); --Augment
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (674, 807); --Poison
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (674, 1009); --Stealth
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (674, 1522); --Poisoned Weapons
 --GangMemberIndex 675
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (215, 1, 'Kaiken', 'Ninja', 'Minion', 6, 1, 1, 608);
+VALUES (215, 1, 'Clan Spirit Shrine Kaiken', 'Ninja', 'Minion', 6, 1, 1, 608);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (675, 444); --Back Strike
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (675, 479); --Bruiser
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (675, 1009); --Stealth
 --GangMemberIndex 676
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (215, 2, 'Yajiri', 'Ninja', 'Minion', 6, 1, 0, 611);
+VALUES (215, 2, 'Clan Spirit Shrine Yajiri', 'Ninja', 'Minion', 6, 1, 0, 611);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (676, 840); --Reach
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (676, 1009); --Stealth
 
 --Scout Team	--CardIndex 1374	--CharacterIndex 984	--ArcadeCharacterIndex 216
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Scout Team',
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+'Scout Team',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Spirit_Shrine/Card_Arcade_Warband_Clan_Spirit_Shrine_Scout_Team_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Spirit_Shrine/Card_Arcade_Warband_Clan_Spirit_Shrine_Scout_Team_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Clan_Spirit_Shrine/Scout_Team.xhtml', 
@@ -448,20 +460,21 @@ VALUES (984, 124, 134);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (984, 2); --Emerald
 --GangMemberIndex 677
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (216, 0, 'Kunoichi', 'Ninja', 'Elite', 8, 1, 1, 609);
+VALUES (216, 0, 'Clan Spirit Shrine Kunoichi', 'Ninja', 'Elite', 8, 1, 1, 609);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (677, 442); --Augment
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (677, 1009); --Stealth
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (677, 1023); --Surge
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (677, 1925); --Wind in the Forest
 --GangMemberIndex 678
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (216, 1, 'Kunoichi', 'Ninja', 'Elite', 8, 1, 1, 609);
+VALUES (216, 1, 'Clan Spirit Shrine Kunoichi', 'Ninja', 'Elite', 8, 1, 1, 609);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (678, 442); --Augment
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (678, 1009); --Stealth
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (678, 2003); --Smoke Bomb
 
 --Strike Team	--CardIndex 1375	--CharacterIndex 985	--ArcadeCharacterIndex 217
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Strike Team',
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+'Strike Team',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Spirit_Shrine/Card_Arcade_Warband_Clan_Spirit_Shrine_Strike_Team_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Spirit_Shrine/Card_Arcade_Warband_Clan_Spirit_Shrine_Strike_Team_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Clan_Spirit_Shrine/Strike_Team.xhtml', 
@@ -474,27 +487,28 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (985, 1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (985, 2); --Emerald
 --GangMemberIndex 679
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (217, 0, 'Chunin', 'Ninja', 'Elite', 6, 3, 1, 607);
+VALUES (217, 0, 'Clan Spirit Shrine Chunin', 'Ninja', 'Elite', 6, 3, 1, 607);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (679, 706); --Knockdown
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (679, 1009); --Stealth
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (679, 1532); --Precision Strike
 --GangMemberIndex 680
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (217, 1, 'Kaiken', 'Ninja', 'Minion', 6, 1, 1, 608);
+VALUES (217, 1, 'Clan Spirit Shrine Kaiken', 'Ninja', 'Minion', 6, 1, 1, 608);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (680, 444); --Back Strike
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (680, 479); --Bruiser
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (680, 1009); --Stealth
 --GangMemberIndex 681
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (217, 2, 'Yajiri', 'Ninja', 'Minion', 6, 1, 0, 611);
+VALUES (217, 2, 'Clan Spirit Shrine Yajiri', 'Ninja', 'Minion', 6, 1, 0, 611);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (681, 758); --Mob
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (681, 840); --Reach
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (681, 1009); --Stealth
 
 
 --Clan Tanchyo
---Tanchyo Madoushi	--CardIndex 1376	--CharacterIndex 986	--ArcadeCharacterIndex 218
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Tanchyo Madoushi',
+--Clan Tanchyo Madoushi	--CardIndex 1376	--CharacterIndex 986	--ArcadeCharacterIndex 218
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+'Clan Tanchyo Madoushi',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Tanchyo/Card_Arcade_Warband_Clan_Tanchyo_Madoushi_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Tanchyo/Card_Arcade_Warband_Clan_Tanchyo_Madoushi_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Clan_Tanchyo/Madoushi.xhtml', 
@@ -506,14 +520,15 @@ VALUES (986, 124, 134);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (986, 2); --Emerald
 --GangMemberIndex 682
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (218, 0, 'Tanchyo Madoushi', 'Tanchyo', 'Solo Spawning Point', 2, 3, 1, 612);
+VALUES (218, 0, 'Clan Tanchyo Madoushi', 'Human', 'Solo Spawning Point', 2, 3, 1, 612);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (682, 596); --Fly
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (682, 908); --Solo Spawn
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (682, 923); --Spawning Pool
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (682, 1565); --Raven Feather
 
 --Arrows and Blades	--CardIndex 1377	--CharacterIndex 987	--ArcadeCharacterIndex 219
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Arrows and Blades',
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+'Arrows and Blades',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Tanchyo/Card_Arcade_Warband_Clan_Tanchyo_Arrows_and_Blades_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Tanchyo/Card_Arcade_Warband_Clan_Tanchyo_Arrows_and_Blades_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Clan_Tanchyo/Arrows_and_Blades.xhtml', 
@@ -525,16 +540,17 @@ VALUES (987, 124, 134);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (987, 1); --Citrine
 --GangMemberIndex 683
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (219, 0, 'Tanchyo Kunoichi', 'Tanchyo', 'Elite', 7, 2, 1, 614);
+VALUES (219, 0, 'Clan Tanchyo Kunoichi', 'Human', 'Elite', 7, 2, 1, 614);
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (683, 972); --Dancing Blade, The
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (683, 1088); --Extra Trip Wire
 --GangMemberIndex 684
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (219, 1, 'Tanchyo Yajiri', 'Tanchyo', 'Minion', 7, 1, 1, 616);
+VALUES (219, 1, 'Clan Tanchyo Yajiri', 'Human', 'Minion', 7, 1, 1, 616);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (684, 855); --Retribution
 
 --Tanchyo Kaiken	--CardIndex 1378	--CharacterIndex 988	--ArcadeCharacterIndex 220
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Tanchyo Kaiken',
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+'Clan Tanchyo Kaiken',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Tanchyo/Card_Arcade_Warband_Clan_Tanchyo_Tanchyo_Kaiken_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Tanchyo/Card_Arcade_Warband_Clan_Tanchyo_Tanchyo_Kaiken_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Clan_Tanchyo/Kaiken.xhtml', 
@@ -546,12 +562,13 @@ VALUES (988, 124, 134);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (988, 1); --Citrine
 --GangMemberIndex 685
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (220, 0, 'Tanchyo Kaiken', 'Tanchyo', 'Elite', 7, 3, 2, 613);
+VALUES (220, 0, 'Clan Tanchyo Kaiken', 'Human', 'Elite', 7, 3, 2, 613);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (685, 727); --Massive Damage
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (685, 1663); --Silent Knife, A
 
---Tanchyo Oni	--CardIndex 1379	--CharacterIndex 989	--ArcadeCharacterIndex 221
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Tanchyo Oni',
+--Clan Tanchyo Oni	--CardIndex 1379	--CharacterIndex 989	--ArcadeCharacterIndex 221
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+'Clan Tanchyo Oni',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Tanchyo/Card_Arcade_Warband_Clan_Tanchyo_Tanchyo_Oni_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Tanchyo/Card_Arcade_Warband_Clan_Tanchyo_Tanchyo_Oni_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Clan_Tanchyo/Oni.xhtml', 
@@ -563,15 +580,16 @@ VALUES (989, 124, 134);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (989, 1); --Citrine
 --GangMemberIndex 686
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (221, 0, 'Tanchyo Oni', 'Tanchyo', 'Elite', 7, 4, 2, 615);
+VALUES (221, 0, 'Clan Tanchyo Oni', 'Oni', 'Elite', 7, 4, 2, 615);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (686, 821); --Priority
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (686, 968); --Cyclone
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (686, 1258); --Heavenly Toss
 
 
 --Clan Tora
---Tora Madoushi	--CardIndex 1380	--CharacterIndex 990	--ArcadeCharacterIndex 222
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Tora Madoushi',
+--Clan Tora Madoushi	--CardIndex 1380	--CharacterIndex 990	--ArcadeCharacterIndex 222
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+'Clan Tora Madoushi',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Tora/Card_Arcade_Warband_Clan_Tora_Madoushi_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Tora/Card_Arcade_Warband_Clan_Tora_Madoushi_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Clan_Tora/Tora_Madoushi.xhtml', 
@@ -583,14 +601,15 @@ VALUES (990, 124, 134);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (990, 1); --Citrine
 --GangMemberIndex 687
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (222, 0, 'Tora Madoushi', 'Tora', 'Solo Spawning Point', 2, 3, 1, 617);
+VALUES (222, 0, 'Clan Tora Madoushi', 'Human', 'Solo Spawning Point', 2, 3, 1, 617);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (687, 727); --Massive Damage
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (687, 908); --Solo Spawn
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (687, 925); --Spawning Pool
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (687, 1580); --Relentless Onslaught
 
 --Gunpowder Gala	--CardIndex 1381	--CharacterIndex 991	--ArcadeCharacterIndex 223
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Gunpowder Gala',
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+'Gunpowder Gala',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Tora/Card_Arcade_Warband_Clan_Tora_Gunpowder_Gala_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Tora/Card_Arcade_Warband_Clan_Tora_Gunpowder_Gala_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Clan_Tora/Gunpowder_Gala.xhtml', 
@@ -602,16 +621,17 @@ VALUES (991, 124, 134);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (991, 1); --Citrine
 --GangMemberIndex 688
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (223, 0, 'Tora Yajiri', 'Tora', 'Elite', 5, 2, 1, 621);
+VALUES (223, 0, 'Clan Tora Yajiri', 'Human', 'Elite', 5, 2, 1, 621);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (688, 848); --Reposition
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (688, 1086); --Extra Powder
 --GangMemberIndex 689
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (223, 1, 'Tora Kunoichi', 'Tora Bonded', 'Minion', 5, 3, 1, 619);
+VALUES (223, 1, 'Clan Tora Kunoichi', 'Human', 'Minion', 5, 3, 1, 619);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (689, 1009); --Stealth
 
 --Triumphant Tora	--CardIndex 1382	--CharacterIndex 992	--ArcadeCharacterIndex 224
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Triumphant Tora',
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+'Triumphant Tora',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Tora/Card_Arcade_Warband_Clan_Tora_Triumphant_Tora_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Tora/Card_Arcade_Warband_Clan_Tora_Triumphant_Tora_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Clan_Tora/Triumphant_Tora.xhtml', 
@@ -623,20 +643,21 @@ VALUES (992, 124, 134);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (992, 1); --Citrine
 --GangMemberIndex 690
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (224, 0, 'Tora Oni', 'Tora', 'Elite', 5, 3, 2, 620);
+VALUES (224, 0, 'Clan Tora Oni', 'Human', 'Elite', 5, 3, 2, 620);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (687, 727); --Massive Damage
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (690, 1051); --Unstable Design
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (690, 1894); --Vent Steam
 --GangMemberIndex 691
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (224, 1, 'Tora Kaiken', 'Tora', 'Minion', 5, 1, 1, 618);
+VALUES (224, 1, 'Clan Tora Kaiken', 'Human', 'Minion', 5, 1, 1, 618);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (691, 727); --Massive Damage
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (691, 1580); --Relentless Onslaught
 
 
 --Clan Void Shrine
---Elemental Shrine	--CardIndex 1383	--CharacterIndex 993	--ArcadeCharacterIndex 225
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Elemental Shrine',
+--Clan Void Shrine	--CardIndex 1383	--CharacterIndex 993	--ArcadeCharacterIndex 225
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+'Clan Void Shrine',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Void_Shrine/Card_Arcade_Warband_Clan_Void_Shrine_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Void_Shrine/Card_Arcade_Warband_Clan_Void_Shrine_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Clan_Void_Shrine/Elemental_Shrine.xhtml', 
@@ -648,14 +669,15 @@ VALUES (993, 124, 134);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (993, 3); --Ruby
 --GangMemberIndex 692
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (225, 0, 'Elemental Shrine', 'Void Shrine', 'Paired Spawning Point', 0, 4, 1, 622);
+VALUES (225, 0, 'Clan Void Shrine', 'Spawning Point', 'Paired Spawning Point', 0, 4, 1, 622);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (692, 567); --Elemental Affinity
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (692, 681); --Immune: Status Effects
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (692, 945); --Spawning Pool
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (692, 1009); --Stealth
 
 --Mystic Team	--CardIndex 1384	--CharacterIndex 994	--ArcadeCharacterIndex 226
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Mystic Team',
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+'Mystic Team',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Void_Shrine/Card_Arcade_Warband_Clan_Void_Shrine_Mystic_Team_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Void_Shrine/Card_Arcade_Warband_Clan_Void_Shrine_Mystic_Team_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Clan_Void_Shrine/Mystic_Team.xhtml', 
@@ -667,14 +689,14 @@ VALUES (994, 124, 134);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (994, 3); --Ruby
 --GangMemberIndex 693
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (226, 0, 'Madoushi', 'Ninja', 'Elite', 6, 2, 1, 626);
+VALUES (226, 0, 'Clan Void Shrine Madoushi', 'Human', 'Elite', 6, 2, 1, 626);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (693, 442); --Augment
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (693, 807); --Poison
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (693, 1009); --Stealth
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (693, 1522); --Poisoned Weapons
 --GangMemberIndex 694
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (226, 1, 'Kaiken', 'Ninja', 'Minion', 6, 1, 1, 624);
+VALUES (226, 1, 'Clan Void Shrine Kaiken', 'Human', 'Minion', 6, 1, 1, 624);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (694, 444); --Back Strike
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (694, 479); --Bruiser
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (694, 1009); --Stealth
@@ -685,7 +707,8 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (695, 840)
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (695, 1009); --Stealth
 
 --Scout Team	--CardIndex 1385	--CharacterIndex 995	--ArcadeCharacterIndex 227
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Scout Team',
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+'Scout Team',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Void_Shrine/Card_Arcade_Warband_Clan_Void_Shrine_Scout_Team_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Void_Shrine/Card_Arcade_Warband_Clan_Void_Shrine_Scout_Team_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Clan_Void_Shrine/Scout_Team.xhtml', 
@@ -697,20 +720,21 @@ VALUES (995, 124, 134);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (995, 2); --Emerald
 --GangMemberIndex 696
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (227, 0, 'Kunoichi', 'Ninja', 'Elite', 8, 1, 1, 625);
+VALUES (227, 0, 'Clan Void Shrine Kunoichi', 'Human', 'Elite', 8, 1, 1, 625);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (696, 442); --Augment
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (696, 1009); --Stealth
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (696, 1023); --Surge
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (696, 1925); --Wind in the Forest
 --GangMemberIndex 697
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (227, 1, 'Kunoichi', 'Ninja', 'Elite', 8, 1, 1, 625);
+VALUES (227, 1, 'Clan Void Shrine Kunoichi', 'Human', 'Elite', 8, 1, 1, 625);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (697, 442); --Augment
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (697, 1009); --Stealth
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (697, 2003); --Smoke Bomb
 
 --Strike Team	--CardIndex 1386	--CharacterIndex 996	--ArcadeCharacterIndex 228
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Strike Team',
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+'Strike Team',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Void_Shrine/Card_Arcade_Warband_Clan_Void_Shrine_Strike_Team_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Void_Shrine/Card_Arcade_Warband_Clan_Void_Shrine_Strike_Team_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Clan_Void_Shrine/Strike_Team.xhtml', 
@@ -723,27 +747,28 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (996, 1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (996, 2); --Emerald
 --GangMemberIndex 698
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (228, 0, 'Chunin', 'Ninja', 'Elite', 6, 3, 1, 623);
+VALUES (228, 0, 'Clan Void Shrine Chunin', 'Human', 'Elite', 6, 3, 1, 623);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (698, 706); --Knockdown
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (698, 1009); --Stealth
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (698, 1532); --Precision Strike
 --GangMemberIndex 699
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (228, 1, 'Kaiken', 'Ninja', 'Minion', 6, 1, 1, 624);
+VALUES (228, 1, 'Clan Void Shrine Kaiken', 'Human', 'Minion', 6, 1, 1, 624);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (699, 444); --Back Strike
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (699, 479); --Bruiser
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (699, 1009); --Stealth
 --GangMemberIndex 700
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (228, 2, 'Yajiri', 'Ninja', 'Minion', 6, 1, 0, 627);
+VALUES (228, 2, 'Clan Void Shrine Yajiri', 'Human', 'Minion', 6, 1, 0, 627);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (700, 758); --Mob
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (700, 840); --Reach
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (700, 1009); --Stealth
 
 
 --Clan Water Shrine
---Elemental Shrine	--CardIndex 1387	--CharacterIndex 997	--ArcadeCharacterIndex 229
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Elemental Shrine',
+--Clan Water Shrine	--CardIndex 1387	--CharacterIndex 997	--ArcadeCharacterIndex 229
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+'Clan Water Shrine',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Water_Shrine/Card_Arcade_Warband_Clan_Water_Shrine_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Water_Shrine/Card_Arcade_Warband_Clan_Spriti_Water_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Clan_Water_Shrine/Elemental_Shrine.xhtml', 
@@ -755,14 +780,15 @@ VALUES (997, 124, 134);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (997, 3); --Ruby
 --GangMemberIndex 701
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (229, 0, 'Elemental Shrine', 'Water Shrine', 'Paired Spawning Point', 0, 4, 1, 628);
+VALUES (229, 0, 'Clan Water Shrine', 'Spawning Point', 'Paired Spawning Point', 0, 4, 1, 628);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (701, 567); --Elemental Affinity
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (701, 681); --Immune: Status Effects
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (701, 945); --Spawning Pool
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (701, 1009); --Stealth
 
 --Mystic Team	--CardIndex 1388	--CharacterIndex 998	--ArcadeCharacterIndex 230
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Mystic Team',
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+'Mystic Team',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Water_Shrine/Card_Arcade_Warband_Clan_Water_Shrine_Mystic_Team_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Water_Shrine/Card_Arcade_Warband_Clan_Water_Shrine_Mystic_Team_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Clan_Water_Shrine/Mystic_Team.xhtml', 
@@ -774,25 +800,26 @@ VALUES (998, 124, 134);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (998, 3); --Ruby
 --GangMemberIndex 702
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (230, 0, 'Madoushi', 'Ninja', 'Elite', 6, 2, 1, 632);
+VALUES (230, 0, 'Clan Water Shrine Madoushi', 'Human', 'Elite', 6, 2, 1, 632);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (702, 442); --Augment
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (702, 807); --Poison
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (702, 1009); --Stealth
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (702, 1522); --Poisoned Weapons
 --GangMemberIndex 703
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (230, 1, 'Kaiken', 'Ninja', 'Minion', 6, 1, 1, 630);
+VALUES (230, 1, 'Clan Water Shrine Kaiken', 'Human', 'Minion', 6, 1, 1, 630);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (703, 444); --Back Strike
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (703, 479); --Bruiser
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (703, 1009); --Stealth
 --GangMemberIndex 704
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (230, 2, 'Yajiri', 'Ninja', 'Minion', 6, 1, 0, 633);
+VALUES (230, 2, 'Clan Water Shrine Yajiri', 'Human', 'Minion', 6, 1, 0, 633);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (704, 840); --Reach
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (704, 1009); --Stealth
 
 --Scout Team	--CardIndex 1389	--CharacterIndex 999	--ArcadeCharacterIndex 231
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Tanchyo Kaiken',
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+'Scout Team',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Water_Shrine/Card_Arcade_Warband_Clan_Water_Shrine_Scout_Team_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Water_Shrine/Card_Arcade_Warband_Clan_Water_Shrine_Scout_Team_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Clan_Water_Shrine/Scout_Team.xhtml', 
@@ -804,20 +831,21 @@ VALUES (999, 124, 134);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (999, 2); --Emerald
 --GangMemberIndex 705
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (231, 0, 'Kunoichi', 'Ninja', 'Elite', 8, 1, 1, 631);
+VALUES (231, 0, 'Clan Water Shrine Kunoichi', 'Human', 'Elite', 8, 1, 1, 631);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (705, 442); --Augment
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (705, 1009); --Stealth
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (705, 1023); --Surge
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (705, 1925); --Wind in the Forest
 --GangMemberIndex 706
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (231, 1, 'Kunoichi', 'Ninja', 'Elite', 8, 1, 1, 631);
+VALUES (231, 1, 'Clan Water Shrine Kunoichi', 'Human', 'Elite', 8, 1, 1, 631);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (706, 442); --Augment
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (706, 1009); --Stealth
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (706, 2003); --Smoke Bomb
 
 --Strike Team	--CardIndex 1390	--CharacterIndex 1000	--ArcadeCharacterIndex 232
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Tanchyo Oni',
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+'Strike Team',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Water_Shrine/Card_Arcade_Warband_Clan_Water_Shrine_Strike_Team_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Water_Shrine/Card_Arcade_Warband_Clan_Water_Shrine_Strike_Team_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Clan_Water_Shrine/Strike_Team.xhtml', 
@@ -830,27 +858,28 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1000, 1)
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1000, 2); --Emerald
 --GangMemberIndex 707
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (232, 0, 'Chunin', 'Ninja', 'Elite', 6, 3, 1, 629);
+VALUES (232, 0, 'Clan Water Shrine Chunin', 'Human', 'Elite', 6, 3, 1, 629);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (707, 706); --Knockdown
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (707, 1009); --Stealth
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (707, 1532); --Precision Strike
 --GangMemberIndex 708
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (232, 1, 'Kaiken', 'Ninja', 'Minion', 6, 1, 1, 630);
+VALUES (232, 1, 'Clan Water Shrine Kaiken', 'Human', 'Minion', 6, 1, 1, 630);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (708, 444); --Back Strike
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (708, 479); --Bruiser
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (708, 1009); --Stealth
 --GangMemberIndex 709
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (232, 2, 'Yajiri', 'Ninja', 'Minion', 6, 1, 0, 633);
+VALUES (232, 2, 'Clan Water Shrine Yajiri', 'Human', 'Minion', 6, 1, 0, 633);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (709, 758); --Mob
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (709, 840); --Reach
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (709, 1009); --Stealth
 
 
 --Clan Yamazaru
---Yamazaru Madoushi	--CardIndex 1391	--CharacterIndex 1001	--ArcadeCharacterIndex 233
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Yamazaru Madoushi',
+--Clan Yamazaru Madoushi	--CardIndex 1391	--CharacterIndex 1001	--ArcadeCharacterIndex 233
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+'Clan Yamazaru Madoushi',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Yamazaru/Card_Arcade_Warband_Clan_Yamazaru_Madoushi_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Yamazaru/Card_Arcade_Warband_Clan_Yamazaru_Madoushi_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Clan_Yamazaru/Yamazaru_Madoushi.xhtml', 
@@ -862,15 +891,16 @@ VALUES (1001, 124, 134);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1001, 3); --Ruby
 --GangMemberIndex 710
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (233, 0, 'Yamazaru Madoushi', 'Yamazaru', 'Solo Spawning Point', 2, 3, 1, 634);
+VALUES (233, 0, 'Clan Yamazaru Madoushi', 'Tengu', 'Solo Spawning Point', 2, 3, 1, 634);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (710, 891); --Shiny Bauble
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (710, 900); --Slow
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (710, 908); --Solo Spawn
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (710, 927); --Spawning Pool
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (710, 1437); --Mountain Flute
 
---Yamazaru Madoushi (Beta)	--CardIndex 1392	--CharacterIndex 1002	--ArcadeCharacterIndex 234
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Yamazaru Madoushi (Beta)',
+--Clan Yamazaru Madoushi (Beta)	--CardIndex 1392	--CharacterIndex 1002	--ArcadeCharacterIndex 234
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+'Clan Yamazaru Madoushi (Beta)',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Yamazaru/Card_Arcade_Warband_Clan_Yamazaru_Madoushi_beta_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Yamazaru/Card_Arcade_Warband_Clan_Yamazaru_Madoushi_beta_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Clan_Yamazaru/Yamazaru_Madoushi_beta.xhtml', 
@@ -882,7 +912,7 @@ VALUES (1002, 124, 134);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1002, 3); --Ruby
 --GangMemberIndex 711
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (234, 0, 'Yamazaru Madoushi', 'Yamazaru', 'Solo Spawning Point', 2, 3, 1, 634);
+VALUES (234, 0, 'Clan Yamazaru Madoushi', 'Tengu', 'Solo Spawning Point', 2, 3, 1, 634);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (711, 891); --Shiny Bauble
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (711, 900); --Slow
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (711, 908); --Solo Spawn
@@ -890,7 +920,8 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (711, 927)
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (711, 1437); --Mountain Flute
 
 --Monkey Mischief	--CardIndex 1393	--CharacterIndex 1003	--ArcadeCharacterIndex 235
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Monkey Mischief',
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+'Monkey Mischief',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Yamazaru/Card_Arcade_Warband_Clan_Yamazaru_Monkey_Mischief_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Yamazaru/Card_Arcade_Warband_Clan_Yamazaru_Monkey_Mischief_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Clan_Yamazaru/Monkey_Mischief.xhtml', 
@@ -902,16 +933,17 @@ VALUES (1003, 124, 134);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1003, 1); --Citrine
 --GangMemberIndex 712
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (235, 0, 'Yamazaru Kunoichi', 'Yamazaru', 'Elite', 7, 3, 1, 636);
+VALUES (235, 0, 'Clan Yamazaru Kunoichi', 'Human', 'Elite', 7, 3, 1, 636);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (712, 668); --Ice
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (712, 891); --Shiny Bauble
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (712, 1443); --Mountain Sees, The
 --GangMemberIndex 713
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (235, 1, 'Yamazaru Kaiken', 'Yamazaru', 'Minion', 7, 1, 0, 635);
+VALUES (235, 1, 'Clan Yamazaru Kaiken', 'Human', 'Minion', 7, 1, 0, 635);
 
 --Monkey Mischief (Beta)	--CardIndex 1394	--CharacterIndex 1004	--ArcadeCharacterIndex 236
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Monkey Mischief (Beta)',
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+'Monkey Mischief (Beta)',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Yamazaru/Card_Arcade_Warband_Clan_Yamazaru_Monkey_Mischief_beta_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Yamazaru/Card_Arcade_Warband_Clan_Yamazaru_Monkey_Mischief_beta_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Clan_Yamazaru/Monkey_Mischief_beta.xhtml', 
@@ -923,16 +955,17 @@ VALUES (1004, 124, 134);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1004, 1); --Citrine
 --GangMemberIndex 714
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (236, 0, 'Yamazaru Kunoichi', 'Yamazaru', 'Elite', 7, 3, 1, 636);
+VALUES (236, 0, 'Clan Yamazaru Kunoichi', 'Human', 'Elite', 7, 3, 1, 636);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (714, 668); --Ice
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (714, 891); --Shiny Bauble
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (714, 1443); --Mountain Sees, The
 --GangMemberIndex 715
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (236, 1, 'Yamazaru Kaiken', 'Yamazaru', 'Minion', 7, 1, 0, 635);
+VALUES (236, 1, 'Clan Yamazaru Kaiken', 'Human', 'Minion', 7, 1, 0, 635);
 
 --Yamazaru Oni	--CardIndex 1395	--CharacterIndex 1005	--ArcadeCharacterIndex 237
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Yamazaru Oni',
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+'Clan Yamazaru Oni',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Yamazaru/Card_Arcade_Warband_Clan_Yamazaru_Oni_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Yamazaru/Card_Arcade_Warband_Clan_Yamazaru_Oni_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Clan_Yamazaru/Yamazaru_Oni.xhtml', 
@@ -945,13 +978,14 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1005, 1)
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1005, 2); --Emerald
 --GangMemberIndex 716
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (237, 0, 'Yamazaru Oni', 'Yamazaru', 'Elite', 7, 4, 2, 637);
+VALUES (237, 0, 'Clan Yamazaru Oni', 'Oni', 'Elite', 7, 4, 2, 637);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (716, 706); --Knockdown
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (716, 891); --Shiny Bauble
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (716, 1940); --Yamazaru's Tail
 
---Yamazaru Oni (Beta)	--CardIndex 1396	--CharacterIndex 1006	--ArcadeCharacterIndex 238
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Yamazaru Oni (Beta)',
+--Clan Yamazaru Oni (Beta)	--CardIndex 1396	--CharacterIndex 1006	--ArcadeCharacterIndex 238
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+'Clan Yamazaru Oni (Beta)',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Yamazaru/Card_Arcade_Warband_Clan_Yamazaru_Oni_beta_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Yamazaru/Card_Arcade_Warband_Clan_Yamazaru_Oni_beta_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Clan_Yamazaru/Yamazaru_Oni_beta.xhtml', 
@@ -964,13 +998,14 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1006, 1)
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1006, 2); --Emerald
 --GangMemberIndex 717
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (238, 0, 'Yamazaru Oni', 'Yamazaru', 'Elite', 7, 4, 2, 637);
+VALUES (238, 0, 'Clan Yamazaru Oni', 'Oni', 'Elite', 7, 4, 2, 637);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (717, 706); --Knockdown
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (717, 891); --Shiny Bauble
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (717, 1940); --Yamazaru's Tail
 
---Yamazaru Yajiri	--CardIndex 1397	--CharacterIndex 1007	--ArcadeCharacterIndex 239
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Yamazaru Yajiri',
+--Clan Yamazaru Yajiri	--CardIndex 1397	--CharacterIndex 1007	--ArcadeCharacterIndex 239
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+'Clan Yamazaru Yajiri',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Yamazaru/Card_Arcade_Warband_Clan_Yamazaru_Yajiri_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Yamazaru/Card_Arcade_Warband_Clan_Yamazaru_Yajiri_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Clan_Yamazaru/Yamazaru_Yajiri.xhtml', 
@@ -983,13 +1018,14 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1007, 1)
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1007, 2); --Emerald
 --GangMemberIndex 718
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (239, 0, 'Yamazaru Yajiri', 'Yamazaru', 'Elite', 7, 3, 2, 638);
+VALUES (239, 0, 'Clan Yamazaru Yajiri', 'Human', 'Elite', 7, 3, 2, 638);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (718, 647); --Hex
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (718, 891); --Shiny Bauble
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (718, 1439); --Mountain Disapproves, The
 
---Yamazaru Yajiri (Beta)	--CardIndex 1398	--CharacterIndex 1008	--ArcadeCharacterIndex 240
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Yamazaru Yajiri (Beta)',
+--Clan Yamazaru Yajiri (Beta)	--CardIndex 1398	--CharacterIndex 1008	--ArcadeCharacterIndex 240
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+'Clan Yamazaru Yajiri (Beta)',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Yamazaru/Card_Arcade_Warband_Clan_Yamazaru_Yajiri_beta_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Yamazaru/Card_Arcade_Warband_Clan_Yamazaru_Yajiri_beta_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Clan_Yamazaru/Yamazaru_Yajiri_beta.xhtml', 
@@ -1002,15 +1038,16 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1008, 1)
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1008, 2); --Emerald
 --GangMemberIndex 719
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (240, 0, 'Yamazaru Yajiri', 'Yamazaru', 'Elite', 7, 3, 2, 638);
+VALUES (240, 0, 'Clan Yamazaru Yajiri', 'Human', 'Elite', 7, 3, 2, 638);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (719, 647); --Hex
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (719, 891); --Shiny Bauble
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (719, 1439); --Mountain Disapproves, The
 
 
 --Clan Yurei
---Yurei Madoushi	--CardIndex 1399	--CharacterIndex 1009	--ArcadeCharacterIndex 241
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Yurei Madoushi',
+--Clan Yurei Madoushi	--CardIndex 1399	--CharacterIndex 1009	--ArcadeCharacterIndex 241
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+'Clan Yurei Madoushi',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Yurei/Card_Arcade_Warband_Clan_Yurei_Madoushi_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Yurei/Card_Arcade_Warband_Clan_Yurei_Madoushi_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Clan_Yurei/Yurei_Madoushi.xhtml', 
@@ -1030,7 +1067,8 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (720, 990)
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (720, 1714); --Soul Drain
 
 --Ghost Ship	--CardIndex 1400	--CharacterIndex 1010	--ArcadeCharacterIndex 242
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ghost Ship',
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+'Ghost Ship',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Yurei/Card_Arcade_Warband_Clan_Yurei_Ghost_Ship_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Yurei/Card_Arcade_Warband_Clan_Yurei_Ghost_Ship_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Clan_Yurei/Ghost Ship.xhtml', 
@@ -1042,17 +1080,18 @@ VALUES (1010, 124, 134);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1010, 1); --Citrine
 --GangMemberIndex 721
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (242, 0, 'Yurei Kunoichi', 'Undead', 'Elite', 4, 3, 2, 641);
+VALUES (242, 0, 'Clan Yurei Kunoichi', 'Undead', 'Elite', 4, 3, 2, 641);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (721, 562); --Dragged To The Depths
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (721, 923); --Crashing Waves
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (721, 1360); --Last Breath, The
 --GangMemberIndex 722
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (242, 1, 'Yurei Kaiken', 'Undead', 'Minion', 4, 1, 1, 640);
+VALUES (242, 1, 'Clan Yurei Kaiken', 'Undead', 'Minion', 4, 1, 1, 640);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (722, 562); --Dragged To The Depths
 
 --Spirit Archers	--CardIndex 1401	--CharacterIndex 1011	--ArcadeCharacterIndex 243
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Spirit Archers',
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+'Spirit Archers',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Yurei/Card_Arcade_Warband_Clan_Yurei_Spirit_Archers_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Clan_Yurei/Card_Arcade_Warband_Clan_Yurei_Spirit_Archers_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Warbands/Clan_Yurei/Spirit_Archers.xhtml', 
@@ -1064,13 +1103,13 @@ VALUES (1011, 124, 134);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1011, 0); --Amethyst
 --GangMemberIndex 723
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (243, 0, 'Yurei Yajiri', 'Undead', 'Elite', 4, 2, 2, 642);
+VALUES (243, 0, 'Clan Yurei Yajiri', 'Undead', 'Elite', 4, 2, 2, 642);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (723, 562); --Dragged To The Depths
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (723, 727); --Massive Damage
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (723, 1333); --Jigoku's Arrow
 --GangMemberIndex 724
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (243, 1, 'Yurei Yajiri', 'Undead', 'Elite', 4, 2, 2, 642);
+VALUES (243, 1, 'Clan Yurei Yajiri', 'Undead', 'Elite', 4, 2, 2, 642);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (724, 562); --Dragged To The Depths
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (724, 727); --Massive Damage
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (724, 1333); --Jigoku's Arrow

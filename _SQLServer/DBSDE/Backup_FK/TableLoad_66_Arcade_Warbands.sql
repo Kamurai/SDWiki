@@ -110,12 +110,12 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (143, 315)
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (143, 348); --Stealth
 
 
---Clan Wind Shrine
+--Clan Air Shrine
 --Elemental Shrine --CardIndex 758	--CharacterIndex 368	--ArcadeCharacterIndex 101
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Elemental Shrine',
-'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Clan_Wind_Shrine/Card_Arcade_Warband_Clan_Wind_Shrine_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Clan_Wind_Shrine/Card_Arcade_Warband_Clan_Wind_Shrine_FK_back.png', 
-'http://htkb.online/SDWiki/SDE/FK/Arcade/Cards/Warbands/Clan_Wind_Shrine/Clan_Wind_Shrine.xhtml', 
+'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Clan_Air_Shrine/Card_Arcade_Warband_Clan_Air_Shrine_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Clan_Air_Shrine/Card_Arcade_Warband_Clan_Air_Shrine_FK_back.png', 
+'http://htkb.online/SDWiki/SDE/FK/Arcade/Cards/Warbands/Clan_Air_Shrine/Clan_Air_Shrine.xhtml', 
 'Warband', 'FK', 'FK Core Set', 'Arcade', 
 '');
 insert into Characters (CardIndex) VALUES (758);
@@ -132,9 +132,9 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (144, 378)
 
 --Mystic Team --CardIndex 759	--CharacterIndex 369	--ArcadeCharacterIndex 102
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Mystic Team',
-'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Clan_Wind_Shrine/Card_Arcade_Warband_Clan_Wind_Shrine_Mystic_Team_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Clan_Wind_Shrine/Card_Arcade_Warband_Clan_Wind_Shrine_Mystic_Team_FK_back.png', 
-'http://htkb.online/SDWiki/SDE/FK/Arcade/Cards/Warbands/Clan_Wind_Shrine/Mystic_Team.xhtml', 
+'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Clan_Air_Shrine/Card_Arcade_Warband_Clan_Air_Shrine_Mystic_Team_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Clan_Air_Shrine/Card_Arcade_Warband_Clan_Air_Shrine_Mystic_Team_FK_back.png', 
+'http://htkb.online/SDWiki/SDE/FK/Arcade/Cards/Warbands/Clan_Air_Shrine/Mystic_Team.xhtml', 
 'Warband', 'FK', 'FK Core Set', 'Arcade', 
 '');
 insert into Characters (CardIndex) VALUES (759);
@@ -162,9 +162,9 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (147, 348)
 
 --Scout Team --CardIndex 760	--CharacterIndex 370	--ArcadeCharacterIndex 103
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Scout Team',
-'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Clan_Wind_Shrine/Card_Arcade_Warband_Clan_Wind_Shrine_Scout_Team_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Clan_Wind_Shrine/Card_Arcade_Warband_Clan_Wind_Shrine_Scout_Team_FK_back.png', 
-'http://htkb.online/SDWiki/SDE/FK/Arcade/Cards/Warbands/Clan_Wind_Shrine/Scout_Team.xhtml', 
+'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Clan_Air_Shrine/Card_Arcade_Warband_Clan_Air_Shrine_Scout_Team_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Clan_Air_Shrine/Card_Arcade_Warband_Clan_Air_Shrine_Scout_Team_FK_back.png', 
+'http://htkb.online/SDWiki/SDE/FK/Arcade/Cards/Warbands/Clan_Air_Shrine/Scout_Team.xhtml', 
 'Warband', 'FK', 'FK Core Set', 'Arcade', 
 '');
 insert into Characters (CardIndex) VALUES (760);
@@ -177,7 +177,7 @@ VALUES (103, 0, 'Kunoichi', 'Ninja', 'Elite', 8, 1, 1, 271);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (148, 415); --Augment
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (148, 348); --Stealth
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (148, 353); --Surge
-insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (148, 675); --Wind in the Forest
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (148, 675); --Air in the Forest
 --GangMemberIndex 149
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (103 , 1, 'Kunoichi', 'Bonded Ninja', 'Elite', 8, 1, 1, 271);
@@ -187,9 +187,9 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (149, 566)
 
 --Strike Team --CardIndex 761	--CharacterIndex 371	--ArcadeCharacterIndex 104
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Strike Team',
-'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Clan_Wind_Shrine/Card_Arcade_Warband_Clan_Wind_Shrine_Strike_Team_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Clan_Wind_Shrine/Card_Arcade_Warband_Clan_Wind_Shrine_Strike_Team_FK_back.png', 
-'http://htkb.online/SDWiki/SDE/FK/Arcade/Cards/Warbands/Clan_Wind_Shrine/Strike_Team.xhtml', 
+'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Clan_Air_Shrine/Card_Arcade_Warband_Clan_Air_Shrine_Strike_Team_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Clan_Air_Shrine/Card_Arcade_Warband_Clan_Air_Shrine_Strike_Team_FK_back.png', 
+'http://htkb.online/SDWiki/SDE/FK/Arcade/Cards/Warbands/Clan_Air_Shrine/Strike_Team.xhtml', 
 'Warband', 'FK', 'FK Core Set', 'Arcade', 
 '');
 insert into Characters (CardIndex) VALUES (761);

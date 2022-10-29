@@ -19,8 +19,8 @@ insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (149
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (149, 405); --Introspection
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (149,
-'http://htkb.info/SDE/FK/Cards/MiniBosses/Standies/Bashful_Boris_FK.png', 
-'http://htkb.info/SDE/FK/Cards/MiniBosses/Standies/Bashful_Boris_FK_back.png',
+'http://htkb.info/SDE/Standies/Bashful_Boris.png', 
+'http://htkb.info/SDE/Standies/Bashful_Boris_back.png',
 'Masculine', 'Large', 'Chimera', 6, 3, '2B 2R', '2ST1R', '3B', '2B', 5, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (149, 1, 1); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (149, 2); --Armor
@@ -42,8 +42,8 @@ insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (150
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (150, 296); --Earthshaker
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (150,
-'http://htkb.info/SDE/FK/Cards/MiniBosses/Standies/Bashful_Boris_FK.png', 
-'http://htkb.info/SDE/FK/Cards/MiniBosses/Standies/Bashful_Boris_FK_back.png',
+'http://htkb.info/SDE/Standies/Bashful_Boris.png', 
+'http://htkb.info/SDE/Standies/Bashful_Boris_back.png',
 'Masculine', 'Large', 'Chimera', 6, 3, '3B 2R', '3B', '1B1R', '2B', 5, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (150, 1, 1); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (150, 2); --Armor
@@ -65,8 +65,8 @@ insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (151
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (151, 684); --'X' Marks the Spot
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (151,
-'http://htkb.info/SDE/FK/Cards/MiniBosses/Standies/Captain_R_FK.png', 
-'http://htkb.info/SDE/FK/Cards/MiniBosses/Standies/Captain_R_FK_back.png',
+'http://htkb.info/SDE/Standies/Captain_R.png', 
+'http://htkb.info/SDE/Standies/Captain_R_back.png',
 'Masculine', 'Small', 'Undead Skeleton Pirate', 6, 3, '1B 2R', '2B 1R', '1B1R', '1B1R', 5, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (151, 1, 1); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (151, 2); --Armor
@@ -88,8 +88,8 @@ insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (152
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (152, 175); --Bad Kitty
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (152,
-'http://htkb.info/SDE/FK/Cards/MiniBosses/Standies/Chaos_Kitty_FK.png', 
-'http://htkb.info/SDE/FK/Cards/MiniBosses/Standies/Chaos_Kitty_FK_back.png',
+'http://htkb.info/SDE/Standies/Nyan_Nyan.png', 
+'http://htkb.info/SDE/Standies/Nyan_Nyan_back.png',
 'Feminine', 'Small', 'Freyjan', 7, 3, '2B 2R', '2B', '3B', '1ST2R', 5, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (152, 1, 1); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (152, 2); --Armor
@@ -112,8 +112,8 @@ insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (153
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (153, 583); --Spectre
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (153,
-'http://htkb.info/SDE/FK/Cards/MiniBosses/Standies/Death_Spectre_FK.png', 
-'http://htkb.info/SDE/FK/Cards/MiniBosses/Standies/Death_Spectre_FK_back.png',
+'http://htkb.info/SDE/Standies/Death_Spectre.png', 
+'http://htkb.info/SDE/Standies/Death_Spectre_back.png',
 'Either', 'Large', 'Undead', 1, 3, '1B', '2R', '2ST1G', '3B', 5, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (153, 3, 2); --Will
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (153, 2); --Armor
@@ -135,8 +135,8 @@ insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (154
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (154, 236); --Coagulated Mixture
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (154,
-'http://htkb.info/SDE/FK/Cards/MiniBosses/Standies/Deranged_Alchemist_FK.png', 
-'http://htkb.info/SDE/FK/Cards/MiniBosses/Standies/Deranged_Alchemist_FK_back.png', 
+'http://htkb.info/SDE/Standies/Deranged_Alchemist.png', 
+'http://htkb.info/SDE/Standies/Deranged_Alchemist_back.png', 
 'Feminine', 'Small', 'Elf', 7, 3, '2B', '3B1R', '2B2R', '2B', 5, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (154, 1, 1); --Strength
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (154, 3, 6); --Will
@@ -160,8 +160,8 @@ insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (155
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (155, 311); --Fae Curse
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (155,
-'http://htkb.info/SDE/FK/Cards/MiniBosses/Standies/Glimmerwing_FK.png', 
-'http://htkb.info/SDE/FK/Cards/MiniBosses/Standies/Glimmerwing_FK_back.png',
+'http://htkb.info/SDE/Standies/Glimmerwing.png', 
+'http://htkb.info/SDE/Standies/Glimmerwing_back.png',
 'Feminine', 'Large', 'Faerie Dragon', 8, 3, '2R', '2ST1R', '3R', '3B', 5, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (155, 1, 2); --Strength
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (155, 3, 6); --Will
@@ -186,8 +186,8 @@ insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (156
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (156, 298); --Electric Jolt
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (156,
-'http://htkb.info/SDE/FK/Cards/MiniBosses/Standies/Gruesome_George_FK.png', 
-'http://htkb.info/SDE/FK/Cards/MiniBosses/Standies/Gruesome_George_FK_back.png',
+'http://htkb.info/SDE/Standies/Gruesome_George.png', 
+'http://htkb.info/SDE/Standies/Gruesome_George_back.png',
 'Masculine', 'Large', 'Undead Zombie', 6, 3, '2B', '2B', '1B', '1B', 6, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (156, 1, 2); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (156, 2); --Armor
@@ -209,8 +209,8 @@ insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (157
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (157, 472); --Phalanx
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (157,
-'http://htkb.info/SDE/FK/Cards/MiniBosses/Standies/Herald_of_Vulcanis_FK.png', 
-'http://htkb.info/SDE/FK/Cards/MiniBosses/Standies/Herald_of_Vulcanis_FK_back.png',
+'http://htkb.info/SDE/Standies/Herald_of_Vulcanis.png', 
+'http://htkb.info/SDE/Standies/Herald_of_Vulcanis_back.png',
 'Masculine', 'Small', 'Dark Celestian', 7, 3, '1ST3R', '2R', '1B1R', '2B1R', 5, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (157, 1, 2); --Strength
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (157, 4, 6); --Dexterity
@@ -232,8 +232,8 @@ insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (158
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (158, 368); --Hard Hit
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (158,
-'http://htkb.info/SDE/FK/Cards/MiniBosses/Standies/Iron_Golem_FK.png', 
-'http://htkb.info/SDE/FK/Cards/MiniBosses/Standies/Iron_Golem_FK_back.png',
+'http://htkb.info/SDE/Standies/Iron_Golem.png', 
+'http://htkb.info/SDE/Standies/Iron_Golem_back.png',
 'Neither', 'Large', 'Construct', 6, 3, '2ST2R', '3R', '1B', '1B', 6, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (158, 1, 2); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (158, 2); --Armor
@@ -255,8 +255,8 @@ insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (159
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (159, 533); --Run Birdy
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (159,
-'http://htkb.info/SDE/FK/Cards/MiniBosses/Standies/Jack_Scarecrow_FK.png', 
-'http://htkb.info/SDE/FK/Cards/MiniBosses/Standies/Jack_Scarecrow_FK_back.png',
+'http://htkb.info/SDE/Standies/Jack_Scarecrow.png', 
+'http://htkb.info/SDE/Standies/Jack_Scarecrow_back.png',
 'Neither', 'Small', 'Construct', 6, 3, '2B2R', '3B', '1ST2R', '1B', 6, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (159, 1, 2); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (159, 2); --Armor
@@ -279,8 +279,8 @@ insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (160
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (160, 254); --Dark Aura
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (160,
-'http://htkb.info/SDE/FK/Cards/MiniBosses/Standies/Kaelly_the_Nether_Strider_FK.png', 
-'http://htkb.info/SDE/FK/Cards/MiniBosses/Standies/Kaelly_the_Nether_Strider_FK_back.png',
+'http://htkb.info/SDE/Standies/Kaelly_the_Nether_Strider.png', 
+'http://htkb.info/SDE/Standies/Kaelly_the_Nether_Strider_back.png',
 'Feminine', 'Small', 'Elf', 7, 3, '1B1R', '3B', '3B', '3R', 5, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (160, 1, 1); --Strength
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (160, 4, 6); --Dexterity
@@ -304,8 +304,8 @@ insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (161
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (161, 569); --Snare
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (161,
-'http://htkb.info/SDE/FK/Cards/MiniBosses/Standies/Kasaro_To_FK.png', 
-'http://htkb.info/SDE/FK/Cards/MiniBosses/Standies/Kasaro_To_FK_back.png',
+'http://htkb.info/SDE/Standies/Kasaro_To.png', 
+'http://htkb.info/SDE/Standies/Kasaro_To_back.png',
 'Masculine', 'Large', 'Oni', 6, 3, '1ST2R', '2R', '3B', '2B', 5, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (161, 1, 2); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (161, 2); --Armor
@@ -328,8 +328,8 @@ insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (162
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (162, 279); --Distracting Costume
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (162,
-'http://htkb.info/SDE/FK/Cards/MiniBosses/Standies/Kunoichi_Candy_FK.png', 
-'http://htkb.info/SDE/FK/Cards/MiniBosses/Standies/Kunoichi_Candy_FK_back.png',
+'http://htkb.info/NAS/Standies/Kunoichi_Candy.png', 
+'http://htkb.info/NAS/Standies/Kunoichi_Candy_back.png',
 'Feminine', 'Small', 'Human', 6, 3, '2B', '2B', '2B2R', '2R', 5, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (162, 1, 1); --Strength
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (162, 3, 6); --Will
@@ -353,8 +353,8 @@ insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (163
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (163, 343); --Frosty Soda Bomb
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (163,
-'http://htkb.info/NAS/Stealth_Cola.png', 
-'http://htkb.info/NAS/Stealth_Cola_back.png',
+'http://htkb.info/NAS/Standies/Stealth_Cola.png', 
+'http://htkb.info/NAS/Standies/Stealth_Cola_back.png',
 'Masculine', 'Small', 'Kitsune', 7, 3, '3B', '2B', '1B1R', '2B2R', 5, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (163, 1, 1); --Strength
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (163, 4, 8); --Dexterity
@@ -363,7 +363,8 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (1
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (163, '', 'Super', 1);
 
 --Clan Fire Shrine Oni --CardIndex 249	--CharacterIndex 164	--ExploreCharacterIndex 164
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Clan Fire Shrine Oni',
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+'Clan Fire Shrine Oni',
 'http://htkb.info/SDE/FK/Cards/MiniBosses/Card_MiniBoss_Clan_Fire_Shrine_Oni_FK.png', 
 'http://htkb.info/SDE/FK/Cards/MiniBosses/Card_MiniBoss_Clan_Fire_Shrine_Oni_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Explore/Cards/MiniBosses/Clan_Fire_Shrine_Oni.xhtml', 
@@ -378,8 +379,8 @@ insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (164
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (164, 267); --Deceive
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (164,
-'http://htkb.info/SDE/FK/Cards/MiniBosses/Standies/Clan_Fire_Shrine_Oni_FK.png', 
-'http://htkb.info/SDE/FK/Cards/MiniBosses/Standies/Clan_Fire_Shrine_Oni_FK_back.png',
+'http://htkb.info/NAS/Standies/Clan_Fire_Shrine_Oni.png', 
+'http://htkb.info/NAS/Standies/Clan_Fire_Shrine_Oni_back.png',
 'Masculine', 'Large', 'Oni', 6, 3, '3R', '2R', '3B', '2B', 6, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (164, 1, 2); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (164, 2); --Armor
@@ -400,8 +401,8 @@ insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (165
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (165, 522); --Rex Smash
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (165,
-'http://htkb.info/SDE/FK/Cards/MiniBosses/Standies/Rex_FK.png', 
-'http://htkb.info/SDE/FK/Cards/MiniBosses/Standies/Rex_FK_back.png',
+'http://htkb.info/SDE/Standies/Rex.png', 
+'http://htkb.info/SDE/Standies/Rex_back.png',
 'Masculine', 'Large', 'Kobold Ogre', 5, 3, '2R2B', '2R', '1B', '2B', 6, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (165, 1, 2); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (165, 2); --Armor
@@ -423,8 +424,8 @@ insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (166
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (166, 314); --Feast
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (166,
-'http://htkb.info/SDE/FK/Cards/MiniBosses/Standies/Rock_Gut_FK.png', 
-'http://htkb.info/SDE/FK/Cards/MiniBosses/Standies/Rock_Gut_FK_back.png',
+'http://htkb.info/SDE/Standies/Rock_Gut.png', 
+'http://htkb.info/SDE/Standies/Rock_Gut_back.png',
 'Masculine', 'Large', 'Troll', 6, 3, '1ST3B1R', '2B2R', '1B', '2B', 5, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (166, 1, 2); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (166, 2); --Armor
@@ -447,8 +448,8 @@ insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (167
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (167, 232); --Circle of Salt
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (167,
-'http://htkb.info/SDE/FK/Cards/MiniBosses/Standies/Salt_FK.png', 
-'http://htkb.info/SDE/FK/Cards/MiniBosses/Standies/Salt_FK_back.png',
+'http://htkb.info/SDE/Standies/Salt.png', 
+'http://htkb.info/SDE/Standies/Salt_back.png',
 'Either', 'Large', 'Faerie', 6, 3, '2ST1R', '2ST1R', '3B', '2B', 6, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (167, 1, 2); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (167, 2); --Armor
@@ -469,8 +470,8 @@ insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (168
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (168, 229); --Chomp! Crunch!
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (168,
-'http://htkb.info/SDE/FK/Cards/MiniBosses/Standies/Ser_Sharpclaw_FK.png', 
-'http://htkb.info/SDE/FK/Cards/MiniBosses/Standies/Ser_Sharpclaw_FK_back.png',
+'http://htkb.info/SDE/Standies/Ser_Sharpclaw.png', 
+'http://htkb.info/SDE/Standies/Ser_Sharpclaw_back.png',
 'Masculine', 'Large', 'Kobold', 8, 3, '1ST3R', '1ST2R', '1B1R', '1B1R', 5, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (168, 1, 3); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (168, 2); --Armor
@@ -492,8 +493,8 @@ insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (169
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (169, 514); --Rally Cry
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (169,
-'http://htkb.info/SDE/FK/Cards/MiniBosses/Standies/Ser_Snapjaw_FK.png', 
-'http://htkb.info/SDE/FK/Cards/MiniBosses/Standies/Ser_Snapjaw_FK_back.png',
+'http://htkb.info/SDE/Standies/Ser_Snapjaw.png', 
+'http://htkb.info/SDE/Standies/Ser_Snapjaw_back.png',
 'Masculine', 'Small', 'Kobold', 7, 3, '1B1R', '3R', '1B1R', '1B1R', 5, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (169, 1, 3); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (169, 2); --Armor
@@ -516,15 +517,16 @@ insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (170
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (170, 543); --Shadow
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (170,
-'http://htkb.info/SDE/FK/Cards/MiniBosses/Standies/Shadow_Mode_Candy_FK.png', 
-'http://htkb.info/SDE/FK/Cards/MiniBosses/Standies/Shadow_Mode_Candy_FK_back.png',
+'http://htkb.info/SDE/Standies/Shadow_Mode_Candy.png', 
+'http://htkb.info/SDE/Standies/Shadow_Mode_Candy_back.png',
 'Feminine', 'Small', 'Nether Shadow', 6, 3, '4B', '3B', '1B1R', '2R', 5, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (170, 1, 1); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (170, 2); --Armor
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (170, '', 'Super', 4);
 
 --Succubus Vandella --CardIndex 256 --CharacterIndex 171 --ExploreCharacterIndex 171
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Succubus Vandella',
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+'Succubus Vandella',
 'http://htkb.info/SDE/FK/Cards/MiniBosses/Card_MiniBoss_Succubus_Vandella_FK.png', 
 'http://htkb.info/SDE/FK/Cards/MiniBosses/Card_MiniBoss_Succubus_Vandella_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Explore/Cards/MiniBosses/Succubus_Vandella.xhtml', 
@@ -538,8 +540,8 @@ insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (171
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (171, 238); --Come Hither
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (171,
-'http://htkb.info/SDE/FK/Cards/MiniBosses/Standies/Succubus_Vandella_FK.png', 
-'http://htkb.info/SDE/FK/Cards/MiniBosses/Standies/Succubus_Vandella_FK_back.png',
+'http://htkb.info/SDE/Standies/Succubus_Vandella.png', 
+'http://htkb.info/SDE/Standies/Succubus_Vandella_back.png',
 'Feminine', 'Small', 'Demon', 7, 3, '1B 1R', '2B', '3B 1R', '3R', 5, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (171, 1, 1); --Strength
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (171, 3, 6); --Will
@@ -565,8 +567,8 @@ insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (172
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (172, 656); --Uproot
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (172,
-'http://htkb.info/SDE/FK/Cards/MiniBosses/Standies/Trent_FK.png', 
-'http://htkb.info/SDE/FK/Cards/MiniBosses/Standies/Trent_FK_back.png',
+'http://htkb.info/SDE/Standies/Trent.png', 
+'http://htkb.info/SDE/Standies/Trent_back.png',
 'Neither', 'Large', 'Treant Kodama', 6, 3, '1ST 2R', '1ST 2R', '2R', '1B', 6, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (172, 1, 1); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (172, 2); --Armor
@@ -589,8 +591,8 @@ insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (173
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (173, 656); --Uproot
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (173,
-'http://htkb.info/SDE/FK/Cards/MiniBosses/Standies/Trent_FK.png', 
-'http://htkb.info/SDE/FK/Cards/MiniBosses/Standies/Trent_FK_back.png',
+'http://htkb.info/SDE/Standies/Trent.png', 
+'http://htkb.info/SDE/Standies/Trent_back.png',
 'Neither', 'Large', 'Treant Kodama', 6, 3, '1ST 2R', '1ST 2R', '2R', '1B', 6, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (173, 1, 2); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (173, 2); --Armor

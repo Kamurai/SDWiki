@@ -274,7 +274,8 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (24, 611);
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (24, 344); --Frosty Soda Bomb
 
 --Clan Fire Shrine Oni --CardIndex 362	--CharacterIndex 277	--ArcadeCharacterIndex 25
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Oni',
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+'Clan Fire Shrine Oni',
 'http://htkb.info/SDE/FK/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Clan_Fire_Shrine_Oni_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Clan_Fire_Shrine_Oni_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Arcade/Cards/MiniBosses/Clan_Fire_Shrine_Oni.xhtml', 
@@ -287,7 +288,7 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (277, 1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (277, 3); --Ruby
 --GangMemberIndex 25
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (25, 0, 'Oni', 'Oni', 'MiniBoss', 6, 8, 3, 164);
+VALUES (25, 0, 'Clan Fire Shrine Oni', 'Oni', 'MiniBoss', 6, 8, 3, 164);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (25, 214); --Elemental Affinity
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (25, 272); --Devour
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (25, 275); --Disaster

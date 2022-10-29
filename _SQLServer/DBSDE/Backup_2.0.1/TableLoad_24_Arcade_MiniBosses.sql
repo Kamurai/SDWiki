@@ -146,7 +146,8 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (577, 1084
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (577, 1338); --KABLOOOOWY!
 
 --Clan Ika Chunin	--CardIndex 1288	--CharacterIndex 898	--ArcadeCharacterIndex 130
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Clan Ika Chunin',
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+'Clan Ika Chunin',
 'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Clan_Ika_Chunin_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Clan_Ika_Chunin_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/MiniBosses/Clan_Ika_Chunin.xhtml', 
@@ -158,7 +159,7 @@ VALUES (898, 373, -1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (898, 1); --Citrine
 --GangMemberIndex 578
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (130, 0, 'Ika Chunin', 'Ika', 'MiniBoss', 6, 7, 3, 514);
+VALUES (130, 0, 'Clan Ika Chunin', 'Human', 'MiniBoss', 6, 7, 3, 514);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (578, 672); --Immobile
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (578, 701); --Killamari
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (578, 726); --Massive Damage
@@ -168,7 +169,8 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (578, 1557
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (578, 1797); --Sweeping Spear
 
 --Clan Kitsune Chunin	--CardIndex 1289	--CharacterIndex 899	--ArcadeCharacterIndex 131
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Clan Kitsune Chunin',
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+'Clan Kitsune Chunin',
 'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Clan_Kitsune_Chunin_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Clan_Kitsune_Chunin_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/MiniBosses/Clan_Kitsune_Chunin.xhtml', 
@@ -180,7 +182,7 @@ VALUES (899, 373, -1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (899, 1); --Citrine
 --GangMemberIndex 579
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (131, 0, 'Kitsune Chunin', 'Kitsune', 'MiniBoss', 5, 7, 3, 515);
+VALUES (131, 0, 'Clan Kitsune Chunin', 'Kitsune', 'MiniBoss', 5, 7, 3, 515);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (579, 807); --Poison
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (579, 1031); --Territorial
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (579, 1468); --New Territory
@@ -199,7 +201,7 @@ VALUES (900, 373, -1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (900, 0); --!! unavailable !!
 --GangMemberIndex 580
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (132, 0, 'Sohei Chunin', 'Sohei', 'MiniBoss', 6, 7, 3, 517);
+VALUES (132, 0, 'Clan Sohei Chunin', 'Human', 'MiniBoss', 6, 7, 3, 517);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (580, 442); --Augment
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (580, 556); --Discipline 
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (580, 706); --Knockdown
@@ -221,14 +223,15 @@ VALUES (901, 373, -1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (901, 4); --Sapphire
 --GangMemberIndex 581
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (133, 0, 'Sohei Oni', 'Sohei', 'MiniBoss', 8, 7, 4, 518);
+VALUES (133, 0, 'Clan Sohei Oni', 'Oni', 'MiniBoss', 8, 7, 4, 518);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (581, 556); --Discipline 
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (581, 763); --Monstrous Steed, A
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (581, 849); --Bullrush
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (581, 1984); --Mincemeat
 
 --Clan Spirit Shrine Oni 	--CardIndex 1292	--CharacterIndex 902	--ArcadeCharacterIndex 134
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Clan Spirit Shrine Oni',
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+'Clan Spirit Shrine Oni',
 'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Clan_Spirit_Shrine_Oni_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Clan_Spirit_Shrine_Oni_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/MiniBosses/Clan_Spirit_Shrine_Oni.xhtml', 
@@ -241,7 +244,7 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (902, 1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (902, 3); --Ruby
 --GangMemberIndex 582
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (134, 0, 'Oni', 'Oni', 'MiniBoss', 6, 8, 3, 516);
+VALUES (134, 0, 'Clan Spirit Shrine Oni', 'Oni', 'MiniBoss', 6, 8, 3, 516);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (582, 567); --Elemental Affinity
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (582, 1011); --Devour
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (582, 1022); --Disaster
@@ -259,7 +262,7 @@ VALUES (903, 373, -1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (903, 2); --Emerald
 --GangMemberIndex 583
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (135, 0, 'Tanchyo Chunin', 'Tanchyo', 'MiniBoss', 7, 7, 3, 519);
+VALUES (135, 0, 'Clan Tanchyo Chunin', 'Human', 'MiniBoss', 7, 7, 3, 519);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (583, 854); --Retreat
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (583, 1052); --Vengeful Storm
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (583, 1763); --Storm of Arrows
@@ -278,14 +281,15 @@ VALUES (904, 373, -1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (904, 1); --Citrine
 --GangMemberIndex 584
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (136, 0, 'Tora Chunin', 'Tora', 'MiniBoss', 5, 7, 3, 520);
+VALUES (136, 0, 'Clan Tora Chunin', 'Oni', 'MiniBoss', 5, 7, 3, 520);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (584, 1040); --Tough
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (584, 1854); --Tora Tora Tora!
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (584, 1581); --Reload!
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (584, 1151); --Flurry of Blades
 
 --Clan Void Shrine Oni 	--CardIndex 1295	--CharacterIndex 905	--ArcadeCharacterIndex 137
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Clan Void Shrine Oni',
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+'Clan Void Shrine Oni',
 'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Clan_Void_Shrine_Oni_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Clan_Void_Shrine_Oni_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/MiniBosses/Clan_Void_Shrine_Oni.xhtml', 
@@ -298,13 +302,14 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (905, 1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (905, 3); --Ruby
 --GangMemberIndex 585
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (137, 0, 'Oni', 'Oni', 'MiniBoss', 6, 8, 3, 521);
+VALUES (137, 0, 'Clan Void Shrine Oni', 'Oni', 'MiniBoss', 6, 8, 3, 521);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (585, 567); --Elemental Affinity
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (585, 1011); --Devour
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (585, 1022); --Disaster
 
 --Clan Water Shrine Oni 	--CardIndex 1296	--CharacterIndex 906	--ArcadeCharacterIndex 138
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Clan Water Shrine Oni',
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+'Clan Water Shrine Oni',
 'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Clan_Water_Shrine_Oni_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Clan_Water_Shrine_Oni_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/MiniBosses/Clan_Water_Shrine_Oni.xhtml', 
@@ -317,7 +322,7 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (906, 1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (906, 3); --Ruby
 --GangMemberIndex 586
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (138, 0, 'Oni', 'Oni', 'MiniBoss', 6, 8, 3, 522);
+VALUES (138, 0, 'Clan Water Shrine Oni', 'Oni', 'MiniBoss', 6, 8, 3, 522);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (586, 567); --Elemental Affinity
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (586, 1011); --Devour
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (586, 1022); --Disaster
@@ -335,7 +340,7 @@ VALUES (907, 373, -1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (907, 1); --Citrine
 --GangMemberIndex 587
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (139, 0, 'Yamazaru Chunin', 'Yamazaru', 'MiniBoss', 7, 7, 3, 523);
+VALUES (139, 0, 'Clan Yamazaru Chunin', 'Human', 'MiniBoss', 7, 7, 3, 523);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (587, 453); --Bane
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (587, 891); --Shiny Bauble
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (587, 1069); --Endless Curiosity
@@ -355,7 +360,7 @@ VALUES (908, 373, -1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (908, 0); --Amethyst
 --GangMemberIndex 588
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (140, 0, 'Yurei Chunin', 'Yurei Undead', 'MiniBoss', 7, 7, 3, 524);
+VALUES (140, 0, 'Clan Yurei Chunin', 'Undead', 'MiniBoss', 7, 7, 3, 524);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (588, 562); --Dragged To The Depths
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (588, 728); --Massive Damage
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (588, 1049); --Drowning Deeps, The
@@ -374,7 +379,7 @@ VALUES (909, 373, -1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (909, 0); --Amethyst
 --GangMemberIndex 589
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (141, 0, 'Yurei Oni', 'Undead', 'MiniBoss', 5, 9, 3, 525);
+VALUES (141, 0, 'Clan Yurei Oni', 'Undead', 'MiniBoss', 5, 9, 3, 525);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (589, 562); --Dragged To The Depths
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (589, 672); --Immobile
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (589, 726); --Massive Damage
@@ -756,7 +761,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (608, 1313
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Randy, Lrod of Spiders',
 'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Randy_Lrod_of_Spiders_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Randy_Lrod_of_Spiders_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/MiniBosses/Randy, Lrod of Spiders.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/MiniBosses/Randy_Lrod_of_Spiders.xhtml', 
 'MiniBoss', '2.0', '2.0 Core Set', 'Arcade', 
 'The last galaxy is a place where mighty knights clash with the forces of the void, and a battle for survival rages. But that doesn''t mean that the arcades will manage themselves. Randy has been charged with the sacred duty of managing one such arcade. Annonyed at customers who continually vaporize his place of work with high tech weaponry, Randy decided to program himself into his favorite game. But a typo prevented him from being a proper lord, even in a game...');
 insert into Characters (CardIndex) VALUES (1319);
