@@ -1,6 +1,6 @@
 --SDE
 --2.0.3 
---MiniBoss
+--MiniBosses
 
 
 --Dread Scarlett --CardIndex 2359	--CharacterIndex 1205	--ExploreCharacterIndex 866
@@ -9,7 +9,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Dread_Scarlett_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Dread_Scarlett_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/MiniBosses/Dread_Scarlett.xhtml', 
-'Miniboss', '2.0', '2.0 Core Set', 'Explore',
+'MiniBoss', '2.0', '2.0 Core Set', 'Explore',
 'Aye.  I cheated.  Tis your fault you let me get away with it.');
 insert into Characters (CardIndex) VALUES (2359);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1205, 0); --Amethyst
@@ -27,4 +27,4 @@ insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (866
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (866, 2230); --Run Red
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (866, 4, 1); --Dexterity
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (866, 2); --Armor
-insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (866, 'Miniboss', 'Super', 4);
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (866, 'MiniBoss', 'Super', 4);

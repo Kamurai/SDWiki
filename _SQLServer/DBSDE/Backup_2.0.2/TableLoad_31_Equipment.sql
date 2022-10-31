@@ -19,8 +19,8 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (777, 1
 --Colo --CardIndex 2261 --EquipmentIndex 778
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 'Colo',
-'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Familiar_Colo_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Familiar_Colo_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Loot/Familiar/Card_Loot_Familiar_Colo_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Loot/Familiar/Card_Loot_Familiar_Colo_2.0_back.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Familiar/Colo.xhtml', 
 'Loot', '2.0', '2.0 Core Set', 'Default',
 'What are you laughing at fuzzball?');
@@ -60,8 +60,8 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (780, 1
 --Invulnerability Potion --CardIndex 2264 --EquipmentIndex 781
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 'Invulnerability Potion',
-'http://htkb.info/SDE/2.0/Cards/Loot/Specific/Card_Treasure_Invulnerability_Potion_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Loot/Specific/Card_Treasure_Invulnerability_Potion_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Loot/Specific/Card_Loot_Invulnerability_Potion_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Loot/Specific/Card_Loot_Invulnerability_Potion_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Loot/Specific/Invulnerability_Potion.xhtml', 
 'Loot', '2.0', '2.0 Core Set', 'Default',
 '');

@@ -1865,7 +1865,7 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (1
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (148, '', '8 Bit', 1);
 --SDE
 --FK 
---MiniBoss
+--MiniBosses
 
 
 --Bashful Boris (Beta) --CardIndex 234	--CharacterIndex 149	--ExploreCharacterIndex 149
@@ -11113,7 +11113,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (252, 2); --Armor
 --SDE
 --FK 
---MiniBoss (Addition)
+--MiniBosses (Addition)
 
 
 --Clan Earth Shrine Oni --CardIndex 738	--CharacterIndex 348	--ExploreCharacterIndex 253
