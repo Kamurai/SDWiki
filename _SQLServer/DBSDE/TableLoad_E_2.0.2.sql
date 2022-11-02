@@ -450,7 +450,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (791
 
 --SDE
 --2.0.2 
---MiniBoss
+--MiniBosses
 
 
 --Jolly Sparrow --CardIndex 2246	--CharacterIndex 1124	--ExploreCharacterIndex 792
@@ -459,7 +459,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Jolly_Sparrow_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/MiniBosses/Card_MiniBoss_Jolly_Sparrow_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/MiniBosses/Jolly_Sparrow.xhtml', 
-'Miniboss', '2.0', '2.0 Core Set', 'Explore',
+'MiniBoss', '2.0', '2.0 Core Set', 'Explore',
 'He''s not really the Jolly Sparrow.  He inherited the title from Jolly Sparrow, who was not the real Jolly Sparrow either.  The real Jolly Sparrow retired 15 years ago and is living like a king in Yuyang.');
 insert into Characters (CardIndex) VALUES (2246);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1124, 4); --Sapphire
@@ -477,7 +477,7 @@ insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (792
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (792, 1, 2); --Strength
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (792, 4, 6); --Dexterity
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (792, 2); --Armor
-insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (792, 'Miniboss', 'Super', 4);--SDE
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (792, 'MiniBoss', 'Super', 4);--SDE
 --2.0.2 
 --Bosses
 
@@ -812,8 +812,8 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (777, 1
 --Colo --CardIndex 2261 --EquipmentIndex 778
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 'Colo',
-'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Familiar_Colo_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Familiar_Colo_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Loot/Familiar/Card_Loot_Familiar_Colo_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Loot/Familiar/Card_Loot_Familiar_Colo_2.0_back.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Familiar/Colo.xhtml', 
 'Loot', '2.0', '2.0 Core Set', 'Default',
 'What are you laughing at fuzzball?');
@@ -853,8 +853,8 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (780, 1
 --Invulnerability Potion --CardIndex 2264 --EquipmentIndex 781
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 'Invulnerability Potion',
-'http://htkb.info/SDE/2.0/Cards/Loot/Specific/Card_Treasure_Invulnerability_Potion_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Loot/Specific/Card_Treasure_Invulnerability_Potion_2.0_back.png',
+'http://htkb.info/SDE/2.0/Cards/Loot/Specific/Card_Loot_Invulnerability_Potion_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Loot/Specific/Card_Loot_Invulnerability_Potion_2.0.png',
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Loot/Specific/Invulnerability_Potion.xhtml', 
 'Loot', '2.0', '2.0 Core Set', 'Default',
 '');

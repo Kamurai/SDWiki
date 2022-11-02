@@ -1,6 +1,6 @@
 --SDE
 --FK 
---MiniBoss
+--MiniBosses
 
 
 --Bashful Boris (Beta) --CardIndex 234	--CharacterIndex 149	--ExploreCharacterIndex 149

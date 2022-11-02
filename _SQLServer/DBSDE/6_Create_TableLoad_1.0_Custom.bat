@@ -80,7 +80,7 @@ type .\Backup_2.0.1\TableLoad_10_Heroes.sql >> TableLoad_C_2.0.1.sql
 type .\Backup_2.0.1\TableLoad_11_Pets.sql >> TableLoad_C_2.0.1.sql
 type .\Backup_2.0.1\TableLoad_12_Booty.sql >> TableLoad_C_2.0.1.sql
 type .\Backup_2.0.1\TableLoad_13_Creeps.sql >> TableLoad_C_2.0.1.sql
-type .\Backup_2.0.1\TableLoad_14_Minibosses.sql >> TableLoad_C_2.0.1.sql
+type .\Backup_2.0.1\TableLoad_14_MiniBosses.sql >> TableLoad_C_2.0.1.sql
 type .\Backup_2.0.1\TableLoad_15_Bosses.sql >> TableLoad_C_2.0.1.sql
 type .\Backup_2.0.1\TableLoad_16_Warbands.sql >> TableLoad_C_2.0.1.sql
 type .\Backup_2.0.1\TableLoad_22_Arcade_Booty.sql >> TableLoad_C_2.0.1.sql
@@ -113,7 +113,7 @@ type .\Backup_2.0.2\TableLoad_10_Heroes.sql >> TableLoad_E_2.0.2.sql
 type .\Backup_2.0.2\TableLoad_11_Pets.sql >> TableLoad_E_2.0.2.sql
 type .\Backup_2.0.2\TableLoad_12_Booty.sql >> TableLoad_E_2.0.2.sql
 type .\Backup_2.0.2\TableLoad_13_Creeps.sql >> TableLoad_E_2.0.2.sql
-type .\Backup_2.0.2\TableLoad_14_Minibosses.sql >> TableLoad_E_2.0.2.sql
+type .\Backup_2.0.2\TableLoad_14_MiniBosses.sql >> TableLoad_E_2.0.2.sql
 type .\Backup_2.0.2\TableLoad_15_Bosses.sql >> TableLoad_E_2.0.2.sql
 type .\Backup_2.0.2\TableLoad_16_Warbands.sql >> TableLoad_E_2.0.2.sql
 type .\Backup_2.0.2\TableLoad_22_Arcade_Booty.sql >> TableLoad_E_2.0.2.sql

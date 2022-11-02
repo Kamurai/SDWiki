@@ -1,6 +1,6 @@
 --SDE
 --FK 
---MiniBoss (Addition)
+--MiniBosses (Addition)
 
 
 --Clan Earth Shrine Oni --CardIndex 738	--CharacterIndex 348	--ExploreCharacterIndex 253

@@ -11,9 +11,24 @@
 /*Beat Up Some Ijin				--Index 1161*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Beat Up Some Ijin', 			'In any scenario which has Ibaraki-doji, deal the last wound to Ibaraki-doji and destroy it.<br></br>When this quest is accomplished, equip the Lucky Peach equipment card on the reverse side of this card. It may remain equipped for the entire campaign, unless you choose to discard it.');
 /*Eat All The Dumplings!		--Index 1162*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Eat All The Dumplings!', 		'At the end of Scenario 3: Food Fight or Scenario 4: Rescue Lily, have at least two dumpling tokens on Adzuki''s card.<br></br>When this quest is accomplished, equip the Obaa-San Dumpling equipment card on the reverse side of this card. It may remain equipped for the entire campaign, unless you choose to discard it.');
 /*Reckless						--Index 1163*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Explore', 'Reckless', 					'When a model with Reckless attacks, its target may score Criticals on their defending roll; if the enemy scores a Critical, this model suffers a wound.');
-/*Reckless						--Index 1164*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Arcade', 'Reckless', 						'When this model rolls 0 stars during an attack, it suffers a wound.');
+/*Reckless						--Index 1164*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Arcade', 	'Reckless', 					'When this model rolls 0 stars during an attack, it suffers a wound.');
 /*New Brew						--Index 1165*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'New Brew', 					'When a model with New Brew activates, roll 1R and apply one of the following effects depending on the roll:<br>0 Stars: +1MO<br>1 Star: +1R STR<br>2+ Stars: This model''s attacks gain BANE');
 /*Here Polly					--Index 1166*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Here Polly', 					'When a model with Here Polly spawns, spawn a Potion Parrot within 3 squares of it.');
 /*Greed							--Index 1167*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Arcade', 	'Greed', 						'When a model with Greed makes an attack, it gains +1ST for each Princess Coin the Heroes have used this game.');
-/*Shame!						--Index 1168*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Arcade', 'Shame!', 'After a model with Shame! is destroyed, the model that destroyed it suffers Push 6.');
+/*Shame!						--Index 1168*/ 	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Arcade', 	'Shame!', 						'After a model with Shame! is destroyed, the model that destroyed it suffers Push 6.');
+
+/*Headless Curse				--Index 1169*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Headless Curse', 				'She must lash out at a hero in her party once per activation. If she doesn’t discard a princess coin.');
+/*My Beautiful Skull			--Index 1170*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'My Beautiful Skull', 			'If she kills a friendly model from Headless Curse, search the loot deck for “My Beautiful Skull” and equip it, shuffling the deck afterwards.');
+
+/*One Rich Little Lich			--Index 1171*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'One Rich Little Lich', 		'TBD.');
+
+/*Enthralled					--Index 1172*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Enthralled', 					'TBD.');
+
+/*Pumpkin Patch					--Index 1173*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Explore', 'Pumpkin Patch', 				'TBD.');
+/*Pumpkin Patch					--Index 1174*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Arcade', 	'Pumpkin Patch', 				'TBD.');
+
+/*My Beautiful Skull Quest		--Index 1175*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'My Beautiful Skull Quest', 	'TBD.');
+
+/*Jingle Jingle					--Index 1176*/	insert into Keywords (KeywordVersion, PlayMode, Name, KeywordDescription) VALUES ('2.0', 'Default', 'Jingle Jingle', 				'After enemies spawn this Hero may move up to three squares.');
+
 
