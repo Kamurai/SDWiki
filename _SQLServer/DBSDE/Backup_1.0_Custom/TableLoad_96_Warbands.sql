@@ -7,8 +7,8 @@
 --Slime Stack --Card Index 2356	--CharacterIndex 1202 --ExploreCharacterIndex 863
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 'Slime Stack',
-'http://htkb.info/SDE/1.0/Custom/Cards/Warbands/Slimes/Card_Warband_Slime_Stack_1.0.png', 
-'http://htkb.info/SDE/1.0/Custom/Cards/Warbands/Slimes/Card_Warband_Slime_Stack_1.0_back.png', 
+'http://htkb.info/SDE/1.0/Custom/Cards/Warbands/Slimes/Card_Warband_Slime_Stack_1.0_Custom.png', 
+'http://htkb.info/SDE/1.0/Custom/Cards/Warbands/Slimes/Card_Warband_Slime_Stack_1.0_Custom_back.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Custom/Cards/Warbands/Slimes/Slime_Stack.xhtml', 
 'Warband', '1.0 Custom', '1.0 Custom Set', 'Explore',
 '');

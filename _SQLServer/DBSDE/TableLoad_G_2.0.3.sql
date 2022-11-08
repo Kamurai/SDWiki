@@ -169,7 +169,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (877, 2251
 --Black-Handed Henry	--CardIndex cXXX	--CharacterIndex chXXX	--ArcadeCharacterIndex aXXX
 --SDE
 --2.0.3 
---Warband Gangs
+--Arcade Warband Gangs
 
 
 --warband
