@@ -51,7 +51,7 @@ public class MonsterBean extends CardBean{
 //            this.monsterList  = SDEDAONavigation.pullNavigationForMonsters(this.monster.getVersion());
 //        }
         
-        if(this.monster.getCardType().compareTo("Warband") == 0){
+        if((this.monster.getCardType().compareTo("Warband") == 0) || (link.contains("Warband"))){
             result = "../Layout.xhtml";
         }
         

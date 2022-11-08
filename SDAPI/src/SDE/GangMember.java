@@ -277,10 +277,10 @@ public class GangMember implements KeywordInterface, AbilityInterface {
                 
         for(int x = 0; x < list.size(); x++){
             if(this.compareTo(list.get(x)) == 0){
-                result = false;
+                result = true;
                 break;
             }else{
-                result = true;
+                result = false;
             }
         }
                 

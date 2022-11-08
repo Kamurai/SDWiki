@@ -86,6 +86,9 @@
             </ui:fragment>
            
             <!-- Gang Members -->
+            <div>
+                Gang Size: #{SDEArcadeMonsterBean.getMonster().getGangMembers().size()}
+            </div>
             <ui:repeat var="x" value="#{SDEArcadeMonsterBean.getMonster().getGangMembers()}" size="#{SDEArcadeMonsterBean.getMonster().getGangMembers().size()}" varStatus="myVarStatus" >
                 <div>
                     #{x.getName()}
