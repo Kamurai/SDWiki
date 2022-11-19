@@ -1225,6 +1225,51 @@ public class SDEDAONavigation extends SDEDAO{
         return result;
     }
     
+    public static ArrayList<SDE.NavItem> pullNavigationForLootByPlayMode(String playMode){
+        CallableStatement stmt = null;
+        ResultSet rs;
+        ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
+        
+        try{
+            openConnection();
+            
+            stmt = getConnect().prepareCall("{call DBSDEPullNavigationLootByPlayMode(?)}");
+            stmt.setString(1, playMode);
+            rs = stmt.executeQuery();
+            
+            result = pullNavigationForCards(rs);
+        }catch(Exception e){
+            e.printStackTrace();
+        }finally{
+            closeConnection();
+        }
+        
+        return result;
+    }
+    
+    public static ArrayList<SDE.NavItem> pullNavigationForLoot(String version, String playMode){
+        CallableStatement stmt = null;
+        ResultSet rs;
+        ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
+        
+        try{
+            openConnection();
+            
+            stmt = getConnect().prepareCall("{call DBSDEPullNavigationLootByProductSetAndPlayMode(?,?)}");
+            stmt.setString(1, version);
+            stmt.setString(2, playMode);
+            rs = stmt.executeQuery();
+            
+            result = pullNavigationForCards(rs);
+        }catch(Exception e){
+            e.printStackTrace();
+        }finally{
+            closeConnection();
+        }
+        
+        return result;
+    }
+    
     //Pull Navigation for Treasure
     public static ArrayList<SDE.NavItem> pullNavigationForTreasure(){
         CallableStatement stmt = null;
@@ -1269,6 +1314,51 @@ public class SDEDAONavigation extends SDEDAO{
         return result;
     }
     
+    public static ArrayList<SDE.NavItem> pullNavigationForTreasureByPlayMode(String playMode){
+        CallableStatement stmt = null;
+        ResultSet rs;
+        ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
+        
+        try{
+            openConnection();
+            
+            stmt = getConnect().prepareCall("{call DBSDEPullNavigationTreasureByPlayMode(?)}");
+            stmt.setString(1, playMode);
+            rs = stmt.executeQuery();
+            
+            result = pullNavigationForCards(rs);
+        }catch(Exception e){
+            e.printStackTrace();
+        }finally{
+            closeConnection();
+        }
+        
+        return result;
+    }
+    
+    public static ArrayList<SDE.NavItem> pullNavigationForTreasure(String version, String playMode){
+        CallableStatement stmt = null;
+        ResultSet rs;
+        ArrayList<SDE.NavItem> result = new ArrayList<SDE.NavItem>();
+        
+        try{
+            openConnection();
+            
+            stmt = getConnect().prepareCall("{call DBSDEPullNavigationTreasureByProductSetAndPlayMode(?,?)}");
+            stmt.setString(1, version);
+            stmt.setString(2, playMode);
+            rs = stmt.executeQuery();
+            
+            result = pullNavigationForCards(rs);
+        }catch(Exception e){
+            e.printStackTrace();
+        }finally{
+            closeConnection();
+        }
+        
+        return result;
+    }
+    
     //Pull Navigation for Relic
     public static ArrayList<SDE.NavItem> pullNavigationForRelics(){
         CallableStatement stmt = null;
@@ -1278,7 +1368,7 @@ public class SDEDAONavigation extends SDEDAO{
         try{
             openConnection();
             
-            stmt = getConnect().prepareCall("{call DBSDEPullNavigationRelic}");
+            stmt = getConnect().prepareCall("{call DBSDEPullNavigationRelics}");
             rs = stmt.executeQuery();
             
             result = pullNavigationForCards(rs);

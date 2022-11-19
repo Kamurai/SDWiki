@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:c="http://java.sun.com/jsp/jstl/core"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets">
+    <h:head />
+    <h:body>
+         <title>
+            #{SDEEquipmentBean.getEquipment().getName()} #{SDEEquipmentBean.getEquipment().getVersion()}
+        </title>
+        <h2>
+            #{SDEEquipmentBean.getEquipment().getName()} #{SDEEquipmentBean.getEquipment().getVersion()}
+        </h2>
+        <div id="idCenterContent">
+            <div>
+                <div class="cardPictureContainer">
+                    <!-- Front of Card -->
+                    <img class="cardPicture" src="#{SDEEquipmentBean.getEquipment().getPictureFront()}"/>
+                </div>
+                <div class="cardPictureContainer">
+                    <!-- Back of Card -->
+                    <img class="cardPicture" src="#{SDEEquipmentBean.getEquipment().getPictureBack()}"/>
+                </div>
+            </div>
+            
+            <!-- replace with table -->
+            <div>
+                <div>
+                    <div class="">
+                        Version: #{SDEEquipmentBean.getEquipment().getVersion()}
+                    </div>
+                    <div class="">
+                        Product Module: #{SDEEquipmentBean.getEquipment().getModule()}
+                    </div>
+                    
+                </div>
+                <div>
+                    <div class="">
+                        Card Type: #{SDEEquipmentBean.getEquipment().getCardType()}
+                    </div>
+                    <div class="">
+                        Equipment Type: #{SDEEquipmentBean.getEquipment().getEquipmentType()}
+                    </div>
+                    <div class="">
+                        Position: #{SDEEquipmentBean.getEquipment().getPosition()}
+                    </div>
+                </div>
+            </div>
+            
+            <div>
+                Effect: #{SDEEquipmentBean.getEquipment().getEffect()}
+            </div>
+            <br/>
+            
+            <!-- List of Keywords -->
+            <ui:fragment rendered="#{SDEExploreCharacterBean.getExploreCharacter().validateKeywordList()}">
+                <div>Keywords:</div>
+                <ui:repeat var="x" value="#{SDEEquipmentBean.getEquipment().getKeywords()}" size="#{SDEEquipmentBean.getEquipment().getKeywords().size()}" varStatus="myVarStatus" >
+                    <ui:fragment rendered="#{x.validateKeyword()}">
+                        <ui:include src="/Content/Keyword.xhtml">
+                            <ui:param name="keyword" value="x"/>
+                        </ui:include>
+                    </ui:fragment>
+                </ui:repeat>
+                <br/>
+            </ui:fragment>
+            
+            <!-- List of Abilities -->
+            <ui:fragment rendered="#{SDEExploreCharacterBean.getExploreCharacter().validateAbilityList()}">
+                <div>Abilities:</div>
+                <ui:repeat var="y" value="#{SDEEquipmentBean.getEquipment().getAbilities()}" size="#{SDEEquipmentBean.getEquipment().getAbilities().size()}" varStatus="myVarStatus" >
+                    <ui:fragment rendered="#{y.validateAbility()}">
+                        <ui:include src="/Content/Ability.xhtml">
+                            <ui:param name="ability" value="x"/>
+                        </ui:include>
+                    </ui:fragment>
+                </ui:repeat>
+                <br/>
+            </ui:fragment>
+            <ui:fragment rendered="#{ SDEEquipmentBean.getEquipment().validateFlavor() }">
+                <div>
+                    Flavor Text: #{SDEEquipmentBean.getEquipment().getFlavor()}
+                </div>
+            </ui:fragment>
+            <ui:fragment rendered="#{SDEEquipmentBean.getEquipment().isCustom()}">
+                <div>
+                    Author: #{SDEEquipmentBean.getEquipment().getAuthor()}
+                </div>
+                <div>
+                    Source: #{SDEEquipmentBean.getEquipment().getSourceURL()}
+                </div>
+            </ui:fragment>
+        </div>
+    </h:body>
+</html>
+

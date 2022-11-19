@@ -39,10 +39,10 @@ public class Validator {
         boolean result = false;
         
         if(validateVersion(input)){
-            if(limit.equals("1.0")){
-                if(input.equals("All")){
-                    result = true;
-                } else if(input.equals("1.0")){
+            if(input.equals("All")){
+                result = true;
+            }else if(limit.equals("1.0")){
+                if(input.equals("1.0")){
                     result = true;
                 } else if(input.equals("1.0 Custom")){
                     result = true;
@@ -97,7 +97,9 @@ public class Validator {
         boolean result = false;
         
         if(validateVersion(input)){
-            if(limit.equals("1.0")){
+            if(input.equals("All")){
+                result = true;
+            } else if(limit.equals("1.0")){
                 if(input.equals("1.0")){
                     result = true;
                 } else if(input.equals("1.0 Custom")){
@@ -118,9 +120,7 @@ public class Validator {
                     result = false;
                 }
             } else if(limit.equals("2.0")){
-                if(input.equals("All")){
-                    result = true;
-                } else if(input.equals("1.0")){
+                if(input.equals("1.0")){
                     result = true;
                 } else if(input.equals("1.0 Custom")){
                     result = true;

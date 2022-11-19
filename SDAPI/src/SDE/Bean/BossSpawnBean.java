@@ -15,7 +15,8 @@ import Database.SDE.*;
 public class BossSpawnBean extends CardBean{
     private BossSpawn bossSpawn;
     private List<SDE.NavItem> bossSpawnList;
-   
+    private String layout = "/SDE/Cards/Layouts/Boss_Spawn.xhtml";
+    
     public BossSpawnBean(){
         super();
         this.uni        = new Universal();
@@ -34,21 +35,21 @@ public class BossSpawnBean extends CardBean{
         if(path.compareTo("") != 0){
             this.bossSpawn  = SDEDAOOne.pullOneBossSpawnCard(path);
         }
-        this.bossSpawnList  = SDEDAONavigation.pullNavigationForBossSpawns();
+//        this.bossSpawnList  = SDEDAONavigation.pullNavigationForBossSpawns();
         
-        return "./Layout.xhtml";
+        return layout;
     }
 
-    public String setDisplayPage(String link, String version){
-        String path = uni.getAppPath()+link;
-        
-        if(path.compareTo("") != 0){
-            this.bossSpawn   = SDEDAOOne.pullOneBossSpawnCard(path);
-        }
-//        this.bossSpawnList  = SDEDAONavigation.pullNavigationForBossSpawns(version);
-        
-        return "./Layout.xhtml";
-    }
+//    public String setDisplayPage(String link, String version){
+//        String path = uni.getAppPath()+link;
+//        
+//        if(path.compareTo("") != 0){
+//            this.bossSpawn   = SDEDAOOne.pullOneBossSpawnCard(path, version);
+//        }
+////        this.bossSpawnList  = SDEDAONavigation.pullNavigationForBossSpawns(version);
+//        
+//        return layout;
+//    }
 
     public List<SDE.NavItem> getBossSpawnList() {
         return bossSpawnList;

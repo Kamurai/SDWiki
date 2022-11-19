@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:c="http://java.sun.com/jsp/jstl/core"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets">
+    <h:head />
+    <h:body>
+         <title>
+            #{SDEBossSpawnBean.getBossSpawn().getName()} #{SDEBossSpawnBean.getBossSpawn().getVersion()}
+        </title>
+        <h2>
+            #{SDEBossSpawnBean.getBossSpawn().getName()} #{SDEBossSpawnBean.getBossSpawn().getVersion()}
+        </h2>
+        <div id="idCenterContent">
+            <div>
+                <div class="cardPictureContainer">
+                    <!-- Front of Card -->
+                    <img class="cardPicture" src="#{SDEBossSpawnBean.getBossSpawn().getPictureFront()}"/>
+                </div>
+                <div class="cardPictureContainer">
+                    <!-- Back of Card -->
+                    <img class="cardPicture" src="#{SDEBossSpawnBean.getBossSpawn().getPictureBack()}"/>
+                </div>
+            </div>
+            
+            <!-- replace with table -->
+            <div>
+                <div>
+                    <div class="inline">
+                        Card Type: #{SDEBossSpawnBean.getBossSpawn().getCardType()}
+                    </div>
+                    <div class="inline">
+                        Version: #{SDEBossSpawnBean.getBossSpawn().getVersion()}
+                    </div>
+                </div>
+                <div>
+                    <div class="inline">
+                        Product Module: #{SDEBossSpawnBean.getBossSpawn().getModule()}
+                    </div>
+                </div>
+            </div>
+            <div>
+                Dungeon Effects:
+                <div>
+                    #{SDEBossSpawnBean.getBossSpawn().getDungeonEffect()}
+                </div>
+            </div>
+            <div>
+                Boss Fight Effects:
+                <div>
+                    #{SDEBossSpawnBean.getBossSpawn().getBossSpawnEffect()}
+                </div>
+            </div>
+            <div>
+                Timeout Effect:
+                <div>
+                    #{SDEBossSpawnBean.getBossSpawn().getTimeoutEffect()}
+                </div>
+            </div>
+            <ui:fragment rendered="#{SDEBossSpawnBean.getBossSpawn().validateCharacterList()}">
+                Related Character(s):<br/>
+                <ui:repeat var="x" value="#{SDEBossSpawnBean.getCharacterList()}" size="#{SDEBossSpawnBean.getCharacterList().size()}" varStatus="myVarStatus" >
+                    <div class="relatedCharacterBlock">
+                        <a href="#{x.getLink()}">
+                            <div>
+                                <img class="galleryPicture" src="#{x.getPicture()}"/>
+                            </div>
+                            #{x.getName()}
+                        </a>
+                    </div>
+                </ui:repeat>
+            </ui:fragment>
+            <div>
+                Summon List: TBD
+            </div>
+            <c:if test="#{ SDEBossSpawnBean.getBossSpawn().validateFlavor() }">
+                <div>
+                    Flavor Text: #{SDEBossSpawnBean.getBossSpawn().getFlavor()}
+                </div>
+            </c:if>
+            <ui:fragment rendered="#{SDEMonsterBean.getMonster().isCustom()}">
+                <div>
+                    Author: #{SDEMonsterBean.getMonster().getAuthor()}
+                </div>
+                <div>
+                    Source: #{SDEMonsterBean.getMonster().getSourceURL()}
+                </div>
+            </ui:fragment>
+        </div>
+    </h:body>
+</html>
+

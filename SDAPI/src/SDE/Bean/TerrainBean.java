@@ -15,6 +15,7 @@ import Database.SDE.*;
 public class TerrainBean extends CardBean{
     private TerrainCard terrainCard;
     private List<SDE.NavItem> terrainCardList;
+    private String layout = "/SDE/Cards/Layouts/Terrain_Card.xhtml";
     
     public TerrainBean(){
         super();
@@ -35,10 +36,21 @@ public class TerrainBean extends CardBean{
         if(path.compareTo("") != 0){
             this.terrainCard  = SDEDAOOne.pullOneTerrainCard(path);
         }
-        this.terrainCardList  = SDEDAONavigation.pullNavigationForTerrainCards(terrainCard.getVersion());
+//        this.terrainCardList  = SDEDAONavigation.pullNavigationForTerrainCards(terrainCard.getVersion());
         
-        return "./Layout.xhtml";
+        return layout;
     }
+
+//    public String setDisplayPage(String link, String version){
+//        String path = uni.getAppPath()+link;
+//        
+//        if(path.compareTo("") != 0){
+//            this.terrainCard   = SDEDAOOne.pullOneTerrainCard(path, version);
+//        }
+////        this.bossSpawnList  = SDEDAONavigation.pullNavigationForBossSpawns(version);
+//        
+//        return layout;
+//    }
 
     public List<SDE.NavItem> getTerrainCardList() {
         return terrainCardList;

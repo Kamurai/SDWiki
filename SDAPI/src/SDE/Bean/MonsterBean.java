@@ -15,7 +15,8 @@ import Database.SDE.*;
 public class MonsterBean extends CardBean{
     private Monster monster;
     private List<SDE.NavItem> monsterList;
-   
+    private String layout = "/SDE/Cards/Layouts/Monster.xhtml";
+    
     public MonsterBean(){
         super();
         this.uni            = new Universal();
@@ -51,11 +52,22 @@ public class MonsterBean extends CardBean{
 //            this.monsterList  = SDEDAONavigation.pullNavigationForMonsters(this.monster.getVersion());
 //        }
         
-        if((this.monster.getCardType().compareTo("Warband") == 0) || (link.contains("Warband"))){
-            result = "../Layout.xhtml";
-        }
+//        if((this.monster.getCardType().compareTo("Warband") == 0) || (link.contains("Warband"))){
+//            result = "../Layout.xhtml";
+//        }
         
-        return result;
+        return layout;
+    }
+
+    public String setDisplayPage(String link, String version){
+        String path = uni.getAppPath()+link;
+        
+        if(path.compareTo("") != 0){
+            this.monster   = SDEDAOOne.pullOneMonster(path);
+        }
+//        this.monsterList  = SDEDAONavigation.pullNavigationForMonsters(version);
+        
+        return layout;
     }
 
     public List<SDE.NavItem> getMonsterList() {

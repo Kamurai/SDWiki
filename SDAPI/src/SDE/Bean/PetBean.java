@@ -16,6 +16,8 @@ public class PetBean extends CardBean{
     private Pet pet;
     private List<SDE.NavItem> petList;
     
+    private String layout = "/SDE/Cards/Layouts/Pet.xhtml";
+    
     public PetBean(){
         super();
         this.uni                = new Universal();
@@ -37,7 +39,7 @@ public class PetBean extends CardBean{
         }
         this.petList  = SDEDAONavigation.pullNavigationForHeroes();
         
-        return "./Layout.xhtml";
+        return layout;
     }
 
     public String setDisplayPage(String link, String version){
@@ -48,7 +50,7 @@ public class PetBean extends CardBean{
         }
         this.petList  = SDEDAONavigation.pullNavigationForHeroesByProductSet(version);
         
-        return "./Layout.xhtml";
+        return layout;
     }
 
     public List<SDE.NavItem> getExploreCharacterList() {

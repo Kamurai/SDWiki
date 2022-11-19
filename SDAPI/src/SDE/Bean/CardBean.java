@@ -16,6 +16,7 @@ public class CardBean extends SDE.Bean.Bean{
     private String title;
     private String header;
     private List<NavItem> cardList;
+    private String layout = "/SDE/Cards/Layouts/CardList.xhtml";
     
     public CardBean(){
         super();
@@ -120,7 +121,7 @@ public class CardBean extends SDE.Bean.Bean{
             this.cardList   = SDEDAONavigation.pullNavigationForHeroes();
         }
         
-        return "./Layout.xhtml";
+        return layout;
     }
     
     public String setDisplayPage(String type, String version){
@@ -156,11 +157,27 @@ public class CardBean extends SDE.Bean.Bean{
         }else if(type.compareTo("Loot") == 0){
             this.title      = "Loot";
             this.header     = "Loot";
-            this.cardList   = SDEDAONavigation.pullNavigationForLoot(version);
+            
+            if(version.compareTo("All") == 0){
+                this.cardList   = SDEDAONavigation.pullNavigationForLoot();
+            }else if(Validator.validateVersion(version)){
+                this.cardList   = SDEDAONavigation.pullNavigationForLoot(version);
+            }else{
+                this.cardList   = SDEDAONavigation.pullNavigationForLoot();
+            }
+            
         }else if(type.compareTo("Treasure") == 0){
             this.title      = "Treasure";
             this.header     = "Treasure";
-            this.cardList   = SDEDAONavigation.pullNavigationForTreasure(version);
+            
+            if(version.compareTo("All") == 0){
+                this.cardList   = SDEDAONavigation.pullNavigationForTreasure();
+            }else if(Validator.validateVersion(version)){
+                this.cardList   = SDEDAONavigation.pullNavigationForTreasure(version);
+            }else{
+                this.cardList   = SDEDAONavigation.pullNavigationForTreasure();
+            }
+            
         }else if(type.compareTo("Relics") == 0){
             this.title      = "Relics";
             this.header     = "Relics";
@@ -207,7 +224,7 @@ public class CardBean extends SDE.Bean.Bean{
             this.cardList   = SDEDAONavigation.pullNavigationForHeroes();
         }
         
-        return "./Layout.xhtml";
+        return layout;
     }
     
     public String setDisplayPage(String type, String version, String playMode){
@@ -289,19 +306,36 @@ public class CardBean extends SDE.Bean.Bean{
         }else if(type.compareTo("Loot") == 0){
             this.title      = "Loot";
             this.header     = "Loot";
-            if(Validator.validateVersion(version)){
+            if(Validator.includeUpToVersion(version, "FK")){
+                this.cardList   = SDEDAONavigation.pullNavigationForLoot(version);
+            }else if(version.compareTo("2.0") == 0){
+                this.cardList   = SDEDAONavigation.pullNavigationForLoot(version, playMode);
+            }else if(version.compareTo("2.0 DI") == 0){
                 this.cardList   = SDEDAONavigation.pullNavigationForLoot(version);
             }else{
                 this.cardList   = SDEDAONavigation.pullNavigationForLoot();
-            }            
+            }
         }else if(type.compareTo("Treasure") == 0){
             this.title      = "Treasure";
             this.header     = "Treasure";
-            if(Validator.validateVersion(version)){
+            if(version.compareTo("All") == 0){
+                this.cardList   = SDEDAONavigation.pullNavigationForTreasureByPlayMode(playMode);
+            }else if(Validator.includeUpToVersion(version, "1.0")){
+                this.cardList   = SDEDAONavigation.pullNavigationForTreasure(version);
+            }else if(version.compareTo("FK") == 0){
+                this.cardList   = SDEDAONavigation.pullNavigationForTreasure(version, playMode);
+            }else if(version.compareTo("2.0") == 0){
+                this.cardList   = SDEDAONavigation.pullNavigationForTreasure(version, playMode);
+            }else if(version.compareTo("2.0 DI") == 0){
                 this.cardList   = SDEDAONavigation.pullNavigationForTreasure(version);
             }else{
                 this.cardList   = SDEDAONavigation.pullNavigationForTreasure();
-            }            
+            }
+//            if(Validator.validateVersion(version)){
+//                this.cardList   = SDEDAONavigation.pullNavigationForTreasure(version);
+//            }else{
+//                this.cardList   = SDEDAONavigation.pullNavigationForTreasure();
+//            }            
         }else if(type.compareTo("Relics") == 0){
             this.title      = "Relics";
             this.header     = "Relics";
@@ -384,6 +418,6 @@ public class CardBean extends SDE.Bean.Bean{
             }
         }
         
-        return "./Layout.xhtml";
+        return layout;
     }
 }
