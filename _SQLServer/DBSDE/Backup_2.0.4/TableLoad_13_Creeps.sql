@@ -3,7 +3,6 @@
 --Creeps
 
 
---name --CardIndex cXXX	--CharacterIndex chXXX	--ExploreCharacterIndex eXXX
 
 
 

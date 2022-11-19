@@ -1,6 +1,6 @@
 --drop view EquipmentView
 --Equipment
-create view EquipmentView as 
+CREATE OR ALTER VIEW EquipmentView as 
 select a.CardIndex, b.EquipmentIndex,
 a.Name as CardName, a.PictureFront, a.PictureBack, a.Link, a.CardType, a.ProductSet, a.ProductModule, a.PlayMode, a.Flavor, --Cards
 b.EquipmentType, b.Position, b.Effect, --Equipment
@@ -19,5 +19,8 @@ full join Abilities g on g.AbilityIndex=f.AbilityIndex
 full join Attributes h on g.AttributeIndex=h.AttributeIndex
 full join Characters i on i.CharacterIndex=c.CharacterIndex
 full join Cards j on j.CardIndex=i.CardIndex
-where a.CardType = 'Loot' or a.CardType = 'Treasure' or a.CardType = 'Relic'
+where a.CardType = 'Loot' --or a.CardType = 'Character Loot' or a.CardType = 'Lock Loot' or a.CardType = 'Familiar' or a.CardType = 'Character Familiar'
+or a.CardType = 'Treasure' --or a.CardType = 'Character Treasure'
+or a.CardType = 'Relic' --or a.CardType = 'Character Relic'
+or a.CardType = 'Prayer Slip'
 ;

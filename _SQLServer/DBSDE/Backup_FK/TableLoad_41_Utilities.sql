@@ -14,7 +14,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 VALUES ('Classic Might Monster Chart',
 'http://htkb.info/SDE/FK/Cards/Utility/Card_Utility_Classic_Mode_Mighty_Monster_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Utility/Card_Utility_Classic_Mode_Mighty_Monster_FK.png', 
-'http://htkb.online/SDWiki/SDE/FK/Cards/Utility_Cards/Classic_Mighty_Monster_Chart.xhtml', 
+'http://htkb.online/SDWiki/SDE/FK/Explore/Cards/Utility_Cards/Classic_Mighty_Monster_Chart.xhtml', 
 'Utility', 'FK', 'FK Core Set', 'Explore', '');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (663, '');
 
@@ -38,7 +38,7 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 VALUES ('Arcade Might Monster Chart',
 'http://htkb.info/SDE/FK/Cards/Arcade/Utility/Card_Utility_Arcade_Mode_Mighty_Monster_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Utility/Card_Utility_Arcade_Mode_Mighty_Monster_FK.png', 
-'http://htkb.online/SDWiki/SDE/FK/Cards/Utility_Cards/Arcade_Mighty_Monster_Chart.xhtml', 
+'http://htkb.online/SDWiki/SDE/FK/Arcade/Cards/Utility_Cards/Arcade_Mighty_Monster_Chart.xhtml', 
 'Utility', 'FK', 'FK Core Set', 'Arcade', '');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (665, '');
 
@@ -47,6 +47,6 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 VALUES ('Arcade Wrath Chart',
 'http://htkb.info/SDE/FK/Cards/Arcade/Utility/Card_Utility_Arcade_Mode_Wrath_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Utility/Card_Utility_Arcade_Mode_Wrath_FK.png', 
-'http://htkb.online/SDWiki/SDE/FK/Cards/Utility_Cards/Arcade_Wrath_Chart.xhtml', 
+'http://htkb.online/SDWiki/SDE/FK/Arcade/Cards/Utility_Cards/Arcade_Wrath_Chart.xhtml', 
 'Utility', 'FK', 'FK Core Set', 'Arcade', '');
 insert into Utilities (CardIndex, UtilityDescription) VALUES (666, '');

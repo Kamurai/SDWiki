@@ -206,6 +206,8 @@ type .\Backup_2.0.4\TableLoad_51_Pets.sql >> TableLoad_I_2.0.4.sql
 type .\Backup_2.0.4\TableLoad_54_MiniBosses.sql >> TableLoad_I_2.0.4.sql
 type .\Backup_2.0.4\TableLoad_64_Arcade_MiniBosses.sql >> TableLoad_I_2.0.4.sql
 type .\Backup_2.0.4\TableLoad_71_Equipment.sql >> TableLoad_I_2.0.4.sql
+type .\Backup_2.0.4\TableLoad_93_Creeps.sql >> TableLoad_I_2.0.4.sql
+type .\Backup_2.0.4\TableLoad_103_Arcade_Creeps.sql >> TableLoad_I_2.0.4.sql
 
 
 type _Tables.sql >> TableLoad_Main.sql

@@ -406,15 +406,15 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Loose Cannon',
 'http://htkb.info/SDE/2.0/Cards/Creeps/Card_Creep_Loose_Cannon_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Creeps/Card_Creep_Loose_Cannon_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Creeps/Loose_Cannon.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Creeps/Loose_Cannon.xhtml', 
 'Creep', '2.0', '2.0 Core Set', 'Default', 
 '');
 insert into Characters (CardIndex) VALUES (2244);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1122, 4); --Sapphire
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (1122,
-'http://htkb.info/SDE/2.0/Cards/Standies/Loose_Cannon_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Standies/Loose_Cannon_2.0_back.png',
+'http://htkb.info/SDE/Standies/Loose_Cannon.png', 
+'http://htkb.info/SDE/Standies/Loose_Cannon_back.png',
 'Neither', 'Small', 'Cannon', 3, 1, '1B', '3ST', '0ST', '2R', 1, 0);
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (790, 2074); --Plugged Barrel
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (790, 4, 10); --Dexterity
@@ -426,15 +426,15 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Potion Parrot',
 'http://htkb.info/SDE/2.0/Cards/Creeps/Card_Creep_Potion_Parrot_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Creeps/Card_Creep_Potion_Parrot_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Creeps/Potion_Parrot.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Creeps/Potion_Parrot.xhtml', 
 'Creep', '2.0', '2.0 Core Set', 'Default', 
 '');
 insert into Characters (CardIndex) VALUES (2245);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1123, 4); --Sapphire
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (1123,
-'http://htkb.info/SDE/2.0/Cards/Standies/Potion_Parrot_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Standies/Potion_Parrot_2.0_back.png',
+'http://htkb.info/SDE/Standies/Polly.png', 
+'http://htkb.info/SDE/Standies/Polly_back.png',
 'Either', 'Small', 'Parrot', 10, 2, '1B', '3ST', '1B', '3R', 2, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (791, 596); --Fly
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (791, 471); --Bonded Creep: Black-Handed Henry
@@ -609,7 +609,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (797
 --Arcade Creeps
 
 
---Kabomb 	--CardIndex 2252	--CharacterIndex 1130	--ArcadeCharacterIndex 798
+--Kabomb 	--CardIndex 2252	--CharacterIndex 1130	--ArcadeCharacterIndex 332
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 'Kabomb',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Creeps/Card_Arcade_Creep_Kabomb_2.0.png', 
@@ -623,18 +623,18 @@ VALUES (1130, 241, 362);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1130, 3); --Ruby
 --GangMemberIndex 868
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (798, 0, 'Kabomb', 'Construct', 'Creep', 7, 1, 1, 496);
+VALUES (332, 0, 'Kabomb', 'Construct', 'Creep', 7, 1, 1, 496);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (868, 1105); --Bouncing Betty
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (868, 692); --Insignificant
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (868, 1115); --Volatile
 
---Loose Cannon	--CardIndex 2253	--CharacterIndex 1131	--ArcadeCharacterIndex 799
+--Loose Cannon	--CardIndex 2253	--CharacterIndex 1131	--ArcadeCharacterIndex 333
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 'Loose Cannon',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Creeps/Card_Arcade_Creep_Loose_Cannon_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Creeps/Card_Arcade_Creep_Loose_Cannon_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Creeps/Loose_Cannon.xhtml', 
-'Creep', '2.0', '2.0 Core Set', 'Default', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Creeps/Loose_Cannon.xhtml', 
+'Creep', '2.0', '2.0 Core Set', 'Arcade', 
 'While Henry''s inventive mind excels at potions, he also has a knack for artifice.  Not surprisingly this knack is often applied to the art of potion making, storing, shaking, and, as in the case of the Loose Cannon -- delivery.  Specifically, the delivery of highly explosive and volatile potion filled munitions.');
 insert into Characters (CardIndex) VALUES (2253);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
@@ -642,16 +642,16 @@ VALUES (1131, 170, -1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1131, 4); --Sapphire
 --GangMemberIndex 869
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (799, 0, 'Loose Cannon', 'Cannon', 'Creep', 3, 1, 3, 790);
+VALUES (333, 0, 'Loose Cannon', 'Cannon', 'Creep', 3, 1, 3, 790);
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (869, 2246); --Plugged Barrel
 
---Potion Parrot	--CardIndex 2254	--CharacterIndex 1132	--ArcadeCharacterIndex 800
+--Potion Parrot	--CardIndex 2254	--CharacterIndex 1132	--ArcadeCharacterIndex 334
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 'Potion Parrot',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Creeps/Card_Arcade_Creep_Potion_Parrot_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Creeps/Card_Arcade_Creep_Potion_Parrot_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Arcade/Creeps/Potion_Parrot.xhtml', 
-'Creep', '2.0', '2.0 Core Set', 'Default', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Creeps/Potion_Parrot.xhtml', 
+'Creep', '2.0', '2.0 Core Set', 'Arcade', 
 'No.  I do not want a cracker, thank you very much.  And I speak perfectly fine.  In fact, I dare say, my time at the Royal Academy makes my grasp of language far better than yours.');
 insert into Characters (CardIndex) VALUES (2254);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
@@ -659,7 +659,7 @@ VALUES (1132, 151, -1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1132, 4); --Sapphire
 --GangMemberIndex 870
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (800, 0, 'Potion Parrot', 'Parrot', 'Creep', 10, 2, 3, 791);
+VALUES (334, 0, 'Potion Parrot', 'Parrot', 'Creep', 10, 2, 3, 791);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (870, 453); --Bane
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (870, 2247); --Polly Wants a Potion
 
@@ -799,9 +799,9 @@ insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (32, 11
 --Cannon Ball --CardIndex 2260 --EquipmentIndex 777
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 'Cannon Ball',
-'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Cannon_Ball_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Cannon_Ball_2.0_back.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Cannon_Ball.xhtml', 
+'http://htkb.info/SDE/2.0/Cards/Treasure/Character/Card_Treasure_Cannon_Ball_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Treasure/Character/Card_Treasure_Cannon_Ball_2.0_back.png',
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Character/Cannon_Ball.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2260, 'Character Treasure', 'Right', '+1G DEX');
@@ -814,8 +814,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Colo',
 'http://htkb.info/SDE/2.0/Cards/Loot/Familiar/Card_Loot_Familiar_Colo_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Loot/Familiar/Card_Loot_Familiar_Colo_2.0_back.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Familiar/Colo.xhtml', 
-'Loot', '2.0', '2.0 Core Set', 'Default',
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Loot/Familiar/Colo.xhtml', 
+'Character Familiar', '2.0', '2.0 Core Set', 'Default',
 'What are you laughing at fuzzball?');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2261, 'Character Loot', 'Top', '');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (778, 1109); --Familiar
@@ -827,9 +827,9 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (778, 1
 --Cutlass --CardIndex 2262 --EquipmentIndex 779
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 'Cutlass',
-'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Cutlass_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Cutlass_2.0_back.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Cutlass.xhtml', 
+'http://htkb.info/SDE/2.0/Cards/Treasure/Character/Card_Treasure_Cutlass_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Treasure/Character/Card_Treasure_Cutlass_2.0_back.png',
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Character/Cutlass.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2262, 'Character Treasure', 'Bottom', '+1G STR');
@@ -840,9 +840,9 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (779, 1
 --Eye Patch --CardIndex 2263 --EquipmentIndex 780
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 'Eye Patch',
-'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Eye_Patch_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Eye_Patch_2.0_back.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Eye_Patch.xhtml', 
+'http://htkb.info/SDE/2.0/Cards/Treasure/Character/Card_Treasure_Eye_Patch_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Treasure/Character/Card_Treasure_Eye_Patch_2.0_back.png',
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Character/Eye_Patch.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'It''s terribly comfortable.  Everyone will be wearing them in the futrure.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2263, 'Character Treasure', 'Bottom', '+1R WILL');
@@ -853,9 +853,9 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (780, 1
 --Invulnerability Potion --CardIndex 2264 --EquipmentIndex 781
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 'Invulnerability Potion',
-'http://htkb.info/SDE/2.0/Cards/Loot/Specific/Card_Loot_Invulnerability_Potion_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Loot/Specific/Card_Loot_Invulnerability_Potion_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Loot/Specific/Invulnerability_Potion.xhtml', 
+'http://htkb.info/SDE/2.0/Cards/Loot/Character/Card_Loot_Invulnerability_Potion_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Loot/Character/Card_Loot_Invulnerability_Potion_2.0.png',
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Loot/Character/Invulnerability_Potion.xhtml', 
 'Loot', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2264, 'Character Loot', '', '');
@@ -865,9 +865,9 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (781, 1
 --Magic Compass --CardIndex 2265 --EquipmentIndex 782
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 'Magic Compass',
-'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Magic_Compass_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Magic_Compass_2.0_back.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Magic_Compass.xhtml', 
+'http://htkb.info/SDE/2.0/Cards/Treasure/Character/Card_Treasure_Magic_Compass_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Treasure/Character/Card_Treasure_Magic_Compass_2.0_back.png',
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Character/Magic_Compass.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Bring me that horizon.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2265, 'Character Treasure', 'Top', '+1G WILL');
@@ -878,9 +878,9 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (782, 1
 --Peg Leg --CardIndex 2266 --EquipmentIndex 783
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 'Peg Leg',
-'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Peg_Leg_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Peg_Leg_2.0_back.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Peg_Leg.xhtml', 
+'http://htkb.info/SDE/2.0/Cards/Treasure/Character/Card_Treasure_Peg_Leg_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Treasure/Character/Card_Treasure_Peg_Leg_2.0_back.png',
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Character/Peg_Leg.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Watch for Woodworm.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2266, 'Character Treasure', 'Left', '-1MO +1R ARM');
@@ -891,9 +891,9 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (783, 1
 --Pirate Hat --CardIndex 2267 --EquipmentIndex 784
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 'Pirate Hat',
-'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Pirate_Hat_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Pirate_Hat_2.0_back.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Pirate_Hat.xhtml', 
+'http://htkb.info/SDE/2.0/Cards/Treasure/Character/Card_Treasure_Pirate_Hat_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Treasure/Character/Card_Treasure_Pirate_Hat_2.0_back.png',
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Character/Pirate_Hat.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Cock your hat - angles are attitudes.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2267, 'Character Treasure', 'Top', '+1R ARM');
@@ -903,9 +903,9 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (784, 1
 --Treasure Map --CardIndex 2268 --EquipmentIndex 785
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 'Treasure Map',
-'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Treasure_Map_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Treasure_Map_2.0_back.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Treasure_Map.xhtml', 
+'http://htkb.info/SDE/2.0/Cards/Treasure/Character/Card_Treasure_Treasure_Map_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Treasure/Character/Card_Treasure_Treasure_Map_2.0_back.png',
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Character/Treasure_Map.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Genuine and bona-fied.  Mr. Bimbo told me so.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2268, 'Character Treasure', 'Top', '+2MO +1 DEX');

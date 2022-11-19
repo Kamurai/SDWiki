@@ -26,7 +26,6 @@
 --Creeps
 
 
---name --CardIndex cXXX	--CharacterIndex chXXX	--ExploreCharacterIndex eXXX
 
 
 
@@ -62,8 +61,6 @@
 --2.0.4 
 --Arcade Creeps
 
-
---name 	--CardIndex cXXX	--CharacterIndex chXXX	--ArcadeCharacterIndex aXXX
 --SDE
 --2.0.4 
 --MiniBosses
@@ -97,9 +94,9 @@
 --Fire Breath Potion --CardIndex 2362 --EquipmentIndex 787
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 'Fire Breath Potion',
-'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Fire_Breath_Potion_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Relics/Character/Card_Relic_Fire_Breath_Potion_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Relics/Fire_Breath_Potion.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Relics/Character/Fire_Breath_Potion.xhtml', 
 'Relic', '2.0', '2.0 Core Set', 'Default',
 'This elixir, consumed with ample amount of rum, allows the imbiber to shoot forth gouts of flame at their enemies, bathing them in an unholy inferno.'); 
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2362, 'Character Relic', 'Top', '+1 DEX'); 
@@ -110,9 +107,9 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (787, 1
 --Icy Armor Potion --CardIndex 2363 --EquipmentIndex 788
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 'Icy Armor Potion',
-'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Icy_Armor_Potion_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Relics/Character/Card_Relic_Icy_Armor_Potion_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Relics/Icy_Armor_Potion.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Relics/Character/Icy_Armor_Potion.xhtml', 
 'Relic', '2.0', '2.0 Core Set', 'Default',
 'The side effects of this potion turn Captain Henry''s moustache to icicles, making him the envy of many an undead pirate.'); 
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2363, 'Character Relic', 'Bottom', '+1 ARM'); 
@@ -123,9 +120,9 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (788, 1
 --Invulnerability Potion --CardIndex 2364 --EquipmentIndex 789
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 'Invulnerability Potion',
-'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Invulnerability_Potion_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Relics/Character/Card_Relic_Invulnerability_Potion_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Relics/Invulnerability_Potion.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Relics/Character/Invulnerability_Potion.xhtml', 
 'Relic', '2.0', '2.0 Core Set', 'Default',
 'He plans to mock the Heroes, proclaim how they can never stop his plans, and likely monologue extensively about his diabolical scheme.'); 
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2364, 'Character Relic', 'Left', ''); 
@@ -136,9 +133,9 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (789, 1
 --Speed Potion --CardIndex 2365 --EquipmentIndex 790
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 'Speed Potion',
-'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Speed_Potion_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Relics/Character/Card_Relic_Speed_Potion_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Relics/Card_Relic_Back_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Relics/Speed_Potion.xhtml', 
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Relics/Character/Speed_Potion.xhtml', 
 'Relic', '2.0', '2.0 Core Set', 'Default',
 'Few know better than a pirate the advantages of being faster than your opponent.  He also really likes that it leav those impressive spectral tracer images behind him as he moves.'); 
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2365, 'Character Relic', 'Right', '+2MO'); 
@@ -423,9 +420,9 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (477, 2278
 --My Beautiful Skull --CardIndex 2375 --EquipmentIndex 2366
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 'My Beautiful Skull',
-'http://htkb.info/SDE/2.0/Cards/Loot/Specific/Card_Loot_My_Beautiful_Skull_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Loot/Specific/Card_Loot_My_Beautiful_Skull_2.0_back.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Loot/Specific/My_Beautiful_Skull.xhtml', 
+'http://htkb.info/SDE/2.0/Cards/Loot/Character/Card_Loot_My_Beautiful_Skull_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Loot/Character/Card_Loot_My_Beautiful_Skull_2.0_back.png',
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Loot/Character/My_Beautiful_Skull.xhtml', 
 'Loot', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2375, 'Character Loot', '', '');
@@ -437,9 +434,9 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (2366, 
 --Cape of Potions --CardIndex 2376 --EquipmentIndex 2367
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 'Cape of Potions',
-'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Cape_of_Potions_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Cape_of_Potions_2.0_back.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Cape_of_Potions.xhtml', 
+'http://htkb.info/SDE/2.0/Cards/Treasure/Character/Card_Treasure_Cape_of_Potions_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Treasure/Character/Card_Treasure_Cape_of_Potions_2.0_back.png',
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Character/Cape_of_Potions.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Just a taste can''t hurt, right?');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2376, 'Character Treasure', 'Bottom', '+1R WILL, +1PO');
@@ -451,9 +448,9 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (2367, 
 --Warning Bell --CardIndex 2377 --EquipmentIndex 2368
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 'Warning Bell',
-'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Warning_Bell_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Warning_Bell_2.0_back.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Warning_Bell.xhtml', 
+'http://htkb.info/SDE/2.0/Cards/Treasure/Character/Card_Treasure_Warning_Bell_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Treasure/Character/Card_Treasure_Warning_Bell_2.0_back.png',
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Character/Warning_Bell.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'They''re coming...');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2377, 'Character Treasure', 'Bottom', '+1G ARM');
@@ -464,3 +461,59 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (2368, 
 
 
 
+--SDE
+--2.0.4 
+--Creeps
+
+
+--Curse Raven (Bonded) --CardIndex 2378	--CharacterIndex 1216	--ExploreCharacterIndex 874
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+'Curse Raven (Bonded)',
+'http://htkb.info/SDE/2.0/Cards/Creeps/Card_Creep_Curse_Raven_bonded_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Creeps/Card_Creep_Curse_Raven_bonded_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Creeps/Curse_Raven_bonded.xhtml', 
+'Creep', '2.0', '2.0 Core Set', 'Explore', 
+'In the frozen lands of Frostbyte Reach, there is a legend about the Curse Raven. It is said that if you see one, someone close to you is on their way to death. It is not known if Curse Ravens cause the demise, or merely warn of the impending doom, but they are a dreaded sight either way.');
+insert into Characters (CardIndex) VALUES (2378);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1216, 2); --Emerald
+insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
+VALUES (1216,
+'http://htkb.info/SDE/Standies/Poe.png', 
+'http://htkb.info/SDE/Standies/Poe_back.png',
+'Either', 'Small', 'Undead', 1, 1, '0ST', '1ST', '3B', '2B', 1, 0);
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (874, 471); --Bonded Creep: Elrik
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (874, 547); --Despair
+insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (874, 791); --Parade of Death
+insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (874, 991); --Deathmark
+insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (874, 3, 3); --Will
+insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (874, 2); --Armor
+insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (874, '', '8 Bit', 1);
+
+
+
+
+
+--SDE
+--2.0.4 
+--Arcade Creeps
+
+
+--Curse Raven (Bonded)	--CardIndex 2379	--CharacterIndex 1217	--ArcadeCharacterIndex 342
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+'Curse Raven (Bonded)',
+'http://htkb.info/SDE/2.0/Cards/Arcade/Creeps/Card_Arcade_Creep_Curse_Raven_bonded_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Arcade/Creeps/Card_Arcade_Creep_Curse_Raven_bonded_2.0_back.png', 
+'http://htkb.online/SDWiki/SDE/2.0/Arcade/Cards/Creeps/Curse_Raven_bonded.xhtml', 
+'Creep', '2.0', '2.0 Core Set', 'Arcade', 
+'In the frozen lands of Frostbyte Reach, there is a legend about the Curse Raven. It is said that if you see one, someone close to you is on their way to death. It is not known if Curse Ravens cause the demise, or merely warn of the impending doom, but they are a dreaded sight either way.');
+insert into Characters (CardIndex) VALUES (2379);
+insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
+VALUES (1217, 133, -1);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (1217, 2); --Emerald
+--GangMemberIndex 478
+insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
+VALUES (342, 0, 'Curse Raven', 'Undead', 'Creep', 1, 1, 0, 489);
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (478, 471); --Bonded Creep: Elrik
+insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (478, 790); --Parade of Death
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (478, 1007); --Despair
+insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (478, 990); --Deathmark

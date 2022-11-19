@@ -17,8 +17,8 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (141
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (141, 234); --Citrine Goop
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (141,
-'http://htkb.info/SDE/FK/Cards/Creeps/Standies/Citrine_Slime_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Creeps/Standies/Citrine_Slime_FK_back.png',
+'http://htkb.info/SDE/Standies/Citrine_Slime.png', 
+'http://htkb.info/SDE/Standies/Citrine_Slime_back.png',
 'Neither', 'Small', 'Slime', 5, 1, '2B', '0ST', '1B', '1B', 1, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (141, 1, 1);
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (141, 2);
@@ -38,8 +38,8 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (142
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (142, 303); --Emerald Glop
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (142,
-'http://htkb.info/SDE/FK/Cards/Creeps/Standies/Emerald_Slime_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Creeps/Standies/Emerald_Slime_FK_back.png',
+'http://htkb.info/SDE/Standies/Emerald_Slime.png', 
+'http://htkb.info/SDE/Standies/Emerald_Slime_back.png',
 'Neither', 'Small', 'Slime', 5, 1, '2B', '0ST', '1B', '1B', 1, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (142, 1, 1);
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (142, 2);
@@ -59,8 +59,8 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (143
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (143, 309); --Extra Scared
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (143,
-'http://htkb.info/SDE/FK/Cards/Creeps/Standies/Ghost_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Creeps/Standies/Ghost_FK_back.png',
+'http://htkb.info/SDE/Standies/Ghost.png', 
+'http://htkb.info/SDE/Standies/Ghost_back.png',
 'Either', 'Small', 'Undead Ghost', 5, 1, '0ST', '0ST', '2B', '3B', 1, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (143, 1, 1);
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (143, 2);
@@ -80,8 +80,8 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (144
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (144, 451); --New Crop
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (144,
-'http://htkb.info/SDE/FK/Cards/Creeps/Standies/Giri_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Creeps/Standies/Giri_FK_back.png',
+'http://htkb.info/SDE/Standies/Giri.png', 
+'http://htkb.info/SDE/Standies/Giri_back.png',
 'Either', 'Small', 'Faerie', 5, 1, '2B', '0ST', '3B', '2B', 1, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (144, 1, 2);
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (144, 2);
@@ -101,8 +101,8 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (145
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (145, 451); --In Your Pants
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (145,
-'http://htkb.info/SDE/FK/Cards/Creeps/Standies/Rabid_Squirrel_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Creeps/Standies/Rabid_Squirrel_FK_back.png',
+'http://htkb.info/SDE/Standies/Rabid_Squirrel.png', 
+'http://htkb.info/SDE/Standies/Rabid_Squirrel_back.png',
 'Either', 'Small', 'Chimera', 7, 1, '1B', '0ST', '1B', '2R', 1, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (145, 1, 1);
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (145, 2);
@@ -121,8 +121,8 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (146
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (146, 291); --Mob
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (146,
-'http://htkb.info/SDE/FK/Cards/Creeps/Standies/Rattlebone_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Creeps/Standies/Rattlebone_FK_back.png',
+'http://htkb.info/SDE/Standies/Rattlebone.png', 
+'http://htkb.info/SDE/Standies/Rattlebone_back.png',
 'Either', 'Small', 'Undead Skeleton', 6, 1, '2B', '0ST', '1B', '1B', 1, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (146, 1, 1);
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (146, 2);
@@ -142,8 +142,8 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (147
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (147, 303); --Ruby Goo
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (147,
-'http://htkb.info/SDE/FK/Cards/Creeps/Standies/Ruby_Slime_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Creeps/Standies/Ruby_Slime_FK_back.png',
+'http://htkb.info/SDE/Standies/Ruby_Slime.png', 
+'http://htkb.info/SDE/Standies/Ruby_Slime_back.png',
 'Neither', 'Small', 'Slime', 5, 1, '2B', '0ST', '1B', '1B', 1, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (147, 1, 1);
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (147, 2);
@@ -163,8 +163,8 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (148
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (148, 534); --Sapphire Gloop
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (148,
-'http://htkb.info/SDE/FK/Cards/Creeps/Standies/Sapphire_Slime_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Creeps/Standies/Sapphire_Slime_FK_back.png',
+'http://htkb.info/SDE/Standies/Sapphire_Slime.png', 
+'http://htkb.info/SDE/Standies/Sapphire_Slime_back.png',
 'Neither', 'Small', 'Slime', 5, 1, '2B', '0ST', '1B', '1B', 1, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (148, 1, 1);
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (148, 2);

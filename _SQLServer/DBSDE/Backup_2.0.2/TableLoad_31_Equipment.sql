@@ -6,9 +6,9 @@
 --Cannon Ball --CardIndex 2260 --EquipmentIndex 777
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 'Cannon Ball',
-'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Cannon_Ball_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Cannon_Ball_2.0_back.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Cannon_Ball.xhtml', 
+'http://htkb.info/SDE/2.0/Cards/Treasure/Character/Card_Treasure_Cannon_Ball_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Treasure/Character/Card_Treasure_Cannon_Ball_2.0_back.png',
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Character/Cannon_Ball.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2260, 'Character Treasure', 'Right', '+1G DEX');
@@ -21,8 +21,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Colo',
 'http://htkb.info/SDE/2.0/Cards/Loot/Familiar/Card_Loot_Familiar_Colo_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Loot/Familiar/Card_Loot_Familiar_Colo_2.0_back.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Familiar/Colo.xhtml', 
-'Loot', '2.0', '2.0 Core Set', 'Default',
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Loot/Familiar/Colo.xhtml', 
+'Character Familiar', '2.0', '2.0 Core Set', 'Default',
 'What are you laughing at fuzzball?');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2261, 'Character Loot', 'Top', '');
 insert into KeywordAssignments (EquipmentIndex, KeywordIndex) VALUES (778, 1109); --Familiar
@@ -34,9 +34,9 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (778, 1
 --Cutlass --CardIndex 2262 --EquipmentIndex 779
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 'Cutlass',
-'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Cutlass_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Cutlass_2.0_back.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Cutlass.xhtml', 
+'http://htkb.info/SDE/2.0/Cards/Treasure/Character/Card_Treasure_Cutlass_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Treasure/Character/Card_Treasure_Cutlass_2.0_back.png',
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Character/Cutlass.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2262, 'Character Treasure', 'Bottom', '+1G STR');
@@ -47,9 +47,9 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (779, 1
 --Eye Patch --CardIndex 2263 --EquipmentIndex 780
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 'Eye Patch',
-'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Eye_Patch_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Eye_Patch_2.0_back.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Eye_Patch.xhtml', 
+'http://htkb.info/SDE/2.0/Cards/Treasure/Character/Card_Treasure_Eye_Patch_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Treasure/Character/Card_Treasure_Eye_Patch_2.0_back.png',
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Character/Eye_Patch.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'It''s terribly comfortable.  Everyone will be wearing them in the futrure.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2263, 'Character Treasure', 'Bottom', '+1R WILL');
@@ -60,9 +60,9 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (780, 1
 --Invulnerability Potion --CardIndex 2264 --EquipmentIndex 781
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 'Invulnerability Potion',
-'http://htkb.info/SDE/2.0/Cards/Loot/Specific/Card_Loot_Invulnerability_Potion_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Loot/Specific/Card_Loot_Invulnerability_Potion_2.0.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Loot/Specific/Invulnerability_Potion.xhtml', 
+'http://htkb.info/SDE/2.0/Cards/Loot/Character/Card_Loot_Invulnerability_Potion_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Loot/Character/Card_Loot_Invulnerability_Potion_2.0.png',
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Loot/Character/Invulnerability_Potion.xhtml', 
 'Loot', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2264, 'Character Loot', '', '');
@@ -72,9 +72,9 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (781, 1
 --Magic Compass --CardIndex 2265 --EquipmentIndex 782
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 'Magic Compass',
-'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Magic_Compass_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Magic_Compass_2.0_back.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Magic_Compass.xhtml', 
+'http://htkb.info/SDE/2.0/Cards/Treasure/Character/Card_Treasure_Magic_Compass_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Treasure/Character/Card_Treasure_Magic_Compass_2.0_back.png',
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Character/Magic_Compass.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Bring me that horizon.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2265, 'Character Treasure', 'Top', '+1G WILL');
@@ -85,9 +85,9 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (782, 1
 --Peg Leg --CardIndex 2266 --EquipmentIndex 783
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 'Peg Leg',
-'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Peg_Leg_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Peg_Leg_2.0_back.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Peg_Leg.xhtml', 
+'http://htkb.info/SDE/2.0/Cards/Treasure/Character/Card_Treasure_Peg_Leg_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Treasure/Character/Card_Treasure_Peg_Leg_2.0_back.png',
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Character/Peg_Leg.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Watch for Woodworm.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2266, 'Character Treasure', 'Left', '-1MO +1R ARM');
@@ -98,9 +98,9 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (783, 1
 --Pirate Hat --CardIndex 2267 --EquipmentIndex 784
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 'Pirate Hat',
-'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Pirate_Hat_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Pirate_Hat_2.0_back.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Pirate_Hat.xhtml', 
+'http://htkb.info/SDE/2.0/Cards/Treasure/Character/Card_Treasure_Pirate_Hat_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Treasure/Character/Card_Treasure_Pirate_Hat_2.0_back.png',
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Character/Pirate_Hat.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Cock your hat - angles are attitudes.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2267, 'Character Treasure', 'Top', '+1R ARM');
@@ -110,9 +110,9 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (784, 1
 --Treasure Map --CardIndex 2268 --EquipmentIndex 785
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 'Treasure Map',
-'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Treasure_Map_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Treasure_Map_2.0_back.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Treasure_Map.xhtml', 
+'http://htkb.info/SDE/2.0/Cards/Treasure/Character/Card_Treasure_Treasure_Map_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Treasure/Character/Card_Treasure_Treasure_Map_2.0_back.png',
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Character/Treasure_Map.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Genuine and bona-fied.  Mr. Bimbo told me so.');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2268, 'Character Treasure', 'Top', '+2MO +1 DEX');

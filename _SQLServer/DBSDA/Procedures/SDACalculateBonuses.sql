@@ -36,15 +36,28 @@ BEGIN
 		FROM ExploreCharactersViewMultiLine
 		WHERE CardIndex = Main.CardIndex)
 		--ActionCount
-		+(SELECT COUNT( DISTINCT AbilityName )
-		FROM ExploreCharactersViewMultiLine
-		WHERE CardIndex = Main.CardIndex and AbilityResource = 'Action')
+		+(
+			SELECT COALESCE( SUM( AbilityCost ), 0)
+			FROM
+			(
+				SELECT DISTINCT AbilityName, AbilityCost
+				FROM ExploreCharactersViewMultiLine
+				WHERE CardIndex = Main.CardIndex and AbilityResource = 'Action'
+			) AS ActionSum
+		)
 		--SkillCount
-		+(SELECT COUNT( DISTINCT AbilityName )
-		FROM ExploreCharactersViewMultiLine
-		WHERE CardIndex = Main.CardIndex and AbilityResource = 'Potion'	)
+		+(
+			SELECT COALESCE( SUM( AbilityCost ), 0)
+			FROM
+			(
+				SELECT DISTINCT AbilityName, AbilityCost
+				FROM ExploreCharactersViewMultiLine
+				WHERE CardIndex = Main.CardIndex and AbilityResource = 'Potion'
+			) AS SkillSum
+		)
 	) AS BONUSES, 
 	
+
 	Main.CardType, Main.ProductSet, Main.Movement, Main.Actions, Main.Strength, Main.Armor, Main.Will, Main.Dexterity, Main.Health, Main.Potions, 
 	(
 		dbo.SDACalculateMovementBonus(Main.Movement)
@@ -67,16 +80,24 @@ BEGIN
 		WHERE CardIndex = Main.CardIndex
 	) AS KeywordCount,
 	(
-		SELECT COUNT( DISTINCT AbilityName )
-		FROM ExploreCharactersViewMultiLine
-		WHERE CardIndex = Main.CardIndex and AbilityResource = 'Action'
-	) AS ActionCount, 
+		SELECT COALESCE( SUM( AbilityCost ), 0)
+		FROM
+		(
+			SELECT DISTINCT AbilityName, AbilityCost
+			FROM ExploreCharactersViewMultiLine
+			WHERE CardIndex = Main.CardIndex and AbilityResource = 'Action'
+		) AS ActionSum
+	) AS ActionSum,
 	(
-		SELECT COUNT( DISTINCT AbilityName )
-		FROM ExploreCharactersViewMultiLine
-		WHERE CardIndex = Main.CardIndex and AbilityResource = 'Potion'	
-	) AS SkillCount
-
+		SELECT COALESCE( SUM( AbilityCost ), 0)
+		FROM
+		(
+			SELECT DISTINCT AbilityName, AbilityCost
+			FROM ExploreCharactersViewMultiLine
+			WHERE CardIndex = Main.CardIndex and AbilityResource = 'Potion'
+		) AS SkillSum
+	) AS SkillSum
+	
 	FROM ExploreCharactersViewMultiLine Main
 	ORDER BY BONUSES
 END

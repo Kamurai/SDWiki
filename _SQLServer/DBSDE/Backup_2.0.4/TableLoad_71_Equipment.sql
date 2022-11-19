@@ -6,9 +6,9 @@
 --My Beautiful Skull --CardIndex 2375 --EquipmentIndex 2366
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 'My Beautiful Skull',
-'http://htkb.info/SDE/2.0/Cards/Loot/Specific/Card_Loot_My_Beautiful_Skull_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Loot/Specific/Card_Loot_My_Beautiful_Skull_2.0_back.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Loot/Specific/My_Beautiful_Skull.xhtml', 
+'http://htkb.info/SDE/2.0/Cards/Loot/Character/Card_Loot_My_Beautiful_Skull_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Loot/Character/Card_Loot_My_Beautiful_Skull_2.0_back.png',
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Loot/Character/My_Beautiful_Skull.xhtml', 
 'Loot', '2.0', '2.0 Core Set', 'Default',
 '');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2375, 'Character Loot', '', '');
@@ -20,9 +20,9 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (2366, 
 --Cape of Potions --CardIndex 2376 --EquipmentIndex 2367
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 'Cape of Potions',
-'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Cape_of_Potions_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Cape_of_Potions_2.0_back.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Cape_of_Potions.xhtml', 
+'http://htkb.info/SDE/2.0/Cards/Treasure/Character/Card_Treasure_Cape_of_Potions_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Treasure/Character/Card_Treasure_Cape_of_Potions_2.0_back.png',
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Character/Cape_of_Potions.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'Just a taste can''t hurt, right?');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2376, 'Character Treasure', 'Bottom', '+1R WILL, +1PO');
@@ -34,9 +34,9 @@ insert into EquipmentAssignments (EquipmentIndex, CharacterIndex) VALUES (2367, 
 --Warning Bell --CardIndex 2377 --EquipmentIndex 2368
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 'Warning Bell',
-'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Warning_Bell_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Treasure/Specific/Card_Treasure_Warning_Bell_2.0_back.png',
-'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Specific/Warning_Bell.xhtml', 
+'http://htkb.info/SDE/2.0/Cards/Treasure/Character/Card_Treasure_Warning_Bell_2.0.png', 
+'http://htkb.info/SDE/2.0/Cards/Treasure/Character/Card_Treasure_Warning_Bell_2.0_back.png',
+'http://htkb.online/SDWiki/SDE/2.0/Cards/Treasure/Character/Warning_Bell.xhtml', 
 'Treasure', '2.0', '2.0 Core Set', 'Default',
 'They''re coming...');
 insert into Equipment (CardIndex, EquipmentType, Position, Effect) VALUES (2377, 'Character Treasure', 'Bottom', '+1G ARM');
