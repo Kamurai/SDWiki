@@ -7,8 +7,8 @@
 --Rabillion --Card Index 2329	--CharacterIndex 1177 --ExploreCharacterIndex 838
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 'Rabillion',
-'http://htkb.info/SDE/1.0/Custom/Cards/Warbands/Beasts/Card_Warband_Rabillion_1.0.png', 
-'http://htkb.info/SDE/1.0/Custom/Cards/Warbands/Beasts/Card_Warband_Rabillion_1.0_back.png', 
+'http://htkb.info/SDE/1.0/Custom/Cards/Warbands/Beasts/Card_Warband_Beast_Rabillion_1.0_Custom.png', 
+'http://htkb.info/SDE/1.0/Custom/Cards/Warbands/Beasts/Card_Warband_Beast_Rabillion_1.0_Custom_back.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Custom/Cards/Warbands/Beasts/Rabillion.xhtml', 
 'Warband', '1.0 Custom', '1.0 Custom Set', 'Explore',
 '');
@@ -32,8 +32,8 @@ insert into CustomCards (CardIndex, Author, SourceURL) VALUES(
 --Rabite --Card Index 2330	--CharacterIndex 1178 --ExploreCharacterIndex 839
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 'Rabite',
-'http://htkb.info/SDE/1.0/Custom/Cards/Warbands/Beasts/Card_Warband_Rabite_1.0.png', 
-'http://htkb.info/SDE/1.0/Custom/Cards/Warbands/Beasts/Card_Warband_Rabite_1.0_back.png', 
+'http://htkb.info/SDE/1.0/Custom/Cards/Warbands/Beasts/Card_Warband_Beast_Rabite_1.0_Custom.png', 
+'http://htkb.info/SDE/1.0/Custom/Cards/Warbands/Beasts/Card_Warband_Beast_Rabite_1.0_Custom_back.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Custom/Cards/Warbands/Beasts/Rabite.xhtml', 
 'Warband', '1.0 Custom', '1.0 Custom Set', 'Explore',
 '');
@@ -130,19 +130,19 @@ insert into CustomCards (CardIndex, Author, SourceURL) VALUES(
 'https://boardgamegeek.com/thread/750633/my-dragon-quest-slimes-cards-miniatures'
 );
 
---Bubblie --Card Index 2334	--CharacterIndex 1182 --ExploreCharacterIndex 843
+--Blubblie --Card Index 2334	--CharacterIndex 1182 --ExploreCharacterIndex 843
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
-'Slime',
-'http://htkb.info/SDE/1.0/Custom/Cards/Warbands/Slimes/Card_Warband_Slime_Bubblie_1.0_Custom.png', 
-'http://htkb.info/SDE/1.0/Custom/Cards/Warbands/Slimes/Card_Warband_Slime_Bubblie_1.0_Custom_back.png', 
-'http://htkb.online/SDWiki/SDE/1.0/Custom/Cards/Warbands/Slimes/Bubblie.xhtml', 
+'Blubblie',
+'http://htkb.info/SDE/1.0/Custom/Cards/Warbands/Slimes/Card_Warband_Slime_Blubblie_1.0_Custom.png', 
+'http://htkb.info/SDE/1.0/Custom/Cards/Warbands/Slimes/Card_Warband_Slime_Blubblie_1.0_Custom_back.png', 
+'http://htkb.online/SDWiki/SDE/1.0/Custom/Cards/Warbands/Slimes/Blubblie.xhtml', 
 'Warband', '1.0 Custom', '1.0 Custom Set', 'Explore',
 '');
 insert into Characters (CardIndex) VALUES (2334); 
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 1182,
-'http://htkb.info/Common/Standies/Bubblie.png', 
-'http://htkb.info/Common/Standies/Bubblie_back.png', 
+'http://htkb.info/Common/Standies/Blubblyslime.png', 
+'http://htkb.info/Common/Standies/Blubblyslime_back.png', 
 'Either', 'Small', 'Slime', 5, 1, '1R 2B', '0ST', '2B', '1R 1B', 1, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (843, 1144); --GooBody
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (843, 2212); --Stand Ready!
@@ -158,16 +158,16 @@ insert into CustomCards (CardIndex, Author, SourceURL) VALUES(
 --Creepy Cube --Card Index 2335	--CharacterIndex 1183 --ExploreCharacterIndex 844
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 'Creepy Cube',
-'http://htkb.info/SDE/1.0/Custom/Cards/Warbands/Slimes/Card_Warband_Slime_Bubblie_1.0_Custom.png', 
-'http://htkb.info/SDE/1.0/Custom/Cards/Warbands/Slimes/Card_Warband_Slime_Bubblie_1.0_Custom_back.png', 
-'http://htkb.online/SDWiki/SDE/1.0/Custom/Cards/Warbands/Slimes/Bubblie.xhtml', 
+'http://htkb.info/SDE/1.0/Custom/Cards/Warbands/Slimes/Card_Warband_Slime_Creepy_Cube_1.0_Custom.png', 
+'http://htkb.info/SDE/1.0/Custom/Cards/Warbands/Slimes/Card_Warband_Slime_Creepy_Cube_1.0_Custom_back.png', 
+'http://htkb.online/SDWiki/SDE/1.0/Custom/Cards/Warbands/Slimes/Creepy_Cube.xhtml', 
 'Warband', '1.0 Custom', '1.0 Custom Set', 'Explore',
 '');
 insert into Characters (CardIndex) VALUES (2335); 
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) VALUES (
 1183,
-'http://htkb.info/Common/Standies/Bubblie.png', 
-'http://htkb.info/Common/Standies/Bubblie_back.png', 
+'http://htkb.info/Common/Standies/Creepy_Cube.png', 
+'http://htkb.info/Common/Standies/Creepy_Cube_back.png', 
 'Either', 'Small', 'Slime', 6, 1, '2B', '1ST', '2B', '1R 1B', 1, 0);
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (844, 2213); --Absorb
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (844, 0, 1); --Attack
@@ -264,9 +264,9 @@ insert into CustomCards (CardIndex, Author, SourceURL) VALUES(
 --Warp Pipe --Card Index 2339	--CharacterIndex 1187 --ExploreCharacterIndex 848
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 'Warp Pipe',
-'http://htkb.info/SDE/2.0/Cards/Warbands/Warp_Pipe/Card_Warband_Warp_Pipe_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Warbands/Warp_Pipe/Card_Warband_Warp_Pipe_2.0_back.png', 
-'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Warbands/Warp_Pipe/Warp_Pipe.xhtml', 
+'http://htkb.info/SDE/1.0/Custom/Cards/Warbands/Warp_Pipe/Card_Warband_Warp_Pipe_1.0_Custom.png', 
+'http://htkb.info/SDE/1.0/Custom/Cards/Warbands/Warp_Pipe/Card_Warband_Warp_Pipe_1.0_Custom_back.png', 
+'http://htkb.online/SDWiki/SDE/1.0/Custom/Cards/Warbands/Warp_Pipe/Warp_Pipe.xhtml', 
 'Warband', '1.0 Custom', '1.0 Custom Set', 'Explore',
 '');
 insert into Characters (CardIndex) VALUES (2339);
@@ -288,8 +288,8 @@ insert into CustomCards (CardIndex, Author, SourceURL) VALUES(
 --Bob-Omb --Card Index 2340	--CharacterIndex 1188 --ExploreCharacterIndex 849
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 'Bob-Omb',
-'http://htkb.info/SDE/1.0/Custom/Cards/Warbands/Warp_Pipe/Card_Warband_Warp_Pipe_Bob_Omb_1.0_Custom.png', 
-'http://htkb.info/SDE/1.0/Custom/Cards/Warbands/Warp_Pipe/Card_Warband_Warp_Pipe_Bob_Omb_1.0_Custom_back.png', 
+'http://htkb.info/SDE/1.0/Custom/Cards/Warbands/Warp_Pipe/Card_Warband_Warp_Pipe_Bob-Omb_1.0_Custom.png', 
+'http://htkb.info/SDE/1.0/Custom/Cards/Warbands/Warp_Pipe/Card_Warband_Warp_Pipe_Bob-Omb_1.0_Custom_back.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Custom/Cards/Warbands/Warp_Pipe/Bob_Omb.xhtml', 
 'Warband', '1.0 Custom', '1.0 Custom Set', 'Explore',
 '');

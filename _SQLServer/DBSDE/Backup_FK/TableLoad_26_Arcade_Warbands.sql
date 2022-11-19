@@ -178,11 +178,12 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (59, 298);
 
 
 --Clan Fire Shrine
---Elemental Shrine --CardIndex 391	--CharacterIndex 306	--ArcadeCharacterIndex 54
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Elemental Shrine',
+--Clan Fire Shrine --CardIndex 391	--CharacterIndex 306	--ArcadeCharacterIndex 54
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+'Clan Fire Shrine',
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Clan_Fire_Shrine/Card_Arcade_Warband_Clan_Fire_Shrine_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Clan_Fire_Shrine/Card_Arcade_Warband_Clan_Fire_Shrine_FK_back.png', 
-'http://htkb.online/SDWiki/SDE/FK/Arcade/Cards/Warbands/Clan_Fire_Shrine/Clan_Fire_Shrine.xhtml', 
+'http://htkb.online/SDWiki/SDE/FK/Arcade/Cards/Warbands/Clan_Fire_Shrine/Shrine.xhtml', 
 'Warband', 'FK', 'FK Core Set', 'Arcade', 
 '');
 insert into Characters (CardIndex) VALUES (391);
@@ -191,14 +192,15 @@ VALUES (306, 0, -1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (306, 3); --Ruby
 --GangMemberIndex 60
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (54, 0, 'Elemental Shrine', 'Paired Spawning Point', '', 0, 0, 1, 195);
+VALUES (54, 0, 'Clan Fire Shrine', 'Paired Spawning Point', '', 0, 0, 1, 164);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (60, 268); --Immune: Status Effects
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (60, 214); --Elemental Affinity
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (60, 347); --Stealth
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (60, 378); --Spawning Pool
 
---Mystic Team --CardIndex 392	--CharacterIndex 307	--ArcadeCharacterIndex 55
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Mystic Team',
+--Clan Fire Shrine Mystic Team --CardIndex 392	--CharacterIndex 307	--ArcadeCharacterIndex 55
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+'Clan Fire Shrine Mystic Team',
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Clan_Fire_Shrine/Card_Arcade_Warband_Clan_Fire_Shrine_Mystic_Team_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Clan_Fire_Shrine/Card_Arcade_Warband_Clan_Fire_Shrine_Mystic_Team_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Arcade/Cards/Warbands/Clan_Fire_Shrine/Mystic_Team.xhtml', 
@@ -210,23 +212,24 @@ VALUES (307, 124, 354);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (307, 3); --Ruby
 --GangMemberIndex 61
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (55, 0, 'Madoushi', 'Ninja', 'Elite', 6, 2, 1, 199);
+VALUES (55, 0, 'Clan Fire Shrine Madoushi', 'Ninja', 'Elite', 6, 2, 1, 199);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (61, 348); --Stealth
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (61, 323); --Poisoned Weapons
 --GangMemberIndex 62
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (55, 1, 'Kaiken', 'Ninja', 'Minion', 6, 1, 1, 197);
+VALUES (55, 1, 'Clan Fire Shrine Kaiken', 'Ninja', 'Minion', 6, 1, 1, 197);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (62, 175); --Back Strike
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (62, 190); --Bruiser
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (62, 348); --Stealth
 --GangMemberIndex 63
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (55, 2, 'Yajiri', 'Ninja', 'Minion', 6, 1, 0, 200);
+VALUES (55, 2, 'Clan Fire Shrine Yajiri', 'Ninja', 'Minion', 6, 1, 0, 200);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (63, 315); --Reach
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (63, 348); --Stealth
 
---Scout Team --CardIndex 393	--CharacterIndex 308	--ArcadeCharacterIndex 56
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Scout Team',
+--Clan Fire Shrine Scout Team --CardIndex 393	--CharacterIndex 308	--ArcadeCharacterIndex 56
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+'Clan Fire Shrine Scout Team',
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Clan_Fire_Shrine/Card_Arcade_Warband_Clan_Fire_Shrine_Scout_Team_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Clan_Fire_Shrine/Card_Arcade_Warband_Clan_Fire_Shrine_Scout_Team_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Arcade/Cards/Warbands/Clan_Fire_Shrine/Scout_Team.xhtml', 
@@ -238,20 +241,21 @@ VALUES (308, 122, 133);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (308, 2); --Emerald
 --GangMemberIndex 64
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (56, 0, 'Kunoichi', 'Ninja', 'Elite', 8, 1, 1, 198);
+VALUES (56, 0, 'Clan Fire Shrine Kunoichi', 'Ninja', 'Elite', 8, 1, 1, 198);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (64, 415); --Augment
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (64, 348); --Stealth
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (64, 353); --Surge
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (64, 675); --Wind in the Forest
 --GangMemberIndex 65
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (56 , 1, 'Kunoichi', 'Ninja', 'Elite', 8, 1, 1, 198);
+VALUES (56 , 1, 'Clan Fire Shrine Kunoichi', 'Ninja', 'Elite', 8, 1, 1, 198);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (65, 415); --Augment
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (65, 348); --Stealth
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (65, 566); --Smoke Bomb
 
---Strike Team --CardIndex 394	--CharacterIndex 309	--ArcadeCharacterIndex 57
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Strike Team',
+--Clan Fire Shrine Strike Team --CardIndex 394	--CharacterIndex 309	--ArcadeCharacterIndex 57
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+'Clan Fire Shrine Strike Team',
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Clan_Fire_Shrine/Card_Arcade_Warband_Clan_Fire_Shrine_Strike_Team_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Clan_Fire_Shrine/Card_Arcade_Warband_Clan_Fire_Shrine_Strike_Team_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Arcade/Cards/Warbands/Clan_Fire_Shrine/Strike_Team.xhtml', 
@@ -264,19 +268,19 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (309, 1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (309, 2); --Emerald
 --GangMemberIndex 66
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (57, 0, 'Chunin', 'Ninja', 'Elite', 6, 3, 1, 196);
+VALUES (57, 0, 'Clan Fire Shrine Chunin', 'Ninja', 'Elite', 6, 3, 1, 196);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (66, 275); --Knockdown
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (66, 348); --Stealth
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (66, 502); --Precision Strike
 --GangMemberIndex 67
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (57, 1, 'Kaiken', 'Ninja', 'Minion', 6, 1, 1, 197);
+VALUES (57, 1, 'Clan Fire Shrine Kaiken', 'Ninja', 'Minion', 6, 1, 1, 197);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (67, 175); --Back Strike
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (67, 190); --Bruiser
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (67, 348); --Stealth
 --GangMemberIndex 68
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (57, 2, 'Yajiri', 'Ninja', 'Minion', 6, 1, 0, 200);
+VALUES (57, 2, 'Clan Fire Shrine Yajiri', 'Ninja', 'Minion', 6, 1, 0, 200);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (68, 291); --Mob
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (68, 315); --Reach
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (68, 348); --Stealth
@@ -284,13 +288,14 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (68, 348);
 
 --Fungal Growth
 --Fungal Growth --CardIndex 395	--CharacterIndex 310	--ArcadeCharacterIndex 58
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Fungal Growth',
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+'Fungal Growth',
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Fungal_Growth/Card_Arcade_Warband_Fungal_Growth_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Fungal_Growth/Card_Arcade_Warband_Fungal_Growth_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Arcade/Cards/Warbands/Fungal_Growth/Fungal_Growth.xhtml', 
 'Warband', 'FK', 'FK Core Set', 'Arcade', 
 'Like kodama, kinoko are spirits of the forest.  When uncorrupted by the Dark Consul they are servants of the Deeproot Tree.  Fun loving and given to a pleasant disposition, natural kinoko enjoy nothing more than bouncing through the forest, making absurd squishing noises and burbling happily to birds and forest spirits.<br>Under the Dark Consul''s influence they become territorial and grumpy, shredding great clouds of spores that send Heroes into an enchanted slumber.  once snoozing soundly, the kinoko bounce the sleeping Heroes off cliffs, into spider holes, or monsters'' waiting jaws.');
-insert into Characters (CardIndex) VALUES (391);
+insert into Characters (CardIndex) VALUES (395);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
 VALUES (310, 0, -1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (310, 2); --Emerald
@@ -367,7 +372,6 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (74, 268);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (74, 240); --Grabby Hands
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (74, 382); --Spawning Pool
 
---Grave Robbers
 --Grave Robbers --CardIndex 399	--CharacterIndex 314	--ArcadeCharacterIndex 62
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Grave Robbers',
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Grabby_House/Card_Arcade_Warband_Grabby_House_Grave_Robbers_FK.png', 
@@ -390,11 +394,10 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (76, 239);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (76, 348); --Stealth
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (76, 390); --Homunculus
 
---Rotters
 --Rotters --CardIndex 400	--CharacterIndex 315	--ArcadeCharacterIndex 63
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Rotters',
-'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Grabby_House/Card_Arcade_Warband_Grabby_House_Grave_Robbers_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Grabby_House/Card_Arcade_Warband_Grabby_House_Grave_Robbers_FK_back.png', 
+'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Grabby_House/Card_Arcade_Warband_Grabby_House_Rotters_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Grabby_House/Card_Arcade_Warband_Grabby_House_Rotters_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Arcade/Cards/Warbands/Grabby_House/Rotters.xhtml', 
 'Warband', 'FK', 'FK Core Set', 'Arcade', 
 'Possessing no intellect other than the instinctive need to feed, zombies shamble through the swamps beneath the stilt towns.  Too dumb to find entrance into the towering shacks, they lurch and moan, making a terrible racket.');
@@ -434,7 +437,6 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (79, 268);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (79, 292); --Mob Mentality
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (79, 384); --Spawning Pool
 
---Dragon Devotees
 --Dragon Devotees --CardIndex 402	--CharacterIndex 317	--ArcadeCharacterIndex 65
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Dragon Devotees',
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Kobold_Warrens/Card_Arcade_Warband_Kobold_Warrens_Dragon_Devotees_FK.png', 
@@ -461,7 +463,6 @@ insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, 
 VALUES (65, 2, 'Gouger', 'Kobold', 'Minion', 6, 1, 0, 213);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (82, 315); --Reach
 
---Scale Wall
 --Scale Wall --CardIndex 403	--CharacterIndex 318	--ArcadeCharacterIndex 66
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Scale Wall',
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Kobold_Warrens/Card_Arcade_Warband_Kobold_Warrens_Scale_Wall_FK.png', 
@@ -487,7 +488,6 @@ insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, 
 VALUES (66, 2, 'Gouger', 'Kobold', 'Minion', 6, 1, 0, 213);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (85, 315); --Reach
 
---Sneaks
 --Sneaks --CardIndex 404 --CharacterIndex 319	--ArcadeCharacterIndex 67
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Sneaks',
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Kobold_Warrens/Card_Arcade_Warband_Kobold_Warrens_Sneaks_FK.png', 
@@ -501,13 +501,13 @@ VALUES (319, 132, 253);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (319, 2); --Emerald
 --GangMemberIndex 86
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (67, 0, 'Ironscale', 'Kobold', 'Elite', 6, 1, 1, 214);
+VALUES (67, 0, 'Flinger', 'Kobold', 'Elite', 6, 1, 1, 212);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (86, 291); --Mob
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (86, 348); --Stealth
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (86, 393); --Hot Pot
 --GangMemberIndex 87
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (67, 1, 'Knucklehead', 'Kobold', 'Minion', 6, 1, 1, 215);
+VALUES (67, 1, 'Flinger', 'Kobold', 'Minion', 6, 1, 1, 212);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (87, 291); --Mob
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (87, 348); --Stealth
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (87, 394); --Hot Pot
@@ -798,7 +798,8 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (107, 317)
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (107, 392); --Spawning Pool
 
 --Bully Foremen --CardIndex 418	--CharacterIndex 333	--ArcadeCharacterIndex 81
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Bully Foremen',
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+'Bully Foremen',
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Rock_Pile/Card_Arcade_Warband_Rock_Pile_Bully_Foremen_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Rock_Pile/Card_Arcade_Warband_Rock_Pile_Bully_Foremen_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Arcade/Cards/Warbands/Rock_Pile/Bully_Foremen.xhtml', 
@@ -810,19 +811,20 @@ VALUES (333, 134, 144);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (333, 4); --Sapphire
 --GangMemberIndex 108
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (81, 0, 'Roller', 'Rocktop', 'Elite', 5, 2, 2, 232);
+VALUES (81, 0, 'Roller', 'Rocktop', 'Elite', 5, 2, 2, 235);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (108, 265); --Immune: Knockdown
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (108, 267); --Immune: Slow
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (108, 633); --Thwack
 --GangMemberIndex 109
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (81, 1, 'Roller', 'Rocktop', 'Elite', 5, 2, 2, 232);
+VALUES (81, 1, 'Roller', 'Rocktop', 'Elite', 5, 2, 2, 235);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (109, 265); --Immune: Knockdown
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (109, 267); --Immune: Slow
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (109, 634); --Thwack
 
 --Rockers v1 --CardIndex 419	--CharacterIndex 334	--ArcadeCharacterIndex 82
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Rockers v1',
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+'Rockers v1',
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Rock_Pile/Card_Arcade_Warband_Rock_Pile_Rockers_v1_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Rock_Pile/Card_Arcade_Warband_Rock_Pile_Rockers_v1_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Arcade/Cards/Warbands/Rock_Pile/Rockers_v1.xhtml', 
@@ -830,8 +832,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Slowpokes often gather around the massive Crushers, seeking some measure of protection from the bullying Rollers.  Crushers pay the Slowpokes little regard, for they are far too busy happily crushing rock and expanding their cavern to notice the pleas of their smaller kin.');
 insert into Characters (CardIndex) VALUES (419);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (333, 142, 373);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (333, 4); --Sapphire
+VALUES (334, 142, 373);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (334, 4); --Sapphire
 --GangMemberIndex 110
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (82, 0, 'Crusher', 'Rocktop', 'Elite', 5, 6, 2, 233);
@@ -870,9 +872,9 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (113, 651)
 
 --Shell Battery --CardIndex 421	--CharacterIndex 336	--ArcadeCharacterIndex 84
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Shell Battery',
-'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Rock_Pile/Card_Arcade_Warband_Rock_Pile_Rockers_v2_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Rock_Pile/Card_Arcade_Warband_Rock_Pile_Rockers_v2_FK_back.png', 
-'http://htkb.online/SDWiki/SDE/FK/Arcade/Cards/Warbands/Rock_Pile/Rockers_v2.xhtml', 
+'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Rock_Pile/Card_Arcade_Warband_Rock_Pile_Shell_Battery_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Rock_Pile/Card_Arcade_Warband_Rock_Pile_Shell_Battery_FK_back.png', 
+'http://htkb.online/SDWiki/SDE/FK/Arcade/Cards/Warbands/Rock_Pile/Shell_Battery.xhtml', 
 'Warband', 'FK', 'FK Core Set', 'Arcade', 
 'Once, a clan of rocktop befriended a gnomish engineer whose trade was weapons of war.  Impressed by the the stout and sturdy nature of the Rocktops, the engineer sought to turn the somewhat dimwitted monsters into the ultimate siege army in service of Crystalia.  Unfortunately, the rocktops proved to be disinterested in following orders and the gnomish engineer fell victim to a gang of Rollers.<br><br>However, a small group of Rocktops took a shine to the bombard cannons the gnome had devised.  Keeping the small armory a secret from their rocktop kin, these newly formed Bombardiers began lending their services in long ranged demolitions to any who could afford their steep fees of precious stones and ore.');
 insert into Characters (CardIndex) VALUES (421);
@@ -991,17 +993,18 @@ VALUES (341, 134, 144);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (341, 3); --Ruby
 --GangMemberIndex 122
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (89, 0, 'Dust Mage', 'Undead Skeleton', 'Elite', 5, 1, 1, 244);
+VALUES (89, 0, 'Dust Mage', 'Undead Skeleton', 'Elite', 5, 1, 1, 247);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (122, 188); --Bone Pile
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (122, 636); --Tide of Bones
 --GangMemberIndex 123
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (89, 1, 'Dust Mage', 'Undead Skeleton', 'Elite', 5, 1, 0, 244);
+VALUES (89, 1, 'Dust Mage', 'Undead Skeleton', 'Elite', 5, 1, 0, 247);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (123, 188); --Bone Pile
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (123, 193); --Bone Cold
 
 --Dust Coven	--CardIndex 427	--CharacterIndex 342	--ArcadeCharacterIndex 90
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Dust Coven',
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+'Dust Coven',
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Shallow_Grave/Card_Arcade_Warband_Shallow_Grave_Dust_Coven_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Shallow_Grave/Card_Arcade_Warband_Shallow_Grave_Dust_Coven_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Arcade/Cards/Warbands/Shallow_Grave/Dust_Coven.xhtml', 
@@ -1023,10 +1026,11 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (125, 188)
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (125, 354); --Ghastly Vigor
 
 --House of Ash	--CardIndex 428	--CharacterIndex 343	--ArcadeCharacterIndex 91
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Dust Coven',
-'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Shallow_Grave/Card_Arcade_Warband_Shallow_Grave_Dust_Coven_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Shallow_Grave/Card_Arcade_Warband_Shallow_Grave_Dust_Coven_FK_back.png', 
-'http://htkb.online/SDWiki/SDE/FK/Arcade/Cards/Warbands/Shallow_Grave/Dust_Coven.xhtml', 
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+'House of Ash',
+'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Shallow_Grave/Card_Arcade_Warband_Shallow_Grave_House_of_Ash_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Shallow_Grave/Card_Arcade_Warband_Shallow_Grave_House_of_Ash_FK_back.png', 
+'http://htkb.online/SDWiki/SDE/FK/Arcade/Cards/Warbands/Shallow_Grave/House_of_Ash.xhtml', 
 'Warband', 'FK', 'FK Core Set', 'Arcade', 
 'The knightly House of Ash gave themselves willingly to the service of the Dark Consul.  Wholly consumed by the need for battle, they are allowed to retain a measure of their intellect into undeath.');
 insert into Characters (CardIndex) VALUES (428);
@@ -1047,7 +1051,8 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (127, 251)
 
 --Tribal Stone
 --Tribal Stone	--CardIndex 429	--CharacterIndex 344	--ArcadeCharacterIndex 92
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Tribal Stone',
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+'Tribal Stone',
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Tribal_Stone/Card_Arcade_Warband_Tribal_Stone_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Tribal_Stone/Card_Arcade_Warband_Tribal_Stone_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Arcade/Cards/Warbands/Tribal_Stone/Tribal_Stone.xhtml', 
@@ -1065,10 +1070,11 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (128, 308)
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (128, 398); --Spawning Pool
 
 --Ghostfire Tribe	--CardIndex 430	--CharacterIndex 345	--ArcadeCharacterIndex 93
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ghostfire Tribe',
-'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Shallow_Grave/Card_Arcade_Warband_Shallow_Grave_Dust_Coven_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Shallow_Grave/Card_Arcade_Warband_Shallow_Grave_Dust_Coven_FK_back.png', 
-'http://htkb.online/SDWiki/SDE/FK/Arcade/Cards/Warbands/Shallow_Grave/Dust_Coven.xhtml', 
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+'Ghostfire Tribe',
+'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Tribal_Stone/Card_Arcade_Warband_Tribal_Stone_Ghostfire_Tribe_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Tribal_Stone/Card_Arcade_Warband_Tribal_Stone_Ghostfire_Tribe_FK_back.png', 
+'http://htkb.online/SDWiki/SDE/FK/Arcade/Cards/Warbands/Tribal_Stone/Ghostfire_Tribe.xhtml', 
 'Warband', 'FK', 'FK Core Set', 'Arcade', 
 'Stalking the Mistmourn Coast, the Ghostfire Tribes are surprisingly cunning adversaries.  Guided by their ancient troll ancestors, they possess tactical acumen hindered only by their fury once battlelust is upon them.');
 insert into Characters (CardIndex) VALUES (430);

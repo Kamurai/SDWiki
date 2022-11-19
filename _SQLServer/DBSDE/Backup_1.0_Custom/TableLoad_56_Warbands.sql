@@ -7,8 +7,8 @@
 --Blight Rat --Card Index 2350	--CharacterIndex 1196 --ExploreCharacterIndex 857
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 'Blight Rat',
-'http://htkb.info/SDE/1.0/Custom/Cards/Warbands/Dwelling/Card_Warband_Blight_Rat_1.0.png', 
-'http://htkb.info/SDE/1.0/Custom/Cards/Warbands/Dwelling/Card_Warband_Blight_Rat_1.0_back.png', 
+'http://htkb.info/SDE/1.0/Custom/Cards/Warbands/Dwelling/Card_Warband_Dwelling_Blight_Rat_1.0_Custom.png', 
+'http://htkb.info/SDE/1.0/Custom/Cards/Warbands/Dwelling/Card_Warband_Dwelling_Blight_Rat_1.0_Custom_back.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Custom/Cards/Warbands/Dwelling/Blight_Rat.xhtml', 
 'Warband', '1.0 Custom', '1.0 Custom Set', 'Explore',
 '');
@@ -31,8 +31,8 @@ insert into CustomCards (CardIndex, Author, SourceURL) VALUES(
 --Dire Bat --Card Index 2351	--CharacterIndex 1197 --ExploreCharacterIndex 858
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 'Dire Bat',
-'http://htkb.info/SDE/1.0/Custom/Cards/Warbands/Dwelling/Card_Warband_Dire_Bat_1.0.png', 
-'http://htkb.info/SDE/1.0/Custom/Cards/Warbands/Dwelling/Card_Warband_Dire_Bat_1.0_back.png', 
+'http://htkb.info/SDE/1.0/Custom/Cards/Warbands/Dwelling/Card_Warband_Dwelling_Dire_Bat_1.0_Custom.png', 
+'http://htkb.info/SDE/1.0/Custom/Cards/Warbands/Dwelling/Card_Warband_Dwelling_Dire_Bat_1.0_Custom_back.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Custom/Cards/Warbands/Dwelling/Dire_Bat.xhtml', 
 'Warband', '1.0 Custom', '1.0 Custom Set', 'Explore',
 '');
@@ -56,8 +56,8 @@ insert into CustomCards (CardIndex, Author, SourceURL) VALUES(
 --Dirt Eater --Card Index 2352	--CharacterIndex 1198 --ExploreCharacterIndex 859
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 'Dirt Eater',
-'http://htkb.info/SDE/1.0/Custom/Cards/Warbands/Dwelling/Card_Warband_Dirt_Eater_1.0.png', 
-'http://htkb.info/SDE/1.0/Custom/Cards/Warbands/Dwelling/Card_Warband_Dirt_Eater_1.0_back.png', 
+'http://htkb.info/SDE/1.0/Custom/Cards/Warbands/Dwelling/Card_Warband_Dwelling_Dirt_Eater_1.0_Custom.png', 
+'http://htkb.info/SDE/1.0/Custom/Cards/Warbands/Dwelling/Card_Warband_Dwelling_Dirt_Eater_1.0_Custom_back.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Custom/Cards/Warbands/Dwelling/Dirt_Eater.xhtml', 
 'Warband', '1.0 Custom', '1.0 Custom Set', 'Explore',
 '');
@@ -82,8 +82,8 @@ insert into CustomCards (CardIndex, Author, SourceURL) VALUES(
 --Salamander --Card Index 2353	--CharacterIndex 1199 --ExploreCharacterIndex 860
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 'Salamander',
-'http://htkb.info/SDE/1.0/Custom/Cards/Warbands/Dwelling/Card_Warband_Salamander_1.0.png', 
-'http://htkb.info/SDE/1.0/Custom/Cards/Warbands/Dwelling/Card_Warband_Salamander_1.0_back.png', 
+'http://htkb.info/SDE/1.0/Custom/Cards/Warbands/Dwelling/Card_Warband_Dwelling_Salamander_1.0_Custom.png', 
+'http://htkb.info/SDE/1.0/Custom/Cards/Warbands/Dwelling/Card_Warband_Dwelling_Salamander_1.0_Custom_back.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Custom/Cards/Warbands/Dwelling/Salamander.xhtml', 
 'Warband', '1.0 Custom', '1.0 Custom Set', 'Explore',
 '');
@@ -107,8 +107,8 @@ insert into CustomCards (CardIndex, Author, SourceURL) VALUES(
 --Spitting Spider --Card Index 2354	--CharacterIndex 1200 --ExploreCharacterIndex 861
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
 'Spitting Spider',
-'http://htkb.info/SDE/1.0/Custom/Cards/Warbands/Dwelling/Card_Warband_Spitting_Spider_1.0.png', 
-'http://htkb.info/SDE/1.0/Custom/Cards/Warbands/Dwelling/Card_Warband_Spitting_Spider_1.0_back.png', 
+'http://htkb.info/SDE/1.0/Custom/Cards/Warbands/Dwelling/Card_Warband_Dwelling_Spitting_Spider_1.0_Custom.png', 
+'http://htkb.info/SDE/1.0/Custom/Cards/Warbands/Dwelling/Card_Warband_Dwelling_Spitting_Spider_1.0_Custom_back.png', 
 'http://htkb.online/SDWiki/SDE/1.0/Custom/Cards/Warbands/Dwelling/Spitting_Spider.xhtml', 
 'Warband', '1.0 Custom', '1.0 Custom Set', 'Explore',
 '');

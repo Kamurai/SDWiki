@@ -2717,8 +2717,8 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (183
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (183, 371); --Spawning Pool
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (183,
-'http://htkb.info/SDE/FK/Cards/Warbands/Bramble_Knight/Standies/Bramble_Knight_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Warbands/Bramble_Knight/Standies/Bramble_Knight_FK_back.png',
+'http://htkb.info/SDE/Standies/Bramble_Knight.png', 
+'http://htkb.info/SDE/Standies/Bramble_Knight_back.png',
 'Neither', 'Small', 'Spawning Point', 0, 0, '', '1ST', '', '', 3, 0);
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (183, 2); --Armor
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (183, 'Spawning Point', 'Start', 0);
@@ -2736,8 +2736,8 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (184, 2);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (184, 336); --Slow
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (184,
-'http://htkb.info/SDE/FK/Cards/Warbands/Bramble_Knight/Standies/Billmen_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Warbands/Bramble_Knight/Standies/Billmen_FK_back.png', 
+'http://htkb.info/SDE/Standies/Billmen.png', 
+'http://htkb.info/SDE/Standies/Billmen_back.png', 
 'Either', 'Small', 'Chimera', 6, 1, '3B', '1ST', '2B', '1B 1R', 1, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (184, 1, 2); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (184, 2); --Armor
@@ -2758,8 +2758,8 @@ insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (185
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (185, 612); --Supremely Skilled Shrieking Squawk Strike
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (185,
-'http://htkb.info/SDE/FK/Cards/Warbands/Bramble_Knight/Standies/Frog_Knight_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Warbands/Bramble_Knight/Standies/Frog_Knight_FK_back.png', 
+'http://htkb.info/SDE/Standies/Frog_Knight.png', 
+'http://htkb.info/SDE/Standies/Frog_Knight_back.png', 
 'Either', 'Small', 'Chimera', 8, 2, '2B 1R', '2ST', '2B', '1B 1R', 1, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (185, 1, 1); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (185, 2); --Armor
@@ -2778,8 +2778,8 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (186, 2);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (186, 282); --Massive Damage
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (186,
-'http://htkb.info/SDE/FK/Cards/Warbands/Bramble_Knight/Standies/Grobbit_Executioner_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Warbands/Bramble_Knight/Standies/Grobbit_Executioner_FK_back.png',
+'http://htkb.info/SDE/Standies/Grobbit_Executioner.png', 
+'http://htkb.info/SDE/Standies/Grobbit_Executioner_back.png',
 'Either', 'Large', 'Chimera', 6, 2, '3B 1R', '1B 1R', '1B', '3B', 3, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (186, 1, 2); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (186, 2); --Armor
@@ -2801,8 +2801,8 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (187
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (187, 373); --Spawning Pool
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (187,
-'http://htkb.info/SDE/FK/Cards/Warbands/Claw_Shrine/Standies/Claw_Shrine_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Warbands/Claw_Shrine/Standies/Claw_Shrine_FK_back.png', 
+'http://htkb.info/SDE/Standies/Claw_Shrine.png', 
+'http://htkb.info/SDE/Standies/Claw_Shrine_back.png', 
 'Neither', 'Small', 'Spawning Point', 0, 0, '', '1ST', '', '', 4, 0);
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (187, 2); --Armor
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (187, 'Spawning Point', 'Start', 0);
@@ -2823,8 +2823,8 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (188
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (188, 169); --Assassinate
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (188,
-'http://htkb.info/SDE/FK/Cards/Warbands/Claw_Shrine/Standies/Black_Claw_Assassin_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Warbands/Claw_Shrine/Standies/Black_Claw_Assassin_FK_back.png',
+'http://htkb.info/SDE/Standies/Black_Claw_Assassin.png', 
+'http://htkb.info/SDE/Standies/Black_Claw_Assassin_back.png',
 'Either', 'Small', 'Kobold', 7, 2, '2R', '0ST', '1B1R', '2R', 1, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (188, 1, 1); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (188, 2); --Armor
@@ -2845,8 +2845,8 @@ insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (189
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (189, 446); --Monster Tamer
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (189,
-'http://htkb.info/SDE/FK/Cards/Warbands/Claw_Shrine/Standies/Claw_Trainer_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Warbands/Claw_Shrine/Standies/Claw_Trainer_FK_back.png',
+'http://htkb.info/SDE/Standies/Claw_Trainer.png', 
+'http://htkb.info/SDE/Standies/Claw_Trainer_back.png',
 'Either', 'Small', 'Kobold', 7, 1, '3B', '0ST', '1B1R', '1B1R', 1, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (189, 1, 1); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (189, 2); --Armor
@@ -2867,8 +2867,8 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (190
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (190, 188); --Blood Scent
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (190,
-'http://htkb.info/SDE/FK/Cards/Warbands/Claw_Shrine/Standies/Drake_Hound_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Warbands/Claw_Shrine/Standies/Drake_Hound_FK_back.png', 
+'http://htkb.info/SDE/Standies/Drake_Hound.png', 
+'http://htkb.info/SDE/Standies/Drake_Hound_back.png', 
 'Either', 'Small', 'Drake', 7, 1, '3B', '1ST', '2B', '3B', 1, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (190, 1, 1); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (190, 2); --Armor
@@ -2890,8 +2890,8 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (191
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (191, 375); --Spawning Pool
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (191,
-'http://htkb.info/SDE/FK/Cards/Warbands/Egg_Clutch/Standies/Egg_Clutch_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Warbands/Egg_Clutch/Standies/Egg_Clutch_FK_back.png', 
+'http://htkb.info/SDE/Standies/Egg_Clutch.png', 
+'http://htkb.info/SDE/Standies/Egg_Clutch_back.png', 
 'Neither', 'Small', 'Spawning Point', 0, 0, '', '1ST', '', '', 3, 0);
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (191, 2); --Armor
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (191, 'Spawning Point', 'Start', 0);
@@ -2909,8 +2909,8 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (192, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (192, 296); --Pile-On
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (192,
-'http://htkb.info/SDE/FK/Cards/Warbands/Egg_Clutch/Standies/Hatchlings_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Warbands/Egg_Clutch/Standies/Hatchlings_FK_back.png', 
+'http://htkb.info/SDE/Standies/Hatchlings.png', 
+'http://htkb.info/SDE/Standies/Hatchlings_back.png', 
 'Either', 'Small', 'Drake', 6, 2, '3B', '0ST', '2B', '3B', 2, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (192, 1, 1); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (192, 2); --Armor
@@ -2930,8 +2930,8 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (193
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (193, 296); --Pile-On
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (193,
-'http://htkb.info/SDE/FK/Cards/Warbands/Egg_Clutch/Standies/Whelp_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Warbands/Egg_Clutch/Standies/Whelp_FK_back.png', 
+'http://htkb.info/SDE/Standies/Whelp.png', 
+'http://htkb.info/SDE/Standies/Whelp_back.png', 
 'Either', 'Small', 'Drake', 6, 1, '2B1R', '1ST', '3B', '3B', 1, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (193, 1, 1); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (193, 2); --Armor
@@ -2953,8 +2953,8 @@ insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (194
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (194, 281); --Dive Bomb
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (194,
-'http://htkb.info/SDE/FK/Cards/Warbands/Egg_Clutch/Standies/Wyrmling_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Warbands/Egg_Clutch/Standies/Wyrmling_FK_back.png', 
+'http://htkb.info/SDE/Standies/Wyrmling.png', 
+'http://htkb.info/SDE/Standies/Wyrmling_back.png', 
 'Either', 'Small', 'Drake', 6, 2, '2B1R', '1ST', '3B', '3B', 1, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (194, 1, 2); --Strength
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (194, 4, 6); --Dexterity
@@ -2962,12 +2962,12 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (1
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (194, 'Minion', '8 Bit', 1);
 
 --Clan Fire Shrine
---Elemental Shrine --CardIndex 280 --CharacterIndex 195 --ExploreCharacterIndex 195
+--Clan Fire Shrine --CardIndex 280 --CharacterIndex 195 --ExploreCharacterIndex 195
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
-'Elemental Shrine',
+'Clan Fire Shrine',
 'http://htkb.info/SDE/FK/Cards/Warbands/Clan_Fire_Shrine/Card_Warband_Clan_Fire_Shrine_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Warbands/Clan_Fire_Shrine/Card_Warband_Clan_Fire_Shrine_FK_back.png', 
-'http://htkb.online/SDWiki/SDE/FK/Explore/Cards/Warbands/Clan_Fire_Shrine/Clan_Fire_Shrine.xhtml', 
+'http://htkb.online/SDWiki/SDE/FK/Explore/Cards/Warbands/Clan_Fire_Shrine/Shrine.xhtml', 
 'Warband', 'FK', 'FK Core Set', 'Explore',
 '');
 insert into Characters (CardIndex) VALUES (280);
@@ -2979,18 +2979,18 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (195
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (195, 377); --Spawning Pool
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (195,
-'http://htkb.info/SDE/FK/Cards/Warbands/Clan_Fire_Shrine/Standies/Clan_Fire_Shrine_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Warbands/Clan_Fire_Shrine/Standies/Clan_Fire_Shrine_FK_back.png',
+'http://htkb.info/NAS/Standies/Clan_Fire_Shrine.png', 
+'http://htkb.info/NAS/Standies/Clan_Fire_Shrine_back.png',
 'Neither', 'Small', 'Spawning Point', 0, 0, '', '1ST', '', '', 4, 0);
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (195, 2); --Armor
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (195, 'Spawning Point', 'Start', 0);
 
---Chunin --CardIndex 281 --CharacterIndex 196 --ExploreCharacterIndex 196
+--Clan Fire Shrine Chunin --CardIndex 281 --CharacterIndex 196 --ExploreCharacterIndex 196
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
-'Chunin',
+'Clan Fire Shrine Chunin',
 'http://htkb.info/SDE/FK/Cards/Warbands/Clan_Fire_Shrine/Card_Warband_Clan_Fire_Shrine_Chunin_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Warbands/Clan_Fire_Shrine/Card_Warband_Clan_Fire_Shrine_Chunin_FK_back.png', 
-'http://htkb.online/SDWiki/SDE/FK/Explore/Cards/Warbands/Clan_Fire_Shrine/Clan_Fire_Chunin.xhtml', 
+'http://htkb.online/SDWiki/SDE/FK/Explore/Cards/Warbands/Clan_Fire_Shrine/Chunin.xhtml', 
 'Warband', 'FK', 'FK Core Set', 'Explore',
 'Aspring leaders and skilled fighters within the clan are called upon to lead their own team of ninjas as chunin.  This is an incredible honor, and the trials to come will not only test a chunin''s leadership and skills, but their spirit as well.');
 insert into Characters (CardIndex) VALUES (281);
@@ -3000,19 +3000,19 @@ insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (196
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (196, 281); --Elemental Master
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (196,
-'http://htkb.info/SDE/FK/Cards/Warbands/Clan_Fire_Shrine/Standies/Clan_Fire_Chunin_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Warbands/Clan_Fire_Shrine/Standies/Clan_Fire_Chunin_FK_back.png',
+'http://htkb.info/NAS/Standies/Clan_Fire_Shrine_Chunin.png', 
+'http://htkb.info/NAS/Standies/Clan_Fire_Shrine_Chunin_back.png',
 'Masculine', 'Small', 'Ninja', 6, 3, '2B1R', '3B', '3B', '3B', 3, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (196, 1, 1); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (196, 2); --Armor
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (196, 'Elite', '16 Bit', 2);
 
---Kaiken --CardIndex 282 --CharacterIndex 197 --ExploreCharacterIndex 197
+--Clan Fire Shrine Kaiken --CardIndex 282 --CharacterIndex 197 --ExploreCharacterIndex 197
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
-'Kaiken',
+'Clan Fire Shrine Kaiken',
 'http://htkb.info/SDE/FK/Cards/Warbands/Clan_Fire_Shrine/Card_Warband_Clan_Fire_Shrine_Kaiken_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Warbands/Clan_Fire_Shrine/Card_Warband_Clan_Fire_Shrine_Kaiken_FK_back.png', 
-'http://htkb.online/SDWiki/SDE/FK/Explore/Cards/Warbands/Clan_Fire_Shrine/Clan_Fire_Kaiken.xhtml', 
+'http://htkb.online/SDWiki/SDE/FK/Explore/Cards/Warbands/Clan_Fire_Shrine/Kaiken.xhtml', 
 'Warband', 'FK', 'FK Core Set', 'Explore',
 'Kaiken are the backbone of the clans.  To be a kaiken is not to be relegated to a basic or role.  Training to become a kaiken starts from birth and is ingrained through hardship, conditioning, and trials that normal people could not withstand.  Kaiken are masters of the art of stealth, the sword, and the shuriken.  As their experience grows, they learn to tap elemental magic, unlocking potent abilities to rival even the great Heroes.');
 insert into Characters (CardIndex) VALUES (282);
@@ -3021,20 +3021,20 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (197
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (197, 174); --Back Strike
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (197,
-'http://htkb.info/SDE/FK/Cards/Warbands/Clan_Fire_Shrine/Standies/Clan_Fire_Kaiken_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Warbands/Clan_Fire_Shrine/Standies/Clan_Fire_Kaiken_FK_back.png',
+'http://htkb.info/NAS/Standies/Clan_Fire_Shrine_Kaiken.png', 
+'http://htkb.info/NAS/Standies/Clan_Fire_Shrine_Kaiken_back.png',
 'Masculine', 'Small', 'Ninja', 6, 1, '3B', '1ST', '2B', '3B', 1, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (197, 1, 1); --Strength
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (197, 4, 3); --Dexterity
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (197, 2); --Armor
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (197, 'Minion', '8 Bit', 1);
 
---Kunoichi --CardIndex 283 --CharacterIndex 198 --ExploreCharacterIndex 198
+--Clan Fire Shrine Kunoichi --CardIndex 283 --CharacterIndex 198 --ExploreCharacterIndex 198
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
-'Kunoichi',
+'Clan Fire Shrine Kunoichi',
 'http://htkb.info/SDE/FK/Cards/Warbands/Clan_Fire_Shrine/Card_Warband_Clan_Fire_Shrine_Kunoichi_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Warbands/Clan_Fire_Shrine/Card_Warband_Clan_Fire_Shrine_Kunoichi_FK_back.png', 
-'http://htkb.online/SDWiki/SDE/FK/Explore/Cards/Warbands/Clan_Fire_Shrine/Clan_Fire_Kunoichi.xhtml', 
+'http://htkb.online/SDWiki/SDE/FK/Explore/Cards/Warbands/Clan_Fire_Shrine/Kunoichi.xhtml', 
 'Warband', 'FK', 'FK Core Set', 'Explore',
 'Kunoichi are specialized female fighters and scouts for the clans.  Though deadly and widely trained in the ninja arts, the kunoichi put particular emphasis on speed and agility.  In battle, kunoichi focus on key mission objectives such as scouting targets and carrying vital missives.');
 insert into Characters (CardIndex) VALUES (283);
@@ -3043,20 +3043,20 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (198
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (198, 674); --Wind in the Forest
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (198,
-'http://htkb.info/SDE/FK/Cards/Warbands/Clan_Fire_Shrine/Standies/Clan_Fire_Kunoichi_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Warbands/Clan_Fire_Shrine/Standies/Clan_Fire_Kunoichi_FK_back.png',
+'http://htkb.info/NAS/Standies/Clan_Fire_Shrine_Kunoichi.png', 
+'http://htkb.info/NAS/Standies/Clan_Fire_Shrine_Kunoichi_back.png',
 'Feminine', 'Small', 'Ninja', 8, 1, '3B', '0ST', '1B1R', '2R', 1, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (198, 1, 1); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (198, 2); --Armor
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (198, 4); --Dexterity
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (198, 'Minion', '8 Bit', 1);
 
---Madoushi --CardIndex 284 --CharacterIndex 199 --ExploreCharacterIndex 199
+--Clan Fire Shrine Madoushi --CardIndex 284 --CharacterIndex 199 --ExploreCharacterIndex 199
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
-'Madoushi',
+'Clan Fire Shrine Madoushi',
 'http://htkb.info/SDE/FK/Cards/Warbands/Clan_Fire_Shrine/Card_Warband_Clan_Fire_Shrine_Madoushi_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Warbands/Clan_Fire_Shrine/Card_Warband_Clan_Fire_Shrine_Madoushi_FK_back.png', 
-'http://htkb.online/SDWiki/SDE/FK/Explore/Cards/Warbands/Clan_Fire_Shrine/Clan_Fire_Madoushi.xhtml', 
+'http://htkb.online/SDWiki/SDE/FK/Explore/Cards/Warbands/Clan_Fire_Shrine/Madoushi.xhtml', 
 'Warband', 'FK', 'FK Core Set', 'Explore',
 'All clans possess the mystics known as madoushi.  In some clans, they are revered as sages, alchemists and healers.  Other clans regard them as witches, and tolerate them with barely concealed mistrust and fear.  Whether they are revered or reviled, all madoushi are able to harness the powers native to the lands of their clan.  With training, study, and mediataion, a madoushi learns to draw from the lines of Ki that race through the landscape, summoning the very elements to do their bidding.');
 insert into Characters (CardIndex) VALUES (284);
@@ -3066,20 +3066,20 @@ insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (199
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (199, 677); --Wind Walk
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (199,
-'http://htkb.info/SDE/FK/Cards/Warbands/Clan_Fire_Shrine/Standies/Clan_Fire_Madoushi_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Warbands/Clan_Fire_Shrine/Standies/Clan_Fire_Madoushi_FK_back.png',
+'http://htkb.info/NAS/Standies/Clan_Fire_Shrine_Madoushi.png', 
+'http://htkb.info/NAS/Standies/Clan_Fire_Shrine_Madoushi_back.png',
 'Masculine', 'Small', 'Ninja', 6, 2, '2B', '1ST', '2R', '3B', 2, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (199, 1, 1); --Strength
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (199, 3, 6); --Magic
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (199, 2); --Armor
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (199, 'Minion', '8 Bit', 2);
 
---Yajiri --CardIndex 285 --CharacterIndex 200 --ExploreCharacterIndex 200
+--Clan Fire Shrine Yajiri --CardIndex 285 --CharacterIndex 200 --ExploreCharacterIndex 200
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
-'Yajiri',
+'Clan Fire Shrine Yajiri',
 'http://htkb.info/SDE/FK/Cards/Warbands/Clan_Fire_Shrine/Card_Warband_Clan_Fire_Shrine_Yajiri_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Warbands/Clan_Fire_Shrine/Card_Warband_Clan_Fire_Shrine_Yajiri_FK_back.png', 
-'http://htkb.online/SDWiki/SDE/FK/Explore/Cards/Warbands/Clan_Fire_Shrine/Clan_Fire_Yajiri.xhtml', 
+'http://htkb.online/SDWiki/SDE/FK/Explore/Cards/Warbands/Clan_Fire_Shrine/Yajiri.xhtml', 
 'Warband', 'FK', 'FK Core Set', 'Explore',
 'Yajiri specialize in attacking from afar.  Their black shafted arrows are renowned for striking with deadly accuracy.  While the bow is utilized throughout all the clans, many have developed their own unique forms of ranged warfare.  The Kitsune''s blowguns eliminate sentries with only the sound of a silent rush of wind to mark their use; while the thunder of the Tora''s rifle sows confusion among the enemy ranks, even as it wreaks terrible devastation.  No matter the form it takes, a yajiri''s value to their clan cannot be underestimated.');
 insert into Characters (CardIndex) VALUES (285);
@@ -3088,8 +3088,8 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (200
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (200, 363); --Wind of Blades
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (200,
-'http://htkb.info/SDE/FK/Cards/Warbands/Clan_Fire_Shrine/Standies/Clan_Fire_Yajiri_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Warbands/Clan_Fire_Shrine/Standies/Clan_Fire_Yajiri_FK_back.png',
+'http://htkb.info/NAS/Standies/Clan_Fire_Shrine_Yajiri.png', 
+'http://htkb.info/NAS/Standies/Clan_Fire_Shrine_Yajiri_back.png',
 'Masculine', 'Small', 'Ninja', 6, 1, '2B', '0ST', '2B', '3B', 1, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (200, 1, 1); --Strength
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (200, 4, 6); --Dexterity
@@ -3113,8 +3113,8 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (201
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (201, 379); --Spawning Pool
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (201,
-'http://htkb.info/SDE/FK/Cards/Warbands/Fungal_Growth/Standies/Fungal_Growth_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Warbands/Fungal_Growth/Standies/Fungal_Growth_FK_back.png',
+'http://htkb.info/SDE/Standies/Fungal_Growth.png', 
+'http://htkb.info/SDE/Standies/Fungal_Growth_back.png',
 'Neither', 'Small', 'Spawning Point', 0, 0, '', '1ST', '', '', 3, 0);
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (201, 2); --Armor
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (201, 'Spawning Point', 'Start', 0);
@@ -3134,8 +3134,8 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (202
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (202, 200); --Bounce
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (202,
-'http://htkb.info/SDE/FK/Cards/Warbands/Fungal_Growth/Standies/Kinoshroom_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Warbands/Fungal_Growth/Standies/Kinoshroom_FK_back.png',
+'http://htkb.info/SDE/Standies/Kinoshroom.png', 
+'http://htkb.info/SDE/Standies/Kinoshroom_back.png',
 'Neither', 'Small', 'Kinoko', 6, 1, '3B', '0ST', '1B', '2B', 1, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (202, 1, 1); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (202, 2); --Armor
@@ -3157,8 +3157,8 @@ insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (203
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (203, 624); --Tempermental Toadstool
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (203,
-'http://htkb.info/SDE/FK/Cards/Warbands/Fungal_Growth/Standies/Okoshroom_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Warbands/Fungal_Growth/Standies/Okoshroom_FK_back.png',
+'http://htkb.info/SDE/Standies/Okoshroom.png', 
+'http://htkb.info/SDE/Standies/Okoshroom_back.png',
 'Neither', 'Large', 'Kinoko', 6, 3, '3B', '1ST2B', '1B', '2B', 4, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (203, 1, 2); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (203, 2); --Armor
@@ -3178,8 +3178,8 @@ insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (204
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (204, 347); --Funky Fungus Sniffer
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (204,
-'http://htkb.info/SDE/FK/Cards/Warbands/Fungal_Growth/Standies/Truffle_Pig_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Warbands/Fungal_Growth/Standies/Truffle_Pig_FK_back.png',
+'http://htkb.info/SDE/Standies/Truffle_Pig.png', 
+'http://htkb.info/SDE/Standies/Truffle_Pig_back.png',
 'Either', 'Small', 'Pig', 7, 2, '2R', '1ST', '3B', '2B', 2, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (204, 1, 1); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (204, 2); --Armor
@@ -3202,8 +3202,8 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (205
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (205, 381); --Spawning Pool
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (205,
-'http://htkb.info/SDE/FK/Cards/Warbands/Grabby_House/Standies/Grabby_House_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Warbands/Grabby_House/Standies/Grabby_House_FK_back.png',
+'http://htkb.info/SDE/Standies/Grabby_House.png', 
+'http://htkb.info/SDE/Standies/Grabby_House_back.png',
 'Neither', 'Small', 'Spawning Point', 0, 0, '', '1ST', '', '', 4, 0);
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (205, 2); --Armor
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (205, 'Spawning Point', 'Start', 0);
@@ -3224,8 +3224,8 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (206
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (206, 322); --Homunculus
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (206,
-'http://htkb.info/SDE/FK/Cards/Warbands/Grabby_House/Standies/Prowler_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Warbands/Grabby_House/Standies/Prowler_FK_back.png',
+'http://htkb.info/SDE/Standies/Prowler.png', 
+'http://htkb.info/SDE/Standies/Prowler_back.png',
 'Either', 'Small', 'Undead Zombie', 8, 2, '3B', '1ST', '1B', '3B', 1, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (206, 1, 1); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (206, 2); --Armor
@@ -3247,8 +3247,8 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (207
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (207, 276); --Disgusting
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (207,
-'http://htkb.info/SDE/FK/Cards/Warbands/Grabby_House/Standies/Pudge_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Warbands/Grabby_House/Standies/Pudge_FK_back.png',
+'http://htkb.info/SDE/Standies/Pudge.png', 
+'http://htkb.info/SDE/Standies/Pudge_back.png',
 'Either', 'Small', 'Undead Zombie', 5, 1, '2B', '1ST', '1B', '1B', 2, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (207, 1, 1); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (207, 2); --Armor
@@ -3269,8 +3269,8 @@ insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (208
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (208, 201); --Brain Food
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (208,
-'http://htkb.info/SDE/FK/Cards/Warbands/Grabby_House/Standies/Shamble_Priest_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Warbands/Grabby_House/Standies/Shamble_Priest_FK_back.png',
+'http://htkb.info/SDE/Standies/Shamble_Priest.png', 
+'http://htkb.info/SDE/Standies/Shamble_Priest_back.png',
 'Masculine', 'Small', 'Witch', 6, 2, '2B', '3B', '2R', '1B1R', 3, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (208, 1, 1); --Strength
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (208, 3, 6); --Magic
@@ -3291,8 +3291,8 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (209
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (209, 291); --Mob
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (209,
-'http://htkb.info/SDE/FK/Cards/Warbands/Grabby_House/Standies/Swampie_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Warbands/Grabby_House/Standies/Swampie_FK_back.png',
+'http://htkb.info/SDE/Standies/Swampie.png', 
+'http://htkb.info/SDE/Standies/Swampie_back.png',
 'Either', 'Small', 'Undead Zombie', 5, 1, '2B', '1ST', '1B', '1B', 1, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (209, 1, 1); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (209, 2); --Armor
@@ -3315,8 +3315,8 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (210
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (210, 383); --Spawning Pool
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (210,
-'http://htkb.info/SDE/FK/Cards/Warbands/Kobold_Warrens/Standies/Kobold_Warrens_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Warbands/Kobold_Warrens/Standies/Kobold_Warrens_FK_back.png',
+'http://htkb.info/SDE/Standies/Kobold_Warrens.png', 
+'http://htkb.info/SDE/Standies/Kobold_Warrens_back.png',
 'Neither', 'Small', 'Spawning Point', 0, 0, '', '1ST', '', '', 4, 0);
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (210, 2); --Armor
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (210, 'Spawning Point', 'Start', 0);
@@ -3336,8 +3336,8 @@ insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (211
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (211, 546); --Shadow Breath
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (211,
-'http://htkb.info/SDE/FK/Cards/Warbands/Kobold_Warrens/Standies/Dragon_Priest_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Warbands/Kobold_Warrens/Standies/Dragon_Priest_FK_back.png',
+'http://htkb.info/SDE/Standies/Dragon_Priest.png', 
+'http://htkb.info/SDE/Standies/Dragon_Priest_back.png',
 'Either', 'Small', 'Kobold', 7, 3, '2B', '1B1R', '2R', '1B1R', 3, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (211, 1, 1); --Strength
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (211, 3, 6); --Magic
@@ -3359,8 +3359,8 @@ insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (212
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (212, 567); --Smoke Pot
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (212,
-'http://htkb.info/SDE/FK/Cards/Warbands/Kobold_Warrens/Standies/Flinger_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Warbands/Kobold_Warrens/Standies/Flinger_FK_back.png',
+'http://htkb.info/SDE/Standies/Flinger.png', 
+'http://htkb.info/SDE/Standies/Flinger_back.png',
 'Either', 'Small', 'Kobold', 7, 1, '2B', '0ST', '2B', '1B1R', 1, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (212, 1, 1); --Strength
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (212, 4, 6); --Dexterity
@@ -3380,8 +3380,8 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (213, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (213, 291); --Mob
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (213,
-'http://htkb.info/SDE/FK/Cards/Warbands/Kobold_Warrens/Standies/Gouger_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Warbands/Kobold_Warrens/Standies/Gouger_FK_back.png',
+'http://htkb.info/SDE/Standies/Gouger.png', 
+'http://htkb.info/SDE/Standies/Gouger_back.png',
 'Either', 'Small', 'Kobold', 7, 1, '3B', '0ST', '2B', '1B1R', 1, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (213, 1, 2); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (213, 2); --Armor
@@ -3402,8 +3402,8 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (214
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (214, 537); --Scalewall
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (214,
-'http://htkb.info/SDE/FK/Cards/Warbands/Kobold_Warrens/Standies/Ironscale_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Warbands/Kobold_Warrens/Standies/Ironscale_FK_back.png',
+'http://htkb.info/SDE/Standies/Ironscale.png', 
+'http://htkb.info/SDE/Standies/Ironscale_back.png',
 'Either', 'Small', 'Kobold', 7, 2, '2R', '2ST', '2B', '1B1R', 1, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (214, 1, 1); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (214, 2); --Armor
@@ -3422,8 +3422,8 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (215, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (215, 291); --Mob
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (215,
-'http://htkb.info/SDE/FK/Cards/Warbands/Kobold_Warrens/Standies/Knucklehead_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Warbands/Kobold_Warrens/Standies/Knucklehead_FK_back.png',
+'http://htkb.info/SDE/Standies/Knucklehead.png', 
+'http://htkb.info/SDE/Standies/Knucklehead_back.png',
 'Either', 'Small', 'Kobold', 7, 1, '3B', '1ST', '2B', '1B1R', 1, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (215, 1, 1); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (215, 2); --Armor
@@ -3446,8 +3446,8 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (216
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (216, 385); --Spawning Pool
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (216,
-'http://htkb.info/SDE/FK/Cards/Warbands/Lava_Whirl/Standies/Lava_Whirl_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Warbands/Lava_Whirl/Standies/Lava_Whirl_FK_back.png',
+'http://htkb.info/SDE/Standies/Lava_Whirl.png', 
+'http://htkb.info/SDE/Standies/Lava_Whirl_back.png',
 'Neither', 'Small', 'Spawning Point', 0, 0, '', '1ST', '', '', 3, 0);
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (216, 2); --Armor
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (216, 'Spawning Point', 'Start', 0);
@@ -3468,8 +3468,8 @@ insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (217
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (217, 218); --Burning Chitin
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (217,
-'http://htkb.info/SDE/FK/Cards/Warbands/Lava_Whirl/Standies/Blaze_Beetle_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Warbands/Lava_Whirl/Standies/Blaze_Beetle_FK_back.png',
+'http://htkb.info/SDE/Standies/Blaze_Beetle.png', 
+'http://htkb.info/SDE/Standies/Blaze_Beetle_back.png',
 'Either', 'Large', 'Elemental Bug', 6, 3, '2B1R', '1ST1R', '2B', '2B', 3, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (217, 1, 3); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (217, 2); --Armor
@@ -3491,8 +3491,8 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (218
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (218, 590); --Splort
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (218,
-'http://htkb.info/SDE/FK/Cards/Warbands/Lava_Whirl/Standies/Burning_Gel_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Warbands/Lava_Whirl/Standies/Burning_Gel_FK_back.png',
+'http://htkb.info/SDE/Standies/Burning_Gel.png', 
+'http://htkb.info/SDE/Standies/Burning_Gel_back.png',
 'Either', 'Large', 'Elemental Slime', 6, 2, '3B', '0ST', '3B', '1B1R', 1, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (218, 1, 1); --Strength
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (218, 3, 6); --Magic
@@ -3515,8 +3515,8 @@ insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (219
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (219, 168); --Ash Cloud
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (219,
-'http://htkb.info/SDE/FK/Cards/Warbands/Lava_Whirl/Standies/Ember_Hound_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Warbands/Lava_Whirl/Standies/Ember_Hound_FK_back.png',
+'http://htkb.info/SDE/Standies/Ember_Hound.png', 
+'http://htkb.info/SDE/Standies/Ember_Hound_back.png',
 'Either', 'Small', 'Elemental Wolf', 8, 1, '2R', '1ST', '2B', '3B', 1, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (219, 1, 2); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (219, 2); --Armor
@@ -3539,8 +3539,8 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (220
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (220, 337); --Small
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (220,
-'http://htkb.info/SDE/FK/Cards/Warbands/Lava_Whirl/Standies/Fire_Gel_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Warbands/Lava_Whirl/Standies/Fire_Gel_FK_back.png',
+'http://htkb.info/SDE/Standies/Fire_Gel.png', 
+'http://htkb.info/SDE/Standies/Fire_Gel_back.png',
 'Either', 'Small', 'Elemental Slime', 6, 1, '3B', '0ST', '3B', '1B1R', 1, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (220, 1, 2); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (220, 2); --Armor
@@ -3563,8 +3563,8 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (221
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (221, 387); --Spawning Pool
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (221,
-'http://htkb.info/SDE/FK/Cards/Warbands/Old_Growth_Hollow/Standies/Old_Growth_Hollow_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Warbands/Old_Growth_Hollow/Standies/Old_Growth_Hollow_FK_back.png',
+'http://htkb.info/SDE/Standies/Old_Growth_Hollow.png', 
+'http://htkb.info/SDE/Standies/Old_Growth_Hollow_back.png',
 'Neither', 'Small', 'Spawning Point', 0, 0, '', '1ST', '', '', 4, 0);
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (221, 2); --Armor
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (221, 'Spawning Point', 'Start', 0);
@@ -3587,8 +3587,8 @@ insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (222
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (222, 528); --Rootdown
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (222,
-'http://htkb.info/SDE/FK/Cards/Warbands/Old_Growth_Hollow/Standies/Old_Growth_Hollow_King_Sprout_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Warbands/Old_Growth_Hollow/Standies/King_Sprout_FK_back.png',
+'http://htkb.info/SDE/Standies/King_Sprout.png', 
+'http://htkb.info/SDE/Standies/King_Sprout_back.png',
 'Neither', 'Large', 'Shapeshift', 0, 3, '2B2R', '2R', '3B', '1B', 4, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (222, 1, 4); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (222, 2); --Armor
@@ -3609,8 +3609,8 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (223
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (223, 362); --Virulent
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (223,
-'http://htkb.info/SDE/FK/Cards/Warbands/Old_Growth_Hollow/Standies/Mook_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Warbands/Old_Growth_Hollow/Standies/Mook_FK_back.png',
+'http://htkb.info/SDE/Standies/Mook.png', 
+'http://htkb.info/SDE/Standies/Mook_back.png',
 'Neither', 'Small', 'Kodama', 6, 1, '3B', '1ST', '3B', '2B', 1, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (223, 1, 1); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (223, 2); --Armor
@@ -3631,8 +3631,8 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (224
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (224, 515); --Rampant Growth
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (224,
-'http://htkb.info/SDE/FK/Cards/Warbands/Old_Growth_Hollow/Standies/Sprout_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Warbands/Old_Growth_Hollow/Standies/Sprout_FK_back.png',
+'http://htkb.info/SDE/Standies/Sprout.png', 
+'http://htkb.info/SDE/Standies/Sprout_back.png',
 'Neither', 'Small', 'Kodama', 6, 1, '1B', '2R', '3B', '1B1R', 2, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (224, 1, 1); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (224, 2); --Armor
@@ -3654,8 +3654,8 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (225
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (225, 407); --It's Medicinal
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (225,
-'http://htkb.info/SDE/FK/Cards/Warbands/Old_Growth_Hollow/Standies/Turniphead_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Warbands/Old_Growth_Hollow/Standies/Turniphead_FK_back.png',
+'http://htkb.info/SDE/Standies/Turniphead.png', 
+'http://htkb.info/SDE/Standies/Turniphead_back.png',
 'Neither', 'Small', 'Kodama', 6, 1, '2B', '0ST', '3B', '2B1R', 1, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (225, 1, 1); --Strength
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (225, 4, 6); --Dexterity
@@ -3677,8 +3677,8 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (226
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (226, 322); --Pollen Dream
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (226,
-'http://htkb.info/SDE/FK/Cards/Warbands/Old_Growth_Hollow/Standies/Wisp_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Warbands/Old_Growth_Hollow/Standies/Wisp_FK_back.png',
+'http://htkb.info/SDE/Standies/Wisp.png', 
+'http://htkb.info/SDE/Standies/Wisp_back.png',
 'Neither', 'Small', 'Kodama', 6, 2, '1B', '1ST', '2B1R', '3B', 2, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (226, 3, 6); --Magic
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (226, 2); --Armor
@@ -3701,8 +3701,8 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (227
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (227, 389); --Spawning Pool
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (227,
-'http://htkb.info/SDE/FK/Cards/Warbands/Pumpkin_Patch/Standies/Pumpkin_Patch_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Warbands/Pumpkin_Patch/Standies/Pumpkin_Patch_FK_back.png',
+'http://htkb.info/SDE/Standies/Pumpkin_Patch.png', 
+'http://htkb.info/SDE/Standies/Pumpkin_Patch_back.png',
 'Neither', 'Small', 'Spawning Point', 0, 0, '', '1ST', '', '', 3, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (227, 1, 2); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (227, 2); --Armor
@@ -3725,8 +3725,8 @@ insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (228
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (228, 559); --Silk Spinner
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (228,
-'http://htkb.info/SDE/FK/Cards/Warbands/Pumpkin_Patch/Standies/Crypt_Spider_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Warbands/Pumpkin_Patch/Standies/Crypt_Spider_FK_back.png',
+'http://htkb.info/SDE/Standies/Crypt_Spider.png', 
+'http://htkb.info/SDE/Standies/Crypt_Spider_back.png',
 'Either', 'Large', 'Spider', 6, 3, '2R', '3B', '2B', '2R', 3, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (228, 1, 2); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (228, 2); --Armor
@@ -3747,8 +3747,8 @@ insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (229
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (229, 639); --Transmogrify
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (229,
-'http://htkb.info/SDE/FK/Cards/Warbands/Pumpkin_Patch/Standies/Curse_Coven_Witch_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Warbands/Pumpkin_Patch/Standies/Curse_Coven_Witch_FK_back.png',
+'http://htkb.info/SDE/Standies/Curse_Coven_Witch.png', 
+'http://htkb.info/SDE/Standies/Curse_Coven_Witch_back.png',
 'Feminine', 'Small', 'Witch', 8, 2, '1B', '0ST', '3B', '3B', 2, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (229, 1, 1); --Strength
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (229, 3, 6); --Magic
@@ -3770,8 +3770,8 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (230
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (230, 283); --Doom
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (230,
-'http://htkb.info/SDE/FK/Cards/Warbands/Pumpkin_Patch/Standies/Skullbat_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Warbands/Pumpkin_Patch/Standies/Skullbat_FK_back.png',
+'http://htkb.info/SDE/Standies/Skullbat.png', 
+'http://htkb.info/SDE/Standies/Skullbat_back.png',
 'Either', 'Small', 'Undead Bat', 6, 1, '1B', '0ST', '1B1R', '2R', 1, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (230, 1, 1); --Strength
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (230, 1, 6); --Magic
@@ -3795,8 +3795,8 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (231
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (231, 391); --Spawning Pool
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (231,
-'http://htkb.info/SDE/FK/Cards/Warbands/Rock_Pile/Standies/Rock_Pile_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Warbands/Rock_Pile/Standies/Rock_Pile_FK_back.png',
+'http://htkb.info/SDE/Standies/Rock_Pile.png', 
+'http://htkb.info/SDE/Standies/Rock_Pile_back.png',
 'Neither', 'Small', 'Spawning Point', 0, 0, '', '1ST', '', '', 4, 0);
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (231, 2); --Armor
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (231, 'Spawning Point', 'Start', 0);
@@ -3818,8 +3818,8 @@ insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (232
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (232, 646); --Turtle Cannon
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (232,
-'http://htkb.info/SDE/FK/Cards/Warbands/Rock_Pile/Standies/Bombardier_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Warbands/Rock_Pile/Standies/Bombardier_FK_back.png',
+'http://htkb.info/SDE/Standies/Bombardier.png', 
+'http://htkb.info/SDE/Standies/Bombardier_back.png',
 'Either', 'Small', 'Rocktop', 5, 1, '1B', '1ST', '3B', '1B', 1, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (232, 1, 1); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (232, 2); --Armor
@@ -3840,8 +3840,8 @@ insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (233
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (233, 649); --Turtle Tremor
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (233,
-'http://htkb.info/SDE/FK/Cards/Warbands/Rock_Pile/Standies/Crusher_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Warbands/Rock_Pile/Standies/Crusher_FK_back.png',
+'http://htkb.info/SDE/Standies/Crusher.png', 
+'http://htkb.info/SDE/Standies/Crusher_back.png',
 'Either', 'Large', 'Rocktop', 5, 3, '2B1R', '1ST2B', '3B', '1B', 4, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (233, 1, 2); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (233, 2); --Armor
@@ -3864,8 +3864,8 @@ insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (234
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (234, 675); --No Hiding
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (234,
-'http://htkb.info/SDE/FK/Cards/Warbands/Rock_Pile/Standies/Crusher_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Warbands/Rock_Pile/Standies/Crusher_FK_back.png',
+'http://htkb.info/SDE/Standies/Crusher.png', 
+'http://htkb.info/SDE/Standies/Crusher_back.png',
 'Either', 'Large', 'Rocktop', 5, 3, '2B1R', '1ST2B', '3B', '1B', 4, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (234, 1, 2); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (234, 2); --Armor
@@ -3887,8 +3887,8 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (235
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (235, 632); --Thwack
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (235,
-'http://htkb.info/SDE/FK/Cards/Warbands/Rock_Pile/Standies/Roller_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Warbands/Rock_Pile/Standies/Roller_FK_back.png',
+'http://htkb.info/SDE/Standies/Roller.png', 
+'http://htkb.info/SDE/Standies/Roller_back.png',
 'Either', 'Small', 'Rocktop', 6, 2, '2R', '1ST', '3B', '2B', 2, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (235, 1, 2); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (235, 2); --Armor
@@ -3909,8 +3909,8 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (236
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (236, 334); --Shell
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (236,
-'http://htkb.info/SDE/FK/Cards/Warbands/Rock_Pile/Standies/Slowpoke_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Warbands/Rock_Pile/Standies/Slowpoke_FK_back.png',
+'http://htkb.info/SDE/Standies/Slowpoke.png', 
+'http://htkb.info/SDE/Standies/Slowpoke_back.png',
 'Either', 'Small', 'Rocktop', 5, 1, '3B', '1ST', '3B', '1B', 1, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (236, 1, 2); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (236, 2); --Armor
@@ -3932,8 +3932,8 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (237
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (237, 334); --Shell
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (237,
-'http://htkb.info/SDE/FK/Cards/Warbands/Rock_Pile/Standies/Slowpoke_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Warbands/Rock_Pile/Standies/Slowpoke_FK_back.png',
+'http://htkb.info/SDE/Standies/Slowpoke.png', 
+'http://htkb.info/SDE/Standies/Slowpoke_back.png',
 'Either', 'Small', 'Rocktop', 5, 1, '3B', '1ST', '3B', '1B', 1, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (237, 1, 2); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (237, 2); --Armor
@@ -3952,8 +3952,8 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (238, 2);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (238, 268); --Immune: Status Effects
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (238,
-'http://htkb.info/SDE/FK/Cards/Warbands/Rock_Pile/Standies/Turtle_Shell_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Warbands/Rock_Pile/Standies/Turtle_Shell_FK_back.png',
+'http://htkb.info/SDE/Standies/Turtle_Shell_v1.png', 
+'http://htkb.info/SDE/Standies/Turtle_Shell_v1_back.png',
 'Either', 'Small', 'Rocktop', 0, 0, '', '1ST', '', '', 2, 0);
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (238, 2); --Armor
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (238, 'Minion', '8 Bit', 0);
@@ -3972,8 +3972,8 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (239
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (239, 270); --Insignificant
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (239,
-'http://htkb.info/SDE/FK/Cards/Warbands/Rock_Pile/Standies/Turtle_Shell_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Warbands/Rock_Pile/Standies/Turtle_Shell_FK_back.png',
+'http://htkb.info/SDE/Standies/Turtle_Shell_v2.png', 
+'http://htkb.info/SDE/Standies/Turtle_Shell_v2_back.png',
 'Either', 'Small', 'Rocktop', 0, 0, '', '1ST', '', '', 2, 0);
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (239, 2); --Armor
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (239, 'Minion', '8 Bit', 0);
@@ -3995,8 +3995,8 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (240
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (240, 393); --Spawning Pool
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (240,
-'http://htkb.info/SDE/FK/Cards/Warbands/Salt_Pillar/Standies/Salt_Pillar_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Warbands/Salt_Pillar/Standies/Salt_Pillar_FK_back.png',
+'http://htkb.info/SDE/Standies/Salt_Pillar.png', 
+'http://htkb.info/SDE/Standies/Salt_Pillar_back.png',
 'Neither', 'Small', 'Spawning Point', 0, 0, '', '1ST', '', '', 3, 0);
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (240, 2); --Armor
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (240, 'Spawning Point', 'Start', 0);
@@ -4017,8 +4017,8 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (241
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (241, 421); --Lost
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (241,
-'http://htkb.info/SDE/FK/Cards/Warbands/Salt_Pillar/Standies/Mist_Hound_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Warbands/Salt_Pillar/Standies/Mist_Hound_FK_back.png',
+'http://htkb.info/SDE/Standies/Mist_Hound.png', 
+'http://htkb.info/SDE/Standies/Mist_Hound_back.png',
 'Either', 'Small', 'Faerie Wolf', 8, 2, '2B1R', '0ST', '1B1R', '3B', 2, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (241, 1, 1); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (241, 2); --Armor
@@ -4039,8 +4039,8 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (242
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (242, 667); --Weep
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (242,
-'http://htkb.info/SDE/FK/Cards/Warbands/Salt_Pillar/Standies/Sorrow_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Warbands/Salt_Pillar/Standies/Sorrow_FK_back.png',
+'http://htkb.info/SDE/Standies/Sorrow.png', 
+'http://htkb.info/SDE/Standies/Sorrow_back.png',
 'Either', 'Small', 'Faerie', 6, 1, '0ST', '0ST', '2B1R', '3B', 1, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (242, 3, 6); --Magic
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (242, 2); --Armor
@@ -4063,8 +4063,8 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (243
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (243, 395); --Spawning Pool
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (243,
-'http://htkb.info/SDE/FK/Cards/Warbands/Shallow_Grave/Standies/Shallow_Grave_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Warbands/Shallow_Grave/Standies/Shallow_Grave_FK_back.png',
+'http://htkb.info/SDE/Standies/Shallow_Grave.png', 
+'http://htkb.info/SDE/Standies/Shallow_Grave_back.png',
 'Neither', 'Small', 'Spawning Point', 0, 0, '', '1ST', '', '', 4, 0);
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (243, 2); --Armor
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (243, 'Spawning Point', 'Start', 0);
@@ -4082,8 +4082,8 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (244, 1);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (244, 188); --Bone Pile
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (244,
-'http://htkb.info/SDE/FK/Cards/Warbands/Shallow_Grave/Standies/Bone_Head_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Warbands/Shallow_Grave/Standies/Bone_Head_FK_back.png',
+'http://htkb.info/SDE/Standies/Bone_Head.png', 
+'http://htkb.info/SDE/Standies/Bone_Head_back.png',
 'Either', 'Small', 'Undead Skeleton', 6, 1, '3B', '1ST', '2B', '1B', 1, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (244, 1, 1); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (244, 2); --Armor
@@ -4103,8 +4103,8 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (245
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (245, 249); --Cursed Blade
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (245,
-'http://htkb.info/SDE/FK/Cards/Warbands/Shallow_Grave/Standies/Dread_Knight_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Warbands/Shallow_Grave/Standies/Dread_Knight_FK_back.png',
+'http://htkb.info/SDE/Standies/Dread_Knight.png', 
+'http://htkb.info/SDE/Standies/Dread_Knight_back.png',
 'Either', 'Small', 'Undead Skeleton', 6, 2, '2B1R', '1ST', '2B', '1B', 2, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (245, 1, 1); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (245, 2); --Armor
@@ -4125,8 +4125,8 @@ insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (246
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (246, 281); --Ghastly Vigor
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (246,
-'http://htkb.info/SDE/FK/Cards/Warbands/Shallow_Grave/Standies/Dust_Coven_Necromancer_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Warbands/Shallow_Grave/Standies/Dust_Coven_Necromancer_FK_back.png',
+'http://htkb.info/SDE/Standies/Dust_Coven_Necromancer.png', 
+'http://htkb.info/SDE/Standies/Dust_Coven_Necromancer_back.png',
 'Either', 'Small', 'Witch', 6, 3, '1B', '0ST', '2R', '2B', 3, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (246, 1, 1); --Strength
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (246, 3, 6); --Magic
@@ -4149,8 +4149,8 @@ insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (247
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (247, 438); --Mend Bones
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (247,
-'http://htkb.info/SDE/FK/Cards/Warbands/Shallow_Grave/Standies/Dust_Mage_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Warbands/Shallow_Grave/Standies/Dust_Mage_FK_back.png',
+'http://htkb.info/SDE/Standies/Dust_Mage.png', 
+'http://htkb.info/SDE/Standies/Dust_Mage_back.png',
 'Either', 'Small', 'Undead Skeleton', 6, 2, '1B', '0ST', '3B', '1B', 1, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (247, 1, 1); --Strength
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (247, 3, 6); --Magic
@@ -4174,8 +4174,8 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (248
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (248, 397); --Spawning Pool
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (248,
-'http://htkb.info/SDE/FK/Cards/Warbands/Tribal_Stone/Standies/Tribal_Stone_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Warbands/Tribal_Stone/Standies/Tribal_Stone_FK_back.png',
+'http://htkb.info/SDE/Standies/Tribal_Stone.png', 
+'http://htkb.info/SDE/Standies/Tribal_Stone_back.png',
 'Neither', 'Small', 'Spawning Point', 0, 0, '', '1ST', '', '', 3, 0);
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (248, 2); --Armor
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (248, 'Spawning Point', 'Start', 0);
@@ -4194,8 +4194,8 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (249
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (249, 355); --Ghostfire
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (249,
-'http://htkb.info/SDE/FK/Cards/Warbands/Tribal_Stone/Standies/Ghostfire_Warrior_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Warbands/Tribal_Stone/Standies/Ghostfire_Warrior_FK_back.png',
+'http://htkb.info/SDE/Standies/Ghostfire_Warrior.png', 
+'http://htkb.info/SDE/Standies/Ghostfire_Warrior_back.png',
 'Either', 'Large', 'Troll', 6, 2, '2B1R', '1ST', '1B', '2B', 2, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (249, 1, 2); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (249, 2); --Armor
@@ -4218,8 +4218,8 @@ insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (250
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (250, 442); --Mistborn
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (250,
-'http://htkb.info/SDE/FK/Cards/Warbands/Tribal_Stone/Standies/Mistmourn_Chieftain_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Warbands/Tribal_Stone/Standies/Mistmourn_Chieftain_FK_back.png',
+'http://htkb.info/SDE/Standies/Mistmourn_Chieftain.png', 
+'http://htkb.info/SDE/Standies/Mistmourn_Chieftain_back.png',
 'Either', 'Large', 'Troll', 6, 2, '2B1R', '1ST', '1B1R', '2B', 3, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (250, 1, 3); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (250, 2); --Armor
@@ -4242,8 +4242,8 @@ insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (251
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (251, 158); --Ambush
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (251,
-'http://htkb.info/SDE/FK/Cards/Warbands/Tribal_Stone/Standies/Spirit_Walker_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Warbands/Tribal_Stone/Standies/Spirit_Walker_FK_back.png',
+'http://htkb.info/SDE/Standies/Spirit_Walker.png', 
+'http://htkb.info/SDE/Standies/Spirit_Walker_back.png',
 'Either', 'Large', 'Troll', 6, 2, '3B', '0ST', '1B1R', '3B', 2, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (251, 1, 1); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (251, 2); --Armor
@@ -6566,11 +6566,12 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (59, 298);
 
 
 --Clan Fire Shrine
---Elemental Shrine --CardIndex 391	--CharacterIndex 306	--ArcadeCharacterIndex 54
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Elemental Shrine',
+--Clan Fire Shrine --CardIndex 391	--CharacterIndex 306	--ArcadeCharacterIndex 54
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+'Clan Fire Shrine',
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Clan_Fire_Shrine/Card_Arcade_Warband_Clan_Fire_Shrine_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Clan_Fire_Shrine/Card_Arcade_Warband_Clan_Fire_Shrine_FK_back.png', 
-'http://htkb.online/SDWiki/SDE/FK/Arcade/Cards/Warbands/Clan_Fire_Shrine/Clan_Fire_Shrine.xhtml', 
+'http://htkb.online/SDWiki/SDE/FK/Arcade/Cards/Warbands/Clan_Fire_Shrine/Shrine.xhtml', 
 'Warband', 'FK', 'FK Core Set', 'Arcade', 
 '');
 insert into Characters (CardIndex) VALUES (391);
@@ -6579,14 +6580,15 @@ VALUES (306, 0, -1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (306, 3); --Ruby
 --GangMemberIndex 60
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (54, 0, 'Elemental Shrine', 'Paired Spawning Point', '', 0, 0, 1, 195);
+VALUES (54, 0, 'Clan Fire Shrine', 'Paired Spawning Point', '', 0, 0, 1, 164);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (60, 268); --Immune: Status Effects
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (60, 214); --Elemental Affinity
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (60, 347); --Stealth
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (60, 378); --Spawning Pool
 
---Mystic Team --CardIndex 392	--CharacterIndex 307	--ArcadeCharacterIndex 55
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Mystic Team',
+--Clan Fire Shrine Mystic Team --CardIndex 392	--CharacterIndex 307	--ArcadeCharacterIndex 55
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+'Clan Fire Shrine Mystic Team',
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Clan_Fire_Shrine/Card_Arcade_Warband_Clan_Fire_Shrine_Mystic_Team_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Clan_Fire_Shrine/Card_Arcade_Warband_Clan_Fire_Shrine_Mystic_Team_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Arcade/Cards/Warbands/Clan_Fire_Shrine/Mystic_Team.xhtml', 
@@ -6598,23 +6600,24 @@ VALUES (307, 124, 354);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (307, 3); --Ruby
 --GangMemberIndex 61
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (55, 0, 'Madoushi', 'Ninja', 'Elite', 6, 2, 1, 199);
+VALUES (55, 0, 'Clan Fire Shrine Madoushi', 'Ninja', 'Elite', 6, 2, 1, 199);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (61, 348); --Stealth
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (61, 323); --Poisoned Weapons
 --GangMemberIndex 62
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (55, 1, 'Kaiken', 'Ninja', 'Minion', 6, 1, 1, 197);
+VALUES (55, 1, 'Clan Fire Shrine Kaiken', 'Ninja', 'Minion', 6, 1, 1, 197);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (62, 175); --Back Strike
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (62, 190); --Bruiser
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (62, 348); --Stealth
 --GangMemberIndex 63
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (55, 2, 'Yajiri', 'Ninja', 'Minion', 6, 1, 0, 200);
+VALUES (55, 2, 'Clan Fire Shrine Yajiri', 'Ninja', 'Minion', 6, 1, 0, 200);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (63, 315); --Reach
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (63, 348); --Stealth
 
---Scout Team --CardIndex 393	--CharacterIndex 308	--ArcadeCharacterIndex 56
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Scout Team',
+--Clan Fire Shrine Scout Team --CardIndex 393	--CharacterIndex 308	--ArcadeCharacterIndex 56
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+'Clan Fire Shrine Scout Team',
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Clan_Fire_Shrine/Card_Arcade_Warband_Clan_Fire_Shrine_Scout_Team_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Clan_Fire_Shrine/Card_Arcade_Warband_Clan_Fire_Shrine_Scout_Team_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Arcade/Cards/Warbands/Clan_Fire_Shrine/Scout_Team.xhtml', 
@@ -6626,20 +6629,21 @@ VALUES (308, 122, 133);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (308, 2); --Emerald
 --GangMemberIndex 64
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (56, 0, 'Kunoichi', 'Ninja', 'Elite', 8, 1, 1, 198);
+VALUES (56, 0, 'Clan Fire Shrine Kunoichi', 'Ninja', 'Elite', 8, 1, 1, 198);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (64, 415); --Augment
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (64, 348); --Stealth
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (64, 353); --Surge
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (64, 675); --Wind in the Forest
 --GangMemberIndex 65
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (56 , 1, 'Kunoichi', 'Ninja', 'Elite', 8, 1, 1, 198);
+VALUES (56 , 1, 'Clan Fire Shrine Kunoichi', 'Ninja', 'Elite', 8, 1, 1, 198);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (65, 415); --Augment
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (65, 348); --Stealth
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (65, 566); --Smoke Bomb
 
---Strike Team --CardIndex 394	--CharacterIndex 309	--ArcadeCharacterIndex 57
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Strike Team',
+--Clan Fire Shrine Strike Team --CardIndex 394	--CharacterIndex 309	--ArcadeCharacterIndex 57
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+'Clan Fire Shrine Strike Team',
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Clan_Fire_Shrine/Card_Arcade_Warband_Clan_Fire_Shrine_Strike_Team_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Clan_Fire_Shrine/Card_Arcade_Warband_Clan_Fire_Shrine_Strike_Team_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Arcade/Cards/Warbands/Clan_Fire_Shrine/Strike_Team.xhtml', 
@@ -6652,19 +6656,19 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (309, 1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (309, 2); --Emerald
 --GangMemberIndex 66
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (57, 0, 'Chunin', 'Ninja', 'Elite', 6, 3, 1, 196);
+VALUES (57, 0, 'Clan Fire Shrine Chunin', 'Ninja', 'Elite', 6, 3, 1, 196);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (66, 275); --Knockdown
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (66, 348); --Stealth
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (66, 502); --Precision Strike
 --GangMemberIndex 67
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (57, 1, 'Kaiken', 'Ninja', 'Minion', 6, 1, 1, 197);
+VALUES (57, 1, 'Clan Fire Shrine Kaiken', 'Ninja', 'Minion', 6, 1, 1, 197);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (67, 175); --Back Strike
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (67, 190); --Bruiser
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (67, 348); --Stealth
 --GangMemberIndex 68
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (57, 2, 'Yajiri', 'Ninja', 'Minion', 6, 1, 0, 200);
+VALUES (57, 2, 'Clan Fire Shrine Yajiri', 'Ninja', 'Minion', 6, 1, 0, 200);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (68, 291); --Mob
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (68, 315); --Reach
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (68, 348); --Stealth
@@ -6672,13 +6676,14 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (68, 348);
 
 --Fungal Growth
 --Fungal Growth --CardIndex 395	--CharacterIndex 310	--ArcadeCharacterIndex 58
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Fungal Growth',
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+'Fungal Growth',
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Fungal_Growth/Card_Arcade_Warband_Fungal_Growth_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Fungal_Growth/Card_Arcade_Warband_Fungal_Growth_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Arcade/Cards/Warbands/Fungal_Growth/Fungal_Growth.xhtml', 
 'Warband', 'FK', 'FK Core Set', 'Arcade', 
 'Like kodama, kinoko are spirits of the forest.  When uncorrupted by the Dark Consul they are servants of the Deeproot Tree.  Fun loving and given to a pleasant disposition, natural kinoko enjoy nothing more than bouncing through the forest, making absurd squishing noises and burbling happily to birds and forest spirits.<br>Under the Dark Consul''s influence they become territorial and grumpy, shredding great clouds of spores that send Heroes into an enchanted slumber.  once snoozing soundly, the kinoko bounce the sleeping Heroes off cliffs, into spider holes, or monsters'' waiting jaws.');
-insert into Characters (CardIndex) VALUES (391);
+insert into Characters (CardIndex) VALUES (395);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
 VALUES (310, 0, -1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (310, 2); --Emerald
@@ -6755,7 +6760,6 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (74, 268);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (74, 240); --Grabby Hands
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (74, 382); --Spawning Pool
 
---Grave Robbers
 --Grave Robbers --CardIndex 399	--CharacterIndex 314	--ArcadeCharacterIndex 62
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Grave Robbers',
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Grabby_House/Card_Arcade_Warband_Grabby_House_Grave_Robbers_FK.png', 
@@ -6778,11 +6782,10 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (76, 239);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (76, 348); --Stealth
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (76, 390); --Homunculus
 
---Rotters
 --Rotters --CardIndex 400	--CharacterIndex 315	--ArcadeCharacterIndex 63
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Rotters',
-'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Grabby_House/Card_Arcade_Warband_Grabby_House_Grave_Robbers_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Grabby_House/Card_Arcade_Warband_Grabby_House_Grave_Robbers_FK_back.png', 
+'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Grabby_House/Card_Arcade_Warband_Grabby_House_Rotters_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Grabby_House/Card_Arcade_Warband_Grabby_House_Rotters_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Arcade/Cards/Warbands/Grabby_House/Rotters.xhtml', 
 'Warband', 'FK', 'FK Core Set', 'Arcade', 
 'Possessing no intellect other than the instinctive need to feed, zombies shamble through the swamps beneath the stilt towns.  Too dumb to find entrance into the towering shacks, they lurch and moan, making a terrible racket.');
@@ -6822,7 +6825,6 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (79, 268);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (79, 292); --Mob Mentality
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (79, 384); --Spawning Pool
 
---Dragon Devotees
 --Dragon Devotees --CardIndex 402	--CharacterIndex 317	--ArcadeCharacterIndex 65
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Dragon Devotees',
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Kobold_Warrens/Card_Arcade_Warband_Kobold_Warrens_Dragon_Devotees_FK.png', 
@@ -6849,7 +6851,6 @@ insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, 
 VALUES (65, 2, 'Gouger', 'Kobold', 'Minion', 6, 1, 0, 213);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (82, 315); --Reach
 
---Scale Wall
 --Scale Wall --CardIndex 403	--CharacterIndex 318	--ArcadeCharacterIndex 66
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Scale Wall',
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Kobold_Warrens/Card_Arcade_Warband_Kobold_Warrens_Scale_Wall_FK.png', 
@@ -6875,7 +6876,6 @@ insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, 
 VALUES (66, 2, 'Gouger', 'Kobold', 'Minion', 6, 1, 0, 213);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (85, 315); --Reach
 
---Sneaks
 --Sneaks --CardIndex 404 --CharacterIndex 319	--ArcadeCharacterIndex 67
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Sneaks',
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Kobold_Warrens/Card_Arcade_Warband_Kobold_Warrens_Sneaks_FK.png', 
@@ -6889,13 +6889,13 @@ VALUES (319, 132, 253);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (319, 2); --Emerald
 --GangMemberIndex 86
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (67, 0, 'Ironscale', 'Kobold', 'Elite', 6, 1, 1, 214);
+VALUES (67, 0, 'Flinger', 'Kobold', 'Elite', 6, 1, 1, 212);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (86, 291); --Mob
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (86, 348); --Stealth
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (86, 393); --Hot Pot
 --GangMemberIndex 87
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (67, 1, 'Knucklehead', 'Kobold', 'Minion', 6, 1, 1, 215);
+VALUES (67, 1, 'Flinger', 'Kobold', 'Minion', 6, 1, 1, 212);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (87, 291); --Mob
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (87, 348); --Stealth
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (87, 394); --Hot Pot
@@ -7186,7 +7186,8 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (107, 317)
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (107, 392); --Spawning Pool
 
 --Bully Foremen --CardIndex 418	--CharacterIndex 333	--ArcadeCharacterIndex 81
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Bully Foremen',
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+'Bully Foremen',
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Rock_Pile/Card_Arcade_Warband_Rock_Pile_Bully_Foremen_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Rock_Pile/Card_Arcade_Warband_Rock_Pile_Bully_Foremen_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Arcade/Cards/Warbands/Rock_Pile/Bully_Foremen.xhtml', 
@@ -7198,19 +7199,20 @@ VALUES (333, 134, 144);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (333, 4); --Sapphire
 --GangMemberIndex 108
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (81, 0, 'Roller', 'Rocktop', 'Elite', 5, 2, 2, 232);
+VALUES (81, 0, 'Roller', 'Rocktop', 'Elite', 5, 2, 2, 235);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (108, 265); --Immune: Knockdown
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (108, 267); --Immune: Slow
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (108, 633); --Thwack
 --GangMemberIndex 109
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (81, 1, 'Roller', 'Rocktop', 'Elite', 5, 2, 2, 232);
+VALUES (81, 1, 'Roller', 'Rocktop', 'Elite', 5, 2, 2, 235);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (109, 265); --Immune: Knockdown
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (109, 267); --Immune: Slow
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (109, 634); --Thwack
 
 --Rockers v1 --CardIndex 419	--CharacterIndex 334	--ArcadeCharacterIndex 82
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Rockers v1',
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+'Rockers v1',
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Rock_Pile/Card_Arcade_Warband_Rock_Pile_Rockers_v1_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Rock_Pile/Card_Arcade_Warband_Rock_Pile_Rockers_v1_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Arcade/Cards/Warbands/Rock_Pile/Rockers_v1.xhtml', 
@@ -7218,8 +7220,8 @@ insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, 
 'Slowpokes often gather around the massive Crushers, seeking some measure of protection from the bullying Rollers.  Crushers pay the Slowpokes little regard, for they are far too busy happily crushing rock and expanding their cavern to notice the pleas of their smaller kin.');
 insert into Characters (CardIndex) VALUES (419);
 insert into ArcadeCharacters (CharacterIndex, SoloStatLineIndex, GangStatLineIndex) 
-VALUES (333, 142, 373);
-insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (333, 4); --Sapphire
+VALUES (334, 142, 373);
+insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (334, 4); --Sapphire
 --GangMemberIndex 110
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
 VALUES (82, 0, 'Crusher', 'Rocktop', 'Elite', 5, 6, 2, 233);
@@ -7258,9 +7260,9 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (113, 651)
 
 --Shell Battery --CardIndex 421	--CharacterIndex 336	--ArcadeCharacterIndex 84
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Shell Battery',
-'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Rock_Pile/Card_Arcade_Warband_Rock_Pile_Rockers_v2_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Rock_Pile/Card_Arcade_Warband_Rock_Pile_Rockers_v2_FK_back.png', 
-'http://htkb.online/SDWiki/SDE/FK/Arcade/Cards/Warbands/Rock_Pile/Rockers_v2.xhtml', 
+'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Rock_Pile/Card_Arcade_Warband_Rock_Pile_Shell_Battery_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Rock_Pile/Card_Arcade_Warband_Rock_Pile_Shell_Battery_FK_back.png', 
+'http://htkb.online/SDWiki/SDE/FK/Arcade/Cards/Warbands/Rock_Pile/Shell_Battery.xhtml', 
 'Warband', 'FK', 'FK Core Set', 'Arcade', 
 'Once, a clan of rocktop befriended a gnomish engineer whose trade was weapons of war.  Impressed by the the stout and sturdy nature of the Rocktops, the engineer sought to turn the somewhat dimwitted monsters into the ultimate siege army in service of Crystalia.  Unfortunately, the rocktops proved to be disinterested in following orders and the gnomish engineer fell victim to a gang of Rollers.<br><br>However, a small group of Rocktops took a shine to the bombard cannons the gnome had devised.  Keeping the small armory a secret from their rocktop kin, these newly formed Bombardiers began lending their services in long ranged demolitions to any who could afford their steep fees of precious stones and ore.');
 insert into Characters (CardIndex) VALUES (421);
@@ -7379,17 +7381,18 @@ VALUES (341, 134, 144);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (341, 3); --Ruby
 --GangMemberIndex 122
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (89, 0, 'Dust Mage', 'Undead Skeleton', 'Elite', 5, 1, 1, 244);
+VALUES (89, 0, 'Dust Mage', 'Undead Skeleton', 'Elite', 5, 1, 1, 247);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (122, 188); --Bone Pile
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (122, 636); --Tide of Bones
 --GangMemberIndex 123
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (89, 1, 'Dust Mage', 'Undead Skeleton', 'Elite', 5, 1, 0, 244);
+VALUES (89, 1, 'Dust Mage', 'Undead Skeleton', 'Elite', 5, 1, 0, 247);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (123, 188); --Bone Pile
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (123, 193); --Bone Cold
 
 --Dust Coven	--CardIndex 427	--CharacterIndex 342	--ArcadeCharacterIndex 90
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Dust Coven',
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+'Dust Coven',
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Shallow_Grave/Card_Arcade_Warband_Shallow_Grave_Dust_Coven_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Shallow_Grave/Card_Arcade_Warband_Shallow_Grave_Dust_Coven_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Arcade/Cards/Warbands/Shallow_Grave/Dust_Coven.xhtml', 
@@ -7411,10 +7414,11 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (125, 188)
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (125, 354); --Ghastly Vigor
 
 --House of Ash	--CardIndex 428	--CharacterIndex 343	--ArcadeCharacterIndex 91
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Dust Coven',
-'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Shallow_Grave/Card_Arcade_Warband_Shallow_Grave_Dust_Coven_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Shallow_Grave/Card_Arcade_Warband_Shallow_Grave_Dust_Coven_FK_back.png', 
-'http://htkb.online/SDWiki/SDE/FK/Arcade/Cards/Warbands/Shallow_Grave/Dust_Coven.xhtml', 
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+'House of Ash',
+'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Shallow_Grave/Card_Arcade_Warband_Shallow_Grave_House_of_Ash_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Shallow_Grave/Card_Arcade_Warband_Shallow_Grave_House_of_Ash_FK_back.png', 
+'http://htkb.online/SDWiki/SDE/FK/Arcade/Cards/Warbands/Shallow_Grave/House_of_Ash.xhtml', 
 'Warband', 'FK', 'FK Core Set', 'Arcade', 
 'The knightly House of Ash gave themselves willingly to the service of the Dark Consul.  Wholly consumed by the need for battle, they are allowed to retain a measure of their intellect into undeath.');
 insert into Characters (CardIndex) VALUES (428);
@@ -7435,7 +7439,8 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (127, 251)
 
 --Tribal Stone
 --Tribal Stone	--CardIndex 429	--CharacterIndex 344	--ArcadeCharacterIndex 92
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Tribal Stone',
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+'Tribal Stone',
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Tribal_Stone/Card_Arcade_Warband_Tribal_Stone_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Tribal_Stone/Card_Arcade_Warband_Tribal_Stone_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Arcade/Cards/Warbands/Tribal_Stone/Tribal_Stone.xhtml', 
@@ -7453,10 +7458,11 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (128, 308)
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (128, 398); --Spawning Pool
 
 --Ghostfire Tribe	--CardIndex 430	--CharacterIndex 345	--ArcadeCharacterIndex 93
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ghostfire Tribe',
-'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Shallow_Grave/Card_Arcade_Warband_Shallow_Grave_Dust_Coven_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Shallow_Grave/Card_Arcade_Warband_Shallow_Grave_Dust_Coven_FK_back.png', 
-'http://htkb.online/SDWiki/SDE/FK/Arcade/Cards/Warbands/Shallow_Grave/Dust_Coven.xhtml', 
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+'Ghostfire Tribe',
+'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Tribal_Stone/Card_Arcade_Warband_Tribal_Stone_Ghostfire_Tribe_FK.png', 
+'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Tribal_Stone/Card_Arcade_Warband_Tribal_Stone_Ghostfire_Tribe_FK_back.png', 
+'http://htkb.online/SDWiki/SDE/FK/Arcade/Cards/Warbands/Tribal_Stone/Ghostfire_Tribe.xhtml', 
 'Warband', 'FK', 'FK Core Set', 'Arcade', 
 'Stalking the Mistmourn Coast, the Ghostfire Tribes are surprisingly cunning adversaries.  Guided by their ancient troll ancestors, they possess tactical acumen hindered only by their fury once battlelust is upon them.');
 insert into Characters (CardIndex) VALUES (430);
@@ -11171,12 +11177,12 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (254
 
 
 --Clan Earth Shrine
---Elemental Shrine --CardIndex 740 --CharacterIndex 350 --ExploreCharacterIndex 255
+--Clan Earth Shrine --CardIndex 740 --CharacterIndex 350 --ExploreCharacterIndex 255
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
-'Elemental Shrine',
+'Clan Earth Shrine',
 'http://htkb.info/SDE/FK/Cards/Warbands/Clan_Earth_Shrine/Card_Warband_Clan_Earth_Shrine_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Warbands/Clan_Earth_Shrine/Card_Warband_Clan_Earth_Shrine_FK_back.png', 
-'http://htkb.online/SDWiki/SDE/FK/Explore/Cards/Warbands/Clan_Earth_Shrine/Clan_Earth_Shrine.xhtml', 
+'http://htkb.online/SDWiki/SDE/FK/Explore/Cards/Warbands/Clan_Earth_Shrine/Shrine.xhtml', 
 'Warband', 'FK', 'FK Core Set', 'Explore',
 '');
 insert into Characters (CardIndex) VALUES (740);
@@ -11188,15 +11194,15 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (255
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (255, 377); --Spawning Pool
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (350,
-'http://htkb.info/SDE/FK/Cards/Warbands/Clan_Earth_Shrine/Standies/Clan_Earth_Shrine_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Warbands/Clan_Earth_Shrine/Standies/Clan_Earth_Shrine_FK_back.png',
+'http://htkb.info/NAS/Standies/Clan_Earth_Shrine.png', 
+'http://htkb.info/NAS/Standies/Clan_Earth_Shrine_back.png',
 'Neither', 'Small', 'Spawning Point', 0, 0, '', '1ST', '', '', 4, 0);
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (255, 2); --Armor
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (255, 'Spawning Point', 'Start', 0);
 
---Chunin --CardIndex 741 --CharacterIndex 351 --ExploreCharacterIndex 256
+--Clan Earth Shrine Chunin --CardIndex 741 --CharacterIndex 351 --ExploreCharacterIndex 256
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
-'Chunin',
+'Clan Earth Shrine Chunin',
 'http://htkb.info/SDE/FK/Cards/Warbands/Clan_Earth_Shrine/Card_Warband_Clan_Earth_Shrine_Chunin_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Warbands/Clan_Earth_Shrine/Card_Warband_Clan_Earth_Shrine_Chunin_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Explore/Cards/Warbands/Clan_Earth_Shrine/Chunin.xhtml', 
@@ -11211,16 +11217,16 @@ insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (256
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (256, 281); --Elemental Master
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (351,
-'http://htkb.info/SDE/FK/Cards/Warbands/Clan_Earth_Shrine/Standies/Chunin_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Warbands/Clan_Earth_Shrine/Standies/Chunin_FK_back.png',
+'http://htkb.info/NAS/Standies/Clan_Earth_Shrine_Chunin.png', 
+'http://htkb.info/NAS/Standies/Clan_Earth_Shrine_Chunin_back.png',
 'Masculine', 'Small', 'Ninja', 6, 3, '2B 1R', '3B', '3B', '3B', 3, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (256, 1, 1); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (256, 2); --Armor
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (256, 'Elite', '16 Bit', 2);
 
---Kaiken --CardIndex 742 --CharacterIndex 352 --ExploreCharacterIndex 257
+--Clan Earth Shrine Kaiken --CardIndex 742 --CharacterIndex 352 --ExploreCharacterIndex 257
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
-'Kaiken',
+'Clan Earth Shrine Kaiken',
 'http://htkb.info/SDE/FK/Cards/Warbands/Clan_Earth_Shrine/Card_Warband_Clan_Earth_Shrine_Kaiken_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Warbands/Clan_Earth_Shrine/Card_Warband_Clan_Earth_Shrine_Kaiken_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Explore/Cards/Warbands/Clan_Earth_Shrine/Kaiken.xhtml', 
@@ -11232,17 +11238,17 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (257
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (257, 174); --Back Strike
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (352,
-'http://htkb.info/SDE/FK/Cards/Warbands/Clan_Earth_Shrine/Standies/Kaiken_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Warbands/Clan_Earth_Shrine/Standies/Kaiken_FK_back.png',
+'http://htkb.info/NAS/Standies/Clan_Earth_Shrine_Kaiken.png', 
+'http://htkb.info/NAS/Standies/Clan_Earth_Shrine_Kaiken_back.png',
 'Masculine', 'Small', 'Ninja', 6, 1, '3B', '1ST', '2B', '3B', 1, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (257, 1, 1); --Strength
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (257, 4, 3); --Dexterity
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (257, 2); --Armor
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (257, 'Minion', '8 Bit', 1);
 
---Kunoichi --CardIndex 743 --CharacterIndex 353 --ExploreCharacterIndex 258
+--Clan Earth Shrine Kunoichi --CardIndex 743 --CharacterIndex 353 --ExploreCharacterIndex 258
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
-'Kunoichi',
+'Clan Earth Shrine Kunoichi',
 'http://htkb.info/SDE/FK/Cards/Warbands/Clan_Earth_Shrine/Card_Warband_Clan_Earth_Shrine_Kunoichi_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Warbands/Clan_Earth_Shrine/Card_Warband_Clan_Earth_Shrine_Kunoichi_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Explore/Cards/Warbands/Clan_Earth_Shrine/Kunoichi.xhtml', 
@@ -11255,17 +11261,17 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (258
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (258, 674); --Wind in the Forest
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (353,
-'http://htkb.info/SDE/FK/Cards/Warbands/Clan_Earth_Shrine/Standies/Kunoichi_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Warbands/Clan_Earth_Shrine/Standies/Kunoichi_FK_back.png',
+'http://htkb.info/NAS/Standies/Clan_Earth_Shrine_Kunoichi.png', 
+'http://htkb.info/NAS/Standies/Clan_Earth_Shrine_Kunoichi_back.png',
 'Feminine', 'Small', 'Ninja', 8, 1, '3B', '0ST', '1B1R', '2R', 1, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (258, 1, 1); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (258, 2); --Armor
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (258, 4); --Dexterity
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (258, 'Elite', '8 Bit', 1);
 
---Madoushi --CardIndex 744 --CharacterIndex 354 --ExploreCharacterIndex 259
+--Clan Earth Shrine Madoushi --CardIndex 744 --CharacterIndex 354 --ExploreCharacterIndex 259
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
-'Madoushi',
+'Clan Earth Shrine Madoushi',
 'http://htkb.info/SDE/FK/Cards/Warbands/Clan_Earth_Shrine/Card_Warband_Clan_Earth_Shrine_Madoushi_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Warbands/Clan_Earth_Shrine/Card_Warband_Clan_Earth_Shrine_Madoushi_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Explore/Cards/Warbands/Clan_Earth_Shrine/Madoushi.xhtml', 
@@ -11281,17 +11287,17 @@ insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (259
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (259, 677); --Wind Walk
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (354,
-'http://htkb.info/SDE/FK/Cards/Warbands/Clan_Earth_Shrine/Standies/Madoushi_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Warbands/Clan_Earth_Shrine/Standies/Madoushi_FK_back.png',
+'http://htkb.info/NAS/Standies/Clan_Earth_Shrine_Madoushi.png', 
+'http://htkb.info/NAS/Standies/Clan_Earth_Shrine_Madoushi_back.png',
 'Masculine', 'Small', 'Ninja', 6, 2, '2B', '1ST', '2R', '3B', 2, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (259, 1, 1); --Strength
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (259, 3, 6); --Magic
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (259, 2); --Armor
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (259, 'Elite', '8 Bit', 2);
 
---Yajiri --CardIndex 745 --CharacterIndex 355 --ExploreCharacterIndex 260
+--Clan Earth Shrine Yajiri --CardIndex 745 --CharacterIndex 355 --ExploreCharacterIndex 260
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
-'Yajiri',
+'Clan Earth Shrine Yajiri',
 'http://htkb.info/SDE/FK/Cards/Warbands/Clan_Earth_Shrine/Card_Warband_Clan_Earth_Shrine_Yajiri_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Warbands/Clan_Earth_Shrine/Card_Warband_Clan_Earth_Shrine_Yajiri_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Explore/Cards/Warbands/Clan_Earth_Shrine/Yajiri.xhtml', 
@@ -11303,8 +11309,8 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (260
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (260, 363); --Wind of Blades
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (355,
-'http://htkb.info/SDE/FK/Cards/Warbands/Clan_Earth_Shrine/Standies/Yajiri_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Warbands/Clan_Earth_Shrine/Standies/Yajiri_FK_back.png',
+'http://htkb.info/NAS/Standies/Clan_Earth_Shrine_Yajiri.png', 
+'http://htkb.info/NAS/Standies/Clan_Earth_Shrine_Yajiri_back.png',
 'Masculine', 'Small', 'Ninja', 6, 1, '2B', '0ST', '2B', '3B', 1, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (260, 1, 1); --Strength
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (260, 4, 6); --Dexterity
@@ -11313,12 +11319,12 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (260
 
 
 --Clan Air Shrine
---Elemental Shrine --CardIndex 746 --CharacterIndex 356 --ExploreCharacterIndex 261
+--Clan Air Shrine --CardIndex 746 --CharacterIndex 356 --ExploreCharacterIndex 261
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
-'Elemental Shrine',
+'Clan Air Shrine',
 'http://htkb.info/SDE/FK/Cards/Warbands/Clan_Air_Shrine/Card_Warband_Clan_Air_Shrine_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Warbands/Clan_Air_Shrine/Card_Warband_Clan_Air_Shrine_FK_back.png', 
-'http://htkb.online/SDWiki/SDE/FK/Explore/Cards/Warbands/Clan_Air_Shrine/Clan_Air_Shrine.xhtml', 
+'http://htkb.online/SDWiki/SDE/FK/Explore/Cards/Warbands/Clan_Air_Shrine/Shrine.xhtml', 
 'Warband', 'FK', 'FK Core Set', 'Explore',
 '');
 insert into Characters (CardIndex) VALUES (746);
@@ -11330,15 +11336,15 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (261
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (261, 377); --Spawning Pool
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (356,
-'http://htkb.info/SDE/FK/Cards/Warbands/Clan_Air_Shrine/Standies/Clan_Air_Shrine_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Warbands/Clan_Air_Shrine/Standies/Clan_Air_Shrine_FK_back.png',
+'http://htkb.info/NAS/Standies/Clan_Air_Shrine.png', 
+'http://htkb.info/NAS/Standies/Clan_Air_Shrine_back.png',
 'Neither', 'Small', 'Paired Spawning Point', 0, 0, '', '1ST', '', '', 4, 0);
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (261, 2); --Armor
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (261, 'Spawning Point', 'Start', 0);
 
---Chunin --CardIndex 747 --CharacterIndex 357 --ExploreCharacterIndex 262
+--Clan Air Shrine Chunin --CardIndex 747 --CharacterIndex 357 --ExploreCharacterIndex 262
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
-'Chunin',
+'Clan Air Shrine Chunin',
 'http://htkb.info/SDE/FK/Cards/Warbands/Clan_Air_Shrine/Card_Warband_Clan_Air_Shrine_Chunin_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Warbands/Clan_Air_Shrine/Card_Warband_Clan_Air_Shrine_Chunin_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Explore/Cards/Warbands/Clan_Air_Shrine/Chunin.xhtml', 
@@ -11353,16 +11359,16 @@ insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (262
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (262, 281); --Elemental Master
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (357,
-'http://htkb.info/SDE/FK/Cards/Warbands/Clan_Air_Shrine/Standies/Chunin_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Warbands/Clan_Air_Shrine/Standies/Chunin_FK_back.png',
+'http://htkb.info/NAS/Standies/Clan_Air_Shrine_Chunin.png', 
+'http://htkb.info/NAS/Standies/Clan_Air_Shrine_Chunin_back.png',
 'Masculine', 'Small', 'Ninja', 6, 3, '2B 1R', '3B', '3B', '3B', 3, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (262, 1, 1); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (262, 2); --Armor
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (262, 'Elite', '16 Bit', 2);
 
---Kaiken --CardIndex 748 --CharacterIndex 358 --ExploreCharacterIndex 263
+--Clan Air Shrine Kaiken --CardIndex 748 --CharacterIndex 358 --ExploreCharacterIndex 263
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
-'Kaiken',
+'Clan Air Shrine Kaiken',
 'http://htkb.info/SDE/FK/Cards/Warbands/Clan_Air_Shrine/Card_Warband_Clan_Air_Shrine_Kaiken_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Warbands/Clan_Air_Shrine/Card_Warband_Clan_Air_Shrine_Kaiken_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Explore/Cards/Warbands/Clan_Air_Shrine/Kaiken.xhtml', 
@@ -11374,17 +11380,17 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (263
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (263, 174); --Back Strike
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (358,
-'http://htkb.info/SDE/FK/Cards/Warbands/Clan_Air_Shrine/Standies/Kaiken_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Warbands/Clan_Air_Shrine/Standies/Kaiken_FK_back.png',
+'http://htkb.info/NAS/Standies/Clan_Air_Shrine_Kaiken.png', 
+'http://htkb.info/NAS/Standies/Clan_Air_Shrine_Kaiken_back.png',
 'Masculine', 'Small', 'Ninja', 6, 1, '3B', '1ST', '2B', '3B', 1, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (263, 1, 1); --Strength
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (263, 4, 3); --Dexterity
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (263, 2); --Armor
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (263, 'Minion', '8 Bit', 1);
 
---Kunoichi --CardIndex 749 --CharacterIndex 359 --ExploreCharacterIndex 264
+--Clan Air Shrine Kunoichi --CardIndex 749 --CharacterIndex 359 --ExploreCharacterIndex 264
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
-'Kunoichi',
+'Clan Air Shrine Kunoichi',
 'http://htkb.info/SDE/FK/Cards/Warbands/Clan_Air_Shrine/Card_Warband_Clan_Air_Shrine_Kunoichi_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Warbands/Clan_Air_Shrine/Card_Warband_Clan_Air_Shrine_Kunoichi_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Explore/Cards/Warbands/Clan_Air_Shrine/Kunoichi.xhtml', 
@@ -11397,17 +11403,17 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (264
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (264, 674); --Air in the Forest
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (359,
-'http://htkb.info/SDE/FK/Cards/Warbands/Clan_Air_Shrine/Standies/Kunoichi_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Warbands/Clan_Air_Shrine/Standies/Kunoichi_FK_back.png',
+'http://htkb.info/NAS/Standies/Clan_Air_Shrine_Kunoichi.png', 
+'http://htkb.info/NAS/Standies/Clan_Air_Shrine_Kunoichi_back.png',
 'Feminine', 'Small', 'Ninja', 8, 1, '3B', '0ST', '1B1R', '2R', 1, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (264, 1, 1); --Strength
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (264, 2); --Armor
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (264, 4); --Dexterity
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (264, 'Elite', '8 Bit', 1);
 
---Madoushi --CardIndex 750 --CharacterIndex 360 --ExploreCharacterIndex 265
+--Clan Air Shrine Madoushi --CardIndex 750 --CharacterIndex 360 --ExploreCharacterIndex 265
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
-'Madoushi',
+'Clan Air Shrine Madoushi',
 'http://htkb.info/SDE/FK/Cards/Warbands/Clan_Air_Shrine/Card_Warband_Clan_Air_Shrine_Madoushi_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Warbands/Clan_Air_Shrine/Card_Warband_Clan_Air_Shrine_Madoushi_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Explore/Cards/Warbands/Clan_Air_Shrine/Madoushi.xhtml', 
@@ -11423,17 +11429,17 @@ insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (265
 insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (265, 677); --Wind Walk
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (360,
-'http://htkb.info/SDE/FK/Cards/Warbands/Clan_Air_Shrine/Standies/Madoushi_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Warbands/Clan_Air_Shrine/Standies/Madoushi_FK_back.png',
+'http://htkb.info/NAS/Standies/Clan_Air_Shrine_Madoushi.png', 
+'http://htkb.info/NAS/Standies/Clan_Air_Shrine_Madoushi_back.png',
 'Masculine', 'Small', 'Ninja', 6, 2, '2B', '1ST', '2R', '3B', 2, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (265, 1, 1); --Strength
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (265, 3, 6); --Magic
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (265, 2); --Armor
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (265, 'Elite', '8 Bit', 2);
 
---Yajiri --CardIndex 751 --CharacterIndex 361 --ExploreCharacterIndex 266
+--Clan Air Shrine Yajiri --CardIndex 751 --CharacterIndex 361 --ExploreCharacterIndex 266
 insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
-'Yajiri',
+'Clan Air Shrine Yajiri',
 'http://htkb.info/SDE/FK/Cards/Warbands/Clan_Air_Shrine/Card_Warband_Clan_Air_Shrine_Yajiri_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Warbands/Clan_Air_Shrine/Card_Warband_Clan_Air_Shrine_Yajiri_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Explore/Cards/Warbands/Clan_Air_Shrine/Yajiri.xhtml', 
@@ -11445,8 +11451,8 @@ insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (266
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (266, 363); --Wind of Blades
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (361,
-'http://htkb.info/SDE/FK/Cards/Warbands/Clan_Air_Shrine/Standies/Yajiri_FK.png', 
-'http://htkb.info/SDE/FK/Cards/Warbands/Clan_Air_Shrine/Standies/Yajiri_FK_back.png',
+'http://htkb.info/NAS/Standies/Clan_Air_Shrine_Yajiri.png', 
+'http://htkb.info/NAS/Standies/Clan_Air_Shrine_Yajiri_back.png',
 'Masculine', 'Small', 'Ninja', 6, 1, '2B', '0ST', '2B', '3B', 1, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (266, 1, 1); --Strength
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (266, 4, 6); --Dexterity
@@ -11507,11 +11513,12 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (134, 275)
 
 
 --Clan Earth Shrine
---Elemental Shrine --CardIndex 754	--CharacterIndex 364	--ArcadeCharacterIndex 97
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Elemental Shrine',
+--Clan Earth Shrine --CardIndex 754	--CharacterIndex 364	--ArcadeCharacterIndex 97
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+'Clan Earth Shrine',
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Clan_Earth_Shrine/Card_Arcade_Warband_Clan_Earth_Shrine_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Clan_Earth_Shrine/Card_Arcade_Warband_Clan_Earth_Shrine_FK_back.png', 
-'http://htkb.online/SDWiki/SDE/FK/Arcade/Cards/Warbands/Clan_Earth_Shrine/Clan_Earth_Shrine.xhtml', 
+'http://htkb.online/SDWiki/SDE/FK/Arcade/Cards/Warbands/Clan_Earth_Shrine/Shrine.xhtml', 
 'Warband', 'FK', 'FK Core Set', 'Arcade', 
 '');
 insert into Characters (CardIndex) VALUES (754);
@@ -11520,14 +11527,15 @@ VALUES (364, 0, -1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (364, 3); --Ruby
 --GangMemberIndex 135
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (97, 0, 'Elemental Shrine', 'Paired Spawning Point', '', 0, 0, 1, 256);
+VALUES (97, 0, 'Clan Earth Shrine', 'Paired Spawning Point', '', 0, 0, 1, 255);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (135, 268); --Immune: Status Effects
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (135, 214); --Elemental Affinity
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (135, 347); --Stealth
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (135, 378); --Spawning Pool
 
---Mystic Team --CardIndex 755	--CharacterIndex 365	--ArcadeCharacterIndex 98
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Mystic Team',
+--Clan Earth Shrine Mystic Team --CardIndex 755	--CharacterIndex 365	--ArcadeCharacterIndex 98
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+'Clan Earth Shrine Mystic Team',
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Clan_Earth_Shrine/Card_Arcade_Warband_Clan_Earth_Shrine_Mystic_Team_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Clan_Earth_Shrine/Card_Arcade_Warband_Clan_Earth_Shrine_Mystic_Team_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Arcade/Cards/Warbands/Clan_Earth_Shrine/Mystic_Team.xhtml', 
@@ -11539,25 +11547,26 @@ VALUES (365, 124, 354);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (365, 3); --Ruby
 --GangMemberIndex 136
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (98, 0, 'Madoushi', 'Ninja', 'Elite', 6, 2, 1, 260);
+VALUES (98, 0, 'Clan Earth Shrine Madoushi', 'Ninja', 'Elite', 6, 2, 1, 259);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (136, 415);--Augment
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (136, 300);--Poison
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (136, 348); --Stealth
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (136, 323); --Poisoned Weapons
 --GangMemberIndex 137
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (98, 1, 'Kaiken', 'Bonded Ninja', 'Minion', 6, 1, 1, 258);
+VALUES (98, 1, 'Clan Earth Shrine Kaiken', 'Bonded Ninja', 'Minion', 6, 1, 1, 257);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (137, 175); --Back Strike
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (137, 190); --Bruiser
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (137, 348); --Stealth
 --GangMemberIndex 138
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (98, 2, 'Yajiri', 'Bonded Ninja', 'Minion', 6, 1, 0, 261);
+VALUES (98, 2, 'Clan Earth Shrine Yajiri', 'Bonded Ninja', 'Minion', 6, 1, 0, 260);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (138, 315); --Reach
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (138, 348); --Stealth
 
---Scout Team --CardIndex 756	--CharacterIndex 366	--ArcadeCharacterIndex 99
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Scout Team',
+--Clan Earth Shrine Scout Team --CardIndex 756	--CharacterIndex 366	--ArcadeCharacterIndex 99
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+'Clan Earth Shrine Scout Team',
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Clan_Earth_Shrine/Card_Arcade_Warband_Clan_Earth_Shrine_Scout_Team_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Clan_Earth_Shrine/Card_Arcade_Warband_Clan_Earth_Shrine_Scout_Team_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Arcade/Cards/Warbands/Clan_Earth_Shrine/Scout_Team.xhtml', 
@@ -11569,20 +11578,21 @@ VALUES (366, 122, 133);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (366, 2); --Emerald
 --GangMemberIndex 139
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (99, 0, 'Kunoichi', 'Ninja', 'Elite', 8, 1, 1, 259);
+VALUES (99, 0, 'Clan Earth Shrine Kunoichi', 'Ninja', 'Elite', 8, 1, 1, 258);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (139, 415); --Augment
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (139, 348); --Stealth
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (139, 353); --Surge
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (139, 675); --Wind in the Forest
 --GangMemberIndex 140
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (99 , 1, 'Kunoichi', 'Bonded Ninja', 'Elite', 8, 1, 1, 259);
+VALUES (99 , 1, 'Clan Earth Shrine Kunoichi', 'Bonded Ninja', 'Elite', 8, 1, 1, 258);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (140, 415); --Augment
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (140, 348); --Stealth
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (140, 566); --Smoke Bomb
 
---Strike Team --CardIndex 757	--CharacterIndex 367	--ArcadeCharacterIndex 100
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Strike Team',
+--Clan Earth Shrine Strike Team --CardIndex 757	--CharacterIndex 367	--ArcadeCharacterIndex 100
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+'Clan Earth Shrine Strike Team',
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Clan_Earth_Shrine/Card_Arcade_Warband_Clan_Earth_Shrine_Strike_Team_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Clan_Earth_Shrine/Card_Arcade_Warband_Clan_Earth_Shrine_Strike_Team_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Arcade/Cards/Warbands/Clan_Earth_Shrine/Strike_Team.xhtml', 
@@ -11595,30 +11605,31 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (367, 1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (367, 2); --Emerald
 --GangMemberIndex 141
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (100, 0, 'Chunin', 'Ninja', 'Elite', 6, 3, 1, 257);
+VALUES (100, 0, 'Clan Earth Shrine Chunin', 'Ninja', 'Elite', 6, 3, 1, 256);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (141, 275); --Knockdown
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (141, 348); --Stealth
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (141, 502); --Precision Strike
 --GangMemberIndex 142
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (100, 1, 'Kaiken', 'Bonded Ninja', 'Minion', 6, 1, 1, 258);
+VALUES (100, 1, 'Clan Earth Shrine Kaiken', 'Bonded Ninja', 'Minion', 6, 1, 1, 257);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (142, 175); --Back Strike
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (142, 190); --Bruiser
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (142, 348); --Stealth
 --GangMemberIndex 143
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (100, 2, 'Yajiri', 'Bonded Ninja', 'Minion', 6, 1, 0, 261);
+VALUES (100, 2, 'Clan Earth Shrine Yajiri', 'Bonded Ninja', 'Minion', 6, 1, 0, 260);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (143, 291); --Mob
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (143, 315); --Reach
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (143, 348); --Stealth
 
 
 --Clan Air Shrine
---Elemental Shrine --CardIndex 758	--CharacterIndex 368	--ArcadeCharacterIndex 101
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Elemental Shrine',
+--Clan Air Shrine --CardIndex 758	--CharacterIndex 368	--ArcadeCharacterIndex 101
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+'Clan Air Shrine',
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Clan_Air_Shrine/Card_Arcade_Warband_Clan_Air_Shrine_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Clan_Air_Shrine/Card_Arcade_Warband_Clan_Air_Shrine_FK_back.png', 
-'http://htkb.online/SDWiki/SDE/FK/Arcade/Cards/Warbands/Clan_Air_Shrine/Clan_Air_Shrine.xhtml', 
+'http://htkb.online/SDWiki/SDE/FK/Arcade/Cards/Warbands/Clan_Air_Shrine/Shrine.xhtml', 
 'Warband', 'FK', 'FK Core Set', 'Arcade', 
 '');
 insert into Characters (CardIndex) VALUES (758);
@@ -11627,14 +11638,15 @@ VALUES (368, 0, -1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (368, 3); --Ruby
 --GangMemberIndex 144
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (101, 0, 'Elemental Shrine', 'Paired Spawning Point', '', 0, 0, 1, 268);
+VALUES (101, 0, 'Clan Air Shrine', 'Paired Spawning Point', '', 0, 0, 1, 261);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (144, 268); --Immune: Status Effects
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (144, 214); --Elemental Affinity
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (144, 347); --Stealth
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (144, 378); --Spawning Pool
 
---Mystic Team --CardIndex 759	--CharacterIndex 369	--ArcadeCharacterIndex 102
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Mystic Team',
+--Clan Air Shrine Mystic Team --CardIndex 759	--CharacterIndex 369	--ArcadeCharacterIndex 102
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+'Clan Air Shrine Mystic Team',
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Clan_Air_Shrine/Card_Arcade_Warband_Clan_Air_Shrine_Mystic_Team_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Clan_Air_Shrine/Card_Arcade_Warband_Clan_Air_Shrine_Mystic_Team_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Arcade/Cards/Warbands/Clan_Air_Shrine/Mystic_Team.xhtml', 
@@ -11646,25 +11658,26 @@ VALUES (369, 124, 354);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (369, 3); --Ruby
 --GangMemberIndex 145
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (102, 0, 'Madoushi', 'Ninja', 'Elite', 6, 2, 1, 272);
+VALUES (102, 0, 'Clan Air Shrine Madoushi', 'Ninja', 'Elite', 6, 2, 1, 265);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (145, 415);--Augment
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (145, 300);--Poison
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (145, 348); --Stealth
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (145, 323); --Poisoned Weapons
 --GangMemberIndex 146
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (102, 1, 'Kaiken', 'Bonded Ninja', 'Minion', 6, 1, 1, 270);
+VALUES (102, 1, 'Clan Air Shrine Kaiken', 'Bonded Ninja', 'Minion', 6, 1, 1, 263);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (146, 175); --Back Strike
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (146, 190); --Bruiser
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (146, 348); --Stealth
 --GangMemberIndex 147
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (102, 2, 'Yajiri', 'Bonded Ninja', 'Minion', 6, 1, 0, 273);
+VALUES (102, 2, 'Clan Air Shrine Yajiri', 'Bonded Ninja', 'Minion', 6, 1, 0, 266);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (147, 315); --Reach
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (147, 348); --Stealth
 
---Scout Team --CardIndex 760	--CharacterIndex 370	--ArcadeCharacterIndex 103
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Scout Team',
+--Clan Air Shrine Scout Team --CardIndex 760	--CharacterIndex 370	--ArcadeCharacterIndex 103
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+'Clan Air Shrine Scout Team',
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Clan_Air_Shrine/Card_Arcade_Warband_Clan_Air_Shrine_Scout_Team_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Clan_Air_Shrine/Card_Arcade_Warband_Clan_Air_Shrine_Scout_Team_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Arcade/Cards/Warbands/Clan_Air_Shrine/Scout_Team.xhtml', 
@@ -11676,20 +11689,21 @@ VALUES (370, 122, 133);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (370, 2); --Emerald
 --GangMemberIndex 148
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (103, 0, 'Kunoichi', 'Ninja', 'Elite', 8, 1, 1, 271);
+VALUES (103, 0, 'Clan Air Shrine Kunoichi', 'Ninja', 'Elite', 8, 1, 1, 264);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (148, 415); --Augment
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (148, 348); --Stealth
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (148, 353); --Surge
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (148, 675); --Air in the Forest
 --GangMemberIndex 149
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (103 , 1, 'Kunoichi', 'Bonded Ninja', 'Elite', 8, 1, 1, 271);
+VALUES (103 , 1, 'Clan Air Shrine Kunoichi', 'Bonded Ninja', 'Elite', 8, 1, 1, 264);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (149, 415); --Augment
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (149, 348); --Stealth
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (149, 566); --Smoke Bomb
 
---Strike Team --CardIndex 761	--CharacterIndex 371	--ArcadeCharacterIndex 104
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Strike Team',
+--Clan Air Shrine Strike Team --CardIndex 761	--CharacterIndex 371	--ArcadeCharacterIndex 104
+insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+'Clan Air Shrine Strike Team',
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Clan_Air_Shrine/Card_Arcade_Warband_Clan_Air_Shrine_Strike_Team_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Clan_Air_Shrine/Card_Arcade_Warband_Clan_Air_Shrine_Strike_Team_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Arcade/Cards/Warbands/Clan_Air_Shrine/Strike_Team.xhtml', 
@@ -11702,19 +11716,19 @@ insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (371, 1);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (371, 2); --Emerald
 --GangMemberIndex 150
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (104, 0, 'Chunin', 'Ninja', 'Elite', 6, 3, 1, 269);
+VALUES (104, 0, 'Clan Air Shrine Chunin', 'Ninja', 'Elite', 6, 3, 1, 262);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (150, 275); --Knockdown
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (150, 348); --Stealth
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (150, 502); --Precision Strike
 --GangMemberIndex 151
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (104, 1, 'Kaiken', 'Bonded Ninja', 'Minion', 6, 1, 1, 270);
+VALUES (104, 1, 'Clan Air Shrine Kaiken', 'Bonded Ninja', 'Minion', 6, 1, 1, 263);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (151, 175); --Back Strike
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (151, 190); --Bruiser
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (151, 348); --Stealth
 --GangMemberIndex 152
 insert into GangMembers (ArcadeCharacterIndex, MemberOrder, Name, CreatureType, RankType, MemberMovement, MemberHealth, MemberArmor, ExploreCharacterIndex)
-VALUES (104, 2, 'Yajiri', 'Bonded Ninja', 'Minion', 6, 1, 0, 273);
+VALUES (104, 2, 'Clan Air Shrine Yajiri', 'Bonded Ninja', 'Minion', 6, 1, 0, 266);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (152, 291); --Mob
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (152, 315); --Reach
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (152, 348); --Stealth

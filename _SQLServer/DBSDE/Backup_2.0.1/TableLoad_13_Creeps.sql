@@ -81,8 +81,8 @@ insert into Characters (CardIndex) VALUES (986);
 insert into AffinityAssignments (CharacterIndex, AffinityIndex) VALUES (596, 1); --Citrine
 insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender, ModelSize, CreatureType, Movement, Actions, Strength, Armor, Will, Dexterity, Health, Potions) 
 VALUES (596,
-'http://htkb.info/SDE/2.0/Cards/Creeps/Standies/Dirty_Rat_2.0.png', 
-'http://htkb.info/SDE/2.0/Cards/Creeps/Standies/Dirty_Rat_2.0_back.png',
+'http://htkb.info/SDE/Standies/Willard.png', 
+'http://htkb.info/SDE/Standies/Willard_back.png',
 'Either', 'Small', 'Rat', 8, 1, '1B', '0ST', '1B', '2R', 1, 0);
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (491, 757); --Mob
 insert into KeywordAssignments (ExploreCharacterIndex, KeywordIndex) VALUES (491, 1055); --Vermin
