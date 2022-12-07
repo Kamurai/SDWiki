@@ -181,6 +181,7 @@ type .\Backup_1.0.3\TableLoad_40_Terrain.sql >> TableLoad_H_1.0.3.sql
 type .\Backup_1.0.3\TableLoad_41_Utilities.sql >> TableLoad_H_1.0.3.sql
 
 type _Tables.sql >> TableLoad_Main.sql
+type _Card_Components.sql >> TableLoad_Main.sql
 type TableLoad_Keywords.sql >> TableLoad_Main.sql
 type TableLoad_Abilities.sql >> TableLoad_Main.sql
 type TableLoad_A_1.0.1.sql >> TableLoad_Main.sql

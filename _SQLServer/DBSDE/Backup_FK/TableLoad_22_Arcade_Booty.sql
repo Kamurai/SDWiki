@@ -4,7 +4,7 @@
 
 
 --Booty Biter	--CardIndex 337	--CharacterIndex 252	--ArcadeCharacterIndex 0
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Booty Biter',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (337, 'Booty Biter',
 'http://htkb.info/SDE/FK/Cards/Arcade/Booty/Card_Arcade_Booty_Booty_Biter_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Booty/Card_Arcade_Booty_Booty_Biter_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Arcade/Cards/Booty/Booty_Biter.xhtml', 
@@ -20,7 +20,7 @@ VALUES (0, -1, 'Booty Biter', 'Boo Booty', 'Elite', 5, 2, 3, 138);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (0, 176); --Backlash
 
 --Bouncing Booty --CardIndex 338	--CharacterIndex 253	--ArcadeCharacterIndex 1
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Bouncing Booty',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (338, 'Bouncing Booty',
 'http://htkb.info/SDE/FK/Cards/Arcade/Booty/Card_Arcade_Booty_Bouncing_Booty_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Booty/Card_Arcade_Booty_Bouncing_Booty_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Arcade/Cards/Booty/Bouncing_Booty.xhtml', 
@@ -36,7 +36,7 @@ VALUES (1, -1, 'Bouncing Booty', 'Boo Booty', 'Elite', 8, 2, 2, 140);
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (1, 197); --Bounce
 
 --Booty Grinder --CardIndex 339	--CharacterIndex 254	--ArcadeCharacterIndex 2
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Booty Grinder',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (339, 'Booty Grinder',
 'http://htkb.info/SDE/FK/Cards/Arcade/Booty/Card_Arcade_Booty_Booty_Grinder_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Booty/Card_Arcade_Booty_Booty_Grinder_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Arcade/Cards/Booty/Booty_Grinder.xhtml', 

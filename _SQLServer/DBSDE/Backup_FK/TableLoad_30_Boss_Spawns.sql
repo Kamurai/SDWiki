@@ -1,6 +1,10 @@
---FK Boss Spawns
+--SDE
+--FK 
+--Boss Spawns
+
+
 --Beatrix the Witch Queen     --CardIndex 432   --BossSpawnIndex 3  
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Beatrix the Witch Queen', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (432, 'Beatrix the Witch Queen', 
 'http://htkb.info/SDE/FK/Cards/Boss_Spawns/Card_Boss_Spawn_Beatrix_the_Witch_Queen_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Boss_Spawns/Card_Boss_Spawn_Beatrix_the_Witch_Queen_FK.png',
 'http://htkb.online/SDWiki/SDE/FK/Cards/Boss_Spawns/Beatrix_the_Witch_Queen.xhtml', 
@@ -15,7 +19,7 @@ insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (3, 174
 insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (3, 287); --Beatrix the Witch Queen: Arcade
 
 --The Forgotten King --CardIndex 433   --BossSpawnIndex 4  
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Forgotten King, The', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (433, 'Forgotten King, The', 
 'http://htkb.info/SDE/FK/Cards/Boss_Spawns/Card_Boss_Spawn_Forgotten_King_The_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Boss_Spawns/Card_Boss_Spawn_Forgotten_King_The_FK.png',
 'http://htkb.online/SDWiki/SDE/FK/Cards/Boss_Spawns/Forgotten_King_The.xhtml', 
@@ -30,7 +34,7 @@ insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (4, 175
 insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (4, 288); --The Forgotten King: Arcade
 
 --Goro     --CardIndex 434   --BossSpawnIndex 5  
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Goro', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (434, 'Goro', 
 'http://htkb.info/SDE/FK/Cards/Boss_Spawns/Card_Boss_Spawn_Goro_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Boss_Spawns/Card_Boss_Spawn_Goro_FK.png',
 'http://htkb.online/SDWiki/SDE/FK/Cards/Boss_Spawns/Goro.xhtml', 
@@ -45,7 +49,7 @@ insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (5, 176
 insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (5, 289); --Goro: Arcade
 
 --King Starfire     --CardIndex 435   --BossSpawnIndex 6  
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('King Starfire', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (435, 'King Starfire', 
 'http://htkb.info/SDE/FK/Cards/Boss_Spawns/Card_Boss_Spawn_King_Starfire_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Boss_Spawns/Card_Boss_Spawn_King_Starfire_FK.png',
 'http://htkb.online/SDWiki/SDE/FK/Cards/Boss_Spawns/King_Starfire.xhtml', 
@@ -60,7 +64,7 @@ insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (6, 177
 insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (6, 290); --King Stare: Arcade
 
 --Roxor  --CardIndex 436   --BossSpawnIndex 7  
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Roxor', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (436, 'Roxor', 
 'http://htkb.info/SDE/FK/Cards/Boss_Spawns/Card_Boss_Spawn_Roxor_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Boss_Spawns/Card_Boss_Spawn_Roxor_FK.png',
 'http://htkb.online/SDWiki/SDE/FK/Cards/Boss_Spawns/Roxor.xhtml', 
@@ -79,7 +83,7 @@ insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (7, 293
 insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (7, 295); --Rockin' Roxor v2: Arcade
 
 --Starfire     --CardIndex 437   --BossSpawnIndex 8  
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Starfire', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (437, 'Starfire', 
 'http://htkb.info/SDE/FK/Cards/Boss_Spawns/Card_Boss_Spawn_Starfire_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Boss_Spawns/Card_Boss_Spawn_Starfire_FK.png',
 'http://htkb.online/SDWiki/SDE/FK/Cards/Boss_Spawns/Starfire.xhtml', 
@@ -94,7 +98,7 @@ insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (8, 181
 insert into BossSpawnAssignments (BossSpawnIndex, CharacterIndex) VALUES (8, 296); --Starfire: Arcade
 
 --Von Drakk     --CardIndex 438   --BossSpawnIndex 9  
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Von Drakk', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (438, 'Von Drakk', 
 'http://htkb.info/SDE/FK/Cards/Boss_Spawns/Card_Boss_Spawn_Von_Drakk_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Boss_Spawns/Card_Boss_Spawn_Von_Drakk_FK.png',
 'http://htkb.online/SDWiki/SDE/FK/Cards/Boss_Spawns/Von_Drakk.xhtml', 

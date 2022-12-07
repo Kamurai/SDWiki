@@ -1,10 +1,12 @@
---drop table Cards, Characters, Affinities, AffinityAssignments, Keywords, KeywordAssignments, Abilities, AbilityAssignments, ExploreCharacters, Attributes, OffenseAssignments, DefenseAssignments, Pets, Monsters, ArcadeCharacters, StatLines, GangMembers, Equipment, EquipmentAssignments, Mechs, BossSpawns, BossSpawnAssignments, Utilities, Explores, ExploreTraps, ExploreCreeps, ExploreAssignments, Challenges, ChallengeAssignments, Plots, MightyMonsters, CustomCards;
+--drop table Cards, Characters, Affinities, AffinityAssignments, Keywords, KeywordAssignments, Abilities, AbilityAssignments, ExploreCharacters, Attributes, OffenseAssignments, DefenseAssignments, Pets, Monsters, ArcadeCharacters, StatLines, GangMembers, Equipment, EquipmentAssignments, Mechs, BossSpawns, BossSpawnAssignments, Utilities, Explores, ExploreTraps, ExploreCreeps, ExploreAssignments, Challenges, ChallengeAssignments, Plots, MightyMonsters, CustomComponents, Difficulties, DifficultyAssignments, Components;
 --drop table Keywords
 --drop table KeywordAssignments
 --drop table KeywordAssignments, AbilityAssignments, OffenseAssignments, DefenseAssignments
 --drop table Cards, Characters, Affinities, AffinityAssignments, KeywordAssignments, AbilityAssignments, ExploreCharacters, Attributes, OffenseAssignments, DefenseAssignments, Pets, Monsters, ArcadeCharacters, StatLines, GangMembers, Equipment, EquipmentAssignments, BossSpawns, BossSpawnAssignments, Utilities, Explores, ExploreTraps, ExploreCreeps, ExploreAssignments, Challenges, ChallengeAssignments, Plots, MightyMonsters;
 --drop table Mechs;
-CREATE TABLE Cards (CardIndex bigint IDENTITY(0,1) PRIMARY KEY, Name varchar(50) not null, PictureFront varchar(150) not null, PictureBack varchar(150) not null, Link varchar(150) not null, CardType varchar(20) not null, ProductSet varchar(20) not null, ProductModule varchar(20) not null, PlayMode varchar(10) not null, Flavor varchar(1250));
+
+CREATE TABLE Components (ComponentIndex bigint IDENTITY(0,1) PRIMARY KEY);
+CREATE TABLE Cards (CardIndex bigint IDENTITY(0,1) PRIMARY KEY, ComponentIndex bigint not null, Name varchar(50) not null, PictureFront varchar(150) not null, PictureBack varchar(150) not null, Link varchar(150) not null, CardType varchar(20) not null, ProductSet varchar(20) not null, ProductModule varchar(20) not null, PlayMode varchar(10) not null, Flavor varchar(1250));
 CREATE TABLE Characters (CharacterIndex bigint IDENTITY(0,1) PRIMARY KEY, CardIndex bigint not null);
 CREATE TABLE Affinities (AffinityIndex bigint IDENTITY(0,1) PRIMARY KEY, AffinityType varchar(50) not null);
 insert into Affinities (AffinityType) VALUES ('Amethyst'); --0
@@ -16,11 +18,11 @@ insert into Affinities (AffinityType) VALUES ('Sapphire'); --4
 CREATE TABLE AffinityAssignments (AffinityAssignmentIndex bigint IDENTITY(0,1) PRIMARY KEY, AffinityIndex bigint not null, CharacterIndex bigint not null);
 CREATE TABLE Keywords (KeywordIndex bigint IDENTITY(0,1) PRIMARY KEY, KeywordVersion varchar(20) not null, PlayMode varchar(20) not null, Name varchar(50) not null, KeywordDescription varchar(2500) not null);
 
-CREATE TABLE KeywordAssignments (KeywordAssignmentIndex bigint IDENTITY(0,1) PRIMARY KEY, KeywordIndex bigint not null, ExploreCharacterIndex bigint, GangMemberIndex bigint, EquipmentIndex bigint, BossSpawnIndex bigint, UtilityIndex bigint);
+CREATE TABLE KeywordAssignments (KeywordAssignmentIndex bigint IDENTITY(0,1) PRIMARY KEY, KeywordIndex bigint not null, ExploreCharacterIndex bigint, GangMemberIndex bigint, EquipmentIndex bigint, BossSpawnIndex bigint, UtilityIndex bigint, MightyMonsterIndex bigint);
 
 CREATE TABLE Abilities (AbilityIndex bigint IDENTITY(0,1) PRIMARY KEY, AbilityVersion varchar(20) not null, PlayMode varchar(20) not null, Name varchar(50) not null, AbilityResource varchar(10) not null, AbilityType varchar(10) not null, AbilityCost int not null, AttributeIndex bigint not null, AbilityRange int not null, AbilityDescription varchar(1000) not null);
 
-CREATE TABLE AbilityAssignments (AbilityAssignmentIndex bigint IDENTITY(0,1) PRIMARY KEY, AbilityIndex bigint not null, ExploreCharacterIndex bigint, GangMemberIndex bigint, EquipmentIndex bigint, ExploreTrapIndex bigint, BossSpawnIndex bigint, UtilityIndex bigint);
+CREATE TABLE AbilityAssignments (AbilityAssignmentIndex bigint IDENTITY(0,1) PRIMARY KEY, AbilityIndex bigint not null, ExploreCharacterIndex bigint, GangMemberIndex bigint, EquipmentIndex bigint, ExploreTrapIndex bigint, BossSpawnIndex bigint, UtilityIndex bigint, ChallengeTrapIndex bigint);
 
 CREATE TABLE ExploreCharacters (ExploreCharacterIndex bigint IDENTITY(0,1) PRIMARY KEY, CharacterIndex bigint not null, StandieFront varchar(150) not null, StandieBack varchar(150) not null, Gender varchar(50) not null, ModelSize varchar(50) not null, CreatureType varchar(50) not null, Movement int not null, Actions int not null, Strength varchar(50) not null, Armor varchar(50) not null, Will varchar(50) not null, Dexterity varchar(50) not null, Health int not null, Potions int not null);
 CREATE TABLE Attributes (AttributeIndex bigint IDENTITY(0,1) PRIMARY KEY, Attribute varchar(50) not null);
@@ -61,7 +63,12 @@ CREATE TABLE ChallengeAssignments (ChallengeAssignmentIndex bigint IDENTITY(0,1)
 CREATE TABLE Plots (PlotIndex bigint IDENTITY(0,1) PRIMARY KEY, CardIndex bigint not null, PowerUp varchar(100) not null, Plot varchar(1000) not null);
 CREATE TABLE MightyMonsters (MightyMonsterIndex bigint IDENTITY(0,1) PRIMARY KEY, CardIndex bigint not null, Targets varchar(100) not null, Bonus varchar(250) not null, Condition varchar(500) not null);
 
-CREATE TABLE CustomCards (CustomCardIndex bigint IDENTITY(0,1) PRIMARY KEY, CardIndex bigint not null, Author varchar(30) not null, SourceURL varchar(250) not null);
+CREATE TABLE Difficulties (DifficultyIndex bigint IDENTITY(0,1) PRIMARY KEY, DifficultyMode varchar(10) not null);
+insert into Difficulties (DifficultyMode) VALUES ('Easy'); --0
+insert into Difficulties (DifficultyMode) VALUES ('Hard'); --1
+CREATE TABLE DifficultyAssignments (DifficultyAssignmentIndex bigint IDENTITY(0,1) PRIMARY KEY, UtilityIndex bigint not null, DifficultyIndex bigint not null);
+
+CREATE TABLE CustomComponents (CustomComponentIndex bigint IDENTITY(0,1) PRIMARY KEY, ComponentIndex bigint not null, Author varchar(30) not null, SourceURL varchar(250) not null);
 
 
 

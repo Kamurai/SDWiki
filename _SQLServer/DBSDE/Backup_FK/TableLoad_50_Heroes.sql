@@ -1,6 +1,10 @@
---FK SD Arena Hero
+--SDE
+--FK SD Arena 
+--Heroes
+
+
 --Arena Champion --CardIndex 737	--CharacterIndex 347	--ExploreCharacterIndex 252
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (737, 
 'Arena Champion', 
 'http://htkb.info/SDE/FK/SDArena/Cards/Heroes/Card_Hero_Arena_Champion_FK_SDArena.png', 
 'http://htkb.info/SDE/FK/SDArena/Cards/Heroes/Card_Hero_Arena_Champion_FK_SDArena_back.png', 

@@ -4,8 +4,8 @@
 
 
 --Cannons On Deck!	--CardIndex 2269 --ChallengeIndex 156
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
-VALUES ('Cannons On Deck!',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
+VALUES (2269, 'Cannons On Deck!',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss_Challenges/Black_Handed_Henry/Card_Boss_Challenge_Cannons_On_Deck_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss_Challenges/Backs/Card_Boss_Challenge_Yellow_Back_2.0.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Challenges/Boss_Challenges/Black_Handed_Henry/Cannons_On_Deck.xhtml', 
@@ -17,8 +17,8 @@ insert into Challenges (CardIndex, Trap, Challenge) VALUES (2269,
 insert into ChallengeAssignments (CharacterIndex, ChallengeIndex) VALUES (1134, 156); --Black-Handed Henry: Arcade
 
 --Fire Breath Potion	--CardIndex 2270 --ChallengeIndex 157
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
-VALUES ('Fire Breath Potion',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
+VALUES (2270, 'Fire Breath Potion',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss_Challenges/Black_Handed_Henry/Card_Boss_Challenge_Fire_Breath_Potion_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss_Challenges/Backs/Card_Boss_Challenge_Yellow_Back_2.0.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Challenges/Boss_Challenges/Black_Handed_Henry/Fire_Breath_Potion.xhtml', 
@@ -30,8 +30,8 @@ insert into Challenges (CardIndex, Trap, Challenge) VALUES (2270,
 insert into ChallengeAssignments (CharacterIndex, ChallengeIndex) VALUES (1134, 157); --Black-Handed Henry: Arcade
 
 --Icy Armor Potion	--CardIndex 2271 --ChallengeIndex 158
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
-VALUES ('Icy Armor Potion',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
+VALUES (2271, 'Icy Armor Potion',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss_Challenges/Black_Handed_Henry/Card_Boss_Challenge_Icy_Armor_Potion_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss_Challenges/Backs/Card_Boss_Challenge_Yellow_Back_2.0.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Challenges/Boss_Challenges/Black_Handed_Henry/Icy_Armor_Potion.xhtml', 
@@ -43,8 +43,8 @@ insert into Challenges (CardIndex, Trap, Challenge) VALUES (2271,
 insert into ChallengeAssignments (CharacterIndex, ChallengeIndex) VALUES (1134, 158); --Black-Handed Henry: Arcade
 
 --Invulnerability Potion	--CardIndex 2272 --ChallengeIndex 159
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
-VALUES ('Invulnerability Potion',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
+VALUES (2272, 'Invulnerability Potion',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss_Challenges/Black_Handed_Henry/Card_Boss_Challenge_Invulnerability_Potion_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss_Challenges/Backs/Card_Boss_Challenge_Yellow_Back_2.0.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Challenges/Boss_Challenges/Black_Handed_Henry/Invulnerability_Potion.xhtml', 
@@ -56,8 +56,8 @@ insert into Challenges (CardIndex, Trap, Challenge) VALUES (2272,
 insert into ChallengeAssignments (CharacterIndex, ChallengeIndex) VALUES (1134, 159); --Black-Handed Henry: Arcade
 
 --Speed Potion	--CardIndex 2273 --ChallengeIndex 160
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
-VALUES ('Speed Potion',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor)
+VALUES (2273, 'Speed Potion',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss_Challenges/Black_Handed_Henry/Card_Boss_Challenge_Speed_Potion_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Challenges/Boss_Challenges/Backs/Card_Boss_Challenge_Yellow_Back_2.0.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Challenges/Boss_Challenges/Black_Handed_Henry/Speed_Potion.xhtml', 

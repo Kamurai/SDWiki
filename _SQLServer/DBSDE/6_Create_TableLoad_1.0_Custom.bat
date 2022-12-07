@@ -149,6 +149,7 @@ type .\Backup_1.0_Custom\TableLoad_94_MiniBosses.sql >> TableLoad_F_1.0_Custom.s
 type .\Backup_1.0_Custom\TableLoad_96_Warbands.sql >> TableLoad_F_1.0_Custom.sql
 
 type _Tables.sql >> TableLoad_Main.sql
+type _Card_Components.sql >> TableLoad_Main.sql
 type TableLoad_Keywords.sql >> TableLoad_Main.sql
 type TableLoad_Abilities.sql >> TableLoad_Main.sql
 type TableLoad_A_1.0.1.sql >> TableLoad_Main.sql

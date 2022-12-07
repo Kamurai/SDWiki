@@ -77,6 +77,7 @@ type .\Backup_FK\TableLoad_64_Arcade_MiniBosses.sql >> TableLoad_B_FK.sql
 type .\Backup_FK\TableLoad_66_Arcade_Warbands.sql >> TableLoad_B_FK.sql
 
 type _Tables.sql >> TableLoad_Main.sql
+type _Card_Components.sql >> TableLoad_Main.sql
 type TableLoad_Keywords.sql >> TableLoad_Main.sql
 type TableLoad_Abilities.sql >> TableLoad_Main.sql
 type TableLoad_A_1.0.1.sql >> TableLoad_Main.sql

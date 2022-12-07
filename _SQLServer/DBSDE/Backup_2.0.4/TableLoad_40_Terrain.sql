@@ -1,6 +1,6 @@
 --SDE
 --2.0.4 
---Utility Cards
+--Terrain Cards
 
 
 --name --CardIndex cXXX --UtilityIndex uXXX --TerrainIndex tXXX

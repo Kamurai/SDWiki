@@ -4,7 +4,7 @@
 
 
 --Loose Cannon --CardIndex 2244	--CharacterIndex 1122	--ExploreCharacterIndex 790
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (2244, 
 'Loose Cannon',
 'http://htkb.info/SDE/2.0/Cards/Creeps/Card_Creep_Loose_Cannon_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Creeps/Card_Creep_Loose_Cannon_2.0_back.png', 
@@ -24,7 +24,7 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (7
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (790, '', '8 Bit', 1);
 
 --Potion Parrot --CardIndex 2245	--CharacterIndex 1123	--ExploreCharacterIndex 791
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (2245, 
 'Potion Parrot',
 'http://htkb.info/SDE/2.0/Cards/Creeps/Card_Creep_Potion_Parrot_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Creeps/Card_Creep_Potion_Parrot_2.0_back.png', 

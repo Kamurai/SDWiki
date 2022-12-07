@@ -226,6 +226,7 @@ type .\Backup_Custom\TableLoad_31_Equipment.sql >> TableLoad_J_Custom.sql
 type .\Backup_Custom\TableLoad_41_Utilities.sql >> TableLoad_J_Custom.sql
 
 type _Tables.sql >> TableLoad_Main.sql
+type _Card_Components.sql >> TableLoad_Main.sql
 type TableLoad_Keywords.sql >> TableLoad_Main.sql
 type TableLoad_Abilities.sql >> TableLoad_Main.sql
 type TableLoad_A_1.0.1.sql >> TableLoad_Main.sql

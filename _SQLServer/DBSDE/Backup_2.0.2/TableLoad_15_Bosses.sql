@@ -4,7 +4,7 @@
 
 
 --Black-Handed Henry --CardIndex 2247 --CharacterIndex 1125 --ExploreCharacterIndex 793
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (2247, 
 'Black-Handed Henry',
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Black_Handed_Henry_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Bosses/Card_Boss_Black_Handed_Henry_2.0_back.png', 

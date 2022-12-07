@@ -4,7 +4,7 @@
 
 
 --Bashful Boris (Beta) --CardIndex 234	--CharacterIndex 149	--ExploreCharacterIndex 149
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Bashful Boris (Beta)',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (234, 'Bashful Boris (Beta)',
 'http://htkb.info/SDE/FK/Cards/MiniBosses/Card_MiniBoss_Bashful_Boris_beta_FK.png', 
 'http://htkb.info/SDE/FK/Cards/MiniBosses/Card_MiniBoss_Bashful_Boris_beta_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Explore/Cards/MiniBosses/Bashful_Boris_beta.xhtml', 
@@ -27,7 +27,7 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (1
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (149, '', 'Super', 4);
 
 --Bashful Boris --CardIndex 235	--CharacterIndex 150	--ExploreCharacterIndex 150
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Bashful Boris',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (235, 'Bashful Boris',
 'http://htkb.info/SDE/FK/Cards/MiniBosses/Card_MiniBoss_Bashful_Boris_FK.png', 
 'http://htkb.info/SDE/FK/Cards/MiniBosses/Card_MiniBoss_Bashful_Boris_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Explore/Cards/MiniBosses/Bashful_Boris.xhtml', 
@@ -50,7 +50,7 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (1
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (150, '', 'Super', 4);
 
 --Captain R --CardIndex 236	--CharacterIndex 151	--ExploreCharacterIndex 151
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Captain R',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (236, 'Captain R',
 'http://htkb.info/SDE/FK/Cards/MiniBosses/Card_MiniBoss_Captain_R_FK.png', 
 'http://htkb.info/SDE/FK/Cards/MiniBosses/Card_MiniBoss_Captain_R_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Explore/Cards/MiniBosses/Captain_R.xhtml', 
@@ -73,7 +73,7 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (1
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (151, '', 'Super', 4);
 
 --Chaos Kitty --CardIndex 237	--CharacterIndex 152	--ExploreCharacterIndex 152
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Chaos Kitty',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (237, 'Chaos Kitty',
 'http://htkb.info/SDE/FK/Cards/MiniBosses/Card_MiniBoss_Chaos_Kitty_FK.png', 
 'http://htkb.info/SDE/FK/Cards/MiniBosses/Card_MiniBoss_Chaos_Kitty_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Explore/Cards/MiniBosses/Chaos_Kitty.xhtml', 
@@ -97,7 +97,7 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (1
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (152, '', 'Super', 4);
 
 --Death Spectre --CardIndex 238	--CharacterIndex 153	--ExploreCharacterIndex 153
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Death Spectre',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (238, 'Death Spectre',
 'http://htkb.info/SDE/FK/Cards/MiniBosses/Card_MiniBoss_Death_Spectre_FK.png', 
 'http://htkb.info/SDE/FK/Cards/MiniBosses/Card_MiniBoss_Death_Spectre_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Explore/Cards/MiniBosses/Death_Spectre.xhtml', 
@@ -120,7 +120,7 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (1
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (153, '', 'Super', 4);
 
 --Deranged Alchemist --CardIndex 239	--CharacterIndex 154	--ExploreCharacterIndex 154
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Deranged Alchemist',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (239, 'Deranged Alchemist',
 'http://htkb.info/SDE/FK/Cards/MiniBosses/Card_MiniBoss_Deranged_Alchemist_FK.png', 
 'http://htkb.info/SDE/FK/Cards/MiniBosses/Card_MiniBoss_Deranged_Alchemist_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Explore/Cards/MiniBosses/Deranged_Alchemist.xhtml', 
@@ -144,7 +144,7 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (1
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (154, '', 'Super', 4);
 
 --Glimmerwing	--CardIndex 240	--CharacterIndex 155	--ExploreCharacterIndex 155
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Glimmerwing',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (240, 'Glimmerwing',
 'http://htkb.info/SDE/FK/Cards/MiniBosses/Card_MiniBoss_Glimmerwing_FK.png', 
 'http://htkb.info/SDE/FK/Cards/MiniBosses/Card_MiniBoss_Glimmerwing_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Explore/Cards/MiniBosses/Glimmerwing.xhtml', 
@@ -169,7 +169,7 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (1
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (155, '', 'Super', 4);
 
 --Gruesome George --CardIndex 241	--CharacterIndex 156	--ExploreCharacterIndex 156
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Gruesome George',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (241, 'Gruesome George',
 'http://htkb.info/SDE/FK/Cards/MiniBosses/Card_MiniBoss_Gruesome_George_FK.png', 
 'http://htkb.info/SDE/FK/Cards/MiniBosses/Card_MiniBoss_Gruesome_George_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Explore/Cards/MiniBosses/Gruesome_George.xhtml', 
@@ -194,7 +194,7 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (1
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (156, '', 'Super', 4);
 
 --Herald of Vulcanis	--CardIndex 242	--CharacterIndex 157	--ExploreCharacterIndex 157
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Herald of Vulcanis',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (242, 'Herald of Vulcanis',
 'http://htkb.info/SDE/FK/Cards/MiniBosses/Card_MiniBoss_Herald_of_Vulcanis_FK.png', 
 'http://htkb.info/SDE/FK/Cards/MiniBosses/Card_MiniBoss_Herald_of_Vulcanis_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Explore/Cards/MiniBosses/Herald_of_Vulcanis.xhtml', 
@@ -218,7 +218,7 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (1
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (157, '', 'Super', 4);
 
 --Iron Golem --CardIndex 243	--CharacterIndex 158	--ExploreCharacterIndex 158
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Iron Golem',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (243, 'Iron Golem',
 'http://htkb.info/SDE/FK/Cards/MiniBosses/Card_MiniBoss_Iron_Golem_FK.png', 
 'http://htkb.info/SDE/FK/Cards/MiniBosses/Card_MiniBoss_Iron_Golem_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Explore/Cards/MiniBosses/Iron_Golem.xhtml', 
@@ -240,7 +240,7 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (1
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (158, '', 'Super', 4);
 
 --Jack Scarecrow --CardIndex 244	--CharacterIndex 159	--ExploreCharacterIndex 159
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Jack Scarecrow',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (244, 'Jack Scarecrow',
 'http://htkb.info/SDE/FK/Cards/MiniBosses/Card_MiniBoss_Jack_Scarecrow_FK.png', 
 'http://htkb.info/SDE/FK/Cards/MiniBosses/Card_MiniBoss_Jack_Scarecrow_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Explore/Cards/MiniBosses/Jack_Scarecrow.xhtml', 
@@ -264,7 +264,7 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (1
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (159, '', 'Super', 4);
 
 --Kaelly the Nether Strider --CardIndex 245	--CharacterIndex 160	--ExploreCharacterIndex 160
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Kaelly the Nether Strider',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (245, 'Kaelly the Nether Strider',
 'http://htkb.info/SDE/FK/Cards/MiniBosses/Card_MiniBoss_Kaelly_the_Nether_Strider_FK.png', 
 'http://htkb.info/SDE/FK/Cards/MiniBosses/Card_MiniBoss_Kaelly_the_Nether_Strider_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Explore/Cards/MiniBosses/Kaelly_the_Nether_Strider.xhtml', 
@@ -289,7 +289,7 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (1
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (160, '', 'Super', 4);
 
 --Kasaro To --CardIndex 246	--CharacterIndex 161	--ExploreCharacterIndex 161
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Kasaro To',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (246, 'Kasaro To',
 'http://htkb.info/SDE/FK/Cards/MiniBosses/Card_MiniBoss_Kasaro_To_FK.png', 
 'http://htkb.info/SDE/FK/Cards/MiniBosses/Card_MiniBoss_Kasaro_To_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Explore/Cards/MiniBosses/Kasaro_To.xhtml', 
@@ -313,7 +313,7 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (1
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (161, '', 'Super', 4);
 
 --Kunoichi Candy --CardIndex 247	--CharacterIndex 162	--ExploreCharacterIndex 162
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Kunoichi Candy',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (247, 'Kunoichi Candy',
 'http://htkb.info/SDE/FK/Cards/MiniBosses/Card_MiniBoss_Kunoichi_Candy_FK.png', 
 'http://htkb.info/SDE/FK/Cards/MiniBosses/Card_MiniBoss_Kunoichi_Candy_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Explore/Cards/MiniBosses/Kunoichi_Candy.xhtml', 
@@ -338,7 +338,7 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (1
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (162, '', 'Super', 1);
 
 --Ninja Cola --CardIndex 248	--CharacterIndex 163	--ExploreCharacterIndex 163
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ninja Cola',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (248, 'Ninja Cola',
 'http://htkb.info/SDE/FK/Cards/MiniBosses/Card_MiniBoss_Ninja_Cola_FK.png', 
 'http://htkb.info/SDE/FK/Cards/MiniBosses/Card_MiniBoss_Ninja_Cola_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Explore/Cards/MiniBosses/Ninja_Cola.xhtml', 
@@ -363,7 +363,7 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (1
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (163, '', 'Super', 1);
 
 --Clan Fire Shrine Oni --CardIndex 249	--CharacterIndex 164	--ExploreCharacterIndex 164
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (249, 
 'Clan Fire Shrine Oni',
 'http://htkb.info/SDE/FK/Cards/MiniBosses/Card_MiniBoss_Clan_Fire_Shrine_Oni_FK.png', 
 'http://htkb.info/SDE/FK/Cards/MiniBosses/Card_MiniBoss_Clan_Fire_Shrine_Oni_FK_back.png', 
@@ -387,7 +387,7 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (1
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (164, '', 'Super', 4);
 
 --Rex --CardIndex 250	--CharacterIndex 165	--ExploreCharacterIndex 165
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Rex',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (250, 'Rex',
 'http://htkb.info/SDE/FK/Cards/MiniBosses/Card_MiniBoss_Rex_FK.png', 
 'http://htkb.info/SDE/FK/Cards/MiniBosses/Card_MiniBoss_Rex_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Explore/Cards/MiniBosses/Rex.xhtml', 
@@ -409,7 +409,7 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (1
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (165, '', 'Super', 4);
 
 --Rock Gut --CardIndex 251	--CharacterIndex 166	--ExploreCharacterIndex 166
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Rock Gut',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (251, 'Rock Gut',
 'http://htkb.info/SDE/FK/Cards/MiniBosses/Card_MiniBoss_Rock_Gut_FK.png', 
 'http://htkb.info/SDE/FK/Cards/MiniBosses/Card_MiniBoss_Rock_Gut_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Explore/Cards/MiniBosses/Rock_Gut.xhtml', 
@@ -432,7 +432,7 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (1
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (166, '', 'Super', 4);
 
 --Salt --CardIndex 252	--CharacterIndex 167	--ExploreCharacterIndex 167
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Salt',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (252, 'Salt',
 'http://htkb.info/SDE/FK/Cards/MiniBosses/Card_MiniBoss_Salt_FK.png', 
 'http://htkb.info/SDE/FK/Cards/MiniBosses/Card_MiniBoss_Salt_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Explore/Cards/MiniBosses/Salt.xhtml', 
@@ -456,7 +456,7 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (1
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (167, '', 'Super', 4);
 
 --Ser Sharpclaw --CardIndex 253	--CharacterIndex 168	--ExploreCharacterIndex 168
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ser Sharpclaw',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (253, 'Ser Sharpclaw',
 'http://htkb.info/SDE/FK/Cards/MiniBosses/Card_MiniBoss_Ser_Sharpclaw_FK.png', 
 'http://htkb.info/SDE/FK/Cards/MiniBosses/Card_MiniBoss_Ser_Sharpclaw_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Explore/Cards/MiniBosses/Ser_Sharpclaw.xhtml', 
@@ -478,7 +478,7 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (1
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (168, '', 'Super', 4);
 
 --Ser Snapjaw --CardIndex 254	--CharacterIndex 169	--ExploreCharacterIndex 169
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ser Snapjaw',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (254, 'Ser Snapjaw',
 'http://htkb.info/SDE/FK/Cards/MiniBosses/Card_MiniBoss_Ser_Snapjaw_FK.png', 
 'http://htkb.info/SDE/FK/Cards/MiniBosses/Card_MiniBoss_Ser_Snapjaw_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Explore/Cards/MiniBosses/Ser_Snapjaw.xhtml', 
@@ -501,7 +501,7 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (1
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (169, '', 'Super', 4);
 
 --Shadow-Mode Candy --CardIndex 255	--CharacterIndex 170	--ExploreCharacterIndex 170
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Shadow-Mode Candy',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (255, 'Shadow-Mode Candy',
 'http://htkb.info/SDE/FK/Cards/MiniBosses/Card_MiniBoss_Shadow_Mode_Candy_FK.png', 
 'http://htkb.info/SDE/FK/Cards/MiniBosses/Card_MiniBoss_Shadow_Mode_Candy_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Explore/Cards/MiniBosses/Shadow_Mode_Candy.xhtml', 
@@ -525,7 +525,7 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (1
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (170, '', 'Super', 4);
 
 --Succubus Vandella --CardIndex 256 --CharacterIndex 171 --ExploreCharacterIndex 171
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (256, 
 'Succubus Vandella',
 'http://htkb.info/SDE/FK/Cards/MiniBosses/Card_MiniBoss_Succubus_Vandella_FK.png', 
 'http://htkb.info/SDE/FK/Cards/MiniBosses/Card_MiniBoss_Succubus_Vandella_FK_back.png', 
@@ -550,7 +550,7 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (1
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (171, '', 'Super', 4);
 
 --Trent (Beta) --CardIndex 257 --CharacterIndex 172 --ExploreCharacterIndex 172
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Trent (Beta)',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (257, 'Trent (Beta)',
 'http://htkb.info/SDE/FK/Cards/MiniBosses/Card_MiniBoss_Trent_beta_FK.png', 
 'http://htkb.info/SDE/FK/Cards/MiniBosses/Card_MiniBoss_Trent_beta_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Explore/Cards/MiniBosses/Trent_beta.xhtml', 
@@ -575,7 +575,7 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (1
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (172, '', 'Super', 4);
 
 --Trent --CardIndex 258 --CharacterIndex 173 --ExploreCharacterIndex 173
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Trent',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (258, 'Trent',
 'http://htkb.info/SDE/FK/Cards/MiniBosses/Card_MiniBoss_Trent_FK.png', 
 'http://htkb.info/SDE/FK/Cards/MiniBosses/Card_MiniBoss_Trent_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Explore/Cards/MiniBosses/Trent.xhtml', 

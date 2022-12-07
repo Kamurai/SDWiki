@@ -4,7 +4,7 @@
 
 --2274
 --Apple Jack --Card Index 2289	--CharacterIndex 1137 --ExploreCharacterIndex 798
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (2289, 
 'Apple Jack', 
 'http://htkb.info/SDE/1.0/Custom/Cards/Heroes/Card_Hero_Apple_Jack_1.0_Custom.png', 
 'http://htkb.info/SDE/1.0/Custom/Cards/Heroes/Card_Hero_Apple_Jack_1.0_Custom_back.png', 
@@ -24,14 +24,14 @@ insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender
 'Feminine', 'Small', '', 8, 3, '3B', '2B', '1R', '2B', 6, 1);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (798, 0, 1); --Attack
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (798, 2); --Armor
-insert into CustomCards (CardIndex, Author, SourceURL) VALUES(
+insert into CustomComponents (ComponentIndex, Author, SourceURL) VALUES(
 2289,
 'Damien Stanley, @Gubbinz',
 'https://boardgamegeek.com/thread/1191087/sde-mlp-custom-heronies'
 );
 
 --Avenging Samurai --Card Index 2290	--CharacterIndex 1138 --ExploreCharacterIndex 799
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (2290, 
 'Avenging Samurai', 
 'http://htkb.info/SDE/1.0/Custom/Cards/Heroes/Card_Hero_Avenging_Samurai_1.0_Custom.png', 
 'http://htkb.info/SDE/1.0/Custom/Cards/Heroes/Card_Hero_Avenging_Samurai_1.0_Custom_back.png', 
@@ -51,14 +51,14 @@ insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender
 'Masculine', 'Small', 'Human', 6, 3, '2R', '3B', '1B1R', '1B1R', 5, 1);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (799, 0, 1); --Attack
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (799, 2); --Armor
-insert into CustomCards (CardIndex, Author, SourceURL) VALUES(
+insert into CustomComponents (ComponentIndex, Author, SourceURL) VALUES(
 2290,
 'N India, @superstring',
 'https://boardgamegeek.com/thread/763866/homemade-heropalooza-amazon-dancer-monk-samurai'
 );
 
 --Crystal Form --Card Index 2291	--CharacterIndex 1139 --ExploreCharacterIndex 800
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (2291, 
 'Crystal Form', 
 'http://htkb.info/SDE/1.0/Custom/Cards/Heroes/Card_Hero_Crystal_Form_1.0_Custom.png', 
 'http://htkb.info/SDE/1.0/Custom/Cards/Heroes/Card_Hero_Crystal_Form_1.0_Custom_back.png', 
@@ -74,14 +74,14 @@ insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender
 'Neither', 'Small', '', 0, 0, '0', '1ST', '0', '0', 1, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (800, 0, 0); --Attack
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (800, 2); --Armor
-insert into CustomCards (CardIndex, Author, SourceURL) VALUES(
+insert into CustomComponents (ComponentIndex, Author, SourceURL) VALUES(
 2290,
 'Damien Stanley, @Gubbinz',
 'https://boardgamegeek.com/thread/1191087/sde-mlp-custom-heronies'
 );
 
 --Diva, Royal Guard --Card Index 2292	--CharacterIndex 1140 --ExploreCharacterIndex 801
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (2292, 
 'Diva, Royal Guard', 
 'http://htkb.info/SDE/1.0/Custom/Cards/Heroes/Card_Hero_Diva_Royal_Guard_1.0_Custom.png', 
 'http://htkb.info/SDE/1.0/Custom/Cards/Heroes/Card_Hero_Diva_Royal_Guard_1.0_Custom_back.png', 
@@ -100,14 +100,14 @@ insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender
 'Feminine', 'Small', 'Human', 6, 3, '1B1R', '1B2R', '1B1R', '1B1R', 5, 1);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (801, 0, 1); --Attack
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (801, 2); --Armor
-insert into CustomCards (CardIndex, Author, SourceURL) VALUES(
+insert into CustomComponents (ComponentIndex, Author, SourceURL) VALUES(
 2291,
 'Ulf Beorstruk, @Ulf Beorstruk',
 'https://boardgamegeek.com/image/1963634/ulf-beorstruk'
 );
 
 --Dragonmaster --Card Index 2293	--CharacterIndex 1141 --ExploreCharacterIndex 802
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (2293, 
 'Dragonmaster', 
 'http://htkb.info/SDE/1.0/Custom/Cards/Heroes/Card_Hero_Dragonmaster_1.0_Custom.png', 
 'http://htkb.info/SDE/1.0/Custom/Cards/Heroes/Card_Hero_Dragonmaster_1.0_Custom_back.png', 
@@ -128,14 +128,14 @@ insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender
 'Feminine', 'Small', 'Human', 6, 3, '1B1R', '1B2R', '1B1R', '1B1R', 5, 1);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (802, 0, 1); --Attack
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (801, 2); --Armor
-insert into CustomCards (CardIndex, Author, SourceURL) VALUES(
+insert into CustomComponents (ComponentIndex, Author, SourceURL) VALUES(
 2291,
 'Ulf Beorstruk, @Ulf Beorstruk',
 'https://boardgamegeek.com/image/1963685/ulf-beorstruk'
 );
 
 --Enchanted Dancer --Card Index 2294	--CharacterIndex 1142 --ExploreCharacterIndex 803
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (2294, 
 'Enchanted Dancer', 
 'http://htkb.info/SDE/1.0/Custom/Cards/Heroes/Card_Hero_Enchanted_Dancer_1.0_Custom.png', 
 'http://htkb.info/SDE/1.0/Custom/Cards/Heroes/Card_Hero_Enchanted_Dancer_1.0_Custom_back.png', 
@@ -157,14 +157,14 @@ insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender
 'Feminine', 'Small', 'Human', 6, 3, '1B1R', '1B2R', '1B1R', '1B1R', 5, 1);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (803, 0, 1); --Attack
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (803, 2); --Armor
-insert into CustomCards (CardIndex, Author, SourceURL) VALUES(
+insert into CustomComponents (ComponentIndex, Author, SourceURL) VALUES(
 2292,
 'N India, @superstring',
 'https://boardgamegeek.com/thread/763866/homemade-heropalooza-amazon-dancer-monk-samurai'
 );
 
 --Fluttershy --Card Index 2295	--CharacterIndex 1143 --ExploreCharacterIndex 804
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (2295, 
 'Fluttershy', 
 'http://htkb.info/SDE/1.0/Custom/Cards/Heroes/Card_Hero_Fluttershy_1.0_Custom.png', 
 'http://htkb.info/SDE/1.0/Custom/Cards/Heroes/Card_Hero_Fluttershy_1.0_Custom_back.png', 
@@ -184,14 +184,14 @@ insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender
 'Feminine', 'Small', '', 8, 2, '2B', '2B', '1B', '1B1R', 6, 1);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (804, 0, 1); --Attack
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (804, 2); --Armor
-insert into CustomCards (CardIndex, Author, SourceURL) VALUES(
+insert into CustomComponents (ComponentIndex, Author, SourceURL) VALUES(
 2293,
 'Damien Stanley, @Gubbinz',
 'https://boardgamegeek.com/thread/1191087/sde-mlp-custom-heronies'
 );
 
 --Frostbyte Warrior --Card Index 2296	--CharacterIndex 1144 --ExploreCharacterIndex 805
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (2296, 
 'Frostbyte Warrior', 
 'http://htkb.info/SDE/1.0/Custom/Cards/Heroes/Card_Hero_Frostbyte_Warrior_1.0_Custom.png', 
 'http://htkb.info/SDE/1.0/Custom/Cards/Heroes/Card_Hero_Frostbyte_Warrior_1.0_Custom_back.png', 
@@ -211,14 +211,14 @@ insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender
 'Either', 'Small', 'Flind', 6, 3, '2B 1R', '2B', '1B', '1B1R', 6, 1);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (805, 0, 1); --Attack
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (805, 2); --Armor
-insert into CustomCards (CardIndex, Author, SourceURL) VALUES(
+insert into CustomComponents (ComponentIndex, Author, SourceURL) VALUES(
 2294,
 'TBD',
 'https://www.pinterest.com/pin/423971752430359267/'
 );
 
 --Glauerdoom Hunter --Card Index 2297	--CharacterIndex 1145 --ExploreCharacterIndex 806
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (2297, 
 'Glauerdoom Hunter', 
 'http://htkb.info/SDE/1.0/Custom/Cards/Heroes/Card_Hero_Glauerdoom_Hunter_1.0_Custom.png', 
 'http://htkb.info/SDE/1.0/Custom/Cards/Heroes/Card_Hero_Glauerdoom_Hunter_1.0_Custom_back.png', 
@@ -239,14 +239,14 @@ insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender
 'Masculine', 'Small', 'Human', 6, 3, '2B', '1B 1R', '1B 1R', '3B', 5, 1);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (806, 0, 1); --Attack
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (806, 2); --Armor
-insert into CustomCards (CardIndex, Author, SourceURL) VALUES(
+insert into CustomComponents (ComponentIndex, Author, SourceURL) VALUES(
 2295,
 'Ulf Beorstruk, @Ulf Beorstruk',
 'https://boardgamegeek.com/image/1967539/ulf-beorstruk'
 );
 
 --Guild Swordsman --Card Index 2298	--CharacterIndex 1146 --ExploreCharacterIndex 807
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (2298, 
 'Guild Swordsman', 
 'http://htkb.info/SDE/1.0/Custom/Cards/Heroes/Card_Hero_Guild_Swordsman_1.0_Custom.png', 
 'http://htkb.info/SDE/1.0/Custom/Cards/Heroes/Card_Hero_Guild_Swordsman_1.0_Custom_back.png', 
@@ -266,14 +266,14 @@ insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender
 'Masculine', 'Small', 'Human', 6, 3, '3B', '1B 1R', '1B 1R', '2B', 5, 1);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (807, 0, 1); --Attack
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (807, 2); --Armor
-insert into CustomCards (CardIndex, Author, SourceURL) VALUES(
+insert into CustomComponents (ComponentIndex, Author, SourceURL) VALUES(
 2296,
 'Ulf Beorstruk, @Ulf Beorstruk',
 'https://boardgamegeek.com/image/1963600/ulf-beorstruk'
 );
 
 --Herald of Vulcanis --Card Index 2299	--CharacterIndex 1147 --ExploreCharacterIndex 808
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (2299, 
 'Herald of Vulcanis', 
 'http://htkb.info/SDE/1.0/Custom/Cards/Heroes/Card_Hero_Herald_of_Vulcanis_1.0_Custom.png', 
 'http://htkb.info/SDE/1.0/Custom/Cards/Heroes/Card_Hero_Herald_of_Vulcanis_1.0_Custom_back.png', 
@@ -294,14 +294,14 @@ insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender
 'Masculine', 'Small', 'Human', 6, 3, '3B', '1B 1R', '1B 1R', '2B', 5, 1);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (808, 0, 1); --Attack
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (808, 2); --Armor
-insert into CustomCards (CardIndex, Author, SourceURL) VALUES(
+insert into CustomComponents (ComponentIndex, Author, SourceURL) VALUES(
 2297,
 'Kristof Hense, @Kritte',
 'https://boardgamegeek.com/image/1747348/kritte'
 );
 
 --Hexcast Sorceress --Card Index 2300	--CharacterIndex 1148 --ExploreCharacterIndex 809
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (2300, 
 'Hexcast Sorceress', 
 'http://htkb.info/SDE/1.0/Custom/Cards/Heroes/Card_Hero_Hexcast_Sorceress_1.0_Custom.png', 
 'http://htkb.info/SDE/1.0/Custom/Cards/Heroes/Card_Hero_Hexcast_Sorceress_1.0_Custom_back.png', 
@@ -321,14 +321,14 @@ insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender
 'Feminine', 'Small', 'Human', 6, 3, '2B', '3B', '1B 1R', '1B 1R', 5, 1);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (809, 0, 1); --Attack
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (809, 2); --Armor
-insert into CustomCards (CardIndex, Author, SourceURL) VALUES(
+insert into CustomComponents (ComponentIndex, Author, SourceURL) VALUES(
 2298,
 '@EY',
 'https://kawaiisaa.blogspot.com/2015/09/super-dungeon-explore.html'
 );
 
 --Hired Hand --Card Index 2301	--CharacterIndex 1149 --ExploreCharacterIndex 810
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (2301, 
 'Hired Hand', 
 'http://htkb.info/SDE/1.0/Custom/Cards/Heroes/Card_Hero_Hired_Hand_1.0_Custom.png', 
 'http://htkb.info/SDE/1.0/Custom/Cards/Heroes/Card_Hero_Hired_Hand_1.0_Custom_back.png', 
@@ -344,14 +344,14 @@ insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender
 'Either', 'Small', 'Human', 6, 3, '1B 1R', '1B 1R', '2B', '2B', 3, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (810, 0, 1); --Attack
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (810, 2); --Armor
-insert into CustomCards (CardIndex, Author, SourceURL) VALUES(
+insert into CustomComponents (ComponentIndex, Author, SourceURL) VALUES(
 2399,
 'Adam Porter, @Adam78',
 'https://boardgamegeek.com/image/1238034/adam78'
 );
 
 --Lotus Temple Monk --Card Index 2302	--CharacterIndex 1150 --ExploreCharacterIndex 811
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (2302, 
 'Lotus Temple Monk', 
 'http://htkb.info/SDE/1.0/Custom/Cards/Heroes/Card_Hero_Lotus_Temple_Monk_1.0_Custom.png', 
 'http://htkb.info/SDE/1.0/Custom/Cards/Heroes/Card_Hero_Lotus_Temple_Monk_1.0_Custom_back.png', 
@@ -372,14 +372,14 @@ insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender
 'Masculine', 'Small', 'Human', 6, 3, '3B', '3B', '2R', '2B', 5, 1);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (811, 0, 1); --Attack
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (811, 2); --Armor
-insert into CustomCards (CardIndex, Author, SourceURL) VALUES(
+insert into CustomComponents (ComponentIndex, Author, SourceURL) VALUES(
 2300,
 'N India, @superstring',
 'https://boardgamegeek.com/thread/763866/homemade-heropalooza-amazon-dancer-monk-samurai'
 );
 
 --Maya, Ice Mage --Card Index 2303	--CharacterIndex 1151 --ExploreCharacterIndex 812
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (2303, 
 'Maya, Ice Mage', 
 'http://htkb.info/SDE/1.0/Custom/Cards/Heroes/Card_Hero_Maya_Ice_Mage_1.0_Custom.png', 
 'http://htkb.info/SDE/1.0/Custom/Cards/Heroes/Card_Hero_Maya_Ice_Mage_1.0_Custom_back.png', 
@@ -400,14 +400,14 @@ insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender
 'Feminine', 'Small', 'Human', 6, 3, '2B', '1B 1R', '2R', '2B', 4, 1);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (812, 0, 1); --Attack
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (812, 2); --Armor
-insert into CustomCards (CardIndex, Author, SourceURL) VALUES(
+insert into CustomComponents (ComponentIndex, Author, SourceURL) VALUES(
 2301,
 'Ulf Beorstruk, @Ulf Beorstruk',
 'https://boardgamegeek.com/image/1963422/ulf-beorstruk'
 );
 
 --Nekkoneer Captain --Card Index 2304	--CharacterIndex 1152 --ExploreCharacterIndex 813
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (2304, 
 'Nekkoneer Captain', 
 'http://htkb.info/SDE/1.0/Custom/Cards/Heroes/Card_Hero_Nekkoneer_Captain_1.0_Custom.png', 
 'http://htkb.info/SDE/1.0/Custom/Cards/Heroes/Card_Hero_Nekkoneer_Captain_1.0_Custom_back.png', 
@@ -427,14 +427,14 @@ insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender
 'Feminine', 'Small', 'Catgirl', 7, 3, '3B', '2B', '2R', '2R', 5, 1);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (813, 0, 1); --Attack
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (813, 2); --Armor
-insert into CustomCards (CardIndex, Author, SourceURL) VALUES(
+insert into CustomComponents (ComponentIndex, Author, SourceURL) VALUES(
 2302,
 'TBD',
 'TBD'
 );
 
 --Pinkie Pie --Card Index 2305	--CharacterIndex 1153 --ExploreCharacterIndex 814
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (2305, 
 'Pinkie Pie', 
 'http://htkb.info/SDE/1.0/Custom/Cards/Heroes/Card_Hero_Pinkie_Pie_1.0_Custom.png', 
 'http://htkb.info/SDE/1.0/Custom/Cards/Heroes/Card_Hero_Pinkie_Pie_1.0_Custom_back.png', 
@@ -454,14 +454,14 @@ insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender
 'Feminine', 'Small', '', 8, 3, '2B', '2B', '2B', '2R', 6, 1);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (814, 0, 1); --Attack
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (814, 2); --Armor
-insert into CustomCards (CardIndex, Author, SourceURL) VALUES(
+insert into CustomComponents (ComponentIndex, Author, SourceURL) VALUES(
 2303,
 'Damien Stanley, @Gubbinz',
 'https://boardgamegeek.com/thread/1191087/sde-mlp-custom-heronies'
 );
 
 --Princess Cadance --Card Index 2306	--CharacterIndex 1154 --ExploreCharacterIndex 815
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (2306, 
 'Princess Cadance', 
 'http://htkb.info/SDE/1.0/Custom/Cards/Heroes/Card_Hero_Princess_Cadance_1.0_Custom.png', 
 'http://htkb.info/SDE/1.0/Custom/Cards/Heroes/Card_Hero_Princess_Cadance_1.0_Custom_back.png', 
@@ -482,14 +482,14 @@ insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender
 'Feminine', 'Small', 'Equestrian', 6, 3, '2B', '3B', '2R', '2R', 5, 1);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (815, 0, 1); --Attack
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (815, 2); --Armor
-insert into CustomCards (CardIndex, Author, SourceURL) VALUES(
+insert into CustomComponents (ComponentIndex, Author, SourceURL) VALUES(
 2304,
 '@Eradose',
 'https://derpibooru.org/images/401547'
 );
 
 --Rainbow Dash --Card Index 2307	--CharacterIndex 1155 --ExploreCharacterIndex 816
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (2307, 
 'Rainbow Dash', 
 'http://htkb.info/SDE/1.0/Custom/Cards/Heroes/Card_Hero_Rainbow_Dash_1.0_Custom.png', 
 'http://htkb.info/SDE/1.0/Custom/Cards/Heroes/Card_Hero_Rainbow_Dash_1.0_Custom_back.png', 
@@ -508,14 +508,14 @@ insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender
 'Feminine', 'Small', '', 8, 3, '2B', '2B', '1R', '1B 1R', 5, 1);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (816, 0, 1); --Attack
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (816, 2); --Armor
-insert into CustomCards (CardIndex, Author, SourceURL) VALUES(
+insert into CustomComponents (ComponentIndex, Author, SourceURL) VALUES(
 2305,
 'Damien Stanley, @Gubbinz',
 'https://boardgamegeek.com/thread/1191087/sde-mlp-custom-heronies'
 );
 
 --Rammus --Card Index 2308	--CharacterIndex 1156 --ExploreCharacterIndex 817
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (2308, 
 'Rammus', 
 'http://htkb.info/SDE/1.0/Custom/Cards/Heroes/Card_Hero_Rammus_1.0_Custom.png', 
 'http://htkb.info/SDE/1.0/Custom/Cards/Heroes/Card_Hero_Rammus_1.0_Custom_back.png', 
@@ -534,14 +534,14 @@ insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender
 'Either', 'Large', 'Armordillo', 6, 3, '1R', '3B', '1B 1R', '1B', 5, 1);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (817, 0, 1); --Attack
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (817, 2); --Armor
-insert into CustomCards (CardIndex, Author, SourceURL) VALUES(
+insert into CustomComponents (ComponentIndex, Author, SourceURL) VALUES(
 2307,
 '@cincydooley',
 'https://www.dakkadakka.com/dakkaforum/posts/list/418382.page'
 );
 
 --Rarity --Card Index 2309	--CharacterIndex 1157 --ExploreCharacterIndex 818
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (2309, 
 'Rarity', 
 'http://htkb.info/SDE/1.0/Custom/Cards/Heroes/Card_Hero_Rarity_1.0_Custom.png', 
 'http://htkb.info/SDE/1.0/Custom/Cards/Heroes/Card_Hero_Rarity_1.0_Custom_back.png', 
@@ -561,14 +561,14 @@ insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender
 'Feminine', 'Small', '', 8, 3, '2B', '2B', '2R', '2B', 6, 1);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (818, 0, 1); --Attack
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (818, 2); --Armor
-insert into CustomCards (CardIndex, Author, SourceURL) VALUES(
+insert into CustomComponents (ComponentIndex, Author, SourceURL) VALUES(
 2307,
 'Damien Stanley, @Gubbinz',
 'https://boardgamegeek.com/thread/1191087/sde-mlp-custom-heronies'
 );
 
 --Royal Fencer (v1) --Card Index 2310	--CharacterIndex 1158 --ExploreCharacterIndex 819
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (2310, 
 'Royal Fencer (v1)', 
 'http://htkb.info/SDE/1.0/Custom/Cards/Heroes/Card_Hero_Royal_Fencer_v1_1.0_Custom.png', 
 'http://htkb.info/SDE/1.0/Custom/Cards/Heroes/Card_Hero_Royal_Fencer_v1_1.0_Custom_back.png', 
@@ -588,14 +588,14 @@ insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender
 'Feminine', 'Small', 'Human', 6, 3, '3B', '1B 1R', '1B 1R', '2B', 5, 1);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (819, 0, 1); --Attack
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (819, 2); --Armor
-insert into CustomCards (CardIndex, Author, SourceURL) VALUES(
+insert into CustomComponents (ComponentIndex, Author, SourceURL) VALUES(
 2308,
 'TBD',
 'https://www.pinterest.com/pin/423971752430359236/'
 );
 
 --Royal Fencer (v2) --Card Index 2311	--CharacterIndex 1159 --ExploreCharacterIndex 820
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (2311, 
 'Royal Fencer (v2)', 
 'http://htkb.info/SDE/1.0/Custom/Cards/Heroes/Card_Hero_Royal_Fencer_v2_1.0_Custom.png', 
 'http://htkb.info/SDE/1.0/Custom/Cards/Heroes/Card_Hero_Royal_Fencer_v2_1.0_Custom_back.png', 
@@ -615,14 +615,14 @@ insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender
 'Feminine', 'Small', 'Human', 6, 3, '3B', '1B 1R', '1B 1R', '2B', 5, 1);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (820, 0, 1); --Attack
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (820, 2); --Armor
-insert into CustomCards (CardIndex, Author, SourceURL) VALUES(
+insert into CustomComponents (ComponentIndex, Author, SourceURL) VALUES(
 2309,
 'TBD',
 'https://www.pinterest.com/pin/423971752430359238/'
 );
 
 --Royal Paladin --Card Index 2312	--CharacterIndex 1160 --ExploreCharacterIndex 821
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (2312, 
 'Royal Paladin', 
 'http://htkb.info/SDE/1.0/Custom/Cards/Heroes/Card_Hero_Royal_Paladin_1.0_Custom.png', 
 'http://htkb.info/SDE/1.0/Custom/Cards/Heroes/Card_Hero_Royal_Paladin_1.0_Custom_back.png', 
@@ -642,14 +642,14 @@ insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender
 'Feminine', 'Small', 'Human', 6, 3, '3B', '1B1R', '1B1R', '2B', 5, 1);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (821, 0, 1); --Attack
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (821, 2); --Armor
-insert into CustomCards (CardIndex, Author, SourceURL) VALUES(
+insert into CustomComponents (ComponentIndex, Author, SourceURL) VALUES(
 2310,
 '@EY',
 'https://kawaiisaa.blogspot.com/2015/09/super-dungeon-explore.html'
 );
 
 --Sirdan --Card Index 2313	--CharacterIndex 1161 --ExploreCharacterIndex 822
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (2313, 
 'Sirdan', 
 'http://htkb.info/SDE/1.0/Custom/Cards/Heroes/Card_Hero_Sirdan_1.0_Custom.png', 
 'http://htkb.info/SDE/1.0/Custom/Cards/Heroes/Card_Hero_Sirdan_1.0_Custom_back.png', 
@@ -669,14 +669,14 @@ insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender
 'Masculine', 'Small', 'Half-Dragon', 6, 3, '2B', '3R', '2B', '1B 1R', 6, 1);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (822, 0, 1); --Attack
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (822, 2); --Armor
-insert into CustomCards (CardIndex, Author, SourceURL) VALUES(
+insert into CustomComponents (ComponentIndex, Author, SourceURL) VALUES(
 2311,
 'Sirdan87',
 'https://www.weasyl.com/~sirdan87/submissions/312279/sirdan-super-dungeon-explore-character-card'
 );
 
 --Sonya Giantslayer --Card Index 2314	--CharacterIndex 1162 --ExploreCharacterIndex 823
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (2314, 
 'Sonya Giantslayer', 
 'http://htkb.info/SDE/1.0/Custom/Cards/Heroes/Card_Hero_Sonya_Giantslayer_1.0_Custom.png', 
 'http://htkb.info/SDE/1.0/Custom/Cards/Heroes/Card_Hero_Sonya_Giantslayer_1.0_Custom_back.png', 
@@ -696,14 +696,14 @@ insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender
 'Feminine', 'Small', 'Human', 6, 3, '2R', '2B', '2B', '3B', 5, 1);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (823, 0, 1); --Attack
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (823, 2); --Armor
-insert into CustomCards (CardIndex, Author, SourceURL) VALUES(
+insert into CustomComponents (ComponentIndex, Author, SourceURL) VALUES(
 2312,
 'Ulf Beorstruk, @Ulf Beorstruk',
 'https://boardgamegeek.com/image/1963547/ulf-beorstruk'
 );
 
 --Stormgale Amazon --Card Index 2315	--CharacterIndex 1163 --ExploreCharacterIndex 824
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (2315, 
 'Stormgale Amazon', 
 'http://htkb.info/SDE/1.0/Custom/Cards/Heroes/Card_Hero_Stormgale_Amazon_1.0_Custom.png', 
 'http://htkb.info/SDE/1.0/Custom/Cards/Heroes/Card_Hero_Stormgale_Amazon_1.0_Custom_back.png', 
@@ -723,14 +723,14 @@ insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender
 'Feminine', 'Small', 'Human', 6, 3, '2R', '2B', '2B', '3B', 5, 1);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (824, 0, 1); --Attack
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (824, 2); --Armor
-insert into CustomCards (CardIndex, Author, SourceURL) VALUES(
+insert into CustomComponents (ComponentIndex, Author, SourceURL) VALUES(
 2313,
 'N India, @superstring',
 'https://boardgamegeek.com/thread/763866/homemade-heropalooza-amazon-dancer-monk-samurai'
 );
 
 --Twilight Sparkle --Card Index 2316	--CharacterIndex 1164 --ExploreCharacterIndex 825
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (2316, 
 'Twilight Sparkle', 
 'http://htkb.info/SDE/1.0/Custom/Cards/Heroes/Card_Hero_Twilight_Sparkle_1.0_Custom.png', 
 'http://htkb.info/SDE/1.0/Custom/Cards/Heroes/Card_Hero_Twilight_Sparkle_1.0_Custom_back.png', 
@@ -750,14 +750,14 @@ insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender
 'Feminine', 'Small', '', 8, 3, '2B', '2B', '2R', '2B', 6, 1);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (825, 0, 1); --Attack
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (825, 2); --Armor
-insert into CustomCards (CardIndex, Author, SourceURL) VALUES(
+insert into CustomComponents (ComponentIndex, Author, SourceURL) VALUES(
 2314,
 'Damien Stanley, @Gubbinz',
 'https://boardgamegeek.com/thread/1191087/sde-mlp-custom-heronies'
 );
 
 --The Wolf --Card Index 2317	--CharacterIndex 1165 --ExploreCharacterIndex 826
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (2317, 
 'Wolf, The', 
 'http://htkb.info/SDE/1.0/Custom/Cards/Heroes/Card_Hero_Wolf_The_1.0_Custom.png', 
 'http://htkb.info/SDE/1.0/Custom/Cards/Heroes/Card_Hero_Wolf_The_1.0_Custom_back.png', 
@@ -773,7 +773,7 @@ insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender
 'Either', 'Small', '', 7, 3, '1B 1R', '1B 1R', '2B', '2B', 0, 0);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (826, 0, 1); --Attack
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (826, 2); --Armor
-insert into CustomCards (CardIndex, Author, SourceURL) VALUES(
+insert into CustomComponents (ComponentIndex, Author, SourceURL) VALUES(
 2315,
 'Adam Porter, @Adam78',
 'https://boardgamegeek.com/image/1238025/adam78'

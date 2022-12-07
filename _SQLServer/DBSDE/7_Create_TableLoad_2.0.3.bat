@@ -171,6 +171,7 @@ type .\Backup_2.0.3\TableLoad_46_Consul_Power_Ups.sql >> TableLoad_G_2.0.3.sql
 type .\Backup_2.0.3\TableLoad_47_Difficulty.sql >> TableLoad_G_2.0.3.sql
 
 type _Tables.sql >> TableLoad_Main.sql
+type _Card_Components.sql >> TableLoad_Main.sql
 type TableLoad_Keywords.sql >> TableLoad_Main.sql
 type TableLoad_Abilities.sql >> TableLoad_Main.sql
 type TableLoad_A_1.0.1.sql >> TableLoad_Main.sql

@@ -2,8 +2,9 @@
 --2.0.1 
 --Heroes
 
+
 --Abominable Snowman --CardIndex 762	--CharacterIndex 372	--ExploreCharacterIndex 267
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Abominable Snowman', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (762, 'Abominable Snowman', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Abominable_Snowman_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Abominable_Snowman_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Abominable_Snowman.xhtml', 
@@ -30,7 +31,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (267, 2); --Armor
 
 --Adzuki --CardIndex 763	--CharacterIndex 373	--ExploreCharacterIndex 268
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Adzuki', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (763, 'Adzuki', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Adzuki_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Adzuki_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Adzuki.xhtml', 
@@ -54,7 +55,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (268, 2); --Armor
 
 --Akkorokamui --CardIndex 764	--CharacterIndex 374	--ExploreCharacterIndex 269
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Akkorokamui', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (764, 'Akkorokamui', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Akkorokamui_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Akkorokamui_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Akkorokamui.xhtml', 
@@ -78,7 +79,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (269, 2); --Armor
 
 --Alberdus --CardIndex 765	--CharacterIndex 375	--ExploreCharacterIndex 270
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Alberdus', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (765, 'Alberdus', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Alberdus_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Alberdus_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Alberdus.xhtml', 
@@ -101,7 +102,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (270, 2); --Armor
 
 --Angry Bear --CardIndex 766	--CharacterIndex 376	--ExploreCharacterIndex 271
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Angry Bear', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (766, 'Angry Bear', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Angry_Bear_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Angry_Bear_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Angry_Bear.xhtml', 
@@ -127,7 +128,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (271, 2); --Armor
 
 --Apprentice Mage --CardIndex 767	--CharacterIndex 377	--ExploreCharacterIndex 272
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Apprentice Mage', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (767, 'Apprentice Mage', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Apprentice_Mage_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Apprentice_Mage_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Apprentice_Mage.xhtml', 
@@ -152,7 +153,7 @@ insert into AbilityAssignments (ExploreCharacterIndex, AbilityIndex) VALUES (272
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (272, 2); --Armor
 
 --Apprentice Swordmage --CardIndex 768	--CharacterIndex 378	--ExploreCharacterIndex 273
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Apprentice Swordmage', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (768, 'Apprentice Swordmage', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Apprentice_Swordmage_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Apprentice_Swordmage_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Apprentice_Swordmage.xhtml', 
@@ -175,7 +176,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (273, 2); --Armor
 
 --Arashikage --CardIndex 769	--CharacterIndex 379	--ExploreCharacterIndex 274
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Arashikage', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (769, 'Arashikage', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Arashikage_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Arashikage_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Arashikage.xhtml', 
@@ -199,7 +200,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (274, 2); --Armor
 
 --Armored Bear --CardIndex 770	--CharacterIndex 380	--ExploreCharacterIndex 275
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Armored Bear', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (770, 'Armored Bear', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Armored_Bear_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Armored_Bear_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Armored_Bear.xhtml', 
@@ -224,7 +225,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (275, 2); --Armor
 
 --Attila --CardIndex 771	--CharacterIndex 381	--ExploreCharacterIndex 276
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (771, 
 'Attila', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Attila_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Attila_2.0_back.png', 
@@ -247,7 +248,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (276, 2); --Armor
 
 --Aubnar Buttonbjorn --CardIndex 772	--CharacterIndex 382	--ExploreCharacterIndex 277
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Aubnar Buttonbjorn', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (772, 'Aubnar Buttonbjorn', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Aubnar_Buttonbjorn_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Aubnar_Buttonbjorn_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Aubnar_Buttonbjorn.xhtml', 
@@ -273,7 +274,7 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (2
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (277, 4); --Dex
 
 --Aurelia --CardIndex 773	--CharacterIndex 383	--ExploreCharacterIndex 278
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Aurelia', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (773, 'Aurelia', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Aurelia_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Aurelia_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Aurelia.xhtml', 
@@ -298,7 +299,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (278, 2); --Armor
 
 --Bakusho Mondai --CardIndex 774	--CharacterIndex 384	--ExploreCharacterIndex 279
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Bakusho Mondai', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (774, 'Bakusho Mondai', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Bakusho_Mondai_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Bakusho_Mondai_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Bakusho_Mondai.xhtml', 
@@ -320,7 +321,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (279, 2); --Armor
 
 --Bang-Bang --CardIndex 775	--CharacterIndex 385	--ExploreCharacterIndex 280
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Bang-Bang', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (775, 'Bang-Bang', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Bang_Bang_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Bang_Bang_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Bang_Bang.xhtml', 
@@ -346,7 +347,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (280, 2); --Armor
 
 --Benkei --CardIndex 776	--CharacterIndex 386	--ExploreCharacterIndex 281
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Benkei', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (776, 'Benkei', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Benkei_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Benkei_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Benkei.xhtml', 
@@ -370,7 +371,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (281, 2); --Armor
 
 --Black Knight --CardIndex 777	--CharacterIndex 387	--ExploreCharacterIndex 282
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Black Knight', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (777, 'Black Knight', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Black_Knight_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Black_Knight_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Black_Knight.xhtml', 
@@ -398,7 +399,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (282, 2); --Armor
 
 --Black Snow --CardIndex 778	--CharacterIndex 388	--ExploreCharacterIndex 283
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Black Snow', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (778, 'Black Snow', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Black_Snow_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Black_Snow_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Black_Snow.xhtml', 
@@ -422,7 +423,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (283, 2); --Armor
 
 --Blaze --CardIndex 779	--CharacterIndex 389	--ExploreCharacterIndex 284
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Blaze', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (779, 'Blaze', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Blaze_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Blaze_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Blaze.xhtml', 
@@ -447,7 +448,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (284, 2); --Armor
 
 --Blazing Soul Hanzo --CardIndex 780	--CharacterIndex 390	--ExploreCharacterIndex 285
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Blazing Soul Hanzo', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (780, 'Blazing Soul Hanzo', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Blazing_Soul_Hanzo_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Blazing_Soul_Hanzo_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Blazing_Soul_Hanzo.xhtml', 
@@ -471,7 +472,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (285, 2); --Armor
 
 --Blind Swordsman --CardIndex 781	--CharacterIndex 391	--ExploreCharacterIndex 286
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Blind Swordsman', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (781, 'Blind Swordsman', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Blind_Swordsman_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Blind_Swordsman_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Blind_Swordsman.xhtml', 
@@ -495,7 +496,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (286, 2); --Armor
 
 --Blizzard Wizard --CardIndex 782	--CharacterIndex 392	--ExploreCharacterIndex 287
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Blizzard Wizzard', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (782, 'Blizzard Wizzard', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Blizzard_Wizard_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Blizzard_Wizard_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Blizzard_Wizard.xhtml', 
@@ -517,7 +518,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (287, 2); --Armor
 
 --Bomb-Blast Prophet --CardIndex 783	--CharacterIndex 393	--ExploreCharacterIndex 288
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Bomb-Blast Prophet', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (783, 'Bomb-Blast Prophet', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Bomb_Blast_Prophet_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Bomb_Blast_Prophet_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Bomb_Blast_Prophet.xhtml', 
@@ -542,7 +543,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (288, 2); --Armor
 
 --Brinebreaker Aesir --CardIndex 784	--CharacterIndex 394	--ExploreCharacterIndex 289
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Brinebreaker Aesir', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (784, 'Brinebreaker Aesir', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Brinebreaker_Aesir_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Brinebreaker_Aesir_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Brinebreaker_Aesir.xhtml', 
@@ -568,7 +569,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (289, 2); --Armor
 
 --Brinebreaker Skathi --CardIndex 785	--CharacterIndex 395	--ExploreCharacterIndex 290
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Brinebreaker Skathi', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (785, 'Brinebreaker Skathi', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Brinebreaker_Skathi_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Brinebreaker_Skathi_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Brinebreaker_Skathi.xhtml', 
@@ -594,7 +595,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (290, 2); --Armor
 
 --Burke Badhammer --CardIndex 786	--CharacterIndex 396	--ExploreCharacterIndex 291
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Burke Badhammer', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (786, 'Burke Badhammer', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Bakusho_Mondai_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Bakusho_Mondai_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Bakusho_Mondai.xhtml', 
@@ -620,7 +621,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (291, 2); --Armor
 
 --Byakko --CardIndex 787	--CharacterIndex 397	--ExploreCharacterIndex 292
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Byakko', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (787, 'Byakko', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Byakko_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Byakko_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Byakko.xhtml', 
@@ -643,7 +644,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (292, 2); --Armor
 
 --Candy, Lady of the Heart --CardIndex 788	--CharacterIndex 398	--ExploreCharacterIndex 293
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Candy, Lady of the Heart', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (788, 'Candy, Lady of the Heart', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Candy_Lady_of_the_Heart_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Candy_Lady_of_the_Heart_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Candy_Lady_of_the_Heart.xhtml', 
@@ -671,7 +672,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (293, 2); --Armor
 
 --Candy, Mistress of Darkness --CardIndex 789	--CharacterIndex 399	--ExploreCharacterIndex 294
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Candy, Mistress of Darkness', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (789, 'Candy, Mistress of Darkness', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Candy_Mistress_of_Darkness_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Candy_Mistress_of_Darkness_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Candy_Mistress_of_Darkness.xhtml', 
@@ -694,7 +695,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (294, 2); --Armor
 
 --Captain of the Guard --CardIndex 790	--CharacterIndex 400	--ExploreCharacterIndex 295
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Captain of the Guard', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (790, 'Captain of the Guard', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Captain_of_the_Guard_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Captain_of_the_Guard_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Captain_of_the_Guard.xhtml', 
@@ -717,7 +718,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (295, 2); --Armor
 
 --Casanova Cola --CardIndex 791	--CharacterIndex 401	--ExploreCharacterIndex 296
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Casanova Cola', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (791, 'Casanova Cola', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Casanova_Cola_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Casanova_Cola_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Casanova_Cola.xhtml', 
@@ -742,7 +743,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (296, 2); --Armor
 
 --Cat Burglar --CardIndex 792	--CharacterIndex 402	--ExploreCharacterIndex 297
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Cat Burglar', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (792, 'Cat Burglar', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Cat_Burglar_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Cat_Burglar_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Cat_Burglar.xhtml', 
@@ -771,7 +772,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (297, 2); --Armor
 
 --Cat Burglar (Beta) --CardIndex 793	--CharacterIndex 403	--ExploreCharacterIndex 298
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Cat Burglar (Beta)', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (793, 'Cat Burglar (Beta)', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Cat_Burglar_beta_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Cat_Burglar_beta_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Cat_Burglar_beta.xhtml', 
@@ -799,7 +800,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (298, 2); --Armor
 
 --Stub --CardIndex 794	--CharacterIndex 404	--ExploreCharacterIndex 299
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (794, '', 
 '', 
 '', 
 '', 
@@ -813,7 +814,7 @@ VALUES (404,
 '', '', '', 0, 0, '', '', '', '', 0, 0);
 
 --Stub --CardIndex 795	--CharacterIndex 405	--ExploreCharacterIndex 300
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (795, '', 
 '', 
 '', 
 '', 
@@ -827,7 +828,7 @@ VALUES (405,
 '', '', '', 0, 0, '', '', '', '', 0, 0);
 
 --Celebration Candy --CardIndex 796	--CharacterIndex 406	--ExploreCharacterIndex 301
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Celebration Candy', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (796, 'Celebration Candy', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Celebration_Candy_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Celebration_Candy_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Celebration_Candy.xhtml', 
@@ -853,7 +854,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (301, 2); --Armor
 
 --Celestial Healer --CardIndex 797	--CharacterIndex 407	--ExploreCharacterIndex 302
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Celestial Healer', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (797, 'Celestial Healer', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Celestial_Healer_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Celestial_Healer_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Celestial_Healer.xhtml', 
@@ -877,7 +878,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (302, 2); --Armor
 
 --Stub --CardIndex 798	--CharacterIndex 408	--ExploreCharacterIndex 303
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (798, '', 
 '', 
 '', 
 '', 
@@ -891,7 +892,7 @@ VALUES (408,
 '', '', '', 0, 0, '', '', '', '', 0, 0);
 
 --Celestian Purifier --CardIndex 799	--CharacterIndex 409	--ExploreCharacterIndex 304
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Celestian Purifier', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (799, 'Celestian Purifier', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Celestian_Purifier_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Celestian_Purifier_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Celestian_Purifier.xhtml', 
@@ -915,7 +916,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (304, 2); --Armor
 
 --Chuy --CardIndex 800	--CharacterIndex 410	--ExploreCharacterIndex 305
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Chuy', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (800, 'Chuy', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Chuy_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Chuy_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Chuy.xhtml', 
@@ -940,7 +941,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (305, 2); --Armor
 
 --Claw Tribe Barbarian (feminine) --CardIndex 801	--CharacterIndex 411	--ExploreCharacterIndex 306
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Claw Tribe Barbarian', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (801, 'Claw Tribe Barbarian', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Claw_Tribe_Barbarian_feminine_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Claw_Tribe_Barbarian_feminine_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Claw_Tribe_Barbarian_feminine.xhtml', 
@@ -962,7 +963,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (306, 2); --Armor
 
 --Claw Tribe Barbarian (masculine) --CardIndex 802	--CharacterIndex 412	--ExploreCharacterIndex 307
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Claw Tribe Barbarian', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (802, 'Claw Tribe Barbarian', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Claw_Tribe_Barbarian_masculine_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Claw_Tribe_Barbarian_masculine_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Claw_Tribe_Barbarian_masculine.xhtml', 
@@ -984,7 +985,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (307, 2); --Armor
 
 --Clockwork Contraption --CardIndex 803	--CharacterIndex 413	--ExploreCharacterIndex 308
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Clockwork Contraption', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (803, 'Clockwork Contraption', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Clockwork_Contraption_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Clockwork_Contraption_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Clockwork_Contraption.xhtml', 
@@ -1008,7 +1009,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (308, 2); --Armor
 
 --Cog War Reaver --CardIndex 804	--CharacterIndex 414	--ExploreCharacterIndex 309
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Cog War Reaver', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (804, 'Cog War Reaver', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Cog_War_Reaver_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Cog_War_Reaver_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Cog_War_Reaver.xhtml', 
@@ -1033,7 +1034,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (309, 2); --Armor
 
 --Crook-Eye Tracker --CardIndex 805	--CharacterIndex 415	--ExploreCharacterIndex 310
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Crook-Eye Tracker', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (805, 'Crook-Eye Tracker', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Crook_Eye_Tracker_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Crook_Eye_Tracker_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Crook_Eye_Tracker.xhtml', 
@@ -1060,7 +1061,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (310, 2); --Armor
 
 --Crystal Shaper --CardIndex 806	--CharacterIndex 416	--ExploreCharacterIndex 311
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Crystal Shaper', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (806, 'Crystal Shaper', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Crystal_Shaper_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Crystal_Shaper_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Crystal_Shaper.xhtml', 
@@ -1082,7 +1083,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (311, 2); --Armor
 
 --Deeproot Druid (feminine) --CardIndex 807	--CharacterIndex 417	--ExploreCharacterIndex 312
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Deeproot Druid', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (807, 'Deeproot Druid', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Deeproot_Druid_feminine_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Deeproot_Druid_feminine_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Deeproot_Druid_feminine.xhtml', 
@@ -1110,7 +1111,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (312, 2); --Armor
 
 --Deeproot Druid (masculine) --CardIndex 808	--CharacterIndex 418	--ExploreCharacterIndex 313
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Deeproot Druid', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (808, 'Deeproot Druid', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Deeproot_Druid_masculine_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Deeproot_Druid_masculine_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Deeproot_Druid_masculine.xhtml', 
@@ -1138,7 +1139,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (313, 2); --Armor
 
 --Deodric The Drunk --CardIndex 809	--CharacterIndex 419	--ExploreCharacterIndex 314
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Deodric The Drunk', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (809, 'Deodric The Drunk', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Deodric_the_Drunk_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Deodric_the_Drunk_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Deodric_the_Drunk.xhtml', 
@@ -1162,7 +1163,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (314, 2); --Armor
 
 --Duskweaver --CardIndex 810	--CharacterIndex 420	--ExploreCharacterIndex 315
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Duskweaver', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (810, 'Duskweaver', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Duskweaver_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Duskweaver_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Duskweaver.xhtml', 
@@ -1188,7 +1189,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (315, 2); --Armor
 
 --D'Shaun --CardIndex 811	--CharacterIndex 421	--ExploreCharacterIndex 316
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('D''Shaun', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (811, 'D''Shaun', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_D_Shaun_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_D_Shaun_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/D_Shaun.xhtml', 
@@ -1211,7 +1212,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (316, 2); --Armor
 
 --Edward Murdoch --CardIndex 812	--CharacterIndex 422	--ExploreCharacterIndex 317
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (812, 
 'Edward Murdoch', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Edward_Murdoch_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Edward_Murdoch_2.0_back.png', 
@@ -1238,7 +1239,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (317, 2); --Armor
 
 --El Falcon --CardIndex 813	--CharacterIndex 423	--ExploreCharacterIndex 318
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('El Falcon', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (813, 'El Falcon', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_El_Falcon_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_El_Falcon_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/El_Falcon.xhtml', 
@@ -1263,7 +1264,7 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (3
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (318, 3); --Will
 
 --Ember Mage (feminine) --CardIndex 814	--CharacterIndex 424	--ExploreCharacterIndex 319
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ember Mage', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (814, 'Ember Mage', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Ember_Mage_feminine_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Ember_Mage_feminine_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Ember_Mage_feminine.xhtml', 
@@ -1288,7 +1289,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (319, 2); --Armor
 
 --Ember Mage (masculine)  --CardIndex 815	--CharacterIndex 425	--ExploreCharacterIndex 320
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ember Mage', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (815, 'Ember Mage', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Ember_Mage_masculine_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Ember_Mage_masculine_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Ember_Mage_masculine.xhtml', 
@@ -1313,7 +1314,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (320, 2); --Armor
 
 --Faris --CardIndex 816	--CharacterIndex 426	--ExploreCharacterIndex 321
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Faris', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (816, 'Faris', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Faris_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Faris_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Faris.xhtml', 
@@ -1338,7 +1339,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (321, 2); --Armor
 
 --Fed-Up Farmer --CardIndex 817	--CharacterIndex 427	--ExploreCharacterIndex 322
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Fed-Up Farmer', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (817, 'Fed-Up Farmer', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Fed_Up_Farmer_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Fed_Up_Farmer_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Fed_Up_Farmer.xhtml', 
@@ -1361,7 +1362,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (322, 2); --Armor
 
 --Formless Hanzo --CardIndex 818	--CharacterIndex 428	--ExploreCharacterIndex 323
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Formless Hanzo', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (818, 'Formless Hanzo', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Formless_Hanzo_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Formless_Hanzo_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Formless_Hanzo.xhtml', 
@@ -1386,7 +1387,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (323, 2); --Armor
 
 --Fortune Hunter --CardIndex 819	--CharacterIndex 429	--ExploreCharacterIndex 324
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Fortune Hunter', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (819, 'Fortune Hunter', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Fortune_Hunter_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Fortune_Hunter_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Fortune_Hunter.xhtml', 
@@ -1411,7 +1412,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (324, 2); --Armor
 
 --Freyjan Beastmaster --CardIndex 820	--CharacterIndex 430	--ExploreCharacterIndex 325
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Freyjan Beastmaster', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (820, 'Freyjan Beastmaster', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Freyjan_Beastmaster_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Freyjan_Beastmaster_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Freyjan_Beastmaster.xhtml', 
@@ -1436,7 +1437,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (325, 2); --Armor
 
 --Freyjan Beastmaster (Errata) --CardIndex 821	--CharacterIndex 431	--ExploreCharacterIndex 326
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Freyjan Beastmaster (Errata)', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (821, 'Freyjan Beastmaster (Errata)', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Freyjan_Beastmaster_errata_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Freyjan_Beastmaster_errata_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Freyjan_Beastmaster_errata.xhtml', 
@@ -1461,7 +1462,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (326, 2); --Armor
 
 --Frozen Queen --CardIndex 822	--CharacterIndex 432	--ExploreCharacterIndex 327
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Frozen Queen', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (822, 'Frozen Queen', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Frozen_Queen_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Frozen_Queen_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Frozen_Queen.xhtml', 
@@ -1488,7 +1489,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (327, 2); --Armor
 
 --Glimmerdusk Ranger (feminine) --CardIndex 823	--CharacterIndex 433	--ExploreCharacterIndex 328
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Glimmerdusk Ranger', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (823, 'Glimmerdusk Ranger', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Glimmerdusk_Ranger_feminine_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Glimmerdusk_Ranger_feminine_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Glimmerdusk_Ranger_feminine.xhtml', 
@@ -1514,7 +1515,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (328, 2); --Armor
 
 --Glimmerdusk Ranger (masculine) --CardIndex 824	--CharacterIndex 434	--ExploreCharacterIndex 329
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Glimmerdusk Ranger', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (824, 'Glimmerdusk Ranger', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Glimmerdusk_Ranger_masculine_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Glimmerdusk_Ranger_masculine_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Glimmerdusk_Ranger_masculine.xhtml', 
@@ -1540,7 +1541,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (329, 2); --Armor
 
 --Gloomborn Champion --CardIndex 825	--CharacterIndex 435	--ExploreCharacterIndex 330
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Gloomborn Champion', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (825, 'Gloomborn Champion', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Gloomborn_Champion_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Gloomborn_Champion_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Gloomborn_Champion.xhtml', 
@@ -1563,7 +1564,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (330, 2); --Armor
 
 --Goemon --CardIndex 826	--CharacterIndex 436	--ExploreCharacterIndex 331
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Goemon', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (826, 'Goemon', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Goemon_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Goemon_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Goemon.xhtml', 
@@ -1588,7 +1589,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (331, 2); --Armor
 
 --Gork	--CardIndex--CardIndex 827	--CharacterIndex 437	--ExploreCharacterIndex 332
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Gork', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (827, 'Gork', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Gork_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Gork_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Gork.xhtml', 
@@ -1611,7 +1612,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (332, 2); --Armor
 
 --Gully Gawk --CardIndex 828	--CharacterIndex 438	--ExploreCharacterIndex 333
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Gully Gawk', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (828, 'Gully Gawk', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Gully_Gawk_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Gully_Gawk_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Gully_Gawk.xhtml', 
@@ -1634,7 +1635,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (333, 2); --Armor
 
 --Hanzo --CardIndex 829	--CharacterIndex 439	--ExploreCharacterIndex 334
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Hanzo', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (829, 'Hanzo', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Hanzo_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Hanzo_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Hanzo.xhtml', 
@@ -1656,7 +1657,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (334, 2); --Armor
 
 --Hearthsworn Fighter (masculine)	--CardIndex 830	--CharacterIndex 440	--ExploreCharacterIndex 335
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Hearthsworn Fighter', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (830, 'Hearthsworn Fighter', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Hearthsworn_Fighter_masculine_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Hearthsworn_Fighter_masculine_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Hearthsworn_Fighter_masculine.xhtml', 
@@ -1679,7 +1680,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (335, 2); --Armor
 
 --Hearthsworn Fighter (feminine)	--CardIndex 831	--CharacterIndex 441	--ExploreCharacterIndex 336
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Hearthsworn Fighter', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (831, 'Hearthsworn Fighter', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Hearthsworn_Fighter_feminine_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Hearthsworn_Fighter_feminine_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Hearthsworn_Fighter_feminine.xhtml', 
@@ -1702,7 +1703,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (336, 2); --Armor
 
 --Heroic Kinoshroom --CardIndex 832	--CharacterIndex 442	--ExploreCharacterIndex 337
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Heroic Kinoshroom', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (832, 'Heroic Kinoshroom', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Heroic_Kinoshroom_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Heroic_Kinoshroom_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Heroic_Kinoshroom.xhtml', 
@@ -1723,7 +1724,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (337, 2); --Armor
 
 --Hexcast Sorcerer --CardIndex 833	--CharacterIndex 443	--ExploreCharacterIndex 338
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Hexcast Sorcerer', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (833, 'Hexcast Sorcerer', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Hexcast_Sorcerer_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Hexcast_Sorcerer_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Hexcast_Sorcerer.xhtml', 
@@ -1749,7 +1750,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (338, 2); --Armor
 
 --Hexcast Sorceress --CardIndex 834	--CharacterIndex 444	--ExploreCharacterIndex 339
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Hexcast Sorceress', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (834, 'Hexcast Sorceress', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Hexcast_Sorceress_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Hexcast_Sorceress_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Hexcast_Sorceress.xhtml', 
@@ -1775,7 +1776,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (339, 2); --Armor
 
 --Howl & Yip --CardIndex 835	--CharacterIndex 445	--ExploreCharacterIndex 340
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (835, 
 'Howl & Yip', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Howl_and_Yip_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Howl_and_Yip_2.0_back.png', 
@@ -1801,7 +1802,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (340, 2); --Armor
 
 --Ice Climber Candy --CardIndex 836	--CharacterIndex 446	--ExploreCharacterIndex 341
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ice Climber Candy', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (836, 'Ice Climber Candy', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Ice_Climber_Candy_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Ice_Climber_Candy_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Ice_Climber_Candy.xhtml', 
@@ -1827,7 +1828,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (341, 2); --Armor
 
 --Ice Shard Aesthetic --CardIndex 837	--CharacterIndex 447	--ExploreCharacterIndex 342
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ice Shard Aesthetic', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (837, 'Ice Shard Aesthetic', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Ice_Shard_Aesthetic_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Ice_Shard_Aesthetic_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Ice_Shard_Aesthetic.xhtml', 
@@ -1851,7 +1852,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (342, 2); --Armor
 
 --Ichika --CardIndex 838	--CharacterIndex 448	--ExploreCharacterIndex 343
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ichika', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (838, 'Ichika', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Ichika_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Ichika_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Ichika.xhtml', 
@@ -1873,7 +1874,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (343432, 2); --Armor
 
 --Indominable Hanzo --CardIndex 839	--CharacterIndex 449	--ExploreCharacterIndex 344
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Indominable Hanzo', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (839, 'Indominable Hanzo', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Indominable_Hanzo_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Indominable_Hanzo_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Indominable_Hanzo.xhtml', 
@@ -1896,7 +1897,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (344, 2); --Armor
 
 --Jun --CardIndex 840	--CharacterIndex 450	--ExploreCharacterIndex 345
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Jun', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (840, 'Jun', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Jun_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Jun_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Jun.xhtml', 
@@ -1923,7 +1924,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (345, 2); --Armor
 
 --Karura --CardIndex 841	--CharacterIndex 451	--ExploreCharacterIndex 346
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Karura', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (841, 'Karura', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Karura_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Karura_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Karura.xhtml', 
@@ -1948,7 +1949,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (346, 2); --Armor
 
 --Kasi --CardIndex 842	--CharacterIndex 452	--ExploreCharacterIndex 347
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Kasi', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (842, 'Kasi', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Kasi_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Kasi_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Kasi.xhtml', 
@@ -1972,7 +1973,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (347, 2); --Armor
 
 --Kiji --CardIndex 843	--CharacterIndex 453	--ExploreCharacterIndex 348
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Kiji', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (843, 'Kiji', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Kiji_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Kiji_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Kiji.xhtml', 
@@ -1996,7 +1997,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (348, 2); --Armor
 
 --Kodama Gardener --CardIndex 844	--CharacterIndex 454	--ExploreCharacterIndex 349
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Kodama Gardener', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (844, 'Kodama Gardener', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Kodama_Gardener_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Kodama_Gardener_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Kodama_Gardener.xhtml', 
@@ -2019,7 +2020,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (349, 2); --Armor
 
 --Komuso --CardIndex 845	--CharacterIndex 455	--ExploreCharacterIndex 350
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Komuso', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (845, 'Komuso', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Komuso_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Komuso_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Komuso.xhtml', 
@@ -2043,7 +2044,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (350, 2); --Armor
 
 --Kringle --CardIndex 846	--CharacterIndex 456	--ExploreCharacterIndex 351
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Kringle', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (846, 'Kringle', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Kringle_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Kringle_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Kringle.xhtml', 
@@ -2069,7 +2070,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (351, 2); --Armor
 
 --Lahkpa --CardIndex 847	--CharacterIndex 457	--ExploreCharacterIndex 352
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Lahkpa', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (847, 'Lahkpa', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Lahkpa_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Lahkpa_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Lahkpa.xhtml', 
@@ -2097,7 +2098,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (352, 2); --Armor
 
 --Leopold Magnus --CardIndex 848	--CharacterIndex 458	--ExploreCharacterIndex 353
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Leopold Magnus', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (848, 'Leopold Magnus', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Leopold_Magnus_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Leopold_Magnus_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Leopold_Magnus.xhtml', 
@@ -2123,7 +2124,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (353, 2); --Armor
 
 --Lightning Mage --CardIndex 849	--CharacterIndex 459	--ExploreCharacterIndex 354
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Lightning Mage', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (849, 'Lightning Mage', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Lightning_Mage_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Lightning_Mage_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Lightning_Mage.xhtml', 
@@ -2146,7 +2147,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (354, 2); --Armor
 
 --Lumi and Zakkadia --CardIndex 850	--CharacterIndex 460	--ExploreCharacterIndex 355
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Lumi and Zakkadia', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (850, 'Lumi and Zakkadia', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Lumi_and_Zakkadia_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Lumi_and_Zakkadia_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Lumi_and_Zakkadia.xhtml', 
@@ -2172,7 +2173,7 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (3
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (355, 4); --Dex
 
 --Lunar Knight --CardIndex 851	--CharacterIndex 461	--ExploreCharacterIndex 356
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Lunar Knight', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (851, 'Lunar Knight', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Lunar_Knight_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Lunar_Knight_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Lunar_Knight.xhtml', 
@@ -2196,7 +2197,7 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (3
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (356, 4); --Dex
 
 --Lunar Mage --CardIndex 852	--CharacterIndex 462	--ExploreCharacterIndex 357
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Lunar Mage', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (852, 'Lunar Mage', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Lunar_Mage_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Lunar_Mage_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Lunar_Mage.xhtml', 
@@ -2221,7 +2222,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (357, 2); --Armor
 
 --Mad Cat --CardIndex 853	--CharacterIndex 463	--ExploreCharacterIndex 358
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Mad Cat', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (853, 'Mad Cat', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Mad_Cat_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Mad_Cat_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Mad_Cat.xhtml', 
@@ -2247,7 +2248,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (358, 2); --Armor
 
 --Makerguild Engineer --CardIndex 854	--CharacterIndex 464	--ExploreCharacterIndex 359
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Makerguild Engineer', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (854, 'Makerguild Engineer', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Makerguild_Engineer_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Makerguild_Engineer_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Makerguild_Engineer.xhtml', 
@@ -2275,7 +2276,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (359, 2); --Armor
 
 --Master of Chains --CardIndex 855	--CharacterIndex 465	--ExploreCharacterIndex 360
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Master of Chains', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (855, 'Master of Chains', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Master_of_Chains_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Master_of_Chains_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Master_of_Chains.xhtml', 
@@ -2301,7 +2302,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (360, 2); --Armor
 
 --Mitch Hunter --CardIndex 856	--CharacterIndex 466	--ExploreCharacterIndex 361
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Mitch Hunter', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (856, 'Mitch Hunter', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Mitch_Hunter_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Mitch_Hunter_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Mitch_Hunter.xhtml', 
@@ -2323,7 +2324,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (361, 2); --Armor
 
 --Mizaru --CardIndex 857	--CharacterIndex 467	--ExploreCharacterIndex 362
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Mizaru', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (857, 'Mizaru', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Mizaru_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Mizaru_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Mizaru.xhtml', 
@@ -2349,7 +2350,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (362, 2); --Armor
 
 --Mizuchi --CardIndex 858	--CharacterIndex 468	--ExploreCharacterIndex 363
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Mizuchi', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (858, 'Mizuchi', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Mizuchi_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Mizuchi_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Mizuchi.xhtml', 
@@ -2371,7 +2372,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (363, 2); --Armor
 
 --Mochizuki --CardIndex 859	--CharacterIndex 469	--ExploreCharacterIndex 364
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Mochizuki', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (859, 'Mochizuki', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Mochizuki_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Mochizuki_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Mochizuki.xhtml', 
@@ -2396,7 +2397,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (364, 2); --Armor
 
 --Momotaro --CardIndex 860	--CharacterIndex 470	--ExploreCharacterIndex 365
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Momotaro', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (860, 'Momotaro', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Momotaro_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Momotaro_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Momotaro.xhtml', 
@@ -2419,7 +2420,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (365, 2); --Armor
 
 --Moonspire Guardian --CardIndex 861	--CharacterIndex 471	--ExploreCharacterIndex 366
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Moonspire Guardian', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (861, 'Moonspire Guardian', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Moonspire_Guardian_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Moonspire_Guardian_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Moonspire_Guardian.xhtml', 
@@ -2443,7 +2444,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (366, 2); --Armor
 
 --Moon Princess --CardIndex 862	--CharacterIndex 472	--ExploreCharacterIndex 367
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Moon Princess', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (862, 'Moon Princess', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Moon_Princess_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Moon_Princess_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Moon_Princess.xhtml', 
@@ -2469,7 +2470,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (367, 2); --Armor
 
 --Musashi --CardIndex 863	--CharacterIndex 473	--ExploreCharacterIndex 368
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Musashi', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (863, 'Musashi', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Musashi_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Musashi_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Musashi.xhtml', 
@@ -2493,7 +2494,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (368, 2); --Armor
 
 --Musashi (Errata)	--CardIndex 864	--CharacterIndex 474	--ExploreCharacterIndex 369
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Musashi (Errata)', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (864, 'Musashi (Errata)', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Musashi_errata_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Musashi_errata_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Musashi_errata.xhtml', 
@@ -2517,7 +2518,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (369, 2); --Armor
 
 --Nagari Archpoisoner --CardIndex 865	--CharacterIndex 475	--ExploreCharacterIndex 370
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Nagari Archpoisoner', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (865, 'Nagari Archpoisoner', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Nagari_Archpoisoner_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Nagari_Archpoisoner_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Nagari_Archpoisoner.xhtml', 
@@ -2544,7 +2545,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (370, 2); --Armor
 
 --Night Hunter --CardIndex 866	--CharacterIndex 476	--ExploreCharacterIndex 371
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Night Hunter', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (866, 'Night Hunter', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Night_Hunter_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Night_Hunter_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Night_Hunter.xhtml', 
@@ -2571,7 +2572,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (371, 2); --Armor
 
 --Nikolai Ten --CardIndex 867	--CharacterIndex 477	--ExploreCharacterIndex 372
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Nikolai Ten', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (867, 'Nikolai Ten', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Nikolai_Ten_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Nikolai_Ten_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Nikolai_Ten.xhtml', 
@@ -2594,7 +2595,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (372, 2); --Armor
 
 --Nu-Koa Seraph --CardIndex 868	--CharacterIndex 478	--ExploreCharacterIndex 373
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Nu-Koa Seraph', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (868, 'Nu-Koa Seraph', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Nu_Koa_Seraph_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Nu_Koa_Seraph_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Nu_Koa_Seraph.xhtml', 
@@ -2621,7 +2622,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (373, 2); --Armor
 
 --Nyan-Nyan --CardIndex 869	--CharacterIndex 479	--ExploreCharacterIndex 374
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Nyan-Nyan', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (869, 'Nyan-Nyan', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Nyan_Nyan_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Nyan_Nyan_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Nyan_Nyan.xhtml', 
@@ -2646,7 +2647,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (374, 4); --Dex
 
 --Orc Chef --CardIndex 870	--CharacterIndex 480	--ExploreCharacterIndex 375
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Orc Chef', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (870, 'Orc Chef', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Orc_Chef_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Orc_Chef_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Orc_Chef.xhtml', 
@@ -2669,7 +2670,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (375, 2); --Armor
 
 --Otto --CardIndex 871	--CharacterIndex 481	--ExploreCharacterIndex 376
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Otto', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (871, 'Otto', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Otto_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Otto_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Otto.xhtml', 
@@ -2694,7 +2695,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (376, 2); --Armor
 
 --Princess Amethyst --CardIndex 872	--CharacterIndex 482	--ExploreCharacterIndex 377
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Princess Amethyst', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (872, 'Princess Amethyst', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Princess_Amethyst_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Princess_Amethyst_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Princess_Amethyst.xhtml', 
@@ -2721,7 +2722,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (377, 2); --Armor
 
 --Princess Citrine	--CardIndex 873	--CharacterIndex 483	--ExploreCharacterIndex 378
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Princess Citrine', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (873, 'Princess Citrine', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Princess_Citrine_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Princess_Citrine_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Princess_Citrine.xhtml', 
@@ -2743,7 +2744,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (378, 2); --Armor
 
 --Princess Emerald --CardIndex 874	--CharacterIndex 484	--ExploreCharacterIndex 379
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Princess Emerald', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (874, 'Princess Emerald', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Princess_Emerald_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Princess_Emerald_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Princess_Emerald.xhtml', 
@@ -2768,7 +2769,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (379, 2); --Armor
 
 --Stub --CARDINDEX 875	--CHARACTERINDEX 485	--EXPLORECHARACTERINDEX 380
-INSERT INTO CARDS (NAME, PICTUREFRONT, PICTUREBACK, LINK, CARDTYPE, PRODUCTSET, PRODUCTMODULE, PLAYMODE, FLAVOR) VALUES ('', 
+insert into Cards (ComponentIndex, NAME, PICTUREFRONT, PICTUREBACK, LINK, CARDTYPE, PRODUCTSET, PRODUCTMODULE, PlayMode, Flavor) VALUES (875, '', 
 '', 
 '', 
 '', 
@@ -2782,7 +2783,7 @@ VALUES (485,
 '', '', '', 0, 0, '', '', '', '', 0, 0);
 
 --Princess Sapphire --CardIndex 876	--CharacterIndex 486	--ExploreCharacterIndex 381
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Princess Sapphire', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (876, 'Princess Sapphire', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Princess_Sapphire_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Princess_Sapphire_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Princess_Sapphire.xhtml', 
@@ -2806,7 +2807,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (381, 2); --Armor
 
 --Prince Peridot --CardIndex 877	--CharacterIndex 487	--ExploreCharacterIndex 382
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Prince Peridot', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (877, 'Prince Peridot', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Prince_Peridot_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Prince_Peridot_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Prince_Peridot.xhtml', 
@@ -2828,7 +2829,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (382, 2); --Armor
 
 --Rainbow Dragoon --CardIndex 878	--CharacterIndex 488	--ExploreCharacterIndex 383
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Rainbow Dragoon', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (878, 'Rainbow Dragoon', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Rainbow_Dragoon_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Rainbow_Dragoon_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Rainbow_Dragoon.xhtml', 
@@ -2854,7 +2855,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (383, 2); --Armor
 
 --Ren --CardIndex 879	--CharacterIndex 489	--ExploreCharacterIndex 384
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ren', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (879, 'Ren', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Ren_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Ren_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Ren.xhtml', 
@@ -2876,7 +2877,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (384, 2); --Armor
 
 --Riftling Rogue (feminine) --CardIndex 880	--CharacterIndex 490	--ExploreCharacterIndex 385
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Riftling Rogue', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (880, 'Riftling Rogue', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Riftling_Rogue_feminine_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Riftling_Rogue_feminine_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Riftling_Rogue_feminine.xhtml', 
@@ -2901,7 +2902,7 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (3
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (385, 4); --Dex
 
 --Riftling Rogue (masculine) --CardIndex 881	--CharacterIndex 491	--ExploreCharacterIndex 386
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Riftling Rogue', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (881, 'Riftling Rogue', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Riftling_Rogue_masculine_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Riftling_Rogue_masculine_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Riftling_Rogue_masculine.xhtml', 
@@ -2926,7 +2927,7 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (3
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (386, 4); --Dex
 
 --Riftling Warrior --CardIndex 882	--CharacterIndex 492	--ExploreCharacterIndex 387
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Riftling Warrior', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (882, 'Riftling Warrior', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Riftling_Warrior_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Riftling_Warrior_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Riftling_Warrior.xhtml', 
@@ -2951,7 +2952,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (387, 2); --Armor
 
 --Rimefrost Warlord --CardIndex 883	--CharacterIndex 493	--ExploreCharacterIndex 388
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Rimefrost Warlord', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (883, 'Rimefrost Warlord', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Rimefrost_Warlord_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Rimefrost_Warlord_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Rimefrost_Warlord.xhtml', 
@@ -2972,7 +2973,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (388, 2); --Armor
 
 --Rinny-Prin-Peng --CardIndex 884	--CharacterIndex 494	--ExploreCharacterIndex 389
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Rinny-Prin-Peng', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (884, 'Rinny-Prin-Peng', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Rinny_Prin_Peng_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Rinny_Prin_Peng_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Rinny_Prin_Peng.xhtml', 
@@ -2997,7 +2998,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (389, 2); --Armor
 
 --Royal Huntsman --CardIndex 885	--CharacterIndex 495	--ExploreCharacterIndex 390
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Royal Huntsman', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (885, 'Royal Huntsman', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Royal_Huntsman_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Royal_Huntsman_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Royal_Huntsman.xhtml', 
@@ -3021,7 +3022,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (390, 2); --Armor
 
 --Royal Knight --CardIndex 886	--CharacterIndex 496	--ExploreCharacterIndex 391
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Royal Knight', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (886, 'Royal Knight', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Royal_Knight_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Royal_Knight_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Royal_Knight.xhtml', 
@@ -3044,7 +3045,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (391, 2); --Armor
 
 --Royal Paladin (feminine) --CardIndex 887	--CharacterIndex 497	--ExploreCharacterIndex 392
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Royal Paladin', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (887, 'Royal Paladin', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Royal_Paladin_feminine_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Royal_Paladin_feminine_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Royal_Paladin_feminine.xhtml', 
@@ -3069,7 +3070,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (392, 2); --Armor
 
 --Royal Paladin (masculine) --CardIndex 888	--CharacterIndex 498	--ExploreCharacterIndex 393
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Royal Paladin', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (888, 'Royal Paladin', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Royal_Paladin_masculine_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Royal_Paladin_masculine_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Royal_Paladin_masculine.xhtml', 
@@ -3094,7 +3095,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (393, 2); --Armor
 
 --Ryu --CardIndex 889	--CharacterIndex 499	--ExploreCharacterIndex 394
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ryu', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (889, 'Ryu', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Ryu_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Ryu_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Ryu.xhtml', 
@@ -3117,7 +3118,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (394, 2); --Armor
 
 --Sai	--CardIndex 890	--CharacterIndex 500	--ExploreCharacterIndex 395
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Sai', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (890, 'Sai', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Sai_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Sai_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Sai.xhtml', 
@@ -3142,7 +3143,7 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (3
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (395, 4); --Dex
 
 --Sanctioned Witch --CardIndex 891	--CharacterIndex 501	--ExploreCharacterIndex 396
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Sanctioned Witch', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (891, 'Sanctioned Witch', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Sanctioned_Witch_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Sanctioned_Witch_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Sanctioned_Witch.xhtml', 
@@ -3165,7 +3166,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (396, 2); --Armor
 
 --Saru --CardIndex 892	--CharacterIndex 502	--ExploreCharacterIndex 397
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Saru', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (892, 'Saru', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Saru_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Saru_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Saru.xhtml', 
@@ -3191,7 +3192,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (397, 2); --Armor
 
 --Ser Charles Strong --CardIndex 893	--CharacterIndex 503	--ExploreCharacterIndex 398
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ser Charles Strong', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (893, 'Ser Charles Strong', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Ser_Charles_Strong_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Ser_Charles_Strong_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Ser_Charles_Strong.xhtml', 
@@ -3213,7 +3214,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (398, 2); --Armor
 
 --Severina --CardIndex 894	--CharacterIndex 504	--ExploreCharacterIndex 399
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Severina', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (894, 'Severina', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Severina_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Severina_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Severina.xhtml', 
@@ -3239,7 +3240,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (399, 2); --Armor
 
 --Sheep-Cote Clod --CardIndex 895	--CharacterIndex 505	--ExploreCharacterIndex 400
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Sheep-Cote Clod', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (895, 'Sheep-Cote Clod', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Sheep_Cote_Clod_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Sheep_Cote_Clod_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Sheep_Cote_Clod.xhtml', 
@@ -3268,7 +3269,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (400, 2); --Armor
 
 --Shojo --CardIndex 896	--CharacterIndex 506	--ExploreCharacterIndex 401
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Shojo', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (896, 'Shojo', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Shojo_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Shojo_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Shojo.xhtml', 
@@ -3294,7 +3295,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (401, 2); --Armor
 
 --Skyr-Gobbler --CardIndex 897	--CharacterIndex 507	--ExploreCharacterIndex 402
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Skyr-Gobbler', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (897, 'Skyr-Gobbler', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Skyr_Gobbler_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Skyr_Gobbler_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Skyr_Gobbler.xhtml', 
@@ -3318,7 +3319,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (402, 2); --Armor
 
 --Songbird Candy --CardIndex 898	--CharacterIndex 508	--ExploreCharacterIndex 403
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Songbird Candy', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (898, 'Songbird Candy', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Songbird_Candy_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Songbird_Candy_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Songbird_Candy.xhtml', 
@@ -3343,7 +3344,7 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (4
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (403, 4); --Dex
 
 --Son Goku --CardIndex 899	--CharacterIndex 509	--ExploreCharacterIndex 404
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Son Goku', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (899, 'Son Goku', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Son_Goku_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Son_Goku_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Son_Goku.xhtml', 
@@ -3366,7 +3367,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (404, 2); --Armor
 
 --Spoon Licker --CardIndex 900	--CharacterIndex 510	--ExploreCharacterIndex 405
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Spoon Licker', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (900, 'Spoon Licker', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Spoon_Licker_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Spoon_Licker_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Spoon_Licker.xhtml', 
@@ -3390,7 +3391,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (405, 2); --Armor
 
 --Springtime Druid --CardIndex 901	--CharacterIndex 511	--ExploreCharacterIndex 406
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Springtime Druid', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (901, 'Springtime Druid', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Springtime_Druid_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Springtime_Druid_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Springtime_Druid.xhtml', 
@@ -3413,7 +3414,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (406, 4); --Dex
 
 --Star Guild Rock Singer --CardIndex 902	--CharacterIndex 512	--ExploreCharacterIndex 407
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Star Guild Rock Singer', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (902, 'Star Guild Rock Singer', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Star_Guild_Rock_Singer_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Star_Guild_Rock_Singer_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Star_Guild_Rock_Singer.xhtml', 
@@ -3438,7 +3439,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (407, 2); --Armor
 
 --Star Princess Candy --CardIndex 903	--CharacterIndex 513	--ExploreCharacterIndex 408
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Star Princess Candy', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (903, 'Star Princess Candy', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Star_Princess_Candy_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Star_Princess_Candy_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Star_Princess_Candy.xhtml', 
@@ -3460,7 +3461,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (408, 2); --Armor
 
 --Steelhorse Candy --CardIndex 904	--CharacterIndex 514	--ExploreCharacterIndex 409
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Steelhorse Candy', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (904, 'Steelhorse Candy', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Steelhorse_Candy_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Steelhorse_Candy_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Steelhorse_Candy.xhtml', 
@@ -3484,7 +3485,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (409, 2); --Armor
 
 --Sun Empire Wandering Samurai --CardIndex 905	--CharacterIndex 515	--ExploreCharacterIndex 410
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Sun Empire Wandering Samurai', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (905, 'Sun Empire Wandering Samurai', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Sun_Empire_Wandering_Samurai_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Sun_Empire_Wandering_Samurai_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Sun_Empire_Wandering_Samurai.xhtml', 
@@ -3508,7 +3509,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (410, 2); --Armor
 
 --Sweetheart Candy --CardIndex 906	--CharacterIndex 516	--ExploreCharacterIndex 411
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Sweetheart Candy', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (906, 'Sweetheart Candy', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Sweetheart_Candy_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Sweetheart_Candy_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Sweetheart_Candy.xhtml', 
@@ -3532,7 +3533,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (411, 2); --Armor
 
 --Tahariel --CardIndex 907	--CharacterIndex 517	--ExploreCharacterIndex 412
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Tahariel', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (907, 'Tahariel', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Tahariel_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Tahariel_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Tahariel.xhtml', 
@@ -3557,7 +3558,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (412, 2); --Armor
 
 --Tamamo No Mae --CardIndex 908	--CharacterIndex 518	--ExploreCharacterIndex 413
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Tamamo No Mae', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (908, 'Tamamo No Mae', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Tamamo_No_Mae_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Tamamo_No_Mae_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Tamamo_No_Mae.xhtml', 
@@ -3579,7 +3580,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (413, 2); --Armor
 
 --Tatsu --CardIndex 909	--CharacterIndex 519	--ExploreCharacterIndex 414
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Tatsu', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (909, 'Tatsu', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Tatsu_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Tatsu_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Tatsu.xhtml', 
@@ -3604,7 +3605,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (414, 2); --Armor
 
 --Tincan --CardIndex 910	--CharacterIndex 520	--ExploreCharacterIndex 415
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Tincan', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (910, 'Tincan', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Tincan_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Tincan_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Tincan.xhtml', 
@@ -3633,7 +3634,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (415, 2); --Armor
 
 --Treffen Cedarbough --CardIndex 911	--CharacterIndex 521	--ExploreCharacterIndex 416
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Treffen Cedarbough', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (911, 'Treffen Cedarbough', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Treffen_Cedarbough_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Treffen_Cedarbough_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Treffen_Cedarbough.xhtml', 
@@ -3659,7 +3660,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (416, 2); --Armor
 
 --Trick-Or-Treat Cola --CardIndex 912	--CharacterIndex 522	--ExploreCharacterIndex 417
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Trick-Or-Treat Cola', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (912, 'Trick-Or-Treat Cola', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Trick_Or_Treat_Cola_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Trick_Or_Treat_Cola_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Trick_Or_Treat_Cola.xhtml', 
@@ -3681,7 +3682,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (417, 2); --Armor
 
 --Trixie, Master of Chains --CardIndex 913	--CharacterIndex 523	--ExploreCharacterIndex 418
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Trixie, Master of Chains', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (913, 'Trixie, Master of Chains', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Trixie_Master_of_Chains_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Trixie_Master_of_Chains_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Trixie_Master_of_Chains.xhtml', 
@@ -3707,7 +3708,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (418, 2); --Armor
 
 --Tusk Raider --CardIndex 914	--CharacterIndex 524	--ExploreCharacterIndex 419
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Tusk Raider', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (914, 'Tusk Raider', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Tusk_Raider_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Tusk_Raider_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Tusk_Raider.xhtml', 
@@ -3732,7 +3733,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (419, 2); --Armor
 
 --Twilight Cola --CardIndex 915	--CharacterIndex 525	--ExploreCharacterIndex 420
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Twilight Cola', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (915, 'Twilight Cola', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Twilight_Cola_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Twilight_Cola_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Twilight_Cola.xhtml', 
@@ -3754,7 +3755,7 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (4
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (420, 4); --Dex
 
 --Unicorn --CardIndex 916	--CharacterIndex 526	--ExploreCharacterIndex 421
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Unicorn', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (916, 'Unicorn', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Unicorn_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Unicorn_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Unicorn.xhtml', 
@@ -3780,7 +3781,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (421, 2); --Armor
 
 -- --CardIndex 917	--CharacterIndex 527	--ExploreCharacterIndex 422
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (917, 
 '', 
 '', 
 '', 
@@ -3795,7 +3796,7 @@ VALUES (527,
 '', '', '', -1, -1, '', '', '', '', -1, -1);
 
 --Ursus Knight --CardIndex 918	--CharacterIndex 528	--ExploreCharacterIndex 423
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ursus Knight', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (918, 'Ursus Knight', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Ursus_Knight_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Ursus_Knight_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Ursus_Knight.xhtml', 
@@ -3819,7 +3820,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (423, 2); --Armor
 
 --Uzumaki --CardIndex 919	--CharacterIndex 529	--ExploreCharacterIndex 424
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Uzumaki', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (919, 'Uzumaki', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Uzumaki_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Uzumaki_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Uzumaki.xhtml', 
@@ -3841,7 +3842,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (424, 2); --Armor
 
 --Valerie Duval --CardIndex 920	--CharacterIndex 530	--ExploreCharacterIndex 425
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Valerie Duval', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (920, 'Valerie Duval', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Valerie_Duval_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Valerie_Duval_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Valerie_Duval.xhtml', 
@@ -3867,7 +3868,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (425, 4); --Dex
 
 --Virtuous Blade --CardIndex 921	--CharacterIndex 531	--ExploreCharacterIndex 426
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Virtuous Blade', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (921, 'Virtuous Blade', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Virtuous_Blade_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Virtuous_Blade_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Virtuous_Blade.xhtml', 
@@ -3890,7 +3891,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (426, 2); --Armor
 
 --Wandering Master --CardIndex 922	--CharacterIndex 532	--ExploreCharacterIndex 427
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (922, 
 'Wandering Master', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Wandering_Master_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Wandering_Master_2.0_back.png', 
@@ -3915,7 +3916,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (427, 2); --Armor
 
 --White Knight Candy --CardIndex 923	--CharacterIndex 533	--ExploreCharacterIndex 428
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('White Knight Candy', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (923, 'White Knight Candy', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_White_Knight_Candy_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_White_Knight_Candy_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/White_Knight_Candy.xhtml', 
@@ -3939,7 +3940,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (428, 2); --Armor
 
 --Witch Exterminator --CardIndex 924	--CharacterIndex 534	--ExploreCharacterIndex 429
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Witch Exterminator', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (924, 'Witch Exterminator', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Witch_Exterminator_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Witch_Exterminator_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Witch_Exterminator.xhtml', 
@@ -3969,7 +3970,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (429, 2); --Armor
 
 --Wyrdwood Reaver --CardIndex 925	--CharacterIndex 535	--ExploreCharacterIndex 430
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Wyrdwood Reaver', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (925, 'Wyrdwood Reaver', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Wyrdwood_Reaver_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Wyrdwood_Reaver_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Wyrdwood_Reaver.xhtml', 
@@ -3993,7 +3994,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (430, 2); --Armor
 
 --Yagyu Jubei --CardIndex 926	--CharacterIndex 536	--ExploreCharacterIndex 431
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Yagyu Jubei', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (926, 'Yagyu Jubei', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Yagyu_Jubei_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Yagyu_Jubei_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Yagyu_Jubei.xhtml', 
@@ -4017,7 +4018,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (431, 2); --Armor
 
 --Yokozuna --CardIndex 927	--CharacterIndex 537	--ExploreCharacterIndex 432
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Yokozuna', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (927, 'Yokozuna', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Yokozuna_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Yokozuna_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Yokozuna.xhtml', 
@@ -4041,7 +4042,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (432, 2); --Armor
 
 --Yui --CardIndex 928	--CharacterIndex 538	--ExploreCharacterIndex 433
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Yui', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (928, 'Yui', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Yui_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Yui_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Yui.xhtml', 
@@ -4065,7 +4066,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (433, 2); --Armor
 
 --Yurei No Tomomori --CardIndex 929	--CharacterIndex 539	--ExploreCharacterIndex 434
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Yurei No Tomomori', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (929, 'Yurei No Tomomori', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Yurei_No_Tomomori_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Yurei_No_Tomomori_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Yurei_No_Tomomori.xhtml', 
@@ -4087,7 +4088,7 @@ insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRa
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (434, 2); --Armor
 
 --Zenyo Ryu --CardIndex 930	--CharacterIndex 540	--ExploreCharacterIndex 435
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Zenyo Ryu', 
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (930, 'Zenyo Ryu', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Zenyo_Ryu_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Heroes/Card_Hero_Zenyo_Ryu_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Cards/Heroes/Zenyo_Ryu.xhtml', 

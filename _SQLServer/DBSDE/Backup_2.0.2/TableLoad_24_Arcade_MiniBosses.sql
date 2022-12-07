@@ -4,7 +4,7 @@
 
 
 --Jolly Sparrow	--CardIndex 2255	--CharacterIndex 1133	--ArcadeCharacterIndex 335
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (2255, 
 'Jolly Sparrow',
 'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Jolly_Sparrow_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/MiniBosses/Card_Arcade_MiniBoss_Jolly_Sparrow_2.0_back.png', 

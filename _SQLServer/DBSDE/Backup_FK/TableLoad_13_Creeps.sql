@@ -4,7 +4,7 @@
 
 
 --Citrine Slime --CardIndex 226	--CharacterIndex 141	--ExploreCharacterIndex 141
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Citrine Slime',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (226, 'Citrine Slime',
 'http://htkb.info/SDE/FK/Cards/Creeps/Card_Creep_Citrine_Slime_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Creeps/Card_Creep_Citrine_Slime_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Explore/Cards/Creeps/Citrine_Slime.xhtml', 
@@ -25,7 +25,7 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (1
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (141, '', '8 Bit', 1);
 
 --Emerald Slime --CardIndex 227	--CharacterIndex 142	--ExploreCharacterIndex 142
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Emerald Slime',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (227, 'Emerald Slime',
 'http://htkb.info/SDE/FK/Cards/Creeps/Card_Creep_Emerald_Slime_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Creeps/Card_Creep_Emerald_Slime_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Explore/Cards/Creeps/Emerald_Slime.xhtml', 
@@ -46,7 +46,7 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (1
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (142, '', '8 Bit', 1);
 
 --Ghost --CardIndex 228	--CharacterIndex 143	--ExploreCharacterIndex 143
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ghost',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (228, 'Ghost',
 'http://htkb.info/SDE/FK/Cards/Creeps/Card_Creep_Ghost_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Creeps/Card_Creep_Ghost_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Explore/Cards/Creeps/Ghost.xhtml', 
@@ -67,7 +67,7 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (1
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (143, '', '8 Bit', 1);
 
 --Giri --CardIndex 229	--CharacterIndex 144	--ExploreCharacterIndex 144
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Giri',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (229, 'Giri',
 'http://htkb.info/SDE/FK/Cards/Creeps/Card_Creep_Giri_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Creeps/Card_Creep_Giri_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Explore/Cards/Creeps/Giri.xhtml', 
@@ -88,7 +88,7 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (1
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (144, '', '8 Bit', 1);
 
 --Rabid Squirrel --CardIndex 230	--CharacterIndex 145	--ExploreCharacterIndex 145
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Rabid Squirrel',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (230, 'Rabid Squirrel',
 'http://htkb.info/SDE/FK/Cards/Creeps/Card_Creep_Rabid_Squirrel_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Creeps/Card_Creep_Rabid_Squirrel_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Explore/Cards/Creeps/Rabid_Squirrel.xhtml', 
@@ -109,7 +109,7 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (1
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (145, '', '8 Bit', 1);
 
 --Rattlebone --CardIndex 231	--CharacterIndex 146	--ExploreCharacterIndex 146
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Rattlebone',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (231, 'Rattlebone',
 'http://htkb.info/SDE/FK/Cards/Creeps/Card_Creep_Rattlebone_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Creeps/Card_Creep_Rattlebone_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Explore/Cards/Creeps/Rattlebone.xhtml', 
@@ -129,7 +129,7 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (1
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (146, '', '8 Bit', 1);
 
 --Ruby Slime --CardIndex 232	--CharacterIndex 147	--ExploreCharacterIndex 147
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Ruby Slime',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (232, 'Ruby Slime',
 'http://htkb.info/SDE/FK/Cards/Creeps/Card_Creep_Ruby_Slime_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Creeps/Card_Creep_Ruby_Slime_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Explore/Cards/Creeps/Ruby_Slime.xhtml', 
@@ -150,7 +150,7 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (1
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (147, '', '8 Bit', 1);
 
 --Sapphire Slime --CardIndex 233	--CharacterIndex 148	--ExploreCharacterIndex 148
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Sapphire Slime',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (233, 'Sapphire Slime',
 'http://htkb.info/SDE/FK/Cards/Creeps/Card_Creep_Sapphire_Slime_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Creeps/Card_Creep_Sapphire_Slime_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Explore/Cards/Creeps/Sapphire_Slime.xhtml', 

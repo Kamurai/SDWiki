@@ -4,7 +4,7 @@
 
 
 --Boo Booty --CardIndex 981	--CharacterIndex 591	--ExploreCharacterIndex 486
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Boo Booty',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (981, 'Boo Booty',
 'http://htkb.info/SDE/2.0/Cards/Booty/Card_Booty_Boo_Booty_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Booty/Card_Booty_Boo_Booty_2.0_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/Explore/Cards/Booty/Boo_Booty.xhtml', 
@@ -24,7 +24,7 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (4
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (486, 'Boo Booty', '8 Bit', 1);
 
 --Boo Booty --CardIndex 982	--CharacterIndex 592	--ExploreCharacterIndex 487
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Boo Booty',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (982, 'Boo Booty',
 'http://htkb.info/SDE/2.0/Cards/Booty/Card_Booty_Boo_Booty_2.0_DI.png', 
 'http://htkb.info/SDE/2.0/Cards/Booty/Card_Booty_Boo_Booty_2.0_DI_back.png', 
 'http://htkb.online/SDWiki/SDE/2.0/DI/Explore/Cards/Booty/Boo_Booty.xhtml', 

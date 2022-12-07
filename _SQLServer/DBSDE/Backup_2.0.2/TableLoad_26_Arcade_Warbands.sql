@@ -5,7 +5,7 @@
 
 --Crow's Nest
 --Crow's Nest --CardIndex 2257	--CharacterIndex 1135	--ArcadeCharacterIndex 337
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (2257, 
 'Crow''s Nest',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Crows_Nest/Card_Arcade_Warband_Crows_Nest_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Crows_Nest/Card_Arcade_Warband_Crows_Nest_2.0_back.png', 
@@ -24,7 +24,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (471, 1120
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (471, 1123); --Spawning Pool
 
 --The Lost Souls	--CardIndex 2258	--CharacterIndex 1136	--ArcadeCharacterIndex 338
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (2258, 
 'Lost Souls, The',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Crows_Nest/Card_Arcade_Warband_Crows_Nest_Lost_Souls_The_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Warbands/Crows_Nest/Card_Arcade_Warband_Crows_Nest_Lost_Souls_The_2.0_back.png', 

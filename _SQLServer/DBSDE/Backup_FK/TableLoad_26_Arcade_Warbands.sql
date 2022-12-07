@@ -5,7 +5,7 @@
 
 --Bramble Knight
 --Bramble Knight --CardIndex 383	--CharacterIndex 298	--ArcadeCharacterIndex 46
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Bramble Knight',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (383, 'Bramble Knight',
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Bramble_Knight/Card_Arcade_Warband_Bramble_Knight_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Bramble_Knight/Card_Arcade_Warband_Bramble_Knight_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Arcade/Cards/Warbands/Bramble_Knight/Bramble_Knight.xhtml', 
@@ -23,7 +23,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (46, 189);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (46, 372); --Spawning Pool
 
 --Executioners --CardIndex 384	--CharacterIndex 299	--ArcadeCharacterIndex 47
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Bramble Knight',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (384, 'Bramble Knight',
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Bramble_Knight/Card_Arcade_Warband_Bramble_Knight_Executioners_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Bramble_Knight/Card_Arcade_Warband_Bramble_Knight_Executioners_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Arcade/Cards/Warbands/Bramble_Knight/Executioners.xhtml', 
@@ -44,7 +44,7 @@ VALUES (47, 1, 'Billmen', 'Chimera', 'Minion', 5, 1, 1, 184);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (48, 336); --Slow
 
 --House of Frog --CardIndex 385	--CharacterIndex 300	--ArcadeCharacterIndex 48
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Bramble Knight',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (385, 'Bramble Knight',
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Bramble_Knight/Card_Arcade_Warband_Bramble_Knight_House_of_Frog_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Bramble_Knight/Card_Arcade_Warband_Bramble_Knight_House_of_Frog_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Arcade/Cards/Warbands/Bramble_Knight/House_of_Frog.xhtml', 
@@ -68,7 +68,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (50, 352);
 
 --Claw Shrine
 --Claw Shrine --CardIndex 386	--CharacterIndex 301	--ArcadeCharacterIndex 49
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Claw Shrine',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (386, 'Claw Shrine',
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Claw_Shrine/Card_Arcade_Warband_Claw_Shrine_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Claw_Shrine/Card_Arcade_Warband_Claw_Shrine_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Arcade/Cards/Warbands/Claw_Shrine/Claw_Shrine.xhtml', 
@@ -86,7 +86,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (51, 211);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (51, 374); --Spawning Pool
 
 --Black Claws --CardIndex 387	--CharacterIndex 302	--ArcadeCharacterIndex 50
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Black Claws',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (387, 'Black Claws',
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Claw_Shrine/Card_Arcade_Warband_Claw_Shrine_Black_Claws_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Claw_Shrine/Card_Arcade_Warband_Claw_Shrine_Black_Claws_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Arcade/Cards/Warbands/Claw_Shrine/Black_Claws.xhtml', 
@@ -109,7 +109,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (53, 178);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (53, 347); --Stealth
 
 --Blood Trackers --CardIndex 388	--CharacterIndex 303	--ArcadeCharacterIndex 51
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Blood Trackers',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (388, 'Blood Trackers',
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Claw_Shrine/Card_Arcade_Warband_Claw_Shrine_Blood_Trackers_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Claw_Shrine/Card_Arcade_Warband_Claw_Shrine_Blood_Trackers_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Arcade/Cards/Warbands/Claw_Shrine/Blood_Trackers.xhtml', 
@@ -132,7 +132,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (55, 188);
 
 --Egg Clutch
 --Egg Clutch --CardIndex 389	--CharacterIndex 304	--ArcadeCharacterIndex 52
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Egg Clutch',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (389, 'Egg Clutch',
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Egg_Clutch/Card_Arcade_Warband_Egg_Clutch_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Egg_Clutch/Card_Arcade_Warband_Egg_Clutch_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Arcade/Cards/Warbands/Egg_Clutch/Egg_Clutch.xhtml', 
@@ -151,7 +151,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (56, 376);
 
 --Dragonborn
 --Dragonborn --CardIndex 390	--CharacterIndex 305	--ArcadeCharacterIndex 53
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Dragonborn',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (390, 'Dragonborn',
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Egg_Clutch/Card_Arcade_Warband_Egg_Clutch_Dragonborn_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Egg_Clutch/Card_Arcade_Warband_Egg_Clutch_Dragonborn_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Arcade/Cards/Warbands/Egg_Clutch/Dragonborn.xhtml', 
@@ -179,7 +179,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (59, 298);
 
 --Clan Fire Shrine
 --Clan Fire Shrine --CardIndex 391	--CharacterIndex 306	--ArcadeCharacterIndex 54
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (391, 
 'Clan Fire Shrine',
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Clan_Fire_Shrine/Card_Arcade_Warband_Clan_Fire_Shrine_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Clan_Fire_Shrine/Card_Arcade_Warband_Clan_Fire_Shrine_FK_back.png', 
@@ -199,7 +199,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (60, 347);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (60, 378); --Spawning Pool
 
 --Clan Fire Shrine Mystic Team --CardIndex 392	--CharacterIndex 307	--ArcadeCharacterIndex 55
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (392, 
 'Clan Fire Shrine Mystic Team',
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Clan_Fire_Shrine/Card_Arcade_Warband_Clan_Fire_Shrine_Mystic_Team_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Clan_Fire_Shrine/Card_Arcade_Warband_Clan_Fire_Shrine_Mystic_Team_FK_back.png', 
@@ -228,7 +228,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (63, 315);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (63, 348); --Stealth
 
 --Clan Fire Shrine Scout Team --CardIndex 393	--CharacterIndex 308	--ArcadeCharacterIndex 56
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (393, 
 'Clan Fire Shrine Scout Team',
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Clan_Fire_Shrine/Card_Arcade_Warband_Clan_Fire_Shrine_Scout_Team_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Clan_Fire_Shrine/Card_Arcade_Warband_Clan_Fire_Shrine_Scout_Team_FK_back.png', 
@@ -254,7 +254,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (65, 348);
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (65, 566); --Smoke Bomb
 
 --Clan Fire Shrine Strike Team --CardIndex 394	--CharacterIndex 309	--ArcadeCharacterIndex 57
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (394, 
 'Clan Fire Shrine Strike Team',
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Clan_Fire_Shrine/Card_Arcade_Warband_Clan_Fire_Shrine_Strike_Team_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Clan_Fire_Shrine/Card_Arcade_Warband_Clan_Fire_Shrine_Strike_Team_FK_back.png', 
@@ -288,7 +288,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (68, 348);
 
 --Fungal Growth
 --Fungal Growth --CardIndex 395	--CharacterIndex 310	--ArcadeCharacterIndex 58
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (395, 
 'Fungal Growth',
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Fungal_Growth/Card_Arcade_Warband_Fungal_Growth_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Fungal_Growth/Card_Arcade_Warband_Fungal_Growth_FK_back.png', 
@@ -308,7 +308,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (69, 380);
 
 --Fungus Brigade
 --Fungus Brigade --CardIndex 396	--CharacterIndex 311	--ArcadeCharacterIndex 59
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Fungus Brigade',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (396, 'Fungus Brigade',
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Fungal_Growth/Card_Arcade_Warband_Fungal_Growth_Fungus_Brigade_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Fungal_Growth/Card_Arcade_Warband_Fungal_Growth_Fungus_Brigade_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Arcade/Cards/Warbands/Fungal_Growth/Fungus_Brigade.xhtml', 
@@ -332,7 +332,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (71, 340);
 
 --Pig Patrol
 --Pig Patrol --CardIndex 397	--CharacterIndex 312	--ArcadeCharacterIndex 60
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Pig Patrol',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (397, 'Pig Patrol',
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Fungal_Growth/Card_Arcade_Warband_Fungal_Growth_Pig_Patrol_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Fungal_Growth/Card_Arcade_Warband_Fungal_Growth_Pig_Patrol_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Arcade/Cards/Warbands/Fungal_Growth/Pig_Patrol.xhtml', 
@@ -355,7 +355,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (73, 653);
 
 --Grabby House
 --Grabby House --CardIndex 398	--CharacterIndex 313	--ArcadeCharacterIndex 61
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Grabby House',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (398, 'Grabby House',
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Grabby_House/Card_Arcade_Warband_Grabby_House_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Grabby_House/Card_Arcade_Warband_Grabby_House_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Arcade/Cards/Warbands/Grabby_House/Grabby_House.xhtml', 
@@ -373,7 +373,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (74, 240);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (74, 382); --Spawning Pool
 
 --Grave Robbers --CardIndex 399	--CharacterIndex 314	--ArcadeCharacterIndex 62
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Grave Robbers',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (399, 'Grave Robbers',
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Grabby_House/Card_Arcade_Warband_Grabby_House_Grave_Robbers_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Grabby_House/Card_Arcade_Warband_Grabby_House_Grave_Robbers_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Arcade/Cards/Warbands/Grabby_House/Grave_Robbers.xhtml', 
@@ -395,7 +395,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (76, 348);
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (76, 390); --Homunculus
 
 --Rotters --CardIndex 400	--CharacterIndex 315	--ArcadeCharacterIndex 63
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Rotters',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (400, 'Rotters',
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Grabby_House/Card_Arcade_Warband_Grabby_House_Rotters_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Grabby_House/Card_Arcade_Warband_Grabby_House_Rotters_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Arcade/Cards/Warbands/Grabby_House/Rotters.xhtml', 
@@ -420,7 +420,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (78, 291);
 
 --Kobold Warrens
 --Kobold Warrens --CardIndex 401	--CharacterIndex 316	--ArcadeCharacterIndex 64
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Kobold Warrens',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (401, 'Kobold Warrens',
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Kobold_Warrens/Card_Arcade_Warband_Kobold_Warrens_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Kobold_Warrens/Card_Arcade_Warband_Kobold_Warrens_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Arcade/Cards/Warbands/Kobold_Warrens/Kobold_Warrens.xhtml', 
@@ -438,7 +438,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (79, 292);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (79, 384); --Spawning Pool
 
 --Dragon Devotees --CardIndex 402	--CharacterIndex 317	--ArcadeCharacterIndex 65
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Dragon Devotees',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (402, 'Dragon Devotees',
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Kobold_Warrens/Card_Arcade_Warband_Kobold_Warrens_Dragon_Devotees_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Kobold_Warrens/Card_Arcade_Warband_Kobold_Warrens_Dragon_Devotees_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Arcade/Cards/Warbands/Kobold_Warrens/Dragon_Devotees.xhtml', 
@@ -464,7 +464,7 @@ VALUES (65, 2, 'Gouger', 'Kobold', 'Minion', 6, 1, 0, 213);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (82, 315); --Reach
 
 --Scale Wall --CardIndex 403	--CharacterIndex 318	--ArcadeCharacterIndex 66
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Scale Wall',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (403, 'Scale Wall',
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Kobold_Warrens/Card_Arcade_Warband_Kobold_Warrens_Scale_Wall_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Kobold_Warrens/Card_Arcade_Warband_Kobold_Warrens_Scale_Wall_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Arcade/Cards/Warbands/Kobold_Warrens/Scale_Wall.xhtml', 
@@ -489,7 +489,7 @@ VALUES (66, 2, 'Gouger', 'Kobold', 'Minion', 6, 1, 0, 213);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (85, 315); --Reach
 
 --Sneaks --CardIndex 404 --CharacterIndex 319	--ArcadeCharacterIndex 67
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Sneaks',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (404, 'Sneaks',
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Kobold_Warrens/Card_Arcade_Warband_Kobold_Warrens_Sneaks_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Kobold_Warrens/Card_Arcade_Warband_Kobold_Warrens_Sneaks_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Arcade/Cards/Warbands/Kobold_Warrens/Sneaks.xhtml', 
@@ -515,7 +515,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (87, 394);
 
 --Lava Whirl
 --Lava Whirl --CardIndex 405	--CharacterIndex 320	--ArcadeCharacterIndex 68
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Lava Whirl',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (405, 'Lava Whirl',
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Lava_Whirl/Card_Arcade_Warband_Lava_Whirl_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Lava_Whirl/Card_Arcade_Warband_Lava_Whirl_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Arcade/Cards/Warbands/Lava_Whirl/Lava_Whirl.xhtml', 
@@ -533,7 +533,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (88, 224);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (88, 386); --Spawning Pool
 
 --Blaze Beetle --CardIndex 406 --CharacterIndex 321	--ArcadeCharacterIndex 69
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Blaze Beetle',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (406, 'Blaze Beetle',
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Lava_Whirl/Card_Arcade_Warband_Lava_Whirl_Blaze_Beetle_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Lava_Whirl/Card_Arcade_Warband_Lava_Whirl_Blaze_Beetle_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Arcade/Cards/Warbands/Lava_Whirl/Blaze_Beetle.xhtml', 
@@ -553,7 +553,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (89, 192);
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (89, 350); --Furnace Vent
 
 --Burning Pack --CardIndex 407 --CharacterIndex 322	--ArcadeCharacterIndex 70
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Burning Pack',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (407, 'Burning Pack',
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Lava_Whirl/Card_Arcade_Warband_Lava_Whirl_Burning_Pack_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Lava_Whirl/Card_Arcade_Warband_Lava_Whirl_Burning_Pack_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Arcade/Cards/Warbands/Lava_Whirl/Burning_Pack.xhtml', 
@@ -579,7 +579,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (91, 348);
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (91, 558); --Sickening Smoke
 
 --Flaming Slime --CardIndex 408 --CharacterIndex 323	--ArcadeCharacterIndex 71
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Flaming Slime',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (408, 'Flaming Slime',
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Lava_Whirl/Card_Arcade_Warband_Lava_Whirl_Flaming_Slime_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Lava_Whirl/Card_Arcade_Warband_Lava_Whirl_Flaming_Slime_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Arcade/Cards/Warbands/Lava_Whirl/Flaming_Slime.xhtml', 
@@ -608,7 +608,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (93, 592);
 
 --Old Growth Hollow
 --Old Growth Hollow --CardIndex 409	--CharacterIndex 324	--ArcadeCharacterIndex 72
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Old Growth Hollow',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (409, 'Old Growth Hollow',
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Old_Growth_Hollow/Card_Arcade_Warband_Old_Growth_Hollow_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Old_Growth_Hollow/Card_Arcade_Warband_Old_Growth_Hollow_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Arcade/Cards/Warbands/Old_Growth_Hollow/Old_Growth_Hollow.xhtml', 
@@ -626,7 +626,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (94, 301);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (94, 388); --Spawning Pool
 
 --Herbalists --CardIndex 410 --CharacterIndex 325	--ArcadeCharacterIndex 73
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Herbalists',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (410, 'Herbalists',
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Old_Growth_Hollow/Card_Arcade_Warband_Old_Growth_Hollow_Herbalists_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Old_Growth_Hollow/Card_Arcade_Warband_Old_Growth_Hollow_Herbalists_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Arcade/Cards/Warbands/Old_Growth_Hollow/Herbalists.xhtml', 
@@ -648,7 +648,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (96, 362);
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (96, 409); --It's Medicinal
 
 --Hungry Sprouts --CardIndex 411 --CharacterIndex 326	--ArcadeCharacterIndex 74
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Hungry Sprouts',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (411, 'Hungry Sprouts',
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Old_Growth_Hollow/Card_Arcade_Warband_Old_Growth_Hollow_Hungry_Sprouts_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Old_Growth_Hollow/Card_Arcade_Warband_Old_Growth_Hollow_Hungry_Sprouts_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Arcade/Cards/Warbands/Old_Growth_Hollow/Hungry_Sprouts.xhtml', 
@@ -671,7 +671,7 @@ VALUES (74, 1, 'Mook', 'Kodama', 'Minion', 5, 1, 1, 223);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (98, 300); --Poison
 
 --Lil' Sprouts --CardIndex 412 --CharacterIndex 327	--ArcadeCharacterIndex 75
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Lil'' Sprouts',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (412, 'Lil'' Sprouts',
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Old_Growth_Hollow/Card_Arcade_Warband_Old_Growth_Hollow_Lil_Sprouts_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Old_Growth_Hollow/Card_Arcade_Warband_Old_Growth_Hollow_Lil_Sprouts_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Arcade/Cards/Warbands/Old_Growth_Hollow/Lil_Sprouts.xhtml', 
@@ -694,7 +694,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (100, 300)
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (100, 516); --Rampant Growth
 
 --Will-O-Wisps --CardIndex 413 --CharacterIndex 328	--ArcadeCharacterIndex 76
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Will-O-Wisps',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (413, 'Will-O-Wisps',
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Old_Growth_Hollow/Card_Arcade_Warband_Old_Growth_Hollow_Will_o_Wisps_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Old_Growth_Hollow/Card_Arcade_Warband_Old_Growth_Hollow_Will_o_Wisps_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Arcade/Cards/Warbands/Old_Growth_Hollow/Will_o_Wisps.xhtml', 
@@ -717,7 +717,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (102, 488)
 
 --Pumpkin Patch
 --Pumpkin Patch --CardIndex 414	--CharacterIndex 329	--ArcadeCharacterIndex 77
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Pumpkin Patch',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (414, 'Pumpkin Patch',
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Pumpkin_Patch/Card_Arcade_Warband_Pumpkin_Patch_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Pumpkin_Patch/Card_Arcade_Warband_Pumpkin_Patch_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Arcade/Cards/Warbands/Pumpkin_Patch/Pumpkin_Patch.xhtml', 
@@ -735,7 +735,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (103, 237)
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (103, 390); --Spawning Pool
 
 --Crypt Spider --CardIndex 415 --CharacterIndex 330	--ArcadeCharacterIndex 78
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Crypt Spider',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (415, 'Crypt Spider',
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Pumpkin_Patch/Card_Arcade_Warband_Pumpkin_Patch_Crypt_Spider_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Pumpkin_Patch/Card_Arcade_Warband_Pumpkin_Patch_Crypt_Spider_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Arcade/Cards/Warbands/Pumpkin_Patch/Crypt_Spider.xhtml', 
@@ -755,7 +755,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (104, 306)
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (104, 560); --Silk Spinner
 
 --Curse Coven --CardIndex 416 --CharacterIndex 331	--ArcadeCharacterIndex 79
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Curse Coven',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (416, 'Curse Coven',
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Pumpkin_Patch/Card_Arcade_Warband_Pumpkin_Patch_Curse_Coven_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Pumpkin_Patch/Card_Arcade_Warband_Pumpkin_Patch_Curse_Coven_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Arcade/Cards/Warbands/Pumpkin_Patch/Curse_Coven.xhtml', 
@@ -780,7 +780,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (106, 284)
 
 --Rock Pile
 --Rock Pile --CardIndex 417	--CharacterIndex 332	--ArcadeCharacterIndex 80
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Rock Pile',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (417, 'Rock Pile',
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Rock_Pile/Card_Arcade_Warband_Rock_Pile_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Rock_Pile/Card_Arcade_Warband_Rock_Pile_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Arcade/Cards/Warbands/Rock_Pile/Rock_Pile.xhtml', 
@@ -798,7 +798,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (107, 317)
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (107, 392); --Spawning Pool
 
 --Bully Foremen --CardIndex 418	--CharacterIndex 333	--ArcadeCharacterIndex 81
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (418, 
 'Bully Foremen',
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Rock_Pile/Card_Arcade_Warband_Rock_Pile_Bully_Foremen_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Rock_Pile/Card_Arcade_Warband_Rock_Pile_Bully_Foremen_FK_back.png', 
@@ -823,7 +823,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (109, 267)
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (109, 634); --Thwack
 
 --Rockers v1 --CardIndex 419	--CharacterIndex 334	--ArcadeCharacterIndex 82
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (419, 
 'Rockers v1',
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Rock_Pile/Card_Arcade_Warband_Rock_Pile_Rockers_v1_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Rock_Pile/Card_Arcade_Warband_Rock_Pile_Rockers_v1_FK_back.png', 
@@ -847,7 +847,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (111, 267)
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (111, 651); --Turtle Tremor
 
 --Rockers v2 --CardIndex 420	--CharacterIndex 335	--ArcadeCharacterIndex 83
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Rockers v2',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (420, 'Rockers v2',
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Rock_Pile/Card_Arcade_Warband_Rock_Pile_Rockers_v2_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Rock_Pile/Card_Arcade_Warband_Rock_Pile_Rockers_v2_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Arcade/Cards/Warbands/Rock_Pile/Rockers_v2.xhtml', 
@@ -871,7 +871,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (113, 192)
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (113, 651); --Turtle Tremor
 
 --Shell Battery --CardIndex 421	--CharacterIndex 336	--ArcadeCharacterIndex 84
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Shell Battery',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (421, 'Shell Battery',
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Rock_Pile/Card_Arcade_Warband_Rock_Pile_Shell_Battery_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Rock_Pile/Card_Arcade_Warband_Rock_Pile_Shell_Battery_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Arcade/Cards/Warbands/Rock_Pile/Shell_Battery.xhtml', 
@@ -897,7 +897,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (115, 648)
 
 --Salt Pillar
 --Salt Pillar	--CardIndex 422	--CharacterIndex 337	--ArcadeCharacterIndex 85
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Salt Pillar',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (422, 'Salt Pillar',
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Salt_Pillar/Card_Arcade_Warband_Salt_Pillar_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Salt_Pillar/Card_Arcade_Warband_Salt_Pillar_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Arcade/Cards/Warbands/Salt_Pillar/Salt_Pillar.xhtml', 
@@ -915,7 +915,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (116, 349)
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (116, 394); --Spawning Pool
 
 --Despair Shroud --CardIndex 423	--CharacterIndex 338	--ArcadeCharacterIndex 86
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Despair Shroud',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (423, 'Despair Shroud',
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Salt_Pillar/Card_Arcade_Warband_Salt_Pillar_Despair_Shroud_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Salt_Pillar/Card_Arcade_Warband_Salt_Pillar_Despair_Shroud_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Arcade/Cards/Warbands/Salt_Pillar/Despair_Shroud.xhtml', 
@@ -936,7 +936,7 @@ VALUES (86, 1, 'Sorrow', 'Faerie', 'Elite', 5, 1, 0, 242);
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (118, 229); --Fly
 
 --Predators --CardIndex 424	--CharacterIndex 339	--ArcadeCharacterIndex 87
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Predators',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (424, 'Predators',
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Salt_Pillar/Card_Arcade_Warband_Salt_Pillar_Predators_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Salt_Pillar/Card_Arcade_Warband_Salt_Pillar_Predators_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Arcade/Cards/Warbands/Salt_Pillar/Predators.xhtml', 
@@ -963,7 +963,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (120, 423)
 
 --Shallow Grave
 --Shallow Grave	--CardIndex 425	--CharacterIndex 340	--ArcadeCharacterIndex 88
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Shallow Grave',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (425, 'Shallow Grave',
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Shallow_Grave/Card_Arcade_Warband_Shallow_Grave_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Shallow_Grave/Card_Arcade_Warband_Shallow_Grave_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Arcade/Cards/Warbands/Shallow_Grave/Shallow_Grave.xhtml', 
@@ -981,7 +981,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (121, 182)
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (121, 396); --Spawning Pool
 
 --Dust Acolytes	--CardIndex 426	--CharacterIndex 341	--ArcadeCharacterIndex 89
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Dust Acolytes',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (426, 'Dust Acolytes',
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Shallow_Grave/Card_Arcade_Warband_Shallow_Grave_Dust_Acolytes_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Shallow_Grave/Card_Arcade_Warband_Shallow_Grave_Dust_Acolytes_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Arcade/Cards/Warbands/Shallow_Grave/Dust_Acolytes.xhtml', 
@@ -1003,7 +1003,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (123, 188)
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (123, 193); --Bone Cold
 
 --Dust Coven	--CardIndex 427	--CharacterIndex 342	--ArcadeCharacterIndex 90
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (427, 
 'Dust Coven',
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Shallow_Grave/Card_Arcade_Warband_Shallow_Grave_Dust_Coven_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Shallow_Grave/Card_Arcade_Warband_Shallow_Grave_Dust_Coven_FK_back.png', 
@@ -1026,7 +1026,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (125, 188)
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (125, 354); --Ghastly Vigor
 
 --House of Ash	--CardIndex 428	--CharacterIndex 343	--ArcadeCharacterIndex 91
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (428, 
 'House of Ash',
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Shallow_Grave/Card_Arcade_Warband_Shallow_Grave_House_of_Ash_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Shallow_Grave/Card_Arcade_Warband_Shallow_Grave_House_of_Ash_FK_back.png', 
@@ -1051,7 +1051,7 @@ insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (127, 251)
 
 --Tribal Stone
 --Tribal Stone	--CardIndex 429	--CharacterIndex 344	--ArcadeCharacterIndex 92
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (429, 
 'Tribal Stone',
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Tribal_Stone/Card_Arcade_Warband_Tribal_Stone_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Tribal_Stone/Card_Arcade_Warband_Tribal_Stone_FK_back.png', 
@@ -1070,7 +1070,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (128, 308)
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (128, 398); --Spawning Pool
 
 --Ghostfire Tribe	--CardIndex 430	--CharacterIndex 345	--ArcadeCharacterIndex 93
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (430, 
 'Ghostfire Tribe',
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Tribal_Stone/Card_Arcade_Warband_Tribal_Stone_Ghostfire_Tribe_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Tribal_Stone/Card_Arcade_Warband_Tribal_Stone_Ghostfire_Tribe_FK_back.png', 
@@ -1094,7 +1094,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (130, 359)
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (130, 356); --Ghostfire
 
 --Spirit Born	--CardIndex 431	--CharacterIndex 346	--ArcadeCharacterIndex 94
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES ('Spirit Born',
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (431, 'Spirit Born',
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Tribal_Stone/Card_Arcade_Warband_Tribal_Stone_Spirit_Born_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Arcade/Warbands/Tribal_Stone/Card_Arcade_Warband_Tribal_Stone_Spirit_Born_FK_back.png', 
 'http://htkb.online/SDWiki/SDE/FK/Arcade/Cards/Warbands/Tribal_Stone/Spirit_Born.xhtml', 

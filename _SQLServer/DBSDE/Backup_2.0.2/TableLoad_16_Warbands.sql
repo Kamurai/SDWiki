@@ -5,7 +5,7 @@
 
 --Crow's Nest
 --Crow's Nest --CardIndex 2248 --CharacterIndex 1126 --ExploreCharacterIndex 794
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (2248, 
 'Crow''s Nest',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Crows_Nest/Card_Warband_Crows_Nest_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Crows_Nest/Card_Warband_Crows_Nest_2.0_back.png', 
@@ -26,7 +26,7 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (7
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (794, 'Spawning Point', 'Start', 0);
 
 --Bosun --CardIndex 2249 --CharacterIndex 1127 --ExploreCharacterIndex 795
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (2249, 
 'Bosun',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Crows_Nest/Card_Warband_Crows_Nest_Bosun_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Crows_Nest/Card_Warband_Crows_Nest_Bosun_2.0_back.png', 
@@ -50,7 +50,7 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (7
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (795, 'Elite', '16 Bit', 3);
 
 --Cursed Pirate --CardIndex 2250 --CharacterIndex 1128 --ExploreCharacterIndex 796
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (2250, 
 'Cursed Pirate',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Crows_Nest/Card_Warband_Crows_Nest_Cursed_Pirate_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Crows_Nest/Card_Warband_Crows_Nest_Cursed_Pirate_2.0_back.png', 
@@ -72,7 +72,7 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (7
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (796, '', '8 Bit', 2);
 
 --The Walking Cursed --CardIndex 2251 --CharacterIndex 1129 --ExploreCharacterIndex 797
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (2251, 
 'Walking Cursed, The',
 'http://htkb.info/SDE/2.0/Cards/Warbands/Crows_Nest/Card_Warband_Crows_Nest_Walking_Cursed_The_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Warbands/Crows_Nest/Card_Warband_Crows_Nest_Walking_Cursed_The_2.0_back.png', 

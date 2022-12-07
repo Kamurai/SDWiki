@@ -4,7 +4,7 @@
 
 
 --Flash Sentry --Card Index 2345	--CharacterIndex 1191 --ExploreCharacterIndex 852
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (2345, 
 'Flash Sentry', 
 'http://htkb.info/SDE/1.0/Custom/Cards/Heroes/Card_Hero_Flash_Sentry_1.0_Custom.png', 
 'http://htkb.info/SDE/1.0/Custom/Cards/Heroes/Card_Hero_Flash_Sentry_1.0_Custom_back.png', 
@@ -25,7 +25,7 @@ insert into ExploreCharacters (CharacterIndex, StandieFront, StandieBack, Gender
 'Masculine', 'Small', '', 6, 3, '1B1R', '3B', '2R', '1B1R', 5, 1);
 insert into OffenseAssignments (ExploreCharacterIndex, AttributeIndex, OffenseRange) VALUES (852, 0, 1); --Attack
 insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (852, 2); --Armor
-insert into CustomCards (CardIndex, Author, SourceURL) VALUES(
+insert into CustomComponents (ComponentIndex, Author, SourceURL) VALUES(
 2345,
 '@Eradose',
 'https://derpibooru.org/images/401549'

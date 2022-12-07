@@ -4,7 +4,7 @@
 
 
 --Kabomb 	--CardIndex 2252	--CharacterIndex 1130	--ArcadeCharacterIndex 332
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (2252, 
 'Kabomb',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Creeps/Card_Arcade_Creep_Kabomb_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Creeps/Card_Arcade_Creep_Kabomb_2.0_back.png', 
@@ -23,7 +23,7 @@ insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (868, 692)
 insert into KeywordAssignments (GangMemberIndex, KeywordIndex) VALUES (868, 1115); --Volatile
 
 --Loose Cannon	--CardIndex 2253	--CharacterIndex 1131	--ArcadeCharacterIndex 333
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (2253, 
 'Loose Cannon',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Creeps/Card_Arcade_Creep_Loose_Cannon_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Creeps/Card_Arcade_Creep_Loose_Cannon_2.0_back.png', 
@@ -40,7 +40,7 @@ VALUES (333, 0, 'Loose Cannon', 'Cannon', 'Creep', 3, 1, 3, 790);
 insert into AbilityAssignments (GangMemberIndex, AbilityIndex) VALUES (869, 2246); --Plugged Barrel
 
 --Potion Parrot	--CardIndex 2254	--CharacterIndex 1132	--ArcadeCharacterIndex 334
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (2254, 
 'Potion Parrot',
 'http://htkb.info/SDE/2.0/Cards/Arcade/Creeps/Card_Arcade_Creep_Potion_Parrot_2.0.png', 
 'http://htkb.info/SDE/2.0/Cards/Arcade/Creeps/Card_Arcade_Creep_Potion_Parrot_2.0_back.png', 

@@ -5,7 +5,7 @@
 
 --Clan Earth Shrine
 --Clan Earth Shrine --CardIndex 740 --CharacterIndex 350 --ExploreCharacterIndex 255
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (740, 
 'Clan Earth Shrine',
 'http://htkb.info/SDE/FK/Cards/Warbands/Clan_Earth_Shrine/Card_Warband_Clan_Earth_Shrine_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Warbands/Clan_Earth_Shrine/Card_Warband_Clan_Earth_Shrine_FK_back.png', 
@@ -28,7 +28,7 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (2
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (255, 'Spawning Point', 'Start', 0);
 
 --Clan Earth Shrine Chunin --CardIndex 741 --CharacterIndex 351 --ExploreCharacterIndex 256
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (741, 
 'Clan Earth Shrine Chunin',
 'http://htkb.info/SDE/FK/Cards/Warbands/Clan_Earth_Shrine/Card_Warband_Clan_Earth_Shrine_Chunin_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Warbands/Clan_Earth_Shrine/Card_Warband_Clan_Earth_Shrine_Chunin_FK_back.png', 
@@ -52,7 +52,7 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (2
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (256, 'Elite', '16 Bit', 2);
 
 --Clan Earth Shrine Kaiken --CardIndex 742 --CharacterIndex 352 --ExploreCharacterIndex 257
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (742, 
 'Clan Earth Shrine Kaiken',
 'http://htkb.info/SDE/FK/Cards/Warbands/Clan_Earth_Shrine/Card_Warband_Clan_Earth_Shrine_Kaiken_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Warbands/Clan_Earth_Shrine/Card_Warband_Clan_Earth_Shrine_Kaiken_FK_back.png', 
@@ -74,7 +74,7 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (2
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (257, 'Minion', '8 Bit', 1);
 
 --Clan Earth Shrine Kunoichi --CardIndex 743 --CharacterIndex 353 --ExploreCharacterIndex 258
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (743, 
 'Clan Earth Shrine Kunoichi',
 'http://htkb.info/SDE/FK/Cards/Warbands/Clan_Earth_Shrine/Card_Warband_Clan_Earth_Shrine_Kunoichi_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Warbands/Clan_Earth_Shrine/Card_Warband_Clan_Earth_Shrine_Kunoichi_FK_back.png', 
@@ -97,7 +97,7 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (2
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (258, 'Elite', '8 Bit', 1);
 
 --Clan Earth Shrine Madoushi --CardIndex 744 --CharacterIndex 354 --ExploreCharacterIndex 259
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (744, 
 'Clan Earth Shrine Madoushi',
 'http://htkb.info/SDE/FK/Cards/Warbands/Clan_Earth_Shrine/Card_Warband_Clan_Earth_Shrine_Madoushi_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Warbands/Clan_Earth_Shrine/Card_Warband_Clan_Earth_Shrine_Madoushi_FK_back.png', 
@@ -123,7 +123,7 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (2
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (259, 'Elite', '8 Bit', 2);
 
 --Clan Earth Shrine Yajiri --CardIndex 745 --CharacterIndex 355 --ExploreCharacterIndex 260
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (745, 
 'Clan Earth Shrine Yajiri',
 'http://htkb.info/SDE/FK/Cards/Warbands/Clan_Earth_Shrine/Card_Warband_Clan_Earth_Shrine_Yajiri_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Warbands/Clan_Earth_Shrine/Card_Warband_Clan_Earth_Shrine_Yajiri_FK_back.png', 
@@ -147,7 +147,7 @@ insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (260
 
 --Clan Air Shrine
 --Clan Air Shrine --CardIndex 746 --CharacterIndex 356 --ExploreCharacterIndex 261
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (746, 
 'Clan Air Shrine',
 'http://htkb.info/SDE/FK/Cards/Warbands/Clan_Air_Shrine/Card_Warband_Clan_Air_Shrine_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Warbands/Clan_Air_Shrine/Card_Warband_Clan_Air_Shrine_FK_back.png', 
@@ -170,7 +170,7 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (2
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (261, 'Spawning Point', 'Start', 0);
 
 --Clan Air Shrine Chunin --CardIndex 747 --CharacterIndex 357 --ExploreCharacterIndex 262
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (747, 
 'Clan Air Shrine Chunin',
 'http://htkb.info/SDE/FK/Cards/Warbands/Clan_Air_Shrine/Card_Warband_Clan_Air_Shrine_Chunin_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Warbands/Clan_Air_Shrine/Card_Warband_Clan_Air_Shrine_Chunin_FK_back.png', 
@@ -194,7 +194,7 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (2
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (262, 'Elite', '16 Bit', 2);
 
 --Clan Air Shrine Kaiken --CardIndex 748 --CharacterIndex 358 --ExploreCharacterIndex 263
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (748, 
 'Clan Air Shrine Kaiken',
 'http://htkb.info/SDE/FK/Cards/Warbands/Clan_Air_Shrine/Card_Warband_Clan_Air_Shrine_Kaiken_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Warbands/Clan_Air_Shrine/Card_Warband_Clan_Air_Shrine_Kaiken_FK_back.png', 
@@ -216,7 +216,7 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (2
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (263, 'Minion', '8 Bit', 1);
 
 --Clan Air Shrine Kunoichi --CardIndex 749 --CharacterIndex 359 --ExploreCharacterIndex 264
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (749, 
 'Clan Air Shrine Kunoichi',
 'http://htkb.info/SDE/FK/Cards/Warbands/Clan_Air_Shrine/Card_Warband_Clan_Air_Shrine_Kunoichi_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Warbands/Clan_Air_Shrine/Card_Warband_Clan_Air_Shrine_Kunoichi_FK_back.png', 
@@ -239,7 +239,7 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (2
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (264, 'Elite', '8 Bit', 1);
 
 --Clan Air Shrine Madoushi --CardIndex 750 --CharacterIndex 360 --ExploreCharacterIndex 265
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (750, 
 'Clan Air Shrine Madoushi',
 'http://htkb.info/SDE/FK/Cards/Warbands/Clan_Air_Shrine/Card_Warband_Clan_Air_Shrine_Madoushi_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Warbands/Clan_Air_Shrine/Card_Warband_Clan_Air_Shrine_Madoushi_FK_back.png', 
@@ -265,7 +265,7 @@ insert into DefenseAssignments (ExploreCharacterIndex, AttributeIndex) VALUES (2
 insert into Monsters (ExploreCharacterIndex, RankType, Bits, Skulls) VALUES (265, 'Elite', '8 Bit', 2);
 
 --Clan Air Shrine Yajiri --CardIndex 751 --CharacterIndex 361 --ExploreCharacterIndex 266
-insert into Cards (Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (
+insert into Cards (ComponentIndex, Name, PictureFront, PictureBack, Link, CardType, ProductSet, ProductModule, PlayMode, Flavor) VALUES (751, 
 'Clan Air Shrine Yajiri',
 'http://htkb.info/SDE/FK/Cards/Warbands/Clan_Air_Shrine/Card_Warband_Clan_Air_Shrine_Yajiri_FK.png', 
 'http://htkb.info/SDE/FK/Cards/Warbands/Clan_Air_Shrine/Card_Warband_Clan_Air_Shrine_Yajiri_FK_back.png', 
